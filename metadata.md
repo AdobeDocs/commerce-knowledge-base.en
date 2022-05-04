@@ -1,10 +1,10 @@
 ---
 cloud: Experience Cloud
-solution: Experience Cloud
-product: experience cloud
+solution: Commerce
+product: magento
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/template.en
+git-repo: https://github.com/AdobeDocs/commerce-knowledge-base.en
 index: no
 ---
 
