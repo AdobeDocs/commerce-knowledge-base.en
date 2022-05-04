@@ -1,7 +1,10 @@
 ---
-title: Composer install command overides .gitignore file, Adobe Commerce
+description: This article provides a solution for when a tracked `.gitignore` file is overriden by composer on Adobe Commerce on cloud infrastructure 2.4.2-p1 and 2.3.7.
 labels: troubleshooting,composer,github,Adobe Commerce,2.4.2-p1,2.3.7,cloud infrastructure
+title: Composer install command overides .gitignore file, Adobe Commerce
 ---
+
+# Composer install command overides .gitignore file, Adobe Commerce
 
 This article provides a solution for when a tracked `.gitignore` file is overriden by composer on Adobe Commerce on cloud infrastructure 2.4.2-p1 and 2.3.7.
 

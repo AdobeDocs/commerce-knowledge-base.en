@@ -1,8 +1,11 @@
 ---
-title: Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4
+description: Adobe Commerce on cloud infrastructure 2.4.4 will not support versions of Elasticsearch after 7.10. **You must upgrade to Adobe Commerce 2.4.4 first and then immediately switch from Elasticsearch to OpenSearch 1.2.x.** Adobe will provide detailed instructions closer to the Adobe Commerce 2.4.4 GA release.
 labels: 2.4.4,Adobe Commerce,cloud infrastructure,announcements,Elasticsearch 7.10, Elasticsearch 7.16,End of Life,Opensearch 1.2.x,on-premises
-promoted: True
+promoted: true
+title: Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4
 ---
+
+# Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4
 
 Adobe Commerce on cloud infrastructure 2.4.4 will not support versions of Elasticsearch after 7.10. **You must upgrade to Adobe Commerce 2.4.4 first and then immediately switch from Elasticsearch to OpenSearch 1.2.x.** Adobe will provide detailed instructions closer to the Adobe Commerce 2.4.4 GA release.
 

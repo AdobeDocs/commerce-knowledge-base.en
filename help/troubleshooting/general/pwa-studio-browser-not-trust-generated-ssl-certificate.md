@@ -1,7 +1,10 @@
 ---
-title: "PWA Studio: browser not trust generated SSL certificate"
+description: This article provides a solution to an untrusted, generated SSL certificate warning in your browser when you navigate to a local instance of your PWA Studio storefront during development.
 labels: Magento PWA,troubleshooting,browser,PWA,SSL,certificate,PWA Studio for Adobe Commerce
+title: 'PWA Studio: browser not trust generated SSL certificate'
 ---
+
+# PWA Studio: browser not trust generated SSL certificate
 
 This article provides a solution to an untrusted, generated SSL certificate warning in your browser when you navigate to a local instance of your PWA Studio storefront during development.
 

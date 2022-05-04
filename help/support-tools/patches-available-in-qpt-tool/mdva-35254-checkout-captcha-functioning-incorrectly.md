@@ -1,7 +1,10 @@
 ---
-title: "MDVA-35254: Checkout CAPTCHA functioning incorrectly"
+description: The MDVA-35254 patch fixes the issue with CAPTCHA fields not displaying after an unsuccessful number of attempts in checkout for third-party payment. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35254. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,3rd-party payment,CAPTCHA,QPT 1.0.19,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,cart,checkout,unsuccessful payment attempts,Adobe Commerce,cloud infrastructure,on-premises
+title: 'MDVA-35254: Checkout CAPTCHA functioning incorrectly'
 ---
+
+# MDVA-35254: Checkout CAPTCHA functioning incorrectly
 
 The MDVA-35254 patch fixes the issue with CAPTCHA fields not displaying after an unsuccessful number of attempts in checkout for third-party payment. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35254. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 

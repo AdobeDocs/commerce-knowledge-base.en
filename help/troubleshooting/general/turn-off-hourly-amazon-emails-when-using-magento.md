@@ -1,7 +1,10 @@
 ---
-title: Turn off hourly Amazon emails when using Adobe Commerce
+description: I receive an email from Amazon every hour. Is the module doing this?
 labels: Amazon,Magento Commerce,Magento Commerce Cloud,email,troubleshooting,Adobe Commerce
+title: Turn off hourly Amazon emails when using Adobe Commerce
 ---
+
+# Turn off hourly Amazon emails when using Adobe Commerce
 
 ## Question
 

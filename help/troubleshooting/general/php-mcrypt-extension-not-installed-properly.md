@@ -1,7 +1,10 @@
 ---
-title: PHP mcrypt extension not installed properly
+description: 'Errors can include the following:'
 labels: Magento Commerce,Magento Commerce Cloud,PHP,deprecated,extension,how to,mcrypt,Adobe Commerce,cloud infrastructure,on-premises
+title: PHP mcrypt extension not installed properly
 ---
+
+# PHP mcrypt extension not installed properly
 
 >![warning]
 >

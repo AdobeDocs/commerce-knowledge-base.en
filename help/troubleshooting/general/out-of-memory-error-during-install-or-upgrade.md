@@ -1,7 +1,10 @@
 ---
-title: Out of memory error during install or upgrade
+description: This article talks about solutions for the out of memory error during installing/upgrading Adobe Commerce on-premises and Magento Open Source on-premises products.
 labels: 2.3.x,Magento Commerce,PHP,how to,out of memory,troubleshooting,web setup wizard,Adobe Commerce,on-premises,Magento Open Source
+title: Out of memory error during install or upgrade
 ---
+
+# Out of memory error during install or upgrade
 
 This article talks about solutions for the out of memory error during installing/upgrading Adobe Commerce on-premises and Magento Open Source on-premises products.
 

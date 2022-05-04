@@ -1,7 +1,10 @@
 ---
-title: Empty shopping cart issue when multiple click on checkout from mini cart
+description: This article provides a patch for a known Adobe Commerce 2.2.3 issue related to a shopping cart being empty after customers click **Go to Checkout** multiple times in the mini shopping cart.
 labels: 2.2.3,2.2.5,Magento Commerce,checkout,empty cart,known issues,minicart,patch,troubleshooting,on-premises,cloud infrastructure
+title: Empty shopping cart issue when multiple click on checkout from mini cart
 ---
+
+# Empty shopping cart issue when multiple click on checkout from mini cart
 
 This article provides a patch for a known Adobe Commerce 2.2.3 issue related to a shopping cart being empty after customers click **Go to Checkout** multiple times in the mini shopping cart.
 

@@ -1,7 +1,10 @@
 ---
-title: General custom module troubleshooting help
+description: This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce.
 labels: Magento Commerce,Magento Commerce Cloud,custom,log,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Pro,Starter
+title: General custom module troubleshooting help
 ---
+
+# General custom module troubleshooting help
 
 This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce.
 

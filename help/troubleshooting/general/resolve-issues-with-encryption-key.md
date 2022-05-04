@@ -1,7 +1,10 @@
 ---
-title: Resolve issues with encryption key
+description: This article talks about how to fix the issues caused by the encryption key not being moved together with DB dump to the other environment.
 labels: 2.2.x,2.3.x,Magento Commerce Cloud,crypt_key,database,encryption,how to,Adobe Commerce,cloud infrastructure
+title: Resolve issues with encryption key
 ---
+
+# Resolve issues with encryption key
 
 This article talks about how to fix the issues caused by the encryption key not being moved together with DB dump to the other environment.
 

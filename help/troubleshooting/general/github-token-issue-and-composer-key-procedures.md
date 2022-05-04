@@ -1,7 +1,10 @@
 ---
-title: Github token issue and Composer key procedures
+description: This article provides solutions for the issue of failed deployments related to Github token failures caused by outdated Composer keys.
 labels: Magento Commerce,Magento Commerce Cloud,GitHub,token,Composer key,troubleshooting,failed deployment,fail,Git,Adobe Commerce,cloud infrastructure,on-premises
+title: Github token issue and Composer key procedures
 ---
+
+# Github token issue and Composer key procedures
 
 This article provides solutions for the issue of failed deployments related to Github token failures caused by outdated Composer keys.
 

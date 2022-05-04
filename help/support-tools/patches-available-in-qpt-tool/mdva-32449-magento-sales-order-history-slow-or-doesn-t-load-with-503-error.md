@@ -1,7 +1,10 @@
 ---
-title: "MDVA-32449: sales order history slow or doesn't load with 503 error"
+description: The MDVA-32449 patch solves the issue on Adobe Commerce where the sales order history loads slowly or does not load and displays a 503 error. This is an issue when 13000+ customers are assigned to a B2B company. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that this issue was fixed in Adobe Commerce 2.4.1.
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.1,503,QPT 1.0.12,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,error,orders,sales order history,slow,slow performance,slow response,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
+title: 'MDVA-32449: sales order history slow or doesn''t load with 503 error'
 ---
+
+# MDVA-32449: sales order history slow or doesn't load with 503 error
 
 The MDVA-32449 patch solves the issue on Adobe Commerce where the sales order history loads slowly or does not load and displays a 503 error. This is an issue when 13000+ customers are assigned to a B2B company. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that this issue was fixed in Adobe Commerce 2.4.1.
 

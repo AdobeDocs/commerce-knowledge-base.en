@@ -1,7 +1,10 @@
 ---
-title: Do I need Fastly for a Headless Adobe Commerce site?
+description: I am developing a headless implementation of Adobe Commerce. Do I still need to use Fastly as a CDN service for it?
 labels: DDOS,FAQ,Fastly,Magento,Magento Commerce Cloud,Pro,SSL,Starter,WAF,headless,production,staging,Adobe Commerce,cloud infrastructure
+title: Do I need Fastly for a Headless Adobe Commerce site?
 ---
+
+# Do I need Fastly for a Headless Adobe Commerce site?
 
 >![info]
 >

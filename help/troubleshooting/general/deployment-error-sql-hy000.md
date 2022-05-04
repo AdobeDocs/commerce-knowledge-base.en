@@ -1,7 +1,10 @@
 ---
-title: "Deployment error: SQLSTATE[HY000]"
+description: This article provides a solution for the issue where deployment fails because of the SQLSTATE[HY000] error.
 labels: Magento Commerce Cloud,command line,troubleshooting,deployment error,Adobe Commerce,on-premise,cloud infrastructure,SQLSTATE
+title: 'Deployment error: SQLSTATE[HY000]'
 ---
+
+# Deployment error: SQLSTATE[HY000]
 
 This article provides a solution for the issue where deployment fails because of the SQLSTATE[HY000] error.
 

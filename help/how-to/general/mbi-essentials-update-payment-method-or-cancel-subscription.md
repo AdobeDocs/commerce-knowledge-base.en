@@ -1,7 +1,10 @@
 ---
-title: "MBI Essentials: update payment method or cancel subscription"
+description: This article explains how month-to-month Magento MBI Essentials clients can cancel their subscriptions or update their payment method for their existing subscriptions.
 labels: MBI,MBI Essentials,Magento Business Intelligence,how to,license,payment method,payments
+title: 'MBI Essentials: update payment method or cancel subscription'
 ---
+
+# MBI Essentials: update payment method or cancel subscription
 
 This article explains how month-to-month Magento MBI Essentials clients can cancel their subscriptions or update their payment method for their existing subscriptions.
 

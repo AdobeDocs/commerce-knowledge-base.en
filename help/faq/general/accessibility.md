@@ -1,7 +1,10 @@
 ---
-title: Web Content Accessibility for Adobe Commerce
+description: 'We understand the importance of accessibility at Adobe. While the responsibility for accessibility is with the partner/merchant, we continue to improve our accessibility with each release which will also be included in our accessibility improvement plans for 2022.  '
 labels: Magento,Adobe Commerce,accessibility,Marketplace
+title: Web Content Accessibility for Adobe Commerce
 ---
+
+# Web Content Accessibility for Adobe Commerce
 
 We understand the importance of accessibility at Adobe. While the responsibility for accessibility is with the partner/merchant, we continue to improve our accessibility with each release which will also be included in our accessibility improvement plans for 2022.  
 

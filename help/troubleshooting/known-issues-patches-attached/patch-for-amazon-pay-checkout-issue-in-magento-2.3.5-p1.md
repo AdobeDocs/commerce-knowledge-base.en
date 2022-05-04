@@ -1,7 +1,10 @@
 ---
-title: Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1
+description: This patch resolves the issue with inability to change a payment method on checkout "Review & Payments" step from the payments widget, while checking out with Amazon Pay in Adobe Commerce.
 labels: 2.3.5-p1,Amazon Pay,Magento Commerce,Magento Commerce Cloud,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1
 ---
+
+# Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1
 
 This patch resolves the issue with inability to change a payment method on checkout "Review & Payments" step from the payments widget, while checking out with Amazon Pay in Adobe Commerce.
 

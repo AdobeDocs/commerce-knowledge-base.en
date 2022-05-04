@@ -1,9 +1,12 @@
 ---
-title: Can I install third-party applications on my cloud instance?
+description: No. Installing third-party apps (like WordPress or Drupal) on the Adobe Commerce on cloud infrastructure servers is not allowed. You must host such applications on external servers.
 labels: FAQ,Magento Commerce Cloud,PCI,data,security,third-party_applications,Adobe Commerce,cloud infrastructure
+title: Can I install third-party applications on my cloud instance?
 ---
 
- No. Installing third-party apps (like WordPress or Drupal) on the Adobe Commerce on cloud infrastructure servers is not allowed. You must host such applications on external servers.
+# Can I install third-party applications on my cloud instance?
+
+No. Installing third-party apps (like WordPress or Drupal) on the Adobe Commerce on cloud infrastructure servers is not allowed. You must host such applications on external servers.
 
 ## Reasons
 

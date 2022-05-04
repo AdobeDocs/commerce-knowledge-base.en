@@ -1,7 +1,10 @@
 ---
-title: Adobe Commerce Help Center User Guide
+description: Learn how to submit a support ticket to the Adobe Commerce Help Center, provide shared access to accounts, and navigate the Adobe Commerce Knowledge Base.
 labels: Magento,help center,how to,shared access,shared account,support ticket,user guide,knowledge base,DevDocs,search articles,Help Center Login,submit tickets,Magento help center,Magento P1 hotline,Magento Account page,Magento cloud account page,track tickets,ticket status,resolve ticket,follow-up ticket,delete shared access,access shared account,switch accounts,ticketing system,my tickets,articles categories,Adobe Commerce
+title: Adobe Commerce Help Center User Guide
 ---
+
+# Adobe Commerce Help Center User Guide
 
 Learn how to submit a support ticket to the Adobe Commerce Help Center, provide shared access to accounts, and navigate the Adobe Commerce Knowledge Base.
 

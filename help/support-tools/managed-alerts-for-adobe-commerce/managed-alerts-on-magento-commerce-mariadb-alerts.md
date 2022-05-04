@@ -1,7 +1,10 @@
 ---
-title: "Managed alerts on Adobe Commerce: MariaDB alerts"
+description: 'This article provides troubleshooting steps when you receive MariaDB alerts for Adobe Commerce in New Relic. The MariaDB alerts monitor high query load as well as excessive Data Manipulation Language (DML) queries. Both can lead to a degraded user experience or even downtime. You can receive four kinds of alerts:'
 labels: Magento Commerce Cloud,MariaDB,New Relic,Pro,alert,data,database,mysql,performance,queries,support tools,warning,Adobe Commerce,cloud infrastructure
+title: 'Managed alerts on Adobe Commerce: MariaDB alerts'
 ---
+
+# Managed alerts on Adobe Commerce: MariaDB alerts
 
 This article provides troubleshooting steps when you receive MariaDB alerts for Adobe Commerce in New Relic. The MariaDB alerts monitor high query load as well as excessive Data Manipulation Language (DML) queries. Both can lead to a degraded user experience or even downtime. You can receive four kinds of alerts:
 

@@ -1,7 +1,10 @@
 ---
-title: Environment redeployment failed or MySQL server gone away
+description: This article provides a solution for Adobe Commerce (all deployment methods) issues, where the outage of space allocated for MySQL causes stuck deployment or database connection errors.
 labels: Magento Commerce,Magento Commerce Cloud,deployment,mysql,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Pro,Starter
+title: Environment redeployment failed or MySQL server gone away
 ---
+
+# Environment redeployment failed or MySQL server gone away
 
 This article provides a solution for Adobe Commerce (all deployment methods) issues, where the outage of space allocated for MySQL causes stuck deployment or database connection errors.
 

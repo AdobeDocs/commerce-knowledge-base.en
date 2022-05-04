@@ -1,7 +1,10 @@
 ---
-title: "MDVA-30112: large number reservation inconsistencies"
+description: The MDVA-30112 patch solves the issue where you have an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in the `inventory_reservation` table. Reservation inconsistencies include unregistered open orders and complete orders that are not registered. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,2.4.1,Inventory,QPT 1.0.8,Magento Commerce Cloud,Quality Patches Tool,data discrepancies,orders,support tools,Adobe Commerce,cloud infrastructure,on-premises
+title: 'MDVA-30112: large number reservation inconsistencies'
 ---
+
+# MDVA-30112: large number reservation inconsistencies
 
 The MDVA-30112 patch solves the issue where you have an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in the `inventory_reservation` table. Reservation inconsistencies include unregistered open orders and complete orders that are not registered. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
 

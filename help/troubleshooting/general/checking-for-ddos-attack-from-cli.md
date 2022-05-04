@@ -1,7 +1,10 @@
 ---
-title: Checking for DDoS attack from CLI
+description: This article talks about the issue of how to try to check for Distributed Denial of Service (DDoS) attacks from your server's Command Line Interface (CLI).
 labels: DDOS,Magento Commerce,Magento Commerce Cloud,attack,grep,netstat,troubleshooting,Adobe Commerce,Magento Open Source,cloud infrastructure
+title: Checking for DDoS attack from CLI
 ---
+
+# Checking for DDoS attack from CLI
 
 This article talks about the issue of how to try to check for Distributed Denial of Service (DDoS) attacks from your server's Command Line Interface (CLI).
 

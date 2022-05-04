@@ -1,7 +1,10 @@
 ---
-title: Best practice for images in Adobe Commerce on cloud infrastructure
+description: This article provides best practices for managing images in Adobe Commerce on cloud infrastructure to save space.
 labels: 2.3.x,Magento Commerce Cloud,best practices,images,performance,space,Fastly,Magento,Adobe Commerce,cloud infrastructure
+title: Best practice for images in Adobe Commerce on cloud infrastructure
 ---
+
+# Best practice for images in Adobe Commerce on cloud infrastructure
 
 This article provides best practices for managing images in Adobe Commerce on cloud infrastructure to save space.
 

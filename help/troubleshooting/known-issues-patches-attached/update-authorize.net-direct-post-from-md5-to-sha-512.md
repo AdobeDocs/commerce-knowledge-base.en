@@ -1,7 +1,10 @@
 ---
-title: Update Authorize.Net Direct Post from MD5 to SHA-512
+description: UPDATED on April 12th, 2019
 labels: 2.1.x,2.2.x,Authorize.net,Direct Post,MDA,Magento Commerce,Magento Commerce Cloud,SHA,deprecated,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: Update Authorize.Net Direct Post from MD5 to SHA-512
 ---
+
+# Update Authorize.Net Direct Post from MD5 to SHA-512
 
 UPDATED on April 12th, 2019
 

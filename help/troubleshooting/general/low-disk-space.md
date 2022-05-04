@@ -1,7 +1,10 @@
 ---
-title: Low disk space
+description: This article suggests solutions for the situation when you run out of space on a certain environment of Adobe Commerce on cloud infrastructure.
 labels: 2.2.x,2.3.x,Magento Commerce Cloud,cron,disk space,how to,Adobe Commerce,cloud infrastructure,Pro,Starter
+title: Low disk space
 ---
+
+# Low disk space
 
 This article suggests solutions for the situation when you run out of space on a certain environment of Adobe Commerce on cloud infrastructure.
 
@@ -47,4 +50,4 @@ To check how much space you have for each environment:
 1. In the upper right corner, click **<your name>** > **Account Settings**.    
 1. On the project tab, see the amount specified, for example:
 
-    ![project_space.png](assets/project_space.png)    
+    ![project_space.png](assets/project_space.png)

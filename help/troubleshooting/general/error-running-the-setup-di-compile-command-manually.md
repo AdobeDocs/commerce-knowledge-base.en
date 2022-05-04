@@ -1,7 +1,10 @@
 ---
-title: Error running the `setup:di:compile` command manually
+description: This article provides a fix for when running the `setup:di:compile` command manually on Adobe Commerce on cloud infrastructure fails with an error (see the **Issue** section below) because the command tries to access the `var/di` and `var/generation` directories, which are read-only.
 labels: Magento Commerce Cloud,generated_code_symlink,setup:di:compile,troubleshooting,Adobe Commerce,cloud infrastructure
+title: Error running the `setup:di:compile` command manually
 ---
+
+# Error running the `setup:di:compile` command manually
 
 This article provides a fix for when running the `setup:di:compile` command manually on Adobe Commerce on cloud infrastructure fails with an error (see the **Issue** section below) because the command tries to access the `var/di` and `var/generation` directories, which are read-only.
 

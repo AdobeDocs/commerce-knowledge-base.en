@@ -1,7 +1,10 @@
 ---
-title: Optimize CSS and JS files in Adobe Commerce
+description: This article provides best practices for CSS and Javascript (JS) file optimization in Adobe Commerce.
 labels: 2.3,CSS,Javascript,Magento Commerce,Magento Commerce Cloud,best practices,configuration,file optimization,performance,Adobe Commerce,cloud infrastructure
+title: Optimize CSS and JS files in Adobe Commerce
 ---
+
+# Optimize CSS and JS files in Adobe Commerce
 
 This article provides best practices for CSS and Javascript (JS) file optimization in Adobe Commerce.
 

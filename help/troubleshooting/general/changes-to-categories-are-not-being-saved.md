@@ -1,7 +1,10 @@
 ---
-title: Changes to categories are not being saved
+description: This article provides a fix for when updating product categories via the Commerce Admin, the changes are not displayed on the Admin and storefront. The problem is caused by the corrupted data in the `catalog_category_entity` table. To solve the issue, fix or remove the problematic category update records in the table. After that, you should be able to update product categories using the Admin.
 labels: Magento Commerce,catalog,category,troubleshooting,Adobe Commerce,admin,storefront,update records
+title: Changes to categories are not being saved
 ---
+
+# Changes to categories are not being saved
 
 This article provides a fix for when updating product categories via the Commerce Admin, the changes are not displayed on the Admin and storefront. The problem is caused by the corrupted data in the `catalog_category_entity` table. To solve the issue, fix or remove the problematic category update records in the table. After that, you should be able to update product categories using the Admin.
 

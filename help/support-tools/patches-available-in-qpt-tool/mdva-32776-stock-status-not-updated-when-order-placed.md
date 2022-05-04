@@ -1,7 +1,10 @@
 ---
-title: "MDVA-32776: Stock status not updated with order placement"
+description: The MDVA-32776 patch fixes the issue where the stock status is not updated when an order is placed but not shipped. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-32776. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.6,Adobe Commerce,cloud infrastructure,on-premises,stock status,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2
+title: 'MDVA-32776: Stock status not updated with order placement'
 ---
+
+# MDVA-32776: Stock status not updated with order placement
 
 The MDVA-32776 patch fixes the issue where the stock status is not updated when an order is placed but not shipped. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-32776. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 

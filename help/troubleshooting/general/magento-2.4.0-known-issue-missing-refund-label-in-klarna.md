@@ -1,7 +1,10 @@
 ---
-title: 'Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna'
+description: This article provides a workaround for a known issue in Admin for a missing **Refund** label in Klarna VBE (Vendor Bundled Extension). When in the Klarna portal conducting a refund, the **Refund** label is not displayed next to the Bundled product which was refunded.
 labels: 2.4.0,Klarna,Magento Commerce,Magento Commerce Cloud,known issues,label,refund,Adobe Commerce,cloud infrastructure,on-premises
+title: 'Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna'
 ---
+
+# Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna
 
 This article provides a workaround for a known issue in Admin for a missing **Refund** label in Klarna VBE (Vendor Bundled Extension). When in the Klarna portal conducting a refund, the **Refund** label is not displayed next to the Bundled product which was refunded.
 

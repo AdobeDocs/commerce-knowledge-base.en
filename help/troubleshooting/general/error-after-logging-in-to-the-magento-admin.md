@@ -1,7 +1,10 @@
 ---
-title: Error after logging in to the Commerce Admin
+description: This article provides a solution for the issue where you receive an error message saying that the requested URL was not found on this server.
 labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,admin,base URL,base_url,error,how to,slash,Adobe Commerce,cloud infrastructure
+title: Error after logging in to the Commerce Admin
 ---
+
+# Error after logging in to the Commerce Admin
 
 This article provides a solution for the issue where you receive an error message saying that the requested URL was not found on this server.
 

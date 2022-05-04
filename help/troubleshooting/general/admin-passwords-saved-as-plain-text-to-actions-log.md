@@ -1,7 +1,10 @@
 ---
-title: Admin passwords saved as plain text to actions log
+description: This article provides a fix for when a Commerce Administrator creates a new user with the Administrator privileges and the password is saved as plain text in the `magento_logging_event_changes` database table.
 labels: Magento Commerce,Magento Commerce Cloud,admin password,security,troubleshooting,Magento,Adobe Commerce
+title: Admin passwords saved as plain text to actions log
 ---
+
+# Admin passwords saved as plain text to actions log
 
 This article provides a fix for when a Commerce Administrator creates a new user with the Administrator privileges and the password is saved as plain text in the `magento_logging_event_changes` database table.
 

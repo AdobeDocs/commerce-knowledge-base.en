@@ -1,7 +1,10 @@
 ---
-title: Store credit issue during checkout in Adobe Commerce 2.3.5
+description: This article provides a workaround for the known store credit-related issue during checkout in Adobe Commerce 2.3.5, where shoppers get errors during checkout after selecting and later removing store credit usage. A permanent fix will be available in Adobe Commerce 2.3.6.
 labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,Order Summary,checkout,credit,known issues,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: Store credit issue during checkout in Adobe Commerce 2.3.5
 ---
+
+# Store credit issue during checkout in Adobe Commerce 2.3.5
 
 This article provides a workaround for the known store credit-related issue during checkout in Adobe Commerce 2.3.5, where shoppers get errors during checkout after selecting and later removing store credit usage. A permanent fix will be available in Adobe Commerce 2.3.6.
 

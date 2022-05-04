@@ -1,7 +1,10 @@
 ---
-title: How to apply a composer patch provided by Adobe
+description: This article instructs how to apply a composer patch for Adobe Commerce on-premises, Adobe Commerce on cloud infrastructure, and Magento Open Source.
 labels: Magento Commerce,Magento Commerce Cloud,apply patch,composer,git,how to,patch,Adobe Commerce,cloud infrastructure,on-premises
+title: How to apply a composer patch provided by Adobe
 ---
+
+# How to apply a composer patch provided by Adobe
 
 This article instructs how to apply a composer patch for Adobe Commerce on-premises, Adobe Commerce on cloud infrastructure, and Magento Open Source.
 

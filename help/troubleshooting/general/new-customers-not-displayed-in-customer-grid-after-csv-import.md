@@ -1,6 +1,7 @@
 ---
-title: New customers not displayed in Customer grid after CSV import
+description: This article provides a fix for the issue when you cannot see new customers under **Customers** > **All customers** after an import from a `.csv` file. The solution is to set the `customer_grid` indexer to "Update on Save" mode and manually reindex the customer grid.
 labels: 2.2.x,2.3.x,2.4.x,Magento Commerce,Magento Commerce Cloud,customers,import,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: New customers not displayed in Customer grid after CSV import
 ---
 
 This article provides a fix for the issue when you cannot see new customers under **Customers** > **All customers** after an import from a `.csv` file. The solution is to set the `customer_grid` indexer to "Update on Save" mode and manually reindex the customer grid.

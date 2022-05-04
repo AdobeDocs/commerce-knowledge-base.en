@@ -1,7 +1,10 @@
 ---
-title: Blank page or redirect loop error when accessing storefront or Commerce Admin
+description: This article provides a solution for the issue when you access Adobe Commerce storefront or backend and you get a blank page or redirect loop.
 labels: Magento Admin,Magento Commerce,Magento Commerce Cloud,blank,redirect,troubleshooting,Commerce Admin,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
+title: Blank page or redirect loop error when accessing storefront or Commerce Admin
 ---
+
+# Blank page or redirect loop error when accessing storefront or Commerce Admin
 
 This article provides a solution for the issue when you access Adobe Commerce storefront or backend and you get a blank page or redirect loop.
 

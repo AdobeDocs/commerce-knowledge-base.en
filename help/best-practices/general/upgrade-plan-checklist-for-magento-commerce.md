@@ -1,7 +1,10 @@
 ---
-title: Upgrade plan checklist for Adobe Commerce
+description: "Use this checklist during your annual and quarterly conversations with your ecommerce team. Many companies work from annual budgets and roadmaps. It is imperative, during these annual discussions, that you talk about your platform\u2019s health, direction, and upgrade strategy for the year, along with how it fits into the overall goals and KPIs of the business. During quarterly conversations, make sure the annual plan you created is still aligned with your current situation or pivot if not. The goal of this Upgrade Plan Checklist is to help you plan and schedule Adobe Commerce upgrades, to ensure a successful upgrade process during the year. This checklist is meant to be used on annual planning and reviewed quarterly. This checklist is intended for:"
 labels: Certification program,Magento Commerce,Magento Commerce Cloud,Site-Wide Analysis Tool,Upgrade Compatibility Tool,best practices,deployment,extensions,security,third-party extensions,update,upgrade,Adobe Commerce
+title: Upgrade plan checklist for Adobe Commerce
 ---
+
+# Upgrade plan checklist for Adobe Commerce
 
 Use this checklist during your annual and quarterly conversations with your ecommerce team. Many companies work from annual budgets and roadmaps. It is imperative, during these annual discussions, that you talk about your platform’s health, direction, and upgrade strategy for the year, along with how it fits into the overall goals and KPIs of the business. During quarterly conversations, make sure the annual plan you created is still aligned with your current situation or pivot if not. The goal of this Upgrade Plan Checklist is to help you plan and schedule Adobe Commerce upgrades, to ensure a successful upgrade process during the year. This checklist is meant to be used on annual planning and reviewed quarterly. This checklist is intended for:
 

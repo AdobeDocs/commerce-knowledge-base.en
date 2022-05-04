@@ -1,7 +1,10 @@
 ---
-title: Display Adobe Commerce error report number instead of Fastly 503 error
+description: 'By default, Fastly hides all Adobe Commerce errors behind the **503 Service Unavailable** error. To display the Adobe Commerce error log report number (to be able to find it in logs and see the error details), open the website omitting Fastly using these steps:'
 labels: 503,Fastly,Magento Commerce Cloud,Pro,debug,error,how to,production,reports,staging,Adobe Commerce,cloud infrastructure
+title: Display Adobe Commerce error report number instead of Fastly 503 error
 ---
+
+# Display Adobe Commerce error report number instead of Fastly 503 error
 
 By default, Fastly hides all Adobe Commerce errors behind the **503 Service Unavailable** error. To display the Adobe Commerce error log report number (to be able to find it in logs and see the error details), open the website omitting Fastly using these steps:
 

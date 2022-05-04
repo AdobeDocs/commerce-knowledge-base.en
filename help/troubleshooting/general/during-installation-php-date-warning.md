@@ -1,7 +1,10 @@
 ---
-title: During installation, PHP date warning
+description: This article provides a fix for a PHP date warning during installation.
 labels: PHP,date,how to,timezone,warning,Adobe Commerce,Magento,installation
+title: During installation, PHP date warning
 ---
+
+# During installation, PHP date warning
 
 This article provides a fix for a PHP date warning during installation.
 

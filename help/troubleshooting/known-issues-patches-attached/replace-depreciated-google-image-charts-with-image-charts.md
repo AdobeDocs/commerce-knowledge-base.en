@@ -1,7 +1,10 @@
 ---
-title: Replace depreciated Google Image Charts with Image-Charts
+description: Most Adobe Commerce editions and versions currently use [Google Image Charts](https://developers.google.com/chart/image/) to render static charts in Admin dashboards. As of March 14, 2019, Google will stop supporting Google Image Charts. To resolve this issue, we are providing a patch to replace Google Image Charts with [Image-Charts](https://www.image-charts.com/) free service.
 labels: Google Image Charts,Magento Commerce,Magento Commerce Cloud,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
+title: Replace depreciated Google Image Charts with Image-Charts
 ---
+
+# Replace depreciated Google Image Charts with Image-Charts
 
 Most Adobe Commerce editions and versions currently use [Google Image Charts](https://developers.google.com/chart/image/) to render static charts in Admin dashboards. As of March 14, 2019, Google will stop supporting Google Image Charts. To resolve this issue, we are providing a patch to replace Google Image Charts with [Image-Charts](https://www.image-charts.com/) free service.
 

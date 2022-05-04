@@ -1,7 +1,10 @@
 ---
-title: Cron readiness check issues
+description: 'This article provides solutions for cron readiness issues. The following are symptoms of cron issues:'
 labels: Magento Commerce,Magento Commerce Cloud,PHP,check,cron,crontab,how to,readiness,Adobe Commerce,cloud infrastructure,on-premises
+title: Cron readiness check issues
 ---
+
+# Cron readiness check issues
 
 This article provides solutions for cron readiness issues. The following are symptoms of cron issues:
 

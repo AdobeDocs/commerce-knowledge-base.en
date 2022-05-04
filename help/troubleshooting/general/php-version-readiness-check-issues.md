@@ -1,7 +1,10 @@
 ---
-title: PHP version readiness check issues
+description: This article talks about the solutions for the PHP version issues you might face when installing/upgrading Adobe Commerce on-premises using the Web Setup Wizard.
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,PHP version,how to,troubleshooting,web setup wizard,Magento Open Source,Adobe Commerce,cloud infrastructure,on-premises
+title: PHP version readiness check issues
 ---
+
+# PHP version readiness check issues
 
 This article talks about the solutions for the PHP version issues you might face when installing/upgrading Adobe Commerce on-premises using the Web Setup Wizard.
 
@@ -56,4 +59,4 @@ To resolve the issue, try the following:
 * Make sure you're running a supported PHP version according to our system requirements, in our developer documentation:    
     * [Adobe Commerce 2.3.x System Requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html)
     * [Adobe Commerce 2.2.x System Requirements](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html)
-* Set the same PHP settings for both the PHP command line and the PHP web server plug-in as discussed in [PHP configuration options](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-centos-ubuntu.html) in our developer documentation.    
+* Set the same PHP settings for both the PHP command line and the PHP web server plug-in as discussed in [PHP configuration options](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-centos-ubuntu.html) in our developer documentation.

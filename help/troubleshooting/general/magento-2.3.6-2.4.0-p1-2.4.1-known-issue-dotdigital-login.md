@@ -1,7 +1,10 @@
 ---
-title: "Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 known issue: dotdigital login"
+description: This article describes an Adobe Commerce 2.3.6, 2.4.0-p1, and 2.4.1 known issue where it is impossible to log in to [dotdigital](https://dotdigital.com/) via the Admin Panel when the dotdigital account is enabled.
 labels: 2.3.6,2.4.0-p1,2.4.1,Magento Commerce,Magento Commerce Cloud,dotdigital,known issues,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: 'Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 known issue: dotdigital login'
 ---
+
+# Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 known issue: dotdigital login
 
 This article describes an Adobe Commerce 2.3.6, 2.4.0-p1, and 2.4.1 known issue where it is impossible to log in to [dotdigital](https://dotdigital.com/) via the Admin Panel when the dotdigital account is enabled.
 

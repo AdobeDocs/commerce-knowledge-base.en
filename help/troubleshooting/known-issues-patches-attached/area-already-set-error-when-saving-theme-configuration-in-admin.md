@@ -1,7 +1,10 @@
 ---
-title: '"Area already set" error when saving theme configuration in Admin'
+description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to getting the *"Area is already set"* error message when trying to set a theme for the Default Store View in the Commerce Admin.
 labels: 2.2.4,Magento Commerce Cloud,area already set,known issues,patch,theme,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: '"Area already set" error when saving theme configuration in Admin'
 ---
+
+# "Area already set" error when saving theme configuration in Admin
 
 This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to getting the *"Area is already set"* error message when trying to set a theme for the Default Store View in the Commerce Admin.
 

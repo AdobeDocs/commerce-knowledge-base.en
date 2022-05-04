@@ -1,7 +1,10 @@
 ---
-title: PHP version error or 404 error when accessing Adobe Commerce in browser
+description: This article provides solutions for the issues where you cannot access your Adobe Commerce instance in a web browser and get 404 error or "unsupported PHP version" error.
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,Magento Commerce,troubleshooting,Adobe Commerce
+title: PHP version error or 404 error when accessing Adobe Commerce in browser
 ---
+
+# PHP version error or 404 error when accessing Adobe Commerce in browser
 
 This article provides solutions for the issues where you cannot access your Adobe Commerce instance in a web browser and get 404 error or "unsupported PHP version" error.
 
@@ -33,4 +36,4 @@ A 404 (Not Found) error displays when you try to access Adobe Commerce storefron
 Try the following:
 
 * Make sure [Apache server rewrites](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html) are enabled. If Apache server rewrites are set incorrectly, static files aren't served from the correct location.
-* There might be an issue with the base URL you entered during the installation. You specify the base URL as the value of `--base-url=` when installing Adobe Commerce from the command line or as the value of the **Your Store Address** field on the Web Configuration page of the web installer. The base URL *must* start with the scheme (such as `http://` ) and end with a trailing slash (/). Run the installer again with a valid value and try accessing Adobe Commerce afterward.    
+* There might be an issue with the base URL you entered during the installation. You specify the base URL as the value of `--base-url=` when installing Adobe Commerce from the command line or as the value of the **Your Store Address** field on the Web Configuration page of the web installer. The base URL *must* start with the scheme (such as `http://` ) and end with a trailing slash (/). Run the installer again with a valid value and try accessing Adobe Commerce afterward.

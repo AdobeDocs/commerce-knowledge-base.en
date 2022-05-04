@@ -1,7 +1,10 @@
 ---
-title: "MBI Training Video: Time Options in the Visual Report Builder"
+description: "In the Visual Report Builder, there are global Time Range and Interval settings that allow you to analyze the data in your report for a **specific time period** . In some cases, however, you may want to analyze **different** Time Ranges or Time Intervals in the same report. That\u2019s where Time Options come in."
 labels: MBI,Magento Business Intelligence,data,database,how to,mbi-api-migration,reports
+title: 'MBI Training Video: Time Options in the Visual Report Builder'
 ---
+
+# MBI Training Video: Time Options in the Visual Report Builder
 
 >![warning]
 >

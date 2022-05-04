@@ -1,7 +1,10 @@
 ---
-title: MBI Webinar Archives
+description: Looking for more? [Ask the community!](https://community.magento.com/t5/Magento-Business-Intelligence/ct-p/analytics)
 labels: Essentials,MBI,Magento Business Intelligence,analysis,data,database,how to,mbi-api-migration,reports
+title: MBI Webinar Archives
 ---
+
+# MBI Webinar Archives
 
 >![warning]
 >

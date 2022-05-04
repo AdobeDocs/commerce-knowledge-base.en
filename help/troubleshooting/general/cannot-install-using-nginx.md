@@ -1,7 +1,10 @@
 ---
-title: Cannot install using nginx
+description: This article provides a fix for a failed Adobe Commerce installation, when using the nginx web server.
 labels: Magento Commerce,Magento Commerce Cloud,fail,how to,install,nginx,Adobe Commerce,cloud infrastructure
+title: Cannot install using nginx
 ---
+
+# Cannot install using nginx
 
 This article provides a fix for a failed Adobe Commerce installation, when using the nginx web server.
 

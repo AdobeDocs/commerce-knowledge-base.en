@@ -1,7 +1,10 @@
 ---
-title: "MBI: Pro Demo"
+description: 'Learn about Magento Business Intelligence Pro in the MBI: Pro video overview.'
 labels: MBI,Magento Business Intelligence,analysis,data,database,how to,mbi-api-migration,reports
+title: 'MBI: Pro Demo'
 ---
+
+# MBI: Pro Demo
 
 >![warning]
 >

@@ -1,7 +1,10 @@
 ---
-title: Change account owner for New Relic on Cloud
+description: For your Adobe Commerce on cloud infrastructure project, you may change the New Relic account owner on the New Relic UI page. For detailed steps, see [Change the account Owner](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner) in New Relic documentation.
 labels: Magento Commerce Cloud,New Relic,account,admin,how to,Adobe Commerce,cloud infrastructure
+title: Change account owner for New Relic on Cloud
 ---
+
+# Change account owner for New Relic on Cloud
 
 For your Adobe Commerce on cloud infrastructure project, you may change the New Relic account owner on the New Relic UI page. For detailed steps, see [Change the account Owner](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner) in New Relic documentation.
 

@@ -1,7 +1,10 @@
 ---
-title: "MDVA-24201: Catalog price rules don't work"
+description: The MDVA-24201 patch solves the issue where active catalog price rules in the database do not apply on the frontend.
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,QPT 1.0.14,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,catalog price rules,database,update,Adobe Commerce,cloud infrastructure,on-premises
+title: 'MDVA-24201: Catalog price rules don''t work'
 ---
+
+# MDVA-24201: Catalog price rules don't work
 
 The MDVA-24201 patch solves the issue where active catalog price rules in the database do not apply on the frontend.
 

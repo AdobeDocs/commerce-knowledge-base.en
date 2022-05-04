@@ -1,7 +1,10 @@
 ---
-title: "MDVA-23845: can't preview email template when JS minification enabled"
+description: The MDVA-23845 Magento patch fixes the issue when unable to preview the email template in Admin when JS minification is enabled.
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,JS minification enabled,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,email template
+title: 'MDVA-23845: can''t preview email template when JS minification enabled'
 ---
+
+# MDVA-23845: can't preview email template when JS minification enabled
 
 The MDVA-23845 Magento patch fixes the issue when unable to preview the email template in Admin when JS minification is enabled.
 

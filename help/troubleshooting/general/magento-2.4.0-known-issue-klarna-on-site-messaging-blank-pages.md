@@ -1,7 +1,10 @@
 ---
-title: "Adobe Commerce 2.4.0 known issue: Klarna On-Site Messaging blank pages"
+description: This article describes a known Adobe Commerce 2.4.0 issue with Klarna payment method, where enabling Klarna on-site messaging without specifying a design theme, results in not displaying product pages on the storefront correctly (product pages appear blank).
 labels: 2.4.0,Klarna,Magento Commerce,Magento Commerce Cloud,design,known issues,on-site messaging,payment,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: 'Adobe Commerce 2.4.0 known issue: Klarna On-Site Messaging blank pages'
 ---
+
+# Adobe Commerce 2.4.0 known issue: Klarna On-Site Messaging blank pages
 
 This article describes a known Adobe Commerce 2.4.0 issue with Klarna payment method, where enabling Klarna on-site messaging without specifying a design theme, results in not displaying product pages on the storefront correctly (product pages appear blank).
 

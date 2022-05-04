@@ -1,7 +1,10 @@
 ---
-title: MySQL and ElasticSearch show different results
+description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting different search results for the same search query with MySQL and ElasticSearch.
 labels: 2.2.3,2.2.6,Magento Commerce,Magento Commerce Cloud,known issues,patch,search,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: MySQL and ElasticSearch show different results
 ---
+
+# MySQL and ElasticSearch show different results
 
 >![warning]
 >
