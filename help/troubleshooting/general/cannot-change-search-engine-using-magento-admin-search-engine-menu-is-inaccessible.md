@@ -1,7 +1,10 @@
 ---
-title: Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
+description: This article provides a solution for changing the Adobe Commerce Search Engine using the Commerce Admin if the **Search Engine** field is not displayed or the **Use system value** checkbox is greyed out and not accessible.
 labels: Magento Commerce,Magento Commerce Cloud,change search engine,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
 ---
+
+# Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
 
 >![warning]
 >

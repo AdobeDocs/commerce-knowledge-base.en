@@ -1,7 +1,10 @@
 ---
-title: Store images not displayed after deployment
+description: This article provides a solution for when images are not being displayed correctly after deployment.
 labels: 2.2.x,2.3.x,Magento Commerce Cloud,SSH,cache,how to,images not displayed,Adobe Commerce,cloud infrastructure
+title: Store images not displayed after deployment
 ---
+
+# Store images not displayed after deployment
 
 This article provides a solution for when images are not being displayed correctly after deployment.
 
@@ -30,4 +33,4 @@ To perform this, you need the SSH information and the store URL available throug
     php bin/magento catalog:images:resize    
     ```    
 
-1. Test the category pages through the store URL.    
+1. Test the category pages through the store URL.

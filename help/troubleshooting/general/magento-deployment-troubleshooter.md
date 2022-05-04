@@ -1,7 +1,10 @@
 ---
-title: Adobe Commerce deployment troubleshooter
+description: "b. NO \u2013 Maintenance or global outages. Check for estimated duration and updates.</p>"
 labels: Troubleshooter,deploy,deployment,deployment error,deployment fails,stuck deployment,Adobe Commerce,cloud infrastructure
+title: Adobe Commerce deployment troubleshooter
 ---
+
+# Adobe Commerce deployment troubleshooter
 
 <div class="zd-accordion">
 <div id="zd-accordion-1" class="zd-accordion-panel">

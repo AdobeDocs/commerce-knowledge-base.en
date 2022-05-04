@@ -1,7 +1,10 @@
 ---
-title: Adobe Commerce on cloud infrastructure best practice for MySQL slave connection
+description: For Adobe Commerce on cloud infrastructure Pro plan architecture users, Adobe recommends enabling slave connections for the MySQL database by default to spread the load across different nodes.
 labels: Magento Commerce Cloud,MySQL,best practices,database,slave connection,Adobe Commerce,cloud infrastructure,Pro
+title: Adobe Commerce on cloud infrastructure best practice for MySQL slave connection
 ---
+
+# Adobe Commerce on cloud infrastructure best practice for MySQL slave connection
 
 For Adobe Commerce on cloud infrastructure Pro plan architecture users, Adobe recommends enabling slave connections for the MySQL database by default to spread the load across different nodes.
 

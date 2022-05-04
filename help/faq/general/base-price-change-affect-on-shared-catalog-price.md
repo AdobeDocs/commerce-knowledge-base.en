@@ -1,7 +1,10 @@
 ---
-title: Base price change affect on shared catalog price
+description: 'This article answers the question: if a product in a shared catalog has a custom price and the base price of the product changes (for example after a scheduled update), which price applies in the shared catalog?'
 labels: FAQ,Magento,custom,price,shared,shared_catalog,Adobe Commerce
+title: Base price change affect on shared catalog price
 ---
+
+# Base price change affect on shared catalog price
 
 This article answers the question: if a product in a shared catalog has a custom price and the base price of the product changes (for example after a scheduled update), which price applies in the shared catalog?
 

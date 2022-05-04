@@ -1,7 +1,10 @@
 ---
-title: Error placing order with Authorize.net Sandbox account (An error occurred on the server)
+description: This article provides a fix for "*An error occurred on the server*" error message when placing an order using Authorize.Net Direct Post.
 labels: Authorize.net,Magento Commerce,payments,sandbox,troubleshooting,Adobe Commerce
+title: Error placing order with Authorize.net Sandbox account (An error occurred on the server)
 ---
+
+# Error placing order with Authorize.net Sandbox account (An error occurred on the server)
 
 This article provides a fix for "*An error occurred on the server*" error message when placing an order using Authorize.Net Direct Post.
 
@@ -53,4 +56,4 @@ In case the `debug.log` is empty, check the **transact.dll** response in your we
 
 1. Open the console.
 1. Before placing an order, go to the **Network** tab and select **Preserve log**.    ![web-console_network_preserve-log.png](assets/web-console_network_preserve-log.png)    
-1. Filter responses by **transact.dll** to see a response message with a possible error.    ![transact-dll_web-console_response.png](assets/transact-dll_web-console_response.png)    
+1. Filter responses by **transact.dll** to see a response message with a possible error.    ![transact-dll_web-console_response.png](assets/transact-dll_web-console_response.png)

@@ -1,7 +1,10 @@
 ---
-title: Data Migration Tool troubleshooting
+description: This article provides solutions for errors that might occur when you run the Data Migration Tool.
 labels: Data Migration Tool,troubleshooting,Adobe Commerce,cloud infrastructure,Magento Commerce Cloud
+title: Data Migration Tool troubleshooting
 ---
+
+# Data Migration Tool troubleshooting
 
 This article provides solutions for errors that might occur when you run the Data Migration Tool.
 

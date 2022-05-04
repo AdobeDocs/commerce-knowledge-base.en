@@ -1,7 +1,10 @@
 ---
-title: Deployment stuck with "Unable to upload the application to the remote cluster" error
+description: 'This article provides a solution for the Adobe Commerce issue, where deployment gets stuck, and the following error message can be found in the deploy log: *"Error: Unable to upload the application to the remote cluster"*.'
 labels: Magento Commerce Cloud,deployment,error,troubleshooting,Adobe Commerce,cloud infrastructure
+title: Deployment stuck with "Unable to upload the application to the remote cluster" error
 ---
+
+# Deployment stuck with "Unable to upload the application to the remote cluster" error
 
 This article provides a solution for the Adobe Commerce issue, where deployment gets stuck, and the following error message can be found in the deploy log: *"Error: Unable to upload the application to the remote cluster"*.
 

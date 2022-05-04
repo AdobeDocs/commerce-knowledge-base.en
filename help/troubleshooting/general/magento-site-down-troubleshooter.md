@@ -1,7 +1,10 @@
 ---
-title: Adobe Commerce site down troubleshooter
+description: Click on each question to reveal the answer details in each step of the troubleshooter.
 labels: Magento Commerce,Magento Commerce Cloud,Troubleshooter,decision,down,how to,site,tree,Adobe Commerce,cloud infrastructure,on-premises
+title: Adobe Commerce site down troubleshooter
 ---
+
+# Adobe Commerce site down troubleshooter
 
 Click on each question to reveal the answer details in each step of the troubleshooter.
 

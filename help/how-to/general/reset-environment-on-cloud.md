@@ -1,7 +1,10 @@
 ---
-title: Reset environment on Adobe Commerce on cloud infrastructure
+description: This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure.
 labels: 2.1.x,2.2.x,2.3.x,2.4.x,Magento Commerce Cloud,database,git,how to,restore,roll back,snapshot,uninstall,Adobe Commerce,cloud infrastructure
+title: Reset environment on Adobe Commerce on cloud infrastructure
 ---
+
+# Reset environment on Adobe Commerce on cloud infrastructure
 
 This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure.
 

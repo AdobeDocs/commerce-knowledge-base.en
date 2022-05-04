@@ -1,7 +1,10 @@
 ---
-title: 'MDVA-41631: Error retrieving order information without optional "telephone" value'
+description: The MDVA-41631 patch fixes the issue where users get an error retrieving order information without optional "telephone" value through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.7 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 labels: 2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4,QPT 1.1.7,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,GraphQL,error,order,Adobe Commerce,cloud infrastructure,on-premises
+title: 'MDVA-41631: Error retrieving order information without optional "telephone" value'
 ---
+
+# MDVA-41631: Error retrieving order information without optional "telephone" value
 
 The MDVA-41631 patch fixes the issue where users get an error retrieving order information without optional "telephone" value through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.7 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 

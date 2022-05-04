@@ -1,7 +1,10 @@
 ---
-title: Elasticsearch in Adobe Commerce troubleshooter
+description: Elasticsearch issues on Adobe Commerce can be solved using the Elasticsearch troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.
 labels: Elastic,Elasticsearch problems,Magento Commerce,Magento Commerce Cloud,Troubleshooter,crash,elasticsuite,how to,missing products,Adobe Commerce,on-premises,cloud infrastructure
+title: Elasticsearch in Adobe Commerce troubleshooter
 ---
+
+# Elasticsearch in Adobe Commerce troubleshooter
 
 Elasticsearch issues on Adobe Commerce can be solved using the Elasticsearch troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.
 

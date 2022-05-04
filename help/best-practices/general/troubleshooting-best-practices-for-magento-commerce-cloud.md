@@ -1,7 +1,10 @@
 ---
-title: Troubleshooting Best Practices for Adobe Commerce on cloud infrastructure
+description: Follow these best practices for effective troubleshooting of Adobe Commerce on cloud infrastructure issues.
 labels: Elasticsearch,Magento Commerce Cloud,best practices,configuration,database,deploy,deployment,deployment error,extension,index,query,search,site down,storage,Adobe Commerce,cloud infrastructure
+title: Troubleshooting Best Practices for Adobe Commerce on cloud infrastructure
 ---
+
+# Troubleshooting Best Practices for Adobe Commerce on cloud infrastructure
 
 Follow these best practices for effective troubleshooting of Adobe Commerce on cloud infrastructure issues.
 

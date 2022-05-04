@@ -1,7 +1,10 @@
 ---
-title: Indexers "Update On Schedule" optimizes Adobe Commerce performance
+description: This article provides a fix for low performance due to indexers being set on *Update on Save* mode and how it is a best practice to set indexers to *Update on Schedule* mode to optimize performance in Adobe Commerce.
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,best practices,indexers,performance,update on save,update on schedule,Adobe Commerce,cloud infrastructure,on-premises
+title: Indexers "Update On Schedule" optimizes Adobe Commerce performance
 ---
+
+# Indexers "Update On Schedule" optimizes Adobe Commerce performance
 
 This article provides a fix for low performance due to indexers being set on *Update on Save* mode and how it is a best practice to set indexers to *Update on Schedule* mode to optimize performance in Adobe Commerce.
 

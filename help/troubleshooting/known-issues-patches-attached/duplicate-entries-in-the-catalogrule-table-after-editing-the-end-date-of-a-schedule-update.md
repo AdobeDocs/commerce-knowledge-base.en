@@ -1,7 +1,10 @@
 ---
-title: Duplicate entries in the catalogrule table after editing the end date of a schedule update
+description: This article provides a patch for the known Adobe Commerce 2.2.3 issue where editing the end date or time of a catalog price rule schedule update results in adding duplicate entries to the `catalogrule` table and errors in the `catalogrule_rule` (Catalog rule product) indexer reindex.
 labels: 2.2.3,Magento Commerce,catalog price,duplicate entry,known issues,indexer,reindex,patch,troubleshooting,Pro,Starter,Adobe Commerce,cloud infrastructure,on-premises
+title: Duplicate entries in the catalogrule table after editing the end date of a schedule update
 ---
+
+# Duplicate entries in the catalogrule table after editing the end date of a schedule update
 
 This article provides a patch for the known Adobe Commerce 2.2.3 issue where editing the end date or time of a catalog price rule schedule update results in adding duplicate entries to the `catalogrule` table and errors in the `catalogrule_rule` (Catalog rule product) indexer reindex.
 

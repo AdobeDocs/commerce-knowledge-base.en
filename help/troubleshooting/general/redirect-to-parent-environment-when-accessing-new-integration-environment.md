@@ -1,7 +1,10 @@
 ---
-title: Redirect to parent environment when accessing new Integration environment
+description: This article provides troubleshooting instructions for the Adobe Commerce on cloud infrastructure issue where trying to access the newly created Integration environment takes you to the parent environment instead.
 labels: 2.x.x,Magento Commerce Cloud,base_url,redirect,troubleshooting,Adobe Commerce,cloud infrastructure
+title: Redirect to parent environment when accessing new Integration environment
 ---
+
+# Redirect to parent environment when accessing new Integration environment
 
 This article provides troubleshooting instructions for the Adobe Commerce on cloud infrastructure issue where trying to access the newly created Integration environment takes you to the parent environment instead.
 

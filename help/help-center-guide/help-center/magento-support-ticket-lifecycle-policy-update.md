@@ -1,9 +1,12 @@
 ---
- title: Adobe Commerce Support ticket lifecycle policy update
- labels: Magento Support,about help center,tickets,Adobe Commerce,cloud infrastructure,on-premises
+description: This article provides information about Adobe Commerce Support ticket lifecycle policy update.
+labels: Magento Support,about help center,tickets,Adobe Commerce,cloud infrastructure,on-premises
+title: Adobe Commerce Support ticket lifecycle policy update
 ---
 
- This article provides information about Adobe Commerce Support ticket lifecycle policy update.
+# Adobe Commerce Support ticket lifecycle policy update
+
+This article provides information about Adobe Commerce Support ticket lifecycle policy update.
 
  The following table illustrates the updated scenarios. You can find details for each scenario in the section below.
 

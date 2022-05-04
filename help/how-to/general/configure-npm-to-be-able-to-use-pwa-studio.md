@@ -1,7 +1,10 @@
 ---
-title: Configure NPM to be able to use PWA Studio
+description: 'To set the needed NPM version, specify it in the `.magento.app.yaml` configuration file. Follow these steps:'
 labels: 2.3.x,Magento Commerce Cloud,PWA,configuration,how to,npm,Adobe Commerce,cloud infrastructure
+title: Configure NPM to be able to use PWA Studio
 ---
+
+# Configure NPM to be able to use PWA Studio
 
 [Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) is a new project available for Adobe Commerce on cloud infrastructure 2.3.x or later. To be able to use and install PWA Studio, you need to set the NPM package manager version to 5.x or later to get support for Node.js 8.x. This is done in the `hooks:build` section of the `.magento.app.yaml` configuration file.
 

@@ -1,7 +1,10 @@
 ---
-title: "MBI Training Video: Show Top-Bottom and Independent Group By Features"
+description: You can do more in the Visual Report Builder than create analyses that trend over time. For example, you can build a report to show how valuable your acquisition and marketing channels are, but you can also build a report that shows only the top five performers. Additionally, you can also use independent Group Bys to compare two different metric values.
 labels: MBI,Magento Business Intelligence,analysis,data,database,how to,mbi-api-migration,reports
+title: 'MBI Training Video: Show Top-Bottom and Independent Group By Features'
 ---
+
+# MBI Training Video: Show Top-Bottom and Independent Group By Features
 
 >![warning]
 >

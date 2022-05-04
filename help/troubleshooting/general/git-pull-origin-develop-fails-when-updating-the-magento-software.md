@@ -1,7 +1,10 @@
 ---
-title: git pull origin develop fails when updating the Adobe Commerce software
+description: This article provides a fix for when you can't update Adobe Commerce software when running `git pull origin develop`.
 labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,develop,fail,git,github,how to,origin,pull,Adobe Commerce,cloud infrastructure
+title: git pull origin develop fails when updating the Adobe Commerce software
 ---
+
+# git pull origin develop fails when updating the Adobe Commerce software
 
 This article provides a fix for when you can't update Adobe Commerce software when running `git pull origin develop`.
 

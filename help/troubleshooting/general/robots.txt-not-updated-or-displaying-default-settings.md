@@ -1,7 +1,10 @@
 ---
-title: robots.txt not updated or displaying default settings
+description: The article provides a solution for when you have configured `robots.txt` correctly, for example per [Best practices for Adobe Commerce robots.txt](https://support.magento.com/hc/en-us/articles/360048754931) but the `robots.txt` is not getting updated or is displaying the default settings.
 labels: 2.3.x,2.4.x,Magento Commerce,Magento Commerce Cloud,configuration,default,robots.txt,settings,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: robots.txt not updated or displaying default settings
 ---
+
+# robots.txt not updated or displaying default settings
 
 The article provides a solution for when you have configured `robots.txt` correctly, for example per [Best practices for Adobe Commerce robots.txt](https://support.magento.com/hc/en-us/articles/360048754931) but the `robots.txt` is not getting updated or is displaying the default settings.
 
@@ -36,4 +39,4 @@ Enable indexing by search engines. See [Configure indexing by search engine](htt
 
 ## Related reading
 
-* [Add site map and search engine robots](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in our developer documentation. 
+* [Add site map and search engine robots](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in our developer documentation.

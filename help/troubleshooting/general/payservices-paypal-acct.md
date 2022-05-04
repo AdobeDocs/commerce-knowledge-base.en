@@ -1,7 +1,10 @@
 ---
-title: PayPal sandbox account not verified
+description: This article explains why your PayPal sandbox account for Payment Services may not be verified, disabling you from completing sandbox onboarding.
 labels: troubleshooting,payment services,adobe commerce,magento,2.4.2-p1,paypal
+title: PayPal sandbox account not verified
 ---
+
+# PayPal sandbox account not verified
 
 This article explains why your PayPal sandbox account for Payment Services may not be verified, disabling you from completing sandbox onboarding.
 
@@ -32,4 +35,3 @@ PayPal will not be able to verify your sandbox account and you will not be able 
 1. Using a sandbox account created in the [PayPal Developer](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account) Portal.
 1. Click [reset sandbox](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html#test-in-sandbox-environment) and restart your sandbox onboarding.
 1. [Contact Support](mailto:payment-services-support@adobe.com) if you cannot alleviate your account issues so that you can resume onboarding and accept payments.
-

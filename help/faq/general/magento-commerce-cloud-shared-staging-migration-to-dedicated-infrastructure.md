@@ -1,7 +1,10 @@
 ---
-title: "Adobe Commerce on cloud infrastructre: shared Staging migration to dedicated infrastructure"
+description: This Frequently Asked Questions (FAQ) article answers common questions about the process of migrating shared Staging environments to dedicated infrastructure for Adobe Commerce on cloud infrastructure.
 labels: FAQ,Magento Commerce Cloud,Pro,Staging,cloud infrastructure,dedicated,maintenance mode,migration,production,shared,staging,upgrade,Adobe Commerce
+title: 'Adobe Commerce on cloud infrastructre: shared Staging migration to dedicated infrastructure'
 ---
+
+# Adobe Commerce on cloud infrastructre: shared Staging migration to dedicated infrastructure
 
 This Frequently Asked Questions (FAQ) article answers common questions about the process of migrating shared Staging environments to dedicated infrastructure for Adobe Commerce on cloud infrastructure.
 

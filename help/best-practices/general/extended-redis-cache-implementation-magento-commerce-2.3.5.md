@@ -1,7 +1,10 @@
 ---
-title: Extended Redis cache implementation Adobe Commerce 2.3.5+
+description: As of Adobe Commerce (all deployment methods) 2.3.5 or higher, it is recommended that you use the extended Redis cache implementation.
 labels: 2.3.5,Magento Commerce,Magento Commerce Cloud,Redis,best practices,cache,configuration,Adobe Commerce,on-premises,cloud infrastructure
+title: Extended Redis cache implementation Adobe Commerce 2.3.5+
 ---
+
+# Extended Redis cache implementation Adobe Commerce 2.3.5+
 
 As of Adobe Commerce (all deployment methods) 2.3.5 or higher, it is recommended that you use the extended Redis cache implementation.
 

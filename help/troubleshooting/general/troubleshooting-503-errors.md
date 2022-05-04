@@ -1,7 +1,10 @@
 ---
-title: Troubleshooting 503 error caused by necessity to change default Varnish settings
+description: This article provides solutions for troubleshooting 503 error caused by certain Varnish Cache default values not being enough for your store.
 labels: 503,Magento Commerce,Varnish,backend,cache,error,fetch,how to,troubleshooting,Adobe Commerce
+title: Troubleshooting 503 error caused by necessity to change default Varnish settings
 ---
+
+# Troubleshooting 503 error caused by necessity to change default Varnish settings
 
 This article provides solutions for troubleshooting 503 error caused by certain Varnish Cache default values not being enough for your store.
 

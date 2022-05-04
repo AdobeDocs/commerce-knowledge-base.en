@@ -1,7 +1,10 @@
 ---
-title: Cron job is stuck in "running" status
+description: This article provides a solution for when Adobe Commerce cron jobs do not finish executing and persist in a `running` status, which prevents other cron jobs from running. This can happen for a number of reasons, such as network issues, application crashes, redeployment issues.
 labels: Magento Commerce Cloud,stuck cron,troubleshooting,Adobe Commerce,cloud infrastructure
+title: Cron job is stuck in "running" status
 ---
+
+# Cron job is stuck in "running" status
 
 This article provides a solution for when Adobe Commerce cron jobs do not finish executing and persist in a `running` status, which prevents other cron jobs from running. This can happen for a number of reasons, such as network issues, application crashes, redeployment issues.
 
@@ -31,4 +34,4 @@ To resolve this issue, you must reset the cron job(s) using the `cron:unlock` co
 1. Select the `main` database:    ```shell    use main    ```    
 1. Find all running cron jobs:    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```    
 1. Copy the `job_code` of any job running longer than usual.    
-1. Use the schedule IDs from the previous step to unlock specific cron jobs:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```    
+1. Use the schedule IDs from the previous step to unlock specific cron jobs:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```

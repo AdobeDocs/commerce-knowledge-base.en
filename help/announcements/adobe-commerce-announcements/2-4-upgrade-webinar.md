@@ -1,7 +1,10 @@
 ---
-title: 2.4 Adobe Commerce upgrade workshop on January 26 2022
+description: On January 26, 2022, join the live online Adobe Commerce upgrade technical workshop.
 labels: 2.4,Magento Commerce,Magento Commerce Cloud,announcements,upgrade,webinar,Adobe Commerce,cloud infrastructure,on-premises
+title: 2.4 Adobe Commerce upgrade workshop on January 26 2022
 ---
+
+# 2.4 Adobe Commerce upgrade workshop on January 26 2022
 
 On January 26, 2022, join the live online Adobe Commerce upgrade technical workshop.
 

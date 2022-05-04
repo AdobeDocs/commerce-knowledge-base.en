@@ -1,7 +1,10 @@
 ---
-title: During installation, Reflection Exception error
+description: This article provides a solution for the Reflection Exception error during installation.
 labels: Error,Exception,Troubleshooting,Magento Commerce,Magento Commerce Cloud,Redis,Reflection,cache,how to,installation,Adobe Commerce
+title: During installation, Reflection Exception error
 ---
+
+# During installation, Reflection Exception error
 
 This article provides a solution for the Reflection Exception error during installation.
 

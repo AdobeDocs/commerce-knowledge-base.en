@@ -1,7 +1,10 @@
 ---
-title: Cannot clone the Magento GitHub repository
+description: This article provides a fix for when you can't clone the Magento GitHub repository.
 labels: Magento Commerce,Magento Commerce Cloud,SSH key,clone,github,how to,repository
+title: Cannot clone the Magento GitHub repository
 ---
+
+# Cannot clone the Magento GitHub repository
 
 This article provides a fix for when you can't clone the Magento GitHub repository.
 

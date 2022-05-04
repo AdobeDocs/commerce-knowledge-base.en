@@ -1,7 +1,10 @@
 ---
-title: 503 error on store front catalog pages with "Integrity constraint violation" in logs
+description: 'This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.0 issue related to store front catalog pages being inaccessible, with the error message similar to the following in log: *Integrity constraint violation: 1062 Duplicate entry ''%entry%'' for key ''PRIMARY'', query was: INSERT INTO \`search\_tmp\_%number%*.'
 labels: 2.2.0,2.2.4,503,Magento Commerce Cloud,integrity constraint violation,known issues,patch,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises
+title: 503 error on store front catalog pages with "Integrity constraint violation" in logs
 ---
+
+# 503 error on store front catalog pages with "Integrity constraint violation" in logs
 
 >![info]
 >

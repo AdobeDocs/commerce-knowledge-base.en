@@ -1,7 +1,10 @@
 ---
-title: Stock status incorrect after Inventory Management install
+description: This article provides a fix for stock status being incorrect after Inventory Management installation/upgrade.
 labels: 2.3.x,Inventory,Magento Commerce,Magento Commerce Cloud,stock status,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
+title: Stock status incorrect after Inventory Management install
 ---
+
+# Stock status incorrect after Inventory Management install
 
 This article provides a fix for stock status being incorrect after Inventory Management installation/upgrade.
 

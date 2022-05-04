@@ -1,7 +1,10 @@
 ---
-title: "MDVA-35064: URL rewrites not generated for configurables created via API"
+description: The MDVA-35064 patch fixes the issue where URL rewrites are not being generated for "All store views" for products created via API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT 1.0.17,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,Adobe Commerce,cloud infrastructure,on-premises
+title: 'MDVA-35064: URL rewrites not generated for configurables created via API'
 ---
+
+# MDVA-35064: URL rewrites not generated for configurables created via API
 
 The MDVA-35064 patch fixes the issue where URL rewrites are not being generated for "All store views" for products created via API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 

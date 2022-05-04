@@ -1,7 +1,10 @@
 ---
-title: Error 404 on all pages due to Content Staging issue
+description: This article provides a fix for the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure issue where you get a 404 error when accessing any storefront page or the Commerce Admin.
 labels: 404,Magento Commerce,Magento Commerce Cloud,content,log,staging,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,2.2,2.3
+title: Error 404 on all pages due to Content Staging issue
 ---
+
+# Error 404 on all pages due to Content Staging issue
 
 This article provides a fix for the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure issue where you get a 404 error when accessing any storefront page or the Commerce Admin.
 

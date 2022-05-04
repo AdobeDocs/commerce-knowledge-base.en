@@ -1,7 +1,10 @@
 ---
-title: Custom server-side scripts not executed in pub media directory
+description: This article provides a fix for when custom server-side scripts are not executed if placed in the `./pub/media/` directory of your Adobe Commerce application on cloud infrastructure. This is an expected security limitation, since the `./pub/media/` directory is writable. To make scripts executable, place them in non-writable directories, such as `./app/code/` or `./pub/`.
 labels: 2.1.x,2.2.x,2.3.x,2.4.x,Adobe Commerce,cloud infrastructure,executable,scripts,troubleshooting,Magento
+title: Custom server-side scripts not executed in pub media directory
 ---
+
+# Custom server-side scripts not executed in pub media directory
 
 This article provides a fix for when custom server-side scripts are not executed if placed in the `./pub/media/` directory of your Adobe Commerce application on cloud infrastructure. This is an expected security limitation, since the `./pub/media/` directory is writable. To make scripts executable, place them in non-writable directories, such as `./app/code/` or `./pub/`.
 

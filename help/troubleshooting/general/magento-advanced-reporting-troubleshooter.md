@@ -1,7 +1,10 @@
 ---
-title: Advanced Reporting troubleshooter for Adobe Commerce
+description: Advanced Reporting issues on Adobe Commerce can be solved using this troubleshooter tool. This includes Advanced Reporting not showing any data and 404 errors. Click on each question to reveal the answer in each step of the troubleshooter.
 labels: 2.3.x,2.4,404 error,Advanced Reporting,Magento Commerce,Magento Commerce Cloud,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
+title: Advanced Reporting troubleshooter for Adobe Commerce
 ---
+
+# Advanced Reporting troubleshooter for Adobe Commerce
 
 Advanced Reporting issues on Adobe Commerce can be solved using this troubleshooter tool. This includes Advanced Reporting not showing any data and 404 errors. Click on each question to reveal the answer in each step of the troubleshooter.
 <!---------This opens the main level that holds everything.--------------->

@@ -1,7 +1,10 @@
 ---
-title: "Adobe Commerce 2.4.1: wrong message on PayPal-Braintree guest checkout"
+description: This article describes a known Adobe Commerce 2.4.1 issue where if guest checkout is disabled, a guest customer trying to place an order with PayPal through Braintree gets a non-informative error message.
 labels: 2.4.0,2.4.1,Braintree,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PayPal,cart,guest checkout,known issues,Adobe Commerce,cloud infrastructure,on-premises
+title: 'Adobe Commerce 2.4.1: wrong message on PayPal-Braintree guest checkout'
 ---
+
+# Adobe Commerce 2.4.1: wrong message on PayPal-Braintree guest checkout
 
 This article describes a known Adobe Commerce 2.4.1 issue where if guest checkout is disabled, a guest customer trying to place an order with PayPal through Braintree gets a non-informative error message.
 

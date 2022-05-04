@@ -1,7 +1,10 @@
 ---
-title: "MDVA-36424: Images attached to page builder vanish on save"
+description: The MDVA-36424 patch solves the issue where the images attached to page builder elements disappear when the category is saved for the second time in the case of multiple websites, with the default website's base URL being different from the admin URL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-36424. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.21,QPT patches,Magento Commerce,Magento Commerce Cloud,URL,content,images,save,support tools,Adobe Commerce,cloud infrastructure,on-premises
+title: 'MDVA-36424: Images attached to page builder vanish on save'
 ---
+
+# MDVA-36424: Images attached to page builder vanish on save
 
 The MDVA-36424 patch solves the issue where the images attached to page builder elements disappear when the category is saved for the second time in the case of multiple websites, with the default website's base URL being different from the admin URL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-36424. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 

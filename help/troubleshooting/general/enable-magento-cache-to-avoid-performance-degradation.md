@@ -1,7 +1,10 @@
 ---
-title: Enable Magento cache to avoid performance degradation
+description: This article explains how to solve a slow site issue caused by certain Adobe Commerce cache types being disabled.
 labels: 2.2.x,2.3.x,Apdex,Magento Commerce,Magento Commerce Cloud,New Relic,cache,how to,slow performance,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: Enable Magento cache to avoid performance degradation
 ---
+
+# Enable Magento cache to avoid performance degradation
 
 This article explains how to solve a slow site issue caused by certain Adobe Commerce cache types being disabled.
 

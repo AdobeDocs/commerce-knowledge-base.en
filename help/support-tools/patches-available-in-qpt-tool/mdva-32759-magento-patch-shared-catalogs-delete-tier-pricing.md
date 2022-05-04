@@ -1,7 +1,10 @@
 ---
-title: "MDVA-32759 patch: shared catalogs delete tier pricing"
+description: The MDVA-32759 patch solves the issue where shared catalogs delete existing tier pricing.
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,B2B features,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,advanced pricing,price,product,shared catalog,tier pricing,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
+title: 'MDVA-32759 patch: shared catalogs delete tier pricing'
 ---
+
+# MDVA-32759 patch: shared catalogs delete tier pricing
 
 The MDVA-32759 patch solves the issue where shared catalogs delete existing tier pricing.
 

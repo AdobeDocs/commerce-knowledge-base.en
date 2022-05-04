@@ -1,7 +1,10 @@
 ---
-title: Elasticsearch Index Status is ‘yellow’ or 'red'
+description: The article provides a fix for when the Elasticsearch Index Status is not '*green*'. '*yellow*' indicates normal, and '*red*' indicates bad. The 'yellow' or 'red' status may occur in conjunction with missing products or the display of old product information.
 labels: 2.2.x,2.3.x,Elasticsearch,Elasticsearch Index Status,Magento Commerce,Magento Commerce Cloud,how to,red,yellow,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+title: "Elasticsearch Index Status is \u2018yellow\u2019 or 'red'"
 ---
+
+# Elasticsearch Index Status is ‘yellow’ or 'red'
 
 >![warning]
 >

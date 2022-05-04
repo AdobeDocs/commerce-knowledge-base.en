@@ -1,7 +1,10 @@
 ---
-title: Google Analytics gets disabled after deployment
+description: This topic discusses a solution to a typical issue you might experience with Google Analytics during deployment.
 labels: Magento Commerce Cloud,google analytics,how to,Adobe Commerce,cloud infrastructure
+title: Google Analytics gets disabled after deployment
 ---
+
+# Google Analytics gets disabled after deployment
 
 This topic discusses a solution to a typical issue you might experience with Google Analytics during deployment.
 

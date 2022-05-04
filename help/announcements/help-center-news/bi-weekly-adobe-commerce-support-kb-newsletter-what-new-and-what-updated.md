@@ -1,9 +1,12 @@
 ---
-title: "Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates"
+description: We are sorry for not updating this article for the last couple of months.
 labels: announcements,help center,newsletter,published,update,what's new,Magento,Adobe Commerce,cloud infrastructure,on-premises
+title: 'Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates'
 ---
 
- **NEXT UPDATE**: May 10th, 2022.
+# Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates
+
+**NEXT UPDATE**: May 10th, 2022.
 
 We are sorry for not updating this article for the last couple of months.
 

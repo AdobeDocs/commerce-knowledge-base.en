@@ -1,7 +1,10 @@
 ---
-title: Best practice Adobe Commerce number of categories limits
+description: This article provides best practices for number of categories limit for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure.
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,category,index,performance,products,Adobe Commerce,on-premises,cloud infrastructure
+title: Best practice Adobe Commerce number of categories limits
 ---
+
+# Best practice Adobe Commerce number of categories limits
 
 This article provides best practices for number of categories limit for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure.
 

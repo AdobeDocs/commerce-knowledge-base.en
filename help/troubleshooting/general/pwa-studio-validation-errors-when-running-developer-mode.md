@@ -1,7 +1,10 @@
 ---
-title: "PWA Studio: Validation errors when running developer mode"
+description: This topic discusses a solution for when validation errors occur when running developer mode in Progressive Web App (PWA) Studio for Adobe Commerce as a result of not previously creating the venia-concept (Venia is a PWA storefront.) environment file. This file will hold the variables for your local development environment.
 labels: PWA Studio,Venia,environment variables,errors,how to,validation,Adobe Commerce,PWA Studio for Adobe Commerce
+title: 'PWA Studio: Validation errors when running developer mode'
 ---
+
+# PWA Studio: Validation errors when running developer mode
 
 This topic discusses a solution for when validation errors occur when running developer mode in Progressive Web App (PWA) Studio for Adobe Commerce as a result of not previously creating the venia-concept (Venia is a PWA storefront.) environment file. This file will hold the variables for your local development environment.
 

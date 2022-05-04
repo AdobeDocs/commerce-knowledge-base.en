@@ -1,7 +1,10 @@
 ---
-title: Troubleshoot Payment Services installation
+description: This article explains errors you may experience while installing Payment Services, and provides solutions to fix those errors so that you can complete installation.
 labels: troubleshooting,Adobe Commerce,Magento Commerce,Composer,Payment Services,memory,PHP,install,extension,2.4.2-p1
+title: Troubleshoot Payment Services installation
 ---
+
+# Troubleshoot Payment Services installation
 
 This article explains errors you may experience while installing Payment Services, and provides solutions to fix those errors so that you can complete installation.
 

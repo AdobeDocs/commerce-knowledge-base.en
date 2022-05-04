@@ -1,7 +1,10 @@
 ---
-title: "MDVA-31307: Out of memory on certain categories"
+description: The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2.
 labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PHP Fatal Error,category pages,error message,memory,support tools,cloud infrastructure,on-premises
+title: 'MDVA-31307: Out of memory on certain categories'
 ---
+
+# MDVA-31307: Out of memory on certain categories
 
 The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2.
 

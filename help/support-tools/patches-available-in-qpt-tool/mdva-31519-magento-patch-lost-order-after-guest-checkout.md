@@ -1,7 +1,10 @@
 ---
-title: "MDVA-31519 patch: lost order after guest checkout"
+description: The MDVA-31519 patch solves the issue where paid orders are missing and lock wait timeouts in guest checkout.
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.14,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,guest checkout,lost,missing,order placement,payment,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
+title: 'MDVA-31519 patch: lost order after guest checkout'
 ---
+
+# MDVA-31519 patch: lost order after guest checkout
 
 The MDVA-31519 patch solves the issue where paid orders are missing and lock wait timeouts in guest checkout.
 

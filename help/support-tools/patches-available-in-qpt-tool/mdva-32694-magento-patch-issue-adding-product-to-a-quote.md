@@ -1,7 +1,10 @@
 ---
-title: "MDVA-32694 patch: issue adding product to a quote"
+description: The MDVA-32694 patch solves the issue of being unable to add a valid product in Admin to a negotiable quote created on the non-default website.
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.1,QPT 1.0.14,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,add product,quote,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
+title: 'MDVA-32694 patch: issue adding product to a quote'
 ---
+
+# MDVA-32694 patch: issue adding product to a quote
 
 The MDVA-32694 patch solves the issue of being unable to add a valid product in Admin to a negotiable quote created on the non-default website.
 

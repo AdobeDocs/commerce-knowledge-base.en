@@ -1,7 +1,10 @@
 ---
-title: FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
+description: We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule) for timing details.
 labels: FAQ,Magento,release strategy,lifecycle policy,Adobe Commerce,update,Adobe Support,Magento Open Source,Extended Support
+title: FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
 ---
+
+# FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
 
 ## 2022 Release Strategy and Updated Lifecycle Policy
 
@@ -121,4 +124,4 @@ Please refer to [Adobe Commerce System Requirements](https://devdocs.magento.com
 
 ### [NEW] What actions can I take to address PCI failure caused by outdated software?
 
-Running an unsupported version of a third-party technology, such as PHP, may impact PCI compliance because any security vulnerability discovered will not be patched by the third party. Adobe recommends customers using outdated PHP purchase extended support from vendors such as [Zend](https://www.zend.com/services/php-long-term-support), who can provide security patches and updates for vulnerabilities discovered on unsupported PHP versions.  
+Running an unsupported version of a third-party technology, such as PHP, may impact PCI compliance because any security vulnerability discovered will not be patched by the third party. Adobe recommends customers using outdated PHP purchase extended support from vendors such as [Zend](https://www.zend.com/services/php-long-term-support), who can provide security patches and updates for vulnerabilities discovered on unsupported PHP versions.

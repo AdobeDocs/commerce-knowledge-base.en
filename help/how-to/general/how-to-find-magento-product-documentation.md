@@ -1,7 +1,10 @@
 ---
-title: How to find Adobe Commerce product documentation
+description: The Adobe Commerce support knowledge base provides troubleshooting solutions for fixing and avoiding known Adobe Commerce products issues, supplied by the Adobe Commerce support team.
 labels: B2B,MBI,Magento,Magento Business Intelligence,Magento Commerce,Magento Commerce Cloud,Magento Order Management,PWA,devdocs,documentation,how to,marketplace,product,Adobe Commerce,on-premises,cloud infrastructure
+title: How to find Adobe Commerce product documentation
 ---
+
+# How to find Adobe Commerce product documentation
 
 ## Magento Support Documentation
 

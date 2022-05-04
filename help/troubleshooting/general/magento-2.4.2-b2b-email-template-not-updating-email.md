@@ -1,7 +1,10 @@
 ---
-title: "Adobe Commerce 2.4.2 B2B: email template not updating email"
+description: This article describes a known Adobe Commerce 2.4.2 B2B issue where updating some information in an email template is not updated in emails. This issue impacts email contents such as customer info, currency rates, currency symbol, email template change, etc. There is not a solution available at this time, but there is a workaround at the bottom of this article.
 labels: 2.4.2,B2B,Magento,Adobe Commerce,auto-approved email,consumer,email content change,email template,known issue,run cron,update,workaround,cloud infrastructure,on-premises
+title: 'Adobe Commerce 2.4.2 B2B: email template not updating email'
 ---
+
+# Adobe Commerce 2.4.2 B2B: email template not updating email
 
 This article describes a known Adobe Commerce 2.4.2 B2B issue where updating some information in an email template is not updated in emails. This issue impacts email contents such as customer info, currency rates, currency symbol, email template change, etc. There is not a solution available at this time, but there is a workaround at the bottom of this article.
 

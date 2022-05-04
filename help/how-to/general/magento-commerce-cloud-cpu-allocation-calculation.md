@@ -1,8 +1,11 @@
 ---
-title: "Adobe Commerce on cloud infrastructure: CPU allocation calculation"
+description: The attached article provides detailed guidelines on what metrics should be used when making decisions about CPU allocation, and how to calculate them.
 labels: CPU Allocation,calculation,configuration,hardware resources,phCPU,query,Adobe Commerce,cloud infrastructure,Magento
-promoted: True
+promoted: true
+title: 'Adobe Commerce on cloud infrastructure: CPU allocation calculation'
 ---
+
+# Adobe Commerce on cloud infrastructure: CPU allocation calculation
 
 The attached article provides detailed guidelines on what metrics should be used when making decisions about CPU allocation, and how to calculate them.
 

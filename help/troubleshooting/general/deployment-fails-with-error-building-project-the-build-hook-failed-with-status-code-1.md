@@ -1,7 +1,10 @@
 ---
-title: 'Deployment fails with "Error building project: The build hook failed with status code 1"'
+description: 'This article talks about the causes and solutions for the Adobe Commerce on cloud infrastructure issue, where the build phase of the deployment process fails, and the error message is summarized with: *"Error building project: The build hook failed with status code 1"*.'
 labels: Magento Commerce Cloud,build,deployment,error building,troubleshooting,Adobe Commerce,cloud infrastructure,Pro,Starter
+title: 'Deployment fails with "Error building project: The build hook failed with status code 1"'
 ---
+
+# Deployment fails with "Error building project: The build hook failed with status code 1"
 
 This article talks about the causes and solutions for the Adobe Commerce on cloud infrastructure issue, where the build phase of the deployment process fails, and the error message is summarized with: *"Error building project: The build hook failed with status code 1"*.
 

@@ -1,7 +1,10 @@
 ---
-title: Adobe Commerce upgrade 2.4.3, 2.3.7-p1 PHP Fatal error Hotfix
+description: 'This article provides a fix for when merchants try to upgrade to Adobe Commerce (all deployment methods) or Magento Open Source 2.4.3 or 2.3.7-p1 they see the following error:'
 labels: 2.4.3,Magento,known issues,patch,troubleshooting,error,php,8,Adobe Commerce, cloud infrastructure
+title: Adobe Commerce upgrade 2.4.3, 2.3.7-p1 PHP Fatal error Hotfix
 ---
+
+# Adobe Commerce upgrade 2.4.3, 2.3.7-p1 PHP Fatal error Hotfix
 
 This article provides a fix for when merchants try to upgrade to Adobe Commerce (all deployment methods) or Magento Open Source 2.4.3 or 2.3.7-p1 they see the following error:
 

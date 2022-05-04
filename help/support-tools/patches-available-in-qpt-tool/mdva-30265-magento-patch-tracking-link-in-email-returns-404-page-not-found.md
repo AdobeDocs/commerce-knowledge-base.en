@@ -1,7 +1,10 @@
 ---
-title: "MDVA-30265: tracking link in email returns 404 Page not Found"
+description: The MDVA-30265 patch solves the issue of the "404 Page not Found" error when the customer clicks on the shipment tracking link in the order confirmation email. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.4.0,2.4.1,404,404 error,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,invoice,support tools,Adobe Commerce,cloud infrastructure,on-premises
+title: 'MDVA-30265: tracking link in email returns 404 Page not Found'
 ---
+
+# MDVA-30265: tracking link in email returns 404 Page not Found
 
 The MDVA-30265 patch solves the issue of the "404 Page not Found" error when the customer clicks on the shipment tracking link in the order confirmation email. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 

@@ -1,7 +1,10 @@
 ---
-title: Site down troubleshooting diagram
+description: This Adobe Commerce site down troubleshooting diagram can be used to identify and resolve causes of a site down.
 labels: Magento Commerce,Magento Commerce C,site down,troubleshooting,diagram,Adobe Commerce
+title: Site down troubleshooting diagram
 ---
+
+# Site down troubleshooting diagram
 
 This Adobe Commerce site down troubleshooting diagram can be used to identify and resolve causes of a site down.
 

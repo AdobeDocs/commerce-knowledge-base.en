@@ -1,7 +1,10 @@
 ---
-title: Exceptions during installation
+description: This article provides a possible solution for the issues with installing Adobe Commerce using Web Setup Wizard.
 labels: 2.2.x,2.3.x,Magento Commerce,exception,generated,how to,install,installation,var,web setup wizard,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
+title: Exceptions during installation
 ---
+
+# Exceptions during installation
 
 This article provides a possible solution for the issues with installing Adobe Commerce using Web Setup Wizard.
 
