@@ -33,5 +33,4 @@ To enable the feature, follow the instructions in [Archive > To enable archiving
 
 ## Related reading
 
-Refer to [Performance Best Practices >
-Best Practices](https://devdocs.magento.com/guides/v2.4/performance-best-practices/configuration.html#asynchronous-email-notifications) in our developer documentation.
+Refer to [Performance Best Practices > Best Practices](https://devdocs.magento.com/guides/v2.4/performance-best-practices/configuration.html#asynchronous-email-notifications) in our developer documentation.

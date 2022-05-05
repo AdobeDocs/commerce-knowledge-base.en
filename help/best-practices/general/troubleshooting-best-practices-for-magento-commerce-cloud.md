@@ -38,7 +38,7 @@ Follow these best practices for effective troubleshooting of Adobe Commerce on c
 <tr>
 <td style="width: 179px;">Search Issues</td>
 <td style="width: 523px;">
-<div class="warning"><blockquote><a href="https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0">MySQL catalog search engine will be removed in Adobe Commerce 2.4.0</a>. You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">Install and configure Elasticsearch</a> in our developer documentation.</blockquote></div>
+<div class="warning"><a href="https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0">MySQL catalog search engine will be removed in Adobe Commerce 2.4.0</a>. You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">Install and configure Elasticsearch</a> in our developer documentation.</div>
 </td>
 <td style="width: 327px;"><a href="https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html">Set up Elasticsearch service</a> in our developer documentation.</td>
 </tr>

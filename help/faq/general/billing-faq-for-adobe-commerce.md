@@ -29,6 +29,7 @@ This payment method is for merchants with On-Premises licenses and/or quarterly 
 1. Go to **My Account** > **My Products and Services** > Select *Your Specific Product Purchased* > **Manage** (located to the right of the Product) > **Show Details** (located to the right of the Subscription).
 
 1. Click the **Pay Now** button to enter your credit card/PayPal details and complete your payment.
+
     >[!NOTE]
     >
     >Note: We do not accept partial credit card or PayPal payments—by utilizing the **Pay Now** feature, you agree to be charged for the full invoice amount(s).
@@ -36,6 +37,7 @@ This payment method is for merchants with On-Premises licenses and/or quarterly 
 1. If you encounter an error or have any questions regarding the **Pay Now** feature, please contact [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) for further assistance.
 
 ## Autopay Set-up {#cc-autopay}
+
 This payment method is for merchants with monthly billing (except for On-Premises licenses). If you fall into this category, kindly follow the instructions below:
 
 >[!NOTE]
@@ -52,9 +54,9 @@ This payment method is for merchants with monthly billing (except for On-Premise
 
 1. Click **Save**.
 
-1. >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Important Note: Once you click **Save** all open/unpaid invoices will be charged in full.
+   >Once you click **Save** all open/unpaid invoices will be charged in full.
 
 1. If you encounter an error or have any questions regarding the **Autopay** feature, please contact [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) for further assistance.
 

@@ -18,6 +18,7 @@ I am developing a headless implementation of Adobe Commerce. Do I still need to 
 
 No, you don't. In this situation, you may skip using Fastly — at least, in the beginning of development.
 
+>[!NOTE]
 >
 >The only situation you may not want to enable is for a headless deployment.  
 See [Cloud for Adobe Commerce > Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) in our developer documentation.
