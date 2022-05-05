@@ -8,7 +8,7 @@ title: During installation, Reflection Exception error
 
 This article provides a solution for the Reflection Exception error during installation.
 
-<h2 id="details">Details</h2>
+## Details {#details}
 
 During the installation, a message similar to the following displays:
 
@@ -16,7 +16,7 @@ During the installation, a message similar to the following displays:
 [ERROR] exception 'ReflectionException' with message 'Class Magento\Framework\StoreManagerInterface does not exist' in /<path>/lib/internal/Magento/Framework/Code/Reader/ClassReader.php
 ```
 
-<h2 id="solution">Solution</h2>
+## Solution {#solution}
 
 Clear all directories and files under Adobe Commerce's `var` subdirectory and install the Adobe Commerce software again.
 
@@ -30,7 +30,7 @@ $ cd <your Magento install directory>/var
 $ rm -rf var/cache/* di/* generation/* page_cache/*
 ```
 
-<h3 id="redis">Redis</h3>
+## Redis {#redis}
 
 If you use Redis and still get an error, clear the Redis cache as follows:
 

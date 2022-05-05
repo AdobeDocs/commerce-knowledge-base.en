@@ -35,7 +35,7 @@ This payment method is for merchants with On-Premises licenses and/or quarterly 
 
 1. If you encounter an error or have any questions regarding the **Pay Now** feature, please contact [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) for further assistance.
 
-<h3 id="cc-autopay">Autopay Set-up</h3>
+## Autopay Set-up {#cc-autopay}
 This payment method is for merchants with monthly billing (except for On-Premises licenses). If you fall into this category, kindly follow the instructions below:
 
 >![info]

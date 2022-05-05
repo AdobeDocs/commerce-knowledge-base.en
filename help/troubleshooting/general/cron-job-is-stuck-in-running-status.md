@@ -12,7 +12,7 @@ This article provides a solution for when Adobe Commerce cron jobs do not finish
 
 Adobe Commerce on cloud infrastructure, all versions
 
-<h2 id="symptom">Symptom</h2>
+## Symptom {#symptom}
 
 Symptoms of cron jobs that must be reset include:
 
@@ -20,7 +20,7 @@ Symptoms of cron jobs that must be reset include:
 * Site performance starts to degrade
 * Jobs fail to execute on schedule
 
-<h2 id="solution">Solution</h2>
+## Solution {#solution}
 
 >![warning]
 >

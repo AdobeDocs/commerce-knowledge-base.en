@@ -8,7 +8,7 @@ title: Unknown module Magento_BundleSampleData
 
 This article provides a fix for the unknown module error during installation of Adobe Commerce.
 
-<h2 id="details">Issue</h2>
+## Issue {#details}
 
 During the installation, a message similar to the following displays:
 
@@ -16,7 +16,7 @@ During the installation, a message similar to the following displays:
 [ERROR] exception 'LogicException' with message 'Unknown module in the requested list: 'Magento_BundleSampleData''
 ```
 
-<h2 id="solution">Solution</h2>
+## Solution {#solution}
 
 Try each of the following one at a time, then try your installation again.
 
