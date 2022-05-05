@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.2 and above
 
 If a free shipping rule is applied to only specific items, the discount doesn't apply when there are other items in the cart.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create simple products - simple1 and simple2.
 1. Configure USPS (or any online shipping method):
@@ -47,12 +47,12 @@ If a free shipping rule is applied to only specific items, the discount doesn't 
 1. Apply the coupon code.
 1. Add simple2 to the cart.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * simple1 - should have free shipping.
 * simple2 - shipping should be paid.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The shipping price includes simple1 and simple2.
 

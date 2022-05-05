@@ -26,7 +26,7 @@ The MDVA-30428 patch solves the wishlist not working with Inventory Management (
 
 On adding a product to the wishlist, when the product is assigned to a custom inventory source, the following message shows "*We can't add the item to Wish List right now: Cannot add product without stock to wishlist.*"
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new inventory source in the Commerce Admin. For steps, refer to [Catalog > Adding a New Source](https://docs.magento.com/user-guide/catalog/inventory-sources-add.html?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=new%20inventory%20source) in our user guide.
 1. Create a new stock inventory in the Commerce Admin, assign the new source and default website to the new stock. For steps, refer to [Catalog > Adding a New Stock](https://docs.magento.com/user-guide/catalog/inventory-stock-add.html#add-new-stock) in our user guide.
@@ -34,11 +34,11 @@ On adding a product to the wishlist, when the product is assigned to a custom in
 1. Visit the simple product details page in the frontend.
 1. Add the product to the wishlist. The following error shows: *We can't add the item to Wish List right now: Cannot add product without stock to wishlist*.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product should be added to the wishlist with the custom stock.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The product is not added to the wishlist, and an error message shows.
 

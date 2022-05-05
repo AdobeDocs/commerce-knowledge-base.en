@@ -26,7 +26,7 @@ The MDVA-38346 patch solves the issue where date filters are not working properl
 
 Date filters are not working properly when the Adobe Commerce timezone is different from the local environment timezone.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Change the timezone to Australia/Sydney.
 1. Place few orders.
@@ -34,11 +34,11 @@ Date filters are not working properly when the Adobe Commerce timezone is differ
 1. Go to **Sales** > **Invoices** and filter by Invoice Date (current date - current date).
 1. Check dates.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The displayed invoice date and the actual filter match.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The displayed invoice date is ahead of the actual filter by one day (current date + 1 day).
 

@@ -26,21 +26,21 @@ The MDVA-37115 patch solves the issue where the unnecessary *Only 0 left* notice
 
 An unnecessary *Only 0 left* notice is displayed on the configurable product page.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Inventory modules is installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a configurable product with few options.
 1. Go to the frontend.
 1. Open the configurable product page and select any option.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No *Only 0 left* notice is shown on the product page.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 *Only 0 left* notice is shown on the product page.
 

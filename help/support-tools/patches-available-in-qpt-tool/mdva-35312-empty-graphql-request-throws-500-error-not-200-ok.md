@@ -26,7 +26,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.1-p1-2
 
 Empty GraphQL request throws error response code 500 instead of 200 code.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Send a GraphQL request, for example:
 
@@ -34,11 +34,11 @@ Send a GraphQL request, for example:
 curl -i -X OPTIONS http://inv.test/graphql
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Response: *200 OK*.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Response: *HTTP/1.1 500 Internal Server Error*.
 

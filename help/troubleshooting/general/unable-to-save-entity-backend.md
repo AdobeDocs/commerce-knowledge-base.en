@@ -19,18 +19,18 @@ When you try to reconfigure your store the page reloads and your changes are not
 
 *[2021-11-27 00:30:52] report.WARNING: Session size of 418056 exceeded allowed session max size of 256000. [] []*
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 An example of store configuration not being saved:
 
 1. Select a rule in the Adobe Commerce store in Production > **Marketing** > **Cart price rules**.
 1. Choose a rule and set to *Inactive* and save the change.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The rule is set to inactive.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 * Page reloads without any message.
 * The rule is still set to active.

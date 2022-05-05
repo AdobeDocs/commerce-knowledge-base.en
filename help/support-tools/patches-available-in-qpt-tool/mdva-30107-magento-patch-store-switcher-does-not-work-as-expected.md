@@ -21,17 +21,17 @@ The MDVA-30107 patch solves the issue where the store switcher doesn't work as e
 
 When a user switches between stores using the store switcher, the request fails if the target store has a different base URL.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create two or more stores with different base URLs.
 1. Go to a category page on a storefront of any of those stores.
 1. Try switching to the other store using the store switcher.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 You are redirected to a similar page of the other store.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You are redirected to the homepage of the same store.
 

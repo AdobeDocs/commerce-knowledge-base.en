@@ -16,7 +16,7 @@ This article provides a fix for an Adobe Commerce known issue for an exception t
 
 ## Issue
 
- <ins>Steps to reproduce</ins>
+ <u>Steps to reproduce</u>
 
 1. Install Adobe Commerce with more than one store created.
 1. Create an additional store.
@@ -26,11 +26,11 @@ This article provides a fix for an Adobe Commerce known issue for an exception t
 >
 >The upgrade of any B2B instance with more than 1 store from a version below 1.2.0 or Commerce instance below 2.4.0, is also affected.
 
- <ins>Expected result</ins>
+ <u>Expected result</u>
 
 B2B 1.2.0 installs.
 
- <ins>Actual result</ins>
+ <u>Actual result</u>
 
 When `setup:upgrade` runs to install B2B 1.2.0, this error appears on the `PurchaseOrder` module:
 
@@ -56,11 +56,11 @@ To download it, scroll down to the end of the article and click the file name, o
 
 ## How to apply a patch
 
- <ins>Composer patch </ins>
+ <u>Composer patch </u>
 
 See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for composer patch instructions.
 
- <ins>Git patch </ins>
+ <u>Git patch </u>
 
 * See [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in developer documentation for git patch instructions for Adobe Commerce on cloud infrastructure.
 * See [Applying patches: Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in developer documentation for git patch instructions for Adobe Commerce.

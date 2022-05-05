@@ -14,11 +14,11 @@ This article provides a solution for the issue where new environments are placed
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Have a local git controlled clone of the project.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 You need to create an integration branch from the staging branch:
 
@@ -26,11 +26,11 @@ You need to create an integration branch from the staging branch:
 1. Create an integration branch from the staging branch by running the following command in the local shell: `git checkout -b <branch>`
 1. Push the branch to the remote repository and set up an upstream branch by running the following command in the local shell: `git push --set-upstream origin <branch>`
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The new branch is created under the staging branch.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The new branch was created under the production branch.
 

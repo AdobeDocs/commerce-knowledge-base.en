@@ -26,11 +26,11 @@ The MDVA-29400 patch solves the issue where duplicated orders are created when c
 
 Duplicated orders are created when users place orders with PayPal Express Checkout.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Enabled and configured PayPal Express Checkout.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Add a product to Cart.
 1. Go to the Checkout Page and use PayPal Express as the payment method.
@@ -39,11 +39,11 @@ Enabled and configured PayPal Express Checkout.
 1. Go back to PayPal/express/review/ Page.
 1. Click on the **Place Order** button.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Only one order is created.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the following error: *PayPal Express Checkout Token does not exist*, but the second order is successfully placed.
 

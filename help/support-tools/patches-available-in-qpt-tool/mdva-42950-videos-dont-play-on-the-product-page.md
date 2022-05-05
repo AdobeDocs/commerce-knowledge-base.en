@@ -26,7 +26,7 @@ The MDVA-42950 patch solves the issue where videos are not being played on the p
 
 Videos are not being played on the product page.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Configure YouTube API key by navigating to **Stores** > **Configuration** > **Catalog** > **Product Video**.
 1. Add a video from YouTube into any simple product which has parent configurable.
@@ -37,11 +37,11 @@ Videos are not being played on the product page.
 1. Go to the PDP, and select product configuration to see the video in the list of photos and videos.
 1. Try to play the video.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Video is playing.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Video does not play.
 

@@ -26,7 +26,7 @@ The MDVA-37364 patch solves the issue where the custom customer attribute of dat
 
 Custom customer attribute of date type breaks the Customer Grid UI.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a custom attribute with date type:
     * Go to **Stores** > **Attributes** > **Add Attribute**.
@@ -40,11 +40,11 @@ Custom customer attribute of date type breaks the Customer Grid UI.
 1. Go to **Customers** > **All Customers**.
     * Check the Customer Grid.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The Admin Customer Grid shows all data including the new date custom attribute without breaking the Customer Grid UI.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The Admin Customer Grid UI is broken.
 

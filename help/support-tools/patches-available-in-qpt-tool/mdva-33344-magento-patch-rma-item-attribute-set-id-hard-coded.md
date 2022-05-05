@@ -22,15 +22,15 @@ The MDVA-33344 patch fixes the issue where the hard coded "rma\_item" entity def
 
 The `/rest/default/V1/returnsAttributeMetadata` WebAPI endpoint returns empty result, if the "rma\_item" entity default attribute set ID is different from the default installation ID.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Make an API call to `/rest/default/V1/returnsAttributeMetadata`.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Data is returned.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 Empty result is returned.
 

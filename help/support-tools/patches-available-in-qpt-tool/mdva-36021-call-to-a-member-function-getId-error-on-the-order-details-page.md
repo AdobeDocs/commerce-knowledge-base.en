@@ -26,20 +26,20 @@ The MDVA-36021 patch solves the issue where users get *Call to a member function
 
 When users try to open order details, the following error message is displayed on the order details page in the Admin: *report.CRITICAL: Error: Call to a member function getId() on array in /magento2ce/app/code/Magento/Sales/view/adminhtml/templates/order/totals/tax.phtml:62*.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 The system should have tax settings and orders with specific tax rates.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Commerce Admin.
 1. Go to **Sales** > **Orders** > **Open Order**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The order is opened without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get an error message similar to the following: *report.CRITICAL: Error: Call to a member function getId() on array in /magento2ce/app/code/Magento/Sales/view/adminhtml/templates/order/totals/tax.phtml:62*.
 

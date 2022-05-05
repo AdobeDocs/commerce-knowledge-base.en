@@ -26,7 +26,7 @@ The MDVA-34948 Adobe Commerce patch fixes the issue of slowing of the website. T
 
 The website gets slow, which hampers operations.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Run `show processlist` in MySQL.
 1. Check if there are multiple queries like:
@@ -35,11 +35,11 @@ The website gets slow, which hampers operations.
    SELECT GET_LOCK(SYSTEM_CONFIG', '10');
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 `GET_LOCK` should be executed immediately.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Multiple `GET_LOCK` queries get stuck for up to 10 seconds each.
 

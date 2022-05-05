@@ -26,7 +26,7 @@ The MDVA-40545 patch solves the issue where only the first node for a page is re
 
 Only the first node for a page is retrieved even if there are more than one node for the same page.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In the Admin Panel, go to **Hierarchy** and add two menu items/nodes.
 1. Add the same CMS page to each node.
@@ -34,11 +34,11 @@ Only the first node for a page is retrieved even if there are more than one node
 1. Check link and breadcrumbs for the first added sub-menu.
 1. Check link and breadcrumbs for the second added sub-menu.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Breadcrumbs and link on the second sub-menu are relevant to the second node.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Breadcrumbs and link on the second sub-menu are the same as the first sub-menu.
 

@@ -26,7 +26,7 @@ The MDVA-38799 patch solves the issue where downloadable products are not saved 
 
 Downloadable products are not saved after creating a staging update. Users get the error message: *The downloadable sample is not related to the product. Verify the link and try again*.  
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Navigate to **Catalog** > **Products**.
 1. Click the dropdown next to Add Product and select Downloadable Product.
@@ -40,11 +40,11 @@ Downloadable products are not saved after creating a staging update. Users get t
 1. Click **Save** on the staging update.
 1. Click **Save** on the product.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product is saved without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the error message: *The downloadable sample is not related to the product. Verify the link and try again*.
 

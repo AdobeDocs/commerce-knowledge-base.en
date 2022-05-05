@@ -12,7 +12,7 @@ This article provides a patch for a known Adobe Commerce 2.2.2 issue related to 
 
 When cron is configured to run every minute, if you edit time variables for three scheduled tasks in Admin, the `cron_schedule` database table shows groups of multiple tasks scheduled to run at the same time.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In Commerce Admin, navigate to **Stores** > Settings > **Configuration** > **ADVANCED** > **System** > **Cron (Scheduled Tasks)** > **Cron configuration options for group: default.**
 1. Configure the following options:
@@ -39,9 +39,9 @@ When cron is configured to run every minute, if you edit time variables for thre
 
 1. See groups of tasks scheduled to run at the same time.
 
-<ins>Expected result</ins>: One cron `job_code` should be scheduled for the certain time period.
+<u>Expected result</u>: One cron `job_code` should be scheduled for the certain time period.
 
-<ins>Actual result</ins>: There are multiple cron jobs scheduled for the same time period.
+<u>Actual result</u>: There are multiple cron jobs scheduled for the same time period.
 
 ## Solution
 

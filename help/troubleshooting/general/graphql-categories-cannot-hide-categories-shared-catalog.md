@@ -16,7 +16,7 @@ This article provides a solution for when B2B shared catalog feature is not work
 
 GraphQL categories and `categoryList` queries ignore the category permission to hide categories in a shared catalog. This happens to all merchants on Adobe Commerce 2.4.3 with B2B Shared Catalog feature turned on.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Prerequisites:
 
@@ -31,11 +31,11 @@ This happens to all merchants on Adobe Commerce 2.4.3 with PWA storefront consum
 1. Set the category permission for CAT2 to *Deny* Browsing category and set the customer group to the above private catalog.
 1. Run the `categoryList query` or the categories query as the company user from step three.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Only the CAT1 shows up in the results.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 All the categories show up regardless of whether they are assigned/unassigned in the shared catalog or what the category permissions are.
 

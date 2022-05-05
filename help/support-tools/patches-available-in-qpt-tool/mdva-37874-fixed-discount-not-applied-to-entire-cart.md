@@ -20,18 +20,18 @@ The MDVA-37874 patch fixes the issue when the **fixed discount amount** for the 
 ## Issue
 
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a cart rule with a **fixed discount amount** for the whole cart.
 1. Add a bundle product to the cart (The bundle product should contain several selected options.).
 1. Go to the cart page, and check the discount.
 
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The fixed discount amount is applied to the entire cart, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The fixed discount amount is applied to only part of the cart.
 

@@ -16,7 +16,7 @@ Adobe Commerce on cloud infrastructure 2.4.2-p1 and 2.3.7.
 
 `.gitignore` file is being overwritten when running composer install command.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 
 1. Create an empty directory for your workspace.
@@ -48,11 +48,11 @@ Adobe Commerce on cloud infrastructure 2.4.2-p1 and 2.3.7.
         -/this/line/should/stay
         ```
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 `.gitignore` is not overriden by composer.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 `.gitignore` is overriden by every composer install run.
 

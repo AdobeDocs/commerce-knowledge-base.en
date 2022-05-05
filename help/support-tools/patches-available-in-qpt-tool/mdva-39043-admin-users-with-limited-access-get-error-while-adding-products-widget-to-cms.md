@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.4 – 2.4.3
 
 Admin users with limited access get an error while adding the “Products” widget to the CMS page.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the backend using the admin with access only to edit content.
 1. Go to **Content** > **Pages**.
@@ -35,11 +35,11 @@ Admin users with limited access get an error while adding the “Products” wid
 1. Add **Product** widget from **Add content** section.
 1. Click **Configure** on the **Product** widget.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No error is shown.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following error message is received:
 

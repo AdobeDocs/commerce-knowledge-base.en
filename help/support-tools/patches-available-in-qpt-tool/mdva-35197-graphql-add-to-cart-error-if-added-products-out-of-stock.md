@@ -26,17 +26,17 @@ Adobe Commerce (all deployment methods) 2.3.5 - 2.3.6-p1
 
 Error when trying to add a product to cart via GraphQL if the other product already in the cart (also added via GraphQL) becomes out of stock.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Using GraphQL, add any product to the cart.
 1. Log in to the Commerce Admin panel and set this product as out of stock.
 1. Try adding another product to the cart via GraphQL.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 In-stock products can be added to the cart.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 GraphQL error message: *Some of the products are out of stock*. A new "in-stock" product cannot be added.
 

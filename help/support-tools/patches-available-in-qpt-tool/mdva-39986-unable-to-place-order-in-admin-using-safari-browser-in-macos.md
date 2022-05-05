@@ -26,18 +26,18 @@ Adobe Commerce (all deployment methods) 2.4.2-p1 - 2.4.2-p2
 
 Users are not able to place orders in the admin using the Safari browser on macOS.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Place an order.
 1. Go to the admin using Safari browser on macOS and open the order you created earlier.
 1. Click on **Reorder**.
 1. Try to update **Product Quantity**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Users should be able to re-order using the Safari browser on macOS.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Users get a JS error where the spinning wheel appears and runs endlessly.
 

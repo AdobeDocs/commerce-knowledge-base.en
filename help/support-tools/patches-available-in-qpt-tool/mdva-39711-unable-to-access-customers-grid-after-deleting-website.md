@@ -26,19 +26,19 @@ The MDVA-39711 patch fixes the issue where the Admin user cannot access the cust
 
 Admin user cannot access the customers' grid after deleting the website.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new website, store, and store view.
 1. Create a new customer on the Admin and associate it to the created website.
 1. Go to **Stores** > **All stores** and delete the created website.
 1. Go to **Customers** > **All customers**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * There is no error message.
 * All customers are visible in the grid.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * The user gets an error message: *The website with id 2 that was requested wasn't found. Verify the website and try again*
 * All customers are not displayed.

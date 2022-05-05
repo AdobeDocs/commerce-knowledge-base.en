@@ -20,15 +20,15 @@ The issue will be fixed in the scope of 2.4.4, 2.4.3-p1 and 2.3.7-p2 releases.
 
 The issue is caused by the new Adobe Commerce 2.4.3 and 2.3.7-p1 versions using PHP 8 only function `str_contains`. Adobe Commerce 2.4.3 and 2.3.7-p1 are only compatible with PHP 7.4 so this function cannot be used.
 
- <ins>Steps to reproduce</ins> :
+ <u>Steps to reproduce</u> :
 
 Attempt to upgrade to Adobe Commerce 2.4.3 or 2.3.7-p1.
 
-<ins>Expected result:</ins>
+<u>Expected result:</u>
 
 Successful upgrade.
 
-<ins>Actual result:</ins>
+<u>Actual result:</u>
 
 PHP fatal error.
 

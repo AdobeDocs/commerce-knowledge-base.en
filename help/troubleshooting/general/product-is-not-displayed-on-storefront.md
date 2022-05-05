@@ -15,7 +15,7 @@ This article provides solutions for when products are not displayed on storefron
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Commerce Admin.
 1. Go to **Catalog** > **Products**.
@@ -24,11 +24,11 @@ This article provides solutions for when products are not displayed on storefron
 
 1. Click **Add Product** and go through the product creation process. Or import products from a CSV file.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Product is displayed on the storefront.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 Product is not displayed.
 

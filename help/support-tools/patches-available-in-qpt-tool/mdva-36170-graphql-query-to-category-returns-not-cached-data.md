@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.1 - 2.4.1-p1
 
 Fixes the issue where the result of the GraphQL query is not cached.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 The merchant is using the GET method for GraphQL caching but not getting the cached data.
 
@@ -79,11 +79,11 @@ items {
 }
 }}</pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The data is cached.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The data is not cached.
 

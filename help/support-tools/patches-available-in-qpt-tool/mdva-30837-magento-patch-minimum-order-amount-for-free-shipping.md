@@ -30,7 +30,7 @@ The patch MDVA-30837 adds the configuration setting to configure the **Minimum O
     * When **Include Tax to Amount** is set to *Yes*, the minimum order amount is calculated as Subtotal + Tax - Discount.
     * When **Include Tax to Amount** is set to *No*, the minimum order amount is calculated as Subtotal - Discount.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > Settings > **Configuration** > **Sales** > **Tax** and set the following:
 
@@ -59,14 +59,14 @@ The patch MDVA-30837 adds the configuration setting to configure the **Minimum O
 1. Get a shipping quote - after taxes, the Grand Total = $25.01 and free shipping is applied.
 1. Apply the coupon code - it will not be valid because the Subtotal (Excluding Tax) is $23.10.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 There is an additional configuration setting - Include Tax to Amount: *Yes*/*No* in Free Shipping method configuration:
 
 * When Include Tax to Amount is set to *Yes*, the Minimum Order Amount is calculated as Subtotal + Tax - Discount.
 * When Include Tax to Amount is set to *No*, the Minimum Order Amount is calculated as Subtotal - Discount.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The Free Shipping price rule condition can only be based on the Subtotal, while the Free Shipping method can only be based on the Grand Total.
 

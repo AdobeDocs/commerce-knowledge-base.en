@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.1 - 2.4.2-p2
 
 Users get an error when trying to retrieve information about category changed by scheduled update via GraphQL.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set up a category structure with a sub-category as given below:
 
@@ -76,11 +76,11 @@ Users get an error when trying to retrieve information about category changed by
 1. Wait for the schedule update to get activated.
 1. Execute the same query as given above.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 You receive the same result but with the updated category name.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the following error:
 

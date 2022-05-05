@@ -15,7 +15,7 @@ This article provides a solution for Adobe Commerce 2.4.0 known issue when an ad
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the **Admin Panel** > **Sales** > **Orders**.
 1. Click the **Create New Order** button.
@@ -33,11 +33,11 @@ This article provides a solution for Adobe Commerce 2.4.0 known issue when an ad
 1. Click the **Refresh** button of the **Recently Compared Products** section of **Customer's Activities**.
 1. Go back to the storefront.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
  The name of the product should appear in the **Recently Viewed Products**, **Last Ordered Items**, **Products in Comparison List**, and **Recently Compared Products** section.
 
- <ins>Actual results</ins>:
+ <u>Actual results</u>:
 
  The page is scrolled up every time a **Refresh** button is clicked. The name of the product does not appear in the proper section.
 

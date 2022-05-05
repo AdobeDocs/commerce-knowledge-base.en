@@ -16,7 +16,7 @@ Adobe Commerce 2.4.4 with PHP 8.1
 
 Users are not able to add products to the cart if the Allow Countries is unselected.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Commerce Admin.
 1. Go to **Store** > **Configuration** > **General** > **Country Options**
@@ -24,11 +24,11 @@ Users are not able to add products to the cart if the Allow Countries is unselec
 1. Click **Save Config** to save the configuration.
 1. Go to the storefront and try adding a product to the cart.
 
-<ins>Expected Result:</ins>
+<u>Expected Result:</u>
 
 You are able to add a product to the cart.
 
-<ins>Actual Result:</ins>
+<u>Actual Result:</u>
 
 You are not able to add a product to the cart. You get the following console error:
 ```bash

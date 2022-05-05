@@ -24,7 +24,7 @@ The MDVA-40550 patch solves the issue where reindexing results in some or all of
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a product.
 1. Switch indexers to **Update by schedule**.
@@ -42,11 +42,11 @@ The MDVA-40550 patch solves the issue where reindexing results in some or all of
 1. Wait for the execution to stop on the breakpoint `\Magento\Indexer\Model\IndexMutex::execute`. It will lock the `catalog_category_product` indexer.
 1. Resume execution of the full reindex of `catalog_category_product` and wait for a lock timeout (60 seconds).
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No error messages in console.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the following error:
 

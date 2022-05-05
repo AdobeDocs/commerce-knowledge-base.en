@@ -24,7 +24,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a customer.
 1. Log into the customer account.
@@ -32,11 +32,11 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 1. Choose a configurable product (Example: *configurable\_1* ) and select preferred color and size options on the **Product Listing** page (**Do not open the product page.**).
 1. Click on the wishlist icon of another configurable product (Example: *configurable\_2*) on the same page without selecting any color/size options.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The *configurable\_2* product is added to the wishlist without selected options, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The *configurable\_2* product added to the wishlist with the configuration from the *configurable\_1* product.
 

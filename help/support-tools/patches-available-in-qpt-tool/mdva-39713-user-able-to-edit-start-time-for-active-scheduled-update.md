@@ -26,7 +26,7 @@ The MDVA-39713 patch fixes the issue where a user is able to edit the start time
 
 The user is able to edit the start time for an active scheduled update.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create new CMS pages.
 1. Select **Schedule New Update** and set the **Start Date** to current +1 minute.
@@ -38,11 +38,11 @@ The user is able to edit the start time for an active scheduled update.
 1. Again, run the following command: `bin/magento cron:run --group=staging`.
 1. Click **View/Edit** of the Scheduled Update.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The user is not able to edit the start time for an active scheduled update.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The user gets an error like *Item (Magento\Cms\Model\Page) with the same ID "11" already exists.*
 

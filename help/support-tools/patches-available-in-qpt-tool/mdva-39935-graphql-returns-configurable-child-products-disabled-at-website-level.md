@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.4.1 – 2.4.3
 
 GraphQL returns configurable child products even after they are disabled at the website level.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable display out of stock products option under **Store** > **Configuration** > **Catalog** > **Inventory** > **Stock Options** > **Display Out of Stock Products** > **Yes**.  
 1. Select any **Configurable Product** which has more than two **Simple Products**.
@@ -58,11 +58,11 @@ GraphQL returns configurable child products even after they are disabled at the 
 </code>
 </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Disabled products are NOT shown in the variant results.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Disabled products data is fetched in the variant results.
 

@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 Slow queries occur on the `customer_grid_flat` table.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create an Admin user with a Custom scope (Example: Set **GWS** = *0,* and choose the existing default website with **ID** = *1*).
 1. Create any product and category items.
@@ -35,7 +35,7 @@ Slow queries occur on the `customer_grid_flat` table.
 1. Go to the Sales grid (**Sales > Orders**).
 1. Check that the SQL query has been sent to DB (database).
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The Admin GWS extension should use
 
@@ -55,7 +55,7 @@ in SQL conditions, as expected, like:
 main_table.website_id IN (1)
 ```
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The Admin GWS extension added a condition with
 

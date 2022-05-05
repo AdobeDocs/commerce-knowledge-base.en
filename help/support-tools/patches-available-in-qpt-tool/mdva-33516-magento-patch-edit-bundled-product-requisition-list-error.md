@@ -26,12 +26,12 @@ Adobe Commerce on cloud infrastructure 2.3.0 - 2.3.5-p2
 
 Error editing bundled products on Requisition List.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * B2B is installed.
 * Requisition List is enabled.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a bundled product with two simple products.
 1. Go to the bundled product page, click on the **Customize and Add to Cart** button.
@@ -40,11 +40,11 @@ Error editing bundled products on Requisition List.
 1. Click the **View** button in the *Actions* column.
 1. Click the **Edit** button.
 
-<ins>Expected Results</ins>:<br>
+<u>Expected Results</u>:<br>
 
 No errors.
 
-<ins>Actual Results</ins>:
+<u>Actual Results</u>:
 
 "Your Customization" page, containing a picture of the bundled product, price, and the following error message:
 

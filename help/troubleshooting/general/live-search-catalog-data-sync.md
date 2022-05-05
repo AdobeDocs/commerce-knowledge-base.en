@@ -16,7 +16,7 @@ This article provides solutions for the Adobe Commerce issue where your catalog 
 
 Your catalog data is not synchronized correctly, or a new product was added but is not appearing in search results.
 
-<ins>Steps to reproduce</ins>
+<u>Steps to reproduce</u>
 
 1. Configure and connect Live Search for your Adobe Commerce instance as described in [Configure and Connect](https://devdocs-beta.magento.com/live-search/config-connect.html) in our developer documentation.
 1. After 8 hours, verify the exported catalog data as described in [Configure and Connect > Verify catalog sync](https://devdocs-beta.magento.com/live-search/config-connect.html#verify-catalog-sync) in our developer documentation.
@@ -27,13 +27,13 @@ Or
 1. Add a new product to the catalog.
 1. Try running a search query using the product name or other searchable attributes after 15-20 minutes from the time Magento indexer + cron have run to sync data to backend service.
 
-<ins>Expected result</ins>
+<u>Expected result</u>
 
 * Exported catalog data can be verified
 * Connection is successful
 * New product appears in search results.
 
-<ins>Actual result</ins>
+<u>Actual result</u>
 
 Exported catalog cannot be verified and/or connection is not established because the API key has changed.
 

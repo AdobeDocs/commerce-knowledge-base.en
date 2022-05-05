@@ -26,18 +26,18 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 The value for the condition in new schedule update is not getting saved when editing a catalog price rule.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to Admin.
 1. Create a **Catalog Rule** with **Condition** = "*Category is 1*".
 1. Schedule an update with a start date in the future (Example: tomorrow) and set **Condition** = "*Category is 2, 3*", and save the update.
 1. Click on **View/Edit** for the update created above, and check the condition fields.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The **Catalog Rule's**  **Condition** = "*Category is 2, 3*", as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The **Catalog Rule's**  **Condition** = "*Category is 1*", meaning that the update was not saved.
 

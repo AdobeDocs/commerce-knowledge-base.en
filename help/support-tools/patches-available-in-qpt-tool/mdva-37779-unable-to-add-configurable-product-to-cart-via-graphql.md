@@ -26,20 +26,20 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.2 - 2.
 
 It is impossible to add configurable product to the cart when the website ID is not equal to the store ID.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Have a second website, store and store view where website ID is not equal to the store ID.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create an empty cart using GraphQl mutation `createEmptyCart`.
 1. Try to add a configurable product to the cart using the `addConfigurableProductsToCart` mutation.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Product added to cart.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Get an error: *Could not add the product with SKU xxxx to the shopping cart: The website with ID 3 that was requested wasn't found. Verify the website and try again.*
 

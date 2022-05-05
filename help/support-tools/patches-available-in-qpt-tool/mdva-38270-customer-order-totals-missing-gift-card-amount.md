@@ -23,12 +23,12 @@ Adobe Commerce (all deployment methods) 2.4.1-2.4.2-p1
 ## Issue
 Gift card amount is missing from the order total response.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. Create a customer account.
 1. Place an order using a gift card (gift card covers entire order).
 
-<ins>Steps to reproduce</ins>:  
+<u>Steps to reproduce</u>:  
 
 Make a customer query for customer, orders, items, total:
 ```GraphQL
@@ -65,11 +65,11 @@ query {
 }
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 `total_giftcard` field is available.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 No gift card related fields are available.
 

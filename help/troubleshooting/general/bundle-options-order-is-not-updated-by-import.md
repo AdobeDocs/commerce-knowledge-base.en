@@ -16,20 +16,20 @@ This article provides a solution for the issue when after importing products fro
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 You have a valid .csv file containing bundle products.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Import the file using the [Import functionality](https://docs.magento.com/m2/ee/user_guide/system/data-import.html).
 1. Open the bundle product page.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The options order is the same as in the .csv file.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The options order is different from that in the .csv file.
 

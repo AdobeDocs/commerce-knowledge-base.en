@@ -14,15 +14,15 @@ This article provides a solution for the Adobe Commerce on cloud infrastructure 
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Trigger a deploy by pushing the code to the Staging or Production environment.
 
-<ins>Expected behavior</ins>:
+<u>Expected behavior</u>:
 
 Deployment is successful.
 
-<ins>Actual behavior</ins>:
+<u>Actual behavior</u>:
 
 The deployment is blocked and the following error message is displayed in the log:
 

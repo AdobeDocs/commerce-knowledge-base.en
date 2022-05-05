@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.4 - 2.
 
 Layout body class gets removed from the category after scheduled update.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In the Commerce Admin, create a category.
 1. Set **Layout** = *Category -- Full width* in the **Design** section.
@@ -42,7 +42,7 @@ Layout body class gets removed from the category after scheduled update.
 1. Wait for the scheduled update to start, run cron and flush cache.
 1. Go to the category page on the frontend and inspect the page source.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 In the page body, you see the
 
@@ -52,7 +52,7 @@ page-layout-category-full-width
 
 CSS class.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 In the page body, you see the
 

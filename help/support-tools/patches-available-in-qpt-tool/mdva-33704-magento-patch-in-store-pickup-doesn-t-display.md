@@ -22,11 +22,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
-<ins>Prerequisite</ins>:<br>
+<u>Prerequisite</u>:<br>
 
 **Pick in Store** enabled
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Add a product to the cart.
 1. Go to Checkout.
@@ -38,11 +38,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 1. Note that your shipping address is automatically entered as a billing address.
 1. Refresh the webpage.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The in-store pickup option will display as a shipping method, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The in-store pickup option will not display as a shipping method.
 

@@ -26,17 +26,17 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0 - 2.
 
 Adding a product to the requisition list using API results in error.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Activate requisition list in Admin (**Stores** > **Configuration** > **General** > **B2B Features** > **Enable Requisition List** = *Yes*).
 1. Create a customer.
 1. Create a new requisition list for this customer sending call ```json    POST rest/all/V1/requisition_lists``` with the json payload attached.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No error, and the list is created.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 400 error.
 

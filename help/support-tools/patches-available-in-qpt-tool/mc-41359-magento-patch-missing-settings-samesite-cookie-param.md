@@ -22,7 +22,7 @@ The MC-41359 commerce patch fixes the issue with missing SameSite cookie paramet
 
 Missing settings of the SameSite cookie parameter.
 
- <ins>Steps to reproduce:</ins>
+ <u>Steps to reproduce:</u>
 
 Prerequisites:
 
@@ -30,22 +30,22 @@ Prerequisites:
 * Enable **SameSite by default cookies** and **Cookies without SameSite must be secure**.
 * Open the Chrome inspector.
 
- <ins>Scenario 1:</ins>
+ <u>Scenario 1:</u>
 
 1. Enable PayPal.
 1. Go to the store front.
 1. Add a product to the cart.
 1. Go to checkout.
 
- <ins>Scenario 2:</ins>
+ <u>Scenario 2:</u>
 
 If you have New Relic [enabled](https://docs.magento.com/user-guide/reports/new-relic-reporting.html) the warning appears on any frontend page.
 
-<ins>Actual result:</ins>
+<u>Actual result:</u>
 
 Warning message in the browser console: *A cookie associated with a cross-site resource was set without a SameSite attribute.*
 
- <ins>Expected result:</ins>
+ <u>Expected result:</u>
 
 "lax" should not be added to the cookie domain; the samesite attribute should be present with default value.
 

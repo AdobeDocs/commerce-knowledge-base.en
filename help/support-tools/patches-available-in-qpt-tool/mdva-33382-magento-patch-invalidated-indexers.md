@@ -33,7 +33,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 The following indices are not invalidated: `catalog_category_product` , `catalogsearch_fulltext` (and their dependents), as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following indices are invalidated: `catalog_category_product` , `catalogsearch_fulltext` (and their dependents).
 

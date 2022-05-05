@@ -17,18 +17,18 @@ Adobe Commerce (all deployment methods) 2.4.3 and above
 
 Merchants set up a coupon for single use and customers are able to use it multiple times.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a coupon and configure the coupon to single use.
 1. Proceed to checkout.
 1. Use the coupon that you just created.
 1. Proceed to checkout again and use the same coupon.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The coupon can only be used once. A message displays: *The coupon code "COUPON_NAME" is not valid*.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The coupon can be used more than once.
 

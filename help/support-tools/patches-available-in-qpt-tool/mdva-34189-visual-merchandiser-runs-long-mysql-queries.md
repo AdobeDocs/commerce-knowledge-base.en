@@ -24,16 +24,16 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 Website runs large MySQL queries on the Production server.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. To access the Visual Merchandiser go to the *Admin* sidebar, click **Catalog** > **Categories**.
 1. Load the **Categories** page in the Admin panel (the initial root category load) and observe the queries that it executes.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The Admin **Categories** page should load without generating slow queries.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 This depends on your PHP configuration. The most common example of this error is that the **Categories** page does not open and an error *Error 503 first byte timeout* displays.<br>
 Alternately when Adobe Commerce loads the Visual Merchandiser, it executes a slow MySQL query. This query includes many product IDs inserted in to `ORDER BY FIELD(`e`.`entity_id`,

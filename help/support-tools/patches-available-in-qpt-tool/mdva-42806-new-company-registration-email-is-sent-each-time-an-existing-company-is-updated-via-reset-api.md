@@ -26,11 +26,11 @@ The MDVA-42806 patch solves the issue where a new company registration email is 
 
 A new company registration email is sent each time an existing company is updated via REST API.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 B2B modules installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a company account.
 1. Use `/V1​/company​/<company_id>` endpoint. To update the created company, see [update the company](https://devdocs.magento.com/guides/v2.4/b2b/company-object.html#update-the-company) in our developer documentation. Below is a sample payload:
@@ -57,11 +57,11 @@ B2B modules installed.
 }
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No email is sent saying "New company registration request" as the API is updating an existing company.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Email is sent saying "New company registration request" each time the API request is sent.
 

@@ -23,7 +23,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.
 ## Issue
 Incremental indexing of grouped product child products can cause incorrect other grouped products to be incorrectly indexed when children are shared.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 * Create a new stock and source for the main website.
 * Create 3 simple products with qty 10,15 and 0.
@@ -36,11 +36,11 @@ Incremental indexing of grouped product child products can cause incorrect other
 * Save the 1st Grouped Product.
 * Clean Full-Page Cache and check the 2nd Grouped Product from the frontend.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Grouped Product is not out of stock after saving another Grouped Product with Up-sell. The issue is resolved after a full re-index.
 
-<ins>Actual results</ins>:  
+<u>Actual results</u>:  
 
 The 2nd Grouped Product goes out of stock when you save the 1st Grouped Product.
 

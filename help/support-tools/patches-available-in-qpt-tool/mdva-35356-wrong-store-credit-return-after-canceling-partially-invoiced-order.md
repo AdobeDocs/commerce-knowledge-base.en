@@ -24,7 +24,7 @@ Adobe Commerce (all deployment methods) 2.3.0-2.4.2
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create three simple products.
 1. Create a new user and assign store credit (Example: store credit = *$10,* simple product prices = *$100*, *$200*, and *$300*).
@@ -39,11 +39,11 @@ Adobe Commerce (all deployment methods) 2.3.0-2.4.2
 1. Cancel the order, and see that two items are invoiced and that the third item is canceled.
 1. Observe the store credit balance.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The store credit balance is still 0 because the $10 store credit has been invoiced.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The full store credit is returned: the balance is $10.
 

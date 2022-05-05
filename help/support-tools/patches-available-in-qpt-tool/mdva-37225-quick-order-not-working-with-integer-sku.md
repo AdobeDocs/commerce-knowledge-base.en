@@ -19,11 +19,11 @@ The MDVA-37225 quality patch for Adobe Commerce fixes the issue when the page do
 
 ## Issue
 
-<ins>Prerequisite</ins>:
+<u>Prerequisite</u>:
 
  Adobe Commerce with installed B2B module
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable B2B quick order functionality.
 1. Create 4 simple products with SKUs (Example SKUs: *00100*, *001E002*, *001E02C*, and *7100824*).
@@ -34,11 +34,11 @@ The MDVA-37225 quality patch for Adobe Commerce fixes the issue when the page do
 | 00100  | 1 |
 
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product (Example: product with SKU = *00100*) is added to the cart, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The page doesn't load, and no products are added to the cart.
 

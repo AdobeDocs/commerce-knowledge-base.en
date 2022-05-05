@@ -26,11 +26,11 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 Users are unable to add two or more products to the cart in quick order.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Adobe Commerce with simple products.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Quick Order** on the Storefront (while not logged in).
 1. Enter a valid SKU, click the product that shows up in the autocomplete field, and set **Quantity** = *1*.
@@ -45,11 +45,11 @@ Adobe Commerce with simple products.
 1. Enter a `random_sting_value2` into the **Enter Multiple SKUs** field, and click **Add to List**.
 1. This results in two valid SKUs from before and a `random_sting_value2`.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Two or more products are able to be added to the cart, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 When taken to the **Cart** page, the first added product appears normally, but for the second product and any subsequent products added to the cart, a "*1 product requires attention*" error message appears. The second or any additional products will be listed on the **Product Requires Attention** section of the **Cart** page.
 

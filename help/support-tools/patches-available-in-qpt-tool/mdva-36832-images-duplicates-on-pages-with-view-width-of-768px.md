@@ -21,7 +21,7 @@ The MDVA-36832 patch fixes the issue where images duplicate on pages with view w
 
   Images duplicate on pages with view width of 768px.
 
-<ins>Steps to reproduce:</ins>
+<u>Steps to reproduce:</u>
 
 1. Go to backend > CONTENT > Pages and edit any page.
 1. Add any image to page.
@@ -29,11 +29,11 @@ The MDVA-36832 patch fixes the issue where images duplicate on pages with view w
 1. Open developer tools in Chrome.
 1. Enable "device view" and select iPad view or set page width to 768px.
 
-<ins>Actual result:</ins>
+<u>Actual result:</u>
 
 The image gets duplicated.
 
-<ins>Expected result:</ins>
+<u>Expected result:</u>
 
 Only one added image should be visible on the page.
 

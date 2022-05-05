@@ -26,18 +26,18 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable any payment method with the **Sale** transaction type. (For example: **Braintree** or **PayPal Payflow Pro**.)
 1. Create a simple product.
 1. Create a customer account in the frontend.
 1. Place an order from the Admin.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The invoice email is sent to the customer automatically, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The invoice email is not sent to the customer automatically.
 

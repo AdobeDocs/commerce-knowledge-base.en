@@ -14,7 +14,7 @@ We will walk through the recommended steps to upgrade from Adobe Commerce 2.3 to
 
 Upgrading the Adobe Commerce platform regularly is critical to keeping your Commerce stores secure, reliable, and high performing. Running an outdated version of Adobe Commerce can leave the store vulnerable to security breaches and performance latency, which can result in reduced conversions and sales for your e-commerce business. This workshop will support your technical resources by providing you with knowledge essentials and how-to guides related to a 2.3 to 2.4 upgrade - including a live upgrade walkthrough!
 
-<ins>Event date and time:</ins>
+<u>Event date and time:</u>
 
 Wed, Jan 26, 2022, 10:00 AM - 11:30 AM CST
 

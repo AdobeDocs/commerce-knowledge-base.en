@@ -24,11 +24,11 @@ The MDVA-29954 patch solves the issue where the "New Company Registration Reques
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Install Adobe Commerce with B2B, with **B2B Features** and **Company** enabled.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Click on the **Create Account** dropdown on the storefront, and select **Create New Company Account**.
 1. Fill in the required fields, and register the account.
@@ -40,11 +40,11 @@ Install Adobe Commerce with B2B, with **B2B Features** and **Company** enabled.
 1. Go to **Stores** > **Configurations** > **General-Store Email Addresses** > **General Contact**, and check **Sender Email**.
 1. Go to the email that you used to register the **New User** in Step 7.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The "You've been linked to a company" email is sent from an email address with the same value as for the **Sender Email** in Step 8.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The "You've been linked to a company" email is sent from the **Companies Admin** email.
 

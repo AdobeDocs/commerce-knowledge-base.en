@@ -30,7 +30,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In Commerce Admin, go to **Catalog** > **Products** and click edit. Notice the **Price** value, for example *9.99*.
 1. Click **Schedule New Update** and fill in details:
@@ -45,11 +45,11 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 1. Wait for a cron job to run.
 1. Click edit again in the scheduled change and check the price.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Price is 1.99.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Price is 9.99.
 

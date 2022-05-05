@@ -26,7 +26,7 @@ The MDVA-43091 patch solves the issue where users are unable to order bundled pr
 
 When trying to order bundled product from the Admin, it throws the following error: *You cannot use decimal quantity for this product.*
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Install a clean Adobe Commerce.
 1. Create two simple products.
@@ -36,11 +36,11 @@ When trying to order bundled product from the Admin, it throws the following err
     * Select the customer account created just now.
     * Try to add the bundled product to the cart.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Admin user is able to add the product with one quantity to the cart.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Admin user gets the following error: *You cannot use decimal quantity for this product.*
 

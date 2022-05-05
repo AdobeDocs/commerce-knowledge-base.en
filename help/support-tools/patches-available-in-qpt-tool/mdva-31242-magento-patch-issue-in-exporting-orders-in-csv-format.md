@@ -24,7 +24,7 @@ The MDVA-31242 patch solves the issue where an error occurs when exporting order
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Admin backend.
 1. Enable **Company** at **Stores** > **Configuration** > **B2B Features**.
@@ -34,11 +34,11 @@ The MDVA-31242 patch solves the issue where an error occurs when exporting order
 1. Click the **Apply Filters** button.
 1. Click the **Export** > **CSV** > **Export** button.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The selected file pop-up is opened as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 White screen with the error *There has been an error processing your request* exception is displayed.
 

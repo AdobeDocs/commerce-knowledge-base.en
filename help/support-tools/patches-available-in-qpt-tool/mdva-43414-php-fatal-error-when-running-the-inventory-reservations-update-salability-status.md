@@ -26,11 +26,11 @@ The MDVA-43414 patch solves the PHP fatal error that occurs when running the `in
 
 PHP fatal error occurs when running the "inventory.reservations.updateSalabilityStatus" queue consumer on numerical SKUs.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Inventory modules installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a custom inventory source and assign it to a new inventory stock.
 1. Create a product with the custom inventory source.
@@ -38,11 +38,11 @@ Inventory modules installed.
 1. Place an order.
 1. Run the `bin/magento queue:consumer:start inventory.reservations.updateSalabilityStatus` command.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The queue starts without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 PHP fatal error occurs:
 ```PHP

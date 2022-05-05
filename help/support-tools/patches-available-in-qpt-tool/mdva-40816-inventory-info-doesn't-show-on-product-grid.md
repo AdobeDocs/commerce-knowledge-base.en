@@ -26,21 +26,21 @@ The MDVA-40816 patch solves the issue where inventory information is not display
 
 Inventory data is not displayed on the product grid if a product SKU contains special symbols.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 MSI is installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product.
 1. Modify a product's SKU to include special symbols such as & or '.
 1. Open the product grid.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product grid displays all information correctly.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Inventory data is missing.
 

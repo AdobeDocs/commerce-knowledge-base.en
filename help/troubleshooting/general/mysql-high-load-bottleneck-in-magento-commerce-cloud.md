@@ -25,7 +25,7 @@ For more information about the New Relic APM service and its setup with your Ado
 
 ## Issue
 
- <ins>Steps To See If The Issue Affects You</ins>
+ <u>Steps To See If The Issue Affects You</u>
 
 1. In your New Relic APM Overview Chart, check for the first indication that MySQL has become a bottleneck. See the sample picture below where MySQL has become a bottleneck and takes most of the web transactions time:
 

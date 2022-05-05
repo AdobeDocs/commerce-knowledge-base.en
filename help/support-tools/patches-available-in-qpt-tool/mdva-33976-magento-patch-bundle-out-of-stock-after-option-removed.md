@@ -20,18 +20,18 @@ The MDVA-33976 patch fixes the issue where a bundle product is shown as Out Of S
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Open a bundle product in the Commerce Admin.
 1. Remove one of the bundle product options.
 1. Save changes.
 1. Open product on the storefront.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The bundle product stock status is updated according to the child product stock status.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The bundle product is displayed as Out Of Stock, no matter what is the status of the child product.
 

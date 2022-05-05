@@ -22,18 +22,18 @@ The MDVA-33614 patch fixes the issue where it is impossible to save edits to the
 
 It is impossible to save edits to the Terms page, because Page Builder throws an error.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In Commerce Admin, go to **CONTENT** > Elements > **Pages**.
 1. Select Terms page.
 1. Click **Edit**.
 1. Make an edit and click **Save**.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The page is saved with no errors.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The following error is displayed: *An error has occurred while initiating Page Builder. Please consult with your technical support contact*.
 

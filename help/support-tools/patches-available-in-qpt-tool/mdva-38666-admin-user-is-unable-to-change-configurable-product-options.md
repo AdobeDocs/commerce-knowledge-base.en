@@ -26,7 +26,7 @@ The MDVA-38666 patch solves the issue where the admin user is unable to change c
 
 Admin user is not able to change the configurable product options in the customer's cart.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set customer account scope to Global.
 1. Create two websites with stores.
@@ -38,11 +38,11 @@ Admin user is not able to change the configurable product options in the custome
 1. Open the customer from the admin and navigate to the cart tab.
 1. Switch the store from the drop-down and try to change the configuration.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 User gets a popup with configurable options.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 No popup form appears. The user is unable to change the configuration.
 

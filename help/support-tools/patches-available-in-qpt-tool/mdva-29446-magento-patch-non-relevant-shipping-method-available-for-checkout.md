@@ -26,7 +26,7 @@ The MDVA-29446 patch solves the issue where a shipping method that is not applic
 
 You have a shipping method that is not applicable but still shows up on the checkout shipping method options, and you can select this non-relevant shipping method.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Install clean 2.3-develop.
 1. Enable Flat rate and set:
@@ -40,7 +40,7 @@ You have a shipping method that is not applicable but still shows up on the chec
 1. Select an item and click **Add to Cart**.
 1. Click on the cart and click **Proceed to Checkout**.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 1. On the **Shipping** page, you see the following:
 
@@ -50,7 +50,7 @@ You have a shipping method that is not applicable but still shows up on the chec
 
  *"Carrier with such method not found: null, flatrate"*
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * The price of the shipping method is not visible if the shipping method is not applicable.
 * The **Next** button should not be active.

@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.3-p1 – 2.4.2-p1
 
 When the Notify Customers by Email option for shipment is selected, customers receive an email containing the following error message: *We're sorry, an error has occurred while generating this content*.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Marketing** > **Communications** > **Email Templates** and select **Add New Template**.
    * Select **Magento Sales** > **New Shipment**.
@@ -41,11 +41,11 @@ When the Notify Customers by Email option for shipment is selected, customers re
 1. Add a comment in **Comment Text** below **Shipment History** and check the checkbox **Notify Customer by Email**.
 1. Click **Submit Comment**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Sales email with shipment comments is generated.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following error message is received in the email: *We're sorry, an error has occurred while generating this content.*
 

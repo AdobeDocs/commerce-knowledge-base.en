@@ -18,12 +18,12 @@ This article provides troubleshooting steps when you receive a warning disk aler
 
 You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe to give customers a standard set using insights from Support and Engineering.
 
- <ins> **Do!** </ins>
+ <u> **Do!** </u>
 
 * Abort any deployment scheduled until this alert is cleared.
 * Put your site into maintenance mode immediately if your site is or becomes completely unresponsive. For steps refer to [Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) in our developer documentation. Make sure to add your IP to the exempt IP address list to ensure that you are still able to access your site for troubleshooting. For steps, refer to [Maintain the list of exempt IP addresses](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten#instgde-cli-maint-exempt) in our developer documentation.
 
- <ins> **Don't!** </ins>
+ <u> **Don't!** </u>
 
 * Launch additional marketing campaigns which may bring additional page views to your site.
 * Run indexers or additional crons which may cause additional stress on CPU or disk.

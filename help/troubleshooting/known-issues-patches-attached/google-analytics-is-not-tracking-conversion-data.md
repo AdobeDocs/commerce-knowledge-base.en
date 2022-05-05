@@ -16,7 +16,7 @@ This article provides a patch for the known Adobe Commerce 2.2.4 issue related t
 
 The conversion data was not tracked by Google Analytics due to an error in the Google Analytics component code.
 
- <ins>Steps to reproduce</ins>:
+ <u>Steps to reproduce</u>:
 
 1. Enable and configure the Google Analytics functionality in the Commerce Admin under **Stores** > **Settings** > **Configuration** > **Sales** > **Google API** > **Google Analytics**.
 1. Click **Save Config**.
@@ -24,11 +24,11 @@ The conversion data was not tracked by Google Analytics due to an error in the G
 1. Go to **Google Analytics Dashboard** > **Conversions** > **Overview**.
 1. Set the date range to the current date.
 
- <ins>Expected result</ins>:
+ <u>Expected result</u>:
 
 The order appears in the conversion data.
 
- <ins>Actual result</ins>:
+ <u>Actual result</u>:
 
 The order does not appear in the conversion data.
 

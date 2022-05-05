@@ -27,7 +27,7 @@ Adobe Commerce (all deployment methods) 2.3.4 - 2.4.0-p1
 
 Users get an error when creating a store view if several CMS pages have the same URL key.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the **Admin Panel** > **Stores** > **All Stores** and create two store views.
 
@@ -65,11 +65,11 @@ Users get an error when creating a store view if several CMS pages have the same
     Status: Enabled
     ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Store view is created successfully.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following error message is shown: *Something went wrong while saving. Please review the error log.* The log contains an exception like:
 

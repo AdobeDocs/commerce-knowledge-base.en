@@ -24,7 +24,7 @@ The patch solves several issues. Following are the description and steps to repr
 
 The product grid filter does not work correctly when we filter using custom date attribute and the admin user locale is en\_GB.
 
-<ins>Steps to reproduce:</ins>:
+<u>Steps to reproduce:</u>:
 
 1. Create an admin user whose **Interface Locale** is set to *English (United Kingdom)*.
 1. Create a date attribute with the following configuration:
@@ -35,11 +35,11 @@ The product grid filter does not work correctly when we filter using custom date
 1. Go to the product edit page, select a date for the new attribute using the date picker and save.
 1. Try to filter the product grid using the new date attribute.
 
-<ins>Expected result:</ins>:
+<u>Expected result:</u>:
 
 Product filter works correctly for a custom date attribute when the admin user locale is en\_GB.
 
-<ins>Actual result:</ins>:
+<u>Actual result:</u>:
 
 Product filter does not work correctly for a custom date attribute when the admin user locale is en\_GB.
 

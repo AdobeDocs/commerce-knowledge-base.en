@@ -14,15 +14,15 @@ This article provides a solution for the Adobe Commerce issue, where deployment 
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Trigger deployment manually or by performing a merge, push, or synchronization of your environment.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Deployment is completed successfully.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 Deployment gets stuck, and in the deployment error log in cloud UI, the following error message is displayed: *"Error: Unable to upload the application to the remote cluster" found in deploy log after failed deployment, site may display error "503 first byte timeout"*.
 

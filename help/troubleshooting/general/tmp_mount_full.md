@@ -34,7 +34,7 @@ The `/tmp` mount being full might result in a range of possible symptoms, includ
 * *Got error: 23: Out of resources when opening file*
 
 
-<ins>Steps to reproduce:</ins>
+<u>Steps to reproduce:</u>
 
 To check how full the `/tmp` mount is, in the CLI switch to `/tmp` and run the following command:
 
@@ -42,11 +42,11 @@ To check how full the `/tmp` mount is, in the CLI switch to `/tmp` and run the f
  df -h
 ```
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Less than 80%.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 Around 100%.
 

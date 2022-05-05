@@ -20,15 +20,15 @@ This article provides a solution for the issue where changes in `.magento.env.ya
 
 Changes made in the `.magento.env.yaml` file do not affect the `app/etc/env.php` generated.
 
-<ins>Steps to reproduce:</ins>
+<u>Steps to reproduce:</u>
 
 Change any value in `.magento.env.yaml` and push to the server, where it should define the configuration (and deployment settings) for the currently checked-out environment. For steps, see [Environment Variables > Deploy Variables](https://devdocs.magento.com/cloud/env/variables-deploy.html) in our developer documentation.
 
-<ins>Expected result:</ins>
+<u>Expected result:</u>
 
 Changes made in the `.magento.env.yaml` file affect the `app/etc/env.php` generated.
 
-<ins>Actual result:</ins>
+<u>Actual result:</u>
 
 The changes have no effect on the `app/etc/env.php` variables after deployment.
 

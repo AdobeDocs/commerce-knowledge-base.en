@@ -26,7 +26,7 @@ The MDVA-39153 patch fixes the issue where the discount amount is calculated inc
 
 Discount amount is calculated incorrectly during reorder in the Admin.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the **Admin** > **Stores** > **Configuration** > **Sales** > **Taxes**.
 1. Turn on the tax for shipping displaying the tax in the Shopping Cart.
@@ -40,11 +40,11 @@ Discount amount is calculated incorrectly during reorder in the Admin.
 1. Go to the homepage and then back to the Shopping Cart.
 1. Change shipping method in "estimates" section to "Table Rate".
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The discount remains the same - $5.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The discount is $6.31.
 

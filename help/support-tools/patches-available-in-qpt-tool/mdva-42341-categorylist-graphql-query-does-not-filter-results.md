@@ -26,7 +26,7 @@ The MDVA-42341 patch solves the issue where the "categoryList" GraphQL query doe
 
 The "categoryList" GraphQL query does not filter results if a request has the Store header.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new Root Category and name it **root2**.
 1. Create a second Website/Store/Storeview and assign **root2** to the new Store.
@@ -51,11 +51,11 @@ The "categoryList" GraphQL query does not filter results if a request has the St
 </code>
 </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Categories from the default Root Category are not listed in response since we are using a "new" store Header.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Categories from the default Root Category are available in results.
 

@@ -24,7 +24,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-2.3.
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Navigate to **Stores** > **Settings** > **Configuration** > **Sales** > **Tax**.
 1. Set **Catalog Prices** and **Apply Discount on Prices** to *Including Tax*.
@@ -40,11 +40,11 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-2.3.
 1. Navigate to **Sales** > **Orders**, and open your order.
 1. Create an invoice for the order, and open it.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The invoice Grand Total = *$0.00*.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The invoice Grand Total = *tax amount* is created.
 

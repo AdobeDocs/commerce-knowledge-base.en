@@ -22,7 +22,7 @@ The MDVA-37182 patch fixes the issue with inconsistent search behavior across ve
 
 Inconsistent search behavior.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create products with the following details:
     * Names:  "5127AC", "5127SS", "5127AB"
@@ -34,11 +34,11 @@ Inconsistent search behavior.
 1. Run full reindex.
 1. On the storefront, search for "5127s".
 
-<ins>Actual result:</ins>:
+<u>Actual result:</u>:
 
 ES6: search returns no results.ES7: search returns three products.
 
-<ins>Expected result:</ins>:
+<u>Expected result:</u>:
 
 Search returns one product for both versions.
 

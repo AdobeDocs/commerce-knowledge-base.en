@@ -19,7 +19,7 @@ The MDVA-37362 patch solves the issue where configurable product option values a
 
 ## Issue
 
- <ins>Steps to reproduce:</ins>
+ <u>Steps to reproduce:</u>
 
 1. Create a new source and a new stock assigned to this new source.
 1. **Stores** > *Settings* > **Configuration** > **Catalog** > **Inventory** > *Product Stock Options* > Manage Stock: *YES*.
@@ -93,11 +93,11 @@ The MDVA-37362 patch solves the issue where configurable product option values a
 }  
 ```
 
- <ins>Expected results:</ins>
+ <u>Expected results:</u>
 
 Option values and attributes should be present in the response.
 
- <ins>Actual results:</ins>
+ <u>Actual results:</u>
 ```java
 {
   "data": {

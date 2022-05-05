@@ -24,7 +24,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Setup two websites with stores and store views.
 1. Create an additional source and stock.
@@ -34,13 +34,13 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.
 1. Save the product.
 1. Check the **Product Salable Quantity** tab.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Both the default stock and the UK stock = *123.*
 
 The quantity of default stock is shown correctly for disabled products on the Product Grid and Edit Product pages in the Admin.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The default stock = *0* and the UK stock = *123.*
 

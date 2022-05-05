@@ -18,15 +18,15 @@ This article provides a solution for when the page cache is warming up and fails
 
 Cache warm-up failing.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Start cache warm-up operations.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Pages or whole site loads.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The site is unavailable or the response time is too high. *ERROR: Warming up failed: <website link>*
 

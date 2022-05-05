@@ -24,16 +24,16 @@ Adobe Commerce (all deployment methods) 2.3.1 - 2.3.4-p2
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. On the Admin sidebar, choose **Reports**.
 1. Then under **Business Intelligence**, choose **Advanced Reporting**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The **Advanced Reporting** report should load, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The *404 We can't find what you're looking for.* error page appears.
 

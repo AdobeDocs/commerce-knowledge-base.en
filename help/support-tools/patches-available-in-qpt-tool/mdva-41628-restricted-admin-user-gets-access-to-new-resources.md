@@ -26,18 +26,18 @@ The MDVA-41628 patch fixes the issue where the restricted admin users are able t
 
 Restricted admin users can get access to the new resources when new modules are added.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new admin user role with restricted resources.
 1. Create a new admin user under the role created in step one.
 1. Install and enable the custom module that creates a new set of menu items along with ACL resources.
 1. Log in using the newly created admin user.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The admin user with restricted access is unable to access the newly created menu items.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The restricted admin user is able to access the new menu items, even though the new resources are not assigned to the user role.
 

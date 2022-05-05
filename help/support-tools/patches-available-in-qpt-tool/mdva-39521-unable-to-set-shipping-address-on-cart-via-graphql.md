@@ -26,7 +26,7 @@ The MDVA-39521 patch solves the issue where the user is unable to set shipping a
 
 The user is not able to set shipping address on the carts with an empty telephone number via GraphQL despite the fact that the Show Telephone is configured as optional.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product.
 1. Go to **Stores** > **Configuration** > **Customers** > **Customer Configuration** > **Name and Address Options** and set the Show Telephone as Optional.
@@ -151,7 +151,7 @@ The user is not able to set shipping address on the carts with an empty telephon
     }
     ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 ```GraphQL
 {
     "data": {
@@ -180,7 +180,7 @@ The user is not able to set shipping address on the carts with an empty telephon
 }
 ```
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 ```GraphQL
 {
     "data": {

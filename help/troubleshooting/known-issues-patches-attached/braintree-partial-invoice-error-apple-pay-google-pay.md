@@ -16,7 +16,7 @@ Adobe Commerce (all deployment methods) 2.4.4
 
 When using Apple Pay or Google Pay as payment methods, users get the error “*The ‘vault_capture’ command doesn't exist. Verify the command and try again.*”  while creating partial invoices.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Open your Adobe Commerce website.
 1. Add a simple product to the cart (qty 2).
@@ -26,11 +26,11 @@ When using Apple Pay or Google Pay as payment methods, users get the error “*T
 1. Create a partial invoice.
 1. Create another invoice for the remaining amount.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Partial invoices are created.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The first partial invoice is created. While creating the second partial invoice, users get the following error: *The ‘vault_capture’ command doesn't exist. Verify the command and try again*.
 

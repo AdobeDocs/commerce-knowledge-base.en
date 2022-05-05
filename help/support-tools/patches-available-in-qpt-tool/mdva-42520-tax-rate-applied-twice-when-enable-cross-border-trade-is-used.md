@@ -26,7 +26,7 @@ The MDVA-42520 patch fixes the issue where the tax rate is applied twice when th
 
 The tax rate is applied twice when the **Enable Cross Border Trade** is used.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable **Company**, **Shared Catalog**, and **Quote**
 1. Configure taxes according to the screenshot. Make sure you enable **Cross Border Trade**.
@@ -41,11 +41,11 @@ The tax rate is applied twice when the **Enable Cross Border Trade** is used.
 1. Go to the shopping cart and request a quote.
 1. Open this quote on the backend and try to add an additional 10% discount.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Quote Subtotal (Including Tax) and Quote Grand Total (Including Tax) = $720
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Quote Subtotal (Including Tax) and Quote Grand Total (Including Tax) = $649.50.
 

@@ -28,9 +28,9 @@ pwa-buildpack
 
 project, the webpack may hang for a long time before beginning compilation.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
-<ins>Prerequisites</ins>: Set up a PWA Studio storefront, such as Venia, with a local Adobe Commerce instance and run a
+<u>Prerequisites</u>: Set up a PWA Studio storefront, such as Venia, with a local Adobe Commerce instance and run a
 
 ```yaml
 build
@@ -44,12 +44,12 @@ watch
 
 command.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 * If using the    ```yaml    build    ```    command, it generates the build artifacts for Venia normally.
 * If using the    ```yaml    watch    ```    command, it starts the Venia storefront normally.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 Your
 

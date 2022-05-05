@@ -26,7 +26,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.3-2.4.
 
 When configurable products are created via API, the URL rewrites are not generated.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new website, store, and store view.
 1. Create a new category.
@@ -35,11 +35,11 @@ When configurable products are created via API, the URL rewrites are not generat
 1. Check the URL table and make sure it contains entries for the product, category/product for each store on each website.
 1. Remove product for the second website.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The URL table contains entries for product, category/product only for the stores on the first website.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The URL table contains URL rewrites for all stores on all websites.
 

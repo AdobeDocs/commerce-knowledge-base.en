@@ -26,11 +26,11 @@ The MDVA-38447 Adobe Commerce patch fixes the issue where "Not visible individua
 
 "Not visible individually" configurable child products are returned in GraphQL response and slow MySQL query for GraphQL products query with category filter.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 B2B modules must be installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a configurable product with simple products set to **Not visible individually**.
 1. Run a **full reindex**.
@@ -68,11 +68,11 @@ Variables:
 <pre>{"filter":{"user_group":{"eq":""}},"search":"config-100","sort":{},"pageSize":200,"currentPage":1}
 </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Products with visibility set to "Not visible individually" won't be returned in response.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Products with visiblility set to "Not visible individually" are returned in response.
 

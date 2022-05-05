@@ -26,7 +26,7 @@ The MDVA-41305 patch solves the issue where users get an error on GraphQL query 
 
 When users add configurable products (with/without configuration) to the Wishlist by GraphQL, they are unable to get configurable SKUs and configurable options in response.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a configurable product (with Blue, Grey, and one custom option).
 1. Open frontend; log in as a customer and create a Wishlist (check wishlist_id).
@@ -128,11 +128,11 @@ mutation {
 </code>
 </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Users can see a set of configured product options in the response specified in the payload and added to the wishlist.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Users get an *Internal Server Error* in response.
 

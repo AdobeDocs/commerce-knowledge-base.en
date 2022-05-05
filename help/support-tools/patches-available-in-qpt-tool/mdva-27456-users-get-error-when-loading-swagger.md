@@ -26,15 +26,15 @@ Adobe Commerce (all deployment methods) 2.3.5 - 2.3.6-p1
 
 Users get an error when loading Swagger.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Go to `../swagger.`
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Swagger loads without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Users get the following error: *Failed to load API definition*. Error log contains:
 

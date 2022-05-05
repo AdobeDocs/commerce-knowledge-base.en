@@ -24,11 +24,11 @@ Note: the patch might become applicable to other versions with new Quality Patch
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
  Adobe Commerce B2B is installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > **Attributes** > **Customer**, and create a new custom customer attribute:
 
@@ -41,11 +41,11 @@ Note: the patch might become applicable to other versions with new Quality Patch
 1. Log in as company admin on the front end.
 1. Go to the Company Users sections.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The Company User form loads normally.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The Company User form does not load and returns a 500 error.
 

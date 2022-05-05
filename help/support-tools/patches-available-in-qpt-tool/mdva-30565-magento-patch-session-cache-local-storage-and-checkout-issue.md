@@ -26,7 +26,7 @@ The MDVA-30565 patch solves the issue with session cache local storage and check
 
 Cart items can still be seen on the cart page when a customer session times out. This causes an estimate shipping method error where no shipping methods are available for guest checkout.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable persistent shopping cart in the Commerce Admin. (**Enable Persistence** = "*Yes*")
 1. Log in as a customer in the frontend. This creates the `persistent_shopping_cart` cookie and initiates a persistent session.
@@ -37,11 +37,11 @@ Cart items can still be seen on the cart page when a customer session times out.
 1. Add a new product into the cart, and go to the cart page.
 1. Now in the browser console it shows `V1/guest-carts/4/estimate-shipping-methods` request now returns a 404 response with message `{"message":"No such entity        with %fieldName = %fieldValue","parameters":{"fieldName":"cartId","fieldValue":0}}`
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The estimate shipping method request returns correct results.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The estimate shipping method request fails with an error like, "*Sorry, no quotes are available for this order at this time.*"
 

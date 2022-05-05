@@ -26,7 +26,7 @@ The MDVA-40619 patch solves the issue where the CMS page hierarchy changes break
 
 CMS page hierarchy changes break CMS page inline edit and throw "500 error".
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the Admin Panel > **Content** > **Hierarchy**.
 1. Select "Default Store View".
@@ -36,11 +36,11 @@ CMS page hierarchy changes break CMS page inline edit and throw "500 error".
 1. Try to edit any CMS page from the grid.
 1. Click **Save**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Page is saved successfully.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the following error:
 

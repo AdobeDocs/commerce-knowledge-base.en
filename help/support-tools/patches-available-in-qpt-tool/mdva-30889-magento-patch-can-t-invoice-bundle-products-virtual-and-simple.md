@@ -24,11 +24,11 @@ The MDVA-30889 patch solves the issue where an error occurs after invoicing a bu
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Install Adobe Commerce with [Inventory Management](https://devdocs.magento.com/guides/v2.4/inventory/).
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Admin**.
 1. Create a simple product.
@@ -41,11 +41,11 @@ Install Adobe Commerce with [Inventory Management](https://devdocs.magento.com/g
 1. Go to **Admin > Orders**.
 1. Open the created order, and invoice it.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The invoice of a bundle product (that contains both simple and virtual products) is created.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The invoice is not created, and you receive an error similar to this:
 

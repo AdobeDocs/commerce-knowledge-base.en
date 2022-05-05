@@ -26,7 +26,7 @@ The MDVA-42855 patch fixes the issue where the new customer address is not saved
 
 The new customer address is not saved to the address book during checkout.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a customer account and update the default shipping and billing address.
 1. Add a product to the cart and navigate to the checkout page.
@@ -36,11 +36,11 @@ The new customer address is not saved to the address book during checkout.
 1. Place the order.
 1. Check the address book.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The new shipping address is saved in the address book.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The new shipping address is not saved in the address book.
 

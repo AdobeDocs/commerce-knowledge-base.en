@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.4.1 - 2.4.3-p1
 
 Users get an error retrieving order information without optional "telephone" value through GraphQL.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Store** > **Configuration** > **Customers** > **Customer Configuration** > **Name and Address Options** > **Show Telephone** and set the phone number as optional.
 1. Place an order using GraphQL API as a logged-in customer.
@@ -73,11 +73,11 @@ country_code
 </code>
 </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Users get order information.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Users get the following error: *"message": "Internal server error",*
 

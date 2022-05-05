@@ -30,23 +30,23 @@ Adobe Commerce (all deployment methods) 2.3.0 – 2.4.3
 
 Asynchronous order emails are sent via non-default websites containing the default website's logo URLs.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. The second website/store/store-view must have been created.
 1. **Asynchronous Sending** configuration must be enabled from **Stores** > **Settings** > **Configuration** > **Sales** > **Sales Email** > **General Settings**.
 1. **Add Store Code to URLs** configuration is turned on for the ease of accessing the secondary website from **Stores** > **Settings** > **Configuration** > **URL Options**.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Place orders from both the first and second stores.
 1. Run cron to send the sales emails.
 1. Check the email from the second website.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The logo URL of the email contains the second website's URL.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The logo URL of the email contains the default website's URL.
 

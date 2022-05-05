@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 The `quoteItemCleaner` consumer executes only one message on each execution.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Check the `queue_message_status` database table and make sure all the existing queue messages are in a "Complete" state (status ID 4).
 1. Stop auto Adobe Commerce cron execution.
@@ -38,7 +38,7 @@ The `quoteItemCleaner` consumer executes only one message on each execution.
     bin/magento queue:consumers:start quoteItemCleaner --single-thread --max-messages=100    
     ```    
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 ```sql
 select * from queue_message_status s join queue q on s.queue_id = q.id where q.name = "catalog_product_removed_queue";
@@ -46,7 +46,7 @@ select * from queue_message_status s join queue q on s.queue_id = q.id where q.n
 
 All the `catalog_product_removed_queue` message statuses are updated to complete (ID=4).
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Only one record out of the three is updated to "Complete" status (ID = 4). The status of the other two messages are status ID = 3 (in progress). A backlog is generated with unprocessed queue messages.
 

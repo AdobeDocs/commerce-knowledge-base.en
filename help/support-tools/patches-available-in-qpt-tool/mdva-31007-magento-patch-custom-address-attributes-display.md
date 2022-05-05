@@ -24,7 +24,7 @@ The MDVA-31007 patch solves the issue where custom address attributes are not co
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to Admin backend.
 1. Navigate to **Stores** > **Attributes** > **Customer Addresses**.
@@ -49,11 +49,11 @@ The MDVA-31007 patch solves the issue where custom address attributes are not co
 1. On the order details page, observe the **Order Information** section.
 1. Go to **Backend** > **Sales** > **Orders**, click on the above order, and observe the **Address information** section.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 On both frontend and backend, the billing and shipping address are displayed as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 On both frontend and backend, the billing address is not correctly displayed. The selected option of the dropdown attribute is missing, and the value of the input attribute contains the attribute code.
 

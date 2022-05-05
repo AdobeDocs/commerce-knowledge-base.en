@@ -26,17 +26,17 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-2.3.
 
 When a customer account is created after 00:00 UTC, and you try to filter accounts by that date, it will not return this customer.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > **Configuration** > **General** and set the Timezone to Eastern Standard [United States/New York].
 1. Create a new customer account after 00:00 UTC.
 1. Go to **Customers** > **All Customers** and filter accounts by today's date.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The customer account filters show the new account created today after 00:00 UTC.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The customer account filters do not show the new account created today.
 

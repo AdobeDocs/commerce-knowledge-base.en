@@ -26,7 +26,7 @@ The MDVA-42657 patch solves the issue where the admin user is unable to select c
 
 Admin user is unable to select categories in the customer segment conditions.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Customers** > **Segments**.
 1. Create a new segment.
@@ -42,11 +42,11 @@ Admin user is unable to select categories in the customer segment conditions.
 1. Click the **Save** button.
 1. Navigate back to the condition and check if the selected categories are saved.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The selected categories are saved and selected when viewing/editing the segment conditions.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The selected categories are missing and did not save properly. You get the following error in console:
 ```

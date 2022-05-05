@@ -26,14 +26,14 @@ The MDVA-42326 patch solves the issue where the customers get an error on checko
 
 Customers get an error on checkout after the session timeout, even if the Persistent Shopping Cart is enabled.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. Go to **Config** > **General** > **Web** > **Default Cookie Settings** > **Cookie Lifetime** and set to **120**.
 1. Go to **Config** > **Customers** > **Customer Configuration** > **Online Customers Options** and set both values to **2**.
 1. Go to **Config** > **Customers** > **Persistent Shopping Cart** and set to **Enable**.
 1. Go to **Config** > **Sales** > **Payment Methods** and turn off all payment methods except **Check/Money Order** (it should be enabled).
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in as a customer and add some products to the cart.
 1. Check the shopping cart.
@@ -43,11 +43,11 @@ Customers get an error on checkout after the session timeout, even if the Persis
 1. Click **Next**.
 1. On the **Review & Payments** page, click **Place Order**. Since only one payment method is allowed, the customer should be able to place the order without selecting the payment method.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The customer should be able to place the order.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The customer gets the following error: *Failed address validation: Email has a wrong format*.
 

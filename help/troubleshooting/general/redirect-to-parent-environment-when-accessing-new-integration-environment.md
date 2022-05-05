@@ -16,16 +16,16 @@ Affected versions and editions:
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Clone the existing Integration branch.
 1. Click the URL for accessing the new environment.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 You get to the newly created environment.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 You get redirected to the environment on the parent branch.
 

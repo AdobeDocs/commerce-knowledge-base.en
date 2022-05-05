@@ -26,12 +26,12 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4-2.3.
 
 **Case 1:**
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. Create 15,000 bundled products with one simple product as a bundle option. Do not use the same simple product with multiple bundled products.
 1. Simple products should be set to *Not visible individually*.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Assign 15k bundled products into two categories, 7,500 each.
 1. Select all simple products (15k) and update the stock using product mass attribute updates. Our goal is to have many ids in the search cl table (cl tables are the tables that are used by the indexer to know which records need to be updated.)
@@ -39,17 +39,17 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4-2.3.
 1. Make sure the `indexer_update_all_views` indexer is executed.
 1. Query the category page continuously and observe the product count.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product count should remain as it was after the reindexing.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The product counts drops to 7,450 after a while. It remains in 7,450 even after the indexing is finished.
 
 **Case 2:**
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a bundle product with an associated simple product as an option.
 1. Change the indexer modes to *update on schedule*.
@@ -60,11 +60,11 @@ The product counts drops to 7,450 after a while. It remains in 7,450 even after 
 1. Execute cron indexer.
 1. Refresh the category page.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product is still absent.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Bundle product reappears.
 

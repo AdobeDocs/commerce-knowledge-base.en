@@ -17,12 +17,12 @@ This article describes a known Adobe Commerce 2.4.1 issue where if guest checkou
 
 An unspecific error is shown when guest checkout is disabled from the backend, and the PayPal through Braintree payment option is selected from the Mini-cart or Shopping Cart.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. In the Commerce Admin, under **Stores** > **Configuration** > **Sales** > **Checkout**, set **Allow Guest Checkout** = *No*.
 1. Enable PayPal through Braintree as described in the [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) in our user guide.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Add product to cart as a guest.
 1. Select **Mini-cart** and click **Pay with PayPal**.
@@ -30,7 +30,7 @@ An unspecific error is shown when guest checkout is disabled from the backend, a
 1. Select **Shipping Method**.
 1. Click **Place Order**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 When a customer clicks on the PayPal button on the Mini-cart or Shopping Cart page, the following message should be displayed to the customer:
 
@@ -40,7 +40,7 @@ If you enable direct Paypal without using Braintree, this scenario behaves diffe
 
 <pre><code class="language-bash">To check out, please sign in with your email address.</code></pre>
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The customer is redirected to the Shopping Cart page, and the following message is displayed:
 

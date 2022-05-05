@@ -26,15 +26,15 @@ Adobe Commerce (all deployment methods) 2.3.0 - 2.3.4-p2
 
 `INSERT INTO` "search\_tmp..." never ends after a mass attribute update.
 
-<ins>Step to reproduce</ins>:
+<u>Step to reproduce</u>:
 
 Perform a mass attribute values update with ~30,000 items.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The reindex process completes normally, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The reindex process completes, but a lot of queries `INSERT INTO` “search\_tmp…” start until the server reaches the `pm.max_children` parameter value and PHP-fpm dies, and these constantly reoccur even after MySQL restart and process kill.
 

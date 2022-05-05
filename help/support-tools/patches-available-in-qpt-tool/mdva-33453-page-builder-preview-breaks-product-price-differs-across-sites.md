@@ -22,7 +22,7 @@ The MDVA-33453 patch solves the issue where the Page Builder preview is broken i
 
 The Page Builder product preview breaks when there is a product with different prices on different websites.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to Commerce Admin panel.
 1. Create two websites.
@@ -31,13 +31,13 @@ The Page Builder product preview breaks when there is a product with different p
 1. Run cron and reindex.
 1. Create or edit a CMS page, and use the product block to add the product.
 
-<ins>Actual result</ins>:<br>
+<u>Actual result</u>:<br>
 
 The below error occurs:
 
  *Error filtering template: Item (Magento\\Catalog\\Model\\Product\\Interceptor) with the same ID "2" already exists.*
 
-<ins>Expected result</ins>:<br>
+<u>Expected result</u>:<br>
 
 No errors are displayed.
 

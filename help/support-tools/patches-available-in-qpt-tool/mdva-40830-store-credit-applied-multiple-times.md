@@ -26,7 +26,7 @@ The MDVA-40830 patch fixes the issue where the store credit is applied multiple 
 
 The store credit is applied multiple times during order placement.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a customer and add store credit to the customer account.
 1. Add a simple product to the cart.
@@ -63,11 +63,11 @@ mutation {
 </code>
 </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The value of applied_store_credit is applied accurately, and cart totals are correctly reflected in the API response.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The value of applied_store_credit is applied twice, affecting both the cart and grand_total.
 

@@ -24,7 +24,7 @@ Adobe Commerce (all deployment methods) 2.3.4-2.4.1-p2
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable FPT.
 1. Create an attribute (Example: *weee\_tax*).
@@ -39,11 +39,11 @@ Adobe Commerce (all deployment methods) 2.3.4-2.4.1-p2
 {cart(cart_id: "xxx") {    items {    id    product {    name    sku    price_range {    minimum_price {    final_price {    value    }    fixed_product_taxes {    label    amount {    value    }    }    }    maximum_price {    final_price {    value    }    fixed_product_taxes {    label    amount {    value    }    }    }    }    }    prices {    price {    value    }    }    quantity    }    prices {    subtotal_excluding_tax {    value    }    applied_taxes {    amount {    value    }    }    grand_total {    value    currency    }    discounts {    amount {    value    }    label    }    }}}    
 ```    
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The FPT would be populated normally, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * The FPT does not populate with data and is empty.
 * The cart query gives this response:

@@ -26,7 +26,7 @@ The MDVA-42689 patch solves the issue where users get an Integrity Constraint Vi
 
 Adobe Commerce throws an Integrity Constraint Violation error while updating product categories during import.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set up two websites.
 1. Create subcategories under the root category up to two levels on the category page. For example, Root Category > **Gear** > **Watches**.
@@ -36,11 +36,11 @@ Adobe Commerce throws an Integrity Constraint Violation error while updating pro
 1. Prepare a CSV file for import. There should be two product records with different store views. One of the products should belong to both these store views.
 1. Now import the CSV file by navigating to **System** > **Import** > **Entity Type** (Products).
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 CSV file is imported without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Adobe Commerce throws the following error:
 ```SQL

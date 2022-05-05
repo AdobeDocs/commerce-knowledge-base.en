@@ -15,18 +15,18 @@ This article provides a workaround for the known store credit-related issue duri
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Customer adds products to the cart and proceeds to checkout.
 1. Customer specifies store credit as payment method.
 1. Customer removes store credit and changes the payment method.
 1. Customer proceeds through checkout.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 All order information is displayed correctly.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Adobe Commerce throws an error on the Order Summary section of the Order page.
 

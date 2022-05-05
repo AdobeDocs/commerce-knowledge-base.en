@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.4.2 - 2.4.3-p1
 
 Users get an error after updating the start time of the Catalog rule Staging update.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a Catalog Price rule.
 1. Create and execute any Staging update.
@@ -41,11 +41,11 @@ Users get an error after updating the start time of the Catalog rule Staging upd
 1. Wait for six minutes.
 1. Run cron.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The update start time is changed, and the update is applied. The old update is deleted from the `staging_update` table.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Users get the following error:
 

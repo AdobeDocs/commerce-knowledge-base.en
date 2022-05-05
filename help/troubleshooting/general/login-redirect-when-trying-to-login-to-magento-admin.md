@@ -14,16 +14,16 @@ All Adobe Commerce versions and editions.
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to your Commerce Admin page.
 1. Enter your credentials and click Sign in.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 You get logged in to the Commerce Admin.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You are redirected back to the login form with no error messages.
 

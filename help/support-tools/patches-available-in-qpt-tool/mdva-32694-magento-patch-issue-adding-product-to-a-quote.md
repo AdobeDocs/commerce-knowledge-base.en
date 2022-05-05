@@ -26,11 +26,11 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Install a fresh Adobe Commerce instance with B2B.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **STORES > Configuration > GENERAL > B2B Features** and enable **Company** and **B2B quote**.
 1. Create 2 more websites with **stores** and **storeviews** (In total you should have 3 websites: *base*, *website2*, *website3*).
@@ -41,11 +41,11 @@ Install a fresh Adobe Commerce instance with B2B.
 1. Go to **STORES > All Stores** and set the "*base*" website back as **default**.
 1. Go to **SALES > Quotes > Open created earlier quote** and try to add the same product to it.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The Admin user can add the same product to the quote, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The Admin user cannot add the same product to the quote, and this error message appears:
 

@@ -10,12 +10,12 @@ This article provides a patch for the issue where the CAPTCHA feature for checko
 
 This known issue is mentioned in our developer documentation:
 
-<ins>For Adobe Commerce 2.3.6</ins>:
+<u>For Adobe Commerce 2.3.6</u>:
 
 * [Adobe Commerce 2.3.6 Release Notes: Known Issues](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html#known-issues)
 * [Magento Open Source 2.3.6 Release Notes: Known Issues](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
 
- <ins>For Adobe Commerce 2.4.1</ins>:
+ <u>For Adobe Commerce 2.4.1</u>:
 
 * [Adobe Commerce 2.4.1 Release Notes: Known Issues](https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-1.html#known-issues)
 * [Magento Open Source 2.4.1 Release Notes: Known Issues](https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html#known-issues)
@@ -27,7 +27,7 @@ This known issue is mentioned in our developer documentation:
 
 ## Issue
 
- <ins>Steps to reproduce</ins>
+ <u>Steps to reproduce</u>
 
 1. Setup at least one of these payment methods in Commerce: Paypal Express, Payflow Pro, or CyberSource.
 1. Go to **Admin > Stores > Configuration > Customers > Customer Configuration > CAPTCHA** .
@@ -38,11 +38,11 @@ This known issue is mentioned in our developer documentation:
 1. On the frontend, add a product to the cart and try to checkout.
 1. On Payment information page, enter captcha and try to checkout with Paypal Express, Payflow Pro, or CyberSource.
 
- <ins>Expected result:</ins>
+ <u>Expected result:</u>
 
 The CAPTCHA feature functions as expected.
 
- <ins>Actual result:</ins>
+ <u>Actual result:</u>
 
 The error message displays: *Please provide CAPTCHA code and try again.*
 
@@ -56,12 +56,12 @@ The patches are attached to this article, available for download in both `.compo
 
 To download a patch, scroll down to the end of the article and click the file name, or click one of the following links:
 
- <ins>For Adobe Commerce on-premises/Adobe Commerce on cloud infrastructure/Magento Open Source 2.3.6</ins> :
+ <u>For Adobe Commerce on-premises/Adobe Commerce on cloud infrastructure/Magento Open Source 2.3.6</u> :
 
 * [Composer patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_COMPOSER.patch](assets/MDVA-33093____2_3_x-p1__CAPTCHA_COMPOSER.patch.zip)
 * [Git patch MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_GIT.patch](assets/MDVA-33093____2_3_x-p1__CAPTCHA_GIT.patch.zip)
 
- <ins>For Adobe Commerce on-premises/Adobe Commerce on cloud infrastructure/Magento Open Source 2.4.1</ins> :
+ <u>For Adobe Commerce on-premises/Adobe Commerce on cloud infrastructure/Magento Open Source 2.4.1</u> :
 
 * [Composer patch MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_COMPOSER.patch](assets/MDVA-33093____2_4_x-p1__CAPTCHA_COMPOSER.patch.zip)
 * [Git patch MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_GIT.patch](assets/MDVA-33093____2_4_x-p1__CAPTCHA_GIT.patch.zip)
@@ -70,10 +70,10 @@ These patches are not compatible with any other Adobe Commerce or Magento Open S
 
 ## How to apply the patch
 
- <ins>Composer patch</ins>
+ <u>Composer patch</u>
 
 See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base for composer patch instructions.
 
- <ins>Git patch</ins>
+ <u>Git patch</u>
 
 See developer documentation [Applying patches: Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) for git patch instructions for Adobe Commerce/Magento Open Source.

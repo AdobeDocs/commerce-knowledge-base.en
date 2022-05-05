@@ -26,12 +26,12 @@ Adobe Commerce (all deployment methods) 2.4.2-p1 – 2.4.2-p2
 
 GraphQL does not return related products when the shared catalog is enabled.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 B2B modules must be installed.
 The instance must be clean with only the sample data.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > **Configuration** > **General** > **B2B features** and enable **Company and Shared Catalog**.
 1. Go to **Catalog** > **Shared Catalog** and add all the products to the **General Catalog**.
@@ -50,11 +50,11 @@ The instance must be clean with only the sample data.
   }
 }</pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Related products is shown in the GraphQL response.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Users get the following error:
 

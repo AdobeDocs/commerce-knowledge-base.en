@@ -17,15 +17,15 @@ Adobe Commerce on cloud infrastructure, 2.3.0-2.3.7-p1, 2.4.0-2.4.3.
 This error message means that the current MariaDB version is no longer supported in the Adobe Commerce version you are trying to upgrade to, and MariaDB must be upgraded to a compatible version.
 
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Attempt to deploy.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Successful deployment.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 Deployment fails with error message: *current version of RDBMS is not supported*.
 

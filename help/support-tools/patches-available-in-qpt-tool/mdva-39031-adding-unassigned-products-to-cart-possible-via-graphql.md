@@ -26,7 +26,7 @@ The MDVA-39031 patch solves the issue where adding a product to the cart via Gra
 
 Adding a product to the cart via GraphQL is possible even if it is not assigned to the target website.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a secondary website.
 1. Create a product and assign it to the primary website.
@@ -88,11 +88,11 @@ Adding a product to the cart via GraphQL is possible even if it is not assigned 
     </code>
     </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product is not added to the cart because it was not assigned to the store defined in the header.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The product gets added to the cart successfully.
 

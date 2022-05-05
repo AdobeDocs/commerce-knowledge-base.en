@@ -19,11 +19,11 @@ The product image is saved in the `s3` bucket, but it is not synced back to the 
 * Site-enabled Nginx to resize images
 * AWS `s3` as media storage
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Adobe Commerce installed with Nginx.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Configure Adobe Commerce to use AWS `s3` as media storage.
 1. Configure Nginx using the `nginx.conf.sample` configuration file provided in the Adobe Commerce installation directory and an Nginx virtual host. See [Configure Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) in our developer documentation.
@@ -47,11 +47,11 @@ location /media/ {
     }
 ```   
 
- <ins>Expected results</ins>:
+ <u>Expected results</u>:
 
  The product image is uploaded to the product page.
 
- <ins>Actual results</ins>:
+ <u>Actual results</u>:
 
  The product image is not uploaded to the product page.
 

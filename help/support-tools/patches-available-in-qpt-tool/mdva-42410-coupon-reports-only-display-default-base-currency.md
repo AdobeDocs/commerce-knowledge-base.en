@@ -26,7 +26,7 @@ The MDVA-42410 patch fixes the issue where the coupon reports only display base 
 
 Coupon reports only display default base currency.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create an additional Website, Store, and Store View.
 1. Set a different currency for this new website. For example, Euro.
@@ -37,11 +37,11 @@ Coupon reports only display default base currency.
 1. Select the new website in the Scope dropdown.
 1. Refresh statistics and run reports.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Coupon reports display the new website's currency as Euro.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Default base currency (USD in this case) is used in coupon reports for the new website.
 

@@ -26,18 +26,18 @@ The MDVA-42507 patch solves the issue where the full-page cache is cleaned after
 
 Full-page cache is cleaned after applying staging update for cart rule.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable developer mode.
 1. Open several products and category pages and check (via headers) that they are loaded from cache.
 1. Apply any staging update for the cart rule.
 1. Check if the category and product pages are still loaded from the cache.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Full-page cache is NOT cleaned after applying staging update for the cart rule.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Full-page cache is cleaned after applying staging update for the cart rule.
 

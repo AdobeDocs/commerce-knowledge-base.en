@@ -14,16 +14,16 @@ This article provides a fix for the issue where the Security Scan Tool shows a b
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Configure the Security Scan Tool to check your website, as described in [Security Scan](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) in our user guide.
 1. In the Actions column, select **Run Scan**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 View the report completion notification and the ability to open the report.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 No notification and no report available.
 

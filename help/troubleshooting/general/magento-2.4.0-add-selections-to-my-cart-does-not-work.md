@@ -14,17 +14,17 @@ This article provides a workaround for a broken button known issue in the Commer
 
 ## Issue
 
-<ins>Steps to reproduce</ins>
+<u>Steps to reproduce</u>
 
 1. Navigate to any Admin panel page that contains two **Add selections to my cart** buttons.
 1. Select items to add to my cart.
 1. Click the **Add selections to my cart** button located on the bottom of the section.
 
-<ins>Expected result</ins>
+<u>Expected result</u>
 
 All selections are added to my cart as expected.
 
-<ins>Actual result</ins>
+<u>Actual result</u>
 
 Adobe Commerce does not add your selections to my cart.
 

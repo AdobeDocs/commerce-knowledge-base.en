@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.4.0-2.4.1-p1
 
 An error is displayed if there's a bundle product in the cart and the user attempts to use Onepage Checkout after abandoning Multi-Shipping Checkout.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the customer account and add more than one bundle product to the cart.
 1. Click the link to view and edit the cart.
@@ -35,11 +35,11 @@ An error is displayed if there's a bundle product in the cart and the user attem
 1. Click **Back to Shopping Cart**.
 1. In the cart, click **Proceed to Checkout**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 You get redirected to the Checkout page.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The error message is displayed: *There has been an error processing your request*.
 

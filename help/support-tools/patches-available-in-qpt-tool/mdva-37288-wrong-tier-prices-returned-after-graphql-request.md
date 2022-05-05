@@ -19,7 +19,7 @@ The MDVA-37288 quality patch for Adobe Commerce solves the issue where the wrong
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Add tier pricing to any item (for this example tier prices were added to items with id=1 and id=2).
 1. Run GraphQL query with search that will include the items with tier prices and items without tier prices.
@@ -40,7 +40,7 @@ The MDVA-37288 quality patch for Adobe Commerce solves the issue where the wrong
 }
 </code></pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Only items with tier prices should return proper tier prices:
 
@@ -84,7 +84,7 @@ Only items with tier prices should return proper tier prices:
 }
 ```
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * All items coming after an item with tier pricing have tier pricing in the response.
 * The tier pricing data that it's returning is from the last item in the loop that had tier pricing.

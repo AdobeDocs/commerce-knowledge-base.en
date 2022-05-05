@@ -24,7 +24,7 @@ The MDVA-29389 patch fixes the issue where with Advanced Reporting where the `an
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In your Adobe Commerce instance, enable Advanced Reporting.
 1. Run the following query to insert analytics/general/token value in the DB:    
@@ -37,11 +37,11 @@ The MDVA-29389 patch fixes the issue where with Advanced Reporting where the `an
 1. Clear cache.
 1. Execute the `analytics_collect_data` cron job.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The `analytics_collect_data` job runs successfully when using default or non-default port to connect to MySQL in env.php.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The `analytics_collect_data` job throws an error "*Port must be configured within host parameter (like localhost:3306)*" when using a non-default port to connect to MySQL in env.php.
 

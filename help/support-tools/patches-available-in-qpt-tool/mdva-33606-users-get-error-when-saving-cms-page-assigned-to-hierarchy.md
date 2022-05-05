@@ -26,7 +26,7 @@ The MDVA-33606 patch solves the issue where the users get *Unique constraint vio
 
 When trying to save a CMS page assigned to hierarchy tree, users get the following error message: *Unique constraint violation found*.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new CMS page. Set the scope to All Store Views. This is your CMS Page 1.
 1. Create a new store view. This is your Store View 2.
@@ -43,11 +43,11 @@ When trying to save a CMS page assigned to hierarchy tree, users get the followi
 1. In the CMS edit page, open the Hierarchy tab.
     * Assign Page 2 to Store View 2 node, Default node, and All Websites node.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 You are able to assign the CMS page to all three nodes without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the following error: *Unique constraint violation found*.
 

@@ -26,12 +26,12 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.1 - 2.
 
 Out-of-Stock Product options do not display on the PDP page when the default inventory stock is not in use and **Display Out-of-Stock Products** configuration is enabled.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * Install Multi-Source Inventory (MSI).
 * Enable Display Out-of-Stock Products in [Inventory Stock Options](https://docs.magento.com/user-guide/configuration/catalog/inventory.html).
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create new inventory stock \[New Stock\], assigning all the websites to it and the above source. Now the Default Stock should not be in use.
 1. Create a [configurable product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html) adding three size options \[S,M,L\].
@@ -39,11 +39,11 @@ Out-of-Stock Product options do not display on the PDP page when the default inv
 1. Reindex and check the configurable product from the frontend. All three options should be visible.
 1. Open a simple product assigned to \[size:S\] from the backend and set the \[Source Status\] to \[Out of Stock\], also update the quantity to 0. Reindex and check the configurable product from the frontend.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Since the Display Out-of-Stock Products option is enabled, all three options should display. The Out-of-Stock option \[S\] should be disabled and crossed out. It should display 2 x of 1 option product with price = 12x2 in order details on the frontend and backend.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The Out-of-Stock option is hidden.
 

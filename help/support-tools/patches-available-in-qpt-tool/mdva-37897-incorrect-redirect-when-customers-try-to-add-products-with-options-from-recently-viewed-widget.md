@@ -26,18 +26,18 @@ The MDVA-37897 patch solves the issue of incorrect redirect when users try to ad
 
 When a user tries to add a product from the Recently Viewed section which has required options to be selected, the user is redirected to the product listing page instead of the product details page.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product with customizable options (Type: Radio Button).
 1. Configure the Recently Viewed widget to show products.
 1. Visit products that have customizable options so that they show up in the Recently Viewed widget.
 1. Click **Add to Cart** on one of the products in the Recently Viewed widget.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 You are redirected to the product details page to choose the options.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You are redirected to the product listing page.
 

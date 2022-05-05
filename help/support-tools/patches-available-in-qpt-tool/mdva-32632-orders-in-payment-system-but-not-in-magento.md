@@ -26,16 +26,16 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.2 - 2.
 
 Payment is processed in a payment system, but the order is not created in Adobe Commerce.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Place order using an online payment method.
 1. Check the order in the Commerce Admin.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Completed orders now appear in the payment system and Adobe Commerce.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The orders was processed successfully by the payment system but not in Adobe Commerce.
 

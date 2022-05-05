@@ -16,21 +16,21 @@ This article describes an Adobe Commerce 2.3.6, 2.4.0-p1, and 2.4.1 known issue 
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. dotdigital account exists.
 1. Valid dotdigital API credentials exist in Adobe Commerce.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > **Configuration** > **DOTDIGITAL** > **Chat Settings** > **Enabled** is set to *Yes.*
 1. Click on **Configure** in **Configure Chat Widget** or **Configure Chat Teams**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The chat settings page should open successfully via Admin Panel.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Unable to log in to dotdigital.
 

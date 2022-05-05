@@ -26,7 +26,7 @@ The MDVA-37984 patch solves the issue where the Visual Merchandiser's “Match p
 
 The Visual Merchandiser's “Match product by rule” functionality does not filter products correctly when staging updates are applied.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a schedule update for any existing product.
     * Set different values for `entity_id` and `row_id`.
@@ -36,11 +36,11 @@ The Visual Merchandiser's “Match product by rule” functionality does not fil
 1. Now select "Quantity" as the attribute, "Greater" as the operator, and "4500" as the value.
 1. Click **save**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The newly created configurable product is listed.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The newly created configurable product is not listed.
 

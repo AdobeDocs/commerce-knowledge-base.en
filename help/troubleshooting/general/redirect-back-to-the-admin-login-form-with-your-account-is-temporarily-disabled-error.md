@@ -14,16 +14,16 @@ All Adobe Commerce versions and editions
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the Commerce Admin page.
 1. Enter your credentials and click Sign in.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 You get logged in to the Commerce Admin.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 You are redirected back to the login form, with the following error message displayed: *"Your account is temporarily disabled. Please try again later"*.
 

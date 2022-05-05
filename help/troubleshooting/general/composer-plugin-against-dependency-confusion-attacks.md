@@ -16,7 +16,7 @@ This article provides information on the composer plugin released for the Depend
 
 A potential case of an active Dependency Confusion attack is detected through at least one of the direct or indirect dependencies defined in `composer.json` by the composer plugin `magento/composer-dependency-version-audit-plugin` during composer installation/update.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 When you install/update composer, the composer plugin will stop the process if it detects a potential Dependency Confusion attack. In that case, composer install/update will fail with an error message similar to:
 

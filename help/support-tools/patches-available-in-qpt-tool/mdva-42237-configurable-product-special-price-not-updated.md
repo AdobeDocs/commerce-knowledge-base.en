@@ -26,18 +26,18 @@ The MDVA-42237 patch fixes the issue where the configurable product's special pr
 
 The configurable product's special price is not updated after changes in its subproduct price.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Admin** > **System** > **Index Management** and set **Index Mode** to **Update By Schedule** for all indexes.
 1. Create a configurable product with one simple product and set a special price for the subproduct.
 1. Check that the special price is reflected on the Storefront.
 1. Remove the special price using GraphQL and recheck the product price on the Storefront.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The special price is no longer displayed on the Storefront.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The price is not updated on the Storefront.
 

@@ -26,7 +26,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.5 - 2.
 
 After removing store credit, there is an infinite loader at the checkout page.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a customer account.
 1. Determine a possible item to add to the cart - take note of the price.
@@ -39,11 +39,11 @@ After removing store credit, there is an infinite loader at the checkout page.
 1. Apply the store credit.
 1. Try to remove the store credit.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Store credit is removed.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Infinite loader spins until the page is refreshed.
 

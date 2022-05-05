@@ -26,7 +26,7 @@ The MDVA-43726 patch fixes the issue where the catalog price rule based on store
 
 The catalog price rule based on store-level attribute match fails to apply after partial reindex.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set indexer mode to run on schedule.
 1. Create two configurable product attributes. For example: Color (Visual Swatch) and Size (Text Swatch).
@@ -41,11 +41,11 @@ The catalog price rule based on store-level attribute match fails to apply after
 1. Update the configurable product category.
 1. Run the `CRON` and check the price again on the frontend.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The catalog rule applies correctly without a full reindex using incremental indexers.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The catalog rule doesn't apply without running a full reindex.
 

@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.4.0 - 2.
 
 Fixes the issue where the order history loads very slow or not loaded at all.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Edit selected cms page.
 1. Expand Content and click **Edit with Page Builder**.
@@ -34,11 +34,11 @@ Fixes the issue where the order history loads very slow or not loaded at all.
 1. Click **Select from Gallery**.
 1. You can log out and then log in via some other window.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The media gallery is loaded.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The media gallery is not loaded.
 

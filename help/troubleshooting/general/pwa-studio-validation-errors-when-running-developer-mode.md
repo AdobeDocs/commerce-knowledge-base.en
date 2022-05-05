@@ -14,15 +14,15 @@ This topic discusses a solution for when validation errors occur when running de
 
 ## Issue
 
- <ins>Step to reproduce</ins>:
+ <u>Step to reproduce</u>:
 
 * Run developer mode in PWA Studio for Adobe Commerce.
 
- <ins>Expected result</ins>:
+ <u>Expected result</u>:
 
 * The PWA Studio server starts normally.
 
- <ins>Actual result</ins>:
+ <u>Actual result</u>:
 
 * You see validation errors, which may look similar to:    
 

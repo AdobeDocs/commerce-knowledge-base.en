@@ -30,7 +30,7 @@ The [bunch-size](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli
 >
 >There is a patch MDVA-33281 that fixes three other inventory inconsistency issues. This includes a PHP Fatal error when running `bin/magento inventory:reservation:list-inconsistencies` in the CLI. Another issue that is fixed is duplicate data in the inconsistencies list. Also, the issue where a reservation is created before order placed (previous realization based on reservation after order placed). For the solution, refer to [MDVA-33281: inventory inconsistency issues](https://support.magento.com/hc/en-us/articles/360055276532/) in our support knowledge base.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 You run the following command in the CLI to list reservation inconsistencies in the `inventory_reservation` table:
 
@@ -40,7 +40,7 @@ magento inventory:reservation:list-inconsistencies
 
 You see an unexpectedly large number of reservation inconsistencies and/or the command never completes.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Run the following command in the CLI to resolve the inconsistencies:    
 
@@ -73,11 +73,11 @@ You see an unexpectedly large number of reservation inconsistencies and/or the c
     bin/magento inventory:reservation:list-inconsistencies      -r --bunch-size 1 | bin/magento inventory:reservation:create-compensations    
     ```    
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Adobe Commerce should not resolve inconsistencies of "pending" status orders. The stocks inconsistencies should be resolved for orders with 'complete', 'closed', and 'canceled' statuses.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 When there are orders more than the specified bunch-size value, Adobe Commerce considers orders with "pending" status as inconsistencies and adds multiple inconsistency resolving records for the same order.
 

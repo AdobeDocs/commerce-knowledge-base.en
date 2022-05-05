@@ -26,7 +26,7 @@ The MDVA-41350 patch fixes the issue where an exception error is thrown instead 
 
 When an admin user with restricted access adds a product by SKU outside their access in the order, an exception occurs instead of a message notifying the user of their limited access.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log into the admin as a user with access to only a specific website.
 1. Go to **Sales** > **Orders** and click **Create New Order**.
@@ -35,11 +35,11 @@ When an admin user with restricted access adds a product by SKU outside their ac
 1. Search for an SKU that is not assigned to any website or not assigned to the website for which you have access.
 1. Click **Add to Order**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 An appropriate error message is displayed.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 An exception occurs.
 
