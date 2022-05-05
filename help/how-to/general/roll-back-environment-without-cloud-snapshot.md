@@ -14,8 +14,8 @@ This article shows two solutions to roll back an environment without having a sn
 
 Choose the most appropriate for your case:
 
-* If you have a stable build, but no valid snapshot - [Scenario 1: No snapshot, build stable (SSH connection available)](scen2).
-* If the build is broken and you have no valid snapshot - [Scenario 2: No snapshot; build broken (no SSH connection)](scen3).
+* If you have a stable build, but no valid snapshot - [Scenario 1: No snapshot, build stable (SSH connection available)](#scen2).
+* If the build is broken and you have no valid snapshot - [Scenario 2: No snapshot; build broken (no SSH connection)](#scen3).
 
 ## Scenario 1: No snapshot, build stable (SSH connection available) {#scen2}
 
@@ -96,7 +96,7 @@ With git reset, we revert the code to the desired state in the past.
 
     ```git    
       git log --reverse
-      ```
+    ```
 
 1. Select the commit hash on which you've been good. To reset code to its authentic state (Vanilla), find the very first commit that created your branch (environment).    ![Selecting a commit hash in git console](assets/select_commit_hash.png)    
 1. Apply hard git reset:

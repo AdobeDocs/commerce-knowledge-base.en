@@ -10,19 +10,19 @@ The MC-41359 commerce patch fixes the issue with missing SameSite cookie paramet
 
 ## Affected products and versions
 
- **The patch is created for Adobe Commerce version:** Adobe Commerce on cloud infrastructure 2.4.2
+**The patch is created for Adobe Commerce version:** Adobe Commerce on cloud infrastructure 2.4.2
 
- **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-p1, 2.4.2, 2.4.2-p1
+**Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-p1, 2.4.2, 2.4.2-p1
 
 >[!NOTE]
 >
- >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Missing settings of the SameSite cookie parameter.
 
- <u>Steps to reproduce:</u>
+<u>Steps to reproduce:</u>
 
 Prerequisites:
 
@@ -30,14 +30,14 @@ Prerequisites:
 * Enable **SameSite by default cookies** and **Cookies without SameSite must be secure**.
 * Open the Chrome inspector.
 
- <u>Scenario 1:</u>
+<u>Scenario 1:</u>
 
 1. Enable PayPal.
 1. Go to the store front.
 1. Add a product to the cart.
 1. Go to checkout.
 
- <u>Scenario 2:</u>
+<u>Scenario 2:</u>
 
 If you have New Relic [enabled](https://docs.magento.com/user-guide/reports/new-relic-reporting.html) the warning appears on any frontend page.
 
@@ -45,7 +45,7 @@ If you have New Relic [enabled](https://docs.magento.com/user-guide/reports/new-
 
 Warning message in the browser console: *A cookie associated with a cross-site resource was set without a SameSite attribute.*
 
- <u>Expected result:</u>
+<u>Expected result:</u>
 
 "lax" should not be added to the cookie domain; the samesite attribute should be present with default value.
 

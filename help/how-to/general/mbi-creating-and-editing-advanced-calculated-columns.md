@@ -1,5 +1,5 @@
 ---
-description: 'For the list of calculated columns that you can create in the Data Warehouse Manager, as well as guidance to ensure you set them up correctly, check out the following articles:'
+description: "Magento Business Intelligence (MBI): Creating and editing advanced calculated columns"
 labels: MBI,Magento Business Intelligence,analysis,calculated columns,data,data discrepancies,database,how to,reports,Adobe Commerce
 title: 'MBI: Creating and editing advanced calculated columns'
 ---
@@ -16,7 +16,7 @@ For the list of calculated columns that you can create in the Data Warehouse Man
 * [Creating paths for calculated columns](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
 
 
-#### I still need help!
+## I still need help!
 
 If you need help with creating a regular calculated column or want to create or edit an Advanced Calculated Column, [reach out to our team](https://support.magento.com/hc/en-us/articles/360019088251) and include the following:
 

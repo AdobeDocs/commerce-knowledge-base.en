@@ -20,7 +20,7 @@ The MCP-87 Adobe Commerce patch fixed the issue where stock reindexing of catalo
 
 >[!NOTE]
 >
- >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -35,11 +35,11 @@ The stock reindex of catalogs with large profiles is very slow.
 1. Click on **Advanced Inventory** from the Advanced Settings tab. Change **Stock Availability** to *In Stock*. Click **Save**.
 1. Perform full reindex manually, execute the following command from the root: `bin/magento indexer:reindex`
 
- <u>Expected result:</u>
+<u>Expected result:</u>
 
 Stock indexer reindexes quickly.
 
- <u>Actual result:</u>
+<u>Actual result:</u>
 
 Stock indexer is very slow and/or does not complete.
 

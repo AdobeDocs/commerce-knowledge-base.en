@@ -18,7 +18,7 @@ All versions of Adobe Commerce on cloud infrastructure Pro plan architecture
 
 You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe to give merchants a standard set of alerts using insights from Support and Engineering.
 
- **<u>Do!</u>**
+**Do!**
 
 * Abort any deployment scheduled until this alert is cleared.
 * Put your site into maintenance mode immediately if your site is or becomes completely unresponsive. For steps refer to [Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) in our developer documentation. Make sure to add your IP to the exempt IP address list to ensure that you are still able to access your site for troubleshooting. For steps, refer to [Maintain the list of exempt IP addresses](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten#instgde-cli-maint-exempt) in developer documentation.
@@ -49,6 +49,7 @@ Follow these steps to identify and troubleshoot the cause.
 1. If the above steps do not help you identify or troubleshoot the source of the issue, consider enabling L2 cache to reduce network traffic between the app and Redis. For general information on what is L2 cache, refer to [L2 caching in the Adobe Commerce application](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html) in our developer documentation. To enable L2 cache for cloud infrastructure, try the following:
     * Upgrade ECE Tools if below 2002.1.2 version.
     * Configure L2 Cache by using [Use REDIS\_BACKEND variable](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend) and updating `.magento.env.yaml` file:
+
    ```yaml
    stage:
        deploy:
