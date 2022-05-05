@@ -17,9 +17,10 @@ Adobe Commerce on cloud infrastructure 2.4.1
 Adobe Commerce (all deployment types) 2.3.5-2.4.2-p1
 >[!NOTE]
 >
->the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
+
 Credit Memo reservation update observer is triggered every time the credit memo is updated. As per agreement with PO changed the logic of reservation update to only be triggered upon the credit memo created. The possibility of the credit memo edits over API will be reviewed by PO as well in the scope of separate tickets.
 
 <u>Steps to reproduce</u>:
@@ -29,6 +30,7 @@ Credit Memo reservation update observer is triggered every time the credit memo 
 1. Create new order, invoice and credit memo for the order.
 1. Create new Integration.
 1. Check inventory_reservation table:
+
     ```SQL
        select * from inventory_reservation;
        +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
@@ -39,10 +41,11 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
        2 rows in set (0.00 sec)
     ```
+
 1. Send GET request to: `../rest/default/V1/creditmemo/3`
 1. Copy response (example):
 
-   ```JSON
+    ```JSON
        {
        "adjustment": 0,
        "adjustment_negative": 0,
@@ -128,15 +131,13 @@ Credit Memo reservation update observer is triggered every time the credit memo 
 
    >[!NOTE]
    >
-   >Note:
-such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
+   >Such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
 
 1. Check inventory_reservation table:
 
 <u>Actual results</u>:
 
 ```sql
-
 select * from inventory_reservation;
 +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
 | reservation_id | stock_id | sku      | quantity | metadata                                                                                                    |

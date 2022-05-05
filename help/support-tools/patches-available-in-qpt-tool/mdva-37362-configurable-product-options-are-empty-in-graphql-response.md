@@ -98,6 +98,7 @@ The MDVA-37362 patch solves the issue where configurable product option values a
 Option values and attributes should be present in the response.
 
  <u>Actual results:</u>
+
 ```java
 {
   "data": {

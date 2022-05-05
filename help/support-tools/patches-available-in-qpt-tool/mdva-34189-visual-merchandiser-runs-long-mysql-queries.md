@@ -35,9 +35,10 @@ The Admin **Categories** page should load without generating slow queries.
 
 <u>Actual result</u>:
 
-This depends on your PHP configuration. The most common example of this error is that the **Categories** page does not open and an error *Error 503 first byte timeout* displays.<br>
-Alternately when Adobe Commerce loads the Visual Merchandiser, it executes a slow MySQL query. This query includes many product IDs inserted in to `ORDER BY FIELD(`e`.`entity_id`,
-  ...)`
+This depends on your PHP configuration. The most common example of this error is that the **Categories** page does not open and an error *Error 503 first byte timeout* displays.
+
+Alternately when Adobe Commerce loads the Visual Merchandiser, it executes a slow MySQL query. This query includes many product IDs inserted in to `ORDER BY FIELD`(`e`.`entity_id`,
+  ...)
 
 in `app/code/Magento/VisualMerchandiser/Model/Category/Products.php:: applyPositions`
 

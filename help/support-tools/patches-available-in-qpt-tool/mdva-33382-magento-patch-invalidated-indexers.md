@@ -22,14 +22,14 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 ## Issue
 
-<ins>Steps to reproduce</span>:
+<u>Steps to reproduce</u>:
 
 1. Set all indices indexer modes to **Update on schedule**.
 1. Remove a product from a category edit page.
 1. Save the category.
 1. Verify indices status either in backend or in CLI.
 
-<ins>Expected results</span>:
+<u>Expected results</u>:
 
 The following indices are not invalidated: `catalog_category_product` , `catalogsearch_fulltext` (and their dependents), as expected.
 

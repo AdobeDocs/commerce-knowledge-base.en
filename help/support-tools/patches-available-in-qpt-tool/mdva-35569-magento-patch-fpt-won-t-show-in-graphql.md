@@ -20,7 +20,7 @@ Adobe Commerce (all deployment methods) 2.3.4-2.4.1-p2
 
 >[!NOTE]
 >
->the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -89,7 +89,7 @@ The FPT would be populated normally, as expected.
  "grand_total": {
  "value": 21,
  "currency": "USD"
- ```
+```
 
 ## Apply the patch
 

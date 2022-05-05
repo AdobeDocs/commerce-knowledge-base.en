@@ -33,6 +33,7 @@ The MDVA-37478 patch fixes the issue when you're unable to create a partial invo
 1. Login to the frontend using the company account created.
 1. Add the 2 products created to the cart, and checkout using the **Payment on Account** payment method.
 1. Try to create a partial invoice for the order created via REST API:
+
     ```php
     POST /rest/V1/order//invoice
     {
@@ -52,10 +53,10 @@ The partial invoice is created for an order made using the **Payment on Account*
  <u>Actual results</u>:
 
 The following error is returned from the REST API:  
+
 ```php
 {"message":"Invoice Document Validation Error(s):\nAn invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity."}
 ```
-
 
 ## Apply the patch
 

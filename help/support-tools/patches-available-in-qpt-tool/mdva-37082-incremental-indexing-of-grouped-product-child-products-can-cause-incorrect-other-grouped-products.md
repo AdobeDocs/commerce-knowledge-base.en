@@ -8,19 +8,22 @@ title: 'MDVA-37082: Incorrect partial index of stock status for grouped products
 
 The MDVA-37082 Magento patch fixes the issue when the partial index of stock status for grouped products is wrong for custom stocks. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
-
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
+
 Adobe Commerce on cloud infrastructure 2.3.4-p2
 
 **Compatible with Adobe Commerce versions:**
+
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.2-p1
+
 >[!NOTE]
 >
->the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
+
 Incremental indexing of grouped product child products can cause incorrect other grouped products to be incorrectly indexed when children are shared.
 
 <u>Steps to reproduce</u>:

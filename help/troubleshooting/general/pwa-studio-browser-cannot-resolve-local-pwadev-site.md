@@ -13,9 +13,11 @@ This article provides a solution for when another program or process has edited 
 PWA Studio for Adobe Commerce
 
 ## Issue
+
 When browsing to the dev/staging site you cannot see the `.local.pwadev` site.
 
 ## Cause
+
 PWA Studio lets you assign a custom hostname and SSL certificate for your project to your local computer. This involves creating a new entry in your computer's hostfile that looks something like `my-storefront-project-abc123.local.pwadev`.
 
 This entry tells any browser on the developer's computer to look at the local storefront project when it accesses that URL. If another program or process came in and removed that entry, the browser would not know where to go and the browser cannot resolve the `.local.pwadev` site.
