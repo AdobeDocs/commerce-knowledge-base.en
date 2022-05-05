@@ -15,7 +15,9 @@ This 5-part training series will teach you the basics you need to start analyzin
 
 ## 1. Connecting data sources
 
+<!--
 <iframe src="//fast.wistia.com/embed/iframe/mjek8vzw0x" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
+-->
 
 Before you can start analyzing your data, you need to connect all of your disparate data sources to one central location. Learn how to connect your data sources to Magento BI and efficiently manage those connections.
 
@@ -27,7 +29,9 @@ Additional information:
 
 ## 2. Consolidate and relate
 
+<!--
 <iframe></iframe>
+-->
 
 Data analysis starts with integration. Learn how to sync the data that’s relevant to you, create relationships, and build new calculated columns on tables in the Data Warehouse Manager.
 
@@ -39,7 +43,9 @@ Additional information:
 
 ## 3. Building metrics
 
+<!--
 <iframe></iframe>
+-->
 
 Think of metrics as the bridge between your raw data and actionable insight. Learn what a metric is, how to define it, and how to build it in Magento BI.
 
@@ -51,7 +57,9 @@ Additional information:
 
 ## 4. Creating visualizations
 
+<!--
 <iframe></iframe>
+-->
 
 Now that you have your data integrated and your metrics built, you’re ready for analysis! In this video, you’ll learn how to use the Magento BI Visual Report Builder to create customized auto-updating reports.
 
@@ -63,7 +71,9 @@ Additional information:
 
 ## 5. Saving and sharing
 
+<!--
 <iframe></iframe>
+-->
 
 You’re almost finished! The final step to building a data-driven organization is sharing and taking action on insights. Learn how to organize your dashboards, share reports with other team members, and collaborate on data across your company.
 
