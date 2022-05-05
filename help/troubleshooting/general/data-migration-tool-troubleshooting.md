@@ -62,7 +62,7 @@ To ignore database entities, add the `<ignore>` tag to an entity in the `map.xml
     ...
 ```
 
->![warning]
+>[!WARNING]
 >
 >Before ignoring entities by map file or using the `-a` option, make sure you do not need the affected data in your Adobe Commerce 2 store.
 

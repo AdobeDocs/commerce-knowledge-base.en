@@ -12,9 +12,9 @@ Use this checklist during your annual and quarterly conversations with your ecom
 * eCommerce Manager
 * Solution Partner / Consultant
 
->![info]
+>[!NOTE]
 >
->Note: For a detailed description of the technical steps to upgrade successfully refer to [Update and upgrade checklist](https://devdocs.magento.com/guides/v2.4/comp-mgr/prereq/prereq_compman-checklist.html) in our developer documentation.
+>For a detailed description of the technical steps to upgrade successfully refer to [Update and upgrade checklist](https://devdocs.magento.com/guides/v2.4/comp-mgr/prereq/prereq_compman-checklist.html) in our developer documentation.
 
  **Goals**
 

@@ -13,7 +13,7 @@ The MDVA-37288 quality patch for Adobe Commerce solves the issue where the wrong
 * The patch was designed for Adobe Commerce on cloud infrastructure 2.4.2
 * The patch is also compatible with Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.2
 
->![info]
+>[!NOTE]
 >
  >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 

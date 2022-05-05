@@ -10,15 +10,15 @@ UPDATED on April 12th, 2019
 
 Adobe Commerce implementation of the Authorize.Net Direct Post payment method uses MD5 based hash. Authorize.net will [stop supporting MD5 based hash](https://support.authorize.net/s/article/MD5-Hash-End-of-Life-Signature-Key-Replacement) usage on [June 28, 2019](http://app.payment.authorize.net/e/es.aspx?s=986383348&e=1691349&elqTrackId=b307147cf4ef4925bd108180234867d4&elq=22c763e5e2354d988ebfea2681020c6b&elqaid=903&elqat=1). This will result in Adobe Commerce merchants not being able to process payments using Authorize.Net Direct Post. To avoid this, merchants need to apply the patch provided by Adobe Commerce and replace the existing MD5 hash with a Signature Key (SHA-512) in the Commerce Admin configuration settings.
 
->![info]
+>[!NOTE]
 >
 >Adobe Commerce released a new Authorize.Net extension to replace Direct Post in upcoming 2019 releases, starting with v2.3.1 for Adobe Commerce and Open Source.
 
->![info]
+>[!NOTE]
 >
 >The core Adobe Commerce Authorize.Net payment integration is deprecated since 2.3.4 and will be completely removed in 2.4.0. Use the [official extension](https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html) from Commerce Marketplace instead.
 
-### Affected versions
+## Affected versions
 
 * Adobe Commerce on-premises 1.X.X
 * Magento Open Source 1.X.X

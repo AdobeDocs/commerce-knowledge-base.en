@@ -16,7 +16,7 @@ If the length of cache tags used by Adobe Commerce exceed Varnish's default of 8
 
 To resolve this issue, increase the default value of the `http_resp_hdr_len` parameter in your Varnish configuration file. The `http_resp_hdr_len` parameter specifies the max header length *within* the total default response size of 32768 bytes.
 
->![info]
+>[!NOTE]
 >
 >If the `http_resp_hdr_len` value exceeds 32K, you must also increase the default response size using the `http_resp_size` parameter.
 

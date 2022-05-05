@@ -13,7 +13,7 @@ This article explains that most of the payment methods are not displayed on chec
 * Adobe Commerce on-premises 2.x.x
 * Adobe Commerce on cloud infrastructure 2.x.x
 
->![info]
+>[!NOTE]
 >
 >The core Adobe Commerce Cybersource payment integration is deprecated since 2.3.3 and will be completely removed in 2.4.0. Use the [official extension](https://marketplace.magento.com/cybersource-global-payment-management.html) from marketplace instead.
 

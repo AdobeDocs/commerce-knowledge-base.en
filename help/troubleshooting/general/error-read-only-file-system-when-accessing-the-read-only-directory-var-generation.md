@@ -12,7 +12,7 @@ This article provides a fix for when on Adobe Commerce on cloud infrastructure y
 GENERATED_CODE_SYMLINK = disabled
 ```
 
->![warning]
+>[!WARNING]
 >
 >The build variable `GENERATED_CODE_SYMLINK` was removed for Adobe Commerce on cloud infrastructure 2.2 and later.
 
@@ -43,7 +43,7 @@ GENERATED_CODE_SYMLINK = disabled
 
 In this case, the generated objects are being copied directly to the destination directory instead of being symlinked. Thus, Adobe Commerce can successfully generate objects on the fly.
 
->![warning]
+>[!WARNING]
 >
 >Turning off symlink generation may increase the potential downtime of your environment during deployment.
 

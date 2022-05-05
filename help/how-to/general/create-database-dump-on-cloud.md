@@ -14,7 +14,7 @@ You only need to use one variant (option) to dump your DB. These options apply t
 
 To dump your DB on Adobe Commerce on cloud infrastructure with any variant discussed in this article, you must first [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
 
->![warning]
+>[!WARNING]
 >
 >Whether you choose Option 1 or Option 2 please run the command during off peak hours against a database secondary node.
 
@@ -32,7 +32,7 @@ This is the recommended and safest option.
 
 ## Option 2: mysqldump
 
->![warning]
+>[!WARNING]
 >
 >Do not run this command against the database cluster. The cluster will not differentiate whether it is run against the database primary or against a secondary. If the cluster runs this command against the primary, the database will be unable to execute writes until the dump is completed and could impact performance and site stability.
 

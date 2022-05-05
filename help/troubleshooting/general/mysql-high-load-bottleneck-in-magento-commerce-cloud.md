@@ -6,7 +6,7 @@ title: MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
 
 # MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
 
->![warning]
+>[!WARNING]
 >
 >For scaled architecture (split architecture), Redis slave connections **SHOULD NOT** be enabled. You can check if you are on scaled architecture go to your project URL, e.g. https:&#8203;//us.magento.cloud/projects/&lt;project ID&gt;/environments/production. Click on the Access site. If there are more than three nodes shown under SSH access you are on scaled architecture. If you enable Redis Slave Reads on scaled architecture the customer will receive errors on Redis connections not being able to connect. This has to do with how the clusters are configured to process Redis connections. Redis Slaves are still active but will not be used for Redis Reads. We recommend for scaled architecture to use Adobe Commerce 2.3.5 or later and implement new Redis back end configuration and implement L2 caching for Redis.
 
@@ -48,7 +48,7 @@ If experiencing these two indications, enabling `SLAVE` connections for the MySQ
 
 Adobe Commerce can read multiple databases or Redis asynchronously. Updating the `.magento.env.yaml` file by setting to `true` the values `MYSQL_USE_SLAVE_CONNECTION` and `REDIS_USE_SLAVE_CONNECTION` to use a **read-only** connection to the database to receive read-only traffic on a non-master node. This improves performance through load balancing because only one node needs to handle read-write traffic. Set to `false` to remove any existing read-only connection array from the `env.php` file.
 
->![info]
+>[!NOTE]
 >
 >It is a best practice recommendation to always have MySQL slave connection enabled.
 
@@ -83,6 +83,6 @@ In our developer documentation:
 * [Set up optional database replication](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html).
 * [ece-tools package](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html).
 
->![info]
+>[!NOTE]
 >
 >We are aware that this article may still contain industry-standard software terms that some may find racist, sexist, or oppressive, and which may make the reader feel hurt, traumatized, or unwelcome. Adobe is working to remove these terms from our code, documentation, and user experiences.

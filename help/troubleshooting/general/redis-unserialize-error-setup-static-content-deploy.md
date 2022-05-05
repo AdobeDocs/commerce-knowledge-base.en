@@ -82,7 +82,7 @@ STATIC_CONTENT_THREADS =1
 
 Also you may run the `setup:static-content:deploy` command followed by the `-j 1` (or `--jobs=1`) argument.
 
->![info]
+>[!NOTE]
 >
 >In the single-thread mode, the static content deployment process may take four times longer.
 

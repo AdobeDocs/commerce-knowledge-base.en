@@ -10,7 +10,7 @@ Adobe has released for general availability Quality Patches Tool (QPT) - a tool 
 
 QPT provides faster self-service issue resolution, allowing you to easily apply patches suggested by Adobe Commerce Support for issues you might experience with Adobe Commerce.
 
->![info]
+>[!NOTE]
 >
 >Note:  QPT should be used as a tool to pull in necessary quality fixes as needed on a case-by-case basis only and not as a long-term approach to maintaining Adobe Commerce code. Upgrading to the latest version of Adobe Commerce is still the best method for resolution of quality issues and should be prioritized.
 

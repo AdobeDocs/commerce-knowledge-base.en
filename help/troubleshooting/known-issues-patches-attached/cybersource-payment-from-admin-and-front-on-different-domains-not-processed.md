@@ -8,7 +8,7 @@ title: Cybersource payment from Admin and front on different domains not process
 
 This article provides a patch for the known Adobe Commerce 2.3.0 limitation related to not having the ability to process Cybersource payments from both storefront and the Commerce Admin, if they are on different domains.
 
->![info]
+>[!NOTE]
 >
 >The core Adobe Commerce Cybersource payment integration is deprecated since 2.3.3 and will be completely removed in 2.4.0. Use the [official extension](https://marketplace.magento.com/cybersource-global-payment-management.html) from marketplace instead.
 
@@ -36,7 +36,7 @@ The previous implementation of the Cybersource integration allowed processing pa
 
 The attached patch provides the improvement for the integration with Cybersource. After applying the patch, you need to create one more profile with Cybersource for processing payments in the Admin, and add the required credentials in the Cybersource configuration in the Commerce Admin under **Stores** > Settings > **Configuration** > **Sales** > **Payment Methods** > **CyberSource**.
 
->![info]
+>[!NOTE]
 >
 >The improvement is included in Adobe Commerce on-premises and cloud infrastructure 2.2.9 and 2.3.1.
 

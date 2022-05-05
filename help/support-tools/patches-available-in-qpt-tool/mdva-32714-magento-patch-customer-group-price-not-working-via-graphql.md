@@ -6,7 +6,7 @@ title: 'MDVA-32714 patch: customer group price not working via GraphQL'
 
 # MDVA-32714 patch: customer group price not working via GraphQL
 
->![warning]
+>[!WARNING]
 >
 >A new patch called MDVA-33975 fixes GraphQL price calculation issues. MDVA-32714 is depreciated and it is recommended that you apply the patch MDVA-33975. To access this patch, refer to [MDVA-33975 patch: GraphQL price calculations](https://support.magento.com/hc/en-us/articles/360055782351) in our support knowledge base.
 
@@ -22,7 +22,7 @@ Adobe Commerce on cloud infrastructure 2.4.0
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.4 - 2.4.0-p1
 
->![info]
+>[!NOTE]
 >
  >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 

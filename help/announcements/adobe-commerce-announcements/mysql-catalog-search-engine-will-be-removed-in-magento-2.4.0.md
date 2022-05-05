@@ -8,7 +8,7 @@ title: MySQL catalog search engine will be removed in Adobe Commerce 2.4.0
 
 Adobe Commerce on-premises, Adobe Commerce on cloud infrastructure, and Magento Open Source 2.4.0 will be released in the coming months. For Adobe Commerce on-premises and Magento Open Source version 2.4.0 Elasticsearch 6.x or 7.x will be a required component, and MySQL search engine will be removed. In Adobe Commerce on cloud infrastructure, Elasticsearch is already required.
 
->![warning]
+>[!WARNING]
 >
 >Failing to install/configure Elasticsearch 6/7 before trying to upgrade could cause serious problems with Adobe Commerce. Please note that service upgrades on Adobe Commerce on cloud infrastructure cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.
 

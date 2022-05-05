@@ -18,7 +18,7 @@ GENERATED_CODE_SYMLINK = disabled
 
 Note that with code symlink generation disabled, the deployment downtime increases.
 
->![info]
+>[!NOTE]
 >
 >The build variable `GENERATED_CODE_SYMLINK` was removed for Adobe Commerce on cloud infrastructure 2.2 and later.
 

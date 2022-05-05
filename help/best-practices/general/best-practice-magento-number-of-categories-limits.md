@@ -15,9 +15,9 @@ The maximum recommended number of categories varies depending on Adobe Commerce 
 * Starting with Adobe Commerce 2.4.2, the maximum recommended number of categories is 6000.
 * For Adobe Commerce 2.3.x, and 2.4.0-2.4.1-p1, the maximum recommended number of categories is 3000.
 
->![info]
+>[!NOTE]
 >
->Note: This article only addresses best practices for [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) of Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure.
+>This article only addresses best practices for [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf) of Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure.
 
 The potential site impact of exceeding the limit is:
 

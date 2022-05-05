@@ -12,9 +12,9 @@ The MDVA-30977 patch fixes the issues with products displayed on storefront cate
 
 The patch was created for Adobe Commerce on cloud infrastructure 2.3.4. It is also compatible with Adobe Commerce on-premises 2.3.4.
 
->![info]
+>[!NOTE]
 >
->Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issues
 

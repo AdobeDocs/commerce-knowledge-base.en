@@ -8,9 +8,9 @@ title: Cannot access the latest Adobe Commerce pre-release
 
 This article provides solutions for issues when trying to utilize the latest pre-release code of Adobe Commerce.
 
->![info]
+>[!NOTE]
 >
->Note: if you are having problems with Beta access refer to the [Cannot access the latest Beta version](https://support.magento.com/hc/en-us/articles/360048169471) article.
+>if you are having problems with Beta access refer to the [Cannot access the latest Beta version](https://support.magento.com/hc/en-us/articles/360048169471) article.
 
 ## Issue
 
@@ -36,9 +36,9 @@ During the pre-release, release packages are available in two locations:
 1. Via Composer on [magento.com](https://repo.magento.com/) using the primary MageID for the account. For more details on how to use Composer, please refer to [Install Adobe Commerce using Composer](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) in our developer documentation.
 1. **My Account** > **Downloads** on [account.magento.com](https://account.magento.com/customer/account/login).
 
->![info]
+>[!NOTE]
 >
->Note: Release packages are not available on GitHub until the GA date.
+>Release packages are not available on GitHub until the GA date.
 
 ### MageID you need to use
 

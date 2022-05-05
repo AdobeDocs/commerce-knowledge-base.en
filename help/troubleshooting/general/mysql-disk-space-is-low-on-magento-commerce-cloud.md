@@ -115,7 +115,7 @@ Check for large `ibtmp1` file on `/data/mysql` of each node: this file is the ta
 
 ### Flush large tables
 
->![warning]
+>[!WARNING]
 >
 >We strongly recommend creating a database backup before performing any manipulations and avoiding them during high site load periods. See [Dump your database](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump) in our developer documentation.
 

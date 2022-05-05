@@ -25,7 +25,7 @@ Actions that can produce full reindexing were performed from admin including:
 * Website/store/store view save
 * Store configuration
 
->![info]
+>[!NOTE]
 >
 >These actions should be run outside of business hours to make sure these actions do not affect performance during business hours.
 

@@ -33,7 +33,7 @@ You would suspect database triggers not being set up, if after adding or changin
 
 ## Solution
 
->![warning]
+>[!WARNING]
 >
 >We strongly recommend creating a database backup before performing any manipulations, and avoiding them during high site load periods.
 
