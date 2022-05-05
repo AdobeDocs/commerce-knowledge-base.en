@@ -13,7 +13,7 @@ This article lists the possible solutions for the backup creation issues.
 * Adobe Commerce on-premises 2.3.x
 * Magento Open Source 2.3.x
 
-<h2 id="backup-disabled">Backup disabled</h2>
+## Backup disabled {#backup-disabled}
 
 If the Adobe Commerce backup functionality does not start or displays the following message, you need to enable the feature prior to backing up.
 
@@ -30,7 +30,7 @@ bin/magento config:set system/backup/functionality_enabled 1
 
 For additional information on backups, see [Back up and roll back the file system, media, and database.](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html)
 
-<h2 id="insufficient-disk-space-trouble-backup-space-">Insufficient disk space</h2>
+## Insufficient disk space {#insufficient-disk-space-trouble-backup-space-}
 
 If the backup failed because of insufficient disk space, you should typically free up disk space by moving some files to another storage device or drive. However, there might be other ways to resolve the issue. See one of the following resources for tips:
 
@@ -38,7 +38,7 @@ If the backup failed because of insufficient disk space, you should typically fr
 * [serverfault: df says disk is full, but it is not](http://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not)
 * [unix.stackexchange.com: Tracking down where disk space has gone on Linux?](http://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux)
 
-<h2 id="operating-system-error-trouble-backup-os-">Operating system error</h2>
+## Operating system error {#operating-system-error-trouble-backup-os-}
 
 Unfortunately, we can not recommend anything specific because of the variety of errors you might encounter. We can suggest, however, you:
 
@@ -46,7 +46,7 @@ Unfortunately, we can not recommend anything specific because of the variety of 
 * Search public forums like [Stack Exchange](http://unix.stackexchange.com) or [Stack Overflow.](http://stackoverflow.com)
 * Open a [GitHub issue](https://github.com/magento/magento2/issues) and we'll try to help.
 
-<h2 id="backup-fails-trouble-backup-all-">Backup fails</h2>
+## Backup fails {#backup-fails-trouble-backup-all-}
 
 If the backup fails or if all backup tests fail, it's possible the [Adobe Commerce file system owner](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) doesn't have sufficient privileges and ownership of the Adobe Commerce file system. For example, another user might own the files or the files might be read-only.
 

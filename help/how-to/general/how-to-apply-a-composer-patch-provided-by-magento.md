@@ -12,7 +12,7 @@ This article instructs how to apply a composer patch for Adobe Commerce on-premi
 >
 >We strongly recommend applying and testing the patch on the Staging/Integration environment before applying it to Production. We also recommend you have a recent backup before any manipulations.
 
-<h3 id="cloud">How to apply a composer patch for Adobe Commerce on cloud infrastructure</h3>
+## How to apply a composer patch for Adobe Commerce on cloud infrastructure {#cloud}
 
 1. If you do not have a directory named `m2-hotfixes` in the project root, please create one.
 1. Copy the `%patch_name%.composer.patch` file(s) to the `m2-hotfixes` directory.
@@ -29,7 +29,7 @@ This article instructs how to apply a composer patch for Adobe Commerce on-premi
 
 For additional information about applying patches to Cloud projects, see [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
-<h3 id="commerce">How to apply a composer patch for Adobe Commerce on-premises and Magento Open Source</h3>
+## How to apply a composer patch for Adobe Commerce on-premises and Magento Open Source {#commerce}
 
 1. Upload the patch to your Adobe Commerce on-premises or Magento Open Source root directory.
 1. Run the following SSH command:

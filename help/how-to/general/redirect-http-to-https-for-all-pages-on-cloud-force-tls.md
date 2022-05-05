@@ -10,9 +10,9 @@ Activate the Fastly's **Force TLS** functionality in the Commerce Admin to enabl
 
 This article provides detailed [steps](#steps), a quick overview of the Force TLS feature, affected versions, and links to related documentation.
 
-<h2 id="steps">Steps</h2>
+## Steps {#steps}
 
-<h3 id="step-1-configure-secure-urls">Step 1: Configure Secure URLs</h3>
+## Step 1: Configure Secure URLs {#step-1-configure-secure-urls}
 
 In this step, we define the secure URLs for the store. If that's already done, go to [Step 2: Enable Force TLS](#step-2-enable-force-tls).
 
@@ -25,7 +25,7 @@ In this step, we define the secure URLs for the store. If that's already done, g
 
  **Related documentation in our user guide:**   [Store URLs](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html).
 
-<h3 id="step-2-enable-force-tls">Step 2: Enable Force TLS</h3>
+## Step 2: Enable Force TLS {#step-2-enable-force-tls}
 
 1. In the Commerce Admin, navigate to **Stores** > **Configuration** > **Advanced** > **System**.
 1. Expand the **Full Page Cache** section, then **Fastly Configuration**, then **Advanced Configuration**.

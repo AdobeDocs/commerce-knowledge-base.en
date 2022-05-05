@@ -14,7 +14,7 @@ Click on each issue description to see the details:
 * [Primary keys are not defined](#Primary_keys_not_defined)
 * [Duplicate indexes](#Duplicate_indexes)
 
-<h2 id="Long_running_queries">Long running queries</h2>
+## Long running queries {#Long_running_queries}
 
 Investigate if you have slow running MySQL queries. Depending on your Adobe Commerce on cloud infrastructure plan and therefore tools availability, you can do the following.
 
@@ -31,7 +31,7 @@ Investigate if you have slow running MySQL queries. Depending on your Adobe Comm
     * Refer to [Percona Toolkit > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) documentation.
 1. Take resolution steps depending on issues found.
 
-<h2 id="Primary_keys_not_defined">Primary keys are not defined</h2>
+## Primary keys are not defined {#Primary_keys_not_defined}
 
 Defining primary keys (PK) is a requirement for a good database and table design. They provide a way to uniquely identify a single row in any table. When using InnoDB engine, which is the default in Adobe Commerce, in tables where no PK is defined the first unique not null key is the primary key. If none is available, InnoDB creates a hidden primary key (6 bytes). The problem with such a key is that you do not have control over it and this value is global for all tables without primary keys. This might cause contention problems if you perform simultaneous writes on these tables. This might lead to performance issues, as they will all share that global hidden PK index increment.
 
@@ -48,7 +48,7 @@ Take the following steps to identify missing primary keys and add them:
     Where `referenceID` and `column name` must have your custom values.    
 For more information about using declarative schema in Adobe Commerce on cloud infrastructure refer to [Configure declarative schema](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/declarative-schema/db-schema.html) in our developer documentation.    
 
-<h2 id="Duplicate_indexes">Duplicate indexes</h2>
+## Duplicate indexes {#Duplicate_indexes}
 
 ### Check if there are duplicate indexes in your DB
 

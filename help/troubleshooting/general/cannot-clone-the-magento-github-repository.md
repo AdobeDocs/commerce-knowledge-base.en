@@ -8,7 +8,7 @@ title: Cannot clone the Magento GitHub repository
 
 This article provides a fix for when you can't clone the Magento GitHub repository.
 
-<h3 id="detail">Detail</h3>
+## Detail {#detail}
 
 Error is similar to the following:
 
@@ -18,6 +18,6 @@ Permission denied (publickey).
 fatal: The remote end hung up unexpectedly
 ```
 
-<h3 id="solution">Solution</h3>
+## Solution {#solution}
 
 Upload your SSH key to GitHub as discussed in [the GitHub help page](https://help.github.com/articles/generating-ssh-keys) .

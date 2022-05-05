@@ -45,7 +45,7 @@ Typical locations follow:
 * Ubuntu: `/etc/php5/cli/php.ini`
 * CentOS: `/etc/php.ini`
 
-<h2 id="workaround">Workaround</h2>
+## Workaround {#workaround}
 
 1. As a user with `root` privileges, open `php.ini` in a text editor.
 1. Locate `session.save_handler`
