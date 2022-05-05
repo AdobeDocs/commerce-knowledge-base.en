@@ -59,7 +59,6 @@ Read more about Configuration Management:
 
 ### Step 1: Uninstall the Adobe Commerce software with setup:uninstall command
 
->
 Uninstalling the Adobe Commerce software drops and restores the database, removes the deployment configuration, and clears directories under \`var\`.
 
 Read: [Uninstall the Adobe Commerce software](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall.html) in our developer documentation.
