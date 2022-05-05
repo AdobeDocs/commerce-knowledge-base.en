@@ -70,7 +70,7 @@ if (var.redir-path != "") {
 
 ### Stage Service
 
->![warning]
+>[!WARNING]
 >
 >If you would like to try all of these steps out, it is strongly recommended to set up an Adobe Commerce staging environment. That way, you can run tests against the Fastly service to make sure everything behaves as you would expect.
 

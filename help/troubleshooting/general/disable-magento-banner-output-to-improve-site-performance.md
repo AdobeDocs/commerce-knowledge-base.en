@@ -8,7 +8,7 @@ title: Disable Adobe Commerce Banner output to improve site performance
 
 This article provides a fix for low site performance. Low site performance can be caused by the Adobe Commerce Banner module being enabled but not used. Disabling the module output can improve site performance. Review the article for resolution steps.
 
->![info]
+>[!NOTE]
 >
 >If you use the Adobe Commerce Banner functionality, see the [High throughput AJAX requests cause poor performance](https://support.magento.com/hc/en-us/articles/360039286472-High-throughput-AJAX-requests-cause-poor-performance) article in our support knowledge base for recommendations on how to avoid performance issues caused by excessive Ajax requests.
 
@@ -45,7 +45,7 @@ When the Adobe Commerce Banner module is enabled, Adobe Commerce sends Ajax requ
 
 ## Solution
 
->![warning]
+>[!WARNING]
 >
 >We strongly recommend testing changes on [Staging/Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) first, before applying it to Production. We also recommend having a recent backup before any manipulations.
 

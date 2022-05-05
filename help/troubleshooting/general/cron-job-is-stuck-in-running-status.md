@@ -22,7 +22,7 @@ Symptoms of cron jobs that must be reset include:
 
 ## Solution {#solution}
 
->![warning]
+>[!WARNING]
 >
 >Running this command without the `--job-code` option resets *all* cron jobs, including those currently running, so we recommend using it only in exceptional cases, such as after you have verified that all cron jobs must be reset. Re-deployment runs this command by default to reset cron jobs, so they recover appropriately after the environment is back up. Avoid using this solution when indexers are running.
 

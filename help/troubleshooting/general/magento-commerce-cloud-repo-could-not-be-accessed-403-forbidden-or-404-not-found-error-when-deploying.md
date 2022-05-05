@@ -43,7 +43,7 @@ Some of the reasons for keys being not valid are:
 * You generated the keys using your shared account.
 * Your license was previously revoked due to payment issues.
 
->![info]
+>[!NOTE]
 >
 >If you find this is due to an invoicing or lapsed contract issue, please contact your CSM for guidance to get this resolved. After your license is re-activated, your support and deployment entitlements will be restored.
 

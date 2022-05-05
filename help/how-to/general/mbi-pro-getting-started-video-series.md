@@ -6,7 +6,7 @@ title: MBI Pro Getting Started Video Series
 
 # MBI Pro Getting Started Video Series
 
->![warning]
+>[!WARNING]
 >
 >Videos in this article are temporarily unavailable. We are sorry for the inconvenience.
 >

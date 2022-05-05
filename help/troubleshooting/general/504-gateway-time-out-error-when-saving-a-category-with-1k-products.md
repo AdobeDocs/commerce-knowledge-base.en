@@ -41,7 +41,7 @@ The process takes longer than the server's configured timeout.
 
 Disabling the **Generate "category/product" URL Rewrites** option will remove all category/product URL rewrites from the database, and significantly decrease the time required for the operations with big categories.
 
->![warning]
+>[!WARNING]
 >
 >Turning this option off will result in permanent removal of category/product URL rewrites without an ability to restore them.
 

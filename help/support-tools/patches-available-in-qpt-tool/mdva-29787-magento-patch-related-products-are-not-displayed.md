@@ -18,15 +18,15 @@ The MDVA-29787 patch solves the issue where **Related Products** are not display
 
 * Adobe Commerce (all deployment methods) 2.3.0 - 2.4.0.
 
->![info]
+>[!NOTE]
 >
->Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The target rule for **Related Products** does not work when "*is one of*" condition is used for **Products to Display** in the Commerce Admin.
 
->![info]
+>[!NOTE]
 >
 >Note: This patch does not fix existing target rules. You must re-create existing target rules.
 

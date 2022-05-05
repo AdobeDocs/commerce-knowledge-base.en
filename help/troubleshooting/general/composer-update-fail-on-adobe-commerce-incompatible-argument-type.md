@@ -6,7 +6,7 @@ title: 'Composer update fail on Adobe Commerce: Incompatible argument type'
 
 # Composer update fail on Adobe Commerce: Incompatible argument type
 
->![info]
+>[!NOTE]
 >
 >This issue is now fixed in the latest symfony version 4.4.29 release.
 

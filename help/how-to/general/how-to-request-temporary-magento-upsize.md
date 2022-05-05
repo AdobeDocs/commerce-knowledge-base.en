@@ -8,7 +8,7 @@ title: How to request temporary Adobe Commerce on cloud infrastructure upsize
 
 If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
 
->![info]
+>[!NOTE]
 >
 >48 business hours notice is required for non-emergency upsize requests.
 
@@ -49,7 +49,7 @@ Follow the steps below to submit a [Support Ticket](https://support.magento.com/
 
 Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket), after inputting the following information:
 
->![info]
+>[!NOTE]
 >
 >The *Holiday Surge Request* choice is only an option between October and December months.
 
@@ -61,7 +61,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.m
 1. Select dates for the mandatory fields **Resize Start Date** and **Resize End Date.** The preferred **Resize**   **Start Time** is also a mandatory field.
 1. In the **Description** field, if you have additional information on size, provide it here. If no specific larger size is requested, we will be upsizing you up to the next larger environment size capacity. Surge requests will default to the next larger size from your current size. If you require additional capacity, please indicate that in the **Description** field. Increased capacity will be deducted from your contracted Surge Days or vCPU days. The typical capacity increase window is five days, but if you need more or fewer days, please indicate this in your [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
 
->![info]
+>[!NOTE]
 >
 >Once the upsize is scheduled, an automated system will adjust the size of your cloud instance. You may not receive any ticket notification when the procedure is complete. You may use the Observation for Adobe Commerce tool to view your AWS or Azure instance types to [verify the change](https://support.magento.com/hc/en-us/articles/4409425285901).
 

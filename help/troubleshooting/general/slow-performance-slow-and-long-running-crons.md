@@ -6,7 +6,7 @@ title: Slow performance, slow and long running crons
 
 # Slow performance, slow and long running crons
 
->![warning]
+>[!WARNING]
 >
 >On any Adobe Commerce version, because some extensions only work with flat tables there is a risk if you disable flat tables. If you know that you have some extensions that use Flat Catalog indexers, you may need to take that into consideration when setting those values to " *No* ".
 

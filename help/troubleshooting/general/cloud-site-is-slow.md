@@ -46,7 +46,7 @@ You can find out the cache hit rates for these pages by reviewing the `X-Cache` 
 
 Fastly generally respects the response headers coming from the application; however, if the headers are all set to "do not cache" and for the page "to expire in the past," Fastly cannot cache the page.
 
->![warning]
+>[!WARNING]
 >
 >Note that Fastly changes response headers, so checking the main URL with cURL or the web browser will not necessarily show which headers are being emitted by the application. It’s common for Fastly itself to respond to web browsers with “no cache” headers, but for the web application itself to allow caching and for Fastly to properly cache the item. So the "cache-control" and "pragma" headers information will not be useful in this case.
 

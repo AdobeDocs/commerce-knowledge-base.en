@@ -6,7 +6,7 @@ title: 'MBI Training Video: Show Top-Bottom and Independent Group By Features'
 
 # MBI Training Video: Show Top-Bottom and Independent Group By Features
 
->![warning]
+>[!WARNING]
 >
 >The video in this article are temporarily unavailable. We are sorry for the inconvenience. 
 

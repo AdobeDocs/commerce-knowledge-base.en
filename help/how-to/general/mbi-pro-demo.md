@@ -6,7 +6,7 @@ title: 'MBI: Pro Demo'
 
 # MBI: Pro Demo
 
->![warning]
+>[!WARNING]
 >
 >The video in this article are temporarily unavailable. We are sorry for the inconvenience. 
 

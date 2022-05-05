@@ -6,7 +6,7 @@ title: 'MBI Training Video: Time Options in the Visual Report Builder'
 
 # MBI Training Video: Time Options in the Visual Report Builder
 
->![warning]
+>[!WARNING]
 >
 >The video in this article are temporarily unavailable. We are sorry for the inconvenience. 
 <iframe src="//fast.wistia.com/embed/iframe/c25h3toub4" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>

@@ -14,7 +14,7 @@ This article provides a solution for the issue where the Magento Order Managemen
 * OMS
 * ngrok
 
->![warning]
+>[!WARNING]
 >
 >Disclaimer: Adobe Commerce does not recommend or endorse any particular tool for establishing tunnels. The preceding are suggestions only. For more information, consult the [ngrok documentation](https://ngrok.com/docs).
 

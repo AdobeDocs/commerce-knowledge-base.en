@@ -18,7 +18,7 @@ Adobe Commerce on cloud infrastructure 2.3.5-p1
 
 Adobe Commerce on cloud infrastructure 2.3.4 - 2.3.5-p2
 
->![info]
+>[!NOTE]
 >
  >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
@@ -30,7 +30,7 @@ The patch fixes inventory inconsistency issues such as:
 * **Duplicate data** in inconsistencies list.
 * **New reservation** will be created before order placed (previous realization based on reservation after order placed). In case of errors within order placement, additional reservation will be added to compensate.
 
->![info]
+>[!NOTE]
 >
 >There is also a patch MDVA-30112 that solves the issue where there is an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in our developer documentation, in the `inventory_reservation` table. For the solution, refer to [MDVA-30112 Magento patch: large number reservation inconsistencies](https://support.magento.com/hc/en-us/articles/360051515272) in our support knowledge base.
 

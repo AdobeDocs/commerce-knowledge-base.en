@@ -14,7 +14,7 @@ The MDVA-11189 Adobe Commerce patch fixes the issue when after importing a .csv 
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce (all deployment methods) 2.3.0-2.3.4-p2
 
->![info]
+>[!NOTE]
 >
  >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 

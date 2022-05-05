@@ -12,9 +12,9 @@ This article provides best practices for store numbers for Adobe Commerce on clo
 * stores = 50
 * store view count = 50
 
->![info]
+>[!NOTE]
 >
->Note: For Adobe Commerce on cloud infrastructure, the best practices apply specifically to the Production environment (and possibly Staging on Pro architecture, subject to resource constraints) which would have more resources than the integration/development environments. For integration (Pro and Starter) and Staging environments (Starter), you should reduce the number of store views to less than 5 or 10 (subject to technical review).
+>For Adobe Commerce on cloud infrastructure, the best practices apply specifically to the Production environment (and possibly Staging on Pro architecture, subject to resource constraints) which would have more resources than the integration/development environments. For integration (Pro and Starter) and Staging environments (Starter), you should reduce the number of store views to less than 5 or 10 (subject to technical review).
 
 ## Best practices
 

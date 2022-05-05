@@ -62,7 +62,7 @@ Try any of the following:
     </p>
     <pre><code class="language-bash">$ git config --system core.eol LF</code></pre>
 
-    >![info]
+    >[!NOTE]
     >
     >Adobe does not recommend or endorse any particular GitHub configuration settings. The preceding are suggestions only. For more information, consult [GitHub help](https://help.github.com/).
 

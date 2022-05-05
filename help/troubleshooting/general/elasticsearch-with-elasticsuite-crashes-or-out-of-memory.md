@@ -6,9 +6,9 @@ title: Elasticsearch with ElasticSuite crashes or out of memory
 
 # Elasticsearch with ElasticSuite crashes or out of memory
 
->![info]
+>[!NOTE]
 >
->NOTE: ElasticSuite and its affiliated applications are third-party tools not currently supported by Adobe. This content is being presented as informational only and not as an indication of what is enabled for Support coverage.
+>ElasticSuite and its affiliated applications are third-party tools not currently supported by Adobe. This content is being presented as informational only and not as an indication of what is enabled for Support coverage.
 
 This article talks about the issue of Elasticsearch crashing or having memory problems if the ElasticSuite plugin is installed.
 

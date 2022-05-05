@@ -6,7 +6,7 @@ title: Remove failed login attempts from the database
 
 # Remove failed login attempts from the database
 
->![info]
+>[!NOTE]
 >
 >This article was updated on April 13, 2020, with a new script called DB\_CLEANUP\_SCRIPT\_v2. Please use the attached DB\_CLEANUP\_SCRIPT\_v2 script to clear pre-existing failed login data in additional tables. You need to use DB\_CLEANUP\_SCRIPT\_v2, even if you have run DB\_CLEANUP\_SCRIPT\_v1 previously to help ensure additional tables are cleaned up.
 
