@@ -15,7 +15,7 @@ The way you resolve the issue depends on whether you have a one-user or two-user
 * *One user* means you log in to the Adobe Commerce server as the same user that also runs the web server. This type of setup is common in shared hosting environments.
 * *Two users* means you typically *cannot* log in as, or switch to, the web server user. You typically log in as one user and run the web server as a different user. This is typical in private hosting or if you have your own server.
 
-### One-user resolution
+## One-user resolution
 
 If you have command-line access, enter the following command assuming Adobe Commerce is installed in `/var/www/html/magento2`:
 
@@ -25,7 +25,7 @@ $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -typ
 
 If you do not have command-line access, use an FTP client or a file manager application provided by your hosting provider to set permissions.
 
-### Two-user resolution
+## Two-user resolution
 
 To optionally enter all commands on one line, enter the following assuming Adobe Commerce is installed in `/var/www/html/magento2` and the web server group name is `apache`:
 

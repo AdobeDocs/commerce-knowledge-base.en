@@ -58,10 +58,16 @@ If the index page has a low hit rate, you can fix it by reducing the amount of h
 
 To check the overall cache hit rate:
 
-<ol><li>
-<a href="http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds">Get Fastly credentials</a> for your Adobe Commerce on cloud infrastructure environment.
-</li><li>Run the following Linux/macOS cURL command to check the hit rate for your site over the last 30 minutes, replacing<code><API_TOKEN></code>and<code><SERVICE_ID></code> with the values for your Fastly credentials:<pre><code class="language-bash">curl -H "Fastly-Key: <API_TOKEN>" https://api.fastly.com/stats/service/<SERVICE_ID>/field/hit_ratio?by=minute | json_pp</code></pre>You can also check historical hit rates over the last day or month by changing the time range query option from<code>?by=minute</code>to<code>?by=hour</code>or<code>?by=day</code>. For more information on getting Fastly cache stats, see <a href="https://docs.fastly.com/api/stats#Query">Query Options</a> in the Fastly documentation.<div class="info"><blockquote>The <code>| json_pp</code> option pretty prints the JSON response output using the <code>json_pp</code> utility. If you get a<em>'json_pp not found'</em> error, install the <code>json_pp</code> utility, or use another command line tool for JSON pretty printing. Alternatively, delete the <code>| json_pp</code> parameter and run the command again. The JSON response output is not formatted, but you can run it through a JSON beautifier to clean it up.</blockquote></div>
-</li></ol>
+1. [Get Fastly credentials](http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds) for your Adobe Commerce on cloud infrastructure environment.
+1.  Run the following Linux/macOS cURL command to check the hit rate for your site over the last 30 minutes, replacingand with the values for your Fastly credentials:
+
+    ```
+    curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp
+    ```
+    
+You can also check historical hit rates over the last day or month by changing the time range query option from`?by=minute`to`?by=hour`or`?by=day`. For more information on getting Fastly cache stats, see [Query Options](https://docs.fastly.com/api/stats#Query) in the Fastly documentation.
+    
+The `| json_pp` option pretty prints the JSON response output using the `json_pp` utility. If you get a `'json\_pp not found'` error, install the `json_pp` utility, or use another command line tool for JSON pretty printing. Alternatively, delete the `| json_pp` parameter and run the command again. The JSON response output is not formatted, but you can run it through a JSON beautifier to clean it up.
 
 A hit rate above 0.90 or 90% indicates that the full-page cache is working.
 

@@ -22,7 +22,7 @@ There are no hard limits on the number of emails that can be sent in Production,
 
 Adobe Commerce on cloud infrastructure Pro plan architecture: Check the `/var/log/mail.log` - you might see a message like this:
 
-*May 28 21:13:00 <i-node> postfix/error[21335]: BC7941A2BBF: to=<to@email.com>, relay=none, delay=4642, delays=4642/0.56/0/0.03, dsn=4.0.0, status=deferred (delivery temporarily suspended: SASL authentication failed; server smtp.sendgrid.net[ip address] said: 451 Authentication failed: Maximum credits exceeded)*.
+*May 28 21:13:00 `<i-node>` postfix/error`[21335]`: BC7941A2BBF: to=`<to@email.com>`, relay=none, delay=4642, delays=4642/0.56/0/0.03, dsn=4.0.0, status=deferred (delivery temporarily suspended: SASL authentication failed; server `smtp.sendgrid.net[ip address]` said: 451 Authentication failed: Maximum credits exceeded)*.
 
 ## Cause
 

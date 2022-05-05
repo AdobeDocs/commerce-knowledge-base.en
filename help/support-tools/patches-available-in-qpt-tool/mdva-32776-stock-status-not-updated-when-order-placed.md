@@ -30,7 +30,8 @@ The stock status is not updated when an order is placed but not shipped.
 
 1. Inventory module is installed.
 1. Display Out-of-Stock Products is set to *Yes*. 
-  * To set, go to **Stores** > **Configuration** > **Catalog** > **Inventory** > **Display Out-of-Stock Products** = *Yes*.
+
+   * To set, go to **Stores** > **Configuration** > **Catalog** > **Inventory** > **Display Out-of-Stock Products** = *Yes*.
 
 <u>Steps to reproduce</u>:
 

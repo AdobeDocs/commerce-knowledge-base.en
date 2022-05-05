@@ -27,7 +27,7 @@ Typically, configurations, incorrect credentials, or unsupported Adobe Commerce 
 
 ### Test with dig command
 
-First, check for headers with a dig command to the URL. In a terminal application, enter dig <url> to verify Fastly services display in the headers. For additional dig tests, see Fastly’s [Testing before changing DNS](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains).
+First, check for headers with a dig command to the URL. In a terminal application, enter dig `<url>` to verify Fastly services display in the headers. For additional dig tests, see Fastly’s [Testing before changing DNS](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains).
 
 For example:
 
@@ -47,14 +47,19 @@ For more information on these commands, you bypass Fastly when you inject `-H "h
 First, check your **live site** to verify the response headers. The command goes through the Fastly extension to receive responses. If you don’t receive the correct headers, then you should test the origin servers directly. This command returns the values of the `Fastly-Magento-VCL-Uploaded` and `X-Cache` headers.
 
 1. In a terminal, enter the following command to test your live site URL:
+
     ```clike
     curl http://<live URL> -vo /dev/null -HFastly-Debug:1 [--resolve]
     ```
+
     Use `--resolve` only if your live URL isn’t set up with DNS and you don’t have a static route set. For example:
+
     ```clike
     curl http://www.mymagento.biz -vo /dev/null -HFastly-Debug:1
-    ```    
+    ```
+
 1. Verify the response headers to ensure Fastly is working. The output for this command is similar to curl Staging and Production. For example, you should see the returned unique headers by this command:
+
     ```clike
     < Fastly-Magento-VCL-Uploaded: yes    < X-Cache: HIT, MISS
     ```    
@@ -150,11 +155,13 @@ To verify Fastly is enabled in Staging and Production, check the configuration i
 1. Ensure Fastly CDN is selected.
 1. Click on Fastly Configuration. Ensure the Fastly Service ID and Fastly API token are entered (your Fastly credentials). Verify you have the correct credentials entered for the Staging and Production environment. Click Test credentials to help.
 1. Edit your composer.json and ensure the Fasty module is included with version. This file has all modules listed with versions.
-    * In the “require” section, you should have "fastly/magento2": <version number>
+    * In the “require” section, you should have "fastly/magento2": `<version number>`
     * In the “repositories” section, you should have:
+
     ```clike
     "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
     ```    
+
 1. If you use Configuration Management, you should have a configuration file. Edit the app/etc/config.app.php (2.0, 2.1) or app/etc/config.php (2.2) file and make sure the setting `'Fastly_Cdn' => 1` is correct. The setting should not be `'Fastly_Cdn' => 0` (meaning disabled).If you enabled Fastly, delete the configuration file and run the bin/magento magento-cloud:scd-dump command to update. For a walk-through of this file, see [Example of managing system-specific settings](http://devdocs.magento.com/guides/v2.2/cloud/live/sens-data-initial.html) in our developer documentation.
 
 If the module is not installed, you need to install in an [Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) branch and deployed to Staging and Production. See [Set up Fastly](http://devdocs.magento.com/guides/v2.1/cloud/access-acct/fastly.html) for instructions in our developer documentation.

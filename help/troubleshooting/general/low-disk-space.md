@@ -47,7 +47,7 @@ Solution options:
 To check how much space you have for each environment:
 
 1. As the Adobe Commerce on cloud infrastructure account owner, log in to your project.    
-1. In the upper right corner, click **<your name>** > **Account Settings**.    
+1. In the upper right corner, click **`<your name>`** > **Account Settings**.    
 1. On the project tab, see the amount specified, for example:
 
     ![project_space.png](assets/project_space.png)

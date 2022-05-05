@@ -26,16 +26,15 @@ The Fastly extension was updated (along with a bundled VCL configuration and tem
 
 ## Solution
 
-<ol><ol>
-<li>Check that you have the latest ECE-Tools installed and at the <a href="https://devdocs.magento.com/guides/v2.2/cloud/release-notes/cloud-tools.html">current version</a> in our developer documentation. ECE-Tools has a version of the Fastly package in its dependencies.<div class="info"><blockquote>This may not be the latest version of the Fastly plugin, but it is likely to be a later version than the one you have currently installed, and it is best practice to have the latest ECE-Tools installed.</blockquote></div>
-</li>
-<li>If you are not on the current version of ECE-Tools, follow these steps to <a href="https://devdocs.magento.com/guides/v2.2/cloud/project/ece-tools-update.html">upgrade</a> in our developer documentation.</li>
-<li>After you have upgraded ECE-Tools, check if you now have a current version of the <a href="https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets">Fastly plugin</a> installed.</li>
-<li>If the Fastly plugin is not the current version, follow these steps to <a href="https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upgrade" title="Follow link">upgrade the plugin to the most current version</a> in our developer documentation.</li>
-</ol></ol>
+1. Check that you have the latest ECE-Tools installed and at the [current version](https://devdocs.magento.com/guides/v2.2/cloud/release-notes/cloud-tools.html) in our developer documentation. ECE-Tools has a version of the Fastly package in its dependencies.
+    
+    This may not be the latest version of the Fastly plugin, but it is likely to be a later version than the one you have currently installed, and it is best practice to have the latest ECE-Tools installed.
+    
+1. If you are not on the current version of ECE-Tools, follow these steps to [upgrade](https://devdocs.magento.com/guides/v2.2/cloud/project/ece-tools-update.html) in our developer documentation.
+1. After you have upgraded ECE-Tools, check if you now have a current version of the [Fastly plugin](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets) installed.
+1. If the Fastly plugin is not the current version, follow these steps to [upgrade the plugin to the most current version](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upgrade) in our developer documentation.
 
 ## Related reading
-
 
 * For information about setting up and configuring Fastly, see [Configure Fastly services](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html) in our developer documentation.
 * For general information about Fastly, see [fastly.com](https://www.fastly.com/).

@@ -8,18 +8,18 @@ title: Installation stops at about 70%
 
 This article provides a fix for when installation stops at about 70%.
 
-### Issue
+## Issue
 
 During installation using the Setup Wizard, the process stops at about 70% (with or without sample data). No errors display on the screen.
 
-### Cause
+## Cause
 
 Common causes for this issue include:
 
 * The PHP setting for [ `max_execution_time` ](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)
 * Timeout values for nginx and Varnish
 
-## Solution: {#solution-}
+## Solution
 
 Set all of the following as appropriate.
 
