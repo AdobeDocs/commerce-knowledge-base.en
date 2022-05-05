@@ -1,5 +1,12 @@
-# faq {#faq}
+---
+user-guide-title: Adobe Commerce FAQ
+user-guide-description: Find frequently asked questions about Adobe Commerce policies, strategies, as well as specifics about Adobe Commerce features.
+breadcrumb-title: FAQ
+---
 
+# FAQ {#faq}
+
+* [Overview](overview.md)
 * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
 * [Depreciation of Core Adobe Commerce Payment Integrations](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
 * [Can I install third-party applications on my cloud instance?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)

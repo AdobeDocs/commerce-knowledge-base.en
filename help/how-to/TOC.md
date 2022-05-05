@@ -1,5 +1,12 @@
-# how-to {#how-to}
+---
+user-guide-title: Adobe Commerce How-to
+user-guide-description: Clear step by step instructions from the Adobe Commerce Support team.
+breadcrumb-title: How-to
+---
 
+# How-to {#how-to}
+
+* [Overview](overview.md)
 * [MBI Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
 * [MBI Training Video: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
 * [Set cache TTL for images and other static content](/help/how-to/general/set-cache-ttl-for-images-and-other-static-content.md)

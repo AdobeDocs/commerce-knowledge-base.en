@@ -5,4 +5,4 @@ description: Best practices recommendations based on the experience of the Adobe
 
 # Best practices overview
 
-Placeholder
+Best practices recommendations based on the experience of the Adobe Commerce Support team.
