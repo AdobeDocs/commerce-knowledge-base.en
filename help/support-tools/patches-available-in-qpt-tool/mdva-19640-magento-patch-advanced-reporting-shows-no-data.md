@@ -1,5 +1,5 @@
 ---
-description: The MDVA-19640 patch fixes the issue when Advanced Reporting shows no data. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-19640. Please note that there is no current plan to fix this issue in future versions.
+description: The MDVA-19640 patch fixes the issue when Advanced Reporting shows no data. This patch is available when the Quality Patches Tool (QPT) 1.0.20 is installed. The patch ID is MDVA-19640. Please note that there is no current plan to fix this issue in future versions.
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,Advanced Reporting,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,empty,no data,Quality Patches Tool,QPT 1.0.20,QPT patches,Adobe Commerce,cloud infrastructure,on-premises
 title: 'MDVA-19640: Advanced reporting shows no data'
 ---
@@ -24,7 +24,7 @@ Adobe Commerce (all deployment methods) 2.3.1 - 2.4.2
 
 ## Issue
 
-<ins>Steps to reproduce</sins>:
+<u>Steps to reproduce</u>:
 
 1. In the Admin, go to **Reports** > **Business Intelligence** and select **Advanced Reporting**.
 1. View the **Advanced Reporting** page.
