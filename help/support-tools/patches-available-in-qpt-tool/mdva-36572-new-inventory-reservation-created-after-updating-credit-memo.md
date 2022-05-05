@@ -41,6 +41,7 @@ Credit Memo reservation update observer is triggered every time the credit memo 
     ```
 1. Send GET request to: `../rest/default/V1/creditmemo/3`
 1. Copy response (example):
+
    ```JSON
        {
        "adjustment": 0,
@@ -115,21 +116,25 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        "comments": []
       }
     ```
+
 1. Send POST request to: `../rest/default/V1/creditmemo`
+
    ```JSON
        {
        "entity":
         --paste full response from previous step here--
        }
    ```
-      >![info]
-      >
-    >Note:
+
+   >![info]
+   >
+   >Note:
 such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
 
 1. Check inventory_reservation table:
 
 <ins>Actual results</ins>:
+
 ```sql
 
 select * from inventory_reservation;

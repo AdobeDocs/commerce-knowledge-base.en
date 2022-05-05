@@ -61,6 +61,7 @@ For details on how to increase disk space if you are on the Adobe Commerce on cl
 ### Ensure ECE-tools are configured correctly
 
 1. Ensure that build hooks are defined properly in the `magento.app.yaml` file. If you are on Adobe Commerce 2.2.X, building hooks should be defined as follows:
+
    ```yaml
    # We run build hooks before your application has been packaged.
    build: |
@@ -69,6 +70,7 @@ For details on how to increase disk space if you are on the Adobe Commerce on cl
    deploy: |
        php ./vendor/bin/ece-tools deploy
    ```
+
    Use the [Upgrade to ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) article for reference.
 1. Ensure that ECE-tools package is present in the `composer.lock` file by running the following command:    <pre><code class="language-bash">grep '<code class="language-yaml">"name": "magento/ece-tools"</code>' composer.lock</code></pre>    If they are specified, the response would look like the following example:    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```    
 
