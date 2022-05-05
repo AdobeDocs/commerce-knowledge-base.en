@@ -1,5 +1,5 @@
 ---
-description: We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule) for timing details.
+description: We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new release calendar for timing details.
 labels: FAQ,Magento,release strategy,lifecycle policy,Adobe Commerce,update,Adobe Support,Magento Open Source,Extended Support
 title: FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
 ---

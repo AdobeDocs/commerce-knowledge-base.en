@@ -1,5 +1,5 @@
 ---
-description: The MDVA-28300 patch fixes the issue where GraphQL request doesn't reflect the price changes from catalog price rules. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.6.
+description: The MDVA-28300 patch fixes the issue where GraphQL request doesn't reflect the price changes from catalog price rules. This patch is available when the Quality Patches Tool (QPT) v.1.0.6 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.6.
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,GraphQL,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,price calculation,support tools,Adobe Commerce,on-premises,cloud infrastructure
 title: 'MDVA-28300: price calculation issue with catalog price rule in GraphQL'
 ---

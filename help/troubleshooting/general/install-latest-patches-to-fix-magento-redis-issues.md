@@ -1,5 +1,5 @@
 ---
-description: This article provides information on the latest Redis-related patches available in [Adobe Commerce on cloud infrastructure Patches](https://devdocs.magento.com/cloud/project/project-patch.html) package.
+description: This article provides information on the latest Redis-related patches available in Adobe Commerce on cloud infrastructure Patches package.
 labels: 2.3.3,2.3.4,CPU,Magento Commerce Cloud,Redis,Redis 5,memory,patch,performance,troubleshooting,Adobe Commerce,cloud infrastructure
 title: Install latest patches to fix Adobe Commerce Redis issues
 ---

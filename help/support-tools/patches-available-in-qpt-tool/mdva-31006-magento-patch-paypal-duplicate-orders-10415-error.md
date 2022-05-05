@@ -1,5 +1,5 @@
 ---
-description: The MDVA-31006 patch fixes the issue where using the PayPal Express checkout payment creates duplicate orders with a 10415 error. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.6 is installed. The issue was fixed in Adobe Commerce 2.4.2.
+description: The MDVA-31006 patch fixes the issue where using the PayPal Express checkout payment creates duplicate orders with a 10415 error. This patch is available when the Quality Patches Tool (QPT) 1.0.6 is installed. The issue was fixed in Adobe Commerce 2.4.2.
 labels: 10415 error,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,2.4.2,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,PayPal,duplicate,order,orders,support tools,Adobe Commerce,cloud infrastructure,on-premises
 title: 'MDVA-31006: Paypal Duplicate Orders 10415 error'
 ---

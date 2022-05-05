@@ -1,5 +1,5 @@
 ---
-description: This article provides solutions for issues when trying to utilize the latest Beta versions of code for Adobe Commerce. Beta code is only available for official Adobe partners that have followed the process described in [Adobe Commerce Beta Program](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
+description: This article provides solutions for issues when trying to utilize the latest Beta versions of code for Adobe Commerce. Beta code is only available for official Adobe partners that have followed the process described in Adobe Commerce Beta Program.
 labels: Beta,Magento Commerce,composer,download,early access,how to,Adobe Commerce,cloud infrastructure
 title: Cannot access the latest Beta version
 ---

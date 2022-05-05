@@ -1,5 +1,5 @@
 ---
-description: This article provides a potential fix for slow performance by removing `_isScopePrivate` variables in private content. This reduces [AJAX requests](https://support.magento.com/hc/en-us/articles/360039286472-High-throughput-AJAX-requests-cause-poor-performance) due to non-cacheable blocks so that you will have more free resources to handle more critical requests in Adobe Commerce.
+description: This article provides a potential fix for slow performance by removing `_isScopePrivate` variables in private content. This reduces AJAX requests due to non-cacheable blocks so that you will have more free resources to handle more critical requests in Adobe Commerce.
 labels: 2.2.x,2.3.x,AJAX requests,Magento Commerce,Magento Commerce Cloud,best practices,isScopePrivate,performance,Adobe Commerce,cloud infrastructure,on-premises
 title: _isScopePrivate in private content blocks slows Adobe Commerce performance
 ---

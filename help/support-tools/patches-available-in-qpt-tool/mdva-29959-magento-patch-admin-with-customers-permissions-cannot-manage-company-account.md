@@ -1,5 +1,5 @@
 ---
-description: MDVA-29959 patch available in the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 fixes the issue where a restricted admin user with all permissions for "Customer" ACL cannot manage companies (add or delete a company). Please note, that the issue is fixed in B2B for Adobe Commerce 2.3.4.
+description: MDVA-29959 patch available in the Quality Patches Tool (QPT) tool version 1.0.5 fixes the issue where a restricted admin user with all permissions for "Customer" ACL cannot manage companies (add or delete a company). Please note, that the issue is fixed in B2B for Adobe Commerce 2.3.4.
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,ACL,B2B,QPT 1.0.5,QPT patches,Magento Commerce,Quality Patches Tool,support tools,Adobe Commerce,cloud infrastructure
 title: 'MDVA-29959 patch: admin with "Customers" permissions cannot manage company account'
 ---

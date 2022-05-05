@@ -1,5 +1,5 @@
 ---
-description: By default, the [Commerce Admin](http://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL is set to *<domain\_name>/admin*. This article shows how to change the URL.
+description: By default, the Commerce Admin URL is set to *<domain\_name>/admin*. This article shows how to change the URL.
 labels: ADMIN_URL,Magento Commerce Cloud,Staging,URL,how to,magento_admin,production,Adobe Commerce,cloud infrastructure
 title: Change Admin URL on Adobe Commerce on cloud infrastructure
 ---

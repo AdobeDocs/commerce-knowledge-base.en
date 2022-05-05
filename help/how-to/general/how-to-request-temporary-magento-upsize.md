@@ -1,5 +1,5 @@
 ---
-description: If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
+description: If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a Support Ticket to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,Magento Upsize,New Relic,alert,baseline,capacity,cloud,how to,request,temporary,Adobe Commerce,cloud infrastructure
 title: How to request temporary Adobe Commerce on cloud infrastructure upsize
 ---

@@ -1,5 +1,5 @@
 ---
-description: The MDVA-27456 patch fixes the issue where users get an error when trying to load Swagger. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-27456. Please note that the issue was fixed in Adobe Commerce 2.3.7.
+description: The MDVA-27456 patch fixes the issue where users get an error when trying to load Swagger. This patch is available when the Quality Patches Tool (QPT) 1.1.6 is installed. The patch ID is MDVA-27456. Please note that the issue was fixed in Adobe Commerce 2.3.7.
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.6,Adobe Commerce,cloud infrastructure,on-premises,Swagger,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7
 title: 'MDVA-27456: Users get an error when loading Swagger'
 ---

@@ -1,5 +1,5 @@
 ---
-description: The MDVA-41215 patch fixes the issue where users get 500 error after setting the "mage-messages" cookie if it already exists, but there are no new messages. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.8 is installed. The patch ID is MDVA-41215. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+description: The MDVA-41215 patch fixes the issue where users get 500 error after setting the "mage-messages" cookie if it already exists, but there are no new messages. This patch is available when the Quality Patches Tool (QPT) 1.1.8 is installed. The patch ID is MDVA-41215. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.8,Adobe Commerce,cloud infrastructure,on-premises,error,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 title: 'MDVA-41215: Users get 500 error after setting "mage-messages" cookie'
 ---

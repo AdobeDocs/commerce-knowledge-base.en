@@ -1,5 +1,5 @@
 ---
-description: This article provides a solution for when another program or process has edited your [host file](https://en.wikipedia.org/wiki/Hosts_(file)) and removed the entry for your project domain.
+description: This article provides a solution for when another program or process has edited your host file) and removed the entry for your project domain.
 labels: Magento PWA,troubleshooting,browser,PWA,hostfile,PWA Studio for Adobe Commerce
 title: 'PWA Studio: browser cannot resolve the .local.pwadev site'
 ---

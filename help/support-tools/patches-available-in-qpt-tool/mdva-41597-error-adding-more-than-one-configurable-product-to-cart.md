@@ -1,5 +1,5 @@
 ---
-description: The MDVA-41597 patch fixes the issue where users get an error when adding more than one configurable product to the cart using GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-41597. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+description: The MDVA-41597 patch fixes the issue where users get an error when adding more than one configurable product to the cart using GraphQL. This patch is available when the Quality Patches Tool (QPT) 1.1.6 is installed. The patch ID is MDVA-41597. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.6,Adobe Commerce,cloud infrastructure,on-premises,GraphQL,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
 title: 'MDVA-41597: Error adding more than one configurable product to cart'
 ---

@@ -1,5 +1,5 @@
 ---
-description: The MDVA-30862 patch fixes the issue where an incorrect order date is printed on the PDF invoice. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-30862. Please note that the issue was fixed in Adobe Commerce 2.4.0.
+description: The MDVA-30862 patch fixes the issue where an incorrect order date is printed on the PDF invoice. This patch is available when the Quality Patches Tool (QPT) 1.1.6 is installed. The patch ID is MDVA-30862. Please note that the issue was fixed in Adobe Commerce 2.4.0.
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.6,Adobe Commerce,cloud infrastructure,on-premises,invoice,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0
 title: 'MDVA-30862: Incorrect order date on printed PDF invoice'
 ---

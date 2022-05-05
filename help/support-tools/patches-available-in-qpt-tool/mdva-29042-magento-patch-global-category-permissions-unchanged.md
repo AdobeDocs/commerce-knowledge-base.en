@@ -1,5 +1,5 @@
 ---
-description: The MDVA-29042 patch fixes the issue where catalog permissions were changed to "*Allow*" automatically after a new product was added to the shared catalog in the Commerce Admin. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.6 with the B2B extension.
+description: The MDVA-29042 patch fixes the issue where catalog permissions were changed to "*Allow*" automatically after a new product was added to the shared catalog in the Commerce Admin. This patch is available when the Quality Patches Tool (QPT) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.6 with the B2B extension.
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,category,customer group,deselect,permissions,support tools,Adobe Commerce,cloud infrastructure,on-premises
 title: 'MDVA-29042: global category permissions unchanged'
 ---

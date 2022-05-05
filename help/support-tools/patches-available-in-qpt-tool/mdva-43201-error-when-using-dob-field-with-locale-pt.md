@@ -1,5 +1,5 @@
 ---
-description: The MDVA-43201 patch solves the issue where an error occurs when using the DOB customer attribute in the customer registration form for the Portuguese locale. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-43201. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+description: The MDVA-43201 patch solves the issue where an error occurs when using the DOB customer attribute in the customer registration form for the Portuguese locale. This patch is available when the Quality Patches Tool (QPT) 1.1.10 is installed. The patch ID is MDVA-43201. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.10,Magento,Adobe Commerce,cloud infrastructure,on-premises,customer registration form,DOB attribute error,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
 title: 'MDVA-43201: Error when using DOB field with locale PT'
 ---
