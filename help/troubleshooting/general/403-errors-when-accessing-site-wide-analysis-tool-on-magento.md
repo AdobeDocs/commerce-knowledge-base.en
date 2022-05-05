@@ -31,15 +31,16 @@ You see: *Error 403.*
 
 ## Solution
 
-To make sure that the Site-Wide Analysis Tool has the proper access to your application, run the following command in the CLI. Replace <store URL> with your store URL:
+To make sure that the Site-Wide Analysis Tool has the proper access to your application, run the following command in the CLI. Replace `<store URL>` with your store URL:
 
 ```cURL
 curl -sIL -X GET <store URL>/swat/key/index | grep HTTP
 HTTP/2 403
 ```
+
 Take steps depending on the response code you get.
 
-#### 403 Forbidden response code
+### 403 Forbidden response code
 
 If the response code is 403, you may have Cloudflare bot protection which is blocking Site-Wide Analysis Tool. To access the tool, whitelist its IP's:
 
@@ -47,12 +48,12 @@ If the response code is 403, you may have Cloudflare bot protection which is blo
 * 3.225.9.244
 * 3.88.83.85
 
-#### Correct 200 response code and JSON output
+### Correct 200 response code and JSON output
 
 If the response is the correct 200 code and JSON output, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) to escalate the issue with Site-Wide Analysis Tool access.
 
 
-#### 500 (Fatal error) response code
+### 500 (Fatal error) response code
 
 If a response code is 500 (Fatal error), please install the MDVA-38526 patch. Use one of the following links to download the patch, depending on the type of patch you want:
 
@@ -61,7 +62,7 @@ If a response code is 500 (Fatal error), please install the MDVA-38526 patch. Us
 
 The patch is applicable for Adobe Commerce on cloud infrastructure versions 2.4.1 and later.
 
-#### Response not JSON
+### Response not JSON
 
 If the response output is not JSON, it could be because of PWA/Headless implementation. If you are using Headless implementation, update the UPWARD configuration to bypass requests to Adobe Commerce Origin. To do this, in the Adobe Commerce Admin, under **Stores** > **Configuration** > **General** > **Web** > **UPWARD PWA Configuration** > **Front Name Allowlist**, add *swat*.
 

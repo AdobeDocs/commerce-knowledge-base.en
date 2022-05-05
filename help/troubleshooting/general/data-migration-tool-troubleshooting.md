@@ -29,13 +29,13 @@ Destination fields
 
 instead of source ones.
 
-## Cause {#explanation}
+### Cause
 
 Some Adobe Commerce version 1 entities (in most cases, coming from extensions) do not exist in the Adobe Commerce version 2 database.
 
 This message appears because the Data Migration Tool runs internal tests to verify that tables and fields are consistent between *source* (Adobe Commerce 1) and *destination* (Adobe Commerce 2) databases.
 
-## Possible solutions {#possible-solutions}
+### Possible solutions
 
 * Install the corresponding Adobe Commerce 2 extensions from [Commerce Marketplace](https://marketplace.magento.com/).     If the conflicting data originates from an extension which adds own database structure elements, then the Adobe Commerce 2 version of the same extension may add such elements to the destination (Adobe Commerce 2) database, thus fixing the issue.    
 * Use the `-a` argument when executing the tool to auto resolve errors and prevent migration from stopping.    
@@ -74,29 +74,29 @@ To ignore database entities, add the `<ignore>` tag to an entity in the `map.xml
 Class <extension/class_name> is not mapped in record <attribute_id=196>
 ```
 
-## Cause {#explanation}
+### Cause
 
 A class from Adobe Commerce 1 codebase could not be found in Adobe Commerce 2 codebase during the [EAV migration step](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav) in our developer documentation. In most cases, the missing class belongs to an [extension](https://glossary.magento.com/extension).
 
-## Possible solutions {#possible-solutions}
+### Possible solutions
 
 * Install the corresponding Adobe Commerce 2 extension.    
 * Ignore the attribute that causes the issue.    For this, add the attribute to the `ignore` group in the `eav-attribute-groups.xml.dist` file.    
 * Add class mapping using the `class-map.xml.dist` file.    
 
-## Foreign key constraint fails {#foreign-key-constraint-fails}
+## Foreign key constraint fails
 
-## Error message text {#error-message-text}
+### Error message text
 
 ```bash
 Foreign key <KEY_NAME> constraint fails on source database. Orphan records id: <id_1>, <id_2> from <child_table>.<field_id> has no referenced records in <parent_table>
 ```
 
-## Cause {#explanation}
+### Cause
 
 There are missing database records in the `parent_table` to which the `field_id` of the `child_table` is pointing to.
 
-## Possible solution {#possible-solution}
+### Possible solution
 
 Delete the records from the `child_table` , if you do not need them.
 
@@ -110,11 +110,11 @@ Request path: towel.html Store ID: 2 Target path: catalog/product/view/id/10
 Request path: towel.html Store ID: 2 Target path: catalog/product/view/id/12
 ```
 
-## Cause {#explanation}
+### Cause
 
 The `Target path` in a URL rewrite must be specified by a unique pair of `Request path` + `Store ID` . This error reports two entries that use the same `Request path` + `Store ID` pair with two different `Target path` values.
 
-## Possible solution {#possible-solution}
+### Possible solution
 
 Enable the `auto_resolve_urlrewrite_duplicates` option in your `config.xml` file.
 
@@ -128,13 +128,13 @@ This configuration adds a hash-string to the conflicting records of [URL](https:
 Mismatch of entities in the document: <DOCUMENT> Source: <COUNT_ITEMS_IN_SOURCE_TABLE> Destination: <COUNT_ITEMS_IN_DESTINATION_TABLE>
 ```
 
-## Cause {#explanation}
+### Cause
 
 The error occurs during the Volume Check step. It means the Adobe Commerce 2 database record count of the document is not the same as in Adobe Commerce 1.
 
 Missing records happen when a customer places an order during migration.
 
-## Possible solution {#possible-solution}
+### Possible solution
 
 Run the Data Migration Tool in `Delta` mode to transfer incremental changes.
 
@@ -146,12 +146,12 @@ Run the Data Migration Tool in `Delta` mode to transfer incremental changes.
 Deltalog for <TABLE_NAME> is not installed
 ```
 
-## Cause {#explanation}
+### Cause
 
 This error occurs during [incremental migration](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html) (in our developer documentation) of changes to data. It means deltalog tables (with prefix `m2_cl_*`) were not found in the Adobe Commerce 1 database. The tool installs these tables during [data migration](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html) (in our developer documentation) as well as database triggers which track changes and fill deltalog tables.
 
 One reason for the error could be that you are trying to migrate from a *copy* of your live Adobe Commerce 1 store, not from the live store itself. When you make a copy from a live Adobe Commerce 1 store that has never been migrated, the copy does not contain the triggers and additional deltalog tables needed to complete a delta migration, so the migration fails. The Data Migration Tool does NOT make comparisons between the DB of AC1 and AC2 to migrate the differences. Instead, the tool uses the triggers and deltalog tables installed during the first migration in order to perform subsequent delta migrations. In such a case, your copy of the live Adobe Commerce 1 DB will not contain the triggers and deltalog tables that the Data Migration Tool uses to perform a migration.
 
-## Possible solution {#possible-solution}
+### Possible solution
 
 We recommended testing the migration process from a copy of your Adobe Commerce 1 database to fix your migration issues. After fixing the issues on the copy, start the migration process over again from your live Adobe Commerce 1 database. This will help ensure a smooth migration process.

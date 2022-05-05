@@ -94,7 +94,7 @@ You need to take the following steps:
             }
         // Some code here...
         }
-     ```
+    ```
 
 1. Edit the entry point `my_api/index.php` so that it looks like following:  
 

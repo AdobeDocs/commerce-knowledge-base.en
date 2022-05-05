@@ -12,7 +12,7 @@ This article provides a fix for an exception **SessionHandler::read()** error du
 
 At the last step of installing Adobe Commerce, the following exception displays:
 
-```temrinal
+```terminal
 exception 'Exception' with message 'Warning: SessionHandler::read():
 open(..) failed: No such file or directory (2) ../magento2/lib/internal/Magento/Framework/Session/SaveHandler.php on line 74'
 in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
@@ -31,8 +31,7 @@ This happens when your `session.save_handler` PHP parameter is set to some anoth
 * Upgrade your Adobe Commerce code. Refer to [Installation Guide > Update the Adobe Commerce software](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall.html#instgde-install-magento-update) in our developer documentation.
 * Use the following workaround with existing code:
 
-<h2 id="locate-php-ini">Locate <code>php.ini</code>
-</h2>
+## Locate `php.ini` {#locate-php-ini}
 
 Locate `php.ini` by entering the following command:
 
@@ -51,10 +50,13 @@ Typical locations follow:
 1. Locate `session.save_handler`
 1. Set it in any of the following ways:    
     * To comment it out:
+
     ```php
     ;session.save_path = <path>
     ```    
+
     * To set it to a file system path:
+
     ```php
     session.save_handler = files
     ```
