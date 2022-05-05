@@ -187,11 +187,11 @@ See [Ticket fields explained](#ticket-fields-explained) below for more detailed 
 
 ## "Submit a ticket" link not displayed on Adobe Commerce Help Center start page {#no-submit-link}
 
-#### Issue
+### Issue
 
 You access the Adobe Commerce Help Center and want to submit a support request, but the **Submit a ticket** link is not displayed on the Help Center start page.
 
-#### Cause
+### Cause
 
 One of the following might be the cause:
 
@@ -199,13 +199,13 @@ One of the following might be the cause:
 * If using shared access for the first time, you have not performed the steps required to ensure that Adobe Commerce Help Center is configured properly via the SSO call from Magento.com.
 * Your account is not entitled for Adobe Commerce support (for example, you are not a paying Commerce customer or you are an Open Source customer).
 
-#### Solution
+### Solution
 
 [Log in to Help Center](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
 
 The **Submit a ticket** link will only be displayed for customers with an email linked to a valid support agreement.
 
-#### Using shared access account
+### Using shared access account
 
 To be able to use shared access account to submit support tickets, you need to perform the following (this needs to be done only once):
 
@@ -213,7 +213,7 @@ To be able to use shared access account to submit support tickets, you need to p
 1. In the **Switch Accounts** drop-down field in top-right corner, select the shared access account.
 1. Click on the **Support** tab in the left panel. Doing this will ensure that the Adobe Commerce Help Center is configured properly via the SSO call from Magento.com to Adobe Commerce Help Center.
 
-#### Still don't see the **Submit a ticket** link
+### Still don't see the **Submit a ticket** link
 
 If you don’t have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
 
@@ -234,8 +234,7 @@ We provide support only to Adobe Commerce license owners and accounts which have
 
 If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [Help Center login issues](mailto:helpcenterloginissues@magento.com), and we will gladly review your account settings and support entitlements.
 
-<h3 id="verify-email-address">
-<em>"Please verify your email address"</em> error on the Magento Account page</h3>
+### "Please verify your email address" error on the Magento Account page{#verify-email-address}
 
 You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento Account page](https://account.magento.com/).
 
@@ -253,7 +252,7 @@ The solution is to validate your email address:
 
 ## Ticket submission form: merchant is not displayed in Organization drop-down {#merchant-not-displayed}
 
-#### Issue
+### Issue
 
 <span class="wysiwyg-underline">Prerequisites</span>: you have a shared access account granted by a merchant.
 
@@ -271,7 +270,7 @@ The merchant corresponding to the shared account is listed in the **Organization
 
 The merchant corresponding to the used shared account is not available in the **Organization** options.
 
-#### Solution
+### Solution
 
 After having been granted shared access from the merchant, you need to take the following steps (only once):
 
@@ -286,7 +285,7 @@ Your tickets are those that you:
 * have submitted personally
 * have been added to as a watcher through a CC (carbon copy)
 
-#### View your tickets
+### View your tickets
 
 To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select **My tickets**.
 
@@ -302,13 +301,13 @@ To switch between your tickets and the tickets you have been CC'd on, click the 
 
 To sort tickets, click **Created** or **Last Activity** column headers.
 
-#### Search for tickets
+### Search for tickets
 
 To find tickets, type your search query in the **Search tickets** field and press *Enter* on your keyboard. Select [a status](#ticket-status) for additional filtering.
 
 ![hc_search-tickets.png](assets/hc_search-tickets.png)
 
-#### Follow organization tickets
+### Follow organization tickets
 
 You may follow the support tickets submitted by the members of your organization.
 
@@ -330,21 +329,21 @@ To follow/unfollow tickets for an organization:
 
 ## Support ticket fields explained {#ticket-fields-explained}
 
-#### Affected URL
+### Affected URL
 
 Link to the environment where the Adobe Commerce support team would be able to see your problem. Make sure to start the URL with "http://" or "https://".
 
-#### Attachments
+### Attachments
 
 Attach logs, screenshots, video recordings, or any other media that may better illustrate your problem.
 
-#### Backoffice URL (MOM only)
+### Backoffice URL (MOM only)
 
 URL must begin with “https://”. It will typically be in the format: merchant name +“.mcom.magento.com/admin/login”, example, "https://luma.mcom.magento.com/admin/login".
 
 You can also put the direct link related to your issue.
 
-#### CC
+### CC
 
 Emails of the persons whom you want to follow your ticket (for example, *first@e.mail*).
 
@@ -362,21 +361,21 @@ To delete emails from CC: click **x** in a framed email.
 
 ![hc_cc_emails_remove.png](assets/hc_cc_emails_remove.png)
 
-#### Contact reason
+### Contact reason
 
 Contact reasons vary by product. Choose which contact reason best fits the symptoms you are experiencing.
 
-#### (Data) Integration type (MBI only)
+### (Data) Integration type (MBI only)
 
 Select the type of integration you have within MBI. This will help our engineers to more efficiently solve your issue.
 
-#### Description
+### Description
 
 Include an overview of your problem with as many details as you find reasonably possible.
 
 Please provide precise details, steps to reproduce (except for Adobe Commerce on-premises and cloud infrastructure, where there is a separate [Steps to Reproduce](#steps) field), and symptoms of your issue or request. Be sure to include any affected SKUs, relevant data points, and any other relevant links.
 
-#### Environment (Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, MBI and Shipping only)
+### Environment (Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, MBI and Shipping only)
 
 Select the environment type on which you face the problem:
 
@@ -386,19 +385,19 @@ Select the environment type on which you face the problem:
 
 Read more about Adobe Commerce on cloud infrastructure environments in the [Pro architecture](http://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html) article in our developer documentation.
 
-#### Number of orders affected (MOM only)
+### Number of orders affected (MOM only)
 
 Select the range of orders that are affected.
 
 This is a drop-down and only applicable for Order Management product.
 
-#### Organization
+### Organization
 
 Indicate the organization you would like your ticket to be associated with — in case you work with several organizations.
 
 This field appears when your account is associated with more than one organization.
 
-#### Product
+### Product
 
 Select the type of Adobe Commerce product you are working with:
 
@@ -407,17 +406,17 @@ Select the type of Adobe Commerce product you are working with:
 * Magento Order Management
 * Adobe Commerce Payment Services
 
-#### Partner name (Merchant name)
+### Partner name (Merchant name)
 
 For Merchants: **Partner Name** is the name of the Development Organization (Adobe Commerce [Technology Partner](https://partners.magento.com/portal/directory/?&partner_type=6) or [Solution Partner](https://partners.magento.com/portal/directory/?&partner_type=1)) that participate in developing your Adobe Commerce store.
 
 For Partners: **Merchant Name** is the name of your Customer.
 
-#### Project URL (Commerce Cloud only)
+### Project URL (Commerce Cloud only)
 
 Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html).
 
-#### Steps to reproduce (Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure only)
+### Steps to reproduce (Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure only)
 
 Give exact step-by-step instructions to reproduce your problem, including:
 
@@ -432,7 +431,7 @@ Give exact step-by-step instructions to reproduce your problem, including:
 
 Write in simple language, with short sentences.
 
-#### Subject
+### Subject
 
 Include a short overview of your problem (for example, *Error 404 on all pages* ).
 
@@ -442,7 +441,7 @@ Include a short overview of your problem (for example, *Error 404 on all pages* 
 
 *Recommendation:* Please carefully consider the proposed articles, they might contain the solution you are expecting to receive from the Adobe Commerce support team.
 
-#### Version (Adobe Commerce on-premise, Adobe Commerce on cloud infrastructure and Shipping only)
+### Version (Adobe Commerce on-premise, Adobe Commerce on cloud infrastructure and Shipping only)
 
 Please select the Adobe Commerce version you are requesting help with. All supported versions of Adobe Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
 
@@ -452,11 +451,11 @@ To find the version of your Adobe Commerce (cloud infrastructure), scroll down y
 
 Your ticket may have either of these three statuses.
 
-#### **1. Open**
+### **1. Open**
 
 Your ticket is not solved and is being processed by the Adobe Commerce support team. When you have provided all the info that is expected from you at a particular step in the conversation, and the next step needs to be taken by Adobe Commerce support, your ticket has the **Open** status.
 
-#### **2. Awaiting your reply**
+### **2. Awaiting your reply**
 
 Adobe Commerce support is expecting information from you.
 
@@ -464,7 +463,7 @@ In your reply, you may specify additional technical details of your issue, provi
 
 Reference the [Adobe Commerce support ticket lifecycle policy update](https://support.magento.com/hc/en-us/articles/360044226072) article for details about timing and notification policy.
 
-#### **3. Solved**
+### **3. Solved**
 
 Adobe Commerce support has provided a solution for your issue, and you have agreed it has been helpful. It is you who marks the ticket as **Solved**. If the fixed issue occurs again, you may reopen the ticket, setting its status to back to **Open**.
 

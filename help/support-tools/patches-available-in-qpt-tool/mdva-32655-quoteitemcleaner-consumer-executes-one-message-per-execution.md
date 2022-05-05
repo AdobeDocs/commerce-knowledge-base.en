@@ -33,7 +33,8 @@ The `quoteItemCleaner` consumer executes only one message on each execution.
 1. Create two or three simple products.
 1. Do a mass delete on those three simple products.
 1. In the `queue_message_status` table you see that there are three new records for the `catalog_product_removed_queue` topic with status ID 2 (new record).
-1. Run the following command to process these pending `catalog_product_removed_queue` messages:    
+1. Run the following command to process these pending `catalog_product_removed_queue` messages:
+
     ```bash
     bin/magento queue:consumers:start quoteItemCleaner --single-thread --max-messages=100    
     ```    

@@ -37,14 +37,18 @@ Defining primary keys (PK) is a requirement for a good database and table design
 
 Take the following steps to identify missing primary keys and add them:
 
-1. To identify the tables that do not have PK, run the following query:    
+1. To identify the tables that do not have PK, run the following query:
+
     ```sql
     SELECT table_catalog, table_schema, table_name, engine        FROM information_schema.tables        WHERE (table_catalog, table_schema, table_name) NOT IN        (SELECT table_catalog, table_schema, table_name        FROM information_schema.table_constraints        WHERE constraint_type = 'PRIMARY KEY')        AND table_schema NOT IN ('information_schema', 'pg_catalog');    
     ```
-1. To add a PK to a table, update the `db_schema.xml` (the declarative schema) of the table, by adding a node similar to the following:    
+
+1. To add a PK to a table, update the `db_schema.xml` (the declarative schema) of the table, by adding a node similar to the following:
+
     ```html
     <constraint xsi:type="primary" referenceId="PRIMARY">         <column name="id_column"/>     </constraint>    
-    ```    
+    ```
+
     Where `referenceID` and `column name` must have your custom values.    
 For more information about using declarative schema in Adobe Commerce on cloud infrastructure refer to [Configure declarative schema](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/declarative-schema/db-schema.html) in our developer documentation.    
 

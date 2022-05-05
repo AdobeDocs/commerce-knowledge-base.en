@@ -53,10 +53,11 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.3 - 2.
     * **Default Quantity** = *1*.
     * **User Defined** checkbox = *unchecked*.
 1. Switch the scope to the non-default store, and set the special price. (Example: on the **Advanced Pricing** page, set **Special Price** = *4%*, and **Price View** = *Price Range*.)
-1. Update the new attribute only in the non-default store scope, like this Example:    
+1. Update the new attribute only in the non-default store scope, like this Example:
+
     ```php
         PUT {{base_url}}/rest/en_au/async/V1/products/{{sku}}    {        "product": {            "custom_attributes": [                {                    "attribute_code": "text_attr",                    "value": 21                                   }            ]                    }    }    
-    ```    
+    ```
 
 <u>Expected results</u>:
 

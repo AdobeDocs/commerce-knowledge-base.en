@@ -34,17 +34,19 @@ Moving a catalog category in the hierarchy results in an incorrect url\_path. Th
     SELECT * FROM catalog_category_entity_varchar WHERE attribute_id = 120 ORDER BY value_id DESC LIMIT 4;    
     ```    
 
-    It should give you the following result:    
+    It should give you the following result:
+
     ```sql    
     MariaDB [m24dev]> SELECT * FROM catalog_category_entity_varchar WHERE attribute_id = 120 ORDER BY value_id DESC LIMIT 4;    
     ```
 
     \[ url\_path \] values were generated and assigned to All Store scope \[ 0 \]. This is correct comparing to an instance without B2B.
 1. Go to backend category list, drag \[ move-cat \], and drop it in to \[ new-cat-move \]. Now the category should look like: new-cat-move move-cat sub-move-cat sub-move-cat2
-1. Check the \[ catalog\_category\_entity\_varchar \] table using the following query:    
+1. Check the \[ catalog\_category\_entity\_varchar \] table using the following query:
+
     ```sql    
     SELECT * FROM catalog_category_entity_varchar WHERE attribute_id = 120 ORDER BY value_id DESC LIMIT 16;    
-    ```    
+    ```
 
 <u>Expected results</u>:
 
