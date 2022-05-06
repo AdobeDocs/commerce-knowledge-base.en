@@ -3,6 +3,7 @@ description: This article provides a fix for the issue when you cannot see new c
 labels: 2.2.x,2.3.x,2.4.x,Magento Commerce,Magento Commerce Cloud,customers,import,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 title: New customers not displayed in Customer grid after CSV import
 ---
+# New customers not displayed in Customer grid after CSV import
 
 This article provides a fix for the issue when you cannot see new customers under **Customers** > **All customers** after an import from a `.csv` file. The solution is to set the `customer_grid` indexer to "Update on Save" mode and manually reindex the customer grid.
 
@@ -11,15 +12,15 @@ This article provides a fix for the issue when you cannot see new customers unde
 * Adobe Commerce on-premises 2.2.0 and later
 * Adobe Commerce on cloud infrastructure 2.2.0 and later
 
-# Issue
+## Issue
 
 After importing new customers from a `.csv` file using the native Adobe Commerce import functionality, you might not be able to see the new customer records under **Customers** > **All customers** in the Admin until you manually reindex the `customer_grid` indexer.
 
-# Cause
+## Cause
 
 The "Update on Schedule" indexing mode in Adobe Commerce 2.2.0 and later does not support the `customer_grid` indexer due to performance issues.
 
-# Solution
+## Solution
 
 Configure the `customer_grid` indexer to be reindexed using the "Update on Save" mode. To do this, take the following steps:
 
@@ -33,7 +34,7 @@ We also recommend manually reindexing the `customer_grid` indexer after configur
 
  `bin/magento indexer:reindex customer_grid`
 
-# More information
+## More information
 
 Links to related topics in our developer documentation:
 

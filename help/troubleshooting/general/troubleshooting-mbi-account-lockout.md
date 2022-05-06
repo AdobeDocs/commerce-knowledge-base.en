@@ -54,7 +54,7 @@ Submit a ticket to our Support team with the **error screenshots** and your **MB
 
 Don’t worry! File a new support ticket (be sure to include your MBI account’s email address) and we’ll get you back in MBI as soon as possible.
 
-# Related topics in our support knowledge base:
+## Related topics in our support knowledge base:
 
 * [Adding a new user and setting permissions](https://support.magento.com/hc/en-us/articles/360016731291-Adding-a-user-account-and-setting-permissions)
 * [How do I update my email address or password?](https://support.magento.com/hc/en-us/articles/360016732631-How-do-I-update-my-email-address-or-password-)
