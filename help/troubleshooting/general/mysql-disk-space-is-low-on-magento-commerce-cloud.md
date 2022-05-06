@@ -39,18 +39,18 @@ Database errors:
 * *Error\_code: 1114*
 * *InnoDB: Error (Out of disk space) writing word node to FTS auxiliary index table.*
 * *SQLSTATE\[HY000\]: General error: 2006 MySQL server has gone away*
-* *\[ERROR\] Slave SQL: Error 'The table '<table\_name>' is full' on query.*
+* *\[ERROR\] Slave SQL: Error 'The table `<table\_name>` is full' on query.*
 * *Unit mysql.service entered failed state.*
 * *error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111 "Connection refused")'*
 * *1205 Lock wait timeout exceeded; try restarting transaction, query was: INSERT INTO \`cron\_schedule\` (\`job\_code\`, \`status\`, \`created\_at\`, \`scheduled\_at\`) VALUES (?, ?, 'YYYY-02-07 HH:MM:SS’, ‘YYYY-MM-DD HH:MM:SS’')*
 
 Deployment errors:
 
-* *E: Command '\['sudo', '-u', '<environment name>', 'bash', '-c', '/etc/platform/<environment name>/post\_deploy.sh'\]' returned non-zero exit status 255*
-* *E: Command '\['ssh', u'<node IP address>', 'sudo /usr/bin/sv -w 30 restart site-<environment name>g-nginx'\]' returned non-zero*
-* *Upgrading schema.. SQLSTATE\[HY000\]: General error: 1114 The table '<table\_name>' is full*
-* *SQLSTATE\[HY000\]: General error: 3 Error writing file './<environment name>/\#*
-* *W: <filename>' (Errcode: 28 "No space left on device")*  *Indexing errors (along with orphaned temporary .ibd files in /tmp):*
+* *E: Command '\['sudo', '-u', '`<environment name>`', 'bash', '-c', '/etc/platform/`<environment name>`/post\_deploy.sh'\]' returned non-zero exit status 255*
+* *E: Command '\['ssh', u'`<node IP address>`', 'sudo /usr/bin/sv -w 30 restart site-`<environment name>`g-nginx'\]' returned non-zero*
+* *Upgrading schema.. SQLSTATE\[HY000\]: General error: 1114 The table '`<table\_name>`' is full*
+* *SQLSTATE\[HY000\]: General error: 3 Error writing file './`<environment name>`/\#*
+* *W: `<filename>`' (Errcode: 28 "No space left on device")*  *Indexing errors (along with orphaned temporary .ibd files in /tmp):*
 * *Catalog Rule indexer throws an exception. The temporary tables don't get cleaned up in the aftermath and then fill the disk on the current MySQL master node*
 
 <u>Steps to reproduce</u>:

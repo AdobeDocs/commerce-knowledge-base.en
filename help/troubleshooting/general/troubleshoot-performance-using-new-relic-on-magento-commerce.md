@@ -115,9 +115,7 @@ This article provides troubleshooting steps to solve Adobe Commerce on cloud inf
 <ol>
 <li>On the APM page, go to Monitoring > Databases.</li>
 <li>Sort by Most time-consuming.</li>
-<li>Review TOP queries.
-
-Note: <code>UPDATE</code> or <code>INSERT</code>queries are the most CPU-consuming queries.</li>
+<li>Review TOP queries.<br>Note: <code>UPDATE</code> or <code>INSERT</code>queries are the most CPU-consuming queries.</li>
 <li>Switch to Throughput from Sort by selector and look for processes that have caused the database throughput to drop-down.</li>
 <li>If you need to investigate further, consider examining third-party services.</li>
 </ol>

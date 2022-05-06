@@ -38,7 +38,8 @@ Use the following guidelines to find it:
 
 For Ubuntu with Apache, OPcache settings are typically located in `php.ini`.<br>
 For CentOS with Apache or nginx, OPcache settings are typically located in `/etc/php.d/opcache.ini`.<br>
-If not, use the following command to locate it:    
+If not, use the following command to locate it:
+
 ```bash
     $ sudo find / -name 'opcache.ini'
 ```    

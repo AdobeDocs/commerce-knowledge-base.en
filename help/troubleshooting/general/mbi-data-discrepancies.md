@@ -13,7 +13,7 @@ Do the numbers on a certain report look inaccurate? Do you see unexpected NULL v
 
 We also recommend that you ensure the correct [replication methods](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) and [rechecks](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) have been set for the tables and columns involved in the discrepancy. Note that you need Admin permissions to access replication method and recheck information.
 
-#### I still need help!
+## I still need help!
 
 If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](https://support.magento.com/hc/en-us/articles/360019088251) with the following information:
 

@@ -3,6 +3,7 @@ description: This article provides solutions for MBI account lockout. We'll firs
 labels: Magento Business Intelligence,account,troubleshooting,Adobe Commerce,MBI
 title: Troubleshooting MBI account lockout
 ---
+# Troubleshooting MBI account lockout
 
 This article provides solutions for MBI account lockout. We'll first need to determine if this is a defect, a temporary glitch, or something else. Following the steps below will help get you back in your account as quickly as possible.
 
@@ -25,13 +26,11 @@ If you're still locked out, be certain that your email address is correct, and y
 
 ## Document any errors and reach out to support
 
- **Note that this step isn’t always required, but proactively completing it could reduce the time spent going back-and-forth on a support request.**
+**Note that this step isn’t always required, but proactively completing it could reduce the time spent going back-and-forth on a support request.**
 
 If you’re still unable to access your account, we recommend checking for errors and submitting a ticket to our support team. How can you do this? By opening your browser’s developer tools and taking a screenshot of any errors displayed in the console, or site log window. In the GIF below, I’m opening the developer tools for Google Chrome:
 
- [
-![Opening Chrome's developer tools.](assets/Opening_Chrome_dev_tools.gif)
-](assets/Opening_Chrome_dev_tools.gif)   *Click for a closer look!*
+[![Opening Chrome's developer tools.](assets/Opening_Chrome_dev_tools.gif)](assets/Opening_Chrome_dev_tools.gif)   *Click for a closer look!*
 
 In the above example, we used the most common method (**right click** > **Inspect**) to open the console. If your browser doesn’t have this method or you need help, use the documentation links below for the web browser you’re using:
 

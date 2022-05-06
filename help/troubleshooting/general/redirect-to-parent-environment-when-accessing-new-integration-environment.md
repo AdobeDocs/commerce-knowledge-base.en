@@ -45,6 +45,7 @@ Changes in the database can be done either manually or using the Adobe Commerce 
 ```sql    
 UPDATE core_config_data SET value = %your_new_environment_unsecure_url% WHERE path="web/unsecure/base_url"    
 ```
+
 ```sql
 update core_config_data set value = %your_new_environment_secure_url% where path="web/secure/base_url"
 ```      
@@ -63,9 +64,11 @@ php <your_magento_install_dir>/bin/magento config:set web/secure/base_url https:
 
 In your local codebase, in the `.magento.env.yaml` file set:
 
- `stage:
+```
+ stage:
     deploy:
-        UPDATE_URLS: true`
+        UPDATE_URLS: true
+```
 
 ### Clear configuration cache
 
@@ -77,4 +80,4 @@ php <your_magento_install_dir>/bin/magento cache:clean config
 
 ## Related article in our developer documentation:
 
- [Deploy variables](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#update_urls)
+[Deploy variables](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#update_urls)

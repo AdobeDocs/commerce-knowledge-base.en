@@ -40,13 +40,13 @@ At this point, we need to get all the data into one sheet to find the problem. W
 
 Now that all the data is in one place, we can look for the source of the discrepancy. Comparing the number of rows in each sheet will help us pinpoint the problem. Let's take a closer look at each situation.
 
-#### Both sheets contain the same number of rows
+### Both sheets contain the same number of rows
 
 If both systems have the same row count and the **Revenue** metric isn’t matching the source data, then the **order\_total** must be off somewhere. It’s possible that the **order\_total** field has been updated in your source database and Magento BI isn’t picking up these changes.
 
 To confirm this, take a look at whether or not the **order\_total** column is being rechecked. Head to the Data Warehouse Manager and click the orders table. You’ll see the [recheck frequency](https://support.magento.com/hc/en-us/articles/360016506452-Configuring-data-rechecks) listed in the ‘Changes?’ column. The **order\_total** field should be set to recheck as often as it is expected to change; if it’s not, go ahead and set it to your desired recheck frequency.
 
-#### ![](assets/Export_Discrepancies_4.gif)
+![](assets/Export_Discrepancies_4.gif)
 
 If the recheck frequency is already set correctly, then something else is wrong. Refer to the [Contacting Support section](#support) at the end of this article for next steps.
 
@@ -62,7 +62,7 @@ Navigate to the Connections page and take a look at the status of the data sourc
 
 ## The source database has FEWER rows than Magento BI {#lessrows}
 
-If the source database has fewer rows than Magento BI, then it’s possible that rows are being deleted from the source database and Magento BI isn’t picking up these deletions. ** [Deleting data](https://support.magento.com/hc/en-us/articles/360016731631-Optimizing-your-database-for-analysis#delete) can lead to discrepancies, lengthier update times, and a slew of logistical headaches** , so we strongly recommend you don’t ever delete data unless it’s really necessary.
+If the source database has fewer rows than Magento BI, then it’s possible that rows are being deleted from the source database and Magento BI isn’t picking up these deletions. [Deleting data](https://support.magento.com/hc/en-us/articles/360016731631-Optimizing-your-database-for-analysis#delete) can lead to discrepancies, lengthier update times, and a slew of logistical headaches, so we strongly recommend you don’t ever delete data unless it’s really necessary.
 
 If, however, rows are deleted from the table, take a look at the recheck frequency on the primary key. Rechecking the primary key means that the table will be checked for deleted rows.
 
