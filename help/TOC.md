@@ -7,7 +7,7 @@ breadcrumb-title: Commerce KB
 
 * [Commerce Help Center Home](overview.md)
 * Support Tools {#support-tools}
-  * [Overview](support-tools/overview.md)
+  * [Overview](/help/support-tools/overview.md)
   * Site-wide Analysis tool {#site-wide-analysis-tool}
     * [Site-Wide Analysis Tool by Adobe: overview](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
   * Observation for Adobe Commerce {#observation}
@@ -326,7 +326,7 @@ breadcrumb-title: Commerce KB
     * [Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
     * [Adobe Commerce Support Knowledge Base starts accepting contributions](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * Best Practices {#best-practices}
-  * [Overview](overview.md)
+  * [Overview](/help/best-practices/overview.md)
   * Configuration {#configuration}
     * [Best practices of sites, stores, and store view numbers](/help/best-practices/configuration/best-practices-of-sites-stores-and-store-view-numbers.md)
     * [Best practices for Adobe Commerce robots.txt](/help/best-practices/configuration/best-practices-for-magento-robots.txt.md)
@@ -374,7 +374,7 @@ breadcrumb-title: Commerce KB
     * [Best practice for number of products in cart in Adobe Commerce](/help/best-practices/performance/best-practice-for-number-of-products-in-cart-in-magento.md)
     * [Best practices for Adobe Commerce product attribute options](/help/best-practices/performance/best-practices-for-magento-product-attribute-options.md)
 * Troubleshooting {#troubleshooting}
-  * [Overview](overview.md)
+  * [Overview](/help/troubleshooting/overview.md)
   * General troubleshooting {#general}
     * [Troubleshoot Product Recommendations module in Adobe Commerce](/help/troubleshooting/general/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure](/help/troubleshooting/general/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md)
@@ -669,7 +669,7 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
-  * [Overview](overview.md)
+  * [Overview](/help/how-to/overview.md)
   * [MBI Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
   * [MBI Training Video: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
   * [Set cache TTL for images and other static content](/help/how-to/general/set-cache-ttl-for-images-and-other-static-content.md)
@@ -739,7 +739,7 @@ breadcrumb-title: Commerce KB
   * [Access the Adobe Commerce Customer Support Guide](/help/how-to/general/access-the-magento-commerce-customer-support-guide.md)
   * [How to subscribe to Adobe Commerce status updates](/help/how-to/general/how-to-subscribe-to-adobe-magento-status-updates.md)
 * FAQ {#faq}
-  * [Overview](overview.md)
+  * [Overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
   * [Depreciation of Core Adobe Commerce Payment Integrations](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
   * [Can I install third-party applications on my cloud instance?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
