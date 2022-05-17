@@ -31,7 +31,11 @@ In this example, we are going to create a new module called \`ExtraCountries\` w
 
 (To find out more about the module structure, see [Module overview](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html) in our developer documentation).
 
-<pre><ExtraCountries>
+**Extra Countries**
+
+<!--WRITER: Is this rendering properly?-->
+
+```
  |
  <etc>
  | |
@@ -56,7 +60,8 @@ In this example, we are going to create a new module called \`ExtraCountries\` w
  |     AddDataForAbstractCountry.php
  |
  composer.json
- registration.php</pre>
+ registration.php
+```
 
 >[!NOTE]
 >
@@ -97,7 +102,7 @@ Note that these changes are optional and will only affect the default belonging 
 
 ### ExtraCountries/etc/di.xml
 
-The `di.xml` file configures which dependencies are injected by the object manager. See <a>PHP Developer Guide > The di.xml</a> in our developer documentation for more details on `di.xml`.
+The `di.xml` file configures which dependencies are injected by the object manager. See *PHP Developer Guide > The di.xml* in our developer documentation for more details on `di.xml`.
 
 In our example, we must register a `_TranslatedListsPlugin_` which will translate newly introduced Country Codes into a full Country Names, if codes are not present in the Zend Locale Library localization data.
 
