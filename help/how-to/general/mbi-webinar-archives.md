@@ -24,7 +24,7 @@ Our Data Analyst team walks you through everything you need to know about gettin
 * Dashboards and basic functionality like sharing and filtering
 * Editing reports and creating new visualizations
 
- [Get the slides](assets/Essentials%20101.pptx.zip)
+ [Get the slides](assets/Essentials_101.pptx.zip)
 
 ## Expanding your Analysis with Cohorts
 
@@ -52,7 +52,7 @@ In this webinar, our team will review the differences between the MBI 2.0 archit
 * What new features are now exposed to the end user
 * How the Cohort Report Builder has been improved in 3.0
 
- [Get the slides](assets/MBI%203.0%20webinar.pptx)
+ [Get the slides](assets/MBI_3.0_webinar.pptx.zip)
 
 ## The Nuts and Bolts of Marketing ROI
 
