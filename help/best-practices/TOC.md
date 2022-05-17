@@ -19,7 +19,7 @@ breadcrumb-title: Best Practices
   * [Adobe Commerce on cloud infrastructure best practice for MySQL slave connection](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
   * [Database best practices for Adobe Commerce on cloud infrastructure](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md)
 * General {#general}
-  * [_isScopePrivate in private content blocks slows Adobe Commerce performance](/help/best-practices/general/_isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
+  * [_isScopePrivate in private content blocks slows Adobe Commerce performance](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
   * [Maximum number of coupons in Adobe Commerce](/help/best-practices/general/maximum-number-of-coupons-in-magento.md)
   * [Best practice Adobe Commerce number of categories limits](/help/best-practices/general/best-practice-magento-number-of-categories-limits.md)
   * [Troubleshooting Best Practices for Adobe Commerce on cloud infrastructure](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
