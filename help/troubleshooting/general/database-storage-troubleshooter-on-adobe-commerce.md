@@ -6,7 +6,7 @@ title: Database storage troubleshooter on Adobe Commerce
 
 # Database storage troubleshooter on Adobe Commerce
 
-This article is a troubleshooter tool for customers on Adobe Commerce having issues with databases. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms and configuration, the troubleshooter will explain how to troubleshoot space and configuration issues with databases.
+This article is a troubleshooter tool for customers on Adobe Commerce who are having issues with databases. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms and configuration, the troubleshooter will explain how to troubleshoot space and configuration issues with databases.
 
 +++**Step 1 - Do you have a `/tmp` issue caused by a lack of space?**
 
