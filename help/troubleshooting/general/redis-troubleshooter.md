@@ -8,7 +8,7 @@ title: Redis troubleshooter on Adobe Commerce
 
 This article is a troubleshooter tool for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure merchants having issues with Redis. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms and configuration, the troubleshooter will explain how to troubleshoot version and memory issues and optimize performance.
 
-## Step 1
+## Step 2
 
 +++**Details**
 
@@ -18,11 +18,20 @@ NO – Return to [support.magento.com](https://support.magento.com/hc/en-us) and
 
 +++
 
-+++**Step 1**
+## Step 2 {#zd-accordion-2}
 
-Redis issue?
++++Redis issue?
 
-a. YES – Proceed to [Step 2](#zd-accordion-2).  
+a. YES – Proceed to [Step 3](#zd-accordion-3).  
+b. NO – Return to [support.magento.com](https://support.magento.com/hc/en-us) and search for relevant troubleshooting articles.
+
++++
+
+## Step 2 - Redis issue? {#zd-accordion-2-dupe}
+
++++Details
+
+a. YES – Proceed to [Step 3](#zd-accordion-3).  
 b. NO – Return to [support.magento.com](https://support.magento.com/hc/en-us) and search for relevant troubleshooting articles.
 
 +++
