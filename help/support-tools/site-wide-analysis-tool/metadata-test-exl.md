@@ -1,7 +1,7 @@
 ---
 description: Site-Wide Analysis Tool is a proactive self-service tool and central repository that includes detailed system insights and recommendations to ensure the security and operability of your Adobe Commerce installation. All tool-related customer site information is collected on predetermined schedules every three hours to once a day. This means that SWAT is constantly analyzing customer site data for Findings.
 labels: support tools,Site-Wide Analysis Tool,Adobe Commerce,cloud infrastructure,Magento
-title: 'Site-Wide Analysis Tool by Adobe: overview'
+title: 'Testing MD quotations in title metadata'
 ---
 
 # Site-Wide Analysis Tool by Adobe: overview
