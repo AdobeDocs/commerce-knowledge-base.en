@@ -10,7 +10,7 @@ This article is a troubleshooter tool for Adobe Commerce on-premises and Adobe C
 
 ## Step 2
 
-+++**Details**
++++On Redis versions 3.2 or 5.0? Check by running the following commands in the CLI. Pro or Staging: `$ redis-cli -p %port-number% info | grep redis_version`, where %port-number% is the number of the port, which can be found in the app/etc/env.php file or by running one of these commands: $ vendor/bin/ece-tools env:config:show | grep -i redis -A 3 or $ cat app/etc/env.php | grep redis -A 3. Starter or Integration: $ redis-cli -h 'redis.internal' info | grep redis_version
 
 a. YES – Proceed to Step 2</a>.<br>b. 
 
