@@ -8,9 +8,9 @@ title: Redis troubleshooter on Adobe Commerce
 
 This article is a troubleshooter tool for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure merchants having issues with Redis. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms and configuration, the troubleshooter will explain how to troubleshoot version and memory issues and optimize performance.
 
-## Step 2
+## Step 2 {#step2}
 
-+++**Details**
++++On Redis versions 3.2 or 5.0? Check by running the `following commands` in the CLI. Pro or Staging: $ redis-cli -p %port-number% info | grep redis_version, where %port-number% is the number of the port, which can be found in the app/etc/env.php file or by running one of these commands: $ vendor/bin/ece-tools env:config:show | grep -i redis -A 3 or $ cat app/etc/env.php | grep redis -A 3. Starter or Integration: $ redis-cli -h 'redis.internal' info | grep redis_version
 
 a. YES – Proceed to Step 2</a>.<br>b. 
 
@@ -80,3 +80,5 @@ Blah blah
     <a href="https://support.magento.com/hc/en-us/articles/360046673932#zd-accordion-1">Back to Step 1</a>
   </p>
 </div>
+
+[This is a link to step 2](#step2)
