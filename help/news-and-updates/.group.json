@@ -1,1 +1,13 @@
-{"id": 115000239054, "url": "https://magento.zendesk.com/api/v2/help_center/en-us/categories/115000239054.json", "html_url": "https://support.magento.com/hc/en-us/categories/115000239054-News-and-Updates", "position": 4, "created_at": "2017-09-21T14:59:44Z", "updated_at": "2020-02-21T18:11:13Z", "name": "News and Updates", "description": "Find the latest updates and bulletins.", "locale": "en-us", "source_locale": "en-us", "outdated": false}
+{
+    "id": 360006544672,
+    "url": "https://magento1544124303.zendesk.com/api/v2/help_center/en-us/categories/360006544672.json",
+    "html_url": "https://magento1544124303.zendesk.com/hc/en-us/categories/360006544672-News-and-Updates",
+    "position": 0,
+    "created_at": "2021-06-07T19:17:51Z",
+    "updated_at": "2021-06-07T19:17:58Z",
+    "name": "News and Updates",
+    "description": null,
+    "locale": "en-us",
+    "source_locale": "en-us",
+    "outdated": false
+}

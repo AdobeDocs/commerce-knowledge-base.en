@@ -1,1 +1,17 @@
-{"id": 360010506631, "url": "https://magento.zendesk.com/api/v2/help_center/en-us/sections/360010506631.json", "html_url": "https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-", "category_id": 360004245632, "position": 2, "sorting": "manual", "created_at": "2020-09-16T20:56:47Z", "updated_at": "2021-05-10T16:35:43Z", "name": "Patches available in QPT tool ", "description": "", "locale": "en-us", "source_locale": "en-us", "outdated": false, "parent_section_id": null, "theme_template": "section_page"}
+{
+    "id": 360013834732,
+    "url": "https://magento1544124303.zendesk.com/api/v2/help_center/en-us/sections/360013834732.json",
+    "html_url": "https://magento1544124303.zendesk.com/hc/en-us/sections/360013834732-Patches-Available-in-QPT-Tool",
+    "category_id": 360006549051,
+    "position": 0,
+    "sorting": "manual",
+    "created_at": "2021-06-07T19:17:58Z",
+    "updated_at": "2021-10-08T21:32:11Z",
+    "name": "Patches Available in QPT Tool",
+    "description": "Shows only those available patches for installed version, with categorization and easy application/removal.",
+    "locale": "en-us",
+    "source_locale": "en-us",
+    "outdated": false,
+    "parent_section_id": null,
+    "theme_template": "section_page"
+}

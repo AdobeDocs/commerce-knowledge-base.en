@@ -1,1 +1,17 @@
-{"id": 360003869892, "url": "https://magento.zendesk.com/api/v2/help_center/en-us/sections/360003869892.json", "html_url": "https://support.magento.com/hc/en-us/sections/360003869892-Known-issues-patches-attached-", "category_id": 115000200533, "position": 1, "sorting": "manual", "created_at": "2019-03-07T21:13:10Z", "updated_at": "2021-05-14T20:49:28Z", "name": "Known issues (patches attached)", "description": "", "locale": "en-us", "source_locale": "en-us", "outdated": false, "parent_section_id": null, "theme_template": "section_page"}
+{
+    "id": 360013929871,
+    "url": "https://magento1544124303.zendesk.com/api/v2/help_center/en-us/sections/360013929871.json",
+    "html_url": "https://magento1544124303.zendesk.com/hc/en-us/sections/360013929871-Known-issues-patches-attached-",
+    "category_id": 360006544592,
+    "position": 0,
+    "sorting": "manual",
+    "created_at": "2021-06-07T19:17:57Z",
+    "updated_at": "2021-06-07T19:23:25Z",
+    "name": "Known issues (patches attached)",
+    "description": null,
+    "locale": "en-us",
+    "source_locale": "en-us",
+    "outdated": false,
+    "parent_section_id": null,
+    "theme_template": "section_page"
+}

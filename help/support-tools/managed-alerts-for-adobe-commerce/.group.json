@@ -1,1 +1,17 @@
-{"id": 360013929691, "url": "https://magento1544124303.zendesk.com/api/v2/help_center/en-us/sections/360013929691.json", "html_url": "https://magento1544124303.zendesk.com/hc/en-us/sections/360013929691-Managed-alerts-for-Adobe-Commerce", "category_id": 360006549051, "position": 0, "sorting": "manual", "created_at": "2020-10-16T15:46:40Z", "updated_at": "2021-05-14T13:53:29Z", "name": "Managed alerts for Adobe Commerce", "description": "", "locale": "en-us", "source_locale": "en-us", "outdated": false, "parent_section_id": null, "theme_template": "section_page"}
+{
+    "id": 360013929691,
+    "url": "https://magento1544124303.zendesk.com/api/v2/help_center/en-us/sections/360013929691.json",
+    "html_url": "https://magento1544124303.zendesk.com/hc/en-us/sections/360013929691-Managed-alerts-for-Adobe-Commerce",
+    "category_id": 360006549051,
+    "position": 0,
+    "sorting": "manual",
+    "created_at": "2021-06-07T19:17:53Z",
+    "updated_at": "2021-09-15T22:20:02Z",
+    "name": "Managed alerts for Adobe Commerce",
+    "description": "Produces ready-made New Relic alerting that includes directions on next steps to troubleshoot.",
+    "locale": "en-us",
+    "source_locale": "en-us",
+    "outdated": false,
+    "parent_section_id": null,
+    "theme_template": "section_page"
+}

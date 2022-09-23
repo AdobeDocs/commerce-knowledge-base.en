@@ -1,1 +1,13 @@
-{"id": 115000200533, "url": "https://magento.zendesk.com/api/v2/help_center/en-us/categories/115000200533.json", "html_url": "https://support.magento.com/hc/en-us/categories/115000200533-Troubleshooting", "position": 0, "created_at": "2017-09-02T12:21:37Z", "updated_at": "2021-05-14T22:36:42Z", "name": "Troubleshooting", "description": "Find solutions for your issues.", "locale": "en-us", "source_locale": "en-us", "outdated": false}
+{
+    "id": 360006544592,
+    "url": "https://magento1544124303.zendesk.com/api/v2/help_center/en-us/categories/360006544592.json",
+    "html_url": "https://magento1544124303.zendesk.com/hc/en-us/categories/360006544592-Troubleshooting",
+    "position": 0,
+    "created_at": "2021-06-07T19:17:50Z",
+    "updated_at": "2021-06-07T19:23:25Z",
+    "name": "Troubleshooting",
+    "description": null,
+    "locale": "en-us",
+    "source_locale": "en-us",
+    "outdated": false
+}
