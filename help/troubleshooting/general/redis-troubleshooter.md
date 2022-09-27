@@ -65,4 +65,6 @@ b. NO – Configure L2 cache configuration by [Updating Redis Backend](https://d
 a. YES - Check the temp directory `/dev/shm` to see if you need to increase space. If you need more space, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
 b. NO – Enabling L2 cache appears to have solved your Redis issues.
 
++++
+
 [Back to step 1](#step1)
