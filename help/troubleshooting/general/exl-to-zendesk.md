@@ -6,6 +6,8 @@ title: ExL Syntax Style Guide
 
 # Basic text formatting
 
+Test 2, update Article.
+
 A paragraph requires no special syntax in Markdown. Add a blank line between each paragraph.
 To format text as bold, you enclose it in two asterisks:
 
