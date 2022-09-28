@@ -1,7 +1,10 @@
 ---
 title: "'Area code is not set' error when running setup:updgrade"
 labels: 2.2.3,Magento Commerce Cloud,known issues,patch,setup:upgrade,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting the *\"Area code is not set\"* error when running the"
 ---
+
+# 'Area code is not set' error when running setup:updgrade
 
 This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting the *"Area code is not set"* error when running the
 

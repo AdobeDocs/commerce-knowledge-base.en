@@ -1,7 +1,10 @@
 ---
 title: "MDVA-30599: customer_is_guest is set incorrectly"
 labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0-p1,2.4.1,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,customer_is_guest,support tools,Adobe Commerce,cloud infrastructure,on-premises
+description: "The MDVA-30599 patch fixes the issue where guest quotes created using API are incorrectly marked as quotes for logged-in customers. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.6 is installed. The issue was fixed in Adobe Commerce 2.4.2."
 ---
+
+# MDVA-30599: customer_is_guest is set incorrectly
 
 The MDVA-30599 patch fixes the issue where guest quotes created using API are incorrectly marked as quotes for logged-in customers. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.6 is installed. The issue was fixed in Adobe Commerce 2.4.2.
 
@@ -27,11 +30,11 @@ Guest quotes created using API are incorrectly marked as quotes for logged-in cu
 
 1. On the Adobe Commerce storefront, add a product to the cart as a guest user.
 1. In your Adobe Commerce DB, find the corresponding `quote_id_mask`.
-1. Send an API request to `quoteGuestCartRepositoryV1` Cart Repository interface for guest carts. It can be done via Swagger or cURL request.    
+1. Send an API request to `quoteGuestCartRepositoryV1` Cart Repository interface for guest carts. It can be done via Swagger or cURL request.
 
 ```curl
-curl -X GET "http://web2-73.sparta.corp.magento.com/dev/support/ee24dev/rest/all/V1/guest-carts/ToOwPtSBxkorkCLq6ztwupPd99y8zhky" -H "accept: application/json"    
-```    
+curl -X GET "http://web2-73.sparta.corp.magento.com/dev/support/ee24dev/rest/all/V1/guest-carts/ToOwPtSBxkorkCLq6ztwupPd99y8zhky" -H "accept: application/json"
+```
 
 <ins>Expected results</ins>:
 

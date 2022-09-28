@@ -1,7 +1,10 @@
 ---
 title: How to request temporary Adobe Commerce on cloud infrastructure upsize
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,Magento Upsize,New Relic,alert,baseline,capacity,cloud,how to,request,temporary,Adobe Commerce,cloud infrastructure
+description: "If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store."
 ---
+
+# How to request temporary Adobe Commerce on cloud infrastructure upsize
 
 If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
 
@@ -82,6 +85,6 @@ The following information is available for each resize request:
     * [Check host’s CPU configuration for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058507012O)
 * For information on how to identify outages, refer to [Identify and measure outages for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/4409500578957) in our support knowledge base.
 * For information on improving site performance to avoid the need for utilizing an increase in capacity, refer to these articles in our developer documentation:
-    * [Image Sizing](https://docs.magento.com/m2/ee/user_guide/catalog/product-image-resizing.html?_ga=2.180036580.1101564187.1584392801-2014893147.1552329962)  
-    * [Full Page Caching](https://docs.magento.com/m2/ee/user_guide/system/cache-full-page.html?_ga=2.206252883.1101564187.1584392801-2014893147.1552329962)  
+    * [Image Sizing](https://docs.magento.com/m2/ee/user_guide/catalog/product-image-resizing.html?_ga=2.180036580.1101564187.1584392801-2014893147.1552329962)
+    * [Full Page Caching](https://docs.magento.com/m2/ee/user_guide/system/cache-full-page.html?_ga=2.206252883.1101564187.1584392801-2014893147.1552329962)
     * [ECE-Tools](https://devdocs.magento.com/guides/v2.2/cloud/reference/ece-tools-reference.html?_ga=2.250808134.1101564187.1584392801-2014893147.1552329962)

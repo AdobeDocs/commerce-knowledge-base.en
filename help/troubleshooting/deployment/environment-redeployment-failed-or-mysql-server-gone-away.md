@@ -1,7 +1,10 @@
 ---
 title: Environment redeployment failed or MySQL server gone away
 labels: Magento Commerce,Magento Commerce Cloud,deployment,mysql,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Pro,Starter
+description: "This article provides a solution for Adobe Commerce (all deployment methods) issues, where the outage of space allocated for MySQL causes stuck deployment or database connection errors."
 ---
+
+# Environment redeployment failed or MySQL server gone away
 
 This article provides a solution for Adobe Commerce (all deployment methods) issues, where the outage of space allocated for MySQL causes stuck deployment or database connection errors.
 
@@ -11,8 +14,8 @@ This article provides a solution for Adobe Commerce (all deployment methods) iss
 
 ## Issue
 
-* Deploy process fails with the following error in the deploy log (command line and UI log):  ```bash    Re-deploying environment abcdefghijklm-master-7rqtwti         E: Environment redeployment failed    ```    
-* Adobe Commerce responds with 503 error, and the following error message is displayed in application logs:    ```bash    SQLSTATE[HY000] [2006] MySQL server has gone away    ```    and the following error appears when you connect to a MySQL server:    ```bash    ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0 "Internal error/check (Not system error)"    ```    
+* Deploy process fails with the following error in the deploy log (command line and UI log):  ```bash    Re-deploying environment abcdefghijklm-master-7rqtwti         E: Environment redeployment failed    ```
+* Adobe Commerce responds with 503 error, and the following error message is displayed in application logs:    ```bash    SQLSTATE[HY000] [2006] MySQL server has gone away    ```    and the following error appears when you connect to a MySQL server:    ```bash    ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0 "Internal error/check (Not system error)"    ```
 
 ## Cause
 

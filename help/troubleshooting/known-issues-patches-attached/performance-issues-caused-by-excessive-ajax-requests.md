@@ -1,7 +1,10 @@
 ---
 title: Performance issues caused by excessive Ajax requests
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,banner,known issues,patch,performance,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article provides a patch for the known Adobe Commerce performance issue caused by excessive Ajax requests. The issue was fixed in Adobe Commerce 2.3.4."
 ---
+
+# Performance issues caused by excessive Ajax requests
 
 This article provides a patch for the known Adobe Commerce performance issue caused by excessive Ajax requests. The issue was fixed in Adobe Commerce 2.3.4.
 

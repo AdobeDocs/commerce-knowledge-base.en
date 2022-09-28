@@ -1,7 +1,10 @@
 ---
 title: Wrong date for Special Price
 labels: 2.2.2,Magento Commerce,known issues,patch,special price,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
+description: "This article provides a patch for the known Adobe Commerce 2.2.2 issue related to the product special price \"from\" date being incorrect if its value is changed by the admin whose interface locale is different."
 ---
+
+# Wrong date for Special Price
 
 This article provides a patch for the known Adobe Commerce 2.2.2 issue related to the product special price "from" date being incorrect if its value is changed by the admin whose interface locale is different.
 

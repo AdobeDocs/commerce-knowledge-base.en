@@ -1,7 +1,10 @@
 ---
 title: How to apply a composer patch provided by Adobe
 labels: Magento Commerce,Magento Commerce Cloud,apply patch,composer,git,how to,patch,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article instructs how to apply a composer patch for Adobe Commerce on-premises, Adobe Commerce on cloud infrastructure, and Magento Open Source."
 ---
+
+# How to apply a composer patch provided by Adobe
 
 This article instructs how to apply a composer patch for Adobe Commerce on-premises, Adobe Commerce on cloud infrastructure, and Magento Open Source.
 
@@ -14,15 +17,15 @@ This article instructs how to apply a composer patch for Adobe Commerce on-premi
 1. If you do not have a directory named `m2-hotfixes` in the project root, please create one.
 1. Copy the `%patch_name%.composer.patch` file(s) to the `m2-hotfixes` directory.
 1. Add, commit, and push your code changes:
-    ```git    
+    ```git
     git add -A
     ```
     ```git
-    git commit -m "Apply %patch_name%.composer.patch patch"     
+    git commit -m "Apply %patch_name%.composer.patch patch"
     ```
     ```git
-    git push origin    
-    ```    
+    git push origin
+    ```
 
 For additional information about applying patches to Cloud projects, see [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 

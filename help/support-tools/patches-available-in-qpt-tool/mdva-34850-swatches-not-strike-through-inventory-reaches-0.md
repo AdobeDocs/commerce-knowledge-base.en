@@ -1,7 +1,10 @@
 ---
 title: 'MDVA-34850: swatches not strike-through inventory reaches "0"'
 labels: Inventory,QPT 1.0.17,QPT patches,Magento Commerce,Magento Commerce Cloud,configuration,inventory source,out of stock,support tools,Adobe Commerce,cloud infrastructure,on-premises
+description: "The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches \"0\" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---
+
+# MDVA-34850: swatches not strike-through inventory reaches "0"
 
 The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches "0" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -49,7 +52,7 @@ The Out-of-Stock option is hidden.
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 

@@ -1,13 +1,16 @@
 ---
 title: Error placing order with Authorize.net Sandbox account (An error occurred on the server)
 labels: Authorize.net,Magento Commerce,payments,sandbox,troubleshooting,Adobe Commerce
+description: "This article provides a fix for \"*An error occurred on the server*\" error message when placing an order using Authorize.Net Direct Post."
 ---
+
+# Error placing order with Authorize.net Sandbox account (An error occurred on the server)
 
 This article provides a fix for "*An error occurred on the server*" error message when placing an order using Authorize.Net Direct Post.
 
 >![warning]
 >
->**Deprecation Notice**  
+>**Deprecation Notice**
 Due to the Payment Service Directive [PSD2](https://docs.magento.com/user-guide/v2.3/stores/compliance-payment-services-directive.html) and the continued evolution of many APIs, Authorize.Net is at risk of becoming outdated and no longer security compliant in the future. For this reason, it is now deprecated, and we are recommending that you disable it in your Adobe Commerce configuration and transition to the corresponding [Commerce Marketplace extension](https://marketplace.magento.com/extensions.html).
 >
 >**This integration is removed from the Adobe Commerce 2.4.0 release and has been deprecated from the current versions of 2.3.**
@@ -52,5 +55,5 @@ If placing an order with Authorize.net fails with a non-informative *"Something 
 In case the `debug.log` is empty, check the **transact.dll** response in your web browser's console:
 
 1. Open the console.
-1. Before placing an order, go to the **Network** tab and select **Preserve log**.    ![web-console_network_preserve-log.png](assets/web-console_network_preserve-log.png)    
-1. Filter responses by **transact.dll** to see a response message with a possible error.    ![transact-dll_web-console_response.png](assets/transact-dll_web-console_response.png)    
+1. Before placing an order, go to the **Network** tab and select **Preserve log**.    ![web-console_network_preserve-log.png](assets/web-console_network_preserve-log.png)
+1. Filter responses by **transact.dll** to see a response message with a possible error.    ![transact-dll_web-console_response.png](assets/transact-dll_web-console_response.png)

@@ -1,7 +1,10 @@
 ---
 title: "ACSD-43887: Incorrect details displayed on checkout payment page"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.17,admin user,purchase order,checkout payment page,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.4
+description: "The ACSD-43887 patch fixes the issue where incorrect details are displayed on the checkout payment page when Purchase Orders for companies are enabled. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.17 is installed. The patch ID is ACSD-43887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
 ---
+
+# ACSD-43887: Incorrect details displayed on checkout payment page
 
 The ACSD-43887 patch fixes the issue where incorrect details are displayed on the checkout payment page when Purchase Orders for companies are enabled. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.17 is installed. The patch ID is ACSD-43887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 

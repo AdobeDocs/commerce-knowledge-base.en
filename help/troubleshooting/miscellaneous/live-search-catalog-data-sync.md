@@ -1,7 +1,10 @@
 ---
 title: Live search catalog not synchronized
 labels: Adobe Commerce,Magento,on-premises,cloud infrastructure,live search,catalog,data,sync
+description: "This article provides solutions for the Adobe Commerce issue where your catalog data is not synchronized correctly when using the Live Search extension."
 ---
+
+# Live search catalog not synchronized
 
 This article provides solutions for the Adobe Commerce issue where your catalog data is not synchronized correctly when using the Live Search extension.
 
@@ -100,7 +103,7 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
 
 (Known issue) If you have changed your API configuration, which results in a change in your Data Space ID and find that your catalog changes are no longer syncing, run the following commands:
 
-```bash 
+```bash
 bin/magento saas:resync --feed products
 bin/magento saas:resync --feed productattributes
 ```

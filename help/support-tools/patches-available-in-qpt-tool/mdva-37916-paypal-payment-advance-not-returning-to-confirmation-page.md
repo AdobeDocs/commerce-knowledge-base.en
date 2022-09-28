@@ -1,7 +1,10 @@
 ---
 title: "MDVA-37916: PayPal Payments Advanced not returning to confirmation page"
 labels: QPT patches,Quality Patches Tool,Support Tools,MDVA-37916,QPT fixes,Magento Commerce,Magento Commerce Cloud,QPT 1.0.25,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce
+description: "The MDVA-37916 quality patch for Adobe Commerce fixes the issue of PayPal Payments Advanced not returning to the confirmation page after payment. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---
+
+# MDVA-37916: PayPal Payments Advanced not returning to confirmation page
 
 The MDVA-37916 quality patch for Adobe Commerce fixes the issue of PayPal Payments Advanced not returning to the confirmation page after payment. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -32,7 +35,7 @@ The customer is not taken to the Payment Confirmation page after payment when us
     * CSC: 123
 1. Click **Pay Now**.
 
-<ins>Expected results</ins>:  
+<ins>Expected results</ins>:
 
 After the payment is processed and the payment is successful, you are redirected to the Order Confirmation page.
 

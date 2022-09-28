@@ -1,7 +1,10 @@
 ---
 title: Best practice for attribute SET in Adobe Commerce
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,MySQL,attribute,best practices,performance,product,set,Adobe Commerce,cloud infrastructure,on-premises
+description: "It is best practice to remove non-used attribute sets. Exceeding the maximum attribute sets causes performance degradation and potential outages."
 ---
+
+# Best practice for attribute SET in Adobe Commerce
 
 It is best practice to remove non-used attribute sets. Exceeding the maximum attribute sets causes performance degradation and potential outages.
 

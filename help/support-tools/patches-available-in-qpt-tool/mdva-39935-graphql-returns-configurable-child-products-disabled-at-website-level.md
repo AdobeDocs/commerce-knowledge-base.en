@@ -1,7 +1,10 @@
 ---
 title: "MDVA-39935: GraphQL returns configurable child products disabled at the website level"
 labels: QPT patches,Quality Patches Tool,QPT 1.1.2,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,on-premises,cloud infrastructure,2.4.1.,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
+description: "The MDVA-39935 Adobe Commerce patch fixes the issue where GraphQL returns configurable child products disabled at the website level. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.2 is installed. The patch ID is MDVA-39935. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---
+
+# MDVA-39935: GraphQL returns configurable child products disabled at the website level
 
 The MDVA-39935 Adobe Commerce patch fixes the issue where GraphQL returns configurable child products disabled at the website level. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.2 is installed. The patch ID is MDVA-39935. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -25,7 +28,7 @@ GraphQL returns configurable child products even after they are disabled at the 
 
 <ins>Steps to reproduce</ins>:
 
-1. Enable display out of stock products option under **Store** > **Configuration** > **Catalog** > **Inventory** > **Stock Options** > **Display Out of Stock Products** > **Yes**.  
+1. Enable display out of stock products option under **Store** > **Configuration** > **Catalog** > **Inventory** > **Stock Options** > **Display Out of Stock Products** > **Yes**.
 1. Select any **Configurable Product** which has more than two **Simple Products**.
 1. Disable **Simple Product** and save the **Configurable Product**.
 1. Fetch the **Configurable Product** data using GraphQL.
@@ -68,7 +71,7 @@ Disabled products data is fetched in the variant results.
 To apply individual patches, use the following links depending on your deployment type:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 

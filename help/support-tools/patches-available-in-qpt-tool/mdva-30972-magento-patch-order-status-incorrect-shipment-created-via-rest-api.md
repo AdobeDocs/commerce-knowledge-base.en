@@ -1,7 +1,10 @@
 ---
 title: "MDVA-30972: order status incorrect shipment created via REST API"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,order,security,shipping,support tools,Adobe Commerce,cloud infrastructure,on-premises
+description: "The MDVA-30972 patch solves the issue where the order status is changed incorrectly during shipment creation via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed."
 ---
+
+# MDVA-30972: order status incorrect shipment created via REST API
 
 The MDVA-30972 patch solves the issue where the order status is changed incorrectly during shipment creation via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed.
 
@@ -38,10 +41,10 @@ When a partial shipment is created from Admin via REST API for an order with *Su
 
     * Method = `Post`
     * Header = `"{host}/rest/V1/orders/ {order_id}/ship"`
-    * Body =    
-    ```clike   
-     {      "items": [        {          "extension_attributes": {},          "order_item_id": {order_item_id},          "qty": 1        }      ]    }   
-     ```    
+    * Body =
+    ```clike
+     {      "items": [        {          "extension_attributes": {},          "order_item_id": {order_item_id},          "qty": 1        }      ]    }
+     ```
 
 1. Open the order in Admin again and check its status.
 

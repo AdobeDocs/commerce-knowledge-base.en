@@ -1,7 +1,10 @@
 ---
 title: "MDVA-31640 patch: unable to create consecutive scheduled update via REST API"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,QPT 1.0.9,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,scheduled update,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
+description: "The MDVA-31640 patch fixes the issue where a new scheduled update for the special price cannot be created for multiple stores using REST API, if the start date of the update coincides with the end date of the previously existing update. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2."
 ---
+
+# MDVA-31640 patch: unable to create consecutive scheduled update via REST API
 
 The MDVA-31640 patch fixes the issue where a new scheduled update for the special price cannot be created for multiple stores using REST API, if the start date of the update coincides with the end date of the previously existing update. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -28,10 +31,10 @@ Fixes the issue where a new scheduled update for the special price cannot be cre
 1. Set up an additional website, store, and store view.
 1. Create two simple products: "product1" and "product2".
 1. Assign product1 to one website and product2 to both websites.
-1. Create a scheduled update for the special price for the product1 on the store view for the store with ID 1. Use REST API `POST` request to `rest/V1/products/special-price` with the following payload:     
-    `{        "prices": [            {                "price": 15,                "store_id": 1,                "sku": "product1",                "price_from": "2021-11-15 04:00:00",                "price_to": "2021-11-15 04:10:00"            }        ]    }`     
-1. Create a scheduled update for the special price for the product2 on both store views for stores with ID 1 and 2 using REST API `POST` request to `rest/V1/products/special-price` with the following payload (the `price_from` date is the same as `price_to` date in the previous request):     
-    `{        "prices": [            {                "price": 14,                "store_id": 1,                "sku": "product2",                "price_from": "2021-11-15 04:10:00",                "price_to": "2021-11-15 04:15:00"            },            {                "price": 13,                "store_id": 2,                "sku": "product2",                "price_from": "2021-11-15 04:10:00",                "price_to": "2021-11-15 04:15:00"            }        ]    }`     
+1. Create a scheduled update for the special price for the product1 on the store view for the store with ID 1. Use REST API `POST` request to `rest/V1/products/special-price` with the following payload:
+    `{        "prices": [            {                "price": 15,                "store_id": 1,                "sku": "product1",                "price_from": "2021-11-15 04:00:00",                "price_to": "2021-11-15 04:10:00"            }        ]    }`
+1. Create a scheduled update for the special price for the product2 on both store views for stores with ID 1 and 2 using REST API `POST` request to `rest/V1/products/special-price` with the following payload (the `price_from` date is the same as `price_to` date in the previous request):
+    `{        "prices": [            {                "price": 14,                "store_id": 1,                "sku": "product2",                "price_from": "2021-11-15 04:10:00",                "price_to": "2021-11-15 04:15:00"            },            {                "price": 13,                "store_id": 2,                "sku": "product2",                "price_from": "2021-11-15 04:10:00",                "price_to": "2021-11-15 04:15:00"            }        ]    }`
 
 <ins>Expected results</ins>:
 

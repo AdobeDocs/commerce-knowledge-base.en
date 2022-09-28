@@ -1,7 +1,10 @@
 ---
 title: "MDVA-33970 patch: currency sign in credit memo"
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
+description: "The MDVA-33970 patch solves the issue where a Dollar ($) sign was shown instead of the localized currency in a credit memo. This occurs when a **Website** scope is used for a **Price** attribute."
 ---
+
+# MDVA-33970 patch: currency sign in credit memo
 
 The MDVA-33970 patch solves the issue where a Dollar ($) sign was shown instead of the localized currency in a credit memo. This occurs when a **Website** scope is used for a **Price** attribute.
 

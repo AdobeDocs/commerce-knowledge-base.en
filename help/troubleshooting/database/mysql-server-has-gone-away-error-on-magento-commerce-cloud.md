@@ -1,7 +1,10 @@
 ---
 title: MySQL server has gone away​ error on Adobe Commerce on cloud
 labels: 2.3,2.3.x,2.4,2.4.x,Magento,MySQL,cron,deployment fails,error,log,time-out,Adobe Commerce,cloud infrastructure
+description: "This article talks about the solution for the issue where you receive an \" *SQL server has gone away* \" error message in the `cron.log` file. A range of symptoms including image file importing issues or deployment failure may be experienced."
 ---
+
+# MySQL server has gone away​ error on Adobe Commerce on cloud
 
 This article talks about the solution for the issue where you receive an " *SQL server has gone away* " error message in the `cron.log` file. A range of symptoms including image file importing issues or deployment failure may be experienced.
 
@@ -31,7 +34,7 @@ The `default_socket_timeout` value is set too low. This is caused by the setting
 
 ## Solution
 
-1. Check the current timeout period for `default_socket_timeout` by running in the CLI:    ```clike    php -i |grep default_socket_timeout    ```    
+1. Check the current timeout period for `default_socket_timeout` by running in the CLI:    ```clike    php -i |grep default_socket_timeout    ```
 1. Depending on the timeout setting increase, the `default_socket_timeout` variable to the expected longest possible run time in the `/etc/platform/<project_name>/php.ini` file. It is suggested that you set between 10-15 mins.
 1. Commit it to GIT and redeploy.
 

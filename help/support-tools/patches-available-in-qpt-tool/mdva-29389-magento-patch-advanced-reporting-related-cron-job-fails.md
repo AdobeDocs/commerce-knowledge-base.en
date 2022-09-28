@@ -1,7 +1,10 @@
 ---
 title: "MDVA-29389: Advanced Reporting related cron job fails"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,Advanced Reporting,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,MySQL,cron,database,error,support tools,Adobe Commerce,cloud infrastructure,on-premises
+description: "The MDVA-29389 patch fixes the issue where with Advanced Reporting where the `analytics_collect_data` cronjob says: \"*Port must be configured within host parameter (like localhost:3306)*\". This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. The patch ID is MDVA-29389. The issue was fixed in Adobe Commerce 2.4.2."
 ---
+
+# MDVA-29389: Advanced Reporting related cron job fails
 
 The MDVA-29389 patch fixes the issue where with Advanced Reporting where the `analytics_collect_data` cronjob says: "*Port must be configured within host parameter (like localhost:3306)*". This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. The patch ID is MDVA-29389. The issue was fixed in Adobe Commerce 2.4.2.
 
@@ -24,11 +27,11 @@ The MDVA-29389 patch fixes the issue where with Advanced Reporting where the `an
 <ins>Steps to reproduce</ins>:
 
 1. In your Adobe Commerce instance, enable Advanced Reporting.
-1. Run the following query to insert analytics/general/token value in the DB:    
+1. Run the following query to insert analytics/general/token value in the DB:
 
-    ```sql    
-    INSERT INTO core_config_data VALUES(NULL,'default',0,'analytics/general/token','ABCDE',now());    
-    ```    
+    ```sql
+    INSERT INTO core_config_data VALUES(NULL,'default',0,'analytics/general/token','ABCDE',now());
+    ```
 
 1. Open your env.php and add port to the host parameter in DB configuration in the following format: `'host' => 'hostname:port',`
 1. Clear cache.

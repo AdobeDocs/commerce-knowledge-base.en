@@ -1,7 +1,10 @@
 ---
 title: "MDVA-38626: Admin user is unable to place orders using PayPal Payflow Pro"
 labels: QPT patches,Quality Patches Tool,MQP,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,PayPal Payflow Pro,admin,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,QPT 1.1.9
+description: "The MDVA-38626 patch solves the issue where the admin user is unable to place an order on the backend using the PayPal Payflow Pro payment method. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-38626. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
+
+# MDVA-38626: Admin user is unable to place orders using PayPal Payflow Pro
 
 The MDVA-38626 patch solves the issue where the admin user is unable to place an order on the backend using the PayPal Payflow Pro payment method. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-38626. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 

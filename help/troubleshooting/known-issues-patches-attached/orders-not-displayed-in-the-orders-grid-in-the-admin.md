@@ -1,7 +1,10 @@
 ---
 title: Orders not displayed in the Orders grid in the Admin
 labels: 2.2.1,known issue,orders,patch,Commerce Admin,Adobe Commerce,cloud infrastructure,on-premises,Magento Commerce,Magento Commerce Cloud
+description: "This article provides a patch for the known Adobe Commerce 2.2.1 issue related to the orders not being displayed in the Orders grid in the Commerce Admin."
 ---
+
+# Orders not displayed in the Orders grid in the Admin
 
 This article provides a patch for the known Adobe Commerce 2.2.1 issue related to the orders not being displayed in the Orders grid in the Commerce Admin.
 

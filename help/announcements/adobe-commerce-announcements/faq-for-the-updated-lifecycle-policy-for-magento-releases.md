@@ -1,7 +1,10 @@
 ---
 title: FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases
 labels: 2.3.6,2.3.x,2.4,Elasticsearch,QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,announcements,lifecycle,patches,quality,security,support,upgrade,Adobe Commerce,cloud infrastructure
+description: "Adobe Commerce provides quality fixes for a minor release for a minimum of 12 months from the general availability date of the next minor software release. The manner in which we provide quality fixes during this period is changing:"
 ---
+
+# FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases
 
 ## What’s changing?
 

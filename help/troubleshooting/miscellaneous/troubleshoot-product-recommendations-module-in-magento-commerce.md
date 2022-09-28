@@ -1,7 +1,10 @@
 ---
 title: Troubleshoot Product Recommendations module in Adobe Commerce
 labels: 2.3.x,2.4.x,Magento Commerce,commerce,how to,magento/product-recommendations,module,product,product-recommendations,recommendations,saas-export,Adobe Commerce,on-premises,cloud infrastructure
+description: "This article talks about troubleshooting suggestions for the"
 ---
+
+# Troubleshoot Product Recommendations module in Adobe Commerce
 
 This article talks about troubleshooting suggestions for the
 
@@ -54,7 +57,7 @@ saas-export
 
 1. Confirm the [cron](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html) (in our developer documentation) jobs are running.
 1. Confirm the [indexers](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html) (in our developer documentation) are running and the    ```php    Product Feed    ```    indexer is set to    ```php    Update by Schedule    ```    .
-1. Confirm the modules are enabled. The    ```php    saas-export    ```    metapackage installs the following modules, all of which must be enabled:    ```php    "magento/module-catalog-data-exporter"      "magento/module-catalog-inventory-data-exporter"      "magento/module-catalog-url-rewrite-data-exporter"      "magento/module-configurable-product-data-exporter"      "magento/module-data-exporter"      "magento/module-saas-catalog"    ```    
+1. Confirm the modules are enabled. The    ```php    saas-export    ```    metapackage installs the following modules, all of which must be enabled:    ```php    "magento/module-catalog-data-exporter"      "magento/module-catalog-inventory-data-exporter"      "magento/module-catalog-url-rewrite-data-exporter"      "magento/module-configurable-product-data-exporter"      "magento/module-data-exporter"      "magento/module-saas-catalog"    ```
 1. Check the [logs](https://devdocs.magento.com/guides/v2.3/config-guide/cli/logging.html) (in our developer documentation). Make sure there are no errors associated with the above modules.
 1. Refresh Configuration cache. Go to **System** > **Tools** > **Cache Management** , and clear the configuration cache.
 1. Confirm there is data in the    ```php    catalog_data_exporter_products    ```    database table.

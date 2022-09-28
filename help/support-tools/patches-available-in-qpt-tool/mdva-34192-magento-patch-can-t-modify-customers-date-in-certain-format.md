@@ -1,7 +1,10 @@
 ---
 title: "MDVA-34192 patch: can't modify customers date in certain format"
 labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,QPT 1.0.16,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,date of birth,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Commerce,Magento Open Source
+description: "The MDVA-34192 patch fixes the issue where it is impossible to modify/specify customer date of birth using dd/mm/yyyy format. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---
+
+# MDVA-34192 patch: can't modify customers date in certain format
 
 The MDVA-34192 patch fixes the issue where it is impossible to modify/specify customer date of birth using dd/mm/yyyy format. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 

@@ -1,7 +1,10 @@
 ---
 title: Adobe Commerce 2.4.1 Vertex Address validation message post address update
 labels: 2.4.1,Magento Commerce,Magento Commerce Cloud,Vertex,billing,shipping,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
+description: "This article describes a known Adobe Commerce 2.4.1 issue where Vertex address validation is not working during Payment step when a shipping address is used that is different to the billing address. The issue is scheduled to be fixed in Adobe Commerce 2.4.2."
 ---
+
+# Adobe Commerce 2.4.1 Vertex Address validation message post address update
 
 This article describes a known Adobe Commerce 2.4.1 issue where Vertex address validation is not working during Payment step when a shipping address is used that is different to the billing address. The issue is scheduled to be fixed in Adobe Commerce 2.4.2.
 
