@@ -1,10 +1,7 @@
 ---
 title: "MDVA-31224 patch: Product price reindex takes too long"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,price,product,reindex,support tools,time,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-31224 patch solves the issue when product price reindex takes too long to complete or never completes. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.7 is installed."
 ---
-
-# MDVA-31224 patch: Product price reindex takes too long
 
 The MDVA-31224 patch solves the issue when product price reindex takes too long to complete or never completes. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.7 is installed.
 
@@ -25,7 +22,7 @@ Product price reindex takes too long to complete or never completes.
 
 1. Create 6000 bundled products with 15 options.
 1. Create 1 bundled product with 30 options.
-1. Run price reindex from CLI:     `bin/magento indexer:reindex catalog_product_price`
+1. Run price reindex from CLI:     `bin/magento indexer:reindex catalog_product_price`     
 
  <span class="wysiwyg-underline">Expected results:</span>
 

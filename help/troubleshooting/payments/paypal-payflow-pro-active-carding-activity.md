@@ -1,10 +1,7 @@
 ---
 title: PayPal Payflow Pro active carding activity
 labels: 2.1.x,2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,PayPal,carding,payflow,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "UPDATED 2 April 2019"
 ---
-
-# PayPal Payflow Pro active carding activity
 
 UPDATED 2 April 2019
 
@@ -63,17 +60,17 @@ bin/magento cache:clean
 
 **For Adobe Commerce on cloud infrastructure:**
 
-1. Run the following command:
+1. Run the following command:    
 
     ```bash
     composer require magento/module-paypal-recaptcha
     ```
 
-1. Commit and push changes:
+1. Commit and push changes:    
 
     ```bash
     git add -A && git commit -m "Install Google reCAPTCHA"    git push origin %branch_name%
-    ```
+    ```   
 
 1. Wait for deployment to complete.
 
@@ -94,13 +91,13 @@ bin/magento cache:clean
 
 **For Adobe Commerce on cloud infrastructure:**
 
-1. Run the following command:
+1. Run the following command:    
 
     ```bash
     composer require magento/module-paypal-captcha
     ```
 
-1. Commit and push changes:
+1. Commit and push changes:    
 
     ```bash
     git add -A && git commit -m "Install CAPTCHA"    git push origin %branch_name%

@@ -1,10 +1,7 @@
 ---
 title: PHP settings errors
 labels: PHP,error,how to,large forms,memory,settings,xdebug,Adobe Commerce
-description: "This article provides solutions for PHP settings errors."
 ---
-
-# PHP settings errors
 
 This article provides solutions for PHP settings errors.
 
@@ -15,16 +12,16 @@ The readiness checks makes sure you have at least 1GB of memory set aside for PH
 To increase your PHP memory limit:
 
 1. Log in to your Adobe Commerce server.
-1. Locate your `php.ini` file using the following command:    ```bash    $ php --ini    ```
-1. As a user with `root` privileges, use a text editor to open the `php.ini` specified by `Loaded Configuration File`.
+1. Locate your `php.ini` file using the following command:    ```bash    $ php --ini    ```    
+1. As a user with `root` privileges, use a text editor to open the `php.ini` specified by `Loaded Configuration File`.    
 1. Locate `memory_limit`.
 1. Change it to a value of `2GB` for normal use and debugging.
 1. Save your changes to `php.ini` and exit the text editor.
-1. Restart your web server. Examples follow:
+1. Restart your web server. Examples follow:    
     * CentOS: `service httpd restart`
     * Ubuntu: `service apache2 restart`
     * nginx (both CentOS and Ubuntu): `service nginx restart`
-1. Try the installation again.
+1. Try the installation again.    
 
 ## max-input-vars error due to large forms
 

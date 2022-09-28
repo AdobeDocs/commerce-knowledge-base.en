@@ -1,11 +1,8 @@
 ---
 title: Admin 2FA email notifications not being received
 labels: troubleshooting,SendGrid,email,Adobe Commerce,cloud infrastructure,2FA,Admin,notifications,Magento
-description: "This article provides troubleshooting when you aren't receiving the email with the setup completion instructions after you have set up Two-Factor Authentication (2FA) in order to enhance Admin access security in Adobe Commerce on cloud infrastructure."
 ---
-
-# Admin 2FA email notifications not being received
-
+This article provides troubleshooting when you aren't receiving the email with the setup completion instructions after you have set up Two-Factor Authentication (2FA) in order to enhance Admin access security in Adobe Commerce on cloud infrastructure.
 
 ## Affected products and versions
 

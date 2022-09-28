@@ -1,10 +1,7 @@
 ---
 title: Deployment fails Fastly module incompatible Adobe Commerce version
 labels: troubleshooting,Fastly,deployment,Deployment fails,Magento Commerce 2.1.X,Magento Commerce Cloud 2.1.X,Fastly module 1.2.79,Adobe Commerce,cloud infrastructure,on-premises
-description: "UPDATED: February 29, 2019"
 ---
-
-# Deployment fails Fastly module incompatible Adobe Commerce version
 
 UPDATED: February 29, 2019
 
@@ -60,7 +57,7 @@ Upgrade the Fastly module to version 1.2.82 or higher.
 To do this, take the following steps:
 
 1. Execute one of  the following commands:
-    * if the Fastly module is included to the magento-cloud-metapackage:    <pre>composer update magento/magento-cloud-metapackage</pre>
-    * if the Fastly module was installed separately (for example, in case you are using Adobe Commerce on-premises, not the cloud edition) <pre>composer update fastly/magento2</pre>
+    * if the Fastly module is included to the magento-cloud-metapackage:    <pre>composer update magento/magento-cloud-metapackage</pre>    
+    * if the Fastly module was installed separately (for example, in case you are using Adobe Commerce on-premises, not the cloud edition) <pre>composer update fastly/magento2</pre>    
 1. Commit and push the changes, and trigger the deployment process if it is not done automatically.
 1. In the Admin, [upload the new VCL to Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).

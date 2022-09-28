@@ -1,10 +1,7 @@
 ---
 title: Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5
 labels: 2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,Magento Commerce,Magento Commerce Cloud,Magento_Wishlist,error,known issues,upgrade,wishlist,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a fix for the known issue when upgrading to Adobe Commerce versions 2.3.4-p1 and 2.3.5 related to a wishlist error during the upgrade to these versions."
 ---
-
-# Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5
 
 This article provides a fix for the known issue when upgrading to Adobe Commerce versions 2.3.4-p1 and 2.3.5 related to a wishlist error during the upgrade to these versions.
 
@@ -51,7 +48,7 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 In our developer documentation:
 
 * [Adobe Commerce on cloud infrastructure guide](https://devdocs.magento.com/cloud/bk-cloud.html)
-* [Adobe Commerce on cloud infrastructure - Upgrade Adobe Commerce version](https://devdocs.magento.com/cloud/project/project-upgrade.html)
-* [Adobe Commerce on-premises And Magento Open Source - Upgrade the Adobe Commerce application and modules](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
-* [Wishlist item configure page](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
-* [Modules providing advanced reporting](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)
+* [Adobe Commerce on cloud infrastructure - Upgrade Adobe Commerce version](https://devdocs.magento.com/cloud/project/project-upgrade.html)  
+* [Adobe Commerce on-premises And Magento Open Source - Upgrade the Adobe Commerce application and modules](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)  
+* [Wishlist item configure page](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)  
+* [Modules providing advanced reporting](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)  

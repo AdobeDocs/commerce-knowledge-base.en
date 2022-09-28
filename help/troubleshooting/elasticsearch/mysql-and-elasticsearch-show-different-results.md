@@ -1,10 +1,7 @@
 ---
 title: MySQL and ElasticSearch show different results
 labels: 2.2.3,2.2.6,Magento Commerce,Magento Commerce Cloud,known issues,patch,search,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: ">![warning]"
 ---
-
-# MySQL and ElasticSearch show different results
 
 >![warning]
 >

@@ -1,10 +1,7 @@
 ---
 title: Drop shipping picks up wrong address
 labels: 2.3.x,Inventory,Magento Commerce,Magento Commerce Cloud,shipping,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
-description: "The shipping solution does not pick up the address of the product's source."
 ---
-
-# Drop shipping picks up wrong address
 
 ## Issue
 

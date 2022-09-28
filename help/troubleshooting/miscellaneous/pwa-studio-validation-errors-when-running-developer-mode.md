@@ -1,10 +1,7 @@
 ---
 title: "PWA Studio: Validation errors when running developer mode"
 labels: PWA Studio,Venia,environment variables,errors,how to,validation,Adobe Commerce,PWA Studio for Adobe Commerce
-description: "This topic discusses a solution for when validation errors occur when running developer mode in Progressive Web App (PWA) Studio for Adobe Commerce as a result of not previously creating the venia-concept (Venia is a PWA storefront.) environment file. This file will hold the variables for your local development environment."
 ---
-
-# PWA Studio: Validation errors when running developer mode
 
 This topic discusses a solution for when validation errors occur when running developer mode in Progressive Web App (PWA) Studio for Adobe Commerce as a result of not previously creating the venia-concept (Venia is a PWA storefront.) environment file. This file will hold the variables for your local development environment.
 
@@ -24,11 +21,11 @@ This topic discusses a solution for when validation errors occur when running de
 
  <ins>Actual result</ins>:
 
-* You see validation errors, which may look similar to:
+* You see validation errors, which may look similar to:    
 
 ```clike
-    ⓧ  Missing required environment variables:         MAGENTO_BACKEND_URL: Connect to an instance of Adobe Commerce 2.3 by specifying its public domain name. (eg.         "https://master-7rqtwti-mfwmkrjfqvbjk.us-4.magentosite.cloud/")      ⚠  No .env file in ./packages/venia-concept. Autogenerate a .env file by running the command 'buildpack         create-env-file ./packages/venia-concept'.
-```
+    ⓧ  Missing required environment variables:         MAGENTO_BACKEND_URL: Connect to an instance of Adobe Commerce 2.3 by specifying its public domain name. (eg.         "https://master-7rqtwti-mfwmkrjfqvbjk.us-4.magentosite.cloud/")      ⚠  No .env file in ./packages/venia-concept. Autogenerate a .env file by running the command 'buildpack         create-env-file ./packages/venia-concept'.    
+```    
 
 ## Cause
 

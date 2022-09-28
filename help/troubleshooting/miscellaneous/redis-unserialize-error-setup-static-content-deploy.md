@@ -1,10 +1,7 @@
 ---
 title: Redis unserialize error `setup:static-content:deploy`
 labels: Magento Commerce,Magento Commerce Cloud,Redis,troubleshooting,unserialize error,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a fix for the Redis unserialize error when running `magento setup:static-content:deploy`."
 ---
-
-# Redis unserialize error `setup:static-content:deploy`
 
 This article provides a fix for the Redis unserialize error when running `magento setup:static-content:deploy`.
 
@@ -40,7 +37,7 @@ Running the `setup:static-content:deploy` command causes the Redis error:
 )
 [2017-06-02 19:57:59] Command:php ./bin/magento setup:static-content:deploy --jobs=3  en_US
 
-[Exception]
+[Exception]                                                                                                                        
 
 Notice: unserialize(): Error at offset 0 of 1 bytes in /app/<domain>/vendor/magento/module-config/App/Config/Type/System.php
 on line 214
@@ -58,11 +55,11 @@ read error on connection
 [Exception]
 
 Notice: unserialize(): Error at offset 0 of 1 bytes in /app/<domain>/vendor/magento/module-config/App/Config/Type/System.php
-on line 214
+on line 214                         
 
 .....
 
-[RuntimeException]
+[RuntimeException]                                                                                       
 Command php ./bin/magento setup:static-content:deploy --jobs=3  en_US  returned code 3
 ```
 

@@ -1,10 +1,7 @@
 ---
 title: "MDVA-31007: custom address attributes display"
 labels: 2.4.0,2.4.0-p1,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-31007 patch solves the issue where custom address attributes are not correctly displayed in the order details page in the My Account area and in the backend (in the **Sales > Orders** location). This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2."
 ---
-
-# MDVA-31007: custom address attributes display
 
 The MDVA-31007 patch solves the issue where custom address attributes are not correctly displayed in the order details page in the My Account area and in the backend (in the **Sales > Orders** location). This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -35,10 +32,10 @@ The MDVA-31007 patch solves the issue where custom address attributes are not co
 
 1. Navigate to **Stores** > **Configurations** > **Customer** > **Customer Configurations**.
 1. Select *Scope* as **Default Store** view.
-1. Expand the **Address Template** section. Update *Text*, *Text One Line*, and *HTML* to include the two custom attributes above:
+1. Expand the **Address Template** section. Update *Text*, *Text One Line*, and *HTML* to include the two custom attributes above:   
 
-    ```php
-    {{depend testdropdown}}Dropdown: {{var testdropdown}}{{/depend}}    {{depend testtext}}Text: {{var testtext}}{{/depend}}
+    ```php    
+    {{depend testdropdown}}Dropdown: {{var testdropdown}}{{/depend}}    {{depend testtext}}Text: {{var testtext}}{{/depend}}  
     ```
 
 1. Open Storefront.

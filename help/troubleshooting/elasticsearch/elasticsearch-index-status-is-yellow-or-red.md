@@ -1,10 +1,7 @@
 ---
 title: Elasticsearch Index Status is ‘yellow’ or 'red'
 labels: 2.2.x,2.3.x,Elasticsearch,Elasticsearch Index Status,Magento Commerce,Magento Commerce Cloud,how to,red,yellow,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: ">![warning]"
 ---
-
-# Elasticsearch Index Status is ‘yellow’ or 'red'
 
 >![warning]
 >
@@ -33,17 +30,17 @@ Create a fresh mysql dump before following these steps and perform them outside 
 1. To identify duplicated indexes run the following command:
     ```clike
     curl --silent -X GET localhost:9200/_cat/indices?v
-    ```
+    ```    
 1. To delete indexes:
     ```clike
     curl -XDELETE localhost:9200/[your_index_name_here]
-    ```
+    ```    
 1. Reenable Elasticsearch.
 1. Run full re-index.
 1. Check indexes status by running the following command:
     ```clike
     curl --silent -X GET localhost:9200/_cat/indices?v
-    ```
+    ```    
 
 If these steps don't work, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 

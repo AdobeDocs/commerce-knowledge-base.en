@@ -1,10 +1,7 @@
 ---
 title: Deployment errors from enabling early-alpha Baler module
 labels: 2.3.x,2.4.x,Baler,Javascript,Magento Commerce,Magento Commerce Cloud,deploy,deployment,deployment error,deployment fails,github,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "The merchant experiences deployment errors when using the Baler module on a production environment, as the feature is currently in the early alpha development stage."
 ---
-
-# Deployment errors from enabling early-alpha Baler module
 
 The merchant experiences deployment errors when using the Baler module on a production environment, as the feature is currently in the early alpha development stage.
 

@@ -1,10 +1,7 @@
 ---
 title: .magento.env.yaml changes not shown in env.php after deploy
 labels: .magento.env.yaml,Magento Commerce Cloud,app/etc/env.php,deploy,deployment,deployment error,env.php,environment variables,php.ini,troubleshooting,Adobe Commerce,cloud infrastructure
-description: ">![info]"
 ---
-
-# .magento.env.yaml changes not shown in env.php after deploy
 
 >![info]
 >
@@ -38,10 +35,10 @@ The issue could be caused by the incorrect value of the `opcache.enable_cli` par
 
 ## Solution
 
-1. Check that the system is configured according to [Adobe Commerce Performance Best Practices > Software recommendations](https://devdocs.magento.com/guides/v2.4/performance-best-practices/software.html).
-1. Check if `opcache.enable_cli` directive in `php.ini` is set to `0` by executing: `php -i | grep opcache.enable_cli`
-1. If the output looks like `opcache.enable_cli=1` , edit the `php.ini` file in the project root directory and change `opcache.enable_cli=1` to `opcache.enable_cli=0`
-1. Redeploy the project.
+1. Check that the system is configured according to [Adobe Commerce Performance Best Practices > Software recommendations](https://devdocs.magento.com/guides/v2.4/performance-best-practices/software.html).    
+1. Check if `opcache.enable_cli` directive in `php.ini` is set to `0` by executing: `php -i | grep opcache.enable_cli`     
+1. If the output looks like `opcache.enable_cli=1` , edit the `php.ini` file in the project root directory and change `opcache.enable_cli=1` to `opcache.enable_cli=0`     
+1. Redeploy the project.    
 
 ## Related reading
 

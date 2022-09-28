@@ -1,10 +1,7 @@
 ---
 title: How to add a new country to Adobe Commerce
 labels: Magento Commerce Cloud,add country,configuration,data,installation,module,upgrade,Adobe Commerce
-description: "This article explains how to add a country that is not present in Adobe Commerce and the Zend Locale Library. This requires code and database changes that constitute Customer Customizations under your applicable agreement terms. Please note that the example materials included in this article are provided "AS IS" without a warranty of any kind. Neither Adobe nor any affiliated entity is obligated to maintain, correct, update, change, modify, or otherwise support these materials. Here we will describe the basic principles of what needs to be done in order to achieve this."
 ---
-
-# How to add a new country to Adobe Commerce
 
 This article explains how to add a country that is not present in Adobe Commerce and the Zend Locale Library. This requires code and database changes that constitute Customer Customizations under your applicable agreement terms. Please note that the example materials included in this article are provided "AS IS" without a warranty of any kind. Neither Adobe nor any affiliated entity is obligated to maintain, correct, update, change, modify, or otherwise support these materials. Here we will describe the basic principles of what needs to be done in order to achieve this.
 
@@ -16,10 +13,10 @@ You must be familiar with Adobe Commerce module development in order to create a
 
 Please refer to the following topics in our developer documentation before attempting to create a new module:
 
-* [PHP Developer Guide](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
+* [PHP Developer Guide](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)  
 * [Module overview](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
 * [Create a New Module](https://devdocs.magento.com/videos/fundamentals/create-a-new-module/)
-* [Module configuration files](https://devdocs.magento.com/guides/v2.4/config-guide/config/config-files.html)
+* [Module configuration files](https://devdocs.magento.com/guides/v2.4/config-guide/config/config-files.html)  
 
 ## Required Information
 

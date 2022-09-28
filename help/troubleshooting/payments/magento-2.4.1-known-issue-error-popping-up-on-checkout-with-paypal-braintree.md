@@ -1,10 +1,7 @@
 ---
 title: "Adobe Commerce 2.4.1 known issue: error popping up on Checkout with PayPal Braintree"
 labels: 2.4.1,Magento Commerce,Magento Commerce Cloud,PayPal Braintree,known issues,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article describes a known Adobe Commerce 2.4.1 issue, where an error message pops-up and disappears on the Billing step of Checkout if PayPal Braintree payment is used and multiple addresses shipment selected."
 ---
-
-# Adobe Commerce 2.4.1 known issue: error popping up on Checkout with PayPal Braintree
 
 This article describes a known Adobe Commerce 2.4.1 issue, where an error message pops-up and disappears on the Billing step of Checkout if PayPal Braintree payment is used and multiple addresses shipment selected.
 

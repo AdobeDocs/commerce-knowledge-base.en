@@ -1,10 +1,7 @@
 ---
 title: Troubleshoot upgrade compatibility tool errors
 labels: troubleshooting,upgrade compatibility tool,uct,upgrade,adobe commerce
-description: "This article explains errors you may experience while using the Upgrade Compatibility Tool and provides solutions to fix those errors so that you can successfully execute the tool."
 ---
-
-# Troubleshoot upgrade compatibility tool errors
 
 This article explains errors you may experience while using the Upgrade Compatibility Tool and provides solutions to fix those errors so that you can successfully execute the tool.
 

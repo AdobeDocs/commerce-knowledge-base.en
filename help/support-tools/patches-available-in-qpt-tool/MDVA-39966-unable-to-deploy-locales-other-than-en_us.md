@@ -1,10 +1,7 @@
 ---
 title: "MDVA-39966: Unable to deploy locales other than en_US"
 labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,Magento,Adobe Commerce,on-premises,cloud infrastructure,deployment,locales,QPT 1.1.2,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1
-description: "The MDVA-39966 patch solves the issue where the user is unable to deploy locales other than en_US. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39966. Please note that the issue was fixed in Adobe Commerce version 2.4.1."
 ---
-
-# MDVA-39966: Unable to deploy locales other than en_US
 
 The MDVA-39966 patch solves the issue where the user is unable to deploy locales other than en_US. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39966. Please note that the issue was fixed in Adobe Commerce version 2.4.1.
 
@@ -43,8 +40,8 @@ de_DE locale is deployed.
 bin/magento setup:static-content:deploy --language=de_DE
 
 Deploy using quick strategy
-adminhtml/Magento/backend/de_DE         2416/2416           ============================ 100%   9 secs
-frontend/Magento/blank/de_DE            2486/2486           ============================ 100%   7 secs
+adminhtml/Magento/backend/de_DE         2416/2416           ============================ 100%   9 secs              
+frontend/Magento/blank/de_DE            2486/2486           ============================ 100%   7 secs              
 frontend/Magento/luma/de_DE             2504/2504           ============================ 100%   8 secs
 
 Execution time: 27.062166929245
@@ -57,8 +54,8 @@ en_US locale deployed instead of de_DE:
 bin/magento setup:static-content:deploy --language=de_DE
 
 Deploy using quick strategy
-adminhtml/Magento/backend/en_US         2416/2416           ============================ 100%   2 secs
-frontend/Magento/blank/en_US            2486/2486           ============================ 100%   1 sec
+adminhtml/Magento/backend/en_US         2416/2416           ============================ 100%   2 secs              
+frontend/Magento/blank/en_US            2486/2486           ============================ 100%   1 sec               
 frontend/Magento/luma/en_US             2504/2504           ============================ 100%   2 secs
 ```
 ## Apply the patch

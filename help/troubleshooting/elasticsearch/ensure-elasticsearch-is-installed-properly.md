@@ -1,10 +1,7 @@
 ---
 title: Ensure Elasticsearch is installed properly
 labels: 2.2.3,2.2.4,2.2.5,2.2.6,2.2.7,2.2.8,2.2.9,2.3.0,2.3.1,Elasticsearch 2.x,Elasticsearch 5.x,Elasticsearch 6.x,Elasticsearch configuration,Elasticsearch version,Magento Commerce,Magento Commerce Cloud,how to,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
-description: "This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration."
 ---
-
-# Ensure Elasticsearch is installed properly
 
 This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration.
 
@@ -34,7 +31,7 @@ The following symptoms indicate Elasticsearch is not configured correctly:
     ```clike
     [YYYY-MM-DD HH:MM:SS] CRITICAL: Fix configuration with given suggestions:    - Elasticsearch version #<version> is not compatible with current version of magento    Upgrade elasticsearch version to ~5.0
     ```
-Where *version* is the Elasticsearch Service running on the cloud environment.
+Where *version* is the Elasticsearch Service running on the cloud environment.    
 
 ## Cause
 

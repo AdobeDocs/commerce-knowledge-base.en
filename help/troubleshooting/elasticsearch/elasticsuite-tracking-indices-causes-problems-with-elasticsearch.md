@@ -1,10 +1,7 @@
 ---
 title: ElasticSuite tracking indices causes problems with Elasticsearch
 labels: ElasticSuite 2.8.0,Elasticsearch problem,ElasticSuite tracking indices,how to,tracking indices,Adobe Commerce
-description: ">![info]"
 ---
-
-# ElasticSuite tracking indices causes problems with Elasticsearch
 
 >![info]
 >
@@ -36,7 +33,7 @@ ElasticSuite has a new feature that creates tracking indices. These tracking ind
 
 ### Upgrade your ElasticSuite version to be able to cleanup tracking indices periodically
 
-Once you have upgraded the ElasticSuite plugin to version higher than 2.8.0, you can configure a periodical cleaning of indices.
+Once you have upgraded the ElasticSuite plugin to version higher than 2.8.0, you can configure a periodical cleaning of indices. 
 
 Go to **Stores** > **Configuration** > **Tracking** > **Global Configuration** > **Retention Delay**
 
@@ -46,7 +43,7 @@ The default retention period is 365 days. You can reduce it to 30 or 15 days.
 
 Once you have upgraded the ElasticSuite plugin to version > 2.9.8 / 2.10.7, tracking indices will be monthly based.
 
-You can still reduce the retention period :
+You can still reduce the retention period : 
 
 Go to **Stores** > **Configuration** > **Tracking** > **Global Configuration** > **Retention Delay**
 

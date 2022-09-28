@@ -1,10 +1,7 @@
 ---
 title: Live Search displays out-of-stock products regardless of stock status settings in admin
 labels: 2.4.x,Magento Commerce,Magento Commerce Cloud,Live Search,error,known issues,PLP,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides information on the known issue where the Product Listing Page (PLP) shows the *We can’t find products matching the selection* error while the search popover returns some items."
 ---
-
-# Live Search displays out-of-stock products regardless of stock status settings in admin
 
 This article provides information on the known issue where the Product Listing Page (PLP) shows the *We can’t find products matching the selection* error while the search popover returns some items.
 

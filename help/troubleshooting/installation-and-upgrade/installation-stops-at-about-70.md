@@ -1,10 +1,7 @@
 ---
 title: Installation stops at about 70%
 labels: Magento Commerce,PHP,Varnish,how to,installation,php.ini,wizard
-description: "This article provides a fix for when installation stops at about 70%."
 ---
-
-# Installation stops at about 70%
 
 This article provides a fix for when installation stops at about 70%.
 
@@ -30,11 +27,11 @@ Set all of the following as appropriate.
 1. Locate the `max_execution_time` setting.
 1. Change its value to `18000` .
 1. Save your changes to `php.ini` and exit the text editor.
-1. Restart Apache:
+1. Restart Apache:    
     * CentOS: `service httpd restart`
     * Ubuntu: `service apache2 restart`
 
-    If you use nginx or Varnish, continue with the following sections.
+    If you use nginx or Varnish, continue with the following sections.    
 
 <h4 id="nginx-only">nginx only</h4>
 

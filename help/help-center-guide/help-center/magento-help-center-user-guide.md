@@ -1,16 +1,13 @@
 ---
 title: Adobe Commerce Help Center User Guide
 labels: Magento,help center,how to,shared access,shared account,support ticket,user guide,knowledge base,DevDocs,search articles,Help Center Login,submit tickets,Magento help center,Magento P1 hotline,Magento Account page,Magento cloud account page,track tickets,ticket status,resolve ticket,follow-up ticket,delete shared access,access shared account,switch accounts,ticketing system,my tickets,articles categories,Adobe Commerce
-description: "Learn how to submit a support ticket to the Adobe Commerce Help Center, provide shared access to accounts, and navigate the Adobe Commerce Knowledge Base."
 ---
-
-# Adobe Commerce Help Center User Guide
 
 Learn how to submit a support ticket to the Adobe Commerce Help Center, provide shared access to accounts, and navigate the Adobe Commerce Knowledge Base.
 
 **Major Update:** July 17, 2020
 
-**[WHAT IS ADOBE COMMERCE HELP CENTER?](#what-is)**
+**[WHAT IS ADOBE COMMERCE HELP CENTER?](#what-is)**  
 
 **[KNOWLEDGE BASE](#kb)**
 
@@ -160,7 +157,7 @@ You **must log in** to the Help Center using your Magento Account in order to su
 To submit a new support ticket using your Magento Account page, follow these steps:
 
 1. Log in to your Magento Account. See [detailed instructions](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html) in our user guide.
-1. Click the **Support** tab.
+1. Click the **Support** tab.    
 
     <img src= "assets/magento_account_support_tab.png" alt = "magento_account_support_tab" width = "800px">
 1. The Help Center start page loads for you.
@@ -243,7 +240,7 @@ You won't be able to submit a support ticket if you receive the *Please verify y
 
 The solution is to validate your email address:
 
-1. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below.
+1. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below.   
 
     <img src = "assets/Validate_Email_Solution.png" alt = "Validate_Email_Solution" width="800px">
 
@@ -357,8 +354,8 @@ You may add emails of the persons who do not have a Magento Account or a Zendesk
 To add several emails to CC:
 
 1. Enter the email.
-1. Press *Space* on your keyboard to save the entered email. The email appears in a gray frame.
-    ![hc_cc_emails.png](assets/hc_cc_emails.png)
+1. Press *Space* on your keyboard to save the entered email. The email appears in a gray frame.    
+    ![hc_cc_emails.png](assets/hc_cc_emails.png)    
 1. Start typing the next email.
 1. Save all other emails by pressing *Space*.
 
@@ -508,10 +505,10 @@ To add a comment to the conversation, follow these steps:
 1. Scroll to the bottom of your ticket.
 1. Click the **Add to conversation** field to start writing.
 
-    ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)
+    ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)    
 1. To add a person to your comment, specify the email in the **CC** field of the comment field.
 
-    ![hc_conversation-write.png](assets/hc_conversation-write.png)
+    ![hc_conversation-write.png](assets/hc_conversation-write.png)    
 1. Once you are finished with your comment, click **Submit**.
 
 <h3 id="resolve-ticket">Resolve your ticket</h3>

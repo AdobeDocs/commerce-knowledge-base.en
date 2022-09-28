@@ -1,10 +1,7 @@
 ---
 title: "MDVA-23764 Magento patch: error when loading dynamic blocks"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,dynamic block,support tools
-description: "The MDVA-23764 Magento patch fixes the bug in"
 ---
-
-# MDVA-23764 Magento patch: error when loading dynamic blocks
 
 The MDVA-23764 Magento patch fixes the bug in
 
@@ -26,15 +23,15 @@ that affects the display of dynamic blocks. This patch is available when the [Qu
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <span class="wysiwyg-underline">Steps to reproduce:</span> 
 
 Try to load a URL that looks like following: https://\[magento domain\]/banner/ajax/load/.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <span class="wysiwyg-underline">Actual result:</span> 
 
 An error similar to the following is thrown: *Uncaught TypeError: strpos() expects parameter 1 to be string, null given in...(line of code)* .
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <span class="wysiwyg-underline">Expected result:</span> 
 
 URL is loaded without errors.
 

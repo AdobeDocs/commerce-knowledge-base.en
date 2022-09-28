@@ -1,10 +1,7 @@
 ---
 title: Whitepaper - Delivering commerce experiences at scale
 labels: Whitepaper,Delivering commerce experiences at scale,Adobe Commerce,cloud infrastructure,Adobe Experience Manager,Commerce Integration Framework,glass,headless,AEM,CIF,Adobe Experience Cloud
-description: "There is great value integrating the strengths of Adobe Experience Manager (AEM), Commerce Integration Framework (CIF), and Adobe Commerce."
 ---
-
-# Whitepaper - Delivering commerce experiences at scale
 
 There is great value integrating the strengths of Adobe Experience Manager (AEM), Commerce Integration Framework (CIF), and Adobe Commerce.
 

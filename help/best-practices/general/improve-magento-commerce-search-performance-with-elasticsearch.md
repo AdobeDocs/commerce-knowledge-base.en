@@ -1,10 +1,7 @@
 ---
 title: Improve Adobe Commerce search performance with Elasticsearch
 labels: 2.x.x,Elasticsearch,Magento Commerce,MySQL,best practices,bottleneck,memory,performance,search,Adobe Commerce
-description: ">![warning]"
 ---
-
-# Improve Adobe Commerce search performance with Elasticsearch
 
 >![warning]
 >

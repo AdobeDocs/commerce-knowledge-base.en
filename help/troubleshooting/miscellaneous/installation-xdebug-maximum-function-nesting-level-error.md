@@ -1,10 +1,7 @@
 ---
 title: Installation xdebug maximum function nesting level error
 labels: Magento Commerce,PHP Fatal Error,how to,level,nesting,xdebug,Adobe Commerce
-description: "This article provides a fix for the xdebug maximum function nesting level error during installation."
 ---
-
-# Installation xdebug maximum function nesting level error
 
 This article provides a fix for the xdebug maximum function nesting level error during installation.
 

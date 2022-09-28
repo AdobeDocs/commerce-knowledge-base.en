@@ -1,10 +1,7 @@
 ---
 title: Adobe Commerce GDPR resources
 labels: 1.x,2.x.x,FAQ,GDPR,data,devdocs,Adobe Commerce,on-premises,cloud infrastructure,Magento Commerce
-description: "This article lists the official documentation resources that discuss how Adobe Commerce complies with the GDPR (European Union's General Data Protection Regulation)."
 ---
-
-# Adobe Commerce GDPR resources
 
 This article lists the official documentation resources that discuss how Adobe Commerce complies with the GDPR (European Union's General Data Protection Regulation).
 
@@ -20,7 +17,7 @@ The [official homepage](https://magento.com/gdpr) for all Adobe Commerce GDPR re
 ## GDPR compliance in our developer documentation: Adobe Commerce 2.X and 1.X
 
 * [Adobe Commerce 2.x GDPR compliance](https://devdocs.magento.com/guides/v2.2/architecture/gdpr/magento-2x.html)
-* [Adobe Commerce 1.x GDPR compliance](https://devdocs.magento.com/guides/v2.2/architecture/gdpr/magento-1x.html)
+* [Adobe Commerce 1.x GDPR compliance](https://devdocs.magento.com/guides/v2.2/architecture/gdpr/magento-1x.html)     
 
 These Adobe Commerce developer documentation topics provide data flow diagrams and database information that helps Merchants and System Integrators to resolve use cases similar to the following:
 

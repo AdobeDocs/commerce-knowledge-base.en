@@ -1,10 +1,7 @@
 ---
 title: Change Admin password on Adobe Commerce on cloud infrastructure
 labels: ADMIN_PASSWORD,Magento Commerce Cloud,admin password,how to,user,Adobe Commerce,cloud infrastructure
-description: "![login_panel_s.png](assets/login_panel_s.png)"
 ---
-
-# Change Admin password on Adobe Commerce on cloud infrastructure
 
 ## Method 1: Forgot Your Password (reset via email)
 

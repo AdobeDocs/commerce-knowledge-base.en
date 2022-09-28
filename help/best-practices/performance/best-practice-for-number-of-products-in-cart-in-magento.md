@@ -1,10 +1,7 @@
 ---
 title: Best practice for number of products in cart in Adobe Commerce
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,cart,minicart,products,Adobe Commerce,on-premises
-description: "This article provides best practices for the number of products in a cart in Adobe Commerce. The maximum recommended number of products is 100."
 ---
-
-# Best practice for number of products in cart in Adobe Commerce
 
 This article provides best practices for the number of products in a cart in Adobe Commerce. The maximum recommended number of products is 100.
 

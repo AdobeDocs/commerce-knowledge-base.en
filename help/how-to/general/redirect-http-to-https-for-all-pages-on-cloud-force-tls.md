@@ -1,10 +1,7 @@
 ---
 title: Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastructure (Force TLS)
 labels: 1.2.4,2.1,2.1.4,Fastly,Magento Commerce Cloud,Pro,Starter,TLS,cloud,how to,redirect,routes.yaml,security,Adobe Commerce,cloud infrastructure
-description: "Activate the Fastly's **Force TLS** functionality in the Commerce Admin to enable the global HTTP to HTTPS redirect for all pages of your Adobe Commerce on cloud infrastructure store."
 ---
-
-# Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastructure (Force TLS)
 
 Activate the Fastly's **Force TLS** functionality in the Commerce Admin to enable the global HTTP to HTTPS redirect for all pages of your Adobe Commerce on cloud infrastructure store.
 
@@ -18,9 +15,9 @@ In this step, we define the secure URLs for the store. If that's already done, g
 
 1. Log in to the Commerce Admin.
 1. Navigate to **Stores** > **Configuration** > **General** > **Web**.
-1. Expand the **Base URLs (Secure)** section.    ![magento-admin_base-urls-secure.png](assets/magento-admin_base-urls-secure.png)
+1. Expand the **Base URLs (Secure)** section.    ![magento-admin_base-urls-secure.png](assets/magento-admin_base-urls-secure.png)    
 1. In the **Secure Base URL** field, specify the HTTPS URL of your store.
-1. Set the **Use Secure URLs on Storefront** and the **Use Secure URLs on Admin** settings to **Yes**.    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
+1. Set the **Use Secure URLs on Storefront** and the **Use Secure URLs on Admin** settings to **Yes**.    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)    
 1. Click **Save config** in the upper-right corner to apply changes.
 
  **Related documentation in our user guide:**   [Store URLs](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html).
@@ -29,9 +26,9 @@ In this step, we define the secure URLs for the store. If that's already done, g
 
 1. In the Commerce Admin, navigate to **Stores** > **Configuration** > **Advanced** > **System**.
 1. Expand the **Full Page Cache** section, then **Fastly Configuration**, then **Advanced Configuration**.
-1. Click the **Force TLS** button.    ![magento-admin_force-tls-button.png](assets/magento-admin_force-tls-button.png)
-1. In the dialog that appears, click **Upload**.    ![magento-admin_force-tls-confirmation-dialog.png](assets/magento-admin_force-tls-confirmation-dialog.png)
-1. After the dialog closes, make sure the current state of Force TLS is displayed as **enabled**.    ![magento-admin_force-tls-enabled.png](assets/magento-admin_force-tls-enabled.png)
+1. Click the **Force TLS** button.    ![magento-admin_force-tls-button.png](assets/magento-admin_force-tls-button.png)    
+1. In the dialog that appears, click **Upload**.    ![magento-admin_force-tls-confirmation-dialog.png](assets/magento-admin_force-tls-confirmation-dialog.png)    
+1. After the dialog closes, make sure the current state of Force TLS is displayed as **enabled**.    ![magento-admin_force-tls-enabled.png](assets/magento-admin_force-tls-enabled.png)    
 
  **Related Fastly documentation:**   [Force TLS guide](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/FORCE-TLS.md) for Adobe Commerce 2.
 

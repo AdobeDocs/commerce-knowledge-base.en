@@ -1,10 +1,7 @@
 ---
 title: "MDVA-34189: Visual merchandiser runs long MySQL queries"
 labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,MySQL,Site-Wide Analysis Tool,Visual Merchandiser,catalog,category,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Commerce,Magento Open Source
-description: "The MDVA-34189 patch solves the issue where Adobe Commerce executes large Visual Merchandiser queries when loading the Admin category page."
 ---
-
-# MDVA-34189: Visual merchandiser runs long MySQL queries
 
 The MDVA-34189 patch solves the issue where Adobe Commerce executes large Visual Merchandiser queries when loading the Admin category page.
 

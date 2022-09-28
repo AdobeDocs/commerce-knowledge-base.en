@@ -1,10 +1,7 @@
 ---
 title: Do I need Fastly for a Headless Adobe Commerce site?
 labels: DDOS,FAQ,Fastly,Magento,Magento Commerce Cloud,Pro,SSL,Starter,WAF,headless,production,staging,Adobe Commerce,cloud infrastructure
-description: ">![info]"
 ---
-
-# Do I need Fastly for a Headless Adobe Commerce site?
 
 >![info]
 >
@@ -19,7 +16,7 @@ I am developing a headless implementation of Adobe Commerce. Do I still need to 
 No, you don't. In this situation, you may skip using Fastly — at least, in the beginning of development.
 
 >
->The only situation you may not want to enable is for a headless deployment.
+>The only situation you may not want to enable is for a headless deployment.  
 See [Cloud for Adobe Commerce > Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) in our developer documentation.
 
 Still, most probably, you will need Fastly for using its SSL certificate.

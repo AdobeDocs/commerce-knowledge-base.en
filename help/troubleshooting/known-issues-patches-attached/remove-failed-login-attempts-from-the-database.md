@@ -1,10 +1,7 @@
 ---
 title: Remove failed login attempts from the database
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,database,failed login,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: ">![info]"
 ---
-
-# Remove failed login attempts from the database
 
 >![info]
 >

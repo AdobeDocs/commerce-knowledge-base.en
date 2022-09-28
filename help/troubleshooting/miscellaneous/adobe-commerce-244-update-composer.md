@@ -1,10 +1,7 @@
 ---
 title: Composer plugins issues when upgrading to Adobe Commerce 2.4.4
 labels: 2.4.4,Adobe Commerce,cloud infrastructure,Magento Open Source,on-premises,composer,plugin,update
-description: "This articles provides a solution to avoid the issue with composer plugins when upgrading from Adobe Commerce 2.4.3 and erlier to Adobe Commerce 2.4.4 or higher (when future versions are released)."
 ---
-
-# Composer plugins issues when upgrading to Adobe Commerce 2.4.4
 
 This articles provides a solution to avoid the issue with composer plugins when upgrading from Adobe Commerce 2.4.3 and erlier to Adobe Commerce 2.4.4 or higher (when future versions are released).
 
@@ -45,7 +42,7 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
     Install of laminas/laminas-dependency-plugin failed
 
 
-  [ErrorException]
+  [ErrorException]                                                                                         
   require(app/etc/NonComposerComponentRegistration.php): failed to open stream: No such file or directory
 ```
 
@@ -75,5 +72,5 @@ Add the following to your `composer.json` file, depending on how you installed A
             "magento/*": true
         }
     }
-    ```
+    ```    
 After updating the `composer.json` file, run the `composer update` command and restart the upgrade process.

@@ -1,16 +1,13 @@
 ---
 title: Best practices Adobe Commerce order placement performance
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,asynchronous sending,best practices,email,orders,performance,archive,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides best practices for order processing and checkout performance for Adobe Commerce."
 ---
-
-# Best practices Adobe Commerce order placement performance
 
 This article provides best practices for order processing and checkout performance for Adobe Commerce.
 
 ## Affected products and versions
 
-* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
 * Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices
@@ -23,7 +20,7 @@ Enable the Async email notification functionality to improve the performance of 
 
 1. Go to the Commerce Admin Panel.
 1. Click on **STORES** > Settings > **Configuration**.
-1. Then go to **Sales** > **Sales Emails** > **General Settings** > **Asynchronous sending**.    ![asynchronous_sales_emails_magento_2.4.1.png](assets/asynchronous_sales_emails_magento_2.4.1.png)
+1. Then go to **Sales** > **Sales Emails** > **General Settings** > **Asynchronous sending**.    ![asynchronous_sales_emails_magento_2.4.1.png](assets/asynchronous_sales_emails_magento_2.4.1.png)    
 1. Save the config.
 
 ### Enable Order archive

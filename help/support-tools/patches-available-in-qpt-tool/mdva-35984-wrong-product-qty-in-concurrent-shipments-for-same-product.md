@@ -1,10 +1,7 @@
 ---
 title: "MDVA-35984: Wrong product Qty in concurrent shipments for same product"
 labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0.21,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,identical product,multiple concurrent shipments,product Qty,product quantity,same product,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-35984 patch fixes the issue when creating multiple concurrent shipments for the same product gives an incorrect product quantity (Qty). This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-35984. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---
-
-# MDVA-35984: Wrong product Qty in concurrent shipments for same product
 
 The MDVA-35984 patch fixes the issue when creating multiple concurrent shipments for the same product gives an incorrect product quantity (Qty). This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-35984. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -28,11 +25,11 @@ Adobe Commerce (all deployment methods) 2.4.0-2.4.2
 
 1. Create a simple product with **Qty** = *100*.
 1. Create two orders with this product.
-1. Make concurrent API calls to create shipments for both orders, like this Example:
+1. Make concurrent API calls to create shipments for both orders, like this Example:    
 
-    ```php
-    POST <host>/rest/<store_code>/V1/order/3/ship    ```    where **order id** = *3* , with a payload like:    ```php    {        "items": [            {                "order_item_id": <order_item_id>,                "qty": 1            }        ],        "tracks": [            {                "track_number": "1Y-9876543210",                "title": "United Parcel Service",                "carrier_code": "ups"            }        ]    }
-    ```
+    ```php    
+    POST <host>/rest/<store_code>/V1/order/3/ship    ```    where **order id** = *3* , with a payload like:    ```php    {        "items": [            {                "order_item_id": <order_item_id>,                "qty": 1            }        ],        "tracks": [            {                "track_number": "1Y-9876543210",                "title": "United Parcel Service",                "carrier_code": "ups"            }        ]    }    
+    ```    
 
 1. Check the product Qty in the Admin grid.
 

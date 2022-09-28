@@ -1,10 +1,7 @@
 ---
 title: Upgrade plan checklist for Adobe Commerce
 labels: Certification program,Magento Commerce,Magento Commerce Cloud,Site-Wide Analysis Tool,Upgrade Compatibility Tool,best practices,deployment,extensions,security,third-party extensions,update,upgrade,Adobe Commerce,cloud infrastructure,on-premises
-description: "Use this checklist during your annual and quarterly conversations with your eCommerce team. Many companies work from annual budgets and roadmaps. It is imperative, during these annual discussions, that you talk about your platform’s health, direction, and upgrade strategy for the year, along with how it fits into the overall goals and KPIs of the business. During quarterly conversations, make sure the annual plan you created is still aligned with your current situation or pivot if not. The goal of this Upgrade Plan Checklist is to help you plan and schedule Adobe Commerce upgrades to ensure a successful upgrade process during the year. This checklist is meant to be used by the following audiences for annual planning and quarterly review:"
 ---
-
-# Upgrade plan checklist for Adobe Commerce
 
 Use this checklist during your annual and quarterly conversations with your eCommerce team. Many companies work from annual budgets and roadmaps. It is imperative, during these annual discussions, that you talk about your platform’s health, direction, and upgrade strategy for the year, along with how it fits into the overall goals and KPIs of the business. During quarterly conversations, make sure the annual plan you created is still aligned with your current situation or pivot if not. The goal of this Upgrade Plan Checklist is to help you plan and schedule Adobe Commerce upgrades to ensure a successful upgrade process during the year. This checklist is meant to be used by the following audiences for annual planning and quarterly review:
 
@@ -46,7 +43,7 @@ Use this checklist during your annual and quarterly conversations with your eCom
 
 ▢    Early access activities:
 
-* Partner participates in [Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program)
+* Partner participates in [Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program)  
 * Review Beta release notes
 
 ▢    Agree on budget, timeline, scope.

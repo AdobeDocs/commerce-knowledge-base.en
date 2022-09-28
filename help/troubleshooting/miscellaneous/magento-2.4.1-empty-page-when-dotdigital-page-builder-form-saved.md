@@ -1,10 +1,7 @@
 ---
 title: "Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved"
 labels: 2.4.1,Magento Commerce,Magento Commerce Cloud,Safari,blank,dotdigital,form,known issues,page builder,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a workaround for a known issue in Adobe Commerce 2.4.1 for showing an empty webpage after saving a dotdigital Page Builder form in the Admin Panel when using the Safari browser."
 ---
-
-# Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved
 
 This article provides a workaround for a known issue in Adobe Commerce 2.4.1 for showing an empty webpage after saving a dotdigital Page Builder form in the Admin Panel when using the Safari browser.
 

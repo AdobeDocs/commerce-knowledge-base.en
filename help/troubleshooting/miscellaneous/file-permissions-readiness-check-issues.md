@@ -1,10 +1,7 @@
 ---
 title: File permissions readiness check issues
 labels: File,Magento Commerce,Magento Commerce Cloud,check,how to,permissions,readiness,web setup wizard,Adobe Commerce,cloud infrastructure
-description: "This article provides a fix for file permissions readiness check issues. Directories in the Adobe Commerce file system must be writable by the web server user and the Adobe Commerce file system owner, if applicable. An error similar to the following displays in the Web Setup Wizard if your permissions are not set properly:"
 ---
-
-# File permissions readiness check issues
 
 This article provides a fix for file permissions readiness check issues. Directories in the Adobe Commerce file system must be writable by the web server user and the Adobe Commerce file system owner, if applicable. An error similar to the following displays in the Web Setup Wizard if your permissions are not set properly:
 

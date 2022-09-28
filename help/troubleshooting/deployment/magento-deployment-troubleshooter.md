@@ -1,10 +1,7 @@
 ---
 title: Adobe Commerce deployment troubleshooter
 labels: Troubleshooter,deploy,deployment,deployment error,deployment fails,stuck deployment,Adobe Commerce,cloud infrastructure
-description: "<div class="zd-accordion">"
 ---
-
-# Adobe Commerce deployment troubleshooter
 
 <div class="zd-accordion">
 <div id="zd-accordion-1" class="zd-accordion-panel">

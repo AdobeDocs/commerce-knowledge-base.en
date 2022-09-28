@@ -1,10 +1,7 @@
 ---
 title: "MDVA-27456: Users get an error when loading Swagger"
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.6,Adobe Commerce,cloud infrastructure,on-premises,Swagger,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7
-description: "The MDVA-27456 patch fixes the issue where users get an error when trying to load Swagger. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-27456. Please note that the issue was fixed in Adobe Commerce 2.3.7."
 ---
-
-# MDVA-27456: Users get an error when loading Swagger
 
 The MDVA-27456 patch fixes the issue where users get an error when trying to load Swagger. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-27456. Please note that the issue was fixed in Adobe Commerce 2.3.7.
 
@@ -45,7 +42,7 @@ Users get the following error: *Failed to load API definition*. Error log contai
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
 
 ## Related reading
 

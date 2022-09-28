@@ -1,10 +1,7 @@
 ---
 title: "Composer update fail on Adobe Commerce: Incompatible argument type"
 labels: troubleshooting,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,symfony,Magento,Adobe Commerce,composer,Magento Open Source,on-premises,cloud infrastructure
-description: ">![info]"
 ---
-
-# Composer update fail on Adobe Commerce: Incompatible argument type
 
 >![info]
 >

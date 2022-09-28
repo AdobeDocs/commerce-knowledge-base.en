@@ -1,10 +1,7 @@
 ---
 title: Static content deploy best practices in Adobe Commerce
 labels: Magento Commerce,Magento Commerce Cloud,best practices,configuration,content,deploy,deployment,ece-tools,static,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article talks about static content deploy (SCD) best practices in Adobe Commerce to help avoid issues where the static content would not be available on your website."
 ---
-
-# Static content deploy best practices in Adobe Commerce
 
 This article talks about static content deploy (SCD) best practices in Adobe Commerce to help avoid issues where the static content would not be available on your website.
 

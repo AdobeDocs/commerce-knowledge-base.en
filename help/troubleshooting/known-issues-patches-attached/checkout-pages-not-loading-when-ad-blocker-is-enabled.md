@@ -1,10 +1,7 @@
 ---
 title: Checkout pages not loading when ad blocker is enabled
 labels: 2.2.2,Magento Commerce Cloud,adblock,checkout,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.2 issue related to the failure to load checkout pages caused by uBlock or other ad blockers."
 ---
-
-# Checkout pages not loading when ad blocker is enabled
 
 This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.2 issue related to the failure to load checkout pages caused by uBlock or other ad blockers.
 

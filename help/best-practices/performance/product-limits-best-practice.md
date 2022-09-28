@@ -1,10 +1,7 @@
 ---
 title: Product limits best practice
 labels: 2.3,2.3.x,2.4,2.4.x,SKU,best practices,catalog,performance,product,stores,Adobe Commerce,cloud infrastructure,on-premises,Magento
-description: "It is best practice to minimize the number of product Stocking Keeping Units (SKUs) to avoid performance degradation. The recommended effective product max is 10M."
 ---
-
-# Product limits best practice
 
 It is best practice to minimize the number of product Stocking Keeping Units (SKUs) to avoid performance degradation. The recommended effective product max is 10M.
 
@@ -16,7 +13,7 @@ High Effective SKU slows down product data retrieval and increases admin operati
 
 ## Affected products and versions
 
-* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
 * Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Best practices

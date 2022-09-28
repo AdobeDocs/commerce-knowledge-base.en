@@ -1,10 +1,7 @@
 ---
 title: "MDVA-24201: Catalog price rules don't work"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,QPT 1.0.14,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,catalog price rules,database,update,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-24201 patch solves the issue where active catalog price rules in the database do not apply on the frontend."
 ---
-
-# MDVA-24201: Catalog price rules don't work
 
 The MDVA-24201 patch solves the issue where active catalog price rules in the database do not apply on the frontend.
 
@@ -41,7 +38,7 @@ Install a fresh Magento instance with sample data.
       * Set **Active** = *Yes*.
       * Save.
 1. Go to the backend, and run:
-   ```php    bin/magento cron:run    ```
+   ```php    bin/magento cron:run    ```    
 
  <span class="wysiwyg-underline">Expected results</span>:
 

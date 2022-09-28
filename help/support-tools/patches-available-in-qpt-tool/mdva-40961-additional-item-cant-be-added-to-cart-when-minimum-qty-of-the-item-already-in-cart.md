@@ -1,10 +1,7 @@
 ---
 title: "MDVA-40961: Additional item can't be added to cart when minimum qty of item is already in cart"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.15,additional item,cart,minimum quantity,2.4.3,2.4.3-p1,2.4.3-p2
-description: "The MDVA-40961 patch fixes the issue where an additional item can't be added to the cart when the minimum quantity of the item is already in the cart. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.15 is installed. The patch ID is MDVA-40961. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
-
-# MDVA-40961: Additional item can't be added to cart when minimum qty of item is already in cart
 
 The MDVA-40961 patch fixes the issue where an additional item can't be added to the cart when the minimum quantity of the item is already in the cart. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.15 is installed. The patch ID is MDVA-40961. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 

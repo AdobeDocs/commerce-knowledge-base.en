@@ -1,10 +1,7 @@
 ---
 title: Troubleshooting 503 error caused by necessity to change default Varnish settings
 labels: 503,Magento Commerce,Varnish,backend,cache,error,fetch,how to,troubleshooting,Adobe Commerce
-description: "This article provides solutions for troubleshooting 503 error caused by certain Varnish Cache default values not being enough for your store."
 ---
-
-# Troubleshooting 503 error caused by necessity to change default Varnish settings
 
 This article provides solutions for troubleshooting 503 error caused by certain Varnish Cache default values not being enough for your store.
 
@@ -20,16 +17,16 @@ To resolve this issue, increase the default value of the `http_resp_hdr_len` par
 >
 >If the `http_resp_hdr_len` value exceeds 32K, you must also increase the default response size using the `http_resp_size` parameter.
 
-1. As a user with `root` privileges, open your Vanish configuration file in a text editor:
+1. As a user with `root` privileges, open your Vanish configuration file in a text editor:    
     * CentOS 6: `/etc/sysconfig/varnish`
     * CentOS 7: `/etc/varnish/varnish.params`
     * Debian: `/etc/default/varnish`
     * Ubuntu: `/etc/default/varnish`
-1. Search for the `http_resp_hdr_len` parameter.
+1. Search for the `http_resp_hdr_len` parameter.    
 1. If the parameter doesn't exist, add it after `thread_pool_max` .
-1. Set `http_resp_hdr_len` to a value equal to the product count of your largest category multiplied by 21. (Each product tag is about 21 characters in length.)    For example, setting the value to 65536 bytes should work if your largest category has 3,000 products.    For example:    ```conf    -p http_resp_hdr_len=65536 \    ```
-1. Set the `http_resp_size` to a value that accommodates the increased response header length.    For example, using the sum of the increased header length and default response size is a good starting point (e.g., 65536 + 32768 = 98304): `-p http_resp_size=98304`. A snippet follows:
-    ```
+1. Set `http_resp_hdr_len` to a value equal to the product count of your largest category multiplied by 21. (Each product tag is about 21 characters in length.)    For example, setting the value to 65536 bytes should work if your largest category has 3,000 products.    For example:    ```conf    -p http_resp_hdr_len=65536 \    ```    
+1. Set the `http_resp_size` to a value that accommodates the increased response header length.    For example, using the sum of the increased header length and default response size is a good starting point (e.g., 65536 + 32768 = 98304): `-p http_resp_size=98304`. A snippet follows:  
+    ```         
     # DAEMON_OPTS is used by the init script.
     DAEMON_OPTS="-a ${VARNISH_LISTEN_ADDRESS}:${VARNISH_LISTEN_PORT} \
         -f ${VARNISH_VCL_CONF} \

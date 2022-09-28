@@ -1,10 +1,7 @@
 ---
 title: Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store
 labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,MySQL,credit,database,how to,id,increment,invoice,memo,order,sql,store,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article discusses how to change the increment ID for an Adobe Commerce database (DB) entity (order, invoice, credit memo, etc.) on a particular Adobe Commerce store using the `ALTER TABLE` SQL statement."
 ---
-
-# Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store
 
 This article discusses how to change the increment ID for an Adobe Commerce database (DB) entity (order, invoice, credit memo, etc.) on a particular Adobe Commerce store using the `ALTER TABLE` SQL statement.
 
@@ -29,11 +26,11 @@ You might need to change the increment ID for new DB entities in these cases:
 
 1. Find stores and entities for which the new increment ID should be changed.
 1. [Connect](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) to your MySQL DB. For Adobe Commerce on cloud infrastructure, at first, you need to [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
-1. Check the current auto\_increment value for the entity sequence table using the following query:
+1. Check the current auto\_increment value for the entity sequence table using the following query:    
 
 ```sql
 SHOW TABLE STATUS FROM `{database_name}` WHERE `name` LIKE 'sequence_{entity_type}_{store_id}';
-```
+```    
 
 ### Example
 

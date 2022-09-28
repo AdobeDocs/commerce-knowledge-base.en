@@ -1,10 +1,7 @@
 ---
 title: Error 404 on all pages due to Content Staging issue
 labels: 404,Magento Commerce,Magento Commerce Cloud,content,log,staging,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,2.2,2.3
-description: "This article provides a fix for the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure issue where you get a 404 error when accessing any storefront page or the Commerce Admin."
 ---
-
-# Error 404 on all pages due to Content Staging issue
 
 This article provides a fix for the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure issue where you get a 404 error when accessing any storefront page or the Commerce Admin.
 
@@ -76,7 +73,7 @@ In this case, you might refer to the [Site Down Troubleshooter](https://support.
 1. Run the following query to delete the invalid link to the `staging_update` table:
    ```sql
    DELETE FROM flag WHERE flag_code = 'staging';
-   ```
+   ```   
 1. Wait for the cron job to run (runs in up to five minutes if set up properly) or run it manually if you do not have cron set up.
 
 The problem should be solved straight after fixing the invalid link. If the problem persists, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).

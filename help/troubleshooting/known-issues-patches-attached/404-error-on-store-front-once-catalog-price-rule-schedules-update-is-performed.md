@@ -1,10 +1,7 @@
 ---
 title: 404 Error on store front once catalog price rule schedules update is performed
 labels: 2.2.1,404 error,Magento Commerce,known issues,patch,schedule update,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a patch and the required steps to fix the known Adobe Commerce 2.2.1 issue related to getting a 404 error on all store front pages, after a catalog price rule update was created and its starting time was edited later. To fix the issue you need to apply the patch."
 ---
-
-# 404 Error on store front once catalog price rule schedules update is performed
 
 This article provides a patch and the required steps to fix the known Adobe Commerce 2.2.1 issue related to getting a 404 error on all store front pages, after a catalog price rule update was created and its starting time was edited later. To fix the issue you need to apply the patch.
 
@@ -73,18 +70,18 @@ Take the following steps to fix the rows with invalid links to the `staging_upda
 
 1. Check if the invalid links to the `staging_update` table exist in the `flag` table. These would be records where `flag_code=staging`.
 1. Identify the invalid version from the `flag` table using the following query:
-    ```sql
+    ```sql    
     SELECT flag_data FROM flag WHERE flag_code = 'staging';
-    ```
+    ```      
 1. From the `staging_update` table, select the existing version that is less than the current (invalid) version and get the version value that is two numbers back. You take it, not the preceding version, to avoid the situation when the previous version is the maximum version in the `staging_update` table that could be applied and we still need to re-apply it.
-    ```sql
+    ```sql    
     SELECT id FROM staging_update WHERE id < %current_id% ORDER BY id DESC LIMIT 1, 1
-    ```
+    ```   
     The version you get in response is your valid version `id`.
 1. For the rows with invalid links in the `flag` table, set the `flag_data` values to data which will contain a valid version id. This helps to save performance on reindex step and allows to avoid reindexing all entities.
     ```sql
     UPDATE flag SET flag_data=REPLACE(flag_data, '%invalid_id%', '%new_valid_id%') WHERE flag_code='staging';
-    ```
+    ```    
 
  <span class="wysiwyg-underline">Example:</span>
 

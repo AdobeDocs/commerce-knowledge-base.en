@@ -1,10 +1,7 @@
 ---
 title: Resolve an illegal offset error
 labels: Apache,Magento Commerce,Magento Commerce Cloud,OPcache,PHP,error,how to,illegal,offset,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a solution for when in Adobe Commerce 2.1 or later, you receive a Resolve an illegal offset error when creating a new product in the Commerce Admin."
 ---
-
-# Resolve an illegal offset error
 
 This article provides a solution for when in Adobe Commerce 2.1 or later, you receive a Resolve an illegal offset error when creating a new product in the Commerce Admin.
 
@@ -38,12 +35,12 @@ Use the following guidelines to find it:
 
 For Ubuntu with Apache, OPcache settings are typically located in `php.ini`.<br>
 For CentOS with Apache or nginx, OPcache settings are typically located in `/etc/php.d/opcache.ini`.<br>
-If not, use the following command to locate it:
+If not, use the following command to locate it:    
 ```bash
     $ sudo find / -name 'opcache.ini'
-```
+```    
 
-* nginx web server with PHP-FPM: `/etc/php5/fpm/php.ini`.
+* nginx web server with PHP-FPM: `/etc/php5/fpm/php.ini`.    
 
 If you have more than one `opcache.ini`, modify all of them.
 
@@ -54,7 +51,7 @@ If you have more than one `opcache.ini`, modify all of them.
 1. Locate `opcache.save_comments` and uncomment it, if necessary.
 1. Make sure its value is set to `1`.
 1. Save your changes and exit the text editor.
-1. Restart your web server:
+1. Restart your web server:    
 
     * Apache, Ubuntu: `service apache2 restart`
     * Apache, CentOS: `service httpd restart`
@@ -64,4 +61,4 @@ If you have more than one `opcache.ini`, modify all of them.
 
 ```bash
     $ bin/magento setup:di:compile`
-```
+```    

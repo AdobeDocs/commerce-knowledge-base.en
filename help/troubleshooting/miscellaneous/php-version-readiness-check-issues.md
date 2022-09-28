@@ -1,10 +1,7 @@
 ---
 title: PHP version readiness check issues
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,PHP version,how to,troubleshooting,web setup wizard,Magento Open Source,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article talks about the solutions for the PHP version issues you might face when installing/upgrading Adobe Commerce on-premises using the Web Setup Wizard."
 ---
-
-# PHP version readiness check issues
 
 This article talks about the solutions for the PHP version issues you might face when installing/upgrading Adobe Commerce on-premises using the Web Setup Wizard.
 
@@ -56,7 +53,7 @@ To resolve the issue, try the following:
 * Check the `$PATH` environment variable for multiple paths to PHP.
 * Use the `which php` command to locate the first PHP executable in your path; if it's not correct, remove it or create a symlink to the correct PHP version.
 * Use a [ `phpinfo.php` ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) page to collect more information.
-* Make sure you're running a supported PHP version according to our system requirements, in our developer documentation:
+* Make sure you're running a supported PHP version according to our system requirements, in our developer documentation:    
     * [Adobe Commerce 2.3.x System Requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html)
     * [Adobe Commerce 2.2.x System Requirements](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html)
-* Set the same PHP settings for both the PHP command line and the PHP web server plug-in as discussed in [PHP configuration options](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-centos-ubuntu.html) in our developer documentation.
+* Set the same PHP settings for both the PHP command line and the PHP web server plug-in as discussed in [PHP configuration options](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-centos-ubuntu.html) in our developer documentation.    

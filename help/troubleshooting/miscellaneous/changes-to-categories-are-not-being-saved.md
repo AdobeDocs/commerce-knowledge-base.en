@@ -1,10 +1,7 @@
 ---
 title: Changes to categories are not being saved
 labels: Magento Commerce,catalog,category,troubleshooting,Adobe Commerce,admin,storefront,update records
-description: "This article provides a fix for when updating product categories via the Commerce Admin, the changes are not displayed on the Admin and storefront. The problem is caused by the corrupted data in the `catalog_category_entity` table. To solve the issue, fix or remove the problematic category update records in the table. After that, you should be able to update product categories using the Admin."
 ---
-
-# Changes to categories are not being saved
 
 This article provides a fix for when updating product categories via the Commerce Admin, the changes are not displayed on the Admin and storefront. The problem is caused by the corrupted data in the `catalog_category_entity` table. To solve the issue, fix or remove the problematic category update records in the table. After that, you should be able to update product categories using the Admin.
 
@@ -80,5 +77,5 @@ Follow these steps:
 
 1. Find the category records with the same `entity_id` and the same `created_in` value.
 1. Select the record where `row_id` = `entity_id` and copy the `updated_in` value.
-1. Select the record where `row_id` is not equal to `entity_id` and paste the copied `updated_in` value as the `created_in` value. See the screenshot below as an illustration.    ![Copying the created_in value.png](assets/copy_created-in_value.png)
+1. Select the record where `row_id` is not equal to `entity_id` and paste the copied `updated_in` value as the `created_in` value. See the screenshot below as an illustration.    ![Copying the created_in value.png](assets/copy_created-in_value.png)    
 1. Verify that the category update record, the `created_in` value of which you have updated (in step 3), exists in the `staging_update` table. *For example:* IF the copied `created_in` value is 1509281953, THEN the entity with `row_id` = 1509281953 must exist in the `staging_update` table

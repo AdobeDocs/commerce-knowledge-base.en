@@ -1,10 +1,7 @@
 ---
 title: Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade
 labels: Elasticsearch,Elasticsearch 2.x,Elasticsearch 5.x,Elasticsearch 6.x,Elasticsearch problems,Elasticsearch service version not compatible,End of Life,Magento Commerce Cloud,how to,upgrade,Adobe Commerce,cloud infrastructure,troubleshooting
-description: ">![warning]"
 ---
-
-# Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade
 
 >![warning]
 >

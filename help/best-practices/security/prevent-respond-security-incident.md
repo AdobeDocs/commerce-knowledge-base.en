@@ -2,10 +2,7 @@
 title: Adobe Commerce on cloud Best Practices to Help Prevent and Respond to a Security Incident
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,best practices,security,Adobe Commerce,cloud infrastructure
 promoted: True
-description: "* Adobe Commerce on cloud infrastructure, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)."
 ---
-
-# Adobe Commerce on cloud Best Practices to Help Prevent and Respond to a Security Incident
 
 ## Affected products and versions
 
@@ -51,10 +48,10 @@ The first step of incident analysis is to gather as many facts as you can, as qu
 * [Audit Admin Action Logs](https://docs.magento.com/user-guide/system/action-log-report.html).
     The Action Logs Report displays a detailed record of all admin actions that are enabled for logging. Each record is time stamped and registers the IP address and name of the user. The log detail includes admin user data and related changes that were made during the action.
 * Analyze events with the [Observation for Adobe Commerce tool](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html?lang=en).
-    The Observation for Adobe Commerce tool allows you to analyze complex problems to help identify root causes. Instead of tracking disparate data, you can spend your time correlating events and errors to gain deeper insights into the causes of performance bottlenecks.
+    The Observation for Adobe Commerce tool allows you to analyze complex problems to help identify root causes. Instead of tracking disparate data, you can spend your time correlating events and errors to gain deeper insights into the causes of performance bottlenecks.  
     The tool is intended to give a clear view of some of the potential site issues to help you identify the root cause and keep sites performing optimally. Click the link to the Observation for Adobe Commerce tool documentation above to access the tool documentation. There is a section in the documentation that details all the information that can be found on the **Security** tab.
 * Analyze logs with [New Relic Logs](https://devdocs.magento.com/cloud/project/new-relic.html#new-relic-logs).
-    Adobe Commerce on cloud infrastructure Pro projects include the [New Relic Logs](https://docs.newrelic.com/docs/logs/new-relic-logs/get-started/introduction-new-relic-logs) service. The service is pre-configured to aggregate all log data from your Staging and Production environments to display it in a centralized log management dashboard.
+    Adobe Commerce on cloud infrastructure Pro projects include the [New Relic Logs](https://docs.newrelic.com/docs/logs/new-relic-logs/get-started/introduction-new-relic-logs) service. The service is pre-configured to aggregate all log data from your Staging and Production environments to display it in a centralized log management dashboard.  
     You can use the New Relic Logs service to complete the following tasks:
     * Use [New Relic queries](https://docs.newrelic.com/docs/logs/new-relic-logs/ui-data/query-syntax-logs) to search aggregated log data.
     * Visualize log data through the New Relic Logs application.

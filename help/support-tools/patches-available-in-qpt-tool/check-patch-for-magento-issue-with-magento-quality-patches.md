@@ -1,16 +1,13 @@
 ---
 title: Check patch for Adobe Commerce issue with Quality Patches Tool
 labels: 2.3,2.3.x,2.4,2.4.x,QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,how to,patches,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article provides an overview of Quality Patches Tool (QPT) and links to resources explaining how to use it."
 ---
-
-# Check patch for Adobe Commerce issue with Quality Patches Tool
 
 This article provides an overview of Quality Patches Tool (QPT) and links to resources explaining how to use it.
 
 ## Affected products and versions
 
-* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)  
 * Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## What are Quality Patches Tool

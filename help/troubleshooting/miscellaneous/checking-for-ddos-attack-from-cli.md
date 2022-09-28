@@ -1,10 +1,7 @@
 ---
 title: Checking for DDoS attack from CLI
 labels: DDOS,Magento Commerce,Magento Commerce Cloud,attack,grep,netstat,troubleshooting,Adobe Commerce,Magento Open Source,cloud infrastructure
-description: "This article talks about the issue of how to try to check for Distributed Denial of Service (DDoS) attacks from your server's Command Line Interface (CLI)."
 ---
-
-# Checking for DDoS attack from CLI
 
 This article talks about the issue of how to try to check for Distributed Denial of Service (DDoS) attacks from your server's Command Line Interface (CLI).
 
@@ -31,12 +28,12 @@ Again it is important to note that using software specifically designed to ident
     * [Adobe Commerce and Magento Open Source logs locations](https://devdocs.magento.com/guides/v2.3/config-guide/cli/logging.html)
     * [Adobe Commerce on cloud infrastructure logs locations](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
 1. Start using your CLI to check your all your current Internet connections using the `netstat` command: `netstat -na`. This displays all active established connections to the server. Here you might be able to notice too many connections coming from the same IP address.
-1. To further narrow your established connections results to only those connecting on port 80 (the http port for your website), so that you can sort and recognize too many connections from one IP address or group of IP addresses, use this command: `netstat -an | grep :80 | sort`. You may repeat the same command for https on port 443: `netstat -an | grep :443 | sort`. Another option is to extend the original command to both ports 80 and 443: `netstat -an | egrep ":80|:443" | sort`.
+1. To further narrow your established connections results to only those connecting on port 80 (the http port for your website), so that you can sort and recognize too many connections from one IP address or group of IP addresses, use this command: `netstat -an | grep :80 | sort`. You may repeat the same command for https on port 443: `netstat -an | grep :443 | sort`. Another option is to extend the original command to both ports 80 and 443: `netstat -an | egrep ":80|:443" | sort`.     
 1. To see if many active `SYNC_REC` are occurring on the server, use the command:     `netstat -n -p|grep SYN_REC | wc -l`     This is usually less than 5, but it could be much higher for a DDoS attack, though for some servers a higher number could be a normal condition.
-1. To list out all the IP addresses sending `SYNC_REC` statuses, use the command: `netstat -n -p | grep SYN_REC | sort -u`.
+1. To list out all the IP addresses sending `SYNC_REC` statuses, use the command: `netstat -n -p | grep SYN_REC | sort -u`.     
 1. To further list all the unique IP addresses sending `SYNC_REC` statuses, use the command: `netstat -n -p | grep SYN_REC | awk ‘{print $5}’ | awk -F: ‘{print $1}’`.
 1. You can also use the `netstat` command to count and calculate the number of connections that each IP address makes to your server: `netstat -ntu | awk ‘{print $5}’ | cut -d: -f1 | sort | uniq -c | sort -n`.
-1. For listing the count of UDP or TCP protocol connections connected to your server, use the command: `netstat -anp |grep ‘tcp|udp’ | awk ‘{print $5}’ | cut -d: -f1 | sort | uniq -c | sort -n`.
+1. For listing the count of UDP or TCP protocol connections connected to your server, use the command: `netstat -anp |grep ‘tcp|udp’ | awk ‘{print $5}’ | cut -d: -f1 | sort | uniq -c | sort -n`.   
 1. To check established connections, instead of just all connections, and display the connection count for each IP address, use the command: `netstat -ntu | grep ESTAB | awk ‘{print $5}’ | cut -d: -f1 | sort | uniq -c | sort -nr`.
 1. To show connection counts listed by IP address to port 80, use the command: `netstat -plan|grep :80|awk {‘print $5’}|cut -d: -f 1|sort|uniq -c|sort -nk 1`.
 

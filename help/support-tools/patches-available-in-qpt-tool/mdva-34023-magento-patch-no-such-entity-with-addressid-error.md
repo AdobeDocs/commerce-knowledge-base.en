@@ -1,10 +1,7 @@
 ---
 title: 'MDVA-34023 patch: "No such entity with addressId" error'
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,No such entity with addressId,browser,error,exception log,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-description: "The MDVA-34023 patch solves the issue where `No such entity with addressId` errors occur randomly on a customer's web browser."
 ---
-
-# MDVA-34023 patch: "No such entity with addressId" error
 
 The MDVA-34023 patch solves the issue where `No such entity with addressId` errors occur randomly on a customer's web browser.
 
@@ -25,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 <ins>Steps to reproduce</ins>:
 
 1. Go to **Stores** > **Settings** > **Configuration** > **Customers tab** > **Persistent shopping cart**.
-1. Set **Enable Persistence** = *Yes*, set **Clear Persistence on Sign Out** = *No*.    ![persistent_shopping_cart_magento_2.4.1.png](assets/persistent_shopping_cart_magento_2.4.1.png)
+1. Set **Enable Persistence** = *Yes*, set **Clear Persistence on Sign Out** = *No*.    ![persistent_shopping_cart_magento_2.4.1.png](assets/persistent_shopping_cart_magento_2.4.1.png)    
 1. Create a new customer, and define the default shipping and billing addresses.
 1. Log out.
 1. Log in with the **Remember me** checkbox selected.

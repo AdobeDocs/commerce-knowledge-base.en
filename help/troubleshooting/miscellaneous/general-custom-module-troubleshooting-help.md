@@ -1,10 +1,7 @@
 ---
 title: General custom module troubleshooting help
 labels: Magento Commerce,Magento Commerce Cloud,custom,log,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Pro,Starter
-description: "This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce."
 ---
-
-# General custom module troubleshooting help
 
 This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce.
 
@@ -21,14 +18,14 @@ Check the logs to see if there are entries with custom module's name in the erro
 1. Logs locations:
     * [Adobe Commerce on cloud infrastructure Starter plan architecture logs](https://support.magento.com/hc/en-us/articles/360020127552) in our support knowledge base.
     * [Adobe Commerce on cloud infrastructure Pro plan architecture logs](https://support.magento.com/hc/en-us/articles/360000318834-Log-locations-directories-for-Pro-plan-Integration-Staging-Production) in our support knowledge base.
-1. Depending on the errors you find, if you want to enable, disable, or uninstall a custom module, these articles detail those actions:
+1. Depending on the errors you find, if you want to enable, disable, or uninstall a custom module, these articles detail those actions:    
     * [Enable or disable modules](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-enable.html) in our developer documentation.
     * [Uninstall modules](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall-mods.html) in our developer documentation.
 
 ### Adobe Commerce on cloud infrastructure, all versions
 
 1. Logs locations: [Adobe Commerce on cloud infrastructure logs](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) in our developer documentation.
-1. Depending on the errors you find, if you want to enable, disable, or uninstall a custom module, these articles in our developer documentation detail those actions:
+1. Depending on the errors you find, if you want to enable, disable, or uninstall a custom module, these articles in our developer documentation detail those actions:    
     * [Install, manage, and upgrade extensions](https://devdocs.magento.com/guides/v2.3/cloud/howtos/install-components.html).
     * [Component deployment failure](https://devdocs.magento.com/guides/v2.3/cloud/trouble/trouble_comp-deploy-fail.html).
 

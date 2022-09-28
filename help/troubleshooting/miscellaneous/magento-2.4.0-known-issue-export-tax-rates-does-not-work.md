@@ -1,10 +1,7 @@
 ---
 title: Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work
 labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,button,export tax rates,known issues,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a solution for an Adobe Commerce 2.4.0 known issue where the **Export Tax Rates** button does not work."
 ---
-
-# Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work
 
 This article provides a solution for an Adobe Commerce 2.4.0 known issue where the **Export Tax Rates** button does not work.
 
@@ -21,7 +18,7 @@ This article provides a solution for an Adobe Commerce 2.4.0 known issue where t
 1. Click the **Add New Tax Rule** button.
 1. Click on the text of the **Export Tax Rates** button.
 
-    ![magento_export_tax_rates.png](assets/mceclip0.png)
+    ![magento_export_tax_rates.png](assets/mceclip0.png)    
 
  <ins>Expected result</ins>:
 

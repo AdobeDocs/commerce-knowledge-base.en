@@ -1,10 +1,7 @@
 ---
 title: Error purging Fastly cache on Cloud (The purge request was not processed successfully)
 labels: API,Fastly,Magento Commerce Cloud,VCL,purge,troubleshooting,Adobe Commerce,cloud infrastructure
-description: "This article provides a fix for when you use a Fastly purge option, and you receive the error: *The purge request was not processed successfully*. Fastly is a CDN and caching service included with Adobe Commerce on cloud infrastructure plans and implementations. If you attempt to use a Fastly purge option, and it does not process, you may have incorrect Fastly credentials in your environment or may have encountered an issue."
 ---
-
-# Error purging Fastly cache on Cloud (The purge request was not processed successfully)
 
 This article provides a fix for when you use a Fastly purge option, and you receive the error: *The purge request was not processed successfully*. Fastly is a CDN and caching service included with Adobe Commerce on cloud infrastructure plans and implementations. If you attempt to use a Fastly purge option, and it does not process, you may have incorrect Fastly credentials in your environment or may have encountered an issue.
 
@@ -30,7 +27,7 @@ You may have incorrect credentials set in your environment or need to upload VCL
 Verify if you have the correct Fastly Service ID and API token in your environment. If you have Staging credentials in Production, the purges may not process or process incorrectly.
 
 1. Log in to your local Commerce Admin as an administrator.
-1. Click **Stores** > Settings > **Configuration** > **Advanced** > **System** and expand **Full Page Cache**.    ![magento_full_page_cache_2.4.1.png](assets/magento_full_page_cache_2.4.1.png)
+1. Click **Stores** > Settings > **Configuration** > **Advanced** > **System** and expand **Full Page Cache**.    ![magento_full_page_cache_2.4.1.png](assets/magento_full_page_cache_2.4.1.png)    
 1. Expand Fastly Configuration and verify the Fastly Service ID and API token for your environment.
 1. If you modify the values, click Test Credentials.
 

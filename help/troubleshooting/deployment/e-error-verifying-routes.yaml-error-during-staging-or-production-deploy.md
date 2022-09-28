@@ -1,10 +1,7 @@
 ---
 title: "E: Error verifying routes.yaml error during Staging or Production deploy"
 labels: Magento Commerce Cloud,deployment,routes.yaml,troubleshooting,Adobe Commerce,cloud infrastructure
-description: "This article provides a solution for the Adobe Commerce on cloud infrastructure issue, where you get the *"E: Error while verifying routes.yaml"* error message when trying to deploy the project to the Staging or Production environment."
 ---
-
-# E: Error verifying routes.yaml error during Staging or Production deploy
 
 This article provides a solution for the Adobe Commerce on cloud infrastructure issue, where you get the *"E: Error while verifying routes.yaml"* error message when trying to deploy the project to the Staging or Production environment.
 
@@ -68,7 +65,7 @@ To resolve the blocked deployment, update the `routes.yaml` file to configure ro
    "http://{all}/":
        type: upstream
        upstream: "mymagento:http"
-   ```
+   ```    
 1. Сommit and push your changes to redeploy your project.
 
 For detailed instructions to update the route configuration, see [Cloud for Adobe Commerce > Configure routes](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html) in our developer documentation.

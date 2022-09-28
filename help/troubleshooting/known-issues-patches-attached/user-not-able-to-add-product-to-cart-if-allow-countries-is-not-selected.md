@@ -1,10 +1,7 @@
 ---
 title: Users not able to add product to cart if nothing selected in Allow Countries
 labels: Adobe Commerce,Magento,known issues,patch,troubleshooting,on-premises,cloud infrastructure,2.4.4,PHP 8.1,Allow Countries,Configuration,add product to cart
-description: "This article provides a patch for the known Adobe Commerce 2.4.4 with PHP 8.1 issue where users are not able to add products to the cart if the Allow Countries is unselected."
 ---
-
-# Users not able to add product to cart if nothing selected in Allow Countries
 
 This article provides a patch for the known Adobe Commerce 2.4.4 with PHP 8.1 issue where users are not able to add products to the cart if the Allow Countries is unselected.
 

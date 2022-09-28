@@ -1,10 +1,7 @@
 ---
 title: run `setup:static-content:deploy` deployed_version.txt issue
 labels: Magento Commerce Cloud,deploy,not writable,troubleshooting,Adobe Commerce,cloud infrastructure
-description: "This article provides a fix for `deployed_version.txt` is not writable error when running the `setup:static-content:deploy` command manually."
 ---
-
-# run `setup:static-content:deploy` deployed_version.txt issue
 
 This article provides a fix for `deployed_version.txt` is not writable error when running the `setup:static-content:deploy` command manually.
 

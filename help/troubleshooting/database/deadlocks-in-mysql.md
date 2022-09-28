@@ -1,10 +1,7 @@
 ---
 title: Deadlocks in MySQL
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,MySQL,database,deadlock,import,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article talks about deadlocks in MySQL to help identify and resolve them if they cause a site down, stuck database import, or other Adobe Commerce issues."
 ---
-
-# Deadlocks in MySQL
 
 This article talks about deadlocks in MySQL to help identify and resolve them if they cause a site down, stuck database import, or other Adobe Commerce issues.
 
@@ -30,7 +27,7 @@ As an example, it is a best practice to avoid a stuck MySQL database import by f
 1. Check your application, deployment, or MySQL logs for deadlock errors:
     * [Adobe Commerce and Magento Open Source log locations](https://devdocs.magento.com/guides/v2.3/config-guide/cli/logging.html)
     * [Adobe Commerce on cloud infrastructure logs locations](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
-1. Check your MySQL process list for running processes with the command `mysql -e 'show full processlist';`
+1. Check your MySQL process list for running processes with the command `mysql -e 'show full processlist';`     
 1. If on Adobe Commerce on cloud infrastructure, check that MySQL slave is enabled. Consult this article: [Deploy variables (MYSQL\_USE\_SLAVE\_CONNECTION)](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#mysql_use_slave_connection).
 1. Depending on the errors involved, the solution may present itself, or you may need to include your helpful log information if you need to open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
