@@ -1,7 +1,10 @@
 ---
 title: Adobe Commerce support tools at a glance
 labels: Magento,Adobe Commerce,support tools,Site-Wide Analysis Tool,observation for Adobe Commerce,QPT,managed alerts,cloud infrastructure
+description: "Adobe Commerce offers a variety of support tools that help and empower you to improve the e-commerce store experience."
 ---
+
+# Adobe Commerce support tools at a glance
 
 Adobe Commerce offers a variety of support tools that help and empower you to improve the e-commerce store experience.
 It provides personalized best practices, diagnostic and monitoring tools, and actionable information about your site.
@@ -16,7 +19,7 @@ This article gives an overview for each of the available tools:
 
 Observation for Adobe Commerce is a New Relic nerdlet to see the state of your Adobe Commerce site, current or past time views. A nerdlet is a custom application built with New Relic One programmability. It presents the most relevant New Relic information in an easy format against a common timeline.
 
-To download the complete article about how to use Observation for Adobe Commerce on cloud architecture, go to [Use Observation for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4402379845901-Use-Observation-for-Adobe-Commerce) page (**you must be signed-in to view it**).  
+To download the complete article about how to use Observation for Adobe Commerce on cloud architecture, go to [Use Observation for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4402379845901-Use-Observation-for-Adobe-Commerce) page (**you must be signed-in to view it**).
 
 <h2 id="managed-alerts-for-adobe-commerce">Managed Alerts for Adobe Commerce - get alerts on critical storage and Apdex levels </h2>
 

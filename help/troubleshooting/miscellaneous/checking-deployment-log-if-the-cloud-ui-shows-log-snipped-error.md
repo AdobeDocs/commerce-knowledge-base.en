@@ -1,7 +1,10 @@
 ---
 title: Checking deployment log if Cloud UI has "log snipped" error
 labels: troubleshooting,deployment log,error,Magento Commerce Cloud,Adobe Commerce,cloud infrastructure,log snipped,UI,manage log
+description: "This article provides a solution for the issue where the Adobe Commerce on cloud infrastructure UI shows the *log snipped because it was too long* error message when trying to view deployment log."
 ---
+
+# Checking deployment log if Cloud UI has "log snipped" error
 
 This article provides a solution for the issue where the Adobe Commerce on cloud infrastructure UI shows the *log snipped because it was too long* error message when trying to view deployment log.
 
@@ -14,7 +17,7 @@ When trying to view deployment log, Adobe Commerce on cloud infrastructure UI sh
 
 ## Steps to reproduce
 
-1. Go to the Project URL and click on the **Status** of the deployment in question.  
+1. Go to the Project URL and click on the **Status** of the deployment in question.
 1. If the log is too long to be displayed in the UI, it will show the error message: *log snipped because it was too long*.
 
 ## Cause
@@ -40,7 +43,7 @@ Note that the log shown in the UI should not be treated as the source of truth, 
 1. Copy the activity ID of the affected deployment and then run the command:
     ```bash
     magento-cloud activity:log <activity ID> -p <project id> -e <environment>
-    ```  
+    ```
     Example to examine the log of the failed deployment:
     ```bash
     magento-cloud activity:log raah5xrhqz3wg -p <project id> -e <environment>

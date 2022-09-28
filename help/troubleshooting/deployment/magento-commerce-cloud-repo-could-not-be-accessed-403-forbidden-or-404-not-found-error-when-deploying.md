@@ -1,7 +1,10 @@
 ---
 title: "Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying"
 labels: "2.2.x,2.3.x,Magento Commerce Cloud,URL could not be accessed:HTTP/1.1 403 Forbidden,access,Adobe Commerce,cloud infrastructure,key,authentication,deployment error,how to,update"
+description: "This article discusses how to resolve the Adobe Commerce on cloud infrastructure failed deployment error similar to the following:"
 ---
+
+# Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying
 
 This article discusses how to resolve the Adobe Commerce on cloud infrastructure failed deployment error similar to the following:
 
@@ -67,21 +70,21 @@ See the instructions and related information in [Prepare your existing system](h
 Following is a step by step description of how to update your authorization keys:
 
 1. Log in to the machine that has your Adobe Commerce on cloud infrastructure SSH keys.
-1. Log in to your project: `magento-cloud login`     
-1. Create a branch to update the code (in the following example the branch name is `auth` is created from the primary branch):     `magento-cloud environment:branch auth master`     
+1. Log in to your project: `magento-cloud login`
+1. Create a branch to update the code (in the following example the branch name is `auth` is created from the primary branch):     `magento-cloud environment:branch auth master`
 1. Change to the project root directory.
 1. Optional: Delete the `auth.json` if you prefer and continue to [step 9](#step9).
-1. Open `auth.json` in a text editor.    
+1. Open `auth.json` in a text editor.
       ```json
               {
-                "http-basic":  {          
+                "http-basic":  {
                     "repo.magento.com": {
-                        "username": "<public_key>",  
+                        "username": "<public_key>",
                         "password": "<private_key>"
-                        }       
-                      }    
-                    }    
-      ```    
+                        }
+                      }
+                    }
+      ```
 1. Add the correct authentication keys.
 1. Save your changes and exit the text editor.
 1. Commit and merge your changes:
@@ -90,5 +93,5 @@ Following is a step by step description of how to update your authorization keys
 
     `git commit -m "<message>"`
 
-    `git push origin master`     
+    `git push origin master`
 1. Wait for the project to deploy.

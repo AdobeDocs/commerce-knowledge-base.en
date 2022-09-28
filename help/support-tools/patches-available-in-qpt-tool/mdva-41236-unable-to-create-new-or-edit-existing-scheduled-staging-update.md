@@ -1,7 +1,10 @@
 ---
 title: "MDVA-41236: Unable to create new or edit existing scheduled updates for product"
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.5,Adobe Commerce,cloud infrastructure,on-premises,edit,create schedule,scheduled updates,peoduct,End Date,Start Date,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
+description: "The MDVA-41236 patch fixes the issue where users are unable to create new or edit existing scheduled updates for the product if the "End Date" has been previously removed. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.5 is installed. The patch ID is MDVA-41236. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
+
+# MDVA-41236: Unable to create new or edit existing scheduled updates for product
 
 The MDVA-41236 patch fixes the issue where users are unable to create new or edit existing scheduled updates for the product if the "End Date" has been previously removed. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.5 is installed. The patch ID is MDVA-41236. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -26,7 +29,7 @@ Users are unable to create new schedules or edit existing ones for products if t
 <ins>Steps to reproduce</ins>:
 
 1. Create a product with the Status set to *disable*.
-1. Add a scheduled update to enable this product. 
+1. Add a scheduled update to enable this product.
     * Add future start and end dates.
 1. Edit the scheduled update by removing the **End Date**.
 1. Edit the schedule again and try to add an **End Date**. An error will occur.
@@ -52,7 +55,7 @@ Users get the following error message:
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 

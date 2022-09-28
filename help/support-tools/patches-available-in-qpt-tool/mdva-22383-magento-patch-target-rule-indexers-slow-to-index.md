@@ -1,7 +1,10 @@
 ---
 title: "MDVA-22383: target rule indexers slow to index"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.20,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,index,product save,support tools,target rule,Adobe Commerce,on-premises,cloud infrastructure
+description: "The MDVA-22383 patch solves the issue where reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-22383. Please note that the issue was fixed in Adobe Commerce 2.3.5."
 ---
+
+# MDVA-22383: target rule indexers slow to index
 
 The MDVA-22383 patch solves the issue where reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-22383. Please note that the issue was fixed in Adobe Commerce 2.3.5.
 
@@ -24,8 +27,8 @@ Reindexing the Product/Target Rule and Target Rule/Product indexers is taking to
  <span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Create a target rule with products to match the conditions, the conditions should add more product to collection and should have attributes (not categories or attribute set).
-1. Run the following command:   
- ```bash    bin/magento indexer:reindex targetrule_product_rule    ```    
+1. Run the following command:
+ ```bash    bin/magento indexer:reindex targetrule_product_rule    ```
 
  <span class="wysiwyg-underline">Actual result:</span>
 

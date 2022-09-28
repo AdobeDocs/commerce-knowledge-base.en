@@ -1,7 +1,10 @@
 ---
 title: "MDVA-33168: API async endpoint unsets special price"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,async rest API endpoint,special price,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
+description: "The MDVA-33168 patch fixes the issue where using the API async endpoint to update a product attribute unsets a special price."
 ---
+
+# MDVA-33168: API async endpoint unsets special price
 
 The MDVA-33168 patch fixes the issue where using the API async endpoint to update a product attribute unsets a special price.
 
@@ -13,7 +16,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 Adobe Commerce on cloud infrastructure 2.3.3-p1
 
-**Compatible with Adobe Commerce versions:** 
+**Compatible with Adobe Commerce versions:**
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.3 - 2.4.2
 
@@ -38,7 +41,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.3 - 2.
     * **Dynamic SKU** = *Yes*.
     * **Price** = *$100.00*.
     * **Tax Class** = *Taxable Goods*.
-    * **Stock Status** = *In Stock*.  
+    * **Stock Status** = *In Stock*.
 1. Under **Bundle Items**, set these Example options:
     * **Ship Bundle Items** = *Together*.
     * **Option Title** = *test*, **Input Type** = *Radio Buttons*, **Required** checkbox = *checked*.
@@ -50,10 +53,10 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.3 - 2.
     * **Default Quantity** = *1*.
     * **User Defined** checkbox = *unchecked*.
 1. Switch the scope to the non-default store, and set the special price. (Example: on the **Advanced Pricing** page, set **Special Price** = *4%*, and **Price View** = *Price Range*.)
-1. Update the new attribute only in the non-default store scope, like this Example:    
+1. Update the new attribute only in the non-default store scope, like this Example:
     ```php
-        PUT {{base_url}}/rest/en_au/async/V1/products/{{sku}}    {        "product": {            "custom_attributes": [                {                    "attribute_code": "text_attr",                    "value": 21                                   }            ]                    }    }    
-    ```    
+        PUT {{base_url}}/rest/en_au/async/V1/products/{{sku}}    {        "product": {            "custom_attributes": [                {                    "attribute_code": "text_attr",                    "value": 21                                   }            ]                    }    }
+    ```
 
 <ins>Expected results</ins>:
 

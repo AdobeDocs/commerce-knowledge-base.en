@@ -1,7 +1,10 @@
 ---
 title: "MDVA-30977: missing products from categories, indexing related"
 labels: 2.3.4,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,category,products,support tools,cloud infrastructure,on-premises
+description: "The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issues are scheduled to be fixed in Adobe Commerce 2.4.2."
 ---
+
+# MDVA-30977: missing products from categories, indexing related
 
 The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issues are scheduled to be fixed in Adobe Commerce 2.4.2.
 
@@ -39,7 +42,7 @@ The number of products in categories is different on each category page refresh.
 
 When the full reindex of the inventory is executed, category pages become empty and the *We can't find products matching the selection* message is displayed.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span> 
+<span class="wysiwyg-underline">Steps to reproduce:</span>
 
 1. Configure Adobe Commerce with Elasticsearch.
 1. Add a new website.
@@ -54,7 +57,7 @@ When the full reindex of the inventory is executed, category pages become empty 
 
 Category pages display products as usual during reindex.
 
-<span class="wysiwyg-underline">Actual result:</span> 
+<span class="wysiwyg-underline">Actual result:</span>
 
 Category pages become empty during reindex.
 

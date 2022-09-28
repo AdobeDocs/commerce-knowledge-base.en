@@ -1,7 +1,10 @@
 ---
 title: Enable cache to avoid performance degradation
 labels: 2.2.x,2.3.x,Apdex,Magento Commerce,Magento Commerce Cloud,New Relic,cache,how to,slow performance,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article explains how to solve a slow site issue caused by certain Adobe Commerce cache types being disabled."
 ---
+
+# Enable cache to avoid performance degradation
 
 This article explains how to solve a slow site issue caused by certain Adobe Commerce cache types being disabled.
 
@@ -34,8 +37,8 @@ If there are concerns and/or questions whether a certain Adobe Commerce cache ty
 
 Adobe Commerce cache documentation in our developer documentation:
 
-* [Adobe Commerce cache overview](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)     
-* [Manage the cache](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)     
+* [Adobe Commerce cache overview](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
+* [Manage the cache](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
 
 Other possible reasons for performance issues and solutions for them:
 

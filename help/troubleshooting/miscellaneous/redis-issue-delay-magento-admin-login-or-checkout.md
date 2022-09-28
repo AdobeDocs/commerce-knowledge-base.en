@@ -1,7 +1,10 @@
 ---
 title: Redis issue delay Commerce Admin login or checkout
 labels: 2.1.11,2.2.1,Magento Commerce,Magento Commerce Cloud,Redis,timeout,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article provides a fix for the issue when logging in to the Commerce Admin or opening the checkout page causes lag or timeout (over 30 seconds). The issue occurs when Redis is used for session storage."
 ---
+
+# Redis issue delay Commerce Admin login or checkout
 
 This article provides a fix for the issue when logging in to the Commerce Admin or opening the checkout page causes lag or timeout (over 30 seconds). The issue occurs when Redis is used for session storage.
 

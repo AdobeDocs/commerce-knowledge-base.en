@@ -1,7 +1,10 @@
 ---
 title: "Managed alerts on Adobe Commerce: CPU critical alert"
 labels: CPU,Magento Commerce,Magento Commerce Cloud,New Relic,alert,how to,maintenance mode,threshold,troubleshooting,Adobe Commerce,Pro,cloud infrastructure
+description: "This article provides troubleshooting steps when you receive a CPU critical alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected."
 ---
+
+# Managed alerts on Adobe Commerce: CPU critical alert
 
 This article provides troubleshooting steps when you receive a CPU critical alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 

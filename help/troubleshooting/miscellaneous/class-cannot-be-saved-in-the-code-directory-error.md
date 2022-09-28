@@ -1,7 +1,10 @@
 ---
 title: '"Class cannot be saved in the code directory" error'
 labels: Cloud,generated,Adobe Commerce,cloud infrastructure,2.2.0,troubleshooting,dependencies,auto-generated,directory,code,Magento
+description: "This article describes how to fix the issue where the way you specified dependencies prevents classes from being auto-generated on the fly, and you get the *"Class cannot be saved in the generated/code directory"* error message."
 ---
+
+# "Class cannot be saved in the code directory" error
 
 This article describes how to fix the issue where the way you specified dependencies prevents classes from being auto-generated on the fly, and you get the *"Class cannot be saved in the generated/code directory"* error message.
 
@@ -75,10 +78,10 @@ $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
 
 You need to take the following steps:
 
-1. Move the class definition to `app/code/YourVendor/YourModule`:  
+1. Move the class definition to `app/code/YourVendor/YourModule`:
 
     ```php
-       <?php   
+       <?php
         namespace YourVendor\YourModule;
         use YourVendor\YourModule\Model\GeneratedFactory;
         class YourClass
@@ -93,7 +96,7 @@ You need to take the following steps:
         }
      ```
 
-1. Edit the entry point `my_api/index.php` so that it looks like following:  
+1. Edit the entry point `my_api/index.php` so that it looks like following:
 
     ```php
       <?php
@@ -102,7 +105,7 @@ You need to take the following steps:
           $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
           $someObject = $bootstrap->getObjectManager()->create(YourClass::class);
       // Some code using $someObject
-    ```    
+    ```
 
 ### Case 2 specific solution
 

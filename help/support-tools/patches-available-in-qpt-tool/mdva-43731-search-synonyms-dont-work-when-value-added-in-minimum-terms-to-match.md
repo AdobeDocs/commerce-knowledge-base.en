@@ -1,7 +1,10 @@
 ---
 title: "MDVA-43731: Search Synonyms don't work when value is added in 'Minimum Terms to Match'"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.12,Search Synonyms,elasticsearch,Minimum Terms to Match,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.3,2.4.3-p1
+description: "The MDVA-43731 patch fixes the issue where Search Synonyms stop working when a value is added in "Minimum Terms to Match". This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-43731. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
+
+# MDVA-43731: Search Synonyms don't work when value is added in 'Minimum Terms to Match'
 
 The MDVA-43731 patch fixes the issue where Search Synonyms stop working when a value is added in "Minimum Terms to Match". This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-43731. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 

@@ -1,7 +1,10 @@
 ---
 title: "Managed alerts for Adobe Commerce: Apdex warning alert"
 labels: Apdex,Magento Commerce Cloud,MySQL,New Relic,PHP,Pro,alert,cron,how to,maintenance mode,starter,threshold,troubleshooting,warning,Adobe Commerce,cloud infrastructure,Pro,Starter
+description: "This article provides troubleshooting steps for when you receive an Apdex warning alert for Adobe Commerce in New Relic. The Apdex score measures users' satisfaction to the response time of web applications and services. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected."
 ---
+
+# Managed alerts for Adobe Commerce: Apdex warning alert
 
 This article provides troubleshooting steps for when you receive an Apdex warning alert for Adobe Commerce in New Relic. The Apdex score measures users' satisfaction to the response time of web applications and services. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 

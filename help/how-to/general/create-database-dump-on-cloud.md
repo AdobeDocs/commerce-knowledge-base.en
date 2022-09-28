@@ -1,7 +1,10 @@
 ---
 title: Create database dump on Adobe Commerce on cloud infrastructure
 labels: Magento Commerce Cloud,MySQL,Pro,Starter,database,ece-tools,how to,production,Adobe Commerce,cloud infrastructure
+description: "This article discusses the possible (and recommended) ways to create a database (DB) dump on Adobe Commerce on cloud infrastructure."
 ---
+
+# Create database dump on Adobe Commerce on cloud infrastructure
 
 This article discusses the possible (and recommended) ways to create a database (DB) dump on Adobe Commerce on cloud infrastructure.
 

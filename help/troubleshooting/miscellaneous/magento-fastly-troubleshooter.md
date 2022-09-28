@@ -1,7 +1,10 @@
 ---
 title: Adobe Commerce Fastly troubleshooter
 labels: 500 error,DNS,Fastly,Fastly error,Magento Commerce,Magento Commerce Cloud,SSL,TLS,VCL,certificate,configuration,connection,site not loading,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
+description: "This Fastly troubleshooter for Adobe Commerce users will guide you to the solutions, based on your response about the symptoms you see. Click on the questions to see the next options or answers."
 ---
+
+# Adobe Commerce Fastly troubleshooter
 
 This Fastly troubleshooter for Adobe Commerce users will guide you to the solutions, based on your response about the symptoms you see. Click on the questions to see the next options or answers.
 

@@ -1,7 +1,10 @@
 ---
 title: PayPal gateway rejected request - duplicate invoice issue
 labels: Magento Commerce,Magento Commerce Cloud,PayPal,duplicate,invoice,payments,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article provides a fix for the PayPal gateway rejected request - duplicate invoice issue."
 ---
+
+# PayPal gateway rejected request - duplicate invoice issue
 
 This article provides a fix for the PayPal gateway rejected request - duplicate invoice issue.
 
@@ -48,7 +51,7 @@ Change your PayPal profile to allow for multiple payments per invoice ID. You ne
 1. Go to **My selling tools**.
 1. Navigate to **Getting paid and managing my risk** > **Block payments** and click **Update**.
 1. **Selling Preferences**, click **Payment Receiving Preferences**.
-1. Under **Block Accidental Payments**, choose **No, allow multiple payments per invoice ID**.    ![paypal_allow_multiple_payments_per_invoice_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)    
+1. Under **Block Accidental Payments**, choose **No, allow multiple payments per invoice ID**.    ![paypal_allow_multiple_payments_per_invoice_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
 1. Scroll to the bottom and click **Save**.
 
 ## More information

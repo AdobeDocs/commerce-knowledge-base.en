@@ -1,7 +1,10 @@
 ---
 title: Locked fields in Commerce Admin
 labels: 2.3.x,2.4.x,Magento,Magento Commerce,Magento Commerce Cloud,admin,admin login,configuration,ece-tools,fields,lock,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article provides a solution for when you cannot modify fields in the Commerce Admin."
 ---
+
+# Locked fields in Commerce Admin
 
 This article provides a solution for when you cannot modify fields in the Commerce Admin.
 

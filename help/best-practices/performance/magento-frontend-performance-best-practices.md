@@ -1,7 +1,10 @@
 ---
 title: Adobe Commerce frontend performance best practices
 labels: 2.3,2.3.x,2.4,2.4.x,Google Lightspeed,Magento Commerce,Magento Commerce Cloud,Pagespeed Insights,best practices,frontend performance tool,seo,store,Adobe Commerce,on-premises,cloud infrastructure
+description: "It is a best practice to use web performance tools to check the frontend performance of your Adobe Commerce store."
 ---
+
+# Adobe Commerce frontend performance best practices
 
 It is a best practice to use web performance tools to check the frontend performance of your Adobe Commerce store.
 

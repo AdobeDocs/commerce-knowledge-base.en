@@ -1,7 +1,10 @@
 ---
 title: Shared access troubleshooting
 labels: Magento Commerce,Magento Commerce Cloud,shared access,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
+description: "**Problem:** You want to provide shared access to your trusted colleague but you cannot locate the **Shared Access** tab on your Commerce Account page."
 ---
+
+# Shared access troubleshooting
 
 ## I do not see the Shared Access tab on my Commerce Account page
 

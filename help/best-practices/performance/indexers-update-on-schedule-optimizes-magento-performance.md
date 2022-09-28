@@ -1,7 +1,10 @@
 ---
 title: Indexers "Update On Schedule" optimizes Adobe Commerce performance
 labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,best practices,indexers,performance,update on save,update on schedule,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article provides a fix for low performance due to indexers being set on *Update on Save* mode and how it is a best practice to set indexers to *Update on Schedule* mode to optimize performance in Adobe Commerce."
 ---
+
+# Indexers "Update On Schedule" optimizes Adobe Commerce performance
 
 This article provides a fix for low performance due to indexers being set on *Update on Save* mode and how it is a best practice to set indexers to *Update on Schedule* mode to optimize performance in Adobe Commerce.
 
@@ -26,8 +29,8 @@ To avoid this issue, set the indexers to *Update on Schedule*.
 
 ## Solution
 
-1. To view the current indexer configuration, run the following commands from CLI:     `bin/magento indexer:show-mode [indexer]`     Where `[indexer]` is a space-separated list of indexers.     `bin/magento indexer:show-mode [indexer]`     Omit `[indexer]` to show the mode of all indexers.    
-1. To specify the indexer mode, run following command from CLI:     `bin/magento indexer:set-mode {realtime|schedule} [indexer]`     Where:    
+1. To view the current indexer configuration, run the following commands from CLI:     `bin/magento indexer:show-mode [indexer]`     Where `[indexer]` is a space-separated list of indexers.     `bin/magento indexer:show-mode [indexer]`     Omit `[indexer]` to show the mode of all indexers.
+1. To specify the indexer mode, run following command from CLI:     `bin/magento indexer:set-mode {realtime|schedule} [indexer]`     Where:
     * `realtime`: Sets the selected indexers to *Update on Save*.
     * `schedule`: Sets the specified indexers to save according to the Cron schedule. Use this setting to set *Update on Schedule*.
     * `indexer`: Is a space-separated list of indexers. Omit `[indexer]` to configure all indexers the same way.

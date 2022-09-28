@@ -1,7 +1,10 @@
 ---
 title: Top navigation panel does not load on storefront
 labels: 2.x.x,Edge Side,Magento Commerce,troubleshooting,varnish,Adobe Commerce,storefront
+description: "This article provides configuration solutions to the Varnish Edge Side Includes (ESI) issues, where certain pages' content, usually the top navigation panel, is not displayed on the storefront if Varnish is used for caching."
 ---
+
+# Top navigation panel does not load on storefront
 
 This article provides configuration solutions to the Varnish Edge Side Includes (ESI) issues, where certain pages' content, usually the top navigation panel, is not displayed on the storefront if Varnish is used for caching.
 
@@ -44,8 +47,8 @@ To resolve the issues, you need to perform an additional Varnish configuration a
 1. As a user with `root` privileges, open your Vanish configuration file in a text editor. See the [Modify the Varnish system configuration](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) in our developer documentation for info on where this file might be located for different operating systems.
 1. In the `DAEMON_OPTS variable`, add `-p feature=+esi_ignore_https`, `-p  feature=+esi_ignore_other_elements`, `-p  feature=+esi_disable_xml_check`. This would look like:
 
-    ```bash    
-    DAEMON_OPTS="-a :6081 \    -p feature=+esi_ignore_other_elements \    -p feature=+esi_disable_xml_check \    -p feature=+esi_ignore_https \    -T localhost:6082 \    -f /etc/varnish/default.vcl \    -S /etc/varnish/secret \    -s malloc,256m"    
+    ```bash
+    DAEMON_OPTS="-a :6081 \    -p feature=+esi_ignore_other_elements \    -p feature=+esi_disable_xml_check \    -p feature=+esi_ignore_https \    -T localhost:6082 \    -f /etc/varnish/default.vcl \    -S /etc/varnish/secret \    -s malloc,256m"
     ```
 
 1. Save your changes and exit the text editor.

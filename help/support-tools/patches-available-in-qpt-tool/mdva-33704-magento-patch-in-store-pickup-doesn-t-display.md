@@ -1,7 +1,10 @@
 ---
 title: "MDVA-33704 patch: In-store pickup doesn't display"
 labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,cart,checkout,in-store pickup,shipping method,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
+description: "The MDVA-33704 patch solves the issue where products with in-store pickup option will not display as a shipping method."
 ---
+
+# MDVA-33704 patch: In-store pickup doesn't display
 
 The MDVA-33704 patch solves the issue where products with in-store pickup option will not display as a shipping method.
 

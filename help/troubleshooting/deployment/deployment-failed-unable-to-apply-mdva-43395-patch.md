@@ -1,7 +1,10 @@
 ---
 title: "Deployment failed: unable to apply MDVA-43395 patch"
 labels: failed deployment,MDVA-43395,patch,Adobe Commerce,cloud infrastructure,m2-hotfixes,magento-cloud-patches,troubleshooting
+description: "This article provides a solution for the issue, where trying to apply the MDVA-43395 patch results in failed deployment."
 ---
+
+# Deployment failed: unable to apply MDVA-43395 patch
 
 This article provides a solution for the issue, where trying to apply the MDVA-43395 patch results in failed deployment.
 

@@ -1,7 +1,10 @@
 ---
 title: MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
 labels: 2.x.x,Cloud,Magento Commerce Cloud,MySQL,Redis,bottleneck,cluster,high,how to,load,performance,queries,slave,slave connection,Adobe Commerce,cloud infrastructure,Pro
+description: ">![warning]"
 ---
+
+# MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
 
 >![warning]
 >
@@ -26,10 +29,10 @@ For more information about the New Relic APM service and its setup with your Ado
 
 1. In your New Relic APM Overview Chart, check for the first indication that MySQL has become a bottleneck. See the sample picture below where MySQL has become a bottleneck and takes most of the web transactions time:
 
-    ![KB-372_image002.png](assets/KB-372_image002.png)    
+    ![KB-372_image002.png](assets/KB-372_image002.png)
 
     Notice how the red dashed line in the image shows a discernible upward trend in the MySQL web transactions time and then peaks at even higher levels.
-1. From here you can then go to your **Database** screen where you can see the second indication of high throughput or slow `SELECT` queries in MySQL, and in the below sample image you can see when sorting by **Most time consuming**, your store, in this example, is slow on `SELECT` MySQL queries.    
+1. From here you can then go to your **Database** screen where you can see the second indication of high throughput or slow `SELECT` queries in MySQL, and in the below sample image you can see when sorting by **Most time consuming**, your store, in this example, is slow on `SELECT` MySQL queries.
 
     ![KB-372_image003_BlurredExtension.png](assets/KB-372_image003_BlurredExtension.png)
 
@@ -47,7 +50,7 @@ Adobe Commerce can read multiple databases or Redis asynchronously. Updating the
 
 ### Steps
 
-1. Edit your `.magento.env.yaml` file, and add the following content:    
+1. Edit your `.magento.env.yaml` file, and add the following content:
 
     ![KB-372_image004.png](assets/KB-372_image004.png)
 

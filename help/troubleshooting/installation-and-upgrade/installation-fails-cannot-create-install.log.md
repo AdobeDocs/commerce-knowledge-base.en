@@ -1,7 +1,10 @@
 ---
 title: Installation fails; cannot create install.log
 labels: Magento Commerce,how to,install.log,installation,open_basedir,php.ini,phpinfo.php,setup,wizard,Adobe Commerce
+description: "This article provides a fix for a failed installation due to the Setup Wizard not creating the `install.log` during the installation."
 ---
+
+# Installation fails; cannot create install.log
 
 This article provides a fix for a failed installation due to the Setup Wizard not creating the `install.log` during the installation.
 
@@ -20,9 +23,9 @@ To resolve the issue, change the value of `open_basedir` and restart the webserv
 If you're not sure how to change this value, use the following steps:
 
 1. If you haven't already done so, create [phpinfo.php](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo).
-1. Enter the following URL in your browser's address or location field: `http://<your web server IP or hostname>/<path to docroot>/phpinfo.php`     
-1. Look for the location of `php.ini`.     `php.ini` is typically specified as **Loaded Configuration File** in the displayed results.    
-1. As a user with root privileges, open `php.ini` in a text editor.    
+1. Enter the following URL in your browser's address or location field: `http://<your web server IP or hostname>/<path to docroot>/phpinfo.php`
+1. Look for the location of `php.ini`.     `php.ini` is typically specified as **Loaded Configuration File** in the displayed results.
+1. As a user with root privileges, open `php.ini` in a text editor.
 1. Locate the value of `open_basedir` and change it.
 1. Save your changes to `php.ini`.
 1. Restart the webserver.

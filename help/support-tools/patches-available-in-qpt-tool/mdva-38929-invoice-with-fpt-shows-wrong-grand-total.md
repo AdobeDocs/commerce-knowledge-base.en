@@ -1,7 +1,10 @@
 ---
 title: "MDVA-38929: Invoice with FPT shows wrong total"
 labels: QPT patches,Quality Patches Tool,Support Tools,MQP,QPT,quality patches,Magento,Adobe Commerce,on-premises,cloud infrastructure,QPT 1.1.2,invoice,grand total,store credit,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
+description: "The MDVA-38929 patch solves the issue where the invoice with FPT shows a wrong grand total when the order is paid with store credit. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-38929. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---
+
+# MDVA-38929: Invoice with FPT shows wrong total
 
 The MDVA-38929 patch solves the issue where the invoice with FPT shows a wrong grand total when the order is paid with store credit. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-38929. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 

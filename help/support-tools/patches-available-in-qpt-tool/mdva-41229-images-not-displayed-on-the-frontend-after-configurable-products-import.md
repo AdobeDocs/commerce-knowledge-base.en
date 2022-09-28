@@ -1,7 +1,10 @@
 ---
 title: "MDVA-41229: Images available on backend not displayed on frontend after configurable products import"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,configurable products import,images,frontend,backend,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
+description: "The MDVA-41229 patch solves the issue where images available on the backend are not displayed on the frontend after configurable products import. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-41229. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
+
+# MDVA-41229: Images available on backend not displayed on frontend after configurable products import
 
 The MDVA-41229 patch solves the issue where images available on the backend are not displayed on the frontend after configurable products import. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-41229. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -28,7 +31,7 @@ Images available on the backend are not displayed on the frontend after configur
 1. Install a clean Adobe Commerce.
 1. Add a custom attribute by going to **Stores** > **Attributes** > **Product** > **Add New Attribute** with the settings below:
     * Properties:
-        * Attribute Properties:  
+        * Attribute Properties:
             * Default Label: Set Size
             * Catalog Input Type for Store Owner: Text Swatch
             * Values Required: No
@@ -50,7 +53,7 @@ Images available on the backend are not displayed on the frontend after configur
             * Add to Column Options: No
             * Use in Filter Options: No
     * Manage Labels:
-        * Manage Titles (Size, Color, etc.) 
+        * Manage Titles (Size, Color, etc.)
             * Default Store View: Set Size
     * Storefront Properties:
         * Use in Search: Yes

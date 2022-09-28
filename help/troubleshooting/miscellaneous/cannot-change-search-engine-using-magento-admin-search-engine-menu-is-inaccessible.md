@@ -1,7 +1,10 @@
 ---
 title: Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
 labels: Magento Commerce,Magento Commerce Cloud,change search engine,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+description: ">![warning]"
 ---
+
+# Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
 
 >![warning]
 >
@@ -29,9 +32,9 @@ In this article:
 1. Log in to the Admin as an Administrator.
 1. On the left-side Admin sidebar, click **Stores**. Then, under **Settings**, choose **Configuration**.
 1. In the panel on the left under **Catalog,** choose **Catalog**.
-1. Expand the **Catalog Search** section.    ![catalog_menu.png](assets/catalog_menu.png)    
+1. Expand the **Catalog Search** section.    ![catalog_menu.png](assets/catalog_menu.png)
 1. Go to the **Search Engine** field and remove selection from the **Use system value** checkbox.
-1. Click the **Search Engine** menu and select one of the available options.    ![search_engine_menu.png](assets/search_engine_menu.png)    
+1. Click the **Search Engine** menu and select one of the available options.    ![search_engine_menu.png](assets/search_engine_menu.png)
 1. Click **Save Config** in the top-right corner of the page.
 
 ## Issues with Adobe Commerce on-premises

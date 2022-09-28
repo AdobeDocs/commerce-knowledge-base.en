@@ -1,7 +1,10 @@
 ---
 title: Resolve issues with encryption key
 labels: 2.2.x,2.3.x,Magento Commerce Cloud,crypt_key,database,encryption,how to,Adobe Commerce,cloud infrastructure
+description: "This article talks about how to fix the issues caused by the encryption key not being moved together with DB dump to the other environment."
 ---
+
+# Resolve issues with encryption key
 
 This article talks about how to fix the issues caused by the encryption key not being moved together with DB dump to the other environment.
 
@@ -27,9 +30,9 @@ To copy the encryption key:
 1. Open `app/etc/env.php` in a text editor.
 1. Copy the value of `key` for `crypt`.
 
-```php    
-return array ('crypt' =>      array ('key' => '<your encryption key>', ),);    
-```    
+```php
+return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
+```
 
 To set the key value for the destination project:
 

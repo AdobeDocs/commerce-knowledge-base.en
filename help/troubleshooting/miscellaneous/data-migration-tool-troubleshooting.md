@@ -1,7 +1,10 @@
 ---
 title: Data Migration Tool troubleshooting
 labels: Data Migration Tool,troubleshooting,Adobe Commerce,cloud infrastructure,Magento Commerce Cloud
+description: "This article provides solutions for errors that might occur when you run the Data Migration Tool."
 ---
+
+# Data Migration Tool troubleshooting
 
 This article provides solutions for errors that might occur when you run the Data Migration Tool.
 
@@ -9,8 +12,8 @@ This article provides solutions for errors that might occur when you run the Dat
 
 ### Error messages
 
-* ```bash    Source documents are not mapped: <EXTENSION_TABLE>    ```    
-* ```bash    Source fields are not mapped. Document: <EXTENSION_TABLE>. Fields: <EXTENSION_FIELD>    ```    
+* ```bash    Source documents are not mapped: <EXTENSION_TABLE>    ```
+* ```bash    Source fields are not mapped. Document: <EXTENSION_TABLE>. Fields: <EXTENSION_FIELD>    ```
 
 In rare cases, the message might mention
 
@@ -34,9 +37,9 @@ This message appears because the Data Migration Tool runs internal tests to veri
 
 <h3 id="possible-solutions">Possible solutions</h3>
 
-* Install the corresponding Adobe Commerce 2 extensions from [Commerce Marketplace](https://marketplace.magento.com/).     If the conflicting data originates from an extension which adds own database structure elements, then the Adobe Commerce 2 version of the same extension may add such elements to the destination (Adobe Commerce 2) database, thus fixing the issue.    
-* Use the `-a` argument when executing the tool to auto resolve errors and prevent migration from stopping.    
-* Configure the Tool to ignore the problematic data.    
+* Install the corresponding Adobe Commerce 2 extensions from [Commerce Marketplace](https://marketplace.magento.com/).     If the conflicting data originates from an extension which adds own database structure elements, then the Adobe Commerce 2 version of the same extension may add such elements to the destination (Adobe Commerce 2) database, thus fixing the issue.
+* Use the `-a` argument when executing the tool to auto resolve errors and prevent migration from stopping.
+* Configure the Tool to ignore the problematic data.
 
 To ignore database entities, add the `<ignore>` tag to an entity in the `map.xml` file, like this:
 
@@ -77,9 +80,9 @@ A class from Adobe Commerce 1 codebase could not be found in Adobe Commerce 2 co
 
 <h3 id="possible-solutions">Possible solutions</h3>
 
-* Install the corresponding Adobe Commerce 2 extension.    
-* Ignore the attribute that causes the issue.    For this, add the attribute to the `ignore` group in the `eav-attribute-groups.xml.dist` file.    
-* Add class mapping using the `class-map.xml.dist` file.    
+* Install the corresponding Adobe Commerce 2 extension.
+* Ignore the attribute that causes the issue.    For this, add the attribute to the `ignore` group in the `eav-attribute-groups.xml.dist` file.
+* Add class mapping using the `class-map.xml.dist` file.
 
 <h2 id="foreign-key-constraint-fails">Foreign key constraint fails</h2>
 
