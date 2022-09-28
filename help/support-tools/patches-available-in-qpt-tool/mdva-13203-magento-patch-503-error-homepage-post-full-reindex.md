@@ -1,7 +1,10 @@
 ---
 title: "MDVA-13203 patch: 503 error homepage post full reindex"
 labels: 2.2.4,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,503,503 error,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,database,integrity constraint violation,maintenance,support tools,Adobe Commerce,on-premises,cloud infrastructure
+description: "The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\\[23000\\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed."
 ---
+
+# MDVA-13203 patch: 503 error homepage post full reindex
 
 The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\[23000\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed.
 
@@ -22,7 +25,7 @@ The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a
 1. Go to the affected URL.
 1. You see the maintenance page.
 1. Check that the site is not in maintenance status via SSH:
-    <pre> bin/magento maintenance:status  
+    <pre> bin/magento maintenance:status
     Status: maintenance mode is not active
     List of exempt IP-addresses: none</pre>
 1. Look at `system.log`:
@@ -47,7 +50,7 @@ Tue Sep  4 17:06:11 UTC 2018</pre>
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 

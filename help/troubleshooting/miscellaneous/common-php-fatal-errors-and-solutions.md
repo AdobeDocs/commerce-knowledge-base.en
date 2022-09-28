@@ -1,7 +1,10 @@
 ---
 title: Common PHP Fatal Errors and solutions
 labels: Magento Commerce,Adobe Commerce,PHP Fatal Error,troubleshooting
+description: "This article lists some common PHP Fatal Error quick examples that you could find when looking through your Adobe Commerce logs and the solutions for problems they indicate."
 ---
+
+# Common PHP Fatal Errors and solutions
 
 This article lists some common PHP Fatal Error quick examples that you could find when looking through your Adobe Commerce logs and the solutions for problems they indicate.
 

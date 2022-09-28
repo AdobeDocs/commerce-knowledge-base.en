@@ -1,7 +1,10 @@
 ---
 title: Redirect to parent environment when accessing new Integration environment
 labels: 2.x.x,Magento Commerce Cloud,base_url,redirect,troubleshooting,Adobe Commerce,cloud infrastructure
+description: "This article provides troubleshooting instructions for the Adobe Commerce on cloud infrastructure issue where trying to access the newly created Integration environment takes you to the parent environment instead."
 ---
+
+# Redirect to parent environment when accessing new Integration environment
 
 This article provides troubleshooting instructions for the Adobe Commerce on cloud infrastructure issue where trying to access the newly created Integration environment takes you to the parent environment instead.
 
@@ -39,22 +42,22 @@ Changes in the database can be done either manually or using the Adobe Commerce 
 1. Connect to the database.
 1. Run the following commands:
 
-```sql    
-UPDATE core_config_data SET value = %your_new_environment_unsecure_url% WHERE path="web/unsecure/base_url"    
+```sql
+UPDATE core_config_data SET value = %your_new_environment_unsecure_url% WHERE path="web/unsecure/base_url"
 ```
 ```sql
 update core_config_data set value = %your_new_environment_secure_url% where path="web/secure/base_url"
-```      
+```
 
 #### Correct the database using Adobe Commerce CLI (available for versions 2.2.X)
 
 1. Log in as, or switch to, the [Adobe Commerce file system owner](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/apache-user.html).
 1. Run the following commands:
 
-```bash    
-php <your_magento_install_dir>/bin/magento config:set web/unsecure/base_url http://example.com    
+```bash
+php <your_magento_install_dir>/bin/magento config:set web/unsecure/base_url http://example.com
 php <your_magento_install_dir>/bin/magento config:set web/secure/base_url https://example.com
-```    
+```
 
 ### Set the `UPDATE_URLS` variable
 

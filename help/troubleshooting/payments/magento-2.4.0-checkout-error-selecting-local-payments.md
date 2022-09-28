@@ -1,7 +1,10 @@
 ---
 title: "Adobe Commerce 2.4.0: Checkout error selecting local payments"
 labels: 2.4.0,Braintree,Magento Commerce,Magento Commerce Cloud,billing address,checkout,known issues,payment method,Adobe Commerce,cloud infrastructure,on-premises,troubleshooting
+description: "This article talks about a solution for a known issue in Adobe Commerce during checkout where an error message appears when selecting a local payment method for some countries. This occurs for the countries: Belgium, Italy, Netherlands, Poland, and Spain."
 ---
+
+# Adobe Commerce 2.4.0: Checkout error selecting local payments
 
 This article talks about a solution for a known issue in Adobe Commerce during checkout where an error message appears when selecting a local payment method for some countries. This occurs for the countries: Belgium, Italy, Netherlands, Poland, and Spain.
 

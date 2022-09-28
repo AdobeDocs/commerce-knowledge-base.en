@@ -1,7 +1,10 @@
 ---
 title: Low disk space
 labels: 2.2.x,2.3.x,Magento Commerce Cloud,cron,disk space,how to,Adobe Commerce,cloud infrastructure,Pro,Starter
+description: "This article suggests solutions for the situation when you run out of space on a certain environment of Adobe Commerce on cloud infrastructure."
 ---
+
+# Low disk space
 
 This article suggests solutions for the situation when you run out of space on a certain environment of Adobe Commerce on cloud infrastructure.
 
@@ -32,7 +35,7 @@ Custom import/export files are also stored in the `var` directory, and take spac
 Solution options:
 
 * Check if you have large log files and investigate why they are big, fix the issue generating a big amount of log output.
-* Clean the `var` directory.    
+* Clean the `var` directory.
 * Set up a cron job to track the size of the `var` directory and clean it.
 * Allocate more disk space, if you have some unused. (See the section below for information on how to check what is your space limit.)
     * For Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused, as described in [Manage disk space: Allocating disk space](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html#application-disk-space).
@@ -43,8 +46,8 @@ Solution options:
 
 To check how much space you have for each environment:
 
-1. As the Adobe Commerce on cloud infrastructure account owner, log in to your project.    
-1. In the upper right corner, click **<your name>** > **Account Settings**.    
+1. As the Adobe Commerce on cloud infrastructure account owner, log in to your project.
+1. In the upper right corner, click **<your name>** > **Account Settings**.
 1. On the project tab, see the amount specified, for example:
 
-    ![project_space.png](assets/project_space.png)    
+    ![project_space.png](assets/project_space.png)

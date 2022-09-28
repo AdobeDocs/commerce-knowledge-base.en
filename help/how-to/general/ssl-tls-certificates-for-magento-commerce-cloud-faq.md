@@ -1,7 +1,10 @@
 ---
 title: "SSL (TLS) certificates for Adobe Commerce on cloud infrastructure"
 labels: FAQ,how to,SSL certificates,Magento Commerce Cloud,starter,pro,certificate request,Adobe Commerce
+description: "This article provides quick answers to questions about getting SSL (TLS) certificates for your Adobe Commerce site on our cloud infrastructure."
 ---
+
+# SSL (TLS) certificates for Adobe Commerce on cloud infrastructure
 
 This article provides quick answers to questions about getting SSL (TLS) certificates for your Adobe Commerce site on our cloud infrastructure.
 

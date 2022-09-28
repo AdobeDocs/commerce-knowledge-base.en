@@ -1,7 +1,10 @@
 ---
 title: During installation, exception SessionHandler::read()
 labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,PHP,SessionHandler,exception,how to,troubleshooting,Adobe Commerce,installation,cloud infrastructure,on-premises
+description: "This article provides a fix for an exception **SessionHandler::read()** error during Adobe Commerce installation."
 ---
+
+# During installation, exception SessionHandler::read()
 
 This article provides a fix for an exception **SessionHandler::read()** error during Adobe Commerce installation.
 
@@ -46,12 +49,12 @@ Typical locations follow:
 
 1. As a user with `root` privileges, open `php.ini` in a text editor.
 1. Locate `session.save_handler`
-1. Set it in any of the following ways:    
+1. Set it in any of the following ways:
     * To comment it out:
     ```php
     ;session.save_path = <path>
-    ```    
+    ```
     * To set it to a file system path:
     ```php
     session.save_handler = files
-    ```    
+    ```

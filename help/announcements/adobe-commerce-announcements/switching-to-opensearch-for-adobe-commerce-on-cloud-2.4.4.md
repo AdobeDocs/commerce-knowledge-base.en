@@ -2,13 +2,16 @@
 title: Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4
 labels: 2.4.4,Adobe Commerce,cloud infrastructure,announcements,Elasticsearch 7.10, Elasticsearch 7.16,End of Life,Opensearch 1.2.x,on-premises
 promoted: True
+description: "Adobe Commerce on cloud infrastructure 2.4.4 will not support versions of Elasticsearch after 7.10. **You must upgrade to Adobe Commerce 2.4.4 first and then immediately switch from Elasticsearch to OpenSearch 1.2.x.** Adobe will provide detailed instructions closer to the Adobe Commerce 2.4.4 GA release."
 ---
+
+# Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4
 
 Adobe Commerce on cloud infrastructure 2.4.4 will not support versions of Elasticsearch after 7.10. **You must upgrade to Adobe Commerce 2.4.4 first and then immediately switch from Elasticsearch to OpenSearch 1.2.x.** Adobe will provide detailed instructions closer to the Adobe Commerce 2.4.4 GA release.
 
 Adobe Commerce on-premises is adding support for Elasticsearch 7.16 and OpenSearch 1.2 in all March 2022 patch releases (2.4.4, 2.4.3-p2, and 2.3.7-p3). In 2.4.4, Adobe Commerce on cloud infrastructure will move to OpenSearch as the default search engine, so merchants must use OpenSearch in place of Elasticsearch before upgrading to Adobe Commerce 2.4.4 or later. Merchants with Adobe Commerce on-premises deployments can use Elasticsearch or OpenSearch because Adobe Commerce will continue to support both.
 
-## What is OpenSearch?  
+## What is OpenSearch?
 
 OpenSearch is a fork of Elasticsearch and Kibana. It is maintained by AWS instead of Elastic.co. To learn more, review GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch).
 

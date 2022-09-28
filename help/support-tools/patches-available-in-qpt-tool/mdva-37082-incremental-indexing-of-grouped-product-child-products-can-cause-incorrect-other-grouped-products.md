@@ -1,7 +1,10 @@
 ---
 title: "MDVA-37082: Incorrect partial index of stock status for grouped products"
 labels: QPT Patches,Quality Patches Tool,support tools,QPT 1.0.25,Magento Commerce Cloud,Magento Commerce,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1, 2.4.2,2.4.2-p1
+description: "The MDVA-37082 Magento patch fixes the issue when the partial index of stock status for grouped products is wrong for custom stocks. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue is scheduled to be fixed in Magento 2.4.4."
 ---
+
+# MDVA-37082: Incorrect partial index of stock status for grouped products
 
 The MDVA-37082 Magento patch fixes the issue when the partial index of stock status for grouped products is wrong for custom stocks. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
 
@@ -37,7 +40,7 @@ Incremental indexing of grouped product child products can cause incorrect other
 
 Grouped Product is not out of stock after saving another Grouped Product with Up-sell. The issue is resolved after a full re-index.
 
-<ins>Actual results</ins>:  
+<ins>Actual results</ins>:
 
 The 2nd Grouped Product goes out of stock when you save the 1st Grouped Product.
 

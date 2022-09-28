@@ -1,7 +1,10 @@
 ---
 title: 'MDVA-32655: "quoteItemCleaner" consumer executes one message per execution'
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT patches,Magento Commerce,Magento Commerce Cloud,catalog,catalog_category_product,performance,quoteItemCleaner,slow,support tools,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
+description: "The MDVA-32655 patch fixes the incorrect \"in progress\" message status to the correct \"complete\" message for consumer `quoteItemCleaner` after deleting several products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.18 is installed. The patch ID is 32655. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---
+
+# MDVA-32655: "quoteItemCleaner" consumer executes one message per execution
 
 The MDVA-32655 patch fixes the incorrect "in progress" message status to the correct "complete" message for consumer `quoteItemCleaner` after deleting several products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.18 is installed. The patch ID is 32655. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -30,10 +33,10 @@ The `quoteItemCleaner` consumer executes only one message on each execution.
 1. Create two or three simple products.
 1. Do a mass delete on those three simple products.
 1. In the `queue_message_status` table you see that there are three new records for the `catalog_product_removed_queue` topic with status ID 2 (new record).
-1. Run the following command to process these pending `catalog_product_removed_queue` messages:    
+1. Run the following command to process these pending `catalog_product_removed_queue` messages:
     ```bash
-    bin/magento queue:consumers:start quoteItemCleaner --single-thread --max-messages=100    
-    ```    
+    bin/magento queue:consumers:start quoteItemCleaner --single-thread --max-messages=100
+    ```
 
 <ins>Expected results</ins>:
 

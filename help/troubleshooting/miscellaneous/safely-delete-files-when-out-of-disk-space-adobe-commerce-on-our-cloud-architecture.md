@@ -1,8 +1,11 @@
 ---
 title: Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure
 labels: troubleshooting,disk,disk space,Magento Commerce Cloud,space,data,file,Adobe Commerce,cloud infrastructure,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,Pro
+description: "This article provides a solution for when you run out of disk space and need to safely remove files. Before considering this action, review [Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#no-space-left) in our developer documentation. If the steps in that article are not appropriate for you or do not solve the issue, review the steps in this article."
 ---
-This article provides a solution for when you run out of disk space and need to safely remove files. Before considering this action, review [Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#no-space-left) in our developer documentation. If the steps in that article are not appropriate for you or do not solve the issue, review the steps in this article.
+
+# Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure
+
 
 
 ## Affected products and versions
@@ -26,7 +29,7 @@ You can delete files from the application's mount points, from your `/app` path 
 >![warning]
 >
 >**Never modify or delete the contents of `/data/exports`**.
-`/data/exports` is the underlying storage behind the shared filesystem, and it is managed by GlusterFS. 
+`/data/exports` is the underlying storage behind the shared filesystem, and it is managed by GlusterFS.
 The filesystem there contains not only the file contents, but metadata about the state of the filesystem to allow for synchronization >between the nodes of your cluster. **Changing or deleting files directly within this filesystem will corrupt the shared >filesystem, requiring extensive repairs or data recovery.**
 
 To locate the largest files that might be good candidates for clearing, run the following command:

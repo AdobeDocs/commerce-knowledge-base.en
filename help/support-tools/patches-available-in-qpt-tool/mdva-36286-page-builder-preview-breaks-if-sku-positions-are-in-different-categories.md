@@ -1,7 +1,10 @@
 ---
 title: "MDVA-36286: Page Builder preview breaks if SKU positions in different categories"
 labels: 2.3.6,2.3.6-p1,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2-p1,2.4.2,2.3.7,QPT 1.0.23,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,products,Page Builder,SKU,Adobe Commerce,cloud infrastructure,on-premises
+description: "The MDVA-36286 patch solves the issue where the Page Builder products widget preview breaks if the same SKU has a different position in subcategories. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.23 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---
+
+# MDVA-36286: Page Builder preview breaks if SKU positions in different categories
 
 The MDVA-36286 patch solves the issue where the Page Builder products widget preview breaks if the same SKU has a different position in subcategories. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.23 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -24,7 +27,7 @@ Adobe Commerce on cloud infrastructure 2.3.6
 <ins>Steps to reproduce:</ins>
 
 1. Create a category with a few products.
-        ![products_magento_ordered.png](assets/products_magento_ordered.png)  
+        ![products_magento_ordered.png](assets/products_magento_ordered.png)
 1. Create a subcategory with the same products but with different positions.
         ![products_magento_different_position.png](assets/products_magento_different_position.png)
 1. Edit a CMS page content to add a Product widget via Page Builder. (Select the parent category above).

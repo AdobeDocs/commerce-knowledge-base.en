@@ -1,7 +1,10 @@
 ---
 title: Custom SSL certificate expiration information
 labels: ssl,certificate,Adobe Commerce,cloud infrastructure,custom,button,troubleshooting,security,Magento,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1-p1,2.4.2,2.4.2-p1,2.3.7-p1,2.3.7-p2,2.4.1,2.4.2-p2,2.4.3,2.4.3-p1
+description: "This article provides a solution for when a custom SSL certificate was updated with an Adobe provided SSL certificate."
 ---
+
+# Custom SSL certificate expiration information
 
 This article provides a solution for when a custom SSL certificate was updated with an Adobe provided SSL certificate.
 
@@ -11,7 +14,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://magento
 
 ## Issue
 
-Adobe Commerce automatically updates SSL certificates 30 days prior to expiration. This automation does not check if the certificate being replaced is an internal SSL or a custom third-party SSL and will replace it with a valid internal SSL upon detection of expiration. This can cause confusion for site owners and operators that expect to have the custom certificate on the site, as well as the potential for other functionality issues including, but not limited to, a site outage. 
+Adobe Commerce automatically updates SSL certificates 30 days prior to expiration. This automation does not check if the certificate being replaced is an internal SSL or a custom third-party SSL and will replace it with a valid internal SSL upon detection of expiration. This can cause confusion for site owners and operators that expect to have the custom certificate on the site, as well as the potential for other functionality issues including, but not limited to, a site outage.
 
 <ins>Steps to reproduce</ins>
 

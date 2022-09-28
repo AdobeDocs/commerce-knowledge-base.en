@@ -1,7 +1,10 @@
 ---
 title: Cybersource payment from Admin and front on different domains not processed
-labels: 2.3.0,Cybersource,Magento Commerce,known issues,patch,troubleshooting,payment,domain,Commerce Admin,store front,Adobe Commerce,cloud infrastructure,on-premises  
+labels: 2.3.0,Cybersource,Magento Commerce,known issues,patch,troubleshooting,payment,domain,Commerce Admin,store front,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article provides a patch for the known Adobe Commerce 2.3.0 limitation related to not having the ability to process Cybersource payments from both storefront and the Commerce Admin, if they are on different domains."
 ---
+
+# Cybersource payment from Admin and front on different domains not processed
 
 This article provides a patch for the known Adobe Commerce 2.3.0 limitation related to not having the ability to process Cybersource payments from both storefront and the Commerce Admin, if they are on different domains.
 

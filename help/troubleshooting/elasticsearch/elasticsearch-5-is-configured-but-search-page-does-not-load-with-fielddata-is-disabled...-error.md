@@ -1,7 +1,10 @@
 ---
 title: Elasticsearch 5 is configured, but search page does not load with "Fielddata is disabled..." error
 labels: 2.2.x,Magento Commerce,elasticsearch,search,troubleshooting,Adobe Commerce
+description: "This topic describes how to fix the issue with Elasticsearch 5, where the search page does not load, and the exception similar to the following is thrown:"
 ---
+
+# Elasticsearch 5 is configured, but search page does not load with "Fielddata is disabled..." error
 
 This topic describes how to fix the issue with Elasticsearch 5, where the search page does not load, and the exception similar to the following is thrown:
 
@@ -59,7 +62,7 @@ To fix the issue, you need to set `is_filterable` (that is, used in Layered Navi
 1. Run the Catalog Search full reindex using the following command:
     ```bash
     bin/magento indexer:reindex catalogsearch_fulltext
-    ```    
+    ```
 1. Clean cache by running
     ```bash
     bin/magento cache:clean

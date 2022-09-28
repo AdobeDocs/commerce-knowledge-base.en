@@ -1,7 +1,10 @@
 ---
 title: "MDVA-31363 patch: Cart price rule does not apply (GraphQL)"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.1,GraphQL,QPT 1.0.9,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,cart price rule,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
+description: ">![warning]"
 ---
+
+# MDVA-31363 patch: Cart price rule does not apply (GraphQL)
 
 >![warning]
 >

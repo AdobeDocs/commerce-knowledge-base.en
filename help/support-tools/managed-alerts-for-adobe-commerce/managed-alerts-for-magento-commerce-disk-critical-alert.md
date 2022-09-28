@@ -1,7 +1,10 @@
 ---
 title: "Managed alerts for Adobe Commerce: disk critical alert"
 labels: Magento Commerce Cloud,New Relic,alert,critical,disk space,how to,maintenance mode,mysql disk space,threshold,troubleshooting,Adobe Commerce,cloud infrastructure,Pro
+description: "This article provides troubleshooting steps when you receive a critical disk alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected."
 ---
+
+# Managed alerts for Adobe Commerce: disk critical alert
 
 This article provides troubleshooting steps when you receive a critical disk alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 
@@ -46,7 +49,7 @@ Follow these steps to identify and troubleshoot the cause.
     * Optimizing disk space by adjusting space allocation. For steps, refer to [Manage Disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in our developer documentation. You may also need to request more disk space (contact your CSM).
     * Clear up disk space for MySQL. Refer to [MySQL disk space is low](https://support.magento.com/hc/en-us/articles/360037591972) in our support knowledge base for steps.
     * If New Relic shows rapidly increasing disk usage, this could indicate that there is a problem that has caused a file to increase very quickly in a directory. Do the following checks:
-1. Check overall disk space to identify the problem by running the following command in the CLI/Terminal: `df -h`  
+1. Check overall disk space to identify the problem by running the following command in the CLI/Terminal: `df -h`
 1. After you identify a directory with unexpectedly large and increasing disk usage, you need to check the affected file system. The following example shows how to check the file directory `pub/media/`. This is the directory Commerce uses for storing logs and big media files. However, you should run this command for any directory that shows unexpected disk usage: `du -sch ~/pub/media/*`
 
 If the output from the terminal shows a file in one of these directories rapidly increasing in disk usage and you know that the file's content is not needed, consider removing the file. If you are not comfortable taking this action, [submit an Adobe Commerce support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).

@@ -1,7 +1,10 @@
 ---
 title: "Vertex Address Cleansing: different addresses not allowed"
 labels: 2.3.5-p1,2.4.0,Magento Commerce,Magento Commerce Cloud,Vertex,address,billing,checkout,how to,known issues,shipping,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article talks about the solution for the issue where when the user tries to enter a **different** billing and shipping address, with Vertex address validation enabled, the storefront will not let the user enter it."
 ---
+
+# Vertex Address Cleansing: different addresses not allowed
 
 This article talks about the solution for the issue where when the user tries to enter a **different** billing and shipping address, with Vertex address validation enabled, the storefront will not let the user enter it.
 

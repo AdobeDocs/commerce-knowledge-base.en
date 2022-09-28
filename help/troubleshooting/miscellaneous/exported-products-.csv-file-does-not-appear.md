@@ -1,7 +1,10 @@
 ---
 title: Exported products .csv file does not appear
 labels: 2.3.2,Magento Commerce Cloud,csv file,export,exportProcessor,exported,how to,products,Adobe Commerce,cloud infrastructure
+description: "This article provides a fix for the issue where you try to export products to a .csv file in the Commerce Admin, but the file does not appear."
 ---
+
+# Exported products .csv file does not appear
 
 This article provides a fix for the issue where you try to export products to a .csv file in the Commerce Admin, but the file does not appear.
 
@@ -17,7 +20,7 @@ Prerequisites: The **Add Secret Key to URLs** option is set to *Yes*. The option
 
 1. In the Admin, navigate to **System** > **Data Transfer** > **Export**.
 
-    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)    
+    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)
 
 1. Select
     * **Entity Type**: *Products*
@@ -64,7 +67,7 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
 #### Add process as a cron job (optional)
 
 1. Make sure your cron is setup and configured. See [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html) for details.
-1. Run the following command to return a list of message queue consumers:     `./bin/magento queue:consumers:list`     
+1. Run the following command to return a list of message queue consumers:     `./bin/magento queue:consumers:list`
 1. Add the following to your `.magento.env.yaml` file in the Magento `/app` directory, and include the consumers you would like to add. For example, here is the consumer required for export processing:
    ```yaml
    stage:

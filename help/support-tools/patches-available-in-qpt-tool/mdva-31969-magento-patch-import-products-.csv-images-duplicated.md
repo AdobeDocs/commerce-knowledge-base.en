@@ -1,7 +1,10 @@
 ---
 title: "MDVA-31969 patch: import products .csv images duplicated"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.14,Magento Commerce Cloud,csv file,duplicate,images,images-issues,import,product image,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
+description: "The MDVA-31969 patch fixes the issue where images are duplicated when importing two products .csv files. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.14 is installed."
 ---
+
+# MDVA-31969 patch: import products .csv images duplicated
 
 The MDVA-31969 patch fixes the issue where images are duplicated when importing two products .csv files. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.14 is installed.
 
@@ -25,7 +28,7 @@ New product images are created in the `pub/media` folder, even if the same image
 
 <ins>Steps to reproduce</ins>:
 
-1. Create a directory for images: `mkdir var/import-images`    
+1. Create a directory for images: `mkdir var/import-images`
 1. Add images inside the path `<install dir>/var/import-images`.
 1. Import the product .csv file twice.
 

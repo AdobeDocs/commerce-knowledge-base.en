@@ -1,7 +1,10 @@
 ---
 title: 403 errors when accessing Site-Wide Analysis Tool on Adobe Commerce
 labels: 2.4.1,2.4.1-p1,2.4.2,2.4.3,Magento Commerce Cloud,Site-Wide Analysis Tool,admin,error,permissions,troubleshooting,Magento,Adobe Commerce,cloud infrastructure
+description: "This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Adobe Commerce."
 ---
+
+# 403 errors when accessing Site-Wide Analysis Tool on Adobe Commerce
 
 This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Adobe Commerce.
 

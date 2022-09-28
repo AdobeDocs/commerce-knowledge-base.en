@@ -1,7 +1,10 @@
 ---
 title: Database best practices for Adobe Commerce on cloud infrastructure
 labels: Magento Commerce Cloud,MySQL,Pro,Starter,best practices,database,ece-tools,lock,performance,triggers,Adobe Commerce,cloud infrastructure
+description: ">![warning]"
 ---
+
+# Database best practices for Adobe Commerce on cloud infrastructure
 
 >![warning]
 >
