@@ -1,10 +1,7 @@
 ---
-description: The MDVA-43935 patch fixes the issue where the upsell product is being shown twice on the product page. This patch is available when the Quality Patches Tool (QPT) 1.1.13 is installed. The patch ID is MDVA-43935. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-43935: Upsell product shown twice on product page"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.13,Upsell,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4,upsell product,product page
-title: 'MDVA-43935: Upsell product shown twice on product page'
 ---
-
-# MDVA-43935: Upsell product shown twice on product page
 
 The MDVA-43935 patch fixes the issue where the upsell product is being shown twice on the product page. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.13 is installed. The patch ID is MDVA-43935. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,15 +15,15 @@ The MDVA-43935 patch fixes the issue where the upsell product is being shown twi
 
 * Adobe Commerce (all deployment methods) 2.4.1 - 2.4.4
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The upsell product is being shown twice on the product page.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a subcategory.
 1. Create a simple product.
@@ -34,11 +31,11 @@ The upsell product is being shown twice on the product page.
 1. Flush caches and perform reindex.
 1. Open the simple product on the storefront.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The bundle product is listed as upsell only once.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The bundle product is listed twice.
 

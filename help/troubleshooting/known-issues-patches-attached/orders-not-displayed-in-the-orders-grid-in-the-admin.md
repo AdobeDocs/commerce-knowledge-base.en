@@ -1,10 +1,7 @@
 ---
-description: This article provides a patch for the known Adobe Commerce 2.2.1 issue related to the orders not being displayed in the Orders grid in the Commerce Admin.
-labels: 2.2.1,known issue,orders,patch,Commerce Admin,Adobe Commerce,cloud infrastructure,on-premises,Magento Commerce,Magento Commerce Cloud
 title: Orders not displayed in the Orders grid in the Admin
+labels: 2.2.1,known issue,orders,patch,Commerce Admin,Adobe Commerce,cloud infrastructure,on-premises,Magento Commerce,Magento Commerce Cloud
 ---
-
-# Orders not displayed in the Orders grid in the Admin
 
 This article provides a patch for the known Adobe Commerce 2.2.1 issue related to the orders not being displayed in the Orders grid in the Commerce Admin.
 
@@ -14,11 +11,11 @@ In the Adobe Commerce 2.2.1 with B2B extension installed, orders created on the 
 
 `report.CRITICAL: You cannot define a correlation name ‘company_order’ more than once`
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Your store catalog contains products, not Adobe Commerce sample data, and the B2B extension is installed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Navigate to the store front and create a customer account.
 1. Add a product to the shopping cart, complete checkout and submit an order.
@@ -27,11 +24,11 @@ Your store catalog contains products, not Adobe Commerce sample data, and the B2
 1. For the newly created customer click **Edit**.
 1. Click **Orders** in the panel on the left.
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
 The recently submitted order is listed in the grid.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
 
 The Orders grid does not display. A blank page displays instead.
 

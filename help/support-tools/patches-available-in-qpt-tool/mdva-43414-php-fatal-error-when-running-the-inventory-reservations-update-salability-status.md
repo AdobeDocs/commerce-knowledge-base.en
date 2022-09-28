@@ -1,10 +1,7 @@
 ---
-description: The MDVA-43414 patch solves the PHP fatal error that occurs when running the `inventory.reservations.updateSalabilityStatus` queue consumer on numerical SKUs. This patch is available when the Quality Patches Tool (QPT) 1.1.12 is installed. The patch ID is MDVA-43414. Please note that the issue was fixed in Adobe Commerce 2.4.2.
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,PHP fatal error,inventory.reservations.updateSalabilityStatus,numerical SKUs,queue consumer,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2
 title: 'MDVA-43414: PHP fatal error when running "inventory.reservations.updateSalabilityStatus"'
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,PHP fatal error,inventory.reservations.updateSalabilityStatus,numerical SKUs,queue consumer,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2
 ---
-
-# MDVA-43414: PHP fatal error when running "inventory.reservations.updateSalabilityStatus"
 
 The MDVA-43414 patch solves the PHP fatal error that occurs when running the `inventory.reservations.updateSalabilityStatus` queue consumer on numerical SKUs. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-43414. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -18,19 +15,19 @@ The MDVA-43414 patch solves the PHP fatal error that occurs when running the `in
 
 * Adobe Commerce (all deployment methods) 2.3.6 - 2.3.7-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 PHP fatal error occurs when running the "inventory.reservations.updateSalabilityStatus" queue consumer on numerical SKUs.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Inventory modules installed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a custom inventory source and assign it to a new inventory stock.
 1. Create a product with the custom inventory source.
@@ -38,14 +35,13 @@ Inventory modules installed.
 1. Place an order.
 1. Run the `bin/magento queue:consumer:start inventory.reservations.updateSalabilityStatus` command.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The queue starts without any error.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 PHP fatal error occurs:
-
 ```PHP
 PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\InventoryIndexer\Model\Queue\UpdateIndexSalabilityStatus\IndexProcessor::getIndexSalabilityStatus() must be of the type string, int given, called in /vendor/magento/module-inventory-indexer/Model/Queue/UpdateIndexSalabilityStatus/IndexProcessor.php on line 119 and defined in /vendor/magento/module-inventory-indexer/Model/Queue/UpdateIndexSalabilityStatus/IndexProcessor.php:136
 ```

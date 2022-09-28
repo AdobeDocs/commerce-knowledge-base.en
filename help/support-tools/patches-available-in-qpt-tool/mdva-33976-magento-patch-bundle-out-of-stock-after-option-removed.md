@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33976 patch fixes the issue where a bundle product is shown as Out Of Stock after one of its options has been removed in Admin. This patch is available when the Quality Patches Tool (QPT) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+title: "MDVA-33976 patch: bundle Out Of Stock after option removed"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33976 patch: bundle Out Of Stock after option removed'
 ---
-
-# MDVA-33976 patch: bundle Out Of Stock after option removed
 
 The MDVA-33976 patch fixes the issue where a bundle product is shown as Out Of Stock after one of its options has been removed in Admin. This patch is available when the [Quality Patches Tool (QPT) 1.0.15](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -14,24 +11,24 @@ The MDVA-33976 patch fixes the issue where a bundle product is shown as Out Of S
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0-2.3.6-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Open a bundle product in the Commerce Admin.
 1. Remove one of the bundle product options.
 1. Save changes.
 1. Open product on the storefront.
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
 The bundle product stock status is updated according to the child product stock status.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
 
 The bundle product is displayed as Out Of Stock, no matter what is the status of the child product.
 

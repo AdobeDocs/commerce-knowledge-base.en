@@ -1,10 +1,7 @@
 ---
-description: This article discusses how to change the increment ID for an Adobe Commerce database (DB) entity (order, invoice, credit memo, etc.) on a particular Adobe Commerce store using the `ALTER TABLE` SQL statement.
-labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,MySQL,credit,database,how to,id,increment,invoice,memo,order,sql,store,Adobe Commerce,on-premises,cloud infrastructure
 title: Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store
+labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,MySQL,credit,database,how to,id,increment,invoice,memo,order,sql,store,Adobe Commerce,on-premises,cloud infrastructure
 ---
-
-# Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store
 
 This article discusses how to change the increment ID for an Adobe Commerce database (DB) entity (order, invoice, credit memo, etc.) on a particular Adobe Commerce store using the `ALTER TABLE` SQL statement.
 
@@ -21,7 +18,7 @@ You might need to change the increment ID for new DB entities in these cases:
 * After a hard backup restore on a Live site
 * Some order records have been lost, but their IDs are already being used by payment gateways (like PayPal) for your current Merchant account. Such being the case, the payment gateways stop processing new orders that have the same ID's, returning the "Duplicate invoice id" error
 
->[!NOTE]
+>![info]
 >
 >You may also fix the payment gateway issue for PayPal by allowing multiple payments per invoice ID in PayPal's Payment Receiving Preferences. See [PayPal gateway rejected request - duplicate invoice issue](https://support.magento.com/hc/en-us/articles/115002457473) in our support knowledge base.
 
@@ -57,9 +54,9 @@ Update the entity using the following query:
 ALTER TABLE sequence_{entity_type}_{store_id} AUTO_INCREMENT = {new_increment_value};
 ```
 
->[!IMPORTANT]
+>![warning]
 >
->The new increment value must be greater than the current one, not less!
+>Important: The new increment value must be greater than the current one, not less!
 
 ### Example
 

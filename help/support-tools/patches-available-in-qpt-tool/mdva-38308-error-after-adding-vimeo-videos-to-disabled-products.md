@@ -1,10 +1,7 @@
 ---
-description: 'The MDVA-38308 quality patch for Adobe Commerce solves the issue where users get the error message: *Notice: Undefined index: extension in /lib/internal/Magento/Framework/File/Uploader.php on line 806,* when adding Vimeo videos to disabled products. This patch is available when the Quality Patches Tool (QPT) 1.0.26 is installed. The patch ID is MDVA-38308. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.'
+title: "MDVA-38308: Error after adding Vimeo videos to disabled products"
 labels: QPT patches,Quality Patches Tool,QPT,Support Tools,QPT fixes,Magento Commerce,Magento Commerce Cloud,disabled products,Vimeo,videos,error message,QPT 1.0.26,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce
-title: 'MDVA-38308: Error after adding Vimeo videos to disabled products'
 ---
-
-# MDVA-38308: Error after adding Vimeo videos to disabled products
 
 The MDVA-38308 quality patch for Adobe Commerce solves the issue where users get the error message: *Notice: Undefined index: extension in /lib/internal/Magento/Framework/File/Uploader.php on line 806,* when adding Vimeo videos to disabled products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-38308. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -16,25 +13,25 @@ Adobe Commerce on cloud infrastructure 2.4.1-p1, 2.4.2-p1
 **Compatible with Adobe Commerce versions:**
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.5 - 2.3.6-p1, 2.4.0 - 2.4.1-p1, 2.4.2 - 2.4.2-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When adding Vimeo videos to disabled products, you receive the following error message:  *Notice: Undefined index: extension in /lib/internal/Magento/Framework/File/Uploader.php on line 806*
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a simple product.
 1. Disable the created product.
 1. Try to add a Vimeo video to the disabled product.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Video is added without any error.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 You get the following error:  
 *Notice: Undefined index: extension in /lib/internal/Magento/Framework/File/Uploader.php on line 806*

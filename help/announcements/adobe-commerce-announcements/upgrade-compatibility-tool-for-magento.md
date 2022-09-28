@@ -1,10 +1,7 @@
 ---
-description: The Upgrade Compatibility Tool 1.1.0 is a command-line tool that checks an Adobe Commerce customized instance against a specific version by analyzing all modules and core code installed in it. It returns a list of critical errors, issues, and warnings that must be addressed before upgrading to the latest version of Adobe Commerce.
-labels: CLI,GraphQL,Magento Commerce Cloud,PHP,Upgrade Compatibility Tool,announcements,command line,deprecated,reports,update,upgrade,version,1.1.0,Adobe Commerce,cloud infrastructure
 title: Upgrade Compatibility Tool 1.1.0 for Adobe Commerce
+labels: CLI,GraphQL,Magento Commerce Cloud,PHP,Upgrade Compatibility Tool,announcements,command line,deprecated,reports,update,upgrade,version,1.1.0,Adobe Commerce,cloud infrastructure
 ---
-
-# Upgrade Compatibility Tool 1.1.0 for Adobe Commerce
 
 The Upgrade Compatibility Tool 1.1.0 is a command-line tool that checks an Adobe Commerce customized instance against a specific version by analyzing all modules and core code installed in it. It returns a list of critical errors, issues, and warnings that must be addressed before upgrading to the latest version of Adobe Commerce.
 
@@ -20,7 +17,6 @@ The Upgrade Compatibility Tool 1.1.0 introduces significant improvements, includ
 * **Delta issues between two versions**: with this improvement proposed by our community members, UCT users will be able to get a delta of the issues between two versions, which will allow them to focus only on the new issues introduced for the target version they will upgrade.
 
 ## Which versions can the tool compare?
-
 You can use the tool to compare any 2.x version.
 
 ## Who can use the Upgrade Compatibility Tool 1.1.0?
@@ -32,7 +28,6 @@ Adobe Commerce customers.
 For installation steps, refer to Adobe Commerce: [Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) in our developer documentation. For prerequisites for using the tool, refer to Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) in our developer documentation.
 
 ## What is the number next to each issue?
-
 This is the error message reference that provides information about errors that can occur while executing the Upgrade Compatibility Tool.
 
 The Upgrade Compatibility Tool error messages are categorized by level (critical issues, errors, and warnings) and type (core code, custom code, and GraphQL schemas). Each type contains the following information:

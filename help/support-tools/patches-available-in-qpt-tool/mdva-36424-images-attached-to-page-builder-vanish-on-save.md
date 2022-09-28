@@ -1,10 +1,7 @@
 ---
-description: The MDVA-36424 patch solves the issue where the images attached to page builder elements disappear when the category is saved for the second time in the case of multiple websites, with the default website's base URL being different from the admin URL. This patch is available when the Quality Patches Tool (QPT) 1.0.21 is installed. The patch ID is MDVA-36424. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-36424: Images attached to page builder vanish on save"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.21,QPT patches,Magento Commerce,Magento Commerce Cloud,URL,content,images,save,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-36424: Images attached to page builder vanish on save'
 ---
-
-# MDVA-36424: Images attached to page builder vanish on save
 
 The MDVA-36424 patch solves the issue where the images attached to page builder elements disappear when the category is saved for the second time in the case of multiple websites, with the default website's base URL being different from the admin URL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-36424. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,15 +15,15 @@ Adobe Commerce on cloud infrastructure 2.3.6
 
 Adobe Commerce (all deployment methods) 2.3.5 - 2.4.1-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Media images attached to page builder elements are not saved if the backend base URL is different from the storefront base URL.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a second website - website2.
 1. Set a different base URL for website2 (the base URL used in admin should be different from the second website).
@@ -39,11 +36,11 @@ Media images attached to page builder elements are not saved if the backend base
 1. Save the category again.
 1. Go to the **Content** > *Description*.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The image is not removed when saving the category.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The image is removed after saving the category a second time.
 

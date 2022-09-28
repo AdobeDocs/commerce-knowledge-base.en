@@ -1,10 +1,7 @@
 ---
-description: The MDVA-26639 patch fixes the issue when a new order is created, the order items are missing in a confirmation email template.
+title: "MDVA-26639: no order items in new order confirmation email template"
 labels: 2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,confirmation email template,new order,order items missing,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-26639: no order items in new order confirmation email template'
 ---
-
-# MDVA-26639: no order items in new order confirmation email template
 
 The MDVA-26639 patch fixes the issue when a new order is created, the order items are missing in a confirmation email template.
 
@@ -16,9 +13,9 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.3-p1-2.3.5-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 

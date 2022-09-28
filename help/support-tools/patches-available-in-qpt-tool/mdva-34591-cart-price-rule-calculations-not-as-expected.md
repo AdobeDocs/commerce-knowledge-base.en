@@ -1,10 +1,7 @@
 ---
-description: The MDVA-34591 patch fixes the issue where the cart price rule with **Maximum Qty Discount is Applied To** does not work correctly if multiple cart price rules are applied. This patch is available when the Quality Patches Tool (QPT) 1.0.19 is installed. The patch ID is MDVA-34591. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
+title: "MDVA-34591: Cart price rule calculations not as expected"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,calculation,cart price rule,discount,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-34591: Cart price rule calculations not as expected'
 ---
-
-# MDVA-34591: Cart price rule calculations not as expected
 
 The MDVA-34591 patch fixes the issue where the cart price rule with **Maximum Qty Discount is Applied To** does not work correctly if multiple cart price rules are applied. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-34591. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 
@@ -18,13 +15,13 @@ Adobe Commerce on cloud infrastructure 2.3.6
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to the Admin, and create the following two rules:
 
@@ -37,7 +34,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.
 
 1. Check the discount amount in the cart.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The correct calculated discount is $234, as expected.
 
@@ -48,7 +45,7 @@ The correct calculated discount is $234, as expected.
   Apply Rule 1 (10 off 3 items), so Discount = $30\
   Total Discount = MIN ( 408/2 + 10x3, 8 &#42; 51) = MIN (204 + 30, 8 &#42; 51) = $234
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The discount is incorrectly calculated to be $153, caused by the wrong quantity used for calculating maximum discount value, as the fixed discount amount is applied regardless of the products' amount in the shopping cart.
 

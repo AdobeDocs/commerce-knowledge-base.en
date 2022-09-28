@@ -1,14 +1,11 @@
 ---
-description: This article provides a patch for the known Adobe Commerce 2.2.0 issue related to the newly created orders showing in the archive instead of the Orders grid in the Commerce Admin.
-labels: 2.2.0,Magento Commerce,known issues,orders,patch,troubleshooting,Adobe Commerce,cloud infrastructure,admin,on-premises
 title: New orders are sent to archive
+labels: 2.2.0,Magento Commerce,known issues,orders,patch,troubleshooting,Adobe Commerce,cloud infrastructure,admin,on-premises
 ---
-
-# New orders are sent to archive
 
 This article provides a patch for the known Adobe Commerce 2.2.0 issue related to the newly created orders showing in the archive instead of the Orders grid in the Commerce Admin.
 
->[!NOTE]
+>![info]
 >
 >The issue was fixed in 2.2.3 and later.
 
@@ -16,17 +13,17 @@ This article provides a patch for the known Adobe Commerce 2.2.0 issue related t
 
 When customers place orders, they appear in the archived orders grid instead of the regular orders grid.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Add any product to the cart on the storefront, proceed through checkout, and place the order.
 1. In the Commerce Admin, navigate to **Sales** > **Operations** > **Order**. See the order appear in the grid.
 1. Navigate to **Sales** > **Archive** > **Orders**. See the new order in the grid.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The order is displayed in the Orders grid only.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The order is displayed in the Orders grid and in the order archive grid.
 

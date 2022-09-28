@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33516 patch fixes the issue where when editing the bundle product type from the Requisition List, you are redirected to a requisition list item error page. This patch is available when the Quality Patches Tool (QPT) 1.0.14 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+title: "MDVA-33516 patch: edit bundled product Requisition List error"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,QPT 1.0.14,Magento Commerce Cloud,bundle options,error,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33516 patch: edit bundled product Requisition List error'
 ---
-
-# MDVA-33516 patch: edit bundled product Requisition List error
 
 The MDVA-33516 patch fixes the issue where when editing the bundle product type from the Requisition List, you are redirected to a requisition list item error page. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.14 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -18,20 +15,20 @@ Adobe Commerce on cloud infrastructure 2.3.4
 
 Adobe Commerce on cloud infrastructure 2.3.0 - 2.3.5-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Error editing bundled products on Requisition List.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 * B2B is installed.
 * Requisition List is enabled.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a bundled product with two simple products.
 1. Go to the bundled product page, click on the **Customize and Add to Cart** button.
@@ -40,11 +37,11 @@ Error editing bundled products on Requisition List.
 1. Click the **View** button in the *Actions* column.
 1. Click the **Edit** button.
 
-<u>Expected Results</u>:<br>
+<ins>Expected Results</ins>:<br>
 
 No errors.
 
-<u>Actual Results</u>:
+<ins>Actual Results</ins>:
 
 "Your Customization" page, containing a picture of the bundled product, price, and the following error message:
 

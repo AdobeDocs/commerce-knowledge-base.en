@@ -1,10 +1,7 @@
 ---
-description: The MDVA-37748 patch fixes the issue where a GraphQL query returns products not assigned to a shared catalog. This patch is available when the Quality Patches Tool (QPT) 1.1.5 is installed. The patch ID is MDVA-37748. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-37748: GraphQL query returns products not assigned to shared catalog"
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.5,Adobe Commerce,cloud infrastructure,on-premises,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1
-title: 'MDVA-37748: GraphQL query returns products not assigned to shared catalog'
 ---
-
-# MDVA-37748: GraphQL query returns products not assigned to shared catalog
 
 The MDVA-37748 patch fixes the issue where a GraphQL query returns products not assigned to a shared catalog. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.5 is installed. The patch ID is MDVA-37748. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,19 +15,19 @@ Adobe Commerce (all deployment methods) 2.4.2
 
 Adobe Commerce (all deployment methods) 2.4.2 - 2.4.2-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 GraphQL query returns products not assigned to a shared catalog.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 B2B modules are installed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create two products and assign them to a category:
     * Product 1 - Public
@@ -196,11 +193,11 @@ B2B modules are installed.
   </code>
   </pre>
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The count and the product returned by GraphQL only consider the product assigned to the shared catalog associated with the logged-in user.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Only "Product 2" is returned, but the `total_count` shows two.
 

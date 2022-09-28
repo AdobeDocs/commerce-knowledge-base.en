@@ -1,10 +1,7 @@
 ---
-description: The MDVA-32739 patch fixes the issue where enabling asynchronous email notifications sends out old sales emails. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.2.
+title: "MDVA-32739 patch: old emails sent when asynchronous sending enabled"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.12,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-32739 patch: old emails sent when asynchronous sending enabled'
 ---
-
-# MDVA-32739 patch: old emails sent when asynchronous sending enabled
 
 The MDVA-32739 patch fixes the issue where enabling [asynchronous email notifications](https://devdocs.magento.com/guides/v2.4/performance-best-practices/configuration.html#asynchronous-email-notifications) sends out old sales emails. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.2.
 
@@ -18,23 +15,23 @@ The MDVA-32739 patch fixes the issue where enabling [asynchronous email notifica
 
  Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.4.1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Disable asynchronous email sending.
 1. Create an order and make sure sending of the email is failing.
 1. Enable asynchronous sending.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Emails are sent out only for those orders, shipments, invoices and credit memos, which were created after the last asynchronous sending update.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The old email will be sent out via the cronjob.
 

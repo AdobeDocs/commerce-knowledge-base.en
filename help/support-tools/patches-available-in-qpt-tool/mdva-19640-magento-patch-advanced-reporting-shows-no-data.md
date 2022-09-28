@@ -1,10 +1,7 @@
 ---
-description: The MDVA-19640 patch fixes the issue when Advanced Reporting shows no data. This patch is available when the Quality Patches Tool (QPT) 1.0.20 is installed. The patch ID is MDVA-19640. Please note that there is no current plan to fix this issue in future versions.
+title: "MDVA-19640: Advanced reporting shows no data"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,Advanced Reporting,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,empty,no data,Quality Patches Tool,QPT 1.0.20,QPT patches,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-19640: Advanced reporting shows no data'
 ---
-
-# MDVA-19640: Advanced reporting shows no data
 
 The MDVA-19640 patch fixes the issue when Advanced Reporting shows no data. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-19640. Please note that there is no current plan to fix this issue in future versions.
 
@@ -18,22 +15,22 @@ Adobe Commerce on cloud infrastructure 2.3.0
 
 Adobe Commerce (all deployment methods) 2.3.1 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</sins>:
 
 1. In the Admin, go to **Reports** > **Business Intelligence** and select **Advanced Reporting**.
 1. View the **Advanced Reporting** page.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The Advanced Reporting report contains information, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The Advanced Reporting report shows no data.
 

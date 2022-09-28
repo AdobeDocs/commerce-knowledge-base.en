@@ -1,10 +1,7 @@
 ---
-description: The MDVA-39163 patch solves the issue where the shipping methods are not available when a new user is registered and products in the cart are from the guest session. This patch is available when the Quality Patches Tool (QPT) 1.1.9 is installed. The patch ID is MDVA-39163. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-39163: Shipping methods not available to newly registered users with products from guest session"
 labels: QPT patches,Quality Patches Tool,MQP,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,shipping methods,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,QPT 1.1.9
-title: 'MDVA-39163: Shipping methods not available to newly registered users with products from guest session'
 ---
-
-# MDVA-39163: Shipping methods not available to newly registered users with products from guest session
 
 The MDVA-39163 patch solves the issue where the shipping methods are not available when a new user is registered and products in the cart are from the guest session. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-39163. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,15 +15,15 @@ The MDVA-39163 patch solves the issue where the shipping methods are not availab
 
 * Adobe Commerce (all deployment methods) 2.3.5 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Shipping methods are not available when the new user is registered, and products in the cart are from the guest session.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Admin** > **Stores** > **Configuration** > **Sales** > **Delivery Methods**. Enable only the **Flat Rate** shipping method and disable everything else.
 1. In the **Flat Rate** shipping method, select the **Specific** country option available in the **Ship to Applicable Countries** setting and select one country from the list (e.g., United States).
@@ -43,11 +40,11 @@ Shipping methods are not available when the new user is registered, and products
 1. Go to **My Account** and add an address. Set the address country to the shipping country that you set in the admin configuration previously.
 1. Go to checkout.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Shipping method is available, as the customer has an address that is compatible with the shipping country.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Shipping method is not available.
 

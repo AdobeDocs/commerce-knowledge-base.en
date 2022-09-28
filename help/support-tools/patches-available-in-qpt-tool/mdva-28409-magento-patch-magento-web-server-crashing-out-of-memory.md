@@ -1,10 +1,7 @@
 ---
-description: The MDVA-28409 patch solves the issue where the cron job for removing quotes stopped due to having to process a large number of items. This patch is available when the Quality Patches Tool (QPT) v.1.0.5 is installed.
+title: "MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory"
 labels: 2.3.4,2.3.4-p2,2.3.5,2.4.0,QPT,QPT 1.0.5,Magento Commerce,Magento Commerce Cloud,Quality Patches,Adobe Commerce,on-premises,cloud infrastructure, Tool,cron,memory,out of memory,quote,support tools
-title: 'MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory'
 ---
-
-# MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory
 
 The MDVA-28409 patch solves the issue where the cron job for removing quotes stopped due to having to process a large number of items. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.5 is installed.
 
@@ -12,9 +9,9 @@ The MDVA-28409 patch solves the issue where the cron job for removing quotes sto
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4 - 2.3.5, 2.4.0
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 

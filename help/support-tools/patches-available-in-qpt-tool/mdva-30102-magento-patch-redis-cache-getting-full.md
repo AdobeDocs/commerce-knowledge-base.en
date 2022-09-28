@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30102 patch solves the issue of the Redis cache getting full and generating errors, causing problems with Product Listing Pages (PLP) and Product Detail Pages (PDP), such as missing products. This patch is available when the Quality Patches Tool (QPT) 1.0.6 is installed.
+title: "MDVA-30102: Redis cache getting full"
 labels: 2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Redis,cache,memory,missing products,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30102: Redis cache getting full'
 ---
-
-# MDVA-30102: Redis cache getting full
 
 The MDVA-30102 patch solves the issue of the Redis cache getting full and generating errors, causing problems with Product Listing Pages (PLP) and Product Detail Pages (PDP), such as missing products. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.6 is installed.
 
@@ -18,20 +15,20 @@ The MDVA-30102 patch solves the issue of the Redis cache getting full and genera
 
 * Adobe Commerce (all deployment methods) 2.3.2 - 2.4.1-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Redis cache is getting full, and the allocated `maxmemory` appears to be insufficient. The layout cache didn't have TTL and was not evicted, causing cache growth and eviction of other keys in Redis. As a result, all Redis memory was allocated for layout cache.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 * The user must be on Adobe Commerce 2.4 and have 100K simple products (product type does not matter) and 50 categories.
 * Redis cache must be configured according to steps given in [Adobe Commerce Configuration Guide > Use Redis for the Adobe Commerce page and default cache](https://devdocs.magento.com/guides/v2.4/config-guide/redis/redis-pg-cache.html#example-command) in our developer documentation.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Browse through all the PDPs and PLPs. You can use [OWASP ZAP](https://owasp.org/www-project-zap/) to crawl the site.
 1. Observe the Redis memory usage.
@@ -41,11 +38,11 @@ Redis cache is getting full, and the allocated `maxmemory` appears to be insuffi
 redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"
 ```
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Redis cache should not be rapidly growing.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Redis cache grows up to ~5GB. There is a max limit of 8GB of Redis memory, so if you have 1M products, you will run out of memory very quickly.
 

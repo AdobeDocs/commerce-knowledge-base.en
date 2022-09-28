@@ -1,10 +1,7 @@
 ---
-description: This article provides troubleshooting steps for when you receive a memory warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
+title: "Managed alerts for Adobe Commerce: memory warning alert"
 labels: Apdex,Magento Commerce Cloud,MySQL,New Relic,PHP,Pro,alert,how to,maintenance mode,memory,threshold,troubleshooting,warning,Adobe Commerce,cloud infrastructure
-title: 'Managed alerts for Adobe Commerce: memory warning alert'
 ---
-
-# Managed alerts for Adobe Commerce: memory warning alert
 
 This article provides troubleshooting steps for when you receive a memory warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 
@@ -18,12 +15,12 @@ Adobe Commerce on cloud infrastructure Pro plan architecture
 
 You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe Commerce to give customers a standard set using insights from Support and Engineering.
 
- <u>**Do!**</u>:
+ <ins>**Do!**</ins>:
 
 * It is recommended that you abort any deployment scheduled until this alert is cleared.
 * Put your site into maintenance mode immediately if your site is or becomes completely unresponsive. For steps, refer to [Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) in our developer documentation. Make sure to add your IP to the exempt IP address list to ensure that you are still able to access your site for troubleshooting. For steps, refer to [Maintain the list of exempt IP addresses](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten#instgde-cli-maint-exempt) in our developer documentation.
 
-<u>**Don't!**</u>:
+<ins>**Don't!**</ins>:
 
 * Launch additional marketing campaigns which may bring additional pageviews to your site.
 * Run indexers or additional crons, which may cause additional stress on CPU or disk.
@@ -34,7 +31,7 @@ You will receive an alert in New Relic if you have signed up to [Managed alerts 
 
 Follow these steps to identify and troubleshoot the cause.
 
-1. Use [New Relic APM's Infrastructure page](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page) to identify top memory-intensive processes. For steps, refer to New Relic [Infrastructure monitoring Hosts page > Processes tab](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page#processes-tab). If services like Redis or MySQL are the top source of memory consumption, try the following:
+1. Use [New Relic APM's Infrastructure page](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-hosts-page/) to identify top memory-intensive processes. For steps, refer to New Relic [Infrastructure monitoring Hosts page > Processes tab](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-hosts-page/#processes-tab). If services like Redis or MySQL are the top source of memory consumption, try the following:
 
     * Check that you are on the latest version. Newer versions can sometimes fix memory leaks. If you are not on the latest version, consider upgrading. For steps, refer to [Adobe Commerce on cloud infrastructure > Services > Change Services](https://devdocs.magento.com/cloud/project/project-conf-files_services.html#change-service-version) in our developer documentation.
     * If you still cannot identify the source of increased memory consumption, check for MySQL issues like long-running queries, Primary keys not defined, and duplicate indexes. For steps, refer to [Most Common database Issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651) in our support knowledge base.

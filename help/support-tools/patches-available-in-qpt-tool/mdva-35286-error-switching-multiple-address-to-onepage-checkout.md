@@ -1,10 +1,7 @@
 ---
-description: The MDVA-35286 patch fixes the issue where there is an error if a customer has bundle products in the cart and switches from Multiple Address checkout to Onepage checkout. This patch is available when the Quality Patches Tool (QPT) 1.0.18 is installed. The patch ID is MDVA-35286. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+title: "MDVA-35286: error switching Multiple Address to Onepage checkout"
 labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.18,QPT patches,Quality Patches Tool,checkout,multiple addresses,multishipping,onepage,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-35286: error switching Multiple Address to Onepage checkout'
 ---
-
-# MDVA-35286: error switching Multiple Address to Onepage checkout
 
 The MDVA-35286 patch fixes the issue where there is an error if a customer has bundle products in the cart and switches from Multiple Address checkout to Onepage checkout. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.18 is installed. The patch ID is MDVA-35286. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -18,15 +15,15 @@ Adobe Commerce on cloud infrastructure 2.4.1
 
 Adobe Commerce (all deployment methods) 2.4.0-2.4.1-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 An error is displayed if there's a bundle product in the cart and the user attempts to use Onepage Checkout after abandoning Multi-Shipping Checkout.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Log in to the customer account and add more than one bundle product to the cart.
 1. Click the link to view and edit the cart.
@@ -35,11 +32,11 @@ An error is displayed if there's a bundle product in the cart and the user attem
 1. Click **Back to Shopping Cart**.
 1. In the cart, click **Proceed to Checkout**.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 You get redirected to the Checkout page.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The error message is displayed: *There has been an error processing your request*.
 

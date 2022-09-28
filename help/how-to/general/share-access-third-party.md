@@ -1,10 +1,7 @@
 ---
-description: This article provides options for sharing access with a third party for testing/validation when you are having an issue with an extension for Adobe Commerce on cloud infrastructure.
-labels: Adobe Commerce,cloud infrastructure,test,extensions,shared access,third-pary,2.3.0,2.31,2.3.2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.7.2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 title: Third-party testing tips for Adobe Commerce on cloud infrastructure
+labels: Adobe Commerce,cloud infrastructure,test,extensions,shared access,third-pary,2.3.0,2.31,2.3.2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.7.2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
 ---
-
-# Third-party testing tips for Adobe Commerce on cloud infrastructure
 
 This article provides options for sharing access with a third party for testing/validation when you are having an issue with an extension for Adobe Commerce on cloud infrastructure.
 Proper internal data security procedures and requirements should be followed on your part when deciding the way to provide access to a third party.

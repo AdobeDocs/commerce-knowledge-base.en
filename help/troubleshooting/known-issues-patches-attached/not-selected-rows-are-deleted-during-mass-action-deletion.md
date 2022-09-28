@@ -1,10 +1,7 @@
 ---
-description: "This article provides a patch for the known Adobe \u0421ommerce on cloud infrastructure 2.2.3 issue related to having not selected records being deleted when a bulk deletion is performed in a grid in the Commerce Admin."
-labels: 2.2.3,Magento Commerce Cloud,deleted customers,deleted products,known issues,mass update,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 title: More products were deleted than initiated during mass deletion in Admin
+labels: 2.2.3,Magento Commerce Cloud,deleted customers,deleted products,known issues,mass update,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
-
-# More products were deleted than initiated during mass deletion in Admin
 
 This article provides a patch for the known Adobe Сommerce on cloud infrastructure 2.2.3 issue related to having not selected records being deleted when a bulk deletion is performed in a grid in the Commerce Admin.
 
@@ -12,17 +9,17 @@ This article provides a patch for the known Adobe Сommerce on cloud infrastruct
 
 In the Admin, if you select customer or client records to be deleted, filter the grid, and then select the **Delete** action, all records are deleted.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Navigate to **Catalog** > **Products** in the Admin.
 1. Select a product or multiple products.
 1. Select Delete from the Actions drop-down menu.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Only selected products are deleted.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Some other products are deleted as well.
 
@@ -46,3 +43,4 @@ The patch is also compatible (but might not solve the issue) with the following 
 ## How to apply the patch
 
 See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+

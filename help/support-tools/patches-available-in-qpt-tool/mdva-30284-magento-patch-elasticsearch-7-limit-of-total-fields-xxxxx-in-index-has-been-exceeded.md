@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30284 patch solves the issue where you receive an error message that "Limit of total fields \[XXXXX\] in index has been exceeded" when using Elasticsearch 7. This patch is available when the Quality Patches Tool (QPT) v.1.0.5 is installed. The patch ID is MDVA-30284.
+title: "MDVA-30284 Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,Elasticsearch problem,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,index,products,support tools,Adobe Commerce,cloud infrastructure
-title: 'MDVA-30284 Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded'
 ---
-
-# MDVA-30284 Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded
 
 The MDVA-30284 patch solves the issue where you receive an error message that "Limit of total fields \[XXXXX\] in index has been exceeded" when using Elasticsearch 7. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.5 is installed. The patch ID is MDVA-30284.
 
@@ -13,9 +10,9 @@ The MDVA-30284 patch solves the issue where you receive an error message that "L
 * The patch was designed for Adobe Commerce on cloud infrastructure 2.3.5-p2
 * Elasticsearch 7 is compatible with Adobe Commerce 2.3.5 and 2.4.x
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -45,11 +42,9 @@ All products are available in the Elasticsearch index.
 
 1. Elasticsearch error:
 
-   ```
     *{"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"Limit
-   of total fields [3000] in index [magento2_product_2_v11] has been exceeded"}],"type":"illegal_argument_exception","reason":"Limit
-   of total fields [3000] in index [magento2_product_2_v11] has been exceeded"},"status":400}*
-   ```
+  of total fields [3000] in index [magento2_product_2_v11] has been exceeded"}],"type":"illegal_argument_exception","reason":"Limit
+  of total fields [3000] in index [magento2_product_2_v11] has been exceeded"},"status":400}*
 
 1. New product was not indexed.
 

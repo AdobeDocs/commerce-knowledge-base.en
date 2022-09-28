@@ -1,10 +1,7 @@
 ---
-description: This article provides best practice for configuration settings that can help improve checkout performance in case of large number of simultaneously created orders.
+title: "Adobe Commerce best practice: enable asynchronous orders processing"
 labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,asynchronous orders,best practices,checkout performance, Adobe Commerce,cloud infrastructure,on-premises
-title: 'Adobe Commerce best practice: enable asynchronous orders processing'
 ---
-
-# Adobe Commerce best practice: enable asynchronous orders processing
 
 This article provides best practice for configuration settings that can help improve checkout performance in case of large number of simultaneously created orders.
 
@@ -27,7 +24,7 @@ Method 2: Adobe Commerce on-premises only (only when the deploy mode set to DEFA
 
 Then flush cache by running `php bin/magento cache:flush` or go to the Commerce Admin under **System** > **Tools** > **Cache Management**.
 
->[!WARNING]
+>![warning]
 >
 >Warning: always test in the Staging environment prior to making any changes to the Production environment.
 

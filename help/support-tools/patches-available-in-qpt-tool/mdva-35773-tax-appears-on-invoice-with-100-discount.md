@@ -1,10 +1,7 @@
 ---
-description: The MDVA-35773 patch fixes the issue with the Grand Total not being shown as zero on the invoice for orders with a 100% discount. This patch is available when the Quality Patches Tool (QPT) 1.0.22 is installed. The patch ID is MDVA-35773. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+title: "MDVA-35773: Tax appears on invoice with 100% discount"
 labels: 100% discount,2.3.6,2.3.6-p1,2.3.7,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0.22,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,grand total,invoice,tax miscalculated,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-35773: Tax appears on invoice with 100% discount'
 ---
-
-# MDVA-35773: Tax appears on invoice with 100% discount
 
 The MDVA-35773 patch fixes the issue with the Grand Total not being shown as zero on the invoice for orders with a 100% discount. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-35773. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 
@@ -18,13 +15,13 @@ Adobe Commerce on cloud infrastructure 2.3.6
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-2.3.7 and 2.4.1-2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Navigate to **Stores** > **Settings** > **Configuration** > **Sales** > **Tax**.
 1. Set **Catalog Prices** and **Apply Discount on Prices** to *Including Tax*.
@@ -40,11 +37,11 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-2.3.
 1. Navigate to **Sales** > **Orders**, and open your order.
 1. Create an invoice for the order, and open it.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The invoice Grand Total = *$0.00*.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The invoice Grand Total = *tax amount* is created.
 

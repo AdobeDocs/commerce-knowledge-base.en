@@ -1,10 +1,7 @@
 ---
-description: The MDVA-39195 patch solves the issue where the **Add to Cart** button is inactive on the Category Page when the redirect to cart is enabled. This patch is available when the Quality Patches Tool (QPT) 1.1.2 is installed. The patch ID is MDVA-39195. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-39195: Add to Cart is inactive on Category Page"
 labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,QPT 1.1.2,Magento,Adobe Commerce,on-premises,cloud infrastructure,Add to Cart,redirect,inactive,Category Page,2.4.2,2.4.2-p1,2.4.2-p2
-title: 'MDVA-39195: Add to Cart is inactive on Category Page'
 ---
-
-# MDVA-39195: Add to Cart is inactive on Category Page
 
 The MDVA-39195 patch solves the issue where the **Add to Cart** button is inactive on the Category Page when the redirect to cart is enabled. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39195. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,26 +15,26 @@ The MDVA-39195 patch solves the issue where the **Add to Cart** button is inacti
 
 * Adobe Commerce (all deployment methods) 2.4.2 - 2.4.2-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The **Add to Cart** button is inactive on the Category Page when the redirect to cart is enabled.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Stores** > Settings > **Configuration** > **Sales** > **Checkout**.
 1. Expand the **Shopping Cart** section.
 1. Set the **After Adding a Product Redirect to Shopping Cart** to Yes.
 1. Visit the Category Page.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 **Add to Cart** is active on Category Page.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 **Add to Cart** button is inactive on Category Page.
 

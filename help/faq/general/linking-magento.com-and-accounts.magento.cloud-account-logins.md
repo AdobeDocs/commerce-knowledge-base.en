@@ -1,10 +1,7 @@
 ---
-description: As of April 1, 2020, Adobe Commerce will require that users who have an account at accounts.magento.cloud to link this account with their [Magento.com](https://account.magento.com/customer/account/login/) account. This will make the [Magento.com](https://account.magento.com/customer/account/login/) account login the primary login method for both accounts and improve security for users.
+title: Link Magento.com and accounts.magento.cloud account logins
 labels: Magento,Magento Commerce Cloud,account,accounts,accounts.magento.cloud,linking,login,logins,security,Adobe Commerce
-title: Link Magento.com, accounts.magento.cloud account logins
 ---
-
-# Link Magento.com, accounts.magento.cloud account logins
 
 As of April 1, 2020, Adobe Commerce will require that users who have an account at [accounts.magento.cloud](https://accounts.magento.cloud/) to link this account with their [Magento.com](https://account.magento.com/customer/account/login/) account. This will make the [Magento.com](https://account.magento.com/customer/account/login/) account login the primary login method for both accounts and improve security for users.
 
@@ -23,3 +20,7 @@ Users at [accounts.magento.cloud](https://accounts.magento.cloud/) can connect t
 1. Log in to [https://account.magento.com](https://account.magento.com/).
 1. Navigate to a separate tab to [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user).
 1. Click “Connect with [Magento.com](https://account.magento.com/customer/account/login/)”.
+
+## Related reading
+
+* [Unable to log in to Adobe Commerce support or cloud account](https://support.magento.com/hc/en-us/articles/8472095067021)

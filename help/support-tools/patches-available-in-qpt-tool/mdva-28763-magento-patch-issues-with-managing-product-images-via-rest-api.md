@@ -1,10 +1,7 @@
 ---
-description: The MDVA-28763 patch solves multiple issues related to managing the media gallery using REST API. This patch is available when the Quality Patches Tool (QPT) 1.0.5 is installed. The issues are scheduled to be fixed in later Adobe Commerce versions (see issues descriptions in [Issues](https://support.magento.com/hc/en-us/articles/360050056271#issues)).
+title: "MDVA-28763: issues with managing product images via REST API"
 labels: 2.3.2,2.3.3.x,API,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,images,support tools,on-premises,cloud infrastructure,Adobe Commerce
-title: 'MDVA-28763: issues with managing product images via REST API'
 ---
-
-# MDVA-28763: issues with managing product images via REST API
 
 The MDVA-28763 patch solves multiple issues related to managing the media gallery using REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. The issues are scheduled to be fixed in later Adobe Commerce versions (see issues descriptions in [Issues](https://support.magento.com/hc/en-us/articles/360050056271#issues)).
 
@@ -15,9 +12,9 @@ The MDVA-28763 patch solves multiple issues related to managing the media galler
 * Adobe Commerce on-premises 2.3.2 - 2.3.3.x
 * Adobe Commerce on cloud infrastructure 2.3.2 - 2.3.3.x
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issues
 

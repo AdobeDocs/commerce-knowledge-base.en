@@ -1,10 +1,7 @@
 ---
-description: The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches "0" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the Quality Patches Tool (QPT) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
-labels: Inventory,QPT 1.0.17,QPT patches,Magento Commerce,Magento Commerce Cloud,configuration,inventory source,out of stock,support tools,Adobe Commerce,cloud infrastructure,on-premises
 title: 'MDVA-34850: swatches not strike-through inventory reaches "0"'
+labels: Inventory,QPT 1.0.17,QPT patches,Magento Commerce,Magento Commerce Cloud,configuration,inventory source,out of stock,support tools,Adobe Commerce,cloud infrastructure,on-premises
 ---
-
-# MDVA-34850: swatches not strike-through inventory reaches "0"
 
 The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches "0" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,20 +15,20 @@ Adobe Commerce on cloud infrastructure 2.3.5-p2
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.1 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Out-of-Stock Product options do not display on the PDP page when the default inventory stock is not in use and **Display Out-of-Stock Products** configuration is enabled.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 * Install Multi-Source Inventory (MSI).
 * Enable Display Out-of-Stock Products in [Inventory Stock Options](https://docs.magento.com/user-guide/configuration/catalog/inventory.html).
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create new inventory stock \[New Stock\], assigning all the websites to it and the above source. Now the Default Stock should not be in use.
 1. Create a [configurable product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html) adding three size options \[S,M,L\].
@@ -39,11 +36,11 @@ Out-of-Stock Product options do not display on the PDP page when the default inv
 1. Reindex and check the configurable product from the frontend. All three options should be visible.
 1. Open a simple product assigned to \[size:S\] from the backend and set the \[Source Status\] to \[Out of Stock\], also update the quantity to 0. Reindex and check the configurable product from the frontend.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Since the Display Out-of-Stock Products option is enabled, all three options should display. The Out-of-Stock option \[S\] should be disabled and crossed out. It should display 2 x of 1 option product with price = 12x2 in order details on the frontend and backend.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The Out-of-Stock option is hidden.
 

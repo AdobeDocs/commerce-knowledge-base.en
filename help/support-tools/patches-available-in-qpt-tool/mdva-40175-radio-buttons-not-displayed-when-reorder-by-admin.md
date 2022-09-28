@@ -1,10 +1,7 @@
 ---
-description: The MDVA-40175 patch solves the issue where the Radio buttons are not displayed when users try to reorder. This patch is available when the Quality Patches Tool (QPT) 1.1.10 is installed. The patch ID is MDVA-40175. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-40175: Radio buttons not displayed when reorder"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.10,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,Radio buttons,reorder,delivery methods
-title: 'MDVA-40175: Radio buttons not displayed when reorder'
 ---
-
-# MDVA-40175: Radio buttons not displayed when reorder
 
 The MDVA-40175 patch solves the issue where the Radio buttons are not displayed when users try to reorder. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-40175. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,22 +15,22 @@ The MDVA-40175 patch solves the issue where the Radio buttons are not displayed 
 
 * Adobe Commerce (all deployment methods) 2.4.0 - 2.4.2-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Radio buttons are not displayed in the Payment & Shipping Information section when users try to reorder.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 1. A Customer account with a shipping address and a billing address is created.
 1. A Simple Product is created.
 1. Several delivery methods are configured.
 1. At least one order is created.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to the Admin panel > **Sales** > **Orders**.
 1. Select the created order.
@@ -42,11 +39,11 @@ Radio buttons are not displayed in the Payment & Shipping Information section wh
 1. Scroll down the page to the **Payment & Shipping Information** section.
 1. Click the **Click to change shipping method**.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The list of delivery methods with radio buttons appear.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The list of delivery methods without radio buttons appear.
 

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-35064 patch fixes the issue where URL rewrites are not being generated for "All store views" for products created via API. This patch is available when the Quality Patches Tool (QPT) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-35064: URL rewrites not generated for configurables created via API"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT 1.0.17,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-35064: URL rewrites not generated for configurables created via API'
 ---
-
-# MDVA-35064: URL rewrites not generated for configurables created via API
 
 The MDVA-35064 patch fixes the issue where URL rewrites are not being generated for "All store views" for products created via API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,15 +15,15 @@ Adobe Commerce on cloud infrastructure 2.3.5-p1
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.3-2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When configurable products are created via API, the URL rewrites are not generated.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a new website, store, and store view.
 1. Create a new category.
@@ -35,11 +32,11 @@ When configurable products are created via API, the URL rewrites are not generat
 1. Check the URL table and make sure it contains entries for the product, category/product for each store on each website.
 1. Remove product for the second website.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The URL table contains entries for product, category/product only for the stores on the first website.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The URL table contains URL rewrites for all stores on all websites.
 

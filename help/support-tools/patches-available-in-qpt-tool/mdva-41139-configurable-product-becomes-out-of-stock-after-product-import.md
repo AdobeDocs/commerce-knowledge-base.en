@@ -1,10 +1,7 @@
 ---
-description: The MDVA-41139 patch fixes the issue where the configurable product becomes out of stock after product import when the simple product's qty = 0 for one of its sources. This patch is available when the Quality Patches Tool (QPT) 1.1.8 is installed. The patch ID is MDVA-41139. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-41139: Configurable product becomes out of stock after product import"
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.8,Adobe Commerce,cloud infrastructure,on-premises,stock status,2.4.3,2.4.3-p1
-title: 'MDVA-41139: Configurable product becomes out of stock after product import'
 ---
-
-# MDVA-41139: Configurable product becomes out of stock after product import
 
 The MDVA-41139 patch fixes the issue where the configurable product becomes out of stock after product import when the simple product's qty = 0 for one of its sources. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.8 is installed. The patch ID is MDVA-41139. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,19 +15,19 @@ The MDVA-41139 patch fixes the issue where the configurable product becomes out 
 
 * Adobe Commerce (all deployment methods) 2.4.3 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The configurable product becomes out of stock after product import when the simple product's qty = 0 for one of its sources.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Inventory modules are installed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a new source and stock.
 1. Create a configurable product with children products assigned to the default source and the new source.
@@ -38,11 +35,11 @@ Inventory modules are installed.
 1. The configurable product is in stock.
 1. Export this product and import it again.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The configurable product is in stock as the second source has quantity > 0.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The configurable product is out of stock.
 

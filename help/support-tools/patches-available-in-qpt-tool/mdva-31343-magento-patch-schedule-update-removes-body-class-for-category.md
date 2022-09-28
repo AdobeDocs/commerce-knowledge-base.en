@@ -1,10 +1,7 @@
 ---
-description: MDVA-31343 patch fixes the issue where the assigned layout body CSS class for a category gets removed during scheduled update. This patch is available when the Quality Patches Tool (QPT) 1.0.7 is installed. The issue is scheduled to be fixed in Adobe Commerce 2.4.2.
+title: "MDVA-31343 patch: schedule update removes body class for category"
 labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,CSS,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,category,schedule update,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-31343 patch: schedule update removes body class for category'
 ---
-
-# MDVA-31343 patch: schedule update removes body class for category
 
 MDVA-31343 patch fixes the issue where the assigned layout body CSS class for a category gets removed during scheduled update. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. The issue is scheduled to be fixed in Adobe Commerce 2.4.2.
 
@@ -18,15 +15,15 @@ Adobe Commerce on cloud infrastructure 2.3.5-p2
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.4 - 2.3.5-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Layout body class gets removed from the category after scheduled update.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. In the Commerce Admin, create a category.
 1. Set **Layout** = *Category -- Full width* in the **Design** section.
@@ -42,7 +39,7 @@ Layout body class gets removed from the category after scheduled update.
 1. Wait for the scheduled update to start, run cron and flush cache.
 1. Go to the category page on the frontend and inspect the page source.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 In the page body, you see the
 
@@ -52,7 +49,7 @@ page-layout-category-full-width
 
 CSS class.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 In the page body, you see the
 

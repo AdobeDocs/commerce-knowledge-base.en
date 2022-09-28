@@ -1,10 +1,7 @@
 ---
-description: The MDVA-34665 patch fixes the issue with missing bundled products on category pages. This patch is available when the Quality Patches Tool (QPT) 1.0.21 is installed. The patch ID is MDVA-34665. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+title: "MDVA-34665: bundle products disappear storefront category page"
 labels: 2.3.4,2.3.4-p2,QPT 1.0.21,Quality Patches Tool,Magento Commerce,Magento Commerce Cloud,bundle product,category pages,indexers,missing products,stock status,store,Support Tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-34665: bundle products disappear storefront category page'
 ---
-
-# MDVA-34665: bundle products disappear storefront category page
 
 The MDVA-34665 patch fixes the issue with missing bundled products on category pages. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-34665. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 
@@ -18,20 +15,20 @@ Adobe Commerce on cloud infrastructure 2.3.4-p2
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4-2.3.4-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 **Case 1:**
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 1. Create 15,000 bundled products with one simple product as a bundle option. Do not use the same simple product with multiple bundled products.
 1. Simple products should be set to *Not visible individually*.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Assign 15k bundled products into two categories, 7,500 each.
 1. Select all simple products (15k) and update the stock using product mass attribute updates. Our goal is to have many ids in the search cl table (cl tables are the tables that are used by the indexer to know which records need to be updated.)
@@ -39,17 +36,17 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4-2.3.
 1. Make sure the `indexer_update_all_views` indexer is executed.
 1. Query the category page continuously and observe the product count.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The product count should remain as it was after the reindexing.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The product counts drops to 7,450 after a while. It remains in 7,450 even after the indexing is finished.
 
 **Case 2:**
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a bundle product with an associated simple product as an option.
 1. Change the indexer modes to *update on schedule*.
@@ -60,11 +57,11 @@ The product counts drops to 7,450 after a while. It remains in 7,450 even after 
 1. Execute cron indexer.
 1. Refresh the category page.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The product is still absent.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Bundle product reappears.
 

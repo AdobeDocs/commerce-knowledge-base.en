@@ -1,10 +1,7 @@
 ---
-description: 'The MDVA-30858 patch fixes missing PayPal Settlement Reports when having multiple PayPal accounts. The reports should be available under Admin sidebar > **Reports** > Sales > **PayPal Settlement**. Instead, the message: *We couldn''t find any records.* displays. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.'
+title: "MDVA-30858: PayPal Settlement reports missing"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PayPal,PayPal Settlement Reports,reports,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30858: PayPal Settlement reports missing'
 ---
-
-# MDVA-30858: PayPal Settlement reports missing
 
 The MDVA-30858 patch fixes missing PayPal Settlement Reports when having multiple PayPal accounts. The reports should be available under Admin sidebar > **Reports** > Sales > **PayPal Settlement**. Instead, the message: *We couldn't find any records.* displays. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -18,25 +15,25 @@ Adobe Commerce on cloud infrastructure 2.3.4
 
 Adobe Commerce (all deployment methods) 2.3.0 - 2.4.1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Fixes the issue where no records were found in **Reports** > Sales > **PayPal Settlement** when having multiple PayPal accounts.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Configure PayPal Settlement Reports.
 1. Go to Admin, to **Reports** > Sales > **PayPal Settlement**.
 1. For the most recent updates, click **Fetch Updates** in the upper-right corner.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Reports should appear.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Nothing appears in the grid though reports are available.
 

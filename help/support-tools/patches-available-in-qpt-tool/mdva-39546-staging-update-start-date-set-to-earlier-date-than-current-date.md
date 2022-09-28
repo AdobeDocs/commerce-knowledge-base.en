@@ -1,10 +1,7 @@
 ---
-description: The MDVA-39546 patch fixes the issue where the start date for the Staging Update can be set to an earlier date than the current date. This patch is available when the Quality Patches Tool (QPT) 1.1.12 is installed. The patch ID is MDVA-39546. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-39546: Staging Update start date can be set to a date earlier than current date"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.12,Staging,update,date,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-39546: Staging Update start date can be set to a date earlier than current date'
 ---
-
-# MDVA-39546: Staging Update start date can be set to a date earlier than current date
 
 The MDVA-39546 patch fixes the issue where the start date for the Staging Update can be set to an earlier date than the current date. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-39546. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,25 +15,25 @@ The MDVA-39546 patch fixes the issue where the start date for the Staging Update
 
 * Adobe Commerce (all deployment methods) 2.3.0 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The start date for the Staging Update can be set to a date earlier than the current date.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Schedule a New Update on a product with a future start date.
 1. Edit the update from **Content** > **Content Staging** > **Dashboard** and update the start date with an older date and save the change.
 1. Reopen the above update.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Previous data is displayed in the edit form.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Values in the form are missing.
 

@@ -1,10 +1,7 @@
 ---
-description: This article provides a patch for a known Adobe Commerce 2.2.2 issue related to having multiple cron jobs scheduled to run at the same time after the time variables for certain tasks were edited in the Commerce Admin.
-labels: 2.1.13,2.1.14,2.1.4,2.1.5,2.2.0,2.2.2,2.2.4,Magento Commerce,cron,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Commerce Cloud
 title: Multiple cron jobs scheduled for the same time period
+labels: 2.1.13,2.1.14,2.1.4,2.1.5,2.2.0,2.2.2,2.2.4,Magento Commerce,cron,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Commerce Cloud
 ---
-
-# Multiple cron jobs scheduled for the same time period
 
 This article provides a patch for a known Adobe Commerce 2.2.2 issue related to having multiple cron jobs scheduled to run at the same time after the time variables for certain tasks were edited in the Commerce Admin.
 
@@ -12,7 +9,7 @@ This article provides a patch for a known Adobe Commerce 2.2.2 issue related to 
 
 When cron is configured to run every minute, if you edit time variables for three scheduled tasks in Admin, the `cron_schedule` database table shows groups of multiple tasks scheduled to run at the same time.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. In Commerce Admin, navigate to **Stores** > Settings > **Configuration** > **ADVANCED** > **System** > **Cron (Scheduled Tasks)** > **Cron configuration options for group: default.**
 1. Configure the following options:
@@ -39,9 +36,9 @@ When cron is configured to run every minute, if you edit time variables for thre
 
 1. See groups of tasks scheduled to run at the same time.
 
-<u>Expected result</u>: One cron `job_code` should be scheduled for the certain time period.
+<ins>Expected result</ins>: One cron `job_code` should be scheduled for the certain time period.
 
-<u>Actual result</u>: There are multiple cron jobs scheduled for the same time period.
+<ins>Actual result</ins>: There are multiple cron jobs scheduled for the same time period.
 
 ## Solution
 

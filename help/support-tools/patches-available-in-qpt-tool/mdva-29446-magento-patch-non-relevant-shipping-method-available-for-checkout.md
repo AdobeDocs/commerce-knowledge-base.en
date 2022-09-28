@@ -1,10 +1,7 @@
 ---
-description: The MDVA-29446 patch solves the issue where a shipping method that is not applicable shows up on the checkout shipping method options, and if selected, an error message "*Carrier with such method not found null, flat rate*." displays. This patch is available when the Quality Patches Tool (QPT) 1.0.6 is installed. The issue is scheduled to be fixed in later Adobe Commerce versions.
+title: "MDVA-29446: Non-relevant shipping method available for checkout"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.4.0,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,checkout,shipping,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-29446: Non-relevant shipping method available for checkout'
 ---
-
-# MDVA-29446: Non-relevant shipping method available for checkout
 
 The MDVA-29446 patch solves the issue where a shipping method that is not applicable shows up on the checkout shipping method options, and if selected, an error message "*Carrier with such method not found null, flat rate*." displays. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.6 is installed. The issue is scheduled to be fixed in later Adobe Commerce versions.
 
@@ -18,15 +15,15 @@ The MDVA-29446 patch solves the issue where a shipping method that is not applic
 
 * Adobe Commerce (all deployment methods) 2.3.3-2.4.0.
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issues
 
 You have a shipping method that is not applicable but still shows up on the checkout shipping method options, and you can select this non-relevant shipping method.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Install clean 2.3-develop.
 1. Enable Flat rate and set:
@@ -40,7 +37,7 @@ You have a shipping method that is not applicable but still shows up on the chec
 1. Select an item and click **Add to Cart**.
 1. Click on the cart and click **Proceed to Checkout**.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 1. On the **Shipping** page, you see the following:
 
@@ -50,7 +47,7 @@ You have a shipping method that is not applicable but still shows up on the chec
 
  *"Carrier with such method not found: null, flatrate"*
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 * The price of the shipping method is not visible if the shipping method is not applicable.
 * The **Next** button should not be active.

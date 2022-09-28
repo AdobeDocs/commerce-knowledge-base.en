@@ -1,11 +1,8 @@
 ---
-description: Adobe Commerce on cloud infrastructure 2.4.4 will not support versions of Elasticsearch after 7.10. **You must upgrade to Adobe Commerce 2.4.4 first and then immediately switch from Elasticsearch to OpenSearch 1.2.x.** Adobe will provide detailed instructions closer to the Adobe Commerce 2.4.4 GA release.
-labels: 2.4.4,Adobe Commerce,cloud infrastructure,announcements,Elasticsearch 7.10, Elasticsearch 7.16,End of Life,Opensearch 1.2.x,on-premises
-promoted: true
 title: Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4
+labels: 2.4.4,Adobe Commerce,cloud infrastructure,announcements,Elasticsearch 7.10, Elasticsearch 7.16,End of Life,Opensearch 1.2.x,on-premises
+promoted: True
 ---
-
-# Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4
 
 Adobe Commerce on cloud infrastructure 2.4.4 will not support versions of Elasticsearch after 7.10. **You must upgrade to Adobe Commerce 2.4.4 first and then immediately switch from Elasticsearch to OpenSearch 1.2.x.** Adobe will provide detailed instructions closer to the Adobe Commerce 2.4.4 GA release.
 
@@ -33,12 +30,12 @@ Before beginning the upgrade process to Adobe Commerce 2.4.4, however, merchants
 
 ## What can merchants (Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises) who are not on 2.4.4 do? Can they upgrade to a supported version of Elasticsearch (7.10, 7.16.1) or to OpenSearch? Do they have to be on the latest supported version to do so (like 2.4.3-p1, 2.3.7-p2, 2.4.3-p1)?
 
-If the Adobe Commerce core version they are on supports Elasticsearch 7.10 – they can use it.
+ If the Adobe Commerce core version they are on supports Elasticsearch 7.10 – they can use it.
 
-Review [System Requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) in our developer documentation for version compatibility.
+ Review [System Requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) in our developer documentation for version compatibility.
 
->[!NOTE]
+ >![info]
 >
->It is recommended to plan to upgrade to Adobe Commerce 2.4.4 as soon as possible because ElasticSearch 7.10 will be EOL in May 2022.
+>Note: It is recommended to plan to upgrade to Adobe Commerce 2.4.4 as soon as possible because ElasticSearch 7.10 will be EOL in May 2022.
 
-Adobe partners can sign up for our beta program [here](https://devdocs.magento.com/release/beta-program.html) to get access to our latest beta4 code that has been tested against Elasticsearch 7.16.1 and OpenSearch 1.1.
+ Adobe partners can sign up for our beta program [here](https://devdocs.magento.com/release/beta-program.html) to get access to our latest beta4 code that has been tested against Elasticsearch 7.16.1 and OpenSearch 1.1.

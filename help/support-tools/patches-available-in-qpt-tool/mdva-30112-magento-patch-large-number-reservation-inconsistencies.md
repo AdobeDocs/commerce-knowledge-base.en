@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30112 patch solves the issue where you have an unexpectedly large number of reservation inconsistencies in the `inventory_reservation` table. Reservation inconsistencies include unregistered open orders and complete orders that are not registered. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
+title: "MDVA-30112: large number reservation inconsistencies"
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,2.4.1,Inventory,QPT 1.0.8,Magento Commerce Cloud,Quality Patches Tool,data discrepancies,orders,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30112: large number reservation inconsistencies'
 ---
-
-# MDVA-30112: large number reservation inconsistencies
 
 The MDVA-30112 patch solves the issue where you have an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in the `inventory_reservation` table. Reservation inconsistencies include unregistered open orders and complete orders that are not registered. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
 
@@ -18,19 +15,19 @@ The MDVA-30112 patch solves the issue where you have an unexpectedly large numbe
 
 * Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4 - 2.3.5-p2, 2.4.0 - 2.4.1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The [bunch-size](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#list-inconsistencies-command) value is the value for how many orders to load at once. When there are more orders than this value, Adobe Commerce considers the orders with pending status to be inconsistencies.
 
->[!NOTE]
+>![info]
 >
 >There is a patch MDVA-33281 that fixes three other inventory inconsistency issues. This includes a PHP Fatal error when running `bin/magento inventory:reservation:list-inconsistencies` in the CLI. Another issue that is fixed is duplicate data in the inconsistencies list. Also, the issue where a reservation is created before order placed (previous realization based on reservation after order placed). For the solution, refer to [MDVA-33281: inventory inconsistency issues](https://support.magento.com/hc/en-us/articles/360055276532/) in our support knowledge base.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 You run the following command in the CLI to list reservation inconsistencies in the `inventory_reservation` table:
 
@@ -40,7 +37,7 @@ magento inventory:reservation:list-inconsistencies
 
 You see an unexpectedly large number of reservation inconsistencies and/or the command never completes.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Run the following command in the CLI to resolve the inconsistencies:    
 
@@ -73,11 +70,11 @@ You see an unexpectedly large number of reservation inconsistencies and/or the c
     bin/magento inventory:reservation:list-inconsistencies      -r --bunch-size 1 | bin/magento inventory:reservation:create-compensations    
     ```    
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Adobe Commerce should not resolve inconsistencies of "pending" status orders. The stocks inconsistencies should be resolved for orders with 'complete', 'closed', and 'canceled' statuses.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 When there are orders more than the specified bunch-size value, Adobe Commerce considers orders with "pending" status as inconsistencies and adds multiple inconsistency resolving records for the same order.
 

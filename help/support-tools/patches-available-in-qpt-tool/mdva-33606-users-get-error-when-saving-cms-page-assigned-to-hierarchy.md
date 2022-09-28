@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33606 patch solves the issue where the users get *Unique constraint violation found* error when saving a CMS page assigned to hierarchy tree. This patch is available when the Quality Patches Tool (QPT) 1.1.3 is installed. The patch ID is MDVA-33606. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-33606: Users get error when saving CMS page assigned to hierarchy"
 labels: QPT patches,Quality Patches Tool,MQP,QPT,QPT 1.1.3,CMS page,constraint violation,hierarchy,Magento,Adobe Commerce,on-premises,cloud-infrastructure,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
-title: 'MDVA-33606: Users get error when saving CMS page assigned to hierarchy'
 ---
-
-# MDVA-33606: Users get error when saving CMS page assigned to hierarchy
 
 The MDVA-33606 patch solves the issue where the users get *Unique constraint violation found* error when saving a CMS page assigned to hierarchy tree. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.3 is installed. The patch ID is MDVA-33606. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,15 +15,15 @@ The MDVA-33606 patch solves the issue where the users get *Unique constraint vio
 
 * Adobe Commerce (all deployment methods) 2.4.1-2.4.2-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When trying to save a CMS page assigned to hierarchy tree, users get the following error message: *Unique constraint violation found*.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a new CMS page. Set the scope to All Store Views. This is your CMS Page 1.
 1. Create a new store view. This is your Store View 2.
@@ -43,11 +40,11 @@ When trying to save a CMS page assigned to hierarchy tree, users get the followi
 1. In the CMS edit page, open the Hierarchy tab.
     * Assign Page 2 to Store View 2 node, Default node, and All Websites node.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 You are able to assign the CMS page to all three nodes without any error.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 You get the following error: *Unique constraint violation found*.
 

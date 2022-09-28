@@ -1,10 +1,7 @@
 ---
-description: Merchants typically pay for our services by a credit card (CC) transaction, and this FAQ is a resource to assist you when you pay your bill.
-labels: Magento,help center,how to,shared access,shared account,license,autopay,CC,credit card,FAQ,PayPal,75000, Entitlements,submit tickets,Primary Account Owner,Invoices,payment,billing,on-premises,one-time,Adobe Commerce,primary account holder,product,access shared account,switch accounts,recurring payment,credentials,ACH,wire transfer,check,USD,delete card,Magento Credit Collections
 title: Billing FAQ for Adobe Commerce
+labels: Magento,help center,how to,shared access,shared account,license,autopay,CC,credit card,FAQ,PayPal,75000, Entitlements,submit tickets,Primary Account Owner,Invoices,payment,billing,on-premises,one-time,Adobe Commerce,primary account holder,product,access shared account,switch accounts,recurring payment,credentials,ACH,wire transfer,check,USD,delete card,Magento Credit Collections
 ---
-
-# Billing FAQ for Adobe Commerce
 
 Merchants typically pay for our services by a credit card (CC) transaction, and this FAQ is a resource to assist you when you pay your bill.
 
@@ -14,9 +11,9 @@ We know sometimes billing issues arise, and when they do, Adobe is here to help!
 
 ### Instructions for remitting payment to Adobe via credit card and PayPal:
 
->[!NOTE]
+>![info]
 >
->Please note that credit card and PayPal payment methods are subject to product and order-type eligibility and are subject to change.
+>Note: Please note that credit card and PayPal payment methods are subject to product and order-type eligibility and are subject to change.
 
 ### One-time Payment
 
@@ -29,20 +26,18 @@ This payment method is for merchants with On-Premises licenses and/or quarterly 
 1. Go to **My Account** > **My Products and Services** > Select *Your Specific Product Purchased* > **Manage** (located to the right of the Product) > **Show Details** (located to the right of the Subscription).
 
 1. Click the **Pay Now** button to enter your credit card/PayPal details and complete your payment.
-
-    >[!NOTE]
+    >![info]
     >
     >Note: We do not accept partial credit card or PayPal payments—by utilizing the **Pay Now** feature, you agree to be charged for the full invoice amount(s).
 
 1. If you encounter an error or have any questions regarding the **Pay Now** feature, please contact [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) for further assistance.
 
-## Autopay Set-up {#cc-autopay}
-
+<h3 id="cc-autopay">Autopay Set-up</h3>
 This payment method is for merchants with monthly billing (except for On-Premises licenses). If you fall into this category, kindly follow the instructions below:
 
->[!NOTE]
+>![info]
 >
->If you are currently utilizing the **Pay Now** feature and would like to set up a recurring payment via autopay, please contact your Account Manager for further assistance.
+>Note: If you are currently utilizing the **Pay Now** feature and would like to set up a recurring payment via autopay, please contact your Account Manager for further assistance.
 
 1. Click [here](https://account.magento.com/customer/account/login) to login.
 
@@ -54,9 +49,9 @@ This payment method is for merchants with monthly billing (except for On-Premise
 
 1. Click **Save**.
 
-   >[!IMPORTANT]
+1. >![info]
    >
-   >Once you click **Save** all open/unpaid invoices will be charged in full.
+   >Important Note: Once you click **Save** all open/unpaid invoices will be charged in full.
 
 1. If you encounter an error or have any questions regarding the **Autopay** feature, please contact [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) for further assistance.
 
@@ -76,9 +71,9 @@ This payment method is for merchants with monthly billing (except for On-Premise
 
 1. Delete the old card/account by clicking **Delete Card** to the right of the card. Only payment methods that are not set as the default can be deleted.
 
->[!NOTE]
+>![info]
 >
->If you are an autopay merchant, kindly follow the autopay set up instructions listed above to connect your new card to the appropriate subscription.
+>Note: If you are an autopay merchant, kindly follow the autopay set up instructions listed above to connect your new card to the appropriate subscription.
 
 **Q:** I have a card set up for autopay, but it has expired. How can I add a new autopay credit card?<br>
 **A:** To add a new card, please go through the autopay set-up steps listed above. These steps for work for first-time setup and for adding new cards.

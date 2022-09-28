@@ -1,10 +1,7 @@
 ---
-description: The MDVA-32776 patch fixes the issue where the stock status is not updated when an order is placed but not shipped. This patch is available when the Quality Patches Tool (QPT) 1.1.6 is installed. The patch ID is MDVA-32776. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+title: "MDVA-32776: Stock status not updated with order placement"
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.6,Adobe Commerce,cloud infrastructure,on-premises,stock status,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2
-title: 'MDVA-32776: Stock status not updated with order placement'
 ---
-
-# MDVA-32776: Stock status not updated with order placement
 
 The MDVA-32776 patch fixes the issue where the stock status is not updated when an order is placed but not shipped. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-32776. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -18,33 +15,32 @@ Adobe Commerce (all deployment methods) 2.4.0
 
 Adobe Commerce (all deployment methods) 2.4.0 - 2.4.1-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The stock status is not updated when an order is placed but not shipped.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 1. Inventory module is installed.
 1. Display Out-of-Stock Products is set to *Yes*. 
+  * To set, go to **Stores** > **Configuration** > **Catalog** > **Inventory** > **Display Out-of-Stock Products** = *Yes*.
 
-   * To set, go to **Stores** > **Configuration** > **Catalog** > **Inventory** > **Display Out-of-Stock Products** = *Yes*.
-
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create two simple products with qty = 11 and 22.
 1. Create a grouped product using the simple products created in step one.
 1. Add grouped products to the cart by setting one of the product qty to 11 and making the other simple product go out of stock.
 1. Complete the checkout and place the order.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Grouped products display `out-of-stock` labels when associated simple products go out of stock.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 1. The simple product with qty = 11 shows out of stock.
 1. The grouped product does not show an *out-of-stock* message for the product with qty = 11. Though, adding this product to the cart gives an *out-of-stock* error.

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-37225 quality patch for Adobe Commerce fixes the issue when the page doesn't load when creating a quick order when there is an integer value in imported SKUs. This patch is available when the Quality Patches Tool (QPT) 1.0.23 is installed. The patch ID is MDVA-37225. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
+title: "MDVA-37225: Quick order not working with integer SKU"
 labels: 2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1,QPT 1.0.23,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,integer SKU,quick order,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce
-title: 'MDVA-37225: Quick order not working with integer SKU'
 ---
-
-# MDVA-37225: Quick order not working with integer SKU
 
 The MDVA-37225 quality patch for Adobe Commerce fixes the issue when the page doesn't load when creating a quick order when there is an integer value in imported SKUs. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-37225. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 
@@ -13,17 +10,17 @@ The MDVA-37225 quality patch for Adobe Commerce fixes the issue when the page do
 * The patch was designed for Adobe Commerce on cloud infrastructure 2.4.1-p1
 * The patch is also compatible with Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.1-2.4.2-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Prerequisite</u>:
+<ins>Prerequisite</ins>:
 
  Adobe Commerce with installed B2B module
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Enable B2B quick order functionality.
 1. Create 4 simple products with SKUs (Example SKUs: *00100*, *001E002*, *001E02C*, and *7100824*).
@@ -34,11 +31,11 @@ The MDVA-37225 quality patch for Adobe Commerce fixes the issue when the page do
 | 00100  | 1 |
 
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The product (Example: product with SKU = *00100*) is added to the cart, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The page doesn't load, and no products are added to the cart.
 

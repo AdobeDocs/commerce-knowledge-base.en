@@ -1,10 +1,7 @@
 ---
-description: 'The MDVA-33614 patch fixes the issue where it is impossible to save edits to the Terms page, because Page Builder throws the following error: *An error has occurred while initiating Page Builder. Please consult with your technical support contact*. This patch is available when the Quality Patches Tool (QPT) 1.0.19 is installed. The patch ID is MDVA-33614. Please note that the issue was fixed in Adobe Commerce 2.4.2.'
+title: "MDVA-33614 patch: can't save Terms page"
 labels: 2.4.1,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Page Builder,Terms,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-33614 patch: can''t save Terms page'
 ---
-
-# MDVA-33614 patch: can't save Terms page
 
 The MDVA-33614 patch fixes the issue where it is impossible to save edits to the Terms page, because Page Builder throws the following error: *An error has occurred while initiating Page Builder. Please consult with your technical support contact*. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-33614. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -14,26 +11,26 @@ The MDVA-33614 patch fixes the issue where it is impossible to save edits to the
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 It is impossible to save edits to the Terms page, because Page Builder throws an error.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. In Commerce Admin, go to **CONTENT** > Elements > **Pages**.
 1. Select Terms page.
 1. Click **Edit**.
 1. Make an edit and click **Save**.
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
 The page is saved with no errors.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
 
 The following error is displayed: *An error has occurred while initiating Page Builder. Please consult with your technical support contact*.
 

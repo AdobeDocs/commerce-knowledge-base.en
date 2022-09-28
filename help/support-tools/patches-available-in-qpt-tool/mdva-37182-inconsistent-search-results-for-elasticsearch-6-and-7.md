@@ -1,10 +1,7 @@
 ---
-description: The MDVA-37182 patch fixes the issue with inconsistent search behavior across versions 6 and 7 of ElasticSearch. This patch is available when the Quality Patches Tool (QPT) 1.0.22 is installed. The patch ID is MDVA-37182. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+title: "MDVA-37182: inconsistent search results in ElasticSearch 6 and 7"
 labels: 2.4.1,2.4.1-p1,2.4.2,Elasticsearch version,QPT 1.0.22,Quality Patches Tool,search,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Commerce,Magento Open Source
-title: 'MDVA-37182: inconsistent search results in ElasticSearch 6 and 7'
 ---
-
-# MDVA-37182: inconsistent search results in ElasticSearch 6 and 7
 
 The MDVA-37182 patch fixes the issue with inconsistent search behavior across versions 6 and 7 of ElasticSearch. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-37182. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -14,15 +11,15 @@ The MDVA-37182 patch fixes the issue with inconsistent search behavior across ve
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.1-2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Inconsistent search behavior.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create products with the following details:
     * Names:  "5127AC", "5127SS", "5127AB"
@@ -34,11 +31,11 @@ Inconsistent search behavior.
 1. Run full reindex.
 1. On the storefront, search for "5127s".
 
-<u>Actual result:</u>:
+<ins>Actual result:</ins>:
 
 ES6: search returns no results.ES7: search returns three products.
 
-<u>Expected result:</u>:
+<ins>Expected result:</ins>:
 
 Search returns one product for both versions.
 

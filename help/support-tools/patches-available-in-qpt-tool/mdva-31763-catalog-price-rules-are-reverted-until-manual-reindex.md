@@ -1,10 +1,7 @@
 ---
-description: The MDVA-31763 patch solves the issue where catalog price rules are reverted until manual reindex. This patch is available when the Quality Patches Tool (QPT) 1.1.5 is installed. The patch ID is MDVA-31763. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-31763: Catalog price rules are reverted until manual reindex"
 labels: QPT patches,Quality Patches Tool,MQP,Support Tools,QPT 1.1.5,Adobe Commerce,cloud infrastructure,on-premises,catalog,price rule,reindex,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-31763: Catalog price rules are reverted until manual reindex'
 ---
-
-# MDVA-31763: Catalog price rules are reverted until manual reindex
 
 The MDVA-31763 patch solves the issue where catalog price rules are reverted until manual reindex. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.5 is installed. The patch ID is MDVA-31763. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,15 +15,15 @@ The MDVA-31763 patch solves the issue where catalog price rules are reverted unt
 
 * Adobe Commerce (all deployment methods) 2.3.0 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When `catalogrule_product` partial indexer is executed on configurable products, catalog rules get disappeared.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Log in to the Admin backend.
 1. Go to **Stores** > **Attributes** > **Product** and search for the "manufacturer" attribute.
@@ -46,11 +43,11 @@ When `catalogrule_product` partial indexer is executed on configurable products,
 1. Update the "weight" attribute of the created configurable product.
 1. Check product price on PDP.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The catalog price rules set on configurable products are not removed during partial reindex.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The catalog price rules set on configurable products are disappeared during partial reindex.
 

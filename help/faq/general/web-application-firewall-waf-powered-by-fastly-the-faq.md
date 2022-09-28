@@ -1,10 +1,7 @@
 ---
-description: Web Application Firewalls (WAFs) prevent malicious traffic from entering sites and networks by filtering traffic against a set of security rules. Traffic that triggers any of the rules is blocked before it can damage your sites or network.
+title: "Web Application Firewall (WAF) powered by Fastly: the FAQ"
 labels: FAQ,Fastly,Magento Commerce Cloud,PCI,WAF,firewall,security,Adobe Commerce,cloud infrastructure
-title: 'Web Application Firewall (WAF) powered by Fastly: the FAQ'
 ---
-
-# Web Application Firewall (WAF) powered by Fastly: the FAQ
 
 ## How does Adobe Commerce's managed cloud WAF (powered by Fastly) work?
 
@@ -126,7 +123,7 @@ See the [Cloud SLA](https://magento.com/sites/default/files/magento-support-serv
 
 ## If the WAF is blocking legitimate traffic or causing other issues, how can I get help?
 
- [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) at the [Adobe Commerce Help Center](https://support.magento.com). Please include indicate that the ticket is related to the WAF service and include the blocked request identifier (ID).
+ [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) at the [Adobe Commerce Help Center](https://support.magento.com). Please include indicate that the ticket is related to the WAF service and include the blocked request identifier (ID).
 
 The Adobe Commerce support ticketing system tracks communication between our support engineers and a customer's personnel. This system provides a time-stamped transcript of communications, and sends emails to customer and Adobe Commerce's staff as tickets are updated.
 

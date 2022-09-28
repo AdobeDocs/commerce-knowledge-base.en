@@ -1,10 +1,7 @@
 ---
-description: This article provides a patch for the Adobe Commerce issue where catalog pagination doesn't work on Elasticsearch 6.x.
-labels: 2.3.3,Elasticsearch 6.x,Magento Commerce,Magento Commerce Cloud,known issues,pagination,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 title: Catalog pagination doesn't work with Elasticsearch 6.x
+labels: 2.3.3,Elasticsearch 6.x,Magento Commerce,Magento Commerce Cloud,known issues,pagination,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
-
-# Catalog pagination doesn't work with Elasticsearch 6.x
 
 This article provides a patch for the Adobe Commerce issue where catalog pagination doesn't work on Elasticsearch 6.x.
 
@@ -23,18 +20,18 @@ After this patch is installed, users will be able to page through all search res
 
 An issue has been discovered in Magento Open Source, Adobe Commerce on-premises, and Adobe Commerce on cloud infrastructure where Search result page pagination doesn't work if you switch the page.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Install Adobe Commerce.
 1. Enable Elasticseach 6 as a catalog search engine.
 1. Add a number of products to Category that goes past the 1-page limit set in the Admin. **Note**: 12 is the default number of products displayed per page in Adobe Commerce 2.3.3.    
 1. Open Category on storefront (either search results or category page) and go to page 2.
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
 Products should be displayed on the second page.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
 
  **"***We can't find products matching the selection***"** message is shown on the second page.
 
@@ -44,7 +41,7 @@ To fix the issue, please apply the patch attached to this article. To download i
 
  [Download Catalog pagination issue on Elasticsearch 6.x patch](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) - The patch is compatible with all affected versions and editions.
 
->[!WARNING]
+>![warning]
 >
 >Adobe strongly recommends applying the patch as soon as possible, even if you have not experienced any symptoms.
 

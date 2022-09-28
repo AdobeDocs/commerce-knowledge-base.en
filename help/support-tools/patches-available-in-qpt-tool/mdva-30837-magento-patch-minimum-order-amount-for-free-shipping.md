@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30837 patch adds configuration options for the free shipping calculation so the user can configure the Minimum Order Amount to get Free Shipping based on the Subtotal (or Grand Total). This allows local customizations for tax and shipping methods. This patch is available when the Quality Patches Tool (QPT) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+title: "MDVA-30837: minimum order amount for free shipping"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,QPT 1.0.7,QPT patches,Magento Commerce Cloud,configuration,coupon,quote,shipping,support tools,tax,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30837: minimum order amount for free shipping'
 ---
-
-# MDVA-30837: minimum order amount for free shipping
 
 The MDVA-30837 patch adds configuration options for the free shipping calculation so the user can configure the Minimum Order Amount to get Free Shipping based on the Subtotal (or Grand Total). This allows local customizations for tax and shipping methods. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -18,9 +15,9 @@ The MDVA-30837 patch adds configuration options for the free shipping calculatio
 
 * Adobe Commerce on cloud infrastructure 2.3.1 - 2.3.4-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -30,7 +27,7 @@ The patch MDVA-30837 adds the configuration setting to configure the **Minimum O
     * When **Include Tax to Amount** is set to *Yes*, the minimum order amount is calculated as Subtotal + Tax - Discount.
     * When **Include Tax to Amount** is set to *No*, the minimum order amount is calculated as Subtotal - Discount.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Stores** > Settings > **Configuration** > **Sales** > **Tax** and set the following:
 
@@ -59,14 +56,14 @@ The patch MDVA-30837 adds the configuration setting to configure the **Minimum O
 1. Get a shipping quote - after taxes, the Grand Total = $25.01 and free shipping is applied.
 1. Apply the coupon code - it will not be valid because the Subtotal (Excluding Tax) is $23.10.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 There is an additional configuration setting - Include Tax to Amount: *Yes*/*No* in Free Shipping method configuration:
 
 * When Include Tax to Amount is set to *Yes*, the Minimum Order Amount is calculated as Subtotal + Tax - Discount.
 * When Include Tax to Amount is set to *No*, the Minimum Order Amount is calculated as Subtotal - Discount.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The Free Shipping price rule condition can only be based on the Subtotal, while the Free Shipping method can only be based on the Grand Total.
 

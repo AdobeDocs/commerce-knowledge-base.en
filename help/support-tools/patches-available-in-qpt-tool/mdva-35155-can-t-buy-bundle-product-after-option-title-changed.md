@@ -1,10 +1,7 @@
 ---
-description: The MDVA-35155 patch solves the issue where a bundle product can't be bought after the option title is changed. This patch is available when the Quality Patches Tool (QPT) 1.0.19 is installed. The patch ID is MDVA-35155. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+title: "MDVA-35155: Can't buy bundle product after option title changed"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,bundle product,can't buy,option title change,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-35155: Can''t buy bundle product after option title changed'
 ---
-
-# MDVA-35155: Can't buy bundle product after option title changed
 
 The MDVA-35155 patch solves the issue where a bundle product can't be bought after the option title is changed. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35155. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 
@@ -18,25 +15,25 @@ Adobe Commerce on cloud infrastructure 2.3.5
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.3.5-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Bundle products can't be bought after the option title is changed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a new bundle product via **Product Import**.
 1. The product is normal in both the Admin and frontend (in stock and can be added to the cart).
 1. Update the same product with changes in the name in `bundle_values` and re-import the product.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The existing bundle option is updated to the new name and keeps the same items in it.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 * Admin attempts to merge products with the same SKU into a single bundle-option section, resulting in an empty option section.
 * The product is out of stock on the frontend (even after a reindex).

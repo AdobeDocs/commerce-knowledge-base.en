@@ -1,18 +1,15 @@
 ---
-description: Activate the Fastly's **Force TLS** functionality in the Commerce Admin to enable the global HTTP to HTTPS redirect for all pages of your Adobe Commerce on cloud infrastructure store.
-labels: 1.2.4,2.1,2.1.4,Fastly,Magento Commerce Cloud,Pro,Starter,TLS,cloud,how to,redirect,routes.yaml,security,Adobe Commerce,cloud infrastructure
 title: Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastructure (Force TLS)
+labels: 1.2.4,2.1,2.1.4,Fastly,Magento Commerce Cloud,Pro,Starter,TLS,cloud,how to,redirect,routes.yaml,security,Adobe Commerce,cloud infrastructure
 ---
-
-# Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastructure (Force TLS)
 
 Activate the Fastly's **Force TLS** functionality in the Commerce Admin to enable the global HTTP to HTTPS redirect for all pages of your Adobe Commerce on cloud infrastructure store.
 
 This article provides detailed [steps](#steps), a quick overview of the Force TLS feature, affected versions, and links to related documentation.
 
-## Steps {#steps}
+<h2 id="steps">Steps</h2>
 
-## Step 1: Configure Secure URLs {#step-1-configure-secure-urls}
+<h3 id="step-1-configure-secure-urls">Step 1: Configure Secure URLs</h3>
 
 In this step, we define the secure URLs for the store. If that's already done, go to [Step 2: Enable Force TLS](#step-2-enable-force-tls).
 
@@ -25,7 +22,7 @@ In this step, we define the secure URLs for the store. If that's already done, g
 
  **Related documentation in our user guide:**   [Store URLs](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html).
 
-## Step 2: Enable Force TLS {#step-2-enable-force-tls}
+<h3 id="step-2-enable-force-tls">Step 2: Enable Force TLS</h3>
 
 1. In the Commerce Admin, navigate to **Stores** > **Configuration** > **Advanced** > **System**.
 1. Expand the **Full Page Cache** section, then **Fastly Configuration**, then **Advanced Configuration**.

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-31236 patch fixes the issue where the Commerce admin users with custom resource access cannot set up two-factor authentication (2FA) or log in. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed.
+title: "MDVA-31236: admins cannot setup 2FA or log in"
 labels: 2.4.0,2.4.0-p1,2.4.1,2FA,QPT 1.0.12,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools, cloud infrastructure,on-premises
-title: 'MDVA-31236: admins cannot setup 2FA or log in'
 ---
-
-# MDVA-31236: admins cannot setup 2FA or log in
 
 The MDVA-31236 patch fixes the issue where the Commerce admin users with custom resource access cannot set up [two-factor authentication (2FA)](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) or log in. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed.
 
@@ -14,9 +11,9 @@ The MDVA-31236 patch fixes the issue where the Commerce admin users with custom 
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.0-2.4.1.
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 

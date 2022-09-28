@@ -1,10 +1,7 @@
 ---
-description: 'The MDVA-33975 patch fixes GraphQL price calculation issues. These issues include:'
+title: "MDVA-33975 patch: GraphQL price calculations"
 labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,GraphQL,QPT 1.0.14,QPT patches,Magento Commerce,Magento Commerce Cloud,billing,cart price rule,catalog price rules,discount,price calculation,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33975 patch: GraphQL price calculations'
 ---
-
-# MDVA-33975 patch: GraphQL price calculations
 
 The MDVA-33975 patch fixes GraphQL price calculation issues. These issues include:
 
@@ -22,9 +19,9 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 * The patch was designed for Adobe Commerce on-premises 2.4.1.
 * The patch is also compatible with the following Adobe Commerce versions: Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4 - 2.4.1.
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Apply the patch
 

@@ -1,10 +1,7 @@
 ---
-description: "The MDVA-37984 patch solves the issue where the Visual Merchandiser's \u201CMatch product by rule\u201D functionality does not filter products correctly when staging updates are applied. This patch is available when the Quality Patches Tool (QPT) 1.1.9 is installed. The patch ID is MDVA-37984. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
+title: "MDVA-37984: Visual Merchandiser not working correctly when staging updates are applied"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.9,Visual Merchandiser,product rule,functionality,filter, products,staging,updates,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-37984: Visual Merchandiser not working correctly when staging updates are applied'
 ---
-
-# MDVA-37984: Visual Merchandiser not working correctly when staging updates are applied
 
 The MDVA-37984 patch solves the issue where the Visual Merchandiser's “Match product by rule” functionality does not filter products correctly when staging updates are applied. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-37984. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,15 +15,15 @@ The MDVA-37984 patch solves the issue where the Visual Merchandiser's “Match p
 
 * Adobe Commerce (all deployment methods) 2.4.1 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The Visual Merchandiser's “Match product by rule” functionality does not filter products correctly when staging updates are applied.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a schedule update for any existing product.
     * Set different values for `entity_id` and `row_id`.
@@ -36,11 +33,11 @@ The Visual Merchandiser's “Match product by rule” functionality does not fil
 1. Now select "Quantity" as the attribute, "Greater" as the operator, and "4500" as the value.
 1. Click **save**.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The newly created configurable product is listed.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The newly created configurable product is not listed.
 

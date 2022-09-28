@@ -1,10 +1,7 @@
 ---
-description: 'The MDVA-35092 patch fixes the issue where you see Error: *"Video not Found"*. This error message displays when you enter a Vimeo video using the native Add Video interface in the product admin of Adobe Commerce. This patch is available when the Quality Patches Tool (QPT) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.'
-labels: 2.3.5-p1,2.3.5-p2,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.2,QPT 1.0.17,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Vimeo,error,support tools,video,Adobe Commerce,cloud infrastructure,on-premises
 title: 'MDVA-35092: Vimeo Error: "Video not found"'
+labels: 2.3.5-p1,2.3.5-p2,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.2,QPT 1.0.17,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Vimeo,error,support tools,video,Adobe Commerce,cloud infrastructure,on-premises
 ---
-
-# MDVA-35092: Vimeo Error: "Video not found"
 
 The MDVA-35092 patch fixes the issue where you see Error: *"Video not Found"*. This error message displays when you enter a Vimeo video using the native Add Video interface in the product admin of Adobe Commerce. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,26 +15,26 @@ Adobe Commerce on cloud infrastructure 2.4.1
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.5 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The Vimeo simple API stops working as expected.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Log in to the Admin.
 1. To edit an existing product, go to **CATALOG** > **Products** > **Edit**, or to create a new product, go to **CATALOG** > **Products** > **Edit** > **Add Product**.
 1. Click the **Images And Videos** tab on the Product page.
 1. Click **Add Video** and add a Vimeo video's URL. Click **Save**.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The new video is found and saved.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Error: *"Video not Found"* is displayed.
 

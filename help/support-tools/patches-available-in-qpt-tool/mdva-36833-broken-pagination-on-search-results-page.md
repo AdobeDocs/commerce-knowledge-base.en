@@ -1,10 +1,7 @@
 ---
-description: The MDVA-36833 patch fixes the issue where pagination breaks when the shared catalog is enabled and some products were excluded from shared catalog. This patch is available when the Quality Patches Tool (QPT) 1.0.22 is installed. The patch ID is MDVA-36833. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+title: "MDVA-36833: broken pagination on search results page"
 labels: 2.4.2,QPT 1.0.22,Magento Commerce Cloud,Quality Patches Tool,catalog,pagination,search,shared catalog,support tools,Adobe Commerce,cloud infrastructure
-title: 'MDVA-36833: broken pagination on search results page'
 ---
-
-# MDVA-36833: broken pagination on search results page
 
 The MDVA-36833 patch fixes the issue where pagination breaks when the shared catalog is enabled and some products were excluded from shared catalog. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-36833. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -12,9 +9,9 @@ The MDVA-36833 patch fixes the issue where pagination breaks when the shared cat
 
  **The patch is created for Adobe Commerce version:** Adobe Commerce (all deployment methods) 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 

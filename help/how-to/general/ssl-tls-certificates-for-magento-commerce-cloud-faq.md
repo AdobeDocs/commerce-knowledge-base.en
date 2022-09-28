@@ -1,10 +1,7 @@
 ---
-description: This article provides quick answers to questions about getting SSL (TLS) certificates for your Adobe Commerce site on our cloud infrastructure.
+title: "SSL (TLS) certificates for Adobe Commerce on cloud infrastructure"
 labels: FAQ,how to,SSL certificates,Magento Commerce Cloud,starter,pro,certificate request,Adobe Commerce
-title: SSL (TLS) certificates for Adobe Commerce on cloud infrastructure
 ---
-
-# SSL (TLS) certificates for Adobe Commerce on cloud infrastructure
 
 This article provides quick answers to questions about getting SSL (TLS) certificates for your Adobe Commerce site on our cloud infrastructure.
 
@@ -37,9 +34,9 @@ If your site is already live and/or you can point the URLs that will be used for
 
 ## Can I use my own SSL/TLS certificate?
 
-You can provide your own SSL/TLS certificate instead of using the [Let’s Encrypt certificate](https://letsencrypt.org/) provided by Adobe. However, this process requires additional work to set up and maintain. To choose this option, submit an [Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360019088251) or work with your CTA to add custom-hosted certificates to your cloud environments. If the domains are no longer in use, they will be automatically purged from our system, and no further action is required. If you already own a certificate, upload it using an SFTP (SSH File Transfer Protocol) client to a web inaccessible file location on your server and [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) letting them know the file path.
+You can provide your own SSL/TLS certificate instead of using the [Let’s Encrypt certificate](https://letsencrypt.org/) provided by Adobe. However, this process requires additional work to set up and maintain. To choose this option, submit an [Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) or work with your CTA to add custom-hosted certificates to your cloud environments. If the domains are no longer in use, they will be automatically purged from our system, and no further action is required. If you already own a certificate, upload it using an SFTP (SSH File Transfer Protocol) client to a web inaccessible file location on your server and [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) letting them know the file path.
 
->[!WARNING]
+>![warning]
 >
 >It is important that you do not upload the certificate files directly to the ticket. Otherwise, the certificates will be considered compromised, and Adobe will need to request a new certificate.
 

@@ -1,10 +1,7 @@
 ---
-description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.1 issue related to having a low site and API performance caused by a long time required to write `debug.log`.
-labels: 2.2.1,API,Magento Commerce Cloud,known issues,patch,performance,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,2.2.0,2.2.2,2.2.3
 title: Low site and API performance
+labels: 2.2.1,API,Magento Commerce Cloud,known issues,patch,performance,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,2.2.0,2.2.2,2.2.3
 ---
-
-# Low site and API performance
 
 This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.1 issue related to having a low site and API performance caused by a long time required to write `debug.log`.
 

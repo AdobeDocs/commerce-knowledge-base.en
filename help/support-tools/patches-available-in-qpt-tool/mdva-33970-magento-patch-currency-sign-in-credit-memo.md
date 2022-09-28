@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33970 patch solves the issue where a Dollar ($) sign was shown instead of the localized currency in a credit memo. This occurs when a **Website** scope is used for a **Price** attribute.
+title: "MDVA-33970 patch: currency sign in credit memo"
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33970 patch: currency sign in credit memo'
 ---
-
-# MDVA-33970 patch: currency sign in credit memo
 
 The MDVA-33970 patch solves the issue where a Dollar ($) sign was shown instead of the localized currency in a credit memo. This occurs when a **Website** scope is used for a **Price** attribute.
 
@@ -16,13 +13,13 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.4 - 2.4.1-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Preconditions</u>:
+<ins>Preconditions</ins>:
 
 For this example, these settings are used:
 
@@ -41,7 +38,7 @@ For this example, these settings are used:
     * **SGD (Singapore Dollar)** = *SGD* (**Use Standard** = *Checked*)
 * Some **Product** exists.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Make an **Order** from the **Website 2** (you can set up it as Default in order to avoid additional settings).
 1. Login to **Admin**.
@@ -56,11 +53,11 @@ For this example, these settings are used:
 1. Open **Sales > Credit Memos**.
 1. Check the **Currency Symbol** in the grid.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The correct localized currency symbol is used, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The Dollar ($) sign is used, even though it is not setup in the Admin settings.
 

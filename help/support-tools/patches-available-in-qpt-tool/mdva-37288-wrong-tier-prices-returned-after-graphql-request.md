@@ -1,10 +1,7 @@
 ---
-description: The MDVA-37288 quality patch for Adobe Commerce solves the issue where the wrong tier prices are returned after GraphQL request. This patch is available when the Quality Patches Tool (QPT) v.1.0.23 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
+title: "MDVA-37288: Wrong tier prices returned after GraphQL request"
 labels: 2.4.2,QPT 1.0.23,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,products,GraphQL,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce
-title: 'MDVA-37288: Wrong tier prices returned after GraphQL request'
 ---
-
-# MDVA-37288: Wrong tier prices returned after GraphQL request
 
 The MDVA-37288 quality patch for Adobe Commerce solves the issue where the wrong tier prices are returned after GraphQL request. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.23 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 
@@ -13,13 +10,13 @@ The MDVA-37288 quality patch for Adobe Commerce solves the issue where the wrong
 * The patch was designed for Adobe Commerce on cloud infrastructure 2.4.2
 * The patch is also compatible with Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Add tier pricing to any item (for this example tier prices were added to items with id=1 and id=2).
 1. Run GraphQL query with search that will include the items with tier prices and items without tier prices.
@@ -40,7 +37,7 @@ The MDVA-37288 quality patch for Adobe Commerce solves the issue where the wrong
 }
 </code></pre>
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Only items with tier prices should return proper tier prices:
 
@@ -84,7 +81,7 @@ Only items with tier prices should return proper tier prices:
 }
 ```
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 * All items coming after an item with tier pricing have tier pricing in the response.
 * The tier pricing data that it's returning is from the last item in the loop that had tier pricing.

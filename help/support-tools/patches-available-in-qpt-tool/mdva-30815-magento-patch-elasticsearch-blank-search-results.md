@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30815 patch fixes the issue where Elasticsearch displays a blank page when the search results' limiter options are changed. This patch is available when the Quality Patches Tool (QPT) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.5.
+title: "MDVA-30815: Elasticsearch blank search results"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,category,elasticsearch,products,products per page,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30815: Elasticsearch blank search results'
 ---
-
-# MDVA-30815: Elasticsearch blank search results
 
 The MDVA-30815 patch fixes the issue where Elasticsearch displays a blank page when the search results' limiter options are changed. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.5.
 
@@ -18,30 +15,30 @@ The MDVA-30815 patch fixes the issue where Elasticsearch displays a blank page w
 
 * Adobe Commerce (all deployment methods) 2.3.2 - 2.3.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When using Elasticsearch, if you change the search results' limiter options, Adobe Commerce displays a blank page.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Elasticsearch is **enabled**. Go to **STORES** > **Settings** > **Configuration** > **Catalog** > **Catalog Search**.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to your site.
 1. Search for a product on the main search field.
 1. After the search result pages are displayed, click on the last page in the search result pages.
 1. Select **Show xx per page** from the limiter option. Make sure that this is a different search result number limit than currently configured.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The page displays the configured number of product results.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Blank page displays. This error can also be seen in the `var/report` : *\`"0":"SQLSTATE\[42000\]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near'\`*
 

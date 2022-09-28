@@ -1,10 +1,7 @@
 ---
-description: The MDVA-40120 patch solves the issue where GraphQL sorting by DESC/ASC doesn't work with products having the same relevance or price. This patch is available when the Quality Patches Tool (QPT) 1.1.6 is installed. The patch ID is MDVA-40120. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-40120: GraphQL product DESC/ASC sort doesn't work"
 labels: QPT patches,Quality Patches Tool,QPT 1.1.6,MQP,Magento,Adobe Commerce,cloud infrastructure,on-premises,GraphQL,DESC,ASC,products,sort,sorting,price,relevance,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-40120: GraphQL product DESC/ASC sort doesn''t work'
 ---
-
-# MDVA-40120: GraphQL product DESC/ASC sort doesn't work
 
 The MDVA-40120 patch solves the issue where GraphQL sorting by DESC/ASC doesn't work with products having the same relevance or price. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.6 is installed. The patch ID is MDVA-40120. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,17 +15,17 @@ The MDVA-40120 patch solves the issue where GraphQL sorting by DESC/ASC doesn't 
 
 * Adobe Commerce (all deployment methods) 2.4.1 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Create a few different products with the same price.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Run the following GraphQL query:
     <pre>
@@ -61,11 +58,11 @@ Create a few different products with the same price.
     </pre>
 1. Check the response.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The product listing in the GraphQL response should be changed according to the sort order.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The sort order remains unchanged.
 

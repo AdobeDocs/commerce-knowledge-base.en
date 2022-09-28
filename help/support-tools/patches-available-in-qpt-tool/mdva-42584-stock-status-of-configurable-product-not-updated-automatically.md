@@ -1,10 +1,7 @@
 ---
-description: The MDVA-42584 patch solves the issue where the stock status of the configurable product is not updated automatically when its simple product is updated. This patch is available when the Quality Patches Tool (QPT) 1.1.10 is installed. The patch ID is MDVA-42584. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-42584: Stock status of configurable product not updated automatically"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.10,stock status,configurable product,simple product,2.4.2,2.4.2-p1,2.4.2-p2
-title: 'MDVA-42584: Stock status of configurable product not updated automatically'
 ---
-
-# MDVA-42584: Stock status of configurable product not updated automatically
 
 The MDVA-42584 patch solves the issue where the stock status of the configurable product is not updated automatically when its simple product is updated. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-42584. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,19 +15,19 @@ The MDVA-42584 patch solves the issue where the stock status of the configurable
 
 * Adobe Commerce (all deployment methods) 2.4.2 - 2.4.2-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Stock status of the configurable product in the backend is not updated automatically when its simple product is set to **In Stock** through API or import.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 MSI installed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a configurable product, **InvCheck001**, with two options: **InvCheck001-M** and **InvCheck001-L**.
 1. Both the simple products should have Quantity and they should be **In Stock** so that the configurable product is also **In Stock** in the backend.
@@ -55,11 +52,11 @@ MSI installed.
 1. Go to the backend and verify the quantity and stock status of the simple product **InvCheck001-M**. It is updated to **In stock**.
 1. Refresh the configurable product and check the stock status.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The stock status of the configurable product **InvCheck001** in the backend is updated automatically to **In Stock**.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The stock status of the configurable product is still **Out of Stock**.
 

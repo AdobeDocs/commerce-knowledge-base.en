@@ -1,10 +1,7 @@
 ---
-description: The MDVA-42657 patch solves the issue where the admin user is unable to select categories in the customer segment conditions. This patch is available when the Quality Patches Tool (QPT) 1.1.9 is installed. The patch ID is MDVA-42657. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-42657: Unable to select categories in the customer segment conditions"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.9,admin user,categories,customer segment,conditions,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-42657: Unable to select categories in the customer segment conditions'
 ---
-
-# MDVA-42657: Unable to select categories in the customer segment conditions
 
 The MDVA-42657 patch solves the issue where the admin user is unable to select categories in the customer segment conditions. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-42657. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,15 +15,15 @@ The MDVA-42657 patch solves the issue where the admin user is unable to select c
 
 * Adobe Commerce (all deployment methods) 2.4.1 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Admin user is unable to select categories in the customer segment conditions.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Customers** > **Segments**.
 1. Create a new segment.
@@ -42,20 +39,18 @@ Admin user is unable to select categories in the customer segment conditions.
 1. Click the **Save** button.
 1. Navigate back to the condition and check if the selected categories are saved.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The selected categories are saved and selected when viewing/editing the segment conditions.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The selected categories are missing and did not save properly. You get the following error in console:
-
 ```
 category-checkbox-tree.js:249 Uncaught TypeError: Cannot set properties of undefined (setting 'value')
     at Ext.tree.TreePanel.Enhanced.<anonymous> (category-checkbox-tree.js:249)
     at Ext.util.Event.fire (ext-tree.js:29)
 ```
-
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

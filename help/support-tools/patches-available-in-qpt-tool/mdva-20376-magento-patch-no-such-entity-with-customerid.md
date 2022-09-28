@@ -1,10 +1,7 @@
 ---
-description: The MDVA-20376 patch solves the issue of a *No such entity with customerId = 1* error for logged-in customers after order placement. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.4.
+title: "MDVA-20376: no such entity with customerId"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.13,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,customerId,error,no such entity,order placement,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-20376: no such entity with customerId'
 ---
-
-# MDVA-20376: no such entity with customerId
 
 The MDVA-20376 patch solves the issue of a *No such entity with customerId = 1* error for logged-in customers after order placement. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.4.
 
@@ -18,25 +15,25 @@ Adobe Commerce on cloud infrastructure 2.3.2
 
 Adobe Commerce (all deployment methods) 2.3.2 - 2.3.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Logged-in customers receive *No such entity with customerId = 1* error after order placement.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Navigate to the storefront, and log in as a registered user.
 1. Place an order.
 1. In the CLI, go to `var/log` and you will see the `exception.log` file.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 No errors should appear in the logs, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The exception log fills up with errors similar to:
 

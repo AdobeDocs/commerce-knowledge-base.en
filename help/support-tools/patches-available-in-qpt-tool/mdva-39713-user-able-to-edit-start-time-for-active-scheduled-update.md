@@ -1,10 +1,7 @@
 ---
-description: The MDVA-39713 patch fixes the issue where a user is able to edit the start time of an active scheduled update. This patch is available when the Quality Patches Tool (QPT) 1.1.12 is installed. The patch ID is MDVA-39713. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-39713: User is able to edit start time of active scheduled update"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.12,scheduled update,edit,start time,error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6
-title: 'MDVA-39713: User is able to edit start time of active scheduled update'
 ---
-
-# MDVA-39713: User is able to edit start time of active scheduled update
 
 The MDVA-39713 patch fixes the issue where a user is able to edit the start time of an active scheduled update. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-39713. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,15 +15,15 @@ The MDVA-39713 patch fixes the issue where a user is able to edit the start time
 
 * Adobe Commerce (all deployment methods) 2.3.0 - 2.3.6
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The user is able to edit the start time for an active scheduled update.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create new CMS pages.
 1. Select **Schedule New Update** and set the **Start Date** to current +1 minute.
@@ -38,11 +35,11 @@ The user is able to edit the start time for an active scheduled update.
 1. Again, run the following command: `bin/magento cron:run --group=staging`.
 1. Click **View/Edit** of the Scheduled Update.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The user is not able to edit the start time for an active scheduled update.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The user gets an error like *Item (Magento\Cms\Model\Page) with the same ID "11" already exists.*
 

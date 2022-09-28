@@ -1,12 +1,9 @@
 ---
-description: The MDVA-31363 patch fixes the issue where the cart price rule with coupon does not apply via GraphQL when the 'Fixed amount discount for whole cart' action is used. This patch is available when the Quality Patches Tool (QPT) 1.0.9 is installed. The issue is scheduled to be fixed in Adobe Commerce version 2.4.2.
+title: "MDVA-31363 patch: Cart price rule does not apply (GraphQL)"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.1,GraphQL,QPT 1.0.9,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,cart price rule,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-31363 patch: Cart price rule does not apply (GraphQL)'
 ---
 
-# MDVA-31363 patch: Cart price rule does not apply (GraphQL)
-
->[!WARNING]
+>![warning]
 >
 >A new patch called MDVA-33975 fixes GraphQL price calculation issues. MDVA-31363 is depreciated and it is recommended that you apply the patch MDVA-33975. To access this patch, refer to [MDVA-33975 patch: GraphQL price calculations](https://support.magento.com/hc/en-us/articles/360055782351).
 
@@ -22,15 +19,15 @@ Adobe Commerce on cloud infrastructure 2.4.0
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.2 - 2.4.1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Recalculating quote totals before giving a response about quote prices causes applied rules to be lost.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a simple product.
 1. Create a cart price rule with a fixed amount discount for the whole cart.
@@ -39,11 +36,11 @@ Recalculating quote totals before giving a response about quote prices causes ap
 1. Activate the cart price rule by adding the coupon code to cart using GraphQL.
 1. Check price in response.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Discount is applied.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Discount is not applied.
 

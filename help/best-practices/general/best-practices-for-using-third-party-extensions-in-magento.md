@@ -1,10 +1,7 @@
 ---
-description: This article provides some best practices for potential issues with third-party extensions (modules) used in Adobe Commerce.
-labels: 2.2.x,2.3.x,3rd-party extensions,Magento Commerce,Magento Commerce Cloud,Magento Open Source,best practices,extensions,performance,third-party extensions,Adobe Commerce,cloud infrastructure,on-premises
 title: Best Practices for using third-party extensions in Adobe Commerce
+labels: 2.2.x,2.3.x,3rd-party extensions,Magento Commerce,Magento Commerce Cloud,Magento Open Source,best practices,extensions,performance,third-party extensions,Adobe Commerce,cloud infrastructure,on-premises
 ---
-
-# Best Practices for using third-party extensions in Adobe Commerce
 
 This article provides some best practices for potential issues with third-party extensions (modules) used in Adobe Commerce.
 

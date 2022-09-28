@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30565 patch solves the issue with session cache local storage and checkout. This patch is available when the Quality Patches Tool (QPT) 1.0.6 is installed.
+title: "MDVA-30565: session cache local storage and checkout issue"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.6,Magento Commerce,Magento Commerce Cloud,cookie,estimate shipping method,guest checkout,local storage,session cache,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30565: session cache local storage and checkout issue'
 ---
-
-# MDVA-30565: session cache local storage and checkout issue
 
 The MDVA-30565 patch solves the issue with session cache local storage and checkout. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.6 is installed.
 
@@ -18,15 +15,15 @@ The MDVA-30565 patch solves the issue with session cache local storage and check
 
 * Adobe Commerce (all deployment methods) 2.3.2 - 2.3.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Cart items can still be seen on the cart page when a customer session times out. This causes an estimate shipping method error where no shipping methods are available for guest checkout.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Enable persistent shopping cart in the Commerce Admin. (**Enable Persistence** = "*Yes*")
 1. Log in as a customer in the frontend. This creates the `persistent_shopping_cart` cookie and initiates a persistent session.
@@ -37,11 +34,11 @@ Cart items can still be seen on the cart page when a customer session times out.
 1. Add a new product into the cart, and go to the cart page.
 1. Now in the browser console it shows `V1/guest-carts/4/estimate-shipping-methods` request now returns a 404 response with message `{"message":"No such entity        with %fieldName = %fieldValue","parameters":{"fieldName":"cartId","fieldValue":0}}`
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The estimate shipping method request returns correct results.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The estimate shipping method request fails with an error like, "*Sorry, no quotes are available for this order at this time.*"
 

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30862 patch fixes the issue where an incorrect order date is printed on the PDF invoice. This patch is available when the Quality Patches Tool (QPT) 1.1.6 is installed. The patch ID is MDVA-30862. Please note that the issue was fixed in Adobe Commerce 2.4.0.
+title: "MDVA-30862: Incorrect order date on printed PDF invoice"
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.6,Adobe Commerce,cloud infrastructure,on-premises,invoice,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0
-title: 'MDVA-30862: Incorrect order date on printed PDF invoice'
 ---
-
-# MDVA-30862: Incorrect order date on printed PDF invoice
 
 The MDVA-30862 patch fixes the issue where an incorrect order date is printed on the PDF invoice. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-30862. Please note that the issue was fixed in Adobe Commerce 2.4.0.
 
@@ -18,24 +15,24 @@ Adobe Commerce (all deployment methods) 2.3.4
 
 Adobe Commerce (all deployment methods) 2.3.4 - 2.3.7-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Incorrect order date is printed on the PDF invoice.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Sales** > **Orders**.
 1. Select an order and print the invoice.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The date matches the purchase date.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The date (including month/year) does not match the purchase date.
 

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-35982 patch fixes the error when admin user restricted to a specific website cannot create a shipment for the order placed on same website. This patch is available when the Quality Patches Tool (QPT) 1.0.19 is installed. The patch ID is MDVA-35982. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-35982: Can't ship some orders"
 labels: 2.3.0,2.3.5-p1,2.4.2,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,orders,shipping,site,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-35982: Can''t ship some orders'
 ---
-
-# MDVA-35982: Can't ship some orders
 
 The MDVA-35982 patch fixes the error when admin user restricted to a specific website cannot create a shipment for the order placed on same website. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35982. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,15 +15,15 @@ Adobe Commerce on cloud infrastructure 2.3.5-p1
 
 Adobe Commerce (all deployment methods) 2.3.0 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Merchant is unable to ship certain orders.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Choose any product website for the product except the default store. See [Product in Websites](https://docs.magento.com/user-guide/catalog/settings-basic-websites.html) in our user guide for detailed steps.
 1. Create a user role for the Admin with Custom Role Scopes, in which the default website/store is not selected. See [Define a role](https://docs.magento.com/user-guide/system/permissions-user-roles.html#define-a-role) in our user guide for detailed steps.
@@ -34,11 +31,11 @@ Merchant is unable to ship certain orders.
 1. Create an order with this product.
 1. Log in under the Admin with this user role and create a shipment. See [Creating a Shipment](https://docs.magento.com/user-guide/sales/shipments-create.html) in our user guide for detailed steps.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The shipment is created.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The following error is displayed:
 

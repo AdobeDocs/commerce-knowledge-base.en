@@ -1,10 +1,7 @@
 ---
-description: The MDVA-28191 patch fixes the issue where a payment method is not loading in the Admin **Create New Order** for one website, although payment methods may be showing for other websites.  This patch is available when the Quality Patches Tool (QPT) tool version 1.0.5 is installed.
+title: "MDVA-28191: No payment method for one website in Admin Create New Order"
 labels: 2.3.3,2.3.2-p2,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,order,payment method,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-28191: No payment method for one website in Admin Create New Order'
 ---
-
-# MDVA-28191: No payment method for one website in Admin Create New Order
 
 The MDVA-28191 patch fixes the issue where a payment method is not loading in the Admin **Create New Order** for one website, although payment methods may be showing for other websites.  This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 is installed.
 
@@ -12,9 +9,9 @@ The MDVA-28191 patch fixes the issue where a payment method is not loading in th
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.3 to 2.4.1 (including 2.3.5-p1).
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 

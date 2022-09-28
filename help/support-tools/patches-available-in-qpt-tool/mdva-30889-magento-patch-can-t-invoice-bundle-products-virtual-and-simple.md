@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30889 patch solves the issue where an error occurs after invoicing a bundle product with both virtual and simple options. This patch is available when the Quality Patches Tool (QPT) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+title: "MDVA-30889: Can't invoice bundle products virtual and simple"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.9,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,bundle options,error,invoice,order,product,simple,virtual,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30889: Can''t invoice bundle products virtual and simple'
 ---
-
-# MDVA-30889: Can't invoice bundle products virtual and simple
 
 The MDVA-30889 patch solves the issue where an error occurs after invoicing a bundle product with both virtual and simple options. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -18,17 +15,17 @@ The MDVA-30889 patch solves the issue where an error occurs after invoicing a bu
 
 * Adobe Commerce (all deployment methods) 2.3.0 - 2.4.1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Install Adobe Commerce with [Inventory Management](https://devdocs.magento.com/guides/v2.4/inventory/).
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Admin**.
 1. Create a simple product.
@@ -41,11 +38,11 @@ Install Adobe Commerce with [Inventory Management](https://devdocs.magento.com/g
 1. Go to **Admin > Orders**.
 1. Open the created order, and invoice it.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The invoice of a bundle product (that contains both simple and virtual products) is created.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The invoice is not created, and you receive an error similar to this:
 

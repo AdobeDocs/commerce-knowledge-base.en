@@ -1,12 +1,9 @@
 ---
-description: This article discusses that it is a recommended best practice to replace the default MySQL search engine in Adobe Commerce with Elasticsearch because Elasticsearch is a better-performing search engine.
-labels: 2.x.x,Elasticsearch,Magento Commerce,MySQL,best practices,bottleneck,memory,performance,search,Adobe Commerce
 title: Improve Adobe Commerce search performance with Elasticsearch
+labels: 2.x.x,Elasticsearch,Magento Commerce,MySQL,best practices,bottleneck,memory,performance,search,Adobe Commerce
 ---
 
-# Improve Adobe Commerce search performance with Elasticsearch
-
->[!WARNING]
+>![warning]
 >
 >[MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0). You must have the Elasticsearch host set up and configured prior to installing version 2.4.1. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 

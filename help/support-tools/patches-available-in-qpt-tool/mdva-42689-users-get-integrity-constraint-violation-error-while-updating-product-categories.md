@@ -1,10 +1,7 @@
 ---
-description: The MDVA-42689 patch solves the issue where users get an Integrity Constraint Violation error while updating product categories during import. This patch is available when the Quality Patches Tool (QPT) 1.1.12 is installed. The patch ID is MDVA-42689. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-42689: Users get Integrity Constraint Violation error while updating product categories during import"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,Integrity Constraint Violation,updates,product categories,import,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-42689: Users get Integrity Constraint Violation error while updating product categories during import'
 ---
-
-# MDVA-42689: Users get Integrity Constraint Violation error while updating product categories during import
 
 The MDVA-42689 patch solves the issue where users get an Integrity Constraint Violation error while updating product categories during import. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-42689. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,15 +15,15 @@ The MDVA-42689 patch solves the issue where users get an Integrity Constraint Vi
 
 * Adobe Commerce (all deployment methods) 2.3.0 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Adobe Commerce throws an Integrity Constraint Violation error while updating product categories during import.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Set up two websites.
 1. Create subcategories under the root category up to two levels on the category page. For example, Root Category > **Gear** > **Watches**.
@@ -36,18 +33,16 @@ Adobe Commerce throws an Integrity Constraint Violation error while updating pro
 1. Prepare a CSV file for import. There should be two product records with different store views. One of the products should belong to both these store views.
 1. Now import the CSV file by navigating to **System** > **Import** > **Entity Type** (Products).
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 CSV file is imported without any error.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Adobe Commerce throws the following error:
-
 ```SQL
 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1302' for key 'PRIMARY', query was: INSERT INTO `catalog_url_rewrite_product_category` (`url_rewrite_id`,`category_id`,`product_id`) VALUES (?, ?, ?), (?, ?, ?), (?, ?, ?)
 ```
-
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

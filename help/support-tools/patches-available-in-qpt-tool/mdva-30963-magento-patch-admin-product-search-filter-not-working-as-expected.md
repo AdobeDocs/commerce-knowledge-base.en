@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30963 patch solves the issue wherein the Commerce Admin and the product search filter do not work as expected. Values that are overridden in a store view scope are also considered when filtering on **All store view** store view scope. This patch is available when the Quality Patches Tool (QPT) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+title: "MDVA-30963: admin product search filter not working as expected"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.8,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,disabled,enabled,product search filter,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30963: admin product search filter not working as expected'
 ---
-
-# MDVA-30963: admin product search filter not working as expected
 
 The MDVA-30963 patch solves the issue wherein the Commerce Admin and the product search filter do not work as expected. Values that are overridden in a store view scope are also considered when filtering on **All store view** store view scope. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -18,13 +15,13 @@ The MDVA-30963 patch solves the issue wherein the Commerce Admin and the product
 
 * Adobe Commerce (all deployment methods) 2.3.2 - 2.4.1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Set **Stores** > **Configuration** > **Catalog** > **Catalog** > **Price** > **Catalog Price Scope** = *Website*.
 1. Create two websites having two different currencies (For example, the default website is an India Store \[Rupee ₹\], and the second one is the US Store \[Dollar $\]).
@@ -41,11 +38,11 @@ The MDVA-30963 patch solves the issue wherein the Commerce Admin and the product
 1. Log in to the Admin with subAdmin just created (Example: *US Only admin*).
 1. Go to **Reports** > **Products in cart**.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 When filtering within the **All store view** store view scope, products filtering should get the value set in that particular scope.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Values overridden in a store view scope are also considered when filtering on the "All store view" store view scope.
 

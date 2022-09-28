@@ -1,10 +1,7 @@
 ---
-description: The MDVA-42237 patch fixes the issue where the configurable product's special price is not updated after changes in its subproduct price. This patch is available when the Quality Patches Tool (QPT) 1.1.11 is installed. The patch ID is MDVA-42237. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-42237: Configurable product special price not updated"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.11,configurable product,GraphQL,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-42237: Configurable product special price not updated'
 ---
-
-# MDVA-42237: Configurable product special price not updated
 
 The MDVA-42237 patch fixes the issue where the configurable product's special price is not updated after changes in its subproduct price. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-42237. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,26 +15,26 @@ The MDVA-42237 patch fixes the issue where the configurable product's special pr
 
 * Adobe Commerce (all deployment methods) 2.4.2 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The configurable product's special price is not updated after changes in its subproduct price.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Admin** > **System** > **Index Management** and set **Index Mode** to **Update By Schedule** for all indexes.
 1. Create a configurable product with one simple product and set a special price for the subproduct.
 1. Check that the special price is reflected on the Storefront.
 1. Remove the special price using GraphQL and recheck the product price on the Storefront.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The special price is no longer displayed on the Storefront.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The price is not updated on the Storefront.
 

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the Quality Patches Tool (QPT) v.1.0.6 is installed. The issues are scheduled to be fixed in Adobe Commerce 2.4.2.
+title: "MDVA-30977: missing products from categories, indexing related"
 labels: 2.3.4,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,category,products,support tools,cloud infrastructure,on-premises
-title: 'MDVA-30977: missing products from categories, indexing related'
 ---
-
-# MDVA-30977: missing products from categories, indexing related
 
 The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issues are scheduled to be fixed in Adobe Commerce 2.4.2.
 
@@ -12,9 +9,9 @@ The MDVA-30977 patch fixes the issues with products displayed on storefront cate
 
 The patch was created for Adobe Commerce on cloud infrastructure 2.3.4. It is also compatible with Adobe Commerce on-premises 2.3.4.
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issues
 

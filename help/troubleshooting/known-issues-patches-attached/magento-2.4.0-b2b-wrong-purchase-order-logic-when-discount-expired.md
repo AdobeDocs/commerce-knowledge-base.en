@@ -1,10 +1,7 @@
 ---
-description: This article provides a patch for the known issue of a purchase order (PO) discount not being applied in Adobe Commerce 2.4.0 B2B. If the PO was placed with a discount code that expired while the PO was in the approval process, the approved order does not reflect the discount.
+title: "Adobe Commerce 2.4.0 B2B: wrong purchase order logic when discount expired"
 labels: 2.4.0,B2B,Magento Commerce,Magento Commerce Cloud,known issues,patch,purchase order,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-title: 'Adobe Commerce 2.4.0 B2B: wrong purchase order logic when discount expired'
 ---
-
-# Adobe Commerce 2.4.0 B2B: wrong purchase order logic when discount expired
 
 This article provides a patch for the known issue of a purchase order (PO) discount not being applied in Adobe Commerce 2.4.0 B2B. If the PO was placed with a discount code that expired while the PO was in the approval process, the approved order does not reflect the discount.
 
@@ -15,20 +12,20 @@ This article provides a patch for the known issue of a purchase order (PO) disco
 
 ## Issue
 
- <u>Prerequisites</u>: a discount coupon is created, and approval rules preventing POs from being processed automatically exist.
+ <ins>Prerequisites</ins>: a discount coupon is created, and approval rules preventing POs from being processed automatically exist.
 
-<u>Steps to reproduce:</u>
+<ins>Steps to reproduce:</ins>
 
 1. Place a PO with a discount applied.
 1. Deactivate the discount coupon.
 1. Approve PO as a manager.
 1. Check the order created as a result.
 
- <u>Expected result:</u>
+ <ins>Expected result:</ins>
 
 Order is created with a discounted total.
 
- <u>Actual result:</u>
+ <ins>Actual result:</ins>
 
 Order is created for the full amount.
 

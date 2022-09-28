@@ -1,10 +1,7 @@
 ---
-description: The MDVA-41631 patch fixes the issue where users get an error retrieving order information without optional "telephone" value through GraphQL. This patch is available when the Quality Patches Tool (QPT) 1.1.7 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
-labels: 2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4,QPT 1.1.7,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,GraphQL,error,order,Adobe Commerce,cloud infrastructure,on-premises
 title: 'MDVA-41631: Error retrieving order information without optional "telephone" value'
+labels: 2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4,QPT 1.1.7,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,GraphQL,error,order,Adobe Commerce,cloud infrastructure,on-premises
 ---
-
-# MDVA-41631: Error retrieving order information without optional "telephone" value
 
 The MDVA-41631 patch fixes the issue where users get an error retrieving order information without optional "telephone" value through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.7 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,15 +15,15 @@ Adobe Commerce (all deployment methods) 2.4.2-p1
 
 Adobe Commerce (all deployment methods) 2.4.1 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Users get an error retrieving order information without optional "telephone" value through GraphQL.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Store** > **Configuration** > **Customers** > **Customer Configuration** > **Name and Address Options** > **Show Telephone** and set the phone number as optional.
 1. Place an order using GraphQL API as a logged-in customer.
@@ -73,11 +70,11 @@ country_code
 </code>
 </pre>
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Users get order information.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Users get the following error: *"message": "Internal server error",*
 

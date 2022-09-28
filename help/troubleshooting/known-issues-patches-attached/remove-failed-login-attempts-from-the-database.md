@@ -1,12 +1,9 @@
 ---
-description: This article explains how to remove pre-existing failed login credentials from the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure database. For versions 2.2.10+ and 2.3.3+, you only need to run the attached script. For older versions 2.3.0-2.3.2-p2, you need to apply a patch to stop logging and run the attached script to remove pre-existing failed login credentials.
-labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,database,failed login,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 title: Remove failed login attempts from the database
+labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,database,failed login,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
 
-# Remove failed login attempts from the database
-
->[!NOTE]
+>![info]
 >
 >This article was updated on April 13, 2020, with a new script called DB\_CLEANUP\_SCRIPT\_v2. Please use the attached DB\_CLEANUP\_SCRIPT\_v2 script to clear pre-existing failed login data in additional tables. You need to use DB\_CLEANUP\_SCRIPT\_v2, even if you have run DB\_CLEANUP\_SCRIPT\_v1 previously to help ensure additional tables are cleaned up.
 
@@ -40,14 +37,14 @@ For these versions only, run the below script to clear old logs (logging was end
 
 Please refer to the [ **How to run the script** ](https://support.magento.com/hc/en-us/articles/360040209352#run_script) section in our support knowledge base, for instructions.
 
- **How to run the script** 
+ **How to run the script**
 
 Please follow the below instructions to run the script:
 
 1. Put `DB_CLEANUP_SCRIPT_v2.php` in the root directory of the Adobe Commerce or Magento Open Source installation (in the same directory as app which contains `app/bootstrap.php`).
 1. Run this command in the terminal: `php DB_CLEANUP_SCRIPT_v2.php` and it will begin the database clean up process.
 
-If you encounter any issues while running the script, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) or email us at [security@magento.com](mailto:security@magento.com).
+If you encounter any issues while running the script, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) or email us at [security@magento.com](mailto:security@magento.com).
 
  **Attached files**
 

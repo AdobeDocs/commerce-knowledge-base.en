@@ -1,10 +1,7 @@
 ---
-description: This article provides a patch and the required steps to fix the known Adobe Commerce 2.2.1 issue related to getting a 404 error on all store front pages, after a catalog price rule update was created and its starting time was edited later. To fix the issue you need to apply the patch.
-labels: 2.2.1,404 error,Magento Commerce,known issues,patch,schedule update,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises
 title: 404 Error on store front once catalog price rule schedules update is performed
+labels: 2.2.1,404 error,Magento Commerce,known issues,patch,schedule update,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises
 ---
-
-# 404 Error on store front once catalog price rule schedules update is performed
 
 This article provides a patch and the required steps to fix the known Adobe Commerce 2.2.1 issue related to getting a 404 error on all store front pages, after a catalog price rule update was created and its starting time was edited later. To fix the issue you need to apply the patch.
 
@@ -42,7 +39,7 @@ The following is a detailed description of the required steps:
 1. Clear the browser cache under **System** > **Cache Management**.
 1. Make sure the cron jobs are configured properly and may be executed successfully.
 
-## Patch {#patch}
+<h2 id="patch">Patch</h2>
 
 The patch is attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
@@ -63,9 +60,9 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 For instruction, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
 
-## Fix the invalid links to staging in DB {#fix_links}
+<h2 id="fix_links">Fix the invalid links to staging in DB</h2>
 
->[!WARNING]
+>![warning]
 >
 >We strongly recommend creating a database backup before any database manipulations. We also recommend testing queries on development environment first.
 

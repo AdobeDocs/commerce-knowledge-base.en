@@ -1,10 +1,7 @@
 ---
-description: 'The MDVA-38468 Adobe Commerce patch fixes the issue where users get the error message: *Item with the same ID "PAGE_ID" already exists,* when saving a CMS page. This patch is available when the Quality Patches Tool (QPT) 1.0.26 is installed. The patch ID is MDVA-38468. Please note that the issue was fixed in Adobe Commerce 2.3.6.'
+title: "MDVA-38468: Receive an error message when saving CMS page"
 labels: QPT patches,Quality Patches Tool,QPT,Support Tools,QPT 1.0.26,Magento Commerce Cloud,Magento Commerce,CMS,error message,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,Adobe Commerce,on-premises,cloud infrastructure
-title: 'MDVA-38468: Receive an error message when saving CMS page'
 ---
-
-# MDVA-38468: Receive an error message when saving CMS page
 
 The MDVA-38468 Adobe Commerce patch fixes the issue where users get the error message: *Item with the same ID "PAGE_ID" already exists,* when saving a CMS page. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38468. Please note that the issue was fixed in Adobe Commerce 2.3.6.
 
@@ -16,15 +13,15 @@ Adobe Commerce on cloud infrastructure 2.3.2-p2
 **Compatible with Adobe Commerce versions:**
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.2-2.3.5-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When trying to save a CMS page, you receive the following error message: *Item with the same ID "PAGE_ID" already exists.*
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a new Website + Store + Storeview.
 1. Create one more Website + Store + Storeview.
@@ -35,11 +32,11 @@ When trying to save a CMS page, you receive the following error message: *Item w
    * In Hierarchy section assign to any category.
    * **Save and Continue Edit**.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The page is saved without any error.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The page is saved, but you get the following error message: *Item (Magento\VersionsCms\Model\Hierarchy\Node) with the same ID "PAGE_ID" already exists.*
 

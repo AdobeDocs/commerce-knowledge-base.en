@@ -1,10 +1,7 @@
 ---
-description: The MDVA-36253 patch solves the issue where the product price is not being updated if you go back to the mini cart page after deleting a product when using multi-shipping checkout step. This patch is available when the Quality Patches Tool (QPT) 1.0.22 is installed. The patch ID is MDVA-36253. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-36253: Incorrect total in mini cart after deleting item"
 labels: 2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.22,Magento Commerce Cloud,Quality Patches Tool,cart,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-36253: Incorrect total in mini cart after deleting item'
 ---
-
-# MDVA-36253: Incorrect total in mini cart after deleting item
 
 The MDVA-36253 patch solves the issue where the product price is not being updated if you go back to the mini cart page after deleting a product when using multi-shipping checkout step. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.22 is installed. The patch ID is MDVA-36253. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,15 +15,15 @@ Adobe Commerce on cloud infrastructure 2.4.1
 
 Adobe Commerce (all deployment methods) 2.4.0-2.4.1-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Incorrect total in mini cart after deleting item.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Log in as a customer that has at least one address.
 1. Add four products to cart (price = $10 for each).
@@ -35,11 +32,11 @@ Incorrect total in mini cart after deleting item.
 1. Navigate back to the Home page.
 1. Open the cart and check the total price.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Total is $30.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Total is $40.
 

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-39993 patch solves the issue where the inventory changes done through API are not reflected on the storefront. This patch is available when the Quality Patches Tool (QPT) 1.1.12 is installed. The patch ID is MDVA-39993. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-39993: Inventory changes done through API are not reflected on storefront"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.12,inventory changes,frontend,API,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-39993: Inventory changes done through API are not reflected on storefront'
 ---
-
-# MDVA-39993: Inventory changes done through API are not reflected on storefront
 
 The MDVA-39993 patch solves the issue where the inventory changes done through API are not reflected on the storefront. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-39993. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,19 +15,19 @@ The MDVA-39993 patch solves the issue where the inventory changes done through A
 
 * Adobe Commerce (all deployment methods) 2.3.5 - 2.3.7-p2, and 2.4.0 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The inventory changes done through API are not reflected on the storefront product page.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Inventory modules installed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Make sure the queue is set to execute with cron and cron is installed and running.
 1. Create a configurable product (COC001), with two colors (Black and Red), and two sizes (M and L).
@@ -54,11 +51,11 @@ Inventory modules installed.
 1. Check this simple product from the backend and verify that it is updated to In Stock.
 1. Load the configurable product from the frontend and click on each color. Notice the size **M** when you click on **Red**.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 COC001-Red-M option is not crossed out because we have updated it to In Stock through API.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 COC001-Red-M option is still crossed out, even though it is In Stock.
 

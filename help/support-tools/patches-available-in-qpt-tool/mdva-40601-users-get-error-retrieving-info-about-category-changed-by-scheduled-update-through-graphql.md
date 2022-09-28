@@ -1,10 +1,7 @@
 ---
-description: The MDVA-40601 Adobe Commerce quality patch fixes the issue where users get an error when getting information about category changed by scheduled update through GraphQL. This patch is available when the Quality Patches Tool (QPT) 1.1.3 is installed. The patch ID is MDVA-40601. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-40601: Unable to retrieve data about category changed by scheduled update via GraphQL"
 labels: QPT patches,Quality Patches Tool,QPT 1.1.3,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,GraphQL,on-premises,cloud infrastructure,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
-title: 'MDVA-40601: Unable to retrieve data about category changed by scheduled update via GraphQL'
 ---
-
-# MDVA-40601: Unable to retrieve data about category changed by scheduled update via GraphQL
 
 The MDVA-40601 Adobe Commerce quality patch fixes the issue where users get an error when getting information about category changed by scheduled update through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.3 is installed. The patch ID is MDVA-40601. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,15 +15,15 @@ Adobe Commerce (all deployment methods) 2.3.3 and 2.4.2
 
 Adobe Commerce (all deployment methods) 2.3.1 - 2.4.2-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Users get an error when trying to retrieve information about category changed by scheduled update via GraphQL.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Set up a category structure with a sub-category as given below:
 
@@ -76,11 +73,11 @@ Users get an error when trying to retrieve information about category changed by
 1. Wait for the schedule update to get activated.
 1. Execute the same query as given above.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 You receive the same result but with the updated category name.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 You get the following error:
 

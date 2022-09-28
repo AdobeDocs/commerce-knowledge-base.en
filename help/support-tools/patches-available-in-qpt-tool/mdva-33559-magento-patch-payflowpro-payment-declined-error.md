@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33559 patch solves the issue where PayPal PayflowPro payments are declined.
+title: "MDVA-33559 patch: PayflowPro payment declined error"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PayPal PayflowPro,ampersand sign,equal sign,error,payment declined,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33559 patch: PayflowPro payment declined error'
 ---
-
-# MDVA-33559 patch: PayflowPro payment declined error
 
 The MDVA-33559 patch solves the issue where PayPal PayflowPro payments are declined.
 
@@ -16,26 +13,26 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The issue concerns the ampersand sign (&) and equal sign (=) special characters being used in names.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Add a simple product to the cart.
 1. Go to checkout.
 1. Set the shipping address. (Example shipping address: **First Name** = ** *John's* **  **Last Name** = ** *Apples & Oranges, Inc* **  **Street Address** = *1234 E Nameless St*  **Country** = *US*  **State/Province** = *Anystate*  **City** = *Anytown*  **Zip** = *12345*  **Phone** = *1234567890*)
 1. Set payment to **PayPal PayflowPro** and attempt to complete checkout.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The transaction results in a successful payment or a correct error message, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The transaction is declined, and the customer receives an email saying, "Transaction has been Declined."
 

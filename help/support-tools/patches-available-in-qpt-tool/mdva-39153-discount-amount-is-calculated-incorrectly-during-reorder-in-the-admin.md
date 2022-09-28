@@ -1,10 +1,7 @@
 ---
-description: The MDVA-39153 patch fixes the issue where the discount amount is calculated incorrectly during reorder in the Admin. This patch is available when the Quality Patches Tool (QPT) 1.1.8 is installed. The patch ID is MDVA-39153. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-39153: Discount amount is calculated incorrectly during reorder in the Admin"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.8,discount,incorrect amount,reorder,Adobe Commerce,Magento,cloud infrastructure,on-premises,Magento Open Source,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-39153: Discount amount is calculated incorrectly during reorder in the Admin'
 ---
-
-# MDVA-39153: Discount amount is calculated incorrectly during reorder in the Admin
 
 The MDVA-39153 patch fixes the issue where the discount amount is calculated incorrectly during reorder in the Admin. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.8 is installed. The patch ID is MDVA-39153. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,15 +15,15 @@ The MDVA-39153 patch fixes the issue where the discount amount is calculated inc
 
 * Adobe Commerce (all deployment methods) 2.4.2-p1 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Discount amount is calculated incorrectly during reorder in the Admin.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to the **Admin** > **Stores** > **Configuration** > **Sales** > **Taxes**.
 1. Turn on the tax for shipping displaying the tax in the Shopping Cart.
@@ -40,11 +37,11 @@ Discount amount is calculated incorrectly during reorder in the Admin.
 1. Go to the homepage and then back to the Shopping Cart.
 1. Change shipping method in "estimates" section to "Table Rate".
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The discount remains the same - $5.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The discount is $6.31.
 

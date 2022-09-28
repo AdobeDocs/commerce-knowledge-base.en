@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33632 patch solves the issue where an exception is thrown when trying to reorder an out of stock product.
+title: "MDVA-33632 patch: out of stock product reorder exception"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,exception,out of stock,product,reorder,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33632 patch: out of stock product reorder exception'
 ---
-
-# MDVA-33632 patch: out of stock product reorder exception
 
 The MDVA-33632 patch solves the issue where an exception is thrown when trying to reorder an out of stock product.
 
@@ -16,23 +13,23 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.3.6-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a configurable product with one option (Example: **color** = *red*) and set **qty** = *1*.
 1. Create a customer, and place an order with this product, which at that moment will become **qty** = *0*.
 1. Go to Admin, and try to reorder the previous order.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The customer gets the "*This product is out of stock.*" message for an out of stock product, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The customer gets the "*This product is out of stock.*" message, and `var/log/exception.log` contains a similar exception:
 

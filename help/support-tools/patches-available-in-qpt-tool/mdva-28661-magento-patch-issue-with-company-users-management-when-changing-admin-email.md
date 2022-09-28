@@ -1,10 +1,7 @@
 ---
-description: The MDVA-28861 patch fixes the issue where the users get an error when changing the admin email. This patch is available when the Quality Patches Tool (QPT) 1.0.5 is installed. The Patch ID is MDVA-28861.
+title: "MDVA-28661: issue with company users management when changing admin email"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,B2B,QPT 1.0.5,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,email,management,support tools,user,cloud infrastructure,on-premises,Adobe Commerce
-title: 'MDVA-28661: issue with company users management when changing admin email'
 ---
-
-# MDVA-28661: issue with company users management when changing admin email
 
 The MDVA-28861 patch fixes the issue where the users get an error when changing the admin email. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. The Patch ID is MDVA-28861.
 
@@ -14,15 +11,15 @@ The MDVA-28861 patch fixes the issue where the users get an error when changing 
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0 to 2.4.1 (including 2.3.5-p1) with B2B extension
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 After changing the **Company Admin** email address, an error is returned, and the **Company Users** list is not displayed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Enable Company functionality (Learn more about that in [Install B2B: Enable B2B features in the Commerce Admin](https://devdocs.magento.com/extensions/b2b/#enable-b2b-features-in-magento-admin) in our developer documentation and create a new Company with two users - an admin and two users - all with email addresses).
 1. Go to the **Commerce Admin** > **Customers** > **Companies** and open your Company account.
@@ -30,11 +27,11 @@ After changing the **Company Admin** email address, an error is returned, and th
 1. Go to the Adobe Commerce frontend and log in as the first user.
 1. Go to the **Company Users** section.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The **Company Users** list should be displayed as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The **Company Users** list is not displayed, and an error similar to the following displays:
 

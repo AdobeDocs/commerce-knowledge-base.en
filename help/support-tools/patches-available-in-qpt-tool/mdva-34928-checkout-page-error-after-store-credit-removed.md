@@ -1,10 +1,7 @@
 ---
-description: The MDVA-34928 patch solves the issue where after removing store credit, there is an infinite loader at the checkout page. This patch is available when the Quality Patches Tool (QPT) 1.0.19 is installed. The patch ID is MDVA-34928. Please note that the issue was fixed in Adobe Commerce 2.3.6.
+title: "MDVA-34928: checkout page error after store credit removed"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,cart,checkout,error,store credit,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-34928: checkout page error after store credit removed'
 ---
-
-# MDVA-34928: checkout page error after store credit removed
 
 The MDVA-34928 patch solves the issue where after removing store credit, there is an infinite loader at the checkout page. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-34928. Please note that the issue was fixed in Adobe Commerce 2.3.6.
 
@@ -18,15 +15,15 @@ Adobe Commerce on cloud infrastructure 2.3.5-p2
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.5 - 2.3.5-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 After removing store credit, there is an infinite loader at the checkout page.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a customer account.
 1. Determine a possible item to add to the cart - take note of the price.
@@ -39,11 +36,11 @@ After removing store credit, there is an infinite loader at the checkout page.
 1. Apply the store credit.
 1. Try to remove the store credit.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Store credit is removed.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Infinite loader spins until the page is refreshed.
 

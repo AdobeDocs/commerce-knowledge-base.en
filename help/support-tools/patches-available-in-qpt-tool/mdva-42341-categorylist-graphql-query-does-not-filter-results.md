@@ -1,10 +1,7 @@
 ---
-description: The MDVA-42341 patch solves the issue where the "categoryList" GraphQL query does not filter results if a request has the Store header. This patch is available when the Quality Patches Tool (QPT) 1.1.8 is installed. The patch ID is MDVA-42341. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
-labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,GraphQL,categoryList,filter,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,QPT 1.1.8
 title: 'MDVA-42341: "categoryList" GraphQL query does not filter results'
+labels: QPT patches,Quality Patches Tool,QPT,MQP,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,GraphQL,categoryList,filter,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,QPT 1.1.8
 ---
-
-# MDVA-42341: "categoryList" GraphQL query does not filter results
 
 The MDVA-42341 patch solves the issue where the "categoryList" GraphQL query does not filter results if a request has the Store header. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.8 is installed. The patch ID is MDVA-42341. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,15 +15,15 @@ The MDVA-42341 patch solves the issue where the "categoryList" GraphQL query doe
 
 * Adobe Commerce (all deployment methods) 2.4.2 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The "categoryList" GraphQL query does not filter results if a request has the Store header.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a new Root Category and name it **root2**.
 1. Create a second Website/Store/Storeview and assign **root2** to the new Store.
@@ -51,11 +48,11 @@ The "categoryList" GraphQL query does not filter results if a request has the St
 </code>
 </pre>
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Categories from the default Root Category are not listed in response since we are using a "new" store Header.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Categories from the default Root Category are available in results.
 

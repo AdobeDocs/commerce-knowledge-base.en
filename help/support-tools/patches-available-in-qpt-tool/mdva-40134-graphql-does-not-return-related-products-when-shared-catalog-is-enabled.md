@@ -1,10 +1,7 @@
 ---
-description: The MDVA-40134 patch fixes the issue where GraphQL does not return related products when the shared catalog is enabled. This patch is available when the Quality Patches Tool (QPT) 1.1.2 is installed. The patch ID is MDVA-40134. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-40134: GraphQL not returning related products when shared catalog is enabled"
 labels: QPT patches,Quality Patches Tool,QPT 1.1.2,Magento Commerce 2.4.3,Adobe Commerce 2.4.3,error message,on-premises,cloud infrastructure,2.4.2-p1,2.4.2-p2,GraphQL
-title: 'MDVA-40134: GraphQL not returning related products when shared catalog is enabled'
 ---
-
-# MDVA-40134: GraphQL not returning related products when shared catalog is enabled
 
 The MDVA-40134 patch fixes the issue where GraphQL does not return related products when the shared catalog is enabled. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-40134. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,20 +15,20 @@ Adobe Commerce (all deployment methods) 2.4.2-p1
 
 Adobe Commerce (all deployment methods) 2.4.2-p1 – 2.4.2-p2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 GraphQL does not return related products when the shared catalog is enabled.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 B2B modules must be installed.
 The instance must be clean with only the sample data.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Stores** > **Configuration** > **General** > **B2B features** and enable **Company and Shared Catalog**.
 1. Go to **Catalog** > **Shared Catalog** and add all the products to the **General Catalog**.
@@ -50,11 +47,11 @@ The instance must be clean with only the sample data.
   }
 }</pre>
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Related products is shown in the GraphQL response.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Users get the following error:
 

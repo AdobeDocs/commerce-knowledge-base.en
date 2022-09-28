@@ -1,10 +1,7 @@
 ---
-description: The MDVA-39043 patch fixes the issue where admin users with limited access get an error while adding the "Products" widget to the CMS page. This patch is available when the Quality Patches Tool (QPT) 1.1.2 is installed. The patch ID is MDVA-39043. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-39043: Admin users get error adding widget to CMS page"
 labels: QPT patches,Quality Patches Tool,QPT 1.1.2,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premises,cloud infrastructure,Products widget,CMS,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
-title: 'MDVA-39043: Admin users get error adding widget to CMS page'
 ---
-
-# MDVA-39043: Admin users get error adding widget to CMS page
 
 The MDVA-39043 patch fixes the issue where admin users with limited access get an error while adding the "Products" widget to the CMS page. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.2 is installed. The patch ID is MDVA-39043. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,15 +15,15 @@ Adobe Commerce (all deployment methods) 2.4.2-p1
 
 Adobe Commerce (all deployment methods) 2.3.4 – 2.4.3
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Admin users with limited access get an error while adding the “Products” widget to the CMS page.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Log in to the backend using the admin with access only to edit content.
 1. Go to **Content** > **Pages**.
@@ -35,11 +32,11 @@ Admin users with limited access get an error while adding the “Products” wid
 1. Add **Product** widget from **Add content** section.
 1. Click **Configure** on the **Product** widget.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 No error is shown.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The following error message is received:
 

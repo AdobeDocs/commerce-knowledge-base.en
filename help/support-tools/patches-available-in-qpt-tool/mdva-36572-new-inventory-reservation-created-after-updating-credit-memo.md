@@ -1,11 +1,7 @@
 ---
-description: The MDVA-36572 patch fixes the issue where a new inventory reservation is created after updating the credit memo. This patch is available when the Quality Patches Tool (QPT) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-36572: New inventory reservation created after updating credit memo"
 labels: QPT Patches,Quality Patches Tool,QPT,Support Tools,QPT 1.0.25,Magento Commerce Cloud,Magento Commerce,Adobe Commerce,on-premises,cloud infrastructure,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
-title: 'MDVA-36572: New inventory reservation created after updating credit memo'
 ---
-
-# MDVA-36572: New inventory reservation created after updating credit memo
-
 The MDVA-36572 patch fixes the issue where a new inventory reservation is created after updating the credit memo. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
@@ -15,22 +11,20 @@ Adobe Commerce on cloud infrastructure 2.4.1
 
 **Compatible with Adobe Commerce versions:**
 Adobe Commerce (all deployment types) 2.3.5-2.4.2-p1
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
-
 Credit Memo reservation update observer is triggered every time the credit memo is updated. As per agreement with PO changed the logic of reservation update to only be triggered upon the credit memo created. The possibility of the credit memo edits over API will be reviewed by PO as well in the scope of separate tickets.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create customer account.
 1. Create simple product.
 1. Create new order, invoice and credit memo for the order.
 1. Create new Integration.
 1. Check inventory_reservation table:
-
     ```SQL
        select * from inventory_reservation;
        +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
@@ -41,11 +35,9 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
        2 rows in set (0.00 sec)
     ```
-
 1. Send GET request to: `../rest/default/V1/creditmemo/3`
 1. Copy response (example):
-
-    ```JSON
+   ```JSON
        {
        "adjustment": 0,
        "adjustment_negative": 0,
@@ -119,25 +111,23 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        "comments": []
       }
     ```
-
 1. Send POST request to: `../rest/default/V1/creditmemo`
-
    ```JSON
        {
        "entity":
         --paste full response from previous step here--
        }
    ```
-
-   >[!NOTE]
-   >
-   >Such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
+      >![info]
+      >
+    >Note:
+such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
 
 1. Check inventory_reservation table:
 
-<u>Actual results</u>:
-
+<ins>Actual results</ins>:
 ```sql
+
 select * from inventory_reservation;
 +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
 | reservation_id | stock_id | sku      | quantity | metadata                                                                                                    |
@@ -149,7 +139,7 @@ select * from inventory_reservation;
 3 rows in set (0.00 sec)
 ```
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 No second reservation for the same credit memo is created.
 

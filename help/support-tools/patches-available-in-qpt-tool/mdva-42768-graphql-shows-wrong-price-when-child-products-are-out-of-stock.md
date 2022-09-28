@@ -1,10 +1,7 @@
 ---
-description: The MDVA-42768 patch fixes the issue where GraphQL shows the wrong price when the child products a configurable product are out of stock. This patch is available when the Quality Patches Tool (QPT) 1.1.10 is installed. The patch ID is MDVA-42768. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-42768: GraphQL shows wrong price when child products are out of stock"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT,GraphQL,child products,Out of Stock,configurable product,price,setting,1.1.10,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-42768: GraphQL shows wrong price when child products are out of stock'
 ---
-
-# MDVA-42768: GraphQL shows wrong price when child products are out of stock
 
 The MDVA-42768 patch fixes the issue where GraphQL shows the wrong price when the child products a configurable product are out of stock. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-42768. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,19 +15,19 @@ The MDVA-42768 patch fixes the issue where GraphQL shows the wrong price when th
 
 * Adobe Commerce (all deployment methods) 2.3.4 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When the child products of a configurable product are out of stock and the Display Out of Stock Products setting is enabled, GraphQL query shows the regular price of the product as **0**.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Sample data is installed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Enable the Display Out of Stock product setting in the Commerce Admin by going to **Stores** > **Configuration** > **Catalog** > **Inventory**.
 1. Create a configurable product and assign a simple child product to it.
@@ -78,11 +75,11 @@ Sample data is installed.
     ```
 1. Check the response section `minimum_price` > `regular price`.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The minimum regular price is not displayed as 0 in response.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The minimum regular price = 0 in response.
 

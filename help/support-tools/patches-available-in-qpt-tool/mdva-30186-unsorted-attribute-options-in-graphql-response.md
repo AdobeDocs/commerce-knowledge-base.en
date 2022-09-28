@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30186 patch solves the issue where attribute options are not sorted in the GraphQL response. This patch is available when the Quality Patches Tool (QPT) 1.0.23 is installed. The patch ID is MDVA-30186. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-30186: Unsorted attribute options in GraphQL response"
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,2.4.2,2.4.2-p1,QPT 1.0.23,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,products,attribute,GraphQL,unsorted,sorted,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30186: Unsorted attribute options in GraphQL response'
 ---
-
-# MDVA-30186: Unsorted attribute options in GraphQL response
 
 The MDVA-30186 patch solves the issue where attribute options are not sorted in the GraphQL response. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-30186. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,13 +15,13 @@ The MDVA-30186 patch solves the issue where attribute options are not sorted in 
 
 * Adobe Commerce (all deployment methods) 2.3.4 - 2.3.5-p2, 2.4.0 - 2.4.0-p1, and 2.4.2 - 2.4.2-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Add any three options to the existing color attribute.
 1. Create six simple products with options (Example: *Option 1*: 1 product, *Option 2*: 2 products, *Option 3*: 3 products).
@@ -61,11 +58,11 @@ The MDVA-30186 patch solves the issue where attribute options are not sorted in 
 1. Now alter the sort order of attribute options from the attribute edit page in the Admin.
 1. Make the above GraphQL request again, and observe the color attribute options.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The attribute options are sorted according to the order set from the Admin.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The attribute options are always sorted according to the associated number of products.
 

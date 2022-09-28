@@ -1,10 +1,7 @@
 ---
-description: The MDVA-41305 patch solves the issue where users get an error on GraphQL query `addProductsToWishlist` for configurable products. This patch is available when the Quality Patches Tool (QPT) 1.1.10 is installed. The patch ID is MDVA-41305. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-41305: Error on GraphQL Query addProductsToWishlist for Configurable Products"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.10,Magento,Adobe Commerce,cloud infrastructure,on-premises,GraphQL,addProductsToWishlist,error,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-41305: Error on GraphQL Query addProductsToWishlist for Configurable Products'
 ---
-
-# MDVA-41305: Error on GraphQL Query addProductsToWishlist for Configurable Products
 
 The MDVA-41305 patch solves the issue where users get an error on GraphQL query `addProductsToWishlist` for configurable products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-41305. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,15 +15,15 @@ The MDVA-41305 patch solves the issue where users get an error on GraphQL query 
 
 * Adobe Commerce (all deployment methods) 2.4.2 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When users add configurable products (with/without configuration) to the Wishlist by GraphQL, they are unable to get configurable SKUs and configurable options in response.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a configurable product (with Blue, Grey, and one custom option).
 1. Open frontend; log in as a customer and create a Wishlist (check wishlist_id).
@@ -128,11 +125,11 @@ mutation {
 </code>
 </pre>
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Users can see a set of configured product options in the response specified in the payload and added to the wishlist.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Users get an *Internal Server Error* in response.
 

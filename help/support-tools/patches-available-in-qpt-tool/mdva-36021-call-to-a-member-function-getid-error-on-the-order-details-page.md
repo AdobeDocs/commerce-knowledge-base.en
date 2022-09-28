@@ -1,10 +1,7 @@
 ---
-description: The MDVA-36021 patch solves the issue where users get *Call to a member function getId()* error message when trying to open order details. This patch is available when the Quality Patches Tool (QPT) 1.1.1 is installed. The patch ID is MDVA-36021. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-36021: Users get error message when opening order details"
 labels: QPT patches,Quality Patches Tool,QPT,QPT,Quality Patches Tool,Support Tools,QPT 1.1.1,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premises,cloud infrastructure,Magento,orders,details,error message,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
-title: 'MDVA-36021: Users get error message when opening order details'
 ---
-
-# MDVA-36021: Users get error message when opening order details
 
 The MDVA-36021 patch solves the issue where users get *Call to a member function getId()* error message when trying to open order details. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.1 is installed. The patch ID is MDVA-36021. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,28 +15,28 @@ The MDVA-36021 patch solves the issue where users get *Call to a member function
 
 * Adobe Commerce (all deployment methods) 2.4.0 - 2.4.2-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When users try to open order details, the following error message is displayed on the order details page in the Admin: *report.CRITICAL: Error: Call to a member function getId() on array in /magento2ce/app/code/Magento/Sales/view/adminhtml/templates/order/totals/tax.phtml:62*.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 The system should have tax settings and orders with specific tax rates.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Log in to the Commerce Admin.
 1. Go to **Sales** > **Orders** > **Open Order**.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The order is opened without any error.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 You get an error message similar to the following: *report.CRITICAL: Error: Call to a member function getId() on array in /magento2ce/app/code/Magento/Sales/view/adminhtml/templates/order/totals/tax.phtml:62*.
 

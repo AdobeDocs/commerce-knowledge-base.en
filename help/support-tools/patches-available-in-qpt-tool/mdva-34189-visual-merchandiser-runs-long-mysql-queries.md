@@ -1,10 +1,7 @@
 ---
-description: The MDVA-34189 patch solves the issue where Adobe Commerce executes large Visual Merchandiser queries when loading the Admin category page.
+title: "MDVA-34189: Visual merchandiser runs long MySQL queries"
 labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,MySQL,Site-Wide Analysis Tool,Visual Merchandiser,catalog,category,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Commerce,Magento Open Source
-title: 'MDVA-34189: Visual merchandiser runs long MySQL queries'
 ---
-
-# MDVA-34189: Visual merchandiser runs long MySQL queries
 
 The MDVA-34189 patch solves the issue where Adobe Commerce executes large Visual Merchandiser queries when loading the Admin category page.
 
@@ -16,29 +13,28 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4-2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Website runs large MySQL queries on the Production server.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. To access the Visual Merchandiser go to the *Admin* sidebar, click **Catalog** > **Categories**.
 1. Load the **Categories** page in the Admin panel (the initial root category load) and observe the queries that it executes.
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
 The Admin **Categories** page should load without generating slow queries.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
 
-This depends on your PHP configuration. The most common example of this error is that the **Categories** page does not open and an error *Error 503 first byte timeout* displays.
-
-Alternately when Adobe Commerce loads the Visual Merchandiser, it executes a slow MySQL query. This query includes many product IDs inserted in to `ORDER BY FIELD`(`e`.`entity_id`,
-  ...)
+This depends on your PHP configuration. The most common example of this error is that the **Categories** page does not open and an error *Error 503 first byte timeout* displays.<br>
+Alternately when Adobe Commerce loads the Visual Merchandiser, it executes a slow MySQL query. This query includes many product IDs inserted in to `ORDER BY FIELD(`e`.`entity_id`,
+  ...)`
 
 in `app/code/Magento/VisualMerchandiser/Model/Category/Products.php:: applyPositions`
 

@@ -1,10 +1,7 @@
 ---
-description: This article covers the essentials of backing up your environments with snapshots on Adobe Commerce on cloud infrastructure.
+title: "Backup (snapshot) on Cloud: FAQ"
 labels: 2.2.x,2.3.x,FAQ,Magento Commerce Cloud,Pro,Pro Legacy,Starter,backup,production,snapshot,staging,Adobe Commerce,cloud infrastructure
-title: 'Backup (snapshot) on Cloud: FAQ'
 ---
-
-# Backup (snapshot) on Cloud: FAQ
 
 This article covers the essentials of backing up your environments with snapshots on Adobe Commerce on cloud infrastructure.
 

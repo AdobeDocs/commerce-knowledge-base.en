@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30945 patch fixes the issue where you receive a fatal error *Call to a member function getValue() on null in module-configurable-product CartItemProcessor.php* when updating carts. This patch is available when the Quality Patches Tool (QPT) 1.0.7 is installed. The issue was fixed in Adobe Commerce 2.4.2.
+title: "MDVA-30945: a fatal error during add and update cart operations"
 labels: QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,PHP Fatal Error,blank cart,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30945: a fatal error during add and update cart operations'
 ---
-
-# MDVA-30945: a fatal error during add and update cart operations
 
 The MDVA-30945 patch fixes the issue where you receive a fatal error *Call to a member function getValue() on null in module-configurable-product CartItemProcessor.php* when updating carts. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. The issue was fixed in Adobe Commerce 2.4.2.
 
@@ -14,26 +11,26 @@ The MDVA-30945 patch fixes the issue where you receive a fatal error *Call to a 
 
 Adobe Commerce (all deployment methods) 2.3.0 - 2.4.1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 A fatal PHP error after products in the cart are updated in the Admin.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. In the Commerce Admin, create a configurable product without options.
 1. Add it to the cart on the storefront.
 1. Return to Admin, add configurable options to the product and save the changes.
 1. Refresh the cart page on the storefront.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 On the cart page, the following validation message is displayed: *Some of the products below do not have all the required options*.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Cart page is blank. In the PHP `error.log`, the following error is logged: *Uncaught exception 'Error' with message 'Call to a member function getValue() on null' in vendor/magento/module-configurable-product/Model/Quote/Item/CartItemProcessor.php:76*
 

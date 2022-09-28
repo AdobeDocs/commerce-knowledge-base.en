@@ -1,10 +1,7 @@
 ---
-description: This patch resolves an issue in Adobe Commerce where the storefront checkout workflow did not display any payment method that has been enabled for specific countries, except for Klarna and Amazon Pay.
+title: "Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue"
 labels: 2.3.5,2.3.5-p1,Magento Commerce,Magento Commerce Cloud,known issues,patch,payments,storefront,checkout,Amazon Pay,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-title: 'Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue'
 ---
-
-# Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue
 
 This patch resolves an issue in Adobe Commerce where the storefront checkout workflow did not display any payment method that has been enabled for specific countries, except for Klarna and Amazon Pay.
 
@@ -21,7 +18,7 @@ A web page refresh is a workaround for the issue.
 
 To resolve this issue and remove the error, we have created a [patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip).
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 * A simple product is created.
 * **Check/Money order** is enabled only for specific countries (at **Store** > **Configuration** > **Sales** > **Payment Methods**).
@@ -29,7 +26,7 @@ To resolve this issue and remove the error, we have created a [patch](assets/BUN
 * Example: Payment from Applicable Countries = Specific Countries
 * Example: Payment from Specific Countries = United Kingdom
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to the Storefront as a Guest.
 1. Add a simple product to the shopping cart.
@@ -51,7 +48,7 @@ To resolve this issue and remove the error, we have created a [patch](assets/BUN
 
 1. Select shipping rate and click **Next**.
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
  The Payment step opens.
 
@@ -59,7 +56,7 @@ To resolve this issue and remove the error, we have created a [patch](assets/BUN
 * **Check/Money order** appears.
 * The **Place Order** button appears.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
 
 The Payment step opens.
 

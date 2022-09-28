@@ -1,10 +1,7 @@
 ---
-description: The MDVA-35847 patch solves the issue of the Company User form not working and returning a 500 error on the front end. This patch is available when the Quality Patches Tool (QPT) 1.0.19 is installed. The patch ID is MDVA-35847. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+title: "MDVA-35847: Company User form not working"
 labels: 2.4.1,2.4.1-p1,2.4.2,500 error,Company User,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,custom customer attribute,form,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-35847: Company User form not working'
 ---
-
-# MDVA-35847: Company User form not working
 
 The MDVA-35847 patch solves the issue of the Company User form not working and returning a 500 error on the front end. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35847. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 
@@ -18,17 +15,17 @@ Adobe Commerce on cloud infrastructure 2.4.2
 
 Adobe Commerce (all deployment methods) 2.4.1-2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
  Adobe Commerce B2B is installed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Stores** > **Attributes** > **Customer**, and create a new custom customer attribute:
 
@@ -41,11 +38,11 @@ Adobe Commerce (all deployment methods) 2.4.1-2.4.2
 1. Log in as company admin on the front end.
 1. Go to the Company Users sections.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The Company User form loads normally.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The Company User form does not load and returns a 500 error.
 

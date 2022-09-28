@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30428 patch solves the wishlist not working with Inventory Management (MSI). This patch is available when the Quality Patches Tool (QPT) 1.0.5 is installed.
+title: "MDVA-30428: wishlist not working with Inventory Management"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.4,2.4.0,2.4.1,Inventory,QPT 1.0.5,QPT patches,Inventory Management,MSI,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,wishlist,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30428: wishlist not working with Inventory Management'
 ---
-
-# MDVA-30428: wishlist not working with Inventory Management
 
 The MDVA-30428 patch solves the wishlist not working with Inventory Management (MSI). This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed.
 
@@ -18,15 +15,15 @@ The MDVA-30428 patch solves the wishlist not working with Inventory Management (
 
 * Adobe Commerce (all deployment methods) 2.3.3 – 2.3.3-p1 (QPT 1.0.6) and 2.3.5 – 2.4.1 (QPT 1.0.5)
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 On adding a product to the wishlist, when the product is assigned to a custom inventory source, the following message shows "*We can't add the item to Wish List right now: Cannot add product without stock to wishlist.*"
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a new inventory source in the Commerce Admin. For steps, refer to [Catalog > Adding a New Source](https://docs.magento.com/user-guide/catalog/inventory-sources-add.html?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=new%20inventory%20source) in our user guide.
 1. Create a new stock inventory in the Commerce Admin, assign the new source and default website to the new stock. For steps, refer to [Catalog > Adding a New Stock](https://docs.magento.com/user-guide/catalog/inventory-stock-add.html#add-new-stock) in our user guide.
@@ -34,11 +31,11 @@ On adding a product to the wishlist, when the product is assigned to a custom in
 1. Visit the simple product details page in the frontend.
 1. Add the product to the wishlist. The following error shows: *We can't add the item to Wish List right now: Cannot add product without stock to wishlist*.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The product should be added to the wishlist with the custom stock.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The product is not added to the wishlist, and an error message shows.
 

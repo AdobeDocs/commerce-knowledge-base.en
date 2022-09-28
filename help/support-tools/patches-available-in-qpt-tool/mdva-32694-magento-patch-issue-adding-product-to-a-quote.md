@@ -1,10 +1,7 @@
 ---
-description: The MDVA-32694 patch solves the issue of being unable to add a valid product in Admin to a negotiable quote created on the non-default website.
+title: "MDVA-32694 patch: issue adding product to a quote"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.1,QPT 1.0.14,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,add product,quote,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-32694 patch: issue adding product to a quote'
 ---
-
-# MDVA-32694 patch: issue adding product to a quote
 
 The MDVA-32694 patch solves the issue of being unable to add a valid product in Admin to a negotiable quote created on the non-default website.
 
@@ -20,17 +17,17 @@ Adobe Commerce on cloud infrastructure 2.3.2 with B2B version 1.2
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.3.5-p2, 2.4.0, 2.4.1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Install a fresh Adobe Commerce instance with B2B.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **STORES > Configuration > GENERAL > B2B Features** and enable **Company** and **B2B quote**.
 1. Create 2 more websites with **stores** and **storeviews** (In total you should have 3 websites: *base*, *website2*, *website3*).
@@ -41,11 +38,11 @@ Install a fresh Adobe Commerce instance with B2B.
 1. Go to **STORES > All Stores** and set the "*base*" website back as **default**.
 1. Go to **SALES > Quotes > Open created earlier quote** and try to add the same product to it.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The Admin user can add the same product to the quote, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The Admin user cannot add the same product to the quote, and this error message appears:
 

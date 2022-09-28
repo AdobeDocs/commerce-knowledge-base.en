@@ -1,10 +1,7 @@
 ---
-description: The MDVA-31282 patch solves the issue when double authorizations occur on Paypal PayFlow Pro in Adobe Commerce. The double authorizations also have the effect of bypassing PayFlow Pro's fraud filters and doubling transaction fees. This patch is available when the Quality Patches Tool (QPT) 1.0.7 is installed.
+title: "MDVA-31282: double authorization on Paypal PayFlow Pro"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,PayFlow Pro,double authorization,fraud filter,support tools,Adobe Commmerce,cloud infrastructure,on-premises
-title: 'MDVA-31282: double authorization on Paypal PayFlow Pro'
 ---
-
-# MDVA-31282: double authorization on Paypal PayFlow Pro
 
 The MDVA-31282 patch solves the issue when double authorizations occur on Paypal PayFlow Pro in Adobe Commerce. The double authorizations also have the effect of bypassing PayFlow Pro's fraud filters and doubling transaction fees. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed.
 
@@ -18,19 +15,19 @@ The MDVA-31282 patch solves the issue when double authorizations occur on Paypal
 
 * Adobe Commerce (all deployment methods) 2.3.2 - 2.3.3 and 2.3.5 - 2.3.6
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Double authorizations occur in PayPal PayFlow Pro in Adobe Commerce that have the effect of bypassing PayFlow Pro's fraud filters and doubling transaction fees.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Configure PayPal PayFlow Pro payment method.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to the frontend as a guest customer.
 1. Add products to **Shopping Cart** from product pages.
@@ -40,12 +37,12 @@ Configure PayPal PayFlow Pro payment method.
 1. Enter credit card data, and place the order.
 1. Navigate to **Sales** > **Orders** in admin and observe created order.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 * The Payment Information block displays: *"Triggered Fraud Filters: RESPMSG: Under review by Fraud Service*. *Order is in Suspected Fraud status"*.
 * Paypal PayFlow Pro shows a single authorization transaction as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 * The Payment Information block displays: *"Triggered Fraud Filters: RESPMSG: Under review by Fraud Service*. *Order is in Processing status"*.
 * Paypal PayFlow Pro shows double authorization transactions.

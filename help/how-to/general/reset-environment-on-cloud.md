@@ -1,10 +1,7 @@
 ---
-description: This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure.
-labels: 2.1.x,2.2.x,2.3.x,2.4.x,Magento Commerce Cloud,database,git,how to,restore,roll back,snapshot,uninstall,Adobe Commerce,cloud infrastructure
 title: Reset environment on Adobe Commerce on cloud infrastructure
+labels: 2.1.x,2.2.x,2.3.x,2.4.x,Magento Commerce Cloud,database,git,how to,restore,roll back,snapshot,uninstall,Adobe Commerce,cloud infrastructure
 ---
-
-# Reset environment on Adobe Commerce on cloud infrastructure
 
 This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure.
 
@@ -18,7 +15,7 @@ Choose the most appropriate for your case:
 
 Read: [Restore a snapshot on Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot) in our developer documentation.
 
->[!NOTE]
+>![info]
 >
 >Creating a snapshot must be our very first step after accessing the Adobe Commerce on cloud infrastructure account and before applying major changes. It is a best practice and highly recommended.
 
@@ -59,6 +56,7 @@ Read more about Configuration Management:
 
 ### Step 1: Uninstall the Adobe Commerce software with setup:uninstall command
 
+>
 Uninstalling the Adobe Commerce software drops and restores the database, removes the deployment configuration, and clears directories under \`var\`.
 
 Read: [Uninstall the Adobe Commerce software](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall.html) in our developer documentation.
@@ -82,7 +80,7 @@ This means we have reverted our Adobe Commerce installation (including DB) to it
 With git reset, we revert the code to the desired state in the past.
 
 1. Clone the environment to your local development environment. You may copy the command in your Project Web Interface:    ![copy_git_clone.png](assets/copy_git_clone.png)    
-1. Access the commits history. Use `--reverse` to display history in reverse order for more convenience: `git log--reverse`    
+1. Access the commits history. Use `--reverse` to display history in reverse order for more convenience: `git log --reverse`    
 1. Select the commit hash on which you've been good. To reset code to its authentic state (Vanilla), find the very first commit that created your branch (environment).
     ![Selecting a commit hash in git console](assets/select_commit_hash.png)    
 1. Apply hard git reset: `git reset --h <commit_hash>`    

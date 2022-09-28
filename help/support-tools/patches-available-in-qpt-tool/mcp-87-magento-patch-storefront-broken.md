@@ -1,10 +1,7 @@
 ---
-description: The MCP-87 Adobe Commerce patch fixed the issue where stock reindexing of catalogs is slow. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed.
+title: "MCP-87 Adobe Commerce patch: storefront broken"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,catalog,index,performance,products,reindex,slow response,store,support tools,Adobe Commerce,on-premises,cloud infrastructure
-title: 'MCP-87 Adobe Commerce patch: storefront broken'
 ---
-
-# MCP-87 Adobe Commerce patch: storefront broken
 
 The MCP-87 Adobe Commerce patch fixed the issue where stock reindexing of catalogs is slow. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed.
 
@@ -18,15 +15,15 @@ The MCP-87 Adobe Commerce patch fixed the issue where stock reindexing of catalo
 
 * Adobe Commerce (all deployment methods) 2.3.1 - 2.4.1.
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The stock reindex of catalogs with large profiles is very slow.
 
-<u>Steps to reproduce:</u>
+<ins>Steps to reproduce:</ins>
 
 1. Log in to the Admin Panel.
 1. Navigate to: **Products** > **Catalog**.
@@ -35,11 +32,11 @@ The stock reindex of catalogs with large profiles is very slow.
 1. Click on **Advanced Inventory** from the Advanced Settings tab. Change **Stock Availability** to *In Stock*. Click **Save**.
 1. Perform full reindex manually, execute the following command from the root: `bin/magento indexer:reindex`
 
-<u>Expected result:</u>
+ <ins>Expected result:</ins>
 
 Stock indexer reindexes quickly.
 
-<u>Actual result:</u>
+ <ins>Actual result:</ins>
 
 Stock indexer is very slow and/or does not complete.
 

@@ -1,19 +1,16 @@
 ---
-description: This article provides a patch for the known Adobe Commerce issue, where the Advanced search does not show most relevant results first.
-labels: 2.x.x,Advanced search,Magento,known issues,not relevant results,patch,troubleshooting,Advanced Search,cloud infrastructure,on-premises,Adobe Commerce,Magento Open Source
 title: Advanced search not showing the most relevant results
+labels: 2.x.x,Advanced search,Magento,known issues,not relevant results,patch,troubleshooting,Advanced Search,cloud infrastructure,on-premises,Adobe Commerce,Magento Open Source
 ---
-
-# Advanced search not showing the most relevant results
 
 This article provides a patch for the known Adobe Commerce issue, where the Advanced search does not show most relevant results first.
 
-## Affected versions {#Advancedsearchnotshowingmostrelevantresults-Affectedversions}
+<h3 id="Advancedsearchnotshowingmostrelevantresults-Affectedversions">Affected versions</h3>
 
 * Adobe Commerce (all deployment options) 2.x.x
 * Magento Open Source 2.x.x
 
-## Issue {#Advancedsearchnotshowingmostrelevantresults-Description}
+<h2 id="Advancedsearchnotshowingmostrelevantresults-Description">Issue</h2>
 
 The advanced search function is not returning the most relevant results first, like the quick search is doing. The issue does not depend on the selected search engine type.
 
@@ -31,7 +28,7 @@ The "Orion Two-Tone Fitted Jacket" is the first result when using Advanced searc
 
 The "Orion Two-Tone Fitted Jacket" is not the first result, though it is the most relevant.
 
-## Solution {#Advancedsearchnotshowingmostrelevantresults-Solution}
+<h2 id="Advancedsearchnotshowingmostrelevantresults-Solution">Solution</h2>
 
 To solve the issue, apply the patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 

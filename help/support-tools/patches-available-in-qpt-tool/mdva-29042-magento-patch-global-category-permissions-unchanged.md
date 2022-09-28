@@ -1,10 +1,7 @@
 ---
-description: The MDVA-29042 patch fixes the issue where catalog permissions were changed to "*Allow*" automatically after a new product was added to the shared catalog in the Commerce Admin. This patch is available when the Quality Patches Tool (QPT) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.6 with the B2B extension.
+title: "MDVA-29042: global category permissions unchanged"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,category,customer group,deselect,permissions,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-29042: global category permissions unchanged'
 ---
-
-# MDVA-29042: global category permissions unchanged
 
 The MDVA-29042 patch fixes the issue where catalog permissions were changed to "*Allow*" automatically after a new product was added to the shared catalog in the Commerce Admin. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.6 with the B2B extension.
 
@@ -12,15 +9,15 @@ The MDVA-29042 patch fixes the issue where catalog permissions were changed to "
 
 Adobe Commerce (all deployment methods) 2.3.3 to 2.3.4-p2 with B2B extension
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Deselecting a customer group from the global category permissions in the Commerce Admin does not automatically set that customer group to "*Deny*" within category permissions.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 * B2B instance with a customer group defined and selected under **STORES** > **Configuration** > **CATALOG** > **Catalog** > **Category Permissions** for:
     * **Allow Browsing Category**
@@ -31,7 +28,7 @@ Deselecting a customer group from the global category permissions in the Commerc
     * **Display Product Prices**
     * **Add to Cart**
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. In the Commerce Admin, go to **STORES** > **Configuration** > **CATALOG** > **Catalog** > **Category Permissions** and de-select the customer group from:
     * **Allow Browsing Category**
@@ -41,11 +38,11 @@ Deselecting a customer group from the global category permissions in the Commerc
 1. Wait for the indexers to run.
 1. Look at **CATALOG** > **Categories** > **Category Permissions**.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 **Category Permissions** will be set to "*Deny*" for all categories for the customer group.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 No change to any category permissions for the customer group.
 

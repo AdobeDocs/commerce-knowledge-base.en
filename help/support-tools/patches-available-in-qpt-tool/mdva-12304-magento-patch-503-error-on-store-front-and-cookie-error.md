@@ -1,10 +1,7 @@
 ---
-description: This MDVA-12304 Adobe Commerce patch solves 503 errors on store fronts, with *Unable to send the cookie. Maximum number of cookies would be exceeded.* error message in logs. This is a known Adobe Commerce 2.2.5 issue. This patch is available when the Quality Patches Tool (QPT) 1.0.12 is installed.
+title: "MDVA-12304: 503 error on store front and cookie error"
 labels: Quality Patches Tool,QPT 1.0.12,QPT patches,quality patch,503 error,known issue,Magento Commerce,Magento Commerce Cloud,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,QPT,support tools,Adobe Commerce,on-premises,cloud infrastructure
-title: 'MDVA-12304: 503 error on store front and cookie error'
 ---
-
-# MDVA-12304: 503 error on store front and cookie error
 
 This MDVA-12304 Adobe Commerce patch solves 503 errors on store fronts, with *Unable to send the cookie. Maximum number of cookies would be exceeded.* error message in logs. This is a known Adobe Commerce 2.2.5 issue. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed.
 
@@ -13,9 +10,9 @@ This MDVA-12304 Adobe Commerce patch solves 503 errors on store fronts, with *Un
 * **The patch is created for Adobe Commerce version:** Adobe Commerce on-premises 2.2.5.
 * **Compatible with Adobe Commerce versions:** Adobe Commerce (all deployment methods) 2.x.x.
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -23,15 +20,15 @@ Customers get a 503 error when navigating the store front. In the `var/log/excep
 
 The issue occurs because the Adobe Commerce default cookies limit is set to 50, and if the client's browser hits the limit, Commerce throws an exception. The solution provided in the patch increases the cookie limit to 200.
 
- <u>Steps to reproduce:</u>
+ <ins>Steps to reproduce:</ins>
 
 The 503 error can display at any point when the customer is trying to log in and view their cart.
 
 In the `var/log/exception.log` file there is the following error message *Unable to send the cookie. Maximum number of cookies would be exceeded.*
 
- <u>Actual result:</u> The customer cannot check their cart or complete their order.
+ <ins>Actual result:</ins> The customer cannot check their cart or complete their order.
 
- <u>Expected result:</u> The customer can check their cart and complete their order.
+ <ins>Expected result:</ins> The customer can check their cart and complete their order.
 
 ## Apply the patch
 

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33344 patch fixes the issue where the hard coded "rma\_item" entity default attribute set ID is used instead of the value from the database. This patch is available when the Quality Patches Tool (QPT) 1.0.16 is installed. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce 2.4.3.
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.2,API,QPT 1.0.16,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,rma_item,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
 title: 'MDVA-33344 patch: "rma-item" attribute set ID hard-coded'
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.2,API,QPT 1.0.16,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,rma_item,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
 ---
-
-# MDVA-33344 patch: "rma-item" attribute set ID hard-coded
 
 The MDVA-33344 patch fixes the issue where the hard coded "rma\_item" entity default attribute set ID is used instead of the value from the database. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -14,23 +11,23 @@ The MDVA-33344 patch fixes the issue where the hard coded "rma\_item" entity def
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The `/rest/default/V1/returnsAttributeMetadata` WebAPI endpoint returns empty result, if the "rma\_item" entity default attribute set ID is different from the default installation ID.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 Make an API call to `/rest/default/V1/returnsAttributeMetadata`.
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
 Data is returned.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
 
 Empty result is returned.
 

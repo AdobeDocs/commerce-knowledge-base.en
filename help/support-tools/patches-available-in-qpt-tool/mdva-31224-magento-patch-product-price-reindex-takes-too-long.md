@@ -1,10 +1,7 @@
 ---
-description: The MDVA-31224 patch solves the issue when product price reindex takes too long to complete or never completes. This patch is available when the Quality Patches Tool (QPT) v.1.0.7 is installed.
+title: "MDVA-31224 patch: Product price reindex takes too long"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,price,product,reindex,support tools,time,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-31224 patch: Product price reindex takes too long'
 ---
-
-# MDVA-31224 patch: Product price reindex takes too long
 
 The MDVA-31224 patch solves the issue when product price reindex takes too long to complete or never completes. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.7 is installed.
 
@@ -13,9 +10,9 @@ The MDVA-31224 patch solves the issue when product price reindex takes too long 
 * The patch was designed for Adobe Commerce on cloud infrastructure 2.3.3.
 * The patch is also compatible with Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.3 - 2.3.4-p2.
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 

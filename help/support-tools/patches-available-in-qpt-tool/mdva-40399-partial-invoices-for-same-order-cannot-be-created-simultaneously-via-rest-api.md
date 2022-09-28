@@ -1,10 +1,7 @@
 ---
-description: The MDVA-40399 patch fixes the issue where partial invoices for the same order cannot be created simultaneously via Rest API. This patch is available when the Quality Patches Tool (QPT) 1.1.4 is installed. The patch ID is MDVA-40399. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-40399: Partial invoices for same order can't be created simultaneously via API"
 labels: support tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.4,Adobe Commerce,cloud infrastructure,on-premises,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-40399: Partial invoices for same order can''t be created simultaneously via API'
 ---
-
-# MDVA-40399: Partial invoices for same order can't be created simultaneously via API
 
 The MDVA-40399 patch fixes the issue where partial invoices for the same order cannot be created simultaneously via Rest API. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4 is installed. The patch ID is MDVA-40399. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,31 +15,31 @@ Adobe Commerce (all deployment methods) 2.4.2-p1
 
 Adobe Commerce (all deployment methods) 2.4.2 – 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Partial invoices for the same orders cannot be created simultaneously using Rest API.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 A configurable product with at least two variations.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Add both variants of the configurable product to the cart.
 1. Place the order.
 1. Create two invoices simultaneously for the order via the Rest API.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 * Both invoices must be created successfully.
 * `qty_invoiced` should be updated for both invoices in the `sales_order_item` table.
 * Both products should have invoiced quantity.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 * Both invoices are created successfully.
 * `qty_invoiced` is not updated against one of the invoices in the `sales_order_item` table.

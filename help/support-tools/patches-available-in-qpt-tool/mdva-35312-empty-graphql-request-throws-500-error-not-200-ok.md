@@ -1,10 +1,7 @@
 ---
-description: The MDVA-35312 patch fixes the issue where an empty GraphQL request throws error response code 500. This patch is available when the Quality Patches Tool (QPT) 1.0.18 is installed. The patch ID is MDVA-35312. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-35312: empty GraphQL request throws 500 error not 200 OK"
 labels: 2.4.1-p1,2.4.2,500 error,GraphQL,QPT 1.0.18,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-35312: empty GraphQL request throws 500 error not 200 OK'
 ---
-
-# MDVA-35312: empty GraphQL request throws 500 error not 200 OK
 
 The MDVA-35312 patch fixes the issue where an empty GraphQL request throws error response code 500. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.18 is installed. The patch ID is MDVA-35312. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
@@ -18,15 +15,15 @@ Adobe Commerce on cloud infrastructure 2.4.2
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.1-p1-2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Empty GraphQL request throws error response code 500 instead of 200 code.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 Send a GraphQL request, for example:
 
@@ -34,11 +31,11 @@ Send a GraphQL request, for example:
 curl -i -X OPTIONS http://inv.test/graphql
 ```
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Response: *200 OK*.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Response: *HTTP/1.1 500 Internal Server Error*.
 

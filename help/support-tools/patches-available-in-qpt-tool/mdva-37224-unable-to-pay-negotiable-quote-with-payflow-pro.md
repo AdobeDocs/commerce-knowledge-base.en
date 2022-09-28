@@ -1,10 +1,7 @@
 ---
-description: The MDVA-37224 patch fixes the issue when customers are not able to pay for a **Negotiable Quote** with Paypal PayFlow Pro. This patch is available when the Quality Patches Tool (QPT) 1.0.23 is installed. The patch ID is MDVA-37224. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
-labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1,QPT 1.0.23,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,pay,Negotiable Quote,Paypal PayFlow Pro,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce
 title: 'MDVA-37224: Unable to pay "negotiable quote" with PayFlow Pro'
+labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,2.4.2-p1,QPT 1.0.23,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,pay,Negotiable Quote,Paypal PayFlow Pro,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce
 ---
-
-# MDVA-37224: Unable to pay "negotiable quote" with PayFlow Pro
 
 The MDVA-37224 patch fixes the issue when customers are not able to pay for a **Negotiable Quote** with Paypal PayFlow Pro. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-37224. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 
@@ -13,13 +10,13 @@ The MDVA-37224 patch fixes the issue when customers are not able to pay for a **
 * The patch was designed for Adobe Commerce on cloud infrastructure 2.3.6-p1
 * The patch is also compatible with Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.3-2.4.2-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 * Adobe Commerce with installed B2B module
 * Company functionality enabled
@@ -29,7 +26,7 @@ The MDVA-37224 patch fixes the issue when customers are not able to pay for a **
 * PayPal PayFlow Pro payment method is allowed for B2B
 * 2 products with different prices have been created
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Open the Storefront.
 1. Add **Product 1** to the shopping cart.
@@ -40,12 +37,12 @@ The MDVA-37224 patch fixes the issue when customers are not able to pay for a **
 1. Select the **Payment Method** = *PayPal PayFlow Pro* at the **Review and Payments** step.
 1. Place the order.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 * The order is successfully placed, as expected.
 * PayPal sends email with the correct information to the customer, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 * The webpage hangs, and does not complete the order.
 * PayPal sends confirmation to the customer with zero values, similar to this Example:  

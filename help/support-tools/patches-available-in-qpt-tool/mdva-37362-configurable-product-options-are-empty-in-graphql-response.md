@@ -1,10 +1,7 @@
 ---
-description: The MDVA-37362 patch solves the issue where configurable product option values and variant attribute values are empty in the GraphQL response. This patch is available when the Quality Patches Tool (QPT) v.1.0.23 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
+title: "MDVA-37362: Configurable product options are empty in GraphQL response"
 labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,QPT 1.0.23,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,products,attribute,GraphQL,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce
-title: 'MDVA-37362: Configurable product options are empty in GraphQL response'
 ---
-
-# MDVA-37362: Configurable product options are empty in GraphQL response
 
 The MDVA-37362 patch solves the issue where configurable product option values and variant attribute values are empty in the GraphQL response. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.23 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 
@@ -13,13 +10,13 @@ The MDVA-37362 patch solves the issue where configurable product option values a
 * The patch was designed for Adobe Commerce on cloud infrastructure 2.4.2
 * The patch is also compatible with Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4 - 2.4.2-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
- <u>Steps to reproduce:</u>
+ <ins>Steps to reproduce:</ins>
 
 1. Create a new source and a new stock assigned to this new source.
 1. **Stores** > *Settings* > **Configuration** > **Catalog** > **Inventory** > *Product Stock Options* > Manage Stock: *YES*.
@@ -93,12 +90,11 @@ The MDVA-37362 patch solves the issue where configurable product option values a
 }  
 ```
 
- <u>Expected results:</u>
+ <ins>Expected results:</ins>
 
 Option values and attributes should be present in the response.
 
- <u>Actual results:</u>
-
+ <ins>Actual results:</ins>
 ```java
 {
   "data": {

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-39521 patch solves the issue where the user is unable to set shipping address on carts with an empty phone number via GraphQL. This patch is available when the Quality Patches Tool (QPT) 1.1.2 is installed. The patch ID is MDVA-39521. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-39521: Unable to set shipping address on carts via GraphQL"
 labels: QPT patches,Quality Patches Tool,QPT,MQP,QPT 1.1.2,Magento,Adobe Commerce,on-premises,cloud infrastructure,shipping,address,GraphQL,phone number,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
-title: 'MDVA-39521: Unable to set shipping address on carts via GraphQL'
 ---
-
-# MDVA-39521: Unable to set shipping address on carts via GraphQL
 
 The MDVA-39521 patch solves the issue where the user is unable to set shipping address on carts with an empty phone number via GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39521. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,28 +15,25 @@ The MDVA-39521 patch solves the issue where the user is unable to set shipping a
 
 * Adobe Commerce (all deployment methods) 2.4.0 - 2.4.3
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The user is not able to set shipping address on the carts with an empty telephone number via GraphQL despite the fact that the Show Telephone is configured as optional.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a simple product.
 1. Go to **Stores** > **Configuration** > **Customers** > **Customer Configuration** > **Name and Address Options** and set the Show Telephone as Optional.
 1. Create an empty cart via GraphQL request.
-
     ```GraphQL
     mutation {
     createEmptyCart
     }
     ```
-
 1. Add product to cart.
-
     ```GraphQL
     mutation {
     addSimpleProductsToCart(
@@ -68,15 +62,12 @@ The user is not able to set shipping address on the carts with an empty telephon
     }
     }
     ```
-
 1. Add address: GRAPHQL VARIABLES.
-
     ```GraphQL
     {
       "cartId": "6Efw00UbjPoP5cvTFhsswDTjpxs0Xupt"
     }
     ```
-
     ```GraphQL
     mutation ($cartId: String!) {
       setShippingAddressesOnCart(input: {cart_id: $cartId, shipping_addresses:
@@ -130,10 +121,8 @@ The user is not able to set shipping address on the carts with an empty telephon
               }
           }
       }
-    ```
-
+   ```
 1. Add address with empty phone number.
-
     ```GraphQL
     mutation ($cartId: String!) {
       setShippingAddressesOnCart(input: {cart_id: $cartId, shipping_addresses: {address: {firstname:
@@ -159,8 +148,7 @@ The user is not able to set shipping address on the carts with an empty telephon
     }
     ```
 
-<u>Expected results</u>:
-
+<ins>Expected results</ins>:
 ```GraphQL
 {
     "data": {
@@ -189,8 +177,7 @@ The user is not able to set shipping address on the carts with an empty telephon
 }
 ```
 
-<u>Actual results</u>:
-
+<ins>Actual results</ins>:
 ```GraphQL
 {
     "data": {
@@ -202,7 +189,6 @@ The user is not able to set shipping address on the carts with an empty telephon
     }
 }
 ```
-
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment type:

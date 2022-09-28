@@ -1,10 +1,7 @@
 ---
-description: The MDVA-40488 patch solves the issue where configurable products with out-of-stock child products are not shown in their correct price range. This patch is available when the Quality Patches Tool (QPT) 1.1.9 is installed. The patch ID is MDVA-40488. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-40488: Configurable products with out-of-stock child products not shown in correct price range"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,configurable products,out-of-stock,child products,price range,QPT 1.1.9,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-40488: Configurable products with out-of-stock child products not shown in correct price range'
 ---
-
-# MDVA-40488: Configurable products with out-of-stock child products not shown in correct price range
 
 The MDVA-40488 patch solves the issue where configurable products with out-of-stock child products are not shown in their correct price range. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-40488. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,19 +15,19 @@ The MDVA-40488 patch solves the issue where configurable products with out-of-st
 
 * Adobe Commerce (all deployment methods) 2.4.2 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Configurable products with out-of-stock child products are not shown in their correct price range.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Go to the Commerce Admin > **stores** > **configuration** > **catalog** > **Inventory** > **stock options** and set **Display Out of Stock Products** configuration to *Yes*.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create a configurable product with two associated products. For example: simple products Red and Brown.
 1. Set inventory of the simple product Red, and set Stock Status to *In Stock*, then set the Enable Product status to *No*.
@@ -42,11 +39,11 @@ Go to the Commerce Admin > **stores** > **configuration** > **catalog** > **Inve
 1. Check the `min_price` and `max_price` for the configurable product in the `catalog_product_index_price` DB table - the two values are set to 0.
 1. But if we set the configurable product Stock Status to *Out of stock* and do reindex, then we can see non-zero `min_price` and `max_price` values of the configurable product.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 If all child products are *Out of Stock* and the configurable product itself is also *Out of Stock*, the price is calculated by using all the child products.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The `min_price` and `max_price` values for the configurable product in the `catalog_product_index_price` DB table are set to 0 when the configurable stock status is *In stock*, but if it's *Out of Stock* they become non-zero values.
 

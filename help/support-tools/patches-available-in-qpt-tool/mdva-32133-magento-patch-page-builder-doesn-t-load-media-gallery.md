@@ -1,10 +1,7 @@
 ---
-description: The MDVA-32133 patch solves the issue where the Media Gallery is not loaded. This patch is available when the Quality Patches Tool (QPT) 1.0.12 is installed. Please note that this issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+title: "MDVA-32133 patch: page builder doesn't load media gallery"
 labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT 1.0.12,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,load,media gallery,page builder,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-32133 patch: page builder doesn''t load media gallery'
 ---
-
-# MDVA-32133 patch: page builder doesn't load media gallery
 
 The MDVA-32133 patch solves the issue where the Media Gallery is not loaded. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed. Please note that this issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -18,15 +15,15 @@ Adobe Commerce on cloud infrastructure 2.4.0
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.4.0 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Fixes the issue where the order history loads very slow or not loaded at all.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Edit selected cms page.
 1. Expand Content and click **Edit with Page Builder**.
@@ -34,11 +31,11 @@ Fixes the issue where the order history loads very slow or not loaded at all.
 1. Click **Select from Gallery**.
 1. You can log out and then log in via some other window.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The media gallery is loaded.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The media gallery is not loaded.
 

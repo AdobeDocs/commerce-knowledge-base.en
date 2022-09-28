@@ -1,10 +1,7 @@
 ---
-description: The MDVA-29787 patch solves the issue where **Related Products** are not displayed on an Adobe Commerce store frontend. This patch is available when the Quality Patches Tool (QPT) 1.0.6 is installed. The patch ID is MDVA-29787.
+title: "MDVA-29787: related products are not displayed"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,related products,support tools,target rule,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-29787: related products are not displayed'
 ---
-
-# MDVA-29787: related products are not displayed
 
 The MDVA-29787 patch solves the issue where **Related Products** are not displayed on an Adobe Commerce store frontend. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.6 is installed. The patch ID is MDVA-29787.
 
@@ -18,19 +15,19 @@ The MDVA-29787 patch solves the issue where **Related Products** are not display
 
 * Adobe Commerce (all deployment methods) 2.3.0 - 2.4.0.
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The target rule for **Related Products** does not work when "*is one of*" condition is used for **Products to Display** in the Commerce Admin.
 
->[!NOTE]
+>![info]
 >
 >Note: This patch does not fix existing target rules. You must re-create existing target rules.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create **New Attribute** (Example: Test\_Attr).
     * Set **Catalog Input Type for Store Owner** = *Text.*
@@ -51,11 +48,11 @@ The target rule for **Related Products** does not work when "*is one of*" condit
 1. Clear cache.
 1. Open Product1 on the frontend.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The related products are present.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The related products are missing.
 

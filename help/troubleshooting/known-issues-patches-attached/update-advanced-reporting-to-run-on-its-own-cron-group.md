@@ -1,10 +1,7 @@
 ---
-description: This article provides a patch for the known issue for Adobe Commerce on cloud infrastructure 2.3.0 where Advanced Reporting is not showing any data. This is because Advanced Reporting job `analytics_collect_data` is not executed according to schedule. This article provides a patch that will create an Advanced Reporting cron group `analytics`.
-labels: 2.3.0,Advanced Reporting,Magento Commerce Cloud,known issues,no data,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 title: Update Advanced Reporting to run on its own cron group
+labels: 2.3.0,Advanced Reporting,Magento Commerce Cloud,known issues,no data,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 ---
-
-# Update Advanced Reporting to run on its own cron group
 
 This article provides a patch for the known issue for Adobe Commerce on cloud infrastructure 2.3.0 where Advanced Reporting is not showing any data. This is because Advanced Reporting job `analytics_collect_data` is not executed according to schedule. This article provides a patch that will create an Advanced Reporting cron group `analytics`.
 

@@ -1,10 +1,7 @@
 ---
-description: This article provides best practices for the maximum recommended number of product attributes in Adobe Commerce.
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,attribute,best practices,product,Adobe Commerce,on-premises,cloud infrastructure
 title: Best practice Adobe Commerce product attributes
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,attribute,best practices,product,Adobe Commerce,on-premises,cloud infrastructure
 ---
-
-# Best practice Adobe Commerce product attributes
 
 This article provides best practices for the maximum recommended number of product attributes in Adobe Commerce.
 
@@ -45,7 +42,7 @@ Recommendations are:
 * Remove non-used product properties
 * Store and manage non-commerce related attributes in external PMS systems
 
-If assistance is required or if there are questions or concerns, [submit a Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+If assistance is required or if there are questions or concerns, [submit a Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ## Related reading
 

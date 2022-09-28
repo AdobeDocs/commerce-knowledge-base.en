@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30972 patch solves the issue where the order status is changed incorrectly during shipment creation via REST API. This patch is available when the Quality Patches Tool (QPT) 1.0.7 is installed.
+title: "MDVA-30972: order status incorrect shipment created via REST API"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,order,security,shipping,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30972: order status incorrect shipment created via REST API'
 ---
-
-# MDVA-30972: order status incorrect shipment created via REST API
 
 The MDVA-30972 patch solves the issue where the order status is changed incorrectly during shipment creation via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed.
 
@@ -18,20 +15,20 @@ The MDVA-30972 patch solves the issue where the order status is changed incorrec
 
 * Adobe Commerce (all deployment methods) 2.3.0 to 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When a partial shipment is created from Admin via REST API for an order with *Suspected Fraud* order status, the order status is changed to *Processing*. It should stay at *Suspected Fraud*.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 * PayPal EC or another online payment method is set up.
 * Integration for REST API is set up.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create an order with two or more items.
 1. Log in to **Admin** > **Sales** > **Orders**. Open the order you just created.
@@ -41,20 +38,19 @@ When a partial shipment is created from Admin via REST API for an order with *Su
 
     * Method = `Post`
     * Header = `"{host}/rest/V1/orders/ {order_id}/ship"`
-    * Body =
-
+    * Body =    
     ```clike   
      {      "items": [        {          "extension_attributes": {},          "order_item_id": {order_item_id},          "qty": 1        }      ]    }   
-    ```
+     ```    
 
 1. Open the order in Admin again and check its status.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 * Order Status = *Suspected Fraud*.
 * Order status is not changed if the same shipment is created from Admin.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Order Status = *Processing*.
 

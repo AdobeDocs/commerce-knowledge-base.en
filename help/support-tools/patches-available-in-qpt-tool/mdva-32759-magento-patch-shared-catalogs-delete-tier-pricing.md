@@ -1,10 +1,7 @@
 ---
-description: The MDVA-32759 patch solves the issue where shared catalogs delete existing tier pricing.
+title: "MDVA-32759 patch: shared catalogs delete tier pricing"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,B2B features,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,advanced pricing,price,product,shared catalog,tier pricing,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-32759 patch: shared catalogs delete tier pricing'
 ---
-
-# MDVA-32759 patch: shared catalogs delete tier pricing
 
 The MDVA-32759 patch solves the issue where shared catalogs delete existing tier pricing.
 
@@ -20,17 +17,17 @@ Adobe Commerce on cloud infrastructure 2.3.4-p2
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Install Adobe Commerce with B2B, with **B2B Features** enabled.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Stores > Configuration > B2B Features > Enable Company** and **Shared Catalog**.
 1. Run `bin/magento cron:run`.
@@ -39,11 +36,11 @@ Install Adobe Commerce with B2B, with **B2B Features** enabled.
 1. Run `bin/magento cron:run`.
 1. Open the above created product, and check advanced pricing.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The tier prices should not be removed from the products after removing all products from the public shared catalog, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The tier prices get removed after removing all products from the public shared catalog.
 

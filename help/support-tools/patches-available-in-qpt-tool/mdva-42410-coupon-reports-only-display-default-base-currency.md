@@ -1,10 +1,7 @@
 ---
-description: The MDVA-42410 patch fixes the issue where the coupon reports only display base currency. This patch is available when the Quality Patches Tool (QPT) 1.1.12 is installed. The patch ID is MDVA-42410. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-42410: Coupon reports only display default base currency"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.12,coupon,reports,base currency,order,error,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-42410: Coupon reports only display default base currency'
 ---
-
-# MDVA-42410: Coupon reports only display default base currency
 
 The MDVA-42410 patch fixes the issue where the coupon reports only display base currency. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-42410. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
@@ -18,15 +15,15 @@ The MDVA-42410 patch fixes the issue where the coupon reports only display base 
 
 * Adobe Commerce (all deployment methods) 2.3.0 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Coupon reports only display default base currency.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create an additional Website, Store, and Store View.
 1. Set a different currency for this new website. For example, Euro.
@@ -37,11 +34,11 @@ Coupon reports only display default base currency.
 1. Select the new website in the Scope dropdown.
 1. Refresh statistics and run reports.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Coupon reports display the new website's currency as Euro.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Default base currency (USD in this case) is used in coupon reports for the new website.
 

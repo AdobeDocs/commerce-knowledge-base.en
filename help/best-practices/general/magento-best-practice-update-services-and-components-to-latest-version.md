@@ -1,10 +1,7 @@
 ---
-description: This article provides recommendations to keep your Magento Commerce Cloud technology stack updated and links to helpful resources.
+title: "Magento best practice: update services and components to latest version"
 labels: 2.4,2.4.0,End of Life,Magento Commerce Cloud,PCI,best practices,security,service,upgrade
-title: 'Magento best practice: update services and components to latest version'
 ---
-
-# Magento best practice: update services and components to latest version
 
 This article provides recommendations to keep your Magento Commerce Cloud technology stack updated and links to helpful resources.
 
@@ -20,7 +17,7 @@ Customers with Starter plan can self-service with services upgrades. Refer to [C
 
 Customers with Pro plan, can only self-serve the services upgrades on their [Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) . For services upgrades on Production, they need to [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794-Magento-Help-Center-User-Guide#submit-ticket) requesting this upgrade.
 
->[!WARNING]
+>![warning]
 >
 >Please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment.
 
@@ -28,8 +25,8 @@ You can view the list of services/components versions and end-of-life dates in t
 
 <https://github.com/magento/ece-tools/blob/develop/config/eol.yaml> 
 
->[!NOTE]
+>![info]
 >
->this file cannot be considered a single source of truth, please refer to the official vendor websites for these technologies if in doubt.
+>Note: this file cannot be considered a single source of truth, please refer to the official vendor websites for these technologies if in doubt.
 
 For information about technologies and versions supported by Magento Commerce 2.4, refer to [Magento 2.4 technology stack requirements](https://devdocs.magento.com/guides/v2.4/architecture/tech-stack.html) .

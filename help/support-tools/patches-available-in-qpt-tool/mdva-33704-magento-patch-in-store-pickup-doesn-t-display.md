@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33704 patch solves the issue where products with in-store pickup option will not display as a shipping method.
+title: "MDVA-33704 patch: In-store pickup doesn't display"
 labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,cart,checkout,in-store pickup,shipping method,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33704 patch: In-store pickup doesn''t display'
 ---
-
-# MDVA-33704 patch: In-store pickup doesn't display
 
 The MDVA-33704 patch solves the issue where products with in-store pickup option will not display as a shipping method.
 
@@ -16,17 +13,17 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.0-2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Prerequisite</u>:<br>
+<ins>Prerequisite</ins>:<br>
 
 **Pick in Store** enabled
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Add a product to the cart.
 1. Go to Checkout.
@@ -38,11 +35,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 1. Note that your shipping address is automatically entered as a billing address.
 1. Refresh the webpage.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The in-store pickup option will display as a shipping method, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The in-store pickup option will not display as a shipping method.
 

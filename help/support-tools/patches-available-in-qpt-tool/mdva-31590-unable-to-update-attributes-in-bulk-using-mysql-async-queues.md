@@ -1,10 +1,7 @@
 ---
-description: The MDVA-31590 patch solves the issue where the users are unable to update attributes in bulk using MySQL async queues. This patch is available when the Quality Patches Tool (QPT) 1.1.3 is installed. The patch ID is MDVA-31590. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+title: "MDVA-31590: Unable to update attributes in bulk using MySQL async queues"
 labels: QPT patches,Quality Patches Tool,MQP,QPT,QPT 1.1.3,update,attributes,MySQL,async queues,Adobe Commerce,on-premises,cloud infrastructure,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1
-title: 'MDVA-31590: Unable to update attributes in bulk using MySQL async queues'
 ---
-
-# MDVA-31590: Unable to update attributes in bulk using MySQL async queues
 
 The MDVA-31590 patch solves the issue where the users are unable to update attributes in bulk using MySQL async queues. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.3 is installed. The patch ID is MDVA-31590. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -18,15 +15,15 @@ The MDVA-31590 patch solves the issue where the users are unable to update attri
 
 * Adobe Commerce (all deployment methods) 2.4.0-2.4.1-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Users are not able to update attributes in bulk using MySQL async.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. On the product grid in the backend, perform a mass action to update attribute values for a few products.
     * Check products and select **Update Attributes** from the Actions dropdown.
@@ -35,7 +32,7 @@ Users are not able to update attributes in bulk using MySQL async.
     *Task "Update attributes for N selected products": 1 item(s) have been scheduled for an update.*
 1. Wait for few seconds and reload the backend page.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 1. The page displays a successful update message like: *1 item(s) have been successfully updated.*
 1. Attribute values for related products are updated.
@@ -44,7 +41,7 @@ Users are not able to update attributes in bulk using MySQL async.
 1. `queue_message_status` table have records with status "4".
 1. There are NO errors in `system.log`.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 1. The page still displays a message like the following:
     *Task "Update attributes for N selected products": 1 item(s) have been scheduled for an update.*

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-32655 patch fixes the incorrect "in progress" message status to the correct "complete" message for consumer `quoteItemCleaner` after deleting several products. This patch is available when the Quality Patches Tool (QPT) 1.0.18 is installed. The patch ID is 32655. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT patches,Magento Commerce,Magento Commerce Cloud,catalog,catalog_category_product,performance,quoteItemCleaner,slow,support tools,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
 title: 'MDVA-32655: "quoteItemCleaner" consumer executes one message per execution'
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT patches,Magento Commerce,Magento Commerce Cloud,catalog,catalog_category_product,performance,quoteItemCleaner,slow,support tools,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
 ---
-
-# MDVA-32655: "quoteItemCleaner" consumer executes one message per execution
 
 The MDVA-32655 patch fixes the incorrect "in progress" message status to the correct "complete" message for consumer `quoteItemCleaner` after deleting several products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.18 is installed. The patch ID is 32655. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -18,28 +15,27 @@ Adobe Commerce on cloud infrastructure 2.3.3
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 The `quoteItemCleaner` consumer executes only one message on each execution.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Check the `queue_message_status` database table and make sure all the existing queue messages are in a "Complete" state (status ID 4).
 1. Stop auto Adobe Commerce cron execution.
 1. Create two or three simple products.
 1. Do a mass delete on those three simple products.
 1. In the `queue_message_status` table you see that there are three new records for the `catalog_product_removed_queue` topic with status ID 2 (new record).
-1. Run the following command to process these pending `catalog_product_removed_queue` messages:
-
+1. Run the following command to process these pending `catalog_product_removed_queue` messages:    
     ```bash
     bin/magento queue:consumers:start quoteItemCleaner --single-thread --max-messages=100    
     ```    
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 ```sql
 select * from queue_message_status s join queue q on s.queue_id = q.id where q.name = "catalog_product_removed_queue";
@@ -47,7 +43,7 @@ select * from queue_message_status s join queue q on s.queue_id = q.id where q.n
 
 All the `catalog_product_removed_queue` message statuses are updated to complete (ID=4).
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Only one record out of the three is updated to "Complete" status (ID = 4). The status of the other two messages are status ID = 3 (in progress). A backlog is generated with unprocessed queue messages.
 

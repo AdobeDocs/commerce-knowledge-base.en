@@ -1,10 +1,7 @@
 ---
-description: 'The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\[23000\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed.'
+title: "MDVA-13203 patch: 503 error homepage post full reindex"
 labels: 2.2.4,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,503,503 error,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,database,integrity constraint violation,maintenance,support tools,Adobe Commerce,on-premises,cloud infrastructure
-title: 'MDVA-13203 patch: 503 error homepage post full reindex'
 ---
-
-# MDVA-13203 patch: 503 error homepage post full reindex
 
 The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\[23000\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed.
 
@@ -14,9 +11,9 @@ The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce (all deployment methods) 2.3.0-2.4.1.
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-36853 patch fixes the issue when no images load since the page builder media gallery widget doesn't load when you have a large media directory.
+title: "MDVA-36853: No images load from large media galleries"
 labels: 2.4.2,QPT 1.0.22,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,directory,media gallery,page builder,widget,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Commerce,Magento Open Source
-title: 'MDVA-36853: No images load from large media galleries'
 ---
-
-# MDVA-36853: No images load from large media galleries
 
 The MDVA-36853 patch fixes the issue when no images load since the page builder media gallery widget doesn't load when you have a large media directory.
 
@@ -16,13 +13,13 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Set **Enable Old Media Gallery** = *Yes* in **Admin > Stores > Configuration > Advanced > System > Media gallery**.
 1. Navigate to **Content > Blocks**, and create a new CMS block or edit an existing CMS block.
@@ -30,11 +27,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 1. Add a media element.
 1. Click on the **Select from Gallery** button.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The media gallery widget and media gallery images both load, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The media gallery widget and media gallery images both do not load when you have a large `pub/media/catalog/product/cache/` directory.
 

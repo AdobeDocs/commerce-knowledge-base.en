@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33482 patch solves the issue where tax is miscalculated in credit memos.
+title: "MDVA-33482 patch: tax miscalculation in credit memo"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,credit memo,tax miscalculated,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33482 patch: tax miscalculation in credit memo'
 ---
-
-# MDVA-33482 patch: tax miscalculation in credit memo
 
 The MDVA-33482 patch solves the issue where tax is miscalculated in credit memos.
 
@@ -16,13 +13,13 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.5 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Configure **Taxes**.
 1. Create an order using 2 products in the backend using any online payment method (Example: Paypal Payment Pro). Make sure that taxes are applied to all the products.
@@ -30,11 +27,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 1. Create a credit memo against one of the invoices.
 1. Check the credit memo totals.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Only a partially-invoiced tax amount is in the credit memo, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The full tax amount is displayed in the credit memo.
 

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-30107 patch solves the issue where the store switcher doesn't work as expected if different base URLs are used for store views. This patch is available when the Quality Patches Tool (QPT) 1.0.5 is installed.
+title: "MDVA-30107: Store switcher does not work as expected"
 labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.4,2.3.5,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,store switcher,support tools,Adobe Commerce,on-premises,cloud infrastructure
-title: 'MDVA-30107: Store switcher does not work as expected'
 ---
-
-# MDVA-30107: Store switcher does not work as expected
 
 The MDVA-30107 patch solves the issue where the store switcher doesn't work as expected if different base URLs are used for store views. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed.
 
@@ -13,25 +10,25 @@ The MDVA-30107 patch solves the issue where the store switcher doesn't work as e
 * Adobe Commerce on-premises 2.3.0 - 2.3.5.x
 * Adobe Commerce on cloud infrastructure 2.3.0 - 2.3.5.x
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When a user switches between stores using the store switcher, the request fails if the target store has a different base URL.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create two or more stores with different base URLs.
 1. Go to a category page on a storefront of any of those stores.
 1. Try switching to the other store using the store switcher.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 You are redirected to a similar page of the other store.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 You are redirected to the homepage of the same store.
 

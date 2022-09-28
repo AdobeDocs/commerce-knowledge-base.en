@@ -1,10 +1,7 @@
 ---
-description: The MDVA-43201 patch solves the issue where an error occurs when using the DOB customer attribute in the customer registration form for the Portuguese locale. This patch is available when the Quality Patches Tool (QPT) 1.1.10 is installed. The patch ID is MDVA-43201. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-43201: Error when using DOB field with locale PT"
 labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.10,Magento,Adobe Commerce,cloud infrastructure,on-premises,customer registration form,DOB attribute error,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-title: 'MDVA-43201: Error when using DOB field with locale PT'
 ---
-
-# MDVA-43201: Error when using DOB field with locale PT
 
 The MDVA-43201 patch solves the issue where an error occurs when using the DOB customer attribute in the customer registration form for the Portuguese locale. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-43201. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
@@ -18,19 +15,19 @@ The MDVA-43201 patch solves the issue where an error occurs when using the DOB c
 
 * Adobe Commerce (all deployment methods) 2.4.2 - 2.4.3-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When DOB customer attribute is added to the customer registration form for Portuguese locale, the form gives the error *Argument 1 passed to iterator_to_array() must implement interface travesable, null given*.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 B2B modules are installed.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to Admin > **Stores** > **Configuration** > **General** > **Locale Options**, set Locale to **Portuguese (Portugal)** and click **Save**.
 1. Reindex and clear cache.
@@ -40,11 +37,11 @@ B2B modules are installed.
 1. Save the attribute.
 1. Go to the Create New Account page in the frontend.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The customer registration form for the Portuguese store gives no error on adding the DOB attribute.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The customer registration form for the Portuguese store gives an error on adding the DOB attribute.
 

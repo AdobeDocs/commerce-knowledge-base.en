@@ -1,10 +1,7 @@
 ---
-description: Depending on issues you may be encountering when customizing your themes and developing your store, you may not have access through the Commerce Admin. You can clear and reset to your theme default without accessing the Admin. After you clear the theme, the default Luma theme will be applied.
-labels: Magento Commerce,Magento Commerce Cloud,SQL,database,default,how to,luma,reset,store,theme,Adobe Commerce,cloud infrastructure,on-premises
 title: Reset a theme to defaults
+labels: Magento Commerce,Magento Commerce Cloud,SQL,database,default,how to,luma,reset,store,theme,Adobe Commerce,cloud infrastructure,on-premises
 ---
-
-# Reset a theme to defaults
 
 Depending on issues you may be encountering when customizing your themes and developing your store, you may not have access through the Commerce Admin. You can clear and reset to your theme default without accessing the Admin. After you clear the theme, the default Luma theme will be applied.
 

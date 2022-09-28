@@ -1,14 +1,11 @@
 ---
-description: Adobe technical support may require access to your Adobe Commerce-related data in order to provide support. Authorization can only be provided by the primary Adobe Commerce account holder in their Adobe Commerce account privacy settings if they choose to do so. Allowing this access prior to support request creation will help ensure the issue can be properly investigated and/or help increase the speed of resolution. Please note, the "Project Owner" of an Adobe Commerce Cloud project may not be the primary Adobe Commerce account holder.
-labels: Adobe,GDPR,Magento Commerce,Magento Commerce Cloud,account,announcements,customers,data,security,support
 title: Adobe support customer data access and privacy
+labels: Adobe,GDPR,Magento Commerce,Magento Commerce Cloud,account,announcements,customers,data,security,support
 ---
-
-# Adobe support customer data access and privacy
 
 Adobe technical support may require access to your Adobe Commerce-related data in order to provide support. Authorization can only be provided by the primary Adobe Commerce account holder in their Adobe Commerce account privacy settings if they choose to do so. Allowing this access prior to support request creation will help ensure the issue can be properly investigated and/or help increase the speed of resolution. Please note, the "Project Owner" of an Adobe Commerce Cloud project may not be the primary Adobe Commerce account holder.
 
->[!NOTE]
+>![info]
 >
 >Privacy Settings tab will only be available/visible to users with support entitlements associated with a paid/purchased product, and to users who are the primary MageID and directly entitled; this tab is not available for delegation to another user via Shared Access. After granting access, it can take 5-10 minutes for all internal Adobe systems to be updated. If access was not granted prior to ticket submission, the primary account owner would need to update the ticket with explicit data access consent.
 

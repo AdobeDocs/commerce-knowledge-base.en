@@ -1,10 +1,7 @@
 ---
-description: The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the Quality Patches Tool (QPT) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2.
+title: "MDVA-31307: Out of memory on certain categories"
 labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PHP Fatal Error,category pages,error message,memory,support tools,cloud infrastructure,on-premises
-title: 'MDVA-31307: Out of memory on certain categories'
 ---
-
-# MDVA-31307: Out of memory on certain categories
 
 The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2.
 
@@ -14,9 +11,9 @@ The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consu
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.0 - 2.4.1-p1
 
->[!NOTE]
->
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >![info]
+ >
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 

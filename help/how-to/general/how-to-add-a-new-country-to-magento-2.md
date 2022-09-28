@@ -1,14 +1,11 @@
 ---
-description: This article explains how to add a country that is not present in Adobe Commerce and the Zend Locale Library. This requires code and database changes that constitute Customer Customizations under your applicable agreement terms. Please note that the example materials included in this article are provided "AS IS" without a warranty of any kind. Neither Adobe nor any affiliated entity is obligated to maintain, correct, update, change, modify, or otherwise support these materials. Here we will describe the basic principles of what needs to be done in order to achieve this.
-labels: Magento Commerce Cloud,add country,configuration,data,installation,module,upgrade,Adobe Commerce
 title: How to add a new country to Adobe Commerce
+labels: Magento Commerce Cloud,add country,configuration,data,installation,module,upgrade,Adobe Commerce
 ---
-
-# How to add a new country to Adobe Commerce
 
 This article explains how to add a country that is not present in Adobe Commerce and the Zend Locale Library. This requires code and database changes that constitute Customer Customizations under your applicable agreement terms. Please note that the example materials included in this article are provided "AS IS" without a warranty of any kind. Neither Adobe nor any affiliated entity is obligated to maintain, correct, update, change, modify, or otherwise support these materials. Here we will describe the basic principles of what needs to be done in order to achieve this.
 
-In this example, we create a new Adobe Commerce module with a data patch which is applied upon Adobe Commerce installation or upgrade process, and adds an Abstract Country with the country code XX to Adobe Commerce. The [Adobe Commerce Directory](https://devdocs.magento.com/guides/v2.4/mrg/ce/Directory.html) builds an initial country list and then it uses Setup Patches to append territories to that list. This article explains how to create a new module which will append a new country to the list. You may review the code of the existing Adobe Commerce Directory module for reference. This is because the following example module continues the Directory module job of building a list of countries and regions, and re-uses parts of the code of the Adobe Commerce Directory module Setup Patches.
+In this example, we create a new Adobe Commerce module with a data patch which is applied upon Adobe Commerce installation or upgrade process, and adds an Abstract Country with the country code XX to Adobe Commerce. The [Adobe Commerce Directory](https://developer.adobe.com/commerce/php/module-reference/module-directory/) builds an initial country list and then it uses Setup Patches to append territories to that list. This article explains how to create a new module which will append a new country to the list. You may review the code of the existing Adobe Commerce Directory module for reference. This is because the following example module continues the Directory module job of building a list of countries and regions, and re-uses parts of the code of the Adobe Commerce Directory module Setup Patches.
 
 ## Recommended documentation
 
@@ -31,11 +28,7 @@ In this example, we are going to create a new module called \`ExtraCountries\` w
 
 (To find out more about the module structure, see [Module overview](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html) in our developer documentation).
 
-**Extra Countries**
-
-<!--WRITER: Is this rendering properly?-->
-
-```
+<pre><ExtraCountries>
  |
  <etc>
  | |
@@ -60,12 +53,11 @@ In this example, we are going to create a new module called \`ExtraCountries\` w
  |     AddDataForAbstractCountry.php
  |
  composer.json
- registration.php
-```
+ registration.php</pre>
 
->[!NOTE]
+>![info]
 >
->Each Header section of this article describes files from the module structure section.
+>Note: Each Header section of this article describes files from the module structure section.
 
 ## ExtraCountries/etc/config.xml
 
@@ -102,7 +94,7 @@ Note that these changes are optional and will only affect the default belonging 
 
 ### ExtraCountries/etc/di.xml
 
-The `di.xml` file configures which dependencies are injected by the object manager. See *PHP Developer Guide > The di.xml* in our developer documentation for more details on `di.xml`.
+The `di.xml` file configures which dependencies are injected by the object manager. See <a>PHP Developer Guide > The di.xml</a> in our developer documentation for more details on `di.xml`.
 
 In our example, we must register a `_TranslatedListsPlugin_` which will translate newly introduced Country Codes into a full Country Names, if codes are not present in the Zend Locale Library localization data.
 

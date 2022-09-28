@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33106 patch fixes the issue where the rescheduled product changes are erased after the cron
+title: "MDVA-33106 patch: rescheduled product changes erased after cron run"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33106 patch: rescheduled product changes erased after cron run'
 ---
-
-# MDVA-33106 patch: rescheduled product changes erased after cron run
 
 The MDVA-33106 patch fixes the issue where the rescheduled product changes are erased after the cron
 
@@ -24,13 +21,13 @@ Adobe Commerce on cloud infrastructure 2.3.5-p2
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.4.1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. In Commerce Admin, go to **Catalog** > **Products** and click edit. Notice the **Price** value, for example *9.99*.
 1. Click **Schedule New Update** and fill in details:
@@ -45,11 +42,11 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 1. Wait for a cron job to run.
 1. Click edit again in the scheduled change and check the price.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Price is 1.99.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 Price is 9.99.
 

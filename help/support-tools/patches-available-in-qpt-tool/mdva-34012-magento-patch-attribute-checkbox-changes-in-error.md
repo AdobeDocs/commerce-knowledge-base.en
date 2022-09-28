@@ -1,10 +1,7 @@
 ---
-description: The MDVA-34012 patch solves the issue where the checkbox for an attribute gets changed after a schedule update in error.
+title: "MDVA-34012 patch: attribute checkbox changes in error"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,QPT 1.0.17,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,attribute,checkbox,error,schedule update,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-34012 patch: attribute checkbox changes in error'
 ---
-
-# MDVA-34012 patch: attribute checkbox changes in error
 
 The MDVA-34012 patch solves the issue where the checkbox for an attribute gets changed after a schedule update in error.
 
@@ -16,13 +13,13 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.1 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Login to Admin and navigate to **Catalog > Products**.
 1. Edit any simple product.
@@ -32,11 +29,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 1. Wait until the changes complete.
 1. Check the product. It should have its checkbox unselected, and should have a specific store attribute value.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The checkbox for the attribute should remain the same and doesn't get changed after the schedule update, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The checkbox for the attribute gets changed after schedule update.
 

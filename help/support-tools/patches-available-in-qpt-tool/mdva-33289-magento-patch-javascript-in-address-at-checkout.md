@@ -1,10 +1,7 @@
 ---
-description: The MDVA-33289 patch fixes the problem where Javascript shows in address at payment. This patch is available when the Quality Patches Tool (QPT) 1.0.19 is installed. The patch ID is MDVA-33289. Please note that the issue was scheduled to be fixed in Adobe Commerce 2.4.3.
+title: "MDVA-33289 patch: Javascript in address at checkout"
 labels: 2.3.6,2.3.6-p1,2.4.0-p1,2.4.1,2.4.2,Google Tag Manager,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,address,checkout,error,javascript,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33289 patch: Javascript in address at checkout'
 ---
-
-# MDVA-33289 patch: Javascript in address at checkout
 
 The MDVA-33289 patch fixes the problem where Javascript shows in address at payment. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-33289. Please note that the issue was scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -14,25 +11,25 @@ The MDVA-33289 patch fixes the problem where Javascript shows in address at paym
 
  **Compatible with Adobe Commerce versions:** Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.4.0 - 2.4.2
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 When checking out with Google Tag Manager (GTM) enabled, Javascript shows in the address field.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Enable GTM. See [Google Tag Manager](https://docs.magento.com/user-guide/marketing/google-tag-manager.html) in our user guide, for details.
 1. In the storefront, add some products to the cart.
 1. Check out.
 
-<u>Actual result</u>:
+<ins>Actual result</ins>:
 
 The address section updates, but includes a lot of Javascript code text.
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
 Address is shown.
 

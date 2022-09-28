@@ -1,10 +1,7 @@
 ---
-description: The MDVA-23426 Magento patch fixes the issue where emails are sent as attachments by Magento from MS Outlook. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5.
+title: "MDVA-23426 Magento patch: emails sent as attachments from Outlook"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Outlook,attachements,email,order email,orders,shipping,support tools
-title: 'MDVA-23426 Magento patch: emails sent as attachments from Outlook'
 ---
-
-# MDVA-23426 Magento patch: emails sent as attachments from Outlook
 
 The MDVA-23426 Magento patch fixes the issue where emails are sent as attachments by Magento from MS Outlook. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5.
 
@@ -14,9 +11,9 @@ The MDVA-23426 Magento patch fixes the issue where emails are sent as attachment
 
  **Compatible with Magento versions:** Magento Commerce and Magento Commerce Cloud 2.3.3 - 2.3.4-p2.
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 

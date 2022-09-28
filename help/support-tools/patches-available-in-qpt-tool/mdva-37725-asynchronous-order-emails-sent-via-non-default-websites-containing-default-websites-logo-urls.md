@@ -1,12 +1,9 @@
 ---
-description: The MDVA-37725 patch fixes the issue where asynchronous order emails are sent via non-default websites containing logo URLs from the default website. This patch is available when the Quality Patches Tool (QPT) 1.1.4 is installed. The patch ID is MDVA-37725. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-37725: Emails sent via non-default sites contain default site's logo URLs"
 labels: QPT patches,Quality Patches Tool,QPT 1.1.4,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premises,cloud infrastructure,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
-title: 'MDVA-37725: Emails sent via non-default sites contain default site''s logo URLs'
 ---
 
-# MDVA-37725: Emails sent via non-default sites contain default site's logo URLs
-
->[!WARNING]
+>![warning]
 >
 > The MDVA-37725 patch is deprecated.
 
@@ -22,31 +19,31 @@ Adobe Commerce (all deployment methods) 2.4.2
 
 Adobe Commerce (all deployment methods) 2.3.0 – 2.4.3
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Asynchronous order emails are sent via non-default websites containing the default website's logo URLs.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 1. The second website/store/store-view must have been created.
 1. **Asynchronous Sending** configuration must be enabled from **Stores** > **Settings** > **Configuration** > **Sales** > **Sales Email** > **General Settings**.
 1. **Add Store Code to URLs** configuration is turned on for the ease of accessing the secondary website from **Stores** > **Settings** > **Configuration** > **URL Options**.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Place orders from both the first and second stores.
 1. Run cron to send the sales emails.
 1. Check the email from the second website.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The logo URL of the email contains the second website's URL.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The logo URL of the email contains the default website's URL.
 

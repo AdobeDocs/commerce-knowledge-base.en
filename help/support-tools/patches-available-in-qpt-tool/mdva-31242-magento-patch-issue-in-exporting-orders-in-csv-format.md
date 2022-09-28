@@ -1,10 +1,7 @@
 ---
-description: The MDVA-31242 patch solves the issue where an error occurs when exporting orders in CSV file format. This patch is available when the Quality Patches Tool (QPT) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+title: "MDVA-31242: issue in exporting orders in CSV format"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,QPT 1.0.8,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-31242: issue in exporting orders in CSV format'
 ---
-
-# MDVA-31242: issue in exporting orders in CSV format
 
 The MDVA-31242 patch solves the issue where an error occurs when exporting orders in CSV file format. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
@@ -18,13 +15,13 @@ The MDVA-31242 patch solves the issue where an error occurs when exporting order
 
 * Adobe Commerce (deploment methods) 2.3.0 - 2.4.0-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Log in to the Admin backend.
 1. Enable **Company** at **Stores** > **Configuration** > **B2B Features**.
@@ -34,11 +31,11 @@ The MDVA-31242 patch solves the issue where an error occurs when exporting order
 1. Click the **Apply Filters** button.
 1. Click the **Export** > **CSV** > **Export** button.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The selected file pop-up is opened as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 White screen with the error *There has been an error processing your request* exception is displayed.
 

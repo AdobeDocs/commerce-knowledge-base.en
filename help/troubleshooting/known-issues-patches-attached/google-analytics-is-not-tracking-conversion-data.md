@@ -1,14 +1,11 @@
 ---
-description: This article provides a patch for the known Adobe Commerce 2.2.4 issue related to Google Analytics not tracking the conversion data.
-labels: 2.2.6,2.2.5,2.2.4,Google Analytics,Magento Commerce,known issues,patch,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
 title: Google Analytics is not tracking conversion data
+labels: 2.2.6,2.2.5,2.2.4,Google Analytics,Magento Commerce,known issues,patch,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
 ---
-
-# Google Analytics is not tracking conversion data
 
 This article provides a patch for the known Adobe Commerce 2.2.4 issue related to Google Analytics not tracking the conversion data.
 
->[!NOTE]
+>![info]
 >
 >The issue was fixed in Adobe Commerce 2.2.6.
 
@@ -16,7 +13,7 @@ This article provides a patch for the known Adobe Commerce 2.2.4 issue related t
 
 The conversion data was not tracked by Google Analytics due to an error in the Google Analytics component code.
 
- <u>Steps to reproduce</u>:
+ <ins>Steps to reproduce</ins>:
 
 1. Enable and configure the Google Analytics functionality in the Commerce Admin under **Stores** > **Settings** > **Configuration** > **Sales** > **Google API** > **Google Analytics**.
 1. Click **Save Config**.
@@ -24,11 +21,11 @@ The conversion data was not tracked by Google Analytics due to an error in the G
 1. Go to **Google Analytics Dashboard** > **Conversions** > **Overview**.
 1. Set the date range to the current date.
 
- <u>Expected result</u>:
+ <ins>Expected result</ins>:
 
 The order appears in the conversion data.
 
- <u>Actual result</u>:
+ <ins>Actual result</ins>:
 
 The order does not appear in the conversion data.
 

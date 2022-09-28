@@ -1,10 +1,7 @@
 ---
-description: The MDVA-34695 patch solves the issue where products and categories don't display in the categories grid in Admin. This patch is available when the Quality Patches Tool (QPT) 1.0.18 is installed. The patch ID is MDVA-34695. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+title: "MDVA-34695: Products and categories not displaying"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,QPT 1.0.18,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,catalog_category_entity,categories grid,children_count,display,products,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-34695: Products and categories not displaying'
 ---
-
-# MDVA-34695: Products and categories not displaying
 
 The MDVA-34695 patch solves the issue where products and categories don't display in the categories grid in Admin. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.18 is installed. The patch ID is MDVA-34695. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 
@@ -18,15 +15,15 @@ Adobe Commerce on cloud infrastructure 2.3.4
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.0-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Negative values for `children_count` appear in the database after deleting categories.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Log in to the Admin backend.
 1. Navigate to **Catalog > Categories**.
@@ -41,11 +38,11 @@ Negative values for `children_count` appear in the database after deleting categ
 1. Click on the **Child 1** category.
 1. Delete the category.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 The categories grid shows products and categories, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The categories grid is empty. Check the `catalog_category_entity` table in the database. Note that `children_count` became negative.
 

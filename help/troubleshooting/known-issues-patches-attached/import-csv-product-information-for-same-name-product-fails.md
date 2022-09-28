@@ -1,29 +1,26 @@
 ---
-description: This article provides a patch for the known Adobe Commerce 2.2.3 issue related to getting errors when trying to import a `.csv` file with products information if there are products with the same name.
-labels: Magento Commerce,Magento Commerce Cloud,import,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.2.6,2.2.7,2.3.0
 title: Import CSV product information for same name product fails
+labels: Magento Commerce,Magento Commerce Cloud,import,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.2.6,2.2.7,2.3.0
 ---
-
-# Import CSV product information for same name product fails
 
 This article provides a patch for the known Adobe Commerce 2.2.3 issue related to getting errors when trying to import a `.csv` file with products information if there are products with the same name.
 
 ## Issue
 
-When a `.csv` file with products information is imported, and there are products with the same name, you get the following error on the Check Data step: *"`URL Key XYZ was already generated for an item with the SKU %sku%`"*. The issue is caused by rewriting the products' URLs during import, even when there's no column for products' URLs in the imported `.csv` file.
+When a `.csv` file with products information is imported, and there are products with the same name, you get the following error on the Check Data step: *"<tt>URL Key XYZ was already generated for an item with the SKU %sku%"</tt>*. The issue is caused by rewriting the products' URLs during import, even when there's no column for products' URLs in the imported `.csv` file.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Create two configurable products with the same name in the Commerce Admin.
 1. Create a `.csv` file to import data for those products, which has for example these columns: `sku` | `product_type` | `name` | `product_websites` | `store_view_code`
 1. Go to **System** > **Data Transfer** > **Import** and select the `.csv` file.
 1. Click **Check Data**.
 
-<u>Expected result</u>:
+<ins>Expected result</ins>:
 
  No issues found; you can import the `.csv` file successfully.
 
- <u>Actual result</u>:
+ <ins>Actual result</ins>:
 
  The following error message is displayed: *"URL Key XYZ was already generated for an item with the SKU %sku%"*, it is not possible to import the file.
 

@@ -1,10 +1,7 @@
 ---
-description: The MDVA-34192 patch fixes the issue where it is impossible to modify/specify customer date of birth using dd/mm/yyyy format. This patch is available when the Quality Patches Tool (QPT) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+title: "MDVA-34192 patch: can't modify customers date in certain format"
 labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,QPT 1.0.16,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,date of birth,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Commerce,Magento Open Source
-title: 'MDVA-34192 patch: can''t modify customers date in certain format'
 ---
-
-# MDVA-34192 patch: can't modify customers date in certain format
 
 The MDVA-34192 patch fixes the issue where it is impossible to modify/specify customer date of birth using dd/mm/yyyy format. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -14,9 +11,9 @@ The MDVA-34192 patch fixes the issue where it is impossible to modify/specify cu
 
  **Compatible with Adobe Commerce versions:** 2.3.4-2.3.6
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -24,7 +21,7 @@ The patch solves several issues. Following are the description and steps to repr
 
 The product grid filter does not work correctly when we filter using custom date attribute and the admin user locale is en\_GB.
 
-<u>Steps to reproduce:</u>:
+<ins>Steps to reproduce:</ins>:
 
 1. Create an admin user whose **Interface Locale** is set to *English (United Kingdom)*.
 1. Create a date attribute with the following configuration:
@@ -35,11 +32,11 @@ The product grid filter does not work correctly when we filter using custom date
 1. Go to the product edit page, select a date for the new attribute using the date picker and save.
 1. Try to filter the product grid using the new date attribute.
 
-<u>Expected result:</u>:
+<ins>Expected result:</ins>:
 
 Product filter works correctly for a custom date attribute when the admin user locale is en\_GB.
 
-<u>Actual result:</u>:
+<ins>Actual result:</ins>:
 
 Product filter does not work correctly for a custom date attribute when the admin user locale is en\_GB.
 

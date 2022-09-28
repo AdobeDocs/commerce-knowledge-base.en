@@ -1,10 +1,7 @@
 ---
-description: The MDVA-34943 patch solves the issue where a quick order can't add two or more products to the cart. This patch is available when the Quality Patches Tool (QPT) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
+title: "MDVA-34943: Quick order can't add 2+ products to cart"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.17,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,SKU,cart,products,quick order,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-34943: Quick order can''t add 2+ products to cart'
 ---
-
-# MDVA-34943: Quick order can't add 2+ products to cart
 
 The MDVA-34943 patch solves the issue where a quick order can't add two or more products to the cart. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
 
@@ -18,19 +15,19 @@ Adobe Commerce on cloud infrastructure 2.4.0-p1
 
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.4.1-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Users are unable to add two or more products to the cart in quick order.
 
-<u>Prerequisites</u>:
+<ins>Prerequisites</ins>:
 
 Adobe Commerce with simple products.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Go to **Quick Order** on the Storefront (while not logged in).
 1. Enter a valid SKU, click the product that shows up in the autocomplete field, and set **Quantity** = *1*.
@@ -45,11 +42,11 @@ Adobe Commerce with simple products.
 1. Enter a `random_sting_value2` into the **Enter Multiple SKUs** field, and click **Add to List**.
 1. This results in two valid SKUs from before and a `random_sting_value2`.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Two or more products are able to be added to the cart, as expected.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 When taken to the **Cart** page, the first added product appears normally, but for the second product and any subsequent products added to the cart, a "*1 product requires attention*" error message appears. The second or any additional products will be listed on the **Product Requires Attention** section of the **Cart** page.
 

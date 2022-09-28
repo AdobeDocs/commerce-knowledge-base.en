@@ -1,14 +1,11 @@
 ---
-description: This article provides a patch for the known Adobe Commerce 2.2.3 issue related to the entity (category, CMS page, etc.) itself being removed when the related schedule update is deleted.
-labels: 2.2.3,Magento Commerce,known issues,patch,staging update,troubleshooting,Adobe Commerce
 title: Removing staging update deletes related entity
+labels: 2.2.3,Magento Commerce,known issues,patch,staging update,troubleshooting,Adobe Commerce
 ---
-
-# Removing staging update deletes related entity
 
 This article provides a patch for the known Adobe Commerce 2.2.3 issue related to the entity (category, CMS page, etc.) itself being removed when the related schedule update is deleted.
 
->[!NOTE]
+>![info]
 >
 >The issue was fixed in Adobe Commerce 2.2.6.
 
@@ -16,7 +13,7 @@ This article provides a patch for the known Adobe Commerce 2.2.3 issue related t
 
 When you delete an active schedule update between it's starting and ending dates, the related entity (category, subcategory, CMS page) is also deleted.
 
- <u>Steps to reproduce (with categories)</u>:
+ <ins>Steps to reproduce (with categories)</ins>:
 
 1. Log in to the Commerce Admin.
 1. Create a new subcategory under **Catalog** > **Categories**.
@@ -24,11 +21,11 @@ When you delete an active schedule update between it's starting and ending dates
 1. Wait until the update is applied; that is the start time comes.
 1. Delete the update using the **View/Edit** link.
 
- <u>Expected results</u>:
+ <ins>Expected results</ins>:
 
  The update is deleted, and the subcategory still exists in the Admin.
 
- <u>Actual results</u>:
+ <ins>Actual results</ins>:
 
  The update and the subcategory are deleted.
 

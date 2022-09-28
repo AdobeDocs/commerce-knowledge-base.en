@@ -1,10 +1,7 @@
 ---
-description: 'The MDVA-33393 patch solves the issue where the error message: *Provided countryId does not exist.* displays in the exception log.'
+title: "MDVA-33393 patch: provided countryId does not exist"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,address,data,error,exception log,id,log,support tools,validation,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
-title: 'MDVA-33393 patch: provided countryId does not exist'
 ---
-
-# MDVA-33393 patch: provided countryId does not exist
 
 The MDVA-33393 patch solves the issue where the error message: *Provided countryId does not exist.* displays in the exception log.
 
@@ -20,9 +17,9 @@ Adobe Commerce on cloud infrastructure 2.4.1
  
 Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.4.1-p1
 
->[!NOTE]
+>![info]
 >
->The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+ >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 

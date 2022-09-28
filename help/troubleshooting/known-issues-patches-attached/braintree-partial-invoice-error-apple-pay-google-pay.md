@@ -1,10 +1,7 @@
 ---
-description: This article provides a hotfix for the issue where users are not able to create partial invoices when using Apple Pay or Google Pay through Braintree as payment methods.
+title: "Adobe Commerce 2.4.4: Unable to create partial invoices"
 labels: 2.4.4,Magento Commerce,Magento Commerce Cloud,Apple Pay,Google Pay,invoice,error,patches,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,vault capture
-title: 'Adobe Commerce 2.4.4: Unable to create partial invoices'
 ---
-
-# Adobe Commerce 2.4.4: Unable to create partial invoices
 
 This article provides a hotfix for the issue where users are not able to create partial invoices when using Apple Pay or Google Pay through Braintree as payment methods.
 
@@ -16,7 +13,7 @@ Adobe Commerce (all deployment methods) 2.4.4
 
 When using Apple Pay or Google Pay as payment methods, users get the error “*The ‘vault_capture’ command doesn't exist. Verify the command and try again.*”  while creating partial invoices.
 
-<u>Steps to reproduce</u>:
+<ins>Steps to reproduce</ins>:
 
 1. Open your Adobe Commerce website.
 1. Add a simple product to the cart (qty 2).
@@ -26,11 +23,11 @@ When using Apple Pay or Google Pay as payment methods, users get the error “*T
 1. Create a partial invoice.
 1. Create another invoice for the remaining amount.
 
-<u>Expected results</u>:
+<ins>Expected results</ins>:
 
 Partial invoices are created.
 
-<u>Actual results</u>:
+<ins>Actual results</ins>:
 
 The first partial invoice is created. While creating the second partial invoice, users get the following error: *The ‘vault_capture’ command doesn't exist. Verify the command and try again*.
 

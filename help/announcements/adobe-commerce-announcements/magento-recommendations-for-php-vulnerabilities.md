@@ -1,16 +1,13 @@
 ---
-description: On September 3, Multi-State Information Sharing and Analysis Center (MS-ISAC) has issued an alert related to multiple vulnerabilities that could allow for arbitrary code execution and a recommendation that all sites using PHP should update to the latest PHP version ASAP ([full alert is available here](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)).
-labels: 1.x,2.0,2.1.x,2.2.x,Magento Commerce,Magento Commerce Cloud,PCI,PHP,PHP 7.0,PHP 7.1,PHP 7.2,PHP 7.3,announcements,security,Adobe Commerce,cloud infrastructure,on-premises
 title: Adobe Commerce Recommendations for PHP Vulnerabilities
+labels: 1.x,2.0,2.1.x,2.2.x,Magento Commerce,Magento Commerce Cloud,PCI,PHP,PHP 7.0,PHP 7.1,PHP 7.2,PHP 7.3,announcements,security,Adobe Commerce,cloud infrastructure,on-premises
 ---
-
-# Adobe Commerce Recommendations for PHP Vulnerabilities
 
 On September 3, Multi-State Information Sharing and Analysis Center (MS-ISAC) has issued an alert related to multiple vulnerabilities that could allow for arbitrary code execution and a recommendation that all sites using PHP should update to the latest PHP version ASAP ([full alert is available here](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)).
 
->[!WARNING]
+>![warning]
 >
->On Adobe Commerce on cloud infrastructure please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.
+>On Adobe Commerce on cloud infrastructure please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) detailing your required service upgrade and stating the time when you want the upgrade process to start.
 
 Read on for impacts and steps for Adobe Commerce sites:
 

@@ -1,10 +1,7 @@
 ---
-description: This article provides a patch for the known Adobe Commerce 2.2.2 issue related to the product special price "from" date being incorrect if its value is changed by the admin whose interface locale is different.
-labels: 2.2.2,Magento Commerce,known issues,patch,special price,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
 title: Wrong date for Special Price
+labels: 2.2.2,Magento Commerce,known issues,patch,special price,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
 ---
-
-# Wrong date for Special Price
 
 This article provides a patch for the known Adobe Commerce 2.2.2 issue related to the product special price "from" date being incorrect if its value is changed by the admin whose interface locale is different.
 
@@ -12,7 +9,7 @@ This article provides a patch for the known Adobe Commerce 2.2.2 issue related t
 
 When you set/change the special price for a product, the current date and time are saved in the database as a value for the `special_from_date` attribute (not visible when editing a product). If you edit the special price and your admin user account is set to a different interface locale, a wrong value might be set to `special_from_date` because of the issues in parsing date format for different locales.
 
- <u>Steps to reproduce</u>:
+ <ins>Steps to reproduce</ins>:
 
 Prerequisites: the admin user locale is English (United States).
 
@@ -29,11 +26,11 @@ Prerequisites: the admin user locale is English (United States).
 1. Go to **System** > **Action Logs**.
 1. Check the log for product update.
 
- <u>Expected results</u>:
+ <ins>Expected results</ins>:
 
  The start date for the special price should be the current date.
 
- <u>Actual results</u>:
+ <ins>Actual results</ins>:
 
  The start date for the special price is a date a few years in the future, preventing the special price from being active.
 
