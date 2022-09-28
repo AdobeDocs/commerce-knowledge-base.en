@@ -21,3 +21,5 @@ Wed, Jan 26, 2022, 10:00 AM - 11:30 AM CST
 [REGISTER HERE](https://register.gotowebinar.com/register/6951278956217776911)
 
 Even if you’re unable to join, we recommend you register to receive the recording after the event.
+
+Checking U export.
