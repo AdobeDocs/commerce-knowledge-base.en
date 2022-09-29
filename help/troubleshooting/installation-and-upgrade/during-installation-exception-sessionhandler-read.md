@@ -50,10 +50,13 @@ Typical locations follow:
 1. Locate `session.save_handler`
 1. Set it in any of the following ways:
     * To comment it out:
-    ```php
-    ;session.save_path = <path>
-    ```
+
+      ```php
+      ;session.save_path = <path>
+      ```
+    
     * To set it to a file system path:
-    ```php
-    session.save_handler = files
-    ```
+    
+      ```php
+      session.save_handler = files
+      ```

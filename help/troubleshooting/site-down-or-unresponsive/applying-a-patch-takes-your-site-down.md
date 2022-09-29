@@ -36,10 +36,13 @@ For Magento Open Source 1.X versions,
 For Adobe Commerce on-premises and Magento Open Source 2.x versions,
 
 1. Run the following SSH command:
+
     ```
     patch -p1 -R %patch_name%.composer.patch
     ```
+
     (If the above command does not work, try using `-p2` instead of `-p1`)
+
 1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management**.
 
 ### Adobe Commerce on cloud infrastructure, all versions
@@ -48,10 +51,10 @@ For Adobe Commerce on cloud infrastructure, all versions,
 
 1. Remove the `%patch_name%.composer.patch` file(s) from the `m2-hotfixes` directory.
 1. Commit and push your code changes:
+
     ```
     git commit -m "Remove %patch_name%.composer.patch patch" && git push origin
     ```
-
 
 ## Related reading
 

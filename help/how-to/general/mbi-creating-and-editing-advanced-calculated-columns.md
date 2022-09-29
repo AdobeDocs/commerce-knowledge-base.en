@@ -6,7 +6,7 @@ description: "[Admin users](https://support.magento.com/hc/en-us/articles/360016
 
 # MBI: Creating and editing advanced calculated columns
 
- [Admin users](https://support.magento.com/hc/en-us/articles/360016731291) have the ability to create and edit certain calculated columns in the Data Warehouse Manager. These calculated columns give you the ability to set up the reporting you are looking for to answer key business questions.
+[Admin users](https://support.magento.com/hc/en-us/articles/360016731291) have the ability to create and edit certain calculated columns in the Data Warehouse Manager. These calculated columns give you the ability to set up the reporting you are looking for to answer key business questions.
 
 For the list of calculated columns that you can create in the Data Warehouse Manager, as well as guidance to ensure you set them up correctly, check out the following articles in our user guide:
 
@@ -15,7 +15,7 @@ For the list of calculated columns that you can create in the Data Warehouse Man
 * [Understanding and evaluating table relationships](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/table-relationships.html)
 * [Creating paths for calculated columns](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
 
-#### I still need help!
+## I still need help!
 
 If you need help with creating a regular calculated column or want to create or edit an Advanced Calculated Column, [reach out to our team](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) and include the following:
 

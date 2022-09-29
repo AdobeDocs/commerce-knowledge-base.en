@@ -31,15 +31,17 @@ You are able to add a product to the cart.
 <u>Actual Result:</u>
 
 You are not able to add a product to the cart. You get the following console error:
+
 ```bash
 Failed to load resource: the server responded with a status of 400 (Bad Request)
 customer-data.js:87 Uncaught Error: [object Object]
-    at Object.<anonymous> (customer-data.js:87:23)
-    at fire (jquery.js:3500:50)
-    at Object.fireWith [as rejectWith] (jquery.js:3630:29)
-    at done (jquery.js:9798:30)
-    at XMLHttpRequest.<anonymous> (jquery.js:10057:37)
+    at Object.<anonymous> (customer-data.js:87:23)
+    at fire (jquery.js:3500:50)
+    at Object.fireWith [as rejectWith] (jquery.js:3630:29)
+    at done (jquery.js:9798:30)
+    at XMLHttpRequest.<anonymous> (jquery.js:10057:37)
 ```
+
 ## Cause
 
 The Adobe Commerce configuration retrieves `null` in case when a multiselect configuration does not have any selected items. This configuration if further successfully processed in PHP versions earlier than 8.1. However in PHP 8.1 it does not work properly due to the errors that are caused by the "[Deprecate passing null to non-nullable arguments of internal functions in PHP 8.1](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)".

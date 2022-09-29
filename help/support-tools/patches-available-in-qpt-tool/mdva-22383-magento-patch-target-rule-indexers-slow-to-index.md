@@ -28,7 +28,10 @@ Reindexing the Product/Target Rule and Target Rule/Product indexers is taking to
 
 1. Create a target rule with products to match the conditions, the conditions should add more product to collection and should have attributes (not categories or attribute set).
 1. Run the following command:
- ```bash    bin/magento indexer:reindex targetrule_product_rule    ```
+
+   ```bash
+       bin/magento indexer:reindex targetrule_product_rule
+   ```
 
  <span class="wysiwyg-underline">Actual result:</span>
 

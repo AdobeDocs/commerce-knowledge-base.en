@@ -31,27 +31,31 @@ Previously, in our cloud environment, the Jenkins server was used to run cron jo
 
 1. Contact [Adobe Commerce support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to have self-managed crons enabled.
 1. Edit the `.magento.app.yaml` file in the root directory of the code for Adobe Commerce in the Git branch. Add the following:
-      ```yaml
-        crons:
-        cronrun:
-        spec: "* * * * *"
-        cmd: "php bin/magento cron:run"
-      ```
+
+   ```yaml
+     crons:
+     cronrun:
+     spec: "* * * * *"
+     cmd: "php bin/magento cron:run"
+   ```
+
 1. Save the file and push updates to the Staging and Production environments (the same way you do it for Integration environments).
 
 >[!NOTE]
 >
->There’s no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular `cron:run` task, added as described above, is enough. Though, it is required to transfer your custom jobs if you had any.
+>There's no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular `cron:run` task, added as described above, is enough. Though, it is required to transfer your custom jobs if you had any.
 
 ### Check if you have self-managed cron enabled (only for Cloud Pro Staging and Production)
 
 To check if the self-managed cron is enabled, run the `crontab -l` command and observe the result:
 
 * Self-managed cron is enabled, if you are able to see the tasks, like the following:
+
     ```bash
     username@hostname:~$ crontab -l    # Crontab is managed by the system, attempts to edit it directly will fail.
     SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun
     ```
+
 * The self-managed cron is not enabled if you are not able to see the tasks and get the *"you are not allowed to use this program"* error message.
 
 >[!NOTE]

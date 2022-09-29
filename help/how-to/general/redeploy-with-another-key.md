@@ -16,13 +16,17 @@ To redeploy with the correct authentication keys:
 
 1. Log in to the machine that has your Adobe Commerce on cloud infrastructure SSH keys.
 1. Log in to the project:
+
     ```
     magento-cloud login
     ```
+
 1. Create a branch to update code with the name `auth`:
+
     ```
     magento-cloud environment:branch auth master
     ```
+
 1. Change to the project root directory.
 1. Open `auth.json` in a text editor.
 
@@ -40,15 +44,19 @@ To redeploy with the correct authentication keys:
 1. Add the correct authentication keys.
 1. Save your changes and exit the text editor.
 1. Commit and merge your changes.
+
     ```
     git add -A
     ```
+
     ```
     git commit -m "<description of change>"
     ```
+
     ```
     git push origin master
     ```
+
 1. Wait for the deployment to complete.
 
 Messages indicate whether deployment was successful. You can confirm a successful deployment by going to one of the **Environment routes** displayed on your screen.

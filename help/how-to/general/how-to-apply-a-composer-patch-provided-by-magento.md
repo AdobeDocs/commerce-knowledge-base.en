@@ -12,7 +12,7 @@ This article instructs how to apply a composer patch for Adobe Commerce on-premi
 >
 >We strongly recommend applying and testing the patch on the Staging/Integration environment before applying it to Production. We also recommend you have a recent backup before any manipulations.
 
-### How to apply a composer patch for Adobe Commerce on cloud infrastructure {#cloud}
+## How to apply a composer patch for Adobe Commerce on cloud infrastructure {#cloud}
 
 1. If you do not have a directory named `m2-hotfixes` in the project root, please create one.
 1. Copy the `%patch_name%.composer.patch` file(s) to the `m2-hotfixes` directory.

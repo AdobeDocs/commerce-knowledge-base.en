@@ -44,10 +44,12 @@ Details of the shared catalog are returned.
 <u>Actual results</u>:
 
 The following error is returned:
+
 ```JSON
 "message": "The consumer isn't authorized to access %resources.",
 "resources": "Magento_SharedCatalog::sharedCatalog"
 ```
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

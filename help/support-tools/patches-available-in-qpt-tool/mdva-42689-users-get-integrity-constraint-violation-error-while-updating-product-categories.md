@@ -43,9 +43,11 @@ CSV file is imported without any error.
 <u>Actual results</u>:
 
 Adobe Commerce throws the following error:
+
 ```SQL
 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1302' for key 'PRIMARY', query was: INSERT INTO `catalog_url_rewrite_product_category` (`url_rewrite_id`,`category_id`,`product_id`) VALUES (?, ?, ?), (?, ?, ?), (?, ?, ?)
 ```
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
