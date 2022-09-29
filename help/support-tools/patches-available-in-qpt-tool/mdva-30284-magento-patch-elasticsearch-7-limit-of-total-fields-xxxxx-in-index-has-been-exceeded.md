@@ -45,9 +45,11 @@ All products are available in the Elasticsearch index.
 
 1. Elasticsearch error:
 
-    *{"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"Limit
-  of total fields [3000] in index [magento2_product_2_v11] has been exceeded"}],"type":"illegal_argument_exception","reason":"Limit
-  of total fields [3000] in index [magento2_product_2_v11] has been exceeded"},"status":400}*
+   ```
+    {"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"Limit
+    of total fields [3000] in index [magento2_product_2_v11] has been exceeded"}],"type":"illegal_argument_exception","reason":"Limit
+    of total fields [3000] in index [magento2_product_2_v11] has been exceeded"},"status":400}
+   ```
 
 1. New product was not indexed.
 

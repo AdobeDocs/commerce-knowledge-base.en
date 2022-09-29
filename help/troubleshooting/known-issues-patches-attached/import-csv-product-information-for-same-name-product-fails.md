@@ -10,7 +10,7 @@ This article provides a patch for the known Adobe Commerce 2.2.3 issue related t
 
 ## Issue
 
-When a `.csv` file with products information is imported, and there are products with the same name, you get the following error on the Check Data step: *"<tt>URL Key XYZ was already generated for an item with the SKU %sku%"</tt>*. The issue is caused by rewriting the products' URLs during import, even when there's no column for products' URLs in the imported `.csv` file.
+When a `.csv` file with products information is imported, and there are products with the same name, you get the following error on the Check Data step: *"`URL Key XYZ was already generated for an item with the SKU %sku%"`*. The issue is caused by rewriting the products' URLs during import, even when there's no column for products' URLs in the imported `.csv` file.
 
 <u>Steps to reproduce</u>:
 

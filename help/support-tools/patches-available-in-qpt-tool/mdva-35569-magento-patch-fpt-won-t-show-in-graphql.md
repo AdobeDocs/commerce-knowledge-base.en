@@ -89,7 +89,7 @@ The FPT would be populated normally, as expected.
  "grand_total": {
  "value": 21,
  "currency": "USD"
- ```
+```
 
 ## Apply the patch
 

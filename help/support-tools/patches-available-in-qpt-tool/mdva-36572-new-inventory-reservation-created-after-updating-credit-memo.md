@@ -32,7 +32,7 @@ Credit Memo reservation update observer is triggered every time the credit memo 
 1. Create new Integration.
 1. Check inventory_reservation table:
 
-    ```SQL
+   ```SQL
        select * from inventory_reservation;
        +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
        | reservation_id | stock_id | sku      | quantity | metadata                                                                                                    |
@@ -41,7 +41,7 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        |              2 |        1 | simple_1 |   1.0000 | {"event_type":"creditmemo_created","object_type":"order","object_id":"1","object_increment_id":"000000001"} |
        +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
        2 rows in set (0.00 sec)
-    ```
+   ```
 
 1. Send GET request to: `../rest/default/V1/creditmemo/3`
 1. Copy response (example):
@@ -119,7 +119,7 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        ],
        "comments": []
       }
-    ```
+   ```
 
 1. Send POST request to: `../rest/default/V1/creditmemo`
 

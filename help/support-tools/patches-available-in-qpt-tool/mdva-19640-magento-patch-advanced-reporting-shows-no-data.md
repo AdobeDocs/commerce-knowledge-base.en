@@ -24,7 +24,7 @@ Adobe Commerce (all deployment methods) 2.3.1 - 2.4.2
 
 ## Issue
 
-<ins>Steps to reproduce</sins>:
+<u>Steps to reproduce</u>:
 
 1. In the Admin, go to **Reports** > **Business Intelligence** and select **Advanced Reporting**.
 1. View the **Advanced Reporting** page.

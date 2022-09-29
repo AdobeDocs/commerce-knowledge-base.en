@@ -36,7 +36,7 @@ The user sees a cart query error, *"Wrong store code specified for cart"*, when 
 
 1. Adobe Commerce backend is configured to have two store views (with store codes: default, second).
 1. The user creates a shopping cart using the default store code.
-1. The user tries to retrieve this cart using the second store code in the<tt>Store</tt>request header.
+1. The user tries to retrieve this cart using the second store code in the `Store` request header.
 
 <u>Expected results</u>:
 

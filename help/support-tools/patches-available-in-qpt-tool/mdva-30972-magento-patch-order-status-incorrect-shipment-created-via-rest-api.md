@@ -39,12 +39,13 @@ When a partial shipment is created from Admin via REST API for an order with *Su
 1. Check that the order has *Suspected Fraud* status now.
 1. Create a shipment for one item from the order using REST API:
 
+    ```
     * Method = `Post`
     * Header = `"{host}/rest/V1/orders/ {order_id}/ship"`
     * Body =
     ```clike
      {      "items": [        {          "extension_attributes": {},          "order_item_id": {order_item_id},          "qty": 1        }      ]    }
-     ```
+    ```
 
 1. Open the order in Admin again and check its status.
 

@@ -18,7 +18,7 @@ You can download the patch from this article and it is also available through th
 
 When placing an order by using PayPal Express Checkout payment method, the previously ordered purchased product is added into the order instead of the actual one.
 
-<ins>Steps to reproduce:<ins>
+<u>Steps to reproduce:</u>
 
 1. On the store front, add any product to the cart (product A, price $50).
 1. Click the cart link to open the cart.
