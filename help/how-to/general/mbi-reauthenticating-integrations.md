@@ -13,6 +13,7 @@ This article provides solutions for re-authorizing an integration to grant Magen
 For lists of Database and SaaS integrations, refer to [Connecting External Data Using an Integration](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html) in our developer documentation. (When opening the page, use the table of contents on the left for navigation).
 
 ## Having connection issues?
+
 Authorizing an integration grants MBI the required privileges to pull data from a third party service. Re-authorization is required when these privileges are revoked.
 
 This could happen due to a number of reasons:

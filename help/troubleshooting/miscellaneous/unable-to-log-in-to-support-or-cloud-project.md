@@ -9,6 +9,7 @@ description: "This article provides a solution for when you struggle to log in t
 This article provides a solution for when you struggle to log in to Adobe Commerce support or your cloud project.
 
 ## Affected products and versions
+
 Adobe Commerce (all deployment methods) all [supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Issue

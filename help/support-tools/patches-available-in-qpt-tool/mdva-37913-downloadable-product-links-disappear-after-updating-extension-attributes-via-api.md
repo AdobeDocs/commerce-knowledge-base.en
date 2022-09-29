@@ -22,6 +22,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0 - 2.
 
 
 ## Issue
+
 Downloadable product links disappear after updating extension attributes via API.
 
 <ins>Prerequisites</ins>:

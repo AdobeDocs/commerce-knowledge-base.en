@@ -49,4 +49,5 @@ In order to fix the issue for 2.3.7-p1, Adobe Commerce (all deployment methods) 
 See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
 ## Related Reading
+
 GitHub [Unsupported PHP 8 command in Magento 2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)

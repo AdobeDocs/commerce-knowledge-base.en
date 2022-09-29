@@ -46,6 +46,7 @@ This article lists the support ticket **Contact Reason** field options and more 
 </table>
 
 ## Adobe Commerce Application reasons
+
 These are the options that appear if **Adobe Commerce Application** is selected as the **Contact Reason**:
 
 <table class="tg">
@@ -84,6 +85,7 @@ These are the options that appear if **Adobe Commerce Application** is selected 
 </table>
 
 ## Adobe Commerce Cloud Infrastructure reasons
+
 These are the options that appear if **Adobe Commerce Cloud Infrastructure** is selected as the **Contact Reason**:
 
 <table class="tg">

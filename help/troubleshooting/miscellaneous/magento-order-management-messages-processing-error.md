@@ -48,6 +48,7 @@ Stack trace:
 ```
 
 ## Cause
+
 Â
 This occurs when the Connector attempts to process `magento.inventory.source_management` messages. The Connector attempts to process these messages as if they were a `magento.inventory.source_stock_management.update` message which does require a mode value. Because there is no mode in the `magento.inventory.source_mangement` messages, the error occurs.
 

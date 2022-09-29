@@ -20,6 +20,7 @@ The Upgrade Compatibility Tool 1.1.0 introduces significant improvements, includ
 * **Delta issues between two versions**: with this improvement proposed by our community members, UCT users will be able to get a delta of the issues between two versions, which will allow them to focus only on the new issues introduced for the target version they will upgrade.
 
 ## Which versions can the tool compare?
+
 You can use the tool to compare any 2.x version.
 
 ## Who can use the Upgrade Compatibility Tool 1.1.0?
@@ -31,6 +32,7 @@ Adobe Commerce customers.
 For installation steps, refer to Adobe Commerce: [Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) in our developer documentation. For prerequisites for using the tool, refer to Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) in our developer documentation.
 
 ## What is the number next to each issue?
+
 This is the error message reference that provides information about errors that can occur while executing the Upgrade Compatibility Tool.
 
 The Upgrade Compatibility Tool error messages are categorized by level (critical issues, errors, and warnings) and type (core code, custom code, and GraphQL schemas). Each type contains the following information:
