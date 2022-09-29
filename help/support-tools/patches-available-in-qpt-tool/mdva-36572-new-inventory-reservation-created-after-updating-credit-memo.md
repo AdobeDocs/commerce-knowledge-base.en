@@ -130,7 +130,7 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        }
    ```
 
-   >![!NOTE]
+   >[!NOTE]
    >
    >Such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
 

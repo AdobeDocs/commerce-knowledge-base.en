@@ -8,7 +8,7 @@ description: "This article instructs how to apply a composer patch for Adobe Com
 
 This article instructs how to apply a composer patch for Adobe Commerce on-premises, Adobe Commerce on cloud infrastructure, and Magento Open Source.
 
->![warning]
+>[!WARNING]
 >
 >We strongly recommend applying and testing the patch on the Staging/Integration environment before applying it to Production. We also recommend you have a recent backup before any manipulations.
 

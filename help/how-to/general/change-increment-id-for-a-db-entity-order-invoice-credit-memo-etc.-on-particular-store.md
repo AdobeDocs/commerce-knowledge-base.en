@@ -57,7 +57,7 @@ Update the entity using the following query:
 ALTER TABLE sequence_{entity_type}_{store_id} AUTO_INCREMENT = {new_increment_value};
 ```
 
->![warning]
+>[!WARNING]
 >
 >Important: The new increment value must be greater than the current one, not less!
 

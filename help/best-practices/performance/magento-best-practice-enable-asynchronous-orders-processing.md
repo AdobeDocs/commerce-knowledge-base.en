@@ -27,7 +27,7 @@ Method 2: Adobe Commerce on-premises only (only when the deploy mode set to DEFA
 
 Then flush cache by running `php bin/magento cache:flush` or go to the Commerce Admin under **System** > **Tools** > **Cache Management**.
 
->![warning]
+>[!WARNING]
 >
 >Warning: always test in the Staging environment prior to making any changes to the Production environment.
 

@@ -89,7 +89,7 @@ Follow the instructions in [MySQL disk space is low on Adobe Commerce on cloud i
 
 #### Check up Elasticsearch heapdumps
 
->![WARNING]
+>[!WARNING]
 >
 >Heapdumps contain logging information that might be valuable for investigating issues. Consider storing them in a separate location for at least 10 days.
 
@@ -103,7 +103,7 @@ If you don't have permissions to delete files created by another user (in this c
 
 #### Check up database dumps/backups
 
->![WARNING]
+>[!WARNING]
 >
 >Database backups are usually created for a purpose. If you are not sure if the file is still needed, consider moving it to a separate location instead of deleting it.
 

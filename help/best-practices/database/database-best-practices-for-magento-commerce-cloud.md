@@ -1,12 +1,12 @@
 ---
 title: Database best practices for Adobe Commerce on cloud infrastructure
 labels: Magento Commerce Cloud,MySQL,Pro,Starter,best practices,database,ece-tools,lock,performance,triggers,Adobe Commerce,cloud infrastructure
-description: ">![warning]"
+description: This article explains how to improve the performance of your Adobe Commerce on cloud infrastructure store by working efficiently with the database. The recommendations are relevant for both Starter architecture and Pro architecture customers.
 ---
 
 # Database best practices for Adobe Commerce on cloud infrastructure
 
->![warning]
+>[!WARNING]
 >
 > [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 
@@ -66,7 +66,7 @@ Avoid using custom triggers if possible.
 
 Triggers are used to log changes into audit tables. Adobe recommends configuring the application to write directly to the audit tables instead of using the trigger functionality for these reasons:
 
-* Triggers are interpreted as code and MySQL does not precompile them. Hooking onto your query’s transaction space, they add the overhead to a parser and interpreter for each query performed with the table.
+* Triggers are interpreted as code and MySQL does not precompile them. Hooking onto your query's transaction space, they add the overhead to a parser and interpreter for each query performed with the table.
 * The triggers share the same transaction space as the original queries, and while those queries compete for locks on the table, the triggers independently compete on locks on another table.
 
 To learn about alternatives to using custom triggers, refer to [Best Practice triggers usage](https://support.magento.com/hc/en-us/articles/360048050352) in our support knowledge base.

@@ -44,7 +44,7 @@ To fix the issue, please apply the patch attached to this article. To download i
 
  [Download Catalog pagination issue on Elasticsearch 6.x patch](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) - The patch is compatible with all affected versions and editions.
 
->![warning]
+>[!WARNING]
 >
 >Adobe strongly recommends applying the patch as soon as possible, even if you have not experienced any symptoms.
 

@@ -26,7 +26,7 @@ To avoid this error it is recommended to specify the path to the module as an ar
 bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
 ```
 
->![warning]
+>[!WARNING]
 >
 > The Upgrade Compatibility Tool may not be able to analyse the codebase if it contains circular dependency between methods.
 

@@ -1,16 +1,16 @@
 ---
 title: Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade
 labels: Elasticsearch,Elasticsearch 2.x,Elasticsearch 5.x,Elasticsearch 6.x,Elasticsearch problems,Elasticsearch service version not compatible,End of Life,Magento Commerce Cloud,how to,upgrade,Adobe Commerce,cloud infrastructure,troubleshooting
-description: ">![warning]"
+description: This article discusses a fix for problems during deployment after upgrading to Adobe Commerce on cloud infrastructure versions 2.3.1+, if you are on Elasticsearch versions 2.x and 5.x.
 ---
 
 # Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade
 
->![warning]
+>[!WARNING]
 >
 >[MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 
->![warning]
+>[!WARNING]
 >
 >Please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.
 
@@ -31,7 +31,7 @@ When deploying you see an error message similar to the following, indicating tha
 
 ## Solution
 
->![warning]
+>[!WARNING]
 >
 >If you have a shared environment, ensure staging and production are ready to be upgraded.
 

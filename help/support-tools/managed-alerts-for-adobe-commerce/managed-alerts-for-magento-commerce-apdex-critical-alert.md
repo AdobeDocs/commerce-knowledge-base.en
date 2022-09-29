@@ -37,7 +37,7 @@ Doing the above when you have received a critical alert, before you have trouble
 
 Follow these steps to identify and troubleshoot the cause.
 
->![warning]
+>[!WARNING]
 >
 >Because this is a critical alert, it is highly recommended you complete **Step 1** before you try to troubleshoot the issue (Step 2 onwards).
 

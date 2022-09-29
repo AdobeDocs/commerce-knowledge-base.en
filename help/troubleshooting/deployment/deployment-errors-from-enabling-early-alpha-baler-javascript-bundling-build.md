@@ -8,7 +8,7 @@ description: "The merchant experiences deployment errors when using the Baler mo
 
 The merchant experiences deployment errors when using the Baler module on a production environment, as the feature is currently in the early alpha development stage.
 
->![warning]
+>[!WARNING]
 >
 >Early-alpha Baler Javascript bundling is not ready for production use and is used at your own risk.
 

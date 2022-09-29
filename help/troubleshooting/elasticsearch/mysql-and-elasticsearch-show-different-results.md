@@ -1,12 +1,12 @@
 ---
 title: MySQL and ElasticSearch show different results
 labels: 2.2.3,2.2.6,Magento Commerce,Magento Commerce Cloud,known issues,patch,search,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: ">![warning]"
+description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting different search results for the same search query with MySQL and ElasticSearch.
 ---
 
 # MySQL and ElasticSearch show different results
 
->![warning]
+>[!WARNING]
 >
 > [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0). You must have the Elasticsearch host set up and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in our developer documentation.
 

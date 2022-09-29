@@ -12,7 +12,7 @@ This article provides a fix for blockers to launching on Adobe Commerce on cloud
 
  [Fastly](https://www.fastly.com/) is a Varnish-based Content Delivery Network (CDN) for serving static assets. It is required for Adobe Commerce on cloud infrastructure on Production environments, so it's important to configure Fastly and test your website (UAT) with Fastly enabled and configured &ndash; on both Staging and Production environments.
 
->![warning]
+>[!WARNING]
 >
 >With Full Page Cache (FPC) enabled, your website performs differently; make sure you test it before going live.
 

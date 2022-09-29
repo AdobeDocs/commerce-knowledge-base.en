@@ -65,7 +65,7 @@ b. NO &ndash;  Review <a href="https://devdocs.magento.com/cloud/project/manage-
 <div id="zd-accordion-10" class="zd-accordion-panel">
 <strong>Step 10</strong>
 <div class="zd-accordion-section">
-<em><filename> file could not be written Warning</em>?</div>
+<em><code><filename></code> file could not be written Warning</em>?</div>
 <p class="zd-accordion-text">a. YES &ndash;  Please <a href="https://devdocs.magento.com/cloud/project/manage-disk-space.html#application-disk-space">increase the disk value in .magento.app.yaml</a> and redeploy. If this does not work, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a>.<br>
 b. NO &ndash;  Proceed with <a class="accordion-anchor" href="#zd-accordion-11">Step 11</a>.</p>
 </div>

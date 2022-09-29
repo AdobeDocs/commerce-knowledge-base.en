@@ -1,12 +1,12 @@
 ---
 title: Elasticsearch Index Status is 'yellow' or 'red'
 labels: 2.2.x,2.3.x,Elasticsearch,Elasticsearch Index Status,Magento Commerce,Magento Commerce Cloud,how to,red,yellow,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: ">![warning]"
+description: The article provides a fix for when the Elasticsearch Index Status is not '*green*'. '*yellow*' indicates normal, and '*red*' indicates bad. The 'yellow' or 'red' status may occur in conjunction with missing products or the display of old product information.
 ---
 
 # Elasticsearch Index Status is 'yellow' or 'red'
 
->![warning]
+>[!WARNING]
 >
 > [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 

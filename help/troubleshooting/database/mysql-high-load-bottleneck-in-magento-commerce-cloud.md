@@ -1,12 +1,12 @@
 ---
 title: MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
 labels: 2.x.x,Cloud,Magento Commerce Cloud,MySQL,Redis,bottleneck,cluster,high,how to,load,performance,queries,slave,slave connection,Adobe Commerce,cloud infrastructure,Pro
-description: ">![warning]"
+description: This topic discusses a solution when high load from MySQL causes a performance bottleneck issue in Adobe Commerce on cloud infrastructure.
 ---
 
 # MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
 
->![warning]
+>[!WARNING]
 >
 >For scaled architecture (split architecture), Redis slave connections **SHOULD NOT** be enabled. You can check if you are on scaled architecture go to your project URL, e.g. https:&#8203;//us.magento.cloud/projects/&lt;project ID&gt;/environments/production. Click on the Access site. If there are more than three nodes shown under SSH access you are on scaled architecture. If you enable Redis Slave Reads on scaled architecture the customer will receive errors on Redis connections not being able to connect. This has to do with how the clusters are configured to process Redis connections. Redis Slaves are still active but will not be used for Redis Reads. We recommend for scaled architecture to use Adobe Commerce 2.3.5 or later and implement new Redis back end configuration and implement L2 caching for Redis.
 

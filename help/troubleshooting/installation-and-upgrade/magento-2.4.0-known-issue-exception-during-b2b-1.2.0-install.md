@@ -22,7 +22,7 @@ This article provides a fix for an Adobe Commerce known issue for an exception t
 1. Create an additional store.
 1. Install B2B 1.2.0.
 
->![warning]
+>[!WARNING]
 >
 >The upgrade of any B2B instance with more than 1 store from a version below 1.2.0 or Commerce instance below 2.4.0, is also affected.
 

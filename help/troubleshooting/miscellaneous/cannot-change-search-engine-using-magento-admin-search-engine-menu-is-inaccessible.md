@@ -1,12 +1,12 @@
 ---
 title: Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
 labels: Magento Commerce,Magento Commerce Cloud,change search engine,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: ">![warning]"
+description: This article provides a solution for changing the Adobe Commerce Search Engine using the Commerce Admin if the Search Engine field is not displayed or the Use system value checkbox is greyed out and not accessible.
 ---
 
 # Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
 
->![warning]
+>[!WARNING]
 >
 > [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 

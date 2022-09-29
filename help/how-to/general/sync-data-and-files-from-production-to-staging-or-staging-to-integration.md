@@ -18,7 +18,7 @@ To sync the data, you must manually dump the database from the source environmen
 
 For Adobe Commerce on cloud infrastructure Pro plan architecture, you can also sync from Staging and Production to your Integration master branch. This sync only pulls and pushes code, not data. To sync data, you will need to dump the database data and push it to another environment's database.
 
->![warning]
+>[!WARNING]
 >
 >Syncing of the database cannot be done in the Pro Staging and Production clusters.
 

@@ -21,7 +21,7 @@ See the [Set up MySQL service](https://devdocs.magento.com/guides/v2.3/cloud/pro
 
 Once you change the `.magento/services.yaml` file, you need to commit and push your changes, for them to be applied. The push will trigger the deployment process.
 
->![warning]
+>[!WARNING]
 >
 >A Starter plan partition should never be made smaller (for example, going from 30GB to 20GB) as this will likely result in catastrophic data corruption.
 

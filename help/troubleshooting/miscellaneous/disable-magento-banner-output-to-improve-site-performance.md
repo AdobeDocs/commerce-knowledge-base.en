@@ -45,7 +45,7 @@ When the `Magento_Banner` module is enabled, Adobe Commerce sends Ajax requests 
 
 ## Solution
 
->![warning]
+>[!WARNING]
 >
 >We strongly recommend testing changes on [Staging/Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) first, before applying it to Production. We also recommend having a recent backup before any manipulations.
 

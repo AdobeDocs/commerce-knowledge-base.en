@@ -26,7 +26,7 @@ To see the amount of disk space used by the file system run the following comman
 
 You can delete files from the application's mount points, from your `/app` path or through `/mnt/shared`. They are two different ways to access the same files.
 
->![warning]
+>[!WARNING]
 >
 >**Never modify or delete the contents of `/data/exports`**.
 `/data/exports` is the underlying storage behind the shared filesystem, and it is managed by GlusterFS.

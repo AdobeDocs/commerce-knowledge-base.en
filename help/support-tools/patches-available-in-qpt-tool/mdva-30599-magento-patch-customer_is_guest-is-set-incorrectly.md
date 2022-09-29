@@ -59,7 +59,7 @@ The patch will be effective for all new guest carts. If you need to fix existing
 UPDATE quote SET customer_is_guest = 1 WHERE customer_id IS NULL;
 ```
 
->![warning]
+>[!WARNING]
 >
 >We strongly recommend testing the query on the Staging/Integration environment before running it in Production. We also recommend having a recent backup before any manipulations with DB.
 

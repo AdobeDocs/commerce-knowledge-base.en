@@ -1,12 +1,12 @@
 ---
 title: PHP mcrypt extension not installed properly
 labels: Magento Commerce,Magento Commerce Cloud,PHP,deprecated,extension,how to,mcrypt,Adobe Commerce,cloud infrastructure,on-premises
-description: ">![warning]"
+description: PHP mcrypt extension not installed properly
 ---
 
 # PHP mcrypt extension not installed properly
 
->![warning]
+>[!WARNING]
 >
 >PLEASE NOTE: The mcrypt library feature was [deprecated from PHP 7.1 and was removed from PHP 7.2](https://www.php.net/manual/en/intro.mcrypt.php).
 

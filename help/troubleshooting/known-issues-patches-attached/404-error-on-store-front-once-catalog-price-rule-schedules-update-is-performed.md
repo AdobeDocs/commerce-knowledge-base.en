@@ -65,7 +65,7 @@ For instruction, see [How to apply a composer patch provided by Adobe](https://s
 
 ## Fix the invalid links to staging in DB {#fix_links}
 
->![warning]
+>[!WARNING]
 >
 >We strongly recommend creating a database backup before any database manipulations. We also recommend testing queries on development environment first.
 

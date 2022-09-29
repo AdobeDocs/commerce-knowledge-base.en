@@ -36,7 +36,7 @@ Your site may become non-responsive, (if you are not already experiencing a site
 
 Follow these steps to identify and troubleshoot the cause.
 
->![warning]
+>[!WARNING]
 >
 >Because this is a critical alert, it is highly recommended you complete **Step 1** before you try to troubleshoot the issue (Step 2 onwards).
 

@@ -15,7 +15,7 @@ This article explains how to avoid performance issues when using MySQL triggers.
 
 ## Best practices
 
->![warning]
+>[!WARNING]
 >
 >Always test in the Staging environment prior to making any changes to the Production environment.
 
@@ -25,7 +25,7 @@ Hooking into the query’s transaction space, triggers add overhead to a parser 
 
 This additional overhead can have a negative performance on the site if many triggers are used.
 
->![warning]
+>[!WARNING]
 >
 >Adobe Commerce does not support any custom triggers in the Adobe Commerce database because custom triggers can introduce incompatibilities with future Adobe Commerce versions. Follow best practice in [Adobe Commerce Installation Guide > MySQL > General Guidelines](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html#instgde-prereq-mysql-intro) in our developer documentation.
 
