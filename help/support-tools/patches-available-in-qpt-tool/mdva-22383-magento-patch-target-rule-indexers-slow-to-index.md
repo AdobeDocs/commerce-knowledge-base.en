@@ -22,9 +22,9 @@ The MDVA-22383 patch solves the issue where reindexing the Product/Target Rule a
 
 Reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long.
 
- <span class="wysiwyg-underline">Prerequisites:</span> the issue happens when there is a large number of products.
+ <u>Prerequisites:</u> the issue happens when there is a large number of products.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Create a target rule with products to match the conditions, the conditions should add more product to collection and should have attributes (not categories or attribute set).
 1. Run the following command:
@@ -33,11 +33,11 @@ Reindexing the Product/Target Rule and Target Rule/Product indexers is taking to
        bin/magento indexer:reindex targetrule_product_rule
    ```
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 Reindexing is stuck; product saving is stuck.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 Reindexing is completed successfully.
 

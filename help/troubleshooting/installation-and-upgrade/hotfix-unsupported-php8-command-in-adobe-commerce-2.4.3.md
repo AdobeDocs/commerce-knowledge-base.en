@@ -11,6 +11,7 @@ This article provides a fix for when merchants try to upgrade to Adobe Commerce 
 *PHP Fatal error: Uncaught Error: Call to undefined function Magento\Framework\Filesystem\Directory\str_contains() in <...>/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php:74*
 
 The issue will be fixed in the scope of 2.4.4, 2.4.3-p1 and 2.3.7-p2 releases.
+
 ## Affected versions and products
 
 * Adobe Commerce (all deployment methods) when upgrading to 2.3.7-p1 or 2.4.3.

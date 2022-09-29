@@ -15,7 +15,7 @@ This article talks about a known issue in Commerce Admin when managing a B2B Quo
 
 ## Issue
 
- <span class="wysiwyg-underline">Preconditions</span>
+ <u>Preconditions</u>
 
 * Adobe Commerce 2.4.0 is installed.
 * B2B is installed.
@@ -25,7 +25,7 @@ This article talks about a known issue in Commerce Admin when managing a B2B Quo
 * Create a simple product (Example: name & **SKU** = TEST SIMPLE 1) that is not assigned to **Default (General)**.
 * Have the company admin request a quote using the simple product created above (Example: TEST SIMPLE 1).
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Go to Commerce Admin panel.
 1. Go to **Sales > Quotes**.
@@ -35,12 +35,12 @@ This article talks about a known issue in Commerce Admin when managing a B2B Quo
 1. Enter some valid quantity into the **Qty** input field.
 1. Click the **Add to Quote** button.
 
- <span class="wysiwyg-underline">Expected results</span>
+ <u>Expected results</u>
 
 * The **Products Not Added to the Quote** grid, containing the name and **SKU** of the created product, appears as expected.
 * After the product is configured, Admin is able to add it to the **Quote** by clicking the **Add Products to Quote** button, as expected.
 
- <span class="wysiwyg-underline">Actual results</span>
+ <u>Actual results</u>
 
 * The **Products Not Added to the Quote** grid, containing the name and **SKU** of the created product, does not appear.
 * The **Quote** page is stuck loading.

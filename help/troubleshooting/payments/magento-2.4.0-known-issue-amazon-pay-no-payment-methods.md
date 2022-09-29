@@ -12,7 +12,7 @@ This article provides a solution for an Adobe Commerce 2.4.0 known issue where p
 
 Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure v2.3.5.p1 and v2.4.0
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Navigate to the storefront.
 1. Add any item to the cart and proceed to the checkout.
@@ -21,11 +21,11 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure v2.3.5.p1 
 1. Click **Return to standard checkout**.
 1. Proceed to the checkout.
 
- <span class="wysiwyg-underline">Expected results:</span>
+ <u>Expected results:</u>
 
 Payment methods should be displayed after restarting checkout.
 
- <span class="wysiwyg-underline">Actual results:</span>
+ <u>Actual results:</u>
 
 Payment methods are missing.
 

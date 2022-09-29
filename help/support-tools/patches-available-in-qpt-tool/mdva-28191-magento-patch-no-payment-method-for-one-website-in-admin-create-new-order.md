@@ -20,7 +20,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.3 to 2
 
 When creating an order from the backend Adobe Commerce creates two quotes, one is inactive and the other is active. But the session holds the inactive quote id.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Go to **Admin Panel** > **Sales** > **Orders** and click the **Create New Order** button.
 1. Choose the customer you want to create the order for.
@@ -31,11 +31,11 @@ When creating an order from the backend Adobe Commerce creates two quotes, one i
     * Shipping Method
     * Order Comments
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
  Payment methods should be loaded in the Admin for all websites.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 No payment method available (neither is the message "*No Payment Information Required*" displayed) for this website, although payment methods may show when testing orders for other websites.
 

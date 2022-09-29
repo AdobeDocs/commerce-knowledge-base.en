@@ -26,17 +26,17 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. Create a simple product.
 1. Add a **drop-down type** custom option.
 1. Update the custom option via API: Send `PUT` request to `/V1/products/options/{optionId}`.
 
- <span class="wysiwyg-underline">Expected results</span>:
+ <u>Expected results</u>:
 
 The custom options are updated, as expected.
 
- <span class="wysiwyg-underline">Actual results</span>:
+ <u>Actual results</u>:
 
 New custom options are added, but the old custom options remain.
 

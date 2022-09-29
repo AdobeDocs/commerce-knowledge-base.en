@@ -21,17 +21,17 @@ All Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure versio
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Go to **Stores** > **Configuration** > **Customers** > **Customer Configuration** > **Create New Account Options** and set **Enable Automatic Assignment** to **Customer Group** to *Yes*.
 1. Go to **General** > **Store Information** > and set a valid Country and VAT Number.
 1. Click on **Validate VAT Number**.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 Validation is successful.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 The following error is displayed: "*Error during VAT Number verification.*"
 

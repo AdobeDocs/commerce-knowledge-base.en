@@ -17,7 +17,7 @@ This article describes a known Adobe Commerce 2.4.1 issue where customers get si
 
 Customers get signed in to the previously used Amazon accounts instead of being suggested to log in, when using Amazon Pay during checkout.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. On storefront, add any item to the shopping cart and proceed to guest checkout.
 1. Click the **Amazon Pay** button. Amazon.com sign in pop-up appears.
@@ -29,11 +29,11 @@ Customers get signed in to the previously used Amazon accounts instead of being 
 1. Add any item to the shopping cart again and proceed to checkout.
 1. Click the **Amazon Pay** button.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 You get automatically logged into the previously used (Step 3) Amazon account again.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 Amazon.com sign in pop-up appears and you can log in or create a new account for Amazon Pay.
 

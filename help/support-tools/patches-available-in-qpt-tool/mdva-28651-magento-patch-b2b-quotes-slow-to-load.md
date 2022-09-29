@@ -25,16 +25,16 @@ Performance issues on the customer quote list page:
 * a loop of loading each of the quotes from the plugin.
 * double loading of the quote items when the quote was converted to the snapshot.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Have 40+ quotes assigned to a customer.
 1. Log in and browse the **My Quotes** page.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 The response time to fully load the content of the **My Quotes** page (load of the page + data shown in the grid) is ~ 45 seconds.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 The response time to fully load the content of the **My Quotes** page should be less than 45 seconds.
 

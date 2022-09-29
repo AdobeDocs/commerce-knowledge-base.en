@@ -15,7 +15,7 @@ This article provides a solution for the issue where your Adobe Commerce 2.4.0 i
 
 ## Issue
 
-<span class="wysiwyg-underline">Prerequisites:</span>
+<u>Prerequisites:</u>
 A third-party extension with dependencies on APIs for the Store module in CLI commands is configured as required in `composer.json`. This causes the installation of Adobe Commerce 2.4.0 to fail with an error message: *The default website isn't defined. Set the website and try again.* displayed in the console.
 
 ## Cause

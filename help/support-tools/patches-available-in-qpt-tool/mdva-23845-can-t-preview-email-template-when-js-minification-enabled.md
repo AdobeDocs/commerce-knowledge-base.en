@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+ <u>Steps to reproduce</u> :
 
 1. Enable **JS minification** in **Admin > Stores > Configuration > JavaScript Settings > Minify JavaScript Files** = *Yes* .
 1. Switch Magento to production mode.
@@ -34,11 +34,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 1. Click the **Save Template** button.
 1. In the email templates grid, click on **Preview** link in the **Actions** column.
 
- <span class="wysiwyg-underline">Expected results</span> :
+ <u>Expected results</u> :
 
 The email template preview appears in the opened popup window, as expected.
 
- <span class="wysiwyg-underline">Actual results</span> :
+ <u>Actual results</u> :
 
 The email template preview does not appear in the opened popup window. The popup window is empty, and JS errors may appear.
 

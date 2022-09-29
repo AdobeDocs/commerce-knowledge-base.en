@@ -22,11 +22,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Prerequisite</span>:
+ <u>Prerequisite</u>:
 
 Install a fresh Magento instance with sample data.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. Log in to **Admin panel** > **Marketing** > **Catalog Price Rule** > **Add New Rule**, make the following settings:
    1. Set the **Rule Name**.
@@ -44,11 +44,11 @@ Install a fresh Magento instance with sample data.
 
    `php    bin/magento cron:run`
 
- <span class="wysiwyg-underline">Expected results</span>:
+ <u>Expected results</u>:
 
 The prices of the products in category 4 "Bags" should be reduced by 10% of original price, as it was set by the catalog price rule, as expected.
 
- <span class="wysiwyg-underline">Actual results</span>:
+ <u>Actual results</u>:
 
 No price changes occur even though the catalog price rule is active.
 

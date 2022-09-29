@@ -20,17 +20,17 @@ This article provides a solution for the issue where the Magento Order Managemen
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Install Adobe Commerce on your local environment.
 1. Set up ngrok to create a tunnel to expose your local server.
 1. Try [connecting to OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 Connection established successfully.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 MCOM seems to timeout when trying to callback to the ngrok URL.
 

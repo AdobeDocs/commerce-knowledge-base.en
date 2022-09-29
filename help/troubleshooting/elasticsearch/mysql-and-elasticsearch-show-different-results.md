@@ -16,7 +16,7 @@ This article provides a patch for the known Adobe Commerce on cloud infrastructu
 
 Your catalog search results with the same filter set differ depending on the search engine being used, MySQL or ElasticSearch.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+ <u>Steps to reproduce</u> :
 
 1. Install and configure ElasticSearch.
 1. On the storefront, select one of the filters.
@@ -25,10 +25,10 @@ Your catalog search results with the same filter set differ depending on the sea
 1. On the storefront, select one of the filters.
 1. Make a note of the number of matching products.
 
- <span class="wysiwyg-underline">Expected result</span>:
+ <u>Expected result</u>:
  The number of matching products is the same.
 
- <span class="wysiwyg-underline">Actual result</span>:
+ <u>Actual result</u>:
  The number of matching products is different.
 
 ## Patch

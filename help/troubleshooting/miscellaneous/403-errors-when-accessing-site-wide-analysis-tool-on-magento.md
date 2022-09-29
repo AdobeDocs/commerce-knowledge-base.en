@@ -37,6 +37,7 @@ To make sure that the Site-Wide Analysis Tool has the proper access to your appl
 curl -sIL -X GET <store URL>/swat/key/index | grep HTTP
 HTTP/2 403
 ```
+
 Take steps depending on the response code you get.
 
 ### 403 Forbidden response code

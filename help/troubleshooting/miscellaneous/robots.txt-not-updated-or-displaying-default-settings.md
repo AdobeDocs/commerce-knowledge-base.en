@@ -16,16 +16,16 @@ The article provides a solution for when you have configured `robots.txt` correc
 
 Cannot change the default `robots.txt` setting.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Access the Admin panel.
 1. Add content to **Content** > Design > **Configuration** > **Edit Custom instruction of `robots.txt`** file such as the text "hello" and save the changes.
 1. Visit the `robots.txt` url.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 `robots.txt` has the saved text.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
  `robots.txt` file does not change.
 

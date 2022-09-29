@@ -22,18 +22,18 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. Log in to the Admin.
 1. Set **Locale** = *en\_GB* (UK) for a user.
 1. Edit a customer.
 1. Select a date of birth after the 12th of a month this year.
 
- <span class="wysiwyg-underline">Expected results</span>:
+ <u>Expected results</u>:
 
 The date of birth is valid, so the customer information can be saved, as expected.
 
- <span class="wysiwyg-underline">Actual results</span>:
+ <u>Actual results</u>:
 
 The customer information cannot be saved because a validation error occurs:
 

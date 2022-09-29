@@ -33,11 +33,11 @@ There are three solutions:
 * Ensure lighter requests (cache requests or move to customers' private content).
 * Reduce the number of requests.
 
-<span class="wysiwyg-underline">Ensure lighter requests (cache requests or move to customers' private content)</span>
+<u>Ensure lighter requests (cache requests or move to customers' private content)</u>
 
 If there are third-party AJAX requests that are triggered on each page, attempt to cache these requests or move them to customers' private content. The merchant can do this by making sure that custom AJAX requests are called using the GET HTTP methods. It will make these requests cacheable by Fastly. If there are custom AJAX requests that should not be cached, they should be refactored according to private-content functionality. For steps, refer [Private Content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html) in our developer documentation.
 
- <span class="wysiwyg-underline">Reduce the number of requests</span>
+ <u>Reduce the number of requests</u>
 
 * Disable the persistent shopping cart, as it can increase the number of `customer/section/load` requests. Follow the steps in [Persistent shopping cart paths](https://devdocs.magento.com/guides/v2.3/config-guide/prod/config-reference-most.html#persistent-shopping-cart-paths) in our developer documentation to see if persistent shopping cart is enabled.
 * If you need to reload or invalidate content in `sections.xml` follow the steps in [Private content: Invalidate private content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html#invalidate-private-content) in our developer documentation. Please make sure that you are not using the `customerData.reload()` method directly in your customizations.

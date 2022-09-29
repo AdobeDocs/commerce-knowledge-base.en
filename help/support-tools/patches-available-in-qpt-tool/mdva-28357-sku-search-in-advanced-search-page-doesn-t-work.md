@@ -21,16 +21,16 @@ The MDVA-28357 solves the issue where search by a product SKU in the Advanced Se
 
 In advanced search, searching using a SKU queries the SKU field using a wildcard. But a wildcard can only be used with `sku.keyword`, so this does not return the expected product.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Go to Advanced Search page.
 1. Search by a SKU number.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
  Error message displays: *We can't find any items matching these search criteria. Modify your search*.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
  One product item displays with a message: *1 item were found using the following search criteria*  *SKU: XX-XXXX*
 

@@ -26,18 +26,18 @@ Adobe Commerce (all deployment methods) 2.4.2
 
 Incorrect product count in the admin product grid.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. Create simple and configurable products with the same phrase in the name (e.g. "red shirt" / "red shirt xs").
 1. On the *Admin* sidebar, go to **Catalog** > **Products** > search for this phrase.
 1. Click **Filters**. Set Type to *Configurable Product*.
 1. Click **Apply Filters**.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 Correct number in matched product counter.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 Incorrect number in matched product counter.
 

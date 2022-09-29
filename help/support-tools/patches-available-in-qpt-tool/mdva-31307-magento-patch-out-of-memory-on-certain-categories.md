@@ -10,29 +10,29 @@ The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consu
 
 ## Affected products and versions
 
- **The patch is created for Adobe Commerce version:** Adobe Commerce on cloud infrastructure 2.4.0
+**The patch is created for Adobe Commerce version:** Adobe Commerce on cloud infrastructure 2.4.0
 
- **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.0 - 2.4.1-p1
+**Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.0 - 2.4.1-p1
 
- >![info]
- >
- >Note: the patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
+>[!NOTE]
+>
+>The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
 Fixes the issue where there are *Out of memory* errors on certain categories due to problems with dynamic CSP whitelisting for cached blocks.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Generate small profile fixtures (`bin/magento setup:performance:generate-fixtures`).
 1. Open all category pages in different tabs.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 <pre>[date and time] PHP Fatal error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 90112 bytes) in Unknown on line 0
 [date and time] PHP Fatal error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 33554440 bytes) in /app/<project id>/vendor/magento/module-csp/Model/Collector/DynamicCollector.php on line 31</pre>
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 All the pages have opened correctly.
 

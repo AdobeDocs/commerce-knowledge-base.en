@@ -19,7 +19,7 @@ Prerequisites:
 
 Enable **Vertex Address Cleansing**. For steps, refer to [Configuring Storefront Address Cleansing](https://docs.magento.com/user-guide/tax/vertex-configure-address.html) in our user guide.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. Create an account and log in.
 1. Add an item to the cart by clicking **Add to Cart**. Click on the Cart icon and then click **Proceed to Checkout**.
@@ -28,7 +28,7 @@ Enable **Vertex Address Cleansing**. For steps, refer to [Configuring Storefront
 1. If the Address Validation suggests different address information, click **Update address** and click **Next**.
 1. Uncheck the **My billing and shipping address are the same** checkbox.
 
-<span class="wysiwyg-underline">First scenario:</span>
+<u>First scenario:</u>
 
 Follow the [above six steps](https://support.magento.com/hc/en-us/articles/360050139631#first_sixth) and then:
 
@@ -39,15 +39,15 @@ Follow the [above six steps](https://support.magento.com/hc/en-us/articles/36005
 1. Select the address from address dropdown.
 1. Click on the **Update** button.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 The old validation message/suggestion message is removed.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 The validation message/suggestion *"We did not find a valid address Postcode : XXXXX-XXXX Street : XXX City street XXX"* message is **NOT** removed. The same issue occurs if you enter an invalid address in the form.
 
-<span class="wysiwyg-underline">Second scenario:</span>
+<u>Second scenario:</u>
 
 Follow the [above six steps](https://support.magento.com/hc/en-us/articles/360050139631#first_sixth) and then:
 
@@ -56,11 +56,11 @@ Follow the [above six steps](https://support.magento.com/hc/en-us/articles/36005
 1. Click on the **Update** button (do not click on the **Update address** button of vertex address suggestion).
 1. Check the ***My billing and shipping address are the same*** drop-down.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 The old validation message/suggestion message is removed.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 The validation message/suggestion *"We did not find a valid address Postcode : XXXXX-XXXX Street  XXX City street XXX"* message is **NOT** removed. The same issue occurs if you enter an invalid address in the form.
 

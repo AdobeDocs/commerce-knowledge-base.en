@@ -17,29 +17,29 @@ This article provides a patch for the known Adobe Commerce 2.4.0 issue, where th
 
 ### Scenario 1: Braintree payment method is configured
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 In Commerce Admin, go to **Sales** > **Braintree Virtual Terminal** . ** **
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The **Braintree Virtual Terminal** page loads with proper UI.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 The UI of the **Braintree Virtual Terminal** page is broken.
 
 ### Scenario 2: Braintree payment method is configured
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 In Commerce Admin, go to **Sales** > **Braintree Virtual Terminal** . ** **
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The **Braintree Virtual Terminal** page loads with proper UI and a warning is displayed informing that Braintree is not yet configured.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 The UI of the **Braintree Virtual Terminal** page is broken and no warning is displayed.
 

@@ -14,7 +14,7 @@ This article provides a workaround for a known issue in Adobe Commerce 2.4.0 for
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Navigate to the storefront and login as a customer.
 1. Add at least two products to the **Shopping Cart**.
@@ -29,12 +29,12 @@ This article provides a workaround for a known issue in Adobe Commerce 2.4.0 for
 1. Click the **Go to Review Your Order** button.
 1. Click the **Remove** link for any address to remove the reward points.
 
- <span class="wysiwyg-underline">Expected results</span>
+ <u>Expected results</u>
 
 * The **Shopping Cart** page should appear.
 * The “*You removed the reward points from this order.* ” message should appear.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 A "*404 Not Found* ” error page appears.
 

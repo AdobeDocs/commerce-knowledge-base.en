@@ -22,11 +22,11 @@ The MDVA-23426 Magento patch fixes the issue where emails are sent as attachment
 
 Emails are received with a blank body, and the content is included as an attachment.
 
- <span class="wysiwyg-underline">Prerequisites:</span> Outlook/Exchange is being used as the client/server combination.
+ <u>Prerequisites:</u> Outlook/Exchange is being used as the client/server combination.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 1. Submit an order, the order notification or shipment notification is sent.2. The email is received.
+ <u>Steps to reproduce:</u> 1. Submit an order, the order notification or shipment notification is sent.2. The email is received.
 
- <span class="wysiwyg-underline">Actual result:</span> The email shows with a blank body, and the content included as an ATT\*-labeled attachment to the email. <span class="wysiwyg-underline">Expected result:</span>
+ <u>Actual result:</u> The email shows with a blank body, and the content included as an ATT\*-labeled attachment to the email. <u>Expected result:</u>
 
 The email is received with no attachment and the body of the email contains the content.
 

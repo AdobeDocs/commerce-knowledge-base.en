@@ -12,7 +12,7 @@ This article provides a patch for the known Adobe Commerce on cloud infrastructu
 
 When customers double-click the *Remove* link in the shopping cart, trying to remove a product from the shopping cart, they get a blank page with the following error message: *"This page isn’t working. HTTP ERROR 500".* The same issue happens if a customer opens two browser tabs with the shopping cart page and removes the product first in one tab, then in the second one.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+ <u>Steps to reproduce</u> :
 
 1. Add a product to shopping cart on the storefront.
 1. Navigate to the shopping cart page.
@@ -26,9 +26,9 @@ OR
 1. Remove the product from the cart.
 1. Open the second tab and remove the product again.
 
- <span class="wysiwyg-underline">Expected result</span> : The product is removed from the cart without errors.
+ <u>Expected result</u> : The product is removed from the cart without errors.
 
- <span class="wysiwyg-underline">Actual result</span> : The product is removed with the error: *"This page isn’t working. HTTP ERROR 500"* error message.
+ <u>Actual result</u> : The product is removed with the error: *"This page isn’t working. HTTP ERROR 500"* error message.
 
 ## Patch
 

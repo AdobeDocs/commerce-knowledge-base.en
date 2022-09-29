@@ -21,11 +21,11 @@ The MDVA-28202 patch solves the issue where out of stock products aren't filtere
 
 Out of stock products do not filter properly using **Price** filter in the Commerce Admin.
 
- <span class="wysiwyg-underline">Prerequisite:</span>
+ <u>Prerequisite:</u>
 
 * Set **Display Out of Stock Products** = "*Yes*" under **Stores > Configuration > CATALOG > Inventory > Stock Options**.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Create a configurable product with two simple products (Example: set **Price** = *$1500*).
 1. Both simple products should "out of stock" while creating the configurable product.
@@ -37,11 +37,11 @@ Out of stock products do not filter properly using **Price** filter in the Comme
 1. Notice that the **Price** filter has an option of " *$0.00 - $9.99* ".
 1. Click on this above **Price** filter option and set the **Price** = *$1500*, and you will get the configurable product we created above.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The product filters under the correct price range as expected.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 The product falls under wrong price range filter.
 

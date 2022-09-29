@@ -29,9 +29,10 @@ This payment method is for merchants with On-Premises licenses and/or quarterly 
 1. Go to **My Account** > **My Products and Services** > Select *Your Specific Product Purchased* > **Manage** (located to the right of the Product) > **Show Details** (located to the right of the Subscription).
 
 1. Click the **Pay Now** button to enter your credit card/PayPal details and complete your payment.
-    >![info]
+
+    >[!NOTE]
     >
-    >Note: We do not accept partial credit card or PayPal payments—by utilizing the **Pay Now** feature, you agree to be charged for the full invoice amount(s).
+    >We do not accept partial credit card or PayPal payments—by utilizing the **Pay Now** feature, you agree to be charged for the full invoice amount(s).
 
 1. If you encounter an error or have any questions regarding the **Pay Now** feature, please contact [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) for further assistance.
 
@@ -53,9 +54,9 @@ This payment method is for merchants with monthly billing (except for On-Premise
 
 1. Click **Save**.
 
-1. >![info]
+1. >[!NOTE]
    >
-   >Important Note: Once you click **Save** all open/unpaid invoices will be charged in full.
+   >Once you click **Save** all open/unpaid invoices will be charged in full.
 
 1. If you encounter an error or have any questions regarding the **Autopay** feature, please contact [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) for further assistance.
 
@@ -68,11 +69,8 @@ This payment method is for merchants with monthly billing (except for On-Premise
 **A:** As a primary account holder, you can add a new card/account by doing the following:
 
 1. Go to **My Account** > **Account Settings** > **Billing and Payments**.
-
 1. Select PayPal or Credit Card, then click **Add a new card** and enter the details.
-
 1. Once successfully added, click **Set as Default** next to the new card. You will be required to enter the CVV.
-
 1. Delete the old card/account by clicking **Delete Card** to the right of the card. Only payment methods that are not set as the default can be deleted.
 
 >[!NOTE]

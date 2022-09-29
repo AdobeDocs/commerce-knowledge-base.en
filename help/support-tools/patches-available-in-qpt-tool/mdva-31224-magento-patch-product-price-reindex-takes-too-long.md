@@ -21,17 +21,17 @@ The MDVA-31224 patch solves the issue when product price reindex takes too long 
 
 Product price reindex takes too long to complete or never completes.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Create 6000 bundled products with 15 options.
 1. Create 1 bundled product with 30 options.
 1. Run price reindex from CLI:     `bin/magento indexer:reindex catalog_product_price`
 
- <span class="wysiwyg-underline">Expected results:</span>
+ <u>Expected results:</u>
 
 Product price reindex takes 1.5 hours or more to complete.
 
- <span class="wysiwyg-underline">Actual results:</span>
+ <u>Actual results:</u>
 
 Product price reindex takes a short time (a minute or two) to complete.
 

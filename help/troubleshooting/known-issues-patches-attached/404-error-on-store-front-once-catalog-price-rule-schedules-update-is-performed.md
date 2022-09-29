@@ -12,7 +12,7 @@ This article provides a patch and the required steps to fix the known Adobe Comm
 
 Storefront pages become unavailable, returning 404 error. The issue appears after the active catalog price rule update becomes due, providing that the starting date of this update was edited after initial creation.
 
-<span class="wysiwyg-underline">Steps to reproduce</span>:
+<u>Steps to reproduce</u>:
 
 1. In the Commerce Admin, create a new Catalog Price Rule under **Marketing** > **Promotions** > **Catalog Price Rule**.
 1. In the **Catalog Price Rule** grid, click **Edit,** schedule a new Update and set **Status** to *Active.*
@@ -20,11 +20,11 @@ Storefront pages become unavailable, returning 404 error. The issue appears afte
 1. Select the recently created update and change its starting time.
 1. Save the changes.
 
-<span class="wysiwyg-underline">Expected result</span> :
+<u>Expected result</u> :
 
 When the Update start date becomes effective, the catalog price rule is applied successfully.
 
-<span class="wysiwyg-underline">Actual result</span> :
+<u>Actual result</u> :
 
 When the Update start date becomes effective, all catalog and products on the storefront become unavailable returning the 404 error.
 
@@ -92,7 +92,7 @@ Take the following steps to fix the rows with invalid links to the `staging_upda
     UPDATE flag SET flag_data=REPLACE(flag_data, '%invalid_id%', '%new_valid_id%') WHERE flag_code='staging';
     ```
 
- <span class="wysiwyg-underline">Example:</span>
+ <u>Example:</u>
 
 ```sql
 SELECT flag_data FROM flag WHERE flag_code = 'staging'; <code class="language-bash">Response < 2.2 version</code>

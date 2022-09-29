@@ -16,7 +16,7 @@ This article provides a patch for the Adobe Commerce 2.4.5 issue where an Admin 
 
 ## Issue
 
- <u>Steps to reproduce</u>:
+<u>Steps to reproduce</u>:
 
 1. The core Braintree integration is used (**Stores** > **Configurations** > **Sales** > **Payment Method** > **Braintree**).
 1. Using Luma Storefront, place an order.
@@ -27,13 +27,13 @@ This article provides a patch for the Adobe Commerce 2.4.5 issue where an Admin 
 
 Admin users can successfully create orders and reorders for customers when the Braintree payment method is enabled.
 
- <u>Actual result</u>:
+<u>Actual result</u>:
 
- Admin users can't create orders nor reorders for customers when the Braintree payment method is enabled, and returns the following error:
+Admin users can't create orders nor reorders for customers when the Braintree payment method is enabled, and returns the following error:
 
- ```bash
+```bash
 report.CRITICAL: Error: Call to a member function getMethodInstance() on null in /app/vendor/paypal/module-braintree-core/Block/Form.php:174
- ```
+```
 
 ## Cause
 
@@ -47,11 +47,11 @@ Apply the patch provided in this article.
 
 The patch is attached to this article. To download it, click the following link:
 
- [BUNDLE-3137-composer.patch.zip](assets/BUNDLE-3137-composer.patch.zip)
+[BUNDLE-3137-composer.patch.zip](assets/BUNDLE-3137-composer.patch.zip)
 
- >![info]
- >
- >Note: Additionally for Adobe Commerce on cloud infrastructure merchants: Adobe has included the fix in the Cloud Patches for Commerce version 1.0.18. Please refer to [Cloud Patches for Commerce release notes](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html) in our developer documentation to find instructions on applying the latest package.
+>[!NOTE]
+>
+>Additionally for Adobe Commerce on cloud infrastructure merchants: Adobe has included the fix in the Cloud Patches for Commerce version 1.0.18. Please refer to [Cloud Patches for Commerce release notes](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html) in our developer documentation to find instructions on applying the latest package.
 
 ### Compatible Adobe Commerce versions:
 

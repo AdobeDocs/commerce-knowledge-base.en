@@ -20,21 +20,21 @@ The MDVA-31168 patch solves the issue where the product export CSV file does not
 
 ## Issue
 
- <span class="wysiwyg-underline">Prerequisites</span>:
+ <u>Prerequisites</u>:
 
 Install Adobe Commerce with sample data.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Create a downloadable product, and assign it to **Bags** category.
 1. Start an export for all products.
 1. Run following command from CLI:    ```php    bin/magento queue:consumers:start exportProcessor --single-thread --max-messages=10000    ```
 
- <span class="wysiwyg-underline">Expected results:</span>
+ <u>Expected results:</u>
 
 The product export CSV file with all products is displayed in the file list in Admin, as expected.
 
- <span class="wysiwyg-underline">Actual results:</span>
+ <u>Actual results:</u>
 
 The product export CSV file with all products is not displayed in the list in Admin, though the file with headers only will be generated in the `/var` folder on the server.
 

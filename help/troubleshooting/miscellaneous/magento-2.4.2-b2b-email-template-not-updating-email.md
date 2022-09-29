@@ -16,7 +16,7 @@ This article describes a known Adobe Commerce 2.4.2 B2B issue where updating som
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. Company Admin creates a PO (Purchase Order) in the frontend.
 1. Check the Auto-Approved email. The **customer name** / **currency rate** should be expected values.
@@ -24,11 +24,11 @@ This article describes a known Adobe Commerce 2.4.2 B2B issue where updating som
 1. Customer Admin creates another PO in Admin.
 1. Check the Auto-Approved email.
 
- <span class="wysiwyg-underline">Expected results:</span>
+ <u>Expected results:</u>
 
  The customer name and currency symbol are changed in emails, and have their new values as expected.
 
- <span class="wysiwyg-underline">Actual results</span>:
+ <u>Actual results</u>:
 
  The customer name and currency symbol are not changed in emails, and have their previous values.
 

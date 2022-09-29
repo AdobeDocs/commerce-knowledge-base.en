@@ -14,17 +14,17 @@ Adobe Commerce 2.3.x
 
 ## Issue {#symptoms}
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 (Prerequisites: make sure the store is not in [maintenance mode](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)).
 
 Navigate to your Commerce Admin or storefront in a web browser.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 The page loads.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 You get the HTTP 503 (Service Unavailable) error. The Apache `error.log` includes the following message:
 

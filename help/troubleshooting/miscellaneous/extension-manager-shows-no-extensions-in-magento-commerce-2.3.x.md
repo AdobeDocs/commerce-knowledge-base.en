@@ -18,17 +18,17 @@ When you purchase extensions via the Commerce Marketplace, you are unable to ins
 
 The **Workaround** for the issue is to use the command line Adobe Commerce installation as shown in [General CLI installation](https://devdocs.magento.com/extensions/install/) in our developer documentation.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. Purchase an extension via the Commerce Marketplace.
 1. Add your extension's access keys and sync to the Marketplace.
 1. Go to the Extension Manager section of the Admin.
 
- <span class="wysiwyg-underline">Expected result</span>:
+ <u>Expected result</u>:
 
 The extension appears on the Extension Manager section of the Commerce Admin.
 
- <span class="wysiwyg-underline">Actual result</span>:
+ <u>Actual result</u>:
 
 **No extension appears on the Extension Manager section of the Commerce Admin, similar to the image below:**
 

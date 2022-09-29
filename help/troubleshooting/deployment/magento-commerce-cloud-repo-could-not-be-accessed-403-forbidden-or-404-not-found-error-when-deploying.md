@@ -18,11 +18,11 @@ This article discusses how to resolve the Adobe Commerce on cloud infrastructure
 
 Error message on deployment indicating the repo URL could not be accessed.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 Trigger deployment manually or by performing a merge, push, or synchronization of your environment.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 Deployment gets stuck. In the deployment error log in the Project UI, an error message similar to the following is displayed:
 
@@ -30,7 +30,7 @@ Deployment gets stuck. In the deployment error log in the Project UI, an error m
 
 (Click the "Failure" icon in the Project UI to see the log.)
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 Deployment is completed successfully.
 

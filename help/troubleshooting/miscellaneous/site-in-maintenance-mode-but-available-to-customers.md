@@ -14,16 +14,16 @@ This article provides a fix for when maintenance mode is enabled (an Adobe Comme
 
 ## Issue
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. Enable the maintenance mode for the site.
 1. Navigate to the storefront.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 The maintenance page is displayed.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 Storefront pages are displayed as usual.
 

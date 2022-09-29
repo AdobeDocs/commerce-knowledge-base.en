@@ -13,9 +13,9 @@ This article describes a known Adobe Commerce 2.4.0 issue with Klarna payment me
 * Adobe Commerce on-premises 2.4.0
 * Adobe Commerce on cloud infrastructure 2.4.0
 
-<span class="wysiwyg-underline">Prerequisites:</span> Klarna payment method is enabled.
+<u>Prerequisites:</u> Klarna payment method is enabled.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. In the Commerce Admin, go to **Stores** > **Configuration** > **Sales** > **Payment Methods** > **Klarna** > **Klarna On-Site Messaging**.
 1. Set **Enable** to *Yes*.
@@ -23,11 +23,11 @@ This article describes a known Adobe Commerce 2.4.0 issue with Klarna payment me
 1. Save configuration by clicking **Save Config**.
 1. Go to storefront and navigate to any product page.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 The page loads successfully with default design theme applied for Klarna on-site messaging.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 A blank page is displayed.
 

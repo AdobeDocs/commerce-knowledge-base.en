@@ -1,7 +1,7 @@
 ---
 title: ElasticSuite tracking indices causes problems with Elasticsearch
 labels: ElasticSuite 2.8.0,Elasticsearch problem,ElasticSuite tracking indices,how to,tracking indices,Adobe Commerce
-description: ">![info]"
+description: This article talks about the issue of Elasticsearch memory problems caused by tracking indices produced by the ElasticSuite plugin.
 ---
 
 # ElasticSuite tracking indices causes problems with Elasticsearch

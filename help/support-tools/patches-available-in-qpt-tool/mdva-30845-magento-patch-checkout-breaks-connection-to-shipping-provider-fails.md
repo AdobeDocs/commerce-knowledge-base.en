@@ -22,7 +22,7 @@ The MDVA-30845 patch fixes the issue where the *Sorry, no quotes are available f
 
 During checkout, the *Sorry, no quotes are available for this order at this time* error is displayed when failing to connect to UPS XML/USPS/DHL, and no other shipping method is not available.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. Create a product.
 1. Enable and configure UPS XML shipping method.
@@ -31,11 +31,11 @@ During checkout, the *Sorry, no quotes are available for this order at this time
 1. Edit your hosts file in order to prevent USP connecting to its gateway.
 1. On the store front, try to get rates and proceed to checkout again.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 *Sorry, no quotes are available for this order at this time* error is displayed, and flat rate shipping is not available.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 No error message displayed and flat rate shipping is available.
 

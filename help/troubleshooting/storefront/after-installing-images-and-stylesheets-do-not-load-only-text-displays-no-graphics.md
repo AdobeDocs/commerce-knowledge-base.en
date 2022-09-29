@@ -15,16 +15,16 @@ This article describes the possible reasons and solutions for the issue where st
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Install Adobe Commerce.
 1. Navigate to the storefront or Admin.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 Styles are applied, no UI element looks like missing styles.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 Styles are not applied correctly, graphics is missing.
 

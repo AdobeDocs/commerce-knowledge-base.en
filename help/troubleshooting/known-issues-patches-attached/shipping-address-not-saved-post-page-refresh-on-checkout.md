@@ -12,7 +12,7 @@ This article provides a patch for the known Adobe Commerce 2.2.3 issue where the
 
 Customers go through guest checkout and complete all forms including the shipping address. They get to the Review and payments section and reload the page. The form is empty, and they need to re-enter the shipping address again. Persistent shopping cart functionality is enabled.
 
-<span class="wysiwyg-underline">Steps to reproduce</span> :
+<u>Steps to reproduce</u> :
 
 **Prerequisites**: The persistent shopping cart functionality is enabled. Check if it is enabled in the Admin, under **Stores** > **Configuration** > **Customers** or **Stores** > **Configuration** > **Sales,** depending on your Adobe Commerce version.
 
@@ -24,11 +24,11 @@ Customers go through guest checkout and complete all forms including the shippin
 1. Double check that you see the shipping address in the Ship to section.
 1. Refresh the page.
 
-<span class="wysiwyg-underline">Expected result</span>:
+<u>Expected result</u>:
 
 You are able to continue checkout and all data is saved.
 
-<span class="wysiwyg-underline">Actual result</span>:
+<u>Actual result</u>:
 
 Shipping address is empty, you need to-renter it.
 

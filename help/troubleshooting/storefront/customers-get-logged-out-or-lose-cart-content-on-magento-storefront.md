@@ -15,17 +15,17 @@ This article provides a solution and workaround for the issue, where customers g
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. The customer adds products to cart on storefront and proceeds to checkout.
 1. The customer is redirected to the third-party site for payment/shipping or other information/service.
 1. The customer is redirected back to the store.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 Customer redirected to the empty shopping cart or a blank page.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 Customer redirected to a success payment page (or other success page), without losing the checkout data and progress.
 

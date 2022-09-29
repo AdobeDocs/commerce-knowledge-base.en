@@ -16,7 +16,7 @@ This article provides a solution for database connection errors in the `var/log/
 
 When a MySQL client or the [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) server receives a packet bigger than [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes, it issues an [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) error (which can be seen in the `exception.log`) and closes the connection. With some clients, you may also get a *Lost connection to MySQL server during query* error if the communication packet is too large.
 
-<span class="wysiwyg-underline">Steps to reproduce</span>
+<u>Steps to reproduce</u>
 
 A variety of tasks can produce this issue. This can include trying to import a large number of products into Adobe Commerce or transactional queries sending back too much data. The result is database connection errors in `var/log/exception.log` and other problems, like products not being successfully imported.
 

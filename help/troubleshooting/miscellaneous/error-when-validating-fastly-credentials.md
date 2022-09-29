@@ -30,9 +30,9 @@ User gets an error when validating the Fastly credentials.
 
     To learn how to submit a support ticket, refer to [Adobe Commerce Help Center User Guide > SUPPORT TICKETS](https://support.magento.com/hc/en-us/articles/360000913794#support-tickets) in our support knowledge base.
 
-    >![info]
+    >[!NOTE]
     >
-    >Note: Never share any passwords or valid/active API tokens directly in the ticket as we will have to revoke the current token and generate a new one for security reasons.
+    >Never share any passwords or valid/active API tokens directly in the ticket as we will have to revoke the current token and generate a new one for security reasons.
 
 ## Related readings in our developer documentation:
 

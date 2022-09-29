@@ -12,7 +12,7 @@ This article provides a patch for the known Adobe Commerce 2.2.3 issue where edi
 
 When you change the end date or time of an existing catalog price rule schedule update, duplicate entries are created in the `catalogrule` database table. As a result, the `catalogrule_rule` reindex fails with the following error in the exception log: *Item with the same ID already exists*.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 Prerequisites: The `catalogrule_rule` indexer is set to *[Update on Schedule](https://support.magento.com/hc/en-us/articles/360040227191-Indexers-Update-On-Schedule-optimizes-Magento-performance-)* mode.
 
@@ -22,11 +22,11 @@ Prerequisites: The `catalogrule_rule` indexer is set to *[Update on Schedule](ht
 1. Save the Update.
 1. Run the reindex command for the `catalogrule_rule` indexer.
 
- <span class="wysiwyg-underline">Expected result</span>:
+ <u>Expected result</u>:
 
  The `catalogrule_rule` indexer is reindexed successfully. No duplicate entries in the `catalogrule` table.
 
- <span class="wysiwyg-underline">Actual result</span>:
+ <u>Actual result</u>:
 
  Reindex fails with the following error: *Item with the same ID already exists*, because there are duplicate entries in the `catalogrule` table.
 

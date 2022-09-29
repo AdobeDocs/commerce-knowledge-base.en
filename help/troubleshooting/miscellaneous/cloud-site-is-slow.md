@@ -14,17 +14,17 @@ This article provides recommendations on how to make your Adobe Commerce on clou
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Visit your Adobe Commerce store.
 1. Browse a category page.
 1. Add a product to the cart.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 The site is responsive and adding a product to the cart is fast.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 The site is slow, or the category pages are fast but the cart page is slow.
 
@@ -48,7 +48,7 @@ Fastly generally respects the response headers coming from the application; howe
 
 >[!WARNING]
 >
->Note that Fastly changes response headers, so checking the main URL with cURL or the web browser will not necessarily show which headers are being emitted by the application. It’s common for Fastly itself to respond to web browsers with “no cache” headers, but for the web application itself to allow caching and for Fastly to properly cache the item. So the "cache-control" and "pragma" headers information will not be useful in this case.
+>Note that Fastly changes response headers, so checking the main URL with cURL or the web browser will not necessarily show which headers are being emitted by the application. It's common for Fastly itself to respond to web browsers with "no cache" headers, but for the web application itself to allow caching and for Fastly to properly cache the item. So the "cache-control" and "pragma" headers information will not be useful in this case.
 
 #### Troubleshooting for pages with high traffic
 
@@ -58,10 +58,15 @@ If the index page has a low hit rate, you can fix it by reducing the amount of h
 
 To check the overall cache hit rate:
 
-<ol><li>
-<a href="http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds">Get Fastly credentials</a> for your Adobe Commerce on cloud infrastructure environment.
-</li><li>Run the following Linux/macOS cURL command to check the hit rate for your site over the last 30 minutes, replacing<code><API_TOKEN></code>and<code><SERVICE_ID></code> with the values for your Fastly credentials:<pre><code class="language-bash">curl -H "Fastly-Key: <API_TOKEN>" https://api.fastly.com/stats/service/<SERVICE_ID>/field/hit_ratio?by=minute | json_pp</code></pre>You can also check historical hit rates over the last day or month by changing the time range query option from<code>?by=minute</code>to<code>?by=hour</code>or<code>?by=day</code>. For more information on getting Fastly cache stats, see <a href="https://docs.fastly.com/api/stats#Query">Query Options</a> in the Fastly documentation.<div class="info"><blockquote>The <code>| json_pp</code> option pretty prints the JSON response output using the <code>json_pp</code> utility. If you get a<em>'json_pp not found'</em> error, install the <code>json_pp</code> utility, or use another command line tool for JSON pretty printing. Alternatively, delete the <code>| json_pp</code> parameter and run the command again. The JSON response output is not formatted, but you can run it through a JSON beautifier to clean it up.</blockquote></div>
-</li></ol>
+1. [Get Fastly credentials](http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds) for your Adobe Commerce on cloud infrastructure environment.
+1. Run the following Linux/macOS cURL command to check the hit rate for your site over the last 30 minutes, replacingand with the values for your Fastly credentials:
+    
+   `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
+    
+   You can also check historical hit rates over the last day or month by changing the time range query option from `?by=minute` to `?by=hour` or `?by=day`. For more information on getting Fastly cache stats, see [Query Options](https://docs.fastly.com/api/stats#Query) in the Fastly documentation.
+    
+   The `| json_pp` option pretty prints the JSON response output using the `json_pp` utility. If you get a_'json\_pp not found'_ error, install the `json_pp` utility, or use another command line tool for JSON pretty printing. Alternatively, delete the `| json_pp` parameter and run the command again. The JSON response output is not formatted, but you can run it through a JSON beautifier to clean it up.
+
 A hit rate above 0.90 or 90% indicates that the full-page cache is working.
 
 A hit rate below 0.85 or 85% might indicate a site configuration problem, or you might have a third-party extension installed that does not allow its content to be cached.
@@ -122,8 +127,10 @@ If you cannot access your Admin due to heavy load, you can use the Fastly API to
 1. Create the ACL as described in the [Working with ACLs using the API](https://docs.fastly.com/guides/access-control-lists/working-with-acls-using-the-api) Fastly doc.
 1. In the `recv` section, create a VCL snippet with the following content, having replaced ACL\_NAME\_GOES\_HERE with the name of the ACL that was created in the previous step:
 
- `if( req.http.Fastly-Client-IP ~ ACL_NAME_GOES_HERE ) {
-  error 403 "Forbidden";
-  }`
+   ```
+   if( req.http.Fastly-Client-IP ~ ACL_NAME_GOES_HERE ) {
+   error 403 "Forbidden";
+   }
+   ```
 
 For more information on blocking IP addresses, see the [Fastly Adobe Commerce module guide](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) in GitHub.

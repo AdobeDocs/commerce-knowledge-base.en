@@ -25,9 +25,9 @@ The Elasticsearch fields limit is wrong resulting in the following error when ex
 
 This issue occurs when you have a large number of product attributes. The issue is triggered by the way Elasticsearch calculates the field count. Sometimes when there are attributes that have fields assigned to them these fields will index as separate indexers. This results in the limit having been exceeded warning.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
- <span class="wysiwyg-underline">Prerequisites</span>
+ <u>Prerequisites</u>
 
 * Installed module-elasticsearch 100.3.5.
 * Elasticsearch 7 installed.
@@ -37,11 +37,11 @@ This issue occurs when you have a large number of product attributes. The issue 
 1. Create products for each family.
 1. Run indexer.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 All products are available in the Elasticsearch index.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 1. Elasticsearch error:
 

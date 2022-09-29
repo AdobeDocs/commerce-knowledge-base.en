@@ -15,22 +15,22 @@ This article describes a known Adobe Commerce 2.4.0 and 2.4.1 issue, where parti
 
 ## Issue
 
-<span class="wysiwyg-underline">Prerequisites:</span>
+<u>Prerequisites:</u>
 
 In the Braintree payment method configuration, set **Enable Venmo through Braintree** = *Yes* with **Payment Action** = *Authorization*; **Enable Vault for Card Payments** = *No*.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. Create an order for two or more products, using Venmo (Braintree) as a payment method.
 1. Open the order in the Commerce Admin.
 1. Create an invoice for one of the ordered products.
 1. Try to create invoice for the rest ordered products.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 Invoice created.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 The following error message is displayed: *The "vault\_capture" command doesn't exist. Verify the command and try again.*
 

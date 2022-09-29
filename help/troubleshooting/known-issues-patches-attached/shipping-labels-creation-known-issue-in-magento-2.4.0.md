@@ -15,26 +15,26 @@ This article provides a patch for a known Adobe Commerce 2.4.0 issue, where a sh
 
 ## Issue
 
- <span class="wysiwyg-underline">Prerequisites</span>: create an order using FedEx, DHL, UPS, or USPS shipping method.
+ <u>Prerequisites</u>: create an order using FedEx, DHL, UPS, or USPS shipping method.
 
 ### Scenario 1: Create a label when adding a shipment
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Open the placed order in the Admin, under **Sales** > **Orders**.
 1. Click the **Ship** button. The **New Shipment** page opens.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The **Create Shipping Label** checkbox is displayed in the bottom of the page.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 The **Create Shipping Label** checkbox is not displayed.
 
 ### Scenario 2: Create a label for existing shipment
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Open the placed order in the Admin, under **Sales** > **Orders**.
 1. Click the **Ship** button. The **New Shipment** page opens.
@@ -42,11 +42,11 @@ The **Create Shipping Label** checkbox is not displayed.
 1. Open the newly created shipment.
 1. Click the **Create Shipping Label** button. The **Create Packages** dialog opens.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The **Add Products to Package** button on the **Create Packages** modal window displays fields with order items.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 The **Create Packages** modal window is not displayed properly, it is not possible to add order items to the shipment.
 

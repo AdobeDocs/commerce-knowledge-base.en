@@ -12,7 +12,7 @@ This article provides a patch for the known Adobe Commerce on cloud infrastructu
 
 If Google Analytics is enabled for the store, when a customer with installed uBlock or other ad blocker proceeds to checkout, the `trackingCode.js` file is blocked from loading and RequireJS breaks the JS execution flow. This causes problems with loading the checkout page.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+ <u>Steps to reproduce</u> :
 
 Prerequisites: An ad blocker must be installed and active in browser.
 
@@ -21,9 +21,9 @@ Prerequisites: An ad blocker must be installed and active in browser.
 1. Add products to the cart.
 1. Click the **Go to Checkout** link.
 
- <span class="wysiwyg-underline">Expected result</span>: Checkout page loads and the customer can complete checkout.
+ <u>Expected result</u>: Checkout page loads and the customer can complete checkout.
 
- <span class="wysiwyg-underline">Actual result</span>: Checkout page does not load; the loading spinner never disappears.
+ <u>Actual result</u>: Checkout page does not load; the loading spinner never disappears.
 
 ## Patch
 

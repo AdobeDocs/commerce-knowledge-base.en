@@ -22,7 +22,7 @@ The MDVA-11189 Adobe Commerce patch fixes the issue when after importing a .csv 
 
 Fixes the issue when after importing a `.csv` to update product stock, rows from the `cataloginventory_stock` table are deleted.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. In the database run the following MySQL command: `select count(*) from cataloginventory_stock_status;`
 1. Note the number of rows.
@@ -44,11 +44,11 @@ Fixes the issue when after importing a `.csv` to update product stock, rows from
 1. In the database run the following MySQL command:
    `select count(*) from cataloginventory_stock_status;`
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 The number of rows in `cataloginventory_stock` is decreased after the CSV import to update the stock.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The number of rows in `cataloginventory_stock` should remain the same after the CSV import to update the stock.
 

@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. In Admin, go to **System** > **Import**.
 1. Set **Entity Type** = *Products*.
@@ -32,11 +32,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 1. Click the **Check Data** button (which should validate the file).
 1. Click the **Import** button.
 
- <span class="wysiwyg-underline">Expected results</span>:
+ <u>Expected results</u>:
 
 Successful import of products from CSV files, including images from external URLs, as expected.
 
- <span class="wysiwyg-underline">Actual results</span>:
+ <u>Actual results</u>:
 
 Unsuccessful import of products from CSV files, including images from external URLs, and receive a similar error:
 

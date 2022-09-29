@@ -18,18 +18,18 @@ This article suggests a solution for the timeout issue you might have, when perf
 
 Prerequisites: The **Stores** > **Configuration** > **CATALOG** > **Catalog** > **Use Categories Path for Product URLs** option is set to *Yes* for your store view.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. In the Commerce Admin, go to **Catalog** > **Categories**.
 1. Open a large category, like more than 1000 assigned products.
 1. Add a product to the category.
 1. Click **Save Category**.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 Category is saved successfully.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 After five minutes of saving process, the 504 gateway timeout error page appears.
 

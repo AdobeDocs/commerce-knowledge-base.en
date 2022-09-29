@@ -15,17 +15,17 @@ This article provides a workaround for a known issue in the Commerce Admin for t
 
 ## Issue
 
-<span class="wysiwyg-underline">Steps to reproduce</span>
+<u>Steps to reproduce</u>
 
 1. Go to **Customers > All Customers**.
 1. Click the **Edit** link on a customer.
 1. Click the **Create Order** button.
 
-<span class="wysiwyg-underline">Expected result</span>
+<u>Expected result</u>
 
 The **Add Products By SKU** and **Add Products** buttons appear on the **Create New Order** page.
 
-<span class="wysiwyg-underline">Actual result</span>
+<u>Actual result</u>
 
 The **Add Products By SKU** and **Add Products** buttons are missing on the **Create New Order** page.
 

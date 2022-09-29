@@ -15,12 +15,12 @@ This article provides a workaround for a known issue in Admin for a missing **Re
 
 ## Issue
 
-<span class="wysiwyg-underline">Prerequisites:</span>
+<u>Prerequisites:</u>
 
 * Klarna is enabled.
 * A Bundled product is created.
 
-<span class="wysiwyg-underline">Steps to reproduce</span>
+<u>Steps to reproduce</u>
 
 1. Go to Adobe Commerce frontend, and add a Bundled product to **cart**.
 1. Navigate to checkout.
@@ -34,11 +34,11 @@ This article provides a workaround for a known issue in Admin for a missing **Re
 1. Open the order.
 1. The **Refund** label is present.
 
-<span class="wysiwyg-underline">Expected result</span>
+<u>Expected result</u>
 
 On the Klarna portal, the **Refund** label is displayed next to the product which was refunded.
 
-<span class="wysiwyg-underline">Actual result</span>
+<u>Actual result</u>
 
 On the Klarna portal, the **Refund** label is not displayed next to the product which was refunded.
 

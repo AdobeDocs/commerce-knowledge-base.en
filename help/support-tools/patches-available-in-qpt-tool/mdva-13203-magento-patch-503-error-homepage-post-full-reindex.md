@@ -20,7 +20,7 @@ The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Go to the affected URL.
 1. You see the maintenance page.
@@ -41,9 +41,9 @@ date
 
 Tue Sep  4 17:06:11 UTC 2018</pre>
 
- <span class="wysiwyg-underline">Expected results:</span> You should see the site.
+ <u>Expected results:</u> You should see the site.
 
- <span class="wysiwyg-underline">Actual results:</span> The maintenance page shows because of database consistency issues.
+ <u>Actual results:</u> The maintenance page shows because of database consistency issues.
 
 ## Apply the patch
 

@@ -15,12 +15,12 @@ This article provides a workaround for a known issue in Adobe Commerce for an or
 
 ## Issue
 
-<span class="wysiwyg-underline">Prerequisites</span>
+<u>Prerequisites</u>
 
 * Adobe Commerce 2.4.0 is installed.
 * Create at least one category and one simple product.
 
-<span class="wysiwyg-underline">Steps to reproduce</span>
+<u>Steps to reproduce</u>
 
 1. Create 11 orders with products.
 1. Go to **My Account**.
@@ -28,11 +28,11 @@ This article provides a workaround for a known issue in Adobe Commerce for an or
 1. Click the second page to display the 11th order on the orders grid.
 1. Select **Show = 20 per page** from the drop-down menu.
 
-<span class="wysiwyg-underline">Expected result</span>
+<u>Expected result</u>
 
 All 11 orders are displayed on the first page, as expected.
 
-<span class="wysiwyg-underline">Actual result</span>
+<u>Actual result</u>
 
 The *You have placed no orders* error message is displayed.
 

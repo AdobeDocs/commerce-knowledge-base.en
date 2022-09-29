@@ -221,7 +221,7 @@ If you don't have **Shared Accounts** under the **Switch Accounts** drop-down li
 
 If you are an Adobe Commerce license owner, please verify that you don't have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
 
-<span class="wysiwyg-underline">How To Check Your Payment Status</span>:
+<u>How To Check Your Payment Status</u>:
 
 1. Log in to [magento.com](http://support.magento.com/).
 1. Click on **Billing History** on the left.
@@ -260,19 +260,19 @@ The solution is to validate your email address:
 
 #### Issue
 
-<span class="wysiwyg-underline">Prerequisites</span>: you have a shared access account granted by a merchant.
+<u>Prerequisites</u>: you have a shared access account granted by a merchant.
 
-<span class="wysiwyg-underline">Steps to reproduce</span>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Help Center using your shared account.
 1. Click the **Submit a ticket** link. The ticket submission form opens.
 1. Expand the **Organization** drop-down field to select the merchant.
 
-<span class="wysiwyg-underline">Expected result</span>:
+<u>Expected result</u>:
 
 The merchant corresponding to the shared account is listed in the **Organization** options.
 
-<span class="wysiwyg-underline">Actual result</span>:
+<u>Actual result</u>:
 
 The merchant corresponding to the used shared account is not available in the **Organization** options.
 

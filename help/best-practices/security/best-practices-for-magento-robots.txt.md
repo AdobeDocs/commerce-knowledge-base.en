@@ -20,7 +20,7 @@ This article provides best practices for using `robots.txt` in Adobe Commerce. T
 * By not configuring the `robots.txt` file, site performance can be negatively impacted, leading to a potential for site outages.
 * Configure the `robots.txt` file to avoid unnecessary Bots scanning and indexing the wrong content. For steps, refer to [Search Engine Robots](https://docs.magento.com/user-guide/marketing/search-engine-robots.html) in our user guide.
 
- <span class="wysiwyg-underline"> **Security:** </span>
+ <u> **Security:** </u>
 
 Do not expose your Commerce Admin path in your `robots.txt` file. Having the Admin path exposed is a vulnerability for site hacking and potential loss of data. Remove the Admin path from the `robots.txt` file.
 

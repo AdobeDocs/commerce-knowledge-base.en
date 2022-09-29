@@ -1,7 +1,7 @@
 ---
 title: Google Shopping ads Channel Troubleshooting
 labels: Google,Shopping ads,troubleshooting,Adobe Commerce,Magento,update
-description: ">![info]"
+description: "The following information provides help when you encounter issues, errors, or banner messages with Google Shopping ads. For searchable help for Google troubleshooting, see this site."
 ---
 
 # Google Shopping ads Channel Troubleshooting

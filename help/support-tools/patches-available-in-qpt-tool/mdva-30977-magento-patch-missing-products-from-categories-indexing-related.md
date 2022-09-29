@@ -22,7 +22,7 @@ The patch was created for Adobe Commerce on cloud infrastructure 2.3.4. It is al
 
 The number of products displayed on the category page on the storefront is different after each page reload during mass product update.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. Create at least 30000 products in two categories - at least 15000 products in each category.
 1. Go to **Catalog** > **Products** in the Commerce Admin.
@@ -30,11 +30,11 @@ The number of products displayed on the category page on the storefront is diffe
 1. Run Magento cron job using the `bin/magento cron:run` command twice.
 1. Refresh category pages on Storefront while Adobe Commerce performs 30000 products update.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 The number of products in categories is always 15000 on each category page refresh.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 The number of products in categories is different on each category page refresh.
 
@@ -42,7 +42,7 @@ The number of products in categories is different on each category page refresh.
 
 When the full reindex of the inventory is executed, category pages become empty and the *We can't find products matching the selection* message is displayed.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. Configure Adobe Commerce with Elasticsearch.
 1. Add a new website.
@@ -53,11 +53,11 @@ When the full reindex of the inventory is executed, category pages become empty 
 1. Execute the inventory reindex by running `bin/magento indexer:reindex inventory`
 1. Browse a category with big number of products.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 Category pages display products as usual during reindex.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 Category pages become empty during reindex.
 

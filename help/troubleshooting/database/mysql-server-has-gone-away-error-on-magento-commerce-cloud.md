@@ -16,15 +16,15 @@ This article talks about the solution for the issue where you receive an " *SQL 
 
 You receive an " *SQL server has gone away* " error message in the `cron.log` file.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 Import files and trigger a deployment.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 Successful deployment.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 Error message in `cron.log` :" *SQLSTATE\[HY000\] \[2006\] MySQL server has gone away at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144"*
 

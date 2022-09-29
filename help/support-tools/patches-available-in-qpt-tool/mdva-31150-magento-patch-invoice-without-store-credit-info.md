@@ -21,7 +21,7 @@ The MDVA-31150 patch fixes the issue where an invoice is created without store c
 
 After the invoice order by API the used customer balance and gift card information is not present in the invoice.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Add a store credit amount to a customer account: On the Admin sidebar, go to **Customers** > **All Customers.**
 1. Find the customer record and click on **Edit** in the Action column, then **Store Credit** > Update the balance > **Save Customer**.
@@ -30,11 +30,11 @@ After the invoice order by API the used customer balance and gift card informati
 1. Create invoice using `REST API>POST>/rest/V1/order/1/invoice` with payload:    ```clike    { "capture": true, "items": [ { "extension_attributes": {}, "order_item_id": 3, "qty": 1 } ], "notify": true, "appendComment": true, "comment": { "extension_attributes": {}, "comment": "string", "is_visible_on_front": 0 }, "arguments": { "extension_attributes": {} }}    ```
 1. Get the invoice that was just created using `REST API>GET>/rest/V1/invoices/1`.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 Store credit and gift card balance are returned by API Call.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 Store credit and gift card balance are not returned by API Call.
 

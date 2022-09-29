@@ -26,15 +26,15 @@ that affects the display of dynamic blocks. This patch is available when the [Qu
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 Try to load a URL that looks like following: https://\[magento domain\]/banner/ajax/load/.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 An error similar to the following is thrown: *Uncaught TypeError: strpos() expects parameter 1 to be string, null given in...(line of code)* .
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 URL is loaded without errors.
 

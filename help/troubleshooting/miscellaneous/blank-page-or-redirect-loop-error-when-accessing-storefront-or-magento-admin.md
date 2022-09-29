@@ -16,15 +16,15 @@ This article provides a solution for the issue when you access Adobe Commerce st
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 Open a storefront or Admin page.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 The page opens.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 The page is blank or displays the *"This webpage has a redirect loop"* error message.
 

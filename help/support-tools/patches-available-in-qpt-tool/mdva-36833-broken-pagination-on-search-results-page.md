@@ -20,7 +20,7 @@ The MDVA-36833 patch fixes the issue where pagination breaks when the shared cat
 
 Excluding some products from shared catalog leads to broken pagination for search results.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Enable Shared Catalog.
 1. Go to **Catalog** > **Shared Catalogs** and set up the default Shared Catalog by assigning all the products to it.
@@ -31,11 +31,11 @@ Excluding some products from shared catalog leads to broken pagination for searc
 1. Go to the storefront and search for "jacket".
 1. Check the first page of the search results.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 The first page has one product and the rest of the products are available on the second page.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The first page should have 12 products.
 

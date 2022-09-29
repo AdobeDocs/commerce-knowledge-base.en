@@ -14,7 +14,7 @@ This article provides a fix for the issue where you try to export products to a 
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 Prerequisites: The **Add Secret Key to URLs** option is set to *Yes*. The option is configured in the Commerce Admin under **Stores** > **Configuration** > **Advanced** > **Admin** > **Security**.
 
@@ -29,11 +29,11 @@ Prerequisites: The **Add Secret Key to URLs** option is set to *Yes*. The option
 1. Click **Continue**.
 1. The following message is displayed: *"Message is added to queue, wait to get your file soon"*.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 The .csv file with the exported products is displayed in the grid in a couple of minutes.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 The .csv file with the exported products is not displayed in the grid in 10 minutes or more.
 

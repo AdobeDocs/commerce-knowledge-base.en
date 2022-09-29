@@ -15,7 +15,7 @@ This article provides a workaround for a known issue in Adobe Commerce 2.4.1 for
 
 ## Issue
 
-<span class="wysiwyg-underline">Steps to reproduce</span>
+<u>Steps to reproduce</u>
 
 1. Go to **Admin Panel** > **Content** > **Pages**, and select **Edit** of any page.
 1. Go to **Content** and click on the **Edit with Page Builder** button.
@@ -23,11 +23,11 @@ This article provides a workaround for a known issue in Adobe Commerce 2.4.1 for
 1. Select one of the test forms, then pick **Embedded** mode and save the form.
 1. Save the page modification.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 The webpage should be saved successfully.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 The webpage is empty. After reloading the webpage, the changes are applied.
 

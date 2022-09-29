@@ -14,11 +14,11 @@ This article describes a known Adobe Commerce 2.4.2 issue where orders are not g
 
 ## Issue
 
- <span class="wysiwyg-underline">Precondition</span> :
+ <u>Precondition</u> :
 
 Enable Venmo payment in Braintree configuration.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+ <u>Steps to reproduce</u> :
 
 1. On the storefront, add any item to the shopping cart.
 1. Proceed to **Checkout**.
@@ -27,11 +27,11 @@ Enable Venmo payment in Braintree configuration.
 1. Click **Pay with Venmo**.
 1. Click **Place order**.
 
- <span class="wysiwyg-underline">Actual results</span>:
+ <u>Actual results</u>:
 
  The order is not created in Adobe Commerce code after the customer is redirected back to the store from the Venmo app, and no error message appears. The order is created in Braintree.
 
- <span class="wysiwyg-underline">Expected results</span>:
+ <u>Expected results</u>:
 
  The order is created in Adobe Commerce after the customer is redirected back to the store from the Venmo app, and the order is created in Braintree, as expected.
 

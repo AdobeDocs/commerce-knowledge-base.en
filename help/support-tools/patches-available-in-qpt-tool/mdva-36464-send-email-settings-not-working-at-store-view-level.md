@@ -24,11 +24,11 @@ Adobe Commerce (all deployment methods) 2.4.0 - 2.4.2
 
 ## Issue
 
-<span class="wysiwyg-underline">Prerequisite:</span>
+<u>Prerequisite:</u>
 
 Install clean Adobe Commerce.
 
-<span class="wysiwyg-underline">Steps to reproduce</span>:
+<u>Steps to reproduce</u>:
 
 1. Create an additional website, store, and store view (In this Example, the second website is *website2*).
 1. Disable **Email notification** on the global level in **Store** > **Config** > **Advanced** > **System** > **Mail Sending Settings**.
@@ -36,11 +36,11 @@ Install clean Adobe Commerce.
 1. In Admin, create a new user, and assign it to the *website2*.
 1. In Admin, on the customer edit page, click **Reset Password** for the customer created above in Step 4.
 
-<span class="wysiwyg-underline">Expected results</span>:
+<u>Expected results</u>:
 
 Both the **welcome email** and the **reset password email** are sent, as expected, because **Disable Email Communications** = *No* for the second website (Example: *website2*).
 
-<span class="wysiwyg-underline">Actual results</span>:
+<u>Actual results</u>:
 
 * The **welcome email** after the creation of the new customer is not triggered.
 * The **reset password email** is not triggered.

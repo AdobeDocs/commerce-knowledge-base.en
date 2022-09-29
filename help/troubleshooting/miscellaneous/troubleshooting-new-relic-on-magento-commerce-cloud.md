@@ -20,7 +20,7 @@ This article provides resources for troubleshooting New Relic on Adobe Commerce 
 </tr>
 <tr>
 <td>
-<p><span class="wysiwyg-underline">Can't see projects in New Relic.</span></p>
+<p><u>Can't see projects in New Relic.</u></p>
 <p>You log in to <em>New Relic</em> but can't see projects you should be entitled to view/access.</p>
 </td>
 <td>
@@ -35,7 +35,7 @@ This article provides resources for troubleshooting New Relic on Adobe Commerce 
 </tr>
 <tr>
 <td>
-<p><span class="wysiwyg-underline">Missing data after installation.</span></p>
+<p><u>Missing data after installation.</u></p>
 <p>Use the <a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">New Relic Diagnostics utility</a> to try to identify the cause. If this does not help, look at agent specific solutions. Links to articles containing these solutions are in the right-hand column.</p>
 </td>
 <td>
@@ -59,7 +59,7 @@ This article provides resources for troubleshooting New Relic on Adobe Commerce 
 </tr>
 <tr>
 <td>
-<p><span class="wysiwyg-underline">Transactions timestamp discrepancy.</span> You may struggle to find long transactions (more than 5 mins) using the New Relic UI. You may also find transactions displayed outside of the expected time frame.</p>
+<p><u>Transactions timestamp discrepancy.</u> You may struggle to find long transactions (more than 5 mins) using the New Relic UI. You may also find transactions displayed outside of the expected time frame.</p>
 </td>
 <td>
 <p>The New Relic UI displays the time of the transaction's end, not the time when the transaction began.</p>
@@ -70,7 +70,7 @@ This article provides resources for troubleshooting New Relic on Adobe Commerce 
 </tr>
 <tr>
 <td>
-<p><span class="wysiwyg-underline">NerdGraph GraphQL <code>curl</code> queries using special characters such as <code>|</code> and <code>%</code> do not work</span>.</p>
+<p><u>NerdGraph GraphQL <code>curl</code> queries using special characters such as <code>|</code> and <code>%</code> do not work</u>.</p>
 </td>
 <td>
 <p>New Relic "copy to curl" feature within NerdGraph does not currently provide a way to handle special characters such as <code>|</code> and <code>%</code>.</p>
@@ -81,7 +81,7 @@ This article provides resources for troubleshooting New Relic on Adobe Commerce 
 </tr>
 <tr>
 <td>
-<p><span class="wysiwyg-underline">Chart and dashboard display issues.</span></p>
+<p><u>Chart and dashboard display issues.</u></p>
 </td>
 <td>
 <p>Resolve missing charts by adding New Relic domains to the allow list or uninstall the browser extension causing the issues.</p>
@@ -95,7 +95,7 @@ This article provides resources for troubleshooting New Relic on Adobe Commerce 
 </tr>
 <tr>
 <td>
-<p><span class="wysiwyg-underline">PHP agent does not show the correct instance count.</span></p>
+<p><u>PHP agent does not show the correct instance count.</u></p>
 </td>
 <td>
 <p>The number of instances can increase depending on back end processes and throughput. Differences between server values can be due to processes running on one server, but not the other server.</p>

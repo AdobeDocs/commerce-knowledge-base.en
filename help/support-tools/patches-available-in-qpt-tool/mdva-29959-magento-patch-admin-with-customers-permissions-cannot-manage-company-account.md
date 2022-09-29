@@ -20,18 +20,18 @@ B2B for Adobe Commerce on cloud infrastructure 2.3.0-2.3.3-p1.
 
 Admin user with all permissions for "Customer" ACL cannot manage companies (add or delete a company).
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. In the Commerce Admin, create a new admin role and assign a user to that role.
 1. Assign only "Customer" resources to the role.
 1. Log in as a user with this role.
 1. Try to delete a company account.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The company account is successfully deleted.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 You are not able to delete the company account. You get the *Sorry, you need permissions to view this content.* error message.
 

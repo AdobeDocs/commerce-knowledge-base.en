@@ -18,7 +18,7 @@ This article provides an explanation and fix for the Adobe Commerce 2.3.X issue 
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Configure the Authorize.net payment method in the Commerce Admin.
 1. Go to the storefront.
@@ -26,11 +26,11 @@ This article provides an explanation and fix for the Adobe Commerce 2.3.X issue 
 1. Choose Authorize.net as a payment method.
 1. Click **Place Order**.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 The Authorize.net iframe is loaded.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 Ajax spinner is displayed, and the page never loads. The following JS error is displayed in the browser console log: *'Uncaught TypeError: Cannot read property 'length' of null at b (jstest.authorize.net/v1/AcceptCore.js:1)'*
 

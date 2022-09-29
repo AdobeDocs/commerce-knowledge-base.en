@@ -8,12 +8,12 @@ description: "This article provides a fix for an exception fatal PDO error durin
 
 This article provides a fix for an exception fatal PDO error during installation.
 
-### Issue
+## Issue
 
 ```php
 PHP Fatal error:  Class 'PDO' not found in /var/www/html/magento2/setup/module/Magento/Setup/src/Module/Setup/ConnectionFactory.php on line 44
 ```
 
-### Solution
+## Solution
 
 Make sure you install all the [required PHP extensions](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html).

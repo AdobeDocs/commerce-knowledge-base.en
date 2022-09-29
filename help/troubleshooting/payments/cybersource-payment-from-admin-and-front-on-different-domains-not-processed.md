@@ -16,7 +16,7 @@ This article provides a patch for the known Adobe Commerce 2.3.0 limitation rela
 
 The previous implementation of the Cybersource integration allowed processing payments from one domain only. As a result, if your Adobe Commerce storefront is on different domain from the Commerce Admin, you get the following error when trying to place an order using Cybersource in the Admin: " *Load denied by X-Frame-Options: https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ does not permit cross-origin framing.* .."
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. Set up Admin on a different subdomain.
 1. Configure Cybersource for the store under **Stores** > Settings > **Configuration** > **Sales** > **Payment Methods** > **CyberSource**.
@@ -28,9 +28,9 @@ The previous implementation of the Cybersource integration allowed processing pa
 1. Select Cybersource as the payment method.
 1. Submit order.
 
- <span class="wysiwyg-underline">Expected result</span>: Order is placed with no issues.
+ <u>Expected result</u>: Order is placed with no issues.
 
- <span class="wysiwyg-underline">Actual result</span>: The Order page shows a loading icon, but the order is never placed. The error is displayed in console.
+ <u>Actual result</u>: The Order page shows a loading icon, but the order is never placed. The error is displayed in console.
 
 ## Solution
 

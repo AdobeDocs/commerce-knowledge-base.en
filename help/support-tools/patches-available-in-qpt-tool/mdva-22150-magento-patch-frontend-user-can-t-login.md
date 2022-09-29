@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Log in to the Admin and create a configurable product.
 1. Go to **Cart Rules**, and create a coupon code with some discount.
@@ -31,11 +31,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 1. After entering the coupon, don't submit the order, but abort the order and logout.
 1. Go back to the Admin and disable the whole configurable product.
 
- <span class="wysiwyg-underline">Expected results:</span>
+ <u>Expected results:</u>
 
 The product is not displayed in the cart on the Storefront, or displayed with the appropriate error message that the product has been disabled, as expected.
 
- <span class="wysiwyg-underline">Actual results:</span>
+ <u>Actual results:</u>
 
 * When attempting to log back into the frontend, you will be stuck in an infinite loop (which eventually will show an exception after a long amount of time).
 * The ability to manage the customers' shopping carts in the Admin stops working.
