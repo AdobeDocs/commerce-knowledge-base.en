@@ -13,7 +13,7 @@ This article provides a solution for performance issues with Adobe Commerce on-p
 * Adobe Commerce on cloud infrastructure 2.2.x, 2.3.x
 * Adobe Commerce on-premises 2.2.x, 2.3.x
 
->![info]
+>[!NOTE]
 >
 >The issue was fixed in version 2.3.4 of both Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises.
 

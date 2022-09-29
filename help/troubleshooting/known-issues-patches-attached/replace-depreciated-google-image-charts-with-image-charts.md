@@ -13,7 +13,7 @@ Most Adobe Commerce editions and versions currently use [Google Image Charts](ht
 * Adobe Commerce 1.X, all editions
 * Adobe Commerce 2.X, all editions
 
->![info]
+>[!NOTE]
 >
 >Adobe Commerce on-premises 1.14.4.1, Magento Open Source 1.9.4.1, Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.2 will include this chart update. Upgrading to these versions continues support for image charts without additional patches.
 

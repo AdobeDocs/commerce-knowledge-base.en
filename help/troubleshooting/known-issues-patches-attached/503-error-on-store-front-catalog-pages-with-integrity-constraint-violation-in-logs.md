@@ -6,7 +6,7 @@ description: ">![info]"
 
 # 503 error on store front catalog pages with "Integrity constraint violation" in logs
 
->![info]
+>[!NOTE]
 >
 >This article provides a patch as a workaround, but the issue was permanently fixed in Adobe Commerce on cloud infrastructure v2.3.3 release, and it is recommended that you upgrade to v2.3.3. Follow the steps in [Upgrade Adobe Commerce version](https://devdocs.magento.com/cloud/project/project-upgrade.html) in our developer documentation.
 

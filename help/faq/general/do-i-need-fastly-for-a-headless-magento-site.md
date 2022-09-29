@@ -1,12 +1,12 @@
 ---
 title: Do I need Fastly for a Headless Adobe Commerce site?
 labels: DDOS,FAQ,Fastly,Magento,Magento Commerce Cloud,Pro,SSL,Starter,WAF,headless,production,staging,Adobe Commerce,cloud infrastructure
-description: ">![info]"
+description: Do I need Fastly for a Headless Adobe Commerce site?
 ---
 
 # Do I need Fastly for a Headless Adobe Commerce site?
 
->![info]
+>[!NOTE]
 >
 >All customers must use Fastly for their production and staging environments. Fastly is a Content Delivery Network (CDN) that provides full page caching, image optimization, and security services (DDoS and WAF) as part of your Adobe Commerce on cloud infrastructure projects. These are core components of the Adobe Commerce solution, providing increased performance and security. These features are part of Adobe's PCI Compliance. You must set up these Fastly services on your Starter Master, Staging, Pro Staging and Production environments. If you are using Adobe Commerce in a headless deployment, all API traffic from the public internet must pass through Fastly and we highly recommend that you use Fastly to cache GraphQL responses. See [GraphQL Developer Guide > Caching with Fastly](https://devdocs.magento.com/guides/v2.3/graphql/caching.html#caching-with-fastly) in our developer documentation.
 

@@ -12,7 +12,7 @@ The PayPal Payflow Pro integration in Adobe Commerce is being actively targeted 
 
 The activity currently targets versions of this Payflow Pro integration that were included in Adobe Commerce 2.1.x, 2.2.x, 2.3.x for Magento Open Source and Commerce (on-premises and cloud). The carding activity is inherent to the way Payflow Pro is integrated into shopping carts.
 
->![info]
+>[!NOTE]
 >
 >To help resolve these issues, we have provided new Composer packages to add Google reCAPTCHA or CAPTCHA to the Payflow Pro checkout form. We recommend installing these packages on all Adobe Commerce versions and editions.
 
@@ -42,7 +42,7 @@ Adobe Commerce (all deployment methods) and Magento Open Source 2.1.x, 2.2.x, 2.
 
 Installation requires CLI commands to your Adobe Commerce instance. Developer assistance may be required.
 
->![info]
+>[!NOTE]
 >
 >We recommend installing and configuring Google reCAPTCHA in addition to installing any relevant Payflow Pro checkout form updates. This option provides an invisible check and multiple configuration options.
 
@@ -124,7 +124,7 @@ The new checkout form option is:
 
 Please contact PayPal Payflow Merchant Support to learn more about Fraud Protection Services. You can request the PayPal Support team to enable [Basic Fraud Protection Services](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) filters to provide the tightest control possible over payments so that you can automatically deny payments that are likely to result in fraudulent transactions and accept payments that are not typically a problem. Please note that once you turn on PayPal Fraud Protection Services filters, transactions can take up to 2 hours to settle.
 
->![info]
+>[!NOTE]
 >
 >For additional information, see PayPal’s KB ["Adobe has contacted me about my Payflow Pro integration. What do I need to do?”](https://www.paypal.com/us/smarthelp/article/ts2242).
 

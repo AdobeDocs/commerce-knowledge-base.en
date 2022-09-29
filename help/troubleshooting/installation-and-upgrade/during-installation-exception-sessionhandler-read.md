@@ -18,7 +18,7 @@ open(..) failed: No such file or directory (2) ../magento2/lib/internal/Magento/
 in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 ```
 
->![info]
+>[!NOTE]
 >
 >This error occurs only in code versions earlier than September 28, 2015. If you install code dated September 29 or later, this error should not occur. For more information about configuration options for Redis, see [Configure Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html) in our developer documentation. For more information about specifying Redis using the command-line installer, see the [installation topic](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-install.html) or the [deployment configuration topic](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-deployment.html#instgde-cli-subcommands-configphp) in our developer documentation.
 

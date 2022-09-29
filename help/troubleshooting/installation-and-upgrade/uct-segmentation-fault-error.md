@@ -61,7 +61,7 @@ Override the memory limitation by setting `memory_limit` to `-1`:
 php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 ```
 
->![info]
+>[!NOTE]
 >
 > The `M2_VERSION` is the target Adobe Commerce version you want to compare to your Adobe Commerce instance.
 

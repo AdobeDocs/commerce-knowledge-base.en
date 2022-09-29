@@ -14,7 +14,7 @@ setup:upgrade
 
 command.
 
->![info]
+>[!NOTE]
 >
 >The issue was fixed in Adobe Commerce 2.2.4.
 

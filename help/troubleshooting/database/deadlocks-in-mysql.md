@@ -40,6 +40,6 @@ As an example, it is a best practice to avoid a stuck MySQL database import by f
 * [Indexer optimization - Indexer Table Switching](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html#indexer-table-switching)
 * [Bulk Operations - Consume Messages](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/message-queues/bulk-operations.html#consume-messages)
 
->![info]
+>[!NOTE]
 >
 >We are aware that this article may still contain industry-standard software terms that some may find racist, sexist, or oppressive and which may make the reader feel hurt, traumatized, or unwelcome. Adobe is working to remove these terms from our code, documentation, and user experiences.

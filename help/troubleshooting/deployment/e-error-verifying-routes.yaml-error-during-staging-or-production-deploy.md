@@ -73,6 +73,6 @@ To resolve the blocked deployment, update the `routes.yaml` file to configure ro
 
 For detailed instructions to update the route configuration, see [Cloud for Adobe Commerce > Configure routes](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html) in our developer documentation.
 
->![info]
+>[!NOTE]
 >
 >If your project configuration specifies domains that are no longer in use, complete the following steps to remove them from your project at your earliest convenience: 1. Submit a support ticket with a list of domains to remove from your project environments. 2. After the Support team removes the domains, update the `routes.yaml` file to remove any references to the obsolete domains.

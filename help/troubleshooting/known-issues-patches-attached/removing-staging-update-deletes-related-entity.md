@@ -8,7 +8,7 @@ description: "This article provides a patch for the known Adobe Commerce 2.2.3 i
 
 This article provides a patch for the known Adobe Commerce 2.2.3 issue related to the entity (category, CMS page, etc.) itself being removed when the related schedule update is deleted.
 
->![info]
+>[!NOTE]
 >
 >The issue was fixed in Adobe Commerce 2.2.6.
 

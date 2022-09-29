@@ -26,7 +26,7 @@ The MDVA-29787 patch solves the issue where **Related Products** are not display
 
 The target rule for **Related Products** does not work when "*is one of*" condition is used for **Products to Display** in the Commerce Admin.
 
->![info]
+>[!NOTE]
 >
 >Note: This patch does not fix existing target rules. You must re-create existing target rules.
 

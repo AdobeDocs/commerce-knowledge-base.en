@@ -36,6 +36,7 @@ This payment method is for merchants with On-Premises licenses and/or quarterly 
 1. If you encounter an error or have any questions regarding the **Pay Now** feature, please contact [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) for further assistance.
 
 ### Autopay Set-up {#cc-autopay}
+
 This payment method is for merchants with monthly billing (except for On-Premises licenses). If you fall into this category, kindly follow the instructions below:
 
 >[!NOTE]
@@ -104,7 +105,7 @@ Log in to [https://account.magento.com](https://account.magento.com), then choos
 
 The first step is to review your contract. Most of those details are included in your contract. If you have any questions not in your contract, please check payments/invoices with our billing teams.  Email: [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com), and they will be happy to clarify and assist.
 
-**Payment Remittance**, it’s always on the bottom of your invoice.
+**Payment Remittance**, it's always on the bottom of your invoice.
 
 * We can only accept credit card payments below $75,000.
 * **Merchants on monthly billing must pay via credit card on autopay.** [See the CC autopay section](#cc-autopay).

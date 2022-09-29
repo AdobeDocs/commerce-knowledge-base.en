@@ -79,6 +79,6 @@ In our developer documentation:
 * [Set up optional database replication](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html).
 * [ece-tools package](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html).
 
->![info]
+>[!NOTE]
 >
 >We are aware that this article may still contain industry-standard software terms that some may find racist, sexist, or oppressive, and which may make the reader feel hurt, traumatized, or unwelcome. Adobe is working to remove these terms from our code, documentation, and user experiences.

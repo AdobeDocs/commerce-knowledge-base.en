@@ -12,7 +12,7 @@ This article provides an explanation and fix for the Adobe Commerce 2.3.X issue 
 
 * Adobe Commerce 2.3.X
 
->![info]
+>[!NOTE]
 >
 >The core Adobe Commerce Authorize.Net payment integration is deprecated since 2.3.4 and will be completely removed in 2.4.0. Use the [official extension](https://marketplace.magento.com/tnw-module-authorizenetcim.html) from marketplace instead.
 

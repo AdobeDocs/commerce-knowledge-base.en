@@ -17,7 +17,7 @@ This topic describes how to fix the issue with Elasticsearch 5, where the search
 * Adobe Commerce 2.2.x
 * ElasticSearch v.5
 
->![info]
+>[!NOTE]
 >
 >ElasticSearch v.5 is deprecated for Adobe Commerce 2.3.x
 

@@ -21,7 +21,7 @@ You might need to change the increment ID for new DB entities in these cases:
 * After a hard backup restore on a Live site
 * Some order records have been lost, but their IDs are already being used by payment gateways (like PayPal) for your current Merchant account. Such being the case, the payment gateways stop processing new orders that have the same ID's, returning the "Duplicate invoice id" error
 
->![info]
+>[!NOTE]
 >
 >You may also fix the payment gateway issue for PayPal by allowing multiple payments per invoice ID in PayPal's Payment Receiving Preferences. See [PayPal gateway rejected request - duplicate invoice issue](https://support.magento.com/hc/en-us/articles/115002457473) in our support knowledge base.
 

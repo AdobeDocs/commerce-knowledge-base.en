@@ -15,7 +15,7 @@ This article provides a fix for the Adobe Commerce on-premises and Adobe Commerc
 
 ## Issue
 
->![info]
+>[!NOTE]
 >
 >This article doesn't apply to the situation in which you get a 404 error when trying to [preview the staging update](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change). If you run into that issue, please open a [support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 

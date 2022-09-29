@@ -57,7 +57,7 @@ See [How to apply a composer patch provided by Adobe](https://support.magento.co
 
 ## Remove duplicated entries {#remove}
 
->![info]
+>[!NOTE]
 >
 >Please make sure to have a recent backup before any manipulations.
 

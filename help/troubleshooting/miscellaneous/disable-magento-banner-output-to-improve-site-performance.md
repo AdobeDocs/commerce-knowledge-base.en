@@ -8,7 +8,7 @@ description: "This article provides a fix for low site performance. Low site per
 
 This article provides a fix for low site performance. Low site performance can be caused by the `Magento_Banner` module being enabled but not used. Disabling the module output can improve site performance. Review the article for resolution steps.
 
->![info]
+>[!NOTE]
 >
 >If you use the Adobe Commerce Banner functionality, see the [High throughput AJAX requests cause poor performance](https://support.magento.com/hc/en-us/articles/360039286472-High-throughput-AJAX-requests-cause-poor-performance) article in our support knowledge base for recommendations on how to avoid performance issues caused by excessive Ajax requests.
 

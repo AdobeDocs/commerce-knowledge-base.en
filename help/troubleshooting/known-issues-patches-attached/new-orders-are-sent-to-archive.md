@@ -8,7 +8,7 @@ description: "This article provides a patch for the known Adobe Commerce 2.2.0 i
 
 This article provides a patch for the known Adobe Commerce 2.2.0 issue related to the newly created orders showing in the archive instead of the Orders grid in the Commerce Admin.
 
->![info]
+>[!NOTE]
 >
 >The issue was fixed in 2.2.3 and later.
 

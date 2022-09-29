@@ -28,7 +28,7 @@ Prerequisites: An order is placed using Payment Services functionality.
 
     Commerce has not synced data and sent it to Payment Services, so the new order status is not yet recognized by the report.
 
->![info]
+>[!NOTE]
 >
 >This is only one common use case. There may be other use cases when an [order action](https://docs.magento.com/user-guide/sales/order-actions.html) occurs and the data is not immediately available in the applicable report.
 

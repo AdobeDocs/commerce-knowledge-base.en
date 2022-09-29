@@ -80,10 +80,10 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
    ```
    Then push this updated file and redeploy your environment. Also reference [Add custom cron jobs to your project](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html#add-cron) in our developer documentation.
 
->![info]
+>[!NOTE]
 >
 >If you cannot find the `.magento.env.yaml` file for your environment, and you think it was deleted, you need to create a new `.magento.env.yaml`. It might be empty initially, you can add info there as required. Reference the following articles: [Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html) and [Environment variables](https://devdocs.magento.com/cloud/env/variables-intro.html) in our developer documentation.
 
->![info]
+>[!NOTE]
 >
 >On Adobe Commerce on cloud infrastructure Pro projects, the [auto-crons feature](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html#verify-cron-configuration-on-pro-projects) must be enabled on your Adobe Commerce on cloud infrastructure before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml`. If this feature is not enabled, [create a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket), to have the job added for you.

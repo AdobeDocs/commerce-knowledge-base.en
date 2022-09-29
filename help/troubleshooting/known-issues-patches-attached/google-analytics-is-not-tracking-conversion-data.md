@@ -8,7 +8,7 @@ description: "This article provides a patch for the known Adobe Commerce 2.2.4 i
 
 This article provides a patch for the known Adobe Commerce 2.2.4 issue related to Google Analytics not tracking the conversion data.
 
->![info]
+>[!NOTE]
 >
 >The issue was fixed in Adobe Commerce 2.2.6.
 

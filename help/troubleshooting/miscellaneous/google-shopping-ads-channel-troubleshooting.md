@@ -6,7 +6,7 @@ description: ">![info]"
 
 # Google Shopping ads Channel Troubleshooting
 
->![info]
+>[!NOTE]
 >
 >The Google Shopping ads Channel bundled extension has reached end-of-life and has been deprecated in Adobe Commerce core code in Adobe Commerce 2.3.5 and 2.3.4-p1. It will not be supported and working anymore.
 

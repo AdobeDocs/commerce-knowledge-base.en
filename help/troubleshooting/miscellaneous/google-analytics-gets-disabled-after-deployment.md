@@ -24,6 +24,6 @@ This is an intended feature to ensure that developer data and interactions are n
 
 If you want to have Google Analytics always enabled, set the deploy variable `ENABLE_GOOGLE_ANALYTICS = true`, as described in [Deploy variables](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) in our developer documentation.
 
->![info]
+>[!NOTE]
 >
 >We are aware that this article may still contain industry-standard software terms that some may find racist, sexist, or oppressive and which may make the reader feel hurt, traumatized, or unwelcome. Adobe is working to remove these terms from our code, documentation, and user experiences.

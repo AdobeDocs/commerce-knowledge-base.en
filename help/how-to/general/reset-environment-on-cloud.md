@@ -18,7 +18,7 @@ Choose the most appropriate for your case:
 
 Read: [Restore a snapshot on Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot) in our developer documentation.
 
->![info]
+>[!NOTE]
 >
 >Creating a snapshot must be our very first step after accessing the Adobe Commerce on cloud infrastructure account and before applying major changes. It is a best practice and highly recommended.
 

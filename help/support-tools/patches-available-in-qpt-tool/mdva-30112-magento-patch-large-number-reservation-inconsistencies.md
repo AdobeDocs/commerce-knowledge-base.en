@@ -26,7 +26,7 @@ The MDVA-30112 patch solves the issue where you have an unexpectedly large numbe
 
 The [bunch-size](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#list-inconsistencies-command) value is the value for how many orders to load at once. When there are more orders than this value, Adobe Commerce considers the orders with pending status to be inconsistencies.
 
->![info]
+>[!NOTE]
 >
 >There is a patch MDVA-33281 that fixes three other inventory inconsistency issues. This includes a PHP Fatal error when running `bin/magento inventory:reservation:list-inconsistencies` in the CLI. Another issue that is fixed is duplicate data in the inconsistencies list. Also, the issue where a reservation is created before order placed (previous realization based on reservation after order placed). For the solution, refer to [MDVA-33281: inventory inconsistency issues](https://support.magento.com/hc/en-us/articles/360055276532/) in our support knowledge base.
 
