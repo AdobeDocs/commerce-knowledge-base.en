@@ -22,7 +22,7 @@ Click on the links below to see recommendations:
 * [Avoid running DDL (Data Definition Language) statements](#DDL_statements)
 * [Enable order archiving](#enable-order-archiving)
 
-<h2 id="convert">Convert all MyISAM tables to InnoDb</h2>
+## Convert all MyISAM tables to InnoDb {#convert}
 
 Adobe recommends using the InnoDb database engine, and in the out-of-the-box Adobe Commerce installation, all tables in the database are stored using the InnoDb engine. However, some third-party modules (extensions) can introduce tables in the MyISAM format. After you install a third-party module, you should check the database to identify any tables in MyISAM format and convert them to InnoDb.
 
@@ -38,7 +38,7 @@ SELECT table_schema, CONCAT(ROUND((index_length+data_length)/1024/1024),'MB')
     NOT IN ('mysql', 'information_schema', 'performance_schema', 'sys');
 ```
 
-<h3 id="change_innodb">Change the storage engine to InnoDb</h3>
+### Change the storage engine to InnoDb {#change_innodb}
 
 In the `db_schema.xml` file declaring the table, set the `engine` attribute value for the corresponding `table` node to `innodb`. For reference, see [Configure declarative schema > table node](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/declarative-schema/db-schema.html#table-node) in our developer documentation.
 
@@ -48,7 +48,7 @@ Related reading:
 
 * [What are the main differences between INNODB and MYISAM](http://www.expertphp.in/article/what-are-the-main-differences-between-innodb-and-myisam)
 
-<h2 id="ElasticSearch">Use ElasticSearch instead of native MySQL search</h2>
+## Use ElasticSearch instead of native MySQL search {#ElasticSearch}
 
 Adobe recommends replacing the default [MySQL search engine](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-Magento-2-4-0) in Adobe Commerce on cloud infrastructure with Elasticsearch, because Elasticsearch is a better performing search engine than the MySQL search engine.
 
@@ -60,7 +60,7 @@ To determine which search engine is currently in use, run the following command:
 
 To enable and configure the Elasticsearch engine, see the [Configure Adobe Commerce to use Elasticsearch](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html) instructions in our developer documentation.
 
-<h2 id="Triggers">Avoid custom triggers</h2>
+## Avoid custom triggers {#Triggers}
 
 Avoid using custom triggers if possible.
 
@@ -71,11 +71,11 @@ Triggers are used to log changes into audit tables. Adobe recommends configuring
 
 To learn about alternatives to using custom triggers, refer to [Best Practice triggers usage](https://support.magento.com/hc/en-us/articles/360048050352) in our support knowledge base.
 
-<h2 id="ECE-Tools">Upgrade ECE-Tools to version 2002.0.21 or higher</h2>
+## Upgrade ECE-Tools to version 2002.0.21 or higher {#ECE-Tools}
 
 To avoid potential issues with cron deadlocks, upgrade ECE-Tools to version 2002.0.21 or higher. For instructions, see [Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) in our developer documentation.
 
-<h2 id="indexer">Switch indexer mode safely</h2>
+## Switch indexer mode safely {#indexer}
 
 Switching indexers generates DDL statements to create triggers and can cause database locks.
 
@@ -87,7 +87,7 @@ Follow the process below to switch an indexer mode in a way that prevents creati
 1. Enable cron.
 1. Disable maintenance mode.
 
-<h2 id="DDL_statements">Avoid running DDL statements</h2>
+## Avoid running DDL statements {#DDL_statements}
 
 Avoid running DDL (Data Definition Language) statements on Production environments, to ensure you do not create conflicts (like table modifications, creations). The `setup:upgrade` process is an exception.
 

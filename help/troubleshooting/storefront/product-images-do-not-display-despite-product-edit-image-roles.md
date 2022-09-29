@@ -70,7 +70,7 @@ If the Adobe Commerce application has more than one store, it may not synchroniz
 
 Values on `store_id=1` have more priority than the default (global) store (`store_id=0`). Thus, the application may ignore the global image settings and use the store scope configuration (`no_selection` for image role attributes) when displaying an image.
 
-<h2 id="solution">Solution</h2>
+## Solution {#solution}
 
 Delete attributes with the `no_selection` values using this SQL script:
 

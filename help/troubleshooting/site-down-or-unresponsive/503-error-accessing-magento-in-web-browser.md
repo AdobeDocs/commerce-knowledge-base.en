@@ -12,7 +12,7 @@ This article provides a possible solution for the issue where you get a 503 erro
 
 Adobe Commerce 2.3.x
 
-<h2 id="symptoms">Issue</h2>
+## Issue {#symptoms}
 
  <span class="wysiwyg-underline">Steps to reproduce</span>
 
@@ -30,11 +30,11 @@ You get the HTTP 503 (Service Unavailable) error. The Apache `error.log` include
 
  *Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration.*
 
-<h2 id="details">Cause</h2>
+## Cause {#details}
 
 Apache 2.4 compatibility module `mod_access_compat` is disabled, which results in Adobe Commerce URL rewrites not working properly.
 
-<h2 id="suggested-solution">Solution</h2>
+## Solution {#suggested-solution}
 
 Enable the `mod_access_compat` Apache module and restart Apache, by running the following as a user with 'root' privileges:
 
@@ -69,7 +69,7 @@ apache2
 
 .
 
-<h2 id="additional-resources">Related reading</h2>
+## Related reading {#additional-resources}
 
 * [Apache documentation about mod\_access\_compat](http://httpd.apache.org/docs/current/mod/mod_access_compat.html)
 * [Apache documentation about mod\_authz\_host](http://httpd.apache.org/docs/current/mod/mod_authz_host.html)

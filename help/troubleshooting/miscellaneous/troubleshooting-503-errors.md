@@ -43,7 +43,7 @@ To resolve this issue, increase the default value of the `http_resp_hdr_len` par
         -s ${VARNISH_STORAGE}" \
     ```
 
-<h2 id="health-check-timeouts">Health check timeouts</h2>
+## Health check timeouts {#health-check-timeouts}
 
 If you disable the cache while Varnish is configured as the caching application and while Adobe Commerce is in developer mode, it might become impossible to log in to the Admin.
 

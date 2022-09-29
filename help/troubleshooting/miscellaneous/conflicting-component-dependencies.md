@@ -8,14 +8,14 @@ description: "This article provides a solution for conflicting component depende
 
 This article provides a solution for conflicting component dependencies. When trying to setup or update Adobe Commerce using the Web Setup Wizard, you see the *"We found conflicting component dependencies"* Composer error message.
 
-<h3 id="conflicting-dependencies-trouble-depend-conflict-">Affected products and versions</h3>
+### Affected products and versions {#conflicting-dependencies-trouble-depend-conflict-}
 
 * Adobe Commerce on-premises 2.2.x, 2.3.x
 * Adobe Commerce on cloud infrastructure 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
 
 
-<h2 id="example">Issue</h2>
+## Issue {#example}
 
 A conflicting component dependencies error message similar to the following (actual package names and versions will vary):
 
@@ -39,14 +39,14 @@ Two main scenarios can lead to conflicting component dependencies. Click on your
     * [Adobe Commerce (all deployment types)](https://support.magento.com/hc/en-us/articles/360044010932#magento_commerce_magento_commerce_cloud)
     * [Magento Open Source](https://support.magento.com/hc/en-us/articles/360044010932#opensource)
 
-<h2 id="upgrading_magento">Upgrading Adobe Commerce</h2>
+## Upgrading Adobe Commerce {#upgrading_magento}
 
 If you are upgrading Adobe Commerce on cloud infrastructure, try the following to resolve conflicting component dependencies:
 
 * Check the keys being used to upgrade. Are the keys being generated from the correct email account?
 * Check permissions and make sure that they match the Magento upgrade requirements. Review [Magento Upgrade Overview > Update and Upgrade Checklist > File System Permissions](https://devdocs.magento.com/guides/v2.3/comp-mgr/prereq/prereq_compman-checklist.html#perms) in our developer documentation.
 
-<h2 id="incompatibility_third_party_modules">Incompatibility with third-party modules:</h2>
+## Incompatibility with third-party modules: {#incompatibility_third_party_modules}
 
 Conflicting component dependencies can also be caused by third-party modules that depend on earlier Commerce components than the ones you have installed. Try the following:
 
@@ -54,11 +54,11 @@ Conflicting component dependencies can also be caused by third-party modules tha
 1. Now try the readiness check. Review [Adobe Commerce Upgrade Overview > Run the Module Manager > Step 1 Readiness Check](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-readiness.html) in our developer documentation.
 1. If the readiness check fails with another Component dependency check failure message, click on the following links depending on whether you are using [Adobe Commerce (https://support.magento.com/hc/en-us/articles/360044010932#magento_commerce_magento_commerce_cloud) or [Magento Open Source](https://support.magento.com/hc/en-us/articles/360044010932#opensource) to get further troubleshooting steps.
 
-<h2 id="magento_commerce_magento_commerce_cloud">Adobe Commerce</h2>
+## Adobe Commerce {#magento_commerce_magento_commerce_cloud}
 
 1. Reach out to the developer of the extension so they can assist you. You can find their contact information on the page you purchased the extension from on the Commerce Marketplace. Look for the **Contact Seller** button shown on the right panel. All Commerce developers are required to provide a user's and installation guide when they publish an extension on Marketplace. You can find both on the right side of their landing page.
 1. If you do not receive a response from the Seller in a reasonable amount of time, please [let Commerce Marketplace know](https://marketplacesupport.magento.com/hc/en-us) so that we can remind them of their customer support commitments.
 
-<h2 id="opensource">Magento Open Source</h2>
+## Magento Open Source {#opensource}
 
 Request assistance at [our main forum](https://community.magento.com/) or [contact an Adobe Commerce Partner](https://magento.com/find-a-partner) that assists in Open Source issues.

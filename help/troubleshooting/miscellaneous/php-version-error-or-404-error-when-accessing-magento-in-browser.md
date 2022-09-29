@@ -18,7 +18,7 @@ The following message displays when you try to access Adobe Commerce storefront 
 
  `Magento supports PHP 7.1.3 or later. Please read Magento System Requirements.`
 
-<h3 id="solution">Solution</h3>
+### Solution {#solution}
 
 Try the following:
 
@@ -31,7 +31,7 @@ Try the following:
 
 A 404 (Not Found) error displays when you try to access Adobe Commerce storefront or Commerce Admin.
 
-<h3 id="solution">Solution</h3>
+### Solution {#solution}
 
 Try the following:
 
