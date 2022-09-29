@@ -29,9 +29,9 @@ Here's an example of the status table you can get to view the available patches:
 
 The tool is aimed to enable you to self-serve with patches for issues you might experience with Adobe Commerce, or easily apply patches suggested by Adobe Commerce support.
 
->![info]
+>[!NOTE]
 >
->Note: QPT is for quality patches only. Security patches are available in the [Magento Security Center](https://magento.com/security/patches).
+>QPT is for quality patches only. Security patches are available in the [Magento Security Center](https://magento.com/security/patches).
 
 ## Patches available in Quality Patches Tool
 

@@ -15,9 +15,9 @@ Adobe Commerce on-premises is adding support for Elasticsearch 7.16 and OpenSear
 
 OpenSearch is a fork of Elasticsearch and Kibana. It is maintained by AWS instead of Elastic.co. To learn more, review GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch).
 
-## Compatibility across versions:
+**Compatibility across versions:**
 
-## Will Adobe Commerce on cloud infrastructure support Elasticsearch 7.10?
+**Will Adobe Commerce on cloud infrastructure support Elasticsearch 7.10?**
 
 **Yes** - starting mid-January 2022, Adobe Commerce on cloud infrastructure versions 2.4.3-p1, 2.4.3-p2, and 2.3.7-p3 support Elasticsearch 7.10.
 
@@ -37,8 +37,8 @@ Before beginning the upgrade process to Adobe Commerce 2.4.4, however, merchants
 
  Review [System Requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) in our developer documentation for version compatibility.
 
- >![info]
+>[!NOTE]
 >
->Note: It is recommended to plan to upgrade to Adobe Commerce 2.4.4 as soon as possible because ElasticSearch 7.10 will be EOL in May 2022.
+>It is recommended to plan to upgrade to Adobe Commerce 2.4.4 as soon as possible because ElasticSearch 7.10 will be EOL in May 2022.
 
  Adobe partners can sign up for our beta program [here](https://devdocs.magento.com/release/beta-program.html) to get access to our latest beta4 code that has been tested against Elasticsearch 7.16.1 and OpenSearch 1.1.

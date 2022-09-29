@@ -58,9 +58,9 @@ In this example, we are going to create a new module called \`ExtraCountries\` w
  composer.json
  registration.php</pre>
 
->![info]
+>[!NOTE]
 >
->Note: Each Header section of this article describes files from the module structure section.
+>Each Header section of this article describes files from the module structure section.
 
 ## ExtraCountries/etc/config.xml
 

@@ -17,9 +17,9 @@ Adobe Commerce provides quality fixes for a minor release for a minimum of 12 mo
 
 Adobe Commerce 2.3.6 is scheduled to be released on October 15, 2020, and is planned to be the last patch release for Adobe Commerce 2.3 that will include both quality + security. After 2.3.6, the 2.3.x line will become security-only and critical quality issues for 2.3 can be fixed via QPT.
 
->![info]
+>[!NOTE]
 >
->Note: the only time we’ll release a full version of 2.3 is if we need to maintain compliance with our technology stack, such as for PHP or Elasticsearch. This is happening in Q2 of 2021 with a mandatory update of PHP 7.4, we'll be incrementing the line to 2.3.7. For details, refer to [PHP 7.4 support for Adobe Commerce 2.3.x release line](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.
+>The only time we’ll release a full version of 2.3 is if we need to maintain compliance with our technology stack, such as for PHP or Elasticsearch. This is happening in Q2 of 2021 with a mandatory update of PHP 7.4, we'll be incrementing the line to 2.3.7. For details, refer to [PHP 7.4 support for Adobe Commerce 2.3.x release line](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.
 
 ## What is a security-only release?
 

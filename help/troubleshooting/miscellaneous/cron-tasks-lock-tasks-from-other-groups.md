@@ -39,9 +39,9 @@ Previously, in our cloud environment, the Jenkins server was used to run cron jo
       ```
 1. Save the file and push updates to the Staging and Production environments (the same way you do it for Integration environments).
 
->![info]
+>[!NOTE]
 >
->Note: There’s no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular `cron:run` task, added as described above, is enough. Though, it is required to transfer your custom jobs if you had any.
+>There’s no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular `cron:run` task, added as described above, is enough. Though, it is required to transfer your custom jobs if you had any.
 
 ### Check if you have self-managed cron enabled (only for Cloud Pro Staging and Production)
 
@@ -54,9 +54,9 @@ To check if the self-managed cron is enabled, run the `crontab -l` command and o
     ```
 * The self-managed cron is not enabled if you are not able to see the tasks and get the *"you are not allowed to use this program"* error message.
 
->![info]
+>[!NOTE]
 >
->Note: The command mentioned above to check if self-managed cron is enabled does not apply on a Starter plan and in the development/integration environment.
+>The command mentioned above to check if self-managed cron is enabled does not apply on a Starter plan and in the development/integration environment.
 
 ## Related reading
 

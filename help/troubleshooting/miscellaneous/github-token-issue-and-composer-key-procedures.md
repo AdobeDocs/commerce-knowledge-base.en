@@ -13,9 +13,9 @@ This article provides solutions for the issue of failed deployments related to G
 * Adobe Commerce on cloud infrastructure, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 * Composer versions 1.10.20 and lower
 
->![info]
+>[!NOTE]
 >
->Note: Adobe Commerce on-premises merchants should check with their host provider to ensure they are using Composer version 1.10.21 or higher due to the token format changes introduced by Git.
+>Adobe Commerce on-premises merchants should check with their host provider to ensure they are using Composer version 1.10.21 or higher due to the token format changes introduced by Git.
 
 ## Issue
 

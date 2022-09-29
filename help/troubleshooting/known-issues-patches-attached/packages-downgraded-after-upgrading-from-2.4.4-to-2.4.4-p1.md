@@ -97,9 +97,9 @@ The patch was created for:
 * Adobe Commerce on-premises 2.4.4
 * Magento Open Source 2.4.4
 
->![info]
+>[!NOTE]
 >
->Note: The patch is not compatible with any other Adobe Commerce and Magento Open Source versions and editions.
+>The patch is not compatible with any other Adobe Commerce and Magento Open Source versions and editions.
 
 ## How to Apply the Patch
 

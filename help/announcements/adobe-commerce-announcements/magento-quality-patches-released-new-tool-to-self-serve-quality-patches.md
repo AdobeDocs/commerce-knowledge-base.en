@@ -10,9 +10,9 @@ Adobe has released the Quality Patches Tool for general availability - a tool th
 
 The tool provides faster self-service issue resolution, allowing you to easily apply patches suggested by Adobe Commerce Support for issues you might experience with Adobe Commerce.
 
->![info]
+>[!NOTE]
 >
->Note: You should use the tool to pull in necessary quality fixes as needed on a case-by-case basis only and not as a long-term approach to maintaining Adobe Commerce and Magento Open Source code. Upgrading to the latest version of Adobe Commerce or Magento Open Source is still the best method for resolution of quality issues and should be prioritized.
+>You should use the tool to pull in necessary quality fixes as needed on a case-by-case basis only and not as a long-term approach to maintaining Adobe Commerce and Magento Open Source code. Upgrading to the latest version of Adobe Commerce or Magento Open Source is still the best method for resolution of quality issues and should be prioritized.
 
 ## Get and use Quality Patches Tool
 

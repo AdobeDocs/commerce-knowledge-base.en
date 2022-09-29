@@ -16,6 +16,6 @@ Keep in mind that this migration will only affect your Integration environments.
 
 Once the migration is complete, you will need to update your repository address in your local repo as well as any third-party systems which you have integrated with the current Integration environments.
 
->![info]
+>[!NOTE]
 >
->Note: Please note that this migration is required before you upgrade to Adobe Commerce 2.4.4.
+>Please note that this migration is required before you upgrade to Adobe Commerce 2.4.4.

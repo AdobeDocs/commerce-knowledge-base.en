@@ -6,9 +6,9 @@ description: ">![info]"
 
 # ElasticSuite tracking indices causes problems with Elasticsearch
 
->![info]
+>[!NOTE]
 >
->NOTE: ElasticSuite and its affiliated applications are third-party tools not currently supported by Adobe. This content is being presented as informational only and not as an indication of what is enabled for Support coverage.
+>ElasticSuite and its affiliated applications are third-party tools not currently supported by Adobe. This content is being presented as informational only and not as an indication of what is enabled for Support coverage.
 
 This article talks about the issue of Elasticsearch memory problems caused by tracking indices produced by the ElasticSuite plugin.
 
