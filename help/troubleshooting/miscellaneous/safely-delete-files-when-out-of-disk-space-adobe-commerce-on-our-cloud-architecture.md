@@ -6,8 +6,6 @@ description: "This article provides a solution for when you run out of disk spac
 
 # Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure
 
-
-
 ## Affected products and versions
 
 * Adobe Commerce on cloud infrastructure:
@@ -29,6 +27,7 @@ You can delete files from the application's mount points, from your `/app` path 
 >[!WARNING]
 >
 >**Never modify or delete the contents of `/data/exports`**.
+
 `/data/exports` is the underlying storage behind the shared filesystem, and it is managed by GlusterFS.
 The filesystem there contains not only the file contents, but metadata about the state of the filesystem to allow for synchronization >between the nodes of your cluster. **Changing or deleting files directly within this filesystem will corrupt the shared >filesystem, requiring extensive repairs or data recovery.**
 

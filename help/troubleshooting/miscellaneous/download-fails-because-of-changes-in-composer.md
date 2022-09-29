@@ -8,7 +8,7 @@ description: "This article provides a fix for a failed Adobe Commerce download a
 
 This article provides a fix for a failed Adobe Commerce download and exception error.
 
-## Issue {#symptom}
+## Issue
 
 During download, the following error displays:
 
@@ -17,7 +17,7 @@ During download, the following error displays:
   file_get_contents(app/etc/NonComposerComponentRegistration.php): failed to open stream: No such file or directory
 ```
 
-## Cause {#symptom}
+## Cause
 
 This happens because of changes in certain versions of Composer. The workaround is to downgrade Composer to an earlier version and try your Adobe Commerce download again.
 

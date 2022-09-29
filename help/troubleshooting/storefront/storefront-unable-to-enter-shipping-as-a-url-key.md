@@ -39,7 +39,7 @@ Shipping is a reserved word defined in `vendor/magento/module-shipping/etc/front
           <module name="Magento_Shipping" />
       </route>
   </router>
-  ```
+```
 
 ## Solution
 
