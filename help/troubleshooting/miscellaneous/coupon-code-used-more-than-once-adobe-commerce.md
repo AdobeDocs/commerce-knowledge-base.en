@@ -54,6 +54,7 @@ Add the `sales.rule.update.coupon.usage` consumer to the `app/etc/env.php` file.
     ],
 ...
 ```
+
 For detailed steps, refer to [Manage message queues > Configuration](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration) in our developer documentation.
 
 ## Related reading

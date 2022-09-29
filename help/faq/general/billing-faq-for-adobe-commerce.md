@@ -54,7 +54,7 @@ This payment method is for merchants with monthly billing (except for On-Premise
 
 1. Click **Save**.
 
-1. >[!NOTE]
+   >[!NOTE]
    >
    >Once you click **Save** all open/unpaid invoices will be charged in full.
 

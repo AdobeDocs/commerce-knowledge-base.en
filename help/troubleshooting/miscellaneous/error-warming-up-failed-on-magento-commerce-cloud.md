@@ -8,7 +8,7 @@ description: "This article provides a solution for when the page cache is warmin
 
 This article provides a solution for when the page cache is warming up and fails with an error:
 
- *ERROR: Warming up failed: <website link>*
+ *ERROR: Warming up failed: `<website link>`*
 
 ## Affected products and versions
 
@@ -28,7 +28,7 @@ Pages or whole site loads.
 
 <u>Actual result</u>:
 
-The site is unavailable or the response time is too high. *ERROR: Warming up failed: <website link>*
+The site is unavailable or the response time is too high. *ERROR: Warming up failed: `<website link>`*
 
 ## Cause
 

@@ -27,7 +27,7 @@ Typically, configurations, incorrect credentials, or unsupported Adobe Commerce 
 
 ### Test with dig command
 
-First, check for headers with a dig command to the URL. In a terminal application, enter dig <url> to verify Fastly services display in the headers. For additional dig tests, see Fastly's [Testing before changing DNS](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains).
+First, check for headers with a dig command to the URL. In a terminal application, enter dig `<url>` to verify Fastly services display in the headers. For additional dig tests, see Fastly's [Testing before changing DNS](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains).
 
 For example:
 

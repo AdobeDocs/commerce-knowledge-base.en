@@ -8,13 +8,13 @@ description: "This article provides a solution for the issue where you receive a
 
 This article provides a solution for the issue where you receive an error message saying that the requested URL was not found on this server.
 
-### Details
+## Details
 
 The requested URL /magento2index.php/admin/admin/dashboard/index/key/0c81957145a968b697c32a846598dc2e/ was not found on this server.
 
 Note the lack of a slash character between `magento2` and `index.php` in the URL.
 
-### Solution
+## Solution
 
 The base URL is not correct. The base URL must:
 
