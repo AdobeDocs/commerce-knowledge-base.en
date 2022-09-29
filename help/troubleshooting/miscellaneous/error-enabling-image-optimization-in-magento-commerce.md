@@ -14,7 +14,7 @@ This article provides a solution for the issue when Fastly Image Optimization (I
 
 ## Issue
 
-On the Fastly Configuration page, next to the Fastly IO Snippet, you see the Current state: \_disabled \_with the following message underneath: Please contact your sales rep or send an email to [support@fastly.com](mailto:support@fastly) to request image optimization activation for your Fastly service.
+On the Fastly Configuration page, next to the Fastly IO Snippet, you see the Current state: \_disabled \_with the following message underneath: Please contact your sales rep or send an email to `support@fastly.com` to request image optimization activation for your Fastly service.
 
 ## Cause
 

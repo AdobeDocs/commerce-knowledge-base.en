@@ -328,10 +328,9 @@ breadcrumb-title: Commerce KB
 * Best Practices {#best-practices}
   * [Overview](/help/best-practices/overview.md)
   * Configuration {#configuration}
-    * [Best practices of sites, stores, and store view numbers](/help/best-practices/configuration/best-practices-of-sites-stores-and-store-view-numbers.md)
-    * [Best practices for Adobe Commerce robots.txt](/help/best-practices/configuration/best-practices-for-magento-robots.txt.md)
     * [Best practice for OPcache memory size in Adobe Commerce](/help/best-practices/configuration/best-practice-for-opcache-memory-size-in-magento-commerce.md)
-    * [Realpath cache size best practice](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
+    * [Realpath cache size best practice](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
+    * [Optimize CSS and JS files in Adobe Commerce](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
   * Database {#database}
     * [Adobe Commerce 2.3.5 upgrade: compact to dynamic tables](/help/best-practices/database/magento-upgrade-compact-to-dynamic-tables-2.2.x-2.3.x-2.4.x.md)
     * [Best practice for triggers usage](/help/best-practices/database/best-practice-for-triggers-usage.md)
@@ -1085,7 +1084,6 @@ breadcrumb-title: Commerce KB
   * [MDVA-43983: Products set as "Not Visible Individually" appear in search results](/help/support-tools/patches-available-in-qpt-tool/mdva-43983-products-not-visible-individually-still-appear-in-catalog-advanced-search-results.md)
   * [MDVA-44147: GraphQL request doesn't return Requisition Lists](/help/support-tools/patches-available-in-qpt-tool/mdva-44147-graphql-request-doesnt-return-requisition-lists.md)
   * [ACSD-44591: Errors when order without CAPTCHA confirmation](/help/support-tools/patches-available-in-qpt-tool/acsd-44591-user-gets-error-when-trying-to-place-order-without-captcha-confirmation.md)
-  * [Optimize CSS and JS files in Adobe Commerce](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
   * [Adobe Commerce on cloud Best Practices to Help Prevent and Respond to a Security Incident](/help/best-practices/security/prevent-respond-security-incident.md)
   * [Best practices for Adobe Commerce robots.txt](/help/best-practices/security/best-practices-for-magento-robots.txt.md)
   * [Extended Redis cache implementation Adobe Commerce 2.3.5+](/help/best-practices/redis/extended-redis-cache-implementation-magento-commerce-2.3.5.md)
@@ -1102,3 +1100,11 @@ breadcrumb-title: Commerce KB
   * [Product limits best practice](/help/best-practices/performance/product-limits-best-practice.md)
   * [Products per page limit Adobe Commerce](/help/best-practices/performance/products-per-page-limit-magento.md)
   * [Max sales rules best practice in Adobe Commerce](/help/best-practices/performance/max-sales-rules-best-practice-in-magento.md)
+
+
+<!--
+Not Found
+    * [Best practices of sites, stores, and store view numbers](/help/best-practices/configuration/best-practices-of-sites-stores-and-store-view-numbers.md)
+    * [Best practices for Adobe Commerce robots.txt](/help/best-practices/configuration/best-practices-for-magento-robots.txt.md)
+
+-->
