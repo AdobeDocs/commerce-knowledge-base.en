@@ -35,10 +35,12 @@ Changing the product visibility of the second website creates a URL rewrite for 
 1. Fill in all other required fields.
 1. Save the product.
 1. Start MySQL queues:
+
     ```mysql
     bin/magento queue:consumers:start product_action_attribute.update &
     bin/magento queue:consumers:start product_action_attribute.website.update &
     ```
+
 1. Go to Product List.
 1. Select the created product and update visibility attribute by using the mass update to Catalog and Search.
 1. Check the URL rewrite.

@@ -29,6 +29,7 @@ Credit Memo reservation update observer is triggered every time the credit memo 
 1. Create new order, invoice and credit memo for the order.
 1. Create new Integration.
 1. Check inventory_reservation table:
+
     ```SQL
        select * from inventory_reservation;
        +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
@@ -39,8 +40,10 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
        2 rows in set (0.00 sec)
     ```
+
 1. Send GET request to: `../rest/default/V1/creditmemo/3`
 1. Copy response (example):
+
    ```JSON
        {
        "adjustment": 0,
@@ -115,21 +118,24 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        "comments": []
       }
     ```
+
 1. Send POST request to: `../rest/default/V1/creditmemo`
+
    ```JSON
        {
        "entity":
         --paste full response from previous step here--
        }
    ```
-      >![info]
-      >
-    >Note:
-such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
+
+   >![!NOTE]
+   >
+   >Such payload used only for simplifying reproducing - customer get the same issue after updating their custom attribute
 
 1. Check inventory_reservation table:
 
 <u>Actual results</u>:
+
 ```sql
 
 select * from inventory_reservation;

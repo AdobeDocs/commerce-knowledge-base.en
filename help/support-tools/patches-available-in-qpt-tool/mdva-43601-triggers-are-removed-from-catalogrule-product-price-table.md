@@ -30,9 +30,11 @@ Triggers are removed from `catalogrule_product_price` table after a full reindex
 
 1. Set all the indexers to *Update by Schedule*.
 1. Check the triggers created for `catalogrule_product_price` table by running the following SQL request:
+
     ```sql
     show triggers like '%catalogrule_%'\G
     ```
+
 1. Manually reindex `catalogrule_rule` or `catalogrule_product` by running the following command: `bin/magento indexer:reindex catalogrule_rule`
 1. Check the triggers of `catalogrule_product_price` table again.
 

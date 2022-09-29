@@ -33,6 +33,7 @@ The MDVA-37478 patch fixes the issue when you're unable to create a partial invo
 1. Login to the frontend using the company account created.
 1. Add the 2 products created to the cart, and checkout using the **Payment on Account** payment method.
 1. Try to create a partial invoice for the order created via REST API:
+
     ```php
     POST /rest/V1/order//invoice
     {

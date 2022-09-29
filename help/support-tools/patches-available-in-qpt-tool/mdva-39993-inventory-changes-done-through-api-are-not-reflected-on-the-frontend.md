@@ -37,6 +37,7 @@ Inventory modules installed.
 1. Make one option out of stock (COC001-Red-M).
 1. Load the configurable product page on the storefront and try clicking on each color. When you click **Red**, the size **M** should be crossed out because it is out of stock.
 1. Make COC001-Red-M in stock using the following API endpoint and the payload:
+
     ```json
     POST http://{domain}/rest/V1/inventory/source-items
 
@@ -51,6 +52,7 @@ Inventory modules installed.
       ]
     }
     ```
+
 1. Check this simple product from the backend and verify that it is updated to In Stock.
 1. Load the configurable product from the frontend and click on each color. Notice the size **M** when you click on **Red**.
 

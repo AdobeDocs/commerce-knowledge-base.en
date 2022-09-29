@@ -32,6 +32,7 @@ The user is unable to set Pricing and Structure for a shared catalog. The follow
 1. Create one store under the above website. The ids of the stores should be 0,1,2.
 1. Create three store views for the above store. The ids of the store views should be 0,1, 2, 3, 4.
 1. Delete the store view with id 2. Now the store table should look similar to the below table.
+
     ```bash
     MariaDB [m24devinvb2b]> SELECT store_id,code,website_id,group_id,name FROM store;
     +----------+----------------+------------+----------+--------------------+
@@ -43,6 +44,7 @@ The user is unable to set Pricing and Structure for a shared catalog. The follow
     |        4 | web1storeview3 |          2 |        2 | web1storeview3     |
     +----------+----------------+------------+----------+--------------------+
     ```
+
 1. Create a new shared catalog.
 1. When configuring Price and Structure, select the store created in Step 2.
 1. Save the shared catalog.

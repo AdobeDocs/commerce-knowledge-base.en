@@ -32,9 +32,11 @@ Actions that can produce full reindexing were performed from admin including:
 [Third-party extensions](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) can also cause full reindex. Full reindex may also be manually run from CLI. To find out if you have indexes being reindexed and potentially causing performance downgrade:
 
 1. Perform this query to find the indexers that were fully reindexed in the last 15 minutes:
+
     ```clike
     SELECT * FROM indexer_state WHERE updated > NOW() - INTERVAL 15 MINUTE;
     ```
+
     An indexer name in the output means that the indexer has been reindexed at least once during the last 15 minutes.
 
 1. If you found frequent full reindexation, investigate the following:

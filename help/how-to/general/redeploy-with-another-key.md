@@ -25,6 +25,7 @@ To redeploy with the correct authentication keys:
     ```
 1. Change to the project root directory.
 1. Open `auth.json` in a text editor.
+
     ```json
     {
        "http-basic": {
@@ -35,6 +36,7 @@ To redeploy with the correct authentication keys:
        }
     }
     ```
+
 1. Add the correct authentication keys.
 1. Save your changes and exit the text editor.
 1. Commit and merge your changes.

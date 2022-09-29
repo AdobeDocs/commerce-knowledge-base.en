@@ -31,12 +31,15 @@ The user is not able to set shipping address on the carts with an empty telephon
 1. Create a simple product.
 1. Go to **Stores** > **Configuration** > **Customers** > **Customer Configuration** > **Name and Address Options** and set the Show Telephone as Optional.
 1. Create an empty cart via GraphQL request.
+
     ```GraphQL
     mutation {
     createEmptyCart
     }
     ```
+
 1. Add product to cart.
+
     ```GraphQL
     mutation {
     addSimpleProductsToCart(
@@ -65,12 +68,15 @@ The user is not able to set shipping address on the carts with an empty telephon
     }
     }
     ```
+
 1. Add address: GRAPHQL VARIABLES.
+
     ```GraphQL
     {
       "cartId": "6Efw00UbjPoP5cvTFhsswDTjpxs0Xupt"
     }
     ```
+
     ```GraphQL
     mutation ($cartId: String!) {
       setShippingAddressesOnCart(input: {cart_id: $cartId, shipping_addresses:
@@ -125,7 +131,9 @@ The user is not able to set shipping address on the carts with an empty telephon
           }
       }
    ```
+
 1. Add address with empty phone number.
+
     ```GraphQL
     mutation ($cartId: String!) {
       setShippingAddressesOnCart(input: {cart_id: $cartId, shipping_addresses: {address: {firstname:
@@ -152,6 +160,7 @@ The user is not able to set shipping address on the carts with an empty telephon
     ```
 
 <u>Expected results</u>:
+
 ```GraphQL
 {
     "data": {
@@ -181,6 +190,7 @@ The user is not able to set shipping address on the carts with an empty telephon
 ```
 
 <u>Actual results</u>:
+
 ```GraphQL
 {
     "data": {
@@ -192,6 +202,7 @@ The user is not able to set shipping address on the carts with an empty telephon
     }
 }
 ```
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment type:

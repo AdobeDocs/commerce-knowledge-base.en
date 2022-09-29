@@ -42,7 +42,7 @@ To set the page hierarchy, use the **Hierarchy** section of the Edit Page menu.
 
 ![Hierarchy settings](assets/hierarchy_hr.png)
 
-You may also use the **Content** > **Elements** > **Hierarchy** menu — for more complex hierarchy solutions.
+You may also use the **Content** > **Elements** > **Hierarchy** menu &ndash; for more complex hierarchy solutions.
 
 For SEO purposes on product pages, use URL Rewrites (**Marketing** > **SEO & Search** > **URL Rewrites**).
 

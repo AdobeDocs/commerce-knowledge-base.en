@@ -21,6 +21,7 @@ The issue is caused by the incorrect Nginx configuration set in `.magento.app.ya
 ## Solution
 
 1. Check your `.magento.app.yaml` configuration file, at the `"/media"` location. The correct configuration looks like following:
+
    ```yaml
    "/media":
        root: "pub/media"
@@ -29,6 +30,7 @@ The issue is caused by the incorrect Nginx configuration set in `.magento.app.ya
        expires: 1y
        passthru: "/get.php"
    ```
+   
 1. If `passthru` is not set to `"/get.php"` and `expires` is not set, take the following steps.
 1. Correct the configuration file.
     * Starter Plan: correct the file yourself and push the changes.

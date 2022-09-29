@@ -10,7 +10,7 @@ This article provides a fix for blockers to launching on Adobe Commerce on cloud
 
 ## 1. Fastly Configuration
 
- [Fastly](https://www.fastly.com/) is a Varnish-based Content Delivery Network (CDN) for serving static assets. It is required for Adobe Commerce on cloud infrastructure on Production environments, so it's important to configure Fastly and test your website (UAT) with Fastly enabled and configured — on both Staging and Production environments.
+ [Fastly](https://www.fastly.com/) is a Varnish-based Content Delivery Network (CDN) for serving static assets. It is required for Adobe Commerce on cloud infrastructure on Production environments, so it's important to configure Fastly and test your website (UAT) with Fastly enabled and configured &ndash; on both Staging and Production environments.
 
 >![warning]
 >
@@ -43,7 +43,7 @@ Refer to this article for detailed steps: [Set up Fastly](http://devdocs.magento
 
 ## 2. Valid SSL (TLS) certificate
 
-Problem: Without a valid and working SSL certificate, you cannot test external payment methods on the Checkout page — on the Staging environment.
+Problem: Without a valid and working SSL certificate, you cannot test external payment methods on the Checkout page &ndash; on the Staging environment.
 
 Recommendation **:** Request your shared SSL certificate for Staging or Live domain names.
 

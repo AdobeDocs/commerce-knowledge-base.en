@@ -1,12 +1,12 @@
 ---
-title: "MDVA-43862: customer can’t update cart items because of a GraphQL UpdateCartItems mutation error"
+title: "MDVA-43862: customer can't update cart items because of a GraphQL UpdateCartItems mutation error"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.13,update,GraphQL,UpdateCartItems,mutation error,2.3.3,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
-description: "The MDVA-43862 patch solves the issue where the customer can’t update cart items because of a GraphQL UpdateCartItems mutation error. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.13 is installed. The patch ID is MDVA-43862. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
+description: "The MDVA-43862 patch solves the issue where the customer can't update cart items because of a GraphQL UpdateCartItems mutation error. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.13 is installed. The patch ID is MDVA-43862. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
 
-# MDVA-43862: customer can’t update cart items because of a GraphQL UpdateCartItems mutation error
+# MDVA-43862: customer can't update cart items because of a GraphQL UpdateCartItems mutation error
 
-The MDVA-43862 patch solves the issue where the customer can’t update cart items because of a GraphQL UpdateCartItems mutation error. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.13 is installed. The patch ID is MDVA-43862. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-43862 patch solves the issue where the customer can't update cart items because of a GraphQL UpdateCartItems mutation error. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.13 is installed. The patch ID is MDVA-43862. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The MDVA-43862 patch solves the issue where the customer can’t update cart ite
 
 ## Issue
 
-The customer can’t update cart items because of a GraphQL UpdateCartItems mutation error.
+The customer can't update cart items because of a GraphQL UpdateCartItems mutation error.
 
 <u>Steps to reproduce</u>:
 
@@ -39,13 +39,16 @@ The customer can’t update cart items because of a GraphQL UpdateCartItems muta
     * SKU: MHC1
     * Max Characters: 25
 1. Run the below GraphQL query to generate cart ID.
+
     ```GraphQL
     mutation {
       createEmptyCart
     }
     ```
+
 1. Make a note of the cart ID code.
 1. Run the below query to add configurable product to the cart:
+
     ```GraphQL
     mutation {
     addConfigurableProductsToCart(
@@ -84,9 +87,11 @@ The customer can’t update cart items because of a GraphQL UpdateCartItems muta
     }
     }
     ```
+
 1. You will notice that the cart is populated with the configurable item.
 1. Make a note of the uid returned.
 1. Again, run the below query to update the cart item.
+
     ```GraphQL
     mutation {
       updateCartItems(
@@ -122,6 +127,7 @@ The customer can’t update cart items because of a GraphQL UpdateCartItems muta
       }
     }
     ```
+
 1. Observe the response.
 
 <u>Expected results</u>:
@@ -131,6 +137,7 @@ The cart is updated without any issue.
 <u>Actual results</u>:
 
 You get the following error:
+
 ```GraphQL
 {
   "errors": [
@@ -155,6 +162,7 @@ You get the following error:
   }
 }
 ```
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

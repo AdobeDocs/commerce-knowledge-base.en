@@ -12,7 +12,7 @@ If you have a live site up-and-running on your production domain (`example.com`)
 
 Your current store that uses the `example.com` production domain is live and operating. However, you need to test your new store, built with Adobe Commerce on cloud infrastructure and deployed to the Production environment, with the Fastly full page cache service enabled.
 
-The problem is that the Production environment of your Adobe Commerce on cloud infrastructure project uses the same live domain (`example.com`), and you cannot switch your new site to this domain, simultaneously having your current live store running — on the same domain.
+The problem is that the Production environment of your Adobe Commerce on cloud infrastructure project uses the same live domain (`example.com`), and you cannot switch your new site to this domain, simultaneously having your current live store running &ndash; on the same domain.
 
 ### Why use Fastly for testing on the Production environment?
 
@@ -36,7 +36,7 @@ After performing the steps for subdomain configuration, you must also take these
 * Upload the DNS TXT record for SSL validation of your production domain.
 * [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting to validate the production domain for the SSL certificate.
 
-Using the subdomain allows you to perform a "soft launch" of your store in the future — since such launch only requires updating the corresponding DNS settings.
+Using the subdomain allows you to perform a "soft launch" of your store in the future &ndash; since such launch only requires updating the corresponding DNS settings.
 
 ## Related documentation
 

@@ -20,6 +20,7 @@ To set the needed NPM version, specify it in the `.magento.app.yaml` configurati
 1. On your local development environment, locate the `.magento.app.yaml` configuration file.
 1. Open the file for editing using your plain text editor or IDE.
 1. Set the required version in the `hooks:build` section. In the following example, the configuration is set to install NPM v9.5.0, the highest available at the moment (February 4, 2019):
+
    ```yaml
    hooks:
        build: |
@@ -29,6 +30,7 @@ To set the needed NPM version, specify it in the `.magento.app.yaml` configurati
            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
            nvm install 9.5.0
    ```
+   
 1. Save changes in the file.
 1. Git push the edited file to your [integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter).
 

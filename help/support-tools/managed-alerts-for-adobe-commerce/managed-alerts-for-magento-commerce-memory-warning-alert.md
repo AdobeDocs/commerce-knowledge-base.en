@@ -8,7 +8,7 @@ description: "This article provides troubleshooting steps for when you receive a
 
 This article provides troubleshooting steps for when you receive a memory warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 
-<img src = "assets/memory-warning-magento-managed.png" alt = "memory warning" width="500px">
+![memory warning](assets/memory-warning-magento-managed.png){width="500"}
 
 ## Affected products and versions
 

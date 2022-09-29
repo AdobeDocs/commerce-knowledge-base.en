@@ -31,9 +31,11 @@ The following symptoms indicate Elasticsearch is not configured correctly:
     * `var/log/exception.log`
     * or in the prompt (when you run a reindex, for example)
 * Errors indicating that the Elasticsearch version is not compatible with your current version of Adobe Commerce (this is an Adobe Commerce on cloud infrastructure specific error):
+
     ```clike
     [YYYY-MM-DD HH:MM:SS] CRITICAL: Fix configuration with given suggestions:    - Elasticsearch version #<version> is not compatible with current version of magento    Upgrade elasticsearch version to ~5.0
     ```
+
 Where *version* is the Elasticsearch Service running on the cloud environment.
 
 ## Cause

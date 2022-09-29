@@ -56,8 +56,10 @@ The default retention period is 12 months (will generate 12 indices). You can re
 
 Create a cron job to delete the tracking indices. This command deletes indices created in the last month:
 
- `curl -XDELETE localhost:9200/<name in index> * **\_tracking\_log** * _$(date
-    +'%Y%m' -d 'last month')*`
+```
+   curl -XDELETE localhost:9200/<name in index> * **\_tracking\_log** * _$(date
+    +'%Y%m' -d 'last month')*
+```
 
 If you want to delete indices at a set time-frequency, create a cron job by referring to the following articles in our developer documentation:
 

@@ -23,7 +23,7 @@ This article provides a workaround for a known issue in Adobe Commerce 2.4.0 for
 1. Click the **Check Out with Multiple Addresses** link.
 1. Select shipping addresses on the **Ship to Multiple Addresses** page.
 1. Click the **Go to Shipping Information** button.
-1. Select the **Flat Rate — Fixed Shipping Method** for each address.
+1. Select the **Flat Rate &ndash; Fixed Shipping Method** for each address.
 1. Click the **Continue to Billing Information** button.
 1. Check the **Use Your Reward Points** checkbox on the **Billing Information** page.
 1. Click the **Go to Review Your Order** button.

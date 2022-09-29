@@ -28,9 +28,11 @@ User is not able to add sites into the [Commerce Security Scan](https://account.
 If none of the above helps:
 
 1. Place another HTML comment on the page:
+
     ```HTML
     <!-- MAGEID:Your magento.com ID, EMAIL:your email address -->
     ```
+
 1. Submit a support ticket and provide the following information:
     * Adobe Commerce store URL
     * MAGEID + Magento.com account email

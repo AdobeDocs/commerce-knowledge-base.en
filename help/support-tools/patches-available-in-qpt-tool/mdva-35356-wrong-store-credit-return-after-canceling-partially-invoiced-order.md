@@ -31,9 +31,11 @@ Adobe Commerce (all deployment methods) 2.3.0-2.4.2
 1. Log in with the above user, and add the three products to the cart.
 1. Check out the three products in the cart, and utilize the store credit for a portion of the order (Example: paid with **Check/Money order**).
 1. Perform two invoices on the order through the API, one for Product 1 and one for Product 2:
+
     ```php
     //endpoint POST {\{baseUrl}}/V1/order/:orderId/invoice    //1st API call:    {    "capture": true,    "items": [    {    "order_item_id": 1,    "qty": 1    }    ],    "notify": true,    "appendComment": false    }    //2nd API call:    {    "capture": true,    "items": [    {    "order_item_id": 2,    "qty": 1    }    ],    "notify": true,    "appendComment": false    }
     ```
+
 1. Notice that the store credit is fully applied to the first invoice.
 1. ​Notice that the store credit balance = *0*.
 1. Cancel the order, and see that two items are invoiced and that the third item is canceled.

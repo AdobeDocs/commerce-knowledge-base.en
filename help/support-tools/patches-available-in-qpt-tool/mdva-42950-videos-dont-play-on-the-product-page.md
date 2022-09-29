@@ -31,9 +31,11 @@ Videos are not being played on the product page.
 1. Configure YouTube API key by navigating to **Stores** > **Configuration** > **Catalog** > **Product Video**.
 1. Add a video from YouTube into any simple product which has parent configurable.
 1. Add HEADER HTML in Content > **Design** > **Configuration** > **HTML Head** > **Scripts and Stylesheets**:
+
     ```HTML
     <script async="" src="https://www.youtube.com/iframe_api"></script>`
     ```
+
 1. Go to the PDP, and select product configuration to see the video in the list of photos and videos.
 1. Try to play the video.
 

@@ -8,7 +8,7 @@ description: "This article provides troubleshooting steps for when you receive a
 
 This article provides troubleshooting steps for when you receive an Apdex warning alert for Adobe Commerce in New Relic. The Apdex score measures users' satisfaction to the response time of web applications and services. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 
-<img src = "assets/apdex-warning-magento-managed.png" alt = "apdex warning alert" width="500px">
+![apdex warning alert](assets/apdex-warning-magento-managed.png){width="500"}
 
 ## Affected products and versions
 

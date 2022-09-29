@@ -51,6 +51,7 @@ To fix the issue, you need to set `is_filterable` (that is, used in Layered Navi
 
 1. Create a database backup.
 1. Use a database tool such as [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), or access the DB manually from the command line to run the following SQL query:
+
     ```sql
     UPDATE catalog_eav_attribute AS cea
         INNER JOIN eav_attribute AS ea
@@ -59,14 +60,19 @@ To fix the issue, you need to set `is_filterable` (that is, used in Layered Navi
     WHERE (cea.is_filterable = 1 OR cea.is_filterable_in_search = 1)
         AND frontend_input NOT IN ('boolean', 'multiselect', 'select', 'price');
     ```
+
 1. Run the Catalog Search full reindex using the following command:
+
     ```bash
     bin/magento indexer:reindex catalogsearch_fulltext
     ```
+
 1. Clean cache by running
+
     ```bash
     bin/magento cache:clean
     ```
+
 or in the Commerce Admin under **System** > **Tools** > **Cache Management**.
 
 Now you should be able to perform catalog searches with no issues.

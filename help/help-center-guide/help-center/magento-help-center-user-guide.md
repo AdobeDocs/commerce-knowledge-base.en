@@ -81,16 +81,18 @@ To search for articles, follow these steps:
 1. Go to the Knowledge Base landing page at <https://support.magento.com/hc/en-us>.
 1. In the **Search** field, start entering the keywords that an article should have. For example, *Redis*, *error*, *configuration management*, etc.
 
-    <img src = "assets/search-field-1.png" alt = "search-field" width="800px">
+    ![search-field](assets/search-field-1.png){width="800"}
+
 1. The top article suggestions are displayed below the **Search** field.
 1. Select an article from the list and click it.
 
-    <img src = "assets/search-article-2.png" alt = "search-field" width="800px">
+    ![search-field](assets/search-article-2.png){width="800"}
+
 1. If you want the results of your search to be displayed on a new page:
     * Do not select an article from the suggestion list
     * After typing your search query, press Enter on your keyboard
 
-        <img src = "assets/search-enter-3.png" alt = "search-enter" width="800px">
+        ![search-enter](assets/search-enter-3.png){width="800"}
 
 The search is not limited to the article title but also includes the article text; the most relevant matches are displayed first.
 
@@ -122,7 +124,7 @@ Please vote, your opinion matters!
 
 ## SUPPORT TICKETS {#support-tickets}
 
-Adobe Commerce Ticketing System allows working with support tickets to address the particular issues you are experiencing while working with Adobe Commerce — for all Adobe Commerce products.
+Adobe Commerce Ticketing System allows working with support tickets to address the particular issues you are experiencing while working with Adobe Commerce &ndash; for all Adobe Commerce products.
 
 ## LOG IN TO HELP CENTER {#login}
 
@@ -149,7 +151,7 @@ To submit a new support ticket using the starting page of Adobe Commerce Help Ce
 1. Go to [Adobe Commerce Help Center](https://support.magento.com/hc/en-us).
 1. Click **Submit a ticket** at the upper-right corner.
 
-    <img src = "assets/submit-a-ticket-4.png" alt = "submit-a-ticket" width="800px">
+    ![submit-a-ticket](assets/submit-a-ticket-4.png){width="800"}
 1. Fill in the fields.
 1. Click **Submit**.
 
@@ -238,13 +240,13 @@ If you are having issues logging in to your account or believe Shared Access was
 
 You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento Account page](https://account.magento.com/).
 
-<img src = "assets/Verify_Email_Address_Error.png" alt = "Verify_Email_Address_Error" width="800px">
+![Verify_Email_Address_Error](assets/Verify_Email_Address_Error.png){width="800"}
 
 The solution is to validate your email address:
 
 1. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below.
 
-    <img src = "assets/Validate_Email_Solution.png" alt = "Validate_Email_Solution" width="800px">
+    ![Validate_Email_Solution](assets/Validate_Email_Solution.png){width="800"}
 
 1. Clicking the **Validate Email** button will send an email to the email address registered for this Magento Account with a link to validate the email address.
 1. Click on the email validation link to validate your email and resolve this issue.
@@ -293,7 +295,7 @@ Your tickets are those that you:
 
 To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select **My tickets**.
 
-<img src = "assets/my-tickets-8.png" alt = "disc critical alert" width="800px">
+![disc critical alert](assets/my-tickets-8.png){width="800"}
 
 To switch between your tickets and the tickets you have been CC'd on, click the corresponding tab:
 
@@ -418,7 +420,7 @@ This is a drop-down and only applicable for Order Management product.
 
 #### Organization
 
-Indicate the organization you would like your ticket to be associated with — in case you work with several organizations.
+Indicate the organization you would like your ticket to be associated with &ndash; in case you work with several organizations.
 
 This field appears when your account is associated with more than one organization.
 
@@ -472,7 +474,7 @@ Please select the Adobe Commerce version you are requesting help with. All suppo
 
 To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
 
-<img src = "assets/magento-env-id.png" alt = "Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search">
+![Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search](assets/magento-env-id.png)
 
 If you are using [Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html) or [OpenSearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/es-aws.html), do not select this option.
 

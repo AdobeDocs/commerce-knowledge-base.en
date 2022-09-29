@@ -41,7 +41,8 @@ Install a fresh Magento instance with sample data.
       * Set **Active** = *Yes*.
       * Save.
 1. Go to the backend, and run:
-   ```php    bin/magento cron:run    ```
+
+   `php    bin/magento cron:run`
 
  <span class="wysiwyg-underline">Expected results</span>:
 

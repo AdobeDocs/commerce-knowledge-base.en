@@ -37,6 +37,7 @@ Sample data is installed.
 1. Set the inventory of the variant (simple) product to **Out of Stock**.
 1. Reindex.
 1. Execute the below GraphQL query:
+
     ```GraphQL
     query {
       products(filter: { sku: { eq: "MH01" } }) {
@@ -76,6 +77,7 @@ Sample data is installed.
       }
     }
     ```
+    
 1. Check the response section `minimum_price` > `regular price`.
 
 <u>Expected results</u>:

@@ -24,10 +24,13 @@ One reason for performance degradation might be certain Adobe Commerce cache typ
 ## Solution
 
 1. First, check the status of your Adobe Commerce cache, to see if this is the issue. For this, [SSH to your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) and run the following command:
+
     ```bash
     php bin/magento cache:status
     ```
+
     This would display the status of each cache type ("0" for disabled, "1" for enabled). Or you can get this information in the `app/etc/env.php` file.
+
 1. Investigate the disabled cache types. All Adobe Commerce cache types should be enabled, unless you received alternative guidance from Adobe. Third party extensions must not require disabling Adobe Commerce cache.
 1. If the investigation confirms that some cache types are disabled by mistake, enable them by running the following command for each cache type: `php bin/magento cache:enable <your_disabled_cache_type>`
 
@@ -42,12 +45,7 @@ Adobe Commerce cache documentation in our developer documentation:
 
 Other possible reasons for performance issues and solutions for them:
 
-<ul><li>
-<p title="Disable Adobe Commerce Banner output to improve site performance    "><a href="https://support.magento.com/hc/en-us/articles/360035285852">Disable Adobe Commerce Banner output to improve site performance</a></p>
-</li><li>
-<p title="MySQL tables are too large"><a href="https://support.magento.com/hc/en-us/articles/360038862691">MySQL tables are too large</a></p>
-</li><li>
-<p title="Slow performance, slow and long running crons"><a href="https://support.magento.com/hc/en-us/articles/360034631192">Slow performance, slow and long running crons</a></p>
-</li><li>
-<p title="Restricted admin access causing performance issues"><a href="https://support.magento.com/hc/en-us/articles/360036323211">Restricted admin access causing performance issues</a></p>
-</li></ul>
+* [Disable Adobe Commerce Banner output to improve site performance](https://support.magento.com/hc/en-us/articles/360035285852)
+* [MySQL tables are too large](https://support.magento.com/hc/en-us/articles/360038862691)
+* [Slow performance, slow and long running crons](https://support.magento.com/hc/en-us/articles/360034631192)
+* [Restricted admin access causing performance issues](https://support.magento.com/hc/en-us/articles/360036323211)

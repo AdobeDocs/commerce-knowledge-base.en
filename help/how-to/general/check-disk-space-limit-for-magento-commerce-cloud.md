@@ -9,10 +9,10 @@ description: "To check how much space you have for each Adobe Commerce on cloud 
 To check how much space you have for each Adobe Commerce on cloud infrastructure environment:
 
 1. As the Adobe Commerce on cloud infrastructure Account Owner, log in to your project.
-1. In the upper right corner, click **<your name>** > **Account Settings**.
+1. In the upper right corner, click **`<your name>`** > **Account Settings**.
 1. On the project tab, see the amount specified, for example:
 
-    <image src = "assets/project_space.png" alt = "project space">
+   ![project space](assets/project_space.png)
 
 ## Related reading
 

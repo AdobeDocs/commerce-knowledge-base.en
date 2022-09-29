@@ -18,9 +18,11 @@ If you had an outage that was potentially caused by an overloaded database, thes
 
 1. Log in to your MySQL command line (Adobe Commerce on-premises/Magento Open Source) or on your cloud server from the command line (Adobe Commerce on cloud infrastructure).
 1. Examine the slow query log for queries longer than 50 seconds:
+
    ```bash
    grep 'Query_time: [5-9][0-9]\|Query_time: [0-9][0-9][0-9]' /var/log/mysql/mysql-slow.log -A 3
    ```
+
 1. Go to <https://www.unixtimestamp.com/> (or a similar Unix Timestamp Converter) and insert the timestamp of when the slow query was executed.
 1. If the time correlates with any site outage that you experienced, it could be caused by an overloaded database. Check to see what loads were on the database at that time. Examples of such loads could be:
 

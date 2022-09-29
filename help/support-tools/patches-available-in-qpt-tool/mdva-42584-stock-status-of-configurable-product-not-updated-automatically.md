@@ -37,6 +37,7 @@ MSI installed.
 1. Now, update both simple products and set Quantity to **0** and Stock Status to **Out of Stock**.
 1. Refresh the configurable product and verify the stock status is updated to **Out of Stock**.
 1. Use the following API endpoint and set the simple product **InvCheck001-M** to **In Stock** with Quantity > 0.
+
     ```JSON
     /rest/V1/inventory/source-items
 
@@ -52,6 +53,7 @@ MSI installed.
       ]
     }
     ```
+    
 1. Go to the backend and verify the quantity and stock status of the simple product **InvCheck001-M**. It is updated to **In stock**.
 1. Refresh the configurable product and check the stock status.
 

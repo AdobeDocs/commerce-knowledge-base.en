@@ -95,7 +95,7 @@ After performing these steps, our git branch gets reset and the entire git chang
 
 This section shows how to reset an environment when it is in a critical state: the deployment procedure cannot succeed in building a working application, thus making the SSH connection unavailable.
 
-In this scenario, you must first restore the working state of your Adobe Commerce application using git reset, then uninstall the Adobe Commerce software (to drop and restore the database, remove the deployment configuration, etc.). The scenario involves the same steps as in Scenario 2, but the order of steps is different and there is an additional step — force redeploy. The steps are:
+In this scenario, you must first restore the working state of your Adobe Commerce application using git reset, then uninstall the Adobe Commerce software (to drop and restore the database, remove the deployment configuration, etc.). The scenario involves the same steps as in Scenario 2, but the order of steps is different and there is an additional step &ndash; force redeploy. The steps are:
 
 1. [Reset the git branch.](https://support.magento.com/hc/en-us/articles/360000852534#reset-git-branch)
 1. [Disable Configuration Management.](https://support.magento.com/hc/en-us/articles/360000852534#disable_config_management)

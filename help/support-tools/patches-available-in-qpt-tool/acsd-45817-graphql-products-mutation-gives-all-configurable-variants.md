@@ -38,6 +38,7 @@ Create a 2nd website, 2nd store, and a 2nd store view.
 1. Go to the **Storefront**, switch to the 2nd website, and open the configurable product.
 1. Make sure you see only one child option: "configurable-a".
 1. Run a GraphQL query using `POST: /graphql` endpoint, and `Headers: "store" = "new"`
+
     ```GraphQL
     {
       products(filter: { sku: { eq: "configurable" } }) {

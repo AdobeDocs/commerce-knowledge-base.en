@@ -47,6 +47,7 @@ The order data returns negative values for row totals when using Rest API.
 1. Create an admin order including four of these products using the coupon code created in the previous step. Use the free shipping.
 1. Payment should not be required as the coupon code covers the cart total.
 1. Retrieve the order that was just created via Rest API endpoint:
+
     ```json
     GET rest/V1/orders/1
     ```

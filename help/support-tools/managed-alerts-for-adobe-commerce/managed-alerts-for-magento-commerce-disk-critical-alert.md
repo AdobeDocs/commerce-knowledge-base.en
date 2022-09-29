@@ -8,7 +8,7 @@ description: "This article provides troubleshooting steps when you receive a cri
 
 This article provides troubleshooting steps when you receive a critical disk alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 
-<img src = "assets/disk-critical-magento-managed.png" alt = "disc critical alert" width="500px">
+![disc critical alert](assets/disk-critical-magento-managed.png){width="500"}
 
 ## Affected products and versions
 
@@ -41,7 +41,7 @@ Follow these steps to identify and troubleshoot the cause.
 >Because this is a critical alert, it is highly recommended you complete **Step 1** before you try to troubleshoot the issue (Step 2 onwards).
 
 1. Check if an Adobe Commerce support ticket exists. For steps, refer to [Track your support tickets](https://support.magento.com/hc/en-us/articles/360000913794#track-tickets) in our support knowledge base. Support may have received a New Relic threshold alert, created a ticket and started working on the issue. If no ticket exists, create one. The ticket should have the following information:
-    * Contact Reason: select “New Relic CRITICAL alert received.”
+    * Contact Reason: select "New Relic CRITICAL alert received."
     * Description of the alert.
     * [New Relic Incident link](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents) . This is included in your [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832).
 1. In New Relic, review disks for highest use. For steps refer to Storage tab on New Relic [Infrastructure monitoring Hosts page:](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-hosts-page/)

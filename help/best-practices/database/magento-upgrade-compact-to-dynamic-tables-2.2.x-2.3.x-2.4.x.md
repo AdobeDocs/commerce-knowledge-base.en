@@ -35,7 +35,7 @@ Upgrading your MariaDB version to 10.2 or later is rejected by Adobe Commerce su
 
     ```mysql
        SELECT table_schema as 'Database', table_name AS 'Table', round(((data_length + index_length) / 1024 / 1024), 2) 'Size in MB' FROM information_schema.TABLES ORDER BY (data_length + index_length) DESC;
-     ```
+    ```
 
 1. Run this command to covert the tables that need to be converted into ``Dynamic``. You need to do this one by one for every table on the database that needs to be converted:
 

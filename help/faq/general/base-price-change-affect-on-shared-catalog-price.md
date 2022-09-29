@@ -16,7 +16,7 @@ In other words, when the base price gets updated (via a normal or a scheduled up
 
 ## With custom price set to Fixed, shared catalog price does not change
 
-If the custom price for a product in a shared catalog has been set to Fixed, the price in the shared catalog never changes — no matter the way we update the base price (via scheduled update, Adobe Commerce Admin, API, or importing).
+If the custom price for a product in a shared catalog has been set to Fixed, the price in the shared catalog never changes &ndash; no matter the way we update the base price (via scheduled update, Adobe Commerce Admin, API, or importing).
 
 ## Storefront always displays the lowest available price
 

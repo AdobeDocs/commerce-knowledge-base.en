@@ -17,12 +17,15 @@ This article instructs how to apply a composer patch for Adobe Commerce on-premi
 1. If you do not have a directory named `m2-hotfixes` in the project root, please create one.
 1. Copy the `%patch_name%.composer.patch` file(s) to the `m2-hotfixes` directory.
 1. Add, commit, and push your code changes:
+
     ```git
     git add -A
     ```
+
     ```git
     git commit -m "Apply %patch_name%.composer.patch patch"
     ```
+
     ```git
     git push origin
     ```
@@ -33,8 +36,11 @@ For additional information about applying patches to Cloud projects, see [Apply 
 
 1. Upload the patch to your Adobe Commerce on-premises or Magento Open Source root directory.
 1. Run the following SSH command:
+
     ```bash
     patch -p1 < %patch_name%.composer.patch
     ```
+
    (If the above command does not work, try using `-p2` instead of `-p1` )
+
 1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management**.

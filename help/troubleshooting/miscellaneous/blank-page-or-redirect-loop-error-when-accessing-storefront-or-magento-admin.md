@@ -49,6 +49,7 @@ Fixing the issue:
 
 1. Set the value starting with `https` for `web/secure/base_url.`
 1. For the changes to be applied, clean the configuration cache by running the following command:
+
     ```bash
     php <your_magento_install_dir>/bin/magento cache:clean config
     ```

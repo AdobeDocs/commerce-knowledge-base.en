@@ -16,15 +16,14 @@ I am developing a headless implementation of Adobe Commerce. Do I still need to 
 
 ## **Answer**
 
-No, you don't. In this situation, you may skip using Fastly — at least, in the beginning of development.
+No, you don't. In this situation, you may skip using Fastly &ndash; at least, in the beginning of development.
 
->
->The only situation you may not want to enable is for a headless deployment.
+The only situation you may not want to enable is for a headless deployment.
 See [Cloud for Adobe Commerce > Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) in our developer documentation.
 
 Still, most probably, you will need Fastly for using its SSL certificate.
 
-All Adobe Commerce on cloud infrastructure customers get a shared SSL certificate from Fastly as a part of the cloud subscription plan. Adding own SSL certificate to Fastly is a separate and rather expensive paid option. Thus, we strongly recommend to enable Fastly and, at least, test it on Staging and Production environments before going live — even for your headless Adobe Commerce website.
+All Adobe Commerce on cloud infrastructure customers get a shared SSL certificate from Fastly as a part of the cloud subscription plan. Adding own SSL certificate to Fastly is a separate and rather expensive paid option. Thus, we strongly recommend to enable Fastly and, at least, test it on Staging and Production environments before going live &ndash; even for your headless Adobe Commerce website.
 
 ## More information
 
