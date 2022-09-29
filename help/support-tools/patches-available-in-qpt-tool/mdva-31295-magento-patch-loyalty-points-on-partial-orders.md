@@ -26,7 +26,7 @@ The MDVA-31295 patch fixes the issue where reward points are not calculated corr
 
 Rewards are not applied to customers' accounts when the order is complete (partially shipped) and items are taxed. When the items are not taxed, the rewards are added to the customers' accounts successfully.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to storefront as a customer.
 1. Add two products to the cart.
@@ -38,11 +38,11 @@ Rewards are not applied to customers' accounts when the order is complete (parti
 1. In the admin, go to **Customers** > Choose customer purchase made before > **Reward Points** > **Reward Points History**.
 1. Check earned reward points for the placed order.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The reward points should be calculated for taxable orders when a partial order completes.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Reward points are not calculated for a taxable order when a partial order completes.
 

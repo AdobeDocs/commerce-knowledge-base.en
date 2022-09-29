@@ -26,7 +26,7 @@ The MDVA-39966 patch solves the issue where the user is unable to deploy locales
 
 Unable to deploy locales other than en_US.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Configure two store views with different locales, for example - en_US and de_DE.
 1. Try to deploy static content for these locales by running the following command:
@@ -36,7 +36,7 @@ bin/magento setup:static-content:deploy --language=en_US
 bin/magento setup:static-content:deploy --language=de_DE
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 de_DE locale is deployed.
 ```bash
@@ -50,7 +50,7 @@ frontend/Magento/luma/de_DE             2504/2504           ====================
 Execution time: 27.062166929245
 ```
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 en_US locale deployed instead of de_DE:
 ```bash

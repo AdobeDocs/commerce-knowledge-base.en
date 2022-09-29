@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.3 - 2.
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create two websites with stores.
 1. Go to **Stores > Configurations > Catalog > Catalog > Price > Catalog** and Set **Price Scope** = *Website*.
@@ -58,11 +58,11 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.3 - 2.
         PUT {{base_url}}/rest/en_au/async/V1/products/{{sku}}    {        "product": {            "custom_attributes": [                {                    "attribute_code": "text_attr",                    "value": 21                                   }            ]                    }    }
     ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Other attribute values remain the same when updating a product attribute using async rest API, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The special price, that was set using async rest API under the store scope, gets removed.
 

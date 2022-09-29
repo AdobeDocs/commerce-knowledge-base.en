@@ -20,15 +20,15 @@ error when using Progressive Web App (PWA) Studio for Adobe Commerce.
 
 ## Issue
 
-<ins>Step to reproduce</ins>:
+<u>Step to reproduce</u>:
 
 * Load your Adobe Commerce store in a browser.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 * The Adobe Commerce store loads normally in your browser.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 * Your web browser displays the “*Cannot proxy to*“ error and the console displays an error like:
 

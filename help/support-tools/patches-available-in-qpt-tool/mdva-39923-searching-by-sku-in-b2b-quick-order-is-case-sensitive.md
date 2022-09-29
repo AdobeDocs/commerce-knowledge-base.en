@@ -16,7 +16,7 @@ Adobe Commerce (all deployment methods) 2.4.1-p1
 
 **Compatible with Adobe Commerce versions:**
 
-Adobe Commerce (all deployment methods) 2.4.1 – 2.4.2-p2
+Adobe Commerce (all deployment methods) 2.4.1 &ndash;  2.4.2-p2
 
 >![info]
 >
@@ -26,11 +26,11 @@ Adobe Commerce (all deployment methods) 2.4.1 – 2.4.2-p2
 
 Searching by SKU in B2B quick order functionality is case-sensitive and shows an error when a different case is used than the one with which the SKU is saved.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 B2B modules are installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the admin and go to **Stores** > **Configuration** > **B2B**.
 1. Enable **Shared Catalog** and **Quick Order**.
@@ -39,11 +39,11 @@ B2B modules are installed.
 1. Log in as a customer and click on **Quick Order**.
 1. Enter the SKU in lowercase, e.g., test20-1234.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product should be found irrespective of the case used.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following error message is received: *1 product(s) require(s) your attention*.
 

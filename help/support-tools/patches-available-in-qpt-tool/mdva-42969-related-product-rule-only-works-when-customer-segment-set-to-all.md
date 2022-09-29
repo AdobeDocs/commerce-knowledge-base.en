@@ -26,7 +26,7 @@ The MDVA-42969 patch fixes the issue where the related product rule only works w
 
 Related product rule only works when the customer segment is set to all.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > **Configuration** > **Catalog** > **Rule-Based Product Relations** and set **Show Related Products** = **Rule-Based Only**.
 1. Go to **Customers** > **Segments** and create a new segment: **Apply To** = **Visitors and Registered Customers**.
@@ -43,13 +43,13 @@ Related product rule only works when the customer segment is set to all.
 1. Modify the rule created in step three and set **Customer Segments** = **Specific** > **Segment** from step two.
 1. Open the matching product on the storefront.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Rule-Based Related Products are displayed on the storefront for visitors on the product because the customer segment is created with the following configuration:
 
 **Apply To** = **Visitors and Registered Customers**
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 No Related Products are displayed.
 

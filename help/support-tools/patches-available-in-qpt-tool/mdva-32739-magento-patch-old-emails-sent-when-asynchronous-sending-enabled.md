@@ -24,17 +24,17 @@ The MDVA-32739 patch fixes the issue where enabling [asynchronous email notifica
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Disable asynchronous email sending.
 1. Create an order and make sure sending of the email is failing.
 1. Enable asynchronous sending.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Emails are sent out only for those orders, shipments, invoices and credit memos, which were created after the last asynchronous sending update.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The old email will be sent out via the cronjob.
 

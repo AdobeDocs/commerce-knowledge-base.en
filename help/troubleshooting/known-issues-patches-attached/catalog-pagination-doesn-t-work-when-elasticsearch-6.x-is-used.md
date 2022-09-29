@@ -23,18 +23,18 @@ After this patch is installed, users will be able to page through all search res
 
 An issue has been discovered in Magento Open Source, Adobe Commerce on-premises, and Adobe Commerce on cloud infrastructure where Search result page pagination doesn't work if you switch the page.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Install Adobe Commerce.
 1. Enable Elasticseach 6 as a catalog search engine.
 1. Add a number of products to Category that goes past the 1-page limit set in the Admin. **Note**: 12 is the default number of products displayed per page in Adobe Commerce 2.3.3.
 1. Open Category on storefront (either search results or category page) and go to page 2.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Products should be displayed on the second page.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
  **"***We can't find products matching the selection***"** message is shown on the second page.
 

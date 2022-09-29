@@ -16,7 +16,7 @@ Adobe Commerce (all deployment methods) 2.3.7
 
 **Compatible with Adobe Commerce versions:**
 
-Adobe Commerce (all deployment methods) 2.3.2 – 2.3.7-p2
+Adobe Commerce (all deployment methods) 2.3.2 &ndash;  2.3.7-p2
 
 >![info]
 >
@@ -26,15 +26,15 @@ Adobe Commerce (all deployment methods) 2.3.2 – 2.3.7-p2
 
 Items remain in the mini-cart even after a successful order placement using PayPal Express Checkout.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Place an order using PayPal Express Checkout in the Incognito mode in a browser.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Mini-cart should be empty after the successful completion of the order.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * The success page shows an empty mini-cart.
 * All other pages show mini-cart with purchased items.

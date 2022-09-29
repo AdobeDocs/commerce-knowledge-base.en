@@ -26,22 +26,22 @@ The MDVA-30815 patch fixes the issue where Elasticsearch displays a blank page w
 
 When using Elasticsearch, if you change the search results' limiter options, Adobe Commerce displays a blank page.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Elasticsearch is **enabled**. Go to **STORES** > **Settings** > **Configuration** > **Catalog** > **Catalog Search**.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to your site.
 1. Search for a product on the main search field.
 1. After the search result pages are displayed, click on the last page in the search result pages.
 1. Select **Show xx per page** from the limiter option. Make sure that this is a different search result number limit than currently configured.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The page displays the configured number of product results.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Blank page displays. This error can also be seen in the `var/report` : *\`"0":"SQLSTATE\[42000\]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near'\`*
 

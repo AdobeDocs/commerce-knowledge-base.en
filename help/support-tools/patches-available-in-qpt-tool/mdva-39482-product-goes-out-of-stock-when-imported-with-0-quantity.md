@@ -16,7 +16,7 @@ Adobe Commerce (all deployment methods) 2.4.1-p1
 
 **Compatible with Adobe Commerce versions:**
 
-Adobe Commerce (all deployment methods) 2.3.6 – 2.3.7-p2, 2.4.1 - 2.4.3-p1
+Adobe Commerce (all deployment methods) 2.3.6 &ndash;  2.3.7-p2, 2.4.1 - 2.4.3-p1
 
 >![info]
 >
@@ -26,14 +26,14 @@ Adobe Commerce (all deployment methods) 2.3.6 – 2.3.7-p2, 2.4.1 - 2.4.3-p1
 
 The product goes out of stock if imported with "0" quantity when MSI and backorders are enabled and the Out-of-Stock Threshold is set to a minus value.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. MSI and sample data must be installed.
 1. Go to **Stores** > **Configurations** > **Catalog** > **Inventory**:
     * Set Backorders to "Allow Qty Below 0"
     * Set Out-of-Stock Threshold to "-10"
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Make sure the SKU is **In Stock** and has quantity **24-MB01**.
 1. Import the Stock Sources' CSV. Make sure you select "Stock Sources" in Entity Type:
@@ -44,11 +44,11 @@ The product goes out of stock if imported with "0" quantity when MSI and backord
     ```
 1. Check the product's stock status after the Stock Sources have been imported.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 24-MB01 is **In Stock** in Storefront.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 24-MB01 is **Out-of-Stock** in Storefront.
 

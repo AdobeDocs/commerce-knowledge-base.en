@@ -26,7 +26,7 @@ The MDVA-44562 patch fixes the issue where the default store id overrides the st
 
 The store id for quote items is overridden by the default store id for GraphQL requests.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new store view.
 1. Create a new simple product with different names per store view.
@@ -82,11 +82,11 @@ The store id for quote items is overridden by the default store id for GraphQL r
     </code>
     </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Response from the new store view shows the product name from the new store view.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Response from the new store view shows the product name setup under the default store view.
 

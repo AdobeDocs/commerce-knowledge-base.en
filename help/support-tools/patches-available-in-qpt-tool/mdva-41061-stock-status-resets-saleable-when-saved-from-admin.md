@@ -26,11 +26,11 @@ Adobe Commerce (all deployment methods) 2.4.2 - 2.4.2-p2, 2.4.3 - 2.4.3-p2
 
 Stock status resets to saleable when the product is saved from the Admin.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Inventory modules is installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product with Qty = 1.
 1. Place an order using the product created in step 1.
@@ -38,12 +38,12 @@ Inventory modules is installed.
 1. Check product on the frontend. It should be marked as **Out of Stock**.
 1. Save product in the Admin without any changes.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * Stock status should not be updated.
 * The product should be **Out of Stock** on the frontend.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * Simple product is marked as **In Stock** on the frontend.
 * Users get *The requested qty is not available* message when trying to add it to the cart.

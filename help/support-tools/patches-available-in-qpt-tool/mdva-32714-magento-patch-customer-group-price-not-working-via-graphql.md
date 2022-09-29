@@ -30,12 +30,12 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.4 - 2.
 
 Customer group price for the general customer is not added in GraphQL product query response.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable and set Special Price for any product for any customer group.
 1. Use product query in GraphQL to pull prices for this product, as described in: [Products query > Sample query](https://devdocs.magento.com/guides/v2.4/graphql/queries/products.html#sample-queries) in our developer documentation.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 ```api
 price_range
@@ -43,7 +43,7 @@ price_range
 
 displays the discounted price for general customers according to what has been defined in the Admin Panel.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 ```api
 price_range

@@ -26,7 +26,7 @@ The MDVA-43178 patch fixes the issue where the customer token for a custom store
 
 Customer token for a custom store cannot be retrieved in GraphQL.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create two Store Views for the default store.
 1. Create a new Website, one Store, and one Store View. Name this Store View 'test3'.
@@ -58,11 +58,11 @@ Customer token for a custom store cannot be retrieved in GraphQL.
       </code>
       </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Customer token is generated.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Customer token is not generated. Merchants get *Customer email provided does not exist* in response.
 

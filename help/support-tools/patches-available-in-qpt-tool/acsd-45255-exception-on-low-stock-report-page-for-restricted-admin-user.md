@@ -26,22 +26,22 @@ The ACSD-45255 patch solves the issue where an exception is thrown on the Low St
 
 An exception is thrown on the Low Stock Report page for a restricted admin user.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * The inventory modules are enabled.
 * There is an additional website, store, and store view.
 * There is a restricted admin user with access only to the additional website.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Open the Commerce Admin as the restricted admin user.
 1. Go to **Reports** > **Products** > **Low Stock**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The Low Stock report is displayed for the restricted admin user.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 An exception is thrown:
 

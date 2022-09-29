@@ -26,7 +26,7 @@ The MDVA-44533 patch fixes the issue where a discount is incorrectly applied to 
 
 Discount is incorrectly applied to a bundled child product.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product with price of 50$.
 1. Create a bundled product, and assign the simple product as the only option for the bundled product.
@@ -39,11 +39,11 @@ Discount is incorrectly applied to a bundled child product.
 1. Go to the cart and check that the total cost of the bundle product is 50$ and the discount doesn't apply.
 1. Change quantity to 2 and update the cart. The total cost of the bundled product should now be 100$.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The discount is not applied because the subtotal is 100\$, which is less than 130\$ in the rule condition.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The discount is applied.
 

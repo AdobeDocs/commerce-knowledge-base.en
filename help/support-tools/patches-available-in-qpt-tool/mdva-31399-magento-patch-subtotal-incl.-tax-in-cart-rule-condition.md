@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.2 - 2.
 
 It is impossible to apply a cart price rule based on Subtotal (Incl. Tax) number.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Configure product price to include tax.
 1. Create a tax rule and tax rate for 20%.
@@ -35,11 +35,11 @@ It is impossible to apply a cart price rule based on Subtotal (Incl. Tax) number
 
 **Conditions**: *If ALL of these conditions are TRUE :*        * **Subtotal** equals or greater than 100.*
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 There is ability to create a subtotal cart price rule with coupon to apply discount to subtotal including tax.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 There are two options in cart rule conditions: *Subtotal* and *Subtotal (Excl. Tax)*, and whatever one is selected, the rule is applied only to subtotal excluding tax.
 

@@ -26,17 +26,17 @@ The MDVA-39546 patch fixes the issue where the start date for the Staging Update
 
 The start date for the Staging Update can be set to a date earlier than the current date.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Schedule a New Update on a product with a future start date.
 1. Edit the update from **Content** > **Content Staging** > **Dashboard** and update the start date with an older date and save the change.
 1. Reopen the above update.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Previous data is displayed in the edit form.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Values in the form are missing.
 

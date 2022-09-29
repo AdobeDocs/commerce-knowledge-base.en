@@ -12,7 +12,7 @@ This article provides a patch for the known Adobe Commerce 2.2.2 issue related t
 
 When you have a configurable product, and for a certain combination of options, the related simple product is out of stock, the swatch is still available and can be selected on the storefront.
 
- <ins>Steps to reproduce</ins>:
+ <u>Steps to reproduce</u>:
 
 1. In the Commerce Admin, create a configurable product with options for two attributes: color (red, black) and size (S, M, L).
 1. Set Quantity as "1" for each corresponding simple product.
@@ -21,11 +21,11 @@ When you have a configurable product, and for a certain combination of options, 
 1. Make sure backorders are not allowed.
 1. On the storefront, navigate to the same product page and select the same options: red, M.
 
- <ins>Expected results</ins>:
+ <u>Expected results</u>:
 
 The red, M swatch has a red slash and cannot be selected.
 
- <ins>Actual results</ins>:
+ <u>Actual results</u>:
 
  The red, M swatch can be selected.
 

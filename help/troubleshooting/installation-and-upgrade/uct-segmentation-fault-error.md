@@ -14,11 +14,11 @@ This article explains errors you may experience while using the Upgrade Compatib
 
 ## Segmentation fault error
 
-<ins>Cause</ins>:
+<u>Cause</u>:
 
 When two modules have the same name, the Upgrade Compatibility Tool shows a segmentation fault error.
 
-<ins>Solution</ins>:
+<u>Solution</u>:
 
 To avoid this error it is recommended to specify the path to the module as an argument:
 
@@ -32,7 +32,7 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
 
 ## Empty output
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. If after running this command:
 
@@ -47,13 +47,13 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
    Upgrade compatibility tool
    ```
 
-<ins>Cause</ins>:
+<u>Cause</u>:
 
 The likely cause is a PHP memory limitation.
 
 There are two possible solutions to avoid this PHP memory limitation.
 
-<ins>Solution 1</ins>:
+<u>Solution 1</u>:
 
 Override the memory limitation by setting `memory_limit` to `-1`:
 
@@ -65,7 +65,7 @@ php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 >
 > The `M2_VERSION` is the target Adobe Commerce version you want to compare to your Adobe Commerce instance.
 
-<ins>Solution 2</ins>:
+<u>Solution 2</u>:
 
 Adding the `-m` option allows the Upgrade Compatibility Tool to analyze each specific module independently to avoid encountering two modules with the same name in your Adobe Commerce instance.
 

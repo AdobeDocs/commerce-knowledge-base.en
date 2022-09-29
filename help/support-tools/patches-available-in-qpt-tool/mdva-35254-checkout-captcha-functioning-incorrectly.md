@@ -24,7 +24,7 @@ Adobe Commerce (all deployment methods) 2.3.1-2.4.2
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Configure CAPTCHA:
 
@@ -38,11 +38,11 @@ Configure CAPTCHA:
 1. Select **Credit Card** payment method (Example: Braintree).
 1. Make three unsuccessful payment attempts.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The CAPTCHA field is displayed when the number of failed attempts is reached.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The CAPTCHA field never displays, only the error message: *Please provide CAPTCHA code and try again.*
 

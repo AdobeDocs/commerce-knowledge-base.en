@@ -26,7 +26,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.
 
 Negative values for `children_count` appear in the database after deleting categories.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Admin backend.
 1. Navigate to **Catalog > Categories**.
@@ -41,11 +41,11 @@ Negative values for `children_count` appear in the database after deleting categ
 1. Click on the **Child 1** category.
 1. Delete the category.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The categories grid shows products and categories, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The categories grid is empty. Check the `catalog_category_entity` table in the database. Note that `children_count` became negative.
 

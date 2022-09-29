@@ -26,7 +26,7 @@ The ACSD-45241 patch fixes the issue where the virtual product's stock quantity 
 
 Stock quantity for a virtual product is miscalculated after creating a credit memo.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a configurable product with a virtual product as a child product in the Commerce Admin.
 1. Make sure both products created in step one are in stock.
@@ -39,11 +39,11 @@ Stock quantity for a virtual product is miscalculated after creating a credit me
 1. `invoice_created` record created in `inventory_reservation`. The virtual product quantity is now 99, and the salable quantity is also 99.
 1. Create a credit memo without selecting **Return to Stock**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No new record is created in `inventory_reservation`, and the stock quantity for the virtual product is unchanged.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 A `creditmemo_created` record is created in `inventory_reservation`, and the virtual product stock quantity is adjusted to 98 with salable quantity as 99.
 

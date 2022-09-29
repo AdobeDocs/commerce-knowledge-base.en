@@ -26,18 +26,18 @@ Adobe Commerce (all deployment types) 2.3.1 - 2.4.2-p1
 
 Orders not filtered according to admin timezone.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > Settings > **Configuration** > **General** and set the **Timezone** to *Eastern Standard Time (America/New_York)*
 1. Place a new order after 00:00 UTC
 1. Go to **Sales** > **Orders** and filter by today's date
 
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Order placed today after 00:00 UTC is visible in filtered results.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The order is missing in filtered results.
 

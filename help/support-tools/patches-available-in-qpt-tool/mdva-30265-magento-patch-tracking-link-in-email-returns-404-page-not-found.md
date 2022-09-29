@@ -26,7 +26,7 @@ The MDVA-30265 patch solves the issue of the "404 Page not Found" error when the
 
 After the shipment is created for an order placed, an email is sent to the customer with tracking information and a link to track the order. However, when the customer clicks on the shipment tracking link in the email, this returns a "404 Page not Found" error.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Install Adobe Commerce 2.4. For steps, refer to [Install Adobe Commerce using Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html) in our developer documentation.
 1. Place an order.
@@ -35,11 +35,11 @@ After the shipment is created for an order placed, an email is sent to the custo
 1. You receive an email. Click on the tracking link to check if it is working.
 1. Create an invoice. For steps, refer to [Order Management > Creating an invoice](https://docs.magento.com/user-guide/sales/invoice-create.html) in our user guide. Then click again on the tracking link above.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The tracking link should work even after creating the invoice.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 After creating the invoice, the tracking link is not working and returns a "404 Page not Found" error page.
 

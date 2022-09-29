@@ -14,7 +14,7 @@ This article talks about the solution for the issue where when the user tries to
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to Admin > **Stores** > **Configuration** > **Sales** > **Address Cleansing**.
 1. Select *Enabled* from the **Use Vertex Address Cleansing** drop-down and **Save Config**.
@@ -26,11 +26,11 @@ This article talks about the solution for the issue where when the user tries to
 1. Uncheck **My billing and shipping address** **are the same**, and enter a new billing address (different to Address).
 1. Click the **Update** button, then click **Update address**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The user sees different billing and shipping addresses.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 When the user hits update, the billing and shipping addresses revert to being the same.
 

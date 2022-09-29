@@ -22,7 +22,7 @@ The MDVA-33992 patch fixes the issue where the custom pricing for a B2B customer
 
 Custom pricing for a B2B customer is not reflected when a product is added to a cart.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 The issue is reproducible for B2B version with Shared Catalog enabled.
 
@@ -31,11 +31,11 @@ The issue is reproducible for B2B version with Shared Catalog enabled.
 1. As a B2B customer, check that the custom product price is displayed in the catalog.
 1. As a B2B customer, add the product to the cart.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The correct price is displayed in the shopping cart, and matches the price in the catalog.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The custom price disappears, and the regular price from the default catalog is displayed.
 

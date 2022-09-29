@@ -25,7 +25,7 @@ For more information about the New Relic APM service and its setup with your Ado
 
 ## Issue
 
- <ins>Steps To See If The Issue Affects You</ins>
+ <u>Steps To See If The Issue Affects You</u>
 
 1. In your New Relic APM Overview Chart, check for the first indication that MySQL has become a bottleneck. See the sample picture below where MySQL has become a bottleneck and takes most of the web transactions time:
 
@@ -64,9 +64,9 @@ Adobe Commerce can read multiple databases or Redis asynchronously. Updating the
 Below are the common questions you may ask when you consider using the Slave Connections functionality for your Adobe Commerce on cloud infrastructure store.
 
 * Is there any known issues or limitation to use Slave Connections? **We do not have any known issues from using Slave Connections. Just make sure you are using the most recently updated ece-tools package. Instructions are here on [how to update your ece-tools package](https://devdocs.magento.com/cloud/project/ece-tools-update.html).**
-* Is there any extra latency by using Slave Connections? *Yes, cross-AZ (cross-Availability Zones) latency is higher and reduces performance of a Adobe Commerce on cloud infrastructure instance in the case if the instance is not overloaded and can carry the whole load. But clearly, if the instance is overloaded – master-slave will help with performance by spreading the load on the MySQL Database or Redis across different nodes.*
+* Is there any extra latency by using Slave Connections? *Yes, cross-AZ (cross-Availability Zones) latency is higher and reduces performance of a Adobe Commerce on cloud infrastructure instance in the case if the instance is not overloaded and can carry the whole load. But clearly, if the instance is overloaded &ndash;  master-slave will help with performance by spreading the load on the MySQL Database or Redis across different nodes.*
 
-    **On not-overloaded clusters** – **Slave Connections will slow down performance by 10-15%**, which is one of the reasons it is not default.
+    **On not-overloaded clusters** &ndash;  **Slave Connections will slow down performance by 10-15%**, which is one of the reasons it is not default.
 
     *But on overloaded clusters, there is a performance boost because these 10-15% are mitigated by reducing load by traffic.*
 * Should I enable these settings for my store? *If you have high load or expect high load on the MySQL Database or Redis, you definitely need to enable Slave Connections. For a regular customer with average traffic, this is **not** an optimal setting to be enabled.*

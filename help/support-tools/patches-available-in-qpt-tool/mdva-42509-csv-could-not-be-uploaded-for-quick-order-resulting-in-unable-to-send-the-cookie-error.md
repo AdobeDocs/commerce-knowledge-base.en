@@ -26,17 +26,17 @@ The MDVA-42509 patch solves the issue where a CSV could not be uploaded for quic
 
 Creating a quick order with a large number of products using a CSV displays a cookie error: *Unable to send the cookie*
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable Quick Order by navigating to **Stores** > **Settings** > **Configurations** > **General** > **B2B Features**.
 1. Create a customer account and go to **Quick Order** at the top link.
 1. Try to create a quick order using a CSV that has over 100 SKUs.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 You are able to create a quick order with a large number of SKUs.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 An error message displays related to cookie size.
 

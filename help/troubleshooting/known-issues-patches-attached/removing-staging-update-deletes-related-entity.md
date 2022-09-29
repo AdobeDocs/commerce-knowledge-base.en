@@ -16,7 +16,7 @@ This article provides a patch for the known Adobe Commerce 2.2.3 issue related t
 
 When you delete an active schedule update between it's starting and ending dates, the related entity (category, subcategory, CMS page) is also deleted.
 
- <ins>Steps to reproduce (with categories)</ins>:
+ <u>Steps to reproduce (with categories)</u>:
 
 1. Log in to the Commerce Admin.
 1. Create a new subcategory under **Catalog** > **Categories**.
@@ -24,11 +24,11 @@ When you delete an active schedule update between it's starting and ending dates
 1. Wait until the update is applied; that is the start time comes.
 1. Delete the update using the **View/Edit** link.
 
- <ins>Expected results</ins>:
+ <u>Expected results</u>:
 
  The update is deleted, and the subcategory still exists in the Admin.
 
- <ins>Actual results</ins>:
+ <u>Actual results</u>:
 
  The update and the subcategory are deleted.
 

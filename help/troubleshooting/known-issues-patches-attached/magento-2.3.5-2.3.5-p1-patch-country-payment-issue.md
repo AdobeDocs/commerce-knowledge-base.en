@@ -21,7 +21,7 @@ A web page refresh is a workaround for the issue.
 
 To resolve this issue and remove the error, we have created a [patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip).
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * A simple product is created.
 * **Check/Money order** is enabled only for specific countries (at **Store** > **Configuration** > **Sales** > **Payment Methods**).
@@ -29,7 +29,7 @@ To resolve this issue and remove the error, we have created a [patch](assets/BUN
 * Example: Payment from Applicable Countries = Specific Countries
 * Example: Payment from Specific Countries = United Kingdom
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the Storefront as a Guest.
 1. Add a simple product to the shopping cart.
@@ -51,7 +51,7 @@ To resolve this issue and remove the error, we have created a [patch](assets/BUN
 
 1. Select shipping rate and click **Next**.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
  The Payment step opens.
 
@@ -59,7 +59,7 @@ To resolve this issue and remove the error, we have created a [patch](assets/BUN
 * **Check/Money order** appears.
 * The **Place Order** button appears.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The Payment step opens.
 

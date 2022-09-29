@@ -27,18 +27,18 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 The user gets errors when trying to place an order without CAPTCHA confirmation.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Configure the Google ReCaptcha v2 (I'm not a robot).
 1. Enable ReCaptcha for checkout.
 1. Try to place an order without clicking on the ReCaptcha.
 1. Once you receive the error message for missing ReCaptcha (*ReCaptcha validation failed, please try again*), click on **ReCaptcha** and then try placing an order.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Order will not be placed with incorrect ReCaptcha.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the following errors:
 

@@ -26,19 +26,19 @@ The MDVA-25631 patch solves the issue where users are not able to save and refre
 
 Users are not able to save and refresh customer segments that contain a large number of customers.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Generate a large number of customers (more than 3 million).
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a customer segment and try to save it.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The customer segment is saved without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get *500* error because the allowed memory size is being exhausted.
 

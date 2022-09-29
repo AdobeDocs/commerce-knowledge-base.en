@@ -15,20 +15,20 @@ This article provides configuration solutions to the Varnish Edge Side Includes 
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Install and configure Varnish for your Adobe Commerce store.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the storefront.
 1. Browse through the store pages.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 All content and all page blocks load successfully.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Observe that some content blocks, like the top navigation panel with categories, are not loading. Blank space is displayed instead.
 

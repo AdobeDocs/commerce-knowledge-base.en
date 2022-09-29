@@ -20,13 +20,13 @@ The MDVA-31006 patch fixes the issue where using the PayPal Express checkout pay
 
 The user is not being sent to the Adobe Commerce order success page, so they refresh the blank page, and the second order is placed, causing duplicate orders.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * Adobe Commerce is installed.
 * PayPal Express checkout payment is configured.
 * Log in to the Commerce admin. Go to **Stores** > **Configuration** > **Sales** > **Payment Methods** > select **Paypal Express Checkout** > **Configure** > **Advanced Settings** > **Skip Order Review Step** > *No*.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in as a user.
 1. Select an item and click **Add to Cart**.
@@ -37,12 +37,12 @@ The user is not being sent to the Adobe Commerce order success page, so they ref
 1. Emulate system error due to server infrastructure issues. The user will see a blank page.
 1. Refresh the page.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * The customer is redirected to the Order Review page and sees an error message "*A successful payment transaction has already been completed. Please, check if the order has been placed.*"
 * In the payment.log, which is located in `/var/log/payment.log`, there is an error 10415, but only one order was created.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * As the customer is not sent to the Adobe Commerce order success page, they refresh the blank page, and a second order is placed, so two duplicated orders are created.
 * In the payment.log, which is located in `/var/log/payment.log`, there is an error 10415.

@@ -26,17 +26,17 @@ The MDVA-44887 patch fixes the issue where the admin user can't click on any men
 
 The admin user can't click on any menu option. The *Uncaught SyntaxError: Unexpected token const* error is displayed in the Admin panel.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable JS bundling.
 1. Minify the JS files.
 1. Log in to the Commerce Admin panel.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The admin user can't click on any menu option. There is an error in the browser console: *Uncaught SyntaxError: Unexpected token const*.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The Admin panel is accessible to an admin user.
 

@@ -16,7 +16,7 @@ This article explains why your PayPal sandbox account for Payment Services may n
 
 Our [onboarding documentation](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html) instructs you to sign up for a PayPal account, log into the PayPal Developers account, and then create a sandbox account. If you select to create a new account during onboarding in the PayPal onboarding popup window, PayPal will not be able to verify your sandbox account and you will be unable to complete onboarding.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. You [install Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) and [configure your Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#configure-commerce-services).
 1. You navigate to **Payment Services** in the Admin and [start sandbox onboarding](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html).

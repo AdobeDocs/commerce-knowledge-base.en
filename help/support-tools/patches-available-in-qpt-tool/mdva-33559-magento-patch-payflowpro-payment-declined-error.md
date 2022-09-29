@@ -24,18 +24,18 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 The issue concerns the ampersand sign (&) and equal sign (=) special characters being used in names.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Add a simple product to the cart.
 1. Go to checkout.
 1. Set the shipping address. (Example shipping address: **First Name** = ** *John's* **  **Last Name** = ** *Apples & Oranges, Inc* **  **Street Address** = *1234 E Nameless St*  **Country** = *US*  **State/Province** = *Anystate*  **City** = *Anytown*  **Zip** = *12345*  **Phone** = *1234567890*)
 1. Set payment to **PayPal PayflowPro** and attempt to complete checkout.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The transaction results in a successful payment or a correct error message, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The transaction is declined, and the customer receives an email saying, "Transaction has been Declined."
 

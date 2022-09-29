@@ -26,7 +26,7 @@ The MDVA-43862 patch solves the issue where the customer can’t update cart ite
 
 The customer can’t update cart items because of a GraphQL UpdateCartItems mutation error.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a configurable product (MH01) by assigning one simple (MH01-XL-Gray).
 1. Go to the Commerce Admin > **Catalog** > **Products** > **SKU** > **MH01** > **Customizable Options**.
@@ -124,11 +124,11 @@ The customer can’t update cart items because of a GraphQL UpdateCartItems muta
     ```
 1. Observe the response.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The cart is updated without any issue.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the following error:
 ```GraphQL

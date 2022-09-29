@@ -16,18 +16,18 @@ This article provides a solution for when your Adobe Commerce on cloud infrastru
 
 https:&#8203;//mydomain.com.c.&lt;projectid&gt;.magento.cloud/ is no longer accessible.
 
-<ins>Steps to reproduce:</ins>
+<u>Steps to reproduce:</u>
 
 1. Log in to your project.
 1. Click **Access Project** for a list of URLs and SSH.
 
-<ins>Actual results:</ins>
+<u>Actual results:</u>
 
 Page fails to load with the following error:
 
 *NET::ERR\_CERT\_INVALID*  *TLS alert, bad certificate (554):*
 
-<ins>Expected results:</ins>
+<u>Expected results:</u>
 
 Page loads successfully.
 

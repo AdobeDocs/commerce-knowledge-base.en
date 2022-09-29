@@ -26,23 +26,23 @@ The MDVA-41399 patch solves the issue where admin users are unable to access the
 
 Admin users are unable to access the Manage Shopping Cart page if a customer adds a product to the wishlist.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. Create two or more products.
 1. Create a customer.
 1. Enable the Developer mode.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to Storefront and sign in as the customer from the preconditions.
 1. Add a product to Wish List.
 1. Go to the Admin panel and navigate to the created customer edit page and click on the **Manage Shopping Cart** button.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Admin user is able to manage the shopping cart.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Admin user gets an error message: *An error has occurred. See error log for details.*
 

@@ -26,7 +26,7 @@ The MDVA-42645 patch solves the issue where the admin cannot refund reward point
 
 The Admin cannot refund reward points if the store credit functionality is disabled.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product.
 1. Create a new customer account and add some reward points.
@@ -38,12 +38,12 @@ The Admin cannot refund reward points if the store credit functionality is disab
 1. Click on the **Credit Memo** link to create a new credit memo.
 1. Tick the Refund Reward Points option at the bottom and click the **Refund Offline**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * The Credit Memo is created successfully.
 * The reward points are refunded successfully.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the following error message: *You can't use more store credit than the order amount.*
 

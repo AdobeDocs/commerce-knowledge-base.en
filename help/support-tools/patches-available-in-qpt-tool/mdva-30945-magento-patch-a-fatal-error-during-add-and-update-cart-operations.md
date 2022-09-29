@@ -22,18 +22,18 @@ Adobe Commerce (all deployment methods) 2.3.0 - 2.4.1
 
 A fatal PHP error after products in the cart are updated in the Admin.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In the Commerce Admin, create a configurable product without options.
 1. Add it to the cart on the storefront.
 1. Return to Admin, add configurable options to the product and save the changes.
 1. Refresh the cart page on the storefront.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 On the cart page, the following validation message is displayed: *Some of the products below do not have all the required options*.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Cart page is blank. In the PHP `error.log`, the following error is logged: *Uncaught exception 'Error' with message 'Call to a member function getValue() on null' in vendor/magento/module-configurable-product/Model/Quote/Item/CartItemProcessor.php:76*
 

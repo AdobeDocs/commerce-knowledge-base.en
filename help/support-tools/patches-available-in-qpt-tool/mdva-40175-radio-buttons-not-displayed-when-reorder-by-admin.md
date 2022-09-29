@@ -26,14 +26,14 @@ The MDVA-40175 patch solves the issue where the Radio buttons are not displayed 
 
 Radio buttons are not displayed in the Payment & Shipping Information section when users try to reorder.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. A Customer account with a shipping address and a billing address is created.
 1. A Simple Product is created.
 1. Several delivery methods are configured.
 1. At least one order is created.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the Admin panel > **Sales** > **Orders**.
 1. Select the created order.
@@ -42,11 +42,11 @@ Radio buttons are not displayed in the Payment & Shipping Information section wh
 1. Scroll down the page to the **Payment & Shipping Information** section.
 1. Click the **Click to change shipping method**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The list of delivery methods with radio buttons appear.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The list of delivery methods without radio buttons appear.
 

@@ -26,17 +26,17 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.5 - 2.
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable guest checkout.
 1. Create a cart price rule without a coupon (Example: "Free shipping above x amount").
 1. Place a large amount of concurrent guest orders involving API payment Payment Service Providers (PSPs).
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 All paid payment transactions are saved to the database and visible in the Admin, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Only a small fraction of orders is saved in the database, while the majority of orders' information is lost because of lock wait timeouts.
 

@@ -26,11 +26,11 @@ The MDVA-38559 patch fixes the issue where the `/V1/customers/search` API return
 
 `/V1/customers/search` API returns an error for customers with more than one subscription.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 The Adobe Commerce store uses more than one website.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Store** > **Configuration** > **Customer** > **Customer Configuration** > **Account Sharing Options** and select **Global**.
 1. Go to **Customers** > **All Customers**, select **Edit** on any customer, and then select **Newsletter**.
@@ -41,11 +41,11 @@ The Adobe Commerce store uses more than one website.
 V1/customers/search?searchCriteria[filterGroups][0][filters][0][field]=email&searchCriteria[filterGroups][0][filters][0][value]=test@example.com&searchCriteria[filterGroups][0][filters][0][conditionType]=eq
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The customer's search results are displayed.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following error is logged to exception.log: *Item (Magento\Customer\Model\Customer\Interceptor) with the same ID "1" already exists.*
 

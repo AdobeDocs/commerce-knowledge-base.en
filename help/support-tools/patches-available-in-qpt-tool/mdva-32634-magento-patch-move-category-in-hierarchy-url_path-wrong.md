@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.1 - 2.
 
 Moving a catalog category in the hierarchy results in an incorrect url\_path. The url\_path of the category assigned to the default store scope \[ **id:0** \] remains unchanged after moving the category in the hierarchy.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Commerce Admin. Create the following category structure under the root category: move-cat sub-move-cat sub-move-cat2 new-cat-move
 1. Verify category \[ url\_path \] attribute \[ id: 120 \] for value assignment in \[ catalog\_category\_entity\_varchar \] table using the following query:
@@ -46,11 +46,11 @@ Moving a catalog category in the hierarchy results in an incorrect url\_path. Th
     SELECT * FROM catalog_category_entity_varchar WHERE attribute_id = 120 ORDER BY value_id DESC LIMIT 16;
     ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The url\_path assigned to all store scope \[ 0 \] should also update with the new path.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The url\_path assigned to all store scope \[ 0 \] remains unchanged, even though there is no such path available after the move. Also, it has new url\_path values created for each store.
 

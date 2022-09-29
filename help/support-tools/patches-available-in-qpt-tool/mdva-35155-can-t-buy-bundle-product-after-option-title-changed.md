@@ -26,17 +26,17 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.3.
 
 Bundle products can't be bought after the option title is changed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new bundle product via **Product Import**.
 1. The product is normal in both the Admin and frontend (in stock and can be added to the cart).
 1. Update the same product with changes in the name in `bundle_values` and re-import the product.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The existing bundle option is updated to the new name and keeps the same items in it.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * Admin attempts to merge products with the same SKU into a single bundle-option section, resulting in an empty option section.
 * The product is out of stock on the frontend (even after a reindex).

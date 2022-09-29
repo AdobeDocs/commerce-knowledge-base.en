@@ -26,17 +26,17 @@ Adobe Commerce (all deployment methods) 2.3.0 - 2.4.1
 
 Fixes the issue where no records were found in **Reports** > Sales > **PayPal Settlement** when having multiple PayPal accounts.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Configure PayPal Settlement Reports.
 1. Go to Admin, to **Reports** > Sales > **PayPal Settlement**.
 1. For the most recent updates, click **Fetch Updates** in the upper-right corner.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Reports should appear.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Nothing appears in the grid though reports are available.
 

@@ -16,18 +16,18 @@ This article provides a patch for the Adobe Commerce 2.4.5 issue where an Admin 
 
 ## Issue
 
- <ins>Steps to reproduce</ins>:
+ <u>Steps to reproduce</u>:
 
 1. The core Braintree integration is used (**Stores** > **Configurations** > **Sales** > **Payment Method** > **Braintree**).
 1. Using Luma Storefront, place an order.
 1. Go to Admin UI > **Sales**.
 1. Either try to create a new order for a customer, or go to a previously placed order and click on **Reorder**.
 
- <ins>Expected result</ins>:
+ <u>Expected result</u>:
 
 Admin users can successfully create orders and reorders for customers when the Braintree payment method is enabled.
 
- <ins>Actual result</ins>:
+ <u>Actual result</u>:
 
  Admin users can't create orders nor reorders for customers when the Braintree payment method is enabled, and returns the following error:
 

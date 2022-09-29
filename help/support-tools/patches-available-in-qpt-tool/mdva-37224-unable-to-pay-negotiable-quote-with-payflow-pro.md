@@ -19,7 +19,7 @@ The MDVA-37224 patch fixes the issue when customers are not able to pay for a **
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * Adobe Commerce with installed B2B module
 * Company functionality enabled
@@ -29,7 +29,7 @@ The MDVA-37224 patch fixes the issue when customers are not able to pay for a **
 * PayPal PayFlow Pro payment method is allowed for B2B
 * 2 products with different prices have been created
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Open the Storefront.
 1. Add **Product 1** to the shopping cart.
@@ -40,12 +40,12 @@ The MDVA-37224 patch fixes the issue when customers are not able to pay for a **
 1. Select the **Payment Method** = *PayPal PayFlow Pro* at the **Review and Payments** step.
 1. Place the order.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * The order is successfully placed, as expected.
 * PayPal sends email with the correct information to the customer, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * The webpage hangs, and does not complete the order.
 * PayPal sends confirmation to the customer with zero values, similar to this Example:

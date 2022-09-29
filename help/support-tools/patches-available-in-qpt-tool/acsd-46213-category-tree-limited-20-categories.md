@@ -27,7 +27,7 @@ The ACSD-46213 patch fixes the issue where the category tree request is limited 
 
 The category tree request is limited to 20 categories.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a category under the root category.
 1. Create 24 subcategories under the root category created in step one.
@@ -64,11 +64,11 @@ The category tree request is limited to 20 categories.
 
 1. Check the results.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 It shows 24 categories.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 It shows only 20 categories.
 

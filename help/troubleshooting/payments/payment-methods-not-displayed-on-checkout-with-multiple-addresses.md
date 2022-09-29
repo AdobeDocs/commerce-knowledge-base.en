@@ -19,9 +19,9 @@ This article explains that most of the payment methods are not displayed on chec
 
 ## Issue
 
-<ins>Prerequisites</ins>: In the Commerce Admin, enable and configure PayPal and Cybersource payment methods, and enable Multishipping for your store.
+<u>Prerequisites</u>: In the Commerce Admin, enable and configure PayPal and Cybersource payment methods, and enable Multishipping for your store.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. On the storefront, add multiple products to the cart.
 1. Go to the shopping cart page.
@@ -32,9 +32,9 @@ This article explains that most of the payment methods are not displayed on chec
 1. Select shipping methods for each shipment.
 1. Click **Continue to Billing Information**.
 
-<ins>Expected result</ins>: PayPal and Cybersource are available as payment options.
+<u>Expected result</u>: PayPal and Cybersource are available as payment options.
 
-<ins>Actual result</ins>: Only Cybersource appears as available payment option.
+<u>Actual result</u>: Only Cybersource appears as available payment option.
 
 ## Cause
 

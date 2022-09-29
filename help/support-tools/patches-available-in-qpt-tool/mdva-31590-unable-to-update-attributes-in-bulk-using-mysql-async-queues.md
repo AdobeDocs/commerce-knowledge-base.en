@@ -26,7 +26,7 @@ The MDVA-31590 patch solves the issue where the users are unable to update attri
 
 Users are not able to update attributes in bulk using MySQL async.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. On the product grid in the backend, perform a mass action to update attribute values for a few products.
     * Check products and select **Update Attributes** from the Actions dropdown.
@@ -35,7 +35,7 @@ Users are not able to update attributes in bulk using MySQL async.
     *Task "Update attributes for N selected products": 1 item(s) have been scheduled for an update.*
 1. Wait for few seconds and reload the backend page.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 1. The page displays a successful update message like: *1 item(s) have been successfully updated.*
 1. Attribute values for related products are updated.
@@ -44,7 +44,7 @@ Users are not able to update attributes in bulk using MySQL async.
 1. `queue_message_status` table have records with status "4".
 1. There are NO errors in `system.log`.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 1. The page still displays a message like the following:
     *Task "Update attributes for N selected products": 1 item(s) have been scheduled for an update.*

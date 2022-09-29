@@ -31,7 +31,7 @@ The solution is to offload those non-regex redirects to Fastly instead. Create a
 The following steps will detail how to place redirects on Fastly instead of Nginx.
 
 <ol><li>
-<h3>Create an Edge Dictionary</h3>
+<strong>Create an Edge Dictionary</strong>
 <p>First, you can use <a href="https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html">VCL snippets in Adobe Commerce</a> to define an edge dictionary. This will contain the redirects.</p>
 <p>Some caveats to this:</p>
 <ul>
@@ -45,7 +45,7 @@ The following steps will detail how to place redirects on Fastly instead of Ngin
 </ul>
 <div class="info"><blockquote>It is strongly recommended to consolidate down your redirects list. You can use multiple dictionaries, but please just be aware that any update you make to your VCL will take several minutes to actually populate across Fastly.</blockquote></div>
 </li><li>
-<h3>Compare the URL to the Dictionary(ies)</h3>
+<strong>Compare the URL to the Dictionary(ies)</strong>
 <p>When the URL lookup occurs, this will make the comparison to apply the custom error code if a match is found.</p>
 <p>Use another VCL snippet to add something like the following to <code class="language-php">vcl_recv</code>:</p>
 <pre><code class="language-php">declare local var.redir-path STRING;
@@ -56,7 +56,7 @@ if (var.redir-path != "") {
 }</code></pre>
 <p>Here, we're checking to see if the URL exists in the table entry. If it does, we're calling an internal Fastly error and passing into that error the redirect URL from the table.</p>
 </li><li>
-<h3>Manage the Redirect</h3>
+<strong>Manage the Redirect</strong>
 <p>When a match is found, the action is taken that is defined for that <code class="language-php">obj.status</code>, in this case a 301 permanent move redirect.</p>
 <p>Use a final snippet in <code class="language-php">vcl_error</code> to send the 301 error codes back to the client:</p>
 <pre><code class="language-php">if (obj.status == 912) {

@@ -26,11 +26,11 @@ The MDVA-42768 patch fixes the issue where GraphQL shows the wrong price when th
 
 When the child products of a configurable product are out of stock and the Display Out of Stock Products setting is enabled, GraphQL query shows the regular price of the product as **0**.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Sample data is installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable the Display Out of Stock product setting in the Commerce Admin by going to **Stores** > **Configuration** > **Catalog** > **Inventory**.
 1. Create a configurable product and assign a simple child product to it.
@@ -78,11 +78,11 @@ Sample data is installed.
     ```
 1. Check the response section `minimum_price` > `regular price`.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The minimum regular price is not displayed as 0 in response.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The minimum regular price = 0 in response.
 

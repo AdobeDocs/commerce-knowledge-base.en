@@ -26,7 +26,7 @@ The MDVA-43859 patch fixes the issue where the error *No such entity with custom
 
 The error *No such entity with customerId =* is logged when a deleted customer tries to log in.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a customer account from the frontend.
 1. Log out and log in to the customer account created in step one.
@@ -34,11 +34,11 @@ The error *No such entity with customerId =* is logged when a deleted customer t
 1. Delete the customer created in step one.
 1. Switch back to the first browser and try to log out.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The customer is redirected to the login page without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The customer gets the following error: *No such entity with customerId =*.
 

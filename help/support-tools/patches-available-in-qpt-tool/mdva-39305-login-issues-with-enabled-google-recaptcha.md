@@ -26,17 +26,17 @@ The MDVA-39305 patch fixes the issue where registered customers are not able to 
 
 Registered customers are not able to log in using the enabled Google reCAPTCHA.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Store** > **Configuration** > **Security** > **Google reCAPTCHA Storefront** and enable **Google reCAPTCHA**.
 1. Go to **Frontend**.
 1. Open **Developer Tool Console** in the browser.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No CSP warnings in the console.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 CSP warnings in the console.
 

@@ -26,11 +26,11 @@ The MDVA-39181 patch solves the issue where related product rules show products 
 
 Related product rules show products from categories not defined in the rule.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Install sample data.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create an attribute brand and add it to the **Tops Attribute Set**.
 1. Choose **Josie**, **Augusta**, and **Ingrid** jackets to add to the Brand Kitty from **Women** > **Tops** > **Jackets category**.
@@ -61,11 +61,11 @@ Install sample data.
 1. Open SKU WJ04 from the front end and check related products.
 1. Update the category ID from **Women** > **Tops** > **Jackets** in case it is different from this.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Only products from the same brand and same child category are shown in related products.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Related products are shown of the same brand but from a random parent category.
 

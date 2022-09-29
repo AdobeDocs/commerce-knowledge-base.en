@@ -26,23 +26,23 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.4.1 - 2.
 
 The user sees a cart query error, *"Wrong store code specified for cart"*, when trying to switch store views.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * Adobe Commerce 2.4.0.
 * Single website with a single store and two store views is configured.
 * A customer account is created.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Adobe Commerce backend is configured to have two store views (with store codes: default, second).
 1. The user creates a shopping cart using the default store code.
 1. The user tries to retrieve this cart using the second store code in the<tt>Store</tt>request header.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The cart displays because switching the store (sending the new code in the `Store` request header) associates the cart to the requested store.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The cart query returns an error, and the cart does not display.
 

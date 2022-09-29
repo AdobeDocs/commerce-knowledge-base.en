@@ -26,11 +26,11 @@ The MDVA-30594 patch solves the issue where the customer does not see the order 
 
 Multiple address orders do not complete with the order success page and show two orders with the same products instead of the correct ones.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Create two websites with stores and store views.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set **Catalog Price Scope** for website catalog (**Stores** > **Settings** > **Configuration** > **Catalog** > **Catalog** > **Price** > **Scope**).
 1. Configure **Fixed Product Taxes (FPT)** (**Stores** > **Configuration** > **Sales** > **Tax** > **Fixed Product Taxes**):
@@ -71,11 +71,11 @@ Create two websites with stores and store views.
 
 1. Click the **Place Order** button.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The order with multiple addresses is placed successfully.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 A message like, "*An error has occurred.*" will appear.
 

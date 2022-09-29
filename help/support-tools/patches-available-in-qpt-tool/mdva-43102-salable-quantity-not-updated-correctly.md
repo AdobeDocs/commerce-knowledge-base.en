@@ -26,7 +26,7 @@ The MDVA-43102 patch fixes the issue where the salable quantity is not updated c
 
 Salable quantity is not updated correctly when a refund is done using REST API.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Add an item to the cart.
 1. Check the Stock Qty and Salable Qty.
@@ -59,11 +59,11 @@ Salable quantity is not updated correctly when a refund is done using REST API.
 1. Do not ship the items.
 1. Compare the Stock Qty and the Salable Qty from before. They should both be updated by the same amount.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Salable quantity is updated correctly when a refund is issued before shipping the order, and the product is returned to the stock.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Salable quantity is not updated when a refund is issued before shipping the order, and the product is returned to the stock.
 

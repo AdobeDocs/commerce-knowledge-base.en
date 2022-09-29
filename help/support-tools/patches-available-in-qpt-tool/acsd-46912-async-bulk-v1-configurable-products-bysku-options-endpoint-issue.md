@@ -26,7 +26,7 @@ The ACSD-46912 patch fixes the issue with the `async/bulk/V1/configurable-produc
 
 An error occurs when a POST request is sent to `async/bulk/V1/configurable-products/bySku/`.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Send a POST request to `async/bulk/V1/configurable-products/bySku/`.
 
@@ -47,7 +47,7 @@ An error occurs when a POST request is sent to `async/bulk/V1/configurable-produ
 }]
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 There is no error. You get the following response:
 
@@ -65,7 +65,7 @@ There is no error. You get the following response:
 }
 ```
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following error occurs:
 

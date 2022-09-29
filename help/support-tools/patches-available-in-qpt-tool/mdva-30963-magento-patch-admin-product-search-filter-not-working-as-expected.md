@@ -24,7 +24,7 @@ The MDVA-30963 patch solves the issue wherein the Commerce Admin and the product
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set **Stores** > **Configuration** > **Catalog** > **Catalog** > **Price** > **Catalog Price Scope** = *Website*.
 1. Create two websites having two different currencies (For example, the default website is an India Store \[Rupee ₹\], and the second one is the US Store \[Dollar $\]).
@@ -41,11 +41,11 @@ The MDVA-30963 patch solves the issue wherein the Commerce Admin and the product
 1. Log in to the Admin with subAdmin just created (Example: *US Only admin*).
 1. Go to **Reports** > **Products in cart**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 When filtering within the **All store view** store view scope, products filtering should get the value set in that particular scope.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Values overridden in a store view scope are also considered when filtering on the "All store view" store view scope.
 

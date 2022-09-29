@@ -26,7 +26,7 @@ The MDVA-43718 patch solves the issue where the error *consumer isn't authorized
 
 The following error appears when accessing a shared catalog from a custom integration: *The consumer isn't authorized to access %resources*.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new integration from the Admin > **System** > **Integration** > **Add Integration**.
 1. Add access for the following resources and activate the integration:
@@ -37,11 +37,11 @@ The following error appears when accessing a shared catalog from a custom integr
 
 1. Using the integration access: `rest/default/V1/sharedCatalog/1`
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Details of the shared catalog are returned.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following error is returned:
 ```JSON

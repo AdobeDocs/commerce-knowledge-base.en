@@ -26,7 +26,7 @@ The MDVA-43935 patch fixes the issue where the upsell product is being shown twi
 
 The upsell product is being shown twice on the product page.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a subcategory.
 1. Create a simple product.
@@ -34,11 +34,11 @@ The upsell product is being shown twice on the product page.
 1. Flush caches and perform reindex.
 1. Open the simple product on the storefront.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The bundle product is listed as upsell only once.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The bundle product is listed twice.
 

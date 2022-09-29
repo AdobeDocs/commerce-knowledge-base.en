@@ -26,17 +26,17 @@ The MDVA-38852 patch solves the issue where the catalog inventory locks tables f
 
 Catalog inventory locks tables for updates which significantly decreases performance in cases when several parallel orders are placed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Add a product to the cart.
 1. Proceed to checkout and try to place an order.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * There is no deadlocks.
 * Performance is not decreased in cases when several parallel orders are placed.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * Placing an order is extremely slow when there are multiple concurrent users.
 * Deadlock errors occur which look like the following:

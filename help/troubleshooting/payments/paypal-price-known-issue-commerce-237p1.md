@@ -29,12 +29,12 @@ When placing an order by using PayPal Express Checkout payment method, the previ
 1. Click the cart link to open the cart.
 1. Click the **PayPal Checkout** button.
 
-<ins>Actual result:</ins>
+<u>Actual result:</u>
 
 Product price in the cart is $50 instead of $100.<br/>
 On the store side, the order contains product A instead of the product B.
 
-<ins>Expected result:</ins>
+<u>Expected result:</u>
 
 Product B is added to the order.
 

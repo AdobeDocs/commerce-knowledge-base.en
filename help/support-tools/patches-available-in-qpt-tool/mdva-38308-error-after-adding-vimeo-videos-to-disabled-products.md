@@ -24,17 +24,17 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.5 - 2.
 
 When adding Vimeo videos to disabled products, you receive the following error message:  *Notice: Undefined index: extension in /lib/internal/Magento/Framework/File/Uploader.php on line 806*
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product.
 1. Disable the created product.
 1. Try to add a Vimeo video to the disabled product.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Video is added without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the following error:
 *Notice: Undefined index: extension in /lib/internal/Magento/Framework/File/Uploader.php on line 806*

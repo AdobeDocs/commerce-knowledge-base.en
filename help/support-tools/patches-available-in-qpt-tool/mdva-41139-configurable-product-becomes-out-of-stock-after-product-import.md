@@ -26,11 +26,11 @@ The MDVA-41139 patch fixes the issue where the configurable product becomes out 
 
 The configurable product becomes out of stock after product import when the simple product's qty = 0 for one of its sources.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Inventory modules are installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new source and stock.
 1. Create a configurable product with children products assigned to the default source and the new source.
@@ -38,11 +38,11 @@ Inventory modules are installed.
 1. The configurable product is in stock.
 1. Export this product and import it again.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The configurable product is in stock as the second source has quantity > 0.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The configurable product is out of stock.
 

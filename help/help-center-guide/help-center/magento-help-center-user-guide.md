@@ -215,9 +215,9 @@ To be able to use shared access account to submit support tickets, you need to p
 
 #### Still don't see the **Submit a ticket** link
 
-If you don’t have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
+If you don't have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
 
-If you are an Adobe Commerce license owner, please verify that you don’t have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
+If you are an Adobe Commerce license owner, please verify that you don't have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
 
 <span class="wysiwyg-underline">How To Check Your Payment Status</span>:
 
@@ -234,8 +234,7 @@ We provide support only to Adobe Commerce license owners and accounts which have
 
 If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [Help Center login issues](mailto:helpcenterloginissues@magento.com), and we will gladly review your account settings and support entitlements.
 
-<h3 id="verify-email-address">
-<em>"Please verify your email address"</em> error on the Magento Account page</h3>
+### "Please verify your email address" error on the Magento Account page {#verify-email-address}
 
 You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento Account page](https://account.magento.com/).
 
@@ -344,7 +343,7 @@ Attach logs, screenshots, video recordings, or any other media that may better i
 
 #### Backoffice URL (MOM only)
 
-URL must begin with “https://”. It will typically be in the format: merchant name +“.mcom.magento.com/admin/login”, example, "https://luma.mcom.magento.com/admin/login".
+URL must begin with "https://". It will typically be in the format: merchant name +".mcom.magento.com/admin/login", example, "https://luma.mcom.magento.com/admin/login".
 
 You can also put the direct link related to your issue.
 

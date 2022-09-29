@@ -26,11 +26,11 @@ The MDVA-41164 patch solves the issue where the admin user is not able to save o
 
 Admin user is not able to save or edit a company with custom customer attributes of files or images of any type.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 B2B module is installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable Company in **Stores** > **Config** > **B2B Features**.
 1. Create a customer attribute in **Stores** > **Attributes** > **Customers** > **Add New Attribute**:
@@ -40,11 +40,11 @@ B2B module is installed.
     * Forms to Use In: Select all
 1. Create a new company in **Customers** > **Companies** > **Add New Company** and upload a file for the new attribute created above.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 User is able to complete the creation of the company and the attachment is uploaded without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * You get an error message: *Something went wrong while saving file.*
 * Exception log contains a record like the following:

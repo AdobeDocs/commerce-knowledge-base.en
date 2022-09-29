@@ -26,7 +26,7 @@ The MDVA-39605 patch solves the issue where the Redis cache TTL (expiration date
 
 The Redis cache TTL (expiration date) has a wrong value.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 In order to test the fix, flush cache and open a configurable product on the storefront. Then open a terminal (console) and follow the steps below:
 
@@ -37,11 +37,11 @@ In order to test the fix, flush cache and open a configurable product on the sto
 1. Run `HGETALL` followed by the full key name from Step 4 to check the value. The value should contain serialized data of associated products of a related configurable product.
 1. Run `TTL` followed by the full key name from Step 4 to check whether the key has an expiration. The result should be different from **-1** and **-2** and should be approximately 2592000 (30 days). Although the expiration set in the code is one year, the Redis library used in Adobe Commerce has a hard max expiration limit of 2592000s.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Expiration limit is 2592000s
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Expiration limit is set to **-1** or **-2**.
 

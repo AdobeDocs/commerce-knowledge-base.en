@@ -20,7 +20,7 @@ Adobe Commerce (all deployment methods) 2.3.3 to 2.3.4-p2 with B2B extension
 
 Deselecting a customer group from the global category permissions in the Commerce Admin does not automatically set that customer group to "*Deny*" within category permissions.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * B2B instance with a customer group defined and selected under **STORES** > **Configuration** > **CATALOG** > **Catalog** > **Category Permissions** for:
     * **Allow Browsing Category**
@@ -31,7 +31,7 @@ Deselecting a customer group from the global category permissions in the Commerc
     * **Display Product Prices**
     * **Add to Cart**
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In the Commerce Admin, go to **STORES** > **Configuration** > **CATALOG** > **Catalog** > **Category Permissions** and de-select the customer group from:
     * **Allow Browsing Category**
@@ -41,11 +41,11 @@ Deselecting a customer group from the global category permissions in the Commerc
 1. Wait for the indexers to run.
 1. Look at **CATALOG** > **Categories** > **Category Permissions**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 **Category Permissions** will be set to "*Deny*" for all categories for the customer group.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 No change to any category permissions for the customer group.
 

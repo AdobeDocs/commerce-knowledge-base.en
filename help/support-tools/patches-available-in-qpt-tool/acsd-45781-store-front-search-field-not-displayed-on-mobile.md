@@ -26,7 +26,7 @@ The MDVA-45781 patch solves the issue where the store front search field is not 
 
 Store front search field is not displayed on mobile
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the Commerce Admin > **Stores** > **Configuration** > **Catalog** > **Catalog Search** and set:
     * Enable Search Recommendations to *No*
@@ -36,11 +36,11 @@ Store front search field is not displayed on mobile
 1. Using the standard Luma theme, browse with mobile.
 1. Click on the **Search** button.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Input search form appears.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Nothing happens.
 

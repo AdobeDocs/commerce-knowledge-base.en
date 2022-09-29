@@ -26,7 +26,7 @@ The MDVA-42046 patch fixes the issue where an incorrect value is assigned for th
 
 After saving a product with `news_from_date` and/or `news_to_date` fields, the values from those fields reset to default.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product.
 1. Export the product created in step one.
@@ -36,11 +36,11 @@ After saving a product with `news_from_date` and/or `news_to_date` fields, the v
 1. Open the edit page for the product, and without any changes, click **Save**.
 1. Go back to the product grid and check the data for the product.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Both "Set Product as New from Date" and "Set Product as New to Date" are the same as before saving.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * Values in the "Set Product as New from Date" and "Set Product as New to Date" columns are changed.
 

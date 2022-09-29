@@ -23,15 +23,15 @@ Magento_Wishlist
 
 Upgrading from Adobe Commerce (all deployment methods)/Magneto Open Source version 2.3.4-p1 **to version 2.3.4-p2** or from Adobe Commerce (all deployment methods)/Magneto Open Source version 2.3.5 **to version 2.3.5-p1** will fix the error.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Upgrade your Adobe Commerce (all deployment methods)/Magento Open Source to version 2.3.4-p1 or 2.3.5.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The upgrade process to Adobe Commerce (all deployment methods)/Magento Open Source version 2.3.4-p1 or 2.3.5 completes normally.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 During the upgrade, you get this error:
 

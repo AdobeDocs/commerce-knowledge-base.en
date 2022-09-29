@@ -26,17 +26,17 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.3 - 2.
 
 New product images are created in the `pub/media` folder, even if the same image already exists, when importing products.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a directory for images: `mkdir var/import-images`
 1. Add images inside the path `<install dir>/var/import-images`.
 1. Import the product .csv file twice.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Products end up with each product image attached once.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Products end up with product images duplicated.
 

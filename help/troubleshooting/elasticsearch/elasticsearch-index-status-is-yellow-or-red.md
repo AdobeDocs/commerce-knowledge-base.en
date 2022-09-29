@@ -29,7 +29,7 @@ There can be several potential causes. One cause is the Elasticsearch instance r
 
 Create a fresh mysql dump before following these steps and perform them outside of business hours to avoid potentially affecting your clients:
 
-1. Switch temporarily to MySQL search – enable MySQL search. (Note: Remember to switch back to Elasticsearch or you may experience performance issues).
+1. Switch temporarily to MySQL search &ndash;  enable MySQL search. (Note: Remember to switch back to Elasticsearch or you may experience performance issues).
 1. To identify duplicated indexes run the following command:
     ```clike
     curl --silent -X GET localhost:9200/_cat/indices?v

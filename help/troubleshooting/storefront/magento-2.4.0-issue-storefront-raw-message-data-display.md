@@ -15,7 +15,7 @@ This article provides a solution for the issue when all error messages on the st
 
 ## Issue
 
-<ins>Steps to reproduce:</ins>
+<u>Steps to reproduce:</u>
 
 1. Go to **Create New Account** page on the storefront.
 1. Create a new account using a registered email. The following message is displayed:

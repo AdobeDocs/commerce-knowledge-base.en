@@ -53,7 +53,7 @@ Deployment errors:
 * *W: <filename>' (Errcode: 28 "No space left on device")*  *Indexing errors (along with orphaned temporary .ibd files in /tmp):*
 * *Catalog Rule indexer throws an exception. The temporary tables don't get cleaned up in the aftermath and then fill the disk on the current MySQL master node*
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
  One of the ways you can check if the `/data/mysql` (or wherever MySQL data storage is configured) is full is by running the following command in the CLI:
 

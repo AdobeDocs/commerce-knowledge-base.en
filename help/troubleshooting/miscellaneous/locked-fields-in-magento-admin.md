@@ -17,18 +17,18 @@ This article provides a solution for when you cannot modify fields in the Commer
 
 Once you have saved a change to your configuration to `app/etc/env.php` or `app/etc/config.php`, you cannot modify the setting in the Admin.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
  Note: This is an example - the issue can affect all configurations that have been saved.
 
 1. The merchant saves their delivery methods credentials using the following command in the terminal: `./vendor/bin/ece-tools config:dump`. This saves the credentials in the `app/etc/env.php` file.
 1. The merchant then attempts to change the credentials later.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
  The merchant can set the values in the Admin field settings and save them.
 
- <ins>Actual results</ins>:
+ <u>Actual results</u>:
 
  The fields in the Admin are locked, or the values can be changed but will not save in the Admin.
 

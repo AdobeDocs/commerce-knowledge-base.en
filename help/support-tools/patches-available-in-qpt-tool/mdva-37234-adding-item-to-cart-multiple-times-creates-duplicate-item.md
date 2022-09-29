@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.5 - 2.3.7-p1 and 2.4.1 - 2.4.2-p1
 
 Adding an item to the cart multiple times (parallel request) for the same SKU creates a duplicate line item for the same cart ID.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product with SKU = simple1.
 1. Create a customer.
@@ -67,11 +67,11 @@ Adding an item to the cart multiple times (parallel request) for the same SKU cr
 
 1. Run the script.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Only one product line with a total quantity (three in this case) is created in the Shopping Cart.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Two separate lines for the same product are created in the Shopping Cart.
 

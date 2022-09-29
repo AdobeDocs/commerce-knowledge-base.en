@@ -26,12 +26,12 @@ The MDVA-30972 patch solves the issue where the order status is changed incorrec
 
 When a partial shipment is created from Admin via REST API for an order with *Suspected Fraud* order status, the order status is changed to *Processing*. It should stay at *Suspected Fraud*.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * PayPal EC or another online payment method is set up.
 * Integration for REST API is set up.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create an order with two or more items.
 1. Log in to **Admin** > **Sales** > **Orders**. Open the order you just created.
@@ -48,12 +48,12 @@ When a partial shipment is created from Admin via REST API for an order with *Su
 
 1. Open the order in Admin again and check its status.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * Order Status = *Suspected Fraud*.
 * Order status is not changed if the same shipment is created from Admin.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Order Status = *Processing*.
 

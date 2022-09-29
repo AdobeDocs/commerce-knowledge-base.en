@@ -26,11 +26,11 @@ The MDVA-39384 patch solves the issue where the custom customer attribute for a 
 
 Custom customer attribute for a company user is not saved.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 B2B modules are installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > Settings > **Configuration** > **B2B Features** and set the **Enable Company** to Yes.
 1. Create a custom customer attribute:
@@ -43,11 +43,11 @@ B2B modules are installed.
 1. Fill the form including the custom attribute.
 1. Click **Save**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The custom attribute values are saved with the new company user.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The custom attribute values are NOT saved with the new company user.
 

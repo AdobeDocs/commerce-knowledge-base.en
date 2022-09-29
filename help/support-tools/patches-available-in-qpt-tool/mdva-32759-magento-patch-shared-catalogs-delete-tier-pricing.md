@@ -26,11 +26,11 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Install Adobe Commerce with B2B, with **B2B Features** enabled.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores > Configuration > B2B Features > Enable Company** and **Shared Catalog**.
 1. Run `bin/magento cron:run`.
@@ -39,11 +39,11 @@ Install Adobe Commerce with B2B, with **B2B Features** enabled.
 1. Run `bin/magento cron:run`.
 1. Open the above created product, and check advanced pricing.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The tier prices should not be removed from the products after removing all products from the public shared catalog, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The tier prices get removed after removing all products from the public shared catalog.
 

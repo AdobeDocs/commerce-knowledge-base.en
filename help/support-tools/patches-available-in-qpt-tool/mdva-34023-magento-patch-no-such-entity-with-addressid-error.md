@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > **Settings** > **Configuration** > **Customers tab** > **Persistent shopping cart**.
 1. Set **Enable Persistence** = *Yes*, set **Clear Persistence on Sign Out** = *No*.    ![persistent_shopping_cart_magento_2.4.1.png](assets/persistent_shopping_cart_magento_2.4.1.png)
@@ -32,11 +32,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 1. Go to the `customer_entity` DB table and change the `default_billing` and `default_shipping` IDs to non-existing ones.
 1. Log out.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No errors appear, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The exception log is generated:
 

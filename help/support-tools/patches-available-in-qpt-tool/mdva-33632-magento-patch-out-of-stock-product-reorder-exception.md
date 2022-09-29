@@ -22,17 +22,17 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a configurable product with one option (Example: **color** = *red*) and set **qty** = *1*.
 1. Create a customer, and place an order with this product, which at that moment will become **qty** = *0*.
 1. Go to Admin, and try to reorder the previous order.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The customer gets the "*This product is out of stock.*" message for an out of stock product, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The customer gets the "*This product is out of stock.*" message, and `var/log/exception.log` contains a similar exception:
 

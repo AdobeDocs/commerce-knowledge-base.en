@@ -26,7 +26,7 @@ The MDVA-38626 patch solves the issue where the admin user is unable to place an
 
 The admin user is not able to place orders on the backend using the PayPal Payflow Pro payment method.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Configure PayPal Payflow Pro payment method.
 1. Go to **Customers** > **All Customers** and create a customer account.
@@ -34,11 +34,11 @@ The admin user is not able to place orders on the backend using the PayPal Payfl
 1. Add any item to the cart.
 1. Try to place the order using Payflow Pro.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Order is placed.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The user gets 500 Error. Report log contains: *{"0":"No such entity with cartId = 0","1":"#1 Magento\\Quote\\Model\\QuoteRepository->loadQuote() called at [app\/code\/Magento\/Quote\/Model\/QuoteRepository.php:136]\n#2 Magento\\Quote\\Model\\QuoteRepository->get() called at [lib\/internal\/Magento\/Framework\/Interception\/Interceptor.php:58]\n#3 Mag*
 

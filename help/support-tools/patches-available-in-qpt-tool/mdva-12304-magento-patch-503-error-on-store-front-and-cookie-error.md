@@ -23,15 +23,15 @@ Customers get a 503 error when navigating the store front. In the `var/log/excep
 
 The issue occurs because the Adobe Commerce default cookies limit is set to 50, and if the client's browser hits the limit, Commerce throws an exception. The solution provided in the patch increases the cookie limit to 200.
 
- <ins>Steps to reproduce:</ins>
+ <u>Steps to reproduce:</u>
 
 The 503 error can display at any point when the customer is trying to log in and view their cart.
 
 In the `var/log/exception.log` file there is the following error message *Unable to send the cookie. Maximum number of cookies would be exceeded.*
 
- <ins>Actual result:</ins> The customer cannot check their cart or complete their order.
+ <u>Actual result:</u> The customer cannot check their cart or complete their order.
 
- <ins>Expected result:</ins> The customer can check their cart and complete their order.
+ <u>Expected result:</u> The customer can check their cart and complete their order.
 
 ## Apply the patch
 

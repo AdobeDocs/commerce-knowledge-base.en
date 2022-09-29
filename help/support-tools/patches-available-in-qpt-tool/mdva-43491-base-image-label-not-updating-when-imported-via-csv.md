@@ -26,11 +26,11 @@ The MDVA-43491 patch fixes the issue where the `base_image_label` doesn't update
 
 The `base_image_label` doesn't update when imported using a CSV file for a multi-store website.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 One or more existing non-default websites, stores, and store views.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new product.
 
@@ -44,11 +44,11 @@ One or more existing non-default websites, stores, and store views.
 1. Import the CSV file again.
 1. Open the product in the Admin and check if the label has been updated for each store view.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Alt Text (image label) is updated with the store-specific value as per the CSV file.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Alt Text (image label) is not updated with the `base_image_label` value in the CSV file.
 

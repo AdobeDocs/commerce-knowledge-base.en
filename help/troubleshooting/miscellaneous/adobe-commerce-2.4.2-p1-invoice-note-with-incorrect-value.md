@@ -17,7 +17,7 @@ This article describes a known Adobe Commerce 2.4.2-p1 issue where an invoice no
 
 When the customer group is changed at the time of creating the order, the invoice is generated with an incorrect invoice note.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a **Test Customer Account** and add it to the **Retail Customer Group**.
 1. Create a **New Order** for the test customer, add **Product** and **Address**.

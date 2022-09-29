@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.0 - 2.3.5-p2, 2.4.0 - 2.4.0-p1
 
 Cross-sell products are not displayed in the cross-sell block on the shopping cart page.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. Disable Magento_TargetRule module or remove from layout block Magento\TargetRule\Block\Checkout\Cart\Crosssell.
 1. Create Product 1.
@@ -35,16 +35,16 @@ Cross-sell products are not displayed in the cross-sell block on the shopping ca
 1. Set Product 3 as cross-sell for Product 4.
 1. Set Product 4 as cross-sell for Product 2.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Add Product 4 and Product 2 to the shopping cart.
 1. Check the shopping cart page.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Product 3 is displayed in cross-sell block.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Cross-sell block is empty.
 

@@ -26,16 +26,16 @@ The MDVA-38526 patch solves the issue where the admin user is not able to access
 
 The admin user is not able to access the SWAT tool.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Try to reach `../swat/key/index`
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 1. `../swat/key/index returns 200`.
 1. The admin user is able to access SWAT.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 500 Error is triggered with the following error log: *Unable to unserialize value. Error: Syntax error*.
 

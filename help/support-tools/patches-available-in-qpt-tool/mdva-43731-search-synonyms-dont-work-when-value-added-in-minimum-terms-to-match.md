@@ -26,7 +26,7 @@ The MDVA-43731 patch fixes the issue where Search Synonyms stop working when a v
 
 Search Synonyms stop working when a value is added in "Minimum Terms to Match".
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Install Adobe Commerce with sample data.
 1. Configure ElasticSearch7 as the search engine.
@@ -39,11 +39,11 @@ Search Synonyms stop working when a value is added in "Minimum Terms to Match".
 1. Do a reindex.
 1. Do a product search using any of the synonyms. E.g., jacket.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 You get the same product list as before in the search results.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 No product is shown in the search results.
 

@@ -26,7 +26,7 @@ The MDVA-44147 patch fixes the issue where GraphQL request doesn't return Requis
 
 GraphQL request doesn't return Requisition Lists.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Store** > **Settings** > **Configuration** > **General** > **B2B Features** and enable Requisition List.
 1. Log in as a customer and add a product to the [Requisition List](https://docs.magento.com/user-guide/customers/account-dashboard-requisition-lists.html).
@@ -158,11 +158,11 @@ GraphQL request doesn't return Requisition Lists.
       </code>
       </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 One result is returned.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Zero results are returned.
 

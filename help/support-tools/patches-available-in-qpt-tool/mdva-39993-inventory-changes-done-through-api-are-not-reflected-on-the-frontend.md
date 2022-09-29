@@ -26,11 +26,11 @@ The MDVA-39993 patch solves the issue where the inventory changes done through A
 
 The inventory changes done through API are not reflected on the storefront product page.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Inventory modules installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Make sure the queue is set to execute with cron and cron is installed and running.
 1. Create a configurable product (COC001), with two colors (Black and Red), and two sizes (M and L).
@@ -54,11 +54,11 @@ Inventory modules installed.
 1. Check this simple product from the backend and verify that it is updated to In Stock.
 1. Load the configurable product from the frontend and click on each color. Notice the size **M** when you click on **Red**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 COC001-Red-M option is not crossed out because we have updated it to In Stock through API.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 COC001-Red-M option is still crossed out, even though it is In Stock.
 

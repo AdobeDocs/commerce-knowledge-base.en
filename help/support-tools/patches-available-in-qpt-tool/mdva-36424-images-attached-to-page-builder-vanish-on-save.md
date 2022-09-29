@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.5 - 2.4.1-p1
 
 Media images attached to page builder elements are not saved if the backend base URL is different from the storefront base URL.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a second website - website2.
 1. Set a different base URL for website2 (the base URL used in admin should be different from the second website).
@@ -39,11 +39,11 @@ Media images attached to page builder elements are not saved if the backend base
 1. Save the category again.
 1. Go to the **Content** > *Description*.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The image is not removed when saving the category.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The image is removed after saving the category a second time.
 

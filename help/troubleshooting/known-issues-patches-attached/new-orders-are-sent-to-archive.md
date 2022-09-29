@@ -16,17 +16,17 @@ This article provides a patch for the known Adobe Commerce 2.2.0 issue related t
 
 When customers place orders, they appear in the archived orders grid instead of the regular orders grid.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Add any product to the cart on the storefront, proceed through checkout, and place the order.
 1. In the Commerce Admin, navigate to **Sales** > **Operations** > **Order**. See the order appear in the grid.
 1. Navigate to **Sales** > **Archive** > **Orders**. See the new order in the grid.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The order is displayed in the Orders grid only.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The order is displayed in the Orders grid and in the order archive grid.
 

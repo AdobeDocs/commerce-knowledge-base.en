@@ -26,17 +26,17 @@ The ACSD-46404 patch solves the issue where an admin user cannot log in after up
 
 The admin user cannot log in after upgrading to 2.4.4.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Admin Panel
 1. Navigate to Store > **Settings** > **Configuration** > **Advanced** > **System** > **Security**.
 1. Set the Max Session Size in the Admin to **0** and save it.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The admin user is able to log in successfully.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The admin user gets logged out and is unable to log in.
 

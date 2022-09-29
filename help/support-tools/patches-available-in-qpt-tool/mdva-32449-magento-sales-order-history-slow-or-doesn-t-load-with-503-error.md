@@ -28,20 +28,20 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 Fixes the issue where the order history loads very slowly or does not load at all.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 13000+ customers assigned to a B2B company
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the storefront as the company admin.
 1. Go to sales order history page.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The sales order history page loads normally.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The page loads very slowly or the page may not load and a timeout error is displayed.
 

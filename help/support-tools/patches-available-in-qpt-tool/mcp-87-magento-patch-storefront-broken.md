@@ -26,7 +26,7 @@ The MCP-87 Adobe Commerce patch fixed the issue where stock reindexing of catalo
 
 The stock reindex of catalogs with large profiles is very slow.
 
-<ins>Steps to reproduce:</ins>
+<u>Steps to reproduce:</u>
 
 1. Log in to the Admin Panel.
 1. Navigate to: **Products** > **Catalog**.
@@ -35,11 +35,11 @@ The stock reindex of catalogs with large profiles is very slow.
 1. Click on **Advanced Inventory** from the Advanced Settings tab. Change **Stock Availability** to *In Stock*. Click **Save**.
 1. Perform full reindex manually, execute the following command from the root: `bin/magento indexer:reindex`
 
- <ins>Expected result:</ins>
+ <u>Expected result:</u>
 
 Stock indexer reindexes quickly.
 
- <ins>Actual result:</ins>
+ <u>Actual result:</u>
 
 Stock indexer is very slow and/or does not complete.
 

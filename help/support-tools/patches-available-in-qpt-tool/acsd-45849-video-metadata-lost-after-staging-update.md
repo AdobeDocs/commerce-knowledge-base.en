@@ -26,7 +26,7 @@ The ACSD-45849 patch fixes the issue where the video metadata is lost after a st
 
 The video metadata is lost after a staging update is applied.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set up the YouTube API key in **Admin** > **Stores** > **Configuration** > **Catalog** > **Product Video**.
 1. Create a product with a YouTube video. Note that the URL, title, and description are filled.
@@ -34,11 +34,11 @@ The video metadata is lost after a staging update is applied.
 1. Click on **View/Edit** in Scheduled Changes.
 1. Go to **Images and Videos** and click on the video.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The URL, title, and description contain appropriate data.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The URL, title, and description fields are empty.
 

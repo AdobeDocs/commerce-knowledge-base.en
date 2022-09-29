@@ -22,17 +22,17 @@ The MDVA-33289 patch fixes the problem where Javascript shows in address at paym
 
 When checking out with Google Tag Manager (GTM) enabled, Javascript shows in the address field.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable GTM. See [Google Tag Manager](https://docs.magento.com/user-guide/marketing/google-tag-manager.html) in our user guide, for details.
 1. In the storefront, add some products to the cart.
 1. Check out.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The address section updates, but includes a lot of Javascript code text.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Address is shown.
 

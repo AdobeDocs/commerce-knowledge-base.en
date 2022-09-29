@@ -16,17 +16,17 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://magento
 
 Adobe Commerce automatically updates SSL certificates 30 days prior to expiration. This automation does not check if the certificate being replaced is an internal SSL or a custom third-party SSL and will replace it with a valid internal SSL upon detection of expiration. This can cause confusion for site owners and operators that expect to have the custom certificate on the site, as well as the potential for other functionality issues including, but not limited to, a site outage.
 
-<ins>Steps to reproduce</ins>
+<u>Steps to reproduce</u>
 
 1. Custom SSL certificate installed for the website.
 1. Automation detects the custom SSL certificate is 30 days away from expiring.
 1. Adobe Commerce automatically replaces the custom certificate with our internal certificate.
 
-<ins>Expected results</ins>
+<u>Expected results</u>
 
 Adobe Commerce skips custom certificates when running its automated SSL certificate update.
 
-<ins>Actual results</ins>
+<u>Actual results</u>
 
 Adobe Commerce updates any certificate when it is 30 days from expiration.
 

@@ -26,16 +26,16 @@ Adobe Commerce (all deployment methods) 2.3.4 - 2.3.7-p2
 
 Incorrect order date is printed on the PDF invoice.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Sales** > **Orders**.
 1. Select an order and print the invoice.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The date matches the purchase date.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The date (including month/year) does not match the purchase date.
 

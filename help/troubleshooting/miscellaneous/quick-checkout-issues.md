@@ -14,7 +14,7 @@ This article explains issues you may experience while using the Quick Checkout f
 
 ## Incorrect Composer keys and minimum-stability to `RC`
 
-<ins>Cause</ins>:
+<u>Cause</u>:
 
 If you see the following error message, you might have incorrect composer keys:
 
@@ -22,7 +22,7 @@ If you see the following error message, you might have incorrect composer keys:
 Could not find a matching version of package magento/quick-checkout. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (RC).
 ```
 
-<ins>Solution</ins>:
+<u>Solution</u>:
 
 Verify that your composer keys are linked to the _Magento ID_ used during the Quick Checkout registration.
 
@@ -50,7 +50,7 @@ To see which composer keys are configured:
 
 ## Not enough memory for PHP
 
-<ins>Cause</ins>:
+<u>Cause</u>:
 
 If you see the following error message denoting you do not have enough memory for PHP:
 
@@ -58,7 +58,7 @@ If you see the following error message denoting you do not have enough memory fo
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
-<ins>Solution</ins>:
+<u>Solution</u>:
 
 [Increase the memory limit](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit) for PHP on your environment in `php.ini`.
 

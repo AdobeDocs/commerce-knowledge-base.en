@@ -24,7 +24,7 @@ Adobe Commerce on cloud infrastructure 2.3.6
 
 ## Issue
 
-<ins>Steps to reproduce:</ins>
+<u>Steps to reproduce:</u>
 
 1. Create a category with a few products.
         ![products_magento_ordered.png](assets/products_magento_ordered.png)
@@ -34,11 +34,11 @@ Adobe Commerce on cloud infrastructure 2.3.6
         ![cms_page_magento.png](assets/cms_page_magento.png)
 1. Save and wait for the content preview.
 
-<ins>Expected results:</ins>
+<u>Expected results:</u>
 
 Content preview displays the product widget.
 
-<ins>Actual results:</ins>
+<u>Actual results:</u>
 
 Error displays:
 

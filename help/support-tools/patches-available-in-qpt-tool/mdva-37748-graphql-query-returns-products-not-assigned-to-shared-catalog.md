@@ -26,11 +26,11 @@ Adobe Commerce (all deployment methods) 2.4.2 - 2.4.2-p2
 
 GraphQL query returns products not assigned to a shared catalog.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 B2B modules are installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create two products and assign them to a category:
     * Product 1 - Public
@@ -196,11 +196,11 @@ B2B modules are installed.
   </code>
   </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The count and the product returned by GraphQL only consider the product assigned to the shared catalog associated with the logged-in user.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Only "Product 2" is returned, but the `total_count` shows two.
 

@@ -15,20 +15,20 @@ This article provides a patch for the known issue of a purchase order (PO) disco
 
 ## Issue
 
- <ins>Prerequisites</ins>: a discount coupon is created, and approval rules preventing POs from being processed automatically exist.
+ <u>Prerequisites</u>: a discount coupon is created, and approval rules preventing POs from being processed automatically exist.
 
-<ins>Steps to reproduce:</ins>
+<u>Steps to reproduce:</u>
 
 1. Place a PO with a discount applied.
 1. Deactivate the discount coupon.
 1. Approve PO as a manager.
 1. Check the order created as a result.
 
- <ins>Expected result:</ins>
+ <u>Expected result:</u>
 
 Order is created with a discounted total.
 
- <ins>Actual result:</ins>
+ <u>Actual result:</u>
 
 Order is created for the full amount.
 

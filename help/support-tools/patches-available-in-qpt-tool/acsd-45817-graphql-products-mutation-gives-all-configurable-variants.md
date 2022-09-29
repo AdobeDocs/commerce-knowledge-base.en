@@ -26,11 +26,11 @@ The ACSD-45817 patch fixes the issue where a GraphQL `products` mutation for a s
 
 A GraphQL `products` mutation for a specific store returns all configurable variants, including those not assigned to the requested store.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Create a 2nd website, 2nd store, and a 2nd store view.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a configurable product with two subproducts: "configurable-a" and "configurable-b".
 1. Assign the configurable product to both websites.
@@ -103,11 +103,11 @@ Create a 2nd website, 2nd store, and a 2nd store view.
     }
     ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The "configurable-b" variation is not assigned to the 2nd website and should not be displayed in the response.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The "configurable-b" variation is displayed in the response.
 

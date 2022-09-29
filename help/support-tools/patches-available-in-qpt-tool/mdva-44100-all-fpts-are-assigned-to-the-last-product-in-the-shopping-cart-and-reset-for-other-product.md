@@ -26,7 +26,7 @@ The MDVA-44100 patch solves the issue where all FPTs are assigned to the last pr
 
 All FPTs are assigned to the last product in the shopping cart, and the FPT values for the rest of the products are reset.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > **Configuration** > **Sales** > **Tax** and set:
     * Enable FPT = Yes
@@ -40,11 +40,11 @@ All FPTs are assigned to the last product in the shopping cart, and the FPT valu
 1. Place the order.
 1. Check the items list on the order.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The FPTs are displayed under each product.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The FPT values from both items are shown under the second item.
 

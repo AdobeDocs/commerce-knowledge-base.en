@@ -26,7 +26,7 @@ The MDVA-44044 patch solves the issue where a product is not displayed on the ca
 
 Product is not displayed on the category page after it is assigned to a new website.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set the indexer mode to schedule.
 1. Create a secondary website, store, and store view.
@@ -42,11 +42,11 @@ Product is not displayed on the category page after it is assigned to a new webs
 1. Assign the product to the secondary website.
 1. Run the cron again.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product appears on the category page after a scheduled indexer.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The product does not appear on the category page until a full reindex.
 

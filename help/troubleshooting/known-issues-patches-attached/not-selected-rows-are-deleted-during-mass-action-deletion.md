@@ -12,17 +12,17 @@ This article provides a patch for the known Adobe Сommerce on cloud infrastruct
 
 In the Admin, if you select customer or client records to be deleted, filter the grid, and then select the **Delete** action, all records are deleted.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Navigate to **Catalog** > **Products** in the Admin.
 1. Select a product or multiple products.
 1. Select Delete from the Actions drop-down menu.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Only selected products are deleted.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Some other products are deleted as well.
 

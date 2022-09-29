@@ -26,7 +26,7 @@ The MDVA-38728 patch solves the issue where changing the product visibility of t
 
 Changing the product visibility of the second website creates a URL rewrite for the main website.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create an additional Website, Store, and Storeview.
 1. Create a simple product.
@@ -43,11 +43,11 @@ Changing the product visibility of the second website creates a URL rewrite for 
 1. Select the created product and update visibility attribute by using the mass update to Catalog and Search.
 1. Check the URL rewrite.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The rewrite is created for the second website where the product is assigned to.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The rewrite is created for the main website.
 

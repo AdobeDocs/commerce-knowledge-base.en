@@ -24,7 +24,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the Admin, and create the following two rules:
 
@@ -37,7 +37,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0-2.4.
 
 1. Check the discount amount in the cart.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The correct calculated discount is $234, as expected.
 
@@ -48,7 +48,7 @@ The correct calculated discount is $234, as expected.
   Apply Rule 1 (10 off 3 items), so Discount = $30\
   Total Discount = MIN ( 408/2 + 10x3, 8 &#42; 51) = MIN (204 + 30, 8 &#42; 51) = $234
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The discount is incorrectly calculated to be $153, caused by the wrong quantity used for calculating maximum discount value, as the fixed discount amount is applied regardless of the products' amount in the shopping cart.
 

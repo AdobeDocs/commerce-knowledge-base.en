@@ -26,7 +26,7 @@ The MDVA-43605 patch fixes the issue where the order data returns negative value
 
 The order data returns negative values for row totals when using Rest API.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable free shipping.
 1. Navigate to **Configuration** > **Catalog** > **Price** > and set Catalog Price Scope = Website.
@@ -51,11 +51,11 @@ The order data returns negative values for row totals when using Rest API.
     GET rest/V1/orders/1
     ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The values of `base_row_total` and `base_row_total_incl_tax` in the response are zero.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The `base_row_total` and `base_row_total_incl_tax` fields in the response have negative values.
 

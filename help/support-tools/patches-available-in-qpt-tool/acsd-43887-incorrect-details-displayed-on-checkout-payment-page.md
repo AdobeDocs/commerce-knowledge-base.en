@@ -26,14 +26,14 @@ The ACSD-43887 patch fixes the issue where incorrect details are displayed on th
 
 Incorrect details are displayed on the checkout payment page when Purchase Orders for companies are enabled.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. B2B modules are installed.
 1. Enable Company is set to _Yes_. Go to **Stores** > **Configurations** > **General** > **B2B Features** > **Enable Company** > **Yes**.
 1. Enable Purchase Orders is set to _Yes_. Go to **Order Approval Configuration** > **Enable Purchase Orders** > **Yes**.
 1. PayPal Express is configured as the payment method.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a virtual product.
 1. Register a company account from the frontend with a company Admin.
@@ -56,11 +56,11 @@ Incorrect details are displayed on the checkout payment page when Purchase Order
 1. Go to **My Purchase Orders** > **View** > **Place Order**.
 1. Check the **Order Summary**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The order summary shows correct non-zero values.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The order summary total value is zero.
 

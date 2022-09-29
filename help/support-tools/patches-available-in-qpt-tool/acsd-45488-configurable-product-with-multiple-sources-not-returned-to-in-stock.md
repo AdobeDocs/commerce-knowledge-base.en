@@ -26,7 +26,7 @@ The ACSD-45488 patch solves the issue where a configurable product with multiple
 
 A configurable product with multiple sources is not returned to in stock automatically.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a secondary stock source.
 1. Create a configurable product with two associated virtual products.
@@ -37,11 +37,11 @@ A configurable product with multiple sources is not returned to in stock automat
 1. Set both associated products to be *in stock*.
 1. Check the `stock_status` from `cataloginventory_stock_status`.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The stock status of the configurable product is updated to *in stock* when the associated products are set to be in stock.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The stock status of the configurable product is not updated to *in stock* when the associated products are set to be in stock.
 

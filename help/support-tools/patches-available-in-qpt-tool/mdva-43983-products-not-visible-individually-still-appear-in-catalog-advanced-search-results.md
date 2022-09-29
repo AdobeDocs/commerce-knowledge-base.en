@@ -26,7 +26,7 @@ The MDVA-43983 patch solves the issue where the products that are set as "Not Vi
 
 The products that are set as "Not Visible Individually" still appear in catalog advanced search results.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create an attribute with **Catalog Input Type for Store Owner** as **Dropdown** or **Visual Swatch** (for example, Color).
 1. Set **Use in Search** as **Yes** and **Visible in Advanced Search** as **Yes**.
@@ -38,11 +38,11 @@ The products that are set as "Not Visible Individually" still appear in catalog 
 1. Submit an advanced search form.
 1. Observe the search results.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Products that are set as "Not Visible Individually" do not appear in the catalog advanced search results.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Products that are set as "Not Visible Individually" appear in the catalog advanced search results.
 

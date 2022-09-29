@@ -26,22 +26,22 @@ The ACSD-45754 patch solves the issue where reward points are not added after ap
 
 Reward points are not added after applying a coupon to the cart.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 PayPal payment method is configured.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create reward point exchange rates by going to **Store** > **Other Settings** > **Reward Exchange Rates**.
 1. Create a cart price rule with a coupon code to apply 100 reward points for logged-in customers.
 1. Check out a product as a logged-in customer with PayPal and the coupon code.
 1. Check the reward point history under the customer account in the admin.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Rewards points are added to the customer according to the price rule.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 No reward points are added to the customer.
 

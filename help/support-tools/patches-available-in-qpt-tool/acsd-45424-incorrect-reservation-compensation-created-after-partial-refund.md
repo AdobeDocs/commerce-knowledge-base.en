@@ -26,7 +26,7 @@ The ACSD-45424 patch fixes the issue where an incorrect reservation compensation
 
 Incorrect reservation compensation is created after a partial refund.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable in-store delivery shipping method.
 1. Create three inventory sources and make sure the pickup location is active in each (source1, source2, source3).
@@ -49,11 +49,11 @@ Incorrect reservation compensation is created after a partial refund.
 1. Now create a credit memo for only one product. DO NOT select the *Return to Stock* checkbox.
 1. Execute the same query from Step 8.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 If you did not select the *Return to Stock* during the credit memo creation, the `inventory_reservation` table will not have a record corresponding to the credit memo.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Even though you didn't select the *Return to Stock* during the credit memo creation, it adds a record to `inventory_reservation` table with `creditmemo_created` event type. Also, the credit memo record added in the `inventory_reservation` table has a quantity of 10 even though you created the credit memo for only one quantity.
 

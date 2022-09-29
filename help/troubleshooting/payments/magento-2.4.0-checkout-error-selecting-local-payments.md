@@ -17,13 +17,13 @@ The error message, "*There are currently no available payment methods. Please up
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * Adobe Commerce 2.4.0 is installed.
 * Create one product and one category.
 * Configure [Braintree Payment Method](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html).
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Navigate to the storefront.
 1. Select items to add to the cart.
@@ -31,11 +31,11 @@ The error message, "*There are currently no available payment methods. Please up
 1. Fill out the address form with a valid address.
 1. Proceed to the Review & Payments page.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The local payment methods should be displayed normally, without an error message.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The error message, "*There are currently no available payment methods. Please update your Billing Address.*" appears, but the local payment methods will still display and function correctly.
 

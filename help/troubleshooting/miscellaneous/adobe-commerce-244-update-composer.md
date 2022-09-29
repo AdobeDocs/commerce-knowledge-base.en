@@ -18,18 +18,18 @@ This articles provides a solution to avoid the issue with composer plugins when 
 
 When updating to Adobe Commerce 2.4.4 or higher after July 2022, you might get warning from composer about plugins.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Prerequisites: Adobe Commerce 2.4.3 or earlier is installed.
 
 1. Start the upgrade as described in [Perform an upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html).
 1. Run the `composer update` command to upgrade the Adobe Commerce application.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Upgrade is successful.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Installation fails with an error similar to the following:
 

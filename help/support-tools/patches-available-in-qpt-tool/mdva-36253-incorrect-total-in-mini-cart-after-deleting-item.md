@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.4.0-2.4.1-p1
 
 Incorrect total in mini cart after deleting item.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in as a customer that has at least one address.
 1. Add four products to cart (price = $10 for each).
@@ -35,11 +35,11 @@ Incorrect total in mini cart after deleting item.
 1. Navigate back to the Home page.
 1. Open the cart and check the total price.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Total is $30.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Total is $40.
 

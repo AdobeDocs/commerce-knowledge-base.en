@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.4 - 2.4.0
 
 Guest quotes created using API are incorrectly marked as quotes for logged-in customers.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. On the Adobe Commerce storefront, add a product to the cart as a guest user.
 1. In your Adobe Commerce DB, find the corresponding `quote_id_mask`.
@@ -36,11 +36,11 @@ Guest quotes created using API are incorrectly marked as quotes for logged-in cu
 curl -X GET "http://web2-73.sparta.corp.magento.com/dev/support/ee24dev/rest/all/V1/guest-carts/ToOwPtSBxkorkCLq6ztwupPd99y8zhky" -H "accept: application/json"
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 In response you get `"customer_is_guest": true`
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 In response you get `"customer_is_guest": false`
 

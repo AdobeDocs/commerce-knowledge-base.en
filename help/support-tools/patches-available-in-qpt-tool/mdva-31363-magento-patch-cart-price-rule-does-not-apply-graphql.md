@@ -30,7 +30,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.2 - 2.
 
 Recalculating quote totals before giving a response about quote prices causes applied rules to be lost.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product.
 1. Create a cart price rule with a fixed amount discount for the whole cart.
@@ -39,11 +39,11 @@ Recalculating quote totals before giving a response about quote prices causes ap
 1. Activate the cart price rule by adding the coupon code to cart using GraphQL.
 1. Check price in response.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Discount is applied.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Discount is not applied.
 

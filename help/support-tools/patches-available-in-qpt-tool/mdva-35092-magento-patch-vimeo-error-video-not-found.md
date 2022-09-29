@@ -26,18 +26,18 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.5 - 2.
 
 The Vimeo simple API stops working as expected.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Admin.
 1. To edit an existing product, go to **CATALOG** > **Products** > **Edit**, or to create a new product, go to **CATALOG** > **Products** > **Edit** > **Add Product**.
 1. Click the **Images And Videos** tab on the Product page.
 1. Click **Add Video** and add a Vimeo video's URL. Click **Save**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The new video is found and saved.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Error: *"Video not Found"* is displayed.
 

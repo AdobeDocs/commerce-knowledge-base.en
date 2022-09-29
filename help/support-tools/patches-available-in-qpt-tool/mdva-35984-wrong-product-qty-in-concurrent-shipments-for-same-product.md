@@ -24,7 +24,7 @@ Adobe Commerce (all deployment methods) 2.4.0-2.4.2
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product with **Qty** = *100*.
 1. Create two orders with this product.
@@ -36,11 +36,11 @@ Adobe Commerce (all deployment methods) 2.4.0-2.4.2
 
 1. Check the product Qty in the Admin grid.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The result is product **Qty** = *98* after both shipments.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The result is product **Qty** = *99* after both shipments.
 

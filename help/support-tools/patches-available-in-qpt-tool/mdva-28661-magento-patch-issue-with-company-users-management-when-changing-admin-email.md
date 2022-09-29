@@ -22,7 +22,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0 to 2
 
 After changing the **Company Admin** email address, an error is returned, and the **Company Users** list is not displayed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable Company functionality (Learn more about that in [Install B2B: Enable B2B features in the Commerce Admin](https://devdocs.magento.com/extensions/b2b/#enable-b2b-features-in-magento-admin) in our developer documentation and create a new Company with two users - an admin and two users - all with email addresses).
 1. Go to the **Commerce Admin** > **Customers** > **Companies** and open your Company account.
@@ -30,11 +30,11 @@ After changing the **Company Admin** email address, an error is returned, and th
 1. Go to the Adobe Commerce frontend and log in as the first user.
 1. Go to the **Company Users** section.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The **Company Users** list should be displayed as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The **Company Users** list is not displayed, and an error similar to the following displays:
 

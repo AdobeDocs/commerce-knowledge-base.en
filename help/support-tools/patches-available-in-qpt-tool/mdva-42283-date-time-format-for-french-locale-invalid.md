@@ -26,17 +26,17 @@ The MDVA-42283 patch fixes the issue where the date-time format in the admin ord
 
 The date-time format in the admin order grid for the French locale is invalid.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create an Order, Customer, CMS page or CMS Block.
 1. Go to **Admin** > **Account Settings** and set the interface locale for admin to **Français (Canada)**/**français (Canada)(fr_CA)** or **Brazilian Portuguese (pt_BR)**.
 1. Observe the value in the date column for any Order, Shipment, Credit Memo, Customer, CMS page or CMS block grid.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The date is in the format that appears on the actual edit page for the entity.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The date-time value is incorrect.
 

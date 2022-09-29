@@ -26,7 +26,7 @@ The MC-42528 patch solves the issue where the GraphQL query of `categoryList` re
 
 GraphQL query of `categoryList` returns both assigned and unassigned categories.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create two categories, CAT1 and CAT2, and assign few products to each category.
 1. Create a private shared catalog.
@@ -35,11 +35,11 @@ GraphQL query of `categoryList` returns both assigned and unassigned categories.
 1. Set the category permission for CAT2 to "Deny" Browsing Category for the customer group of private catalog.
 1. Run the `categoryList` or `categories` GraphQL query as the company user.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Only the CAT1 shows up in the response.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 All the categories show up in the response regardless of the browsing permissions of category.
 

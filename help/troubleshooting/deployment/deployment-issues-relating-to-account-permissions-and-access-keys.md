@@ -14,22 +14,22 @@ This article provides a solution for issues with deploying Adobe Commerce on clo
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 The Cloud license is associated with Contact A (email address: *<u>first@e.mail</u>*)
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Contact A created Adobe Commerce access keys on their account (Key X) and installed them on the Cloud.
 1. Contact B (email address: *<u>second@e.mail</u>*) purchased an extension using his account and created the access keys for installing the extension (Key Y).
 1. Contact A then left the company, and the license (ownership) was then transferred to Contact B.
 1. System integrator tries to install the extension on the cloud environment using Key X.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Extension is successfully installed.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 Extension is not installed because deployment fails.
 

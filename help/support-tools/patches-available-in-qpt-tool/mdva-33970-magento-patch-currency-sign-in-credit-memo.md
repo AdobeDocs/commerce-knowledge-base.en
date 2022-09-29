@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 ## Issue
 
-<ins>Preconditions</ins>:
+<u>Preconditions</u>:
 
 For this example, these settings are used:
 
@@ -41,7 +41,7 @@ For this example, these settings are used:
     * **SGD (Singapore Dollar)** = *SGD* (**Use Standard** = *Checked*)
 * Some **Product** exists.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Make an **Order** from the **Website 2** (you can set up it as Default in order to avoid additional settings).
 1. Login to **Admin**.
@@ -56,11 +56,11 @@ For this example, these settings are used:
 1. Open **Sales > Credit Memos**.
 1. Check the **Currency Symbol** in the grid.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The correct localized currency symbol is used, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The Dollar ($) sign is used, even though it is not setup in the Admin settings.
 

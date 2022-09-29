@@ -24,24 +24,24 @@ Adobe Commerce (all deployment methods) 2.3.1-2.4.2-p1
 
 Incorrect tax rate is displayed on Checkout Page when the Shopping Cart has only virtual products.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. Create two separate tax rates and tax rules for two different countries - for example 10% and 1%.
 1. Create a virtual product.
 1. Run reindex and clean cache.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a customer.
 1. Add different billing and shipping addresses.
 1. Add a virtual product to the cart.
 1. Check the Cart and Checkout Page.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The tax displayed on the Cart and Checkout Page are the same.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The tax displayed on the Cart and Checkout Page are NOT the same.
 

@@ -26,11 +26,11 @@ The MDVA-40609 patch solves the issue where the disabled products data is not sh
 
 Disabled products data is not shown in the `cataloginventory_stock_status` index table leading to displaying incorrect product quantities.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Inventory module is installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set up two websites with stores and store views.
 1. Create an additional source and stock.
@@ -40,11 +40,11 @@ Inventory module is installed.
 1. Save the product.
 1. Check the **Product Salable Quantity** tab.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Both stocks have entered values greater than zero.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 One stock has zero value.
 

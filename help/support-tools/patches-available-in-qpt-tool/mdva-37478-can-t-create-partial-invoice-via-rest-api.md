@@ -19,11 +19,11 @@ The MDVA-37478 patch fixes the issue when you're unable to create a partial invo
 
 ## Issue
 
- <ins>Prerequisite</ins>:
+ <u>Prerequisite</u>:
 
  Adobe Commerce with installed B2B module
 
- <ins>Steps to reproduce</ins>:
+ <u>Steps to reproduce</u>:
 
 1. Enable **B2B company**.
 1. Enable **Payment on Account** payment method.
@@ -45,11 +45,11 @@ The MDVA-37478 patch fixes the issue when you're unable to create a partial invo
     }
     ```
 
- <ins>Expected results</ins>:
+ <u>Expected results</u>:
 
 The partial invoice is created for an order made using the **Payment on Account** payment method, as expected.
 
- <ins>Actual results</ins>:
+ <u>Actual results</u>:
 
 The following error is returned from the REST API:
 ```php

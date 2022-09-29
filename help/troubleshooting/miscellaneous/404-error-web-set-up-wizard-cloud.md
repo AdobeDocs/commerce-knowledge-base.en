@@ -16,15 +16,15 @@ This article provides a solution for when you experience a 404 not found error w
 
 When installing an extension using Web Setup Wizard a 404 page displays.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Merchant clicks the Web Setup Wizard to install new module/integration.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Module/integration installs.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 A 404 error displays.
 

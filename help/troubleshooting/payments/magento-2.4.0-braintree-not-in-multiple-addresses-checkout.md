@@ -17,11 +17,11 @@ Note: Adobe Commerce recommends using the [Commerce Marketplace Braintree extens
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 The core Braintree integration is used.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the storefront.
 1. Log in as a customer.
@@ -32,11 +32,11 @@ The core Braintree integration is used.
 1. Press **Go to Shipping Information**.
 1. Press **Continue to Billing Information**.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Braintree is available as a payment method.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 Braintree is not available as a payment method.
 

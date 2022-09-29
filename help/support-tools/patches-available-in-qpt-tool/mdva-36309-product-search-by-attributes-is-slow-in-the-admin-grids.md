@@ -26,15 +26,15 @@ The MDVA-36309 patch solves the issue where the products search by attributes is
 
 Products search by attributes is slow in the admin grids.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Perform search in various admin grids with different types of searchable attributes.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Search is performed in reasonable time.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Search takes a lot of time.
 

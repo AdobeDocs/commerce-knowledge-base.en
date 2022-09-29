@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.0 - 2.4.2
 
 Merchant is unable to ship certain orders.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Choose any product website for the product except the default store. See [Product in Websites](https://docs.magento.com/user-guide/catalog/settings-basic-websites.html) in our user guide for detailed steps.
 1. Create a user role for the Admin with Custom Role Scopes, in which the default website/store is not selected. See [Define a role](https://docs.magento.com/user-guide/system/permissions-user-roles.html#define-a-role) in our user guide for detailed steps.
@@ -34,11 +34,11 @@ Merchant is unable to ship certain orders.
 1. Create an order with this product.
 1. Log in under the Admin with this user role and create a shipment. See [Creating a Shipment](https://docs.magento.com/user-guide/sales/shipments-create.html) in our user guide for detailed steps.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The shipment is created.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following error is displayed:
 

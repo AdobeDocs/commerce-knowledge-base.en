@@ -26,7 +26,7 @@ The MDVA-31763 patch solves the issue where catalog price rules are reverted unt
 
 When `catalogrule_product` partial indexer is executed on configurable products, catalog rules get disappeared.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Admin backend.
 1. Go to **Stores** > **Attributes** > **Product** and search for the "manufacturer" attribute.
@@ -46,11 +46,11 @@ When `catalogrule_product` partial indexer is executed on configurable products,
 1. Update the "weight" attribute of the created configurable product.
 1. Check product price on PDP.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The catalog price rules set on configurable products are not removed during partial reindex.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The catalog price rules set on configurable products are disappeared during partial reindex.
 

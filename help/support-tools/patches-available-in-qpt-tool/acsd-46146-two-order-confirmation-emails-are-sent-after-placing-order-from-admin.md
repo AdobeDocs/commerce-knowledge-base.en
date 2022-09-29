@@ -26,16 +26,16 @@ The ACSD-46146 patch solves the issue where two order confirmation emails are se
 
 Two order confirmation emails are sent after placing an order from the admin.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Open the Commerce Admin > **Sales** > **Orders** > **Create new order**.
 1. Place an order with the default payment (Check/money order) and shipping (Flat rate) settings.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Only one order confirmation email is sent.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Two order confirmation emails are sent after placing an order from the admin.
 

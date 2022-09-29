@@ -10,7 +10,7 @@ This is the expected behavior for Adobe Commerce on cloud infrastructure Pro pla
 
 The Galera database cluster is used, which is a database cluster with one MariaDB MySQL database per node with an auto-increment setting of three for unique IDs across every database.
 
-<ins>Why does the increment ID used on Pro clusters not always get separated/incremented by 3?</ins>
+<u>Why does the increment ID used on Pro clusters not always get separated/incremented by 3?</u>
 
 The increment ID used on clusters does not always get separated/incremented by 3 due to the way that Galera works.
 

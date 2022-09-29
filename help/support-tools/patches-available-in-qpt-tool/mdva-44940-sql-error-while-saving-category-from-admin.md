@@ -26,7 +26,7 @@ The MDVA-44940 patch fixes the issue where an SQL error occurs while saving a ca
 
 An SQL error occurs when saving a category from the admin.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Install sample data.
 1. Create a second website with a store group assigned to the default category.
@@ -37,11 +37,11 @@ An SQL error occurs when saving a category from the admin.
 1. Create a test product assigned to the second website.
 1. Go to **Admin** > **Catalog** > **Categories**, select **Scope** = **Second Website** and go to **Products in Category** > **Automatic Sorting** > Move out-of-stock products to the bottom and click **Save**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The category is saved.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following error occurs: *Something went wrong while saving the category*.
 

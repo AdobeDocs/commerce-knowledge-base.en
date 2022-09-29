@@ -15,7 +15,7 @@ This article provides a solution for an Adobe Commerce 2.4.0 known issue where t
 
 ## Issue
 
- <ins>Steps to reproduce:</ins>
+ <u>Steps to reproduce:</u>
 
 1. Go to the Commerce Admin Panel > **Stores** > **Tax Rules**.
 1. Click the **Add New Tax Rule** button.
@@ -23,11 +23,11 @@ This article provides a solution for an Adobe Commerce 2.4.0 known issue where t
 
     ![magento_export_tax_rates.png](assets/mceclip0.png)
 
- <ins>Expected result</ins>:
+ <u>Expected result</u>:
 
  A `tax_rates.csv` file downloads containing tax rates.
 
- <ins>Actual result</ins>:
+ <u>Actual result</u>:
 
  No .csv file is downloaded.
 

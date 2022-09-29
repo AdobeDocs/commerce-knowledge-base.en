@@ -14,11 +14,11 @@ In the Adobe Commerce 2.2.1 with B2B extension installed, orders created on the 
 
 `report.CRITICAL: You cannot define a correlation name ‘company_order’ more than once`
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Your store catalog contains products, not Adobe Commerce sample data, and the B2B extension is installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Navigate to the store front and create a customer account.
 1. Add a product to the shopping cart, complete checkout and submit an order.
@@ -27,11 +27,11 @@ Your store catalog contains products, not Adobe Commerce sample data, and the B2
 1. For the newly created customer click **Edit**.
 1. Click **Orders** in the panel on the left.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The recently submitted order is listed in the grid.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The Orders grid does not display. A blank page displays instead.
 

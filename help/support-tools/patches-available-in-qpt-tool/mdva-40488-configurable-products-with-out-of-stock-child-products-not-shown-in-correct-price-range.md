@@ -26,11 +26,11 @@ The MDVA-40488 patch solves the issue where configurable products with out-of-st
 
 Configurable products with out-of-stock child products are not shown in their correct price range.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Go to the Commerce Admin > **stores** > **configuration** > **catalog** > **Inventory** > **stock options** and set **Display Out of Stock Products** configuration to *Yes*.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a configurable product with two associated products. For example: simple products Red and Brown.
 1. Set inventory of the simple product Red, and set Stock Status to *In Stock*, then set the Enable Product status to *No*.
@@ -42,11 +42,11 @@ Go to the Commerce Admin > **stores** > **configuration** > **catalog** > **Inve
 1. Check the `min_price` and `max_price` for the configurable product in the `catalog_product_index_price` DB table - the two values are set to 0.
 1. But if we set the configurable product Stock Status to *Out of stock* and do reindex, then we can see non-zero `min_price` and `max_price` values of the configurable product.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 If all child products are *Out of Stock* and the configurable product itself is also *Out of Stock*, the price is calculated by using all the child products.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The `min_price` and `max_price` values for the configurable product in the `catalog_product_index_price` DB table are set to 0 when the configurable stock status is *In stock*, but if it's *Out of Stock* they become non-zero values.
 

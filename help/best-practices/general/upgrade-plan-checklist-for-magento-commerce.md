@@ -71,7 +71,7 @@ Use this checklist during your annual and quarterly conversations with your eCom
 
  **Post Deployment**
 
-▢    Monitor site for issues – performance, order processing, analytics, and others.
+▢    Monitor site for issues &ndash;  performance, order processing, analytics, and others.
 
 ▢    Perform an Adobe Commerce [security scan](https://account.magento.com/scanner/dashboard/) or other third-party scan and review potential security vulnerabilities.
 

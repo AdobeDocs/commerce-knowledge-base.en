@@ -16,7 +16,7 @@ Adobe Commerce (all deployment methods) 2.4.x
 
 Live Search displays search results regardless of the stock status settings in the admin. Even when the **Display Out-of-Stock Products** is set to *No*, the products are displayed. It results in the PLP error *We can’t find products matching the selection*.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a category, add products. (Example: Category = Jeans, Product1 = Blue Jeans, Product2 = Black Jeans)
 1. Make all products in the category out of stock.
@@ -24,11 +24,11 @@ Live Search displays search results regardless of the stock status settings in t
 1. On the storefront, enter "Jeans" in the search field.
 1. Click **View All** in the pop-up.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 You see the *We can’t find products matching the selection* message on PLP, and no products are displayed on the search pop-up.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 You see the *We can’t find products matching the selection* message on PLP, and both products are displayed on the search pop-up.
 

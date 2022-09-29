@@ -16,18 +16,18 @@ This article explains errors you may experience while installing Payment Service
 
 When installing the Payment Services extension, you may see an error message stating that you used incorrect Composer keys during installation.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Attempt to [install Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html).
 1. See the following error:
 
    *Could not find a matching version of package magento/payment-services. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).*
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 You can follow these [installation instructions](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) in our developer documentation to successfully install Payment Services.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 During installation, you see an error message stating that you did not use the correct Composer keys during installation.
 
@@ -58,18 +58,18 @@ Follow instructions in [Commerce API key and private key](https://experienceleag
 
 When installing the Payment Services extension, you may see an error message stating that you do not have enough memory for PHP.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Attempt to [install Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html).
 1. See the following error, or similar:
 
    *Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52*
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 You can follow these [installation instructions](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) in our developer documentation to successfully install Payment Services.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 During installation, you see an error message stating that you do not have enough memory for PHP.
 

@@ -26,7 +26,7 @@ The MDVA-43348 patch fixes the issue where Gift Card GraphQL request shows an er
 
 Gift Card GraphQL request shows an error if gift_card_options contain "uid".
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a Gift Card product.
 1. Perform reindex.
@@ -60,11 +60,11 @@ query getProductOptionsForProductPage_bypassFastly($urlKey: String!) {
 </code>
 </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Gift Card data is returned upon request.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The following error occurs upon request for Gift Card data:
 

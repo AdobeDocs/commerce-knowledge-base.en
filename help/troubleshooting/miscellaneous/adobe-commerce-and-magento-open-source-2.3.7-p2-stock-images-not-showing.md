@@ -17,18 +17,18 @@ This article provides a solution for the issue where Adobe stock images uploaded
 
 Merchants can upload Adobe Stock images to Storage Root in the Media Gallery but these images do not appear in the UI & will appear as though they were not uploaded. This is because the system notices that the image is already uploaded to the file system although it is not available in the Media Gallery UI. This means that once a merchant uploads an image to `pub/media` or `pub/media/catalog`, they cannot use that image until it is deleted in the file system directly.
 
-<ins>Steps to reproduce</ins>
+<u>Steps to reproduce</u>
 
 1. Enable Adobe Stock with valid API keys.
 1. Open media gallery (**Catalog** > **Categories** > **Content** section > click **Select from Gallery**).
 1. Click **Search Adobe Stock**.
 1. Select an image. The click **Save Preview**. Note that you may have to reset the Adobe Stock grid to get images to appear.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The image displays.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 An error message displays: *The image cannot be located. We cannot find this image in the media gallery.*
 

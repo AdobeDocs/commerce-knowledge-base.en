@@ -26,11 +26,11 @@ The MDVA-37592 Adobe Commerce patch solves the issue where sorting by price does
 
 Sorting by price does not work correctly for products with price zero assigned to a shared catalog.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 B2B is installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Enable shared catalog.
 1. Create four products with the following prices and assign them to a category - $50, $60, $70, and $80.
@@ -40,11 +40,11 @@ B2B is installed.
 1. Log in using the company account and browse to the category where the products are assigned to.
 1. Try to sort by price.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product with price zero is sorted correctly.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The product with price zero is NOT sorted correctly. Instead it is sorted according to the original price.
 

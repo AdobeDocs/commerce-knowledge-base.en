@@ -23,7 +23,7 @@ Inputting a 5-digit South Korean or alphanumeric Argentine zip codes produces a 
 
 *Provided Zip/Postal Code seems to be invalid. Example: [1234 (if inputted an alphanumeric Argentine address)] or [123-456 (if inputted a 5-digit South Korean address)]. If you believe it is the right one you can ignore this notice.*
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Open the storefront.
 1. Add item to cart.
@@ -31,11 +31,11 @@ Inputting a 5-digit South Korean or alphanumeric Argentine zip codes produces a 
 1. Add a new address with South Korea for the country and input a 5-digit zip code or add a new address with Argentina for the country and input an alphanumeric zip code.
 1. Try to save.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Address should save without warning.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Saving address returns warning.
 

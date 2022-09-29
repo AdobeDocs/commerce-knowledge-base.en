@@ -26,7 +26,7 @@ The MDVA-44703 patch fixes the issue where the order totals in the Orders report
 
 Order totals in the Orders report are miscalculated for the restricted admin user.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create an additional website with two stores.
 1. Create a restricted admin user with access to the new website only.
@@ -37,11 +37,11 @@ Order totals in the Orders report are miscalculated for the restricted admin use
 1. Refresh statistics.
 1. See the report for each store.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Sales totals correspond to the order amount of each store.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The aggregated sales total for the whole website is displayed for each store.
 

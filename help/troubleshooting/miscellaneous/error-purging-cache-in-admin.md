@@ -17,16 +17,16 @@ Adobe Commerce (all deployment methods) 2.3.0-2.3.7, 2.4.0-2.4.2-p1
 
 When you attempt to purge cache through the Admin, you receive an error message.
 
-<ins>Steps to reproduce:</ins>
+<u>Steps to reproduce:</u>
 
 1. In the Admin, go to **System** > **Tools** > **Cache Management**.
 1. Select any of the clear caching options.
 
-<ins>Expected result:</ins>
+<u>Expected result:</u>
 
 You successfully flush Adobe Commerce cache with no errors.
 
-<ins>Actual result:</ins>
+<u>Actual result:</u>
 
 You get the "file cannot be deleted" error.
 

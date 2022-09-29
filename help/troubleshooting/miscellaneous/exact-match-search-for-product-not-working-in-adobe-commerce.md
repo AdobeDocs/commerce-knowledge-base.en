@@ -15,21 +15,21 @@ This article provides a clarification for the issue where store front search res
 
 ## Issue
 
-<ins>Prerequisites:</ins>
+<u>Prerequisites:</u>
 
 You have products with attribute values `Saga 1` and `Saga 16` in both Adobe Commerce 2.3 and Adobe Commerce 2.4 stores.
 
-<ins>Steps to reproduce:</ins>
+<u>Steps to reproduce:</u>
 
 1. On the store front of an Adobe Commerce 2.3 powered store, enter *Saga 1* in the search field and click **Search**.
 1. Notice that in search results, you only get the products with the attribute value `Saga 1`.
 1. On the store front of an Adobe Commerce 2.4 powered store, enter *Saga 1* in the search field and click **Search**.
 
-<ins>Actual result:</ins>
+<u>Actual result:</u>
 
 Search results in 2.4 include products with attribute values `Saga 1` and `Saga 16`.
 
-<ins>Expected result:</ins>
+<u>Expected result:</u>
 
 Search results in 2.4 are similar to 2.3 and only include products with attribute value `Saga 1`.
 

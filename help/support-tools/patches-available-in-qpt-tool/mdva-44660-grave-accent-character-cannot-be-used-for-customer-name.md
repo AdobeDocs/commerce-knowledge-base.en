@@ -26,15 +26,15 @@ The MDVA-44660 patch fixes the issue where the grave accent character [\`] canno
 
 The grave accent character [\`] cannot be used for a customer's first and last name.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Create a new customer from the Admin account or register on the Storefront using the grave accent character in the first or last name, for example, “L’Epicerie”.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 A new customer with the grave accent character in their name can be created.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 *First name is not valid!* Or *Last name is not valid* error is displayed.
 

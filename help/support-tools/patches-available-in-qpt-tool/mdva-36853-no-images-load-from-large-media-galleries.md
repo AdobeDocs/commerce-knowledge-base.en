@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set **Enable Old Media Gallery** = *Yes* in **Admin > Stores > Configuration > Advanced > System > Media gallery**.
 1. Navigate to **Content > Blocks**, and create a new CMS block or edit an existing CMS block.
@@ -30,11 +30,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 1. Add a media element.
 1. Click on the **Select from Gallery** button.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The media gallery widget and media gallery images both load, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The media gallery widget and media gallery images both do not load when you have a large `pub/media/catalog/product/cache/` directory.
 

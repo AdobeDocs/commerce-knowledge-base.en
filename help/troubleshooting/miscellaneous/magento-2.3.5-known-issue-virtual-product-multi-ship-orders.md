@@ -15,17 +15,17 @@ This article explains a known issue in Adobe Commerce 2.3.5 where a multi-shippi
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. On the storefront, add physical and virtual products to the cart.
 1. Proceed to checkout and select **Check Out with Multiple Addresses**.
 1. Add all the required information and place the order.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Orders are placed for all products successfully.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The order for the virtual product is empty.
 

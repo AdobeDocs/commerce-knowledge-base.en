@@ -26,7 +26,7 @@ The MDVA-43167 patch fixes the issue where the admin order grid mass action does
 
 Admin order grid mass action doesn't apply for multi-page when the admin user selects all orders.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Purchase any product three times to create three orders.
 1. Navigate to **Sales Order Grid**.
@@ -34,11 +34,11 @@ Admin order grid mass action doesn't apply for multi-page when the admin user se
 1. Select all.
 1. Select **Hold Mass Action**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 All three orders are placed on hold.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Only the two visible orders are placed on hold.
 

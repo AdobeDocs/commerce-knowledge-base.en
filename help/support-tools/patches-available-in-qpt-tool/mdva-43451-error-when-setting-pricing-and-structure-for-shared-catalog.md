@@ -26,7 +26,7 @@ The MDVA-43451 patch solves the issue where the user is unable to set the Pricin
 
 The user is unable to set Pricing and Structure for a shared catalog. The following message is displayed: *The store that was requested wasn't found. Verify the store and try again.*
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a custom website. The ids of the websites should be 0, 1, 2.
 1. Create one store under the above website. The ids of the stores should be 0,1,2.
@@ -47,11 +47,11 @@ The user is unable to set Pricing and Structure for a shared catalog. The follow
 1. When configuring Price and Structure, select the store created in Step 2.
 1. Save the shared catalog.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The shared catalog is saved without any issue.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You are unable to save the shared catalog. The following error is displayed:
 *The store that was requested wasn't found. Verify the store and try again.*

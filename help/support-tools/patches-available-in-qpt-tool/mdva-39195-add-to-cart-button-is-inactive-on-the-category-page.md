@@ -26,18 +26,18 @@ The MDVA-39195 patch solves the issue where the **Add to Cart** button is inacti
 
 The **Add to Cart** button is inactive on the Category Page when the redirect to cart is enabled.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > Settings > **Configuration** > **Sales** > **Checkout**.
 1. Expand the **Shopping Cart** section.
 1. Set the **After Adding a Product Redirect to Shopping Cart** to Yes.
 1. Visit the Category Page.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 **Add to Cart** is active on Category Page.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 **Add to Cart** button is inactive on Category Page.
 

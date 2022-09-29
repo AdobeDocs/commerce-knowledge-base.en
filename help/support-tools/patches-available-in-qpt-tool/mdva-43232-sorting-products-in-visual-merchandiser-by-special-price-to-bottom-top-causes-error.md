@@ -26,7 +26,7 @@ The MDVA-43232 patch fixes the issue where sorting products in visual merchandis
 
 Sorting products in visual merchandiser by Special Price to Top (or Bottom) causes an error while saving category.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Make sure there are two websites.
 1. Navigate to **Stores** > **Configuration** > **Catalog** > **Price** and set Catalog Price Scope = Website.
@@ -41,11 +41,11 @@ Sorting products in visual merchandiser by Special Price to Top (or Bottom) caus
 1. Under the Products in Category section, set Sort Order = Special Price to Top (or Bottom).
 1. Save the category again.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The category is saved without errors.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 An exception is thrown:
 

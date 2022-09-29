@@ -31,8 +31,7 @@ This happens when your `session.save_handler` PHP parameter is set to some anoth
 * Upgrade your Adobe Commerce code. Refer to [Installation Guide > Update the Adobe Commerce software](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall.html#instgde-install-magento-update) in our developer documentation.
 * Use the following workaround with existing code:
 
-<h2 id="locate-php-ini">Locate <code>php.ini</code>
-</h2>
+## Locate `php.ini` {#locate-php-ini}
 
 Locate `php.ini` by entering the following command:
 

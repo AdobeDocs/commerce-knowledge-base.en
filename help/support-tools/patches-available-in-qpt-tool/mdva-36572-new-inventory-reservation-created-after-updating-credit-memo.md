@@ -22,7 +22,7 @@ Adobe Commerce (all deployment types) 2.3.5-2.4.2-p1
 
 Credit Memo reservation update observer is triggered every time the credit memo is updated. As per agreement with PO changed the logic of reservation update to only be triggered upon the credit memo created. The possibility of the credit memo edits over API will be reviewed by PO as well in the scope of separate tickets.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create customer account.
 1. Create simple product.
@@ -129,7 +129,7 @@ such payload used only for simplifying reproducing - customer get the same issue
 
 1. Check inventory_reservation table:
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 ```sql
 
 select * from inventory_reservation;
@@ -143,7 +143,7 @@ select * from inventory_reservation;
 3 rows in set (0.00 sec)
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No second reservation for the same credit memo is created.
 

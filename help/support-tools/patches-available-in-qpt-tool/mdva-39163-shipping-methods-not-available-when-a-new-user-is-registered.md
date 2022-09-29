@@ -26,7 +26,7 @@ The MDVA-39163 patch solves the issue where the shipping methods are not availab
 
 Shipping methods are not available when the new user is registered, and products in the cart are from the guest session.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Admin** > **Stores** > **Configuration** > **Sales** > **Delivery Methods**. Enable only the **Flat Rate** shipping method and disable everything else.
 1. In the **Flat Rate** shipping method, select the **Specific** country option available in the **Ship to Applicable Countries** setting and select one country from the list (e.g., United States).
@@ -43,11 +43,11 @@ Shipping methods are not available when the new user is registered, and products
 1. Go to **My Account** and add an address. Set the address country to the shipping country that you set in the admin configuration previously.
 1. Go to checkout.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Shipping method is available, as the customer has an address that is compatible with the shipping country.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Shipping method is not available.
 

@@ -26,16 +26,16 @@ The MDVA-44188 patch fixes the issue where emails are not sent to the email IDs 
 
 Unable to send emails to email IDs that contain `.-` in their user name.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Register a customer with an email address containing `.-`. For example, `.-foo@example.com`.
 1. Place an order.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 User with the email ID containing `.-` receives emails as usual.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Email is not sent to the email ID containing `.-`. The following error is shown in error logs: *Could not add an invalid email address to the mailing queue*.
 

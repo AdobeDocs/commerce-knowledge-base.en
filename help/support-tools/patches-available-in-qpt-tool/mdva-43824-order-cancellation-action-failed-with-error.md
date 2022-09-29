@@ -28,7 +28,7 @@ Order placed by a logged-in customer cannot be cancelled. The order cancellation
 
 *Zend_Db_Statement_Exception: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mer33515_ee24developpbdevelop`.`salesrule_customer`, CONSTRAINT `SALESRULE_CUSTOMER_RULE_ID_SEQUENCE_SALESRULE_SEQUENCE_VALUE` FOREIGN KEY (`rule_id`) REFERENCES `sequence_salesrule` (`sequen), query was: INSERT INTO `salesrule_customer` () VALUES (){code}*
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a sales rule (coupon type is either "Specific Coupon" or "No Coupon").
 1. Go to the storefront and log in as a customer and add a product to the cart.
@@ -38,11 +38,11 @@ Order placed by a logged-in customer cannot be cancelled. The order cancellation
 1. Open the order placed in Step 4.
 1. Click on the **Cancel** button.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The order is cancelled successfully without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The order cancellation action failed with the following error: *You have not cancelled the item.*
 

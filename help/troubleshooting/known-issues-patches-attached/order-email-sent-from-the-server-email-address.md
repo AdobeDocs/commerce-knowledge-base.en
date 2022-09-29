@@ -12,16 +12,16 @@ This articles provides a patch for the known Adobe Commerce on cloud infrastruct
 
 Order confirmation emails are sent from the Apache server email address. Other emails (Forgot password and so on) are sent from the configured email addresses.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Place an order with the **Send order confirmation** box checked.
 1. Check email.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The email was sent from the Adobe Commerce configured sending address.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The email was sent from the email address configured in the Apache server being used.
 

@@ -26,17 +26,17 @@ The MDVA-26005 patch solves the issue where users are not able to select a categ
 
 Unable to select a category in the category tree for Cart Price rule conditions.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new or edit an existing Cart Price rule.
 1. Go to the Action section and choose category in Condition.
 1. Render the category tree and try to choose a category.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 You are able to select a category.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You are not able to select a category due to JS error.
 

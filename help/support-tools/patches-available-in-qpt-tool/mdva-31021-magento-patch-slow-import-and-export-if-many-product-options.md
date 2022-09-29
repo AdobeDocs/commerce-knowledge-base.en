@@ -26,21 +26,21 @@ Adobe Commerce (all deployment methods) 2.3.0 - 2.4.1
 
 If there are 100,000 records or more in the `catalog_product_option` table, the Import/Export function file validation takes longer than expected. Before Import/Export, to check option validation, Adobe Commerce loads product options for all existing products.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Adobe Commerce store with 5000 products with custom options. Each product should have at least four custom options with two or more options to choose from so that there are 100,000 records in `catalog_product_option` table.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. For an **Import** example: create a CSV import file with one of the SKUs from the Commerce Admin.
 1. Add four custom options to the CSV import file.
 1. Try to import the CSV file from the Commerce Admin.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The Import or Export function completes as expected. Validation takes less than 10 seconds to complete with one product.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The Import or Export function takes longer than expected. Validation takes more than 10 seconds to complete with only one product.
 

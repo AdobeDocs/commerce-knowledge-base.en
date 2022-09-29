@@ -14,15 +14,15 @@ This article talks about the causes and solutions for the Adobe Commerce on clou
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Trigger the deployment manually or by performing a merge, push, or synchronization of your environment.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Deployment is completed successfully.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 1. The building phase fails, and the whole deployment process gets stuck.
 1. In the deployment error log, the error message ends with: *"Error building project: The build hook failed with status code 1. Aborted build".*

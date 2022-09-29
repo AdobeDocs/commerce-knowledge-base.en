@@ -26,11 +26,11 @@ The MDVA-31282 patch solves the issue when double authorizations occur on Paypal
 
 Double authorizations occur in PayPal PayFlow Pro in Adobe Commerce that have the effect of bypassing PayFlow Pro's fraud filters and doubling transaction fees.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Configure PayPal PayFlow Pro payment method.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to the frontend as a guest customer.
 1. Add products to **Shopping Cart** from product pages.
@@ -40,12 +40,12 @@ Configure PayPal PayFlow Pro payment method.
 1. Enter credit card data, and place the order.
 1. Navigate to **Sales** > **Orders** in admin and observe created order.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * The Payment Information block displays: *"Triggered Fraud Filters: RESPMSG: Under review by Fraud Service*. *Order is in Suspected Fraud status"*.
 * Paypal PayFlow Pro shows a single authorization transaction as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * The Payment Information block displays: *"Triggered Fraud Filters: RESPMSG: Under review by Fraud Service*. *Order is in Processing status"*.
 * Paypal PayFlow Pro shows double authorization transactions.

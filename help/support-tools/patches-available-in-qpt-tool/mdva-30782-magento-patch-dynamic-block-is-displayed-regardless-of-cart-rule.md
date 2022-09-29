@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure 2.3.5-p1
 
 The dynamic block is displayed on the page even when the related catalog price rule condition is not satisfied.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create two products.
 1. Create a catalog price rule applicable only for one of these products.
@@ -40,11 +40,11 @@ The dynamic block is displayed on the page even when the related catalog price r
 1. Perform reindex and flush the cache.
 1. Check both product pages for dynamic block form step \#3
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Dynamic block appears on the first product page only.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Dynamic block appears on both product pages. With Dynamic Blocks to Display = Catalog Price Rule Related on step \#3, the result is the same.
 

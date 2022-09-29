@@ -26,15 +26,15 @@ The MDVA-42269 patch fixes the issue where Admin users cannot log into the Admin
 
 Admin users cannot log into the Admin due to the following error: *TypeError: strtotime() expects parameter 1 to be string, null given.*
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Log into the Commerce Admin.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The admin user can log in with the correct user name and password.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The admin user cannot log in. The following error is logged: *TypeError: strtotime() expects parameter 1 to be string, null given.*
 

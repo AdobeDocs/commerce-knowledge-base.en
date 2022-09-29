@@ -26,7 +26,7 @@ The MDVA-40435 patch solves the issue where the discount on a bundled product is
 
 Discount on a bundled product is not applied correctly via GraphQL.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a cart price rule with a coupon code for $5 fixed discount.
 1. Create an empty cart via GraphQL.
@@ -34,11 +34,11 @@ Discount on a bundled product is not applied correctly via GraphQL.
 1. Apply the coupon code on the fixed amount (5$) via GraphQL.
 1. Get the cart information via GraphQL.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 "discounts" is $5.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 "discounts" is NULL.
 

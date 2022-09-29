@@ -26,7 +26,7 @@ The ACSD-45169 patch fixes the issue where the Visual Merchandiser does not disp
 
 Visual Merchandiser does not display the correct stock and price for a configurable product after a staging update is applied.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product.
 1. Create any scheduled update for the simple product (You just need to have different row and entity ids).
@@ -34,11 +34,11 @@ Visual Merchandiser does not display the correct stock and price for a configura
 1. Assign the configurable product to a category.
 1. Open the category and observe the configurable product under the Visual Merchandiser section.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Visual Merchandiser displays the correct stock and price.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Visual Merchandiser displays an incorrect stock and price.
 

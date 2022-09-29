@@ -26,17 +26,17 @@ Adobe Commerce (all deployment methods) >=2.3.0 <2.4.2.
 
 When a product is created via an import script or the REST API, attributes that use the `\Magento\Eav\Model\Entity\Attribute\Backend\ArrayBackend` backend model and have a default value are not assigned the default value.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new global attribute that uses the `\Magento\Eav\Model\Entity\Attribute\Backend\ArrayBackend` backend model and a non-empty default value.
 1. Use the REST API to create a new product.
 1. Fetch that new product from the REST API and confirm that the attribute is not present in the product's custom attributes.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The custom attribute default value was saved to the product attribute.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The custom attribute default value was not saved to the product attribute.
 

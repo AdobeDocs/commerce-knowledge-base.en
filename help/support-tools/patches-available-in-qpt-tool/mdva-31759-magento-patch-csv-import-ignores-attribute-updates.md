@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.0 - 2.
 
 CSV import ignores additional attributes with *Dropdown* and *Text Area* types.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Commerce Admin.
 1. Create a product attribute with the following configuration:
@@ -40,11 +40,11 @@ CSV import ignores additional attributes with *Dropdown* and *Text Area* types.
 1. Update the attribute value in the **additional\_attributes** column.
 1. Import the updated CSV.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The G003 attribute value is updated.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The G003 attribute value is not updated.
 

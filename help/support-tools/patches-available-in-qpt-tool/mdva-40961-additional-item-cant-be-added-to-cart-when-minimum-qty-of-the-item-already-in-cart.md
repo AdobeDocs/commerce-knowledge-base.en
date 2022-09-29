@@ -26,17 +26,17 @@ The MDVA-40961 patch fixes the issue where an additional item can't be added to 
 
 An additional item can't be added to the cart when the minimum quantity of the item is already in the cart.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set a simple product to have more than one **Minimum Qty Allowed in Shopping Cart** (for example, two).
 1. Open the product on the Storefront and add two of them to the cart.
 1. Stay on the product page and add one more of this product to the cart.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The third product can be added to the cart as it already contains the minimum amount.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 You get the following error message: *The fewest you may purchase is 2*.
 

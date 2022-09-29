@@ -26,16 +26,16 @@ Adobe Commerce (all deployment methods) 2.3.0 - 2.4.2-p1
 
 Temporary tables are not deleted when the reindex is not finished successfully.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Run reindex.
 1. Reindex fails.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Temporary tables are deleted.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Temporary tables are NOT deleted.
 

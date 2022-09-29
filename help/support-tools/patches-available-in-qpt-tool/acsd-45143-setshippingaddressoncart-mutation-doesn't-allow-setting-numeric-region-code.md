@@ -26,7 +26,7 @@ The ACSD-45143 patch fixes the issue where the setShippingAddressesOnCart mutati
 
 The setShippingAddressesOnCart mutation doesn't allow setting numeric region code as "region".
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a cart using the below query.
 
@@ -90,11 +90,11 @@ The setShippingAddressesOnCart mutation doesn't allow setting numeric region cod
 
 1. Check the response that is returned.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Adobe Commerce allows setting numeric region code in the GraphQL request.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The region code is changed to 47.
 

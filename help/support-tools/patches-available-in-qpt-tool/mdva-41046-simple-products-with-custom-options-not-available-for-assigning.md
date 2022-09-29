@@ -26,7 +26,7 @@ The MDVA-41046 patch solves the issue where simple products with custom options 
 
 Simple products with custom options are not available for assigning to configurable/grouped product.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a simple product with customizable options and set a value for the configurable attribute.
     * Use *Color* as the configurable attribute, and select *Yellow* as the color value.
@@ -37,11 +37,11 @@ Simple products with custom options are not available for assigning to configura
 1. This will open a product grid that is filtered by color attribute yellow. Now select the simple product that was created previously with customizable options.
 1. Save the configurable product.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The simple product with custom options is available for assigning (visible in grid) in step 6.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Configuration section is empty.
 

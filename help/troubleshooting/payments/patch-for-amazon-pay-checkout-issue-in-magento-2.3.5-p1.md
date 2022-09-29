@@ -19,16 +19,16 @@ When a shopper checks out with Amazon Pay, logs in, proceeds to the payment step
 
 To resolve this issue and remove the error, we have created a [patch](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip).
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Start checkout with Amazon Pay.
 1. Login as Amazon Pay customer.
 1. Select shipping method and proceed to payment step.
 1. Try to change credit card to a different one.
 
-<ins>Expected result</ins>: A different credit card is selected as payment method without an error.
+<u>Expected result</u>: A different credit card is selected as payment method without an error.
 
-<ins>Actual result</ins>: The error message appears: *"Please contact this merchant for help completing your order."*
+<u>Actual result</u>: The error message appears: *"Please contact this merchant for help completing your order."*
 
 ## Solution
 

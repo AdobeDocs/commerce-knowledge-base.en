@@ -26,7 +26,7 @@ The MDVA-38393 patch fixes the issue where catalog rules stop working for a conf
 
 Catalog rules stop working for a configurable product if its simple product is re-named.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a configurable product with an associated simple product.
 1. Create a category.
@@ -42,11 +42,11 @@ Catalog rules stop working for a configurable product if its simple product is r
 1. Execute the cron or the `bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1` command.
 1. Check the `catalogrule_product` table.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The configurable product has a discount.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * The discount records created for the simple products are missing in the `catalogrule_product` table.
 * The configurable product on the frontend has the full original price.

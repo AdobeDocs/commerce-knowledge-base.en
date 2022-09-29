@@ -26,7 +26,7 @@ The MDVA-43601 patch fixes the issue where triggers are removed from `catalogrul
 
 Triggers are removed from `catalogrule_product_price` table after a full reindex of `catalogrule_rule` or `catalogrule_product`.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set all the indexers to *Update by Schedule*.
 1. Check the triggers created for `catalogrule_product_price` table by running the following SQL request:
@@ -36,11 +36,11 @@ Triggers are removed from `catalogrule_product_price` table after a full reindex
 1. Manually reindex `catalogrule_rule` or `catalogrule_product` by running the following command: `bin/magento indexer:reindex catalogrule_rule`
 1. Check the triggers of `catalogrule_product_price` table again.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Triggers in `catalogrule_product_price` table are preserved after a full reindex.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 No triggers are found for `catalogrule_product_price` table.
 

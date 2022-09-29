@@ -23,12 +23,12 @@ Adobe Commerce (all deployment methods) 2.3.3-2.4.2-p1
 
 The Commerce Admin panel has an infinite redirect when the backend URL is different from the default website URL.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 * Base URL is used for both backend and storefront. Base Secure URL is not used.
 * The web server is configured so that Adobe Commerce is accessible via two different URLs. URL1 is used for Adobe Commerce installation.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to Admin Panel > **Stores** > **Configuration** > **Web**.
 1. Leave original Base URL in global configuration. It's your URL1.
@@ -37,11 +37,11 @@ The Commerce Admin panel has an infinite redirect when the backend URL is differ
 1. Clear cache (if necessary and possible).
 1. Open Admin Panel.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Admin Panel is successfully opened and can be navigated. Main Website's store is successfully opened and can be navigated.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Infinite redirect happens. Adobe Commerce redirects from URL1 to URL2 and continues back and forth.
 

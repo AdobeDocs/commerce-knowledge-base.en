@@ -26,24 +26,24 @@ Adobe Commerce (all deployment methods) 2.4.0 - 2.4.1-p1
 
 The stock status is not updated when an order is placed but not shipped.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 1. Inventory module is installed.
 1. Display Out-of-Stock Products is set to *Yes*.
   * To set, go to **Stores** > **Configuration** > **Catalog** > **Inventory** > **Display Out-of-Stock Products** = *Yes*.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create two simple products with qty = 11 and 22.
 1. Create a grouped product using the simple products created in step one.
 1. Add grouped products to the cart by setting one of the product qty to 11 and making the other simple product go out of stock.
 1. Complete the checkout and place the order.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Grouped products display `out-of-stock` labels when associated simple products go out of stock.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 1. The simple product with qty = 11 shows out of stock.
 1. The grouped product does not show an *out-of-stock* message for the product with qty = 11. Though, adding this product to the cart gives an *out-of-stock* error.

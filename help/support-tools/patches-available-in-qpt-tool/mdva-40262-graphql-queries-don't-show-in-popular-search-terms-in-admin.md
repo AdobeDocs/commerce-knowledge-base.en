@@ -16,7 +16,7 @@ Adobe Commerce (all deployment methods) 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
 
-Adobe Commerce (all deployment methods) 2.4.2 – 2.4.3
+Adobe Commerce (all deployment methods) 2.4.2 &ndash;  2.4.3
 
 >![info]
 >
@@ -26,11 +26,11 @@ Adobe Commerce (all deployment methods) 2.4.2 – 2.4.3
 
 GraphQL queries are not shown in popular search terms in the admin.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Sample data must be installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Stores** > **Configuration** > **Catalog** > **SEO** > **Popular Search Terms** and set to enable.
 1. Run the following GraphQL query:
@@ -57,11 +57,11 @@ Sample data must be installed.
 </code>
 </pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 After running the GraphQL query to search for a product, the search query should be added to popular search terms.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The search query is not added to popular search terms.
 

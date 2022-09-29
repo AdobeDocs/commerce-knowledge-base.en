@@ -24,7 +24,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-2.4.
 
 The customer is not taken to the Payment Confirmation page after payment when using the PayPal Payments Advanced method.
 
-<ins>Steps to reproduce</ins>: [Screencast](https://assets.adobe.com/public/025d479b-5796-4772-6f3d-adc86306a799)
+<u>Steps to reproduce</u>: [Screencast](https://assets.adobe.com/public/025d479b-5796-4772-6f3d-adc86306a799)
 
 1. Add product to cart and navigate to the payment step of the checkout page.
 1. Select **Credit Card (Payflow Advanced)** payment option.
@@ -35,11 +35,11 @@ The customer is not taken to the Payment Confirmation page after payment when us
     * CSC: 123
 1. Click **Pay Now**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 After the payment is processed and the payment is successful, you are redirected to the Order Confirmation page.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * You are NOT redirected to the Order Confirmation page.
 * But the order has been created in Adobe Commerce.

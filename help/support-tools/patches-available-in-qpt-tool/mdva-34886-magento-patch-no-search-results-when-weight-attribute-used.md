@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.2 - 2.
 
 Search does return results when the weight attribute is configured as searchable.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Configure Elasticsearch.
 1. Navigate to **Admin** > **Stores** > **Attributes** > **Product**. Edit the **Weight** attribute, and set its attribute **Searchable** = *Yes*.
@@ -39,11 +39,11 @@ Search does return results when the weight attribute is configured as searchable
 {"type":"number_format_exception","reason":"For input string: \"bag\""}
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The Search returns results even when the weight attribute is configured as searchable, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The Search does not return results when the weight attribute is configured as searchable.
 

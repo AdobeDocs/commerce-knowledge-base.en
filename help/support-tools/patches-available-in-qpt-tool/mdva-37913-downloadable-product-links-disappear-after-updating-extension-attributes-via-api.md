@@ -25,10 +25,10 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.0 - 2.
 
 Downloadable product links disappear after updating extension attributes via API.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 Downloadable product with download links.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Update extension attributes, using request like this:
 
@@ -45,10 +45,10 @@ Downloadable product with download links.
 }
 ```
 
-<ins>Expected results</ins>:<br>
+<u>Expected results</u>:<br>
 Product is updated, all download links are not removed.
 
-<ins>Actual results</ins>:<br>
+<u>Actual results</u>:<br>
 Product updated, but all download links were removed.
 
 

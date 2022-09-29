@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.1 - 2.
 
 Fixes the issue where a new scheduled update for the special price cannot be created for multiple stores using REST API, if the start date of the update coincides with the end date of the previously existing update.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Set up an additional website, store, and store view.
 1. Create two simple products: "product1" and "product2".
@@ -36,11 +36,11 @@ Fixes the issue where a new scheduled update for the special price cannot be cre
 1. Create a scheduled update for the special price for the product2 on both store views for stores with ID 1 and 2 using REST API `POST` request to `rest/V1/products/special-price` with the following payload (the `price_from` date is the same as `price_to` date in the previous request):
     `{        "prices": [            {                "price": 14,                "store_id": 1,                "sku": "product2",                "price_from": "2021-11-15 04:10:00",                "price_to": "2021-11-15 04:15:00"            },            {                "price": 13,                "store_id": 2,                "sku": "product2",                "price_from": "2021-11-15 04:10:00",                "price_to": "2021-11-15 04:15:00"            }        ]    }`
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Scheduled update with the special price change is created on both store views.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Adobe Commerce throws an error. Scheduled update is not created.
 

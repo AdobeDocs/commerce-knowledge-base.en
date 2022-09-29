@@ -24,7 +24,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.2-2.3.
 
 When trying to save a CMS page, you receive the following error message: *Item with the same ID "PAGE_ID" already exists.*
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a new Website + Store + Storeview.
 1. Create one more Website + Store + Storeview.
@@ -35,11 +35,11 @@ When trying to save a CMS page, you receive the following error message: *Item w
    * In Hierarchy section assign to any category.
    * **Save and Continue Edit**.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The page is saved without any error.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The page is saved, but you get the following error message: *Item (Magento\VersionsCms\Model\Hierarchy\Node) with the same ID "PAGE_ID" already exists.*
 

@@ -18,16 +18,16 @@ Adobe Commerce on cloud infrastructure, 2.3.0-2.3.7-p2, 2.4.0-2.4.3-p1
 You cannot export files in the `var/export/email` or `var/export/archive` folder.
 This failed deploy due to permissions on `var/export/email` or `var/export/email/archive` because that archive folder gets created under email and if I just do the export/email sometimes there’s still an issue) other than adding something to account for the subfolder `var/export/email/archive`.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 In the Admin, go to **System** > *Data Transfer* > **Export**.
 Select the CSV files to save in the `var/export/` folder.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 CSV files are visible and can be exported.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 CSV files are not visible. You also see a permission denied message: *RecursiveDirectoryIterator::__construct(/app/project id>/var/export/email): failed to open dir: Permission denied*
 

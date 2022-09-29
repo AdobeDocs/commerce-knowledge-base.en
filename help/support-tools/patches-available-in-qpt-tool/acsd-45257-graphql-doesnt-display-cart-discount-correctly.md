@@ -26,18 +26,18 @@ The ACSD-45257 patch fixes the issue where GraphQL doesn't display the cart disc
 
 GraphQL doesn't display the cart discount correctly.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Admin** > **Marketing** > **Promotions** > **Cart Price Rule**.
 1. Add a new rule and apply it to the shipping amount.
 1. Add a product into the cart using GraphQL.
 1. Check cart information with a GraphQL query.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The total discount includes the discount applied on the shipping amount in the GraphQL response.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The total discount does not reflect the discount applied on the shipping amount in the GraphQL response.
 

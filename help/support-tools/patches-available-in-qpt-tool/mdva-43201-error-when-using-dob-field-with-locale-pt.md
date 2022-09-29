@@ -26,11 +26,11 @@ The MDVA-43201 patch solves the issue where an error occurs when using the DOB c
 
 When DOB customer attribute is added to the customer registration form for Portuguese locale, the form gives the error *Argument 1 passed to iterator_to_array() must implement interface travesable, null given*.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 B2B modules are installed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to Admin > **Stores** > **Configuration** > **General** > **Locale Options**, set Locale to **Portuguese (Portugal)** and click **Save**.
 1. Reindex and clear cache.
@@ -40,11 +40,11 @@ B2B modules are installed.
 1. Save the attribute.
 1. Go to the Create New Account page in the frontend.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The customer registration form for the Portuguese store gives no error on adding the DOB attribute.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The customer registration form for the Portuguese store gives an error on adding the DOB attribute.
 

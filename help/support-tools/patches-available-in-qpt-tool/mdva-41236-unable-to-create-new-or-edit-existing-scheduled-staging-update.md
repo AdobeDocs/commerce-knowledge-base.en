@@ -26,7 +26,7 @@ Adobe Commerce (all deployment methods) 2.3.0 - 2.4.3-p1
 
 Users are unable to create new schedules or edit existing ones for products if the "End Date" has been previously removed.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a product with the Status set to *disable*.
 1. Add a scheduled update to enable this product.
@@ -38,12 +38,12 @@ Users are unable to create new schedules or edit existing ones for products if t
 1. Now you should not see the scheduled update on top of the product edit page.
 1. Try to create a new scheduled update overlapping the previous duration.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * There is no error in step 4. The admin is able to update the scheduled update without any error as the schedule is not yet active.
 * The admin user is able to delete the previous update and create a new one.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Users get the following error message:
 

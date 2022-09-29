@@ -26,18 +26,18 @@ The ACSD-42807 patch fixes the issue where the custom currency sign is not displ
 
 The custom currency sign is not displayed on the storefront.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Go to **Store** > **Settings** > **Configurations** > **General** > **Currency Setup** and select any custom currency. E.g., **Mexican Peso**.
 1. Go to **Store** > **Settings** > **Configurations** > **General** > **Locale Options** and select **Spanish (Mexico)**.
 1. Go to **Store** > **Currency Symbols** and configure the currency symbol to **MX$**.
 1. Check the currency symbol on the frontend.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The default currency symbol is "MX$" with currency set as "Mexican Peso" and locale set as "Spanish (Mexico)".
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The default currency symbol shows "$".
 

@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Login to Admin and navigate to **Catalog > Products**.
 1. Edit any simple product.
@@ -32,11 +32,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 1. Wait until the changes complete.
 1. Check the product. It should have its checkbox unselected, and should have a specific store attribute value.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The checkbox for the attribute should remain the same and doesn't get changed after the schedule update, as expected.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The checkbox for the attribute gets changed after schedule update.
 

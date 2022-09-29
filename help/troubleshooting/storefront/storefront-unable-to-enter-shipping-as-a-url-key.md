@@ -16,15 +16,15 @@ Adobe Commerce (all deployment methods) 2.4.x
 
 You cannot save a CMS page with the term "shipping" in the URL key.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Create a CMS page with URL key as "shipping".
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 The page saves with "shipping" in the URL key.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 You cannot save and an error appears: *The value specified in the URL Key field would generate a URL that already exists.*
 

@@ -24,11 +24,11 @@ The MDVA-40120 patch solves the issue where GraphQL sorting by DESC/ASC doesn't 
 
 ## Issue
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 Create a few different products with the same price.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Run the following GraphQL query:
     <pre>
@@ -61,11 +61,11 @@ Create a few different products with the same price.
     </pre>
 1. Check the response.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The product listing in the GraphQL response should be changed according to the sort order.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The sort order remains unchanged.
 

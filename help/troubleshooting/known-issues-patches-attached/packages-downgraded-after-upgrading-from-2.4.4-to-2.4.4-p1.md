@@ -20,7 +20,7 @@ There are two scenarios how this issue can occur and how it can be reproduced:
 
 ### Scenario 1
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 When upgrading from 2.4.4 to 2.4.4-p1, there is a number of packages (modules) which are downgraded with similar output:
 
@@ -63,25 +63,25 @@ Downgrading magento/module-two-factor-auth (1.1.4 => 1.1.3)
 Removing magento/module-admin-adobe-ims (100.4.0)
 ```
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The upgrade from version 2.4.4 to 2.4.4-p1 results in the correct packages (modules) for version 2.4.4-p1.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 During the upgrade from version 2.4.4 to 2.4.4-p1, these packages' (modules') versions downgrade, but these messages can be ignored, and functionality is not affected.
 
 ### Scenario 2
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 When 2.4.4 merchants run the `composer update` command, then the same packages (modules) listed above in **Scenario 1** get upgraded to their newer versions which are compatible only with version 2.4.5 and are not supposed to be used with version 2.4.4.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The upgrade from version 2.4.4 to 2.4.4-p1 results in the correct packages (modules) for version 2.4.4-p1.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Packages (modules) are downgraded after upgrading from version 2.4.4 to 2.4.4-p1.
 

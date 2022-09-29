@@ -92,17 +92,17 @@ We understand that it takes time to upgrade, and we are here to support you on y
 
 We still encourage you to upgrade to 2.4.4 at your earliest convenience to help ensure PCI compliance and to gain access to new features that enable business growth. Being on a version with third-party technologies that are no longer supported (i.e., versions 2.3.6 and lower are based on PHP versions that have reached end of life) puts you at risk of security vulnerabilities. Review our [lifecycle policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) for more information on our EOS schedule and terms.
 
-If making the move to 2.4.4 is not feasible within this timeframe, we recommend that you upgrade first to 2.3.7 by September 8, which will be a lower-level effort. We will be offering a paid extended support option for 2.3.7 for an additional year (Sept 2022 – Sept 2023) so that you can prepare for your next upgrade to 2.4.4 or higher. More details will be announced in March.
+If making the move to 2.4.4 is not feasible within this timeframe, we recommend that you upgrade first to 2.3.7 by September 8, which will be a lower-level effort. We will be offering a paid extended support option for 2.3.7 for an additional year (Sept 2022 &ndash;  Sept 2023) so that you can prepare for your next upgrade to 2.4.4 or higher. More details will be announced in March.
 
 ### [NEW] I am currently using Adobe Commerce 2.4.0-2.4.2 and would like to upgrade to the latest 2.4.x version. However, I am unable to plan for another upgrade before my version reaches end of support in November 2022. What are my options?
 
 We have updated our lifecycle policy so that our version end of support dates are now aligned with PHP end of life dates. While this change is ultimately beneficial and extends the amount of time between versions that cause breaking changes, we recognize that it means a shorter support window for some customers.
 
-We will be offering a paid extended support offering that will keep your version supported for an additional year (Nov 2022 – Nov 2023) so that you have additional time to prepare for your next upgrade. More details will be announced in March.
+We will be offering a paid extended support offering that will keep your version supported for an additional year (Nov 2022 &ndash;  Nov 2023) so that you have additional time to prepare for your next upgrade. More details will be announced in March.
 
 ### [NEW] I recently upgraded to Adobe Commerce 2.4.3 and am not able to plan for another upgrade in 2022. With 2.4.3 reaching end of support in November 2022, what are my options to stay supported?
 
-We recognize that you recently upgraded to or are in the process of upgrading to 2.4.3, and planning your next upgrade immediately may not be feasible. As your partner in your digital commerce journey, we will be offering a paid extended support offering that will keep your version supported for an additional year (Nov 2022 – Nov 2023) so that you have additional time to prepare for your next upgrade. More details will be announced in March.
+We recognize that you recently upgraded to or are in the process of upgrading to 2.4.3, and planning your next upgrade immediately may not be feasible. As your partner in your digital commerce journey, we will be offering a paid extended support offering that will keep your version supported for an additional year (Nov 2022 &ndash;  Nov 2023) so that you have additional time to prepare for your next upgrade. More details will be announced in March.
 
 ### [NEW] What is paid extended support and how do I learn more about it?
 

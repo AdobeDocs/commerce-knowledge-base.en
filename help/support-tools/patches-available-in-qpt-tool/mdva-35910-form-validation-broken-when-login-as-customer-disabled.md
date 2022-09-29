@@ -24,7 +24,7 @@ Adobe Commerce (all deployment methods) 2.4.1-2.4.2
 
 ## Issue
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Navigate to **Stores > Configuration > Customers**. Disable **Login as Customer** in the Admin.
 1. Under **Login as Customer**, set **Enable Extension** = *No*.
@@ -32,11 +32,11 @@ Adobe Commerce (all deployment methods) 2.4.1-2.4.2
 1. Navigate back to the storefront, and click **Register** (Create a customer account).
 1. Fill out the account form, and confirm if the validation under **Confirm Email** is working or not.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The customer account creation process completes with no errors.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The customer account creation process does not complete, and javascript console errors show instead.
 

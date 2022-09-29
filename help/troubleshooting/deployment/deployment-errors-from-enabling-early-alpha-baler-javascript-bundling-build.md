@@ -21,16 +21,16 @@ The merchant experiences deployment errors when using the Baler module on a prod
 
 We do not recommend that merchants use the Baler module in a production environment, as it is currently in the early alpha development stage. Using it can result in deployment errors.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. The merchant tries to insert the **SCD\_USE\_BALER** variable in the build stage of the `.magento.env.yaml` file, which enables the Baler Javascript bundling package.
 1. The merchant also adds the Baler composer dependency: `"magento/module-baler": "1.0.0-alpha"` to `require` section of `composer.json`.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Successful deployment.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 The merchant sees the following error message in the deployment logs on the cloud, which is `<project home>/var/log/cloud.log`, upon the static content deploy stage:
 

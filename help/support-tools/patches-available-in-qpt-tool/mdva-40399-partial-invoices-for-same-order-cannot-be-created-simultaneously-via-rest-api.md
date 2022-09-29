@@ -16,7 +16,7 @@ Adobe Commerce (all deployment methods) 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
 
-Adobe Commerce (all deployment methods) 2.4.2 – 2.4.3-p1
+Adobe Commerce (all deployment methods) 2.4.2 &ndash;  2.4.3-p1
 
 >![info]
 >
@@ -26,23 +26,23 @@ Adobe Commerce (all deployment methods) 2.4.2 – 2.4.3-p1
 
 Partial invoices for the same orders cannot be created simultaneously using Rest API.
 
-<ins>Prerequisites</ins>:
+<u>Prerequisites</u>:
 
 A configurable product with at least two variations.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Add both variants of the configurable product to the cart.
 1. Place the order.
 1. Create two invoices simultaneously for the order via the Rest API.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 * Both invoices must be created successfully.
 * `qty_invoiced` should be updated for both invoices in the `sales_order_item` table.
 * Both products should have invoiced quantity.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 * Both invoices are created successfully.
 * `qty_invoiced` is not updated against one of the invoices in the `sales_order_item` table.

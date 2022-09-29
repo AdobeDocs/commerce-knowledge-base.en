@@ -26,18 +26,18 @@ The MDVA-41136 patch solves the issue where the expiration date of the `mage-cac
 
 The expiration date of the `mage-cache-sessid` is not extended, resulting in customer data cleanup.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In the Commerce Admin, go to **Stores** > **Configuration** > **Web** > **Default Cookie Settings** > and set **Cookie Lifetime** to 60.
 1. Log in as a customer on the storefront.
 1. Go to **My account**.
 1. Reload the page after 30 seconds.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The customer's name in the header is displayed.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The customer's name in the header is missing and the *Default welcome msg!* message  is displayed.
 

@@ -36,7 +36,7 @@ The patch fixes inventory inconsistency issues such as:
 
 ## PHP Fatal Error
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 PHP Fatal error when running `bin/magento inventory:reservation:list-inconsistencies`.
 
@@ -44,7 +44,7 @@ To get a list of reservation inconsistencies, log in to the production server an
 
 <pre>bin/magento inventory:reservation:list-inconsistencies -r</pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The list of reservation inconsistencies is created. These would be returned in the following format
 
@@ -52,7 +52,7 @@ The list of reservation inconsistencies is created. These would be returned in t
 <ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>
 ```
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 PHP Fatal Error is outputted.
 
@@ -60,7 +60,7 @@ PHP Fatal Error is outputted.
 
 Duplicate data is in the `inventory_reservation table`.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 To troubleshoot reservation inconsistencies, run the following command:
 
@@ -69,17 +69,17 @@ FROM inventory_reservation
 GROUP BY metadata, sku, quantity
 HAVING COUNT(*) > 1</pre>
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No duplicates.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 There are duplicates.
 
 ## New reservation
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 New reservation created before order placed:
 
@@ -87,11 +87,11 @@ New reservation created before order placed:
 1. Run `bin/magento setup:upgrade` in the terminal.
 1. List inconsistencies by running `bin/magento inventory:reservation:list-inconsistencies        -i -r` in the terminal.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 No loop and much quicker results.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The same results are displayed in an infinite loop, or the command fails with `memory_limit`, depending on system settings.
 

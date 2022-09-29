@@ -26,15 +26,15 @@ Adobe Commerce (all deployment methods) 2.4.2 - 2.4.3-p1
 
 Users get an error when adding more than one configurable product to the cart using GraphQL.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Add multiple configurable products to the cart using GraphQL mutation: `addConfigurableProductsToCart`.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 All configurable products are added to the cart.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Only the first product is added to the cart.
 

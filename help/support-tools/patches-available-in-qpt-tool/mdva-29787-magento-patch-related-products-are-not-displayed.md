@@ -30,7 +30,7 @@ The target rule for **Related Products** does not work when "*is one of*" condit
 >
 >Note: This patch does not fix existing target rules. You must re-create existing target rules.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create **New Attribute** (Example: Test\_Attr).
     * Set **Catalog Input Type for Store Owner** = *Text.*
@@ -51,11 +51,11 @@ The target rule for **Related Products** does not work when "*is one of*" condit
 1. Clear cache.
 1. Open Product1 on the frontend.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The related products are present.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The related products are missing.
 

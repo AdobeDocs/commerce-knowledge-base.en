@@ -26,7 +26,7 @@ The MDVA-42790 patch fixes the issue where users are not able to update product 
 
 Users are not able to update product price attributes for specific websites via REST API.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In the Admin go to **Stores** > **Configuration** > **Catalog** > **Price** > and set **Catalog Price Scope** to Website.
 1. Update special price for a bundled product using REST API, `POST rest/V1/products/`.
@@ -51,11 +51,11 @@ Users are not able to update product price attributes for specific websites via 
       }
     }
     ```
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 Special price is updated for the bundled product when the **Catalog Price Scope** is set to Website.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 Special price is not updated for the bundled product when the **Catalog Price Scope** is set to Website.
 

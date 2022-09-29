@@ -16,15 +16,15 @@ This article provides a solution for when the page cache is warming up and there
 
 The cache warm up script, at the end of the post-deploy phase, sends requests at such a high rate that certain instances, like 4-cpu ones, cannot cope. Their nginx exhausts the number of workers.
 
- <ins>Steps to reproduce</ins>:
+ <u>Steps to reproduce</u>:
 
 Start cache warm up operations.
 
- <ins>Expected result</ins>:
+ <u>Expected result</u>:
 
 Pages or whole site loads.
 
- <ins>Actual result</ins>:
+ <u>Actual result</u>:
 
 The site is unavailable or the response time is too high.
 
