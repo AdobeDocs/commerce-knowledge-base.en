@@ -53,10 +53,10 @@ The partial invoice is created for an order made using the **Payment on Account*
  <u>Actual results</u>:
 
 The following error is returned from the REST API:
+
 ```php
 {"message":"Invoice Document Validation Error(s):\nAn invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity."}
 ```
-
 
 ## Apply the patch
 

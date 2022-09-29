@@ -32,6 +32,7 @@ Gift card amount is missing from the order total response.
 <u>Steps to reproduce</u>:
 
 Make a customer query for customer, orders, items, total:
+
 ```GraphQL
 query {
   customer {

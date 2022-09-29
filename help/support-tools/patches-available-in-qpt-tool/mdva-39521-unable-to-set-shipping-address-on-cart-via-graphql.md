@@ -130,7 +130,7 @@ The user is not able to set shipping address on the carts with an empty telephon
               }
           }
       }
-   ```
+    ```
 
 1. Add address with empty phone number.
 
@@ -162,7 +162,7 @@ The user is not able to set shipping address on the carts with an empty telephon
 <u>Expected results</u>:
 
 ```GraphQL
-{
+ {
     "data": {
         "setShippingAddressesOnCart": {
             "cart": {
@@ -186,7 +186,7 @@ The user is not able to set shipping address on the carts with an empty telephon
             }
         }
     }
-}
+ }
 ```
 
 <u>Actual results</u>:

@@ -39,6 +39,7 @@ bin/magento setup:static-content:deploy --language=de_DE
 <u>Expected results</u>:
 
 de_DE locale is deployed.
+
 ```bash
 bin/magento setup:static-content:deploy --language=de_DE
 
@@ -53,6 +54,7 @@ Execution time: 27.062166929245
 <u>Actual results</u>:
 
 en_US locale deployed instead of de_DE:
+
 ```bash
 bin/magento setup:static-content:deploy --language=de_DE
 
@@ -61,6 +63,7 @@ adminhtml/Magento/backend/en_US         2416/2416           ====================
 frontend/Magento/blank/en_US            2486/2486           ============================ 100%   1 sec
 frontend/Magento/luma/en_US             2504/2504           ============================ 100%   2 secs
 ```
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
