@@ -510,8 +510,7 @@ breadcrumb-title: Commerce KB
     * [Troubleshoot Product Recommendations module in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md)
     * [robots.txt not updated or displaying default settings](/help/troubleshooting/miscellaneous/robots.txt-not-updated-or-displaying-default-settings.md)
-    * [Troubleshoot /tmp mount full for Adobe Commerce](/help/troubleshooting/miscellaneous/tmp-mount-
-    full.md)
+    * [Troubleshoot /tmp mount full for Adobe Commerce](/help/troubleshooting/miscellaneous/tmp-mount-full.md)
     * [Unknown module Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
     * [Cron readiness check issues](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
     * [Redis service crashed](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
