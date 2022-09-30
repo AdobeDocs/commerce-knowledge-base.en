@@ -51,7 +51,8 @@ If you have access to the Marketplace account associated with the old key, take 
 1. Click the account name in the top-right of the page and select **My Profile**.
 1. Click **Access Keys** in the Marketplace tab.
 
-    ![magento_products_access_keys_2.4.1.png](assets/magento_products_access_keys_2.4.1.png)
+    ![magento_products_access_keys_2.4.1.png](/help/troubleshooting/miscellaneous/assets/magento_products_access_keys_2.4.1.png)
+
 1. Click **Disable** next to the access key.
 
 ## Related reading

@@ -35,7 +35,7 @@ It does not seem obvious, but the Authorize.net's **Testing Mode** setting must 
 1. Set **Test Mode** to "No" (uncheck **Use system value**, then select "No" in the menu).
 1. Click **Save Config**.
 
-![authorize-net_test-mode_setting.png](assets/authorize-net_test-mode_setting.png)
+![authorize-net_test-mode_setting.png](/help/troubleshooting/miscellaneous/assets/authorize-net_test-mode_setting.png)
 
 ## Cause 2: Incorrect URL's
 
