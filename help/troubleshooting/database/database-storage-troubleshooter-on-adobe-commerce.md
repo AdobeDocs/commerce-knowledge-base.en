@@ -8,79 +8,78 @@ description: "This article is a troubleshooter tool for customers on Adobe Comme
 
 This article is a troubleshooter tool for customers on Adobe Commerce having issues with databases. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms and configuration, the troubleshooter will explain how to troubleshoot space and configuration issues with databases.
 
-<!--
-Bob: 
+## Step 1
 
-<!---------This opens the main level that holds everything.--------------->
-<div class="zd-accordion">
-<!---------This is one whole accordion panel.--------------->
-<div id="zd-accordion-1" class="zd-accordion-panel">
-<strong>Step 1</strong>
-<div class="zd-accordion-section">Do you have a <code>/tmp</code> issue caused by a lack of space?<br><br>
-This can be indicated by a range of symptoms including the <code>/tmp</code> mount being full, site down, or not being able to SSH into a node. You may also be experiencing errors like <em>No space left on device (28)</em>. For a list of errors resulting from <code>/tmp</code> being full, review <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="_blank" rel="noopener"> /tmp mount full</a>. <br><br>
-Or do you have a <code>/data/mysql</code> issue caused by a lack of space? This can also be indicated by a variety of symptoms including site outage, customers unable to add products to cart, connection failure to database, and Galeria errors like <i>SQLSTATE<span class="error">[08S01]</span>: Communication link failure: 1047 WSREP</i>. For a list of errors resulting from low MySQL disk space, refer to <a href="https://support.magento.com/hc/en-us/articles/360037591972" target="_blank" rel="noopener">MySQL disk space is low on Adobe Commerce on cloud infrastructure</a>.<br>
-<br>If you are unsure if you have a disk space issue and you have a New Relic account, go to the <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page/"  target="_blank" rel="nonopener">New Relic Infrastructure monitoring Hosts page</a>. From there, click on the <strong>Storage</strong> tab, change the <strong>Chart Shows</strong> drop down from 5 to 20 results, and look in the table for high disk use in the Disk Used % chart or table. For more detailed steps, refer to <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page/#storage-tab" target="_blank" rel="nonopener"> New Relic Infrastructure Monitoring > Storage tab</a>.<br>
-<br>
-If you have any of the symptoms described above, check the state of your inodes to make sure this is not being caused by a file number issues. To do so run the following command in the CLI/Terminal:<br>
++++**Do you have a `/tmp` issue caused by a lack of space?**
 
-<code>df -ih</code><br>
+This can be indicated by a range of symptoms including the `/tmp` mount being full, site down, or not being able to SSH into a node. You may also be experiencing errors like _No space left on device (28)_. For a list of errors resulting from `/tmp` being full, review [/tmp mount full](https://support.magento.com/hc/en-us/articles/4403572246285).  
 
-Is IUse% &gt; 90%?<br>
+Or do you have a `/data/mysql` issue caused by a lack of space? This can also be indicated by a variety of symptoms including site outage, customers unable to add products to cart, connection failure to database, and Galeria errors like _SQLSTATE\[08S01\]: Communication link failure: 1047 WSREP_. For a list of errors resulting from low MySQL disk space, refer to [MySQL disk space is low on Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360037591972).  
+  
+If you are unsure if you have a disk space issue and you have a New Relic account, go to the [New Relic Infrastructure monitoring Hosts page](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page/). From there, click on the **Storage** tab, change the **Chart Shows** drop down from 5 to 20 results, and look in the table for high disk use in the Disk Used % chart or table. For more detailed steps, refer to [New Relic Infrastructure Monitoring > Storage tab](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page/#storage-tab).  
+  
+If you have any of the symptoms described above, check the state of your inodes to make sure this is not being caused by a file number issues. To do so run the following command in the CLI/Terminal:  
+`df -ih`  
 
-</div>
+Is IUse% > 90%?
 
-<p class="zd-accordion-text">
- a. YES &ndash;  This is caused by having too many files. Review the steps to remove files safely in <a href="https://support.magento.com/hc/en-us/articles/4406832353677-Safely-delete-files-when-out-of-disk-space-Adobe-Commerce-on-our-cloud-infrastructure" target="_blank" rel="noopener">Safely delete files when out of disk space, Adobe Commerce on cloud infrastructure</a>. Proceed to
- <a class="accordion-anchor" href="#zd-accordion-2">Step 2</a> after you have completed these steps. If you want to request more space, <a href="https://support.magento.com/hc/en-us/articles/360019088251" target="_blank" rel="noopener">submit a support ticket</a>.<br>
- b. NO &ndash;  Check space. Run <code>df -h | grep mysql </code>
-and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in the <code>/tmp</code> and <code>/data/mysql</code> directories. Proceed to   <a class="accordion-anchor" href="#zd-accordion-3">Step 3</a>.</p></div>
-<!---------This is one whole accordion panel.--------------->
-<div id="zd-accordion-2" class="zd-accordion-panel">
-<strong>Step 2</strong>
- <div class="zd-accordion-section">Once you have reduced the number of files, run <code>df -h | grep mysql</code>
-and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in <code>/tmp</code> and <code>/data/mysql</code>.
+a. YES – This is caused by having too many files. Review the steps to remove files safely in [Safely delete files when out of disk space, Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/4406832353677-Safely-delete-files-when-out-of-disk-space-Adobe-Commerce-on-our-cloud-infrastructure). Proceed to [Step 2](#step-2) after you have completed these steps. If you want to request more space, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).  
+b. NO – Check space. Run `df -h | grep mysql` and then `df -h | grep tmp` in the CLI/Terminal to check disk space usage in the `/tmp` and `/data/mysql` directories. Proceed to [Step 3](#step-3).
 
-  &gt; 70% used for <code>/tmp</code> or <code>/data/mysql</code>?
- </div>
- <p class="zd-accordion-text">
-  a. YES &ndash;  Proceed to&nbsp;<a class="accordion-anchor" href="#zd-accordion-3">Step 3</a>.&nbsp;<br>
-  b. NO &ndash;  Queries may be exhausting the available storage. This may crash the node, killing the query and removing the <code>tmp</code> files. Examine the output of the <code>SHOW PROCESSLIST;</code> in the MySQL CLI for queries that may be the cause of the problem. <a href="https://support.magento.com/hc/en-us/articles/360019088251" target="_blank" rel="noopener">Submit a support ticket</a>, requesting more space.</p></div>
-<!---------This is one whole accordion panel.--------------->
-<div id="zd-accordion-3" class="zd-accordion-panel">
-<strong>Step 3</strong>
-<div class="zd-accordion-section">
-Which directory has   &gt; 70% used? <code>/tmp</code> or <code>/data/mysql</code>?
-<br>Note: By default database tmpdir writes to <code>/tmp</code>. To check your database configuration is still on this default, run the following command in MySQL CLI: <code>SHOW VARIABLES LIKE "TMPDIR";</code> If the database tmpdir is still writing to <code>/tmp</code>, you will see <code>/tmp</code> in the Value column.</div>
-<p class="zd-accordion-text">
- a. <code>/tmp</code> &ndash;  Proceed to&nbsp;<a class="accordion-anchor" href="#zd-accordion-4">Step 4</a>.&nbsp;<br>
- b. <code>/data/mysql</code> &ndash;  Proceed to&nbsp;<a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.&nbsp;<br>
-</div>
++++
 
-<!---------This is one whole accordion panel.--------------->
-<div id="zd-accordion-4" class="zd-accordion-panel">
-<strong>Step 4</strong>
-<div class="zd-accordion-section"> <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="blank" rel="noopener">Troubleshoot /tmp mount full for Adobe Commerce</a>, scroll down the article and try the solutions and best practices. Then run <code>df -h | grep mysql </code>
-and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in <code>/tmp</code> and <code>/data/mysql</code> directories<br>
-&nbsp; &lt; 70% used?<br>
+## Step 2
 
-<strong>Note:</strong> The solutions in  <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="blank" rel="noopener">Troubleshoot /tmp mount full for Adobe Commerce</a> are designed for merchants who have not changed the variables for database tmpdir, which by default writes to <code>/tmp</code>. If you have changed the tmpdir value, the instructions in <a href="https://support.magento.com/hc/en-us/articles/4403572246285" target="blank" rel="noopener">Troubleshoot /tmp mount full for Adobe Commerce</a> will not help.</div>
-<p class="zd-accordion-text">
- a. YES &ndash;  You have solved the issue.&nbsp;<br>
- b. NO &ndash;  <a href="https://support.magento.com/hc/en-us/articles/360019088251" target="_blank" rel="noopener">Submit a support ticket</a>, requesting more space.</span>
-</p>
-</div>
++++**Check disk space usage?**
 
-<!---------This is one whole accordion panel.--------------->
-<div id="zd-accordion-5" class="zd-accordion-panel">
-<strong>Step 5</strong>
- <div class="zd-accordion-section">Your database configuration may no longer be at the original default. Find the database tmpdir config by running in the MySQL CLI: <code>SELECT @@DATADIR;</code>. If <code>/data/mysql/</code> is outputted, the database tmpdir is now writing to <code>/data/mysql/</code>. Try to increase space in this directory by following the steps in <a href="https://support.magento.com/hc/en-us/articles/360037591972" target="_blank" rel="noopener">MySQL disk space is low on Adobe Commerce on our cloud infrastructure</a>. Then run <code>df -h | grep mysql </code>
-and then <code>df -h | grep tmp</code> in the CLI/Terminal to check disk space usage in <code>/data/mysql</code> and <code>/tmp</code>.<br>&nbsp; &lt; 70% used?</div>
-<p class="zd-accordion-text">
- a. YES &ndash;  You have solved the issue.&nbsp;<br>
- b. NO &ndash;  <a href="https://support.magento.com/hc/en-us/articles/360019088251" target="_blank" rel="noopener">Submit a support ticket</a>, requesting more space.</span>
-</p></div>
-<!---------This closes the main level that holds everything.--------------->
-  <p>
-    <a class="accordion-back-to-step-1" href="#zd-accordion-1">Back to Step 1</a>
-  </p>
-</div>
+Once you have reduced the number of files, run `df -h | grep mysql` and then `df -h | grep tmp` in the CLI/Terminal to check disk space usage in `/tmp` and `/data/mysql`. Is greater than 70% used for `/tmp` or `/data/mysql`?
+
+a. YES – Proceed to [Step 3](#step-3). 
+b. NO – Queries may be exhausting the available storage. This may crash the node, killing the query and removing the `tmp` files. Examine the output of the `SHOW PROCESSLIST;` in the MySQL CLI for queries that may be the cause of the problem. [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251), requesting more space.
+
++++
+
+## Step 3
+
++++**Which directory has greater than 70% used?**
+
+Which directory has greater than 70% used? `/tmp` or `/data/mysql`?  
+
+>[!NOTE]
+>
+>By default database tmpdir writes to `/tmp`. To check your database configuration is still on this default, run the following command in MySQL CLI: `SHOW VARIABLES LIKE "TMPDIR";` If the database tmpdir is still writing to `/tmp`, you will see `/tmp` in the Value column.
+
+a. `/tmp` – Proceed to [Step 4](#step-4).   
+b. `/data/mysql` – Proceed to [Step 5](#step-5).
+
++++
+
+## Step 4
+
++++**Troubleshoot /tmp mount full**
+
+[Troubleshoot /tmp mount full for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4403572246285), scroll down the article and try the solutions and best practices. Then run `df -h | grep mysql` and then `df -h | grep tmp` in the CLI/Terminal to check disk space usage in `/tmp` and `/data/mysql` directories  
+  < 70% used?
+
+>[!NOTE]
+>
+>The solutions in [Troubleshoot /tmp mount full for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4403572246285) are designed for merchants who have not changed the variables for database tmpdir, which by default writes to `/tmp`. If you have changed the tmpdir value, the instructions in [Troubleshoot /tmp mount full for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4403572246285) will not help.
+
+a. YES – You have solved the issue.   
+b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251), requesting more space.
+
++++
+
+## Step 5 
+
++++**Check default**
+
+Your database configuration may no longer be at the original default. Find the database tmpdir config by running in the MySQL CLI: `SELECT @@DATADIR;`. If `/data/mysql/` is outputted, the database tmpdir is now writing to `/data/mysql/`. Try to increase space in this directory by following the steps in [MySQL disk space is low on Adobe Commerce on our cloud infrastructure](https://support.magento.com/hc/en-us/articles/360037591972). Then run `df -h | grep mysql` and then `df -h | grep tmp` in the CLI/Terminal to check disk space usage in `/data/mysql` and `/tmp`.  
+  < 70% used?
+
+a. YES – You have solved the issue.   
+b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251), requesting more space.
+
+[Back to Step 1](#step-1)
+
++++

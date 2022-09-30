@@ -1,134 +1,195 @@
 ---
 title: Adobe Commerce deployment troubleshooter
 labels: Troubleshooter,deploy,deployment,deployment error,deployment fails,stuck deployment,Adobe Commerce,cloud infrastructure
-description: "<div class=\"zd-accordion\">"
+description: Stuck deployments and failed deployments on Adobe Commerce can be solved using the Deployment troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.
 ---
 
 # Adobe Commerce deployment troubleshooter
 
-<div class="zd-accordion">
-<div id="zd-accordion-1" class="zd-accordion-panel">
-<p>Stuck deployments and failed deployments on Adobe Commerce can be solved using the Deployment troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.</p>
-<strong>Step 1</strong>
-<div class="zd-accordion-section">Stuck Deployment &ndash;  Is Adobe Commerce on cloud infrastructure service up? Check <a href="https://status.adobe.com/products/3350/">Adobe Magento Magento Commerce Cloud</a>.</div>
-<p class="zd-accordion-text">a. YES &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-2">Step 2</a>.<br>
-b. NO &ndash;  Maintenance or global outages. Check for estimated duration and updates.</p>
-</div>
-<div id="zd-accordion-2" class="zd-accordion-panel">
-<strong>Step 2</strong>
-<div class="zd-accordion-section">SSH successful to all nodes?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-3">Step 3</a>.<br>
-b. NO &ndash;  <a href="https://support.magento.com/hc/en-us/articles/360019088251">Submit a support ticket</a>.</p>
-</div>
-<div id="zd-accordion-3" class="zd-accordion-panel">
-<strong>Step 3</strong>
-<div class="zd-accordion-section">All services running?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-4">Step 4</a>.<br>
-b. NO &ndash;  <a href="https://support.magento.com/hc/en-us/articles/360019088251">Submit a support ticket</a>.</p>
-</div>
-<div id="zd-accordion-4" class="zd-accordion-panel">
-<strong>Step 4</strong>
-<div class="zd-accordion-section">Using Bitbucket?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Check <a href="https://bitbucket.status.atlassian.com/">status.bitbucket.com</a>.<br>
-b. NO &ndash;  Check deployment log errors in <a href="https://devdocs.magento.com/cloud/project/log-locations.html#build-and-deploy-logs">Log Locations: Build and Deploy Logs</a>. Proceed to <a class="accordion-anchor" href="#zd-accordion-5">Step 5</a>.</p>
-</div>
-<div id="zd-accordion-5" class="zd-accordion-panel">
-<strong>Step 5</strong>
-<div class="zd-accordion-section">Error code reported?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-6">Step 6</a>.<br>
-b. NO &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-7">Step 7</a>.</p>
-</div>
-<div id="zd-accordion-6" class="zd-accordion-panel">
-<strong>Step 6</strong>
-<div class="zd-accordion-section">403 Forbidden?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-15">Step 15.</a><br>
-b. NO &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-8">Step 8</a>.</p>
-</div>
-<div id="zd-accordion-7" class="zd-accordion-panel">
-<strong>Step 7</strong>
-<div class="zd-accordion-section">Are cron jobs currently running?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Log in by ssh on the integration branch (e.g., primary). Kill and unlock cron jobs. This will kill cron jobs and reset the status. Run <code>php vendor/bin/ece-tools cron:kill</code> and then <code>php vendor/bin/ece-tools cron:unlock</code>. If you were in the process of merging one environment into another, check both environments for running crons.<br>
-b. NO &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-16">Step 16.</a> </p>
-</div>
-<div id="zd-accordion-8" class="zd-accordion-panel">
-<strong>Step 8</strong>
-<div class="zd-accordion-section">Unable to upload application to the remote cluster error?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-9">Step 9</a>.<br>
-b. NO &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-10">Step 10.</a></p>
-</div>
-<div id="zd-accordion-9" class="zd-accordion-panel">
-<strong>Step 9</strong>
-<div class="zd-accordion-section">Available storage okay?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Proceed with <a class="accordion-anchor" href="#zd-accordion-10">Step 10</a>.<br>
-b. NO &ndash;  Review <a href="https://devdocs.magento.com/cloud/project/manage-disk-space.html">Manage disk space</a>.</p>
-</div>
-<div id="zd-accordion-10" class="zd-accordion-panel">
-<strong>Step 10</strong>
-<div class="zd-accordion-section">
-<em><code><filename></code> file could not be written Warning</em>?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Please <a href="https://devdocs.magento.com/cloud/project/manage-disk-space.html#application-disk-space">increase the disk value in .magento.app.yaml</a> and redeploy. If this does not work, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a>.<br>
-b. NO &ndash;  Proceed with <a class="accordion-anchor" href="#zd-accordion-11">Step 11</a>.</p>
-</div>
-<div id="zd-accordion-11" class="zd-accordion-panel">
-<strong>Step 11</strong>
-<div class="zd-accordion-section">Environment redeployment failed error?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Proceed with <a class="accordion-anchor" href="#zd-accordion-12">Step 12</a>.<br>
-b. NO &ndash;  Proceed with <a class="accordion-anchor" href="#zd-accordion-7">Step 7</a>.</p>
-</div>
-<div id="zd-accordion-12" class="zd-accordion-panel">
-<strong>Step 12</strong>
-<div class="zd-accordion-section">Elasticsearch being upgraded or deployed?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Elasticsearch failed upgrade steps. Refer to <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html">Elasticsearch software compatibility</a>. If the Elasticsearch upgrade still doesn't work, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a>. <strong>Note</strong>: On Adobe Commerce on cloud infrastructure, please be aware that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within the desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a> detailing your required service upgrade and stating the time when you want the upgrade process to start.<br>
-b. NO &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-13">Step 13</a>.</p>
-</div>
-<div id="zd-accordion-13" class="zd-accordion-panel">
-<strong>Step 13</strong>
-<div class="zd-accordion-section">File system out of inodes or space?</div>
-<p class="zd-accordion-text">a. YES &ndash;  See <a href="https://devdocs.magento.com/cloud/project/manage-disk-space.html">Manage disk space</a>.<br>
-b. NO &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-14">Step 14</a>.</p>
-</div>
-<div id="zd-accordion-14" class="zd-accordion-panel">
-<strong>Step 14</strong>
-<div class="zd-accordion-section">Error about Elasticseach versions?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-15">Step 15</a>.<br>
-b. NO &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-20">Step 20</a>.</p>
-</div>
-<div id="zd-accordion-15" class="zd-accordion-panel">
-<strong>Step 15</strong>
-<div class="zd-accordion-section">Composer config correct?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-9">Step 9</a>.<br>
-b. NO &ndash;   Review <a href="https://getcomposer.org/doc/articles/troubleshooting.md">Composer Troubleshooter webpage</a>.</p>
-</div>
-<div id="zd-accordion-16" class="zd-accordion-panel">
-<strong>Step 16</strong>
-<div class="zd-accordion-section">Long running processes(es)?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Identify long running processes, kill process, and monitor deployments for reoccurrence.<br>
-b. NO &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-17">Step 17</a>.</p>
-</div>
-<div id="zd-accordion-17" class="zd-accordion-panel">
-<strong>Step 17</strong>
-<div class="zd-accordion-section">Post hook failure/hang?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Database: <a href="https://devdocs.magento.com/cloud/project/manage-disk-space.html#allocating-disk-space">Free disk space</a>, corruption, incomplete/corrupted tables.<br>
-b.  NO &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-18">Step 18</a>.</p>
-</div>
-<div id="zd-accordion-18" class="zd-accordion-panel">
-<strong>Step 18</strong>
-<div class="zd-accordion-section">Using third-party extensions?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Try <a href="https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions">Disabling the third-party extensions</a> and running the deployment (to see if they are the cause of the problem), especially if there are extension names in any errors.<br>
-b. NO &ndash;  Proceed to <a class="accordion-anchor" href="#zd-accordion-19">Step 19</a>.</p>
-</div>
-<div id="zd-accordion-19" class="zd-accordion-panel">
-<strong>Step 19</strong>
-<div class="zd-accordion-section">
-<a href="https://support.magento.com/hc/en-us/articles/360030903091">Check slow query log and MySQL show processlist</a>. Long running queries?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Kill any long running queries. Review <a href="https://dev.mysql.com/doc/refman/8.0/en/kill.html">MySQL Kill Syntax.</a><br>
-b. NO &ndash;  <a href="https://support.magento.com/hc/en-us/articles/360019088251">Submit a support ticket</a>.</p>
-</div>
-<div id="zd-accordion-20" class="zd-accordion-panel">
-<strong>Step 20</strong>
-<div class="zd-accordion-section">Downgrading Elasticsearch versions?</div>
-<p class="zd-accordion-text">a. YES &ndash;  Can't be done through configuration. <a href="https://support.magento.com/hc/en-us/articles/360019088251">Submit a support ticket</a>.<br>
-b. NO &ndash;  <a href="https://support.magento.com/hc/en-us/articles/360019088251">Submit a support ticket</a>.</p>
-</div>
-<p><a href="#zd-accordion-1">Back to Step 1</a></p>
-</div>
+Stuck deployments and failed deployments on Adobe Commerce can be solved using the Deployment troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.
+
++++
+
+## Step 1
+
++++**Is Adobe Commerce on cloud infrastructure service up?**
+
+Stuck Deployment – Is Adobe Commerce on cloud infrastructure service up? Check [Adobe Magento Magento Commerce Cloud](https://status.adobe.com/products/3350/).
+
+a. YES – Proceed to [Step 2](#step-2).  
+b. NO – Maintenance or global outages. Check for estimated duration and updates.
+
++++
+
+## Step 2
+
++++**SSH successful to all nodes?**
+
+a. YES – Proceed to [Step 3](#step-3).  
+b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+
++++
+
+## Step 3
+
++++**All services running?**
+
+a. YES – Proceed to [Step 4](#step-4).  
+b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+
++++
+
+## Step 4
+
++++**Using Bitbucket?**
+
+a. YES – Check [status.bitbucket.com](https://bitbucket.status.atlassian.com/).  
+b. NO – Check deployment log errors in [Log Locations: Build and Deploy Logs](https://devdocs.magento.com/cloud/project/log-locations.html#build-and-deploy-logs). Proceed to [Step 5](#step-5).
+
++++
+
+## Step 5
+
++++**Error code reported?**
+
+a. YES – Proceed to [Step 6](#step-6).  
+b. NO – Proceed to [Step 7](#step-7).
+
++++
+
+## Step 6
+
++++**403 Forbidden?**
+
+a. YES – Proceed to [Step 15.](#step-15)  
+b. NO – Proceed to [Step 8](#step-8).
+
++++
+
+## Step 7
+
++++**Are cron jobs currently running?**
+
+a. YES – Log in by ssh on the integration branch (e.g., primary). Kill and unlock cron jobs. This will kill cron jobs and reset the status. Run `php vendor/bin/ece-tools cron:kill` and then `php vendor/bin/ece-tools cron:unlock`. If you were in the process of merging one environment into another, check both environments for running crons.  
+b. NO – Proceed to [Step 16.](#step-16)
+
++++
+
+## Step 8
+
++++**Unable to upload application to the remote cluster error?**
+
+a. YES – Proceed to [Step 9](#step-9).  
+b. NO – Proceed to [Step 10.](#step-10)
+
++++
+
+## Step 9
+
++++**Available storage okay?**
+
+a. YES – Proceed with [Step 10](#step-10).  
+b. NO – Review [Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html).
+
++++
+
+## Step 10
+
++++**_file could not be written Warning_?**
+
+a. YES – Please [increase the disk value in .magento.app.yaml](https://devdocs.magento.com/cloud/project/manage-disk-space.html#application-disk-space) and redeploy. If this does not work, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).  
+b. NO – Proceed with [Step 11](#step-11).
+
++++
+
+## Step 11
+
++++**Environment redeployment failed error?**
+
+a. YES – Proceed with [Step 12](#step-12).  
+b. NO – Proceed with [Step 7](#step-7).
+
++++
+
+## Step 12
+
++++**Elasticsearch being upgraded or deployed?**
+
+a. YES – Elasticsearch failed upgrade steps. Refer to [Elasticsearch software compatibility](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). If the Elasticsearch upgrade still doesn't work, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251). **Note**: On Adobe Commerce on cloud infrastructure, please be aware that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within the desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.  
+b. NO – Proceed to [Step 13](#step-13).
+
++++
+
+## Step 13
+
++++**File system out of inodes or space?**
+
+a. YES – See [Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html).  
+b. NO – Proceed to [Step 14](#step-14).
+
++++
+
+## Step 14
+
++++**Error about Elasticseach versions?**
+
+a. YES – Proceed to [Step 15](#step-15).  
+b. NO – Proceed to [Step 20](#step-20).
+
++++
+
+## Step 15
+
++++**Composer config correct?**
+
+a. YES – Proceed to [Step 9](#step-9).  
+b. NO – Review [Composer Troubleshooter webpage](https://getcomposer.org/doc/articles/troubleshooting.md).
+
++++
+
+## Step 16
+
++++**Long running processes(es)?**
+
+a. YES – Identify long running processes, kill process, and monitor deployments for reoccurrence.  
+b. NO – Proceed to [Step 17](#step-17).
+
++++
+
+## Step 17
+
++++**Post hook failure/hang?**
+
+a. YES – Database: [Free disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#allocating-disk-space), corruption, incomplete/corrupted tables.  
+b. NO – Proceed to [Step 18](#step-18).
+
++++
+
+## Step 18
+
++++**Using third-party extensions?**
+
+a. YES – Try [Disabling the third-party extensions](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) and running the deployment (to see if they are the cause of the problem), especially if there are extension names in any errors.  
+b. NO – Proceed to [Step 19](#step-19).
+
++++
+
+## Step 19
+
++++**Long running queries?**
+
+[Check slow query log and MySQL show processlist](https://support.magento.com/hc/en-us/articles/360030903091). 
+
+a. YES – Kill any long running queries. Review [MySQL Kill Syntax.](https://dev.mysql.com/doc/refman/8.0/en/kill.html)  
+b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+
++++
+
+## Step 20
+
++++**Downgrading Elasticsearch versions?**
+
+a. YES – Can't be done through configuration. [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).  
+b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+
+[Back to Step 1](#step-1)
