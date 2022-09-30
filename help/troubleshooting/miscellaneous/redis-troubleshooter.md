@@ -30,7 +30,9 @@ b. NO – Make sure you have the latest version of the package `magento-cloud-pa
 
 ## Step 3 {#step3}
 
-+++On Redis versions 3.2 or 5.0? Check by running the following commands in the CLI. Pro or Staging: `$ redis-cli -p %port-number% info | grep redis_version`, where `%port-number%` is the number of the port, which can be found in the `app/etc/env.php` file or by running one of these commands: `$ vendor/bin/ece-tools env:config:show | grep -i redis -A 3` or `$ cat app/etc/env.php | grep redis -A 3` Starter or Integration: `$ redis-cli -h 'redis.internal' info | grep redis_version`
++++On Redis versions 3.2 or 5.0? 
+
+Check by running the following commands in the CLI. Pro or Staging: `$ redis-cli -p %port-number% info | grep redis_version`, where `%port-number%` is the number of the port, which can be found in the `app/etc/env.php` file or by running one of these commands: `$ vendor/bin/ece-tools env:config:show | grep -i redis -A 3` or `$ cat app/etc/env.php | grep redis -A 3` Starter or Integration: `$ redis-cli -h 'redis.internal' info | grep redis_version`
 
 a. YES – Proceed to [Step 4](#step4).
 
@@ -40,7 +42,9 @@ b. NO – Adobe Commerce supports Redis versions 3.2 and 5.0. If you are running
 
 ## Step 4 {#step4}
 
-+++Do you have the latest version of [ECE Tools > v2002.1.1](https://github.com/magento/ece-tools/releases)?  Check what version you have by running the command in the CLI/Terminal: `$php vendor/bin/composer info magento/ece-tools`.
++++Do you have the latest version of [ECE Tools > v2002.1.1](https://github.com/magento/ece-tools/releases)?
+
+Check what version you have by running the command in the CLI/Terminal: `$php vendor/bin/composer info magento/ece-tools`.
 
 a. YES - Proceed to [Step 5](#step5).
 
