@@ -10,9 +10,11 @@ This article provides a fix for the Redis unserialize error when running `magent
 
 Running `magento setup:static-content:deploy` causes the Redis error:
 
-<pre>[Exception]
+```
+[Exception]
 Notice: unserialize(): Error at offset 0 of 1 bytes in
-/var/www/domain.com/vendor/magento/module-config/App/Config/Type/System.php on line 214</pre>
+/var/www/domain.com/vendor/magento/module-config/App/Config/Type/System.php on line 214
+```
 
 The problem is caused by parallel interfering processes on the Redis connection.
 
