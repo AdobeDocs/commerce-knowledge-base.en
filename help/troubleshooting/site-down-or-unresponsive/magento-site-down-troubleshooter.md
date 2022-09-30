@@ -28,7 +28,9 @@ b. NO – If you checked [Fastly Status](https://status.fastly.com/) and it did 
 
 ## Step 3
 
-+++**Check your website in a web browser. Do you get a 200 (OK) code?** (To check error codes in **Firefox**: Click the **Open Menu** icon > **Web Developer** > **Toggle Tools** > **Network** tab > **All** filter > **Status** column. To check error codes in **Chrome**: Click the **Open Menu** icon > **More Tools** > **Developer Tools** > **Network** tab > **All** filter > **Status** column.)
++++**Check your website in a web browser. Do you get a 200 (OK) code?** 
+
+To check error codes in **Firefox**: Click the **Open Menu** icon > **Web Developer** > **Toggle Tools** > **Network** tab > **All** filter > **Status** column. To check error codes in **Chrome**: Click the **Open Menu** icon > **More Tools** > **Developer Tools** > **Network** tab > **All** filter > **Status** column.
 
 a. YES – Open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.  
 b. NO – Proceed to [Step 4](#step-4).

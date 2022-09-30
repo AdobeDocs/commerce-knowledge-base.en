@@ -8,8 +8,6 @@ description: Stuck deployments and failed deployments on Adobe Commerce can be s
 
 Stuck deployments and failed deployments on Adobe Commerce can be solved using the Deployment troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.
 
-+++
-
 ## Step 1
 
 +++**Is Adobe Commerce on cloud infrastructure service up?**
