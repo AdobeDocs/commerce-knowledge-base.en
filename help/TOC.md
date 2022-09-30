@@ -429,7 +429,7 @@ breadcrumb-title: Commerce KB
     * [Max sales rules best practice in Adobe Commerce](/help/best-practices/performance/max-sales-rules-best-practice-in-magento.md)
 * Troubleshooting {#troubleshooting}
   * [Troubleshooting overview](/help/troubleshooting/overview.md)
-  * {#database}
+  * Database {#database}
     * [Checking slow queries and processes MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
     * [Database upload loses connection to MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
     * [Changes in the database are not reflected on the storefront](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
