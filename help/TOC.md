@@ -12,8 +12,8 @@ breadcrumb-title: Commerce KB
     * [Site-Wide Analysis Tool by Adobe: overview](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
   * Observation for Adobe Commerce {#observation}
     * [Observation for Adobe Commerce overview](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
-  * [Managed alerts on Adobe Commerce: Redis memory critical alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
   * Managed alerts on Adobe Commerce {#managed-alerts}
+    * [Managed alerts on Adobe Commerce: Redis memory critical alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
     * [Managed alerts for Adobe Commerce: disk warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
     * [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)
     * [Managed alerts for Adobe Commerce: disk critical alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert.md)
@@ -25,8 +25,8 @@ breadcrumb-title: Commerce KB
     * [Managed alerts on Adobe Commerce: MariaDB alerts](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts.md)
     * [Managed alerts for Adobe Commerce: Apdex warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
     * [Managed alerts for Adobe Commerce: CPU warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
-  * [MDVA-24201: Catalog price rules don't work](/help/support-tools/patches-available-in-qpt-tool/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
   * Patches available in QPT tool {#patches}
+    * [MDVA-24201: Catalog price rules don't work](/help/support-tools/patches-available-in-qpt-tool/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
     * [MDVA-33281 patch: inventory inconsistency issues](/help/support-tools/patches-available-in-qpt-tool/mdva-33281-magento-patch-inventory-inconsistency-issues.md)
     * [ACSD-45169: Visual Merchandiser displays incorrect stock and price for configurable product](/help/support-tools/patches-available-in-qpt-tool/acsd-45169-visual-merchandiser-does-not-display-the-correct-stock-and-price-for-configurable-product.md)
     * [MDVA-42950: Videos don't play on the product page](/help/support-tools/patches-available-in-qpt-tool/mdva-42950-videos-dont-play-on-the-product-page.md)
@@ -356,7 +356,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-44591: Errors when order without CAPTCHA confirmation](/help/support-tools/patches-available-in-qpt-tool/acsd-44591-user-gets-error-when-trying-to-place-order-without-captcha-confirmation.md)
     * [MDVA-34886: no search results when "weight" attribute used](/help/support-tools/patches-available-in-qpt-tool/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
 * Announcements {#announcements}
-    * [Announcements overview](/help/announcements/overview.md)
+  * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
     * [Integration Environment enhancement request - Pro and Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
     * [Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure](/help/announcements/adobe-commerce-announcements/2021-holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
@@ -833,3 +833,4 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Software End of Support FAQ](/help/faq/general/adobe-commerce-eos-policy-faq.md)
   * [Do I need Fastly for a Headless Adobe Commerce site?](/help/faq/general/do-i-need-fastly-for-a-headless-magento-site.md)
 
+]
