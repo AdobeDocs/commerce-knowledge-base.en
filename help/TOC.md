@@ -280,7 +280,7 @@ breadcrumb-title: Commerce KB
     * [MDVA-32133 patch: page builder doesn't load media gallery](/help/support-tools/patches-available-in-qpt-tool/mdva-32133-magento-patch-page-builder-doesn-t-load-media-gallery.md)
     * [MDVA-39711: Unable to access customers grid after deleting website](/help/support-tools/patches-available-in-qpt-tool/mdva-39711-unable-to-access-customers-grid-after-deleting-website.md)
     * [MDVA-37897: Incorrect redirect when adding products from Recently Viewed](/help/support-tools/patches-available-in-qpt-tool/mdva-37897-incorrect-redirect-when-customers-try-to-add-products-with-options-from-recently-viewed-widget.md)
-    * [MDVA-44660: Grave accent character [`] cannot be used for customer's name](/help/support-tools/patches-available-in-qpt-tool/mdva-44660-grave-accent-character-cannot-be-used-for-customer-name.md)
+    * [MDVA-44660: Grave accent character cannot be used for customer's name](/help/support-tools/patches-available-in-qpt-tool/mdva-44660-grave-accent-character-cannot-be-used-for-customer-name.md)
     * [MDVA-44887: 'Uncaught SyntaxError: Unexpected token const' error in Admin panel](/help/support-tools/patches-available-in-qpt-tool/mdva-44887-uncaught-syntaxerror-unexpected-token-const-error-in-admin-panel.md)
     * [MDVA-41164: Cannot save or edit Company with custom customer attributes](/help/support-tools/patches-available-in-qpt-tool/mdva-41164-admin-user-cannot-save-or-edit-company-with-custom-customer-attributes.md)
     * [MDVA-36286: Page Builder preview breaks if SKU positions in different categories](/help/support-tools/patches-available-in-qpt-tool/mdva-36286-page-builder-preview-breaks-if-sku-positions-are-in-different-categories.md)
