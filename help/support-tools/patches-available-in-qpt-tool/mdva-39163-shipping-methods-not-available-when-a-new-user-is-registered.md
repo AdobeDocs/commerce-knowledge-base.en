@@ -1,7 +1,7 @@
 ---
-description: The MDVA-39163 patch solves the issue where the shipping methods are not available when a new user is registered and products in the cart are from the guest session. This patch is available when the Quality Patches Tool (QPT) 1.1.9 is installed. The patch ID is MDVA-39163. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-39163: Shipping methods not available to newly registered users with products from guest session"
 labels: QPT patches,Quality Patches Tool,MQP,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,shipping methods,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,QPT 1.1.9
-title: 'MDVA-39163: Shipping methods not available to newly registered users with products from guest session'
+description: "The MDVA-39163 patch solves the issue where the shipping methods are not available when a new user is registered and products in the cart are from the guest session. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-39163. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
 
 # MDVA-39163: Shipping methods not available to newly registered users with products from guest session

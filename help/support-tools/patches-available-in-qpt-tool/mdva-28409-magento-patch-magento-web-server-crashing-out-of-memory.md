@@ -1,7 +1,7 @@
 ---
-description: The MDVA-28409 patch solves the issue where the cron job for removing quotes stopped due to having to process a large number of items. This patch is available when the Quality Patches Tool (QPT) v.1.0.5 is installed.
+title: "MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory"
 labels: 2.3.4,2.3.4-p2,2.3.5,2.4.0,QPT,QPT 1.0.5,Magento Commerce,Magento Commerce Cloud,Quality Patches,Adobe Commerce,on-premises,cloud infrastructure, Tool,cron,memory,out of memory,quote,support tools
-title: 'MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory'
+description: "The MDVA-28409 patch solves the issue where the cron job for removing quotes stopped due to having to process a large number of items. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.5 is installed."
 ---
 
 # MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory
@@ -20,7 +20,7 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.4 - 2.
 
 The issue is that the cron job has run out of memory due to the amount of data that the job is trying to process. Symptoms of this issue include slow performance due to high disk usage by MySQL and low web server memory.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 To check if there is a cron job that is not able to remove outdated quotes run the following query:
 
@@ -28,11 +28,11 @@ To check if there is a cron job that is not able to remove outdated quotes run t
 select * from cron_schedule where job_code like '%sales_clean_quotes%'
 ```
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
-The status of `sales_clean_quotes` cron job should be `success`. 
+The status of `sales_clean_quotes` cron job should be `success`.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 The status of `sales_clean_quotes` cron job is `running` or `error`.
 

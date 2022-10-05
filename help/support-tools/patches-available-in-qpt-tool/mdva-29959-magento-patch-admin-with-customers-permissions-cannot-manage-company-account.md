@@ -1,7 +1,7 @@
 ---
-description: MDVA-29959 patch available in the Quality Patches Tool (QPT) tool version 1.0.5 fixes the issue where a restricted admin user with all permissions for "Customer" ACL cannot manage companies (add or delete a company). Please note, that the issue is fixed in B2B for Adobe Commerce 2.3.4.
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,ACL,B2B,QPT 1.0.5,QPT patches,Magento Commerce,Quality Patches Tool,support tools,Adobe Commerce,cloud infrastructure
 title: 'MDVA-29959 patch: admin with "Customers" permissions cannot manage company account'
+labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,ACL,B2B,QPT 1.0.5,QPT patches,Magento Commerce,Quality Patches Tool,support tools,Adobe Commerce,cloud infrastructure
+description: "MDVA-29959 patch available in the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 fixes the issue where a restricted admin user with all permissions for \"Customer\" ACL cannot manage companies (add or delete a company). Please note, that the issue is fixed in B2B for Adobe Commerce 2.3.4."
 ---
 
 # MDVA-29959 patch: admin with "Customers" permissions cannot manage company account
@@ -20,18 +20,18 @@ B2B for Adobe Commerce on cloud infrastructure 2.3.0-2.3.3-p1.
 
 Admin user with all permissions for "Customer" ACL cannot manage companies (add or delete a company).
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. In the Commerce Admin, create a new admin role and assign a user to that role.
 1. Assign only "Customer" resources to the role.
 1. Log in as a user with this role.
 1. Try to delete a company account.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The company account is successfully deleted.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 You are not able to delete the company account. You get the *Sorry, you need permissions to view this content.* error message.
 
@@ -40,7 +40,7 @@ You are not able to delete the company account. You get the *Sorry, you need per
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 

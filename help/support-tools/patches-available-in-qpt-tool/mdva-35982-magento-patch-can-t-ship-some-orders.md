@@ -1,7 +1,7 @@
 ---
-description: The MDVA-35982 patch fixes the error when admin user restricted to a specific website cannot create a shipment for the order placed on same website. This patch is available when the Quality Patches Tool (QPT) 1.0.19 is installed. The patch ID is MDVA-35982. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+title: "MDVA-35982: Can't ship some orders"
 labels: 2.3.0,2.3.5-p1,2.4.2,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,orders,shipping,site,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-35982: Can''t ship some orders'
+description: "The MDVA-35982 patch fixes the error when admin user restricted to a specific website cannot create a shipment for the order placed on same website. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35982. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---
 
 # MDVA-35982: Can't ship some orders

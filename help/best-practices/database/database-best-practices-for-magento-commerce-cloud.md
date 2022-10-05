@@ -1,7 +1,7 @@
 ---
-description: This article explains how to improve the performance of your Adobe Commerce on cloud infrastructure store by working efficiently with the database. The recommendations are relevant for both Starter architecture and Pro architecture customers.
-labels: Magento Commerce Cloud,MySQL,Pro,Starter,best practices,database,ece-tools,lock,performance,triggers,Adobe Commerce,cloud infrastructure
 title: Database best practices for Adobe Commerce on cloud infrastructure
+labels: Magento Commerce Cloud,MySQL,Pro,Starter,best practices,database,ece-tools,lock,performance,triggers,Adobe Commerce,cloud infrastructure
+description: This article explains how to improve the performance of your Adobe Commerce on cloud infrastructure store by working efficiently with the database. The recommendations are relevant for both Starter architecture and Pro architecture customers.
 ---
 
 # Database best practices for Adobe Commerce on cloud infrastructure
@@ -38,7 +38,7 @@ SELECT table_schema, CONCAT(ROUND((index_length+data_length)/1024/1024),'MB')
     NOT IN ('mysql', 'information_schema', 'performance_schema', 'sys');
 ```
 
-## Change the storage engine to InnoDb {#change_innodb}
+### Change the storage engine to InnoDb {#change_innodb}
 
 In the `db_schema.xml` file declaring the table, set the `engine` attribute value for the corresponding `table` node to `innodb`. For reference, see [Configure declarative schema > table node](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/declarative-schema/db-schema.html#table-node) in our developer documentation.
 
@@ -66,7 +66,7 @@ Avoid using custom triggers if possible.
 
 Triggers are used to log changes into audit tables. Adobe recommends configuring the application to write directly to the audit tables instead of using the trigger functionality for these reasons:
 
-* Triggers are interpreted as code and MySQL does not precompile them. Hooking onto your query’s transaction space, they add the overhead to a parser and interpreter for each query performed with the table.
+* Triggers are interpreted as code and MySQL does not precompile them. Hooking onto your query's transaction space, they add the overhead to a parser and interpreter for each query performed with the table.
 * The triggers share the same transaction space as the original queries, and while those queries compete for locks on the table, the triggers independently compete on locks on another table.
 
 To learn about alternatives to using custom triggers, refer to [Best Practice triggers usage](https://support.magento.com/hc/en-us/articles/360048050352) in our support knowledge base.

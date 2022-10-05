@@ -1,7 +1,7 @@
 ---
-description: The MDVA-22026 patch fixes the issue of being unable to import product images from an external URL.
+title: "MDVA-22026: Can't import product images from external URL"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,external URL,import,product image,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-22026: Can''t import product images from external URL'
+description: "The MDVA-22026 patch fixes the issue of being unable to import product images from an external URL."
 ---
 
 # MDVA-22026: Can't import product images from external URL
@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. In Admin, go to **System** > **Import**.
 1. Set **Entity Type** = *Products*.
@@ -32,11 +32,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 1. Click the **Check Data** button (which should validate the file).
 1. Click the **Import** button.
 
- <span class="wysiwyg-underline">Expected results</span>:
+ <u>Expected results</u>:
 
 Successful import of products from CSV files, including images from external URLs, as expected.
 
- <span class="wysiwyg-underline">Actual results</span>:
+ <u>Actual results</u>:
 
 Unsuccessful import of products from CSV files, including images from external URLs, and receive a similar error:
 

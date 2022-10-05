@@ -1,7 +1,7 @@
 ---
-description: This article covers the essentials of backing up your environments with snapshots on Adobe Commerce on cloud infrastructure.
+title: "Backup (snapshot) on Cloud: FAQ"
 labels: 2.2.x,2.3.x,FAQ,Magento Commerce Cloud,Pro,Pro Legacy,Starter,backup,production,snapshot,staging,Adobe Commerce,cloud infrastructure
-title: 'Backup (snapshot) on Cloud: FAQ'
+description: "This article covers the essentials of backing up your environments with snapshots on Adobe Commerce on cloud infrastructure."
 ---
 
 # Backup (snapshot) on Cloud: FAQ
@@ -31,7 +31,7 @@ This article covers the essentials of backing up your environments with snapshot
 * You may have **multiple snapshots** that have been triggered manually.
 * A manually triggered snapshot is stored for **7 days** .
 
- **Related articles in our developer documentation:**  
+ **Related articles in our developer documentation:**
 
 * [Backup and disaster recovery](https://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
 * [Create a snapshot](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#create-snapshot)

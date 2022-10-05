@@ -1,7 +1,7 @@
 ---
-description: The MDVA-28191 patch fixes the issue where a payment method is not loading in the Admin **Create New Order** for one website, although payment methods may be showing for other websites.  This patch is available when the Quality Patches Tool (QPT) tool version 1.0.5 is installed.
+title: "MDVA-28191: No payment method for one website in Admin Create New Order"
 labels: 2.3.3,2.3.2-p2,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,order,payment method,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-28191: No payment method for one website in Admin Create New Order'
+description: "The MDVA-28191 patch fixes the issue where a payment method is not loading in the Admin **Create New Order** for one website, although payment methods may be showing for other websites.  This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) tool version 1.0.5 is installed."
 ---
 
 # MDVA-28191: No payment method for one website in Admin Create New Order
@@ -20,9 +20,9 @@ Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.3 to 2
 
 When creating an order from the backend Adobe Commerce creates two quotes, one is inactive and the other is active. But the session holds the inactive quote id.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
-1. Go to **Admin Panel** > **Sales** > **Orders** and click the **Create New Order** button.    
+1. Go to **Admin Panel** > **Sales** > **Orders** and click the **Create New Order** button.
 1. Choose the customer you want to create the order for.
 1. If your store has multiple views, choose the store view where the order is to be placed, on the **Create New Order** page for the user you selected.
 1. Add products from the **Customer's Activities** section or from the catalog by clicking **Add Products**. Scroll down the page to complete the following sections as needed for the order:
@@ -31,11 +31,11 @@ When creating an order from the backend Adobe Commerce creates two quotes, one i
     * Shipping Method
     * Order Comments
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
  Payment methods should be loaded in the Admin for all websites.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 No payment method available (neither is the message "*No Payment Information Required*" displayed) for this website, although payment methods may show when testing orders for other websites.
 

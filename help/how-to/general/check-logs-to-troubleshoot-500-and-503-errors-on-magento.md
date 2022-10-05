@@ -1,17 +1,19 @@
 ---
+title: Check logs to troubleshoot 500 and 503 errors on Adobe Commerce
 description: This article explains how to check the `access.log` and related logs to troubleshoot 503 and 500 errors, which can be caused by traffic or insufficient server resources. Viewing the `access.log` and related logs can provide information on what may be causing problems related to Adobe Commerce on cloud infrastructure.
 labels: 500 error,503 error,Magento Commerce Cloud,error,how to,log,site down,site not loading,Pro,Adobe Commerce,cloud infrastructure,Starter
-title: Check logs to troubleshoot 500 and 503 errors on Adobe Commerce
 ---
 # Check logs to troubleshoot 500 and 503 errors on Adobe Commerce
 
 This article explains how to check the `access.log` and related logs to troubleshoot 503 and 500 errors, which can be caused by traffic or insufficient server resources. Viewing the `access.log` and related logs can provide information on what may be causing problems related to Adobe Commerce on cloud infrastructure.
 
+<!--
+Bob - not in TOC
+-->
+
 ## Affected products and versions
 
 * Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
-
-## How to check the access.log
 
 To view logs for these server errors, check the `access.log` on the web server, e.g., `<ip address>` `<timestamp>` `<request uri>` `<response code>` `<referer url>`
 

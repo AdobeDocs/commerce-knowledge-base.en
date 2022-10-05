@@ -1,7 +1,7 @@
 ---
-description: The MDVA-22150 patch solves the issue when a frontend user cannot log in after an aborted purchase using a coupon. This occurs when a frontend user uses a coupon code on a product that has been disabled prior to completing the purchase. The result is that the frontend user can no longer log in and receives a 503 error. Another effect of this issue is that the ability to manage customers' shopping carts in the Admin stops working.
+title: "MDVA-22150 Adobe Commerce patch: frontend user can't log in"
 labels: 2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,503 error,QPT 1.0.13,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,aborted order,can't login,cancelled,coupon,disabled product,frontend user,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-22150 Adobe Commerce patch: frontend user can''t log in'
+description: "The MDVA-22150 patch solves the issue when a frontend user cannot log in after an aborted purchase using a coupon. This occurs when a frontend user uses a coupon code on a product that has been disabled prior to completing the purchase. The result is that the frontend user can no longer log in and receives a 503 error. Another effect of this issue is that the ability to manage customers' shopping carts in the Admin stops working."
 ---
 
 # MDVA-22150 Adobe Commerce patch: frontend user can't log in
@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Log in to the Admin and create a configurable product.
 1. Go to **Cart Rules**, and create a coupon code with some discount.
@@ -31,11 +31,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 1. After entering the coupon, don't submit the order, but abort the order and logout.
 1. Go back to the Admin and disable the whole configurable product.
 
- <span class="wysiwyg-underline">Expected results:</span>
+ <u>Expected results:</u>
 
 The product is not displayed in the cart on the Storefront, or displayed with the appropriate error message that the product has been disabled, as expected.
 
- <span class="wysiwyg-underline">Actual results:</span>
+ <u>Actual results:</u>
 
 * When attempting to log back into the frontend, you will be stuck in an infinite loop (which eventually will show an exception after a long amount of time).
 * The ability to manage the customers' shopping carts in the Admin stops working.

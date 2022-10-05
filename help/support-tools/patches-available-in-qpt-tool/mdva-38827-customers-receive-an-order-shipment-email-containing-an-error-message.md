@@ -1,7 +1,7 @@
 ---
-description: 'The MDVA-38827 patch fixes the issue where customers receive an order shipment email containing the following error message: *We''re sorry, an error has occurred while generating this content*. This patch is available when the Quality Patches Tool (QPT) 1.1.0 is installed. The patch ID is MDVA-38827. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.'
+title: "MDVA-38827: Customers receive order shipment error via email"
 labels: QPT patches,Quality Patches Tool,QPT,QPT 1.1.0,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,error message,on-premises,cloud infrastructure,order shipment,error,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
-title: 'MDVA-38827: Customers receive order shipment error via email'
+description: "The MDVA-38827 patch fixes the issue where customers receive an order shipment email containing the following error message: *We're sorry, an error has occurred while generating this content*. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.0 is installed. The patch ID is MDVA-38827. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---
 
 # MDVA-38827: Customers receive order shipment error via email
@@ -16,7 +16,7 @@ Adobe Commerce on cloud infrastructure 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
 
-Adobe Commerce (all deployment methods) 2.3.3-p1 – 2.4.2-p1
+Adobe Commerce (all deployment methods) 2.3.3-p1 &ndash;  2.4.2-p1
 
 >[!NOTE]
 >

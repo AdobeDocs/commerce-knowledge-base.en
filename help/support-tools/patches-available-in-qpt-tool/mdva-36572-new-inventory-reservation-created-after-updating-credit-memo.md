@@ -1,12 +1,11 @@
 ---
-description: The MDVA-36572 patch fixes the issue where a new inventory reservation is created after updating the credit memo. This patch is available when the Quality Patches Tool (QPT) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+title: "MDVA-36572: New inventory reservation created after updating credit memo"
 labels: QPT Patches,Quality Patches Tool,QPT,Support Tools,QPT 1.0.25,Magento Commerce Cloud,Magento Commerce,Adobe Commerce,on-premises,cloud infrastructure,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
-title: 'MDVA-36572: New inventory reservation created after updating credit memo'
+description: "The MDVA-36572 patch fixes the issue where a new inventory reservation is created after updating the credit memo. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---
 
 # MDVA-36572: New inventory reservation created after updating credit memo
 
-The MDVA-36572 patch fixes the issue where a new inventory reservation is created after updating the credit memo. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
@@ -14,7 +13,9 @@ The MDVA-36572 patch fixes the issue where a new inventory reservation is create
 Adobe Commerce on cloud infrastructure 2.4.1
 
 **Compatible with Adobe Commerce versions:**
+
 Adobe Commerce (all deployment types) 2.3.5-2.4.2-p1
+
 >[!NOTE]
 >
 >The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.
@@ -31,7 +32,7 @@ Credit Memo reservation update observer is triggered every time the credit memo 
 1. Create new Integration.
 1. Check inventory_reservation table:
 
-    ```SQL
+   ```SQL
        select * from inventory_reservation;
        +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
        | reservation_id | stock_id | sku      | quantity | metadata                                                                                                    |
@@ -40,12 +41,12 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        |              2 |        1 | simple_1 |   1.0000 | {"event_type":"creditmemo_created","object_type":"order","object_id":"1","object_increment_id":"000000001"} |
        +----------------+----------+----------+----------+-------------------------------------------------------------------------------------------------------------+
        2 rows in set (0.00 sec)
-    ```
+   ```
 
 1. Send GET request to: `../rest/default/V1/creditmemo/3`
 1. Copy response (example):
 
-    ```JSON
+   ```JSON
        {
        "adjustment": 0,
        "adjustment_negative": 0,
@@ -118,7 +119,7 @@ Credit Memo reservation update observer is triggered every time the credit memo 
        ],
        "comments": []
       }
-    ```
+   ```
 
 1. Send POST request to: `../rest/default/V1/creditmemo`
 

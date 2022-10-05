@@ -1,7 +1,7 @@
 ---
-description: The MDVA-32776 patch fixes the issue where the stock status is not updated when an order is placed but not shipped. This patch is available when the Quality Patches Tool (QPT) 1.1.6 is installed. The patch ID is MDVA-32776. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+title: "MDVA-32776: Stock status not updated with order placement"
 labels: Support Tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.6,Adobe Commerce,cloud infrastructure,on-premises,stock status,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2
-title: 'MDVA-32776: Stock status not updated with order placement'
+description: "The MDVA-32776 patch fixes the issue where the stock status is not updated when an order is placed but not shipped. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.6 is installed. The patch ID is MDVA-32776. Please note that the issue was fixed in Adobe Commerce 2.4.2."
 ---
 
 # MDVA-32776: Stock status not updated with order placement
@@ -29,9 +29,9 @@ The stock status is not updated when an order is placed but not shipped.
 <u>Prerequisites</u>:
 
 1. Inventory module is installed.
-1. Display Out-of-Stock Products is set to *Yes*. 
+1. Display Out-of-Stock Products is set to *Yes*.
 
-   * To set, go to **Stores** > **Configuration** > **Catalog** > **Inventory** > **Display Out-of-Stock Products** = *Yes*.
+   To set, go to **Stores** > **Configuration** > **Catalog** > **Inventory** > **Display Out-of-Stock Products** = *Yes*.
 
 <u>Steps to reproduce</u>:
 
@@ -54,7 +54,7 @@ Grouped products display `out-of-stock` labels when associated simple products g
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [Software Update Guide > Apply Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) in our developer documentation.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 

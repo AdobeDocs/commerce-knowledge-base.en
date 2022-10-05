@@ -1,7 +1,7 @@
 ---
-description: Starting June 15th, the Adobe Commerce Support Knowledge Base team starts accepting direct edits and new article contributions from external Adobe Commerce community through the magento/knowledge-base GitHub repo!
-labels: announcements,help center,GitHub,community,contributions,Adobe Commerce,Magento
 title: Adobe Commerce Support Knowledge Base starts accepting contributions
+labels: announcements,help center,GitHub,community,contributions,Adobe Commerce,Magento
+description: "Starting June 15th, the Adobe Commerce Support Knowledge Base team starts accepting direct edits and new article contributions from external Adobe Commerce community through the [magento/knowledge-base](https://github.com/magento/knowledge-base) GitHub repo!"
 ---
 
 # Adobe Commerce Support Knowledge Base starts accepting contributions
@@ -49,7 +49,7 @@ You can see the section and category name in the breadcrumbs path on the article
 Article files are organized the same way in the [magento/knowledge-base](https://github.com/magento/knowledge-base) repo.
 All the content is stored in the `src` folder, with folders for categories and nested folders for sections; file names either coincide with article titles or are similar.
 
-You might also use search inside the repo using a piece of text from the Support KB article as a search string. When the search returns files, containing this string, make sure to choose the file that belongs to the right section and category.  
+You might also use search inside the repo using a piece of text from the Support KB article as a search string. When the search returns files, containing this string, make sure to choose the file that belongs to the right section and category.
 
 ### Contribution points
 

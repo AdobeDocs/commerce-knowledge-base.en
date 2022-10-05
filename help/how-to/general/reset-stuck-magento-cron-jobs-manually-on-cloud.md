@@ -1,7 +1,7 @@
 ---
-description: Adobe Commerce on cloud infrastructure cron jobs don't finish executing, get stuck, and prevent other cron jobs from running. This article shows how to reset the stuck cron jobs manually.
-labels: Cloud,Magento Commerce Cloud,cron,ece-tools,how to,reset,stuck cron,Adobe Commerce,cloud infrastructure
 title: Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually
+labels: Cloud,Magento Commerce Cloud,cron,ece-tools,how to,reset,stuck cron,Adobe Commerce,cloud infrastructure
+description: "Adobe Commerce on cloud infrastructure cron jobs don't finish executing, get stuck, and prevent other cron jobs from running. This article shows how to reset the stuck cron jobs manually."
 ---
 
 # Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually

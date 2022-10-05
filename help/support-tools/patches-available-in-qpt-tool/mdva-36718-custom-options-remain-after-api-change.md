@@ -1,7 +1,7 @@
 ---
-description: The MDVA-36718 Magento patch fixes the issue when the old custom options remain after being changed via API.
+title: "MDVA-36718: Custom options remain after API change"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,API,QPT 1.0.22,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,custom options,Adobe Commerce,cloud infrastructure
-title: 'MDVA-36718: Custom options remain after API change'
+description: "The MDVA-36718 Magento patch fixes the issue when the old custom options remain after being changed via API."
 ---
 
 # MDVA-36718: Custom options remain after API change
@@ -26,17 +26,17 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. Create a simple product.
 1. Add a **drop-down type** custom option.
 1. Update the custom option via API: Send `PUT` request to `/V1/products/options/{optionId}`.
 
- <span class="wysiwyg-underline">Expected results</span>:
+ <u>Expected results</u>:
 
 The custom options are updated, as expected.
 
- <span class="wysiwyg-underline">Actual results</span>:
+ <u>Actual results</u>:
 
 New custom options are added, but the old custom options remain.
 

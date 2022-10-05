@@ -1,7 +1,7 @@
 ---
-description: The MDVA-26639 patch fixes the issue when a new order is created, the order items are missing in a confirmation email template.
+title: "MDVA-26639: no order items in new order confirmation email template"
 labels: 2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,confirmation email template,new order,order items missing,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-26639: no order items in new order confirmation email template'
+description: "The MDVA-26639 patch fixes the issue when a new order is created, the order items are missing in a confirmation email template."
 ---
 
 # MDVA-26639: no order items in new order confirmation email template
@@ -22,16 +22,16 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. Go to **Stores** > **Configuration** > **Sales** > **Sales Emails** > **New Order Confirmation** and select **Template: New Pickup Order**.
 1. Go to **Sales** > **Order: Select a order**, then go to **Information**, and select **Send Mail**.
 
- <span class="wysiwyg-underline">Expected results</span>:
+ <u>Expected results</u>:
 
 The order items show in the customer order email, as expected.
 
- <span class="wysiwyg-underline">Actual results</span>:
+ <u>Actual results</u>:
 
 The order items are missing in the customer order email. The same applies if you create a new template and select a template New Order or New Order (Luma).
 

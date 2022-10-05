@@ -1,7 +1,7 @@
 ---
-description: To dramatically reduce maintenance downtime and provide efficient configuration of your store across environments, Adobe Commerce on cloud infrastructure provides the **Configuration Management** feature. For Adobe Commerce on cloud infrastructure 2.2.x and later implementations, this feature supports Pipeline Deployment concepts and options with reduced steps.
-labels: 2.1.4,2.2,2.2.x,Magento Commerce Cloud,configuration,deployment,downtime,how to,management,pipeline,Adobe Commerce,cloud infrastructure
 title: Reduce deployment downtime on Adobe Commerce on cloud infrastructure
+labels: 2.1.4,2.2,2.2.x,Magento Commerce Cloud,configuration,deployment,downtime,how to,management,pipeline,Adobe Commerce,cloud infrastructure
+description: "To dramatically reduce maintenance downtime and provide efficient configuration of your store across environments, Adobe Commerce on cloud infrastructure provides the **Configuration Management** feature. For Adobe Commerce on cloud infrastructure 2.2.x and later implementations, this feature supports Pipeline Deployment concepts and options with reduced steps."
 ---
 
 # Reduce deployment downtime on Adobe Commerce on cloud infrastructure
@@ -37,4 +37,4 @@ We strongly recommend applying the Configuration Management approach in your dep
 * [Configuration management for **2.1.X** ](http://devdocs.magento.com/guides/v2.1/cloud/live/sens-data-over.html) and the [example](http://devdocs.magento.com/guides/v2.1/cloud/live/sens-data-initial.html) in the *Adobe Commerce on cloud infrastructure Guide*
 * [Configuration management for **2.2.X** ](http://devdocs.magento.com/guides/v2.2/cloud/live/sens-data-over.html) and the [example](http://devdocs.magento.com/guides/v2.2/cloud/live/sens-data-initial.html) in the *Adobe Commerce on cloud infrastructure Guide*
 * [Upgrade from 2.0.X or 2.1.X](http://devdocs.magento.com/guides/v2.2/cloud/project/project-upgrade.html#old-version) section of the *Upgrade Adobe Commerce on cloud infrastructure* topic
-* [Pipeline Deployment](http://devdocs.magento.com/guides/v2.2/config-guide/deployment/) in the *Adobe Commerce on cloud infrastructure Configuration Guide* — For Adobe Commerce on cloud infrastructure, you do not need to follow the instructions in this guide. The content is strictly for reference. We already provide the build server, integration environments, and more with Adobe Commerce on cloud infrastructure.
+* [Pipeline Deployment](http://devdocs.magento.com/guides/v2.2/config-guide/deployment/) in the *Adobe Commerce on cloud infrastructure Configuration Guide* &ndash; For Adobe Commerce on cloud infrastructure, you do not need to follow the instructions in this guide. The content is strictly for reference. We already provide the build server, integration environments, and more with Adobe Commerce on cloud infrastructure.

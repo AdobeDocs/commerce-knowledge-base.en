@@ -1,7 +1,7 @@
 ---
-description: The MC-41359 commerce patch fixes the issue with missing SameSite cookie parameters settings. This patch is available when the Quality Patches Tool (QPT) 1.0.20 is installed. The patch ID is MC-41359. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+title: "MC-41359 commerce patch: missing settings SameSite cookie param"
 labels: 2.3.6-p1,2.4.2,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,SameSite,browser,cookies,error,settings,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MC-41359 commerce patch: missing settings SameSite cookie param'
+description: "The MC-41359 commerce patch fixes the issue with missing SameSite cookie parameters settings. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MC-41359. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---
 
 # MC-41359 commerce patch: missing settings SameSite cookie param
@@ -10,9 +10,9 @@ The MC-41359 commerce patch fixes the issue with missing SameSite cookie paramet
 
 ## Affected products and versions
 
-**The patch is created for Adobe Commerce version:** Adobe Commerce on cloud infrastructure 2.4.2
+ **The patch is created for Adobe Commerce version:** Adobe Commerce on cloud infrastructure 2.4.2
 
-**Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-p1, 2.4.2, 2.4.2-p1
+ **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.3.6-p1, 2.4.2, 2.4.2-p1
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ The MC-41359 commerce patch fixes the issue with missing SameSite cookie paramet
 
 Missing settings of the SameSite cookie parameter.
 
-<u>Steps to reproduce:</u>
+ <u>Steps to reproduce:</u>
 
 Prerequisites:
 
@@ -30,14 +30,14 @@ Prerequisites:
 * Enable **SameSite by default cookies** and **Cookies without SameSite must be secure**.
 * Open the Chrome inspector.
 
-<u>Scenario 1:</u>
+ <u>Scenario 1:</u>
 
 1. Enable PayPal.
 1. Go to the store front.
 1. Add a product to the cart.
 1. Go to checkout.
 
-<u>Scenario 2:</u>
+ <u>Scenario 2:</u>
 
 If you have New Relic [enabled](https://docs.magento.com/user-guide/reports/new-relic-reporting.html) the warning appears on any frontend page.
 
@@ -45,7 +45,7 @@ If you have New Relic [enabled](https://docs.magento.com/user-guide/reports/new-
 
 Warning message in the browser console: *A cookie associated with a cross-site resource was set without a SameSite attribute.*
 
-<u>Expected result:</u>
+ <u>Expected result:</u>
 
 "lax" should not be added to the cookie domain; the samesite attribute should be present with default value.
 

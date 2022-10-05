@@ -1,12 +1,12 @@
 ---
-description: This article provides information about Adobe Commerce Support ticket lifecycle policy update.
-labels: Magento Support,about help center,tickets,Adobe Commerce,cloud infrastructure,on-premises
 title: Adobe Commerce Support ticket lifecycle policy update
+labels: Magento Support,about help center,tickets,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article provides information about Adobe Commerce Support ticket lifecycle policy update."
 ---
 
 # Adobe Commerce Support ticket lifecycle policy update
 
-This article provides information about Adobe Commerce Support ticket lifecycle policy update.
+ This article provides information about Adobe Commerce Support ticket lifecycle policy update.
 
  The following table illustrates the updated scenarios. You can find details for each scenario in the section below.
 
@@ -67,6 +67,6 @@ When a customer directs Adobe Commerce Support to close the ticket, it is closed
 
 ## Related reading
 
-* [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket)
-* ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](https://support.magento.com/hc/en-us/articles/360020597871--Submit-a-ticket-link-not-displayed-on-Magento-Help-Center-start-page)
-* [Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360043335371-Ticket-submission-form-merchant-is-not-displayed-in-Organization-drop-down)
+* [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket)
+* ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](https://support.magento.com/hc/en-us/articles/360000913794#no-submit-link)
+* [Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360000913794#merchant-not-displayed)

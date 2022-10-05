@@ -1,14 +1,14 @@
 ---
-description: This article provides troubleshooting steps for when you receive a memory warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
+title: "Managed alerts for Adobe Commerce: memory warning alert"
 labels: Apdex,Magento Commerce Cloud,MySQL,New Relic,PHP,Pro,alert,how to,maintenance mode,memory,threshold,troubleshooting,warning,Adobe Commerce,cloud infrastructure
-title: 'Managed alerts for Adobe Commerce: memory warning alert'
+description: "This article provides troubleshooting steps for when you receive a memory warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected."
 ---
 
 # Managed alerts for Adobe Commerce: memory warning alert
 
 This article provides troubleshooting steps for when you receive a memory warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 
-<img src = "assets/memory-warning-magento-managed.png" alt = "memory warning" width="500px">
+![memory warning](assets/memory-warning-magento-managed.png){width="500"}
 
 ## Affected products and versions
 
@@ -34,7 +34,7 @@ You will receive an alert in New Relic if you have signed up to [Managed alerts 
 
 Follow these steps to identify and troubleshoot the cause.
 
-1. Use [New Relic APM's Infrastructure page](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page) to identify top memory-intensive processes. For steps, refer to New Relic [Infrastructure monitoring Hosts page > Processes tab](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page#processes-tab). If services like Redis or MySQL are the top source of memory consumption, try the following:
+1. Use [New Relic APM's Infrastructure page](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-hosts-page/) to identify top memory-intensive processes. For steps, refer to New Relic [Infrastructure monitoring Hosts page > Processes tab](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-hosts-page/#processes-tab). If services like Redis or MySQL are the top source of memory consumption, try the following:
 
     * Check that you are on the latest version. Newer versions can sometimes fix memory leaks. If you are not on the latest version, consider upgrading. For steps, refer to [Adobe Commerce on cloud infrastructure > Services > Change Services](https://devdocs.magento.com/cloud/project/project-conf-files_services.html#change-service-version) in our developer documentation.
     * If you still cannot identify the source of increased memory consumption, check for MySQL issues like long-running queries, Primary keys not defined, and duplicate indexes. For steps, refer to [Most Common database Issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651) in our support knowledge base.

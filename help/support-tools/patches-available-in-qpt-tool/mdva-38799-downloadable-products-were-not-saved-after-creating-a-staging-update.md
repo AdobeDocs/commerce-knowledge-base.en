@@ -1,7 +1,7 @@
 ---
-description: The MDVA-38799 patch solves the issue where downloadable products are not saved after creating a staging update. This patch is available when the Quality Patches Tool (QPT) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+title: "MDVA-38799: Downloadable products not saved after creating a staging update"
 labels: QPT patches,Quality Patches Tool,QPT,Support Tools,QPT 1.1.0,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premises,cloud infrastructure,Magento,downloadable products,staging,update,error,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
-title: 'MDVA-38799: Downloadable products not saved after creating a staging update'
+description: "The MDVA-38799 patch solves the issue where downloadable products are not saved after creating a staging update. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
 ---
 
 # MDVA-38799: Downloadable products not saved after creating a staging update
@@ -24,7 +24,7 @@ The MDVA-38799 patch solves the issue where downloadable products are not saved 
 
 ## Issue
 
-Downloadable products are not saved after creating a staging update. Users get the error message: *The downloadable sample is not related to the product. Verify the link and try again*.  
+Downloadable products are not saved after creating a staging update. Users get the error message: *The downloadable sample is not related to the product. Verify the link and try again*.
 
 <u>Steps to reproduce</u>:
 

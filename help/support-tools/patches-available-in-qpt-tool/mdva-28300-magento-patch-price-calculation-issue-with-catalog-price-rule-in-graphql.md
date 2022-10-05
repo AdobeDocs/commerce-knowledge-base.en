@@ -1,7 +1,7 @@
 ---
-description: The MDVA-28300 patch fixes the issue where GraphQL request doesn't reflect the price changes from catalog price rules. This patch is available when the Quality Patches Tool (QPT) v.1.0.6 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.6.
+title: "MDVA-28300: price calculation issue with catalog price rule in GraphQL"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,GraphQL,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,price calculation,support tools,Adobe Commerce,on-premises,cloud infrastructure
-title: 'MDVA-28300: price calculation issue with catalog price rule in GraphQL'
+description: "The MDVA-28300 patch fixes the issue where GraphQL request doesn't reflect the price changes from catalog price rules. This patch is available when the Quality Patches Tool (QPT) v.1.0.6 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.6."
 ---
 
 # MDVA-28300: price calculation issue with catalog price rule in GraphQL
@@ -26,7 +26,7 @@ The MDVA-28300 patch fixes the issue where GraphQL request doesn't reflect the p
 
 When a catalog price rule is applied to a certain customer group, items prices in the cart and order total are not calculated correctly in GraphQL.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Create a new customer account and change its Customer Group to Wholesale.
 1. Create a new Catalog rule in **Marketing** > **Promotions** > **Catalog Price Rules** with the following parameters:
@@ -40,11 +40,11 @@ When a catalog price rule is applied to a certain customer group, items prices i
 1. Add the product to the cart. The price of the product is 50 (regular price 100) and Order Total: 55 (50 + 5 of shipment cost).
 1. Execute the GraphQL API call described in [customerCart query](https://devdocs.magento.com/guides/v2.3/graphql/queries/customer-cart.html) in our developer documentation.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 Both API and frontend have the same order total with the discount introduced by the catalog rule being applied.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 The total of the order doesn't apply the catalog rule discount.
 

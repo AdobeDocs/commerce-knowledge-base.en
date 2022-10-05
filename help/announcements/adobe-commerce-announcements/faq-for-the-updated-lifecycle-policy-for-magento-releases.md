@@ -1,7 +1,7 @@
 ---
-description: 'Adobe Commerce provides quality fixes for a minor release for a minimum of 12 months from the general availability date of the next minor software release. The manner in which we provide quality fixes during this period is changing:'
-labels: 2.3.6,2.3.x,2.4,Elasticsearch,QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,announcements,lifecycle,patches,quality,security,support,upgrade,Adobe Commerce,cloud infrastructure
 title: FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases
+labels: 2.3.6,2.3.x,2.4,Elasticsearch,QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,announcements,lifecycle,patches,quality,security,support,upgrade,Adobe Commerce,cloud infrastructure
+description: "Adobe Commerce provides quality fixes for a minor release for a minimum of 12 months from the general availability date of the next minor software release. The manner in which we provide quality fixes during this period is changing:"
 ---
 
 # FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases
@@ -19,7 +19,7 @@ Adobe Commerce 2.3.6 is scheduled to be released on October 15, 2020, and is pla
 
 >[!NOTE]
 >
->the only time we’ll release a full version of 2.3 is if we need to maintain compliance with our technology stack, such as for PHP or Elasticsearch. This is happening in Q2 of 2021 with a mandatory update of PHP 7.4, we'll be incrementing the line to 2.3.7. For details, refer to [PHP 7.4 support for Adobe Commerce 2.3.x release line](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.
+>The only time we’ll release a full version of 2.3 is if we need to maintain compliance with our technology stack, such as for PHP or Elasticsearch. This is happening in Q2 of 2021 with a mandatory update of PHP 7.4, we'll be incrementing the line to 2.3.7. For details, refer to [PHP 7.4 support for Adobe Commerce 2.3.x release line](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.
 
 ## What is a security-only release?
 

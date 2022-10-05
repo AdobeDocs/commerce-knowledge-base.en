@@ -1,7 +1,7 @@
 ---
-description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to getting the *"Area is already set"* error message when trying to set a theme for the Default Store View in the Commerce Admin.
-labels: 2.2.4,Magento Commerce Cloud,area already set,known issues,patch,theme,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 title: '"Area already set" error when saving theme configuration in Admin'
+labels: 2.2.4,Magento Commerce Cloud,area already set,known issues,patch,theme,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
+description: "This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to getting the *\"Area is already set\"* error message when trying to set a theme for the Default Store View in the Commerce Admin."
 ---
 
 # "Area already set" error when saving theme configuration in Admin
@@ -12,7 +12,7 @@ This article provides a patch for the known Adobe Commerce on cloud infrastructu
 
 You get the " *Something went wrong while saving this configuration: Area is already set* " error message when trying to set a theme for the Default Store View.
 
-<span class="wysiwyg-underline">Steps to reproduce</span>:
+<u>Steps to reproduce</u>:
 
 1. Log in to the Commerce Admin.
 1. Navigate to **Content** > **Design** > **Configuration**.
@@ -20,9 +20,9 @@ You get the " *Something went wrong while saving this configuration: Area is alr
 1. Change the theme in the **Applied Theme** drop-down. For example, from *Luma* to *Blank.*
 1. Click **Save Configuration**.
 
- <span class="wysiwyg-underline">Expected result</span>: The selected theme is applied for the default store view.
+ <u>Expected result</u>: The selected theme is applied for the default store view.
 
- <span class="wysiwyg-underline">Actual result</span> : Theme is not applied, the *"Something went wrong while saving this configuration: Area is already set"* error message is displayed.
+ <u>Actual result</u> : Theme is not applied, the *"Something went wrong while saving this configuration: Area is already set"* error message is displayed.
 
 ## Patch
 

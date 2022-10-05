@@ -1,7 +1,7 @@
 ---
-description: This article provides a patch for the known Adobe Commerce 2.4.4 with PHP 8.1 issue where users are not able to add products to the cart if the Allow Countries is unselected.
-labels: Adobe Commerce,Magento,known issues,patch,troubleshooting,on-premises,cloud infrastructure,2.4.4,PHP 8.1,Allow Countries,Configuration,add product to cart
 title: Users not able to add product to cart if nothing selected in Allow Countries
+labels: Adobe Commerce,Magento,known issues,patch,troubleshooting,on-premises,cloud infrastructure,2.4.4,PHP 8.1,Allow Countries,Configuration,add product to cart
+description: "This article provides a patch for the known Adobe Commerce 2.4.4 with PHP 8.1 issue where users are not able to add products to the cart if the Allow Countries is unselected."
 ---
 
 # Users not able to add product to cart if nothing selected in Allow Countries
@@ -35,11 +35,11 @@ You are not able to add a product to the cart. You get the following console err
 ```bash
 Failed to load resource: the server responded with a status of 400 (Bad Request)
 customer-data.js:87 Uncaught Error: [object Object]
-    at Object.<anonymous> (customer-data.js:87:23)
-    at fire (jquery.js:3500:50)
-    at Object.fireWith [as rejectWith] (jquery.js:3630:29)
-    at done (jquery.js:9798:30)
-    at XMLHttpRequest.<anonymous> (jquery.js:10057:37)
+    at Object.<anonymous> (customer-data.js:87:23)
+    at fire (jquery.js:3500:50)
+    at Object.fireWith [as rejectWith] (jquery.js:3630:29)
+    at done (jquery.js:9798:30)
+    at XMLHttpRequest.<anonymous> (jquery.js:10057:37)
 ```
 
 ## Cause
@@ -58,4 +58,4 @@ See [How to apply a composer patch provided by Adobe Commerce](https://support.m
 
 ## Useful links
 
-[Apply custom patches to Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html) in our developer documentation.
+ [Apply custom patches to Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html) in our developer documentation.

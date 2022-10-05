@@ -1,7 +1,7 @@
 ---
-description: The MDVA-36615 patch fixes the issue with incorrect product count in the admin product grid. This patch is available when the Quality Patches Tool (QPT) 1.0.21 is installed. The patch ID is MDVA-36615. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+title: "MDVA-36615: catalog products grid filter incorrect results"
 labels: 2.4.2,QPT 1.0.21,QPT patches,Magento Commerce,Magento Commerce Cloud,Product Grid,catalog,configurable product,search,support tools,Adobe Commerce,on-premises,Adobe Commerce,cloud infrastructure,Magento Open Source
-title: 'MDVA-36615: catalog products grid filter incorrect results'
+description: "The MDVA-36615 patch fixes the issue with incorrect product count in the admin product grid. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-36615. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---
 
 # MDVA-36615: catalog products grid filter incorrect results
@@ -26,18 +26,18 @@ Adobe Commerce (all deployment methods) 2.4.2
 
 Incorrect product count in the admin product grid.
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. Create simple and configurable products with the same phrase in the name (e.g. "red shirt" / "red shirt xs").
 1. On the *Admin* sidebar, go to **Catalog** > **Products** > search for this phrase.
 1. Click **Filters**. Set Type to *Configurable Product*.
 1. Click **Apply Filters**.
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 Correct number in matched product counter.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 Incorrect number in matched product counter.
 

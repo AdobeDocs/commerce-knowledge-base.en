@@ -1,7 +1,7 @@
 ---
-description: The MDVA-30112 patch solves the issue where you have an unexpectedly large number of reservation inconsistencies in the `inventory_reservation` table. Reservation inconsistencies include unregistered open orders and complete orders that are not registered. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
+title: "MDVA-30112: large number reservation inconsistencies"
 labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,2.4.1,Inventory,QPT 1.0.8,Magento Commerce Cloud,Quality Patches Tool,data discrepancies,orders,support tools,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-30112: large number reservation inconsistencies'
+description: "The MDVA-30112 patch solves the issue where you have an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in the `inventory_reservation` table. Reservation inconsistencies include unregistered open orders and complete orders that are not registered. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2."
 ---
 
 # MDVA-30112: large number reservation inconsistencies
@@ -42,36 +42,36 @@ You see an unexpectedly large number of reservation inconsistencies and/or the c
 
 <u>Steps to reproduce</u>:
 
-1. Run the following command in the CLI to resolve the inconsistencies:    
+1. Run the following command in the CLI to resolve the inconsistencies:
 
-    ```clike    
+    ```clike
     bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
-    ```   
+    ```
 
 1. Place three orders:
     * Assign each a single product.
     * Use the Check/Money Order payment method, so the order status will be "pending".
-1. You can see three records with -1 quantity in the `inventory_reservation` table. Run the following command in the CLI to see any inconsistencies:    
+1. You can see three records with -1 quantity in the `inventory_reservation` table. Run the following command in the CLI to see any inconsistencies:
 
-    ```clike    
-    bin/magento inventory:reservation:list-inconsistencies    
-    ```    
+    ```clike
+    bin/magento inventory:reservation:list-inconsistencies
+    ```
 
     This returns no results, which is correct.
 
-1. Run the following command in the CLI:    
+1. Run the following command in the CLI:
 
-    ```clike    
-    Execute bin/magento inventory:reservation:list-inconsistencies      --bunch-size 1    
-    ```    
+    ```clike
+    Execute bin/magento inventory:reservation:list-inconsistencies      --bunch-size 1
+    ```
 
     You see the "pending" status orders are shown as inconsistencies.
 
-1. Run the following command in the CLI:    
+1. Run the following command in the CLI:
 
-    ```clike    
-    bin/magento inventory:reservation:list-inconsistencies      -r --bunch-size 1 | bin/magento inventory:reservation:create-compensations    
-    ```    
+    ```clike
+    bin/magento inventory:reservation:list-inconsistencies      -r --bunch-size 1 | bin/magento inventory:reservation:create-compensations
+    ```
 
 <u>Expected results</u>:
 

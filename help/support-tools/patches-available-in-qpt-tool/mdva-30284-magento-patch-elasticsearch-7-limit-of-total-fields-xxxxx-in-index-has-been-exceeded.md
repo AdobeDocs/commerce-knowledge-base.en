@@ -1,7 +1,7 @@
 ---
-description: The MDVA-30284 patch solves the issue where you receive an error message that "Limit of total fields \[XXXXX\] in index has been exceeded" when using Elasticsearch 7. This patch is available when the Quality Patches Tool (QPT) v.1.0.5 is installed. The patch ID is MDVA-30284.
+title: "MDVA-30284 Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,Elasticsearch problem,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,index,products,support tools,Adobe Commerce,cloud infrastructure
-title: 'MDVA-30284 Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded'
+description: "The MDVA-30284 patch solves the issue where you receive an error message that \"Limit of total fields \\[XXXXX\\] in index has been exceeded\" when using Elasticsearch 7. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.5 is installed. The patch ID is MDVA-30284."
 ---
 
 # MDVA-30284 Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded
@@ -25,9 +25,9 @@ The Elasticsearch fields limit is wrong resulting in the following error when ex
 
 This issue occurs when you have a large number of product attributes. The issue is triggered by the way Elasticsearch calculates the field count. Sometimes when there are attributes that have fields assigned to them these fields will index as separate indexers. This results in the limit having been exceeded warning.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
- <span class="wysiwyg-underline">Prerequisites</span>
+ <u>Prerequisites</u>
 
 * Installed module-elasticsearch 100.3.5.
 * Elasticsearch 7 installed.
@@ -37,18 +37,18 @@ This issue occurs when you have a large number of product attributes. The issue 
 1. Create products for each family.
 1. Run indexer.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 All products are available in the Elasticsearch index.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 1. Elasticsearch error:
 
    ```
-    *{"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"Limit
-   of total fields [3000] in index [magento2_product_2_v11] has been exceeded"}],"type":"illegal_argument_exception","reason":"Limit
-   of total fields [3000] in index [magento2_product_2_v11] has been exceeded"},"status":400}*
+    {"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"Limit
+    of total fields [3000] in index [magento2_product_2_v11] has been exceeded"}],"type":"illegal_argument_exception","reason":"Limit
+    of total fields [3000] in index [magento2_product_2_v11] has been exceeded"},"status":400}
    ```
 
 1. New product was not indexed.

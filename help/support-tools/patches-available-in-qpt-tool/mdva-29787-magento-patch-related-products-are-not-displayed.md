@@ -1,7 +1,7 @@
 ---
-description: The MDVA-29787 patch solves the issue where **Related Products** are not displayed on an Adobe Commerce store frontend. This patch is available when the Quality Patches Tool (QPT) 1.0.6 is installed. The patch ID is MDVA-29787.
+title: "MDVA-29787: related products are not displayed"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,related products,support tools,target rule,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-29787: related products are not displayed'
+description: "The MDVA-29787 patch solves the issue where **Related Products** are not displayed on an Adobe Commerce store frontend. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.6 is installed. The patch ID is MDVA-29787."
 ---
 
 # MDVA-29787: related products are not displayed

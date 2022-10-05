@@ -1,7 +1,7 @@
 ---
-description: The MDVA-38132 patch fixes the issue of infinite redirect when the backend URL is different from the default website URL. This patch is available when the Quality Patches Tool (QPT) 1.0.25 is installed. The patch ID is MDVA-38132. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+title: "MDVA-38132: Infinite redirect when backend URL is different from default website URL"
 labels: QPT Patches,Quality Patches Tool,Support Tools,QPT 1.0.25,Magento Commerce Cloud,Magento Commerce,2.3.3,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,Adobe Commerce,cloud infrastructure,on-premises
-title: 'MDVA-38132: Infinite redirect when backend URL is different from default website URL'
+description: "The MDVA-38132 patch fixes the issue of infinite redirect when the backend URL is different from the default website URL. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-38132. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---
 
 # MDVA-38132: Infinite redirect when backend URL is different from default website URL
@@ -11,13 +11,10 @@ The MDVA-38132 patch fixes the issue of infinite redirect when the backend URL i
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-
 Adobe Commerce on cloud infrastructure 2.3.4-p2
 
 **Compatible with Adobe Commerce versions:**
-
 Adobe Commerce (all deployment methods) 2.3.3-2.4.2-p1
-
 >[!NOTE]
 >
 >The patch might become applicable to other versions with new Quality Patches Tool releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use the patch ID as a search keyword to locate the patch.

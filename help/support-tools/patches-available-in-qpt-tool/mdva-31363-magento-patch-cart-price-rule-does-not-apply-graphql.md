@@ -1,7 +1,7 @@
 ---
-description: The MDVA-31363 patch fixes the issue where the cart price rule with coupon does not apply via GraphQL when the 'Fixed amount discount for whole cart' action is used. This patch is available when the Quality Patches Tool (QPT) 1.0.9 is installed. The issue is scheduled to be fixed in Adobe Commerce version 2.4.2.
+title: "MDVA-31363 patch: Cart price rule does not apply (GraphQL)"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.1,GraphQL,QPT 1.0.9,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,cart price rule,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-31363 patch: Cart price rule does not apply (GraphQL)'
+description: "The MDVA-31363 patch fixes the issue where the cart price rule with coupon does not apply via GraphQL when the 'Fixed amount discount for whole cart' action is used. This patch is available when the Quality Patches Tool (QPT) 1.0.9 is installed. The issue is scheduled to be fixed in Adobe Commerce version 2.4.2."
 ---
 
 # MDVA-31363 patch: Cart price rule does not apply (GraphQL)

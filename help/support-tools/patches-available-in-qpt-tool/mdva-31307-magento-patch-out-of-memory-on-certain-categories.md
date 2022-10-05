@@ -1,7 +1,7 @@
 ---
-description: The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the Quality Patches Tool (QPT) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2.
+title: "MDVA-31307: Out of memory on certain categories"
 labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PHP Fatal Error,category pages,error message,memory,support tools,cloud infrastructure,on-premises
-title: 'MDVA-31307: Out of memory on certain categories'
+description: "The MDVA-31307 patch fixes the issue where `Magento\\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2."
 ---
 
 # MDVA-31307: Out of memory on certain categories
@@ -10,9 +10,9 @@ The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consu
 
 ## Affected products and versions
 
- **The patch is created for Adobe Commerce version:** Adobe Commerce on cloud infrastructure 2.4.0
+**The patch is created for Adobe Commerce version:** Adobe Commerce on cloud infrastructure 2.4.0
 
- **Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.0 - 2.4.1-p1
+**Compatible with Adobe Commerce versions:** Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure 2.4.0 - 2.4.1-p1
 
 >[!NOTE]
 >
@@ -22,17 +22,17 @@ The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consu
 
 Fixes the issue where there are *Out of memory* errors on certain categories due to problems with dynamic CSP whitelisting for cached blocks.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Generate small profile fixtures (`bin/magento setup:performance:generate-fixtures`).
 1. Open all category pages in different tabs.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 <pre>[date and time] PHP Fatal error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 90112 bytes) in Unknown on line 0
 [date and time] PHP Fatal error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 33554440 bytes) in /app/<project id>/vendor/magento/module-csp/Model/Collector/DynamicCollector.php on line 31</pre>
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 All the pages have opened correctly.
 

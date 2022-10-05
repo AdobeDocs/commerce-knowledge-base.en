@@ -1,7 +1,7 @@
 ---
-description: The MDVA-23845 Magento patch fixes the issue when unable to preview the email template in Admin when JS minification is enabled.
+title: "MDVA-23845: can't preview email template when JS minification enabled"
 labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,JS minification enabled,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,email template
-title: 'MDVA-23845: can''t preview email template when JS minification enabled'
+description: "The MDVA-23845 Magento patch fixes the issue when unable to preview the email template in Admin when JS minification is enabled."
 ---
 
 # MDVA-23845: can't preview email template when JS minification enabled
@@ -22,7 +22,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+ <u>Steps to reproduce</u> :
 
 1. Enable **JS minification** in **Admin > Stores > Configuration > JavaScript Settings > Minify JavaScript Files** = *Yes* .
 1. Switch Magento to production mode.
@@ -30,15 +30,15 @@ This patch is available when the [Quality Patches Tool (QPT)](https://support.ma
 1. Click **Add New Template** .
 1. Select the **New Order** template.
 1. Click the **Load Template** button.
-1. Fill up **Template Name** with **New Order.** 
+1. Fill up **Template Name** with **New Order.**
 1. Click the **Save Template** button.
 1. In the email templates grid, click on **Preview** link in the **Actions** column.
 
- <span class="wysiwyg-underline">Expected results</span> :
+ <u>Expected results</u> :
 
 The email template preview appears in the opened popup window, as expected.
 
- <span class="wysiwyg-underline">Actual results</span> :
+ <u>Actual results</u> :
 
 The email template preview does not appear in the opened popup window. The popup window is empty, and JS errors may appear.
 

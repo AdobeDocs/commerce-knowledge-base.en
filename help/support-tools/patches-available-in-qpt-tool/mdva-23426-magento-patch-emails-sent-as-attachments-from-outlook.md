@@ -1,7 +1,7 @@
 ---
-description: The MDVA-23426 Magento patch fixes the issue where emails are sent as attachments by Magento from MS Outlook. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5.
+title: "MDVA-23426 Magento patch: emails sent as attachments from Outlook"
 labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Outlook,attachements,email,order email,orders,shipping,support tools
-title: 'MDVA-23426 Magento patch: emails sent as attachments from Outlook'
+description: "The MDVA-23426 Magento patch fixes the issue where emails are sent as attachments by Magento from MS Outlook. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5."
 ---
 
 # MDVA-23426 Magento patch: emails sent as attachments from Outlook
@@ -22,11 +22,11 @@ The MDVA-23426 Magento patch fixes the issue where emails are sent as attachment
 
 Emails are received with a blank body, and the content is included as an attachment.
 
- <span class="wysiwyg-underline">Prerequisites:</span> Outlook/Exchange is being used as the client/server combination.
+ <u>Prerequisites:</u> Outlook/Exchange is being used as the client/server combination.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span> 1. Submit an order, the order notification or shipment notification is sent.2. The email is received.
+ <u>Steps to reproduce:</u> 1. Submit an order, the order notification or shipment notification is sent.2. The email is received.
 
- <span class="wysiwyg-underline">Actual result:</span> The email shows with a blank body, and the content included as an ATT\*-labeled attachment to the email. <span class="wysiwyg-underline">Expected result:</span> 
+ <u>Actual result:</u> The email shows with a blank body, and the content included as an ATT\*-labeled attachment to the email. <u>Expected result:</u>
 
 The email is received with no attachment and the body of the email contains the content.
 

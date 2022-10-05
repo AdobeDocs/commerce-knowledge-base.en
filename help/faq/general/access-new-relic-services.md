@@ -1,7 +1,7 @@
 ---
-description: 'This article explains how customers with sufficient license/subscription authorization can access select New Relic services:'
-labels: Magento Commerce,Magento Commerce Cloud,New Relic,New Relic APM,New Relic Infrastructure,Pro,Starter,accessing New Relic,performance,Adobe Commerce,cloud infrastructure
 title: Access New Relic services
+labels: Magento Commerce,Magento Commerce Cloud,New Relic,New Relic APM,New Relic Infrastructure,Pro,Starter,accessing New Relic,performance,Adobe Commerce,cloud infrastructure
+description: "This article explains how customers with sufficient license/subscription authorization can access select New Relic services:"
 ---
 
 # Access New Relic services

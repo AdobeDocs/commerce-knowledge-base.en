@@ -1,7 +1,7 @@
 ---
-description: 'This article provides troubleshooting steps for when you receive a Redis warning alert for Adobe Commerce in New Relic. Immediate action is required to resolve the issue. The alert will look something like the following, depending on the alert notification channel you selected:'
+title: "Managed alerts on Adobe Commerce: Redis memory warning alert"
 labels: Magento Commerce Cloud,New Relic,Pro,Redis,alert,memory,support tools,troubleshooting,warning,Adobe Commerce,Pro,cloud infrastructure
-title: 'Managed alerts on Adobe Commerce: Redis memory warning alert'
+description: "This article provides troubleshooting steps for when you receive a Redis warning alert for Adobe Commerce in New Relic. Immediate action is required to resolve the issue. The alert will look something like the following, depending on the alert notification channel you selected:"
 ---
 
 # Managed alerts on Adobe Commerce: Redis memory warning alert
@@ -35,7 +35,7 @@ You will receive an alert in New Relic if you have signed up to [Managed alerts 
 
 Follow these steps to identify and troubleshoot the cause.
 
-1. Check if Redis Used Memory is increasing or decreasing by going to [one.newrelic.com](http://one.newrelic.com/) > **Infrastructure** > **Third-party services** page, select the Redis dashboard. If it is stable or increasing, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) to have your cluster upsized, or increase the `maxmemory` limit to the next level.
+1. Check if Redis Used Memory is increasing or decreasing by going to [one.newrelic.com](http://one.newrelic.com/) > **Infrastructure** > **Third-party services** page, select the Redis dashboard. If it is stable or increasing, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to have your cluster upsized, or increase the `maxmemory` limit to the next level.
 1. If you cannot identify the cause of increased Redis memory consumption, review recent trends to identify issues with recent code deployments or configuration changes (for example, new customer groups and large changes to the catalog). It is recommended that you review the past seven days of activity for any correlations in code deployments or changes.
 1. Check for misbehaving third party extensions:
     * Try to find a correlation with recently installed third party extensions and the time the issue started.
@@ -44,8 +44,8 @@ Follow these steps to identify and troubleshoot the cause.
     * Upgrade ECE Tools if below 2002.1.2 version.
     * Configure L2 Cache by using [Use REDIS\_BACKEND variable](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend) and updating `.magento.env.yaml` file:
 
-   ```yaml
-   stage:
+    ```yaml
+    stage:
        deploy:
            REDIS_BACKEND: '\Magento\Framework\Cache\Backend\RemoteSynchronizedCache'
-   ```
+    ```

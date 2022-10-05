@@ -1,7 +1,7 @@
 ---
-description: The MDVA-31150 patch fixes the issue where an invoice is created without store credit information. This patch is available when the Quality Patches Tool (QPT) v.1.0.8 is installed. Please note that the issue will be fixed in Adobe Commerce version 2.4.2.
+title: "MDVA-31150: invoice without store credit info"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,2.4.1,API,QPT 1.0.8,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,credit,invoice,order,store,support tools,Adobe Commerce,on-premises,cloud infrastructure
-title: 'MDVA-31150: invoice without store credit info'
+description: "The MDVA-31150 patch fixes the issue where an invoice is created without store credit information. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.8 is installed. Please note that the issue will be fixed in Adobe Commerce version 2.4.2."
 ---
 
 # MDVA-31150: invoice without store credit info
@@ -21,20 +21,20 @@ The MDVA-31150 patch fixes the issue where an invoice is created without store c
 
 After the invoice order by API the used customer balance and gift card information is not present in the invoice.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>
+ <u>Steps to reproduce</u>
 
 1. Add a store credit amount to a customer account: On the Admin sidebar, go to **Customers** > **All Customers.**
 1. Find the customer record and click on **Edit** in the Action column, then **Store Credit** > Update the balance > **Save Customer**.
 1. Go to Storefront and add products to cart.
 1. Place an order by applying the store credit or gift card amount as partial payment.
-1. Create invoice using `REST API>POST>/rest/V1/order/1/invoice` with payload:    ```clike    { "capture": true, "items": [ { "extension_attributes": {}, "order_item_id": 3, "qty": 1 } ], "notify": true, "appendComment": true, "comment": { "extension_attributes": {}, "comment": "string", "is_visible_on_front": 0 }, "arguments": { "extension_attributes": {} }}    ```    
+1. Create invoice using `REST API>POST>/rest/V1/order/1/invoice` with payload:    ```clike    { "capture": true, "items": [ { "extension_attributes": {}, "order_item_id": 3, "qty": 1 } ], "notify": true, "appendComment": true, "comment": { "extension_attributes": {}, "comment": "string", "is_visible_on_front": 0 }, "arguments": { "extension_attributes": {} }}    ```
 1. Get the invoice that was just created using `REST API>GET>/rest/V1/invoices/1`.
 
- <span class="wysiwyg-underline">Expected result</span>
+ <u>Expected result</u>
 
 Store credit and gift card balance are returned by API Call.
 
- <span class="wysiwyg-underline">Actual result</span>
+ <u>Actual result</u>
 
 Store credit and gift card balance are not returned by API Call.
 

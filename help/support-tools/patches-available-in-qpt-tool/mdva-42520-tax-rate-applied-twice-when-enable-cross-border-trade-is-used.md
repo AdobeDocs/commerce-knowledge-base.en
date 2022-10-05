@@ -1,7 +1,7 @@
 ---
-description: The MDVA-42520 patch fixes the issue where the tax rate is applied twice when the **Enable Cross Border Trade** is used. This patch is available when the Quality Patches Tool (QPT) 1.1.11 is installed. The patch ID is MDVA-42520. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.11,2.4.3,2.4.3-p1,tax rate,Cross Border Trade
 title: 'MDVA-42520: Tax rate applied twice when "Enable Cross Border Trade" is used'
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.11,2.4.3,2.4.3-p1,tax rate,Cross Border Trade
+description: "The MDVA-42520 patch fixes the issue where the tax rate is applied twice when the **Enable Cross Border Trade** is used. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-42520. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
 
 # MDVA-42520: Tax rate applied twice when "Enable Cross Border Trade" is used
@@ -31,7 +31,8 @@ The tax rate is applied twice when the **Enable Cross Border Trade** is used.
 1. Enable **Company**, **Shared Catalog**, and **Quote**
 1. Configure taxes according to the screenshot. Make sure you enable **Cross Border Trade**.
 
-    <img src = "assets/tax_settings_1.png" alt = "tax settings" width="700px">
+    ![tax settings](assets/tax_settings_1.png){width="700"}
+
 1. Create a tax rate for Germany (10%).
 1. Create a tax rule to apply the tax rate.
 1. Create a company and a custom shared catalog.

@@ -1,7 +1,7 @@
 ---
-description: Adobe Commerce does not offer the functionality of scheduling a price update ([Content Staging](http://docs.magento.com/m2/ee/user_guide/cms/content-staging.html)) for one or more products in a shared catalog.
-labels: FAQ,Magento,catalog,content,price,shared,staging,shared catalog,content staging,Adobe Commerce
 title: Can I schedule Content Staging updates for prices in a shared catalog?
+labels: FAQ,Magento,catalog,content,price,shared,staging,shared catalog,content staging,Adobe Commerce
+description: "Adobe Commerce does not offer the functionality of scheduling a price update ([Content Staging](http://docs.magento.com/m2/ee/user_guide/cms/content-staging.html)) for one or more products in a shared catalog."
 ---
 
 # Can I schedule Content Staging updates for prices in a shared catalog?
@@ -18,13 +18,13 @@ Still, you may use alternative methods and schedule a price update for:
 ## Schedule price update for a customer group
 
 1. Start [scheduling a new product update](http://docs.magento.com/m2/ee/user_guide/cms/content-staging-scheduled-update.html).
-1. Scroll down to the **Price** field and click **Advanced Pricing**.       
+1. Scroll down to the **Price** field and click **Advanced Pricing**.
 
-    <img src = "assets/advanced_pricing.png" alt = "advanced_pricing.png" width="600px, ex: 250px">
+    ![advanced_pricing.png](assets/advanced_pricing.png){width="600"}
 
 1. In the **Customer Group Price section**, select the needed Customer Group and set the updated price.
 
-    <img src = "assets/customer_group_price.png" alt = "customer_group_price.png" width="700, ex: 250px">
+    ![customer_group_price.png](assets/customer_group_price.png){width="700"}
 
 1. Finish scheduling the update as usual.
 

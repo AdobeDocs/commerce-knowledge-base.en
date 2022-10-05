@@ -1,7 +1,7 @@
 ---
-description: "This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers\u2019 returns."
+title: "Adobe Commerce 2.4.0 patch: returns shipping label creation issue"
 labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,known issues,patch,return,shipping label,Adobe Commerce,on-premises,cloud infrastructure
-title: 'Adobe Commerce 2.4.0 patch: returns shipping label creation issue'
+description: "This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers’ returns."
 ---
 
 # Adobe Commerce 2.4.0 patch: returns shipping label creation issue
@@ -15,18 +15,18 @@ This article provides a patch for the known Adobe Commerce 2.4.0 issue when ther
 
 ## Issue
 
-<span class="wysiwyg-underline">Steps to reproduce:</span>
+<u>Steps to reproduce:</u>
 
 1. Place and complete an order with one of the following core shipping methods: FedEx, DHL, UPS, and USPS.
 1. Create and authorize returns for this order.
 1. Open an authorized **Return Information** page and click the **Create Shipping Label** button.
 1. Select shipping method, add a product to a package and click Save.
 
-<span class="wysiwyg-underline">Expected result:</span>
+<u>Expected result:</u>
 
 A shipping label is created successfully and you see a message: *You created a shipping label.*
 
-<span class="wysiwyg-underline">Actual result:</span>
+<u>Actual result:</u>
 
 The **Return Information** page is broken and you see an error message on the Return Information page: *General Information Changes have been made to this section that have not been saved. This tab contains invalid data*.
 

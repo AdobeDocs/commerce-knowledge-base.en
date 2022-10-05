@@ -1,7 +1,7 @@
 ---
-description: This article provides a patch for a known Adobe Commerce 2.2.3 issue related to a shopping cart being empty after customers click **Go to Checkout** multiple times in the mini shopping cart.
-labels: 2.2.3,2.2.5,Magento Commerce,checkout,empty cart,known issues,minicart,patch,troubleshooting,on-premises,cloud infrastructure
 title: Empty shopping cart issue when multiple click on checkout from mini cart
+labels: 2.2.3,2.2.5,Magento Commerce,checkout,empty cart,known issues,minicart,patch,troubleshooting,on-premises,cloud infrastructure
+description: "This article provides a patch for a known Adobe Commerce 2.2.3 issue related to a shopping cart being empty after customers click **Go to Checkout** multiple times in the mini shopping cart."
 ---
 
 # Empty shopping cart issue when multiple click on checkout from mini cart
@@ -12,17 +12,17 @@ This article provides a patch for a known Adobe Commerce 2.2.3 issue related to 
 
 Customers add products to the cart, try to checkout by clicking the **Go to Checkout** button several times, but when they go to the cart, the cart is empty. The mini-cart might still show products.
 
- <span class="wysiwyg-underline">Steps to reproduce</span> :
+ <u>Steps to reproduce</u> :
 
 1. Open a product page on the store front.
 1. Add products to cart.
 1. In the mini shopping cart, click **Go to Checkout** several times.
 
- <span class="wysiwyg-underline">Expected result</span> :
+ <u>Expected result</u> :
 
 The cart contains all products you have added.
 
-<span class="wysiwyg-underline">Actual result</span> :
+<u>Actual result</u> :
 
 You have no items in your shopping cart.
 

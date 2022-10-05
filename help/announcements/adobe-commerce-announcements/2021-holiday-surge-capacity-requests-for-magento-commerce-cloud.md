@@ -1,16 +1,16 @@
 ---
-description: During the peak holiday sales season (approximately Mid-November through Mid-January), Adobe recommends that all Adobe Commerce merchants hosted on our cloud infrastructure prepare for increased traffic.
+title: Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure
 labels: 2.3,2.4,Magento Commerce,Magento Commerce Cloud,announcements,capacity,infrastructure,performance,request,Adobe Commerce,cloud infrastructure,Black Friday,Cyber Monday
-title: 2021 Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure
+description: "During the peak holiday sales season (approximately Mid-November through Mid-January), Adobe recommends that all Adobe Commerce merchants hosted on our cloud infrastructure prepare for increased traffic."
 ---
 
-# 2021 Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure
+# Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure
 
 During the peak holiday sales season (approximately Mid-November through Mid-January), Adobe recommends that all Adobe Commerce merchants hosted on our cloud infrastructure prepare for increased traffic.
 
- **Planning and Estimating Traffic**  
+ **Planning and Estimating Traffic**
 
-We recommend that all Adobe Commerce merchants on our cloud infrastructure [utilize this set of recommendations on how to estimate peak season traffic](https://magento.com/blog/best-practices/five-ps-peak-season-performance-guide-preparing-your-infrastructure-high) in 2021.
+We recommend that all Adobe Commerce merchants on our cloud infrastructure [utilize this set of recommendations on how to estimate peak season traffic](https://magento.com/blog/best-practices/five-ps-peak-season-performance-guide-preparing-your-infrastructure-high) for the peak holiday sales season each year.
 
 Once you have completed the recommended estimation, if your team has identified any dates where you feel you will need additional capacity, continue on to the next step for information on how to request surge capacity.
 
@@ -32,7 +32,7 @@ Adobe Commerce merchants on our cloud infrastructure that anticipate a need for 
 **We recommend submitting these tickets at least 48 business hours in advance of when the capacity is needed; and additionally recommend that requests for the Black Friday / Cyber Monday period be placed as far in advance as possible, as capacity during this period is limited.**
 
 
- **More Help?**  
+ **More Help?**
 
 Need more guidance on preparing for peak season traffic? Adobe Commerce merchants on our cloud infrastructure can contact their Customer Success Manager for help, strategy, and planning tips for preparing for a successful peak season. We also recommend checking out the [Magento Blog](https://magento.com/blog) for strategy tips year-round.
 

@@ -1,7 +1,7 @@
 ---
-description: 'By default, Fastly hides all Adobe Commerce errors behind the **503 Service Unavailable** error. To display the Adobe Commerce error log report number (to be able to find it in logs and see the error details), open the website omitting Fastly using these steps:'
-labels: 503,Fastly,Magento Commerce Cloud,Pro,debug,error,how to,production,reports,staging,Adobe Commerce,cloud infrastructure
 title: Display Adobe Commerce error report number instead of Fastly 503 error
+labels: 503,Fastly,Magento Commerce Cloud,Pro,debug,error,how to,production,reports,staging,Adobe Commerce,cloud infrastructure
+description: "By default, Fastly hides all Adobe Commerce errors behind the **503 Service Unavailable** error. To display the Adobe Commerce error log report number (to be able to find it in logs and see the error details), open the website omitting Fastly using these steps:"
 ---
 
 # Display Adobe Commerce error report number instead of Fastly 503 error
@@ -21,13 +21,17 @@ Once you see the authentic Adobe Commerce error and the error report number, you
 
 1. Check the server IP of your store by executing the `nslookup` command in the command line on your local machine:
     * Pro architecture users (Staging and Production environments):
+
     ```clike
     nslookup {your_project_id}.ent.magento.cloud
-    ```    
+    ```
+    
     * Starter architecture users (all environments); Pro architecture users (Integration environment):
+    
     ```clike
     nslookup gw.{your_region}.magentosite.cloud
-    ```    
+    ```
+
 1. Add your store domain and application server IP to the hosts file on your local machine using the following format:
 
 ```clike

@@ -1,7 +1,7 @@
 ---
-description: Merchants typically pay for our services by a credit card (CC) transaction, and this FAQ is a resource to assist you when you pay your bill.
-labels: Magento,help center,how to,shared access,shared account,license,autopay,CC,credit card,FAQ,PayPal,75000, Entitlements,submit tickets,Primary Account Owner,Invoices,payment,billing,on-premises,one-time,Adobe Commerce,primary account holder,product,access shared account,switch accounts,recurring payment,credentials,ACH,wire transfer,check,USD,delete card,Magento Credit Collections
 title: Billing FAQ for Adobe Commerce
+labels: Magento,help center,how to,shared access,shared account,license,autopay,CC,credit card,FAQ,PayPal,75000, Entitlements,submit tickets,Primary Account Owner,Invoices,payment,billing,on-premises,one-time,Adobe Commerce,primary account holder,product,access shared account,switch accounts,recurring payment,credentials,ACH,wire transfer,check,USD,delete card,Magento Credit Collections
+description: "Merchants typically pay for our services by a credit card (CC) transaction, and this FAQ is a resource to assist you when you pay your bill."
 ---
 
 # Billing FAQ for Adobe Commerce
@@ -32,11 +32,11 @@ This payment method is for merchants with On-Premises licenses and/or quarterly 
 
     >[!NOTE]
     >
-    >Note: We do not accept partial credit card or PayPal payments—by utilizing the **Pay Now** feature, you agree to be charged for the full invoice amount(s).
+    >We do not accept partial credit card or PayPal payments—by utilizing the **Pay Now** feature, you agree to be charged for the full invoice amount(s).
 
 1. If you encounter an error or have any questions regarding the **Pay Now** feature, please contact [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) for further assistance.
 
-## Autopay Set-up {#cc-autopay}
+### Autopay Set-up {#cc-autopay}
 
 This payment method is for merchants with monthly billing (except for On-Premises licenses). If you fall into this category, kindly follow the instructions below:
 
@@ -54,7 +54,7 @@ This payment method is for merchants with monthly billing (except for On-Premise
 
 1. Click **Save**.
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
    >Once you click **Save** all open/unpaid invoices will be charged in full.
 
@@ -69,11 +69,8 @@ This payment method is for merchants with monthly billing (except for On-Premise
 **A:** As a primary account holder, you can add a new card/account by doing the following:
 
 1. Go to **My Account** > **Account Settings** > **Billing and Payments**.
-
 1. Select PayPal or Credit Card, then click **Add a new card** and enter the details.
-
 1. Once successfully added, click **Set as Default** next to the new card. You will be required to enter the CVV.
-
 1. Delete the old card/account by clicking **Delete Card** to the right of the card. Only payment methods that are not set as the default can be deleted.
 
 >[!NOTE]
@@ -106,7 +103,7 @@ Log in to [https://account.magento.com](https://account.magento.com), then choos
 
 The first step is to review your contract. Most of those details are included in your contract. If you have any questions not in your contract, please check payments/invoices with our billing teams.  Email: [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com), and they will be happy to clarify and assist.
 
-**Payment Remittance**, it’s always on the bottom of your invoice.
+**Payment Remittance**, it's always on the bottom of your invoice.
 
 * We can only accept credit card payments below $75,000.
 * **Merchants on monthly billing must pay via credit card on autopay.** [See the CC autopay section](#cc-autopay).

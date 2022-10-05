@@ -1,7 +1,7 @@
 ---
-description: 'This article answers the question: if a product in a shared catalog has a custom price and the base price of the product changes (for example after a scheduled update), which price applies in the shared catalog?'
-labels: FAQ,Magento,custom,price,shared,shared_catalog,Adobe Commerce
 title: Base price change affect on shared catalog price
+labels: FAQ,Magento,custom,price,shared,shared_catalog,Adobe Commerce
+description: "This article answers the question: if a product in a shared catalog has a custom price and the base price of the product changes (for example after a scheduled update), which price applies in the shared catalog?"
 ---
 
 # Base price change affect on shared catalog price
@@ -16,7 +16,7 @@ In other words, when the base price gets updated (via a normal or a scheduled up
 
 ## With custom price set to Fixed, shared catalog price does not change
 
-If the custom price for a product in a shared catalog has been set to Fixed, the price in the shared catalog never changes — no matter the way we update the base price (via scheduled update, Adobe Commerce Admin, API, or importing).
+If the custom price for a product in a shared catalog has been set to Fixed, the price in the shared catalog never changes &ndash; no matter the way we update the base price (via scheduled update, Adobe Commerce Admin, API, or importing).
 
 ## Storefront always displays the lowest available price
 

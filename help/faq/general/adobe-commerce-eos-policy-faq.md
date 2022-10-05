@@ -1,7 +1,7 @@
 ---
-description: "The following FAQ is intended to help merchants, developers, and partners understand the implications of Adobe Commerce\u2019s published End of Support (EOS) date for affected versions of Adobe Commerce."
-labels: Adobe Commerce,end of life,faq,EOS,EOL,end of support
 title: Adobe Commerce Software End of Support FAQ
+labels: Adobe Commerce,end of life,faq,EOS,EOL,end of support
+description: "The following FAQ is intended to help merchants, developers, and partners understand the implications of Adobe Commerce’s published End of Support (EOS) date for affected versions of Adobe Commerce."
 ---
 
 # Adobe Commerce Software End of Support FAQ
@@ -52,7 +52,6 @@ There are several ways you significantly benefit from staying current on your Ad
 
 * In addition to keeping your platform up-to-date with the latest security protections including PCI-compliance, upgrading to a supported version can bring improvements in performance and scalability, giving you access to the latest innovations.
 * Adobe Commerce 2.4.4, coming April 12, 2022, marks a new step forward in commerce capabilities, performance, and protection. It sets the foundation for the next several years of Adobe innovation help with commerce business resiliency. Built on the newest version of PHP 8.1, the latest version enables merchants to future-proof their digital commerce businesses with:
-
     * Faster access to innovative features delivered as SaaS services, such as Product Recommendations, Pay Services, and Live Search
     * Easier, more cost-effective maintenance and upgrades
     * Continued flexibility to customize and meet unique business needs

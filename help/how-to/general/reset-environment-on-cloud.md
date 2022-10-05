@@ -1,7 +1,7 @@
 ---
-description: This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure.
-labels: 2.1.x,2.2.x,2.3.x,2.4.x,Magento Commerce Cloud,database,git,how to,restore,roll back,snapshot,uninstall,Adobe Commerce,cloud infrastructure
 title: Reset environment on Adobe Commerce on cloud infrastructure
+labels: 2.1.x,2.2.x,2.3.x,2.4.x,Magento Commerce Cloud,database,git,how to,restore,roll back,snapshot,uninstall,Adobe Commerce,cloud infrastructure
+description: "This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure."
 ---
 
 # Reset environment on Adobe Commerce on cloud infrastructure
@@ -59,6 +59,7 @@ Read more about Configuration Management:
 
 ### Step 1: Uninstall the Adobe Commerce software with setup:uninstall command
 
+>
 Uninstalling the Adobe Commerce software drops and restores the database, removes the deployment configuration, and clears directories under \`var\`.
 
 Read: [Uninstall the Adobe Commerce software](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall.html) in our developer documentation.
@@ -66,7 +67,7 @@ Read: [Uninstall the Adobe Commerce software](https://devdocs.magento.com/guides
 To uninstall the Adobe Commerce software, follow these steps:
 
 1. [SSH to your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
-1. Execute `setup:uninstall` : `bin/magento setup:uninstall`    
+1. Execute `setup:uninstall` : `bin/magento setup:uninstall`
 1. Confirm uninstall.
 
 The following message displays to confirm a successful uninstallation:
@@ -81,12 +82,12 @@ This means we have reverted our Adobe Commerce installation (including DB) to it
 
 With git reset, we revert the code to the desired state in the past.
 
-1. Clone the environment to your local development environment. You may copy the command in your Project Web Interface:    ![copy_git_clone.png](assets/copy_git_clone.png)    
-1. Access the commits history. Use `--reverse` to display history in reverse order for more convenience: `git log--reverse`    
+1. Clone the environment to your local development environment. You may copy the command in your Project Web Interface:    ![copy_git_clone.png](assets/copy_git_clone.png)
+1. Access the commits history. Use `--reverse` to display history in reverse order for more convenience: `git log --reverse`
 1. Select the commit hash on which you've been good. To reset code to its authentic state (Vanilla), find the very first commit that created your branch (environment).
-    ![Selecting a commit hash in git console](assets/select_commit_hash.png)    
-1. Apply hard git reset: `git reset --h <commit_hash>`    
-1. Push changes to server: `git push --force <origin> <branch>`    
+    ![Selecting a commit hash in git console](assets/select_commit_hash.png)
+1. Apply hard git reset: `git reset --h <commit_hash>`
+1. Push changes to server: `git push --force <origin> <branch>`
 
 After performing these steps, our git branch gets reset and the entire git changelog is clear. The last git push triggers the redeploy to apply all changes and re-install Adobe Commerce.
 
@@ -94,7 +95,7 @@ After performing these steps, our git branch gets reset and the entire git chang
 
 This section shows how to reset an environment when it is in a critical state: the deployment procedure cannot succeed in building a working application, thus making the SSH connection unavailable.
 
-In this scenario, you must first restore the working state of your Adobe Commerce application using git reset, then uninstall the Adobe Commerce software (to drop and restore the database, remove the deployment configuration, etc.). The scenario involves the same steps as in Scenario 2, but the order of steps is different and there is an additional step — force redeploy. The steps are:
+In this scenario, you must first restore the working state of your Adobe Commerce application using git reset, then uninstall the Adobe Commerce software (to drop and restore the database, remove the deployment configuration, etc.). The scenario involves the same steps as in Scenario 2, but the order of steps is different and there is an additional step &ndash; force redeploy. The steps are:
 
 1. [Reset the git branch.](https://support.magento.com/hc/en-us/articles/360000852534#reset-git-branch)
 1. [Disable Configuration Management.](https://support.magento.com/hc/en-us/articles/360000852534#disable_config_management)
@@ -118,7 +119,7 @@ If executing the `setup:uninstall` command fails with an error and cannot be com
 1. [SSH to your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
 1. Connect to the MySQL DB: `mysql -h database.internal` (For Pro environments see: [Set up MySQL service](https://devdocs.magento.com/cloud/project/services-mysql.html#connect-to-the-database)).
 1. Drop the \`main\` DB : `drop database main;`
-1. Create an empty \`main\` DB: `create database main;`    
+1. Create an empty \`main\` DB: `create database main;`
 1. Delete the following configuration files: `config.php` , `config.php` , `.bak,` , `env.php`, `env.php.bak`
 
 After resetting the DB, [make a git push to the environment to trigger redeploy](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#git-commands) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#environment-commands).

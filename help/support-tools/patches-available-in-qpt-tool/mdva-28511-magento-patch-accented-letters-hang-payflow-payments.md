@@ -1,7 +1,7 @@
 ---
-description: The MDVA-28511 patch solves the issue when payments through **Payflow Pro** don't complete for customer names with accented letters.
+title: "MDVA-28511: accented letters hang Payflow payments"
 labels: 2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.14,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PayFlow Pro,accented letters,customer name,payment,on-premises,cloud infrastructure
-title: 'MDVA-28511: accented letters hang Payflow payments'
+description: "The MDVA-28511 patch solves the issue when payments through **Payflow Pro** don't complete for customer names with accented letters."
 ---
 
 # MDVA-28511: accented letters hang Payflow payments
@@ -22,11 +22,11 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 
 ## Issue
 
- <span class="wysiwyg-underline">Prerequisite</span>:
+ <u>Prerequisite</u>:
 
 Enable **Payflow Pro** credit card payment method.
 
- <span class="wysiwyg-underline">Steps to reproduce</span>:
+ <u>Steps to reproduce</u>:
 
 1. Add a product to the cart and continue to the checkout page.
 1. Set a customer name with accented letters. (Example: **Ãtienne Ãillin**)
@@ -34,11 +34,11 @@ Enable **Payflow Pro** credit card payment method.
 1. Select **Payflow Pro** as **Credit Card** and fill in the credit card details.
 1. Click the **Place Order** button.
 
- <span class="wysiwyg-underline">Expected results</span>:
+ <u>Expected results</u>:
 
 The order completes without any issue, as expected.
 
- <span class="wysiwyg-underline">Actual results</span>:
+ <u>Actual results</u>:
 
 The order does not complete and logs will show a similar error as this example:
 

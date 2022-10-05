@@ -1,7 +1,7 @@
 ---
-description: The MDVA-11189 Adobe Commerce patch fixes the issue when after importing a .csv file to update product stock, rows from the `cataloginventory_stock` table are deleted. This patch is available when the Quality Patches Tool (QPT) 1.0.20 is installed. The patch ID is MDVA-1189. Please note that the issue was fixed in Adobe Commerce 2.3.5.
+title: "MDVA-11189: cataloginventory_stock rows deleted post CSV import"
 labels: 2.2.3,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,Inventory,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,catalog,csv file,data discrepancies,import,product,support tools,Adobe Commerce,on-premises,cloud infrastructure
-title: 'MDVA-11189: cataloginventory_stock rows deleted post CSV import'
+description: "The MDVA-11189 Adobe Commerce patch fixes the issue when after importing a .csv file to update product stock, rows from the `cataloginventory_stock` table are deleted. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-1189. Please note that the issue was fixed in Adobe Commerce 2.3.5."
 ---
 
 # MDVA-11189: cataloginventory_stock rows deleted post CSV import
@@ -22,11 +22,11 @@ The MDVA-11189 Adobe Commerce patch fixes the issue when after importing a .csv 
 
 Fixes the issue when after importing a `.csv` to update product stock, rows from the `cataloginventory_stock` table are deleted.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. In the database run the following MySQL command: `select count(*) from cataloginventory_stock_status;`
 1. Note the number of rows.
-1. Set the crontab as follows: `* * * * * /usr/bin/php <path to installation>/bin/magento cron:run  | grep -v "Ran jobs by schedule" >> <path to installation>/var/log/cron.log 2>&1`    
+1. Set the crontab as follows: `* * * * * /usr/bin/php <path to installation>/bin/magento cron:run  | grep -v "Ran jobs by schedule" >> <path to installation>/var/log/cron.log 2>&1`
 1. Go to the Admin panel in **System** > **Tools** > **Index Management**.
 1. Set indexers to *Update By Schedule.*
 1. Go to **System** > *Data Transfer* > **Export**.
@@ -42,13 +42,13 @@ Fixes the issue when after importing a `.csv` to update product stock, rows from
    1. Choose File to select the catalog product spreadsheet.
 1. Click **Check Data** > **Import**. Allow 5-10 minutes to pass.
 1. In the database run the following MySQL command:
-   `select count(*) from cataloginventory_stock_status;`    
+   `select count(*) from cataloginventory_stock_status;`
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
 The number of rows in `cataloginventory_stock` is decreased after the CSV import to update the stock.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The number of rows in `cataloginventory_stock` should remain the same after the CSV import to update the stock.
 

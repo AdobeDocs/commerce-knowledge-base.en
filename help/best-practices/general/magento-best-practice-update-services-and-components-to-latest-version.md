@@ -1,7 +1,7 @@
 ---
-description: This article provides recommendations to keep your Magento Commerce Cloud technology stack updated and links to helpful resources.
+title: "Magento best practice: update services and components to latest version"
 labels: 2.4,2.4.0,End of Life,Magento Commerce Cloud,PCI,best practices,security,service,upgrade
-title: 'Magento best practice: update services and components to latest version'
+description: "This article provides recommendations to keep your Magento Commerce Cloud technology stack updated and links to helpful resources."
 ---
 
 # Magento best practice: update services and components to latest version
@@ -26,10 +26,10 @@ Customers with Pro plan, can only self-serve the services upgrades on their [Int
 
 You can view the list of services/components versions and end-of-life dates in the following file supported by Magento:
 
-<https://github.com/magento/ece-tools/blob/develop/config/eol.yaml> 
+<https://github.com/magento/ece-tools/blob/develop/config/eol.yaml>
 
 >[!NOTE]
 >
->this file cannot be considered a single source of truth, please refer to the official vendor websites for these technologies if in doubt.
+>This file cannot be considered a single source of truth, please refer to the official vendor websites for these technologies if in doubt.
 
 For information about technologies and versions supported by Magento Commerce 2.4, refer to [Magento 2.4 technology stack requirements](https://devdocs.magento.com/guides/v2.4/architecture/tech-stack.html) .

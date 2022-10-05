@@ -1,7 +1,7 @@
 ---
-description: ''
-labels: 2.3.0,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,ACL,FAQ,Magento Commerce,Magento Commerce Cloud,admin,attack,authentication,browser,configuration,security,two factor authentication,Adobe Commerce
 title: Two-Factor Authentication in Admin Panel on Adobe Commerce FAQ
+labels: 2.3.0,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,ACL,FAQ,Magento Commerce,Magento Commerce Cloud,admin,attack,authentication,browser,configuration,security,two factor authentication,Adobe Commerce
+description: "1. **What’s Two-Factor Authentication on the Admin Panel? What’s changed?** Two-factor authentication (2FA) is an extra layer of security to verify your identity so only you can access your admin account, even if someone knows your password. Adobe added support for 2FA in the Commerce Admin Panel in 2.3.0 to protect the admin account from unauthorized access. In 2.4.0, 2FA is enabled by default on the Admin Panel and is required to be configured before logging into the Admin through either the UI or a web API. Adobe strongly recommends against disabling the 2FA module."
 ---
 
 # Two-Factor Authentication in Admin Panel on Adobe Commerce FAQ

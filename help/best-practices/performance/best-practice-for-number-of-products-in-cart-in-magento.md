@@ -1,7 +1,7 @@
 ---
-description: This article provides best practices for the number of products in a cart in Adobe Commerce. The maximum recommended number of products is 100.
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,cart,minicart,products,Adobe Commerce,on-premises
 title: Best practice for number of products in cart in Adobe Commerce
+labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,cart,minicart,products,Adobe Commerce,on-premises
+description: "This article provides best practices for the number of products in a cart in Adobe Commerce. The maximum recommended number of products is 100."
 ---
 
 # Best practice for number of products in cart in Adobe Commerce
@@ -32,7 +32,7 @@ Adobe Commerce (all deployment methods) all [supported versions](https://magento
 * Split orders into several smaller orders with a smaller number of rows by leveraging the Add Item by SKU feature.
 * Only add the custom logic and cart customization you need to load a list of items.
 
-If assistance is required or if there are questions or concerns, [submit an Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket).
+If assistance is required or if there are questions or concerns, [submit an Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
 
 ## Related reading
 

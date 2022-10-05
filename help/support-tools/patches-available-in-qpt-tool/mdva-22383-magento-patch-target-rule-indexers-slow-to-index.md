@@ -1,7 +1,7 @@
 ---
-description: The MDVA-22383 patch solves the issue where reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long. This patch is available when the Quality Patches Tool (QPT) 1.0.20 is installed. The patch ID is MDVA-22383. Please note that the issue was fixed in Adobe Commerce 2.3.5.
+title: "MDVA-22383: target rule indexers slow to index"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.20,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,index,product save,support tools,target rule,Adobe Commerce,on-premises,cloud infrastructure
-title: 'MDVA-22383: target rule indexers slow to index'
+description: "The MDVA-22383 patch solves the issue where reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-22383. Please note that the issue was fixed in Adobe Commerce 2.3.5."
 ---
 
 # MDVA-22383: target rule indexers slow to index
@@ -22,19 +22,22 @@ The MDVA-22383 patch solves the issue where reindexing the Product/Target Rule a
 
 Reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long.
 
- <span class="wysiwyg-underline">Prerequisites:</span> the issue happens when there is a large number of products.
+ <u>Prerequisites:</u> the issue happens when there is a large number of products.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. Create a target rule with products to match the conditions, the conditions should add more product to collection and should have attributes (not categories or attribute set).
-1. Run the following command:   
- ```bash    bin/magento indexer:reindex targetrule_product_rule    ```    
+1. Run the following command:
 
- <span class="wysiwyg-underline">Actual result:</span>
+   ```bash
+       bin/magento indexer:reindex targetrule_product_rule
+   ```
+
+ <u>Actual result:</u>
 
 Reindexing is stuck; product saving is stuck.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 Reindexing is completed successfully.
 

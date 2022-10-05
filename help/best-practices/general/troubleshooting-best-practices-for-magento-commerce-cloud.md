@@ -1,7 +1,7 @@
 ---
-description: Follow these best practices for effective troubleshooting of Adobe Commerce on cloud infrastructure issues.
-labels: Elasticsearch,Magento Commerce Cloud,best practices,configuration,database,deploy,deployment,deployment error,extension,index,query,search,site down,storage,Adobe Commerce,cloud infrastructure
 title: Troubleshooting Best Practices for Adobe Commerce on cloud infrastructure
+labels: Elasticsearch,Magento Commerce Cloud,best practices,configuration,database,deploy,deployment,deployment error,extension,index,query,search,site down,storage,Adobe Commerce,cloud infrastructure
+description: "Follow these best practices for effective troubleshooting of Adobe Commerce on cloud infrastructure issues."
 ---
 
 # Troubleshooting Best Practices for Adobe Commerce on cloud infrastructure
@@ -33,7 +33,7 @@ Follow these best practices for effective troubleshooting of Adobe Commerce on c
 <td style="width: 179px;">Performance Issues</td>
 <td style="width: 523px;">
 <strong>If you're not using Adobe Commerce banner, disable it.</strong> When the banner is enabled but not used, resources are used to do lookups to the database when they are not required, and it will cause performance issues.</td>
-<td style="width: 327px;"><a href="https://learn.newrelic.com">Welcome to the New Relic University Learning Portal</a></td>
+<td style="width: 327px;"><a href="https://support.magento.com/hc/en-us/articles/360035285852-Disable-Adobe-Commerce-Banner-output-to-improve-site-performance">Disable Adobe Commerce Banner output to improve performance</a> in our support knowledge base.</td>
 </tr>
 <tr>
 <td style="width: 179px;">Search Issues</td>

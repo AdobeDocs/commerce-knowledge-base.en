@@ -1,7 +1,7 @@
 ---
-description: The MDVA-30593 patch solves the issue where quotes that expired according to the **Quote Lifetime** setting, are not cleaned up. This patch is available when the Quality Patches Tool (QPT) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.4.
+title: "MDVA-30593 patch: expired quotes are not cleaned up"
 labels: 2.3.0,2.3.1,2.3.2,2.3.3,2.3.3-p1,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,quote,support tools
-title: 'MDVA-30593 patch: expired quotes are not cleaned up'
+description: "The MDVA-30593 patch solves the issue where quotes that expired according to the **Quote Lifetime** setting, are not cleaned up. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.4."
 ---
 
 # MDVA-30593 patch: expired quotes are not cleaned up
@@ -20,7 +20,7 @@ The MDVA-30593 patch solves the issue where quotes that expired according to the
 
 Quotes, that expired according to the **Quote Lifetime** setting, are not cleaned up.
 
- <span class="wysiwyg-underline">Steps to reproduce:</span>
+ <u>Steps to reproduce:</u>
 
 1. In the Commerce Admin, go to **Stores** > **Configuration** > **Sales** > **Checkout** > **Shopping Cart**.
 1. Set **Quote Lifetime (days)** = *1*
@@ -29,11 +29,11 @@ Quotes, that expired according to the **Quote Lifetime** setting, are not cleane
 1. Add a product to the cart.
 1. After one day, go back to the cart.
 
- <span class="wysiwyg-underline">Expected result:</span>
+ <u>Expected result:</u>
 
 The quote is cleared, and product is removed from the cart, since the old price is no longer valid.
 
- <span class="wysiwyg-underline">Actual result:</span>
+ <u>Actual result:</u>
 
  The product is still in the cart.
 

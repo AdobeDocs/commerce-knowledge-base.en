@@ -1,7 +1,7 @@
 ---
-description: The MDVA-42507 patch solves the issue where the full-page cache is cleaned after applying staging update for cart rule. This patch is available when the Quality Patches Tool (QPT) 1.1.9 is installed. The patch ID is MDVA-42507. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-42507: Full-page cache is cleaned after applying staging update for cart rule"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.9,full-page cache,staging update,cart rule,2.4.3,2.4.3-p1
-title: 'MDVA-42507: Full-page cache is cleaned after applying staging update for cart rule'
+description: "The MDVA-42507 patch solves the issue where the full-page cache is cleaned after applying staging update for cart rule. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-42507. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
 
 # MDVA-42507: Full-page cache is cleaned after applying staging update for cart rule

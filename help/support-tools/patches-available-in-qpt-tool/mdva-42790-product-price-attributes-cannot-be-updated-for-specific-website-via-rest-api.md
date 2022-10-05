@@ -1,7 +1,7 @@
 ---
-description: The MDVA-42790 patch fixes the issue where users are not able to update product price attributes for specific websites via REST API. This patch is available when the Quality Patches Tool (QPT) 1.1.11 is installed. The patch ID is MDVA-42790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+title: "MDVA-42790: Product price attributes cannot be updated for specific website via REST API"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.11,2.4.3,2.4.3-p1,price attributes,REST API,website
-title: 'MDVA-42790: Product price attributes cannot be updated for specific website via REST API'
+description: "The MDVA-42790 patch fixes the issue where users are not able to update product price attributes for specific websites via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-42790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
 
 # MDVA-42790: Product price attributes cannot be updated for specific website via REST API
@@ -30,6 +30,7 @@ Users are not able to update product price attributes for specific websites via 
 
 1. In the Admin go to **Stores** > **Configuration** > **Catalog** > **Price** > and set **Catalog Price Scope** to Website.
 1. Update special price for a bundled product using REST API, `POST rest/V1/products/`.
+
     ```JSON
     {
       "product": {
@@ -51,6 +52,7 @@ Users are not able to update product price attributes for specific websites via 
       }
     }
     ```
+    
 <u>Expected results</u>:
 
 Special price is updated for the bundled product when the **Catalog Price Scope** is set to Website.

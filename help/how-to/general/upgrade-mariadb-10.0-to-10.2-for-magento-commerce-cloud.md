@@ -1,7 +1,7 @@
 ---
-description: MariaDB 10.0 and 10.1 are end-of-life (EOL). Support ended 31 Mar 2019 and 17 Oct 2020 respectively. This article explains how to upgrade MariaDB from 10.0 to 10.2 or 10.2 to 10.3 or to 10.4, in order to use Adobe Commerce on cloud infrastructure.
-labels: 2.3.x,2.4.x,End of Life,Magento Commerce Cloud,MariaDB,MariaDB 10.0,MariaDB 10.1,MariaDB 10.2,MariaDB 10.3,MariaDB 10.4,database,ece-tools,how to,tables,update,upgrade, Adobe Commerce,cloud infrastructure
 title: Upgrade MariaDB 10.0 to 10.2 for Adobe Commerce on cloud
+labels: 2.3.x,2.4.x,End of Life,Magento Commerce Cloud,MariaDB,MariaDB 10.0,MariaDB 10.1,MariaDB 10.2,MariaDB 10.3,MariaDB 10.4,database,ece-tools,how to,tables,update,upgrade, Adobe Commerce,cloud infrastructure
+description: "MariaDB 10.0 and 10.1 are end-of-life (EOL). [Support ended 31 Mar 2019 and 17 Oct 2020 respectively](https://endoflife.date/mariadb). This article explains how to upgrade MariaDB from 10.0 to 10.2 or 10.2 to 10.3 or to 10.4, in order to use Adobe Commerce on cloud infrastructure."
 ---
 
 # Upgrade MariaDB 10.0 to 10.2 for Adobe Commerce on cloud

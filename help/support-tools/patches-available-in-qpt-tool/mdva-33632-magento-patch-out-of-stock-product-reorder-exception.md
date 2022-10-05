@@ -1,7 +1,7 @@
 ---
-description: The MDVA-33632 patch solves the issue where an exception is thrown when trying to reorder an out of stock product.
+title: "MDVA-33632 patch: out of stock product reorder exception"
 labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,exception,out of stock,product,reorder,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-title: 'MDVA-33632 patch: out of stock product reorder exception'
+description: "The MDVA-33632 patch solves the issue where an exception is thrown when trying to reorder an out of stock product."
 ---
 
 # MDVA-33632 patch: out of stock product reorder exception

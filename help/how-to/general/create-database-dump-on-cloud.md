@@ -1,7 +1,7 @@
 ---
-description: This article discusses the possible (and recommended) ways to create a database (DB) dump on Adobe Commerce on cloud infrastructure.
-labels: Magento Commerce Cloud,MySQL,Pro,Starter,database,ece-tools,how to,production,Adobe Commerce,cloud infrastructure
 title: Create database dump on Adobe Commerce on cloud infrastructure
+labels: Magento Commerce Cloud,MySQL,Pro,Starter,database,ece-tools,how to,production,Adobe Commerce,cloud infrastructure
+description: "This article discusses the possible (and recommended) ways to create a database (DB) dump on Adobe Commerce on cloud infrastructure."
 ---
 
 # Create database dump on Adobe Commerce on cloud infrastructure
@@ -54,5 +54,5 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 
  **Related documentation:**
 
-* [mysqldump — A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) in official MySQL documentation.
+* [mysqldump &ndash; A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) in official MySQL documentation.
 * [Cloud variables](http://devdocs.magento.com/guides/v2.2/cloud/env/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS`) in our developer documentation.

@@ -1,12 +1,12 @@
 ---
-description: 'We understand the importance of accessibility at Adobe. While the responsibility for accessibility is with the partner/merchant, we continue to improve our accessibility with each release which will also be included in our accessibility improvement plans for 2022.  '
-labels: Magento,Adobe Commerce,accessibility,Marketplace
 title: Web Content Accessibility for Adobe Commerce
+labels: Magento,Adobe Commerce,accessibility,Marketplace
+description: "We understand the importance of accessibility at Adobe. While the responsibility for accessibility is with the partner/merchant, we continue to improve our accessibility with each release which will also be included in our accessibility improvement plans for 2022.  "
 ---
 
 # Web Content Accessibility for Adobe Commerce
 
-We understand the importance of accessibility at Adobe. While the responsibility for accessibility is with the partner/merchant, we continue to improve our accessibility with each release which will also be included in our accessibility improvement plans for 2022.  
+We understand the importance of accessibility at Adobe. While the responsibility for accessibility is with the partner/merchant, we continue to improve our accessibility with each release which will also be included in our accessibility improvement plans for 2022.
 
 Adobe Commerce is highly customizable, and our customers can extend the Luma theme, create their Accessibility Modules, and visit our Commerce Marketplace to find extensions that meet their accessibility requirements.
 

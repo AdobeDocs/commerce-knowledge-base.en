@@ -1,7 +1,7 @@
 ---
-description: This article explains how to synchronize your Production environment down to Staging on Adobe Commerce on cloud infrastructure; this is not possible via the user interface.
-labels: Magento Commerce Cloud,data,how to,production,staging,sync,Adobe Commerce,cloud infrastructure,Pro
 title: Sync data and files Production to Staging or Staging to Integration
+labels: Magento Commerce Cloud,data,how to,production,staging,sync,Adobe Commerce,cloud infrastructure,Pro
+description: "This article explains how to synchronize your Production environment down to Staging on Adobe Commerce on cloud infrastructure; this is not possible via the user interface."
 ---
 
 # Sync data and files Production to Staging or Staging to Integration
@@ -17,6 +17,10 @@ This article explains how to synchronize your Production environment down to Sta
 To sync the data, you must manually dump the database from the source environment. To transfer data to another environment, you must then upload the source dump to the target environment and import it. For more information, see [Import Adobe Commerce Code into a Cloud project > Import Adobe Commerce database](https://devdocs.magento.com/cloud/setup/first-time-setup-import-import.html) in our developer documentation.
 
 For Adobe Commerce on cloud infrastructure Pro plan architecture, you can also sync from Staging and Production to your Integration master branch. This sync only pulls and pushes code, not data. To sync data, you will need to dump the database data and push it to another environment's database.
+
+>[!WARNING]
+>
+>Syncing of the database cannot be done in the Pro Staging and Production clusters.
 
 ## To sync files from one environment to another
 
