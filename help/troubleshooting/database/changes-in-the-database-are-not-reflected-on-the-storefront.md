@@ -70,3 +70,4 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 <ul><li title="MySQL tables are too large"><a href="https://support.magento.com/hc/en-us/articles/360038862691">MySQL tables are too large</a> in our support knowledge base.</li>
 <li title="MySQL tables are too large"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">Indexer overview > Mview</a> in our developer documentation.</li></ul>
+
