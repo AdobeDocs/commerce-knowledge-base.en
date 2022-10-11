@@ -1,1 +1,17 @@
-{"id": 360008878592, "url": "https://magento.zendesk.com/api/v2/help_center/en-us/sections/360008878592.json", "html_url": "https://support.magento.com/hc/en-us/sections/360008878592-General", "category_id": 360002582351, "position": 0, "sorting": "manual", "created_at": "2020-05-18T15:27:28Z", "updated_at": "2021-05-07T21:49:34Z", "name": "General", "description": "", "locale": "en-us", "source_locale": "en-us", "outdated": false, "parent_section_id": null, "theme_template": "section_page"}
+{
+    "id": 9807183925389,
+    "url": "https://magento1544124303.zendesk.com/api/v2/help_center/en-us/sections/9807183925389.json",
+    "html_url": "https://magento1544124303.zendesk.com/hc/en-us/sections/9807183925389-General",
+    "category_id": 360006549071,
+    "position": 0,
+    "sorting": "manual",
+    "created_at": "2022-10-11T17:10:39Z",
+    "updated_at": "2022-10-11T17:10:39Z",
+    "name": "General",
+    "description": "Various best practices recommendations based on the experience of the Adobe Commerce Support team.",
+    "locale": "en-us",
+    "source_locale": "en-us",
+    "outdated": false,
+    "parent_section_id": null,
+    "theme_template": "section_page"
+}

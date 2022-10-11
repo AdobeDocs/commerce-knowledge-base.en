@@ -1,1 +1,17 @@
-{"section":{"id":6349373578125,"url":"https://magento.zendesk.com/api/v2/help_center/en-us/sections/6349373578125.json","html_url":"https://support.magento.com/hc/en-us/sections/6349373578125-Deployment","category_id":115000200533,"position":0,"sorting":"manual","created_at":"2022-05-19T19:01:09Z","updated_at":"2022-05-19T19:01:09Z","name":"Deployment","description":"Solutions for the deployment-related issues.","locale":"en-us","source_locale":"en-us","outdated":false,"parent_section_id":null,"theme_template":"section_page"}}
+{
+    "id": 4412686067469,
+    "url": "https://magento1544124303.zendesk.com/api/v2/help_center/en-us/sections/4412686067469.json",
+    "html_url": "https://magento1544124303.zendesk.com/hc/en-us/sections/4412686067469-Deployment",
+    "category_id": 360006544592,
+    "position": 2,
+    "sorting": "manual",
+    "created_at": "2021-11-03T22:55:50Z",
+    "updated_at": "2021-11-03T23:32:53Z",
+    "name": "Deployment",
+    "description": "Troubleshoot deployment issues.",
+    "locale": "en-us",
+    "source_locale": "en-us",
+    "outdated": false,
+    "parent_section_id": null,
+    "theme_template": "section_page"
+}

@@ -1,1 +1,17 @@
-{"section":{"id":5691369098893,"url":"https://magento.zendesk.com/api/v2/help_center/en-us/sections/5691369098893.json","html_url":"https://support.magento.com/hc/en-us/sections/5691369098893-Database","category_id":360002582351,"position":0,"sorting":"manual","created_at":"2022-04-21T18:59:45Z","updated_at":"2022-04-21T18:59:45Z","name":"Database","description":"Best practice recommendations for database configuration and operations.","locale":"en-us","source_locale":"en-us","outdated":false,"parent_section_id":null,"theme_template":"section_page"}}
+{
+    "id": 9807111099021,
+    "url": "https://magento1544124303.zendesk.com/api/v2/help_center/en-us/sections/9807111099021.json",
+    "html_url": "https://magento1544124303.zendesk.com/hc/en-us/sections/9807111099021-Database",
+    "category_id": 360006549071,
+    "position": 0,
+    "sorting": "manual",
+    "created_at": "2022-10-11T17:09:22Z",
+    "updated_at": "2022-10-11T17:09:22Z",
+    "name": "Database",
+    "description": "Best practice recommendations for database configuration and operations.",
+    "locale": "en-us",
+    "source_locale": "en-us",
+    "outdated": false,
+    "parent_section_id": null,
+    "theme_template": "section_page"
+}

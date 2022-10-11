@@ -1,1 +1,17 @@
-{"section":{"id":6350963252877,"url":"https://magento.zendesk.com/api/v2/help_center/en-us/sections/6350963252877.json","html_url":"https://support.magento.com/hc/en-us/sections/6350963252877-ElasticSearch","category_id":115000200533,"position":0,"sorting":"manual","created_at":"2022-05-19T20:01:42Z","updated_at":"2022-05-19T20:01:42Z","name":"ElasticSearch","description":"Troubleshooting tips for ElasticSearch issues.","locale":"en-us","source_locale":"en-us","outdated":false,"parent_section_id":null,"theme_template":"section_page"}}
+{
+    "id": 4412693798541,
+    "url": "https://magento1544124303.zendesk.com/api/v2/help_center/en-us/sections/4412693798541.json",
+    "html_url": "https://magento1544124303.zendesk.com/hc/en-us/sections/4412693798541-Elsaticsearch",
+    "category_id": 360006544592,
+    "position": 3,
+    "sorting": "manual",
+    "created_at": "2021-11-03T22:56:22Z",
+    "updated_at": "2021-11-03T23:32:53Z",
+    "name": "Elsaticsearch",
+    "description": "Troubleshoot Elasticsearch issues.",
+    "locale": "en-us",
+    "source_locale": "en-us",
+    "outdated": false,
+    "parent_section_id": null,
+    "theme_template": "section_page"
+}
