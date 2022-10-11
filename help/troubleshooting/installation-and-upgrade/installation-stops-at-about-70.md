@@ -67,3 +67,4 @@ Restart Varnish.
 ```php
 service varnish restart
 ```
+ 

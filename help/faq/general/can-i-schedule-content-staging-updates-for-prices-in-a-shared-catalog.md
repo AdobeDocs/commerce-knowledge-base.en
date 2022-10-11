@@ -39,4 +39,4 @@ Remember: shared catalogs leverage the customer group pricing.
 
 ## Schedule price update for the base price
 
-See the related article: [How base price change affects the shared catalog price?](https://support.magento.com/hc/en-us/articles/360001571314) in our support knowledge base.
+See the related article: [How base price change affects the shared catalog price?](https://support.magento.com/hc/en-us/articles/360001571314) in our support knowledge base. 

@@ -167,4 +167,4 @@ We have a false positive triage process (available 24x7) to quickly address and 
 
 ## What if traffic to the admin section of Adobe Commerce on cloud infrastructure's site triggers WAF rules? Will Adobe Commerce Support resolve issues with blocked admin traffic?
 
-Yes, blocked admin traffic is treated as a Priority 1 issue.
+Yes, blocked admin traffic is treated as a Priority 1 issue. 

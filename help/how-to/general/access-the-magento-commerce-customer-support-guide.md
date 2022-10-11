@@ -11,4 +11,4 @@ The Adobe Commerce Customer Support Guide explains customer support offerings an
 1. Go to the Magento [account login page.](https://account.magento.com/customer/account/login)
 1. Log in with your Magento username and password.
 1. In the left navigation bar, click **Downloads**.
-1. In the right pane, click **Merchants - Resources for Getting Started**.  ![access_magento_commerce_customer_support_guide.png](assets/access_magento_commerce_customer_support_guide.png)
+1. In the right pane, click **Merchants - Resources for Getting Started**.  ![access_magento_commerce_customer_support_guide.png](assets/access_magento_commerce_customer_support_guide.png) 

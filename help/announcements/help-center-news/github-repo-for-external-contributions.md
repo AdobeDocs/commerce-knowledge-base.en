@@ -55,4 +55,4 @@ You might also use search inside the repo using a piece of text from the Support
 
 The [magento/knowledge-base](https://github.com/magento/knowledge-base) repo in integrated with Magento Community Engineering for contribution points and support.
 
-Please refer to [Contribution Points](https://github.com/magento/knowledge-base/blob/main/docs/contribution-points.md) document to see how points are rewarded.
+Please refer to [Contribution Points](https://github.com/magento/knowledge-base/blob/main/docs/contribution-points.md) document to see how points are rewarded. 

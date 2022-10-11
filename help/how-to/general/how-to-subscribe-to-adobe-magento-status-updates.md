@@ -37,4 +37,4 @@ description: "This article explains how you can subscribe to Adobe Commerce stat
 
   ![subscription_to_adobe_magento_notifications_confirmed.png](assets/adobe_status_notification_done.png)
 
-After you click **Done** you should see a summary of your product subscriptions and event subscriptions and you will receive an email titled "Subscription to Status email notifications" from Adobe. If you want to unsubscribe and/or change your notification settings repeat steps one &ndash;  nine.
+After you click **Done** you should see a summary of your product subscriptions and event subscriptions and you will receive an email titled "Subscription to Status email notifications" from Adobe. If you want to unsubscribe and/or change your notification settings repeat steps one &ndash;  nine. 

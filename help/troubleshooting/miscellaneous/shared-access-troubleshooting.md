@@ -24,4 +24,4 @@ description: "**Problem:** You want to provide shared access to your trusted col
 
 ## Related reading
 
-[Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360000913794#merchant-not-displayed) in our support knowledge base.
+[Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360000913794#merchant-not-displayed) in our support knowledge base. 

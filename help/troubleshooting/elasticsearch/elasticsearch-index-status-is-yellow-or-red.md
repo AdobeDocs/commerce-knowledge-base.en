@@ -54,4 +54,4 @@ If these steps don't work, [submit a support ticket](https://support.magento.com
 
 ## Related reading
 
-To learn more, refer to [Elasticsearch Cluster health API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).
+To learn more, refer to [Elasticsearch Cluster health API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html). 

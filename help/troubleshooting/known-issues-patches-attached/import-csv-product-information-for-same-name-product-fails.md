@@ -52,4 +52,4 @@ See [How to apply a composer patch provided by Adobe Commerce](https://support.m
 
  [Apply custom patches to Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html)
 
-## Attached Files
+## Attached Files 

@@ -17,3 +17,4 @@ To check how much space you have for each Adobe Commerce on cloud infrastructure
 ## Related reading
 
 [Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in our developer documentation.
+ 

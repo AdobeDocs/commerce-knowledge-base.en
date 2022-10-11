@@ -47,4 +47,4 @@ No, this change will **NOT** impact deployment and downtime.
 
 ## If the project has multiple stagings, will origin cloaking be applied to all stagings?
 
-Yes, if the project has multiple stagings, the change will be applied to all stagings.
+Yes, if the project has multiple stagings, the change will be applied to all stagings. 

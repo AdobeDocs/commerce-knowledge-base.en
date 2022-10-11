@@ -45,4 +45,4 @@ To solve this issue, the Elasticsearch client module and Elasticsearch service n
 * [Adobe Commerce 2.3 technology stack requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements-tech.html) in our developer documentation.
 * [Set up Elasticsearch service](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html) in our developer documentation.
 * [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in our developer documentation.
-* [Ensure Elasticsearch is installed properly](https://support.magento.com/hc/en-us/articles/360034939312) in our support knowledge base.
+* [Ensure Elasticsearch is installed properly](https://support.magento.com/hc/en-us/articles/360034939312) in our support knowledge base. 

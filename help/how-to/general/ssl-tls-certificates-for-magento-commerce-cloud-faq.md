@@ -61,4 +61,4 @@ If your domain is no longer pointing to Adobe Commerce, please remove it from th
 
 ## Related reading
 
- [Provision SSL/TLS certificates](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) in our developer documentation
+ [Provision SSL/TLS certificates](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) in our developer documentation 

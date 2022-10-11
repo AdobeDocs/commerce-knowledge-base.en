@@ -42,4 +42,4 @@ Clear the `<magento_root>/generated/code` and other directories under `var` and 
 rm -rf <magento_root>/generated/code/* <magento_root>/generated/metadata/* <magento_root>/var/cache/*
 ```
 
-After clearing the directories, try the installation again.
+After clearing the directories, try the installation again. 

@@ -75,4 +75,4 @@ Please change your extra section to match that provided below and re-attempt dep
 
 ## Related reading
 
-* [Upgrades and patches](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=update%20ece%20tools) in our developer documentation.
+* [Upgrades and patches](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=update%20ece%20tools) in our developer documentation. 

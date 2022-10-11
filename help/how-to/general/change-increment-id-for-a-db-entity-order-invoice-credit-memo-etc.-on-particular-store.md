@@ -81,4 +81,4 @@ Before executing the `ALTER TABLE` query on the Production environment of Adobe 
 ## Related documentation
 
 * [Create database dump on Cloud](https://support.magento.com/hc/en-us/articles/360003254334) in our support knowledge base.
-* [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) in our developer documentation.
+* [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) in our developer documentation. 

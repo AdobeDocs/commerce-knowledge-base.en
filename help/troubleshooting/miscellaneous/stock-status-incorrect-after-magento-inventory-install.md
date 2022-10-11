@@ -26,4 +26,4 @@ When you first install/upgrade, all of your products are assigned to the default
 
 If you have more than one website, you need to add these websites as Sales Channels to the Default Stock or other custom stocks.
 
-See the [Stock section of the wiki/user guide](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) in our user guide for details on how to do this.
+See the [Stock section of the wiki/user guide](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) in our user guide for details on how to do this. 

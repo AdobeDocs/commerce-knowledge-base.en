@@ -29,3 +29,4 @@ All Adobe Commerce on cloud infrastructure customers get a shared SSL certificat
 
 * [Headless Websites: What's the Big Deal with Decoupled Architecture?](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture) by [Josh Koenig](https://pantheon.io/team/josh-koenig).
 * [Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) in our developer documentation.
+ 

@@ -107,3 +107,4 @@ Take these steps to locate the duplicated entries and delete them:
 * [View and manage logs for Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/cloud/project/log-locations.html)
 
 ## Attached Files
+ 

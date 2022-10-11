@@ -38,4 +38,4 @@ To avoid an issue with triggers negatively impacting performance follow these be
 ## Related reading
 
 * To learn more about MySQL triggers, refer to [Installation Guide > MySQL](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html#instgde-prereq-mysql-intro) in our developer documentation.
-* To learn about database best practices, refer to [Database best practices for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041997312-Database-best-practices-for-Magento-Commerce-Cloud) in our support knowledge base.
+* To learn about database best practices, refer to [Database best practices for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041997312-Database-best-practices-for-Magento-Commerce-Cloud) in our support knowledge base. 

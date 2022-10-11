@@ -36,4 +36,4 @@ The following note appears under the **Notes for this order** section: "Vertex I
 
 ## Solution
 
-This issue is fixed in version 2.4.3.
+This issue is fixed in version 2.4.3. 

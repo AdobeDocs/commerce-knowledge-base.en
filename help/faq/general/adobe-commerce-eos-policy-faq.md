@@ -104,4 +104,4 @@ No, there are no reminder alerts notifying support ticket users of upcoming end 
 
 ### If a support ticket for a software version is opened AFTER the end of support date for that version, will it still be worked on to resolution?
 
-No, Adobe Commerce will not work to resolve support tickets that were opened after the end of support date for that software version.
+No, Adobe Commerce will not work to resolve support tickets that were opened after the end of support date for that software version. 

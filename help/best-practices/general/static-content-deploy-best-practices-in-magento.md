@@ -45,4 +45,4 @@ In our developer documentation:
 
 In our support knowledge base:
 
-* [Error running \`setup:static-content:deploy\` manually (deployed\_version.txt is not writable)](https://support.magento.com/hc/en-us/articles/360000338413)
+* [Error running \`setup:static-content:deploy\` manually (deployed\_version.txt is not writable)](https://support.magento.com/hc/en-us/articles/360000338413) 

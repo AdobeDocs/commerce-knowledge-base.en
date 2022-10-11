@@ -33,4 +33,4 @@ The payment method discount remains applied to the order total.  No error messag
 
 ## Solution
 
-There is no resolution available at this time.
+There is no resolution available at this time. 

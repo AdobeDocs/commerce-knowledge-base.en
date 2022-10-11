@@ -42,4 +42,4 @@ In our developer documentation:
 * [Exceptions during installation](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_exceptions.html)
 * [Run the Module Manager](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-checklist.html)
 * [Module configuration files](https://devdocs.magento.com/guides/v2.3/config-guide/config/config-files.html)
-* [Out of memory errors](https://devdocs.magento.com/guides/v2.3/comp-mgr/trouble/cman/out-of-memory.html)
+* [Out of memory errors](https://devdocs.magento.com/guides/v2.3/comp-mgr/trouble/cman/out-of-memory.html) 

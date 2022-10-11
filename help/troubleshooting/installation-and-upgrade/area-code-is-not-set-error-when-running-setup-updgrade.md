@@ -48,4 +48,4 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 For instructions, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
 
-## Attached Files
+## Attached Files 

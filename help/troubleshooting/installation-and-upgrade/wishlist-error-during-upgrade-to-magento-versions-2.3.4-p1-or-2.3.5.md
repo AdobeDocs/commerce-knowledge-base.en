@@ -54,4 +54,4 @@ In our developer documentation:
 * [Adobe Commerce on cloud infrastructure - Upgrade Adobe Commerce version](https://devdocs.magento.com/cloud/project/project-upgrade.html)
 * [Adobe Commerce on-premises And Magento Open Source - Upgrade the Adobe Commerce application and modules](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
 * [Wishlist item configure page](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
-* [Modules providing advanced reporting](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)
+* [Modules providing advanced reporting](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html) 

@@ -104,4 +104,4 @@ If it is the custom extension that is preventing the environment to build succes
 
 ### Make sure changes are applied
 
-Commit and push your changes. This will trigger the deployment automatically.
+Commit and push your changes. This will trigger the deployment automatically. 

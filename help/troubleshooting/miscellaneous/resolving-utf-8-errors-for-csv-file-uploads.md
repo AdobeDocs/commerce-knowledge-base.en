@@ -16,4 +16,4 @@ We recommend using [Sublime Text](http://www.sublimetext.com/2) to save and enco
 1. Click ​​ **File** > **Save as** ​​ and choose the ​​ **Comma separated values (.csv)** format to save the file.
 1. Open the CSV file in Sublime Text.
 1. In Sublime Text, navigate to ​​ **File** > **Save with Encoding** > **UTF-8\*​** . This will save the CSV file with UTF-8 encoding.    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
-1. [Upload the data](https://docs.magento.com/mbi/data-analyst/importing-data/connecting-data/using-file-uploader.html) (in our user guide) to a new table in Magento BI.
+1. [Upload the data](https://docs.magento.com/mbi/data-analyst/importing-data/connecting-data/using-file-uploader.html) (in our user guide) to a new table in Magento BI. 

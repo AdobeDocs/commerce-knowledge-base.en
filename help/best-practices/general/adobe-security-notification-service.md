@@ -12,4 +12,4 @@ The **Adobe Security Notification Service is a free e-mail notification service*
 
 Anyone can subscribe to the service, and you can unsubscribe at any time.
 
-[Subscribe HERE](https://www.adobe.com/subscription/adbeSecurityNotifications.html) to the Adobe Security Notification Service.
+[Subscribe HERE](https://www.adobe.com/subscription/adbeSecurityNotifications.html) to the Adobe Security Notification Service. 

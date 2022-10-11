@@ -599,4 +599,4 @@ Merchants typically pay for our services by a credit card (CC) transaction, and 
 ## MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES {#magento-u}
 
 Magento U has merged with [Adobe Digital Learning Services (ADLS)](https://learning.adobe.com/).<br>
-Magento U Zendesk will be phased out.<br>
+Magento U Zendesk will be phased out.<br> 

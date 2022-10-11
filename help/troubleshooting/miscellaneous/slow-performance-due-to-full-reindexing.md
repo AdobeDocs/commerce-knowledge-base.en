@@ -51,4 +51,4 @@ Run reindexing only when necessary. For steps, review [Configure Indexers](https
 ## Related Reading
 
 * [Indexing Overview: How to reindex](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) in our developer documentation.
-* [Invalidated cache causes response time degradation](https://support.magento.com/hc/en-us/articles/360039658851) in our support knowledge base.
+* [Invalidated cache causes response time degradation](https://support.magento.com/hc/en-us/articles/360039658851) in our support knowledge base. 

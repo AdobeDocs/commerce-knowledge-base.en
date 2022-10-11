@@ -131,4 +131,4 @@ Note: <code>UPDATE</code> or <code>INSERT</code>queries are the most CPU-consumi
 </td>
 </tr>
 </tbody>
-</table>
+</table> 

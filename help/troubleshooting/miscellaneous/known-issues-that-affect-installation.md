@@ -25,4 +25,4 @@ To resolve this issue, you can:
 After you change the configuration of or disable `xdebug`, restart Apache:
 
 * CentOS: `sudo service httpd restart`
-* Ubuntu: `sudo service apache2 restart`
+* Ubuntu: `sudo service apache2 restart` 

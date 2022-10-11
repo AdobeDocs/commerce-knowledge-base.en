@@ -6,3 +6,4 @@ description: Find frequently asked questions about Adobe Commerce policies, stra
 # FAQ overview
 
 Find frequently asked questions about Adobe Commerce policies, strategies, as well as specifics about Adobe Commerce features.
+ 

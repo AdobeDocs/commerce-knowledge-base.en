@@ -60,3 +60,4 @@ Typical locations follow:
       ```php
       session.save_handler = files
       ```
+ 

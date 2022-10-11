@@ -123,4 +123,4 @@ To avoid getting issues with `/tmp` being full, follow these recommendations:
 
 ## Related reading
 
-[MySQL disk space is low on Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360037591972) in our support knowledge base.
+[MySQL disk space is low on Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360037591972) in our support knowledge base. 

@@ -24,4 +24,4 @@ To change this configuration, in the Commerce Admin Panel go to **Stores** > **C
 
 ## Related reading
 
- [Catalog page in our user guide](https://docs.magento.com/user-guide/configuration/catalog/catalog.html)
+ [Catalog page in our user guide](https://docs.magento.com/user-guide/configuration/catalog/catalog.html) 

@@ -41,4 +41,4 @@ Refer to:
 * [Create products > Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html) in our user guide.
 * [Product Attributes > Best Practices](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html) in our user guide.
 * [Best practice for attribute SET in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045041092) in our support knowledge base.
-* [Best practice Adobe Commerce product attributes](https://support.magento.com/hc/en-us/articles/360048256612) in our support knowledge base.
+* [Best practice Adobe Commerce product attributes](https://support.magento.com/hc/en-us/articles/360048256612) in our support knowledge base. 

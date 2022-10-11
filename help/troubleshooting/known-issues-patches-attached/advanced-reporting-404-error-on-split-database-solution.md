@@ -28,4 +28,4 @@ The patch is attached to this article. To download it, click the following link:
 
 ## How to apply the patch
 
-Unzip the file and follow the instructions in [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731).
+Unzip the file and follow the instructions in [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731). 

@@ -6,3 +6,4 @@ description: Best practices recommendations based on the experience of the Adobe
 # Best practices overview
 
 Best practices recommendations based on the experience of the Adobe Commerce Support team.
+ 

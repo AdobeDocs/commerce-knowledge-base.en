@@ -22,4 +22,4 @@ Wed, Jan 26, 2022, 10:00 AM - 11:30 AM CST
 
 Even if you’re unable to join, we recommend you register to receive the recording after the event.
 
-Checking U export.
+Checking U export. 

@@ -66,4 +66,4 @@ The validation message/suggestion *"We did not find a valid address Postcode : X
 
 ## Related reading in our support knowledge base:
 
-[Adobe Commerce 2.3.6, 2.4.0-p1 and 2.4.1 known issue: cannot log in to dotdigital when account enabled](https://support.magento.com/hc/en-us/articles/360050092291)
+[Adobe Commerce 2.3.6, 2.4.0-p1 and 2.4.1 known issue: cannot log in to dotdigital when account enabled](https://support.magento.com/hc/en-us/articles/360050092291) 

@@ -29,4 +29,4 @@ It is best practice to:
 
 ## Related reading
 
-[Commerce User Guide > Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rules-cart.html?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=access%20price%20rule) in our user guide.
+[Commerce User Guide > Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rules-cart.html?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=access%20price%20rule) in our user guide. 

@@ -52,4 +52,4 @@ This will set the parent branch to "Staging" for the currently checked out branc
 
 ## Related reading
 
-* [Adobe Commerce on cloud infrastructure > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) in our developer documentation.
+* [Adobe Commerce on cloud infrastructure > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) in our developer documentation. 

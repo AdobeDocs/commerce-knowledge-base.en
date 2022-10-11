@@ -53,4 +53,4 @@ Unzip the downloaded `.zip` file and apply the patch as described in [How to app
 
 ## Related reading
 
-[API security > Rate limiting](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting) in our developer documentation.
+[API security > Rate limiting](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting) in our developer documentation. 

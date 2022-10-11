@@ -29,4 +29,4 @@ Follow the **Best Practices** described below to avoid performance issues caused
 ## Related reading
 
 * [Technologies and requirements - Development and testing](https://devdocs.magento.com/cloud/requirements/cloud-requirements.html#cloud-req-devtest) in our developer documentation for Adobe Commerce on cloud infrastructure.
-* [Why test fully in Integration and Staging?](https://devdocs.magento.com/cloud/live/live.html#whytest)  in our developer documentation for Adobe Commerce on cloud infrastructure.
+* [Why test fully in Integration and Staging?](https://devdocs.magento.com/cloud/live/live.html#whytest)  in our developer documentation for Adobe Commerce on cloud infrastructure. 

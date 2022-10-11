@@ -33,4 +33,4 @@ If you still want to run static content deployment, remove symlinks in the `pub/
 
 ```clike
 find pub/static/ -maxdepth 1 -type l -delete
-```
+``` 

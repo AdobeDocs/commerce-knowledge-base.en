@@ -35,4 +35,4 @@ This way there will be no theme set on the store view level, and when you reload
 
 ## Additional Information
 
-* [Clear directories during development](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) in our developer documentation
+* [Clear directories during development](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) in our developer documentation 

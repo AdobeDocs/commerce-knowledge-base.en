@@ -77,4 +77,4 @@ Use this checklist during your annual and quarterly conversations with your eCom
 
 ▢    Perform a retrospective with all stakeholders and document what went well and what didn’t and how to improve.
 
-▢    Modify your plan for the next upgrade with lessons learned.
+▢    Modify your plan for the next upgrade with lessons learned. 

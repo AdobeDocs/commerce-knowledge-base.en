@@ -57,4 +57,4 @@ location /media/ {
 
 ## Workaround
 
-Disable Nginx to resize images.
+Disable Nginx to resize images. 

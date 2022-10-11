@@ -25,4 +25,4 @@ These web performance tools use a variety of metrics to provide powerful insight
 ## Related reading
 
 * web.dev [Google Lighthouse performance scoring](https://web.dev/performance-scoring/)
-* Google Developers [About Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+* Google Developers [About Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) 

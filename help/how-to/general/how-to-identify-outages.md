@@ -12,4 +12,4 @@ There are multiple ways for a merchant (or anyone interested in the site’s hea
 * the general steps to pinpoint an issue that may be an outage
 * how to identify whether the issue is truly an outage, a small-scale outage, or a temporary impediment
 
-To download the article, click [Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)
+To download the article, click [Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf) 

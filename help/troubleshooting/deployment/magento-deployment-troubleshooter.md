@@ -191,3 +191,4 @@ a. YES – Can't be done through configuration. [Submit a support ticket](https:
 b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
 
 [Back to Step 1](#step-1)
+ 

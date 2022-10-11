@@ -16,4 +16,4 @@ WHERE TABLE_SCHEMA = "<project_id>"
 ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
 ```
 
-This would display the complete list of tables and their size. You can go through the list and identify which tables require attention because of the big size.
+This would display the complete list of tables and their size. You can go through the list and identify which tables require attention because of the big size. 

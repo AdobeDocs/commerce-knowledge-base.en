@@ -52,4 +52,4 @@ Fixing the issue:
 
     ```bash
     php <your_magento_install_dir>/bin/magento cache:clean config
-    ```
+    ``` 

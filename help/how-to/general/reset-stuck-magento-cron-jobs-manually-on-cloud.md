@@ -23,4 +23,4 @@ Use this command with caution! We recommend reading the [Reset cron jobs](https:
 
 ## Read it in our support knowledge base:
 
- [Reset cron jobs](https://devdocs.magento.com/guides/v2.2/cloud/trouble/reset-cron-jobs.html)
+ [Reset cron jobs](https://devdocs.magento.com/guides/v2.2/cloud/trouble/reset-cron-jobs.html) 

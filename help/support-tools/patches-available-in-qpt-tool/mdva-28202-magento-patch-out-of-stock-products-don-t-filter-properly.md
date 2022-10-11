@@ -61,4 +61,4 @@ To learn more about Quality Patches Tool, refer to:
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.
 
-To learn more about configurable products, refer to this article in our developer documentation: [Create a configurable product tutorial](https://devdocs.magento.com/guides/v2.4/rest/tutorials/configurable-product/config-product-intro.html) in our developer documentation.
+To learn more about configurable products, refer to this article in our developer documentation: [Create a configurable product tutorial](https://devdocs.magento.com/guides/v2.4/rest/tutorials/configurable-product/config-product-intro.html) in our developer documentation. 

@@ -24,4 +24,4 @@ Following approaches will help you in keeping the number of coupons within recom
 
 ## Related reading
 
-[Coupon codes](https://docs.magento.com/user-guide/v2.3/marketing/price-rules-cart-coupon.html?itm_source=merchdocs-23&itm_medium=search_page&itm_campaign=federated_search&itm_term=coupon%20code) in our user guide.
+[Coupon codes](https://docs.magento.com/user-guide/v2.3/marketing/price-rules-cart-coupon.html?itm_source=merchdocs-23&itm_medium=search_page&itm_campaign=federated_search&itm_term=coupon%20code) in our user guide. 

@@ -46,4 +46,4 @@ To resolve the issue, apply the following patch:
 
 ## How to Apply the Patch
 
-See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions. 

@@ -68,4 +68,4 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions on how to apply a composer patch.
 
-## Attached files
+## Attached files 

@@ -28,4 +28,4 @@ If you're not sure how to change this value, use the following steps:
 1. As a user with root privileges, open `php.ini` in a text editor.
 1. Locate the value of `open_basedir` and change it.
 1. Save your changes to `php.ini`.
-1. Restart the webserver.
+1. Restart the webserver. 

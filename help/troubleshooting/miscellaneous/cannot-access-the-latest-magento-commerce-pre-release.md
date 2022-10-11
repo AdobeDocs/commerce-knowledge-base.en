@@ -68,4 +68,4 @@ To find out if your MageID is primary, try the following:
 
 ### Not a part of pre-release program
 
-To be included in the Pre-release Access program, your organization must have an active Adobe Commerce or Partner account that is in good standing. If you believe you meet this criteria and cannot access the pre-release code, please [contact Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) with your MageID.
+To be included in the Pre-release Access program, your organization must have an active Adobe Commerce or Partner account that is in good standing. If you believe you meet this criteria and cannot access the pre-release code, please [contact Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) with your MageID. 

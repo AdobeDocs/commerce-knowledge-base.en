@@ -49,4 +49,4 @@ You can contact the UCT team on our [#upgrade-compatibility-tool](https://magent
 ## Related Reading
 
 * Adobe Commerce Blog: [Introducing the Upgrade Compatibility Tool (Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) in our developer documentation.
+* Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) in our developer documentation. 

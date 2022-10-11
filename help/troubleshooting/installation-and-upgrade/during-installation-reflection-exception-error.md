@@ -36,4 +36,4 @@ If you use Redis and still get an error, clear the Redis cache as follows:
 
 ```bash
 $ redis-cli FLUSHALL
-```
+``` 

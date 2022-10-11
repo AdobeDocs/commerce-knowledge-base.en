@@ -49,3 +49,4 @@ Other possible reasons for performance issues and solutions for them:
 * [MySQL tables are too large](https://support.magento.com/hc/en-us/articles/360038862691)
 * [Slow performance, slow and long running crons](https://support.magento.com/hc/en-us/articles/360034631192)
 * [Restricted admin access causing performance issues](https://support.magento.com/hc/en-us/articles/360036323211)
+ 

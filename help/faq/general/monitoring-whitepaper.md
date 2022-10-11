@@ -13,4 +13,4 @@ deliver optimized performance on cloud.
 This document provides information about the systems and subsystems being monitored, thresholds set on
 mission-critical parameters, and notifications.
 
-Click [Adobe Commerce Pro: Cloud Monitoring Fact Sheet](assets/adobe_commerce_pro_monitoring_fact_sheet.pdf) to download the PDF version of the Monitoring Fact Sheet.
+Click [Adobe Commerce Pro: Cloud Monitoring Fact Sheet](assets/adobe_commerce_pro_monitoring_fact_sheet.pdf) to download the PDF version of the Monitoring Fact Sheet. 

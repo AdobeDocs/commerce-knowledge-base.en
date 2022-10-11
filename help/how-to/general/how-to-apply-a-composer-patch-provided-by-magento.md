@@ -44,3 +44,4 @@ For additional information about applying patches to Cloud projects, see [Apply 
    (If the above command does not work, try using `-p2` instead of `-p1` )
 
 1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management**.
+ 

@@ -170,4 +170,4 @@ b. NO – Open a [Support Ticket](https://support.magento.com/hc/en-us/articles/
 
 [Back to Step 1](#step-1)
 
-Click [HERE](https://support.magento.com/hc/en-us/articles/360031107111) to see the Site Down Troubleshooting Flowchart.
+Click [HERE](https://support.magento.com/hc/en-us/articles/360031107111) to see the Site Down Troubleshooting Flowchart. 

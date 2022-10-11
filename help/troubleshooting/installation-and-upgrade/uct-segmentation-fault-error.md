@@ -75,4 +75,4 @@ This command option also allows the Upgrade Compatibility Tool to analyze a fold
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-See the [Run the tool in a command-line interface](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) page for more information on command-line interface options.
+See the [Run the tool in a command-line interface](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) page for more information on command-line interface options. 

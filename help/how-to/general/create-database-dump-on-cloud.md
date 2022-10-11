@@ -55,4 +55,4 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
  **Related documentation:**
 
 * [mysqldump &ndash; A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) in official MySQL documentation.
-* [Cloud variables](http://devdocs.magento.com/guides/v2.2/cloud/env/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS`) in our developer documentation.
+* [Cloud variables](http://devdocs.magento.com/guides/v2.2/cloud/env/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS`) in our developer documentation. 

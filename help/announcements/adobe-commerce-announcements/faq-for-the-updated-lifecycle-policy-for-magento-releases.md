@@ -79,4 +79,4 @@ By applying many individual quality fixes you make your Adobe Commerce code more
 
 During the lifetime of a release line there will be updates to various technology stacks like PHP or Elasticsearch that will need to be upgraded to stay compliant. We will give as much notice as possible to our merchants that these are coming.
 
-Note: In Q2 of 2021, we will need to update PHP and Redis on the 2.3.x line to stay compliant. This will cause the line to increment to 2.3.7. For details, refer to [PHP 7.4 support for Adobe Commerce 2.3.x release line](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.
+Note: In Q2 of 2021, we will need to update PHP and Redis on the 2.3.x line to stay compliant. This will cause the line to increment to 2.3.7. For details, refer to [PHP 7.4 support for Adobe Commerce 2.3.x release line](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post. 

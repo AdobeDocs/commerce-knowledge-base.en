@@ -98,4 +98,4 @@ Check the following:
 * The campaign has Active status. If the campaign is Paused or Ended, ads are not running.
 * You have updated your products and campaigns, but the time required for Google to receive and review the information has not been completed. Adobe checks periodically for the account and product updates from Google. If you have submitted product data for the first time or significantly updated existing data in your GMC account, Google may take up to two business days to review the new data. As a result, products in your campaigns may take time to also update.
 
-To better understand Google Ads issues, see Google's [Fix issues with a Shopping campaign](https://support.google.com/google-ads/answer/6275319).
+To better understand Google Ads issues, see Google's [Fix issues with a Shopping campaign](https://support.google.com/google-ads/answer/6275319). 

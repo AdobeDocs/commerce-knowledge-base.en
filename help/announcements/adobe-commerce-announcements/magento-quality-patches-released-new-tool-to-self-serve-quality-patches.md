@@ -24,3 +24,4 @@ Please refer to our developer documentation for details:
 
 * [Patches available in Quality Patches Tool](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
 * [Quality Patches Tool release notes](https://devdocs.magento.com/quality-patches/release-notes.html)
+ 

@@ -58,4 +58,4 @@ To learn more about sitemaps, refer to these articles in our developer documenta
 
 * [Add sitemap and search engine robots](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html)
 * [Configure and run cron](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html)
-* [Secure cron.php to run in a browser](https://devdocs.magento.com/guides/v2.4/config-guide/secy/secy-cron.html)
+* [Secure cron.php to run in a browser](https://devdocs.magento.com/guides/v2.4/config-guide/secy/secy-cron.html) 

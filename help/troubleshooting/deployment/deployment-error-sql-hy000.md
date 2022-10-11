@@ -28,4 +28,4 @@ Cron running during deployment.
 ## Solution
 
 To resolve the issue, stop cron from running by opening the command line and running the following command:
-`./vendor/bin/ece-tools cron:disable`.
+`./vendor/bin/ece-tools cron:disable`. 

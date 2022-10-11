@@ -40,4 +40,4 @@ If this method does not work, please [submit a support ticket](https://support.m
 ## Related reading
 
 * [Github Blog: Behind GitHub’s new authentication token formats](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
-* [InfoQ.com news article: GitHub Changes Token Format to Improve Identifiability, Secret Scanning, and Entropy](https://www.infoq.com/news/2021/04/github-new-token-format/)
+* [InfoQ.com news article: GitHub Changes Token Format to Improve Identifiability, Secret Scanning, and Entropy](https://www.infoq.com/news/2021/04/github-new-token-format/) 

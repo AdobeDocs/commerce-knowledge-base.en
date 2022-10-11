@@ -59,4 +59,4 @@ The first step of incident analysis is to gather as many facts as you can, as qu
     * Use [New Relic queries](https://docs.newrelic.com/docs/logs/new-relic-logs/ui-data/query-syntax-logs) to search aggregated log data.
     * Visualize log data through the New Relic Logs application.
 
-    Refer to Sansec [Root Cause Analysis Framework](https://sansec.io/kb/incident-response/magento-root-cause-analysis).
+    Refer to Sansec [Root Cause Analysis Framework](https://sansec.io/kb/incident-response/magento-root-cause-analysis). 

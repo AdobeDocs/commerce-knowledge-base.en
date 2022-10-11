@@ -41,4 +41,4 @@ Before beginning the upgrade process to Adobe Commerce 2.4.4, however, merchants
 >
 >It is recommended to plan to upgrade to Adobe Commerce 2.4.4 as soon as possible because ElasticSearch 7.10 will be EOL in May 2022.
 
- Adobe partners can sign up for our beta program [here](https://devdocs.magento.com/release/beta-program.html) to get access to our latest beta4 code that has been tested against Elasticsearch 7.16.1 and OpenSearch 1.1.
+ Adobe partners can sign up for our beta program [here](https://devdocs.magento.com/release/beta-program.html) to get access to our latest beta4 code that has been tested against Elasticsearch 7.16.1 and OpenSearch 1.1. 

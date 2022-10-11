@@ -43,4 +43,4 @@ Delete uploaded Adobe Stock images from the `pub/media` and `pub/media/catalog` 
 
 ## Related reading
 
-* [Media Storage](https://docs.magento.com/user-guide/v2.3/cms/media-storage.html) in our user guide.
+* [Media Storage](https://docs.magento.com/user-guide/v2.3/cms/media-storage.html) in our user guide. 

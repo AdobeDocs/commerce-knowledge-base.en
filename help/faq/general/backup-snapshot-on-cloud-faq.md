@@ -55,4 +55,4 @@ A snapshot is a complete backup of an environment that includes all persistent d
 
 [Snapshots and backup management](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html) in our developer documentation.
 
-If, for any reason, you need to backup your DB only (on any environment), see the knowledge base article: [Generate database dumps on Cloud](https://support.magento.com/hc/en-us/articles/360003254334).
+If, for any reason, you need to backup your DB only (on any environment), see the knowledge base article: [Generate database dumps on Cloud](https://support.magento.com/hc/en-us/articles/360003254334). 

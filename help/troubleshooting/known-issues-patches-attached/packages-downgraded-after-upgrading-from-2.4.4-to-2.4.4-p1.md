@@ -134,4 +134,4 @@ Use the attached bash script [ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix
 
 ## Workaround 2
 
-The 2nd workaround for this issue is not to run the `composer update` command without any arguments.
+The 2nd workaround for this issue is not to run the `composer update` command without any arguments. 

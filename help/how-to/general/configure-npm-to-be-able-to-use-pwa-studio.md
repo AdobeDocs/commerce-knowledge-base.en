@@ -38,4 +38,4 @@ The changes come into effect after you Git push the updated YAML file to the env
 
 ## Related documentation
 
-* [Application configuration: hooks](https://devdocs.magento.com/guides/v2.2/cloud/project/project-conf-files_magento-app.html#hooks) in our developer documentation.
+* [Application configuration: hooks](https://devdocs.magento.com/guides/v2.2/cloud/project/project-conf-files_magento-app.html#hooks) in our developer documentation. 

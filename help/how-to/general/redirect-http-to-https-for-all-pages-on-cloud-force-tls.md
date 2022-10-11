@@ -61,4 +61,4 @@ To enable HTTP to HTTPS redirect on **all** pages of your store, you do not have
 
 * [Force TLS guide for Adobe Commerce 2](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/FORCE-TLS.md)
 * [Forcing a TLS redirect](https://docs.fastly.com/guides/securing-communications/forcing-a-tls-redirect)
-* [Securing communications](https://docs.fastly.com/guides/securing-communications/)
+* [Securing communications](https://docs.fastly.com/guides/securing-communications/) 

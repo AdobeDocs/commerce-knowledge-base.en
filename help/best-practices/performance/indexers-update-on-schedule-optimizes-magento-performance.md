@@ -47,4 +47,4 @@ In our developer documentation:
 
 In our support knowledge base:
 
-* [Slow performance due to full reindexing](https://support.magento.com/hc/en-us/articles/360039207872)
+* [Slow performance due to full reindexing](https://support.magento.com/hc/en-us/articles/360039207872) 

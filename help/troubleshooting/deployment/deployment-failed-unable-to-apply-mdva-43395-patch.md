@@ -38,4 +38,4 @@ $ vendor/bin/magento-patches -n status |grep 43443
 ## Related reading
 
 * [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
-* [Cloud Patches for Commerce](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) in our developer documentation.
+* [Cloud Patches for Commerce](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) in our developer documentation. 

@@ -30,4 +30,4 @@ Use [Fastly image optimization](https://devdocs.magento.com/guides/v2.3/cloud/cd
 
 ## Related reading
 
-To learn about managing your disk space (if you are on Adobe Commerce on cloud infrastructure) see [Manage disk space in Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=manage%20disk%20space) in our developer documentation.
+To learn about managing your disk space (if you are on Adobe Commerce on cloud infrastructure) see [Manage disk space in Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=manage%20disk%20space) in our developer documentation. 

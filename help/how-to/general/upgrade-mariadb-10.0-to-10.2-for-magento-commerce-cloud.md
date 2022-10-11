@@ -34,4 +34,4 @@ To upgrade from MariaDB 10.0 to 10.2 or 10.2 to 10.3 or to 10.4, complete the fo
 
 ## Related Reading
 
-To learn more about requirements for Adobe Commerce 2.4.x, refer to [Adobe Commerce 2.4 system requirements > Database](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html#database) in our developer documentation.
+To learn more about requirements for Adobe Commerce 2.4.x, refer to [Adobe Commerce 2.4 system requirements > Database](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html#database) in our developer documentation. 

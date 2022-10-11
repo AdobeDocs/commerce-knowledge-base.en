@@ -6,4 +6,4 @@ description: "Please refer to the [Set cache for static files](https://devdocs.m
 
 # Set cache TTL for images and other static content
 
-Please refer to the [Set cache for static files](https://devdocs.magento.com/guides/v2.3/cloud/project/set-cache.html) in our developer documentation.
+Please refer to the [Set cache for static files](https://devdocs.magento.com/guides/v2.3/cloud/project/set-cache.html) in our developer documentation. 

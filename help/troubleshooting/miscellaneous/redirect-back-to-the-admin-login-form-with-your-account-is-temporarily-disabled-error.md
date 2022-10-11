@@ -34,4 +34,4 @@ You are redirected back to the login form, with the following error message disp
 
 ## Related reading in our support knowledge base
 
-* [Redirect back to the login form with no error, when trying to login to the Commerce Admin](https://support.magento.com/hc/en-us/articles/360028606711)
+* [Redirect back to the login form with no error, when trying to login to the Commerce Admin](https://support.magento.com/hc/en-us/articles/360028606711) 

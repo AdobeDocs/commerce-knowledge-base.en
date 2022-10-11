@@ -44,4 +44,4 @@ Merchants can register to use the Security Scan Tool to scan their webstores fro
 
 We recommend to our merchants to investigate all failed scans and take appropriate steps to resolve such issues. After investigation, if merchants come across a scan result that appears to be a false positive, we request the merchant to notify Adobe to take appropriate action.
 
-To submit a false positive report, enter a ticket with Adobe Commerce merchant support so that we can evaluate the false positive, make necessary changes, and/or provide recommendations to avoid seeing such notifications in the future. Merchants can also report a false positive by emailing us at [securityscan@magento.com](mailto:securityscan@magento.com).
+To submit a false positive report, enter a ticket with Adobe Commerce merchant support so that we can evaluate the false positive, make necessary changes, and/or provide recommendations to avoid seeing such notifications in the future. Merchants can also report a false positive by emailing us at [securityscan@magento.com](mailto:securityscan@magento.com). 

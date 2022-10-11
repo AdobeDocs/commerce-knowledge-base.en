@@ -27,4 +27,4 @@ Consider the following options to avoid a decrease in performance:
 
 ## Related reading
 
-[Oversized change log tables causing delays in entities updates](https://support.magento.com/hc/en-us/articles/360039418091) in our support knowledge base.
+[Oversized change log tables causing delays in entities updates](https://support.magento.com/hc/en-us/articles/360039418091) in our support knowledge base. 

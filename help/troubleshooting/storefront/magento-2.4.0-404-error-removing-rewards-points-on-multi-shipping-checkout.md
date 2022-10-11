@@ -48,4 +48,4 @@ The workaround is to have the buyer navigate back to the **Cart** and remove the
 * [Adobe Commerce 2.4.0 Known Issue: Raw message data display on Storefront](https://support.magento.com/hc/en-us/articles/360045804332)
 * [Adobe Commerce 2.4.0 Known Issue: Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032)
 * [Adobe Commerce 2.4.0 B2B Admin can't add configurable product to quote](https://support.magento.com/hc/en-us/articles/360046801971)
-* [Adobe Commerce 2.4.0 known issue: Orders display error](https://support.magento.com/hc/en-us/articles/360046802271)
+* [Adobe Commerce 2.4.0 known issue: Orders display error](https://support.magento.com/hc/en-us/articles/360046802271) 

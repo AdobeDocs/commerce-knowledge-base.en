@@ -50,4 +50,4 @@ Unfortunately, we can not recommend anything specific because of the variety of 
 
 If the backup fails or if all backup tests fail, it's possible the [Adobe Commerce file system owner](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) doesn't have sufficient privileges and ownership of the Adobe Commerce file system. For example, another user might own the files or the files might be read-only.
 
-Pay particular attention to file system permissions and ownership of the `<magento_root>/var` directory and subdirectories. For more information, see [Set file system permissions and ownership](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html).
+Pay particular attention to file system permissions and ownership of the `<magento_root>/var` directory and subdirectories. For more information, see [Set file system permissions and ownership](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html). 

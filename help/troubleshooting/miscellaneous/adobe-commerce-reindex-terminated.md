@@ -31,4 +31,4 @@ The most common reason for that is a large number of products, stores, and/or cu
 In our developer documentation:
 
 * [Pro architecture > Integration environment](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#cloud-arch-int)
-* [Starter architecture > Staging environment](https://devdocs.magento.com/cloud/architecture/starter-architecture.html#cloud-arch-stage)
+* [Starter architecture > Staging environment](https://devdocs.magento.com/cloud/architecture/starter-architecture.html#cloud-arch-stage) 

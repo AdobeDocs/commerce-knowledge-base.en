@@ -37,4 +37,4 @@ Enable Venmo payment in Braintree configuration.
 
 ## Solution
 
-There is no resolution available at this time.
+There is no resolution available at this time. 

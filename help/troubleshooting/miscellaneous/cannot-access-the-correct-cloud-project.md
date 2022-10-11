@@ -43,4 +43,4 @@ To reslove the issue, you need to disconnect the single sign-on integration with
 
     ![Magento.com](assets/magento-com.png)
 
-1. You should now be able to see the correct account and access the correct cloud project.
+1. You should now be able to see the correct account and access the correct cloud project. 

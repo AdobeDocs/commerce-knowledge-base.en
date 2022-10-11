@@ -28,4 +28,4 @@ To sync files from one environment to another, use the `rsync` command. For more
 
 >[!NOTE]
 >
->If you want to sync the code from Integration to Staging, you must do it from the Integration branch. For steps, see [Sync from the environment’s parent](https://devdocs.magento.com/cloud/project/project-webint-branch.html#project-branch-sync) in our developer documentation.
+>If you want to sync the code from Integration to Staging, you must do it from the Integration branch. For steps, see [Sync from the environment’s parent](https://devdocs.magento.com/cloud/project/project-webint-branch.html#project-branch-sync) in our developer documentation. 

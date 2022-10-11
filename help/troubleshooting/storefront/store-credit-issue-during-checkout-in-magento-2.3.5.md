@@ -52,4 +52,4 @@ Articles for Adobe Commerce 2.3.5 known issues in our support knowledge base:
 
 In our developer documentation:
 
-* [Adobe Commerce 2.3.5 Known Issues](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
+* [Adobe Commerce 2.3.5 Known Issues](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues) 

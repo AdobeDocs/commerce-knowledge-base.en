@@ -308,3 +308,4 @@ Adobe Commerce offers a variety of support tools that help and empower you to im
   * [MDVA-38308: Error after adding Vimeo videos to disabled products](/help/support-tools/patches-available-in-qpt-tool/mdva-38308-error-after-adding-vimeo-videos-to-disabled-products.md)
   * [MDVA-34189: Visual merchandiser runs long MySQL queries](/help/support-tools/patches-available-in-qpt-tool/mdva-34189-visual-merchandiser-runs-long-mysql-queries.md)
   * [MDVA-34886: no search results when “weight” attribute used](/help/support-tools/patches-available-in-qpt-tool/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
+ 

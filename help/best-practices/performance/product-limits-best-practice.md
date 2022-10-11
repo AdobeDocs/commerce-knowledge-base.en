@@ -33,4 +33,4 @@ You can reduce the number of products (SKUs) by:
 
 ## Related reading
 
-[Adobe Commerce on cloud infrastructure: Best Practices for store configuration](https://devdocs.magento.com/cloud/configure/configure-best-practices.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=price%20rules) in our developer documentation
+[Adobe Commerce on cloud infrastructure: Best Practices for store configuration](https://devdocs.magento.com/cloud/configure/configure-best-practices.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=price%20rules) in our developer documentation 

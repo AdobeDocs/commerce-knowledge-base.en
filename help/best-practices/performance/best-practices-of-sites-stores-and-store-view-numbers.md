@@ -30,4 +30,4 @@ Recommendations include:
 * Restructure catalog through shifting logic to categories.
 * Separate price lists from catalog data, leveraging of external price and Price Management System (PMS).
 * Use alternative noSQL data storage like Elasticsearch.
-* Custom flat indexes for catalog data.
+* Custom flat indexes for catalog data. 

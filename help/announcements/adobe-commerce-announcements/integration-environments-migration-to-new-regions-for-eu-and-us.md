@@ -18,4 +18,4 @@ Once the migration is complete, you will need to update your repository address 
 
 >[!NOTE]
 >
->Please note that this migration is required before you upgrade to Adobe Commerce 2.4.4.
+>Please note that this migration is required before you upgrade to Adobe Commerce 2.4.4. 

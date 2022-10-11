@@ -25,4 +25,4 @@ The [official homepage](https://magento.com/gdpr) for all Adobe Commerce GDPR re
 These Adobe Commerce developer documentation topics provide data flow diagrams and database information that helps Merchants and System Integrators to resolve use cases similar to the following:
 
 * A shopper asks for a copy of the data the merchant has stored about her.
-* A shopper requests that all information about him be deleted.
+* A shopper requests that all information about him be deleted. 

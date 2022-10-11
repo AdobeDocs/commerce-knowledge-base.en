@@ -39,4 +39,4 @@ Run `composer require laminas/laminas-escaper:2.7.0` in the root directory of ea
 
 ## Related reading
 
-laminas Documentation: [laminas-escaper](https://docs.laminas.dev/laminas-escaper/)
+laminas Documentation: [laminas-escaper](https://docs.laminas.dev/laminas-escaper/) 

@@ -56,4 +56,4 @@ Because Admin is accessed through Varnish, you cannot log in to Admin to enable 
 $ bin/magento cache:enable
 ```
 
-For more information about using the command line, see [Get started with command-line configuration](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands.html).
+For more information about using the command line, see [Get started with command-line configuration](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands.html). 

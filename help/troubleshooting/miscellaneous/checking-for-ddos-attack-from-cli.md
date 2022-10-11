@@ -48,4 +48,4 @@ If you find that you are under DDoS attack, the steps you can take depend on you
 
 * [DDoS protection](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#ddos-protection)
 * [Using CLI commands](https://devdocs.magento.com/guides/v2.3/config-guide/deployment/pipeline/example/cli.html)
-* [Cloud CLI for Commerce](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html)
+* [Cloud CLI for Commerce](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html) 

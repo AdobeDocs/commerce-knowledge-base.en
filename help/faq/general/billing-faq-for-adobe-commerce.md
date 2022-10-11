@@ -112,3 +112,4 @@ The first step is to review your contract. Most of those details are included in
 ## Additional Billing Contacts
 
 If you need another billing contact setup, please reach out to Magento Credit Collections [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com), and let them know the name and email of the contacts that need to be added.
+ 

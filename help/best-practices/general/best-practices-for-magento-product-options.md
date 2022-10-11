@@ -38,4 +38,4 @@ Refer to:
 <ul><li title="File storage low/exhausted, specific page loads are slow">Adobe Commerce User Guide<a href="https://docs.magento.com/user-guide/catalog/product-create-configurable.html"> Create products > Configurable Product</a>
 </li><li title="File storage low/exhausted, specific page loads are slow">Adobe Commerce User Guide<a href="https://docs.magento.com/user-guide/catalog/attribute-best-practices.html"> Product Attributes > Best Practices</a>
 </li><li title="File storage low/exhausted, specific page loads are slow"><a href="https://support.magento.com/hc/en-us/articles/360045041092">Best practice for attribute SET in Adobe Commerce</a></li><li title="File storage low/exhausted, specific page loads are slow"><a href="https://support.magento.com/hc/en-us/articles/360048256612">Best practice Adobe Commerce product attributes</a></li><li title="File storage low/exhausted, specific page loads are slow"> <a href="https://devdocs.magento.com/guides/v2.4/rest/modules/inventory/bulk-inventory.html"> Inventory mass actions</a> in our developer documentation
-</li></ul>
+</li></ul> 

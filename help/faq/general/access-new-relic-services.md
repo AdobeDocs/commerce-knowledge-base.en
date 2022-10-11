@@ -27,4 +27,4 @@ This article explains how customers with sufficient license/subscription authori
 
 ## Related Reading
 
-To learn about New Relic services, see [Investigate Performance](https://devdocs.magento.com/cloud/project/new-relic.html#investigate-performance) in our developer documentation. You can also review [Troubleshoot performance using New Relic on Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360042149832) in our support knowledge base.
+To learn about New Relic services, see [Investigate Performance](https://devdocs.magento.com/cloud/project/new-relic.html#investigate-performance) in our developer documentation. You can also review [Troubleshoot performance using New Relic on Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360042149832) in our support knowledge base. 

@@ -69,4 +69,4 @@ To learn more about B2B company functionality, refer to the following articles i
 
 * [B2B Developer Guide](https://devdocs.magento.com/guides/v2.4/b2b/bk-b2b.html)
 * [Manage company roles](https://devdocs.magento.com/guides/v2.4/b2b/roles.html)
-* [Adobe Commerce Enterprise B2B Extension configuration paths reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-b2b.html)
+* [Adobe Commerce Enterprise B2B Extension configuration paths reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-b2b.html) 

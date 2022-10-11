@@ -43,4 +43,4 @@ This error means that the Blackfire plugin must be updated and stopped from load
 
 **If you want to use New Relic Infrastructure**:
 
-To learn how to access New Relic Infrastructure, see [Access New Relic](https://support.magento.com/hc/en-us/articles/360039127712) in our support knowledge base.
+To learn how to access New Relic Infrastructure, see [Access New Relic](https://support.magento.com/hc/en-us/articles/360039127712) in our support knowledge base. 

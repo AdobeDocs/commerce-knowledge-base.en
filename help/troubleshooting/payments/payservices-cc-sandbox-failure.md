@@ -31,4 +31,4 @@ Use another test credit card. To generate mock credit cards you can use for test
 
 1. Go to the PayPal Developer Portal [Credit Card Generator](https://developer.paypal.com/developer/creditCardGenerator/) page.
 1. Log in to the PayPal Developer Portal Dashboard.
-1. Generate a test credit card.
+1. Generate a test credit card. 

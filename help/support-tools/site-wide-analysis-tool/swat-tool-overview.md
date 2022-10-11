@@ -11,4 +11,4 @@ Site-Wide Analysis Tool is a proactive self-service tool and central repository 
 To find out more about Site-Wide Analysis Tool, please refer to the following articles:
 
 * [Adobe Commerce Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video). This article is in our support knowledge base (**you must be signed in to access it**).
-* [Site-Wide Analysis Tool Guide](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=en) in Adobe Experience League.
+* [Site-Wide Analysis Tool Guide](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=en) in Adobe Experience League. 

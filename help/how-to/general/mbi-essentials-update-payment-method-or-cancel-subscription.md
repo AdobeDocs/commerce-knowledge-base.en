@@ -22,4 +22,4 @@ For MBI Essentials clients to cancel their subscriptions or update their payment
 
 ## Related reading
 
-* [MBI User Guide: Magento Business Intelligence](https://docs.magento.com/mbi/) .
+* [MBI User Guide: Magento Business Intelligence](https://docs.magento.com/mbi/) . 

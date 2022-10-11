@@ -82,4 +82,4 @@ Follow these best practices for effective troubleshooting of Adobe Commerce on c
 </td>
 </tr>
 </tbody>
-</table>
+</table> 

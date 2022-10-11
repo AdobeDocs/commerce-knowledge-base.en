@@ -200,3 +200,4 @@ When you isolate the extension that is resetting Fastly headers, contact the ext
 * [About Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html)
 * [Set up Fastly](http://devdocs.magento.com/guides/v2.1/cloud/access-acct/fastly.html)
 * [Custom Fastly VCL snippets](http://devdocs.magento.com/guides/v2.1/cloud/configure/cloud-vcl-custom-snippets.html)
+ 

@@ -10,4 +10,4 @@ Observation for Adobe Commerce is a New Relic nerdlet to see the state of your A
 
 The Summary tab of Observation for Adobe Commerce is intended to quickly see some of the problems experienced by sites to help you auto-resolve or identify potential root causes of site problems. The additional tabs provide deeper level information on component services, database, infrastructure, and process states.
 
-To see the complete guide on how to use Observation for Adobe Commerce on cloud infrastructure, go to [Observation for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html?lang=en) guide in Experience League.
+To see the complete guide on how to use Observation for Adobe Commerce on cloud infrastructure, go to [Observation for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html?lang=en) guide in Experience League. 

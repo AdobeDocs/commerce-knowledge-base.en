@@ -72,4 +72,4 @@ To check which patch to use:
 
 ## How to apply the patch
 
-Unzip the file and follow instructions in [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731).
+Unzip the file and follow instructions in [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731). 

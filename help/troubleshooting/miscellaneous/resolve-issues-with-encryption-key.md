@@ -45,4 +45,4 @@ Optionally, you can manually override the encryption key in the `app/etc/env.php
 1. Open `app/etc/env.php` in a text editor.
 1. Paste the copied data as the `key` value for `crypt`.
 1. Save the edited `env.php`.
-1. Clean cache on the destination environment by running `bin/magento cache:clean` or in the Commerce Admin under **System** > **Tools** > **Cache Management**.
+1. Clean cache on the destination environment by running `bin/magento cache:clean` or in the Commerce Admin under **System** > **Tools** > **Cache Management**. 

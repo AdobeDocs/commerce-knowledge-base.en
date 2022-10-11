@@ -35,4 +35,4 @@ Recommendations to reduce the number of categories are:
 
 ## Related reading
 
-Refer to [Adobe Commerce User Guide > Configuring Product Options](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html).
+Refer to [Adobe Commerce User Guide > Configuring Product Options](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html). 

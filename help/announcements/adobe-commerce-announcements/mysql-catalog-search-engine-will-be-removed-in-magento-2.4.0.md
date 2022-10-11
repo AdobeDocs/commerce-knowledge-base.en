@@ -58,4 +58,4 @@ By default, Adobe Commerce search will use Elasticsearch 7 as the search engine 
 
 For example, `setup:install --elasticsearch-host=es.mystore.com`
 
-During installation the Elasticsearch connection will be checked, and installation will fail if Adobe Commerce is unable to connect to an Elasticsearch host. If this occurs, check that your Elasticsearch is up and running, and that you have supplied the correct connection parameters.
+During installation the Elasticsearch connection will be checked, and installation will fail if Adobe Commerce is unable to connect to an Elasticsearch host. If this occurs, check that your Elasticsearch is up and running, and that you have supplied the correct connection parameters. 

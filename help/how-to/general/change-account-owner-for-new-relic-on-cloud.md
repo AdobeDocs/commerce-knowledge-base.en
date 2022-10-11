@@ -14,4 +14,4 @@ If someone needs to be added as a user, but no existing Owner or Admin on the ac
 
 ## Related reading
 
-* [New Relic services](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) in our developer documentation.
+* [New Relic services](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) in our developer documentation. 

@@ -63,4 +63,4 @@ To do this, take the following steps:
     * if the Fastly module is included to the magento-cloud-metapackage:    <pre>composer update magento/magento-cloud-metapackage</pre>
     * if the Fastly module was installed separately (for example, in case you are using Adobe Commerce on-premises, not the cloud edition) <pre>composer update fastly/magento2</pre>
 1. Commit and push the changes, and trigger the deployment process if it is not done automatically.
-1. In the Admin, [upload the new VCL to Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
+1. In the Admin, [upload the new VCL to Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets). 

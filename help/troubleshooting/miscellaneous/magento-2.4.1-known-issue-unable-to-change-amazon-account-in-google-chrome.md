@@ -47,4 +47,4 @@ The issue might happen in one of the following situations:
 
 ## Solution
 
-Make sure Amazon Pay iframe requests are not blocked by browsers.
+Make sure Amazon Pay iframe requests are not blocked by browsers. 

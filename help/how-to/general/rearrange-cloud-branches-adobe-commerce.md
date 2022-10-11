@@ -35,4 +35,4 @@ It may take some additional time to create and activate a new environment branch
 
 ## Related reading
 
-[Manage branches with the CLI](https://devdocs.magento.com/cloud/env/environments-start.html) in our developer documentation.
+[Manage branches with the CLI](https://devdocs.magento.com/cloud/env/environments-start.html) in our developer documentation. 

@@ -33,4 +33,4 @@ A blank page is displayed.
 
 ## Solution
 
-If enabling the Klarna on-site messaging, always ensure that the **Design theme** field is not blank.
+If enabling the Klarna on-site messaging, always ensure that the **Design theme** field is not blank. 

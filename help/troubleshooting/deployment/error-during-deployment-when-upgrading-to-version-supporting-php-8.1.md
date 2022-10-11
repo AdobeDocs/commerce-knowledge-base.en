@@ -38,4 +38,4 @@ Remove JSON from the **Runtime** > **Extensions** section in `.magento.app.yaml`
 
 ## Related reading
 
-[PHP application](https://devdocs.magento.com/cloud/project/magento-app-php-application.html) in our developer documentation.
+[PHP application](https://devdocs.magento.com/cloud/project/magento-app-php-application.html) in our developer documentation. 

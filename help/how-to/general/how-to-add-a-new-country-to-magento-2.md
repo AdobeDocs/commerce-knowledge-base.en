@@ -308,4 +308,4 @@ To find out how to install the module, see [Module locations](https://devdocs.ma
 
 Once the module directory is placed in a correct location, execute `bin/magento setup:upgrade` to apply the data patches and register the translation plugin.
 
-You may need to clean the browser cache for the new changes to work.
+You may need to clean the browser cache for the new changes to work. 

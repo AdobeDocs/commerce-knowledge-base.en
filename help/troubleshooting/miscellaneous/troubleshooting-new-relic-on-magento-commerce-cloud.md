@@ -105,4 +105,4 @@ This article provides resources for troubleshooting New Relic on Adobe Commerce 
 </td>
 </tr>
 </tbody>
-</table>
+</table> 

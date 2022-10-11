@@ -23,4 +23,4 @@ In this case, the possible number of results exceeds the set maximum for the SQL
 
 ## Unable to parse EXPLAIN response.
 
-Whoops. This message typically means something probably went wrong on our end. If you continue to receive this error, please reach out to support.
+Whoops. This message typically means something probably went wrong on our end. If you continue to receive this error, please reach out to support. 

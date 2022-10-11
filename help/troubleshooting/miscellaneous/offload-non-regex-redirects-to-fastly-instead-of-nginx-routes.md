@@ -95,4 +95,4 @@ If you don't want to run an Adobe Commerce staging environment, but you would li
 * [Fastly VCL reference](https://docs.fastly.com/vcl/)
 * [Configure routes](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html) in our developer documentation.
 * [Set up Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html) in our developer documentation.
-* [VCL regular expression cheat sheet](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) in our developer documentation.
+* [VCL regular expression cheat sheet](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) in our developer documentation. 

@@ -33,4 +33,4 @@ To perform this, you need the SSH information and the store URL available throug
     php bin/magento catalog:images:resize
     ```
 
-1. Test the category pages through the store URL.
+1. Test the category pages through the store URL. 

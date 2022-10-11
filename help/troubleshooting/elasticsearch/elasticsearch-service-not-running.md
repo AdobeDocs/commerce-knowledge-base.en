@@ -89,3 +89,4 @@ Elasticsuite indices not being deleted.  See <a href="https://support.magento.co
       Exception printing is disabled by default for security reasons</code></i>
 </tr>
 </table>
+ 

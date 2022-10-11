@@ -45,4 +45,4 @@ Check your Spam folder for the email. If the email appeared there, [submit a sup
 
 ## Related reading
 
-* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) in our developer documentation.
+* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) in our developer documentation. 

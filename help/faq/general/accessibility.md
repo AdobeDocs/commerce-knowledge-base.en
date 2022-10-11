@@ -18,4 +18,4 @@ Solutions can be found in the [Commerce Marketplace](https://marketplace.magento
 
 ## Related reading
 
-* [Adobe Accessibility](https://www.adobe.com/accessibility.html)
+* [Adobe Accessibility](https://www.adobe.com/accessibility.html) 

@@ -34,4 +34,4 @@ To resolve this issue, you must reset the cron job(s) using the `cron:unlock` co
 1. Select the `main` database:    ```shell    use main    ```
 1. Find all running cron jobs:    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```
 1. Copy the `job_code` of any job running longer than usual.
-1. Use the schedule IDs from the previous step to unlock specific cron jobs:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```
+1. Use the schedule IDs from the previous step to unlock specific cron jobs:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ``` 

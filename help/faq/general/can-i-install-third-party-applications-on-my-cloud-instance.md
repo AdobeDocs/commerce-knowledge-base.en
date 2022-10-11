@@ -31,3 +31,4 @@ Since Adobe cannot guarantee the PCI compliance of third-party applications, ins
 ## Hint: Use Commerce Marketplace extensions for better integrations
 
 To improve the integration of your Adobe Commerce on cloud infrastructure application with the third-party solutions hosted on external servers, we encourage you to use the [Commerce Marketplace](https://marketplace.magento.com) extensions that might suit your purpose.
+ 

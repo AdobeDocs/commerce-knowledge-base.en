@@ -39,4 +39,4 @@ Per the alert, recommended patches for this vulnerability include:
 * PHP 7.2: [https://www.php.net/ChangeLog-7.php\#7.2.22](https://www.php.net/ChangeLog-7.php#7.2.22)
 * PHP 7.3: [https://www.php.net/ChangeLog-7.php\#7.3.9](https://www.php.net/ChangeLog-7.php#7.3.9)
 
-If you would like more information on PHP and recent releases, you can visit [PHP’s site](https://www.php.net/). And if you have questions or would like more information on best practices for security, please check out our [Security Best Practices Guide](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf).
+If you would like more information on PHP and recent releases, you can visit [PHP’s site](https://www.php.net/). And if you have questions or would like more information on best practices for security, please check out our [Security Best Practices Guide](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf). 

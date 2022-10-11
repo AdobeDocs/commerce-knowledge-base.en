@@ -24,4 +24,4 @@ The European Union revised a regulation called Payment Services Directive (PSD) 
 
 ## Solution
 
-Follow the recommendations from the [Adobe Commerce Payment Provider Recommendations section of the DevBlog](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460#recommendations).
+Follow the recommendations from the [Adobe Commerce Payment Provider Recommendations section of the DevBlog](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460#recommendations). 

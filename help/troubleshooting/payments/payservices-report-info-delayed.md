@@ -54,4 +54,4 @@ For Order payment status reports:
 1. Force resync by clicking the **force resync** icon in the top right corner of the reports table.
 1. You should see the last updated timestamp change and new transactions loaded in your report table.
 
-For PayPal payout reports, the expected result is a delay of 24-48h due to the dependency on PayPal's data publishing timeframe.
+For PayPal payout reports, the expected result is a delay of 24-48h due to the dependency on PayPal's data publishing timeframe. 

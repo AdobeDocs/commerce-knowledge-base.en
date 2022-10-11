@@ -34,4 +34,4 @@ Then flush cache by running `php bin/magento cache:flush` or go to the Commerce 
 ## Related reading
 
 * [Best practice Adobe Commerce order placement performance](https://support.magento.com/hc/en-us/articles/360048170772) in our support knowledge base.
-* [Configuration paths reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-most.html) in our developer documentation.
+* [Configuration paths reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-most.html) in our developer documentation. 

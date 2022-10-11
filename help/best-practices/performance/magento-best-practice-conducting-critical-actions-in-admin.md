@@ -30,4 +30,4 @@ Perform any critical actions during off-business hours.
 * [Private content: Invalidate private content](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/cache/page-caching/private-content.html#invalidate-private-content) in our developer documentation
 * [Hardware recommendations: Caches](https://devdocs.magento.com/guides/v2.4/performance-best-practices/hardware.html#caches) in our developer documentation
 * [Advanced setup: Set up Redis](https://devdocs.magento.com/guides/v2.4/performance-best-practices/advanced-setup.html#set-up-redis) in our developer documentation
-* Varnish's [What is cache invalidation?](https://www.varnish-software.com/glossary/what-is-cache-invalidation/)
+* Varnish's [What is cache invalidation?](https://www.varnish-software.com/glossary/what-is-cache-invalidation/) 

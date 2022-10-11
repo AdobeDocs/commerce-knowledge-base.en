@@ -56,4 +56,4 @@ The complete fix will be released in Adobe Commerce (all deployment methods) 2.4
 
 ## Related reading
 
-* Github: [2021-07-27 Composer update Incompatible argument type: Required type: int. Actual type: string](https://github.com/magento/magento2/issues/33595)
+* Github: [2021-07-27 Composer update Incompatible argument type: Required type: int. Actual type: string](https://github.com/magento/magento2/issues/33595) 

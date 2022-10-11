@@ -21,4 +21,4 @@ To authorize access:
 1. Click **Save**. This will update the start and end date at the bottom of the page under **You have given consent for the following duration** (screen shot). After consent has been granted, the entitled primary user will see the option to withdraw consent at the bottom of the screen.
   ![magento-account-privacy-settings.png](assets/magento-account-privacy-settings.png)
 
-You can click **Withdraw Consent** at any time to withdraw your consent for Adobe support personnel to have access to your data.
+You can click **Withdraw Consent** at any time to withdraw your consent for Adobe support personnel to have access to your data. 

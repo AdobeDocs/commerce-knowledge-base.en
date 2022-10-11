@@ -97,4 +97,4 @@ You can generate the previous 10 reports from your end. If older reports are req
 
 ### What information is needed when submitting a support ticket?
 
-Please make sure to provide the domain name.
+Please make sure to provide the domain name. 

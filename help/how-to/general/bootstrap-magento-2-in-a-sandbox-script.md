@@ -19,4 +19,4 @@ $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
 $objectManager = $bootstrap->getObjectManager();
 
 //$model = $objectManager->get('Vendor\Module\Some\Model');
-```
+``` 

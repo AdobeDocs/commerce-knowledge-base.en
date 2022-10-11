@@ -76,3 +76,4 @@ To fix the issue, you need to set `is_filterable` (that is, used in Layered Navi
 or in the Commerce Admin under **System** > **Tools** > **Cache Management**.
 
 Now you should be able to perform catalog searches with no issues.
+ 

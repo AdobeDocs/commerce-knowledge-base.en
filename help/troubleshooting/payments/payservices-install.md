@@ -79,4 +79,4 @@ The limit for PHP on your environment is not set to a high enough threshold.
 
 ### Solution
 
-[Increase the memory limit for PHP](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php) on your environment in `php.ini`.
+[Increase the memory limit for PHP](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php) on your environment in `php.ini`. 

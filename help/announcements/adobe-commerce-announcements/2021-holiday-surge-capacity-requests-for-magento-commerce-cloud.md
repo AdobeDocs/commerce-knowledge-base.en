@@ -43,4 +43,4 @@ In our support knowledge base:
 * [CPU allocation calculation for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058551232)
 * [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058506772)
 * [Check host’s CPU configuration for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058507012O)
-* [Identify and measure outages for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/4409500578957)
+* [Identify and measure outages for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/4409500578957) 

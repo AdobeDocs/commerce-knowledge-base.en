@@ -81,3 +81,4 @@ Add the following to your `composer.json` file, depending on how you installed A
     ```
 
 After updating the `composer.json` file, run the `composer update` command and restart the upgrade process.
+ 

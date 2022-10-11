@@ -29,4 +29,4 @@ Following are the options to avoid the issue:
 
 ## Related reading
 
-* [User roles](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html) in our user guide.
+* [User roles](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html) in our user guide. 

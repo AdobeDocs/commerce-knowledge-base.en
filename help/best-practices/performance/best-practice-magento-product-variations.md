@@ -33,4 +33,4 @@ Reduce the number of complex products variations by:
 Refer to the following articles in our user guide:
 
 * [Create products > Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html)
-* [Product Attributes > Best Practices](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html)
+* [Product Attributes > Best Practices](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html) 

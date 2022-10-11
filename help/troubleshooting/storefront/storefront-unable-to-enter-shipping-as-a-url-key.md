@@ -58,4 +58,4 @@ Perform the following steps:
 ## Related reading
 
 * [URL Rewrites](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in our user guide.
-* [SEO Best Practices](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in our user guide.
+* [SEO Best Practices](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in our user guide. 

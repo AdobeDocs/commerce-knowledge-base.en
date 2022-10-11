@@ -33,4 +33,4 @@ There are limits on the number of allowed emails that can be sent.
 
 ## Related reading
 
-* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) in our developer documentation.
+* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) in our developer documentation. 

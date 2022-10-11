@@ -37,4 +37,4 @@ bin/magento maintenance:disable
 
 ## Related Reading
 
-To learn when to use maintenance mode, refer to [Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=maintenance%20mode) in our developer documentation.
+To learn when to use maintenance mode, refer to [Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=maintenance%20mode) in our developer documentation. 

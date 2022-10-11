@@ -40,4 +40,4 @@ The issue is caused by the incorrect Nginx configuration set in `.magento.app.ya
 
 1. Enable Fastly image optimization in the Commerce Admin (Fastly must be configured prior), as described in <https://devdocs.magento.com/guides/v2.3/cloud/cdn/fastly-image-optimization.html>.
 
-If the configuration is correct, but you are still experiencing the issue, continue the investigation or contact [Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+If the configuration is correct, but you are still experiencing the issue, continue the investigation or contact [Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket). 

@@ -23,4 +23,4 @@ Refer to the [Adobe Commerce Support Knowledge Base](https://support.magento.com
 ## Where/How do solution partners or tech partners submit a support request? {#wherehow-do-solution-partners-or-tech-partners-submit-a-support-request}
 
 * Solution partners can submit a ticket for sandbox-related issues by sending an email to [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com) and it will be forwarded to the partner technical support team.
-* Tech partners can submit a support request on the [Commerce Marketplace Help Center](https://marketplacesupport.magento.com/hc/en-us/requests) page.
+* Tech partners can submit a support request on the [Commerce Marketplace Help Center](https://marketplacesupport.magento.com/hc/en-us/requests) page. 

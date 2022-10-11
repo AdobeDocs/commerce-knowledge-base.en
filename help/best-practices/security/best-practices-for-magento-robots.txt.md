@@ -33,4 +33,4 @@ If assistance is required or if there are questions or concerns, [submit an Adob
 In our support knowledge base:
 
 * [How to block malicious traffic for Adobe Commerce on Fastly level](https://support.magento.com/hc/en-us/articles/360039447892)
-* [robots.txt gives a 404 error in Adobe Commerce on cloud infrastructure 2.3.x](https://support.magento.com/hc/en-us/articles/360040594911)
+* [robots.txt gives a 404 error in Adobe Commerce on cloud infrastructure 2.3.x](https://support.magento.com/hc/en-us/articles/360040594911) 

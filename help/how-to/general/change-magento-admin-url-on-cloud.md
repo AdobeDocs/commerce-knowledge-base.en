@@ -38,4 +38,4 @@ We don't recommend adding **global** variables via Cloud CLI (the `magento-cloud
 * get inherited by your Staging/Production environments (if these are included in your Project Web Interface)
 * trigger the undesired redeploy process on all branches/environments of your project
 
-We recommend adding environment variables for every branch/environment using the `magento-cloud variable:set` command.
+We recommend adding environment variables for every branch/environment using the `magento-cloud variable:set` command. 

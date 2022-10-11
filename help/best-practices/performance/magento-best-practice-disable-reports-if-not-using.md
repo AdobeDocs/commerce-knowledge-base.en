@@ -21,4 +21,4 @@ To disable the functionality:
 
 1. In the Admin, navigate to **Stores** > **Settings** > **Configuration** > **General** > **Reports**.
 1. Under **General Options**, set **Enable Reports** to *No*.
-1. Flush cache by running `php bin/magento cache:flush` or in the Admin under **System** > **Tools** > **Cache Management**.
+1. Flush cache by running `php bin/magento cache:flush` or in the Admin under **System** > **Tools** > **Cache Management**. 

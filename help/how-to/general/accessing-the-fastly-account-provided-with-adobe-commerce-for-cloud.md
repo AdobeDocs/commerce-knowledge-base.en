@@ -18,4 +18,4 @@ Please refer to the [Test the Fastly Credentials](https://devdocs.magento.com/cl
 
 ## Related reading
 
-[Change account owner (access credentials via API tokens) for Fastly on Cloud](https://support.magento.com/hc/en-us/articles/360006935271) in our support knowledge base.
+[Change account owner (access credentials via API tokens) for Fastly on Cloud](https://support.magento.com/hc/en-us/articles/360006935271) in our support knowledge base. 

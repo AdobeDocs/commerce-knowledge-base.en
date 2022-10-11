@@ -75,4 +75,4 @@ For general information and recommendations about `robots.txt`, see:
 * [Create a robots.txt](https://developers.google.com/search/docs/advanced/robots/create-robots-txt) file by Google Support
 * [About /robots.txt](https://www.robotstxt.org/robotstxt.html) by robotstxt.org
 
-Work with your developer and/or SEO expert to determine what User Agents you want to allow, or those you want to disallow.
+Work with your developer and/or SEO expert to determine what User Agents you want to allow, or those you want to disallow. 

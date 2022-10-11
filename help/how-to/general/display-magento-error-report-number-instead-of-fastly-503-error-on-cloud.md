@@ -37,3 +37,4 @@ Once you see the authentic Adobe Commerce error and the error report number, you
 ```clike
 {server_IP} {store_domain}
 ```
+ 

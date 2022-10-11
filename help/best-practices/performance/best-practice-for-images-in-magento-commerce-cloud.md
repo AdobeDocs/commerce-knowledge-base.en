@@ -19,4 +19,4 @@ Adobe Commerce on cloud infrastructure 2.3.x
 
 ## Related reading
 
-[Poorly optimized images can lead to performance issues](https://support.magento.com/hc/en-us/articles/360034626052) in our support knowledge base.
+[Poorly optimized images can lead to performance issues](https://support.magento.com/hc/en-us/articles/360034626052) in our support knowledge base. 

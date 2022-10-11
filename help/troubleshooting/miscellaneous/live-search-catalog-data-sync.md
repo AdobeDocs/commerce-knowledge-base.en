@@ -126,4 +126,4 @@ bin/magento saas:resync --feed productattributes
 
 ## Related reading
 
-See [Onboard Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=en) in our user documentation.
+See [Onboard Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=en) in our user documentation. 

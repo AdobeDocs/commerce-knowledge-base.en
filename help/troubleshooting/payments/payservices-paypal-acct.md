@@ -35,3 +35,4 @@ PayPal will not be able to verify your sandbox account and you will not be able 
 1. Using a sandbox account created in the [PayPal Developer](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account) Portal.
 1. Click [reset sandbox](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html#test-in-sandbox-environment) and restart your sandbox onboarding.
 1. [Contact Support](mailto:payment-services-support@adobe.com) if you cannot alleviate your account issues so that you can resume onboarding and accept payments.
+ 

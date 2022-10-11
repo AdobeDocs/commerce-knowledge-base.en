@@ -46,4 +46,4 @@ Add a parameter specifying your region when starting ngrok. Like the following:
 ./ngrok http 80 -region eu
 ```
 
-The default region is US. See [all possible values](https://ngrok.com/docs#config_region).
+The default region is US. See [all possible values](https://ngrok.com/docs#config_region). 
