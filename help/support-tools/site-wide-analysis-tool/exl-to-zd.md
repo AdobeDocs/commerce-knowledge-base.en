@@ -6,6 +6,46 @@ title: ExL Syntax Style Guide
 
 # Basic text formatting
 
+>[!TIP]
+>
+>This is a standard TIP block.
+
+>[!IMPORTANT]
+>
+>This is a standard IMPORTANT block.
+
+>[!WARNING]
+>
+>This is a standard WARNING block.
+
+>[!CAUTION]
+>
+>This is a standard CAUTION block.
+
+>[!ADMIN]
+>
+>This is a standard ADMIN block.
+
+>[!AVAILABILITY]
+>
+>This is a standard AVAILABILITY block.
+
+>[!PREREQUISITES]
+>
+>This is a standard PREREQUISITES block.
+
+>[!INFO]
+>
+>This is a standard INFO block.
+
+>[!ERROR]
+>
+>This is a standard ERROR block.
+
+>[!SUCCESS]
+>
+>This is a standard SUCCESS block.
+
 Test 2, update Article.
 
 A paragraph requires no special syntax in Markdown. Add a blank line between each paragraph.
