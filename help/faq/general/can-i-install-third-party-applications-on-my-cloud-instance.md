@@ -23,7 +23,6 @@ Being a cloud solution, Adobe takes full responsibility for the security of your
 As a PCI-certified Level 1 Solution Provider, Adobe Commerce on cloud infrastructure must follow the PCI Data Security Standard and make sure to:
 
 >... Develop and maintain secure systems and applications
-
 > ([Adobe Approach to PCI Compliance](https://magento.com/pci-compliance) Requirement 6, Maintain a Vulnerability Management Program)
 
 Since Adobe cannot guarantee the PCI compliance of third-party applications, installing such apps on cloud servers is not allowed.
