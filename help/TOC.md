@@ -5,7 +5,7 @@ breadcrumb-title: Commerce KB
 ---
 # Adobe Commerce Knowledge Base {#kb}
 
-* [Help Center Home Page](/help/overview.md)
+* [Adobe Commerce Support Knowledge Base](/help/overview.md)
 * Support Tools {#support-tools}
   * [Support Tools overview](/help/support-tools/overview.md)
   * Site-wide Analysis tool {#site-wide-analysis-tool}
