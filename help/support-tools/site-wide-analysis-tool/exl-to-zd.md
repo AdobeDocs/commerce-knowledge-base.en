@@ -5,6 +5,8 @@ title: ExL Syntax Style Guide
 ---
 # Basic text formatting
 
+Video ExL Export
+
 >[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 >[!TIP]
