@@ -7,7 +7,7 @@ description: Everything you need to troubleshoot and maintain your Commerce stor
 
 ![Knowledge Base homepage](../help/assets/knowledge-base-home-page-cover.jpg)
 
-The information in this Knowledge Base is designed as complementary to [[!DNL DevDocs]](http://devdocs.magento.com/), the [[!DNL User Guide]](http://docs.magento.com/m2/ee/user_guide/getting-started.html), and [other Adobe Commerce publications](https://magento.com/resources/technical). It covers troubleshooting and best practices, hosts announcements, answers FAQs, and highlights specific scenarios that have not been mentioned (for any reason) in the official documentation.
+The information in this Knowledge Base is designed as complementary to [Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs), and [Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=en), and other Adobe Commerce publications. It covers troubleshooting and best practices, hosts announcements, answers FAQs, and highlights specific scenarios that have not been mentioned (for any reason) in the official documentation.
 
 ## What's in the Knowledge Base?
 
