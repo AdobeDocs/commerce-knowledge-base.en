@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce Knowledge Base
+title: Adobe Commerce Support Knowledge Base
 description: Everything you need to troubleshoot and maintain your Commerce store.
 ---
 
