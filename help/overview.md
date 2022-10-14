@@ -3,7 +3,7 @@ title: Adobe Commerce Support Knowledge Base
 description: Everything you need to troubleshoot and maintain your Commerce store.
 ---
 
-# Adobe Commerce Knowledge Base
+# Adobe Commerce Support Knowledge Base
 
 ![Knowledge Base homepage](../help/assets/knowledge-base-home-page-cover.jpg)
 
