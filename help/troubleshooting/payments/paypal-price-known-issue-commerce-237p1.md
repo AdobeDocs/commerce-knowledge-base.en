@@ -54,3 +54,4 @@ Use the following link to download a .zip file containing the patch: [MC42674-co
 
 1. Unzip the downloaded .zip file.
 1. See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for further instructions. 
+

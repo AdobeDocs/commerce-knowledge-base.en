@@ -66,3 +66,4 @@ This will help to identify if the MySQL server is alive and that there are no st
 * [Security, Performance, and Data Handling](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) in our developer documentation.
 * [MySQL Help](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) in our developer documentation.
 
+

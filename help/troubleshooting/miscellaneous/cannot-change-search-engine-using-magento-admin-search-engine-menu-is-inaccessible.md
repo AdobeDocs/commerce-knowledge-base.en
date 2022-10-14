@@ -135,3 +135,4 @@ stage:
 * [Build and deploy](http://devdocs.magento.com/guides/v2.2/cloud/project/magento-env-yaml.html) (documentation about the `.magento.env.yaml` configuration file)
 * [Deploy variables](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html) ( [SEARCH\_CONFIGURATION section](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#searchconfiguration) )
 * [Services](http://devdocs.magento.com/guides/v2.2/cloud/project/project-conf-files_services.html) (documentation about the `.magento/services.yaml` configuration file) 
+

@@ -45,3 +45,4 @@ The following are possible solutions depending on the software you use and the c
     * The `include` directive must point to the sample nginx configuration file in your Adobe Commerce/Magento Open Source installation directory. For example:    `include /var/www/html/magento2/nginx.conf.sample;`
     * The `server_name` directive must match the base URL you specified when installing Adobe Commerce/Magento Open Source. For example: `server_name 192.186.33.10;`
 * If the application is in [production mode](https://devdocs.magento.com/guides/v2.3/config-guide/bootstrap/magento-modes.html#production-mode), try deploying static view files using the `magento setup:static-content:deploy` command. For details about deploying static files refer to [Deploy static view files](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) in our developer documentation. 
+

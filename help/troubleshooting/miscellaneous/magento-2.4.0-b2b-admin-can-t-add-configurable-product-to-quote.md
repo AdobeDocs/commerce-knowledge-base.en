@@ -55,3 +55,4 @@ Currently, there is no workaround for this issue with B2B Quote editing, but for
 * [Adobe Commerce 2.4.0 Known Issue: Raw message data display on Storefront](https://support.magento.com/hc/en-us/articles/360045804332)
 * [Adobe Commerce 2.4.0 Known Issue: Export Tax Rates does not work](https://support.magento.com/hc/en-us/articles/360045850032)
 * [Adobe Commerce 2.4.0 known issue: Orders display error](https://support.magento.com/hc/en-us/articles/360046802271) 
+

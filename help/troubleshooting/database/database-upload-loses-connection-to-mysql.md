@@ -52,3 +52,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 ## Related reading
 
 [Manage Disk Space](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in our developer documentation 
+

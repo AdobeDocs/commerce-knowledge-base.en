@@ -42,3 +42,4 @@ See [Quick start install](https://devdocs.magento.com/guides/v2.3/install-gde/co
 ## Related reading
 
 * See [Install an extension](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) in our developer documentation. 
+

@@ -49,3 +49,4 @@ Some users have suggested deleting the devcert folder to trigger certificate reg
 * [PWA Studio: Webpack hangs before beginning compilation](https://support.magento.com/hc/en-us/articles/360039475011)
 * [PWA Studio: Browser displays “Cannot proxy to“ error](https://support.magento.com/hc/en-us/articles/360036581232)
 * [PWA Studio: Validation errors when running developer mode](https://support.magento.com/hc/en-us/articles/360036928811) 
+

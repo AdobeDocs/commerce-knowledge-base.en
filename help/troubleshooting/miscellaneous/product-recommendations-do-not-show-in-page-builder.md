@@ -32,3 +32,4 @@ By enabling Product Recommendations in Page Builder, you will be able to [add a 
 * [Add Content - Product Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=en) in our user guide.
 * [Install and Configure Product Recommendations](https://devdocs.magento.com/recommendations/install-configure.html) in our developer documentation.
 * [Adobe Commerce User Guide](https://docs.magento.com/user-guide/) 
+

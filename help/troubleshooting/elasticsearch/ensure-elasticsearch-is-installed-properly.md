@@ -63,3 +63,4 @@ After you have set up Elasticsearch, check that it's configured correctly:
     * ElasticSearch 6.X - elasticsearch6
     * ElasticSearch 2.X - elasticsearch
 1. Check `index_prefix`. If you have several environments, make sure you have different `index_prefix` values for them. 
+

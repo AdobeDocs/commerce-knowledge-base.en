@@ -48,3 +48,4 @@ in the root directory in order to generate the file that will hold the variables
 
 * [PWA Studio for Adobe Commerce Documentation](https://magento.github.io/pwa-studio/)
 * [Venia Storefront (Concept)](https://magento.github.io/pwa-studio/venia-pwa-concept/) 
+

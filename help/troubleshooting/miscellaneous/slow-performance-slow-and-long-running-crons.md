@@ -52,3 +52,4 @@ If you can't change the **Use Flat Catalog Category** and **Use Flat Catalog Pro
 ## Related Information
 
 [Reset stuck Adobe Commerce cron jobs manually on Cloud](https://support.magento.com/hc/en-us/articles/360000097713-Reset-stuck-Magento-cron-jobs-manually-on-Cloud) in our support knowledge base. 
+

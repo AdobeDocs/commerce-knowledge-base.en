@@ -53,3 +53,4 @@ To fix the issue, please apply the patch attached to this article. To download i
 See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
 ## Attached files 
+

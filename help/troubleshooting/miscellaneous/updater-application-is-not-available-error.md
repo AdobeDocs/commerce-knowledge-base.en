@@ -23,3 +23,4 @@ The following message is displayed in the readiness check:
 ## Solution
 
 To resolve this issue, see if there is a `<magento_root>/update` directory that contains files and subdirectories. Otherwise, see [Set up the updater](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) in our developer documentation. 
+

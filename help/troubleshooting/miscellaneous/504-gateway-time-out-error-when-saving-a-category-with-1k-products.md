@@ -58,3 +58,4 @@ Now you can proceed to adding products to categories, or moving categories with 
 ## Related reading
 
 [Automatic Product Redirects](https://docs.magento.com/user-guide/v2.3/marketing/url-redirect-product-automatic.html) in our user guide. 
+

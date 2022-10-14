@@ -59,3 +59,4 @@ To resolve the issues, you need to perform an additional Varnish configuration a
 
 * [Configure Varnish and your web server](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) in our developer documentation.
 * [Varnish documentation](https://varnish-cache.org/docs/5.1/reference/index.html) 
+

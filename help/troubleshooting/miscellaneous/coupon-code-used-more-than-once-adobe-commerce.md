@@ -60,3 +60,4 @@ For detailed steps, refer to [Manage message queues > Configuration](https://dev
 ## Related reading
 
 [Message Queues Overview](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html) in our developer documentation. 
+

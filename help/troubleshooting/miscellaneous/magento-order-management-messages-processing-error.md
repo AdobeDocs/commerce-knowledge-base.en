@@ -61,3 +61,4 @@ To resolve the problem run the following SQL statement in the CLI which deletes 
 ## Related Reading
 
 See the OMS Docs [OMS Connector Setup Tutorial](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/). 
+

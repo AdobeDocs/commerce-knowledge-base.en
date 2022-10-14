@@ -55,3 +55,4 @@ The `MDVA-17078_EE_2.2.5_COMPOSER_v1.patch` patch is also compatible (but might 
 For instructions, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
 
 ## Attached Files 
+

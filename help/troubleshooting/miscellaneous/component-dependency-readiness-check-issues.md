@@ -51,3 +51,4 @@ Make sure you set file system permissions as discussed in the article [Overview 
 In some cases, the status of the Component Dependency Check doesn't change, even after you try to correct issues. In that case, you can either delete or rename files named `<magento_root>/var/.update_cronjob_status` and `<magento_root>/var/.setup_cronjob_status` and try running the Component Manager again.
 
 Renaming or removing these files forces the Component Manager to run the checks again. 
+

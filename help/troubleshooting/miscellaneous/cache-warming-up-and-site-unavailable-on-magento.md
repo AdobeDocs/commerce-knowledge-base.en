@@ -35,3 +35,4 @@ Limit the number of concurrent connections during the cache warm-up. This requir
 ## Related reading
 
  [Full-Page Cache](https://docs.magento.com/user-guide/system/cache-full-page.html) in our user guide 
+

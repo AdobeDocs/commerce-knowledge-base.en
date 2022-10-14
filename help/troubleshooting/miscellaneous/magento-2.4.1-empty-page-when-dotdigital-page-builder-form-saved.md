@@ -41,3 +41,4 @@ The workaround is to use an alternative browser to Safari. The issue is schedule
 * [Page Builder Setup](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html?lang=en) in our developer documentation.
 * [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html) in our user guide.
 * [Page Builder - Elements](https://docs.magento.com/user-guide/cms/page-builder-elements.html) in our user guide. 
+

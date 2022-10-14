@@ -33,3 +33,4 @@ Articles in our support knowledge base and developer documentation for Adobe Com
 * [Bulk action product count known issue in Adobe Commerce 2.3.5](https://support.magento.com/hc/en-us/articles/360044839691)
 * [Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1](https://support.magento.com/hc/en-us/articles/360042646332)
 * [Adobe Commerce 2.3.5 Known Issues](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues) 
+

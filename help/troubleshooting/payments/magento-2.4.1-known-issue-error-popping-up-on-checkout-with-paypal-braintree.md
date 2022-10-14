@@ -40,3 +40,4 @@ The order is placed, but with an error. The *PayPal Checkout could not be initia
 ## Fix
 
 Since the order placing is not blocked, there is no need to perform workaround steps. 
+

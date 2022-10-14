@@ -66,3 +66,4 @@ If you have more than one `opcache.ini`, modify all of them.
 ```bash
     $ bin/magento setup:di:compile`
 ``` 
+

@@ -28,3 +28,4 @@ The latest Redis patches delivered by Adobe Commerce on cloud infrastructure Pat
 * decreasing Redis CPU consumption
 
 Adobe Commerce also recommends upgrading to Redis 5, if you are running Adobe Commerce on cloud infrastructure 2.3.3 or higher. 
+

@@ -94,3 +94,4 @@ In our developer documentation:
 
 * [Configure Redis](http://devdocs.magento.com/guides/v2.2/config-guide/redis/config-redis.html)
 * [Command-line upgrade](http://devdocs.magento.com/guides/v2.2/comp-mgr/cli/cli-upgrade.html) 
+

@@ -55,3 +55,4 @@ For Order payment status reports:
 1. You should see the last updated timestamp change and new transactions loaded in your report table.
 
 For PayPal payout reports, the expected result is a delay of 24-48h due to the dependency on PayPal's data publishing timeframe. 
+

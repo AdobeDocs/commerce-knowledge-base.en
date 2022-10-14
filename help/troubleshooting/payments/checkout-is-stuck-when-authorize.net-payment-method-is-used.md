@@ -47,3 +47,4 @@ For the changes to be applied, clean the cache by running
 ```bash
 bin/magento cache:clean
 ``` 
+

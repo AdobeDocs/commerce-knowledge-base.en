@@ -17,3 +17,4 @@ Yes, in order to keep the systems continuously syncing, Adobe Commerce fetches r
 ## To opt out of these emails:
 
 Follow these instructions for [Updating Notification Preferences on Amazon's site](https://sellercentral.amazon.com/gp/help/external/G871). 
+

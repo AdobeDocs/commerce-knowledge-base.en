@@ -48,3 +48,4 @@ To make your integration work while developers of the third-party service provid
 ## Related reading
 
  [Chrome SameSite update](https://www.chromestatus.com/feature/5088147346030592) 
+

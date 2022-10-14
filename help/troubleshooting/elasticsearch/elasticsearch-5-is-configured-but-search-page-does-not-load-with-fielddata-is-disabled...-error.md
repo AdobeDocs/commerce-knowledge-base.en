@@ -77,3 +77,4 @@ or in the Commerce Admin under **System** > **Tools** > **Cache Management**.
 
 Now you should be able to perform catalog searches with no issues.
  
+

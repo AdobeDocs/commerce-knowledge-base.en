@@ -73,3 +73,4 @@ b. NO – You may not have a certificate at all. If you have Adobe Commerce we r
 
 [Back to Step 1](#step-1)
  
+

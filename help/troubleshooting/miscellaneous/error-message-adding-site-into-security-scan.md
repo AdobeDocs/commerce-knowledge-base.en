@@ -43,3 +43,4 @@ If none of the above helps:
 ## Related reading
 
 * [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html) in our user guide. 
+

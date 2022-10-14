@@ -46,3 +46,4 @@ Reference the following documentation for instructions on how to upgrade:
 * [PWA Studio: Browser displays “Cannot proxy to“ error](https://support.magento.com/hc/en-us/articles/360036581232) in our support knowledge base
 * [Configure NPM to be able to use PWA Studio](https://support.magento.com/hc/en-us/articles/360022507012) in our support knowledge base
 * [PWA for Adobe Commerce Documentation](https://magento.github.io/pwa-studio/) 
+

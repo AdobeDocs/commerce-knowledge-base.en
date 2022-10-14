@@ -42,3 +42,4 @@ $ cd /var/www/html/magento2 && sudo find var vendor
   sudo chown -R :apache . && sudo chmod u+x bin/magento
 ```
  
+

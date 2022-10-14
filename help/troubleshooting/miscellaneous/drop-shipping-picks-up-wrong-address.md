@@ -23,3 +23,4 @@ Magento Inventory does not currently support using drop shipping rates calculati
 ## Related Reading
 
 * [Magento Inventory FAQ](https://github.com/magento/inventory/wiki/MSI-FAQs) in GitHub. 
+

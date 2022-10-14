@@ -74,3 +74,4 @@ For instructions, see [How to apply a composer patch provided by Adobe](https://
 * [Log files location for Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) in our developer documentation.
 
 ## Attached Files 
+

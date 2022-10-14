@@ -51,3 +51,4 @@ To check how much space you have for each environment:
 1. On the project tab, see the amount specified, for example:
 
     ![project_space.png](assets/project_space.png) 
+

@@ -42,3 +42,4 @@ The default value of 16MB for the MySQL `max_allowed_packets` setting is not lar
 * [Database upload loses connection to MySQL](https://support.magento.com/hc/en-us/articles/360037591172) in our support knowledge base.
 * [Database best practices for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041997312) in our support knowledge base.
 * [Most common database issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651) in our support knowledge base. 
+

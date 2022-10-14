@@ -39,3 +39,4 @@ User gets an error when validating the Fastly credentials.
 * [Cloud for Adobe Commerce > Fastly > Fastly service account and credentials](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials)
 
 * [Cloud for Adobe Commerce > Set up Fastly > Test the Fastly credentials](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) 
+

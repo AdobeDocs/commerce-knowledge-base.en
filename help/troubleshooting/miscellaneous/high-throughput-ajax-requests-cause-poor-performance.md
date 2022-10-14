@@ -48,3 +48,4 @@ If there are third-party AJAX requests that are triggered on each page, attempt 
 ### Related Reading
 
 For more information on private customer content, review [Private content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=ajax%20requests) in our developer documentation. 
+

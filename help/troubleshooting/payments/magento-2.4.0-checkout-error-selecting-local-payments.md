@@ -51,3 +51,4 @@ The solution is to ignore the displayed error message and continue with payment 
 * [Adobe Commerce 2.4.0 known issue: returns edit page stops working when creating shipping label](https://support.magento.com/hc/en-us/articles/360046441312)
 * [Adobe Commerce 2.4.0 known issue: refresh on Customer's Activities does not work](https://support.magento.com/hc/en-us/articles/360046091332)
 * [Adobe Commerce 2.4.0 B2B Admin can't add configurable product to quote](https://support.magento.com/hc/en-us/articles/360046801971) 
+

@@ -40,3 +40,4 @@ Remember, even if Google is reporting a higher number than your database, it is 
 * Create a clone of your **Revenue** metric with no filters restricting the result. The Orders We Count or Customers We Count filters are important, but Google has no equivalent filter.
 * Audit a small recent period, such as a span of a few hours earlier this week.
 * Once you have Google eCommerce tracking set up in MBI, use Filter or Group-By to audit a single Source, Medium, or Campaign. Then do the same in Google. A source with less traffic/revenue will be better, as it is like to have less margin for error. 
+

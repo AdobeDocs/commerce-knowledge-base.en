@@ -73,3 +73,4 @@ Particular topics you might be interested in:
 
 * [Adobe Commerce on cloud infrastructure variables](https://devdocs.magento.com/cloud/env/variables-cloud.html)
 * Add environment variables via [CLI](https://devdocs.magento.com/cloud/project/project-webint-basic.html#project-conf-env-var) and the [Project Web Interface](https://devdocs.magento.com/cloud/project/project-webint-basic.html#project-conf-env-var) 
+

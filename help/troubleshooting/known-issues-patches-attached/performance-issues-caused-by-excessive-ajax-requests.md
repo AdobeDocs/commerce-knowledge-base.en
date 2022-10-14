@@ -32,3 +32,4 @@ If you have a different version of Adobe Commerce, consider updating to the late
 See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
 ## Attached Files 
+

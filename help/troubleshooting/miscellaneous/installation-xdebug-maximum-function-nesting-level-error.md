@@ -21,3 +21,4 @@ It is strongly recommended that you DO NOT USE `xdebug` on a Production environm
 There is a known issue with `xdebug` that can affect Adobe Commerce installations or access to the storefront or Commerce Admin after installation.
 
 For details, see [Known issue with xdebug](https://support.magento.com/hc/en-us/articles/360034242212) in our support knowledge base. 
+

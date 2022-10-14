@@ -82,3 +82,4 @@ Follow these steps:
 1. Select the record where `row_id` = `entity_id` and copy the `updated_in` value.
 1. Select the record where `row_id` is not equal to `entity_id` and paste the copied `updated_in` value as the `created_in` value. See the screenshot below as an illustration.    ![Copying the created_in value.png](assets/copy_created-in_value.png)
 1. Verify that the category update record, the `created_in` value of which you have updated (in step 3), exists in the `staging_update` table. *For example:* IF the copied `created_in` value is 1509281953, THEN the entity with `row_id` = 1509281953 must exist in the `staging_update` table 
+

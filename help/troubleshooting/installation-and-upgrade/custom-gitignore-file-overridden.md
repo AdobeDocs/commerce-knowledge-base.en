@@ -77,3 +77,4 @@ To keep your custom `.gitignore file` you need to ignore it in the `magento-depl
 ## Related reading
 
 * [Tracked .gitignore file is overriden by composer!](https://github.com/magento/magento2/issues/32888) in Magento2 GitHub. 
+

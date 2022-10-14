@@ -55,3 +55,4 @@ To make these changes for the Staging or Production environment of the Pro archi
 ### Applying the changes
 
 Once you change the `.magento/services.yaml` file, you need to commit and push your changes for them to be applied. The push will trigger the deployment process. 
+

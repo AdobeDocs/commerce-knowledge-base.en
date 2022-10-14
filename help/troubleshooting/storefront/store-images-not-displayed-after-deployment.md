@@ -34,3 +34,4 @@ To perform this, you need the SSH information and the store URL available throug
     ```
 
 1. Test the category pages through the store URL. 
+

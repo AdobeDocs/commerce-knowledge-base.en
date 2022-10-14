@@ -82,3 +82,4 @@ In this case, you might refer to the [Site Down Troubleshooter](https://support.
 1. Wait for the cron job to run (runs in up to five minutes if set up properly) or run it manually if you do not have cron set up.
 
 The problem should be solved straight after fixing the invalid link. If the problem persists, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket). 
+

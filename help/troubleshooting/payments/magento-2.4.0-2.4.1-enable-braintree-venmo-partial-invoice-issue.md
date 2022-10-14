@@ -37,3 +37,4 @@ The following error message is displayed: *The "vault\_capture" command doesn't 
 ## Workaround
 
 Capture the whole amount when creating invoices for orders placed using Braintree through Venmo. 
+

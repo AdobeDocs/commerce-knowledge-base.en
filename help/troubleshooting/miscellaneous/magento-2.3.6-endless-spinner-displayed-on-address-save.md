@@ -26,3 +26,4 @@ The issue was fixed in Adobe Commerce 2.3.1.
 
 * [Different addresses not allowed when unselecting 'My billing and shipping address are the same' using VertexAddress Cleansing](https://support.magento.com/hc/en-us/articles/360046998952) in our support knowledge base.
 * [Adobe Commerce 2.4.1 Vertex Address validation message post address update](https://support.magento.com/hc/en-us/articles/360050139631) in our support knowledge base. 
+

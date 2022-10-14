@@ -51,3 +51,4 @@ When the `Magento_Banner` module is enabled, Adobe Commerce sends Ajax requests 
 
 1. Disable the `Magento_Banner` module output, as described in [Disable module output](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) in our developer documentation. The module name you need to use is `Magento_Banner`.
 1. Deploy your code. For Adobe Commerce on cloud infrastructure, deploy as described in the [Deploy your store](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) article in our developer documentation. 
+

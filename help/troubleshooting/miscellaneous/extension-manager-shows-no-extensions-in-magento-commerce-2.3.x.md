@@ -38,3 +38,4 @@ The extension appears on the Extension Manager section of the Commerce Admin.
 ## Workaround
 
 Use the command line Adobe Commerce installation as shown in [General CLI installation](https://devdocs.magento.com/extensions/install/) in our developer documentation. 
+

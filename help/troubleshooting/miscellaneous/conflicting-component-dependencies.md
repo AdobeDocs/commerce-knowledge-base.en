@@ -62,3 +62,4 @@ Conflicting component dependencies can also be caused by third-party modules tha
 ## Magento Open Source {#opensource}
 
 Request assistance at [our main forum](https://community.magento.com/) or [contact an Adobe Commerce Partner](https://magento.com/find-a-partner) that assists in Open Source issues. 
+

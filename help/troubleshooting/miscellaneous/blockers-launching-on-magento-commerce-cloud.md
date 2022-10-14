@@ -81,3 +81,4 @@ You may also consider [minification](https://devdocs.magento.com/cloud/live/sens
  **Related articles:**
 
 * [Test deployment](http://devdocs.magento.com/guides/v2.2/cloud/live/stage-prod-test.html) in our developer documentation. 
+

@@ -63,3 +63,4 @@ Change your PayPal profile to allow for multiple payments per invoice ID. You ne
 * In our developer documentation:
     * [Set up PayPal payment methods for Adobe Commerce on cloud infrastructure](http://devdocs.magento.com/guides/v2.2/cloud/live/paypal-onboarding.html)
     * [Payments Integrations](http://devdocs.magento.com/guides/v2.2/payments-integrations/bk-payments-integrations.html) 
+

@@ -60,3 +60,4 @@ For Adobe Commerce on cloud infrastructure, all versions,
 
 * [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
  
+

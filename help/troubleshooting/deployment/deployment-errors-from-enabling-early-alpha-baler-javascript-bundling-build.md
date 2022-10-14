@@ -51,3 +51,4 @@ You can review existing Baler Alpha documentation at [Github/Magento/Baler/Getti
 * You can also enable Adobe Commerce's built-in bundling (basic bundling) from the command line: `php -f bin/magento config:set dev/js/enable_js_bundling 1`
 
 To learn more, refer to [CSS and Javascript file optimization on Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises](https://support.magento.com/hc/en-us/articles/360044482152). 
+

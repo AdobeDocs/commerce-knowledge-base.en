@@ -43,3 +43,4 @@ rm -rf <magento_root>/generated/code/* <magento_root>/generated/metadata/* <mage
 ```
 
 After clearing the directories, try the installation again. 
+

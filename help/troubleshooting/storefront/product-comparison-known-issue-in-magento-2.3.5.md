@@ -47,3 +47,4 @@ You can view the fix in GitHub (please consider, that the fix did not go through
 </li>
 </ul>
 </li><li><a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5 Known Issues</a> in our developer documentation</li></ul> 
+

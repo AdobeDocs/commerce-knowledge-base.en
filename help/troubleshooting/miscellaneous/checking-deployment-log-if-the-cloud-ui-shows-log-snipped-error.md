@@ -62,3 +62,4 @@ Note that the log shown in the UI should not be treated as the source of truth, 
 * [Adobe Commerce on cloud infrastructure > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
 * [Adobe Commerce on cloud infrastructure > View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html)
  
+

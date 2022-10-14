@@ -46,3 +46,4 @@ Increase the “Max Session Size” value in (**Stores** > **Configuration** > *
 ## Related reading
 
 * [Marketing Menu](https://docs.magento.com/user-guide/marketing/marketing-menu.html) in our user guide. 
+

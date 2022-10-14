@@ -34,3 +34,4 @@ The patch is applicable for the following Adobe Commerce versions:
 
 * [Shipping Carriers > DHL](https://docs.magento.com/user-guide/shipping/dhl.html) in our user guide
 * [Delivery Methods](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) in our user guide 
+

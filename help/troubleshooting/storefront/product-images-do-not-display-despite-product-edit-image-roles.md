@@ -100,3 +100,4 @@ For the changes to display, refresh the page cache using the **Cache Management*
 
 * [Cache management](http://docs.magento.com/m2/ee/user_guide/system/cache-management.html) in our user guide
 * [Manage the cache](http://devdocs.magento.com/guides/v2.2/config-guide/cli/config-cli-subcommands-cache.html) in our developer documentation 
+

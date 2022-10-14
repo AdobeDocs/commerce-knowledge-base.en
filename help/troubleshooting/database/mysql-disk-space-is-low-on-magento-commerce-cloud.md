@@ -141,3 +141,4 @@ Allocate more disk space for MySQL if you have some unused. See the [Check disk 
 * For Pro plan Staging and Production environments, [contact support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to allocate more disk space if you have some unused.
 
 If you have reached your space limit and still experience low space issues, consider buying more disk space, contact your Customer Success Manager (CSM) for details. 
+

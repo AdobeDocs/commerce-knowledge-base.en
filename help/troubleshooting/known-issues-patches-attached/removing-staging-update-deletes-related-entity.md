@@ -76,3 +76,4 @@ The MDVA-23505\_EE\_2.2.5\_COMPOSER\_v1.patch patch is also compatible (but migh
 See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
 
 ## Attached Files 
+

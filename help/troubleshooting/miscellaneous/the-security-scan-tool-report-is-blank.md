@@ -42,3 +42,4 @@ Try to open your website.
 
 * [Go live and launch](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) in our developer documentation.
 * [Security Scan](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) in our user guide. 
+

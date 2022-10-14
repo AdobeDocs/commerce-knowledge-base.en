@@ -58,3 +58,4 @@ If you have access to the Marketplace account associated with the old key, take 
 ## Related reading
 
 * [Get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html) in our developer documentation. 
+
