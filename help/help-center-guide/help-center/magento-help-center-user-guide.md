@@ -6,7 +6,7 @@ description: "Learn how to submit a support ticket to the Adobe Commerce Help Ce
 
 # Adobe Commerce Help Center User Guide
 
-In this guide, learn how to submit a support ticket to the [Adobe Commerce Help Center] and provide shared access to the Magento accounts.
+In this guide, learn how to submit a support ticket to the [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) and provide shared access to the Magento accounts.
 
 >[!info]
 >
@@ -50,7 +50,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 <h2 id="what-is">WHAT IS ADOBE COMMERCE HELP CENTER?</h2>
 
-The Adobe Commerce Help Center is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also 
+The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also 
 
 <h2 id="support-tickets">SUPPORT TICKETS</h2>
 
