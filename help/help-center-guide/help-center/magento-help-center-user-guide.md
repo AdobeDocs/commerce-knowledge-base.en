@@ -8,18 +8,19 @@ description: "Learn how to submit a support ticket to the Adobe Commerce Help Ce
 
 In this guide, learn how to submit a support ticket to the [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) and provide shared access to the Magento accounts.
 
->[!info]
+>[!NOTE]
 >
 >The Knowledge Base part of the Adobe Commerce Help Center has migrated to the Adobe Experience League portal. When you create a support ticket, related Knowledge Base articles will be suggested to you, along with other relevant Adobe Commerce documentation from the Adobe Experience League.
 
 **Major Update:** October 14, 2022
 
-**[WHAT IS THE ADOBE COMMERCE HELP CENTER?](#what-is)**  
+**[WHAT IS THE ADOBE COMMERCE HELP CENTER?](#what-is)**
 
 **[SUPPORT TICKETS](#support-tickets)**
 
 * [Log In To Help Center](#login)
 * [Submit a support ticket](#submit-ticket)
+
     * [Help Center start page](#submit-ticket-help-center-start-page)
     * [Magento Account page](#submit-ticket-magento-account-page)
     * [Magento Cloud Account page](#submit-ticket-magento-cloud-account-page)
@@ -27,6 +28,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
     * ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](#no-submit-link)
     * [*"Please verify your email address"* error on Magento Account page](#verify-email-address)
     * [Ticket submission form: merchant is not displayed in Organization drop-down](#merchant-not-displayed)
+
 * [Track your tickets](#track-tickets)
 * [Adobe Commerce P1 hotline (Login Required)](#P1-hotline)
 * [Support ticket fields explained](#ticket-fields-explained)
@@ -48,15 +50,15 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 **[MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES](#magento-u)**
 
-<h2 id="what-is">WHAT IS ADOBE COMMERCE HELP CENTER?</h2>
+## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
 
 The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also 
 
-<h2 id="support-tickets">SUPPORT TICKETS</h2>
+## SUPPORT TICKETS {#support-tickets}
 
-Adobe Commerce Ticketing System allows working with support tickets to address the particular issues you are experiencing while working with Adobe Commerce — for all Adobe Commerce products.
+Adobe Commerce Ticketing System allows working with support tickets to address the particular issues you are experiencing while working with Adobe Commerce &ndash; for all Adobe Commerce products.
 
-<h2 id="login">LOG IN TO HELP CENTER</h2>
+## LOG IN TO HELP CENTER {#login}
 
 Logging in allows you to submit, update, and respond to questions from agents on support tickets.
 
@@ -67,40 +69,42 @@ To log in to the Adobe Commerce Help Center, follow these steps:
 
 Use your Magento Account credentials to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) in our user guide.
 
-<h3 id="submit-ticket"><strong>Submit a support ticket</strong></h3>
+### <strong>Submit a support ticket</strong> {#submit-ticket}
 
 Once successfully logged in, you may submit a support ticket using the Help Center start page, your Magento Account page, and your Magento Cloud Account page.
 
 * If you are the **Account Owner** follow the steps below.
 * If you are a **Shared Access user, you must switch accounts first** [Access shared account (switch accounts)](#switch-accounts), and then you may proceed to the steps below.
 
-<h4 id="submit-ticket-help-center-start-page">Help Center start page</h4>
+#### Help Center start page {#submit-ticket-help-center-start-page}
 
 To submit a new support ticket using the starting page of Adobe Commerce Help Center, follow these steps:
 
 1. Go to [Adobe Commerce Help Center](https://support.magento.com/hc/en-us).
 1. Click **Submit a ticket** at the upper-right corner.
 
-    <img src = "assets/submit-a-ticket-4.png" alt = "submit-a-ticket" width="800px">
+   ![submit-a-ticket](assets/submit-a-ticket-4.png){width="800"}
+
 1. Fill in the fields.
 1. Click **Submit**.
 
 You **must log in** to the Help Center using your Magento Account in order to submit a support ticket. Until you are logged in, [the **Submit a ticket** button will not be displayed](#no-submit-link).
 
-<h4 id="submit-ticket-magento-account-page">Magento Account page</h4>
+#### Magento Account page {#submit-ticket-magento-account-page}
 
 To submit a new support ticket using your Magento Account page, follow these steps:
 
 1. Log in to your Magento Account. See [detailed instructions](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html) in our user guide.
 1. Click the **Support** tab.    
 
-    <img src= "assets/magento_account_support_tab.png" alt = "magento_account_support_tab" width = "800px">
+   ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
+
 1. The Help Center start page loads for you.
 1. Click **Submit a ticket** in the upper-right corner.
 1. Fill in the fields.
 1. Click **Submit**.
 
-<h4 id="submit-ticket-magento-cloud-account-page">Magento Cloud Account page</h4>
+#### Magento Cloud Account page {#submit-ticket-magento-cloud-account-page}
 
 To submit a new support ticket using your Magento Cloud Account page, follow these steps:
 
@@ -111,13 +115,13 @@ To submit a new support ticket using your Magento Cloud Account page, follow the
 1. Fill in the fields.
 1. Click **Submit**.
 
-<h4 id="info-in-support-ticket">Information in your support ticket</h4>
+#### Information in your support ticket {#info-in-support-ticket}
 
 The fields, marked with a red asterisk ( **\*** ), are required and must be filled in. If you leave any of those fields empty, you will not be able to submit your ticket.
 
 See [Ticket fields explained](#ticket-fields-explained) below for more detailed information.
 
-<h3 id="no-submit-link">"Submit a ticket" link not displayed on Adobe Commerce Help Center start page</h3>
+### "Submit a ticket" link not displayed on Adobe Commerce Help Center start page {#no-submit-link}
 
 #### Issue
 
@@ -147,9 +151,9 @@ To be able to use shared access account to submit support tickets, you need to p
 
 #### Still don't see the **Submit a ticket** link
 
-If you don’t have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
+If you don't have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
 
-If you are an Adobe Commerce license owner, please verify that you don’t have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
+If you are an Adobe Commerce license owner, please verify that you don't have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
 
 <span class="wysiwyg-underline">How To Check Your Payment Status</span>:
 
@@ -166,28 +170,27 @@ We provide support only to Adobe Commerce license owners and accounts which have
 
 If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [Help Center login issues](mailto:helpcenterloginissues@magento.com), and we will gladly review your account settings and support entitlements.
 
-<h3 id="verify-email-address">
-<em>"Please verify your email address"</em> error on the Magento Account page</h3>
+### "Please verify your email address" error on the Magento Account page {#verify-email-address}
 
 You won't be able to submit a support ticket if you receive the *Please verify your email address* error similar to the one below on the [Magento Account page](https://account.magento.com/).
 
-<img src = "assets/Verify_Email_Address_Error.png" alt = "Verify_Email_Address_Error" width="800px">
+![Verify_Email_Address_Error](assets/Verify_Email_Address_Error.png){width="800"}
 
 The solution is to validate your email address:
 
 1. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below.   
 
-    <img src = "assets/Validate_Email_Solution.png" alt = "Validate_Email_Solution" width="800px">
+   ![Validate_Email_Solution](assets/Validate_Email_Solution.png){width="800"}
 
 1. Clicking the **Validate Email** button will send an email to the email address registered for this Magento Account with a link to validate the email address.
 1. Click on the email validation link to validate your email and resolve this issue.
 1. If you do not receive an email with an email validation link, please email [Help Center login issues](mailto:helpcenterloginissues@magento.com) and indicate that you cannot validate your email address.
 
->![info]
+>[!NOTE]
 >
 >This only applies to the email validation link from https://account.magento.com (Magento Account page). If you are not receiving an email validation link from https://accounts.magento.cloud/user (Cloud Account page), please [submit a support ticket using the standard process](#submit-ticket).
 
-<h3 id="merchant-not-displayed">Ticket submission form: merchant is not displayed in Organization drop-down</h3>
+### Ticket submission form: merchant is not displayed in Organization drop-down {#merchant-not-displayed}
 
 #### Issue
 
@@ -215,7 +218,7 @@ After having been granted shared access from the merchant, you need to take the 
 1. In the **Switch Accounts** drop-down field at the top-right corner, select the shared access account.
 1. Click on the **Support** tab in the left panel. Doing this will ensure that the Adobe Commerce Help Center is configured properly via the SSO call from Magento.com to Adobe Commerce Help Center.
 
-<h3 id="track-tickets">Track your tickets</h3>
+### Track your tickets {#track-tickets}
 
 Your tickets are those that you:
 
@@ -226,7 +229,7 @@ Your tickets are those that you:
 
 To list all your tickets, click your profile menu (upper-right corner) on the Help Center start page and select **My tickets**.
 
-<img src = "assets/my-tickets-8.png" alt = "disc critical alert" width="800px">
+![disc critical alert](assets/my-tickets-8.png){width-"800"}
 
 To switch between your tickets and the tickets you have been CC'd on, click the corresponding tab:
 
@@ -260,11 +263,11 @@ To follow/unfollow tickets for an organization:
 
 ![hc_follow-org-tickets.png](assets/hc_follow-org-tickets.png)
 
-<h3 id="P1-hotline">Adobe Commerce P1 hotline</h3>
+### Adobe Commerce P1 hotline {#P1-hotline}
 
 **Login is required** to access the [Adobe Commerce P1 hotline](https://support.magento.com/hc/en-us/articles/360042536151) article which provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
 
-<h3 id="ticket-fields-explained">Support ticket fields explained</h3>
+### Support ticket fields explained {#ticket-fields-explained}
 
 #### Affected URL
 
@@ -276,7 +279,7 @@ Attach logs, screenshots, video recordings, or any other media that may better i
 
 #### Backoffice URL (MOM only)
 
-URL must begin with “https://”. It will typically be in the format: merchant name +“.mcom.magento.com/admin/login”, example, "https://luma.mcom.magento.com/admin/login".
+URL must begin with "https://". It will typically be in the format: merchant name +".mcom.magento.com/admin/login", example, "https://luma.mcom.magento.com/admin/login".
 
 You can also put the direct link related to your issue.
 
@@ -351,7 +354,7 @@ This is a drop-down and only applicable for Order Management product.
 
 #### Organization
 
-Indicate the organization you would like your ticket to be associated with — in case you work with several organizations.
+Indicate the organization you would like your ticket to be associated with &ndash; in case you work with several organizations.
 
 This field appears when your account is associated with more than one organization.
 
@@ -405,13 +408,13 @@ Please select the Adobe Commerce version you are requesting help with. All suppo
 
 To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
 
-<img src = "assets/magento-env-id.png" alt = "Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search">
+![Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search](assets/magento-env-id.png)
 
 If you are using [Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html) or [OpenSearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/es-aws.html), do not select this option.
 
 To obtain this information, in the Adobe Commerce Admin, go to **Marketing** > **Live Search** > **GraphQL Playground**, scroll down to the bottom of the page, then click on **HTTP HEADERS**.
 
-<h3 id="ticket-status">Ticket status: How your tickets are processed</h3>
+### Ticket status: How your tickets are processed {#ticket-status}
 
 Your ticket may have either of these three statuses.
 
@@ -431,7 +434,7 @@ Reference the [Adobe Commerce support ticket lifecycle policy update](https://su
 
 Adobe Commerce support has provided a solution for your issue, and you have agreed it has been helpful. It is you who marks the ticket as **Solved**. If the fixed issue occurs again, you may reopen the ticket, setting its status to back to **Open**.
 
-<h3 id="conversation-in-ticket">Conversation in your ticket</h3>
+### Conversation in your ticket {#conversation-in-ticket}
 
 Conversation in your ticket unites all comments written by you or the Adobe Commerce support team. Comments are displayed from latest (on top) to earliest (bottom).
 
@@ -440,29 +443,31 @@ To add a comment to the conversation, follow these steps:
 1. Scroll to the bottom of your ticket.
 1. Click the **Add to conversation** field to start writing.
 
-    ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)    
+    ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)
+
 1. To add a person to your comment, specify the email in the **CC** field of the comment field.
 
-    ![hc_conversation-write.png](assets/hc_conversation-write.png)    
+    ![hc_conversation-write.png](assets/hc_conversation-write.png)
+
 1. Once you are finished with your comment, click **Submit**.
 
-<h3 id="resolve-ticket">Resolve your ticket</h3>
+### Resolve your ticket {#resolve-ticket}
 
 To resolve your ticket, click **Mark as solved** at the bottom of your ticket.
 
-<h3 id="follow-up">Open a follow-up ticket</h3>
+### Open a follow-up ticket {#follow-up}
 
 Opening a follow-up ticket will ensure that the original issue is linked to the follow-up ticket for continuity.
 
 To open a follow-up ticket, click the "*create a follow-up*" link at the bottom of the ticket you wish to create a follow up to.
 
-<h2 id="shared-access">SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT</h2>
+## SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT {#shared-access}
 
 You may grant limited access to your account for other Magento Account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
 
 You can provide and manage shared access using your Magento Account page at [https://account.magento.com](https://account.magento.com/).
 
-<h3 id="who-can-provide-shared-access">Who can provide shared access</h3>
+### Who can provide shared access {#who-can-provide-shared-access}
 
 Only the Account Owner (Primary Account Holder) with the according privileges can provide shared access for other users.
 
@@ -470,7 +475,7 @@ Managing users and their access is the customer's responsibility, especially in 
 
 Users who have been provided with shared access cannot transfer or grant such access to other users.
 
-<h3 id="find-account-owner-cloud">Get to know Account Owner (Cloud)</h3>
+### Get to know Account Owner (Cloud) {#find-account-owner-cloud}
 
 To find out who is the Owner of your Adobe Commerce on cloud infrastructure Account, follow these steps:
 
@@ -479,28 +484,28 @@ To find out who is the Owner of your Adobe Commerce on cloud infrastructure Acco
 1. Go to the **Users** tab.
 1. Find the user who is mentioned as the **Account owner**.
 
-    <img src="assets/magento_cloud_account_owner.png" alt= "magento_cloud_account_owner" width="800px">
+   ![magento_cloud_account_owner](assets/magento_cloud_account_owner.png){width="800"}
 
 If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Adobe Commerce Customer Success Manager (CSM).
 
-<h3 id="provide-shared-access">Provide shared access</h3>
+### Provide shared access {#provide-shared-access}
 
 See the [Sharing Your Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-share.html) section of Adobe Commerce User Guide for detailed steps on setting up a shared account.
 
 After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Magento Account page.
 
-<img src="assets/magento-account-shared-manage-permissions.png" alt="magento-account-shared-manage-permissions" width="800px">
+![magento-account-shared-manage-permissions](assets/magento-account-shared-manage-permissions.png){width="800"}
 
-<h3 id="revoke-shared-access">Revoke (delete) shared access</h3>
+### Revoke (delete) shared access {#revoke-shared-access}
 
 1. Log in to your Magento Account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
-1. Find the user to revoke shared access from and click <img src="assets/remove_icon.png" alt="remove icon" width="25px" height="25px"> in the user's row (**Actions** column).
+1. Find the user to revoke shared access from and click ![remove icon](assets/remove_icon.png){width="25"} in the user's row (**Actions** column).
 1. Click **Delete User** to revoke access or X in the top corner to cancel revoking.
 
-    <img src="assets/revoke_shared_access.png" alt="revoke_shared_access" width="800px">
+   ![revoke_shared_access](assets/revoke_shared_access.png){width="800"}
 
-    You may also revoke shared access using the **Edit** menu:
+   You may also revoke shared access using the **Edit** menu:
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
@@ -508,26 +513,27 @@ After providing shared access for a new user, the related information is availab
 1. Click **Delete This User** at the bottom of the page.
 1. In the confirmation popup, click **Delete User** to revoke access or X in the top corner to cancel revoking.
 
-<h3 id="switch-accounts">Access shared account (switch accounts)</h3>
+### Access shared account (switch accounts) {#switch-accounts}
 
 To use the shared access provided for you, follow these steps:
 
 1. Log in to your Magento Account at [https://account.magento.com](https://account.magento.com/).
 1. Click the **Switch Accounts** menu and select an account.
 
-    <img src="assets/magento-account-shared-switch.png" alt="magento-account-shared-switch" width=800px>
+   ![magento-account-shared-switch](assets/magento-account-shared-switch.png){width="800"}
 
 To know which account you are currently using (your own native account or shared access), see the **Switch Accounts** menu: it displays the active account.
 
-<h3 id="troubleshooting-shared-access">Shared access troubleshooting</h3>
+### Shared access troubleshooting {#troubleshooting-shared-access}
 
 Please refer to the [Shared access troubleshooting article](https://support.magento.com/hc/en-us/articles/360020434012) in our support knowledge base.
 
-<h2 id="billing-faq">BILLING FAQ FOR ADOBE COMMERCE</h2>
+## BILLING FAQ FOR ADOBE COMMERCE {#billing-faq}
 
 Merchants typically pay for our services by a credit card (CC) transaction, and this [Billing FAQ for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4427413247245) is a resource to assist you when you pay your bill.
 
-<h2 id="magento-u">MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES</h2>
+## MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES {#magento-u}
 
-Magento U has merged with [Adobe Digital Learning Services (ADLS)](https://learning.adobe.com/).<br>
-Magento U Zendesk will be phased out.<br>
+Magento U has merged with [Adobe Digital Learning Services (ADLS)](https://learning.adobe.com/).
+
+Magento U Zendesk will be phased out.
