@@ -6,7 +6,7 @@ promoted: True
 # Adobe Commerce 2.4.0-2.4.5 security hotfix for CWE-79
 
 On October 11, 2022, Adobe released regularly scheduled security patches 2.4.5-p1 and 2.4.4-p2 for Adobe Commerce and Magento Open Source.<br>
-Among these patches is an update that resolves a Cross-site Scripting (Stored XSS) ([CWE-79](https://cwe.mitre.org/data/definitions/79.html])) vulnerability tracked by CVE-2022-35698 rated [important](https://helpx.adobe.com/security/severity-ratings.html).
+Among these patches is an update that resolves a Cross-site Scripting (Stored XSS) ([CWE-79](https://cwe.mitre.org/data/definitions/79.html)) vulnerability tracked by CVE-2022-35698 rated [important](https://helpx.adobe.com/security/severity-ratings.html).
 
 Adobe is not aware of any exploits for this issue.<br>
 In this article you will find hotfix patches for this issue for the earlier versions of Adobe Commerce and Magento Open Source. 
@@ -57,7 +57,7 @@ Considering that it is not possible to easily check if the issue was patched, yo
 
     ```bash
     ║ Id            │ Title                                                        │ Category        │ Origin                 │ Status      │ Details                                          ║ ║ N/A           │ ../m2-hotfixes/ACSD-47578__2.4.4_2.4.5_COMPOSER_patch.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                
-     ```
+    ```
 
 ## Security updates
 
