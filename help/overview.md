@@ -13,13 +13,13 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
 | CATEGORY | DESCRIPTION | 
 | --- | --- |
-| [Support Tools](https://experienceleague.corp.adobe.com/docs/commerce-knowledge-base/kb/support-tools/overview.html?lang=en) | Improve your e-commerce store experience with the different support tools provided by Adobe Commerce. We provide personalized best practices, diagnostic and monitoring tools, and the most relevant information about your site. |
-| [Announcements](https://experienceleague.corp.adobe.com/docs/commerce-knowledge-base/kb/announcements/overview.html?lang=en) | Get important updates from the Adobe Commerce teams. |
-| [Best Practices](https://experienceleague.corp.adobe.com/docs/commerce-knowledge-base/kb/best-practices/overview.html?lang=en) | See best practice recommendations based on the experience of the Adobe Commerce Support team. |
-| [Troubleshooting](https://experienceleague.corp.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/overview.html?lang=en) | Get self-service solutions and patches from the Adobe Commerce Support team. |
-| [Help Center User Guide](https://experienceleague.corp.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en) | Learn how to manage your support tickets, grant shared access, and browse the Knowledge Base effectively. |
-| [How-To](https://experienceleague.corp.adobe.com/docs/commerce-knowledge-base/kb/how-to/overview.html?lang=en) | Get clear step-by-step instructions from the Adobe Commerce Support team. |
-| [FAQ](https://experienceleague.corp.adobe.com/docs/commerce-knowledge-base/kb/faq/overview.html?lang=en) | Find frequently asked questions about Adobe Commerce policies, strategies, and specifics about Adobe Commerce features. | 
+| [Support Tools](/help/support-tools/overview.md) | Improve your e-commerce store experience with the different support tools provided by Adobe Commerce. We provide personalized best practices, diagnostic and monitoring tools, and the most relevant information about your site. |
+| [Announcements](/help/announcements/overview.md) | Get important updates from the Adobe Commerce teams. |
+| [Best Practices](/help/best-practices/overview.md) | See best practice recommendations based on the experience of the Adobe Commerce Support team. |
+| [Troubleshooting](/help/troubleshooting/overview.md) | Get self-service solutions and patches from the Adobe Commerce Support team. |
+| [Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md) | Learn how to manage your support tickets, grant shared access, and browse the Knowledge Base effectively. |
+| [How-To](/help/how-to/overview.md) | Get clear step-by-step instructions from the Adobe Commerce Support team. |
+| [FAQ](/help/faq/overview.md) | Find frequently asked questions about Adobe Commerce policies, strategies, and specifics about Adobe Commerce features. | 
 
 ## What's New
 
