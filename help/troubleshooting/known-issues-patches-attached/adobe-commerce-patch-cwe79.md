@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0-2.4.5 security hotfix for CWE-79"
+title: "Adobe Commerce 2.4.0-2.4.5 security hotfix for CVE-2022-35698"
 labels: Adobe Commerce,Magento Open Source,security,patch,cloud infrastructure,on-premises,2,4,4,2.4.3-p1,2.4.3,2.4.2-p2,2.4.2-p1,2.4.2,2.4.1-p1,2.4.1,2.4.0-p1,2.4.0,composer
 promoted: True
 ---
