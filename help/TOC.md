@@ -683,7 +683,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying](/help/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.md)
     * [Deployment stuck with "Unable to upload the application to the remote cluster" error](/help/troubleshooting/deployment/deployment-stuck-with-unable-to-upload-the-application-to-the-remote-cluster-error.md)
   * Known issues {#known-issues-patches-attached}
-    * [Adobe Commerce 2.4.0-2.4.5 security hotfix for CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.0-2.4.5-security-hotfix-for-cve-2022-35698.md)
+    * [Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.3-p2-2.4.5-security-hotfix-for-cve-2022-35698.md)
     * [Empty shopping cart issue when multiple click on checkout from mini cart](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
     * [Adobe Commerce 2.4.4: Unable to create partial invoices](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
     * [New orders are sent to archive](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
