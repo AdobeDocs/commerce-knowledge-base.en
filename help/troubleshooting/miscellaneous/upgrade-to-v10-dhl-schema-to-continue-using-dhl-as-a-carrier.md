@@ -27,15 +27,24 @@ For merchants who do not wish to upgrade to 2.4.5-p1 and 2.4.4-p2 will need to a
 
 The patch ID is AC-3023 available in the Quality Patches Tool version 1.1.21.
 
-Refer to the [Quality Patches Tool (QPT) > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) article in Adobe Experience League for information on how to use QPT and install patches.
+Refer the following links on how to use Quality Patches Tool and install patches depending on your deployment methods: 
+
+* Adobe Commerce on-premise: [Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 **The patch is applicable for the following Adobe Commerce versions (all deployment methods):**
 
 * 2.3.7, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 2.4.3-p2, 2.4.3-p3, 2.4.4
 
+## Useful links
+
+* [Quality Patches Tool > Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=en) in Adobe Experience League.
+
+* [Quality Patches Tools landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
+
 ## Related reading
 
-* [Apply a patch to continue offering DHL as shipping carrier](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html?lang=en) in Adobe Experience League.
+* [Apply a patch to continue offering DHL as shipping carrier](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html?lang=en) in Adobe Experience League. 
+
 * [Shipping Carriers > DHL](https://docs.magento.com/user-guide/shipping/dhl.html) in our user guide.
 * [Delivery Methods](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) in our user guide.
-
