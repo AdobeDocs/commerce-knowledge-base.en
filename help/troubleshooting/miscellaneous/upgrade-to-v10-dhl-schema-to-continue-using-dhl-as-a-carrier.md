@@ -29,7 +29,7 @@ The patch ID is AC-3023 available in the Quality Patches Tool version 1.1.21.
 
 Refer to the [Quality Patches Tool (QPT) > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) article in Adobe Experience League for information on how to use QPT and install patches.
 
-The patch is applicable for the following Adobe Commerce versions (all deployment methods):
+**The patch is applicable for the following Adobe Commerce versions (all deployment methods):**
 
 * 2.3.7, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 2.4.3-p2, 2.4.3-p3, 2.4.4
 
