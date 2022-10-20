@@ -12,7 +12,7 @@ This article discusses how to resolve the Adobe Commerce on cloud infrastructure
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure 2.2.x, 2.3.x
+* Adobe Commerce on cloud infrastructure 2.2.x, 2.3.x, 2.4.x
 
 ## Issue
 
