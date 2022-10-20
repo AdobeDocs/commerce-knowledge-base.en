@@ -4,7 +4,9 @@ labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cl
 Description: This article provides a solution for the issue where the product customizable options drag and drop does not work as expected.
 ---
 
-The [!DNL ACSD-46703] patch fixes the issue where the product customizable options drag and drop does not work as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.20 is installed. The patch ID is [!DNL ACSD-46703]. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+# ACSD-46703: Product customizable options drag and drop don't work as expected
+
+The ACSD-46703 patch fixes the issue where the product customizable options (drag and drop) don't work as expected. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.20 is installed. The patch ID is ACSD-46703. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -18,7 +20,7 @@ The [!DNL ACSD-46703] patch fixes the issue where the product customizable optio
 
 >![info]
 >
->Note: the patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [[!DNL QPT] landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
+>Note: the patch might become applicable to other versions with new [Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -44,14 +46,14 @@ You are not able to move any value to another page using the drag and drop funct
 
 To apply individual patches, use the following links depending on your deployment method:
 
-* Adobe Commerce or [!DNL Magento Open Source on-premises]: [[!DNL Quality Patches Tools] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
+* Adobe Commerce or Magento Open Source on-premises: [Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
 To learn more about Quality Patches Tool, refer to:
 
-* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html?lang=en) in Adobe Experience League.
-* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html?lang=en) in Adobe Experience League.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html?lang=en) in Adobe Experience League.
+* [Check if patch is available for your Adobe Commerce issue using [Quality Patches Tool](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html?lang=en) in Adobe Experience League.
 
-For info about other patches available in [!DNL QPT], refer to [Patches available in [!DNL QPT]](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
+For info about other patches available in QPT, refer to [Patches available in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
