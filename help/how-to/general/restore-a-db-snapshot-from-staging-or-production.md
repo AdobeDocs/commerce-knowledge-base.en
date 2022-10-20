@@ -61,7 +61,7 @@ The steps are:
 
 1. Enter the following command to import the snapshot:
 
-    ```bash
+    ```sql
     zcat <cluster ID>sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
     ```
 
