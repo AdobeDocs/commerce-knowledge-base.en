@@ -25,7 +25,7 @@ Merchants who do not wish to upgrade to 2.4.5-p1 and 2.4.4-p2 will need to apply
 
 ## Patch
 
-The patch ID is AC-3023 available in the Quality Patches Tool version 1.1.21.
+The patch ID is AC-3023 and it is available in the Quality Patches Tool version 1.1.21.
 
 Refer the following links on how to use Quality Patches Tool and install patches depending on your deployment methods: 
 
