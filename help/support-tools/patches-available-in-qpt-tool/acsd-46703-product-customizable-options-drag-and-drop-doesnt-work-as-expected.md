@@ -1,7 +1,7 @@
 ---
 title: "ACSD-46703: Product customizable options drag and drop doesn't work as expected"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.20,customization,product,options,drag and drop,2.4.4,2.4.4-p1,2.4.5
-Description: "This article provides a solution for the issue where the product customizable options drag and drop does not work as expected."
+description: "This article provides a solution for the issue where the product customizable options drag and drop does not work as expected."
 ---
 
 # ACSD-46703: Product customizable options drag and drop don't work as expected
