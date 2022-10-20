@@ -61,4 +61,4 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
-For info about other patches available in QPT, refer to [Patches available in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
+For info about other patches available in [!DNL QPT], refer to [Patches available in [!DNL QPT]](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
