@@ -120,8 +120,8 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
 (Known issue) If you have changed your API configuration, which results in a change in your Data Space ID and find that your catalog changes are no longer syncing, run the following commands:
 
 ```bash
-bin/magento saas:resync --feed products
-bin/magento saas:resync --feed productattributes
+bin/magento saas:resync --feed=products
+bin/magento saas:resync --feed=productattributes
 ```
 
 ## Related reading
