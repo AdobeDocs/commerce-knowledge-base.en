@@ -1,12 +1,12 @@
 ---
 title: Restore a DB snapshot from Staging or Production
-labels: Cloud,Magento Commerce Cloud,commit,how to,DB,snapshot,database,dump,Adobe Commerce,cloud infrastructure
+labels: Cloud,Magento Commerce Cloud,commit,how to,DB,snapshot,database,dump,Adobe Commerce,cloud infrastructure,cluster
 description: "This article shows how to restore a DB snapshot from Staging or Production on Adobe Commerce on cloud infrastructure."
 ---
 
 # Restore a DB snapshot from Staging or Production
 
-This article shows how to restore a DB snapshot from Staging or Production on Adobe Commerce on cloud infrastructure.
+This article shows how to restore a DB [!DNL snapshot] from [!DNL Staging] or [!DNL Production] on Adobe Commerce on cloud infrastructure.
 
 ## Affected products and versions
 
@@ -21,7 +21,7 @@ Choose the most appropriate for your case:
 
 The steps are:
 
-1. Using sFTP, navigate to the location where the database snapshot has been placed, usually on the first server/node of your cluster (For example: `/mnt/recovery-<recovery_id>`).
+1. Using sFTP, navigate to the location where the database [!DNL snapshot] has been placed, usually on the first server/node of your [!DNL cluster] (For example: `/mnt/recovery-<recovery_id>`).
 1. Copy the database dump file (For example: `<cluster ID>|<cluster ID_stg>.sql.gz` to your local computer).
 1. Make sure you have set up the SSH tunnel to connect to the database remotely: [SSH and sFTP: SSH tunneling](https://devdocs.magento.com/cloud/env/environments-ssh.html#env-start-tunn) in our developer documentation.
 1. Connect to the database.
@@ -36,7 +36,7 @@ The steps are:
     drop database <cluster ID>;
     ```
 
-1. Enter the following command to import the snapshot:
+1. Enter the following command to import the [!DNL snapshot]:
 
     ```sql
     zcat <cluster ID>sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -P <db-port> -p -u   <db-user> <db-name>
@@ -46,7 +46,7 @@ The steps are:
 
 The steps are:
 
-1. Navigate to the location where the database snapshot has been placed, usually on the first server/node of your cluster (For example: `/mnt/recovery-<recovery_id>`).
+1. Navigate to the location where the database [!DNL snapshot] has been placed, usually on the first server/node of your [!DNL cluster] (For example: `/mnt/recovery-<recovery_id>`).
 1. To drop and re-create the cloud database, first connect to the database:
 
     ```sql
@@ -59,7 +59,7 @@ The steps are:
     drop database <cluster ID>;
     ```
 
-1. Enter the following command to import the snapshot:
+1. Enter the following command to import the [!DNL snapshot]:
 
     ```sql
     zcat <cluster ID>sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
