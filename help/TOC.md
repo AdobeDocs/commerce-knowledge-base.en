@@ -807,6 +807,7 @@ breadcrumb-title: Commerce KB
   * [Third-party testing tips for Adobe Commerce on cloud infrastructure](/help/how-to/general/share-access-third-party.md)
   * [Access the Adobe Commerce Customer Support Guide](/help/how-to/general/access-the-magento-commerce-customer-support-guide.md)
   * [How to subscribe to Adobe Commerce status updates](/help/how-to/general/how-to-subscribe-to-adobe-magento-status-updates.md)
+  * [Change current Adobe account email address to new address](/help/how-to/general/change-current-adobe-account-email-address-to-new-address.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
