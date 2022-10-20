@@ -26,7 +26,7 @@ The ACSD-46520 patch solves the issue where users get an incorrect order status 
 
 Users get an incorrect order status when refunded using store credits.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. Create a customer account in the frontend and log in.
 1. Assign store credits to the customer from the Admin. The store credits should be able to pay the whole order.
@@ -36,11 +36,11 @@ Users get an incorrect order status when refunded using store credits.
     * Check **[!UICONTROL Refund to store credit]**
 1. Check the order status.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 
 The order status is **Closed**.
 
-<ins>Actual results</ins>:
+<u>Actual results</u>:
 
 The order status is **Complete**, which is not the correct status.
 
