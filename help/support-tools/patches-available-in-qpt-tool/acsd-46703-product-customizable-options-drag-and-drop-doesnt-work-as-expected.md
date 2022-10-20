@@ -1,0 +1,57 @@
+---
+title: "ACSD-46703: Product customizable options drag and drop doesn't work as expected"
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.20,customization,product,options,drag and drop,2.4.4,2.4.4-p1,2.4.5
+Description: This article provides a solution for the issue where the product customizable options drag and drop does not work as expected.
+---
+
+The [!DNL ACSD-46703] patch fixes the issue where the product customizable options drag and drop does not work as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.20 is installed. The patch ID is [!DNL ACSD-46703]. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+
+## Affected products and versions
+
+**The patch is created for Adobe Commerce version:**
+
+* Adobe Commerce (all deployment methods) 2.4.4-p1
+
+**Compatible with Adobe Commerce versions:**
+
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5
+
+>![info]
+>
+>Note: the patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [[!DNL QPT] landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
+
+## Issue
+
+Users are not able to drag and drop the customizable options from one page to another.
+
+<u>Steps to reproduce</u>:
+
+1. Create a simple product.
+1. Add customizable options to the simple product and make sure you add over 20 options so you get the pagination as well.
+1. Try to move a customizable option (drag and drop) within the same page.
+1. Now try to move a customizable option from page two to page one.
+
+<u>Expected results</u>:
+
+* You are able to drag and drop the customizable options from one page to another.
+* You are able to sort the values using the drag and drop functionality, even for multiple pages.
+
+<u>Actual results</u>:
+
+You are not able to move any value to another page using the drag and drop functionality.
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or [!DNL Magento Open Source on-premises]: [[!DNL Quality Patches Tools] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
+
+## Related reading
+
+To learn more about Quality Patches Tool, refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html?lang=en) in Adobe Experience League.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html?lang=en) in Adobe Experience League.
+
+For info about other patches available in [!DNL QPT], refer to [Patches available in [!DNL QPT]](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
