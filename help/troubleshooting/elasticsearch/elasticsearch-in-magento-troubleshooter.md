@@ -46,7 +46,7 @@ b. NO – Proceed to [Step 9](#step-9).
 +++**Response green?**
 
 a. YES – Elasticsearch is available for processing data and reindexing should work. Proceed to [Step 5](#step-5).  
-b. NO – Yellow or red means there are problems with connections between nodes, and some data may not be available. If yellow, run the command: `php bin/magento config:show catalog/search/engine` to check your search engine. Proceed to [Step 6](#step-6). If red, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+b. NO – Yellow or red means there are problems with connections between nodes, and some data may not be available. If yellow, run the command: `php bin/magento config:show catalog/search/engine` to check your search engine. Proceed to [Step 6](#step-6). If red, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 +++
 
@@ -85,7 +85,7 @@ b. NO – Upgrade ECE-tools to the most current version. Run the command `php bi
 
 +++**Is catalog search status in _Processing_?**
 
-a. YES – You need to wait until processing is done and then check if product categories updated. If they have not, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).  
+a. YES – You need to wait until processing is done and then check if product categories updated. If they have not, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).  
 b. NO – If the status of catalog search is _Reindex required_ run in CLI/Terminal: `php bin/magento cron:run`. If this does not work, run: `php bin/magento indexer:reindex`. If this does not solve the issue, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
 
 +++
@@ -95,7 +95,7 @@ b. NO – If the status of catalog search is _Reindex required_ run in CLI/Termi
 +++**`.yaml` file recently updated?**
 
 a. YES – Check `.yaml` Elasticsearch configuration by referring to DevDocs [Set up Elasticsearch: To enable Elasticsearch](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=elastic%20search%20yaml).  
-b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+b. NO – [Submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 +++
 
@@ -126,7 +126,7 @@ b. NO – Proceed to [Step 12](#step-12).
 +++**Storage usage > 85%?**
 
 a. YES – You need to increase available storage. Refer to DevDocs[Set up Elasticsearch: To enable Elasticsearch](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=elastic%20search%20yaml). Then run: `localhost:9200/_cat/allocation?v` (if you are on Pro staging or production environments). If you are on one of the integration environments (that includes all the Starter branches) run: `elasticsearch.internal:9200/_cat/allocation?v`. Proceed to [Step 11](#step-11).  
-b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+b. NO – [Submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 +++
 

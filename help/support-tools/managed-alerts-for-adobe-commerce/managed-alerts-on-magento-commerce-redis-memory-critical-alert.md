@@ -42,7 +42,7 @@ Follow these steps to identify and troubleshoot the cause.
     * Description of the alert.
     * [New Relic incident link](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents). This is included in your [Managed Alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832).
 
-1. If no support ticket exists, check if Redis Used Memory is increasing or decreasing by going to [one.newrelic.com](http://one.newrelic.com/) > **Infrastructure** > **Third-party services** page, select the Redis dashboard. If it is stable or increasing, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to have your cluster upsized, or increase the `maxmemory` limit to the next level.
+1. If no support ticket exists, check if Redis Used Memory is increasing or decreasing by going to [one.newrelic.com](http://one.newrelic.com/) > **Infrastructure** > **Third-party services** page, select the Redis dashboard. If it is stable or increasing, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to have your cluster upsized, or increase the `maxmemory` limit to the next level.
 1. If you cannot identify the cause of increased Redis memory consumption, review recent trends to identify issues with recent code deployments or configuration changes (for example, new customer groups and large changes to the catalog). It is recommended that you review the past seven days of activity for any correlations in code deployments or changes.
 1. Check for misbehaving third party extensions:
 

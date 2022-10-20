@@ -7,7 +7,7 @@ description: Everything you need to troubleshoot and maintain your Commerce stor
 
 ![Knowledge Base homepage](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
-The information in this Knowledge Base is designed as complementary to [Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs), and [Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=en), and other Adobe Commerce publications. It covers troubleshooting and best practices, hosts announcements, answers FAQs, and highlights specific scenarios that have not been mentioned (for any reason) in the official documentation.
+The information in this Knowledge Base is designed as complementary to [Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs), and [Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html), and other Adobe Commerce publications. It covers troubleshooting and best practices, hosts announcements, answers FAQs, and highlights specific scenarios that have not been mentioned (for any reason) in the official documentation.
 
 ## What's in the Knowledge Base?
 
@@ -29,11 +29,11 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
 ## Popular Articles
 
-* [Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4](https://support.magento.com/hc/en-us/articles/4419942355725-Switching-to-OpenSearch-for-Adobe-Commerce-on-Cloud-2-4-4)
-* [Apache log4j2 vulnerability in Adobe Commerce](https://support.magento.com/hc/en-us/articles/4416923268749-Apache-log4j2-vulnerability-in-Adobe-Commerce)
-* [Security updates available for Adobe Commerce APSB22-12](https://support.magento.com/hc/en-us/articles/4426353041293-Security-updates-available-for-Adobe-Commerce-APSB22-12)
-* [Adobe Commerce on cloud Best Practices to Help Prevent and Respond to a Security Incident](https://support.magento.com/hc/en-us/articles/8992381597453-Adobe-Commerce-on-cloud-Best-Practices-to-Help-Prevent-and-Respond-to-a-Security-Incident)
-* [Identify and measure outages for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/4409500578957-Identify-and-measure-outages-for-Adobe-Commerce-on-cloud-infrastructure)
-* [View environment vCPU tier in your cluster on Adobe Commerce](https://support.magento.com/hc/en-us/articles/4409425285901-View-environment-vCPU-tier-in-your-cluster-on-Adobe-Commerce)
-* [Adobe Commerce on cloud infrastructure: CPU allocation calculation](https://support.magento.com/hc/en-us/articles/360058551232-Adobe-Commerce-on-cloud-infrastructure-CPU-allocation-calculation)
-* [Adobe Commerce on cloud infrastructure: Check host's CPU configuration](https://support.magento.com/hc/en-us/articles/360058507012-Adobe-Commerce-on-cloud-infrastructure-Check-host-s-CPU-configuration)
+* [Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2.4.4.html?lang=en)
+* [Apache log4j2 vulnerability in Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/apache-log4j2-adobe-commerce.html?lang=en)
+* [Security updates available for Adobe Commerce APSB22-12](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.html)
+* [Adobe Commerce on cloud Best Practices to Help Prevent and Respond to a Security Incident](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/security/prevent-respond-security-incident.html)
+* [Identify and measure outages for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=en-Identify-and-measure-outages-for-Adobe-Commerce-on-cloud-infrastructure)
+* [View environment vCPU tier in your cluster on Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/check-vcpu-using-observation-for-adobe-commerce.html)
+* [Adobe Commerce on cloud infrastructure: CPU allocation calculation](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html-Adobe-Commerce-on-cloud-infrastructure-CPU-allocation-calculation)
+* [Adobe Commerce on cloud infrastructure: Check host's CPU configuration](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)

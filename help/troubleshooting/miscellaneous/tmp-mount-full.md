@@ -99,7 +99,7 @@ Remove heapdumps (`*.hprof`) using system shell:
 find /tmp/*.hprof -type f -delete
 ```
 
-If you don't have permissions to delete files created by another user (in this case, Elasticsearch), but you see that files are large, please [create a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to deal with them.
+If you don't have permissions to delete files created by another user (in this case, Elasticsearch), but you see that files are large, please [create a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to deal with them.
 
 #### Check up database dumps/backups
 

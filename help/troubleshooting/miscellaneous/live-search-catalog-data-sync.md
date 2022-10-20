@@ -61,7 +61,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
     bin/magento indexer:reindex catalog_data_exporter_products
     ```
 
-1. If you still do not see the correct data, [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+1. If you still do not see the correct data, [create a Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 ### Check timestamp of last product export
 
@@ -77,7 +77,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
     bin/magento cron:run --group=saas_data_exporter
     ```
 
-1. Wait for `<>` time (time for incremental updates). If you still do not see your data, [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+1. Wait for `<>` time (time for incremental updates). If you still do not see your data, [create a Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 ### Sync specific attribute code
 
@@ -95,7 +95,7 @@ If your product attribute data isn't synced correctly for a specific attribute c
     bin/magento indexer:reindex catalog_data_exporter_product_attributes
     ```
 
-1. If you still do not see the correct data, [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+1. If you still do not see the correct data, [create a Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 ### Check timestamp of last product attribute export
 
@@ -113,7 +113,7 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
     bin/magento cron:run --group=saas_data_exporter
     ```
 
-1. Wait for 15-20 minutes (time for incremental updates). If you still do not see your data, please [create a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+1. Wait for 15-20 minutes (time for incremental updates). If you still do not see your data, please [create a Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 ### Sync after API configuration change
 
