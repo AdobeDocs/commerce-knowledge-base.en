@@ -19,7 +19,7 @@ In August 2022, we released the [upgrade of DHL schema version 6.2. along with a
 
 ## Solution
 
-Adobe Commerce 2.4.5-p1 and 2.4.4-p2 which is scheduled for release in October 2022, will contain the new DHL schema version 10.0. So merchants who upgrade to 2.4.5-p1 and 2.4.4-p2 will not have to do anything since they will have the new DHL schema integrated with their new Adobe Commerce versions. We encourage merchants to upgrade to 2.4.5-p1 and 2.4.4-p2 before the deprecation of DHL schema 6.2. in the end of December 2022.
+Adobe Commerce 2.4.5-p1 and 2.4.4-p2, released in October 2022, contain the new DHL schema version 10.0. So merchants who upgrade to 2.4.5-p1 and 2.4.4-p2 do not have to do anything to continue offering the DHL shippments. We encourage all merchants to upgrade to 2.4.5-p1 and 2.4.4-p2 before the deprecation of DHL schema 6.2. in the end of December 2022.
 
 For merchants who do not wish to upgrade to 2.4.5-p1 and 2.4.4-p2 will need to apply a fix patch if they want to continue offering DHL shipping.
 
