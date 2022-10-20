@@ -11,7 +11,7 @@ This article provides a solution to allow merchants to continue offering DHL shi
 
 ## Affected products and versions
 
-* Adobe Commerce 2.4.5 and earlier, all deployment methods.
+* Adobe Commerce 2.4.5 and earlier versions, all deployment methods.
 
 ## Issue
 
