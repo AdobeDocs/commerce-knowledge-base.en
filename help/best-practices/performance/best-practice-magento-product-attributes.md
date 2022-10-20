@@ -45,7 +45,7 @@ Recommendations are:
 * Remove non-used product properties
 * Store and manage non-commerce related attributes in external PMS systems
 
-If assistance is required or if there are questions or concerns, [submit a Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+If assistance is required or if there are questions or concerns, [submit a Adobe Commerce Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 ## Related reading
 

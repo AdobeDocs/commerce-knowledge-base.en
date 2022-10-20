@@ -23,7 +23,7 @@ For the Starter plan architecture and PaaS Integration environments, there will 
 To add the domain to the service in Fastly:
 
 1. Point your domain in DNS to prod.magentocloud.map.fastly.net and wait up to 6 hours.
-1. [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting to add this domain in the Nginx configuration (if you haven't done it earlier).
+1. [Submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) requesting to add this domain in the Nginx configuration (if you haven't done it earlier).
 
 ## How to request a certificate?
 
@@ -37,7 +37,7 @@ If your site is already live and/or you can point the URLs that will be used for
 
 ## Can I use my own SSL/TLS certificate?
 
-You can provide your own SSL/TLS certificate instead of using the [Let’s Encrypt certificate](https://letsencrypt.org/) provided by Adobe. However, this process requires additional work to set up and maintain. To choose this option, submit an [Adobe Commerce Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) or work with your CTA to add custom-hosted certificates to your cloud environments. If the domains are no longer in use, they will be automatically purged from our system, and no further action is required. If you already own a certificate, upload it using an SFTP (SSH File Transfer Protocol) client to a web inaccessible file location on your server and [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) letting them know the file path.
+You can provide your own SSL/TLS certificate instead of using the [Let’s Encrypt certificate](https://letsencrypt.org/) provided by Adobe. However, this process requires additional work to set up and maintain. To choose this option, submit an [Adobe Commerce Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) or work with your CTA to add custom-hosted certificates to your cloud environments. If the domains are no longer in use, they will be automatically purged from our system, and no further action is required. If you already own a certificate, upload it using an SFTP (SSH File Transfer Protocol) client to a web inaccessible file location on your server and [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) letting them know the file path.
 
 >[!WARNING]
 >
