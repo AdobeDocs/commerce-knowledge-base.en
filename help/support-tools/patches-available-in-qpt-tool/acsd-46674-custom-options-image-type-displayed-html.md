@@ -16,7 +16,7 @@ The ACSD-46674 patch fixes the issue where the custom options of an image type a
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5-p1
 
 >[!NOTE]
 >
