@@ -1,8 +1,8 @@
 ---
 title: Upgrade to v10 DHL schema to continue offering DHL shipping
-labels: patch,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises,DHL,v10 schema,2.3.7, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 2.4.3-p2, 2.4.3-p3, 2.4.4
+labels: patch,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises,DHL,v10 schema,upgrade,deprecation,v6 schema,2.3.7,2.4.0,2.4.1,2.4.2,2.4.3,2.4.3-p2,2.4.3-p3,2.4.4
 
-description: "This article provides a solution to allow merchants to continue offering DHL shipping after the DHL schema 6.2 gets deprecated by upgrading to schema 10.0 or by applying the AC-3023 patch."
+description: This article provides a solution to allow merchants to continue offering DHL shipping after the DHL schema 6.2 gets deprecated in December 2022, by upgrading to schema 10.0 or by applying the AC-3023 patch.
 ---
 
 # Upgrade to version 10.0 DHL schema to continue offering DHL shipping
@@ -29,12 +29,13 @@ The patch ID is AC-3023 available in the Quality Patches Tool version 1.1.21.
 
 Refer to the [Quality Patches Tool (QPT) > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) article in Adobe Experience League for information on how to use QPT and install patches.
 
-The patch is applicable for the following Adobe Commerce versions:
+The patch is applicable for the following Adobe Commerce versions (all deployment methods):
 
 * 2.3.7, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 2.4.3-p2, 2.4.3-p3, 2.4.4
 
 ## Related reading
 
+* [Apply a patch to continue offering DHL as shipping carrier](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html?lang=en) in Adobe Experience League.
 * [Shipping Carriers > DHL](https://docs.magento.com/user-guide/shipping/dhl.html) in our user guide.
 * [Delivery Methods](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) in our user guide.
-* [Apply a patch to continue offering DHL as shipping carrier](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html?lang=en) in Adobe Experience League.
+
