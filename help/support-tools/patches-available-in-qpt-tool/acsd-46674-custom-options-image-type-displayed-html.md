@@ -1,6 +1,6 @@
 ---
 title: "ACSD-46674: Custom options of image type displayed as HTML in customer emails"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.21,custom options,emails,image type,HTML,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.4-p2,2.4.5
+labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.21,custom options,emails,image type,HTML,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.4-p2,2.4.5,2.4.5-p1
 description: "The ACSD-46674 patch fixes the issue where the custom options of an image type are displayed as HTML in customer emails. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 1.1.21 is installed. The patch ID is ACSD-46674. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
 ---
 
