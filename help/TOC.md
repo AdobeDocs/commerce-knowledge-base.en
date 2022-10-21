@@ -355,6 +355,7 @@ breadcrumb-title: Commerce KB
     * [MDVA-44147: GraphQL request doesn't return Requisition Lists](/help/support-tools/patches-available-in-qpt-tool/mdva-44147-graphql-request-doesnt-return-requisition-lists.md)
     * [ACSD-44591: Errors when order without CAPTCHA confirmation](/help/support-tools/patches-available-in-qpt-tool/acsd-44591-user-gets-error-when-trying-to-place-order-without-captcha-confirmation.md)
     * [MDVA-34886: no search results when "weight" attribute used](/help/support-tools/patches-available-in-qpt-tool/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
+    * [ACSD-44851: Category with subcategories not able to open or expand](/help/support-tools/patches-available-in-qpt-tool/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
