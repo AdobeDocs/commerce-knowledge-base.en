@@ -128,8 +128,8 @@ Running an unsupported version of a third-party technology, such as PHP, may imp
 
 ### I have purchased extended support. How will I receive support for security and quality fixes? 
 
-Quality fixes: You may contact the Adobe Support team for quality issues. 
+**Quality fixes**: You may contact the Adobe Support team for quality issues. 
         
-Security fixes: During the extended support period, Adobe Commerce will release security hotfixes on a quarterly basis for versions covered by the extended support plan. We will alert extended support customers via email when these hotfixes are available, but you may also check for and download hotfixes in your Adobe Commerce My Account section in the Marketplace portal. Outside of these releases, you may also contact the Adobe Support team for security issues. 
+**Security fixes**: During the extended support period, Adobe Commerce will release security hotfixes on a quarterly basis for versions covered by the extended support plan. We will alert extended support customers via email when these hotfixes are available, but you may also check for and download hotfixes in your Adobe Commerce My Account section in the Marketplace portal. Outside of these releases, you may also contact the Adobe Support team for security issues. 
         
-PHP 7.4 fixes: For On-Premise customers, PHP 7.4 fixes will be delivered as downloads available in your Adobe Commerce My Account section at <https://account.magento.com/customer/account/>. This section will also include relevant installation and release notes. For Cloud customers, these updates will be made available automatically in your cloud instance, and you will be alerted of the update via email.
+**PHP 7.4 fixes**: For On-Premise customers, PHP 7.4 fixes will be delivered as downloads available in your Adobe Commerce My Account section at <https://account.magento.com/customer/account/>. This section will also include relevant installation and release notes. For Cloud customers, these updates will be made available automatically in your cloud instance, and you will be alerted of the update via email.
