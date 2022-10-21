@@ -37,13 +37,6 @@ The SameSite cookie attribute is set to *Lax* or not specified (which is treated
 
 To solve the issue, contact the third-party service provider and request their developers update their integrations to configure cookie parameters.
 
-### Temporary workaround
-
-To make your integration work while developers of the third-party service provider resolve the issue, you can set `SameSite` value to *None*. This can be done by configuring headers in Nginx or configuring this parameter via HTTP headers.
-
->[!WARNING]
->
->Adobe does not recommend such modifications, because it might cause security issues and/or break PCI compliance. Adobe recommends contacting the third-party developer who provides your payment platform and requesting changes to cookie settings configuration.
 
 ## Related reading
 
