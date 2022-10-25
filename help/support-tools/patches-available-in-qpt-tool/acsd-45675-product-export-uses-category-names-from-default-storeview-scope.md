@@ -43,7 +43,7 @@ Product export uses category names from the default store view scope.
 
 <u>Expected results</u>:
 
-As no store was selected during export, we should get a category path like the following: *[!UICONTROL Default Category/Tea/Black]*.
+As no store was selected during export, you should get a category path like the following: *[!UICONTROL Default Category/Tea/Black]*.
 
 <u>Actual results</u>:
 
