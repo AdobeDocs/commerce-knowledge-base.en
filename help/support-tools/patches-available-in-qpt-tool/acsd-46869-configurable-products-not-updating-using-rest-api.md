@@ -6,7 +6,7 @@ description: "The ACSD-46869 patch fixes the issue where the configurable produc
 
 # ACSD-46869: Configurable products not updating using REST API at checkout
 
-The ACSD-46869 patch fixes the issue where the configurable products are not getting updated using REST API at the checkout. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.20 is installed. The patch ID is ACSD-46869. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-46869 patch fixes the issue where the configurable products are not getting updated using REST API at the checkout. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html?lang=en) 1.1.20 is installed. The patch ID is ACSD-46869. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
