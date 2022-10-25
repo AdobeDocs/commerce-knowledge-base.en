@@ -667,6 +667,7 @@ breadcrumb-title: Commerce KB
     * [Emails not sent when SendGrid credits exceeded on Adobe Commerce](/help/troubleshooting/miscellaneous/emails-not-being-sent-sendgrid-credits-exceeded.md)
     * [Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved](/help/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.md)
     * [Adobe Commerce cloud: reindex is terminated with Killed message](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
+    * [Upgrade to version 10.0 DHL schema to continue offering DHL shipping](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md) 
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
