@@ -30,7 +30,7 @@ Product export uses category names from the default store view scope.
 
 1. Create a custom store view *[!UICONTROL thai]* inside the main store.
 1. Make *[!UICONTROL thai]* the default store view of the main website.
-1. Create the following category structure under *[!UICONTROL Default Category]*.
+1. Create the following category structure under *[!UICONTROL Default Category]*:
 
     *[!UICONTROL Default category/Tea/Black]*
 
