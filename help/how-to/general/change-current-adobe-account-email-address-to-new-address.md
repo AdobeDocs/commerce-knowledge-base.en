@@ -14,7 +14,7 @@ Adobe Commerce (all deployment methods and versions)
 
 ## Issue
 
-How to change your Adobe account's email address (e.g., current@email.com) to a new address (e.g., new@myemail.com) that is currently not registered on [Adobe Account](https://account.adobe.com/) or [Magento Account](https://account.magento.com/).
+How to change your Adobe account's email address (e.g., current@email.com) to a new address (e.g., new@myemail.com) that is currently not registered in [Adobe account](https://account.adobe.com/) or [Magento account](https://account.magento.com/).
 
 <u>Prerequisites</u>
 
