@@ -1,12 +1,12 @@
 ---
 title: Change current Adobe account email address
 labels: Magento Commerce,cloud infrastructure,on-premises,how to,email,Adobe Commerce,Pro,Starter
-description: Learn how to change the current email address registered in the Adobe account to a new address currently not registered in Adobe account or Magento account.
+description: Learn how to change the current email address registered in the Adobe account to a new address currently not registered in the Adobe account or the Magento account.
 ---
 
 # Change current Adobe account email address
 
-This article explains how to change the current email address registered in the [Adobe account](https://account.adobe.com/) to a new address currently not registered on [Adobe account](https://account.adobe.com/) or [Magento account](https://account.magento.com/).
+This article explains how to change the current email address registered in the [Adobe account](https://account.adobe.com/) to a new address currently not registered on [Adobe account](https://account.adobe.com/) or the [Magento account](https://account.magento.com/).
 
 ## Affected products and versions
 
@@ -22,7 +22,7 @@ If you don't have access to the current email address, set up email forwarding f
 
 Follow these steps to change the email address:
 
-1. Reset the password of the old email address. Follow the instructions given in [Reset forgotten password](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in Adobe helpx.
+1. Reset the password used with the old email address. Follow the instructions given in [Reset forgotten password](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in Adobe helpx.
 1. The password reset link is sent to the current owner's mailbox with instructions.
-1. Change the password and navigate to the IMS Account to log in with the new email and set up the password.
+1. Navigate to the [Adobe account page](https://account.adobe.com) to log in with the new email and set up the password.
 
