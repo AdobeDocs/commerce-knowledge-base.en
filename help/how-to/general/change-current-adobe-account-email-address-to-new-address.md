@@ -6,7 +6,7 @@ description: Learn how to change the current email address registered in the Ado
 
 # Change current Adobe account email address
 
-This article explains how to change the current email address registered in the [Adobe account](https://account.adobe.com/) to a new address currently not registered on an [Adobe account](https://account.adobe.com/) or the [Magento account](https://account.magento.com/).
+This article explains how to change the current email address registered in the [Adobe account](https://account.adobe.com/) to a new address currently not registered in the [Adobe account](https://account.adobe.com/) or the [Magento account](https://account.magento.com/).
 
 ## Affected products and versions
 
