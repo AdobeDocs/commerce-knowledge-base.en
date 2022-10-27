@@ -46,7 +46,7 @@ The value is updated as per the changes.
 
 <u>Actual results</u>:
 
-`option_value` is not getting updated, so when the order is placed, it has the old size value.
+`option_value` is not updated, so when the order is placed, it has the old size value.
 
 ## Apply the patch
 
