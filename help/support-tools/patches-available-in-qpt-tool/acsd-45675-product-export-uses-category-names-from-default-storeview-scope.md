@@ -37,7 +37,7 @@ Product export uses category names from the default store view scope.
 1. Select the category **[!UICONTROL Tea]** and change the **[!UICONTROL Scope]** to **[!UICONTROL thai]**.
 1. Set the **[!UICONTROL Category Name]** as **[!UICONTROL ชาดำ]**.
 1. Create a simple product *[!UICONTROL SP001]* and assign the category **[!UICONTROL Black]**.
-1. Make sure the cron doesn't run.
+1. Make sure the cron does not run.
 1. Do a product export. Use the filter by SKU and select **[!UICONTROL SP001]**.
 1. Check the *[!UICONTROL categories]* column in the exported CSV.
 
