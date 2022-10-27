@@ -29,7 +29,7 @@ A value cannot be saved in a new custom attribute on a company creation page.
 
 <u>Prerequisites</u>:
 
-1. B2B modules are installed.
+* B2B modules are installed.
 
 <u>Steps to reproduce</u>:
 
