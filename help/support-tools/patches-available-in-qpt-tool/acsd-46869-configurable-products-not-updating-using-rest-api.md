@@ -24,7 +24,7 @@ The ACSD-46869 patch fixes the issue where configurable products are not getting
 
 ## Issue
 
-Configurable products are not getting updated using REST API during checkout.
+Configurable products are not updated using REST API during checkout.
 
 <u>Steps to reproduce</u>:
 
