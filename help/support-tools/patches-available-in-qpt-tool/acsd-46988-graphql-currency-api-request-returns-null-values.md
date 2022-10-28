@@ -28,7 +28,7 @@ GraphQL currency API request returns null values for a custom currency.
 
 <u>Steps to reproduce</u>:
 
-1. Configure custom currency in Admin. Go to **System** > **Configuration** > **General** > **Currency Setup**.
+1. Configure custom currency in the Admin. Go to **System** > **Configuration** > **General** > **Currency Setup**.
 1. Send a GraphQL request with the following payload:
 
 <pre>
