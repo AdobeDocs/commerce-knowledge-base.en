@@ -186,6 +186,7 @@ breadcrumb-title: Commerce KB
     * [MDVA-37984: Visual Merchandiser not working correctly when staging updates are applied](/help/support-tools/patches-available-in-qpt-tool/mdva-37984-visual-match-product-by-rule-functionality-not-filtering-products-correctly.md)
     * [ACSD-45488: Configurable product with multiple sources not returned to in stock automatically](/help/support-tools/patches-available-in-qpt-tool/acsd-45488-configurable-product-with-multiple-sources-not-returned-to-in-stock.md)
     * [ACSD-46146: Two order confirmation emails sent after placing order from admin](/help/support-tools/patches-available-in-qpt-tool/acsd-46146-two-order-confirmation-emails-are-sent-after-placing-order-from-admin.md)
+    * [ACSD-47106: New custom attribute on company creation page not saved](/help/support-tools/patches-available-in-qpt-tool/acsd-47106-new-custom-attribute-on-company-creation-page-not-saved.md)
     * [MDVA-36464: Send email settings not working at store-view level](/help/support-tools/patches-available-in-qpt-tool/mdva-36464-send-email-settings-not-working-at-store-view-level.md)
     * [MDVA-41597: Error adding more than one configurable product to cart](/help/support-tools/patches-available-in-qpt-tool/mdva-41597-error-adding-more-than-one-configurable-product-to-cart.md)
     * [MDVA-36832: Images duplicate on pages with 768px view width](/help/support-tools/patches-available-in-qpt-tool/mdva-36832-images-duplicates-on-pages-with-view-width-of-768px.md)
