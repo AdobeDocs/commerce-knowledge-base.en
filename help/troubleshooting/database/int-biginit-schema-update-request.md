@@ -19,7 +19,7 @@ labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary 
 >   REFERENCED_COLUMN_NAME = '<table_field>';
 >```
 
-# Affected products and versions
+## Affected products and versions
 
 * Adobe Commerce (all deployment methods) all [supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
