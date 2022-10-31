@@ -33,7 +33,7 @@ Users get an incorrect order status when refunded using store credits.
 1. Place an order using the store credits.
 1. Invoice the order.
 1. Create a credit memo to refund the full amount of the order.
-    * Check **[!UICONTROL Refund to store credit]**
+    Select the **[!UICONTROL Refund to store credit]** checkbox.
 1. Check the order status.
 
 <u>Expected results</u>:
