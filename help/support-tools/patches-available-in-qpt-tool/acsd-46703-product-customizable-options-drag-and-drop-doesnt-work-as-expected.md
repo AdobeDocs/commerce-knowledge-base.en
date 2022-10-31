@@ -29,7 +29,7 @@ Users are not able to drag and drop the customizable options from one page to an
 <u>Steps to reproduce</u>:
 
 1. Create a simple product.
-1. Add customizable options to the simple product and make sure you add over 20 options so you get the pagination as well.
+1. Add customizable options to the simple product and make sure you add over 20 options resulting in pagination.
 1. Try to move a customizable option (drag and drop) within the same page.
 1. Now try to move a customizable option from page two to page one.
 
