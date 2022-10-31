@@ -50,7 +50,7 @@ Create a fresh mysql dump before following these steps and perform them outside 
     curl --silent -X GET localhost:9200/_cat/indices?v
     ```
 
-If these steps don't work, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+If these steps don't work, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 ## Related reading
 
