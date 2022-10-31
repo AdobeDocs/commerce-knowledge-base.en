@@ -2,6 +2,7 @@
 title: Adobe Commerce database numeric value out of range, INT to BIGINT
 labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary keys,int,bigint,numeric value out of range,tables,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.4-p2,2.4.5,2.4.5-p1
 ---
+
 >[!WARNING]
 >
 >Before implementing the solution in this article (*INT* to *BIGINT* schema update) merchants must always check that the field they are going to change DOES NOT have any foreign-key relationships to another table. If the field does have foreign-key relationships to another table, there will issues because the related field is still *INT*. They can use the following query to verify this. This query will list down all the foreign-key relationships available in the database for the given table field: 
@@ -16,7 +17,7 @@ labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary 
 >   REFERENCED_COLUMN_NAME = '<table_field>';
 >```
 
-## Affected products and versions
+# Affected products and versions
 
 * Adobe Commerce (all deployment methods) all [supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
@@ -53,6 +54,7 @@ MariaDB [xxx]> SELECT MAX(value_id) FROM catalog_product_entity_int;
 |          4283174130 |
 +---------------------+
 ```
+
 To check if this has occured run the following command in the terminal:
 
 ```
@@ -67,6 +69,7 @@ As you can see in the above example output the table *[ AUTO_INCREMENT ]* has ch
 ```
 ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 ```
+
 ## Solution 2:  *INT* to *BIGINT* schema update
 
 However, if when running the following command ``SELECT MAX(value_id) FROM catalog_product_entity_int;`` the value shown is higher than *max int(11) [ 4294967296 ]*  consider doing a *INT* to *BIGINT* schema update. The datatype *BIGINT* has a larger range of values.
@@ -76,6 +79,7 @@ To do so:
 1. Create a custom module inside the *app/code/* directory.
 1. In the custom module create a *db_schema.xml*. In *db_schema.xml* you will set the datatype to *BIGINT*. 
 1. Add the following content and then execute ``bin/magento setup:upgrade`` to apply the above changes to the corresponding table.
+
 ```
 <?xml version="1.0"?>
 <schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
