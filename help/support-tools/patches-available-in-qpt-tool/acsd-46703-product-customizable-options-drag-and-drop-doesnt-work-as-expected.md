@@ -1,12 +1,16 @@
 ---
-title: "ACSD-46703: Product customizable options drag and drop doesn't work as expected"
+title: "ACSD-46703:  Product customization drag and drop does not work"
 labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.20,customization,product,options,drag and drop,2.4.4,2.4.4-p1,2.4.5
 description: This article provides a solution for the issue where the product customizable options drag and drop does not work as expected.
 ---
 
-# ACSD-46703: Product customizable options drag and drop don't work as expected
+# ACSD-46703: Product customization drag and drop does not work
 
+<<<<<<< HEAD
 The ACSD-46703 patch fixes the issue where the product customizable options (drag and drop) don't work as expected. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html?lang=en) 1.1.20 is installed. The patch ID is ACSD-46703. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+=======
+The ACSD-46703 patch fixes the issue where the product customizable options (drag and drop) do not work as expected. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.20 is installed. The patch ID is ACSD-46703. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+>>>>>>> 4811d74f75056740abfd4a045b65a93fe416c56c
 
 ## Affected products and versions
 
@@ -20,7 +24,7 @@ The ACSD-46703 patch fixes the issue where the product customizable options (dra
 
 >[!NOTE]
 >
->Note: the patch might become applicable to other versions with new [Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
+>The patch might become applicable to other versions with new [Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -29,7 +33,7 @@ Users are not able to drag and drop the customizable options from one page to an
 <u>Steps to reproduce</u>:
 
 1. Create a simple product.
-1. Add customizable options to the simple product and make sure you add over 20 options so you get the pagination as well.
+1. Add customizable options to the simple product and make sure you add over 20 options resulting in pagination.
 1. Try to move a customizable option (drag and drop) within the same page.
 1. Now try to move a customizable option from page two to page one.
 
