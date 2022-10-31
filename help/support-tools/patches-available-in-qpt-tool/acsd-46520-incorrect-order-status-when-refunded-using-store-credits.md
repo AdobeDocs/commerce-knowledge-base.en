@@ -42,7 +42,7 @@ The order status is **Closed**.
 
 <u>Actual results</u>:
 
-The order status is **Complete**, which is not the correct status.
+The order status is *Complete*, which is not the correct status.
 
 ## Apply the patch
 
