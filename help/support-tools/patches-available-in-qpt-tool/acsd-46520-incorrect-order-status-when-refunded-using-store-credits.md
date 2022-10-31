@@ -38,7 +38,7 @@ Users get an incorrect order status when refunded using store credits.
 
 <u>Expected results</u>:
 
-The order status is **Closed**.
+The order status is *Closed*.
 
 <u>Actual results</u>:
 
