@@ -3,6 +3,8 @@ title: Adobe Commerce database numeric value out of range, INT to BIGINT
 labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary keys,int,bigint,numeric value out of range,tables,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.4-p2,2.4.5,2.4.5-p1
 ---
 
+# Adobe Commerce database numeric value out of range, INT to BIGINT
+
 >[!WARNING]
 >
 >Before implementing the solution in this article (*INT* to *BIGINT* schema update) merchants must always check that the field they are going to change DOES NOT have any foreign-key relationships to another table. If the field does have foreign-key relationships to another table, there will issues because the related field is still *INT*. They can use the following query to verify this. This query will list down all the foreign-key relationships available in the database for the given table field: 
