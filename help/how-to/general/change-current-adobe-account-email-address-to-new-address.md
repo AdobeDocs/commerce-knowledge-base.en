@@ -10,7 +10,7 @@ This article explains how to change the current email address registered in the 
 
 ## Affected products and versions
 
-Adobe Commerce (all deployment methods and versions)
+* Adobe Commerce (all deployment methods and versions)
 
 ## Prerequisites 
 
