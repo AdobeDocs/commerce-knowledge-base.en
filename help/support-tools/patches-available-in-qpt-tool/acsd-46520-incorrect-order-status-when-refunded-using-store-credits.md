@@ -29,7 +29,7 @@ Users get an incorrect order status when refunded using store credits.
 <u>Steps to reproduce</u>:
 
 1. Create a customer account on the storefront and log in.
-1. Assign store credits to the customer from the Admin. The store credits should be able to pay the whole order.
+1. Assign store credits to the customer from the Admin. The store credits should cover the whole order.
 1. Place an order using the store credits.
 1. Invoice the order.
 1. Create a credit memo to refund the full amount of the order.
