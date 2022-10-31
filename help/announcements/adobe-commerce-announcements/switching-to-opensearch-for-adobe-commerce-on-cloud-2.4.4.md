@@ -9,7 +9,12 @@ description: "Adobe Commerce on cloud infrastructure 2.4.4 will not support vers
 
 Adobe Commerce on cloud infrastructure 2.4.4 will not support versions of Elasticsearch after 7.10. **You must upgrade to Adobe Commerce 2.4.4 first and then immediately switch from Elasticsearch to OpenSearch 1.2.x.** Adobe will provide detailed instructions closer to the Adobe Commerce 2.4.4 GA release.
 
+>[!NOTE]
+>
+>The switch should be done regardless of cloud provider.
+
 Adobe Commerce on-premises is adding support for Elasticsearch 7.16 and OpenSearch 1.2 in all March 2022 patch releases (2.4.4, 2.4.3-p2, and 2.3.7-p3). In 2.4.4, Adobe Commerce on cloud infrastructure will move to OpenSearch as the default search engine, so merchants must use OpenSearch in place of Elasticsearch before upgrading to Adobe Commerce 2.4.4 or later. Merchants with Adobe Commerce on-premises deployments can use Elasticsearch or OpenSearch because Adobe Commerce will continue to support both.
+
 
 ## What is OpenSearch?
 
@@ -35,10 +40,10 @@ Before beginning the upgrade process to Adobe Commerce 2.4.4, however, merchants
 
  If the Adobe Commerce core version they are on supports Elasticsearch 7.10 &ndash;  they can use it.
 
- Review [System Requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) in our developer documentation for version compatibility.
+ Review [System Requirements](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) in our developer documentation for version compatibility.
 
 >[!NOTE]
 >
 >It is recommended to plan to upgrade to Adobe Commerce 2.4.4 as soon as possible because ElasticSearch 7.10 will be EOL in May 2022.
 
- Adobe partners can sign up for our beta program [here](https://devdocs.magento.com/release/beta-program.html) to get access to our latest beta4 code that has been tested against Elasticsearch 7.16.1 and OpenSearch 1.1.
+ Adobe partners can sign up for our beta program [here](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html) to get access to our latest beta4 code that has been tested against Elasticsearch 7.16.1 and OpenSearch 1.1.
