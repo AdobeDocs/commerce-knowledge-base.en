@@ -36,7 +36,7 @@ This issue has been fixed in Adobe Commerce 2.1.14 and 2.2.2 (see [Release Notes
 
 ### Solution 1: Apply the patch with a fix
 
-To receive a patch, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting the patch. In your ticket, specify your Adobe Commerce version and the corresponding reference number for the patch:
+To receive a patch, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) requesting the patch. In your ticket, specify your Adobe Commerce version and the corresponding reference number for the patch:
 
 * **2.1.11 and later:** MDVA-7835
 * **2.2.1:** MDVA-8128

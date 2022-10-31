@@ -27,7 +27,7 @@ This article provides resources for troubleshooting New Relic on Adobe Commerce 
 <p>In those cases, an admin user needs to add you to the project.</p>
 </td>
 <td>
-<p><a href="https://support.magento.com/hc/en-us/articles/360039127712">Accessing New Relic services</a> in our support knowledge base.</p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">Accessing New Relic services</a> in our support knowledge base.</p>
 </td>
 </tr>
 <tr>

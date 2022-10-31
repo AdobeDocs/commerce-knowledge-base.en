@@ -17,7 +17,7 @@ This article provides guidance on preventing resources blocking page rendering i
 
 Consider delivering critical JS/CSS features inline and deferring all non-critical JS/CSS styles. For guidance, refer to web.dev [Eliminate render-blocking resources](https://web.dev/render-blocking-resources/).
 
-If assistance is required or if there are questions or concerns, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+If assistance is required or if there are questions or concerns, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 ## Related reading
 
