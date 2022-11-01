@@ -48,9 +48,9 @@ Check the highest value of the primary key by running the following command in t
 >
 >Perfrom a database backup before doing any alterations to tables. Also consier putting the site into maintenance mode.
 
-If the *max(value_id)* is lower than the *max int(11) [ 4294967296 ]*, and the *[ AUTO_INCREMENT ]* has a value greater than the *max int(11)*, then consider using Solution 1. Otherwise, use Solution 2.
+If the *max(value_id)* is lower than the *max int(11) [ 4294967296 ]*, and the *[ AUTO_INCREMENT ]* has a value greater than the *max int(11)*, then consider using [Update the *[ AUTO_INCREMENT ]* to the next value from the table](update_the_[ AUTO_INCREMENT]_to_the_next_value_from_the_table). Otherwise, use [Solution 2](update_the_*[ AUTO_INCREMENT ]*_to_the_next value_from_the_table).
 
-## Solution 1: Update the *[ AUTO_INCREMENT]* to the next value from the table
+## Update the *[ AUTO_INCREMENT ]* to the next value from the table
 
 If the value shown is lower than *max int(11) [ 4294967296 ]* as shown in the below example terminal output, than a table *[ AUTO_INCREMENT ]* has changed to a number bigger or equal to the *max [ int(11) ]* value. 
 
@@ -78,7 +78,7 @@ As you can see in the above example output the table *[ AUTO_INCREMENT ]* has ch
 ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 ```
 
-## Solution 2:  *INT* to *BIGINT* schema update
+## *INT* to *BIGINT* schema update
 
 However, if when running the following command ``SELECT MAX(value_id) FROM catalog_product_entity_int;`` the value shown is higher than *max int(11) [ 4294967296 ]*  consider doing a *INT* to *BIGINT* schema update. The datatype *BIGINT* has a larger range of values.
 
