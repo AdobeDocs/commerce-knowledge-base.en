@@ -1,6 +1,5 @@
 ---
 title: "Adobe Commerce 2.4.0: refresh on Customer's Activities does not work"
-labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,button,known issues,order,product,refresh,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
 description: "This article provides a solution for Adobe Commerce 2.4.0 known issue when an admin user creates an order for a customer and the refresh buttons on the Customer's Activities side panel do not work."
 ---
 

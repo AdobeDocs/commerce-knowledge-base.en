@@ -1,6 +1,5 @@
 ---
 title: Switch the Application mode
-labels: Magento,devdocs,developer,how to,mode,production,switch,Adobe Commerce
 description: "Please refer to the following articles in our developer documentation:"
 ---
 

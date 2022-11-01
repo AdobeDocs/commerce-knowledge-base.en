@@ -1,6 +1,5 @@
 ---
 title: Shipping labels creation known issue in Adobe Commerce 2.4.0
-labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,known issues,patch,shipping label,Adobe Commerce,cloud infrastructure,on-premises
 description: "This article provides a patch for a known Adobe Commerce 2.4.0 issue, where a shipping label cannot be created."
 ---
 

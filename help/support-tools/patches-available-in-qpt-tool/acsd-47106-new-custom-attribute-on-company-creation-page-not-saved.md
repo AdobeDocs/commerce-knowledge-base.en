@@ -1,7 +1,6 @@
 ---
 title: "ACSD-47106: new custom attribute on company creation page not saved"
 
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.22,company creation page,Magento,Adobe Commerce,cloud infrastructure,custom company attribute,2.4.4,2.4.4-p1,2.4.4-p2,2.4.5,2.4.5-p1
 description: "The ACSD-47106 patch fixes the issue where a value cannot be saved in a new custom attribute on a company creation page. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.22 is installed. The patch ID is ACSD-47106. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
 ---
 

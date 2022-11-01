@@ -1,6 +1,5 @@
 ---
 title: Check disk space limit for Adobe Commerce on cloud infrastructure
-labels: Magento Commerce Cloud,disk,disk space,how to,Adobe Commerce,cloud infrastructure
 description: "To check how much space you have for each Adobe Commerce on cloud infrastructure environment:"
 ---
 

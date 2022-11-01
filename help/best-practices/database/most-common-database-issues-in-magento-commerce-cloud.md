@@ -1,6 +1,5 @@
 ---
 title: Most common database issues in Adobe Commerce on cloud infrastructure
-labels: Magento Commerce Cloud,MySQL,Percona Toolkit,best practices,database,duplicate,logs,performance,queries,Adobe Commerce,cloud infrastructure,Pro plan architecture,Starter plan architecture,Starter architecture,Pro architecture
 description: "This article discusses the most common database issues causing performance degradation for Adobe Commerce on cloud infrastructure sites."
 ---
 

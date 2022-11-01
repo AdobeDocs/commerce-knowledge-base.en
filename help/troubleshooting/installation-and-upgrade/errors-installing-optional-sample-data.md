@@ -1,6 +1,5 @@
 ---
 title: Errors installing optional sample data
-labels: Magento Commerce,Magento Commerce Cloud,PHP,data,error,how to,sample,setup,wizard,Adobe Commerce,cloud infrastructure
 description: "This topic discusses solutions to errors you might encounter installing optional sample data."
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "MDVA-30565: session cache local storage and checkout issue"
-labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.6,Magento Commerce,Magento Commerce Cloud,cookie,estimate shipping method,guest checkout,local storage,session cache,support tools,Adobe Commerce,cloud infrastructure,on-premises
 description: "The MDVA-30565 patch solves the issue with session cache local storage and checkout. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.6 is installed."
 ---
 

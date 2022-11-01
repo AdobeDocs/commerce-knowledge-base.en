@@ -1,6 +1,5 @@
 ---
 title: Change current Adobe account email address
-labels: Magento Commerce,cloud infrastructure,on-premises,how to,email,Adobe Commerce,Pro,Starter
 description: Learn how to change the current email address registered in the Adobe account to a new address currently not registered in the Adobe account or the Magento account.
 ---
 

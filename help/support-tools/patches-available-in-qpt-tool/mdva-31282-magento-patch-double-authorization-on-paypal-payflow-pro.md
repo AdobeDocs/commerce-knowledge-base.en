@@ -1,6 +1,5 @@
 ---
 title: "MDVA-31282: double authorization on Paypal PayFlow Pro"
-labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,PayFlow Pro,double authorization,fraud filter,support tools,Adobe Commmerce,cloud infrastructure,on-premises
 description: "The MDVA-31282 patch solves the issue when double authorizations occur on Paypal PayFlow Pro in Adobe Commerce. The double authorizations also have the effect of bypassing PayFlow Pro's fraud filters and doubling transaction fees. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed."
 ---
 

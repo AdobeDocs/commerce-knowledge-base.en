@@ -1,6 +1,5 @@
 ---
 title: Blockers launching on Adobe Commerce on cloud infrastructure
-labels: Fastly,Magento Commerce Cloud,SSL,TLS,UAT,VCL,performance,troubleshooting,Magento,Adobe Commerce,cloud infrastructure
 description: "This article provides a fix for blockers to launching on Adobe Commerce on cloud infrastructure including issues related to Fastly config, SSL certificates, 301 redirects, and static asset performance."
 ---
 

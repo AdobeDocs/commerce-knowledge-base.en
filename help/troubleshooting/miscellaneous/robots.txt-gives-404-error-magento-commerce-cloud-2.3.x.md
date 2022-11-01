@@ -1,6 +1,5 @@
 ---
 title: robots.txt gives 404 error Adobe Commerce on cloud infrastructure 2.3.x
-labels: 2.3.x,404 error,Magento Commerce Cloud,how to,nginx,robots.txt,search engine robots,Adobe Commerce,cloud infrastructure
 description: "This article provides a fix for when the `robots.txt` file throws a 404 error in Adobe Commerce on cloud infrastructure 2.3.x."
 ---
 
