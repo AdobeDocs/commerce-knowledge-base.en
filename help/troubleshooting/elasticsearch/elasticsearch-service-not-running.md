@@ -26,8 +26,6 @@ This article provides solutions for errors you can experience when the Elasticse
 </tr>
 <tr>
 <td rowspan="3">Exception errors</td>
-
-
 </tr>
 <tr>
 <td>
@@ -39,7 +37,7 @@ This article provides solutions for errors you can experience when the Elasticse
 </tr>
 <tr>
 <td>
-<code>Elasticsearch\Common\Exceptions\NoNodesAvailableException: Noticed exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /app/<code>projectid</code>/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51</code>
+<code>Elasticsearch\Common\Exceptions\NoNodesAvailableException: Noticed exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51</code>
 </td>
 <td>
 Elasticsuite indices not being deleted.  See <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html?lang=en">ElasticSuite tracking indices causes problems with Elasticsearch</a> in our support knowledge base.
@@ -48,7 +46,7 @@ Elasticsuite indices not being deleted.  See <a href="https://experienceleague.a
 <tr>
 <td>PHP error</td>
 <td>
-<i>No alive nodes found in your cluster","1":"#0 /app/<code>projectid</code>/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php</i>
+<i>No alive nodes found in your cluster","1":"#0 /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php</i>
 </td>
 <td rowspan="4">
 <ul>
