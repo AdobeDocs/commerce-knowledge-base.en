@@ -1,6 +1,5 @@
 ---
 title: Support ticket Contact Reason descriptions
-labels: Magento,help center,FAQ,ticket,on-premises,Adobe Commerce,contact reason description,questions,issues,cloud infrastructure
 description: "This article lists the support ticket **Contact Reason** field options and more detailed descriptions of each one."
 ---
 

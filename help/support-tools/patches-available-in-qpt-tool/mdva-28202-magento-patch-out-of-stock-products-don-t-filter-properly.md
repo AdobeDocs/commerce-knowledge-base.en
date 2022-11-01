@@ -1,6 +1,5 @@
 ---
 title: "MDVA-28202 patch: out of stock products don't filter properly"
-labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1,2.4.1,QPT 1.0.6,QPT patches,Magento Commerce,Magento Commerce Cloud,configurable product,display price,support tools,Adobe Commerce,cloud infrastructure,on-premises
 description: "The MDVA-28202 patch solves the issue where out of stock products aren't filtered properly using **Price** filter on a Adobe Commerce store frontend. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.6 is installed."
 ---
 

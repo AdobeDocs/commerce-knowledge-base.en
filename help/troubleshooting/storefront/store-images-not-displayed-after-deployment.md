@@ -1,6 +1,5 @@
 ---
 title: Store images not displayed after deployment
-labels: 2.2.x,2.3.x,Magento Commerce Cloud,SSH,cache,how to,images not displayed,Adobe Commerce,cloud infrastructure
 description: "This article provides a solution for when images are not being displayed correctly after deployment."
 ---
 

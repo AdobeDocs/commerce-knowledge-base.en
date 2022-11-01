@@ -1,6 +1,5 @@
 ---
 title: "Adobe Commerce 2.4.0 known issue: integration tests fail"
-labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,dotdigital,integration tests,known issues,patch,troubleshooting,Adobe Commerce, cloud infrastructure,on-premises
 description: "This article provides a patch for the Adobe Commerce 2.4.0 issue where integration tests are failing because the declaration of `Dotdigitalgroup\\Email\\Test\\Integration\\Model\\Sync\\Importer\\ImporterFailedTest::setUp()` is not compatible with PHPUnit 9 which is used for 2.4.0."
 ---
 

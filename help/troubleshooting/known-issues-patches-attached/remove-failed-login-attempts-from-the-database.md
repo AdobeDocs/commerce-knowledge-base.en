@@ -1,6 +1,5 @@
 ---
 title: Remove failed login attempts from the database
-labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,database,failed login,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 description: "This article explains how to remove pre-existing failed login credentials from the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure database. For versions 2.2.10+ and 2.3.3+, you only need to run the attached script. For older versions 2.3.0-2.3.2-p2, you need to apply a patch to stop logging and run the attached script to remove pre-existing failed login credentials."
 ---
 

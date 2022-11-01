@@ -1,6 +1,5 @@
 ---
 title: Best practices Adobe Commerce order placement performance
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,asynchronous sending,best practices,email,orders,performance,archive,Adobe Commerce,cloud infrastructure,on-premises
 description: "This article provides best practices for order processing and checkout performance for Adobe Commerce."
 ---
 

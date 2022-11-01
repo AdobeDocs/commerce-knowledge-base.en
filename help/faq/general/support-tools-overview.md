@@ -1,6 +1,5 @@
 ---
 title: Adobe Commerce support tools at a glance
-labels: Magento,Adobe Commerce,support tools,Site-Wide Analysis Tool,observation for Adobe Commerce,QPT,managed alerts,cloud infrastructure
 description: "Adobe Commerce offers a variety of support tools that help and empower you to improve the e-commerce store experience."
 ---
 

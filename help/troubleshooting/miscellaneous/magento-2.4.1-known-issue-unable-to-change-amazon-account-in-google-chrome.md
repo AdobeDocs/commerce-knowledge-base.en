@@ -1,6 +1,5 @@
 ---
 title: "Adobe Commerce 2.4.1 issue: unable to change Amazon account in Chrome"
-labels: 2.4.1,Amazon Pay,Javascript,Magento Commerce,Magento Commerce Cloud,browser,cookies,known issues,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 description: "This article describes a known Adobe Commerce 2.4.1 issue where customers get signed in to the previously used Amazon accounts instead of being suggested to log in, when using Amazon Pay during checkout."
 ---
 

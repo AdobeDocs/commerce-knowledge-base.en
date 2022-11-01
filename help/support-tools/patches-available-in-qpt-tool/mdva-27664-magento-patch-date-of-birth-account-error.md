@@ -1,6 +1,5 @@
 ---
 title: "MDVA-27664 patch: date of birth account error"
-labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,date of birth,validation error,Adobe Commerce,cloud infrastructure,on-premises
 description: "The MDVA-27664 patch solves the issue where a customer account's date of birth could be greater than today."
 ---
 

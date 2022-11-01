@@ -1,6 +1,5 @@
 ---
 title: "Adobe Commerce 2.4.2-p1: invoice note with an incorrect value"
-labels: 2.4.2-p1,Magento Commerce,Magento Commerce Cloud,error,known issues,invoice,tax,vertex,cloud infrastructure,Adobe Commerce,on-premises
 description: "This article describes a known Adobe Commerce 2.4.2-p1 issue where an invoice note with incorrect value is generated when the customer group is changed while creating the order. This issue is fixed in version 2.4.3."
 ---
 

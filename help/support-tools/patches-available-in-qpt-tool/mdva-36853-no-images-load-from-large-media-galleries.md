@@ -1,6 +1,5 @@
 ---
 title: "MDVA-36853: No images load from large media galleries"
-labels: 2.4.2,QPT 1.0.22,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,directory,media gallery,page builder,widget,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Commerce,Magento Open Source
 description: "The MDVA-36853 patch fixes the issue when no images load since the page builder media gallery widget doesn't load when you have a large media directory."
 ---
 

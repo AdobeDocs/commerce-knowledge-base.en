@@ -1,6 +1,5 @@
 ---
 title: MBI Service Policies
-labels: Magento Business Intelligence,support,troubleshooting,Adobe Commerce
 description: "At Magento BI, our goal is to provide stellar customer service, safeguard your data, and give you the know-how you need to make data-driven decisions."
 ---
 

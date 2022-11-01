@@ -1,6 +1,5 @@
 ---
 title: MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
-labels: 2.x.x,Cloud,Magento Commerce Cloud,MySQL,Redis,bottleneck,cluster,high,how to,load,performance,queries,slave,slave connection,Adobe Commerce,cloud infrastructure,Pro
 description: This topic discusses a solution when high load from MySQL causes a performance bottleneck issue in Adobe Commerce on cloud infrastructure.
 ---
 

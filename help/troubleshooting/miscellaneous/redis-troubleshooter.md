@@ -1,6 +1,5 @@
 ---
 title: Redis troubleshooter on Adobe Commerce
-labels: Magento Commerce,Magento Commerce Cloud,Redis,cache,caching,database,ece-tools,patches,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 description: "This article is a troubleshooter tool for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure merchants having issues with Redis. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms and configuration, the troubleshooter will explain how to troubleshoot version and memory issues and optimize performance."
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "MDVA-37913: Product download links vanish after updating extension attributes via API"
-labels: support tools,QPT patches,Quality Patches Tool,Magento Commerce,Magento Commerce Cloud,QPT tool 1.0.24,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce
 description: "The MDVA-37913 patch for solves the issue where the downloadable product links disappear after updating extension attributes via API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.24 is installed. The patch ID is MDVA-37913. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---
 

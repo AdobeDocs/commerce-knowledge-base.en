@@ -1,6 +1,5 @@
 ---
 title: PayPal sandbox account not verified
-labels: troubleshooting,payment services,adobe commerce,magento,2.4.2-p1,paypal
 description: "This article explains why your PayPal sandbox account for Payment Services may not be verified, disabling you from completing sandbox onboarding."
 ---
 

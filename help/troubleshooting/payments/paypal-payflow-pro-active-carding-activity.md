@@ -1,6 +1,5 @@
 ---
 title: PayPal Payflow Pro active carding activity
-labels: 2.1.x,2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,PayPal,carding,payflow,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 description: "UPDATED 2 April 2019"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Do I need Fastly for a Headless Adobe Commerce site?
-labels: DDOS,FAQ,Fastly,Magento,Magento Commerce Cloud,Pro,SSL,Starter,WAF,headless,production,staging,Adobe Commerce,cloud infrastructure
 description: Do I need Fastly for a Headless Adobe Commerce site?
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: During installation, fatal PDO error displays
-labels: Magento Commerce,Magento Commerce Cloud,PDO,PHP,extensions,fatal error,how to,installation,Adobe Commerce,cloud infrastructure,on-premises
 description: "This article provides a fix for an exception fatal PDO error during installation."
 ---
 

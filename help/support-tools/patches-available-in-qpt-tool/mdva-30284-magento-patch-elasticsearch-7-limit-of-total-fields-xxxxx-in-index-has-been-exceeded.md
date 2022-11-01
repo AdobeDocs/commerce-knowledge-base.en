@@ -1,6 +1,5 @@
 ---
 title: "MDVA-30284 Patch: Elasticsearch 7 - Limit of total fields [XXXXX] in index has been exceeded"
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,Elasticsearch problem,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,index,products,support tools,Adobe Commerce,cloud infrastructure
 description: "The MDVA-30284 patch solves the issue where you receive an error message that \"Limit of total fields \\[XXXXX\\] in index has been exceeded\" when using Elasticsearch 7. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.5 is installed. The patch ID is MDVA-30284."
 ---
 

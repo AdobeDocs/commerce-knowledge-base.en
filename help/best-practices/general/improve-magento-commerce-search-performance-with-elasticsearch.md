@@ -1,6 +1,5 @@
 ---
 title: Improve Adobe Commerce search performance with Elasticsearch
-labels: 2.x.x,Elasticsearch,Magento Commerce,MySQL,best practices,bottleneck,memory,performance,search,Adobe Commerce
 description: This article discusses that it is a recommended best practice to replace the default MySQL search engine in Adobe Commerce with Elasticsearch because Elasticsearch is a better-performing search engine.
 ---
 

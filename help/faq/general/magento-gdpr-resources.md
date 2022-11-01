@@ -1,6 +1,5 @@
 ---
 title: Adobe Commerce GDPR resources
-labels: 1.x,2.x.x,FAQ,GDPR,data,devdocs,Adobe Commerce,on-premises,cloud infrastructure,Magento Commerce
 description: "This article lists the official documentation resources that discuss how Adobe Commerce complies with the GDPR (European Union's General Data Protection Regulation)."
 ---
 

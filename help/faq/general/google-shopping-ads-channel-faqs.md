@@ -1,6 +1,5 @@
 ---
 title: Google Shopping ads Channel FAQs
-labels: 2.3.3,2.3.4-p1,2.3.5,FAQ,Google,Magento Commerce,ads,channel,shopping
 description: Google Shopping ads Channel FAQs
 ---
 

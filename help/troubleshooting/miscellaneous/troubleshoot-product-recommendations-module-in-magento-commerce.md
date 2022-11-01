@@ -1,6 +1,5 @@
 ---
 title: Troubleshoot Product Recommendations module in Adobe Commerce
-labels: 2.3.x,2.4.x,Magento Commerce,commerce,how to,magento/product-recommendations,module,product,product-recommendations,recommendations,saas-export,Adobe Commerce,on-premises,cloud infrastructure
 description: "This article talks about troubleshooting suggestions for the"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "MDVA-33168: API async endpoint unsets special price"
-labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1-p1,2.4.1-p2,2.4.2,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,async rest API endpoint,special price,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
 description: "The MDVA-33168 patch fixes the issue where using the API async endpoint to update a product attribute unsets a special price."
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Cached images are not loaded after 2.2.X to 2.3.X upgrade
-labels: 2.2.x,2.3.x,404,Magento Commerce Cloud,Pro,cache,images,troubleshooting,Adobe Commerce,Starter,cloud infrastructure
 description: "This article provides the solution for the issue with cached images not being displayed after upgrading from Adobe Commerce on cloud infrastructure 2.2.X to 2.3.X."
 ---
 

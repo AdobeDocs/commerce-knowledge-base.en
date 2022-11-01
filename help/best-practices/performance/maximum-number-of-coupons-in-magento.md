@@ -1,6 +1,5 @@
 ---
 title: Maximum number of coupons in Adobe Commerce
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,coupon,database,performance,Adobe Commerce,on-premises,cloud infrastructure
 description: "This article provides recommendations on using coupons functionality in Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure, aimed at avoiding performance issues."
 ---
 

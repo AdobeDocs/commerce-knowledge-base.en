@@ -1,6 +1,5 @@
 ---
 title: "Adobe Commerce on-premises 2.4.2: product image missing"
-labels: 2.4.2,Adobe Commerce,on-premises,on-prem,product image missing,Nginx,AWS s3,known issue,workaround,Magento Commerce
 description: "This article describes a known Adobe Commerce on-premises 2.4.2 issue where the product image is not uploaded to the product page. This issue is scheduled to be addressed in a future version after version 2.4.3. There is not a solution available at this time, but as a workaround, you can disable Nginx to resize images."
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Adobe Commerce on cloud Best Practices to Help Prevent and Respond to a Security Incident
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,best practices,security,Adobe Commerce,cloud infrastructure
 promoted: True
 description: "* Adobe Commerce on cloud infrastructure, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)."
 ---

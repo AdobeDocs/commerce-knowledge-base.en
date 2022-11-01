@@ -1,6 +1,5 @@
 ---
 title: "ACSD-46213: Category tree request limited to 20 categories"
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.19,GraphQL,category tree,request ,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.2,2.4.2-p1,2.4.2-p2
 description: "The ACSD-46213 patch fixes the issue where the category tree request is limited to 20 categories. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.19 is installed. The patch ID is ACSD-46213. "
 ---
 

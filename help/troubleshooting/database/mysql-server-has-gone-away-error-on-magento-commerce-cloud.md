@@ -1,6 +1,5 @@
 ---
 title: MySQL server has gone away​ error on Adobe Commerce on cloud
-labels: 2.3,2.3.x,2.4,2.4.x,Magento,MySQL,cron,deployment fails,error,log,time-out,Adobe Commerce,cloud infrastructure
 description: "This article talks about the solution for the issue where you receive an \" *SQL server has gone away* \" error message in the `cron.log` file. A range of symptoms including image file importing issues or deployment failure may be experienced."
 ---
 

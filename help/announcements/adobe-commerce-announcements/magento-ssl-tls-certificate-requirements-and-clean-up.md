@@ -1,6 +1,5 @@
 ---
 title: Adobe SSL/TLS certificate requirements and clean up
-labels: DNS,FAQ,Fastly,Magento Commerce Cloud,SSL,certificate,domain,production,staging,Adobe Commerce,cloud infrastructure,Pro,Starter
 description: "For the most relevant information about SSL/TLS certificates provided for Adobe Commerce on cloud infrastructure, refer to the following articles:"
 ---
 

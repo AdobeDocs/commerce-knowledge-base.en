@@ -1,6 +1,5 @@
 ---
 title: PHP version readiness check issues
-labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,PHP version,how to,troubleshooting,web setup wizard,Magento Open Source,Adobe Commerce,cloud infrastructure,on-premises
 description: "This article talks about the solutions for the PHP version issues you might face when installing/upgrading Adobe Commerce on-premises using the Web Setup Wizard."
 ---
 

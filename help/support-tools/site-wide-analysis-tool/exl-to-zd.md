@@ -1,6 +1,5 @@
 ---
 description: This is an article to test ExL Markdown syntax and it's conversion to Zendesk HTML.
-labels: 2.2.x,2.3.x,Magento Commerce,exception,generated,how to,install,installation,var,web setup wizard,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
 title: ExL Syntax Style Guide
 ---
 # ExL Export Testing
