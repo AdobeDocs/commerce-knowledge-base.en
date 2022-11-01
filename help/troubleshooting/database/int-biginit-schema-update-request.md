@@ -48,7 +48,7 @@ Check the highest value of the primary key by running the following command in t
 >
 >Perfrom a database backup before doing any alterations to tables. Also consier putting the site into maintenance mode.
 
-If the max(value_id) is lower than the max int(11) [ 4294967296 ], and the [ AUTO_INCREMENT ] has a value greater than the max int(11), then consider using Solution 1. Otherwise, use Solution 2.
+If the *max(value_id)* is lower than the *max int(11) [ 4294967296 ]*, and the *[ AUTO_INCREMENT ]* has a value greater than the *max int(11)*, then consider using Solution 1. Otherwise, use Solution 2.
 
 ## Solution 1: Update the *[ AUTO_INCREMENT]* to the next value from the table
 
