@@ -38,7 +38,7 @@ To solve the issue, contact the third-party service provider and request their d
 
 ### Temporary workaround
 
-To make your integration work while developers of the third-party service provider resolve the issue, you can set `SameSite` value to *None*. This can be done by configuring headers in Nginx or configuring this parameter via HTTP headers.
+To make your integration work while developers of the third-party service provider resolve the issue, you can set `SameSite` value to *None*. For Adobe Commerce on premises, this can be done by configuring headers in Nginx or configuring this parameter via HTTP headers. For Adobe Commerce on cloud infrastructure, you can use a plugin for `Magento/Framework/Stdlib/Cookie/CookieMetadata`.
 
 >[!WARNING]
 >
