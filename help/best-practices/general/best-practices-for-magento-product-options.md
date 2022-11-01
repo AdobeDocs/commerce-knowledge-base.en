@@ -1,6 +1,5 @@
 ---
 title: Best practices for Adobe Commerce product options
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,products,Adobe Commerce,on-premise,cloud infrastructure
 description: "This article provides best practices for product options in Adobe Commerce. Our recommendation is to have not more than 100 options per product, as performance can be affected."
 ---
 

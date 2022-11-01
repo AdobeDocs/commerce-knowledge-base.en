@@ -1,6 +1,5 @@
 ---
 title: How many coupons can a customer use in Adobe Commerce?
-labels: 2.x.x,FAQ,Magento,cart,coupon,Adobe Commerce
 description: "Although Adobe Commerce allows configuring multiple coupon codes, a customer can use **only one coupon code in the cart**."
 ---
 

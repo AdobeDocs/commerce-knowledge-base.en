@@ -1,6 +1,5 @@
 ---
 title: Products per page limit Adobe Commerce
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,allow all products,best practices,performance,products per page,Adobe Commerce,cloud infrastructure,on-premises
 description: "This article provides a best practice for using the **Allow All Products per Page** setting, depending on your catalog size, to optimize Adobe Commerce storefront performance."
 ---
 

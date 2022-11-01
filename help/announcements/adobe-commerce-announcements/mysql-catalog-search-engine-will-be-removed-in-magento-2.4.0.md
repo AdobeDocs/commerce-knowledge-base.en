@@ -1,6 +1,5 @@
 ---
 title: MySQL catalog search engine will be removed in Adobe Commerce 2.4.0
-labels: 2.4.0,Elasticsearch 6,Elasticsearch 7,Magento Commerce,Magento Commerce Cloud,MySQL,MySQL search engine depreciated,MySQL search engine removed,announcements,search,Adobe Commerce,cloud infrastructure,on-premises
 description: "Adobe Commerce on-premises, Adobe Commerce on cloud infrastructure, and Magento Open Source 2.4.0 will be released in the coming months. For Adobe Commerce on-premises and Magento Open Source version 2.4.0 Elasticsearch 6.x or 7.x will be a required component, and MySQL search engine will be removed. In Adobe Commerce on cloud infrastructure, Elasticsearch is already required."
 ---
 

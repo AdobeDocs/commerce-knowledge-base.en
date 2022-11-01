@@ -1,6 +1,5 @@
 ---
 title: Ensure Elasticsearch is installed properly
-labels: 2.2.3,2.2.4,2.2.5,2.2.6,2.2.7,2.2.8,2.2.9,2.3.0,2.3.1,Elasticsearch 2.x,Elasticsearch 5.x,Elasticsearch 6.x,Elasticsearch configuration,Elasticsearch version,Magento Commerce,Magento Commerce Cloud,how to,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
 description: "This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration."
 ---
 

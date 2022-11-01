@@ -1,6 +1,5 @@
 ---
 title: Troubleshoot Quick Checkout issues
-labels: troubleshooting,Adobe Commerce,Quick Checkout,Composer,memory,PHP,extension,2.4.4
 description: "This article explains issues you may experience while using the Quick Checkout for Adobe Commerce extension and provides solutions to fix those issues so that you can successfully use the extension."
 ---
 

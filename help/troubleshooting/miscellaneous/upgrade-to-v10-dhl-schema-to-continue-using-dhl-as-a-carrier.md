@@ -1,6 +1,5 @@
 ---
 title: Upgrade to v10 DHL schema to continue offering DHL shipping
-labels: patch,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises,DHL,v10 schema,upgrade,deprecation,v6 schema,2.3.7,2.4.0,2.4.1,2.4.2,2.4.3,2.4.3-p2,2.4.3-p3,2.4.4
 
 description: This article provides a solution to allow merchants to continue offering DHL shipping after the DHL schema 6.2 gets deprecated in December 2022, by upgrading to schema 10.0 or by applying the AC-3023 patch.
 ---

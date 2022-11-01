@@ -1,6 +1,5 @@
 ---
 title: Cache warming up and site unavailable on Adobe Commerce
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce Cloud,cache,site,site down,stuck deployment,troubleshooting,Adobe Commerce,cloud infrastructure
 description: "This article provides a solution for when the page cache is warming up and there is a stuck deployment or site down."
 ---
 

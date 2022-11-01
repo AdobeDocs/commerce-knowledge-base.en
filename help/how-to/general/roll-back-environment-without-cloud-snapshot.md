@@ -1,6 +1,5 @@
 ---
 title: Roll back environment without Cloud snapshot
-labels: 2.1,2.1.x,2.2,2.2.x,Cloud,Magento Commerce Cloud,commit,how to,roll back,snapshot,uninstall,Adobe Commerce,cloud infrastructure
 description: "This article shows two solutions to roll back an environment without having a snapshot of your environment on Adobe Commerce on cloud infrastructure."
 ---
 

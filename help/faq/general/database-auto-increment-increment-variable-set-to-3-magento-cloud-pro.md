@@ -1,6 +1,5 @@
 ---
 title: 'Database auto_increment increment variable set to "3" Adobe Commerce on our cloud pro architecture'
-labels: FAQ,Galera,Magento Commerce Cloud,MySQL,Pro,auto_increment_increment,database,Adobe Commerce on our cloud architecture,Adobe Commerce,cloud infrastructure,Pro
 description: "This is the expected behavior for Adobe Commerce on cloud infrastructure Pro plan architecture solutions due to the 3-node architecture and cannot be modified."
 ---
 

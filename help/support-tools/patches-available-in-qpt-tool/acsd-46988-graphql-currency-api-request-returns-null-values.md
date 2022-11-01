@@ -1,6 +1,5 @@
 ---
 title: "ACSD-46988: GraphQL currency API request returns null values"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.21,GraphQL,custom currency,API request,2.4.4,2.4.4-p1,2.4.4-p2,2.4.5
 description: "The ACSD-46988 patch fixes the issue where the GraphQL currency API request returns null values for a custom currency. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html?lang=en) 1.1.21 is installed. The patch ID is ACSD-46988. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Best practices for Adobe Commerce robots.txt
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,best practices,robots.txt,search engine robots,security,seo,Adobe Commerce,cloud infrastructure,on-premises
 description: "This article provides best practices for using `robots.txt` in Adobe Commerce. This includes configuration and security. The `robots.txt` file is a text file that instructs web robots (typically search engine robots) how to crawl pages on their website."
 ---
 

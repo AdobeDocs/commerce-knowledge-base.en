@@ -1,6 +1,5 @@
 ---
 title: "ACSD-46520: Incorrect order status when refunded using store credits"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.20,incorrect,order status,refund,store,credits,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.5
 description: This article provides a solution for the issue where users get an incorrect order status when refunded using store credits.
 ---
 
