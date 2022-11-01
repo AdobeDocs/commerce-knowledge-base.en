@@ -5,7 +5,7 @@ description: "This article provides a solution and workaround for the issue, whe
 
 # Customers get logged out or lose cart content on Adobe Commerce storefront
 
-This article provides a solution and workaround for the issue, where customers get logged out or lose items from the shopping cart on the storefront, after being re-directed back to the Adobe Commerce store from payment or other third-party services (session cookie "gets lost").
+This article provides a solution for the issue, where customers get logged out or lose items from the shopping cart on the storefront, after being re-directed back to the Adobe Commerce store from payment or other third-party services (session cookie "gets lost").
 
 ## Affected products and versions
 
@@ -35,14 +35,6 @@ The SameSite cookie attribute is set to *Lax* or not specified (which is treated
 ## Solution
 
 To solve the issue, contact the third-party service provider and request their developers update their integrations to configure cookie parameters.
-
-### Temporary workaround
-
-To make your integration work while developers of the third-party service provider resolve the issue, you can set `SameSite` value to *None*. For Adobe Commerce on premises, this can be done by configuring headers in Nginx or configuring this parameter via HTTP headers. For Adobe Commerce on cloud infrastructure, you can use a plugin for `Magento/Framework/Stdlib/Cookie/CookieMetadata`.
-
->[!WARNING]
->
->Adobe does not recommend such modifications, because it might cause security issues and/or break PCI compliance. Adobe recommends contacting the third-party developer who provides your payment platform and requesting changes to cookie settings configuration.
 
 ## Related reading
 
