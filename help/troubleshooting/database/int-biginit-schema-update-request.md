@@ -25,7 +25,7 @@ labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary 
 
 This article provides solutions for when you are unable to save a product update, like a price change, or deleting, or duplicating a product. 
 
-You may see the error message *The stock item was unable to be saved. Please try again.* You may also see the following MySQL error message: 
+You may see the error message *The stock item was unable to be saved. Please try again.* You may also see the following MySQL error message when you run ```php bin/magento setup:upgrade:``` On Adobe Commerce on cloud infrastruture, this error should be available in the deployment logs.
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)
