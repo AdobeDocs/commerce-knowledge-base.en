@@ -1,6 +1,5 @@
 ---
 title: Backup issues
-labels: Magento Commerce,backup,disk space,how to,permissions,Adobe Commerce,on-premises,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,Magento Open Source
 description: "This article lists the possible solutions for the backup creation issues."
 ---
 

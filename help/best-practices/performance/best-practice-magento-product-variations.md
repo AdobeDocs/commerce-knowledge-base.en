@@ -1,6 +1,5 @@
 ---
 title: Best practice Adobe Commerce product variations
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,attribute,best practices,performance,products,Adobe Commerce,on-premises,cloud infrastructure
 description: "This article provides best practices for product variations. Our recommendation is to have not more than 50 variations per product, as performance can be affected."
 ---
 

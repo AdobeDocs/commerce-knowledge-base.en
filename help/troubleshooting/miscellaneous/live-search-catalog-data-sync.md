@@ -1,6 +1,5 @@
 ---
 title: Live search catalog not synchronized
-labels: Adobe Commerce,Magento,on-premises,cloud infrastructure,live search,catalog,data,sync
 description: "This article provides solutions for the Adobe Commerce issue where your catalog data is not synchronized correctly when using the Live Search extension."
 ---
 

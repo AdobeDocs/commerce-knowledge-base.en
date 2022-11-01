@@ -1,6 +1,5 @@
 ---
 title: Cron tasks lock tasks from other groups
-labels: Magento Commerce Cloud,Pro,cron,lock,troubleshooting,Adobe Commerce,cloud infrastructure
 description: "This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs."
 ---
 

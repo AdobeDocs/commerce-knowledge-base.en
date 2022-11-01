@@ -1,6 +1,5 @@
 ---
 title: PHP settings errors
-labels: PHP,error,how to,large forms,memory,settings,xdebug,Adobe Commerce
 description: "This article provides solutions for PHP settings errors."
 ---
 

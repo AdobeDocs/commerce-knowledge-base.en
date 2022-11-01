@@ -1,6 +1,5 @@
 ---
 title: MDVA-28357 SKU search in Advanced Search page doesn't work
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,Advanced search,QPT 1.0.8,QPT patches,Magento Commerce,Magento Commerce Cloud,search,support tools,Adobe Commerce,cloud infrastructure,on-premises
 description: "The MDVA-28357 solves the issue where search by a product SKU in the Advanced Search page does not lead to the relevant product displaying in search results. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.8 is installed. Please note that the issue is fixed in Adobe Commerce version 2.4.1."
 ---
 

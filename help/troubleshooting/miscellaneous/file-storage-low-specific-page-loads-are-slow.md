@@ -1,6 +1,5 @@
 ---
 title: File storage low, specific page loads are slow
-labels: Fastly,Magento Commerce,Magento Commerce Cloud,disk space,how to,image optimization,page loads slow,storage,Adobe Commerce,cloud infrastructure,on-premises
 description: "This article provides a solution for the issue of low disk space caused by large, rich images."
 ---
 

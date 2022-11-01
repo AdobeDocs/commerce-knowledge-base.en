@@ -1,6 +1,5 @@
 ---
 title: Customers get logged out or lose cart content on Adobe Commerce storefront
-labels: Magento,Adobe Commerce,on-premises,cloud infrastructure,SameSite,cart,cookies,how to,logged out,session,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1-p1,2.4.2,2.4.2-p1,2.3.7-p1,2.3.7-p2,2.4.1,2.4.2-p2,2.4.3,2.4.3-p1
 description: "This article provides a solution and workaround for the issue, where customers get logged out or lose items from the shopping cart on the storefront, after being re-directed back to the Adobe Commerce store from payment or other third-party services (session cookie \"gets lost\")."
 ---
 

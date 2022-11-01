@@ -1,6 +1,5 @@
 ---
 title: Integration Environment enhancement request - Pro and Starter
-labels: Magento Commerce Cloud,Magento Pro,Magento Starter,Staging,announcements,increase performance,performance,reactive integration environment request,upgrade,Pro,Starter,Adobe Commerce,cloud infrastructure
 description: "If you are an Adobe Commerce on cloud infrastructure Pro plan architecture customer and currently use the standard-sized Integration Environments, or you are an Adobe Commerce on cloud infrastructure Starter plan architecture customer and currently use the standard sized Staging Environment and would like more power, you can request an upgrade to Enhanced Integration Environments, which provide roughly four times the performance. This article separates instructions for Pro customers from Starter customers."
 ---
 

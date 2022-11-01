@@ -1,6 +1,5 @@
 ---
 title: Allocate more space for MySQL in Adobe Commerce on cloud
-labels: Magento Commerce Cloud,Magento Pro,Magento Starter,MySQL,Pro,Starter,how to,mysql disk space,space,Adobe Commerce,cloud infrastructure
 description: "This article provide instructions on how to allocate more space for MySQL in Adode Commerce on cloud infrastructure."
 ---
 
