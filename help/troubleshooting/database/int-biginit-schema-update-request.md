@@ -45,9 +45,9 @@ Check the highest value of the primary key by running the following command in t
 >
 >Perform a database backup before alterating tables. Also consider putting the site into [maintenance mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=en#maintenance-mode).
 
-If the *max(value_id)* is lower than the *max int(11) [ 4294967296 ]*, and the *[ AUTO_INCREMENT ]* has a value greater than the *max int(11)*, then consider using [Update the *[ AUTO_INCREMENT ]* to the next value from the table](update_the_[ AUTO_INCREMENT ]_to_the_next_value_from_the_table). Otherwise, use [Solution 2](update_the_*[ AUTO_INCREMENT ]*_to_the_next value_from_the_table).
+If the *max(value_id)* is lower than the *max int(11) [ 4294967296 ]*, and the *[ AUTO_INCREMENT ]* has a value greater than the *max int(11)*, then consider using [updating the *[ AUTO_INCREMENT ]* to the next value from the table](#update-the-auto-increment-to-the-next-value-from-the-table). Otherwise, consider [consider doing a *INT* to *BIGINT* schema update](#int_to_bigint_schema_update).
 
-## Update the *[ AUTO_INCREMENT ]* to the next value from the table
+## Update the AUTO_INCREMENT to the next value from the table {#update-the-auto-increment-to-the-next-value-from-the-table}
 
 If the value shown is lower than *max int(11) [ 4294967296 ]* as shown in the below example terminal output, than a table *[ AUTO_INCREMENT ]* has changed to a number bigger or equal to the *max [ int(11) ]* value. 
 
@@ -75,7 +75,7 @@ As you can see in the above example output the table *[ AUTO_INCREMENT ]* has ch
 ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 ```
 
-## *INT* to *BIGINT* schema update
+## *INT* to *BIGINT* schema update {#int_to_bigint_schema_update}
 
 However, if when running the following command ``SELECT MAX(value_id) FROM catalog_product_entity_int;`` the value shown is higher than *max int(11) [ 4294967296 ]*  consider doing a *INT* to *BIGINT* schema update. The datatype *BIGINT* has a larger range of values.
 
