@@ -3,12 +3,11 @@ title: Adobe Commerce database numeric value out of range, INT to BIGINT
 labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary keys,int,bigint,numeric value out of range,tables,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.4-p2,2.4.5,2.4.5-p1
 ---
 
-# Adobe Commerce database numeric value out of range, INT to BIGINT
+# Adobe Commerce database numeric value out of range, *INT* to *BIGINT*
 
 >[!WARNING]
 >
->Before implementing the solution in this article (*INT* to *BIGINT* schema update) merchants must always check that the field they are going to change DOES NOT have any foreign-key relationships to another table. If the field does have foreign-key relationships to another table, there will issues because the related field is still *INT*. They can use the following query to verify this. This query will list down all the foreign-key relationships available in the database for the given table field: 
-
+>Before implementing the solution in this article (*INT* to *BIGINT* schema update) merchants must always check that the field they are going to change DOES NOT have any foreign-key relationships to another table. If the field does have foreign-key relationships to another table, there will issues because the related field is still *INT*. They can use the following query to verify this. This query lists the foreign-key relationships available in the database for the given table field: 
 >```mysql
 >SELECT 
 >   TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
@@ -24,8 +23,8 @@ labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary 
 
 * Adobe Commerce (all deployment methods) all [supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
-This article provides solutions for when you are unable to save a product update, like a price change, or deleting, or duplicating a product. 
-You may see the error message *The stock item was unable to be saved. Please try again.* You might fail to deploy after a product update. You may also see the following MySQL error message when you run ```php bin/magento setup:upgrade:``` On Adobe Commerce on cloud infrastruture, this error should be available in the deployment logs.
+This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product. 
+You may see the error message *The stock item was unable to be saved. Please try again.* You might fail to deploy after a product update. You may also see the following MySQL error message when you run `php bin/magento setup:upgrade`. On Adobe Commerce on cloud infrastruture this error shows in the deployment logs:
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)
@@ -35,20 +34,18 @@ The solutions described in the article are:
 * Update the *[ AUTO_INCREMENT ]* to the next value from the table or
 * *INT* to *BIGINT* schema update
 
-Which solution you use depends on what has caused the issue.
+Which solution you use depends on what has caused the issue. Refer to the the steps below to isolate the cause.
 
 ## Steps to check the cause
 
 
-Check the highest value of the primary key by running the following command in the terminal:
-
-``SELECT MAX(value_id) FROM catalog_product_entity_int;``
+Check the highest value of the primary key by running the following command in the terminal: `SELECT MAX(value_id) FROM catalog_product_entity_int;`
 
 >[!WARNING]
 >
->Perfrom a database backup before doing any alterations to tables. Also consier putting the site into maintenance mode.
+>Perform a database backup before alterating tables. Also consider putting the site into [maintenance mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=en#maintenance-mode).
 
-If the *max(value_id)* is lower than the *max int(11) [ 4294967296 ]*, and the *[ AUTO_INCREMENT ]* has a value greater than the *max int(11)*, then consider using [Update the *[ AUTO_INCREMENT ]* to the next value from the table](update_the_[ AUTO_INCREMENT]_to_the_next_value_from_the_table). Otherwise, use [Solution 2](update_the_*[ AUTO_INCREMENT ]*_to_the_next value_from_the_table).
+If the *max(value_id)* is lower than the *max int(11) [ 4294967296 ]*, and the *[ AUTO_INCREMENT ]* has a value greater than the *max int(11)*, then consider using [Update the *[ AUTO_INCREMENT ]* to the next value from the table](update_the_[ AUTO_INCREMENT ]_to_the_next_value_from_the_table). Otherwise, use [Solution 2](update_the_*[ AUTO_INCREMENT ]*_to_the_next value_from_the_table).
 
 ## Update the *[ AUTO_INCREMENT ]* to the next value from the table
 
