@@ -8,6 +8,7 @@ labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary 
 >[!WARNING]
 >
 >Before implementing the solution in this article (*INT* to *BIGINT* schema update) merchants must always check that the field they are going to change DOES NOT have any foreign-key relationships to another table. If the field does have foreign-key relationships to another table, there will issues because the related field is still *INT*. They can use the following query to verify this. This query will list down all the foreign-key relationships available in the database for the given table field: 
+
 >```mysql
 >SELECT 
 >   TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
@@ -24,8 +25,7 @@ labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary 
 * Adobe Commerce (all deployment methods) all [supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 This article provides solutions for when you are unable to save a product update, like a price change, or deleting, or duplicating a product. 
-
-You may see the error message *The stock item was unable to be saved. Please try again.* You may also see the following MySQL error message when you run ```php bin/magento setup:upgrade:``` On Adobe Commerce on cloud infrastruture, this error should be available in the deployment logs.
+You may see the error message *The stock item was unable to be saved. Please try again.* You might fail to deploy after a product update. You may also see the following MySQL error message when you run ```php bin/magento setup:upgrade:``` On Adobe Commerce on cloud infrastruture, this error should be available in the deployment logs.
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)
