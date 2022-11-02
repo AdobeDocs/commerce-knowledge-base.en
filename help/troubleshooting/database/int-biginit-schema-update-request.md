@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce database numeric value out of range, INT to BIGINT
-labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary keys,int,bigint,numeric value out of range,tables,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.4-p2,2.4.5,2.4.5-p1
+Description: "This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product."
 ---
 
 # Adobe Commerce database numeric value out of range, *INT* to *BIGINT*
