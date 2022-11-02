@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Adobe Commerce prompts customers log in invalid link
 description: "The article provides a link to the patch for a known Adobe Commerce 2.3.5 issue, where customers are prompted to log in, but the link to resend a confirmation email does not work."
 ---

@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Out of memory error during install or upgrade
 description: "This article talks about solutions for the out of memory error during installing/upgrading Adobe Commerce on-premises and Magento Open Source on-premises products."
 ---

@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "Adobe Commerce 2.4.0 known issue: Amazon pay, no payment methods"
 description: "This article provides a solution for an Adobe Commerce 2.4.0 known issue where payment methods are missing when customers use **Return to standard checkout**, after they enabled Amazon pay."
 ---

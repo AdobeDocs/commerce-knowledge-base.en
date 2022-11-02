@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Delayed Payment Services report data
 description: "This article explains why reporting data in Payment Services may be delayed."
 ---

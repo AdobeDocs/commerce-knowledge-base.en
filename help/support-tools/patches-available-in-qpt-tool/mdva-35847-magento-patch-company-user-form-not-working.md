@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-35847: Company User form not working"
 description: "The MDVA-35847 patch solves the issue of the Company User form not working and returning a 500 error on the front end. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35847. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
 ---

@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Credit card failed payments in a Sandbox environment
 description: "This article explains why a test credit card fails in a Sandbox environment with PayPal APIs."
 ---

@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Magento Order Management System (OMS) for Adobe Commerce processing error
 description: "This article provides a solution for the issue when you get a `getMode()` error in the CLI running `bin/magento oms:messages:process` in the Magento Order Management System (OMS) for Adobe Commerce."
 ---

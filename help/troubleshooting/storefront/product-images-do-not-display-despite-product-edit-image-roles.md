@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Product images do not display despite Product Edit image roles
 description: "This article provides a fix for when product images do not display on your storefront, despite image roles set on the Product Edit page."
 ---

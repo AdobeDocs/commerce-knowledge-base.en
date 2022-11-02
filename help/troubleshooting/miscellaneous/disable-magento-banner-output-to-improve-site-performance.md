@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Disable Adobe Commerce Banner output to improve site performance
 description: "This article provides a fix for low site performance. Low site performance can be caused by the `Magento_Banner` module being enabled but not used. Disabling the module output can improve site performance. Review the article for resolution steps."
 ---

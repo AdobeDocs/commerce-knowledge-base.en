@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Configurable product swatches not displayed crossed out when out of stock
 description: "This article provides a patch for the known Adobe Commerce 2.2.2 issue related to the configurable product swatches being out of stock not displayed as crossed out on the storefront."
 ---

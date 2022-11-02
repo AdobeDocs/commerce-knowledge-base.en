@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Database errors related to max_allowed_packet on Adobe Commerce
 description: "This article provides a solution for database connection errors in the `var/log/exception.log` that may occur when importing a large number of products or performing another task that forces the server to handle bigger packets than set in `max_allowed_packet` that is larger than the default, 16MB."
 ---

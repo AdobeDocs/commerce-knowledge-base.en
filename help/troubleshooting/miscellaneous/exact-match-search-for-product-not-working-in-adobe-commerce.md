@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Exact match search not working in Adobe Commerce 2.4.x
 description: "This article provides a clarification for the issue where store front search results using the same search string differ in Adobe Commerce 2.4.x compared to Adobe Commerce 2.3.x."
 ---

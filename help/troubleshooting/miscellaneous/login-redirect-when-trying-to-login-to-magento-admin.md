@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Login redirect when trying to login to Commerce Admin
 description: "This article gives the possible solutions for the Commerce Admin login issue, where you are redirected back to the login form when trying to log in to the Admin, and no error message is displayed. These include correcting the server timezone settings and clearing the cookies settings in Adobe Commerce."
 ---

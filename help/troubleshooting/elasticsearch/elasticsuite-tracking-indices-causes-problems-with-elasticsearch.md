@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: ElasticSuite tracking indices causes problems with Elasticsearch
 description: This article talks about the issue of Elasticsearch memory problems caused by tracking indices produced by the ElasticSuite plugin.
 ---

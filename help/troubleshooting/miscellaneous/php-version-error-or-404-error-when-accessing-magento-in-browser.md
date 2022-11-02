@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: PHP version error or 404 error when accessing Adobe Commerce in browser
 description: "This article provides solutions for the issues where you cannot access your Adobe Commerce instance in a web browser and get 404 error or \"unsupported PHP version\" error."
 ---

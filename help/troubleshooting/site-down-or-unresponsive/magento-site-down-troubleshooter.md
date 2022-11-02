@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Adobe Commerce site down troubleshooter
 description: "Click on each question to reveal the answer details in each step of the troubleshooter."
 ---

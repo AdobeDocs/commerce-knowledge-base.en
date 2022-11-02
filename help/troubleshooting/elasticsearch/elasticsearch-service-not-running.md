@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Elasticsearch service not running
 description: "This article provides solutions for errors you can experience when the Elasticsearch (ES) service is not running (usually as a result of crashing). Symptoms can include errors when running health checks using curl, reindexing using the command line, Exception and PHP errors, and errors on product pages. The table lists errors and links to resources to attempt to solve them. One symptom can have a range of different causes."
 ---

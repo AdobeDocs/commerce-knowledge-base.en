@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Restricted admin access causing performance issues
 description: "This article provides solutions for when performance is negatively impacted by using [Admin roles with role scope restricted by website](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) in our user guide."
 ---

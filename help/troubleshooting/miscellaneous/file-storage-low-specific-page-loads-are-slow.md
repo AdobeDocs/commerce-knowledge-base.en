@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: File storage low, specific page loads are slow
 description: "This article provides a solution for the issue of low disk space caused by large, rich images."
 ---

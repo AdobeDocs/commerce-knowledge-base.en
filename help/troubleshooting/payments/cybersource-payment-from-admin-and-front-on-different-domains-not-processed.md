@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Cybersource payment from Admin and front on different domains not processed
 description: "This article provides a patch for the known Adobe Commerce 2.3.0 limitation related to not having the ability to process Cybersource payments from both storefront and the Commerce Admin, if they are on different domains."
 ---

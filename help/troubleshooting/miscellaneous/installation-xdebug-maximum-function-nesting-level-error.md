@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Installation xdebug maximum function nesting level error
 description: "This article provides a fix for the xdebug maximum function nesting level error during installation."
 ---

@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-33632 patch: out of stock product reorder exception"
 description: "The MDVA-33632 patch solves the issue where an exception is thrown when trying to reorder an out of stock product."
 ---

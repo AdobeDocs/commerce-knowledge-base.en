@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work
 description: "This article provides a solution for an Adobe Commerce 2.4.0 known issue where the **Export Tax Rates** button does not work."
 ---

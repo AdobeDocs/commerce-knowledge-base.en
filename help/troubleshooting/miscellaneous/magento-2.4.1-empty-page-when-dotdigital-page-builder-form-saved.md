@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved"
 description: "This article provides a workaround for a known issue in Adobe Commerce 2.4.1 for showing an empty webpage after saving a dotdigital Page Builder form in the Admin Panel when using the Safari browser."
 ---

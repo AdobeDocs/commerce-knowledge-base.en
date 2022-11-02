@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Locked fields in Commerce Admin
 description: "This article provides a solution for when you cannot modify fields in the Commerce Admin."
 ---

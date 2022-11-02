@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-40545: Only the first node for a page is retrieved"
 description: "The MDVA-40545 patch solves the issue where only the first node for a page is retrieved even if there are more than one node for the same page. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.5 is installed. The patch ID is MDVA-40545. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

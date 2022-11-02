@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: MBI Service Policies
 description: "At Magento BI, our goal is to provide stellar customer service, safeguard your data, and give you the know-how you need to make data-driven decisions."
 ---

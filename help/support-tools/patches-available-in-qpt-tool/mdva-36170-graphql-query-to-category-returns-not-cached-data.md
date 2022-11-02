@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-36170: GraphQL query to category returns not cached data"
 description: "The MDVA-36170 patch fixes the issue where the result of the GraphQL query is not cached. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-36170. Please note that the issue was fixed in Adobe Commerce 2.4.2."
 ---

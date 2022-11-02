@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Enable cache to avoid performance degradation
 description: "This article explains how to solve a slow site issue caused by certain Adobe Commerce cache types being disabled."
 ---

@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Adobe Commerce Security Scan tool troubleshooting guide
 description: "Learn how to troubleshoot the various issues with the  Security Scan tool for Adobe Commerce and Magento Open Source."
 ---

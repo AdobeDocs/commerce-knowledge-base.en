@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: New environments placed under production when pushed from Git
 description: "This article provides a solution for the issue where new environments are placed under the production environment on Adobe Commerce on cloud infrastructure when pushed from the git version-control system."
 ---

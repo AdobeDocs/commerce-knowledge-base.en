@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: 'MDVA-35910: form validation broken when "Login as Customer" disabled'
 description: "The MDVA-35910 patch solves the issue where the create customer account form validation is broken when the **Login as Customer** extension is disabled. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35910. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
 ---

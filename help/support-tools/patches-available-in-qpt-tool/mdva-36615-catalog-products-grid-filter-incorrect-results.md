@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-36615: catalog products grid filter incorrect results"
 description: "The MDVA-36615 patch fixes the issue with incorrect product count in the admin product grid. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-36615. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---

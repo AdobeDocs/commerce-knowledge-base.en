@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-38929: Invoice with FPT shows wrong total"
 description: "The MDVA-38929 patch solves the issue where the invoice with FPT shows a wrong grand total when the order is paid with store credit. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-38929. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

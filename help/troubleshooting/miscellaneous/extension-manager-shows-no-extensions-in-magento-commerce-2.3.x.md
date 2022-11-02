@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Extension Manager shows no extensions in Adobe Commerce 2.3.x
 description: "This article provides a workaround for missing extensions in the Admin Extension Manager in Adobe Commerce 2.3.x after you purchase extensions via the Commerce Marketplace."
 ---

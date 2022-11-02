@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: 'MDVA-39384: Unable to save custom customer attribute for company user'
 description: "The MDVA-39384 patch solves the issue where the custom customer attribute for a company user is not saved. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39384. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

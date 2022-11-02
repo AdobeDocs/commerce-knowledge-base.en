@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Github token issue and Composer key procedures
 description: "This article provides solutions for the issue of failed deployments related to Github token failures caused by outdated Composer keys."
 ---

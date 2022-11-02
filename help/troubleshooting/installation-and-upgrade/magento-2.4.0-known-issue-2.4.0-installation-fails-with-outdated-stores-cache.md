@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Adobe Commerce 2.4.0 installation fails with outdated stores cache
 description: "This article provides a solution for the issue where your Adobe Commerce 2.4.0 installation fails with the error message: *The default website isn't defined. Set the website and try again.* displayed in the console."
 ---

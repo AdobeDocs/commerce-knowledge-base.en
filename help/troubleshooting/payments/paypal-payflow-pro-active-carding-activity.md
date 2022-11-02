@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: PayPal Payflow Pro active carding activity
 description: "UPDATED 2 April 2019"
 ---

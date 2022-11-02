@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-34847: customer_grid_flat table slow queries"
 description: "The MDVA-34847 patch solves the issue where slow queries occur on the `customer_grid_flat` table. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
 ---

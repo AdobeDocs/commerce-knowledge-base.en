@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Unable to log in to Adobe Commerce support or cloud account
 description: "This article provides a solution for when you struggle to log in to Adobe Commerce support or your cloud project."
 ---

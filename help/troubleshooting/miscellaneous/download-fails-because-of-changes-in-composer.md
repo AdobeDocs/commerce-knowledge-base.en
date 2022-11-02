@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Download fails because of changes in Composer
 description: "This article provides a fix for a failed Adobe Commerce download and exception error."
 ---

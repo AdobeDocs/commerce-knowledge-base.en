@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-44940: SQL error while saving category from admin"
 description: "The MDVA-44940 patch fixes the issue where an SQL error occurs while saving a category from the admin. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.16 is installed. The patch ID is MDVA-44940. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
 ---

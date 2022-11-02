@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade
 description: This article discusses a fix for problems during deployment after upgrading to Adobe Commerce on cloud infrastructure versions 2.3.1+, if you are on Elasticsearch versions 2.x and 5.x.
 ---

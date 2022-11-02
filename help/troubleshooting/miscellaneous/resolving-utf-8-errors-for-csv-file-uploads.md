@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Resolving UTF-8 errors for CSV file uploads
 description: "This article provides a fix for when you receive the error message \"CSV files must use UTF-8 encoding.\" This error message means that the file you're trying to upload contains illegal characters, or characters that aren't allowed. While UTF-8 encoding allows for [the majority of characters](http://www.fileformat.info/info/charset/UTF-8/list.htm), some aren't compatible with Magento BI."
 ---

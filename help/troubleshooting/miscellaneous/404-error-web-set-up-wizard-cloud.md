@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: 404 not found error when accessing Web Setup Wizard via Admin panel
 description: "This article provides a solution for when you experience a 404 not found error when trying to access the Web Setup Wizard via the admin panel."
 ---

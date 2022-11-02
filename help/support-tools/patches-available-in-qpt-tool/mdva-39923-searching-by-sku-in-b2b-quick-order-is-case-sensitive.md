@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-39923: Search by SKU in B2B quick order functionality is case-sensitive"
 description: "The MDVA-39923 patch fixes the issue where customers get an error when they search the order by SKU in B2B quick order functionality with a different case than the one with which the name is saved. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39923. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: PHP mcrypt extension not installed properly
 description: PHP mcrypt extension not installed properly
 ---

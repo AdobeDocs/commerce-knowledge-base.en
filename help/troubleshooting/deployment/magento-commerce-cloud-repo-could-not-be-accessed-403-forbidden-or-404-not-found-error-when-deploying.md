@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying"
 description: "This article discusses how to resolve the Adobe Commerce on cloud infrastructure failed deployment error similar to the following:"
 ---

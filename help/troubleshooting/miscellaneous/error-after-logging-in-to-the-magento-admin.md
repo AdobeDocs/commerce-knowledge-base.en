@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Error after logging in to the Commerce Admin
 description: "This article provides a solution for the issue where you receive an error message saying that the requested URL was not found on this server."
 ---

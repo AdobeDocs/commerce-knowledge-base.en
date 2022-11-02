@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Error enabling Image Optimization in Adobe Commerce
 description: "This article provides a solution for the issue when Fastly Image Optimization (IO) is disabled by default with a notification to contact Fastly to enable image optimization. (The Fastly Cloud Image Optimizer is a real-time image manipulation and optimization service that speeds up image delivery by serving bandwidth-efficient images.)"
 ---

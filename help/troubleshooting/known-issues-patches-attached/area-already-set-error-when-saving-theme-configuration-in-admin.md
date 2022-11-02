@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: '"Area already set" error when saving theme configuration in Admin'
 description: "This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to getting the *\"Area is already set\"* error message when trying to set a theme for the Default Store View in the Commerce Admin."
 ---

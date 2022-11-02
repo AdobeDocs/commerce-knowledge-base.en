@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Troubleshoot Quick Checkout issues
 description: "This article explains issues you may experience while using the Quick Checkout for Adobe Commerce extension and provides solutions to fix those issues so that you can successfully use the extension."
 ---

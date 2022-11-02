@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-37916: PayPal Payments Advanced not returning to confirmation page"
 description: "The MDVA-37916 quality patch for Adobe Commerce fixes the issue of PayPal Payments Advanced not returning to the confirmation page after payment. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37916. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

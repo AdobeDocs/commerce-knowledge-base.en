@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Payment methods not displayed on checkout with multiple addresses
 description: "This article explains that most of the payment methods are not displayed on checkout when multiple shipping addresses are specified, because the functionality is only implemented for Cybersource."
 ---

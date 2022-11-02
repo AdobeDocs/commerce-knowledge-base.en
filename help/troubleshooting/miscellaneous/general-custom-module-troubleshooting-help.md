@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: General custom module troubleshooting help
 description: "This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce."
 ---

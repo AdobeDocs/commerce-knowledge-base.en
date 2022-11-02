@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Catalog pagination doesn't work with Elasticsearch 6.x
 description: "This article provides a patch for the Adobe Commerce issue where catalog pagination doesn't work on Elasticsearch 6.x."
 ---

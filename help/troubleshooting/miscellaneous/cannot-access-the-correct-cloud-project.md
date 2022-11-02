@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Cannot access the correct cloud project
 description: "This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project."
 ---
