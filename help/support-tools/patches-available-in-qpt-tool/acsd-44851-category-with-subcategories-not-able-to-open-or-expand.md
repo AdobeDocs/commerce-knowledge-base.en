@@ -28,7 +28,7 @@ The user is not able to open or expand a category with subcategories.
 
 <u>Steps to reproduce</u>:
 
-1. Create a category tree with two root categories and a few subcategories for each of them.
+1. In the Adobe Commerce Admin, create a category tree with two root categories and a few subcategories for each of them.
 1. Open the mobile view/emulator or shrink the window width until the layout turns mobile.
 1. Open the main menu.
 1. Try to expand the root categories.
