@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: MySQL server has gone away​ error on Adobe Commerce on cloud
 description: "This article talks about the solution for the issue where you receive an \" *SQL server has gone away* \" error message in the `cron.log` file. A range of symptoms including image file importing issues or deployment failure may be experienced."
 ---

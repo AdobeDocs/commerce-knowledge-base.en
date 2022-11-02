@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-40830: Store credit applied multiple times during order"
 description: "The MDVA-40830 patch fixes the issue where the store credit is applied multiple times during order placement. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-40830. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-36138: free shipping rule not applied cart multiple items"
 description: "The MDVA-36138 patch fixes the issue where when there are multiple items in the cart, the matching SKU in the Free Shipping is not getting free shipping applied to it. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-36138. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---

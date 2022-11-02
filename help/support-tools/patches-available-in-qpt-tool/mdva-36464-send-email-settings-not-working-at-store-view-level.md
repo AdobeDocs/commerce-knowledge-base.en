@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-36464: Send email settings not working at store-view level"
 description: "The MDVA-36464 patch fixes the issue where send email settings are not working at the store-view level. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-36464. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---

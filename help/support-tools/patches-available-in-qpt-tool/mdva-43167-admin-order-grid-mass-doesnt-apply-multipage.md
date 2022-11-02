@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-43167: Admin order grid mass action doesn't apply for multi-page"
 description: "The MDVA-43167 patch fixes the issue where the admin order grid mass action doesn't apply for multi-page when the admin user selects all orders. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.16 is installed. The patch ID is MDVA-43167. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
 ---

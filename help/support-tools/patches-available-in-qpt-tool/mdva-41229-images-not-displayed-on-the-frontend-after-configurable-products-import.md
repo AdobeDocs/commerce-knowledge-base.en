@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-41229: Images available on backend not displayed on frontend after configurable products import"
 description: "The MDVA-41229 patch solves the issue where images available on the backend are not displayed on the frontend after configurable products import. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-41229. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-33976 patch: bundle Out Of Stock after option removed"
 description: "The MDVA-33976 patch fixes the issue where a bundle product is shown as Out Of Stock after one of its options has been removed in Admin. This patch is available when the [Quality Patches Tool (QPT) 1.0.15](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-36572: New inventory reservation created after updating credit memo"
 description: "The MDVA-36572 patch fixes the issue where a new inventory reservation is created after updating the credit memo. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "The 'Current version of RDBMS not supported' error on deployment"
 description: "This article provides a solution for when a deployment fails and you have the following error in the deploy log: *current version of RDBMS is not supported*."
 ---

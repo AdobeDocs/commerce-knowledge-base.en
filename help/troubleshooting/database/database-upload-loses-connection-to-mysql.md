@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Database upload loses connection to MySQL
 description: "This article provides a solution for when the database upload loses connection to MySQL."
 ---

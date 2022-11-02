@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue"
 description: "This patch resolves an issue in Adobe Commerce where the storefront checkout workflow did not display any payment method that has been enabled for specific countries, except for Klarna and Amazon Pay."
 ---

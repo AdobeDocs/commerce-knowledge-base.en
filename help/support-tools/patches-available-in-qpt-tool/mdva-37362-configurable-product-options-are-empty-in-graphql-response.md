@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-37362: Configurable product options are empty in GraphQL response"
 description: "The MDVA-37362 patch solves the issue where configurable product option values and variant attribute values are empty in the GraphQL response. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.23 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3."
 ---

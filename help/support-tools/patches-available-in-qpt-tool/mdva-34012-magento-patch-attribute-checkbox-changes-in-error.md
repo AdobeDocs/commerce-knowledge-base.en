@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-34012 patch: attribute checkbox changes in error"
 description: "The MDVA-34012 patch solves the issue where the checkbox for an attribute gets changed after a schedule update in error."
 ---

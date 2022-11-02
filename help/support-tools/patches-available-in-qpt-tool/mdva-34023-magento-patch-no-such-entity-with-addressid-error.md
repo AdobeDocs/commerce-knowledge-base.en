@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: 'MDVA-34023 patch: "No such entity with addressId" error'
 description: "The MDVA-34023 patch solves the issue where `No such entity with addressId` errors occur randomly on a customer's web browser."
 ---

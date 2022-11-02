@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-34474: API requisition list update results in error"
 description: "The MDVA-34474 patch fixes the issue where adding a product to the requisition list using API results in error. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-34474. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---

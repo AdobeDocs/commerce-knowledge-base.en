@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Advanced Reporting 404 error on split database solution
 description: "This article provides a patch for Adobe Commerce 2.3.x users with the [split database solution](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) that experience a 404 error when trying to use Advanced Reporting."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-35984: Wrong product Qty in concurrent shipments for same product"
 description: "The MDVA-35984 patch fixes the issue when creating multiple concurrent shipments for the same product gives an incorrect product quantity (Qty). This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-35984. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---

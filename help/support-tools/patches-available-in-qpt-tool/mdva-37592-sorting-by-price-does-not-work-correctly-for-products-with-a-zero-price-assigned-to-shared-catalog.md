@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-37592: Sorting by price not working for products with price zero"
 description: "The MDVA-37592 Adobe Commerce patch solves the issue where sorting by price does not work correctly for products with  price zero assigned to a shared catalog. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-37592. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: MySQL tables are too large
 description: "This article discusses why it is an issue when any MySQL table gets larger than 1 GB and how to prevent this."
 ---

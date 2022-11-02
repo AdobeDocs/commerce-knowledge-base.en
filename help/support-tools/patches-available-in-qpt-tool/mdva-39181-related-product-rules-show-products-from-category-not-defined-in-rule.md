@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-39181: Related product rules show products from category undefined in rule"
 description: "The MDVA-39181 patch solves the issue where related product rules show products from a category not defined in the rule. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-39181. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---

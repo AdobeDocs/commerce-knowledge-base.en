@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-36853: No images load from large media galleries"
 description: "The MDVA-36853 patch fixes the issue when no images load since the page builder media gallery widget doesn't load when you have a large media directory."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Deployment failed: unable to apply MDVA-43395 patch"
 description: "This article provides a solution for the issue, where trying to apply the MDVA-43395 patch results in failed deployment."
 ---

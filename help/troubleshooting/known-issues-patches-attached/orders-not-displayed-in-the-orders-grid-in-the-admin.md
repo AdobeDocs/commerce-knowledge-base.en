@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Orders not displayed in the Orders grid in the Admin
 description: "This article provides a patch for the known Adobe Commerce 2.2.1 issue related to the orders not being displayed in the Orders grid in the Commerce Admin."
 ---

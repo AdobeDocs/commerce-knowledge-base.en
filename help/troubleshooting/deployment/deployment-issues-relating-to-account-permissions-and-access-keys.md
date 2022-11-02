@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Deployment issues relating to account permissions and access keys
 description: "This article provides a solution for issues with deploying Adobe Commerce on cloud infrastructure caused by access key ownership conflict."
 ---

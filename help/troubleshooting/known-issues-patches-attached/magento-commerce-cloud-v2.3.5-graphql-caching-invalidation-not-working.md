@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Adobe Commerce on cloud infrastructure v2.3.5 GraphQL caching invalidation not working
 description: "This article provides a patch for the issue where GraphQL `GET` request returns outdated information if the customer changes product information."
 ---

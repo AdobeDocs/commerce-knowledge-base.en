@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: 'MDVA-34850: swatches not strike-through inventory reaches "0"'
 description: "The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches \"0\" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---

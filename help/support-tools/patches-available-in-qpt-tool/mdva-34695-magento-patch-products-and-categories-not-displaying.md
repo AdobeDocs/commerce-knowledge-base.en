@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-34695: Products and categories not displaying"
 description: "The MDVA-34695 patch solves the issue where products and categories don't display in the categories grid in Admin. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.18 is installed. The patch ID is MDVA-34695. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
 ---

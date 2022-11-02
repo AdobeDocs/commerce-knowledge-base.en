@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-34330: Orders not filtered according to admin timezone"
 description: "The MDVA-34330 patch solves the issue where orders are not filtered according to admin timezone. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.24 is installed. The patch ID is MDVA-34330. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---

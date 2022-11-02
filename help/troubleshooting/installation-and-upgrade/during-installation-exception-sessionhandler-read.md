@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: During installation, exception SessionHandler::read()
 description: "This article provides a fix for an exception **SessionHandler::read()** error during Adobe Commerce installation."
 ---

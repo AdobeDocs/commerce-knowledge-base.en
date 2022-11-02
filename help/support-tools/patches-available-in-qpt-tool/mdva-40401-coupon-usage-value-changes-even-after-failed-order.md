@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-40401: Coupon usage value changes after failed order"
 description: "The MDVA-40401 patch fixes the issue where coupon usage value changes even after a failed order. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4 is installed. The patch ID is MDVA-40401. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

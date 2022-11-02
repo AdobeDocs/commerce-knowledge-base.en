@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-33704 patch: In-store pickup doesn't display"
 description: "The MDVA-33704 patch solves the issue where products with in-store pickup option will not display as a shipping method."
 ---

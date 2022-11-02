@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Checkout pages not loading when ad blocker is enabled
 description: "This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.2 issue related to the failure to load checkout pages caused by uBlock or other ad blockers."
 ---

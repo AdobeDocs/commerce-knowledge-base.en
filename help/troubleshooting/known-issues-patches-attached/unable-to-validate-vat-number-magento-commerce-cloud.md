@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Unable to validate VAT number - Adobe Commerce on cloud infrastructure
 description: "This article provides a patch for the issue where there is an error during VAT number verification."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-40488: Configurable products with out-of-stock child products not shown in correct price range"
 description: "The MDVA-40488 patch solves the issue where configurable products with out-of-stock child products are not shown in their correct price range. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-40488. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

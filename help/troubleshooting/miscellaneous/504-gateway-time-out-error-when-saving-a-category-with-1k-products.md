@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: 504 gateway time-out error when saving a category with 1k+ products
 description: "This article suggests a solution for the timeout issue you might have, when performing operations with large categories (1k+ plus products)."
 ---
