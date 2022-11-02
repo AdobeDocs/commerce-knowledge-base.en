@@ -29,7 +29,7 @@ The steps are:
     mysql -h <db-host> -P <db-port> -p -u <db-user> <db-name>
     ```
 
-1. Drop the database; at the MariaDB `[<cluster ID>]>` prompt, enter:
+1. Drop the database; at the MariaDB prompt, enter:
 
     ```sql
     drop database <cluster ID>;
@@ -37,8 +37,16 @@ The steps are:
 
 1. Enter the following command to import the [!DNL snapshot]:
 
+(For [!DNL Production])
+
     ```sql
-    zcat <cluster ID>sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -P <db-port> -p -u   <db-user> <db-name>
+    zcat <cluster ID>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -P <db-port> -p -u   <db-user> <db-name>
+    ```
+
+(For [!DNL Staging])
+
+    ```sql
+    zcat <cluster ID_stg>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -P <db-port> -p -u   <db-user> <db-name>
     ```
 
 ## Method 2: Import the database dump directly from the server {#meth3}
@@ -52,7 +60,7 @@ The steps are:
     mysql -h 127.0.0.1 -P <db-port> -p -u <db-user> <db-name>
     ```
 
-1. Drop the database; at the MariaDB `[<cluster "ID>]>` prompt, enter:
+1. Drop the database; at the MariaDB prompt, enter:
 
     ```sql
     drop database <cluster ID>;
@@ -60,8 +68,16 @@ The steps are:
 
 1. Enter the following command to import the [!DNL snapshot]:
 
+(For [!DNL Production])
+
     ```sql
-    zcat <cluster ID>sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
+    zcat <cluster ID>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
+    ```
+
+(For [!DNL Staging])
+
+    ```sql
+    zcat <cluster ID_stg>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
     ```
 
 ## Related reading
