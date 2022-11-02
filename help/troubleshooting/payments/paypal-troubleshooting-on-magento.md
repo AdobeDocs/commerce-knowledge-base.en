@@ -1,6 +1,5 @@
 ---
 title: PayPal troubleshooting on Adobe Commerce
-labels: Magento Commerce,Magento Commerce Cloud,PayPal,advanced,credentials,crypt,license,log,payflow,payment,troubleshooting,Adobe Commerce
 description: "This article provides solutions for issues with processing payments via PayPal, especially the PayFlow Pro solution. Some recommendations in this article may seem obvious. We ask you to attempt the troubleshooting options listed in this knowledge base and include all information in any tickets you enter. Adobe Commerce or PayPal Support Engineers will ask you to perform these steps when diagnosing your issues."
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Redirect back to the Commerce Admin login form with "Your account is temporarily disabled" error
-labels: Magento Commerce,Magento Commerce Cloud,admin login,troubleshooting,Adobe Commerce,cloud infrastructure
 description: "This article provides the possible solutions for the Commerce Admin login issue, where you are redirected back to the login form with the following error message: *\"Your account is temporarily disabled\"*. The suggested solution is checking and correcting the admin user database settings."
 ---
 

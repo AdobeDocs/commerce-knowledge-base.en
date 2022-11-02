@@ -1,6 +1,5 @@
 ---
 title: "MDVA-44147: GraphQL request doesn't return Requisition Lists"
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.14,Requisition Lists,customer token,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
 description: "The MDVA-44147 patch fixes the issue where GraphQL request doesn't return Requisition Lists. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-44147. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---
 

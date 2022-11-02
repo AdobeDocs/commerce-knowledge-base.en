@@ -1,6 +1,5 @@
 ---
 title: Offload non-regex redirects to Fastly instead of Nginx (routes)
-labels: Magento Commerce Cloud,Nginx,VCL snippets,fastly,how to,offload,performance,redirects,regex,routes,Adobe Commerce,cloud infrastructure
 description: "This topic suggests a solution to a typical redirects performance issue you might have when you offload non-regex redirects to Fastly instead of Nginx in Adobe Commerce on cloud infrastructure."
 ---
 

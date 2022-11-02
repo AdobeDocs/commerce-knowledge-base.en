@@ -1,6 +1,5 @@
 ---
 title: Best practice for triggers usage
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Commerce,Magento Commerce Cloud,MySQL,best practices,database,performance,triggers,Adobe Commerce,on-premises,cloud infrastructure
 description: "This article explains how to avoid performance issues when using MySQL triggers. Triggers are used to log changes into audit tables."
 ---
 

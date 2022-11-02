@@ -1,6 +1,5 @@
 ---
 title: "ACSD-44591: Errors when order without CAPTCHA confirmation"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.17,order,CAPTCHA,confirmation,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4
 description: "The ACSD-44591 patch solves the issue where the user gets errors when trying to place an order without CAPTCHA confirmation."
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "MBI Training Video: SQL Report Builder"
-labels: MBI,Magento Business Intelligence,SQL,analysis,data,database,how to,mbi-api-migration,reports
 description: "Remember, **you need Admin permissions to access the SQL Report Builder!**"
 ---
 

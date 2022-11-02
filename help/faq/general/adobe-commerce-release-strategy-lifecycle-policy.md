@@ -1,6 +1,5 @@
 ---
 title: FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
-labels: FAQ,Magento,release strategy,lifecycle policy,Adobe Commerce,update,Adobe Support,Magento Open Source,Extended Support
 description: "We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule) for timing details."
 ---
 
@@ -16,7 +15,7 @@ We are also reducing complexity of upgrades and accelerating innovation by narro
 
 ### How is the lifecycle policy changing?
 
-We will be moving our end of support (EOS) dates to align closely with those of PHP, the 3rd-party scripting language that Adobe Commerce is built on. Whenever a PHP version reaches its end of life (EOL), Adobe must update our code to maintain PCI compliance. Aligning our EOS dates to PHP EOL dates will help reduce the frequency and impact of PHP version changes and make it even simpler for merchants to follow the most effective path for staying current.
+We will be moving our end of support (EOS) dates to align closely with those of PHP, the third-party scripting language that Adobe Commerce is built on. Whenever a PHP version reaches its end of life (EOL), Adobe must update our code to maintain PCI compliance. Aligning our EOS dates to PHP EOL dates will help reduce the frequency and impact of PHP version changes and make it even simpler for merchants to follow the most effective path for staying current.
 
 ### How will these changes benefit customers?
 
@@ -118,13 +117,12 @@ Payment Card Industry (PCI) compliance is a set of industry standards that all b
 
 While a customer is under extended support, our Customer Engineering team will continue to provide the same quality and security fixes as usual, without any scope degradations. However, customers will need to take additional measures to remain PCI compliant due to underlying platform technologies reaching end of life.
 
-For instance, 2.4.3 is based on a version of PHP that will reach EOL in November 2022. Even if a customer purchases extended support for 2.4.3 starting in November, they will not remain PCI compliant because PHP is a third-party software that Adobe does not support. They will need to either upgrade each outdated software component, or upgrade to the latest version of Adobe Commerce to become compliant.
-
 Please refer to [Adobe Commerce System Requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) for a full list of tested and supported third-party technologies.
 
 ### What actions can I take to address PCI failure caused by outdated software?
 
-Running an unsupported version of a third-party technology, such as PHP, may impact PCI compliance because any security vulnerability discovered will not be patched by the third party. Adobe recommends customers using outdated PHP purchase extended support from vendors such as [Zend](https://www.zend.com/services/php-long-term-support), who can provide security patches and updates for vulnerabilities discovered on unsupported PHP versions.
+Running an unsupported version of a third-party technology may impact PCI compliance because any security vulnerability discovered will not be patched by the third party. Adobe recommends that merchants either upgrade to the latest Adobe Commerce version as soon as possible to become PCI-compliant or work with a PCI assessor to ensure compliance.
+
 
 ### I have purchased extended support. How will I receive support for security and quality fixes? 
 

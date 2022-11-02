@@ -1,6 +1,5 @@
 ---
 title: Partner Adobe Commerce on cloud infrastructure sandbox requests
-labels: FAQ,Magento Commerce Cloud,cloud sandbox,resources,solution partner,stuck deployment,tech partner,Adobe Commerce, cloud infrastructure
 description: "This FAQ article contains links to useful resources for Adobe Commerce on cloud infrastructure sandbox Requests."
 ---
 

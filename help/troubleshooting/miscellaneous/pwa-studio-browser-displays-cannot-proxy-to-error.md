@@ -1,6 +1,5 @@
 ---
 title: "PWA Studio: Browser displays “Cannot proxy to“ error"
-labels: ENOTFOUND,NodeJS,PWA Studio,browser,hostfile,hostname,how to,proxy,Adobe Commerce,PWA Studio for Adobe Commerce,Progressive Web App Studio
 description: "This topic discusses a solution when your web browser displays a \"*Cannot proxy to*\" and the console displays an"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Adobe Commerce Software End of Support FAQ
-labels: Adobe Commerce,end of life,faq,EOS,EOL,end of support
 description: "The following FAQ is intended to help merchants, developers, and partners understand the implications of Adobe Commerce’s published End of Support (EOS) date for affected versions of Adobe Commerce."
 ---
 
@@ -69,10 +68,6 @@ Another important consideration is to reserve developer and partner resources as
 ### Can I use a third-party service provider for software support when Adobe Commerce Support ceases?
 
 Yes, you can look for security firms, developers, or partners who will provide support for unsupported versions of Adobe Commerce. It will be your responsibility to evaluate these providers, re-certify compliance as necessary, and identify and resolve on-going security threats that may impact your business and customers.
-
-### Can Adobe recommend a third-party service provider for extended support beyond the end of support date?
-
-Running an unsupported version of a third-party technology, such as PHP, may impact PCI compliance because potential security vulnerabilities may not be patched by the third party. Adobe recommends merchants who decide to use outdated PHP purchase extended support from vendors such as Zend, who can provide security patches and updates for these unsupported PHP versions.
 
 ### I have a license for Adobe Commerce that extends beyond the stated end of support date or that version. Will Adobe continue to provide software support for my unsupported version through the life of my license if I choose not to move to a supported version?
 
