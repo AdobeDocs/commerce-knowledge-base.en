@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-43091: Unable to order bundled product from Admin"
 description: "The MDVA-43091 patch solves the issue where users are unable to order bundled product from the Commerce Admin. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-43091. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

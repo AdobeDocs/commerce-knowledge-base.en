@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Exceptions during installation
 description: "This article provides a possible solution for the issues with installing Adobe Commerce using Web Setup Wizard."
 ---

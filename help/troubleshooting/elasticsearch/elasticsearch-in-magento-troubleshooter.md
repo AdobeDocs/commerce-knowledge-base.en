@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Elasticsearch in Adobe Commerce troubleshooter
 description: "Elasticsearch issues on Adobe Commerce can be solved using the Elasticsearch troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter."
 ---

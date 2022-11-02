@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: 'MDVA-41215: Users get 500 error after setting "mage-messages" cookie'
 description: "The MDVA-41215 patch fixes the issue where users get 500 error after setting the \"mage-messages\" cookie if it already exists, but there are no new messages. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.8 is installed. The patch ID is MDVA-41215. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

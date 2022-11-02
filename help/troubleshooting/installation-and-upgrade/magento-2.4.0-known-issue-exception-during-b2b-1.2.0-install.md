@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Adobe Commerce 2.4.0: exception during B2B 1.2.0 install"
 description: "This article provides a fix for an Adobe Commerce known issue for an exception thrown during `setup:upgrade` when installing B2B 1.2.0."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-34189: Visual merchandiser runs long MySQL queries"
 description: "The MDVA-34189 patch solves the issue where Adobe Commerce executes large Visual Merchandiser queries when loading the Admin category page."
 ---

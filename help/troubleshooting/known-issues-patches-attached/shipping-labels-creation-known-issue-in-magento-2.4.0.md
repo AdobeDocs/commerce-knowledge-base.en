@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Shipping labels creation known issue in Adobe Commerce 2.4.0
 description: "This article provides a patch for a known Adobe Commerce 2.4.0 issue, where a shipping label cannot be created."
 ---

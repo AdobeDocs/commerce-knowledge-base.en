@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Ensure Elasticsearch is installed properly
 description: "This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration."
 ---

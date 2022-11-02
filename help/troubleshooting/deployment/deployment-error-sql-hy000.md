@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Deployment error: SQLSTATE[HY000]"
 description: "This article provides a solution for the issue where deployment fails because of the SQLSTATE[HY000] error."
 ---

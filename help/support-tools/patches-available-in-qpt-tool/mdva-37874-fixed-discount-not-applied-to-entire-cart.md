@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-37874: Fixed discount not applied to entire cart"
 description: "The MDVA-37874 patch fixes the issue when the **fixed discount amount** for the whole cart is incorrectly applied to a bundle product containing more than one option. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.24 is installed. The patch ID is MDVA-37874. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3."
 ---

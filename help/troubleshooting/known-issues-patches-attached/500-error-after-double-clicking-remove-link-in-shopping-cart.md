@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: '"500 error" after double-clicking Remove link in shopping cart'
 description: "This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.0 issue related to customers getting error when trying to remove twice a shopping cart item (by double-clicking the *Remove* link or by clicking it in different tabs)."
 ---

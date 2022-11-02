@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-40175: Radio buttons not displayed when reorder"
 description: "The MDVA-40175 patch solves the issue where the Radio buttons are not displayed when users try to reorder. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-40175. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---

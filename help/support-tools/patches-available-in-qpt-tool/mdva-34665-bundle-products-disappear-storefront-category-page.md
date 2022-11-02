@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-34665: bundle products disappear storefront category page"
 description: "The MDVA-34665 patch fixes the issue with missing bundled products on category pages. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-34665. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
 ---

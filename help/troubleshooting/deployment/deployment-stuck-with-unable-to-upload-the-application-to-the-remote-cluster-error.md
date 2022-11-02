@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Deployment stuck with "Unable to upload the application to the remote cluster" error
 description: "This article provides a solution for the Adobe Commerce issue, where deployment gets stuck, and the following error message can be found in the deploy log: *\"Error: Unable to upload the application to the remote cluster\"*."
 ---

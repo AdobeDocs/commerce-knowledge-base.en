@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-34867: Condition fieldset values for Scheduled Update not saved"
 description: "The MDVA-34867 patch solves the issue where the value for the condition in the new schedule update is not getting saved when editing a catalog price rule. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
 ---

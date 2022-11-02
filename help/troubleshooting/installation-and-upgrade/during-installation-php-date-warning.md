@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: During installation, PHP date warning
 description: "This article provides a fix for a PHP date warning during installation."
 ---

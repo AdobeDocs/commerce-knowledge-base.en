@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Installation fails; cannot create install.log
 description: "This article provides a fix for a failed installation due to the Setup Wizard not creating the `install.log` during the installation."
 ---

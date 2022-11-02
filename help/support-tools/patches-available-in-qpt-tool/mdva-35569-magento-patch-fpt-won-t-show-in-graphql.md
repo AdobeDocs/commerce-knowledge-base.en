@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-35569: FPT won't show in GraphQL"
 description: "The MDVA-35569 patch solves the issue when FPT (fixed product tax) doesn't show in GraphQL when the state is specified in the cart. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35569. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-33975 patch: GraphQL price calculations"
 description: "The MDVA-33975 patch fixes GraphQL price calculation issues. These issues include:"
 ---

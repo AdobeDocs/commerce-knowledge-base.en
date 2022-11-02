@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Environment redeployment failed or MySQL server gone away
 description: "This article provides a solution for Adobe Commerce (all deployment methods) issues, where the outage of space allocated for MySQL causes stuck deployment or database connection errors."
 ---

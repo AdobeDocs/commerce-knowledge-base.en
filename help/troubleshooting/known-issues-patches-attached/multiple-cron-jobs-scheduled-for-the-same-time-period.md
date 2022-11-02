@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Multiple cron jobs scheduled for the same time period
 description: "This article provides a patch for a known Adobe Commerce 2.2.2 issue related to having multiple cron jobs scheduled to run at the same time after the time variables for certain tasks were edited in the Commerce Admin."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-35064: URL rewrites not generated for configurables created via API"
 description: "The MDVA-35064 patch fixes the issue where URL rewrites are not being generated for \"All store views\" for products created via API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---

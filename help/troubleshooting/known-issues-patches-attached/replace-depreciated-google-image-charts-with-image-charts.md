@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Replace depreciated Google Image Charts with Image-Charts
 description: "Most Adobe Commerce editions and versions currently use [Google Image Charts](https://developers.google.com/chart/image/) to render static charts in Admin dashboards. As of March 14, 2019, Google will stop supporting Google Image Charts. To resolve this issue, we are providing a patch to replace Google Image Charts with [Image-Charts](https://www.image-charts.com/) free service."
 ---

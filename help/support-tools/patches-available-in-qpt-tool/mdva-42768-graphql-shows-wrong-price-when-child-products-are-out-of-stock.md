@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-42768: GraphQL shows wrong price when child products are out of stock"
 description: "The MDVA-42768 patch fixes the issue where GraphQL shows the wrong price when the child products a configurable product are out of stock. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.10 is installed. The patch ID is MDVA-42768. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---

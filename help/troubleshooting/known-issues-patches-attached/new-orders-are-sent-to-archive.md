@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: New orders are sent to archive
 description: "This article provides a patch for the known Adobe Commerce 2.2.0 issue related to the newly created orders showing in the archive instead of the Orders grid in the Commerce Admin."
 ---

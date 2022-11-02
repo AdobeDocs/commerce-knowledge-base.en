@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-36718: Custom options remain after API change"
 description: "The MDVA-36718 Magento patch fixes the issue when the old custom options remain after being changed via API."
 ---

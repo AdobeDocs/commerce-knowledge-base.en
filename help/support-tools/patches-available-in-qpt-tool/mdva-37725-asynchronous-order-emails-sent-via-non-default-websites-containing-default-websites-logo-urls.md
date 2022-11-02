@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-37725: Emails sent via non-default sites contain default site's logo URLs"
 description: The MDVA-37725 patch fixes the issue where asynchronous order emails are sent via non-default websites containing logo URLs from the default website.
 ---

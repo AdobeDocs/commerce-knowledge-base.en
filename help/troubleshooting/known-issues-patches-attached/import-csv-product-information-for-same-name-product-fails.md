@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Import CSV product information for same name product fails
 description: "This article provides a patch for the known Adobe Commerce 2.2.3 issue related to getting errors when trying to import a `.csv` file with products information if there are products with the same name."
 ---

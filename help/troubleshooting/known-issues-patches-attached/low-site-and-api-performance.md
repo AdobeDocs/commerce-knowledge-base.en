@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Low site and API performance
 description: "This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.1 issue related to having a low site and API performance caused by a long time required to write `debug.log`."
 ---

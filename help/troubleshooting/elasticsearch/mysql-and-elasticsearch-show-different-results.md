@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: MySQL and ElasticSearch show different results
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting different search results for the same search query with MySQL and ElasticSearch.
 ---

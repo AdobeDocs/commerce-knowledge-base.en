@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-37288: Wrong tier prices returned after GraphQL request"
 description: "The MDVA-37288 quality patch for Adobe Commerce solves the issue where the wrong tier prices are returned after GraphQL request. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.23 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3."
 ---

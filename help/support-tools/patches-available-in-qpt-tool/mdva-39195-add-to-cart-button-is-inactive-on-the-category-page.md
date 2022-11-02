@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "MDVA-39195: Add to Cart is inactive on Category Page"
 description: "The MDVA-39195 patch solves the issue where the **Add to Cart** button is inactive on the Category Page when the redirect to cart is enabled. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39195. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---
