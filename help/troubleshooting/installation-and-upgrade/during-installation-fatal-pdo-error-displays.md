@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: During installation, fatal PDO error displays
 description: "This article provides a fix for an exception fatal PDO error during installation."
 ---

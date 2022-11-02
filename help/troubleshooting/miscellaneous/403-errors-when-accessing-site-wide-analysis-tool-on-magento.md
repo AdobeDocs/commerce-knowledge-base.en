@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: 403 errors when accessing Site-Wide Analysis Tool on Adobe Commerce
 description: "This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Adobe Commerce."
 ---

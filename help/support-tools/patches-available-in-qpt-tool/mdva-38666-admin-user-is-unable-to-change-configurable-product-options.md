@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-38666: Admin user is unable to change configurable product options"
 description: "The MDVA-38666 patch solves the issue where the admin user is unable to change configurable product options in the customer's cart. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-38666. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---

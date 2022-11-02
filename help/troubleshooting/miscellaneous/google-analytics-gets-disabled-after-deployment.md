@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Google Analytics gets disabled after deployment
 description: "This topic discusses a solution to a typical issue you might experience with Google Analytics during deployment."
 ---

@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Performance issues caused by excessive Ajax requests
 description: "This article provides a patch for the known Adobe Commerce performance issue caused by excessive Ajax requests. The issue was fixed in Adobe Commerce 2.3.4."
 ---

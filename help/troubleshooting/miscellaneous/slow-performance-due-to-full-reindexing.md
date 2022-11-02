@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Slow performance due to full reindexing
 description: "This article provides a fix for poor performance due to full reindexing (where data in the indexing-related database tables is updating)."
 ---

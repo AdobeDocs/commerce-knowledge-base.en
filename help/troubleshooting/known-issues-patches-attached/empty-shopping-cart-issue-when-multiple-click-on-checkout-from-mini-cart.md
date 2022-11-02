@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Empty shopping cart issue when multiple click on checkout from mini cart
 description: "This article provides a patch for a known Adobe Commerce 2.2.3 issue related to a shopping cart being empty after customers click **Go to Checkout** multiple times in the mini shopping cart."
 ---

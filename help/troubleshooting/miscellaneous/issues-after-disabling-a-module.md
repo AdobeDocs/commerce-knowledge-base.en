@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Issues after disabling a module
 description: "This article provides a solution for module functionality issues after having disabled module output in the Commerce Admin."
 ---

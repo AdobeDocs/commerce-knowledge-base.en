@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: After installing, images and stylesheets do not load; only text displays, no graphics
 description: "This article describes the possible reasons and solutions for the issue where stylesheets and images do not load after installing Adobe Commerce."
 ---

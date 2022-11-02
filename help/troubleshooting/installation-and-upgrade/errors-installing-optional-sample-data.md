@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Errors installing optional sample data
 description: "This topic discusses solutions to errors you might encounter installing optional sample data."
 ---

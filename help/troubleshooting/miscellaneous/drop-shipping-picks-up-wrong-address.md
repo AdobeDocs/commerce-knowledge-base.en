@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Drop shipping picks up wrong address
 description: "The shipping solution does not pick up the address of the product's source."
 ---

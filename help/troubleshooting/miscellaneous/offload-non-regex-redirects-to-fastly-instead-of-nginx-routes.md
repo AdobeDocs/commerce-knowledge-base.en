@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Offload non-regex redirects to Fastly instead of Nginx (routes)
 description: "This topic suggests a solution to a typical redirects performance issue you might have when you offload non-regex redirects to Fastly instead of Nginx in Adobe Commerce on cloud infrastructure."
 ---

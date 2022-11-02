@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Deadlocks in MySQL
 description: "This article talks about deadlocks in MySQL to help identify and resolve them if they cause a site down, stuck database import, or other Adobe Commerce issues."
 ---

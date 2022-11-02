@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Site not accessible due to origin cloaking
 description: "This article provides a solution for when your Adobe Commerce on cloud infrastructure staging or production site storefront and/or Admin is not accessible."
 ---

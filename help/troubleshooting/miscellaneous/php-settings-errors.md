@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: PHP settings errors
 description: "This article provides solutions for PHP settings errors."
 ---

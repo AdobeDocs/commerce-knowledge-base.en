@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-37068: Incorrect tax displayed on Checkout for virtual products"
 description: "The MDVA-37068 patch fixes the issue when the Checkout Page displays an incorrect tax rate for virtual products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-37068. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

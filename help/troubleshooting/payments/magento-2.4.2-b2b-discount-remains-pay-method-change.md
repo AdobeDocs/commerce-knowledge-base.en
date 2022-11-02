@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "Adobe Commerce 2.4.2 B2B: discount remains pay method change"
 description: "This article describes a known Adobe Commerce 2.4.2 B2B issue where a payment method-tied discount persists after a payment method change at checkout. There is no resolution available at this time."
 ---

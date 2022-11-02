@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Site down troubleshooting diagram
 description: "This Adobe Commerce site down troubleshooting diagram can be used to identify and resolve causes of a site down."
 ---

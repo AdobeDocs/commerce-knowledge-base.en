@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
 description: This topic discusses a solution when high load from MySQL causes a performance bottleneck issue in Adobe Commerce on cloud infrastructure.
 ---

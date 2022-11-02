@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Shared access troubleshooting
 description: "**Problem:** You want to provide shared access to your trusted colleague but you cannot locate the **Shared Access** tab on your Commerce Account page."
 ---

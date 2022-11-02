@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-33970 patch: currency sign in credit memo"
 description: "The MDVA-33970 patch solves the issue where a Dollar ($) sign was shown instead of the localized currency in a credit memo. This occurs when a **Website** scope is used for a **Price** attribute."
 ---

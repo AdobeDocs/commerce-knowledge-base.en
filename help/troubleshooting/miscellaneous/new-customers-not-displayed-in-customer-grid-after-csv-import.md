@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: New customers not displayed in Customer grid after CSV import
 description: "This article provides a fix for the issue when you cannot see new customers under **Customers** > **All customers** after an import from a `.csv` file. The solution is to set the `customer_grid` indexer to \"Update on Save\" mode and manually reindex the customer grid."
 ---

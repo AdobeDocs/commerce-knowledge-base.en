@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Redis issue delay Commerce Admin login or checkout
 description: "This article provides a fix for the issue when logging in to the Commerce Admin or opening the checkout page causes lag or timeout (over 30 seconds). The issue occurs when Redis is used for session storage."
 ---

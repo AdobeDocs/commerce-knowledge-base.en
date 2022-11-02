@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-38608: Temporary tables not deleted for unsuccessful reindexes"
 description: "The MDVA-38608 patch fixes the issue where temporary tables for unsuccessful reindexes are not deleted. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.26 is installed. The patch ID is MDVA-38608. Please note that the issue was fixed in Adobe Commerce 2.4.3."
 ---

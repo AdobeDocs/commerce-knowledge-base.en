@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Cannot install using nginx
 description: "This article provides a fix for a failed Adobe Commerce installation, when using the nginx web server."
 ---

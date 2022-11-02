@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Users not able to add product to cart if nothing selected in Allow Countries
 description: "This article provides a patch for the known Adobe Commerce 2.4.4 with PHP 8.1 issue where users are not able to add products to the cart if the Allow Countries is unselected."
 ---

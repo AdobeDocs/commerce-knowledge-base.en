@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Troubleshooting New Relic on Adobe Commerce on cloud infrastructure
 description: "This article provides resources for troubleshooting New Relic on Adobe Commerce on cloud infrastructure."
 ---

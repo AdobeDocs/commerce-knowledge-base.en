@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Installation stops at about 70%
 description: "This article provides a fix for when installation stops at about 70%."
 ---

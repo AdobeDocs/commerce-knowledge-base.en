@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-38526: Admin user is not able to access SWAT tool"
 description: "The MDVA-38526 patch solves the issue where the admin user is not able to access the SWAT tool. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.9 is installed. The patch ID is MDVA-38526. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

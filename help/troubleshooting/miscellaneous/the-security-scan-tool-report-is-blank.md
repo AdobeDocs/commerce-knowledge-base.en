@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: The Security Scan Tool report is blank
 description: "This article provides a fix for the issue where the Security Scan Tool shows a blank page instead of the actual report. To resolve it, you might need to add the IPs used by the Tool to the firewall AllowList."
 ---

@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Error during deployment when upgrading to version supporting PHP 8.1
 description: "This article provides a solution for the error that occurs during deployment when upgrading to a version that supports PHP 8.1."
 ---

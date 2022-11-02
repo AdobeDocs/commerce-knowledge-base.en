@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Cron readiness check issues
 description: "This article provides solutions for cron readiness issues. The following are symptoms of cron issues:"
 ---

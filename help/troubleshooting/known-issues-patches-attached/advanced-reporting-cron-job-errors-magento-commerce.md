@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Advanced Reporting cron job errors Adobe Commerce
 description: "This article provides patches for the Advanced Reporting cron jobs issues in Adobe Commerce, which can cause a 404 error for customers trying to access Advanced Reporting."
 ---

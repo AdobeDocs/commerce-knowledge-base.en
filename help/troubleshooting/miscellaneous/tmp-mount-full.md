@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Troubleshoot /tmp mount full for Adobe Commerce
 description: "This article provides a solution for when the `/tmp` mount is full, site may be down, and you are unable to SSH into a node."
 ---

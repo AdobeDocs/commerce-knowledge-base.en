@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Backup issues
 description: "This article lists the possible solutions for the backup creation issues."
 ---

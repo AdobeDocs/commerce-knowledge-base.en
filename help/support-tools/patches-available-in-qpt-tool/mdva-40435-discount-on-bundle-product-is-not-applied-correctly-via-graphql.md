@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-40435: Discount on bundle product is not applied correctly via GraphQL"
 description: "The MDVA-40435 patch solves the issue where the discount on a bundled product is not applied correctly via GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.4 is installed. The patch ID is MDVA-40435. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
 ---

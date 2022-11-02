@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Cached images are not loaded after 2.2.X to 2.3.X upgrade
 description: "This article provides the solution for the issue with cached images not being displayed after upgrading from Adobe Commerce on cloud infrastructure 2.2.X to 2.3.X."
 ---

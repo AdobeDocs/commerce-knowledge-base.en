@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Unknown module Magento_BundleSampleData
 description: "This article provides a fix for the unknown module error during installation of Adobe Commerce."
 ---

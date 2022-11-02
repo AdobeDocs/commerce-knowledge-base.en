@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MBI: Data discrepancies"
 description: "Do the numbers on a certain report look inaccurate? Do you see unexpected NULL values? If you see something that doesn't seem quite right, we recommend using these resources to help you troubleshoot:"
 ---

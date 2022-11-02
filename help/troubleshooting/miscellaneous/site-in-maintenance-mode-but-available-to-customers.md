@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Site in maintenance mode but available to customers
 description: "This article provides a fix for when maintenance mode is enabled (an Adobe Commerce on cloud infrastructure issue), but the storefront is still available for customers."
 ---

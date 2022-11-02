@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Troubleshoot Payment Services installation
 description: "This article explains errors you may experience while installing Payment Services, and provides solutions to fix those errors so that you can complete installation."
 ---

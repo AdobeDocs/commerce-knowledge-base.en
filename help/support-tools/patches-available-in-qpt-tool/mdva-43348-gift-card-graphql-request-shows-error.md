@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-43348: Gift Card GraphQL request shows error"
 description: "The MDVA-43348 patch fixes the issue where Gift Card GraphQL request shows an error if `gift_card_options` contain \"uid\". This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.12 is installed. The patch ID is MDVA-43348. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---

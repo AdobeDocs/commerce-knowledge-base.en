@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-34192 patch: can't modify customers date in certain format"
 description: "The MDVA-34192 patch fixes the issue where it is impossible to modify/specify customer date of birth using dd/mm/yyyy format. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---

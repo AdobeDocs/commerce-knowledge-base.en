@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: EU customers cannot complete payments
 description: "This article provides a fix for the issue of customers from the European Union not being able to complete payments."
 ---

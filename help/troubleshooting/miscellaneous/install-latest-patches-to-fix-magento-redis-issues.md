@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Install latest patches to fix Adobe Commerce Redis issues
 description: "This article provides information on the latest Redis-related patches available in [Adobe Commerce on cloud infrastructure Patches](https://devdocs.magento.com/cloud/project/project-patch.html) package."
 ---

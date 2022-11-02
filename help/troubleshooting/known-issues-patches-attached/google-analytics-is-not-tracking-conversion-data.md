@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Google Analytics is not tracking conversion data
 description: "This article provides a patch for the known Adobe Commerce 2.2.4 issue related to Google Analytics not tracking the conversion data."
 ---

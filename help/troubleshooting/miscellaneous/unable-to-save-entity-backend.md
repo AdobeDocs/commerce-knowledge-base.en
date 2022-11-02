@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Unable to save entity Adobe Commerce backend
 description: "This article provides a solution for when you are unable to save an entity in the Adobe Commerce backend. For example, when you cannot edit and save a specific `cart_price` rule."
 ---

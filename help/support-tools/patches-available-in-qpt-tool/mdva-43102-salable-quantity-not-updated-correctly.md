@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: "MDVA-43102: Salable quantity not updated correctly"
 description: "The MDVA-43102 patch fixes the issue where the salable quantity is not updated correctly when a refund is done via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-43102. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
 ---

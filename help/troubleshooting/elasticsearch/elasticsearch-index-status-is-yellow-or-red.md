@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: Elasticsearch Index Status is 'yellow' or 'red'
 description: The article provides a fix for when the Elasticsearch Index Status is not '*green*'. '*yellow*' indicates normal, and '*red*' indicates bad. The 'yellow' or 'red' status may occur in conjunction with missing products or the display of old product information.
 ---

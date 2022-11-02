@@ -1,5 +1,4 @@
 ---
-labels: zendesk
 title: '"Class cannot be saved in the code directory" error'
 description: "This article describes how to fix the issue where the way you specified dependencies prevents classes from being auto-generated on the fly, and you get the *\"Class cannot be saved in the generated/code directory\"* error message."
 ---
