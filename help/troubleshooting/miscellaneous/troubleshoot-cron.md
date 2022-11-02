@@ -1,6 +1,5 @@
 ---
 title: Troubleshoot cron
-labels: 2.2.x,2.3.x,Magento Commerce,cron,troubleshooting,Adobe Commerce,on-premises
 description: "This article offers troubleshooting solutions for issues with cron in Adobe Commerce on-premises products."
 ---
 

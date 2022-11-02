@@ -1,6 +1,5 @@
 ---
 title: Adobe Commerce Recommendations for PHP Vulnerabilities
-labels: 1.x,2.0,2.1.x,2.2.x,Magento Commerce,Magento Commerce Cloud,PCI,PHP,PHP 7.0,PHP 7.1,PHP 7.2,PHP 7.3,announcements,security,Adobe Commerce,cloud infrastructure,on-premises
 description: "On September 3, Multi-State Information Sharing and Analysis Center (MS-ISAC) has issued an alert related to multiple vulnerabilities that could allow for arbitrary code execution and a recommendation that all sites using PHP should update to the latest PHP version ASAP ([full alert is available here](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/))."
 ---
 

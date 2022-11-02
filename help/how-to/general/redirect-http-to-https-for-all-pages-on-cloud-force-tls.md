@@ -1,6 +1,5 @@
 ---
 title: Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastructure (Force TLS)
-labels: 1.2.4,2.1,2.1.4,Fastly,Magento Commerce Cloud,Pro,Starter,TLS,cloud,how to,redirect,routes.yaml,security,Adobe Commerce,cloud infrastructure
 description: "Activate the Fastly's **Force TLS** functionality in the Commerce Admin to enable the global HTTP to HTTPS redirect for all pages of your Adobe Commerce on cloud infrastructure store."
 ---
 

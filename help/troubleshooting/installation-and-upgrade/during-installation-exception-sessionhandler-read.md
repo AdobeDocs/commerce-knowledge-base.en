@@ -1,6 +1,5 @@
 ---
 title: During installation, exception SessionHandler::read()
-labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,PHP,SessionHandler,exception,how to,troubleshooting,Adobe Commerce,installation,cloud infrastructure,on-premises
 description: "This article provides a fix for an exception **SessionHandler::read()** error during Adobe Commerce installation."
 ---
 

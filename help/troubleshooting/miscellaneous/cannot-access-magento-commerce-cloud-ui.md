@@ -1,6 +1,5 @@
 ---
 title: Cannot access Adobe Commerce on cloud infrastructure UI
-labels: 403 error,Cloud UI,Magento Commerce Cloud,troubleshooting,user access,Adobe Commerce,cloud infrastructure
 description: "This article provides solutions for the issue where you cannot log in to your Adobe Commerce on cloud infrastructure UI and get the \"403 error\"."
 ---
 

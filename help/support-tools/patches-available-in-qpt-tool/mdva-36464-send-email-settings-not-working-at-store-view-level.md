@@ -1,6 +1,5 @@
 ---
 title: "MDVA-36464: Send email settings not working at store-view level"
-labels: 2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.1-p2,2.4.2,Disable Email Communications,QPT 1.0.21,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,reset password email,send email settings,store,welcome email,Adobe Commerce,on-premises,cloud infrastructure,Magento Open Source
 description: "The MDVA-36464 patch fixes the issue where send email settings are not working at the store-view level. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.21 is installed. The patch ID is MDVA-36464. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "MDVA-32714 patch: customer group price not working via GraphQL"
-labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,GraphQL,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,price,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
 description: "The MDVA-32714 patch fixes the issue where сustomer group price is not added in GraphQL product query response. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---
 
