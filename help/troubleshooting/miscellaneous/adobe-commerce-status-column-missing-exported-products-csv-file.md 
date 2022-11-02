@@ -23,7 +23,7 @@ Steps to reproduce:
 
 <ins>Expected result</ins>:
 
-In the exported CSV file, you see a column labeled *status*.
+In the CSV file that you just exported, you see a column labeled *status*.
 
 <ins>Actual result</ins>:
 
@@ -31,7 +31,7 @@ You do not see a column labeled *status* in the exported csv file.
 
 ## Cause
 
-The product's status attribute has been renamed in the CSV file and is now the product_online column.
+The product's status attribute has been renamed in the CSV file. It is now the product_online column.
 
 ## Solution
 
