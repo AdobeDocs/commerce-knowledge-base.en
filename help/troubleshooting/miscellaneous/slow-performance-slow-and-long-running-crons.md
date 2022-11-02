@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Slow performance, slow and long running crons
 description: This article describes how to solve site performance issues and slow running and stuck crons caused by flat tables and indexers having been enabled.
 ---

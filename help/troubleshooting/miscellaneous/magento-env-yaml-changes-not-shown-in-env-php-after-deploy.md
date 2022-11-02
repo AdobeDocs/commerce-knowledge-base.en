@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: .magento.env.yaml changes not shown in env.php after deploy
 description: "This article provides a solution for the issue where changes in .magento.env.yaml file are not reflected in app/etc/env.php after deployment."
 ---

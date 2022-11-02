@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Redis service crashed
 description: "The article recommends how to fix Redis."
 ---

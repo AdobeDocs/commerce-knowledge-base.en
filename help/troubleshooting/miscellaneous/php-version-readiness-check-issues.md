@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: PHP version readiness check issues
 description: "This article talks about the solutions for the PHP version issues you might face when installing/upgrading Adobe Commerce on-premises using the Web Setup Wizard."
 ---

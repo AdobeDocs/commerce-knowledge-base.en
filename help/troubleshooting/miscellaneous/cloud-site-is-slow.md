@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Cloud site is slow
 description: "This article provides recommendations on how to make your Adobe Commerce on cloud infrastructure site better performing under heavy traffic loads and how to cut this load."
 ---

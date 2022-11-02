@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Cache warming up and site unavailable on Adobe Commerce
 description: "This article provides a solution for when the page cache is warming up and there is a stuck deployment or site down."
 ---

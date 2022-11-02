@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Live search catalog not synchronized
 description: "This article provides solutions for the Adobe Commerce issue where your catalog data is not synchronized correctly when using the Live Search extension."
 ---

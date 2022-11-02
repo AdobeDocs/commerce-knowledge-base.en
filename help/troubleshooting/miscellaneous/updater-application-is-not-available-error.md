@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: '"Updater application is not available" error'
 description: "This article talks about the solution for the \"updater application is not available\" issue you might face when trying to update/install Adobe Commerce on-premises using the Web Setup Wizard."
 ---

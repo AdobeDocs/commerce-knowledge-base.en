@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Troubleshooting MBI account lockout
 description: This article provides solutions for MBI account lockout. We'll first need to determine if this is a defect, a temporary glitch, or something else. Following the steps below will help get you back in your account as quickly as possible.
 ---

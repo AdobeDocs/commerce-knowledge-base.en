@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Top navigation panel does not load on storefront
 description: "This article provides configuration solutions to the Varnish Edge Side Includes (ESI) issues, where certain pages' content, usually the top navigation panel, is not displayed on the storefront if Varnish is used for caching."
 ---

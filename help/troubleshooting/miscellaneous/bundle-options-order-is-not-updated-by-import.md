@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Bundle options order is not updated by import
 description: "This article provides a solution for the issue when after importing products from a .csv file, the bundle product options appear in a different order than they are listed in the import file."
 ---

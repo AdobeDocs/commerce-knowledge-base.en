@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Google Shopping ads Channel Troubleshooting
 description: "The following information provides help when you encounter issues, errors, or banner messages with Google Shopping ads. For searchable help for Google troubleshooting, see this site."
 ---

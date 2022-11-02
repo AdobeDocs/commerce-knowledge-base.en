@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Blockers launching on Adobe Commerce on cloud infrastructure
 description: "This article provides a fix for blockers to launching on Adobe Commerce on cloud infrastructure including issues related to Fastly config, SSL certificates, 301 redirects, and static asset performance."
 ---

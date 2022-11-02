@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Adobe Commerce Fastly troubleshooter
 description: "This Fastly troubleshooter for Adobe Commerce users will guide you to the solutions, based on your response about the symptoms you see. Click on the questions to see the next options or answers."
 ---

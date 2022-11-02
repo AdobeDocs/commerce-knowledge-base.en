@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Exported products .csv file does not appear
 description: "This article provides a fix for the issue where you try to export products to a .csv file in the Commerce Admin, but the file does not appear."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Cannot access Adobe Commerce on cloud infrastructure UI
 description: "This article provides solutions for the issue where you cannot log in to your Adobe Commerce on cloud infrastructure UI and get the \"403 error\"."
 ---

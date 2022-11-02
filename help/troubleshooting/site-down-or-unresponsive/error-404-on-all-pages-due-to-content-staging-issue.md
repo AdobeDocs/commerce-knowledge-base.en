@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Error 404 on all pages due to Content Staging issue
 description: "This article provides a fix for the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure issue where you get a 404 error when accessing any storefront page or the Commerce Admin."
 ---

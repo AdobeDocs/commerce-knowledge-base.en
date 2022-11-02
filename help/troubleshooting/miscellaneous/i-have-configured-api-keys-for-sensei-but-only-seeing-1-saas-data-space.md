@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: I've configured API keys for Sensei but only seeing one SaaS data space
 description: "This article provides a solution for the issues where you only see one SaaS data space after you have configured the API keys for Sensei."
 ---

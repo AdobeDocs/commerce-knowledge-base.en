@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Cannot access the latest Adobe Commerce pre-release
 description: "This article provides solutions for issues when trying to utilize the latest pre-release code of Adobe Commerce."
 ---

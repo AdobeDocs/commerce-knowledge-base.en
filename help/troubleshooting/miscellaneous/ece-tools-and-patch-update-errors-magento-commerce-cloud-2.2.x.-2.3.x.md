@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: ECE-Tools and patch update errors Adobe Commerce cloud infrastructure 2.2.x., 2.3.x
 description: "This article provides a solution for the issue where you see error messages including \"*failed to open stream:*\" or \"*No such file or directory*\" when trying to deploy updates to ECE-Tools, patches or other changes."
 ---

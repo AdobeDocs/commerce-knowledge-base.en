@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Store images not displayed after deployment
 description: "This article provides a solution for when images are not being displayed correctly after deployment."
 ---

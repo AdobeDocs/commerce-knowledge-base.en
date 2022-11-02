@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Adobe Commerce 2.4.0 issue: storefront raw message data display"
 description: "This article provides a solution for the issue when all error messages on the storefront display with a \"+\" sign instead of a space. This solution helps error messages remain readable."
 ---

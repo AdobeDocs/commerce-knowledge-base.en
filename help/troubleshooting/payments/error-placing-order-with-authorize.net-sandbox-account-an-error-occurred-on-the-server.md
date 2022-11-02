@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Error placing order with Authorize.net Sandbox account (An error occurred on the server)
 description: "This article provides a fix for \"*An error occurred on the server*\" error message when placing an order using Authorize.Net Direct Post."
 ---

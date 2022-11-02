@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout"
 description: "This article provides a workaround for an Adobe Commerce 2.4.0 known issue where Braintree payment methods are not included in working with Multiple Addresses checkout. Please note that the issue was fixed in Adobe Commerce 2.4.1."
 ---

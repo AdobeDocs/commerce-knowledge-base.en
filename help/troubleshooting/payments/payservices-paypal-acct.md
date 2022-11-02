@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: PayPal sandbox account not verified
 description: "This article explains why your PayPal sandbox account for Payment Services may not be verified, disabling you from completing sandbox onboarding."
 ---

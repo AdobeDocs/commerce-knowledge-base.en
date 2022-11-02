@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Troubleshoot Product Recommendations module in Adobe Commerce
 description: "This article talks about troubleshooting suggestions for the"
 ---

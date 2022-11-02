@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Low disk space
 description: "This article suggests solutions for the situation when you run out of space on a certain environment of Adobe Commerce on cloud infrastructure."
 ---

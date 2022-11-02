@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Advanced Reporting troubleshooter for Adobe Commerce
 description: "Advanced Reporting issues on Adobe Commerce can be solved using this troubleshooter tool. This includes Advanced Reporting not showing any data and 404 errors. Click on each question to reveal the answer in each step of the troubleshooter."
 ---

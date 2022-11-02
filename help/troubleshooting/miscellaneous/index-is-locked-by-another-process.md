@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Index is locked by another process
 description: "This article talks about a common indexing issue in Adobe Commerce where the index is locked by another process and skipped."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Component dependency readiness check issues
 description: "This article provides solutions for component dependency conflicts."
 ---

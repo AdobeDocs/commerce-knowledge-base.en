@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Redis unserialize error `setup:static-content:deploy`
 description: "This article provides a fix for the Redis unserialize error when running `magento setup:static-content:deploy`."
 ---
