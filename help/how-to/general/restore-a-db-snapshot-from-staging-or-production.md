@@ -1,6 +1,5 @@
 ---
 title: Restore a DB snapshot from Staging or Production
-labels: Cloud,Magento Commerce Cloud,commit,how to,DB,snapshot,database,dump,Adobe Commerce,cloud infrastructure,cluster
 description: "This article shows how to restore a DB snapshot from Staging or Production on Adobe Commerce on cloud infrastructure."
 ---
 
@@ -22,7 +21,7 @@ Choose the most appropriate for your case:
 The steps are:
 
 1. Using sFTP, navigate to the location where the database [!DNL snapshot] has been placed, usually on the first server/node of your [!DNL cluster] (For example: `/mnt/recovery-<recovery_id>`).
-1. Copy the database dump file (For example: `<cluster ID>|<cluster ID_stg>.sql.gz` to your local computer).
+1. Copy the database dump file (For example: `[<cluster ID>|<cluster ID_stg>].sql.gz` to your local computer, where either <cluster ID> for [!DNL Production] or <cluster ID_stg> for [!DNL Staging] is used).
 1. Make sure you have set up the SSH tunnel to connect to the database remotely: [SSH and sFTP: SSH tunneling](https://devdocs.magento.com/cloud/env/environments-ssh.html#env-start-tunn) in our developer documentation.
 1. Connect to the database.
 
