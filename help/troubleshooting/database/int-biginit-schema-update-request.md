@@ -24,14 +24,14 @@ labels: troubleshooting, database, Adobe Commerce,cloud infrastructure, primary 
 * Adobe Commerce (all deployment methods) all [supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product. 
-You may see the error message *The stock item was unable to be saved. Please try again.* You might fail to deploy after a product update. You may also see the following MySQL error message when you run `php bin/magento setup:upgrade`. On Adobe Commerce on cloud infrastruture this error shows in the deployment logs:
+You may see the error message *The stock item was unable to be saved. Please try again.* You might fail to deploy after a product update. You may also see the following MySQL error message when you run `php bin/magento setup:upgrade` (on Adobe Commerce on cloud infrastruture this error shows in the deployment logs):
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)
 ```
 
 The solutions described in the article are:
-* Update the *[ AUTO_INCREMENT ]* to the next value from the table or
+* Update the *[!DNL AUTO_INCREMENT ]* to the next value from the table or
 * *INT* to *BIGINT* schema update
 
 Which solution you use depends on what has caused the issue. Refer to the the steps below to isolate the cause.
@@ -45,11 +45,11 @@ Check the highest value of the primary key by running the following command in t
 >
 >Perform a database backup before alterating tables. Also consider putting the site into [maintenance mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=en#maintenance-mode).
 
-If the *max(value_id)* is lower than the *max int(11) [ 4294967296 ]*, and the *[ AUTO_INCREMENT ]* has a value greater than the *max int(11) [ 4294967296 ]*, then consider using [updating the *[ AUTO_INCREMENT ]* to the next value from the table](#update-the-auto-increment-to-the-next-value-from-the-table). Otherwise, consider a [INT to BIGINT schema update](#int_to_bigint_schema_update).
+If the *max(value_id)* is lower than the *max int(11) [ 4294967296 ]*, and the *[!DNL AUTO_INCREMENT ]* has a value greater than the *max int(11) [ 4294967296 ]*, then consider using [updating the *[ AUTO_INCREMENT ]* to the next value from the table](#update-the-auto-increment-to-the-next-value-from-the-table). Otherwise, consider a [INT to BIGINT schema update](#int_to_bigint_schema_update).
 
 ## Update the AUTO_INCREMENT to the next value from the table {#update-the-auto-increment-to-the-next-value-from-the-table}
 
-If the value shown is lower than *max int(11) [ 4294967296 ]* as shown in the below example terminal output, than a table *[ AUTO_INCREMENT ]* has changed to a number bigger or equal to the *max [ int(11) ]* value. 
+If the value shown is lower than *max int(11) [ 4294967296 ]* as shown in the below example terminal output, than a table *[!DNL AUTO_INCREMENT ]* has changed to a number bigger or equal to the *max [ int(11) ]* value. 
 
 ```mariadb
 MariaDB [xxx]> SELECT MAX(value_id) FROM catalog_product_entity_int;
@@ -69,21 +69,20 @@ MariaDB [xxx]> show create table catalog_product_entity_int;
 ) ENGINE=InnoDB AUTO_INCREMENT=4294967297 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table';
 ```
 
-As you can see in the above example output the table *[ AUTO_INCREMENT ]* has changed to a bigger number than the *max int(11) [ 4294967296 ]*. The solution is to update the *[ AUTO_INCREMENT]* to the next value from the table:
+As you can see in the above example output the table *[!DNL AUTO_INCREMENT ]* has changed to a bigger number than the *max int(11) [ 4294967296 ]*. The solution is to update the *[!DNL AUTO_INCREMENT]* to the next value from the table:
 
 ```
 ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 ```
 
 ## *INT* to *BIGINT* schema update {#int_to_bigint_schema_update}
-
-However, if when running the following command ``SELECT MAX(value_id) FROM catalog_product_entity_int;`` the value shown is higher than *max int(11) [ 4294967296 ]*  consider doing a *INT* to *BIGINT* schema update. The datatype *BIGINT* has a larger range of values.
+However, if when running the following command `SELECT MAX(value_id) FROM catalog_product_entity_int;`` the value shown is higher than *max int(11) [ 4294967296 ]*  consider doing a *INT* to *BIGINT* schema update. The datatype *BIGINT* has a larger range of values.
 
 To do so:
 
 1. Create a custom module inside the *app/code/* directory.
 1. In the custom module create a *db_schema.xml*. In *db_schema.xml* you will set the datatype to *BIGINT*. 
-1. Add the following content and then execute ``bin/magento setup:upgrade`` to apply the above changes to the corresponding table.
+1. Add the following content and then execute `bin/magento setup:upgrade` to apply the above changes to the corresponding table.
 
 ```
 <?xml version="1.0"?>
@@ -98,7 +97,7 @@ To do so:
 
 ## Related reading
 
-* [Installation Guide](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=max%20allowed%2016%20MB) in our developer documentation.
+* [Installation Guide](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) in our developer documentation.
 * [Database upload loses connection to MySQL](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html?lang=en) in our support knowledge base. 
 * [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html?lang=en) in our support knowledge base.
 * [Most common database issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html?lang=en) in our support knowledge base.
