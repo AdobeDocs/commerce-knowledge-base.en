@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Resolve an illegal offset error
 description: "This article provides a solution for when in Adobe Commerce 2.1 or later, you receive a Resolve an illegal offset error when creating a new product in the Commerce Admin."
 ---

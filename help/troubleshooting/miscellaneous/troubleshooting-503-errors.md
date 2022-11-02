@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Troubleshooting 503 error caused by necessity to change default Varnish settings
 description: "This article provides solutions for troubleshooting 503 error caused by certain Varnish Cache default values not being enough for your store."
 ---

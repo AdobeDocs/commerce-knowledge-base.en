@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Error message when adding sites into Security Scan
 description: "This article provides possible solutions for the issue when a user is not able to add sites into the [Commerce Security Scan](https://account.magento.com/scanner/dashboard/)."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Upgrade to v10 DHL schema to continue offering DHL shipping
 
 description: This article provides a solution to allow merchants to continue offering DHL shipping after the DHL schema 6.2 gets deprecated in December 2022, by upgrading to schema 10.0 or by applying the AC-3023 patch.

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: robots.txt gives 404 error Adobe Commerce on cloud infrastructure 2.3.x
 description: "This article provides a fix for when the `robots.txt` file throws a 404 error in Adobe Commerce on cloud infrastructure 2.3.x."
 ---

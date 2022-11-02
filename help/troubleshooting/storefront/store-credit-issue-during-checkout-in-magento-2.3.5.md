@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Store credit issue during checkout in Adobe Commerce 2.3.5
 description: "This article provides a workaround for the known store credit-related issue during checkout in Adobe Commerce 2.3.5, where shoppers get errors during checkout after selecting and later removing store credit usage. A permanent fix will be available in Adobe Commerce 2.3.6."
 ---

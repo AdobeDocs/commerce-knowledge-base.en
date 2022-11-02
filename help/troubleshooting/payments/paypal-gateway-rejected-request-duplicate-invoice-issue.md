@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: PayPal gateway rejected request - duplicate invoice issue
 description: "This article provides a fix for the PayPal gateway rejected request - duplicate invoice issue."
 ---

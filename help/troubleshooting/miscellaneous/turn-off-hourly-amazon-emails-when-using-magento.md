@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Turn off hourly Amazon emails when using Adobe Commerce
 description: "I receive an email from Amazon every hour. Is the module doing this?"
 ---

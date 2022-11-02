@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Common PHP Fatal Errors and solutions
 description: "This article lists some common PHP Fatal Error quick examples that you could find when looking through your Adobe Commerce logs and the solutions for problems they indicate."
 ---

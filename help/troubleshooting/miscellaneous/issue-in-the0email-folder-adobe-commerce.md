@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: The var/export folder permission issue Adobe Commerce on cloud
 
 description: "This article provides a solution to an issue where you are not able to export product data due to a file permissions issue on the server in the `var/export/email` folder. Symptoms include Product and Catalog exports not available in the user interface, but are visible when using SSH."

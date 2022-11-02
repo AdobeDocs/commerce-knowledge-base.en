@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Custom SSL certificate expiration information
 description: "This article provides a solution for when a custom SSL certificate was updated with an Adobe provided SSL certificate."
 ---

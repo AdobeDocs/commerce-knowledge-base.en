@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Error when validating the Fastly credentials
 description: "This article provides a solution for the issue where a user gets an error when validating the Fastly credentials."
 ---

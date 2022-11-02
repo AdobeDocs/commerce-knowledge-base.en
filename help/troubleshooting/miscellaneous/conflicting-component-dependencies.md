@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Conflicting component dependencies
 description: "This article provides a solution for conflicting component dependencies. When trying to setup or update Adobe Commerce using the Web Setup Wizard, you see the *\"We found conflicting component dependencies\"* Composer error message."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Troubleshoot performance using New Relic on Adobe Commerce
 description: "This article provides troubleshooting steps to solve Adobe Commerce on cloud infrastructure performance issues using New Relic. It also provides resources for further information. Here is a list of issues. Click to see troubleshooting steps in our support knowledge base:"
 ---

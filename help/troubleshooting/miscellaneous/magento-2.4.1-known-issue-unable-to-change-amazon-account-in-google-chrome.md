@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Adobe Commerce 2.4.1 issue: unable to change Amazon account in Chrome"
 description: "This article describes a known Adobe Commerce 2.4.1 issue where customers get signed in to the previously used Amazon accounts instead of being suggested to log in, when using Amazon Pay during checkout."
 ---

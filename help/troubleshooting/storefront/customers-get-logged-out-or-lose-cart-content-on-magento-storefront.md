@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Customers get logged out or lose cart content on Adobe Commerce storefront
 description: "This article provides a solution and workaround for the issue, where customers get logged out or lose items from the shopping cart on the storefront, after being re-directed back to the Adobe Commerce store from payment or other third-party services (session cookie \"gets lost\")."
 ---

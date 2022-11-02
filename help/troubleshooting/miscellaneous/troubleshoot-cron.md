@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Troubleshoot cron
 description: "This article offers troubleshooting solutions for issues with cron in Adobe Commerce on-premises products."
 ---

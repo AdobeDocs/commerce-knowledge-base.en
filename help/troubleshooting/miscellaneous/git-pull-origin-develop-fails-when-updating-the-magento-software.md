@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: git pull origin develop fails when updating the Adobe Commerce software
 description: "This article provides a fix for when you can't update Adobe Commerce software when running `git pull origin develop`."
 ---

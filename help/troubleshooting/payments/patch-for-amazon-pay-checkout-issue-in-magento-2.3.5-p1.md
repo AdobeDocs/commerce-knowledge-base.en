@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1
 description: "This patch resolves the issue with inability to change a payment method on checkout \"Review & Payments\" step from the payments widget, while checking out with Amazon Pay in Adobe Commerce."
 ---

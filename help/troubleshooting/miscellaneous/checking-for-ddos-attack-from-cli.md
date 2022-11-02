@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Checking for DDoS attack from CLI
 description: "This article talks about the issue of how to try to check for Distributed Denial of Service (DDoS) attacks from your server's Command Line Interface (CLI)."
 ---

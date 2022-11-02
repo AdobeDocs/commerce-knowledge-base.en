@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Applying a patch takes your site down
 description: "This article talks about the issue where a patch you just applied takes your site down. To resolve it, you can remove the patch."
 ---

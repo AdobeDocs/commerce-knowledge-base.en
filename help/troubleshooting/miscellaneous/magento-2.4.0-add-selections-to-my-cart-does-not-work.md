@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Adobe Commerce 2.4.0: “Add selections to my cart” does not work"
 description: "This article provides a workaround for a broken button known issue in the Commerce Admin when managing a customer's shopping cart. When trying to add selected products to a customer's shopping cart, the **Add selections to my cart** button located on the bottom of the section does not work. This issue occurs on any Admin panel page that contains two **Add selections to my cart** buttons. A permanent fix will be available in Adobe Commerce 2.4.1."
 ---

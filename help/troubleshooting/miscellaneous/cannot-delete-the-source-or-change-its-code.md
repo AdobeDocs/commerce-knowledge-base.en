@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Cannot delete the source or change its code
 description: "This article provides a fix for when you can not completely remove a source and/or change its code."
 ---

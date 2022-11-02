@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Stock status incorrect after Inventory Management install
 description: "This article provides a fix for stock status being incorrect after Inventory Management installation/upgrade."
 ---

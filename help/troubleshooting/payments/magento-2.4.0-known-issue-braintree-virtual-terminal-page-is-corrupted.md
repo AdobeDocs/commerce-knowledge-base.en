@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Adobe Commerce 2.4.0 Braintree Virtual Terminal page corrupted
 description: "This article provides a patch for the known Adobe Commerce 2.4.0 issue, where the Braintree Virtual Terminal page does not load the proper UI elements or a proper error message if Braintree is not configured."
 ---

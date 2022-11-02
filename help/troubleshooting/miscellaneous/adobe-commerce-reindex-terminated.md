@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Adobe Commerce cloud: reindex is terminated with `Killed` message"
 description: "* Adobe Commerce on cloud infrastructure (all versions)"
 ---

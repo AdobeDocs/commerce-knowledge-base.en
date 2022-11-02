@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Product Recommendations not shown in Page Builder
 description: "This article provides a solution for the issue where the Product Recommendations option is not shown in Page Builder."
 ---

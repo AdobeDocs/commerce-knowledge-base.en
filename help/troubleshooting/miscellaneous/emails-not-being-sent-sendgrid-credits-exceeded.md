@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Emails not sent when SendGrid credits exceeded on Adobe Commerce
 description: "This article provides a solution when your emails are not being sent because you have exceeded your SendGrid credits limit on Adobe Commerce."
 ---

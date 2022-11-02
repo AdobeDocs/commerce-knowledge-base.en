@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: GraphQL query to hide categories not work with B2B shared catalog
 description: "This article provides a solution for when B2B shared catalog feature is not working with GraphQL categories query to hide categories."
 ---

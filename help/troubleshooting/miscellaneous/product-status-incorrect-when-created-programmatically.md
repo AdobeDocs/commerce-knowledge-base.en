@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Product status incorrect when created programmatically
 description: "This article provides a fix for when product status is Disabled and products are not displayed on the store front, or are assigned to the wrong store views, when created/updated programmatically."
 ---

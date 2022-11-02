@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: 503 error accessing Adobe Commerce in web browser
 description: "This article provides a possible solution for the issue where you get a 503 error when trying to access Adobe Commerce storefront and/or Admin."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: run `setup:static-content:deploy` deployed_version.txt issue
 description: "This article provides a fix for `deployed_version.txt` is not writable error when running the `setup:static-content:deploy` command manually."
 ---

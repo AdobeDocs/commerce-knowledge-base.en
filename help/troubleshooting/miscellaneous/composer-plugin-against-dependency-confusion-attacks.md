@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Composer plugin against Dependency Confusion attacks
 description: "This article provides information on the composer plugin released for the Dependency Confusion attacks and recommendations on avoiding the error. Composer plugin was introduced alongside Adobe Commerce 2.4.3 release to protect Adobe Commerce merchants from Dependency Confusion attacks."
 ---

@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Cannot clone the Magento GitHub repository
 description: "This article provides a fix for when you can't clone the Magento GitHub repository."
 ---

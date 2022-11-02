@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Adobe Commerce 2.4.0 known issue: Create New Order buttons missing"
 description: "This article provides a workaround for a known issue in the Commerce Admin for two missing buttons on the order creation page. When creating a new order for a new or existing customer, it is not possible to add products to the order from the catalog since the **Add Products By SKU** and **Add Products** buttons are missing. This is caused by JS bundling being enabled. A fix will be available in Adobe Commerce 2.4.1."
 ---

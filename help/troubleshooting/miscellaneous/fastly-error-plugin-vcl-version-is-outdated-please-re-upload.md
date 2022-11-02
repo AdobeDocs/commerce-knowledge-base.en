@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: "Fastly Error: Plugin VCL version is outdated! Please re-Upload"
 description: "This article provides a solution for when you see the message \"*Plugin VCL version is outdated! Please re-Upload.*\" in Fastly Configuration, in the Commerce Admin, due to not having installed the latest Fastly module."
 ---

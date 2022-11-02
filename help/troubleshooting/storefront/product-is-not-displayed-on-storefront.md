@@ -1,4 +1,5 @@
 ---
+labels: zendesk
 title: Product is not displayed on storefront
 description: "This article provides solutions for when products are not displayed on storefront."
 ---
