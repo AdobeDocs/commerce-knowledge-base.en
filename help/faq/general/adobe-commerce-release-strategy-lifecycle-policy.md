@@ -115,7 +115,7 @@ While extended support does include support for PHP 7.4, it is important to note
 
 Under extended support, security patches and hotfixes will be made available for the latest security-only patch versions only, which are: 2.3.7-p4, 2.4.0-p1, 2.4.1-p1, 2.4.2-p2, 2.4.3-p3.
 
-For an example, if you are currently on 2.4.3-p1, you must do a light upgrade to 2.4.3-p3 first in order to apply an extended support security patch or hotfix
+For example, if you are currently on 2.4.3-p1, you must do a light upgrade to 2.4.3-p3 first in order to apply an extended support security patch or hotfix.
 
 ### What is PCI compliance and why won't extended support keep me compliant?
 
