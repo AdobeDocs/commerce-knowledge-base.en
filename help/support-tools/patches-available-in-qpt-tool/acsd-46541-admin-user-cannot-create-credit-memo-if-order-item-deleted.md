@@ -40,7 +40,7 @@ Credit Memo is created successfully.
 
 <u>Actual results</u>:
 
-**Following products with requested SKUs were not found: SKU001** error displays.
+The *Following products with requested SKUs were not found: SKU001* error displays.
 
 ## Apply the patch
 
