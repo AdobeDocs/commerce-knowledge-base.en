@@ -1,6 +1,5 @@
 ---
 title: "ACSD-44851: Category with subcategories not able to open or expand"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.20,category,subcategories,expand,open,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3,2.4.4,2.4.4-p1,2.4.5
 description: This article provides a solution for the issue where the user is unable to open or expand a category with subcategories.
 ---
 
@@ -30,7 +29,7 @@ The user is not able to open or expand a category with subcategories.
 
 1. In the Adobe Commerce Admin, create a category tree with two root categories and a few subcategories for each of them.
 1. Open the mobile view/emulator or shrink the window width until the layout turns mobile.
-1. Open the main menu.
+1. Open the catalog's main menu.
 1. Try to expand the root categories.
 1. Try to open the category.
 
