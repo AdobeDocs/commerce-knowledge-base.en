@@ -1,4 +1,4 @@
-source,dest,
+source,dest
 https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.0-2.4.5-security-hotfix-for-cve-2022-35698.html,https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.3-p2-2.4.5-security-hotfix-for-cve-2022-35698.html
 https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/best-practice-for-triggers-usage.html,https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/mysql-triggers-usage.html
 https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/redis/install-redis-5-for-magento-commerce-cloud-2.3.3-or-later.html,https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/redis-service-configuration.html
