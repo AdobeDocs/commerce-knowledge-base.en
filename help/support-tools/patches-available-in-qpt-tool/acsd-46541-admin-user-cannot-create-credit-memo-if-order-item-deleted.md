@@ -36,7 +36,7 @@ Once a product is deleted you cannot create a credit memo in the Commerce admin.
 
 <u>Expected results</u>:
 
-Credit Memo is created successfully.
+A credit memo is created successfully.
 
 <u>Actual results</u>:
 
