@@ -49,17 +49,6 @@ To apply individual patches, use the following links depending on your deploymen
 * Adobe Commerce or Magento Open Source on-premises: [Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
-## Additional steps required after the patch installation
-
- For On-premises users:
-
-* Run: `composer require symfony/intl:"~5.4.11"`
-
-For Cloud users:
-
-* Run: `composer require symfony/intl:"~5.4.11"`
-* Push `composer.json` and `composer.lock` files to the git repository along with the patch file.
-
 ## Related reading
 
 To learn more about Quality Patches Tool, refer to:
