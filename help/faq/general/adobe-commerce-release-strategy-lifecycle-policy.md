@@ -110,7 +110,13 @@ Adobe offers a paid extended support option for Adobe Commerce versions based on
 Extended support for 2.3.7 starts after 2.3 reaches End Of Support (EOS) on September 8, 2022, and can be received until September 8, 2023. Extended support for 2.4.0-2.4.3 starts after EOS on November 28, 2022, and can be received until November 28, 2023. 
 
 While extended support does include support for PHP 7.4, it is important to note that merchants may need to take additional measures to stay PCI-compliant. Adobe cannot provide support for all third-party technologies our software uses that may reach the end of life while you are on extended support. Adobe recommends that merchants work with a [PCI assessor](https://listings.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors) to ensure compliance.
-        
+
+### Do I need to upgrade to a specific patch version to receive extended support? 
+
+Under extended support, security patches and hotfixes will be made available for the latest security-only patch versions only, which are: 2.3.7-p4, 2.4.0-p1, 2.4.1-p1, 2.4.2-p2, 2.4.3-p3.
+
+For example, if you are currently on 2.4.3-p1, you must do a light upgrade to 2.4.3-p3 first in order to apply an extended support security patch or hotfix.
+
 ### What is PCI compliance and why won't extended support keep me compliant?
 
 Payment Card Industry (PCI) compliance is a set of industry standards that all businesses that process credit card information need to follow to maintain a secure environment for their customers. Companies must keep their commerce platform and all technological dependencies up to date in order to remain PCI compliant.
@@ -131,3 +137,13 @@ Running an unsupported version of a third-party technology may impact PCI compli
 **Security fixes**: During the extended support period, Adobe Commerce will release security hotfixes on a quarterly basis for versions covered by the extended support plan. We will alert extended support customers via email when these hotfixes are available, but you may also check for and download hotfixes in your Adobe Commerce My Account section in the Marketplace portal. Outside of these releases, you may also contact the Adobe Support team for security issues. 
         
 **PHP 7.4 fixes**: For On-Premise customers, PHP 7.4 fixes will be delivered as downloads available in your Adobe Commerce My Account section at <https://account.magento.com/customer/account/>. This section will also include relevant installation and release notes. For Cloud customers, these updates will be made available automatically in your cloud instance, and you will be alerted of the update via email.
+
+### What is included with extended support for PHP?
+
+Adobe will support PHP v7.4 on Debian v9 including supporting all PECL extensions available in Adobe Commerce today.  Adobe will provide regular security updates to the PHP 7.4 release through the following process:
+
+* Adobe will monitor all upstream (e.g. 8.1) releases of PHP and any security issues that are identified in those will be tested to see whether there are vulnerabilities exposed in version 7.4.  If there are, Adobe will create a backport fix for version 7.4 and deliver to customers.
+
+* Adobe will also monitor all CVE that are applicable to PHP 7.4 itself. Those will also be fixed with the same level of scrutiny and testing and delivered to customers.
+
+
