@@ -15,7 +15,6 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 | --- | --- |
 | [Support Tools](/help/support-tools/overview.md) | Improve your e-commerce store experience with the different support tools provided by Adobe Commerce. We provide personalized best practices, diagnostic and monitoring tools, and the most relevant information about your site. |
 | [Announcements](/help/announcements/overview.md) | Get important updates from the Adobe Commerce teams. |
-| [Best Practices](/help/best-practices/overview.md) | See best practice recommendations based on the experience of the Adobe Commerce Support team. |
 | [Troubleshooting](/help/troubleshooting/overview.md) | Get self-service solutions and patches from the Adobe Commerce Support team. |
 | [Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md) | Learn how to manage your support tickets, grant shared access, and browse the Knowledge Base effectively. |
 | [How-To](/help/how-to/overview.md) | Get clear step-by-step instructions from the Adobe Commerce Support team. |
