@@ -1,7 +1,6 @@
 ---
-title: "ACSD-46541: An admin user cannot create a credit memo if an order item is deleted"
- description: "The ACSD-46541 patch fixes the issue where an admin user cannot create a credit memo if an order item is deleted. This patch is available when the [!DNL Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.21 is installed. The patch ID is ACSD-46541. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
- ---
+title: "ACSD-46541: An admin user cannot create a credit memo if an order item is deleted" description: "The ACSD-46541 patch fixes the issue where an admin user cannot create a credit memo if an order item is deleted. This patch is available when the [!DNL Quality Patches Tool (QPT)(https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.21 is installed. The patch ID is ACSD-46541. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
+---
 
 # ACSD-46541: An admin user cannot create a credit memo if an order item is deleted
 
@@ -15,11 +14,11 @@ The ACSD-46541 patch fixes the issue where an admin user cannot create a credit 
 
 **Compatible with Adobe Commerce versions:**
 
- * Adobe Commerce (all deployment methods) 2.4.0 - 2.4.3-p3
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.3-p3
 
- >[!NOTE]
- >
- >The patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
+>[!NOTE]
+>
+>The patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
