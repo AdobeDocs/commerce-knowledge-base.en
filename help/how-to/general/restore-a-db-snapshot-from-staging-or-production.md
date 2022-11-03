@@ -31,8 +31,16 @@ The steps are:
 
 1. Drop the database; at the MariaDB prompt, enter:
 
+(For [!DNL Production])
+
     ```sql
     drop database <cluster ID>;
+    ```
+
+(For [!DNL Staging])
+
+    ```sql
+    drop database <cluster ID_stg>;
     ```
 
 1. Enter the following command to import the [!DNL snapshot]:
@@ -62,8 +70,16 @@ The steps are:
 
 1. Drop the database; at the MariaDB prompt, enter:
 
+(For [!DNL Production])
+
     ```sql
     drop database <cluster ID>;
+    ```
+
+(For [!DNL Staging])
+
+    ```sql
+    drop database <cluster ID_stg>;
     ```
 
 1. Enter the following command to import the [!DNL snapshot]:
