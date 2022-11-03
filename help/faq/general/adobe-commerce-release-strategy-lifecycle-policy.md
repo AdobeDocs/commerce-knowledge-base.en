@@ -142,7 +142,7 @@ Running an unsupported version of a third-party technology may impact PCI compli
 
 Adobe will support PHP v7.4 on Debian v9 including supporting all PECL extensions available in Adobe Commerce today.  Adobe will provide regular security updates to the PHP 7.4 release through the following process:
 
-* Adobe will monitor all upstream (e.g. 8.1) releases of PHP and any security issues that are identified in those will tested to see whether there are vulnerabilities exposed in version 7.4.  If there are, Adobe will create a backport fix for version 7.4 and deliver to customers.
+* Adobe will monitor all upstream (e.g. 8.1) releases of PHP and any security issues that are identified in those will be tested to see whether there are vulnerabilities exposed in version 7.4.  If there are, Adobe will create a backport fix for version 7.4 and deliver to customers.
 
 * Adobe will also monitor all CVE that are applicable to PHP 7.4 itself. Those will also be fixed with the same level of scrutiny and testing and delivered to customers.
 
