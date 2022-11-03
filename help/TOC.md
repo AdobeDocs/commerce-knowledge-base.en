@@ -356,6 +356,7 @@ breadcrumb-title: Commerce KB
     * [MDVA-44147: GraphQL request doesn't return Requisition Lists](/help/support-tools/patches-available-in-qpt-tool/mdva-44147-graphql-request-doesnt-return-requisition-lists.md)
     * [ACSD-44591: Errors when order without CAPTCHA confirmation](/help/support-tools/patches-available-in-qpt-tool/acsd-44591-user-gets-error-when-trying-to-place-order-without-captcha-confirmation.md)
     * [MDVA-34886: no search results when "weight" attribute used](/help/support-tools/patches-available-in-qpt-tool/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
+    * [ACSD-44851: Category with subcategories not able to open or expand](/help/support-tools/patches-available-in-qpt-tool/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.md)
     * [ACSD-45675: Product export uses category names from default store view scope](/help/support-tools/patches-available-in-qpt-tool/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.md)
     * [ACSD-46703: Product customization drag and drop does not work](/help/support-tools/patches-available-in-qpt-tool/acsd-46703-product-customizable-options-drag-and-drop-doesnt-work-as-expected.md)
     * [ACSD-46520: Incorrect order status when refunded using store credits](/help/support-tools/patches-available-in-qpt-tool/acsd-46520-incorrect-order-status-when-refunded-using-store-credits.md)
