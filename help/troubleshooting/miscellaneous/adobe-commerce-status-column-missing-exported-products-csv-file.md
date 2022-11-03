@@ -22,7 +22,6 @@ Steps to reproduce:
 1. Search for *status*, listed under Attribute Code. You see that attribute code in the list of available attributes (*Enable Product*).
 1. Click on **Export**.
 
-
 <ins>Expected result</ins>:
 
 In the CSV file that you just exported, you see a column labeled *status*.
