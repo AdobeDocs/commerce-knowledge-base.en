@@ -1,5 +1,6 @@
 ---
-title: "ACSD-46541: An admin user cannot create a credit memo if an order item is deleted" description: "The ACSD-46541 patch fixes the issue where an admin user cannot create a credit memo if an order item is deleted. This patch is available when the [!DNL Quality Patches Tool (QPT)(https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.21 is installed. The patch ID is ACSD-46541. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
+title: "ACSD-46541: An admin user cannot create a credit memo if an order item is deleted" 
+description: This article provides a solution for the issue where once a product is deleted you cannot create a credit memo in the Commerce admin. 
 ---
 
 # ACSD-46541: An admin user cannot create a credit memo if an order item is deleted
