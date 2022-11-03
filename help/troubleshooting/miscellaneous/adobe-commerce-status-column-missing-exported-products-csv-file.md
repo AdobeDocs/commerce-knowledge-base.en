@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce status column missing exported products CSV file 
-description: 
+description: "This article provides a solution for the issue when you cannot locate the status column i.e., indicating whether the product is *Enabled* or *Disabled*) in the CSV file containing exported products."
 ---
 
 This article provides a solution for the issue when you cannot locate the status column i.e., indicating whether the product is *Enabled* or *Disabled*) in the CSV file containing exported products. The status of the product is indicated by the product_online column.
