@@ -23,7 +23,7 @@ The ACSD-46618 patch solves the issue where the product list widget shows incorr
 
 The ACSD-46618 patch solves the issue where the product list widget shows incorrect cached prices for a logged-in customer.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 1. In the Commerce Admin select **Stores**, then **Configuration**, expand **Sales**, and select **Tax**. Update the tax settings to show prices including and excluding taxes. 
 1. Set **Enable Cross Border Trade** = *Yes*.
@@ -34,7 +34,7 @@ The ACSD-46618 patch solves the issue where the product list widget shows incorr
 1. Observe the price displayed in the home page widget.
 1. Log out and log in using the non-US customer.
 
-<ins>Expected results</ins>:
+<u>Expected results</u>:
 The price displayed in the home page widget corresponds to the customer's address.
 
 <ins>Actual results</ins>:
