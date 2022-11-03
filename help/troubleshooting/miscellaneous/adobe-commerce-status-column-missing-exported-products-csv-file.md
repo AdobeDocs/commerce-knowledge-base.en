@@ -22,11 +22,11 @@ Steps to reproduce:
 1. Search for *status*, listed under Attribute Code. You see that attribute code in the list of available attributes (*Enable Product*).
 1. Click on **Export**.
 
-<ins>Expected result</ins>:
+Expected result:
 
 In the CSV file that you just exported, you see a column labeled *status*.
 
-<ins>Actual result</ins>:
+Actual result:
 
 You do not see a column labeled *status* in the exported csv file.  
 
