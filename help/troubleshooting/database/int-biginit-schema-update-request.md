@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce database numeric value out of range, INT to BIGINT
+title: Adobe Commerce database numeric value out of range, `INT` to `BIGINT`
 description: "This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product."
 ---
 
@@ -34,7 +34,7 @@ The solutions described in the article are:
 * Update the `[ AUTO_INCREMENT ]` to the next value from the table or
 * `INT` to `BIGINT` schema update
 
-Which solution you use depends on what has caused the issue. Refer to the the steps below to isolate the cause.
+Which solution you use depends on what has caused the issue. Refer to the steps below to isolate the cause.
 
 ## Steps to check the cause
 
@@ -98,7 +98,7 @@ To do so:
 
 ## Related reading
 
-* [General MySQL guidelines](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) in our developer documentation.
+* [General MySQL guidelines](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) in the Commerce Installation Guide.
 * [Database upload loses connection to MySQL](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html?lang=en) in our support knowledge base. 
 * [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html?lang=en) in our support knowledge base.
 * [Most common database issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html?lang=en) in our support knowledge base.
