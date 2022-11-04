@@ -7,7 +7,7 @@ description: "This article provides solutions for when you are unable to save a 
 
 >[!WARNING]
 >
->Before implementing the solution in this article (*INT* to *BIGINT* schema update) merchants must always check that the field they are going to change DOES NOT have any foreign-key relationships to another table. If the field does have foreign-key relationships to another table, there will issues because the related field is still *INT*. They can use the following query to verify this. This query lists the foreign-key relationships available in the database for the given table field: 
+>Before implementing the solution in this article (`INT` to `BIGINT` schema update) merchants must always check that the field they are going to change DOES NOT have any foreign-key relationships to another table. If the field does have foreign-key relationships to another table, there will issues because the related field is still `INT`. They can use the following query to verify this. This query lists the foreign-key relationships available in the database for the given table field: 
 >```mysql
 >SELECT 
 >   TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
