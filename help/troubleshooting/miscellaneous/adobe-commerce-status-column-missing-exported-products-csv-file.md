@@ -13,7 +13,7 @@ Adobe Commerce (all deployment methods) all [supported versions](https://www.ado
 
 ## Issue
 
-You are unable to locate the status column in the CSV file containing exported products. So, for example, you export a CSV of all SKUs, with their status. But the table appears to be missing the status column. 
+You are unable to locate the status column in the CSV file containing exported products. So, for example, you export a CSV of all SKUs, with their status, but the table appears to be missing the status column. 
 
 Steps to reproduce:
 
