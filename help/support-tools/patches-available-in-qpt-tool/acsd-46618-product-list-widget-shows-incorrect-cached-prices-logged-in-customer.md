@@ -28,9 +28,9 @@ The ACSD-46618 patch solves the issue where the product list widget shows incorr
 1. In the Commerce Admin select **Stores**, then **Configuration**, expand **Sales**, and select **Tax**. Update the tax settings to show prices including and excluding taxes. 
 1. Set **Enable Cross Border Trade** = *Yes*.
 1. Create a tax rule that only applies to the US.
-1. Add a widget to the home page including one+ products.
+1. Add a widget to the home page including more than one product.
 1. Create two customers with a US address and a non US address.
-1. Log in using the US customer from the storefront. Make sure thatthe page is cached.
+1. Log in using the US customer from the storefront. Make sure that the page is cached.
 1. Observe the price displayed in the home page widget.
 1. Log out and log in using the non-US customer.
 
