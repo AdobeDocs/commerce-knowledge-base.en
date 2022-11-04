@@ -35,10 +35,12 @@ The ACSD-46618 patch solves the issue where the product list widget shows incorr
 1. Log out and log in using the non-US customer.
 
 <u>Expected results</u>:
+
 The price displayed in the home page widget corresponds to the customer's address.
 
 <u>Actual results</u>:
-The price displayed in the home page widget corresponds to the customer's address.
+
+ The home page widget shows prices using the tax for non-US customers.
 
 
 ## Apply the patch
