@@ -3,7 +3,7 @@ title: Adobe Commerce database numeric value out of range, INT to BIGINT
 description: "This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product."
 ---
 
-# Adobe Commerce database numeric value out of range, *INT* to *BIGINT*
+# Adobe Commerce database numeric value out of range, `INT` to `BIGINT`
 
 >[!WARNING]
 >
@@ -41,7 +41,7 @@ Which solution you use depends on what has caused the issue. Refer to the the st
 
 Check the highest value of the primary key by running the following command in the terminal: `SELECT MAX(value_id) FROM catalog_product_entity_int;`
 
-If the `max(value_id)` is lower than the `max int(11) [ 4294967296 ]`, and the `[ AUTO_INCREMENT ]` has a value greater than or equal to the `max int(11) [ 4294967296 ]`, then consider using [updating the `[ AUTO_INCREMENT ]` to the next value from the table](#update-the-auto-increment-to-the-next-value-from-the-table). Otherwise, consider a [`INT` to `BIGINT` schema update](#int_to_bigint_schema_update).
+If the `max(value_id)` is lower than the `max int(11) [ 4294967296 ]`, and the `[ AUTO_INCREMENT ]` has a value greater than or equal to the `max int(11) [ 4294967296 ]`, then consider [updating the `[ AUTO_INCREMENT ]` to the next value from the table](#update-the-auto-increment-to-the-next-value-from-the-table). Otherwise, consider a [`INT` to `BIGINT` schema update](#int_to_bigint_schema_update).
 
 ## Update the `AUTO_INCREMENT` to the next value from the table {#update-the-auto-increment-to-the-next-value-from-the-table}
 
@@ -49,7 +49,7 @@ If the `max(value_id)` is lower than the `max int(11) [ 4294967296 ]`, and the `
 >
 >Perform a database backup before alterating tables. Also consider putting the site into [maintenance mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=en#maintenance-mode).
 
-If the value shown is lower than *max int(11) [ 4294967296 ]* as shown in the below example terminal output, than a table *[ AUTO_INCREMENT ]* has changed to a number bigger or equal to the *max [ int(11) ]* value. 
+If the value shown is lower than `max int(11) [ 4294967296 ]` as shown in the below example terminal output, than a table `[ AUTO_INCREMENT ]` has changed to a number bigger or equal to the `max [ int(11) ]` value. 
 
 ```mariadb
 MariaDB [xxx]> SELECT MAX(value_id) FROM catalog_product_entity_int;
@@ -69,7 +69,7 @@ MariaDB [xxx]> show create table catalog_product_entity_int;
 ) ENGINE=InnoDB AUTO_INCREMENT=4294967297 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table';
 ```
 
-As you can see in the above example output the table *[ AUTO_INCREMENT ]* has changed to a bigger number than the *max int(11) [ 4294967296 ]*. The solution is to update the *[ AUTO_INCREMENT]* to the next value from the table:
+As you can see in the above example output the table `[ AUTO_INCREMENT ]` has changed to a bigger number than the `max int(11) [ 4294967296 ]`. The solution is to update the `[ AUTO_INCREMENT]` to the next value from the table:
 
 ```
 ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
@@ -77,12 +77,12 @@ ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 
 ## *INT* to *BIGINT* schema update {#int_to_bigint_schema_update}
 
-However, if when running the following query `SELECT MAX(value_id) FROM catalog_product_entity_int;` the value shown is higher than *max int(11) [ 4294967296 ]*  consider doing a *INT* to *BIGINT* schema update. The datatype *BIGINT* has a larger range of values.
+However, if when running the following query `SELECT MAX(value_id) FROM catalog_product_entity_int;` the value shown is higher than `max int(11) [ 4294967296 ]`  consider doing a `INT` to `BIGINT` schema update. The datatype `BIGINT` has a larger range of values.
 
 To do so:
 
 1. Create a custom module inside the *app/code/* directory.
-1. In the custom module create a *db_schema.xml*. In *db_schema.xml* you will set the datatype to *BIGINT*. 
+1. In the custom module create a *db_schema.xml*. In *db_schema.xml* you will set the datatype to `BIGINT`. 
 1. Add the following content and then execute `bin/magento setup:upgrade` to apply the above changes to the corresponding table.
 
 ```
