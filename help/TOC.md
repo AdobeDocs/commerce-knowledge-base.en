@@ -362,7 +362,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-46520: Incorrect order status when refunded using store credits](/help/support-tools/patches-available-in-qpt-tool/acsd-46520-incorrect-order-status-when-refunded-using-store-credits.md)
     * [ACSD-46988: GraphQL currency API request returns null values](/help/support-tools/patches-available-in-qpt-tool/acsd-46988-graphql-currency-api-request-returns-null-values.md)
     * [ACSD-46869: Configurable products not updating using REST API at checkout](/help/support-tools/patches-available-in-qpt-tool/acsd-46869-configurable-products-not-updating-using-rest-api.md)
-    * [ACSD-46618: The product list widget shows incorrect cached prices for a logged-in customer](/help/support-tools/acsd-46618-product-list-widget-shows-incorrect-cached-prices-logged-in-customer.md)
+    * [ACSD-46618: The product list widget shows incorrect cached prices for a logged-in customer](/help/support-tools/patches-available-in-qpt-tool/acsd-46618-product-list-widget-shows-incorrect-cached-prices-logged-in-customer.md)
     * [ACSD-46541: An admin user cannot create a credit memo if an order item is deleted](/help/support-tools/patches-available-in-qpt-tool/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
