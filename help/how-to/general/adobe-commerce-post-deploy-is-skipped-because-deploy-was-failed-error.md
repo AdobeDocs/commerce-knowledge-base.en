@@ -39,4 +39,4 @@ Undetermined - what causes this error message depends on the code and database t
     W:
 ```
 
-To obtain the error trace for determining the actual cause, SSH to the server and check the log file `var/log/install_upgrade.log`
+To obtain the error trace for determining the actual cause, SSH to the server and check the log file `var/log/install_upgrade.log`.
