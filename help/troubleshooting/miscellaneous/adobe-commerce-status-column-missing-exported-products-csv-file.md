@@ -15,18 +15,18 @@ Adobe Commerce (all deployment methods) all [supported versions](https://www.ado
 
 You are unable to locate the status column in the CSV file containing exported products. So, for example, you export a CSV of all SKUs, with their status, but the table appears to be missing the status column. 
 
-Steps to reproduce:
+<u>Steps to reproduce:</u>
 
 1. In the Commerce admin > Select **System**, under Data Transfer select **Export**.
 1. In the Export Settings section, select on the Entity Type drop down **Products**.
 1. Search for *status*, listed under Attribute Code. You see that attribute code in the list of available attributes (*Enable Product*).
 1. Click on **Export**.
 
-Expected result:
+<u>Expected result:</u>
 
 In the CSV file that you just exported, you see a column labeled *status*.
 
-Actual result:
+<u>Actual result:</u>
 
 You do not see a column labeled *status* in the exported csv file.  
 
