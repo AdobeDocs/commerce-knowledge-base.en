@@ -41,7 +41,7 @@ Which solution you use depends on what has caused the issue. Refer to the the st
 
 Check the highest value of the primary key by running the following command in the terminal: `SELECT MAX(value_id) FROM catalog_product_entity_int;`
 
-If the *max(value_id)* is lower than the *max int(11) [ 4294967296 ]*, and the *[ AUTO_INCREMENT ]* has a value greater than or equal to the *max int(11) [ 4294967296 ]*, then consider using [updating the *[ AUTO_INCREMENT ]* to the next value from the table](#update-the-auto-increment-to-the-next-value-from-the-table). Otherwise, consider a [INT to BIGINT schema update](#int_to_bigint_schema_update).
+If the `max(value_id)` is lower than the `max int(11) [ 4294967296 ]`, and the `[ AUTO_INCREMENT ]` has a value greater than or equal to the `max int(11) [ 4294967296 ]`, then consider using [updating the `[ AUTO_INCREMENT ]` to the next value from the table](#update-the-auto-increment-to-the-next-value-from-the-table). Otherwise, consider a [`INT` to `BIGINT` schema update](#int_to_bigint_schema_update).
 
 ## Update the `AUTO_INCREMENT` to the next value from the table {#update-the-auto-increment-to-the-next-value-from-the-table}
 
