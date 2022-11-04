@@ -38,7 +38,7 @@ The product's status attribute has been renamed in the CSV file. It is now the p
 
 1. Select **System** under Data Transfer select **Import**.
 1. Click **Download Sample File**.
-1. You can see the product_online column in the CSV file.
+1. You can see the `product_online` column in the CSV file.
 
 ## Related reading
 
