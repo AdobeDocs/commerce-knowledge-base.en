@@ -43,4 +43,4 @@ The product's status attribute has been renamed in the CSV file. It is now the p
 ## Related reading
 
 * [Working with CSV files](https://docs.magento.com/user-guide/system/data-csv.html) in our user guide.
-* [Product Export Attribute Reference](https://docs.magento.com/user-guide/system/data-attributes-product.html) in our user guide.
+* [Product Export Attributes Reference](https://docs.magento.com/user-guide/system/data-attributes-product.html) in our user guide.
