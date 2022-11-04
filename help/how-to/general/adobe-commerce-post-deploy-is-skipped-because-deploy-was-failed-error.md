@@ -1,9 +1,9 @@
 ---
-title: Adobe Commerce "post-deploy is skipped because deploy" was failed error
+title: Adobe Commerce *post-deploy is skipped because deploy was failed* error
 description: "This article explains how to investigate a deployment error: *Post-deploy is skipped because deploy was failed*"
 ---
 
-# Adobe Commerce post-deploy is skipped because deploy was failed error
+# Adobe Commerce *post-deploy is skipped because deploy was failed* error
 
 This article explains how to investigate a deployment error: *Post-deploy is skipped because deploy was failed* which occurs during deployment to different environments, for example upgrading.
 
