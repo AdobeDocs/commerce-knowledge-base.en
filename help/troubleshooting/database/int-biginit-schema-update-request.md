@@ -75,7 +75,7 @@ As you can see in the above example output the table `[ AUTO_INCREMENT ]` has ch
 ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 ```
 
-## *INT* to *BIGINT* schema update {#int_to_bigint_schema_update}
+## `INT` to `BIGINT` schema update {#int_to_bigint_schema_update}
 
 However, if when running the following query `SELECT MAX(value_id) FROM catalog_product_entity_int;` the value shown is higher than `max int(11) [ 4294967296 ]`  consider doing a `INT` to `BIGINT` schema update. The datatype `BIGINT` has a larger range of values.
 
