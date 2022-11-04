@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce database numeric value out of range, INT to BIGINT
-Description: "This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product."
+description: "This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product."
 ---
 
 # Adobe Commerce database numeric value out of range, *INT* to *BIGINT*
