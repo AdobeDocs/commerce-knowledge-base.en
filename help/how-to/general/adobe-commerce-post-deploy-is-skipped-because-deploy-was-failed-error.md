@@ -13,7 +13,7 @@ Adobe Commerce on cloud infrastructure [all supported versions](https://www.adob
 
 ## Issue
 
-The deployment fails and returns a generic error message, so it's not clear on how to resolve the error.
+The deployment fails and returns a generic error message, so it is not clear on how to resolve the error.
 
 ## Cause
 
