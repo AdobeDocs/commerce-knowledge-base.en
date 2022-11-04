@@ -5,7 +5,7 @@ description: "This article shows how to check when the last time a branch was de
 
 # cURL error 60: SSL certificate expired
 
-This article shows how to check when the last time a branch was deployed after receiving a [!DNL cURL] error 60: [!DNL SSL certificate] expired in the [!DNL Master] or [!DNL Integration] branches on Adobe Commerce on cloud infrastructure.
+This article shows how to check when the last time a branch was deployed after receiving a `cURL error 60`: [!DNL SSL certificate] expired in the [!DNL Master] or [!DNL Integration] branches on Adobe Commerce on cloud infrastructure.
 
 ## Affected products and versions
 
@@ -13,7 +13,7 @@ This article shows how to check when the last time a branch was deployed after r
 
 ## Cause
 
-The [!DNL SSL certificates] in those branches are only valid for 30 days and the branch may have not been redeployed in over 30 days.
+The [!DNL SSL certificates] in those branches are only valid for 30 days, and the branch may have not been re-deployed in over 30 days.
 
 The error will look similar to this:
 
@@ -23,7 +23,7 @@ cURL error 60: SSL certificate problem: certificate has expired
 
 ## Solution
 
-Check when the last time the branch was deployed. If over the 30-day threshold, then redeploy the branch.
+Check when the last time the branch was deployed. If over the 30-day threshold, then re-deploy the branch.
 
 Two methods to check for when the last deployment was performed:
 
