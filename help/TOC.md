@@ -515,6 +515,7 @@ breadcrumb-title: Commerce KB
     * [Applying a patch takes your site down](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [Error 404 on all pages due to Content Staging issue](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
   * Miscellaneous {#miscellaneous}
+    * [cURL error 60: SSL certificate expired](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md) 
     * [Troubleshoot Product Recommendations module in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md)
     * [robots.txt not updated or displaying default settings](/help/troubleshooting/miscellaneous/robots.txt-not-updated-or-displaying-default-settings.md)
