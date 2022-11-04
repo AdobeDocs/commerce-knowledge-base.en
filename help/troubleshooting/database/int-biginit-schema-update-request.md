@@ -31,7 +31,7 @@ SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column '
 ```
 
 The solutions described in the article are:
-* Update the *[ AUTO_INCREMENT ]* to the next value from the table or
+* Update the `[ AUTO_INCREMENT ]` to the next value from the table or
 * *INT* to *BIGINT* schema update
 
 Which solution you use depends on what has caused the issue. Refer to the the steps below to isolate the cause.
