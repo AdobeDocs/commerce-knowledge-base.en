@@ -44,6 +44,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 |[How to request temporary Adobe Commerce on cloud infrastructure upsize:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html?lang=en) Several steps in this article have been changed and updated.|Update| Nov 7, 2022|
 |[Integration Environment enhancement request - Pro and Starter:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/integration-environment-enhancement-request-pro-and-starter.html?lang=en) The instruction for "Stater" in this article was updated.|Update|Nov 7, 2022|
 |[Security updates available for Adobe Commerce APSB22-12:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.html?lang=en) The solution of this article was updated.|Update| Nov 7, 2022|
+
 ## Popular Articles
 
 * [Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2.4.4.html?lang=en)
