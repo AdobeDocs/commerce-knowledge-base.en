@@ -34,7 +34,7 @@ To resolve the issue, please update your Composer version to 1.10.22:
 1. This adds the requirement for that Composer package version. Check the lock file - `composer/composer` version must be 1.0.22 or higher.
 1. Commit `composer.json` and `composer.lock` and push a deployment.
 
-If this method does not work, please [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+If this method does not work, please [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Related reading
 

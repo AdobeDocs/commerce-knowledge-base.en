@@ -10,7 +10,7 @@ description: "Adobe Commerce provides quality fixes for a minor release for a mi
 Adobe Commerce provides quality fixes for a minor release for a minimum of 12 months from the general availability date of the next minor software release. The manner in which we provide quality fixes during this period is changing:
 
 * **Prior policy:** Currently the quality fixes to the previous line that is in the 12 month EOS window are delivered through our quarterly patch release, hence making the quarterly patches a combination of security + quality.
-* **New policy:** Starting with 2.4 as the most current minor release line, release patches for the previous supported line (2.3) will move to security-only. We will still deliver quality fixes for the previous supported line during the 12-month window after release of a minor (like 2.4) and subsequent new minor release lines; but those will be made available through [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) and be focused only on critical issues.
+* **New policy:** Starting with 2.4 as the most current minor release line, release patches for the previous supported line (2.3) will move to security-only. We will still deliver quality fixes for the previous supported line during the 12-month window after release of a minor (like 2.4) and subsequent new minor release lines; but those will be made available through [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) and be focused only on critical issues.
 
 ## When does this policy take effect?
 
@@ -30,7 +30,7 @@ Adobe will continue to have security-only releases for the latest release line a
 
 ## What is Quality Patches Tool?
 
-Please refer to the [Quality Patches Tool released: a new tool to self-serve quality patches](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) article in our support knowledge base.
+Please refer to the [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) article in our support knowledge base.
 
 ## Who should consider using this new policy?
 
@@ -42,7 +42,7 @@ Ultimately, all Merchants should still prioritize planning to adopt the latest A
 
 ## How will I get quality fixes on supported minor versions that are not the latest line?
 
-Fixes will be made available via the [Quality Patches Tool](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html).
+Fixes will be made available via the [Quality Patches Tool](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
 
 ## How will I get quality fixes on the latest line?
 

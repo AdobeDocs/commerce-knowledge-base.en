@@ -1,11 +1,11 @@
 ---
 title: How to request temporary Adobe Commerce on cloud infrastructure upsize
-description: "If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store."
+description: "If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store."
 ---
 
 # How to request temporary Adobe Commerce on cloud infrastructure upsize
 
-If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
+If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ In addition, baseline alerting works well with new applications when you do not 
 
 Follow this link to learn more about New Relic [Creating baseline alert conditions](https://docs.newrelic.com/docs/alerts/new-relic-alerts/defining-conditions/create-baseline-alert-conditions).
 
-If you receive an alert notification that suggests a high traffic event you may need to consider [submitting a Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) requesting additional capacity. Follow the below steps.
+If you receive an alert notification that suggests a high traffic event you may need to consider [submitting a Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting additional capacity. Follow the below steps.
 
 ## How to monitor performance of your site
 
@@ -44,9 +44,9 @@ Follow this link to learn how to [configure performance-based alerts](https://de
 
 ## Steps to request temporary upsize
 
-Follow the steps below to submit a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to request temporary additional cloud capacity:
+Follow the steps below to submit a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request temporary additional cloud capacity:
 
-Submit a [Support Ticket at the Adobe Commerce Support Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket), after inputting the following information:
+Submit a [Support Ticket at the Adobe Commerce Support Center](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), after inputting the following information:
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://experienc
 1. Select *Holiday Surge Capacity Request* in the **Adobe Commerce Infrastructure Contact Reason** drop-down options. Click **OK** on the pop-up message requesting 48 business hours' notice for temporary additional cloud capacity requests.
 1. Select dates for the mandatory fields **Resize Start Date** and **Resize End Date**. The preferred **Resize Start Time** is also a mandatory field.
 1. Complete the next four fields.
-1. In the **Description** field, if you have additional information on size, provide it here. If no specific larger size is requested, we will be upsizing you up to the next larger environment size capacity. Surge requests will default to the next larger size from your current size. If you require additional capacity, please indicate that in the **Description** field. Increased capacity will be deducted from your contracted Surge Days or vCPU days. The typical capacity increase window is five days, but if you need more or fewer days, please indicate this in your [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+1. In the **Description** field, if you have additional information on size, provide it here. If no specific larger size is requested, we will be upsizing you up to the next larger environment size capacity. Surge requests will default to the next larger size from your current size. If you require additional capacity, please indicate that in the **Description** field. Increased capacity will be deducted from your contracted Surge Days or vCPU days. The typical capacity increase window is five days, but if you need more or fewer days, please indicate this in your [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 >[!NOTE]
 >

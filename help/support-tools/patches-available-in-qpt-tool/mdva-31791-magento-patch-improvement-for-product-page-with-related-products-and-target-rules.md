@@ -1,11 +1,11 @@
 ---
 title: "MDVA-31791 patch: improvement for product page with related products and target rules"
-description: "The MDVA-31791 patch improves the performance of product pages, when [Related products](https://docs.magento.com/user-guide/catalog/settings-advanced-related-products.html) or [Related products rules](https://docs.magento.com/user-guide/marketing/product-related-rules.html) (target rules) are used. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.1."
+description: "The MDVA-31791 patch improves the performance of product pages, when [Related products](https://docs.magento.com/user-guide/catalog/settings-advanced-related-products.html) or [Related products rules](https://docs.magento.com/user-guide/marketing/product-related-rules.html) (target rules) are used. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.1."
 ---
 
 # MDVA-31791 patch: improvement for product page with related products and target rules
 
-The MDVA-31791 patch improves the performance of product pages, when [Related products](https://docs.magento.com/user-guide/catalog/settings-advanced-related-products.html) or [Related products rules](https://docs.magento.com/user-guide/marketing/product-related-rules.html) (target rules) are used. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.1.
+The MDVA-31791 patch improves the performance of product pages, when [Related products](https://docs.magento.com/user-guide/catalog/settings-advanced-related-products.html) or [Related products rules](https://docs.magento.com/user-guide/marketing/product-related-rules.html) (target rules) are used. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.1.
 
 ## Affected products and versions
 
@@ -38,7 +38,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

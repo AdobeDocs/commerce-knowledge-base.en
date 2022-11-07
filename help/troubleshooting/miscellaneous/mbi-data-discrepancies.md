@@ -14,7 +14,7 @@ We also recommend that you ensure the correct [replication methods](https://docs
 
 ## I still need help!
 
-If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) with the following information:
+If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) with the following information:
 
 * What's the name of the report where you see the discrepancy?
 * Which values on the report are incorrect?

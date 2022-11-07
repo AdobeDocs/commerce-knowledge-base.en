@@ -33,7 +33,7 @@ One reason for performance degradation might be certain Adobe Commerce cache typ
 1. Investigate the disabled cache types. All Adobe Commerce cache types should be enabled, unless you received alternative guidance from Adobe. Third party extensions must not require disabling Adobe Commerce cache.
 1. If the investigation confirms that some cache types are disabled by mistake, enable them by running the following command for each cache type: `php bin/magento cache:enable <your_disabled_cache_type>`
 
-If there are concerns and/or questions whether a certain Adobe Commerce cache type can or should be disabled, [contact Adobe Commerce support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) asking for recommendations.
+If there are concerns and/or questions whether a certain Adobe Commerce cache type can or should be disabled, [contact Adobe Commerce support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) asking for recommendations.
 
 ## Related reading
 

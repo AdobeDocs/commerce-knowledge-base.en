@@ -46,7 +46,7 @@ Please follow the below instructions to run the script:
 1. Put `DB_CLEANUP_SCRIPT_v2.php` in the root directory of the Adobe Commerce or Magento Open Source installation (in the same directory as app which contains `app/bootstrap.php`).
 1. Run this command in the terminal: `php DB_CLEANUP_SCRIPT_v2.php` and it will begin the database clean up process.
 
-If you encounter any issues while running the script, please [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) or email us at [security@magento.com](mailto:security@magento.com).
+If you encounter any issues while running the script, please [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) or email us at [security@magento.com](mailto:security@magento.com).
 
  **Attached files**
 

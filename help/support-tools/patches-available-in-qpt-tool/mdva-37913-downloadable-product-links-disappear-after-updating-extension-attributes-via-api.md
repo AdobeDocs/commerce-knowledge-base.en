@@ -1,11 +1,11 @@
 ---
 title: "MDVA-37913: Product download links vanish after updating extension attributes via API"
-description: "The MDVA-37913 patch for solves the issue where the downloadable product links disappear after updating extension attributes via API. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.0.24 is installed. The patch ID is MDVA-37913. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
+description: "The MDVA-37913 patch for solves the issue where the downloadable product links disappear after updating extension attributes via API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.24 is installed. The patch ID is MDVA-37913. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
 ---
 
 # MDVA-37913: Product download links vanish after updating extension attributes via API
 
-The MDVA-37913 patch for solves the issue where the downloadable product links disappear after updating extension attributes via API. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.0.24 is installed. The patch ID is MDVA-37913. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+The MDVA-37913 patch for solves the issue where the downloadable product links disappear after updating extension attributes via API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.24 is installed. The patch ID is MDVA-37913. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
 
 ## Affected products and versions
@@ -62,7 +62,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool in our support knowledge base, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html)
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252)
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section in our support knowledge base.

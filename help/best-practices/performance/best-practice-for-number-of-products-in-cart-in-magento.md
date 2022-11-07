@@ -31,7 +31,7 @@ Adobe Commerce (all deployment methods) all [supported versions](https://magento
 * Split orders into several smaller orders with a smaller number of rows by leveraging the Add Item by SKU feature.
 * Only add the custom logic and cart customization you need to load a list of items.
 
-If assistance is required or if there are questions or concerns, [submit an Adobe Commerce Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+If assistance is required or if there are questions or concerns, [submit an Adobe Commerce Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Related reading
 
