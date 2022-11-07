@@ -40,7 +40,7 @@ If you have not configured the Sender email properly, or your domain has not bee
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-Check your Spam folder for the email. If the email appeared there, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#login) to request the domain to be white-labeled in SendGrid.
+Check your Spam folder for the email. If the email appeared there, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) to request the domain to be white-labeled in SendGrid.
 
 ## Related reading
 

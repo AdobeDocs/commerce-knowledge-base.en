@@ -11,7 +11,7 @@ description: "**Problem:** You want to provide shared access to your trusted col
 
  **Possible cause:** Permissions, necessary to grant shared access, have not been associated with your Commerce Account.
 
- **Solution:** Contact your Commerce Customer Success Manager or [create a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#merchant-not-displayed). Please specify your name and the email associated with your Account.
+ **Solution:** Contact your Commerce Customer Success Manager or [create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). Please specify your name and the email associated with your Account.
 
 ## I use shared access but still see my tickets instead of the shared ones
 
@@ -23,4 +23,4 @@ description: "**Problem:** You want to provide shared access to your trusted col
 
 ## Related reading
 
-[Ticket submission form: merchant is not displayed in Organization drop-down](https://support.magento.com/hc/en-us/articles/360000913794#merchant-not-displayed) in our support knowledge base.
+[Ticket submission form: merchant is not displayed in Organization drop-down](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed) in our support knowledge base.
