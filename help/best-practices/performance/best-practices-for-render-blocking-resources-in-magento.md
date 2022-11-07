@@ -21,5 +21,5 @@ If assistance is required or if there are questions or concerns, [submit a suppo
 ## Related reading
 
 * See [Optimizing Resource Files](https://docs.magento.com/user-guide/system/file-optimization.html) in our user guide.
-* See [Optimize CSS and JS files Adobe Commerce](https://support.magento.com/hc/en-us/articles/360044482152-CSS-and-Javascript-file-optimization-on-Magento-Commerce-Cloud-and-Magento-Commerce) in our support knowledge base.
+* See [Optimize CSS and JS files Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.html) in our support knowledge base.
 * See [Frontend Developer Guide > Cascading style sheets (CSS) > CSS merging, minification and performance](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/css-topics/css-overview.html#css-merging-minification-and-performance) in our developer documentation.

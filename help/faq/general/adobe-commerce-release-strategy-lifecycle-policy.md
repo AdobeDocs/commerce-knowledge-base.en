@@ -11,7 +11,7 @@ description: "We are reducing the frequency of core Commerce application upgrade
 
 We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule) for timing details.
 
-We are also reducing complexity of upgrades and accelerating innovation by narrowing the focus of full patch releases to include only security, compliance, performance, and high priority bugs. New features will continue to be released as independent services, allowing Merchants to adopt features and innovate faster; Live Search, Product Recommendations, and Amazon Sales Channel are all examples of existing independent services that enabled us to reduce complexity in the core Commerce application. Community contributions and lower priority issues will be released through the [Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047139492-Magento-Quality-Patches-released-new-tool-to-self-serve-quality-patches), providing faster time to market and letting merchants choose the updates that are important to them.
+We are also reducing complexity of upgrades and accelerating innovation by narrowing the focus of full patch releases to include only security, compliance, performance, and high priority bugs. New features will continue to be released as independent services, allowing Merchants to adopt features and innovate faster; Live Search, Product Recommendations, and Amazon Sales Channel are all examples of existing independent services that enabled us to reduce complexity in the core Commerce application. Community contributions and lower priority issues will be released through the [Quality Patches Tool](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html-Magento-Quality-Patches-released-new-tool-to-self-serve-quality-patches), providing faster time to market and letting merchants choose the updates that are important to them.
 
 ### How is the lifecycle policy changing?
 
@@ -47,7 +47,7 @@ Adobe Commerce will continue to provide security patch releases for versions sti
 
 ### With the new lifecycle policy, how long will Merchants be able to get quality fixes from Adobe Support?
 
-Merchants will be able to receive quality fixes until their version reaches End of Support. Merchants can access quality fixes through the Adobe Commerce [Quality Patch Tool](https://support.magento.com/hc/en-us/articles/360047139492-Magento-Quality-Patches-released-new-tool-to-self-serve-quality-patches) or by contacting the Support team.
+Merchants will be able to receive quality fixes until their version reaches End of Support. Merchants can access quality fixes through the Adobe Commerce [Quality Patch Tool](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html-Magento-Quality-Patches-released-new-tool-to-self-serve-quality-patches) or by contacting the Support team.
 
 ### Would upgrading to 2.4.4 or higher require all extensions be updated as well?
 

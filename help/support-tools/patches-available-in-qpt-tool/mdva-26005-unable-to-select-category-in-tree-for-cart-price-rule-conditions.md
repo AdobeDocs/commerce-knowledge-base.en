@@ -1,11 +1,11 @@
 ---
 title: "MDVA-26005: Unable to select category in tree for Cart Price rule conditions"
-description: "The MDVA-26005 patch solves the issue where users are not able to select a category in the category tree for Cart Price rule conditions. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.4 is installed. The patch ID is MDVA-26005. Please note that the issue was fixed in Adobe Commerce 2.3.6."
+description: "The MDVA-26005 patch solves the issue where users are not able to select a category in the category tree for Cart Price rule conditions. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.4 is installed. The patch ID is MDVA-26005. Please note that the issue was fixed in Adobe Commerce 2.3.6."
 ---
 
 # MDVA-26005: Unable to select category in tree for Cart Price rule conditions
 
-The MDVA-26005 patch solves the issue where users are not able to select a category in the category tree for Cart Price rule conditions. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.4 is installed. The patch ID is MDVA-26005. Please note that the issue was fixed in Adobe Commerce 2.3.6.
+The MDVA-26005 patch solves the issue where users are not able to select a category in the category tree for Cart Price rule conditions. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.4 is installed. The patch ID is MDVA-26005. Please note that the issue was fixed in Adobe Commerce 2.3.6.
 
 ## Affected products and versions
 
@@ -50,7 +50,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.

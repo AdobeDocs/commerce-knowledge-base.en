@@ -1,11 +1,11 @@
 ---
 title: "MDVA-30977: missing products from categories, indexing related"
-description: "The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issues are scheduled to be fixed in Adobe Commerce 2.4.2."
+description: "The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) v.1.0.6 is installed. The issues are scheduled to be fixed in Adobe Commerce 2.4.2."
 ---
 
 # MDVA-30977: missing products from categories, indexing related
 
-The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. The issues are scheduled to be fixed in Adobe Commerce 2.4.2.
+The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) v.1.0.6 is installed. The issues are scheduled to be fixed in Adobe Commerce 2.4.2.
 
 ## Affected products and versions
 
@@ -71,7 +71,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.

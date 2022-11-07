@@ -1,11 +1,11 @@
 ---
 title: "MDVA-13203 patch: 503 error homepage post full reindex"
-description: "The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\\[23000\\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed."
+description: "The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\\[23000\\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.0.13 is installed."
 ---
 
 # MDVA-13203 patch: 503 error homepage post full reindex
 
-The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\[23000\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed.
+The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\[23000\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.0.13 is installed.
 
 ## Affected products and versions
 
@@ -55,7 +55,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.
