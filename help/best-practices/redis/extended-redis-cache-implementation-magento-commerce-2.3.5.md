@@ -12,7 +12,7 @@ The enhancements minimize the number of queries to Redis that are performed on e
 These optimizations include:
 
 * Diminish the size of network data transfers between Redis and Adobe Commerce.
-* Lower Redis consumption of CPU cycles by improving the adapter’s ability to automatically determine what needs to be loaded.
+* Lower Redis consumption of CPU cycles by improving the adapter's ability to automatically determine what needs to be loaded.
 * Reduce race conditions on Redis write operations.
 
 ## Affected products and versions
@@ -40,4 +40,4 @@ If your ece-tools version is earlier than 2002.1.1, update it to the newer versi
 * [Adobe Commerce Release v2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#performance-boosts) in our developer documentation.
 * [Redis Page Cache](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-pg-cache.html) in our developer documentation.
 
-If assistance is required or if there are questions or concerns, [submit an Adobe Commerce Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+If assistance is required or if there are questions or concerns, [submit an Adobe Commerce Support ticket](kb/help-center-guide/magento-help-chttps://experienceleague.adobe.com/docs/commerce-knowledge-base/enter-user-guide.html#submit-ticket).
