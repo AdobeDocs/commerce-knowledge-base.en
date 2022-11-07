@@ -24,6 +24,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
 | Description | Type | Date |
 | --- | --- | --- |
+| Migrated the *Best Practices* section to the [Implementation Playbook](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/phases.html). | Update | 11/07/2022 |
 | Updated the Security updates available for Adobe Commerce APSB22-12 article with a revised solution. | Update | 10/11/2022 |
 
 ## Popular Articles
