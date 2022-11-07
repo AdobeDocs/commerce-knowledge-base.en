@@ -47,7 +47,7 @@ The price displayed in the home page widget corresponds to the customer's addres
 
 To apply individual patches, use the following links depending on your deployment method:
 
-* Adobe Commerce or [!DNL Magento Open Source on-premises]: [[!UICONTROL Quality Patches Tool] > Usage]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the Quality Patches Tool guide.
+* Adobe Commerce or [!DNL Magento Open Source on-premises]: [[!UICONTROL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the Quality Patches Tool guide.
 * Adobe Commerce on cloud infrastructure: [[!UICONTROL Upgrades and Patches > Apply Patches]](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
