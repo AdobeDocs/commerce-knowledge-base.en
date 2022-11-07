@@ -1,11 +1,11 @@
 ---
 title: "MDVA-34886: no search results when “weight” attribute used"
-description: "The MDVA-34886 patch solves the issue where search does return results when the weight attribute is configured as searchable. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
+description: "The MDVA-34886 patch solves the issue where search does return results when the weight attribute is configured as searchable. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.16 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
 ---
 
 # MDVA-34886: no search results when “weight” attribute used
 
-The MDVA-34886 patch solves the issue where search does return results when the weight attribute is configured as searchable. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.16 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+The MDVA-34886 patch solves the issue where search does return results when the weight attribute is configured as searchable. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.16 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 
 ## Affected products and versions
 
@@ -57,7 +57,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

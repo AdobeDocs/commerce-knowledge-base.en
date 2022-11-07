@@ -32,9 +32,9 @@ To avoid an issue with triggers negatively impacting performance follow these be
 
 * If you have custom triggers that write some data when the trigger is executed, move this logic to write directly to the audit tables instead. For example, by adding an additional query in the application code, after the query you aimed to create the trigger for.
 * Review existing custom triggers and consider removing them and writing directly to the tables from the application side. You can check for existing triggers in your database by following steps in [MySQL 8.0 Reference Manual >  SHOW TRIGGERS Statement](https://dev.mysql.com/doc/refman/8.0/en/show-triggers.html).
-* If assistance is required or if there are questions or concerns, [submit a Adobe Commerce Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+* If assistance is required or if there are questions or concerns, [submit a Adobe Commerce Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Related reading
 
 * To learn more about MySQL triggers, refer to [Installation Guide > MySQL](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html#instgde-prereq-mysql-intro) in our developer documentation.
-* To learn about database best practices, refer to [Database best practices for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041997312-Database-best-practices-for-Magento-Commerce-Cloud) in our support knowledge base.
+* To learn about database best practices, refer to [Database best practices for Adobe Commerce on cloud infrastructure](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md) in our support knowledge base.

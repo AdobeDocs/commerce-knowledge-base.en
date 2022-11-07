@@ -136,7 +136,7 @@ One of the following might be the cause:
 
 #### Solution
 
-[Log in to Help Center](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
+[Log in to Help Center](/help/help-center-guide/help-center/magento-help-center-user-guide.md#provide-shared-access).
 
 The **Submit a ticket** link will only be displayed for customers with an email linked to a valid support agreement.
 
@@ -150,7 +150,7 @@ To be able to use shared access account to submit support tickets, you need to p
 
 #### Still don't see the **Submit a ticket** link
 
-If you don't have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](https://support.magento.com/hc/en-us/articles/360000913794#provide-shared-access).
+If you don't have **Shared Accounts** under the **Switch Accounts** drop-down list, but you are working for a client who has an Adobe Commerce license, please ask them to grant you Shared Access. For more details review [Provide shared access to Magento Account](/help/help-center-guide/help-center/magento-help-center-user-guide.md#provide-shared-access).
 
 If you are an Adobe Commerce license owner, please verify that you don't have an invoice with **Pending Payment** status. Support entitlements are automatically granted or revoked according to invoice payment status.
 

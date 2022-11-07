@@ -24,7 +24,7 @@ Following are the options to avoid the issue:
 
 * Upgrade the Adobe Commerce application version to 2.2.10 or 2.3.3. (for instructions, see the [Upgrade Adobe Commerce on cloud infrastructure version](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) in our developer documentation).
 * Avoid restricting Admin user role scope by website, if possible.
-* [Submit a Magento Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket), to request a patch, if it is available.
+* [Submit a Magento Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), to request a patch, if it is available.
 
 ## Related reading
 

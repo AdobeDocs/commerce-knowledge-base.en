@@ -78,4 +78,4 @@ statement to remove the duplicate indexes. See [DROP INDEX Statement](https://de
 
 ## Related reading in our support knowledge base
 
- [Database best practices for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041997312)
+ [Database best practices for Adobe Commerce on cloud infrastructure](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md)

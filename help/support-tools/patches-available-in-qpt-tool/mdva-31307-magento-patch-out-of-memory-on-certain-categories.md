@@ -1,11 +1,11 @@
 ---
 title: "MDVA-31307: Out of memory on certain categories"
-description: "The MDVA-31307 patch fixes the issue where `Magento\\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2."
+description: "The MDVA-31307 patch fixes the issue where `Magento\\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2."
 ---
 
 # MDVA-31307: Out of memory on certain categories
 
-The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2.
+The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2.
 
 ## Affected products and versions
 
@@ -46,7 +46,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.

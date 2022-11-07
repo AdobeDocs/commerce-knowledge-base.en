@@ -70,7 +70,7 @@ The `/data/mysql` mount might become full due to a range of issues, such as not 
 
 There is an immediate step that you might take to bring MySQL back on track (or prevent it from getting stuck): free up some space by flushing big tables.
 
-But a long-term solution would be allocating more space and following [Database best practices](https://support.magento.com/hc/en-us/articles/360041997312), including enabling the [Order/Invoice/Shipment archive](https://docs.magento.com/user-guide/sales/order-archive.html) functionality.
+But a long-term solution would be allocating more space and following [Database best practices](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md), including enabling the [Order/Invoice/Shipment archive](https://docs.magento.com/user-guide/sales/order-archive.html) functionality.
 
 Following are details on both quick and long-term solutions.
 
@@ -128,7 +128,7 @@ Once you flush them, wait for wsrep sync completion. You can now create backups 
 
 ### Check binary logging settings
 
-Check your MySQL server binary logging settings: `log_bin` and `log_bin_index`. If the settings are enabled, the log files might become huge. [Create a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) requesting to purge large binary log files. Also, request to check that binary logging is being configured correctly so that logs are purged periodically and don't take too much space.
+Check your MySQL server binary logging settings: `log_bin` and `log_bin_index`. If the settings are enabled, the log files might become huge. [Create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to purge large binary log files. Also, request to check that binary logging is being configured correctly so that logs are purged periodically and don't take too much space.
 
 If you don't have access to MySQL server settings, request support to check it.
 
@@ -137,6 +137,6 @@ If you don't have access to MySQL server settings, request support to check it.
 Allocate more disk space for MySQL if you have some unused. See the [Check disk space limit](https://support.magento.com/hc/en-us/articles/360038374052) article to learn how to check if you have free disk space.
 
 * For the Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused. For details, see the [Allocate more space for MySQL](https://support.magento.com/hc/en-us/articles/360038761511).
-* For Pro plan Staging and Production environments, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to allocate more disk space if you have some unused.
+* For Pro plan Staging and Production environments, [contact support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to allocate more disk space if you have some unused.
 
 If you have reached your space limit and still experience low space issues, consider buying more disk space, contact your Customer Success Manager (CSM) for details.

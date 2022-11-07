@@ -9,7 +9,7 @@ description: "The MDVA-28300 patch fixes the issue where GraphQL request doesn't
 >
 >A new patch called MDVA-33975 fixes GraphQL price calculation issues. MDVA-28300 is depreciated and it is recommended that you apply the patch MDVA-33975. To access this patch, refer to [MDVA-33975: GraphQL price calculations](https://support.magento.com/hc/en-us/articles/360055782351).
 
-The MDVA-28300 patch fixes the issue where GraphQL request doesn't reflect the price changes from catalog price rules. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.6 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.6.
+The MDVA-28300 patch fixes the issue where GraphQL request doesn't reflect the price changes from catalog price rules. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.6 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.6.
 
 ## Affected products and versions
 
@@ -58,7 +58,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the Patches available in QPT section.

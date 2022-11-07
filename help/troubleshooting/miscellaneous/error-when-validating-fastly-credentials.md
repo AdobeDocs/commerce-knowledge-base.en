@@ -27,7 +27,7 @@ User gets an error when validating the Fastly credentials.
 
 1. If the above command returns an error similar to: *{"msg":"Token $TOKEN expired at 2021-09-28T02:03:37Z"}*, submit a support ticket to request a new API token.
 
-    To learn how to submit a support ticket, refer to [Adobe Commerce Help Center User Guide > SUPPORT TICKETS](https://support.magento.com/hc/en-us/articles/360000913794#support-tickets) in our support knowledge base.
+    To learn how to submit a support ticket, refer to [Adobe Commerce Help Center User Guide > SUPPORT TICKETS](/help/help-center-guide/help-center/magento-help-center-user-guide.md#support-tickets) in our support knowledge base.
 
     >[!NOTE]
     >

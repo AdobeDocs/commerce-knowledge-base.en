@@ -28,4 +28,4 @@ The status of all integrations is on the Integrations page ( **Manage Data > Int
 
 To re-authenticate, you may have to re-enter your account credentials. In some cases, you may be required to generate new API keys for the problem integration. Click the name of the problem integration to begin the re-authorization process.
 
-If the problem persists, please [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+If the problem persists, please [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

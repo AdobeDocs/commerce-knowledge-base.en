@@ -21,4 +21,4 @@ The site may not be live yet. There are processes in place to pre-load the site 
 
 ## Solution
 
-Create a [Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) and request image optimization.
+Create a [Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and request image optimization.

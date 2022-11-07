@@ -25,7 +25,7 @@ Do not expose your Commerce Admin path in your `robots.txt` file. Having the Adm
 
 For steps to edit the `robots.txt` file and remove all entries of the Admin path, refer to [Marketing User Guide > SEO and Search > Search Engine Robots](https://docs.magento.com/user-guide/marketing/search-engine-robots.html) in our user guide.
 
-If assistance is required or if there are questions or concerns, [submit an Adobe Commerce Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+If assistance is required or if there are questions or concerns, [submit an Adobe Commerce Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Related reading
 

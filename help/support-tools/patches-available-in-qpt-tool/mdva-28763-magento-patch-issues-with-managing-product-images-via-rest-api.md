@@ -1,11 +1,11 @@
 ---
 title: "MDVA-28763: issues with managing product images via REST API"
-description: "The MDVA-28763 patch solves multiple issues related to managing the media gallery using REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. The issues are scheduled to be fixed in later Adobe Commerce versions (see issues descriptions in [Issues](https://support.magento.com/hc/en-us/articles/360050056271#issues))."
+description: "The MDVA-28763 patch solves multiple issues related to managing the media gallery using REST API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.5 is installed. The issues are scheduled to be fixed in later Adobe Commerce versions (see issues descriptions in [Issues](https://support.magento.com/hc/en-us/articles/360050056271#issues))."
 ---
 
 # MDVA-28763: issues with managing product images via REST API
 
-The MDVA-28763 patch solves multiple issues related to managing the media gallery using REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. The issues are scheduled to be fixed in later Adobe Commerce versions (see issues descriptions in [Issues](https://support.magento.com/hc/en-us/articles/360050056271#issues)).
+The MDVA-28763 patch solves multiple issues related to managing the media gallery using REST API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.5 is installed. The issues are scheduled to be fixed in later Adobe Commerce versions (see issues descriptions in [Issues](https://support.magento.com/hc/en-us/articles/360050056271#issues)).
 
 ## Affected products and versions
 
@@ -39,7 +39,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.
