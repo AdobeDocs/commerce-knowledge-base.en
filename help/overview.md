@@ -23,7 +23,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
 ## What's New
 
-| Description | <div style="width:100px">Type</div>| <div style="width:100px">Date</div> |
+| Description | Type | Date |
 | --- | --- | --- |
 | [Upgrade to version 10.0 DHL schema to continue offering DHL shipping:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.html?lang=en) This article provides a solution to allow merchants to continue offering DHL shipping after the DHL schema version 6.2 gets deprecated in the end of December 2022. | New article | Nov 7, 2022 |
 | [ACSD-47106: new custom attribute on company creation page not saved:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47106-new-custom-attribute-on-company-creation-page-not-saved.html?lang=en) The ACSD-47106 patch fixes the issue where a value cannot be saved in a new custom attribute on a company creation page. This patch is available when the Quality Patches Tool (QPT) 1.1.22 is installed.| New article| Nov 7, 2022 |
