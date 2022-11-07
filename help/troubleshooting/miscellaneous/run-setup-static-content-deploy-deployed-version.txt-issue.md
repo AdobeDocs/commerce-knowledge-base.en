@@ -9,7 +9,7 @@ This article provides a fix for `deployed_version.txt` is not writable error whe
 
 ## Issue
 
-If you follow the Adobe Commerce on cloud infrastructure recommendations to use [Configuration Management](https://support.magento.com/hc/en-us/articles/115003169574) (and move static assets generation to the build stage in order to decrease website downtime during deployment), you may face the following error when running the `setup:static-content:deploy` command manually:
+If you follow the Adobe Commerce on cloud infrastructure recommendations to use [Configuration Management](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) (and move static assets generation to the build stage in order to decrease website downtime during deployment), you may face the following error when running the `setup:static-content:deploy` command manually:
 
 ```clike
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy

@@ -1,19 +1,19 @@
 ---
 title: "Web Application Firewall (WAF) powered by Fastly: the FAQ"
-description: "Web Application Firewalls (WAFs) prevent [malicious traffic](https://support.magento.com/hc/en-us/articles/360039447892-How-to-block-malicious-traffic-for-Magento-Commerce-Cloud-on-Fastly-level) from entering sites and networks by filtering traffic against a set of security rules. Traffic that triggers any of the rules is blocked before it can damage your sites or network."
+description: "Web Application Firewalls (WAFs) prevent malicious traffic from entering sites and networks by filtering traffic against a set of security rules. Traffic that triggers any of the rules is blocked before it can damage your sites or network."
 ---
 
 # Web Application Firewall (WAF) powered by Fastly: the FAQ
 
 ## How does Adobe Commerce's managed cloud WAF (powered by Fastly) work?
 
-Web Application Firewalls (WAFs) prevent [malicious traffic](https://support.magento.com/hc/en-us/articles/360039447892-How-to-block-malicious-traffic-for-Magento-Commerce-Cloud-on-Fastly-level) from entering sites and networks by filtering traffic against a set of security rules. Traffic that triggers any of the rules is blocked before it can damage your sites or network.
+Web Application Firewalls (WAFs) prevent [malicious traffic](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) from entering sites and networks by filtering traffic against a set of security rules. Traffic that triggers any of the rules is blocked before it can damage your sites or network.
 
 Adobe Commerce's cloud WAF provides a WAF policy with a rule set designed to protect your Adobe Commerce web applications from a wide range of attacks.
 
 The WAF examines web and admin traffic to identify any suspicious activity. It evaluates the GET and the POST traffic (HTTP API calls) and applies the rule set to determine which traffic to block. The WAF can block a wide variety of attacks, including SQL injection attacks, cross-site scripting attacks, data exfiltration attacks, and HTTP protocol violations.
 
-As a cloud-based service, the WAF requires no hardware or software to install or maintain. Fastly, an existing technology partner, provides the software and expertise. Their high-performance, always-on WAF resides in each cache node across Fastly’s global delivery network.
+As a cloud-based service, the WAF requires no hardware or software to install or maintain. Fastly, an existing technology partner, provides the software and expertise. Their high-performance, always-on WAF resides in each cache node across Fastly's global delivery network.
 
 ## Is the WAF available for all cloud customers?
 
@@ -29,7 +29,7 @@ The WAF is tuned collectively for all domains under a single cloud account.
 
 ## What rules are used for the WAF?
 
-The rule set in the WAF profile applied to your Adobe Commerce on cloud infrastructure production environment is based on the OWASP Top 10 Threat Protection rule set, which covers common exploits to web services. It also contains Adobe Commerce-specific rules developed by TrustWave SpiderLabs. Fastly’s Security Research team has also added rules which protect your site and network from commonly known attacks: bad IP addresses, bad user agents, and known botnet command and control nodes. We enable rules at OWASP Paranoia Level 3 or less, which provides high-security coverage.
+The rule set in the WAF profile applied to your Adobe Commerce on cloud infrastructure production environment is based on the OWASP Top 10 Threat Protection rule set, which covers common exploits to web services. It also contains Adobe Commerce-specific rules developed by TrustWave SpiderLabs. Fastly's Security Research team has also added rules which protect your site and network from commonly known attacks: bad IP addresses, bad user agents, and known botnet command and control nodes. We enable rules at OWASP Paranoia Level 3 or less, which provides high-security coverage.
 
 ## How do I access logs?
 

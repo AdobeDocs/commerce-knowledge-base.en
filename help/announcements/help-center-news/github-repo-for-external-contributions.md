@@ -39,7 +39,7 @@ For templates, style guide, and formatting guidelines, please refer to [Document
 
 In the Support Knowledge Base (KB), articles are organized in sections, which nest under categories.
 
-For example, the [How to subscribe to Adobe Magento status updates](https://support.magento.com/hc/en-us/articles/4402858335373-How-to-subscribe-to-Adobe-Magento-status-updates) article belongs to the General section in the How To category.
+For example, the [How to subscribe to Adobe Magento status updates](/help/how-to/general/how-to-subscribe-to-adobe-magento-status-updates.md) article belongs to the General section in the How To category.
 
 You can see the section and category name in the breadcrumbs path on the article page, see the image below:
 
