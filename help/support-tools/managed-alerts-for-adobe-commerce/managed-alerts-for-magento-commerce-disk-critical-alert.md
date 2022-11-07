@@ -15,7 +15,7 @@ Adobe Commerce cloud infrastructure on Pro plan architecture
 
 ## Issue
 
-You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe to give customers a standard set using insights from Support and Engineering.
+You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe to give customers a standard set using insights from Support and Engineering.
 
  <u> **Do!** </u>
 
@@ -42,7 +42,7 @@ Follow these steps to identify and troubleshoot the cause.
 1. Check if an Adobe Commerce support ticket exists. For steps, refer to [Track your support tickets](/help/help-center-guide/help-center/magento-help-center-user-guide.md#track-tickets) in our support knowledge base. Support may have received a New Relic threshold alert, created a ticket and started working on the issue. If no ticket exists, create one. The ticket should have the following information:
     * Contact Reason: select "New Relic CRITICAL alert received."
     * Description of the alert.
-    * [New Relic Incident link](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents) . This is included in your [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832).
+    * [New Relic Incident link](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents) . This is included in your [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md).
 1. In New Relic, review disks for highest use. For steps refer to Storage tab on New Relic [Infrastructure monitoring Hosts page:](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-hosts-page/)
     * If in New Relic you see a slow increase in disk usage, try the following options:
     * Optimizing disk space by adjusting space allocation. For steps, refer to [Manage Disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in our developer documentation. You may also need to request more disk space (contact your CSM).

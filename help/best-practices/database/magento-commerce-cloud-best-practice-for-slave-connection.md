@@ -7,7 +7,7 @@ description: "For Adobe Commerce on cloud infrastructure Pro plan architecture u
 
 For Adobe Commerce on cloud infrastructure Pro plan architecture users, Adobe recommends enabling slave connections for the MySQL database by default to spread the load across different nodes.
 
-See the [MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360037391972) article for details on how to enable slave connection and related questions.
+See the [MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md) article for details on how to enable slave connection and related questions.
 
 ## Related reading
 

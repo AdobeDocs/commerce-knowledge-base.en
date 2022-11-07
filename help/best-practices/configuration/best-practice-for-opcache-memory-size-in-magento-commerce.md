@@ -24,4 +24,4 @@ Best practices for improving Adobe Commerce on cloud infrastructure site perform
 
 * [Database best practices for Adobe Commerce on cloud infrastructure](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md)
 * [Most common database issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651-Most-common-database-issues-in-Magento-Commerce-Cloud)
-* [Indexers "Update On Schedule" optimizes Adobe Commerce performance](https://support.magento.com/hc/en-us/articles/360040227191-Indexers-Update-On-Schedule-optimizes-Magento-performance-)
+* [Indexers "Update On Schedule" optimizes Adobe Commerce performance](/help/best-practices/performance/indexers-update-on-schedule-optimizes-magento-performance.md)

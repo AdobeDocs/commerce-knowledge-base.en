@@ -53,7 +53,7 @@ To remove the configuration file, follow these steps:
 
 Read more about Configuration Management:
 
-* [Reduce deployment downtime on Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/115003169574) in our support knowledge base.
+* [Reduce deployment downtime on Adobe Commerce on cloud infrastructure](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in our support knowledge base.
 * [Configuration management for store settings](https://devdocs.magento.com/cloud/live/sens-data-over.html) in our developer documentation.
 
 ### Step 1: Uninstall the Adobe Commerce software with setup:uninstall command

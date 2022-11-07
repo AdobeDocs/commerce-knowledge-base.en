@@ -55,7 +55,7 @@ b. NO – [Upgrade ECE-Tools](https://devdocs.magento.com/cloud/project/ece-tool
 
 +++Is there a lot of network traffic between the app and Redis?
 
-a. YES – Try the following: For a non-split architecture, make sure a [secondary connection](https://support.magento.com/hc/en-us/articles/360037391972) is used. For split architecture, the [L2 cache must be enabled](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html).
+a. YES – Try the following: For a non-split architecture, make sure a [secondary connection](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md) is used. For split architecture, the [L2 cache must be enabled](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html).
 
 b. NO – Configure L2 cache configuration by [Updating Redis Backend](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend). Proceed to [Step 6](#step6).
 

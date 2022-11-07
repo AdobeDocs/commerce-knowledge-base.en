@@ -15,7 +15,7 @@ Adobe Commerce on cloud infrastructure Pro plan architecture
 
 ## Issue
 
-You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe Commerce to give customers a standard set using insights from Support and Engineering.
+You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe Commerce to give customers a standard set using insights from Support and Engineering.
 
  <u>**Do!**</u>:
 
@@ -37,7 +37,7 @@ Follow these steps to identify and troubleshoot the cause.
 
     * Check that you are on the latest version. Newer versions can sometimes fix memory leaks. If you are not on the latest version, consider upgrading. For steps, refer to [Adobe Commerce on cloud infrastructure > Services > Change Services](https://devdocs.magento.com/cloud/project/project-conf-files_services.html#change-service-version) in our developer documentation.
     * If you still cannot identify the source of increased memory consumption, check for MySQL issues like long-running queries, Primary keys not defined, and duplicate indexes. For steps, refer to [Most Common database Issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651) in our support knowledge base.
-    * If there are no MySQL issues, check for PHP issues. Review running processes by running `ps aufx` in the CLI/Terminal. In the terminal output, you will see cron jobs and processes that are currently being executed. Check the output for the processes' execution time. If there is a cron with a long execution time, the cron may be hanging. Refer to [Slow performance, slow and long-running crons](https://support.magento.com/hc/en-us/articles/360034631192) and [Cron job stuck in "running" status](https://support.magento.com/hc/en-us/articles/360033099451) in our support knowledge base for troubleshooting steps.
+    * If there are no MySQL issues, check for PHP issues. Review running processes by running `ps aufx` in the CLI/Terminal. In the terminal output, you will see cron jobs and processes that are currently being executed. Check the output for the processes' execution time. If there is a cron with a long execution time, the cron may be hanging. Refer to [Slow performance, slow and long-running crons](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md) and [Cron job stuck in "running" status](https://support.magento.com/hc/en-us/articles/360033099451) in our support knowledge base for troubleshooting steps.
 
 1. If you are still struggling to identify the source of the problem, use [New Relic APM's Transaction page](https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems) to identify transactions with performance issues:
 

@@ -16,7 +16,7 @@ Adobe Commerce on cloud infrastructure Pro plan architecture
 
 ## Issue
 
-You will receive a managed alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe to give customers a standard set using insights from Support and Engineering.
+You will receive a managed alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe to give customers a standard set using insights from Support and Engineering.
 
  **Do!**
 
@@ -39,7 +39,7 @@ If you receive a DML Queries Critical alert start at step one. If you receive a 
 1. Check if an Adobe Commerce support ticket exists. For steps, refer to our knowledge base [Track your support tickets](/help/help-center-guide/help-center/magento-help-center-user-guide.md#track-tickets). Support may have received a New Relic threshold alert, created a ticket and started working on the issue. If no ticket exists, create one. The ticket should have the following information:
 1. Contact Reason: select “New Relic MariaDB alert received".
 1. Description of the alert.
-1. [New Relic Incident link](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents). This is included in your [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832).
+1. [New Relic Incident link](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents). This is included in your [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md).
 1. To identify the source of the issue, try to identify the DML queries:
 1. Review your database operations by using steps from New Relic [APM UI Pages > Monitoring > Databases page](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time) .
 1. Sort by CALL COUNT, then OPERATION. Review INSERT, DELETE, and UPDATE operations.

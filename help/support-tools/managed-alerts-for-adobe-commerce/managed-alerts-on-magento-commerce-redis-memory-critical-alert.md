@@ -15,7 +15,7 @@ All versions of Adobe Commerce on cloud infrastructure Pro plan architecture
 
 ## Issue
 
-You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe to give merchants a standard set of alerts using insights from Support and Engineering.
+You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe to give merchants a standard set of alerts using insights from Support and Engineering.
 
  **<u>Do!</u>**
 
@@ -39,7 +39,7 @@ Follow these steps to identify and troubleshoot the cause.
 
     * Contact Reason: select "New Relic CRITICAL alert received".
     * Description of the alert.
-    * [New Relic incident link](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents). This is included in your [Managed Alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832).
+    * [New Relic incident link](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents). This is included in your [Managed Alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md).
 
 1. If no support ticket exists, check if Redis Used Memory is increasing or decreasing by going to [one.newrelic.com](http://one.newrelic.com/) > **Infrastructure** > **Third-party services** page, select the Redis dashboard. If it is stable or increasing, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to have your cluster upsized, or increase the `maxmemory` limit to the next level.
 1. If you cannot identify the cause of increased Redis memory consumption, review recent trends to identify issues with recent code deployments or configuration changes (for example, new customer groups and large changes to the catalog). It is recommended that you review the past seven days of activity for any correlations in code deployments or changes.

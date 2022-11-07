@@ -46,5 +46,5 @@ Other possible reasons for performance issues and solutions for them:
 
 * [Disable Adobe Commerce Banner output to improve site performance](https://support.magento.com/hc/en-us/articles/360035285852)
 * [MySQL tables are too large](https://support.magento.com/hc/en-us/articles/360038862691)
-* [Slow performance, slow and long running crons](https://support.magento.com/hc/en-us/articles/360034631192)
+* [Slow performance, slow and long running crons](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
 * [Restricted admin access causing performance issues](https://support.magento.com/hc/en-us/articles/360036323211)
