@@ -1,8 +1,8 @@
 ---
 title: Locked fields in Commerce Admin
-description: "This article provides a solution for when you cannot modify fields in the Commerce Admin."
+description: This article provides a solution for when you cannot modify fields in the Commerce Admin.
+exl-id: 5fe0967a-4241-440b-bb0d-429fa5644bbc
 ---
-
 # Locked fields in Commerce Admin
 
 This article provides a solution for when you cannot modify fields in the Commerce Admin.

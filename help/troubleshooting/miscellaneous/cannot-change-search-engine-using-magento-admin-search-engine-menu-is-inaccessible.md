@@ -1,8 +1,8 @@
 ---
 title: Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
 description: This article provides a solution for changing the Adobe Commerce Search Engine using the Commerce Admin if the Search Engine field is not displayed or the Use system value checkbox is greyed out and not accessible.
+exl-id: 5b0f728c-6a8d-446d-9553-5abc3d01e516
 ---
-
 # Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
 
 >[!WARNING]

@@ -1,8 +1,8 @@
 ---
 title: Integration Environment enhancement request - Pro and Starter
-description: "If you are an Adobe Commerce on cloud infrastructure Pro plan architecture customer and currently use the standard-sized Integration Environments, or you are an Adobe Commerce on cloud infrastructure Starter plan architecture customer and currently use the standard sized Staging Environment and would like more power, you can request an upgrade to Enhanced Integration Environments, which provide roughly four times the performance. This article separates instructions for Pro customers from Starter customers."
+description: If you are an Adobe Commerce on cloud infrastructure Pro plan architecture customer and currently use the standard-sized Integration Environments, or you are an Adobe Commerce on cloud infrastructure Starter plan architecture customer and currently use the standard sized Staging Environment and would like more power, you can request an upgrade to Enhanced Integration Environments, which provide roughly four times the performance. This article separates instructions for Pro customers from Starter customers.
+exl-id: c49b049b-efb8-412f-b27d-a89f8a758d85
 ---
-
 # Integration Environment enhancement request - Pro and Starter
 
 If you are an Adobe Commerce on cloud infrastructure Pro plan architecture customer and currently use the standard-sized Integration Environments, or you are an Adobe Commerce on cloud infrastructure Starter plan architecture customer and currently use the standard sized Staging Environment and would like more power, you can request an upgrade to Enhanced Integration Environments, which provide roughly four times the performance. This article separates instructions for Pro customers from Starter customers.

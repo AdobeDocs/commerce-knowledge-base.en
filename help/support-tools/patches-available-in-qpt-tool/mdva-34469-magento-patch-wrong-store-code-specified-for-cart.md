@@ -1,8 +1,8 @@
 ---
-title: "MDVA-34469: Wrong store code specified for cart"
-description: "The MDVA-34469 patch solves the issue where users get the error message: *Wrong store code specified for cart* when adding a product to the cart after switching store views. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15 is installed. The patch ID is MDVA-34469. Please note that the issue was fixed in Adobe Commerce 2.4.2."
+title: 'MDVA-34469: Wrong store code specified for cart'
+description: 'The MDVA-34469 patch solves the issue where users get the error message: *Wrong store code specified for cart* when adding a product to the cart after switching store views. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15 is installed. The patch ID is MDVA-34469. Please note that the issue was fixed in Adobe Commerce 2.4.2.'
+exl-id: 35d4f120-7fcf-4996-8b23-aca99cfc18ac
 ---
-
 # MDVA-34469: Wrong store code specified for cart
 
 The MDVA-34469 patch solves the issue where users get the error message: *Wrong store code specified for cart* when adding a product to the cart after switching store views. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15 is installed. The patch ID is MDVA-34469. Please note that the issue was fixed in Adobe Commerce 2.4.2.

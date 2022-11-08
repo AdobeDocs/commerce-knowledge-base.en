@@ -1,8 +1,8 @@
 ---
 title: Support ticket Contact Reason descriptions
-description: "This article lists the support ticket **Contact Reason** field options and more detailed descriptions of each one."
+description: This article lists the support ticket **Contact Reason** field options and more detailed descriptions of each one.
+exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
 ---
-
 # Support ticket Contact Reason descriptions
 
 This article lists the support ticket **Contact Reason** field options and more detailed descriptions of each one.

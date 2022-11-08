@@ -1,8 +1,8 @@
 ---
 title: Cybersource payment from Admin and front on different domains not processed
-description: "This article provides a patch for the known Adobe Commerce 2.3.0 limitation related to not having the ability to process Cybersource payments from both storefront and the Commerce Admin, if they are on different domains."
+description: This article provides a patch for the known Adobe Commerce 2.3.0 limitation related to not having the ability to process Cybersource payments from both storefront and the Commerce Admin, if they are on different domains.
+exl-id: 948d5907-70bd-4890-bc8a-23e04b116018
 ---
-
 # Cybersource payment from Admin and front on different domains not processed
 
 This article provides a patch for the known Adobe Commerce 2.3.0 limitation related to not having the ability to process Cybersource payments from both storefront and the Commerce Admin, if they are on different domains.

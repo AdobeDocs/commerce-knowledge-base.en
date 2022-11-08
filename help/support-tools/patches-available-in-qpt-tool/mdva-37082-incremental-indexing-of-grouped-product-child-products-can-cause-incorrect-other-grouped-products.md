@@ -1,8 +1,8 @@
 ---
-title: "MDVA-37082: Incorrect partial index of stock status for grouped products"
-description: "The MDVA-37082 Magento patch fixes the issue when the partial index of stock status for grouped products is wrong for custom stocks. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue is scheduled to be fixed in Magento 2.4.4."
+title: 'MDVA-37082: Incorrect partial index of stock status for grouped products'
+description: The MDVA-37082 Magento patch fixes the issue when the partial index of stock status for grouped products is wrong for custom stocks. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
+exl-id: 1c0abc99-bd24-4848-87a3-227a63655cb7
 ---
-
 # MDVA-37082: Incorrect partial index of stock status for grouped products
 
 The MDVA-37082 Magento patch fixes the issue when the partial index of stock status for grouped products is wrong for custom stocks. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue is scheduled to be fixed in Magento 2.4.4.

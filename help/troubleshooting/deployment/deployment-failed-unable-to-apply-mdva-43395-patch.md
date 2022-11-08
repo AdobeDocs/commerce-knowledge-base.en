@@ -1,8 +1,8 @@
 ---
-title: "Deployment failed: unable to apply MDVA-43395 patch"
-description: "This article provides a solution for the issue, where trying to apply the MDVA-43395 patch results in failed deployment."
+title: 'Deployment failed: unable to apply MDVA-43395 patch'
+description: This article provides a solution for the issue, where trying to apply the MDVA-43395 patch results in failed deployment.
+exl-id: 5341be3a-a9d7-4a4b-9755-8c585c6922a4
 ---
-
 # Deployment failed: unable to apply MDVA-43395 patch
 
 This article provides a solution for the issue, where trying to apply the MDVA-43395 patch results in failed deployment.

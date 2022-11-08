@@ -1,8 +1,8 @@
 ---
 title: MySQL server has gone away​ error on Adobe Commerce on cloud
-description: "This article talks about the solution for the issue where you receive an \" *SQL server has gone away* \" error message in the `cron.log` file. A range of symptoms including image file importing issues or deployment failure may be experienced."
+description: This article talks about the solution for the issue where you receive an " *SQL server has gone away* " error message in the `cron.log` file. A range of symptoms including image file importing issues or deployment failure may be experienced.
+exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 ---
-
 # MySQL server has gone away​ error on Adobe Commerce on cloud
 
 This article talks about the solution for the issue where you receive an " *SQL server has gone away* " error message in the `cron.log` file. A range of symptoms including image file importing issues or deployment failure may be experienced.
@@ -40,5 +40,5 @@ The `default_socket_timeout` value is set too low. This is caused by the setting
 ## Related reading
 
 * [Database upload loses connection to MySQL](https://support.magento.com/hc/en-us/articles/360037591172)
-* [Database best practices for Adobe Commerce on cloud infrastructure](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md)
-* [Most common database issues in Adobe Commerce on cloud infrastructure](/help/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.md)
+* [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [Most common database issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)

@@ -1,8 +1,8 @@
 ---
 title: MySQL and ElasticSearch show different results
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting different search results for the same search query with MySQL and ElasticSearch.
+exl-id: 37a0164a-0237-4200-ab9c-e0dbad7e2062
 ---
-
 # MySQL and ElasticSearch show different results
 
 >[!WARNING]

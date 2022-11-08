@@ -1,8 +1,8 @@
 ---
-title: "MDVA-37182: inconsistent search results in ElasticSearch 6 and 7"
-description: "The MDVA-37182 patch fixes the issue with inconsistent search behavior across versions 6 and 7 of ElasticSearch. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.22 is installed. The patch ID is MDVA-37182. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-37182: inconsistent search results in ElasticSearch 6 and 7'
+description: The MDVA-37182 patch fixes the issue with inconsistent search behavior across versions 6 and 7 of ElasticSearch. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.22 is installed. The patch ID is MDVA-37182. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+exl-id: 6c4e2d2f-cced-487d-b253-fd0c80bc6067
 ---
-
 # MDVA-37182: inconsistent search results in ElasticSearch 6 and 7
 
 The MDVA-37182 patch fixes the issue with inconsistent search behavior across versions 6 and 7 of ElasticSearch. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.22 is installed. The patch ID is MDVA-37182. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.

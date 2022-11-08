@@ -1,8 +1,8 @@
 ---
 title: Advanced Reporting 404 error on Magento Commerce
-description: "This article provides a patch for the Magento Commerce issue when a customer gets a 404 error when they attempt to access [Advanced Reporting](https://docs.magento.com/m2/ee/user_guide/configuration/general/advanced-reporting.html). After this patch is installed, users will be able to access Advanced Reporting."
+description: This article provides a patch for the Magento Commerce issue when a customer gets a 404 error when they attempt to access [Advanced Reporting](https://docs.magento.com/m2/ee/user_guide/configuration/general/advanced-reporting.html). After this patch is installed, users will be able to access Advanced Reporting.
+exl-id: bac61704-44fe-4bd2-b342-af90219231ef
 ---
-
 # Advanced Reporting 404 error on Magento Commerce
 
 This article provides a patch for the Magento Commerce issue when a customer gets a 404 error when they attempt to access [Advanced Reporting](https://docs.magento.com/m2/ee/user_guide/configuration/general/advanced-reporting.html). After this patch is installed, users will be able to access Advanced Reporting.

@@ -1,8 +1,8 @@
 ---
-title: "MC-41359 commerce patch: missing settings SameSite cookie param"
-description: "The MC-41359 commerce patch fixes the issue with missing SameSite cookie parameters settings. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MC-41359. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
+title: 'MC-41359 commerce patch: missing settings SameSite cookie param'
+description: The MC-41359 commerce patch fixes the issue with missing SameSite cookie parameters settings. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MC-41359. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+exl-id: b48faa3f-0d9a-4d65-9abb-1573c6240635
 ---
-
 # MC-41359 commerce patch: missing settings SameSite cookie param
 
 The MC-41359 commerce patch fixes the issue with missing SameSite cookie parameters settings. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MC-41359. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.

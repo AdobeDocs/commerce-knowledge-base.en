@@ -1,8 +1,8 @@
 ---
 title: More products were deleted than initiated during mass deletion in Admin
-description: "This article provides a patch for the known Adobe Сommerce on cloud infrastructure 2.2.3 issue related to having not selected records being deleted when a bulk deletion is performed in a grid in the Commerce Admin."
+description: This article provides a patch for the known Adobe Сommerce on cloud infrastructure 2.2.3 issue related to having not selected records being deleted when a bulk deletion is performed in a grid in the Commerce Admin.
+exl-id: 0bfdc84e-0292-4702-a20e-bdbe67c111a2
 ---
-
 # More products were deleted than initiated during mass deletion in Admin
 
 This article provides a patch for the known Adobe Сommerce on cloud infrastructure 2.2.3 issue related to having not selected records being deleted when a bulk deletion is performed in a grid in the Commerce Admin.

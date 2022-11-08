@@ -1,8 +1,8 @@
 ---
-title: "MDVA-13203 patch: 503 error homepage post full reindex"
-description: "The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\\[23000\\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.13 is installed."
+title: 'MDVA-13203 patch: 503 error homepage post full reindex'
+description: 'The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\[23000\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.13 is installed.'
+exl-id: 8e09010b-9aa4-4a79-b546-a24bb72e0e40
 ---
-
 # MDVA-13203 patch: 503 error homepage post full reindex
 
 The MDVA-13203 Adobe Commerce patch fixes the issue where your site is showing a maintenance page and there are *CRITICAL: SQLSTATE\[23000\]: Integrity constraint violation* errors in the `system.log`. The patch ID is MDVA-13203. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.13 is installed.

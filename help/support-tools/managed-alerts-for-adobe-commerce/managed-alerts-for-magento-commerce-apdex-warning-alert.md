@@ -1,8 +1,8 @@
 ---
-title: "Managed alerts for Adobe Commerce: Apdex warning alert"
-description: "This article provides troubleshooting steps for when you receive an Apdex warning alert for Adobe Commerce in New Relic. The Apdex score measures users' satisfaction to the response time of web applications and services. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected."
+title: 'Managed alerts for Adobe Commerce: Apdex warning alert'
+description: This article provides troubleshooting steps for when you receive an Apdex warning alert for Adobe Commerce in New Relic. The Apdex score measures users' satisfaction to the response time of web applications and services. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
+exl-id: 6e3f28ae-734b-468f-b6a5-c4f2edb1cb4b
 ---
-
 # Managed alerts for Adobe Commerce: Apdex warning alert
 
 This article provides troubleshooting steps for when you receive an Apdex warning alert for Adobe Commerce in New Relic. The Apdex score measures users' satisfaction to the response time of web applications and services. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
@@ -41,7 +41,7 @@ Follow these steps to identify and troubleshoot the cause.
 1. If services like Redis or MySQL are the top source of memory consumption, try the following:
     * Check that you are on the latest version. Newer versions can sometimes fix memory leaks. If you are not on the latest version, consider upgrading. For steps, refer to [Cloud for Adobe Commerce > Services > Change Services](https://devdocs.magento.com/cloud/project/project-conf-files_services.html#change-service-version) in our developer documentation.
 1. If the issue is not caused by service versions:
-    * Check for other MySQL issues like long running queries, Primary keys not defined, and duplicate indexes. For steps, refer to [Most Common database Issues in Adobe Commerce on cloud infrastructure](/help/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.md) in our support knowledge base.
+    * Check for other MySQL issues like long running queries, Primary keys not defined, and duplicate indexes. For steps, refer to [Most Common database Issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) in our support knowledge base.
     * Check for other PHP issues. Review running processes by running `ps aufx` in the CLI/Terminal. In the terminal output you will see cron jobs and processes that are currently being executed. Check the output for the processes' execution time. If there is a cron with a long execution time, the cron may be hanging. For troubleshooting steps, refer to [Slow performance, slow and long running crons](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md) and [Cron job stuck in "running" status](https://support.magento.com/hc/en-us/articles/360033099451) in our support knowledge base.
 1. Once a potential source of the issue is identified, SSH into the environment to investigate further. For steps, refer to [Cloud for Adobe Commerce > Technologies and requirements > SSH into your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) in our developer documentation.
 1. If you are still struggling to identify the source, review recent trends to identify issues with recent code deployments or configuration changes (for example, new customer groups and large changes to the catalog). It is recommended that you review the past seven days of activity for any correlations in code deployments or changes.

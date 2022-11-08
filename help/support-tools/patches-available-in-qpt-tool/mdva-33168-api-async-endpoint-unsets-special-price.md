@@ -1,8 +1,8 @@
 ---
-title: "MDVA-33168: API async endpoint unsets special price"
-description: "The MDVA-33168 patch fixes the issue where using the API async endpoint to update a product attribute unsets a special price."
+title: 'MDVA-33168: API async endpoint unsets special price'
+description: The MDVA-33168 patch fixes the issue where using the API async endpoint to update a product attribute unsets a special price.
+exl-id: 4dd26215-b140-4924-8f4d-0d062e5fda2d
 ---
-
 # MDVA-33168: API async endpoint unsets special price
 
 The MDVA-33168 patch fixes the issue where using the API async endpoint to update a product attribute unsets a special price.

@@ -1,8 +1,8 @@
 ---
-title: "MBI Training Video: SQL Report Builder"
-description: "Remember, **you need Admin permissions to access the SQL Report Builder!**"
+title: 'MBI Training Video: SQL Report Builder'
+description: Remember, **you need Admin permissions to access the SQL Report Builder!**
+exl-id: bbe47df3-c7f2-4a35-bc48-c93a67bd2ce2
 ---
-
 # MBI Training Video: SQL Report Builder
 
 Remember, **you need Admin permissions to access the SQL Report Builder!**

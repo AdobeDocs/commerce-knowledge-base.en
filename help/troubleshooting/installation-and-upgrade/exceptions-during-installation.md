@@ -1,8 +1,8 @@
 ---
 title: Exceptions during installation
-description: "This article provides a possible solution for the issues with installing Adobe Commerce using Web Setup Wizard."
+description: This article provides a possible solution for the issues with installing Adobe Commerce using Web Setup Wizard.
+exl-id: f9b8ba2d-c8bd-4020-9e95-7194cc51317c
 ---
-
 # Exceptions during installation
 
 This article provides a possible solution for the issues with installing Adobe Commerce using Web Setup Wizard.

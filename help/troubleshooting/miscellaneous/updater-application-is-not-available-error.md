@@ -1,8 +1,8 @@
 ---
 title: '"Updater application is not available" error'
-description: "This article talks about the solution for the \"updater application is not available\" issue you might face when trying to update/install Adobe Commerce on-premises using the Web Setup Wizard."
+description: This article talks about the solution for the "updater application is not available" issue you might face when trying to update/install Adobe Commerce on-premises using the Web Setup Wizard.
+exl-id: 85e55ed8-0bc9-4378-b722-46be98ce2638
 ---
-
 # "Updater application is not available" error
 
 This article talks about the solution for the "updater application is not available" issue you might face when trying to update/install Adobe Commerce on-premises using the Web Setup Wizard.

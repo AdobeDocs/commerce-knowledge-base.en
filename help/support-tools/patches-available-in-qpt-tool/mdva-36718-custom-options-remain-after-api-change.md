@@ -1,8 +1,8 @@
 ---
-title: "MDVA-36718: Custom options remain after API change"
-description: "The MDVA-36718 Magento patch fixes the issue when the old custom options remain after being changed via API."
+title: 'MDVA-36718: Custom options remain after API change'
+description: The MDVA-36718 Magento patch fixes the issue when the old custom options remain after being changed via API.
+exl-id: e9755764-e563-4921-af75-a90e06237053
 ---
-
 # MDVA-36718: Custom options remain after API change
 
 The MDVA-36718 Magento patch fixes the issue when the old custom options remain after being changed via API.

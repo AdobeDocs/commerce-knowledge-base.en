@@ -1,8 +1,8 @@
 ---
 title: "MDVA-22150 Adobe Commerce patch: frontend user can't log in"
-description: "The MDVA-22150 patch solves the issue when a frontend user cannot log in after an aborted purchase using a coupon. This occurs when a frontend user uses a coupon code on a product that has been disabled prior to completing the purchase. The result is that the frontend user can no longer log in and receives a 503 error. Another effect of this issue is that the ability to manage customers' shopping carts in the Admin stops working."
+description: The MDVA-22150 patch solves the issue when a frontend user cannot log in after an aborted purchase using a coupon. This occurs when a frontend user uses a coupon code on a product that has been disabled prior to completing the purchase. The result is that the frontend user can no longer log in and receives a 503 error. Another effect of this issue is that the ability to manage customers' shopping carts in the Admin stops working.
+exl-id: 8aabe7b2-4b8a-4339-914e-7131006907b3
 ---
-
 # MDVA-22150 Adobe Commerce patch: frontend user can't log in
 
 The MDVA-22150 patch solves the issue when a frontend user cannot log in after an aborted purchase using a coupon. This occurs when a frontend user uses a coupon code on a product that has been disabled prior to completing the purchase. The result is that the frontend user can no longer log in and receives a 503 error. Another effect of this issue is that the ability to manage customers' shopping carts in the Admin stops working.

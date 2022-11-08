@@ -1,8 +1,8 @@
 ---
 title: Web Content Accessibility for Adobe Commerce
-description: "We understand the importance of accessibility at Adobe. While the responsibility for accessibility is with the partner/merchant, we continue to improve our accessibility with each release which will also be included in our accessibility improvement plans for 2022.  "
+description: 'We understand the importance of accessibility at Adobe. While the responsibility for accessibility is with the partner/merchant, we continue to improve our accessibility with each release which will also be included in our accessibility improvement plans for 2022.  '
+exl-id: f3b4025e-37ef-44fc-9a18-b0d159994062
 ---
-
 # Web Content Accessibility for Adobe Commerce
 
 We understand the importance of accessibility at Adobe. While the responsibility for accessibility is with the partner/merchant, we continue to improve our accessibility with each release which will also be included in our accessibility improvement plans for 2022.

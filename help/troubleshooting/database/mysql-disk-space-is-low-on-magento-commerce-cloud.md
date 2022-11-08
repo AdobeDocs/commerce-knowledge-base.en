@@ -1,8 +1,8 @@
 ---
 title: MySQL disk space is low on Adobe Commerce on cloud infrastructure
-description: "This article provides solutions for when you are experiencing very low space or no space for MySQL on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section."
+description: This article provides solutions for when you are experiencing very low space or no space for MySQL on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section.
+exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 ---
-
 # MySQL disk space is low on Adobe Commerce on cloud infrastructure
 
 This article provides solutions for when you are experiencing very low space or no space for MySQL on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section.
@@ -70,7 +70,7 @@ The `/data/mysql` mount might become full due to a range of issues, such as not 
 
 There is an immediate step that you might take to bring MySQL back on track (or prevent it from getting stuck): free up some space by flushing big tables.
 
-But a long-term solution would be allocating more space and following [Database best practices](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md), including enabling the [Order/Invoice/Shipment archive](https://docs.magento.com/user-guide/sales/order-archive.html) functionality.
+But a long-term solution would be allocating more space and following [Database best practices](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html), including enabling the [Order/Invoice/Shipment archive](https://docs.magento.com/user-guide/sales/order-archive.html) functionality.
 
 Following are details on both quick and long-term solutions.
 

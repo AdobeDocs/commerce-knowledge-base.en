@@ -1,8 +1,8 @@
 ---
 title: Applying a patch takes your site down
-description: "This article talks about the issue where a patch you just applied takes your site down. To resolve it, you can remove the patch."
+description: This article talks about the issue where a patch you just applied takes your site down. To resolve it, you can remove the patch.
+exl-id: dc765bcd-0761-4efd-a345-46a908d61272
 ---
-
 # Applying a patch takes your site down
 
 This article talks about the issue where a patch you just applied takes your site down. To resolve it, you can remove the patch.

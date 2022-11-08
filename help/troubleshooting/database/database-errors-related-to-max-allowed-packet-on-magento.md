@@ -1,8 +1,8 @@
 ---
 title: Database errors related to max_allowed_packet on Adobe Commerce
-description: "This article provides a solution for database connection errors in the `var/log/exception.log` that may occur when importing a large number of products or performing another task that forces the server to handle bigger packets than set in `max_allowed_packet` that is larger than the default, 16MB."
+description: This article provides a solution for database connection errors in the `var/log/exception.log` that may occur when importing a large number of products or performing another task that forces the server to handle bigger packets than set in `max_allowed_packet` that is larger than the default, 16MB.
+exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 ---
-
 # Database errors related to max_allowed_packet on Adobe Commerce
 
 This article provides a solution for database connection errors in the `var/log/exception.log` that may occur when importing a large number of products or performing another task that forces the server to handle bigger packets than set in `max_allowed_packet` that is larger than the default, 16MB.
@@ -39,5 +39,5 @@ The default value of 16MB for the MySQL `max_allowed_packets` setting is not lar
 
 * [Installation Guide > MySQL](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=max%20allowed%2016%20MB) in our developer documentation.
 * [Database upload loses connection to MySQL](https://support.magento.com/hc/en-us/articles/360037591172) in our support knowledge base.
-* [Database best practices for Adobe Commerce on cloud infrastructure](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md) in our support knowledge base.
-* [Most common database issues in Adobe Commerce on cloud infrastructure](/help/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.md) in our support knowledge base.
+* [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in our support knowledge base.
+* [Most common database issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) in our support knowledge base.

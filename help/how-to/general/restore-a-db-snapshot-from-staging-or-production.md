@@ -1,8 +1,8 @@
 ---
 title: Restore a DB snapshot from Staging or Production
-description: "This article shows how to restore a DB snapshot from Staging or Production on Adobe Commerce on cloud infrastructure."
+description: This article shows how to restore a DB snapshot from Staging or Production on Adobe Commerce on cloud infrastructure.
+exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
 ---
-
 # Restore a DB snapshot from Staging or Production
 
 This article shows how to restore a DB [!DNL snapshot] from [!DNL Staging] or [!DNL Production] on Adobe Commerce on cloud infrastructure.

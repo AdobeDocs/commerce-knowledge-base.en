@@ -1,8 +1,8 @@
 ---
 title: 'MDVA-34850: swatches not strike-through inventory reaches "0"'
-description: "The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches \"0\" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3."
+description: The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches "0" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+exl-id: 90f5cef4-137a-426d-a447-2d1aca23e6c1
 ---
-
 # MDVA-34850: swatches not strike-through inventory reaches "0"
 
 The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches "0" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.

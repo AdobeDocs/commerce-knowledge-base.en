@@ -1,8 +1,8 @@
 ---
-title: "MDVA-43451: Error when setting Pricing and Structure for shared catalog"
-description: "The MDVA-43451 patch solves the issue where the user is unable to set the Pricing and Structure for a shared catalog. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is installed. The patch ID is MDVA-43451. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
+title: 'MDVA-43451: Error when setting Pricing and Structure for shared catalog'
+description: The MDVA-43451 patch solves the issue where the user is unable to set the Pricing and Structure for a shared catalog. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is installed. The patch ID is MDVA-43451. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+exl-id: 78de2e98-dfd7-4829-8e3f-76eadf5570e8
 ---
-
 # MDVA-43451: Error when setting Pricing and Structure for shared catalog
 
 The MDVA-43451 patch solves the issue where the user is unable to set the Pricing and Structure for a shared catalog. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is installed. The patch ID is MDVA-43451. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.

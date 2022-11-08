@@ -1,8 +1,8 @@
 ---
 title: Access the Adobe Commerce Customer Support Guide
-description: "The Adobe Commerce Customer Support Guide explains customer support offerings and how to utilize them. This includes best practices for the support relationship, collecting information needed for diagnosis, customer support priority, submitting a support request, and links to resources. This guide is accessible from the downloads section on your Magento account page. To access:"
+description: 'The Adobe Commerce Customer Support Guide explains customer support offerings and how to utilize them. This includes best practices for the support relationship, collecting information needed for diagnosis, customer support priority, submitting a support request, and links to resources. This guide is accessible from the downloads section on your Magento account page. To access:'
+exl-id: 4acd471d-7d94-49a6-ac2d-80661d77a569
 ---
-
 # Access the Adobe Commerce Customer Support Guide
 
 The Adobe Commerce Customer Support Guide explains customer support offerings and how to utilize them. This includes best practices for the support relationship, collecting information needed for diagnosis, customer support priority, submitting a support request, and links to resources. This guide is accessible from the downloads section on your Magento account page. To access:

@@ -1,8 +1,8 @@
 ---
 title: Access New Relic services
-description: "This article explains how customers with sufficient license/subscription authorization can access select New Relic services:"
+description: 'This article explains how customers with sufficient license/subscription authorization can access select New Relic services:'
+exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
 ---
-
 # Access New Relic services
 
 This article explains how customers with sufficient license/subscription authorization can access select New Relic services:

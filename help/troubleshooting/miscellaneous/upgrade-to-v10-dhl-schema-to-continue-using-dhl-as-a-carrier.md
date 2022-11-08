@@ -1,9 +1,8 @@
 ---
 title: Upgrade to v10 DHL schema to continue offering DHL shipping
-
 description: This article provides a solution to allow merchants to continue offering DHL shipping after the DHL schema 6.2 gets deprecated in December 2022, by upgrading to schema 10.0 or by applying the AC-3023 patch.
+exl-id: eed83713-2d6a-4360-bfa1-bebd4d604f2f
 ---
-
 # Upgrade to version 10.0 DHL schema to continue offering DHL shipping
 
 This article provides a solution to allow merchants to continue offering DHL shipping after the DHL schema version 6.2 gets deprecated in the end of December 2022.

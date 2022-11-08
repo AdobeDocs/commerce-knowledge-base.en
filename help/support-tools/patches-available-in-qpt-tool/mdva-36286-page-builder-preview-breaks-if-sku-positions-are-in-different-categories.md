@@ -1,8 +1,8 @@
 ---
-title: "MDVA-36286: Page Builder preview breaks if SKU positions in different categories"
-description: "The MDVA-36286 patch solves the issue where the Page Builder products widget preview breaks if the same SKU has a different position in subcategories. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.23 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-36286: Page Builder preview breaks if SKU positions in different categories'
+description: The MDVA-36286 patch solves the issue where the Page Builder products widget preview breaks if the same SKU has a different position in subcategories. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.23 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+exl-id: 0f7d2506-569a-4b70-82bf-0f153014c48a
 ---
-
 # MDVA-36286: Page Builder preview breaks if SKU positions in different categories
 
 The MDVA-36286 patch solves the issue where the Page Builder products widget preview breaks if the same SKU has a different position in subcategories. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.23 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.

@@ -1,8 +1,8 @@
 ---
-title: "MDVA-36021: Users get error message when opening order details"
-description: "The MDVA-36021 patch solves the issue where users get *Call to a member function getId()* error message when trying to open order details. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 is installed. The patch ID is MDVA-36021. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
+title: 'MDVA-36021: Users get error message when opening order details'
+description: The MDVA-36021 patch solves the issue where users get *Call to a member function getId()* error message when trying to open order details. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 is installed. The patch ID is MDVA-36021. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+exl-id: 73b1f3c6-5dc4-48e4-8f3f-681be84f7638
 ---
-
 # MDVA-36021: Users get error message when opening order details
 
 The MDVA-36021 patch solves the issue where users get *Call to a member function getId()* error message when trying to open order details. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 is installed. The patch ID is MDVA-36021. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.

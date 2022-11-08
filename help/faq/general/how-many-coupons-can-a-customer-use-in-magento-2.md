@@ -1,8 +1,8 @@
 ---
 title: How many coupons can a customer use in Adobe Commerce?
-description: "Although Adobe Commerce allows configuring multiple coupon codes, a customer can use **only one coupon code in the cart**."
+description: Although Adobe Commerce allows configuring multiple coupon codes, a customer can use **only one coupon code in the cart**.
+exl-id: 7ec409fc-0660-425f-bfaa-aa55b712e162
 ---
-
 # How many coupons can a customer use in Adobe Commerce?
 
 Although Adobe Commerce allows configuring multiple coupon codes, a customer can use **only one coupon code in the cart**.

@@ -1,8 +1,8 @@
 ---
-title: "MDVA-36253: Incorrect total in mini cart after deleting item"
-description: "The MDVA-36253 patch solves the issue where the product price is not being updated if you go back to the mini cart page after deleting a product when using multi-shipping checkout step. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.22 is installed. The patch ID is MDVA-36253. Please note that the issue was fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-36253: Incorrect total in mini cart after deleting item'
+description: The MDVA-36253 patch solves the issue where the product price is not being updated if you go back to the mini cart page after deleting a product when using multi-shipping checkout step. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.22 is installed. The patch ID is MDVA-36253. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+exl-id: cbd436d7-7fbd-46dd-97cf-30f709da1ce5
 ---
-
 # MDVA-36253: Incorrect total in mini cart after deleting item
 
 The MDVA-36253 patch solves the issue where the product price is not being updated if you go back to the mini cart page after deleting a product when using multi-shipping checkout step. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.22 is installed. The patch ID is MDVA-36253. Please note that the issue was fixed in Adobe Commerce 2.4.3.

@@ -1,8 +1,8 @@
 ---
-title: "MDVA-31969 patch: import products .csv images duplicated"
-description: "The MDVA-31969 patch fixes the issue where images are duplicated when importing two products .csv files. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.14 is installed."
+title: 'MDVA-31969 patch: import products .csv images duplicated'
+description: The MDVA-31969 patch fixes the issue where images are duplicated when importing two products .csv files. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.14 is installed.
+exl-id: 2a3c9cce-1f71-4f27-807e-12beffc379d2
 ---
-
 # MDVA-31969 patch: import products .csv images duplicated
 
 The MDVA-31969 patch fixes the issue where images are duplicated when importing two products .csv files. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.14 is installed.

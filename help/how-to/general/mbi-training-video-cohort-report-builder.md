@@ -1,8 +1,8 @@
 ---
-title: "MBI Training Video: Cohort Report Builder"
-description: "Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who don’t? If the answer is \"Yes!\", then the Cohort Report Builder is the perfect tool for you. Magento BI is specifically optimized to perform this analysis and make it relevant to your business."
+title: 'MBI Training Video: Cohort Report Builder'
+description: Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who don’t? If the answer is "Yes!", then the Cohort Report Builder is the perfect tool for you. Magento BI is specifically optimized to perform this analysis and make it relevant to your business.
+exl-id: c3e2415a-7251-46ae-9ddc-a5b86c85602c
 ---
-
 # MBI Training Video: Cohort Report Builder
 
 Have you ever wanted to study how different subsets of your users behave over time? For example, ever wondered if users who register during a promo period have a higher average lifetime revenue than those who don’t? If the answer is "Yes!", then the Cohort Report Builder is the perfect tool for you. Magento BI is specifically optimized to perform this analysis and make it relevant to your business.

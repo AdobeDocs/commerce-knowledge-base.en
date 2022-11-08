@@ -1,8 +1,8 @@
 ---
 title: Third-party testing tips for Adobe Commerce on cloud infrastructure
-description: "This article provides options for sharing access with a third party for testing/validation when you are having an issue with an extension for Adobe Commerce on cloud infrastructure."
+description: This article provides options for sharing access with a third party for testing/validation when you are having an issue with an extension for Adobe Commerce on cloud infrastructure.
+exl-id: e2d80aa9-8b68-48ed-bec5-68e128611a1e
 ---
-
 # Third-party testing tips for Adobe Commerce on cloud infrastructure
 
 This article provides options for sharing access with a third party for testing/validation when you are having an issue with an extension for Adobe Commerce on cloud infrastructure.

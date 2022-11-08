@@ -1,8 +1,8 @@
 ---
 title: Advanced search not showing the most relevant results
-description: "This article provides a patch for the known Adobe Commerce issue, where the Advanced search does not show most relevant results first."
+description: This article provides a patch for the known Adobe Commerce issue, where the Advanced search does not show most relevant results first.
+exl-id: 88f0782d-ba7d-4f19-9761-7894d978d334
 ---
-
 # Advanced search not showing the most relevant results
 
 This article provides a patch for the known Adobe Commerce issue, where the Advanced search does not show most relevant results first.

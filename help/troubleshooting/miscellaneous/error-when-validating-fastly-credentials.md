@@ -1,8 +1,8 @@
 ---
 title: Error when validating the Fastly credentials
-description: "This article provides a solution for the issue where a user gets an error when validating the Fastly credentials."
+description: This article provides a solution for the issue where a user gets an error when validating the Fastly credentials.
+exl-id: 02104731-6666-47a6-abc6-215812f09915
 ---
-
 # Error when validating the Fastly credentials
 
 This article provides a solution for the issue where a user gets an error when validating the Fastly credentials.

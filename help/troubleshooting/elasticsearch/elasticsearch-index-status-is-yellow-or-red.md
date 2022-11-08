@@ -1,8 +1,8 @@
 ---
 title: Elasticsearch Index Status is 'yellow' or 'red'
 description: The article provides a fix for when the Elasticsearch Index Status is not '*green*'. '*yellow*' indicates normal, and '*red*' indicates bad. The 'yellow' or 'red' status may occur in conjunction with missing products or the display of old product information.
+exl-id: 27689511-6a41-41a9-8dda-a627d2f65263
 ---
-
 # Elasticsearch Index Status is 'yellow' or 'red'
 
 >[!WARNING]

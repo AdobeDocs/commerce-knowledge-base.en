@@ -1,8 +1,8 @@
 ---
 title: Orders not displayed in the Orders grid in the Admin
-description: "This article provides a patch for the known Adobe Commerce 2.2.1 issue related to the orders not being displayed in the Orders grid in the Commerce Admin."
+description: This article provides a patch for the known Adobe Commerce 2.2.1 issue related to the orders not being displayed in the Orders grid in the Commerce Admin.
+exl-id: b8376760-6558-41ed-8c6b-51c5759e831a
 ---
-
 # Orders not displayed in the Orders grid in the Admin
 
 This article provides a patch for the known Adobe Commerce 2.2.1 issue related to the orders not being displayed in the Orders grid in the Commerce Admin.

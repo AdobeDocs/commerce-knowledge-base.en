@@ -1,8 +1,8 @@
 ---
 title: Component dependency readiness check issues
-description: "This article provides solutions for component dependency conflicts."
+description: This article provides solutions for component dependency conflicts.
+exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 ---
-
 # Component dependency readiness check issues
 
 This article provides solutions for component dependency conflicts.

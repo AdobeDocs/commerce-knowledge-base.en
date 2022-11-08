@@ -1,8 +1,8 @@
 ---
 title: "MDVA-32545 patch: order invoices don't send automatically"
-description: "The MDVA-32545 patch fixes the issue where Invoice emails don't automatically send to the customer for orders placed from the Admin. This affects any payment method with the **Sale** transaction type, like **Braintree** or **PayPal Payflow Pro**."
+description: The MDVA-32545 patch fixes the issue where Invoice emails don't automatically send to the customer for orders placed from the Admin. This affects any payment method with the **Sale** transaction type, like **Braintree** or **PayPal Payflow Pro**.
+exl-id: 682eaeb1-5475-4d37-9536-0605f5b9f163
 ---
-
 # MDVA-32545 patch: order invoices don't send automatically
 
 The MDVA-32545 patch fixes the issue where Invoice emails don't automatically send to the customer for orders placed from the Admin. This affects any payment method with the **Sale** transaction type, like **Braintree** or **PayPal Payflow Pro**.

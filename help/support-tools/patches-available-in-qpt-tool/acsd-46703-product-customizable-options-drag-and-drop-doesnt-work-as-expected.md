@@ -1,8 +1,8 @@
 ---
-title: "ACSD-46703:  Product customization drag and drop does not work"
+title: 'ACSD-46703:  Product customization drag and drop does not work'
 description: This article provides a solution for the issue where the product customizable options drag and drop does not work as expected.
+exl-id: 49b29495-d225-4f34-ac76-b7294a86aea6
 ---
-
 # ACSD-46703: Product customization drag and drop does not work
 
 The ACSD-46703 patch fixes the issue where the product customizable options (drag and drop) do not work as expected. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md?lang=en) 1.1.20 is installed. The patch ID is ACSD-46703. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.

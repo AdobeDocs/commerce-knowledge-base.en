@@ -1,8 +1,8 @@
 ---
-title: "PWA Studio: browser not trust generated SSL certificate"
-description: "This article provides a solution to an untrusted, generated SSL certificate warning in your browser when you navigate to a local instance of your PWA Studio storefront during development."
+title: 'PWA Studio: browser not trust generated SSL certificate'
+description: This article provides a solution to an untrusted, generated SSL certificate warning in your browser when you navigate to a local instance of your PWA Studio storefront during development.
+exl-id: b7bfe1e6-5832-4472-9e51-f04b8583428a
 ---
-
 # PWA Studio: browser not trust generated SSL certificate
 
 This article provides a solution to an untrusted, generated SSL certificate warning in your browser when you navigate to a local instance of your PWA Studio storefront during development.

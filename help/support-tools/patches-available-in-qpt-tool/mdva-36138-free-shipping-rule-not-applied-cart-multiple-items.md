@@ -1,8 +1,8 @@
 ---
-title: "MDVA-36138: free shipping rule not applied cart multiple items"
-description: "The MDVA-36138 patch fixes the issue where when there are multiple items in the cart, the matching SKU in the Free Shipping is not getting free shipping applied to it. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.21 is installed. The patch ID is MDVA-36138. Please note that the issue was fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-36138: free shipping rule not applied cart multiple items'
+description: The MDVA-36138 patch fixes the issue where when there are multiple items in the cart, the matching SKU in the Free Shipping is not getting free shipping applied to it. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.21 is installed. The patch ID is MDVA-36138. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+exl-id: 74e25ca8-e4fa-47f4-ab95-561f70e05727
 ---
-
 # MDVA-36138: free shipping rule not applied cart multiple items
 
 The MDVA-36138 patch fixes the issue where when there are multiple items in the cart, the matching SKU in the Free Shipping is not getting free shipping applied to it. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.21 is installed. The patch ID is MDVA-36138. Please note that the issue was fixed in Adobe Commerce 2.4.3.

@@ -1,8 +1,8 @@
 ---
 title: Custom SSL certificate expiration information
-description: "This article provides a solution for when a custom SSL certificate was updated with an Adobe provided SSL certificate."
+description: This article provides a solution for when a custom SSL certificate was updated with an Adobe provided SSL certificate.
+exl-id: cc968bae-f742-449b-b291-bc121ec45935
 ---
-
 # Custom SSL certificate expiration information
 
 This article provides a solution for when a custom SSL certificate was updated with an Adobe provided SSL certificate.

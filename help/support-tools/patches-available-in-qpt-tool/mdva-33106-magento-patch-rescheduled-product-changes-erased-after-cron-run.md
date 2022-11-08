@@ -1,8 +1,8 @@
 ---
-title: "MDVA-33106 patch: rescheduled product changes erased after cron run"
-description: "The MDVA-33106 patch fixes the issue where the rescheduled product changes are erased after the cron"
+title: 'MDVA-33106 patch: rescheduled product changes erased after cron run'
+description: The MDVA-33106 patch fixes the issue where the rescheduled product changes are erased after the cron
+exl-id: be32982c-796c-4069-ad70-37b5124ffb56
 ---
-
 # MDVA-33106 patch: rescheduled product changes erased after cron run
 
 The MDVA-33106 patch fixes the issue where the rescheduled product changes are erased after the cron

@@ -1,8 +1,8 @@
 ---
-title: "MDVA-34665: bundle products disappear storefront category page"
-description: "The MDVA-34665 patch fixes the issue with missing bundled products on category pages. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.21 is installed. The patch ID is MDVA-34665. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
+title: 'MDVA-34665: bundle products disappear storefront category page'
+description: The MDVA-34665 patch fixes the issue with missing bundled products on category pages. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.21 is installed. The patch ID is MDVA-34665. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+exl-id: 2b393f91-de0d-4c54-89db-5e2af13f93a6
 ---
-
 # MDVA-34665: bundle products disappear storefront category page
 
 The MDVA-34665 patch fixes the issue with missing bundled products on category pages. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.21 is installed. The patch ID is MDVA-34665. Please note that the issue was fixed in Adobe Commerce version 2.4.3.

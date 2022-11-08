@@ -1,8 +1,8 @@
 ---
 title: Adobe Commerce Software End of Support FAQ
-description: "The following FAQ is intended to help merchants, developers, and partners understand the implications of Adobe Commerce’s published End of Support (EOS) date for affected versions of Adobe Commerce."
+description: The following FAQ is intended to help merchants, developers, and partners understand the implications of Adobe Commerce’s published End of Support (EOS) date for affected versions of Adobe Commerce.
+exl-id: ec147307-46eb-4a3a-8572-a014b091c58a
 ---
-
 # Adobe Commerce Software End of Support FAQ
 
 The following FAQ is intended to help merchants, developers, and partners understand the implications of Adobe Commerce’s published End of Support (EOS) date for affected versions of Adobe Commerce.

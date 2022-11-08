@@ -1,8 +1,8 @@
 ---
 title: Adobe Commerce support tools at a glance
-description: "Adobe Commerce offers a variety of support tools that help and empower you to improve the e-commerce store experience."
+description: Adobe Commerce offers a variety of support tools that help and empower you to improve the e-commerce store experience.
+exl-id: 5364ff2b-07ea-4b42-8756-adec85f4efca
 ---
-
 # Adobe Commerce support tools at a glance
 
 Adobe Commerce offers a variety of support tools that help and empower you to improve the e-commerce store experience.

@@ -1,8 +1,8 @@
 ---
 title: Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade
 description: This article discusses a fix for problems during deployment after upgrading to Adobe Commerce on cloud infrastructure versions 2.3.1+, if you are on Elasticsearch versions 2.x and 5.x.
+exl-id: 6ceeb2ea-528d-4c03-ab2b-c5aed46fd0a2
 ---
-
 # Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade
 
 >[!WARNING]

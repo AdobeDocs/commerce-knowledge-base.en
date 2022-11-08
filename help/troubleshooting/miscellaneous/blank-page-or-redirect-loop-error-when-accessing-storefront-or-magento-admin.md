@@ -1,8 +1,8 @@
 ---
 title: Blank page or redirect loop error when accessing storefront or Commerce Admin
-description: "This article provides a solution for the issue when you access Adobe Commerce storefront or backend and you get a blank page or redirect loop."
+description: This article provides a solution for the issue when you access Adobe Commerce storefront or backend and you get a blank page or redirect loop.
+exl-id: 65869de2-1939-481b-844b-69122345b407
 ---
-
 # Blank page or redirect loop error when accessing storefront or Commerce Admin
 
 This article provides a solution for the issue when you access Adobe Commerce storefront or backend and you get a blank page or redirect loop.

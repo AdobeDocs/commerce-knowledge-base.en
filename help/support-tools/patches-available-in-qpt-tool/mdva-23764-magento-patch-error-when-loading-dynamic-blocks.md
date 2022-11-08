@@ -1,8 +1,8 @@
 ---
-title: "MDVA-23764 Magento patch: error when loading dynamic blocks"
-description: "The MDVA-23764 Magento patch fixes the bug in"
+title: 'MDVA-23764 Magento patch: error when loading dynamic blocks'
+description: The MDVA-23764 Magento patch fixes the bug in
+exl-id: b884ade6-f88d-4c79-8e84-5a59252abb75
 ---
-
 # MDVA-23764 Magento patch: error when loading dynamic blocks
 
 The MDVA-23764 Magento patch fixes the bug in

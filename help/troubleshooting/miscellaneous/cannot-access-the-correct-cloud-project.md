@@ -1,8 +1,8 @@
 ---
 title: Cannot access the correct cloud project
-description: "This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project."
+description: This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project.
+exl-id: 165b9a18-6e84-4f0f-b377-a07152d55c9e
 ---
-
 # Cannot access the correct cloud project
 
 This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project.

@@ -1,8 +1,8 @@
 ---
 title: FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
-description: "We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule) for timing details."
+description: We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule) for timing details.
+exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 ---
-
 # FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
 
 ## 2022 Release Strategy and Updated Lifecycle Policy
@@ -145,5 +145,3 @@ Adobe will support PHP v7.4 on Debian v9 including supporting all PECL extension
 * Adobe will monitor all upstream (e.g. 8.1) releases of PHP and any security issues that are identified in those will be tested to see whether there are vulnerabilities exposed in version 7.4.  If there are, Adobe will create a backport fix for version 7.4 and deliver to customers.
 
 * Adobe will also monitor all CVE that are applicable to PHP 7.4 itself. Those will also be fixed with the same level of scrutiny and testing and delivered to customers.
-
-

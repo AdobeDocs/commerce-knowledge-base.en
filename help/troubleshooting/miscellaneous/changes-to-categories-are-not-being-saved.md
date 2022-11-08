@@ -1,8 +1,8 @@
 ---
 title: Changes to categories are not being saved
-description: "This article provides a fix for when updating product categories via the Commerce Admin, the changes are not displayed on the Admin and storefront. The problem is caused by the corrupted data in the `catalog_category_entity` table. To solve the issue, fix or remove the problematic category update records in the table. After that, you should be able to update product categories using the Admin."
+description: This article provides a fix for when updating product categories via the Commerce Admin, the changes are not displayed on the Admin and storefront. The problem is caused by the corrupted data in the `catalog_category_entity` table. To solve the issue, fix or remove the problematic category update records in the table. After that, you should be able to update product categories using the Admin.
+exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 ---
-
 # Changes to categories are not being saved
 
 This article provides a fix for when updating product categories via the Commerce Admin, the changes are not displayed on the Admin and storefront. The problem is caused by the corrupted data in the `catalog_category_entity` table. To solve the issue, fix or remove the problematic category update records in the table. After that, you should be able to update product categories using the Admin.

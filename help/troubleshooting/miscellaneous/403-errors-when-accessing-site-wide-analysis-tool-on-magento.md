@@ -1,8 +1,8 @@
 ---
 title: 403 errors when accessing Site-Wide Analysis Tool on Adobe Commerce
-description: "This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Adobe Commerce."
+description: This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Adobe Commerce.
+exl-id: f24fad17-62d6-4a0f-bcba-983c3dbee3d7
 ---
-
 # 403 errors when accessing Site-Wide Analysis Tool on Adobe Commerce
 
 This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Adobe Commerce.

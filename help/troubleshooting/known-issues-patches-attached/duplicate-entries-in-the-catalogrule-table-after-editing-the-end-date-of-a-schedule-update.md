@@ -1,8 +1,8 @@
 ---
 title: Duplicate entries in the catalogrule table after editing the end date of a schedule update
-description: "This article provides a patch for the known Adobe Commerce 2.2.3 issue where editing the end date or time of a catalog price rule schedule update results in adding duplicate entries to the `catalogrule` table and errors in the `catalogrule_rule` (Catalog rule product) indexer reindex."
+description: This article provides a patch for the known Adobe Commerce 2.2.3 issue where editing the end date or time of a catalog price rule schedule update results in adding duplicate entries to the `catalogrule` table and errors in the `catalogrule_rule` (Catalog rule product) indexer reindex.
+exl-id: e900b712-d0f5-4404-8441-64522035ce44
 ---
-
 # Duplicate entries in the catalogrule table after editing the end date of a schedule update
 
 This article provides a patch for the known Adobe Commerce 2.2.3 issue where editing the end date or time of a catalog price rule schedule update results in adding duplicate entries to the `catalogrule` table and errors in the `catalogrule_rule` (Catalog rule product) indexer reindex.
@@ -13,7 +13,7 @@ When you change the end date or time of an existing catalog price rule schedule 
 
  <u>Steps to reproduce</u>:
 
-Prerequisites: The `catalogrule_rule` indexer is set to *[Update on Schedule](/help/best-practices/performance/indexers-update-on-schedule-optimizes-magento-performance.md)* mode.
+Prerequisites: The `catalogrule_rule` indexer is set to *[Update on Schedule](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)* mode.
 
 1. In the Commerce Admin, create a new Catalog Price Rule under **Marketing** > **Promotions** > **Catalog Price Rule**.
 1. In the **Catalog Price Rule** grid, click **Edit**, and schedule a new Update and set **Status** to *Active.*

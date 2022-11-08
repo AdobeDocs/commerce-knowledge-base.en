@@ -1,8 +1,8 @@
 ---
-title: "MDVA-27664 patch: date of birth account error"
-description: "The MDVA-27664 patch solves the issue where a customer account's date of birth could be greater than today."
+title: 'MDVA-27664 patch: date of birth account error'
+description: The MDVA-27664 patch solves the issue where a customer account's date of birth could be greater than today.
+exl-id: c669764e-b4a5-4031-92ac-1156755e9a0a
 ---
-
 # MDVA-27664 patch: date of birth account error
 
 The MDVA-27664 patch solves the issue where a customer account's date of birth could be greater than today.
