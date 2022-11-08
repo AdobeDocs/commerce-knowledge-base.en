@@ -1,8 +1,8 @@
 ---
-title: "Adobe Commerce 2.4.0 known issue: orders display error"
-description: "This article provides a workaround for a known issue in Adobe Commerce for an orders display error. When logged-in customers review their orders in the **My Account** menu (**My Account > My Orders**), the orders grid is unable to switch the number of orders per page to 20 from page 2 when there are 11 orders. Also, if there are more orders than is configured to be shown per page, when navigating to the last page with orders, changing the number of orders shown per page produces the error message: *You have placed no orders*. This issue will be resolved in Adobe Commerce 2.4.1."
+title: 'Adobe Commerce 2.4.0 known issue: orders display error'
+description: 'This article provides a workaround for a known issue in Adobe Commerce for an orders display error. When logged-in customers review their orders in the **My Account** menu (**My Account &gt; My Orders**), the orders grid is unable to switch the number of orders per page to 20 from page 2 when there are 11 orders. Also, if there are more orders than is configured to be shown per page, when navigating to the last page with orders, changing the number of orders shown per page produces the error message: *You have placed no orders*. This issue will be resolved in Adobe Commerce 2.4.1.'
+exl-id: a6d300e1-1cbc-42b9-997d-d72f8765517b
 ---
-
 # Adobe Commerce 2.4.0 known issue: orders display error
 
 This article provides a workaround for a known issue in Adobe Commerce for an orders display error. When logged-in customers review their orders in the **My Account** menu (**My Account > My Orders**), the orders grid is unable to switch the number of orders per page to 20 from page 2 when there are 11 orders. Also, if there are more orders than is configured to be shown per page, when navigating to the last page with orders, changing the number of orders shown per page produces the error message: *You have placed no orders*. This issue will be resolved in Adobe Commerce 2.4.1.

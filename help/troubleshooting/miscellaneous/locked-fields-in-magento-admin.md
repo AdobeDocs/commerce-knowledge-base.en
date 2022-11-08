@@ -1,8 +1,8 @@
 ---
 title: Locked fields in Commerce Admin
-description: "This article provides a solution for when you cannot modify fields in the Commerce Admin."
+description: This article provides a solution for when you cannot modify fields in the Commerce Admin.
+exl-id: 5fe0967a-4241-440b-bb0d-429fa5644bbc
 ---
-
 # Locked fields in Commerce Admin
 
 This article provides a solution for when you cannot modify fields in the Commerce Admin.
@@ -46,4 +46,4 @@ Make sure that the configuration has not been saved to `app/etc/env.php` or `app
 
 * [Export the Configuration](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings) in our developer documentation.
 * [Set Configuration values](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set) in our developer documentation.
-* [Adobe Commerce on cloud infrastructure: reduce deployment downtime with Configuration Management](https://support.magento.com/hc/en-us/articles/115003169574) in our support knowledge base.
+* [Adobe Commerce on cloud infrastructure: reduce deployment downtime with Configuration Management](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in our support knowledge base.

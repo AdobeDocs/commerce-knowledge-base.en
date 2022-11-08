@@ -1,8 +1,8 @@
 ---
 title: "MDVA-22150 Adobe Commerce patch: frontend user can't log in"
-description: "The MDVA-22150 patch solves the issue when a frontend user cannot log in after an aborted purchase using a coupon. This occurs when a frontend user uses a coupon code on a product that has been disabled prior to completing the purchase. The result is that the frontend user can no longer log in and receives a 503 error. Another effect of this issue is that the ability to manage customers' shopping carts in the Admin stops working."
+description: The MDVA-22150 patch solves the issue when a frontend user cannot log in after an aborted purchase using a coupon. This occurs when a frontend user uses a coupon code on a product that has been disabled prior to completing the purchase. The result is that the frontend user can no longer log in and receives a 503 error. Another effect of this issue is that the ability to manage customers' shopping carts in the Admin stops working.
+exl-id: 8aabe7b2-4b8a-4339-914e-7131006907b3
 ---
-
 # MDVA-22150 Adobe Commerce patch: frontend user can't log in
 
 The MDVA-22150 patch solves the issue when a frontend user cannot log in after an aborted purchase using a coupon. This occurs when a frontend user uses a coupon code on a product that has been disabled prior to completing the purchase. The result is that the frontend user can no longer log in and receives a 503 error. Another effect of this issue is that the ability to manage customers' shopping carts in the Admin stops working.
@@ -50,7 +50,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.

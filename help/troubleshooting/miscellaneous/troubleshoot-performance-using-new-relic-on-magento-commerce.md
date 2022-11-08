@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot performance using New Relic on Adobe Commerce
-description: "This article provides troubleshooting steps to solve Adobe Commerce on cloud infrastructure performance issues using New Relic. It also provides resources for further information. Here is a list of issues. Click to see troubleshooting steps in our support knowledge base:"
+description: 'This article provides troubleshooting steps to solve Adobe Commerce on cloud infrastructure performance issues using New Relic. It also provides resources for further information. Here is a list of issues. Click to see troubleshooting steps in our support knowledge base:'
+exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 ---
-
 # Troubleshoot performance using New Relic on Adobe Commerce
 
 This article provides troubleshooting steps to solve Adobe Commerce on cloud infrastructure performance issues using New Relic. It also provides resources for further information. Here is a list of issues. Click to see troubleshooting steps in our support knowledge base:

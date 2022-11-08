@@ -1,8 +1,8 @@
 ---
-title: "Vertex Address Cleansing: different addresses not allowed"
-description: "This article talks about the solution for the issue where when the user tries to enter a **different** billing and shipping address, with Vertex address validation enabled, the storefront will not let the user enter it."
+title: 'Vertex Address Cleansing: different addresses not allowed'
+description: This article talks about the solution for the issue where when the user tries to enter a **different** billing and shipping address, with Vertex address validation enabled, the storefront will not let the user enter it.
+exl-id: a481b044-3b74-4792-abc6-249a182c49e1
 ---
-
 # Vertex Address Cleansing: different addresses not allowed
 
 This article talks about the solution for the issue where when the user tries to enter a **different** billing and shipping address, with Vertex address validation enabled, the storefront will not let the user enter it.

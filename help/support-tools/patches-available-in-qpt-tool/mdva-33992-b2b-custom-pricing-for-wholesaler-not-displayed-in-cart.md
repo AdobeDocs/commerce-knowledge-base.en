@@ -1,8 +1,8 @@
 ---
-title: "MDVA-33992: B2B custom pricing for wholesaler not displayed in cart"
-description: "The MDVA-33992 patch fixes the issue where the custom pricing for a B2B customer is not reflected when a product is added to a cart. This patch is available when the Quality Patches Tool (QPT) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-33992: B2B custom pricing for wholesaler not displayed in cart'
+description: The MDVA-33992 patch fixes the issue where the custom pricing for a B2B customer is not reflected when a product is added to a cart. This patch is available when the Quality Patches Tool (QPT) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+exl-id: 6018fae6-762c-46c6-9497-ecf090115b7f
 ---
-
 # MDVA-33992: B2B custom pricing for wholesaler not displayed in cart
 
 The MDVA-33992 patch fixes the issue where the custom pricing for a B2B customer is not reflected when a product is added to a cart. This patch is available when the Quality Patches Tool (QPT) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
@@ -49,7 +49,7 @@ To apply individual patches, use the following links, depending on your Adobe Co
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

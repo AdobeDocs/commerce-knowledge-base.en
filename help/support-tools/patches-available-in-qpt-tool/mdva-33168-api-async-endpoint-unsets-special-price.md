@@ -1,13 +1,13 @@
 ---
-title: "MDVA-33168: API async endpoint unsets special price"
-description: "The MDVA-33168 patch fixes the issue where using the API async endpoint to update a product attribute unsets a special price."
+title: 'MDVA-33168: API async endpoint unsets special price'
+description: The MDVA-33168 patch fixes the issue where using the API async endpoint to update a product attribute unsets a special price.
+exl-id: 4dd26215-b140-4924-8f4d-0d062e5fda2d
 ---
-
 # MDVA-33168: API async endpoint unsets special price
 
 The MDVA-33168 patch fixes the issue where using the API async endpoint to update a product attribute unsets a special price.
 
-This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-33168. Please note that the issue is planned to be fixed in Adobe Commerce version 2.4.3.
+This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-33168. Please note that the issue is planned to be fixed in Adobe Commerce version 2.4.3.
 
 ## Affected products and versions
 
@@ -77,7 +77,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

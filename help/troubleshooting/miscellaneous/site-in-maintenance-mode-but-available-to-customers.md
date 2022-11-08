@@ -1,8 +1,8 @@
 ---
 title: Site in maintenance mode but available to customers
-description: "This article provides a fix for when maintenance mode is enabled (an Adobe Commerce on cloud infrastructure issue), but the storefront is still available for customers."
+description: This article provides a fix for when maintenance mode is enabled (an Adobe Commerce on cloud infrastructure issue), but the storefront is still available for customers.
+exl-id: 61b81fbd-a382-44b5-94e9-5b6d72f11349
 ---
-
 # Site in maintenance mode but available to customers
 
 This article provides a fix for when maintenance mode is enabled (an Adobe Commerce on cloud infrastructure issue), but the storefront is still available for customers.

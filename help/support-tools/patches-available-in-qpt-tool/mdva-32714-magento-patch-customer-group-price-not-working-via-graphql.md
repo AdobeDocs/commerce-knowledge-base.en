@@ -1,8 +1,8 @@
 ---
-title: "MDVA-32714 patch: customer group price not working via GraphQL"
-description: "The MDVA-32714 patch fixes the issue where сustomer group price is not added in GraphQL product query response. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-32714 patch: customer group price not working via GraphQL'
+description: The MDVA-32714 patch fixes the issue where сustomer group price is not added in GraphQL product query response. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+exl-id: a4fc92ad-68dc-437d-8577-303007ef8a92
 ---
-
 # MDVA-32714 patch: customer group price not working via GraphQL
 
 >[!WARNING]
@@ -61,7 +61,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

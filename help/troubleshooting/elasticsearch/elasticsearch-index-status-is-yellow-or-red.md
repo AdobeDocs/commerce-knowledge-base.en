@@ -1,8 +1,8 @@
 ---
 title: Elasticsearch Index Status is 'yellow' or 'red'
 description: The article provides a fix for when the Elasticsearch Index Status is not '*green*'. '*yellow*' indicates normal, and '*red*' indicates bad. The 'yellow' or 'red' status may occur in conjunction with missing products or the display of old product information.
+exl-id: 27689511-6a41-41a9-8dda-a627d2f65263
 ---
-
 # Elasticsearch Index Status is 'yellow' or 'red'
 
 >[!WARNING]
@@ -49,7 +49,7 @@ Create a fresh mysql dump before following these steps and perform them outside 
     curl --silent -X GET localhost:9200/_cat/indices?v
     ```
 
-If these steps don't work, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+If these steps don't work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Related reading
 

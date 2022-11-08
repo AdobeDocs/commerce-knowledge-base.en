@@ -1,8 +1,8 @@
 ---
 title: Performance issues caused by excessive Ajax requests
-description: "This article provides a patch for the known Adobe Commerce performance issue caused by excessive Ajax requests. The issue was fixed in Adobe Commerce 2.3.4."
+description: This article provides a patch for the known Adobe Commerce performance issue caused by excessive Ajax requests. The issue was fixed in Adobe Commerce 2.3.4.
+exl-id: d9a69406-3970-4556-aa6a-1309b24366d8
 ---
-
 # Performance issues caused by excessive Ajax requests
 
 This article provides a patch for the known Adobe Commerce performance issue caused by excessive Ajax requests. The issue was fixed in Adobe Commerce 2.3.4.
@@ -24,7 +24,7 @@ The patch is valid for the following products and versions:
 * Adobe Commerce on cloud infrastructure 2.2.9
 * Adobe Commerce on-premises 2.2.9
 
-If you have a different version of Adobe Commerce, consider updating to the latest 2.3.x release. If this is not an option currently, please [contact Adobe Commerce Support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) and request a patch for your version.
+If you have a different version of Adobe Commerce, consider updating to the latest 2.3.x release. If this is not an option currently, please [contact Adobe Commerce Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and request a patch for your version.
 
 ## How to apply the patch
 

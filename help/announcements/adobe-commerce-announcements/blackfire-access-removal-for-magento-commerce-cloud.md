@@ -1,8 +1,8 @@
 ---
 title: Blackfire access removal for Adobe Commerce on cloud infrastructure
-description: "On April 11, 2020, free access to Blackfire performance monitoring will no longer be included with Adobe Commerce on cloud infrastructure Pro plan architecture or Adobe Commerce on cloud infrastructure Starter plan architecture subscriptions.  You will no longer be able to log in to your Blackfire account. It is possible to continue using Blackfire beyond April 11 by purchasing a license directly through Blackfire.io. Adobe Commerce merchants who have not purchased licenses directly from Blackfire by that date will have their free, Adobe-provided Blackfire licenses deactivated. Along with this, functionality to create new reports using the Profiler tool will be disabled. It is still possible for customers using Pro architecture hosted on cloud infrastructure to receive free monitoring of infrastructure performance via New Relic Infrastructure."
+description: On April 11, 2020, free access to Blackfire performance monitoring will no longer be included with Adobe Commerce on cloud infrastructure Pro plan architecture or Adobe Commerce on cloud infrastructure Starter plan architecture subscriptions.  You will no longer be able to log in to your Blackfire account. It is possible to continue using Blackfire beyond April 11 by purchasing a license directly through Blackfire.io. Adobe Commerce merchants who have not purchased licenses directly from Blackfire by that date will have their free, Adobe-provided Blackfire licenses deactivated. Along with this, functionality to create new reports using the Profiler tool will be disabled. It is still possible for customers using Pro architecture hosted on cloud infrastructure to receive free monitoring of infrastructure performance via New Relic Infrastructure.
+exl-id: bf33c2c6-e9b3-474a-a127-909b51dff92f
 ---
-
 # Blackfire access removal for Adobe Commerce on cloud infrastructure
 
 On April 11, 2020, free access to Blackfire performance monitoring will no longer be included with Adobe Commerce on cloud infrastructure Pro plan architecture or Adobe Commerce on cloud infrastructure Starter plan architecture subscriptions.  You will no longer be able to log in to your Blackfire account. It is possible to continue using Blackfire beyond April 11 by purchasing a license directly through Blackfire.io. Adobe Commerce merchants who have not purchased licenses directly from Blackfire by that date will have their free, Adobe-provided Blackfire licenses deactivated. Along with this, functionality to create new reports using the Profiler tool will be disabled. It is still possible for customers using Pro architecture hosted on cloud infrastructure to receive free monitoring of infrastructure performance via New Relic Infrastructure.
@@ -11,7 +11,7 @@ On April 11, 2020, free access to Blackfire performance monitoring will no longe
 
 1. You must purchase a license with Blackfire directly.
 1. Then setup Blackfire using these [steps](https://blackfire.io/docs/integrations/paas/magentocloud).
-1. If you experience any difficulties with the installation you can [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to request assistance. For Blackfire specific questions, reach out to Blackfire support directly at [support@blackfire.io](mailto:support@blackfire.io).
+1. If you experience any difficulties with the installation you can [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request assistance. For Blackfire specific questions, reach out to Blackfire support directly at [support@blackfire.io](mailto:support@blackfire.io).
 
 ## If you have errors when running a deployment:
 
@@ -34,7 +34,7 @@ If when running a deployment you get Blackfire related errors do the following:
     
 1. Complete this on the Local development environment and push up to the cloud.
 
-Only [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) if you see the following error after you run a deployment:
+Only [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) if you see the following error after you run a deployment:
 
  *PHP Warning: PHP Startup: Unable to load dynamic library 'blackfire.so' (tried: /usr/lib/php/20180731-zts/blackfire.so (/usr/lib/php/20180731-zts/blackfire.so: cannot open shared object file: No such file or directory), /usr/lib/php/20180731-zts/blackfire.so.so (/usr/lib/php/20180731-zts/blackfire.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0*
 

@@ -1,8 +1,8 @@
 ---
 title: Store images not displayed after deployment
-description: "This article provides a solution for when images are not being displayed correctly after deployment."
+description: This article provides a solution for when images are not being displayed correctly after deployment.
+exl-id: 7e6bcebd-edff-437a-9103-2743443d2ed9
 ---
-
 # Store images not displayed after deployment
 
 This article provides a solution for when images are not being displayed correctly after deployment.

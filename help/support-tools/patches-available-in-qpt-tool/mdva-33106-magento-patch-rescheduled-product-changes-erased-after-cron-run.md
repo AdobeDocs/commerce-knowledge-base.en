@@ -1,8 +1,8 @@
 ---
-title: "MDVA-33106 patch: rescheduled product changes erased after cron run"
-description: "The MDVA-33106 patch fixes the issue where the rescheduled product changes are erased after the cron"
+title: 'MDVA-33106 patch: rescheduled product changes erased after cron run'
+description: The MDVA-33106 patch fixes the issue where the rescheduled product changes are erased after the cron
+exl-id: be32982c-796c-4069-ad70-37b5124ffb56
 ---
-
 # MDVA-33106 patch: rescheduled product changes erased after cron run
 
 The MDVA-33106 patch fixes the issue where the rescheduled product changes are erased after the cron
@@ -63,7 +63,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

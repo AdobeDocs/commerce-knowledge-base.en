@@ -1,8 +1,8 @@
 ---
 title: Exported products .csv file does not appear
-description: "This article provides a fix for the issue where you try to export products to a .csv file in the Commerce Admin, but the file does not appear."
+description: This article provides a fix for the issue where you try to export products to a .csv file in the Commerce Admin, but the file does not appear.
+exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 ---
-
 # Exported products .csv file does not appear
 
 This article provides a fix for the issue where you try to export products to a .csv file in the Commerce Admin, but the file does not appear.
@@ -87,4 +87,4 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
 
 >[!NOTE]
 >
->On Adobe Commerce on cloud infrastructure Pro projects, the [auto-crons feature](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html#verify-cron-configuration-on-pro-projects) must be enabled on your Adobe Commerce on cloud infrastructure before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml`. If this feature is not enabled, [create a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket), to have the job added for you.
+>On Adobe Commerce on cloud infrastructure Pro projects, the [auto-crons feature](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html#verify-cron-configuration-on-pro-projects) must be enabled on your Adobe Commerce on cloud infrastructure before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml`. If this feature is not enabled, [create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), to have the job added for you.

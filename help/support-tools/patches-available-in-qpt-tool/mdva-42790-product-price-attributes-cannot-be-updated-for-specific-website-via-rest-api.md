@@ -1,11 +1,11 @@
 ---
-title: "MDVA-42790: Product price attributes cannot be updated for specific website via REST API"
-description: "The MDVA-42790 patch fixes the issue where users are not able to update product price attributes for specific websites via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-42790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
+title: 'MDVA-42790: Product price attributes cannot be updated for specific website via REST API'
+description: The MDVA-42790 patch fixes the issue where users are not able to update product price attributes for specific websites via REST API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11 is installed. The patch ID is MDVA-42790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+exl-id: b9d80190-17d2-436f-86d5-33689b8224d4
 ---
-
 # MDVA-42790: Product price attributes cannot be updated for specific website via REST API
 
-The MDVA-42790 patch fixes the issue where users are not able to update product price attributes for specific websites via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.11 is installed. The patch ID is MDVA-42790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-42790 patch fixes the issue where users are not able to update product price attributes for specific websites via REST API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11 is installed. The patch ID is MDVA-42790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -71,7 +71,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

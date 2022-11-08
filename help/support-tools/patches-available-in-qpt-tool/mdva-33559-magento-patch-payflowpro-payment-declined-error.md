@@ -1,8 +1,8 @@
 ---
-title: "MDVA-33559 patch: PayflowPro payment declined error"
-description: "The MDVA-33559 patch solves the issue where PayPal PayflowPro payments are declined."
+title: 'MDVA-33559 patch: PayflowPro payment declined error'
+description: The MDVA-33559 patch solves the issue where PayPal PayflowPro payments are declined.
+exl-id: aec57ffa-07c7-404e-985d-8ec4fdb019b1
 ---
-
 # MDVA-33559 patch: PayflowPro payment declined error
 
 The MDVA-33559 patch solves the issue where PayPal PayflowPro payments are declined.
@@ -49,7 +49,7 @@ To apply individual patches, use the following links, depending on your Adobe Co
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

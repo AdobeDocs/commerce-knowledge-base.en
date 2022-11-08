@@ -1,8 +1,8 @@
 ---
 title: Error purging cache in Commerce Admin
-description: "This article explains how to identify the cause of an error message that occurs when purging the cache in the Commerce Admin. When you attempt to purge cache through the Admin, you receive the following message:"
+description: 'This article explains how to identify the cause of an error message that occurs when purging the cache in the Commerce Admin. When you attempt to purge cache through the Admin, you receive the following message:'
+exl-id: aa414e04-bc6d-46bd-b98f-0446b97bda14
 ---
-
 # Error purging cache in Commerce Admin
 
 This article explains how to identify the cause of an error message that occurs when purging the cache in the Commerce Admin. When you attempt to purge cache through the Admin, you receive the following message:
@@ -48,7 +48,7 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 ```
 
 there was an attempt to clear the files when the operation had already been completed. This is not a bug; it is a messaging concurrency issue that is expected to happen sometimes. There is no issue to troubleshoot.
-However, if the output shows that the files are still in the cache, you need to [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+However, if the output shows that the files are still in the cache, you need to [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Related Reading
 

@@ -1,8 +1,8 @@
 ---
 title: Support ticket Contact Reason descriptions
-description: "This article lists the support ticket **Contact Reason** field options and more detailed descriptions of each one."
+description: This article lists the support ticket **Contact Reason** field options and more detailed descriptions of each one.
+exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
 ---
-
 # Support ticket Contact Reason descriptions
 
 This article lists the support ticket **Contact Reason** field options and more detailed descriptions of each one.
@@ -128,4 +128,4 @@ These are the options that appear if **Adobe Commerce Cloud Infrastructure** is 
 
 ## Related Reading
 
-Refer to [Help Center Guide > Support ticket fields explained](https://support.magento.com/hc/en-us/articles/360000913794#support-tickets) to see details about other ticket intake form fields.
+Refer to [Help Center Guide > Support ticket fields explained](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) to see details about other ticket intake form fields.

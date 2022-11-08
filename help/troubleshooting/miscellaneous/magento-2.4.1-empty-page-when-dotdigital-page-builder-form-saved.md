@@ -1,8 +1,8 @@
 ---
-title: "Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved"
-description: "This article provides a workaround for a known issue in Adobe Commerce 2.4.1 for showing an empty webpage after saving a dotdigital Page Builder form in the Admin Panel when using the Safari browser."
+title: 'Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved'
+description: This article provides a workaround for a known issue in Adobe Commerce 2.4.1 for showing an empty webpage after saving a dotdigital Page Builder form in the Admin Panel when using the Safari browser.
+exl-id: 682eac73-1ad2-4093-acfb-6a8da4c05cf5
 ---
-
 # Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved
 
 This article provides a workaround for a known issue in Adobe Commerce 2.4.1 for showing an empty webpage after saving a dotdigital Page Builder form in the Admin Panel when using the Safari browser.

@@ -1,9 +1,8 @@
 ---
 title: Apply a patch to continue offering DHL as shipping carrier
-
-description: "This article provides a patch, allowing merchants using Adobe Commerce 2.4.4 and earlier to continue offering DHL shipping, after the DHL schema 6.0 gets deprecated in the end of July - September 2022."
+description: This article provides a patch, allowing merchants using Adobe Commerce 2.4.4 and earlier to continue offering DHL shipping, after the DHL schema 6.0 gets deprecated in the end of July - September 2022.
+exl-id: 4350e83a-495b-41b4-a526-dae5923e9d41
 ---
-
 # Apply a patch to continue offering DHL as shipping carrier
 
 

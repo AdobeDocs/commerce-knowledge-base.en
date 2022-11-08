@@ -1,8 +1,8 @@
 ---
 title: Test Fastly on Production if a Live Site uses the same domain
-description: "If you have a live site up-and-running on your production domain (`example.com`) and you need to test your new store on Adobe Commerce on cloud infrastructure's Production environment with Fastly CDN enabled, we recommend using the subdomain (like `prod.example.com`), having previously added it to Fastly, for any pre-launch testing activities. This article discusses the details and provides useful links to the related Adobe Commerce documentation resources."
+description: If you have a live site up-and-running on your production domain (`example.com`) and you need to test your new store on Adobe Commerce on cloud infrastructure's Production environment with Fastly CDN enabled, we recommend using the subdomain (like `prod.example.com`), having previously added it to Fastly, for any pre-launch testing activities. This article discusses the details and provides useful links to the related Adobe Commerce documentation resources.
+exl-id: bc9d11c8-ce47-461d-b5b8-c03494bc4ceb
 ---
-
 # Test Fastly on Production if a Live Site uses the same domain
 
 If you have a live site up-and-running on your production domain (`example.com`) and you need to test your new store on Adobe Commerce on cloud infrastructure's Production environment with Fastly CDN enabled, we recommend using the subdomain (like `prod.example.com`), having previously added it to Fastly, for any pre-launch testing activities. This article discusses the details and provides useful links to the related Adobe Commerce documentation resources.
@@ -27,13 +27,13 @@ When planning your Adobe Commerce on cloud infrastructure project, you may speci
 
 Follow these steps to process the subdomain within your Adobe Commerce on cloud infrastructure project:
 
-* [Submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) requesting to add the subdomain to the Fastly service/Nginx configuration (for Adobe Commerce on cloud infrastructure Pro plan architecture).
+* [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to add the subdomain to the Fastly service/Nginx configuration (for Adobe Commerce on cloud infrastructure Pro plan architecture).
 * Configure the corresponding DNS settings on your side.
 
 After performing the steps for subdomain configuration, you must also take these steps to validate your production domain for the SSL certificate:
 
 * Upload the DNS TXT record for SSL validation of your production domain.
-* [Submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) requesting to validate the production domain for the SSL certificate.
+* [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to validate the production domain for the SSL certificate.
 
 Using the subdomain allows you to perform a "soft launch" of your store in the future &ndash; since such launch only requires updating the corresponding DNS settings.
 

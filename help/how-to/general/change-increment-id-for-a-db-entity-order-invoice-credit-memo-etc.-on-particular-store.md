@@ -1,8 +1,8 @@
 ---
 title: Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store
-description: "This article discusses how to change the increment ID for an Adobe Commerce database (DB) entity (order, invoice, credit memo, etc.) on a particular Adobe Commerce store using the `ALTER TABLE` SQL statement."
+description: This article discusses how to change the increment ID for an Adobe Commerce database (DB) entity (order, invoice, credit memo, etc.) on a particular Adobe Commerce store using the `ALTER TABLE` SQL statement.
+exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 ---
-
 # Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store
 
 This article discusses how to change the increment ID for an Adobe Commerce database (DB) entity (order, invoice, credit memo, etc.) on a particular Adobe Commerce store using the `ALTER TABLE` SQL statement.

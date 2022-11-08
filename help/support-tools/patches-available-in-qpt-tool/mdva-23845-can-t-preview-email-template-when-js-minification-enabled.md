@@ -1,13 +1,13 @@
 ---
 title: "MDVA-23845: can't preview email template when JS minification enabled"
-description: "The MDVA-23845 Magento patch fixes the issue when unable to preview the email template in Admin when JS minification is enabled."
+description: The MDVA-23845 Magento patch fixes the issue when unable to preview the email template in Admin when JS minification is enabled.
+exl-id: 08579251-a0aa-4e84-9d6a-3fa2999d9c05
 ---
-
 # MDVA-23845: can't preview email template when JS minification enabled
 
 The MDVA-23845 Magento patch fixes the issue when unable to preview the email template in Admin when JS minification is enabled.
 
-This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-23845. Please note that the issue was fixed in Magento version 2.3.5.
+This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-23845. Please note that the issue was fixed in Magento version 2.3.5.
 
 ## Affected products and versions
 
@@ -52,7 +52,7 @@ To apply individual patches use the following links depending on your Magento pr
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* [Check patch for Magento issue with Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) .
+* [Check patch for Magento issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) .
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

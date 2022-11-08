@@ -1,8 +1,8 @@
 ---
 title: PayPal troubleshooting on Adobe Commerce
-description: "This article provides solutions for issues with processing payments via PayPal, especially the PayFlow Pro solution. Some recommendations in this article may seem obvious. We ask you to attempt the troubleshooting options listed in this knowledge base and include all information in any tickets you enter. Adobe Commerce or PayPal Support Engineers will ask you to perform these steps when diagnosing your issues."
+description: This article provides solutions for issues with processing payments via PayPal, especially the PayFlow Pro solution. Some recommendations in this article may seem obvious. We ask you to attempt the troubleshooting options listed in this knowledge base and include all information in any tickets you enter. Adobe Commerce or PayPal Support Engineers will ask you to perform these steps when diagnosing your issues.
+exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 ---
-
 # PayPal troubleshooting on Adobe Commerce
 
 This article provides solutions for issues with processing payments via PayPal, especially the PayFlow Pro solution. Some recommendations in this article may seem obvious. We ask you to attempt the troubleshooting options listed in this knowledge base and include all information in any tickets you enter. Adobe Commerce or PayPal Support Engineers will ask you to perform these steps when diagnosing your issues.
@@ -40,7 +40,7 @@ See the following articles:
 
 To troubleshoot complicated payment issues, the Adobe Commerce Support Team may ask you to apply a dedicated patch to enable advanced payment logging. In this case, your steps should be the following:
 
- [Submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) with the following details:
+ [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) with the following details:
 
 * Specify your issue with as many details as possible.
 * List the steps you attempted from this article, knowledge base, and other resources. Include all results.
@@ -49,5 +49,5 @@ To troubleshoot complicated payment issues, the Adobe Commerce Support Team may 
 If you receive the Advanced Payment Logging patch:
 
 * Apply the patch.
-* Collect logs and attach them to your [support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+* Collect logs and attach them to your [support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 * Wait for further recommendations from the Adobe Commerce Support Team.

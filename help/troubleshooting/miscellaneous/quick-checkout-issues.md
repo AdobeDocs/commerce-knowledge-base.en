@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot Quick Checkout issues
-description: "This article explains issues you may experience while using the Quick Checkout for Adobe Commerce extension and provides solutions to fix those issues so that you can successfully use the extension."
+description: This article explains issues you may experience while using the Quick Checkout for Adobe Commerce extension and provides solutions to fix those issues so that you can successfully use the extension.
+exl-id: 8ab46318-d62a-4b7e-bbe5-4c52cfeb9e36
 ---
-
 # Troubleshoot Quick Checkout issues
 
 This article explains issues you may experience while using the Quick Checkout for Adobe Commerce extension and provides solutions to fix those issues so that you can successfully use the extension.

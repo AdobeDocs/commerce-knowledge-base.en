@@ -1,8 +1,8 @@
 ---
 title: Database upload loses connection to MySQL
-description: "This article provides a solution for when the database upload loses connection to MySQL."
+description: This article provides a solution for when the database upload loses connection to MySQL.
+exl-id: 6051cea1-8292-4a81-8908-eb516cb4a32b
 ---
-
 # Database upload loses connection to MySQL
 
 This article provides a solution for when the database upload loses connection to MySQL.

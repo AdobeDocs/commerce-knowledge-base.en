@@ -1,8 +1,8 @@
 ---
 title: Roll back environment without Cloud snapshot
-description: "This article shows two solutions to roll back an environment without having a snapshot of your environment on Adobe Commerce on cloud infrastructure."
+description: This article shows two solutions to roll back an environment without having a snapshot of your environment on Adobe Commerce on cloud infrastructure.
+exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 ---
-
 # Roll back environment without Cloud snapshot
 
 This article shows two solutions to roll back an environment without having a snapshot of your environment on Adobe Commerce on cloud infrastructure.
@@ -57,7 +57,7 @@ To remove the configuration file, follow these steps:
 
 Learn more about Configuration Management by reviewing:
 
-* [Reduce deployment downtime on Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/115003169574) in our support knowledge base.
+* [Reduce deployment downtime on Adobe Commerce on cloud infrastructure](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in our support knowledge base.
 * [Configuration management for store settings](http://devdocs.magento.com/guides/v2.2/cloud/live/sens-data-over.html) in our developer documentation.
 
 ### Step 1: Uninstall the Adobe Commerce software with setup:uninstall command {#setup-uninstall}

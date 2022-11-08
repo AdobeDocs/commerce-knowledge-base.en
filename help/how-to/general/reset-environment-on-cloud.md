@@ -1,8 +1,8 @@
 ---
 title: Reset environment on Adobe Commerce on cloud infrastructure
-description: "This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure."
+description: This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure.
+exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 ---
-
 # Reset environment on Adobe Commerce on cloud infrastructure
 
 This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure.
@@ -53,7 +53,7 @@ To remove the configuration file, follow these steps:
 
 Read more about Configuration Management:
 
-* [Reduce deployment downtime on Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/115003169574) in our support knowledge base.
+* [Reduce deployment downtime on Adobe Commerce on cloud infrastructure](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in our support knowledge base.
 * [Configuration management for store settings](https://devdocs.magento.com/cloud/live/sens-data-over.html) in our developer documentation.
 
 ### Step 1: Uninstall the Adobe Commerce software with setup:uninstall command

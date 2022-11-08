@@ -1,16 +1,16 @@
 ---
 title: FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases
-description: "Adobe Commerce provides quality fixes for a minor release for a minimum of 12 months from the general availability date of the next minor software release. The manner in which we provide quality fixes during this period is changing:"
+description: 'Adobe Commerce provides quality fixes for a minor release for a minimum of 12 months from the general availability date of the next minor software release. The manner in which we provide quality fixes during this period is changing:'
+exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
 ---
-
 # FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases
 
-## What’s changing?
+## What's changing?
 
 Adobe Commerce provides quality fixes for a minor release for a minimum of 12 months from the general availability date of the next minor software release. The manner in which we provide quality fixes during this period is changing:
 
 * **Prior policy:** Currently the quality fixes to the previous line that is in the 12 month EOS window are delivered through our quarterly patch release, hence making the quarterly patches a combination of security + quality.
-* **New policy:** Starting with 2.4 as the most current minor release line, release patches for the previous supported line (2.3) will move to security-only. We will still deliver quality fixes for the previous supported line during the 12-month window after release of a minor (like 2.4) and subsequent new minor release lines; but those will be made available through [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) and be focused only on critical issues.
+* **New policy:** Starting with 2.4 as the most current minor release line, release patches for the previous supported line (2.3) will move to security-only. We will still deliver quality fixes for the previous supported line during the 12-month window after release of a minor (like 2.4) and subsequent new minor release lines; but those will be made available through [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) and be focused only on critical issues.
 
 ## When does this policy take effect?
 
@@ -18,7 +18,7 @@ Adobe Commerce 2.3.6 is scheduled to be released on October 15, 2020, and is pla
 
 >[!NOTE]
 >
->The only time we’ll release a full version of 2.3 is if we need to maintain compliance with our technology stack, such as for PHP or Elasticsearch. This is happening in Q2 of 2021 with a mandatory update of PHP 7.4, we'll be incrementing the line to 2.3.7. For details, refer to [PHP 7.4 support for Adobe Commerce 2.3.x release line](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.
+>The only time we'll release a full version of 2.3 is if we need to maintain compliance with our technology stack, such as for PHP or Elasticsearch. This is happening in Q2 of 2021 with a mandatory update of PHP 7.4, we'll be incrementing the line to 2.3.7. For details, refer to [PHP 7.4 support for Adobe Commerce 2.3.x release line](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog post.
 
 ## What is a security-only release?
 
@@ -30,7 +30,7 @@ Adobe will continue to have security-only releases for the latest release line a
 
 ## What is Quality Patches Tool?
 
-Please refer to the [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) article in our support knowledge base.
+Please refer to the [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) article in our support knowledge base.
 
 ## Who should consider using this new policy?
 
@@ -42,7 +42,7 @@ Ultimately, all Merchants should still prioritize planning to adopt the latest A
 
 ## How will I get quality fixes on supported minor versions that are not the latest line?
 
-Fixes will be made available via the [Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047139492).
+Fixes will be made available via the [Quality Patches Tool](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
 
 ## How will I get quality fixes on the latest line?
 
@@ -58,9 +58,9 @@ Yes, as part of the security-only line, we release what Adobe calls "hot fixes" 
 
 ## Will security improvements and QPT be delivered at the same time?
 
-The security-only line will follow the quarterly release schedule and be released with the -p1 nomenclature. Example 2.3.6-p1. Quality will be released ad hoc as quality issues are discovered and fixed, and they’ll be made available via QPT.
+The security-only line will follow the quarterly release schedule and be released with the -p1 nomenclature. Example 2.3.6-p1. Quality will be released ad hoc as quality issues are discovered and fixed, and they'll be made available via QPT.
 
-## If I have a quality issue that won’t be resolved in supported minor versions that are not the latest line or QPT, what do I do?
+## If I have a quality issue that won't be resolved in supported minor versions that are not the latest line or QPT, what do I do?
 
 The previous line being security-only means the main benefit is staying secure. Only patches for major issues that break core flows will be made available through QPT.
 

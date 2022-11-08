@@ -1,8 +1,8 @@
 ---
 title: Deployment issues relating to account permissions and access keys
-description: "This article provides a solution for issues with deploying Adobe Commerce on cloud infrastructure caused by access key ownership conflict."
+description: This article provides a solution for issues with deploying Adobe Commerce on cloud infrastructure caused by access key ownership conflict.
+exl-id: e8d72ebe-453f-4d18-a25e-c76e685aa667
 ---
-
 # Deployment issues relating to account permissions and access keys
 
 This article provides a solution for issues with deploying Adobe Commerce on cloud infrastructure caused by access key ownership conflict.
@@ -42,7 +42,7 @@ If a deployment failed after a change was made to the Primary Contact on the acc
 
 ### How to disable the access key
 
-If you do not have access to the [Commerce Marketplace](https://marketplace.magento.com/) account associated with the old key, [contact Adobe Commerce Support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to have the key disabled.
+If you do not have access to the [Commerce Marketplace](https://marketplace.magento.com/) account associated with the old key, [contact Adobe Commerce Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to have the key disabled.
 
 If you have access to the Marketplace account associated with the old key, take the following steps to disable the key:
 

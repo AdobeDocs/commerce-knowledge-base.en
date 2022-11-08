@@ -1,8 +1,8 @@
 ---
 title: Resolve an illegal offset error
-description: "This article provides a solution for when in Adobe Commerce 2.1 or later, you receive a Resolve an illegal offset error when creating a new product in the Commerce Admin."
+description: This article provides a solution for when in Adobe Commerce 2.1 or later, you receive a Resolve an illegal offset error when creating a new product in the Commerce Admin.
+exl-id: 62d16d3c-7f4b-45e9-ae4b-fe2b58cc3620
 ---
-
 # Resolve an illegal offset error
 
 This article provides a solution for when in Adobe Commerce 2.1 or later, you receive a Resolve an illegal offset error when creating a new product in the Commerce Admin.

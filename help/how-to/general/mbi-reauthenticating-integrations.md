@@ -1,8 +1,8 @@
 ---
-title: "MBI: Re-authenticating integrations"
-description: "This article provides solutions for re-authorizing an integration to grant Magento Business Intelligence (MBI) the required privileges to pull data from a third-party service. Re-authorization is required when these privileges are revoked."
+title: 'MBI: Re-authenticating integrations'
+description: This article provides solutions for re-authorizing an integration to grant Magento Business Intelligence (MBI) the required privileges to pull data from a third-party service. Re-authorization is required when these privileges are revoked.
+exl-id: c608d6f9-64a5-44f8-9d7b-9a85a2668775
 ---
-
 # MBI: Re-authenticating integrations
 
 This article provides solutions for re-authorizing an integration to grant Magento Business Intelligence (MBI) the required privileges to pull data from a third-party service. Re-authorization is required when these privileges are revoked.
@@ -28,4 +28,4 @@ The status of all integrations is on the Integrations page ( **Manage Data > Int
 
 To re-authenticate, you may have to re-enter your account credentials. In some cases, you may be required to generate new API keys for the problem integration. Click the name of the problem integration to begin the re-authorization process.
 
-If the problem persists, please [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+If the problem persists, please [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

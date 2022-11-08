@@ -1,8 +1,8 @@
 ---
 title: Redis issue delay Commerce Admin login or checkout
-description: "This article provides a fix for the issue when logging in to the Commerce Admin or opening the checkout page causes lag or timeout (over 30 seconds). The issue occurs when Redis is used for session storage."
+description: This article provides a fix for the issue when logging in to the Commerce Admin or opening the checkout page causes lag or timeout (over 30 seconds). The issue occurs when Redis is used for session storage.
+exl-id: a91a7a51-7cc4-4910-a9de-3a212788663f
 ---
-
 # Redis issue delay Commerce Admin login or checkout
 
 This article provides a fix for the issue when logging in to the Commerce Admin or opening the checkout page causes lag or timeout (over 30 seconds). The issue occurs when Redis is used for session storage.
@@ -35,7 +35,7 @@ This issue has been fixed in Adobe Commerce 2.1.14 and 2.2.2 (see [Release Notes
 
 ### Solution 1: Apply the patch with a fix
 
-To receive a patch, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) requesting the patch. In your ticket, specify your Adobe Commerce version and the corresponding reference number for the patch:
+To receive a patch, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting the patch. In your ticket, specify your Adobe Commerce version and the corresponding reference number for the patch:
 
 * **2.1.11 and later:** MDVA-7835
 * **2.2.1:** MDVA-8128

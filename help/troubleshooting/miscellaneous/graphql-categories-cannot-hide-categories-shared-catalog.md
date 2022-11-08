@@ -1,8 +1,8 @@
 ---
 title: GraphQL query to hide categories not work with B2B shared catalog
-description: "This article provides a solution for when B2B shared catalog feature is not working with GraphQL categories query to hide categories."
+description: This article provides a solution for when B2B shared catalog feature is not working with GraphQL categories query to hide categories.
+exl-id: bdafa8d9-b637-409e-86b5-d132bccfe0b8
 ---
-
 # GraphQL query to hide categories not work with B2B shared catalog
 
 
@@ -43,7 +43,7 @@ Functionality was not implemented.
 
 ## Solution
 
-The issue is going to be fixed in the scope of version 2.4.4, and merchants should [submit a ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to get a custom patch if they need a solution prior to the 2.4.4 release.
+The issue is going to be fixed in the scope of version 2.4.4, and merchants should [submit a ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to get a custom patch if they need a solution prior to the 2.4.4 release.
 
 ## Related reading
 

@@ -1,8 +1,8 @@
 ---
 title: Bulk action product count known issue in Adobe Commerce 2.3.5
-description: "This article describes a known Adobe Commerce 2.3.5 issue, where the notification a merchant gets after a bulk action in Admin contains a wrong number of affected items."
+description: This article describes a known Adobe Commerce 2.3.5 issue, where the notification a merchant gets after a bulk action in Admin contains a wrong number of affected items.
+exl-id: 3ede15d4-4c39-442a-8784-2d5e6650fe67
 ---
-
 # Bulk action product count known issue in Adobe Commerce 2.3.5
 
 This article describes a known Adobe Commerce 2.3.5 issue, where the notification a merchant gets after a bulk action in Admin contains a wrong number of affected items.

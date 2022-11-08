@@ -1,8 +1,8 @@
 ---
 title: Adobe Commerce site down troubleshooter
-description: "Click on each question to reveal the answer details in each step of the troubleshooter."
+description: Click on each question to reveal the answer details in each step of the troubleshooter.
+exl-id: 10a2313e-cc82-4ffc-9247-624884f3e165
 ---
-
 # Adobe Commerce site down troubleshooter
 
 Click on each question to reveal the answer details in each step of the troubleshooter.

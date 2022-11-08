@@ -1,8 +1,8 @@
 ---
 title: Adobe Commerce support tools at a glance
-description: "Adobe Commerce offers a variety of support tools that help and empower you to improve the e-commerce store experience."
+description: Adobe Commerce offers a variety of support tools that help and empower you to improve the e-commerce store experience.
+exl-id: 5364ff2b-07ea-4b42-8756-adec85f4efca
 ---
-
 # Adobe Commerce support tools at a glance
 
 Adobe Commerce offers a variety of support tools that help and empower you to improve the e-commerce store experience.
@@ -24,7 +24,7 @@ To download the complete article about how to use Observation for Adobe Commerce
 
 Managed alerts for Adobe Commerce on cloud infrastructure produce ready-made New Relic alerting that includes directions on next steps to troubleshoot.
 
-We’ve set up key dashboards and alerts to aid you in understanding when your site is reaching critical storage and Apdex levels (users' satisfaction with applications and services response time). This can help you take action before you notice slow response times or an outage. You will be able to troubleshoot the alerts with the articles provided in our support knowledge base. Click [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832-Managed-alerts-for-Magento-Commerce) to learn more about managed alerts.
+We've set up key dashboards and alerts to aid you in understanding when your site is reaching critical storage and Apdex levels (users' satisfaction with applications and services response time). This can help you take action before you notice slow response times or an outage. You will be able to troubleshoot the alerts with the articles provided in our support knowledge base. Click [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) to learn more about managed alerts.
 
 
 ## Site-Wide Analysis Tool - get performance recommendations based on site scan {#site-wide-analysis-tool}
@@ -37,4 +37,4 @@ To find out more about the Site-Wide Analysis Tool, refer to the [Site-Wide Anal
 
 The Quality Patches Tool (QPT) delivers individual patches developed by Adobe and the Magento Open Source community. It allows you to apply, revert, and view general information about all individual patches that are available for the installed version of Adobe Commerce or Magento Open Source.
 
-QPT shows only those available patches for your installed version, with categorization and easy application/removal. To learn more, refer to [Check patch for Adobe Commerce issue with Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+QPT shows only those available patches for your installed version, with categorization and easy application/removal. To learn more, refer to [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.

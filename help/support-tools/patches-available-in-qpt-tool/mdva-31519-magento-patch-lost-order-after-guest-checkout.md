@@ -1,8 +1,8 @@
 ---
-title: "MDVA-31519 patch: lost order after guest checkout"
-description: "The MDVA-31519 patch solves the issue where paid orders are missing and lock wait timeouts in guest checkout."
+title: 'MDVA-31519 patch: lost order after guest checkout'
+description: The MDVA-31519 patch solves the issue where paid orders are missing and lock wait timeouts in guest checkout.
+exl-id: 2b4f9992-d58d-434f-adf8-d8ad8f761755
 ---
-
 # MDVA-31519 patch: lost order after guest checkout
 
 The MDVA-31519 patch solves the issue where paid orders are missing and lock wait timeouts in guest checkout.
@@ -50,7 +50,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

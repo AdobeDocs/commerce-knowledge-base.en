@@ -1,8 +1,8 @@
 ---
 title: Deployment fails Fastly module incompatible Adobe Commerce version
-description: "UPDATED: February 29, 2019"
+description: 'UPDATED: February 29, 2019'
+exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 ---
-
 # Deployment fails Fastly module incompatible Adobe Commerce version
 
 UPDATED: February 29, 2019

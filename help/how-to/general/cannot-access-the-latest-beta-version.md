@@ -1,8 +1,8 @@
 ---
 title: Cannot access the latest Beta version
-description: "This article provides solutions for issues when trying to utilize the latest Beta versions of code for Adobe Commerce. Beta code is only available for official Adobe partners that have followed the process described in [Adobe Commerce Beta Program](https://github.com/magento/magento2/wiki/Magento-Beta-Program)."
+description: This article provides solutions for issues when trying to utilize the latest Beta versions of code for Adobe Commerce. Beta code is only available for official Adobe partners that have followed the process described in [Adobe Commerce Beta Program](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
+exl-id: a53c854e-38a8-4c8c-8586-9d99c576c835
 ---
-
 # Cannot access the latest Beta version
 
 This article provides solutions for issues when trying to utilize the latest Beta versions of code for Adobe Commerce. Beta code is only available for official Adobe partners that have followed the process described in [Adobe Commerce Beta Program](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
@@ -41,7 +41,7 @@ To find out if your MageID is primary, try the following:
     * If you see the active Partner license information, then your MageID is primary. The Partner license is active if the END DATE value is a date in the future.
     * If you do not see the active Partner license information, then your MageID only has shared access. To find out who is the primary ID holder, go to the **Shared with me** Notice the SHARENAME specified there. Click **Switch Accounts** and select the value you've noted in SHARENAME. On the welcome page, you will see the email of the primary ID holder.
 1. If for any reason you cannot find this information on [magento.com](https://account.magento.com/customer/account/login), please contact your Partner Manager.
-1. If none of the above works, please [contact Support](https://support.magento.com/hc/en-us/articles/360000913794#merchant-not-displayed).
+1. If none of the above works, please [contact Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed).
 
 #### Developer doesn’t have correct access to keys
 

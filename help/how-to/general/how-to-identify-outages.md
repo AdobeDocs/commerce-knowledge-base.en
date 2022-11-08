@@ -1,9 +1,9 @@
 ---
 title: Identify and measure outages for Adobe Commerce on cloud infrastructure
-promoted: True
-description: "There are multiple ways for a merchant (or anyone interested in the site’s health) can identify site-downs, also known as site outages. A site-down is the time period when the merchant’s site cannot adequately respond to the customer’s requests. The definition of outages and their effects on sites is broad. The attached article describes the following:"
+promoted: true
+description: 'There are multiple ways for a merchant (or anyone interested in the site’s health) can identify site-downs, also known as site outages. A site-down is the time period when the merchant’s site cannot adequately respond to the customer’s requests. The definition of outages and their effects on sites is broad. The attached article describes the following:'
+exl-id: 204910b0-49d5-43df-921b-8c0c7a42524e
 ---
-
 # Identify and measure outages for Adobe Commerce on cloud infrastructure
 
 There are multiple ways for a merchant (or anyone interested in the site’s health) can identify site-downs, also known as site outages. A site-down is the time period when the merchant’s site cannot adequately respond to the customer’s requests. The definition of outages and their effects on sites is broad. The attached article describes the following:

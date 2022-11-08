@@ -1,8 +1,8 @@
 ---
-title: "MDVA-19391: Advanced Reporting not working"
-description: "The MDVA-19391 patch solves the issue when an error in the PageBuilderAnalytics module prevents use of Advanced Reporting. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note there is currently no solution in Adobe Commerce planned besides this patch."
+title: 'MDVA-19391: Advanced Reporting not working'
+description: The MDVA-19391 patch solves the issue when an error in the PageBuilderAnalytics module prevents use of Advanced Reporting. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note there is currently no solution in Adobe Commerce planned besides this patch.
+exl-id: c1ef1027-bbf9-4095-a9aa-08ac9c4b0497
 ---
-
 # MDVA-19391: Advanced Reporting not working
 
 The MDVA-19391 patch solves the issue when an error in the PageBuilderAnalytics module prevents use of Advanced Reporting. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note there is currently no solution in Adobe Commerce planned besides this patch.
@@ -47,7 +47,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

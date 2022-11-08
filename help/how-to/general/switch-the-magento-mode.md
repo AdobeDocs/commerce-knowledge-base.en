@@ -1,8 +1,8 @@
 ---
 title: Switch the Application mode
-description: "Please refer to the following articles in our developer documentation:"
+description: 'Please refer to the following articles in our developer documentation:'
+exl-id: b90fd094-7f26-4abf-9f9b-b005214d5f54
 ---
-
 # Switch the Application mode
 
 Please refer to the following articles in our developer documentation:

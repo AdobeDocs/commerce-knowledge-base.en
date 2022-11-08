@@ -1,13 +1,13 @@
 ---
-title: "Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates"
-description: "**NEXT UPDATE**: September 27th, 2022."
+title: 'Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates'
+description: '**NEXT UPDATE**: September 27th, 2022.'
+exl-id: 1f28086d-3567-4828-b5ee-b3d7953cff82
 ---
-
 # Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates
 
  **NEXT UPDATE**: September 27th, 2022.
 
-Here’s a short update on what was published and updated in our support knowledge base during the last two weeks (August 31st - September 13th, 2022).
+Here's a short update on what was published and updated in our support knowledge base during the last two weeks (August 31st - September 13th, 2022).
 
 ## PUBLISHED
 
@@ -19,7 +19,7 @@ Feel free to click the links to get familiar with the articles and give us your 
 
 1. [ACSD-45849: Video metadata is lost after staging update:](https://support.magento.com/hc/en-us/articles/8856533471757-ACSD-45849-Video-metadata-is-lost-after-staging-update) The ACSD-45849 patch fixes the issue where the video metadata is lost after a staging update is applied. This patch is available when the Quality Patches Tool (QPT) 1.1.18 is installed.
 
-1. [ACSD-45754: Reward points not added after applying coupon to cart:](https://support.magento.com/hc/en-us/articles/8800193759629-ACSD-45754-Reward-points-not-added-after-applying-coupon-to-cart) The ACSD-45754 patch solves the issue where reward points are not added after applying a coupon to the cart. This patch is available when the Quality Patches Tool (QPT) 1.1.18 is installed.
+1. [ACSD-45754: Reward points not added after applying coupon to cart:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45754-reward-points-not-added-after-applying-coupon-to-the-cart.html) The ACSD-45754 patch solves the issue where reward points are not added after applying a coupon to the cart. This patch is available when the Quality Patches Tool (QPT) 1.1.18 is installed.
 
 1. [ACSD-45488: Configurable product with multiple sources not returned to in stock:](https://support.magento.com/hc/en-us/articles/8800178707469-ACSD-45488-Configurable-product-with-multiple-sources-not-returned-to-in-stock-automatically) The ACSD-45488 patch solves the issue where a configurable product with multiple sources is not returned to in stock automatically. This patch is available when the Quality Patches Tool (QPT) 1.1.18 is installed.
 

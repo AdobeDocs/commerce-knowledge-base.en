@@ -1,8 +1,8 @@
 ---
 title: Cannot access the latest Adobe Commerce pre-release
-description: "This article provides solutions for issues when trying to utilize the latest pre-release code of Adobe Commerce."
+description: This article provides solutions for issues when trying to utilize the latest pre-release code of Adobe Commerce.
+exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
 ---
-
 # Cannot access the latest Adobe Commerce pre-release
 
 This article provides solutions for issues when trying to utilize the latest pre-release code of Adobe Commerce.
@@ -53,7 +53,7 @@ To find out if your MageID is primary, try the following:
     * If you see the Adobe Commerce license information, then your MageID is primary.
     * If you do not see the Adobe Commerce license information, then your MageID only has shared access. To find out who is the primary ID holder, go to the **Shared with me** Notice the SHARENAME specified there. Click **Switch Accounts** and select the value you've noted in SHARENAME. On the welcome page you will see the email of the primary ID holder.
 1. If for any reason you cannot find this information on [magento.com](https://account.magento.com/customer/account/login), please contact your Customer Success Manager (CSM).
-1. If none of the above works, please [contact Support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+1. If none of the above works, please [contact Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
  **For partners**
 
@@ -63,8 +63,8 @@ To find out if your MageID is primary, try the following:
     * If you see the active Partner license information, then your MageID is primary. The Partner license is active if the END DATE value is a date in the future.
     * If you do not see the active Partner license information, then your MageID only has shared access. To find out who is the primary ID holder, go to the **Shared with me** Notice the SHARENAME specified there. Click **Switch Accounts** and select the value you've noted in SHARENAME. On the welcome page you will see the email of the primary ID holder.
 1. If for any reason you cannot find this information on [magento.com](https://account.magento.com/customer/account/login), please contact your Partner Manager.
-1. If none of the above works, please [сontact Support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+1. If none of the above works, please [сontact Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Not a part of pre-release program
 
-To be included in the Pre-release Access program, your organization must have an active Adobe Commerce or Partner account that is in good standing. If you believe you meet this criteria and cannot access the pre-release code, please [contact Support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) with your MageID.
+To be included in the Pre-release Access program, your organization must have an active Adobe Commerce or Partner account that is in good standing. If you believe you meet this criteria and cannot access the pre-release code, please [contact Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) with your MageID.

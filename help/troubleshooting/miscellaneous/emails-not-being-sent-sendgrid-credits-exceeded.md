@@ -1,8 +1,8 @@
 ---
 title: Emails not sent when SendGrid credits exceeded on Adobe Commerce
-description: "This article provides a solution when your emails are not being sent because you have exceeded your SendGrid credits limit on Adobe Commerce."
+description: This article provides a solution when your emails are not being sent because you have exceeded your SendGrid credits limit on Adobe Commerce.
+exl-id: 43438890-665b-4408-8034-e61de8fbbd8b
 ---
-
 # Emails not sent when SendGrid credits exceeded on Adobe Commerce
 
 ## Affected products and versions
@@ -27,8 +27,8 @@ There are limits on the number of allowed emails that can be sent.
 
 ## Solution
 
-* If you see this message, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) and provide the above message and request the credits to be increased.
-* If you do not see this message or you are on Adobe Commerce on cloud infrastructure Starter plan architecture, also [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) and mention that the `mail.log` file does not indicate that the credits have been exceeded.
+* If you see this message, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and provide the above message and request the credits to be increased.
+* If you do not see this message or you are on Adobe Commerce on cloud infrastructure Starter plan architecture, also [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and mention that the `mail.log` file does not indicate that the credits have been exceeded.
 
 ## Related reading
 

@@ -1,8 +1,8 @@
 ---
-title: "MDVA-23764 Magento patch: error when loading dynamic blocks"
-description: "The MDVA-23764 Magento patch fixes the bug in"
+title: 'MDVA-23764 Magento patch: error when loading dynamic blocks'
+description: The MDVA-23764 Magento patch fixes the bug in
+exl-id: b884ade6-f88d-4c79-8e84-5a59252abb75
 ---
-
 # MDVA-23764 Magento patch: error when loading dynamic blocks
 
 The MDVA-23764 Magento patch fixes the bug in
@@ -48,7 +48,7 @@ For instructions on how to apply an QPT patch, use the following links depending
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) .
+* [Check if patch is available for your Magento issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) .
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

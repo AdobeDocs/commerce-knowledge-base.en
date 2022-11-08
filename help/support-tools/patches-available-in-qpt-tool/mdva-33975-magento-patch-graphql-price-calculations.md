@@ -1,8 +1,8 @@
 ---
-title: "MDVA-33975 patch: GraphQL price calculations"
-description: "The MDVA-33975 patch fixes GraphQL price calculation issues. These issues include:"
+title: 'MDVA-33975 patch: GraphQL price calculations'
+description: 'The MDVA-33975 patch fixes GraphQL price calculation issues. These issues include:'
+exl-id: a8266334-72cb-4b50-9ff5-9a977d762e5c
 ---
-
 # MDVA-33975 patch: GraphQL price calculations
 
 The MDVA-33975 patch fixes GraphQL price calculation issues. These issues include:
@@ -14,7 +14,7 @@ The MDVA-33975 patch fixes GraphQL price calculation issues. These issues includ
 * The shipping amount discount was not retrieved on the last billing step, and the grand total was incorrectly displayed.
 * The discount is not applied in GraphQL when customer segment is used in the cart price rule condition.
 
-This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.14 is installed.
+This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.14 is installed.
 
 ## Affected products and versions
 
@@ -36,7 +36,7 @@ To apply individual patches, use the following links, depending on your Adobe Co
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

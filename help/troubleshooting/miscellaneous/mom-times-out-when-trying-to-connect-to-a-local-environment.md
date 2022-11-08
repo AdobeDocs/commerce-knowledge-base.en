@@ -1,8 +1,8 @@
 ---
 title: Magento Order Management System (OMS) for Adobe Commerce times out
-description: "This article provides a solution for the issue where the Magento Order Management System (OMS) for Adobe Commerce cannot register the locally installed micro-service with MOM using ngrok, because MOM times out when trying to callback."
+description: This article provides a solution for the issue where the Magento Order Management System (OMS) for Adobe Commerce cannot register the locally installed micro-service with MOM using ngrok, because MOM times out when trying to callback.
+exl-id: 19149d8c-ea24-46fb-8815-9f637afe46ca
 ---
-
 # Magento Order Management System (OMS) for Adobe Commerce times out
 
 This article provides a solution for the issue where the Magento Order Management System (OMS) for Adobe Commerce cannot register the locally installed micro-service with MOM using ngrok, because MOM times out when trying to callback.

@@ -1,8 +1,8 @@
 ---
 title: General custom module troubleshooting help
-description: "This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce."
+description: This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce.
+exl-id: c6603a2b-dc98-4022-ab29-c081c2b07415
 ---
-
 # General custom module troubleshooting help
 
 This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce.
@@ -13,7 +13,7 @@ If you realize there is an issue with the features from your custom module, and 
 
 ## Solution
 
-Check the logs to see if there are entries with custom module's name in the error.  Depending on the errors involved, the solution may present itself, or you may need to include your helpful Adobe Commerce log information if you want to open a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket). See the following paragraphs for the info about logs' location and possible solutions.
+Check the logs to see if there are entries with custom module's name in the error.  Depending on the errors involved, the solution may present itself, or you may need to include your helpful Adobe Commerce log information if you want to open a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). See the following paragraphs for the info about logs' location and possible solutions.
 
 ### Adobe Commerce (all deployment methods), Magento Open Source, all 2.X versions
 

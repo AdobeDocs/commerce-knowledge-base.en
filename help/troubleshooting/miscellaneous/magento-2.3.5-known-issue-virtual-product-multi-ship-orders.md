@@ -1,8 +1,8 @@
 ---
-title: "Adobe Commerce 2.3.5 known issue: virtual product multi-ship orders"
-description: "This article explains a known issue in Adobe Commerce 2.3.5 where a multi-shipping order containing a virtual product is not processed correctly."
+title: 'Adobe Commerce 2.3.5 known issue: virtual product multi-ship orders'
+description: This article explains a known issue in Adobe Commerce 2.3.5 where a multi-shipping order containing a virtual product is not processed correctly.
+exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 ---
-
 # Adobe Commerce 2.3.5 known issue: virtual product multi-ship orders
 
 This article explains a known issue in Adobe Commerce 2.3.5 where a multi-shipping order containing a virtual product is not processed correctly.

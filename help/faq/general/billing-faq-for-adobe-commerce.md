@@ -1,8 +1,8 @@
 ---
 title: Billing FAQ for Adobe Commerce
-description: "Merchants typically pay for our services by a credit card (CC) transaction, and this FAQ is a resource to assist you when you pay your bill."
+description: Merchants typically pay for our services by a credit card (CC) transaction, and this FAQ is a resource to assist you when you pay your bill.
+exl-id: 9b44b0c8-e597-4a05-a100-33f5d9522f87
 ---
-
 # Billing FAQ for Adobe Commerce
 
 Merchants typically pay for our services by a credit card (CC) transaction, and this FAQ is a resource to assist you when you pay your bill.

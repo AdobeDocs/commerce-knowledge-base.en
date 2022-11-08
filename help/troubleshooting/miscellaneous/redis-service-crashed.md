@@ -1,8 +1,8 @@
 ---
 title: Redis service crashed
-description: "The article recommends how to fix Redis."
+description: The article recommends how to fix Redis.
+exl-id: 5eb8fb70-0f41-433a-8d3f-c368781a2d1d
 ---
-
 # Redis service crashed
 
 The article recommends how to fix Redis.
@@ -31,7 +31,7 @@ redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_pe
 
 The *REDIS\_PORT* and *REDIS\_HOST* variables can be retrieved from `app/etc/env.php`.
 
-If the output from running the above query shows that the percentage of free memory is less than 40%, [submit a ticket to Adobe Commerce support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) requesting an increase of the `maxmemory` setting in Redis Server. If the evicted keys value is not "0" or the Redis up time in days equals 0 (indicating Redis has crashed today), you should also [submit a ticket to Adobe Commerce support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) requesting an investigation and a fix for this issue.
+If the output from running the above query shows that the percentage of free memory is less than 40%, [submit a ticket to Adobe Commerce support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting an increase of the `maxmemory` setting in Redis Server. If the evicted keys value is not "0" or the Redis up time in days equals 0 (indicating Redis has crashed today), you should also [submit a ticket to Adobe Commerce support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting an investigation and a fix for this issue.
 
 ## Related Reading
 

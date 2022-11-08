@@ -1,8 +1,8 @@
 ---
-title: 'Database auto_increment increment variable set to "3" Adobe Commerce on our cloud pro architecture'
-description: "This is the expected behavior for Adobe Commerce on cloud infrastructure Pro plan architecture solutions due to the 3-node architecture and cannot be modified."
+title: Database auto_increment increment variable set to "3" Adobe Commerce on our cloud pro architecture
+description: This is the expected behavior for Adobe Commerce on cloud infrastructure Pro plan architecture solutions due to the 3-node architecture and cannot be modified.
+exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 ---
-
 # Database auto_increment increment variable set to "3" Adobe Commerce on our cloud pro architecture
 
 This is the expected behavior for Adobe Commerce on cloud infrastructure Pro plan architecture solutions due to the 3-node architecture and cannot be modified.

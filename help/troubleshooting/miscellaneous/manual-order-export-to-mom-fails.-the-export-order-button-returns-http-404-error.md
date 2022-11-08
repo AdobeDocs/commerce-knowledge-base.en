@@ -1,8 +1,8 @@
 ---
 title: Manual order export to MOM fails. The Export Order button returns HTTP 404 error
-description: "This article discusses how to fix an issue, where trying to export an order to Magento Order Management (MOM) by clicking the **Export Order** button on the order view in the Commerce Admin returns a \" *404 Page Not Found* \" error."
+description: This article discusses how to fix an issue, where trying to export an order to Magento Order Management (MOM) by clicking the **Export Order** button on the order view in the Commerce Admin returns a " *404 Page Not Found* " error.
+exl-id: 75741473-7c9a-4418-a56f-de75ac246d27
 ---
-
 # Manual order export to MOM fails. The Export Order button returns HTTP 404 error
 
 This article discusses how to fix an issue, where trying to export an order to Magento Order Management (MOM) by clicking the **Export Order** button on the order view in the Commerce Admin returns a " *404 Page Not Found* " error.

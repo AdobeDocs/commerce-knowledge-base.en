@@ -1,8 +1,8 @@
 ---
 title: Remove failed login attempts from the database
-description: "This article explains how to remove pre-existing failed login credentials from the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure database. For versions 2.2.10+ and 2.3.3+, you only need to run the attached script. For older versions 2.3.0-2.3.2-p2, you need to apply a patch to stop logging and run the attached script to remove pre-existing failed login credentials."
+description: This article explains how to remove pre-existing failed login credentials from the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure database. For versions 2.2.10+ and 2.3.3+, you only need to run the attached script. For older versions 2.3.0-2.3.2-p2, you need to apply a patch to stop logging and run the attached script to remove pre-existing failed login credentials.
+exl-id: 0d7e3674-3563-414f-86a2-297eb8104099
 ---
-
 # Remove failed login attempts from the database
 
 >[!NOTE]
@@ -46,7 +46,7 @@ Please follow the below instructions to run the script:
 1. Put `DB_CLEANUP_SCRIPT_v2.php` in the root directory of the Adobe Commerce or Magento Open Source installation (in the same directory as app which contains `app/bootstrap.php`).
 1. Run this command in the terminal: `php DB_CLEANUP_SCRIPT_v2.php` and it will begin the database clean up process.
 
-If you encounter any issues while running the script, please [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) or email us at [security@magento.com](mailto:security@magento.com).
+If you encounter any issues while running the script, please [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) or email us at [security@magento.com](mailto:security@magento.com).
 
  **Attached files**
 

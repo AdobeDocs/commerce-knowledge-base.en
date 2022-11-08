@@ -1,8 +1,8 @@
 ---
 title: Find large MySQL tables
-description: "To identify the large tables, connect to the database as described in the [Connect to the database](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) article, and run the following command, where `project_id` is your Cloud project ID:"
+description: 'To identify the large tables, connect to the database as described in the [Connect to the database](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) article, and run the following command, where `project_id` is your Cloud project ID:'
+exl-id: dc5019bc-ab6c-4568-986f-0a294a0f3ac3
 ---
-
 # Find large MySQL tables
 
 To identify the large tables, connect to the database as described in the [Connect to the database](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) article, and run the following command, where `project_id` is your Cloud project ID:

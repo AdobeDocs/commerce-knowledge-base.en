@@ -1,8 +1,8 @@
 ---
 title: Redirect back to the Commerce Admin login form with "Your current session has been expired" error
-description: "This article gives the possible solutions for the Commerce Admin login issue, where you are redirected back to the login form with the following error message: *\"Your current session has been expired\"*. Solutions include checking for server time setting issues and changing session storage settings."
+description: 'This article gives the possible solutions for the Commerce Admin login issue, where you are redirected back to the login form with the following error message: *"Your current session has been expired"*. Solutions include checking for server time setting issues and changing session storage settings.'
+exl-id: 29df2ed2-ff4a-4f1a-bdb7-1160416cda00
 ---
-
 # Redirect back to the Commerce Admin login form with "Your current session has been expired" error
 
 This article gives the possible solutions for the Commerce Admin login issue, where you are redirected back to the login form with the following error message: *"Your current session has been expired"*. Solutions include checking for server time setting issues and changing session storage settings.
@@ -63,5 +63,5 @@ Run the `bin/magento app:config:import` command to import configuration data.
 
 * [Import data from configuration files](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html) in our developer documentation
 * [Configure Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html) in our developer documentation
-* [Redirect back to the Commerce Admin login form with "Your account is temporarily disabled" error](https://support.magento.com/hc/en-us/articles/360028606831) in our support knowledge base
+* [Redirect back to the Commerce Admin login form with "Your account is temporarily disabled" error](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) in our support knowledge base
 * [Redirect back to the login form with no error, when trying to login to the Commerce Admin](https://support.magento.com/hc/en-us/articles/360028606711) in our support knowledge base

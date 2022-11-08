@@ -1,8 +1,8 @@
 ---
 title: Troubleshooting 503 error caused by necessity to change default Varnish settings
-description: "This article provides solutions for troubleshooting 503 error caused by certain Varnish Cache default values not being enough for your store."
+description: This article provides solutions for troubleshooting 503 error caused by certain Varnish Cache default values not being enough for your store.
+exl-id: 3f001cc9-b19a-4dee-bff0-fc8ba89e2646
 ---
-
 # Troubleshooting 503 error caused by necessity to change default Varnish settings
 
 This article provides solutions for troubleshooting 503 error caused by certain Varnish Cache default values not being enough for your store.

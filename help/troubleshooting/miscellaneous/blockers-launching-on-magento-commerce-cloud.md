@@ -1,8 +1,8 @@
 ---
 title: Blockers launching on Adobe Commerce on cloud infrastructure
-description: "This article provides a fix for blockers to launching on Adobe Commerce on cloud infrastructure including issues related to Fastly config, SSL certificates, 301 redirects, and static asset performance."
+description: This article provides a fix for blockers to launching on Adobe Commerce on cloud infrastructure including issues related to Fastly config, SSL certificates, 301 redirects, and static asset performance.
+exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 ---
-
 # Blockers launching on Adobe Commerce on cloud infrastructure
 
 This article provides a fix for blockers to launching on Adobe Commerce on cloud infrastructure including issues related to Fastly config, SSL certificates, 301 redirects, and static asset performance.

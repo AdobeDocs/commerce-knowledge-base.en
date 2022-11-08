@@ -1,11 +1,11 @@
 ---
-title: "MDVA-31399 patch: Subtotal (Incl. Tax) in cart rule condition"
-description: "The MDVA-31399 patch adds the *Subtotal (Incl. Tax)* option to [cart price rule condition](https://docs.magento.com/user-guide/v2.3/marketing/price-rules-cart-create.html#step-2-describe-the-conditions), fixing the issue where it was impossible to apply a cart price rule based on Subtotal (Incl. Tax) number. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed."
+title: 'MDVA-31399 patch: Subtotal (Incl. Tax) in cart rule condition'
+description: The MDVA-31399 patch adds the *Subtotal (Incl. Tax)* option to [cart price rule condition](https://docs.magento.com/user-guide/v2.3/marketing/price-rules-cart-create.html#step-2-describe-the-conditions), fixing the issue where it was impossible to apply a cart price rule based on Subtotal (Incl. Tax) number. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is installed.
+exl-id: ea0f4060-753a-4b0d-896b-fff54ffd1a82
 ---
-
 # MDVA-31399 patch: Subtotal (Incl. Tax) in cart rule condition
 
-The MDVA-31399 patch adds the *Subtotal (Incl. Tax)* option to [cart price rule condition](https://docs.magento.com/user-guide/v2.3/marketing/price-rules-cart-create.html#step-2-describe-the-conditions), fixing the issue where it was impossible to apply a cart price rule based on Subtotal (Incl. Tax) number. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.12 is installed.
+The MDVA-31399 patch adds the *Subtotal (Incl. Tax)* option to [cart price rule condition](https://docs.magento.com/user-guide/v2.3/marketing/price-rules-cart-create.html#step-2-describe-the-conditions), fixing the issue where it was impossible to apply a cart price rule based on Subtotal (Incl. Tax) number. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is installed.
 
 ## Affected products and versions
 
@@ -53,7 +53,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.
