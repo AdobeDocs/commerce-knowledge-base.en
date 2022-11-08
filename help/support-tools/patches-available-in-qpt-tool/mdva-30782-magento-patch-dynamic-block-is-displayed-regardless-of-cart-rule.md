@@ -1,8 +1,8 @@
 ---
-title: "MDVA-30782: dynamic block is displayed regardless of cart rule"
-description: "The MDVA-30782 patch fixes the issue where a dynamic block is displayed regardless of the cart rule. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2."
+title: 'MDVA-30782: dynamic block is displayed regardless of cart rule'
+description: The MDVA-30782 patch fixes the issue where a dynamic block is displayed regardless of the cart rule. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+exl-id: 88da8853-aae7-4fd9-82ba-a4e9fc99cf53
 ---
-
 # MDVA-30782: dynamic block is displayed regardless of cart rule
 
 The MDVA-30782 patch fixes the issue where a dynamic block is displayed regardless of the cart rule. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.

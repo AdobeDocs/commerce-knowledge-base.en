@@ -1,8 +1,8 @@
 ---
 title: Change account owner for New Relic on Cloud
-description: "For your Adobe Commerce on cloud infrastructure project, you may change the New Relic account owner on the New Relic UI page. For detailed steps, see [Change the account Owner](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner) in New Relic documentation."
+description: For your Adobe Commerce on cloud infrastructure project, you may change the New Relic account owner on the New Relic UI page. For detailed steps, see [Change the account Owner](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner) in New Relic documentation.
+exl-id: fbb778d5-7e5d-4cd9-849a-4071ca9e4bea
 ---
-
 # Change account owner for New Relic on Cloud
 
 For your Adobe Commerce on cloud infrastructure project, you may change the New Relic account owner on the New Relic UI page. For detailed steps, see [Change the account Owner](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner) in New Relic documentation.

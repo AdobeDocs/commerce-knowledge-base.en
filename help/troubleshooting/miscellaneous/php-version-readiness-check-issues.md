@@ -1,8 +1,8 @@
 ---
 title: PHP version readiness check issues
-description: "This article talks about the solutions for the PHP version issues you might face when installing/upgrading Adobe Commerce on-premises using the Web Setup Wizard."
+description: This article talks about the solutions for the PHP version issues you might face when installing/upgrading Adobe Commerce on-premises using the Web Setup Wizard.
+exl-id: dee939cf-b9b2-4750-965c-5b8908a4498d
 ---
-
 # PHP version readiness check issues
 
 This article talks about the solutions for the PHP version issues you might face when installing/upgrading Adobe Commerce on-premises using the Web Setup Wizard.

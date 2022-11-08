@@ -1,8 +1,8 @@
 ---
 title: Advanced Reporting cron job errors Adobe Commerce
-description: "This article provides patches for the Advanced Reporting cron jobs issues in Adobe Commerce, which can cause a 404 error for customers trying to access Advanced Reporting."
+description: This article provides patches for the Advanced Reporting cron jobs issues in Adobe Commerce, which can cause a 404 error for customers trying to access Advanced Reporting.
+exl-id: c11a5faf-a243-411a-af0f-585a401e6e39
 ---
-
 # Advanced Reporting cron job errors Adobe Commerce
 
 This article provides patches for the Advanced Reporting cron jobs issues in Adobe Commerce, which can cause a 404 error for customers trying to access Advanced Reporting.

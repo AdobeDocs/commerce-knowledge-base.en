@@ -1,8 +1,8 @@
 ---
-title: "MDVA-22383: target rule indexers slow to index"
-description: "The MDVA-22383 patch solves the issue where reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-22383. Please note that the issue was fixed in Adobe Commerce 2.3.5."
+title: 'MDVA-22383: target rule indexers slow to index'
+description: The MDVA-22383 patch solves the issue where reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-22383. Please note that the issue was fixed in Adobe Commerce 2.3.5.
+exl-id: fbf28983-5883-4769-90bd-1c97c2b2e2b8
 ---
-
 # MDVA-22383: target rule indexers slow to index
 
 The MDVA-22383 patch solves the issue where reindexing the Product/Target Rule and Target Rule/Product indexers is taking too long. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-22383. Please note that the issue was fixed in Adobe Commerce 2.3.5.

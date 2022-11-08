@@ -1,8 +1,8 @@
 ---
 title: Static content deploy best practices in Adobe Commerce
-description: "This article talks about static content deploy (SCD) best practices in Adobe Commerce to help avoid issues where the static content would not be available on your website."
+description: This article talks about static content deploy (SCD) best practices in Adobe Commerce to help avoid issues where the static content would not be available on your website.
+exl-id: e3f723ca-8a2a-49d9-a22a-c0db550a9f13
 ---
-
 # Static content deploy best practices in Adobe Commerce
 
 This article talks about static content deploy (SCD) best practices in Adobe Commerce to help avoid issues where the static content would not be available on your website.

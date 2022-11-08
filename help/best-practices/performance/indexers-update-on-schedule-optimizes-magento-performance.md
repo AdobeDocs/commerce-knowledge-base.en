@@ -1,8 +1,8 @@
 ---
 title: Indexers "Update On Schedule" optimizes Adobe Commerce performance
-description: "This article provides a fix for low performance due to indexers being set on *Update on Save* mode and how it is a best practice to set indexers to *Update on Schedule* mode to optimize performance in Adobe Commerce."
+description: This article provides a fix for low performance due to indexers being set on *Update on Save* mode and how it is a best practice to set indexers to *Update on Schedule* mode to optimize performance in Adobe Commerce.
+exl-id: fa1c68ac-83f8-4d23-be75-156a6754745a
 ---
-
 # Indexers "Update On Schedule" optimizes Adobe Commerce performance
 
 This article provides a fix for low performance due to indexers being set on *Update on Save* mode and how it is a best practice to set indexers to *Update on Schedule* mode to optimize performance in Adobe Commerce.

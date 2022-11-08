@@ -1,8 +1,8 @@
 ---
 title: Maximum number of coupons in Adobe Commerce
-description: "This article provides recommendations on using coupons functionality in Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure, aimed at avoiding performance issues."
+description: This article provides recommendations on using coupons functionality in Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure, aimed at avoiding performance issues.
+exl-id: 17623fc8-02be-42f0-bf47-8dfa9c617853
 ---
-
 # Maximum number of coupons in Adobe Commerce
 
 This article provides recommendations on using coupons functionality in Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure, aimed at avoiding performance issues.

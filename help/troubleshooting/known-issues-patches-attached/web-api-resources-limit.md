@@ -1,8 +1,8 @@
 ---
 title: Web API unable to process requests with more than 20 items in array
-description: "This article provides a solution for the issue where Web API is unable to process a message that contains more than 20 items in the array for Adobe Commerce 2.4.3."
+description: This article provides a solution for the issue where Web API is unable to process a message that contains more than 20 items in the array for Adobe Commerce 2.4.3.
+exl-id: 7e6b3fe8-3133-4773-afa7-fbfdd98ecde9
 ---
-
 # Web API unable to process requests with more than 20 items in array
 
 This article provides a solution for the issue where Web API is unable to process a message that contains more than 20 items in the array for Adobe Commerce 2.4.3.

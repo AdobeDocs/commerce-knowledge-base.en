@@ -1,8 +1,8 @@
 ---
 title: 'MDVA-21095: INSERT INTO "search_tmp..." never ends after mass attribute update'
-description: "The MDVA-21095 patch fixes the issue when a query `INSERT INTO` \"search\\_tmp...\" never ends after a mass attribute update. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-21095. Please note that there is no current plan to fix this issue in future versions."
+description: The MDVA-21095 patch fixes the issue when a query `INSERT INTO` "search\_tmp..." never ends after a mass attribute update. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-21095. Please note that there is no current plan to fix this issue in future versions.
+exl-id: fd599473-b49a-4f9c-a13f-612d05e43f09
 ---
-
 # MDVA-21095: INSERT INTO "search_tmp..." never ends after mass attribute update
 
 The MDVA-21095 patch fixes the issue when a query `INSERT INTO` "search\_tmp..." never ends after a mass attribute update. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-21095. Please note that there is no current plan to fix this issue in future versions.

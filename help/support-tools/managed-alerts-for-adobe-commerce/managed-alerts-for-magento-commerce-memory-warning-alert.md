@@ -1,8 +1,8 @@
 ---
-title: "Managed alerts for Adobe Commerce: memory warning alert"
-description: "This article provides troubleshooting steps for when you receive a memory warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected."
+title: 'Managed alerts for Adobe Commerce: memory warning alert'
+description: This article provides troubleshooting steps for when you receive a memory warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
+exl-id: bb5eb3f4-b162-4737-93d5-4037f2844bb1
 ---
-
 # Managed alerts for Adobe Commerce: memory warning alert
 
 This article provides troubleshooting steps for when you receive a memory warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.

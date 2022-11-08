@@ -1,8 +1,8 @@
 ---
-title: "MDVA-32694 patch: issue adding product to a quote"
-description: "The MDVA-32694 patch solves the issue of being unable to add a valid product in Admin to a negotiable quote created on the non-default website."
+title: 'MDVA-32694 patch: issue adding product to a quote'
+description: The MDVA-32694 patch solves the issue of being unable to add a valid product in Admin to a negotiable quote created on the non-default website.
+exl-id: 964abbbd-c8b1-4645-a393-7283f52e94ff
 ---
-
 # MDVA-32694 patch: issue adding product to a quote
 
 The MDVA-32694 patch solves the issue of being unable to add a valid product in Admin to a negotiable quote created on the non-default website.

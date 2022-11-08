@@ -1,8 +1,8 @@
 ---
 title: Adobe Security Notification Service
-description: "Security is one of our highest priorities, and Adobe understands that security is important to our customers as well."
+description: Security is one of our highest priorities, and Adobe understands that security is important to our customers as well.
+exl-id: bea2cd51-0086-4bbb-9f85-c626007fab62
 ---
-
 # Adobe Security Notification Service
 
 Security is one of our highest priorities, and Adobe understands that security is important to our customers as well.

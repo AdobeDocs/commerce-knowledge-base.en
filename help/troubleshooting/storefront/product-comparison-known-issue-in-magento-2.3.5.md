@@ -1,8 +1,8 @@
 ---
 title: Product comparison known issue in Adobe Commerce 2.3.5
-description: "This article provides recommendations on how to avoid a known [product comparison](https://docs.magento.com/user-guide/marketing/product-compare.html) issue in Adobe Commerce on-premises 2.3.5 and Adobe Commerce on cloud infrastructure 2.3.5."
+description: This article provides recommendations on how to avoid a known [product comparison](https://docs.magento.com/user-guide/marketing/product-compare.html) issue in Adobe Commerce on-premises 2.3.5 and Adobe Commerce on cloud infrastructure 2.3.5.
+exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 ---
-
 # Product comparison known issue in Adobe Commerce 2.3.5
 
 This article provides recommendations on how to avoid a known [product comparison](https://docs.magento.com/user-guide/marketing/product-compare.html) issue in Adobe Commerce on-premises 2.3.5 and Adobe Commerce on cloud infrastructure 2.3.5.

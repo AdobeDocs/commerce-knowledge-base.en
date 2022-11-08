@@ -1,8 +1,8 @@
 ---
 title: "MDVA-24201: Catalog price rules don't work"
-description: "The MDVA-24201 patch solves the issue where active catalog price rules in the database do not apply on the frontend."
+description: The MDVA-24201 patch solves the issue where active catalog price rules in the database do not apply on the frontend.
+exl-id: ae541c40-403a-46e9-a486-2a1e8991f05a
 ---
-
 # MDVA-24201: Catalog price rules don't work
 
 The MDVA-24201 patch solves the issue where active catalog price rules in the database do not apply on the frontend.

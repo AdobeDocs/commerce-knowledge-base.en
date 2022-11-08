@@ -1,8 +1,8 @@
 ---
 title: Cannot install using nginx
-description: "This article provides a fix for a failed Adobe Commerce installation, when using the nginx web server."
+description: This article provides a fix for a failed Adobe Commerce installation, when using the nginx web server.
+exl-id: 0af90c7e-0733-41c8-b217-9595b133fa95
 ---
-
 # Cannot install using nginx
 
 This article provides a fix for a failed Adobe Commerce installation, when using the nginx web server.

@@ -1,8 +1,8 @@
 ---
 title: Elasticsearch 5 is configured, but search page does not load with "Fielddata is disabled..." error
-description: "This topic describes how to fix the issue with Elasticsearch 5, where the search page does not load, and the exception similar to the following is thrown:"
+description: 'This topic describes how to fix the issue with Elasticsearch 5, where the search page does not load, and the exception similar to the following is thrown:'
+exl-id: f5fa8144-4e7c-45ce-89d0-a8367e91d6db
 ---
-
 # Elasticsearch 5 is configured, but search page does not load with "Fielddata is disabled..." error
 
 This topic describes how to fix the issue with Elasticsearch 5, where the search page does not load, and the exception similar to the following is thrown:

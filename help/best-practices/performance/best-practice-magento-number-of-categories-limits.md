@@ -1,8 +1,8 @@
 ---
 title: Best practice Adobe Commerce number of categories limits
-description: "This article provides best practices for number of categories limit for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure."
+description: This article provides best practices for number of categories limit for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure.
+exl-id: 606bbb4c-2e25-4caf-930e-dcb301ddd1cd
 ---
-
 # Best practice Adobe Commerce number of categories limits
 
 This article provides best practices for number of categories limit for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure.

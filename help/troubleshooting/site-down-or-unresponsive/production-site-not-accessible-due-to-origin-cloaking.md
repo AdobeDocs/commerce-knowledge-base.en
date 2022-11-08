@@ -1,8 +1,8 @@
 ---
 title: Site not accessible due to origin cloaking
-description: "This article provides a solution for when your Adobe Commerce on cloud infrastructure staging or production site storefront and/or Admin is not accessible."
+description: This article provides a solution for when your Adobe Commerce on cloud infrastructure staging or production site storefront and/or Admin is not accessible.
+exl-id: 4412d744-3066-4f78-bc45-8149614ce455
 ---
-
 # Site not accessible due to origin cloaking
 
 This article provides a solution for when your Adobe Commerce on cloud infrastructure staging or production site storefront and/or Admin is not accessible.

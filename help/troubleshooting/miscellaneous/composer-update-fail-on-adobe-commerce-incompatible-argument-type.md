@@ -1,8 +1,8 @@
 ---
-title: "Composer update fail on Adobe Commerce: Incompatible argument type"
-description: "This article provides a solution for when deployment is stuck because there is an issue with code compilation. This issue is caused by a new version of symfony/console dependency (4.4.27, 4.4.28)."
+title: 'Composer update fail on Adobe Commerce: Incompatible argument type'
+description: This article provides a solution for when deployment is stuck because there is an issue with code compilation. This issue is caused by a new version of symfony/console dependency (4.4.27, 4.4.28).
+exl-id: ba2dd229-29f6-43e2-9467-8bd1bf59e6ef
 ---
-
 # Composer update fail on Adobe Commerce: Incompatible argument type
 
 >[!NOTE]

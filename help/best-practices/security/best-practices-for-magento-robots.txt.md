@@ -1,8 +1,8 @@
 ---
 title: Best practices for Adobe Commerce robots.txt
-description: "This article provides best practices for using `robots.txt` in Adobe Commerce. This includes configuration and security. The `robots.txt` file is a text file that instructs web robots (typically search engine robots) how to crawl pages on their website."
+description: This article provides best practices for using `robots.txt` in Adobe Commerce. This includes configuration and security. The `robots.txt` file is a text file that instructs web robots (typically search engine robots) how to crawl pages on their website.
+exl-id: 0c5ef498-67fd-422c-a35a-9561ea2b2523
 ---
-
 # Best practices for Adobe Commerce robots.txt
 
 This article provides best practices for using `robots.txt` in Adobe Commerce. This includes configuration and security. The `robots.txt` file is a text file that instructs web robots (typically search engine robots) how to crawl pages on their website.

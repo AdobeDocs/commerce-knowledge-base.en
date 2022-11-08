@@ -1,8 +1,8 @@
 ---
-title: "Adobe Commerce best practice: disable Reports if not using"
-description: "Adobe recommends disabling the [Reports functionality](https://docs.magento.com/user-guide/configuration/general/reports.html) if you are not using it or the related dynamic customer segments functionality. Having it enabled might slow product pages loading causing performance degradation on the storefront catalog."
+title: 'Adobe Commerce best practice: disable Reports if not using'
+description: Adobe recommends disabling the [Reports functionality](https://docs.magento.com/user-guide/configuration/general/reports.html) if you are not using it or the related dynamic customer segments functionality. Having it enabled might slow product pages loading causing performance degradation on the storefront catalog.
+exl-id: 75f48f44-5c9e-464c-8321-c52666eef629
 ---
-
 # Adobe Commerce best practice: disable Reports if not using
 
 Adobe recommends disabling the [Reports functionality](https://docs.magento.com/user-guide/configuration/general/reports.html) if you are not using it or the related dynamic customer segments functionality. Having it enabled might slow product pages loading causing performance degradation on the storefront catalog.

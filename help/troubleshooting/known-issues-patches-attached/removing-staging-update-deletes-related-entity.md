@@ -1,8 +1,8 @@
 ---
 title: Removing staging update deletes related entity
-description: "This article provides a patch for the known Adobe Commerce 2.2.3 issue related to the entity (category, CMS page, etc.) itself being removed when the related schedule update is deleted."
+description: This article provides a patch for the known Adobe Commerce 2.2.3 issue related to the entity (category, CMS page, etc.) itself being removed when the related schedule update is deleted.
+exl-id: 91138ac1-916e-4dd1-bad5-892524fdd9e1
 ---
-
 # Removing staging update deletes related entity
 
 This article provides a patch for the known Adobe Commerce 2.2.3 issue related to the entity (category, CMS page, etc.) itself being removed when the related schedule update is deleted.

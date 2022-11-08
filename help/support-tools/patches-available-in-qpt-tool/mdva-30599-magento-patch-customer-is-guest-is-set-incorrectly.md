@@ -1,8 +1,8 @@
 ---
-title: "MDVA-30599: customer_is_guest is set incorrectly"
-description: "The MDVA-30599 patch fixes the issue where guest quotes created using API are incorrectly marked as quotes for logged-in customers. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.6 is installed. The issue was fixed in Adobe Commerce 2.4.2."
+title: 'MDVA-30599: customer_is_guest is set incorrectly'
+description: The MDVA-30599 patch fixes the issue where guest quotes created using API are incorrectly marked as quotes for logged-in customers. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.6 is installed. The issue was fixed in Adobe Commerce 2.4.2.
+exl-id: e16bb926-241b-451e-89a5-33000f73c5b7
 ---
-
 # MDVA-30599: customer_is_guest is set incorrectly
 
 The MDVA-30599 patch fixes the issue where guest quotes created using API are incorrectly marked as quotes for logged-in customers. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.6 is installed. The issue was fixed in Adobe Commerce 2.4.2.

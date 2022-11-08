@@ -1,8 +1,8 @@
 ---
 title: Cron tasks lock tasks from other groups
-description: "This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs."
+description: This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs.
+exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 ---
-
 # Cron tasks lock tasks from other groups
 
 This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs.

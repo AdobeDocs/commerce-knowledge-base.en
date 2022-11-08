@@ -1,8 +1,8 @@
 ---
 title: Max sales rules best practice in Adobe Commerce
-description: "The maximum recommended total number of sales rules (cart price rules) for all websites is 1000 in Adobe Commerce. Having many sales rules can have a negative impact on performance. The limitation is due to needing to validate cart contents against all rules registered in the system to apply the necessary rules."
+description: The maximum recommended total number of sales rules (cart price rules) for all websites is 1000 in Adobe Commerce. Having many sales rules can have a negative impact on performance. The limitation is due to needing to validate cart contents against all rules registered in the system to apply the necessary rules.
+exl-id: 1734df02-3fb3-4838-bd90-53f72d475b98
 ---
-
 # Max sales rules best practice in Adobe Commerce
 
 The maximum recommended total number of sales rules (cart price rules) for all websites is 1000 in Adobe Commerce. Having many sales rules can have a negative impact on performance. The limitation is due to needing to validate cart contents against all rules registered in the system to apply the necessary rules.

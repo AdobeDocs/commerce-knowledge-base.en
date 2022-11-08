@@ -1,8 +1,8 @@
 ---
 title: Block malicious traffic for Adobe Commerce on Fastly level
-description: "This article provides the steps you could take to block malicious traffic, when you suspect that your Adobe Commerce on cloud infrastructure store is experiencing a DDoS attack."
+description: This article provides the steps you could take to block malicious traffic, when you suspect that your Adobe Commerce on cloud infrastructure store is experiencing a DDoS attack.
+exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 ---
-
 # Block malicious traffic for Adobe Commerce on Fastly level
 
 This article provides the steps you could take to block malicious traffic, when you suspect that your Adobe Commerce on cloud infrastructure store is experiencing a DDoS attack.

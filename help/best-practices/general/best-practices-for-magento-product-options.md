@@ -1,8 +1,8 @@
 ---
 title: Best practices for Adobe Commerce product options
-description: "This article provides best practices for product options in Adobe Commerce. Our recommendation is to have not more than 100 options per product, as performance can be affected."
+description: This article provides best practices for product options in Adobe Commerce. Our recommendation is to have not more than 100 options per product, as performance can be affected.
+exl-id: d3e9cadc-3bd5-4739-b0c4-491523f82a7a
 ---
-
 # Best practices for Adobe Commerce product options
 
 This article provides best practices for product options in Adobe Commerce. Our recommendation is to have not more than 100 options per product, as performance can be affected.

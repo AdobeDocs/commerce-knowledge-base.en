@@ -1,8 +1,8 @@
 ---
-title: "MDVA-28511: accented letters hang Payflow payments"
-description: "The MDVA-28511 patch solves the issue when payments through **Payflow Pro** don't complete for customer names with accented letters."
+title: 'MDVA-28511: accented letters hang Payflow payments'
+description: The MDVA-28511 patch solves the issue when payments through **Payflow Pro** don't complete for customer names with accented letters.
+exl-id: ecc827e3-2a1c-4f32-a0e2-9c5792483e7d
 ---
-
 # MDVA-28511: accented letters hang Payflow payments
 
 The MDVA-28511 patch solves the issue when payments through **Payflow Pro** don't complete for customer names with accented letters.

@@ -1,8 +1,8 @@
 ---
-title: "MDVA-31295: Loyalty points on partial orders"
-description: "The MDVA-31295 patch fixes the issue where reward points are not calculated correctly when a partial order completes and items are taxed. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2."
+title: 'MDVA-31295: Loyalty points on partial orders'
+description: The MDVA-31295 patch fixes the issue where reward points are not calculated correctly when a partial order completes and items are taxed. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+exl-id: 10e8a3a9-bfab-4256-b772-fd64e8885da3
 ---
-
 # MDVA-31295: Loyalty points on partial orders
 
 The MDVA-31295 patch fixes the issue where reward points are not calculated correctly when a partial order completes and items are taxed. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.

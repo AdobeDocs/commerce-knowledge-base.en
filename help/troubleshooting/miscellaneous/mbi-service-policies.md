@@ -1,8 +1,8 @@
 ---
 title: MBI Service Policies
-description: "At Magento BI, our goal is to provide stellar customer service, safeguard your data, and give you the know-how you need to make data-driven decisions."
+description: At Magento BI, our goal is to provide stellar customer service, safeguard your data, and give you the know-how you need to make data-driven decisions.
+exl-id: 2e1ef4b3-a77c-4281-8337-fb90574a44f7
 ---
-
 # MBI Service Policies
 
 At Magento BI, our goal is to provide stellar customer service, safeguard your data, and give you the know-how you need to make data-driven decisions.

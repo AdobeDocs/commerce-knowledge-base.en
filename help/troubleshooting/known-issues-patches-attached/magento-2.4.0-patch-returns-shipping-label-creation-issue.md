@@ -1,8 +1,8 @@
 ---
-title: "Adobe Commerce 2.4.0 patch: returns shipping label creation issue"
-description: "This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers’ returns."
+title: 'Adobe Commerce 2.4.0 patch: returns shipping label creation issue'
+description: This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers’ returns.
+exl-id: f78f8d7e-29e9-4d6c-83f6-cd5afa1d7d9c
 ---
-
 # Adobe Commerce 2.4.0 patch: returns shipping label creation issue
 
 This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers’ returns.

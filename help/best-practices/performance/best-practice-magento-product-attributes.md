@@ -1,8 +1,8 @@
 ---
 title: Best practice Adobe Commerce product attributes
-description: "This article provides best practices for the maximum recommended number of product attributes in Adobe Commerce."
+description: This article provides best practices for the maximum recommended number of product attributes in Adobe Commerce.
+exl-id: c2d48be1-b4fb-4474-97b3-24e85b1d67b2
 ---
-
 # Best practice Adobe Commerce product attributes
 
 This article provides best practices for the maximum recommended number of product attributes in Adobe Commerce.

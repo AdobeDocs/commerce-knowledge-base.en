@@ -1,8 +1,8 @@
 ---
 title: Products per page limit Adobe Commerce
-description: "This article provides a best practice for using the **Allow All Products per Page** setting, depending on your catalog size, to optimize Adobe Commerce storefront performance."
+description: This article provides a best practice for using the **Allow All Products per Page** setting, depending on your catalog size, to optimize Adobe Commerce storefront performance.
+exl-id: a4ddf48d-3b65-486e-8805-e04e0a521ffd
 ---
-
 # Products per page limit Adobe Commerce
 
 This article provides a best practice for using the **Allow All Products per Page** setting, depending on your catalog size, to optimize Adobe Commerce storefront performance.

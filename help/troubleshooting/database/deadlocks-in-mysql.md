@@ -1,8 +1,8 @@
 ---
 title: Deadlocks in MySQL
-description: "This article talks about deadlocks in MySQL to help identify and resolve them if they cause a site down, stuck database import, or other Adobe Commerce issues."
+description: This article talks about deadlocks in MySQL to help identify and resolve them if they cause a site down, stuck database import, or other Adobe Commerce issues.
+exl-id: 529d1c0b-77f3-4604-9878-e7ea2c9c3640
 ---
-
 # Deadlocks in MySQL
 
 This article talks about deadlocks in MySQL to help identify and resolve them if they cause a site down, stuck database import, or other Adobe Commerce issues.

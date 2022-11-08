@@ -1,8 +1,8 @@
 ---
 title: Best practice for OPcache memory size in Adobe Commerce
-description: "For Adobe Commerce on cloud infrastructure Pro plan architecture 2.3.x - 2.4.x, it is recommended to set `opcache.memory_consumption` to at least 2GB, to avoid performance degradation."
+description: For Adobe Commerce on cloud infrastructure Pro plan architecture 2.3.x - 2.4.x, it is recommended to set `opcache.memory_consumption` to at least 2GB, to avoid performance degradation.
+exl-id: 09208476-5a5e-4548-9503-cf31795bdc7e
 ---
-
 # Best practice for OPcache memory size in Adobe Commerce
 
 For Adobe Commerce on cloud infrastructure Pro plan architecture 2.3.x - 2.4.x, it is recommended to set `opcache.memory_consumption` to at least 2GB, to avoid performance degradation.

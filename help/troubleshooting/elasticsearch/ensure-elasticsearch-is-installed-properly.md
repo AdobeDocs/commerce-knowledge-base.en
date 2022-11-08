@@ -1,8 +1,8 @@
 ---
 title: Ensure Elasticsearch is installed properly
-description: "This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration."
+description: This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration.
+exl-id: d2c5971c-4db4-4857-ae79-970313bce981
 ---
-
 # Ensure Elasticsearch is installed properly
 
 This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration.

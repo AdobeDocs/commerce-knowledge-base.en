@@ -1,8 +1,8 @@
 ---
 title: Adobe Commerce frontend performance best practices
-description: "It is a best practice to use web performance tools to check the frontend performance of your Adobe Commerce store."
+description: It is a best practice to use web performance tools to check the frontend performance of your Adobe Commerce store.
+exl-id: 41bd4efe-2cfa-44e4-b0fa-f81a3ef317f4
 ---
-
 # Adobe Commerce frontend performance best practices
 
 It is a best practice to use web performance tools to check the frontend performance of your Adobe Commerce store.

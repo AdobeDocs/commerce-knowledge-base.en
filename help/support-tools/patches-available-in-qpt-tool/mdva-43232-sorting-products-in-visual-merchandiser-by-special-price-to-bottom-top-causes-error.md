@@ -1,8 +1,8 @@
 ---
-title: "MDVA-43232: Sorting products in visual merchandiser by Special Price to Top (or Bottom) causes an error"
-description: "The MDVA-43232 patch fixes the issue where sorting products in visual merchandiser by Special Price to Top (or Bottom) causes an error while saving category. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 is installed. The patch ID is MDVA-43232. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
+title: 'MDVA-43232: Sorting products in visual merchandiser by Special Price to Top (or Bottom) causes an error'
+description: The MDVA-43232 patch fixes the issue where sorting products in visual merchandiser by Special Price to Top (or Bottom) causes an error while saving category. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 is installed. The patch ID is MDVA-43232. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+exl-id: e958a219-5e93-4ae4-94cb-f478f82ad060
 ---
-
 # MDVA-43232: Sorting products in visual merchandiser by Special Price to Top (or Bottom) causes an error
 
 The MDVA-43232 patch fixes the issue where sorting products in visual merchandiser by Special Price to Top (or Bottom) causes an error while saving category. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 is installed. The patch ID is MDVA-43232. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.

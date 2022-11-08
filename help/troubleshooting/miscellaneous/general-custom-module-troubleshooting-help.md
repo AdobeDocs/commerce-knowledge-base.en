@@ -1,8 +1,8 @@
 ---
 title: General custom module troubleshooting help
-description: "This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce."
+description: This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce.
+exl-id: c6603a2b-dc98-4022-ab29-c081c2b07415
 ---
-
 # General custom module troubleshooting help
 
 This article talks about general tools to help in troubleshooting custom modules in Adobe Commerce.

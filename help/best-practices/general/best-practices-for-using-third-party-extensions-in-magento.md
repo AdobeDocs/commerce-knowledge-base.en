@@ -1,8 +1,8 @@
 ---
 title: Best Practices for using third-party extensions in Adobe Commerce
-description: "This article provides some best practices for potential issues with third-party extensions (modules) used in Adobe Commerce."
+description: This article provides some best practices for potential issues with third-party extensions (modules) used in Adobe Commerce.
+exl-id: 6b18160e-cd5d-4169-a0c2-621e407455bf
 ---
-
 # Best Practices for using third-party extensions in Adobe Commerce
 
 This article provides some best practices for potential issues with third-party extensions (modules) used in Adobe Commerce.

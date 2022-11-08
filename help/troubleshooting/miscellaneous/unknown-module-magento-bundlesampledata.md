@@ -1,8 +1,8 @@
 ---
 title: Unknown module Magento_BundleSampleData
-description: "This article provides a fix for the unknown module error during installation of Adobe Commerce."
+description: This article provides a fix for the unknown module error during installation of Adobe Commerce.
+exl-id: c927bc8f-d70b-4305-87c1-223001212555
 ---
-
 # Unknown module Magento_BundleSampleData
 
 This article provides a fix for the unknown module error during installation of Adobe Commerce.

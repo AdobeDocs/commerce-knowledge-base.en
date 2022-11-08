@@ -1,8 +1,8 @@
 ---
-title: "Adobe Commerce 2.4.0 B2B: wrong purchase order logic when discount expired"
-description: "This article provides a patch for the known issue of a purchase order (PO) discount not being applied in Adobe Commerce 2.4.0 B2B. If the PO was placed with a discount code that expired while the PO was in the approval process, the approved order does not reflect the discount."
+title: 'Adobe Commerce 2.4.0 B2B: wrong purchase order logic when discount expired'
+description: This article provides a patch for the known issue of a purchase order (PO) discount not being applied in Adobe Commerce 2.4.0 B2B. If the PO was placed with a discount code that expired while the PO was in the approval process, the approved order does not reflect the discount.
+exl-id: 3ef41655-c31e-4e9c-8985-fa1b4fd53170
 ---
-
 # Adobe Commerce 2.4.0 B2B: wrong purchase order logic when discount expired
 
 This article provides a patch for the known issue of a purchase order (PO) discount not being applied in Adobe Commerce 2.4.0 B2B. If the PO was placed with a discount code that expired while the PO was in the approval process, the approved order does not reflect the discount.

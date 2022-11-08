@@ -1,8 +1,8 @@
 ---
 title: Common PHP Fatal Errors and solutions
-description: "This article lists some common PHP Fatal Error quick examples that you could find when looking through your Adobe Commerce logs and the solutions for problems they indicate."
+description: This article lists some common PHP Fatal Error quick examples that you could find when looking through your Adobe Commerce logs and the solutions for problems they indicate.
+exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 ---
-
 # Common PHP Fatal Errors and solutions
 
 This article lists some common PHP Fatal Error quick examples that you could find when looking through your Adobe Commerce logs and the solutions for problems they indicate.

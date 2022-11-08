@@ -1,8 +1,8 @@
 ---
 title: Google Shopping ads Channel Troubleshooting
-description: "The following information provides help when you encounter issues, errors, or banner messages with Google Shopping ads. For searchable help for Google troubleshooting, see this site."
+description: The following information provides help when you encounter issues, errors, or banner messages with Google Shopping ads. For searchable help for Google troubleshooting, see this site.
+exl-id: b2db35d3-3077-458d-9463-8124bfbddfbb
 ---
-
 # Google Shopping ads Channel Troubleshooting
 
 >[!NOTE]

@@ -1,8 +1,8 @@
 ---
 title: Best practice Adobe Commerce product variations
-description: "This article provides best practices for product variations. Our recommendation is to have not more than 50 variations per product, as performance can be affected."
+description: This article provides best practices for product variations. Our recommendation is to have not more than 50 variations per product, as performance can be affected.
+exl-id: 5513f4f9-beab-4e81-94ea-0cdffa44cddf
 ---
-
 # Best practice Adobe Commerce product variations
 
 This article provides best practices for product variations. Our recommendation is to have not more than 50 variations per product, as performance can be affected.

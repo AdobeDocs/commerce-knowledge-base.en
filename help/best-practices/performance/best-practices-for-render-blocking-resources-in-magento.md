@@ -1,8 +1,8 @@
 ---
 title: Best practices for render-blocking resources in Adobe Commerce
-description: "This article provides guidance on preventing resources blocking page rendering in Adobe Commerce, which can lead to a significant increase in page rendering time and cause performance degradation."
+description: This article provides guidance on preventing resources blocking page rendering in Adobe Commerce, which can lead to a significant increase in page rendering time and cause performance degradation.
+exl-id: 4e1009eb-69b2-47b2-b356-a7aa0718e1d5
 ---
-
 # Best practices for render-blocking resources in Adobe Commerce
 
 This article provides guidance on preventing resources blocking page rendering in Adobe Commerce, which can lead to a significant increase in page rendering time and cause performance degradation.

@@ -1,8 +1,8 @@
 ---
 title: Realpath cache size best practice
-description: "It is recommended that you set realpath cache size to 10 MB for Adobe Commerce on-premises 2.3.x and Adobe Commerce on cloud infrastructure 2.3.x users. Realpath cache caches the real file system paths of filenames referenced instead of looking them up each time. Every time various file functions are performed or require a file and use a relative path, PHP has to look up where that file really exists."
+description: It is recommended that you set realpath cache size to 10 MB for Adobe Commerce on-premises 2.3.x and Adobe Commerce on cloud infrastructure 2.3.x users. Realpath cache caches the real file system paths of filenames referenced instead of looking them up each time. Every time various file functions are performed or require a file and use a relative path, PHP has to look up where that file really exists.
+exl-id: 522a160a-c5e6-43c1-8b9b-9e13903dc1f3
 ---
-
 # Realpath cache size best practice
 
 It is recommended that you set realpath cache size to 10 MB for Adobe Commerce on-premises 2.3.x and Adobe Commerce on cloud infrastructure 2.3.x users. Realpath cache caches the real file system paths of filenames referenced instead of looking them up each time. Every time various file functions are performed or require a file and use a relative path, PHP has to look up where that file really exists.

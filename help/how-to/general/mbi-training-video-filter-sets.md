@@ -1,8 +1,8 @@
 ---
-title: "MBI Training Video: Filter Sets"
-description: "Do you want to analyze only certain pieces of your business data? Tired of manually cleaning things up? In Magento BI, you can use the filter sets feature to simplify this process."
+title: 'MBI Training Video: Filter Sets'
+description: Do you want to analyze only certain pieces of your business data? Tired of manually cleaning things up? In Magento BI, you can use the filter sets feature to simplify this process.
+exl-id: 2756f1f0-1465-4a7b-b249-7a3b36674e43
 ---
-
 # MBI Training Video: Filter Sets
 
 Do you want to analyze only certain pieces of your business data? Tired of manually cleaning things up? In Magento BI, you can use the filter sets feature to simplify this process.

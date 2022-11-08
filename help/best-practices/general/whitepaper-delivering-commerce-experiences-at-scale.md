@@ -1,8 +1,8 @@
 ---
 title: Whitepaper - Delivering commerce experiences at scale
-description: "There is great value integrating the strengths of Adobe Experience Manager (AEM), Commerce Integration Framework (CIF), and Adobe Commerce."
+description: There is great value integrating the strengths of Adobe Experience Manager (AEM), Commerce Integration Framework (CIF), and Adobe Commerce.
+exl-id: e68c22db-5bc1-479f-8ffe-907dcf698d07
 ---
-
 # Whitepaper - Delivering commerce experiences at scale
 
 There is great value integrating the strengths of Adobe Experience Manager (AEM), Commerce Integration Framework (CIF), and Adobe Commerce.

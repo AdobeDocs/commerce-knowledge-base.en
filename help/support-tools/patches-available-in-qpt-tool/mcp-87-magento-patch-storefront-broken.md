@@ -1,8 +1,8 @@
 ---
-title: "MCP-87 Adobe Commerce patch: storefront broken"
-description: "The MCP-87 Adobe Commerce patch fixed the issue where stock reindexing of catalogs is slow. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.13 is installed."
+title: 'MCP-87 Adobe Commerce patch: storefront broken'
+description: The MCP-87 Adobe Commerce patch fixed the issue where stock reindexing of catalogs is slow. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.13 is installed.
+exl-id: 048b2764-6bbf-4a02-9a0a-dbea4e48f92a
 ---
-
 # MCP-87 Adobe Commerce patch: storefront broken
 
 The MCP-87 Adobe Commerce patch fixed the issue where stock reindexing of catalogs is slow. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.13 is installed.

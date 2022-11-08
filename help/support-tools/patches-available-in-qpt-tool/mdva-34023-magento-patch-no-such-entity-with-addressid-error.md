@@ -1,8 +1,8 @@
 ---
 title: 'MDVA-34023 patch: "No such entity with addressId" error'
-description: "The MDVA-34023 patch solves the issue where `No such entity with addressId` errors occur randomly on a customer's web browser."
+description: The MDVA-34023 patch solves the issue where `No such entity with addressId` errors occur randomly on a customer's web browser.
+exl-id: bdf8f97d-856a-4dd7-bf21-941d1493496c
 ---
-
 # MDVA-34023 patch: "No such entity with addressId" error
 
 The MDVA-34023 patch solves the issue where `No such entity with addressId` errors occur randomly on a customer's web browser.

@@ -1,8 +1,8 @@
 ---
-title: "ACSD-46520: Incorrect order status when refunded using store credits"
+title: 'ACSD-46520: Incorrect order status when refunded using store credits'
 description: This article provides a solution for the issue where users get an incorrect order status when refunded using store credits.
+exl-id: 8464df22-0223-4ded-a15f-ce06eacdf77c
 ---
-
 # ACSD-46520: Incorrect order status when refunded using store credits
 
 The ACSD-46520 patch solves the issue where users get an incorrect order status when refunded using store credits. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md?lang=en) 1.1.20 is installed. The patch ID is ACSD-46520. Please note that the issue was fixed in Adobe Commerce 2.4.5.

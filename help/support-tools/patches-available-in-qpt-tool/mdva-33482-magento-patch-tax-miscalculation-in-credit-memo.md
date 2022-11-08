@@ -1,8 +1,8 @@
 ---
-title: "MDVA-33482 patch: tax miscalculation in credit memo"
-description: "The MDVA-33482 patch solves the issue where tax is miscalculated in credit memos."
+title: 'MDVA-33482 patch: tax miscalculation in credit memo'
+description: The MDVA-33482 patch solves the issue where tax is miscalculated in credit memos.
+exl-id: 80740e6f-2b6c-4770-9a1a-58ba68a1b28f
 ---
-
 # MDVA-33482 patch: tax miscalculation in credit memo
 
 The MDVA-33482 patch solves the issue where tax is miscalculated in credit memos.

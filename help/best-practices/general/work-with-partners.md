@@ -1,8 +1,8 @@
 ---
 title: Partner escalation checklist
-description: "Below are ideas to help you prepare for a Partner escalation with a CSM or to avoid the escalation entirely."
+description: Below are ideas to help you prepare for a Partner escalation with a CSM or to avoid the escalation entirely.
+exl-id: e2084b4b-936f-4ea8-bbd8-fc1edd8660b7
 ---
-
 # Partner escalation checklist
 
 Below are ideas to help you prepare for a Partner escalation with a CSM or to avoid the escalation entirely.

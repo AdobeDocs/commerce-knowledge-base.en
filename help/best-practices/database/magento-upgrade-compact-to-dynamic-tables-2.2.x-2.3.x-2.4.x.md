@@ -1,8 +1,8 @@
 ---
-title: "Adobe Commerce 2.3.5 upgrade: compact to dynamic tables"
-description: "This article provides a guide on the prerequisites to upgrade from MariaDB 10.0 to 10.2. Adobe Commerce version 2.3.5 and later requires MariaDB version 10.2."
+title: 'Adobe Commerce 2.3.5 upgrade: compact to dynamic tables'
+description: This article provides a guide on the prerequisites to upgrade from MariaDB 10.0 to 10.2. Adobe Commerce version 2.3.5 and later requires MariaDB version 10.2.
+exl-id: 75296245-a7a6-42d3-9618-7c8bfde97f48
 ---
-
 # Adobe Commerce 2.3.5 upgrade: compact to dynamic tables
 
 This article provides a guide on the prerequisites to upgrade from MariaDB 10.0 to 10.2. Adobe Commerce version 2.3.5 and later requires MariaDB version 10.2.

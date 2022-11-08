@@ -1,8 +1,8 @@
 ---
 title: Best practices Adobe Commerce order placement performance
-description: "This article provides best practices for order processing and checkout performance for Adobe Commerce."
+description: This article provides best practices for order processing and checkout performance for Adobe Commerce.
+exl-id: f48bd1b7-67a6-4858-bbcb-7d838432e950
 ---
-
 # Best practices Adobe Commerce order placement performance
 
 This article provides best practices for order processing and checkout performance for Adobe Commerce.

@@ -1,8 +1,8 @@
 ---
-title: "MDVA-30112: large number reservation inconsistencies"
-description: "The MDVA-30112 patch solves the issue where you have an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in the `inventory_reservation` table. Reservation inconsistencies include unregistered open orders and complete orders that are not registered. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2."
+title: 'MDVA-30112: large number reservation inconsistencies'
+description: The MDVA-30112 patch solves the issue where you have an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in the `inventory_reservation` table. Reservation inconsistencies include unregistered open orders and complete orders that are not registered. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
+exl-id: db74fb61-dfeb-4e99-8513-d36fd68d2267
 ---
-
 # MDVA-30112: large number reservation inconsistencies
 
 The MDVA-30112 patch solves the issue where you have an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in the `inventory_reservation` table. Reservation inconsistencies include unregistered open orders and complete orders that are not registered. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.

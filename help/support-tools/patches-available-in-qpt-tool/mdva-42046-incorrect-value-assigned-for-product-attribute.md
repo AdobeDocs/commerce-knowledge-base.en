@@ -1,8 +1,8 @@
 ---
-title: "MDVA-42046: Incorrect value assigned for product attribute"
-description: "The MDVA-42046 patch fixes the issue where an incorrect value is assigned for the product attribute while updating a product that has a date input field. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is installed. The patch ID is MDVA-42046. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
+title: 'MDVA-42046: Incorrect value assigned for product attribute'
+description: The MDVA-42046 patch fixes the issue where an incorrect value is assigned for the product attribute while updating a product that has a date input field. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is installed. The patch ID is MDVA-42046. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+exl-id: 837f5582-849c-43a3-ae02-87f71fb96061
 ---
-
 # MDVA-42046: Incorrect value assigned for product attribute
 
 The MDVA-42046 patch fixes the issue where an incorrect value is assigned for the product attribute while updating a product that has a date input field. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is installed. The patch ID is MDVA-42046. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.

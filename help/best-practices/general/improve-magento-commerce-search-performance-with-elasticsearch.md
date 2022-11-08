@@ -1,8 +1,8 @@
 ---
 title: Improve Adobe Commerce search performance with Elasticsearch
 description: This article discusses that it is a recommended best practice to replace the default MySQL search engine in Adobe Commerce with Elasticsearch because Elasticsearch is a better-performing search engine.
+exl-id: 95c3a0a6-124f-4102-864d-9c9a7eecf479
 ---
-
 # Improve Adobe Commerce search performance with Elasticsearch
 
 >[!WARNING]

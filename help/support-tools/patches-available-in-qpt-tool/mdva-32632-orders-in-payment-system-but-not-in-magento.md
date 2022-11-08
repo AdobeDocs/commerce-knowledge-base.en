@@ -1,8 +1,8 @@
 ---
-title: "MDVA-32632: Orders in payment system but not in Adobe Commerce"
-description: "The MDVA-32632 solves the issue where orders are in a payment system but not in Adobe Commerce. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.5."
+title: 'MDVA-32632: Orders in payment system but not in Adobe Commerce'
+description: The MDVA-32632 solves the issue where orders are in a payment system but not in Adobe Commerce. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.5.
+exl-id: f9b2fee4-9905-47cb-a71a-121426e93beb
 ---
-
 # MDVA-32632: Orders in payment system but not in Adobe Commerce
 
 The MDVA-32632 solves the issue where orders are in a payment system but not in Adobe Commerce. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.5.

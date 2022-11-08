@@ -1,8 +1,8 @@
 ---
 title: Product limits best practice
-description: "It is best practice to minimize the number of product Stocking Keeping Units (SKUs) to avoid performance degradation. The recommended effective product max is 10M."
+description: It is best practice to minimize the number of product Stocking Keeping Units (SKUs) to avoid performance degradation. The recommended effective product max is 10M.
+exl-id: 002743d6-15a0-4b1a-adf0-9ce19c87eeb6
 ---
-
 # Product limits best practice
 
 It is best practice to minimize the number of product Stocking Keeping Units (SKUs) to avoid performance degradation. The recommended effective product max is 10M.

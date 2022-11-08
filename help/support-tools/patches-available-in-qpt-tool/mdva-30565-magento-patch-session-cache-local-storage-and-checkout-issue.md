@@ -1,8 +1,8 @@
 ---
-title: "MDVA-30565: session cache local storage and checkout issue"
-description: "The MDVA-30565 patch solves the issue with session cache local storage and checkout. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.6 is installed."
+title: 'MDVA-30565: session cache local storage and checkout issue'
+description: The MDVA-30565 patch solves the issue with session cache local storage and checkout. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.6 is installed.
+exl-id: f0693f0c-fc6b-44af-a6a0-ebfa973bca65
 ---
-
 # MDVA-30565: session cache local storage and checkout issue
 
 The MDVA-30565 patch solves the issue with session cache local storage and checkout. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.6 is installed.

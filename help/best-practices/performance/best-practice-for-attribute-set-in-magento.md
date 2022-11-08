@@ -1,8 +1,8 @@
 ---
 title: Best practice for attribute SET in Adobe Commerce
-description: "It is best practice to remove non-used attribute sets. Exceeding the maximum attribute sets causes performance degradation and potential outages."
+description: It is best practice to remove non-used attribute sets. Exceeding the maximum attribute sets causes performance degradation and potential outages.
+exl-id: d83ac341-3cc4-4ee9-89d5-5cf3c301b4e3
 ---
-
 # Best practice for attribute SET in Adobe Commerce
 
 It is best practice to remove non-used attribute sets. Exceeding the maximum attribute sets causes performance degradation and potential outages.

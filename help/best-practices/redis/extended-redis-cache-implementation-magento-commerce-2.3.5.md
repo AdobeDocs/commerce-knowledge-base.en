@@ -1,8 +1,8 @@
 ---
 title: Extended Redis cache implementation Adobe Commerce 2.3.5+
-description: "As of Adobe Commerce (all deployment methods) 2.3.5 or higher, it is recommended that you use the extended Redis cache implementation."
+description: As of Adobe Commerce (all deployment methods) 2.3.5 or higher, it is recommended that you use the extended Redis cache implementation.
+exl-id: 35c204ec-2154-460c-8033-29d831016dc4
 ---
-
 # Extended Redis cache implementation Adobe Commerce 2.3.5+
 
 As of Adobe Commerce (all deployment methods) 2.3.5 or higher, it is recommended that you use the extended Redis cache implementation.

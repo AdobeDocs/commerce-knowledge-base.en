@@ -1,8 +1,8 @@
 ---
-title: "MDVA-36615: catalog products grid filter incorrect results"
-description: "The MDVA-36615 patch fixes the issue with incorrect product count in the admin product grid. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.21 is installed. The patch ID is MDVA-36615. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-36615: catalog products grid filter incorrect results'
+description: The MDVA-36615 patch fixes the issue with incorrect product count in the admin product grid. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.21 is installed. The patch ID is MDVA-36615. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+exl-id: 7ed70753-c637-4c13-8290-aa5e8a4d1b65
 ---
-
 # MDVA-36615: catalog products grid filter incorrect results
 
 The MDVA-36615 patch fixes the issue with incorrect product count in the admin product grid. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.21 is installed. The patch ID is MDVA-36615. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.

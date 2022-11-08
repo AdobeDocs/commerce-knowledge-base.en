@@ -1,8 +1,8 @@
 ---
-title: "cURL error 60: SSL certificate expired"
-description: "This article shows how to check when the last time a branch was deployed after receiving a cURL error 60: SSL certificate expired in the Master or Integration branches on Adobe Commerce on cloud infrastructure."
+title: 'cURL error 60: SSL certificate expired'
+description: 'This article shows how to check when the last time a branch was deployed after receiving a cURL error 60: SSL certificate expired in the Master or Integration branches on Adobe Commerce on cloud infrastructure.'
+exl-id: 74f1db7e-ee2b-4e27-8fcc-fe462a9e72c3
 ---
-
 # cURL error 60: SSL certificate expired
 
 This article shows how to check when the last time a branch was deployed after receiving a `cURL error 60`: [!DNL SSL certificate] expired in the [!DNL Master] or [!DNL Integration] branches on Adobe Commerce on cloud infrastructure.

@@ -1,8 +1,8 @@
 ---
-title: "Managed alerts for Adobe Commerce: CPU warning alert"
-description: "This article provides troubleshooting steps when you receive a CPU warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected."
+title: 'Managed alerts for Adobe Commerce: CPU warning alert'
+description: This article provides troubleshooting steps when you receive a CPU warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
+exl-id: 03686684-3b7e-430a-a05a-a96f38345322
 ---
-
 # Managed alerts for Adobe Commerce: CPU warning alert
 
 This article provides troubleshooting steps when you receive a CPU warning alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.

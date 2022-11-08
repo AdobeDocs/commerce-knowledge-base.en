@@ -1,8 +1,8 @@
 ---
-title: "The 'Current version of RDBMS not supported' error on deployment"
-description: "This article provides a solution for when a deployment fails and you have the following error in the deploy log: *current version of RDBMS is not supported*."
+title: The 'Current version of RDBMS not supported' error on deployment
+description: 'This article provides a solution for when a deployment fails and you have the following error in the deploy log: *current version of RDBMS is not supported*.'
+exl-id: e7300f64-5749-4de8-b4d2-bc4789437282
 ---
-
 # The 'Current version of RDBMS not supported' error on deployment
 
 This article provides a solution for when a deployment fails and you have the following error in the deploy log: *current version of RDBMS is not supported*.

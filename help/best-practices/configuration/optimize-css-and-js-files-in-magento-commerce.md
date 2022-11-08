@@ -1,8 +1,8 @@
 ---
 title: Optimize CSS and JS files in Adobe Commerce
-description: "This article provides best practices for CSS and Javascript (JS) file optimization in Adobe Commerce."
+description: This article provides best practices for CSS and Javascript (JS) file optimization in Adobe Commerce.
+exl-id: f61e3d21-2561-4145-87bf-107cab392b1c
 ---
-
 # Optimize CSS and JS files in Adobe Commerce
 
 This article provides best practices for CSS and Javascript (JS) file optimization in Adobe Commerce.

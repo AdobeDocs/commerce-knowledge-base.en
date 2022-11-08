@@ -1,8 +1,8 @@
 ---
 title: Most common database issues in Adobe Commerce on cloud infrastructure
-description: "This article discusses the most common database issues causing performance degradation for Adobe Commerce on cloud infrastructure sites."
+description: This article discusses the most common database issues causing performance degradation for Adobe Commerce on cloud infrastructure sites.
+exl-id: b50d0dfa-c624-4651-a005-4fcf1339577f
 ---
-
 # Most common database issues in Adobe Commerce on cloud infrastructure
 
 This article discusses the most common database issues causing performance degradation for Adobe Commerce on cloud infrastructure sites.

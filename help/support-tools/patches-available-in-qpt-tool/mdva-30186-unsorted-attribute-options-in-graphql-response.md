@@ -1,8 +1,8 @@
 ---
-title: "MDVA-30186: Unsorted attribute options in GraphQL response"
-description: "The MDVA-30186 patch solves the issue where attribute options are not sorted in the GraphQL response. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-30186. Please note that the issue was fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-30186: Unsorted attribute options in GraphQL response'
+description: The MDVA-30186 patch solves the issue where attribute options are not sorted in the GraphQL response. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-30186. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+exl-id: 7b2aef16-5012-4206-9444-e0b765f0c0c9
 ---
-
 # MDVA-30186: Unsorted attribute options in GraphQL response
 
 The MDVA-30186 patch solves the issue where attribute options are not sorted in the GraphQL response. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-30186. Please note that the issue was fixed in Adobe Commerce 2.4.3.

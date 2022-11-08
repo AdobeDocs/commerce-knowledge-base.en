@@ -1,8 +1,8 @@
 ---
 title: MySQL tables are too large
-description: "This article discusses why it is an issue when any MySQL table gets larger than 1 GB and how to prevent this."
+description: This article discusses why it is an issue when any MySQL table gets larger than 1 GB and how to prevent this.
+exl-id: 43f74e3b-7f2e-428c-9964-56d2ce98a34d
 ---
-
 # MySQL tables are too large
 
 This article discusses why it is an issue when any MySQL table gets larger than 1 GB and how to prevent this.

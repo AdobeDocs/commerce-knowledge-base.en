@@ -1,8 +1,8 @@
 ---
 title: Database best practices for Adobe Commerce on cloud infrastructure
 description: This article explains how to improve the performance of your Adobe Commerce on cloud infrastructure store by working efficiently with the database. The recommendations are relevant for both Starter architecture and Pro architecture customers.
+exl-id: 7c606e04-1de5-4868-b444-99655189bda4
 ---
-
 # Database best practices for Adobe Commerce on cloud infrastructure
 
 >[!WARNING]

@@ -1,8 +1,8 @@
 ---
 title: Best practices for Adobe Commerce product attribute options
-description: "This article provides best practices for product attribute options in Adobe Commerce. Our recommendation is to have not more than 100 attribute options per attribute, as performance can be affected."
+description: This article provides best practices for product attribute options in Adobe Commerce. Our recommendation is to have not more than 100 attribute options per attribute, as performance can be affected.
+exl-id: 180d8fcc-96bb-47fd-bc75-c274425cf084
 ---
-
 # Best practices for Adobe Commerce product attribute options
 
 This article provides best practices for product attribute options in Adobe Commerce. Our recommendation is to have not more than 100 attribute options per attribute, as performance can be affected.

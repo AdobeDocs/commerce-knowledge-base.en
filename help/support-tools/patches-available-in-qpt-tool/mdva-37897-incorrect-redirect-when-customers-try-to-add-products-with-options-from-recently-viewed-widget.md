@@ -1,8 +1,8 @@
 ---
-title: "MDVA-37897: Incorrect redirect when adding products from Recently Viewed"
-description: "The MDVA-37897 patch solves the issue of incorrect redirect when users try to add products with options from the Recently Viewed widget. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 is installed. The patch ID is MDVA-37897. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4."
+title: 'MDVA-37897: Incorrect redirect when adding products from Recently Viewed'
+description: The MDVA-37897 patch solves the issue of incorrect redirect when users try to add products with options from the Recently Viewed widget. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 is installed. The patch ID is MDVA-37897. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.
+exl-id: f0a86e02-b357-4d2d-8386-e9cc045bcf06
 ---
-
 # MDVA-37897: Incorrect redirect when adding products from Recently Viewed
 
 The MDVA-37897 patch solves the issue of incorrect redirect when users try to add products with options from the Recently Viewed widget. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 is installed. The patch ID is MDVA-37897. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.

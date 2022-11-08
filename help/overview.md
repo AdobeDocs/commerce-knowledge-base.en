@@ -1,8 +1,8 @@
 ---
 title: Adobe Commerce Support Knowledge Base
 description: Everything you need to troubleshoot and maintain your Commerce store.
+exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 ---
-
 # Adobe Commerce Support Knowledge Base
 
 ![Knowledge Base homepage](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}

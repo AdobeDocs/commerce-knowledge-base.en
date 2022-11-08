@@ -1,8 +1,8 @@
 ---
 title: "MDVA-35569: FPT won't show in GraphQL"
-description: "The MDVA-35569 patch solves the issue when FPT (fixed product tax) doesn't show in GraphQL when the state is specified in the cart. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-35569. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
+description: The MDVA-35569 patch solves the issue when FPT (fixed product tax) doesn't show in GraphQL when the state is specified in the cart. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-35569. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+exl-id: 3c38f7f9-9372-4f22-819c-c53efb9b5f78
 ---
-
 # MDVA-35569: FPT won't show in GraphQL
 
 The MDVA-35569 patch solves the issue when FPT (fixed product tax) doesn't show in GraphQL when the state is specified in the cart. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-35569. Please note that the issue was fixed in Adobe Commerce version 2.4.3.

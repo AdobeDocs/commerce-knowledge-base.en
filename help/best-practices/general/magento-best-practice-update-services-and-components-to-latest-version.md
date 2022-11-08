@@ -1,8 +1,8 @@
 ---
-title: "Magento best practice: update services and components to latest version"
-description: "This article provides recommendations to keep your Magento Commerce Cloud technology stack updated and links to helpful resources."
+title: 'Magento best practice: update services and components to latest version'
+description: This article provides recommendations to keep your Magento Commerce Cloud technology stack updated and links to helpful resources.
+exl-id: e2ce18f3-0085-4c33-8129-1059c2ea2571
 ---
-
 # Magento best practice: update services and components to latest version
 
 This article provides recommendations to keep your Magento Commerce Cloud technology stack updated and links to helpful resources.

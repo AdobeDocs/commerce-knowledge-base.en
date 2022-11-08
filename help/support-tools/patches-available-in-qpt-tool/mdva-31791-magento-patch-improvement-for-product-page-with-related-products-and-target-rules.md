@@ -1,8 +1,8 @@
 ---
-title: "MDVA-31791 patch: improvement for product page with related products and target rules"
-description: "The MDVA-31791 patch improves the performance of product pages, when [Related products](https://docs.magento.com/user-guide/catalog/settings-advanced-related-products.html) or [Related products rules](https://docs.magento.com/user-guide/marketing/product-related-rules.html) (target rules) are used. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.1."
+title: 'MDVA-31791 patch: improvement for product page with related products and target rules'
+description: The MDVA-31791 patch improves the performance of product pages, when [Related products](https://docs.magento.com/user-guide/catalog/settings-advanced-related-products.html) or [Related products rules](https://docs.magento.com/user-guide/marketing/product-related-rules.html) (target rules) are used. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.1.
+exl-id: e737bccb-d9eb-4794-9d6b-2c22fa8edaa2
 ---
-
 # MDVA-31791 patch: improvement for product page with related products and target rules
 
 The MDVA-31791 patch improves the performance of product pages, when [Related products](https://docs.magento.com/user-guide/catalog/settings-advanced-related-products.html) or [Related products rules](https://docs.magento.com/user-guide/marketing/product-related-rules.html) (target rules) are used. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.1.

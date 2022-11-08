@@ -1,8 +1,8 @@
 ---
-title: "MDVA-33559 patch: PayflowPro payment declined error"
-description: "The MDVA-33559 patch solves the issue where PayPal PayflowPro payments are declined."
+title: 'MDVA-33559 patch: PayflowPro payment declined error'
+description: The MDVA-33559 patch solves the issue where PayPal PayflowPro payments are declined.
+exl-id: aec57ffa-07c7-404e-985d-8ec4fdb019b1
 ---
-
 # MDVA-33559 patch: PayflowPro payment declined error
 
 The MDVA-33559 patch solves the issue where PayPal PayflowPro payments are declined.

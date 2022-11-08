@@ -1,8 +1,8 @@
 ---
 title: EU customers cannot complete payments
-description: "This article provides a fix for the issue of customers from the European Union not being able to complete payments."
+description: This article provides a fix for the issue of customers from the European Union not being able to complete payments.
+exl-id: 8309d96b-47a3-4d27-b538-e6e3bcdfb7d4
 ---
-
 # EU customers cannot complete payments
 
 This article provides a fix for the issue of customers from the European Union not being able to complete payments.

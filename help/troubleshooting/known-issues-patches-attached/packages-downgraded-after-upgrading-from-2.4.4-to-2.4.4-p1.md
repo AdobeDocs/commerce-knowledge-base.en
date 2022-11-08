@@ -1,8 +1,8 @@
 ---
-title: "Packages downgraded after upgrading from 2.4.4 to 2.4.4-p1"
-description: "This article provides a hotfix for the issue when merchants on version 2.4.4 run the `composer update` command, and then the packages (modules) listed below are getting downgraded to their earlier versions which are not compatible with version 2.4.4 and are only supposed to be used with version 2.4.5 and above."
+title: Packages downgraded after upgrading from 2.4.4 to 2.4.4-p1
+description: This article provides a hotfix for the issue when merchants on version 2.4.4 run the `composer update` command, and then the packages (modules) listed below are getting downgraded to their earlier versions which are not compatible with version 2.4.4 and are only supposed to be used with version 2.4.5 and above.
+exl-id: 4ebdbcd7-6905-4647-b071-1e4413455f38
 ---
-
 # Packages downgraded after upgrading from 2.4.4 to 2.4.4-p1
 
 This article provides a hotfix for the issue when merchants on version 2.4.4 run the `composer update` command, and then the packages (modules) listed below are getting downgraded to their earlier versions which are not compatible with version 2.4.4 and are only supposed to be used with version 2.4.5 and above.

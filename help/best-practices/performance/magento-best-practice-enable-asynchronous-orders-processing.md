@@ -1,8 +1,8 @@
 ---
-title: "Adobe Commerce best practice: enable asynchronous orders processing"
-description: "This article provides best practice for configuration settings that can help improve checkout performance in case of large number of simultaneously created orders."
+title: 'Adobe Commerce best practice: enable asynchronous orders processing'
+description: This article provides best practice for configuration settings that can help improve checkout performance in case of large number of simultaneously created orders.
+exl-id: 54384e3a-62d9-4986-a204-bb63cf6ada06
 ---
-
 # Adobe Commerce best practice: enable asynchronous orders processing
 
 This article provides best practice for configuration settings that can help improve checkout performance in case of large number of simultaneously created orders.

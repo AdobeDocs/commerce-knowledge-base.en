@@ -1,8 +1,8 @@
 ---
 title: Elasticsearch in Adobe Commerce troubleshooter
-description: "Elasticsearch issues on Adobe Commerce can be solved using the Elasticsearch troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter."
+description: Elasticsearch issues on Adobe Commerce can be solved using the Elasticsearch troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.
+exl-id: acae0da0-2918-4021-9fbe-c138940c5a72
 ---
-
 # Elasticsearch in Adobe Commerce troubleshooter
 
 Elasticsearch issues on Adobe Commerce can be solved using the Elasticsearch troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.

@@ -1,8 +1,8 @@
 ---
-title: "ACSD-44851: Category with subcategories not able to open or expand"
+title: 'ACSD-44851: Category with subcategories not able to open or expand'
 description: This article provides a solution for the issue where the user is unable to open or expand a category with subcategories.
+exl-id: 46ad9f9d-ed66-44df-b66d-ab9ff3923c36
 ---
-
 # ACSD-44851: Category with subcategories not able to open or expand
 
 The ACSD-44851 patch solves the issue where the user is unable to open or expand a category with subcategories. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md?lang=en) 1.1.20 is installed. The patch ID is ACSD-44851. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.

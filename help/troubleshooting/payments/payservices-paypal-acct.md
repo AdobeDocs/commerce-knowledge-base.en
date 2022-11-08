@@ -1,8 +1,8 @@
 ---
 title: PayPal sandbox account not verified
-description: "This article explains why your PayPal sandbox account for Payment Services may not be verified, disabling you from completing sandbox onboarding."
+description: This article explains why your PayPal sandbox account for Payment Services may not be verified, disabling you from completing sandbox onboarding.
+exl-id: 05ce130d-6dfe-4834-bdfc-837902100118
 ---
-
 # PayPal sandbox account not verified
 
 This article explains why your PayPal sandbox account for Payment Services may not be verified, disabling you from completing sandbox onboarding.

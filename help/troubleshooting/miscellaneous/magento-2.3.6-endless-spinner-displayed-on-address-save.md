@@ -1,8 +1,8 @@
 ---
-title: "Adobe Commerce 2.3.6: endless spinner displayed on address save"
-description: "This article describes a known Adobe Commerce 2.3.6 issue, where the waiting spinner is displayed indefinitely when saving an address in My account on the storefront."
+title: 'Adobe Commerce 2.3.6: endless spinner displayed on address save'
+description: This article describes a known Adobe Commerce 2.3.6 issue, where the waiting spinner is displayed indefinitely when saving an address in My account on the storefront.
+exl-id: 63841114-167e-4915-b6ed-ee0ef4eae36e
 ---
-
 # Adobe Commerce 2.3.6: endless spinner displayed on address save
 
 This article describes a known Adobe Commerce 2.3.6 issue, where the waiting spinner is displayed indefinitely when saving an address in My account on the storefront.

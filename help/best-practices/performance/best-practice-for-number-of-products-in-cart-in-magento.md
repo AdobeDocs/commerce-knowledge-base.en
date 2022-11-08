@@ -1,8 +1,8 @@
 ---
 title: Best practice for number of products in cart in Adobe Commerce
-description: "This article provides best practices for the number of products in a cart in Adobe Commerce. The maximum recommended number of products is 100."
+description: This article provides best practices for the number of products in a cart in Adobe Commerce. The maximum recommended number of products is 100.
+exl-id: 248c1799-a628-46b3-a6f4-4d44f6a724b8
 ---
-
 # Best practice for number of products in cart in Adobe Commerce
 
 This article provides best practices for the number of products in a cart in Adobe Commerce. The maximum recommended number of products is 100.

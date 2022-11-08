@@ -1,8 +1,8 @@
 ---
 title: Partner Adobe Commerce on cloud infrastructure sandbox requests
-description: "This FAQ article contains links to useful resources for Adobe Commerce on cloud infrastructure sandbox Requests."
+description: This FAQ article contains links to useful resources for Adobe Commerce on cloud infrastructure sandbox Requests.
+exl-id: 3ec1cbc0-1a71-4753-8fc5-51c5f1928f12
 ---
-
 # Partner Adobe Commerce on cloud infrastructure sandbox requests
 
 This FAQ article contains links to useful resources for Adobe Commerce on cloud infrastructure sandbox Requests.

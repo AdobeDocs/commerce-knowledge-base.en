@@ -1,8 +1,8 @@
 ---
 title: Cloud site is slow
-description: "This article provides recommendations on how to make your Adobe Commerce on cloud infrastructure site better performing under heavy traffic loads and how to cut this load."
+description: This article provides recommendations on how to make your Adobe Commerce on cloud infrastructure site better performing under heavy traffic loads and how to cut this load.
+exl-id: 144df36b-6305-4e57-b813-46bbb0ddedda
 ---
-
 # Cloud site is slow
 
 This article provides recommendations on how to make your Adobe Commerce on cloud infrastructure site better performing under heavy traffic loads and how to cut this load.

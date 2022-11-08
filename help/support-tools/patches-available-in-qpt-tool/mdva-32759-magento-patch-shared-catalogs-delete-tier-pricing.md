@@ -1,8 +1,8 @@
 ---
-title: "MDVA-32759 patch: shared catalogs delete tier pricing"
-description: "The MDVA-32759 patch solves the issue where shared catalogs delete existing tier pricing."
+title: 'MDVA-32759 patch: shared catalogs delete tier pricing'
+description: The MDVA-32759 patch solves the issue where shared catalogs delete existing tier pricing.
+exl-id: c6192d2f-cd25-483e-ba69-01ca62996faf
 ---
-
 # MDVA-32759 patch: shared catalogs delete tier pricing
 
 The MDVA-32759 patch solves the issue where shared catalogs delete existing tier pricing.

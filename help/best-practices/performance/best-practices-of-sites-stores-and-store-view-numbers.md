@@ -1,8 +1,8 @@
 ---
 title: Best practices of sites, stores, and store view numbers
-description: "This article provides best practices for store numbers for Adobe Commerce on cloud infrastructure Pro plan architecture accounts to optimize Adobe Commerce performance. Having a large number of stores, websites or store views can slow your site down. The maximum recommended sites, stores and store views counts is:"
+description: 'This article provides best practices for store numbers for Adobe Commerce on cloud infrastructure Pro plan architecture accounts to optimize Adobe Commerce performance. Having a large number of stores, websites or store views can slow your site down. The maximum recommended sites, stores and store views counts is:'
+exl-id: c8ce5396-eddd-4bf2-8080-5cf4365855bb
 ---
-
 # Best practices of sites, stores, and store view numbers
 
 This article provides best practices for store numbers for Adobe Commerce on cloud infrastructure Pro plan architecture accounts to optimize Adobe Commerce performance. Having a large number of stores, websites or store views can slow your site down. The maximum recommended sites, stores and store views counts is:

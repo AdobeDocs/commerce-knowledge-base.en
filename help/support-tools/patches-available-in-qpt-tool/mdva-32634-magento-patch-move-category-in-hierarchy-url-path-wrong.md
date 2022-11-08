@@ -1,8 +1,8 @@
 ---
-title: "MDVA-32634 patch: move category in hierarchy url_path wrong"
-description: "The MDVA-32634 patch solves the issue where the url\\_path of the catalog category does not change after moving the category in the hierarchy. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-32634 patch: move category in hierarchy url_path wrong'
+description: The MDVA-32634 patch solves the issue where the url\_path of the catalog category does not change after moving the category in the hierarchy. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+exl-id: a445dea6-3834-479b-9044-b6d2b863a0b5
 ---
-
 # MDVA-32634 patch: move category in hierarchy url_path wrong
 
 The MDVA-32634 patch solves the issue where the url\_path of the catalog category does not change after moving the category in the hierarchy. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.

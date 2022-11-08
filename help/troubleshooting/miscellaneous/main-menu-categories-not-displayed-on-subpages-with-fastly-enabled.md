@@ -1,8 +1,8 @@
 ---
 title: Main Menu (Categories) not displayed on subpages with Fastly enabled
-description: "This article provides a fix for when the Main Menu (or the [Category Top Navigation menu](https://docs.magento.com/m2/ce/user_guide/catalog/navigation-top.html) in our user guide) is not displayed on storefront for subpages (for example, *blog/page*) when Fastly or Varnish is enabled."
+description: This article provides a fix for when the Main Menu (or the [Category Top Navigation menu](https://docs.magento.com/m2/ce/user_guide/catalog/navigation-top.html) in our user guide) is not displayed on storefront for subpages (for example, *blog/page*) when Fastly or Varnish is enabled.
+exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 ---
-
 # Main Menu (Categories) not displayed on subpages with Fastly enabled
 
 This article provides a fix for when the Main Menu (or the [Category Top Navigation menu](https://docs.magento.com/m2/ce/user_guide/catalog/navigation-top.html) in our user guide) is not displayed on storefront for subpages (for example, *blog/page*) when Fastly or Varnish is enabled.

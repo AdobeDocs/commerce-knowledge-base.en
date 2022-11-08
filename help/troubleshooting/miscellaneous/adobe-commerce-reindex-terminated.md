@@ -1,8 +1,8 @@
 ---
-title: "Adobe Commerce cloud: reindex is terminated with `Killed` message"
-description: "* Adobe Commerce on cloud infrastructure (all versions)"
+title: 'Adobe Commerce cloud: reindex is terminated with `Killed` message'
+description: '* Adobe Commerce on cloud infrastructure (all versions)'
+exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
 ---
-
 # Adobe Commerce cloud: reindex is terminated with `Killed` message
 
 ## Affected products and versions

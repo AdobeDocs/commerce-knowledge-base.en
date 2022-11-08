@@ -1,8 +1,8 @@
 ---
 title: Best practice for images in Adobe Commerce on cloud infrastructure
-description: "This article provides best practices for managing images in Adobe Commerce on cloud infrastructure to save space."
+description: This article provides best practices for managing images in Adobe Commerce on cloud infrastructure to save space.
+exl-id: 0b643f88-f657-4fb8-9a05-b932a2336b1c
 ---
-
 # Best practice for images in Adobe Commerce on cloud infrastructure
 
 This article provides best practices for managing images in Adobe Commerce on cloud infrastructure to save space.

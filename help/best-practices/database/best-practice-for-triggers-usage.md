@@ -1,8 +1,8 @@
 ---
 title: Best practice for triggers usage
-description: "This article explains how to avoid performance issues when using MySQL triggers. Triggers are used to log changes into audit tables."
+description: This article explains how to avoid performance issues when using MySQL triggers. Triggers are used to log changes into audit tables.
+exl-id: adb5cb42-6f04-4e3c-baaf-14a22edf594d
 ---
-
 # Best practice for triggers usage
 
 This article explains how to avoid performance issues when using MySQL triggers. Triggers are used to log changes into audit tables.

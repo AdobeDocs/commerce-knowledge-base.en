@@ -1,8 +1,8 @@
 ---
 title: MySQL disk space is low on Adobe Commerce on cloud infrastructure
-description: "This article provides solutions for when you are experiencing very low space or no space for MySQL on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section."
+description: This article provides solutions for when you are experiencing very low space or no space for MySQL on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section.
+exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 ---
-
 # MySQL disk space is low on Adobe Commerce on cloud infrastructure
 
 This article provides solutions for when you are experiencing very low space or no space for MySQL on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section.

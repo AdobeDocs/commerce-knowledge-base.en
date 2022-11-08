@@ -1,8 +1,8 @@
 ---
-title: "MDVA-32714 patch: customer group price not working via GraphQL"
-description: "The MDVA-32714 patch fixes the issue where сustomer group price is not added in GraphQL product query response. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-32714 patch: customer group price not working via GraphQL'
+description: The MDVA-32714 patch fixes the issue where сustomer group price is not added in GraphQL product query response. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+exl-id: a4fc92ad-68dc-437d-8577-303007ef8a92
 ---
-
 # MDVA-32714 patch: customer group price not working via GraphQL
 
 >[!WARNING]

@@ -1,8 +1,8 @@
 ---
 title: Check patch for Adobe Commerce issue with Quality Patches Tool
-description: "This article provides an overview of Quality Patches Tool (QPT) and links to resources explaining how to use it."
+description: This article provides an overview of Quality Patches Tool (QPT) and links to resources explaining how to use it.
+exl-id: 43393708-3939-449f-a764-b2ac6326165f
 ---
-
 # Check patch for Adobe Commerce issue with Quality Patches Tool
 
 This article provides an overview of Quality Patches Tool (QPT) and links to resources explaining how to use it.

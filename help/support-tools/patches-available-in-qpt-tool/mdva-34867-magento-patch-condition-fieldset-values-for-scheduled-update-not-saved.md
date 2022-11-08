@@ -1,8 +1,8 @@
 ---
-title: "MDVA-34867: Condition fieldset values for Scheduled Update not saved"
-description: "The MDVA-34867 patch solves the issue where the value for the condition in the new schedule update is not getting saved when editing a catalog price rule. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
+title: 'MDVA-34867: Condition fieldset values for Scheduled Update not saved'
+description: The MDVA-34867 patch solves the issue where the value for the condition in the new schedule update is not getting saved when editing a catalog price rule. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+exl-id: bf514ccc-bebd-4ed2-868f-28b02b1e253e
 ---
-
 # MDVA-34867: Condition fieldset values for Scheduled Update not saved
 
 The MDVA-34867 patch solves the issue where the value for the condition in the new schedule update is not getting saved when editing a catalog price rule. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
