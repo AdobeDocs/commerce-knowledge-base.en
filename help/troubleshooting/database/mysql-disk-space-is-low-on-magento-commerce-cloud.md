@@ -70,7 +70,7 @@ The `/data/mysql` mount might become full due to a range of issues, such as not 
 
 There is an immediate step that you might take to bring MySQL back on track (or prevent it from getting stuck): free up some space by flushing big tables.
 
-But a long-term solution would be allocating more space and following [Database best practices](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md), including enabling the [Order/Invoice/Shipment archive](https://docs.magento.com/user-guide/sales/order-archive.html) functionality.
+But a long-term solution would be allocating more space and following [Database best practices](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html), including enabling the [Order/Invoice/Shipment archive](https://docs.magento.com/user-guide/sales/order-archive.html) functionality.
 
 Following are details on both quick and long-term solutions.
 

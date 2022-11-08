@@ -15,7 +15,6 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 | --- | --- |
 | [Support Tools](/help/support-tools/overview.md) | Improve your e-commerce store experience with the different support tools provided by Adobe Commerce. We provide personalized best practices, diagnostic and monitoring tools, and the most relevant information about your site. |
 | [Announcements](/help/announcements/overview.md) | Get important updates from the Adobe Commerce teams. |
-| [Best Practices](/help/best-practices/overview.md) | See best practice recommendations based on the experience of the Adobe Commerce Support team. |
 | [Troubleshooting](/help/troubleshooting/overview.md) | Get self-service solutions and patches from the Adobe Commerce Support team. |
 | [Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md) | Learn how to manage your support tickets, grant shared access, and browse the Knowledge Base effectively. |
 | [How-To](/help/how-to/overview.md) | Get clear step-by-step instructions from the Adobe Commerce Support team. |
@@ -25,6 +24,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
 | Description | Type | Date |
 | --- | --- | --- |
+| Migrated the *Best Practices* section to the [Implementation Playbook](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/phases.html). | Update | Nov 7, 2022 |
 | [Upgrade to version 10.0 DHL schema to continue offering DHL shipping:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.html?lang=en) This article provides a solution to allow merchants to continue offering DHL shipping after the DHL schema version 6.2 gets deprecated in the end of December 2022. | New article | Nov 7, 2022 |
 | [ACSD-47106: new custom attribute on company creation page not saved:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47106-new-custom-attribute-on-company-creation-page-not-saved.html?lang=en) The ACSD-47106 patch fixes the issue where a value cannot be saved in a new custom attribute on a company creation page. This patch is available when the Quality Patches Tool (QPT) 1.1.22 is installed.| New article| Nov 7, 2022 |
 |[Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.3-p2-2.4.5-security-hotfix-for-cve-2022-35698.html?lang=en) In this article you will find hotfix patches for CVE-2022-35698.| New article| Nov 7, 2022|

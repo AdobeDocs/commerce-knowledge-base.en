@@ -21,8 +21,8 @@ MariaDB 10.0 and 10.1 are end-of-life (EOL). [Support ended 31 Mar 2019 and 17 O
 To upgrade from MariaDB 10.0 to 10.2 or 10.2 to 10.3 or to 10.4, complete the following steps:
 
 1. Create a [DB backup using ECE-Tools DB backup commands](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump). This must be done before steps 2 and 3 in case something goes wrong while updating tables/rows.
-1. [Check and convert all compact tables to dynamic tables](/help/best-practices/database/magento-upgrade-compact-to-dynamic-tables-2.2.x-2.3.x-2.4.x.md). This is required to avoid potential data loss during the database upgrade.
-1. Check for MYISAM tables. You need to [convert all MyISAM tables to InnoD](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md#convert).
+1. [Check and convert all compact tables to dynamic tables](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html). This is required to avoid potential data loss during the database upgrade.
+1. Check for MYISAM tables. You need to [convert all MyISAM tables to InnoD](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html).
 1. After you have prepared the database tables and rows (the previous two steps), create a [DB backup using ECE-Tools DB backup commands](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump).
 1. [Open a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to schedule the upgrade from MariaDB 10.0 to 10.2 or 10.2 to 10.3 or 10.4. In the ticket detail the date and time when you want the DB upgraded. The support team needs 48 hours' notice and the merchants dev team needs to be available. Once the time and date are agreed for the upgrade, do the following:
     1. Put your site into maintenance mode, and stop any DB activities, e.g., crons.
