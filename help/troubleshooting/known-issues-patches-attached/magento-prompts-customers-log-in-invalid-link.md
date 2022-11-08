@@ -19,7 +19,7 @@ Adobe Commerce prompts customers to log in by displaying this message: *"This ac
 
 A patch for this issue is available in Adobe Commerce Technical Resources: [Resend account confirmation email link issue patch for Adobe Commerce 2.3.5](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368). A permanent fix will be available in Adobe Commerce 2.3.6, which is scheduled for release in Q4 2020.
 
-See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions on how to apply a composer patch.
+See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions on how to apply a composer patch.
 
 ## Related reading
 

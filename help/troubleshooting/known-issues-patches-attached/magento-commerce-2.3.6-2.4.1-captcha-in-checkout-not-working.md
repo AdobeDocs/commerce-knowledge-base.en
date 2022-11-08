@@ -71,7 +71,7 @@ These patches are not compatible with any other Adobe Commerce or Magento Open S
 
  <u>Composer patch</u>
 
-See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base for composer patch instructions.
+See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base for composer patch instructions.
 
  <u>Git patch</u>
 
