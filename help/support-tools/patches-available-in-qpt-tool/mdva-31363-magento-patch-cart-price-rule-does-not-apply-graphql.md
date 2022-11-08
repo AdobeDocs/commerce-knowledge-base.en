@@ -7,7 +7,7 @@ description: "The MDVA-31363 patch fixes the issue where the cart price rule wit
 
 >[!WARNING]
 >
->A new patch called MDVA-33975 fixes GraphQL price calculation issues. MDVA-31363 is depreciated and it is recommended that you apply the patch MDVA-33975. To access this patch, refer to [MDVA-33975 patch: GraphQL price calculations](https://support.magento.com/hc/en-us/articles/360055782351).
+>A new patch called MDVA-33975 fixes GraphQL price calculation issues. MDVA-31363 is depreciated and it is recommended that you apply the patch MDVA-33975. To access this patch, refer to [MDVA-33975 patch: GraphQL price calculations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/mdva-33975-magento-patch-graphql-price-calculations.html).
 
 The MDVA-31363 patch fixes the issue where the cart price rule with coupon does not apply via GraphQL when the 'Fixed amount discount for whole cart' action is used. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.9 is installed. The issue is scheduled to be fixed in Adobe Commerce version 2.4.2.
 

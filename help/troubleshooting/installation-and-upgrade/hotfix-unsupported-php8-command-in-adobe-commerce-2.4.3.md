@@ -46,7 +46,7 @@ In order to fix the issue for 2.3.7-p1, Adobe Commerce (all deployment methods) 
 
 ## How to Apply the Patch
 
-See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Magento](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions.
 
 ## Related Reading
 

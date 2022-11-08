@@ -41,9 +41,9 @@ Using the subdomain allows you to perform a "soft launch" of your store in the f
 
 In our support knowledge base:
 
-* [Configure Fastly DNS settings on Staging and Production environments](https://support.magento.com/hc/en-us/articles/115004685913)
-* [Set up Fastly for Starter plan on cloud](https://support.magento.com/hc/en-us/articles/360002491773)
-* [Potential blockers for launching on Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/115002517274)
+* [Configure Fastly DNS settings on Staging and Production environments](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
+* [Set up Fastly for Starter plan on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
+* [Potential blockers for launching on Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
 
 In our developer documentation:
 
