@@ -31,4 +31,4 @@ If you do have the self-service enabled, please upgrade ECE-Tools to at least 20
 
 * [How to block malicious traffic for Magento Commerce Cloud on Fastly level](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) in our support knowledge base.
 * [Add site map and search engine robots](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in our developer documentation.
-* [Search Engine Robots](https://docs.magento.com/user-guide/marketing/search-engine-robots.html) in our user guide.
+* [Search Engine Robots](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots) in our user guide.

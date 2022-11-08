@@ -45,4 +45,4 @@ For the Staging and Production on Adobe Commerce on cloud infrastructure Pro pla
 ## Related reading
 
 * [Best practices for builds and deployment](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) in our developer documentation.
-* [Adobe Commerce 2.3.5 upgrade: compact to dynamic tables](https://support.magento.com/hc/en-us/articles/360048389631) in our support knowlegde base.
+* [Adobe Commerce 2.3.5 upgrade: compact to dynamic tables](/help/best-practices/database/magento-upgrade-compact-to-dynamic-tables-2.2.x-2.3.x-2.4.x.md) in our support knowlegde base.

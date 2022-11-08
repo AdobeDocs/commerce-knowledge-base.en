@@ -99,4 +99,4 @@ To enable the feature, follow the instructions in [Archive > To enable archiving
 
 ## Related reading
 
-[Most common database issues in Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651) in our support knowledge base.
+[Most common database issues in Adobe Commerce on cloud infrastructure](/help/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.md) in our support knowledge base.

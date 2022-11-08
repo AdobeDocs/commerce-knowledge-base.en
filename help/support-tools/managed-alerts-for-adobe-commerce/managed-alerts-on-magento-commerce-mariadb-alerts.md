@@ -52,5 +52,5 @@ If you receive a DML Queries Critical alert start at step one. If you receive a 
 
 ## Related Reading
 
-* To research other common MariaDB issues, refer to [Most common database issues for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360041739651).
+* To research other common MariaDB issues, refer to [Most common database issues for Adobe Commerce on cloud infrastructure](/help/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.md).
 * To research database best practices, refer to [Database best practices for Adobe Commerce on cloud infrastructure](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md).
