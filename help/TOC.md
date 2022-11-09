@@ -448,6 +448,7 @@ breadcrumb-title: Commerce KB
     * [Database storage troubleshooter on Adobe Commerce](/help/troubleshooting/database/database-storage-troubleshooter-on-adobe-commerce.md)
     * [MySQL tables are too large](/help/troubleshooting/database/mysql-tables-are-too-large.md)
     * [Database errors related to max_allowed_packet on Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
+    *  [Adobe Commerce database numeric value out of range, INT to BIGINT](/help/troubleshooting/database/int-biginit-schema-update-request.md)
   * Payments {#payments}
     * [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](/help/troubleshooting/payments/magento-2.4.0-known-issue-missing-refund-label-in-klarna.md)
     * [Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2.4.0-braintree-not-in-multiple-addresses-checkout.md)
@@ -676,8 +677,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved](/help/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.md)
     * [Adobe Commerce cloud: reindex is terminated with Killed message](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
     * [Upgrade to version 10.0 DHL schema to continue offering DHL shipping](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md) 
-    * [Adobe Commerce status column missing exported products CSV file](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md) 
-    * [Adobe Commerce database numeric value out of range, INT to BIGINT](/help/troubleshooting/miscellaneous/int-biginit-schema-update-request.md)
+    * [Adobe Commerce status column missing exported products CSV file](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
 
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
