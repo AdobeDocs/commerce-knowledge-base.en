@@ -23,98 +23,98 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 ## What's New
 
 <table style="width:100%">
+  <tr>
+    <th style="width:70%">Description</th>
+    <th style="width:15%">Type</th>
+    <th style="width:15%">Date</th>
+  </tr>
+
  <tr>
-  <th style="width:70%">Description</th>
-  <th style="width:15%">Type</th>
-  <th style="width:15%">Date</th>
+   <td>
+    Migrated the <em>Best Practices</em> section to the <a href="https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/phases.html">Implementation Playbook.</a>
+    </td>
+    <td> Update</td>
+    <td>Nov 7, 2022</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.html?lang=en"> Upgrade to version 10.0 DHL schema to continue offering DHL shipping:</a> This article provides a solution to allow merchants to continue offering DHL shipping after the DHL schema version 6.2 gets deprecated in the end of December 2022.
+    </td>
+    <td>New article</td>
+    <td> Nov 7, 2022</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47106-new-custom-attribute-on-company-creation-page-not-saved.html?lang=en">ACSD-47106: new custom attribute on company creation page not saved:</a> The ACSD-47106 patch fixes the issue where a value cannot be saved in a new custom attribute on a company creation page. This patch is available when the Quality Patches Tool (QPT) 1.1.22 is installed.
+    <td>New article</td>
+    <td>Nov 7, 2022</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.3-p2-2.4.5-security-hotfix-for-cve-2022-35698.html?lang=en">Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698:</a> In this article you will find hotfix patches for CVE-2022-35698.
+    </td>
+    <td>New article</td>
+    <td>Nov 7, 2022</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46869-configurable-products-not-updating-using-rest-api.html?lang=en">ACSD-46869: Configurable products not updating using REST API at checkout:</a> The ACSD-46869 patch fixes the issue where configurable products are not getting updated using REST API at checkout. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
+    </td>
+    <td>New article</td>
+    <td> Nov 7, 2022</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.html">cURL error 60: SSL certificate expired:</a> This article shows how to check when the last time a branch was deployed after receiving a cURL error 60: SSL certificate expired in the Master or Integration branches on Adobe Commerce on cloud infrastructure.
+    </td>
+    <td>New article</td>
+    <td>Nov 7, 2022</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47106-new-custom-attribute-on-company-creation-page-not-saved.html?lang=en">ACSD-47106: New custom attribute on company creation page not saved:</a> The ACSD-47106 patch fixes the issue where a value cannot be saved in a new custom attribute on a company creation page. This patch is available when the Quality Patches Tool (QPT) 1.1.22 is installed.
+    </td>
+    <td> New article</td>
+    <td>Nov 7, 2022</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46988-graphql-currency-api-request-returns-null-values.html?lang=en"> ACSD-46988: GraphQL currency API request returns null values:</a> The ACSD-46988 patch fixes the issue where the GraphQL currency API request returns null values for a custom currency. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
+    </td>
+    <td> New article </td>
+    <td> Nov 7, 2022</td>
  </tr>
 
  <tr>
-  <td>
-  Migrated the <em>Best Practices</em> section to the <a href="https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/phases.html">Implementation Playbook.</a>
-  </td>
-  <td> Update</td>
-  <td>Nov 7, 2022</td>
- </tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.html?lang=en">ACSD-46541: An admin user cannot create a credit memo if an order item is deleted:</a> The ACSD-46541 patch fixes the issue where an admin user cannot create a credit memo if an order item is deleted. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
+    </td>
+    <td>New article </td>
+    <td>Nov 7, 2022 </td>
+  </tr>
 
  <tr>
-  <td>
-  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.html?lang=en"> Upgrade to version 10.0 DHL schema to continue offering DHL shipping:</a> This article provides a solution to allow merchants to continue offering DHL shipping after the DHL schema version 6.2 gets deprecated in the end of December 2022.
-  </td>
-  <td>New article</td>
-  <td> Nov 7, 2022</td>
- </tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/change-current-adobe-account-email-address-to-new-address.html?lang=en">Change current Adobe account email address:</a> This article explains how to change the current email address registered in the Adobe account to a new address currently not registered in the Adobe account or the Magento account.
+    </td>
+    <td>New article</td>
+    <td>Nov 7, 2022</td>
+  </tr>
 
  <tr>
-  <td>
-  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47106-new-custom-attribute-on-company-creation-page-not-saved.html?lang=en">ACSD-47106: new custom attribute on company creation page not saved:</a> The ACSD-47106 patch fixes the issue where a value cannot be saved in a new custom attribute on a company creation page. This patch is available when the Quality Patches Tool (QPT) 1.1.22 is installed.
-  <td>New article</td>
-  <td>Nov 7, 2022</td>
- </tr>
-
- <tr>
-  <td>
-  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.3-p2-2.4.5-security-hotfix-for-cve-2022-35698.html?lang=en">Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698:</a> In this article you will find hotfix patches for CVE-2022-35698.
-  </td>
-  <td>New article</td>
-  <td>Nov 7, 2022</td>
- </tr>
-
- <tr>
-  <td>
-  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46869-configurable-products-not-updating-using-rest-api.html?lang=en">ACSD-46869: Configurable products not updating using REST API at checkout:</a> The ACSD-46869 patch fixes the issue where configurable products are not getting updated using REST API at checkout. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
-  </td>
-  <td>New article</td>
-  <td> Nov 7, 2022</td>
- </tr>
-
- <tr>
-  <td>
-  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.html">cURL error 60: SSL certificate expired:</a> This article shows how to check when the last time a branch was deployed after receiving a cURL error 60: SSL certificate expired in the Master or Integration branches on Adobe Commerce on cloud infrastructure.
-  </td>
-  <td>New article</td>
-  <td>Nov 7, 2022</td>
- </tr>
-
- <tr>
-  <td>
-  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47106-new-custom-attribute-on-company-creation-page-not-saved.html?lang=en">ACSD-47106: New custom attribute on company creation page not saved:</a> The ACSD-47106 patch fixes the issue where a value cannot be saved in a new custom attribute on a company creation page. This patch is available when the Quality Patches Tool (QPT) 1.1.22 is installed.
-  </td>
-  <td> New article</td>
-  <td>Nov 7, 2022</td>
- </tr>
-
- <tr>
-  <td>
-  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46988-graphql-currency-api-request-returns-null-values.html?lang=en"> ACSD-46988: GraphQL currency API request returns null values:</a> The ACSD-46988 patch fixes the issue where the GraphQL currency API request returns null values for a custom currency. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
-  </td>
-  <td> New article </td>
-  <td> Nov 7, 2022</td>
- </tr>
-
- <tr>
-  <td>
-  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.html?lang=en">ACSD-46541: An admin user cannot create a credit memo if an order item is deleted:</a> The ACSD-46541 patch fixes the issue where an admin user cannot create a credit memo if an order item is deleted. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
-  </td>
-  <td>New article </td>
-  <td>Nov 7, 2022 </td>
- </tr>
-
- <tr>
-  <td>
-  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/change-current-adobe-account-email-address-to-new-address.html?lang=en">Change current Adobe account email address:</a> This article explains how to change the current email address registered in the Adobe account to a new address currently not registered in the Adobe account or the Magento account.
-  </td>
-  <td>New article</td>
-  <td>Nov 7, 2022</td>
- </tr>
-
- <tr>
-  <td>
-  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.html">ACSD-45675: Product export uses category names from default store view scope:</a> The ACSD-45675 patch fixes the issue where the product export uses category names from the default store view scope. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
-  </td>
-  <td>New article</td>
-  <td>Nov 7, 2022</td>
- </tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.html">ACSD-45675: Product export uses category names from default store view scope:</a> The ACSD-45675 patch fixes the issue where the product export uses category names from the default store view scope. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
+    </td>
+    <td>New article</td>
+    <td>Nov 7, 2022</td>
+  </tr>
 
   <tr>
    <td>
