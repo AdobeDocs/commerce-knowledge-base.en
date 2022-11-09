@@ -110,7 +110,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
   <td>
-  <a herf="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.html">ACSD-45675: Product export uses category names from default store view scope:</a> The ACSD-45675 patch fixes the issue where the product export uses category names from the default store view scope. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
+  <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.html">ACSD-45675: Product export uses category names from default store view scope:</a> The ACSD-45675 patch fixes the issue where the product export uses category names from the default store view scope. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
   </td>
   <td>New article</td>
   <td>Nov 7, 2022</td>
@@ -118,7 +118,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
    <td>
-   <a herf="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.html">ACSD-44851: Category with subcategories not able to open or expand:</a> The ACSD-44851 patch solves the issue where the user is unable to open or expand a category with subcategories. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
+   <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.html">ACSD-44851: Category with subcategories not able to open or expand:</a> The ACSD-44851 patch solves the issue where the user is unable to open or expand a category with subcategories. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
    </td>
    <td>New article</td>
    <td>Nov 7, 2022</td>
@@ -126,7 +126,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a herf="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46703-product-customizable-options-drag-and-drop-doesnt-work-as-expected.html"> ACSD-46703: Product customization drag and drop does not work:</a> The ACSD-46703 patch fixes the issue where the product customizable options (drag and drop) do not work as expected. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46703-product-customizable-options-drag-and-drop-doesnt-work-as-expected.html"> ACSD-46703: Product customization drag and drop does not work:</a> The ACSD-46703 patch fixes the issue where the product customizable options (drag and drop) do not work as expected. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
     </td>
     <td>New article</td>
     <td>Nov 7, 2022</td>
