@@ -26,7 +26,7 @@ The ACSD-46618 patch solves the issue where the product list widget shows incorr
 <u>Steps to reproduce</u>:
 
 1. In the Adobe Commerce Admin select **[!UICONTROL Stores]**, then **[!UICONTROL Configuration]**, expand **[!UICONTROL Sales]**, and select **[!UICONTROL Tax]**. Update the tax settings to show prices including and excluding taxes. 
-1. Set **[!UICONTROL Enable Cross Border Trade]** = _[!UICONTROL Yes]_.
+1. Set **[!UICONTROL Enable Cross Border Trade]** = _Yes_.
 1. Create a tax rule that only applies to the US.
 1. Add a widget to the home page including more than one product.
 1. Create two customers with a US address and a non US address.
