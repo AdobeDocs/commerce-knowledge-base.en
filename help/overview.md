@@ -150,7 +150,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=en">QPT Release notes:</a>The QPT Release note page is migrated to Adobe Experience League which was previously located at <a href="https://devdocs.magento.com/quality-patches/release-notes.html">https://devdocs.magento.com/quality-patches/release-notes.html.</a>
+    <a href="https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=en">QPT Release notes:</a> The QPT Release note page is migrated to Adobe Experience League which was previously located at <a href="https://devdocs.magento.com/quality-patches/release-notes.html">https://devdocs.magento.com/quality-patches/release-notes.html.</a>
     </td>
     <td>Update</td>
     <td>Nov 7, 2022</td>
