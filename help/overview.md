@@ -174,7 +174,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a herf="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/integration-environment-enhancement-request-pro-and-starter.html?lang=en">Integration Environment enhancement request - Pro and Starter:</a> The instruction for "Stater" in this article was updated.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/integration-environment-enhancement-request-pro-and-starter.html?lang=en">Integration Environment enhancement request - Pro and Starter:</a> The instruction for "Stater" in this article was updated.
     </td>
     <td>Update</td>
     <td>Nov 7, 2022</td>
