@@ -1,8 +1,8 @@
 ---
-title: "ACSD-46618: product list widget shows incorrect cached prices for logged-in customer"
+title: 'ACSD-46618: product list widget shows incorrect cached prices for logged-in customer'
 description: Apply a patch to fix the Adobe Commerce issue where the product list widget shows incorrect cached prices for a logged-in customer.
+exl-id: 8b182822-1d3d-4793-871b-cdf4565d0712
 ---
-
 # ACSD-46618: Product list widget shows incorrect cached prices for a logged-in customer
 
 The ACSD-46618 patch solves the issue where the product list widget shows incorrect cached prices for a logged-in customer. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html?lang=en) 1.1.21 is installed. The patch ID is ACSD-46618. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
