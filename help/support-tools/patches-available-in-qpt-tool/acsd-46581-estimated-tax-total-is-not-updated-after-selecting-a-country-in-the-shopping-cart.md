@@ -1,8 +1,8 @@
 ---
-title: "ACSD-46581: Estimated tax total is not updated after selecting a country in the shopping cart"
+title: 'ACSD-46581: Estimated tax total is not updated after selecting a country in the shopping cart'
 description: Apply the ACSD-46581 patch to solve the Adobe Commerce issue where the tax rate does not get updated after switching the country in the shopping cart.
+exl-id: 17334f7b-e5a2-4091-8196-eff80875c003
 ---
-
 # ACSD-46581: Estimated tax total is not updated after selecting a country in the shopping cart
 
 This ACSD-46581 patch solves the issue where the tax rate does not get updated after switching the country in the shopping cart. It updates only after selecting the shipping method. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-46581. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.  
