@@ -28,11 +28,11 @@ In the CSV file that you just exported, you see a column labeled [!UICONTROL sta
 
 <u>Actual result:</u>
 
-You do not see a column labeled [!DNL status] in the exported csv file.  
+You do not see a column labeled [!UICONTROL status] in the exported csv file.  
 
 ## Cause
 
-The product's status attribute has been renamed in the CSV file. It is now the [!DNL product_online] column.
+The product's status attribute has been renamed in the CSV file. It is now the [!UICONTROL product_online] column.
 
 ## Solution
 
