@@ -23,7 +23,7 @@ The ACSD-46541 patch fixes the issue where an admin user cannot create a credit 
 
 ## Issue
 
-Once a product is deleted you cannot create a credit memo in the Adobe Commerce Admin. 
+Once a product is deleted, you cannot create a credit memo in the Commerce Admin. 
 
 <u>Steps to reproduce</u>:
 
