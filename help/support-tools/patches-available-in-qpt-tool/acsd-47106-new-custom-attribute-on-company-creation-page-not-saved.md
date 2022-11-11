@@ -31,7 +31,7 @@ A value cannot be saved in a new custom attribute on a company creation page.
 
 <u>Steps to reproduce</u>:
 
-1. Go to the Adobe Commerce Admin > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Customer]** > **[!UICONTROL Add New Attribute]**. 
+1. Go to the Commerce Admin > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Customer]** > **[!UICONTROL Add New Attribute]**. 
 1. Create new attribute: _Test 01_.
 1. Go the Commerce Admin > **[!UICONTROL Customers]** > **[!UICONTROL Companies]** > and create a new company with all the required detail.
 1. Try to add a value to the custom attribute _Test 01_.
