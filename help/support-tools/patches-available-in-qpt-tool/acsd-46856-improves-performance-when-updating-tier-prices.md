@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46856: Improves performance when updating tier prices via System > Configuration > Import > Advanced Pricing"
+title: "ACSD-46856: Improves performance when updating tier prices"
 description: Apply the ACSD-46856 patch to mproves performance when updating tier prices via System > Configuration > Import > Advanced Pricing
 ---
 
