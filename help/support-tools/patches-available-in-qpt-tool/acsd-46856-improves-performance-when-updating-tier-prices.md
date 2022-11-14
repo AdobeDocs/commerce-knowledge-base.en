@@ -23,11 +23,11 @@ The ACSD-46856 patch improves performance when updating tier prices via **[!UICO
 
 ## Issue
 
-Updating of tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing is slow]**.
+Updating of tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]** is slow.
 
 <u>Steps to reproduce</u>:
 
-1. Import a large number of products (e.g. 10k+ or 200k+) via **System** > **Configuration** > **Import** > **Advanced Pricing**.
+1. Import a large number of products (Example: 10k+ or 200k+) via **System** > **Configuration** > **Import** > **Advanced Pricing**.
 
 <u>Expected results</u>:
 
