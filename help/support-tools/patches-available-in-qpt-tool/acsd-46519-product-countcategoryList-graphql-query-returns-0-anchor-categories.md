@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46519: product count in `categoryList` graphql query returns _0_ for anchor categories"
+title: "ACSD-46519: product count in `categoryList` graphql query returns 0 for anchor categories"
 description: Apply the ACSD-CSD-46519 patch to fix the Adobe Commerce issue where when we use `categoryList` Graphql method to get child categories it shows the `product_count` as 0 for parent categories.
 ---
 
