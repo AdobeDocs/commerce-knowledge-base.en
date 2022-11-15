@@ -1,9 +1,8 @@
 ---
 title: How to add a new country to Adobe Commerce
-labels: Magento Commerce Cloud,add country,configuration,data,installation,module,upgrade,Adobe Commerce
-description: "This article explains how to add a country that is not present in Adobe Commerce and the Zend Locale Library. This requires code and database changes that constitute Customer Customizations under your applicable agreement terms. Please note that the example materials included in this article are provided \"AS IS\" without a warranty of any kind. Neither Adobe nor any affiliated entity is obligated to maintain, correct, update, change, modify, or otherwise support these materials. Here we will describe the basic principles of what needs to be done in order to achieve this."
+description: This article explains how to add a country that is not present in Adobe Commerce and the Zend Locale Library. This requires code and database changes that constitute Customer Customizations under your applicable agreement terms. Please note that the example materials included in this article are provided "AS IS" without a warranty of any kind. Neither Adobe nor any affiliated entity is obligated to maintain, correct, update, change, modify, or otherwise support these materials. Here we will describe the basic principles of what needs to be done in order to achieve this.
+exl-id: af499add-4966-4a3a-972a-62a34c169a1b
 ---
-
 # How to add a new country to Adobe Commerce
 
 This article explains how to add a country that is not present in Adobe Commerce and the Zend Locale Library. This requires code and database changes that constitute Customer Customizations under your applicable agreement terms. Please note that the example materials included in this article are provided "AS IS" without a warranty of any kind. Neither Adobe nor any affiliated entity is obligated to maintain, correct, update, change, modify, or otherwise support these materials. Here we will describe the basic principles of what needs to be done in order to achieve this.

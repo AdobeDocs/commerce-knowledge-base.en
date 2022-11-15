@@ -1,9 +1,8 @@
 ---
 title: '"500 error" after double-clicking Remove link in shopping cart'
-labels: 2.2.0,500 error,Magento Commerce Cloud,known issues,patch,shopping cart,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.0 issue related to customers getting error when trying to remove twice a shopping cart item (by double-clicking the *Remove* link or by clicking it in different tabs)."
+description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.0 issue related to customers getting error when trying to remove twice a shopping cart item (by double-clicking the *Remove* link or by clicking it in different tabs).
+exl-id: 927cf681-febf-42cc-8db5-469bcf8f2012
 ---
-
 # "500 error" after double-clicking Remove link in shopping cart
 
 This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.0 issue related to customers getting error when trying to remove twice a shopping cart item (by double-clicking the *Remove* link or by clicking it in different tabs).
@@ -49,6 +48,6 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-For instructions, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+For instructions, see [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.
 
 ## Attached Files

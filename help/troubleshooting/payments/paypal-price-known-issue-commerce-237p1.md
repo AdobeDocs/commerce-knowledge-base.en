@@ -1,9 +1,8 @@
 ---
-title: "Adobe Commerce 2.3.7-p1 known issue: outdated order total for PayPal"
-labels: troubleshooting,known issue,paypal,2.3.7-p1,order,Adobe Commerce,Magento,cloud infrastructure,on-premises,Magento Open Source,patch
-description: "This article provides a patch for a known issue in Adobe Commerce 2.3.7-p1: when using PayPal Checkout more than once customers get the previously ordered product in cart, instead of the new one they are trying to order."
+title: 'Adobe Commerce 2.3.7-p1 known issue: outdated order total for PayPal'
+description: 'This article provides a patch for a known issue in Adobe Commerce 2.3.7-p1: when using PayPal Checkout more than once customers get the previously ordered product in cart, instead of the new one they are trying to order.'
+exl-id: ceb8f7ad-0cf7-4d42-aded-25d1dd947f5b
 ---
-
 # Adobe Commerce 2.3.7-p1 known issue: outdated order total for PayPal
 
 This article provides a patch for a known issue in Adobe Commerce 2.3.7-p1: when using PayPal Checkout more than once customers get the previously ordered product in cart, instead of the new one they are trying to order.
@@ -53,4 +52,4 @@ Use the following link to download a .zip file containing the patch: [MC42674-co
 ## How to apply the patches
 
 1. Unzip the downloaded .zip file.
-1. See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for further instructions.
+1. See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for further instructions.

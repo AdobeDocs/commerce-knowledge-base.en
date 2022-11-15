@@ -1,9 +1,8 @@
 ---
-title: "Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue"
-labels: 2.3.5,2.3.5-p1,Magento Commerce,Magento Commerce Cloud,known issues,patch,payments,storefront,checkout,Amazon Pay,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This patch resolves an issue in Adobe Commerce where the storefront checkout workflow did not display any payment method that has been enabled for specific countries, except for Klarna and Amazon Pay."
+title: 'Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue'
+description: This patch resolves an issue in Adobe Commerce where the storefront checkout workflow did not display any payment method that has been enabled for specific countries, except for Klarna and Amazon Pay.
+exl-id: e205e35e-9ffe-4826-b951-3a3caf1e0621
 ---
-
 # Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue
 
 This patch resolves an issue in Adobe Commerce where the storefront checkout workflow did not display any payment method that has been enabled for specific countries, except for Klarna and Amazon Pay.
@@ -90,6 +89,6 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base for instructions.
+See [How to apply a composer patch provided by Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base for instructions.
 
 ## Attached Files

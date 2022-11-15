@@ -1,12 +1,11 @@
 ---
-title: "MDVA-31007: custom address attributes display"
-labels: 2.4.0,2.4.0-p1,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-31007 patch solves the issue where custom address attributes are not correctly displayed in the order details page in the My Account area and in the backend (in the **Sales > Orders** location). This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2."
+title: 'MDVA-31007: custom address attributes display'
+description: The MDVA-31007 patch solves the issue where custom address attributes are not correctly displayed in the order details page in the My Account area and in the backend (in the **Sales &gt; Orders** location). This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+exl-id: 43c82b66-395f-4e33-8312-9a1994862f5f
 ---
-
 # MDVA-31007: custom address attributes display
 
-The MDVA-31007 patch solves the issue where custom address attributes are not correctly displayed in the order details page in the My Account area and in the backend (in the **Sales > Orders** location). This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+The MDVA-31007 patch solves the issue where custom address attributes are not correctly displayed in the order details page in the My Account area and in the backend (in the **Sales > Orders** location). This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
 ## Affected products and versions
 
@@ -68,7 +67,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

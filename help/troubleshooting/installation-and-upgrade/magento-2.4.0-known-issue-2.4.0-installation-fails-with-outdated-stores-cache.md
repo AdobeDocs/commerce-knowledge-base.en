@@ -1,9 +1,8 @@
 ---
 title: Adobe Commerce 2.4.0 installation fails with outdated stores cache
-labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,cache,extensions,fail,installation,known issues,stores,troubleshooting,Adobe Commerce
 description: "This article provides a solution for the issue where your Adobe Commerce 2.4.0 installation fails with the error message: *The default website isn't defined. Set the website and try again.* displayed in the console."
+exl-id: 0680199b-7e47-4a8c-91fe-9f6c32839a0e
 ---
-
 # Adobe Commerce 2.4.0 installation fails with outdated stores cache
 
 This article provides a solution for the issue where your Adobe Commerce 2.4.0 installation fails with the error message: *The default website isn't defined. Set the website and try again.* displayed in the console.

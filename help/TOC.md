@@ -186,6 +186,7 @@ breadcrumb-title: Commerce KB
     * [MDVA-37984: Visual Merchandiser not working correctly when staging updates are applied](/help/support-tools/patches-available-in-qpt-tool/mdva-37984-visual-match-product-by-rule-functionality-not-filtering-products-correctly.md)
     * [ACSD-45488: Configurable product with multiple sources not returned to in stock automatically](/help/support-tools/patches-available-in-qpt-tool/acsd-45488-configurable-product-with-multiple-sources-not-returned-to-in-stock.md)
     * [ACSD-46146: Two order confirmation emails sent after placing order from admin](/help/support-tools/patches-available-in-qpt-tool/acsd-46146-two-order-confirmation-emails-are-sent-after-placing-order-from-admin.md)
+    * [ACSD-47106: New custom attribute on company creation page not saved](/help/support-tools/patches-available-in-qpt-tool/acsd-47106-new-custom-attribute-on-company-creation-page-not-saved.md)
     * [MDVA-36464: Send email settings not working at store-view level](/help/support-tools/patches-available-in-qpt-tool/mdva-36464-send-email-settings-not-working-at-store-view-level.md)
     * [MDVA-41597: Error adding more than one configurable product to cart](/help/support-tools/patches-available-in-qpt-tool/mdva-41597-error-adding-more-than-one-configurable-product-to-cart.md)
     * [MDVA-36832: Images duplicate on pages with 768px view width](/help/support-tools/patches-available-in-qpt-tool/mdva-36832-images-duplicates-on-pages-with-view-width-of-768px.md)
@@ -356,6 +357,15 @@ breadcrumb-title: Commerce KB
     * [ACSD-44591: Errors when order without CAPTCHA confirmation](/help/support-tools/patches-available-in-qpt-tool/acsd-44591-user-gets-error-when-trying-to-place-order-without-captcha-confirmation.md)
     * [MDVA-34886: no search results when "weight" attribute used](/help/support-tools/patches-available-in-qpt-tool/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
     * [ACSD-46674: Custom options of image type displayed as HTML in customer emails](/help/support-tools/patches-available-in-qpt-tool/acsd-46674-custom-options-image-type-displayed-html.md)
+    * [ACSD-44851: Category with subcategories not able to open or expand](/help/support-tools/patches-available-in-qpt-tool/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.md)
+    * [ACSD-45675: Product export uses category names from default store view scope](/help/support-tools/patches-available-in-qpt-tool/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.md)
+    * [ACSD-46703: Product customization drag and drop does not work](/help/support-tools/patches-available-in-qpt-tool/acsd-46703-product-customizable-options-drag-and-drop-doesnt-work-as-expected.md)
+    * [ACSD-46520: Incorrect order status when refunded using store credits](/help/support-tools/patches-available-in-qpt-tool/acsd-46520-incorrect-order-status-when-refunded-using-store-credits.md)
+    * [ACSD-46988: GraphQL currency API request returns null values](/help/support-tools/patches-available-in-qpt-tool/acsd-46988-graphql-currency-api-request-returns-null-values.md)
+    * [ACSD-46869: Configurable products not updating using REST API at checkout](/help/support-tools/patches-available-in-qpt-tool/acsd-46869-configurable-products-not-updating-using-rest-api.md)
+    * [ACSD-46618: Product list widget shows incorrect cached prices for logged-in customer](/help/support-tools/patches-available-in-qpt-tool/acsd-46618-product-list-widget-shows-incorrect-cached-prices-logged-in-customer.md)
+    * [ACSD-46541: An admin user cannot create a credit memo if an order item is deleted](/help/support-tools/patches-available-in-qpt-tool/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.md)
+    * [ACSD-46581: Estimated tax total is not updated after selecting a country in the shopping cart](/help/support-tools/patches-available-in-qpt-tool/acsd-46581-estimated-tax-total-is-not-updated-after-selecting-a-country-in-the-shopping-cart.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
@@ -377,57 +387,6 @@ breadcrumb-title: Commerce KB
     * [MBI documentation got moved](/help/announcements/help-center-news/mbi-documentation-got-moved.md)
     * [Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
     * [Adobe Commerce Support Knowledge Base starts accepting contributions](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
-* Best Practices {#best-practices}
-  * [Best practices overview](/help/best-practices/overview.md)
-  * Configuration {#configuration}
-    * [Best practice for OPcache memory size in Adobe Commerce](/help/best-practices/configuration/best-practice-for-opcache-memory-size-in-magento-commerce.md)
-    * [Optimize CSS and JS files in Adobe Commerce](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
-    * [Realpath cache size best practice](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
-  * Database {#database}
-    * [Adobe Commerce 2.3.5 upgrade: compact to dynamic tables](/help/best-practices/database/magento-upgrade-compact-to-dynamic-tables-2.2.x-2.3.x-2.4.x.md)
-    * [Best practice for triggers usage](/help/best-practices/database/best-practice-for-triggers-usage.md)
-    * [Most common database issues in Adobe Commerce on cloud infrastructure](/help/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.md)
-    * [Adobe Commerce on cloud infrastructure best practice for MySQL slave connection](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
-    * [Database best practices for Adobe Commerce on cloud infrastructure](/help/best-practices/database/database-best-practices-for-magento-commerce-cloud.md)
-  * Security {#security}
-    * [Adobe Commerce on cloud Best Practices to Help Prevent and Respond to a Security Incident](/help/best-practices/security/prevent-respond-security-incident.md)
-    * [Best practices for Adobe Commerce robots.txt](/help/best-practices/security/best-practices-for-magento-robots.txt.md)
-  * Redis {#redis}
-    * [Extended Redis cache implementation Adobe Commerce 2.3.5+](/help/best-practices/redis/extended-redis-cache-implementation-magento-commerce-2.3.5.md)
-    * [Install Redis 5 Adobe Commerce on cloud infrastructure 2.3.3 or later](/help/best-practices/redis/install-redis-5-for-magento-commerce-cloud-2.3.3-or-later.md)
-  * General {#general}
-    * [Troubleshooting Best Practices for Adobe Commerce on cloud infrastructure](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
-    * [Adobe Security Notification Service](/help/best-practices/general/adobe-security-notification-service.md)
-    * [Partner escalation checklist](/help/best-practices/general/work-with-partners.md)
-    * [Deployment order best practices for Adobe Commerce](/help/best-practices/general/deployment-order-best-practices-for-magento.md)
-    * [Best Practices for using third-party extensions in Adobe Commerce](/help/best-practices/general/best-practices-for-using-third-party-extensions-in-magento.md)
-    * [Whitepaper - Delivering commerce experiences at scale](/help/best-practices/general/whitepaper-delivering-commerce-experiences-at-scale.md)
-    * [Improve Adobe Commerce search performance with Elasticsearch](/help/best-practices/general/improve-magento-commerce-search-performance-with-elasticsearch.md)
-    * [Magento best practice: update services and components to latest version](/help/best-practices/general/magento-best-practice-update-services-and-components-to-latest-version.md)
-    * [Upgrade plan checklist for Adobe Commerce](/help/best-practices/general/upgrade-plan-checklist-for-magento-commerce.md)
-    * [Static content deploy best practices in Adobe Commerce](/help/best-practices/general/static-content-deploy-best-practices-in-magento.md)
-    * [Best practices for Adobe Commerce product options](/help/best-practices/general/best-practices-for-magento-product-options.md)
-  * Performance {#performance}
-    * [Maximum number of coupons in Adobe Commerce](/help/best-practices/performance/maximum-number-of-coupons-in-magento.md)
-    * [Best practice Adobe Commerce number of categories limits](/help/best-practices/performance/best-practice-magento-number-of-categories-limits.md)
-    * [Best practices of sites, stores, and store view numbers](/help/best-practices/performance/best-practices-of-sites-stores-and-store-view-numbers.md)
-    * [Best practice for attribute SET in Adobe Commerce](/help/best-practices/performance/best-practice-for-attribute-set-in-magento.md)
-    * [_isScopePrivate in private content blocks slows Adobe Commerce performance](/help/best-practices/performance/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
-    * [Indexers "Update On Schedule" optimizes Adobe Commerce performance](/help/best-practices/performance/indexers-update-on-schedule-optimizes-magento-performance.md)
-    * [Best practice Adobe Commerce product attributes](/help/best-practices/performance/best-practice-magento-product-attributes.md)
-    * [Adobe Commerce best practice: conducting critical actions in Admin](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
-    * [Adobe Commerce frontend performance best practices](/help/best-practices/performance/magento-frontend-performance-best-practices.md)
-    * [Adobe Commerce best practice: disable Reports if not using](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-    * [Best practices Adobe Commerce order placement performance](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
-    * [Best practice Adobe Commerce product variations](/help/best-practices/performance/best-practice-magento-product-variations.md)
-    * [Best practice for images in Adobe Commerce on cloud infrastructure](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
-    * [Adobe Commerce best practice: enable asynchronous orders processing](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)
-    * [Best practices for render-blocking resources in Adobe Commerce](/help/best-practices/performance/best-practices-for-render-blocking-resources-in-magento.md)
-    * [Product limits best practice](/help/best-practices/performance/product-limits-best-practice.md)
-    * [Best practice for number of products in cart in Adobe Commerce](/help/best-practices/performance/best-practice-for-number-of-products-in-cart-in-magento.md)
-    * [Products per page limit Adobe Commerce](/help/best-practices/performance/products-per-page-limit-magento.md)
-    * [Best practices for Adobe Commerce product attribute options](/help/best-practices/performance/best-practices-for-magento-product-attribute-options.md)
-    * [Max sales rules best practice in Adobe Commerce](/help/best-practices/performance/max-sales-rules-best-practice-in-magento.md)
 * Troubleshooting {#troubleshooting}
   * [Troubleshooting overview](/help/troubleshooting/overview.md)
   * Database {#database}
@@ -441,6 +400,7 @@ breadcrumb-title: Commerce KB
     * [Database storage troubleshooter on Adobe Commerce](/help/troubleshooting/database/database-storage-troubleshooter-on-adobe-commerce.md)
     * [MySQL tables are too large](/help/troubleshooting/database/mysql-tables-are-too-large.md)
     * [Database errors related to max_allowed_packet on Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
+    *  [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
   * Payments {#payments}
     * [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](/help/troubleshooting/payments/magento-2.4.0-known-issue-missing-refund-label-in-klarna.md)
     * [Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2.4.0-braintree-not-in-multiple-addresses-checkout.md)
@@ -508,6 +468,7 @@ breadcrumb-title: Commerce KB
     * [Applying a patch takes your site down](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [Error 404 on all pages due to Content Staging issue](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
   * Miscellaneous {#miscellaneous}
+    * [cURL error 60: SSL certificate expired](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md) 
     * [Troubleshoot Product Recommendations module in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md)
     * [robots.txt not updated or displaying default settings](/help/troubleshooting/miscellaneous/robots.txt-not-updated-or-displaying-default-settings.md)
@@ -668,6 +629,9 @@ breadcrumb-title: Commerce KB
     * [Emails not sent when SendGrid credits exceeded on Adobe Commerce](/help/troubleshooting/miscellaneous/emails-not-being-sent-sendgrid-credits-exceeded.md)
     * [Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved](/help/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.md)
     * [Adobe Commerce cloud: reindex is terminated with Killed message](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
+    * [Upgrade to version 10.0 DHL schema to continue offering DHL shipping](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md) 
+    * [Adobe Commerce status column missing exported products CSV file](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
+
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
@@ -745,6 +709,7 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
+  * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
   * [MBI Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
   * [MBI Training Video: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
   * [Set cache TTL for images and other static content](/help/how-to/general/set-cache-ttl-for-images-and-other-static-content.md)
@@ -808,6 +773,8 @@ breadcrumb-title: Commerce KB
   * [Third-party testing tips for Adobe Commerce on cloud infrastructure](/help/how-to/general/share-access-third-party.md)
   * [Access the Adobe Commerce Customer Support Guide](/help/how-to/general/access-the-magento-commerce-customer-support-guide.md)
   * [How to subscribe to Adobe Commerce status updates](/help/how-to/general/how-to-subscribe-to-adobe-magento-status-updates.md)
+  * [Change current Adobe account email address to new address](/help/how-to/general/change-current-adobe-account-email-address-to-new-address.md)
+  * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
@@ -816,7 +783,7 @@ breadcrumb-title: Commerce KB
   * [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento.com-and-accounts.magento.cloud-account-logins.md)
   * [Fastly origin cloaking enablement FAQ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
   * [Billing FAQ for Adobe Commerce](/help/faq/general/billing-faq-for-adobe-commerce.md)
-  * [Database auto_increment_ increment variable set to "3" Adobe Commerce on our cloud pro architecture](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
+  * [Database auto_increment increment variable set to "3" Adobe Commerce on our cloud pro architecture](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
   * [Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure](/help/faq/general/monitoring-whitepaper.md)
   * [Access New Relic services](/help/faq/general/access-new-relic-services.md)
   * [Web Content Accessibility for Adobe Commerce](/help/faq/general/accessibility.md)

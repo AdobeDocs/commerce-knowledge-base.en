@@ -1,9 +1,8 @@
 ---
 title: Error enabling Image Optimization in Adobe Commerce
-labels: 2.2.x,2.3.x,Fastly,Magento Commerce Cloud,how to,image optimization,Adobe Commerce,cloud infrastructure
-description: "This article provides a solution for the issue when Fastly Image Optimization (IO) is disabled by default with a notification to contact Fastly to enable image optimization. (The Fastly Cloud Image Optimizer is a real-time image manipulation and optimization service that speeds up image delivery by serving bandwidth-efficient images.)"
+description: This article provides a solution for the issue when Fastly Image Optimization (IO) is disabled by default with a notification to contact Fastly to enable image optimization. (The Fastly Cloud Image Optimizer is a real-time image manipulation and optimization service that speeds up image delivery by serving bandwidth-efficient images.)
+exl-id: 7b64c786-3c74-4642-b0d0-15b5648163a0
 ---
-
 # Error enabling Image Optimization in Adobe Commerce
 
 This article provides a solution for the issue when Fastly Image Optimization (IO) is disabled by default with a notification to contact Fastly to enable image optimization. (The Fastly Cloud Image Optimizer is a real-time image manipulation and optimization service that speeds up image delivery by serving bandwidth-efficient images.)
@@ -22,4 +21,4 @@ The site may not be live yet. There are processes in place to pre-load the site 
 
 ## Solution
 
-Create a [Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) and request image optimization.
+Create a [Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and request image optimization.

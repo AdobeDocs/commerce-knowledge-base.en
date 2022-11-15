@@ -1,9 +1,8 @@
 ---
 title: "MDVA-39482: Product goes out of stock if imported with '0' quantity with backorders enabled"
-labels: QPT patches,Quality Patches Tool,QPT 1.1.4,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,on-premises,cloud infrastructure,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.1,2..4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-description: "The MDVA-39482 fixes the issue where the product goes out of stock if imported with \"0\" quantity when MSI and backorders are enabled and the Out-of-Stock Threshold is set to a minus value. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4 is installed. The patch ID is MDVA-39482. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
+description: The MDVA-39482 fixes the issue where the product goes out of stock if imported with "0" quantity when MSI and backorders are enabled and the Out-of-Stock Threshold is set to a minus value. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4 is installed. The patch ID is MDVA-39482. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+exl-id: 2caf461c-993d-48b3-bc47-3fa1d014deaf
 ---
-
 # MDVA-39482: Product goes out of stock if imported with '0' quantity with backorders enabled
 
 The MDVA-39482 fixes the issue where the product goes out of stock if imported with "0" quantity when MSI and backorders are enabled and the Out-of-Stock Threshold is set to a minus value. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4 is installed. The patch ID is MDVA-39482. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
@@ -63,7 +62,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

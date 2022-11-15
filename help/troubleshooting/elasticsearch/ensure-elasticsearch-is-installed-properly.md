@@ -1,16 +1,15 @@
 ---
 title: Ensure Elasticsearch is installed properly
-labels: 2.2.3,2.2.4,2.2.5,2.2.6,2.2.7,2.2.8,2.2.9,2.3.0,2.3.1,Elasticsearch 2.x,Elasticsearch 5.x,Elasticsearch 6.x,Elasticsearch configuration,Elasticsearch version,Magento Commerce,Magento Commerce Cloud,how to,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
-description: "This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration."
+description: This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration.
+exl-id: d2c5971c-4db4-4857-ae79-970313bce981
 ---
-
 # Ensure Elasticsearch is installed properly
 
 This article talks about solutions for issues caused by incorrect Elasticsearch (ES) installation and configuration.
 
 >[!WARNING]
 >
->On Adobe Commerce on cloud infrastructure please note that service upgrades cannot be pushed to the Production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) detailing your required service upgrade and stating the time when you want the upgrade process to start.
+>On Adobe Commerce on cloud infrastructure please note that service upgrades cannot be pushed to the Production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailing your required service upgrade and stating the time when you want the upgrade process to start.
 
 ## Elasticsearch version compatibility with Adobe Commerce
 

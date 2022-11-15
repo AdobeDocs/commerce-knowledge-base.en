@@ -1,16 +1,15 @@
 ---
 title: run `setup:static-content:deploy` deployed_version.txt issue
-labels: Magento Commerce Cloud,deploy,not writable,troubleshooting,Adobe Commerce,cloud infrastructure
-description: "This article provides a fix for `deployed_version.txt` is not writable error when running the `setup:static-content:deploy` command manually."
+description: This article provides a fix for `deployed_version.txt` is not writable error when running the `setup:static-content:deploy` command manually.
+exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 ---
-
 # run `setup:static-content:deploy` deployed_version.txt issue
 
 This article provides a fix for `deployed_version.txt` is not writable error when running the `setup:static-content:deploy` command manually.
 
 ## Issue
 
-If you follow the Adobe Commerce on cloud infrastructure recommendations to use [Configuration Management](https://support.magento.com/hc/en-us/articles/115003169574) (and move static assets generation to the build stage in order to decrease website downtime during deployment), you may face the following error when running the `setup:static-content:deploy` command manually:
+If you follow the Adobe Commerce on cloud infrastructure recommendations to use [Configuration Management](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) (and move static assets generation to the build stage in order to decrease website downtime during deployment), you may face the following error when running the `setup:static-content:deploy` command manually:
 
 ```clike
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy

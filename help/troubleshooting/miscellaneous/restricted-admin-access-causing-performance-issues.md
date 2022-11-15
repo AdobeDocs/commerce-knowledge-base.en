@@ -1,9 +1,8 @@
 ---
 title: Restricted admin access causing performance issues
-labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,admin,how to,permissions,restricted access,user,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article provides solutions for when performance is negatively impacted by using [Admin roles with role scope restricted by website](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) in our user guide."
+description: This article provides solutions for when performance is negatively impacted by using [Admin roles with role scope restricted by website](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) in our user guide.
+exl-id: da168d6b-9cda-41e2-aa3c-f3f0dccc803d
 ---
-
 # Restricted admin access causing performance issues
 
 This article provides solutions for when performance is negatively impacted by using [Admin roles with role scope restricted by website](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) in our user guide.
@@ -25,7 +24,7 @@ Following are the options to avoid the issue:
 
 * Upgrade the Adobe Commerce application version to 2.2.10 or 2.3.3. (for instructions, see the [Upgrade Adobe Commerce on cloud infrastructure version](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) in our developer documentation).
 * Avoid restricting Admin user role scope by website, if possible.
-* [Submit a Magento Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket), to request a patch, if it is available.
+* [Submit a Magento Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), to request a patch, if it is available.
 
 ## Related reading
 

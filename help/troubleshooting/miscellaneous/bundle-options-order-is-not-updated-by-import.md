@@ -1,9 +1,8 @@
 ---
 title: Bundle options order is not updated by import
-labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,bundle options,how to,import,order,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
-description: "This article provides a solution for the issue when after importing products from a .csv file, the bundle product options appear in a different order than they are listed in the import file."
+description: This article provides a solution for the issue when after importing products from a .csv file, the bundle product options appear in a different order than they are listed in the import file.
+exl-id: 7f7bf782-4b35-4067-aa94-417097079f1f
 ---
-
 # Bundle options order is not updated by import
 
 This article provides a solution for the issue when after importing products from a .csv file, the bundle product options appear in a different order than they are listed in the import file.

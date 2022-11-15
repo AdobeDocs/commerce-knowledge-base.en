@@ -1,9 +1,8 @@
 ---
-title: "Managed alerts on Adobe Commerce: Redis memory warning alert"
-labels: Magento Commerce Cloud,New Relic,Pro,Redis,alert,memory,support tools,troubleshooting,warning,Adobe Commerce,Pro,cloud infrastructure
-description: "This article provides troubleshooting steps for when you receive a Redis warning alert for Adobe Commerce in New Relic. Immediate action is required to resolve the issue. The alert will look something like the following, depending on the alert notification channel you selected:"
+title: 'Managed alerts on Adobe Commerce: Redis memory warning alert'
+description: 'This article provides troubleshooting steps for when you receive a Redis warning alert for Adobe Commerce in New Relic. Immediate action is required to resolve the issue. The alert will look something like the following, depending on the alert notification channel you selected:'
+exl-id: b7867a42-3817-4cb4-93cf-d69acee33a41
 ---
-
 # Managed alerts on Adobe Commerce: Redis memory warning alert
 
 This article provides troubleshooting steps for when you receive a Redis warning alert for Adobe Commerce in New Relic. Immediate action is required to resolve the issue. The alert will look something like the following, depending on the alert notification channel you selected:
@@ -16,7 +15,7 @@ All versions of Adobe Commerce on cloud infrastructure Pro plan architecture.
 
 ## Issue
 
-You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](https://support.magento.com/hc/en-us/articles/360045806832) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe to give merchants a standard set of alerts using insights from Support and Engineering.
+You will receive an alert in New Relic if you have signed up to [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) and one or more of the alert thresholds have been surpassed. These alerts were developed by Adobe to give merchants a standard set of alerts using insights from Support and Engineering.
 
  **<u>Do!</u>**
 
@@ -35,7 +34,7 @@ You will receive an alert in New Relic if you have signed up to [Managed alerts 
 
 Follow these steps to identify and troubleshoot the cause.
 
-1. Check if Redis Used Memory is increasing or decreasing by going to [one.newrelic.com](http://one.newrelic.com/) > **Infrastructure** > **Third-party services** page, select the Redis dashboard. If it is stable or increasing, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to have your cluster upsized, or increase the `maxmemory` limit to the next level.
+1. Check if Redis Used Memory is increasing or decreasing by going to [one.newrelic.com](http://one.newrelic.com/) > **Infrastructure** > **Third-party services** page, select the Redis dashboard. If it is stable or increasing, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to have your cluster upsized, or increase the `maxmemory` limit to the next level.
 1. If you cannot identify the cause of increased Redis memory consumption, review recent trends to identify issues with recent code deployments or configuration changes (for example, new customer groups and large changes to the catalog). It is recommended that you review the past seven days of activity for any correlations in code deployments or changes.
 1. Check for misbehaving third party extensions:
     * Try to find a correlation with recently installed third party extensions and the time the issue started.

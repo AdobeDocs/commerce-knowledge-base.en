@@ -1,9 +1,8 @@
 ---
 title: Troubleshooting New Relic on Adobe Commerce on cloud infrastructure
-labels: GraphQL,Magento Commerce Cloud,New Relic,New Relic problem,New Relic troubleshooting,PHP,accessing New Relic,display,how to,troubleshoot,Adobe Commerce,cloud infrastructure
-description: "This article provides resources for troubleshooting New Relic on Adobe Commerce on cloud infrastructure."
+description: This article provides resources for troubleshooting New Relic on Adobe Commerce on cloud infrastructure.
+exl-id: ea763291-5c9b-4575-b2ee-820dbc367743
 ---
-
 # Troubleshooting New Relic on Adobe Commerce on cloud infrastructure
 
 This article provides resources for troubleshooting New Relic on Adobe Commerce on cloud infrastructure.
@@ -27,7 +26,7 @@ This article provides resources for troubleshooting New Relic on Adobe Commerce 
 <p>In those cases, an admin user needs to add you to the project.</p>
 </td>
 <td>
-<p><a href="https://support.magento.com/hc/en-us/articles/360039127712">Accessing New Relic services</a> in our support knowledge base.</p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">Accessing New Relic services</a> in our support knowledge base.</p>
 </td>
 </tr>
 <tr>

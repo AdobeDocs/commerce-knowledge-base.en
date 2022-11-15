@@ -1,9 +1,8 @@
 ---
-title: "MDVA-32313 patch: products added to wishlist with wrong configuration"
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.10,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,configurable product,product listing,wishlist,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-description: "The MDVA-32313 patch solves the issue where configurable products are not able to be added to the wishlist correctly, because they are assigned wrong configurations when they are added to the wishlist. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.10 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2."
+title: 'MDVA-32313 patch: products added to wishlist with wrong configuration'
+description: The MDVA-32313 patch solves the issue where configurable products are not able to be added to the wishlist correctly, because they are assigned wrong configurations when they are added to the wishlist. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.10 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
+exl-id: e7ac5ef5-1389-4108-b2bc-73d43eb3e7ca
 ---
-
 # MDVA-32313 patch: products added to wishlist with wrong configuration
 
 The MDVA-32313 patch solves the issue where configurable products are not able to be added to the wishlist correctly, because they are assigned wrong configurations when they are added to the wishlist. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.10 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
@@ -51,7 +50,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

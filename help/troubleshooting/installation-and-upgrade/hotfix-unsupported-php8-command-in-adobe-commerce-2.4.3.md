@@ -1,9 +1,8 @@
 ---
 title: Adobe Commerce upgrade 2.4.3, 2.3.7-p1 PHP Fatal error Hotfix
-labels: 2.4.3,Magento,known issues,patch,troubleshooting,error,php,8,Adobe Commerce, cloud infrastructure
-description: "This article provides a fix for when merchants try to upgrade to Adobe Commerce (all deployment methods) or Magento Open Source 2.4.3 or 2.3.7-p1 they see the following error:"
+description: 'This article provides a fix for when merchants try to upgrade to Adobe Commerce (all deployment methods) or Magento Open Source 2.4.3 or 2.3.7-p1 they see the following error:'
+exl-id: 1c472214-8387-403e-b2d2-d3f3c9e1da6a
 ---
-
 # Adobe Commerce upgrade 2.4.3, 2.3.7-p1 PHP Fatal error Hotfix
 
 This article provides a fix for when merchants try to upgrade to Adobe Commerce (all deployment methods) or Magento Open Source 2.4.3 or 2.3.7-p1 they see the following error:
@@ -47,7 +46,7 @@ In order to fix the issue for 2.3.7-p1, Adobe Commerce (all deployment methods) 
 
 ## How to Apply the Patch
 
-See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Magento](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions.
 
 ## Related Reading
 

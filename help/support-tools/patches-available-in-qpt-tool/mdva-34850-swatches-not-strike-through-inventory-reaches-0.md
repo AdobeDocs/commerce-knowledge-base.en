@@ -1,12 +1,11 @@
 ---
 title: 'MDVA-34850: swatches not strike-through inventory reaches "0"'
-labels: Inventory,QPT 1.0.17,QPT patches,Magento Commerce,Magento Commerce Cloud,configuration,inventory source,out of stock,support tools,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches \"0\" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3."
+description: The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches "0" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+exl-id: 90f5cef4-137a-426d-a447-2d1aca23e6c1
 ---
-
 # MDVA-34850: swatches not strike-through inventory reaches "0"
 
-The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches "0" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+The MDVA-34850 patch fixes the issue where the swatches are not stricken through when the inventory reaches "0" and are not visible in the  Product Details Page (PDP) link to any other In-Stock swatches. The **Display Out-of-Stock Products** is also set to *Yes* in admin configuration. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
 ## Affected products and versions
 
@@ -58,7 +57,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

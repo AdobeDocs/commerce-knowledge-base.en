@@ -1,9 +1,8 @@
 ---
-title: "MDVA-40601: Unable to retrieve data about category changed by scheduled update via GraphQL"
-labels: QPT patches,Quality Patches Tool,QPT 1.1.3,Magento Commerce 2.4.4,Adobe Commerce 2.4.4,GraphQL,on-premises,cloud infrastructure,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
-description: "The MDVA-40601 Adobe Commerce quality patch fixes the issue where users get an error when getting information about category changed by scheduled update through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.3 is installed. The patch ID is MDVA-40601. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
+title: 'MDVA-40601: Unable to retrieve data about category changed by scheduled update via GraphQL'
+description: The MDVA-40601 Adobe Commerce quality patch fixes the issue where users get an error when getting information about category changed by scheduled update through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.3 is installed. The patch ID is MDVA-40601. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+exl-id: b1ea93e7-8d4a-4bdd-8267-cc60de25bd39
 ---
-
 # MDVA-40601: Unable to retrieve data about category changed by scheduled update via GraphQL
 
 The MDVA-40601 Adobe Commerce quality patch fixes the issue where users get an error when getting information about category changed by scheduled update through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.3 is installed. The patch ID is MDVA-40601. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
@@ -123,7 +122,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about quality patches for Adobe Commerce, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

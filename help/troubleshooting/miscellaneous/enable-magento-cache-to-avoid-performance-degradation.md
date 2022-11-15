@@ -1,9 +1,8 @@
 ---
 title: Enable cache to avoid performance degradation
-labels: 2.2.x,2.3.x,Apdex,Magento Commerce,Magento Commerce Cloud,New Relic,cache,how to,slow performance,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article explains how to solve a slow site issue caused by certain Adobe Commerce cache types being disabled."
+description: This article explains how to solve a slow site issue caused by certain Adobe Commerce cache types being disabled.
+exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 ---
-
 # Enable cache to avoid performance degradation
 
 This article explains how to solve a slow site issue caused by certain Adobe Commerce cache types being disabled.
@@ -34,7 +33,7 @@ One reason for performance degradation might be certain Adobe Commerce cache typ
 1. Investigate the disabled cache types. All Adobe Commerce cache types should be enabled, unless you received alternative guidance from Adobe. Third party extensions must not require disabling Adobe Commerce cache.
 1. If the investigation confirms that some cache types are disabled by mistake, enable them by running the following command for each cache type: `php bin/magento cache:enable <your_disabled_cache_type>`
 
-If there are concerns and/or questions whether a certain Adobe Commerce cache type can or should be disabled, [contact Adobe Commerce support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) asking for recommendations.
+If there are concerns and/or questions whether a certain Adobe Commerce cache type can or should be disabled, [contact Adobe Commerce support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) asking for recommendations.
 
 ## Related reading
 
@@ -47,5 +46,5 @@ Other possible reasons for performance issues and solutions for them:
 
 * [Disable Adobe Commerce Banner output to improve site performance](https://support.magento.com/hc/en-us/articles/360035285852)
 * [MySQL tables are too large](https://support.magento.com/hc/en-us/articles/360038862691)
-* [Slow performance, slow and long running crons](https://support.magento.com/hc/en-us/articles/360034631192)
+* [Slow performance, slow and long running crons](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
 * [Restricted admin access causing performance issues](https://support.magento.com/hc/en-us/articles/360036323211)

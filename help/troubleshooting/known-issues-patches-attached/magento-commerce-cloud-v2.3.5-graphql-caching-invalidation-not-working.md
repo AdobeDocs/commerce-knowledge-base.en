@@ -1,9 +1,8 @@
 ---
 title: Adobe Commerce on cloud infrastructure v2.3.5 GraphQL caching invalidation not working
-labels: GraphQL,Magento Commerce Cloud,cache invalidation,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a patch for the issue where GraphQL `GET` request returns outdated information if the customer changes product information."
+description: This article provides a patch for the issue where GraphQL `GET` request returns outdated information if the customer changes product information.
+exl-id: 10ae52bd-e71a-42e3-9600-7a9713903815
 ---
-
 # Adobe Commerce on cloud infrastructure v2.3.5 GraphQL caching invalidation not working
 
 This article provides a patch for the issue where GraphQL `GET` request returns outdated information if the customer changes product information.
@@ -66,6 +65,6 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions on how to apply a composer patch.
+See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions on how to apply a composer patch.
 
 ## Attached files

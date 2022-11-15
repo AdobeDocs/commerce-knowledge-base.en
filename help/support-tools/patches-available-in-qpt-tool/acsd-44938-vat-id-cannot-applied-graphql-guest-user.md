@@ -1,12 +1,11 @@
 ---
-title: "ACSD-44938: VAT_ID cannot be applied in GraphQL request for guest user"
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.18,GraphQL,guest user,VAT_ID,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.3-p3
-description: "The ACSD-44938 patch fixes the issue where the VAT_ID cannot be applied in a GraphQL request for a guest user. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.18 is installed. The patch ID is ACSD-44938. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
+title: 'ACSD-44938: VAT_ID cannot be applied in GraphQL request for guest user'
+description: The ACSD-44938 patch fixes the issue where the VAT_ID cannot be applied in a GraphQL request for a guest user. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 is installed. The patch ID is ACSD-44938. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+exl-id: 18b3dfa5-b666-491e-a067-526a53294f39
 ---
-
 # ACSD-44938: VAT_ID cannot be applied in GraphQL request for guest user
 
-The ACSD-44938 patch fixes the issue where the VAT_ID cannot be applied in a GraphQL request for a guest user. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.18 is installed. The patch ID is ACSD-44938. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-44938 patch fixes the issue where the VAT_ID cannot be applied in a GraphQL request for a guest user. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 is installed. The patch ID is ACSD-44938. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -50,7 +49,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

@@ -1,9 +1,8 @@
 ---
 title: Installation stops at about 70%
-labels: Magento Commerce,PHP,Varnish,how to,installation,php.ini,wizard
-description: "This article provides a fix for when installation stops at about 70%."
+description: This article provides a fix for when installation stops at about 70%.
+exl-id: 04aa3572-3c42-4565-9f7f-b4d90df96df2
 ---
-
 # Installation stops at about 70%
 
 This article provides a fix for when installation stops at about 70%.

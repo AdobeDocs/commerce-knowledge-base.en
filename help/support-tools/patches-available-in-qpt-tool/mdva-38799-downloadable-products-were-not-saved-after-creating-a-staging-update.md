@@ -1,12 +1,11 @@
 ---
-title: "MDVA-38799: Downloadable products not saved after creating a staging update"
-labels: QPT patches,Quality Patches Tool,QPT,Support Tools,QPT 1.1.0,Magento Commerce,Magento Commerce Cloud,Adobe Commerce,on-premises,cloud infrastructure,Magento,downloadable products,staging,update,error,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
-description: "The MDVA-38799 patch solves the issue where downloadable products are not saved after creating a staging update. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue was fixed in Adobe Commerce version 2.4.3."
+title: 'MDVA-38799: Downloadable products not saved after creating a staging update'
+description: The MDVA-38799 patch solves the issue where downloadable products are not saved after creating a staging update. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+exl-id: 306f9ef3-ca3a-41b9-a5d3-42aa4ef59953
 ---
-
 # MDVA-38799: Downloadable products not saved after creating a staging update
 
-The MDVA-38799 patch solves the issue where downloadable products are not saved after creating a staging update. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
+The MDVA-38799 patch solves the issue where downloadable products are not saved after creating a staging update. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.0 is installed. The patch ID is MDVA-38799. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 
 ## Affected products and versions
 
@@ -59,7 +58,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

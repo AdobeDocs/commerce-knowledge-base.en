@@ -1,9 +1,8 @@
 ---
 title: Integration environments migration for legacy EU region
-labels: Adobe Commerce,Magento,announcement,news,Integration Environments,migration,legacy EU,upgrade,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.3,2.4.3-p1,2.4.3-p2
-description: "In order to provide you with the most up-to-date infrastructure foundation, we are migrating the Integration environments for all customers belonging to the legacy ‘EU’ region to a new EU region. The rest of the regions &ndash;  EU-3, EU-5, EU-6 &ndash;  will remain the same.  "
+description: 'In order to provide you with the most up-to-date infrastructure foundation, we are migrating the Integration environments for all customers belonging to the legacy ‘EU’ region to a new EU region. The rest of the regions &ndash;  EU-3, EU-5, EU-6 &ndash;  will remain the same.  '
+exl-id: 71c0d241-7ba8-48c3-acf1-2b28be5c80e7
 ---
-
 # Integration environments migration for legacy EU region
 
 In order to provide you with the most up-to-date infrastructure foundation, we are migrating the Integration environments for all customers belonging to the legacy ‘EU’ region to a new EU region. The rest of the regions &ndash;  EU-3, EU-5, EU-6 &ndash;  will remain the same.

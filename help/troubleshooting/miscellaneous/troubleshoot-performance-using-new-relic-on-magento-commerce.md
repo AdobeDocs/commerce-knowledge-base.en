@@ -1,17 +1,16 @@
 ---
 title: Troubleshoot performance using New Relic on Adobe Commerce
-labels: Apdex,CPU,Magento Commerce Cloud,New Relic,New Relic APM,New Relic Infrastructure,New Relic Magento,New Relic performance,how to,performance,Adobe Commerce,cloud infrastructure
-description: "This article provides troubleshooting steps to solve Adobe Commerce on cloud infrastructure performance issues using New Relic. It also provides resources for further information. Here is a list of issues. Click to see troubleshooting steps in our support knowledge base:"
+description: 'This article provides troubleshooting steps to solve Adobe Commerce on cloud infrastructure performance issues using New Relic. It also provides resources for further information. Here is a list of issues. Click to see troubleshooting steps in our support knowledge base:'
+exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 ---
-
 # Troubleshoot performance using New Relic on Adobe Commerce
 
-This article provides troubleshooting steps to solve Adobe Commerce on cloud infrastructure performance issues using New Relic. It also provides resources for further information. Here is a list of issues. Click to see troubleshooting steps in our support knowledge base:
+This article provides troubleshooting steps to solve Adobe Commerce on cloud infrastructure performance issues using New Relic. It also provides resources for further information. The following issues covered in the below table with recommended resources are:
 
-* [Low Apdex score](https://support.magento.com/hc/en-us/articles/360042149832#low_user_satisfaction)
-* [High CPU usage](https://support.magento.com/hc/en-us/articles/360042149832#high_cpu_usage)
-* [High I/O operations](https://support.magento.com/hc/en-us/articles/360042149832#i_o_operations)
-* [Outage](https://support.magento.com/hc/en-us/articles/360042149832#outage)
+* Low Apdex score
+* High CPU usage
+* High I/O operations
+* Outage
 
 <table>
 <tbody>

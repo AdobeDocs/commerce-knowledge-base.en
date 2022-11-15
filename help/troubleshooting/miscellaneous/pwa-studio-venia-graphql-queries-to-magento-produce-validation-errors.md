@@ -1,9 +1,8 @@
 ---
-title: "PWA Studio: Venia GraphQL queries to Adobe Commerce produce validation errors"
-labels: 2.2.x,2.3.x,GraphQL queries,Magento Commerce,Magento Commerce Cloud,PWA,PWA Studio,Venia,compatibility report,errors,how to,validation,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides recommendations on how to solve the issue where Venia storefront GraphQL queries to Adobe Commerce instance produce validation errors."
+title: 'PWA Studio: Venia GraphQL queries to Adobe Commerce produce validation errors'
+description: This article provides recommendations on how to solve the issue where Venia storefront GraphQL queries to Adobe Commerce instance produce validation errors.
+exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 ---
-
 # PWA Studio: Venia GraphQL queries to Adobe Commerce produce validation errors
 
 This article provides recommendations on how to solve the issue where Venia storefront GraphQL queries to Adobe Commerce instance produce validation errors.

@@ -1,12 +1,11 @@
 ---
-title: "MDVA-23426 Magento patch: emails sent as attachments from Outlook"
-labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Outlook,attachements,email,order email,orders,shipping,support tools
-description: "The MDVA-23426 Magento patch fixes the issue where emails are sent as attachments by Magento from MS Outlook. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5."
+title: 'MDVA-23426 Magento patch: emails sent as attachments from Outlook'
+description: The MDVA-23426 Magento patch fixes the issue where emails are sent as attachments by Magento from MS Outlook. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5.
+exl-id: 0b4c3e33-76c5-48b0-b1a8-a967cea11b98
 ---
-
 # MDVA-23426 Magento patch: emails sent as attachments from Outlook
 
-The MDVA-23426 Magento patch fixes the issue where emails are sent as attachments by Magento from MS Outlook. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5.
+The MDVA-23426 Magento patch fixes the issue where emails are sent as attachments by Magento from MS Outlook. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5.
 
 ## Affected products and versions
 
@@ -41,7 +40,7 @@ For instructions on how to apply an QPT patch, use the following links depending
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) .
-* [Check patch for Magento issue with Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) .
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) .
+* [Check patch for Magento issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) .
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

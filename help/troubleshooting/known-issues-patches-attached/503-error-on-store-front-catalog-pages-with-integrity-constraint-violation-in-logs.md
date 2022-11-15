@@ -1,9 +1,8 @@
 ---
 title: 503 error on store front catalog pages with "Integrity constraint violation" in logs
-labels: 2.2.0,2.2.4,503,Magento Commerce Cloud,integrity constraint violation,known issues,patch,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.0 issue related to store front catalog pages being inaccessible.
+exl-id: ad363744-756a-48b9-ae11-58642e0ca6a4
 ---
-
 # 503 error on store front catalog pages with "Integrity constraint violation" in logs
 
 >[!NOTE]
@@ -65,7 +64,7 @@ The `MDVA-13203_EE_2.2.4_V1_COMPOSER` patch is also compatible (but might not so
 
 ## How to apply the patch
 
-For instructions, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+For instructions, see [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.
 
 ## Useful links
 

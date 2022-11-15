@@ -1,9 +1,8 @@
 ---
 title: Applying a patch takes your site down
-labels: Magento Commerce,Magento Commerce Cloud,patch,remove patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1-p1,2.4.2,2.4.2-p1,2.3.7-p1,2.3.7-p2,2.4.1,2.4.2-p2,2.4.3,2.4.3-p1
-description: "This article talks about the issue where a patch you just applied takes your site down. To resolve it, you can remove the patch."
+description: This article talks about the issue where a patch you just applied takes your site down. To resolve it, you can remove the patch.
+exl-id: dc765bcd-0761-4efd-a345-46a908d61272
 ---
-
 # Applying a patch takes your site down
 
 This article talks about the issue where a patch you just applied takes your site down. To resolve it, you can remove the patch.
@@ -58,4 +57,4 @@ For Adobe Commerce on cloud infrastructure, all versions,
 
 ## Related reading
 
-* [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+* [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.

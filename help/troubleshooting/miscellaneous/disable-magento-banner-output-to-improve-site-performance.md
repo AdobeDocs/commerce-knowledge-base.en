@@ -1,9 +1,8 @@
 ---
 title: Disable Adobe Commerce Banner output to improve site performance
-labels: 2.2.x,2.3.x,2.x.x,AJAX requests,Magento Commerce,Magento Commerce Cloud,banner,disable,troubleshooting,how to,performance,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article provides a fix for low site performance. Low site performance can be caused by the `Magento_Banner` module being enabled but not used. Disabling the module output can improve site performance. Review the article for resolution steps."
+description: This article provides a fix for low site performance. Low site performance can be caused by the `Magento_Banner` module being enabled but not used. Disabling the module output can improve site performance. Review the article for resolution steps.
+exl-id: 90a8bd21-1f2c-4cfe-8213-17f877e20de8
 ---
-
 # Disable Adobe Commerce Banner output to improve site performance
 
 This article provides a fix for low site performance. Low site performance can be caused by the `Magento_Banner` module being enabled but not used. Disabling the module output can improve site performance. Review the article for resolution steps.

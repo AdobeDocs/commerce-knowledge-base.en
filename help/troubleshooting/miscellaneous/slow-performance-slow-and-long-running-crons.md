@@ -1,9 +1,8 @@
 ---
 title: Slow performance, slow and long running crons
-labels: Magento Commerce,Magento Commerce Cloud,flat catalog indexers,flat tables,how to,long running crons,performance,slow performance,Adobe Commerce,cloud infrastructure
 description: This article describes how to solve site performance issues and slow running and stuck crons caused by flat tables and indexers having been enabled.
+exl-id: a78ca3c3-85b4-40a1-a693-4703dd3ef4b5
 ---
-
 # Slow performance, slow and long running crons
 
 >[!WARNING]

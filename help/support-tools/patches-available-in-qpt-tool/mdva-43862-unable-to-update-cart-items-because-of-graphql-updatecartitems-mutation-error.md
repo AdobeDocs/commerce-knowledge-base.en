@@ -1,12 +1,11 @@
 ---
 title: "MDVA-43862: customer can't update cart items because of a GraphQL UpdateCartItems mutation error"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.13,update,GraphQL,UpdateCartItems,mutation error,2.3.3,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
-description: "The MDVA-43862 patch solves the issue where the customer can't update cart items because of a GraphQL UpdateCartItems mutation error. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.13 is installed. The patch ID is MDVA-43862. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
+description: The MDVA-43862 patch solves the issue where the customer can't update cart items because of a GraphQL UpdateCartItems mutation error. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is installed. The patch ID is MDVA-43862. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+exl-id: 5f0a2970-34a8-4a25-baf8-15c007f97084
 ---
-
 # MDVA-43862: customer can't update cart items because of a GraphQL UpdateCartItems mutation error
 
-The MDVA-43862 patch solves the issue where the customer can't update cart items because of a GraphQL UpdateCartItems mutation error. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.13 is installed. The patch ID is MDVA-43862. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-43862 patch solves the issue where the customer can't update cart items because of a GraphQL UpdateCartItems mutation error. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is installed. The patch ID is MDVA-43862. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -174,7 +173,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

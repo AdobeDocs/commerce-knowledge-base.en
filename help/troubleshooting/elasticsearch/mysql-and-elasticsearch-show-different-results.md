@@ -1,9 +1,8 @@
 ---
 title: MySQL and ElasticSearch show different results
-labels: 2.2.3,2.2.6,Magento Commerce,Magento Commerce Cloud,known issues,patch,search,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting different search results for the same search query with MySQL and ElasticSearch.
+exl-id: 37a0164a-0237-4200-ab9c-e0dbad7e2062
 ---
-
 # MySQL and ElasticSearch show different results
 
 >[!WARNING]
@@ -60,6 +59,6 @@ The `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` patch is also compatible (but might 
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base for instructions.
+See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base for instructions.
 
 ## Attached Files

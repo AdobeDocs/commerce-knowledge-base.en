@@ -1,9 +1,8 @@
 ---
 title: Allocate more space for MySQL in Adobe Commerce on cloud
-labels: Magento Commerce Cloud,Magento Pro,Magento Starter,MySQL,Pro,Starter,how to,mysql disk space,space,Adobe Commerce,cloud infrastructure
-description: "This article provide instructions on how to allocate more space for MySQL in Adode Commerce on cloud infrastructure."
+description: This article provide instructions on how to allocate more space for MySQL in Adode Commerce on cloud infrastructure.
+exl-id: 98501aa0-5ec7-4ea1-8856-13d171ad0be9
 ---
-
 # Allocate more space for MySQL in Adobe Commerce on cloud
 
 
@@ -27,7 +26,7 @@ Once you change the `.magento/services.yaml` file, you need to commit and push y
 
 ## Allocate space on Pro plan Staging or Production
 
-To make these changes for the Staging or Production environment of the Pro plan, you must create a [support ticket](https://support.magento.com/hc/en-us/articles/360000913794#merchant-not-displayed). When submitting a support ticket to increase storage, support will need to know how much and to what partition the storage should be applied to (`/mysql` or `/exports`). A storage increase request requires approval from your Customer Success Manager, who will review your entitled amount of storage (as per the order form) before approving.
+To make these changes for the Staging or Production environment of the Pro plan, you must create a [support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). When submitting a support ticket to increase storage, support will need to know how much and to what partition the storage should be applied to (`/mysql` or `/exports`). A storage increase request requires approval from your Customer Success Manager, who will review your entitled amount of storage (as per the order form) before approving.
 
 ## Decreasing allocated space not available (Pro and Starter plan)
 

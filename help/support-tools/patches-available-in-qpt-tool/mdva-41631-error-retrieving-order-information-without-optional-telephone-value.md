@@ -1,12 +1,11 @@
 ---
 title: 'MDVA-41631: Error retrieving order information without optional "telephone" value'
-labels: 2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4,QPT 1.1.7,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,GraphQL,error,order,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-41631 patch fixes the issue where users get an error retrieving order information without optional \"telephone\" value through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.7 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
+description: The MDVA-41631 patch fixes the issue where users get an error retrieving order information without optional "telephone" value through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+exl-id: 94b0b918-c1f9-4f5d-8fcd-8b92a9ca8c59
 ---
-
 # MDVA-41631: Error retrieving order information without optional "telephone" value
 
-The MDVA-41631 patch fixes the issue where users get an error retrieving order information without optional "telephone" value through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.7 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+The MDVA-41631 patch fixes the issue where users get an error retrieving order information without optional "telephone" value through GraphQL. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
@@ -92,7 +91,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

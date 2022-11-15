@@ -1,9 +1,8 @@
 ---
 title: Login redirect when trying to login to Commerce Admin
-labels: Magento Commerce,Magento Commerce Cloud,admin,login,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article gives the possible solutions for the Commerce Admin login issue, where you are redirected back to the login form when trying to log in to the Admin, and no error message is displayed. These include correcting the server timezone settings and clearing the cookies settings in Adobe Commerce."
+description: This article gives the possible solutions for the Commerce Admin login issue, where you are redirected back to the login form when trying to log in to the Admin, and no error message is displayed. These include correcting the server timezone settings and clearing the cookies settings in Adobe Commerce.
+exl-id: ff3114fd-8690-4983-8221-cf807f083b15
 ---
-
 # Login redirect when trying to login to Commerce Admin
 
 This article gives the possible solutions for the Commerce Admin login issue, where you are redirected back to the login form when trying to log in to the Admin, and no error message is displayed. These include correcting the server timezone settings and clearing the cookies settings in Adobe Commerce.
@@ -81,5 +80,5 @@ To check the cookies settings values and clear them, take the following steps:
 
 ## Related articles
 
-* [Redirect back to the Admin login form with "Your account is temporarily disabled" error](https://support.magento.com/hc/en-us/articles/360028606831) in our support knowledge base.
+* [Redirect back to the Admin login form with "Your account is temporarily disabled" error](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) in our support knowledge base.
 * [Redirect back to the Admin login form with "Your current session has been expired" error](https://support.magento.com/hc/en-us/articles/360028441671) in our support knowledge base.

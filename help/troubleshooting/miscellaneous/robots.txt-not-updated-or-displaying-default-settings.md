@@ -1,9 +1,8 @@
 ---
 title: robots.txt not updated or displaying default settings
-labels: 2.3.x,2.4.x,Magento Commerce,Magento Commerce Cloud,configuration,default,robots.txt,settings,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "The article provides a solution for when you have configured `robots.txt` correctly, for example per [Best practices for Adobe Commerce robots.txt](https://support.magento.com/hc/en-us/articles/360048754931) but the `robots.txt` is not getting updated or is displaying the default settings."
+description: The article provides a solution for when you have configured `robots.txt` correctly, for example per [Best practices for Adobe Commerce robots.txt](https://support.magento.com/hc/en-us/articles/360048754931) but the `robots.txt` is not getting updated or is displaying the default settings.
+exl-id: 629b1247-9282-49f9-ada3-a804ddbaa0f5
 ---
-
 # robots.txt not updated or displaying default settings
 
 The article provides a solution for when you have configured `robots.txt` correctly, for example per [Best practices for Adobe Commerce robots.txt](https://support.magento.com/hc/en-us/articles/360048754931) but the `robots.txt` is not getting updated or is displaying the default settings.

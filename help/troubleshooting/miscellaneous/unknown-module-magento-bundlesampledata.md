@@ -1,9 +1,8 @@
 ---
 title: Unknown module Magento_BundleSampleData
-labels: LogicException,Magento Commerce,Magento Commerce Cloud,Magento_BundleSampleData,error,how to,module,unknown,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article provides a fix for the unknown module error during installation of Adobe Commerce."
+description: This article provides a fix for the unknown module error during installation of Adobe Commerce.
+exl-id: c927bc8f-d70b-4305-87c1-223001212555
 ---
-
 # Unknown module Magento_BundleSampleData
 
 This article provides a fix for the unknown module error during installation of Adobe Commerce.

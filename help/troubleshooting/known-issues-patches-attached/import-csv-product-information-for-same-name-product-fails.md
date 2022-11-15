@@ -1,9 +1,8 @@
 ---
 title: Import CSV product information for same name product fails
-labels: Magento Commerce,Magento Commerce Cloud,import,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.2.6,2.2.7,2.3.0
-description: "This article provides a patch for the known Adobe Commerce 2.2.3 issue related to getting errors when trying to import a `.csv` file with products information if there are products with the same name."
+description: This article provides a patch for the known Adobe Commerce 2.2.3 issue related to getting errors when trying to import a `.csv` file with products information if there are products with the same name.
+exl-id: 420b0283-455a-4bd5-ba51-18f341ddacd5
 ---
-
 # Import CSV product information for same name product fails
 
 This article provides a patch for the known Adobe Commerce 2.2.3 issue related to getting errors when trying to import a `.csv` file with products information if there are products with the same name.
@@ -46,7 +45,7 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base for instructions.
+See [How to apply a composer patch provided by Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base for instructions.
 
 ## Useful links
 

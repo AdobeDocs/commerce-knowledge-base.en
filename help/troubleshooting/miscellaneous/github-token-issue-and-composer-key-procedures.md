@@ -1,9 +1,8 @@
 ---
 title: Github token issue and Composer key procedures
-labels: Magento Commerce,Magento Commerce Cloud,GitHub,token,Composer key,troubleshooting,failed deployment,fail,Git,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides solutions for the issue of failed deployments related to Github token failures caused by outdated Composer keys."
+description: This article provides solutions for the issue of failed deployments related to Github token failures caused by outdated Composer keys.
+exl-id: 202cb936-f9ba-49ea-bf0a-6e6994d2337a
 ---
-
 # Github token issue and Composer key procedures
 
 This article provides solutions for the issue of failed deployments related to Github token failures caused by outdated Composer keys.
@@ -35,7 +34,7 @@ To resolve the issue, please update your Composer version to 1.10.22:
 1. This adds the requirement for that Composer package version. Check the lock file - `composer/composer` version must be 1.0.22 or higher.
 1. Commit `composer.json` and `composer.lock` and push a deployment.
 
-If this method does not work, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+If this method does not work, please [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Related reading
 

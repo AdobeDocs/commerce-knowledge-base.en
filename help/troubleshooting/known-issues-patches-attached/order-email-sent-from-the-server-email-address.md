@@ -1,9 +1,8 @@
 ---
 title: Order email sent from the server email address
-labels: 2.2.4,Magento Commerce Cloud,known issues,order email,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This articles provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to order emails being sent from the server email address."
+description: This articles provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to order emails being sent from the server email address.
+exl-id: f32e0c09-e19e-4269-bbba-0533d74a7f49
 ---
-
 # Order email sent from the server email address
 
 This articles provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to order emails being sent from the server email address.
@@ -52,6 +51,6 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-For instructions, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+For instructions, see [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.
 
 ## Attached Files

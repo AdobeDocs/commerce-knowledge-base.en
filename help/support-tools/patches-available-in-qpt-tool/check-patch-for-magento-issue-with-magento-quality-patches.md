@@ -1,9 +1,8 @@
 ---
 title: Check patch for Adobe Commerce issue with Quality Patches Tool
-labels: 2.3,2.3.x,2.4,2.4.x,QPT,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,how to,patches,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article provides an overview of Quality Patches Tool (QPT) and links to resources explaining how to use it."
+description: This article provides an overview of Quality Patches Tool (QPT) and links to resources explaining how to use it.
+exl-id: 43393708-3939-449f-a764-b2ac6326165f
 ---
-
 # Check patch for Adobe Commerce issue with Quality Patches Tool
 
 This article provides an overview of Quality Patches Tool (QPT) and links to resources explaining how to use it.
@@ -52,4 +51,4 @@ Please refer to [ Cloud for Adobe Commerce > Apply patches](https://devdocs.mage
 ## Related reading
 
 * [Quality Patches Tool release notes](https://devdocs.magento.com/quality-patches/release-notes.html) in our developer documentation.
-* [How to apply composer patches provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+* [How to apply composer patches provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.

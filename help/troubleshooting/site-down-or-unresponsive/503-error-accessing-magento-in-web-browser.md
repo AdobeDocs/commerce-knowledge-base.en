@@ -1,9 +1,8 @@
 ---
 title: 503 error accessing Adobe Commerce in web browser
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,503 error,Apache,Magento Commerce,troubleshooting,Magento,Adobe Commerce
-description: "This article provides a possible solution for the issue where you get a 503 error when trying to access Adobe Commerce storefront and/or Admin."
+description: This article provides a possible solution for the issue where you get a 503 error when trying to access Adobe Commerce storefront and/or Admin.
+exl-id: 4232aa21-40c2-41b0-9fb0-fc8cd4db8e39
 ---
-
 # 503 error accessing Adobe Commerce in web browser
 
 This article provides a possible solution for the issue where you get a 503 error when trying to access Adobe Commerce storefront and/or Admin.

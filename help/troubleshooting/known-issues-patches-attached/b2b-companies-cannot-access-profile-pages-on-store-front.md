@@ -1,9 +1,8 @@
 ---
-title: "B2B: Companies cannot access profile pages on store front"
-labels: 2.2.2,B2B,Magento Commerce,known issues,patch,profile,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article provides a patch for the known Adobe Commerce 2.2.4 B2B issue related to registered companies getting errors on their Account pages on the storefront."
+title: 'B2B: Companies cannot access profile pages on store front'
+description: This article provides a patch for the known Adobe Commerce 2.2.4 B2B issue related to registered companies getting errors on their Account pages on the storefront.
+exl-id: 5f0d81a2-e0a1-487b-8a4f-28b8cb704e32
 ---
-
 # B2B: Companies cannot access profile pages on store front
 
 This article provides a patch for the known Adobe Commerce 2.2.4 B2B issue related to registered companies getting errors on their Account pages on the storefront.
@@ -31,4 +30,4 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions.

@@ -1,9 +1,8 @@
 ---
 title: Shipping address not saved post page refresh on checkout
-labels: 2.2.3,Magento Commerce,known issues,patch,shipping address not saved,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article provides a patch for the known Adobe Commerce 2.2.3 issue where the customer's already populated shipping address form was blank again after refreshing the browser page on guest checkout. The issue was experienced when the persistent shopping cart was enabled."
+description: This article provides a patch for the known Adobe Commerce 2.2.3 issue where the customer's already populated shipping address form was blank again after refreshing the browser page on guest checkout. The issue was experienced when the persistent shopping cart was enabled.
+exl-id: b757e4af-7b1a-41bc-8460-9a6858c7aa5e
 ---
-
 # Shipping address not saved post page refresh on checkout
 
 This article provides a patch for the known Adobe Commerce 2.2.3 issue where the customer's already populated shipping address form was blank again after refreshing the browser page on guest checkout. The issue was experienced when the persistent shopping cart was enabled.
@@ -54,6 +53,6 @@ The patch is attached to this article. To download it, scroll down to the end of
 
 ## How to apply the patch
 
-For instructions, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+For instructions, see [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.
 
 ## Attached Files

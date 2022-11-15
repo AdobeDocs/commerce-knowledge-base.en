@@ -1,12 +1,11 @@
 ---
 title: 'MDVA-21095: INSERT INTO "search_tmp..." never ends after mass attribute update'
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PHP-fpm die,mass attribute update,pm.max_children,query INSERT INTO search_tmp,reindex,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-21095 patch fixes the issue when a query `INSERT INTO` \"search\\_tmp...\" never ends after a mass attribute update. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-21095. Please note that there is no current plan to fix this issue in future versions."
+description: The MDVA-21095 patch fixes the issue when a query `INSERT INTO` "search\_tmp..." never ends after a mass attribute update. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-21095. Please note that there is no current plan to fix this issue in future versions.
+exl-id: fd599473-b49a-4f9c-a13f-612d05e43f09
 ---
-
 # MDVA-21095: INSERT INTO "search_tmp..." never ends after mass attribute update
 
-The MDVA-21095 patch fixes the issue when a query `INSERT INTO` "search\_tmp..." never ends after a mass attribute update. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-21095. Please note that there is no current plan to fix this issue in future versions.
+The MDVA-21095 patch fixes the issue when a query `INSERT INTO` "search\_tmp..." never ends after a mass attribute update. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-21095. Please note that there is no current plan to fix this issue in future versions.
 
 ## Affected products and versions
 
@@ -49,7 +48,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

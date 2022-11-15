@@ -1,9 +1,8 @@
 ---
 title: Product status incorrect when created programmatically
-labels: 2.x.x,Magento,create product,product status,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a fix for when product status is Disabled and products are not displayed on the store front, or are assigned to the wrong store views, when created/updated programmatically."
+description: This article provides a fix for when product status is Disabled and products are not displayed on the store front, or are assigned to the wrong store views, when created/updated programmatically.
+exl-id: ac02f961-f9e2-4620-839f-b8dbd0befb15
 ---
-
 # Product status incorrect when created programmatically
 
 This article provides a fix for when product status is Disabled and products are not displayed on the store front, or are assigned to the wrong store views, when created/updated programmatically.

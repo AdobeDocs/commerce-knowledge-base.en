@@ -1,9 +1,8 @@
 ---
-title: "MBI: Data discrepancies"
-labels: Magento Business Intelligence,data discrepancies,troubleshooting,Adobe Commerce
+title: 'MBI: Data discrepancies'
 description: "Do the numbers on a certain report look inaccurate? Do you see unexpected NULL values? If you see something that doesn't seem quite right, we recommend using these resources to help you troubleshoot:"
+exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 ---
-
 # MBI: Data discrepancies
 
 Do the numbers on a certain report look inaccurate? Do you see unexpected NULL values? If you see something that doesn't seem quite right, we recommend using these resources to help you troubleshoot:
@@ -15,7 +14,7 @@ We also recommend that you ensure the correct [replication methods](https://docs
 
 ## I still need help!
 
-If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) with the following information:
+If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) with the following information:
 
 * What's the name of the report where you see the discrepancy?
 * Which values on the report are incorrect?

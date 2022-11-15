@@ -1,16 +1,15 @@
 ---
 title: Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure
-labels: 2.3,2.4,Magento Commerce,Magento Commerce Cloud,announcements,capacity,infrastructure,performance,request,Adobe Commerce,cloud infrastructure,Black Friday,Cyber Monday
-description: "During the peak holiday sales season (approximately Mid-November through Mid-January), Adobe recommends that all Adobe Commerce merchants hosted on our cloud infrastructure prepare for increased traffic."
+description: During the peak holiday sales season (approximately Mid-November through Mid-January), Adobe recommends that all Adobe Commerce merchants hosted on our cloud infrastructure prepare for increased traffic.
+exl-id: 9d6910bf-30bc-4117-bf7f-a0316f9506b5
 ---
-
 # Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure
 
 During the peak holiday sales season (approximately Mid-November through Mid-January), Adobe recommends that all Adobe Commerce merchants hosted on our cloud infrastructure prepare for increased traffic.
 
  **Planning and Estimating Traffic**
 
-We recommend that all Adobe Commerce merchants on our cloud infrastructure [utilize this set of recommendations on how to estimate peak season traffic](https://magento.com/blog/best-practices/five-ps-peak-season-performance-guide-preparing-your-infrastructure-high) for the peak holiday sales season each year.
+We recommend that all Adobe Commerce merchants on our cloud infrastructure [utilize this set of recommendations on how to estimate peak season traffic](https://business.adobe.com/blog/how-to/the-5-ps-of-peak-season-performance-a-guide-to-preparing-your-infrastructure-for-high-traffic) for the peak holiday sales season each year.
 
 Once you have completed the recommended estimation, if your team has identified any dates where you feel you will need additional capacity, continue on to the next step for information on how to request surge capacity.
 
@@ -27,7 +26,7 @@ The following information is available for each resize request:
 
  **Requesting Surge Capacity**
 
-Adobe Commerce merchants on our cloud infrastructure that anticipate a need for additional capacity during the holiday season should [submit a Surge Capacity Support Ticket](https://support.magento.com/hc/en-us/articles/360041138511-How-to-request-temporary-additional-cloud-capacity-for-Magento-Commerce-Cloud) via our [Help Center](https://support.magento.com/hc/en-us), indicating the dates and expected capacity needs within the ticket. Please note that increased capacity will require usage of your licensed overage capacity.
+Adobe Commerce merchants on our cloud infrastructure that anticipate a need for additional capacity during the holiday season should [submit a Surge Capacity Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html) via our [Help Center](/help/overview.md), indicating the dates and expected capacity needs within the ticket. Please note that increased capacity will require usage of your licensed overage capacity.
 
 **We recommend submitting these tickets at least 48 business hours in advance of when the capacity is needed; and additionally recommend that requests for the Black Friday / Cyber Monday period be placed as far in advance as possible, as capacity during this period is limited.**
 
@@ -40,7 +39,7 @@ Need more guidance on preparing for peak season traffic? Adobe Commerce merchant
 
 In our support knowledge base:
 
-* [CPU allocation calculation for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058551232)
-* [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058506772)
-* [Check host’s CPU configuration for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058507012O)
-* [Identify and measure outages for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/4409500578957)
+* [CPU allocation calculation for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
+* [Check if upsize for host's instances is needed for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
+* [Check host's CPU configuration for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
+* [Identify and measure outages for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html)

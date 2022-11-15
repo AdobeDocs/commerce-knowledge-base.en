@@ -1,9 +1,8 @@
 ---
-title: "MDVA-37082: Incorrect partial index of stock status for grouped products"
-labels: QPT Patches,Quality Patches Tool,support tools,QPT 1.0.25,Magento Commerce Cloud,Magento Commerce,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1, 2.4.2,2.4.2-p1
-description: "The MDVA-37082 Magento patch fixes the issue when the partial index of stock status for grouped products is wrong for custom stocks. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue is scheduled to be fixed in Magento 2.4.4."
+title: 'MDVA-37082: Incorrect partial index of stock status for grouped products'
+description: The MDVA-37082 Magento patch fixes the issue when the partial index of stock status for grouped products is wrong for custom stocks. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
+exl-id: 1c0abc99-bd24-4848-87a3-227a63655cb7
 ---
-
 # MDVA-37082: Incorrect partial index of stock status for grouped products
 
 The MDVA-37082 Magento patch fixes the issue when the partial index of stock status for grouped products is wrong for custom stocks. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-37082. Please note that the issue is scheduled to be fixed in Magento 2.4.4.
@@ -56,7 +55,7 @@ To apply individual patches use the following links to our developer documentati
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check if patch is available for your Magento issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Check if patch is available for your Magento issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

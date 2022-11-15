@@ -1,9 +1,8 @@
 ---
 title: Advanced Reporting 404 error on split database solution
-labels: 2.3.x,404 error,Advanced Reporting,Magento Commerce,known issues,patch,troubleshooting,Adobe Commerce
-description: "This article provides a patch for Adobe Commerce 2.3.x users with the [split database solution](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) that experience a 404 error when trying to use Advanced Reporting."
+description: This article provides a patch for Adobe Commerce 2.3.x users with the [split database solution](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) that experience a 404 error when trying to use Advanced Reporting.
+exl-id: b81d4ada-5f38-4882-bc5b-ab4ccd63fc5f
 ---
-
 # Advanced Reporting 404 error on split database solution
 
 This article provides a patch for Adobe Commerce 2.3.x users with the [split database solution](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) that experience a 404 error when trying to use Advanced Reporting.
@@ -28,4 +27,4 @@ The patch is attached to this article. To download it, click the following link:
 
 ## How to apply the patch
 
-Unzip the file and follow the instructions in [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731).
+Unzip the file and follow the instructions in [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

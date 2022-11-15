@@ -1,9 +1,8 @@
 ---
 title: Remove failed login attempts from the database
-labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,database,failed login,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article explains how to remove pre-existing failed login credentials from the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure database. For versions 2.2.10+ and 2.3.3+, you only need to run the attached script. For older versions 2.3.0-2.3.2-p2, you need to apply a patch to stop logging and run the attached script to remove pre-existing failed login credentials."
+description: This article explains how to remove pre-existing failed login credentials from the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure database. For versions 2.2.10+ and 2.3.3+, you only need to run the attached script. For older versions 2.3.0-2.3.2-p2, you need to apply a patch to stop logging and run the attached script to remove pre-existing failed login credentials.
+exl-id: 0d7e3674-3563-414f-86a2-297eb8104099
 ---
-
 # Remove failed login attempts from the database
 
 >[!NOTE]
@@ -29,7 +28,7 @@ Whether you need to use the attached script and the patch, or just the script, d
 
 For these versions you must apply the patch and run the attached database clean-up script to end continued logging and eliminate logs.
 
-1. Run the composer patch to stop logging. This patch is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](assets/CLEANUP_PATCH_COMPOSER_2.3.2.patch.zip). For instructions on how to apply the patch, see [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+1. Run the composer patch to stop logging. This patch is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](assets/CLEANUP_PATCH_COMPOSER_2.3.2.patch.zip). For instructions on how to apply the patch, see [How to apply a composer patch provided by Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.
 
 1. Now run the script to clean the database of the pre-existing failed login attempts. This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
 
@@ -47,7 +46,7 @@ Please follow the below instructions to run the script:
 1. Put `DB_CLEANUP_SCRIPT_v2.php` in the root directory of the Adobe Commerce or Magento Open Source installation (in the same directory as app which contains `app/bootstrap.php`).
 1. Run this command in the terminal: `php DB_CLEANUP_SCRIPT_v2.php` and it will begin the database clean up process.
 
-If you encounter any issues while running the script, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) or email us at [security@magento.com](mailto:security@magento.com).
+If you encounter any issues while running the script, please [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) or email us at [security@magento.com](mailto:security@magento.com).
 
  **Attached files**
 

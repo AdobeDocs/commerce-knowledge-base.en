@@ -1,12 +1,11 @@
 ---
 title: How to request temporary Adobe Commerce on cloud infrastructure upsize
-labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,Magento Upsize,New Relic,alert,baseline,capacity,cloud,how to,request,temporary,Adobe Commerce,cloud infrastructure
-description: "If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store."
+description: If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
+exl-id: 561e2bdd-718a-45c1-8b6c-a0e3a6c8ad04
 ---
-
 # How to request temporary Adobe Commerce on cloud infrastructure upsize
 
-If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
+If your organization is planning an online event in which you expect high traffic, or you suddenly find your site to be undergoing a high traffic event, you can file a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request temporary additional cloud capacity for your Adobe Commerce on cloud infrastructure store.
 
 >[!NOTE]
 >
@@ -29,7 +28,7 @@ In addition, baseline alerting works well with new applications when you do not 
 
 Follow this link to learn more about New Relic [Creating baseline alert conditions](https://docs.newrelic.com/docs/alerts/new-relic-alerts/defining-conditions/create-baseline-alert-conditions).
 
-If you receive an alert notification that suggests a high traffic event you may need to consider [submitting a Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting additional capacity. Follow the below steps.
+If you receive an alert notification that suggests a high traffic event you may need to consider [submitting a Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting additional capacity. Follow the below steps.
 
 ## How to monitor performance of your site
 
@@ -45,9 +44,9 @@ Follow this link to learn how to [configure performance-based alerts](https://de
 
 ## Steps to request temporary upsize
 
-Follow the steps below to submit a [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to request temporary additional cloud capacity:
+Follow the steps below to submit a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request temporary additional cloud capacity:
 
-Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket), after inputting the following information:
+Submit a [Support Ticket at the Adobe Commerce Support Center](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), after inputting the following information:
 
 >[!NOTE]
 >
@@ -59,7 +58,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](https://support.m
 1. Select *Holiday Surge Capacity Request* in the **Adobe Commerce Infrastructure Contact Reason** drop-down options. Click **OK** on the pop-up message requesting 48 business hours' notice for temporary additional cloud capacity requests.
 1. Select dates for the mandatory fields **Resize Start Date** and **Resize End Date**. The preferred **Resize Start Time** is also a mandatory field.
 1. Complete the next four fields.
-1. In the **Description** field, if you have additional information on size, provide it here. If no specific larger size is requested, we will be upsizing you up to the next larger environment size capacity. Surge requests will default to the next larger size from your current size. If you require additional capacity, please indicate that in the **Description** field. Increased capacity will be deducted from your contracted Surge Days or vCPU days. The typical capacity increase window is five days, but if you need more or fewer days, please indicate this in your [Support Ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+1. In the **Description** field, if you have additional information on size, provide it here. If no specific larger size is requested, we will be upsizing you up to the next larger environment size capacity. Surge requests will default to the next larger size from your current size. If you require additional capacity, please indicate that in the **Description** field. Increased capacity will be deducted from your contracted Surge Days or vCPU days. The typical capacity increase window is five days, but if you need more or fewer days, please indicate this in your [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 >[!NOTE]
 >
@@ -80,10 +79,10 @@ The following information is available for each resize request:
 ## Related reading
 
 * For insights, methods, and examples of how to measure and improve site performance, refer to the following in-depth articles in our support knowledge base:
-    * [CPU allocation calculation for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058551232)
-    * [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058506772)
-    * [Check host’s CPU configuration for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/360058507012O)
-* For information on how to identify outages, refer to [Identify and measure outages for Adobe Commerce on cloud](https://support.magento.com/hc/en-us/articles/4409500578957) in our support knowledge base.
+    * [CPU allocation calculation for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
+    * [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html?lang=en)
+    * [Check host’s CPU configuration for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
+* For information on how to identify outages, refer to [Identify and measure outages for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=en) in our support knowledge base.
 * For information on improving site performance to avoid the need for utilizing an increase in capacity, refer to these articles in our developer documentation:
     * [Image Sizing](https://docs.magento.com/m2/ee/user_guide/catalog/product-image-resizing.html?_ga=2.180036580.1101564187.1584392801-2014893147.1552329962)
     * [Full Page Caching](https://docs.magento.com/m2/ee/user_guide/system/cache-full-page.html?_ga=2.206252883.1101564187.1584392801-2014893147.1552329962)

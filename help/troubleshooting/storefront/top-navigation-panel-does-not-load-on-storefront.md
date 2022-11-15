@@ -1,9 +1,8 @@
 ---
 title: Top navigation panel does not load on storefront
-labels: 2.x.x,Edge Side,Magento Commerce,troubleshooting,varnish,Adobe Commerce,storefront
-description: "This article provides configuration solutions to the Varnish Edge Side Includes (ESI) issues, where certain pages' content, usually the top navigation panel, is not displayed on the storefront if Varnish is used for caching."
+description: This article provides configuration solutions to the Varnish Edge Side Includes (ESI) issues, where certain pages' content, usually the top navigation panel, is not displayed on the storefront if Varnish is used for caching.
+exl-id: e7f9b773-1a2d-4c3b-9e1f-a1781fbc898c
 ---
-
 # Top navigation panel does not load on storefront
 
 This article provides configuration solutions to the Varnish Edge Side Includes (ESI) issues, where certain pages' content, usually the top navigation panel, is not displayed on the storefront if Varnish is used for caching.

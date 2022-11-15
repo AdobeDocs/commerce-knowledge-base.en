@@ -1,9 +1,8 @@
 ---
 title: New orders are sent to archive
-labels: 2.2.0,Magento Commerce,known issues,orders,patch,troubleshooting,Adobe Commerce,cloud infrastructure,admin,on-premises
-description: "This article provides a patch for the known Adobe Commerce 2.2.0 issue related to the newly created orders showing in the archive instead of the Orders grid in the Commerce Admin."
+description: This article provides a patch for the known Adobe Commerce 2.2.0 issue related to the newly created orders showing in the archive instead of the Orders grid in the Commerce Admin.
+exl-id: 37b70d28-0569-44f2-b677-29b2bde0bc5c
 ---
-
 # New orders are sent to archive
 
 This article provides a patch for the known Adobe Commerce 2.2.0 issue related to the newly created orders showing in the archive instead of the Orders grid in the Commerce Admin.
@@ -52,7 +51,7 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-For instructions, see [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+For instructions, see [How to apply a composer patch provided by Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.
 
 ## Useful links in our user guide
 

@@ -1,9 +1,8 @@
 ---
-title: "Adobe Commerce 2.4.0, 2.4.1: Enable Braintree Venmo partial invoice"
-labels: 2.4.0,2.4.1,Braintree,Magento Commerce,Magento Commerce Cloud,Venmo,known issues,orders,partial invoice,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article describes a known Adobe Commerce 2.4.0 and 2.4.1 issue, where partial invoice is not available for orders placed using Braintree through Venmo."
+title: 'Adobe Commerce 2.4.0, 2.4.1: Enable Braintree Venmo partial invoice'
+description: This article describes a known Adobe Commerce 2.4.0 and 2.4.1 issue, where partial invoice is not available for orders placed using Braintree through Venmo.
+exl-id: ef6c8aa4-a2a7-4e07-a957-23173017baf2
 ---
-
 # Adobe Commerce 2.4.0, 2.4.1: Enable Braintree Venmo partial invoice
 
 This article describes a known Adobe Commerce 2.4.0 and 2.4.1 issue, where partial invoice is not available for orders placed using Braintree through Venmo.

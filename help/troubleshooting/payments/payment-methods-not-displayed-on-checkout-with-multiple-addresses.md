@@ -1,9 +1,8 @@
 ---
 title: Payment methods not displayed on checkout with multiple addresses
-labels: 2.x.x,Cybersource,Magento Commerce,Magento Commerce Cloud,multishipping,payments,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article explains that most of the payment methods are not displayed on checkout when multiple shipping addresses are specified, because the functionality is only implemented for Cybersource."
+description: This article explains that most of the payment methods are not displayed on checkout when multiple shipping addresses are specified, because the functionality is only implemented for Cybersource.
+exl-id: 68a9ee77-d0ef-43c5-9667-6d099b797666
 ---
-
 # Payment methods not displayed on checkout with multiple addresses
 
 This article explains that most of the payment methods are not displayed on checkout when multiple shipping addresses are specified, because the functionality is only implemented for Cybersource.

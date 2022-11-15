@@ -1,9 +1,8 @@
 ---
 title: Cron tasks lock tasks from other groups
-labels: Magento Commerce Cloud,Pro,cron,lock,troubleshooting,Adobe Commerce,cloud infrastructure
-description: "This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs."
+description: This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs.
+exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 ---
-
 # Cron tasks lock tasks from other groups
 
 This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs.
@@ -29,7 +28,7 @@ Previously, in our cloud environment, the Jenkins server was used to run cron jo
 
 ## Solution
 
-1. Contact [Adobe Commerce support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to have self-managed crons enabled.
+1. Contact [Adobe Commerce support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to have self-managed crons enabled.
 1. Edit the `.magento.app.yaml` file in the root directory of the code for Adobe Commerce in the Git branch. Add the following:
 
    ```yaml

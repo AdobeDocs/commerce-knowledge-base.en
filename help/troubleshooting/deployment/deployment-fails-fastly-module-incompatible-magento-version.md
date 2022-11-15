@@ -1,9 +1,8 @@
 ---
 title: Deployment fails Fastly module incompatible Adobe Commerce version
-labels: troubleshooting,Fastly,deployment,Deployment fails,Magento Commerce 2.1.X,Magento Commerce Cloud 2.1.X,Fastly module 1.2.79,Adobe Commerce,cloud infrastructure,on-premises
-description: "UPDATED: February 29, 2019"
+description: 'UPDATED: February 29, 2019'
+exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 ---
-
 # Deployment fails Fastly module incompatible Adobe Commerce version
 
 UPDATED: February 29, 2019

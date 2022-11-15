@@ -1,9 +1,8 @@
 ---
 title: Product Recommendations not shown in Page Builder
-labels: troubleshooting,Magento,on-premises,cloud infrastructure,Page Builder,Product Recommendations,Adobe Commerce
-description: "This article provides a solution for the issue where the Product Recommendations option is not shown in Page Builder."
+description: This article provides a solution for the issue where the Product Recommendations option is not shown in Page Builder.
+exl-id: e96a446b-2e64-47a6-ac1b-e73183da9fb8
 ---
-
 # Product Recommendations not shown in Page Builder
 
 This article provides a solution for the issue where the Product Recommendations option is not shown in Page Builder.

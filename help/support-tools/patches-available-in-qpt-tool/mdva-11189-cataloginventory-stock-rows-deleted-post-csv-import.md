@@ -1,12 +1,11 @@
 ---
-title: "MDVA-11189: cataloginventory_stock rows deleted post CSV import"
-labels: 2.2.3,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,Inventory,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,catalog,csv file,data discrepancies,import,product,support tools,Adobe Commerce,on-premises,cloud infrastructure
-description: "The MDVA-11189 Adobe Commerce patch fixes the issue when after importing a .csv file to update product stock, rows from the `cataloginventory_stock` table are deleted. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-1189. Please note that the issue was fixed in Adobe Commerce 2.3.5."
+title: 'MDVA-11189: cataloginventory_stock rows deleted post CSV import'
+description: The MDVA-11189 Adobe Commerce patch fixes the issue when after importing a .csv file to update product stock, rows from the `cataloginventory_stock` table are deleted. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-1189. Please note that the issue was fixed in Adobe Commerce 2.3.5.
+exl-id: 84e1979c-826c-4c01-b0c7-8054bb4b23f0
 ---
-
 # MDVA-11189: cataloginventory_stock rows deleted post CSV import
 
-The MDVA-11189 Adobe Commerce patch fixes the issue when after importing a .csv file to update product stock, rows from the `cataloginventory_stock` table are deleted. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-1189. Please note that the issue was fixed in Adobe Commerce 2.3.5.
+The MDVA-11189 Adobe Commerce patch fixes the issue when after importing a .csv file to update product stock, rows from the `cataloginventory_stock` table are deleted. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-1189. Please note that the issue was fixed in Adobe Commerce 2.3.5.
 
 ## Affected products and versions
 
@@ -63,7 +62,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

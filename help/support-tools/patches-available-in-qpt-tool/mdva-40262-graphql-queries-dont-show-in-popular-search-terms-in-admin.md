@@ -1,9 +1,8 @@
 ---
 title: "MDVA-40262: GraphQL queries don't show in popular search terms in admin"
-labels: support tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.3,Adobe Commerce,cloud infrastructure,on-premises,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
-description: "The MDVA-40262 Adobe Commerce quality patch fixes the issue where GraphQL search queries are not shown in popular search terms in the admin. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.3 is installed. The patch ID is MDVA-40262. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
+description: The MDVA-40262 Adobe Commerce quality patch fixes the issue where GraphQL search queries are not shown in popular search terms in the admin. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.3 is installed. The patch ID is MDVA-40262. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+exl-id: 7157e47d-a042-4462-96ed-23203a3213bd
 ---
-
 # MDVA-40262: GraphQL queries don't show in popular search terms in admin
 
 The MDVA-40262 Adobe Commerce quality patch fixes the issue where GraphQL search queries are not shown in popular search terms in the admin. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.3 is installed. The patch ID is MDVA-40262. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
@@ -76,7 +75,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about quality patches for Adobe Commerce, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

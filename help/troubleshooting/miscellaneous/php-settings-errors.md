@@ -1,9 +1,8 @@
 ---
 title: PHP settings errors
-labels: PHP,error,how to,large forms,memory,settings,xdebug,Adobe Commerce
-description: "This article provides solutions for PHP settings errors."
+description: This article provides solutions for PHP settings errors.
+exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
 ---
-
 # PHP settings errors
 
 This article provides solutions for PHP settings errors.

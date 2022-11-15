@@ -1,9 +1,8 @@
 ---
 title: Web API unable to process requests with more than 20 items in array
-labels: 2.4.3,API,rate limit,Adobe Commerce,Magento,troubleshooting,cloud infrastructure,on-premises
-description: "This article provides a solution for the issue where Web API is unable to process a message that contains more than 20 items in the array for Adobe Commerce 2.4.3."
+description: This article provides a solution for the issue where Web API is unable to process a message that contains more than 20 items in the array for Adobe Commerce 2.4.3.
+exl-id: 7e6b3fe8-3133-4773-afa7-fbfdd98ecde9
 ---
-
 # Web API unable to process requests with more than 20 items in array
 
 This article provides a solution for the issue where Web API is unable to process a message that contains more than 20 items in the array for Adobe Commerce 2.4.3.
@@ -44,7 +43,7 @@ The patches are not compatible with any other Adobe Commerce versions.
 
 ### How to apply the patch
 
-Unzip the downloaded `.zip` file and apply the patch as described in [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731).
+Unzip the downloaded `.zip` file and apply the patch as described in [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 >[!WARNING]
 >

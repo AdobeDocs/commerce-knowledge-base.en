@@ -1,9 +1,8 @@
 ---
 title: Product images do not display despite Product Edit image roles
-labels: Magento Commerce,Magento Commerce Cloud,product image,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a fix for when product images do not display on your storefront, despite image roles set on the Product Edit page."
+description: This article provides a fix for when product images do not display on your storefront, despite image roles set on the Product Edit page.
+exl-id: 456baa5a-fa16-4bc1-9d6c-54106fae58ca
 ---
-
 # Product images do not display despite Product Edit image roles
 
 This article provides a fix for when product images do not display on your storefront, despite image roles set on the Product Edit page.

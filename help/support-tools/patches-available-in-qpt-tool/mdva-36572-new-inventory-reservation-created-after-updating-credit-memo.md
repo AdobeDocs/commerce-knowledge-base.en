@@ -1,9 +1,8 @@
 ---
-title: "MDVA-36572: New inventory reservation created after updating credit memo"
-labels: QPT Patches,Quality Patches Tool,QPT,Support Tools,QPT 1.0.25,Magento Commerce Cloud,Magento Commerce,Adobe Commerce,on-premises,cloud infrastructure,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1
-description: "The MDVA-36572 patch fixes the issue where a new inventory reservation is created after updating the credit memo. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
+title: 'MDVA-36572: New inventory reservation created after updating credit memo'
+description: The MDVA-36572 patch fixes the issue where a new inventory reservation is created after updating the credit memo. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25 is installed. The patch ID is MDVA-36572. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+exl-id: 6d98e1aa-0faf-4317-a6ae-386f84266b9c
 ---
-
 # MDVA-36572: New inventory reservation created after updating credit memo
 
 
@@ -165,7 +164,7 @@ To apply individual patches use the following links depending on your deployment
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.

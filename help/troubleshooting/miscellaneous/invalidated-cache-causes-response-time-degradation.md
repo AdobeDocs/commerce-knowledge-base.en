@@ -1,9 +1,8 @@
 ---
 title: Invalidated cache causes response time degradation
-labels: 2.2.x,2.3.x,Magento Commerce,Magento Commerce Cloud,cache,how to,invalidated cache,response time,slow response,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a solution on how to avoid cache invalidation, which might cause the slow performance of an Adobe Commerce store."
+description: This article provides a solution on how to avoid cache invalidation, which might cause the slow performance of an Adobe Commerce store.
+exl-id: 7cb6a39f-923b-4acc-965d-23cf7b52c25a
 ---
-
 # Invalidated cache causes response time degradation
 
 This article provides a solution on how to avoid cache invalidation, which might cause the slow performance of an Adobe Commerce store.

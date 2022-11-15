@@ -1,9 +1,8 @@
 ---
 title: Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
-labels: Magento Commerce,Magento Commerce Cloud,change search engine,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
 description: This article provides a solution for changing the Adobe Commerce Search Engine using the Commerce Admin if the Search Engine field is not displayed or the Use system value checkbox is greyed out and not accessible.
+exl-id: 5b0f728c-6a8d-446d-9553-5abc3d01e516
 ---
-
 # Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)
 
 >[!WARNING]
@@ -106,7 +105,7 @@ It is not recommended to edit the `app/etc/env.php` or the `app/etc/config.php` 
 
 ### Change search engine on Staging and Production environments
 
-Before switching search engine from MySQL to Elasticsearch on your Staging and Production environments, make sure you have previously [submitted a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting to enable Elasticsearch on the environment and the ticket has been resolved successfully.
+Before switching search engine from MySQL to Elasticsearch on your Staging and Production environments, make sure you have previously [submitted a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to enable Elasticsearch on the environment and the ticket has been resolved successfully.
 
 To change the search engine used on your Staging and Production environments, change the `SEARCH_CONFIGURATION` environment variable in your `.magento.env.yaml` file on your local environment, then push changes to the Integration and Staging/Production environments for the changes to take effect.
 

@@ -1,9 +1,8 @@
 ---
-title: "Adobe Commerce 2.4.0 patch: returns shipping label creation issue"
-labels: 2.4.0,Magento Commerce,Magento Commerce Cloud,known issues,patch,return,shipping label,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers’ returns."
+title: 'Adobe Commerce 2.4.0 patch: returns shipping label creation issue'
+description: This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers’ returns.
+exl-id: f78f8d7e-29e9-4d6c-83f6-cd5afa1d7d9c
 ---
-
 # Adobe Commerce 2.4.0 patch: returns shipping label creation issue
 
 This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers’ returns.
@@ -44,7 +43,7 @@ The patch is also available for download in both, `.git` and `.composer`, format
 
 ## How to apply the patch
 
-For instructions, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge page.
+For instructions, see [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge page.
 
 ## Related readings in our support knowledge base:
 

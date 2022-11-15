@@ -1,9 +1,8 @@
 ---
-title: "MDVA-28511: accented letters hang Payflow payments"
-labels: 2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.14,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,PayFlow Pro,accented letters,customer name,payment,on-premises,cloud infrastructure
-description: "The MDVA-28511 patch solves the issue when payments through **Payflow Pro** don't complete for customer names with accented letters."
+title: 'MDVA-28511: accented letters hang Payflow payments'
+description: The MDVA-28511 patch solves the issue when payments through **Payflow Pro** don't complete for customer names with accented letters.
+exl-id: ecc827e3-2a1c-4f32-a0e2-9c5792483e7d
 ---
-
 # MDVA-28511: accented letters hang Payflow payments
 
 The MDVA-28511 patch solves the issue when payments through **Payflow Pro** don't complete for customer names with accented letters.
@@ -57,7 +56,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.

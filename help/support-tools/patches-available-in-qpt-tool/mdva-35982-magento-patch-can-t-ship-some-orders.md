@@ -1,12 +1,11 @@
 ---
 title: "MDVA-35982: Can't ship some orders"
-labels: 2.3.0,2.3.5-p1,2.4.2,QPT 1.0.19,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,orders,shipping,site,support tools,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-35982 patch fixes the error when admin user restricted to a specific website cannot create a shipment for the order placed on same website. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35982. Please note that the issue was fixed in Adobe Commerce 2.4.3."
+description: The MDVA-35982 patch fixes the error when admin user restricted to a specific website cannot create a shipment for the order placed on same website. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-35982. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+exl-id: f41c6572-66bb-4697-93e3-da34b81829e2
 ---
-
 # MDVA-35982: Can't ship some orders
 
-The MDVA-35982 patch fixes the error when admin user restricted to a specific website cannot create a shipment for the order placed on same website. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.19 is installed. The patch ID is MDVA-35982. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+The MDVA-35982 patch fixes the error when admin user restricted to a specific website cannot create a shipment for the order placed on same website. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-35982. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
 ## Affected products and versions
 
@@ -55,7 +54,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

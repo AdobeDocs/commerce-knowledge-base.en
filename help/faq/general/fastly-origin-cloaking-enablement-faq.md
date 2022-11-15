@@ -1,9 +1,8 @@
 ---
 title: Fastly origin cloaking enablement FAQ
-labels: DDoS,FAQ,Fastly,Magento Commerce,Magento Commerce Cloud,REST API,origin cloaking,security,staging,Adobe Commerce,cloud infrastructure
-description: "This FAQ discusses common questions about Fastly origin cloaking enablement in Adobe Commerce."
+description: This FAQ discusses common questions about Fastly origin cloaking enablement in Adobe Commerce.
+exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
 ---
-
 # Fastly origin cloaking enablement FAQ
 
 This FAQ discusses common questions about Fastly origin cloaking enablement in Adobe Commerce.

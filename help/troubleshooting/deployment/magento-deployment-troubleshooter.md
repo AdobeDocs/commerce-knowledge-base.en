@@ -1,9 +1,8 @@
 ---
 title: Adobe Commerce deployment troubleshooter
-labels: Troubleshooter,deploy,deployment,deployment error,deployment fails,stuck deployment,Adobe Commerce,cloud infrastructure
 description: Stuck deployments and failed deployments on Adobe Commerce can be solved using the Deployment troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.
+exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 ---
-
 # Adobe Commerce deployment troubleshooter
 
 Stuck deployments and failed deployments on Adobe Commerce can be solved using the Deployment troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.

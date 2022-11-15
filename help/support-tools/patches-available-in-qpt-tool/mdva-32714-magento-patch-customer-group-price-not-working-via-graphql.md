@@ -1,14 +1,13 @@
 ---
-title: "MDVA-32714 patch: customer group price not working via GraphQL"
-labels: 2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,GraphQL,QPT 1.0.13,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,price,support tools,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-description: "The MDVA-32714 patch fixes the issue where сustomer group price is not added in GraphQL product query response. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-32714 patch: customer group price not working via GraphQL'
+description: The MDVA-32714 patch fixes the issue where сustomer group price is not added in GraphQL product query response. This patch is available when the Quality Patches Tool (QPT) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
+exl-id: a4fc92ad-68dc-437d-8577-303007ef8a92
 ---
-
 # MDVA-32714 patch: customer group price not working via GraphQL
 
 >[!WARNING]
 >
->A new patch called MDVA-33975 fixes GraphQL price calculation issues. MDVA-32714 is depreciated and it is recommended that you apply the patch MDVA-33975. To access this patch, refer to [MDVA-33975 patch: GraphQL price calculations](https://support.magento.com/hc/en-us/articles/360055782351) in our support knowledge base.
+>A new patch called MDVA-33975 fixes GraphQL price calculation issues. MDVA-32714 is depreciated and it is recommended that you apply the patch MDVA-33975. To access this patch, refer to [MDVA-33975 patch: GraphQL price calculations](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/mdva-33975-magento-patch-graphql-price-calculations.html) in our support knowledge base.
 
 The MDVA-32714 patch fixes the issue where сustomer group price is not added in GraphQL product query response. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 
@@ -62,7 +61,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

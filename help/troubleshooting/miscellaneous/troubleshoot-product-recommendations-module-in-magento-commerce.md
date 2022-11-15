@@ -1,9 +1,8 @@
 ---
 title: Troubleshoot Product Recommendations module in Adobe Commerce
-labels: 2.3.x,2.4.x,Magento Commerce,commerce,how to,magento/product-recommendations,module,product,product-recommendations,recommendations,saas-export,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article talks about troubleshooting suggestions for the"
+description: This article talks about troubleshooting suggestions for the
+exl-id: 431ee31e-eb5b-400c-9c99-cc86613453d7
 ---
-
 # Troubleshoot Product Recommendations module in Adobe Commerce
 
 This article talks about troubleshooting suggestions for the
@@ -39,7 +38,7 @@ module correctly (Check [Product Recommendations - Install and Configure Recomme
 
 * If you are not seeing the recommendations that you configured, it is possible there is not yet sufficient data to build recommendations for the user.
 
-* Ensure the SaaS Data Space or API Key are valid. If you get an error after specifying your SaaS Data Space or your API key during the product recommendations initialization, check to make sure you have entered the [SaaS Data Space and API key](https://docs.magento.com/user-guide/configuration/services/saas.html) (in our user guide) correctly. To ensure the MageID and API key are linked, the user who owns the MageID, typically the user who owns the Adobe Commerce license, needs to be the same user who generates the API key. If you must change the MageID that was used, [submit a Support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+* Ensure the SaaS Data Space or API Key are valid. If you get an error after specifying your SaaS Data Space or your API key during the product recommendations initialization, check to make sure you have entered the [SaaS Data Space and API key](https://docs.magento.com/user-guide/configuration/services/saas.html) (in our user guide) correctly. To ensure the MageID and API key are linked, the user who owns the MageID, typically the user who owns the Adobe Commerce license, needs to be the same user who generates the API key. If you must change the MageID that was used, [submit a Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 >[!NOTE]
 >

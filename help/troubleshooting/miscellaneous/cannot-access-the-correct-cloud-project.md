@@ -1,9 +1,8 @@
 ---
 title: Cannot access the correct cloud project
-labels: Magento,Adobe Commerce,troubleshooting,cloud infrastructure,cloud project,account switched,access,single sign-on,magento.com,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.4
-description: "This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project."
+description: This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project.
+exl-id: 165b9a18-6e84-4f0f-b377-a07152d55c9e
 ---
-
 # Cannot access the correct cloud project
 
 This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project.

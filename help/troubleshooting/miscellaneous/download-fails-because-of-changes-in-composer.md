@@ -1,9 +1,8 @@
 ---
 title: Download fails because of changes in Composer
-labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,composer,download,how to,self-update,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a fix for a failed Adobe Commerce download and exception error."
+description: This article provides a fix for a failed Adobe Commerce download and exception error.
+exl-id: 5abdab97-4b0c-466b-a68f-a2637d2826e5
 ---
-
 # Download fails because of changes in Composer
 
 This article provides a fix for a failed Adobe Commerce download and exception error.

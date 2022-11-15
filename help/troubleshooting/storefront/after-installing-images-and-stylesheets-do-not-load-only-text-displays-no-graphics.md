@@ -1,9 +1,8 @@
 ---
 title: After installing, images and stylesheets do not load; only text displays, no graphics
-labels: 2.2.x,2.3.x,Apache,Magento Commerce,how to,images,nginx,stylesheets, Adobe Commerce,Magento Open Source
-description: "This article describes the possible reasons and solutions for the issue where stylesheets and images do not load after installing Adobe Commerce."
+description: This article describes the possible reasons and solutions for the issue where stylesheets and images do not load after installing Adobe Commerce.
+exl-id: f33cee89-b416-4d63-8cc5-9cc57618ce92
 ---
-
 # After installing, images and stylesheets do not load; only text displays, no graphics
 
 This article describes the possible reasons and solutions for the issue where stylesheets and images do not load after installing Adobe Commerce.

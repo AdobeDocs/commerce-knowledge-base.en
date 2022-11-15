@@ -1,9 +1,8 @@
 ---
 title: Sync data and files Production to Staging or Staging to Integration
-labels: Magento Commerce Cloud,data,how to,production,staging,sync,Adobe Commerce,cloud infrastructure,Pro
-description: "This article explains how to synchronize your Production environment down to Staging on Adobe Commerce on cloud infrastructure; this is not possible via the user interface."
+description: This article explains how to synchronize your Production environment down to Staging on Adobe Commerce on cloud infrastructure; this is not possible via the user interface.
+exl-id: e3d001d1-1b2a-41b5-9b4a-00e53dc9d001
 ---
-
 # Sync data and files Production to Staging or Staging to Integration
 
 This article explains how to synchronize your Production environment down to Staging on Adobe Commerce on cloud infrastructure; this is not possible via the user interface.

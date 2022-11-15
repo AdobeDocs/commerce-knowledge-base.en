@@ -1,9 +1,8 @@
 ---
 title: Change Admin URL on Adobe Commerce on cloud infrastructure
-labels: ADMIN_URL,Magento Commerce Cloud,Staging,URL,how to,magento_admin,production,Adobe Commerce,cloud infrastructure
-description: "By default, the [Commerce Admin](http://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL is set to *<domain\\_name>/admin*. This article shows how to change the URL."
+description: By default, the [Commerce Admin](http://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL is set to *&lt;domain\_name&gt;/admin*. This article shows how to change the URL.
+exl-id: 6236370c-e0a2-45a6-a38f-12e219c540af
 ---
-
 # Change Admin URL on Adobe Commerce on cloud infrastructure
 
 By default, the [Commerce Admin](http://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL is set to *<domain\_name>/admin*. This article shows how to change the URL.
@@ -25,7 +24,7 @@ From your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/p
 
 ### When Staging and Production are not available in Project Web Interface
 
- [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) requesting to add the ADMIN\_URL variable for your Staging or Production environment.
+ [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to add the ADMIN\_URL variable for your Staging or Production environment.
 
 If Staging and Production are accessible from your Project Web Interface, add the Environment Variable as described in the *Integration environment* section above.
 

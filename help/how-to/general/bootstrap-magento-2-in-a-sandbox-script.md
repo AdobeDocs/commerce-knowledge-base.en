@@ -1,9 +1,8 @@
 ---
 title: Bootstrap Adobe Commerce 2 in a sandbox script
-labels: 2.x.x,Magento,Magento Commerce,Magento Commerce Cloud,bootstrap,how to,sandbox,Adobe Commerce,cloud infrastructure
-description: "To initialize an Adobe Commerce 2 application in a sample sandbox script, execute the following script from the Adobe Commerce root directory:"
+description: 'To initialize an Adobe Commerce 2 application in a sample sandbox script, execute the following script from the Adobe Commerce root directory:'
+exl-id: a6acb30a-5175-42c6-8de3-e80c9ae8dac1
 ---
-
 # Bootstrap Adobe Commerce 2 in a sandbox script
 
 To initialize an Adobe Commerce 2 application in a sample sandbox script, execute the following script from the Adobe Commerce root directory:

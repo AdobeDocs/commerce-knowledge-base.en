@@ -1,9 +1,8 @@
 ---
 title: Adobe Commerce Security Scan Tool FAQ
-labels: FAQ,Magento Security Scan Tool,specific security tests,Security Scan Tool,Magento Security,free tool,scanning,scan pages,Adobe Commerce
-description: "This article answers some Frequently Asked Questions (FAQ) about the Adobe Commerce Security Scan Tool."
+description: This article answers some Frequently Asked Questions (FAQ) about the Adobe Commerce Security Scan Tool.
+exl-id: 380ce617-e3d9-491b-b425-8489abd3c541
 ---
-
 # Adobe Commerce Security Scan Tool FAQ
 
 This article answers some Frequently Asked Questions (FAQ) about the Adobe Commerce Security Scan Tool.

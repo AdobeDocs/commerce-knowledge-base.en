@@ -1,9 +1,8 @@
 ---
-title: "Adobe Commerce 2.4.0: exception during B2B 1.2.0 install"
-labels: 2.4.0,B2B,Magento Commerce Cloud,exception,installation,patch,setup:upgrade,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a fix for an Adobe Commerce known issue for an exception thrown during `setup:upgrade` when installing B2B 1.2.0."
+title: 'Adobe Commerce 2.4.0: exception during B2B 1.2.0 install'
+description: This article provides a fix for an Adobe Commerce known issue for an exception thrown during `setup:upgrade` when installing B2B 1.2.0.
+exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
 ---
-
 # Adobe Commerce 2.4.0: exception during B2B 1.2.0 install
 
 This article provides a fix for an Adobe Commerce known issue for an exception thrown during `setup:upgrade` when installing B2B 1.2.0.
@@ -58,7 +57,7 @@ To download it, scroll down to the end of the article and click the file name, o
 
  <u>Composer patch </u>
 
-See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for composer patch instructions.
+See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for composer patch instructions.
 
  <u>Git patch </u>
 

@@ -1,12 +1,11 @@
 ---
-title: "MDVA-33606: Users get error when saving CMS page assigned to hierarchy"
-labels: QPT patches,Quality Patches Tool,MQP,QPT,QPT 1.1.3,CMS page,constraint violation,hierarchy,Magento,Adobe Commerce,on-premises,cloud-infrastructure,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2
-description: "The MDVA-33606 patch solves the issue where the users get *Unique constraint violation found* error when saving a CMS page assigned to hierarchy tree. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.3 is installed. The patch ID is MDVA-33606. Please note that the issue was fixed in Adobe Commerce 2.4.3."
+title: 'MDVA-33606: Users get error when saving CMS page assigned to hierarchy'
+description: The MDVA-33606 patch solves the issue where the users get *Unique constraint violation found* error when saving a CMS page assigned to hierarchy tree. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3 is installed. The patch ID is MDVA-33606. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+exl-id: cdefece5-6d13-4003-87e9-810c665e940c
 ---
-
 # MDVA-33606: Users get error when saving CMS page assigned to hierarchy
 
-The MDVA-33606 patch solves the issue where the users get *Unique constraint violation found* error when saving a CMS page assigned to hierarchy tree. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.3 is installed. The patch ID is MDVA-33606. Please note that the issue was fixed in Adobe Commerce 2.4.3.
+The MDVA-33606 patch solves the issue where the users get *Unique constraint violation found* error when saving a CMS page assigned to hierarchy tree. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3 is installed. The patch ID is MDVA-33606. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 
 ## Affected products and versions
 
@@ -62,7 +61,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.

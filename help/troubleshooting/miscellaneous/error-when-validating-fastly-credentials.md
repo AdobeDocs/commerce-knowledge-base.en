@@ -1,9 +1,8 @@
 ---
 title: Error when validating the Fastly credentials
-labels: Magento,Adobe Commerce,troubleshooting,cloud infrastructure,on-premises,Fastly,credentials,New Relic,Service ID,API token,validation,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.4
-description: "This article provides a solution for the issue where a user gets an error when validating the Fastly credentials."
+description: This article provides a solution for the issue where a user gets an error when validating the Fastly credentials.
+exl-id: 02104731-6666-47a6-abc6-215812f09915
 ---
-
 # Error when validating the Fastly credentials
 
 This article provides a solution for the issue where a user gets an error when validating the Fastly credentials.
@@ -28,7 +27,7 @@ User gets an error when validating the Fastly credentials.
 
 1. If the above command returns an error similar to: *{"msg":"Token $TOKEN expired at 2021-09-28T02:03:37Z"}*, submit a support ticket to request a new API token.
 
-    To learn how to submit a support ticket, refer to [Adobe Commerce Help Center User Guide > SUPPORT TICKETS](https://support.magento.com/hc/en-us/articles/360000913794#support-tickets) in our support knowledge base.
+    To learn how to submit a support ticket, refer to [Adobe Commerce Help Center User Guide > SUPPORT TICKETS](/help/help-center-guide/help-center/magento-help-center-user-guide.md#support-tickets) in our support knowledge base.
 
     >[!NOTE]
     >

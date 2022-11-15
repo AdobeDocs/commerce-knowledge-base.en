@@ -1,12 +1,11 @@
 ---
-title: "MDVA-30594: multiple address checkout errors"
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.4.0,2.4.0-p1,2.4.1,2.4.2,QPT 1.0.7,QPT patches,Magento Commerce,Magento Commerce Cloud,checkout,multiple addresses,order success,support tools,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-30594 patch solves the issue where the customer does not see the order success page after placing an order with multiple addresses. Checking the orders on the Commerce Admin shows two orders with the same products instead of the correct products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. The issue was fixed in Adobe Commerce 2.4.2."
+title: 'MDVA-30594: multiple address checkout errors'
+description: The MDVA-30594 patch solves the issue where the customer does not see the order success page after placing an order with multiple addresses. Checking the orders on the Commerce Admin shows two orders with the same products instead of the correct products. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. The issue was fixed in Adobe Commerce 2.4.2.
+exl-id: 7560cc39-ff0d-4313-979e-5cd588554c1d
 ---
-
 # MDVA-30594: multiple address checkout errors
 
-The MDVA-30594 patch solves the issue where the customer does not see the order success page after placing an order with multiple addresses. Checking the orders on the Commerce Admin shows two orders with the same products instead of the correct products. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.7 is installed. The issue was fixed in Adobe Commerce 2.4.2.
+The MDVA-30594 patch solves the issue where the customer does not see the order success page after placing an order with multiple addresses. Checking the orders on the Commerce Admin shows two orders with the same products instead of the correct products. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. The issue was fixed in Adobe Commerce 2.4.2.
 
 ## Affected products and versions
 
@@ -90,7 +89,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

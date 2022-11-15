@@ -1,9 +1,8 @@
 ---
 title: Advanced Reporting 404 error on Magento Commerce
-labels: 2.2.6,404 error,Advanced Reporting,Magento Commerce,known issues,patch,troubleshooting
-description: "This article provides a patch for the Magento Commerce issue when a customer gets a 404 error when they attempt to access [Advanced Reporting](https://docs.magento.com/m2/ee/user_guide/configuration/general/advanced-reporting.html). After this patch is installed, users will be able to access Advanced Reporting."
+description: This article provides a patch for the Magento Commerce issue when a customer gets a 404 error when they attempt to access [Advanced Reporting](https://docs.magento.com/m2/ee/user_guide/configuration/general/advanced-reporting.html). After this patch is installed, users will be able to access Advanced Reporting.
+exl-id: bac61704-44fe-4bd2-b342-af90219231ef
 ---
-
 # Advanced Reporting 404 error on Magento Commerce
 
 This article provides a patch for the Magento Commerce issue when a customer gets a 404 error when they attempt to access [Advanced Reporting](https://docs.magento.com/m2/ee/user_guide/configuration/general/advanced-reporting.html). After this patch is installed, users will be able to access Advanced Reporting.
@@ -28,6 +27,6 @@ To fix the issue, please apply the patch attached to this article. To download i
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Magento](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Magento](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions.
 
 ## Attached files

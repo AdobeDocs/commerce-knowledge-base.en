@@ -1,9 +1,8 @@
 ---
-title: "MDVA-40537: Creating store view gives error when several CMS pages have same URL Key."
-labels: support tools,QPT patches,Quality Patches Tool,Magneto Commerce Cloud,QPT 1.1.4,Adobe Commerce,cloud infrastructure,on-premises,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.4.0,2.4.0-p1
-description: "The MDVA-40537 patch fixes the issue where users get an error when creating a store view if several CMS pages have the same URL key. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4 is installed. The patch ID is MDVA-40537. Please note that the issue was fixed in Adobe Commerce 2.4.1."
+title: 'MDVA-40537: Creating store view gives error when several CMS pages have same URL Key.'
+description: The MDVA-40537 patch fixes the issue where users get an error when creating a store view if several CMS pages have the same URL key. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4 is installed. The patch ID is MDVA-40537. Please note that the issue was fixed in Adobe Commerce 2.4.1.
+exl-id: d92400c9-0c5a-4416-820d-99ab4ba34003
 ---
-
 # MDVA-40537: Creating store view gives error when several CMS pages have same URL Key.
 
 The MDVA-40537 patch fixes the issue where users get an error when creating a store view if several CMS pages have the same URL key. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4 is installed. The patch ID is MDVA-40537. Please note that the issue was fixed in Adobe Commerce 2.4.1.
@@ -88,7 +87,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

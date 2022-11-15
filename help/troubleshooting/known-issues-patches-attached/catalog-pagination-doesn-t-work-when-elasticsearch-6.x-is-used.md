@@ -1,9 +1,8 @@
 ---
 title: Catalog pagination doesn't work with Elasticsearch 6.x
-labels: 2.3.3,Elasticsearch 6.x,Magento Commerce,Magento Commerce Cloud,known issues,pagination,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a patch for the Adobe Commerce issue where catalog pagination doesn't work on Elasticsearch 6.x."
+description: This article provides a patch for the Adobe Commerce issue where catalog pagination doesn't work on Elasticsearch 6.x.
+exl-id: 60a423de-cf3a-4d73-a7cf-b6d9e95042ca
 ---
-
 # Catalog pagination doesn't work with Elasticsearch 6.x
 
 This article provides a patch for the Adobe Commerce issue where catalog pagination doesn't work on Elasticsearch 6.x.
@@ -50,6 +49,6 @@ To fix the issue, please apply the patch attached to this article. To download i
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions.
 
 ## Attached files

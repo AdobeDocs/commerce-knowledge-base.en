@@ -1,9 +1,8 @@
 ---
 title: MBI documentation got moved
-labels: MBI
-description: "Most Magento Business Intelligence (MBI) documentation has been moved to a separate location on [https://docs.magento.com/mbi/.](https://docs.magento.com/mbi/) "
+description: 'Most Magento Business Intelligence (MBI) documentation has been moved to a separate location on [https://docs.magento.com/mbi/.](https://docs.magento.com/mbi/) '
+exl-id: e77ca88c-eab7-4e26-b9af-1f392b2dcb4e
 ---
-
 # MBI documentation got moved
 
 Most Magento Business Intelligence (MBI) documentation has been moved to a separate location on [https://docs.magento.com/mbi/.](https://docs.magento.com/mbi/)

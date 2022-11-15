@@ -1,9 +1,8 @@
 ---
 title: New environments placed under production when pushed from Git
-labels: 2.3,2.3.x,2.4,2.4.x,Magento Cloud CLI,Magento Commerce Cloud,command line,develop,git,production,staging,troubleshooting,Adobe Commerce,cloud infrastructure
-description: "This article provides a solution for the issue where new environments are placed under the production environment on Adobe Commerce on cloud infrastructure when pushed from the git version-control system."
+description: This article provides a solution for the issue where new environments are placed under the production environment on Adobe Commerce on cloud infrastructure when pushed from the git version-control system.
+exl-id: 279cd6d8-fd45-45ba-8456-8b397a01976f
 ---
-
 # New environments placed under production when pushed from Git
 
 This article provides a solution for the issue where new environments are placed under the production environment on Adobe Commerce on cloud infrastructure when pushed from the git version-control system.

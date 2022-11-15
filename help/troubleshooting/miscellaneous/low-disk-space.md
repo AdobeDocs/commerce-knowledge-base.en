@@ -1,9 +1,8 @@
 ---
 title: Low disk space
-labels: 2.2.x,2.3.x,Magento Commerce Cloud,cron,disk space,how to,Adobe Commerce,cloud infrastructure,Pro,Starter
-description: "This article suggests solutions for the situation when you run out of space on a certain environment of Adobe Commerce on cloud infrastructure."
+description: This article suggests solutions for the situation when you run out of space on a certain environment of Adobe Commerce on cloud infrastructure.
+exl-id: 1b2c25d3-ca1b-4409-8d6b-378aa0952f94
 ---
-
 # Low disk space
 
 This article suggests solutions for the situation when you run out of space on a certain environment of Adobe Commerce on cloud infrastructure.

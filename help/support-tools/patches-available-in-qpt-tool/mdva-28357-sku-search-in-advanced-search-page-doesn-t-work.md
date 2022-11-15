@@ -1,12 +1,11 @@
 ---
 title: MDVA-28357 SKU search in Advanced Search page doesn't work
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.4.0,2.4.0-p1,Advanced search,QPT 1.0.8,QPT patches,Magento Commerce,Magento Commerce Cloud,search,support tools,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-28357 solves the issue where search by a product SKU in the Advanced Search page does not lead to the relevant product displaying in search results. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.8 is installed. Please note that the issue is fixed in Adobe Commerce version 2.4.1."
+description: The MDVA-28357 solves the issue where search by a product SKU in the Advanced Search page does not lead to the relevant product displaying in search results. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.8 is installed. Please note that the issue is fixed in Adobe Commerce version 2.4.1.
+exl-id: a89409b0-3155-4fac-9842-0d129dacd6e1
 ---
-
 # MDVA-28357 SKU search in Advanced Search page doesn't work
 
-The MDVA-28357 solves the issue where search by a product SKU in the Advanced Search page does not lead to the relevant product displaying in search results. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) v.1.0.8 is installed. Please note that the issue is fixed in Adobe Commerce version 2.4.1.
+The MDVA-28357 solves the issue where search by a product SKU in the Advanced Search page does not lead to the relevant product displaying in search results. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.8 is installed. Please note that the issue is fixed in Adobe Commerce version 2.4.1.
 
 ## Affected products and versions
 
@@ -45,7 +44,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

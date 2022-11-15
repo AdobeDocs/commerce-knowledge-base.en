@@ -1,9 +1,8 @@
 ---
 title: ECE-Tools and patch update errors Adobe Commerce cloud infrastructure 2.2.x., 2.3.x
-labels: 2.2.x,2.3.x,Magento Commerce Cloud,No such file or directory,composer.json,error message,failed to open stream:,how to,patches,updates to ECE-Tools,Troubleshooting,Adobe Commerce,cloud infrastructure
-description: "This article provides a solution for the issue where you see error messages including \"*failed to open stream:*\" or \"*No such file or directory*\" when trying to deploy updates to ECE-Tools, patches or other changes."
+description: This article provides a solution for the issue where you see error messages including "*failed to open stream:*" or "*No such file or directory*" when trying to deploy updates to ECE-Tools, patches or other changes.
+exl-id: b1658001-0ffd-4f8a-a15f-d785efcee51f
 ---
-
 # ECE-Tools and patch update errors Adobe Commerce cloud infrastructure 2.2.x., 2.3.x
 
 This article provides a solution for the issue where you see error messages including "*failed to open stream:*" or "*No such file or directory*" when trying to deploy updates to ECE-Tools, patches or other changes.

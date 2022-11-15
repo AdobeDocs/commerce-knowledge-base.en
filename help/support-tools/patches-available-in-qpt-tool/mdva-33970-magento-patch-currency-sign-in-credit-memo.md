@@ -1,9 +1,8 @@
 ---
-title: "MDVA-33970 patch: currency sign in credit memo"
-labels: 2.3.4,2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,Adobe Commerce,cloud infrastructure,on-premises,quality patches for Adobe Commerce,Magento Open Source
-description: "The MDVA-33970 patch solves the issue where a Dollar ($) sign was shown instead of the localized currency in a credit memo. This occurs when a **Website** scope is used for a **Price** attribute."
+title: 'MDVA-33970 patch: currency sign in credit memo'
+description: The MDVA-33970 patch solves the issue where a Dollar ($) sign was shown instead of the localized currency in a credit memo. This occurs when a **Website** scope is used for a **Price** attribute.
+exl-id: 47a03067-86ef-4a55-8c21-921781062b53
 ---
-
 # MDVA-33970 patch: currency sign in credit memo
 
 The MDVA-33970 patch solves the issue where a Dollar ($) sign was shown instead of the localized currency in a credit memo. This occurs when a **Website** scope is used for a **Price** attribute.
@@ -75,7 +74,7 @@ To apply individual patches, use the following links, depending on your Adobe Co
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

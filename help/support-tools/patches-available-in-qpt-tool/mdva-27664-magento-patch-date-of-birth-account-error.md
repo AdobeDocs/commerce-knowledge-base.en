@@ -1,9 +1,8 @@
 ---
-title: "MDVA-27664 patch: date of birth account error"
-labels: 2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,QPT 1.0.15,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,date of birth,validation error,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-27664 patch solves the issue where a customer account's date of birth could be greater than today."
+title: 'MDVA-27664 patch: date of birth account error'
+description: The MDVA-27664 patch solves the issue where a customer account's date of birth could be greater than today.
+exl-id: c669764e-b4a5-4031-92ac-1156755e9a0a
 ---
-
 # MDVA-27664 patch: date of birth account error
 
 The MDVA-27664 patch solves the issue where a customer account's date of birth could be greater than today.
@@ -54,7 +53,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.

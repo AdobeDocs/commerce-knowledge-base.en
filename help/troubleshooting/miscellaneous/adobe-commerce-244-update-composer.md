@@ -1,9 +1,8 @@
 ---
 title: Composer plugins issues when upgrading to Adobe Commerce 2.4.4
-labels: 2.4.4,Adobe Commerce,cloud infrastructure,Magento Open Source,on-premises,composer,plugin,update
-description: "This articles provides a solution to avoid the issue with composer plugins when upgrading from Adobe Commerce 2.4.3 and erlier to Adobe Commerce 2.4.4 or higher (when future versions are released)."
+description: This articles provides a solution to avoid the issue with composer plugins when upgrading from Adobe Commerce 2.4.3 and erlier to Adobe Commerce 2.4.4 or higher (when future versions are released).
+exl-id: 7502ca9e-c307-4e8a-aa1d-4886e7be25da
 ---
-
 # Composer plugins issues when upgrading to Adobe Commerce 2.4.4
 
 This articles provides a solution to avoid the issue with composer plugins when upgrading from Adobe Commerce 2.4.3 and erlier to Adobe Commerce 2.4.4 or higher (when future versions are released).

@@ -1,9 +1,8 @@
 ---
-title: "Admin can't create order/reorder when Braintree payment enabled"
-labels: 2.4.5,Magento Commerce,Magento Commerce Cloud,Braintree payment,create order,reorder,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Open Source
-description: "This article provides a patch for the Adobe Commerce 2.4.5 issue where an Admin user can't create orders nor reorders for customers when the Braintree payment method is enabled."
+title: Admin can't create order/reorder when Braintree payment enabled
+description: This article provides a patch for the Adobe Commerce 2.4.5 issue where an Admin user can't create orders nor reorders for customers when the Braintree payment method is enabled.
+exl-id: 8840aecb-21d9-4965-8c09-395e2d263aaa
 ---
-
 # Admin can't create order/reorder when Braintree payment enabled
 
 This article provides a patch for the Adobe Commerce 2.4.5 issue where an Admin user can't create orders nor reorders for customers when the Braintree payment method is enabled.
@@ -67,4 +66,4 @@ The patch was created for:
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base for instructions.
+See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base for instructions.

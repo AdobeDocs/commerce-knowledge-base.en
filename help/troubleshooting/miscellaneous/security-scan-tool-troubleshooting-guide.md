@@ -1,9 +1,8 @@
 ---
 title: Adobe Commerce Security Scan tool troubleshooting guide
-labels: Adobe Commerce,cloud infrastructure,Security Scan Tool,error,report,admin,troubleshooting,Magento,on-premises
-description: "Learn how to troubleshoot the various issues with the  Security Scan tool for Adobe Commerce and Magento Open Source."
+description: Learn how to troubleshoot the various issues with the  Security Scan tool for Adobe Commerce and Magento Open Source.
+exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 ---
-
 # Adobe Commerce Security Scan tool troubleshooting guide
 
 Learn how to troubleshoot the various issues with the  Security Scan tool for Adobe Commerce and Magento Open Source.
@@ -52,7 +51,7 @@ The following statuses could appear from checks:
 1. **Unknown**: The Security Scan tool has no data about your domain yet; wait for the next sync-up cycle.
 1. **Fail**: If the status shows fail, you'll need to fix the issue (enable 2FA, change admin URL, etc.) and wait for the next sync-up cycle.
 
-If 24 hours have passed since the changes were made to the instance and they are not reflected in the Security Scan report, you can [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket). Provide the store URL when submitting the ticket.
+If 24 hours have passed since the changes were made to the instance and they are not reflected in the Security Scan report, you can [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Provide the store URL when submitting the ticket.
 
 ## BotNet Suspect failure
 
@@ -70,7 +69,7 @@ You receive a notification regarding the "BotNet Suspect" failure.
 1. Check for the newly created SSH accounts, filesystem changes, etc.
 1. Perform a security review.
 1. Check the Adobe Commerce version and upgrade, especially if it’s still running Magento 1, which is not supported anymore.
-1. If the issue still persists, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) and provide the store URL.
+1. If the issue still persists, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and provide the store URL.
 
 ## Issue: Compromise Injection failure
 
@@ -83,7 +82,7 @@ You receive an error regarding a "Compromise Injection" failure.
 1. Perform system configuration changes review, especially custom `HTML head` and `Miscellaneous HTML` in `footer` section values.
 1. Perform code and database review for unfamiliar changes and signs of injected malware.
 
-If none of the above helps, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) and provide the store URL and error message from the report.
+If none of the above helps, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and provide the store URL and error message from the report.
 
 ## Frequently Asked Questions
 

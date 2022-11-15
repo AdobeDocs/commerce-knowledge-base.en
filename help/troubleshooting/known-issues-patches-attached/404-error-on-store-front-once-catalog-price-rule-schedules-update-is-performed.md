@@ -1,9 +1,8 @@
 ---
 title: 404 Error on store front once catalog price rule schedules update is performed
-labels: 2.2.1,404 error,Magento Commerce,known issues,patch,schedule update,troubleshooting,Magento,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a patch and the required steps to fix the known Adobe Commerce 2.2.1 issue related to getting a 404 error on all store front pages, after a catalog price rule update was created and its starting time was edited later. To fix the issue you need to apply the patch."
+description: This article provides a patch and the required steps to fix the known Adobe Commerce 2.2.1 issue related to getting a 404 error on all store front pages, after a catalog price rule update was created and its starting time was edited later. To fix the issue you need to apply the patch.
+exl-id: 7ea148a5-56cb-479a-8b2f-fae8b3bd4b22
 ---
-
 # 404 Error on store front once catalog price rule schedules update is performed
 
 This article provides a patch and the required steps to fix the known Adobe Commerce 2.2.1 issue related to getting a 404 error on all store front pages, after a catalog price rule update was created and its starting time was edited later. To fix the issue you need to apply the patch.
@@ -61,7 +60,7 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-For instruction, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+For instruction, see [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.
 
 ## Fix the invalid links to staging in DB {#fix_links}
 

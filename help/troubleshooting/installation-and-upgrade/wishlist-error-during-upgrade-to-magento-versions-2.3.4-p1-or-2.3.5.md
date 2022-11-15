@@ -1,9 +1,8 @@
 ---
 title: Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5
-labels: 2.3.4-p1,2.3.4-p2,2.3.5,2.3.5-p1,Magento Commerce,Magento Commerce Cloud,Magento_Wishlist,error,known issues,upgrade,wishlist,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a fix for the known issue when upgrading to Adobe Commerce versions 2.3.4-p1 and 2.3.5 related to a wishlist error during the upgrade to these versions."
+description: This article provides a fix for the known issue when upgrading to Adobe Commerce versions 2.3.4-p1 and 2.3.5 related to a wishlist error during the upgrade to these versions.
+exl-id: 97479615-bf3f-4544-a9c1-8f19ba74318e
 ---
-
 # Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5
 
 This article provides a fix for the known issue when upgrading to Adobe Commerce versions 2.3.4-p1 and 2.3.5 related to a wishlist error during the upgrade to these versions.

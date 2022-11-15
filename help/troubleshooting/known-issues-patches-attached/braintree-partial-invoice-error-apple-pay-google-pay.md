@@ -1,9 +1,8 @@
 ---
-title: "Adobe Commerce 2.4.4: Unable to create partial invoices"
-labels: 2.4.4,Magento Commerce,Magento Commerce Cloud,Apple Pay,Google Pay,invoice,error,patches,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,vault capture
-description: "This article provides a hotfix for the issue where users are not able to create partial invoices when using Apple Pay or Google Pay through Braintree as payment methods."
+title: 'Adobe Commerce 2.4.4: Unable to create partial invoices'
+description: This article provides a hotfix for the issue where users are not able to create partial invoices when using Apple Pay or Google Pay through Braintree as payment methods.
+exl-id: bf78cc07-9dc7-4eb8-bfdf-57ea5131effb
 ---
-
 # Adobe Commerce 2.4.4: Unable to create partial invoices
 
 This article provides a hotfix for the issue where users are not able to create partial invoices when using Apple Pay or Google Pay through Braintree as payment methods.
@@ -46,4 +45,4 @@ To resolve the issue, apply the following patch:
 
 ## How to Apply the Patch
 
-See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions.

@@ -1,12 +1,11 @@
 ---
-title: "MDVA-40619: Hierarchy changes break CMS page inline edit and throw 500 error"
-labels: QPT patches,Quality Patches Tool,QPT 1.1.5,MQP,Magento,Adobe Commerce,cloud infrastructure,on-premises,CMS page, hierarchy,500 error,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7p2,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1
-description: "The MDVA-40619 patch solves the issue where the CMS page hierarchy changes break CMS page inline edit and throw \"500 error\". This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.5 is installed. The patch ID is MDVA-40619. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
+title: 'MDVA-40619: Hierarchy changes break CMS page inline edit and throw 500 error'
+description: The MDVA-40619 patch solves the issue where the CMS page hierarchy changes break CMS page inline edit and throw "500 error". This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5 is installed. The patch ID is MDVA-40619. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+exl-id: c003d845-1ba0-49c0-9f1a-a4b0ec00f30c
 ---
-
 # MDVA-40619: Hierarchy changes break CMS page inline edit and throw 500 error
 
-The MDVA-40619 patch solves the issue where the CMS page hierarchy changes break CMS page inline edit and throw "500 error". This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.5 is installed. The patch ID is MDVA-40619. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+The MDVA-40619 patch solves the issue where the CMS page hierarchy changes break CMS page inline edit and throw "500 error". This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5 is installed. The patch ID is MDVA-40619. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
@@ -59,7 +58,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.

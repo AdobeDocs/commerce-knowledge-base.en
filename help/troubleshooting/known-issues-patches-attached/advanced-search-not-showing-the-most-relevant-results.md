@@ -1,9 +1,8 @@
 ---
 title: Advanced search not showing the most relevant results
-labels: 2.x.x,Advanced search,Magento,known issues,not relevant results,patch,troubleshooting,Advanced Search,cloud infrastructure,on-premises,Adobe Commerce,Magento Open Source
-description: "This article provides a patch for the known Adobe Commerce issue, where the Advanced search does not show most relevant results first."
+description: This article provides a patch for the known Adobe Commerce issue, where the Advanced search does not show most relevant results first.
+exl-id: 88f0782d-ba7d-4f19-9761-7894d978d334
 ---
-
 # Advanced search not showing the most relevant results
 
 This article provides a patch for the known Adobe Commerce issue, where the Advanced search does not show most relevant results first.
@@ -43,6 +42,6 @@ The patch is compatible with all affected versions and editions.
 
 ## How to apply the patch
 
-For instructions, see [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base.
+For instructions, see [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.
 
 ## Attached files

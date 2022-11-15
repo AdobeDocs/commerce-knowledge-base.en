@@ -1,9 +1,8 @@
 ---
 title: Fastly caching is not working on Adobe Commerce on cloud infrastructure
-labels: Fastly,Magento Commerce Cloud,caching,headers,troubleshooting,x-cache,Adobe Commerce,cloud infrastructure
-description: "This article provides a fix for Fastly caching not working on your site. Fastly is a CDN and caching service included with Adobe Commerce on cloud infrastructure plans and implementations. To verify the Fastly extension is working or to debug the Fastly extension, you can use the curl command to display certain response headers. The values of these response headers indicate whether or not Fastly is enabled and functioning properly. You can further investigate issues based on the values of headers and caching behavior."
+description: This article provides a fix for Fastly caching not working on your site. Fastly is a CDN and caching service included with Adobe Commerce on cloud infrastructure plans and implementations. To verify the Fastly extension is working or to debug the Fastly extension, you can use the curl command to display certain response headers. The values of these response headers indicate whether or not Fastly is enabled and functioning properly. You can further investigate issues based on the values of headers and caching behavior.
+exl-id: 725949e9-b69b-456f-9c56-e2163143a71e
 ---
-
 # Fastly caching is not working on Adobe Commerce on cloud infrastructure
 
 This article provides a fix for Fastly caching not working on your site. Fastly is a CDN and caching service included with Adobe Commerce on cloud infrastructure plans and implementations. To verify the Fastly extension is working or to debug the Fastly extension, you can use the curl command to display certain response headers. The values of these response headers indicate whether or not Fastly is enabled and functioning properly. You can further investigate issues based on the values of headers and caching behavior.

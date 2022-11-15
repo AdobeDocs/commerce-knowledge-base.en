@@ -1,9 +1,8 @@
 ---
 title: 'Deployment fails with "Error building project: The build hook failed with status code 1"'
-labels: Magento Commerce Cloud,build,deployment,error building,troubleshooting,Adobe Commerce,cloud infrastructure,Pro,Starter
-description: "This article talks about the causes and solutions for the Adobe Commerce on cloud infrastructure issue, where the build phase of the deployment process fails, and the error message is summarized with: *\"Error building project: The build hook failed with status code 1\"*."
+description: 'This article talks about the causes and solutions for the Adobe Commerce on cloud infrastructure issue, where the build phase of the deployment process fails, and the error message is summarized with: *"Error building project: The build hook failed with status code 1"*.'
+exl-id: add1cdac-dbcb-4c55-8bc2-c1f27e24aadb
 ---
-
 # Deployment fails with "Error building project: The build hook failed with status code 1"
 
 This article talks about the causes and solutions for the Adobe Commerce on cloud infrastructure issue, where the build phase of the deployment process fails, and the error message is summarized with: *"Error building project: The build hook failed with status code 1"*.
@@ -42,7 +41,7 @@ Looking closer at the first problem-specific part will help you to identify the 
 
 * Check to ensure that there is enough storage. For information on how to check available space, see the [Check disk space on cloud environment using CLI](https://support.magento.com/hc/en-us/articles/360005932713) article. You can consider cleaning the log directories and/or increasing disk space.
 * Ensure ECE-Tools are configured correctly.
-* Check if it is the patch that is causing the problem. Resolve the conflict or contact [Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket). See below for details.
+* Check if it is the patch that is causing the problem. Resolve the conflict or contact [Adobe Commerce Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). See below for details.
 * Check if it is the custom extension that is causing the problem. Resolve the conflict or contact the extension developers for the solution.
 
 The following paragraphs provide some more details.
@@ -56,7 +55,7 @@ Directories to be considered for clean up:
 * `var/debug/`
 * `var`
 
-For details on how to increase disk space if you are on the Adobe Commerce on cloud infrastructure Starter plan architecture, see the [Increase disk space for Integration environment on cloud](https://support.magento.com/hc/en-us/articles/360005189554-Increase-disk-space-for-Integration-environment-on-Cloud). The same instructions can be used for increasing space of Adobe Commerce on cloud infrastructure Pro plan architecture Integration environment. For Pro Production/Staging, you need to file a ticket to [Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket), and request increased disk space. But it is monitored by Platform. But typically, you will not have to deal with this on the Staging/Production of Pro architecture as Adobe Commerce monitors these parameters for you and alerts you and/or takes actions according to the contract.
+For details on how to increase disk space if you are on the Adobe Commerce on cloud infrastructure Starter plan architecture, see the [Increase disk space for Integration environment on cloud](https://support.magento.com/hc/en-us/articles/360005189554-Increase-disk-space-for-Integration-environment-on-Cloud). The same instructions can be used for increasing space of Adobe Commerce on cloud infrastructure Pro plan architecture Integration environment. For Pro Production/Staging, you need to file a ticket to [Adobe Commerce Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), and request increased disk space. But it is monitored by Platform. But typically, you will not have to deal with this on the Staging/Production of Pro architecture as Adobe Commerce monitors these parameters for you and alerts you and/or takes actions according to the contract.
 
 ### Ensure ECE-tools are configured correctly
 
@@ -96,7 +95,7 @@ W: build
 E: Error building project: The build hook failed with status code 1. Aborted build.
 ```
 
-These error messages mean that the patch you are trying to apply either was created for a different Adobe Commerce version or has conflicts with your customizations or previously applied patches. Try to resolve the conflict or contact [Adobe Commerce Support](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+These error messages mean that the patch you are trying to apply either was created for a different Adobe Commerce version or has conflicts with your customizations or previously applied patches. Try to resolve the conflict or contact [Adobe Commerce Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Is extension causing the issue?
 

@@ -1,9 +1,8 @@
 ---
 title: Advanced Reporting cron job errors Adobe Commerce
-labels: 2.3.1,404,Magento Commerce,Magento Commerce Cloud,advanced reporting,known issue,patch,troubleshooting,2.3.4-p2,2.3.4,2.3.3-p1,2.3.3,2.3.2-p2,2.3.2,2.3.0
-description: "This article provides patches for the Advanced Reporting cron jobs issues in Adobe Commerce, which can cause a 404 error for customers trying to access Advanced Reporting."
+description: This article provides patches for the Advanced Reporting cron jobs issues in Adobe Commerce, which can cause a 404 error for customers trying to access Advanced Reporting.
+exl-id: c11a5faf-a243-411a-af0f-585a401e6e39
 ---
-
 # Advanced Reporting cron job errors Adobe Commerce
 
 This article provides patches for the Advanced Reporting cron jobs issues in Adobe Commerce, which can cause a 404 error for customers trying to access Advanced Reporting.
@@ -72,4 +71,4 @@ To check which patch to use:
 
 ## How to apply the patch
 
-Unzip the file and follow instructions in [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731).
+Unzip the file and follow instructions in [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

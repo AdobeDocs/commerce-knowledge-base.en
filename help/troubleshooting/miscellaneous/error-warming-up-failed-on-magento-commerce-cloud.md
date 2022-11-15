@@ -1,9 +1,8 @@
 ---
-title: "ERROR: Warming up failed on Adobe Commerce on cloud infrastructure"
-labels: Magento Commerce Cloud,cache,error,troubleshooting,warming,Adobe Commerce,cloud infrastructure
-description: "This article provides a solution for when the page cache is warming up and fails with an error:"
+title: 'ERROR: Warming up failed on Adobe Commerce on cloud infrastructure'
+description: 'This article provides a solution for when the page cache is warming up and fails with an error:'
+exl-id: 20a88030-b1c9-4fdc-83c1-f344d44cd2e1
 ---
-
 # ERROR: Warming up failed on Adobe Commerce on cloud infrastructure
 
 This article provides a solution for when the page cache is warming up and fails with an error:

@@ -1,9 +1,8 @@
 ---
 title: Index is locked by another process
-labels: 2.x.x,Magento Commerce,index,troubleshooting,Adobe Commerce
-description: "This article talks about a common indexing issue in Adobe Commerce where the index is locked by another process and skipped."
+description: This article talks about a common indexing issue in Adobe Commerce where the index is locked by another process and skipped.
+exl-id: 542c714c-fad5-4f0e-9757-d90044c36bfc
 ---
-
 # Index is locked by another process
 
 This article talks about a common indexing issue in Adobe Commerce where the index is locked by another process and skipped.

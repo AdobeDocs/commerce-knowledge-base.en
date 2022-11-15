@@ -1,9 +1,8 @@
 ---
 title: Multiple cron jobs scheduled for the same time period
-labels: 2.1.13,2.1.14,2.1.4,2.1.5,2.2.0,2.2.2,2.2.4,Magento Commerce,cron,known issues,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises,Magento Commerce Cloud
-description: "This article provides a patch for a known Adobe Commerce 2.2.2 issue related to having multiple cron jobs scheduled to run at the same time after the time variables for certain tasks were edited in the Commerce Admin."
+description: This article provides a patch for a known Adobe Commerce 2.2.2 issue related to having multiple cron jobs scheduled to run at the same time after the time variables for certain tasks were edited in the Commerce Admin.
+exl-id: a3c1fe77-ed4c-43b5-8d6f-e5c549096c73
 ---
-
 # Multiple cron jobs scheduled for the same time period
 
 This article provides a patch for a known Adobe Commerce 2.2.2 issue related to having multiple cron jobs scheduled to run at the same time after the time variables for certain tasks were edited in the Commerce Admin.
@@ -84,6 +83,6 @@ The patches are also compatible with the following versions:
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) in our support knowledge base, for instructions.
+See [How to apply a composer patch provided by Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base, for instructions.
 
 ## Attached Files

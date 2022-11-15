@@ -1,12 +1,11 @@
 ---
-title: "MDVA-43102: Salable quantity not updated correctly"
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.14,refund,REST API,order,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
-description: "The MDVA-43102 patch fixes the issue where the salable quantity is not updated correctly when a refund is done via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-43102. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
+title: 'MDVA-43102: Salable quantity not updated correctly'
+description: The MDVA-43102 patch fixes the issue where the salable quantity is not updated correctly when a refund is done via REST API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 is installed. The patch ID is MDVA-43102. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+exl-id: c51bc45b-a7e0-4581-a318-9c4736e6661c
 ---
-
 # MDVA-43102: Salable quantity not updated correctly
 
-The MDVA-43102 patch fixes the issue where the salable quantity is not updated correctly when a refund is done via REST API. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-43102. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-43102 patch fixes the issue where the salable quantity is not updated correctly when a refund is done via REST API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 is installed. The patch ID is MDVA-43102. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -79,7 +78,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

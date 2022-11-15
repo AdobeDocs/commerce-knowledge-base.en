@@ -1,12 +1,11 @@
 ---
 title: 'MDVA-43859: Error "No such entity with customerId =" logged when deleted customer logs in'
-labels: QPT patches,Quality Patches Tool,Support Tools,QPT 1.1.14,error,customerId,Magento,Adobe Commerce,cloud infrastructure,on-premises,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.4
-description: "The MDVA-43859 patch fixes the issue where the error *No such entity with customerId =* is logged when a deleted customer tries to log in. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-43859. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5."
+description: The MDVA-43859 patch fixes the issue where the error *No such entity with customerId =* is logged when a deleted customer tries to log in. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 is installed. The patch ID is MDVA-43859. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+exl-id: 62c4b6ee-88a0-40b8-9eb2-37b6cefa0b83
 ---
-
 # MDVA-43859: Error "No such entity with customerId =" logged when deleted customer logs in
 
-The MDVA-43859 patch fixes the issue where the error *No such entity with customerId =* is logged when a deleted customer tries to log in. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.14 is installed. The patch ID is MDVA-43859. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The MDVA-43859 patch fixes the issue where the error *No such entity with customerId =* is logged when a deleted customer tries to log in. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 is installed. The patch ID is MDVA-43859. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -53,7 +52,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

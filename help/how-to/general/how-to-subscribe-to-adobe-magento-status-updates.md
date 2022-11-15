@@ -1,9 +1,8 @@
 ---
 title: How to subscribe to Adobe Commerce status updates
-labels: Magento Commerce Cloud,how to,Adobe,outage,Adobe Commerce,status updates
-description: "This article explains how you can subscribe to Adobe Commerce status on [Adobe status](https://status.adobe.com) for status alerts, updates, and information concerning any major outages or maintenance."
+description: This article explains how you can subscribe to Adobe Commerce status on [Adobe status](https://status.adobe.com) for status alerts, updates, and information concerning any major outages or maintenance.
+exl-id: 17b39925-4726-45da-b55d-c04c9b782df1
 ---
-
 # How to subscribe to Adobe Commerce status updates
 
 ## How to subscribe to Adobe Magento status updates

@@ -1,9 +1,8 @@
 ---
 title: Product is not displayed on storefront
-labels: Magento Commerce,Magento Commerce Cloud,not displayed,product,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides solutions for when products are not displayed on storefront."
+description: This article provides solutions for when products are not displayed on storefront.
+exl-id: 454eca5b-4722-46e0-8e5d-3daf8e3e675a
 ---
-
 # Product is not displayed on storefront
 
 This article provides solutions for when products are not displayed on storefront.

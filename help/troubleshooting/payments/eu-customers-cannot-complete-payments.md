@@ -1,9 +1,8 @@
 ---
 title: EU customers cannot complete payments
-labels: 2.2.x,2.3.x,EU,Magento Commerce,Magento Commerce Cloud,declined,how to,payments,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a fix for the issue of customers from the European Union not being able to complete payments."
+description: This article provides a fix for the issue of customers from the European Union not being able to complete payments.
+exl-id: 8309d96b-47a3-4d27-b538-e6e3bcdfb7d4
 ---
-
 # EU customers cannot complete payments
 
 This article provides a fix for the issue of customers from the European Union not being able to complete payments.

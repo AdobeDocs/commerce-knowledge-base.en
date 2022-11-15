@@ -1,12 +1,11 @@
 ---
-title: "MDVA-39521: Unable to set shipping address on carts via GraphQL"
-labels: QPT patches,Quality Patches Tool,QPT,MQP,QPT 1.1.2,Magento,Adobe Commerce,on-premises,cloud infrastructure,shipping,address,GraphQL,phone number,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
-description: "The MDVA-39521 patch solves the issue where the user is unable to set shipping address on carts with an empty phone number via GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39521. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4."
+title: 'MDVA-39521: Unable to set shipping address on carts via GraphQL'
+description: The MDVA-39521 patch solves the issue where the user is unable to set shipping address on carts with an empty phone number via GraphQL. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is installed. The patch ID is MDVA-39521. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+exl-id: b6bb4e83-ba65-4f15-82be-1252d9beb2fb
 ---
-
 # MDVA-39521: Unable to set shipping address on carts via GraphQL
 
-The MDVA-39521 patch solves the issue where the user is unable to set shipping address on carts with an empty phone number via GraphQL. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.2 is installed. The patch ID is MDVA-39521. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
+The MDVA-39521 patch solves the issue where the user is unable to set shipping address on carts with an empty phone number via GraphQL. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is installed. The patch ID is MDVA-39521. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 
 ## Affected products and versions
 
@@ -214,7 +213,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
 For info about other patches available in QPT, refer to the [Patches available in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) section.

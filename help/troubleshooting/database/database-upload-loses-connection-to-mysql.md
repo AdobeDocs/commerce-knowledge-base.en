@@ -1,9 +1,8 @@
 ---
 title: Database upload loses connection to MySQL
-labels: 2.2.x,2.3.x,Lost connection to MySQL server,Magento Commerce Cloud,database,disk space,how to,lost connection,Adobe Commerce,cloud infrastructure
-description: "This article provides a solution for when the database upload loses connection to MySQL."
+description: This article provides a solution for when the database upload loses connection to MySQL.
+exl-id: 6051cea1-8292-4a81-8908-eb516cb4a32b
 ---
-
 # Database upload loses connection to MySQL
 
 This article provides a solution for when the database upload loses connection to MySQL.

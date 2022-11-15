@@ -1,9 +1,8 @@
 ---
 title: Slow performance due to full reindexing
-labels: 2.x.x,Magento Commerce,Magento Commerce Cloud,cache invalidation,full reindexing,how to,slow performance,Adobe Commerce,cloud infrastructure
-description: "This article provides a fix for poor performance due to full reindexing (where data in the indexing-related database tables is updating)."
+description: This article provides a fix for poor performance due to full reindexing (where data in the indexing-related database tables is updating).
+exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
 ---
-
 # Slow performance due to full reindexing
 
 This article provides a fix for poor performance due to full reindexing (where data in the indexing-related database tables is updating).

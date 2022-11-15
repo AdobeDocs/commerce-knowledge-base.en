@@ -1,9 +1,8 @@
 ---
 title: PHP version error or 404 error when accessing Adobe Commerce in browser
-labels: 2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,Magento Commerce,troubleshooting,Adobe Commerce
-description: "This article provides solutions for the issues where you cannot access your Adobe Commerce instance in a web browser and get 404 error or \"unsupported PHP version\" error."
+description: This article provides solutions for the issues where you cannot access your Adobe Commerce instance in a web browser and get 404 error or "unsupported PHP version" error.
+exl-id: 6cfdeaae-5e52-411c-9006-5af8a467873a
 ---
-
 # PHP version error or 404 error when accessing Adobe Commerce in browser
 
 This article provides solutions for the issues where you cannot access your Adobe Commerce instance in a web browser and get 404 error or "unsupported PHP version" error.

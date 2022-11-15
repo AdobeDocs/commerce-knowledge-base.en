@@ -1,14 +1,13 @@
 ---
 title: "MDVA-22026: Can't import product images from external URL"
-labels: 2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,QPT 1.0.20,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,external URL,import,product image,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-22026 patch fixes the issue of being unable to import product images from an external URL."
+description: The MDVA-22026 patch fixes the issue of being unable to import product images from an external URL.
+exl-id: 29043c6c-daf2-4925-85bf-49eeeee3742c
 ---
-
 # MDVA-22026: Can't import product images from external URL
 
 The MDVA-22026 patch fixes the issue of being unable to import product images from an external URL.
 
-This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.20 is installed. The patch ID is MDVA-22026. Please note that the issue was fixed in Adobe Commerce version 2.3.4.
+This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-22026. Please note that the issue was fixed in Adobe Commerce version 2.3.4.
 
 ## Affected products and versions
 
@@ -55,7 +54,7 @@ To apply individual patches use the following links depending on your deployment
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492).
-* [Check patch for Adobe Commerce issue with Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252).
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
 For info about other patches available in QPT tool, refer to the [Patches available in QPT tool](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) section.

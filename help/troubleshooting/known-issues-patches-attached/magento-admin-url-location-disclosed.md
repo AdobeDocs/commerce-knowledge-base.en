@@ -1,9 +1,8 @@
 ---
 title: Adobe Commerce Admin URL location disclosed
-labels: 2.x.x,Admin URL disclosed,Adobe Commerce,known issues,patch,troubleshooting,cloud infrastructure,on-premises,Magento Open Source
-description: "This article provides a patch for the Adobe Commerce security issue where the URL location of the Admin panel can be disclosed. Knowing the URL location could make it easier to automate attacks."
+description: This article provides a patch for the Adobe Commerce security issue where the URL location of the Admin panel can be disclosed. Knowing the URL location could make it easier to automate attacks.
+exl-id: fe147ad5-6019-46c1-b48c-6b957b6e1582
 ---
-
 # Adobe Commerce Admin URL location disclosed
 
 This article provides a patch for the Adobe Commerce security issue where the URL location of the Admin panel can be disclosed. Knowing the URL location could make it easier to automate attacks.
@@ -32,7 +31,7 @@ Adobe strongly recommends applying the patch as soon as possible, even if you ha
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions.
 
 ## Other security recommendations
 

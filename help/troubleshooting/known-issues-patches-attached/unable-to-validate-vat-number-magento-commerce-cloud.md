@@ -1,9 +1,8 @@
 ---
 title: Unable to validate VAT number - Adobe Commerce on cloud infrastructure
-labels: 2.3.x,Magento Commerce Cloud,known issues,patch,troubleshooting,vat error,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a patch for the issue where there is an error during VAT number verification."
+description: This article provides a patch for the issue where there is an error during VAT number verification.
+exl-id: 9868e888-bad8-4823-acab-4b3804933cb0
 ---
-
 # Unable to validate VAT number - Adobe Commerce on cloud infrastructure
 
 This article provides a patch for the issue where there is an error during VAT number verification.
@@ -47,6 +46,6 @@ The patch is attached to this article. To download it, scroll down to the end of
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions.
 
 ## Attached Files

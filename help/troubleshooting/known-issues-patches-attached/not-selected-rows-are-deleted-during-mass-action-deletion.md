@@ -1,9 +1,8 @@
 ---
 title: More products were deleted than initiated during mass deletion in Admin
-labels: 2.2.3,Magento Commerce Cloud,deleted customers,deleted products,known issues,mass update,patch,troubleshooting,Adobe Commerce,cloud infrastructure,on-premises
-description: "This article provides a patch for the known Adobe Сommerce on cloud infrastructure 2.2.3 issue related to having not selected records being deleted when a bulk deletion is performed in a grid in the Commerce Admin."
+description: This article provides a patch for the known Adobe Сommerce on cloud infrastructure 2.2.3 issue related to having not selected records being deleted when a bulk deletion is performed in a grid in the Commerce Admin.
+exl-id: 0bfdc84e-0292-4702-a20e-bdbe67c111a2
 ---
-
 # More products were deleted than initiated during mass deletion in Admin
 
 This article provides a patch for the known Adobe Сommerce on cloud infrastructure 2.2.3 issue related to having not selected records being deleted when a bulk deletion is performed in a grid in the Commerce Admin.
@@ -45,4 +44,4 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions.

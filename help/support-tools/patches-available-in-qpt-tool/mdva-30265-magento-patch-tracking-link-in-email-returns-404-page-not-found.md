@@ -1,12 +1,11 @@
 ---
-title: "MDVA-30265: tracking link in email returns 404 Page not Found"
-labels: 2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5,2.3.5-p1,2.4.0,2.4.1,404,404 error,QPT 1.0.5,QPT patches,Magento Commerce,Magento Commerce Cloud,Quality Patches Tool,invoice,support tools,Adobe Commerce,cloud infrastructure,on-premises
-description: "The MDVA-30265 patch solves the issue of the \"404 Page not Found\" error when the customer clicks on the shipment tracking link in the order confirmation email. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2."
+title: 'MDVA-30265: tracking link in email returns 404 Page not Found'
+description: The MDVA-30265 patch solves the issue of the "404 Page not Found" error when the customer clicks on the shipment tracking link in the order confirmation email. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+exl-id: 53e1ca98-dfa0-445b-a71a-56fd01b630ec
 ---
-
 # MDVA-30265: tracking link in email returns 404 Page not Found
 
-The MDVA-30265 patch solves the issue of the "404 Page not Found" error when the customer clicks on the shipment tracking link in the order confirmation email. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
+The MDVA-30265 patch solves the issue of the "404 Page not Found" error when the customer clicks on the shipment tracking link in the order confirmation email. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.5 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 
 ## Affected products and versions
 
@@ -54,7 +53,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

@@ -1,12 +1,11 @@
 ---
-title: "ACSD-45520: Swatch options not selected on product detail page"
-labels: QPT patches,Quality Patches Tool,Support Tools,Magento,Adobe Commerce,cloud infrastructure,on-premises,QPT 1.1.17,product page,configurable,shopping cart,2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.3.7-p2,2.3.7-p3,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3,2.4.3-p1,2.4.3-p2,2.4.4,2.3.7-p4,2.4.3-p3
-description: "The ACSD-45520 patch fixes the issue where swatch options are not pre-selected on the product detail page when a user edits configurable products from the shopping cart. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.17 is installed. The patch ID is ACSD-45520. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6."
+title: 'ACSD-45520: Swatch options not selected on product detail page'
+description: The ACSD-45520 patch fixes the issue where swatch options are not pre-selected on the product detail page when a user edits configurable products from the shopping cart. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 is installed. The patch ID is ACSD-45520. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+exl-id: 941f4a45-bc3c-44c0-a582-ddfe179fa8c3
 ---
-
 # ACSD-45520: Swatch options not selected on product detail page
 
-The ACSD-45520 patch fixes the issue where swatch options are not pre-selected on the product detail page when a user edits configurable products from the shopping cart. This patch is available when the [Quality Patches Tool (QPT)](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.17 is installed. The patch ID is ACSD-45520. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-45520 patch fixes the issue where swatch options are not pre-selected on the product detail page when a user edits configurable products from the shopping cart. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 is installed. The patch ID is ACSD-45520. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -53,7 +52,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 To learn more about Quality Patches Tool, refer to:
 
-* [Quality Patches Tool released: a new tool to self-serve quality patches](https://support.magento.com/hc/en-us/articles/360047139492) in our support knowledge base.
-* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](https://support.magento.com/hc/en-us/articles/360047125252) in our support knowledge base.
+* [Quality Patches Tool released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation.

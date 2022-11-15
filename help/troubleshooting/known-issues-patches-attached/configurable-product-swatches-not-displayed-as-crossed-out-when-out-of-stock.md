@@ -1,9 +1,8 @@
 ---
 title: Configurable product swatches not displayed crossed out when out of stock
-labels: 2.2.2,Magento Commerce,Magento Commerce Cloud,configurable,known issues,patch,troubleshooting,Adobe Commerce,on-premises,cloud infrastructure
-description: "This article provides a patch for the known Adobe Commerce 2.2.2 issue related to the configurable product swatches being out of stock not displayed as crossed out on the storefront."
+description: This article provides a patch for the known Adobe Commerce 2.2.2 issue related to the configurable product swatches being out of stock not displayed as crossed out on the storefront.
+exl-id: 79c59a3f-a94b-4726-8af1-5fe754ea95a5
 ---
-
 # Configurable product swatches not displayed crossed out when out of stock
 
 This article provides a patch for the known Adobe Commerce 2.2.2 issue related to the configurable product swatches being out of stock not displayed as crossed out on the storefront.
@@ -47,6 +46,6 @@ The patch is also compatible (but might not solve the issue) with the following 
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe Commerce](https://support.magento.com/hc/en-us/articles/360028367731) for instructions.
+See [How to apply a composer patch provided by Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for instructions.
 
 ## Attached Files

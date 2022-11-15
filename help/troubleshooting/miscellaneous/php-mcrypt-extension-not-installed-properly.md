@@ -1,9 +1,8 @@
 ---
 title: PHP mcrypt extension not installed properly
-labels: Magento Commerce,Magento Commerce Cloud,PHP,deprecated,extension,how to,mcrypt,Adobe Commerce,cloud infrastructure,on-premises
 description: PHP mcrypt extension not installed properly
+exl-id: 1010349e-6631-4a05-8883-5cc903d67534
 ---
-
 # PHP mcrypt extension not installed properly
 
 >[!WARNING]

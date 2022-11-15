@@ -1,9 +1,8 @@
 ---
-title: "The 'Current version of RDBMS not supported' error on deployment"
-labels: troubleshooting,Adobe Commerce,cloud infrastructure,MariaDB,RDBMS,Magento Commerce,2.3.0,2.3.1,2.3.2,2.3.3,2.3.2-p2,2.3.4,2.3.3-p1,2.3.5,2.3.4-p2,2.3.5-p1,2.3.5-p2,2.3.6,2.3.6-p1,2.3.7,2.3.7-p1,2.4.0,2.4.0-p1,2.4.1,2.4.1-p1,2.4.2,2.4.2-p1,2.4.2-p2,2.4.3
-description: "This article provides a solution for when a deployment fails and you have the following error in the deploy log: *current version of RDBMS is not supported*."
+title: The 'Current version of RDBMS not supported' error on deployment
+description: 'This article provides a solution for when a deployment fails and you have the following error in the deploy log: *current version of RDBMS is not supported*.'
+exl-id: e7300f64-5749-4de8-b4d2-bc4789437282
 ---
-
 # The 'Current version of RDBMS not supported' error on deployment
 
 This article provides a solution for when a deployment fails and you have the following error in the deploy log: *current version of RDBMS is not supported*.
@@ -40,10 +39,10 @@ You must upgrade the MariaDB service to a compatible version before upgrading th
 
 For the integration branch on Adobe Commerce on cloud infrastructure Pro plan architecture (and all branches in Starter architecture) please follow [Configure Service](https://devdocs.magento.com/cloud/project/services.html) in our developer  documentation.
 
-For the Staging and Production on Adobe Commerce on cloud infrastructure Pro plan architecture, please [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to request that the services be upgraded before you deploy the Adobe Commerce version upgrade.
+For the Staging and Production on Adobe Commerce on cloud infrastructure Pro plan architecture, please [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request that the services be upgraded before you deploy the Adobe Commerce version upgrade.
 
 
 ## Related reading
 
 * [Best practices for builds and deployment](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) in our developer documentation.
-* [Adobe Commerce 2.3.5 upgrade: compact to dynamic tables](https://support.magento.com/hc/en-us/articles/360048389631) in our support knowlegde base.
+* [Adobe Commerce 2.3.5 upgrade: compact to dynamic tables](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) in our support knowlegde base.

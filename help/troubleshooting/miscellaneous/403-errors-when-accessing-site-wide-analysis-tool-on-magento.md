@@ -1,9 +1,8 @@
 ---
 title: 403 errors when accessing Site-Wide Analysis Tool on Adobe Commerce
-labels: 2.4.1,2.4.1-p1,2.4.2,2.4.3,Magento Commerce Cloud,Site-Wide Analysis Tool,admin,error,permissions,troubleshooting,Magento,Adobe Commerce,cloud infrastructure
-description: "This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Adobe Commerce."
+description: This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Adobe Commerce.
+exl-id: f24fad17-62d6-4a0f-bcba-983c3dbee3d7
 ---
-
 # 403 errors when accessing Site-Wide Analysis Tool on Adobe Commerce
 
 This article provides a solution for when you receive 403 errors when trying to access the Site-Wide Analysis Tool on Adobe Commerce.
@@ -50,7 +49,7 @@ If the response code is 403, you may have Cloudflare bot protection which is blo
 
 ### Correct 200 response code and JSON output
 
-If the response is the correct 200 code and JSON output, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket) to escalate the issue with Site-Wide Analysis Tool access.
+If the response is the correct 200 code and JSON output, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to escalate the issue with Site-Wide Analysis Tool access.
 
 
 ### 500 (Fatal error) response code
@@ -68,9 +67,8 @@ If the response output is not JSON, it could be because of PWA/Headless implemen
 
 ![Upward_configuration](assets/upward_pwa.png)
 
-If you are still not able to access the Site-Wide Analysis Tool, when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket).
+If you are still not able to access the Site-Wide Analysis Tool, when you log in next time in to the Commerce Admin panel and navigate to **Reports** > *System Insights* > **Site-Wide Analysis Tool**, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Related reading
 
-* [Adobe Commerce Site-Wide Analysis Tool report, an introduction video](https://support.magento.com/hc/en-us/articles/360048980691-Magento-Site-Wide-Analysis-Tool-report-an-introduction-video) in our support knowledge base (you need to be logged in to view the article).
-* [Adobe Commerce Site-Wide Analysis Tool Report FAQ](https://support.magento.com/hc/en-us/articles/360048646671-Magento-Site-Wide-Analysis-Tool-Report-FAQ) in our support knowledge base.
+* [Site-Wide Analysis Tool guide](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=en)
