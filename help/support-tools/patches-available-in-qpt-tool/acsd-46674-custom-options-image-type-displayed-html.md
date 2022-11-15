@@ -28,9 +28,9 @@ Custom options of an image type are displayed as HTML in customer emails.
 <u>Steps to reproduce</u>:
 
 1. Create a product with a custom option.
-    * Option Type: File
-    * Compatible File Extensions: png, jpg, gif
-    * Required: Yes
+    * Option type: *File*
+    * Compatible file extensions: *png, jpg, gif*
+    * Required: *Yes*
 1. Place an order for this product with an image uploaded as a custom option.
 1. Create an invoice for the order created in step two.
 1. Create a credit memo.
