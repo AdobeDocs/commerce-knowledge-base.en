@@ -148,7 +148,13 @@ b. NO – Review [Composer Troubleshooter webpage](https://getcomposer.org/doc/a
 
 +++**Long running processes(es)?**
 
-a. YES – Identify long running processes, kill process, and monitor deployments for reoccurrence.  
+a. YES – Identify long running processes. 
+To kill processes:
+1. Run the following command in the terminal: `ps aufx`.
+1. Locate the PID of the long-running process.
+1. Terminate the process using `kill -9 <PID>`.
+1. Monitor deployments for reoccurrence.  
+
 b. NO – Proceed to [Step 17](#step-17).
 
 +++
