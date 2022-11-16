@@ -1,11 +1,11 @@
 ---
 title: Composer plugins issues when upgrading to Adobe Commerce 2.4.4
-description: This articles provides a solution to avoid the issue with composer plugins when upgrading from Adobe Commerce 2.4.3 and earlier to Adobe Commerce 2.4.4 or higher (when future versions are released).
+description: This article provides a solution to avoid the issue with composer plugins when upgrading from Adobe Commerce 2.4.3 and earlier to Adobe Commerce 2.4.4 or higher (when future versions are released).
 exl-id: 7502ca9e-c307-4e8a-aa1d-4886e7be25da
 ---
 # Composer plugins issues when upgrading to Adobe Commerce 2.4.4
 
-This articles provides a solution to avoid the issue with composer plugins when upgrading from Adobe Commerce 2.4.3 and earlier to Adobe Commerce 2.4.4 or higher (when future versions are released).
+This article provides a solution to avoid issues with composer plugins when upgrading from Adobe Commerce 2.4.3 and earlier to Adobe Commerce 2.4.4 or higher (when future versions are released).
 
 ## Affected products and versions
 
@@ -15,7 +15,7 @@ This articles provides a solution to avoid the issue with composer plugins when 
 
 ## Issue
 
-When updating to Adobe Commerce 2.4.4 or higher after July 2022, you might get warning from composer about plugins.
+When updating to Adobe Commerce 2.4.4 or higher after July 2022, you might get a warning from composer about plugins.
 
 <u>Steps to reproduce</u>:
 
@@ -68,7 +68,7 @@ Add the following to your `composer.json` file, depending on how you installed A
     }
     ```
 
-* If the project has been created by another way and doesn't have `"dealerdirect/phpcodesniffer-installer"` in `"require-dev"` section:
+* If the project has been created by another way and does not have `"dealerdirect/phpcodesniffer-installer"` in `"require-dev"` section:
 
     ```json
     "config": {
