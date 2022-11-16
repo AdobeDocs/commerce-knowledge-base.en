@@ -5,7 +5,7 @@ description: Apply the ACSD-46856 patch to mproves performance when updating tie
 
 # ACSD-46856: Updating of tier prices via System > Configuration > Import > Advanced Pricing is slow
 
-The ACSD-46856 patch improves performance when updating tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-46856. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-46856 patch improves performance when updating tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-46856. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
