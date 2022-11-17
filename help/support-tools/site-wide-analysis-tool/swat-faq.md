@@ -33,7 +33,7 @@ The site information, provided in the SWAT report, includes:
   * Log exception info
   * Date of last occurrence
   * Number of times the exception occurs
-  * Who receives the automated monthly SWAT reports?
+ ## Who receives the automated monthly SWAT reports?
 
 Currently, those customers with a low SWAT Health Index (at or below the currently set performance threshold), will receive a monthly SWAT Report for their Production environment through the support ticket system.
 
