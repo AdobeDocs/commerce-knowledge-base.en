@@ -14,7 +14,7 @@ SWAT is a SaaS application that performs end-to-end 'point-in-time' customer sit
 
 ## What is a SWAT Report?
 
-The SWAT Report is a list of findings (Issues) with self-service, best practice recommendations, that can be sent to customers in a PDF form through the Adobe Commerce support ticket system.
+The SWAT Report is a list of findings (issues) with self-service, best practice recommendations, that can be sent to customers in a PDF form through the Adobe Commerce support ticket system.
 
 ## What information in included in a SWAT Report?
 
