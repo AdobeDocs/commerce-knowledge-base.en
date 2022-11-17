@@ -20,17 +20,17 @@ The SWAT Report is a list of findings (Issues) with self-service, best practice 
 The site information, provided in the SWAT report, includes:
 
 * Finding
-* Overview, including a ‘Priority’ for order of implementation fix
-* Finding Description
-* Pre-condition(s), if any
-* Site Impact(s)
-* Root Cause(s)
-* Recommendation(s)
+  * Overview, including a ‘Priority’ for order of implementation fix
+  * Finding Description
+  * Pre-condition(s), if any
+  * Site Impact(s)
+  * Root Cause(s)
+  * Recommendation(s)
 * Exception logs
-* Log exception info
-* Date of last occurrence
-* Number of times the exception occurs
-* Who receives the automated monthly SWAT reports?
+  * Log exception info
+  * Date of last occurrence
+  * Number of times the exception occurs
+  * Who receives the automated monthly SWAT reports?
 
 Currently, those customers with a low SWAT Health Index (at or below the currently set performance threshold), will receive a monthly SWAT Report for their Production environment through the support ticket system.
 
