@@ -43,4 +43,4 @@ All customers, irrespective of the SWAT Health Index, will receive a quarterly S
 
 ## How are Reports delivered?
 
-SWAT reports are delivered automatically via the Adobe Commerce support ticket system either monthly or quarterly. SWAT reports can also be generated manually from the SWAT Dashboard and saved to your desktop. These SWAT reports can then be emailed as attachments.
+SWAT reports are delivered automatically via the Adobe Commerce support ticket system monthly or quarterly. SWAT reports can also be generated manually from the SWAT Dashboard and saved to your desktop. These SWAT reports can then be emailed as attachments.
