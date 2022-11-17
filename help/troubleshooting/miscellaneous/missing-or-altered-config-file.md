@@ -32,7 +32,7 @@ To restore the configuration files:
 
    ```
    ./vendor/bin/ece-tools backup:list
-   ````
+   ```
 
    ```
    The list of backup files:
