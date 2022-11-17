@@ -2,6 +2,7 @@
 title: 'Adobe Commerce Site-Wide Analysis Tool Report FAQ'
 description: Learn about the Site-Wide Analysis Tool, a proactive self-service tool and central repository that includes detailed system insights and recommendations to ensure the security and operability of your Adobe Commerce installation.
 ---
+# Adobe Commerce Site-Wide Analysis Tool Report FAQ
 
 This article provides a description of the Site-Wide Analysis Tool (SWAT) Report, generated automatically for Adobe Commerce on cloud infrastructure customers on a monthly or quarterly basis.
 
