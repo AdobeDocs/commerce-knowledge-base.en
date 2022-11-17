@@ -12,9 +12,9 @@ This article provides a description of the Site-Wide Analysis Tool Report, gener
 
 ## What is Site-Wide Analysis Tool?
 
-Site-Wide Analysis Tool is a SaaS application that performs end-to-end 'point-in-time' customer site analysis (within the Site-Wide Analysis Tool environment, not on the customer's site). All Site-Wide Analysis Tool-related customer site information is collected on predetermined schedules from every 3 hours to once a day. This means that SWAT is constantly analyzing customer site data for findings.
+Site-Wide Analysis Tool is a SaaS application that performs end-to-end 'point-in-time' customer site analysis (within the Site-Wide Analysis Tool environment, not on the customer's site). All Site-Wide Analysis Tool-related customer site information is collected on predetermined schedules from every 3 hours to once a day. This means that Site-Wide Analysis Tool is constantly analyzing customer site data for findings.
 
-## What is a SWAT Report?
+## What is a Site-Wide Analysis Tool Report?
 
 The Site-Wide Analysis Tool Report is a list of findings (issues) with self-service, best practice recommendations, that can be sent to customers in a PDF form through the Adobe Commerce support ticket system.
 
@@ -36,7 +36,7 @@ The site information, provided in the Site-Wide Analysis Tool report, includes:
  
 ## Who receives the automated monthly Site-Wide Analysis Tool reports?
 
-Currently, those customers with a low SWAT Health Index (at or below the currently set performance threshold), will receive a monthly Site-Wide Analysis Tool Report for their Production environment through the support ticket system.
+Currently, those customers with a low Site-Wide Analysis Tool Health Index (at or below the currently set performance threshold), will receive a monthly Site-Wide Analysis Tool Report for their Production environment through the support ticket system.
 
 ## Who receives the automated quarterly Site-Wide Analysis Tool reports?
 
@@ -44,4 +44,4 @@ All customers, irrespective of the Site-Wide Analysis Tool Health Index, will re
 
 ## How are Reports delivered?
 
-Site-Wide Analysis Tool reports are delivered automatically via the Adobe Commerce support ticket system monthly or quarterly. Site-Wide Analysis Tool reports can also be generated manually from the SWAT Dashboard and saved to your desktop. These Site-Wide Analysis Tool reports can then be emailed as attachments.
+Site-Wide Analysis Tool reports are delivered automatically via the Adobe Commerce support ticket system monthly or quarterly. Site-Wide Analysis Tool reports can also be generated manually from the Site-Wide Analysis Tool Dashboard and saved to your desktop. These Site-Wide Analysis Tool reports can then be emailed as attachments.
