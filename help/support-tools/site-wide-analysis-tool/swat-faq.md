@@ -6,7 +6,9 @@ description: Learn about the Site-Wide Analysis Tool, a proactive self-service t
 
 This article provides a description of the Site-Wide Analysis Tool (SWAT) Report, generated automatically for Adobe Commerce on cloud infrastructure customers on a monthly or quarterly basis.
 
-Note: In Adobe Commerce on cloud infrastructure v2.4.1 and higher, SWAT is available through the Commerce Admin Panel. Hence, SWAT Reports can be run directly by the Customer. For access details, please refer to the [Site-Wide Analysis Tool guide](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html).
+>[!Note]
+>
+>In Adobe Commerce on cloud infrastructure v2.4.1 and higher, SWAT is available through the Commerce Admin Panel. Hence, SWAT Reports can be run directly by the Customer. For access details, please refer to the [Site-Wide Analysis Tool guide](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html).
 
 ## What is SWAT?
 
