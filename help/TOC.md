@@ -630,7 +630,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce cloud: reindex is terminated with Killed message](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
     * [Upgrade to version 10.0 DHL schema to continue offering DHL shipping](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md) 
     * [Adobe Commerce status column missing exported products CSV file](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
-    * [Adobe Commerce crons disabled without intervention](/help/adobe-commerce-crons-are-disabled-without-any-intervention.md)
+    * [Adobe Commerce crons disabled without intervention](/help/troubleshooting/miscellaneous/adobe-commerce-crons-are-disabled-without-any-intervention.md)
 
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
