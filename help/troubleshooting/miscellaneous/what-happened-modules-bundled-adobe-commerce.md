@@ -15,15 +15,15 @@ This article provides a solution for when modules included in previous Adobe Com
 
 You cannot install a module or have found that some core extensions are not present when you upgraded to Adobe Commerce 2.4.4.
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 You try to install a module, as part of installing Adobe Commerce 2.4.4.
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 You successfully install the module.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 You have the following error message when you run `composer update` in the terminal: _Your requirements could not be resolved to an installable set of packages_. 
 
