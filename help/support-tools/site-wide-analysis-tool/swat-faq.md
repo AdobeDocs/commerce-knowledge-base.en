@@ -12,7 +12,7 @@ This article provides a description of the Site-Wide Analysis Tool (SWAT) Report
 
 ## What is SWAT?
 
-SWAT is a SaaS application that performs end-to-end 'point-in-time' customer site analysis (within the SWAT environment, not on the customer's site). All SWAT-related customer site information is collected on predetermined schedules from every 3 hours to once a day. This means that SWAT is constantly analyzing customer site data for Findings.
+SWAT is a SaaS application that performs end-to-end 'point-in-time' customer site analysis (within the SWAT environment, not on the customer's site). All SWAT-related customer site information is collected on predetermined schedules from every 3 hours to once a day. This means that SWAT is constantly analyzing customer site data for findings.
 
 ## What is a SWAT Report?
 
