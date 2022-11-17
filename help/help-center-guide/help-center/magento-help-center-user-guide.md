@@ -359,7 +359,7 @@ This field appears when your account is associated with more than one organizati
 
 >[!WARNING]
 >
->You must ensure that you have selected the correct organization(s). A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization. 
+>You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization. 
 
 In addition, this would allow us to quickly cross reference similar/duplicated/related tickets submitted for this organization in the past and identify clues that might help with investigating and resolving the current ticket.
 
