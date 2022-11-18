@@ -21,7 +21,7 @@ The deployment process creates a backup file for each configuration file:
 * `app/etc/config.php.bak` — contains system-specific settings and is auto-generated during build if it does not exist
 * `app/etc/env.php.bak` — contains sensitive configuration data
 
-You can restore them using the ECE tools `backup:restore` command.
+You can restore them using the ECE-tools `backup:restore` command.
 
 The BAK files are a product of the deployment process. If you manually change a configuration file after the deployment, your changes are not reflected in the existing BAK files.
 
