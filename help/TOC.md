@@ -10,6 +10,7 @@ breadcrumb-title: Commerce KB
   * [Support Tools overview](/help/support-tools/overview.md)
   * Site-wide Analysis tool {#site-wide-analysis-tool}
     * [Site-Wide Analysis Tool by Adobe: overview](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
+    * [Adobe Commerce Site-Wide Analysis Tool Report FAQ](/help/support-tools/site-wide-analysis-tool/swat-faq.md)
   * Observation for Adobe Commerce {#observation}
     * [Observation for Adobe Commerce overview](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
   * Managed alerts on Adobe Commerce {#managed-alerts}
@@ -356,6 +357,7 @@ breadcrumb-title: Commerce KB
     * [MDVA-44147: GraphQL request doesn't return Requisition Lists](/help/support-tools/patches-available-in-qpt-tool/mdva-44147-graphql-request-doesnt-return-requisition-lists.md)
     * [ACSD-44591: Errors when order without CAPTCHA confirmation](/help/support-tools/patches-available-in-qpt-tool/acsd-44591-user-gets-error-when-trying-to-place-order-without-captcha-confirmation.md)
     * [MDVA-34886: no search results when "weight" attribute used](/help/support-tools/patches-available-in-qpt-tool/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
+    * [ACSD-46674: Custom options of image type displayed as HTML in customer emails](/help/support-tools/patches-available-in-qpt-tool/acsd-46674-custom-options-image-type-displayed-html.md)
     * [ACSD-44851: Category with subcategories not able to open or expand](/help/support-tools/patches-available-in-qpt-tool/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.md)
     * [ACSD-45675: Product export uses category names from default store view scope](/help/support-tools/patches-available-in-qpt-tool/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.md)
     * [ACSD-46703: Product customization drag and drop does not work](/help/support-tools/patches-available-in-qpt-tool/acsd-46703-product-customizable-options-drag-and-drop-doesnt-work-as-expected.md)
@@ -365,6 +367,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-46618: Product list widget shows incorrect cached prices for logged-in customer](/help/support-tools/patches-available-in-qpt-tool/acsd-46618-product-list-widget-shows-incorrect-cached-prices-logged-in-customer.md)
     * [ACSD-46541: An admin user cannot create a credit memo if an order item is deleted](/help/support-tools/patches-available-in-qpt-tool/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.md)
     * [ACSD-46581: Estimated tax total is not updated after selecting a country in the shopping cart](/help/support-tools/patches-available-in-qpt-tool/acsd-46581-estimated-tax-total-is-not-updated-after-selecting-a-country-in-the-shopping-cart.md)
+    * [ACSD-46809: The user gets an error when assigning a large number of product sources](/help/support-tools/patches-available-in-qpt-tool/acsd-46809-the-user-gets-an-error-when-assigning-a-large-number-of-product-sources.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
