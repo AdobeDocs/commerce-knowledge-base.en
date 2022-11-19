@@ -1,8 +1,8 @@
 ---
-title: "ACSD-46809: The user gets an error when assigning a large number of product sources"
+title: 'ACSD-46809: The user gets an error when assigning a large number of product sources'
 description: Apply the ACSD-46809 patch to fix the Adobe Commerce issue where the user gets an error when assigning a large number of product sources.
+exl-id: c67d7981-37fe-433a-b818-56a5b391082d
 ---
-
 # ACSD-46809: The user gets an error when assigning a large number of product sources
 
 The ACSD-46809 patch fixes the issue where the user gets an error when assigning a large number of product sources. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-46809. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.

@@ -1,6 +1,7 @@
 ---
 title: Missing or altered configuration file
 description: Solve the issue with missing or altered configuration file for Adobe Commerce.
+exl-id: d80bf981-8ba6-4357-a841-57bf5d3f2a3f
 ---
 # Missing or altered configuration file
 

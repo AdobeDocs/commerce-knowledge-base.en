@@ -1,8 +1,8 @@
 ---
-title: "ACSD-46674: custom options of image type displayed as HTML in customer emails"
+title: 'ACSD-46674: custom options of image type displayed as HTML in customer emails'
 description: Apply the ACSD-46674 patch to fix the Adobe Commerce issue where custom options of image type displayed as HTML in customer emails.
+exl-id: b4941dd0-bb3a-4805-9631-1d256a92f461
 ---
-
 # ACSD-46674: custom options of image type displayed as HTML in customer emails
 
 The ACSD-46674 patch fixes the issue where the custom options of an image type are displayed as HTML in customer emails. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-46674. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
