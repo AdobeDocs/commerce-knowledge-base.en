@@ -39,7 +39,7 @@ Infinite loading with console error _(index):9 Uncaught TypeError: Cannot read p
 
 <u>Actual results</u>:
 
-The User Roles filter function should filter results based on the query.
+The [!UICONTROL User Roles] filter function should filter results based on the query.
 
 ## Apply the patch
 
