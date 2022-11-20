@@ -27,7 +27,7 @@ You successfully install the module.
 
 You have the following error message when you run `composer update` in the terminal: _Your requirements could not be resolved to an installable set of packages_. 
 
-Or when running the command: `bin/magento setup:upgrade` in the terminal you see the following error:
+Or when running the command: `bin/magento setup:upgrade` in the terminal you see an error that indicates the module was not install. For example:
 
 _Service with name "Magento\Setup\Console\Command\DbStatusCommand" could not be created. Reason: Class "Vertex\Tax\Setup\Schema\Triggers\MigrateVertexInvoiceSent" does not exist_ 
 
