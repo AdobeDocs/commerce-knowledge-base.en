@@ -35,11 +35,11 @@ The filter function on [!UICONTROL User Roles] does not work as expected.
 
 <u>Expected results</u>:
 
-Infinite loading with console error _(index):9 Uncaught TypeError: Cannot read properties of null (reading 'down')_.
+The [!UICONTROL User Roles] filter function should filter results based on the query.
 
 <u>Actual results</u>:
 
-The [!UICONTROL User Roles] filter function should filter results based on the query.
+Infinite loading with console error _(index):9 Uncaught TypeError: Cannot read properties of null (reading 'down')_.
 
 ## Apply the patch
 
