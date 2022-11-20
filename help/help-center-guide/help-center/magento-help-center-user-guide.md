@@ -357,6 +357,14 @@ Indicate the organization you would like your ticket to be associated with &ndas
 
 This field appears when your account is associated with more than one organization.
 
+>[!WARNING]
+>
+>You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization. 
+
+In addition, this would allow us to quickly cross reference similar/duplicated/related tickets submitted for this organization in the past and identify clues that might help with investigating and resolving the current ticket.
+
+If you do have Shared Access to multiple organizations but this field is not available, refer to https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#merchant-not-displayed
+
 #### Product
 
 Select the type of Adobe Commerce product you are working with:
