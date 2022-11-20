@@ -10,10 +10,10 @@ The ACSD-47027 patch solves the issue where the slow query B2B CompanyRole [!DNL
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce (all deployment methods) 2.4.4
+* Adobe Commerce (all deployment methods) 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.2 -2.4.6
 
 >[!NOTE]
 >
