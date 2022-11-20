@@ -1,6 +1,6 @@
 ---
 title: "Modules missing from Adobe Commerce 2.4.4"
-description: This article provides a solution for the issue where the article provides a solution for when modules included in previous Adobe Commerce versions are not present in 2.4.4
+description: This article provides a solution for the issue when modules included in previous Adobe Commerce versions are not present in 2.4.4
 ---
 
 # Modules missing from Adobe Commerce 2.4.4
