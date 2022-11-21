@@ -25,5 +25,5 @@ To check related logs:
 ## Related reading
 
 * See [View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html) in our developer documentation for Adobe Commerce on our cloud infrastructure.
-* See [Troubleshooting 503 errors](https://support.magento.com/hc/en-us/articles/360034631211) in our support knowledge base.
-* See [Magento Site Down Troubleshooter](https://support.magento.com/hc/en-us/articles/360029351531) in our support knowledge base.
+* See [Troubleshooting 503 errors](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md) in our support knowledge base.
+* See [Magento Site Down Troubleshooter](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) in our support knowledge base.

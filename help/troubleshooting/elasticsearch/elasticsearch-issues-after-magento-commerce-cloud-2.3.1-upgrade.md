@@ -7,7 +7,7 @@ exl-id: 6ceeb2ea-528d-4c03-ab2b-c5aed46fd0a2
 
 >[!WARNING]
 >
->[MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+>[MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 
 >[!WARNING]
 >
@@ -44,4 +44,4 @@ To solve this issue, the Elasticsearch client module and Elasticsearch service n
 * [Adobe Commerce 2.3 technology stack requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements-tech.html) in our developer documentation.
 * [Set up Elasticsearch service](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html) in our developer documentation.
 * [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in our developer documentation.
-* [Ensure Elasticsearch is installed properly](https://support.magento.com/hc/en-us/articles/360034939312) in our support knowledge base.
+* [Ensure Elasticsearch is installed properly](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md) in our support knowledge base.

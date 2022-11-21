@@ -39,6 +39,6 @@ The `default_socket_timeout` value is set too low. This is caused by the setting
 
 ## Related reading
 
-* [Database upload loses connection to MySQL](https://support.magento.com/hc/en-us/articles/360037591172)
+* [Database upload loses connection to MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
 * [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
 * [Most common database issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)

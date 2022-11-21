@@ -9,7 +9,7 @@ This article provides a fix for low site performance. Low site performance can b
 
 >[!NOTE]
 >
->If you use the Adobe Commerce Banner functionality, see the [High throughput AJAX requests cause poor performance](https://support.magento.com/hc/en-us/articles/360039286472-High-throughput-AJAX-requests-cause-poor-performance) article in our support knowledge base for recommendations on how to avoid performance issues caused by excessive Ajax requests.
+>If you use the Adobe Commerce Banner functionality, see the [High throughput AJAX requests cause poor performance](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) article in our support knowledge base for recommendations on how to avoid performance issues caused by excessive Ajax requests.
 
 ## Affected products and versions
 
@@ -46,7 +46,7 @@ When the `Magento_Banner` module is enabled, Adobe Commerce sends Ajax requests 
 
 >[!WARNING]
 >
->We strongly recommend testing changes on [Staging/Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) first, before applying it to Production. We also recommend having a recent backup before any manipulations.
+>We strongly recommend testing changes on [Staging/Integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) first, before applying it to Production. We also recommend having a recent backup before any manipulations.
 
 1. Disable the `Magento_Banner` module output, as described in [Disable module output](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) in our developer documentation. The module name you need to use is `Magento_Banner`.
 1. Deploy your code. For Adobe Commerce on cloud infrastructure, deploy as described in the [Deploy your store](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) article in our developer documentation.

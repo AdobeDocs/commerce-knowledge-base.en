@@ -25,7 +25,7 @@ If this happens, you can use the Magento command to regenerate the image cache a
 
 To perform this, you need the SSH information and the store URL available through the [Project Web Interface](https://devdocs.magento.com/cloud/project/projects.html).
 
-1. SSH to your project that was a source for the [database dump](https://support.magento.com/hc/en-us/articles/360003254334-Create-database-dump-on-Cloud), as described in [SSH to environment](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) in our developer documentation.
+1. SSH to your project that was a source for the [database dump](/help/how-to/general/create-database-dump-on-cloud.md), as described in [SSH to environment](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) in our developer documentation.
 1. Regenerate the image cache by running:
 
     ```bash

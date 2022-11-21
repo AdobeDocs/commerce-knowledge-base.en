@@ -117,7 +117,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.html"> ACSD-45675: Product export uses category names from default store view scope: </a> The ACSD-45675 patch fixes the issue where the product export uses category names from the default store view scope. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
+    <a href="/help/support-tools/patches-available-in-qpt-tool/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.md"> ACSD-45675: Product export uses category names from default store view scope: </a> The ACSD-45675 patch fixes the issue where the product export uses category names from the default store view scope. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
     </td>
     <td>New article</td>
     <td>Nov 17, 2022</td>
@@ -125,7 +125,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.html"> ACSD-44851: Category with subcategories not able to open or expand: </a> The ACSD-44851 patch solves the issue where the user is unable to open or expand a category with subcategories. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
+    <a href="/help/support-tools/patches-available-in-qpt-tool/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.md"> ACSD-44851: Category with subcategories not able to open or expand: </a> The ACSD-44851 patch solves the issue where the user is unable to open or expand a category with subcategories. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
     </td>
     <td>New article</td>
     <td>Nov 17, 2022</td>
@@ -133,7 +133,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.corp.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46703-product-customizable-options-drag-and-drop-doesnt-work-as-expected.html"> ACSD-46703: Product customization drag and drop does not work: </a> The ACSD-46703 patch fixes the issue where the product customizable options (drag and drop) do not work as expected. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
+    <a href="/help/support-tools/patches-available-in-qpt-tool/acsd-46703-product-customizable-options-drag-and-drop-doesnt-work-as-expected.md"> ACSD-46703: Product customization drag and drop does not work: </a> The ACSD-46703 patch fixes the issue where the product customizable options (drag and drop) do not work as expected. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
     </td>
     <td>New article</td>
     <td>Nov 17, 2022</td>
@@ -141,7 +141,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46520-incorrect-order-status-when-refunded-using-store-credits.html"> ACSD-46520: Incorrect order status when refunded using store credits: </a> The ACSD-46520 patch solves the issue where users get an incorrect order status when refunded using store credits. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
+    <a href="/help/support-tools/patches-available-in-qpt-tool/acsd-46520-incorrect-order-status-when-refunded-using-store-credits.md"> ACSD-46520: Incorrect order status when refunded using store credits: </a> The ACSD-46520 patch solves the issue where users get an incorrect order status when refunded using store credits. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
     </td>
     <td>New article</td>
     <td>Nov 17, 2022</td>
@@ -150,11 +150,10 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
 ## Popular Articles
 
-* [Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2.4.4.html?lang=en)
-* [Apache log4j2 vulnerability in Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/apache-log4j2-adobe-commerce.html?lang=en)
-* [Security updates available for Adobe Commerce APSB22-12](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.html)
-* [Adobe Commerce on cloud Best Practices to Help Prevent and Respond to a Security Incident](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/security/prevent-respond-security-incident.html)
-* [Identify and measure outages for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=en-Identify-and-measure-outages-for-Adobe-Commerce-on-cloud-infrastructure)
-* [View environment vCPU tier in your cluster on Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/check-vcpu-using-observation-for-adobe-commerce.html)
-* [Adobe Commerce on cloud infrastructure: CPU allocation calculation](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html-Adobe-Commerce-on-cloud-infrastructure-CPU-allocation-calculation)
-* [Adobe Commerce on cloud infrastructure: Check host's CPU configuration](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
+* [Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2.4.4.md)
+* [Apache log4j2 vulnerability in Adobe Commerce](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
+* [Security updates available for Adobe Commerce APSB22-12](/help/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.md)
+* [Identify and measure outages for Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-identify-outages.md)
+* [View environment vCPU tier in your cluster on Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
+* [Adobe Commerce on cloud infrastructure: CPU allocation calculation](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
+* [Adobe Commerce on cloud infrastructure: Check host's CPU configuration](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
