@@ -1,11 +1,11 @@
 ---
-title: "ACSD-47666 Adobe Commerce patch: Search in [!UICONTROL User Roles not working]" 
+title: "ACSD-47666 Adobe Commerce patch: search in [!UICONTROL User Roles not working]" 
 description: Apply the ACSD-47666 patch to fix the Adobe Commerce issue where the filter function on [!UICONTROL User Roles] does not work as expected.
 ---
 
-# ACSD-47666: Adobe Commerce patch: Search in user roles not working
+# ACSD-47666: Adobe Commerce patch: search in [!UICONTROL User Roles] not working
 
-The ACSD-47666 patch solves the issue where the search in user roles is not working. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47666. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
+The ACSD-47666 patch solves the issue where the search in [!UICONTROL User Roles] is not working. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47666. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
 
 ## Affected products and versions
 
