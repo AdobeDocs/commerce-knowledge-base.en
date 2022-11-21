@@ -153,7 +153,6 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 * [Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2.4.4.md)
 * [Apache log4j2 vulnerability in Adobe Commerce](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
 * [Security updates available for Adobe Commerce APSB22-12](/help/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.md)
-* [Adobe Commerce on cloud Best Practices to Help Prevent and Respond to a Security Incident](/help/implementation-playbook/best-practices/launch/prevent-respond-security-incident.md)
 * [Identify and measure outages for Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-identify-outages.md)
 * [View environment vCPU tier in your cluster on Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
 * [Adobe Commerce on cloud infrastructure: CPU allocation calculation](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
