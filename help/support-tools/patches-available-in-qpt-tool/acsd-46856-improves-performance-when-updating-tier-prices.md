@@ -27,8 +27,7 @@ Updating of tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuratio
 
 <u>Steps to reproduce</u>:
 
--  Import a large number of products (Example: 10k+ or 200k+) via **System** > **Configuration** > **Import** > **Advanced Pricing**.
-
+* Import a large number of products (Example: 10k+ or 200k+) via **System** > **Configuration** > **Import** > **Advanced Pricing**.
 
 <u>Expected results</u>:
 
