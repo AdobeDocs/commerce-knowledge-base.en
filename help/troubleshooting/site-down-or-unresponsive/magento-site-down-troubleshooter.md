@@ -11,7 +11,7 @@ Click on each question to reveal the answer details in each step of the troubles
 
 +++**Does <https://status.adobe.com> show any issues?**
 
-a. YES – If you checked [Adobe Magento Status](https://status.adobe.com/products/3350) and it showed an issue, open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.  
+a. YES – If you checked [Adobe Magento Status](https://status.adobe.com/products/3350) and it showed an issue, open a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) for further investigation.  
 b. NO – If you checked [Adobe Magento Status](https://status.adobe.com/products/3350) and it did not show an issue, proceed to [Step 2](#step-2).
 
 +++
@@ -20,7 +20,7 @@ b. NO – If you checked [Adobe Magento Status](https://status.adobe.com/product
 
 +++**Does http://status.fastly.com show any issues?**
 
-a. YES – If you checked [Fastly Status](https://status.fastly.com/) and it showed an issue, open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.  
+a. YES – If you checked [Fastly Status](https://status.fastly.com/) and it showed an issue, open a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) for further investigation.  
 b. NO – If you checked [Fastly Status](https://status.fastly.com/) and it did not show an issue, proceed to [Step 3](#step-3).
 
 +++
@@ -31,7 +31,7 @@ b. NO – If you checked [Fastly Status](https://status.fastly.com/) and it did 
 
 To check error codes in **Firefox**: Click the **Open Menu** icon > **Web Developer** > **Toggle Tools** > **Network** tab > **All** filter > **Status** column. To check error codes in **Chrome**: Click the **Open Menu** icon > **More Tools** > **Developer Tools** > **Network** tab > **All** filter > **Status** column.
 
-a. YES – Open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.  
+a. YES – Open a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) for further investigation.  
 b. NO – Proceed to [Step 4](#step-4).
 
 +++
@@ -40,9 +40,9 @@ b. NO – Proceed to [Step 4](#step-4).
 
 +++**Which website error code did you receive?**
 
-a. Error Code 500 – Check log of `/var/log/platform/`. If this data does not present the issue to you, you can open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) and include the troubleshooting information you have so far for further investigation.
+a. Error Code 500 – Check log of `/var/log/platform/`. If this data does not present the issue to you, you can open a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) and include the troubleshooting information you have so far for further investigation.
 
-b. Error Code 503 – Check log of `var/reports`. If this data does not present the issue to you, you can open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) and include the troubleshooting information you have so far for further investigation.
+b. Error Code 503 – Check log of `var/reports`. If this data does not present the issue to you, you can open a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) and include the troubleshooting information you have so far for further investigation.
 
 c. Error Code 404 - Run the following query: `SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';` If the query returns a table, where `update_exists` value is "0", refer to the [Error 404 on all pages, storefront and Admin, due to Content Staging issue](https://support.magento.com/hc/en-us/articles/360000262174) article. In all other cases proceed to [Step 5](#step-5).
 
@@ -117,8 +117,8 @@ b. NO – Proceed to [Step 12](#step-12).
 
 +++**Are you seeing Indexer errors?**
 
-a. YES – If your Index is locked by another process, consult [Index is locked by another process](https://support.magento.com/hc/en-us/articles/360030683752). If you have other Indexer errors, please open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.  
-b. NO – Open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.
+a. YES – If your Index is locked by another process, consult [Index is locked by another process](https://support.magento.com/hc/en-us/articles/360030683752). If you have other Indexer errors, please open a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) for further investigation.  
+b. NO – Open a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) for further investigation.
 
 +++
 
@@ -163,7 +163,7 @@ b. NO – Proceed to [Step 17](#step-17).
 +++**Do you have MySQL database dead locks or an unresponsive MySQL database?**
 
 a. YES – Proceed with checking for MySQL dead locks in this [Deadlocks in MySQL](https://support.magento.com/hc/en-us/articles/360031622211) article.  
-b. NO – Open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.
+b. NO – Open a [Support Ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) for further investigation.
 
 +++
 
