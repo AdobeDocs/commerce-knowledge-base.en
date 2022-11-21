@@ -13,7 +13,7 @@ This article suggests solutions for the situation when you run out of space on a
 
 ## Issue
 
-You are running out of disk space on the disk with writable directories. One symptom can be [stuck deployment](https://support.magento.com/hc/en-us/articles/360030662992).
+You are running out of disk space on the disk with writable directories. One symptom can be [stuck deployment](/help/troubleshooting/deployment/deployment-stuck-with-unable-to-upload-the-application-to-the-remote-cluster-error.md).
 
 To check the disk usage, run the following command:
 

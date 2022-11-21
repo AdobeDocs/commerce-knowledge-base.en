@@ -26,7 +26,7 @@ b. NO – Search again on relevant search terms in the [Adobe Commerce Help Cent
 
 +++**Is it a new installation of Elasticsearch?**
 
-a. YES – [Ensure Elasticsearch is installed properly.](https://support.magento.com/hc/en-us/articles/360034939312) Also check whether you are on Adobe Commerce on cloud infrastructure 2.3.1 or later. Merchants that have upgraded to Adobe Commerce on cloud infrastructure (versions 2.3.1 and onwards) and are on a version of Elasticsearch prior to 6.x can experience errors when deploying. To solve this issue the Elasticsearch client module and Elasticsearch service need to be on the latest recommended versions. For steps refer to [Elasticsearch issues after Adobe Commerce on cloud infrastructure 2.3.1+ upgrade](https://support.magento.com/hc/en-us/articles/360042538511).  
+a. YES – [Ensure Elasticsearch is installed properly.](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md) Also check whether you are on Adobe Commerce on cloud infrastructure 2.3.1 or later. Merchants that have upgraded to Adobe Commerce on cloud infrastructure (versions 2.3.1 and onwards) and are on a version of Elasticsearch prior to 6.x can experience errors when deploying. To solve this issue the Elasticsearch client module and Elasticsearch service need to be on the latest recommended versions. For steps refer to [Elasticsearch issues after Adobe Commerce on cloud infrastructure 2.3.1+ upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2.3.1-upgrade.md).  
 b. NO – Check the health of your cluster. If you are on a Pro staging or production environment run this command: `curl -m1 localhost:9200/_cluster/health?pretty`. If you are on an integration environment (that includes all the Starter branches) run `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty`. Proceed to [Step 3](#step-3).
 
 +++
@@ -104,7 +104,7 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 
 Run `curl elasticsearch.internal:9200/_cat/indices` (if you are on an integration environment that includes all the Starter branches). If you are on Pro staging or production environment run `curl localhost:9200/_cat/indices`. Are there tracking indices listed? Check the output for`_tracking_log_`.
 
-a. YES – If you are on a version of ElasticSuite prior to version 2.8.0 it is recommended that you [upgrade to ElasticSuite 2.8.0 to adjust tracking indices retention or disable tracking](https://support.magento.com/hc/en-us/articles/360035266131?). If you cannot immediately upgrade you can [create a cron to remove tracking indices](https://support.magento.com/hc/en-us/articles/360034921492). However, this could cause performance issues. Once you have upgraded to ElasticSuite 2.8.0 or removed tracking indices run the command (if you are on Pro staging or production environments):`localhost:9200/_cat/allocation?v` to check available space. If you are on one of the integration environments (that includes all the Starter branches) run `elasticsearch.internal:9200/_cat/allocation?v`. Proceed to [Step 11](#step-11).  
+a. YES – If you are on a version of ElasticSuite prior to version 2.8.0 it is recommended that you [upgrade to ElasticSuite 2.8.0 to adjust tracking indices retention or disable tracking](https://support.magento.com/hc/en-us/articles/360035266131?). If you cannot immediately upgrade you can [create a cron to remove tracking indices](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md). However, this could cause performance issues. Once you have upgraded to ElasticSuite 2.8.0 or removed tracking indices run the command (if you are on Pro staging or production environments):`localhost:9200/_cat/allocation?v` to check available space. If you are on one of the integration environments (that includes all the Starter branches) run `elasticsearch.internal:9200/_cat/allocation?v`. Proceed to [Step 11](#step-11).  
 b. NO – If you are on Pro staging or production environments run `localhost:9200/_cat/allocation?v` and check available space. If you are on one of the integration environments (that includes all the Starter branches) run `elasticsearch.internal:9200/_cat/allocation?v`. Proceed to [Step 11](#step-11).
 
 +++
@@ -115,7 +115,7 @@ b. NO – If you are on Pro staging or production environments run `localhost:92
 
 Adobe Commerce and ES logs, extensions and custom code.
 
-a. YES – Review the Adobe Commerce Help Center Troubleshooting article [Ensure Elasticsearch is installed properly](https://support.magento.com/hc/en-us/articles/360034939312) or [Elasticsearch crashes or has out of memory issues when using ElasticSuite plugin](https://support.magento.com/hc/en-us/articles/360035266131).  
+a. YES – Review the Adobe Commerce Help Center Troubleshooting article [Ensure Elasticsearch is installed properly](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md) or [Elasticsearch crashes or has out of memory issues when using ElasticSuite plugin](https://support.magento.com/hc/en-us/articles/360035266131).  
 b. NO – Proceed to [Step 12](#step-12).
 
 +++

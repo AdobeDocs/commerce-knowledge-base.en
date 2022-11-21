@@ -22,7 +22,7 @@ The most probable cause of the issues is the MySQL database allocated space bein
 
 ### Check if there's enough space for MySQL
 
-For all Adobe Commerce on cloud infrastructure Starter plan architecture environments, and [Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) of the Adobe Commerce on cloud infrastructure Pro plan architecture, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) and run the command:
+For all Adobe Commerce on cloud infrastructure Starter plan architecture environments, and [Integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) of the Adobe Commerce on cloud infrastructure Pro plan architecture, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) and run the command:
 
 ```bash
 magento-cloud db:size

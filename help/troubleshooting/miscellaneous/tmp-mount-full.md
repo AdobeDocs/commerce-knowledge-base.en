@@ -84,7 +84,7 @@ There are several services that might be saving files to `/tmp`.
 
 #### Check up and free MySQL space
 
-Follow the instructions in [MySQL disk space is low on Adobe Commerce on cloud infrastructure > Check and free up storage space](https://support.magento.com/hc/en-us/articles/360037591972#check_and_free) in our support knowledge base.
+Follow the instructions in [MySQL disk space is low on Adobe Commerce on cloud infrastructure > Check and free up storage space](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md#check_and_free) in our support knowledge base.
 
 #### Check up Elasticsearch heapdumps
 
@@ -122,4 +122,4 @@ To avoid getting issues with `/tmp` being full, follow these recommendations:
 
 ## Related reading
 
-[MySQL disk space is low on Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360037591972) in our support knowledge base.
+[MySQL disk space is low on Adobe Commerce on cloud infrastructure](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md) in our support knowledge base.

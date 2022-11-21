@@ -25,4 +25,4 @@ Users at [accounts.magento.cloud](https://accounts.magento.cloud/) can connect t
 
 ## Related reading
 
-* [Unable to log in to Adobe Commerce support or cloud account](https://support.magento.com/hc/en-us/articles/8472095067021)
+* [Unable to log in to Adobe Commerce support or cloud account](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
