@@ -27,7 +27,7 @@ The [bunch-size](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli
 
 >[!NOTE]
 >
->There is a patch MDVA-33281 that fixes three other inventory inconsistency issues. This includes a PHP Fatal error when running `bin/magento inventory:reservation:list-inconsistencies` in the CLI. Another issue that is fixed is duplicate data in the inconsistencies list. Also, the issue where a reservation is created before order placed (previous realization based on reservation after order placed). For the solution, refer to [MDVA-33281: inventory inconsistency issues](https://support.magento.com/hc/en-us/articles/360055276532/) in our support knowledge base.
+>There is a patch MDVA-33281 that fixes three other inventory inconsistency issues. This includes a PHP Fatal error when running `bin/magento inventory:reservation:list-inconsistencies` in the CLI. Another issue that is fixed is duplicate data in the inconsistencies list. Also, the issue where a reservation is created before order placed (previous realization based on reservation after order placed). For the solution, refer to [MDVA-33281: inventory inconsistency issues](/help/support-tools/patches-available-in-qpt-tool/mdva-33281-magento-patch-inventory-inconsistency-issues.md/) in our support knowledge base.
 
 <u>Prerequisites</u>:
 
