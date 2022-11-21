@@ -1,6 +1,6 @@
 ---
 title: "ACSD-47666 Adobe Commerce patch: Search in user roles not working" 
-description: Apply the ACSD-47666 patch to fix the Adobe Commerce issue where the filter function on User Role does not work as expected.
+description: Apply the ACSD-47666 patch to fix the Adobe Commerce issue where the filter function on User Roles does not work as expected.
 ---
 
 # ACSD-47666: Adobe Commerce patch: Search in user roles not working
