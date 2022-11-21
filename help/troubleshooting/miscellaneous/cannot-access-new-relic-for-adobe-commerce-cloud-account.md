@@ -21,7 +21,7 @@ Being added to a cloud project does not automatically grant you [!DNL New Relic]
 
 ## Solution
 
-Contact the account owner and request that they add you to their account in [!DNL New Relic].
+Contact the New Relic account owner and request that they add you to their account in [!DNL New Relic]. 
 
 ## Related reading
 
