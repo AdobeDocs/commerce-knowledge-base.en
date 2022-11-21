@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47666 Adobe Commerce patch: Search in user roles not working" 
+title: "ACSD-47666 Adobe Commerce patch: Search in User Roles not working" 
 description: Apply the ACSD-47666 patch to fix the Adobe Commerce issue where the filter function on User Roles does not work as expected.
 ---
 
@@ -27,7 +27,7 @@ The filter function on [!UICONTROL User Roles] does not work as expected.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to the Adobe Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User roles]**.
+1. Log in to the Adobe Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]**.
 1. Open any existing role from the list.
 1. Open **[!UICONTROL Role Users]** tab.
 1. Type any query in a column.
