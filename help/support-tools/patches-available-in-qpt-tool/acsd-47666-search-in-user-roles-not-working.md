@@ -29,7 +29,7 @@ The filter function on [!UICONTROL User Roles] does not work as expected.
 
 1. Log in to the Adobe Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]**.
 1. Open any existing role from the list.
-1. Open the **[!UICONTROL Role]** tab.
+1. Open the **[!UICONTROL Role Users]** tab.
 1. Type any query in a column.
 1. Press enter.
 
