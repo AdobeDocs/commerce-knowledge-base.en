@@ -1,11 +1,11 @@
 ---
 title: "ACSD-46519: product count in `categoryList` graphql query returns 0 for anchor categories"
-description: Apply the ACSD-CSD-46519 patch to fix the Adobe Commerce issue where when we use `categoryList` Graphql method to get child categories it shows the `product_count` as 0 for parent categories.
+description: Apply the ACSD-CSD-46519 patch to fix the Adobe Commerce issue where when we use `categoryList` Graphql method to get child categories it shows the `product_count` as _0_ for parent categories.
 ---
 
-# ACSD-46519: product count in categoryList graphql query returns _0_ for anchor categories
+# ACSD-46519: [!UICONTROL product_count] in `categoryList` [!DNL graphql] query returns _0_ for anchor categories
 
-The ACSD-46519 patch solves the issue where the product count in `categoryList` [!DNL Graphql] query returns _0_ for anchor categories. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-46519. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
+The ACSD-46519 patch solves the issue where the [!UICONTROL product_count] in `categoryList` [!DNL Graphql] query returns _0_ for anchor categories. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-46519. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
 
 ## Affected products and versions
 
@@ -21,17 +21,15 @@ The ACSD-46519 patch solves the issue where the product count in `categoryList` 
 
 ## Issue
 
+When the `categoryList` [!DNL Graphql] method is used to get child categories it shows the [!UICONTROL product_count] as _0_ for parent categories.
+
 <u>Steps to reproduce</u>:
 
-1. Log in to the Adobe Commerce Admin.
-1. Create a category and subcategory.
-1. Set the parent category as an anchored category.
-1. Assign a product only to the child category.
 1. Use the following [!DNL Graphql] request to get the category hierarchy with product count:
 
 ```
 {
- categoryList(filters: { ids: { eq: "2" } }) {
+  categoryList(filters: { ids: { eq: "2" } }) {
     id
     name
     product_count
@@ -60,73 +58,54 @@ The ACSD-46519 patch solves the issue where the product count in `categoryList` 
 }
 ```
 
-The response:
-
-```
-{
-"data": {
-"categoryList": [
-{
-"id": 2,
-"name": "Default Category",
-"product_count": 186,
-"level": 1,
-"children": [
-{ "name": "What's New", "product_count": 0, "level": 2, "children": [] }
-,
-{
-"name": "Women",
-"product_count": 0,
-"level": 2,
-"children": [
-{ "name": "Tops", "product_count": 0, "level": 3, "children": [] }
-,
-{ "name": "Bottoms", "product_count": 0, "level": 3, "children": [] }
-]
-},
-{
-"name": "Men",
-"product_count": 0,
-"level": 2,
-"children": [
-{ "name": "Tops", "product_count": 0, "level": 3, "children": [] }
-,
-{ "name": "Bottoms", "product_count": 0, "level": 3, "children": [] }
-]
-},
-{
-"name": "Gear",
-"product_count": 33,
-"level": 2,
-"children": [
-{ "name": "Bags", "product_count": 13, "level": 3, "children": [] }
-,
-{ "name": "Fitness Equipment", "product_count": 11, "level": 3, "children": [] }
-]
-},
-{
-"name": "Training",
-"product_count": 6,
-"level": 2,
-"children": [
-{ "name": "Video Download", "product_count": 6, "level": 3, "children": [] }
-]
-},
-{ "name": "Sale", "product_count": 0, "level": 2, "children": [] }
-]
-}
-]
-}
-}
-```
-
 <u>Expected results</u>:
 
-If the parent category is an anchored category then the products count should show the sum of child category product counts.
+If the parent category is an anchored category, then the products count should show the sum of child category product counts on every level.
 
 <u>Actual results</u>:
 
-If the parent category is an anchored category then the products is shown as _0_ unless you assign product directly to the parent category.
+If the parent category is an anchored category, then the products is shown as _0_ for category level 2 and downwards.
+
+{
+    "data": {
+        "categoryList": [
+            {
+                "id": 2,
+                "name": "Default Category",
+                "product_count": 186,
+                "level": 1,
+                "children": [
+                    {
+                        "name": "What's New",
+                        "product_count": 0,
+                        "level": 2,
+                        "children": []
+                    },
+                    {
+                        "name": "Women",
+                        "product_count": 0,
+                        "level": 2,
+                        "children": [
+                            {
+                                "name": "Tops",
+                                "product_count": 0,
+                                "level": 3,
+                                "children": []
+                            },
+                            {
+                                "name": "Bottoms",
+                                "product_count": 0,
+                                "level": 3,
+                                "children": []
+                            }
+                        ]
+                    },
+                    ...
+                ]
+            }
+        ]
+    }
+}
 
 ## Apply the patch
 
