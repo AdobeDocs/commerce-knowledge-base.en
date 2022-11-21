@@ -40,8 +40,8 @@ Reference the following documentation for instructions on how to upgrade:
 
 ## Related reading
 
-* [PWA Studio: Webpack hangs before beginning compilation](https://support.magento.com/hc/en-us/articles/360039475011) in our support knowledge base
-* [PWA Studio: Validation errors when running developer mode](https://support.magento.com/hc/en-us/articles/360036928811) in our support knowledge base
-* [PWA Studio: Browser displays “Cannot proxy to“ error](https://support.magento.com/hc/en-us/articles/360036581232) in our support knowledge base
-* [Configure NPM to be able to use PWA Studio](https://support.magento.com/hc/en-us/articles/360022507012) in our support knowledge base
+* [PWA Studio: Webpack hangs before beginning compilation](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md) in our support knowledge base
+* [PWA Studio: Validation errors when running developer mode](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md) in our support knowledge base
+* [PWA Studio: Browser displays “Cannot proxy to“ error](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md) in our support knowledge base
+* [Configure NPM to be able to use PWA Studio](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md) in our support knowledge base
 * [PWA for Adobe Commerce Documentation](https://magento.github.io/pwa-studio/)

@@ -7,7 +7,7 @@ exl-id: 37a0164a-0237-4200-ab9c-e0dbad7e2062
 
 >[!WARNING]
 >
-> [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0). You must have the Elasticsearch host set up and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in our developer documentation.
+> [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md). You must have the Elasticsearch host set up and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) in our developer documentation.
 
 This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting different search results for the same search query with MySQL and ElasticSearch.
 
@@ -20,7 +20,7 @@ Your catalog search results with the same filter set differ depending on the sea
 1. Install and configure ElasticSearch.
 1. On the storefront, select one of the filters.
 1. Make a note of the number of matching products.
-1. Configure the default [MySQL search](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-Magento-2-4-0).
+1. Configure the default [MySQL search](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md).
 1. On the storefront, select one of the filters.
 1. Make a note of the number of matching products.
 

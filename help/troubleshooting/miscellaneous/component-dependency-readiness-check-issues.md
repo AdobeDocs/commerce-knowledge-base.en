@@ -32,7 +32,7 @@ We found conflicting component dependencies.
 >
 >The message you see will likely be different.
 
-Refer to [Conflicting component dependencies for a solution](https://support.magento.com/hc/en-us/articles/360033204651) in our support knowledge base.
+Refer to [Conflicting component dependencies for a solution](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md) in our support knowledge base.
 
 ## File system permissions issues {#trouble-depend-permission}
 

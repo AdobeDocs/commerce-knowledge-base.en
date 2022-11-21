@@ -62,7 +62,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](/help/help-center
 
 >[!NOTE]
 >
->Once the upsize is scheduled, an automated system will adjust the size of your cloud instance. You may not receive any ticket notification when the procedure is complete. You may use the Observation for Adobe Commerce tool to view your AWS or Azure instance types to [verify the change](https://support.magento.com/hc/en-us/articles/4409425285901).
+>Once the upsize is scheduled, an automated system will adjust the size of your cloud instance. You may not receive any ticket notification when the procedure is complete. You may use the Observation for Adobe Commerce tool to view your AWS or Azure instance types to [verify the change](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md).
 
 ## View the history of your upsizes
 

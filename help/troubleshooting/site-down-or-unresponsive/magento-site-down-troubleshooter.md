@@ -44,7 +44,7 @@ a. Error Code 500 – Check log of `/var/log/platform/`. If this data does not p
 
 b. Error Code 503 – Check log of `var/reports`. If this data does not present the issue to you, you can open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) and include the troubleshooting information you have so far for further investigation.
 
-c. Error Code 404 - Run the following query: `SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';` If the query returns a table, where `update_exists` value is "0", refer to the [Error 404 on all pages, storefront and Admin, due to Content Staging issue](https://support.magento.com/hc/en-us/articles/360000262174) article. In all other cases proceed to [Step 5](#step-5).
+c. Error Code 404 - Run the following query: `SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';` If the query returns a table, where `update_exists` value is "0", refer to the [Error 404 on all pages, storefront and Admin, due to Content Staging issue](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md) article. In all other cases proceed to [Step 5](#step-5).
 
 d. Other Error Codes – Proceed to [Step 5](#step-5).
 
@@ -54,7 +54,7 @@ d. Other Error Codes – Proceed to [Step 5](#step-5).
 
 +++**Is your site slow, or having high server load, high CPU load, slow request processing, or outages in MySQL or Redis?**
 
-a. YES – Proceed with steps for [Checking for DDOS attacks from CLI](https://support.magento.com/hc/en-us/articles/360030941932).  
+a. YES – Proceed with steps for [Checking for DDOS attacks from CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md).  
 b. NO – Check logs of `/var/log/exception.log` and `/var/log/deploy.log`, and if this data does not present the issue to you, proceed to [Step 6](#step-6).
 
 +++
@@ -81,7 +81,7 @@ b. NO – Proceed to [Step 8](#step-8).
 
 +++**Was your MySQL database having slow queries or incorrect queries?**
 
-a. YES – Proceed with [Checking slow queries and Processes taking too long in MySQL](https://support.magento.com/hc/en-us/articles/360030903091) and checking your query structure in this [MySQL query tutorial](https://dev.mysql.com/doc/refman/5.5/en/entering-queries.html).  
+a. YES – Proceed with [Checking slow queries and Processes taking too long in MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md) and checking your query structure in this [MySQL query tutorial](https://dev.mysql.com/doc/refman/5.5/en/entering-queries.html).  
 b. NO – Proceed to [Step 9](#step-9).
 
 +++
@@ -99,7 +99,7 @@ b. NO – Proceed to [Step 10](#step-10).
 
 +++**Do you see PHP Fatal Errors in your logs?**
 
-a. YES – Proceed with consulting [Common PHP Fatal Errors and solutions](https://support.magento.com/hc/en-us/articles/360030568432).  
+a. YES – Proceed with consulting [Common PHP Fatal Errors and solutions](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md).  
 b. NO – Proceed to [Step 11](#step-11).
 
 +++
@@ -117,7 +117,7 @@ b. NO – Proceed to [Step 12](#step-12).
 
 +++**Are you seeing Indexer errors?**
 
-a. YES – If your Index is locked by another process, consult [Index is locked by another process](https://support.magento.com/hc/en-us/articles/360030683752). If you have other Indexer errors, please open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.  
+a. YES – If your Index is locked by another process, consult [Index is locked by another process](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md). If you have other Indexer errors, please open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.  
 b. NO – Open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.
 
 +++
@@ -126,7 +126,7 @@ b. NO – Open a [Support Ticket](https://support.magento.com/hc/en-us/articles/
 
 +++**Do you have issues with your custom module(s)?**
 
-a. YES – Proceed to consult [General custom module troubleshooting help](https://support.magento.com/hc/en-us/articles/360031030751).  
+a. YES – Proceed to consult [General custom module troubleshooting help](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md).  
 b. NO – Proceed to [Step 14](#step-14).
 
 +++
@@ -144,7 +144,7 @@ b. NO – Proceed to [Step 15](#step-15).
 
 +++**Do you have issues with composer patches?**
 
-a. YES – Proceed to consulting [Applying a patch takes your site down](https://support.magento.com/hc/en-us/articles/360030867871).  
+a. YES – Proceed to consulting [Applying a patch takes your site down](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md).  
 b. NO – Proceed to [Step 16](#step-16).
 
 +++
@@ -162,11 +162,11 @@ b. NO – Proceed to [Step 17](#step-17).
 
 +++**Do you have MySQL database dead locks or an unresponsive MySQL database?**
 
-a. YES – Proceed with checking for MySQL dead locks in this [Deadlocks in MySQL](https://support.magento.com/hc/en-us/articles/360031622211) article.  
+a. YES – Proceed with checking for MySQL dead locks in this [Deadlocks in MySQL](/help/troubleshooting/database/deadlocks-in-mysql.md) article.  
 b. NO – Open a [Support Ticket](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) for further investigation.
 
 +++
 
 [Back to Step 1](#step-1)
 
-Click [HERE](https://support.magento.com/hc/en-us/articles/360031107111) to see the Site Down Troubleshooting Flowchart.
+Click [HERE](/help/troubleshooting/site-down-or-unresponsive/site-down-troubleshooting-diagram.md) to see the Site Down Troubleshooting Flowchart.
