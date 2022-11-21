@@ -66,6 +66,7 @@ If the parent category is an anchored category, then the products count should s
 
 If the parent category is an anchored category, then the products is shown as _0_ for category level 2 and downwards.
 
+```
 {
     "data": {
         "categoryList": [
@@ -106,6 +107,7 @@ If the parent category is an anchored category, then the products is shown as _0
         ]
     }
 }
+```
 
 ## Apply the patch
 
