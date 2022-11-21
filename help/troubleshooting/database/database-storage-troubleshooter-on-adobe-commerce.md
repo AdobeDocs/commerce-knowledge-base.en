@@ -22,7 +22,7 @@ If you have any of the symptoms described above, check the state of your inodes 
 
 Is IUse% > 90%?
 
-a. YES – This is caused by having too many files. Review the steps to remove files safely in [Safely delete files when out of disk space, Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/4406832353677-Safely-delete-files-when-out-of-disk-space-Adobe-Commerce-on-our-cloud-infrastructure). Proceed to [Step 2](#step-2) after you have completed these steps. If you want to request more space, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).  
+a. YES – This is caused by having too many files. Review the steps to remove files safely in [Safely delete files when out of disk space, Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/4406832353677-Safely-delete-files-when-out-of-disk-space-Adobe-Commerce-on-our-cloud-infrastructure). Proceed to [Step 2](#step-2) after you have completed these steps. If you want to request more space, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket).  
 b. NO – Check space. Run `df -h | grep mysql` and then `df -h | grep tmp` in the CLI/Terminal to check disk space usage in the `/tmp` and `/data/mysql` directories. Proceed to [Step 3](#step-3).
 
 +++
@@ -34,7 +34,7 @@ b. NO – Check space. Run `df -h | grep mysql` and then `df -h | grep tmp` in t
 Once you have reduced the number of files, run `df -h | grep mysql` and then `df -h | grep tmp` in the CLI/Terminal to check disk space usage in `/tmp` and `/data/mysql`. Is greater than 70% used for `/tmp` or `/data/mysql`?
 
 a. YES – Proceed to [Step 3](#step-3). 
-b. NO – Queries may be exhausting the available storage. This may crash the node, killing the query and removing the `tmp` files. Examine the output of the `SHOW PROCESSLIST;` in the MySQL CLI for queries that may be the cause of the problem. [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251), requesting more space.
+b. NO – Queries may be exhausting the available storage. This may crash the node, killing the query and removing the `tmp` files. Examine the output of the `SHOW PROCESSLIST;` in the MySQL CLI for queries that may be the cause of the problem. [Submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket), requesting more space.
 
 +++
 
@@ -65,7 +65,7 @@ b. `/data/mysql` – Proceed to [Step 5](#step-5).
 >The solutions in [Troubleshoot /tmp mount full for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4403572246285) are designed for merchants who have not changed the variables for database tmpdir, which by default writes to `/tmp`. If you have changed the tmpdir value, the instructions in [Troubleshoot /tmp mount full for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4403572246285) will not help.
 
 a. YES – You have solved the issue.   
-b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251), requesting more space.
+b. NO – [Submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket), requesting more space.
 
 +++
 
@@ -77,7 +77,7 @@ Your database configuration may no longer be at the original default. Find the d
   < 70% used?
 
 a. YES – You have solved the issue.   
-b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251), requesting more space.
+b. NO – [Submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket), requesting more space.
 
 [Back to Step 1](#step-1)
 
