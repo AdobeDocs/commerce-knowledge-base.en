@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47666 Adobe Commerce patch: search in [!UICONTROL User Roles] do not work"
+title: "ACSD-47666: search in [!UICONTROL User Roles] do not work"
 description: Apply the ACSD-47666 patch to fix the Adobe Commerce issue where the filter function on [!UICONTROL User Roles] does not work as expected.
 ---
 
