@@ -1,12 +1,11 @@
 ---
 title: "ACSD-47179: mass delete product review does not work when logged in as limited user role"
-description: Apply the ACSD-XXXXX patch to fix the Adobe Commerce issue where...
+description: Apply the ACSD-47179 patch to fix the Adobe Commerce issue where mass delete product review does not work when logged in as limited user role.
 ---
 
 # ACSD-47179: mass delete product review does not work when logged in as limited user role
 
-The ACSD-47179 patch fixes the issue where mass delete product review does not work when logged in as limited user role.
-This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47179. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47179 patch fixes the issue where mass deletion of product review does not work when logged in as limited user role. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47179. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
