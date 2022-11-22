@@ -1,8 +1,8 @@
 ---
 title: Cannot access [!DNL New Relic] on Adobe Commerce cloud project
 description: This article provides a solution for when you cannot access [!DNL New Relic] despite being added to a cloud project on Adobe Commerce.
+exl-id: bafe2dd9-8a16-4249-b814-7e421e25e828
 ---
-
 # Cannot access [!DNL New Relic] on Adobe Commerce Cloud project
 
 This article provides a solution for when you cannot access [!DNL New Relic] despite being added to an Adobe Commerce cloud project.
@@ -25,4 +25,4 @@ Contact the New Relic account owner and request that they add you to their accou
 
 ## Related reading
 
-[Manage [!DNL New Relic] account](https://devdocs.magento.com/cloud/project/new-relic.html#manage-new-relic-account) in our developer documentation. 
+[Manage [!DNL New Relic] account](https://devdocs.magento.com/cloud/project/new-relic.html#manage-new-relic-account) in our developer documentation.
