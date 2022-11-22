@@ -30,7 +30,7 @@ PHP 7.4.
 <u>Steps to reproduce</u>:
 
 1. Create a new product.
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration}** > **[!UICONTROL CATALOG]** > **[!UICONTROL Catalog]**> **[!UICONTROL Search Engine Optimization]** > set **[!UICONTROL Generate "category/product" URL Rewrites]** = _No_.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL CATALOG]** > **[!UICONTROL Catalog]**> **[!UICONTROL Search Engine Optimization]** > set **[!UICONTROL Generate "category/product" URL Rewrites]** = _No_.
 1. Go to the storefront and visit the URL for the product.
 
 <u>Expected results</u>:
