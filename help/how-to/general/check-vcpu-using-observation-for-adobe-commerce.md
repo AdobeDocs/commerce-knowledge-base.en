@@ -30,4 +30,4 @@ To access and log in to the New Relic Observation for Adobe Commerce nerdlet:
 
 ## Related reading
 
-* [Observation for Adobe Commerce overview](https://support.magento.com/hc/en-us/articles/4406549696781) in our support knowledge base.
+* [Observation for Adobe Commerce overview](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md) in our support knowledge base.

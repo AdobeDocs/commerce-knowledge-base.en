@@ -32,12 +32,12 @@ For these versions you must apply the patch and run the attached database clean-
 
 1. Now run the script to clean the database of the pre-existing failed login attempts. This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
 
-Please refer to the [ **How to run the script** ](https://support.magento.com/hc/en-us/articles/360040209352#run_script) section for instructions.
+Please refer to the [ **How to run the script** ](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) section for instructions.
 
  **Adobe Commerce and Magento Open Source versions 2.3.3 and above/2.2.10 & above**<br>
 For these versions only, run the below script to clear old logs (logging was ended previously for these versions through a fix released in October, 2019). This script is attached to the article. To download it, scroll down to the end of the article and click the file name, or click the following link [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
 
-Please refer to the [ **How to run the script** ](https://support.magento.com/hc/en-us/articles/360040209352#run_script) section in our support knowledge base, for instructions.
+Please refer to the [ **How to run the script** ](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) section in our support knowledge base, for instructions.
 
  **How to run the script**
 

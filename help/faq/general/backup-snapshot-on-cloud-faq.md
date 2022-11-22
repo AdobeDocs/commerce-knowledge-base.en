@@ -25,7 +25,7 @@ This article covers the essentials of backing up your environments with snapshot
 
 ### Integration (Development) environment
 
-* Your [Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter) is **not being backed up automatically** , but you may create snapshots **manually**.
+* Your [Integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) is **not being backed up automatically** , but you may create snapshots **manually**.
 * You can create manual snapshots for Integration environments on non-live stores.
 * You may have **multiple snapshots** that have been triggered manually.
 * A manually triggered snapshot is stored for **7 days** .
@@ -54,4 +54,4 @@ A snapshot is a complete backup of an environment that includes all persistent d
 
 [Snapshots and backup management](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html) in our developer documentation.
 
-If, for any reason, you need to backup your DB only (on any environment), see the knowledge base article: [Generate database dumps on Cloud](https://support.magento.com/hc/en-us/articles/360003254334).
+If, for any reason, you need to backup your DB only (on any environment), see the knowledge base article: [Generate database dumps on Cloud](/help/how-to/general/create-database-dump-on-cloud.md).

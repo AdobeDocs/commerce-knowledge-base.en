@@ -22,7 +22,7 @@ You might need to change the increment ID for new DB entities in these cases:
 
 >[!NOTE]
 >
->You may also fix the payment gateway issue for PayPal by allowing multiple payments per invoice ID in PayPal's Payment Receiving Preferences. See [PayPal gateway rejected request - duplicate invoice issue](https://support.magento.com/hc/en-us/articles/115002457473) in our support knowledge base.
+>You may also fix the payment gateway issue for PayPal by allowing multiple payments per invoice ID in PayPal's Payment Receiving Preferences. See [PayPal gateway rejected request - duplicate invoice issue](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) in our support knowledge base.
 
 ## Prerequisite steps
 
@@ -75,9 +75,9 @@ the next order placed at the store with *ID=1* will have the *ID \#100002000*.
 Before executing the `ALTER TABLE` query on the Production environment of Adobe Commerce on cloud infrastructure, we strongly recommend performing these steps:
 
 * Test the entire procedure of changing the increment ID on your Staging environment
-* [Create](https://support.magento.com/hc/en-us/articles/360003254334) a DB backup to restore your Production DB in case of failure
+* [Create](/help/how-to/general/create-database-dump-on-cloud.md) a DB backup to restore your Production DB in case of failure
 
 ## Related documentation
 
-* [Create database dump on Cloud](https://support.magento.com/hc/en-us/articles/360003254334) in our support knowledge base.
+* [Create database dump on Cloud](/help/how-to/general/create-database-dump-on-cloud.md) in our support knowledge base.
 * [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) in our developer documentation.

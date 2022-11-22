@@ -29,4 +29,4 @@ Depending on the complexity of your analysis, generating the corresponding MBI r
 1. If a metric used in the analysis is built on a table from your database where rows are ever deleted from that table, confirm with the MBI Support Team that the table is being checked for deleted rows, as well as the frequency of the recheck and the [replication method](https://support.magento.com/hc/en-us/articles/360016731631-Best-practice-Optimizing-your-database-for-analysis) for the table.
 1. Similarly, if columns used in the analysis can be modified after a row is added, confirm with support that these columns are being [checked for modifications](https://support.magento.com/hc/en-us/articles/360016506452-Configuring-data-rechecks), as well as the frequency of the recheck.
 
- **Still stumped?** Don't worry - we're here to help. Send us a request using [these instructions](https://support.magento.com/hc/en-us/articles/360016505312).
+ **Still stumped?** Don't worry - we're here to help. Send us a request using [these instructions](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md).
