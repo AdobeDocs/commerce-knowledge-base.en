@@ -1,11 +1,11 @@
 ---
-title: "ACSD-47076: Vimeo videos cannot be played on the storefront"
-description: Apply the ACSD-47076 patch to fix the Adobe Commerce issue where venmo videos cannot be played on the storefront
+title: "ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront"
+description: Apply the ACSD-47076 patch to fix the Adobe Commerce issue where [!DNL Vimeo] videos cannot be played on the storefront
 ---
 
-# ACSD-47076: Vimeo videos cannot be played on the storefront
+# ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront
 
-The ACSD-47076 patch solves/fixes the issue where venmo videos cannot be played on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-47076. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47076 patch fixes the issue where [!DNL Vimeo] videos cannot be played on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-47076. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -23,20 +23,20 @@ The ACSD-47076 patch solves/fixes the issue where venmo videos cannot be played 
 
 ## Issue
 
-Venmo videos cannot be played on the storefront
+[!DNL Vimeo] videos cannot be played on the storefront.
 
 <u>Steps to reproduce</u>:
 
-1. Add a Vimeo video to a product in the Commerce Admin > **[UICONTROL Catalog]** > **[UICONTROL Products]** > product edit page > **[UICONTROL Images and Videos]**.
-1. Open the product on the [UICONTROL Storefront] and play the video
+1. Add a [!DNL Vimeo] video to a product in the Commerce Admin > **[UICONTROL Catalog]** > **[UICONTROL Products]** > product edit page > **[UICONTROL Images and Videos]**.
+1. Open the product on the storefront and play the video.
 
 <u>Expected results</u>:
 
-The [DNL Vimeo] video can be played.
+The [!DNL Vimeo] video can be played.
 
 <u>Actual results</u>:
 
-The [DNL Vimeo] video cannot be played on the Storefront.
+The [!DNL Vimeo] video cannot be played on the storefront.
 
 ## Apply the patch
 
