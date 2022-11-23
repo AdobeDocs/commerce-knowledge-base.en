@@ -27,7 +27,7 @@ The ACSD-47076 patch fixes the issue where [!DNL Vimeo] videos cannot be played 
 
 <u>Steps to reproduce</u>:
 
-1. Add a [!DNL Vimeo] video to a product in the Commerce Admin > **[UICONTROL Catalog]** > **[UICONTROL Products]** > product edit page > **[UICONTROL Images and Videos]**.
+1. Add a [!DNL Vimeo] video to a product in the Commerce Admin > **[!UICONTROL Catalog]** > **[!UICONTROL Products]** > product edit page > **[!UICONTROL Images and Videos]**.
 1. Open the product on the storefront and play the video.
 
 <u>Expected results</u>:
