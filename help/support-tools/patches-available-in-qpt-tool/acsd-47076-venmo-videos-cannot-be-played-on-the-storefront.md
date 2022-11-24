@@ -1,6 +1,6 @@
 ---
 title: "ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront"
-description: Apply the ACSD-47076 patch to fix the Adobe Commerce issue where [!DNL Vimeo] videos cannot be played on the storefront
+description: Apply the ACSD-47076 patch to fix the Adobe Commerce issue where [!DNL Vimeo] videos cannot be played on the storefront.
 ---
 
 # ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront
@@ -27,7 +27,7 @@ The ACSD-47076 patch fixes the issue where [!DNL Vimeo] videos cannot be played 
 
 <u>Steps to reproduce</u>:
 
-1. Add a [!DNL Vimeo] video to a product in the Commerce Admin > **[!UICONTROL Catalog]** > **[!UICONTROL Products]** > product edit page > **[!UICONTROL Images and Videos]**.
+1. Add a [!DNL Vimeo] video to a product in the Commerce [!UICONTROL Admin] > **[!UICONTROL Catalog]** > **[!UICONTROL Products]** > product edit page > **[!UICONTROL Images and Videos]**.
 1. Open the product on the storefront and play the video.
 
 <u>Expected results</u>:
