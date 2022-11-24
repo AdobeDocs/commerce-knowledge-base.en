@@ -1,8 +1,8 @@
 ---
-title: "ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront"
+title: 'ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront'
 description: Apply the ACSD-47076 patch to fix the Adobe Commerce issue where [!DNL Vimeo] videos cannot be played on the storefront.
+exl-id: 52161c0d-3d51-45a3-ba41-36f955df0bea
 ---
-
 # ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront
 
 The ACSD-47076 patch fixes the issue where [!DNL Vimeo] videos cannot be played on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-47076. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
