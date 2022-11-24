@@ -364,6 +364,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-46869: Configurable products not updating using REST API at checkout](/help/support-tools/patches-available-in-qpt-tool/acsd-46869-configurable-products-not-updating-using-rest-api.md)
     * [ACSD-46618: Product list widget shows incorrect cached prices for logged-in customer](/help/support-tools/patches-available-in-qpt-tool/acsd-46618-product-list-widget-shows-incorrect-cached-prices-logged-in-customer.md)
     * [ACSD-46541: An admin user cannot create a credit memo if an order item is deleted](/help/support-tools/patches-available-in-qpt-tool/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.md)
+    * [ACSD-47232: coupon is not applied when Same as Billing Address is checked](/help/support-tools/patches-available-in-qpt-tool/acsd-47232-coupon-is-not-applied-when-same-as-billing-address-is-checked.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
