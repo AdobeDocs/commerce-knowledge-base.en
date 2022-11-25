@@ -35,7 +35,7 @@ Check by running the following commands in the CLI. Pro or Staging: `$ redis-cli
 
 a. YES – Proceed to [Step 4](#step4).
 
-b. NO – Adobe Commerce supports Redis versions 3.2 and 5.0. If you are running Adobe Commerce on cloud infrastructure 2.3.3 or higher, we recommend upgrading to Redis 5. For setup steps on Adobe Commerce on cloud infrastructure Pro plan architecture, Integration and Starter environments including the master branch, refer to [Adobe Commerce on cloud infrastructure > Set up Redis service](https://devdocs.magento.com/cloud/project/services-redis.html)</a> in our developer documentation. **You must [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) to change the service configuration on Pro architecture Production and Staging environments. Also, for Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.5+, extended Redis cache implementation is recommended. This type of Redis cache implementation provides enhancements that minimize the number of queries to Redis that are performed on each Adobe Commerce request. For steps, refer to [Extended Redis cache implementation Adobe Commerce 2.3.5+](https://support.magento.com/hc/en-us/articles/360049292532) in our support knowledge base. For all other Adobe Commerce users, refer to [Adobe Commerce Configuration Guide > Configure Redis](https://devdocs.magento.com/guides/v2.4/config-guide/redis/config-redis.html) in our developer documentation, for steps.
+b. NO – Adobe Commerce supports Redis versions 3.2 and 5.0. If you are running Adobe Commerce on cloud infrastructure 2.3.3 or higher, we recommend upgrading to Redis 5. For setup steps on Adobe Commerce on cloud infrastructure Pro plan architecture, Integration and Starter environments including the master branch, refer to [Adobe Commerce on cloud infrastructure > Set up Redis service](https://devdocs.magento.com/cloud/project/services-redis.html)</a> in our developer documentation. **You must [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to change the service configuration on Pro architecture Production and Staging environments. Also, for Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.5+, extended Redis cache implementation is recommended. This type of Redis cache implementation provides enhancements that minimize the number of queries to Redis that are performed on each Adobe Commerce request. For steps, refer to [Extended Redis cache implementation Adobe Commerce 2.3.5+](https://support.magento.com/hc/en-us/articles/360049292532) in our support knowledge base. For all other Adobe Commerce users, refer to [Adobe Commerce Configuration Guide > Configure Redis](https://devdocs.magento.com/guides/v2.4/config-guide/redis/config-redis.html) in our developer documentation, for steps.
 
 +++
 
@@ -65,7 +65,7 @@ b. NO – Configure L2 cache configuration by [Updating Redis Backend](https://d
 
 +++Is the site still working slowly, after enabling L2 cache?
 
-a. YES - Check the temp directory `/dev/shm` to see if you need to increase space. If you need more space, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+a. YES - Check the temp directory `/dev/shm` to see if you need to increase space. If you need more space, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 b. NO – Enabling L2 cache appears to have solved your Redis issues.
 
 +++

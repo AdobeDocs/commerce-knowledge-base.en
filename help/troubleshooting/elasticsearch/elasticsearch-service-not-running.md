@@ -58,7 +58,7 @@ Elasticsuite indices not being deleted.  See <a href="https://experienceleague.a
 <li>If the solutions in the above documentation do not solve the issue consider contacting your CSM to request additional storage.</li>
 </ul>
 </li>
-<li>If your disk has not run out of storage but you are still getting the error messages in the left column, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket</a>.</li>
+<li>If your disk has not run out of storage but you are still getting the error messages in the left column, <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">submit a support ticket</a>.</li>
 </ul>
 <ul>
 <li>See <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html?lang=en">ElasticSuite tracking indices causes problems with Elasticsearch</a> in our support knowledge base.
