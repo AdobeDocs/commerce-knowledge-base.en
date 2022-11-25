@@ -38,7 +38,7 @@ If multiple base currencies have ever been used you cannot use Advanced Reportin
 
 Are you using [Spilt Database Solution](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)?
 
-a. YES – Use the patch **MDVA-26831** in [Advanced Reporting 404 error on split database solution](https://support.magento.com/hc/en-us/articles/360044725072-Advanced-Reporting-404-error-on-split-database-solution) and clear cache. Wait for 24 hours for the job to run again and try again.  
+a. YES – Use the patch **MDVA-26831** in [Advanced Reporting 404 error on split database solution](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md) and clear cache. Wait for 24 hours for the job to run again and try again.  
 b. NO – Proceed to [Step 4](#step-4).
 
 +++
@@ -86,7 +86,7 @@ b. NO – If the query does not return anything, take the following steps: 1. [D
 
 Check that job `analytics_collect_data` was executed by running this query: `SELECT * FROM cron_schedule WHERE job_code LIKE 'analytics_collect_data' \G`
 
-a. YES – If there are records and the **status** column says _missed_, use the patch in this KB article [Update Advanced Reporting to run on its own cron group](https://support.magento.com/hc/en-us/articles/360037681092).  
+a. YES – If there are records and the **status** column says _missed_, use the patch in this KB article [Update Advanced Reporting to run on its own cron group](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md).  
 b. YES – If there are records and the **status** column says _success_, proceed to [Step 9](#step-9).  
 c. YES – If there are records and the **status** column says _error_, proceed to [Step 8.](#step-8)  
 d. NO – If there are no records, proceed to [Step 8](#step-8).
@@ -122,7 +122,7 @@ b. NO – Proceed to [Step 10](#step-10).
 
 Example: `report.ERROR: Cron Job analytics_collect_data has an error: substr_count() expects parameter 1 to be string, null given. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384} [] []`
 
-a. YES – Use the MDVA-19391 patch in [Common Advanced Reporting cron job errors on Adobe Commerce](https://support.magento.com/hc/en-us/articles/360044350992), wait 24 hours for the job to run again and try again.  
+a. YES – Use the MDVA-19391 patch in [Common Advanced Reporting cron job errors on Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md), wait 24 hours for the job to run again and try again.  
 b. NO – [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
 
 +++

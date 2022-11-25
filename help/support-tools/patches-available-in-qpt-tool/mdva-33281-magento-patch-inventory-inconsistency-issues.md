@@ -31,7 +31,7 @@ The patch fixes inventory inconsistency issues such as:
 
 >[!NOTE]
 >
->There is also a patch MDVA-30112 that solves the issue where there is an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in our developer documentation, in the `inventory_reservation` table. For the solution, refer to [MDVA-30112 Magento patch: large number reservation inconsistencies](https://support.magento.com/hc/en-us/articles/360051515272) in our support knowledge base.
+>There is also a patch MDVA-30112 that solves the issue where there is an unexpectedly large number of [reservation inconsistencies](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli-reference.html#what-causes-reservation-inconsistencies) in our developer documentation, in the `inventory_reservation` table. For the solution, refer to [MDVA-30112 Magento patch: large number reservation inconsistencies](/help/support-tools/patches-available-in-qpt-tool/mdva-30112-magento-patch-large-number-reservation-inconsistencies.md) in our support knowledge base.
 
 ## PHP Fatal Error
 

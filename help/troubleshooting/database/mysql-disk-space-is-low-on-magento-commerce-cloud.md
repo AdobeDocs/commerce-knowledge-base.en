@@ -120,7 +120,7 @@ Check for large `ibtmp1` file on `/data/mysql` of each node: this file is the ta
 
 Check if there are large tables and consider if any of them can be flushed. Do this on the primary (source) node.
 
-For example, tables with reports can usually be flushed. For details on how to find large tables, see the [Find Large MySQL tables](https://support.magento.com/hc/en-us/articles/360038957591) article.
+For example, tables with reports can usually be flushed. For details on how to find large tables, see the [Find Large MySQL tables](/help/how-to/general/find-large-mysql-tables.md) article.
 
 If there are no huge report tables, consider flushing `_index` tables, just to return the Adobe Commerce application back on track. `index_price` tables would be the best candidates. For example, `catalog_category_product_index_storeX` tables, where X can have values from "1" to the maximum store count. Please mind that you would need to reindex to restore data in these tables, and in the case of big catalogs, this reindex might take a lot of time.
 
@@ -134,9 +134,9 @@ If you don't have access to MySQL server settings, request support to check it.
 
 ### Allocate/buy more space
 
-Allocate more disk space for MySQL if you have some unused. See the [Check disk space limit](https://support.magento.com/hc/en-us/articles/360038374052) article to learn how to check if you have free disk space.
+Allocate more disk space for MySQL if you have some unused. See the [Check disk space limit](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md) article to learn how to check if you have free disk space.
 
-* For the Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused. For details, see the [Allocate more space for MySQL](https://support.magento.com/hc/en-us/articles/360038761511).
+* For the Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused. For details, see the [Allocate more space for MySQL](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md).
 * For Pro plan Staging and Production environments, [contact support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to allocate more disk space if you have some unused.
 
 If you have reached your space limit and still experience low space issues, consider buying more disk space, contact your Customer Success Manager (CSM) for details.

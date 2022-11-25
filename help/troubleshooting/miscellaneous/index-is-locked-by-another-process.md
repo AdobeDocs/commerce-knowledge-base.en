@@ -65,7 +65,7 @@ bin/magento indexer:reset catalogsearch_fulltext;
 
 In our support knowledge base:
 
-* [Cron tasks lock tasks from other groups (Adobe Commerce on cloud infrastructure)](https://support.magento.com/hc/en-us/articles/360029219812)
+* [Cron tasks lock tasks from other groups (Adobe Commerce on cloud infrastructure)](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
 
 In our user guide:
 

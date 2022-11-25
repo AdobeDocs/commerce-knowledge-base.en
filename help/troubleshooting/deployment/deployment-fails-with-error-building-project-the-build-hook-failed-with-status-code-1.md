@@ -39,7 +39,7 @@ Looking closer at the first problem-specific part will help you to identify the 
 
 ## Solution
 
-* Check to ensure that there is enough storage. For information on how to check available space, see the [Check disk space on cloud environment using CLI](https://support.magento.com/hc/en-us/articles/360005932713) article. You can consider cleaning the log directories and/or increasing disk space.
+* Check to ensure that there is enough storage. For information on how to check available space, see the [Check disk space on cloud environment using CLI](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md) article. You can consider cleaning the log directories and/or increasing disk space.
 * Ensure ECE-Tools are configured correctly.
 * Check if it is the patch that is causing the problem. Resolve the conflict or contact [Adobe Commerce Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). See below for details.
 * Check if it is the custom extension that is causing the problem. Resolve the conflict or contact the extension developers for the solution.
@@ -55,7 +55,7 @@ Directories to be considered for clean up:
 * `var/debug/`
 * `var`
 
-For details on how to increase disk space if you are on the Adobe Commerce on cloud infrastructure Starter plan architecture, see the [Increase disk space for Integration environment on cloud](https://support.magento.com/hc/en-us/articles/360005189554-Increase-disk-space-for-Integration-environment-on-Cloud). The same instructions can be used for increasing space of Adobe Commerce on cloud infrastructure Pro plan architecture Integration environment. For Pro Production/Staging, you need to file a ticket to [Adobe Commerce Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), and request increased disk space. But it is monitored by Platform. But typically, you will not have to deal with this on the Staging/Production of Pro architecture as Adobe Commerce monitors these parameters for you and alerts you and/or takes actions according to the contract.
+For details on how to increase disk space if you are on the Adobe Commerce on cloud infrastructure Starter plan architecture, see the [Increase disk space for Integration environment on cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md). The same instructions can be used for increasing space of Adobe Commerce on cloud infrastructure Pro plan architecture Integration environment. For Pro Production/Staging, you need to file a ticket to [Adobe Commerce Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), and request increased disk space. But it is monitored by Platform. But typically, you will not have to deal with this on the Staging/Production of Pro architecture as Adobe Commerce monitors these parameters for you and alerts you and/or takes actions according to the contract.
 
 ### Ensure ECE-tools are configured correctly
 

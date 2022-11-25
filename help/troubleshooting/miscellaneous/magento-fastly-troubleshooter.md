@@ -22,7 +22,7 @@ b. NO – Proceed to [Step 2](#step-2).
 
 Run your project URL through the [Backend Tester - Fastly](https://magento-tester.global.ssl.fastly.net/magento-tester/). It shows the version of VCL configuration file, if the page is cacheable, the version of Fastly module and other useful troubleshooting information. Do you have any errors?
 
-a. YES – You have the message _Plugin VCL version is outdated! Please re-Upload._ For the solution to this error, refer to [Fastly Error: Plugin VCL version is outdated! Please re-Upload](https://support.magento.com/hc/en-us/articles/360036318311).  
+a. YES – You have the message _Plugin VCL version is outdated! Please re-Upload._ For the solution to this error, refer to [Fastly Error: Plugin VCL version is outdated! Please re-Upload](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md).  
 b. NO – [Step 3](#step-3).
 
 +++
@@ -31,7 +31,7 @@ b. NO – [Step 3](#step-3).
 
 +++**Image optimization error?**
 
-a. YES – [Error when enabling image optimization](https://support.magento.com/hc/en-us/articles/360036557771).  
+a. YES – [Error when enabling image optimization](/help/troubleshooting/miscellaneous/error-enabling-image-optimization-in-magento-commerce.md).  
 b. NO – Check DNS by running in the CLI/terminal: `dig [your website.com] + short`. Proceed to [Step 4](#step-4).
 
 +++
