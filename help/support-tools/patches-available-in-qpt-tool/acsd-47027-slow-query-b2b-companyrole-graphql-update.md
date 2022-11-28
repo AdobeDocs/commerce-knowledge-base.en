@@ -31,7 +31,7 @@ Install the B2B module.
 
 1. In the Adobe Commerce Admin go to **[!UICONTROL Stores]** _Settings_ > **[!UICONTROL Configurations]** > **[!UICONTROL B2B Features]** and set **[!UICONTROL Enable Company]** to _Yes_.
 1. Go to the frontend and create a company.
-1. After you log in as company user, go to the store account > **[!UICONTROL Roles and Permissions]** and add a new role.
+1. After you log in as a company user, go to **[!UICONTROL My Account]** > **[!UICONTROL Roles and Permissions]** and add a new role.
 1. Enable dev query log using `bin/magento dev:que:enab`.
 1. Now send the below [!DNL Graphql] request (id is the [!DNL base64] encoded role id):
 
