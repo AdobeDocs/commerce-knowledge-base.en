@@ -28,7 +28,7 @@ After a product import, the default source is automatically assigned to the prod
 
 1. Create a new source.
 1. Create a new stock using the new source.
-1. On the product edit page in [!UICONTROL Admin], assign only the custom stock, set some quantity, and set stock status to **[!UICONTROL In Stock]**.
+1. On the product edit page in Adobe Commerce Admin, assign only the custom stock, set some quantity, and set stock status to **[!UICONTROL In Stock]**.
 1. Import the product via **[!UICONTROL Admin]** > **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Import]**.
 
 <u>Expected results</u>:
