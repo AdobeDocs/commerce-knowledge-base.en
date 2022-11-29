@@ -24,7 +24,7 @@ Adobe Commerce (all deployment methods) 2.4.x
 1. Create a category, add products. (Example: Category = _Jeans_, Product1 = _Blue Jeans_, Product2 = _Black Jeans_)
 1. Make all products in the category out of stock.
 1. Set **[!UICONTROL Display Out-of-Stock Products]** to *No*.
-1. On the storefront, enter "Jeans" in the search field.
+1. On the storefront, enter *Jeans* in the search field.
 1. Click **[!UICONTROL View All]** in the pop-up.
 
 <u>Expected result</u>:
