@@ -1,9 +1,9 @@
 ---
-title: Live Search displays out-of-stock products regardless of stock status settings in admin
+title: [!DNL Live Search] displays out-of-stock products regardless of stock status settings in admin
 description: This article provides information on the known issue where the Product Listing Page (PLP) shows the *We can’t find products matching the selection* error while the search popover returns some items.
 exl-id: 2a351b83-407c-444a-a761-4932b5b88843
 ---
-# Live Search displays out-of-stock products regardless of stock status settings in admin
+# [!DNL Live Search] displays out-of-stock products regardless of stock status settings in admin
 
 >[!IMPORTANT]
 >
@@ -17,7 +17,7 @@ Adobe Commerce (all deployment methods) 2.4.x
 
 ## Issue
 
-[!DNL Live Search] displays search results regardless of the stock status settings in the admin. Even when the **[!UICONTROL Display Out-of-Stock Products]** is set to *No*, the products are displayed. It results in the PLP error *We can’t find products matching the selection*.
+[!DNL Live Search] displays search results regardless of the stock status settings in the Adobe Commerce Admin. Even when the **[!UICONTROL Display Out-of-Stock Products]** is set to *No*, the products are displayed. It results in the PLP error *We can’t find products matching the selection*.
 
 <u>Steps to reproduce</u>:
 
