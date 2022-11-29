@@ -2,7 +2,7 @@
 title: 'ACSD-45071: default source is added to product during import'
 description: The ACSD-45071 patch solves the issue where the default source is added to the product during import. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-45071. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 ---
-# ACSD-45071: Default source is added to the product during import
+# ACSD-45071: default source is added to the product during import
 
 The ACSD-45071 patch solves the issue where the default source is added to the product during import. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-45071. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
