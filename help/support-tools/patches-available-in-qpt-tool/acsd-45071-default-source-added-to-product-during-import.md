@@ -37,7 +37,7 @@ The default source is not automatically assigned to the product after importing.
 
 <u>Actual results</u>:
 
-The default source is assigned to the product after importing with out-of-stock status and 0 quantity.
+The default source is assigned to the product after importing with out-of-stock status and zero quantity.
 
 ## Apply the patch
 
