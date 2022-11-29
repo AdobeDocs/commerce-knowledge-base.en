@@ -5,7 +5,9 @@ exl-id: 2a351b83-407c-444a-a761-4932b5b88843
 ---
 # Live Search displays out-of-stock products regardless of stock status settings in admin
 
-This issue was fixed in [2.0.4](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html?lang=en). To fix this issue upgrade to that version of Live Search or later. For steps, refer to [Updating Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=en#update) in our user guide.
+>[!IMPORTANT]
+>
+>This issue was fixed in [2.0.4](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html?lang=en). To fix this issue upgrade to that version of Live Search or later. For steps, refer to [Updating Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=en#update) in our user guide.
 
 This article provides information on the known issue where the Product Listing Page (PLP) shows the *We can’t find products matching the selection* error while the search popover returns some items.
 
