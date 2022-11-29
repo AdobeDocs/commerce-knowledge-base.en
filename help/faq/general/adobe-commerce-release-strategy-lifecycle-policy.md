@@ -107,7 +107,7 @@ We recognize that you recently upgraded to or are in the process of upgrading to
 
 Adobe offers a paid extended support option for Adobe Commerce versions based on PHP 7.4 (customers on Adobe Commerce 2.3.7 and or 2.4.0-2.4.3) that includes both quality and security fixes for the core application and PHP 7.4 for up to one year. This gives merchants more time to be supported as they plan and execute their upgrade to 2.4.4 or higher. 
 
-Extended support for 2.3.7 starts after 2.3 reaches End Of Support (EOS) on September 8, 2022, and can be received until September 8, 2023. Extended support for 2.4.0-2.4.3 starts after EOS on November 28, 2022, and can be received until November 28, 2023. 
+Extended support for 2.3.7 starts after 2.3 reaches End Of Support (EOS) on September 9, 2022, and can be received until September 8, 2023. Extended support for 2.4.0-2.4.3 starts after EOS on November 29, 2022, and can be received until November 28, 2023. 
 
 While extended support does include support for PHP 7.4, it is important to note that merchants may need to take additional measures to stay PCI-compliant. Adobe cannot provide support for all third-party technologies our software uses that may reach the end of life while you are on extended support. Adobe recommends that merchants work with a [PCI assessor](https://listings.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors) to ensure compliance.
 
