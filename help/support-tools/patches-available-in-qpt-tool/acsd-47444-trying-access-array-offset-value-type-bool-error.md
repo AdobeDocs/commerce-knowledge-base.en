@@ -29,7 +29,7 @@ PHP 7.4.
 
 <u>Steps to reproduce</u>:
 
-1. Create a new product - with the name _test_.
+1. Create a new product - with the name "test".
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL CATALOG]** > **[!UICONTROL Catalog]**> **[!UICONTROL Search Engine Optimization]** > set **[!UICONTROL Generate "category/product" URL Rewrites]** = _No_.
 1. Go to the storefront and visit the URL like ../abc/test.html ("abc" - should not exist).
 
