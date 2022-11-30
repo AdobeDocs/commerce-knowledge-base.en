@@ -13,7 +13,7 @@ The ACSD-47027 patch solves the issue where the slow query B2B [!UICONTROL Compa
 * Adobe Commerce (all deployment methods) 2.4.2-p1
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce (all deployment methods) 2.4.2-2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.5-p1
 
 >[!NOTE]
 >
