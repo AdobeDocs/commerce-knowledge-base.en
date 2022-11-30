@@ -1,9 +1,9 @@
 ---
-title: "ACSD-47497: missing ACL for Store / Configuration / Services Oauth" 
+title: "ACSD-47497: missing ACL for Store / Configuration / Services [!UICONTROL OAuth]" 
 description: Apply the ACSD-47497 patch to fix the Adobe Commerce issue when permissions are set for a particular role, you cannot define access to the configuration section.
 ---
 
-# ACSD-47497: missing ACL for Store / Configuration / Services Oauth
+# ACSD-47497: missing ACL for Store / Configuration / Services [!UICONTROL OAuth]
 
 The ACSD-47497 patch solves the issue where the **[!UICONTROL Services]** tab is not visible in **[!UICONTROL Configuration]** in the Adobe Commerce Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47497. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
 
