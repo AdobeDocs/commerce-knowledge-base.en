@@ -40,6 +40,7 @@ PHP 7.4.
 <u>Actual results</u>:
 
 500 error:
+
 _Notice: Trying to access [!DNL array] offset on value of type bool in /app/code/Magento/CatalogUrlRewrite/Model/Storage/DynamicStorage.php on line 182_
 
 ## Apply the patch
