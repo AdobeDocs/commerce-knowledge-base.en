@@ -21,7 +21,7 @@ The ACSD-47027 patch solves the issue where the slow query B2B [!UICONTROL Compa
 
 ## Issue
 
-The slow query B2B [!UICONTROL CompanyRole] [!DNL Graphql] update does not work as expected.
+The slow query B2B [!UICONTROL CompanyRole] [!DNL GraphQL] update does not work as expected.
 
 <u>Prerequisites</u>:
 
