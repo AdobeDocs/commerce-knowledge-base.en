@@ -1,11 +1,11 @@
 ---
-title: "ACSD-47027: slow query B2B CompanyRole Graphql Update"
-description: Apply the ACSD-47027 patch to fix the Adobe Commerce issue where there is a slow query B2B CompanyRole Graphql Update.
+title: "ACSD-47027: slow query B2B [!UICONTROL CompanyRole] [!DNL Graphql] Update"
+description: Apply the ACSD-47027 patch to fix the Adobe Commerce issue where there is a slow query B2B [!UICONTROL CompanyRole] [!DNL Graphql] Update.
 ---
 
-# ACSD-47027 Adobe Commerce patch: slow query B2B CompanyRole Graphql Update
+# ACSD-47027 Adobe Commerce patch: slow query B2B [!UICONTROL CompanyRole] [!DNL Graphql] Update
 
-The ACSD-47027 patch solves the issue where the slow query B2B CompanyRole [!DNL Graphql] update does not work as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47027. Please note that the issue was is scheduled to be fixed in Adobe Commerce 2.4.6. 
+The ACSD-47027 patch solves the issue where the slow query B2B [!UICONTROL CompanyRole] [!DNL Graphql] update does not work as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47027. Please note that the issue was is scheduled to be fixed in Adobe Commerce 2.4.6. 
 
 ## Affected products and versions
 
@@ -21,7 +21,7 @@ The ACSD-47027 patch solves the issue where the slow query B2B CompanyRole [!DNL
 
 ## Issue
 
-The slow query B2B CompanyRole [!DNL Graphql] update does not work as expected.
+The slow query B2B [!UICONTROL CompanyRole] [!DNL Graphql] update does not work as expected.
 
 <u>Prerequisites</u>:
 
@@ -33,7 +33,7 @@ Install the B2B module.
 1. Go to the frontend and create a company.
 1. After you log in as a company user, go to **[!UICONTROL My Account]** > **[!UICONTROL Roles and Permissions]** and add a new role.
 1. Enable dev query log using `bin/magento dev:que:enab`.
-1. Now send the below [!DNL Graphql] request (id is the [!DNL base64] encoded role id):
+1. Now send the below [!DNL Graphql] request (id is the [!UICONTROL base64] encoded role id):
 
    ```
    mutation {
@@ -80,11 +80,11 @@ Install the B2B module.
 
 <u>Expected results</u>:
 
-The `app/code/Magento/CompanyGraphQl/Model/Company/Role/ValidateRole.php::validateResources` needs to be optimized to avoid loading all the data available in **[!UICONTROL company_permissions]** DB table.
+The `app/code/Magento/CompanyGraphQl/Model/Company/Role/ValidateRole.php::validateResources` needs to be optimized to avoid loading all the data available in the **[!UICONTROL company_permissions]** DB table.
 
 <u>Actual results</u>:
 
-Adobe Commerce executes a query without any filter. When there are a large number of records, it takes lot of time for Adobe Commerce to prepare the data collection.
+Adobe Commerce executes a query without any filter. When there are a large number of records, it takes a lot of time for Adobe Commerce to prepare the data collection.
 
 ## Apply the patch
 
