@@ -1,11 +1,11 @@
 ---
-title: "ACSD-46519: product count in `categoryList` graphql query returns 0 for anchor categories"
-description: Apply the ACSD-CSD-46519 patch to fix the Adobe Commerce issue where when we use `categoryList` Graphql method to get child categories it shows the `product_count` as _0_ for parent categories.
+title: "ACSD-46519: product count in [!UICONTROL categoryList] [!DNL Graphql] query returns 0 for anchor categories"
+description: Apply the ACSD-CSD-46519 patch to fix the Adobe Commerce issue where when you use the [!UICONTROL categoryList] [!DNL Graphql] method to get child categories it shows the `product_count` as 0 for parent categories.
 ---
 
-# ACSD-46519: [!UICONTROL product_count] in `categoryList` [!DNL graphql] query returns _0_ for anchor categories
+# ACSD-46519: [!UICONTROL product_count] in [!UICONTROL categoryList] [!DNL graphql] query returns 0 for anchor categories
 
-The ACSD-46519 patch solves the issue where the [!UICONTROL product_count] in `categoryList` [!DNL Graphql] query returns _0_ for anchor categories. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-46519. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
+The ACSD-46519 patch solves the issue where the [!UICONTROL product_count] in [!UICONTROL categoryList] [!DNL Graphql] query returns 0 for anchor categories. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-46519. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
 
 ## Affected products and versions
 
@@ -21,7 +21,7 @@ The ACSD-46519 patch solves the issue where the [!UICONTROL product_count] in `c
 
 ## Issue
 
-When the `categoryList` [!DNL Graphql] method is used to get child categories it shows the [!UICONTROL product_count] as _0_ for parent categories.
+When the [!UICONTROL categoryList] [!DNL Graphql] method is used to get child categories it shows the [!UICONTROL product_count] as 0 for parent categories.
 
 <u>Steps to reproduce</u>:
 
@@ -64,7 +64,7 @@ If the parent category is an anchored category, then the products count should s
 
 <u>Actual results</u>:
 
-If the parent category is an anchored category, then the products is shown as _0_ for category level 2 and downwards.
+If the parent category is an anchored category, then the products is shown as 0 for category level 2 and downwards.
 
 ```
 {
