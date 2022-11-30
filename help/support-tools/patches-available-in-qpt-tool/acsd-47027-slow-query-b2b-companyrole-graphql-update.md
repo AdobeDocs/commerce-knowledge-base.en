@@ -29,7 +29,7 @@ Install the B2B module.
 
 <u>Steps to reproduce</u>:
 
-1. In the Adobe Commerce Admin go to **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configurations]** > **[!UICONTROL B2B Features]** and set **[!UICONTROL Enable Company]** to _Yes_.
+1. In the Adobe Commerce Admin, go to **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configurations]** > **[!UICONTROL B2B Features]** and set **[!UICONTROL Enable Company]** to _Yes_.
 1. Go to the frontend and create a company.
 1. After you log in as a company user, go to **[!UICONTROL My Account]** > **[!UICONTROL Roles and Permissions]** and add a new role.
 1. Enable dev query log using `bin/magento dev:que:enab`.
