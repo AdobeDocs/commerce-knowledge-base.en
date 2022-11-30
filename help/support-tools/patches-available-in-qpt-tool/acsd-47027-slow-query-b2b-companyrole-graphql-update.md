@@ -71,8 +71,8 @@ Install the B2B module.
            }
          }
        }
-      }
      }
+    }
    ```
 
 1. Check the query log.
