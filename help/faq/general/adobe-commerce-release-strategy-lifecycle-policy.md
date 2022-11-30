@@ -1,6 +1,6 @@
 ---
 title: FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
-description: We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule) for timing details.
+description: We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our [release calendar](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) for timing details.
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 ---
 # FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
@@ -9,7 +9,7 @@ exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 
 ### How are Adobe Commerce releases changing?
 
-We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule) for timing details.
+We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) for timing details.
 
 We are also reducing complexity of upgrades and accelerating innovation by narrowing the focus of full patch releases to include only security, compliance, performance, and high priority bugs. New features will continue to be released as independent services, allowing Merchants to adopt features and innovate faster; Live Search, Product Recommendations, and Amazon Sales Channel are all examples of existing independent services that enabled us to reduce complexity in the core Commerce application. Community contributions and lower priority issues will be released through the [Quality Patches Tool](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md), providing faster time to market and letting merchants choose the updates that are important to them.
 
@@ -35,7 +35,7 @@ Quality patches are a way to distribute fixes for individual quality issues outs
 
 ### What is the release schedule for 2022?
 
-Release dates can be found in our [2022 release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule). There will be two patch releases, several security patch releases for versions still under support, and six feature releases throughout the year.
+Release dates can be found in our [2022 release calendar](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html). There will be two patch releases, several security patch releases for versions still under support, and six feature releases throughout the year.
 
 ### Will this new release strategy be applicable to both Adobe Commerce and Magento Open Source Merchants?
 
@@ -57,9 +57,9 @@ Most extensions will need to be updated to work with 2.4.4 or higher, given that
 
 ### Which resources are available to help with planning, budgeting, and upgrades in general?
 
-Merchants can use a set of resources to help plan, budget, and complete upgrades like the comprehensive [2.4 Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf?lang=pt-BR) and the [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html). The tool has now over 400 downloads, more than 2,000 executions, and +80 active users on the community slack channel (#upgrade-compatibility-tool).
+Merchants can use a set of resources to help plan, budget, and complete upgrades like the comprehensive [2.4 Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf?lang=pt-BR) and the [Upgrade Compatibility Tool](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html). The tool has now over 400 downloads, more than 2,000 executions, and +80 active users on the community slack channel (#upgrade-compatibility-tool).
 
-A [2.4 Technical Upgrade Workshop](https://register.gotowebinar.com/register/6951278956217776911) will be held on January 26, 8am PST for customers and a recording will be available on demand under the [Tutorials section of Experience League](https://experienceleague.adobe.com/docs/commerce.html?lang=en#tutorials) shortly after the event.
+A [2.4 Technical Upgrade Workshop](https://register.gotowebinar.com/register/6951278956217776911) will be held on January 26, 8am PST for customers and a recording will be available on demand under the [Tutorials section of Experience League](https://experienceleague.adobe.com/docs/commerce.html#tutorials) shortly after the event.
 
 ### As a Managed Services customer, how can Customer Engineering help me in the upgrade to 2.4.4?
 
@@ -89,7 +89,7 @@ Managed Services customers can work with our Customer Engineering team for assis
 
 We understand that it takes time to upgrade, and we are here to support you on your path to 2.4.4. We are shifting the 2.3 line End of Support date from April 28, 2022, to September 8, 2022, to provide you with additional time to prepare for and execute your upgrade to 2.4.4.
 
-We still encourage you to upgrade to 2.4.4 at your earliest convenience to help ensure PCI compliance and to gain access to new features that enable business growth. Being on a version with third-party technologies that are no longer supported (i.e., versions 2.3.6 and lower are based on PHP versions that have reached end of life) puts you at risk of security vulnerabilities. Review our [lifecycle policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) for more information on our EOS schedule and terms.
+We still encourage you to upgrade to 2.4.4 at your earliest convenience to help ensure PCI compliance and to gain access to new features that enable business growth. Being on a version with third-party technologies that are no longer supported (i.e., versions 2.3.6 and lower are based on PHP versions that have reached end of life) puts you at risk of security vulnerabilities. Review our [lifecycle policy](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) for more information on our EOS schedule and terms.
 
 If making the move to 2.4.4 is not feasible within this timeframe, we recommend that you upgrade first to 2.3.7 by September 8, which will be a lower-level effort. We will be offering a paid extended support option for 2.3.7 for an additional year (Sept 2022 &ndash;  Sept 2023) so that you can prepare for your next upgrade to 2.4.4 or higher. More details will be announced in March.
 
@@ -123,7 +123,7 @@ Payment Card Industry (PCI) compliance is a set of industry standards that all b
 
 While a customer is under extended support, our Customer Engineering team will continue to provide the same quality and security fixes as usual, without any scope degradations. However, customers will need to take additional measures to remain PCI compliant due to underlying platform technologies reaching end of life.
 
-Please refer to [Adobe Commerce System Requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) for a full list of tested and supported third-party technologies.
+Please refer to [Adobe Commerce System Requirements](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) for a full list of tested and supported third-party technologies.
 
 ### What actions can I take to address PCI failure caused by outdated software?
 
