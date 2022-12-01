@@ -34,9 +34,9 @@ This message is displayed if Composer cannot determine which components to insta
 Two main scenarios can lead to conflicting component dependencies. Click on your scenario to get troubleshooting steps.
 
 * [Upgrading Adobe Commerce](https://support.magento.com/hc/en-us/articles/360044010932#upgrading_magento)
-* [Incompatibility with third-party modules:](https://support.magento.com/hc/en-us/articles/360044010932#incompatibility_third_party_modules)
-    * [Adobe Commerce (all deployment types)](https://support.magento.com/hc/en-us/articles/360044010932#magento_commerce_magento_commerce_cloud)
-    * [Magento Open Source](https://support.magento.com/hc/en-us/articles/360044010932#opensource)
+* [Incompatibility with third-party modules:](#incompatibility_third_party_modules)
+    * [Adobe Commerce (all deployment types)](#magento_commerce_magento_commerce_cloud)
+    * [Magento Open Source](#opensource)
 
 ## Upgrading Adobe Commerce {#upgrading_magento}
 
@@ -51,7 +51,7 @@ Conflicting component dependencies can also be caused by third-party modules tha
 
 1. In the preceding [example](https://support.magento.com/hc/en-us/articles/360044010932#example), the installed package magento/sample-data version 0.74.0-beta15 cannot be upgraded to 1.0.0-beta. However, 0.74.0-beta15 can be upgraded to 0.74.0-beta16 (or others). Edit `composer.json` to make any of these changes. Typically, the versions your project is requesting will be defined in the `require` or `require-dev` property of the object in that JSON file. Depending on the options of package versions provided, they might specify a specific version or a constraint. For general guidance on how to use composer, if you are on our cloud infrastructure, you can refer to [Cloud for Adobe Commerce > Technologies and Requirements > Composer](https://devdocs.magento.com/cloud/reference/cloud-composer.html#files) in our developer documentation. If you are on Adobe Commerce on-premises, refer to [Adobe Commerce > Installation Guide > Install Adobe Commerce Using the Composer](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html) .
 1. Now try the readiness check. Review [Adobe Commerce Upgrade Overview > Run the Module Manager > Step 1 Readiness Check](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-readiness.html) in our developer documentation.
-1. If the readiness check fails with another Component dependency check failure message, click on the following links depending on whether you are using [Adobe Commerce](https://support.magento.com/hc/en-us/articles/360044010932#magento_commerce_magento_commerce_cloud) or [Magento Open Source](https://support.magento.com/hc/en-us/articles/360044010932#opensource) to get further troubleshooting steps.
+1. If the readiness check fails with another Component dependency check failure message, click on the following links depending on whether you are using [Adobe Commerce](#magento_commerce_magento_commerce_cloud) or [Magento Open Source](#opensource) to get further troubleshooting steps.
 
 ## Adobe Commerce {#magento_commerce_magento_commerce_cloud}
 
