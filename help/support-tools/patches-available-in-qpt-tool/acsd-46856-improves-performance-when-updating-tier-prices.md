@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-47666: search in [!UICONTROL User Roles] does not work'
-description: Apply the ACSD-47666 patch to fix the Adobe Commerce issue where the filter function on [!UICONTROL User Roles] does not work as expected.
-exl-id: c1b6d3ab-e132-4b09-8692-2b82f9ca6864
+title: 'ACSD-46856: Improves performance when updating tier prices'
+description: Apply the ACSD-46856 patch to improve performance when updating tier prices via System &gt; Configuration &gt; Import &gt; Advanced Pricing.
+exl-id: c08560ef-94fa-4be4-9c59-d4b1b5e4186f
 ---
-# ACSD-47666: search in **[!UICONTROL User Roles]** does not work
+# ACSD-46856: Updating of tier prices via System > Configuration > Import > Advanced Pricing is slow
 
-The ACSD-47666 patch solves the issue where the search in **[!UICONTROL User Roles]** is not working. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47666. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-46856 patch improves performance when updating tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-46856. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.3-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5
 
 >[!NOTE]
 >
@@ -23,30 +23,26 @@ The ACSD-47666 patch solves the issue where the search in **[!UICONTROL User Rol
 
 ## Issue
 
-The filter function on **[!UICONTROL User Roles]** does not work as expected.
+Updating of tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]** is slow.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to the Adobe Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]**.
-1. Open any existing role from the list.
-1. Open the **[!UICONTROL Role Users]** tab.
-1. Type any query in a column.
-1. Press enter.
+* Import a large number of products (Example: 10k+ or 200k+) via **System** > **Configuration** > **Import** > **Advanced Pricing**.
 
 <u>Expected results</u>:
 
-The **[!UICONTROL User Roles]** filter function should filter results based on the query.
+With the patch, the processing time is about 1:00 minute for 200k+ products.
 
 <u>Actual results</u>:
 
-Infinite loading with console error _(index):9 Uncaught TypeError: Cannot read properties of null (reading 'down')_.
+Without the patch, the processing time is about 10:00 minutes for 10k+ products.
 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 

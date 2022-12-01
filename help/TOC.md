@@ -367,8 +367,11 @@ breadcrumb-title: Commerce KB
     * [ACSD-46618: Product list widget shows incorrect cached prices for logged-in customer](/help/support-tools/patches-available-in-qpt-tool/acsd-46618-product-list-widget-shows-incorrect-cached-prices-logged-in-customer.md)
     * [ACSD-46541: An admin user cannot create a credit memo if an order item is deleted](/help/support-tools/patches-available-in-qpt-tool/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.md)
     * [ACSD-46581: Estimated tax total is not updated after selecting a country in the shopping cart](/help/support-tools/patches-available-in-qpt-tool/acsd-46581-estimated-tax-total-is-not-updated-after-selecting-a-country-in-the-shopping-cart.md)
+    * [ACSD-46856: Improves performance when updating tier prices](/help/support-tools/patches-available-in-qpt-tool/acsd-46856-improves-performance-when-updating-tier-prices.md)
     * [ACSD-46809: The user gets an error when assigning a large number of product sources](/help/support-tools/patches-available-in-qpt-tool/acsd-46809-the-user-gets-an-error-when-assigning-a-large-number-of-product-sources.md)
     * [ACSD-47666: search in User Roles does not work](/help/support-tools/patches-available-in-qpt-tool/acsd-47666-search-in-user-roles-not-working.md)
+    * [ACSD-45071: default source added to product during import](/help/support-tools/patches-available-in-qpt-tool/acsd-45071-default-source-added-to-product-during-import.md)
+    * [ACSD-47076: Vimeo videos cannot be played on the storefront](/help/support-tools/patches-available-in-qpt-tool/acsd-47076-venmo-videos-cannot-be-played-on-the-storefront.md)
     * [ACSD-47027: slow query in B2B [!UICONTROL CompanyRole] [!DNL GraphQL update]](/help/support-tools/patches-available-in-qpt-tool/acsd-47027-slow-query-b2b-companyrole-graphql-update.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)

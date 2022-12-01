@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-47666: search in [!UICONTROL User Roles] does not work'
-description: Apply the ACSD-47666 patch to fix the Adobe Commerce issue where the filter function on [!UICONTROL User Roles] does not work as expected.
-exl-id: c1b6d3ab-e132-4b09-8692-2b82f9ca6864
+title: 'ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront'
+description: Apply the ACSD-47076 patch to fix the Adobe Commerce issue where [!DNL Vimeo] videos cannot be played on the storefront.
+exl-id: 52161c0d-3d51-45a3-ba41-36f955df0bea
 ---
-# ACSD-47666: search in **[!UICONTROL User Roles]** does not work
+# ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront
 
-The ACSD-47666 patch solves the issue where the search in **[!UICONTROL User Roles]** is not working. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47666. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47076 patch fixes the issue where [!DNL Vimeo] videos cannot be played on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-47076. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.3-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.1 - 2.4.3-p3
 
 >[!NOTE]
 >
@@ -23,30 +23,27 @@ The ACSD-47666 patch solves the issue where the search in **[!UICONTROL User Rol
 
 ## Issue
 
-The filter function on **[!UICONTROL User Roles]** does not work as expected.
+[!DNL Vimeo] videos cannot be played on the storefront.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to the Adobe Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]**.
-1. Open any existing role from the list.
-1. Open the **[!UICONTROL Role Users]** tab.
-1. Type any query in a column.
-1. Press enter.
+1. Add a [!DNL Vimeo] video to a product in the Commerce [!UICONTROL Admin] > **[!UICONTROL Catalog]** > **[!UICONTROL Products]** > product edit page > **[!UICONTROL Images and Videos]**.
+1. Open the product on the storefront and play the video.
 
 <u>Expected results</u>:
 
-The **[!UICONTROL User Roles]** filter function should filter results based on the query.
+The [!DNL Vimeo] video can be played.
 
 <u>Actual results</u>:
 
-Infinite loading with console error _(index):9 Uncaught TypeError: Cannot read properties of null (reading 'down')_.
+The [!DNL Vimeo] video cannot be played on the storefront.
 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation. 
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
 
 ## Related reading
 
