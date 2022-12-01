@@ -64,7 +64,7 @@ If the parent category is an anchored category, then the products count should s
 
 <u>Actual results</u>:
 
-If the parent category is an anchored category, then the products is shown as 0 for category level 2 and downwards.
+If the parent category is an anchored category, then the products are shown as 0 for category level 2 and downwards.
 
 ```
 {
