@@ -175,7 +175,7 @@ b. NO – Proceed to [Step 19](#step-19).
 
 +++**Long running queries?**
 
-[Check slow query log and MySQL show processlist](https://support.magento.com/hc/en-us/articles/360030903091). 
+[Check slow query log and MySQL show processlist](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md). 
 
 a. YES – Kill any long running queries. Review [MySQL Kill Syntax.](https://dev.mysql.com/doc/refman/8.0/en/kill.html)  
 b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

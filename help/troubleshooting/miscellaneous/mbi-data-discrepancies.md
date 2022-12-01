@@ -7,8 +7,8 @@ exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 
 Do the numbers on a certain report look inaccurate? Do you see unexpected NULL values? If you see something that doesn't seem quite right, we recommend using these resources to help you troubleshoot:
 
-* [Data discrepancy diagnostic checklist](https://support.magento.com/hc/en-us/articles/360016731271)
-* [Using exports to pinpoint data discrepancies](https://support.magento.com/hc/en-us/articles/360016730631)
+* [Data discrepancy diagnostic checklist](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
+* [Using exports to pinpoint data discrepancies](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
 We also recommend that you ensure the correct [replication methods](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) and [rechecks](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) have been set for the tables and columns involved in the discrepancy. Note that you need Admin permissions to access replication method and recheck information.
 
@@ -23,5 +23,5 @@ If the report is still in inaccurate, don't worry - our support team is happy to
 
 ## Related reading
 
-* [Calculated columns](https://support.magento.com/hc/en-us/articles/360016505112)
+* [Calculated columns](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
 * [Structural database changes](https://support.magento.com/hc/en-us/articles/360016506112)

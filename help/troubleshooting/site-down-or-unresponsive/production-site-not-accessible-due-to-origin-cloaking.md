@@ -43,4 +43,4 @@ Origin cloaking is a security feature that allows Adobe Commerce to block any no
 
 ## Related reading
 
-[Fastly origin cloaking enablement FAQ](https://support.magento.com/hc/en-us/articles/360055181631) in our support knowledge base.
+[Fastly origin cloaking enablement FAQ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) in our support knowledge base.

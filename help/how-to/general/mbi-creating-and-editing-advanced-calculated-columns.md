@@ -29,6 +29,6 @@ If you're unsure how to answer any of these questions, don't worry! Try your bes
 ## Related reading
 
 * [MBI User Guide](https://docs.magento.com/mbi)
-* [MBI: Data discrepancies](https://support.magento.com/hc/en-us/articles/360016505312)
+* [MBI: Data discrepancies](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
 * [MBI: Data Analyst](https://docs.magento.com/mbi/data-analyst.html)
 * [MBI: Getting Help with Magento BI](https://docs.magento.com/mbi/getting-started/support.html)
