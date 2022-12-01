@@ -60,7 +60,7 @@ When the [!UICONTROL categoryList] [!DNL Graphql] method is used to get child ca
 
 <u>Expected results</u>:
 
-If the parent category is an anchored category, then the products count should show the sum of child category product counts on every level.
+If the parent category is an anchored category, then the product count should show the sum of child category product counts on every level.
 
 <u>Actual results</u>:
 
