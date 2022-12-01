@@ -7,14 +7,14 @@ exl-id: 782049c4-b6e1-4ead-a00f-80d2aa8475c9
 
 This article provides a solution for conflicting component dependencies. When trying to setup or update Adobe Commerce using the Web Setup Wizard, you see the *"We found conflicting component dependencies"* Composer error message.
 
-## Affected products and versions {#conflicting-dependencies-trouble-depend-conflict-}
+## Affected products and versions
 
 * Adobe Commerce on-premises 2.2.x, 2.3.x
 * Adobe Commerce on cloud infrastructure 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
 
 
-## Issue {#example}
+## Issue
 
 A conflicting component dependencies error message similar to the following (actual package names and versions will vary):
 
@@ -33,7 +33,7 @@ This message is displayed if Composer cannot determine which components to insta
 
 Two main scenarios can lead to conflicting component dependencies. Click on your scenario to get troubleshooting steps.
 
-* [Upgrading Adobe Commerce](https://support.magento.com/hc/en-us/articles/360044010932#upgrading_magento)
+* [Upgrading Adobe Commerce](#upgrading-magento)
 * [Incompatibility with third-party modules:](#incompatibility-third-party-modules)
     * [Adobe Commerce (all deployment types)](#magento-commerce-magento-commerce-cloud)
     * [Magento Open Source](#opensource)
