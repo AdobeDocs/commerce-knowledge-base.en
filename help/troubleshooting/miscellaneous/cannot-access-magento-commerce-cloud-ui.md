@@ -9,7 +9,7 @@ This article provides solutions for the issue where you cannot log in to your Ad
 
 ## Issue
 
-When trying to log in to your Adobe Commerce on cloud infrastructure UI for the first time, you get a *403: Environment Access Denied* error. This error occurs because going to the cloud URL for the first time loads the master branch. 
+When trying to log in to your Adobe Commerce on cloud infrastructure UI for the first time, you get a *403: Environment Access Denied* error. This error might occur because going to the cloud URL for the first time loads the master branch, and you might not have access to that branch.
 
 ## Solution
 
