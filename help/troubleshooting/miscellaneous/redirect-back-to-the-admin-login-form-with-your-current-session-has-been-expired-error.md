@@ -64,4 +64,4 @@ Run the `bin/magento app:config:import` command to import configuration data.
 * [Import data from configuration files](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html) in our developer documentation
 * [Configure Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html) in our developer documentation
 * [Redirect back to the Commerce Admin login form with "Your account is temporarily disabled" error](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) in our support knowledge base
-* [Redirect back to the login form with no error, when trying to login to the Commerce Admin](https://support.magento.com/hc/en-us/articles/360028606711) in our support knowledge base
+* [Redirect back to the login form with no error, when trying to login to the Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md) in our support knowledge base

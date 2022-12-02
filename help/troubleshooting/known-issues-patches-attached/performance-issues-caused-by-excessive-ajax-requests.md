@@ -9,7 +9,7 @@ This article provides a patch for the known Adobe Commerce performance issue cau
 
 ## Issue
 
-Adobe Commerce might be sending redundant [Ajax requests](https://support.magento.com/hc/en-us/articles/360039286472-High-throughput-AJAX-requests-cause-poor-performance) from the storefront to the server to get the banner information and customer information. These Ajax requests have a performance impact, especially in high-load (high-volume and high-traffic) conditions. So if the Banner functionality is not used, it is recommended that you completely [disable the Adobe Commerce Banner module output](https://support.magento.com/hc/en-us/articles/360035285852) and apply the patch to improve retrieving customer information.
+Adobe Commerce might be sending redundant [Ajax requests](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) from the storefront to the server to get the banner information and customer information. These Ajax requests have a performance impact, especially in high-load (high-volume and high-traffic) conditions. So if the Banner functionality is not used, it is recommended that you completely [disable the Adobe Commerce Banner module output](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md) and apply the patch to improve retrieving customer information.
 
 ## Patch
 

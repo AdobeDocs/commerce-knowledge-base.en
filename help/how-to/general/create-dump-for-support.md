@@ -25,4 +25,4 @@ If you have issues creating dumps from the Admin, consider using CLI commands as
 
 ## Related reading
 
-* [Create full database backup for Adobe Commerce on cloud infrastructure](https://support.magento.com/hc/en-us/articles/360003254334) in our support knowledge base.
+* [Create full database backup for Adobe Commerce on cloud infrastructure](/help/how-to/general/create-database-dump-on-cloud.md) in our support knowledge base.

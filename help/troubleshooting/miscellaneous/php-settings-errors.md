@@ -44,7 +44,7 @@ There is no 'proper' value for `max-input-vars`; it depends on the size and comp
 
 ## xdebug maximum function nesting level error
 
-See [During installation, xdebug maximum function nesting level error](https://support.magento.com/hc/en-us/articles/360034238512).
+See [During installation, xdebug maximum function nesting level error](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md).
 
 ## Errors display when you access a PHTML template
 

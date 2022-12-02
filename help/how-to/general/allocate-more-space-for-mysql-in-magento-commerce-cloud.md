@@ -8,7 +8,7 @@ exl-id: 98501aa0-5ec7-4ea1-8856-13d171ad0be9
 
 ## Allocate space on Starter plan and Pro plan Integration
 
-For all Starter plan environments and Pro plan [Integration environment](https://support.magento.com/hc/en-us/articles/360043032152-Integration-Environment-enhancement-request-Pro-and-Starter), you can allocate more space for MySQL in the `.magento/services.yaml` file, by increasing the `mysql: disk:` parameter. For example:
+For all Starter plan environments and Pro plan [Integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), you can allocate more space for MySQL in the `.magento/services.yaml` file, by increasing the `mysql: disk:` parameter. For example:
 
 ```yaml
 mysql:

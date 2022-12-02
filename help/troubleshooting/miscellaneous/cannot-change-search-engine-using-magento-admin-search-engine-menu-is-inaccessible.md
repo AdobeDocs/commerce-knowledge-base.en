@@ -7,7 +7,7 @@ exl-id: 5b0f728c-6a8d-446d-9553-5abc3d01e516
 
 >[!WARNING]
 >
-> [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-all-versions-of-Magento-2-4-0). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+> [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 
 This article provides a solution for changing the Adobe Commerce Search Engine using the Commerce Admin if the **Search Engine** field is not displayed or the **Use system value** checkbox is greyed out and not accessible.
 
@@ -99,7 +99,7 @@ Remove the section with default search engine configuration from the `app/etc/en
 
 Switching search engines using the Admin is not available in Adobe Commerce on cloud infrastructure due to the way the cloud infrastructure has been organized.
 
-During the deployment process, the Adobe Commerce on cloud infrastructure deployment scripts check if Elasticsearch has been declared in the `MAGENTO_CLOUD_RELATIONSHIPS` variable. If declared, Elasticsearch is selected as the active search engine and configured automatically; the [MySQL search engine](https://support.magento.com/hc/en-us/articles/360043144271-MySQL-catalog-search-engine-will-be-removed-in-Magento-2-4-0) becomes inaccessible in the Admin. If the Elasticsearch relationship has not been declared, MySQL is set to active, and Elasticsearch becomes inaccessible.
+During the deployment process, the Adobe Commerce on cloud infrastructure deployment scripts check if Elasticsearch has been declared in the `MAGENTO_CLOUD_RELATIONSHIPS` variable. If declared, Elasticsearch is selected as the active search engine and configured automatically; the [MySQL search engine](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md) becomes inaccessible in the Admin. If the Elasticsearch relationship has not been declared, MySQL is set to active, and Elasticsearch becomes inaccessible.
 
 It is not recommended to edit the `app/etc/env.php` or the `app/etc/config.php` configuration files directly on your cloud environment; that is why changing these files to make the Elasticsearch engine to be displayed in the Admin (the solution we recommend in the previous section) is not applicable for your cloud project.
 
@@ -126,7 +126,7 @@ stage:
 
 #### Support Knowledge Base
 
-* [Enable Elasticsearch on Cloud](https://support.magento.com/hc/en-us/articles/115004905874)
+* [Enable Elasticsearch on Cloud](/help/how-to/general/enable-elasticsearch-on-cloud.md)
 
 #### Developer Documentation
 
