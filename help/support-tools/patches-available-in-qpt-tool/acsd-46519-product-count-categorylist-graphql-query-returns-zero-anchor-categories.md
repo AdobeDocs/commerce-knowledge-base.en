@@ -21,7 +21,7 @@ The ACSD-46519 patch solves the issue where the [!UICONTROL product_count] in [!
 
 ## Issue
 
-When the [!UICONTROL categoryList] [!DNL Graphql] method is used to get child categories it shows the [!UICONTROL product_count] as 0 for parent categories.
+When the [!UICONTROL categoryList] [!DNL GraphQL] method is used to get child categories it shows the [!UICONTROL product_count] as 0 for parent categories.
 
 <u>Steps to reproduce</u>:
 
