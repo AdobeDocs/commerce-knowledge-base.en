@@ -1,11 +1,11 @@
 ---
-title: "ACSD-47444: _Trying to access array offset on value of type bool_ error when accessing certain non-existing category paths for known products on PHP 7.4"
-description: Apply the ACSD-47444 patch to fix the Adobe Commerce issue where there is a _Trying to access array offset on value of type bool_ error when accessing certain non-existing category paths for known products, on PHP 7.4.
+title: "ACSD-47444: _[!UICONTROL Trying to access array offset on value of type bool]_ error when accessing certain non-existing category paths for known products on PHP 7.4"
+description: Apply the ACSD-47444 patch to fix the Adobe Commerce issue where there is a _[!UICONTROL Trying to access array offset on value of type bool]_ error when accessing certain non-existing category paths for known products, on PHP 7.4.
 ---
 
-# ACSD-47444: _Trying to access array offset on value of type bool_ error when accessing certain non-existing category paths for known products on PHP 7.4
+# ACSD-47444: _[!UICONTROL Trying to access array offset on value of type bool]_ error when accessing certain non-existing category paths for known products on PHP 7.4
 
-The ACSD-47444 patch solves the issue where you see _Trying to access array offset on value of type bool_ error when accessing certain non-existing category paths for known products on PHP 7.4. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22 is installed.  
+The ACSD-47444 patch solves the issue where you see _[!UICONTROL Trying to access array offset on value of type bool]_ error when accessing certain non-existing category paths for known products on PHP 7.4. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22 is installed.  
 
 ## Affected products and versions
 
@@ -21,7 +21,7 @@ The ACSD-47444 patch solves the issue where you see _Trying to access array offs
 
 ## Issue
 
-You experience the following error: _Trying to access array offset on value of type bool_ when accessing certain non-existing category paths for known products, on PHP 7.4.
+You experience the following error: _[!UICONTROL Trying to access array offset on value of type bool]_ when accessing certain non-existing category paths for known products, on PHP 7.4.
 
 <u>Prerequisites</u>:
 
@@ -41,7 +41,7 @@ PHP 7.4.
 
 500 error:
 
-_Notice: Trying to access array offset on value of type bool in /app/code/Magento/CatalogUrlRewrite/Model/Storage/DynamicStorage.php on line 182_
+_[!UICONTROL_Notice: Trying to access array offset on value of type bool in /app/code/Magento/CatalogUrlRewrite/Model/Storage/DynamicStorage.php on line 182]_
 
 ## Apply the patch
 
