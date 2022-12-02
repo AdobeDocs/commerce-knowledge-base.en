@@ -1,8 +1,8 @@
 ---
-title: "ACSD-47027: slow query B2B [!UICONTROL CompanyRole] [!DNL GraphQL] update"
+title: 'ACSD-47027: slow query B2B [!UICONTROL CompanyRole] [!DNL GraphQL] update'
 description: Apply the ACSD-47027 patch to fix the Adobe Commerce issue where there is a slow query B2B [!UICONTROL CompanyRole] [!DNL GraphQL] update.
+exl-id: 478ae16b-7722-4469-8f8a-a38820e61ae4
 ---
-
 # ACSD-47027: slow query B2B [!UICONTROL CompanyRole] [!DNL GraphQL] update
 
 The ACSD-47027 patch solves the issue where the slow query B2B [!UICONTROL CompanyRole] [!DNL GraphQL] update does not work as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47027. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
@@ -101,6 +101,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-
-
-
