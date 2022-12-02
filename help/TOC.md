@@ -373,6 +373,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-45071: default source added to product during import](/help/support-tools/patches-available-in-qpt-tool/acsd-45071-default-source-added-to-product-during-import.md)
     * [ACSD-47076: Vimeo videos cannot be played on the storefront](/help/support-tools/patches-available-in-qpt-tool/acsd-47076-venmo-videos-cannot-be-played-on-the-storefront.md)
     * [ACSD-47027: slow query in B2B [!UICONTROL CompanyRole] [!DNL GraphQL update]](/help/support-tools/patches-available-in-qpt-tool/acsd-47027-slow-query-b2b-companyrole-graphql-update.md)
+    * [ACSD-46519: product_count in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories](/help/support-tools/patches-available-in-qpt-tool/acsd-46519-product-count-categorylist-graphql-query-returns-zero-anchor-categories.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
