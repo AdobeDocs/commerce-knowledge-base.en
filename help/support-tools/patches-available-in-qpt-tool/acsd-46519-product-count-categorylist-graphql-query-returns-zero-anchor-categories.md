@@ -1,6 +1,6 @@
 ---
-title: "ACSD-46519: product count in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories"
-description: Apply the ACSD-46519 patch to fix the Adobe Commerce issue where when you use the [!UICONTROL categoryList] [!DNL GraphQL] method to get child categories it shows the `product_count` as 0 for parent categories.
+title: "ACSD-46519: [!UICONTROL product_count] in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories"
+description: Apply the ACSD-46519 patch to fix the Adobe Commerce issue where when you use the [!UICONTROL categoryList] [!DNL GraphQL] method to get child categories it shows the [!UICONTROL product_count] as 0 for parent categories.
 ---
 
 # ACSD-46519: [!UICONTROL product_count] in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories
@@ -25,9 +25,9 @@ When the [!UICONTROL categoryList] [!DNL Graphql] method is used to get child ca
 
 <u>Steps to reproduce</u>:
 
-1. Use the following [!DNL Graphql] request to get the category hierarchy with product count:
+1. Use the following [!DNL GraphQL] request to get the category hierarchy with [!UICONTROL product_count]:
 
-```
+<pre><code>
 {
   categoryList(filters: { ids: { eq: "2" } }) {
     id
@@ -56,17 +56,17 @@ When the [!UICONTROL categoryList] [!DNL Graphql] method is used to get child ca
     }
   }
 }
-```
+</code></pre>
 
 <u>Expected results</u>:
 
-If the parent category is an anchored category, then the product count should show the sum of child category product counts on every level.
+If the parent category is an anchored category, then the [!UICONTROL product_count] should show the sum of child category product counts on every level.
 
 <u>Actual results</u>:
 
 If the parent category is an anchored category, then the products are shown as 0 for category level 2 and downwards.
 
-```
+<pre><code>
 {
     "data": {
         "categoryList": [
@@ -107,7 +107,7 @@ If the parent category is an anchored category, then the products are shown as 0
         ]
     }
 }
-```
+</code></pre>
 
 ## Apply the patch
 
