@@ -41,7 +41,7 @@ PHP 7.4.
 
 500 error:
 
-_[!UICONTROL_Notice: Trying to access array offset on value of type bool in /app/code/Magento/CatalogUrlRewrite/Model/Storage/DynamicStorage.php on line 182]_
+[!UICONTROL_Notice: Trying to access array offset on value of type bool in /app/code/Magento/CatalogUrlRewrite/Model/Storage/DynamicStorage.php on line 182]
 
 ## Apply the patch
 
