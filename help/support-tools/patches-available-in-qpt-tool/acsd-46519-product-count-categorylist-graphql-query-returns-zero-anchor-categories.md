@@ -1,8 +1,8 @@
 ---
-title: "ACSD-46519: [!UICONTROL product_count] in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories"
+title: 'ACSD-46519: [!UICONTROL product_count] in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories'
 description: Apply the ACSD-46519 patch to fix the Adobe Commerce issue where when you use the [!UICONTROL categoryList] [!DNL GraphQL] method to get child categories it shows the [!UICONTROL product_count] as 0 for parent categories.
+exl-id: b71be3e6-6235-4e96-848b-d61eda973d98
 ---
-
 # ACSD-46519: [!UICONTROL product_count] in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories
 
 The ACSD-46519 patch solves the issue where the [!UICONTROL product_count] in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-46519. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
