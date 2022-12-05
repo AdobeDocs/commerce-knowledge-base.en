@@ -47,7 +47,7 @@ If the `max(value_id)` is lower than the `max int(11) [ 4294967296 ]`, and the `
 
 >[!WARNING]
 >
->Perform a database backup before alterating tables. Also consider putting the site into [maintenance mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=en#maintenance-mode).
+>Perform a database backup before alterating tables. Also consider putting the site into [maintenance mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode).
 
 If the value shown is lower than `max int(11) [ 4294967296 ]` as shown in the below example terminal output, than a table `[ AUTO_INCREMENT ]` has changed to a number bigger or equal to the `max [ int(11) ]` value. 
 
@@ -99,6 +99,6 @@ To do so:
 ## Related reading
 
 * [General MySQL guidelines](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) in the Commerce Installation Guide.
-* [Database upload loses connection to MySQL](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html?lang=en) in our support knowledge base. 
-* [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html?lang=en) in our support knowledge base.
-* [Most common database issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html?lang=en) in our support knowledge base.
+* [Database upload loses connection to MySQL](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html) in our support knowledge base. 
+* [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html) in our support knowledge base.
+* [Most common database issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) in our support knowledge base.

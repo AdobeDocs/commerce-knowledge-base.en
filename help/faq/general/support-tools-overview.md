@@ -31,7 +31,7 @@ We've set up key dashboards and alerts to aid you in understanding when your sit
 
 The Site-Wide Analysis Tool is a SaaS (software as a service) application that performs end-to-end 'point-in-time' site analysis. All tool-related customer site information is collected on predetermined schedules from every three hours to once a day. This means that SWAT is constantly analyzing customer site data.
 
-To find out more about the Site-Wide Analysis Tool, refer to the [Site-Wide Analysis Tool guide](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=en).
+To find out more about the Site-Wide Analysis Tool, refer to the [Site-Wide Analysis Tool guide](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html).
 
 ## Quality Patches Tool - get all patches available for your Adobe Commerce version {#quality-patches-tool}
 
