@@ -48,6 +48,6 @@ The solution for when the issue is caused by one and two is disconnecting the si
 
 1. You should now be able to see the correct account and access the correct cloud project.
 
-## Solution for cause three (solution-for-cause-three)
+## Solution for cause three (#solution-for-cause-three)
 
 If the issue has been caused by cause three, ask an existing super user on the project to add your new email address to the project.
