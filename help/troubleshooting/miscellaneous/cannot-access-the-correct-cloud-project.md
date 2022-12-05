@@ -29,7 +29,7 @@ This issue typically occurs when you are being signed on using the previous acco
 
 1. You have changed your email address at https://account.adobe.com to another email address that is not currently associated with a cloud project. Click here for the [solution](#solution-for-cause-three).
 
-## Solution for cause one and two {solution-for-cause-one-and-two}
+## Solution for cause one and two {#solution-for-cause-one-and-two}
 
 The solution for when the issue is caused by one and two is disconnecting the single sign-on integration with Adobe.com. Follow the steps below to disconnect:
 
