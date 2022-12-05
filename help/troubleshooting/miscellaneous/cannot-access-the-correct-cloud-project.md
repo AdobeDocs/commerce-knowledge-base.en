@@ -29,7 +29,7 @@ This issue typically occurs when you are being signed on using the previous acco
 
 1. You have changed your email address at https://account.adobe.com to another email address that is not currently associated with a cloud project. Click here for the [solution](#solution-for-cause-three).
 
-## Solution for cause one and two {solution-for-cause-one-and-two}
+## Solution for cause one and two (solution-for-cause-one-and-two)
 
 Resolving the issue will depend on the cause.
 
@@ -50,6 +50,6 @@ The solution for when the issue is caused by one and two is disconnecting the si
 
 1. You should now be able to see the correct account and access the correct cloud project.
 
-## Solution for cause three {solution-for-cause-three}
+## Solution for cause three (solution-for-cause-three)
 
 If the issue has been caused by cause three, ask an existing super user on the project to add your new email address to the project.
