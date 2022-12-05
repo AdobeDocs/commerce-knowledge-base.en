@@ -31,8 +31,6 @@ This issue typically occurs when you are being signed on using the previous acco
 
 ## Solution for cause one and two (solution-for-cause-one-and-two)
 
-Resolving the issue will depend on the cause.
-
 The solution for when the issue is caused by one and two is disconnecting the single sign-on integration with Adobe.com. Follow the steps below to disconnect:
 
 1. From https://accounts.magento.cloud/user, expand the **[!UICONTROL Single Sign-On]** section. Click **[!UICONTROL Disconnect from Adobe.com]**, to disconnect.
