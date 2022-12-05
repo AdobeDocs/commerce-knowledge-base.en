@@ -1,5 +1,5 @@
 ---
-title: Cannot access the correct cloud project
+title: Cannot access correct Adobe Commerce cloud project
 description: This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project.
 exl-id: 165b9a18-6e84-4f0f-b377-a07152d55c9e
 ---
@@ -13,33 +13,43 @@ When you log in to your cloud account at https://accounts.magento.cloud/user, th
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure, all supported versions
+* Adobe Commerce on cloud infrastructure, [all supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Cause
 
-This issue typically occurs when you are being signed on using the previous account owner's single sign-on integration with magento.com after:
+This issue typically occurs when you are being signed on using the previous account owner's single sign-on integration with Adobe.com after:
 
-* The Cloud Project ownership had been transferred to you (the user). Because of this you would still be seeing the original project owner's account.
+1. The cloud project ownership had been transferred to you (the user) and you see the original project owner's account. Click here for the [solution](#solution-for-cause-one-and-two).
 
-OR
+    OR
 
-* You (the user) had moved to a different company, accompanied by a change in the email address and the projects that they have access to. Because of this you would still be seeing the projects that you had been granted to in your previous role/company.
+1. You (the user) have moved to a different company, accompanied by a change in the email address and the projects you have access to. You see the projects that you had been granted access to in your previous role/company. Click here for the [solution](#solution-for-cause-one-and-two).
 
-## Solution
+    OR
 
-To reslove the issue, you need to disconnect the single sign-on integration with magento.com. Follow the steps below to disconnect:
+1. You have changed your email address at https://account.adobe.com to another email address that is not currently associated with a cloud project. Click here for the [solution](#solution-for-cause-three).
 
-1. From https://accounts.magento.cloud/user, expand the **Single Sign-On** section.
+## Solution for cause one and two {solution-for-cause-one-and-two}
 
-    ![single-sign-on](assets/single-sign-on.png)
+Resolving the issue will depend on the cause.
 
-1. Click **Disconnect from Magento<span>.</span>com** to disconnect.
+The solution for when the issue is caused by one and two is disconnecting the single sign-on integration with Adobe.com. Follow the steps below to disconnect:
 
-    ![Disconnect from Magento.com](assets/disconnect-from-magento-com.png)
+1. From https://accounts.magento.cloud/user, expand the **[!UICONTROL Single Sign-On]** section. Click **[!UICONTROL Disconnect from Adobe.com]**, to disconnect.
+
+    ![single-sign-on-adobe-connect](assets/sso-adobe-disconnect.png)
+
+1. Click **[!UICONTROL Disconnect]**.
+
+    ![adobe-disconnect](assets/adobe-disconnect.png)
 
 1. Log out.
-1. Now click on the **Magento<span>.</span>com** button.
+1. Click on the **[!UICONTROL Adobe.com]** button.
 
-    ![Magento.com](assets/magento-com.png)
+    ![Magento.com](assets/adobe-welcome-login.png)
 
 1. You should now be able to see the correct account and access the correct cloud project.
+
+## Solution for cause three {solution-for-cause-three}
+
+If the issue has been caused by cause three, ask an existing super user on the project to add your new email address to the project.
