@@ -363,7 +363,7 @@ This field appears when your account is associated with more than one organizati
 
 In addition, this would allow us to quickly cross reference similar/duplicated/related tickets submitted for this organization in the past and identify clues that might help with investigating and resolving the current ticket.
 
-If you do have Shared Access to multiple organizations but this field is not available, refer to https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#merchant-not-displayed
+If you do have Shared Access to multiple organizations but this field is not available, refer to https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#merchant-not-displayed
 
 #### Product
 

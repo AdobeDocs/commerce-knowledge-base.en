@@ -13,7 +13,7 @@ This article provides a solution to allow merchants to continue offering DHL shi
 
 ## Issue
 
-In August 2022, we released the [upgrade of DHL schema version 6.2. along with a fix patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html?lang=en) for merchants to continue offering DHL shipping. DHL is again introducing a newer schema – version 10.0 – in October 2022, and the previous version (6.2 schema) will get deprecated in the end of December 2022. Adobe Commerce 2.4.5 and earlier DHL integration only supports version 6.2.
+In August 2022, we released the [upgrade of DHL schema version 6.2. along with a fix patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) for merchants to continue offering DHL shipping. DHL is again introducing a newer schema – version 10.0 – in October 2022, and the previous version (6.2 schema) will get deprecated in the end of December 2022. Adobe Commerce 2.4.5 and earlier DHL integration only supports version 6.2.
 
 ## Solution
 
@@ -36,13 +36,13 @@ Refer the following links on how to use Quality Patches Tool and install patches
 
 ## Useful links
 
-* [Quality Patches Tool > Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=en) in Adobe Experience League.
+* [Quality Patches Tool > Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) in Adobe Experience League.
 
 * [Quality Patches Tools landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
 
 ## Related reading
 
-* [Apply a patch to continue offering DHL as shipping carrier](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html?lang=en) in our support knowledge base. 
+* [Apply a patch to continue offering DHL as shipping carrier](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) in our support knowledge base. 
 
 * [Shipping Carriers > DHL](https://docs.magento.com/user-guide/shipping/dhl.html) in our user guide.
 * [Delivery Methods](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) in our user guide.
