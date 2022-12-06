@@ -38,14 +38,14 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.html?lang=en"> Adobe Commerce status column missing exported products CSV file:</a> This article provides a solution for the issue when you cannot locate the status column (i.e., indicating whether the product is enabled or disabled) in the CSV file containing exported products.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.html"> Adobe Commerce status column missing exported products CSV file:</a> This article provides a solution for the issue when you cannot locate the status column (i.e., indicating whether the product is enabled or disabled) in the CSV file containing exported products.
     <td>New article</td>
     <td>Nov 17, 2022</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/int-biginit-schema-update-request.html?lang=en"> Adobe Commerce database numeric value out of range, INT to BIGINT:</a> This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/int-biginit-schema-update-request.html"> Adobe Commerce database numeric value out of range, INT to BIGINT:</a> This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product.
     </td>
     <td>New article</td>
     <td>Nov 17, 2022</td>
@@ -61,7 +61,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46988-graphql-currency-api-request-returns-null-values.html?lang=en"> ACSD-46988: GraphQL currency API request returns null values:</a> The ACSD-46988 patch fixes the issue where the GraphQL currency API request returns null values for a custom currency. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46988-graphql-currency-api-request-returns-null-values.html"> ACSD-46988: GraphQL currency API request returns null values:</a> The ACSD-46988 patch fixes the issue where the GraphQL currency API request returns null values for a custom currency. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
     </td>
     <td> New article </td>
     <td> Nov 17, 2022</td>
@@ -69,7 +69,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46618-product-list-widget-shows-incorrect-cached-prices-logged-in-customer.html?lang=en"> ACSD-46618: Product list widget shows incorrect cached prices for a logged-in customer:</a> The ACSD-46618 patch solves the issue where the product list widget shows incorrect cached prices for a logged-in customer. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46618-product-list-widget-shows-incorrect-cached-prices-logged-in-customer.html"> ACSD-46618: Product list widget shows incorrect cached prices for a logged-in customer:</a> The ACSD-46618 patch solves the issue where the product list widget shows incorrect cached prices for a logged-in customer. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
     </td>
     <td>New article </td>
     <td>Nov 17, 2022 </td>
@@ -85,7 +85,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.html?lang=en"> ACSD-46541: An admin user cannot create a credit memo if an order item is deleted:</a> The ACSD-46541 patch fixes the issue where an admin user cannot create a credit memo if an order item is deleted. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.html"> ACSD-46541: An admin user cannot create a credit memo if an order item is deleted:</a> The ACSD-46541 patch fixes the issue where an admin user cannot create a credit memo if an order item is deleted. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
     </td>
     <td>New article</td>
     <td>Nov 17, 2022</td>
@@ -93,7 +93,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
    <td>
-   <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/change-current-adobe-account-email-address-to-new-address.html?lang=en"> Change current Adobe account email address:</a> This article explains how to change the current email address registered in the Adobe account to a new address currently not registered in the Adobe account or the Magento account.
+   <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/change-current-adobe-account-email-address-to-new-address.html"> Change current Adobe account email address:</a> This article explains how to change the current email address registered in the Adobe account to a new address currently not registered in the Adobe account or the Magento account.
    </td>
    <td>New article</td>
    <td>Nov 17, 2022</td>
@@ -109,7 +109,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46869-configurable-products-not-updating-using-rest-api.html?lang=en"> ACSD-46869: Configurable products not updating using REST API at checkout:</a> The ACSD-46869 patch fixes the issue where configurable products are not getting updated using REST API at checkout. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46869-configurable-products-not-updating-using-rest-api.html"> ACSD-46869: Configurable products not updating using REST API at checkout:</a> The ACSD-46869 patch fixes the issue where configurable products are not getting updated using REST API at checkout. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
     </td>
     <td>New article</td>
     <td>Nov 17, 2022</td>
