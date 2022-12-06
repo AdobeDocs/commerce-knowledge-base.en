@@ -11,8 +11,8 @@ This article gives an overview for each of the available tools:
 
 * [[!DNL Observation for Adobe Commerce]](#observation-for-adobe-commerce)
 * [[!DNL Managed Alerts] For Adobe Commerce](#managed-alerts-for-adobe-commerce)
-* [[!Site-Wide Analysis Tool]](#site-wide-analysis-tool)
-* [[!Quality Patches Tool]](#quality-patches-tool)
+* [[!NDL Site-Wide Analysis Tool]](#site-wide-analysis-tool)
+* [[!DNL Quality Patches Tool]](#quality-patches-tool)
 
 ## [!DNL Observation for Adobe Commerce] - get the most relevant [!DNL New Relic] info in an easy format {#observation-for-adobe-commerce}
 
