@@ -9,7 +9,7 @@ This article provides solutions for issues when trying to utilize the latest pre
 
 >[!NOTE]
 >
->If you are having problems with Beta access refer to the [Cannot access the latest Beta version](https://support.magento.com/hc/en-us/articles/360048169471) article.
+>If you are having problems with Beta access refer to the [Cannot access the latest Beta version](/help/how-to/general/cannot-access-the-latest-beta-version.md) article.
 
 ## Issue
 

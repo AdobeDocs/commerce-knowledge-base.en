@@ -312,7 +312,7 @@ Another method to obtain the Project URL is as follows:
 
 #### Contact reason
 
-Contact reasons vary by product. Choose which contact reason best fits the symptoms you are experiencing. Refer to the [Support ticket Contact Reason descriptions](https://support.magento.com/hc/en-us/articles/4435851936269) article to learn more about what contact reason you should choose.
+Contact reasons vary by product. Choose which contact reason best fits the symptoms you are experiencing. Refer to the [Support ticket Contact Reason descriptions](/help/faq/general/support-ticket-contact-reason-descriptions.md) article to learn more about what contact reason you should choose.
 
 #### (Data) Integration type (MBI only)
 
@@ -356,6 +356,14 @@ This is a drop-down and only applicable for Order Management product.
 Indicate the organization you would like your ticket to be associated with &ndash; in case you work with several organizations.
 
 This field appears when your account is associated with more than one organization.
+
+>[!WARNING]
+>
+>You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization. 
+
+In addition, this would allow us to quickly cross reference similar/duplicated/related tickets submitted for this organization in the past and identify clues that might help with investigating and resolving the current ticket.
+
+If you do have Shared Access to multiple organizations but this field is not available, refer to https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#merchant-not-displayed
 
 #### Product
 
@@ -427,7 +435,7 @@ Adobe Commerce support is expecting information from you.
 
 In your reply, you may specify additional technical details of your issue, provide escalation details, or state if the solution, offered by Adobe Commerce support, has proved helpful for your issue. Make sure you provide your replies as soon as you can since Adobe Commerce support cannot proceed with processing your ticket while it is in the **Awaiting your reply** status.
 
-Reference the [Adobe Commerce support ticket lifecycle policy update](https://support.magento.com/hc/en-us/articles/360044226072) article for details about timing and notification policy.
+Reference the [Adobe Commerce support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md) article for details about timing and notification policy.
 
 #### **3. Solved**
 
@@ -525,11 +533,11 @@ To know which account you are currently using (your own native account or shared
 
 ### Shared access troubleshooting {#troubleshooting-shared-access}
 
-Please refer to the [Shared access troubleshooting article](https://support.magento.com/hc/en-us/articles/360020434012) in our support knowledge base.
+Please refer to the [Shared access troubleshooting article](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md) in our support knowledge base.
 
 ## BILLING FAQ FOR ADOBE COMMERCE {#billing-faq}
 
-Merchants typically pay for our services by a credit card (CC) transaction, and this [Billing FAQ for Adobe Commerce](https://support.magento.com/hc/en-us/articles/4427413247245) is a resource to assist you when you pay your bill.
+Merchants typically pay for our services by a credit card (CC) transaction, and this [Billing FAQ for Adobe Commerce](/help/faq/general/billing-faq-for-adobe-commerce.md) is a resource to assist you when you pay your bill.
 
 ## MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES {#magento-u}
 

@@ -5,10 +5,6 @@ exl-id: c1f9d282-41d8-4850-8a24-336d55aa3140
 ---
 # MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
 
->[!WARNING]
->
->For scaled architecture (split architecture), Redis slave connections **SHOULD NOT** be enabled. You can check if you are on scaled architecture go to your project URL, e.g. https:&#8203;//us.magento.cloud/projects/&lt;project ID&gt;/environments/production. Click on the Access site. If there are more than three nodes shown under SSH access you are on scaled architecture. If you enable Redis Slave Reads on scaled architecture the customer will receive errors on Redis connections not being able to connect. This has to do with how the clusters are configured to process Redis connections. Redis Slaves are still active but will not be used for Redis Reads. We recommend for scaled architecture to use Adobe Commerce 2.3.5 or later and implement new Redis back end configuration and implement L2 caching for Redis.
-
 This topic discusses a solution when high load from MySQL causes a performance bottleneck issue in Adobe Commerce on cloud infrastructure.
 
 ## Affected products and versions
@@ -42,6 +38,10 @@ Analyze the slow transactions in New Relic APM. If you see a high volume of quer
 Your Adobe Commerce on cloud infrastructure store has high throughput or is slow on `SELECT` MySQL queries.
 
 ## Solution
+
+>[!WARNING]
+>
+>For scaled architecture (split architecture), Redis slave connections **SHOULD NOT** be enabled. You can check if you are on scaled architecture by going to your project URL, e.g. https:&#8203;//us.magento.cloud/projects/&lt;project ID&gt;/environments/production. Click on the Access site. If there are more than three nodes shown under SSH access, you are on scaled architecture. If you enable Redis Slave Reads on scaled architecture, the customer will receive errors on Redis connections not being able to connect. This has to do with how the clusters are configured to process Redis connections. Redis Slaves are still active but will not be used for Redis Reads. We recommend for scaled architecture to use Adobe Commerce 2.3.5 or later and implement new Redis back-end configuration and implement L2 caching for Redis.
 
 If experiencing these two indications, enabling `SLAVE` connections for the MySQL database and Redis can help to spread out the load across different nodes.
 

@@ -57,9 +57,9 @@ Most extensions will need to be updated to work with 2.4.4 or higher, given that
 
 ### Which resources are available to help with planning, budgeting, and upgrades in general?
 
-Merchants can use a set of resources to help plan, budget, and complete upgrades like the comprehensive [2.4 Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf?lang=pt-BR) and the [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html). The tool has now over 400 downloads, more than 2,000 executions, and +80 active users on the community slack channel (#upgrade-compatibility-tool).
+Merchants can use a set of resources to help plan, budget, and complete upgrades like the comprehensive [2.4 Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf) and the [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html). The tool has now over 400 downloads, more than 2,000 executions, and +80 active users on the community slack channel (#upgrade-compatibility-tool).
 
-A [2.4 Technical Upgrade Workshop](https://register.gotowebinar.com/register/6951278956217776911) will be held on January 26, 8am PST for customers and a recording will be available on demand under the [Tutorials section of Experience League](https://experienceleague.adobe.com/docs/commerce.html?lang=en#tutorials) shortly after the event.
+A [2.4 Technical Upgrade Workshop](https://register.gotowebinar.com/register/6951278956217776911) will be held on January 26, 8am PST for customers and a recording will be available on demand under the [Tutorials section of Experience League](https://experienceleague.adobe.com/docs/commerce.html#tutorials) shortly after the event.
 
 ### As a Managed Services customer, how can Customer Engineering help me in the upgrade to 2.4.4?
 
@@ -107,7 +107,7 @@ We recognize that you recently upgraded to or are in the process of upgrading to
 
 Adobe offers a paid extended support option for Adobe Commerce versions based on PHP 7.4 (customers on Adobe Commerce 2.3.7 and or 2.4.0-2.4.3) that includes both quality and security fixes for the core application and PHP 7.4 for up to one year. This gives merchants more time to be supported as they plan and execute their upgrade to 2.4.4 or higher. 
 
-Extended support for 2.3.7 starts after 2.3 reaches End Of Support (EOS) on September 8, 2022, and can be received until September 8, 2023. Extended support for 2.4.0-2.4.3 starts after EOS on November 28, 2022, and can be received until November 28, 2023. 
+Extended support for 2.3.7 starts after 2.3 reaches End Of Support (EOS) on September 9, 2022, and can be received until September 8, 2023. Extended support for 2.4.0-2.4.3 starts after EOS on November 29, 2022, and can be received until November 28, 2023. 
 
 While extended support does include support for PHP 7.4, it is important to note that merchants may need to take additional measures to stay PCI-compliant. Adobe cannot provide support for all third-party technologies our software uses that may reach the end of life while you are on extended support. Adobe recommends that merchants work with a [PCI assessor](https://listings.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors) to ensure compliance.
 

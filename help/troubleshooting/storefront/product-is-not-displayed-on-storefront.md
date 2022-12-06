@@ -51,5 +51,5 @@ Each of the following points might solve the issue.
 
 ## Related reading in our support knowledge base
 
-* [Log locations (directories) for Pro architecture](https://support.magento.com/hc/en-us/articles/360000318834)
-* [Log locations (directories) for Starter architecture](https://support.magento.com/hc/en-us/articles/360020127552-Log-locations-directories-for-Starter-plan)
+* [Log locations (directories) for Pro architecture](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
+* [Log locations (directories) for Starter architecture](/help/how-to/general/log-locations-directories-for-starter-plan.md)

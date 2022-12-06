@@ -43,8 +43,8 @@ You may log in to the account with:
 - An existing Adobe corporate/personal account.
 - If you do not have an Adobe account, create one with the same email address.
 
-For steps refer to [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=en) in Adobe Experience League.
+For steps refer to [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) in Adobe Experience League.
 
 ## Related reading
 
-- [Link Magento.com and accounts.magento.cloud account logins](https://support.magento.com/hc/en-us/articles/360040954871)
+- [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento.com-and-accounts.magento.cloud-account-logins.md)

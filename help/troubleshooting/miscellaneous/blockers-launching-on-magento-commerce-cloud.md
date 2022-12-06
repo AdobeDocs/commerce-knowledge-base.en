@@ -37,8 +37,8 @@ Refer to this article for detailed steps: [Set up Fastly](http://devdocs.magento
 
 ### Related Fastly articles in our support knowledge base
 
-* [Fastly caching is not working on Cloud](https://support.magento.com/hc/en-us/articles/115001853074-Fastly-caching-is-not-working-for-sites-for-Magento-Commerce-Cloud)
-* [Error purging Fastly cache on Cloud (The purge request was not processed successfully)](https://support.magento.com/hc/en-us/articles/115001853194-Fastly-purges-do-not-process-successfully-for-Magento-Commerce-Cloud)
+* [Fastly caching is not working on Cloud](/help/troubleshooting/miscellaneous/fastly-caching-is-not-working-on-magento-cloud.md)
+* [Error purging Fastly cache on Cloud (The purge request was not processed successfully)](/help/troubleshooting/miscellaneous/error-purging-fastly-cache-on-cloud-the-purge-request-was-not-processed-successfully.md)
 
 ## 2. Valid SSL (TLS) certificate
 
@@ -46,7 +46,7 @@ Problem: Without a valid and working SSL certificate, you cannot test external p
 
 Recommendation **:** Request your shared SSL certificate for Staging or Live domain names.
 
-Read about SSL certificates in this [Quick FAQ](https://support.magento.com/hc/en-us/articles/115004685333) article in our support knowledge base.
+Read about SSL certificates in this [Quick FAQ](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md) article in our support knowledge base.
 
 ## 3. Configure and test 301 redirects
 

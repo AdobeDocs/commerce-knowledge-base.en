@@ -47,8 +47,8 @@ The output of the command will contain a list of the largest files and directori
 
 In our support knowledge base:
 
-* [Increase disk space for Integration environment on Cloud](https://support.magento.com/hc/en-us/articles/360005189554)
-* [Low disk space](https://support.magento.com/hc/en-us/articles/360037072592)
+* [Increase disk space for Integration environment on Cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
+* [Low disk space](/help/troubleshooting/miscellaneous/low-disk-space.md)
 
 In our developer documentation:
 

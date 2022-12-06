@@ -96,9 +96,9 @@ This section shows how to reset an environment when it is in a critical state: t
 
 In this scenario, you must first restore the working state of your Adobe Commerce application using git reset, then uninstall the Adobe Commerce software (to drop and restore the database, remove the deployment configuration, etc.). The scenario involves the same steps as in Scenario 2, but the order of steps is different and there is an additional step &ndash; force redeploy. The steps are:
 
-1. [Reset the git branch.](https://support.magento.com/hc/en-us/articles/360000852534#reset-git-branch)
-1. [Disable Configuration Management.](https://support.magento.com/hc/en-us/articles/360000852534#disable_config_management)
-1. [Uninstall the Adobe Commerce software.](https://support.magento.com/hc/en-us/articles/360000852534#setup-uninstall)
+1. [Reset the git branch.](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
+1. [Disable Configuration Management.](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
+1. [Uninstall the Adobe Commerce software.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 1. Force redeploy.
 
 After performing these steps, you will have the same results as in Scenario 2.

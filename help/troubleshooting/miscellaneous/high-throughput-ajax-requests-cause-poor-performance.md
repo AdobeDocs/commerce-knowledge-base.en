@@ -28,7 +28,7 @@ High throughput AJAX requests include those related to customers' private conten
 
 There are three solutions:
 
-* [Upgrade to version 2.3.4](https://devdocs.magento.com/cloud/project/project-upgrade.html). If this is not currently possible, [install the patch fixing the issue](https://support.magento.com/hc/en-us/articles/360041095391-Performance-issues-caused-by-excessive-Ajax-requests-).
+* [Upgrade to version 2.3.4](https://devdocs.magento.com/cloud/project/project-upgrade.html). If this is not currently possible, [install the patch fixing the issue](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md).
 * Ensure lighter requests (cache requests or move to customers' private content).
 * Reduce the number of requests.
 
@@ -42,7 +42,7 @@ If there are third-party AJAX requests that are triggered on each page, attempt 
 * If you need to reload or invalidate content in `sections.xml` follow the steps in [Private content: Invalidate private content](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html#invalidate-private-content) in our developer documentation. Please make sure that you are not using the `customerData.reload()` method directly in your customizations.
 * Check other POST AJAX requests on the same page. Open Google Chrome developer tool in Google Chrome browser. Click on the **Network** tab and then the **XHR** tab, and there will be the list of all AJAX requests from the particular page. Then click on each request, and in the field Request Method should be the GET requests. Note: Google Chrome is used as an example, and it is possible to do this in other browsers as well.
 * Check Google Tag Manager (GTM) functionality which is a specific AJAX request. The user can remove this AJAX and refactor their customization with private functionality to reduce the total number of requests to the server.
-* Check if the Adobe Commerce Banner is enabled but not used. You might need to [Disable Adobe Commerce Banner output to improve site performance](https://support.magento.com/hc/en-us/articles/360035285852).
+* Check if the Adobe Commerce Banner is enabled but not used. You might need to [Disable Adobe Commerce Banner output to improve site performance](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md).
 
 ### Related Reading
 
