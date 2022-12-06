@@ -15,7 +15,7 @@ The ACSD-47179 patch fixes the issue where mass deletion of product review does 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 -2.4.6
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5-p1
 
 >[!NOTE]
 >
