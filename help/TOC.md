@@ -376,6 +376,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-46519: product_count in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories](/help/support-tools/patches-available-in-qpt-tool/acsd-46519-product-count-categorylist-graphql-query-returns-zero-anchor-categories.md)
     * [ACSD-47444: [!UICONTROL Trying to access array offset on value of type bool] error when accessing certain non-existing category paths for known products on PHP 7.4](/help/support-tools/patches-available-in-qpt-tool/acsd-47444-trying-access-array-offset-value-type-bool-error.md)
     * [ACSD-47497: missing ACL for Store / Configuration / Services OAuth](/help/support-tools/patches-available-in-qpt-tool/acsd-47497-missing-acl-for-store-configuration-services-oaut.md)
+    *  [ACSD-47559: preview [!UICONTROL Email Templates] not fully visible](/help/support-tools/patches-available-in-qpt-tool/acsd-47559-venmo-videos-cannot-be-played-on-the-storefront.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
