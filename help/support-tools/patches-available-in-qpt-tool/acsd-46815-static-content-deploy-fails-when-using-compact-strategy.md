@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46815: static content deploy fails when using compact strategy"
+title: "ACSD-46815: static content deploy fails using compact strategy"
 description: Apply the ACSD-46815 patch to fix the Adobe Commerce issue where static content deploy fails when using compact strategy.
 ---
 
