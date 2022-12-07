@@ -27,7 +27,7 @@ The preview email template area is not fully visible.
 
 <u>Steps to reproduce</u>:
 
-- Add an email template or use an existing email template in the Adobe Commerce Admin > **[!UICONTROL Marketing]** > **[!UICONTROL Communications]** > **[!UICONTROL Email Templates]**.
+* Add an email template or use an existing email template in the Adobe Commerce Admin > **[!UICONTROL Marketing]** > **[!UICONTROL Communications]** > **[!UICONTROL Email Templates]**.
 
 <u>Expected results</u>:
 
