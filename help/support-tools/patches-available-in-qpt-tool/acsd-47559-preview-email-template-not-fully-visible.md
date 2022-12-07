@@ -1,6 +1,6 @@
 ---
 title: "ACSD-47559: [!UICONTROL Preview Template] for email not fully visible"
-description: Apply the ACSD-47559 patch to fix the Adobe Commerce issue where static content deploy fails when using compact strategy.
+description: Apply the ACSD-47559 patch to fix the Adobe Commerce issue where the [!UICONTROL Preview Template] area for emails is not fully visible.
 ---
 
 # ACSD-47559: [!UICONTROL Preview Template] for email not fully visible
@@ -31,11 +31,11 @@ The preview email template area is not fully visible.
 
 <u>Expected results</u>:
 
-Static content deployment is completed without any error.
+The preview window is scaled according to the email template size.
 
 <u>Actual results</u>:
 
-Static content deployment fails with a compact strategy. The following error occurs during the deployment process: *The contents from the /app/pub/static/adminhtml/Magento/base/default/./node_modules/@spectrum-css/vars/dist/spectrum-global.css file can't be read.*
+The preview pop-up is opened with scrolling bars is an inconvenient way to preview an email template.
 
 ## Apply the patch
 
