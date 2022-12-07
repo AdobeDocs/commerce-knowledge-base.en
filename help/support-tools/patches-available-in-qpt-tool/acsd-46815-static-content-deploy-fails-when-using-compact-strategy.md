@@ -1,8 +1,8 @@
 ---
-title: "ACSD-46815: static content deploy fails using compact strategy"
+title: 'ACSD-46815: static content deploy fails using compact strategy'
 description: Apply the ACSD-46815 patch to fix the Adobe Commerce issue where static content deploy fails when using compact strategy.
+exl-id: e94a0911-5cd9-4866-a027-7ea3239555d3
 ---
-
 # ACSD-46815: static content deploy fails when using compact strategy
 
 The ACSD-46815 patch fixes the issue where the static content deployment fails when the compact strategy is used. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.20 is installed. The patch ID is ACSD-46815. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
