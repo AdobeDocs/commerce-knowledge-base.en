@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47920: orders as guest user via Rest API when Allow Guest Checkout off"
+title: "ACSD-47920:  can place orders as guest user via Rest API when Allow Guest Checkout off"
 description: Apply the ACSD-47559 patch to fix the Adobe Commerce issue where orders can be placed via Rest API as a guest user even when the _Allow Guest Checkout_ is turned off.
 ---
 
