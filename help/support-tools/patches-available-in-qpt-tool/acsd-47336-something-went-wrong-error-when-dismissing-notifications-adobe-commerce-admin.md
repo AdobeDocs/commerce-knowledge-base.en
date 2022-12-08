@@ -29,7 +29,7 @@ The user sees _[!UICONTROL something went wrong]_ error when dismissing notifica
 
 1. Perform a bulk operation (e.g. bulk update of product attributes from the product grid).
 1. Complete the operation (e.g. run `bin/magento queue:consumer:start product_action_attribute.update`).
-1. Refresh the [!DNL Commerce] Admin page, expand the admin notification section, and click on the [!UICONTROL Dismiss All Completed Tasks] link.
+1. Refresh the [!DNL Commerce] Admin page, expand the admin notification section, and click on the **[!UICONTROL Dismiss All Completed Tasks]** link.
 
 <u>Expected results</u>:
 
