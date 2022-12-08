@@ -20,9 +20,9 @@ This article gives an overview for each of the available tools:
 
 To learn about how to use [!DNL Observation for Adobe Commerce] on cloud architecture, review [[!DNL Observation for Adobe Commerce] > Introduction](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html).
 
-## [!DNL Managed Alerts] for Adobe Commerce - get alerts on critical storage and Apdex levels  {#managed-alerts-for-adobe-commerce}
+## Managed Alerts for Adobe Commerce - get alerts on critical storage and Apdex levels  {#managed-alerts-for-adobe-commerce}
 
-[!DNL Managed alerts] for Adobe Commerce on cloud infrastructure produce ready-made [!DNL New Relic] alerting that includes directions on next steps to troubleshoot.
+Managed alerts for Adobe Commerce on cloud infrastructure produce ready-made [!DNL New Relic] alerting that includes directions on next steps to troubleshoot.
 
 We've set up key dashboards and alerts to aid you in understanding when your site is reaching critical storage and Apdex levels (users' satisfaction with applications and services response time). This can help you take action before you notice slow response times or an outage. You will be able to troubleshoot the alerts with the articles provided in our support knowledge base. Click [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) to learn more about managed alerts.
 
