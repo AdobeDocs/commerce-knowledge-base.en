@@ -377,6 +377,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-47444: [!UICONTROL Trying to access array offset on value of type bool] error when accessing certain non-existing category paths for known products on PHP 7.4](/help/support-tools/patches-available-in-qpt-tool/acsd-47444-trying-access-array-offset-value-type-bool-error.md)
     * [ACSD-47497: missing ACL for Store / Configuration / Services OAuth](/help/support-tools/patches-available-in-qpt-tool/acsd-47497-missing-acl-for-store-configuration-services-oaut.md)
     * [ACSD-46815: static content deploy fails using compact strategy](/help/support-tools/patches-available-in-qpt-tool/acsd-46815-static-content-deploy-fails-when-using-compact-strategy.md)
+    * [ACSD-47336: _something went wrong_ error notifications dismissed Adobe Commerce Admin](/help/support-tools/patches-available-in-qpt-tool/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
