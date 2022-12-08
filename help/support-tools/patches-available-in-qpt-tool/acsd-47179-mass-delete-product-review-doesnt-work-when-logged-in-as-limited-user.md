@@ -32,7 +32,7 @@ Mass deletion of product reviews does not work when logged in as a limited user 
     * Catalog
     * Customer
     * Marketing
-1. Create a product assigned to the secondary website.
+1. Create a product and assign it to the secondary website.
 1. Add two reviews to the product from the frontend.
 1. Log in to the [!UICONTROL Commerce Admin] using the restricted admin user just created.
 1. Try to mass delete pending reviews.
