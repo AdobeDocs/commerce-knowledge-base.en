@@ -10,7 +10,7 @@ It provides personalized best practices, diagnostic and monitoring tools, and ac
 This article gives an overview for each of the available tools:
 
 * [[!DNL Observation for Adobe Commerce]](#observation-for-adobe-commerce)
-* [[!DNL Managed Alerts] For Adobe Commerce](#managed-alerts-for-adobe-commerce)
+* [Managed alerts For Adobe Commerce](#managed-alerts-for-adobe-commerce)
 * [[!DNL Site-Wide Analysis Tool]](#site-wide-analysis-tool)
 * [[!DNL Quality Patches Tool]](#quality-patches-tool)
 
