@@ -32,6 +32,7 @@ The ACSD-47137 patch improves the loading speed of the [!UICONTROL Image Gallery
 1. When loading the page, Adobe Commerce sends `media_gallery/directories/gettree` request to load the media folder tree.
 
 <u>Expected results</u>:
+
 The `media_gallery/directories/gettree` request should load content only from the necessary directories, other than looping the entire path list from the `pub/media/` folder.
 
 <u>Actual results</u>:
