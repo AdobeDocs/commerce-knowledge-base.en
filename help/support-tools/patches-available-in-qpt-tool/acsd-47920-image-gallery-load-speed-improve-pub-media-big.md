@@ -20,7 +20,7 @@ The ACSD-47137 patch improves the loading speed of the [!UICONTROL Image Gallery
 
 ## Issue
 
- The loading speed of the [!UICONTROL Image Gallery] is slow when the [!UICONTROL pub/media] folder is very big.
+ The loading speed of the **[!UICONTROL Image Gallery]** is slow when the **[!UICONTROL pub/media]** folder is very big.
 
 <u>Steps to reproduce</u>:
 
