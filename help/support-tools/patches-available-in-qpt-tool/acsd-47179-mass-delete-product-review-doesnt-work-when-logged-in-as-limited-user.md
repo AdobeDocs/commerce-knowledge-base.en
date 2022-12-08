@@ -1,11 +1,11 @@
 ---
-title: "ACSD-47179: mass delete product review does not work when logged in as limited user role"
-description: Apply the ACSD-47179 patch to fix the Adobe Commerce issue where mass delete product review does not work when logged in as limited user role.
+title: "ACSD-47179: mass deletion of product reviews does not work when logged in as limited user role"
+description: Apply the ACSD-47179 patch to fix the Adobe Commerce issue where mass deletion of product reviews does not work when logged in as limited user role.
 ---
 
-# ACSD-47179: mass delete product review does not work when logged in as limited user role
+# ACSD-47179: mass deletion of product reviews does not work when logged in as limited user role
 
-The ACSD-47179 patch fixes the issue where mass deletion of product review does not work when logged in as a limited user role. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47179. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47179 patch fixes the issue where mass deletion of product reviews does not work when logged in as a limited user role. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47179. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -23,7 +23,7 @@ The ACSD-47179 patch fixes the issue where mass deletion of product review does 
 
 ## Issue
 
-Mass deletion of product review does not work when logged in as a limited user role.
+Mass deletion of product reviews does not work when logged in as a limited user role.
 
 <u>Steps to reproduce</u>:
 
@@ -32,9 +32,9 @@ Mass deletion of product review does not work when logged in as a limited user r
     * Catalog
     * Customer
     * Marketing
-1. Create a product assing to a secondary website.
+1. Create a product assigned to the secondary website.
 1. Add two reviews to the product from the frontend.
-1. Log in to the Commerce Admin using the restricted admin user just created.
+1. Log in to the [!UICONTROL Commerce Admin] using the restricted admin user just created.
 1. Try to mass delete pending reviews.
 
 <u>Expected results</u>:
@@ -50,7 +50,7 @@ You get the following error: "Something went wrong. Exception generated in suppo
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
 
 ## Related reading
 
