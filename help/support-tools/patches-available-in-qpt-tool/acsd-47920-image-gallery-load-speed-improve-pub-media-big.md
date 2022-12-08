@@ -24,7 +24,7 @@ The ACSD-47137 patch improves the loading speed of the [!UICONTROL Image Gallery
 
 <u>Steps to reproduce</u>:
 
-1. Go to the [!DNL Commerce] Admin > **[!UICONTROL STORES]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > Media Gallery > **[!UICONTROL Enable Old Media Gallery]** to _No_.
+1. Go to the [!DNL Commerce] Admin > **[!UICONTROL STORES]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Media Gallery]** > **[!UICONTROL Enable Old Media Gallery]** to _No_.
 1. Clean the config cache.
 1. Log out and log in as an admin user again.
 1. On the Admin sidebar, to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and select the root category.
