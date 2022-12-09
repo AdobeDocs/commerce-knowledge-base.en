@@ -370,6 +370,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-46856: Improves performance when updating tier prices](/help/support-tools/patches-available-in-qpt-tool/acsd-46856-improves-performance-when-updating-tier-prices.md)
     * [ACSD-46809: The user gets an error when assigning a large number of product sources](/help/support-tools/patches-available-in-qpt-tool/acsd-46809-the-user-gets-an-error-when-assigning-a-large-number-of-product-sources.md)
     * [ACSD-47666: search in User Roles does not work](/help/support-tools/patches-available-in-qpt-tool/acsd-47666-search-in-user-roles-not-working.md)
+    * [ACSD-47179: mass deletion of product reviews does not work when logged in as limited user role](/help/support-tools/patches-available-in-qpt-tool/acsd-47179-mass-delete-product-review-doesnt-work-when-logged-in-as-limited-user.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
