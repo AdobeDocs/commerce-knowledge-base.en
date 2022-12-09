@@ -15,4 +15,4 @@ In this video, you'll learn:
 
 To watch the video, go to [Business Intelligence - SQL Report Builder](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/sql-report-builder.html) in Adobe Experience League.
 
- **Want to follow along?** Check out our [SQL Report Builder tutorial](https://support.magento.com/hc/en-us/articles/360016504112) for written instructions.
+ **Want to follow along?** Check out our [SQL Report Builder tutorial](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) for written instructions.
