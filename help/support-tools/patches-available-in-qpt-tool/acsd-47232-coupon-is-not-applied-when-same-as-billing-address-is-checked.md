@@ -43,7 +43,7 @@ Coupon is applied.
 
 <u>Actual results</u>:
 
-You get error similar to the follwoing: "The 123 coupon code isn't valid. Verify the code and try again."
+You get an error similar to the following: *The 123 coupon code isn't valid. Verify the code and try again.*
 
 ## Apply the patch
 
