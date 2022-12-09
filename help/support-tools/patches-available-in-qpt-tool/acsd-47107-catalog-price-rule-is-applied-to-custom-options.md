@@ -28,7 +28,7 @@ Catalog price rule is applied to custom options.
 <u>Steps to reproduce</u>:
 
 1. Create a catalog price rule.
-1. Set it to *Apply as a percentage of original price* and add 10% discount.
+1. Set it to *Apply as a percentage of original price* and add a 10% discount.
 1. Select any product.
 1. Create a few custom options.
 1. Check the price on the frontend.
