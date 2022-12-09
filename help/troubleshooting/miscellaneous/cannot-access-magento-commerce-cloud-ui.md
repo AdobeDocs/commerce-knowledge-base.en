@@ -21,5 +21,5 @@ If you get a 403 error when accessing the URL for the first time, make sure you 
 
     The next time you access the main URL, it will default to the last environment you've visited.
 
-1. If you still cannot log in, сontact the license owner or a super user on the project and make sure they provided access for you as a **project-level user**, as described in step 5 of Manage user access to [Cloud projects > Manage users from the Project Web UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface) in our developer documentation.
+1. If you still cannot log in, сontact the license owner or a super user on the project and make sure they provided access for you as a **project-level user**, as described in step 5 in [Cloud projects > Manage users from the Project Web UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface) in our developer documentation.
 1. If the error persists, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
