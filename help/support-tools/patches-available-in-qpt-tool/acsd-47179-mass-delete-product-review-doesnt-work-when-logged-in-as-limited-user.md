@@ -43,7 +43,7 @@ Admin with sufficient permissions is able to mass delete pending reviews.
 
 <u>Actual results</u>:
 
-You get the following error: "Something went wrong. Exception generated in support_report.log"
+You get the following error: _Something went wrong. Exception generated in support_report.log_
 
 ## Apply the patch
 
