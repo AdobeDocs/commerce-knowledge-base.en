@@ -39,7 +39,7 @@ Mass deletion of product reviews does not work when logged in as a limited user 
 
 <u>Expected results</u>:
 
-Admin with sufficient permissions is able to mass delete pending reviews.
+An admin with sufficient permissions is able to mass delete pending reviews.
 
 <u>Actual results</u>:
 
