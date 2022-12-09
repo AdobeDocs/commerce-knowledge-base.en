@@ -27,12 +27,12 @@ Coupon is not applied when **[!UICONTROL Same as Billing Address]** is checked.
 
 <u>Steps to reproduce</u>:
 
-1. Install clean 2.4-develop.
+1. Install a clean 2.4-develop.
 1. Create a simple product with weight = *8*.
 1. Create a new customer with default billing and shipping address.
 1. Create a cart price rule with a coupon.
     * In **[!UICONTROL Conditions]** sections, add *Total Weight equals or greater than 5*
-1. Try to create a new order in the Commerce [!UICONTROL Admin].
+1. Try to create a new order in the [!UICONTROL Commerce] Admin.
     * Use the customer created just now 
     * Add a product
     * Try to apply the coupon
