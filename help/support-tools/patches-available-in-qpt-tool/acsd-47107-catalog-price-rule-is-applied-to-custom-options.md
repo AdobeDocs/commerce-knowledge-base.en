@@ -1,8 +1,8 @@
 ---
-title: "ACSD-47107: catalog price rule is applied to custom options"
+title: 'ACSD-47107: catalog price rule is applied to custom options'
 description: Apply the ACSD-47107 patch to fix the Adobe Commerce issue where catalog price rule is applied to custom options.
+exl-id: 5de2a87e-90c1-4a2a-a75c-7f9ca766868e
 ---
-
 # ACSD-47107: catalog price rule is applied to custom options
 
 The ACSD-47107 patch fixes the issue where the catalog price rule is applied to custom options. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47107. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
