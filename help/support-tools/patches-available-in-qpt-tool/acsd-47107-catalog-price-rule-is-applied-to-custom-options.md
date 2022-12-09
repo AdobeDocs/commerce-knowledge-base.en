@@ -35,7 +35,7 @@ Catalog price rule is applied to custom options.
 
 <u>Expected results</u>:
 
-Catalog price rule is not applied to custom options; it is only applied to the product original price.
+Catalog price rule is not applied to custom options; it is only applied to the product's original price.
 
 <u>Actual results</u>:
 
