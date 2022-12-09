@@ -1,8 +1,8 @@
 ---
-title: "ACSD-47232: coupon is not applied when [!UICONTROL Same as Billing Address] is checked"
+title: 'ACSD-47232: coupon is not applied when [!UICONTROL Same as Billing Address] is checked'
 description: Apply the ACSD-47232 patch to fix the Adobe Commerce issue where coupon is not applied when [!UICONTROL Same as Billing Address] is checked.
+exl-id: 29b95a0b-8792-4830-a1e5-ce977f8453ec
 ---
-
 # ACSD-47232: coupon is not applied when [!UICONTROL Same as Billing Address] is checked
 
 The ACSD-47232 patch fixes the issue where the coupon is not applied when **[!UICONTROL Same as Billing Address]** is checked. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47232. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
