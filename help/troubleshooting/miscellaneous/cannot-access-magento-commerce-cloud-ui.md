@@ -15,7 +15,7 @@ When trying to log in to your Adobe Commerce on cloud infrastructure UI for the 
 
 If you get a 403 error when accessing the URL for the first time, make sure you have a role in the master branch.
 
-1. Сontact the license owner or a super user on the project and make sure they provided access to you as an **environment-level user,** also described in [Cloud projects > Manage users from the Project Web UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface) in our developer documentation.
+1. Сontact the license owner or a super user on the project and make sure they provided access to you as an **environment-level user**, also described in [Cloud projects > Manage users from the Project Web UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface) in our developer documentation.
 
     If you only have an applicable role in a specific branch, then you would need to go to the URL for that branch, e.g., <https://region.magento.cloud/projects/PROJECTID/environments/allowed_branch>.
 
