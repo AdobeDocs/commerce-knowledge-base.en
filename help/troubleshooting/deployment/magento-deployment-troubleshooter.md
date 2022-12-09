@@ -148,7 +148,7 @@ b. NO – Review [Composer Troubleshooter webpage](https://getcomposer.org/doc/a
 
 +++**Long running processes(es)?**
 
-a. YES – Identify long running processes. Then to kill processes:
+a. YES – Identify long running processes and then kill processes:
 1. Run the following command in the terminal: `ps aufx`.
 1. Locate the PID of the long-running process.
 1. Terminate the process using `kill -9 <PID>`.
