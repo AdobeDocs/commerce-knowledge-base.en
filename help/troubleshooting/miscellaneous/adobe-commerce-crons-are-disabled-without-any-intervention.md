@@ -29,7 +29,7 @@ Your [!DNL crons] are disabled after deployment. You see _[!UICONTROL_INFO: Enab
 
 ## Cause
 
-You might not have pulled updates from templates. Check `opcache` configuration as the [!UICONTROL op-exclude.txt] file could contain incorrect paths. For steps, refer to _Find OPcache configuration settings_ in PHP settings in the Adobe Commerce [Installation Guide](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html).
+You might not have pulled updates from templates. Check `opcache` configuration as the [!UICONTROL op-exclude.txt] file could contain incorrect paths. For steps, refer to _Find OPcache configuration settings_ in [Installation Guide > PHP Settings](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html).
 
 ## Solution
 
