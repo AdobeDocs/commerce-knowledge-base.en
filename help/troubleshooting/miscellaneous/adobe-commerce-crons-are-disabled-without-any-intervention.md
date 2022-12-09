@@ -29,7 +29,7 @@ Your crons are disabled after deployment. You see _[!UICONTROL_INFO: Enable cron
 
 ## Cause
 
-You might not have pulled updates from templates. Check `opcache` configuration as the [!UICONTROL op-exclude.txt] file could contain incorrect paths. For steps, refer to _Find OPcache configuration settings_ in [Installation Guide > PHP settings](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html).
+You might not have pulled updates from templates. Check OPcache configuration as the [!UICONTROL op-exclude.txt] file could contain incorrect paths. For steps, refer to _Find OPcache configuration settings_ in [Installation Guide > PHP settings](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html).
 
 ## Solution
 
