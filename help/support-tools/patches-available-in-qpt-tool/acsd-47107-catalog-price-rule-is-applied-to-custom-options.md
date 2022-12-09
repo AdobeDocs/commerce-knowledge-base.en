@@ -39,7 +39,7 @@ Catalog price rule is not applied to custom options; it is only applied to the p
 
 <u>Actual results</u>:
 
-Catalog price rule is applyied to custom options.
+Catalog price rule is applied to custom options.
 
 ## Apply the patch
 
