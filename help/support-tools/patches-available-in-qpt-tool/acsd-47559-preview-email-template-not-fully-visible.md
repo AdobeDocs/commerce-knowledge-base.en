@@ -23,7 +23,7 @@ The ACSD-47559 patch fixes the issue where the email template preview is not ful
 
 ## Issue
 
-The preview email template area is not fully visible.
+The email template preview is not fully visible.
 
 <u>Steps to reproduce</u>:
 
@@ -35,7 +35,7 @@ The preview window is scaled according to the email template size.
 
 <u>Actual results</u>:
 
-The preview pop-up is opened with scrolling bars is an inconvenient way to preview an email template.
+The preview pop-up opens with scrolling bars which is an inconvenient way to preview an email template.
 
 ## Apply the patch
 
