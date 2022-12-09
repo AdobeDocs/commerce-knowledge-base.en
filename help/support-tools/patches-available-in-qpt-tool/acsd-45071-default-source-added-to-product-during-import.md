@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-46856: Improves performance when updating tier prices'
-description: Apply the ACSD-46856 patch to improve performance when updating tier prices via System &gt; Configuration &gt; Import &gt; Advanced Pricing.
-exl-id: c08560ef-94fa-4be4-9c59-d4b1b5e4186f
+title: 'ACSD-45071: default source added to product during import'
+description: The ACSD-45071 patch solves the issue where the default source is added to the product during import. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-45071. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+exl-id: 8d8dbb06-6133-4d7a-939a-8bf18caec81c
 ---
-# ACSD-46856: Updating of tier prices via System > Configuration > Import > Advanced Pricing is slow
+# ACSD-45071: default source added to product during import
 
-The ACSD-46856 patch improves performance when updating tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-46856. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-45071 patch solves the issue where the default source is added to the product during import. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-45071. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.4.3-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.3-p3
 
 >[!NOTE]
 >
@@ -23,19 +23,22 @@ The ACSD-46856 patch improves performance when updating tier prices via **[!UICO
 
 ## Issue
 
-Updating of tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]** is slow.
+After a product import, the default source is automatically assigned to the product, quantity is set to zero, and status is set to out of stock.
 
 <u>Steps to reproduce</u>:
 
-* Import a large number of products (Example: 10k+ or 200k+) via **System** > **Configuration** > **Import** > **Advanced Pricing**.
+1. Create a new source.
+1. Create a new stock using the new source.
+1. On the product edit page in Adobe Commerce Admin, assign only the custom stock, set some quantity, and set stock status to **[!UICONTROL In Stock]**.
+1. Import the product via **[!UICONTROL Admin]** > **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Import]**.
 
 <u>Expected results</u>:
 
-With the patch, the processing time is about 1:00 minute for 200k+ products.
+The default source is not automatically assigned to the product after importing.
 
 <u>Actual results</u>:
 
-Without the patch, the processing time is about 10:00 minutes for 10k+ products.
+The default source is assigned to the product after importing with out-of-stock status and zero quantity.
 
 ## Apply the patch
 

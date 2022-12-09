@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-46856: Improves performance when updating tier prices'
-description: Apply the ACSD-46856 patch to improve performance when updating tier prices via System &gt; Configuration &gt; Import &gt; Advanced Pricing.
-exl-id: c08560ef-94fa-4be4-9c59-d4b1b5e4186f
+title: 'ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront'
+description: Apply the ACSD-47076 patch to fix the Adobe Commerce issue where [!DNL Vimeo] videos cannot be played on the storefront.
+exl-id: 52161c0d-3d51-45a3-ba41-36f955df0bea
 ---
-# ACSD-46856: Updating of tier prices via System > Configuration > Import > Advanced Pricing is slow
+# ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront
 
-The ACSD-46856 patch improves performance when updating tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-46856. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47076 patch fixes the issue where [!DNL Vimeo] videos cannot be played on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-47076. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.4.3-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.1 - 2.4.3-p3
 
 >[!NOTE]
 >
@@ -23,19 +23,20 @@ The ACSD-46856 patch improves performance when updating tier prices via **[!UICO
 
 ## Issue
 
-Updating of tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]** is slow.
+[!DNL Vimeo] videos cannot be played on the storefront.
 
 <u>Steps to reproduce</u>:
 
-* Import a large number of products (Example: 10k+ or 200k+) via **System** > **Configuration** > **Import** > **Advanced Pricing**.
+1. Add a [!DNL Vimeo] video to a product in the Commerce [!UICONTROL Admin] > **[!UICONTROL Catalog]** > **[!UICONTROL Products]** > product edit page > **[!UICONTROL Images and Videos]**.
+1. Open the product on the storefront and play the video.
 
 <u>Expected results</u>:
 
-With the patch, the processing time is about 1:00 minute for 200k+ products.
+The [!DNL Vimeo] video can be played.
 
 <u>Actual results</u>:
 
-Without the patch, the processing time is about 10:00 minutes for 10k+ products.
+The [!DNL Vimeo] video cannot be played on the storefront.
 
 ## Apply the patch
 

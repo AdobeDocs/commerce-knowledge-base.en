@@ -371,6 +371,14 @@ breadcrumb-title: Commerce KB
     * [ACSD-46809: The user gets an error when assigning a large number of product sources](/help/support-tools/patches-available-in-qpt-tool/acsd-46809-the-user-gets-an-error-when-assigning-a-large-number-of-product-sources.md)
     * [ACSD-47666: search in User Roles does not work](/help/support-tools/patches-available-in-qpt-tool/acsd-47666-search-in-user-roles-not-working.md)
     * [ACSD-47179: mass deletion of product reviews does not work when logged in as limited user role](/help/support-tools/patches-available-in-qpt-tool/acsd-47179-mass-delete-product-review-doesnt-work-when-logged-in-as-limited-user.md)
+    * [ACSD-45071: default source added to product during import](/help/support-tools/patches-available-in-qpt-tool/acsd-45071-default-source-added-to-product-during-import.md)
+    * [ACSD-47076: Vimeo videos cannot be played on the storefront](/help/support-tools/patches-available-in-qpt-tool/acsd-47076-venmo-videos-cannot-be-played-on-the-storefront.md)
+    * [ACSD-47027: slow query in B2B [!UICONTROL CompanyRole] [!DNL GraphQL update]](/help/support-tools/patches-available-in-qpt-tool/acsd-47027-slow-query-b2b-companyrole-graphql-update.md)
+    * [ACSD-46519: product_count in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories](/help/support-tools/patches-available-in-qpt-tool/acsd-46519-product-count-categorylist-graphql-query-returns-zero-anchor-categories.md)
+    * [ACSD-47444: [!UICONTROL Trying to access array offset on value of type bool] error when accessing certain non-existing category paths for known products on PHP 7.4](/help/support-tools/patches-available-in-qpt-tool/acsd-47444-trying-access-array-offset-value-type-bool-error.md)
+    * [ACSD-47497: missing ACL for Store / Configuration / Services OAuth](/help/support-tools/patches-available-in-qpt-tool/acsd-47497-missing-acl-for-store-configuration-services-oaut.md)
+    * [ACSD-46815: static content deploy fails using compact strategy](/help/support-tools/patches-available-in-qpt-tool/acsd-46815-static-content-deploy-fails-when-using-compact-strategy.md)
+    * [ACSD-47559: email template preview not fully visible](/help/support-tools/patches-available-in-qpt-tool/acsd-47559-preview-email-template-not-fully-visible.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}

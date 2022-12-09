@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-46856: Improves performance when updating tier prices'
-description: Apply the ACSD-46856 patch to improve performance when updating tier prices via System &gt; Configuration &gt; Import &gt; Advanced Pricing.
-exl-id: c08560ef-94fa-4be4-9c59-d4b1b5e4186f
+title: 'ACSD-47559: email template preview for email not fully visible'
+description: Apply the ACSD-47559 patch to fix the Adobe Commerce issue where the email template preview is not fully visible.
+exl-id: de8c9001-5c4f-4ef3-a80a-92d69825ecb0
 ---
-# ACSD-46856: Updating of tier prices via System > Configuration > Import > Advanced Pricing is slow
+# ACSD-47559: email template preview not fully visible
 
-The ACSD-46856 patch improves performance when updating tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 is installed. The patch ID is ACSD-46856. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47559 patch fixes the issue where the email template preview is not fully visible. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.24 is installed. The patch ID is ACSD-47559. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5-p1
 
 >[!NOTE]
 >
@@ -23,26 +23,26 @@ The ACSD-46856 patch improves performance when updating tier prices via **[!UICO
 
 ## Issue
 
-Updating of tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]** is slow.
+The email template preview is not fully visible.
 
 <u>Steps to reproduce</u>:
 
-* Import a large number of products (Example: 10k+ or 200k+) via **System** > **Configuration** > **Import** > **Advanced Pricing**.
+* Add an email template or use an existing email template in the Adobe Commerce Admin > **[!UICONTROL Marketing]** > **[!UICONTROL Communications]** > **[!UICONTROL Email Templates]**.
 
 <u>Expected results</u>:
 
-With the patch, the processing time is about 1:00 minute for 200k+ products.
+The preview window is scaled according to the email template size.
 
 <u>Actual results</u>:
 
-Without the patch, the processing time is about 10:00 minutes for 10k+ products.
+The preview pop-up opens with scrolling bars which is an inconvenient way to preview an email template.
 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
 
 ## Related reading
 
