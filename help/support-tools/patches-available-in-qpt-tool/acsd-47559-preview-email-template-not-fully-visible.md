@@ -1,8 +1,8 @@
 ---
-title: "ACSD-47559: email template preview for email not fully visible"
+title: 'ACSD-47559: email template preview for email not fully visible'
 description: Apply the ACSD-47559 patch to fix the Adobe Commerce issue where the email template preview is not fully visible.
+exl-id: de8c9001-5c4f-4ef3-a80a-92d69825ecb0
 ---
-
 # ACSD-47559: email template preview not fully visible
 
 The ACSD-47559 patch fixes the issue where the email template preview is not fully visible. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.24 is installed. The patch ID is ACSD-47559. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
