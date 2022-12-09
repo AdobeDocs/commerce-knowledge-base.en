@@ -27,7 +27,7 @@ Coupon is not applied when **[!UICONTROL Same as Billing Address]** is checked.
 
 <u>Steps to reproduce</u>:
 
-1. Install a clean 2.4-develop.
+1. Install Adobe Commerce.
 1. Create a simple product with weight = *8*.
 1. Create a new customer with default billing and shipping address.
 1. Create a cart price rule with a coupon.
