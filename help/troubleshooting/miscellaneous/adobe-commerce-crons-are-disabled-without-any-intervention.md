@@ -17,7 +17,7 @@ Your [!DNL crons] are disabled after deployment.
 
 <u>Steps to reproduce</u>:
 
-Successfully deploy.
+Deploy.
 
 <u>Expected result</u>:
 
@@ -25,11 +25,11 @@ Your [!DNL crons] are running.
 
 <u>Actual result</u>:
 
-Your [!DNL crons] are disabled after deployment. You see **[!UICONTROL INFO: Enable cron]** in the deploy log.
+Your [!DNL crons] are disabled after deployment. 
 
 ## Cause
 
-You might not have pulled updates from templates. Check [!DNL OPcache] configuration as the [!UICONTROL op-exclude.txt] file could contain incorrect paths. For steps, refer to _Find OPcache configuration settings_ in [Installation Guide > PHP settings](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html).
+An issue with the [!DNL OPcache] settings.
 
 ## Solution
 
