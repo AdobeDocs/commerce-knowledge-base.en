@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce crons disabled without intervention
+title: Adobe Commerce [!DNL crons] disabled without intervention
 description: Use this article to fix the issue where [!DNL crons] are disabled without intervention. 
 ---
 
