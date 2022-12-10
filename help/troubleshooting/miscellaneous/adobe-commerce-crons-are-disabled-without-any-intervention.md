@@ -13,7 +13,7 @@ This article provides a solution for when [!DNL crons] are disabled without inte
 
 ## Issue
 
-Your crons are disabled after deployment. 
+Your [!DNL crons] are disabled after deployment. 
 
 <u>Steps to reproduce</u>:
 
