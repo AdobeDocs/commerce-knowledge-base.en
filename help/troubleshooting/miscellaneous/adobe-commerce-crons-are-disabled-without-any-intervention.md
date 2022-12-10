@@ -37,6 +37,6 @@ Upgrade [!DNL ECE Tools] to the latest version [2002.1.13](https://devdocs.magen
 
 ## Related reading
 
-* [Slow performance, slow and long running crons](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html) in our support knowledge base. 
+* [Slow performance, slow and long running [!DNL crons]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html) in our support knowledge base. 
 * [[!DNL Cron] tasks lock tasks from other groups](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=en) in our support knowledge base. 
 * [[!DNL Cron] job is stuck in "running" status](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=en) in our support knowledge base.
