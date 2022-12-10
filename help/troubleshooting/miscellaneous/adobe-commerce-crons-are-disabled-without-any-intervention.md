@@ -25,7 +25,7 @@ Your crons are running.
 
 <u>Actual result</u>:
 
-Your [!DNL crons] are disabled after deployment. You see `_INFO: Enable cron_` in the deploy log.
+Your [!DNL crons] are disabled after deployment. You see **[!UICONTROL INFO: Enable cron]** in the deploy log.
 
 ## Cause
 
