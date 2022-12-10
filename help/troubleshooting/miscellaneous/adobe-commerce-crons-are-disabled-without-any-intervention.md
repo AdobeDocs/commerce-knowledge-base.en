@@ -21,7 +21,7 @@ Successfully deploy.
 
 <u>Expected result</u>:
 
-Your crons are running.
+Your [!DNL crons] are running.
 
 <u>Actual result</u>:
 
