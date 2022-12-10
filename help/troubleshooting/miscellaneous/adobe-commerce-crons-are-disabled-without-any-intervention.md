@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce crons disabled without intervention
-description: Use this article to fix the issue where crons are disabled without intervention. 
+description: Use this article to fix the issue where [!DNL crons] are disabled without intervention. 
 ---
 
 # Adobe Commerce crons disabled without intervention
