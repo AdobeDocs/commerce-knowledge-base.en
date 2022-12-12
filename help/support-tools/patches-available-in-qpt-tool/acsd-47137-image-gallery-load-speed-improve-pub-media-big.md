@@ -1,6 +1,6 @@
 ---
 title: "ACSD-47137: improve [image gallery] loading speed pub/media folder big"
-description: Apply the ACSD-47137 patch to improve the loading speed of the image gallery when the [!UICONTROL pub/media] folder is very big.
+description: Apply the ACSD-47137 patch to improve the loading speed of the image gallery when the **[!UICONTROL pub/media]** folder is very big.
 ---
 
 # ACSD-47137: improve image gallery loading speed when [!UICONTROL pub/media] folder big
@@ -31,15 +31,15 @@ The ACSD-47137 patch improves the loading speed of the image gallery when the [!
 1. On the Admin sidebar, to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and select the root category.
 1. Expand the **[!UICONTROL Content]** section and click on **[!UICONTROL Select from Gallery]**.
 
-When loading the page, Adobe Commerce sends [!UICONTROL media_gallery/directories/gettree] request to load the media folder tree.
+When loading the page, Adobe Commerce sends media_gallery/directories/gettree request to load the media folder tree.
 
 <u>Expected results</u>:
 
-The [!UICONTROL media_gallery/directories/gettree] request should load content only from the necessary directories, other than looping the entire path list from the [!UICONTROL pub/media/] folder.
+The media_gallery/directories/gettree request should load content only from the necessary directories, other than looping the entire path list from the [!UICONTROL pub/media/] folder.
 
 <u>Actual results</u>:
 
-The [!UICONTROL media_gallery/directories/gettree] request takes a long time to load when the [!UICONTROL pub/media/] folder has lots of content.
+The media_gallery/directories/gettree request takes a long time to load when the [!UICONTROL pub/media/] folder has lots of content.
 
 ## Apply the patch
 
