@@ -21,11 +21,11 @@ The ACSD-47137 patch improves the loading speed of the image gallery when the [!
 
 ## Issue
 
- The loading speed of the **[!UICONTROL Image Gallery]** is slow when the **[!UICONTROL pub/media]** folder is very big.
+ The loading speed of the image gallery is slow when the **[!UICONTROL pub/media]** folder is very big.
 
 <u>Steps to reproduce</u>:
 
-1. Go to the [!DNL Commerce] Admin > **[!UICONTROL STORES]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Media Gallery]** > **[!UICONTROL Enable Old Media Gallery]** to _No_.
+1. Go to the Adobe Commerce Admin > **[!UICONTROL STORES]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Media Gallery]** > **[!UICONTROL Enable Old Media Gallery]** to _No_.
 1. Clean the config cache.
 1. Log out and log in as an admin user again.
 1. On the Admin sidebar, to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and select the root category.
