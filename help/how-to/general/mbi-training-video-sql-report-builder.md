@@ -10,7 +10,7 @@ Remember, **you need Admin permissions to access the SQL Report Builder!**
 In this video, you'll learn:
 
 * How to run a SQL query
-* How to [visualize your results](https://support.magento.com/hc/en-us/articles/360016504852) <!-- Link fails-->
+* How to [visualize your results](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) <!-- Link fails-->
 * How to save the report to a dashboard
 
 To watch the video, go to [Business Intelligence - SQL Report Builder](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/sql-report-builder.html) in Adobe Experience League.
