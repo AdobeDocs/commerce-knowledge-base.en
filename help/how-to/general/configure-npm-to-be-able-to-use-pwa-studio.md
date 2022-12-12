@@ -51,4 +51,3 @@ The changes come into effect after you Git push the updated YAML file to the env
 ## Related documentation
 
 * [Application configuration: hooks](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) in our Adobe Commerce on Cloud Infrastructure Guide.
-.
