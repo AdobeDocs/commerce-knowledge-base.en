@@ -30,7 +30,8 @@ The ACSD-47137 patch improves the loading speed of the image gallery when the [!
 1. Log out and log in as an admin user again.
 1. On the Admin sidebar, to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and select the root category.
 1. Expand the **[!UICONTROL Content]** section and click on **[!UICONTROL Select from Gallery]**.
-1. When loading the page, Adobe Commerce sends `media_gallery/directories/gettree` request to load the media folder tree.
+
+When loading the page, Adobe Commerce sends `media_gallery/directories/gettree` request to load the media folder tree.
 
 <u>Expected results</u>:
 
