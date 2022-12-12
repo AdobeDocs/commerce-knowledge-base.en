@@ -33,12 +33,14 @@ To set the needed NPM version, specify it in the `.magento.app.yaml` configurati
    [!NOTE]
    >
    >If you want to run [!DNL Node.JS] in your application and not just in your build run the following commands to change your [!UICONTROL      .environment] file configuration:
+
    ```
       echo 'unset NPM_CONFIG_PREFIX' >> .environment
       echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
       echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment
       echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> .environment
    ```
+
    >
      
  1. Save changes in the file.
