@@ -32,7 +32,7 @@ To set the needed NPM version, specify it in the `.magento.app.yaml` configurati
 
    >[!NOTE]
    >
-   >If you want to run [!DNL Node.JS] in your application and not just in your build run the following commands to change your [!UICONTROL      .environment] file configuration:
+   >If you want to run Node.JS in your application and not just in your build run the following commands to change your [!UICONTROL      .environment] file configuration:
 
    ```
       echo 'unset NPM_CONFIG_PREFIX' >> .environment
@@ -50,4 +50,5 @@ The changes come into effect after you Git push the updated YAML file to the env
 
 ## Related documentation
 
-* [Application configuration: hooks](https://devdocs.magento.com/guides/v2.2/cloud/project/project-conf-files_magento-app.html#hooks) in our developer documentation.
+* [Application configuration: hooks](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) in our Adobe Commerce on Cloud Infrastructure Guide.
+.
