@@ -1,5 +1,7 @@
+---
 title: "ACSD-47137: improve [!DNL Image Gallery] loading speed pub/media folder big"
 description: Apply the ACSD-47137 patch to improve the loading speed of the [!UICONTROL Image Gallery] when the [!UICONTROL pub/media] folder is very big.
+---
 
 # ACSD-47137: improve [!DNL Image Gallery] loading speed when pub/media folder big
 
