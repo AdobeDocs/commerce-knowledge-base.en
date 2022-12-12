@@ -1,11 +1,11 @@
 ---
-title: "ACSD-47137: improve [!DNL Image Gallery] loading speed pub/media folder big"
-description: Apply the ACSD-47137 patch to improve the loading speed of the [!UICONTROL Image Gallery] when the [!UICONTROL pub/media] folder is very big.
+title: "ACSD-47137: improve [image gallery] loading speed pub/media folder big"
+description: Apply the ACSD-47137 patch to improve the loading speed of the image gallery when the [!UICONTROL pub/media] folder is very big.
 ---
 
-# ACSD-47137: improve [!DNL Image Gallery] loading speed when pub/media folder big
+# ACSD-47137: improve image gallery loading speed when [!UICONTROL pub/media] folder big
 
-The ACSD-47137 patch improves the loading speed of the [!UICONTROL Image Gallery] when the [!UICONTROL pub/media] folder is very big. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47137. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47137 patch improves the loading speed of the image gallery when the [!UICONTROL pub/media] folder is very big. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47137. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
