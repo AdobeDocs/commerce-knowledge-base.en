@@ -28,7 +28,7 @@ The loading speed of the image gallery is slow when the **[!UICONTROL pub/media]
 1. Go to the Adobe Commerce Admin > **[!UICONTROL STORES]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Media Gallery]** > **[!UICONTROL Enable Old Media Gallery]** to _No_.
 1. Clean the config cache.
 1. Log out and log in as an admin user again.
-1. On the Admin sidebar, to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and select the root category.
+1. On the Admin sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and select the root category.
 1. Expand the **[!UICONTROL Content]** section and click on **[!UICONTROL Select from Gallery]**.
 
 When loading the page, Adobe Commerce sends **[!UICONTROL media_gallery/directories/gettree]** request to load the media folder tree.
