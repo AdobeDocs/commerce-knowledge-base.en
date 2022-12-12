@@ -29,6 +29,7 @@ To set the needed NPM version, specify it in the `.magento.app.yaml` configurati
            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
            nvm install 9.5.0
    ```
+
    [!NOTE]
    >
    >If you want to run [!DNL Node.JS] in your application and not just in your build do the following.
@@ -42,8 +43,9 @@ To set the needed NPM version, specify it in the `.magento.app.yaml` configurati
     echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> .environment
     ```
     >
-    1. Save changes in the file.
-    1. Git push the edited file to your [integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
+
+ 1. Save changes in the file.
+ 1. Git push the edited file to your [integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
 
 The changes come into effect after you Git push the updated YAML file to the environment.
 
