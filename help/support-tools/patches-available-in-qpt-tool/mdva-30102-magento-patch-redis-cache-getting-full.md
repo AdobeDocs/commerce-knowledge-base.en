@@ -36,7 +36,7 @@ Redis cache is getting full, and the allocated `maxmemory` appears to be insuffi
 1. Observe the Redis memory usage.
 1. Also, check current configuration and used memory. Run the following command in the CLI. It checks for used memory, maxmemory, evicted keys, and Redis up time in days:
 
-```clike
+```
 redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"
 ```
 

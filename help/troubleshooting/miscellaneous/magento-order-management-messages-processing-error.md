@@ -19,7 +19,7 @@ When running the following command in the CLI:
 
 An error message similar to the following is outputted in the CLI:
 
-```clike
+```
 <project-id>@<project-id>:~$ php bin/magento oms:messages:process
 
 Processing messages...
