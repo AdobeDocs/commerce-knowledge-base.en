@@ -1,11 +1,11 @@
 ---
-title: "ACSD-47920:  can place orders as guest user via Rest API when Allow Guest Checkout off"
-description: Apply the ACSD-47559 patch to fix the Adobe Commerce issue where orders can be placed via Rest API as a guest user even when the _Allow Guest Checkout_ is turned off.
+title: "ACSD-47920: can place orders as guest user via Rest API when [!UICONTROL Allow Guest Checkout] off"
+description: Apply the ACSD-47559 patch to fix the Adobe Commerce issue where orders can be placed via Rest API as a guest user even when the [!UICONTROL Allow Guest Checkout] is turned off.
 ---
 
-# ACSD-47920: orders as guest user via Rest API when Allow Guest Checkout off
+# ACSD-47920: orders as guest user via Rest API when [!UICONTROL Allow Guest Checkout] off
 
-The ACSD-47920 patch fixes the issue where the orders can be placed via Rest API as a guest user even when the _Allow Guest Checkout_ is turned off. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.24 is installed. The patch ID is ACSD-47920. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47920 patch fixes the issue where the orders can be placed via Rest API as a guest user even when the [!UICONTROL Allow Guest Checkout]_ is turned off. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.24 is installed. The patch ID is ACSD-47920. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -23,7 +23,7 @@ The ACSD-47920 patch fixes the issue where the orders can be placed via Rest API
 
 ## Issue
 
-Orders can be placed via Rest API as a guest user even when the _Allow Guest Checkout_ is turned off.
+Orders can be placed via Rest API as a guest user even when the [!UICONTROL Allow Guest Checkout]_ is turned off.
 
 <u>Steps to reproduce</u>:
 
