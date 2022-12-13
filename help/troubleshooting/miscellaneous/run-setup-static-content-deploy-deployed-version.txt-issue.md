@@ -11,7 +11,7 @@ This article provides a fix for `deployed_version.txt` is not writable error whe
 
 If you follow the Adobe Commerce on cloud infrastructure recommendations to use [Configuration Management](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) (and move static assets generation to the build stage in order to decrease website downtime during deployment), you may face the following error when running the `setup:static-content:deploy` command manually:
 
-```clike
+```
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy
 Requested languages: en_US
 Requested areas: frontend, adminhtml
@@ -30,6 +30,6 @@ We strongly do not recommend to run static content deploy manually because all a
 
 If you still want to run static content deployment, remove symlinks in the `pub/static` directory and run the `setup:static-content:deploy` command again:
 
-```clike
+```
 find pub/static/ -maxdepth 1 -type l -delete
 ```

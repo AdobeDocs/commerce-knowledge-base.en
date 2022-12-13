@@ -44,7 +44,7 @@ When a partial shipment is created from Admin via REST API for an order with *Su
     * Body =
     ```
 
-    ```clike
+    ```
      {      "items": [        {          "extension_attributes": {},          "order_item_id": {order_item_id},          "qty": 1        }      ]    }
     ```
 
