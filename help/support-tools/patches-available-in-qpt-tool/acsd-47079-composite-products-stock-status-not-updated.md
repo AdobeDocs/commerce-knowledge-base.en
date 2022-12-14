@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47079: composite products' stock status not updated when sub-product stock status changes'
+title: "ACSD-47079: composite products' stock status not updated when sub-product stock status changes"
 description: Apply the ACSD-47079 patch to fix the Adobe Commerce issue where composite products (bundle, grouped, and configurable) stock status is not updated when sub-product stock status changes via REST API POST /rest/V1/inventory/source-items.
 ---
 # ACSD-47079: composite products' stock status not updated when sub-product stock status changes
