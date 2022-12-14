@@ -37,7 +37,7 @@ Verify if you have the correct Fastly Service ID and API token in your environme
 
 If the credentials are correct, you may have issues with your VCLs. To list and review your VCLs per service, enter the following API call in a terminal:
 
-```clike
+```
 curl -X GET -s https://api.fastly.com/service/<Service ID>/version/<Editable Version #>/snippet -H "Fastly-Key:FASTLY_API_TOKEN"
 ```
 

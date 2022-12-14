@@ -7,7 +7,7 @@ exl-id: de689633-34b8-4a25-bbd0-a58742c4d03c
 
 This topic discusses a solution when your web browser displays a "*Cannot proxy to*" and the console displays an
 
-```clike
+```
 ENOTFOUND
 ```
 
@@ -31,7 +31,7 @@ error when using Progressive Web App (PWA) Studio for Adobe Commerce.
 
 * Your web browser displays the “*Cannot proxy to*“ error and the console displays an error like:
 
-```clike
+```
     ENOTFOUND
 ```
 
