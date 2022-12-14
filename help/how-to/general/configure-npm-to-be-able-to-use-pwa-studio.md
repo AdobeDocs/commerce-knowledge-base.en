@@ -32,17 +32,17 @@ To set the needed NPM version, specify it in the `.magento.app.yaml` configurati
 
    >[!NOTE]
    >
-   >If you want to run Node.JS in your application and not just in your build, please add the following commands to change your build hook: 
+   >If you want to run Node.JS in your application and not just in your build, please add the following commands to change your build hook:
 
-   ```
-   echo 'unset NPM_CONFIG_PREFIX' >> .environment
-   echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
-   echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment
-   echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> .environment
-   ```
+   > ```
+   > echo 'unset NPM_CONFIG_PREFIX' >> .environment
+   > echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
+   > echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment
+   > echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> .environment
+   > ```
 
-   >
-     
+   
+
  1. Save changes in the file.
  1. Git push the edited file to your [integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
 
