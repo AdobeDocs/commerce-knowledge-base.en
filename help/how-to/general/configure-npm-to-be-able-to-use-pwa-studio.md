@@ -40,6 +40,7 @@ To set the needed NPM version, specify it in the `.magento.app.yaml` configurati
    echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment
    echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> .environment
    ```
+
    >
      
  1. Save changes in the file.
