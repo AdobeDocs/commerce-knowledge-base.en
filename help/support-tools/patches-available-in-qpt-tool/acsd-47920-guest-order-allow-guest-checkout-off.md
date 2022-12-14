@@ -23,7 +23,7 @@ The ACSD-47920 patch fixes the issue where the orders can be placed via Rest API
 
 ## Issue
 
-Orders can be placed via Rest API as a guest user even when the [!UICONTROL Allow Guest Checkout]_ is turned off.
+Orders can be placed via Rest API as a guest user even when the **[!UICONTROL Allow Guest Checkout]** is turned off.
 
 <u>Steps to reproduce</u>:
 
@@ -32,7 +32,7 @@ Orders can be placed via Rest API as a guest user even when the [!UICONTROL Allo
 
 <u>Expected results</u>:
 
-Guest checkout APIs return an error _Sorry, guest checkout is not available_ if **[!UICONTROL Allow Guest Checkout]** is set to _No_.
+Guest checkout APIs return an error **[!UICONTROL Sorry, guest checkout is not available]** if **[!UICONTROL Allow Guest Checkout]** is set to _No_.
 
 <u>Actual results</u>:
 
