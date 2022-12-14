@@ -371,6 +371,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-46809: The user gets an error when assigning a large number of product sources](/help/support-tools/patches-available-in-qpt-tool/acsd-46809-the-user-gets-an-error-when-assigning-a-large-number-of-product-sources.md)
     * [ACSD-47666: search in User Roles does not work](/help/support-tools/patches-available-in-qpt-tool/acsd-47666-search-in-user-roles-not-working.md)
     * [ACSD-47076: Vimeo videos cannot be played on the storefront](/help/support-tools/patches-available-in-qpt-tool/acsd-47076-venmo-videos-cannot-be-played-on-the-storefront.md)
+    * [ACSD-47332: cron fails with error reported only when running between 00:00 to 00:59 UTC](/help/support-tools/patches-available-in-qpt-tool/acsd-47332-cron-fails-with-error-reported-between-00-59.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
