@@ -33,7 +33,6 @@ To set the needed NPM version, specify it in the `.magento.app.yaml` configurati
    >[!NOTE]
    >
    >If you want to run Node.JS in your application and not just in your build, please add the following commands to change your build hook:
-
    > ```
    > echo 'unset NPM_CONFIG_PREFIX' >> .environment
    > echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
