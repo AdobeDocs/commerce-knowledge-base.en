@@ -366,17 +366,24 @@ breadcrumb-title: Commerce KB
     * [ACSD-46869: Configurable products not updating using REST API at checkout](/help/support-tools/patches-available-in-qpt-tool/acsd-46869-configurable-products-not-updating-using-rest-api.md)
     * [ACSD-46618: Product list widget shows incorrect cached prices for logged-in customer](/help/support-tools/patches-available-in-qpt-tool/acsd-46618-product-list-widget-shows-incorrect-cached-prices-logged-in-customer.md)
     * [ACSD-46541: An admin user cannot create a credit memo if an order item is deleted](/help/support-tools/patches-available-in-qpt-tool/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.md)
+    * [ACSD-47232: coupon is not applied when Same as Billing Address is checked](/help/support-tools/patches-available-in-qpt-tool/acsd-47232-coupon-is-not-applied-when-same-as-billing-address-is-checked.md)
     * [ACSD-46581: Estimated tax total is not updated after selecting a country in the shopping cart](/help/support-tools/patches-available-in-qpt-tool/acsd-46581-estimated-tax-total-is-not-updated-after-selecting-a-country-in-the-shopping-cart.md)
     * [ACSD-46856: Improves performance when updating tier prices](/help/support-tools/patches-available-in-qpt-tool/acsd-46856-improves-performance-when-updating-tier-prices.md)
     * [ACSD-46809: The user gets an error when assigning a large number of product sources](/help/support-tools/patches-available-in-qpt-tool/acsd-46809-the-user-gets-an-error-when-assigning-a-large-number-of-product-sources.md)
     * [ACSD-47666: search in User Roles does not work](/help/support-tools/patches-available-in-qpt-tool/acsd-47666-search-in-user-roles-not-working.md)
+    * [ACSD-47179: mass deletion of product reviews does not work when logged in as limited user role](/help/support-tools/patches-available-in-qpt-tool/acsd-47179-mass-delete-product-review-doesnt-work-when-logged-in-as-limited-user.md)
     * [ACSD-45071: default source added to product during import](/help/support-tools/patches-available-in-qpt-tool/acsd-45071-default-source-added-to-product-during-import.md)
     * [ACSD-47076: Vimeo videos cannot be played on the storefront](/help/support-tools/patches-available-in-qpt-tool/acsd-47076-venmo-videos-cannot-be-played-on-the-storefront.md)
+    * [ACSD-47332: cron fails with error reported only when running between 00:00 to 00:59 UTC](/help/support-tools/patches-available-in-qpt-tool/acsd-47332-cron-fails-with-error-reported-between-00-59.md)
+    * [ACSD-47107: catalog price rule is applied to custom options](/help/support-tools/patches-available-in-qpt-tool/acsd-47107-catalog-price-rule-is-applied-to-custom-options.md)
     * [ACSD-47027: slow query in B2B [!UICONTROL CompanyRole] [!DNL GraphQL update]](/help/support-tools/patches-available-in-qpt-tool/acsd-47027-slow-query-b2b-companyrole-graphql-update.md)
     * [ACSD-46519: product_count in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories](/help/support-tools/patches-available-in-qpt-tool/acsd-46519-product-count-categorylist-graphql-query-returns-zero-anchor-categories.md)
     * [ACSD-47444: [!UICONTROL Trying to access array offset on value of type bool] error when accessing certain non-existing category paths for known products on PHP 7.4](/help/support-tools/patches-available-in-qpt-tool/acsd-47444-trying-access-array-offset-value-type-bool-error.md)
     * [ACSD-47497: missing ACL for Store / Configuration / Services OAuth](/help/support-tools/patches-available-in-qpt-tool/acsd-47497-missing-acl-for-store-configuration-services-oaut.md)
-    * [ACSD-47920: can place orders via Rest API as a guest user when the [!UICONTROL Allow Guest Checkout] is turned off](/help/support-tools/patches-available-in-qpt-tool/acsd-47920-guest-order-allow-guest-checkout-off.md)
+    * [ACSD-46815: static content deploy fails using compact strategy](/help/support-tools/patches-available-in-qpt-tool/acsd-46815-static-content-deploy-fails-when-using-compact-strategy.md)
+    * [ACSD-47559: email template preview not fully visible](/help/support-tools/patches-available-in-qpt-tool/acsd-47559-preview-email-template-not-fully-visible.md)
+    * [ACSD-47137: improves image gallery loading speed when pub/media folder big](/help/support-tools/patches-available-in-qpt-tool/acsd-47137-image-gallery-load-speed-improve-pub-media-big.md)
+    * [ACSD-47920: can place orders via Rest API as a guest user when the [!UICONTROL Allow Guest Checkout] is turned off](/help/support-tools/patches-available-in-qpt-tool/acsd-47920-gue
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
@@ -644,7 +651,7 @@ breadcrumb-title: Commerce KB
     * [Upgrade to version 10.0 DHL schema to continue offering DHL shipping](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md)
     * [Adobe Commerce status column missing exported products CSV file](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
     * [Cannot access New Relic on Adobe Commerce Cloud account](/help/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.md)
-
+    * [Adobe Commerce [!DNL crons] disabled without intervention](/help/troubleshooting/miscellaneous/adobe-commerce-crons-are-disabled-without-any-intervention.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)

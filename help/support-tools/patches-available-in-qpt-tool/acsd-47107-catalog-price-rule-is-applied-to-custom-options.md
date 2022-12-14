@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-46815: static content deploy fails using compact strategy'
-description: Apply the ACSD-46815 patch to fix the Adobe Commerce issue where static content deploy fails when using compact strategy.
-exl-id: e94a0911-5cd9-4866-a027-7ea3239555d3
+title: 'ACSD-47107: catalog price rule is applied to custom options'
+description: Apply the ACSD-47107 patch to fix the Adobe Commerce issue where catalog price rule is applied to custom options.
+exl-id: 5de2a87e-90c1-4a2a-a75c-7f9ca766868e
 ---
-# ACSD-46815: static content deploy fails when using compact strategy
+# ACSD-47107: catalog price rule is applied to custom options
 
-The ACSD-46815 patch fixes the issue where the static content deployment fails when the compact strategy is used. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://support.magento.com/hc/en-us/articles/360047139492) 1.1.20 is installed. The patch ID is ACSD-46815. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47107 patch fixes the issue where the catalog price rule is applied to custom options. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47107. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.4-p2
 
 >[!NOTE]
 >
@@ -23,30 +23,30 @@ The ACSD-46815 patch fixes the issue where the static content deployment fails w
 
 ## Issue
 
-Static content deployment fails when deploying with a compact strategy.
+Catalog price rule is applied to custom options.
 
 <u>Steps to reproduce</u>:
 
-1. Deploy the static content with a compact strategy by running the following command:
-
-```bash
-bin/magento setup:static-content:deploy -f -s compact
-```
+1. Create a catalog price rule.
+1. Set it to *Apply as a percentage of original price* and add a 10% discount.
+1. Select any product.
+1. Create a few custom options.
+1. Check the price on the frontend.
 
 <u>Expected results</u>:
 
-Static content deployment is completed without any error.
+Catalog price rule is not applied to custom options; it is only applied to the product's original price.
 
 <u>Actual results</u>:
 
-Static content deployment fails with a compact strategy. The following error occurs during the deployment process: *The contents from the /app/pub/static/adminhtml/Magento/base/default/./node_modules/@spectrum-css/vars/dist/spectrum-global.css file can't be read.*
+Catalog price rule is applied to custom options.
 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
 
 ## Related reading
 

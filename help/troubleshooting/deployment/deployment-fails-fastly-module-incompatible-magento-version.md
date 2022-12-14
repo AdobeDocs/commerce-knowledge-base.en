@@ -29,7 +29,7 @@ When you commit and push your changes to the Integration, Production, or Staging
 
 The deployment might fail with the following error messages:
 
-```clike
+```
 [2019-01-23 00:00:00] INFO: php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US
 [2019-01-23 00:00:00] CRITICAL:
   Requested languages: en_GB, en_US

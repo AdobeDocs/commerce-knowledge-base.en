@@ -33,7 +33,7 @@ The [bunch-size](https://devdocs.magento.com/guides/v2.4/inventory/inventory-cli
 
 You run the following command in the CLI to list reservation inconsistencies in the `inventory_reservation` table:
 
-```clike
+```
 magento inventory:reservation:list-inconsistencies
 ```
 
@@ -43,7 +43,7 @@ You see an unexpectedly large number of reservation inconsistencies and/or the c
 
 1. Run the following command in the CLI to resolve the inconsistencies:
 
-    ```clike
+    ```
     bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
     ```
 
@@ -52,7 +52,7 @@ You see an unexpectedly large number of reservation inconsistencies and/or the c
     * Use the Check/Money Order payment method, so the order status will be "pending".
 1. You can see three records with -1 quantity in the `inventory_reservation` table. Run the following command in the CLI to see any inconsistencies:
 
-    ```clike
+    ```
     bin/magento inventory:reservation:list-inconsistencies
     ```
 
@@ -60,7 +60,7 @@ You see an unexpectedly large number of reservation inconsistencies and/or the c
 
 1. Run the following command in the CLI:
 
-    ```clike
+    ```
     Execute bin/magento inventory:reservation:list-inconsistencies      --bunch-size 1
     ```
 
@@ -68,7 +68,7 @@ You see an unexpectedly large number of reservation inconsistencies and/or the c
 
 1. Run the following command in the CLI:
 
-    ```clike
+    ```
     bin/magento inventory:reservation:list-inconsistencies      -r --bunch-size 1 | bin/magento inventory:reservation:create-compensations
     ```
 

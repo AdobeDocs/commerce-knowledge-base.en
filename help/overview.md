@@ -30,121 +30,49 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
   </tr>
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.html"> Adobe Commerce post-deploy is skipped because deploy was failed error:</a> This article explains how to investigate a deployment error: Post-deploy is skipped because deploy was failed which occurs during deployment to different environments, for example upgrading.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46674-custom-options-image-type-displayed-html.html?lang=en"> ACSD-46674: custom options of image type displayed as HTML in customer emails:</a> The ACSD-46674 patch fixes the issue where the custom options of an image type are displayed as HTML in customer emails. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.21 is installed.
     </td>
     <td>New article</td>
-    <td> Nov 17, 2022</td>
+    <td> Dec 8, 2022</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.html"> Adobe Commerce status column missing exported products CSV file:</a> This article provides a solution for the issue when you cannot locate the status column (i.e., indicating whether the product is enabled or disabled) in the CSV file containing exported products.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.html?lang=en">Cannot access [!DNL New Relic] on Adobe Commerce Cloud project:</a> This article provides a solution for when you cannot access [!DNL New Relic] despite being added to an Adobe Commerce cloud project.
     <td>New article</td>
-    <td>Nov 17, 2022</td>
+    <td>Dec 8, 2022</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/int-biginit-schema-update-request.html"> Adobe Commerce database numeric value out of range, INT to BIGINT:</a> This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46856-improves-performance-when-updating-tier-prices.html?lang=en"> ACSD-46856: Updating of tier prices via [!UICONTROL System] > [!UICONTROL Configuration] > [!UICONTROL Import] > [!UICONTROL Advanced Pricing] is slow:</a> The ACSD-46856 patch improves performance when updating tier prices via [!UICONTROL System] > [!UICONTROL Configuration] > [!UICONTROL Import] > [!UICONTROL Advanced Pricing]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.21 is installed.
     </td>
     <td>New article</td>
-    <td>Nov 17, 2022</td>
+    <td>Dec 8, 2022</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.html">cURL error 60: SSL certificate expired:</a> This article shows how to check when the last time a branch was deployed after receiving a cURL error 60: SSL certificate expired in the Master or Integration branches on Adobe Commerce on cloud infrastructure.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47076-venmo-videos-cannot-be-played-on-the-storefront.html">ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront:</a> The ACSD-47076 patch fixes the issue where [!DNL Vimeo] videos cannot be played on the storefront. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.21 is installed.
     </td>
     <td>New article</td>
-    <td>Nov 17, 2022</td>
+    <td>Dec 8, 2022</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46988-graphql-currency-api-request-returns-null-values.html"> ACSD-46988: GraphQL currency API request returns null values:</a> The ACSD-46988 patch fixes the issue where the GraphQL currency API request returns null values for a custom currency. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46809-the-user-gets-an-error-when-assigning-a-large-number-of-product-sources.html?lang=en"> ACSD-46809: The user gets an error when assigning a large number of product sources:</a> The ACSD-46809 patch fixes the issue where the user gets an error when assigning a large number of product sources. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.21 is installed.
     </td>
     <td> New article </td>
-    <td> Nov 17, 2022</td>
+    <td> Dec 8, 2022</td>
  </tr>
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46618-product-list-widget-shows-incorrect-cached-prices-logged-in-customer.html"> ACSD-46618: Product list widget shows incorrect cached prices for a logged-in customer:</a> The ACSD-46618 patch solves the issue where the product list widget shows incorrect cached prices for a logged-in customer. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47666-search-in-user-roles-not-working.html">ACSD-47666: search in [!UICONTROL User Roles] does not work:</a> The ACSD-47666 patch solves the issue where the search in User Roles is not working. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.23 is installed.
     </td>
     <td>New article </td>
-    <td>Nov 17, 2022 </td>
-  </tr>
-
- <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46581-estimated-tax-total-is-not-updated-after-selecting-a-country-in-the-shopping-cart.html"> ACSD-46581: Estimated tax total is not updated after selecting a country in the shopping cart:</a> The ACSD-46581 patch solves the issue where the tax rate does not get updated after switching the country in the shopping cart. It updates only after selecting the shipping method. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
-    </td>
-    <td>New article</td>
-    <td>Nov 17, 2022</td>
-  </tr>
-
- <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.html"> ACSD-46541: An admin user cannot create a credit memo if an order item is deleted:</a> The ACSD-46541 patch fixes the issue where an admin user cannot create a credit memo if an order item is deleted. This patch is available when the Quality Patches Tool (QPT) 1.1.21 is installed.
-    </td>
-    <td>New article</td>
-    <td>Nov 17, 2022</td>
-  </tr>
-
-  <tr>
-   <td>
-   <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/change-current-adobe-account-email-address-to-new-address.html"> Change current Adobe account email address:</a> This article explains how to change the current email address registered in the Adobe account to a new address currently not registered in the Adobe account or the Magento account.
-   </td>
-   <td>New article</td>
-   <td>Nov 17, 2022</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/restore-a-db-snapshot-from-staging-or-production.html"> Restore a DB snapshot from Staging or Production:</a> This article shows how to restore a DB snapshot from Staging or Production on Adobe Commerce on cloud infrastructure.
-    </td>
-    <td>New article</td>
-    <td>Nov 17, 2022</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46869-configurable-products-not-updating-using-rest-api.html"> ACSD-46869: Configurable products not updating using REST API at checkout:</a> The ACSD-46869 patch fixes the issue where configurable products are not getting updated using REST API at checkout. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
-    </td>
-    <td>New article</td>
-    <td>Nov 17, 2022</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="/help/support-tools/patches-available-in-qpt-tool/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.md"> ACSD-45675: Product export uses category names from default store view scope: </a> The ACSD-45675 patch fixes the issue where the product export uses category names from the default store view scope. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
-    </td>
-    <td>New article</td>
-    <td>Nov 17, 2022</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="/help/support-tools/patches-available-in-qpt-tool/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.md"> ACSD-44851: Category with subcategories not able to open or expand: </a> The ACSD-44851 patch solves the issue where the user is unable to open or expand a category with subcategories. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
-    </td>
-    <td>New article</td>
-    <td>Nov 17, 2022</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="/help/support-tools/patches-available-in-qpt-tool/acsd-46703-product-customizable-options-drag-and-drop-doesnt-work-as-expected.md"> ACSD-46703: Product customization drag and drop does not work: </a> The ACSD-46703 patch fixes the issue where the product customizable options (drag and drop) do not work as expected. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
-    </td>
-    <td>New article</td>
-    <td>Nov 17, 2022</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="/help/support-tools/patches-available-in-qpt-tool/acsd-46520-incorrect-order-status-when-refunded-using-store-credits.md"> ACSD-46520: Incorrect order status when refunded using store credits: </a> The ACSD-46520 patch solves the issue where users get an incorrect order status when refunded using store credits. This patch is available when the Quality Patches Tool (QPT) 1.1.20 is installed.
-    </td>
-    <td>New article</td>
-    <td>Nov 17, 2022</td>
+    <td>Dec 8, 2022 </td>
   </tr>
 </table>
 

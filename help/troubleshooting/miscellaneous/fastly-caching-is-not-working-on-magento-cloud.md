@@ -47,49 +47,49 @@ First, check your **live site** to verify the response headers. The command goes
 
 1. In a terminal, enter the following command to test your live site URL:
 
-    ```clike
+    ```
     curl http://<live URL> -vo /dev/null -HFastly-Debug:1 [--resolve]
     ```
 
     Use `--resolve` only if your live URL isn't set up with DNS and you don't have a static route set. For example:
 
-    ```clike
+    ```
     curl http://www.mymagento.biz -vo /dev/null -HFastly-Debug:1
     ```
 
 1. Verify the response headers to ensure Fastly is working. The output for this command is similar to curl Staging and Production. For example, you should see the returned unique headers by this command:
 
-    ```clike
+    ```
     < Fastly-Magento-VCL-Uploaded: yes    < X-Cache: HIT, MISS
     ```
 
 To test **Staging** :
 
-```clike
+```
 curl http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
 To test **Production load balancer** :
 
-```clike
+```
 curl http[s]://<your domain>.c.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
 To test **Production Origin node** :
 
-```clike
+```
 curl http[s]://<your domain>.{1|2|3}.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
 A direct Origin node:
 
-```clike
+```
 curl http[s]://<your domain>.{1|2|3}.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
 For example, if you have a public URL www.mymagento.biz, enter a command similar to the following to test the production site:
 
-```clike
+```
 curl -k https://www.mymagento.biz.c.sv7gVom4qrpek.ent.magento.cloud -H 'Host: www.mymagento.biz' -vo /dev/null -HFastly-Debug:1
 ```
 
@@ -108,7 +108,7 @@ The following example shows the correct values for Pragma, X-Magento-Tags, and F
 
 The output for curl commands can be lengthy. The following is a summary only:
 
-```clike
+```
 * STATE: INIT => CONNECT handle 0x600057800; line 1402 (connection #-5000)
 * Rebuilt URL to: https://www.mymagento.biz.c.sv7gVom4qrpek.ent.magento.cloud/
 * Added connection 0. The cache now contains 1 members
@@ -158,7 +158,7 @@ To verify Fastly is enabled in Staging and Production, check the configuration i
     * In the "require" section, you should have "fastly/magento2": `<version number>`
     * In the "repositories" section, you should have:
 
-    ```clike
+    ```
     "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
     ```
 

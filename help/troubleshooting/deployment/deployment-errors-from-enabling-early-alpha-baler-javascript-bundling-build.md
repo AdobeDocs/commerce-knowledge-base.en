@@ -33,7 +33,7 @@ Successful deployment.
 
 The merchant sees the following error message in the deployment logs on the cloud, which is `<project home>/var/log/cloud.log`, upon the static content deploy stage:
 
-```clike
+```
 [2020-08-19 12:06:12] WARNING: [1007] Baler JS bundling cannot be used because of the following issues:
         [2020-08-19 12:06:12] WARNING:  - Path to baler executable could not be found. The Node package may not be installed or may not be linked.
 ```
