@@ -50,4 +50,4 @@ The solution for when the issue is caused by one and two is disconnecting the si
 
 ## Solution for cause three {#solution-for-cause-three}
 
-If the issue has been caused by cause three, ask an existing super user on the project to add your new email address to the project.
+If the issue has been caused by cause three, ask an existing super user on the project to add your new email address to the project. For more information, refer to [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
