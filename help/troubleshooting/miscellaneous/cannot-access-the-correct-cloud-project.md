@@ -17,7 +17,7 @@ When you log in to your cloud account at https://accounts.magento.cloud/user, th
 
 ## Cause
 
-This issue typically occurs when you are being signed on using the previous account owner's single sign-on integration with Adobe.com after:
+This issue typically happens when previous project owner's single sign-on (SSO) is still integrated with Adobe.com after:
 
 1. The cloud project ownership had been transferred to you (the user) and you see the original project owner's account. Click here for the [solution](#solution-for-cause-one-and-two).
 
