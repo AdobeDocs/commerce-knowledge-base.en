@@ -19,7 +19,7 @@ The problem is caused by parallel interfering processes on the Redis connection.
 
 To resolve, run `setup:static-content:deploy` in a single-thread mode by setting the following environment variable:
 
-```clike
+```
 STATIC_CONTENT_THREADS =1
 ```
 
@@ -77,7 +77,7 @@ Here, a process in `App/Config/Type/System.php` was expecting a response for `sy
 
 Disable parallelism and run `setup:static-content:deploy` in a single-thread mode by setting the following environment variable:
 
-```clike
+```
 STATIC_CONTENT_THREADS =1
 ```
 

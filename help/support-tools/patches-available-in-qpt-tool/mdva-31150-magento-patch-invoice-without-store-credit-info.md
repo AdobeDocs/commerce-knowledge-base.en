@@ -26,7 +26,7 @@ After the invoice order by API the used customer balance and gift card informati
 1. Find the customer record and click on **Edit** in the Action column, then **Store Credit** > Update the balance > **Save Customer**.
 1. Go to Storefront and add products to cart.
 1. Place an order by applying the store credit or gift card amount as partial payment.
-1. Create invoice using `REST API>POST>/rest/V1/order/1/invoice` with payload:    ```clike    { "capture": true, "items": [ { "extension_attributes": {}, "order_item_id": 3, "qty": 1 } ], "notify": true, "appendComment": true, "comment": { "extension_attributes": {}, "comment": "string", "is_visible_on_front": 0 }, "arguments": { "extension_attributes": {} }}    ```
+1. Create invoice using `REST API>POST>/rest/V1/order/1/invoice` with payload:    ```    { "capture": true, "items": [ { "extension_attributes": {}, "order_item_id": 3, "qty": 1 } ], "notify": true, "appendComment": true, "comment": { "extension_attributes": {}, "comment": "string", "is_visible_on_front": 0 }, "arguments": { "extension_attributes": {} }}    ```
 1. Get the invoice that was just created using `REST API>GET>/rest/V1/invoices/1`.
 
  <u>Expected result</u>

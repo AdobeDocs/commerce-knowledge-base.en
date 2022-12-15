@@ -25,7 +25,7 @@ This topic discusses a solution for when validation errors occur when running de
 
 * You see validation errors, which may look similar to:
 
-```clike
+```
     ⓧ  Missing required environment variables:         MAGENTO_BACKEND_URL: Connect to an instance of Adobe Commerce 2.3 by specifying its public domain name. (eg.         "https://master-7rqtwti-mfwmkrjfqvbjk.us-4.magentosite.cloud/")      ⚠  No .env file in ./packages/venia-concept. Autogenerate a .env file by running the command 'buildpack         create-env-file ./packages/venia-concept'.
 ```
 
@@ -37,7 +37,7 @@ The environment variables file for your local development environment is missing
 
 Make sure that you run the command
 
-```clike
+```
 npx @magento/pwa-buildpack create-env-file packages/venia-concept
 ```
 
