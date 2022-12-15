@@ -36,7 +36,7 @@ Guest checkout APIs return an error *[!UICONTROL Sorry, guest checkout is not av
 
 <u>Actual results</u>:
 
-Guest checkout APIs allow an order to be placed even if **[!UICONTROL Allow Guest Checkout]** is set to _No_.
+Guest checkout APIs allow an order to be placed even if [!UICONTROL Allow Guest Checkout] is set to _No_.
 
 ## Apply the patch
 
