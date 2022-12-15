@@ -27,7 +27,7 @@ Orders can be placed via Rest API as a guest user even when the **[!UICONTROL Al
 
 <u>Steps to reproduce</u>:
 
-1. Go to Adobe Commerce Admin > **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]** > **[!UICONTROL Allow Guest Checkout]** to _No_.
+1. Go to Adobe Commerce Admin > **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]** > and set the [!UICONTROL Allow Guest Checkout] to _No_.
 1. Use Rest API to add a product to a cart and place an order.
 
 <u>Expected results</u>:
