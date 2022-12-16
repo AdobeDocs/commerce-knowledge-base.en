@@ -383,6 +383,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-46815: static content deploy fails using compact strategy](/help/support-tools/patches-available-in-qpt-tool/acsd-46815-static-content-deploy-fails-when-using-compact-strategy.md)
     * [ACSD-47559: email template preview not fully visible](/help/support-tools/patches-available-in-qpt-tool/acsd-47559-preview-email-template-not-fully-visible.md)
     * [ACSD-47137: improves image gallery loading speed when pub/media folder big](/help/support-tools/patches-available-in-qpt-tool/acsd-47137-image-gallery-load-speed-improve-pub-media-big.md)
+    * [ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off](/help/support-tools/patches-available-in-qpt-tool/acsd-47920-guest-order-allow-guest-checkout-off.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
