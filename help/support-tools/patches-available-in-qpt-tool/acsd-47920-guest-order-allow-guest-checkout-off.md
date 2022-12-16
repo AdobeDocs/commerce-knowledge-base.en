@@ -32,11 +32,11 @@ Orders can be placed via Rest API as a guest user even when the **[!UICONTROL Al
 
 <u>Expected results</u>:
 
-Guest checkout APIs return an error *[!UICONTROL Sorry, guest checkout is not available]* if **[!UICONTROL Allow Guest Checkout]** is set to _No_.
+Guest checkout API returns an error *[!UICONTROL Sorry, guest checkout is not available]* if **[!UICONTROL Allow Guest Checkout]** is set to _No_.
 
 <u>Actual results</u>:
 
-Guest checkout APIs allow an order to be placed even if **[!UICONTROL Allow Guest Checkout]** is set to _No_.
+Guest checkout API allows an order to be placed even if **[!UICONTROL Allow Guest Checkout]** is set to _No_.
 
 ## Apply the patch
 
