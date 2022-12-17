@@ -1,11 +1,11 @@
 ---
-title: "ACSD-46770: order confirmation email is sent even when the [!UICONTROL Email order confirmation] is unchecked"
-description: Apply the ACSD-46770 patch to fix the Adobe Commerce issue where order confirmation emails are sent even when the [!UICONTROL Email order confirmation] is unchecked.
+title: "ACSD-46770: order confirmation email is sent even when the [!UICONTROL Email Order Confirmation] is unchecked"
+description: Apply the ACSD-46770 patch to fix the Adobe Commerce issue where order confirmation emails are sent even when the [!UICONTROL Email Order Confirmation] is unchecked.
 ---
 
-# ACSD-46770: an order confirmation email is sent even when the **[!UICONTROL Email order confirmation]** is unchecked
+# ACSD-46770: an order confirmation email is sent even when the **[!UICONTROL Email Order Confirmation]** is unchecked
 
-The ACSD-46770 patch fixes the issue where orders can be placed via REST API as a guest user even when the **[!UICONTROL Email order confirmation]** is turned off. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-46770. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-46770 patch fixes the issue where orders can be placed via REST API as a guest user even when the **[!UICONTROL Email Order Confirmation]** is turned off. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-46770. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -23,14 +23,14 @@ The ACSD-46770 patch fixes the issue where orders can be placed via REST API as 
 
 ## Issue
 
-An order confirmation email is sent even when the **[!UICONTROL Email order confirmation]** is unchecked.
+An order confirmation email is sent even when the **[!UICONTROL Email Order Confirmation]** is unchecked.
 
 <u>Steps to reproduce</u>:
 
 1. Create a customer account.
 1. Go to **[!UICONTROL Sales]** > **[!UICONTROL Order]** and click on  **[!UICONTROL Create New Order]**.
 1. Select the customer, add the products to the order, fill in the address, and select the Shipping and Payment methods.
-1. Before submitting the order, unselect the **[!UICONTROL Email order confirmation]** check box.
+1. Before submitting the order, unselect the **[!UICONTROL Email Order confirmation]** check box.
 1. Click on **[!UICONTROL Submit Order]** to create the order.
 
 <u>Expected results</u>:
