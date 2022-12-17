@@ -23,7 +23,7 @@ There are pages that need to be cached by Adobe Commerce. These pages have the b
 These pages are:
 
 * Catalog Category (PLP)
-* Catalog Product Page (DPD)
+* Product Details Page (PDP)
 * Static Content Pages (Home Page, Contact Us, etc.)
 
 Cacheable and uncacheable are terms used to indicate whether or not a page should be cached. By default, all pages are cacheable. However, if any block in a layout is designated as uncacheable, the entire page is uncacheable.
