@@ -1,15 +1,15 @@
 ---
 title: Cannot access correct Adobe Commerce cloud project
-description: This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project.
+description: This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project when there are changes in ownerships or changes in email addresses.
 exl-id: 165b9a18-6e84-4f0f-b377-a07152d55c9e
 ---
 # Cannot access the correct cloud project
 
-This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project.
+This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project when there are changes in ownerships or changes in email addresses.
 
 ## Issue
 
-When you log in to your cloud account at https://accounts.magento.cloud/user, the account is automatically switched to another user's account which prevents you from accessing the correct project.
+The issue when you are unable to access the correct cloud Adobe Commerce project when there are changes in ownerships or changes in email addresses.
 
 ## Affected products and versions
 
