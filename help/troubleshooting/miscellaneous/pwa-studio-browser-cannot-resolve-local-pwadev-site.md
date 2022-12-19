@@ -29,5 +29,5 @@ You can [manually edit your hostfile](https://support.rackspace.com/how-to/modif
 
 * [PWA Studio: Self-signed certificate trust error](https://support.magento.com/hc/en-us/articles/360038973172)
 * [PWA Studio: Webpack hangs before beginning compilation](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
-* [PWA Studio: Browser displays “Cannot proxy to“ error](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
+* [PWA Studio: Browser displays "Cannot proxy to" error](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
 * [PWA Studio: Validation errors when running developer mode](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)

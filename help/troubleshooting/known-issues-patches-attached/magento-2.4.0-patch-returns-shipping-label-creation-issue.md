@@ -1,11 +1,11 @@
 ---
 title: 'Adobe Commerce 2.4.0 patch: returns shipping label creation issue'
-description: This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers’ returns.
+description: This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers' returns.
 exl-id: f78f8d7e-29e9-4d6c-83f6-cd5afa1d7d9c
 ---
 # Adobe Commerce 2.4.0 patch: returns shipping label creation issue
 
-This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers’ returns.
+This article provides a patch for the known Adobe Commerce 2.4.0 issue when there is a problem with printing a shipping label for customers' returns.
 
 ## Affected products and versions
 
@@ -47,9 +47,9 @@ For instructions, see [How to apply a composer patch provided by Adobe](/help/ho
 
 ## Related readings in our support knowledge base:
 
-* [Adobe Commerce 2.4.0 known issue: raw message data display on storefront](https://support.magento.com/hc/en-us/articles/360045804332)
+* [Adobe Commerce 2.4.0 known issue: raw message data display on storefront](/help/troubleshooting/storefront/magento-2.4.0-issue-storefront-raw-message-data-display.md)
 * [Adobe Commerce 2.4.0 known issue: Export Tax Rates does not work](/help/troubleshooting/miscellaneous/magento-2.4.0-known-issue-export-tax-rates-does-not-work.md)
-* [Adobe Commerce 2.4.0 known issue: “Add selections to my cart” button does not work](/help/troubleshooting/miscellaneous/magento-2.4.0-add-selections-to-my-cart-does-not-work.md)
+* [Adobe Commerce 2.4.0 known issue: "Add selections to my cart" button does not work](/help/troubleshooting/miscellaneous/magento-2.4.0-add-selections-to-my-cart-does-not-work.md)
 * [Adobe Commerce 2.4.0 known issue: Braintree payment methods do not show up in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2.4.0-braintree-not-in-multiple-addresses-checkout.md)
 * [Adobe Commerce 2.4.0 B2B Admin can't add configurable product to quote](/help/troubleshooting/miscellaneous/magento-2.4.0-b2b-admin-can-t-add-configurable-product-to-quote.md)
 * [Adobe Commerce 2.4.0 known issue: orders display error](/help/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.md)

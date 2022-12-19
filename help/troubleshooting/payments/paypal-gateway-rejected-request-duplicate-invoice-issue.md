@@ -24,7 +24,7 @@ To resolve the problem, allow multiple payments per invoice ID in PayPal's Payme
 
 When submitting payment, customers see the error message:
 
-```clike
+```
 ... main.CRITICAL: Exception message: PayPal gateway has rejected request. Payment has already been made for this InvoiceID (#10412: Duplicate invoice).
 ```
 
