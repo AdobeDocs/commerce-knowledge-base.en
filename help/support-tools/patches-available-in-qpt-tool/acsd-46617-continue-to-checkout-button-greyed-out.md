@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-46617: "Continue to Checkout" button greyed out when subtotal greater than "Minimum Order Amount"'
-description: Apply the ACSD-46617 patch to solve the Adobe Commerce issue where the "Continue to Checkout" button is greyed out even if the subtotal is greater than the configured "Minimum Order Amount".
+title: 'ACSD-46617: "[!UICONTROL Continue to Checkout]" button greyed out when subtotal greater than "[!UICONTROL Minimum Order Amount]"'
+description: Apply the ACSD-46617 patch to solve the Adobe Commerce issue where the "[!UICONTROL Continue to Checkout]" button is greyed out even if the subtotal is greater than the configured "[!UICONTROL Minimum Order Amount]".
 ---
-# ACSD-46617: "Continue to Checkout" button greyed out when subtotal greater than "Minimum Order Amount"
+# ACSD-46617: "[!UICONTROL Continue to Checkout]" button greyed out when subtotal greater than "[!UICONTROL Minimum Order Amount]"
 
-This ACSD-46617 patch solves the issue where the "Continue to Checkout" button is greyed out even if the subtotal is greater than the configured "Minimum Order Amount". This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-46617. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+This ACSD-46617 patch solves the issue where the *[!UICONTROL Continue to Checkout]* button is greyed out even if the subtotal is greater than the configured *[!UICONTROL Minimum Order Amount]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-46617. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -22,20 +22,52 @@ This ACSD-46617 patch solves the issue where the "Continue to Checkout" button i
 
 ## Issue
 
-"Continue to Checkout" button is greyed out even if the subtotal is greater than the configured "Minimum Order Amount".
+The *[!UICONTROL Continue to Checkout]* button is greyed out even if the subtotal is greater than the configured *[!UICONTROL Minimum Order Amount]*.
 
 <u>Steps to reproduce</u>:
 
-1. Enable Minimum Order Amount in Admin > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Minimum Order Amount]**.
+1. Enable *[!UICONTROL Minimum Order Amount]* in Admin > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Minimum Order Amount]**.
 
-    * Enable: Yes
-    * Minimum Amount: 2
+    * [!UICONTROL Enable: Yes]
+    * [!UICONTROL Minimum Amount]: 2
 
-1. Create a Cart Price Rule.
+1. Create a [!UICONTROL Cart Price Rule].
 
-    * Coupon Code: TEST (optional)
-    * Conditions: Keep empty
-    * Actions:
-        * Apply: Percent of product price discount
-        * Discount Amount: 92
-        * Apply to Shipping Amount: Yes
+    * [!UICONTROL Coupon Code: TEST (optional)]
+    * [!UICONTROL Conditions: Keep empty]
+    * [!UICONTROL Actions]:
+        * [!UICONTROL Apply: Percent of product price discount]
+        * [!UICONTROL Discount Amount]: 92
+        * [!UICONTROL Apply to Shipping Amount: Yes]
+
+1. Create a product with the price of $25.
+1. Add the product to the cart.
+1. Go to the shopping cart, select the $5 **[!UICONTROL Flat Rate shipping]** method and apply the coupon code.
+1. Go to the checkout, complete the shipping, and navigate to the **[!UICONTROL Paytment]** section.
+1. Go back to the shopping cart.
+
+<u>Expected results</u>:
+
+No error related to the minimum order amount occurs as the grand total of $2.4 is greater than the required amount of $2.
+
+<u>Actual results</u>:
+
+* An error related to the minimum Order amount occurs even when the grand total of $2.4 is greater than the minimum order amount of $2.
+* The proceed to checkout button is greyed out.
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
+
+For info about other patches available in QPT, refer to [Patches available in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
+
