@@ -1,9 +1,9 @@
 ---
-title: 'Adobe Commerce 2.4.0: “Add selections to my cart” does not work'
+title: 'Adobe Commerce 2.4.0: "Add selections to my cart" does not work'
 description: This article provides a workaround for a broken button known issue in the Commerce Admin when managing a customer's shopping cart. When trying to add selected products to a customer's shopping cart, the **Add selections to my cart** button located on the bottom of the section does not work. This issue occurs on any Admin panel page that contains two **Add selections to my cart** buttons. A permanent fix will be available in Adobe Commerce 2.4.1.
 exl-id: b0830ec2-2aea-4afb-8d02-e9c8f54283be
 ---
-# Adobe Commerce 2.4.0: “Add selections to my cart” does not work
+# Adobe Commerce 2.4.0: "Add selections to my cart" does not work
 
 This article provides a workaround for a broken button known issue in the Commerce Admin when managing a customer's shopping cart. When trying to add selected products to a customer's shopping cart, the **Add selections to my cart** button located on the bottom of the section does not work. This issue occurs on any Admin panel page that contains two **Add selections to my cart** buttons. A permanent fix will be available in Adobe Commerce 2.4.1.
 
@@ -34,6 +34,6 @@ The **Add selections to my cart** button located on the top of the page is still
 ## Related reading
 
 * [MerchDocs' Managing a Shopping Cart](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html) in our user guide.
-* [Adobe Commerce 2.4.0 known issue: raw message data display on storefront](https://support.magento.com/hc/en-us/articles/360045804332) in our support knowledge base.
+* [Adobe Commerce 2.4.0 known issue: raw message data display on storefront](/help/troubleshooting/storefront/magento-2.4.0-issue-storefront-raw-message-data-display.md) in our support knowledge base.
 * [Adobe Commerce 2.4.0 known issue: Export Tax Rates does not work](/help/troubleshooting/miscellaneous/magento-2.4.0-known-issue-export-tax-rates-does-not-work.md) in our support knowledge base.
 * [Adobe Commerce 2.4.0 known issue: Braintree payment methods do not show up in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2.4.0-braintree-not-in-multiple-addresses-checkout.md) in our support knowledge base.

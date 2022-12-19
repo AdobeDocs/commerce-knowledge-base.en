@@ -11,7 +11,7 @@ exl-id: 6ceeb2ea-528d-4c03-ab2b-c5aed46fd0a2
 
 >[!WARNING]
 >
->Please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.
+>Please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailing your required service upgrade and stating the time when you want the upgrade process to start.
 
 This article discusses a fix for problems during deployment after upgrading to Adobe Commerce on cloud infrastructure versions 2.3.1+, if you are on Elasticsearch versions 2.x and 5.x.
 
@@ -37,7 +37,7 @@ When deploying you see an error message similar to the following, indicating tha
 To solve this issue, the Elasticsearch client module and Elasticsearch service need to be on the latest recommended versions:
 
 1. Follow the instructions to [change the Elasticsearch module](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html) in our developer documentation so you have the latest recommended version of the Elasticsearch client module.
-1. [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) and request an Elasticsearch service update to 6.x on staging and production. Please note that an upgrade to the Elasticsearch service may take some time to complete.
+1. [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and request an Elasticsearch service update to 6.x on staging and production. Please note that an upgrade to the Elasticsearch service may take some time to complete.
 
 ## Related reading
 
