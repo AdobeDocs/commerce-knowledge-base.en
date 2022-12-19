@@ -1,6 +1,6 @@
 ---
 title: "ACSD-46865: [!UICONTROL shipment] and [!UICONTROL credit memo] not populated when [!UICONTROL asynchronous indexing] is enabled"
-description: Apply the ACSD-46865 patch to fix the Adobe Commerce issue where shipment and credit memo grids are not populated when [!UICONTROL asynchronous indexing] is enabled.
+description: Apply the ACSD-46865 patch to fix the Adobe Commerce issue where [!UICONTROL shipment] and [!UICONTROL credit memo] grids are not populated when [!UICONTROL asynchronous indexing] is enabled.
 ---
 
 # ACSD-46865: [!UICONTROL shipment] and [!UICONTROL credit memo] not populated when [!UICONTROL asynchronous indexing] is enabled
@@ -28,25 +28,25 @@ The ACSD-46865 patch fixes the issue where [!UICONTROL shipment] and [!UICONTROL
 <u>Steps to reproduce</u>:
 
 1. In the [!DNL Commerce] Admin, go to **[!UICONTROL Set Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Developer]** > **[!UICONTROL Grid Settings]** > **[!UICONTROL Asynchronous indexing Enable]** = *YES*.
-2. Go to **Set Stores** > **Settings** > **Configuration** > **Sales** > **Sales** > **Orders** > **Invoices** > **Shipments** > **Credit Memos Archiving** > **Enable Archiving** = *YES*.
+2. Again go to **Set Stores** > **Settings** > **Configuration** > **Sales** > **Sales** > **Orders** > **Invoices** > **Shipments** > **Credit Memos Archiving** > **Enable Archiving** = *YES*.
 3. Clean config cache.
 4. Place a new guest order for a simple product.
 5. Run cron.
-6. Open the order in Admin > Sales > Orders and generate an invoice and a credit memo.
-7. Move the order to Archive.
+6. Open the order in the [!UICONTROL Commerce] Admin by going to **[!UICONTROL Sales]** > **[!UICONTROL Orders]** and generate an invoice and a credit memo.
+7. Move the order to [!UICONTROL Archive].
 8. Create another order for a simple product.
 9. Run cron.
 10. Go to the new order and generate a new shipment, an invoice, and a credit memo.
 11. Run cron.
-12. Check the shipments, invoices, and credit memo grids in the admin.
+12. Check the [!UICONTROL shipments], [!UICONTROL invoices], and [!UICONTROL credit memo] grids in the admin.
 
 <u>Expected results</u>:
 
-New shipment, invoice and credit memo are displayed.
+New [!UICONTROL shipment], [!UICONTROL invoice] and [!UICONTROL credit memo] are displayed.
 
 <u>Actual results</u>:
 
-New shipment, invoice, and credit memo are not displayed.
+New [!UICONTROL shipment], [!UICONTROL invoice], and [!UICONTROL credit memo] are not displayed.
 
 ## Apply the patch
 
