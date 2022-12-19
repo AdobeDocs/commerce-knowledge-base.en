@@ -11,7 +11,7 @@ Stuck deployments and failed deployments on Adobe Commerce can be solved using t
 
 +++**Is Adobe Commerce on cloud infrastructure service up?**
 
-Stuck Deployment – Is Adobe Commerce on cloud infrastructure service up? Check [Adobe Magento Commerce Cloud](https://status.adobe.com/products/3350/).
+Stuck Deployment – Is Adobe Commerce on cloud infrastructure service up? Check [Adobe Commerce Cloud](https://status.adobe.com/products/3350/).
 
 a. YES – Proceed to [Step 2](#step-2).  
 b. NO – Maintenance or global outages. Check for estimated duration and updates.
