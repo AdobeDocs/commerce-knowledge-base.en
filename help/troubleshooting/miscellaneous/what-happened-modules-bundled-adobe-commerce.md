@@ -13,27 +13,16 @@ This article provides a solution for when modules included in previous Adobe Com
 
 ## Issue
 
-You cannot install a module or have found that some core extensions are not present when you upgraded to Adobe Commerce 2.4.4. This should only result from installing a module that requires one of the removed bundled extensions.
+You cannot install a module or have found that some core extensions are not present when you upgraded to Adobe Commerce 2.4.4. This should only result from installing a module that requires one of the bundled extensions removed from Adobe Commerce 2.4.4.
 
-<u>Steps to reproduce</u>:
+Scenario 1: You have a module that has no other modules extending or requiring that module. This module is not included in Adober Commerce 2.4.4. 
+Scenario 2: You have a module installed in your current version of Adobe Commerce that has 3rd party modules that extend or require that mdoule. This module is not present in Adobe Commerce 2.4.4. 
 
-You try to install a module, as part of installing Adobe Commerce 2.4.4.
+Scenario 1: After successfully upgrading to Adober Commerce 2.4.4 you realize that the module is missing. 
 
-<u>Expected result</u>:
+Scenario 2: You receive upgrade/composer errors. 
 
-You successfully install the module.
-
-<u>Actual result</u>:
-
-You have the following error message when you run `composer update` in the terminal: _Your requirements could not be resolved to an installable set of packages_. 
-
-Or when running the command: `bin/magento setup:upgrade` in the terminal you see an error that indicates the module was not install. For example:
-
-_Service with name "Magento\Setup\Console\Command\DbStatusCommand" could not be created. Reason: Class "Vertex\Tax\Setup\Schema\Triggers\MigrateVertexInvoiceSent" does not exist_ 
-
-## Cause
-
-The Vendor-Bundled Extensions have been removed from the Adobe Commerce 2.4.4 code base. 
+This is expected behavior as the Vendor-Bundled Extensions have been removed from the Adobe Commerce 2.4.4 code base. 
 
 ## Solution
 
