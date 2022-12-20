@@ -24,13 +24,12 @@ The ACSD-45168 patch fixes the issue where SEO-friendly URLs are not generated f
 
 SEO-friendly URLs are not generated for products that have url_key attributes overridden on the store-view level.
 
-
 <u>Steps to reproduce</u>:
 
 1. Set the configuration as follows by going to the **[!UICONTROL Commerce Admin]** > **[UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[UICONTROL Catalog]** > **[UICONTROL Catalog]** > **[Search Engine Optimization]**:
     * [!UICONTROL Use Categories Path for Product URLs] = *Yes*
     * [!UICONTROL Generate "category/product" URL Rewrites] = *Yes*
-1. Clean the config cache.
+1. Clean the configuration cache.
 1. Create two categories: [!UICONTROL Category 1] and [!UICONTROL Category 2].
 1. Create two products: [!UICONTROL Product 1] in [!UICONTROL Category 1], [!UICONTROL Product 2] in [!UICONTROL Category 1].
 1. Change the scope to [!UICONTROL Default Store View] for [UICONTROL Product 1].
@@ -42,11 +41,11 @@ SEO-friendly URLs are not generated for products that have url_key attributes ov
 
 <u>Expected results</u>:
 
-The SEO-friendly URL for Category 2 is created for Product 1.
+The SEO-friendly URL for [!UICONTROL Category 2] is created for [!UICONTROL Product 1].
 
 <u>Actual results</u>:
 
-The SEO-friendly URL for Category 2 is missing for Product 1 because it had the URL key attribute overwritten for the store view scope.
+The SEO-friendly URL for [!UICONTROL Category 2] is missing for [!UICONTROL Product 1] because it had the URL key attribute overwritten for the store view scope.
 
 ## Apply the patch
 
