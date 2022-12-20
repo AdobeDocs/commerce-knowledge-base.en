@@ -381,6 +381,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-47497: missing ACL for Store / Configuration / Services OAuth](/help/support-tools/patches-available-in-qpt-tool/acsd-47497-missing-acl-for-store-configuration-services-oaut.md)
     * [ACSD-46815: static content deploy fails using compact strategy](/help/support-tools/patches-available-in-qpt-tool/acsd-46815-static-content-deploy-fails-when-using-compact-strategy.md)
     * [ACSD-47559: email template preview not fully visible](/help/support-tools/patches-available-in-qpt-tool/acsd-47559-preview-email-template-not-fully-visible.md)
+    * [ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden](/help/support-tools/patches-available-in-qpt-tool/acsd-45168-seo-friendly-urls-not-generated-for-products-that-have%20-url-key-attributes-overridden-on-store-view-level.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
