@@ -47,7 +47,7 @@ The database backup created by running the `mysqldump` command and saved in `\tm
 
 To obtain your DB credentials (host, username, and password), you might call the `MAGENTO_CLOUD_RELATIONSHIPS` environment variable:
 
-```clike
+```
 echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 ```
 

@@ -62,6 +62,6 @@ Don't worry! File a new support ticket (be sure to include your MBI account's em
 
 ## Related topics in our support knowledge base:
 
-* [Adding a new user and setting permissions](https://support.magento.com/hc/en-us/articles/360016731291-Adding-a-user-account-and-setting-permissions)
-* [How do I update my email address or password?](https://support.magento.com/hc/en-us/articles/360016732631-How-do-I-update-my-email-address-or-password-)
-* [How do I reset my password?](https://support.magento.com/hc/en-us/articles/360016506432-How-do-I-reset-my-password-)
+* [Adding a new user and setting permissions](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
+* [How do I update my email address or password?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html)
+* [How do I reset my password?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html)
