@@ -24,13 +24,13 @@ Having maintenance mode enabled prevents the site to load.
 
 To check the current maintenance mode status, run the following command from the CLI:
 
-```clike
+```
 bin/magento maintenance:status
 ```
 
 To disable maintenance mode, run the following command in CLI:
 
-```clike
+```
 bin/magento maintenance:disable
 ```
 

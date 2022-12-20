@@ -25,7 +25,7 @@ Memory overflow can cause the Redis service to crash. During peak time, the Redi
 
 To check current configuration and used memory, run the following command in the CLI. It checks for used memory, maxmemory, evicted keys, and Redis up time in days:
 
-```clike
+```
 redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"
 ```
 

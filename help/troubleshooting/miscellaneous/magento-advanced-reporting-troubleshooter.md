@@ -74,9 +74,9 @@ Check counter value in flag table by running this query: ``SELECT * FROM `flag` 
 a. YES – Take the following steps: 1. Run the query below:  
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``  
 2\. [Disable and Enable Advanced Reporting module](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) in settings and [reauthorize the token](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active).  
-3\. Wait 24 hours for Adobe Commerce and Advanced Reporting to synchronize. If you still can't see data in Advanced Reporting, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).  
+3\. Wait 24 hours for Adobe Commerce and Advanced Reporting to synchronize. If you still can't see data in Advanced Reporting, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 b. NO – If the query does not return anything, take the following steps: 1. [Disable and Enable Advanced Reporting module](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) in settings and [reauthorize the token](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active).  
-2\. Wait 24 hours for Adobe Commerce and Advanced Reporting to synchronize. If you still can't see data in Advanced Reporting, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+2\. Wait 24 hours for Adobe Commerce and Advanced Reporting to synchronize. If you still can't see data in Advanced Reporting, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
@@ -100,7 +100,7 @@ d. NO – If there are no records, proceed to [Step 8](#step-8).
 Run the command: `zgrep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz | tail`
 
 a. YES – If the output from the query indicates a successful job, for example `Cron Job analytics_collect_data is successfully finished` proceed to [Step 9](#step-9).  
-b. NO – If there are no records in the log, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).  
+b. NO – If there are no records in the log, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 c. YES – If there are records but there is an error, proceed to [Step 10](#step-10).
 
 +++
@@ -111,7 +111,7 @@ c. YES – If there are records but there is an error, proceed to [Step 10](#ste
 
 To check that the file `data.tgz` exists, run command: `ls -ltr pub/media/analytics//` To check that there are records in access.logs, run command: `zgrep -i analytics /var/log/platform//access.log* | grep MagentoBI`
 
-a. YES – If the file `data.tgz` is present and there are records in the access logs, but you still have a 404 error, you need to [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).  
+a. YES – If the file `data.tgz` is present and there are records in the access logs, but you still have a 404 error, you need to [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 b. NO – Proceed to [Step 10](#step-10).
 
 +++
@@ -123,7 +123,7 @@ b. NO – Proceed to [Step 10](#step-10).
 Example: `report.ERROR: Cron Job analytics_collect_data has an error: substr_count() expects parameter 1 to be string, null given. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384} [] []`
 
 a. YES – Use the MDVA-19391 patch in [Common Advanced Reporting cron job errors on Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md), wait 24 hours for the job to run again and try again.  
-b. NO – [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+b. NO – [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 

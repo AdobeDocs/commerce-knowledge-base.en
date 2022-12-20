@@ -11,7 +11,7 @@ This is expected behavior: the `setup:di:compile` command should not be run manu
 
 We strongly do not recommend running `setup:di:compile` manually, but if you have a reason to do so, you need to set the following environment variable to make `var/di` and `var/generation` folders writable:
 
-```clike
+```
 GENERATED_CODE_SYMLINK = disabled
 ```
 
@@ -29,7 +29,7 @@ Note that with code symlink generation disabled, the deployment downtime increas
 
 Running the `the setup:di:compile` command manually fails with the following error:
 
-```clike
+```
 web@<path>:~$ php bin/magento setup:di:compile
 The file "/app/var/generation/<path/to/resource>" cannot be deleted Warning!unlink(/app/var/generation/Composer/Console/ApplicationFactory.php): Read-only file system#0 /app/vendor/magento/framework/Filesystem/Driver/File.php(405): Magento\Framework\Filesystem\Driver\File->deleteFile('/app/var/genera...')
 #1 /app/vendor/magento/framework/Filesystem/Driver/File.php(403): Magento\Framework\Filesystem\Driver\File->deleteDirectory('/app/var/genera...')
@@ -58,7 +58,7 @@ It is not a defect but an expected behavior on cloud environments. You should no
 
 Make the `var/di` and `var/generation` directories writable by setting the environment variable below:
 
-```clike
+```
 GENERATED_CODE_SYMLINK = disabled
 ```
 
