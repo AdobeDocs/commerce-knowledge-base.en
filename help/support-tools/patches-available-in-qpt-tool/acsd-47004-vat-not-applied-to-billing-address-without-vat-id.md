@@ -29,35 +29,40 @@ VAT is not applied to a billing address without a VAT ID.
 
 1. Open the [!UICONTROL Commerce Admin] > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Customer Configuration]** > **[!UICONTROL Create New Account Options]** and set the **Enable Automatic Assignment to Customer Group** to *Yes*.
 1. Set different groups for VAT ID validations. For example:
-
+![VAT-ID-validations](assets/vat-id-validations.png)
 1. Register a new customer.
 1. Add a new default address without VAT. For example:  
+    ```
     123 N University Dr
     Edmond, 73034
     Germany
     T: 0900000000
+    ```
 1. Verify the customer's group remains General.
 1. Edit this address and add a valid VAT number:
+    ```
     123 N University Dr
     Edmond, 73034
     Germany
     T: 0900000000
     VAT: DE329376919
-1. Make sure that the customer's group has changed to Retailer.
-1. Edit the address and remove the VAT number
+    ```
+1. Make sure that the customer's group has changed to [!UICONTROL Retailer].
+1. Edit the address and remove the VAT number:
+    ```
     123 N University Dr
     Edmond, 73034
     Germany
     T: 0900000000
-1. 
+    ```
 
 <u>Expected results</u>:
 
-The customer group is changed to the default General group automatically.
+The customer group is changed to the default [!UICONTROL General] group automatically.
 
 <u>Actual results</u>:
 
-The customer group is not changed to the default General group automatically.
+The customer group is not changed to the default [!UICONTROL General] group automatically.
 
 ## Apply the patch
 
