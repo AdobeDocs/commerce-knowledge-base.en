@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL show out of stock] enabled".
+title: "ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL show out of stock] enabled"
 description: Apply the ACSD-48234 patch to fix the Adobe Commerce issue where the Catalog search result shows an incorrect category item count when the [!UICONTROL show out of stock] option is enabled.
 ---
 
