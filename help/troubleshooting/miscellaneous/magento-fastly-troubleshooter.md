@@ -11,7 +11,7 @@ This Fastly troubleshooter for Adobe Commerce users will guide you to the soluti
 
 +++**Customer reports a problem involving Fastly. Is the Fastly service down?**
 
-a. YES – Check [Fastly Service Status](https://status.fastly.com/), and [submit an Adobe Commerce support ticket](https://support.magento.com/hc/en-us/articles/360019088251).  
+a. YES – Check [Fastly Service Status](https://status.fastly.com/), and [submit an Adobe Commerce support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 b. NO – Proceed to [Step 2](#step-2).
 
 +++
@@ -57,7 +57,7 @@ b. NO – The issue is likely DNS related. The customer should [check DNS config
 +++**Do you get a "Connection Insecure" or "Not Secure" message returned when running `curl -svo /dev/null "https://website.com"` in the CLI/terminal?**
 
 a. YES – This is likely a certificate issue. Visit the website in a browser and select the lock icon and look for a certificate expiration. Proceed to [Step 6](#step-6).  
-b. NO – Visit [http://fastly-debug.com](http://www.fastly-debug.com/) and share this information in an [Adobe Commerce support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+b. NO – Visit [http://fastly-debug.com](http://www.fastly-debug.com/) and share this information in an [Adobe Commerce support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
