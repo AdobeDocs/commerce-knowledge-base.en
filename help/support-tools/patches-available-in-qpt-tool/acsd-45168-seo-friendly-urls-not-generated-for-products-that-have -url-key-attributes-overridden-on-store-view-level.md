@@ -26,18 +26,18 @@ SEO-friendly URLs are not generated for products that have url_key attributes ov
 
 <u>Steps to reproduce</u>:
 
-1. Set the configuration as follows by going to the **[!UICONTROL Commerce Admin]** > **[UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[UICONTROL Catalog]** > **[UICONTROL Catalog]** > **[Search Engine Optimization]**:
+1. Set the configuration as follows by going to the **[!UICONTROL Commerce Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog]** > **[!UICONTROL Search Engine Optimization]**:
     * [!UICONTROL Use Categories Path for Product URLs] = *Yes*
     * [!UICONTROL Generate "category/product" URL Rewrites] = *Yes*
 1. Clean the configuration cache.
 1. Create two categories: [!UICONTROL Category 1] and [!UICONTROL Category 2].
 1. Create two products: [!UICONTROL Product 1] in [!UICONTROL Category 1], [!UICONTROL Product 2] in [!UICONTROL Category 1].
-1. Change the scope to [!UICONTROL Default Store View] for [UICONTROL Product 1].
+1. Change the scope to [!UICONTROL Default Store View] for [!UICONTROL Product 1].
 1. Uncheck the optional URL [!UICONTROL Key] in [!UICONTROL Search Engine Optimization].
 1. Save the product.
 1. Switch back to [!UICONTROL All Store Views].
 1. Add [!UICONTROL Product 1] to [!UICONTROL Category 2], and add [!UICONTROL Product 2] to [!UICONTROL Category 2].
-1. Check the [!UICONTROL url_rewrite] table or [!UICONTROL Marketing] > [!UICONTROL SEO & Search] > [!UICONTROL URL Rewrites}.
+1. Check the [!UICONTROL url_rewrite] table or [!UICONTROL Marketing] > [!UICONTROL SEO & Search] > [!UICONTROL URL Rewrites].
 
 <u>Expected results</u>:
 
