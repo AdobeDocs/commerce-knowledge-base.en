@@ -28,7 +28,7 @@ The catalog search result shows an incorrect category item count when the **[!UI
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product] and open **[!UICONTROL color]** attribute.
 1. Add two options, for example orange and green. Save the attribute.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Attribute Set] and add the **[!UICONTROL color]** attribute to the **[!UICONTROL Default]** attribute set.
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL CATALOG]** > **[UICONTROL Inventory]** > **[!UICONTROL Stock Options]** and set **[!UICONTROL Display Out of Stock Products]** to _Yes_.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL CATALOG]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock Options]** and set **[!UICONTROL Display Out of Stock Products]** to _Yes_.
 1. Create category "cat1".
 1. Create two products:
   1. Name: prod1, Color: orange, Categories: cat1.
