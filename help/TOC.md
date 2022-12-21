@@ -1,5 +1,5 @@
 ---
-user-guide-title: Adobe Commerce Knowldge Base
+user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Everything you need to troubleshoot and maintain your Commerce store.
 breadcrumb-title: Commerce KB
 ---
