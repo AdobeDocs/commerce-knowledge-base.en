@@ -21,25 +21,27 @@ The ACSD-48234 patch solves the issue where the catalog search result shows inco
 
 ## Issue
 
-The catalog search result shows an incorrect category item count when the **[!UICONTROL show out of stock]** option is enabled.
+The catalog search result shows an incorrect category item count when the **[!UICONTROL Display Out of Stock Products]** option is enabled.
 
 <u>Steps to reproduce</u>:
 
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product] and open **[!UICONTROL color]** attribute.
 1. Add two options, for example orange and green. Save the attribute.
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Attribute Set] and add the **[!UICONTROL color]** attribute to the **[!UICONTROL Default]** attribute set.
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL CATALOG]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock Options]** and set **[!UICONTROL Display Out of Stock Products]** to _Yes_.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Attribute Set]** and add the **[!UICONTROL color]** attribute to the **[!UICONTROL Default]** attribute set.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL CATALOG]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock Options]** and set **[!UICONTROL Display Out of Stock Products]** to _Yes_.
 1. Create category "cat1".
 1. Create two products:
-  1. Name: prod1, Color: orange, Categories: cat1.
-  1. Name: prod2, Color: green, Categories: cat1.
+    1. Name: prod1, Color: orange, Categories: cat1.
+    1. Name: prod2, Color: green, Categories: cat1.
 1. Open cat1 category on the storefront.
 1. Select the orange color at the layered navigation.
 
 <u>Expected results</u>:
+
 Only prod1 product is shown.
 
 <u>Actual results</u>:
+
 Both prod1 and prod2 products are shown.
 
 ## Apply the patch
