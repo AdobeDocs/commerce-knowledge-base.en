@@ -387,6 +387,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off](/help/support-tools/patches-available-in-qpt-tool/acsd-47920-guest-order-allow-guest-checkout-off.md)
     * [ACSD-46770: order confirmation email is sent even when [!UICONTROL Email order confirmation] is unchecked](/help/support-tools/patches-available-in-qpt-tool/acsd-46770-an-order-confirmation-email-is-sent-even-when-the-email-order-confirmation-is-unchecked.md)
     * [ACSD-47336: [!UICONTROL Something went wrong] error notifications dismissed Adobe Commerce Admin](/help/support-tools/patches-available-in-qpt-tool/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.md)
+    * [ACSD-47520: customers lose reward points when a credit memo is created](/help/support-tools/patches-available-in-qpt-tool/acsd-47520-customers-lose-reward-points-when-credit-memo-created.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
