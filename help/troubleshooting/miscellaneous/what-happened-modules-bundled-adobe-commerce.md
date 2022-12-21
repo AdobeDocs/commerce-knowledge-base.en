@@ -15,7 +15,7 @@ This article provides a solution for when modules included in previous Adobe Com
 
 You cannot install a module or have found that some core extensions are not present when you upgraded to Adobe Commerce 2.4.4. This should only result from installing a module that requires one of the bundled extensions removed from Adobe Commerce 2.4.4.
 
-Scenario 1: You have a module that has no other modules extending or requiring that module. This module is not included in Adobe Commerce 2.4.4. 
+Scenario 1: The project has utilized one of the core bundled module's functionality. The utilized bundled module is not included in Adobe Commerce 2.4.4. 
 Scenario 2: You have a module installed in your current version of Adobe Commerce that has 3rd party modules that extend or require that mdoule. This module is not present in Adobe Commerce 2.4.4. 
 
 Scenario 1: After successfully upgrading to Adobe Commerce 2.4.4 you realize that the module and its provided functionality are missing.
