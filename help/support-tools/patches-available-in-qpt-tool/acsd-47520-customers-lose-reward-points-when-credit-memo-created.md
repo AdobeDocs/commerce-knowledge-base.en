@@ -25,7 +25,7 @@ Customers lose reward points when a credit memo is created.
 
 <u>Steps to reproduce</u>:
 
-1. Go the Adobe Commerce Admin > **[!UICONTROL Store]** > **[!UICONTROL Setting]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[UICONTROL Rewards Points]**.
+1. Go the Adobe Commerce Admin > **[!UICONTROL Store]** > **[!UICONTROL Setting]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Rewards Points]**.
 1. Change the setting:
   * Enable Reward Points Functionality = _Yes_
   * Enable Reward Points Functionality on Storefront = _Yes_
