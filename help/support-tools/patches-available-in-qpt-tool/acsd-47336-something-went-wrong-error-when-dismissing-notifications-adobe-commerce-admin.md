@@ -1,8 +1,8 @@
 ---
-title: "ACSD-47336: [!UICONTROL Something went wrong] error when dismissing notifications in Adobe Commerce Admin"
+title: 'ACSD-47336: [!UICONTROL Something went wrong] error when dismissing notifications in Adobe Commerce Admin'
 description: Apply the ACSD-47336 patch to fix the Adobe Commerce issue where the user sees [!UICONTROL Something went wrong] error when dismissing notifications in the [!DNL Commerce] Admin.
+exl-id: 7561f055-ce04-4a49-8c58-271c24420a60
 ---
-
 # ACSD-47336: _[!UICONTROL Something went wrong]_ error when dismissing notifications in Adobe Commerce Admin
 
 The ACSD-47336 patch fixes the issue where the user sees the _[!UICONTROL Something went wrong]_ error when dismissing notifications in the [!DNL Commerce] Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47336. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
