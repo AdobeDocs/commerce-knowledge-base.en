@@ -21,7 +21,7 @@ To download it, scroll down to the end of the article and click the file name, o
 
 After applying the patch run the following SQL query. The query has to be run to change records in `cron_schedule` table.
 
-```clike
+```
 UPDATE core_config_data
 SET `path` = REPLACE(path, "crontab/default/jobs/analytics", "crontab/analytics/jobs/analytics")
 WHERE `path` LIKE "crontab/default/jobs/analytics%";

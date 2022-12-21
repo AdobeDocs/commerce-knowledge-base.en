@@ -11,7 +11,7 @@ Stuck deployments and failed deployments on Adobe Commerce can be solved using t
 
 +++**Is Adobe Commerce on cloud infrastructure service up?**
 
-Stuck Deployment – Is Adobe Commerce on cloud infrastructure service up? Check [Adobe Magento Magento Commerce Cloud](https://status.adobe.com/products/3350/).
+Stuck Deployment – Is Adobe Commerce on cloud infrastructure service up? Check [Adobe Commerce Cloud](https://status.adobe.com/products/3350/).
 
 a. YES – Proceed to [Step 2](#step-2).  
 b. NO – Maintenance or global outages. Check for estimated duration and updates.
@@ -23,7 +23,7 @@ b. NO – Maintenance or global outages. Check for estimated duration and update
 +++**SSH successful to all nodes?**
 
 a. YES – Proceed to [Step 3](#step-3).  
-b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
@@ -32,7 +32,7 @@ b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/article
 +++**All services running?**
 
 a. YES – Proceed to [Step 4](#step-4).  
-b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
@@ -94,7 +94,7 @@ b. NO – Review [Manage disk space](https://devdocs.magento.com/cloud/project/m
 
 +++**_file could not be written Warning_?**
 
-a. YES – Please [increase the disk value in .magento.app.yaml](https://devdocs.magento.com/cloud/project/manage-disk-space.html#application-disk-space) and redeploy. If this does not work, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).  
+a. YES – Please [increase the disk value in .magento.app.yaml](https://devdocs.magento.com/cloud/project/manage-disk-space.html#application-disk-space) and redeploy. If this does not work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 b. NO – Proceed with [Step 11](#step-11).
 
 +++
@@ -112,7 +112,7 @@ b. NO – Proceed with [Step 7](#step-7).
 
 +++**Elasticsearch being upgraded or deployed?**
 
-a. YES – Elasticsearch failed upgrade steps. Refer to [Elasticsearch software compatibility](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). If the Elasticsearch upgrade still doesn't work, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251). **Note**: On Adobe Commerce on cloud infrastructure, please be aware that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within the desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production, [submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251) detailing your required service upgrade and stating the time when you want the upgrade process to start.  
+a. YES – Elasticsearch failed upgrade steps. Refer to [Elasticsearch software compatibility](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). If the Elasticsearch upgrade still doesn't work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Note**: On Adobe Commerce on cloud infrastructure, please be aware that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within the desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailing your required service upgrade and stating the time when you want the upgrade process to start.  
 b. NO – Proceed to [Step 13](#step-13).
 
 +++
@@ -148,7 +148,13 @@ b. NO – Review [Composer Troubleshooter webpage](https://getcomposer.org/doc/a
 
 +++**Long running processes(es)?**
 
-a. YES – Identify long running processes, kill process, and monitor deployments for reoccurrence.  
+a. YES – Identify long running processes and then kill processes:
+1. Run the following command in the terminal: `ps aufx`.
+1. Locate the PID of the long-running process.
+1. Terminate the process using `kill -9 <PID>`.
+
+Monitor deployments for reoccurrence.  
+
 b. NO – Proceed to [Step 17](#step-17).
 
 +++
@@ -178,7 +184,7 @@ b. NO – Proceed to [Step 19](#step-19).
 [Check slow query log and MySQL show processlist](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md). 
 
 a. YES – Kill any long running queries. Review [MySQL Kill Syntax.](https://dev.mysql.com/doc/refman/8.0/en/kill.html)  
-b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
@@ -186,7 +192,7 @@ b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/article
 
 +++**Downgrading Elasticsearch versions?**
 
-a. YES – Can't be done through configuration. [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).  
-b. NO – [Submit a support ticket](https://support.magento.com/hc/en-us/articles/360019088251).
+a. YES – Can't be done through configuration. [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
+b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 [Back to Step 1](#step-1)

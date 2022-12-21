@@ -29,7 +29,7 @@ The default value of 16MB for the MySQL `max_allowed_packets` setting is not lar
 1. For quick remediation, you can temporarily request the `max_allowed_packet` size to be increased when you [submit a ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), but this is at the discretion of the Customer Engineering team, as too large of a value can cause replication failures by causing network congestion.
 1. As a best practice, you should run the following command in your CLI for some of your large database tables:
 
-   ```clike
+   ```
    show table status like [table name to match]
    ```
 

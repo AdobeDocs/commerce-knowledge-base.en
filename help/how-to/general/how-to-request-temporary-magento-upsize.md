@@ -80,9 +80,9 @@ The following information is available for each resize request:
 
 * For insights, methods, and examples of how to measure and improve site performance, refer to the following in-depth articles in our support knowledge base:
     * [CPU allocation calculation for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
-    * [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html?lang=en)
+    * [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
     * [Check host’s CPU configuration for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
-* For information on how to identify outages, refer to [Identify and measure outages for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=en) in our support knowledge base.
+* For information on how to identify outages, refer to [Identify and measure outages for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) in our support knowledge base.
 * For information on improving site performance to avoid the need for utilizing an increase in capacity, refer to these articles in our developer documentation:
     * [Image Sizing](https://docs.magento.com/m2/ee/user_guide/catalog/product-image-resizing.html?_ga=2.180036580.1101564187.1584392801-2014893147.1552329962)
     * [Full Page Caching](https://docs.magento.com/m2/ee/user_guide/system/cache-full-page.html?_ga=2.206252883.1101564187.1584392801-2014893147.1552329962)

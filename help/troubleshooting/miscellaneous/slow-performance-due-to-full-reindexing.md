@@ -32,7 +32,7 @@ Actions that can produce full reindexing were performed from admin including:
 
 1. Perform this query to find the indexers that were fully reindexed in the last 15 minutes:
 
-    ```clike
+    ```
     SELECT * FROM indexer_state WHERE updated > NOW() - INTERVAL 15 MINUTE;
     ```
 
