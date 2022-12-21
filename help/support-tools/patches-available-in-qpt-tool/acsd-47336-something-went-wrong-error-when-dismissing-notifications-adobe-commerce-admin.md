@@ -1,11 +1,11 @@
 ---
 title: "ACSD-47336: [!UICONTROL Something went wrong] error when dismissing notifications in Adobe Commerce Admin"
-description: Apply the ACSD-47336 patch to fix the Adobe Commerce issue where the user sees _[!UICONTROL Something went wrong.]_ error when dismissing notifications in the [!DNL Commerce] Admin.
+description: Apply the ACSD-47336 patch to fix the Adobe Commerce issue where the user sees [!UICONTROL Something went wrong] error when dismissing notifications in the [!DNL Commerce] Admin.
 ---
 
-# ACSD-47336: [!UICONTROL Something went wrong] error when dismissing notifications in Adobe Commerce Admin
+# ACSD-47336: _[!UICONTROL Something went wrong]_ error when dismissing notifications in Adobe Commerce Admin
 
-The ACSD-47336 patch fixes the issue where the user sees the _[!UICONTROL Something went wrong.]_ error when dismissing notifications in the [!DNL Commerce] Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47336. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47336 patch fixes the issue where the user sees the _[!UICONTROL Something went wrong]_ error when dismissing notifications in the [!DNL Commerce] Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47336. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -23,7 +23,7 @@ The ACSD-47336 patch fixes the issue where the user sees the _[!UICONTROL Someth
 
 ## Issue
 
-The user sees _[!UICONTROL Something went wrong.]_ error when dismissing notifications in the [!DNL Commerce] Admin.
+The user sees _[!UICONTROL Something went wrong]_ error when dismissing notifications in the [!DNL Commerce] Admin.
 
 <u>Steps to reproduce</u>:
 
@@ -33,11 +33,11 @@ The user sees _[!UICONTROL Something went wrong.]_ error when dismissing notific
 
 <u>Expected results</u>:
 
-The _[!UICONTROL Something went wrong.]_ error  should not display when clearing the completed tasks.
+The _[!UICONTROL Something went wrong]_ error  should not display when clearing the completed tasks.
 
 <u>Actual results</u>:
 
-The _[!UICONTROL Something went wrong.]_ error is displayed.
+The _[!UICONTROL Something went wrong]_ error is displayed.
 
 ## Apply the patch
 
