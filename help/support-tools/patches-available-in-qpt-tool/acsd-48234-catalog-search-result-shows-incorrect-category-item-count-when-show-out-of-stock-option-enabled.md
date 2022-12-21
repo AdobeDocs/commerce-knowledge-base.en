@@ -1,11 +1,11 @@
 ---
-title: "ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL show out of stock] enabled"
-description: Apply the ACSD-48234 patch to fix the Adobe Commerce issue where the Catalog search result shows an incorrect category item count when the [!UICONTROL show out of stock] option is enabled.
+title: "ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL Display Out of Stock Products] enabled"
+description: Apply the ACSD-48234 patch to fix the Adobe Commerce issue where the catalog search result shows an incorrect category item count when the [!UICONTROL Display Out of Stock Products] option is enabled.
 ---
 
-# ACSD-48234: catalog search result shows incorrect category item count when **[!UICONTROL show out of stock]** enabled
+# ACSD-48234: catalog search result shows incorrect category item count when **[!UICONTROL Display Out of Stock Products]** enabled
 
-The ACSD-48234 patch solves the issue where the catalog search result shows incorrect category item count when the **[!UICONTROL show out of stock]** option is enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-48234. Please note that the issue was is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-48234 patch solves the issue where the catalog search result shows incorrect category item count when the **[!UICONTROL Display Out of Stock]** option is enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-48234. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
