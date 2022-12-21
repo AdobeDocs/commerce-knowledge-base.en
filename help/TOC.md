@@ -27,6 +27,7 @@ breadcrumb-title: Commerce KB
     * [Managed alerts for Adobe Commerce: Apdex warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
     * [Managed alerts for Adobe Commerce: CPU warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
   * Patches available in QPT tool {#patches}
+    * [ACSD-47280: Disable shared catalog gives wrong product search results](/help/support-tools/patches-available-in-qpt-tool/acsd-47280-disable-shared-catalog-gives-wrong-product-search-results.md)
     * [MDVA-24201: Catalog price rules don't work](/help/support-tools/patches-available-in-qpt-tool/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
     * [MDVA-33281 patch: inventory inconsistency issues](/help/support-tools/patches-available-in-qpt-tool/mdva-33281-magento-patch-inventory-inconsistency-issues.md)
     * [ACSD-45169: Visual Merchandiser displays incorrect stock and price for configurable product](/help/support-tools/patches-available-in-qpt-tool/acsd-45169-visual-merchandiser-does-not-display-the-correct-stock-and-price-for-configurable-product.md)
