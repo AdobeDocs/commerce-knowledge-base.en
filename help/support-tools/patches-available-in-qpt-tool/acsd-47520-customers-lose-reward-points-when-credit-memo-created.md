@@ -27,11 +27,11 @@ Customers lose reward points when a credit memo is created.
 
 1. Go the Adobe Commerce Admin > **[!UICONTROL Store]** > **[!UICONTROL Setting]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Rewards Points]**.
 1. Change the setting:
-  * Enable Reward Points Functionality = _Yes_
-  * Enable Reward Points Functionality on Storefront = _Yes_
-  * Customers May See Reward Points History = _Yes_
-  * Refund Reward Points Automatically = _No_
-  * Deduct Reward Points from Refund Amount Automatically = _Yes_
+   * Enable Reward Points Functionality = _Yes_
+   * Enable Reward Points Functionality on Storefront = _Yes_
+   * Customers May See Reward Points History = _Yes_
+   * Refund Reward Points Automatically = _No_
+   * Deduct Reward Points from Refund Amount Automatically = _Yes_
 1. Go to the Admin > **[!UICONTROL Store]** > **[!UICONTROL Other Settings]** -> **[!UICONTROL Reward Exchange Rates]** and click on **[!UICONTROL Add New Rate]**.
 1. Add New Rate(1:1) and flush the cache.
 1. Create a customer and add 10 reward point to his account.
