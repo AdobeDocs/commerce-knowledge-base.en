@@ -28,7 +28,7 @@ Out-of-stock configurable product swatches are displayed as available.
 <u>Steps to reproduce</u>:
 
 1. In the [!UICONTROL Commerce] Admin, go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock Options]** and set the **[!UICONTROL Display Out of Stock Products]** to *Yes*.
-1. Again, from the Admin, navigate to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and edit a configurable product in the product edit page (for example, "WB04" SKU).
+1. Again, from the Admin, navigate to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and edit a configurable product in the product edit page (for example, "WB04" SKU):
     * For one of the configuration variants, set the quantity to *0* (for example, for "WB04-M-Purple").
 1. Now open the configurable product on the storefront.
 1. Select the product size for the configurable variant with zero stock (that is "M").
