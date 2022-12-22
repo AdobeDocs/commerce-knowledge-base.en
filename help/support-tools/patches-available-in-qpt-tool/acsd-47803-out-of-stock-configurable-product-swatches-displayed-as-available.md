@@ -27,7 +27,7 @@ Out-of-stock configurable product swatches are displayed as available.
 
 <u>Steps to reproduce</u>:
 
-> [!NOTE]
+>[!NOTE]
 >
 >The steps bellow refer to sample data as an example.
 
