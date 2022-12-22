@@ -28,5 +28,37 @@ Composite products go out of stock when the child products that were sold out ar
 
 1. Create a secondary website, store, and store view.
 1. Create two sources and stocks and assign them to each website.
-1. Enable the show out-of-stock products option under **Store** > **Config** > **Catalog** > **Inventory** > **Stock Options** > **Display Out-of-Stock Products** = **Yes**.
-1. Create a configurable product with one assoicated 
+1. Enable the show out-of-stock products option under **[!UICONTROL Store]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock Options]** > **[!UICONTROL Display Out-of-Stock Products]** = **[!UICONTROL Yes]**.
+1. Create a configurable product with one associated product using the primary website's stock source (set qty = 1).
+1. Place an order for the configurable product.
+1. Run the cron.
+1. Open the configurable product from the front end and confirm it is out of stock.
+1. Open the configurable product from the [!UICONTROL Admin] and set the **[!UICONTROL Manage Stock Option]** to *[!UICONTROL No]*.
+1. Run the cron.
+1. Ship the order and add qty to the simple product making it in stock.
+1. Run the cron.
+1. Check the product availability on the front end.
+
+<u>Expected results</u>:
+
+The configurable product is in stock.
+
+<u>Actual results</u>:
+
+The configurable product is out of stock.
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
+
+For info about other patches available in QPT, refer to [Patches available in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
