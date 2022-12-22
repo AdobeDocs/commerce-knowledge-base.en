@@ -25,19 +25,19 @@ Customers lose reward points when a credit memo is created.
 
 <u>Steps to reproduce</u>:
 
-1. Go the Adobe Commerce Admin > **[!UICONTROL Store]** > **[!UICONTROL Setting]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Rewards Points]**.
+1. Go the Adobe Commerce Admin > **[!UICONTROL Store]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Rewards Points]**.
 1. Change the setting:
-   * Enable Reward Points Functionality = _Yes_
-   * Enable Reward Points Functionality on Storefront = _Yes_
-   * Customers May See Reward Points History = _Yes_
-   * Refund Reward Points Automatically = _No_
-   * Deduct Reward Points from Refund Amount Automatically = _Yes_
+   * **[!UICONTROL Enable Reward Points Functionality]** = _Yes_
+   * **[!UICONTROL Enable Reward Points Functionality on Storefront]** = _Yes_
+   * **[!UICONTROL Customers May See Reward Points History]** = _Yes_
+   * **[!UICONTROL Refund Reward Points Automatically]** = _No_
+   * **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** = _Yes_
 1. Go to the Admin > **[!UICONTROL Store]** > **[!UICONTROL Other Settings]** -> **[!UICONTROL Reward Exchange Rates]** and click on **[!UICONTROL Add New Rate]**.
 1. Add New Rate(1:1) and flush the cache.
 1. Create a customer and add 10 reward point to his account.
-1. Go to the Admin > **[!UICONTROL Sales]** > **[!UICONTROL Order]** > **[!UICONTROL Create New Order]** > Select customer created in previous step.
-1. Select any product whose price greater than rewards points.
-1. Place an order via any payment method + rewards points.
+1. Go to the Admin > **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]** > Select the customer created in previous step.
+1. Select any product whose price is greater than rewards points.
+1. Place an order via any payment method and rewards points.
 1. Create an invoice for the order.
 1. Create a credit memo, but do not refund the rewards points.
 
