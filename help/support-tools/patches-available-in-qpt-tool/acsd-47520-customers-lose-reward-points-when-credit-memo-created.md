@@ -1,6 +1,6 @@
 ---
 title: "ACSD-47520: customers lose reward points when a credit memo is created"
-description: Apply the ACSD-ACSD-47520 patch to fix the Adobe Commerce issue where customers lose reward points when a credit memo is created.
+description: Apply the ACSD-47520 patch to fix the Adobe Commerce issue where customers lose reward points when a credit memo is created.
 ---
 
 # ACSD-47520: customers lose reward points when a credit memo is created
