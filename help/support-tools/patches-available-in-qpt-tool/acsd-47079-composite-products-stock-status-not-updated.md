@@ -22,7 +22,7 @@ The ACSD-47079 patch fixes the issue where the stock status of composite product
 
 ## Issue
 
-Composite products' (bundle, grouped, and configurable) stock status is not updated when the sub-product stock status changes via REST API POST `/rest/V1/inventory/source-items`.
+The stock status of composite products (bundle, grouped, and configurable) is not updated when the sub-product stock status is changed via REST API POST `/rest/V1/inventory/source-items`.
 
 <u>Steps to reproduce</u>:
 
