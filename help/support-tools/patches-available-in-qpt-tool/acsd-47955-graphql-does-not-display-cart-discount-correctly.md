@@ -22,7 +22,7 @@ The ACSD-47955 patch fixes the issue where GraphQL does not display the cart dis
 
 ## Issue
 
-GraphQL shows an incorrect cart discount.
+GraphQL query shows an incorrect cart discount.
 
 <u>Steps to reproduce</u>:
 
