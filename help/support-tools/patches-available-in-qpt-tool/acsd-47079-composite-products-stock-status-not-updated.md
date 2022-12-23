@@ -4,7 +4,7 @@ description: Apply the ACSD-47079 patch to fix the Adobe Commerce issue where co
 ---
 # ACSD-47079: composite products' stock status not updated when sub-product stock status changes
 
-The ACSD-47079 patch fixes the issue where composite products' (bundle, grouped, and configurable) stock status is not updated when the sub-product stock status changes via REST API POST `/rest/V1/inventory/source-items`. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47079. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47079 patch fixes the issue where the stock status of composite products (bundle, grouped, and configurable) is not updated when the sub-product stock status is changed via REST API POST `/rest/V1/inventory/source-items`. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47079. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
