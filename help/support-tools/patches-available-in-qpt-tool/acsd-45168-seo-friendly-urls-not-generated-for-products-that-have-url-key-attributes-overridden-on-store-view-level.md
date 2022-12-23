@@ -4,7 +4,7 @@ description: Apply the ACSD-45168 patch to fix the Adobe Commerce issue where SE
 ---
 # ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden
 
-The ACSD-45168 patch fixes the issue where SEO-friendly URLs are not generated for products that have url_key attributes overridden on store-view level. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-45168. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-45168 patch fixes the issue where SEO-friendly URLs are not generated for products that have url_key attributes overridden on the store-view level. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-45168. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
