@@ -26,7 +26,7 @@ GraphQL shows an incorrect cart discount.
 
 <u>Steps to reproduce</u>:
 
-1. Create a new cart rule which applies to the shipping amount in **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotions]** > **[!UICONTROL Cart Price Rule]**.
+1. Create a new cart rule which applies to the shipping amount in the [!UICONTROL Commerce Admin] > **[!UICONTROL Marketing]** > **[!UICONTROL Promotions]** > **[!UICONTROL Cart Price Rule]**.
 1. Add a product to the cart using GraphQL.
 1. Check the discount using a GraphQL query.
 
