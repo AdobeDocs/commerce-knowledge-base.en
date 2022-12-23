@@ -27,6 +27,7 @@ breadcrumb-title: Commerce KB
     * [Managed alerts for Adobe Commerce: Apdex warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
     * [Managed alerts for Adobe Commerce: CPU warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
   * Patches available in QPT tool {#patches}
+    * [ACSD-47280: Disable shared catalog gives wrong product search results](/help/support-tools/patches-available-in-qpt-tool/acsd-47280-disable-shared-catalog-gives-wrong-product-search-results.md)
     * [MDVA-24201: Catalog price rules don't work](/help/support-tools/patches-available-in-qpt-tool/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
     * [MDVA-33281 patch: inventory inconsistency issues](/help/support-tools/patches-available-in-qpt-tool/mdva-33281-magento-patch-inventory-inconsistency-issues.md)
     * [ACSD-45169: Visual Merchandiser displays incorrect stock and price for configurable product](/help/support-tools/patches-available-in-qpt-tool/acsd-45169-visual-merchandiser-does-not-display-the-correct-stock-and-price-for-configurable-product.md)
@@ -374,6 +375,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-47179: mass deletion of product reviews does not work when logged in as limited user role](/help/support-tools/patches-available-in-qpt-tool/acsd-47179-mass-delete-product-review-doesnt-work-when-logged-in-as-limited-user.md)
     * [ACSD-45071: default source added to product during import](/help/support-tools/patches-available-in-qpt-tool/acsd-45071-default-source-added-to-product-during-import.md)
     * [ACSD-47076: Vimeo videos cannot be played on the storefront](/help/support-tools/patches-available-in-qpt-tool/acsd-47076-venmo-videos-cannot-be-played-on-the-storefront.md)
+    * [ACSD-47332: cron fails with error reported only when running between 00:00 to 00:59 UTC](/help/support-tools/patches-available-in-qpt-tool/acsd-47332-cron-fails-with-error-reported-between-00-59.md)
     * [ACSD-47107: catalog price rule is applied to custom options](/help/support-tools/patches-available-in-qpt-tool/acsd-47107-catalog-price-rule-is-applied-to-custom-options.md)
     * [ACSD-47027: slow query in B2B [!UICONTROL CompanyRole] [!DNL GraphQL update]](/help/support-tools/patches-available-in-qpt-tool/acsd-47027-slow-query-b2b-companyrole-graphql-update.md)
     * [ACSD-46519: product_count in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories](/help/support-tools/patches-available-in-qpt-tool/acsd-46519-product-count-categorylist-graphql-query-returns-zero-anchor-categories.md)
@@ -383,6 +385,9 @@ breadcrumb-title: Commerce KB
     * [ACSD-47559: email template preview not fully visible](/help/support-tools/patches-available-in-qpt-tool/acsd-47559-preview-email-template-not-fully-visible.md)
     * [ACSD-47137: improves image gallery loading speed when pub/media folder big](/help/support-tools/patches-available-in-qpt-tool/acsd-47137-image-gallery-load-speed-improve-pub-media-big.md)
     * [ACSD-47955: GraphQL does not display cart discount correctly](/help/support-tools/patches-available-in-qpt-tool/acsd-47955-graphql-does-not-display-cart-discount-correctly.md)
+    * [ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off](/help/support-tools/patches-available-in-qpt-tool/acsd-47920-guest-order-allow-guest-checkout-off.md)
+    * [ACSD-46770: order confirmation email is sent even when [!UICONTROL Email order confirmation] is unchecked](/help/support-tools/patches-available-in-qpt-tool/acsd-46770-an-order-confirmation-email-is-sent-even-when-the-email-order-confirmation-is-unchecked.md)
+    * [ACSD-47336: [!UICONTROL Something went wrong] error notifications dismissed Adobe Commerce Admin](/help/support-tools/patches-available-in-qpt-tool/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}

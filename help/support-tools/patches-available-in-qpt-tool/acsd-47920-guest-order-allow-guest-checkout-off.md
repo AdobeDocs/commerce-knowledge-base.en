@@ -1,17 +1,17 @@
 ---
-title: 'ACSD-47332: cron fails with error reported only between 00:00 to 00:59 UTC'
-description: Apply the ACSD-47332 patch to fix the Adobe Commerce issue where cron fails with an error that is reported only when it is running between 00:00 to 00:59 UTC.
-exl-id: a4eac977-6d0a-4e36-8576-68777c1e40b2
+title: 'ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off'
+description: Apply the ACSD-47920 patch to fix the Adobe Commerce issue where orders can be placed via REST API as a guest user even when the [!UICONTROL Allow Guest Checkout] is turned off.
+exl-id: 8726eac4-ab19-4232-8e15-270d09bdc0a5
 ---
-# ACSD-47332: cron fails with error reported only when running between 00:00 to 00:59 UTC
+# ACSD-47920: a guest user can place orders via REST API even when **[!UICONTROL Allow Guest Checkout]** is off
 
-The ACSD-47332 patch fixes the issue where cron fails with an error that is reported only when it is running between 00:00 to 00:59 UTC. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22 is installed. The patch ID is ACSD-47332. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47920 patch fixes the issue where orders can be placed via REST API as a guest user even when the **[!UICONTROL Allow Guest Checkout]** is turned off. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47920. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+* Adobe Commerce (all deployment methods) 2.4.3-p1
 
 **Compatible with Adobe Commerce versions:**
 
@@ -23,26 +23,20 @@ The ACSD-47332 patch fixes the issue where cron fails with an error that is repo
 
 ## Issue
 
-Cron fails with an error that is reported only when running between 00:00 and 00:59 UTC. 
+Orders can be placed via Rest API as a guest user even when the **[!UICONTROL Allow Guest Checkout]** is turned off.
 
 <u>Steps to reproduce</u>:
 
-1. Run the `catalog_index_refresh_price` CRON between 00:00 and 00:59 UTC.
+1. Go to Adobe Commerce Admin > **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]** > and set the **[!UICONTROL Allow Guest Checkout]** to _No_.
+1. Use REST API to add a product to a cart and place an order.
 
 <u>Expected results</u>:
 
-Cron shows no errors.
+Guest checkout API returns an error *[!UICONTROL Sorry, guest checkout is not available]* if **[!UICONTROL Allow Guest Checkout]** is set to _No_.
 
 <u>Actual results</u>:
 
-Cron fails with the following error.
-
-```SQL
-SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, query was: SELECT `cat`.`entity_id` FROM `c
-  atalog_product_entity_datetime` AS `attr`
-   LEFT JOIN `catalog_product_entity` AS `cat` ON cat.row_id= attr.row_id AND (cat.created_in <= 1 AND cat.updated_in > 1) WHERE (attr.attribute_id
-   = '79') AND (attr.store_id = '0') AND (attr.value = DATE_FORMAT('2022-10-02', '%Y-%m-%d %H:%i:%s'))
-```
+Guest checkout API allows an order to be placed even if **[!UICONTROL Allow Guest Checkout]** is set to _No_.
 
 ## Apply the patch
 
