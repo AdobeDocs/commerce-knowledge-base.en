@@ -4,7 +4,7 @@ description: Apply the ACSD-47955 patch to fix the Adobe Commerce issue where Gr
 ---
 # ACSD-47955: GraphQL does not display cart discount correctly
 
-The ACSD-47955 patch fixes the issue where GraphQL does not display the cart discount correctly. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) 1.1.24 is installed. The patch ID is ACSD-47955. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47955 patch fixes the issue where GraphQL does not display the cart discount correctly. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47955. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
