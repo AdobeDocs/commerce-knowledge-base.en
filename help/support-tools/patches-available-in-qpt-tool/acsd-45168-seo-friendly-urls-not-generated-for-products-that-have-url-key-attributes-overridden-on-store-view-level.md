@@ -26,7 +26,7 @@ SEO-friendly URLs are not generated for products that have url_key attributes ov
 
 <u>Steps to reproduce</u>:
 
-1. Set the configuration as follows by going to the **[!UICONTROL Commerce Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog]** > **[!UICONTROL Search Engine Optimization]**:
+1. Set the configuration as follows by going to the **[!UICONTROL Commerce Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Search Engine Optimization]**:
     * [!UICONTROL Use Categories Path for Product URLs] = *Yes*
     * [!UICONTROL Generate "category/product" URL Rewrites] = *Yes*
 1. Clean the configuration cache.
