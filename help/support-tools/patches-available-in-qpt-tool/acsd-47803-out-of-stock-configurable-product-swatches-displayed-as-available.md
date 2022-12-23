@@ -1,8 +1,8 @@
 ---
-title: "ACSD-47803: out-of-stock configurable product swatches displayed as available"
+title: 'ACSD-47803: out-of-stock configurable product swatches displayed as available'
 description: Apply the ACSD-47803 patch to fix the Adobe Commerce issue where out-of-stock configurable product swatches displayed as available.
+exl-id: 28b3f378-a790-4af6-9627-5bd8571523fd
 ---
-
 # ACSD-47803: out-of-stock configurable product swatches displayed as available
 
 The ACSD-47803 patch fixes the issue where out-of-stock configurable product swatches are displayed as available. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47803. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
