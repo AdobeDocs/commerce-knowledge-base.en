@@ -26,7 +26,7 @@ The stock status of composite products (bundle, grouped, and configurable) is no
 
 <u>Steps to reproduce</u>:
 
-1. Create configurable, bundled, and grouped products with one simple child product each.
+1. Create a configurable, bundled, and grouped product with one simple child product for each.
 1. Set each simple child product status to **[!UICONTROL Out of Stock]** using the `source-items` API call.
 1. Check the parent product's stock status.
 
