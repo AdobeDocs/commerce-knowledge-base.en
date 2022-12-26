@@ -1,8 +1,8 @@
 ---
-title: 'ACSD-48300: Return cannot be created if configurable product is removed'
+title: 'ACSD-48300: return cannot be created if configurable product is removed'
 description: Apply the ACSD-48300 patch to fix the Adobe Commerce issue where return cannot be created if the configurable product is removed.
 ---
-# ACSD-48300: Return cannot be created if configurable product is removed
+# ACSD-48300: return cannot be created if configurable product is removed
 
 The ACSD-48300 patch fixes the issue where a return cannot be created if the configurable product is removed. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-48300. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
