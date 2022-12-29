@@ -27,11 +27,11 @@ Out-of-stock configurable product causes an error when sending a GraphQL request
 <u>Steps to reproduce</u>:
 
 1. Create a customer account.
-1. Add some products to the cart including a configurable product (ID = 436).
-1. Go to the admin backend, and edit the configurable product by setting all children product qty to 0.
+1. Add some products to the cart, including a configurable product (ID = 436).
+1. Go to the admin backend, and edit the configurable product by setting all child products qty to 0.
 1. The configurable product will become out of stock as all the child products are out of stock.
-1. Check the `catalog_product_index_price` table, the record with this product is empty.
-1. Make GraphQL request to get the customer token.
+1. Check the `catalog_product_index_price` table. The record with this product is empty.
+1. Make a GraphQL request to get the customer token.
 
     ```GraphQL
     mutation {
@@ -44,7 +44,7 @@ Out-of-stock configurable product causes an error when sending a GraphQL request
                 }
     ```
 
-1. Make GraphQL request to get cartId.
+1. Make a GraphQL request to get cartId.
 
     ```GraphQL
     Headers: Authentication => Bearer [customer token in step 6]
@@ -257,4 +257,24 @@ Out-of-stock configurable product causes an error when sending a GraphQL request
 
 <u>Expected results</u>:
 
+No *Internal server error* in the response.
 
+<u>Actual results</u>:
+
+There is an *Internal server error* in the response.
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
+
+For info about other patches available in QPT, refer to [Patches available in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
