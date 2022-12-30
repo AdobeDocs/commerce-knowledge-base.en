@@ -28,7 +28,7 @@ The ACSD-46865 patch fixes the issue where [!UICONTROL shipment] and [!UICONTROL
 <u>Steps to reproduce</u>:
 
 1. In the [!DNL Commerce] Admin, go to **[!UICONTROL Set Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Developer]** > **[!UICONTROL Grid Settings]** > **[!UICONTROL Asynchronous indexing Enable]** = *YES*.
-2. Again go to **Set Stores** > **Settings** > **Configuration** > **Sales** > **Sales** > **Orders** > **Invoices** > **Shipments** > **Credit Memos Archiving** > **Enable Archiving** = *YES*.
+2. Again go to **[!UICONTROL Set Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Invoices]** > **[!UICONTROL Shipments]** > **[!UICONTROL Credit Memos Archiving]** > **[!UICONTROL Enable Archiving]** = *[!UICONTROL YES]*.
 3. Clean config cache.
 4. Place a new guest order for a simple product.
 5. Run cron.
