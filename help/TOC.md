@@ -383,6 +383,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-47497: missing ACL for Store / Configuration / Services OAuth](/help/support-tools/patches-available-in-qpt-tool/acsd-47497-missing-acl-for-store-configuration-services-oaut.md)
     * [ACSD-46815: static content deploy fails using compact strategy](/help/support-tools/patches-available-in-qpt-tool/acsd-46815-static-content-deploy-fails-when-using-compact-strategy.md)
     * [ACSD-47559: email template preview not fully visible](/help/support-tools/patches-available-in-qpt-tool/acsd-47559-preview-email-template-not-fully-visible.md)
+    * [ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden](/help/support-tools/patches-available-in-qpt-tool/acsd-45168-seo-friendly-urls-not-generated-for-products-that-have-url-key-attributes-overridden-on-store-view-level.md)
     * [ACSD-47137: improves image gallery loading speed when pub/media folder big](/help/support-tools/patches-available-in-qpt-tool/acsd-47137-image-gallery-load-speed-improve-pub-media-big.md)
     * [ACSD-47955: GraphQL does not display cart discount correctly](/help/support-tools/patches-available-in-qpt-tool/acsd-47955-graphql-does-not-display-cart-discount-correctly.md)
     * [ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off](/help/support-tools/patches-available-in-qpt-tool/acsd-47920-guest-order-allow-guest-checkout-off.md)
