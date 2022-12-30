@@ -1,8 +1,8 @@
 ---
-title: "ACSD-46865: [!UICONTROL shipment] and [!UICONTROL credit memo] not populated when [!UICONTROL asynchronous indexing] is enabled"
+title: 'ACSD-46865: [!UICONTROL shipment] and [!UICONTROL credit memo] not populated when [!UICONTROL asynchronous indexing] is enabled'
 description: Apply the ACSD-46865 patch to fix the Adobe Commerce issue where [!UICONTROL shipment] and [!UICONTROL credit memo] grids are not populated when [!UICONTROL asynchronous indexing] is enabled.
+exl-id: 056177a8-42f0-4138-8c04-5b037d25dfd0
 ---
-
 # ACSD-46865: [!UICONTROL shipment] and [!UICONTROL credit memo] not populated when [!UICONTROL asynchronous indexing] is enabled
 
 The ACSD-46865 patch fixes the issue where [!UICONTROL shipment] and [!UICONTROL credit memo] grids are not populated when [!UICONTROL asynchronous indexing] is enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-46865. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.

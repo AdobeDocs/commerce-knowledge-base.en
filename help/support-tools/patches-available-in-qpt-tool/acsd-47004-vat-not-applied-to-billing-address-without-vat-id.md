@@ -1,8 +1,8 @@
 ---
-title: "ACSD-47004: VAT not applied to billing address without VAT ID"
+title: 'ACSD-47004: VAT not applied to billing address without VAT ID'
 description: Apply the ACSD-47004 patch to fix the Adobe Commerce issue where VAT is not applied to a billing address without a VAT ID.
+exl-id: 04706219-be1d-4d9a-a8bf-f5c24b45076d
 ---
-
 # ACSD-47004: VAT not applied to billing address without VAT ID
 
 The ACSD-47004 patch fixes the issue where VAT is not applied to a billing address without a VAT ID. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)  1.1.24 is installed. The patch ID is ACSD-47004. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
