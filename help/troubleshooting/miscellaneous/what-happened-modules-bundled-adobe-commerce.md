@@ -17,7 +17,7 @@ You cannot install a third-party module or have found that some of the core bund
 
 * Scenario 1: The project has utilized one of the core bundled module's functionality. The utilized bundled module is not included in Adobe Commerce 2.4.4. 
 
-* Scenario 2: You have a module installed in your current version of Adobe Commerce that has 3rd party modules that extend or require that module. This module is not present in Adobe Commerce 2.4.4. 
+* Scenario 2: You have a module installed in your current version of Adobe Commerce that has third-party modules that extend or require that module. This module is not present in Adobe Commerce 2.4.4. 
 
 * Scenario 1: After successfully upgrading to Adobe Commerce 2.4.4 you realize that the module and its provided functionality are missing.
 
