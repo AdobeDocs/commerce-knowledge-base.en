@@ -28,10 +28,8 @@ Fixes the issue where there are *Out of memory* errors on certain categories due
 
  <u>Actual result:</u>
 
-```
-[date and time] PHP Fatal error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 90112 bytes) in Unknown on line 0
-[date and time] PHP Fatal error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 33554440 bytes) in /app/<project-id>/vendor/magento/module-csp/Model/Collector/DynamicCollector.php on line 31
-```
+*[date and time] PHP Fatal error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 90112 bytes) in Unknown on line 0
+[date and time] PHP Fatal error: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 33554440 bytes) in /app/`<project-id>`/vendor/magento/module-csp/Model/Collector/DynamicCollector.php on line 31*
 
  <u>Expected result:</u>
 
