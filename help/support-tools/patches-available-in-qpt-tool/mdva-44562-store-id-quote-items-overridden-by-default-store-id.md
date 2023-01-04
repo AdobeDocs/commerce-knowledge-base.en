@@ -32,13 +32,13 @@ The store id for quote items is overridden by the default store id for GraphQL r
 1. Create a new customer.
 1. Obtain the customer authorization token.
 
-   ```GraphQL
-    POST /rest/all/V1/integration/customer/token
-    {
-      "username": "test@example.com",
-      "password": "password"
-    }
-    ```
+    ```GraphQL
+     POST /rest/all/V1/integration/customer/token
+     {
+       "username": "test@example.com",
+       "password": "password"
+     }
+     ```
 
 1. Create a new quote for the customer using the authorization token.
 
