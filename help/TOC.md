@@ -1,5 +1,5 @@
 ---
-user-guide-title: Adobe Commerce Knowldge Base
+user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Everything you need to troubleshoot and maintain your Commerce store.
 breadcrumb-title: Commerce KB
 ---
@@ -660,6 +660,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce status column missing exported products CSV file](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
     * [Cannot access New Relic on Adobe Commerce Cloud account](/help/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.md)
     * [Adobe Commerce [!DNL crons] disabled without intervention](/help/troubleshooting/miscellaneous/adobe-commerce-crons-are-disabled-without-any-intervention.md)
+    * [Modules missing from Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
