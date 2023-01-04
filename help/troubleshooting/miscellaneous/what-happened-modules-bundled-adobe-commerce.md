@@ -1,8 +1,8 @@
 ---
-title: "Modules missing from Adobe Commerce 2.4.4"
+title: Modules missing from Adobe Commerce 2.4.4
 description: This article provides a solution for the issue when modules included in previous Adobe Commerce versions are not present in 2.4.4.
+exl-id: c0335b66-803b-44d7-b966-7d60a5f21d8d
 ---
-
 # Modules missing from Adobe Commerce 2.4.4
 
 This article provides a solution for when modules included in previous Adobe Commerce versions are not present in 2.4.4.
