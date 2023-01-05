@@ -7,7 +7,7 @@ exl-id: 2a351b83-407c-444a-a761-4932b5b88843
 
 >[!IMPORTANT]
 >
->This issue was fixed in [[!DNL Live Search] [2.0.4]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html?lang=en). To install the latest version, refer to [Updating [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=en#update) in the user guide.
+>This issue was fixed in [[!DNL Live Search] [2.0.4]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html). To install the latest version, refer to [Updating [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#update) in the user guide.
 
 This article provides information on the known issue where the Product Listing Page (PLP) shows the *We can’t find products matching the selection* error while the search popover returns some items.
 

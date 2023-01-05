@@ -71,4 +71,4 @@ If you are still not able to access the Site-Wide Analysis Tool, when you log in
 
 ## Related reading
 
-* [Site-Wide Analysis Tool guide](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=en)
+* [Site-Wide Analysis Tool guide](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)

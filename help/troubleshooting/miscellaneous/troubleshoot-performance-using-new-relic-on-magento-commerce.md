@@ -37,7 +37,7 @@ This article provides troubleshooting steps to solve Adobe Commerce on cloud inf
 <li>Scroll down, click Show all transactions table.</li>
 <li>You can sort transactions by <a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">various parameters</a> and jump to those that cause suspicion.</li>
 <li>Review those transactions with a low Apdex score, unusually high Count or high Avg time, or Dissat %.</li>
-<li>Click on each individual transaction. If you cannot resolve the issue, <a href="https://support.magento.com/hc/en-us/articles/360019088251">submit a support ticket.</a>
+<li>Click on each individual transaction. If you cannot resolve the issue, <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">submit a support ticket.</a>
 </li>
 <li>If you need to investigate further, consider checking non-web transactions.</li>
 </ol>
