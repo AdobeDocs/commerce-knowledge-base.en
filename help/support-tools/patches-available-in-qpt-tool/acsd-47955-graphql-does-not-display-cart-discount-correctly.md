@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-47332: cron fails with error reported only between 00:00 to 00:59 UTC'
-description: Apply the ACSD-47332 patch to fix the Adobe Commerce issue where cron fails with an error that is reported only when it is running between 00:00 to 00:59 UTC.
-exl-id: a4eac977-6d0a-4e36-8576-68777c1e40b2
+title: 'ACSD-47955: GraphQL does not display cart discount correctly'
+description: Apply the ACSD-47955 patch to fix the Adobe Commerce issue where GraphQL does not display the cart discount correctly.
+exl-id: 76b64f1c-9b69-4e8d-a93a-d6a355284105
 ---
-# ACSD-47332: cron fails with error reported only when running between 00:00 to 00:59 UTC
+# ACSD-47955: GraphQL does not display cart discount correctly
 
-The ACSD-47332 patch fixes the issue where cron fails with an error that is reported only when it is running between 00:00 to 00:59 UTC. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22 is installed. The patch ID is ACSD-47332. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47955 patch fixes the issue where GraphQL does not display the cart discount correctly. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47955. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p1
 
 >[!NOTE]
 >
@@ -23,26 +23,21 @@ The ACSD-47332 patch fixes the issue where cron fails with an error that is repo
 
 ## Issue
 
-Cron fails with an error that is reported only when running between 00:00 and 00:59 UTC. 
+GraphQL query shows an incorrect cart discount.
 
 <u>Steps to reproduce</u>:
 
-1. Run the `catalog_index_refresh_price` CRON between 00:00 and 00:59 UTC.
+1. Create a new cart rule which applies to the shipping amount in the [!UICONTROL Commerce Admin] > **[!UICONTROL Marketing]** > **[!UICONTROL Promotions]** > **[!UICONTROL Cart Price Rule]**.
+1. Add a product to the cart using GraphQL.
+1. Check the discount using a GraphQL query.
 
 <u>Expected results</u>:
 
-Cron shows no errors.
+GraphQL correctly reflects the discount, considering the discount applied to the shipping amount.
 
 <u>Actual results</u>:
 
-Cron fails with the following error.
-
-```SQL
-SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, query was: SELECT `cat`.`entity_id` FROM `c
-  atalog_product_entity_datetime` AS `attr`
-   LEFT JOIN `catalog_product_entity` AS `cat` ON cat.row_id= attr.row_id AND (cat.created_in <= 1 AND cat.updated_in > 1) WHERE (attr.attribute_id
-   = '79') AND (attr.store_id = '0') AND (attr.value = DATE_FORMAT('2022-10-02', '%Y-%m-%d %H:%i:%s'))
-```
+The discount applied to the shipping amount is not included in the total discount.
 
 ## Apply the patch
 

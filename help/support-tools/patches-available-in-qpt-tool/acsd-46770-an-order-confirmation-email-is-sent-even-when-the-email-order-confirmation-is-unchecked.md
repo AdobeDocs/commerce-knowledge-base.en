@@ -1,17 +1,17 @@
 ---
-title: 'ACSD-47332: cron fails with error reported only between 00:00 to 00:59 UTC'
-description: Apply the ACSD-47332 patch to fix the Adobe Commerce issue where cron fails with an error that is reported only when it is running between 00:00 to 00:59 UTC.
-exl-id: a4eac977-6d0a-4e36-8576-68777c1e40b2
+title: 'ACSD-46770: order confirmation email is sent even when [!UICONTROL Email Order Confirmation] is unchecked'
+description: Apply the ACSD-46770 patch to fix the Adobe Commerce issue where order confirmation emails are sent even when [!UICONTROL Email Order Confirmation] is not selected.
+exl-id: 9cbf3a57-1f59-4030-b432-0e6cad410a27
 ---
-# ACSD-47332: cron fails with error reported only when running between 00:00 to 00:59 UTC
+# ACSD-46770: order confirmation email is sent even when **[!UICONTROL Email Order Confirmation]** is unchecked
 
-The ACSD-47332 patch fixes the issue where cron fails with an error that is reported only when it is running between 00:00 to 00:59 UTC. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22 is installed. The patch ID is ACSD-47332. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-46770 patch fixes the issue where orders can be placed via REST API as a guest user even when **[!UICONTROL Email Order Confirmation]** is unselected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-46770. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
@@ -23,26 +23,23 @@ The ACSD-47332 patch fixes the issue where cron fails with an error that is repo
 
 ## Issue
 
-Cron fails with an error that is reported only when running between 00:00 and 00:59 UTC. 
+An order confirmation email is sent even when **[!UICONTROL Email Order Confirmation]** is not selected.
 
 <u>Steps to reproduce</u>:
 
-1. Run the `catalog_index_refresh_price` CRON between 00:00 and 00:59 UTC.
+1. Create a customer account.
+1. Go to **[!UICONTROL Sales]** > **[!UICONTROL Order]** and click on  **[!UICONTROL Create New Order]**.
+1. Select the customer, add the products to the order, fill in the address, and select the Shipping and Payment methods.
+1. Before submitting the order, unselect the **[!UICONTROL Email Order confirmation]** check box.
+1. Click on **[!UICONTROL Submit Order]** to create the order.
 
 <u>Expected results</u>:
 
-Cron shows no errors.
+An order confirmation email should not be sent if the **[!UICONTROL Email Order Confirmation]** is unselected.
 
 <u>Actual results</u>:
 
-Cron fails with the following error.
-
-```SQL
-SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, query was: SELECT `cat`.`entity_id` FROM `c
-  atalog_product_entity_datetime` AS `attr`
-   LEFT JOIN `catalog_product_entity` AS `cat` ON cat.row_id= attr.row_id AND (cat.created_in <= 1 AND cat.updated_in > 1) WHERE (attr.attribute_id
-   = '79') AND (attr.store_id = '0') AND (attr.value = DATE_FORMAT('2022-10-02', '%Y-%m-%d %H:%i:%s'))
-```
+An order confirmation email is sent regardless of the unselected **[!UICONTROL Email Order Confirmation]** check box.
 
 ## Apply the patch
 

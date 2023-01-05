@@ -10,7 +10,7 @@ We’ve set up key dashboards and alerts to aid you in understanding when your s
 
 >[!NOTE]
 >
->If managed alerts for the Adobe Commerce alert policy is not available, it could be due to this account being newly created or New Relic having been recently configured. A process is run every Tuesday to add the alert policy to those accounts. The alert policy should be available to you the day after the next process is run. If the policy is still missing, [submit an Adobe Commerce support request](https://support.magento.com/hc/en-us/articles/360019088251-Submit-a-support-ticket) and include your project ID.
+>If managed alerts for the Adobe Commerce alert policy is not available, it could be due to this account being newly created or New Relic having been recently configured. A process is run every Tuesday to add the alert policy to those accounts. The alert policy should be available to you the day after the next process is run. If the policy is still missing, [submit an Adobe Commerce support request](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) and include your project ID.
 
 See below in the table for links to the KB articles providing troubleshooting steps for these alerts:
 

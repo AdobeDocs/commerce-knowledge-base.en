@@ -1,17 +1,17 @@
 ---
-title: 'ACSD-47332: cron fails with error reported only between 00:00 to 00:59 UTC'
-description: Apply the ACSD-47332 patch to fix the Adobe Commerce issue where cron fails with an error that is reported only when it is running between 00:00 to 00:59 UTC.
-exl-id: a4eac977-6d0a-4e36-8576-68777c1e40b2
+title: 'ACSD-47803: out-of-stock configurable product swatches displayed as available'
+description: Apply the ACSD-47803 patch to fix the Adobe Commerce issue where out-of-stock configurable product swatches displayed as available.
+exl-id: 28b3f378-a790-4af6-9627-5bd8571523fd
 ---
-# ACSD-47332: cron fails with error reported only when running between 00:00 to 00:59 UTC
+# ACSD-47803: out-of-stock configurable product swatches displayed as available
 
-The ACSD-47332 patch fixes the issue where cron fails with an error that is reported only when it is running between 00:00 to 00:59 UTC. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22 is installed. The patch ID is ACSD-47332. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47803 patch fixes the issue where out-of-stock configurable product swatches are displayed as available. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 is installed. The patch ID is ACSD-47803. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6. 
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
@@ -23,26 +23,27 @@ The ACSD-47332 patch fixes the issue where cron fails with an error that is repo
 
 ## Issue
 
-Cron fails with an error that is reported only when running between 00:00 and 00:59 UTC. 
+Out-of-stock configurable product swatches are displayed as available.
 
 <u>Steps to reproduce</u>:
 
-1. Run the `catalog_index_refresh_price` CRON between 00:00 and 00:59 UTC.
+>[!NOTE]
+>
+>The steps below refer to sample data as an example.
+
+1. In the [!UICONTROL Commerce] Admin, go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock Options]** and set the **[!UICONTROL Display Out of Stock Products]** to *Yes*.
+1. Again, from the Admin, navigate to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and edit a configurable product in the product edit page (for example, "WB04" SKU, if you are using sample data):
+    * For one of the configuration variants, set the quantity to *0* (for example, for "WB04-M-Purple").
+1. Now open the configurable product on the storefront.
+1. Select the product size for the configurable variant with zero stock (that is "M").
 
 <u>Expected results</u>:
 
-Cron shows no errors.
+The out-of-stock options are disabled and marked as [!UICONTROL Out of Stock].
 
 <u>Actual results</u>:
 
-Cron fails with the following error.
-
-```SQL
-SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens, query was: SELECT `cat`.`entity_id` FROM `c
-  atalog_product_entity_datetime` AS `attr`
-   LEFT JOIN `catalog_product_entity` AS `cat` ON cat.row_id= attr.row_id AND (cat.created_in <= 1 AND cat.updated_in > 1) WHERE (attr.attribute_id
-   = '79') AND (attr.store_id = '0') AND (attr.value = DATE_FORMAT('2022-10-02', '%Y-%m-%d %H:%i:%s'))
-```
+All color swatches are enabled, even the one that is [!UICONTROL Out of Stock].
 
 ## Apply the patch
 
