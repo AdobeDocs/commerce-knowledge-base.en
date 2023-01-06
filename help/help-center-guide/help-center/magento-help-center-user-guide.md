@@ -365,9 +365,9 @@ This field appears when your account is associated with more than one organizati
 >
 >Organization can be changed after the ticket is submitted. Follow these steps to change the organization.
 >
-> 1. Go to the right column of the ticket.
-> 1. Locate the dropdown for available organizations.
-> 1. Select the appropriate organization.
+>1. Go to the right column of the ticket.
+>1. Locate the dropdown for available organizations.
+>1. Select the appropriate organization.
 
 In addition, this would allow us to quickly cross reference similar/duplicated/related tickets submitted for this organization in the past and identify clues that might help with investigating and resolving the current ticket.
 
