@@ -30,7 +30,7 @@ breadcrumb-title: Commerce KB
     * v1.0.5 {#v1-0-5}
         * [MDVA-28191: No payment method for one website in Admin Create New Order](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28191-magento-patch-no-payment-method-for-one-website-in-admin-create-new-order.md)
         * [MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory](/help/support-tools/patches-available-in-qpt-tool/mdva-28409-magento-patch-magento-web-server-crashing-out-of-memory.md)
-        * [MDVA-28661: issue with company users management when changing admin email](/help/support-tools/patches-available-in-qpt-tool/mdva-28661-magento-patch-issue-with-company-users-management-when-changing-admin-email.md)
+        * [MDVA-28661: issue with company users management when changing admin email](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28661-magento-patch-issue-with-company-users-management-when-changing-admin-email.md)
         * [MDVA-28763: issues with managing product images via REST API](/help/support-tools/patches-available-in-qpt-tool/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.md)
         * [MDVA-29042: global category permissions unchanged](/help/support-tools/patches-available-in-qpt-tool/mdva-29042-magento-patch-global-category-permissions-unchanged.md)
         * [MDVA-29959 patch: admin with "Customers" permissions cannot manage company account](/help/support-tools/patches-available-in-qpt-tool/mdva-29959-magento-patch-admin-with-customers-permissions-cannot-manage-company-account.md)
@@ -686,8 +686,7 @@ breadcrumb-title: Commerce KB
     * [Upgrade to version 10.0 DHL schema to continue offering DHL shipping](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md)
     * [Adobe Commerce status column missing exported products CSV file](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
     * [Cannot access New Relic on Adobe Commerce Cloud account](/help/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.md)
-    * [Adobe Commerce [!DNL crons] disabled without intervention](/help/troubleshooting/miscellaneous/adobe-commerce-crons-are-disabled-without-any-intervention.md)
-    * [Modules missing from Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
+
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
