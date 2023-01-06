@@ -30,7 +30,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
   </tr>
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47920-guest-order-allow-guest-checkout-off.html">ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off:</a> The ACSD-47920 patch fixes the issue where orders can be placed via REST API as a guest user even when the [!UICONTROL Allow Guest Checkout] is turned off. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47920-guest-order-allow-guest-checkout-off.html">ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off:</a> The ACSD-47920 patch fixes the issue where orders can be placed via REST API as a guest user even when the [!UICONTROL Allow Guest Checkout] is turned off. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article</td>
     <td> Jan 6, 2023</td>
@@ -38,14 +38,14 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.html">ACSD-47336: [!UICONTROL Something went wrong] error when dismissing notifications in Adobe Commerce Admin:</a> The ACSD-47336 patch fixes the issue where the user sees the [!UICONTROL Something went wrong] error when dismissing notifications in the Commerce Admin. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.html">ACSD-47336: [!UICONTROL Something went wrong] error when dismissing notifications in Adobe Commerce Admin:</a> The ACSD-47336 patch fixes the issue where the user sees the [!UICONTROL Something went wrong] error when dismissing notifications in the Commerce Admin. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     <td>New article</td>
     <td>Jan 6, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46770-an-order-confirmation-email-is-sent-even-when-the-email-order-confirmation-is-unchecked.html">ACSD-46770: order confirmation email is sent even when [!UICONTROL Email Order Confirmation] is unchecked:</a> The ACSD-46770 patch fixes the issue where orders can be placed via REST API as a guest user even when [!UICONTROL Email Order Confirmation] is unselected. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46770-an-order-confirmation-email-is-sent-even-when-the-email-order-confirmation-is-unchecked.html">ACSD-46770: order confirmation email is sent even when [!UICONTROL Email Order Confirmation] is unchecked:</a> The ACSD-46770 patch fixes the issue where orders can be placed via REST API as a guest user even when [!UICONTROL Email Order Confirmation] is unselected. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article</td>
     <td>Jan 6, 2023</td>
@@ -53,7 +53,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.html">ACSD-47803: out-of-stock configurable product swatches displayed as available:</a> The ACSD-47803 patch fixes the issue where out-of-stock configurable product swatches are displayed as available. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.html">ACSD-47803: out-of-stock configurable product swatches displayed as available:</a> The ACSD-47803 patch fixes the issue where out-of-stock configurable product swatches are displayed as available. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article</td>
     <td>Jan 6, 2023</td>
@@ -61,7 +61,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47004-vat-not-applied-to-billing-address-without-vat-id.html?lang=en">ACSD-47004: VAT not applied to billing address without VAT ID:</a> The ACSD-47004 patch fixes the issue where VAT is not applied to a billing address without a VAT ID. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47004-vat-not-applied-to-billing-address-without-vat-id.html?lang=en">ACSD-47004: VAT not applied to billing address without VAT ID:</a> The ACSD-47004 patch fixes the issue where VAT is not applied to a billing address without a VAT ID. This patch is available when the [!DNL Quality Patches Tool} (QPT) 1.1.24 is installed.
     </td>
     <td> New article </td>
     <td> Jan 6, 2023</td>
@@ -69,7 +69,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45168-seo-friendly-urls-not-generated-for-products-that-have-url-key-attributes-overridden-on-store-view-level.html?lang=en">ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden:</a> The ACSD-45168 patch fixes the issue where SEO-friendly URLs are not generated for products that have url_key attributes overridden on the store-view level. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45168-seo-friendly-urls-not-generated-for-products-that-have-url-key-attributes-overridden-on-store-view-level.html?lang=en">ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden:</a> The ACSD-45168 patch fixes the issue where SEO-friendly URLs are not generated for products that have url_key attributes overridden on the store-view level. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article </td>
     <td>Jan 6, 2023 </td>
@@ -77,7 +77,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46865-shipment-and-credit-memo-grid-not-populated-when-asynchronous-indexing-is-enabled.html?lang=en">ACSD-46865: shipment and credit memo not populated when asynchronous indexing is enabled:</a> The ACSD-46865 patch fixes the issue where shipment and credit memo grids are not populated when asynchronous indexing is enabled. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46865-shipment-and-credit-memo-grid-not-populated-when-asynchronous-indexing-is-enabled.html?lang=en">ACSD-46865: shipment and credit memo not populated when asynchronous indexing is enabled:</a> The ACSD-46865 patch fixes the issue where shipment and credit memo grids are not populated when asynchronous indexing is enabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article </td>
     <td>Jan 6, 2023 </td>
@@ -85,7 +85,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47280-disable-shared-catalog-gives-wrong-product-search-results.html">ACSD-47280: Disabling shared catalog gives wrong product search results:</a> The ACSD-47280 patch fixes the display of the correct search results when the shared catalog feature is disabled. This patch is available when the Quality Patches Tool (QPT) 1.1.22 is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47280-disable-shared-catalog-gives-wrong-product-search-results.html">ACSD-47280: Disabling shared catalog gives wrong product search results:</a> The ACSD-47280 patch fixes the display of the correct search results when the shared catalog feature is disabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.22 is installed. 
     </td>
     <td>New article </td>
     <td>Jan 6, 2023 </td>
