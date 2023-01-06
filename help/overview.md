@@ -30,89 +30,73 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
   </tr>
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47559-preview-email-template-not-fully-visible.html">ACSD-47559: email template preview not fully visible:</a> The ACSD-47559 patch fixes the issue where the email template preview is not fully visible. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.24 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47920-guest-order-allow-guest-checkout-off.html">ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off:</a> The ACSD-47920 patch fixes the issue where orders can be placed via REST API as a guest user even when the [!UICONTROL Allow Guest Checkout] is turned off. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article</td>
-    <td> Dec 15, 2022</td>
+    <td> Jan 6, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47137-image-gallery-load-speed-improve-pub-media-big.html">ACSD-47137: improve image gallery loading speed when pub/media folder big:</a> The ACSD-47137 patch improves the loading speed of the image gallery when the pub/media folder is very big. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.24 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.html">ACSD-47336: [!UICONTROL Something went wrong] error when dismissing notifications in Adobe Commerce Admin:</a> The ACSD-47336 patch fixes the issue where the user sees the [!UICONTROL Something went wrong] error when dismissing notifications in the Commerce Admin. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     <td>New article</td>
-    <td>Dec 15, 2022</td>
+    <td>Jan 6, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-crons-are-disabled-without-any-intervention.html?lang=en">Adobe Commerce crons disabled without intervention</a> This article provides a solution for when crons are disabled without intervention.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46770-an-order-confirmation-email-is-sent-even-when-the-email-order-confirmation-is-unchecked.html">ACSD-46770: order confirmation email is sent even when [!UICONTROL Email Order Confirmation] is unchecked:</a> The ACSD-46770 patch fixes the issue where orders can be placed via REST API as a guest user even when [!UICONTROL Email Order Confirmation] is unselected. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article</td>
-    <td>Dec 15, 2022</td>
+    <td>Jan 6, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47497-missing-acl-for-store-configuration-services-oaut.html?lang=en">ACSD-47497: missing ACL for [!UICONTROL Store / Configuration / Services OAuth]:</a> The ACSD-47497 patch solves the issue where the [!UICONTROL Services] tab is not visible in the [!UICONTROL Configuration] section in the Adobe Commerce Admin. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.23 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.html">ACSD-47803: out-of-stock configurable product swatches displayed as available:</a> The ACSD-47803 patch fixes the issue where out-of-stock configurable product swatches are displayed as available. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article</td>
-    <td>Dec 15, 2022</td>
+    <td>Jan 6, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47027-slow-query-b2b-companyrole-graphql-update.html">ACSD-47027: slow query B2B [!UICONTROL CompanyRole] GraphQL update:</a> The ACSD-47027 patch solves the issue where the slow query B2B CompanyRole GraphQL update does not work as expected. This patch is available when the [!UICONTROL Quality Patches] Tool (QPT) 1.1.23 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47004-vat-not-applied-to-billing-address-without-vat-id.html?lang=en">ACSD-47004: VAT not applied to billing address without VAT ID:</a> The ACSD-47004 patch fixes the issue where VAT is not applied to a billing address without a VAT ID. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td> New article </td>
-    <td> Dec 15, 2022</td>
+    <td> Jan 6, 2023</td>
  </tr>
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46519-product-count-categorylist-graphql-query-returns-zero-anchor-categories.html">ACSD-46519: [!UICONTROL product_count] in [!UICONTROL categoryList] GraphQL query returns 0 for anchor categories:</a> The ACSD-46519 patch solves the issue where the [!UICONTROL product_count] in [!UICONTROL categoryList] GraphQL query returns 0 for anchor categories. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.23 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45168-seo-friendly-urls-not-generated-for-products-that-have-url-key-attributes-overridden-on-store-view-level.html?lang=en">ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden:</a> The ACSD-45168 patch fixes the issue where SEO-friendly URLs are not generated for products that have url_key attributes overridden on the store-view level. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article </td>
-    <td>Dec 15, 2022 </td>
+    <td>Jan 6, 2023 </td>
   </tr>
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47232-coupon-is-not-applied-when-same-as-billing-address-is-checked.html">ACSD-47232: coupon is not applied when [!UICONTROL Same as Billing Address] is checked:</a> The ACSD-47232 patch fixes the issue where the coupon is not applied when [!UICONTROL Same as Billing Address] is checked. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.23 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46865-shipment-and-credit-memo-grid-not-populated-when-asynchronous-indexing-is-enabled.html?lang=en">ACSD-46865: shipment and credit memo not populated when asynchronous indexing is enabled:</a> The ACSD-46865 patch fixes the issue where shipment and credit memo grids are not populated when asynchronous indexing is enabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article </td>
-    <td>Dec 15, 2022 </td>
+    <td>Jan 6, 2023 </td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47107-catalog-price-rule-is-applied-to-custom-options.html">ACSD-47107: catalog price rule is applied to custom options:</a> The ACSD-47107 patch fixes the issue where the catalog price rule is applied to custom options. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.23 is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47280-disable-shared-catalog-gives-wrong-product-search-results.html">ACSD-47280: Disabling shared catalog gives wrong product search results:</a> The ACSD-47280 patch fixes the display of the correct search results when the shared catalog feature is disabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.22 is installed. 
     </td>
     <td>New article </td>
-    <td>Dec 15, 2022 </td>
+    <td>Jan 6, 2023 </td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47179-mass-delete-product-review-doesnt-work-when-logged-in-as-limited-user.html">ACSD-47179: mass deletion of product reviews does not work when logged in as a limited user role:</a> The ACSD-47179 patch fixes the issue where mass deletion of product reviews does not work when logged in as a limited user role. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.23 is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.html?lang=en#cause">Cannot access the correct cloud project:</a> This article was updated to include new rebranded steps, images, as well as added a third reason why the user would see the wrong projects. 
     </td>
-    <td>New article </td>
-    <td>Dec 15, 2022 </td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47444-trying-access-array-offset-value-type-bool-error.html">ACSD-47444: *[!UICONTROL Trying to access array offset on value of type bool]* error when accessing certain non-existing category paths for known products on PHP 7.4:</a> The ACSD-47444 patch solves the issue where you see *[!UICONTROL Trying to access array offset on value of type bool]* error when accessing certain non-existing category paths for known products on PHP 7.4. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.22 is installed. 
-    </td>
-    <td>New article </td>
-    <td>Dec 15, 2022 </td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45071-default-source-added-to-product-during-import.html">ACSD-45071: default source added to product during import:</a> The ACSD-45071 patch solves the issue where the default source is added to the product during import. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.21 is installed. 
-    </td>
-    <td>New article </td>
-    <td>Dec 15, 2022 </td>
+    <td>Update</td>
+    <td>Jan 6, 2023 </td>
   </tr>
 </table>
 
