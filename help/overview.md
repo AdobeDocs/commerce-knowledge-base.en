@@ -61,7 +61,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47004-vat-not-applied-to-billing-address-without-vat-id.html?lang=en">ACSD-47004: VAT not applied to billing address without VAT ID:</a> The ACSD-47004 patch fixes the issue where VAT is not applied to a billing address without a VAT ID. This patch is available when the [!DNL Quality Patches Tool} (QPT) 1.1.24 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47004-vat-not-applied-to-billing-address-without-vat-id.html?lang=en">ACSD-47004: VAT not applied to billing address without VAT ID:</a> The ACSD-47004 patch fixes the issue where VAT is not applied to a billing address without a VAT ID. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td> New article </td>
     <td> Jan 6, 2023</td>
