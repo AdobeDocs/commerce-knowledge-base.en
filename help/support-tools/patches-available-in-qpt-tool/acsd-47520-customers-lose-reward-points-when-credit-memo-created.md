@@ -43,7 +43,7 @@ Customers lose reward points when a credit memo is created.
 
 <u>Expected results</u>:
 
-* The Admin can refund the rewards points.
+* The Admin can refund the reward points.
 
 * The order status will be closed.
 
