@@ -37,7 +37,7 @@ Customers lose reward points when a credit memo is created.
 1. Create a customer and add 10 reward point to his account.
 1. Go to the Admin > **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]** > Select the customer created in the previous step.
 1. Select any product whose price is greater than the reward points.
-1. Place an order via any payment method and rewards points.
+1. Place an order via any payment method and the reward points.
 1. Create an invoice for the order.
 1. Create a credit memo, but do not refund the rewards points.
 
