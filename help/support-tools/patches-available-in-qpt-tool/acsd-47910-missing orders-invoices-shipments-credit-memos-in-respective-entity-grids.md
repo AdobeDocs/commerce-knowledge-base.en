@@ -1,11 +1,11 @@
 ---
-title: "ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids"
+title: "ACSD-47910: missing orders, invoices, shipments, credit memos in respective entity grids"
 description: Apply the ACSD-47910 patch to fix the Adobe Commerce issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids.
 ---
 
 # ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids
 
-The ACSD-47910 patch fixes the issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-47910. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce xxx. (this is optional if the issue really was fixed).
+The ACSD-47910 patch fixes the issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-47910. The version where this issue will be fixed is not yet available.
 
 ## Affected products and versions
 
