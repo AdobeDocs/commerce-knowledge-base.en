@@ -32,7 +32,7 @@ Customers lose reward points when a credit memo is created.
    * **[!UICONTROL Customers May See Reward Points History]** = _Yes_
    * **[!UICONTROL Refund Reward Points Automatically]** = _No_
    * **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** = _Yes_
-1. Go to the Admin > **[!UICONTROL Store]** > **[!UICONTROL Other Settings]** -> **[!UICONTROL Reward Exchange Rates]** and click on **[!UICONTROL Add New Rate]**.
+1. Go to the Admin > **[!UICONTROL Store]** > **[!UICONTROL Other Settings]** > **[!UICONTROL Reward Exchange Rates]** and click on **[!UICONTROL Add New Rate]**.
 1. Add new rate (1:1) and flush the cache.
 1. Create a customer and add 10 reward points to this account.
 1. Go to the Admin > **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]** > Select the customer created in the previous step.
