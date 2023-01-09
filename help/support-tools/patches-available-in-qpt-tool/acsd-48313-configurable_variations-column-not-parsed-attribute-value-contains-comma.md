@@ -1,11 +1,12 @@
 ---
-title: ACSD-48313: **[!UICONTROL configurable_variations]** column not parsed if attribute value contains comma.
+title: ACSD-48313: [!UICONTROL configurable_variations] column not parsed if attribute value contains comma
 description: Apply the ACSD-48313 patch to fix the Adobe Commerce issue where the *[!UICONTROL configurable_variations]** column is not parsed if the attribute value contains a comma.
 ---
 
-# ACSD-48313: **[!UICONTROL configurable_variations]** column not parsed if attribute value contains comma.
+# ACSD-48313: **[!UICONTROL configurable_variations]** column not parsed if attribute value contains comma
 
 The ACSD-48313 patch solves the issue where **[!UICONTROL configurable_variations]** column is not parsed if the attribute value contains a comma. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-48313. The version where this issue will be fixed is not yet available.
+
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
