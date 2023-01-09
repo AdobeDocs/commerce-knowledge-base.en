@@ -14,7 +14,7 @@ The ACSD-48627 patch fixes the issue where the out-of-stock configurable product
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) xxx
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p1
 
 >[!NOTE]
 >
