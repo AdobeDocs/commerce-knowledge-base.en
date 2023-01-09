@@ -392,7 +392,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-46770: order confirmation email is sent even when [!UICONTROL Email order confirmation] is unchecked](/help/support-tools/patches-available-in-qpt-tool/acsd-46770-an-order-confirmation-email-is-sent-even-when-the-email-order-confirmation-is-unchecked.md)
     * [ACSD-47336: [!UICONTROL Something went wrong] error notifications dismissed Adobe Commerce Admin](/help/support-tools/patches-available-in-qpt-tool/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.md)
     * [ACSD-47803: out-of-stock configurable product swatches displayed as available](/help/support-tools/patches-available-in-qpt-tool/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.md)
-    * [ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids](/help/support-tools/patches-available-in-qpt-tool/acsd-47910-missing orders-invoices-shipments-credit-memos-in-respective-entity-grids.md)
+    * [ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids](/help/support-tools/patches-available-in-qpt-tool/acsd-47910-missing-orders-invoices-shipments-credit-memos-in-respective-entity-grids.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
