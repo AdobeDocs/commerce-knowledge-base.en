@@ -49,7 +49,7 @@ Customers lose reward points when a credit memo is created.
 
 <u>Actual results</u>:
 
-* There is no way to refund the rewards points.
+* There is no way to refund the reward points.
 
 * The order status is **[!UICONTROL Completed]**.
 
