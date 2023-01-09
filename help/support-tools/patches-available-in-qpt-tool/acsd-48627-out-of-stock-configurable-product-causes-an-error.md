@@ -27,7 +27,7 @@ Out-of-stock configurable product causes an error when sending a GraphQL request
 <u>Steps to reproduce</u>:
 
 1. Create a customer account.
-1. Add some products to the cart, including a configurable product (ID = 436).
+1. Add some products to the cart, including a configurable product.
 1. Go to the admin backend, and edit the configurable product by setting all child products qty to 0.
 1. The configurable product will become out of stock as all the child products are out of stock.
 1. Check the `catalog_product_index_price` table. The record with this product is empty.
