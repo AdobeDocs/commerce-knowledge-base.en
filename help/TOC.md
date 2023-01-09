@@ -395,7 +395,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-47803: out-of-stock configurable product swatches displayed as available](/help/support-tools/patches-available-in-qpt-tool/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.md)
     * [ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL Display Out of Stock Products] enabled](/help/support-tools/patches-available-in-qpt-tool/acsd-48234-catalog-search-result-shows-incorrect-category-item-count-when-show-out-of-stock-option-enabled.md)
     * [ACSD-47520: customers lose reward points when a credit memo is created](/help/support-tools/patches-available-in-qpt-tool/acsd-47520-customers-lose-reward-points-when-credit-memo-created.md)
-    * [ACSD-48313: [!UICONTROL configurable_variations] column not parsed if attribute value contains comma](/help/support-tools/patches-available-in-qpt-tool/acsd-48313-configurable_variations-column-not-parsed-attribute-value-contains-comma.md)
+    * [ACSD-48313: [!UICONTROL configurable_variations] column not parsed if attribute value contains comma](/help/support-tools/patches-available-in-qpt-tool/acsd-48313-configurable-variations-column-not-parsed-attribute-value-contains-comma.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
