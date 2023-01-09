@@ -28,12 +28,12 @@ Missing orders, invoices, shipments, and credit memos in respective entity grids
 1. Enable **[!UICONTROL Asynchronous indexing]** at **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Developer]** > **[!UICONTROL Grid Settings]**.
 1. Place two orders.
 1. Run the cron to sync those orders to the grid.
-1. Open one of the orders and make it ready to be invoiced. DO NOT SUBMIT THE INVOICE YET.
+1. Open one of the orders and make it ready to be invoiced. DO NOT SUBMIT THE INVOICE YET. 
 1. Make a new order ready to be placed on the frontend. DO NOT CLICK ON THE PLACE ORDER BUTTON YET.
-1. Add a `sleep(30)` in the `foreach` at NotSyncedDataProvider::L43.
-1. Run `bin/magento cron:run`
-1. Now PLACE THE NEW ORDER
-1. INVOICE THE PREVIOUS ORDER.
+1. Add a `sleep(30)` in the `foreach` at `NotSyncedDataProvider::L43`.
+1. Run `bin/magento cron:run`.
+1. Now place the new order.
+1. Invoice the previous order.
 1. Run the cron again expecting the new order to be synced.
 1. Go to the order grid in the admin.
 
@@ -43,9 +43,7 @@ The new order should appear on the order grid.
 
 <u>Actual results</u>:
 
-The previous order update has been synced to the grid (**[!UICONTROL status: Processing]**).
-
-The new order never appears on the grid.
+The previous order update has been synced to the grid (**[!UICONTROL status: Processing]**). The new order never appears on the grid.
 
 ## Apply the patch
 
