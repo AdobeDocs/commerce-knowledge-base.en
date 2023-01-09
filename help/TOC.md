@@ -386,12 +386,15 @@ breadcrumb-title: Commerce KB
     * [ACSD-47559: email template preview not fully visible](/help/support-tools/patches-available-in-qpt-tool/acsd-47559-preview-email-template-not-fully-visible.md)
     * [ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden](/help/support-tools/patches-available-in-qpt-tool/acsd-45168-seo-friendly-urls-not-generated-for-products-that-have-url-key-attributes-overridden-on-store-view-level.md)
     * [ACSD-47137: improves image gallery loading speed when pub/media folder big](/help/support-tools/patches-available-in-qpt-tool/acsd-47137-image-gallery-load-speed-improve-pub-media-big.md)
+    * [ACSD-47079: composite products' stock status not updated when sub-product stock status changes](/help/support-tools/patches-available-in-qpt-tool/acsd-47079-composite-products-stock-status-not-updated.md)
     * [ACSD-47955: GraphQL does not display cart discount correctly](/help/support-tools/patches-available-in-qpt-tool/acsd-47955-graphql-does-not-display-cart-discount-correctly.md)
     * [ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off](/help/support-tools/patches-available-in-qpt-tool/acsd-47920-guest-order-allow-guest-checkout-off.md)
     * [ACSD-47004: VAT not applied to billing address without VAT ID](/help/support-tools/patches-available-in-qpt-tool/acsd-47004-vat-not-applied-to-billing-address-without-vat-id.md)
     * [ACSD-46770: order confirmation email is sent even when [!UICONTROL Email order confirmation] is unchecked](/help/support-tools/patches-available-in-qpt-tool/acsd-46770-an-order-confirmation-email-is-sent-even-when-the-email-order-confirmation-is-unchecked.md)
     * [ACSD-47336: [!UICONTROL Something went wrong] error notifications dismissed Adobe Commerce Admin](/help/support-tools/patches-available-in-qpt-tool/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.md)
     * [ACSD-47803: out-of-stock configurable product swatches displayed as available](/help/support-tools/patches-available-in-qpt-tool/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.md)
+    * [ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL Display Out of Stock Products] enabled](/help/support-tools/patches-available-in-qpt-tool/acsd-48234-catalog-search-result-shows-incorrect-category-item-count-when-show-out-of-stock-option-enabled.md)
+    * [ACSD-47520: customers lose reward points when a credit memo is created](/help/support-tools/patches-available-in-qpt-tool/acsd-47520-customers-lose-reward-points-when-credit-memo-created.md)<<<<<<< ACSD-47910-MSKB-1954
     * [ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids](/help/support-tools/patches-available-in-qpt-tool/acsd-47910-missing-orders-invoices-shipments-credit-memos-in-respective-entity-grids.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
