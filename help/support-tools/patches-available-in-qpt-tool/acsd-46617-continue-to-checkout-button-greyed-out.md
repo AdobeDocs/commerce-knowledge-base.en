@@ -37,7 +37,6 @@ The **[!UICONTROL Continue to Checkout]** button is greyed out even if the subto
         * [!UICONTROL Apply]: *[!UICONTROL Percent of product price discount]*
         * [!UICONTROL Discount Amount]: *92*
         * [!UICONTROL Apply to Shipping Amount: Yes]
-
 1. Create a product with the price of $25.
 1. Add the product to the cart.
 1. Go to the shopping cart, select the $5 **[!UICONTROL Flat Rate shipping]** method and apply the coupon code.
