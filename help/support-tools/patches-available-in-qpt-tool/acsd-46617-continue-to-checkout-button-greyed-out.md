@@ -50,7 +50,7 @@ There is no error related to the minimum order amount as the grand total of $2.4
 <u>Actual results</u>:
 
 * An error related to the minimum Order amount occurs even when the grand total of $2.4 is greater than the minimum order amount of $2.
-* The proceed to checkout button is greyed out.
+* The **[!UICONTROL Continue to Checkout]** button is greyed out.
 
 ## Apply the patch
 
