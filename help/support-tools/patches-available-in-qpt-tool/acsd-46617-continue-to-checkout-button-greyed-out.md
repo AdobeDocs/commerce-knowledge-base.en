@@ -35,7 +35,7 @@ The **[!UICONTROL Continue to Checkout]** button is greyed out even if the subto
     * [!UICONTROL Conditions: Keep empty]
     * [!UICONTROL Actions]:
         * [!UICONTROL Apply]: *[!UICONTROL Percent of product price discount]*
-        * [!UICONTROL Discount Amount]: 92
+        * [!UICONTROL Discount Amount]: *92*
         * [!UICONTROL Apply to Shipping Amount: Yes]
 
 1. Create a product with the price of $25.
