@@ -34,7 +34,7 @@ The **[!UICONTROL Continue to Checkout]** button is greyed out even if the subto
     * [!UICONTROL Coupon Code]: *[!UICONTROL TEST (optional)]*
     * [!UICONTROL Conditions: Keep empty]
     * [!UICONTROL Actions]:
-        * [!UICONTROL Apply: Percent of product price discount]
+        * [!UICONTROL Apply]: *[!UICONTROL Percent of product price discount]*
         * [!UICONTROL Discount Amount]: 92
         * [!UICONTROL Apply to Shipping Amount: Yes]
 
