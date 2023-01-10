@@ -31,7 +31,7 @@ The **[!UICONTROL Continue to Checkout]** button is greyed out even if the subto
     * [!UICONTROL Minimum Amount]: *2*
 
 1. Create a [!UICONTROL Cart Price Rule].
-    * [!UICONTROL Coupon Code: TEST (optional)]
+    * [!UICONTROL Coupon Code]: *[!UICONTROL TEST (optional)]*
     * [!UICONTROL Conditions: Keep empty]
     * [!UICONTROL Actions]:
         * [!UICONTROL Apply: Percent of product price discount]
