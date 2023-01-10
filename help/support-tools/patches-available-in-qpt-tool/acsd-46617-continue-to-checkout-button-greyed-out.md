@@ -45,7 +45,7 @@ The **[!UICONTROL Continue to Checkout]** button is greyed out even if the subto
 
 <u>Expected results</u>:
 
-No error related to the minimum order amount occurs as the grand total of $2.4 is greater than the required amount of $2.
+There is no error related to the minimum order amount as the grand total of $2.4 is greater than the required amount of $2.
 
 <u>Actual results</u>:
 
