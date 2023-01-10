@@ -28,7 +28,7 @@ The **[!UICONTROL Continue to Checkout]** button is greyed out even if the subto
 
 1. Go to the Adobe Commerce Admin > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Minimum Order Amount]** and set the following: 
     * [!UICONTROL Enable]: *[!UICONTROL Yes]*
-    * [!UICONTROL Minimum Amount]: 2
+    * [!UICONTROL Minimum Amount]: *2*
 
 1. Create a [!UICONTROL Cart Price Rule].
 
