@@ -22,7 +22,7 @@ This ACSD-46617 patch solves the issue where the **[!UICONTROL Continue to Check
 
 ## Issue
 
-The *[!UICONTROL Continue to Checkout]* button is greyed out even if the subtotal is greater than the configured *[!UICONTROL Minimum Order Amount]*.
+The **[!UICONTROL Continue to Checkout]** button is greyed out even if the subtotal is greater than the configured minimum order amount.
 
 <u>Steps to reproduce</u>:
 
