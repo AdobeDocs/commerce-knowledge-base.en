@@ -21,7 +21,7 @@ The ACSD-48313 patch solves the issue where **[!UICONTROL configurable_variation
 
 ## Issue
 
-After exporting configurable products, the resulting file cannot be imported again because of a formatting issue with the **[!UICONTROL configurable_variations]** attribute. This happens when there are attribute options which include A comma.
+After exporting configurable products, the resulting file cannot be imported again because of a formatting issue with the **[!UICONTROL configurable_variations]** attribute. This happens when there are attribute options which include a comma.
 
 <u>Steps to reproduce</u>:
 
