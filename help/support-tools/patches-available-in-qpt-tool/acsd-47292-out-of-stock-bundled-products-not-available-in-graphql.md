@@ -4,7 +4,7 @@ description: Apply the ACSD-47292 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-47292: out-of-stock bundled products are not available in GraphQL response
 
-The ACSD-47292 patch fixes the issue where the out-of-stock bundled products are not available in the GraphQL response even if the *[!UICONTROL Display Out-of-Stock Products]* is set to *[!UICONTROL Yes]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-47292. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-47292 patch fixes the issue where the out-of-stock bundled products are not available in the GraphQL response even if the [!UICONTROL Display Out-of-Stock Products] is set to *[!UICONTROL Yes]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-47292. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
