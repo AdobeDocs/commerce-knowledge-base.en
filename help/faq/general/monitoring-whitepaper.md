@@ -30,7 +30,7 @@ When notifications are triggered, Adobe Commerce support team will triage the is
 
  ## Site availability monitoring
 
- |  Site availability  | Description
+ |  Site availability  | Description |
  |------------|------------|
  | **Monitoring goal** | To track site availability |
  | **Instrumented on** | Single URL selected for high SLA. |
@@ -41,7 +41,7 @@ When notifications are triggered, Adobe Commerce support team will triage the is
 
 ## Diskspace monitoring
 
-| Diskspace monitoring    | Description
+| Diskspace monitoring    | Description |
 |------------|------------|
 |Monitoring goal |To track diskspace availability.|
 | Instrumented on | Host system running containers with services or services directly. Services include Galera, MariaDB, Solr, Redis, Elasticsearch, Nginx, Memcached and deployment infrastructure.|
