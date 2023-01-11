@@ -37,6 +37,7 @@ After exporting configurable products, the resulting file cannot be imported aga
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Import]** and try to reimport the same CSV file created above.
 
 <u>Expected results</u>:
+
 User should be able to import file.
 
 <u>Actual results</u>:
