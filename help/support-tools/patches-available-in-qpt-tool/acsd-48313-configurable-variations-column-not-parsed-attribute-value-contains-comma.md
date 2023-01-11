@@ -25,14 +25,14 @@ After exporting configurable products, the resulting file cannot be imported aga
 
 <u>Steps to reproduce</u>:
 
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** and create a new attribute "Size":
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** and create a new attribute _Size_:
 1. Catalog Input Type for Store Owner: Dropdown
   1. Create Options that include a comma, e.g.:
   1. 10,2cm
   1. 15,5cm
 1. **[!UICONTROL Advanced Attribute Properties]** - Scope: _Global_
-1. Create a new configurable product using the "Create Configurations" functionality.
-1. Select the above attribute "Size" and the two options that include the comma.
+1. Create a new configurable product using the _Create Configurations_ functionality.
+1. Select the above attribute _Size_ and the two options that include the comma.
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Export]** and create a new Products export (execute the cron to trigger the generation of the CSV file).
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Import]** and try to reimport the same CSV file created above.
 
