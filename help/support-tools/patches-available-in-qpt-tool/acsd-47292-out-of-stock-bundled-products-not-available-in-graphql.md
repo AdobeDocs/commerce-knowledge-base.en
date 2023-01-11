@@ -22,7 +22,7 @@ The ACSD-47292 patch fixes the issue where the out-of-stock bundled products are
 
 ## Issue
 
-Out-of-stock bundled products are not available in the GraphQL response even if the *[!UICONTROL Display Out-of-Stock Products]* is set to *[Yes]*.
+The out-of-stock bundled products are not available in the GraphQL response even if the [!UICONTROL Display Out-of-Stock Products] is set to *[!UICONTROL Yes]*.
 
 <u>Steps to reproduce</u>:
 
