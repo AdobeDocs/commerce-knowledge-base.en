@@ -31,7 +31,7 @@ The out-of-stock bundled products are not available in the GraphQL response even
 1. Make s1 out-of-stock and not visible individually and s2 in-stock and not visible individually, and assign them to a category.
 1. Create a bundled product with at least one option product and assign s1 and s2 to this option (input type "RadioButton").
 1. Save the bundled product and assign it to a category.
-1. Go to the front end and open this bundled product. You will see the out-of-stock option s1 is greyed but visible.
+1. Go to the storefront and open this bundled product. You will see the out-of-stock option s1 is greyed but visible.
 1. Send a GraphQL request:
 
 ```GraphQL
