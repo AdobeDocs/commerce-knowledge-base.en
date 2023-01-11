@@ -31,7 +31,7 @@ After exporting configurable products, the resulting file cannot be imported aga
   1. 10,2cm
   1. 15,5cm
 1. **[!UICONTROL Advanced Attribute Properties]** - Scope: _Global_
-1. Create a new configurable product and using the "Create Configurations" functionality.
+1. Create a new configurable product using the "Create Configurations" functionality.
 1. Select the above attribute "Size" and the two options that include the comma.
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Export]** and create a new Products export (execute the cron to trigger the generation of the CSV file).
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Import] and try to reimport the same CSV file create above.
