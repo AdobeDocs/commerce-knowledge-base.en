@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-48313: [!UICONTROL configurable_variations] column not parsed if attribute value contains comma'
-description: Apply the ACSD-48313 patch to fix the Adobe Commerce issue where the *[!UICONTROL configurable_variations]** column is not parsed if the attribute value contains a comma.
+description: Apply the ACSD-48313 patch to fix the Adobe Commerce issue where the **[!UICONTROL configurable_variations]** column is not parsed if the attribute value contains a comma.
 ---
 
 # ACSD-48313: **[!UICONTROL configurable_variations]** column not parsed if attribute value contains comma
@@ -27,11 +27,11 @@ After exporting configurable products, the resulting file cannot be imported aga
 
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** and create a new attribute _Size_:
 1. Catalog Input Type for Store Owner: Dropdown
-  1. Create Options that include a comma, e.g.:
+  1. Create options that include a comma, e.g.:
   1. 10,2cm
   1. 15,5cm
 1. **[!UICONTROL Advanced Attribute Properties]** - Scope: _Global_
-1. Create a new configurable product using the _Create Configurations_ functionality.
+1. Create a new configurable product using the Create Configurations functionality.
 1. Select the above attribute _Size_ and the two options that include the comma.
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Export]** and create a new Products export (execute the cron to trigger the generation of the CSV file).
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Import]** and try to reimport the same CSV file created above.
