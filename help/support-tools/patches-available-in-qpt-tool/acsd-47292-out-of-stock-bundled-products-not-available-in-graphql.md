@@ -70,7 +70,7 @@ The out-of-stock bundled products are not available in the GraphQL response even
 
 <u>Expected results</u>:
 
-s1 bundle option is listed in the GraphQL response since *[!UICONTROL Display Out-of-Stock Products]* is set to *[!UICONTROL Yes]*, and it is visible on the front end.
+s1 bundle option is listed in the GraphQL response since [!UICONTROL Display Out-of-Stock Products] is set to *[!UICONTROL Yes]*, and it is visible on the storefront.
 
 <u>Actual results</u>:
 
