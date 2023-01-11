@@ -26,7 +26,7 @@ The out-of-stock bundled products are not available in the GraphQL response even
 
 <u>Steps to reproduce</u>:
 
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** and set **[!UICONTROL Display Out-of-Stock Products]** = **[!UICONTROL Yes]**.
+1. Go to the Adobe Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** and set the [!UICONTROL Display Out-of-Stock Products] to *[!UICONTROL Yes]*.
 1. Create two simple products, s1 and s2. 
 1. Make s1 out-of-stock and not visible individually and s2 in-stock and not visible individually, and assign them to a category.
 1. Create a bundled product with at least one option product and assign s1 and s2 to this option (input type "RadioButton").
