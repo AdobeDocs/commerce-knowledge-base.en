@@ -3,6 +3,7 @@ title: Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure
 description: Monitoring provides visibility into the overall health of Adobe Commerce powered by Adobe and is
 exl-id: 01342d8d-2123-4455-b1a5-a08a5805b046
 ---
+
 # Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure
 
 Monitoring provides visibility into the overall health of Adobe Commerce and is instrumented with various monitoring tools to track the health of critical parts of our underlying systems to deliver optimized performance on cloud.
@@ -24,11 +25,11 @@ When notifications are triggered, Adobe Commerce support team will triage the is
 
  Our [Managed Alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) can help you take action before you notice slow response times or an outage.
 
- ## Adobe Commerce: default monitoring
+## Adobe Commerce: default monitoring
 
- The below events are monitored and the Adobe Commerce team (including non-Adobe Managed Services (AMS)/Premier support) take necessary steps to resolve and communicate issues identified.
+The below events are monitored and the Adobe Commerce team (including non-Adobe Managed Services (AMS)/Premier support) take necessary steps to resolve and communicate issues identified.
 
- ## Site availability monitoring
+## Site availability monitoring
 
  |  Site availability  | Description |
  |------------|------------|
