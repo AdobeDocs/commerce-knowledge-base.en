@@ -51,3 +51,15 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
 | Notification recipient | Internal and [Managed alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) are created within Adobe and for the customer. |
 | Action by Adobe | Responsible for triaging and fixing if the issue is on Adobe Commerce platform. |
 | Action by customer | Responsible for fixing the issue if caused by changes introduced by customer or partner.  For troubleshooting, please refer to: <ul><li>[Managed alerts for Adobe Commerce: disk warning alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-warning-alert.html)</li><li>[Managed alerts for Adobe Commerce: disk critical alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-critical-alert.html) </li></ul> |
+
+## CPU monitoring
+
+| CPU monitoring   | Description |
+|------------|------------|
+|Monitoring goal |To track CPU availability.|
+| Instrumented on | |
+| Metric | CPU storage is monitored ...|
+| Description | Notification is sent based on the thresholds configured around free CPU .... |
+| Notification recipient | Internal and [Managed alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) are created within Adobe and for the customer. |
+| Action by Adobe | ... |
+| Action by customer | Responsible for fixing the issue if caused by changes introduced by customer or partner.  For troubleshooting, please refer to: <ul><li>[Managed alerts for Adobe Commerce: CPU warning alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-cpu-warning-alert.html)</li><li>[Managed alerts on Adobe Commerce: CPU critical alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-on-magento-commerce-cpu-critical-alert.html) </li></ul> |
