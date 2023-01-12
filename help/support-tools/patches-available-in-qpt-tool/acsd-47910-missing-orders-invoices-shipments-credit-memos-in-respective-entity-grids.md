@@ -35,7 +35,7 @@ Missing orders, invoices, shipments, and credit memos in respective entity grids
 1. Now place the new order.
 1. Invoice the previous order.
 1. Run the cron again expecting the new order to be synced.
-1. Go to the order grid in the admin.
+1. Go to the order grid in the Admin.
 
 <u>Expected results</u>:
 
