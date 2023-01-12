@@ -28,8 +28,8 @@ After exporting configurable products, the resulting file cannot be imported aga
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** and create a new attribute _Size_:
 1. Catalog Input Type for Store Owner: **[!UICONTROL Dropdown]**.
   1. Create options that include a comma, e.g.:
-  1. 10,2cm
-  1. 15,5cm
+      * 10,2cm
+      * 15,5cm
 1. **[!UICONTROL Advanced Attribute Properties]** - Scope: _Global_
 1. Create a new configurable product using the Create Configurations functionality.
 1. Select the above attribute _Size_ and the two options that include the comma.
