@@ -99,3 +99,16 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
 | Notification recipient | Internal and [Managed alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) are created within Adobe and for the customer. |
 | Action by Adobe | ... |
 | Action by customer | Responsible for fixing the issue if caused by changes introduced by customer or partner.  For troubleshooting, please refer to: <ul><li>[Managed alerts on Adobe Commerce: Redis memory warning alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-on-magento-commerce-redis-memory-warning-alert.html)</li><li>[Redis memory critical alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-on-magento-commerce-redis-memory-critical-alert.html) </li></ul> |
+
+## MariaDB monitoring
+
+| MariaDB memory monitoring   | Description |
+|------------|------------|
+|Monitoring goal |To track MariaDB availability.|
+| Instrumented on | |
+| Metric | MariaDB is monitored ...|
+| Description | Notification is sent based on the thresholds configured around MariaDB availability .... |
+| Notification recipient | Internal and [Managed alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) are created within Adobe and for the customer. |
+| Action by Adobe | ... |
+| Action by customer | Responsible for fixing the issue if caused by changes introduced by customer or partner.  For troubleshooting, please refer to: <ul><li>[Managed alerts on Adobe Commerce: MariaDB alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-on-magento-commerce-mariadb-alerts.html)</li></ul> 
+
