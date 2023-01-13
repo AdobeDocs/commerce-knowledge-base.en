@@ -1,6 +1,7 @@
 ---
-title: "ACSD-46617: **[!UICONTROL Continue to Checkout]** button greyed out when subtotal greater than configured minimum order amount"
+title: 'ACSD-46617: **[!UICONTROL Continue to Checkout]** button greyed out when subtotal greater than configured minimum order amount'
 description: Apply the ACSD-46617 patch to solve the Adobe Commerce issue where the **[!UICONTROL Continue to Checkout]** button is greyed out even if the subtotal is greater than the configured minimum order amount.
+exl-id: 42fe02bd-f48b-4c6d-8643-ea2c1aa98c94
 ---
 # ACSD-46617: "[!UICONTROL Continue to Checkout]" button greyed out when subtotal greater than "[!UICONTROL Minimum Order Amount]"
 
@@ -67,4 +68,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-
