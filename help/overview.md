@@ -30,49 +30,73 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
   </tr>
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46674-custom-options-image-type-displayed-html.html?lang=en"> ACSD-46674: custom options of image type displayed as HTML in customer emails:</a> The ACSD-46674 patch fixes the issue where the custom options of an image type are displayed as HTML in customer emails. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.21 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47920-guest-order-allow-guest-checkout-off.html">ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off:</a> The ACSD-47920 patch fixes the issue where orders can be placed via REST API as a guest user even when the [!UICONTROL Allow Guest Checkout] is turned off. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article</td>
-    <td> Dec 8, 2022</td>
+    <td> Jan 6, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.html?lang=en">Cannot access [!DNL New Relic] on Adobe Commerce Cloud project:</a> This article provides a solution for when you cannot access [!DNL New Relic] despite being added to an Adobe Commerce cloud project.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.html">ACSD-47336: [!UICONTROL Something went wrong] error when dismissing notifications in Adobe Commerce Admin:</a> The ACSD-47336 patch fixes the issue where the user sees the [!UICONTROL Something went wrong] error when dismissing notifications in the Commerce Admin. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     <td>New article</td>
-    <td>Dec 8, 2022</td>
+    <td>Jan 6, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46856-improves-performance-when-updating-tier-prices.html?lang=en"> ACSD-46856: Updating of tier prices via [!UICONTROL System] > [!UICONTROL Configuration] > [!UICONTROL Import] > [!UICONTROL Advanced Pricing] is slow:</a> The ACSD-46856 patch improves performance when updating tier prices via [!UICONTROL System] > [!UICONTROL Configuration] > [!UICONTROL Import] > [!UICONTROL Advanced Pricing]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.21 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46770-an-order-confirmation-email-is-sent-even-when-the-email-order-confirmation-is-unchecked.html">ACSD-46770: order confirmation email is sent even when [!UICONTROL Email Order Confirmation] is unchecked:</a> The ACSD-46770 patch fixes the issue where orders can be placed via REST API as a guest user even when [!UICONTROL Email Order Confirmation] is unselected. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article</td>
-    <td>Dec 8, 2022</td>
+    <td>Jan 6, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47076-venmo-videos-cannot-be-played-on-the-storefront.html">ACSD-47076: [!DNL Vimeo] videos cannot be played on the storefront:</a> The ACSD-47076 patch fixes the issue where [!DNL Vimeo] videos cannot be played on the storefront. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.21 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.html">ACSD-47803: out-of-stock configurable product swatches displayed as available:</a> The ACSD-47803 patch fixes the issue where out-of-stock configurable product swatches are displayed as available. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article</td>
-    <td>Dec 8, 2022</td>
+    <td>Jan 6, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46809-the-user-gets-an-error-when-assigning-a-large-number-of-product-sources.html?lang=en"> ACSD-46809: The user gets an error when assigning a large number of product sources:</a> The ACSD-46809 patch fixes the issue where the user gets an error when assigning a large number of product sources. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.21 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47004-vat-not-applied-to-billing-address-without-vat-id.html?lang=en">ACSD-47004: VAT not applied to billing address without VAT ID:</a> The ACSD-47004 patch fixes the issue where VAT is not applied to a billing address without a VAT ID. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td> New article </td>
-    <td> Dec 8, 2022</td>
+    <td> Jan 6, 2023</td>
  </tr>
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47666-search-in-user-roles-not-working.html">ACSD-47666: search in [!UICONTROL User Roles] does not work:</a> The ACSD-47666 patch solves the issue where the search in User Roles is not working. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.23 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45168-seo-friendly-urls-not-generated-for-products-that-have-url-key-attributes-overridden-on-store-view-level.html?lang=en">ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden:</a> The ACSD-45168 patch fixes the issue where SEO-friendly URLs are not generated for products that have url_key attributes overridden on the store-view level. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
     </td>
     <td>New article </td>
-    <td>Dec 8, 2022 </td>
+    <td>Jan 6, 2023 </td>
+  </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46865-shipment-and-credit-memo-grid-not-populated-when-asynchronous-indexing-is-enabled.html?lang=en">ACSD-46865: shipment and credit memo not populated when asynchronous indexing is enabled:</a> The ACSD-46865 patch fixes the issue where shipment and credit memo grids are not populated when asynchronous indexing is enabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
+    </td>
+    <td>New article </td>
+    <td>Jan 6, 2023 </td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47280-disable-shared-catalog-gives-wrong-product-search-results.html">ACSD-47280: Disabling shared catalog gives wrong product search results:</a> The ACSD-47280 patch fixes the display of the correct search results when the shared catalog feature is disabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.22 is installed. 
+    </td>
+    <td>New article </td>
+    <td>Jan 6, 2023 </td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.html?lang=en#cause">Cannot access the correct cloud project:</a> This article was updated to include new rebranded steps, images, as well as added a third reason why the user would see the wrong projects. 
+    </td>
+    <td>Update</td>
+    <td>Jan 6, 2023 </td>
   </tr>
 </table>
 

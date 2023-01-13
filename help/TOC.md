@@ -1,5 +1,5 @@
 ---
-user-guide-title: Adobe Commerce Knowldge Base
+user-guide-title: Adobe Commerce Knowledge Base
 user-guide-description: Everything you need to troubleshoot and maintain your Commerce store.
 breadcrumb-title: Commerce KB
 ---
@@ -27,6 +27,7 @@ breadcrumb-title: Commerce KB
     * [Managed alerts for Adobe Commerce: Apdex warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
     * [Managed alerts for Adobe Commerce: CPU warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
   * Patches available in QPT tool {#patches}
+    * [ACSD-47280: Disable shared catalog gives wrong product search results](/help/support-tools/patches-available-in-qpt-tool/acsd-47280-disable-shared-catalog-gives-wrong-product-search-results.md)
     * [MDVA-24201: Catalog price rules don't work](/help/support-tools/patches-available-in-qpt-tool/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
     * [MDVA-33281 patch: inventory inconsistency issues](/help/support-tools/patches-available-in-qpt-tool/mdva-33281-magento-patch-inventory-inconsistency-issues.md)
     * [ACSD-45169: Visual Merchandiser displays incorrect stock and price for configurable product](/help/support-tools/patches-available-in-qpt-tool/acsd-45169-visual-merchandiser-does-not-display-the-correct-stock-and-price-for-configurable-product.md)
@@ -381,9 +382,23 @@ breadcrumb-title: Commerce KB
     * [ACSD-47444: [!UICONTROL Trying to access array offset on value of type bool] error when accessing certain non-existing category paths for known products on PHP 7.4](/help/support-tools/patches-available-in-qpt-tool/acsd-47444-trying-access-array-offset-value-type-bool-error.md)
     * [ACSD-47497: missing ACL for Store / Configuration / Services OAuth](/help/support-tools/patches-available-in-qpt-tool/acsd-47497-missing-acl-for-store-configuration-services-oaut.md)
     * [ACSD-46815: static content deploy fails using compact strategy](/help/support-tools/patches-available-in-qpt-tool/acsd-46815-static-content-deploy-fails-when-using-compact-strategy.md)
+    * [ACSD-46865: shipment and credit memo not populated when asynchronous indexing is enabled](/help/support-tools/patches-available-in-qpt-tool/acsd-46865-shipment-and-credit-memo-grid-not-populated-when-asynchronous-indexing-is-enabled.md)
     * [ACSD-47559: email template preview not fully visible](/help/support-tools/patches-available-in-qpt-tool/acsd-47559-preview-email-template-not-fully-visible.md)
+    * [ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden](/help/support-tools/patches-available-in-qpt-tool/acsd-45168-seo-friendly-urls-not-generated-for-products-that-have-url-key-attributes-overridden-on-store-view-level.md)
     * [ACSD-47137: improves image gallery loading speed when pub/media folder big](/help/support-tools/patches-available-in-qpt-tool/acsd-47137-image-gallery-load-speed-improve-pub-media-big.md)
     * [ACSD-46617: Continue to Checkout button greyed out when subtotal greater than Minimum Order Amount](/help/support-tools/patches-available-in-qpt-tool/acsd-46617-continue-to-checkout-button-greyed-out.md)
+    * [ACSD-47079: composite products' stock status not updated when sub-product stock status changes](/help/support-tools/patches-available-in-qpt-tool/acsd-47079-composite-products-stock-status-not-updated.md)
+    * [ACSD-47955: GraphQL does not display cart discount correctly](/help/support-tools/patches-available-in-qpt-tool/acsd-47955-graphql-does-not-display-cart-discount-correctly.md)
+    * [ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off](/help/support-tools/patches-available-in-qpt-tool/acsd-47920-guest-order-allow-guest-checkout-off.md)
+    * [ACSD-47004: VAT not applied to billing address without VAT ID](/help/support-tools/patches-available-in-qpt-tool/acsd-47004-vat-not-applied-to-billing-address-without-vat-id.md)
+    * [ACSD-46770: order confirmation email is sent even when [!UICONTROL Email order confirmation] is unchecked](/help/support-tools/patches-available-in-qpt-tool/acsd-46770-an-order-confirmation-email-is-sent-even-when-the-email-order-confirmation-is-unchecked.md)
+    * [ACSD-47336: [!UICONTROL Something went wrong] error notifications dismissed Adobe Commerce Admin](/help/support-tools/patches-available-in-qpt-tool/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.md)
+    * [ACSD-47803: out-of-stock configurable product swatches displayed as available](/help/support-tools/patches-available-in-qpt-tool/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.md)
+    * [ACSD-48627: out-of-stock configurable product causes an error](/help/support-tools/patches-available-in-qpt-tool/acsd-48627-out-of-stock-configurable-product-causes-an-error.md)
+    * [ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL Display Out of Stock Products] enabled](/help/support-tools/patches-available-in-qpt-tool/acsd-48234-catalog-search-result-shows-incorrect-category-item-count-when-show-out-of-stock-option-enabled.md)
+    * [ACSD-47520: customers lose reward points when a credit memo is created](/help/support-tools/patches-available-in-qpt-tool/acsd-47520-customers-lose-reward-points-when-credit-memo-created.md)
+    * [ACSD-48313: [!UICONTROL configurable_variations] column not parsed if attribute value contains comma](/help/support-tools/patches-available-in-qpt-tool/acsd-48313-configurable-variations-column-not-parsed-attribute-value-contains-comma.md)
+    * [ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids](/help/support-tools/patches-available-in-qpt-tool/acsd-47910-missing-orders-invoices-shipments-credit-memos-in-respective-entity-grids.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
@@ -652,6 +667,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce status column missing exported products CSV file](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
     * [Cannot access New Relic on Adobe Commerce Cloud account](/help/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.md)
     * [Adobe Commerce [!DNL crons] disabled without intervention](/help/troubleshooting/miscellaneous/adobe-commerce-crons-are-disabled-without-any-intervention.md)
+    * [Modules missing from Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
