@@ -368,6 +368,8 @@ This field appears when your account is associated with more than one organizati
 >1. Go to the right column of the ticket.
 >1. Locate the dropdown for available organizations.
 >1. Select the appropriate organization.
+>
+>![Organization dropdown](/help/help-center-guide/help-center/assets/change_org.png)
 
 In addition, this would allow us to quickly cross reference similar/duplicated/related tickets submitted for this organization in the past and identify clues that might help with investigating and resolving the current ticket.
 
