@@ -395,6 +395,7 @@ breadcrumb-title: Commerce KB
     * [ACSD-47336: [!UICONTROL Something went wrong] error notifications dismissed Adobe Commerce Admin](/help/support-tools/patches-available-in-qpt-tool/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.md)
     * [ACSD-48044: applying multiple gift cards prevents orders from being placed](/help/support-tools/patches-available-in-qpt-tool/acsd-48044-applying-multiple-gift-cards-prevents-orders.md)
     * [ACSD-47803: out-of-stock configurable product swatches displayed as available](/help/support-tools/patches-available-in-qpt-tool/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.md)
+    * [ACSD-48300: return cannot be created if configurable product is removed](/help/support-tools/patches-available-in-qpt-tool/acsd-48300-return-cannot-be-created-if-configurable-product-removed.md)
     * [ACSD-48627: out-of-stock configurable product causes an error](/help/support-tools/patches-available-in-qpt-tool/acsd-48627-out-of-stock-configurable-product-causes-an-error.md)
     * [ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL Display Out of Stock Products] enabled](/help/support-tools/patches-available-in-qpt-tool/acsd-48234-catalog-search-result-shows-incorrect-category-item-count-when-show-out-of-stock-option-enabled.md)
     * [ACSD-47520: customers lose reward points when a credit memo is created](/help/support-tools/patches-available-in-qpt-tool/acsd-47520-customers-lose-reward-points-when-credit-memo-created.md)
