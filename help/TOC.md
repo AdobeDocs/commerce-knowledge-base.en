@@ -441,6 +441,9 @@ breadcrumb-title: Commerce KB
         * [ACSD-47520: customers lose reward points when a credit memo is created](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-47520-customers-lose-reward-points-when-credit-memo-created.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
     * [ACSD-48044: applying multiple gift cards prevents orders from being placed](/help/support-tools/patches-available-in-qpt-tool/acsd-48044-applying-multiple-gift-cards-prevents-orders.md)
+    * [ACSD-48300: return cannot be created if configurable product is removed](/help/support-tools/patches-available-in-qpt-tool/acsd-48300-return-cannot-be-created-if-configurable-product-removed.md)
+    * [ACSD-48313: [!UICONTROL configurable_variations] column not parsed if attribute value contains comma](/help/support-tools/patches-available-in-qpt-tool/acsd-48313-configurable-variations-column-not-parsed-attribute-value-contains-comma.md)
+    * [ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids](/help/support-tools/patches-available-in-qpt-tool/acsd-47910-missing-orders-invoices-shipments-credit-memos-in-respective-entity-grids.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
