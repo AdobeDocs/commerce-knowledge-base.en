@@ -38,7 +38,7 @@ Applying multiple gift cards to a single order with multi-shipping prevents orde
 
     * Add the $10 product first, and then add the $100 product. The issue cannot be reproduced if the $100 product is added first.
 
-1. Go to the shopping cart and add the two gift cards you created in the first step.
+1. Go to the shopping cart and add the two gift cards you created.
 1. Click on **[!UICONTROL Ship to Multiple Addresses]** on the cart page.
 1. Assign each product to a different address.
 1. Go to the **[!UICONTROL Shipping information]** page.
