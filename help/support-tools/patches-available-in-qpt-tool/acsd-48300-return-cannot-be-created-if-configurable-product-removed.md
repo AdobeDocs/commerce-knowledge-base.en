@@ -39,7 +39,7 @@ Return cannot be created if the configurable product is removed.
 
 <u>Expected results</u>:
 
-Admin is able to return items even though the configurable product is deleted.
+The admin is able to return items even though the configurable product is deleted.
 
 <u>Actual results</u>:
 
