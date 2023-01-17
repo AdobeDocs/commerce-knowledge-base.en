@@ -28,7 +28,7 @@ Return cannot be created if the configurable product is removed.
 
 1. Enable RMA on the storefront at **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL RMA Settings]**.
 1. Create a configurable product.
-1. On the front end, create an account (and/or log in).
+1. On the storefront, create an account (and/or log in).
 1. Add a configurable product to the cart as the first item.
 1. Add any simple product afterward.
 1. Place the order.
