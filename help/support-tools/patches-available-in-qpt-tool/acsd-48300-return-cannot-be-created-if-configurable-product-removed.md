@@ -35,7 +35,7 @@ Return cannot be created if the configurable product is removed.
 1. Ship the order.
 1. Now delete the configurable product only (do not delete its child products).
 1. On the storefront, go to **[!UICONTROL My Orders]** and view the order.
-1. Click on return.
+1. Click on **[!UICONTROL Return]**.
 
 <u>Expected results</u>:
 
