@@ -440,6 +440,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL Display Out of Stock Products] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48234-catalog-search-result-shows-incorrect-category-item-count-when-show-out-of-stock-option-enabled.md)
         * [ACSD-47520: customers lose reward points when a credit memo is created](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-47520-customers-lose-reward-points-when-credit-memo-created.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
+    * [ACSD-48044: applying multiple gift cards prevents orders from being placed](/help/support-tools/patches-available-in-qpt-tool/acsd-48044-applying-multiple-gift-cards-prevents-orders.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
