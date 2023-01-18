@@ -5,7 +5,7 @@ labels: troubleshooting,Could not acquire lock for cron job,error,indexing,crons
 
 # Error **Could not acquire lock for cron job: indexer_update_all_views**
 
-This article provides a workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the CRON Job `indexer_reindex_all_invalid` continously running (and processing) and because on reindex, caches are cleaned.
+This article provides a workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the CRON Job `indexer_reindex_all_invalid` continously running (and processing) and caches are cleaned on reindex.
 
 ## Affected products and versions
 
