@@ -20,27 +20,6 @@ Adobe Commerce (all deployment methods) x.x.x
 
 ## Issue
 
-A clear description of the issue, including full error messages as text and any important screenshots.
-If this is found in a log, provide details: which log, location.
-
-Remove any specific project IDs or customer information from errors and logs! Also make sure sensitive information is not included in screen shots.
-
-If the issue occurs in a very specific situation, provide detailed steps to reproduce, expected result and actual result in the following format:
-
-<ins>Steps to reproduce</ins>:
-
-Prerequisites: ... (if any).
-
-1. First step.
-1. Second step.
-1. ....
-
-<ins>Expected result</ins>:
-
-Adobe Commerce does this.
-
-<ins>Actual result</ins>:
-
 In New Relic > **Logs** > **Attributes** > apmApplicationNames >[Your APM aplication name] you see the following error message about the `indexer_update_all_views`cron:
 **[timestamp] report.Warning. Could not acquire lock for cron job: indexer_update_all_views [] []**
 
@@ -57,6 +36,7 @@ The issue occurs when the Category Permissions module is enabled in Commerce Adm
 In addition, when a site has the B2B modules enabled if Shared Catalog is activated it turns on and locks Category Permissions. Turning off Shared Catalog will unlock Category Permissions but not switch off.
 
 This is the code that invalidates the indexes:
+
 `Magento\CatalogPermissions\Model\Indexer\Plugin\Import`
 
 ```php
@@ -70,17 +50,9 @@ public function afterImportSource(\Magento\ImportExport\Model\Import $subject, $
 }
 ```
 
-
 ## Solution
 
-How to fix the issue. Use a numbered list for steps.
-Finish the section with the results: error not displayed, deploy works, value changed and how to see the change, etc.
-
-If there is a temporary workaround, specify it as a separate section below this one.
 
 ## Related reading
 
-* [Article topic](https://docs.magento.com/user-guide/) in our user guide.
-* [Article topic](https://devdocs.magento.com) in our developer documentation. You can also say to differentiate between instructions in devdocs for cloud vs on-premises users: “[Article topic](https://devdocs.magento.com) in our developer documentation for Adobe Commerce on cloud infrastructure." vs "[Article topic](https://devdocs.magento.com) in our developer documentation for Adobe Commerce on-premises."
-* [Article topic](https://support.magento.com/hc/en-us) in our support knowledge base.
-* Any related resources (blogs, forums, StackOverflow, etc.)
+
