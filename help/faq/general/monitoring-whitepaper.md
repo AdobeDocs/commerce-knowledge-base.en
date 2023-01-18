@@ -45,12 +45,12 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
 | Diskspace monitoring    | Description |
 |------------|------------|
 |Monitoring goal |To track diskspace usage.|
-| Instrumented on | Host system running containers with services or services directly. Services include Galera, MariaDB, Solr, Redis, Elasticsearch, Nginx, Memcached and deployment infrastructure.|
+| Instrumented on | MySQL disk and Media disk partitions.|
 | Metric | Free diskspace is monitored every minute on the host. Warning is raised if just 5% or 2GB free space is left. Critical threshold is set at the remaining free space is 2% or 1GB|
-| Description | Notification is sent based on the thresholds configured around free diskspace for the host. |
-| Notification recipient | Internal and [Managed alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) are created within Adobe and for the customer. |
-| Action by Adobe | Responsible for triaging and fixing if the issue is on Adobe Commerce platform. |
-| Action by customer | Responsible for fixing the issue if caused by changes introduced by customer or partner.  For troubleshooting, please refer to: <ul><li>[Managed alerts for Adobe Commerce: disk warning alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-warning-alert.html)</li><li>[Managed alerts for Adobe Commerce: disk critical alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-critical-alert.html) </li></ul> |
+| Description | Notification is sent based on the thresholds configured around free diskspace for the host. Additional disk space is automatically added one time to the relevant mount (mysql or media) to prevent a site outage and to give the customer time to clear disk space and/or to identify and resolve any code or logs causing rapid disk usage increase.|
+| Notification recipient | Customer/Partner and Adobe. |
+| Action by Adobe | Automatically raise support ticket and additional disk space is automatically added to the relevant mount (mysql or media) to prevent a site outage. |
+| Action by customer | To receive ongoing warning level disk space alerts, please refer to: <ul><li>[Managed alerts for Adobe Commerce: disk warning alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-warning-alert.html)</li><li>[Managed alerts for Adobe Commerce: disk critical alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-critical-alert.html) </li></ul> |
 
 ## CPU monitoring
 
