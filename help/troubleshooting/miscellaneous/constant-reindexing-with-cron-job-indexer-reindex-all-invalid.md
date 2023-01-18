@@ -1,11 +1,11 @@
 ---
-title: "Error: *Could not acquire lock for cron job: indexer_update_all_views*"
+title: "Error: *Could not acquire lock for [!DNL cron] job: indexer_update_all_views*"
 labels: troubleshooting,Could not acquire lock for cron job,error,indexing,crons,site performance
 ---
 
-# Error: *Could not acquire lock for cron job: indexer_update_all_views*
+# Error: *Could not acquire lock for [!DNL cron] job: indexer_update_all_views*
 
-This article provides a workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the CRON job `indexer_reindex_all_invalid` continously running and caches are cleaned on reindex.
+This article provides a workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the [!DNL cron] job `indexer_reindex_all_invalid` continously running and caches are cleaned on reindex.
 
 ## Affected products and versions
 
@@ -15,11 +15,11 @@ This article provides a workaround for the issue when your site has performance 
 
 <!-- Are these the correct steps in the UI to see the error message and is this where users most commonly see the error message **could not acquire lock for cron job: indexer_update_all_views**? Are there other symptoms/errors/logs we should mention? -->
 
-In New Relic > **Logs** > **Attributes** > apmApplicationNames >[Your APM aplication name] you see the following error message about the `indexer_update_all_views` cron:
+In New Relic > **Logs** > **Attributes** > apmApplicationNames >[Your APM aplication name] you see the following error message about the `indexer_update_all_views` [!DNL cron]:
 
-*[timestamp] report.Warning. Could not acquire lock for cron job: indexer_update_all_views [] []*
+*[timestamp] report.Warning. Could not acquire lock for [!DNL cron] job: indexer_update_all_views [] []*
 
-There are other crons jobs pending and in an error state.
+There are other [!DNL crons] jobs pending and in an error state.
 
 You can also see in **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Index Management]** indexes are in an **[!UICONTROL IDLE]** state.
 
