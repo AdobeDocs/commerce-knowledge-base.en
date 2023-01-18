@@ -37,14 +37,14 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
  | **Instrumented on** | Single URL selected for high SLA. |
  | **Description** | Site availability is determined based on the thresholds configured around the metric. Notification of site outage gets triggered if the check fails for 10 minutes and there is no active deployment in progress.|
  | **Notification recipient** | Customer / Partner and Adobe. |
- | **Action by Adobe** | Responsible for triaging and fixing if the issue is on Adobe commerce platform.|
- | **Action by customer** | Responsible for fixing the issue if caused by changes introduced by customer/partner. For troubleshooting, please refer to: [Site Down Troubleshooter](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html). |
+ | **Action by Adobe** | Responsible for triaging and fixing if the issue is on Adobe commerce infrastructure.|
+ | **Action by customer** | Responsible for fixing the issue if caused by changes or custom code introduced by customer/partner. For troubleshooting, please refer to: [Site Down Troubleshooter](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html). |
 
 ## Diskspace monitoring
 
 | Diskspace monitoring    | Description |
 |------------|------------|
-|Monitoring goal |To track diskspace availability.|
+|Monitoring goal |To track diskspace usage.|
 | Instrumented on | Host system running containers with services or services directly. Services include Galera, MariaDB, Solr, Redis, Elasticsearch, Nginx, Memcached and deployment infrastructure.|
 | Metric | Free diskspace is monitored every minute on the host. Warning is raised if just 5% or 2GB free space is left. Critical threshold is set at the remaining free space is 2% or 1GB|
 | Description | Notification is sent based on the thresholds configured around free diskspace for the host. |
