@@ -1,5 +1,5 @@
 ---
-title: Error **Could not acquire lock for cron job: indexer_update_all_views**
+title: "Error **Could not acquire lock for cron job: indexer_update_all_views**"
 labels: troubleshooting,Could not acquire lock for cron job,error,indexing,crons,site performance
 ---
 
