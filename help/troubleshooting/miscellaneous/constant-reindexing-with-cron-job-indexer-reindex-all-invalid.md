@@ -52,6 +52,7 @@ public function afterImportSource(\Magento\ImportExport\Model\Import $subject, $
 
 ## Solution
 
+Write custom import modules that use the core Commerce importer as a base and do not import data that affects Category Permissions.
 
 ## Related reading
 
