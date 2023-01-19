@@ -32,28 +32,23 @@ The store id for quote items is overridden by the default store id for GraphQL r
 1. Create a new customer.
 1. Obtain the customer authorization token.
 
-    <pre>
-    <code class="language-graphql">
-    POST /rest/all/V1/integration/customer/token
-    {
-      "username": "test@example.com",
-      "password": "password"
-    }
-    </code>
-    </pre>
+    ```GraphQL
+     POST /rest/all/V1/integration/customer/token
+     {
+       "username": "test@example.com",
+       "password": "password"
+      }
+    ```
 
 1. Create a new quote for the customer using the authorization token.
 
-    <pre>
-    <code class="language-graphql">
+    ```GraphQL
     POST rest/default/V1/carts/mine
-    </code>
-    </pre>
+    ```
 
 1. Add a product to the cart.
 
-    <pre>
-    <code class="language-graphql">
+    ```GraphQL
     POST /rest/default/V1/carts/mine/items
     {
       "cartItem": {
@@ -62,24 +57,19 @@ The store id for quote items is overridden by the default store id for GraphQL r
         "quote_id": "1"
       }
     }
-    </code>
-    </pre>
+    ```
 
 1. Get the cart content for the default store view.
 
-    <pre>
-    <code class="language-graphql">
+    ```GraphQL
     GET rest/default/V1/carts/mine/
-    </code>
-    </pre>
+    ```
 
 1. Get the cart content for the new store view.
 
-    <pre>
-    <code class="language-graphql">
+    ```GraphQL
     GET rest/<store_view_2>/V1/carts/mine/
-    </code>
-    </pre>
+    ```
 
 <u>Expected results</u>:
 

@@ -24,7 +24,7 @@ This patch is available when the [Quality Patches Tool (QPT)](/help/announcement
 <u>Steps to reproduce</u>:
 
 1. Go to **Stores** > **Settings** > **Configuration** > **Customers tab** > **Persistent shopping cart**.
-1. Set **Enable Persistence** = *Yes*, set **Clear Persistence on Sign Out** = *No*.    ![persistent_shopping_cart_magento_2.4.1.png](assets/persistent_shopping_cart_magento_2.4.1.png)
+1. Set **Enable Persistence** = *Yes*, set **Clear Persistence on Sign Out** = *No*.    ![persistent_shopping_cart_magento_2.4.1.png](/help/support-tools/patches-available-in-qpt-tool/assets/persistent_shopping_cart_magento_2.4.1.png)
 1. Create a new customer, and define the default shipping and billing addresses.
 1. Log out.
 1. Log in with the **Remember me** checkbox selected.
