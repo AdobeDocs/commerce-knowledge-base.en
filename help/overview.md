@@ -101,7 +101,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-24/acsd-46617-continue-to-checkout-button-greyed-out.html?lang=en">ACSD-46617: "Continue to Checkout" button greyed out when subtotal greater than "Minimum Order Amount":</a> This ACSD-46617 patch solves the issue where the Continue to Checkout button is greyed out even if the subtotal is greater than the configured minimum order amount. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-24/acsd-46617-continue-to-checkout-button-greyed-out.html?lang=en">ACSD-46617: [!UICONTROL Continue to Checkout] button greyed out when subtotal greater than "Minimum Order Amount":</a> This ACSD-46617 patch solves the issue where the [!UICONTROL Continue to Checkout] button is greyed out even if the subtotal is greater than the configured minimum order amount. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed.
     </td>
     <td>Update</td>
     <td>Jan 20, 2023 </td>
