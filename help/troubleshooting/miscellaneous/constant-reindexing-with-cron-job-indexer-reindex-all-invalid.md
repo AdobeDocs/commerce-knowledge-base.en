@@ -28,7 +28,7 @@ In addition, when a site has B2B modules enabled if **[!UICONTROL Shared Catalog
 Extend `Magento\CatalogPermissions\Model\Indexer\Plugin\Import` so that the `afterImportSource` method excludes the custom importer.
 
 ```
-      public function afterImportSource(\Magento\ImportExport\Model\Import $subject, $import)
+    public function afterImportSource(\Magento\ImportExport\Model\Import $subject, $import)
     {
         if ($this->config->isEnabled() && $subject->getEntity() !== 'ENTITY_CODE') {
             $this->indexerRegistry->get(\Magento\CatalogPermissions\Model\Indexer\Category::INDEXER_ID)->invalidate();
