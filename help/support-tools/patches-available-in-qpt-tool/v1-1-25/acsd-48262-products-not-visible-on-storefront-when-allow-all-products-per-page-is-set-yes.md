@@ -30,7 +30,7 @@ The ACSD-48262 patch fixes the issue where products are not visible on the store
 1. Create a test category.
 1. Create a test product in the test category.
 1. Browse the product to test category page on the storefront and ensure the product is visible.
-1. Go to **Stores** > **Configuration** > **Catalog** and set the [!UICONTROL Allow All Products Per Page] setting to *[!UICONTROL Yes]*. 
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** and set the [!UICONTROL Allow All Products Per Page] setting to *[!UICONTROL Yes]*. 
 1. Clear Cache.
 1. Check category page on the storefront.
 
