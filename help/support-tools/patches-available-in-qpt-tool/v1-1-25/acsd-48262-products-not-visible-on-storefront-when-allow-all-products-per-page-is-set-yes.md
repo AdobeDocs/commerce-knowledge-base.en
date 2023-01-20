@@ -1,8 +1,8 @@
 ---
-title: "ACSD-48262: products not visible on storefront when [!UICONTROL Allow All Products Per Page] is set [!UICONTROL Yes]"
+title: 'ACSD-48262: products not visible on storefront when [!UICONTROL Allow All Products Per Page] is set [!UICONTROL Yes]'
 description: Apply the ACSD-48262 patch to fix the Adobe Commerce issue where products are not visible on the storefront when the [!UICONTROL Allow All Products Per Page] setting is set to [!UICONTROL Yes].
+exl-id: 327cad03-441d-4adb-8a10-802f06d3fcd1
 ---
-
 # ACSD-48262: products not visible on storefront when [!UICONTROL Allow All Products Per Page] is set *[!UICONTROL Yes]*
 
 The ACSD-48262 patch fixes the issue where products are not visible on the storefront when the [!UICONTROL Allow All Products Per Page] setting is set to *[!UICONTROL Yes]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-48262. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.

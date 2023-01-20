@@ -1,8 +1,8 @@
 ---
-title: "ACSD-48058: product price reindex not working if bundled product not assigned website"
+title: 'ACSD-48058: product price reindex not working if bundled product not assigned website'
 description: Apply the ACSD-48058 patch to fix the Adobe Commerce issue where product price reindex is not working if the bundled product is not assigned to any website.
+exl-id: 691371f1-7f10-4be6-80e4-821e7cf664a6
 ---
-
 # ACSD-48058: product price reindex not working if bundled product not assigned website
 
 The ACSD-48058 patch fixes the issue where product price reindex is not working if the bundled product is not assigned to any website. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-48058. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
