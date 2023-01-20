@@ -37,7 +37,7 @@ Composite products go out of stock when the child products that were sold out ar
 1. Run the cron.
 1. Ship the order and add qty to the simple product making it in stock.
 1. Run the cron.
-1. Check the product availability on the front end.
+1. Check the product availability on the storefront.
 
 <u>Expected results</u>:
 
