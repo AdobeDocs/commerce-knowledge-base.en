@@ -109,7 +109,17 @@ c. YES – If there are records but there is an error, proceed to [Step 10](#ste
 
 +++**Does the file `data.tgz` exist in the system and are there are records in access logs?**
 
-To check that the file `data.tgz` exists, run command: `ls -ltr pub/media/analytics//` To check that there are records in access.logs, run command: `zgrep -i analytics /var/log/platform//access.log* | grep MagentoBI`
+To check that the file `data.tgz` exists, run command: 
+
+```
+ls -ltr pub/media/analytics/<there should be a directory with hash name>/
+```
+
+To check that there are records in access.logs, run command: 
+
+```
+zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
+```
 
 a. YES – If the file `data.tgz` is present and there are records in the access logs, but you still have a 404 error, you need to [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 b. NO – Proceed to [Step 10](#step-10).

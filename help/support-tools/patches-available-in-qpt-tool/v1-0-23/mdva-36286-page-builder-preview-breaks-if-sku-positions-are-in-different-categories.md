@@ -26,11 +26,11 @@ Adobe Commerce on cloud infrastructure 2.3.6
 <u>Steps to reproduce:</u>
 
 1. Create a category with a few products.
-        ![products_magento_ordered.png](assets/products_magento_ordered.png)
+        ![products_magento_ordered.png](/help/support-tools/patches-available-in-qpt-tool/assets/products_magento_ordered.png)
 1. Create a subcategory with the same products but with different positions.
-        ![products_magento_different_position.png](assets/products_magento_different_position.png)
+        ![products_magento_different_position.png](/help/support-tools/patches-available-in-qpt-tool/assets/products_magento_different_position.png)
 1. Edit a CMS page content to add a Product widget via Page Builder. (Select the parent category above).
-        ![cms_page_magento.png](assets/cms_page_magento.png)
+        ![cms_page_magento.png](/help/support-tools/patches-available-in-qpt-tool/assets/cms_page_magento.png)
 1. Save and wait for the content preview.
 
 <u>Expected results:</u>
