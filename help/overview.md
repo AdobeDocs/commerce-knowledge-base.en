@@ -30,73 +30,81 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
   </tr>
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47920-guest-order-allow-guest-checkout-off.html">ACSD-47920: a guest user can place orders via REST API even when [!UICONTROL Allow Guest Checkout] is off:</a> The ACSD-47920 patch fixes the issue where orders can be placed via REST API as a guest user even when the [!UICONTROL Allow Guest Checkout] is turned off. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-48627-out-of-stock-configurable-product-causes-an-error.html?lang=en">ACSD-48627: out-of-stock configurable product causes an error:</a> The ACSD-48627 patch fixes the issue where the out-of-stock configurable product causes an error when sending a GraphQL request to get cart details. This patch is available when the Quality Patches Tool (QPT) 1.1.25 is installed.
     </td>
     <td>New article</td>
-    <td> Jan 6, 2023</td>
+    <td> Jan 20, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.html">ACSD-47336: [!UICONTROL Something went wrong] error when dismissing notifications in Adobe Commerce Admin:</a> The ACSD-47336 patch fixes the issue where the user sees the [!UICONTROL Something went wrong] error when dismissing notifications in the Commerce Admin. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-48313-configurable-variations-column-not-parsed-attribute-value-contains-comma.html?lang=en">ACSD-48313: configurable_variations column not parsed if attribute value contains comma:</a> The ACSD-48313 patch solves the issue where configurable_variations column is not parsed if the attribute value contains a comma. This patch is available when the Quality Patches Tool (QPT) 1.1.25 is installed.
     <td>New article</td>
-    <td>Jan 6, 2023</td>
+    <td>Jan 20, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46770-an-order-confirmation-email-is-sent-even-when-the-email-order-confirmation-is-unchecked.html">ACSD-46770: order confirmation email is sent even when [!UICONTROL Email Order Confirmation] is unchecked:</a> The ACSD-46770 patch fixes the issue where orders can be placed via REST API as a guest user even when [!UICONTROL Email Order Confirmation] is unselected. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-48234-catalog-search-result-shows-incorrect-category-item-count-when-show-out-of-stock-option-enabled.html?lang=en">ACSD-48234: catalog search result shows incorrect category item count Display Out of Stock Products enabled:</a> The ACSD-48234 patch solves the issue where the catalog search result shows an incorrect category item count when the Display Out of Stock Products option is enabled. This patch is available when the Quality Patches Tool (QPT) 1.1.25 is installed.
     </td>
     <td>New article</td>
-    <td>Jan 6, 2023</td>
+    <td>Jan 20, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.html">ACSD-47803: out-of-stock configurable product swatches displayed as available:</a> The ACSD-47803 patch fixes the issue where out-of-stock configurable product swatches are displayed as available. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-47910-missing-orders-invoices-shipments-credit-memos-in-respective-entity-grids.html?lang=en">ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids:</a> The ACSD-47910 patch fixes the issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids. This patch is available when the Quality Patches Tool (QPT) 1.1.25 is installed.
     </td>
     <td>New article</td>
-    <td>Jan 6, 2023</td>
+    <td>Jan 20, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47004-vat-not-applied-to-billing-address-without-vat-id.html?lang=en">ACSD-47004: VAT not applied to billing address without VAT ID:</a> The ACSD-47004 patch fixes the issue where VAT is not applied to a billing address without a VAT ID. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-48300-return-cannot-be-created-if-configurable-product-removed.html?lang=en">ACSD-48300: return cannot be created if configurable product is removed:</a> The ACSD-48300 patch fixes the issue where a return cannot be created if the configurable product is removed. This patch is available when the Quality Patches Tool (QPT) 1.1.25 is installed.
     </td>
     <td> New article </td>
-    <td> Jan 6, 2023</td>
+    <td> Jan 20, 2023</td>
  </tr>
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45168-seo-friendly-urls-not-generated-for-products-that-have-url-key-attributes-overridden-on-store-view-level.html?lang=en">ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden:</a> The ACSD-45168 patch fixes the issue where SEO-friendly URLs are not generated for products that have url_key attributes overridden on the store-view level. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-48044-applying-multiple-gift-cards-prevents-orders.html?lang=en">ACSD-48044: applying multiple gift cards prevents orders from being placed:</a> The ACSD-48044 patch fixes the issue where applying multiple gift cards to a single order with multi-shipping prevents orders from being placed. This patch is available when the Quality Patches Tool (QPT) 1.1.25 is installed.
     </td>
     <td>New article </td>
-    <td>Jan 6, 2023 </td>
+    <td>Jan 20, 2023 </td>
   </tr>
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-46865-shipment-and-credit-memo-grid-not-populated-when-asynchronous-indexing-is-enabled.html?lang=en">ACSD-46865: shipment and credit memo not populated when asynchronous indexing is enabled:</a> The ACSD-46865 patch fixes the issue where shipment and credit memo grids are not populated when asynchronous indexing is enabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.24 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-47520-customers-lose-reward-points-when-credit-memo-created.html?lang=en">ACSD-47520: customers lose reward points when a credit memo is created:</a> The ACSD-47520 patch fixes the issue where customers lose reward points when a credit memo is created. This patch is available when the Quality Patches Tool (QPT) 1.1.25 is installed.
     </td>
     <td>New article </td>
-    <td>Jan 6, 2023 </td>
+    <td>Jan 20, 2023 </td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-47280-disable-shared-catalog-gives-wrong-product-search-results.html">ACSD-47280: Disabling shared catalog gives wrong product search results:</a> The ACSD-47280 patch fixes the display of the correct search results when the shared catalog feature is disabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.22 is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-24/acsd-47079-composite-products-stock-status-not-updated.html?lang=en">ACSD-47079: composite products' stock status not updated when sub-product stock status changes:</a> The ACSD-47079 patch fixes the issue where the stock status of composite products (bundle, grouped, and configurable) is not updated when the sub-product stock status is changed via REST API POST /rest/V1/inventory/source-items. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed. 
     </td>
     <td>New article </td>
-    <td>Jan 6, 2023 </td>
+    <td>Jan 20, 2023 </td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.html?lang=en#cause">Cannot access the correct cloud project:</a> This article was updated to include new rebranded steps, images, as well as added a third reason why the user would see the wrong projects. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-24/acsd-47955-graphql-does-not-display-cart-discount-correctly.html?lang=en">ACSD-47955: GraphQL does not display cart discount correctly:</a> The ACSD-47955 patch fixes the issue where GraphQL does not display the cart discount correctly. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed. 
     </td>
-    <td>Update</td>
-    <td>Jan 6, 2023 </td>
+    <td>New article</td>
+    <td>Jan 20, 2023 </td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-24/acsd-46617-continue-to-checkout-button-greyed-out.html?lang=en">ACSD-46617: [!UICONTROL Continue to Checkout] button greyed out when subtotal greater than "Minimum Order Amount":</a> This ACSD-46617 patch solves the issue where the [!UICONTROL Continue to Checkout] button is greyed out even if the subtotal is greater than the configured minimum order amount. This patch is available when the Quality Patches Tool (QPT) 1.1.24 is installed.
+    </td>
+    <td>New article</td>
+    <td>Jan 20, 2023 </td>
   </tr>
 </table>
 
