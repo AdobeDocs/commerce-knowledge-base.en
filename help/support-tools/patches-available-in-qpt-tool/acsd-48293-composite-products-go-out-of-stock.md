@@ -32,7 +32,7 @@ Composite products go out of stock when the child products that were sold out ar
 1. Create a configurable product with one associated product using the primary website's stock source (set qty = 1).
 1. Place an order for the configurable product.
 1. Run the cron.
-1. Open the configurable product from the front end and confirm it is out of stock.
+1. Open the configurable product from the storefront and confirm it is out of stock.
 1. Open the configurable product from the [!UICONTROL Admin] and set the **[!UICONTROL Manage Stock Option]** to *[!UICONTROL No]*.
 1. Run the cron.
 1. Ship the order and add qty to the simple product making it in stock.
