@@ -1,19 +1,19 @@
 ---
-title: Indexes invalidated and 'indexer_reindex_all_invalid' run constantly
-labels: troubleshooting,Could not acquire lock for cron job,error,indexing,crons,site performance
+title: Indexes invalidated and `indexer_reindex_all_invalid` run constantly
+labels: troubleshooting,error,indexing,crons,site performance,adobe commerce
 ---
 
-# Indexes invalidated and 'indexer_reindex_all_invalid' run constantly
+# Indexes invalidated and `indexer_reindex_all_invalid` run constantly
 
-This article provides a possible workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the [!DNL cron] job `indexer_reindex_all_invalid` continuously running and caches are cleaned on reindex.
+This article provides a possible workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the cron job `indexer_reindex_all_invalid` continuously running and caches are cleaned on reindex.
 
 ## Affected products and versions
 
-* Adobe Commerce (Cloud & On-Premise.) 2.4.0+. As Category Permissions is a Adobe Commerce only feature it will not affect Magento Open Source.
+* Adobe Commerce (Cloud & On-Premise.) 2.4.0+. (As **[!UICONTROL Category Permissions]** is a Adobe Commerce only feature it will not affect Magento Open Source).
 
 ## Issue
 
-In New Relic one error logs should show `indexer_update_all_views` running many times with a time > 1s (IE it is processing something).
+In New Relic One error logs should show `indexer_update_all_views` running many times with a time > 1s (i.e., it is processing something).
 
 ## Cause
 
