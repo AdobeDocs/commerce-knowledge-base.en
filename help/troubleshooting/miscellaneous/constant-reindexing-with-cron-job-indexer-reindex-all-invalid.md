@@ -13,18 +13,7 @@ This article provides a possible workaround for the issue when your site has per
 
 ## Issue
 
-<!-- Are these the correct steps in the UI to see the error message and is this where users most commonly see the error message **could not acquire lock for cron job: indexer_update_all_views**? Are there other symptoms/errors/logs we should mention? -->
-
-
-In New Relic One > **[!UICONTROL Logs]** > **[!UICONTROL Attributes]** > search for **[!UICONTROL message: "successfully" AND message: "indexer_update_all_views"]** > you see the following error message about the `indexer_update_all_views` [!DNL cron]:
-
-*[timestamp] report.Warning. Could not acquire lock for [!DNL cron] job: indexer_update_all_views [] []*
-
-There are other [!DNL crons] jobs pending and in an error state.
-
-You can also see in **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Index Management]** indexes are in an **[!UICONTROL IDLE]** state.
-
-The logs should show `indexer_update_all_views` running many times with a time > 1s (IE it is processing something).
+In New Relic one error logs should show `indexer_update_all_views` running many times with a time > 1s (IE it is processing something).
 
 ## Cause
 
