@@ -23,27 +23,22 @@ The issue occurs when the **[!UICONTROL Category Permissions]** module is enable
 
 In addition, when a site has B2B modules enabled if **[!UICONTROL Shared Catalog]** is activated it turns on and locks **[!UICONTROL Category Permissions]**. Turning off **[!UICONTROL Shared Catalog]** will unlock **[!UICONTROL Category Permissions]** but not switch it off.
 
-This is the code that invalidates the indexes:
-
-<!-- Is the below code php? -->
-
-`Magento\CatalogPermissions\Model\Indexer\Plugin\Import`
-
-```php
-public function afterImportSource(\Magento\ImportExport\Model\Import $subject, $import)
-{
-    if ($this->config->isEnabled()) {
-        $this->indexerRegistry->get(\Magento\CatalogPermissions\Model\Indexer\Category::INDEXER_ID)->invalidate();
-        $this->indexerRegistry->get(\Magento\CatalogPermissions\Model\Indexer\Product::INDEXER_ID)->invalidate();
-    }
-    return $import;
-}
-```
-
 ## Solution
 
-<!-- Is this solution tested? Has it been approved by another developer or SME? Are there any risks with us recomending this?-->
+Extend `Magento\CatalogPermissions\Model\Indexer\Plugin\Import' so that the `afterImportSource` method excludes the custom importer.
 
+    ```php
+    public function afterImportSource(\Magento\ImportExport\Model\Import $subject, $import)
+    {
+        if ($this->config->isEnabled() && $subject->getEntity() !== 'ENTITY_CODE') {
+            $this->indexerRegistry->get(\Magento\CatalogPermissions\Model\Indexer\Category::INDEXER_ID)->invalidate();
+            $this->indexerRegistry->get(\Magento\CatalogPermissions\Model\Indexer\Product::INDEXER_ID)->invalidate();
+        }
+        return $import;
+    }
+    ```
+
+Where `ENTITY_CODE` is the value used for the entity name parameter in the `import.xml` file for the custom importer.
 
 ## Related reading
 
