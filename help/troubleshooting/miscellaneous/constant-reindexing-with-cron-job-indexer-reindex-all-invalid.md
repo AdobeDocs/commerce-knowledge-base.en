@@ -44,7 +44,6 @@ public function afterImportSource(\Magento\ImportExport\Model\Import $subject, $
 
 <!-- Is this solution tested? Has it been approved by another developer or SME? Are there any risks with us recomending this?-->
 
-Write custom import modules that use the core Commerce importer as a base and do not import data that affects **[!UICONTROL Category Permissions]**. 
 
 ## Related reading
 
