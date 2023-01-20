@@ -21,7 +21,7 @@ When the core Adobe Commerce importer is run (manually or by CRON) then a set of
 
 The issue occurs when the **[!UICONTROL Category Permissions]** module is enabled in the Commerce Admin, if this is true then the module’s plugin always invalidates the Product & Category indexes (and linked indexes) when an import is executed. If the standard import types are examined then they all affect **[!UICONTROL Category Permissions]**. Invalidation is expected.
 
-In addition, when a site has B2B modules enabled if **[!UICONTROL Shared Catalog]** is activated it turns on and locks **[!UICONTROL Category Permissions]**. Turning off **[!UICONTROL Shared Catalog]** will unlock **[!UICONTROL Category Permissions]** but not switch off.
+In addition, when a site has B2B modules enabled if **[!UICONTROL Shared Catalog]** is activated it turns on and locks **[!UICONTROL Category Permissions]**. Turning off **[!UICONTROL Shared Catalog]** will unlock **[!UICONTROL Category Permissions]** but not switch it off.
 
 This is the code that invalidates the indexes:
 
