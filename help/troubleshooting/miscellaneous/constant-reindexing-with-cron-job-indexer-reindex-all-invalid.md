@@ -9,14 +9,14 @@ This article provides a possible workaround for the issue when your site has per
 
 ## Affected products and versions
 
-* Adobe Commerce (Cloud & On-Premise.) 2.4.0+. As Category Permissions is a Commerce only feature it will not affect Magento Open Source.
+* Adobe Commerce (Cloud & On-Premise.) 2.4.0+. As Category Permissions is a Adobe Commerce only feature it will not affect Magento Open Source.
 
 ## Issue
 
 <!-- Are these the correct steps in the UI to see the error message and is this where users most commonly see the error message **could not acquire lock for cron job: indexer_update_all_views**? Are there other symptoms/errors/logs we should mention? -->
 
 
-In New Relic > **Logs** > **Attributes** > apmApplicationNames >[Your APM aplication name] you see the following error message about the `indexer_update_all_views` [!DNL cron]:
+In New Relic One > **[!UICONTROL Logs]** > **[!UICONTROL Attributes]** > search for **[!UICONTROL message: "successfully" AND message: "indexer_update_all_views"]** > you see the following error message about the `indexer_update_all_views` [!DNL cron]:
 
 *[timestamp] report.Warning. Could not acquire lock for [!DNL cron] job: indexer_update_all_views [] []*
 
