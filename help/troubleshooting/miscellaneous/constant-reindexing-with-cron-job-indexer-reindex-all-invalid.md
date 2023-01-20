@@ -9,7 +9,7 @@ This article provides a workaround for the issue when your site has performance 
 
 ## Affected products and versions
 
-* Adobe Commerce 2.4.0+ <!--  does this apply to cloud and on-prem? -->
+* Adobe Commerce (Cloud & On-Premise.) 2.4.0+. As Category Permissions is a Commerce only feature it will not affect Magento Open Source.
 
 ## Issue
 
