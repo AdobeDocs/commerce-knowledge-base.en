@@ -445,8 +445,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-48313: [!UICONTROL configurable_variations] column not parsed if attribute value contains comma](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48313-configurable-variations-column-not-parsed-attribute-value-contains-comma.md)
         * [ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-47910-missing-orders-invoices-shipments-credit-memos-in-respective-entity-grids.md)
         * [ACSD-47292: out-of-stock bundled products are not available in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-47292-out-of-stock-bundled-products-not-available-in-graphql.md)
+        * [ACSD-48293: composite products out of stock when sold out child products restocked](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48293-composite-products-go-out-of-stock.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
-    * [ACSD-48293: composite products out of stock when sold out child products restocked](/help/support-tools/patches-available-in-qpt-tool/acsd-48293-composite-products-go-out-of-stock.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
