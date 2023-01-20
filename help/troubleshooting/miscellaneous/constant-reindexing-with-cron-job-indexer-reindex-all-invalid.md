@@ -13,7 +13,7 @@ This article provides a possible workaround for the issue when your site has per
 
 ## Issue
 
-In New Relic One error logs should show `indexer_update_all_views` running many times with a time > 1s (i.e., it is processing something).
+In [!DNL New Relic One] error logs should show `indexer_update_all_views` running many times with a time > 1s (i.e., it is processing something).
 
 ## Cause
 
