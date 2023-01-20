@@ -19,7 +19,7 @@ In New Relic One error logs should show `indexer_update_all_views` running many 
 
 When the core Adobe Commerce importer is run (manually or by CRON) then a set of plugins across multiple core modules are executed to determine what indexes should be invalidated.
 
-The issue occurs when the **[!UICONTROL Category Permissions]** module is enabled in the Commerce Admin, if this is true then the module’s plugin always invalidates the Product & Category indexes (and linked indexes) when an import is executed. If the standard import types are examined then they all affect **[!UICONTROL Category Permissions]**. Invalidation is expected.
+The issue occurs when the **[!UICONTROL Category Permissions]** module is enabled in the Commerce Admin. If this is true then the module’s plugin always invalidates the Product & Category indexes (and linked indexes) when an import is executed. If the standard import types are examined then they all affect **[!UICONTROL Category Permissions]**. Invalidation is expected.
 
 In addition, when a site has B2B modules enabled if **[!UICONTROL Shared Catalog]** is activated it turns on and locks **[!UICONTROL Category Permissions]**. Turning off **[!UICONTROL Shared Catalog]** will unlock **[!UICONTROL Category Permissions]** but not switch it off.
 
@@ -27,16 +27,16 @@ In addition, when a site has B2B modules enabled if **[!UICONTROL Shared Catalog
 
 Extend `Magento\CatalogPermissions\Model\Indexer\Plugin\Import` so that the `afterImportSource` method excludes the custom importer.
 
-    ```php
-    public function afterImportSource(\Magento\ImportExport\Model\Import $subject, $import)
-    {
+    ```
+     public function afterImportSource(\Magento\ImportExport\Model\Import $subject, $import)
+     {
         if ($this->config->isEnabled() && $subject->getEntity() !== 'ENTITY_CODE') {
             $this->indexerRegistry->get(\Magento\CatalogPermissions\Model\Indexer\Category::INDEXER_ID)->invalidate();
             $this->indexerRegistry->get(\Magento\CatalogPermissions\Model\Indexer\Product::INDEXER_ID)->invalidate();
         }
         return $import;
-    }
-    ```
+     }
+     ```
 
 Where `ENTITY_CODE` is the value used for the entity name parameter in the `import.xml` file for the custom importer.
 
