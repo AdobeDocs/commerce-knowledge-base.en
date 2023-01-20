@@ -28,7 +28,7 @@ Composite products go out of stock when the child products that were sold out ar
 
 1. Create a secondary website, store, and store view.
 1. Create two sources and stocks and assign them to each website.
-1. Enable the show out-of-stock products option under **[!UICONTROL Store]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock Options]** > **[!UICONTROL Display Out-of-Stock Products]** = **[!UICONTROL Yes]**.
+1. Enable the show out-of-stock products option under **[!UICONTROL Store]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock Options]** > **[!UICONTROL Display Out-of-Stock Products]** = *[!UICONTROL Yes]*.
 1. Create a configurable product with one associated product using the primary website's stock source (set qty = 1).
 1. Place an order for the configurable product.
 1. Run the cron.
