@@ -5,7 +5,7 @@ labels: troubleshooting,Could not acquire lock for cron job,error,indexing,crons
 
 # Indexes invalidated and 'indexer_reindex_all_invalid' run constantly
 
-This article provides a workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the [!DNL cron] job `indexer_reindex_all_invalid` continously running and caches are cleaned on reindex.
+This article provides a possible workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the [!DNL cron] job `indexer_reindex_all_invalid` continuously running and caches are cleaned on reindex.
 
 ## Affected products and versions
 
