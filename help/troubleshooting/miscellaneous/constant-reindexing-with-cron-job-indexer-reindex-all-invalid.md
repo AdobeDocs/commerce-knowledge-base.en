@@ -25,7 +25,7 @@ In addition, when a site has B2B modules enabled if **[!UICONTROL Shared Catalog
 
 ## Solution
 
-Extend `Magento\CatalogPermissions\Model\Indexer\Plugin\Import' so that the `afterImportSource` method excludes the custom importer.
+Extend `Magento\CatalogPermissions\Model\Indexer\Plugin\Import` so that the `afterImportSource` method excludes the custom importer.
 
     ```php
     public function afterImportSource(\Magento\ImportExport\Model\Import $subject, $import)
