@@ -35,7 +35,7 @@ Extend `Magento\CatalogPermissions\Model\Indexer\Plugin\Import` so that the `aft
             $this->indexerRegistry->get(\Magento\CatalogPermissions\Model\Indexer\Product::INDEXER_ID)->invalidate();
         }
         return $import;
-     }
+      }
      ```
 
 Where `ENTITY_CODE` is the value used for the entity name parameter in the `import.xml` file for the custom importer.
