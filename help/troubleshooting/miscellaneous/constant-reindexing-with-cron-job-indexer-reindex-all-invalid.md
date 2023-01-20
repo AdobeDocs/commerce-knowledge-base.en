@@ -5,7 +5,7 @@ labels: troubleshooting,error,indexing,crons,site performance,adobe commerce
 
 # Indexes invalidated and `indexer_reindex_all_invalid` run constantly
 
-This article provides a possible workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the cron job `indexer_reindex_all_invalid` continuously running and caches are cleaned on reindex.
+This article provides a possible workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the cron job `indexer_reindex_all_invalid` continuously running and caches cleaned on reindex.
 
 ## Affected products and versions
 
