@@ -363,7 +363,8 @@ This field appears when your account is associated with more than one organizati
 
 >[!NOTE]
 >
->Organization can be changed after the ticket is submitted. Follow these steps to change the organization.
+>Organization can be changed after the ticket is submitted.
+Follow these steps to change the organization:
 >
 >1. Go to the right column of the ticket.
 >1. Locate the dropdown for available organizations.
