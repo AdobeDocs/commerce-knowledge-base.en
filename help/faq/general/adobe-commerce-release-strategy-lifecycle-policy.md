@@ -39,18 +39,18 @@ Check out the [Adobe Commerce 2023 release schedule](https://experienceleague.ad
 
 ### What are the different types of releases included on the schedule?
 
-* **Core application patch releases**: core application upgrade that includes security, performance, and high priority quality fixes.
+* **Core application patch releases**: core application upgrade that includes security, performance, and high-priority quality fixes.
 * **Beta version patch releases**: non-General Availability code updates to the core Adobe Commerce application that include security, compliance, performance, and high-priority quality fixes. It allows extra time to review code and affected components before patch release GA.
-* **Feature releases**: releases of new features and feature updates that are delivered as composable services, separate from the patch releases. Examples include services like Product Recommendations and Live Search, independent modules like PWA Studio and Inventory Management (MSI), and updates to our cloud services and infrastructure.
+* **Feature releases**: releases of new features and feature updates that are delivered as composable services, separate from the patch releases. Examples include services like [!DNL Product Recommendations] and [!DNL Live Search], independent modules like [!DNL PWA Studio] and [!DNL Inventory Management] (MSI), and updates to our cloud services and infrastructure.
 * **Security patch releases**: security-only updates to the core application released to keep customers secure and compliant.
 
 ### Where do customers go to get quality patches?
 
-Quality patches are a way to distribute fixes for individual quality issues. Customers can contact Adobe Support or use the [Quality Patch Tool](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) to find quality patches.
+Quality patches are a way to distribute fixes for individual quality issues. Customers can contact Adobe Support or use the [[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) to find quality patches.
 
 ### What resources are available to help with planning, budgeting, and upgrades in general?
 
-Available resources include a comprehensive 2.4 Upgrade Guide, Technical Upgrade Workshop Recording, and the Upgrade Compatibility Tool. A comprehensive list of resources can be found on [Experience League](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html).
+Available resources include a comprehensive 2.4 Upgrade Guide, Technical Upgrade Workshop Recording, and the [!DNL Upgrade Compatibility Tool]. A comprehensive list of resources can be found on [Experience League](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html).
 
 ### As a Managed Services customer, how can Customer Engineering help me in the upgrade to 2.4.4+?
 
@@ -60,7 +60,7 @@ Managed Services customers can work with our Customer Engineering team for assis
 
 ### Are there extended support options for customers on versions 2.3.7 and 2.4.0-2.4.3?
 
-While customers are encouraged to upgrade as soon as possible, paid extended support plans are available for versions based on PHP 7.4 (customers on 2.3.7 and or 2.4.0-2.4.3). These plans includes both quality and security patches for the core application and PHP for up to one year.
+While customers are encouraged to upgrade as soon as possible, paid extended support plans are available for versions based on PHP 7.4 (customers on 2.3.7 and or 2.4.0-2.4.3). These plans include both quality and security patches for the core application and PHP for up to one year.
 
 * Extended support for 2.3.7 started on September 8, 2022, and can be received until September 8, 2023. 
 * Extended support for 2.4.0-2.4.3 started on November 28, 2022, and can be received until November 28, 2023. 
