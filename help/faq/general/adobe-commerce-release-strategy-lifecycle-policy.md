@@ -1,147 +1,71 @@
 ---
-title: FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
-description: We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule) for timing details.
+title: FAQ for the 2023 Adobe Commerce Release Strategy and Lifecycle Policy
+description: To meet the mission-critical needs of Adobe Commerce customers, we are expanding our support window for Adobe Commerce 2.4.4 and later versions to **3 years from the version [!DNL GA] date**. Support includes **both security and quality patches**. See our new [release calendar](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) for timing details.
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 ---
-# FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support
+# FAQ for the 2023 Adobe Commerce Release Strategy and Lifecycle Policy
 
-## 2022 Release Strategy and Updated Lifecycle Policy
+## 2023 Release Strategy and Updated Lifecycle Policy
 
-### How are Adobe Commerce releases changing?
+### How is the Adobe Commerce Software Lifecycle Policy changing in 2023?
 
-We are reducing the frequency of core Commerce application upgrades in 2022 and will be providing two full patches and several security patches for versions still under Adobe Commerce Support throughout the year. See our new [release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule) for timing details.
-
-We are also reducing complexity of upgrades and accelerating innovation by narrowing the focus of full patch releases to include only security, compliance, performance, and high priority bugs. New features will continue to be released as independent services, allowing Merchants to adopt features and innovate faster; Live Search, Product Recommendations, and Amazon Sales Channel are all examples of existing independent services that enabled us to reduce complexity in the core Commerce application. Community contributions and lower priority issues will be released through the [Quality Patches Tool](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md), providing faster time to market and letting merchants choose the updates that are important to them.
-
-### How is the lifecycle policy changing?
-
-We will be moving our end of support (EOS) dates to align closely with those of PHP, the third-party scripting language that Adobe Commerce is built on. Whenever a PHP version reaches its end of life (EOL), Adobe must update our code to maintain PCI compliance. Aligning our EOS dates to PHP EOL dates will help reduce the frequency and impact of PHP version changes and make it even simpler for merchants to follow the most effective path for staying current.
+To meet the mission-critical needs of Adobe Commerce customers, we are expanding our support window for Adobe Commerce 2.4.4 and later versions to **3 years from the version [!DNL GA] date**. Support includes **both security and quality patches**. 
 
 ### How will these changes benefit customers?
 
-Reducing the frequency and complexity of patch releases means customers can reduce the time, resources, and development dollars they spend on upgrades. In addition, as we continue to release features as independent services, customers will be able to adopt these features faster, accelerating their time to innovation. To learn more about the benefits of our simplified upgrade process, visit our recent [release strategy blog post](https://business.adobe.com/blog/how-to/accelerating-innovation-through-simplified-release-strategy).
+The longer support window recognizes the complexity our customers face operating multiple sites around the globe and enables them to get more value from each deployment. Customers can stay on releases for a longer period, which reduces total cost of ownership and frees resources to focus on adding new functionality or customizing the buying experience to drive faster growth.
 
-### What are the different types of upgrades that will be released in 2022?
+### Where can customers find our current lifecycle policy?
 
-To streamline upgrades, we will be delivering three types of releases throughout 2022.
+The [Adobe Commerce Software Lifecycle Policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) is available online.
 
-* **Patch releases**. Core application upgrades include security, performance, and high-priority quality fixes.
-* **Feature releases**. Releases of new features and feature updates that are delivered as independent services, separate from the patch releases. Examples include services like Product Recommendations and Live Search, independent modules like PWA Studio and Inventory Management (MSI), and updates to our cloud services and infrastructure.
-* **Security patch releases**. Security-only updates to the core application released to keep merchants secure and compliant.
+### When will customers on 2.4.4, 2.4.5, and 2.4.6 reach end-of-support under this new policy?
 
-### What are Quality patches?
+Customers on Adobe Commerce 2.4.4+ will receive security and quality fixes for 3 years from the version [!DNL GA] date as shown in the timeline below. See the [Released Versions](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html) page on [!DNL Experience League] for specific end-of-support dates.
 
-Quality patches are a way to distribute fixes for individual quality issues outside of patch releases (like 2.4.4). Customers can easily search for and apply a specific fix appropriate for their version without contacting Support or waiting for a release. Both Adobe and the Commerce community can contribute Quality patches. Fixes provided by the community are reviewed by Maintainers before they are made available to customers. This [dev blog post](https://community.magento.com/t5/Magento-DevBlog/New-Delivery-Process-for-Community-Contributions/ba-p/479563) details this community contribution program.
+![Graph 1](assets/MSKB-1978-1.jpg)
 
-### What is the release schedule for 2022?
+### How is the Adobe Commerce release schedule changing?
 
-Release dates can be found in our [2022 release calendar](https://devdocs.magento.com/release/?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=schedule). There will be two patch releases, several security patch releases for versions still under support, and six feature releases throughout the year.
+To accelerate innovation and reduce the total cost of ownership, there will be one core application patch released per year, with new capabilities delivered as composable [!DNL SaaS] services that can be added at any time. The number of security patch releases planned for this year is also increasing from three to four to help customers stay more secure. Additional [!DNL beta] releases for the 2024 core application patch release (2.4.7) will also be made available this year to help partners and customers prepare for the next release.
 
-### Will this new release strategy be applicable to both Adobe Commerce and Magento Open Source Merchants?
+### How does the new release schedule benefit customers?
 
-Yes, both Adobe Commerce and Magento Open Source merchants will follow the same release process and schedule.
+Delivering new capabilities as composable [!DNL SaaS] services provides customers with faster access to new tools that can help increase their sales. Functionality can be adopted at any time without having to upgrade the core Adobe Commerce application. And these services can be continually updated by Adobe to deliver the latest advances in functionality and performance. Having one core application patch release per year helps to reduce upgrade costs, makes it easier to plan for upgrades, and provides more time for customizing and optimizing the commerce experience. Additional lightweight security patches help customers stay more secure.
 
-### With the new lifecycle policy, how do Merchants stay secure?
+### Where is the Adobe Commerce release schedule posted?
 
-Adobe Commerce will continue to provide security patch releases for versions still under support. To stay up to date on the latest security fixes, merchants must take the latest patch or security patch release. For example, when Adobe Commerce 2.4.5 is released in August 2022, merchants must either adopt 2.4.5 or 2.4.4-p1 (also released in August 2022) to adopt the latest security fixes. The security fixes will not be backported to previous patch releases of the 2.4 release line (e.g., 2.4.0-2.4.4). Merchants who fall behind on upgrades are at risk and have more exposure to security vulnerabilities.
+Check out the [Adobe Commerce 2023 release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) on [!DNL Experience League] for more details.
 
-### With the new lifecycle policy, how long will Merchants be able to get quality fixes from Adobe Support?
+### What are the different types of releases included on the schedule?
 
-Merchants will be able to receive quality fixes until their version reaches End of Support. Merchants can access quality fixes through the Adobe Commerce [Quality Patch Tool](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) or by contacting the Support team.
+* **Core application patch releases**: core application upgrade that includes security, performance, and high-priority quality fixes.
+* **[!DNL Beta] version patch releases**: non-[!DNL General Availability] code updates to the core Adobe Commerce application that include security, compliance, performance, and high-priority quality fixes. It allows extra time to review code and affected components before patch release [!DNL GA].
+* **Feature releases**: releases of new features and feature updates that are delivered as composable services, separate from the patch releases. Examples include services like [!DNL Product Recommendations] and [!DNL Live Search], independent modules like [!DNL PWA Studio] and [!DNL Inventory Management] (MSI), and updates to our cloud services and infrastructure.
+* **Security patch releases**: security-only updates to the core application released to keep customers secure and compliant.
 
-### Would upgrading to 2.4.4 or higher require all extensions be updated as well?
+### Where do customers go to get quality patches?
 
-Most extensions will need to be updated to work with 2.4.4 or higher, given that it is based on a new version of PHP and there will be backward incompatible changes. We are taking proactive measures to ensure our Marketplace extensions stay up to date with each Commerce release.
+Quality patches are a way to distribute fixes for individual quality issues. Customers can contact Adobe Support or use the [[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) to find quality patches.
 
-## Upgrade Resources
+### What resources are available to help with planning, budgeting, and upgrades in general?
 
-### Which resources are available to help with planning, budgeting, and upgrades in general?
+Available resources include a comprehensive 2.4 Upgrade Guide, Technical Upgrade Workshop Recording, and the [!DNL Upgrade Compatibility Tool]. A comprehensive list of resources can be found on [Experience League](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html).
 
-Merchants can use a set of resources to help plan, budget, and complete upgrades like the comprehensive [2.4 Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf) and the [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html). The tool has now over 400 downloads, more than 2,000 executions, and +80 active users on the community slack channel (#upgrade-compatibility-tool).
+### As a Managed Services customer, how can Customer Engineering help me in the upgrade to 2.4.4+?
 
-A [2.4 Technical Upgrade Workshop](https://register.gotowebinar.com/register/6951278956217776911) will be held on January 26, 8am PST for customers and a recording will be available on demand under the [Tutorials section of Experience League](https://experienceleague.adobe.com/docs/commerce.html#tutorials) shortly after the event.
-
-### As a Managed Services customer, how can Customer Engineering help me in the upgrade to 2.4.4?
-
-Managed Services customers can work with our Customer Engineering team for assistance with several components of the upgrade process, including analysis, upgrading cloud services, quality and user acceptance testing (QA and UAT), and production launch.
-
-### Upgrade Analysis
-
-* Arrange Kick Off Call
-* Review Environments that need to be upgraded
-* Assist with running Upgrade Compatibility Tool
-
-### Upgrading Cloud Services, QA and UAT
-
-* Upgrading Cloud Services for Development and Staging Environments
-* Assist with Load Testing and Review of Best Practices for Performance
-
-### Production Launch
-
-* Coordinating Go Live Readiness and Checklist
-* Coordinating Cloud Service Upgrades
-* Coordinating Launch Event Conference Call for Live Launch Assistance
-* Monitor Application Performance post upgrade
+Managed Services customers can work with our Customer Engineering team for assistance with several components of the upgrade process, including analysis, upgrading cloud services, quality and user acceptance testing ([!DNL QA] and [!DNL UAT]), and production launch.
 
 ## Extended Support Options
 
-### I am currently using Adobe Commerce 2.3.x and would like to upgrade to the latest 2.4.x version in 2022. However, with the 2.3 line reaching the end of support in April 2022, that does not give me enough time to upgrade while staying supported. What are my options?
+### Are there extended support options for customers on versions 2.3.7 and 2.4.0-2.4.3?
 
-We understand that it takes time to upgrade, and we are here to support you on your path to 2.4.4. We are shifting the 2.3 line End of Support date from April 28, 2022, to September 8, 2022, to provide you with additional time to prepare for and execute your upgrade to 2.4.4.
+While customers are encouraged to upgrade as soon as possible, paid extended support plans are available for versions based on [!DNL PHP] 7.4 (customers on 2.3.7 and or 2.4.0-2.4.3). These plans include both quality and security patches for the core application and [!DNL PHP] for up to one year.
 
-We still encourage you to upgrade to 2.4.4 at your earliest convenience to help ensure PCI compliance and to gain access to new features that enable business growth. Being on a version with third-party technologies that are no longer supported (i.e., versions 2.3.6 and lower are based on PHP versions that have reached end of life) puts you at risk of security vulnerabilities. Review our [lifecycle policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) for more information on our EOS schedule and terms.
+* Extended support for 2.3.7 started on September 8, 2022, and can be received until September 8, 2023. 
+* Extended support for 2.4.0-2.4.3 started on November 28, 2022, and can be received until November 28, 2023. 
 
-If making the move to 2.4.4 is not feasible within this timeframe, we recommend that you upgrade first to 2.3.7 by September 8, which will be a lower-level effort. We will be offering a paid extended support option for 2.3.7 for an additional year (Sept 2022 &ndash;  Sept 2023) so that you can prepare for your next upgrade to 2.4.4 or higher. More details will be announced in March.
+### Does extended support ensure [!DNL PCI] compliance?
 
-### I am currently using Adobe Commerce 2.4.0-2.4.2 and would like to upgrade to the latest 2.4.x version. However, I am unable to plan for another upgrade before my version reaches end of support in November 2022. What are my options?
+Under extended support, our Customer Engineering team will continue to provide the same quality and security patches as usual, without any scope degradations. However, customers will need to take additional measures to stay [!DNL PCI]-compliant if underlying third-party technologies, like [!DNL MySQL], reach end-of-support. Adobe does not provide support for third-party technologies that have reached end-of-support **except for [!DNL PHP] support for versions of [!DNL PHP] used by versions of Adobe Commerce that are eligible for support services or extended support**. Adobe recommends that customers work with their [PCI assessor](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors) to ensure compliance. Refer to [Adobe Commerce System Requirements](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) for a full list of tested and supported third-party technologies.
 
-We have updated our lifecycle policy so that our version end of support dates are now aligned with PHP end of life dates. While this change is ultimately beneficial and extends the amount of time between versions that cause breaking changes, we recognize that it means a shorter support window for some customers.
-
-We will be offering a paid extended support offering that will keep your version supported for an additional year (Nov 2022 &ndash;  Nov 2023) so that you have additional time to prepare for your next upgrade. More details will be announced in March.
-
-### I recently upgraded to Adobe Commerce 2.4.3 and am not able to plan for another upgrade in 2022. With 2.4.3 reaching end of support in November 2022, what are my options to stay supported?
-
-We recognize that you recently upgraded to or are in the process of upgrading to 2.4.3, and planning your next upgrade immediately may not be feasible. As your partner in your digital commerce journey, we will be offering a paid extended support offering that will keep your version supported for an additional year (Nov 2022 &ndash;  Nov 2023) so that you have additional time to prepare for your next upgrade. More details will be announced in March.
-
-### What is paid extended support and how do I learn more about it?
-
-Adobe offers a paid extended support option for Adobe Commerce versions based on PHP 7.4 (customers on Adobe Commerce 2.3.7 and or 2.4.0-2.4.3) that includes both quality and security fixes for the core application and PHP 7.4 for up to one year. This gives merchants more time to be supported as they plan and execute their upgrade to 2.4.4 or higher. 
-
-Extended support for 2.3.7 starts after 2.3 reaches End Of Support (EOS) on September 9, 2022, and can be received until September 8, 2023. Extended support for 2.4.0-2.4.3 starts after EOS on November 29, 2022, and can be received until November 28, 2023. 
-
-While extended support does include support for PHP 7.4, it is important to note that merchants may need to take additional measures to stay PCI-compliant. Adobe cannot provide support for all third-party technologies our software uses that may reach the end of life while you are on extended support. Adobe recommends that merchants work with a [PCI assessor](https://listings.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors) to ensure compliance.
-
-### Do I need to upgrade to a specific patch version to receive extended support? 
-
-Under extended support, security patches and hotfixes will be made available for the latest security-only patch versions only, which are: 2.3.7-p4, 2.4.0-p1, 2.4.1-p1, 2.4.2-p2, 2.4.3-p3.
-
-For example, if you are currently on 2.4.3-p1, you must do a light upgrade to 2.4.3-p3 first in order to apply an extended support security patch or hotfix.
-
-### What is PCI compliance and why won't extended support keep me compliant?
-
-Payment Card Industry (PCI) compliance is a set of industry standards that all businesses that process credit card information need to follow to maintain a secure environment for their customers. Companies must keep their commerce platform and all technological dependencies up to date in order to remain PCI compliant.
-
-While a customer is under extended support, our Customer Engineering team will continue to provide the same quality and security fixes as usual, without any scope degradations. However, customers will need to take additional measures to remain PCI compliant due to underlying platform technologies reaching end of life.
-
-Please refer to [Adobe Commerce System Requirements](https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html) for a full list of tested and supported third-party technologies.
-
-### What actions can I take to address PCI failure caused by outdated software?
-
-Running an unsupported version of a third-party technology may impact PCI compliance because any security vulnerability discovered will not be patched by the third party. Adobe recommends that merchants either upgrade to the latest Adobe Commerce version as soon as possible to become PCI-compliant or work with a PCI assessor to ensure compliance.
-
-
-### I have purchased extended support. How will I receive support for security and quality fixes? 
-
-**Quality fixes**: You may contact the Adobe Support team for quality issues. 
-        
-**Security fixes**: During the extended support period, Adobe Commerce will release security hotfixes on a quarterly basis for versions covered by the extended support plan. We will alert extended support customers via email when these hotfixes are available, but you may also check for and download hotfixes in your Adobe Commerce My Account section in the Marketplace portal. Outside of these releases, you may also contact the Adobe Support team for security issues. 
-        
-**PHP 7.4 fixes**: For On-Premise customers, PHP 7.4 fixes will be delivered as downloads available in your Adobe Commerce My Account section at <https://account.magento.com/customer/account/>. This section will also include relevant installation and release notes. For Cloud customers, these updates will be made available automatically in your cloud instance, and you will be alerted of the update via email.
-
-### What is included with extended support for PHP?
-
-Adobe will support PHP v7.4 on Debian v9 including supporting all PECL extensions available in Adobe Commerce today.  Adobe will provide regular security updates to the PHP 7.4 release through the following process:
-
-* Adobe will monitor all upstream (e.g. 8.1) releases of PHP and any security issues that are identified in those will be tested to see whether there are vulnerabilities exposed in version 7.4.  If there are, Adobe will create a backport fix for version 7.4 and deliver to customers.
-
-* Adobe will also monitor all CVE that are applicable to PHP 7.4 itself. Those will also be fixed with the same level of scrutiny and testing and delivered to customers.
