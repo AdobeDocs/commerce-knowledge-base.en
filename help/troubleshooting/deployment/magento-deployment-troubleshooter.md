@@ -41,7 +41,7 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 +++**Using Bitbucket?**
 
 a. YES – Check [status.bitbucket.com](https://bitbucket.status.atlassian.com/).  
-b. NO – Check deployment log errors in [Log Locations: Build and Deploy Logs](https://devdocs.magento.com/cloud/project/log-locations.html#build-and-deploy-logs). Proceed to [Step 5](#step-5).
+b. NO – Check deployment log errors in [View and manage logs: Build and Deploy Logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Proceed to [Step 5](#step-5).
 
 +++
 
@@ -86,7 +86,7 @@ b. NO – Proceed to [Step 10.](#step-10)
 +++**Available storage okay?**
 
 a. YES – Proceed with [Step 10](#step-10).  
-b. NO – Review [Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html).
+b. NO – Review [Manage disk space](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html).
 
 +++
 
@@ -94,7 +94,7 @@ b. NO – Review [Manage disk space](https://devdocs.magento.com/cloud/project/m
 
 +++**_file could not be written Warning_?**
 
-a. YES – Please [increase the disk value in .magento.app.yaml](https://devdocs.magento.com/cloud/project/manage-disk-space.html#application-disk-space) and redeploy. If this does not work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
+a. YES – Please [increase the disk value in .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) and redeploy. If this does not work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 b. NO – Proceed with [Step 11](#step-11).
 
 +++
@@ -121,7 +121,7 @@ b. NO – Proceed to [Step 13](#step-13).
 
 +++**File system out of inodes or space?**
 
-a. YES – See [Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html).  
+a. YES – See [Manage disk space](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space).  
 b. NO – Proceed to [Step 14](#step-14).
 
 +++
@@ -163,7 +163,7 @@ b. NO – Proceed to [Step 17](#step-17).
 
 +++**Post hook failure/hang?**
 
-a. YES – Database: [Free disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#allocating-disk-space), corruption, incomplete/corrupted tables.  
+a. YES – Database: [Free disk space](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), corruption, incomplete/corrupted tables.  
 b. NO – Proceed to [Step 18](#step-18).
 
 +++
@@ -172,7 +172,7 @@ b. NO – Proceed to [Step 18](#step-18).
 
 +++**Using third-party extensions?**
 
-a. YES – Try [Disabling the third-party extensions](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) and running the deployment (to see if they are the cause of the problem), especially if there are extension names in any errors.  
+a. YES – Try [Disabling the third-party extensions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) and running the deployment (to see if they are the cause of the problem), especially if there are extension names in any errors.  
 b. NO – Proceed to [Step 19](#step-19).
 
 +++
