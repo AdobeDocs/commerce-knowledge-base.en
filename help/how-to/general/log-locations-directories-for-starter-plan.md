@@ -1,8 +1,8 @@
 ---
 title: Log locations (directories) for Starter plan
-description: Please refer to the [Log locations](https://devdocs.magento.com/guides/v2.2/cloud/project/log-locations.html) in our developer documentation for information about logs location for Adobe Commerce on cloud infrastructure.
+description: See [View and manage logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) in the *Commerce on Cloud Infrastructure Guide* to learn where to find build and deploy, application, and service logs for your project.
 exl-id: 567a4293-4640-45d9-93db-b9d36c0a95fe
 ---
 # Log locations (directories) for Starter plan
 
-Please refer to the [Log locations](https://devdocs.magento.com/guides/v2.2/cloud/project/log-locations.html) in our developer documentation for information about logs location for Adobe Commerce on cloud infrastructure.
+See [View and manage logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) in the *Commerce on Cloud Infrastructure Guide* to learn where to find the build and deploy, application, and service logs for Adobe Commerce projects deployed on cloud infrastructure.
