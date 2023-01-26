@@ -41,7 +41,7 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 +++**Using Bitbucket?**
 
 a. YES – Check [status.bitbucket.com](https://bitbucket.status.atlassian.com/).  
-b. NO – Check deployment log errors in [View and manage logs: Build and Deploy Logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Proceed to [Step 5](#step-5).
+b. NO – Check deployment log errors in the [Build and Deploy logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Proceed to [Step 5](#step-5).
 
 +++
 
