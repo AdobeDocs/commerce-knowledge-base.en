@@ -503,7 +503,7 @@ breadcrumb-title: Commerce KB
     * [Applying a patch takes your site down](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [Error 404 on all pages due to Content Staging issue](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
   * Miscellaneous {#miscellaneous}
-    * [Indexes invalidated and `indexer_reindex_all_invalid` run constantly](/help/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.md)
+    * [Indexes invalidated and "indexer_reindex_all_invalid" run constantly](/help/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.md)
     * [Missing or altered configuration file](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
     * [cURL error 60: SSL certificate expired](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
     * [Troubleshoot Product Recommendations module in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
