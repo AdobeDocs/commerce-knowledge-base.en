@@ -30,8 +30,8 @@ This **should** appear many times, but the important factor is that the process 
 
 The process can only do one of these two things:
 
-1.	Nothing: Would take 0 to 1 second (one second or less) - the process checks to see if it needs to do anything, and then stops if it does not need to do anything.
-1.	[!DNL Reindex] everything: Will always take time - usually minutes.
+1. Nothing: Would take 0 to 1 second (one second or less) - the process checks to see if it needs to do anything, and then stops if it does not need to do anything.
+1. [!DNL Reindex] everything: Will always take time - usually minutes.
 
 Normally you would want to see lots of occurrences of the process, but with an execution time of &lt1 second.
 A merchant can use this [!DNL MySQL] query to do this:
