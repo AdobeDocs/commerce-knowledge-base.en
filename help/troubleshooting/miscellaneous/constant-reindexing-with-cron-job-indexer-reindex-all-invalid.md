@@ -2,7 +2,6 @@
 title: Indexes invalidated and `indexer_reindex_all_invalid` run constantly
 labels: troubleshooting,error,indexing,crons,site performance,adobe commerce,magento,cron,indexer_reindex_all_invalid,SQL,MySQL,reindex
 ---
-
 # Indexes invalidated and `indexer_reindex_all_invalid` run constantly
 
 This article provides a possible workaround for the issue when your site has performance issues caused by constant reindexing. This is caused by the [!DNL cron] job `indexer_reindex_all_invalid` continuously running and caches cleaned on [!DNL reindex].
