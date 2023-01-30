@@ -34,7 +34,7 @@ The process can only do one of these two things:
 1. [!DNL Reindex] everything: Will always take time - usually minutes.
 
 Normally you would want to see lots of occurrences of the process, but with an execution time of &lt1 second.
-A merchant can use this [!DNL MySQL] query to do this:
+A merchant can therefore use this [!DNL MySQL] query to find transactions that take **more than 1 second** to run:
 
 ```sql
 SELECT TIMESTAMPDIFF(SECOND, executed_at, finished_at) AS period FROM cron_schedule WHERE job_code = 'indexer_reindex_all_invalid' HAVING period > 1
