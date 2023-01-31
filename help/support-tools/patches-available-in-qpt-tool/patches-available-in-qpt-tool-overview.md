@@ -11,9 +11,9 @@ This article provides an overview of Quality Patches Tool (QPT) and links to res
 * Adobe Commerce on-premises, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 * Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
-## What are Quality Patches Tool
+## What is Quality Patches Tool
 
-The [Quality Patches Tool](https://github.com/magento/quality-patches) (QPT) are individual patches developed by Adobe and the Magento Open Source community.
+The [Quality Patches Tool](https://github.com/magento/quality-patches) (QPT) is a tool allowing you to apply individual quality patches developed by Adobe and the Magento Open Source community.
 
 It allows you to:
 
@@ -33,7 +33,8 @@ The tool is aimed to enable you to self-serve with patches for issues you might 
 
 ## Patches available in Quality Patches Tool
 
-Please refer to [Quality Patches Tool](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) in our developer documentation for the list of available patches.
+In this section of the Adobe Commerce Support Knowledge Base, you will find detailed descriptions of the issues, solved by QPT patches, grouped by QPT release version.
+You can also see a list of available QPT patches and filter the by component, using the dynamically generated table on  the [Quality Patches Tool page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in our support knowledge base.
 
 ## How to install and use Quality Patches Tool
 
@@ -49,5 +50,4 @@ Please refer to [ Cloud for Adobe Commerce > Apply patches](https://devdocs.mage
 
 ## Related reading
 
-* [Quality Patches Tool release notes](https://devdocs.magento.com/quality-patches/release-notes.html) in our developer documentation.
-* [How to apply composer patches provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.
+* [Quality Patches Tool release notes](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) in our developer documentation.
