@@ -27,6 +27,7 @@ breadcrumb-title: Commerce KB
     * [Managed alerts for Adobe Commerce: Apdex warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
     * [Managed alerts for Adobe Commerce: CPU warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
   * Patches available in QPT tool {#patches}
+    * [Patches available in QPT tool overview](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
     * v1.0.5 {#v1-0-5}
         * [MDVA-28191: No payment method for one website in Admin Create New Order](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28191-magento-patch-no-payment-method-for-one-website-in-admin-create-new-order.md)
         * [MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28409-magento-patch-magento-web-server-crashing-out-of-memory.md)
