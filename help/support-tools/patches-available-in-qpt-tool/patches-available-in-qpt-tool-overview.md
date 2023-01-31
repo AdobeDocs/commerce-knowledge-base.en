@@ -46,7 +46,7 @@ Please refer to [Software Update Guide > Patching](https://devdocs.magento.com/g
 
 ### How to install and use QPT for Adobe Commerce on cloud infrastructure
 
-Please refer to [ Cloud for Adobe Commerce > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation for details on how to install and use QPT for applying and reverting patches on Adobe Commerce on cloud infrastructure.
+Please refer to [Cloud for Adobe Commerce > Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation for details on how to install and use QPT for applying and reverting patches on Adobe Commerce on cloud infrastructure.
 
 ## Related reading
 
