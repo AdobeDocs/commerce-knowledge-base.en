@@ -11,7 +11,7 @@ You only need to use one variant (option) to dump your DB. These options apply t
 
 ## Prerequisite: SSH to your environment
 
-To dump your DB on Adobe Commerce on cloud infrastructure with any variant discussed in this article, you must first [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
+To dump your DB on Adobe Commerce on cloud infrastructure with any variant discussed in this article, you must first [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 
 >[!WARNING]
 >
