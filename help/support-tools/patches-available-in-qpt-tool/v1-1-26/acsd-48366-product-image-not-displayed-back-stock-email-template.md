@@ -26,20 +26,20 @@ The product image is not displayed on the [!UICONTROL Back to Stock] email templ
 
 <u>Steps to reproduce</u>:
 
-1. Enable *[!UICONTROL Product Alert]* for *[!UICONTROL Back in Stock]* by going to **[!UICONTROL Store]** > **[UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Product Alert]** > **[!UICONTROL Allow Alert When Product Comes Back in Stock]** = *[!UICONTROL Yes]*.
+1. Enable Product Alert for Back in Stock by going to **[!UICONTROL Store]** > **[UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Product Alert]** > **[!UICONTROL Allow Alert When Product Comes Back in Stock]** = *[!UICONTROL Yes]*.
 1. Enable *[!UICONTROL Display Out of Stock Products]* by going to **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Display Out of Stock]** = *[!UICONTROL Yes]*.
 1. Create a simple product with qty = 0.
 1. Create a customer from the storefront and subscribe to the above product to get product alerts when in stock.
 1. Make the product in stock.
 1. Execute the product alert cron.
 
-    ```PHP
+    ```
     n98-magerun2.phar sys:cron:run catalog_product_alert
     ```
 
 1. Start the product alert for the customer.
 
-    ```PHP
+    ```
     bin/magento queue:consumers:start product_alert
     ```
 
