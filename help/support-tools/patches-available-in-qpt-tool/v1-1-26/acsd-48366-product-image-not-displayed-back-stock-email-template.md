@@ -33,13 +33,13 @@ The product image is not displayed on the [!UICONTROL Back to Stock] email templ
 1. Make the product in stock.
 1. Execute the product alert cron.
 
-    ```
+    ```PHP
     n98-magerun2.phar sys:cron:run catalog_product_alert
     ```
 
 1. Start the product alert for the customer.
 
-    ```
+    ```PHP
     bin/magento queue:consumers:start product_alert
     ```
 
