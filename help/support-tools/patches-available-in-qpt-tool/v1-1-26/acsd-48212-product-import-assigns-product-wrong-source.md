@@ -33,7 +33,7 @@ Product import assigns the product to the wrong source.
 1. Open **[!UICONTROL Catalog]** > **[!UICONTROL Prdoucts]**.
 1. Select the product from the grid.
 1. Unassign the stock using the *[!UICONTROL mass action]* menu.
-1. Rin `bin/magento cron:run`.
+1. Run `bin/magento cron:run`.
 1. Assign the secondary source using the *[!UICONTROL mass action]* menu.
 1. Rin `bin/magento cron:run`.
 1. Delete the product using the *[!UICONTROL mass action]* menu.
