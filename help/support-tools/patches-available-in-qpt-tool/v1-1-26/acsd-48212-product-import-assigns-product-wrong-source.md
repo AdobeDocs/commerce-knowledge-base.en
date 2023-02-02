@@ -37,7 +37,7 @@ Product import assigns the product to the wrong source.
 1. Assign the secondary source using the *[!UICONTROL mass action]* menu.
 1. Run `bin/magento cron:run`.
 1. Delete the product using the *[!UICONTROL mass action]* menu.
-1. Rin `bin/magento cron:run`.
+1. Run `bin/magento cron:run`.
 1. Import the product using the previously exported CSV.
 1. Check the source assignment.
 
