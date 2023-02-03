@@ -57,11 +57,10 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
 | CPU monitoring   | Description |
 |------------|------------|
 |Monitoring goal |To track CPU availability.|
-| Instrumented on | |
+| Instrumented on | CPU |
 | Metric | CPU storage is monitored.|
 | Description | Notification is sent based on the thresholds configured around free CPU. |
 | Notification recipient | Internal and [Managed alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) are created within Adobe and for the merchant. |
-| Action by Adobe | ... |
 | Action by merchant | Responsible for fixing the issue if caused by changes introduced by merchant or partner.  For troubleshooting, please refer to: <ul><li>[Managed alerts for Adobe Commerce: CPU warning alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-cpu-warning-alert.html)</li><li>[Managed alerts on Adobe Commerce: CPU critical alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-on-magento-commerce-cpu-critical-alert.html) </li></ul> |
 
 ## Memory monitoring
@@ -69,11 +68,10 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
 | Memory monitoring   | Description |
 |------------|------------|
 |Monitoring goal |To track memory availability.|
-| Instrumented on | |
+| Instrumented on | Memory |
 | Metric | Memory is monitored.|
 | Description | Notification is sent based on the thresholds configured around memory usage. |
 | Notification recipient | Internal and [Managed alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) are created within Adobe and for the merchant. |
-| Action by Adobe | ... |
 | Action by merchant | Responsible for fixing the issue if caused by changes introduced by merchant or partner.  For troubleshooting, please refer to: <ul><li>[Managed alerts for Adobe Commerce: memory warning alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-memory-warning-alert.html)</li><li>[Managed alerts on Adobe Commerce: memory critical alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-on-magento-commerce-memory-critical-alert.html) </li></ul> |
 
 ## Apdex monitoring
@@ -81,11 +79,10 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
 | Apdex monitoring   | Description |
 |------------|------------|
 |Monitoring goal |To track Apdex availability.|
-| Instrumented on | |
+| Instrumented on | Apdex |
 | Metric | Apdex is monitored.|
 | Description | Notification is sent based on the thresholds configured around Apdex usage. |
 | Notification recipient | Internal and [Managed alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) are created within Adobe and for the merchant. |
-| Action by Adobe | ... |
 | Action by merchant | Responsible for fixing the issue if caused by changes introduced by merchant or partner.  For troubleshooting, please refer to: <ul><li>[Managed alerts for Adobe Commerce: Apdex warning alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert.html)</li><li>[Managed alerts for Adobe Commerce: Apdex critical alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-critical-alert.html) </li></ul> |
 
 ## Redis memory monitoring
@@ -93,11 +90,10 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
 | Redis memory monitoring   | Description |
 |------------|------------|
 |Monitoring goal |To track Redis memory availability.|
-| Instrumented on | |
+| Instrumented on | Redis memory |
 | Metric | Redis memory is monitored.|
 | Description | Notification is sent based on the thresholds configured around Redis memory availability. |
 | Notification recipient | Internal and [Managed alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) are created within Adobe and for the merchant. |
-| Action by Adobe | ... |
 | Action by merchant | Responsible for fixing the issue if caused by changes introduced by merchant or partner.  For troubleshooting, please refer to: <ul><li>[Managed alerts on Adobe Commerce: Redis memory warning alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-on-magento-commerce-redis-memory-warning-alert.html)</li><li>[Redis memory critical alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-on-magento-commerce-redis-memory-critical-alert.html)| </li></ul> |
 
 ## MariaDB monitoring
@@ -105,10 +101,9 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
 | MariaDB memory monitoring   | Description |
 |------------|------------|
 |Monitoring goal |To track MariaDB availability.|
-| Instrumented on | |
+| Instrumented on | MariaDB |
 | Metric | MariaDB is monitored.|
 | Description | Notification is sent based on the thresholds configured around MariaDB availability. |
 | Notification recipient | Internal and [Managed alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) are created within Adobe and for the merchant. |
-| Action by Adobe | ... |
 | Action by merchant | Responsible for fixing the issue if caused by changes introduced by merchant or partner.  For troubleshooting, please refer to: <ul><li>[Managed alerts on Adobe Commerce: MariaDB alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-on-magento-commerce-mariadb-alerts.html) | </li></ul>| 
 
