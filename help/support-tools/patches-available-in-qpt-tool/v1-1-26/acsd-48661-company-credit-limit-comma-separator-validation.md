@@ -33,7 +33,7 @@ When the company credit limit is larger than 999, the comma separator prevents t
 
 <u>Expected results</u>:
 
-You are able to save the company without fixing the credit limit. The field either accepts commas or doesn't add a comma when populating the field.
+You are able to save the company without fixing the credit limit. Comma is not supported for input fields for the amounts and prices.
 
 <u>Actual results</u>:
 
