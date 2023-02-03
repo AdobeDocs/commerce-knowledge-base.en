@@ -60,7 +60,7 @@ The second price drop email is sent.
 
 <u>Actual results</u>:
 
-The second price email is not sent.
+The second price drop email is not sent.
 
 ## Apply the patch
 
