@@ -14,7 +14,7 @@ The ACSD-48587 patch fixes the issue where HTML special characters in the produc
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
 
 >[!NOTE]
 >
