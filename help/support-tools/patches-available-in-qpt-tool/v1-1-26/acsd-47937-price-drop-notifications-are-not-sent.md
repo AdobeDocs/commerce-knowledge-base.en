@@ -14,7 +14,7 @@ The ACSD-47937 patch fixes the issue where price drop notifications are not alwa
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4, 2.4.5, and 2.4.5-p1
 
 >[!NOTE]
 >
