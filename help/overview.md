@@ -38,7 +38,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href = "https://experienceleague.corp.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-48293-composite-products-go-out-of-stock.html">ACSD-48293: composite products out of stock when sold out child products restocked:</a> The ACSD-48293 patch fixes the issue where the composite products go out of stock when the sold-out child products are returned to stock. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.25 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-48293-composite-products-go-out-of-stock.html">ACSD-48293: composite products out of stock when sold out child products restocked:</a> The ACSD-48293 patch fixes the issue where the composite products go out of stock when the sold-out child products are returned to stock. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.25 is installed.
     <td>New article</td>
     <td>Feb 06, 2023</td>
   </tr>
