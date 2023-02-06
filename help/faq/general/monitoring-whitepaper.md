@@ -14,7 +14,7 @@ Monitoring enables merchants, system integrators, and Adobe's internal teams to 
 
 Adobe Commerce instances generally contain custom code and configurations. Adobe does not support or resolve issues with custom code and configurations. Adobe does help merchants troubleshoot and identify issues in our knowledge base and provide recommended solutions and best practices for prevention and resolution. We encourage merchants and partners to use the tables below to understand what is monitored and who is responsible for resolution.
 
-When notifications are triggered, Adobe Commerce support team will triage the issue. As part of the triage, error logs, and other resources are analyzed. Based on the triage, additional Zendesk support tickets are created either to merchants or partner (in case of custom updates) or to Adobe's internal teams to resolve the issue.
+When notifications are triggered, Adobe Commerce support team will triage the issue. As part of the triage, error logs, and other resources are analyzed. Based on the triage, additional Zendesk support tickets are created either to merchants or partners (in case of custom updates) or to Adobe's internal teams to resolve the issue.
 
 ## Adobe Commerce: default monitoring
 
@@ -28,7 +28,7 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
  | **Instrumented on** | Single URL selected for high SLA. |
  | **Description** | Site availability is determined based on the thresholds configured around the metric. Notification of site outage gets triggered if the check fails for 10 minutes and there is no active deployment in progress.|
  | **Notification recipient** | Merchant/Partner and Adobe. |
- | **Action by Adobe** | Responsible for triaging and fixing if the issue is on Adobe commerce infrastructure.|
+ | **Action by Adobe** | Responsible for triaging and fixing if the issue is on Adobe Commerce infrastructure.|
  | **Action by merchant** | Responsible for fixing the issue if caused by changes or custom code introduced by merchant/partner. For troubleshooting, please refer to: [Site Down Troubleshooter](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html). |
 
 ## Diskspace monitoring
