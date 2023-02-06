@@ -1,6 +1,6 @@
 ---
 title: Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure
-description: Monitoring provides visibility into the overall health of Adobe Commerce and is instrumented with various monitoring tools to track the health of critical parts of our underlying systems to deliver optimized performance on cloud.
+description: Monitoring provides visibility into the overall health of Adobe Commerce and is instrumented with monitoring tools to track the health of critical parts of our underlying systems to deliver optimized performance on cloud.
 exl-id: 01342d8d-2123-4455-b1a5-a08a5805b046
 ---
 
@@ -10,11 +10,7 @@ Monitoring provides visibility into the overall health of Adobe Commerce and is 
 
 This document provides information about the systems and subsystems being monitored, thresholds set on mission-critical parameters, and notifications.
 
-Monitoring enables merchants, system integrators, and Adobe's internal teams to:
-
-* Measure performance metrics, the health of individual sub-components, and the cloud platform layer.
-* Analyze Adobe Commerce site performance.
-* Troubleshoot problems such as service availability, insufficient disk space, etc.
+Monitoring enables merchants, system integrators, and Adobe's internal teams to troubleshoot service availability and insufficient disk space.
 
 ## Problem troubleshooting and resolution
 
