@@ -1,14 +1,12 @@
 ---
 title: Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure
-description: Monitoring provides visibility into the overall health of Adobe Commerce and is instrumented with monitoring tools to track the health of critical parts of our underlying systems to deliver optimized performance on cloud.
+description: This document provides information about Adobe Commerce infrastructure monitoring and notifications.
 exl-id: 01342d8d-2123-4455-b1a5-a08a5805b046
 ---
 
 # Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure
 
-Monitoring provides visibility into the overall health of Adobe Commerce and is instrumented with various monitoring tools to track the health of critical parts of our underlying systems to deliver optimized performance on cloud.
-
-This document provides information about the systems and subsystems being monitored, thresholds set on mission-critical parameters, and notifications.
+This document provides information about Adobe Commerce infrastructure monitoring and notifications.
 
 Monitoring enables merchants, system integrators, and Adobe's internal teams to troubleshoot service availability and insufficient disk space.
 
@@ -17,9 +15,6 @@ Monitoring enables merchants, system integrators, and Adobe's internal teams to 
 Adobe Commerce instances generally contain custom code and configurations. Adobe does not support or resolve issues with custom code and configurations. Adobe does help merchants troubleshoot and identify issues in our knowledge base and provide recommended solutions and best practices for prevention and resolution. We encourage merchants and partners to use the tables below to understand what is monitored and who is responsible for resolution.
 
 When notifications are triggered, Adobe Commerce support team will triage the issue. As part of the triage, error logs, and other resources are analyzed. Based on the triage, additional Zendesk support tickets are created either to merchants or partner (in case of custom updates) or to Adobe's internal teams to resolve the issue.
-<!-- is the above paragraph problematic because it implies that notifications are triggering Zendesk support tickets that are getting triaged? -->
-
- Our [Managed Alerts](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce.html) can help you take action before you notice slow response times or an outage.
 
 ## Adobe Commerce: default monitoring
 
