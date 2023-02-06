@@ -1,10 +1,10 @@
 ---
-title: Search engine show [!DNL Elasticsearch7] despite [!DNL OpenSearch] installation
+title: Search engine show [!DNL Elasticsearch] despite [!DNL OpenSearch] installation
 description: 'This topic describes how to fix the issue where the search engine is shown as [!DNL Elasticsearch7] despite [!DNL OpenSearch] being installed.'
 ---
-# Search engine show [!DNL Elasticsearch7] despite [!DNL OpenSearch] installation
+# Search engine show [!DNL Elasticsearch] despite [!DNL OpenSearch] installation
 
-This topic describes how to fix the issue where the search engine is shown as [!DNL Elasticsearch7] even after installing or upgrading to [!DNL OpenSearch].
+This topic describes how to fix the issue where the search engine is shown as [!DNL Elasticsearch] even after installing or upgrading to [!DNL OpenSearch].
 
 ## Affected versions
 
@@ -12,7 +12,7 @@ Adobe Commerce on cloud (all versions)
 
 ## Issue
 
-The search engine continues to show [!DNL Elasticsearch] even after installing/upgrading to [!DNL OpenSearch].
+The search engine continues to show [!DNL Elasticsearch7] even after installing/upgrading to [!DNL OpenSearch].
 
 <u>Steps to reproduce</u>:
 
