@@ -8,7 +8,7 @@ exl-id: 01342d8d-2123-4455-b1a5-a08a5805b046
 
 This document provides information about Adobe Commerce infrastructure monitoring and notifications.
 
-Monitoring enables merchants, system integrators, and Adobe's internal teams to troubleshoot service availability and insufficient disk space.
+Monitoring enables merchants, system integrators, and Adobe's internal teams to troubleshoot site availability and insufficient disk space.
 
 ## Problem troubleshooting and resolution
 
