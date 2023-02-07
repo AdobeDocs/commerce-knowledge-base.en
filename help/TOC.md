@@ -27,6 +27,7 @@ breadcrumb-title: Commerce KB
     * [Managed alerts for Adobe Commerce: Apdex warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
     * [Managed alerts for Adobe Commerce: CPU warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
   * Patches available in QPT tool {#patches}
+    * [Patches available in QPT tool overview](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
     * v1.0.5 {#v1-0-5}
         * [MDVA-28191: No payment method for one website in Admin Create New Order](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28191-magento-patch-no-payment-method-for-one-website-in-admin-create-new-order.md)
         * [MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28409-magento-patch-magento-web-server-crashing-out-of-memory.md)
@@ -450,6 +451,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48293: composite products out of stock when sold out child products restocked](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48293-composite-products-go-out-of-stock.md)
     * V1.1.26 {#v1-1-26}
         * [ACSD-47988: product export trims HTML tags from page builder product description](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47988-product-export-trims-html-tags.md)
+        * [ACSD-48366: product image not displayed on Back to Stock email template](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48366-product-image-not-displayed-back-stock-email-template.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -883,7 +885,7 @@ breadcrumb-title: Commerce KB
   * [Two-Factor Authentication in Admin Panel on Adobe Commerce FAQ](/help/faq/general/two-factor-authentication-in-admin-panel-on-magento-faq.md)
   * [Adobe Commerce support tools at a glance](/help/faq/general/support-tools-overview.md)
   * [Backup (snapshot) on Cloud: FAQ](/help/faq/general/backup-snapshot-on-cloud-faq.md)
-  * [FAQ for New Adobe Commerce Release Strategy, Updated Lifecycle Policy, and Extended Support](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
+  * [FAQ for the 2023 Adobe Commerce Release Strategy and Lifecycle Policy](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
   * [Can I schedule Content Staging updates for prices in a shared catalog?](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
   * [Adobe Commerce Security Scan Tool FAQ](/help/faq/general/magento-security-scan-tool-faq.md)
   * [Adobe Commerce Software End of Support FAQ](/help/faq/general/adobe-commerce-eos-policy-faq.md)
