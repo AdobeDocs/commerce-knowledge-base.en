@@ -27,17 +27,17 @@ As an example, it is a best practice to avoid a stuck MySQL database import by f
 ## Solution
 
 1. Check your application, deployment, or MySQL logs for deadlock errors:
-    * [Adobe Commerce and Magento Open Source log locations](https://devdocs.magento.com/guides/v2.3/config-guide/cli/logging.html)
-    * [Adobe Commerce on cloud infrastructure logs locations](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
+    * [Adobe Commerce and Magento Open Source log locations](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
+    * [Adobe Commerce on cloud infrastructure logs locations](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
 1. Check your MySQL process list for running processes with the command `mysql -e 'show full processlist';`
-1. If on Adobe Commerce on cloud infrastructure, check that MySQL slave is enabled. Consult this article: [Deploy variables (MYSQL\_USE\_SLAVE\_CONNECTION)](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#mysql_use_slave_connection).
+1. If on Adobe Commerce on cloud infrastructure, check that MySQL slave is enabled. Consult this article: [Deploy variables (MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection).
 1. Depending on the errors involved, the solution may present itself, or you may need to include your helpful log information if you need to open a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Related reading
 
 * [How to Minimize and Handle Deadlocks](https://dev.mysql.com/doc/refman/5.7/en/innodb-deadlocks-handling.html)
-* [Indexer optimization - Indexer Table Switching](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html#indexer-table-switching)
-* [Bulk Operations - Consume Messages](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/message-queues/bulk-operations.html#consume-messages)
+* [Indexer optimization - Indexer Table Switching](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
+* [Bulk Operations - Consume Messages](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
 
 >[!NOTE]
 >
