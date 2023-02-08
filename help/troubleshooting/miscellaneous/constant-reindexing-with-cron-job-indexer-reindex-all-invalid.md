@@ -9,7 +9,7 @@ This article provides a possible workaround for the issue when your site has per
 
 ## Affected products and versions
 
-* Adobe Commerce (Cloud & On-Premise) 2.4.0+ (As **[!UICONTROL Category Permissions]** is a Adobe-Commerce-only feature, it will not affect Magento Open Source.)
+* Adobe Commerce (cloud & on-premises) 2.4.0+ (As **[!UICONTROL Category Permissions]** is an Adobe-Commerce-only feature, it will not affect Magento Open Source.)
 
 ## Issue
 
@@ -19,9 +19,9 @@ In [!DNL New Relic One] error logs should show `indexer_update_all_views` runnin
 
 When the core Adobe Commerce importer is run (manually or by [!DNL cron]), then a set of plugins across multiple core modules are executed to determine what indexes should be invalidated.
 
-The issue occurs when the **[!UICONTROL Category Permissions]** module is enabled in the [!DNL Commerce Admin]. If this is true then the module’s plugin always invalidates the Product & Category indexes (and linked indexes) when an import is executed. If the standard import types are examined, then they all affect **[!UICONTROL Category Permissions]**. Invalidation is expected.
+The issue occurs when the **[!UICONTROL Category Permissions]** module is enabled in the [!DNL Commerce Admin]. If this is true, then the module’s plugin always invalidates the Product & Category indexes (and linked indexes) when an import is executed. If the standard import types are examined, then they all affect **[!UICONTROL Category Permissions]**. Invalidation is expected.
 
-In addition, when a site has B2B modules enabled if **[!UICONTROL Shared Catalog]** is activated, it turns on and locks **[!UICONTROL Category Permissions]**. Turning off **[!UICONTROL Shared Catalog]** will unlock **[!UICONTROL Category Permissions]**, but not switch it off.
+In addition, when a site has B2B modules enabled, if **[!UICONTROL Shared Catalog]** is activated, it turns on and locks **[!UICONTROL Category Permissions]**. Turning off **[!UICONTROL Shared Catalog]** will unlock **[!UICONTROL Category Permissions]**, but not switch it off.
 
 <u>Checking [!DNL cron] logs in your [!DNL MySQL] database</u>:
 
@@ -30,10 +30,10 @@ This **should** appear many times, but the important factor is that the process 
 
 The process can only do one of these two things:
 
-1. Nothing: Would take 0 to 1 second (one second or less) - the process checks to see if it needs to do anything, and then stops if it does not need to do anything.
-1. [!DNL Reindex] everything: Will always take time - usually minutes.
+1. Nothing: It would take 0 to 1 second (one second or less) - the process checks to see if it needs to do anything and then stops if it does not need to do anything.
+1. [!DNL Reindex] everything: It will always take time - usually minutes.
 
-Normally you would want to see lots of occurrences of the process, but with an execution time of &lt1 second.
+Normally you would want to see lots of occurrences of the process, but with an execution time of less than 1 second.
 A merchant can therefore use this [!DNL MySQL] query to find transactions that take **more than 1 second** to run:
 
 ```sql
