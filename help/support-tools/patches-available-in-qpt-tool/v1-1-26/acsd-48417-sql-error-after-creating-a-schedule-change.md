@@ -31,7 +31,7 @@ An SQL error appears after creating a schedule change for a product and saving a
 1. Edit any product (e.g. Joust Duffle Bag [SKU: 24-MB01])
 1. Schedule a new update:
 
-    * Select "Save as a New Update"
+    * Select **[!UICONTROL Save as a New Update]**
     * Update name: "Update 1"
     * Start Date: current time +1 min
     * End Date: current time +1 hour
@@ -48,7 +48,7 @@ An SQL error appears after creating a schedule change for a product and saving a
 
 1. Again, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and edit any configurable product (e.g. Chaz Kangeroo Hoodie [SKU: MH01])
 
-    * Disable all variants. Go to **[!UICONTROL Actions column]** > **[!UICONTROL Select]** > **[!UICONTROL Disable Product]**
+    * Disable all variants. Go to the Actions column > **[!UICONTROL Select]** > **[!UICONTROL Disable Product]**
     * Save the configurable one.
 
 <u>Expected results</u>:
