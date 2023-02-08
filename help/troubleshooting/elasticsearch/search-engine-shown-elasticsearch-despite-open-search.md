@@ -27,8 +27,13 @@ Adobe Commerce is hard-coded to specify [!DNL Elasticsearch] as the search engin
 
 To verify if [!DNL OpenSearch] has been installed, run the following command:
 
-1. Use this command on server: `curl 127.0.0.1:9200`. It should return [!DNL OpenSearch] with its version.
-1. Use the following command on the Magento-cloud CLI: `magento-cloud relationships -p <project_id>`. After using the command, locate [!DNL OpenSearch].
+**Method 1**:
+
+* Run the following command on server: `curl 127.0.0.1:9200`. It should return [!DNL OpenSearch] with its version.
+
+**Method 2**:
+
+* Use the following command on the Magento-cloud CLI: `magento-cloud relationships -p <project_id>`. After using the command, locate [!DNL OpenSearch].
 
 ## Related reading
 
