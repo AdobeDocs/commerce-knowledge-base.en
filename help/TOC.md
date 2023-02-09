@@ -450,6 +450,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48058: product price reindex not working if bundled product not assigned website](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48058-product-price-reindex-not-working-if-bundled-product-not-assigned-website.md)
         * [ACSD-48293: composite products out of stock when sold out child products restocked](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48293-composite-products-go-out-of-stock.md)
     * V1.1.26 {#v1-1-26}
+        * [ACSD-48212: product import assigns product to wrong source](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48212-product-import-assigns-product-wrong-source.md)
         * [ACSD-47988: product export trims HTML tags from page builder product description](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47988-product-export-trims-html-tags.md)
         * [ACSD-48366: product image not displayed on Back to Stock email template](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48366-product-image-not-displayed-back-stock-email-template.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
