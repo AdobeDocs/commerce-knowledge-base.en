@@ -102,7 +102,7 @@ Take these steps to locate the duplicated entries and delete them:
 
 ## Useful links in our developer documentation
 
-* [Apply custom patches to Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html)
-* [View and manage logs for Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/cloud/project/log-locations.html)
+* [Apply custom patches to Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)
+* [View and manage logs for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html))
 
 ## Attached Files

@@ -314,9 +314,9 @@ Another method to obtain the Project URL is as follows:
 
 Contact reasons vary by product. Choose which contact reason best fits the symptoms you are experiencing. Refer to the [Support ticket Contact Reason descriptions](/help/faq/general/support-ticket-contact-reason-descriptions.md) article to learn more about what contact reason you should choose.
 
-#### (Data) Integration type (MBI only)
+#### (Data) Integration type (Adobe Commerce Reporting only)
 
-Select the type of integration you have within MBI. This will help our engineers to more efficiently solve your issue.
+Select the type of integration you have within Adobe Commerce Reporting. This will help our engineers to more efficiently solve your issue.
 
 #### Description
 
@@ -324,7 +324,7 @@ Include an overview of your problem with as many details as you find reasonably 
 
 Please provide precise details, steps to reproduce (except for Adobe Commerce on-premises and cloud infrastructure, where there is a separate [Steps to Reproduce](#steps) field), and symptoms of your issue or request. Be sure to include any affected SKUs, relevant data points, and any other relevant links.
 
-#### Environment (Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, MBI and Shipping only)
+#### Environment (Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, Adobe Commerce Reporting and Shipping only)
 
 Select the **environment type** on which you face the problem:
 
@@ -341,7 +341,7 @@ Please specify your deployment method:
 * *Cloud* - choose this only if you are on Adobe Commerce on Cloud Infrastructure
 * *On-Premise* - **all self-hosted instances as well as [AWS] cloud-based hosting** (excludes Adobe Commerce on Cloud)
 
-#### Magento Environment ID
+#### Adobe Commerce Environment ID
 
 This field will only appear after you've selected **Contact Reason** = *Adobe Commerce Cloud Application*, followed by **Adobe Commerce Application Contact Reason** = *Live Search*.
 
