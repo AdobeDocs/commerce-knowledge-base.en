@@ -27,7 +27,7 @@ When the company credit limit is larger than 999, the comma separator prevents t
 <u>Steps to reproduce</u>:
 
 1. Enable the company feature at **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**.
-1. Create a company and add a credit limit larger than 999 under the *[!UICONTROL Company Credit]* tab.
+1. Create a company and add a credit limit larger than 999 under the **[!UICONTROL Company Credit]** tab.
 1. Save the company.
 1. Edit the company and try to save it again.
 
