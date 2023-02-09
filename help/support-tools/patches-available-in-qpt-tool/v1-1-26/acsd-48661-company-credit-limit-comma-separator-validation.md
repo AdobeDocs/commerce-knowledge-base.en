@@ -15,7 +15,7 @@ The ACSD-48661 patch fixes the issue where when the company credit limit is larg
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.5-p1
 
 >[!NOTE]
 >
