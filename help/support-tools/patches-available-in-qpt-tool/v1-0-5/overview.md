@@ -4,3 +4,4 @@ description: Everything you need to troubleshoot and maintain your Commerce stor
 ---
 # [!DNL Quality Patches Tool] (QPT) 1.0.5 overview
 
+This sub-section provides a detailed description 
