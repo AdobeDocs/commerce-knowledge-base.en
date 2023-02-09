@@ -1,6 +1,7 @@
 ---
 title: 'ACSD-48212: product import assigns product to wrong source'
 description: Apply the ACSD-48212 patch to fix the Adobe Commerce issue where the product import assigns the product to the wrong source.
+exl-id: b3426f62-f73a-4b76-8e0e-544a9133720f
 ---
 # ACSD-48212: product import assigns product to wrong source
 
@@ -64,4 +65,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-

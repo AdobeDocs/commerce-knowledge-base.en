@@ -1,6 +1,7 @@
 ---
 title: 'ACSD-48587: product widget not working with SKUs containing HTML characters'
 description: Apply the ACSD-48587 patch to fix the Adobe Commerce issue where HTML special characters in the products widget matching rules prevent them from displaying matching products.
+exl-id: 9f8f436c-f3ef-4510-a941-12f701e7524e
 ---
 # ACSD-48587: product widget not working with SKUs containing HTML characters
 
