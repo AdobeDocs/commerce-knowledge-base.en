@@ -22,11 +22,11 @@ When trying to view deployment log, Adobe Commerce on cloud infrastructure UI sh
 
 ## Cause
 
-Note that the log shown in the UI should not be treated as the source of truth, especially if you find that the site is not responding or working properly after the deployment was listed with a status of Success. You should also verify with the logs on the server. Refer to [View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html) in our developer documentation.
+Note that the log shown in the UI should not be treated as the source of truth, especially if you find that the site is not responding or working properly after the deployment was listed with a status of Success. You should also verify with the logs on the server. Refer to [View and manage logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) in our developer documentation.
 
 ## Solution
 
-1. Make sure that you have [Magento Cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) installed in your local environment.
+1. Make sure that you have [Magento Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) installed in your local environment.
 1. Run the following command:
 
     ```bash
@@ -58,5 +58,5 @@ Note that the log shown in the UI should not be treated as the source of truth, 
 
 ## Related readings in our developer documentation:
 
-* [Adobe Commerce on cloud infrastructure > Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html)
-* [Adobe Commerce on cloud infrastructure > View and manage logs](https://devdocs.magento.com/cloud/project/log-locations.html)
+* [Adobe Commerce on cloud infrastructure > Build and deploy](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
+* [Adobe Commerce on cloud infrastructure > View and manage logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
