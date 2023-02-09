@@ -9,7 +9,7 @@ This article explains issues you may experience while using the Quick Checkout f
 
 ## Affected products and versions
 
-* [Quick Checkout](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) is compatible with Adobe Commerce versions from 2.4.1 onwards.
+* The [Quick Checkout](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) is compatible with both Magento Open Source and Adobe Commerce. See [Lifecycle Policy](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) for more information about supported versions.
 
 ## Incorrect Composer keys and minimum-stability to `RC`
 
