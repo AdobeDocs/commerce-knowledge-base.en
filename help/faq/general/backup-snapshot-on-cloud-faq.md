@@ -32,12 +32,12 @@ This article covers the essentials of backing up your environments with snapshot
 
  **Related articles in our developer documentation:**
 
-* [Backup and disaster recovery](https://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
-* [Create a snapshot](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#create-snapshot)
+* [Backup and disaster recovery](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
+* [Create a snapshot](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html)
 
 ## Environment snapshot, Starter plan
 
-* All types of environments (Integration, Staging, Production)** are not being backed up automatically**, but you may create snapshots manually.
+* All types of environments (Integration, Staging, Production) **are not being backed up automatically**, but you may create snapshots manually.
 * You may create manual snapshots **regardless of the live state** of your site (snapshots also created for sites that have not been launched yet).
 * A manually triggered snapshot is stored for **7 days**.
 
@@ -52,6 +52,6 @@ DB backup is a part of a Cloud snapshot:
 >
 A snapshot is a complete backup of an environment that includes all persistent data from all running services (for example, **your MySQL database**, Redis, and so on) and any files stored on the mounted volumes.
 
-[Snapshots and backup management](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html) in our developer documentation.
+[Snapshots and backup management](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html) in our developer documentation.
 
 If, for any reason, you need to backup your DB only (on any environment), see the knowledge base article: [Generate database dumps on Cloud](/help/how-to/general/create-database-dump-on-cloud.md).
