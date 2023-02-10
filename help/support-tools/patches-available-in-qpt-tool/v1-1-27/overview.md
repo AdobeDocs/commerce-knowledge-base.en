@@ -1,15 +1,13 @@
 ---
-title: QPT patches version 1.1.27 overview
-description: 
+title: Quality Patches Tool (QPT) v1.1.27 overview
+description: This sub-section provides a detailed description of the issues fixed by the patches available in [!UICONTROL Quality Patches Tool] (QPT) v1.1.27
 ---
 
-# QPT patches version 1.1.27 overview
+# Quality Patches Tool (QPT) v1.1.27 overview
 
-This sub-section provides a detailed description of the issues fixed by the patches available in QPT version 1.1.27. 
+This sub-section provides a detailed description of the issues fixed by the patches available in [!UICONTROL Quality Patches Tool] (QPT) v1.1.27. 
 
-Use the menu on the left to navigate to a specific patch page.
-
-The follwoing patches are included in QPT 1.1.27:
+Use the menu on the left to navigate to a specific patch page. The follwoing patches are included in QPT v1.1.27:
 
 1. ACSD-48362: This patch fixes the issue where the default shipping address is used instead of a new one when placing an order using a negotiable quote.
 1. ACSD-48059: This patch fixes the issue with [!UICONTROL Visual Merchandiser] where merchants cannot save the "[!UICONTROL Match product by rule]" for the Categories attribute.
