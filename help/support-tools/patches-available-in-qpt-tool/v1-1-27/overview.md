@@ -1,9 +1,9 @@
 ---
-title: Quality Patches Tool (QPT) v1.1.27 overview
+title: "Overview: Quality Patches Tool (QPT) v1.1.27" 
 description: This sub-section provides a detailed description of the issues fixed by the patches available in [!UICONTROL Quality Patches Tool] (QPT) v1.1.27.
 ---
 
-# Quality Patches Tool (QPT) v1.1.27 overview
+# Overview: Quality Patches Tool (QPT) v1.1.27 
 
 This sub-section provides a detailed description of the issues fixed by the patches available in [!UICONTROL Quality Patches Tool] (QPT) v1.1.27. The follwoing patches are included in QPT v1.1.27:
 
