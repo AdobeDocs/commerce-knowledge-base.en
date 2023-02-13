@@ -29,6 +29,7 @@ breadcrumb-title: Commerce KB
   * Patches available in QPT tool {#patches}
     * [Patches available in QPT tool overview](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
     * v1.0.5 {#v1-0-5}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.5](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/overview.md)
         * [MDVA-28191: No payment method for one website in Admin Create New Order](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28191-magento-patch-no-payment-method-for-one-website-in-admin-create-new-order.md)
         * [MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28409-magento-patch-magento-web-server-crashing-out-of-memory.md)
         * [MDVA-28661: issue with company users management when changing admin email](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28661-magento-patch-issue-with-company-users-management-when-changing-admin-email.md)
