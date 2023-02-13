@@ -12,7 +12,7 @@ Adobe Commerce on cloud (all versions)
 
 ## Issue
 
-The search engine continues to show [!DNL Elasticsearch7] even after installing/upgrading to [!DNL OpenSearch].
+[!DNL Elasticsearch] is still shown as the search engine for Adobe Commerce on cloud even after installing or upgrading to [!DNL OpenSearch].
 
 <u>Steps to reproduce</u>:
 
