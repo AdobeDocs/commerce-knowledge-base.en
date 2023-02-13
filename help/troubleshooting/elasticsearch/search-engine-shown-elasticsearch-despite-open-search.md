@@ -4,7 +4,7 @@ description: "This topic describes how to fix the issue where the search engine 
 ---
 # Search engine shows [!DNL Elasticsearch] despite [!DNL OpenSearch] installation
 
-This topic describes how to fix the issue where the search engine is shown as [!DNL Elasticsearch] even after installing or upgrading to [!DNL OpenSearch].
+This article describes how to fix the issue where the search engine is shown as [!DNL Elasticsearch] even after installing or upgrading to [!DNL OpenSearch].
 
 ## Affected versions
 
