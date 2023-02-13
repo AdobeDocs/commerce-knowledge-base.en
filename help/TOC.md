@@ -42,6 +42,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-30428: wishlist not working with Inventory Management](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30428-magento-patch-wishlist-not-working-with-the-msi.md)
         * [MDVA-30593 patch: expired quotes are not cleaned up](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30593-magento-patch-expired-quotes-are-not-cleaned-up.md)
     * v1.0.6 {#v1-0-6}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.6](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/overview.md)
         * [MDVA-28202 patch: out of stock products don't filter properly](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28202-magento-patch-out-of-stock-products-don-t-filter-properly.md)
         * [MDVA-28300: price calculation issue with catalog price rule in GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28300-magento-patch-price-calculation-issue-with-catalog-price-rule-in-graphql.md)
         * [MDVA-28993: Elasticsearch partial search, "minimum should match" and fix for "searches with hyphen" issue](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28993-magento-patch-elasticsearch-partial-search-minimum-should-match-and-fix-for-searches-with-hyphen-issue.md)
