@@ -30,23 +30,16 @@ An SQL error appears after creating a schedule change for a product and saving a
 1. Go to the admin panel > **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 1. Edit any product (e.g., Joust Duffle Bag [SKU: 24-MB01]).
 1. Schedule a new update:
-
     * Select **[!UICONTROL Save as a New Update]**
     * Update name: "Update 1"
     * Start Date: current time +1 min
     * End Date: current time +1 hour
     * Modify Product name to: "Joust Duffle Bag 2"
     * Save the product.
-
-1. Go to CLI and execute cron. Wait till the schedule is applied.
-
-
+1. Go to CLI and execute cron and wait till the schedule is applied.
     ```
     bin/magento cron:run && bin/magento cron:run
     ```
-
-    and wait till the schedule is applied.
-
 1. Again, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and edit any configurable product (e.g., Chaz Kangeroo Hoodie [SKU: MH01]).
 
     * Disable all variants. Go to the Actions column > **[!UICONTROL Select]** > **[!UICONTROL Disable Product]**.
