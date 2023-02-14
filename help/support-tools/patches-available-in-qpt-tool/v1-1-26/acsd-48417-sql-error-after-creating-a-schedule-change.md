@@ -27,7 +27,7 @@ An SQL error appears after creating a schedule change for a product and saving a
 <u>Steps to reproduce</u>:
 
 1. Install Magento 2.4-develop EE + Sample Data.
-1. Go to the admin panel > **[!UICONTROL Catalog]** > **[!UICONTROL Products]**
+1. Go to the admin panel > **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 1. Edit any product (e.g. Joust Duffle Bag [SKU: 24-MB01])
 1. Schedule a new update:
 
