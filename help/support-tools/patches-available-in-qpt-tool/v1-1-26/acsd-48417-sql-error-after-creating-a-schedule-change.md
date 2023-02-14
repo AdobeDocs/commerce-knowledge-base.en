@@ -38,7 +38,8 @@ An SQL error appears after creating a schedule change for a product and saving a
     * Modify Product name to: "Joust Duffle Bag 2"
     * Save the product.
 
-1. Go to CLI and execute cron:
+1. Go to CLI and execute cron. Wait till the schedule is applied.
+
 
     ```
     bin/magento cron:run && bin/magento cron:run
