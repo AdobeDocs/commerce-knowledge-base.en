@@ -1,5 +1,5 @@
 ---
-title: [!DNL Elasticsearch] is shown as the search engine despite [!DNL OpenSearch] installation
+title: "[!DNL Elasticsearch] is shown as the search engine despite [!DNL OpenSearch] installation"
 description: This article provides a solution for the issue where [!DNL Elasticsearch] is still shown as the search engine for Adobe Commerce on cloud even after installing or upgrading to [!DNL OpenSearch].
 ---
 # [!DNL Elasticsearch] is shown as the search engine despite [!DNL OpenSearch] installation
