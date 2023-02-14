@@ -790,7 +790,7 @@ breadcrumb-title: Commerce KB
     * [Elasticsearch Index Status is 'yellow' or 'red'](/help/troubleshooting/elasticsearch/elasticsearch-index-status-is-yellow-or-red.md)
     * [Elasticsearch service not running](/help/troubleshooting/elasticsearch/elasticsearch-service-not-running.md)
     * [MySQL and ElasticSearch show different results](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
-    * [Search engine show Elasticsearch despite OpenSearch installation](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
+    * [Elasticsearch is shown as the search engine despite OpenSearch installation](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
 * Help Center Guide {#help-center-guide}
   * [Adobe Commerce Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
