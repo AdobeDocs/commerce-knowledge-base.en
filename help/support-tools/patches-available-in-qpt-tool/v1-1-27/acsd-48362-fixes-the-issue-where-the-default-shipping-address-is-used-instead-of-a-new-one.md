@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-ACSD-48362: Fixes the issue where the default shipping address is used instead of a new one when placing an order using a negotiable quote.
-=======
 ---
 title: Include patch ID in title. Example "ACSD-XXX Adobe Commerce patch: storefront is broken" or "ACSD-XXX: storefront is broken", if the title is long.
 description: Apply the ACSD-XXXXX patch to fix the Adobe Commerce issue where...
@@ -67,4 +64,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [Patches available in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
->>>>>>> Stashed changes
