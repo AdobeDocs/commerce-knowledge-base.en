@@ -49,7 +49,7 @@ An SQL error appears after creating a schedule change for a product and saving a
 
 1. Again, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and edit any configurable product (e.g., Chaz Kangeroo Hoodie [SKU: MH01]).
 
-    * Disable all variants. Go to the Actions column > **[!UICONTROL Select]** > **[!UICONTROL Disable Product]**
+    * Disable all variants. Go to the Actions column > **[!UICONTROL Select]** > **[!UICONTROL Disable Product]**.
     * Save the configurable one.
 
 <u>Expected results</u>:
