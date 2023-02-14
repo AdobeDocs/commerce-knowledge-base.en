@@ -450,9 +450,15 @@ breadcrumb-title: Commerce KB
         * [ACSD-48058: product price reindex not working if bundled product not assigned website](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48058-product-price-reindex-not-working-if-bundled-product-not-assigned-website.md)
         * [ACSD-48293: composite products out of stock when sold out child products restocked](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48293-composite-products-go-out-of-stock.md)
     * V1.1.26 {#v1-1-26}
+        * [ACSD-47937: price drop notifications not sent due to application-level caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47937-price-drop-notifications-are-not-sent.md)
+        * [ACSD-48661: company credit limit comma separator validation issue](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48661-company-credit-limit-comma-separator-validation.md)
+        * [ACSD-48587: product widget not working with SKUs containing HTML characters](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48587-product-widget-not-working-with-html-characters.md)
+        * [ACSD-48212: product import assigns product to wrong source](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48212-product-import-assigns-product-wrong-source.md)
         * [ACSD-47988: product export trims HTML tags from page builder product description](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47988-product-export-trims-html-tags.md)
         * [ACSD-48366: product image not displayed on Back to Stock email template](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48366-product-image-not-displayed-back-stock-email-template.md)
         * [ACSD-48417: SQL error after creating a schedule change](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48417-sql-error-after-creating-a-schedule-change.md)
+    * V1.1.27 {#v1-1-27}
+        * [Overview](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -556,6 +562,7 @@ breadcrumb-title: Commerce KB
     * [Applying a patch takes your site down](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [Error 404 on all pages due to Content Staging issue](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
   * Miscellaneous {#miscellaneous}
+    * [Indexes invalidated and "indexer_reindex_all_invalid" run constantly](/help/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.md)
     * [Missing or altered configuration file](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
     * [cURL error 60: SSL certificate expired](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
     * [Troubleshoot Product Recommendations module in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
