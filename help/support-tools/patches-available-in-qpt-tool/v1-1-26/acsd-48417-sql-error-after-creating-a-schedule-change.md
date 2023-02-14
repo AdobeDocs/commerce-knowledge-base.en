@@ -2,7 +2,7 @@
 title: 'ACSD-48417: SQL error after creating a schedule change'
 description: Apply the ACSD-48417 patch to fix the Adobe Commerce issue where an SQL error appears after creating a schedule change for a product and saving another product.
 ---
-# ACSD-48417: SQL error on creating a schedule change for a product and saving another
+# ACSD-48417: SQL error after creating a schedule change
 
 The ACSD-48417 patch fixes the issue where an SQL error appears after creating a schedule change for a product and saving another product. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.26 is installed. The patch ID is ACSD-48417. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
