@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48404: Fixes the issue where "Remember Category Pagination = Yes" causes an error when pressing the browser's back button.'
+title: "ACSD-48404: Fixes the issue where Remember Category Pagination = Yes causes an error when pressing the browser's back button."
 description: Apply the ACSD-48404 patch to fix the Adobe Commerce issue where "Remember Category Pagination = Yes" causes an error when pressing the browser's back button.
 ---
 
