@@ -27,17 +27,17 @@ When a customer adds a new shipping address on the negotiable quote page, the ch
 
 <u>Steps to reproduce</u>:
 
-1. Enable B2B quote from Stores > Configuration > B2B features > Enable company > Enable B2B quote.
+1. Enable **[!UICONTROL B2B quote]** from **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL B2B features]** > Enable company > Enable B2B quote.
 1. Log in as a company user account.
 1. Add a product to the cart.
-1. Go to the cart page and Request a Quote.
-1. Go to the customer My Quotes page and select the quote that was just created.
-1. In the customer quote page Shipping Information section, click Add New Address, fill out the form, and Save Address (do not select Use as my default billing address and Use as my default shipping address).
-1. Click Send for Review on the customer quote page.
-1. In Admin as an admin user open the Quote that was just created and click Send.
-1. On the customer quote page, refresh and click Proceed to Checkout.
-1. On the checkout page the new shipping address is selected but the data shows the default shipping address.
-1. Continue and Place Order.
+1. Go to the cart page and **[!UICONTROL Request a Quote]**.
+1. Go to the customer **[!UICONTROL My Quotes]** page and select the quote that was just created.
+1. In the customer quote page **[!UICONTROL Shipping Information]** section, click **[!UICONTROL Add New Address]**, fill out the form, and Save Address (do not select **[!UICONTROL Use as my default billing address]** or **[!UICONTROL Use as my default shipping address]**).
+1. Click **[!UICONTROL Send for Review]** on the customer quote page.
+1. Under **[!UICONTROL Admin]** as an admin user open the quote that was just created and click **[!UICONTROL Send]**.
+1. On the customer quote page, refresh and click **[!UICONTROL Proceed to Checkout]**.
+1. On the checkout page, data shows the default shipping address even when the new shipping address is selected.
+1. Continue and click **[!UICONTROL Place Order]**.
 
 <u>Expected results</u>:
 The order should use the new address without reselecting the shipping addresses on the checkout page.
