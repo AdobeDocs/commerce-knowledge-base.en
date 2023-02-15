@@ -124,6 +124,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-33516 patch: edit bundled product Requisition List error](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-33516-magento-patch-edit-bundled-product-requisition-list-error.md)
         * [MDVA-33975 patch: GraphQL price calculations](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.md)
     * v1.0.15 {#v1-0-15}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.15](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/overview.md)
         * [MDVA-27664 patch: date of birth account error](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/mdva-27664-magento-patch-date-of-birth-account-error.md)
         * [MDVA-32759 patch: shared catalogs delete tier pricing](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/mdva-32759-magento-patch-shared-catalogs-delete-tier-pricing.md)
         * [MDVA-33393 patch: provided countryId does not exist](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.md)
