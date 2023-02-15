@@ -79,6 +79,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-31242: issue in exporting orders in CSV format](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-31242-magento-patch-issue-in-exporting-orders-in-csv-format.md)
         * [MDVA-31295: Loyalty points on partial orders](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-31295-magento-patch-loyalty-points-on-partial-orders.md)
     * v1.0.9 {#v1-0-9}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.9](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/overview.md)
         * [MDVA-28651: B2B - quotes slow to load](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-28651-magento-patch-b2b-quotes-slow-to-load.md)
         * [MDVA-30889: Can't invoice bundle products virtual and simple](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.md)
         * [MDVA-31168 patch: Product export file does not show in Admin](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-31168-magento-patch-product-export-file-does-not-show-in-admin.md)
