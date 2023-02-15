@@ -55,6 +55,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-30977: missing products from categories, indexing related](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.md)
         * [MDVA-31006: Paypal Duplicate Orders 10415 error](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.md)
     * v1.0.7 {#v1-0-7}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.7](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/overview.md)
         * [MDVA-29148: ArrayBackend does not assign default value on save](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-29148-patch-arraybackend-does-not-assign-default-value-on-save.md)
         * [MDVA-29389: Advanced Reporting related cron job fails](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-29389-magento-patch-advanced-reporting-related-cron-job-fails.md)
         * [MDVA-30594: multiple address checkout errors](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-30594-magento-patch-multiple-address-checkout-errors.md)
