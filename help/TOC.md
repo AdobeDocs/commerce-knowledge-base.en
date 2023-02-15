@@ -90,6 +90,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-32012 patch: S. Korean and Argentina zip codes validation](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-32012-magento-patch-s.-korean-and-argentina-zip-codes-validation.md)
         * [MDVA-32313 patch: products added to wishlist with wrong configuration](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-32313-magento-patch-products-added-to-wishlist-with-wrong-configuration.md)
     * v1.0.12 {#v1-0-12}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.12](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/overview.md)
         * [MDVA-12304: 503 error on store front and cookie error](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-12304-magento-patch-503-error-on-store-front-and-cookie-error.md)
         * [MDVA-30845: checkout breaks connection to shipping provider fails](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-30845-magento-patch-checkout-breaks-connection-to-shipping-provider-fails.md)
         * [MDVA-31236: admins cannot setup 2FA or log in](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-31236-magento-patch-admins-cannot-setup-2fa-or-log-in.md)
