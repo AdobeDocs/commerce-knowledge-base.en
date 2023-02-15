@@ -5,7 +5,7 @@ description: Apply the ACSD-48404 patch to fix the Adobe Commerce issue where "R
 
 # ACSD-48404: fixes the issue where 'remember category pagination = yes' causes an error when pressing the browser's back button.
 
-The ACSD-48404 patch solves/fixes the issue where "Remember Category Pagination = Yes" causes an error when pressing the browser's back button. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 2.4.7 is installed. The patch ID is ACSD-48404. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce 2.4.7. (this is optional if the issue really was fixed).
+The ACSD-48404 patch solves/fixes the issue where "Remember Category Pagination = Yes" causes an error when pressing the browser's back button. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48404. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce 2.4.7. (this is optional if the issue really was fixed).
 
 ## Affected products and versions
 
