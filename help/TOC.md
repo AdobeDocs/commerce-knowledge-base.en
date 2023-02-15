@@ -70,6 +70,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-31282: double authorization on Paypal PayFlow Pro](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-31282-magento-patch-double-authorization-on-paypal-payflow-pro.md)
         * [MDVA-31343 patch: schedule update removes body class for category](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-31343-magento-patch-schedule-update-removes-body-class-for-category.md)
     * v1.0.8 {#v1-0-8}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.8](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/overview.md)
         * [MDVA-28357 SKU search in Advanced Search page doesn't work](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-28357-sku-search-in-advanced-search-page-doesn-t-work.md)
         * [MDVA-29954: wrong address sent new company user registration email](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-29954-magento-patch-wrong-address-sent-new-company-user-registration-email.md)
         * [MDVA-30112: large number reservation inconsistencies](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-30112-magento-patch-large-number-reservation-inconsistencies.md)
