@@ -100,6 +100,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-32632: Orders in payment system but not in Adobe Commerce](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-32632-orders-in-payment-system-but-not-in-magento.md)
         * [MDVA-32739 patch: old emails sent when asynchronous sending enabled](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-32739-magento-patch-old-emails-sent-when-asynchronous-sending-enabled.md)
     * v1.0.13 {#v1-0-13}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.13](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/overview.md)
         * [MCP-87 Adobe Commerce patch: storefront broken](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mcp-87-magento-patch-storefront-broken.md)
         * [MDVA-13203 patch: 503 error homepage post full reindex](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-13203-magento-patch-503-error-homepage-post-full-reindex.md)
         * [MDVA-19391: Advanced Reporting not working](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-19391-magento-patch-advanced-reporting-not-working.md)
