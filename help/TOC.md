@@ -113,6 +113,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-32714 patch: customer group price not working via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-32714-magento-patch-customer-group-price-not-working-via-graphql.md)
         * [MDVA-33106 patch: rescheduled product changes erased after cron run](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-33106-magento-patch-rescheduled-product-changes-erased-after-cron-run.md)
     * v1.0.14 {#v1-0-14}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.14](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/overview.md)
         * [MDVA-24201: Catalog price rules don't work](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
         * [MDVA-28511: accented letters hang Payflow payments](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-28511-magento-patch-accented-letters-hang-payflow-payments.md)
         * [MDVA-31519 patch: lost order after guest checkout](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-31519-magento-patch-lost-order-after-guest-checkout.md)
