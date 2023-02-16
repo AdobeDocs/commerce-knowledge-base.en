@@ -242,6 +242,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-38799: Downloadable products not saved after creating a staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/mdva-38799-downloadable-products-were-not-saved-after-creating-a-staging-update.md)
         * [MDVA-38827: Customers receive order shipment error via email](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/mdva-38827-customers-receive-an-order-shipment-email-containing-an-error-message.md)
     * v1.1.1 {#v1-1-1}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.1](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/overview.md)
         * [MDVA-34948: Slowing of website](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/mdva-34948-slow-site-and-operations.md)
         * [MDVA-36021: Users get error message when opening order details](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/mdva-36021-call-to-a-member-function-getid-error-on-the-order-details-page.md)
         * [MDVA-37897: Incorrect redirect when adding products from Recently Viewed](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/mdva-37897-incorrect-redirect-when-customers-try-to-add-products-with-options-from-recently-viewed-widget.md)
