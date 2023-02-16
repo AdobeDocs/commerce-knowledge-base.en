@@ -191,6 +191,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-33168: API async endpoint unsets special price](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/mdva-33168-api-async-endpoint-unsets-special-price.md)
         * [MDVA-36170: GraphQL query to category returns not cached data](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/mdva-36170-graphql-query-to-category-returns-not-cached-data.md)
     * v1.0.21 {#v1-0-21}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.21](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/overview.md)
         * [MDVA-34665: bundle products disappear storefront category page](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/mdva-34665-bundle-products-disappear-storefront-category-page.md)
         * [MDVA-35984: Wrong product Qty in concurrent shipments for same product](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/mdva-35984-wrong-product-qty-in-concurrent-shipments-for-same-product.md)
         * [MDVA-36138: free shipping rule not applied cart multiple items](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/mdva-36138-free-shipping-rule-not-applied-cart-multiple-items.md)
@@ -198,6 +199,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-36464: Send email settings not working at store-view level](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/mdva-36464-send-email-settings-not-working-at-store-view-level.md)
         * [MDVA-36615: catalog products grid filter incorrect results](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/mdva-36615-catalog-products-grid-filter-incorrect-results.md)
     * v1.0.22 {#v1-0-22}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.22](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/overview.md)
         * [MDVA-35773: Tax appears on invoice with 100% discount](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.md)
         * [MDVA-36253: Incorrect total in mini cart after deleting item](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/mdva-36253-incorrect-total-in-mini-cart-after-deleting-item.md)
         * [MDVA-36718: Custom options remain after API change](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/mdva-36718-custom-options-remain-after-api-change.md)
