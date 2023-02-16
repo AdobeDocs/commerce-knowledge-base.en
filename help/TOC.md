@@ -230,13 +230,14 @@ breadcrumb-title: Commerce KB
         * [MDVA-38132: Infinite redirect when backend URL is different from default website URL](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-38132-infinite-redirect-in-case-of-backend-url-is-different-from-default-website-url.md)
         * [MDVA-38270: Gift card amount missing from Customer Order Total](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-38270-customer-order-totals-missing-gift-card-amount.md)
     * v1.0.26 {#v1-0-26}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.26](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/overview.md)
+        * [Overview: Quality Patches Tool (QPT) v1.0.26](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/overview.md)
         * [MDVA-34680: Customer Account not filtered correctly in customers' grid](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-34680-customer-account-created-time-is-not-filtered-correctly-in-customers-grid.md)
         * [MDVA-37068: Incorrect tax displayed on Checkout for virtual products](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-37068-incorrect-tax-rate-displays-on-checkout-for-virtual-products.md)
         * [MDVA-38308: Error after adding Vimeo videos to disabled products](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38308-error-after-adding-vimeo-videos-to-disabled-products.md)
         * [MDVA-38468: Receive an error message when saving CMS page](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38468-error-when-saving-cms-pages.md)
         * [MDVA-38608: Temporary tables not deleted for unsuccessful reindexes](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38608-temporary-tables-are-not-deleted-when-the-reindex-is-not-finished-successfully.md)
     * v1.1.0 {#v1-1-0}
+        * [Overview: Quality Patches Tool (QPT) v1.1.0](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/overview.md)
         * [MDVA-37592: Sorting by price not working for products with price zero](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/mdva-37592-sorting-by-price-does-not-work-correctly-for-products-with-a-zero-price-assigned-to-shared-catalog.md)
         * [MDVA-38799: Downloadable products not saved after creating a staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/mdva-38799-downloadable-products-were-not-saved-after-creating-a-staging-update.md)
         * [MDVA-38827: Customers receive order shipment error via email](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/mdva-38827-customers-receive-an-order-shipment-email-containing-an-error-message.md)
