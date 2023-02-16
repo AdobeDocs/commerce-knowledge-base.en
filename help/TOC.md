@@ -138,6 +138,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-34023 patch: "No such entity with addressId" error](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/mdva-34023-magento-patch-no-such-entity-with-addressid-error.md)
         * [MDVA-34469: Wrong store code specified for cart](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/mdva-34469-magento-patch-wrong-store-code-specified-for-cart.md)
     * v1.0.16 {#v1-0-16}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.16](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/overview.md)
         * [MDVA-32634 patch: move category in hierarchy url_path wrong](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/mdva-32634-magento-patch-move-category-in-hierarchy-url-path-wrong.md)
         * [MDVA-33344 patch: "rma-item" attribute set ID hard-coded](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/mdva-33344-magento-patch-rma-item-attribute-set-id-hard-coded.md)
         * [MDVA-33453: Page Builder preview breaks product price differs across sites](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/mdva-33453-page-builder-preview-breaks-product-price-differs-across-sites.md)
