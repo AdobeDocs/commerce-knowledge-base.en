@@ -146,6 +146,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-34847: customer_grid_flat table slow queries](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/mdva-34847-magento-patch-customer-grid-flat-table-slow-queries.md)
         * [MDVA-34886: no search results when "weight" attribute used](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
     * v1.0.17 {#v1-0-17}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.17](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/overview.md)
         * [MDVA-34012 patch: attribute checkbox changes in error](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/mdva-34012-magento-patch-attribute-checkbox-changes-in-error.md)
         * [MDVA-34850: swatches not strike-through inventory reaches "0"](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/mdva-34850-swatches-not-strike-through-inventory-reaches-0.md)
         * [MDVA-34867: Condition fieldset values for Scheduled Update not saved](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/mdva-34867-magento-patch-condition-fieldset-values-for-scheduled-update-not-saved.md)
