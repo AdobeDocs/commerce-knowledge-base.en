@@ -216,18 +216,21 @@ breadcrumb-title: Commerce KB
         * [MDVA-37362: Configurable product options are empty in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/mdva-37362-configurable-product-options-are-empty-in-graphql-response.md)
         * [MDVA-37478: Can't create partial invoice via REST API](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/mdva-37478-can-t-create-partial-invoice-via-rest-api.md)
     * v1.0.24 {#v1-0-24}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.24](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/overview.md)
         * [MDVA-34330: Orders not filtered according to admin timezone](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/mdva-34330-orders-are-not-filtered-according-to-admin-timezone.md)
         * [MDVA-36832: Images duplicate on pages with 768px view width](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/mdva-36832-images-duplicates-on-pages-with-view-width-of-768px.md)
         * [MDVA-37779: Unable to add configurable product to cart via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/mdva-37779-unable-to-add-configurable-product-to-cart-via-graphql.md)
         * [MDVA-37874: Fixed discount not applied to entire cart](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/mdva-37874-fixed-discount-not-applied-to-entire-cart.md)
         * [MDVA-37913: Product download links vanish after updating extension attributes via API](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/mdva-37913-downloadable-product-links-disappear-after-updating-extension-attributes-via-api.md)
     * v1.0.25 {#v1-0-25}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.25](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/overview.md)
         * [MDVA-36572: New inventory reservation created after updating credit memo](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-36572-new-inventory-reservation-created-after-updating-credit-memo.md)
         * [MDVA-37082: Incorrect partial index of stock status for grouped products](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-37082-incremental-indexing-of-grouped-product-child-products-can-cause-incorrect-other-grouped-products.md)
         * [MDVA-37916: PayPal Payments Advanced not returning to confirmation page](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-37916-paypal-payment-advance-not-returning-to-confirmation-page.md)
         * [MDVA-38132: Infinite redirect when backend URL is different from default website URL](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-38132-infinite-redirect-in-case-of-backend-url-is-different-from-default-website-url.md)
         * [MDVA-38270: Gift card amount missing from Customer Order Total](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-38270-customer-order-totals-missing-gift-card-amount.md)
     * v1.0.26 {#v1-0-26}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.26](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/overview.md)
         * [MDVA-34680: Customer Account not filtered correctly in customers' grid](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-34680-customer-account-created-time-is-not-filtered-correctly-in-customers-grid.md)
         * [MDVA-37068: Incorrect tax displayed on Checkout for virtual products](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-37068-incorrect-tax-rate-displays-on-checkout-for-virtual-products.md)
         * [MDVA-38308: Error after adding Vimeo videos to disabled products](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38308-error-after-adding-vimeo-videos-to-disabled-products.md)
