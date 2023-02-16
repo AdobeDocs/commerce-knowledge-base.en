@@ -155,6 +155,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-35092: Vimeo Error: "Video not found"](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/mdva-35092-magento-patch-vimeo-error-video-not-found.md)
         * [MDVA-35197: GraphQL add to cart error if added products out of stock](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/mdva-35197-graphql-add-to-cart-error-if-added-products-out-of-stock.md)
     * v1.0.18 {#v1-0-18}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.18](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/overview.md)
         * [MDVA-32655: "quoteItemCleaner" consumer executes one message per execution](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/mdva-32655-quoteitemcleaner-consumer-executes-one-message-per-execution.md)
         * [MDVA-34102: inconsistent salable quantity](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/mdva-34102-magento-patch-inconsistent-salable-quantity.md)
         * [MDVA-34189: Visual merchandiser runs long MySQL queries](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/mdva-34189-visual-merchandiser-runs-long-mysql-queries.md)

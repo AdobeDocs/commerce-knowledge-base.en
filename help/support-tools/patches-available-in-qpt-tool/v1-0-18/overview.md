@@ -1,0 +1,18 @@
+---
+title: "Overview: [!DNL Quality Patches Tool] (QPT) v1.0.18"
+description: This sub-section provides a detailed description of the issues fixed by the patches available in [!DNL Quality Patches Tool] (QPT) v1.0.18.
+---
+# [!DNL Quality Patches Tool] (QPT) 1.0.18 overview
+
+This sub-section provides a detailed description of the issues fixed by the patches available in [!DNL Quality Patches Tool] (QPT) v1.0.18.
+
+QPT v1.0.18 includes the following patches:
+
+1. **MDVA-32655**: Fixes the incorrect *in progress* message status to the correct *complete* message for consumer `quoteItemCleaner` after deleting several products.
+1. **MDVA-34102**: Fixes the quantity of Default Stock is zero for disabled products on the Product Grid and Edit Product pages in the Admin area.
+1. **MDVA-34189**: Fixes 503 first byte timeout on [!DNL Visual Merchandiser] queries when loading the Admin Category page.
+1. **MDVA-34695**: Fixes negative `children_count` after deleting categories.
+1. **MDVA-35286**: Fixes the issue where there is an error if a customer has bundled products in the cart and switches from Multiple Addresses checkout to Onepage checkout.
+1. **MDVA-35312**: Fixes response code 500 when an empty GraphQL request.
+
+Use the menu on the left to navigate to a specific patch page.
