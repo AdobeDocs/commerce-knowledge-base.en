@@ -207,6 +207,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-36853: No images load from large media galleries](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/mdva-36853-no-images-load-from-large-media-galleries.md)
         * [MDVA-37182: inconsistent search results in ElasticSearch 6 and 7](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/mdva-37182-inconsistent-search-results-for-elasticsearch-6-and-7.md)
     * v1.0.23 {#v1-0-23}
+        * [Overview: Quality Patches Tool (QPT) v1.0.23](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/overview.md)
         * [MDVA-30186: Unsorted attribute options in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/mdva-30186-unsorted-attribute-options-in-graphql-response.md)
         * [MDVA-36286: Page Builder preview breaks if SKU positions in different categories](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/mdva-36286-page-builder-preview-breaks-if-sku-positions-are-in-different-categories.md)
         * [MDVA-37224: Unable to pay "negotiable quote" with PayFlow Pro](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/mdva-37224-unable-to-pay-negotiable-quote-with-payflow-pro.md)
