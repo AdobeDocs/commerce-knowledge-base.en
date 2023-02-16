@@ -248,6 +248,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-37897: Incorrect redirect when adding products from Recently Viewed](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/mdva-37897-incorrect-redirect-when-customers-try-to-add-products-with-options-from-recently-viewed-widget.md)
         * [MDVA-39305: Login issue with enabled Google reCAPTCHA](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/mdva-39305-login-issues-with-enabled-google-recaptcha.md)
     * v1.1.2 {#v1-1-2}
+        * [Overview: Quality Patches Tool (QPT) v1.1.2](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/overview.md)
         * [MDVA-37115: "Only 0 left" notice is shown on product page](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-37115-unnecessary-only-0-left-notice-is-shown-on-the-configurable-product-page.md)
         * [MDVA-37364: Custom customer attribute of date type breaks Grid UI](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-37364-custom-customer-attribute-of-date-type-breaks-the-customer-grid-ui.md)
         * [MDVA-38447: "Not visible individually" configurable child products are returned in GraphQL response and slow MySQL query](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-38447-not-visible-individually-configurable-child-products.md)
