@@ -179,6 +179,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-35910: form validation broken when "Login as Customer" disabled](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/mdva-35910-form-validation-broken-when-login-as-customer-disabled.md)
         * [MDVA-35982: Can't ship some orders](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/mdva-35982-magento-patch-can-t-ship-some-orders.md)
     * v1.0.20 {#v1-0-20}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.20](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/overview.md)
         * [MC-41359 commerce patch: missing settings SameSite cookie param](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/mc-41359-magento-patch-missing-settings-samesite-cookie-param.md)
         * [MDVA-11189: cataloginventory_stock rows deleted post CSV import](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/mdva-11189-cataloginventory-stock-rows-deleted-post-csv-import.md)
         * [MDVA-15546: Column 'entity_id' where clause is ambiguous](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/mdva-15546-column-entity-id-where-clause-is-ambiguous.md)
