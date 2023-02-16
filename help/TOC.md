@@ -163,6 +163,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-35286: error switching Multiple Address to Onepage checkout](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/mdva-35286-error-switching-multiple-address-to-onepage-checkout.md)
         * [MDVA-35312: empty GraphQL request throws 500 error not 200 OK](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/mdva-35312-empty-graphql-request-throws-500-error-not-200-ok.md)
     * v1.0.19 {#v1-0-19}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.19](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/overview.md)
         * [MDVA-31307: Out of memory on certain categories](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.md)
         * [MDVA-33289 patch: Javascript in address at checkout](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/mdva-33289-magento-patch-javascript-in-address-at-checkout.md)
         * [MDVA-33614 patch: can't save Terms page](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/mdva-33614-magento-patch-can-t-save-terms-page.md)
