@@ -1,19 +1,19 @@
 ---
-title: 'ACSD-48362: fixes the use of default shipping address instead of a new one'
+title: 'ACSD-48362: fixes the issue where the default shipping address is used instead of a new one'
 description: Apply the ACSD-48362 patch to fix the Adobe Commerce issue where the default shipping address is used instead of a new one when placing an order using a negotiable quote.
 ---
 
-# ACSD-48362: fixes the use of default shipping address instead of a new one
+# ACSD-48362: fixes the issue where the default shipping address is used instead of a new one
 
 The ACSD-48362 patch fixes the issue where the default shipping address is used instead of a new one when placing an order using a negotiable quote. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48362. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
-**The patch is created for Magento version:**
+**The patch is created for Adobe Commerce version:**
 
 * Adobe Commerce (all deployment methods) 2.4.4
 
-**Compatible with Magento versions:**
+**Compatible with Adobe Commerce versions:**
 
 * Adobe Commerce (all deployment methods) 2.4.1 - 2.4.6
 
@@ -32,9 +32,9 @@ When a customer adds a new shipping address on the negotiable quote page, the ch
 1. Add a product to the cart.
 1. Go to the cart page and **[!UICONTROL Request a Quote]**.
 1. Go to the customer **[!UICONTROL My Quotes]** page and select the quote that was just created.
-1. In the customer quote page **[!UICONTROL Shipping Information]** section, click **[!UICONTROL Add New Address]**, fill out the form, and Save Address (do not select **[!UICONTROL Use as my default billing address]** or **[!UICONTROL Use as my default shipping address]**).
+1. In the customer quote page **[!UICONTROL Shipping Information]** section, click **[!UICONTROL Add New Address]**, fill out the form, and click **[!UICONTROL Save Address]** (do not select **[!UICONTROL Use as my default billing address]** or **[!UICONTROL Use as my default shipping address]**).
 1. Click **[!UICONTROL Send for Review]** on the customer quote page.
-1. Under **[!UICONTROL Admin]** as an admin user open the quote that was just created and click **[!UICONTROL Send]**.
+1. Under Admin as an admin user open the quote that was just created and click **[!UICONTROL Send]**.
 1. On the customer quote page, refresh and click **[!UICONTROL Proceed to Checkout]**.
 1. On the checkout page, data shows the default shipping address even when the new shipping address is selected.
 1. Continue and click **[!UICONTROL Place Order]**.
