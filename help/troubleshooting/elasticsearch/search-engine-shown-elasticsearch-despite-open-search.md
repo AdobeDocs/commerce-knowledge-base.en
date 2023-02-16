@@ -21,7 +21,7 @@ Adobe Commerce on cloud (all versions)
 
 ## Cause
 
-Adobe Commerce is hard-coded to specify [!DNL Elasticsearch] as the search engine.
+Adobe Commerce is hard-coded to specify [!DNL Elasticsearch7] as the search engine.
 
 ## Solution
 
