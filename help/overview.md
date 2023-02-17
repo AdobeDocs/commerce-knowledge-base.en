@@ -30,42 +30,66 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
   </tr>
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-47292-out-of-stock-bundled-products-not-available-in-graphql.html">ACSD-47292: out-of-stock bundled products are not available in GraphQL response:</a> The ACSD-47292 patch fixes the issue where the out-of-stock bundled products are not available in the GraphQL response even if the [!UICONTROL Display Out-of-Stock Products] is set to [!UICONTROL Yes]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.25 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-47937-price-drop-notifications-are-not-sent.html">ACSD-47937: price drop notifications not sent due to application-level caching:</a> The ACSD-47937 patch fixes the issue where price drop notifications are not always sent due to application-level caching. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
     </td>
     <td>New article</td>
-    <td> Feb 06, 2023</td>
+    <td> Feb 17, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-48293-composite-products-go-out-of-stock.html">ACSD-48293: composite products out of stock when sold out child products restocked:</a> The ACSD-48293 patch fixes the issue where the composite products go out of stock when the sold-out child products are returned to stock. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.25 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48661-company-credit-limit-comma-separator-validation.html">ACSD-48661: company credit limit comma separator validation issue:</a> The ACSD-48661 patch fixes the issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    </td>
     <td>New article</td>
-    <td>Feb 06, 2023</td>
+    <td>Feb 17, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-48262-products-not-visible-on-storefront-when-allow-all-products-per-page-is-set-yes.html">ACSD-48262: products not visible on storefront when [!UICONTROL Allow All Products Per Page] is set [!UICONTROL Yes]:</a> The ACSD-48262 patch fixes the issue where products are not visible on the storefront when the [!UICONTROL Allow All Products Per Page] setting is set to [!UICONTROL Yes]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.25 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48587-product-widget-not-working-with-html-characters.html">ACSD-48587: product widget not working with SKUs containing HTML characters:</a> The ACSD-48587 patch fixes the issue where HTML special characters in the products widget matching rules prevent them from displaying matching products. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
     </td>
     <td>New article</td>
-    <td>Feb 06, 2023</td>
+    <td>Feb 17, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-25/acsd-48058-product-price-reindex-not-working-if-bundled-product-not-assigned-website.html">ACSD-48058: product price reindex not working if bundled product not assigned website:</a> The ACSD-48058 patch fixes the issue where product price reindex is not working if the bundled product is not assigned to any website. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.25 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48212-product-import-assigns-product-wrong-source.html?lang=en">ACSD-48212: product import assigns product to wrong source:</a> The ACSD-48212 patch fixes the issue where the product import assigns the product to the wrong source. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
     </td>
-    <td>New article</td>
-    <td>Feb 06, 2023</td>
-  </tr>
+    <td> New article </td>
+    <td> Jan 17, 2023</td>
 
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/adobe-commerce-release-strategy-lifecycle-policy.html?lang=en">FAQ for the 2023 Adobe Commerce Release Strategy and Lifecycle Policy:</a> This article was updated for 2023.
-    </td>
-    <td> Update </td>
-    <td> Jan 06, 2023</td>
  </tr>
+   <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-47988-product-export-trims-html-tags.html">ACSD-47988: product export trims HTML tags from page builder product description:</a> The ACSD-47988 patch fixes the issue where the product export trims HTML tags from the page builder product description. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    </td>
+    <td>New article</td>
+    <td>Feb 17, 2023</td>
+
+  </tr>
+    <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48366-product-image-not-displayed-back-stock-email-template.html">ACSD-48366: product image not displayed on Back to Stock email template:</a> The ACSD-48366 patch fixes the issue where the product thumbnail image is not displayed in the product's stock alert email. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    </td>
+    <td>New article</td>
+    <td>Feb 17, 2023</td>
+  </tr>
+    <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.html?lang=en">Indexes invalidated and indexer_reindex_all_invalid run constantly:</a> This article provides a possible workaround for the issue when your site has performance issues caused by constant reindexing.
+    </td>
+    <td>New article</td>
+    <td>Feb 17, 2023</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/monitoring-whitepaper.html">Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure:</a> Major edits were done to this article based on the direction from SMEs.
+    </td>
+    <td>Update</td>
+    <td>Feb 17, 2023</td>
+  </tr>
 </table>
 
 ## Popular Articles
