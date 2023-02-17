@@ -33,7 +33,7 @@ The default shipping address is used instead of the newly added shipping address
 1. Go to the cart page and request a quote.
 1. Go to the customer's **[!UICONTROL My Quotes]** page and select the quote that was just created.
 1. Go to the **[!UICONTROL Shipping Information]** section of the customer's quote page.
-    - Click **[!UICONTROL Add New Address]**, fill out the form, and save the address (do not select **[!UICONTROL Use as my default billing address]** or **[!UICONTROL Use as my default shipping address]**).
+    * Click **[!UICONTROL Add New Address]**, fill out the form, and save the address (do not select **[!UICONTROL Use as my default billing address]** or **[!UICONTROL Use as my default shipping address]**).
 1. Click **[!UICONTROL Send for Review]** on the customer's quote page.
 1. Go to the Adobe Commerce Admin as an admin user, open the quote that was just created, and click **[!UICONTROL Send]**.
 1. Now go to the customer's quote page, refresh the page, and click **[!UICONTROL Proceed to Checkout]**.
