@@ -31,7 +31,7 @@ The default shipping address is used instead of the newly added shipping address
 1. Log in as a company user account.
 1. Add a product to the cart.
 1. Go to the cart page and request a quote.
-1. Go to the customer **[!UICONTROL My Quotes]** page and select the quote that was just created.
+1. Go to the customer's **[!UICONTROL My Quotes]** page and select the quote that was just created.
 1. In the customer quote page **[!UICONTROL Shipping Information]** section, click **[!UICONTROL Add New Address]**, fill out the form, and click **[!UICONTROL Save Address]** (do not select **[!UICONTROL Use as my default billing address]** or **[!UICONTROL Use as my default shipping address]**).
 1. Click **[!UICONTROL Send for Review]** on the customer quote page.
 1. Under Admin as an admin user open the quote that was just created and click **[!UICONTROL Send]**.
