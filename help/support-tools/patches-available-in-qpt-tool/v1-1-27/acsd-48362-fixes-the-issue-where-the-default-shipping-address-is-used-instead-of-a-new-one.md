@@ -23,7 +23,7 @@ The ACSD-48362 patch fixes the issue where the default shipping address is used 
 
 ## Issue
 
-When a customer adds a new shipping address on the negotiable quote page, the checkout page still uses the default shipping address. 
+The default shipping address is used instead of the newly added shipping address when placing an order using a negotiable quote.
 
 <u>Steps to reproduce</u>:
 
