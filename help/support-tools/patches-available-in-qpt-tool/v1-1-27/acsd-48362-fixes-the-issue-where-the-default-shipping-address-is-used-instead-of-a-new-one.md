@@ -37,7 +37,7 @@ The default shipping address is used instead of the newly added shipping address
 1. Under Admin as an admin user open the quote that was just created and click **[!UICONTROL Send]**.
 1. On the customer quote page, refresh and click **[!UICONTROL Proceed to Checkout]**.
 1. On the checkout page, data shows the default shipping address even when the new shipping address is selected.
-1. Continue and click **[!UICONTROL Place Order]**.
+1. Click **[!UICONTROL Continue]** and place the order.
 
 <u>Expected results</u>:
 The order should use the new address without reselecting the shipping addresses on the checkout page.
