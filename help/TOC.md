@@ -264,6 +264,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-39986: Unable to place orders in admin in Safari browser on macOS](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-39986-unable-to-place-order-in-admin-using-safari-browser-in-macos.md)
         * [MDVA-40134: GraphQL not returning related products when shared catalog is enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-40134-graphql-does-not-return-related-products-when-shared-catalog-is-enabled.md)
     * v1.1.3 {#v1-1-3}
+        * [Overview: Quality Patches Tool (QPT) v1.1.3](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/overview.md)
         * [MDVA-31590: Unable to update attributes in bulk using MySQL async queues](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-31590-unable-to-update-attributes-in-bulk-using-mysql-async-queues.md)
         * [MDVA-33606: Users get error when saving CMS page assigned to hierarchy](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-33606-users-get-error-when-saving-cms-page-assigned-to-hierarchy.md)
         * [MDVA-36309: Products search by attributes is slow in admin grids](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-36309-product-search-by-attributes-is-slow-in-the-admin-grids.md)
