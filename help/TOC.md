@@ -285,6 +285,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-40435: Discount on bundle product is not applied correctly via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-40435-discount-on-bundle-product-is-not-applied-correctly-via-graphql.md)
         * [MDVA-40537: Creating store view gives error when several CMS pages have same URL Key.](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-40537-creating-store-view-gives-error-when-multiple-cms-pages-with-same-url-keys-exist.md)
     * v1.1.5 {#v1-1-5}
+        * [Overview: Quality Patches Tool (QPT) v1.1.5](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/overview.md)
         * [MDVA-31763: Catalog price rules are reverted until manual reindex](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-31763-catalog-price-rules-are-reverted-until-manual-reindex.md)
         * [MDVA-37748: GraphQL query returns products not assigned to shared catalog](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-37748-graphql-query-returns-products-not-assigned-to-shared-catalog.md)
         * [MDVA-39229: Error after updating Catalog rule Staging update start time](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-39229-error-updating-catalog-rule-staging-update-start-time.md)
