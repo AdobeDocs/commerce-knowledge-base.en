@@ -28,7 +28,7 @@ The default shipping address is used instead of the newly added shipping address
 <u>Steps to reproduce</u>:
 
 1. Enable B2B quote by navigating to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL B2B features]** > **[!UICONTROL Enable company]** > **[!UICONTROL Enable B2B quote]**.
-1. Log in as a company user account.
+1. Log in as a company user.
 1. Add a product to the cart.
 1. Go to the cart page and request a quote.
 1. Go to the customer's **[!UICONTROL My Quotes]** page and select the quote that was just created.
