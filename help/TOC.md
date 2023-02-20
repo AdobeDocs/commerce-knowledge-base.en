@@ -272,6 +272,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-40262: GraphQL queries don't show in popular search terms in admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-40262-graphql-queries-dont-show-in-popular-search-terms-in-admin.md)
         * [MDVA-40601: Unable to retrieve data about category changed by scheduled update via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-40601-users-get-error-retrieving-info-about-category-changed-by-scheduled-update-through-graphql.md)
     * v1.1.4 {#v1-1-4}
+        * [Overview: Quality Patches Tool (QPT) v1.1.4](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/overview.md)
         * [MC-42528: GraphQL query of categoryList shows all categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mc-42528-graphql-query-of-categorylist-shows-all-categories.md)
         * [MDVA-25631: Unable to save and refresh customer segments](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-25631-unable-to-save-and-refresh-customer-segments.md)
         * [MDVA-26005: Unable to select category in tree for Cart Price rule conditions](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-26005-unable-to-select-category-in-tree-for-cart-price-rule-conditions.md)
