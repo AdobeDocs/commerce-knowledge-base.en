@@ -296,6 +296,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-41164: Cannot save or edit Company with custom customer attributes](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-41164-admin-user-cannot-save-or-edit-company-with-custom-customer-attributes.md)
         * [MDVA-41236: Unable to create new or edit existing scheduled updates for product](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-41236-unable-to-create-new-or-edit-existing-scheduled-staging-update.md)
     * v1.1.6 {#v1-1-6}
+        * [Overview: Quality Patches Tool (QPT) v1.1.6](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/overview.md)
         * [MDVA-27456: Users get an error when loading Swagger](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/mdva-27456-users-get-error-when-loading-swagger.md)
         * [MDVA-30862: Incorrect order date on printed PDF invoice](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/mdva-30862-incorrect-order-date-on-printed-pdf-invoice.md)
         * [MDVA-32776: Stock status not updated with order placement](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/mdva-32776-stock-status-not-updated-when-order-placed.md)
@@ -306,6 +307,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-41399: Unable to access the Manage Shopping Cart if a customer adds product to wishlist](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/mdva-41399-unable-to-access-manage-shopping-cart-if-a-customer-adds-product-to-wishlist.md)
         * [MDVA-41597: Error adding more than one configurable product to cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/mdva-41597-error-adding-more-than-one-configurable-product-to-cart.md)
     * v1.1.7 {#v1-1-7}
+        * [Overview: Quality Patches Tool (QPT) v1.1.7](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/overview.md)
         * [MDVA-27239: Cross-sell products are not displayed](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/mdva-27239-cross-sell-products-are-not-displayed.md)
         * [MDVA-39711: Unable to access customers grid after deleting website](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/mdva-39711-unable-to-access-customers-grid-after-deleting-website.md)
         * [MDVA-40311: "Invalid security or form key" error after login into Admin if custom admin path is configured](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/mdva-40311-invalid-security-error-after-login-to-admin-if-custom-admin-path-is-configured.md)
