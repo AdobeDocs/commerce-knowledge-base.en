@@ -24,9 +24,7 @@ The ACSD-47908 patch fixes the issue where the error "a value less than or equal
 
 The following error appears after selecting the source and quantity in the shipping step during checkout:
 
->[!ERROR]
->
->A value less than or equal to 0 is expected
+"A value less than or equal to 0 is expected"
 
 <u>Prerequisites</u>:
 
@@ -35,7 +33,8 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
 <u>Steps to reproduce</u>:
 
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Sources]** and configure multiple sources.
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock]** and create a new stock. Now assign the sources to the new stock.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock]** and create a new stock. 
+    * Now assign the sources to the new stock.
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and edit at least one product. Make sure that the products are assigned to the new sources, and specify the available quantity.
 1. Go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]** and create a new order.
 1. Add those products to the order and place it.
@@ -51,14 +50,12 @@ The new shipment page opens without any error.
 
 <u>Actual results</u>:
 
-The quantity entered will fail to be validated.
-The following error appears: 
+* The quantity entered cannot be validated.
+* The following error appears: 
 
->[!ERROR]
->
->Please enter a value less than or equal to 0.
+    "Please enter a value less than or equal to 0"
 
-The error is, however, inconsistent and may not always appear.
+    The error is, however, inconsistent and may not always appear.
 
 ## Apply the patch
 
