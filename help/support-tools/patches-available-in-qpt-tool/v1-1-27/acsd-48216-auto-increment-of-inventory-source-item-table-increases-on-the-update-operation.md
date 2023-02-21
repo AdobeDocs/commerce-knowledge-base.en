@@ -1,0 +1,92 @@
+---
+title: "ACSD-48216: AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation."
+description: Apply the ACSD-XXXXX patch to fix the Adobe Commerce issue where AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation.
+---
+
+# ACSD-48216: AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation
+
+The ACSD-48216 patch fixes the issue where AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48216. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+
+## Affected products and versions
+
+**The patch is created for Adobe Commerce version:**
+
+* Adobe Commerce (all deployment methods) 2.4.4
+
+**Compatible with Adobe Commerce versions:**
+
+* Adobe Commerce (all deployment methods) >=2.3.7 <2.4.7
+
+>[!NOTE]
+>
+>The patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
+
+## Issue
+
+AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation.
+
+<u>Steps to reproduce</u>:
+
+1. Check the current value of AUTO_INCREMENT of the inventory_source_item table:
+
+```SQL
+MySQL > show create table inventory_source_item;
+
+CREATE TABLE `inventory_source_item` (
+  `source_item_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `source_code` varchar(255) NOT NULL,
+  `sku` varchar(64) NOT NULL,
+  `quantity` decimal(12,4) NOT NULL DEFAULT '0.0000',
+  `status` smallint(5) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`source_item_id`),
+  UNIQUE KEY `INVENTORY_SOURCE_ITEM_SOURCE_CODE_SKU` (`source_code`,`sku`),
+  KEY `INVENTORY_SOURCE_ITEM_SKU_SOURCE_CODE_QUANTITY` (`sku`,`source_code`,`quantity`),
+  CONSTRAINT `INVENTORY_SOURCE_ITEM_SOURCE_CODE_INVENTORY_SOURCE_SOURCE_CODE` FOREIGN KEY (`source_code`) REFERENCES `inventory_source` (`source_code`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=2048 DEFAULT CHARSET=utf8
+```
+
+1. Make an API request for a specific product:
+
+```REST
+Endpoint: /rest/V1/inventory/source-items
+Method: POST
+Headers: Authorization: Bearer <admin_token>
+```
+Payload:
+```
+{
+    "sourceItems": [
+        {
+            "sku": "24-MB01",
+            "source_code": "default",
+            "quantity": 200,
+            "status": 1
+        }
+    ]
+}
+```
+1. Check the AUTO_INCREMENT value of the inventory_source_item table again, notice that it increased.
+
+<u>Expected results</u>:
+
+AUTO_INCREMENT value of the inventory_source_item table should not increase after every Update operation.
+
+<u>Actual results</u>:
+
+AUTO_INCREMENT value of the inventory_source_item table increases after every Update operation.
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
+
+For info about other patches available in QPT, refer to [Patches available in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
