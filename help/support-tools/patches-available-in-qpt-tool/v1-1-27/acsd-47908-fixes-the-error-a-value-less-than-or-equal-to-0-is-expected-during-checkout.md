@@ -47,7 +47,7 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
 
 <u>Expected results</u>:
 
-The new shipment page opens without showing any error.
+The new shipment page opens without any error.
 
 <u>Actual results</u>:
 
