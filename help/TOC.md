@@ -455,6 +455,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-46988: GraphQL currency API request returns null values](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/acsd-46988-graphql-currency-api-request-returns-null-values.md)
         * [ACSD-47076: Vimeo videos cannot be played on the storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/acsd-47076-venmo-videos-cannot-be-played-on-the-storefront.md)
     * v1.1.22 {#v1-1-22}
+        * [Overview: Quality Patches Tool (QPT) v1.1.22](/help/support-tools/patches-available-in-qpt-tool/v1-1-22/overview.md)
         * [ACSD-47106: New custom attribute on company creation page not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-22/acsd-47106-new-custom-attribute-on-company-creation-page-not-saved.md)
         * [ACSD-47444: [!UICONTROL Trying to access array offset on value of type bool] error when accessing certain non-existing category paths for known products on PHP 7.4](/help/support-tools/patches-available-in-qpt-tool/v1-1-22/acsd-47444-trying-access-array-offset-value-type-bool-error.md)
         * [ACSD-47332: cron fails with error reported only when running between 00:00 to 00:59 UTC](/help/support-tools/patches-available-in-qpt-tool/v1-1-22/acsd-47332-cron-fails-with-error-reported-between-00-59.md)
