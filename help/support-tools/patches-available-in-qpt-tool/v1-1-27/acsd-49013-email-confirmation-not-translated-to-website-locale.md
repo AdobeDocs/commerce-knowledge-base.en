@@ -48,7 +48,7 @@ Email confirmation is not translated to the website locale when creating custome
     ```
 
 1. Execute `bin/magento queue:consumers:start async.operations.all --single-thread --max-messages=10`.
-1. You can see the customer account is created correctly on the specified website.
+1. You can see that the customer account is created correctly on the specified website.
 1. Check the email received for customer registration.
 
 <u>Expected results</u>:
