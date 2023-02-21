@@ -352,6 +352,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-42520: Tax rate applied twice when "Enable Cross Border Trade" is used](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/mdva-42520-tax-rate-applied-twice-when-enable-cross-border-trade-is-used.md)
         * [MDVA-42790: Product price attributes cannot be updated for specific website via REST API](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/mdva-42790-product-price-attributes-cannot-be-updated-for-specific-website-via-rest-api.md)
     * v1-1-12 {#v1-1-12}
+        * [Overview: Quality Patches Tool (QPT) v1.1.12](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/overview.md)
         * [MDVA-39546: Staging Update start date can be set to a date earlier than current date](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/mdva-39546-staging-update-start-date-set-to-earlier-date-than-current-date.md)
         * [MDVA-39713: User is able to edit start time of active scheduled update](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/mdva-39713-user-able-to-edit-start-time-for-active-scheduled-update.md)
         * [MDVA-39993: Inventory changes done through API are not reflected on storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/mdva-39993-inventory-changes-done-through-api-are-not-reflected-on-the-frontend.md)
