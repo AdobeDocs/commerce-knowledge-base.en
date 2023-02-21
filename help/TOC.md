@@ -496,6 +496,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48058: product price reindex not working if bundled product not assigned website](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48058-product-price-reindex-not-working-if-bundled-product-not-assigned-website.md)
         * [ACSD-48293: composite products out of stock when sold out child products restocked](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48293-composite-products-go-out-of-stock.md)
     * V1.1.26 {#v1-1-26}
+        * [Overview: Quality Patches Tool (QPT) v1.1.26](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/overview.md)
         * [ACSD-47937: price drop notifications not sent due to application-level caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47937-price-drop-notifications-are-not-sent.md)
         * [ACSD-48661: company credit limit comma separator validation issue](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48661-company-credit-limit-comma-separator-validation.md)
         * [ACSD-48587: product widget not working with SKUs containing HTML characters](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48587-product-widget-not-working-with-html-characters.md)
