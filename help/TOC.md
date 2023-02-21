@@ -383,6 +383,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-43935: Upsell product shown twice on product page](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/mdva-43935-upsell-product-shown-twice-on-product-page.md)
         * [MDVA-44188: Emails are not sent to IDs containing ".-"](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/mdva-44188-emails-are-not-sent.md)
     * v1.1.14 {#v1-1-14}
+        * [Overview: Quality Patches Tool (QPT) v1.1.14](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/overview.md)
         * [MDVA-43102: Salable quantity not updated correctly](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/mdva-43102-salable-quantity-not-updated-correctly.md)
         * [MDVA-43178: Customer token for custom store cannot be retrieved in GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/mdva-43178-customer-token-for-custom-store-cannot-be-retrieved.md)
         * [MDVA-43605: Order data returns negative values for row totals when using Rest API](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/mdva-43605-order-data-returns-negative-values-for-row-totals-when-using-rest-api.md)
