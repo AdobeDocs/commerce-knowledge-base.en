@@ -444,6 +444,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-46869: Configurable products not updating using REST API at checkout](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/acsd-46869-configurable-products-not-updating-using-rest-api.md)
         * [ACSD-46815: static content deploy fails using compact strategy](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/acsd-46815-static-content-deploy-fails-when-using-compact-strategy.md)
     * v1.1.21 {#v1-1-21}
+        * [Overview: Quality Patches Tool (QPT) v1.1.21](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/overview.md)
         * [ACSD-45071: default source added to product during import](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/acsd-45071-default-source-added-to-product-during-import.md)
         * [ACSD-46541: An admin user cannot create a credit memo if an order item is deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.md)
         * [ACSD-46581: Estimated tax total is not updated after selecting a country in the shopping cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/acsd-46581-estimated-tax-total-is-not-updated-after-selecting-a-country-in-the-shopping-cart.md)
