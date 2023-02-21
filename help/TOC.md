@@ -333,6 +333,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-42657: Unable to select categories in the customer segment conditions](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/mdva-42657-unable-to-select-categories-in-customer-segment-conditions.md)
         * [MDVA-42806: New company registration email is sent each time existing company is updated](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/mdva-42806-new-company-registration-email-is-sent-each-time-an-existing-company-is-updated-via-reset-api.md)
     * v1-1-10 {#v1-1-10}
+        * [Overview: Quality Patches Tool (QPT) v1.1.10](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/overview.md)
         * [MDVA-38728: Changing product visibility creates URL rewrite for the main website](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/mdva-38728-changing-product-visibility-creates-url-rewrite-for-the-main-website.md)
         * [MDVA-39181: Related product rules show products from category undefined in rule](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/mdva-39181-related-product-rules-show-products-from-category-not-defined-in-rule.md)
         * [MDVA-40175: Radio buttons not displayed when reorder](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/mdva-40175-radio-buttons-not-displayed-when-reorder-by-admin.md)
