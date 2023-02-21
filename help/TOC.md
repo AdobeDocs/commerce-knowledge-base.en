@@ -483,6 +483,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47803: out-of-stock configurable product swatches displayed as available](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.md)
         * [ACSD-46617: Continue to Checkout button greyed out when subtotal greater than Minimum Order Amount](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-46617-continue-to-checkout-button-greyed-out.md)
     * V1.1.25 {#v1-1-25}
+        * [Overview: Quality Patches Tool (QPT) v1.1.25](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/overview.md)
         * [ACSD-48627: out-of-stock configurable product causes an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48627-out-of-stock-configurable-product-causes-an-error.md)
         * [ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL Display Out of Stock Products] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48234-catalog-search-result-shows-incorrect-category-item-count-when-show-out-of-stock-option-enabled.md)
         * [ACSD-47520: customers lose reward points when a credit memo is created](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-47520-customers-lose-reward-points-when-credit-memo-created.md)
