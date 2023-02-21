@@ -321,6 +321,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-42326: Customers get error on checkout after session timeout](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/mdva-42326-customers-get-error-on-checkout-after-session-timeout.md)
         * [MDVA-42341: "categoryList" GraphQL query does not filter results](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/mdva-42341-categorylist-graphql-query-does-not-filter-results.md)
     * v1.1.9 {#v1-1-9}
+        * [Overview: Quality Patches Tool (QPT) v1.1.9](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/overview.md)
         * [MDVA-37984: Visual Merchandiser not working correctly when staging updates are applied](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/mdva-37984-visual-match-product-by-rule-functionality-not-filtering-products-correctly.md)
         * [MDVA-38346: Date filters not working when Adobe Commerce timezone is different from local](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/mdva-38346-date-filters-not-working-properly-when-adobe-commerce-timezone-is-different-from-local.md)
         * [MDVA-38526: Admin user is not able to access SWAT tool](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/mdva-38526-admin-user-not-able-to-access-swat-tool.md)
