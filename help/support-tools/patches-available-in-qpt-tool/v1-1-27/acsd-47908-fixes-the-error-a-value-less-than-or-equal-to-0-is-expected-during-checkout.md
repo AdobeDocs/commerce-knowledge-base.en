@@ -36,7 +36,7 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
 
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Sources]** and configure multiple sources.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stock]** and create a new stock. Now assign the sources to the new stock.
-1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and edit at least one product. Make sure that they have been assigned to those sources, and specify the available quantity.
+1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and edit at least one product. Make sure that the products are assigned to the new sources, and specify the available quantity.
 1. Go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]** and create a new order.
 1. Add those products to the order and place it.
 1. Click **[!UICONTROL Ship]**.
