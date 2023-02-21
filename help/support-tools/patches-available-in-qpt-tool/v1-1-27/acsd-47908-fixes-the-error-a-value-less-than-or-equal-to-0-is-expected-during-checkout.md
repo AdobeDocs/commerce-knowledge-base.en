@@ -55,7 +55,7 @@ The new shipment page opens without any error.
 
     "Please enter a value less than or equal to 0"
 
-    The error is, however, inconsistent and may not always appear.
+  The error is, however, inconsistent and may not always appear.
 
 ## Apply the patch
 
