@@ -1,26 +1,21 @@
 ---
-title: Include patch ID in title. Example "ACSD-XXX Adobe Commerce patch: storefront is broken" or "ACSD-XXX: storefront is broken", if the title is long.
-description: Apply the ACSD-XXXXX patch to fix the Adobe Commerce issue where...
+title: "ACSD-48059: merchants cannot save the [!UICONTROL Match product by rule] for the Categories attribute."
+description: Apply the ACSD-48059 patch to fix the Adobe Commerce issue where merchants cannot save the [!UICONTROL Match product by rule] for the Categories attribute.
 ---
 
+# ACSD-48059: Merchants cannot save the "[!UICONTROL Match product by rule]" for the Categories attribute
 
-# ACSD-48059: Fixes the issue with Visual Merchandiser where merchants cannot save the "Match product by rule" for the Categories attribute.
-
-The ACSD-XXX patch solves/fixes the issue where .... This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) xxx is installed. The patch ID is ACSD-XXX. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce xxx. (this is optional if the issue really was fixed).
+The ACSD-48059 patch fixes the issue where merchants cannot save the "[!UICONTROL Match product by rule]" for the Categories attribute in visual merchandiser. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48059. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce on-premises xxx
-* Adobe Commerce on cloud infrastructure xxx 
-    or
-* Adobe Commerce (all deployment methods) xxx
+
+* Adobe Commerce (all deployment methods) 2.4.5
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce on-premises xxx
-* Adobe Commerce on cloud infrastructure xxx
-    or
-* Adobe Commerce (all deployment methods) xxx
+
+* Adobe Commerce (all deployment methods) >=2.3.7 <2.4.7
 
 >[!NOTE]
 >
@@ -28,21 +23,23 @@ The ACSD-XXX patch solves/fixes the issue where .... This patch is available whe
 
 ## Issue
 
-(Short issue description goes here.) 
-
-<u>Prerequisites</u>:
-(if any)...
+Merchants cannot save the "[!UICONTROL Match product by rule]" for the Categories attribute in visual merchandiser.
 
 <u>Steps to reproduce</u>:
 
-1. ...
-1. ...
+1. Go to **[UICONTROL Stores]** > **[UICONTROL Configuration]** > **[UICONTROL Catalog]** > **[!UICONTROL Visual Merchandiser]** > **[!UICONTROL Visible Attributes for Category Rules]**, add categories.
+1. Again go to the Adobe Commerce Admin > **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+    * Go to the [!UICONTROL Products in Category] section. 
+    * Add a new "[!UICONTROL Match products by rule]" condition with the "categories" attribute.
 
 <u>Expected results</u>:
-...
+
+The category is saved successfully.
 
 <u>Actual results</u>:
-...
+
+* You are not able to save the category with the new rule and condition.
+* "Something went wrong while saving the category" error is displayed.
 
 ## Apply the patch
 
@@ -50,10 +47,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
