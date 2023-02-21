@@ -27,7 +27,10 @@ Restricted admin is not able to save a website-level value.
 <u>Steps to reproduce</u>:
 
 1. Create a new website, store, and store view in [!UICONTROL Admin] > **[!UICONTROL Store]** > **[!UICONTROL All Stores]**.
-1. Create a new admin role in [!UICONTROL Admin] > **[!UICONTROL System]** > **[User Roles]**. Go to **[!UICONTROL Role Resources]** > **[!UICONTROL Role Scopes]**, select the new website, and assign this role to any admin user.
+1. Create a new admin role in [!UICONTROL Admin] > **[!UICONTROL System]** > **[!UICONTROL User Roles]**.
+
+    * Go to **[!UICONTROL Role Resources]** > **[!UICONTROL Role Scopes]**, select the new website, and assign this role to any admin user.
+
 1. Select any product and assign only the new website. Do not select the default website.
 1. Log in as the admin user assigned in step two and edit the product under **[!UICONTROL All Store View]** scope by changing any website-level attribute like *[!UICONTROL Status]*, *[!UICONTROL Tax Class]*, and set the product as new.
 1. Save the product.
