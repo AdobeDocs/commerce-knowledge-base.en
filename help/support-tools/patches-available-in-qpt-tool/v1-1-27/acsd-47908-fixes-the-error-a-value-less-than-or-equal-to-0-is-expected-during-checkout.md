@@ -42,7 +42,7 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
 1. Click **[!UICONTROL Ship]**.
 1. Select the source to be shipped from.
 1. Specify the quantity of each item to be shipped.
-1. Reload page.
+1. Reload the page.
 1. Click on **[!UICONTROL Proceed to Shipment]**.
 
 <u>Expected results</u>:
