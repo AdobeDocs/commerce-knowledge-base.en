@@ -402,6 +402,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-44660: Grave accent character cannot be used for customer's name](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/mdva-44660-grave-accent-character-cannot-be-used-for-customer-name.md)
         * [MDVA-44887: 'Uncaught SyntaxError: Unexpected token const' error in Admin panel](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/mdva-44887-uncaught-syntaxerror-unexpected-token-const-error-in-admin-panel.md)
     * v1.1.16 {#v1-1-16}
+        * [Overview: Quality Patches Tool (QPT) v1.1.16](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/overview.md)
         * [MDVA-42509: CSV could not be uploaded for quick order resulting in 'Unable to send the cookie' error](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/mdva-42509-csv-could-not-be-uploaded-for-quick-order-resulting-in-unable-to-send-the-cookie-error.md)
         * [MDVA-43167: Admin order grid mass action doesn't apply for multi-page](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/mdva-43167-admin-order-grid-mass-doesnt-apply-multipage.md)
         * [MDVA-44044: Product not displayed on category page after it is assigned to new website](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/mdva-44044-product-not-displayed-on-category-page-after-it-is-assigned-to-new-website.md)
