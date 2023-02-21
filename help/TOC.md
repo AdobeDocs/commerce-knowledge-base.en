@@ -456,9 +456,12 @@ breadcrumb-title: Commerce KB
         * [ACSD-48212: product import assigns product to wrong source](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48212-product-import-assigns-product-wrong-source.md)
         * [ACSD-47988: product export trims HTML tags from page builder product description](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47988-product-export-trims-html-tags.md)
         * [ACSD-48366: product image not displayed on Back to Stock email template](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48366-product-image-not-displayed-back-stock-email-template.md)
+        * [ACSD-48417: SQL error after creating a schedule change](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48417-sql-error-after-creating-a-schedule-change.md)
     * V1.1.27 {#v1-1-27}
         * [Overview](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/overview.md)
         * [ACSD-48362: fixes the issue where the default shipping address is used instead of a new one](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48362-fixes-the-issue-where-the-default-shipping-address-is-used-instead-of-a-new-one.md)
+        * [ACSD-48164: restricted admin cannot save website-level value](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48164-restricted-admin-cannot-save-website-level-value.md)
+        * [ACSD-49013: email confirmation not translated to website locale](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49013-email-confirmation-not-translated-to-website-locale.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -801,6 +804,7 @@ breadcrumb-title: Commerce KB
     * [Elasticsearch Index Status is 'yellow' or 'red'](/help/troubleshooting/elasticsearch/elasticsearch-index-status-is-yellow-or-red.md)
     * [Elasticsearch service not running](/help/troubleshooting/elasticsearch/elasticsearch-service-not-running.md)
     * [MySQL and ElasticSearch show different results](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
+    * [Elasticsearch is shown as the search engine despite OpenSearch installation](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
 * Help Center Guide {#help-center-guide}
   * [Adobe Commerce Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
