@@ -393,6 +393,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-44147: GraphQL request doesn't return Requisition Lists](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/mdva-44147-graphql-request-doesnt-return-requisition-lists.md)
         * [MDVA-44505: GraphQL query for cart applying reward points does not update grand total](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/mdva-44505-graphql-applying-reward-points-does-not-update-grand-total.md)
     * v1.1.15 {#v1-1-15}
+        * [Overview: Quality Patches Tool (QPT) v1.1.15](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/overview.md)
         * [MDVA-38559: /V1/customers/search API returns error](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/mdva-38559-v1-customers-search-api-error.md)
         * [MDVA-40896: 'Error: TypeError: Argument 3' error in async product](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/mdva-40896-error-typeerror-in-async-product.md)
         * [MDVA-40961: Additional item can't be added to cart when minimum qty of item is already in cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/mdva-40961-additional-item-cant-be-added-to-cart-when-minimum-qty-of-the-item-already-in-cart.md)
