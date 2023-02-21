@@ -370,6 +370,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-43726: Catalog price rule fails to apply after partial reindex](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/mdva-43726-catalog-price-rule-fails-to-apply-after-partial-reindex.md)
         * [MDVA-43731: Search Synonyms don't work when value is added in 'Minimum Terms to Match'](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/mdva-43731-search-synonyms-dont-work-when-value-added-in-minimum-terms-to-match.md)
     * v1.1.13 {#v1-1-13}
+        * [Overview: Quality Patches Tool (QPT) v1.1.13](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/overview.md)
         * [MDVA-39605 Redis cache TTL expiration date has wrong value](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/mdva-39605-redis-cache-ttl-expiration-date-has-wrong-value.md)
         * [MDVA-42046: Incorrect value assigned for product attribute](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/mdva-42046-incorrect-value-assigned-for-product-attribute.md)
         * [MDVA-42283: Date-time format for French locale is invalid](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/mdva-42283-date-time-format-for-french-locale-invalid.md)
