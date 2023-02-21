@@ -461,6 +461,7 @@ breadcrumb-title: Commerce KB
         * [Overview](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/overview.md)
         * [ACSD-48164: restricted admin cannot save website-level value](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48164-restricted-admin-cannot-save-website-level-value.md)
         * [ACSD-49013: email confirmation not translated to website locale](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49013-email-confirmation-not-translated-to-website-locale.md)
+        * [ACSD-49497: order is still processing after shipment and partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49497-order-is-still-processing-after-shipment-and-partial-refund.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
