@@ -344,6 +344,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-43091: Unable to order bundled product from Admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/mdva-43091-unable-to-order-bundled-product-from-admin.md)
         * [MDVA-43201: Error when using DOB field with locale PT](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/mdva-43201-error-when-using-dob-field-with-locale-pt.md)
     * v1.1.11 {#v1-1-11}
+        * [Overview: Quality Patches Tool (QPT) v1.1.11](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/overview.md)
         * [MDVA-40830: Store credit applied multiple times during order](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/mdva-40830-store-credit-applied-multiple-times.md)
         * [MDVA-41350: Exception when admin adds products outside their access](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/mdva-41350-exception-when-admin-adds-products-outside-scope.md)
         * [MDVA-42237: Configurable product special price not updated](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/mdva-42237-configurable-product-special-price-not-updated.md)
