@@ -313,6 +313,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-40311: "Invalid security or form key" error after login into Admin if custom admin path is configured](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/mdva-40311-invalid-security-error-after-login-to-admin-if-custom-admin-path-is-configured.md)
         * [MDVA-41631: Error retrieving order information without optional "telephone" value](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/mdva-41631-error-retrieving-order-information-without-optional-telephone-value.md)
     * v1.1.8 {#v1-1-8}
+        * [Overview: Quality Patches Tool (QPT) v1.1.8](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/overview.md)
         * [MDVA-38393: Catalog rules stop working for configurable product if its simple product is re-named](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/mdva-38393-catalog-rules-stop-working-for-configurable-product-if-its-simple-product-is-renamed.md)
         * [MDVA-39153: Discount amount is calculated incorrectly during reorder in the Admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/mdva-39153-discount-amount-is-calculated-incorrectly-during-reorder-in-the-admin.md)
         * [MDVA-41139: Configurable product becomes out of stock after product import](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/mdva-41139-configurable-product-becomes-out-of-stock-after-product-import.md)
