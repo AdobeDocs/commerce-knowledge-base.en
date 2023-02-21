@@ -430,6 +430,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-45849: Video metadata is lost after staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45849-video-metadata-lost-after-staging-update.md)
         * [ACSD-46146: Two order confirmation emails sent after placing order from admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-46146-two-order-confirmation-emails-are-sent-after-placing-order-from-admin.md)
     * v1.1.19 {#v1-1-19}
+        * [Overview: Quality Patches Tool (QPT) v1.1.19](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/overview.md)
         * [ACSD-45781: Store front search field not displayed on mobile](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-45781-store-front-search-field-not-displayed-on-mobile.md)
         * [ACSD-46213: Category tree request limited to 20 categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46213-category-tree-limited-20-categories.md)
         * [ACSD-46404: Admin user cannot log in after upgrading to 2.4.4](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46404-admin-user-cannot-log-in-after-upgrading-to-2.4.4.md)
