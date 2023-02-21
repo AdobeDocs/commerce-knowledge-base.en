@@ -3,9 +3,9 @@ title: "ACSD-48059: merchants cannot save the [!UICONTROL Match product by rule]
 description: Apply the ACSD-48059 patch to fix the Adobe Commerce issue where merchants cannot save the [!UICONTROL Match product by rule] for the Categories attribute.
 ---
 
-# ACSD-48059: Merchants cannot save the "[!UICONTROL Match product by rule]" for the Categories attribute
+# ACSD-48059: Merchants cannot save the "[!UICONTROL Match product by rule]" for the categories attribute
 
-The ACSD-48059 patch fixes the issue where merchants cannot save the "[!UICONTROL Match product by rule]" for the Categories attribute in visual merchandiser. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48059. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48059 patch fixes the issue where merchants cannot save the "[!UICONTROL Match product by rule]" for the categories attribute in Visual Merchandiser. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48059. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,12 +23,12 @@ The ACSD-48059 patch fixes the issue where merchants cannot save the "[!UICONTRO
 
 ## Issue
 
-Merchants cannot save the "[!UICONTROL Match product by rule]" for the Categories attribute in visual merchandiser.
+Merchants cannot save the "[!UICONTROL Match product by rule]" for categories attribute in Visual Merchandiser.
 
 <u>Steps to reproduce</u>:
 
-1. Go to **[UICONTROL Stores]** > **[UICONTROL Configuration]** > **[UICONTROL Catalog]** > **[!UICONTROL Visual Merchandiser]** > **[!UICONTROL Visible Attributes for Category Rules]**, add categories.
-1. Again go to the Adobe Commerce Admin > **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Visual Merchandiser]** > **[!UICONTROL Visible Attributes for Category Rules]**, add categories.
+1. Go to the Adobe Commerce Admin > **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
     * Go to the [!UICONTROL Products in Category] section. 
     * Add a new "[!UICONTROL Match products by rule]" condition with the "categories" attribute.
 
