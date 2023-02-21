@@ -410,6 +410,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-44703: Order totals in Orders report are miscalculated](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/mdva-44703-order-totals-in-order-report-miscalculated.md)
         * [MDVA-44940: SQL error while saving category from admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/mdva-44940-sql-error-while-saving-category-from-admin.md)
     * v1.1.17 {#v1-1-17}
+        * [Overview: Quality Patches Tool (QPT) v1.1.17](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/overview.md)
         * [ACSD-42807: Custom currency sign not displayed on storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-42807-custom-currency-sign-not-displayed-on-store-front.md)
         * [ACSD-43887: Incorrect details displayed on checkout payment page](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-43887-incorrect-details-displayed-on-checkout-payment-page.md)
         * [ACSD-44591: Errors when order without CAPTCHA confirmation](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-44591-user-gets-error-when-trying-to-place-order-without-captcha-confirmation.md)
@@ -419,6 +420,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-45424: Incorrect reservation compensation created after partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-45424-incorrect-reservation-compensation-created-after-partial-refund.md)
         * [ACSD-45520: Swatch options not selected on product detail page](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-45520-swatch-options-not-pre-selected-on-product-detail-page.md)
     * v1.1.18 {#v1-1-18}
+        * [Overview: Quality Patches Tool (QPT) v1.1.18](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/overview.md)
         * [ACSD-44938: VAT_ID cannot be applied in GraphQL request for guest user](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-44938-vat-id-cannot-applied-graphql-guest-user.md)
         * [ACSD-45255: Exception on Low Stock report page for restricted admin user](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45255-exception-on-low-stock-report-page-for-restricted-admin-user.md)
         * [ACSD-45257: GraphQL doesn't display cart discount correctly](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45257-graphql-doesnt-display-cart-discount-correctly.md)
