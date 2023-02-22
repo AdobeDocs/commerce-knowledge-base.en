@@ -14,7 +14,7 @@ The ACSD-49497 patch fixes the issue where the order status remains as processin
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.5
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.5-p1
 
 >[!NOTE]
 >
