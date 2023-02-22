@@ -38,7 +38,7 @@ The status of the order should be *[!UICONTROL Complete]*.
 
 <u>Actual results</u>:
 
-The status of the order remains 'Processing'.
+The status of the order remains *[!UICONTROL Processing]*.
 
 ## Apply the patch
 
