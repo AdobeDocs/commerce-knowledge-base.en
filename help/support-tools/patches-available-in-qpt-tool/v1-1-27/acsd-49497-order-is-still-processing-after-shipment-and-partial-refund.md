@@ -34,7 +34,7 @@ The status of a new order remains in the *[!UICONTROL Processing]* state even af
 
 <u>Expected results</u>:
 
-The status of the order should be 'Complete'.
+The status of the order should be *[!UICONTROL Complete]*.
 
 <u>Actual results</u>:
 
