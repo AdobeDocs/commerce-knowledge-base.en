@@ -22,7 +22,7 @@ The ACSD-49497 patch fixes the issue where an order remains in the processing af
 
 ## Issue
 
-The status of a new order remains in the 'Processing' state even after shipment and a partial refund is applied for.
+The status of a new order remains in the *[!UICONTROL Processing]* state even after shipment and a partial refund are applied.
 
 <u>Steps to reproduce</u>:
 
