@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-49497: order still processing after shipment and partial refund'
-description: Apply the ACSD-49497 patch to fix the Adobe Commerce issue where an order remains in the processing state after shipment and a partial refund is applied.
+description: Apply the ACSD-49497 patch to fix the Adobe Commerce issue where an order remains in the processing after shipment and a partial refund are applied.
 ---
 # ACSD-49497: order status remains 'processing' after shipment and partial refund.
 
