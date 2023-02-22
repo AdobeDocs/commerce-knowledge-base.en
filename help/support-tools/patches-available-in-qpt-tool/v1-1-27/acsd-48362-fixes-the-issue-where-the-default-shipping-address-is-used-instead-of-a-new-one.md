@@ -41,9 +41,11 @@ The default shipping address is used instead of the newly added shipping address
 1. Click **[!UICONTROL Continue]** and place the order.
 
 <u>Expected results</u>:
+
 The order should use the new address without reselecting the default shipping address on the checkout page.
 
 <u>Actual results</u>:
+
 The order is placed with the default shipping address.
 
 ## Apply the patch
