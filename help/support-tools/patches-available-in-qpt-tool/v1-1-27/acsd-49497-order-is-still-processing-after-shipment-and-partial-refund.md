@@ -1,10 +1,10 @@
 ---
 title: 'ACSD-49497: order still processing after shipment and partial refund'
-description: Apply the ACSD-49497 patch to fix the Adobe Commerce issue where an order remains in the processing after shipment and a partial refund are applied.
+description: Apply the ACSD-49497 patch to fix the Adobe Commerce issue where the order status remains as processing after shipment and a partial refund are applied.
 ---
-# ACSD-49497: order status remains 'processing' after shipment and partial refund.
+# ACSD-49497: order still processing after shipment and partial refund
 
-The ACSD-49497 patch fixes the issue where an order remains in the processing after shipment and a partial refund are applied. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-49497. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-49497 patch fixes the issue where the order status remains as processing after shipment and a partial refund are applied. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-49497. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
