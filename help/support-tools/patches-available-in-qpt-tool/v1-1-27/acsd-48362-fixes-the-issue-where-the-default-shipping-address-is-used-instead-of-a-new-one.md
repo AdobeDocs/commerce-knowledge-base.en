@@ -1,8 +1,8 @@
 ---
 title: 'ACSD-48362: the default shipping address is used instead of a new one.'
 description: Apply the ACSD-48362 patch to fix the Adobe Commerce issue where the default shipping address is used instead of a new one when placing an order using a negotiable quote.
+exl-id: 52f518b6-6f73-42cc-ac1b-c893cd5007fa
 ---
-
 # ACSD-48362: the default shipping address is used instead of a new one
 
 The ACSD-48362 patch fixes the issue where the default shipping address is used instead of the newly added address when placing an order using a negotiable quote. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48362. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
