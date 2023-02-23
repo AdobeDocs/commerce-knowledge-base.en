@@ -161,7 +161,7 @@ If executing the `setup:uninstall` command fails with an error and cannot be com
 
 1. Delete the following configuration files: `config.php`, `config.php` `.bak`, `env.php`, and `env.php.bak`.
 
-After resetting the DB, [make a git push to the environment to trigger redeploy](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#environment-commands).
+After resetting the DB, [make a git push to the environment to trigger redeploy](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#git-commands) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#environment-commands).
 
 ## Related reading
 
