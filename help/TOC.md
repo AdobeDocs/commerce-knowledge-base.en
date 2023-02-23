@@ -29,7 +29,7 @@ breadcrumb-title: Commerce KB
   * Patches available in QPT tool {#patches}
     * [Patches available in QPT tool overview](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
     * v1.0.5 {#v1-0-5}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.5](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/overview.md)
+        * [Overview: Quality Patches Tool (QPT) v1.0.5](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/overview.md)
         * [MDVA-28191: No payment method for one website in Admin Create New Order](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28191-magento-patch-no-payment-method-for-one-website-in-admin-create-new-order.md)
         * [MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28409-magento-patch-magento-web-server-crashing-out-of-memory.md)
         * [MDVA-28661: issue with company users management when changing admin email](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28661-magento-patch-issue-with-company-users-management-when-changing-admin-email.md)
@@ -42,7 +42,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-30428: wishlist not working with Inventory Management](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30428-magento-patch-wishlist-not-working-with-the-msi.md)
         * [MDVA-30593 patch: expired quotes are not cleaned up](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30593-magento-patch-expired-quotes-are-not-cleaned-up.md)
     * v1.0.6 {#v1-0-6}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.6](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/overview.md)
+        * [Overview: Quality Patches Tool (QPT) v1.0.6](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/overview.md)
         * [MDVA-28202 patch: out of stock products don't filter properly](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28202-magento-patch-out-of-stock-products-don-t-filter-properly.md)
         * [MDVA-28300: price calculation issue with catalog price rule in GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28300-magento-patch-price-calculation-issue-with-catalog-price-rule-in-graphql.md)
         * [MDVA-28993: Elasticsearch partial search, "minimum should match" and fix for "searches with hyphen" issue](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28993-magento-patch-elasticsearch-partial-search-minimum-should-match-and-fix-for-searches-with-hyphen-issue.md)
@@ -55,7 +55,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-30977: missing products from categories, indexing related](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.md)
         * [MDVA-31006: Paypal Duplicate Orders 10415 error](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.md)
     * v1.0.7 {#v1-0-7}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.7](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/overview.md)
+        * [Overview: Quality Patches Tool (QPT) v1.0.7](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/overview.md)
         * [MDVA-29148: ArrayBackend does not assign default value on save](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-29148-patch-arraybackend-does-not-assign-default-value-on-save.md)
         * [MDVA-29389: Advanced Reporting related cron job fails](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-29389-magento-patch-advanced-reporting-related-cron-job-fails.md)
         * [MDVA-30594: multiple address checkout errors](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-30594-magento-patch-multiple-address-checkout-errors.md)
@@ -70,7 +70,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-31282: double authorization on Paypal PayFlow Pro](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-31282-magento-patch-double-authorization-on-paypal-payflow-pro.md)
         * [MDVA-31343 patch: schedule update removes body class for category](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-31343-magento-patch-schedule-update-removes-body-class-for-category.md)
     * v1.0.8 {#v1-0-8}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.8](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/overview.md)
+        * [Overview: Quality Patches Tool (QPT) v1.0.8](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/overview.md)
         * [MDVA-28357 SKU search in Advanced Search page doesn't work](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-28357-sku-search-in-advanced-search-page-doesn-t-work.md)
         * [MDVA-29954: wrong address sent new company user registration email](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-29954-magento-patch-wrong-address-sent-new-company-user-registration-email.md)
         * [MDVA-30112: large number reservation inconsistencies](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-30112-magento-patch-large-number-reservation-inconsistencies.md)
@@ -79,7 +79,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-31242: issue in exporting orders in CSV format](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-31242-magento-patch-issue-in-exporting-orders-in-csv-format.md)
         * [MDVA-31295: Loyalty points on partial orders](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-31295-magento-patch-loyalty-points-on-partial-orders.md)
     * v1.0.9 {#v1-0-9}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.9](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/overview.md)
+        * [Overview: Quality Patches Tool (QPT) v1.0.9](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/overview.md)
         * [MDVA-28651: B2B - quotes slow to load](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-28651-magento-patch-b2b-quotes-slow-to-load.md)
         * [MDVA-30889: Can't invoice bundle products virtual and simple](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.md)
         * [MDVA-31168 patch: Product export file does not show in Admin](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-31168-magento-patch-product-export-file-does-not-show-in-admin.md)
@@ -90,7 +90,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-32012 patch: S. Korean and Argentina zip codes validation](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-32012-magento-patch-s.-korean-and-argentina-zip-codes-validation.md)
         * [MDVA-32313 patch: products added to wishlist with wrong configuration](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-32313-magento-patch-products-added-to-wishlist-with-wrong-configuration.md)
     * v1.0.12 {#v1-0-12}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.12](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/overview.md)
+        * [Overview: Quality Patches Tool (QPT) v1.0.12](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/overview.md)
         * [MDVA-12304: 503 error on store front and cookie error](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-12304-magento-patch-503-error-on-store-front-and-cookie-error.md)
         * [MDVA-30845: checkout breaks connection to shipping provider fails](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-30845-magento-patch-checkout-breaks-connection-to-shipping-provider-fails.md)
         * [MDVA-31236: admins cannot setup 2FA or log in](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-31236-magento-patch-admins-cannot-setup-2fa-or-log-in.md)
@@ -100,7 +100,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-32632: Orders in payment system but not in Adobe Commerce](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-32632-orders-in-payment-system-but-not-in-magento.md)
         * [MDVA-32739 patch: old emails sent when asynchronous sending enabled](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-32739-magento-patch-old-emails-sent-when-asynchronous-sending-enabled.md)
     * v1.0.13 {#v1-0-13}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.13](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/overview.md)
+        * [Overview: Quality Patches Tool (QPT) v1.0.13](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/overview.md)
         * [MCP-87 Adobe Commerce patch: storefront broken](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mcp-87-magento-patch-storefront-broken.md)
         * [MDVA-13203 patch: 503 error homepage post full reindex](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-13203-magento-patch-503-error-homepage-post-full-reindex.md)
         * [MDVA-19391: Advanced Reporting not working](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-19391-magento-patch-advanced-reporting-not-working.md)
@@ -113,7 +113,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-32714 patch: customer group price not working via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-32714-magento-patch-customer-group-price-not-working-via-graphql.md)
         * [MDVA-33106 patch: rescheduled product changes erased after cron run](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-33106-magento-patch-rescheduled-product-changes-erased-after-cron-run.md)
     * v1.0.14 {#v1-0-14}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.0.14](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/overview.md)
+        * [Overview: Quality Patches Tool (QPT) v1.0.14](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/overview.md)
         * [MDVA-24201: Catalog price rules don't work](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
         * [MDVA-28511: accented letters hang Payflow payments](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-28511-magento-patch-accented-letters-hang-payflow-payments.md)
         * [MDVA-31519 patch: lost order after guest checkout](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-31519-magento-patch-lost-order-after-guest-checkout.md)
