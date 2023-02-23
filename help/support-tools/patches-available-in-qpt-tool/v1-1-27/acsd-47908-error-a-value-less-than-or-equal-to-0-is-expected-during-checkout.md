@@ -24,8 +24,6 @@ The ACSD-47908 patch fixes the error "A value less than or equal to 0 is expecte
 
 The following error is thrown when selecting the source and quantity in the shipping step during checkout: "A value less than or equal to 0 is expected"
 
-"A value less than or equal to 0 is expected"
-
 <u>Prerequisites</u>:
 
 Install Adobe Commerce Inventory Management (MSI) modules.
@@ -52,9 +50,7 @@ The new shipment page opens without any error.
 <u>Actual results</u>:
 
 * The quantity entered cannot be validated.
-* The following error is thrown: 
-
-    "Please enter a value less than or equal to 0"
+* The following error is thrown: "Please enter a value less than or equal to 0"
 
   The error is, however, inconsistent and may not always appear.
 
