@@ -41,7 +41,7 @@ To disable Configuration Management, make sure that your `/app/etc/` directory d
 
 To remove the configuration file, follow these steps:
 
-1. [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
+1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Remove the configuration file:
     * For Adobe Commerce 2.2:
 
@@ -50,7 +50,7 @@ To remove the configuration file, follow these steps:
     ```
 
     * For Adobe Commerce 2.1:
-    
+
     ```php
       rm app/etc/config.local.php
     ```
@@ -58,18 +58,18 @@ To remove the configuration file, follow these steps:
 Learn more about Configuration Management by reviewing:
 
 * [Reduce deployment downtime on Adobe Commerce on cloud infrastructure](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in our support knowledge base.
-* [Configuration management for store settings](http://devdocs.magento.com/guides/v2.2/cloud/live/sens-data-over.html) in our developer documentation.
+* [Configuration management for store settings](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) in our developer documentation.
 
 ### Step 1: Uninstall the Adobe Commerce software with setup:uninstall command {#setup-uninstall}
 
 
 Uninstalling the Adobe Commerce software drops and restores the database, removes the deployment configuration, and clears directories under `var`.
 
-Review [Uninstall the Adobe Commerce software](http://devdocs.magento.com/guides/v2.2/install-gde/install/cli/install-cli-uninstall.html#instgde-install-uninstall) in our developer documentation.
+Review [Uninstall the Adobe Commerce software](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html) in our developer documentation.
 
 To uninstall the Adobe Commerce software, follow these steps:
 
-1. [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
+1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Execute `setup:uninstall`:
 
     ```php
@@ -119,11 +119,11 @@ This section shows how to roll back an environment when it is in a critical stat
 In this scenario, you must first restore the working state of your Adobe Commerce application using git reset, then uninstall the Adobe Commerce software (to drop and restore the database, remove the deployment configuration, etc.). The scenario involves the same steps as in Scenario 1, but the order of steps is different and there is an additional step &ndash; force redeploy. The steps are:
 
 [1. Reset the git branch.](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
- 
+
 [2. Disable Configuration Management.](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)  
- 
-[3. Uninstall the Adobe Commerce software.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall) 
- 
+
+[3. Uninstall the Adobe Commerce software.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
+
 4&period; Force redeploy.
 
 After performing these steps, you will have the same results as in Scenario 1.
@@ -140,7 +140,7 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 If executing the `setup:uninstall` command fails with an error and cannot be completed, we may clear the DB manually with these steps:
 
-1. [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
+1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Connect to the MySQL DB:
 
     ```sql
@@ -159,17 +159,17 @@ If executing the `setup:uninstall` command fails with an error and cannot be com
     create database main;
     ```
 
-1. Delete the following configuration files: `config.php`, `config.php` `.bak`, `env.php`, `env.php.bak`.
+1. Delete the following configuration files: `config.php`, `config.php` `.bak`, `env.php`, and `env.php.bak`.
 
-After resetting the DB, [make a git push to the environment to trigger redeploy](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#git-commands) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#environment-commands).
+After resetting the DB, [make a git push to the environment to trigger redeploy](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#environment-commands).
 
 ## Related reading
 
 In our developer documentation:
 
-* [Restore a snapshot on Cloud](https://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#restore-snapshot)
-* [Create a snapshot](https://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#create-snapshot)
-* [Snapshots and backup management](https://devdocs.magento.com/guides/v2.3/cloud/project/project-webint-snap.html)
-* [Configure your project - View environment history](https://devdocs.magento.com/guides/v2.3/cloud/project/project-webint-basic.html#project-conf-hist)
-* [Component deployment failure](https://devdocs.magento.com/guides/v2.3/cloud/trouble/trouble_comp-deploy-fail.html)
-* [Manage your project](https://devdocs.magento.com/guides/v2.3/cloud/project/projects.html)
+* [Restore a snapshot on Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html#restore-a-snapshot)
+* [Create a snapshot](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html#create-a-snapshot)
+* [Snapshots and backup management](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html)
+* [Manage branches with the Project Web Interface - View logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=en#view-logs)
+* [Component deployment failure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html)
+* [Manage your project](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html#configure-the-project)
