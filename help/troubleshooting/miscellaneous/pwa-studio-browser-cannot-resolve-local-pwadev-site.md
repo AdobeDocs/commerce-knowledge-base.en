@@ -1,11 +1,11 @@
 ---
 title: 'PWA Studio: browser cannot resolve the .local.pwadev site'
-description: This article provides a solution for when another program or process has edited your [host file](https://en.wikipedia.org/wiki/Hosts_(file)) and removed the entry for your project domain.
+description: This article provides a solution for when another program or process has edited your [host file](https://en.wikipedia.org/wiki/Hosts_(file\)) and removed the entry for your project domain.
 exl-id: a1606016-906a-433f-9e40-9faa5f9bd790
 ---
 # PWA Studio: browser cannot resolve the .local.pwadev site
 
-This article provides a solution for when another program or process has edited your [host file](https://en.wikipedia.org/wiki/Hosts_(file)) and removed the entry for your project domain.
+This article provides a solution for when another program or process has edited your [host file](https://en.wikipedia.org/wiki/Hosts_(file\)) and removed the entry for your project domain.
 
 ## Affected products and versions
 
