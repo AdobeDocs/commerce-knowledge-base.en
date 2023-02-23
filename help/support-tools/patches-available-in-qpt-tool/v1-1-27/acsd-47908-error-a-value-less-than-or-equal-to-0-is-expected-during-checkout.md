@@ -52,7 +52,7 @@ The new shipment page opens without any error.
 <u>Actual results</u>:
 
 * The quantity entered cannot be validated.
-* The following error appears: 
+* The following error is thrown: 
 
     "Please enter a value less than or equal to 0"
 
