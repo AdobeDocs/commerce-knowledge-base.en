@@ -23,4 +23,4 @@ If the product's base price changes and becomes less than the corresponding shar
 
 ## Related reading
 
-[Set Pricing and Structure for a Shared Catalog](http://docs.magento.com/m2/b2b/user_guide/catalog/catalog-shared-pricing-structure.html) in our user guide.
+[Set Pricing and Structure for a Shared Catalog](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) in our user guide.
