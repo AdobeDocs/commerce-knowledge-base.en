@@ -43,10 +43,10 @@ In the above example, we used the most common method (**right click** > **Inspec
 <table>
 <tbody>
 <tr>
-<td><a href="http://www.technipages.com/mac-os-x-enable-web-inspector-in-safari">Safari</a></td>
+<td><a href="https://www.technipages.com/mac-os-x-enable-web-inspector-in-safari">Safari</a></td>
 <td><a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console">Firefox</a></td>
 <td><a href="https://developers.google.com/web/tools/chrome-devtools/?hl=en">Chrome</a></td>
-<td><a href="http://www.opera.com/dragonfly/documentation/">Opera</a></td>
+<td><a href="https://www.opera.com/dragonfly/documentation/">Opera</a></td>
 <td><a href="https://msdn.microsoft.com/en-us/library/gg589512(v=vs.85).aspx#OpeningTools">Internet Explorer</a></td>
 </tr>
 </tbody>
