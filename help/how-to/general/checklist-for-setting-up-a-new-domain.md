@@ -1,16 +1,16 @@
 ---
 title: Checklist for setting up a new [!DNL domain]
-description: This is a checklist of how to setup a new [!DNL domain] in Adobe Commerce on cloud infrastructure.
+description: This is a checklist of how to set up a new [!DNL domain] in Adobe Commerce on cloud infrastructure.
 ---
 # Checklist for setting up a new [!DNL domain]
 
-This is a checklist of how to setup a new [!DNL domain] in Adobe Commerce on cloud infrastructure.
+This is a checklist of how to set up a new [!DNL domain] in Adobe Commerce on cloud infrastructure.
 
 ## Affected products and versions
 
-Adobe Commerce on cloud infrastructure [all supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce on cloud infrastructure, [all supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
-## How to setup a new domain
+## How to set up a new domain
 
 ### Step 1 - Is this for the [!DNL Integration, Staging], or [!DNL Production environment]?
 
