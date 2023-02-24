@@ -25,16 +25,15 @@ The Fastly extension was updated (along with a bundled VCL configuration and tem
 
 ## Solution
 
-1.  Check that you have the latest ECE-Tools installed and at the [current version](https://devdocs.magento.com/guides/v2.2/cloud/release-notes/cloud-tools.html) in our developer documentation. ECE-Tools has a version of the Fastly package in its dependencies.
-    
+1.  Check that you have the latest ECE-Tools installed and at the [current version](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite.html) in our developer documentation. ECE-Tools has a version of the Fastly package in its dependencies.
+
     This may not be the latest version of the Fastly plugin, but it is likely to be a later version than the one you have currently installed, and it is best practice to have the latest ECE-Tools installed.
-    
-1.  If you are not on the current version of ECE-Tools, follow these steps to [upgrade](https://devdocs.magento.com/guides/v2.2/cloud/project/ece-tools-update.html) in our developer documentation.
+
+1.  If you are not on the current version of ECE-Tools, follow these steps to [upgrade](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) in our developer documentation.
 1.  After you have upgraded ECE-Tools, check if you now have a current version of the [Fastly plugin](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets) installed.
-1.  If the Fastly plugin is not the current version, follow these steps to [upgrade the plugin to the most current version](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upgrade "Follow link") in our developer documentation.
+1.  If the Fastly plugin is not the current version, follow these steps to [upgrade the plugin to the most current version](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module) in our developer documentation.
 
 ## Related reading
 
-
-* For information about setting up and configuring Fastly, see [Configure Fastly services](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html) in our developer documentation.
+* For information about setting up and configuring Fastly, see [Configure Fastly services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) in our developer documentation.
 * For general information about Fastly, see [fastly.com](https://www.fastly.com/).
