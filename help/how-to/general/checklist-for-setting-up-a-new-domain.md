@@ -21,7 +21,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 
 ### Step 2 - [!DNL Staging environment]: are you on [!DNL Pro] or [!DNL Starter]?
 
-* **[!DNL Pro]**: **Submit a request** to add the domain to [!DNL Fastly, Nginx], and configure the [!DNL SSL certificate] (as the [!DNL Sendgrid domain], if necessary). Once that has been configured, [update the [!DNL DNS] configuration with [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
+* **[!DNL Pro]**: **Submit a request** to add the domain to [!DNL Fastly, Nginx], and configure the [!DNL SSL certificate] (as well as the [!DNL Sendgrid domain], if necessary). Once that has been configured, [update the [!DNL DNS] configuration with [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 >
 >You can add the new [!DNL domain] to [!DNL Fastly] yourself by updating the configuration in the [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** as in [[!DNL Customize cache configuration]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html) in our user guide.
 
-* **[!DNL Starter]**: Add the [!DNL domain] to your project in the **[!DNL Domains]** tab, then **submit a request** to provide the **[!DNL ACME Challenge Key]** for the [!DNL SSL certificate] and to configure the [!DNL domain] in [!DNL Sendgrid].
+* **[!DNL Starter]**: Add the [!DNL domain] to your project in the **[!DNL Domains]** tab, then **submit a request** to provide the **[!DNL ACME Challenge Key]** for the [!DNL SSL certificate].
 
 ### Step 4 - Is the [!DNL domain] live?
 
