@@ -23,7 +23,7 @@ The ACSD-48059 patch fixes the issue where merchants cannot save the "[!UICONTRO
 
 ## Issue
 
-Merchants cannot save the "[!UICONTROL Match product by rule]" for categories attribute in Visual Merchandiser.
+Merchants cannot save the "[!UICONTROL Match product by rule]" for categories attribute in [!DNL Visual Merchandiser].
 
 <u>Steps to reproduce</u>:
 
