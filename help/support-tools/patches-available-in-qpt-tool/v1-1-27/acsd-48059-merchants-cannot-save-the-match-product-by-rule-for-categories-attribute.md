@@ -5,7 +5,7 @@ description: Apply the ACSD-48059 patch to fix the Adobe Commerce issue where me
 
 # ACSD-48059: Merchants cannot save the "[!UICONTROL Match product by rule]" for the categories attribute
 
-The ACSD-48059 patch fixes the issue where merchants cannot save the "[!UICONTROL Match product by rule]" for the categories attribute in Visual Merchandiser. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48059. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48059 patch fixes the issue where merchants cannot save the "[!UICONTROL Match product by rule]" for the categories attribute in [!DNL Visual Merchandiser]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48059. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
