@@ -26,7 +26,7 @@ The product price reindex is not working if the bundle product is not assigned t
 
 <u>Steps to reproduce</u>:
 
-1. Create 2 websites, 2 stores and 2 store views.
+1. Create 2 websites, 2 stores, and 2 store views.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Product Reviews]** and enable **[!UICONTROL Reviews]**.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Store Email Addresses]**.
 Switch to the **[!DNL default website scope]**, and set the **[!UICONTROL Customer Support Sender Email]** address, (For example: *support_base@example.com*).
