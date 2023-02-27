@@ -39,7 +39,7 @@ The category is saved successfully.
 <u>Actual results</u>:
 
 * You are not able to save the category with the new rule and condition.
-* "Something went wrong while saving the category" error is displayed.
+* *Something went wrong while saving the category* error is displayed.
 
 ## Apply the patch
 
