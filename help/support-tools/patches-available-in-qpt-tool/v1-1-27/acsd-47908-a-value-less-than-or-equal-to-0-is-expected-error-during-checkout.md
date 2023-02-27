@@ -22,7 +22,7 @@ The ACSD-47908 patch fixes the error "A value less than or equal to 0 is expecte
 
 ## Issue
 
-The following error is thrown when selecting the source and quantity in the shipping step during checkout: "A value less than or equal to 0 is expected."
+The following error is thrown when selecting the source and quantity in the shipping step during checkout: "A value less than or equal to 0 is expected"
 
 <u>Prerequisites</u>:
 
