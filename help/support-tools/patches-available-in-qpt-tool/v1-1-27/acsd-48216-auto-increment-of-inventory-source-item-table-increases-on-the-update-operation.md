@@ -29,6 +29,25 @@ AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation.
 
 1. Check the current value of AUTO_INCREMENT of the inventory_source_item table:
 
+<pre>
+<code class="language-graphql">
+{
+    currency {
+        base_currency_code
+        base_currency_symbol
+        default_display_currency_code
+        default_display_currency_symbol
+        available_currency_codes
+        exchange_rates {
+            currency_to
+            rate
+        }
+    }
+}
+</code>
+</pre>
+
+
 ```SQL
 MySQL > show create table inventory_source_item;
 
