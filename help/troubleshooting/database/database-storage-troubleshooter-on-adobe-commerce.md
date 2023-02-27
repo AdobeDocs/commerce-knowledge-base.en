@@ -14,9 +14,9 @@ This article is a troubleshooter tool for customers on Adobe Commerce having iss
 This can be indicated by a range of symptoms including the `/tmp` mount being full, site down, or not being able to SSH into a node. You may also be experiencing errors like _No space left on device (28)_. For a list of errors resulting from `/tmp` being full, review [/tmp mount full](/help/troubleshooting/miscellaneous/tmp-mount-full.md).  
 
 Or do you have a `/data/mysql` issue caused by a lack of space? This can also be indicated by a variety of symptoms including site outage, customers unable to add products to cart, connection failure to database, and Galeria errors like _SQLSTATE\[08S01\]: Communication link failure: 1047 WSREP_. For a list of errors resulting from low MySQL disk space, refer to [MySQL disk space is low on Adobe Commerce on cloud infrastructure](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md).  
-  
-If you are unsure if you have a disk space issue and you have a New Relic account, go to the [New Relic Infrastructure monitoring Hosts page](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page/). From there, click on the **Storage** tab, change the **Chart Shows** drop down from 5 to 20 results, and look in the table for high disk use in the Disk Used % chart or table. For more detailed steps, refer to [New Relic Infrastructure Monitoring > Storage tab](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-ui/infrastructure-hosts-page/#storage-tab).  
-  
+
+If you are unsure if you have a disk space issue and you have a New Relic account, go to the [New Relic Infrastructure monitoring Hosts page](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-hosts-page/). From there, click on the **Storage** tab, change the **Chart Shows** drop down from 5 to 20 results, and look in the table for high disk use in the Disk Used % chart or table. For more detailed steps, refer to [New Relic Infrastructure Monitoring > Storage tab](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-hosts-page/#storage-tab).  
+
 If you have any of the symptoms described above, check the state of your inodes to make sure this is not being caused by a file number issues. To do so run the following command in the CLI/Terminal:  
 `df -ih`  
 
@@ -33,7 +33,7 @@ b. NO – Check space. Run `df -h | grep mysql` and then `df -h | grep tmp` in t
 
 Once you have reduced the number of files, run `df -h | grep mysql` and then `df -h | grep tmp` in the CLI/Terminal to check disk space usage in `/tmp` and `/data/mysql`. Is greater than 70% used for `/tmp` or `/data/mysql`?
 
-a. YES – Proceed to [Step 3](#step-3). 
+a. YES – Proceed to [Step 3](#step-3).
 b. NO – Queries may be exhausting the available storage. This may crash the node, killing the query and removing the `tmp` files. Examine the output of the `SHOW PROCESSLIST;` in the MySQL CLI for queries that may be the cause of the problem. [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), requesting more space.
 
 +++
@@ -69,7 +69,7 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 
 +++
 
-## Step 5 
+## Step 5
 
 +++**Check default**
 
