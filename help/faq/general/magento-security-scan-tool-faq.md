@@ -33,11 +33,11 @@ The Security Scan Tool is free. Merchants must accept a legal disclaimer that ab
 
 ## How does the Security Scan Tool work? {#how-does-the-magento-security-scan-tool-work}
 
-The Security Scan Tool is web-based and accessed from the merchant's online Adobe Commerce account ([account.magento.com](http://account.magento.com/)). The security scan operates over both HTTP and HTTPS. It checks for known security issues and identifies missing Adobe Commerce patches and updates.
+The Security Scan Tool is web-based and accessed from the merchant's online Adobe Commerce account ([account.magento.com](https://account.magento.com/)). The security scan operates over both HTTP and HTTPS. It checks for known security issues and identifies missing Adobe Commerce patches and updates.
 
 ## How do I sign up to use the Security Scan Tool? {#how-do-i-sign-up-to-use-the-magento-security-scan-tool}
 
-Merchants can register to use the Security Scan Tool to scan their webstores from their Adobe Commerce account ([account.magento.com](http://account.magento.com/)). Follow the link to sign-up for the Security Scan Tool [here](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686).
+Merchants can register to use the Security Scan Tool to scan their webstores from their Adobe Commerce account ([account.magento.com](https://account.magento.com)). Follow the link to sign-up for the Security Scan Tool [here](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686).
 
 ## What do I do if I come across a false positive in the scan report? {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 
