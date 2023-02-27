@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-48164: restricted admin cannot save website-level value'
-description: Apply the ACSD-48164 patch to fix the Adobe Commerce issue where a restricted admin cannot save a website-level value.
-exl-id: 6ec15163-ad30-4566-a46c-5756bfd9f8d4
+title: 'ACSD-49497: order still processing after shipment and partial refund'
+description: Apply the ACSD-49497 patch to fix the Adobe Commerce issue where the order status remains as processing after shipment and a partial refund are applied.
+exl-id: d195bcf4-bb8b-4373-8aad-a5b953b07443
 ---
-# ACSD-48164: restricted admin cannot save website-level value
+# ACSD-49497: order still processing after shipment and partial refund
 
-The ACSD-48164 patch fixes the issue where a restricted admin cannot save a website-level value. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48164. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49497 patch fixes the issue where the order status remains as processing after shipment and a partial refund are applied. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-49497. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.5-p1
 
 >[!NOTE]
 >
@@ -23,26 +23,23 @@ The ACSD-48164 patch fixes the issue where a restricted admin cannot save a webs
 
 ## Issue
 
-Restricted admin is not able to save a website-level value.
+The status of a new order remains in the *[!UICONTROL Processing]* state even after shipment and a partial refund are applied.
 
 <u>Steps to reproduce</u>:
 
-1. Create a new website, store, and store view in [!UICONTROL Admin] > **[!UICONTROL Store]** > **[!UICONTROL All Stores]**.
-1. Create a new admin role in [!UICONTROL Admin] > **[!UICONTROL System]** > **[!UICONTROL User Roles]**.
-
-    * Go to **[!UICONTROL Role Resources]** > **[!UICONTROL Role Scopes]**, select the new website, and assign this role to any admin user.
-
-1. Select any product and assign only the new website. Do not select the default website.
-1. Log in as the admin user assigned in step two and edit the product under **[!UICONTROL All Store View]** scope by changing any website-level attribute like *[!UICONTROL Status]*, *[!UICONTROL Tax Class]*, and set the product as new.
-1. Save the product.
+1. Create an order with multiple items.
+1. From **[!UICONTROL Admin]**, create an invoice for the order.
+1. From **[!UICONTROL Admin]**, create a credit memo and refund an item only partially.
+1. From **[!UICONTROL Admin]**, request shipping for the remaining items in the order.
+1. Observe the order status.
 
 <u>Expected results</u>:
 
-Admin user associated with the role scope to one website is able to save Website-level product attributes using the *[!UICONTROL All Store View]* scope.
+The status of the order should be *[!UICONTROL Complete]*.
 
 <u>Actual results</u>:
 
-The success message that the product was saved appears, but the product attribute values remain unchanged.
+The status of the order remains *[!UICONTROL Processing]*.
 
 ## Apply the patch
 

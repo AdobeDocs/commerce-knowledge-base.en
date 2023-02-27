@@ -460,8 +460,10 @@ breadcrumb-title: Commerce KB
     * V1.1.27 {#v1-1-27}
         * [Overview](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/overview.md)
         * [ACSD-48059: merchants cannot save Match product by rule for Categories attribute](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48059-merchants-cannot-save-the-match-product-by-rule-for-categories-attribute.md)
+        * [ACSD-48362: the default shipping address is used instead of a new one](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48362-fixes-the-issue-where-the-default-shipping-address-is-used-instead-of-a-new-one.md)
         * [ACSD-48164: restricted admin cannot save website-level value](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48164-restricted-admin-cannot-save-website-level-value.md)
         * [ACSD-49013: email confirmation not translated to website locale](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49013-email-confirmation-not-translated-to-website-locale.md)
+        * [ACSD-49497: order still processing after shipment and partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49497-order-is-still-processing-after-shipment-and-partial-refund.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -810,6 +812,7 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
+  * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
   * [MBI Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
   * [MBI Training Video: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)

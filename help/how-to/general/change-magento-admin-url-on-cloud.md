@@ -5,22 +5,22 @@ exl-id: 6236370c-e0a2-45a6-a38f-12e219c540af
 ---
 # Change Admin URL on Adobe Commerce on cloud infrastructure
 
-By default, the [Commerce Admin](http://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL is set to *<domain\_name>/admin*. This article shows how to change the URL.
+By default, the [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin.html) URL is set to *<domain\_name>/admin*. This article shows how to change the URL.
 
 ## Method 1: Change using the Admin
 
-Read the steps: [Using a Custom Admin URL > Change from the Admin](http://docs.magento.com/m2/ee/user_guide/stores/store-urls-custom-admin.html) in our user guide.
+Read the steps: [Using a Custom Admin URL > Change from the Admin](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html#use-a-custom-admin-url) in our user guide.
 
 ## Method 2: Add ADMIN\_URL environment variable
 
 ### Integration environment
 
-From your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html), add a new variable with:
+From your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html), add a new variable with:
 
  **Name:** ADMIN\_URL **Value:** new Admin URL
 
-* For detailed steps, see [add environment variables](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#env) in our developer documentation.
-* Also refer to [environment variables](http://devdocs.magento.com/guides/v2.2/cloud/env/environment-vars_magento.html) in our developer documentation.
+* For detailed steps, see [add environment variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html#configure-environment) in our developer documentation.
+* Also refer to [environment variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in our developer documentation.
 
 ### When Staging and Production are not available in Project Web Interface
 

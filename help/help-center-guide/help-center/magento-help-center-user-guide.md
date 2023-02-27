@@ -51,7 +51,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 ## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
 
-The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also 
+The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also
 
 ## SUPPORT TICKETS {#support-tickets}
 
@@ -66,7 +66,7 @@ To log in to the Adobe Commerce Help Center, follow these steps:
 1. Access the Help Center at <https://support.magento.com>.
 1. Click **Log In** in the upper-right corner.
 
-Use your Magento Account credentials to log in. For more information, see [Your Magento Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account.html) in our user guide.
+Use your Magento Account credentials to log in. For more information, see [Your Magento Account](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html) in our user guide.
 
 ### <strong>Submit a support ticket</strong> {#submit-ticket}
 
@@ -93,7 +93,7 @@ You **must log in** to the Help Center using your Magento Account in order to su
 
 To submit a new support ticket using your Magento Account page, follow these steps:
 
-1. Log in to your Magento Account. See [detailed instructions](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-create.html) in our user guide.
+1. Log in to your Magento Account. See [detailed instructions](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) in our user guide.
 1. Click the **Support** tab.    
 
    ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
@@ -163,7 +163,7 @@ If you are an Adobe Commerce license owner, please verify that you don't have an
 We provide support only to Adobe Commerce license owners and accounts which have Shared Access to an account with an Adobe Commerce license. If you need support for the Magento Open Source edition, please utilize these self-help technical resources:
 
 * [Adobe Commerce Help Center](https://support.magento.com/)
-* [Adobe Commerce Developer Documentation](http://devdocs.magento.com/)
+* [Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs/)
 * [Adobe Commerce documentation resources](https://experienceleague.adobe.com/docs/commerce.html)
 * [Magento Forums](https://community.magento.com/?_ga=2.99592990.1084044056.1559046120-720752292.1551793747)
 
@@ -359,7 +359,7 @@ This field appears when your account is associated with more than one organizati
 
 >[!WARNING]
 >
->You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization. 
+>You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization.
 
 >[!NOTE]
 >
@@ -508,7 +508,7 @@ If, for any reason, the steps above are not applicable to you, and you are still
 
 ### Provide shared access {#provide-shared-access}
 
-See the [Sharing Your Account](http://docs.magento.com/m2/ee/user_guide/magento/magento-account-share.html) section of Adobe Commerce User Guide for detailed steps on setting up a shared account.
+See the [Sharing Your Account](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) section of Adobe Commerce User Guide for detailed steps on setting up a shared account.
 
 After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Magento Account page.
 
