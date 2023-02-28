@@ -26,7 +26,7 @@ To make a long story short, the Configuration Management (also known as Pipeline
 This provides the following benefits:
 
 * **Consistent settings in all environments:** any settings being exported to the configuration file become locked (the corresponding fields in the Commerce Admin become read-only), which ensures consistent configurations as you push the file across all your environments.
-* **Reduced downtime:** the static file deployment shifts from the [deploy phase](http://devdocs.magento.com/guides/v2.2/cloud/reference/discover-deploy.html#cloud-deploy-over-phases-hook) (which requires the site to be in the Maintenance mode) to the [build phase](http://devdocs.magento.com/guides/v2.2/cloud/reference/discover-deploy.html#cloud-deploy-over-phases-build) (when the site is not in Maintenance mode and will not be brought down if errors or issues occur).
+* **Reduced downtime:** the static file deployment shifts from the [deploy phase](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#deploy-phase) (which requires the site to be in the Maintenance mode) to the [build phase](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase) (when the site is not in Maintenance mode and will not be brought down if errors or issues occur).
 * **Protected sensitive data:** with Adobe Commerce on cloud infrastructure 2.2 and later, the process also exports any sensitive data (for example, payment gateway credentials) to the `env.php` file. This file should only be saved to the environment it is created in and not pushed with your Git branches.
 
 We strongly recommend applying the Configuration Management approach in your deployment.
