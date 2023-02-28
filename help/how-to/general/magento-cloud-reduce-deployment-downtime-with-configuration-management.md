@@ -12,7 +12,7 @@ To dramatically reduce maintenance downtime and provide efficient configuration 
 The painful and time-consuming issues of deploying your web store include:
 
 * **Applying the same configuration across all environments.** Normally, you would enter configurations manually or through complicated database updates. With Configuration Management, you export configurations from the database into a single file to later push it with your code from your local development environment to Integration, Staging, and Production.
-* **Site downtime when deploying static content.** Typically, static content is deployed during the [deploy phase](http://devdocs.magento.com/guides/v2.2/cloud/reference/discover-deploy.html#cloud-deploy-over-phases-hook). This can take up to 30 minutes or more, which is not acceptable for business. Configuration Management moves static content deployment to the [build phase](http://devdocs.magento.com/guides/v2.2/cloud/reference/discover-deploy.html#cloud-deploy-over-phases-build), which does not require downtime.
+* **Site downtime when deploying static content.** Typically, static content is deployed during the [deploy phase](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#deploy-phase). This can take up to 30 minutes or more, which is not acceptable for business. Configuration Management moves static content deployment to the [build phase](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?#build-phase), which does not require downtime.
 
 ## Technology versions
 
