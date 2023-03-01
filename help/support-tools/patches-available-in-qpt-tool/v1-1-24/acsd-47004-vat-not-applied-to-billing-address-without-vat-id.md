@@ -31,15 +31,18 @@ VAT is not applied to a billing address without a VAT ID.
 1. Set different groups for VAT ID validations. For example:
 ![VAT-ID-validations](/help/support-tools/patches-available-in-qpt-tool/assets/vat-id-validations.png)
 1. Register a new customer.
-1. Add a new default address without VAT. For example:  
+1. Add a new default address without VAT. For example:
+
     ```
     123 N University Dr
     Edmond, 73034
     Germany
     T: 0900000000
     ```
+
 1. Verify that the customer's group remains [!UICONTROL General].
 1. Edit this address and add a valid VAT number:
+
     ```
     123 N University Dr
     Edmond, 73034
@@ -47,8 +50,10 @@ VAT is not applied to a billing address without a VAT ID.
     T: 0900000000
     VAT: DE329376919
     ```
+
 1. Make sure that the customer's group has changed to [!UICONTROL Retailer].
 1. Edit the address and remove the VAT number:
+
     ```
     123 N University Dr
     Edmond, 73034
