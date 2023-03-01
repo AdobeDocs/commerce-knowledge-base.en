@@ -11,7 +11,7 @@ QPT v1.1.28 includes the following patches:
 1. **ACSD-48204**: Fixes the issue where the *[!UICONTROL catalog price rule]* created based on the *[!UICONTROL Yes/No]* attribute does not consider the selected scope.
 1. **ACSD-47704**: Fixes the issue where the bundled product shows the price of In Stock products only.
 1. **ACSD-49370**: Fixes the issue where the product attribute has a `FilterMatchTypeInput` type in the GraphQL schema.
-1. **ACSD-48807**: Fixes the issue where product Reviews are not filtered by storeview via GraphQL.
+1. **ACSD-48807**: Fixes the issue where product reviews are not filtered by storeview via GraphQL.
 1. **ACSD-49433**: Fixes the issue where the default amount is shown as subtotal in the cart for a gift card with an open amount.
 1. **ACSD-48866**: Fixes the issue where an error occurs when requesting RSS feed for categories.
 1. **ACSD-49574**: Fixes the issue where the gift card product can't be updated in the shopping cart via GraphQL.
