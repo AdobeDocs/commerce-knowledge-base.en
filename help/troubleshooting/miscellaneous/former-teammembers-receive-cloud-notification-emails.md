@@ -1,3 +1,4 @@
+---
 title: Former team members receive Adobe Commerce Cloud notification emails
 description: This article provides a solution to Adobe Commerce on Cloud infrastructure notification emails being sent to former team members.
 ---
