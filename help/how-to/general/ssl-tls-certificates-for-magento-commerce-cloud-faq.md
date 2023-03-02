@@ -9,7 +9,7 @@ This article provides quick answers to questions about getting SSL (TLS) certifi
 
 ## What SSL/TLS certificate does Adobe provide?
 
-Adobe provides a Domain-Validated [Let's Encrypt SSL/TLS certificate](https://letsencrypt.org/) to serve secure HTTPS traffic from Fastly. Adobe provides one certificate for each Adobe Commerce on cloud infrastructure Pro plan architecture, Staging, and Adobe Commerce on cloud infrastructure Starter plan architecture environment to secure all domains in that environment.
+Adobe provides a Domain-Validated [Let's Encrypt SSL/TLS certificate](https://letsencrypt.org/) to serve secure HTTPS traffic from [!DNL Fastly]. Adobe provides one certificate for each Adobe Commerce on cloud infrastructure Pro plan architecture, Staging, and Adobe Commerce on cloud infrastructure Starter plan architecture environment to secure all domains in that environment.
 
 ## What does a certificate cover?
 
@@ -19,7 +19,7 @@ For the Starter plan architecture and PaaS Integration environments, there will 
 
 ## How to add a new domain for the existing certificate?
 
-To add the domain to the service in Fastly:
+To add the domain to the service in [!DNL Fastly]:
 
 1. Point your domain in DNS to prod.magentocloud.map.fastly.net and wait up to 6 hours.
 1. [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to add this domain in the Nginx configuration (if you haven't done it earlier).
@@ -32,7 +32,7 @@ If you have not launched a website yet, you may have received ACME Challenge CNA
 
 Case 2
 
-If your site is already live and/or you can point the URLs that will be used for your live site right away, you do not need to request an ACME CNAME. Once you add the URLs as necessary to your Adobe Commerce on cloud infrastructure site and point your DNS at Fastly, HTTP validation will work and either create your SSL certificate for the first time or update your certificate with additional URLs.
+If your site is already live and/or you can point the URLs that will be used for your live site right away, you do not need to request an ACME CNAME. Once you add the URLs as necessary to your Adobe Commerce on cloud infrastructure site and point your DNS at [!DNL Fastly], HTTP validation will work and either create your SSL certificate for the first time or update your certificate with additional URLs.
 
 ## Can I use my own SSL/TLS certificate?
 
