@@ -71,7 +71,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48773-reward-points-email-template-taken-from-wrong-store.html">ACSD-48773: Reward points email template taken from wrong store:</a> The ACSD-48773 patch fixes the issue wwhere the reward points email template is taken from the wrong store. This patch is available when the Quality Patches Tool (QPT) 1.1.26 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48773-reward-points-email-template-taken-from-wrong-store.html">ACSD-48773: Reward points email template taken from wrong store:</a> The ACSD-48773 patch fixes the issue where the reward points email template is taken from the wrong store. This patch is available when the Quality Patches Tool (QPT) 1.1.26 is installed.
     </td>
     <td>New article</td>
     <td>Mar 03, 2023</td>
@@ -89,7 +89,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
     <td>
     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48164-restricted-admin-cannot-save-website-level-value.html">ACSD-48164: restricted admin cannot save website-level value:</a> The ACSD-48164 patch fixes the issue where a restricted admin cannot save a website-level value. This patch is available when the Quality Patches Tool (QPT) 1.1.27 is installed.
     </td>
-    <td>Update</td>
+    <td>New article</td>
     <td>Mar 03, 2023</td>
   </tr>
 
