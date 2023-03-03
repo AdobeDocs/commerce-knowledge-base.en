@@ -55,7 +55,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48059-merchants-cannot-save-the-match-product-by-rule-for-categories-attribute.html?lang=en">ACSD-48059: Merchants cannot save the Match product by rule for the categories attribute:</a> he ACSD-48059 patch fixes the issue where merchants cannot save the Match product by rule for the categories attribute in Visual Merchandiser. This patch is available when the Quality Patches Tool (QPT) 1.1.27 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48059-merchants-cannot-save-the-match-product-by-rule-for-categories-attribute.html?lang=en">ACSD-48059: Merchants cannot save the Match product by rule for the categories attribute:</a> The ACSD-48059 patch fixes the issue where merchants cannot save the Match product by rule for the categories attribute in Visual Merchandiser. This patch is available when the Quality Patches Tool (QPT) 1.1.27 is installed.
     </td>
     <td> New article </td>
     <td> Mar 03, 2023</td>
