@@ -56,7 +56,7 @@ Wildcard TLS certificates can only be used with your custom certificate and not 
 
 ## What should I do if my domain is no longer pointing to Adobe Commerce?
 
-If your domain is no longer pointing to Adobe Commerce, please remove it from the Fastly/Adobe Commerce system. See Fastly [Deleting a domain](https://docs.fastly.com/en/guides/working-with-domains#deleting-a-domain) to learn more. While it is not necessary to point your domain to Adobe Commerce, confirm if a top-level domain TLS certificate is required. If a top-level domain is required, please update your DNS to point to Adobe Commerce. If it is already pointing to Adobe Commerce, update your CAA record to include [lets-encrypt](https://letsencrypt.org/). If you perform these steps, you will see the LE Cert updated with the necessary secondary URL's that the cert covers.​
+If your domain is no longer pointing to Adobe Commerce, please remove it from the [!DNL Fastly]/Adobe Commerce system. See [!DNL Fastly] [Deleting a domain](https://docs.fastly.com/en/guides/working-with-domains#deleting-a-domain) to learn more. While it is not necessary to point your domain to Adobe Commerce, confirm if a top-level domain TLS certificate is required. If a top-level domain is required, please update your DNS to point to Adobe Commerce. If it is already pointing to Adobe Commerce, update your CAA record to include [lets-encrypt](https://letsencrypt.org/). If you perform these steps, you will see the LE Cert updated with the necessary secondary URL's that the cert covers.​
 
 ## Related reading
 
