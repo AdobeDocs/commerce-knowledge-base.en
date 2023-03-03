@@ -1,5 +1,5 @@
 ---
-title: [!DNL Advanced Reporting] 404 error on Adobe Commerce
+title: '[!DNL Advanced Reporting] 404 error on Adobe Commerce'
 description: This article provides a patch for the Adobe Commerce issue when a merchant gets a 404 error when they attempt to access [[!DNL Advanced Reporting]](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html). After this patch is installed, users will be able to access [!DNL Advanced Reporting].
 exl-id: bac61704-44fe-4bd2-b342-af90219231ef
 ---
