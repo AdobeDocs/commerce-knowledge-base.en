@@ -39,7 +39,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-49497-order-is-still-processing-after-shipment-and-partial-refund.html%3Flang%3Dpt-BR">ACSD-49497: order still processing after shipment and partial refund:</a> The ACSD-49497 patch fixes the issue where the order status remains as processing after shipment and a partial refund are applied. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-49497-order-is-still-processing-after-shipment-and-partial-refund.html%3Flang%3Dpt-BR">ACSD-49497: order still processing after shipment and partial refund:</a> The ACSD-49497 patch fixes the issue where the order status remains as processing after shipment and a partial refund is applied. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td>New article</td>
     <td>Mar 03, 2023</td>
