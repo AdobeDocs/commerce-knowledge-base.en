@@ -33,12 +33,12 @@ The ACSD-48634 patch fixes [!DNL JS] errors on a [!DNL staging] update page when
         * **[!UICONTROL Account type]**: *[!UICONTROL Google Tag Manager]*
         * **[!UICONTROL Anonymize IP]**: *[!UICONTROL Yes]*
         * **[!UICONTROL Enable Content Experiments]**: *[!UICONTROL Yes]*
-        * **[!UICONTROL Container Id]**: *[!UICONTROL <GTM container ID>]*
+        * **[!UICONTROL Container Id]**: *[!UICONTROL (GTM container ID)]*
         * **[!DNL Uncheck]** *[!UICONTROL Use Default]* for other fields, but do not change them.
      * For **[!DNL Default Config]** [!DNL scope]:
          * **[!UICONTROL Enabled]**: *[!UICONTROL Yes]*
          * **[!UICONTROL Account type]**: *[!UICONTROL Universal Analytics]*
-         * **[!UICONTROL Account Number]**: *[!UICONTROL <Universal Analytics account number>]*
+         * **[!UICONTROL Account Number]**: *[!UICONTROL (Universal Analytics account number)]*
          * **[!UICONTROL Anonymize IP]**: *[!UICONTROL Yes]*
          * **[!UICONTROL Enable Content Experiments]**: *[!UICONTROL Yes]*
 1. Disable **[!DNL Configure Google Analytics]** on **[!DNL Default Config]** [!DNL scope] by changing **[!UICONTROL Enable]** from *[!UICONTROL Yes]* to *[!UICONTROL No]*. Make sure not to change anything else!
