@@ -1,8 +1,8 @@
 ---
-title: 'ACSD-48857: Unable to save changes after editing with Page Builder'
-description: Apply the ACSD-48857 patch to fix the Adobe Commerce issue where the user is unable to save changes after editing with Page Builder.
+title: 'ACSD-48857: Unable to save changes after editing with [!UICONTROL Page Builder]'
+description: Apply the ACSD-48857 patch to fix the Adobe Commerce issue where the user is unable to save changes after editing with [!UICONTROL Page Builder].
 ---
-# ACSD-48857: Unable to save changes after editing with Page Builder
+# ACSD-48857: Unable to save changes after editing with [!UICONTROL Page Builder]
 
 The ACSD-48857 patch fixes the issue where the user is unable to save changes after editing with [!UICONTROL Page Builder]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-48857. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
@@ -36,7 +36,7 @@ User is unable to save changes after editing with [!UICONTROL Page Builder].
 
 1. Return to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** in Admin.
 1. Edit your page.
-1. Open **[!UICONTROL Content]** tab.
+1. Go to the **[!UICONTROL Content]** tab.
 1. Click **[!UICONTROL Save]**.
 
 <u>Expected results</u>
