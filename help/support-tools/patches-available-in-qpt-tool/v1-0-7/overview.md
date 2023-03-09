@@ -19,7 +19,7 @@ QPT v1.0.7 includes the following patches:
 1. **MDVA-31007**: Fixes the issue where custom address attributes are not correctly displayed in the order details page in the my account area and in the backend.
 1. **MDVA-31021**: Fixes the issue where performance issues exists in `module-catalog-import-export/Model/Import/Product/Option.php`. If there are more than ~100k records in `catalog_product_option` table, a new CSV with single product takes less than 10 sec to validate.
 1. **MDVA-31224**: Improves the performance of the `catalog_product_price` re-index operation for bundle products.
-1. **MDVA-31282**: fixes the issue where double authorizations occur on [!DNL Paypal PayFlow Pro] in Adobe Commerce. The double authorizations also have the effect of bypassing [!DNL PayFlow Pro's] fraud filters and doubling transaction fees.
+1. **MDVA-31282**: Fixes the issue where double authorizations occur on [!DNL Paypal PayFlow Pro] in Adobe Commerce. The double authorizations also have the effect of bypassing [!DNL PayFlow Pro's] fraud filters and doubling transaction fees.
 1. **MDVA-31343**: Fixes the issue with the removed body class `page-layout-category-full-width` when a category is scheduled.
 
 Use the menu on the left to navigate to a specific patch page.
