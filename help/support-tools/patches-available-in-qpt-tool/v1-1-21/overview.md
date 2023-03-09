@@ -16,6 +16,6 @@ QPT v1.1.21 includes the following patches:
 1. **ACSD-46809**: Fixes the issue where a user gets an error when assigning a large number of product sources.
 1. **ACSD-46856**: Improves performance updating tier prices via **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[UICONTROL Advanced Pricing]**.
 1. **ACSD-46988**: Fixes the issue where the GraphQL 'currency' API Request returns NULL values for a custom currency.
-1. **ACSD-47076**:  Fixes the issue where Vimeo videos cannot be played on the storefront.
+1. **ACSD-47076**:  Fixes the issue where [!DNL Vimeo] videos cannot be played on the storefront.
 
 Use the menu on the left to navigate to a specific patch page.
