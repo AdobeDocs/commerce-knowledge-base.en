@@ -20,7 +20,7 @@ QPT v1.0.19 includes the following patches:
 1. **MDVA-35356**: Fixes the issue with incorrect store credit return after partially invoiced order cancellation.
 1. **MDVA-35569**: Fixes the issue where the *fixed product taxes* field is not being populated in GraphQL response when state is specified.
 1. **MDVA-35847**: Fixes the B2B issue where the Company Users form breaks if a custom customer attribute is used.
-1. **MDVA-35910**: Fixes the issue where it is impossible to create a new customer account after disabling the Login as Customer functionality.
+1. **MDVA-35910**: Fixes the issue where it is impossible to create a new customer account after disabling the [!UICONTROL Login as Customer] functionality.
 1. **MDVA-35982**: Fixes the issue where admin users restricted to a specific website cannot create a shipment for the order placed on same website.
 
 Use the menu on the left to navigate to a specific patch page.
