@@ -12,7 +12,7 @@ QPT v1.0.7 includes the following patches:
 1. **MDVA-29389**: Fixes the issue with Advanced Reporting where the `analytics_collect_data` cronjob says: *Port must be configured within host parameter (like localhost:3306)*.
 1. **MDVA-30594**: Fixes the issue where an order with multiple addresses could not be saved during checkout when FPT is configured.
 1. **MDVA-30782**: Fixes the issue where Dynamic Block is displayed regardless of cart rule.
-1. **MDVA-30815**: Fixes the issue where when you change how many search results should be displayed on the search results page, Adobe Commerce displays a blank page. [!DNL Elasticsearch] now correctly displays results from category pages when you change the number of search results viewed per page.
+1. **MDVA-30815**: Fixes the issue where when you change how many search results should be displayed on the search results page.
 1. **MDVA-30837**: Added a configuration setting *Include Tax to Amount: Yes/No* in Free Shipping method configuration. When *Include Tax to Amount* is set to *Yes*, Minimum Order Amount is calculated as Subtotal + Tax. When *Include Tax to Amount* is set to *No*, Minimum Order Amount is calculated as Subtotal
 1. **MDVA-30945**: Fixes the issue where you receive a fatal error message when updating carts `Call to a member function getValue() on null in module-configurable-product CartItemProcessor.php`.
 1. **MDVA-30972**: Fixes the issue where custom order status was changed to *Processing* after partial shipment creation using WebApi.
