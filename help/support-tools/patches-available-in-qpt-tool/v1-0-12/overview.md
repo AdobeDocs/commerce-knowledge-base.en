@@ -15,6 +15,6 @@ QPT v1.0.12 includes the following patches:
 1. **MDVA-32133**: Fixes the issue where media gallery is not loading from [!DNL Page Builder] in certain cases.
 1. **MDVA-32449**: Fixes the issue where the order history loads very slowly or does not load at all.
 1. **MDVA-32632**: Fixes the issue where orders appear in the payment system, but not in Adobe Commerce.
-1. **MDVA-32739**: Fixes the issue where enabling Asynchronous Email Notifications sends out old sales emails.
+1. **MDVA-32739**: Fixes the issue where enabling [!DNL Asynchronous Email Notifications] sends out old sales emails.
 
 Use the menu on the left to navigate to a specific patch page.
