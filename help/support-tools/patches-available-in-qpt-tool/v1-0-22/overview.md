@@ -9,7 +9,7 @@ This sub-section provides a detailed description of the issues fixed by the patc
 QPT v1.0.22 includes the following patches:
 
 1. **MDVA-35773**: Fixes the issue with the Grand Total not being shown as zero on the Invoice for orders with 100% discount.
-1. **MDVA-36253**: Fixes the issue where the wrong subtotal shows in the mini cart after item deletion.
+1. **MDVA-36253**: Fixes the issue where the wrong subtotal is shown in the mini cart after item deletion.
 1. **MDVA-36718**: Fixes the issue where the old custom options remain after being changed via API.
 1. **MDVA-36833**: Fixes the issue with search results showing random numbers of products per page after excluding some products from shared catalog.
 1. **MDVA-36853**: Fixes the issue with no images appear when loading large media galleries.
