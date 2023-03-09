@@ -47,7 +47,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-47908-a-value-less-than-or-equal-to-0-is-expected-error-during-checkout.html">ACSD-47908: *A value less than or equal to 0 is expected* error during checkout:</a> The ACSD-47908 patch fixes the error *A value less than or equal to 0 is expected* when selecting the source and quantity in the shipping step during checkout. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-47908-a-value-less-than-or-equal-to-0-is-expected-error-during-checkout.html">ACSD-47908: <i>A value less than or equal to 0 is expected</i> error during checkout:</a> The ACSD-47908 patch fixes the error <i>A value less than or equal to 0 is expected</i> when selecting the source and quantity in the shipping step during checkout. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td>New article</td>
     <td>Mar 03, 2023</td>
@@ -55,7 +55,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48059-merchants-cannot-save-the-match-product-by-rule-for-categories-attribute.html?lang=en">ACSD-48059: Merchants cannot save the *Match product by rule* for the categories attribute:</a> The ACSD-48059 patch fixes the issue where merchants cannot save the *Match product by rule* for the categories attribute in [!UICONTROL Visual Merchandiser]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48059-merchants-cannot-save-the-match-product-by-rule-for-categories-attribute.html?lang=en">ACSD-48059: Merchants cannot save the <i>Match product by rule</i> for the categories attribute:</a> The ACSD-48059 patch fixes the issue where merchants cannot save the <i>Match product by rule</i> for the categories attribute in [!UICONTROL Visual Merchandiser]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td> New article </td>
     <td> Mar 03, 2023</td>
