@@ -9,7 +9,7 @@ This sub-section provides a detailed description of the issues fixed by the patc
 QPT v1.0.14 includes the following patches:
 
 1. **MDVA-24201**: Fixes the issue where prices do not reflect the scheduled cart price rule until manually re-indexed.
-1. **MDVA-28511** (*for Adobe Commerce >=2.3.5 <2.3.6*) - Fixes the issue where it is not possible to complete [!DNL PayPal] checkout if the Name field contains certain characters (like accented capital letters).
+1. **MDVA-28511** (*for Adobe Commerce >=2.3.5 <2.3.6*) - Fixes the issue where it is not possible to complete [!DNL PayPal] checkout if the [!UICONTROL Name] field contains certain characters (like accented capital letters).
 1. **MDVA-31519** (*for Adobe Commerce >=2.3.5 <2.3.6*) - Fixes the issue with wait timeouts in guest checkout when a site-wide sales rule is in use.
 1. **MDVA-31969** (*for Adobe Commerce >=2.3.3 <2.3.5, >=2.4.0 <2.4.2*) - Fixes the issue with duplicated images after product import from a CSV file.
 1. **MDVA-32694** (*for Adobe Commerce >=2.3.0 <2.3.6 || >= 2.4.0 <2.4.2*) - Fixes the issue where an admin user cannot add a product to a negotiable quote if it is related to a not default store.
