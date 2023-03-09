@@ -15,7 +15,7 @@ QPT v1.0.14 includes the following patches:
 1. **MDVA-32694** (*for Adobe Commerce >=2.3.0 <2.3.6 || >= 2.4.0 <2.4.2*) - Fixes the issue where an admin user cannot add a product to a negotiable quote if it is related to a not default store.
 1. **MDVA-33281** (*for Adobe Commerce >=2.3.4 <2.3.6*) - Fixes the issue where there is a fatal error in `inventory:reservation:list-inconsistencies` because of wrong SKU parameter type.
 1. **MDVA-33382** (*for Adobe Commerce >=2.3.0 <2.4.2*) - Fixes the issues with indexers invalidation after products removal from a category.
-1. **MDVA-33516** (*for Adobe Commerce >=2.3.0 <2.3.6*) - Fixes the issue where editing a bundle product in a requisition list leads to an error.
+1. **MDVA-33516** (*for Adobe Commerce >=2.3.0 <2.3.6*) - Fixes the issue where editing a bundled product in a requisition list leads to an error.
 1. **MDVA-33975** (*for Adobe Commerce >=2.3.4 <2.4.2*) - Fixes multiple issues related to price calculation in GraphQL requests.
 
 Use the menu on the left to navigate to a specific patch page.
