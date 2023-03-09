@@ -10,7 +10,7 @@ QPT v1.0.12 includes the following patches:
 
 1. **MDVA-12304**: Increases the maximum number of cookies from 50 to 200.
 1. **MDVA-30845**: Fixes the issue where the *Sorry, no quotes are available for this order at this time* error is displayed when failing to connect to UPS XML/USPS/DHL, and no other shipping method is available.
-1. **MDVA-31236**: Fixes the issue where the Admins with custom resource access are not able to set up 2FA or log in.
+1. **MDVA-31236**: Fixes the issue where the admin users with custom resource access are not able to set up 2FA or login.
 1. **MDVA-31399**: Adds the *Subtotal (Incl. Tax)* option to price rule conditions.
 1. **MDVA-32133**: Fixes the issue where media gallery is not loading from Page Builder in certain cases.
 1. **MDVA-32449**: Fixes the issue where the order history loads very slowly or does not load at all.
