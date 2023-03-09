@@ -2,7 +2,7 @@
 title: "ACSD-48857: Unable to save changes after editing with [!DNL Page Builder]"
 description: Apply the ACSD-48857 patch to fix the Adobe Commerce issue where the user is unable to save changes after editing with [!DNL Page Builder].
 ---
-# ACSD-48857: Unable to save changes after editing with [!UICONTROL Page Builder]
+# ACSD-48857: Unable to save changes after editing with [!DNL Page Builder]
 
 The ACSD-48857 patch fixes the issue where the user is unable to save changes after editing with [!UICONTROL Page Builder]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-48857. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
