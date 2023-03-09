@@ -13,7 +13,7 @@ QPT v1.0.5 includes the following patches:
 1. **MDVA-28661**: Fixes the issue where an error is thrown in the Company Users company account section after company admin is changed.
 1. **MDVA-28763**: Fixes the issue where product image is getting duplicated after updating product information using REST API more than once.
 1. **MDVA-29042**: Fixes the issue where Catalog permissions were changed to *Allow* automatically after new product was added to the shared catalog.
-1. **MDVA-29959**: Fixes the issue where restricted admin user with *Companies* permissions is not allowed to delete company account.
+1. **MDVA-29959**: Fixes the issue where a restricted admin user with *Companies* permissions is not allowed to delete company account.
 1. **MDVA-30107**: Fixes the issue where store switcher doesn't work as expected if different base URLs are used for store views.
 1. **MDVA-30265**: Fixes the issue where shipment tracking link stops working after Invoice creation.
 1. **MDVA-30284**: Fixes the issue where Catalog Search indexer fails due to the following *[!DNL Elasticsearch] error: limit of total fields in index has been exceeded.*
