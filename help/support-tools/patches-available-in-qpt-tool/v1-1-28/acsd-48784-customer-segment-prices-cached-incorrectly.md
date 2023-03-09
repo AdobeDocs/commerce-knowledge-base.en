@@ -30,23 +30,23 @@ Configure [!DNL Varnish] or [!DNL Fastly].
 
 <u>Steps to reproduce</u>:
 
-1. Make sure that full page caching is enabled in your store.
-1. Login to a site as a user with special Customer Group pricing.
-1. Go to a product page for a product in which special Customer Group pricing applies. Observe the special price.
-1. In an entirely separate browser, browse that same product page as a non-logged-in user. Observe the regular price.
-1. Access the Magento administrative interface and clear the Magento and Fastly cache for this store.
-1. In the customer-logged-in browser, remove the X-Magento-Vary cookie.
-1. In the customer-logged-in browser, reload the same product page several times until the caching is fully flushed.
-1. In the non logged in browser, reload the page and observe that you now see Customer Group pricing.
+1. Enable full page caching in your store.
+1. Log in to the site as a user with special Customer Group pricing.
+1. Go to a product page for a product with special Customer Group pricing. Observe the special price.
+1. In a separate browser, open the same product page as a guest user without logging in. Observe the regular price.
+1. Access the [!DNL Magento] administrative interface and clear the [!DNL Magento] and [!DNL Fastly] cache for this store.
+1. In the logged-in browser, remove the `X-Magento-Vary` cookie.
+1. In the logged-in browser, reload the same product page several times until caching is fully flushed.
+1. In the non-logged-in browser, reload the product page to now see the Customer Group pricing.
 
 <u>Expected results</u>:
 
-Should show the correct price for the specific customer groups
+Product page shows the correct price for a specific customer group.
 
 <u>Actual results</u>:
 
-* Shows logged-in user price for the guest users
-* Shows the correct price in the mini cart once added to the cart
+* Guest users see the special logged-in user price.
+* The mini cart shows the correct price once the product has been added to it.
 
 ## Apply the patch
 
