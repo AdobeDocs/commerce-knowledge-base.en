@@ -12,7 +12,7 @@ QPT v1.0.18 includes the following patches:
 1. **MDVA-34102**: Fixes the issue where the quantity of default stock is zero for disabled products on the [!UICONTROL Product Grid] and [!UICONTROL Edit Product] pages in the admin.
 1. **MDVA-34189**: Fixes 503 first byte timeout on [!DNL Visual Merchandiser] queries when loading the admin category page.
 1. **MDVA-34695**: Fixes negative `children_count` after deleting categories.
-1. **MDVA-35286**: Fixes the issue where there is an error if a customer has bundled products in the cart and switches from Multiple Addresses checkout to Onepage checkout.
+1. **MDVA-35286**: Fixes the issue where there is an error if a customer has bundled products in the cart and switches from multiple addresses checkout to onepage checkout.
 1. **MDVA-35312**: Fixes response code 500 when an empty GraphQL request.
 
 Use the menu on the left to navigate to a specific patch page.
