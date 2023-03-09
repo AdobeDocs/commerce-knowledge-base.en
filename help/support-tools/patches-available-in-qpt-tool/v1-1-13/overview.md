@@ -8,7 +8,7 @@ This sub-section provides a detailed description of the issues fixed by the patc
 
 QPT v1.1.13 includes the following patches:
 
-1. **MDVA-39605**: Fixes the issue where Redis cache TTL (expiration date) has a wrong value.
+1. **MDVA-39605**: Fixes the issue where [!DNL Redis] cache TTL (expiration date) has a wrong value.
 1. **MDVA-42046**: Fixes the issue where an incorrect value is assigned to a product attribute with a date input field while updating a product.
 1. **MDVA-42283**: Fixes the issue where the date-time format in the admin order grid for the French locale is invalid.
 1. **MDVA-42969**: Fixes the issue where the Related Product Rule works only when Customer Segment is set to *All*.
