@@ -9,7 +9,7 @@ This sub-section provides a detailed description of the issues fixed by the patc
 QPT v1.1.24 includes the following patches:
 
 1. **ACSD-45168**: Fixes the issue where SEO-friendly URLs are not generated for products that have *url_key* attributes overridden on the store-view level.
-1. **ACSD-46617**: Fixes the issue where the *Continue to Checkout* button is greyed out even if the subtotal is greater than the configured *Minimum Order Amount*.
+1. **ACSD-46617**: Fixes the issue where the **[!UICONTROL Continue to Checkout]** button is greyed out even if the subtotal is greater than the configured *Minimum Order Amount*.
 1. **ACSD-46770**: Fixes the issue where admin order emails are sent even when the *Email order confirmation* is unchecked.
 1. **ACSD-46865**: Fixes the issue where the Shipment and Credit Memo grid is not populated when asynchronous indexing is enabled.
 1. **ACSD-47004**: Fixes the issue where VAT is not applied to a billing address without a VAT ID.
