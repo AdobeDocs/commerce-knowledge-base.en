@@ -15,7 +15,7 @@ QPT v1.0.5 includes the following patches:
 1. **MDVA-29042**: Fixes the issue where Catalog permissions were changed to *Allow* automatically after new product was added to the shared catalog.
 1. **MDVA-29959**: Fixes the issue where a restricted admin user with *Companies* permissions is not allowed to delete company account.
 1. **MDVA-30107**: Fixes the issue where store switcher doesn't work as expected if different base URLs are used for store views.
-1. **MDVA-30265**: Fixes the issue where shipment tracking link stops working after Invoice creation.
+1. **MDVA-30265**: Fixes the issue where shipment tracking link stops working after invoice creation.
 1. **MDVA-30284**: Fixes the issue where Catalog Search indexer fails due to the following *[!DNL Elasticsearch] error: limit of total fields in index has been exceeded.*
 1. **MDVA-30428**: Fixes the issue where customers cannot add a product to wishlist if this product is assigned to a custom inventory source.
 1. **MDVA-30593**: Fixes the issue where quotes that expired according to the Quote Lifetime setting are not cleaned up.
