@@ -41,12 +41,12 @@ Configure [!DNL Varnish] or [!DNL Fastly].
 
 <u>Expected results</u>:
 
-Product page shows the correct price for a specific customer group.
+Product page shows the correct price for specific customer groups.
 
 <u>Actual results</u>:
 
 * Guest users see the special logged-in user price.
-* The mini cart shows the correct price once the product has been added to it.
+* The mini cart shows the correct price once the product is added to it.
 
 ## Apply the patch
 
