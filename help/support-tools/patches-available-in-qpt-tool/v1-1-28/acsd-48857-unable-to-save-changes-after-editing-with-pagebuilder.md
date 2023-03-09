@@ -26,7 +26,7 @@ User is unable to save changes after editing with [!DNL Page Builder].
 
 <u>Steps to reproduce</u>
 
-1. Login to the Admin website.
+1. Log in to the Admin website.
 1. Navigate to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** to create an empty CMS page.
 1. Run this SQL script to set the following **[!UICONTROL Content]** field value:
 
