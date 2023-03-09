@@ -14,7 +14,7 @@ QPT v1.1.2 includes the following patches:
 1. **MDVA-38852**: Fixes the issue where the catalog inventory by design locks tables for updates that significantly decrease performance in cases with several parallel orders.
 1. **MDVA-38929**: Fixes the issue where the invoice with FPT shows a wrong Grand Total when the order is paid from the store credit.
 1. **MDVA-39043**: Fixes the issue where the admin user with limited access gets an error when trying to add the *Products* widget to the CMS page.
-1. **MDVA-39195**: Fixes the issue where *Add to Cart* button was inactive on the category page when redirect to cart enabled.
+1. **MDVA-39195**: Fixes the issue where **[!UICONTROL Add to Cart]** button was inactive on the category page when redirect to cart enabled.
 1. **MDVA-39384**: Fixes the issue where the custom customer attribute for a company user is not saved.
 1. **MDVA-39521**: Fixes the issue where the user is not able to set shipping addresses on the cart with an empty telephone number via GraphQL.
 1. **MDVA-39923**: Fixes the issue where customers get an error when they search the order by SKU in B2B quick order functionality with a different case than the one with which the name is saved.
