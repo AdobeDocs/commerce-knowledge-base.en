@@ -14,7 +14,7 @@ QPT v1.1.10 includes the following patches:
 1. **MDVA-40816**: Fixes the issue where related product rules show products from categories not defined in the rule conditions.
 1. **MDVA-41305**: Fixes the issue where GraphQL mutation doesn't return configurable product options after adding it to the wishlist.
 1. **MDVA-42584**: Fixes the issue where configurable stock status in the backend is not updated after changing qty and stock status via Import or API.
-1. **MDVA-42768**: Fixes the issue where Configurable product displays regular price as 0 when *Display Out-of-Stock* is Yes.
+1. **MDVA-42768**: Fixes the issue where Configurable product displays regular price as 0 when *Display Out-of-Stock* is *Yes*.
 1.**MDVA-43091**: Fixes the issue where ordering a bundle product from the Admin in the backend gives the error *You cannot use decimal quantity for this product*.
 1. **MDVA-43201**: Fixes the issue where an error occurs in customer login when using DOB attribute with certain locales.
 
