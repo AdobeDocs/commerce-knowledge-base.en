@@ -22,7 +22,7 @@ The ACSD-48857 patch fixes the issue where the user is unable to save changes af
 
 ## Issue
 
-User is unable to save changes after editing with [!UICONTROL Page Builder].
+User is unable to save changes after editing with [!DNL Page Builder].
 
 <u>Steps to reproduce</u>
 
