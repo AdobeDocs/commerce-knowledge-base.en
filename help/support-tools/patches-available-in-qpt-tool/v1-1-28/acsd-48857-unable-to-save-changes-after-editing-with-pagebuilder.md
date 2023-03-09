@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48857: Unable to save changes after editing with [!UICONTROL Page Builder]'
+title: "ACSD-48857: Unable to save changes after editing with [!DNL Page Builder]"
 description: Apply the ACSD-48857 patch to fix the Adobe Commerce issue where the user is unable to save changes after editing with [!UICONTROL Page Builder].
 ---
 # ACSD-48857: Unable to save changes after editing with [!UICONTROL Page Builder]
