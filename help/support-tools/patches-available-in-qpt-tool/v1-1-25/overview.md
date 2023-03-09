@@ -8,7 +8,7 @@ This sub-section provides a detailed description of the issues fixed by the patc
 
 QPT v1.1.25 includes the following patches:
 
-1. **ACSD-47292**: Fixes the issue where out-of-stock bundled products are not available in the GraphQL response if the "show out-of-stock products" is set to Yes.
+1. **ACSD-47292**: Fixes the issue where out-of-stock bundled products are not available in the GraphQL response if the *show out-of-stock products* is set to *Yes*.
 1. **ACSD-47520**: Fixes the issue where customers lose reward points when a credit memo is created.
 1. **ACSD-47910**: Fixes the issue of missing orders, invoices, shipments, and credit memos in respective entity grids.
 1. **ACSD-48044**: Fixes the issue where applying multiple gift cards to a single order with multi-shipping prevents orders from being placed.
