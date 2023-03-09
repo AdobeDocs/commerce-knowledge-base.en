@@ -9,7 +9,7 @@ This sub-section provides a detailed description of the issues fixed by the patc
 QPT v1.0.15 includes the following patches:
 
 1. **MDVA-27664**: Fixes the issue in the customer registration form causing an error to display: *ERROR - The Date of Birth should not be greater than today.*
-1. **MDVA-32759**: Fixes the issue where Shared Catalogs are deleting existing tier pricing.
+1. **MDVA-32759**: Fixes the issue where shared catalogs are deleting existing tier pricing.
 1. **MDVA-33393**: Fixes the error *Provided countryId does not exist*.
 1. **MDVA-33482**: Fixes the issue where generating a Credit Memo against a partial invoice results in tax for the total order instead of tax for that partial invoice.
 1. **MDVA-33559**: Fixes the issue of [!DNL PayPal Payflow Pro] payment failing with redirect parameter list format error.
