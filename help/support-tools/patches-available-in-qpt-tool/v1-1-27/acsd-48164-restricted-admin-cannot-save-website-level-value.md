@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-48661: company credit limit comma separator validation issue'
-description: Apply the ACSD-48661 patch to fix the Adobe Commerce issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error.
-exl-id: 85c5a93f-76c5-439b-adcc-511f8473f302
+title: 'ACSD-48164: restricted admin cannot save website-level value'
+description: Apply the ACSD-48164 patch to fix the Adobe Commerce issue where a restricted admin cannot save a website-level value.
+exl-id: 6ec15163-ad30-4566-a46c-5756bfd9f8d4
 ---
-# ACSD-48661: company credit limit comma separator validation issue
+# ACSD-48164: restricted admin cannot save website-level value
 
-The ACSD-48661 patch fixes the issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.26 is installed. The patch ID is ACSD-48661. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48164 patch fixes the issue where a restricted admin cannot save a website-level value. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48164. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,22 +23,26 @@ The ACSD-48661 patch fixes the issue where when the company credit limit is larg
 
 ## Issue
 
-When the company credit limit is larger than 999, the comma separator prevents the company from saving due to a validation error.
+Restricted admin is not able to save a website-level value.
 
 <u>Steps to reproduce</u>:
 
-1. Enable the company feature at **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**.
-1. Create a company and add a credit limit larger than 999 under the **[!UICONTROL Company Credit]** tab.
-1. Save the company.
-1. Edit the company and try to save it again.
+1. Create a new website, store, and store view in [!UICONTROL Admin] > **[!UICONTROL Store]** > **[!UICONTROL All Stores]**.
+1. Create a new admin role in [!UICONTROL Admin] > **[!UICONTROL System]** > **[!UICONTROL User Roles]**.
+
+    * Go to **[!UICONTROL Role Resources]** > **[!UICONTROL Role Scopes]**, select the new website, and assign this role to any admin user.
+
+1. Select any product and assign only the new website. Do not select the default website.
+1. Log in as the admin user assigned in step two and edit the product under **[!UICONTROL All Store View]** scope by changing any website-level attribute like *[!UICONTROL Status]*, *[!UICONTROL Tax Class]*, and set the product as new.
+1. Save the product.
 
 <u>Expected results</u>:
 
-You are able to save the company without fixing the credit limit. Comma is not supported for input fields for the amounts and prices.
+Admin user associated with the role scope to one website is able to save Website-level product attributes using the *[!UICONTROL All Store View]* scope.
 
 <u>Actual results</u>:
 
-You are not able to save the company due to a validation error in the *[!UICONTROL Credit Limit]* field. Adobe Commerce automatically adds comma separators for credit limits even though the [!UICONTROL Credit Limit] field does not accept commas.
+The success message that the product was saved appears, but the product attribute values remain unchanged.
 
 ## Apply the patch
 

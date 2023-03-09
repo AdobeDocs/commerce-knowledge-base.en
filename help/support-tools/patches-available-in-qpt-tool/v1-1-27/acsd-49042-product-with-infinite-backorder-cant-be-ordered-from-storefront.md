@@ -1,21 +1,20 @@
 ---
-title: 'ACSD-48661: company credit limit comma separator validation issue'
-description: Apply the ACSD-48661 patch to fix the Adobe Commerce issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error.
-exl-id: 85c5a93f-76c5-439b-adcc-511f8473f302
+title: "ACSD-49042: Product with infinite backorder can't be ordered from storefront"
+description: Apply the ACSD-49042 patch to fix the Adobe Commerce issue where a product with infinite backorder cannot be ordered from the storefront.
 ---
-# ACSD-48661: company credit limit comma separator validation issue
+# ACSD-49042: Product with infinite backorder can't be ordered from storefront
 
-The ACSD-48661 patch fixes the issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.26 is installed. The patch ID is ACSD-48661. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49042 patch fixes the issue where a product with infinite backorder cannot be ordered from the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-49042. Please note that the issue was fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p2
 
 >[!NOTE]
 >
@@ -23,22 +22,27 @@ The ACSD-48661 patch fixes the issue where when the company credit limit is larg
 
 ## Issue
 
-When the company credit limit is larger than 999, the comma separator prevents the company from saving due to a validation error.
+The error occurs when a product with infinite backorder cannot be ordered from the storefront.
 
 <u>Steps to reproduce</u>:
 
-1. Enable the company feature at **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**.
-1. Create a company and add a credit limit larger than 999 under the **[!UICONTROL Company Credit]** tab.
-1. Save the company.
-1. Edit the company and try to save it again.
+1. Set the following configuration settings:
+    * **[!UICONTROL Display Out of Stock Products]** set to *[!UICONTROL Yes]*.
+    * **[!UICONTROL Backorders]** set to *[!UICONTROL Allow Qty Below 0]*.
+1. Add a new **[!DNL custom stock]** and **[!DNL custom source]**.
+1. Assign a product to the **[!DNL custom source]** and make sure there is an inventory number set for it (For Example: *10*).
+1. On the product edit page, open **[!UICONTROL Advanced Inventory]**. Set the **[!UICONTROL minimum quantity]** in the cart, (For Example: *160*). The quantity must be above inventory.
+1. Go to the storefront and buy a product to create a reservation.
+1. Change the **[!UICONTROL product quantity]** to *0*. The critical point is to save the product from the **[!DNL Admin panel]** when there is a reservation.
+1. Open the **[!UICONTROL product page]** on the storefront and try to add the product to the cart.
 
 <u>Expected results</u>:
 
-You are able to save the company without fixing the credit limit. Comma is not supported for input fields for the amounts and prices.
+It's possible to add the product to the cart because backorders for a quantity below *0* are allowed.
 
 <u>Actual results</u>:
 
-You are not able to save the company due to a validation error in the *[!UICONTROL Credit Limit]* field. Adobe Commerce automatically adds comma separators for credit limits even though the [!UICONTROL Credit Limit] field does not accept commas.
+The product is displayed to be out of stock.
 
 ## Apply the patch
 

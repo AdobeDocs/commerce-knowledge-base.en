@@ -497,12 +497,26 @@ breadcrumb-title: Commerce KB
         * [ACSD-48293: composite products out of stock when sold out child products restocked](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48293-composite-products-go-out-of-stock.md)
     * V1.1.26 {#v1-1-26}
         * [Overview: Quality Patches Tool (QPT) v1.1.26](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/overview.md)
+        * [ACSD-48773: Reward points email template taken from wrong store](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48773-reward-points-email-template-taken-from-wrong-store.md)
         * [ACSD-47937: price drop notifications not sent due to application-level caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47937-price-drop-notifications-are-not-sent.md)
         * [ACSD-48661: company credit limit comma separator validation issue](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48661-company-credit-limit-comma-separator-validation.md)
         * [ACSD-48587: product widget not working with SKUs containing HTML characters](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48587-product-widget-not-working-with-html-characters.md)
         * [ACSD-48212: product import assigns product to wrong source](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48212-product-import-assigns-product-wrong-source.md)
         * [ACSD-47988: product export trims HTML tags from page builder product description](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47988-product-export-trims-html-tags.md)
         * [ACSD-48366: product image not displayed on Back to Stock email template](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48366-product-image-not-displayed-back-stock-email-template.md)
+        * [ACSD-48417: SQL error after creating a schedule change](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48417-sql-error-after-creating-a-schedule-change.md)
+    * V1.1.27 {#v1-1-27}
+        * [Overview](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/overview.md)
+        * [ACSD-48634: [!DNL JS] errors when [!DNL Google Analytics Content Experiments] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48634-js-errors-when-google-analytics-content-experiments-enabled.md)
+        * [ACSD-49042: Product with infinite backorder can't be ordered from storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49042-product-with-infinite-backorder-cant-be-ordered-from-storefront.md)
+        * [ACSD-47908: a value less than or equal to 0 is expected error during checkout](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-47908-a-value-less-than-or-equal-to-0-is-expected-error-during-checkout.md)
+        * [ACSD-48059: merchants cannot save Match product by rule for Categories attribute](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48059-merchants-cannot-save-the-match-product-by-rule-for-categories-attribute.md)
+        * [ACSD-48362: the default shipping address is used instead of a new one](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48362-fixes-the-issue-where-the-default-shipping-address-is-used-instead-of-a-new-one.md)
+        * [ACSD-48164: restricted admin cannot save website-level value](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48164-restricted-admin-cannot-save-website-level-value.md)
+        * [ACSD-49013: email confirmation not translated to website locale](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49013-email-confirmation-not-translated-to-website-locale.md)
+        * [ACSD-49497: order still processing after shipment and partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49497-order-is-still-processing-after-shipment-and-partial-refund.md)
+    * V1.1.28 {#v1-1-28}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.28](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -771,8 +785,9 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce cloud: reindex is terminated with Killed message](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
     * [Upgrade to version 10.0 DHL schema to continue offering DHL shipping](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md)
     * [Adobe Commerce status column missing exported products CSV file](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
-    * [Cannot access New Relic on Adobe Commerce Cloud account](/help/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.md)
+    * [Cannot access New Relic on Adobe Commerce cloud account](/help/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.md)
     * [Modules missing from Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
+    * [Former team members receive Adobe Commerce cloud notification emails](/help/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
@@ -845,11 +860,13 @@ breadcrumb-title: Commerce KB
     * [Elasticsearch Index Status is 'yellow' or 'red'](/help/troubleshooting/elasticsearch/elasticsearch-index-status-is-yellow-or-red.md)
     * [Elasticsearch service not running](/help/troubleshooting/elasticsearch/elasticsearch-service-not-running.md)
     * [MySQL and ElasticSearch show different results](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
+    * [Elasticsearch is shown as the search engine despite OpenSearch installation](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
 * Help Center Guide {#help-center-guide}
   * [Adobe Commerce Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
+  * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
   * [MBI Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
   * [MBI Training Video: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)

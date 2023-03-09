@@ -24,6 +24,7 @@ Adobe Commerce on cloud infrastructure 2.4.2-p1 and 2.3.7.
     ```bash
     composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition:2.4.2-p1.
     ```
+    
     \# or 2.3.7
 
 1. Then run the following commands:

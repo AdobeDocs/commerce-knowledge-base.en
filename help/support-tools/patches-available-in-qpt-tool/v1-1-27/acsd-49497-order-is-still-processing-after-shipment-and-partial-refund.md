@@ -1,11 +1,11 @@
 ---
-title: 'ACSD-48661: company credit limit comma separator validation issue'
-description: Apply the ACSD-48661 patch to fix the Adobe Commerce issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error.
-exl-id: 85c5a93f-76c5-439b-adcc-511f8473f302
+title: 'ACSD-49497: order still processing after shipment and partial refund'
+description: Apply the ACSD-49497 patch to fix the Adobe Commerce issue where the order status remains as processing after shipment and a partial refund is applied.
+exl-id: d195bcf4-bb8b-4373-8aad-a5b953b07443
 ---
-# ACSD-48661: company credit limit comma separator validation issue
+# ACSD-49497: order still processing after shipment and partial refund
 
-The ACSD-48661 patch fixes the issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.26 is installed. The patch ID is ACSD-48661. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49497 patch fixes the issue where the order status remains as processing after shipment and a partial refund is applied. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-49497. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -23,22 +23,23 @@ The ACSD-48661 patch fixes the issue where when the company credit limit is larg
 
 ## Issue
 
-When the company credit limit is larger than 999, the comma separator prevents the company from saving due to a validation error.
+The status of a new order remains in the *[!UICONTROL Processing]* state even after shipment and a partial refund is applied.
 
 <u>Steps to reproduce</u>:
 
-1. Enable the company feature at **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**.
-1. Create a company and add a credit limit larger than 999 under the **[!UICONTROL Company Credit]** tab.
-1. Save the company.
-1. Edit the company and try to save it again.
+1. Create an order with multiple items.
+1. From **[!UICONTROL Admin]**, create an invoice for the order.
+1. From **[!UICONTROL Admin]**, create a credit memo and refund an item only partially.
+1. From **[!UICONTROL Admin]**, request shipping for the remaining items in the order.
+1. Observe the order status.
 
 <u>Expected results</u>:
 
-You are able to save the company without fixing the credit limit. Comma is not supported for input fields for the amounts and prices.
+The status of the order should be *[!UICONTROL Complete]*.
 
 <u>Actual results</u>:
 
-You are not able to save the company due to a validation error in the *[!UICONTROL Credit Limit]* field. Adobe Commerce automatically adds comma separators for credit limits even though the [!UICONTROL Credit Limit] field does not accept commas.
+The status of the order remains *[!UICONTROL Processing]*.
 
 ## Apply the patch
 

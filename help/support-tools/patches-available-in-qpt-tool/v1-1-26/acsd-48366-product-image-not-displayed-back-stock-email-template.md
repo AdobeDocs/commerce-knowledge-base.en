@@ -15,7 +15,7 @@ The ACSD-48366 patch fixes the issue where the product thumbnail image is not di
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6
 
 >[!NOTE]
 >

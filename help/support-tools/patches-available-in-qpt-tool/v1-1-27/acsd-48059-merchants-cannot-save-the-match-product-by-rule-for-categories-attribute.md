@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-48661: company credit limit comma separator validation issue'
-description: Apply the ACSD-48661 patch to fix the Adobe Commerce issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error.
-exl-id: 85c5a93f-76c5-439b-adcc-511f8473f302
+title: 'ACSD-48059: merchants cannot save [!UICONTROL Match product by rule] for Categories attribute.'
+description: Apply the ACSD-48059 patch to fix the Adobe Commerce issue where merchants cannot save the [!UICONTROL Match product by rule] for the Categories attribute.
+exl-id: 97213157-1b54-4634-9c76-c9ab8fa96e17
 ---
-# ACSD-48661: company credit limit comma separator validation issue
+# ACSD-48059: Merchants cannot save the *[!UICONTROL Match product by rule]* for the categories attribute
 
-The ACSD-48661 patch fixes the issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.26 is installed. The patch ID is ACSD-48661. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48059 patch fixes the issue where merchants cannot save the *[!UICONTROL Match product by rule]* for the categories attribute in [!DNL Visual Merchandiser]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48059. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.5
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.5-p1
+* Adobe Commerce (all deployment methods) >=2.3.7 <2.4.7
 
 >[!NOTE]
 >
@@ -23,22 +23,23 @@ The ACSD-48661 patch fixes the issue where when the company credit limit is larg
 
 ## Issue
 
-When the company credit limit is larger than 999, the comma separator prevents the company from saving due to a validation error.
+Merchants cannot save the *[!UICONTROL Match product by rule]* for categories attribute in [!DNL Visual Merchandiser].
 
 <u>Steps to reproduce</u>:
 
-1. Enable the company feature at **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**.
-1. Create a company and add a credit limit larger than 999 under the **[!UICONTROL Company Credit]** tab.
-1. Save the company.
-1. Edit the company and try to save it again.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Visual Merchandiser]** > **[!UICONTROL Visible Attributes for Category Rules]**, add categories.
+1. Go to the Adobe Commerce Admin > **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+    * Go to the [!UICONTROL Products in Category] section. 
+    * Add a new *[!UICONTROL Match products by rule]* condition with the categories attribute.
 
 <u>Expected results</u>:
 
-You are able to save the company without fixing the credit limit. Comma is not supported for input fields for the amounts and prices.
+The category is saved successfully.
 
 <u>Actual results</u>:
 
-You are not able to save the company due to a validation error in the *[!UICONTROL Credit Limit]* field. Adobe Commerce automatically adds comma separators for credit limits even though the [!UICONTROL Credit Limit] field does not accept commas.
+* You are not able to save the category with the new rule and condition.
+* *Something went wrong while saving the category* error is displayed.
 
 ## Apply the patch
 
