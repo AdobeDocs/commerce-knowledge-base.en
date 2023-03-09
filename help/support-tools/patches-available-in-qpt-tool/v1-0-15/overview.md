@@ -13,7 +13,7 @@ QPT v1.0.15 includes the following patches:
 1. **MDVA-33393**: Fixes the error *Provided countryId does not exist*.
 1. **MDVA-33482**: Fixes the issue where generating a credit memo against a partial invoice results in tax for the total order instead of tax for that partial invoice.
 1. **MDVA-33559**: Fixes the issue of [!DNL PayPal Payflow Pro] payment failing with redirect parameter list format error.
-1. **MDVA-33632**: Provides a fix where the exception message *This product is out of stock* is now displayed to an admin user when trying to re-order an out of stock product.
+1. **MDVA-33632**: Provides a fix where the exception message *This product is out of stock* is now displayed to an admin user when trying to re-order an out-of-stock product.
 1. **MDVA-33894**: Fixes multiple issues for Quick Order functionality including adding and removing multiple products and SKU case sensitivity.
 1. **MDVA-33970**: Fixes the issue where there is the wrong currency sign in the Credit Memo when the price attribute's scope is set to website.
 1. **MDVA-33976**: Fixes the issue where the bundle product is shown Out Of Stock on the storefront after removing the second option from the bundle product.
