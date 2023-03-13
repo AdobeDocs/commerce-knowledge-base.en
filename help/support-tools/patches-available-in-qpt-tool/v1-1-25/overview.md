@@ -14,7 +14,7 @@ QPT v1.1.25 includes the following patches:
 1. **ACSD-48044**: Fixes the issue where applying multiple gift cards to a single order with multi-shipping prevents orders from being placed.
 1. **ACSD-48058**: Fixes the issue where product price reindex is not working if the bundle product is not assigned to any website.
 1. **ACSD-48234**: Fixes the issue where the catalog search result shows an incorrect category item count when the *show out of stock* option is enabled.
-1. **ACSD-48262**: Fixes the issue where products are not visible on the frontend when *[UICONTROL Allow All Products Per Page]* setting is set to *Yes*.
+1. **ACSD-48262**: Fixes the issue where products are not visible on the frontend when *[!UICONTROL Allow All Products Per Page]* setting is set to *Yes*.
 1. **ACSD-48293**: Fixes the issue where the composite products go out of stock when the child products that were sold out are returned to stock.
 1. **ACSD-48300**: Fixes the issue where a return cannot be created if the configurable product is removed.
 1. **ACSD-48313**: Fixes the issue where the *configurable_variations* column is not parsed if the attribute value contains a comma. The same parsing algorithm is used for *additional_attributes*.
