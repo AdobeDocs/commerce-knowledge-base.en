@@ -31,7 +31,7 @@ The following steps will detail how to place redirects on Fastly instead of Ngin
 
 1. Create an Edge Dictionary.
     
-   First, you can use [VCL snippets in Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html) to define an edge dictionary. This will contain the redirects.
+   First, you can use [VCL snippets in Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=en) to define an edge dictionary. This will contain the redirects.
     
    Some caveats to this:
     
