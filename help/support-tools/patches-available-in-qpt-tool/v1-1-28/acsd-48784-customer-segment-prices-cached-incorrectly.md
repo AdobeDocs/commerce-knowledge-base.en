@@ -4,7 +4,7 @@ description: Apply the ACSD-48784 patch to fix the Adobe Commerce issue where cu
 ---
 # ACSD-48784: Customer segment prices cached incorrectly between customer groups
 
-The ACSD-48784 patch solves/fixes the issue where customer segment prices are cached incorrectly between customer groups. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-48784. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48784 patch fixes the issue where customer segment prices are cached incorrectly between customer groups. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-48784. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
