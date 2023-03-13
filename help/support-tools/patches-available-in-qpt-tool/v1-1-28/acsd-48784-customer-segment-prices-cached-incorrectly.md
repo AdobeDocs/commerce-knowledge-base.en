@@ -34,7 +34,7 @@ Configure [!DNL Varnish] or [!DNL Fastly].
 1. Log in to the site as a user with special Customer Group pricing.
 1. Go to a product page for a product with special customer group pricing. Observe the *special price*.
 1. In a separate browser, open the same product page as a guest user without logging in. Observe the regular price.
-1. Access the [!DNL Magento] administrative interface and clear the [!DNL Magento] and [!DNL Fastly] cache for this store.
+1. Access the Adobe Commerce administrative interface and clear the Adobe Commerce and [!DNL Fastly] cache for this store.
 1. In the logged-in browser, remove the `X-Magento-Vary` cookie.
 1. In the logged-in browser, reload the same product page several times until caching is fully flushed.
 1. In the non-logged-in browser, reload the product page to now see the Customer Group pricing.
