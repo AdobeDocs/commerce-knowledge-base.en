@@ -37,7 +37,7 @@ Configure [!DNL Varnish] or [!DNL Fastly].
 1. Access the Adobe Commerce administrative interface and clear the Adobe Commerce and [!DNL Fastly] cache for this store.
 1. In the logged-in browser, remove the `X-Magento-Vary` cookie.
 1. In the logged-in browser, reload the same product page several times until caching is fully flushed.
-1. In the non-logged-in browser, reload the product page to now see the Customer Group pricing.
+1. In the non-logged-in browser, reload the product page to now see the customer group pricing.
 
 <u>Expected results</u>:
 
