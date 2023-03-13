@@ -1,11 +1,11 @@
 ---
-title: "ACSD-48216: AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation."
+title: "ACSD-48216: AUTO_INCREMENT of inventory_source_item table increases on UPDATE operation"
 description: Apply the ACSD-XXXXX patch to fix the Adobe Commerce issue where AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation.
 ---
 
-# ACSD-48216: AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation
+# ACSD-48216: *AUTO_INCREMENT* of *inventory_source_item* table increases on *UPDATE* operation
 
-The ACSD-48216 patch fixes the issue where AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48216. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48216 patch fixes the issue where *AUTO_INCREMENT* of the *inventory_source_item* table increases on *UPDATE* operation. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48216. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,32 +23,14 @@ The ACSD-48216 patch fixes the issue where AUTO_INCREMENT of the inventory_sourc
 
 ## Issue
 
-AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation.
+*AUTO_INCREMENT* of the *inventory_source_item* table increases on *UPDATE* operation.
 
 <u>Steps to reproduce</u>:
 
-1. Check the current value of AUTO_INCREMENT of the inventory_source_item table:
+1. Check the current value of *AUTO_INCREMENT* of the *inventory_source_item* table:
 
 <pre>
-<code class="language-graphql">
-{
-    currency {
-        base_currency_code
-        base_currency_symbol
-        default_display_currency_code
-        default_display_currency_symbol
-        available_currency_codes
-        exchange_rates {
-            currency_to
-            rate
-        }
-    }
-}
-</code>
-</pre>
-
-
-```SQL
+<code>
 MySQL > show create table inventory_source_item;
 
 CREATE TABLE `inventory_source_item` (
@@ -62,17 +44,22 @@ CREATE TABLE `inventory_source_item` (
   KEY `INVENTORY_SOURCE_ITEM_SKU_SOURCE_CODE_QUANTITY` (`sku`,`source_code`,`quantity`),
   CONSTRAINT `INVENTORY_SOURCE_ITEM_SOURCE_CODE_INVENTORY_SOURCE_SOURCE_CODE` FOREIGN KEY (`source_code`) REFERENCES `inventory_source` (`source_code`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=2048 DEFAULT CHARSET=utf8
-```
+</pre>
+</code>
 
 1. Make an API request for a specific product:
 
-```REST
+<pre>
+<code>
 Endpoint: /rest/V1/inventory/source-items
 Method: POST
 Headers: Authorization: Bearer <admin_token>
-```
+</code>
+</pre>
 Payload:
-```
+
+<pre>
+<code>
 {
     "sourceItems": [
         {
@@ -83,16 +70,18 @@ Payload:
         }
     ]
 }
-```
-1. Check the AUTO_INCREMENT value of the inventory_source_item table again, notice that it increased.
+</code>
+</pre>
+
+1. Check the *AUTO_INCREMENT* value of the *inventory_source_item* table again, notice that it increased.
 
 <u>Expected results</u>:
 
-AUTO_INCREMENT value of the inventory_source_item table should not increase after every Update operation.
+The *AUTO_INCREMENT* value of the *inventory_source_item* table does not increase after every update operation.
 
 <u>Actual results</u>:
 
-AUTO_INCREMENT value of the inventory_source_item table increases after every Update operation.
+The *AUTO_INCREMENT* value of the *inventory_source_item* table increases after every update operation.
 
 ## Apply the patch
 
