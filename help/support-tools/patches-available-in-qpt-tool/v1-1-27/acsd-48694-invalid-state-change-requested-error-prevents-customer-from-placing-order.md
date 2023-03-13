@@ -29,13 +29,13 @@ The error *Invalid state change requested* prevents a customer from placing an o
 
 1. Add a slight delay during the `/estimate-shipping-methods` request by including a `sleep()` at `app/code/Magento/Quote/Model/GuestCart/GuestShippingMethodManagement.php::estimateByExtendedAddress()` function, so the `/estimate-shipping-methods` request is completed after the `/shipping-information` when going from shipping step to payment step during checkout.
 1. Configure the session to use [!DNL Redis] with the *disable_locking: 1* setting.
-1. Open **Stores** > **Configuration** > **Customers** and enable *Persistent Shopping Cart*.
+1. Open **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** and enable *[!UICONTROL Persistent Shopping Cart]*.
 1. Log in as a customer and add a product to the cart.
 1. Let the customer session expire. Persistent cookie and the cart still persists.
 1. Now go to checkout, add the shipping address and navigate to the payment section.
 1. Go back to the home page or any other page and log in with the customer account.
 1. Let the session expire again.
-1. Now directly go to the checkout page and navigate to the Payment Step.
+1. Now go directly to the checkout page and navigate to the payment step.
 1. Try to place the order.
 
 <u>Expected results</u>:
