@@ -21,16 +21,3 @@ QPT v1.0.6 includes the following patches:
 1. **MDVA-31006**: Fixes the issue where duplicated orders appear after placing an order using [!DNL Paypal Express] payment.
 
 Use the menu on the left to navigate to a specific patch page.
-
-
-
-
-
-
-
-
-
-
-
-
-

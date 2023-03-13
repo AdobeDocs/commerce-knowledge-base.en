@@ -13,7 +13,7 @@ QPT v1.0.7 includes the following patches:
 1. **MDVA-30594**: Fixes the issue where an order with multiple addresses could not be saved during checkout when FPT is configured.
 1. **MDVA-30782**: Fixes the issue where Dynamic Block is displayed regardless of cart rule.
 1. **MDVA-30815**: Fixes the issue where when you change how many search results should be displayed on the search results page.
-1. **MDVA-30837**: Added a configuration setting *Include Tax to Amount: Yes/No* in Free Shipping method configuration. When *Include Tax to Amount* is set to *Yes*, Minimum Order Amount is calculated as Subtotal + Tax. When *Include Tax to Amount* is set to *No*, Minimum Order Amount is calculated as Subtotal
+1. **MDVA-30837**: Adds configuration options for the free shipping calculation so the user can configure the Minimum Order Amount to get Free Shipping based on the Subtotal (or Grand Total).
 1. **MDVA-30945**: Fixes the issue where you receive a fatal error message when updating carts `Call to a member function getValue() on null in module-configurable-product CartItemProcessor.php`.
 1. **MDVA-30972**: Fixes the issue where custom order status was changed to *Processing* after partial shipment creation using WebApi.
 1. **MDVA-31007**: Fixes the issue where custom address attributes are not correctly displayed in the order details page in the my account area and in the backend.

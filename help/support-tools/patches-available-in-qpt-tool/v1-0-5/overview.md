@@ -21,16 +21,3 @@ QPT v1.0.5 includes the following patches:
 1. **MDVA-30593**: Fixes the issue where quotes that expired according to the Quote Lifetime setting are not cleaned up.
 
 Use the menu on the left to navigate to a specific patch page.
-
-
-
-
-
-
-
-
-
-
-
-
-
