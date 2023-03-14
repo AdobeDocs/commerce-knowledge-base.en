@@ -28,68 +28,87 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
     <th style="width:15%">Type</th>
     <th style="width:15%">Date</th>
   </tr>
-<tr>
+
+ <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-47937-price-drop-notifications-are-not-sent.html">ACSD-47937: price drop notifications not sent due to application-level caching:</a> The ACSD-47937 patch fixes the issue where price drop notifications are not always sent due to application-level caching. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-49013-email-confirmation-not-translated-to-website-locale.html">ACSD-49013: email confirmation not translated to website locale:</a> The ACSD-49013 patch fixes the issue where email confirmation is not translated to the website locale when creating customers using bulk API. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td>New article</td>
-    <td> Feb 17, 2023</td>
+    <td> Mar 03, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48661-company-credit-limit-comma-separator-validation.html">ACSD-48661: company credit limit comma separator validation issue:</a> The ACSD-48661 patch fixes the issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-49497-order-is-still-processing-after-shipment-and-partial-refund.html%3Flang%3Dpt-BR">ACSD-49497: order still processing after shipment and partial refund:</a> The ACSD-49497 patch fixes the issue where the order status remains as processing after shipment and a partial refund is applied. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td>New article</td>
-    <td>Feb 17, 2023</td>
+    <td>Mar 03, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48587-product-widget-not-working-with-html-characters.html">ACSD-48587: product widget not working with SKUs containing HTML characters:</a> The ACSD-48587 patch fixes the issue where HTML special characters in the products widget matching rules prevent them from displaying matching products. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-47908-a-value-less-than-or-equal-to-0-is-expected-error-during-checkout.html">ACSD-47908: <i>A value less than or equal to 0 is expected</i> error during checkout:</a> The ACSD-47908 patch fixes the error <i>A value less than or equal to 0 is expected</i> when selecting the source and quantity in the shipping step during checkout. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td>New article</td>
-    <td>Feb 17, 2023</td>
+    <td>Mar 03, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48212-product-import-assigns-product-wrong-source.html?lang=en">ACSD-48212: product import assigns product to wrong source:</a> The ACSD-48212 patch fixes the issue where the product import assigns the product to the wrong source. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48059-merchants-cannot-save-the-match-product-by-rule-for-categories-attribute.html?lang=en">ACSD-48059: Merchants cannot save the <i>Match product by rule</i> for the categories attribute:</a> The ACSD-48059 patch fixes the issue where merchants cannot save the <i>Match product by rule</i> for the categories attribute in [!UICONTROL Visual Merchandiser]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td> New article </td>
-    <td> Jan 17, 2023</td>
-
+    <td> Mar 03, 2023</td>
  </tr>
-   <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-47988-product-export-trims-html-tags.html">ACSD-47988: product export trims HTML tags from page builder product description:</a> The ACSD-47988 patch fixes the issue where the product export trims HTML tags from the page builder product description. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
-    </td>
-    <td>New article</td>
-    <td>Feb 17, 2023</td>
 
-  </tr>
-    <tr>
+  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48366-product-image-not-displayed-back-stock-email-template.html">ACSD-48366: product image not displayed on Back to Stock email template:</a> The ACSD-48366 patch fixes the issue where the product thumbnail image is not displayed in the product's stock alert email. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48362-fixes-the-issue-where-the-default-shipping-address-is-used-instead-of-a-new-one.html">ACSD-48362: the default shipping address is used instead of a new one:</a> The ACSD-48362 patch fixes the issue where the default shipping address is used instead of the newly added address when placing an order using a negotiable quote. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td>New article</td>
-    <td>Feb 17, 2023</td>
+    <td>Mar 03, 2023</td>
   </tr>
-    <tr>
+
+  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.html?lang=en">Indexes invalidated and indexer_reindex_all_invalid run constantly:</a> This article provides a possible workaround for the issue when your site has performance issues caused by constant reindexing.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48773-reward-points-email-template-taken-from-wrong-store.html">ACSD-48773: Reward points email template taken from wrong store:</a> The ACSD-48773 patch fixes the issue where the reward points email template is taken from the wrong store. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
     </td>
     <td>New article</td>
-    <td>Feb 17, 2023</td>
+    <td>Mar 03, 2023</td>
   </tr>
-  </tr>
-    <tr>
+
+  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/monitoring-whitepaper.html">Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure:</a> Major edits were done to this article based on the direction from SMEs.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48417-sql-error-after-creating-a-schedule-change.html">ACSD-48417: SQL error after creating a schedule change:</a> The ACSD-48417 patch fixes the issue where an SQL error appears after creating a schedule change for a product and saving another product. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
     </td>
-    <td>Update</td>
-    <td>Feb 17, 2023</td>
+    <td>New article</td>
+    <td>Mar 03, 2023</td>
   </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48164-restricted-admin-cannot-save-website-level-value.html">ACSD-48164: restricted admin cannot save website-level value:</a> The ACSD-48164 patch fixes the issue where a restricted admin cannot save a website-level value. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    </td>
+    <td>New article</td>
+    <td>Mar 03, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.html">[!DNL Elasticsearch] is shown as the search engine despite [!DNL OpenSearch] installation:</a> This article provides a solution for the issue where [!DNL Elasticsearch] is still shown as the search engine for Adobe Commerce on cloud even after installing or upgrading to [!DNL OpenSearch].
+    </td>
+    <td>New article</td>
+    <td>Mar 03, 2023</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html">Checklist for setting up a new domain:</a> This article contains a checklist of how to set up a new domain in Adobe Commerce on cloud infrastructure.
+    </td>
+    <td>New article</td>
+    <td>Mar 03, 2023</td>
+  </tr>
+
 </table>
 
 ## Popular Articles

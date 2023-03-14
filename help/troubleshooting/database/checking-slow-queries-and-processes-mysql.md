@@ -13,14 +13,14 @@ This article talks about a couple of common MySQL issues (Slow queries, Processe
 
 If you had an outage that was potentially caused by an overloaded database, these steps will help you check the slow queries log of your database.
 
-### Steps
+### Analyze queries using MySQL command line (Adobe Commerce Cloud/on-premises/Magento Open Source)
 
 1. Log in to your MySQL command line (Adobe Commerce on-premises/Magento Open Source) or on your cloud server from the command line (Adobe Commerce on cloud infrastructure).
 1. Examine the slow query log for queries longer than 50 seconds:
 
-   ```bash
-   grep 'Query_time: [5-9][0-9]\|Query_time: [0-9][0-9][0-9]' /var/log/mysql/mysql-slow.log -A 3
-   ```
+    ```bash
+    grep 'Query_time: [5-9][0-9]\|Query_time: [0-9][0-9][0-9]' /var/log/mysql/mysql-slow.log -A 3
+    ```
 
 1. Go to <https://www.unixtimestamp.com/> (or a similar Unix Timestamp Converter) and insert the timestamp of when the slow query was executed.
 1. If the time correlates with any site outage that you experienced, it could be caused by an overloaded database. Check to see what loads were on the database at that time. Examples of such loads could be:
@@ -29,6 +29,16 @@ If you had an outage that was potentially caused by an overloaded database, thes
 * Traffic (bots or people)
 * Import/Export scripts
 * Creating dumps
+
+
+### Analyze queries using the [!DNL Percona Toolkit] (Adobe Commerce Pro: Cloud architecture only)
+
+If your Adobe Commerce project is deployed on Pro architecture, you can use the [!DNL Percona Toolkit] to analyze queries.
+
+1. Run the `pt-query-digest --type=slowlog` command against MySQL slow query logs.
+    * To find the location of the slow query logs, see **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** in our developer documentation.
+    * See the [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) documentation.
+1. Based on the issues found, take steps to fix the query, so it runs more quickly.
 
 ## Checking MySQL "process list"
 
