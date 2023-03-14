@@ -31,7 +31,7 @@ If you had an outage that was potentially caused by an overloaded database, thes
 * Creating dumps
 
 
-### Analyze queries using the Percona Toolkit (Adobe Commerce Pro: Cloud architecture only)
+### Analyze queries using the [!DNL Percona Toolkit] (Adobe Commerce Pro: Cloud architecture only)
 
 If your Adobe Commerce project is deployed on Pro architecture, you can use the Percona Toolkit to analyze queries.
 
