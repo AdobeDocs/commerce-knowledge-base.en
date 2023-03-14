@@ -32,6 +32,7 @@ The ACSD-48216 patch fixes the issue where *AUTO_INCREMENT* of the *inventory_so
 ```bash
 MySQL > show create table inventory_source_item;
 ```
+
 ```SQL
 CREATE TABLE `inventory_source_item` (
   `source_item_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
