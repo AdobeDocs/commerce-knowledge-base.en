@@ -74,7 +74,8 @@ Following is a step by step description of how to update your authorization keys
 1. Change to the project root directory.
 1. Optional: Delete the `auth.json` if you prefer and continue to [step 9](#step9).
 1. Open `auth.json` in a text editor.
-      ```json
+
+   ```json
               {
                 "http-basic":  {
                     "repo.magento.com": {
@@ -83,7 +84,8 @@ Following is a step by step description of how to update your authorization keys
                         }
                       }
                     }
-      ```
+   ```
+
 1. Add the correct authentication keys.
 1. Save your changes and exit the text editor.
 1. Commit and merge your changes:

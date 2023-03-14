@@ -5,7 +5,7 @@ exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 ---
 # Can I schedule Content Staging updates for prices in a shared catalog?
 
-Adobe Commerce does not offer the functionality of scheduling a price update ([Content Staging](http://docs.magento.com/m2/ee/user_guide/cms/content-staging.html)) for one or more products in a shared catalog.
+Adobe Commerce does not offer the functionality of scheduling a price update ([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) for one or more products in a shared catalog.
 
 That means you cannot schedule such a price update directly from the **Set Pricing and Structure** menu of the Commerce Admin panel (there is no **Schedule New Update** button in this menu).
 
@@ -16,7 +16,7 @@ Still, you may use alternative methods and schedule a price update for:
 
 ## Schedule price update for a customer group
 
-1. Start [scheduling a new product update](http://docs.magento.com/m2/ee/user_guide/cms/content-staging-scheduled-update.html).
+1. Start [scheduling a new product update](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html).
 1. Scroll down to the **Price** field and click **Advanced Pricing**.
 
     ![advanced_pricing.png](assets/advanced_pricing.png){width="600"}
@@ -33,8 +33,8 @@ Remember: shared catalogs leverage the customer group pricing.
 
  **Related documentation**
 
-* [Scheduling an update (Content Staging)](http://docs.magento.com/m2/ee/user_guide/cms/content-staging-scheduled-update.html) in our user guide.
-* [Advanced Pricing](http://docs.magento.com/m2/ee/user_guide/catalog/pricing-advanced.html) in our user guide.
+* [Scheduling an update (Content Staging)](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html) in our user guide.
+* [Advanced Pricing](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) in our user guide.
 
 ## Schedule price update for the base price
 

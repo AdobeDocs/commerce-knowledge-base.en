@@ -29,10 +29,11 @@ To be able to view static charts in the Commerce Admin, download and apply the p
 1. Save the [attached MAGETWO-98833\_composer\_patch-2019-04-15-04-38-57.patch](assets/MAGETWO-98833_composer_patch-2019-04-15-04-38-57.patch.zip) patch and upload it to your Adobe Commerce root directory.
 1. Run the following SSH command, having replaced the patch name with actual one:
 
-     ```git
-     patch -p1 < MAGETWO-98833_composer_patch-2019-04-15-04-38-57.patch
-     ```
-     If the above command does not work, try using `-p2` instead of `-p1`.)
+   ```git
+   patch -p1 < MAGETWO-98833_composer_patch-2019-04-15-04-38-57.patch
+   ```
+
+   If the above command does not work, try using `-p2` instead of `-p1`.)
 
 1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management**.
 
@@ -50,6 +51,7 @@ For Cloud merchants, the patch will be included to the nearest ECE-tools update.
     ```git
     patch -p1 < MAGETWO-98833_composer_patch-2019-04-15-04-37-48.patch
     ```
+
     (If the above command does not work, try using `-p2` instead of `-p1`.)
 
 1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management**.
@@ -64,6 +66,7 @@ Follow these steps to download and apply the patch:
     ```git
     patch -p1 < MPERF-10509-EE-2019-03-13-06-32-19.diff
     ```
+
     (If the above command does not work, try using `-p2` instead of `-p1`.)
 
 1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management**.
@@ -78,6 +81,7 @@ Follow these steps to download and apply the patch:
     ```git
     MPERF-10509.diff
     ```
+
     from the **Select your format** drop-down and click Download.
 
 1. Upload the file to the Adobe Commerce root directory.
@@ -86,6 +90,7 @@ Follow these steps to download and apply the patch:
     ```git
     patch -p1 < MPERF-10509.diff
     ```
+    
     (If the above command does not work, try using `-p2` instead of `-p1`.)
 
 1. For the changes to be reflected, refresh the cache in the Admin under **System** > **Cache Management**.
