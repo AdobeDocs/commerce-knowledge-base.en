@@ -33,7 +33,7 @@ If you had an outage that was potentially caused by an overloaded database, thes
 
 ### Analyze queries using the [!DNL Percona Toolkit] (Adobe Commerce Pro: Cloud architecture only)
 
-If your Adobe Commerce project is deployed on Pro architecture, you can use the Percona Toolkit to analyze queries.
+If your Adobe Commerce project is deployed on Pro architecture, you can use the [!DNL Percona Toolkit] to analyze queries.
 
 1. Run the `pt-query-digest --type=slowlog` command against MySQL slow query logs.
     * To find the location of the slow query logs, see **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** in our developer documentation.
