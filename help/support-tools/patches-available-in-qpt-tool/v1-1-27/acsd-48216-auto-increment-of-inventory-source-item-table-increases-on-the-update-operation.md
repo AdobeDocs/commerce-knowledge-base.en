@@ -1,6 +1,6 @@
 ---
 title: "ACSD-48216: AUTO_INCREMENT of inventory_source_item table increases on UPDATE operation"
-description: Apply the ACSD-XXXXX patch to fix the Adobe Commerce issue where AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation.
+description: Apply the ACSD-48216 patch to fix the Adobe Commerce issue where AUTO_INCREMENT of the inventory_source_item table increases on UPDATE operation.
 ---
 
 # ACSD-48216: *AUTO_INCREMENT* of *inventory_source_item* table increases on *UPDATE* operation
@@ -29,10 +29,10 @@ The ACSD-48216 patch fixes the issue where *AUTO_INCREMENT* of the *inventory_so
 
 1. Check the current value of *AUTO_INCREMENT* of the *inventory_source_item* table:
 
-<pre>
-<code>
+```bash
 MySQL > show create table inventory_source_item;
-
+```
+```SQL
 CREATE TABLE `inventory_source_item` (
   `source_item_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `source_code` varchar(255) NOT NULL,
@@ -44,22 +44,17 @@ CREATE TABLE `inventory_source_item` (
   KEY `INVENTORY_SOURCE_ITEM_SKU_SOURCE_CODE_QUANTITY` (`sku`,`source_code`,`quantity`),
   CONSTRAINT `INVENTORY_SOURCE_ITEM_SOURCE_CODE_INVENTORY_SOURCE_SOURCE_CODE` FOREIGN KEY (`source_code`) REFERENCES `inventory_source` (`source_code`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=2048 DEFAULT CHARSET=utf8
-</pre>
-</code>
+```
 
 1. Make an API request for a specific product:
 
-<pre>
-<code>
-Endpoint: /rest/V1/inventory/source-items
-Method: POST
-Headers: Authorization: Bearer <admin_token>
-</code>
-</pre>
+`Endpoint: /rest/V1/inventory/source-items`  
+`Method: POST`  
+`Headers: Authorization: Bearer <admin_token>`
+
 Payload:
 
-<pre>
-<code>
+```JSON
 {
     "sourceItems": [
         {
@@ -70,8 +65,7 @@ Payload:
         }
     ]
 }
-</code>
-</pre>
+```
 
 1. Check the *AUTO_INCREMENT* value of the *inventory_source_item* table again, notice that it increased.
 
