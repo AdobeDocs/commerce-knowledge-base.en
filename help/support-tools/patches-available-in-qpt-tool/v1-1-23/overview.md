@@ -2,7 +2,7 @@
 title: "Overview: [!DNL Quality Patches Tool] (QPT) v1.1.23"
 description: This sub-section provides a detailed description of the issues fixed by the patches available in [!DNL Quality Patches Tool] (QPT) v1.1.23.
 ---
-# [!DNL Quality Patches Tool] (QPT) 1.1.23 overview
+# [!DNL Quality Patches Tool] (QPT) v1.1.23 overview
 
 This sub-section provides a detailed description of the issues fixed by the patches available in [!DNL Quality Patches Tool] (QPT) v1.1.23.
 
