@@ -9,17 +9,17 @@ This article lists the official documentation resources that discuss how Adobe C
 
 ## Adobe Commerce is Ready for GDPR
 
-The [official homepage](https://magento.com/gdpr) for all Adobe Commerce GDPR resources.
+The [official homepage](https://business.adobe.com/privacy/general-data-protection-regulation.html) for all Adobe Commerce GDPR resources.
 
 ## Official Adobe Commerce statements
 
-* GDPR and Adobe Commerce: New Steps to Protect Privacy in 2018 ([PDF](https://magento.com/sites/default/files/Magento-GDPR-Overview.pdf))
-* Adobe Commerce GDPR Frequently Asked Questions ([PDF](https://magento.com/sites/default/files/Magento-GDPR-FAQs.pdf))
+* [General Data Protection Regulation GDPR](/docs/commerce-operations/security-and-compliance/privacy/gdpr.html)
+* [GDPR Compliance](/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html)
 
 ## GDPR compliance in our developer documentation: Adobe Commerce 2.X and 1.X
 
-* [Adobe Commerce 2.x GDPR compliance](https://devdocs.magento.com/guides/v2.2/architecture/gdpr/magento-2x.html)
-* [Adobe Commerce 1.x GDPR compliance](https://devdocs.magento.com/guides/v2.2/architecture/gdpr/magento-1x.html)
+* [Customer personal information reference (version 2.x)](/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+* [Customer personal information reference (version 1.x)](/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
 These Adobe Commerce developer documentation topics provide data flow diagrams and database information that helps Merchants and System Integrators to resolve use cases similar to the following:
 
