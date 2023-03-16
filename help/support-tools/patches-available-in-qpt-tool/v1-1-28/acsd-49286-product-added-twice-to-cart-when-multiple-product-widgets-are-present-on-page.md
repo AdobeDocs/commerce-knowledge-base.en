@@ -4,7 +4,7 @@ description: Apply the ACSD-49286 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-49286: Product added twice to cart when multiple product widgets are present
 
-The ACSD-49286 patch fixes the issue the product is added twice to a cart when multiple product widgets are present on the page. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-49286. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49286 patch fixes the issue where the product is added twice to a cart when multiple product widgets are present on the page. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-49286. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
