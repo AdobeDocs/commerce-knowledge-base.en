@@ -37,7 +37,7 @@ Product is added twice to a cart when multiple product widgets are present on th
 
 <u>Expected results</u>:
 
-Product quantity should not double up after adding product to cart from [!UICONTROL Product Grid].
+Product quantity should not double up after adding a product to the cart from [!UICONTROL Product Grid].
 
 <u>Actual results</u>:
 
