@@ -39,7 +39,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.html?lang=en">Cannot access the correct cloud project:</a>  This article provides a fix for the issues after a change has been made to the account ownership or the associated email addresses.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.html?lang=en">Cannot access the correct cloud project:</a> This article provides a fix for the issues after a change has been made to the account ownership or the associated email addresses.
     </td>
     <td>New article</td>
     <td>Mar 16, 2023</td>
@@ -47,7 +47,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-49042-product-with-infinite-backorder-cant-be-ordered-from-storefront.html">ACSD-49042: Product with infinite backorder can't be ordered from storefront:</a> The ACSD-49042 patch fixes the issue where a product with infinite backorder cannot be ordered from the storefront. This patch is available when the Quality Patches Tool (QPT) 1.1.27 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-49042-product-with-infinite-backorder-cant-be-ordered-from-storefront.html">ACSD-49042: Product with infinite backorder can't be ordered from storefront:</a> The ACSD-49042 patch fixes the issue where a product with infinite backorder cannot be ordered from the storefront. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td>New article</td>
     <td>Mar 16, 2023</td>
@@ -55,7 +55,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48634-js-errors-when-google-analytics-content-experiments-enabled.html">ACSD-48634: JS errors when Google Analytics Content Experiments enabled:</a> The ACSD-48634 patch fixes JS errors on a staging update page when Google Analytics Content Experiments is enabled. This patch is available when the Quality Patches Tool (QPT) 1.1.27 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48634-js-errors-when-google-analytics-content-experiments-enabled.html">ACSD-48634: JS errors when Google Analytics Content Experiments enabled:</a> The ACSD-48634 patch fixes JS errors on a staging update page when Google Analytics Content Experiments is enabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td> New article </td>
     <td> Mar 16, 2023</td>
