@@ -41,7 +41,7 @@ Product quantity should not double up after adding a product to the cart from [!
 
 <u>Actual results</u>:
 
-Product quantity doubles up after adding product to cart from [!UICONTROL Product Grid].
+Product quantity doubles up after adding a product to the cart from [!UICONTROL Product Grid].
 
 ## Apply the patch
 
