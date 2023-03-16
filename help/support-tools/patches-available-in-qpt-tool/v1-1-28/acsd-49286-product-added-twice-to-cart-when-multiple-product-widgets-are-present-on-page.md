@@ -28,7 +28,7 @@ Product is added twice to a cart when multiple product widgets are present on th
 
 1. Log in to admin and go to **[!UICONTROL Admin]** > **[!UICONTROL Content]** > **[!UICONTROL Page]** > **[!UICONTROL Home Page]**
 1. In the content section, click on **[!UICONTROL Edit]** using [!DNL Page Builder].
-1. Add 2 row elements to **[!UICONTROL Content]**.
+1. Add two row elements to **[!UICONTROL Content]**.
 1. Add products into both row elements.
 1. In first row set Product appearance as [!UICONTROL Product Grid] and select any Category to display.
 1. In second row set Product appearance as [!UICONTROL Product Carousel] and select any other Category to display.
