@@ -61,8 +61,8 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
  **Related articles:**
 
 * [Redirects through routes.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html) in our developer documentation.
-* [Redirects through the Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#project-conf-env-route) in our developer documentation.
-* [URL Rewrites](http://docs.magento.com/m2/ee/user_guide/marketing/url-rewrite.html) in our user guide.
+* [Redirects through the Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in our developer documentation.
+* [URL Rewrites](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html) in our user guide.
 
 ## 4. Asset performance
 
@@ -70,13 +70,13 @@ Problem: Static assets are served slowly so your site has poor performance (long
 
 Recommendation: To identify possible causes of poor performance consider using [Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) for performance testing. You could also consider these third-party tools:
 
-* [Siege](https://www.joedog.org/siege-home/) : HTTP load-testing and benchmarking utility; supports basic authentication, cookies, HTTP, HTTPS and FTP protocols.
-* [Jmeter](http://jmeter.apache.org/) : A reputable load-testing and performance measuring tool. Helps gauge performance for spiked traffic, e.g., for flash sales.
-* [New Relic:](https://support.newrelic.com/) Locates processes and areas of the site causing slow performance with tracked time spent per action, like transmitting data, queries, Redis, etc.
+* [Siege](https://www.joedog.org/siege-home/): HTTP load-testing and benchmarking utility; supports basic authentication, cookies, HTTP, HTTPS and FTP protocols.
+* [Jmeter](http://jmeter.apache.org/): A reputable load-testing and performance measuring tool. Helps gauge performance for spiked traffic, e.g., for flash sales.
+* [New Relic](https://support.newrelic.com/): Locates processes and areas of the site causing slow performance with tracked time spent per action, like transmitting data, queries, Redis, etc.
 * [WebPageTest](https://www.webpagetest.org/) (free) and [Pingdom](https://www.pingdom.com/) (paid): Real-time analysis of your site pages load time with different origin locations.
 
-You may also consider [minification](https://devdocs.magento.com/cloud/live/sens-data-over.html#cloud-clp-settings) for CSS, JavaScript, and HTML.
+You may also consider [minification](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) for CSS, JavaScript, and HTML.
 
  **Related articles:**
 
-* [Test deployment](http://devdocs.magento.com/guides/v2.2/cloud/live/stage-prod-test.html) in our developer documentation.
+* [Test deployment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html) in our developer documentation.
