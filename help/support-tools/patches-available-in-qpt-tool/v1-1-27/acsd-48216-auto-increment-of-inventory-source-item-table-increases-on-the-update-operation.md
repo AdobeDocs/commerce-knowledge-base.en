@@ -68,7 +68,7 @@ Payload:
 }
 ```
 
-1. Check the *AUTO_INCREMENT* value of the *inventory_source_item* table again, notice that it increased.
+1. Check the *AUTO_INCREMENT* value of the *inventory_source_item* table again.
 
 <u>Expected results</u>:
 
