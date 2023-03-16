@@ -32,7 +32,7 @@ Product is added twice to a cart when multiple product widgets are present on th
 1. Add products into both row elements.
 1. In the first row, set product appearance as [!UICONTROL Product Grid] and select any category to display.
 1. In the second row, set product appearance as [!UICONTROL Product Carousel] and select any other category to display.
-1. Go to frontend **[!UICONTROL Home Page]**, add one product from Product Grid.
+1. Go to the storefront **[!UICONTROL Home Page]**, and add one product from Product Grid.
 1. Add another product from [!UICONTROL Product Carousel].
 
 <u>Expected results</u>:
