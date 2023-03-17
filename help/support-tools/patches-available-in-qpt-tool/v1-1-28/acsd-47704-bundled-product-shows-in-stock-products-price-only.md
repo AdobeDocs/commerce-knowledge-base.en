@@ -28,16 +28,16 @@ The price of a bundled product with Dynamic Pricing enabled is incorrect due to 
 
 1. Go to the Commerce admin panel
 1. Go to **[!UICONTROL CATALOG]** > **[!UICONTROL Products]** > **[!UICONTROL Add Product]** > **[!UICONTROL Bundle Product].
-1. Set **[UICONROL Dynamic Price]** to **[!UICONTROL Yes}**.
+1. Set **[UICONROL Dynamic Price]** to **[!UICONTROL Yes]**.
 1. Bundle items:
    * Set **[!UICONTROL Ship bundle items]** to **[!UICONTROL Together]**
-   * Select **[!UICONROL Add Option]**
+   * Select **[!UICONTROL Add Option]**
       * Title "o1"
       * Input type: Dropdown
      * Mark required checkbox
      * Add any simple product which is in stock - for example, "Joust Duffle Bag" SKU 24-MB01 - before adding the product, note down somewhere its price - $34
     * Default quantity: *1*
-   *  Select **[!UICONROL Add Option]**
+   *  Select **[!UICONTROL Add Option]**
       * **[!UICONTROL Option Title]** = "o2"
       * **[!UICONTROL Input type]** = **[!UICONTROL Dropdown]**
       * Mark required checkbox.
