@@ -9,7 +9,7 @@ This article provides a fix for the issue where you try to export products to a 
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure 2.3.2
+* Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Issue
 
@@ -65,7 +65,7 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
 
 #### Add process as a cron job (optional)
 
-1. Make sure your cron is setup and configured. See [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html) for details.
+1. Make sure your cron is setup and configured. See [Set up cron jobs](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) for details.
 1. Run the following command to return a list of message queue consumers:     `./bin/magento queue:consumers:list`
 1. Add the following to your `.magento.env.yaml` file in the Magento `/app` directory, and include the consumers you would like to add. For example, here is the consumer required for export processing:
 
@@ -78,13 +78,13 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
                consumers:
                    - exportProcessor
    ```
-   
-   Then push this updated file and redeploy your environment. Also reference [Add custom cron jobs to your project](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html#add-cron) in our developer documentation.
+
+   Then push this updated file and redeploy your environment. Also reference [Add custom cron jobs to your project](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#add-custom-cron-jobs-to-your-project) in our developer documentation.
 
 >[!NOTE]
 >
->If you cannot find the `.magento.env.yaml` file for your environment, and you think it was deleted, you need to create a new `.magento.env.yaml`. It might be empty initially, you can add info there as required. Reference the following articles: [Build and deploy](https://devdocs.magento.com/cloud/project/magento-env-yaml.html) and [Environment variables](https://devdocs.magento.com/cloud/env/variables-intro.html) in our developer documentation.
+>If you cannot find the `.magento.env.yaml` file for your environment, and you think it was deleted, you need to create a new `.magento.env.yaml`. It might be empty initially, you can add info there as required. Reference the following articles: [Configure environment variables for deployment](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) and [Environment variables](/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) in our developer documentation.
 
 >[!NOTE]
 >
->On Adobe Commerce on cloud infrastructure Pro projects, the [auto-crons feature](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html#verify-cron-configuration-on-pro-projects) must be enabled on your Adobe Commerce on cloud infrastructure before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml`. If this feature is not enabled, [create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), to have the job added for you.
+>On Adobe Commerce on cloud infrastructure Pro projects, the [auto-crons feature](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) must be enabled on your Adobe Commerce on cloud infrastructure before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml`. If this feature is not enabled, [create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), to have the job added for you.
