@@ -515,6 +515,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48164: restricted admin cannot save website-level value](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48164-restricted-admin-cannot-save-website-level-value.md)
         * [ACSD-49013: email confirmation not translated to website locale](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49013-email-confirmation-not-translated-to-website-locale.md)
         * [ACSD-49497: order still processing after shipment and partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49497-order-is-still-processing-after-shipment-and-partial-refund.md)
+        * [ACSD-48694: Invalid state change requested error prevents customer from placing order](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48694-invalid-state-change-requested-error-prevents-customer-from-placing-order.md)
     * V1.1.28 {#v1-1-28}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.28](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/overview.md)
         * [ACSD-48857: Unable to save changes with [!DNL Page Builder]](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48857-unable-to-save-changes-after-editing-with-pagebuilder.md)
