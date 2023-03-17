@@ -1,6 +1,6 @@
 ---
 title: "ACSD-48694: Invalid state change requested error prevents customer from placing order"
-description: Apply the ACSD-48694 patch to fix the Adobe Commerce issue where the error Invalid state change requested prevents a customer from placing an order.
+description: Apply the ACSD-48694 patch to fix the Adobe Commerce issue where the error *Invalid state change requested* prevents a customer from placing an order.
 ---
 
 # ACSD-48694: *Invalid state change requested* error prevents customer from placing order
@@ -15,7 +15,7 @@ The ACSD-48694 patch fixes the issue where the error *Invalid state change reque
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) >=2.3.7 <2.3.8, >=2.4.1 <2.4.7
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.37-p4, 2.4.1 - 2.4.6
 
 >[!NOTE]
 >
