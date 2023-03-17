@@ -23,7 +23,7 @@ The ACSD-48216 patch fixes the issue where *AUTO_INCREMENT* of the *inventory_so
 
 ## Issue
 
-*AUTO_INCREMENT* of the *inventory_source_item* table increases on *UPDATE* operation.
+*AUTO_INCREMENT* of the *inventory_source_item* table increases on the *UPDATE* operation.
 
 <u>Steps to reproduce</u>:
 
