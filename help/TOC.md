@@ -29,6 +29,7 @@ breadcrumb-title: Commerce KB
   * Patches available in QPT tool {#patches}
     * [Patches available in QPT tool overview](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
     * v1.0.5 {#v1-0-5}
+        * [Overview: Quality Patches Tool (QPT) v1.0.5](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/overview.md)
         * [MDVA-28191: No payment method for one website in Admin Create New Order](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28191-magento-patch-no-payment-method-for-one-website-in-admin-create-new-order.md)
         * [MDVA-28409 patch: Adobe Commerce web server crashing - Out of memory](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28409-magento-patch-magento-web-server-crashing-out-of-memory.md)
         * [MDVA-28661: issue with company users management when changing admin email](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28661-magento-patch-issue-with-company-users-management-when-changing-admin-email.md)
@@ -41,6 +42,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-30428: wishlist not working with Inventory Management](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30428-magento-patch-wishlist-not-working-with-the-msi.md)
         * [MDVA-30593 patch: expired quotes are not cleaned up](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30593-magento-patch-expired-quotes-are-not-cleaned-up.md)
     * v1.0.6 {#v1-0-6}
+        * [Overview: Quality Patches Tool (QPT) v1.0.6](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/overview.md)
         * [MDVA-28202 patch: out of stock products don't filter properly](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28202-magento-patch-out-of-stock-products-don-t-filter-properly.md)
         * [MDVA-28300: price calculation issue with catalog price rule in GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28300-magento-patch-price-calculation-issue-with-catalog-price-rule-in-graphql.md)
         * [MDVA-28993: Elasticsearch partial search, "minimum should match" and fix for "searches with hyphen" issue](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28993-magento-patch-elasticsearch-partial-search-minimum-should-match-and-fix-for-searches-with-hyphen-issue.md)
@@ -53,6 +55,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-30977: missing products from categories, indexing related](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.md)
         * [MDVA-31006: Paypal Duplicate Orders 10415 error](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.md)
     * v1.0.7 {#v1-0-7}
+        * [Overview: Quality Patches Tool (QPT) v1.0.7](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/overview.md)
         * [MDVA-29148: ArrayBackend does not assign default value on save](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-29148-patch-arraybackend-does-not-assign-default-value-on-save.md)
         * [MDVA-29389: Advanced Reporting related cron job fails](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-29389-magento-patch-advanced-reporting-related-cron-job-fails.md)
         * [MDVA-30594: multiple address checkout errors](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-30594-magento-patch-multiple-address-checkout-errors.md)
@@ -67,6 +70,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-31282: double authorization on Paypal PayFlow Pro](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-31282-magento-patch-double-authorization-on-paypal-payflow-pro.md)
         * [MDVA-31343 patch: schedule update removes body class for category](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-31343-magento-patch-schedule-update-removes-body-class-for-category.md)
     * v1.0.8 {#v1-0-8}
+        * [Overview: Quality Patches Tool (QPT) v1.0.8](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/overview.md)
         * [MDVA-28357 SKU search in Advanced Search page doesn't work](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-28357-sku-search-in-advanced-search-page-doesn-t-work.md)
         * [MDVA-29954: wrong address sent new company user registration email](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-29954-magento-patch-wrong-address-sent-new-company-user-registration-email.md)
         * [MDVA-30112: large number reservation inconsistencies](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-30112-magento-patch-large-number-reservation-inconsistencies.md)
@@ -75,6 +79,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-31242: issue in exporting orders in CSV format](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-31242-magento-patch-issue-in-exporting-orders-in-csv-format.md)
         * [MDVA-31295: Loyalty points on partial orders](/help/support-tools/patches-available-in-qpt-tool/v1-0-8/mdva-31295-magento-patch-loyalty-points-on-partial-orders.md)
     * v1.0.9 {#v1-0-9}
+        * [Overview: Quality Patches Tool (QPT) v1.0.9](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/overview.md)
         * [MDVA-28651: B2B - quotes slow to load](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-28651-magento-patch-b2b-quotes-slow-to-load.md)
         * [MDVA-30889: Can't invoice bundle products virtual and simple](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.md)
         * [MDVA-31168 patch: Product export file does not show in Admin](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-31168-magento-patch-product-export-file-does-not-show-in-admin.md)
@@ -85,6 +90,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-32012 patch: S. Korean and Argentina zip codes validation](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-32012-magento-patch-s.-korean-and-argentina-zip-codes-validation.md)
         * [MDVA-32313 patch: products added to wishlist with wrong configuration](/help/support-tools/patches-available-in-qpt-tool/v1-0-9/mdva-32313-magento-patch-products-added-to-wishlist-with-wrong-configuration.md)
     * v1.0.12 {#v1-0-12}
+        * [Overview: Quality Patches Tool (QPT) v1.0.12](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/overview.md)
         * [MDVA-12304: 503 error on store front and cookie error](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-12304-magento-patch-503-error-on-store-front-and-cookie-error.md)
         * [MDVA-30845: checkout breaks connection to shipping provider fails](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-30845-magento-patch-checkout-breaks-connection-to-shipping-provider-fails.md)
         * [MDVA-31236: admins cannot setup 2FA or log in](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-31236-magento-patch-admins-cannot-setup-2fa-or-log-in.md)
@@ -94,6 +100,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-32632: Orders in payment system but not in Adobe Commerce](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-32632-orders-in-payment-system-but-not-in-magento.md)
         * [MDVA-32739 patch: old emails sent when asynchronous sending enabled](/help/support-tools/patches-available-in-qpt-tool/v1-0-12/mdva-32739-magento-patch-old-emails-sent-when-asynchronous-sending-enabled.md)
     * v1.0.13 {#v1-0-13}
+        * [Overview: Quality Patches Tool (QPT) v1.0.13](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/overview.md)
         * [MCP-87 Adobe Commerce patch: storefront broken](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mcp-87-magento-patch-storefront-broken.md)
         * [MDVA-13203 patch: 503 error homepage post full reindex](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-13203-magento-patch-503-error-homepage-post-full-reindex.md)
         * [MDVA-19391: Advanced Reporting not working](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-19391-magento-patch-advanced-reporting-not-working.md)
@@ -106,6 +113,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-32714 patch: customer group price not working via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-32714-magento-patch-customer-group-price-not-working-via-graphql.md)
         * [MDVA-33106 patch: rescheduled product changes erased after cron run](/help/support-tools/patches-available-in-qpt-tool/v1-0-13/mdva-33106-magento-patch-rescheduled-product-changes-erased-after-cron-run.md)
     * v1.0.14 {#v1-0-14}
+        * [Overview: Quality Patches Tool (QPT) v1.0.14](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/overview.md)
         * [MDVA-24201: Catalog price rules don't work](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
         * [MDVA-28511: accented letters hang Payflow payments](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-28511-magento-patch-accented-letters-hang-payflow-payments.md)
         * [MDVA-31519 patch: lost order after guest checkout](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-31519-magento-patch-lost-order-after-guest-checkout.md)
@@ -116,6 +124,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-33516 patch: edit bundled product Requisition List error](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-33516-magento-patch-edit-bundled-product-requisition-list-error.md)
         * [MDVA-33975 patch: GraphQL price calculations](/help/support-tools/patches-available-in-qpt-tool/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.md)
     * v1.0.15 {#v1-0-15}
+        * [Overview: Quality Patches Tool (QPT) v1.0.15](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/overview.md)
         * [MDVA-27664 patch: date of birth account error](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/mdva-27664-magento-patch-date-of-birth-account-error.md)
         * [MDVA-32759 patch: shared catalogs delete tier pricing](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/mdva-32759-magento-patch-shared-catalogs-delete-tier-pricing.md)
         * [MDVA-33393 patch: provided countryId does not exist](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.md)
@@ -129,6 +138,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-34023 patch: "No such entity with addressId" error](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/mdva-34023-magento-patch-no-such-entity-with-addressid-error.md)
         * [MDVA-34469: Wrong store code specified for cart](/help/support-tools/patches-available-in-qpt-tool/v1-0-15/mdva-34469-magento-patch-wrong-store-code-specified-for-cart.md)
     * v1.0.16 {#v1-0-16}
+        * [Overview: Quality Patches Tool (QPT) v1.0.16](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/overview.md)
         * [MDVA-32634 patch: move category in hierarchy url_path wrong](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/mdva-32634-magento-patch-move-category-in-hierarchy-url-path-wrong.md)
         * [MDVA-33344 patch: "rma-item" attribute set ID hard-coded](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/mdva-33344-magento-patch-rma-item-attribute-set-id-hard-coded.md)
         * [MDVA-33453: Page Builder preview breaks product price differs across sites](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/mdva-33453-page-builder-preview-breaks-product-price-differs-across-sites.md)
@@ -136,6 +146,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-34847: customer_grid_flat table slow queries](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/mdva-34847-magento-patch-customer-grid-flat-table-slow-queries.md)
         * [MDVA-34886: no search results when "weight" attribute used](/help/support-tools/patches-available-in-qpt-tool/v1-0-16/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
     * v1.0.17 {#v1-0-17}
+        * [Overview: Quality Patches Tool (QPT) v1.0.17](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/overview.md)
         * [MDVA-34012 patch: attribute checkbox changes in error](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/mdva-34012-magento-patch-attribute-checkbox-changes-in-error.md)
         * [MDVA-34850: swatches not strike-through inventory reaches "0"](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/mdva-34850-swatches-not-strike-through-inventory-reaches-0.md)
         * [MDVA-34867: Condition fieldset values for Scheduled Update not saved](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/mdva-34867-magento-patch-condition-fieldset-values-for-scheduled-update-not-saved.md)
@@ -144,6 +155,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-35092: Vimeo Error: "Video not found"](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/mdva-35092-magento-patch-vimeo-error-video-not-found.md)
         * [MDVA-35197: GraphQL add to cart error if added products out of stock](/help/support-tools/patches-available-in-qpt-tool/v1-0-17/mdva-35197-graphql-add-to-cart-error-if-added-products-out-of-stock.md)
     * v1.0.18 {#v1-0-18}
+        * [Overview: Quality Patches Tool (QPT) v1.0.18](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/overview.md)
         * [MDVA-32655: "quoteItemCleaner" consumer executes one message per execution](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/mdva-32655-quoteitemcleaner-consumer-executes-one-message-per-execution.md)
         * [MDVA-34102: inconsistent salable quantity](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/mdva-34102-magento-patch-inconsistent-salable-quantity.md)
         * [MDVA-34189: Visual merchandiser runs long MySQL queries](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/mdva-34189-visual-merchandiser-runs-long-mysql-queries.md)
@@ -151,6 +163,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-35286: error switching Multiple Address to Onepage checkout](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/mdva-35286-error-switching-multiple-address-to-onepage-checkout.md)
         * [MDVA-35312: empty GraphQL request throws 500 error not 200 OK](/help/support-tools/patches-available-in-qpt-tool/v1-0-18/mdva-35312-empty-graphql-request-throws-500-error-not-200-ok.md)
     * v1.0.19 {#v1-0-19}
+        * [Overview: Quality Patches Tool (QPT) v1.0.19](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/overview.md)
         * [MDVA-31307: Out of memory on certain categories](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.md)
         * [MDVA-33289 patch: Javascript in address at checkout](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/mdva-33289-magento-patch-javascript-in-address-at-checkout.md)
         * [MDVA-33614 patch: can't save Terms page](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/mdva-33614-magento-patch-can-t-save-terms-page.md)
@@ -166,6 +179,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-35910: form validation broken when "Login as Customer" disabled](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/mdva-35910-form-validation-broken-when-login-as-customer-disabled.md)
         * [MDVA-35982: Can't ship some orders](/help/support-tools/patches-available-in-qpt-tool/v1-0-19/mdva-35982-magento-patch-can-t-ship-some-orders.md)
     * v1.0.20 {#v1-0-20}
+        * [Overview: Quality Patches Tool (QPT) v1.0.20](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/overview.md)
         * [MC-41359 commerce patch: missing settings SameSite cookie param](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/mc-41359-magento-patch-missing-settings-samesite-cookie-param.md)
         * [MDVA-11189: cataloginventory_stock rows deleted post CSV import](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/mdva-11189-cataloginventory-stock-rows-deleted-post-csv-import.md)
         * [MDVA-15546: Column 'entity_id' where clause is ambiguous](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/mdva-15546-column-entity-id-where-clause-is-ambiguous.md)
@@ -177,6 +191,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-33168: API async endpoint unsets special price](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/mdva-33168-api-async-endpoint-unsets-special-price.md)
         * [MDVA-36170: GraphQL query to category returns not cached data](/help/support-tools/patches-available-in-qpt-tool/v1-0-20/mdva-36170-graphql-query-to-category-returns-not-cached-data.md)
     * v1.0.21 {#v1-0-21}
+        * [Overview: Quality Patches Tool (QPT) v1.0.21](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/overview.md)
         * [MDVA-34665: bundle products disappear storefront category page](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/mdva-34665-bundle-products-disappear-storefront-category-page.md)
         * [MDVA-35984: Wrong product Qty in concurrent shipments for same product](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/mdva-35984-wrong-product-qty-in-concurrent-shipments-for-same-product.md)
         * [MDVA-36138: free shipping rule not applied cart multiple items](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/mdva-36138-free-shipping-rule-not-applied-cart-multiple-items.md)
@@ -184,6 +199,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-36464: Send email settings not working at store-view level](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/mdva-36464-send-email-settings-not-working-at-store-view-level.md)
         * [MDVA-36615: catalog products grid filter incorrect results](/help/support-tools/patches-available-in-qpt-tool/v1-0-21/mdva-36615-catalog-products-grid-filter-incorrect-results.md)
     * v1.0.22 {#v1-0-22}
+        * [Overview: Quality Patches Tool (QPT) v1.0.22](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/overview.md)
         * [MDVA-35773: Tax appears on invoice with 100% discount](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.md)
         * [MDVA-36253: Incorrect total in mini cart after deleting item](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/mdva-36253-incorrect-total-in-mini-cart-after-deleting-item.md)
         * [MDVA-36718: Custom options remain after API change](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/mdva-36718-custom-options-remain-after-api-change.md)
@@ -191,6 +207,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-36853: No images load from large media galleries](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/mdva-36853-no-images-load-from-large-media-galleries.md)
         * [MDVA-37182: inconsistent search results in ElasticSearch 6 and 7](/help/support-tools/patches-available-in-qpt-tool/v1-0-22/mdva-37182-inconsistent-search-results-for-elasticsearch-6-and-7.md)
     * v1.0.23 {#v1-0-23}
+        * [Overview: Quality Patches Tool (QPT) v1.0.23](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/overview.md)
         * [MDVA-30186: Unsorted attribute options in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/mdva-30186-unsorted-attribute-options-in-graphql-response.md)
         * [MDVA-36286: Page Builder preview breaks if SKU positions in different categories](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/mdva-36286-page-builder-preview-breaks-if-sku-positions-are-in-different-categories.md)
         * [MDVA-37224: Unable to pay "negotiable quote" with PayFlow Pro](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/mdva-37224-unable-to-pay-negotiable-quote-with-payflow-pro.md)
@@ -199,33 +216,39 @@ breadcrumb-title: Commerce KB
         * [MDVA-37362: Configurable product options are empty in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/mdva-37362-configurable-product-options-are-empty-in-graphql-response.md)
         * [MDVA-37478: Can't create partial invoice via REST API](/help/support-tools/patches-available-in-qpt-tool/v1-0-23/mdva-37478-can-t-create-partial-invoice-via-rest-api.md)
     * v1.0.24 {#v1-0-24}
+        * [Overview: Quality Patches Tool (QPT) v1.0.24](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/overview.md)
         * [MDVA-34330: Orders not filtered according to admin timezone](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/mdva-34330-orders-are-not-filtered-according-to-admin-timezone.md)
         * [MDVA-36832: Images duplicate on pages with 768px view width](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/mdva-36832-images-duplicates-on-pages-with-view-width-of-768px.md)
         * [MDVA-37779: Unable to add configurable product to cart via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/mdva-37779-unable-to-add-configurable-product-to-cart-via-graphql.md)
         * [MDVA-37874: Fixed discount not applied to entire cart](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/mdva-37874-fixed-discount-not-applied-to-entire-cart.md)
         * [MDVA-37913: Product download links vanish after updating extension attributes via API](/help/support-tools/patches-available-in-qpt-tool/v1-0-24/mdva-37913-downloadable-product-links-disappear-after-updating-extension-attributes-via-api.md)
     * v1.0.25 {#v1-0-25}
+        * [Overview: Quality Patches Tool (QPT) v1.0.25](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/overview.md)
         * [MDVA-36572: New inventory reservation created after updating credit memo](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-36572-new-inventory-reservation-created-after-updating-credit-memo.md)
         * [MDVA-37082: Incorrect partial index of stock status for grouped products](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-37082-incremental-indexing-of-grouped-product-child-products-can-cause-incorrect-other-grouped-products.md)
         * [MDVA-37916: PayPal Payments Advanced not returning to confirmation page](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-37916-paypal-payment-advance-not-returning-to-confirmation-page.md)
         * [MDVA-38132: Infinite redirect when backend URL is different from default website URL](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-38132-infinite-redirect-in-case-of-backend-url-is-different-from-default-website-url.md)
         * [MDVA-38270: Gift card amount missing from Customer Order Total](/help/support-tools/patches-available-in-qpt-tool/v1-0-25/mdva-38270-customer-order-totals-missing-gift-card-amount.md)
     * v1.0.26 {#v1-0-26}
+        * [Overview: Quality Patches Tool (QPT) v1.0.26](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/overview.md)
         * [MDVA-34680: Customer Account not filtered correctly in customers' grid](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-34680-customer-account-created-time-is-not-filtered-correctly-in-customers-grid.md)
         * [MDVA-37068: Incorrect tax displayed on Checkout for virtual products](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-37068-incorrect-tax-rate-displays-on-checkout-for-virtual-products.md)
         * [MDVA-38308: Error after adding Vimeo videos to disabled products](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38308-error-after-adding-vimeo-videos-to-disabled-products.md)
         * [MDVA-38468: Receive an error message when saving CMS page](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38468-error-when-saving-cms-pages.md)
         * [MDVA-38608: Temporary tables not deleted for unsuccessful reindexes](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38608-temporary-tables-are-not-deleted-when-the-reindex-is-not-finished-successfully.md)
     * v1.1.0 {#v1-1-0}
+        * [Overview: Quality Patches Tool (QPT) v1.1.0](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/overview.md)
         * [MDVA-37592: Sorting by price not working for products with price zero](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/mdva-37592-sorting-by-price-does-not-work-correctly-for-products-with-a-zero-price-assigned-to-shared-catalog.md)
         * [MDVA-38799: Downloadable products not saved after creating a staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/mdva-38799-downloadable-products-were-not-saved-after-creating-a-staging-update.md)
         * [MDVA-38827: Customers receive order shipment error via email](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/mdva-38827-customers-receive-an-order-shipment-email-containing-an-error-message.md)
     * v1.1.1 {#v1-1-1}
+        * [Overview: Quality Patches Tool (QPT) v1.1.1](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/overview.md)
         * [MDVA-34948: Slowing of website](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/mdva-34948-slow-site-and-operations.md)
         * [MDVA-36021: Users get error message when opening order details](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/mdva-36021-call-to-a-member-function-getid-error-on-the-order-details-page.md)
         * [MDVA-37897: Incorrect redirect when adding products from Recently Viewed](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/mdva-37897-incorrect-redirect-when-customers-try-to-add-products-with-options-from-recently-viewed-widget.md)
         * [MDVA-39305: Login issue with enabled Google reCAPTCHA](/help/support-tools/patches-available-in-qpt-tool/v1-1-1/mdva-39305-login-issues-with-enabled-google-recaptcha.md)
     * v1.1.2 {#v1-1-2}
+        * [Overview: Quality Patches Tool (QPT) v1.1.2](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/overview.md)
         * [MDVA-37115: "Only 0 left" notice is shown on product page](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-37115-unnecessary-only-0-left-notice-is-shown-on-the-configurable-product-page.md)
         * [MDVA-37364: Custom customer attribute of date type breaks Grid UI](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-37364-custom-customer-attribute-of-date-type-breaks-the-customer-grid-ui.md)
         * [MDVA-38447: "Not visible individually" configurable child products are returned in GraphQL response and slow MySQL query](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-38447-not-visible-individually-configurable-child-products.md)
@@ -241,6 +264,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-39986: Unable to place orders in admin in Safari browser on macOS](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-39986-unable-to-place-order-in-admin-using-safari-browser-in-macos.md)
         * [MDVA-40134: GraphQL not returning related products when shared catalog is enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-40134-graphql-does-not-return-related-products-when-shared-catalog-is-enabled.md)
     * v1.1.3 {#v1-1-3}
+        * [Overview: Quality Patches Tool (QPT) v1.1.3](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/overview.md)
         * [MDVA-31590: Unable to update attributes in bulk using MySQL async queues](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-31590-unable-to-update-attributes-in-bulk-using-mysql-async-queues.md)
         * [MDVA-33606: Users get error when saving CMS page assigned to hierarchy](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-33606-users-get-error-when-saving-cms-page-assigned-to-hierarchy.md)
         * [MDVA-36309: Products search by attributes is slow in admin grids](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-36309-product-search-by-attributes-is-slow-in-the-admin-grids.md)
@@ -248,6 +272,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-40262: GraphQL queries don't show in popular search terms in admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-40262-graphql-queries-dont-show-in-popular-search-terms-in-admin.md)
         * [MDVA-40601: Unable to retrieve data about category changed by scheduled update via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-40601-users-get-error-retrieving-info-about-category-changed-by-scheduled-update-through-graphql.md)
     * v1.1.4 {#v1-1-4}
+        * [Overview: Quality Patches Tool (QPT) v1.1.4](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/overview.md)
         * [MC-42528: GraphQL query of categoryList shows all categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mc-42528-graphql-query-of-categorylist-shows-all-categories.md)
         * [MDVA-25631: Unable to save and refresh customer segments](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-25631-unable-to-save-and-refresh-customer-segments.md)
         * [MDVA-26005: Unable to select category in tree for Cart Price rule conditions](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-26005-unable-to-select-category-in-tree-for-cart-price-rule-conditions.md)
@@ -260,6 +285,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-40435: Discount on bundle product is not applied correctly via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-40435-discount-on-bundle-product-is-not-applied-correctly-via-graphql.md)
         * [MDVA-40537: Creating store view gives error when several CMS pages have same URL Key.](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-40537-creating-store-view-gives-error-when-multiple-cms-pages-with-same-url-keys-exist.md)
     * v1.1.5 {#v1-1-5}
+        * [Overview: Quality Patches Tool (QPT) v1.1.5](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/overview.md)
         * [MDVA-31763: Catalog price rules are reverted until manual reindex](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-31763-catalog-price-rules-are-reverted-until-manual-reindex.md)
         * [MDVA-37748: GraphQL query returns products not assigned to shared catalog](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-37748-graphql-query-returns-products-not-assigned-to-shared-catalog.md)
         * [MDVA-39229: Error after updating Catalog rule Staging update start time](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-39229-error-updating-catalog-rule-staging-update-start-time.md)
@@ -270,6 +296,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-41164: Cannot save or edit Company with custom customer attributes](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-41164-admin-user-cannot-save-or-edit-company-with-custom-customer-attributes.md)
         * [MDVA-41236: Unable to create new or edit existing scheduled updates for product](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-41236-unable-to-create-new-or-edit-existing-scheduled-staging-update.md)
     * v1.1.6 {#v1-1-6}
+        * [Overview: Quality Patches Tool (QPT) v1.1.6](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/overview.md)
         * [MDVA-27456: Users get an error when loading Swagger](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/mdva-27456-users-get-error-when-loading-swagger.md)
         * [MDVA-30862: Incorrect order date on printed PDF invoice](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/mdva-30862-incorrect-order-date-on-printed-pdf-invoice.md)
         * [MDVA-32776: Stock status not updated with order placement](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/mdva-32776-stock-status-not-updated-when-order-placed.md)
@@ -280,11 +307,13 @@ breadcrumb-title: Commerce KB
         * [MDVA-41399: Unable to access the Manage Shopping Cart if a customer adds product to wishlist](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/mdva-41399-unable-to-access-manage-shopping-cart-if-a-customer-adds-product-to-wishlist.md)
         * [MDVA-41597: Error adding more than one configurable product to cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-6/mdva-41597-error-adding-more-than-one-configurable-product-to-cart.md)
     * v1.1.7 {#v1-1-7}
+        * [Overview: Quality Patches Tool (QPT) v1.1.7](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/overview.md)
         * [MDVA-27239: Cross-sell products are not displayed](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/mdva-27239-cross-sell-products-are-not-displayed.md)
         * [MDVA-39711: Unable to access customers grid after deleting website](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/mdva-39711-unable-to-access-customers-grid-after-deleting-website.md)
         * [MDVA-40311: "Invalid security or form key" error after login into Admin if custom admin path is configured](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/mdva-40311-invalid-security-error-after-login-to-admin-if-custom-admin-path-is-configured.md)
         * [MDVA-41631: Error retrieving order information without optional "telephone" value](/help/support-tools/patches-available-in-qpt-tool/v1-1-7/mdva-41631-error-retrieving-order-information-without-optional-telephone-value.md)
     * v1.1.8 {#v1-1-8}
+        * [Overview: Quality Patches Tool (QPT) v1.1.8](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/overview.md)
         * [MDVA-38393: Catalog rules stop working for configurable product if its simple product is re-named](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/mdva-38393-catalog-rules-stop-working-for-configurable-product-if-its-simple-product-is-renamed.md)
         * [MDVA-39153: Discount amount is calculated incorrectly during reorder in the Admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/mdva-39153-discount-amount-is-calculated-incorrectly-during-reorder-in-the-admin.md)
         * [MDVA-41139: Configurable product becomes out of stock after product import](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/mdva-41139-configurable-product-becomes-out-of-stock-after-product-import.md)
@@ -292,6 +321,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-42326: Customers get error on checkout after session timeout](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/mdva-42326-customers-get-error-on-checkout-after-session-timeout.md)
         * [MDVA-42341: "categoryList" GraphQL query does not filter results](/help/support-tools/patches-available-in-qpt-tool/v1-1-8/mdva-42341-categorylist-graphql-query-does-not-filter-results.md)
     * v1.1.9 {#v1-1-9}
+        * [Overview: Quality Patches Tool (QPT) v1.1.9](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/overview.md)
         * [MDVA-37984: Visual Merchandiser not working correctly when staging updates are applied](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/mdva-37984-visual-match-product-by-rule-functionality-not-filtering-products-correctly.md)
         * [MDVA-38346: Date filters not working when Adobe Commerce timezone is different from local](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/mdva-38346-date-filters-not-working-properly-when-adobe-commerce-timezone-is-different-from-local.md)
         * [MDVA-38526: Admin user is not able to access SWAT tool](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/mdva-38526-admin-user-not-able-to-access-swat-tool.md)
@@ -303,6 +333,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-42657: Unable to select categories in the customer segment conditions](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/mdva-42657-unable-to-select-categories-in-customer-segment-conditions.md)
         * [MDVA-42806: New company registration email is sent each time existing company is updated](/help/support-tools/patches-available-in-qpt-tool/v1-1-9/mdva-42806-new-company-registration-email-is-sent-each-time-an-existing-company-is-updated-via-reset-api.md)
     * v1-1-10 {#v1-1-10}
+        * [Overview: Quality Patches Tool (QPT) v1.1.10](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/overview.md)
         * [MDVA-38728: Changing product visibility creates URL rewrite for the main website](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/mdva-38728-changing-product-visibility-creates-url-rewrite-for-the-main-website.md)
         * [MDVA-39181: Related product rules show products from category undefined in rule](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/mdva-39181-related-product-rules-show-products-from-category-not-defined-in-rule.md)
         * [MDVA-40175: Radio buttons not displayed when reorder](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/mdva-40175-radio-buttons-not-displayed-when-reorder-by-admin.md)
@@ -313,6 +344,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-43091: Unable to order bundled product from Admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/mdva-43091-unable-to-order-bundled-product-from-admin.md)
         * [MDVA-43201: Error when using DOB field with locale PT](/help/support-tools/patches-available-in-qpt-tool/v1-1-10/mdva-43201-error-when-using-dob-field-with-locale-pt.md)
     * v1.1.11 {#v1-1-11}
+        * [Overview: Quality Patches Tool (QPT) v1.1.11](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/overview.md)
         * [MDVA-40830: Store credit applied multiple times during order](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/mdva-40830-store-credit-applied-multiple-times.md)
         * [MDVA-41350: Exception when admin adds products outside their access](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/mdva-41350-exception-when-admin-adds-products-outside-scope.md)
         * [MDVA-42237: Configurable product special price not updated](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/mdva-42237-configurable-product-special-price-not-updated.md)
@@ -320,6 +352,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-42520: Tax rate applied twice when "Enable Cross Border Trade" is used](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/mdva-42520-tax-rate-applied-twice-when-enable-cross-border-trade-is-used.md)
         * [MDVA-42790: Product price attributes cannot be updated for specific website via REST API](/help/support-tools/patches-available-in-qpt-tool/v1-1-11/mdva-42790-product-price-attributes-cannot-be-updated-for-specific-website-via-rest-api.md)
     * v1-1-12 {#v1-1-12}
+        * [Overview: Quality Patches Tool (QPT) v1.1.12](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/overview.md)
         * [MDVA-39546: Staging Update start date can be set to a date earlier than current date](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/mdva-39546-staging-update-start-date-set-to-earlier-date-than-current-date.md)
         * [MDVA-39713: User is able to edit start time of active scheduled update](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/mdva-39713-user-able-to-edit-start-time-for-active-scheduled-update.md)
         * [MDVA-39993: Inventory changes done through API are not reflected on storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/mdva-39993-inventory-changes-done-through-api-are-not-reflected-on-the-frontend.md)
@@ -337,6 +370,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-43726: Catalog price rule fails to apply after partial reindex](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/mdva-43726-catalog-price-rule-fails-to-apply-after-partial-reindex.md)
         * [MDVA-43731: Search Synonyms don't work when value is added in 'Minimum Terms to Match'](/help/support-tools/patches-available-in-qpt-tool/v1-1-12/mdva-43731-search-synonyms-dont-work-when-value-added-in-minimum-terms-to-match.md)
     * v1.1.13 {#v1-1-13}
+        * [Overview: Quality Patches Tool (QPT) v1.1.13](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/overview.md)
         * [MDVA-39605 Redis cache TTL expiration date has wrong value](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/mdva-39605-redis-cache-ttl-expiration-date-has-wrong-value.md)
         * [MDVA-42046: Incorrect value assigned for product attribute](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/mdva-42046-incorrect-value-assigned-for-product-attribute.md)
         * [MDVA-42283: Date-time format for French locale is invalid](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/mdva-42283-date-time-format-for-french-locale-invalid.md)
@@ -349,6 +383,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-43935: Upsell product shown twice on product page](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/mdva-43935-upsell-product-shown-twice-on-product-page.md)
         * [MDVA-44188: Emails are not sent to IDs containing ".-"](/help/support-tools/patches-available-in-qpt-tool/v1-1-13/mdva-44188-emails-are-not-sent.md)
     * v1.1.14 {#v1-1-14}
+        * [Overview: Quality Patches Tool (QPT) v1.1.14](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/overview.md)
         * [MDVA-43102: Salable quantity not updated correctly](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/mdva-43102-salable-quantity-not-updated-correctly.md)
         * [MDVA-43178: Customer token for custom store cannot be retrieved in GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/mdva-43178-customer-token-for-custom-store-cannot-be-retrieved.md)
         * [MDVA-43605: Order data returns negative values for row totals when using Rest API](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/mdva-43605-order-data-returns-negative-values-for-row-totals-when-using-rest-api.md)
@@ -358,6 +393,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-44147: GraphQL request doesn't return Requisition Lists](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/mdva-44147-graphql-request-doesnt-return-requisition-lists.md)
         * [MDVA-44505: GraphQL query for cart applying reward points does not update grand total](/help/support-tools/patches-available-in-qpt-tool/v1-1-14/mdva-44505-graphql-applying-reward-points-does-not-update-grand-total.md)
     * v1.1.15 {#v1-1-15}
+        * [Overview: Quality Patches Tool (QPT) v1.1.15](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/overview.md)
         * [MDVA-38559: /V1/customers/search API returns error](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/mdva-38559-v1-customers-search-api-error.md)
         * [MDVA-40896: 'Error: TypeError: Argument 3' error in async product](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/mdva-40896-error-typeerror-in-async-product.md)
         * [MDVA-40961: Additional item can't be added to cart when minimum qty of item is already in cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/mdva-40961-additional-item-cant-be-added-to-cart-when-minimum-qty-of-the-item-already-in-cart.md)
@@ -366,6 +402,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-44660: Grave accent character cannot be used for customer's name](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/mdva-44660-grave-accent-character-cannot-be-used-for-customer-name.md)
         * [MDVA-44887: 'Uncaught SyntaxError: Unexpected token const' error in Admin panel](/help/support-tools/patches-available-in-qpt-tool/v1-1-15/mdva-44887-uncaught-syntaxerror-unexpected-token-const-error-in-admin-panel.md)
     * v1.1.16 {#v1-1-16}
+        * [Overview: Quality Patches Tool (QPT) v1.1.16](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/overview.md)
         * [MDVA-42509: CSV could not be uploaded for quick order resulting in 'Unable to send the cookie' error](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/mdva-42509-csv-could-not-be-uploaded-for-quick-order-resulting-in-unable-to-send-the-cookie-error.md)
         * [MDVA-43167: Admin order grid mass action doesn't apply for multi-page](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/mdva-43167-admin-order-grid-mass-doesnt-apply-multipage.md)
         * [MDVA-44044: Product not displayed on category page after it is assigned to new website](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/mdva-44044-product-not-displayed-on-category-page-after-it-is-assigned-to-new-website.md)
@@ -373,6 +410,7 @@ breadcrumb-title: Commerce KB
         * [MDVA-44703: Order totals in Orders report are miscalculated](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/mdva-44703-order-totals-in-order-report-miscalculated.md)
         * [MDVA-44940: SQL error while saving category from admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-16/mdva-44940-sql-error-while-saving-category-from-admin.md)
     * v1.1.17 {#v1-1-17}
+        * [Overview: Quality Patches Tool (QPT) v1.1.17](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/overview.md)
         * [ACSD-42807: Custom currency sign not displayed on storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-42807-custom-currency-sign-not-displayed-on-store-front.md)
         * [ACSD-43887: Incorrect details displayed on checkout payment page](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-43887-incorrect-details-displayed-on-checkout-payment-page.md)
         * [ACSD-44591: Errors when order without CAPTCHA confirmation](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-44591-user-gets-error-when-trying-to-place-order-without-captcha-confirmation.md)
@@ -382,6 +420,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-45424: Incorrect reservation compensation created after partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-45424-incorrect-reservation-compensation-created-after-partial-refund.md)
         * [ACSD-45520: Swatch options not selected on product detail page](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-45520-swatch-options-not-pre-selected-on-product-detail-page.md)
     * v1.1.18 {#v1-1-18}
+        * [Overview: Quality Patches Tool (QPT) v1.1.18](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/overview.md)
         * [ACSD-44938: VAT_ID cannot be applied in GraphQL request for guest user](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-44938-vat-id-cannot-applied-graphql-guest-user.md)
         * [ACSD-45255: Exception on Low Stock report page for restricted admin user](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45255-exception-on-low-stock-report-page-for-restricted-admin-user.md)
         * [ACSD-45257: GraphQL doesn't display cart discount correctly](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45257-graphql-doesnt-display-cart-discount-correctly.md)
@@ -391,11 +430,13 @@ breadcrumb-title: Commerce KB
         * [ACSD-45849: Video metadata is lost after staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45849-video-metadata-lost-after-staging-update.md)
         * [ACSD-46146: Two order confirmation emails sent after placing order from admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-46146-two-order-confirmation-emails-are-sent-after-placing-order-from-admin.md)
     * v1.1.19 {#v1-1-19}
+        * [Overview: Quality Patches Tool (QPT) v1.1.19](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/overview.md)
         * [ACSD-45781: Store front search field not displayed on mobile](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-45781-store-front-search-field-not-displayed-on-mobile.md)
         * [ACSD-46213: Category tree request limited to 20 categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46213-category-tree-limited-20-categories.md)
         * [ACSD-46404: Admin user cannot log in after upgrading to 2.4.4](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46404-admin-user-cannot-log-in-after-upgrading-to-2.4.4.md)
         * [ACSD-46912: Issue with async/bulk/V1/configurable-products/bySku/options endpoint](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46912-async-bulk-v1-configurable-products-bysku-options-endpoint-issue.md)
     * v1.1.20 {#v1-1-20}
+        * [Overview: Quality Patches Tool (QPT) v1.1.20](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/overview.md)
         * [ACSD-44851: Category with subcategories not able to open or expand](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.md)
         * [ACSD-45675: Product export uses category names from default store view scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/acsd-45675-product-export-uses-category-names-from-default-storeview-scope.md)
         * [ACSD-46520: Incorrect order status when refunded using store credits](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/acsd-46520-incorrect-order-status-when-refunded-using-store-credits.md)
@@ -403,6 +444,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-46869: Configurable products not updating using REST API at checkout](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/acsd-46869-configurable-products-not-updating-using-rest-api.md)
         * [ACSD-46815: static content deploy fails using compact strategy](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/acsd-46815-static-content-deploy-fails-when-using-compact-strategy.md)
     * v1.1.21 {#v1-1-21}
+        * [Overview: Quality Patches Tool (QPT) v1.1.21](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/overview.md)
         * [ACSD-45071: default source added to product during import](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/acsd-45071-default-source-added-to-product-during-import.md)
         * [ACSD-46541: An admin user cannot create a credit memo if an order item is deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/acsd-46541-admin-user-cannot-create-credit-memo-if-order-item-deleted.md)
         * [ACSD-46581: Estimated tax total is not updated after selecting a country in the shopping cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/acsd-46581-estimated-tax-total-is-not-updated-after-selecting-a-country-in-the-shopping-cart.md)
@@ -413,10 +455,12 @@ breadcrumb-title: Commerce KB
         * [ACSD-46988: GraphQL currency API request returns null values](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/acsd-46988-graphql-currency-api-request-returns-null-values.md)
         * [ACSD-47076: Vimeo videos cannot be played on the storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-21/acsd-47076-venmo-videos-cannot-be-played-on-the-storefront.md)
     * v1.1.22 {#v1-1-22}
+        * [Overview: Quality Patches Tool (QPT) v1.1.22](/help/support-tools/patches-available-in-qpt-tool/v1-1-22/overview.md)
         * [ACSD-47106: New custom attribute on company creation page not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-22/acsd-47106-new-custom-attribute-on-company-creation-page-not-saved.md)
         * [ACSD-47444: [!UICONTROL Trying to access array offset on value of type bool] error when accessing certain non-existing category paths for known products on PHP 7.4](/help/support-tools/patches-available-in-qpt-tool/v1-1-22/acsd-47444-trying-access-array-offset-value-type-bool-error.md)
         * [ACSD-47332: cron fails with error reported only when running between 00:00 to 00:59 UTC](/help/support-tools/patches-available-in-qpt-tool/v1-1-22/acsd-47332-cron-fails-with-error-reported-between-00-59.md)
     * v1.1.23 {#v1-1-23}
+        * [Overview: Quality Patches Tool (QPT) v1.1.23](/help/support-tools/patches-available-in-qpt-tool/v1-1-23/overview.md)
         * [ACSD-46519: product_count in [!UICONTROL categoryList] [!DNL GraphQL] query returns 0 for anchor categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-23/acsd-46519-product-count-categorylist-graphql-query-returns-zero-anchor-categories.md)
         * [ACSD-47027: slow query in B2B [!UICONTROL CompanyRole] [!DNL GraphQL update]](/help/support-tools/patches-available-in-qpt-tool/v1-1-23/acsd-47027-slow-query-b2b-companyrole-graphql-update.md)
         * [ACSD-47666: search in User Roles does not work](/help/support-tools/patches-available-in-qpt-tool/v1-1-23/acsd-47666-search-in-user-roles-not-working.md)
@@ -425,6 +469,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47107: catalog price rule is applied to custom options](/help/support-tools/patches-available-in-qpt-tool/v1-1-23/acsd-47107-catalog-price-rule-is-applied-to-custom-options.md)
         * [ACSD-47497: missing ACL for Store / Configuration / Services OAuth](/help/support-tools/patches-available-in-qpt-tool/v1-1-23/acsd-47497-missing-acl-for-store-configuration-services-oaut.md)
     * V1.1.24 {#v1-1-24}
+        * [Overview: Quality Patches Tool (QPT) v1.1.24](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/overview.md)
         * [ACSD-46865: shipment and credit memo not populated when asynchronous indexing is enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-46865-shipment-and-credit-memo-grid-not-populated-when-asynchronous-indexing-is-enabled.md)
         * [ACSD-47559: email template preview not fully visible](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-47559-preview-email-template-not-fully-visible.md)
         * [ACSD-45168: SEO-friendly URLs not generated for products that have url_key attributes overridden](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-45168-seo-friendly-urls-not-generated-for-products-that-have-url-key-attributes-overridden-on-store-view-level.md)
@@ -438,6 +483,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47803: out-of-stock configurable product swatches displayed as available](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.md)
         * [ACSD-46617: Continue to Checkout button greyed out when subtotal greater than Minimum Order Amount](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-46617-continue-to-checkout-button-greyed-out.md)
     * V1.1.25 {#v1-1-25}
+        * [Overview: Quality Patches Tool (QPT) v1.1.25](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/overview.md)
         * [ACSD-48627: out-of-stock configurable product causes an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48627-out-of-stock-configurable-product-causes-an-error.md)
         * [ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL Display Out of Stock Products] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48234-catalog-search-result-shows-incorrect-category-item-count-when-show-out-of-stock-option-enabled.md)
         * [ACSD-47520: customers lose reward points when a credit memo is created](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-47520-customers-lose-reward-points-when-credit-memo-created.md)
@@ -450,6 +496,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48058: product price reindex not working if bundled product not assigned website](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48058-product-price-reindex-not-working-if-bundled-product-not-assigned-website.md)
         * [ACSD-48293: composite products out of stock when sold out child products restocked](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48293-composite-products-go-out-of-stock.md)
     * V1.1.26 {#v1-1-26}
+        * [Overview: Quality Patches Tool (QPT) v1.1.26](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/overview.md)
         * [ACSD-48773: Reward points email template taken from wrong store](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48773-reward-points-email-template-taken-from-wrong-store.md)
         * [ACSD-47937: price drop notifications not sent due to application-level caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47937-price-drop-notifications-are-not-sent.md)
         * [ACSD-48661: company credit limit comma separator validation issue](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48661-company-credit-limit-comma-separator-validation.md)
@@ -460,6 +507,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-48417: SQL error after creating a schedule change](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48417-sql-error-after-creating-a-schedule-change.md)
     * V1.1.27 {#v1-1-27}
         * [Overview](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/overview.md)
+        * [ACSD-48634: [!DNL JS] errors when [!DNL Google Analytics Content Experiments] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48634-js-errors-when-google-analytics-content-experiments-enabled.md)
+        * [ACSD-49042: Product with infinite backorder can't be ordered from storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49042-product-with-infinite-backorder-cant-be-ordered-from-storefront.md)
         * [ACSD-47908: a value less than or equal to 0 is expected error during checkout](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-47908-a-value-less-than-or-equal-to-0-is-expected-error-during-checkout.md)
         * [ACSD-48059: merchants cannot save Match product by rule for Categories attribute](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48059-merchants-cannot-save-the-match-product-by-rule-for-categories-attribute.md)
         * [ACSD-48362: the default shipping address is used instead of a new one](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48362-fixes-the-issue-where-the-default-shipping-address-is-used-instead-of-a-new-one.md)
@@ -469,6 +518,7 @@ breadcrumb-title: Commerce KB
     * V1.1.28 {#v1-1-28}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.28](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/overview.md)
         * [ACSD-48857: Unable to save changes with [!DNL Page Builder]](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48857-unable-to-save-changes-after-editing-with-pagebuilder.md)
+        * [ACSD-49286: Product added twice to cart when multiple product widgets are present](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49286-product-added-twice-to-cart-when-multiple-product-widgets-are-present-on-page.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)

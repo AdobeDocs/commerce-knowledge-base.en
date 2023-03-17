@@ -19,7 +19,7 @@ To dump your DB on Adobe Commerce on cloud infrastructure with any variant discu
 
 ## Option 1: db-dump (**ece-tools; recommended**)
 
-You may dump your DB using the [ECE-Tools](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html) command:
+You may dump your DB using the [ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) command:
 
 ```php
 vendor/bin/ece-tools db-dump
@@ -27,7 +27,8 @@ vendor/bin/ece-tools db-dump
 
 This is the recommended and safest option.
 
- See [Dump your database (ECE-Tools)](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-snap.html#db-dump) in our developer documentation.
+ See [Dump your database (ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html#dump-your-database) in our Commerce on Cloud Infrastructure Guide.
+
 
 ## Option 2: mysqldump
 
@@ -54,4 +55,4 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
  **Related documentation:**
 
 * [mysqldump &ndash; A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) in official MySQL documentation.
-* [Cloud variables](http://devdocs.magento.com/guides/v2.2/cloud/env/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS`) in our developer documentation.
+* [Cloud variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS`) in our Commerce on Cloud Infrastructure Guide.
