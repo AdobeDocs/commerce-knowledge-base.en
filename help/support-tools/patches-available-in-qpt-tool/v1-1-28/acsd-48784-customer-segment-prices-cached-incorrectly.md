@@ -31,7 +31,7 @@ Configure [!DNL Varnish] or [!DNL Fastly].
 <u>Steps to reproduce</u>:
 
 1. Enable full page caching in your store.
-1. Log in to the site as a user with special Customer Group pricing.
+1. Log in to the site as a user with special customer group pricing.
 1. Go to a product page for a product with special customer group pricing. Observe the *special price*.
 1. In a separate browser, open the same product page as a guest user without logging in. Observe the regular price.
 1. Access the Adobe Commerce administrative interface and clear the Adobe Commerce and [!DNL Fastly] cache for this store.
