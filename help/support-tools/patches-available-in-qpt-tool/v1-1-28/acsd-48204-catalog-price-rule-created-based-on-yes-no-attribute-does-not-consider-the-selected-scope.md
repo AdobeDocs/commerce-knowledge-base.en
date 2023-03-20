@@ -5,7 +5,7 @@ description: Apply the ACSD-48204 patch to fix the Adobe Commerce issue where th
 
 # ACSD-48204: Catalog price rule created based on *Yes/No* attribute don't consider selected scope
 
-The ACSD-48204 patch fixes the issue where the catalog price rule created based on *Yes/No* attribute don't consider the selected scope. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-48204. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
+The ACSD-48204 patch fixes the issue where the catalog price rule created based on *Yes/No* attribute don't consider the selected scope. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-48204. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -29,15 +29,15 @@ The catalog price rule created based on *Yes/No* attribute don't consider the se
 
 1. Create two websites (Default and W2).
 1. Create a product attribute of *Yes/No* type.
-    * Set [!UICONTROL Default value] = No
-    * [!UICONTROL Scope] = Website
-    * [!UICONTROL Use for Promo Rule Conditions] = Yes
+    * Set [!UICONTROL Default value] = [!UICONTROL No]
+    * [!UICONTROL Scope] = [!UICONTROL Website]
+    * [!UICONTROL Use for Promo Rule Conditions] = [!UICONTROL Yes]
 1. Create a configurable product based on any attribute with two variations (V1 and V2).
     * Add the *Yes/No* attribute to the configurable variations attribute set.
-    * For one of the variations (V1), set the value to *Yes* on the non-default website (W2).
+    * For one of the variations (V1), set the value to *[!UICONTROL Yes]* on the non-default website (W2).
 1. Create a catalog rule:
     * Applied to both websites
-    * Condition: *Yes/No* attribute value is *Yes*
+    * Condition: *Yes/No* attribute value is *[!UICONTROL Yes]*
     * Discount = 50%
 1. Open the configurable product on the non-default website (W2).
 1. Check that the V1 variation has the 50% discount applied.
