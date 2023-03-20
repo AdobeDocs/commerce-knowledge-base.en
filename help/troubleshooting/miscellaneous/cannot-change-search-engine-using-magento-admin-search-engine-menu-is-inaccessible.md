@@ -7,7 +7,7 @@ exl-id: 5b0f728c-6a8d-446d-9553-5abc3d01e516
 
 >[!WARNING]
 >
-> [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+> [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html).
 
 This article provides a solution for changing the Adobe Commerce Search Engine using the Commerce Admin if the **Search Engine** field is not displayed or the **Use system value** checkbox is greyed out and not accessible.
 
@@ -59,7 +59,7 @@ The search engine is a global configuration set on the application level, not on
 
 ![change_store_view.png](assets/change_store_view.png)
 
- **Related documentation:** [Changing Scope](http://docs.magento.com/m2/ee/user_guide/configuration/scope-change.html) in our user guide.
+ **Related documentation:** [Changing Scope](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#set-the-scope) in our user guide.
 
 ### Issue 2: Cannot uncheck "Use system value"
 
@@ -93,7 +93,7 @@ Remove the section with default search engine configuration from the `app/etc/en
 
 ### Related articles in our developer documentation
 
- [Adobe Commerce configuration files](https://devdocs.magento.com/guides/v2.2/config-guide/config/config-magento.html) in Adobe Commerce Configuration Guide
+ [Adobe Commerce configuration files](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html) in Adobe Commerce Configuration Guide
 
 ## Adobe Commerce on cloud infrastructure
 
@@ -130,7 +130,7 @@ stage:
 
 #### Developer Documentation
 
-* [Set up Elasticsearch service](http://devdocs.magento.com/guides/v2.2/cloud/project/project-conf-files_services-elastic.html)
-* [Build and deploy](http://devdocs.magento.com/guides/v2.2/cloud/project/magento-env-yaml.html) (documentation about the `.magento.env.yaml` configuration file)
-* [Deploy variables](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html) ( [SEARCH\_CONFIGURATION section](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html#searchconfiguration) )
-* [Services](http://devdocs.magento.com/guides/v2.2/cloud/project/project-conf-files_services.html) (documentation about the `.magento/services.yaml` configuration file)
+* [Set up Elasticsearch service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html)
+* [Build and deploy](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) (documentation about the `.magento.env.yaml` configuration file)
+* [Deploy variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) ( [SEARCH\_CONFIGURATION section](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#searchconfiguration) )
+* [Services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) (documentation about the `.magento/services.yaml` configuration file)
