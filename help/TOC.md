@@ -514,10 +514,15 @@ breadcrumb-title: Commerce KB
         * [ACSD-48362: the default shipping address is used instead of a new one](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48362-fixes-the-issue-where-the-default-shipping-address-is-used-instead-of-a-new-one.md)
         * [ACSD-48164: restricted admin cannot save website-level value](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48164-restricted-admin-cannot-save-website-level-value.md)
         * [ACSD-49013: email confirmation not translated to website locale](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49013-email-confirmation-not-translated-to-website-locale.md)
+        * [ACSD-48216: AUTO_INCREMENT of inventory_source_item table increases on UPDATE operation](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48216-auto-increment-of-inventory-source-item-table-increases-on-the-update-operation.md)
         * [ACSD-49497: order still processing after shipment and partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49497-order-is-still-processing-after-shipment-and-partial-refund.md)
+        * [ACSD-48694: Invalid state change requested error prevents customer from placing order](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48694-invalid-state-change-requested-error-prevents-customer-from-placing-order.md)
     * V1.1.28 {#v1-1-28}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.28](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/overview.md)
         * [ACSD-49574: Can't update gift card product in shopping cart via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49574-cannot-update-gift-card-product-in-shopping-cart-via-graphql.md)
+        * [ACSD-48784: Customer segment prices cached incorrectly](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48784-customer-segment-prices-cached-incorrectly.md)
+        * [ACSD-48857: Unable to save changes with [!DNL Page Builder]](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48857-unable-to-save-changes-after-editing-with-pagebuilder.md)
+        * [ACSD-49286: Product added twice to cart when multiple product widgets are present](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49286-product-added-twice-to-cart-when-multiple-product-widgets-are-present-on-page.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
