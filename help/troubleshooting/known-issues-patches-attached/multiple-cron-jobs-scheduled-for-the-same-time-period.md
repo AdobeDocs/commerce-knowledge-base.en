@@ -44,7 +44,7 @@ When cron is configured to run every minute, if you edit time variables for thre
 
 ## Solution
 
-For Adobe Commerce on cloud infrastructure merchants, [updating the ECE-tools](https://devdocs.magento.com/guides/v2.2/cloud/project/ece-tools-update.html) will solve the issue.
+For Adobe Commerce on cloud infrastructure merchants, [updating the ECE-tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) will solve the issue.
 
 Adobe Commerce on-premises merchants should apply one of the attached patches to solve the issue.
 
