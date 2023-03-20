@@ -28,7 +28,7 @@ A gift card product cannot be updated in the shopping cart via GraphQL.
 
 1. Create a gift card product.
 1. Add the gift card product to the cart via GraphQL. 
-1.  Try to update gift card product fields in the cart via GraphQL using `updateCartItems` mutation.
+1. Try to update gift card product fields in the cart via GraphQL using `updateCartItems` mutation.
     
     Example of GraphQL usage:
 
