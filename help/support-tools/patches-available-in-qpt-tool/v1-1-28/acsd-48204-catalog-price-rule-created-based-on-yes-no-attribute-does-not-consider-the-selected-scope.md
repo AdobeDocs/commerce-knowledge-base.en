@@ -33,8 +33,8 @@ The catalog price rule created based on *Yes/No* attribute doesn't consider the 
     * [!UICONTROL Scope] = [!UICONTROL Website]
     * [!UICONTROL Use for Promo Rule Conditions] = [!UICONTROL Yes]
 1. Create a configurable product based on any attribute with two variations (V1 and V2).
-    * Add the *Yes/No* attribute to the configurable variations attribute set.
-    * For one of the variations (V1), set the value to *[!UICONTROL Yes]* on the non-default website (W2).
+    * Add the *Yes/No* attribute to the configurable variations attribute set
+    * For one of the variations (V1), set the value to *[!UICONTROL Yes]* on the non-default website (W2)
 1. Create a catalog rule:
     * Applied to both websites
     * Condition: *Yes/No* attribute value is *[!UICONTROL Yes]*
@@ -42,8 +42,8 @@ The catalog price rule created based on *Yes/No* attribute doesn't consider the 
 1. Open the configurable product on the non-default website (W2).
 1. Check that the V1 variation has the 50% discount applied.
 1. Open the V1 variation in the Adobe Commerce Admin.
-    * Switch to the default website. 
-    * Make no changes and save the product.
+    * Switch to the default website
+    * Make no changes and save the product
 1. Refresh the configurable product storefront page.
 
 <u>Expected results</u>:
