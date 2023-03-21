@@ -23,7 +23,7 @@ The ACSD-48404 patch fixes the issue where [!UICONTROL Remember Category Paginat
 
 ## Issue
 
-*[!UICONTROL Remember Category Pagination = Yes]* causes an error when pressing the browser's back button.
+[!UICONTROL Remember Category Pagination = Yes] causes an error when pressing the browser's back button.
 
 
 <u>Steps to reproduce</u>:
