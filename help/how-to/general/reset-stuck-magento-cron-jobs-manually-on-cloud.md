@@ -11,7 +11,7 @@ Use this command with caution! We recommend reading the [Reset cron jobs](https:
 
 ## Steps
 
-1. Make sure the Adobe Commerce [ECE-Tools](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html) are [patched](http://devdocs.magento.com/guides/v2.2/cloud/project/project-patch.html#patch-magentoece-tools) to [v2002.0.4](http://devdocs.magento.com/guides/v2.2/cloud/composer-packages/ece-tools.html#v200204).
+1. Make sure the Adobe Commerce [ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview.html) are [patched](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) to [v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html#v2002.0.4).
 1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Execute this command: `./vendor/bin/ece-tools cron:unlock`
 
