@@ -60,9 +60,9 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
  **Related articles:**
 
-* [Redirects through routes.yaml](http://devdocs.magento.com/guides/v2.2/cloud/project/project-routes-more-redir.html) in our developer documentation.
-* [Redirects through the Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#project-conf-env-route) in our developer documentation.
-* [URL Rewrites](http://docs.magento.com/m2/ee/user_guide/marketing/url-rewrite.html) in our user guide.
+* [Redirects through routes.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html) in our developer documentation.
+* [Redirects through the Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in our user guide.
+* [URL Rewrites](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html) in our user guide.
 
 ## 4. Asset performance
 
@@ -79,4 +79,4 @@ You may also consider [minification](https://devdocs.magento.com/cloud/live/sens
 
  **Related articles:**
 
-* [Test deployment](http://devdocs.magento.com/guides/v2.2/cloud/live/stage-prod-test.html) in our developer documentation.
+* [Test deployment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html) in our developer documentation.
