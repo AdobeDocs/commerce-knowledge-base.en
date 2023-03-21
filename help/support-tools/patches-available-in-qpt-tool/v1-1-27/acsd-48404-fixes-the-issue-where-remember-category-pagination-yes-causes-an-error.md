@@ -15,7 +15,7 @@ The ACSD-48404 patch fixes the issue where [!UICONTROL Remember Category Paginat
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) >=2.4.0 <2.4.4
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.3-p3
 
 >[!NOTE]
 >
