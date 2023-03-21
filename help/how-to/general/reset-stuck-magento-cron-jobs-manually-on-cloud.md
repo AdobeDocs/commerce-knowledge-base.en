@@ -11,7 +11,7 @@ Use this command with caution! We recommend reading the [Reset cron jobs](c) art
 
 ## Steps
 
-[!INFO]
+>[!INFO]
 >
 >From [ECE-Tools v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html?lang=en#v2002.0.4) you can manually reset stuck cron jobs using a CLI command in all environments via SSH access you can manually reset stuck cron jobs using a CLI comand via SSH access.
 
