@@ -15,7 +15,7 @@ Below are the critical usage notes.
 
 ### Enable outgoing emails
 
-Before using the **Forgot your password** form, [enable outgoing emails](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#email) using your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html).
+Before using the **Forgot your password** form, [enable outgoing emails](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) using your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
 ### Check your Junk Email folder
 
