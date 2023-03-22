@@ -397,7 +397,7 @@ For Partners: **Merchant Name** is the name of your Customer.
 
 #### Project URL (Commerce Cloud only)
 
-Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html).
+Link to your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
 #### Steps to reproduce (Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure only)
 
@@ -428,7 +428,7 @@ Include a short overview of your problem (for example, *Error 404 on all pages* 
 
 Please select the Adobe Commerce version you are requesting help with. All supported versions of Adobe Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
 
-To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
+To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) page and check the lower-left corner.
 
 ![Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search](assets/magento-env-id.png)
 
