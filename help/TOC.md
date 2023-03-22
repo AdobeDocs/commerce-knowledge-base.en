@@ -419,7 +419,6 @@ breadcrumb-title: Commerce KB
         * [ACSD-45241: Virtual product's stock quantity miscalculated](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-45241-stock-quantity-for-virtual-product-miscalculated.md)
         * [ACSD-45424: Incorrect reservation compensation created after partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-45424-incorrect-reservation-compensation-created-after-partial-refund.md)
         * [ACSD-45520: Swatch options not selected on product detail page](/help/support-tools/patches-available-in-qpt-tool/v1-1-17/acsd-45520-swatch-options-not-pre-selected-on-product-detail-page.md)
-        * [ACSD-47704: Bundled product shows In Stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
     * v1.1.18 {#v1-1-18}
         * [Overview: Quality Patches Tool (QPT) v1.1.18](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/overview.md)
         * [ACSD-44938: VAT_ID cannot be applied in GraphQL request for guest user](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-44938-vat-id-cannot-applied-graphql-guest-user.md)
@@ -523,6 +522,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48784: Customer segment prices cached incorrectly](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48784-customer-segment-prices-cached-incorrectly.md)
         * [ACSD-48857: Unable to save changes with [!DNL Page Builder]](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48857-unable-to-save-changes-after-editing-with-pagebuilder.md)
         * [ACSD-49286: Product added twice to cart when multiple product widgets are present](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49286-product-added-twice-to-cart-when-multiple-product-widgets-are-present-on-page.md)
+        * [ACSD-47704: Bundled product shows In Stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
