@@ -1,6 +1,6 @@
 ---
-title: "ACSD-47704: Bundled product shows the price of In Stock products only"
-description: Apply the ACSD-47704 patch to fix the Adobe Commerce issue where a bundled product shows the price of In Stock products only.
+title: "ACSD-47704: Bundled product shows the price of in stock products only"
+description: Apply the ACSD-47704 patch to fix the Adobe Commerce issue where a bundled product shows the price of in stock products only.
 ---
 # ACSD-47704: Bundled product shows the price of In Stock products only
 
@@ -22,35 +22,37 @@ The ACSD-47704 patch fixes the issue where customer segment prices are cached in
 
 ## Issue
 
-The price of a bundled product with Dynamic Pricing enabled is incorrect due to only In-stocks items being included.
+The price of a bundled product with Dynamic Pricing enabled is incorrect due to only in stock items being included.
 
 <u>Steps to reproduce</u>:
 
-1. Go to the Commerce admin panel
-1. Go to **[!UICONTROL CATALOG]** > **[!UICONTROL Products]** > **[!UICONTROL Add Product]** > **[!UICONTROL Bundle Product].
+1. Go to the Commerce Admin panel
+1. Go to **[!UICONTROL CATALOG]** > **[!UICONTROL Products]** > **[!UICONTROL Add Product]** > **[!UICONTROL Bundle Product]**.
 1. Set **[UICONROL Dynamic Price]** to **[!UICONTROL Yes]**.
 1. Bundle items:
    * Set **[!UICONTROL Ship bundle items]** to **[!UICONTROL Together]**
    * Select **[!UICONTROL Add Option]**
-      * Title "o1"
+      * Title o1
       * Input type: Dropdown
      * Mark required checkbox
-     * Add any simple product which is in stock - for example, "Joust Duffle Bag" SKU 24-MB01 - before adding the product, note down somewhere its price - $34
-    * Default quantity: *1*
+     * Add any simple product which is in stock - for example, Joust Duffle Bag SKU 24-MB01 - before adding the product, note down its price - $34
+    * Default quantity: 1
    *  Select **[!UICONTROL Add Option]**
-      * **[!UICONTROL Option Title]** = "o2"
+      * **[!UICONTROL Option Title]** = o2
       * **[!UICONTROL Input type]** = **[!UICONTROL Dropdown]**
-      * Mark required checkbox.
-      * Add any simple product which is in stock, different from the product added in the step before; for example - "Strive Shoulder Pack" 24-MB04 - before adding the product, note down somewhere its price - $32
-      * Default quantity: *1*
-1. Save product
-1. Go to frontend & find the product created in the previous steps. Note down its price - $66
--66 = 32 + 34. Currently, the price of the bundle product is equal to the sum of the prices of its options.
-1. Go to the Commerce admin panel. Go to **[!UICONTROL CATALOG]** > **[!UICONTROL Products]**.
+      * Mark required checkbox
+      * Add any simple product which is in stock, different from the product added in the step before; for example - Strive Shoulder Pack 24-MB04 - before adding the product, note down its price - $32
+      * Default quantity: 1
+1. Save product.
+1. Go to the store front and find the product created in the previous steps. 
+Note down its price - $66
+(66 = 32 + 34). 
+Currently, the price of the bundle product is equal to the sum of the prices of its options.
+1. Go to the Commerce Admin panel. Go to **[!UICONTROL CATALOG]** > **[!UICONTROL Products]**.
 1. Find one of the simple products assigned as an option to the bundle product earlier:
-SKU 24-MB01 and a price of $34
-1. Change its quantity to *0*
-1. Save the product
+SKU 24-MB01 and a price of $34.
+1. Change its quantity to 0.
+1. Save the product.
 1. Go to the storefront and find the bundle product created in the previous steps. Note down its price - $32. Previously it was priced at $66 which was the sum of $34 from SKU 24-MB01 and $32 from SKU 24-MB04. Now that product 24-MB01 is out of stock, the bundle price is listed as $32 which is the price of the other product which is option in stock.
 
 <u>Expected results</u>:
