@@ -48,7 +48,7 @@ To disable Configuration Management, make sure that your `/app/etc/` directory d
 
 To remove the configuration file, follow these steps:
 
-1. [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
+1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Remove the configuration file: `rm app/etc/config.php`
 
 Read more about Configuration Management:

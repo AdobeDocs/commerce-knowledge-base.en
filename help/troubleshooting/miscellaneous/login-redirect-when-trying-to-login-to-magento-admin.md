@@ -49,6 +49,7 @@ To increase the admin session lifetime, take the following steps:
     ```sql
     UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
     ```
+    
 1. Clean the configuration cache by running the following command:
 
     ```bash

@@ -61,7 +61,7 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
  **Related articles:**
 
 * [Redirects through routes.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html) in our developer documentation.
-* [Redirects through the Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in our developer documentation.
+* [Redirects through the Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in our user guide.
 * [URL Rewrites](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html) in our user guide.
 
 ## 4. Asset performance

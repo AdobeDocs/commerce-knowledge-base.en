@@ -32,6 +32,7 @@ Disabling [!DNL shared catalog] gives wrong product search results.
 1. Create a second website.
 1. Assign a product to the second website.
 1. Check products on the **second website** using [!DNL GraphQL]:
+
     ```GraphQL
     {
       products(search: "bag", pageSize: 2) {
@@ -47,6 +48,7 @@ Disabling [!DNL shared catalog] gives wrong product search results.
       }
     }
     ```
+
 1. Enable **[!UICONTROL Shared Catalog]** on default [!DNL scope].
 1. The [!DNL GraphQL] request does not show any products for the second website anymore, which is the correct result.
 1. Go to the [!DNL scope] of second website and disable **[!UICONTROL Company]**.

@@ -11,8 +11,11 @@ Use this command with caution! We recommend reading the [Reset cron jobs](https:
 
 ## Steps
 
-1. Make sure the Adobe Commerce [ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) are [patched](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) to [v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html).
-1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
+>[!INFO]
+>
+>From [ECE-Tools v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html#v2002.0.4) you can manually reset stuck cron jobs using a CLI command via SSH access.
+
+1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Execute this command: `./vendor/bin/ece-tools cron:unlock`
 
 ## Warnings

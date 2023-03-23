@@ -28,67 +28,45 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
     <th style="width:15%">Type</th>
     <th style="width:15%">Date</th>
   </tr>
-<tr>
+
+ <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-47937-price-drop-notifications-are-not-sent.html">ACSD-47937: price drop notifications not sent due to application-level caching:</a> The ACSD-47937 patch fixes the issue where price drop notifications are not always sent due to application-level caching. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html">Former team members receive Adobe Commerce cloud notification emails:</a> This article provides a solution for where team members that are no longer associated with your project continue to receive notifications.
     </td>
     <td>New article</td>
-    <td> Feb 17, 2023</td>
+    <td> Mar 16, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48661-company-credit-limit-comma-separator-validation.html">ACSD-48661: company credit limit comma separator validation issue:</a> The ACSD-48661 patch fixes the issue where when the company credit limit is larger than 999, the comma separator prevents the saving of the company due to a validation error. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.html?lang=en">Cannot access the correct cloud project:</a> This article provides a fix for the issues after a change has been made to the account ownership or the associated email addresses.
     </td>
     <td>New article</td>
-    <td>Feb 17, 2023</td>
+    <td>Mar 16, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48587-product-widget-not-working-with-html-characters.html">ACSD-48587: product widget not working with SKUs containing HTML characters:</a> The ACSD-48587 patch fixes the issue where HTML special characters in the products widget matching rules prevent them from displaying matching products. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-49042-product-with-infinite-backorder-cant-be-ordered-from-storefront.html">ACSD-49042: Product with infinite backorder can't be ordered from storefront:</a> The ACSD-49042 patch fixes the issue where a product with infinite backorder cannot be ordered from the storefront. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td>New article</td>
-    <td>Feb 17, 2023</td>
+    <td>Mar 16, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48212-product-import-assigns-product-wrong-source.html?lang=en">ACSD-48212: product import assigns product to wrong source:</a> The ACSD-48212 patch fixes the issue where the product import assigns the product to the wrong source. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48634-js-errors-when-google-analytics-content-experiments-enabled.html">ACSD-48634: JS errors when Google Analytics Content Experiments enabled:</a> The ACSD-48634 patch fixes JS errors on a staging update page when Google Analytics Content Experiments is enabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
     </td>
     <td> New article </td>
-    <td> Jan 17, 2023</td>
-
+    <td> Mar 16, 2023</td>
  </tr>
-   <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-47988-product-export-trims-html-tags.html">ACSD-47988: product export trims HTML tags from page builder product description:</a> The ACSD-47988 patch fixes the issue where the product export trims HTML tags from the page builder product description. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
-    </td>
-    <td>New article</td>
-    <td>Feb 17, 2023</td>
 
-  </tr>
-    <tr>
+  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-26/acsd-48366-product-image-not-displayed-back-stock-email-template.html">ACSD-48366: product image not displayed on Back to Stock email template:</a> The ACSD-48366 patch fixes the issue where the product thumbnail image is not displayed in the product's stock alert email. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.26 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html?lang=en">SSL (TLS) certificates for Adobe Commerce on cloud infrastructure:</a> This article was updated according to the suggestion by an SME.
     </td>
-    <td>New article</td>
-    <td>Feb 17, 2023</td>
-  </tr>
-    <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.html?lang=en">Indexes invalidated and indexer_reindex_all_invalid run constantly:</a> This article provides a possible workaround for the issue when your site has performance issues caused by constant reindexing.
-    </td>
-    <td>New article</td>
-    <td>Feb 17, 2023</td>
-  </tr>
-  </tr>
-    <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/monitoring-whitepaper.html">Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure:</a> Major edits were done to this article based on the direction from SMEs.
-    </td>
-    <td>Update</td>
-    <td>Feb 17, 2023</td>
+    <td>Updated</td>
+    <td>Mar 16, 2023</td>
   </tr>
 </table>
 
