@@ -9,7 +9,7 @@ This article provides a fix for when Adobe Commerce stores do not display schedu
 
 ## Issue
 
-Scheduled updates for a store content asset (page, product, block, etc.) are not displayed on storefront immediately after the start time of the update. This happens when updates have been scheduled using the [Content Staging](http://docs.magento.com/m2/ee/user_guide/cms/content-staging.html) functionality.
+Scheduled updates for a store content asset (page, product, block, etc.) are not displayed on storefront immediately after the start time of the update. This happens when updates have been scheduled using the [Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) functionality.
 
 ## Cause
 
@@ -37,6 +37,6 @@ If serving stale content even for the first request is unacceptable, you may dis
 
 ## Related documentation
 
-* [Configure purge options](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html#purge) in our developer documentation.
-* [Content Staging](http://docs.magento.com/m2/ee/user_guide/cms/content-staging.html) in our user guide.
+* [Configure purge options](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in our developer documentation.
+* [Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) in our user guide.
 * [Serving stale content](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) in Fastly documentation.
