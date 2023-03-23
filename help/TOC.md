@@ -520,6 +520,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48694: Invalid state change requested error prevents customer from placing order](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48694-invalid-state-change-requested-error-prevents-customer-from-placing-order.md)
     * V1.1.28 {#v1-1-28}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.28](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/overview.md)
+        * [ACSD-49433: Default amount shown as subtotal in cart for gift card](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49433-default-amount-shown-subtotal-in-cart.md)
         * [ACSD-48807: Product reviews not filtered by storeview](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48807-product-reviews-not-filtered-storeview.md)
         * [ACSD-49574: Can't update gift card product in shopping cart via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49574-cannot-update-gift-card-product-in-shopping-cart-via-graphql.md)
         * [ACSD-48784: Customer segment prices cached incorrectly](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48784-customer-segment-prices-cached-incorrectly.md)
