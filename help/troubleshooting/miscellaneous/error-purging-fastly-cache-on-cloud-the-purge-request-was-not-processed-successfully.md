@@ -16,7 +16,7 @@ This information helps you verify and test Fastly headers for your live site and
 
 ## Issue
 
-Caching is working, but when you try to purge, you receive an error or it doesn't work. The error includes: “The purge request was not processed successfully.”
+Caching is working, but when you try to purge, you receive an error or it doesn't work. The error includes: "The purge request was not processed successfully."
 
 ## Cause
 
@@ -41,12 +41,12 @@ If the credentials are correct, you may have issues with your VCLs. To list and 
 curl -X GET -s https://api.fastly.com/service/<Service ID>/version/<Editable Version #>/snippet -H "Fastly-Key:FASTLY_API_TOKEN"
 ```
 
-Review the list of VCLs. If you have issues with the default VCLs from Fastly, you can upload again or verify the content per the [Fastly default VCLs](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets). For editing your custom VCLs, see [Custom Fastly VCL snippets](http://devdocs.magento.com/guides/v2.2/cloud/configure/cloud-vcl-custom-snippets.html) in our developer documentation.
+Review the list of VCLs. If you have issues with the default VCLs from Fastly, you can upload again or verify the content per the [Fastly default VCLs](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets). For editing your custom VCLs, see [Custom Fastly VCL snippets](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) in our developer documentation.
 
 ## More information
 
 In our developer documentation:
 
-* [About Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html)
-* [Set up Fastly](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html)
-* [Custom Fastly VCL snippets](http://devdocs.magento.com/guides/v2.2/cloud/configure/cloud-vcl-custom-snippets.html)
+* [About Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+* [Set up Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* [Custom Fastly VCL snippets](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
