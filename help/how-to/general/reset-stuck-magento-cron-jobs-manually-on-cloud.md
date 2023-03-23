@@ -7,7 +7,7 @@ exl-id: aec6de8e-c3a9-4a6d-8ecd-a213e77c97a1
 
 Adobe Commerce on cloud infrastructure cron jobs don't finish executing, get stuck, and prevent other cron jobs from running. This article shows how to reset the stuck cron jobs manually.
 
-Use this command with caution! We recommend reading the [Reset cron jobs](https://devdocs.magento.com/guides/v2.3/cloud/trouble/reset-cron-jobs.html) article in our support knowledge base for more details.
+Use this command with caution! We recommend reading the [Reset cron jobs](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/reset-stuck-magento-cron-jobs-manually-on-cloud.html) article in our support knowledge base for more details.
 
 ## Steps
 
@@ -22,4 +22,4 @@ Use this command with caution! We recommend reading the [Reset cron jobs](https:
 
 ## Read it in our support knowledge base:
 
- [Reset cron jobs](https://devdocs.magento.com/guides/v2.2/cloud/trouble/reset-cron-jobs.html)
+ [Reset cron jobs](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/reset-stuck-magento-cron-jobs-manually-on-cloud.html)
