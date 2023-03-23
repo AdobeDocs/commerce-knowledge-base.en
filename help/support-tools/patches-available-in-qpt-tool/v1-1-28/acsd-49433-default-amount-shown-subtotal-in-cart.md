@@ -28,7 +28,7 @@ The default amount is shown as subtotal in the cart for the gift card with an op
 
 1. Create a gift card.
 1. Make sure the open amount is set to *[!UICONTROL Yes]* (between $50 to $500).
-1. Go to the [!UICONTROL Gift Card] product on the storefront and choose another amount in the drop-down.
+1. Go to the [!UICONTROL Gift Card] product on the storefront and choose another amount from the drop-down.
 1. Specifiy $100 in the amount in USD.
 1. Fill in other fields and add them to the cart.
 1. Go to the mini-cart or the cart page.
