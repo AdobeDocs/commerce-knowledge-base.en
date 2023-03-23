@@ -30,7 +30,7 @@ If Staging and Production are accessible from your Project Web Interface, add th
 
 ### Add variables using Cloud CLI
 
-See [Add environment variables](http://devdocs.magento.com/guides/v2.2/cloud/env/environment-vars_magento.html#addvariables) in our developer documentation for detailed steps.
+See [Add environment variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in our developer documentation for detailed steps.
 
 We don't recommend adding **global** variables via Cloud CLI (the `magento-cloud project:variable:set <name> <value>` command) since such global variables:
 

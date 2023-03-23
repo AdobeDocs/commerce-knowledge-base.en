@@ -27,7 +27,7 @@ You might need to change the increment ID for new DB entities in these cases:
 ## Prerequisite steps
 
 1. Find stores and entities for which the new increment ID should be changed.
-1. [Connect](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) to your MySQL DB. For Adobe Commerce on cloud infrastructure, at first, you need to [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh).
+1. [Connect](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) to your MySQL DB. For Adobe Commerce on cloud infrastructure, at first, you need to [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Check the current auto\_increment value for the entity sequence table using the following query:
 
 ```sql
@@ -80,4 +80,4 @@ Before executing the `ALTER TABLE` query on the Production environment of Adobe 
 ## Related documentation
 
 * [Create database dump on Cloud](/help/how-to/general/create-database-dump-on-cloud.md) in our support knowledge base.
-* [SSH to your environment](http://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) in our developer documentation.
+* [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in our developer documentation.
