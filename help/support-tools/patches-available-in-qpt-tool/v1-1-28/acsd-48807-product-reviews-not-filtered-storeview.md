@@ -28,7 +28,7 @@ Product reviews are not filtered by storeview via GraphQL.
 
 1. Create an additional storeview.
 1. Create a customer account and log in.
-1. On default storeview, create a review for a product.
+1. On the default storeview, create a review for a product.
 1. Switch to another storeview and create another review for a product.
 1. Approve both reviews in Adobe Commerce Admin.
 1. Send customer GraphQL query to retrieve product reviews while specifying the storeview created in step one in the header.
