@@ -37,7 +37,7 @@ No errors in the log file.
 
 <u>Actual results</u>:
 
-The following error shows in the log file.
+The following error is shown in the log file:
 
 ```
 Text fields are not optimised for operations that require per-document field data like aggregations and sorting, so these operations are disabled by default. Please use a keyword field instead. Alternatively, set fielddata=true on [updated_at] in order to load field data by uninverting the inverted index.
