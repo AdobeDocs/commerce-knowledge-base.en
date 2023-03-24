@@ -1,11 +1,11 @@
 ---
-title: "ACSD-48404: Fixes the issue where [!UICONTROL Remember Category Pagination = Yes] causes an error when pressing the browser's back button."
-description: Apply the ACSD-48404 patch to fix the Adobe Commerce issue where [!UICONTROL Remember Category Pagination = Yes] causes an error when pressing the browser's back button.
+title: "ACSD-48404: *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* causes error when pressing browser's back button"
+description: Apply the ACSD-48404 patch to fix the Adobe Commerce issue where *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* causes an error when pressing the browser's back button.
 ---
 
-# ACSD-48404: Fixes the issue where [!UICONTROL Remember Category Pagination = Yes] causes an error when pressing the browser's back button.
+# ACSD-48404: *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* causes error when pressing browser's back button
 
-The ACSD-48404 patch fixes the issue where [!UICONTROL Remember Category Pagination = Yes] causes an error when pressing the browser's back button. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48404. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48404 patch fixes the issue where *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* causes an error when pressing the browser's back button. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48404. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,21 +23,23 @@ The ACSD-48404 patch fixes the issue where [!UICONTROL Remember Category Paginat
 
 ## Issue
 
-[!UICONTROL Remember Category Pagination = Yes] causes an error when pressing the browser's back button.
+*[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* causes an error when pressing the browser's back button.
 
 
 <u>Steps to reproduce</u>:
 
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Storefront]**. Set [!UICONTROL Remember Category Pagination] to *Yes*.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Storefront]**, and set the *[!UICONTROL Remember Category Pagination]* to *Yes*.
 1. Open a category on the storefront.
-1. Select a value that is not the default value in the [!UICONTROL Show Per Page] dropdown. After selecting an option the page reloads.
-1. Once the page has been reloaded, click on any product on the catalog page.
-1. On the opened product detail page, click the **[UNICONTROL Back]** button of the browser.
+1. Select a value that is not the default value in the *[!UICONTROL Show Per Page]* dropdown. After selecting an option, the page reloads.
+1. Once the page has reloaded, click on any product on the catalog page.
+1. On the opened product detail page, click the **[!UICONTROL Back]** button of the browser.
 
 <u>Expected results</u>:
+
 The catalog page is opened again.
 
 <u>Actual results</u>:
+
 The category page returns an error.
 
 ## Apply the patch
