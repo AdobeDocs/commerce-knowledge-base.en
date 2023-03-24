@@ -54,18 +54,18 @@ To remove the configuration file, follow these steps:
 Read more about Configuration Management:
 
 * [Reduce deployment downtime on Adobe Commerce on cloud infrastructure](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in our support knowledge base.
-* [Configuration management for store settings](https://devdocs.magento.com/cloud/live/sens-data-over.html) in our developer documentation.
+* [Configuration management for store settings](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) in our developer documentation.
 
 ### Step 1: Uninstall the Adobe Commerce software with setup:uninstall command
 
 >
 Uninstalling the Adobe Commerce software drops and restores the database, removes the deployment configuration, and clears directories under \`var\`.
 
-Read: [Uninstall the Adobe Commerce software](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall.html) in our developer documentation.
+Read: [Uninstall the Adobe Commerce software](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html) in our developer documentation.
 
 To uninstall the Adobe Commerce software, follow these steps:
 
-1. [SSH to your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
+1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Execute `setup:uninstall` : `bin/magento setup:uninstall`
 1. Confirm uninstall.
 
@@ -115,10 +115,10 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 If executing the `setup:uninstall` command fails with an error and cannot be completed, we may clear the DB manually with these steps:
 
-1. [SSH to your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
-1. Connect to the MySQL DB: `mysql -h database.internal` (For Pro environments see: [Set up MySQL service](https://devdocs.magento.com/cloud/project/services-mysql.html#connect-to-the-database)).
+1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. Connect to the MySQL DB: `mysql -h database.internal` (For Pro environments see: [Set up MySQL service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)).
 1. Drop the \`main\` DB : `drop database main;`
 1. Create an empty \`main\` DB: `create database main;`
 1. Delete the following configuration files: `config.php` , `config.php` , `.bak,` , `env.php`, `env.php.bak`
 
-After resetting the DB, [make a git push to the environment to trigger redeploy](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#git-commands) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html#environment-commands).
+After resetting the DB, [make a git push to the environment to trigger redeploy](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands).
