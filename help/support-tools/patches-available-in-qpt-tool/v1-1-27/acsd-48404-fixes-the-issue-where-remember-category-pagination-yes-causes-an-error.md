@@ -31,7 +31,7 @@ The ACSD-48404 patch fixes the issue where *[!UICONTROL Remember Category Pagina
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Storefront]**, and set the *[!UICONTROL Remember Category Pagination]* to *Yes*.
 1. Open a category on the storefront.
 1. Select a value that is not the default value in the *[!UICONTROL Show Per Page]* dropdown. After selecting an option, the page reloads.
-1. Once the page has been reloaded, click on any product on the catalog page.
+1. Once the page has reloaded, click on any product on the catalog page.
 1. On the opened product detail page, click the **[!UICONTROL Back]** button of the browser.
 
 <u>Expected results</u>:
