@@ -774,7 +774,6 @@ breadcrumb-title: Commerce KB
     * [Cannot clone the Magento GitHub repository](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
     * [Live search catalog not synchronized](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
     * [PWA Studio: browser cannot resolve the .local.pwadev site](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
-    * [Google Shopping ads Channel Troubleshooting](/help/troubleshooting/miscellaneous/google-shopping-ads-channel-troubleshooting.md)
     * [Product Recommendations not shown in Page Builder](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
     * [Adobe Commerce Fastly troubleshooter](/help/troubleshooting/miscellaneous/magento-fastly-troubleshooter.md)
     * [High throughput AJAX requests cause poor performance](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)
