@@ -306,7 +306,7 @@ To delete emails from CC: click **x** in a framed email.
 
 #### Cloud Project URL
 
-Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`. If you have access to the [Onboarding UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface), please make sure that you provide the Cloud Project Web URL specified at `https://cloud.magento.com/project/<xyz>/develop/infrastructure` (where `<xyz>` is the unique onboarding project ID), not the URL to the Onboarding UI itself.
+Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`. If you have access to the [Onboarding UI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html), please make sure that you provide the Cloud Project Web URL specified at `https://cloud.magento.com/project/<xyz>/develop/infrastructure` (where `<xyz>` is the unique onboarding project ID), not the URL to the Onboarding UI itself.
 
 Another method to obtain the Project URL is as follows:
 
@@ -336,7 +336,7 @@ Select the **environment type** on which you face the problem:
 * Staging
 * Production
 
-Read more about Adobe Commerce on cloud infrastructure environments in the [Pro architecture](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html) article in our developer documentation.
+Read more about Adobe Commerce on cloud infrastructure environments in the [Pro architecture](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html) article in our user guide.
 
 #### Implementation Type
 
