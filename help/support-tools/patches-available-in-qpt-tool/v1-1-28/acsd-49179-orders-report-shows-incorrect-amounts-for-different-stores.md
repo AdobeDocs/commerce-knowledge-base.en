@@ -43,7 +43,7 @@ Catalog Price Scope = Website
     * Default Display Currency : THB (Thai Baht)
     * Allowed Currencies: THB (Thai Baht)
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Currency]** > **[!UICONTROL Currency Rates]** and set the empty conversion rates for the THB (set rates to 1.0000)
-1. Create a product, assign it to both websites, and place an order with this product in the additional website previously created
+1. Create a product, assign it to both websites, and place an order with this product in the additional website previously created.
 1. Make sure that the order is in status Processing (invoice it)
 1. In the backend, go to **[!UICONTROL Reports]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]**
 1. Click on the *[!UICONTROL Yellow]* warning to refresh the statistics
