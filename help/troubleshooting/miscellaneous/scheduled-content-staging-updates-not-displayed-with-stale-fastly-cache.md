@@ -38,5 +38,5 @@ If serving stale content even for the first request is unacceptable, you may dis
 ## Related documentation
 
 * [Configure purge options](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in the Commerce on Cloud Infrastructure Guide.
-* [Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) in our user guide.
+* [Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) in the Content and Design documentation.
 * [Serving stale content](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) in Fastly documentation.
