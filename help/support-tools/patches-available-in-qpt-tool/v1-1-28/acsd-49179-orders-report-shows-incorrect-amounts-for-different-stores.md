@@ -31,7 +31,7 @@ Catalog Price Scope = Website
 1. Create an additional website, store, and store view.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL General]** > **[!UICONTROL Currency Setup]** > **[!UICONTROL Currency Options]** and set:
     * [!UICONTROL Default Config]:
-    * Base Currency: USD
+    * [!UICONTROL Base Currency]: USD
     * Default Display Currency : USD
     * Allowed Currencies: EUR, USD and THB (Thai Baht)
     * Main Website:
