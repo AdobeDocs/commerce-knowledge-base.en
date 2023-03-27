@@ -27,7 +27,6 @@ The orders report shows incorrect amounts in the case of different currencies fo
 <u>Steps to reproduce</u>:
 
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]** and set [!UICONTROL Catalog Price Scope] = [!UICONTROL Website].
-Catalog Price Scope = Website
 1. Create an additional website, store, and store view.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL General]** > **[!UICONTROL Currency Setup]** > **[!UICONTROL Currency Options]** and set:
     * [!UICONTROL Default Config]:
