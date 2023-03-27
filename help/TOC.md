@@ -468,7 +468,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47179: mass deletion of product reviews does not work when logged in as limited user role](/help/support-tools/patches-available-in-qpt-tool/v1-1-23/acsd-47179-mass-delete-product-review-doesnt-work-when-logged-in-as-limited-user.md)
         * [ACSD-47107: catalog price rule is applied to custom options](/help/support-tools/patches-available-in-qpt-tool/v1-1-23/acsd-47107-catalog-price-rule-is-applied-to-custom-options.md)
         * [ACSD-47497: missing ACL for Store / Configuration / Services OAuth](/help/support-tools/patches-available-in-qpt-tool/v1-1-23/acsd-47497-missing-acl-for-store-configuration-services-oaut.md)
-    * V1.1.24 {#v1-1-24}
+    * v1.1.24 {#v1-1-24}
         * [Overview: Quality Patches Tool (QPT) v1.1.24](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/overview.md)
         * [ACSD-46865: shipment and credit memo not populated when asynchronous indexing is enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-46865-shipment-and-credit-memo-grid-not-populated-when-asynchronous-indexing-is-enabled.md)
         * [ACSD-47559: email template preview not fully visible](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-47559-preview-email-template-not-fully-visible.md)
@@ -482,7 +482,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47336: [!UICONTROL Something went wrong] error notifications dismissed Adobe Commerce Admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-47336-something-went-wrong-error-when-dismissing-notifications-adobe-commerce-admin.md)
         * [ACSD-47803: out-of-stock configurable product swatches displayed as available](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-47803-out-of-stock-configurable-product-swatches-displayed-as-available.md)
         * [ACSD-46617: Continue to Checkout button greyed out when subtotal greater than Minimum Order Amount](/help/support-tools/patches-available-in-qpt-tool/v1-1-24/acsd-46617-continue-to-checkout-button-greyed-out.md)
-    * V1.1.25 {#v1-1-25}
+    * v1.1.25 {#v1-1-25}
         * [Overview: Quality Patches Tool (QPT) v1.1.25](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/overview.md)
         * [ACSD-48627: out-of-stock configurable product causes an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48627-out-of-stock-configurable-product-causes-an-error.md)
         * [ACSD-48234: catalog search result shows incorrect category item count when [!UICONTROL Display Out of Stock Products] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48234-catalog-search-result-shows-incorrect-category-item-count-when-show-out-of-stock-option-enabled.md)
@@ -495,7 +495,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48262: products not visible on storefront when Allow All Products Per Page is set Yes](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48262-products-not-visible-on-storefront-when-allow-all-products-per-page-is-set-yes.md)
         * [ACSD-48058: product price reindex not working if bundled product not assigned website](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48058-product-price-reindex-not-working-if-bundled-product-not-assigned-website.md)
         * [ACSD-48293: composite products out of stock when sold out child products restocked](/help/support-tools/patches-available-in-qpt-tool/v1-1-25/acsd-48293-composite-products-go-out-of-stock.md)
-    * V1.1.26 {#v1-1-26}
+    * v1.1.26 {#v1-1-26}
         * [Overview: Quality Patches Tool (QPT) v1.1.26](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/overview.md)
         * [ACSD-48773: Reward points email template taken from wrong store](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48773-reward-points-email-template-taken-from-wrong-store.md)
         * [ACSD-47937: price drop notifications not sent due to application-level caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47937-price-drop-notifications-are-not-sent.md)
@@ -505,7 +505,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47988: product export trims HTML tags from page builder product description](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-47988-product-export-trims-html-tags.md)
         * [ACSD-48366: product image not displayed on Back to Stock email template](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48366-product-image-not-displayed-back-stock-email-template.md)
         * [ACSD-48417: SQL error after creating a schedule change](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48417-sql-error-after-creating-a-schedule-change.md)
-    * V1.1.27 {#v1-1-27}
+    * v1.1.27 {#v1-1-27}
         * [ACSD-48404: remember category pagination = yes causes an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48404-fixes-the-issue-where-remember-category-pagination-yes-causes-an-error.md)
         * [Overview](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/overview.md)
         * [ACSD-48634: [!DNL JS] errors when [!DNL Google Analytics Content Experiments] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48634-js-errors-when-google-analytics-content-experiments-enabled.md)
@@ -518,7 +518,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48216: AUTO_INCREMENT of inventory_source_item table increases on UPDATE operation](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48216-auto-increment-of-inventory-source-item-table-increases-on-the-update-operation.md)
         * [ACSD-49497: order still processing after shipment and partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49497-order-is-still-processing-after-shipment-and-partial-refund.md)
         * [ACSD-48694: Invalid state change requested error prevents customer from placing order](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48694-invalid-state-change-requested-error-prevents-customer-from-placing-order.md)
-    * V1.1.28 {#v1-1-28}
+    * v1.1.28 {#v1-1-28}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.28](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/overview.md)
         * [ACSD-48866: Error when requesting RSS feed for categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48866-error-when-requesting-rss-feed-for-categories.md)
         * [ACSD-49433: Default amount shown as subtotal in cart for gift card](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49433-default-amount-shown-subtotal-in-cart.md)
@@ -528,6 +528,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-48857: Unable to save changes with [!DNL Page Builder]](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48857-unable-to-save-changes-after-editing-with-pagebuilder.md)
         * [ACSD-49286: Product added twice to cart when multiple product widgets are present](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49286-product-added-twice-to-cart-when-multiple-product-widgets-are-present-on-page.md)
         * [ACSD-48204: Catalog price rule created based on Yes or No attribute doesn't consider selected scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48204-catalog-price-rule-created-based-on-yes-no-attribute-does-not-consider-the-selected-scope.md)
+    * v1.1.29 {#v1-1-29}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
