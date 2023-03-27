@@ -51,7 +51,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 ## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
 
-The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also
+The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also 
 
 ## SUPPORT TICKETS {#support-tickets}
 
@@ -363,12 +363,11 @@ This field appears when your account is associated with more than one organizati
 
 >[!WARNING]
 >
->You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization.
+>You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization. 
 
 >[!NOTE]
 >
->Organization can be changed after the ticket is submitted.
->Follow these steps to change the organization:
+>Organization can be changed after the ticket is submitted. Follow these steps to change the organization.
 >
 >1. Go to the right column of the ticket.
 >1. Locate the dropdown for available organizations.
