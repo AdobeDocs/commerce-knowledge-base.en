@@ -49,7 +49,7 @@ Catalog Price Scope = Website
 1. Click on the *[!UICONTROL Yellow]* warning to refresh the statistics
 1. Set the scope of the report on the additional website previously created and set the filter as following:
     * [!UICONTROL Date Used]: [!UICONTROL Created]
-    * Period: day
+    * [!UICONTROL Period]: [!UICONTROL Day]
     * From and To: the same day of when the test order was placed
     * Order Status: any
     * Empty rows: No
