@@ -52,7 +52,7 @@ Catalog Price Scope = Website
     * [!UICONTROL Period]: [!UICONTROL Day]
     * [!UICONTROL From and To]: The same day when the test order was placed
     * Order Status: any
-    * Empty rows: No
+    * [!UICONTROL Empty rows]: [!UICONTROL No]
     * Show Actual Values: No
 
 <u>Expected results</u>:
