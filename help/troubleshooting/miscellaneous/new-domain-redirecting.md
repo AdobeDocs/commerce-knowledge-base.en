@@ -6,7 +6,7 @@ description: This article provides a fix for the issue where the new domain redi
 
 This article provides a fix for the issue where the new domain redirects to the default domain in the existing or different environment.
 
-## Affected versions
+## Affected products and versions
 
 * Adobe Commerce on cloud pro infrastructure (all versions)
 
