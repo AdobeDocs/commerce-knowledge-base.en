@@ -32,8 +32,3 @@ If both the above configurations are correct, submit a support ticket.
 ## Related Readings
 
 * [Checklist for setting up a new domain](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html) in our support knowledge base.
-
-
-
-
-
