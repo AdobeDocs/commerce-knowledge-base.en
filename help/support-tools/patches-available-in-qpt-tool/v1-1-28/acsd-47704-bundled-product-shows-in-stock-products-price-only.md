@@ -2,7 +2,7 @@
 title: "ACSD-47704: Bundled product shows the price of in stock products only"
 description: Apply the ACSD-47704 patch to fix the Adobe Commerce issue where a bundled product shows the price of in stock products only.
 ---
-# ACSD-47704: Bundled product shows the price of In Stock products only
+# ACSD-47704: Bundled product shows the price of in stock products only
 
 The ACSD-47704 patch fixes the issue where customer segment prices are cached incorrectly between customer groups. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-47704. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
@@ -26,13 +26,13 @@ The price of a bundled product with Dynamic Pricing enabled is incorrect due to 
 
 <u>Steps to reproduce</u>:
 
-1. Go to the Commerce Admin panel
+1. Go to the Commerce Admin panel.
 1. Go to **[!UICONTROL CATALOG]** > **[!UICONTROL Products]** > **[!UICONTROL Add Product]** > **[!UICONTROL Bundle Product]**.
 1. Set **[UICONROL Dynamic Price]** to **[!UICONTROL Yes]**.
 1. Bundle items:
    * Set **[!UICONTROL Ship bundle items]** to **[!UICONTROL Together]**
    * Select **[!UICONTROL Add Option]**
-      * Title o1
+      * Title: o1
       * Input type: Dropdown
      * Mark required checkbox
      * Add any simple product which is in stock - for example, Joust Duffle Bag SKU 24-MB01 - before adding the product, note down its price - $34
