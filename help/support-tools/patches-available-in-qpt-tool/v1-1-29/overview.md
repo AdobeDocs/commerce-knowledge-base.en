@@ -22,7 +22,7 @@ QPT v1.1.29 includes the following patches:
 1. **ACSD-50234**: Fixes the issue with the wrong customer name in the confirmation email if placing an order with [!DNL PayPal].
 1. **ACSD-49960**: Fixes the issue where filtering by date does not work for the customer order grid.
 1. **ACSD-49849**: Fixes the issue where customer email was replaced with [!DNL PayPal] email when placing an order with [!DNL PayPal Express] via GraphQL.
-1. **ACSD-49839**: Fixes the issue where Shared Catalog Pricing and structure throws an error in Admin when products have single or double quotes in SKU.
+1. **ACSD-49839**: Fixes the issue where [!UICONTROL Shared Catalog Pricing] and [!UICONTROL Structure] throws an error in Admin when products have single or double quotes in SKU.
 1. **ACSD-49970**: Fixes incorrect handling of GraphQL errors when [!DNL New Relic] reporting is turned on.
 1. **ACSD-50260**: Fixes the issue where GraphQL product search results are limited to 10,000 results only.
 1. **ACSD-48813**: Fixes the issue where the search is not showing relevant results based on the search weight of the attributes.
