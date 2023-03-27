@@ -525,7 +525,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48857: Unable to save changes with [!DNL Page Builder]](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48857-unable-to-save-changes-after-editing-with-pagebuilder.md)
         * [ACSD-49286: Product added twice to cart when multiple product widgets are present](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49286-product-added-twice-to-cart-when-multiple-product-widgets-are-present-on-page.md)
         * [ACSD-48204: Catalog price rule created based on Yes or No attribute doesn't consider selected scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48204-catalog-price-rule-created-based-on-yes-no-attribute-does-not-consider-the-selected-scope.md)
-        * [ACSD-47704: Bundled product shows In Stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
+        * [ACSD-47704: Bundled product shows in stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
