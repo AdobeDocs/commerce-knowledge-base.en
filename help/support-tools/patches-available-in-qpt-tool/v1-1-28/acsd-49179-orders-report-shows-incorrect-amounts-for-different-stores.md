@@ -30,7 +30,7 @@ The orders report shows incorrect amounts in the case of different currencies fo
 Catalog Price Scope = Website
 1. Create an additional website, store, and store view.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL General]** > **[!UICONTROL Currency Setup]** > **[!UICONTROL Currency Options]** and set:
-    * Default Config:
+    * [!UICONTROL Default Config]:
     * Base Currency: USD
     * Default Display Currency : USD
     * Allowed Currencies: EUR, USD and THB (Thai Baht)
