@@ -53,7 +53,7 @@ Currently, the price of the bundle product is equal to the sum of the prices of 
 SKU 24-MB01 and a price of $34.
 1. Change its quantity to 0.
 1. Save the product.
-1. Go to the storefront and find the bundle product created in the previous steps. Note down its price - $32. Previously it was priced at $66 which was the sum of $34 from SKU 24-MB01 and $32 from SKU 24-MB04. Now that product 24-MB01 is out of stock, the bundle price is listed as $32 which is the price of the other product which is option in stock.
+1. Go to the storefront and find the bundle product created in the previous steps. Note down its price - $32. Previously it was priced at $66 which was the sum of $34 from SKU 24-MB01 and $32 from SKU 24-MB04. Now that product 24-MB01 is out of stock, the bundle price is listed as $32 which is the price of the other product which is an in stock option.
 
 <u>Expected results</u>:
 
