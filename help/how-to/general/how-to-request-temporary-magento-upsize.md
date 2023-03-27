@@ -13,7 +13,7 @@ If your organization is planning an online event in which you expect high traffi
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure, all [supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce on cloud infrastructure, all [supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## How to identify high traffic events
 
@@ -26,9 +26,9 @@ Baseline alerting is useful for creating alert conditions that:
 
 In addition, baseline alerting works well with new applications when you do not yet have known behaviors.
 
-Follow this link to learn more about New Relic [Creating baseline alert conditions](https://docs.newrelic.com/docs/alerts/new-relic-alerts/defining-conditions/create-baseline-alert-conditions).
+Follow this link to learn more about New Relic [Anomaly detection with  applied Intelliegence](https://docs.newrelic.com/docs/alerts-applied-intelligence/applied-intelligence/anomaly-detection/anomaly-detection-applied-intelligence/).
 
-If you receive an alert notification that suggests a high traffic event you may need to consider [submitting a Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting additional capacity. Follow the below steps.
+If you receive an alert notification that suggests a high traffic event you may need to consider [submitting a Support Ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) requesting additional capacity. Follow the below steps.
 
 ## How to monitor performance of your site
 
@@ -40,11 +40,11 @@ Adobe provides a set of New Relic alert policies for Adobe Commerce on cloud inf
 
 Based on industry best practices, these policies set thresholds for warning and critical conditions that affect performance. When your site experiences an infrastructure or application issue that triggers an alert threshold, New Relic sends alert notifications so that you can proactively address the issue. To use these policies, you must configure notification channels to receive the alert messages.
 
-Follow this link to learn how to [configure performance-based alerts](https://devdocs.magento.com/cloud/project/new-relic.html#monitor-performance-with-alert-policies).
+Follow this link to learn how to [configure performance-based alerts](/docs/commerce-cloud-service/user-guide/monitor/new-relic.html#monitor-performance-with-managed-alerts).
 
 ## Steps to request temporary upsize
 
-Follow the steps below to submit a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request temporary additional cloud capacity:
+Follow the steps below to submit a [Support Ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) to request temporary additional cloud capacity:
 
 Submit a [Support Ticket at the Adobe Commerce Support Center](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), after inputting the following information:
 
@@ -66,7 +66,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](/help/help-center
 
 ## View the history of your upsizes
 
-You can view the history of requested resizes in your [Project Portal (Onboarding UI)](https://devdocs.magento.com/cloud/onboarding/onboarding-tasks.html), under **Project** > **Services** > **CPU Usage Tracking**.
+You can view the history of requested resizes in your [Project Portal (Onboarding UI)](/docs/commerce-cloud-service/start/onboarding.html#cloud-project-portal-(onboarding-ui)), under **Project** > **Services** > **CPU Usage Tracking**.
 The following information is available for each resize request:
 
 * **Size Start Date**: date of upsize request.
@@ -79,11 +79,11 @@ The following information is available for each resize request:
 ## Related reading
 
 * For insights, methods, and examples of how to measure and improve site performance, refer to the following in-depth articles in our support knowledge base:
-    * [CPU allocation calculation for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
-    * [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
-    * [Check host’s CPU configuration for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
-* For information on how to identify outages, refer to [Identify and measure outages for Adobe Commerce on cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) in our support knowledge base.
+    * [CPU allocation calculation for Adobe Commerce on cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
+    * [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
+    * [Check host’s CPU configuration for Adobe Commerce on cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
+* For information on how to identify outages, refer to [Identify and measure outages for Adobe Commerce on cloud](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) in our support knowledge base.
 * For information on improving site performance to avoid the need for utilizing an increase in capacity, refer to these articles in our developer documentation:
-    * [Image Sizing](https://docs.magento.com/m2/ee/user_guide/catalog/product-image-resizing.html?_ga=2.180036580.1101564187.1584392801-2014893147.1552329962)
-    * [Full Page Caching](https://docs.magento.com/m2/ee/user_guide/system/cache-full-page.html?_ga=2.206252883.1101564187.1584392801-2014893147.1552329962)
-    * [ECE-Tools](https://devdocs.magento.com/guides/v2.2/cloud/reference/ece-tools-reference.html?_ga=2.250808134.1101564187.1584392801-2014893147.1552329962)
+    * [Image Sizing](/docs/commerce-admin/catalog/products/digital-assets/product-image-config.html#product-image-resizing)
+    * [Full Page Caching](/docs/commerce-admin/systems/tools/cache-management.html#full-page-caching)
+    * [ECE-Tools](/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview.html)

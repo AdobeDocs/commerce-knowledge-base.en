@@ -19,7 +19,7 @@ Customers from the EU complain that their credit card transactions are being dec
 
 ## Cause
 
-The European Union revised a regulation called Payment Services Directive (PSD) with an updated version [PSD2](https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366_en). This is a European Union (EU) directive enforced to regulate payment services and payment service providers throughout the EU and European Economic Area (EEA). Strong Customer Authentication (SCA) is a requirement of PSD2 to increase payment data security and authentication. If your payment solutions do not comply with the directive requirements, this may result in customers not being able to complete payments. Please find more details in the [related Adobe Commerce DevBlog post](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460).
+The European Union revised a regulation called Payment Services Directive (PSD) with an updated version [PSD2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32015L2366&from=EN). This is a European Union (EU) directive enforced to regulate payment services and payment service providers throughout the EU and European Economic Area (EEA). Strong Customer Authentication (SCA) is a requirement of PSD2 to increase payment data security and authentication. If your payment solutions do not comply with the directive requirements, this may result in customers not being able to complete payments. Please find more details in the [related Adobe Commerce DevBlog post](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460).
 
 ## Solution
 

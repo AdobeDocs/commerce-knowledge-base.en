@@ -1,11 +1,11 @@
 ---
 title: Depreciation of Core Adobe Commerce Payment Integrations
-description: Due to the Payment Service Directive PSD2 (see details on [Payment Services Directive](https://docs.magento.com/m2/ee/user_guide/stores/compliance-payment-services-directive.html?utm_source=marketo&utm_medium=email&utm_campaign=191107-PR-DM-233-Customer-Launch-Support&mkt_tok=eyJpIjoiTWpVNE1HSTNORGhoTlRZMCIsInQiOiJjZSs2SG5Ic1Y1K0tIZ2MzZEl3T1hRamdGbXplOUFIUlErUGZlSlhzbWk5WE9RVGdrU3h2QTVRNnBvaE83Vjl4V2VLM0lCMzVcL1FlYVJuVlJTRzBLTENQU2x2UXJRZEpPQ0pNSHRmMFlYb1IxVk91ZWg2czNiUHRNeXM5MStTbGsifQ%3D%3D) in our user guide) and the continued evolution of many APIs, a number of Adobe Commerce core payment integrations risk becoming outdated and no longer security compliant in the future. To that end, many core payment integrations have been or will soon be deprecated, and we are recommending a transition to their corresponding Commerce Marketplace extensions. Please read the rest of the article below to review recent deprecations of payment integrations. Each of the **Status** links are found in our user guide. **The below integrations will all be removed from Adobe Commerce’s 2.4.0 release and have been deprecated from versions of 2.3.**
+description: Due to the Payment Service Directive PSD2 (see details on [Payment Services Directive](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive.html) in our user guide) and the continued evolution of many APIs, a number of Adobe Commerce core payment integrations risk becoming outdated and no longer security compliant in the future. To that end, many core payment integrations have been or will soon be deprecated, and we are recommending a transition to their corresponding Commerce Marketplace extensions. Please read the rest of the article below to review recent deprecations of payment integrations. Each of the **Status** links are found in our user guide. **The below integrations will all be removed from Adobe Commerce’s 2.4.0 release and have been deprecated from versions of 2.3.**
 exl-id: c2c4b3b6-409d-466f-a4f3-dfe13ac7f972
 ---
 # Depreciation of Core Adobe Commerce Payment Integrations
 
-Due to the Payment Service Directive PSD2 (see details on [Payment Services Directive](https://docs.magento.com/m2/ee/user_guide/stores/compliance-payment-services-directive.html?utm_source=marketo&utm_medium=email&utm_campaign=191107-PR-DM-233-Customer-Launch-Support&mkt_tok=eyJpIjoiTWpVNE1HSTNORGhoTlRZMCIsInQiOiJjZSs2SG5Ic1Y1K0tIZ2MzZEl3T1hRamdGbXplOUFIUlErUGZlSlhzbWk5WE9RVGdrU3h2QTVRNnBvaE83Vjl4V2VLM0lCMzVcL1FlYVJuVlJTRzBLTENQU2x2UXJRZEpPQ0pNSHRmMFlYb1IxVk91ZWg2czNiUHRNeXM5MStTbGsifQ%3D%3D) in our user guide) and the continued evolution of many APIs, a number of Adobe Commerce core payment integrations risk becoming outdated and no longer security compliant in the future. To that end, many core payment integrations have been or will soon be deprecated, and we are recommending a transition to their corresponding Commerce Marketplace extensions. Please read the rest of the article below to review recent deprecations of payment integrations. Each of the **Status** links are found in our user guide. **The below integrations will all be removed from Adobe Commerce’s 2.4.0 release and have been deprecated from versions of 2.3.**
+Due to the Payment Service Directive PSD2 (see details on [Payment Services Directive](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive.html) in our user guide) and the continued evolution of many APIs, a number of Adobe Commerce core payment integrations risk becoming outdated and no longer security compliant in the future. To that end, many core payment integrations have been or will soon be deprecated, and we are recommending a transition to their corresponding Commerce Marketplace extensions. Please read the rest of the article below to review recent deprecations of payment integrations. Each of the **Status** links are found in our user guide. **The below integrations will all be removed from Adobe Commerce’s 2.4.0 release and have been deprecated from versions of 2.3.**
 
 <table style="height: 243px;" width="712">
 <tbody>
@@ -16,27 +16,27 @@ Due to the Payment Service Directive PSD2 (see details on [Payment Services Dire
 </tr>
 <tr>
 <td style="width: 225.455px;">Worldpay</td>
-<td style="width: 226.364px;">2.3.x - <a href="https://docs.magento.com/m2/ee/user_guide/payment/worldpay.html">Deprecated since 2.3.5</a><br>2.4.0 - Will be completely removed</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=en#recommended-solutions">Deprecated since 2.3.5</a><br>2.4.0 - Will be completely removed</td>
 <td style="width: 226.364px;">Ask your payment provider what solution they recommend to comply with PSD2 requirements.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">Authorize.net</td>
-<td style="width: 226.364px;">2.3.x - <a href="https://docs.magento.com/m2/ee/user_guide/payment/authorize-net.html">Deprecated since 2.3.4</a><br>2.4.0 - Will be completely removed</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=en#recommended-solutions">Deprecated since 2.3.4</a><br>2.4.0 - Will be completely removed</td>
 <td style="width: 226.364px;">Use the <a href="https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html">official extension</a> from Commerce Marketplace instead.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">Authorize.net (Direct Post)</td>
-<td style="width: 226.364px;">2.3.x - <a href="https://docs.magento.com/m2/ee/user_guide/payment/authorize-net-direct-post.html">Deprecated since 2.3.1</a><br>2.4.0 - Will be completely removed</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=en#recommended-solutions">Deprecated since 2.3.1</a><br>2.4.0 - Will be completely removed</td>
 <td style="width: 226.364px;">Use the <a href="https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html">official extension</a> from Commerce Marketplace instead.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">CyberSource</td>
-<td style="width: 226.364px;">2.3.x - <a href="https://docs.magento.com/m2/ee/user_guide/payment/cybersource.html">Deprecated since 2.3.3</a><br>2.4.0 - Will be completely removed</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=en#recommended-solutions">Deprecated since 2.3.3</a><br>2.4.0 - Will be completely removed</td>
 <td style="width: 226.364px;">Use the <a href="https://marketplace.magento.com/cybersource-global-payment-management.html">official extension</a> from Commerce Marketplace instead.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">eWay</td>
-<td style="width: 226.364px;">2.3.x - <a href="https://docs.magento.com/m2/ee/user_guide/payment/eway.html">Deprecated since 2.3.3</a><br>2.4.0 - Will be completely removed</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=en#recommended-solutions">Deprecated since 2.3.3</a><br>2.4.0 - Will be completely removed</td>
 <td style="width: 226.364px;">Ask your payment provider what solution they recommend to comply with PSD2 requirements.</td>
 </tr>
 </tbody>

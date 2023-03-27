@@ -22,13 +22,13 @@ The most probable cause of the issues is the MySQL database allocated space bein
 
 ### Check if there's enough space for MySQL
 
-For all Adobe Commerce on cloud infrastructure Starter plan architecture environments, and [Integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) of the Adobe Commerce on cloud infrastructure Pro plan architecture, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh) and run the command:
+For all Adobe Commerce on cloud infrastructure Starter plan architecture environments, and [Integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) of the Adobe Commerce on cloud infrastructure Pro plan architecture, [SSH to the environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) and run the command:
 
 ```bash
 magento-cloud db:size
 ```
 
-For the Staging or Production environment of the Pro architecture, [SSH to the environment](https://devdocs.magento.com/guides/v2.2/cloud/env/environments-ssh.html#ssh), and run the `df -h`   `| grep mysql` command. The result will look similar to the following:
+For the Staging or Production environment of the Pro architecture, [SSH to the environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html), and run the `df -h`   `| grep mysql` command. The result will look similar to the following:
 
 ```bash
 sxpe7gigd5ok2@i-00baa9e24f31dba41:~$ df -h | grep mysql
@@ -47,7 +47,7 @@ mysql:
     disk: 2048
 ```
 
-See the [Set up MySQL service](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html) article for reference.
+See the [Set up MySQL service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html) article for reference.
 
 To make these changes for the Staging or Production environment of the Pro architecture, you must create a [Support ticket](http://support.magento.com/). But typically, you will not have to deal with this on Staging/Production of the Pro architecture as Adobe Commerce monitors these parameters for you and alerts you and/or takes actions according to the contract.
 

@@ -25,7 +25,7 @@ You need to copy the encryption key from the source environment and add it to th
 
 To copy the encryption key:
 
-1. SSH to your project that was the source for the database dump, as described in [SSH to environment](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) in our developer documentation.
+1. SSH to your project that was the source for the database dump, as described in [SSH to environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in our developer documentation.
 1. Open `app/etc/env.php` in a text editor.
 1. Copy the value of `key` for `crypt`.
 
@@ -36,7 +36,7 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 To set the key value for the destination project:
 
 1. Open your Project Web UI and locate your project.
-1. Set the value of the [CRYPT\_KEY](https://devdocs.magento.com/guides/v2.2/cloud/env/variables-deploy.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=CRYPT_KEY#crypt_key) (in our developer documentation) variable, as described in [Configure your project](https://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html#project-conf-env-var) in our developer documentation. This will trigger the deployment process and `CRYPT_KEY` will be overridden in the `app/etc/env.php` file on every deployment.
+1. Set the value of the [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) (in our developer documentation) variable, as described in [Configure your project](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in our developer documentation. This will trigger the deployment process and `CRYPT_KEY` will be overridden in the `app/etc/env.php` file on every deployment.
 
 Optionally, you can manually override the encryption key in the `app/etc/env.php` file:
 
