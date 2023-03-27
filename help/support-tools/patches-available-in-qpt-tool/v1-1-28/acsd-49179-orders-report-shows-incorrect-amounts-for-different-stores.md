@@ -34,7 +34,7 @@ Catalog Price Scope = Website
     * [!UICONTROL Base Currency]: USD
     * Default Display Currency : USD
     * [!UICONTROL Allowed Currencies]: EUR, USD and THB (Thai Baht)
-    * Main Website:
+    * [!UICONTROL Main Website]:
     * Base Currency: EUR
     * Default Display Currency : EUR
     * Allowed Currencies: EUR
