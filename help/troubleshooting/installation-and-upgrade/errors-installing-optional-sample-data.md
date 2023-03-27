@@ -26,11 +26,11 @@ These exceptions result from file system permissions settings.
 
 ### Solution
 
- [Set file system ownership and permissions again](https://devdocs.magento.com/guides/v2.3/config-guide/prod/prod_file-sys-perms.html) as a user with `root` privileges.
+ [Set file system ownership and permissions again](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) as a user with `root` privileges.
 
 ## Symptom (production mode)
 
-If you're currently set for [production mode](https://devdocs.magento.com/guides/v2.3/config-guide/bootstrap/magento-modes.html#production-mode), sample data installation fails if you use the [magento sampledata:deploy](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-sample-data-composer.html) command:
+If you're currently set for [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), sample data installation fails if you use the [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) command:
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -40,7 +40,7 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 Don't install sample data in production mode. Switch to developer mode and clear some `var` directories and try again.
 
-Enter the following commands in the order shown as the [Adobe Commerce file system owner](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html):
+Enter the following commands in the order shown as the [Adobe Commerce file system owner](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
 
 ```php
 cd <magento_root>

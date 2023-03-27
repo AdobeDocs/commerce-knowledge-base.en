@@ -506,6 +506,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48366: product image not displayed on Back to Stock email template](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48366-product-image-not-displayed-back-stock-email-template.md)
         * [ACSD-48417: SQL error after creating a schedule change](/help/support-tools/patches-available-in-qpt-tool/v1-1-26/acsd-48417-sql-error-after-creating-a-schedule-change.md)
     * V1.1.27 {#v1-1-27}
+        * [ACSD-48404: remember category pagination = yes causes an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48404-fixes-the-issue-where-remember-category-pagination-yes-causes-an-error.md)
         * [Overview](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/overview.md)
         * [ACSD-48634: [!DNL JS] errors when [!DNL Google Analytics Content Experiments] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48634-js-errors-when-google-analytics-content-experiments-enabled.md)
         * [ACSD-49042: Product with infinite backorder can't be ordered from storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49042-product-with-infinite-backorder-cant-be-ordered-from-storefront.md)
@@ -514,10 +515,20 @@ breadcrumb-title: Commerce KB
         * [ACSD-48362: the default shipping address is used instead of a new one](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48362-fixes-the-issue-where-the-default-shipping-address-is-used-instead-of-a-new-one.md)
         * [ACSD-48164: restricted admin cannot save website-level value](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48164-restricted-admin-cannot-save-website-level-value.md)
         * [ACSD-49013: email confirmation not translated to website locale](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49013-email-confirmation-not-translated-to-website-locale.md)
+        * [ACSD-48216: AUTO_INCREMENT of inventory_source_item table increases on UPDATE operation](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48216-auto-increment-of-inventory-source-item-table-increases-on-the-update-operation.md)
         * [ACSD-49497: order still processing after shipment and partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-49497-order-is-still-processing-after-shipment-and-partial-refund.md)
+        * [ACSD-48694: Invalid state change requested error prevents customer from placing order](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48694-invalid-state-change-requested-error-prevents-customer-from-placing-order.md)
     * V1.1.28 {#v1-1-28}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.28](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/overview.md)
         * [ACSD-49179: orders report shows incorrect amounts for different stores](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49179-orders-report-shows-incorrect-amounts-for-different-stores.md)
+        * [ACSD-48866: Error when requesting RSS feed for categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48866-error-when-requesting-rss-feed-for-categories.md)
+        * [ACSD-49433: Default amount shown as subtotal in cart for gift card](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49433-default-amount-shown-subtotal-in-cart.md)
+        * [ACSD-48807: Product reviews not filtered by storeview](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48807-product-reviews-not-filtered-storeview.md)
+        * [ACSD-49574: Can't update gift card product in shopping cart via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49574-cannot-update-gift-card-product-in-shopping-cart-via-graphql.md)
+        * [ACSD-48784: Customer segment prices cached incorrectly](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48784-customer-segment-prices-cached-incorrectly.md)
+        * [ACSD-48857: Unable to save changes with [!DNL Page Builder]](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48857-unable-to-save-changes-after-editing-with-pagebuilder.md)
+        * [ACSD-49286: Product added twice to cart when multiple product widgets are present](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49286-product-added-twice-to-cart-when-multiple-product-widgets-are-present-on-page.md)
+        * [ACSD-48204: Catalog price rule created based on Yes or No attribute doesn't consider selected scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48204-catalog-price-rule-created-based-on-yes-no-attribute-does-not-consider-the-selected-scope.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)

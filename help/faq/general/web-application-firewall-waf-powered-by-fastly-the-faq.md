@@ -97,7 +97,7 @@ An estimated 1.5 milliseconds (ms) to 20 ms of latency is introduced to every no
 
 ## Can customers create and modify IP blacklists to block traffic?
 
-Yes, customers can enable blocking by country and access control list (ACL) from the Adobe Commerce on cloud infrastructure's Admin UI. Use these features in cases where you want to block access for visitors coming from specific countries or certain IPs or IP ranges. If you want blocked visitors to see a custom page rather than an error code, you can create a custom error page by uploading HTML in the Fastly Configuration menu. See [Create a custom error/maintenance page](https://devdocs.magento.com/guides/v2.2/cloud/cdn/configure-fastly.html#fastly-errpg) in our developer documentation.
+Yes, customers can enable blocking by country and access control list (ACL) from the Adobe Commerce on cloud infrastructure's Admin UI. Use these features in cases where you want to block access for visitors coming from specific countries or certain IPs or IP ranges. If you want blocked visitors to see a custom page rather than an error code, you can create a custom error page by uploading HTML in the Fastly Configuration menu. See [Create a custom error/maintenance page](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in our developer documentation.
 
 ## Where can I check the operational status of my WAF service?
 
@@ -111,7 +111,7 @@ At this time, Incident Management is not offered.
 
 Although Adobe Commerce does not have a Security Operations Center, we do have a security operations process that allows us to engage the right resources to respond to security incidents in real-time. We also offer 24/7/365 follow-the-sun support.
 
-You can also get Adobe Commerce-related security news and updates from the [Security Center](https://magento.com/security).
+You can also get Adobe Commerce-related security news and updates from the [Security Center](https://helpx.adobe.com/security.html).
 
 ## What Support is available?
 
@@ -121,7 +121,7 @@ WAF Support offers the following resources to assist you with mitigating the ser
 * Ongoing false positive triage to address instances where the WAF blocks legitimate traffic
 * Configuration of any new standard rules introduced as part of WAF version upgrades
 
-See the [Cloud SLA](https://magento.com/sites/default/files/magento-support-services-terms-and-conditions.pdf) terms for additional support information including severity definitions, response times, channels, and availability.
+See the [Cloud SLA](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf) terms for additional support information including severity definitions, response times, channels, and availability.
 
 ## If the WAF is blocking legitimate traffic or causing other issues, how can I get help?
 

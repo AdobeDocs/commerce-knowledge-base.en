@@ -167,7 +167,11 @@ We provide support only to Adobe Commerce license owners and accounts which have
 * [Adobe Commerce documentation resources](https://experienceleague.adobe.com/docs/commerce.html)
 * [Magento Forums](https://community.magento.com/?_ga=2.99592990.1084044056.1559046120-720752292.1551793747)
 
-If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [Help Center login issues](mailto:helpcenterloginissues@magento.com), and we will gladly review your account settings and support entitlements.
+If you are having issues logging in to your account or believe Shared Access was set up correctly, but you still cannot see **Submit a ticket** button, please email [Help Center login issues](mailto:grp-magento-helpcenterloginissues@adobe.com), and we will gladly review your account settings and support entitlements.
+
+>[!NOTE]
+>
+>Do not send an email if you are able to Submit a ticket, but are instead having an issue with accessing your cloud project. Please submit the ticket for this issue through the regular channels.
 
 ### "Please verify your email address" error on the Magento Account page {#verify-email-address}
 
@@ -183,7 +187,7 @@ The solution is to validate your email address:
 
 1. Clicking the **Validate Email** button will send an email to the email address registered for this Magento Account with a link to validate the email address.
 1. Click on the email validation link to validate your email and resolve this issue.
-1. If you do not receive an email with an email validation link, please email [Help Center login issues](mailto:helpcenterloginissues@magento.com) and indicate that you cannot validate your email address.
+1. If you do not receive an email with an email validation link, please email [Help Center login issues](mailto:grp-magento-helpcenterloginissues@adobe.com) and indicate that you cannot validate your email address.
 
 >[!NOTE]
 >
@@ -302,7 +306,7 @@ To delete emails from CC: click **x** in a framed email.
 
 #### Cloud Project URL
 
-Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`. If you have access to the [Onboarding UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface), please make sure that you provide the Cloud Project Web URL specified at `https://cloud.magento.com/project/<xyz>/develop/infrastructure` (where `<xyz>` is the unique onboarding project ID), not the URL to the Onboarding UI itself.
+Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`. If you have access to the [Onboarding UI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html), please make sure that you provide the Cloud Project Web URL specified at `https://cloud.magento.com/project/<xyz>/develop/infrastructure` (where `<xyz>` is the unique onboarding project ID), not the URL to the Onboarding UI itself.
 
 Another method to obtain the Project URL is as follows:
 
@@ -332,7 +336,7 @@ Select the **environment type** on which you face the problem:
 * Staging
 * Production
 
-Read more about Adobe Commerce on cloud infrastructure environments in the [Pro architecture](http://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html) article in our developer documentation.
+Read more about Adobe Commerce on cloud infrastructure environments in the [Pro architecture](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html) article in our user guide.
 
 #### Implementation Type
 
@@ -393,7 +397,7 @@ For Partners: **Merchant Name** is the name of your Customer.
 
 #### Project URL (Commerce Cloud only)
 
-Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html).
+Link to your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
 #### Steps to reproduce (Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure only)
 
@@ -424,11 +428,11 @@ Include a short overview of your problem (for example, *Error 404 on all pages* 
 
 Please select the Adobe Commerce version you are requesting help with. All supported versions of Adobe Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
 
-To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
+To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) page and check the lower-left corner.
 
 ![Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search](assets/magento-env-id.png)
 
-If you are using [Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html) or [OpenSearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/es-aws.html), do not select this option.
+If you are using [Elasticsearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html) or [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/aws-opensearch.html), do not select this option.
 
 To obtain this information, in the Adobe Commerce Admin, go to **Marketing** > **Live Search** > **GraphQL Playground**, scroll down to the bottom of the page, then click on **HTTP HEADERS**.
 
@@ -497,7 +501,7 @@ Users who have been provided with shared access cannot transfer or grant such ac
 
 To find out who is the Owner of your Adobe Commerce on cloud infrastructure Account, follow these steps:
 
-1. Access your Adobe Commerce on cloud infrastructure [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/projects.html).
+1. Access your Adobe Commerce on cloud infrastructure [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 1. Click the gear icon (Configure Project) next to your Project Name (upper-left corner).
 1. Go to the **Users** tab.
 1. Find the user who is mentioned as the **Account owner**.
