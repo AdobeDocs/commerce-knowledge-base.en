@@ -17,7 +17,7 @@ QPT v1.1.29 includes the following patches:
 1. **ACSD-49502**: Fixes the issue where the downloadable link is not updated properly after a staging update is applied to the downloadable product.
 1. **ACSD-49527**: Fixes the issue where GraphQL company roles don't display pagination correctly.
 1. **ACSD-49706**: Fixes the issue where the default value is saved for a visual swatch attribute when no value is selected.
-1. **ACSD-49835**: Fixes the issue where the Use default checkbox value is not saved correctly on a store level for a multi-select attribute.
+1. **ACSD-49835**: Fixes the issue where the *[!UICONTROL Use default]* checkbox value is not saved correctly on a store level for a multi-select attribute.
 1. **ACSD-49898**: Fixes the issue where the products grid throws an exception when a bundled product has a special price that exceeds 1000.
 1. **ACSD-50234**: Fixes the issue with the wrong customer name in the confirmation email if placing an order with [!DNL PayPal].
 1. **ACSD-49960**: Fixes the issue where filtering by date does not work for the customer order grid.
