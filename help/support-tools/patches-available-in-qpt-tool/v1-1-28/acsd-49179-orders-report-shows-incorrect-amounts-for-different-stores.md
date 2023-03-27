@@ -50,7 +50,7 @@ Catalog Price Scope = Website
 1. Set the scope of the report on the additional website previously created and set the filter as following:
     * [!UICONTROL Date Used]: [!UICONTROL Created]
     * [!UICONTROL Period]: [!UICONTROL Day]
-    * From and To: the same day of when the test order was placed
+    * [!UICONTROL From and To]: The same day when the test order was placed
     * Order Status: any
     * Empty rows: No
     * Show Actual Values: No
