@@ -1,5 +1,5 @@
 ---
-title: 'Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29'
+title: "Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29"
 description: This sub-section provides a detailed description of the issues fixed by the patches available in [!DNL Quality Patches Tool] (QPT) v1.1.29.
 ---
 # Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29
