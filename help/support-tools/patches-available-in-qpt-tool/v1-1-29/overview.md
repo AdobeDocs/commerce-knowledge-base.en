@@ -9,7 +9,7 @@ This sub-section provides a detailed description of the issues fixed by the patc
 QPT v1.1.29 includes the following patches:
 
 1. **ACSD-49389**: Fixes the issue where a ready-to-pick-up email is sent by API when the order is not ready for pickup.
-1. **ACSD-49822**: Fixes the issue where updates in the [!UICONTROL Requisition List] page are not reflected on the [!UICONTROL Print Requisition] List.
+1. **ACSD-49822**: Fixes the issue where updates in the *[!UICONTROL Requisition List]* page are not reflected on the [!UICONTROL Print Requisition] List.
 1. **ACSD-48771**: Fixes the issue with upgrading the [!UICONTROL column-block] content type from older [!DNL Page Builder] versions.
 1. **ACSD-49464**: Fixes the issue where invoices, shipments, and credit memos are not moved back from the archive when the orderId is different.
 1. **ACSD-49773**: Fixes the issue where product export fails when AWS S3 is used as remote storage.
