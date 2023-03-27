@@ -57,7 +57,7 @@ Catalog Price Scope = Website
 
 <u>Expected results</u>:
 
-Sales total should show the total of the placed order, converted in the currency of the website.
+Sales total shows the total of the placed orders converted into the currency of the website.
 
 <u>Actual results</u>:
 
