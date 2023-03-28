@@ -44,7 +44,7 @@ The price of a bundled product with Dynamic Pricing enabled is incorrect due to 
       * Add any simple product which is in stock, different from the product added in the step before; for example - Strive Shoulder Pack 24-MB04 - before adding the product, note down its price - $32
       * Default quantity: 1
 1. Save product.
-1. Go to the store front and find the product created in the previous steps. 
+1. Go to the storefront and find the product created in the previous steps. 
 Note down its price - $66
 (66 = 32 + 34). 
 Currently, the price of the bundle product is equal to the sum of the prices of its options.
