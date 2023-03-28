@@ -41,7 +41,7 @@ The price of a bundled product with Dynamic Pricing enabled is incorrect due to 
       * **[!UICONTROL Option Title]** = o2
       * **[!UICONTROL Input type]** = **[!UICONTROL Dropdown]**
       * Mark required checkbox
-      * Add any simple product which is in stock, different from the product added in the step before; for example - Strive Shoulder Pack 24-MB04 - before adding the product, note down its price - $32
+      * Add any simple product which is in stock, different from the product added in the step before; for example - Strive Shoulder Pack 24-MB04. Before adding the product, note down its price - $32
       * Default quantity: 1
 1. Save product.
 1. Go to the storefront and find the product created in the previous steps. 
