@@ -32,8 +32,8 @@ The price of a bundled product with Dynamic Pricing enabled is incorrect due to 
 1. Bundle items:
    * Set **[!UICONTROL Ship bundle items]** to **[!UICONTROL Together]**
    * Select **[!UICONTROL Add Option]**
-      * **[!UICONTROL Title]**: o1
-      * **[!UICONTROL Input type]**: [!UICONTROL Dropdown]
+      * **[!UICONTROL Title]** = o1
+      * **[!UICONTROL Input type]**: **[!UICONTROL Dropdown]**
      * Mark required checkbox
      * Add any simple product which is in stock; for example, Joust Duffle Bag SKU 24-MB01. Before adding the product, note down its price - $34
     * Default quantity: 1
