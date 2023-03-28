@@ -530,6 +530,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48204: Catalog price rule created based on Yes or No attribute doesn't consider selected scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48204-catalog-price-rule-created-based-on-yes-no-attribute-does-not-consider-the-selected-scope.md)
     * v1.1.29 {#v1-1-29}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
+        * [ACSD-49748: Email invitations cannot be sent](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49748-email-invitations-cannot-be-sent.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
