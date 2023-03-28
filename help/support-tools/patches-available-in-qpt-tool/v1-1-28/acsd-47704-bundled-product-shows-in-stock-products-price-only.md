@@ -35,7 +35,7 @@ The price of a bundled product with Dynamic Pricing enabled is incorrect due to 
       * Title: o1
       * Input type: Dropdown
      * Mark required checkbox
-     * Add any simple product which is in stock - for example, Joust Duffle Bag SKU 24-MB01 - before adding the product, note down its price - $34
+     * Add any simple product which is in stock; for example, Joust Duffle Bag SKU 24-MB01. Before adding the product, note down its price - $34
     * Default quantity: 1
    *  Select **[!UICONTROL Add Option]**
       * **[!UICONTROL Option Title]** = o2
