@@ -57,7 +57,7 @@ SKU 24-MB01 and a price of $34.
 
 <u>Expected results</u>:
 
-The price of bundle products with Dynamic Pricing enabled is calculated consistently no matter if options are in stock or out of stock.
+The price of bundle products with Dynamic Pricing enabled is calculated consistently, no matter if options are in stock or out of stock.
 
 <u>Actual results</u>:
 
