@@ -22,7 +22,7 @@ The ACSD-47704 patch fixes the issue where customer segment prices are cached in
 
 ## Issue
 
-The price of a bundled product with Dynamic Pricing enabled is incorrect due to only in stock items being included.
+The price of a bundled product with Dynamic Pricing enabled is incorrect due to only in-stock items being included.
 
 <u>Steps to reproduce</u>:
 
