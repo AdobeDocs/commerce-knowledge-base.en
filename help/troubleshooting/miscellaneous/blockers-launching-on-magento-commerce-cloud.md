@@ -15,25 +15,26 @@ This article provides a fix for blockers to launching on Adobe Commerce on cloud
 >
 >With Full Page Cache (FPC) enabled, your website performs differently; make sure you test it before going live.
 
-The process of Fastly configuration is documented in detail in the [Set up Fastly](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html) topic in our developer documentation. Below are the important steps.
+The process of Fastly configuration is documented in detail in the [Set up Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) topic in our user guide. Below are the important steps.
 
 ### 1a. Make sure you have the most recent version of the Fastly module installed
 
-Make sure you have the most recent version of the Fastly module installed to get the latest features and improvements. To check if you have the latest version of Fastly, review [Upgrade the Fastly module](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#upgrade) in our developer documentation. For more details, review [Set up Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) in our developer documentation.
+Make sure you have the most recent version of the Fastly module installed to get the latest features and improvements. To check if you have the latest version of Fastly, review [Upgrade the Fastly module](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module) in our user guide. For more details, review [Set up Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in our user guide.
 
 ### 1b. Enable and configure Fastly using the Commerce Admin
 
-For more details, review [Get your Fastly credentials](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html#cloud-fastly-creds) in our developer documentation.
+For more details, review [Get your Fastly credentials](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#get-fastly-credentials) in our user guide.
 
 ### 1c. Upload Fastly VCL snippets
 
-For more details, see [Upload VCL to Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#upload-vcl-snippets) in our developer documentation.
+For more details, see [Upload VCL to Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in our user guide.
 
-You can also [create and add own custom VCL snippets](https://devdocs.magento.com/cloud/cdn/cloud-vcl-custom-snippets.html).
+You can also [create and add own custom VCL snippets](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html).
 
 ### 1d. Configure DNS for Fastly
 
-Refer to this article for detailed steps: [Set up Fastly](http://devdocs.magento.com/guides/v2.2/cloud/access-acct/fastly.html#fastly-dns) in our developer documentation.
+
+Refer to this article for detailed steps: [Set up Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings) in our user guide.
 
 ### Related Fastly articles in our support knowledge base
 
@@ -60,7 +61,7 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
  **Related articles:**
 
-* [Redirects through routes.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html) in our developer documentation.
+* [Redirects through routes.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html) in our user guide.
 * [Redirects through the Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in our user guide.
 * [URL Rewrites](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html) in our user guide.
 
@@ -70,12 +71,12 @@ Problem: Static assets are served slowly so your site has poor performance (long
 
 Recommendation: To identify possible causes of poor performance consider using [Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) for performance testing. You could also consider these third-party tools:
 
-* [Siege](https://www.joedog.org/siege-home/) : HTTP load-testing and benchmarking utility; supports basic authentication, cookies, HTTP, HTTPS and FTP protocols.
-* [Jmeter](http://jmeter.apache.org/) : A reputable load-testing and performance measuring tool. Helps gauge performance for spiked traffic, e.g., for flash sales.
-* [New Relic:](https://support.newrelic.com/) Locates processes and areas of the site causing slow performance with tracked time spent per action, like transmitting data, queries, Redis, etc.
+* [Siege](https://www.joedog.org/siege-home/): HTTP load-testing and benchmarking utility; supports basic authentication, cookies, HTTP, HTTPS and FTP protocols.
+* [Jmeter](http://jmeter.apache.org/): A reputable load-testing and performance measuring tool. Helps gauge performance for spiked traffic, e.g., for flash sales.
+* [New Relic](https://support.newrelic.com/): Locates processes and areas of the site causing slow performance with tracked time spent per action, like transmitting data, queries, Redis, etc.
 * [WebPageTest](https://www.webpagetest.org/) (free) and [Pingdom](https://www.pingdom.com/) (paid): Real-time analysis of your site pages load time with different origin locations.
 
-You may also consider [minification](https://devdocs.magento.com/cloud/live/sens-data-over.html#cloud-clp-settings) for CSS, JavaScript, and HTML.
+You may also consider [minification](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) for CSS, JavaScript, and HTML.
 
  **Related articles:**
 
