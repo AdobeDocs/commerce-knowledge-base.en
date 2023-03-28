@@ -19,6 +19,7 @@ The ACSD-49370 patch fixes the issue where the product attribute has a `FilterMa
 >[!NOTE]
 >
 >The patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [QPT landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
+
 ## Issue
 
 The product attribute has a `FilterMatchTypeInput` type in the GraphQL schema.
