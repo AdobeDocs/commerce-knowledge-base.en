@@ -28,8 +28,8 @@ Customer email was replaced with PayPal email when placing an order with PayPal 
 
 1. Configure PayPal Express and set **[!UICONTROL Payment Action]** = **[!UICONTROL Sale]**.
 1. Create a simple product.
-1. Complete the checkout for created product using graphql for guest customer, PayPal Express as payment method. Remember email set during checkout
-1. Go to admin and check email in created order
+1. Complete the checkout for created product using *[!UICONTROL graphql]* for guest customer, PayPal Express as payment method. Remember email set during checkout.
+1. Go to **[!UICONTROL Admin]** and check email in created order.
 
 <u>Expected results</u>:
 
