@@ -61,7 +61,7 @@ The price of bundle products with Dynamic Pricing enabled is calculated consiste
 
 <u>Actual results</u>:
 
-The price of bundle product with Dynamic Pricing enabled is miscalculated - it is taking into account only options that are in stock, resulting in a lower amount displayed than the actual one when one of the options is out of stock.
+The price of the bundle product with Dynamic Pricing enabled is miscalculated. It takes into account only options that are in stock, resulting in a lower amount displayed than the actual one when one of the options is out of stock.
 
 ## Apply the patch
 
