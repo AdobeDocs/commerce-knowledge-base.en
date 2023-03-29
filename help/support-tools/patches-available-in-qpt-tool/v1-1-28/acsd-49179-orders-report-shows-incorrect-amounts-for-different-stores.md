@@ -52,7 +52,7 @@ The orders report shows incorrect amounts in the case of different currencies fo
     * [!UICONTROL From and To]: The same day when the test order was placed
     * Order Status: any
     * [!UICONTROL Empty rows]: [!UICONTROL No]
-    * Show Actual Values: No
+    * [!UICONTROL Show Actual Values]: [!UICONTROL No]
 
 <u>Expected results</u>:
 
