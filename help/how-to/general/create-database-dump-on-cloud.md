@@ -29,7 +29,6 @@ This is the recommended and safest option.
 
  See [Dump your database (ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html#dump-your-database) in our Commerce on Cloud Infrastructure Guide.
 
-
 ## Option 2: mysqldump
 
 >[!WARNING]
@@ -55,4 +54,4 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
  **Related documentation:**
 
 * [mysqldump &ndash; A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) in official MySQL documentation.
-* [Cloud variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS`) in our Commerce on Cloud Infrastructure Guide.
+* [Cloud-specific variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html) (see `MAGENTO_CLOUD_RELATIONSHIPS`) in our Commerce on Cloud Infrastructure Guide.

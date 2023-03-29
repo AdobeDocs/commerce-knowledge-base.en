@@ -51,7 +51,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 ## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
 
-The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also
+The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also 
 
 ## SUPPORT TICKETS {#support-tickets}
 
@@ -306,7 +306,7 @@ To delete emails from CC: click **x** in a framed email.
 
 #### Cloud Project URL
 
-Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`. If you have access to the [Onboarding UI](https://devdocs.magento.com/cloud/project/user-admin.html#cloud-user-webinterface), please make sure that you provide the Cloud Project Web URL specified at `https://cloud.magento.com/project/<xyz>/develop/infrastructure` (where `<xyz>` is the unique onboarding project ID), not the URL to the Onboarding UI itself.
+Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`. If you have access to the [Onboarding UI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html), please make sure that you provide the Cloud Project Web URL specified at `https://cloud.magento.com/project/<xyz>/develop/infrastructure` (where `<xyz>` is the unique onboarding project ID), not the URL to the Onboarding UI itself.
 
 Another method to obtain the Project URL is as follows:
 
@@ -336,7 +336,7 @@ Select the **environment type** on which you face the problem:
 * Staging
 * Production
 
-Read more about Adobe Commerce on cloud infrastructure environments in the [Pro architecture](http://devdocs.magento.com/guides/v2.2/cloud/architecture/pro-architecture.html) article in our developer documentation.
+Read more about Adobe Commerce on cloud infrastructure environments in the [Pro architecture](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html) article in our user guide.
 
 #### Implementation Type
 
@@ -363,12 +363,11 @@ This field appears when your account is associated with more than one organizati
 
 >[!WARNING]
 >
->You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization.
+>You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization. 
 
 >[!NOTE]
 >
->Organization can be changed after the ticket is submitted.
->Follow these steps to change the organization:
+>Organization can be changed after the ticket is submitted. Follow these steps to change the organization.
 >
 >1. Go to the right column of the ticket.
 >1. Locate the dropdown for available organizations.
@@ -397,7 +396,7 @@ For Partners: **Merchant Name** is the name of your Customer.
 
 #### Project URL (Commerce Cloud only)
 
-Link to your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html).
+Link to your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
 #### Steps to reproduce (Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure only)
 
@@ -428,11 +427,11 @@ Include a short overview of your problem (for example, *Error 404 on all pages* 
 
 Please select the Adobe Commerce version you are requesting help with. All supported versions of Adobe Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
 
-To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/project-webint-basic.html) page and check the lower-left corner.
+To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) page and check the lower-left corner.
 
 ![Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search](assets/magento-env-id.png)
 
-If you are using [Elasticsearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html) or [OpenSearch](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/es-aws.html), do not select this option.
+If you are using [Elasticsearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html) or [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/aws-opensearch.html), do not select this option.
 
 To obtain this information, in the Adobe Commerce Admin, go to **Marketing** > **Live Search** > **GraphQL Playground**, scroll down to the bottom of the page, then click on **HTTP HEADERS**.
 
@@ -501,7 +500,7 @@ Users who have been provided with shared access cannot transfer or grant such ac
 
 To find out who is the Owner of your Adobe Commerce on cloud infrastructure Account, follow these steps:
 
-1. Access your Adobe Commerce on cloud infrastructure [Project Web Interface](http://devdocs.magento.com/guides/v2.2/cloud/project/projects.html).
+1. Access your Adobe Commerce on cloud infrastructure [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 1. Click the gear icon (Configure Project) next to your Project Name (upper-left corner).
 1. Go to the **Users** tab.
 1. Find the user who is mentioned as the **Account owner**.
