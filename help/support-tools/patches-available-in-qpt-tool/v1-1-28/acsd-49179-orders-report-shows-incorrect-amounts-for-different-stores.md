@@ -35,7 +35,7 @@ The orders report shows incorrect amounts in the case of different currencies fo
     * [!UICONTROL Allowed Currencies]: EUR, USD and THB (Thai Baht)
     * [!UICONTROL Main Website]:
     * [!UICONTROL Base Currency]: EUR
-    * Default Display Currency : EUR
+    * [!UICONTROL Default Display Currency]: EUR
     * [!UICONTROL Allowed Currencies]: EUR
     * [!UICONTROL Additional new Website]:
     * Base Currency: THB (Thai Baht)
