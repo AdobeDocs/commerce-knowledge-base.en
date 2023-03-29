@@ -18,7 +18,7 @@ The email address on your [Magento account](https://account.magento.com) is link
 
 ### **Case I:**
 
-You are trying to change the email address for a user who has their own account at <https://account.adobe.com>
+Changing the email address for a user who has their own account at <https://account.adobe.com>
 
 <u>Solution</u>
 
@@ -26,7 +26,7 @@ Send an email to Grp-magento-HelpCenterLoginIssues@adobe.com requesting to merge
 
 ### **Case II:**
 
-You are trying to change the email address for a user who currently doesn't have their own account at <https://account.adobe.com>
+Changing the email address for a user who currently does not have their own account at <https://account.adobe.com>
 
 <u>Solution</u>
 
@@ -37,7 +37,7 @@ If you have access to the mailbox of the [Current Owner email], please reset the
 1. Navigate to IMS Account to log in with the new email and set up the password.
 1. After the email address and password change, navigate to <https://account.magento.com> to log in using the [New Owner email].
 
-However, if you don't have access to emails sent to [Current Owner email]:
+However, if you don't have access to emails sent to [Current Owner email], follow these steps:
 
 1. Set up email forwarding from the [Current Owner email] to a new email using your company's mail server configuration. 
 1. Now proceed with the preceding steps.
