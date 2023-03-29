@@ -1,6 +1,6 @@
 ---
 title: Change email address on magento.com account
-description: This article discusses how to change the email address on your [Adobe Commerce account](https://account.magento.com) for different cases.
+description: This article discusses how to change the email address on your [Magento account](https://account.magento.com) when the field is grayed out.
 ---
 # How to change email address on your magento.com account?
 
@@ -8,7 +8,7 @@ This article explains how to modify the email address on your [Magento account](
 
 ## Affected products and versions
 
-* All Adobe Commerce versions and Infrastructure types
+* All Adobe Commerce versions and infrastructure types
 
 ## Cause
 
@@ -39,9 +39,9 @@ If you have access to the mailbox of the [Current Owner email], please reset the
 
 However, if you don't have access to emails sent to [Current Owner email]:
 
-1. Set up email forwarding from the [Current Owner email] to a new address using your company's mail server configuration. 
+1. Set up email forwarding from the [Current Owner email] to a new email using your company's mail server configuration. 
 1. Now proceed with the preceding steps.
 
-## Link to related documentation
+## Related reading
 
-[Reset forgotten password](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)
+[Reset forgotten password](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in Adobe helpx.
