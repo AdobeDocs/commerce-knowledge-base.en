@@ -50,7 +50,7 @@ The orders report shows incorrect amounts in the case of different currencies fo
     * [!UICONTROL Date Used]: [!UICONTROL Created]
     * [!UICONTROL Period]: [!UICONTROL Day]
     * [!UICONTROL From and To]: The same day when the test order was placed
-    * Order Status: any
+    * [!UICONTROL Order Status]: [UICONTROL Any]
     * [!UICONTROL Empty rows]: [!UICONTROL No]
     * [!UICONTROL Show Actual Values]: [!UICONTROL No]
 
