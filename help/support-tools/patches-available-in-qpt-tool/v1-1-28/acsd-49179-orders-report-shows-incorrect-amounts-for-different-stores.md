@@ -38,7 +38,7 @@ The orders report shows incorrect amounts in the case of different currencies fo
     * [!UICONTROL Default Display Currency]: EUR
     * [!UICONTROL Allowed Currencies]: EUR
     * [!UICONTROL Additional new Website]:
-    * Base Currency: THB (Thai Baht)
+    * [!UICONTROL Base Currency]: THB (Thai Baht)
     * Default Display Currency : THB (Thai Baht)
     * Allowed Currencies: THB (Thai Baht)
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Currency]** > **[!UICONTROL Currency Rates]** and set the empty conversion rates for the THB (set rates to 1.0000)
