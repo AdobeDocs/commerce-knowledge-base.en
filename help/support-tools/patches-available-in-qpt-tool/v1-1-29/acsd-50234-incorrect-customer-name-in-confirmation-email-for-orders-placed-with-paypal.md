@@ -38,7 +38,7 @@ The order confirmation email, invoice email, and all shipment-related emails are
 
 <u>Actual results</u>
 
-The order confirmation email, invoice email, and all shipment-related emails are addressed to 'Guest'.
+The order confirmation email, invoice email, and all shipment-related emails are addressed to *Guest*.
 
 ## Apply the patch
 
