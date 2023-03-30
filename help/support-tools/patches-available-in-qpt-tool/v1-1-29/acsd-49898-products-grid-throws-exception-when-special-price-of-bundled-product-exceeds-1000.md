@@ -33,7 +33,7 @@ Products grid throws an exception when a bundled product has a special price tha
 
 <u>Expected results</u>:
 
-* User should be able to filter/see the bundled product with the special price. 
+* User is able to filter/see the bundled product with the special price. 
 * Special price is shown as a percentage for bundled products and as price for other product types.
 
 <u>Actual results</u>:
