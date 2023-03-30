@@ -27,19 +27,18 @@ Products grid throws an exception when a bundled product has a special price tha
 <u>Steps to reproduce</u>:
 
 1. Create a bundled product.
-1. Set the special price to 9999.
-1. Save and then close.
+1. Set the special price to 9999; save and close.
 1. Navigate to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** 
     * Search for bundled product SKU if it is not visible.
 
 <u>Expected results</u>:
 
 * User should be able to filter/see the bundled product with the special price. 
-* Special price is shown as a percentage for bundle products and as price for other product types.
+* Special price is shown as a percentage for bundled products and as price for other product types.
 
 <u>Actual results</u>:
 
-The following is error is thrown: Non numeric value encountered.
+The following is error is thrown: *Non-numeric value encountered*.
 
 ## Apply the patch
 
