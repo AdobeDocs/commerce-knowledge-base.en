@@ -26,14 +26,20 @@ Customer email was replaced with PayPal email when placing an order with PayPal 
 
 <u>Steps to reproduce</u>:
 
-1. Configure PayPal Express and set **[!UICONTROL Payment Action]** = **[!UICONTROL Sale]**.
+1. Go to **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Payments]** 
+1. Enable and configure PayPal Express and set **[!UICONTROL Payment Action]** = **[!UICONTROL Sale]**.
+1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** 
 1. Create a simple product.
-1. Complete the checkout for created product using *[!UICONTROL graphql]* for guest customer, PayPal Express as payment method. Remember email set during checkout.
-1. Go to **[!UICONTROL Admin]** and check email in created order.
+1. Complete the guest checkout using *[!UICONTROL GraphQL]*
+[GraphQL checkout tutorial](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/).
+1. Use PayPal Express as payment method. 
+1. Note the email you used on this step:
+[Set email address tutorial](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/set-email-address/).
+1. After order is placed, go to **[!UICONTROL Admin]** and check email in the created order.
 
 <u>Expected results</u>:
 
-Email should be the same as set during the checkout.
+Email should be the same as set during checkout.
 
 <u>Actual results</u>:
 
