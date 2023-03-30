@@ -28,7 +28,7 @@ Filtering by date does not work for the customer order grid.
 
 1. Go to **[!UICONTROL Edit customer]** on backend.
 1. Open the **[!UICONTROL Orders]** tab.
-1. Apply filter by **[!UICONTROL Purchase Date]**.
+1. Apply filter by *[!UICONTROL Purchase Date]*.
 
 <u>Expected results</u>:
 
@@ -36,7 +36,7 @@ Applying the date filter should sort events in the correct order.
 
 <u>Actual results</u>:
 
-Applying the filter throws a JS error in console and the loader keeps loading.
+Applying the filter throws a [!DNL JS] error in console and the loader keeps loading.
 
 ## Apply the patch
 
