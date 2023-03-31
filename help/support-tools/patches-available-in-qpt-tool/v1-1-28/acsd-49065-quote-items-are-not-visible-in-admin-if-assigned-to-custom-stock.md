@@ -39,7 +39,7 @@ Prerequisites:
 
 <u>Expected results</u>:
 
-Able to view the items in the new quote, that have been created with new products, without re-saving the products.
+Items are visible in the new quote created with new products without re-saving the products.
 
 <u>Actual results</u>:
 
