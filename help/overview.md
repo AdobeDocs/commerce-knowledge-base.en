@@ -31,7 +31,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-48857-unable-to-save-changes-after-editing-with-pagebuilder.html">ACSD-48857: Unable to save changes after editing with Page Builder:</a> The ACSD-48857 patch fixes the issue where the user is unable to save changes after editing with Page Builder. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-48857-unable-to-save-changes-after-editing-with-pagebuilder.html">ACSD-48857: Unable to save changes after editing with [!DNL Page Builder]:</a> The ACSD-48857 patch fixes the issue where the user is unable to save changes after editing with [!DNL Page Builder]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
     </td>
     <td>New article</td>
     <td> Mar 31, 2023</td>
