@@ -30,7 +30,7 @@ Prerequisites:
 
 <u>Steps to reproduce</u>:
 
-1. Enable **[!UICONTROL Company]** and **[!UICONTROL B2B Quote]** under "**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**".
+1. Enable **[!UICONTROL Company]** and **[!UICONTROL B2B Quote]** under **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**.
 1. Create a secondary **[!UICONTROL Inventory Source]** and assign it to a secondary **[!UICONTROL Inventory Stock]**.
 1. Create a new product by assigning only the secondary (non-default) **[!UICONTROL Inventory Source]**.
 1. Go to Storefront and create a new company account, login as the **[!UICONTROL Company Admin]**, and add the created product to the cart.
