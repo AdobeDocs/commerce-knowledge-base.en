@@ -22,11 +22,11 @@ The ACSD-49065 patch fixes the issue where the quote items are not visible in th
 
 ## Issue
 
-The quote items are not visible in the Admin if they are only assigned to the custom stock.
+The quote items are not visible in the admin if they are only assigned to the custom stock.
 
 Prerequisites:
 
-**[!UICONTROL B2B]** and **[!UICONTROL Inventory]** modules must be installed
+**[!UICONTROL B2B]** and **[!UICONTROL Inventory]** modules must be installed.
 
 <u>Steps to reproduce</u>:
 
@@ -35,7 +35,7 @@ Prerequisites:
 1. Create a new product by assigning only the secondary (non-default) **[!UICONTROL Inventory Source]**.
 1. Go to the storefront and create a new company account. Log in as the **[!UICONTROL Company Admin]**, and add the created product to the cart.
 1. Navigate to the cart and *[!UICONTROL Request a Quote]*.
-1. Go to the admin and view the requested quote at "**[!UICONTROL Sales]** > **[!UICONTROL Quotes]**".
+1. Go to the admin and view the requested quote at **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
 
 <u>Expected results</u>:
 
