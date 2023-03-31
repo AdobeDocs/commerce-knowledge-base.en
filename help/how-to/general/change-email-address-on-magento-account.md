@@ -32,7 +32,7 @@ Changing the email address for a user who currently does not have their own acco
 
 If you have access to the mailbox of the [current owner email], reset the password for the current owner's email following the [Reset or change your Adobe password](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) guide in the Creative Cloud User Guide.
 
-1. Locate the password reset link sent to the Current Owner's mailbox with instructions.
+1. Locate the password reset link sent to the current owner's mailbox with instructions.
 1. Set a new password and change the email to [New Owner email].
 1. Navigate to the [IMS Account](https://account.adobe.com/) to log in with the new email and set up the password.
 1. After changing the email address and password, navigate to [Magento.com](https://account.magento.com) to log in using the [New Owner email].
