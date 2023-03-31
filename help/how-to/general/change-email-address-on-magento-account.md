@@ -30,7 +30,7 @@ Changing the email address for a user who currently does not have their own acco
 
 <u>Solution</u>
 
-If you have access to the mailbox of the [Current Owner email], please reset the password for [Current Owner email] following the [instructions here](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html).
+If you have access to the mailbox of the [current owner email], reset the password for the current owner's email following the [Reset or change your Adobe password](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) guide in the Creative Cloud User Guide.
 
 1. Locate the password reset link sent to the Current Owner's mailbox with instructions.
 1. Set a new password and change the email to [New Owner email].
