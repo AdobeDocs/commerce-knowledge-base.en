@@ -24,7 +24,9 @@ The ACSD-49065 patch fixes the issue where the quote items are not visible in th
 
 The quote items are not visible in the Admin if they are only assigned to the custom stock.
 
-Prerequisites:**[!UICONTROL B2B]** and **[!UICONTROL Inventory]** modules must be installed
+Prerequisites:
+
+**[!UICONTROL B2B]** and **[!UICONTROL Inventory]** modules must be installed
 
 <u>Steps to reproduce</u>:
 
