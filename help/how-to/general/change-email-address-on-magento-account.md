@@ -1,5 +1,5 @@
 ---
-title: Change email address on a Magento.com account
+title: How to change email address on magento.com account when the field is grayed out
 description: This article discusses how to change the email address on your [Magento.com](https://account.magento.com) account when the field is grayed out.
 ---
 # Change email address on a Magento.com account
