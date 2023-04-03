@@ -27,7 +27,7 @@ Product export fails when [!DNL AWS S3] is used as remote storage.
 <u>Steps to reproduce</u>:
 
 1. Install a large data profile.
-1. Create an AWS account and configure an S3 bucket and an IAM user.
+1. Create an [!DNL AWS] account and configure an [!DNL S3] bucket and an [!DNL IAM] user.
 1. Update `app/etc/env.php` with the configurations.
 1. Run `bin/magento setup:upgrade`.
 1. Go to backend and perform a full product export.
