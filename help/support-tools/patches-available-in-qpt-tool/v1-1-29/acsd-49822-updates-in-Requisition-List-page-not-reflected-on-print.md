@@ -30,9 +30,9 @@ Updates in the requisition list page are not reflected on the print requisition 
 1. Enable requisition list by navigating to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[B2B features]**.
 1. Create a product.
 1. Log in as a customer and add two products to the requisition list.
-1. Go to **[UICONTROL My Account]** > **[!UICONTROL My Requisition Lists]**.
+1. Go to **[!UICONTROL My Account]** > **[!UICONTROL My Requisition Lists]**.
 1. View a requisition list.
-1. Click **[UICONTROL Print]** in the upper right corner.
+1. Click **[!UICONTROL Print]** in the upper right corner.
 1. Close the print window and print requisition list page.
 1. Delete an item in the list or update a quantity of an item, and try to print it again. 
 1. You will observe that the items are not updated on the print window.
