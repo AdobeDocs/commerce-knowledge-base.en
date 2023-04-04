@@ -3,7 +3,7 @@ title: "ACSD-49822: Updates in requisition List page not reflected on print requ
 description: Apply the ACSD-49822 patch to fix the Adobe Commerce issue where updates in the requisition list page are not reflected on the print requisition list.
 ---
 
-# ACSD-49822: Updates in requisition list page not reflected on print requisition list
+# ACSD-49822: Updates in requisition list not reflected on print requisition list
 
 The ACSD-49822 patch fixes the issue where updates in the requisition list page are not reflected on the print requisition list. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49822. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
@@ -35,9 +35,9 @@ Updates in the requisition list page are not reflected on the print requisition 
 1. Click **[UICONTROL Print]** in the upper right corner.
 1. Close the print window and print requisition list page.
 1. Delete an item in the list or update a quantity of an item, and try to print it again. 
-1. You will observe that the items are not updated in the print window.
+1. You will observe that the items are not updated on the print window.
 1. Close the print window.
-1. You will observe that items are not updated in the requisition list print page.
+1. You will observe that the items are not updated on the requisition list print page.
 
 <u>Expected results</u>:
 
