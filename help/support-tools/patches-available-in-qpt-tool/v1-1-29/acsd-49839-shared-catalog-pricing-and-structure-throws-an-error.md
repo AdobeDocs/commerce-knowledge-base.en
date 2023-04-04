@@ -1,10 +1,10 @@
 ---
 title: "ACSD-49839: Shared catalog pricing and structure throws an error"
-description: Apply the ACSD-49839 patch to fix the Adobe Commerce issue where the shared catalog pricing and structure throws an error in admin when products have single or double quotes in SKU.
+description: Apply the ACSD-49839 patch to fix the Adobe Commerce issue where the shared catalog pricing and structure throws an error in the admin when products have single or double quotes in SKU.
 ---
 # ACSD-49839: Shared catalog pricing and structure throws an error
 
-The ACSD-49839 patch fixes the issue where the shared catalog pricing and structure throws an error in admin when products have single or double quotes in SKU. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49839. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49839 patch fixes the issue where the shared catalog pricing and structure throws an error in the admin when products have single or double quotes in SKU. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49839. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -22,25 +22,25 @@ The ACSD-49839 patch fixes the issue where the shared catalog pricing and struct
 
 ## Issue
 
-The shared catalog pricing and structure throws an error in admin when products have single or double quotes in SKU.
+The shared catalog pricing and structure throws an error in the admin when products have single or double quotes in SKU.
 
 <u>Steps to reproduce</u>:
 
 1. Set some of the product SKUs with the special character i.e. double quotes such as:
-*[Product"12, Product"14, Product"15, BAS13802-2"-900, BAS13802-2"-900-1, BAS13801-2"-900, BAS13801-2"-900-1]*.
+*[Product"12, Product"14, Product"15]*.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalog]** > **[!UICONTROL Add Shared Catalog]** (for e.g.,*[Test Shared Catalog]*).
-1. Assign all **[!UICONTROL 300 products and 800 categories]** > **[!UICONTROL Generate Catalog]** > **[!UICONTROL Save]**.
+1. Assign all **[!UICONTROL Products and Categories]** > **[!UICONTROL Generate Catalog]** > **[!UICONTROL Save]**.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalog]** > **[!UICONTROL "Test Shared Catalog"]** > **[!UICONTROL Action]** > **[!UICONTROL "Set Pricing and Structure"]**.
-1. Mark *[!UICONTROL "Root Catalog"]* to select all 800 categories and 316 products.
-1. Observe the AJAX requests in Network panel.
+1. Mark *[!UICONTROL "Root Catalog"]* to select all categories and products.
+1. Observe the AJAX requests in the network panel.
 
 <u>Expected results</u>:
 
-Shared catalog pricing and structure is not throwing an error in admin when products have single or double quotes in SKU.
+Shared catalog pricing and structure is not throwing an error in the admin when products have single or double quotes in SKU.
 
 <u>Actual results</u>:
 
-Shared catalog pricing and structure is throwing an error in admin when products have single or double quotes in SKU.
+Shared catalog pricing and structure is throwing an error in the admin when products have single or double quotes in SKU.
 
 ## Apply the patch
 
