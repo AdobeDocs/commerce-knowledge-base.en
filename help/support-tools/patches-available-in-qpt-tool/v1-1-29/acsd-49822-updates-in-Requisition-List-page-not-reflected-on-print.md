@@ -1,25 +1,21 @@
 ---
-title: "ACSD-49822: Updates in Requisition List page not reflected on Print Requisition List"
-description: Apply the ACSD-49822 patch to fix the Adobe Commerce issue where updates in Requisition List page are not reflected on the Print Requisition List. 
+title: "ACSD-49822: Updates in requisition List page not reflected on print requisition list"
+description: Apply the ACSD-49822 patch to fix the Adobe Commerce issue where updates in the requisition list page are not reflected on the print requisition list.
 ---
 
-# ACSD-49822: Updates in Requisition List page not reflected on Print Requisition List
+# ACSD-49822: Updates in requisition list page not reflected on print requisition list
 
-The ACSD-49822 patch fixes the issue where .... This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) xxx is installed. The patch ID is ACSD-XXX. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce xxx. (this is optional if the issue really was fixed).
+The ACSD-49822 patch fixes the issue where updates in the requisition list page are not reflected on the print requisition list. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49822. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce on-premises xxx
-* Adobe Commerce on cloud infrastructure xxx 
-    or
-* Adobe Commerce (all deployment methods) xxx
+
+*  Adobe Commerce (all deployment methods) 2.4.3-p1
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce on-premises xxx
-* Adobe Commerce on cloud infrastructure xxx
-    or
-* Adobe Commerce (all deployment methods) xxx
+
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
 
 >[!NOTE]
 >
@@ -27,21 +23,29 @@ The ACSD-49822 patch fixes the issue where .... This patch is available when the
 
 ## Issue
 
-(Short issue description goes here.) 
-
-<u>Prerequisites</u>:
-(if any)...
+Updates in the requisition list page are not reflected on the print requisition list.
 
 <u>Steps to reproduce</u>:
 
-1. ...
-1. ...
+1. Enable requisition list by navigating to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[B2B features]**.
+1. Create a product.
+1. Log in as a customer and add two products to the requisition list.
+1. Go to **[UICONTROL My Account]** > **[!UICONTROL My Requisition Lists]**.
+1. View a requisition list.
+1. Click **[UICONTROL Print]** in the upper right corner.
+1. Close the print window and print requisition list page.
+1. Delete an item in the list or update a quantity of an item, and try to print it again. 
+1. You will observe that the items are not updated in the print window.
+1. Close the print window.
+1. You will observe that items are not updated in the requisition list print page.
 
 <u>Expected results</u>:
-...
+
+The list to be printed is updated after any change is applied.
 
 <u>Actual results</u>:
-...
+
+Updates are not reflected on the requisition list print page.
 
 ## Apply the patch
 
@@ -49,10 +53,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
