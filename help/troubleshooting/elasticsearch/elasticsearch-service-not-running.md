@@ -55,7 +55,7 @@ Elasticsuite indices not being deleted.  See <a href="https://experienceleague.a
 <li><a href="http://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com: Tracking down where disk space has gone on Linux?</a></li>
 <li>Log files are not archived regularly enough. See <a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive">Configure the Log Archive</a> in our developer documentation.</li>
 <li>Files system directories are not optimized. See <a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html">File Optimization</a> in our developer documentation.</li>
-<li>If the solutions in the above documentation do not solve the issue consider contacting your CSM to request additional storage.</li>
+<li>If the solutions in the above documentation do not solve the issue consider contacting your Adobe Account Team to request additional storage.</li>
 </ul>
 </li>
 <li>If your disk has not run out of storage but you are still getting the error messages in the left column, <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">submit a support ticket</a>.</li>
