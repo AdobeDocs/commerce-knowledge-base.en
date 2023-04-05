@@ -26,7 +26,7 @@ Changing the email address for a user who has their own account at <https://acco
 
     * Existing email address to be updated
     * New email address
-    * MAGE ID
+    * MAGE ID of the new account (if available)
 
 1. Request the team to merge both accounts in order to update the email address on the existing account.
 
