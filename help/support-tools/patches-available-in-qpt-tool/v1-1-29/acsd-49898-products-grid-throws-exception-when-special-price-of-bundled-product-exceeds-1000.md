@@ -1,8 +1,8 @@
 ---
-title: "ACSD-49898: Products grid throws exception when bundled product's special price exceeds 1000"
+title: "ACSD-49898: Products grid throws an exception"
 description: Apply the ACSD-49898 patch to fix the Adobe Commerce issue where the products grid throws an exception when a bundled product has a special price that exceeds 1000.
 ---
-# ACSD-49898: Products grid throws exception when bundled product's special price exceeds 1000
+# ACSD-49898: Products grid throws an exception
 
 The ACSD-49898 patch fixes the issue where the products grid throws an exception when a bundled product has a special price that exceeds 1000. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49898. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
