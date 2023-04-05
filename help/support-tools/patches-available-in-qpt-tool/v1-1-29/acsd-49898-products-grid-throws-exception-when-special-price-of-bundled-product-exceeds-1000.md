@@ -30,7 +30,9 @@ Products grid throws an exception when a bundled product has a special price tha
 1. Set the special price to 9999; save and close.
 1. Navigate to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** 
     
-    Note - Search for bundled product SKU if it is not visible.
+>[!NOTE]
+>
+>Search for bundled product SKU if it is not visible.
 
 <u>Expected results</u>:
 
