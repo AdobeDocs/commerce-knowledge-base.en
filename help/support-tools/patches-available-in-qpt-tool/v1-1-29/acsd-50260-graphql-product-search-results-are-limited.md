@@ -28,7 +28,8 @@ The GraphQL product search results are limited to 10,000 results only.
 
 1. Generate *[!UICONTROL 15,000 products]* in one category.
 1. Query that category with graphql request attached below:
-```
+
+```GraphQL
 {
   products(
     filter: { category_id: { eq: "{CATEGORY_ID}" } }
