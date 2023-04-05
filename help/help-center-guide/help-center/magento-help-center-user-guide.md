@@ -51,7 +51,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 ## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
 
-The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also
+The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also 
 
 ## SUPPORT TICKETS {#support-tickets}
 
@@ -158,7 +158,7 @@ If you are an Adobe Commerce license owner, please verify that you don't have an
 
 1. Log in to [magento.com](http://support.magento.com/).
 1. Click on **Billing History** on the left.
-1. If you **do** have an invoice with **Pending Payment** status, **please contact your Customer Success Manager** to have the payment issue resolved.
+1. If you **do** have an invoice with **Pending Payment** status, **please contact your Adobe Account Team** to have the payment issue resolved.
 
 We provide support only to Adobe Commerce license owners and accounts which have Shared Access to an account with an Adobe Commerce license. If you need support for the Magento Open Source edition, please utilize these self-help technical resources:
 
@@ -363,12 +363,11 @@ This field appears when your account is associated with more than one organizati
 
 >[!WARNING]
 >
->You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization.
+>You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization. 
 
 >[!NOTE]
 >
->Organization can be changed after the ticket is submitted.
->Follow these steps to change the organization:
+>Organization can be changed after the ticket is submitted. Follow these steps to change the organization.
 >
 >1. Go to the right column of the ticket.
 >1. Locate the dropdown for available organizations.
@@ -508,7 +507,7 @@ To find out who is the Owner of your Adobe Commerce on cloud infrastructure Acco
 
    ![magento_cloud_account_owner](assets/magento_cloud_account_owner.png){width="800"}
 
-If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Adobe Commerce Customer Success Manager (CSM).
+If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Adobe Account Team.
 
 ### Provide shared access {#provide-shared-access}
 

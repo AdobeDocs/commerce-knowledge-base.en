@@ -52,7 +52,7 @@ To find out if your MageID is primary, try the following:
 1. Log into [magento.com](https://account.magento.com/customer/account/login) and go to the **My Product and Services** tab. Check if you see the Adobe Commerce license information there:
     * If you see the Adobe Commerce license information, then your MageID is primary.
     * If you do not see the Adobe Commerce license information, then your MageID only has shared access. To find out who is the primary ID holder, go to the **Shared with me** Notice the SHARENAME specified there. Click **Switch Accounts** and select the value you've noted in SHARENAME. On the welcome page you will see the email of the primary ID holder.
-1. If for any reason you cannot find this information on [magento.com](https://account.magento.com/customer/account/login), please contact your Customer Success Manager (CSM).
+1. If for any reason you cannot find this information on [magento.com](https://account.magento.com/customer/account/login), please contact your Adobe Account Team.
 1. If none of the above works, please [contact Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
  **For partners**
