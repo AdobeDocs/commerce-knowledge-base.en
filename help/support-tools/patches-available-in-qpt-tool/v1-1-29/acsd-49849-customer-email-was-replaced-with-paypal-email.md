@@ -40,7 +40,7 @@ The email is the same as set during checkout.
 
 <u>Actual results</u>:
 
-Email set during the checkout is overridden by email set in PayPal account.
+The email set during the checkout is overridden by the email set in the [!DNL PayPal] account.
 
 ## Apply the patch
 
