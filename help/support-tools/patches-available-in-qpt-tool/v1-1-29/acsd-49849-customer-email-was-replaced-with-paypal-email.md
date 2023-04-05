@@ -26,7 +26,7 @@ A customer's email is replaced with a [!DNL PayPal's] email when placing an orde
 
 <u>Steps to reproduce</u>:
 
-1. Go to **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Payments]** 
+1. Go to **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Payments]**. 
 1. Enable and configure PayPal Express and set **[!UICONTROL Payment Action]** = **[!UICONTROL Sale]**.
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** 
 1. Create a simple product.
