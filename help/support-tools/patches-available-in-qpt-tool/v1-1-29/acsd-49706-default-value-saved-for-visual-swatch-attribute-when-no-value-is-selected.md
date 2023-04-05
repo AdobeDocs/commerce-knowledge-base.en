@@ -26,22 +26,26 @@ A default value is saved for a visual swatch attribute when no value is selected
 
 <u>Steps to reproduce</u>:
 
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]**
-1. Click **[!UICONTROL Add New Attribute]**
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]**.
+1. Click **[!UICONTROL Add New Attribute]**.
 1. Fill in the fields.
     
-    * For example, choose input type visual swatch, text and click **[!UICONTROL Save Attribute]**. 
-    * Make sure to choose one of the options as *[!UICONTROL Default]*.
+    * For example, choose input type *[!UICONTROL Visual Swatch]*, text and click **[!UICONTROL Save Attribute]**. 
+    * Make sure to choose one of the options as default.
 
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Attribute Set]**
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Attribute Set]**.
 1. Edit the *[!UICONTROL Default]* attribute set.
-1. Move the *[!UICONTROL New Attribute]* from the column *[!UICONTROL Unassigned Attributes]* to the *[!UICONTROL Product Details]* folder on the middle column and click **[!UICONTROL Save]**.
-1. Create a new product using the *[!UICONTROL Default]* attribute set; leave *[!UICONTROL New Attribute]* empty and save it.
+1. Move *[!UICONTROL New Attribute]* from the column *[!UICONTROL Unassigned Attributes]* to the *[!UICONTROL Product Details]* folder in the middle column.
+
+    * Click **[!UICONTROL Save]**.
+
+1. Create a new product using the *[!UICONTROL Default]* attribute set.
+    * Leave *[!UICONTROL New Attribute]* empty and save it.
 1. Once saved, a value appears in *[!UICONTROL New Attribute]*.
 
 <u>Expected results</u>: 
 
-No value should be assigned by default.
+No value is assigned to *[!UICONTROL New Attribute]* by default.
 
 <u>Actual results</u>:
 
