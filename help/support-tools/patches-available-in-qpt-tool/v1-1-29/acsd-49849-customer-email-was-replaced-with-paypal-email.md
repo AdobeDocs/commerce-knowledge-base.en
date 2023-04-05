@@ -29,7 +29,7 @@ A customer's email is replaced with a [!DNL PayPal's] email when placing an orde
 1. Go to **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Payments]**. 
 1. Enable and configure [!DNL PayPal Express] and set **[!UICONTROL Payment Action]** = **[!UICONTROL Sale]**.
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**, and create a simple product.
-1. Complete the guest checkout using *[!UICONTROL GraphQL]*
+1. Complete the guest checkout using GraphQL. For more, refer to the [GraphQL checkout tutorial](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/).
 [GraphQL checkout tutorial](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/).
 1. Use PayPal Express as payment method. 
 1. Note the email you used on this step:
