@@ -22,7 +22,7 @@ The ACSD-49849 patch fixes the issue where a customer's email is replaced with a
 
 ## Issue
 
-Customer email was replaced with PayPal email when placing an order with PayPal Express via GraphQL.
+A customer's email is replaced with a [!DNL PayPal's] email when placing an order with [!DNL PayPal Express] via GraphQL.
 
 <u>Steps to reproduce</u>:
 
