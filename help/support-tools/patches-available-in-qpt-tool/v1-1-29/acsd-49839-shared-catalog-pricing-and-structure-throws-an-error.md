@@ -26,7 +26,7 @@ The shared catalog pricing and structure throws an error in the admin when produ
 
 <u>Steps to reproduce</u>:
 
-1. Set some of the product SKUs with the special character i.e. double quotes such as:
+1. Set some of the product SKUs with a special character, i.e., double quotes such as:
 *[Product"12, Product"14, Product"15]*.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalog]** > **[!UICONTROL Add Shared Catalog]** (for e.g.,*[Test Shared Catalog]*).
 1. Assign all **[!UICONTROL Products and Categories]** > **[!UICONTROL Generate Catalog]** > **[!UICONTROL Save]**.
