@@ -4,7 +4,7 @@ description: Apply the ACSD-49849 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-49849: Customer email is replaced with [!DNL PayPal] email
 
-The ACSD-49849 patch fixes the issue where customer email was replaced with PayPal email when placing an order with PayPal Express via GraphQL. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49849. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-49849 patch fixes the issue where a customer's email is replaced with a [!DNL PayPal's] email when placing an order with [!DNL PayPal Express] via GraphQL. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49849. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
