@@ -32,7 +32,7 @@ A customer's email is replaced with a [!DNL PayPal's] email when placing an orde
 1. Complete the guest checkout using GraphQL. For more, refer to the [GraphQL checkout tutorial](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/).
 1. Use PayPal Express as payment method. 
 1. Note the email you used on this step:
-1. After order is placed, go to **[!UICONTROL Admin]** and check email in the created order.
+1. After the order is placed, go to the Adobe Commerce Admin and check the email in the created order.
 
 <u>Expected results</u>:
 
