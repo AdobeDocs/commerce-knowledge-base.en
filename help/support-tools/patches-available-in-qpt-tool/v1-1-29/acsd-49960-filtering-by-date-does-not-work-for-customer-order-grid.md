@@ -32,7 +32,7 @@ Filtering by date does not work for the customer order grid.
 
 <u>Expected results</u>:
 
-Applying the date filter should sort customer orders in the correct order.
+Applying the date filter sorts customer orders in the correct order.
 
 <u>Actual results</u>:
 
