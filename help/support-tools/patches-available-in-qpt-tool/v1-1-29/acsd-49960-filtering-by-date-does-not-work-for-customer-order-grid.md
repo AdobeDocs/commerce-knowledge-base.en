@@ -28,11 +28,11 @@ Filtering by date does not work for the customer order grid.
 
 1. Go to **[!UICONTROL Edit customer]** on backend.
 1. Open the **[!UICONTROL Orders]** tab.
-1. Apply the date filters in the column *[!UICONTROL Purchased]*.
+1. Apply date filters in the column *[!UICONTROL Purchased]*.
 
 <u>Expected results</u>:
 
-Applying the date filter sorts customer orders in the correct order.
+Applying the filter sorts customer orders by their purchased dates.
 
 <u>Actual results</u>:
 
