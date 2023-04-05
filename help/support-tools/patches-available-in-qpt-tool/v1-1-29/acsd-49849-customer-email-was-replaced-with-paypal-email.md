@@ -36,7 +36,7 @@ A customer's email is replaced with a [!DNL PayPal's] email when placing an orde
 
 <u>Expected results</u>:
 
-Email should be the same as set during checkout.
+The email is the same as set during checkout.
 
 <u>Actual results</u>:
 
