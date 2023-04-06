@@ -27,7 +27,7 @@ The GraphQL product search results are limited to 10,000 results only.
 <u>Steps to reproduce</u>:
 
 1. Generate *[!UICONTROL 15,000 products]* in one category.
-1. Query that category with graphql request attached below:
+1. Query that category with GraphQL request attached below:
 
 ```GraphQL
 {
