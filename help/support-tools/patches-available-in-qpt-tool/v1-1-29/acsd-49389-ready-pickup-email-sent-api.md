@@ -50,7 +50,7 @@ Ready for pickup email is not sent.
 
 <u>Actual results</u>:
 
-API returns *Order is not ready for pickup*.
+API returns *Order is not ready for pickup*, but ready to pickup email is sent.
 
 ## Apply the patch
 
