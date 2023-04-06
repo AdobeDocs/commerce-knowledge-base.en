@@ -50,4 +50,4 @@ However, if you don't have access to emails sent to the [current owner email], f
 
 ## Related reading
 
-[Reset forgotten password](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in Adobe helpx.
+[Reset forgotten password](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in the Creative Cloud User Guide.
