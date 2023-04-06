@@ -26,9 +26,9 @@ Once you change the `.magento/services.yaml` file, you need to commit and push y
 
 ## Allocate space on Pro plan Staging or Production
 
-To make these changes for the Staging or Production environment of the Pro plan, you must create a [support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). When submitting a support ticket to increase storage, support will need to know how much and to what partition the storage should be applied to (`/mysql` or `/exports`). A storage increase request requires approval from your Customer Success Manager, who will review your entitled amount of storage (as per the order form) before approving.
+To make these changes for the Staging or Production environment of the Pro plan, you must create a [support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). When submitting a support ticket to increase storage, support will need to know how much and to what partition the storage should be applied to (`/mysql` or `/exports`). A storage increase request requires approval from your Adobe Account Team, who will review your entitled amount of storage (as per the order form) before approving.
 
 ## Decreasing allocated space not available (Pro and Starter plan)
 
-Adobe Commerce Support can grow a partition (`/mysql` or `/exports`), but cannot shrink a partition. There is risk of data corruption in doing so, that is why decreasing storage for a partition isn’t available.
+Adobe Commerce Support can grow a partition (`/mysql` or `/exports`), but cannot shrink a partition. There is risk of data corruption in doing so, that is why decreasing storage for a partition isn't available.
 It is also true for the Starter plan, where you can increase the allocated space yourself: decreasing is highly not recommended and might result in catastrophic data corruption.
