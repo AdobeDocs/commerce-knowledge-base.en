@@ -25,7 +25,7 @@ It happens when the Magento Variables are not updated after adding a new domain 
 
 >[!NOTE]
 >
->You can find the [!DNL Fastly] API credentials by logging in to each environment (Staging/Production) and checking the `/mnt/shared/fastly_tokens.txt` file. For more information, see [configure [!DNL Fastly] services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in our developer documentation.
+>You can find the [!DNL Fastly] API credentials by logging in to each environment (Staging/Production) and checking the `/mnt/shared/fastly_tokens.txt` file. For more information, see [configure [!DNL Fastly] services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in the Commerce on Cloud Infrastructure Guide.
 
 If both the above configurations are correct, submit a support ticket.
 
