@@ -16,7 +16,7 @@ The new domain is redirecting to the default domain in the current environment o
 
 ## Cause
 
-It happens when the Magento Variables are not updated after adding a new domain or the wrong [!DNL Fastly] service has been configured in the environment.
+It happens when the Variables are not updated after adding a new domain or the wrong [!DNL Fastly] service has been configured in the environment.
 
 ## Solution
 
