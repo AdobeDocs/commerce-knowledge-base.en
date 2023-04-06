@@ -81,7 +81,7 @@ Possibility to get all products in the search results.
 
 `total_count = 10k`
 
-No possibility to get products following this 10k batch in the search results.
+No possibility of getting products following this 10k batch in the search results.
 
 ## Apply the patch
 
