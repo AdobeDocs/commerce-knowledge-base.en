@@ -34,7 +34,7 @@ Confirmation email for orders placed using [!DNL PayPal] shows the wrong custome
 
 <u>Expected results</u>
 
-The order confirmation email, invoice email, and all shipment-related emails are addressed to the customer name.
+The order confirmation email, invoice email, and all shipment-related emails are addressed to the customer's name.
 
 <u>Actual results</u>
 
