@@ -30,6 +30,24 @@ GraphQL company roles don't display pagination correctly.
 1. On the storefront, create a new company.
 1. Create at least two new roles for this company, so there are a total of three roles, as one role is the default.
 1. Send GraphQL request to get roles specifying [!UICONTROL pageSize]: 2.
+
+    ```GraphQL
+    query {
+        company {
+            roles(pageSize: 2, currentPage: 1) {
+                items {
+                    name
+                }
+                total_count
+                page_info {
+                    total_pages
+                    current_page
+                }
+            }
+        }
+    } 
+    ```
+    
 1. Check GraphQL response.
 
 <u>Expected results</u>:
