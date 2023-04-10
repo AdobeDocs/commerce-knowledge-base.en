@@ -533,6 +533,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47704: Bundled product shows in stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
     * v1.1.29 {#v1-1-29}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
+        * [ACSD-49773: Product export fails when AWS S3 is used as remote storage](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49773-product-export-fails-when-aws-s3-is-used-as-remote-storage.md)
         * [ACSD-49839: Shared catalog pricing and structure throws an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49839-shared-catalog-pricing-and-structure-throws-an-error.md)
         * [ACSD-50260: GraphQL product search results are limited](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-50260-graphql-product-search-results-are-limited.md)
         * [ACSD-49898: Products grid throws an exception](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49898-products-grid-throws-exception-when-special-price-of-bundled-product-exceeds-1000.md)
