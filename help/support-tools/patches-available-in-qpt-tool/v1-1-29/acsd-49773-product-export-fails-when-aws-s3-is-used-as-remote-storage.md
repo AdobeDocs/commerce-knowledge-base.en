@@ -22,7 +22,7 @@ The ACSD-49773 patch fixes the issue where product export fails when AWS S3 is u
 
 ## Issue
 
-Product export fails when [!DNL AWS S3] is used as remote storage.
+Product export fails when AWS S3 is used as remote storage.
 
 <u>Steps to reproduce</u>:
 
