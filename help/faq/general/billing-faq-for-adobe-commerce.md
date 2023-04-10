@@ -41,7 +41,7 @@ This payment method is for merchants with monthly billing (except for On-Premise
 
 >[!NOTE]
 >
->If you are currently utilizing the **Pay Now** feature and would like to set up a recurring payment via autopay, please contact your Account Manager for further assistance.
+>If you are currently utilizing the **Pay Now** feature and would like to set up a recurring payment via autopay, please contact your Adobe Account Team for further assistance.
 
 1. Click [here](https://account.magento.com/customer/account/login) to login.
 

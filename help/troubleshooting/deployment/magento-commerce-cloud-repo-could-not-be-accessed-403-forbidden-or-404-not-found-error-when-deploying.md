@@ -44,7 +44,7 @@ Some of the reasons for keys being not valid are:
 
 >[!NOTE]
 >
->If you find this is due to an invoicing or lapsed contract issue, please contact your CSM for guidance to get this resolved. After your license is re-activated, your support and deployment entitlements will be restored.
+>If you find this is due to an invoicing or lapsed contract issue, please contact your Adobe Account Team for guidance to get this resolved. After your license is re-activated, your support and deployment entitlements will be restored.
 
 ## Solution
 

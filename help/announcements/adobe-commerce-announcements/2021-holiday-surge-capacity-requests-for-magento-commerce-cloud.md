@@ -33,7 +33,7 @@ Adobe Commerce merchants on our cloud infrastructure that anticipate a need for 
 
  **More Help?**
 
-Need more guidance on preparing for peak season traffic? Adobe Commerce merchants on our cloud infrastructure can contact their Customer Success Manager for help, strategy, and planning tips for preparing for a successful peak season. We also recommend checking out the [Magento Blog](https://magento.com/blog) for strategy tips year-round.
+Need more guidance on preparing for peak season traffic? Adobe Commerce merchants on our cloud infrastructure can contact their Adobe Account Team for help, strategy, and planning tips for preparing for a successful peak season. We also recommend checking out the [Magento Blog](https://magento.com/blog) for strategy tips year-round.
 
 ## Resources on reviewing your capacity
 
