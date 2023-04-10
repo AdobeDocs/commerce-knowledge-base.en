@@ -533,6 +533,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47704: Bundled product shows in stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
     * v1.1.29 {#v1-1-29}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
+        * [ACSD-50260: GraphQL product search results are limited](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-50260-graphql-product-search-results-are-limited.md)
         * [ACSD-49898: Products grid throws an exception](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49898-products-grid-throws-exception-when-special-price-of-bundled-product-exceeds-1000.md)
         * [ACSD-50234: Incorrect customer name in confirmation email for orders placed using [!DNL PayPal]](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-50234-incorrect-customer-name-in-confirmation-email-for-orders-placed-with-paypal.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
