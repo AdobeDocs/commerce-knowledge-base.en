@@ -31,42 +31,90 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html">Former team members receive Adobe Commerce cloud notification emails:</a> This article provides a solution for where team members that are no longer associated with your project continue to receive notifications.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-48857-unable-to-save-changes-after-editing-with-pagebuilder.html">ACSD-48857: Unable to save changes after editing with [!DNL Page Builder]:</a> The ACSD-48857 patch fixes the issue where the user is unable to save changes after editing with [!DNL Page Builder]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
     </td>
     <td>New article</td>
-    <td> Mar 16, 2023</td>
+    <td> Mar 31, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.html?lang=en">Cannot access the correct cloud project:</a> This article provides a fix for the issues after a change has been made to the account ownership or the associated email addresses.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-48784-customer-segment-prices-cached-incorrectly.html">ACSD-48784: Customer segment prices cached incorrectly between customer groups:</a> The ACSD-48784 patch fixes the issue where customer segment prices are cached incorrectly between customer groups. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
     </td>
     <td>New article</td>
-    <td>Mar 16, 2023</td>
+    <td>Mar 31, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-49042-product-with-infinite-backorder-cant-be-ordered-from-storefront.html">ACSD-49042: Product with infinite backorder can't be ordered from storefront:</a> The ACSD-49042 patch fixes the issue where a product with infinite backorder cannot be ordered from the storefront. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-49574-cannot-update-gift-card-product-in-shopping-cart-via-graphql.html">ACSD-49574: Can't update gift card product in shopping cart via GraphQL:</a> The ACSD-49574 patch fixes the issue where a gift card product cannot be updated in the shopping cart via GraphQL. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
     </td>
     <td>New article</td>
-    <td>Mar 16, 2023</td>
+    <td>Mar 31, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48634-js-errors-when-google-analytics-content-experiments-enabled.html">ACSD-48634: JS errors when Google Analytics Content Experiments enabled:</a> The ACSD-48634 patch fixes JS errors on a staging update page when Google Analytics Content Experiments is enabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-48866-error-when-requesting-rss-feed-for-categories.html">ACSD-48866: Error when requesting RSS feed for categories:</a> The ACSD-48866 patch fixes the issue where an error occurs when requesting an RSS feed for categories. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
     </td>
     <td> New article </td>
-    <td> Mar 16, 2023</td>
+    <td> Mar 31, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html?lang=en">SSL (TLS) certificates for Adobe Commerce on cloud infrastructure:</a> This article was updated according to the suggestion by an SME.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-49433-default-amount-shown-subtotal-in-cart.html">ACSD-49433: Default amount shown as subtotal in cart for gift card:</a> The ACSD-49433 patch fixes the issue where the default amount is shown as subtotal in the cart for the gift card with an open amount. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
     </td>
-    <td>Updated</td>
-    <td>Mar 16, 2023</td>
+    <td>New article</td>
+    <td>Mar 31, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-48807-product-reviews-not-filtered-storeview.html">ACSD-48807: Product reviews not filtered by storeview:</a> The ACSD-48807 patch fixes the issue where product reviews are not filtered by storeview via GraphQL. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
+    </td>
+    <td>New article</td>
+    <td>Mar 31, 2023</td>
+  </tr>
+  
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-49370-product-attribute-filtermatchtypeinput-type.html">ACSD-49370: Product attribute has FilterMatchTypeInput type in GraphQL schema:</a> The ACSD-49370 patch fixes the issue where the product attribute has a FilterMatchTypeInput type in the GraphQL schema. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
+    </td>
+    <td>New article</td>
+    <td>Mar 31, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.html">ACSD-47704: Bundled product shows the price of in stock products only:</a> The ACSD-47704 patch fixes the issue where customer segment prices are cached incorrectly between customer groups. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
+    </td>
+    <td>New article</td>
+    <td>Mar 31, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48404-fixes-the-issue-where-remember-category-pagination-yes-causes-an-error.html">ACSD-48404: *[!UICONTROL Remember Category Pagination]* = *[!UICONTROL Yes]* causes error when pressing browser's back button:</a> The ACSD-48404 patch fixes the issue where *[!UICONTROL Remember Category Pagination]* = *[!UICONTROL Yes]* causes an error when pressing the browser's back button. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    </td>
+    <td>New article</td>
+    <td>Mar 31, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48694-invalid-state-change-requested-error-prevents-customer-from-placing-order.html?lang=en">ACSD-48694: Invalid state change requested error prevents customer from placing order:</a> The ACSD-48694 patch fixes the issue where the error Invalid state change requested prevents a customer from placing an order. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    </td>
+    <td>New article</td>
+    <td>Mar 31, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48216-auto-increment-of-inventory-source-item-table-increases-on-the-update-operation.html?lang=en">ACSD-48216: *[!UICONTROL AUTO_INCREMENT]* of [!UICONTROL inventory_source_item] table increases on [!UICONTROL UPDATE] operation:</a> The ACSD-48216 patch fixes the issue where *[!UICONTROL AUTO_INCREMENT]* of the *[!UICONTROL inventory_source_item]* table increases on the *[!UICONTROL UPDATE]* operation. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    </td>
+    <td>New article</td>
+    <td>Mar 31, 2023</td>
   </tr>
 </table>
 
