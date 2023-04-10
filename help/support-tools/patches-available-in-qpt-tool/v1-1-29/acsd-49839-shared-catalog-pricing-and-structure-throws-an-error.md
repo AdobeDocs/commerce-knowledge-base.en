@@ -30,8 +30,8 @@ The shared catalog pricing and structure throws an error in the admin when produ
 *[Product"12, Product"14, Product"15]*.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalog]** > **[!UICONTROL Add Shared Catalog]** (for e.g.,*[Test Shared Catalog]*).
 1. Assign all **[!UICONTROL Products and Categories]** > **[!UICONTROL Generate Catalog]** > **[!UICONTROL Save]**.
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalog]** > **[!UICONTROL "Test Shared Catalog"]** > **[!UICONTROL Action]** > **[!UICONTROL "Set Pricing and Structure"]**.
-1. Mark *[!UICONTROL "Root Catalog"]* to select all categories and products.
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalog]** > **[!UICONTROL Test Shared Catalog]** > **[!UICONTROL Action]** > **[!UICONTROL Set Pricing and Structure]**.
+1. Mark *[!UICONTROL Root Catalog]* to select all categories and products.
 1. Observe the AJAX requests in the network panel.
 
 <u>Expected results</u>:
