@@ -1,10 +1,10 @@
 ---
-title: "ACSD-49773: Product export fails when [!DNL AWS S3] is used as remote storage"
-description: Apply the ACSD-49773 patch to fix the Adobe Commerce issue where product export fails when [!DNL AWS S3] is used as remote storage.
+title: "ACSD-49773: Product export fails when AWS S3 is used as remote storage"
+description: Apply the ACSD-49773 patch to fix the Adobe Commerce issue where product export fails when AWS S3 is used as remote storage.
 ---
-# ACSD-49773: Product export fails when [!DNL AWS S3] is used as remote storage
+# ACSD-49773: Product export fails when AWS S3 is used as remote storage
 
-The ACSD-49773 patch fixes the issue where product export fails when [!DNL AWS S3] is used as remote storage. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49773. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-49773 patch fixes the issue where product export fails when AWS S3 is used as remote storage. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49773. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -27,7 +27,7 @@ Product export fails when [!DNL AWS S3] is used as remote storage.
 <u>Steps to reproduce</u>:
 
 1. Install a large data profile.
-1. Create an [!DNL AWS] account and configure an [!DNL S3] bucket and an [!DNL IAM] user.
+1. Create an AWS account and configure an S3 bucket and an IAM user.
 1. Update `app/etc/env.php` with the configurations.
 1. Run `bin/magento setup:upgrade`.
 1. Go to backend and perform a full product export.
