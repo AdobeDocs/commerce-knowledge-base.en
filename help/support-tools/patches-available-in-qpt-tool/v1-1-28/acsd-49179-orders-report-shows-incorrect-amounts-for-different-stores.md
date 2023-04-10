@@ -40,7 +40,7 @@ The orders report shows incorrect amounts in the case of different currencies fo
         * [!UICONTROL Default Display Currency]: EUR
         * [!UICONTROL Allowed Currencies]: EUR
 
-    * [!UICONTROL Additional new Website]:
+    * Additional new Website:
         * [!UICONTROL Base Currency]: THB (Thai Baht)
         * [!UICONTROL Default Display Currency]: THB (Thai Baht)
         * [!UICONTROL Allowed Currencies]: THB (Thai Baht)
