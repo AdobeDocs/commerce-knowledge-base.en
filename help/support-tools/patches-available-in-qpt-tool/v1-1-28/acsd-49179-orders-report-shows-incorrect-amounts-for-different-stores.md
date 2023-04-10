@@ -38,12 +38,12 @@ The orders report shows incorrect amounts in the case of different currencies fo
     * Main Website:
         * [!UICONTROL Base Currency\]: EUR
         * [!UICONTROL Default Display Currency\]: EUR
-        * [!UICONTROL Allowed Currencies]: EUR
+        * [!UICONTROL Allowed Currencies\]: EUR
 
     * Additional new Website:
         * [!UIOCONTROL Base Currency\]: THB (Thai Baht)
         * [!UICONTROL Default Display Currency\]: THB (Thai Baht)
-        * [!UICONTROL Allowed Currencies]: THB (Thai Baht)
+        * [!UICONTROL Allowed Currencies\]: THB (Thai Baht)
 
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Currency]** > **[!UICONTROL Currency Rates]** and set the empty conversion rates for the THB (set rates to 1.0000).
 1. Create a product, assign it to both websites, and place an order with this product in the additional website previously created.
