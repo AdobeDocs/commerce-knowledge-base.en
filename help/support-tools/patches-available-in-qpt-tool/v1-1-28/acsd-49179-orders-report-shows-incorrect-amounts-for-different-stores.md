@@ -64,7 +64,7 @@ Sales total shows the correct amount converted into the currency of the website.
 
 <u>Actual results</u>:
 
-The totals are zero.
+The total is zero.
 
 ## Apply the patch
 
