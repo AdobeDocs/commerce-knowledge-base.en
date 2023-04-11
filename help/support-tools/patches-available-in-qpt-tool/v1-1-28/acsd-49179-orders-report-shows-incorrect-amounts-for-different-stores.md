@@ -50,7 +50,7 @@ The orders report shows incorrect amounts in case of different currencies for di
 1. Make sure that the order is in *Processing* status  (invoice it).
 1. In the backend, go to **[!UICONTROL Reports]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 1. Click on the **[!UICONTROL Yellow]** warning to refresh the statistics.
-1. Set the scope of the report on the additional website previously created and set the filter as following:
+1. Set the scope of the report on the additional website previously created and set the filter as follows:
     * [!UICONTROL Date Used]: [!UICONTROL Created]
     * [!UICONTROL Period]: [!UICONTROL Day]
     * [!UICONTROL From and To]: The same day when the test order was placed
