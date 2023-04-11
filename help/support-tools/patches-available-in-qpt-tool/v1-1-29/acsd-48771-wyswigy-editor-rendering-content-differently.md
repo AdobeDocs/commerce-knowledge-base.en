@@ -1,11 +1,11 @@
 ---
-title: "ACSD-48771: WYSIWYG editor rendering content differently"
-description: Apply the ACSD-48771 patch to fix the Adobe Commerce issue where WYSIWYG editor rendering content differently.
+title: "ACSD-48771: WYSIWYG editor renders content differently"
+description: Apply the ACSD-48771 patch to fix the Adobe Commerce issue where WYSIWYG editor renders content differently.
 ---
 
 # ACSD-48771: WYSIWYG editor rendering content differently
 
-The ACSD-48771 patch fixes the issue where WYSIWYG editor rendering content differently. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-48771. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48771 patch fixes the issue where WYSIWYG editor renders content differently. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-48771. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,19 +23,19 @@ The ACSD-48771 patch fixes the issue where WYSIWYG editor rendering content diff
 
 ## Issue
 
-WYSIWYG editor rendering content differently.
+WYSIWYG editor renders content differently.
 
 <u>Steps to reproduce</u>:
 
 1. Go to the Adobe Commerce Admin, create a new page with a row with three columns, and save the page.
 1. Update Adobe Commerce to one of the latest versions.
-1. Set Chrome browser to disable cache and speed to *Fast 3G*.
-1. Go to the edit page again and refresh until you see the columns become rows.
+1. Set [!DNL Chrome] browser to disable cache and speed to *Fast 3G*.
+1. Go to the edit page again and refresh it until you see the columns become rows.
 1. Save the page while the columns are in rows.
 
 <u>Expected results</u>:
 
-The admin Page Builder should not display columns in rows.
+The admin page builder should not display columns in rows.
 
 <u>Actual results</u>:
 
