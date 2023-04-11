@@ -29,22 +29,18 @@ The orders report shows incorrect amounts in case of different currencies for di
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]** and set [!UICONTROL Catalog Price Scope] = [!UICONTROL Website].
 1. Create an additional website, store, and store view.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL General]** > **[!UICONTROL Currency Setup]** > **[!UICONTROL Currency Options]** and set:
-
     * Default Config:
-        * [!UICONTROL Base Currency]: USD
-        * [!UICONTROL Default Display Currency]: USD
-        * [!UICONTROL Allowed Currencies]: EUR, USD and THB (Thai Baht)
-
+        * Base Currency: USD
+        * Default Display Currency: USD
+        * Allowed Currencies: EUR, USD and THB (Thai Baht)
     * Main Website:
-        * [!UICONTROL Base Currency]: EUR
-        * [!UICONTROL Default Display Currency]: EUR
-        * [!UICONTROL Allowed Currencies]: EUR
-
+        * Base Currency: EUR
+        * Default Display Currency: EUR
+        * Allowed Currencies: EUR
     * Additional new Website:
-        * [!UICONTROL Base Currency]: THB (Thai Baht)
-        * [!UICONTROL Default Display Currency]: THB (Thai Baht)
-        * [!UICONTROL Allowed Currencies]: THB (Thai Baht)
-
+        * Base Currency: THB (Thai Baht)
+        * Default Display Currency: THB (Thai Baht)
+        * Allowed Currencies: THB (Thai Baht)
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Currency]** > **[!UICONTROL Currency Rates]** and set the empty conversion rates for the THB (set rates to 1.0000).
 1. Create a product, assign it to both websites, and place an order with this product in the additional website previously created.
 1. Make sure that the order is in *Processing* status  (invoice it).
