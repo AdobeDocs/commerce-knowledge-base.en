@@ -4,7 +4,7 @@ description: Apply the ACSD-49179 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-49179: Orders report shows incorrect amounts for different stores
 
-The ACSD-49179 patch fixes the issue where the orders report shows incorrect amounts in the case of different currencies for different stores. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-49179. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49179 patch fixes the issue where the orders report shows incorrect amounts in case of different currencies for different stores. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-49179. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
