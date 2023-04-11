@@ -60,7 +60,7 @@ The orders report shows incorrect amounts in case of different currencies for di
 
 <u>Expected results</u>:
 
-Sales total shows the total of the placed orders converted into the currency of the website.
+Sales total shows the correct amount converted into the currency of the website.
 
 <u>Actual results</u>:
 
