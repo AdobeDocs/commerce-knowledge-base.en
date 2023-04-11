@@ -22,7 +22,7 @@ The ACSD-49179 patch fixes the issue where the orders report shows incorrect amo
 
 ## Issue
 
-The orders report shows incorrect amounts in the case of different currencies for different stores.
+The orders report shows incorrect amounts in case of different currencies for different stores.
 
 <u>Steps to reproduce</u>:
 
