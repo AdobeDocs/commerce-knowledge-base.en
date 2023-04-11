@@ -21,7 +21,7 @@ Increased performance indicates a successful upgrade to Enhanced Integration Env
 
 * The standard size and enhanced size are the only two sizes available.
 * All the Integration Environments for a given store are the same size &ndash;  they cannot be sized independently.
-* If you need more than two of the Enhanced Integration Environments, please consult your Customer Success Manager.
+* If you need more than two of the Enhanced Integration Environments, please consult your Adobe Account Team.
 
 ## Starter
 
@@ -37,5 +37,5 @@ Increased performance indicates a successful upgrade to Enhanced Integration Env
 
 * The standard size and enhanced size are the only two sizes available.
 * All the Integration Environments for a given store are the same size &ndash;  they cannot be sized independently.
-* If you need Integration Environments beyond Staging, please consult your Customer Success Manager.
+* If you need Integration Environments beyond Staging, please consult your Adobe Account Team.
 * In case the purchase is made after 17th September 2020, this enhancement won't be applicable due to enlarged Integration Environments.
