@@ -533,6 +533,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47704: Bundled product shows in stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
     * v1.1.29 {#v1-1-29}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
+        * [ACSD-49849: Customer email was replaced with paypal email](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49849-customer-email-was-replaced-with-paypal-email.md)
         * [ACSD-49773: Product export fails when AWS S3 is used as remote storage](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49773-product-export-fails-when-aws-s3-is-used-as-remote-storage.md)
         * [ACSD-49839: Shared catalog pricing and structure throws an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49839-shared-catalog-pricing-and-structure-throws-an-error.md)
         * [ACSD-50260: GraphQL product search results are limited](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-50260-graphql-product-search-results-are-limited.md)
