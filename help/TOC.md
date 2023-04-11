@@ -520,6 +520,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48694: Invalid state change requested error prevents customer from placing order](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48694-invalid-state-change-requested-error-prevents-customer-from-placing-order.md)
     * v1.1.28 {#v1-1-28}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.28](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/overview.md)
+        * [ACSD-49179: orders report shows incorrect amounts for different stores](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49179-orders-report-shows-incorrect-amounts-for-different-stores.md)
         * [ACSD-49065: Quote items are not visible in admin if assigned to custom stock](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49065-quote-items-are-not-visible-in-admin-if-assigned-to-custom-stock.md)
         * [ACSD-48866: Error when requesting RSS feed for categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48866-error-when-requesting-rss-feed-for-categories.md)
         * [ACSD-49433: Default amount shown as subtotal in cart for gift card](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49433-default-amount-shown-subtotal-in-cart.md)
