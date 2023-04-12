@@ -29,7 +29,7 @@ This only occurs when user sessions are stored in Redis.
 
 Adobe Commerce had an issue with the session locking mechanism that added a 30-seconds timeout to some operations when Redis was used for session storage. For details, see the [Github issue \#12385](https://github.com/magento/magento2/issues/12385).
 
-This issue has been fixed in Adobe Commerce 2.1.14 and 2.2.2 (see the section titled Session framework in[Release Notes > Frameworks](https://magento.github.io/devdocs/guides/v2.2/release-notes/ReleaseNotes2.2.2CE.html#frameworks)) in our developer documentation.
+This issue has been fixed in Adobe Commerce 2.1.14 and 2.2.2 (see the section titled Session framework in [Release Notes > Frameworks](https://magento.github.io/devdocs/guides/v2.2/release-notes/ReleaseNotes2.2.2CE.html#frameworks)) in our developer documentation.
 
 ## Solutions: patch or upgrade
 
