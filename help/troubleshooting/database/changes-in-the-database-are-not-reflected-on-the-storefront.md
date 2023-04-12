@@ -63,7 +63,7 @@ Use the following command to perform this operation.
 
 >[!WARNING]
 >
->Before switching indexer modes, we recommend putting your website to [maintenance](../../installation/tutorials/maintenance-mode.md) mode and [disable cron jobs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs). This ensures you do not suffer database locks.
+>Before switching indexer modes, we recommend putting your website in [maintenance](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode) mode and [disable cron jobs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs) to avoid database locks.
 
 ```bash
 php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
