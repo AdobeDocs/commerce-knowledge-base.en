@@ -1,6 +1,7 @@
 ---
 title: New domain is redirecting to default domain
 description: This article provides a fix for the issue where the new domain redirects to the default domain in the existing or different environment.
+exl-id: 88e9eb3f-9b82-4ca3-aa80-e49f360b3eb9
 ---
 # New domain is redirecting to default domain
 
