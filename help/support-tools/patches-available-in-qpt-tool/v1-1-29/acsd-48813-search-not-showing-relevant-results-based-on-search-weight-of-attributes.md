@@ -5,7 +5,7 @@ description: Apply the ACSD-48813 patch to fix the Adobe Commerce issue where se
 
 # ACSD-48813: Search not showing relevant results based on search weight of attributes
 
-The ACSD-48813 patch fixes the issue where search is not showing relevant results based on the search weight of the attributes. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-48813. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48813 patch fixes the issue where search is not showing relevant results based on the search weight of the attributes. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-48813. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -29,22 +29,22 @@ Search is not showing relevant results based on the search weight of the attribu
 <u>Steps to reproduce</u>:
 
 1. Install Adobe Commerce with sample data.
-1. Set search engine as [!DNL Elasticsearch].
+1. Set the search engine as [!DNL Elasticsearch].
 1. Log in as an admin.
 1. Go to **Stores** > **Attributes** > **Products**.
 1. Open the *name* attribute.
 1. Open storefront properties tab.
 1. Select [!UICONTROL Search Weight] = *10* from the dropdown value.
 1. Click [!UICONTROL Save Attribute].
-1. Open storefront and Ssarch for the word "Back".
+1. Now open the storefront and sarch for the word "Back".
 
 <u>Expected results</u>:
 
-*Backpack* products are returned on the top of search results.
+Backpack products are returned on the top of search results.
 
 <u>Actual results</u>:
 
-*Backpack* products are returned in the middle of search results.
+Backpack products are returned in the middle of search results.
 
 ## Apply the patch
 
