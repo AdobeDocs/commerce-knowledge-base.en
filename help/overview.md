@@ -63,7 +63,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-48204-catalog-price-rule-created-based-on-yes-no-attribute-does-not-consider-the-selected-scope.html">ACSD-48204: Catalog price rule created based on Yes/No attribute doesn't consider selected scope:</a> The ACSD-48204 patch fixes the issue where the catalog price rule created based on Yes/No attribute doesn't consider the selected scope. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-48204-catalog-price-rule-created-based-on-yes-no-attribute-does-not-consider-the-selected-scope.html">ACSD-48204: Catalog price rule created based on *Yes/No* attribute doesn't consider selected scope:</a> The ACSD-48204 patch fixes the issue where the catalog price rule created based on *Yes/No* attribute doesn't consider the selected scope. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
     </td>
     <td>New article</td>
     <td>April 13, 2023</td>
