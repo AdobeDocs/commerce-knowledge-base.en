@@ -33,7 +33,7 @@ The [!UICONTROL Use Default Value] checkbox is not saved correctly on a store le
 
 <u>Expected results</u>:
 
-The multi-select attribute values are properly saved when checking[!UICONTROL Use Default Value] checkbox in the [!UICONTROL Store View Scope].
+The multi-select attribute values are properly saved when checking [!UICONTROL Use Default Value] checkbox in the [!UICONTROL Store View Scope].
 
 <u>Actual results</u>:
 
