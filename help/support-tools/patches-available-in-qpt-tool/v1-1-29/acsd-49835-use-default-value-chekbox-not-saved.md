@@ -37,7 +37,7 @@ Multi-select attribute values are properly saved when checking the [!UICONTROL U
 
 <u>Actual results</u>:
 
-The multi-select attribute values are not properly saved when checking [!UICONTROL Use Default Value] checkbox in the [!UICONTROL Store View Scope].
+Multi-select attribute values are not properly saved when checking the [!UICONTROL Use Default Value] checkbox in the [!UICONTROL Store View Scope].
 
 ## Apply the patch
 
