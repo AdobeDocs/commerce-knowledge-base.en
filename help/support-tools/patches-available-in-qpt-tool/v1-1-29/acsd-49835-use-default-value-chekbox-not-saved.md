@@ -22,7 +22,7 @@ The ACSD-49835 patch fixes the issue where the [!UICONTROL Use Default Value] ch
 
 ## Issue
 
-[!UICONTROL Use Default Value] checkbox is not saved correctly on a store level for a multi-select attribute.
+The [!UICONTROL Use Default Value] checkbox is not saved correctly on a store level for a multi-select attribute.
 
 <u>Steps to reproduce</u>:
 
