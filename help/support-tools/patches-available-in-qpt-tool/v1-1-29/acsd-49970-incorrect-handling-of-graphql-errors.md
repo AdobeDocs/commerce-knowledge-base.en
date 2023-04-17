@@ -4,7 +4,7 @@ description: Apply the ACSD-49970 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-49970: Incorrect handling of GraphQL errors
 
-The ACSD-49970 patch fixes the issue where there is an incorrect handling of GraphQL errors, when *{!UICONTROL New Relic Reporting]* is turned on. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49970. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49970 patch fixes the issue where there is an incorrect handling of GraphQL errors, when *[!UICONTROL New Relic Reporting]* is turned on. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49970. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
