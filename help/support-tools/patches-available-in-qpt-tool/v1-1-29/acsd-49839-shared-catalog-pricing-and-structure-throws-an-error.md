@@ -1,17 +1,17 @@
 ---
-title: "ACSD-49370: Product attribute has 'FilterMatchTypeInput' type in GraphQL schema"
-description: Apply the ACSD-49370 patch to fix the Adobe Commerce issue where the product attribute has a `FilterMatchTypeInput` type in the GraphQL schema.
-exl-id: 132eee3a-30b0-4810-b2f0-0d05d0a9f009
+title: 'ACSD-49839: Shared catalog pricing and structure throws an error'
+description: Apply the ACSD-49839 patch to fix the Adobe Commerce issue where the shared catalog pricing and structure throws an error in the admin when products have single or double quotes in SKU.
+exl-id: 4c477ae8-602b-452e-83f0-b72a29547ef9
 ---
-# ACSD-49370: Product attribute has `FilterMatchTypeInput` type in GraphQL schema
+# ACSD-49839: Shared catalog pricing and structure throws an error
 
-The ACSD-49370 patch fixes the issue where the product attribute has a `FilterMatchTypeInput` type in the GraphQL schema. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-49370. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49839 patch fixes the issue where the shared catalog pricing and structure throws an error in the admin when products have single or double quotes in SKU. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49839. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
@@ -23,27 +23,25 @@ The ACSD-49370 patch fixes the issue where the product attribute has a `FilterMa
 
 ## Issue
 
-The product attribute has a `FilterMatchTypeInput` type in the GraphQL schema.
+The shared catalog pricing and structure throws an error in the admin when products have single or double quotes in SKU.
 
 <u>Steps to reproduce</u>:
 
-1. Create *Date and Time* product attribute.
-
-    * [!UICONTROL Type]: [!UICONTROL DateTime]
-    * [!UICONTROL Default Label]: [!UICONTROL Date Time]
-    * [!UICONTROL Use in Search]: [!UICONTROL Yes]
-    * [!UICONTROL Visible in Advanced Search]: [!UICONTROL Yes]
-
-1. Query the *GQL API* documentation for the `ProductAttributeFilterInput` type definition.
-1. Observe the input type for the created attribute.
+1. Set some of the product SKUs with a special character, i.e., double quotes such as:
+*[Product"12, Product"14, Product"15]*.
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalog]** > **[!UICONTROL Add Shared Catalog]** (for e.g.,*[Test Shared Catalog]*).
+1. Assign all **[!UICONTROL Products and Categories]** > **[!UICONTROL Generate Catalog]** > **[!UICONTROL Save]**.
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalog]** > **[!UICONTROL Test Shared Catalog]** > **[!UICONTROL Action]** > **[!UICONTROL Set Pricing and Structure]**.
+1. Mark *[!UICONTROL Root Catalog]* to select all categories and products.
+1. Observe the AJAX requests in the network panel.
 
 <u>Expected results</u>:
 
-The *Date Time* attribute shows the filter input type `FilterRangeTypeInput`.
+Shared catalog pricing and structure is not throwing an error in the admin when products have single or double quotes in SKU.
 
 <u>Actual results</u>:
 
-The *Date Time* attribute shows the filter input type `FilterMatchInputType`.
+Shared catalog pricing and structure is throwing an error in the admin when products have single or double quotes in SKU.
 
 ## Apply the patch
 

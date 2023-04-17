@@ -520,6 +520,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48694: Invalid state change requested error prevents customer from placing order](/help/support-tools/patches-available-in-qpt-tool/v1-1-27/acsd-48694-invalid-state-change-requested-error-prevents-customer-from-placing-order.md)
     * v1.1.28 {#v1-1-28}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.28](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/overview.md)
+        * [ACSD-49179: orders report shows incorrect amounts for different stores](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49179-orders-report-shows-incorrect-amounts-for-different-stores.md)
         * [ACSD-49065: Quote items are not visible in admin if assigned to custom stock](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49065-quote-items-are-not-visible-in-admin-if-assigned-to-custom-stock.md)
         * [ACSD-48866: Error when requesting RSS feed for categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48866-error-when-requesting-rss-feed-for-categories.md)
         * [ACSD-49433: Default amount shown as subtotal in cart for gift card](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49433-default-amount-shown-subtotal-in-cart.md)
@@ -534,6 +535,12 @@ breadcrumb-title: Commerce KB
     * v1.1.29 {#v1-1-29}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
         * [ACSD-49970: Incorrect handling of GraphQL errors](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49970-incorrect-handling-of-graphql-errors.md)
+        * [ACSD-49849: Customer email was replaced with paypal email](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49849-customer-email-was-replaced-with-paypal-email.md)
+        * [ACSD-49773: Product export fails when AWS S3 is used as remote storage](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49773-product-export-fails-when-aws-s3-is-used-as-remote-storage.md)
+        * [ACSD-49839: Shared catalog pricing and structure throws an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49839-shared-catalog-pricing-and-structure-throws-an-error.md)
+        * [ACSD-50260: GraphQL product search results are limited](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-50260-graphql-product-search-results-are-limited.md)
+        * [ACSD-49898: Products grid throws an exception](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49898-products-grid-throws-exception-when-special-price-of-bundled-product-exceeds-1000.md)
+        * [ACSD-50234: Incorrect customer name in confirmation email for orders placed using [!DNL PayPal]](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-50234-incorrect-customer-name-in-confirmation-email-for-orders-placed-with-paypal.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -804,6 +811,7 @@ breadcrumb-title: Commerce KB
     * [Cannot access New Relic on Adobe Commerce cloud account](/help/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.md)
     * [Modules missing from Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
     * [Former team members receive Adobe Commerce cloud notification emails](/help/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.md)
+    * [New domain is redirecting to default domain](/help/troubleshooting/miscellaneous/new-domain-redirecting.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
@@ -949,6 +957,7 @@ breadcrumb-title: Commerce KB
   * [How to subscribe to Adobe Commerce status updates](/help/how-to/general/how-to-subscribe-to-adobe-magento-status-updates.md)
   * [Change current Adobe account email address to new address](/help/how-to/general/change-current-adobe-account-email-address-to-new-address.md)
   * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
+  * [How to change email address on magento.com account when the field is grayed out](/help/how-to/general/change-email-address-on-magento-account.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)

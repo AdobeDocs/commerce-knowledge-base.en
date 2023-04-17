@@ -1,6 +1,7 @@
 ---
-title: "ACSD-49065: Quote items are not visible in admin"
+title: 'ACSD-49065: Quote items are not visible in admin'
 description: Apply the ACSD-49065 patch to fix the Adobe Commerce issue where the quote items are not visible in the admin if they are only assigned to the custom stock.
+exl-id: 3a5ceb4c-4c94-4938-98d9-9171f2633056
 ---
 # ACSD-49065: Quote items are not visible in admin
 
