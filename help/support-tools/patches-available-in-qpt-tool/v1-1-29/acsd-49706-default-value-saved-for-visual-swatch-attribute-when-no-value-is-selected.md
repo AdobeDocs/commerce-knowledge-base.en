@@ -30,8 +30,8 @@ A default value is saved for a visual swatch attribute when no value is selected
 1. Click **[!UICONTROL Add New Attribute]**.
 1. Fill in the fields.
     
-    * For example, choose input type *[!UICONTROL Visual Swatch]*, text and click **[!UICONTROL Save Attribute]**. 
-    * Make sure to choose one of the options as default.
+    * For example, choose input type *[!UICONTROL Visual Swatch]*, and add multiple options (such as *Red*, *Green*). Make sure to choose one of these options as default.
+    * Click **[!UICONTROL Save Attribute]**. 
 
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Attribute Set]**.
 1. Edit the *[!UICONTROL Default]* attribute set.
