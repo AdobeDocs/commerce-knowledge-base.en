@@ -29,7 +29,7 @@ The ACSD-49970 patch fixes the issue where there is incorrect handling of GraphQ
 1. Run `bin/magento deploy:mode:set developer`.
 1. Log in to the Admin.
 1. Enable **[!UICONTROL New Relic Integration]** from **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL New Relic Reporting]**
-(Note: Even if an error is displayed saying that `newrelic` extension is not available, the configuration is saved).
+(Note: Even if an error is displayed saying that the [!DNL New Relic] extension is not available, the configuration is saved).
 1. Run this *GraphQL* mutation to `http://yourMagentoDomain/graphql` from *Altair* client or any other client or via cURL.
 
     ```GraphQL
