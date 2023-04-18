@@ -50,7 +50,7 @@ There is no *500 exception* in logs, `GraphQLOperationNames` key is being handle
 
 <u>Actual results</u>:
 
-There is a *500 exception* in logs, `GraphQLOperationNames` key not being handled correctly.
+There is a *500 exception* in logs, `GraphQLOperationNames` key is not being handled correctly.
 
 ## Apply the patch
 
