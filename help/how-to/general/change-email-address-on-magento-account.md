@@ -1,6 +1,7 @@
 ---
 title: How to change email address on magento.com account when the field is grayed out
 description: This article discusses how to change the email address on your [Magento.com](https://account.magento.com) account when the field is grayed out.
+exl-id: cd527203-345c-4318-8ca8-0063109b5f79
 ---
 # How to change email address on magento.com account when the field is grayed out?
 

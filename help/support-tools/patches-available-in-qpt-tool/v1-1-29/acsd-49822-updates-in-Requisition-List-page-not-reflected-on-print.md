@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49433: Default amount shown as subtotal in cart for gift card'
-description: Apply the ACSD-49433 patch to fix the Adobe Commerce issue where the default amount is shown as subtotal in the cart for gift card with an open amount.
-exl-id: e2a887bb-c15a-43a6-a145-b295deef399b
+title: 'ACSD-49822: Updates on requisition list page not reflected on print requisition list'
+description: Apply the ACSD-49822 patch to fix the Adobe Commerce issue where updates on the requisition list page are not reflected on the print requisition list.
+exl-id: c70db644-0f14-4b84-8c85-dc87ce7a16e2
 ---
-# ACSD-49433: Default amount shown as subtotal in cart for gift card
+# ACSD-49822: Updates in requisition list not reflected on print requisition list
 
-The ACSD-49433 patch fixes the issue where the default amount is shown as subtotal in the cart for the gift card with an open amount. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-49433. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49822 patch fixes the issue where updates on the requisition list page are not reflected on the print requisition list. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49822. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p1
+*  Adobe Commerce (all deployment methods) 2.4.3-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,24 +23,29 @@ The ACSD-49433 patch fixes the issue where the default amount is shown as subtot
 
 ## Issue
 
-The default amount is shown as subtotal in the cart for the gift card with an open amount.
+Updates on the requisition list page are not reflected on the print requisition list.
 
 <u>Steps to reproduce</u>:
 
-1. Create a gift card.
-1. Make sure the open amount is set to *[!UICONTROL Yes]* (between $50 to $500).
-1. Go to the [!UICONTROL Gift Card] product on the storefront and choose another amount from the drop-down.
-1. Specifiy $100 in the amount in USD.
-1. Fill in other fields and add them to the cart.
-1. Go to the mini-cart or the cart page.
+1. Enable requisition list by navigating to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[B2B features]**.
+1. Create a product.
+1. Log in as a customer and add two products to the requisition list.
+1. Go to **[!UICONTROL My Account]** > **[!UICONTROL My Requisition Lists]**.
+1. View a requisition list.
+1. Click **[!UICONTROL Print]** in the upper right corner.
+1. Close the print window and print requisition list page.
+1. Delete an item in the list or update a quantity of an item, and try to print it again. 
+1. You will observe that the items are not updated on the print window.
+1. Close the print window.
+1. You will observe that the items are not updated on the requisition list print page.
 
 <u>Expected results</u>:
 
-The subtotal shows the amount the user entered.
+The list to be printed is updated after any change is applied.
 
 <u>Actual results</u>:
 
-The subtotal shows the default gift card amount.
+Updates are not reflected on the requisition list print page.
 
 ## Apply the patch
 

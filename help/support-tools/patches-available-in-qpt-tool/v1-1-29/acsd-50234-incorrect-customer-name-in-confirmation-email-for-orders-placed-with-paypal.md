@@ -1,6 +1,7 @@
 ---
-title: "ACSD-50234: Incorrect customer name in confirmation email for orders placed using [!DNL PayPal]"
+title: 'ACSD-50234: Incorrect customer name in confirmation email for orders placed using [!DNL PayPal]'
 description: Apply the ACSD-50234 patch to fix the Adobe Commerce issue where the customer name is displayed incorrectly in the confirmation email for orders placed using [!DNL PayPal].
+exl-id: b2e9c25a-5dd5-4b37-81e3-ca960078da77
 ---
 # ACSD-50234: Incorrect customer name in confirmation email for orders placed using [!DNL PayPal]
 

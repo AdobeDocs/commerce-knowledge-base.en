@@ -1,17 +1,17 @@
 ---
-title: 'ACSD-49433: Default amount shown as subtotal in cart for gift card'
-description: Apply the ACSD-49433 patch to fix the Adobe Commerce issue where the default amount is shown as subtotal in the cart for gift card with an open amount.
-exl-id: e2a887bb-c15a-43a6-a145-b295deef399b
+title: 'ACSD-49502: Downloadable link not updated correctly after [!DNL staging] update'
+description: Apply the ACSD-49502 patch to fix the Adobe Commerce issue where the downloadable link is not updated correctly after a [!DNL staging] update is applied to the downloadable product.
+exl-id: 5816c55d-6fd7-4689-b715-e94d59a6e94e
 ---
-# ACSD-49433: Default amount shown as subtotal in cart for gift card
+# ACSD-49502: Downloadable link not updated correctly after [!DNL staging] update
 
-The ACSD-49433 patch fixes the issue where the default amount is shown as subtotal in the cart for the gift card with an open amount. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-49433. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49502 patch fixes the issue where the downloadable link is not updated correctly after a [!DNL staging] update is applied to the downloadable product. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49502. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
@@ -23,24 +23,23 @@ The ACSD-49433 patch fixes the issue where the default amount is shown as subtot
 
 ## Issue
 
-The default amount is shown as subtotal in the cart for the gift card with an open amount.
+The downloadable link is not updated properly after a [!DNL staging] update is applied to the downloadable product.
 
 <u>Steps to reproduce</u>:
 
-1. Create a gift card.
-1. Make sure the open amount is set to *[!UICONTROL Yes]* (between $50 to $500).
-1. Go to the [!UICONTROL Gift Card] product on the storefront and choose another amount from the drop-down.
-1. Specifiy $100 in the amount in USD.
-1. Fill in other fields and add them to the cart.
-1. Go to the mini-cart or the cart page.
+1. Create a downloadable product with link(s).
+1. Create a customer account and log in.
+1. Add the downloadable product to the cart from the storefront.
+1. In the **[!UICONTROL Admin]**, schedule a new update for the downloadable product and let the scheduled update complete.
+1. Complete the order on the storefront.
 
 <u>Expected results</u>:
 
-The subtotal shows the amount the user entered.
+Downloadable links are preserved when using scheduled updates while previously added products are in the cart.
 
 <u>Actual results</u>:
 
-The subtotal shows the default gift card amount.
+Downloadable links are missing both under the customer's *[!UICONTROL My Account]* ([!UICONTROL My Downloadable Products]) and order view pages in the  **[!UICONTROL Admin]**.
 
 ## Apply the patch
 

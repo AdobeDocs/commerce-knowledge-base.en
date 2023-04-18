@@ -1,8 +1,8 @@
 ---
-title: "ACSD-48216: *AUTO_INCREMENT of inventory_source_item* table increases on *UPDATE* operation"
+title: 'ACSD-48216: *AUTO_INCREMENT of inventory_source_item* table increases on *UPDATE* operation'
 description: Apply the ACSD-48216 patch to fix the Adobe Commerce issue where *AUTO_INCREMENT of the inventory_source_item* table increases on *UPDATE* operation.
+exl-id: fb97f240-95c0-479e-ac5a-00f6792374ab
 ---
-
 # ACSD-48216: *AUTO_INCREMENT* of *inventory_source_item* table increases on *UPDATE* operation
 
 The ACSD-48216 patch fixes the issue where *AUTO_INCREMENT* of the *inventory_source_item* table increases on the *UPDATE* operation. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48216. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.

@@ -1,8 +1,8 @@
 ---
-title: "ACSD-48694: Invalid state change requested error prevents customer from placing order"
+title: 'ACSD-48694: Invalid state change requested error prevents customer from placing order'
 description: Apply the ACSD-48694 patch to fix the Adobe Commerce issue where the error *Invalid state change requested* prevents a customer from placing an order.
+exl-id: edf79424-6c4f-4cfd-ab7e-19f95b9bc685
 ---
-
 # ACSD-48694: *Invalid state change requested* error prevents customer from placing order
 
 The ACSD-48694 patch fixes the issue where the error *Invalid state change requested* prevents a customer from placing an order. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48694. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
