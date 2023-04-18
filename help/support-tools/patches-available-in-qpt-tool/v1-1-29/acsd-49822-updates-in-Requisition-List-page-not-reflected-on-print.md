@@ -23,7 +23,7 @@ The ACSD-49822 patch fixes the issue where updates in the requisition list page 
 
 ## Issue
 
-Updates in the requisition list page are not reflected on the print requisition list.
+Updates on the requisition list page are not reflected on the print requisition list.
 
 <u>Steps to reproduce</u>:
 
