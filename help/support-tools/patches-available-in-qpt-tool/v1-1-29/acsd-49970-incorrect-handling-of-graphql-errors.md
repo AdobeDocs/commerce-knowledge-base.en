@@ -46,7 +46,7 @@ The ACSD-49970 patch fixes the issue where there is incorrect handling of GraphQ
 
 <u>Expected results</u>:
 
-There is no *500 exception* in logs, `GraphQLOperationNames` key being handled correctly.
+There is no *500 exception* in logs, `GraphQLOperationNames` key is being handled correctly.
 
 <u>Actual results</u>:
 
