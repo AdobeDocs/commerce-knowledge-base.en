@@ -5,7 +5,7 @@ description: Apply the ACSD-49822 patch to fix the Adobe Commerce issue where up
 
 # ACSD-49822: Updates in requisition list not reflected on print requisition list
 
-The ACSD-49822 patch fixes the issue where updates in the requisition list page are not reflected on the print requisition list. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49822. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49822 patch fixes the issue where updates on the requisition list page are not reflected on the print requisition list. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49822. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
