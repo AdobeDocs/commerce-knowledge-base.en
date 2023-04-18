@@ -35,9 +35,9 @@ To locate the largest files that might be good candidates for clearing, run the 
 
 ```bash
 FS='/data/exports';NUMRESULTS=20;resize;clear; echo "Please find below the Largest Directories and Files:";date;df -h $FS; echo "Largest Directories:";du -x /app/*/ 2>/dev/null| sort -rnk1| head -n $NUMRESULTS| awk '
-{printf "%d MB %s\n",\ $1/1024,$2}
+{printf "%d MB %s\n", $1/1024,$2}
 ';echo "Largest Files:"; nice -n 19 find /app/*/ -mount -type f -ls 2>/dev/null| sort -rnk7| head -n $NUMRESULTS|awk '
-{printf "%d MB\t%s\n",\ ($7/1024)/1024,$NF}
+{printf "%d MB\t%s\n", ($7/1024)/1024,$NF}
 '; echo "Please use the above information to clear any unwanted data from the server, it is important this is done as soon as possible to ensure your server stays functional.";
 ```
 

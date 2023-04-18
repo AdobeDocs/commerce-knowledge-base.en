@@ -139,4 +139,4 @@ Allocate more disk space for MySQL if you have some unused. See the [Check disk 
 * For the Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused. For details, see the [Allocate more space for MySQL](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md).
 * For Pro plan Staging and Production environments, [contact support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to allocate more disk space if you have some unused.
 
-If you have reached your space limit and still experience low space issues, consider buying more disk space, contact your Customer Success Manager (CSM) for details.
+If you have reached your space limit and still experience low space issues, consider buying more disk space, contact your Adobe Account Team for details.
