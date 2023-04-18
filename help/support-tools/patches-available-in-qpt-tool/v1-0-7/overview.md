@@ -1,6 +1,7 @@
 ---
-title: "Overview: [!DNL Quality Patches Tool] (QPT) v1.0.7"
+title: 'Overview: [!DNL Quality Patches Tool] (QPT) v1.0.7'
 description: This sub-section provides a detailed description of the issues fixed by the patches available in [!DNL Quality Patches Tool] (QPT) v1.0.7.
+exl-id: 2415ca7a-4aec-4a63-9ae9-ee7b29bbc8d7
 ---
 # [!DNL Quality Patches Tool] (QPT) v1.0.7 overview
 

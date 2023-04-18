@@ -11,7 +11,7 @@ exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 
  **Possible cause:** Permissions, necessary to grant shared access, have not been associated with your Commerce Account.
 
- **Solution:** Contact your Commerce Customer Success Manager or [create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). Please specify your name and the email associated with your Account.
+ **Solution:** Contact your Adobe Account Team or [create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). Please specify your name and the email associated with your Account.
 
 ## I use shared access but still see my tickets instead of the shared ones
 
