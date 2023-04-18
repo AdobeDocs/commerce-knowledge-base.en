@@ -30,7 +30,7 @@ The downloadable link is not updated properly after a [!DNL staging] update is a
 1. Create a downloadable product with link(s).
 1. Create a customer account and log in.
 1. Add the downloadable product to the cart from the storefront.
-1. In the admin, schedule a new update for the downloadable product and let the scheduled update complete.
+1. In the **[!UICONTROL Admin]**, schedule a new update for the downloadable product and let the scheduled update complete.
 1. Complete the order on the storefront.
 
 <u>Expected results</u>:
