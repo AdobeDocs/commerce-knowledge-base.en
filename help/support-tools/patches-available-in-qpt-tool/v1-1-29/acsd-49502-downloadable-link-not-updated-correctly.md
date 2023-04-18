@@ -3,7 +3,7 @@ title: "ACSD-49502: Downloadable link not updated correctly after [!DNL staging]
 description: Apply the ACSD-49502 patch to fix the Adobe Commerce issue where the downloadable link is not updated correctly after a staging update is applied to the downloadable product.
 ---
 
-# ACSD-49502: Downloadable link not updated correctly after staging update
+# ACSD-49502: Downloadable link not updated correctly after [!DNL staging] update
 
 The ACSD-49502 patch fixes the issue where the downloadable link is not updated correctly after a staging update is applied to the downloadable product. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49502. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
