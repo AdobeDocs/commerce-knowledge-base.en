@@ -22,7 +22,7 @@ The ACSD-49970 patch fixes the issue where there is incorrect handling of GraphQ
 
 ## Issue
 
-`GraphQLOperationNames` key was not handled correctly if the `logDataHelper` contains this key or not.
+`GraphQLOperationNames` key is not handled correctly whether the `logDataHelper` contains this key or not.
 
 <u>Steps to reproduce</u>:
 
