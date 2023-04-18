@@ -23,7 +23,7 @@ The ACSD-49502 patch fixes the issue where the downloadable link is not updated 
 
 ## Issue
 
-The downloadable link is not updated properly after a staging update is applied to the downloadable product.
+The downloadable link is not updated properly after a [!DNL staging] update is applied to the downloadable product.
 
 <u>Steps to reproduce</u>:
 
