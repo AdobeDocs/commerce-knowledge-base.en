@@ -38,7 +38,7 @@ The ACSD-49970 patch fixes the issue where there is incorrect handling of GraphQ
     }
     ```
 
-    (Note: Set the **[!UICONTROL Header]** to Content-Currency:CA before running it).
+    (Note: Set the **[!UICONTROL Header]** to [!UICONTROL Content-Currency:CA] before running it).
 
     ```cURL
     curl --location 'http://yourMagentoDomain/graphql' \--header 'Content-Currency: CA' \--header 'Content-Type: application/json' \--header 'Cookie: PHPSESSID=b5147f63fe5014ea523f262946; private_content_version=8d53dfda210a6e9bc46f4e4a01ffd6c5' \--data '{"query":"mutation {\r\n  createEmptyCart\r\n}","variables":{}}'
