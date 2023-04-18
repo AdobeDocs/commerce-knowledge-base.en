@@ -39,7 +39,7 @@ Downloadable links are preserved when using scheduled updates while previously a
 
 <u>Actual results</u>:
 
-Downloadable links are missing both under the customer's *[!UICONTROL My Account]* ([!UICONTROL My Downloadable Products]) and order view pages in the admin.
+Downloadable links are missing both under the customer's *[!UICONTROL My Account]* ([!UICONTROL My Downloadable Products]) and order view pages in the  **[!UICONTROL Admin]**.
 
 ## Apply the patch
 
