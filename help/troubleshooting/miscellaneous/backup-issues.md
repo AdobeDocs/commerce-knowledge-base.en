@@ -42,7 +42,7 @@ If the backup failed because of insufficient disk space, you should typically fr
 Unfortunately, we can not recommend anything specific because of the variety of errors you might encounter. We can suggest, however, you:
 
 * Contact your system administrator.
-* Search public forums like [Stack Exchange](http://unix.stackexchange.com) or [Stack Overflow.](https://stackoverflow.com)
+* Search public forums like [Stack Exchange](https://unix.stackexchange.com) or [Stack Overflow](https://stackoverflow.com)
 * Open a [GitHub issue](https://github.com/magento/magento2/issues) and we'll try to help.
 
 ## Backup fails {#backup-fails-trouble-backup-all-}
