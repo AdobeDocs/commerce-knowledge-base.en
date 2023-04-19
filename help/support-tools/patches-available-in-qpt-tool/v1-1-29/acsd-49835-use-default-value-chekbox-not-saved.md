@@ -1,20 +1,21 @@
 ---
-title: "ACSD-49822: Updates on requisition list page not reflected on print requisition list"
-description: Apply the ACSD-49822 patch to fix the Adobe Commerce issue where updates on the requisition list page are not reflected on the print requisition list.
+title: 'ACSD-49835: [!UICONTROL Use Default Value] checkbox is not saved'
+description: Apply the ACSD-49835 patch to fix the Adobe Commerce issue where the [!UICONTROL Use Default Value] checkbox is not saved correctly on a store level for a multi-select attribute.
+exl-id: 4bb19c33-6734-49fe-83e6-3dc15f25924f
 ---
-# ACSD-49822: Updates in requisition list not reflected on print requisition list
+# ACSD-49835: [!UICONTROL Use Default Value] checkbox is not saved
 
-The ACSD-49822 patch fixes the issue where updates on the requisition list page are not reflected on the print requisition list. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49822. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49835 patch fixes the issue where the [!UICONTROL Use Default Value] checkbox is not saved correctly on a store level for a multi-select attribute. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49835. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-*  Adobe Commerce (all deployment methods) 2.4.3-p1
+* Adobe Commerce (all deployment methods)  2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6
 
 >[!NOTE]
 >
@@ -22,29 +23,22 @@ The ACSD-49822 patch fixes the issue where updates on the requisition list page 
 
 ## Issue
 
-Updates on the requisition list page are not reflected on the print requisition list.
+The [!UICONTROL Use Default Value] checkbox is not saved correctly on a store level for a multi-select attribute.
 
 <u>Steps to reproduce</u>:
 
-1. Enable requisition list by navigating to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[B2B features]**.
-1. Create a product.
-1. Log in as a customer and add two products to the requisition list.
-1. Go to **[!UICONTROL My Account]** > **[!UICONTROL My Requisition Lists]**.
-1. View a requisition list.
-1. Click **[!UICONTROL Print]** in the upper right corner.
-1. Close the print window and print requisition list page.
-1. Delete an item in the list or update a quantity of an item, and try to print it again. 
-1. You will observe that the items are not updated on the print window.
-1. Close the print window.
-1. You will observe that the items are not updated on the requisition list print page.
+1. Create a **[!UICONTROL Multiple-select Attribute]** in **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** and add it to an attribute set.
+1. Go to a **[!UICONTROL Product]** and save **[!UICONTROL Values]** in **[!UICONTROL All Store Views (Default Scope)]**.
+1. Go to a specific **[!UICONTROL Store View Scope]** and save the product.
+1. Go to **[!UICONTROL Store View Scope]** and check the **[!UICONTROL Use Default Value]** checkbox. 
 
 <u>Expected results</u>:
 
-The list to be printed is updated after any change is applied.
+Multi-select attribute values are properly saved when checking the [!UICONTROL Use Default Value] checkbox in the [!UICONTROL Store View Scope].
 
 <u>Actual results</u>:
 
-Updates are not reflected on the requisition list print page.
+Multi-select attribute values are not properly saved when checking the [!UICONTROL Use Default Value] checkbox in the [!UICONTROL Store View Scope].
 
 ## Apply the patch
 
