@@ -532,8 +532,9 @@ breadcrumb-title: Commerce KB
         * [ACSD-48204: Catalog price rule created based on Yes or No attribute doesn't consider selected scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48204-catalog-price-rule-created-based-on-yes-no-attribute-does-not-consider-the-selected-scope.md)
         * [ACSD-49370: Product attribute has "FilterMatchTypeInput" type in GraphQL schema](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49370-product-attribute-filtermatchtypeinput-type.md)
         * [ACSD-47704: Bundled product shows in stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
-    * v1.1.29 {#v1-1-29}
+    * v1.1.29 {#v1-1-29} 
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
+        * [ACSD-49835: [!UICONTROL Use Default Value] checkbox is not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49835-use-default-value-chekbox-not-saved.md)
         * [ACSD-49970: Incorrect handling of GraphQL errors](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49970-incorrect-handling-of-graphql-errors.md)
         * [ACSD-49822: Updates in requisition list not reflected on print requisition list](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49822-updates-in-Requisition-List-page-not-reflected-on-print.md)
         * [ACSD-49502: Downloadable link not updated correctly after [!DNL staging] update](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49502-downloadable-link-not-updated-correctly.md)
