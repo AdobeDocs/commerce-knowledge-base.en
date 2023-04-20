@@ -72,7 +72,7 @@ Problem: Static assets are served slowly so your site has poor performance (long
 Recommendation: To identify possible causes of poor performance consider using [Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) for performance testing. You could also consider these third-party tools:
 
 * [Siege](https://www.joedog.org/siege-home/): HTTP load-testing and benchmarking utility; supports basic authentication, cookies, HTTP, HTTPS and FTP protocols.
-* [Jmeter](http://jmeter.apache.org/): A reputable load-testing and performance measuring tool. Helps gauge performance for spiked traffic, e.g., for flash sales.
+* [Jmeter](https://jmeter.apache.org/): A reputable load-testing and performance measuring tool. Helps gauge performance for spiked traffic, e.g., for flash sales.
 * [New Relic](https://support.newrelic.com/): Locates processes and areas of the site causing slow performance with tracked time spent per action, like transmitting data, queries, Redis, etc.
 * [WebPageTest](https://www.webpagetest.org/) (free) and [Pingdom](https://www.pingdom.com/) (paid): Real-time analysis of your site pages load time with different origin locations.
 
