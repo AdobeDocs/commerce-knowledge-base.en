@@ -31,42 +31,82 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html">Former team members receive Adobe Commerce cloud notification emails:</a> This article provides a solution for where team members that are no longer associated with your project continue to receive notifications.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/new-domain-redirecting.html">New domain is redirecting to default domain:</a> This article provides a fix for the issue where the new domain redirects to the default domain in the existing or different environment.
     </td>
     <td>New article</td>
-    <td> Mar 16, 2023</td>
+    <td> April 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.html?lang=en">Cannot access the correct cloud project:</a> This article provides a fix for the issues after a change has been made to the account ownership or the associated email addresses.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/change-email-address-on-magento-account.html">How to change email address on magento.com account when the field is grayed out:</a> This article explains how to change the email address on your Magento.com account when the field is grayed out.
     </td>
     <td>New article</td>
-    <td>Mar 16, 2023</td>
+    <td>April 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-49042-product-with-infinite-backorder-cant-be-ordered-from-storefront.html">ACSD-49042: Product with infinite backorder can't be ordered from storefront:</a> The ACSD-49042 patch fixes the issue where a product with infinite backorder cannot be ordered from the storefront. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-49286-product-added-twice-to-cart-when-multiple-product-widgets-are-present-on-page.html?lang=en">ACSD-49286: Product added twice to cart when multiple product widgets are present:</a> The ACSD-49286 patch fixes the issue where the product is added twice to a cart when multiple product widgets are present on the page. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
     </td>
     <td>New article</td>
-    <td>Mar 16, 2023</td>
+    <td>April 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-27/acsd-48634-js-errors-when-google-analytics-content-experiments-enabled.html">ACSD-48634: JS errors when Google Analytics Content Experiments enabled:</a> The ACSD-48634 patch fixes JS errors on a staging update page when Google Analytics Content Experiments is enabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.27 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-49065-quote-items-are-not-visible-in-admin-if-assigned-to-custom-stock.html">ACSD-49065: Quote items are not visible in admin:</a> The ACSD-49065 patch fixes the issue where the quote items are not visible in the admin if they are only assigned to the custom stock. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
     </td>
     <td> New article </td>
-    <td> Mar 16, 2023</td>
+    <td> April 13, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html?lang=en">SSL (TLS) certificates for Adobe Commerce on cloud infrastructure:</a> This article was updated according to the suggestion by an SME.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-48204-catalog-price-rule-created-based-on-yes-no-attribute-does-not-consider-the-selected-scope.html">ACSD-48204: Catalog price rule created based on <em>Yes/No</em> attribute doesn't consider selected scope:</a> The ACSD-48204 patch fixes the issue where the catalog price rule created based on <em>Yes/No</em> attribute doesn't consider the selected scope. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
     </td>
-    <td>Updated</td>
-    <td>Mar 16, 2023</td>
+    <td>New article</td>
+    <td>April 13, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.html?lang=en">Cannot access New Relic on Adobe Commerce Cloud project:</a> This article provides a solution for when you cannot access [!DNL New Relic] despite being added to an Adobe Commerce cloud project.
+    </td>
+    <td>New article</td>
+    <td>April 13, 2023</td>
+  </tr>
+  
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-28/acsd-49179-orders-report-shows-incorrect-amounts-for-different-stores.html">ACSD-49179: Orders report shows incorrect amounts for different stores:</a> The ACSD-49179 patch fixes the issue where the orders report shows incorrect amounts in case of different currencies for different stores. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.28 is installed.
+    </td>
+    <td>New article</td>
+    <td>April 13, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-29/acsd-50260-graphql-product-search-results-are-limited.html">ACSD-50260: GraphQL product search results are limited:</a> The ACSD-50260 patch fixes the issue where the GraphQL product search results are limited to 10,000 results only. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.29 is installed.
+    </td>
+    <td>New article</td>
+    <td>April 13, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-29/acsd-49839-shared-catalog-pricing-and-structure-throws-an-error.html">ACSD-49839: Shared catalog pricing and structure throws an error:</a> The ACSD-49839 patch fixes the issue where the shared catalog pricing and structure throws an error in the admin when products have single or double quotes in SKU. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.29 is installed.
+    </td>
+    <td>New article</td>
+    <td>April 13, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-29/acsd-49849-customer-email-was-replaced-with-paypal-email.html">ACSD-49849: Customer email is replaced with [!DNL PayPal] email:</a> The ACSD-49849 patch fixes the issue where a customer's email is replaced with a [!DNL PayPal's] email when placing an order with PayPal Express via GraphQL. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.29 is installed.
+    </td>
+    <td>New article</td>
+    <td>April 13, 2023</td>
   </tr>
 </table>
 
