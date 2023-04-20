@@ -26,7 +26,7 @@ Filtering by date does not work for the customer order grid.
 
 <u>Steps to reproduce</u>:
 
-1. Go to **[!UICONTROL Edit customer]** on backend.
+1. Go to **[!UICONTROL Edit customer]** on the backend.
 1. Open the **[!UICONTROL Orders]** tab.
 1. Apply date filters in the column *[!UICONTROL Purchased]*.
 
