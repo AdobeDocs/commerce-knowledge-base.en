@@ -30,7 +30,7 @@ WYSIWYG editor renders content differently.
 1. Go to the Adobe Commerce Admin, create a new page with a row with three columns, and save the page.
 1. Update Adobe Commerce to one of the latest versions.
 1. Set [!DNL Chrome] browser to disable cache and speed to *Fast 3G*.
-1. Go to the edit page again and refresh it until you see the columns become rows.
+1. Go to the edit page again and refresh it until the columns become rows.
 1. Save the page while the columns are in rows.
 
 <u>Expected results</u>:
