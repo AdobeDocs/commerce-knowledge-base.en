@@ -36,7 +36,7 @@ Applying the filter sorts customer orders by their purchased dates.
 
 <u>Actual results</u>:
 
-Applying the filter throws a [!DNL JS] error in console and the loader keeps loading.
+Applying the filter throws a JS error in the console, and the loader keeps loading.
 
 ## Apply the patch
 
