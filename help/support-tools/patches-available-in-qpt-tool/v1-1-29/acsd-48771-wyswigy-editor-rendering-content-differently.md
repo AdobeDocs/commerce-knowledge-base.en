@@ -35,7 +35,7 @@ WYSIWYG editor renders content differently.
 
 <u>Expected results</u>:
 
-The admin page builder should not display columns in rows.
+The Admin page builder should not display columns in rows.
 
 <u>Actual results</u>:
 
