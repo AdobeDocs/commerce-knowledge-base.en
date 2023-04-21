@@ -33,7 +33,7 @@ Search is not showing relevant results based on the search weight of the attribu
 1. Log in as an admin.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Products]**.
 1. Open the *name* attribute.
-1. Open storefront properties tab.
+1. Open the storefront *[!UICONTROL Properties]* tab.
 1. Select [!UICONTROL Search Weight] = *10* from the dropdown value.
 1. Click **[!UICONTROL Save Attribute]**.
 1. Now open the storefront and search for the word *Back*.
