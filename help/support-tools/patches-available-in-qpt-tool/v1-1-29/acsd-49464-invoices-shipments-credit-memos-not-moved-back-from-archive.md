@@ -32,7 +32,7 @@ Invoices, shipments, and credit memos are not moved back from the archive when t
 1. Ensure the shipping, invoice, and credit memo IDs are not the same as the order number.
 1. Move the order to archive.
 1. Restore the archived order to order management.
-1. Check invoice, shipping and credit memo details under the respective [!UICONTROL Invoice], [!UICONTROL Shipping], [!UICONTROL Credit Memo] grid pages.
+1. Check invoice, shipping, and credit memo details under the respective [!UICONTROL Invoice], [!UICONTROL Shipping], and [!UICONTROL Credit Memo] grid pages.
 
 <u>Expected results</u>:
 
