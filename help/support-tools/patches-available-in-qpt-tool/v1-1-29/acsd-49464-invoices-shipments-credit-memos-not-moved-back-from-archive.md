@@ -27,7 +27,7 @@ Invoices, shipments, and credit memos are not moved back from the archive when t
 
 <u>Steps to reproduce</u>:
 
-1. Enable orders, invoices, shipments, credit memos archiving.
+1. Enable orders, invoices, shipments, and credit memos archiving.
 1. Create and complete an order, including shipping, invoice and credit memo.
 1. Ensure the shipping, invoice and credit memo IDs are not the same as the order number.
 1. Move the order to archive.
