@@ -40,7 +40,7 @@ The original related records are restored when the order is moved from the archi
 
 <u>Actual results</u>:
 
-* No records for shipping, invoice and credit memo if all the IDs are different.
+* No records for shipping, invoice, and credit memos if all the IDs are different.
 * If the order and related records have the same ID, then the records are returned.
 
 ## Apply the patch
