@@ -61,7 +61,7 @@ PHP Fatal error: Call to undefined method Magento\Catalog\Model\Resource\Product
 
 During sample data installation, disable SELinux using a resource such as:
 
-* [crypt.gen.nz](http://www.crypt.gen.nz/selinux/disable_selinux.html#DIS2)
+* [www.ibm.com](https://www.ibm.com/docs/ja/ahts/4.0?topic=t-disabling-selinux)
 * [CentOS documentation](https://docs.centos.org/en-US/docs/)
 
 ## Symptom (develop branch)

@@ -50,7 +50,7 @@ For SEO purposes on product pages, use URL Rewrites (**Marketing** > **SEO & Sea
 The *URL Key* parameter for SEO:
 
 * [Search Engine Optimization](http://docs.magento.com/m2/ee/user_guide/catalog/categories-search-engine-optimization.html?Highlight=%22url%20key%22)
-* [Adding a New Page](http://docs.magento.com/m2/ee/user_guide/cms/page-add.html)
+* [Adding a New Page](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html)
 
 Page Hierarchy:
 
