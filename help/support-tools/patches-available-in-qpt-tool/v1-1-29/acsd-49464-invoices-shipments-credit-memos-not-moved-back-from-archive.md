@@ -36,7 +36,7 @@ Invoices, shipments, and credit memos are not moved back from the archive when t
 
 <u>Expected results</u>:
 
-The original related records are restored when the order is moved from archive list to order management.
+The original related records are restored when the order is moved from the archive list to order management.
 
 <u>Actual results</u>:
 
