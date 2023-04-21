@@ -25,7 +25,6 @@ The ACSD-48813 patch fixes the issue where search is not showing relevant result
 
 Search is not showing relevant results based on the search weight of the attributes.
 
-
 <u>Steps to reproduce</u>:
 
 1. Install Adobe Commerce with sample data.
