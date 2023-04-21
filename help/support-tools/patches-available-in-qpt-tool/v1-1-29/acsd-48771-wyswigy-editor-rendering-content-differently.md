@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49433: Default amount shown as subtotal in cart for gift card'
-description: Apply the ACSD-49433 patch to fix the Adobe Commerce issue where the default amount is shown as subtotal in the cart for gift card with an open amount.
-exl-id: e2a887bb-c15a-43a6-a145-b295deef399b
+title: 'ACSD-48771: WYSIWYG editor renders content differently'
+description: Apply the ACSD-48771 patch to fix the Adobe Commerce issue where WYSIWYG editor renders content differently.
+exl-id: 6ebd6281-0498-42c8-adf8-104ecc82ce56
 ---
-# ACSD-49433: Default amount shown as subtotal in cart for gift card
+# ACSD-48771: WYSIWYG editor renders content differently
 
-The ACSD-49433 patch fixes the issue where the default amount is shown as subtotal in the cart for the gift card with an open amount. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-49433. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48771 patch fixes the issue where WYSIWYG editor renders content differently. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-48771. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,24 +23,23 @@ The ACSD-49433 patch fixes the issue where the default amount is shown as subtot
 
 ## Issue
 
-The default amount is shown as subtotal in the cart for the gift card with an open amount.
+WYSIWYG editor renders content differently.
 
 <u>Steps to reproduce</u>:
 
-1. Create a gift card.
-1. Make sure the open amount is set to *[!UICONTROL Yes]* (between $50 to $500).
-1. Go to the [!UICONTROL Gift Card] product on the storefront and choose another amount from the drop-down.
-1. Specifiy $100 in the amount in USD.
-1. Fill in other fields and add them to the cart.
-1. Go to the mini-cart or the cart page.
+1. Go to the Adobe Commerce Admin, create a new page with a row with three columns, and save the page.
+1. Update Adobe Commerce to one of the latest versions.
+1. Set [!DNL Chrome] browser to disable cache and speed to *Fast 3G*.
+1. Go to the edit page again and refresh it until the columns become rows.
+1. Save the page while the columns are in rows.
 
 <u>Expected results</u>:
 
-The subtotal shows the amount the user entered.
+The Admin page builder should not display columns in rows.
 
 <u>Actual results</u>:
 
-The subtotal shows the default gift card amount.
+Columns appear in different rows.
 
 ## Apply the patch
 

@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49433: Default amount shown as subtotal in cart for gift card'
-description: Apply the ACSD-49433 patch to fix the Adobe Commerce issue where the default amount is shown as subtotal in the cart for gift card with an open amount.
-exl-id: e2a887bb-c15a-43a6-a145-b295deef399b
+title: 'ACSD-49835: [!UICONTROL Use Default Value] checkbox is not saved'
+description: Apply the ACSD-49835 patch to fix the Adobe Commerce issue where the [!UICONTROL Use Default Value] checkbox is not saved correctly on a store level for a multi-select attribute.
+exl-id: 4bb19c33-6734-49fe-83e6-3dc15f25924f
 ---
-# ACSD-49433: Default amount shown as subtotal in cart for gift card
+# ACSD-49835: [!UICONTROL Use Default Value] checkbox is not saved
 
-The ACSD-49433 patch fixes the issue where the default amount is shown as subtotal in the cart for the gift card with an open amount. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-49433. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49835 patch fixes the issue where the [!UICONTROL Use Default Value] checkbox is not saved correctly on a store level for a multi-select attribute. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49835. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p1
+* Adobe Commerce (all deployment methods)  2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,24 +23,22 @@ The ACSD-49433 patch fixes the issue where the default amount is shown as subtot
 
 ## Issue
 
-The default amount is shown as subtotal in the cart for the gift card with an open amount.
+The [!UICONTROL Use Default Value] checkbox is not saved correctly on a store level for a multi-select attribute.
 
 <u>Steps to reproduce</u>:
 
-1. Create a gift card.
-1. Make sure the open amount is set to *[!UICONTROL Yes]* (between $50 to $500).
-1. Go to the [!UICONTROL Gift Card] product on the storefront and choose another amount from the drop-down.
-1. Specifiy $100 in the amount in USD.
-1. Fill in other fields and add them to the cart.
-1. Go to the mini-cart or the cart page.
+1. Create a **[!UICONTROL Multiple-select Attribute]** in **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** and add it to an attribute set.
+1. Go to a **[!UICONTROL Product]** and save **[!UICONTROL Values]** in **[!UICONTROL All Store Views (Default Scope)]**.
+1. Go to a specific **[!UICONTROL Store View Scope]** and save the product.
+1. Go to **[!UICONTROL Store View Scope]** and check the **[!UICONTROL Use Default Value]** checkbox. 
 
 <u>Expected results</u>:
 
-The subtotal shows the amount the user entered.
+Multi-select attribute values are properly saved when checking the [!UICONTROL Use Default Value] checkbox in the [!UICONTROL Store View Scope].
 
 <u>Actual results</u>:
 
-The subtotal shows the default gift card amount.
+Multi-select attribute values are not properly saved when checking the [!UICONTROL Use Default Value] checkbox in the [!UICONTROL Store View Scope].
 
 ## Apply the patch
 

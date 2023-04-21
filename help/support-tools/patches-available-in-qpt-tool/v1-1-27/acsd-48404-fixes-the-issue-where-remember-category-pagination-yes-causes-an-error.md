@@ -1,8 +1,8 @@
 ---
 title: "ACSD-48404: *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* causes error when pressing browser's back button"
 description: Apply the ACSD-48404 patch to fix the Adobe Commerce issue where *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* causes an error when pressing the browser's back button.
+exl-id: b4b96198-dee6-4b3c-b60a-0983ef8ef7b2
 ---
-
 # ACSD-48404: *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* causes error when pressing browser's back button
 
 The ACSD-48404 patch fixes the issue where *[!UICONTROL Remember Category Pagination] = [!UICONTROL Yes]* causes an error when pressing the browser's back button. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 is installed. The patch ID is ACSD-48404. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.

@@ -1,8 +1,8 @@
 ---
 title: "ACSD-48204: Catalog price rule created based on *Yes/No* attribute doesn't consider selected scope"
 description: Apply the ACSD-48204 patch to fix the Adobe Commerce issue where the catalog price rule created based on *Yes/No* attribute doesn't consider the selected scope.
+exl-id: 9b0b4d62-c4c5-40d7-a279-52f59ee7ac42
 ---
-
 # ACSD-48204: Catalog price rule created based on *Yes/No* attribute doesn't consider selected scope
 
 The ACSD-48204 patch fixes the issue where the catalog price rule created based on *Yes/No* attribute doesn't consider the selected scope. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-48204. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.

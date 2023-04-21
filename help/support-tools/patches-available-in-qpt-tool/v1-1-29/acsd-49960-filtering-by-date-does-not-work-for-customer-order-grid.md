@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49433: Default amount shown as subtotal in cart for gift card'
-description: Apply the ACSD-49433 patch to fix the Adobe Commerce issue where the default amount is shown as subtotal in the cart for gift card with an open amount.
-exl-id: e2a887bb-c15a-43a6-a145-b295deef399b
+title: "ACSD-49960: Filtering by date doesn't work for the customer order grid"
+description: Apply the ACSD-49960 patch to fix the Adobe Commerce issue where filtering by date does not work for the customer order grid.
+exl-id: ad2e7837-5eba-4cd6-80a4-4af8631eb1fc
 ---
-# ACSD-49433: Default amount shown as subtotal in cart for gift card
+# ACSD-49960: Filtering by date doesn't work for the customer order grid
 
-The ACSD-49433 patch fixes the issue where the default amount is shown as subtotal in the cart for the gift card with an open amount. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 is installed. The patch ID is ACSD-49433. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49960 patch fixes the issue where filtering by date does not work for the customer order grid. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49960. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,24 +23,21 @@ The ACSD-49433 patch fixes the issue where the default amount is shown as subtot
 
 ## Issue
 
-The default amount is shown as subtotal in the cart for the gift card with an open amount.
+Filtering by date does not work for the customer order grid. 
 
 <u>Steps to reproduce</u>:
 
-1. Create a gift card.
-1. Make sure the open amount is set to *[!UICONTROL Yes]* (between $50 to $500).
-1. Go to the [!UICONTROL Gift Card] product on the storefront and choose another amount from the drop-down.
-1. Specifiy $100 in the amount in USD.
-1. Fill in other fields and add them to the cart.
-1. Go to the mini-cart or the cart page.
+1. Go to **[!UICONTROL Edit customer]** on the backend.
+1. Open the **[!UICONTROL Orders]** tab.
+1. Apply date filters in the column *[!UICONTROL Purchased]*.
 
 <u>Expected results</u>:
 
-The subtotal shows the amount the user entered.
+Applying the filter sorts customer orders by their purchased dates.
 
 <u>Actual results</u>:
 
-The subtotal shows the default gift card amount.
+Applying the filter throws a JS error in the console, and the loader keeps loading.
 
 ## Apply the patch
 
