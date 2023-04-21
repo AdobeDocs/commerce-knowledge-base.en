@@ -40,7 +40,7 @@ Search is not showing relevant results based on the search weight of the attribu
 
 <u>Expected results</u>:
 
-Backpack products are returned on the top of search results.
+Backpack products are returned at the top of search results.
 
 <u>Actual results</u>:
 
