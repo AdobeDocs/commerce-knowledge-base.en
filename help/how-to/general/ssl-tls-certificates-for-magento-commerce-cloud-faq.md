@@ -36,7 +36,14 @@ If your site is already live and/or you can point the URLs that will be used for
 
 ## Can I use my own SSL/TLS certificate?
 
-You can provide your own SSL/TLS certificate instead of using the [Let's Encrypt certificate](https://letsencrypt.org/) provided by Adobe. However, this process requires additional work to set up and maintain. To choose this option, submit an [Adobe Commerce Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) or work with your CTA to add custom-hosted certificates to your cloud environments. If the domains are no longer in use, they will be automatically purged from our system, and no further action is required. If you already own a certificate, upload it using an SFTP (SSH File Transfer Protocol) client to a web inaccessible file location on your server and [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) letting them know the file path.
+You can provide your own SSL/TLS certificate instead of using the [Let's Encrypt certificate](https://letsencrypt.org/) provided by Adobe. 
+
+However, this process requires additional work to set up and maintain. You will first need to generate a Certificate Signing Request (CSR) for the website's domain name (or common name) and provide it to your SSL vendor to provide an SSL certificate. 
+
+Once you have the SSL certificate, submit an [Adobe Commerce Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) or work with your CTA to add custom-hosted certificates to your cloud environments. 
+
+* If the domains are no longer in use, they will be automatically purged from our system, and no further action is required. 
+* If you already own a certificate, upload it using an SFTP (SSH File Transfer Protocol) client to a web-inaccessible file location on your server and [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) letting them know the file path.
 
 >[!WARNING]
 >
