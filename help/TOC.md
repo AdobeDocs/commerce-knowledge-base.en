@@ -534,6 +534,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47704: Bundled product shows in stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
     * v1.1.29 {#v1-1-29} 
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
+        * [ACSD-49706: Default value saved for visual swatch attribute when no value is selected](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49706-default-value-saved-for-visual-swatch-attribute-when-no-value-is-selected.md)
         * [ACSD-49960: Filtering by date doesn't work for the customer order grid](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49960-filtering-by-date-does-not-work-for-customer-order-grid.md)
         * [ACSD-49822: Updates on requisition list not reflected on print requisition list](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49822-updates-on-requisition-list-page-not-reflected-on-print.md)
         * [ACSD-49835: [!UICONTROL Use Default Value] checkbox is not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49835-use-default-value-chekbox-not-saved.md)
