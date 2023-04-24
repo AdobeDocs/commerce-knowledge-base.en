@@ -4,7 +4,7 @@ description: Apply the ACSD-49527 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-49527: GraphQL company roles don't display pagination correctly
 
-The ACSD-49527 patch fixes the issue where the Adobe Commerce issue where the GraphQL company roles don't display pagination correctly. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49527. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49527 patch fixes the issue where the GraphQL company roles don't display pagination correctly. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 is installed. The patch ID is ACSD-49527. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
