@@ -550,6 +550,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48813: Search not showing relevant results based on search weight of attributes](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-48813-search-not-showing-relevant-results-based-on-search-weight-of-attributes.md)
         * [ACSD-49464: Invoices, shipments, and credit memos not moved back from archive](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49464-invoices-shipments-credit-memos-not-moved-back-from-archive.md)
         * [ACSD-48771: WYSIWYG editor renders content differently](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-48771-wyswigy-editor-rendering-content-differently.md)
+        * [ACSD-49527: GraphQL company roles don't display pagination correctly](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49527-graphql-company-roles-don't-display-pagination-correctly.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
