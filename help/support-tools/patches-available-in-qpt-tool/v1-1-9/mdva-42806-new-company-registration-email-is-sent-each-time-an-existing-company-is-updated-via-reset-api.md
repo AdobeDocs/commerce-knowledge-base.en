@@ -15,7 +15,7 @@ The MDVA-42806 patch solves the issue where a new company registration email is 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.4-p3
 
 >[!NOTE]
 >

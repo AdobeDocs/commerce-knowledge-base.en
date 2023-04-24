@@ -11,11 +11,11 @@ The ACSD-46815 patch fixes the issue where the static content deployment fails w
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.1-p1, 2.4.5
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.1-p1, 2.4.5 - 2.4.5-p2
 
 >[!NOTE]
 >
