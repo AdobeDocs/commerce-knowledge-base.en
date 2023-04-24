@@ -48,7 +48,7 @@ GraphQL company roles don't display pagination correctly.
     } 
     ```
     
-1. Check GraphQL response.
+1. Check the GraphQL response.
 
 <u>Expected results</u>:
 
