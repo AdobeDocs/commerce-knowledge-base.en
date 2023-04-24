@@ -2,6 +2,8 @@
 title: Cannot access correct Adobe Commerce cloud project
 description: This article provides a fix for the issue when you are unable to access the correct cloud Adobe Commerce project when there are changes in ownerships or changes in email addresses.
 exl-id: 165b9a18-6e84-4f0f-b377-a07152d55c9e
+hide: yes
+hidefromtoc: yes
 ---
 # Cannot access the correct cloud project
 
