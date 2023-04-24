@@ -41,7 +41,7 @@ A default value is saved for a visual swatch attribute when no value is selected
 
 1. Create a new product using the *[!UICONTROL Default]* attribute set.
 
-    * Leave *[!UICONTROL New Attribute]* empty and save it.
+    * Leave the *[!UICONTROL New Attribute]* empty and save it.
     
 1. Once saved, a value appears in *[!UICONTROL New Attribute]*.
 
