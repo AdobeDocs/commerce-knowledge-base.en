@@ -26,9 +26,9 @@ An error occurs when saving a page with an empty dynamic block.
 
 <u>Steps to reproduce</u>
 
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Content]** > **[!UICONTROL Dynamic Block]** and create a new [!UICONTROL Dynamic Block] with empty content.
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Content]** > **[!UICONTROL Dynamic Block]** and create a new dynamic block with empty content.
 1. Go to **[!UICONTROL Content]** > **[!UICONTROL Page]** > **[!UICONTROL Create or Edit a new page]**.
-1. Add two row elements to the content, then add the above created [!UICONTROL Dynamic Block].
+1. Add two row elements to the content; then add the new dynamic block created above.
 
 <u>Expected result</u>
 
@@ -40,7 +40,7 @@ The [!UICONTROL Dynamic Block] placeholder shows the error:
 
 >[!ERROR]
 >
->*An unknown error occurred. Please try again.*
+>An unknown error occurred. Please try again.
 
 ## Apply the patch
 
