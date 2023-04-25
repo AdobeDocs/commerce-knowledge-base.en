@@ -30,11 +30,11 @@ An error occurs when saving a page with an empty dynamic block.
 1. Go to **[!UICONTROL Content]** > **[!UICONTROL Page]** > **[!UICONTROL Create or Edit a new page]**.
 1. Add two row elements to the content; then add the new dynamic block created above.
 
-<u>Expected result</u>
+<u>Expected results</u>
 
 No error is displayed for a dynamic block with empty content in the page builder.
 
-<u>Actual result</u>
+<u>Actual results</u>
 
 The [!UICONTROL Dynamic Block] placeholder shows the error: 
 
