@@ -22,6 +22,6 @@ QPT v1.1.30 includes the following patches:
 1. **ACSD-50527**: Fixes the error that occurs when saving a page with an empty dynamic block.
 1. **ACSD-49973**: Improves performance of fetching bundled products through GraphQL.
 1. **ACSD-51114**: Fixes the issue where a random product disappears from large catalogs when asynchronous indexing is enabled. Improves performance of asynchronous reindexing for large catalogs.
-1. **B2B-2598**: Add caching capability to the `availableStores`, `countries`, `country`, `currency`, and `storeConfig` GraphQL queries.
+1. **B2B-2598**: Adds caching capability to the `availableStores`, `countries`, `country`, `currency`, and `storeConfig` GraphQL queries.
 
 Use the menu on the left to navigate to a specific patch page.
