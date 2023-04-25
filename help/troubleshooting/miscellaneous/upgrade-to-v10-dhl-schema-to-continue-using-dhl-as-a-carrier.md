@@ -23,9 +23,9 @@ Merchants who do not wish to upgrade to 2.4.5-p1 and 2.4.4-p2 will need to apply
 
 ## Patch
 
-The patch ID is AC-3023 and it is available in the Quality Patches Tool version 1.1.21.
+The patch ID is AC-3023 and it is available in the [!DNL Quality Patches Tool] version 1.1.21.
 
-Refer the following links on how to use Quality Patches Tool and install patches depending on your deployment methods: 
+Refer the following links on how to use [!DNL Quality Patches Tool] and install patches depending on your deployment methods: 
 
 * Adobe Commerce on-premises and Magento Open Source: [Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
@@ -36,13 +36,13 @@ Refer the following links on how to use Quality Patches Tool and install patches
 
 ## Useful links
 
-* [Quality Patches Tool > Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) in Adobe Experience League.
+* [[!DNL Quality Patches Tool] > Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) in Adobe Experience League.
 
-* [Quality Patches Tools landing page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
+* [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
 
 ## Related reading
 
 * [Apply a patch to continue offering DHL as shipping carrier](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) in our support knowledge base. 
 
-* [Shipping Carriers > DHL](https://docs.magento.com/user-guide/shipping/dhl.html) in our user guide.
-* [Delivery Methods](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) in our user guide.
+* [Shipping Carriers > DHL](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl.html) in our user guide.
+* [Configuration Reference > Sales > Delivery Methods](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/delivery-methods.html) in our user guide.
