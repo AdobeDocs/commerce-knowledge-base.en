@@ -57,7 +57,7 @@ b. NO – The issue is likely DNS related. The customer should [check DNS config
 +++**Do you get a "Connection Insecure" or "Not Secure" message returned when running `curl -svo /dev/null "https://website.com"` in the CLI/terminal?**
 
 a. YES – This is likely a certificate issue. Visit the website in a browser and select the lock icon and look for a certificate expiration. Proceed to [Step 6](#step-6).  
-b. NO – Visit [http://fastly-debug.com](http://www.fastly-debug.com/) and share this information in an [Adobe Commerce support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+b. NO – Visit [http://fastly-debug.com](https://www.fastly-debug.com/) and share this information in an [Adobe Commerce support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
