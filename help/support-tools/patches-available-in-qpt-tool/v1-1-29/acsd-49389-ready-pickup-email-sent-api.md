@@ -31,7 +31,7 @@ A ready-for-pickup email is sent by the API when the order is not ready for pick
 1. Create new stock using the main website with the source created above.
 1. Create a product assigning the same source.
 1. Set stock qty = 1.
-1. Check out the product created in step four using the *[!UICONTROL In-Store Delivery]* method from the storefront.
+1. Check out the product created in step 4 using the *[!UICONTROL In-Store Delivery]* method from the storefront.
 1. Create an invoice for the order.
 1. Set the qty of the product to 0 and make it out of stock.
 1. Post the following API request.
