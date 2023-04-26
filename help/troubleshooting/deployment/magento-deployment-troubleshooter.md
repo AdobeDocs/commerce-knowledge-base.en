@@ -30,6 +30,7 @@ magento-cloud activity:log <activity-id> [OPTIONAL: <-p project-id or project-ur
 ```
 
 a. YES – Troubleshoot the other environment blocking deployment in the existing environment. Proceed to [Step 2](#step-2).
+
 b. NO – Troubleshoot the current environment. Proceed to [Step 2](#step-2)
 
 +++
