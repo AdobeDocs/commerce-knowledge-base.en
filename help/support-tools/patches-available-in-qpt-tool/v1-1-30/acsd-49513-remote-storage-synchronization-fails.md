@@ -2,7 +2,7 @@
 title: "ACSD-49513: Remote storage synchronization fails"
 description: Apply the ACSD-49513 patch to fix the Adobe Commerce issue where the remote storage synchronization fails because of 0-byte files.
 ---
-# ACSD-49513: remote storage synchronization fails because of 0-byte files
+# ACSD-49513: Remote storage synchronization fails because of 0-byte files
 
 The ACSD-49513 patch fixes the issue where the remote storage synchronization fails because of 0-byte files. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49513. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
