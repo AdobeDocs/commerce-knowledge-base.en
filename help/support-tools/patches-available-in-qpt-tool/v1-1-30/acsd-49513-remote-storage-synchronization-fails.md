@@ -33,7 +33,7 @@ The remote storage synchronization fails because of 0-byte files.
 
 <u>Expected results</u>:
 
-Since the AWS S3 accepts 0-byte files on the S3 direct push, there should be no error.
+Since the AWS S3 accepts 0-byte files on the S3 direct push, there is no error.
 
 <u>Actual results</u>:
 
