@@ -555,6 +555,7 @@ breadcrumb-title: Commerce KB
     * v1.1.30 {#v1-1-30}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.30](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/overview.md)
         * [ACSD-49513: Remote storage synchronization fails](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49513-remote-storage-synchronization-fails.md)
+        * [ACSD-49129: The content attribute is not returned in product media api responses](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49129-the-content-attribute-is-not-returned-in-product-media-api-responses.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
