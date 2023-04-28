@@ -30,7 +30,7 @@ exl-id: 9e03c031-2359-42a6-9de4-943451a16456
  1. Click on the **[!UICONTROL Shared Access]** that you are having issues with and examine which resources you have been granted to.
  1. If the specific resource is missing, reach out to the Account Owner (Primary Account Holder).
 
- If you continue to face issues, contact your Adobe Account Team or send an email to [grp-Magento-HelpCenterLoginIssues@adobe.com](grp-Magento-HelpCenterLoginIssues@adobe.com) Please specify your name and the email associated with your Account.
+ If you continue to face issues, contact your Adobe Account Team or send an email to grp-Magento-HelpCenterLoginIssues@adobe.com. Please specify your name and the email associated with your Account.
 
 ## I used shared access but still see my tickets instead of the shared ones
 
