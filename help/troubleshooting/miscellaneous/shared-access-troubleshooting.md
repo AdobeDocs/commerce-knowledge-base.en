@@ -19,14 +19,14 @@ exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 
 ## I used shared access but cannot gain access to a particular resource
 
- **Problem:** I switched to the Shared Access account but cannot access the **[UICONTROL Support tab]** (for example).
+ **Problem:** I switched to the Shared Access account but cannot access the **[!UICONTROL Support tab]** (for example).
 
  **Possible cause:** The Support entitlements have expired or you have not been granted Shared Access to Support.
 
  **Solution:** 
 
- 1. Switch back to **[UICONTROL My Account]**. 
- 1. Then click on the **[UICONTROL Shared with me]** tab. 
+ 1. Switch back to **[!UICONTROL My Account]**. 
+ 1. Then click on the **[!UICONTROL Shared with me]** tab. 
  1. Click on the **[!UICONTROL Shared Access]** that you are having issues with and examine which resources you have been granted to.
  1. If the specific resource is missing, reach out to the Account Owner (Primary Account Holder).
 
