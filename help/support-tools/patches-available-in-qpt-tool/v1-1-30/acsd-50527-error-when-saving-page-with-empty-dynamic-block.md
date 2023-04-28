@@ -32,7 +32,7 @@ An error occurs when saving a page with an empty dynamic block.
 
 <u>Expected results</u>:
 
-No error is displayed for a dynamic block with empty content in the Page Builder.
+No error is displayed for a dynamic block with empty content in the [!DNL Page Builder].
 
 <u>Actual results</u>:
 
