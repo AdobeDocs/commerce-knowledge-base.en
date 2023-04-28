@@ -135,7 +135,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html">[!DNL Site-Wide Analysis Tool]:</a> This article was updated to include more information about [!UICONTROL Security Center Dashboard] under the [UICONTROL Tool Overview] section and the [!UICONTROL Dashboard] page.
+    <a href="https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html">[!DNL Site-Wide Analysis Tool]:</a> This article was updated to include more information about [!UICONTROL Security Center Dashboard] under the [!UICONTROL Tool Overview] section and the [!UICONTROL Dashboard] page.
     </td>
     <td>Update</td>
     <td>April 28, 2023</td>
