@@ -14,7 +14,7 @@ The ACSD-49973 patch improves performance fetching bundled products via [!DNL Gr
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p3
 
 >[!NOTE]
 >
