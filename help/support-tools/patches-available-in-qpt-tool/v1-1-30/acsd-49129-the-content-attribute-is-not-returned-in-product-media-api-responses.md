@@ -32,7 +32,7 @@ The *content* attribute (*[!UICONTROL base64 image code]*) is not returned in th
 
 <u>Expected results</u>
 
-The "content" attribute with the data is available via [!UICONTROL REST API].
+The *content* attribute with the data is available via REST API.
 
 <u>Actual results</u>
 
