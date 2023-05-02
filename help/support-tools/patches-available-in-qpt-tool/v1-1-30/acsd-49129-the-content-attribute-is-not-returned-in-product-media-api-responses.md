@@ -27,7 +27,7 @@ The *content* attribute (*[!UICONTROL base64 image code]*) is not returned in th
 <u>Steps to reproduce</u>:
 
 1. Create a product with an image.
-1. Send **[!UICONTROL GET REST API]** request to `rest/V1/products/<sku>/media` and `rest/V1/products/<sku>/media/<entryId>`.
+1. Send **GET REST API** request to `rest/V1/products/<sku>/media` and `rest/V1/products/<sku>/media/<entryId>`.
 1. Check the API responses.
 
 <u>Expected results</u>
