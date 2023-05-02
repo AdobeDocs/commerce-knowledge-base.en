@@ -22,7 +22,7 @@ The ACSD-49129 patch fixes the issue where the *content* attribute (*[!UICONTROL
 
 ## Issue
 
-The "content" attribute ([!UICONTROL base64 image code]) is not returned in the `rest/V1/products/sku/media` product media API responses.
+The *content* attribute (*[!UICONTROL base64 image code]*) is not returned in the `rest/V1/products/sku/media` product media API responses.
 
 <u>Steps to reproduce</u>:
 
