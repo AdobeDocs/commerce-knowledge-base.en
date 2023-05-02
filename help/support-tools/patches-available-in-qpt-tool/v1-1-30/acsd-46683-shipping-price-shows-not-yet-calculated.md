@@ -26,4 +26,17 @@ The shipping price shows *Not yet calculated*.
 
 <u>Prerequisites</u>:
 
-[!DNL Adobe Commerce] Inventory Management (MSI) modules are installed.
+[!DNL Adobe Commerce] *[!UICONTROL Inventory Management]* (MSI) modules are installed.
+
+<u>Steps to reproduce</u>:
+
+1. Create a simple product and set its price to *$34*.
+1. Configure the free shipping delivery method.
+1. Configure at least one more delivery method.
+1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]** and create a new rule.
+    * Name = *75more* rule:
+    * Coupon = None
+    * Priority = 1
+    * Conditions: Subtotal is or greater than *$75*
+    * Actions:
+        * 
