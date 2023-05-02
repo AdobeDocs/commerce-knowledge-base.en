@@ -46,7 +46,6 @@ To apply individual patches, use the following links depending on your deploymen
 * Adobe Commerce on cloud infrastructure: Upgrades and Patches > Apply Patches in the Commerce on Cloud Infrastructure guide.
 
 
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
