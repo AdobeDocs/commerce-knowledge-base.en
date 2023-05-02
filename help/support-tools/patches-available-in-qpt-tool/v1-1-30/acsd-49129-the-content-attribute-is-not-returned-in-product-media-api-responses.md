@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49129: The "content" attribute is not returned in product media API responses'
+title: 'ACSD-49129: "Content" attribute not returned in product media API responses'
 description: Apply the ACSD-49129 patch to fix the Adobe Commerce issue where the "content" attribute (base64 image code) is not returned in the `rest/V1/products/sku/media` product media API responses.
 ---
 # ACSD-49129: The "content" attribute is not returned in product media API responses
