@@ -4,7 +4,7 @@ description: Apply the ACSD-49129 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-49129: "Content" attribute not returned in product media API responses
 
-The ACSD-49129 patch fixes the issue where the "content" attribute ([!UICONTROL base64 image code]) is not returned in the `rest/V1/products/sku/media` product media API responses. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.30 is installed. The patch ID is ACSD-49129. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49129 patch fixes the issue where the *content* attribute (*[!UICONTROL base64 image code]*) is not returned in the `rest/V1/products/sku/media` product media API responses. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.30 is installed. The patch ID is ACSD-49129. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
