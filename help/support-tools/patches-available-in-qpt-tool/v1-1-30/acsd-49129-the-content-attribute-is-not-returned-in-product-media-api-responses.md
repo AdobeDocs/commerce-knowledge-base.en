@@ -36,7 +36,7 @@ The *content* attribute with the data is available via REST API.
 
 <u>Actual results</u>
 
-The "content" attribute is not present in the API responses.
+The *content* attribute is not present in the API responses.
 
 ## Apply the patch
 
