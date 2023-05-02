@@ -45,7 +45,6 @@ To apply individual patches, use the following links depending on your deploymen
 * Adobe Commerce or Magento Open Source on-premises: [!DNL Quality Patches Tool] > Usage in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: Upgrades and Patches > Apply Patches in the Commerce on Cloud Infrastructure guide.
 
-
 ## Related reading
 
 To learn more about [!DNL Quality Patches Tool], refer to:
