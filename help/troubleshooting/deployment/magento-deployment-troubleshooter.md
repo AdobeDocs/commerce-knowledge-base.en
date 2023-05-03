@@ -9,6 +9,17 @@ Stuck deployments and failed deployments on Adobe Commerce can be solved using t
 
 ## Step 1
 
++++**Is Adobe Commerce on cloud infrastructure service up?**
+
+Stuck Deployment – Is Adobe Commerce on cloud infrastructure service up? Check [Adobe Commerce Cloud](https://status.adobe.com/products/3350/).
+
+a. YES – Proceed to [Step 2](#step-2).  
+b. NO – Maintenance or global outages. Check for estimated duration and updates.
+
++++
+
+## Step 2
+
 +++**Are there deployments in other environments that are blocking the deployment in the existing environment?**
 
 To get a list of ongoing activities run the following command using magento-cloud CLI (if you have only been added to one cloud project):
@@ -30,22 +41,12 @@ for details) you can run this command to obtain a running log of that activity:
 magento-cloud activity:log <activity-id> [OPTIONAL: <-p project-id or project-url>]
 ```
 
-a. YES – Troubleshoot the other environment blocking deployment in the existing environment. Proceed to [Step 2](#step-2).
+a. YES – Troubleshoot the other environment blocking deployment in the existing environment. Proceed to [Step 3](#step-3).
 
-b. NO – Troubleshoot the current environment. Proceed to [Step 2](#step-2)
-
-+++
-
-## Step 2
-
-+++**Is Adobe Commerce on cloud infrastructure service up?**
-
-Stuck Deployment – Is Adobe Commerce on cloud infrastructure service up? Check [Adobe Commerce Cloud](https://status.adobe.com/products/3350/).
-
-a. YES – Proceed to [Step 3](#step-3).  
-b. NO – Maintenance or global outages. Check for estimated duration and updates.
+b. NO – Troubleshoot the current environment. Proceed to [Step 3](#step-3)
 
 +++
+
 
 ## Step 3
 
