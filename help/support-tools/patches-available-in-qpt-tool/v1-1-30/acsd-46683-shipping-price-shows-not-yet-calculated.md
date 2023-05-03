@@ -34,11 +34,31 @@ The shipping price shows *Not yet calculated*.
 1. Configure the free shipping delivery method.
 1. Configure at least one more delivery method.
 1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]** and create a new rule:
-    * Name = *75more* rule:
+    * Name = *75more* rule
     * Coupon = None
     * Priority = 1
     * Conditions: Subtotal is or greater than *$75*
     * Actions:
+        * Apply to Shipping Amount = Yes
+        * Discard subsequent rules = No
+        * Free Shipping = For shipments with matching items
+1. Create another Cart price rule:
+    * Name = *35off* rule
+    * Priority = 0
+    * Coupon = Specific Coupon
+    * Coupon code = 35off
+    * Actions:
+        * Apply = Percent of product price discount
+        * Discount Amount = 35
+        * Apply to Shipping Amount = No
+        * Discard subsequent rules = Yes
+        * Free Shipping = No
+1. Open the storefront, add 3 products to the cart so that the subtotal exceeds 75$
+1. Proceed to checkout as a guest
+1. On the shipping step select *$0 - free shipping* and proceed to the payment step
+1. Check *Order Summary* on payment step. It shows "$0 - Free Shipping - Free"
+1. Apply coupon code *35off* that updates the subtotal and makes it less than $75
+1. Check *Order Summary* on the payment step
 
 
 
