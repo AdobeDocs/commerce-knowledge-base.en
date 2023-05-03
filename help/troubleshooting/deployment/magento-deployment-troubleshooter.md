@@ -43,7 +43,7 @@ magento-cloud activity:log <activity-id> [OPTIONAL: <-p project-id or project-ur
 
 a. YES – Troubleshoot the other environment blocking deployment in the existing environment. Proceed to [Step 3](#step-3).
 
-b. NO – Troubleshoot the current environment. Proceed to [Step 3](#step-3)
+b. NO – Troubleshoot the current environment. Proceed to [Step 3](#step-3).
 
 +++
 
@@ -98,7 +98,7 @@ b. NO – Proceed to [Step 9](#step-9).
 +++**Are cron jobs currently running?**
 
 a. YES – Log in by ssh on the integration branch (e.g., primary). Kill and unlock cron jobs. This will kill cron jobs and reset the status. Run `php vendor/bin/ece-tools cron:kill` and then `php vendor/bin/ece-tools cron:unlock`. If you were in the process of merging one environment into another, check both environments for running crons.  
-b. NO – Proceed to [Step 17.](#step-17)
+b. NO – Proceed to [Step 17](#step-17).
 
 +++
 
@@ -107,7 +107,7 @@ b. NO – Proceed to [Step 17.](#step-17)
 +++**Unable to upload application to the remote cluster error?**
 
 a. YES – Proceed to [Step 10](#step-10).  
-b. NO – Proceed to [Step 11.](#step-11)
+b. NO – Proceed to [Step 11](#step-11).
 
 +++
 
