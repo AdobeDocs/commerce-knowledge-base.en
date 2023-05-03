@@ -46,4 +46,86 @@ However, refactoring the way banners' contents load decreased the number of DB q
 
 <u>Expected results</u>:
 
+The number of DB queries for `magento_banner_content` reduces along with reduced cart/checkout page loading time.
 
+<u>Actual results</u>:
+
+The number of DB queries for `magento_banner_content` increases along with increased cart/checkout page loading time.
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Additional steps
+
+banners.php content:
+
+```php
+\Banner::class);
+    $banner->setIsEnabled(
+        \Magento\Banner\Model\Banner::STATUS_ENABLED
+    )->setName(
+        'Test Dynamic Block '.$i
+    )->setTypes(
+        ''
+    )->setStoreContents(
+        [0 => 'Dynamic Block Content '.$i]
+    )->save();
+}
+
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+
+/** @var \Magento\SalesRule\Model\Rule $salesRule */
+$salesRule = $objectManager->create(\Magento\SalesRule\Model\Rule::class);
+$salesRule->setData(
+    [
+        'name' => '50% Off ',
+        'is_active' => 1,
+        'customer_group_ids' => [\Magento\Customer\Model\GroupManagement::NOT_LOGGED_IN_ID],
+        'coupon_type' => \Magento\SalesRule\Model\Rule::COUPON_TYPE_NO_COUPON,
+        'conditions' => [
+            [
+                'type' => \Magento\SalesRule\Model\Rule\Condition\Address::class,
+                'attribute' => 'base_subtotal',
+                'operator' => '>',
+                'value' => 0
+            ]
+        ],
+        'simple_action' => 'by_percent',
+        'discount_amount' => 50,
+        'discount_step' => 0,
+        'stop_rules_processing' => 1,
+        'website_ids' => [
+           1
+        ]
+    ]
+);
+$salesRule->save();
+
+for ($i = 0; $i < 1000; $i++) {
+
+    $banner = $objectManager->create(\Magento\Banner\Model\Banner::class);
+    $banner->setData(
+        [
+            'name' => 'Get 50% Off ',
+            'is_enabled' => \Magento\Banner\Model\Banner::STATUS_ENABLED,
+            'types' => [], /*Any Banner Type*/
+            'store_contents' => ['<img src="http://example.com/banner_40_percent_off.png" />'],
+            'banner_sales_rules' => [$salesRule->getId()],
+        ]
+    );
+    $banner->save();
+}
+```
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
+
+For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
