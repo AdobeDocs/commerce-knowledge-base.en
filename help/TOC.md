@@ -556,6 +556,8 @@ breadcrumb-title: Commerce KB
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.30](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/overview.md)
         * [ACSD-50527: Error upon saving a page with empty dynamic block](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50527-error-when-saving-page-with-empty-dynamic-block.md)
         * [ACSD-49513: Remote storage synchronization fails](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49513-remote-storage-synchronization-fails.md)
+    * v1.1.31 {#v1-1-31}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.31](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/overview.md)
         * [ACSD-49129: Content attribute not returned in product media API responses](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49129-the-content-attribute-is-not-returned-in-product-media-api-responses.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
