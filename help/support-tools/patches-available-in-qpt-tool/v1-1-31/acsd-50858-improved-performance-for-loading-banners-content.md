@@ -24,14 +24,14 @@ The ACSD-50858 patch fixes a banner performance issue in the cart/checkout page:
 
 Banner performance is impacted in the cart/checkout page due to *excessive DB queries and increased page loading time*.
 
-However, refactoring the way banners' contents load decreased the number of DB queries by 99.99% and the page loading time by ~99%.
+However, by refactoring the way banners' contents are loaded, the number of DB queries was reduced by 99.99% and the page loading time by ~99%.
 
 <u>Steps to reproduce</u>:
 
 1. Log in to Admin and create a simple product.
-1. Create a customer, either from Admin or from frontend, and add a shipping address for it.
+1. Create a customer, either from Admin or from the frontend, and add a shipping address for it.
 1. Move banners.php to `magento_root/pub/` folder.
-1. Generate banners using  `php pub/banners.php` command. It will generate, 10,000 simple banners and 1,000 banners with sales rules.
+1. Generate banners using  `php pub/banners.php` command. It will generate 10,000 simple banners and 1,000 banners with sales rules.
 1. Log in to the customer created previously in the frontend.
 1. Add the product created previously in the cart.
 1. Go to the checkout page (checkout/cart).
