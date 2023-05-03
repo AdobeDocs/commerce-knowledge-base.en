@@ -46,11 +46,11 @@ However, refactoring the way banners' contents load decreased the number of DB q
 
 <u>Expected results</u>:
 
-The number of DB queries for `magento_banner_content` reduces along with reduced cart/checkout page loading time.
+Decrease in the number of DB queries for `magento_banner_content` and cart/checkout page loading time.
 
 <u>Actual results</u>:
 
-The number of DB queries for `magento_banner_content` increases along with increased cart/checkout page loading time.
+Increase in the number of DB queries for `magento_banner_content` and cart/checkout page loading time.
 
 ## Apply the patch
 
