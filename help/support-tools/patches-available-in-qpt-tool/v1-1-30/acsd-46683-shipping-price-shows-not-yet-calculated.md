@@ -53,23 +53,38 @@ The shipping price shows *Not yet calculated*.
         * Apply to Shipping Amount = No
         * Discard subsequent rules = Yes
         * Free Shipping = No
-1. Open the storefront, add 3 products to the cart so that the subtotal exceeds 75$
-1. Proceed to checkout as a guest
-1. On the shipping step select *$0 - free shipping* and proceed to the payment step
-1. Check *Order Summary* on payment step. It shows "$0 - Free Shipping - Free"
-1. Apply coupon code *35off* that updates the subtotal and makes it less than $75
-1. Check *Order Summary* on the payment step
-
-
-
-
-
-    
-        * [!UICONTROL Apply] = Percent of product price discount
-        * [!UICONTROL Discount Amount] = 35
-        * [!UICONTROL Apply to shipping amount] = No
-        * [!UICONTROL Discard subsequent rules] = Yes
-        * [!UICONTROL Free shipping] = No 
-1. Go to **[!UICONTROL Storefront]** and add 3 products to the cart so that the subtotal exceeds *$75*.
+1. Open the storefront, add 3 products to the cart so that the subtotal exceeds 75$.
 1. Proceed to checkout as a guest.
-1. On the Shipping step, select *$0 - free shipping* and proceed to the payment step.
+1. On the shipping step, select *$0 - free shipping* and proceed to the payment step.
+1. Check *Order Summary* on the payment step. It shows "$0 - Free Shipping - Free".
+1. Apply coupon code *35off* that updates the subtotal and makes it less than $75.
+1. Check *Order Summary* on the payment step.
+
+<u>Expected results</u>:
+
+A message with a better explanation is displayed: *Selected shipping method is not available. Please select another shipping method for this order.*
+
+<u>Actual results</u>:
+
+The shipping price now displays "Not yet calculated".
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Additional steps required after the patch installation
+
+(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
+
+For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
+
