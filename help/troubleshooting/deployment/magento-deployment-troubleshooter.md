@@ -34,7 +34,7 @@ To get a list of ongoing activities run the following command using magento-clou
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-To find information about an existing deployment activity (refer to [Checking deployment log if Cloud UI has “log snipped” error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html))
+To find information about an existing deployment activity (refer to [Checking deployment log if Cloud UI has “log snipped” error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
 for details) you can run this command to obtain a running log of that activity:
 
 ```bash
