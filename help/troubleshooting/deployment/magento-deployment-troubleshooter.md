@@ -88,7 +88,7 @@ b. NO – Proceed to [Step 8](#step-8).
 
 +++**403 Forbidden?**
 
-a. YES – Proceed to [Step 16.](#step-16)  
+a. YES – Proceed to [Step 16](#step-16).
 b. NO – Proceed to [Step 9](#step-9).
 
 +++
