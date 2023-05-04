@@ -40,7 +40,7 @@ The customer registration form loads successfully.
 * The customer registration form does not load.
 * The following error is logged:
 
-    ```
+    ```PHP
     report. CRITICAL: Exception: Deprecated Functionality: explode(): Passing null to parameter #2 ($string) of type string is deprecated in vendor/magento/module-custom-attribute-management/Block/Form/Renderer/Multiselect.php
     ```
 
