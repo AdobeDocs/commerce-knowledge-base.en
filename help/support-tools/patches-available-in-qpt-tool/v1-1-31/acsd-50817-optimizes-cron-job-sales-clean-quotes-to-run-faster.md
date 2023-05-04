@@ -34,6 +34,7 @@ The **CRON** job `sales_clean_quotes` has been optimized to run faster by adding
 
     SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
     ```
+    
 <u>Expected results</u>
 
 **CRON** job `sales_clean_quotes` has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in quote table.
