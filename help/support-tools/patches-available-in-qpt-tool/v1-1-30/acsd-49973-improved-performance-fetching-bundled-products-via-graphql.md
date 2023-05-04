@@ -30,11 +30,14 @@ Create 2000 bundle products using the [Performance toolkit](https://experiencele
 
 <u>Steps to reproduce</u>:
 
-1. Enable the [!DNL DB] query logger:<br> 
+1. Enable the [!DNL DB] query logger:
+
     ```
     bin/magento dev:query-log:enable
-    ```<br>
-1. Execute the following [!DNL GraphQL] query:<br>
+    ```
+    
+1. Execute the following [!DNL GraphQL] query:
+
     ```GraphQL
     {
       products(
@@ -49,7 +52,8 @@ Create 2000 bundle products using the [Performance toolkit](https://experiencele
         }
       }
     }
-    ```<br>
+    ```
+    
 1. Check `var/log/db.log` for requests to the `catalog_product_bundle_selection` table.
 
 <u>Expected results</u>:
