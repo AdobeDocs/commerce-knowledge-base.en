@@ -27,8 +27,10 @@ The customer registration form doesn't work on the storefront if a multi-select 
 <u>Steps to reproduce</u>:
 
 1. Create a new multi-select customer attribute with the following settings:
+
     * *[!UICONTROL Required = Yes]*
     * *[!UICONTROL Show on storefront = Yes]*, select *[!UICONTROL Customer registration form]*.
+    
 1. Open the customer registration form on the storefront.
 
 <u>Expected results</u>:
