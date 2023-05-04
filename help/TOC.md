@@ -534,6 +534,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47704: Bundled product shows in stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
     * v1.1.29 {#v1-1-29} 
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
+        * [ACSD-49389: Ready for pickup email sent by API when not ready for pickup](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49389-ready-pickup-email-sent-api.md)
         * [ACSD-49706: Default value saved for visual swatch attribute when no value is selected](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49706-default-value-saved-for-visual-swatch-attribute-when-no-value-is-selected.md)
         * [ACSD-49960: Filtering by date doesn't work for the customer order grid](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49960-filtering-by-date-does-not-work-for-customer-order-grid.md)
         * [ACSD-49822: Updates on requisition list not reflected on print requisition list](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49822-updates-on-requisition-list-page-not-reflected-on-print.md)
@@ -554,6 +555,11 @@ breadcrumb-title: Commerce KB
     * v1.1.30 {#v1-1-30}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.30](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/overview.md)
         * [ACSD-50276: Customer registration form doesn't work on storefront if multi-select customer attribute is created](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50276-customer-registration-form-does-not-work-on-the-storefront.md)
+        * [ACSD-50527: Error upon saving a page with empty dynamic block](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50527-error-when-saving-page-with-empty-dynamic-block.md)
+        * [ACSD-49513: Remote storage synchronization fails](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49513-remote-storage-synchronization-fails.md)
+    * v1.1.31 {#v1-1-31}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.31](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/overview.md)
+        * [ACSD-49129: Content attribute not returned in product media API responses](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49129-the-content-attribute-is-not-returned-in-product-media-api-responses.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
