@@ -70,7 +70,7 @@ apache2
 
 ## Related reading {#additional-resources}
 
-* [Apache documentation about mod\_access\_compat](http://httpd.apache.org/docs/current/mod/mod_access_compat.html)
-* [Apache documentation about mod\_authz\_host](http://httpd.apache.org/docs/current/mod/mod_authz_host.html)
-* [Order, Allow, Deny from the Apache Definitive Guide](http://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)
-* [askubuntu.com](http://askubuntu.com/questions/335228/changes-in-apache-config-between-12-04-2-and-12-04-3-lts)
+* [Apache documentation about mod\_access\_compat](https://httpd.apache.org/docs/current/mod/mod_access_compat.html)
+* [Apache documentation about mod\_authz\_host](https://httpd.apache.org/docs/current/mod/mod_authz_host.html)
+* [Order, Allow, Deny from the Apache Definitive Guide](https://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)
+* [askubuntu.com](https://askubuntu.com/questions/335228/changes-in-apache-config-between-12-04-2-and-12-04-3-lts)
