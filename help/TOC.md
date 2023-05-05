@@ -559,6 +559,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-50527: Error upon saving a page with empty dynamic block](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50527-error-when-saving-page-with-empty-dynamic-block.md)
         * [ACSD-49513: Remote storage synchronization fails](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49513-remote-storage-synchronization-fails.md)
         * [ACSD-49129: Content attribute not returned in product media API responses](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49129-the-content-attribute-is-not-returned-in-product-media-api-responses.md)
+        * [ACSD-49877: The autoplay option is fixed on mobile safari](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49877-the-video-autoplay-option-does-not-work-on-mobile-safari.md)
     * v1.1.31 {#v1-1-31}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.31](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
