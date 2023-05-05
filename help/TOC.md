@@ -556,6 +556,7 @@ breadcrumb-title: Commerce KB
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.30](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/overview.md)
         * [ACSD-50527: Error upon saving a page with empty dynamic block](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50527-error-when-saving-page-with-empty-dynamic-block.md)
         * [ACSD-49513: Remote storage synchronization fails](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49513-remote-storage-synchronization-fails.md)
+        * [ACSD-46683: Shipping price shows not yet calculated](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-46683-shipping-price-shows-not-yet-calculated.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
