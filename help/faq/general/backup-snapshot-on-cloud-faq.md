@@ -17,11 +17,12 @@ This article covers the essentials of backing up your environments with snapshot
 ### Staging and Production environments
 
 * Your Staging and Production environments are automatically backed up with snapshots **every hour**.
-* Automatic snapshots are created **regardless of the live state** of your site (snapshots also created for sites that have not been launched yet).
+* Automatic snapshots are created **regardless of the live state** of your site (snapshots also created for sites that have not been launched yet). Automatic backups are not publicly accessible because they are stored in a separate system. You can [submit an Adobe Commerce Support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to request a special backup or to restore from a specific backup providing the date, time, and timezone in the ticket. Also, note that support does not perform the rollback or restoration of the database for you - they retrieve the snapshot but you must restore the database yourself.
 * Environment snapshots include your full system (file system and the database).
 * Manual snapshots are not available for Staging and Production environments on Pro plan.
 * The backups are created using the **encrypted Amazon Web Services Elastic Block Store (AWS EBS) snapshots**.
 * Retention time for automatic snapshots **is different** and follows [the schedule](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#backup-and-disaster-recovery).
+
 
 ### Integration (Development) environment
 
@@ -32,7 +33,7 @@ This article covers the essentials of backing up your environments with snapshot
 
  **Related articles in our developer documentation:**
 
-* [Backup and disaster recovery](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
+* [Backup and disaster recovery](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html#backup-and-disaster-recovery)
 * [Create a snapshot](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html)
 
 ## Environment snapshot, Starter plan
@@ -54,4 +55,4 @@ A snapshot is a complete backup of an environment that includes all persistent d
 
 [Snapshots and backup management](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html) in our developer documentation.
 
-If, for any reason, you need to backup your DB only (on any environment), see the knowledge base article: [Generate database dumps on Cloud](/help/how-to/general/create-database-dump-on-cloud.md).
+Only submit a [support request](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) for a DB snapshot from Pro Production and Staging if you need the DB from a specific point in time. If you need a current backup of your DB only (on any environment), see the knowledge base article: [Generate database dumps on Cloud](/help/how-to/general/create-database-dump-on-cloud.md).

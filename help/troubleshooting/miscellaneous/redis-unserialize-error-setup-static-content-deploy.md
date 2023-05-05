@@ -91,5 +91,5 @@ Also you may run the `setup:static-content:deploy` command followed by the `-j 1
 
 In our developer documentation:
 
-* [Configure Redis](http://devdocs.magento.com/guides/v2.2/config-guide/redis/config-redis.html)
-* [Command-line upgrade](http://devdocs.magento.com/guides/v2.2/comp-mgr/cli/cli-upgrade.html)
+* [Configure Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html)
+* [Command-line upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)
