@@ -2,7 +2,7 @@
 title: "ACSD-46683: Shipping price shows *Not yet calculated*"
 description: Apply the ACSD-46683 patch to fix the Adobe Commerce issue where the shipping price shows *Not yet calculated*.
 ---
-# ACSD-46683: Shipping price shows "Not yet calculated"
+# ACSD-46683: Shipping price shows *Not yet calculated*
 
 The ACSD-46683 patch fixes the issue where the shipping price shows *Not yet calculated*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-46683. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
