@@ -2,7 +2,7 @@
 title: "ACSD-50817: Optimizes cron job sales_clean_quotes to run faster"
 description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
 ---
-# ACSD-50817: Optimizes CRON job `sales_clean_quotes` to run faster
+# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
 
 The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
 
