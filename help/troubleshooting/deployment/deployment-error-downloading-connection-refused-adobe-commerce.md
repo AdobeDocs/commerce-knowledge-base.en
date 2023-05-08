@@ -2,9 +2,10 @@
 title: "Deployment error: *error 7 while downloading ... port 443: Connection refused* on Adobe Commerce"
 description: This article provides a solution for the error when deploying: *error 7 while downloading ... port 443: Connection refused*.
 ---
+
 # Deployment error: "error 7 while downloading ... port 443: Connection refused" on Adobe Commerce
 
-This article provides a fix for the issue when deployment fails with the following error messages in the deployment logs:
+This article provides a fix for the issue when deployment fails with the following error message in the deployment log:
 
 ```console
 W: In CurlDownloader.php line 370:
@@ -46,4 +47,5 @@ W:    refused
 
 ## Recommended reading
 
-* [Best practices for builds and deployment](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) in our developer documentation.
+* [Best practices for builds and deployment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices.html) in our Commerce on Cloud Infrastructure Guide.
+
