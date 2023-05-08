@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-46683: Shipping price shows "Not yet calculated"'
+title: "ACSD-46683: Shipping price shows *Not yet calculated*"
 description: Apply the ACSD-46683 patch to fix the Adobe Commerce issue where the shipping price shows *Not yet calculated*.
 ---
 # ACSD-46683: Shipping price shows "Not yet calculated"
