@@ -27,7 +27,7 @@ The cron job `sales_clean_quotes` is too slow. With this patch, it has been opti
 <u>Steps to reproduce</u>:
 
 1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run **CRON** job `sales_clean_quotes` or the following query on the quote table:
+1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
 
     ```cron
     SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
