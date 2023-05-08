@@ -1,10 +1,10 @@
 ---
-title: "ACSD-50817: Optimizes CRON job sales_clean_quotes to run faster"
-description: Apply the ACSD-50817 patch to fix the Adobe Commerce issue where the CRON job `sales_clean_quotes` has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+title: "ACSD-50817: Optimizes cron job sales_clean_quotes to run faster"
+description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
 ---
-# ACSD-50817: Optimizes CRON job `sales_clean_quotes` to run faster
+# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
 
-The ACSD-50817 patch fixes the issue where the **CRON** job `sales_clean_quotes` has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
 
 ## Affected products and versions
 
@@ -22,12 +22,12 @@ The ACSD-50817 patch fixes the issue where the **CRON** job `sales_clean_quotes`
 
 ## Issue
 
-The **CRON** job `sales_clean_quotes` has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
 
 <u>Steps to reproduce</u>:
 
 1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run **CRON** job `sales_clean_quotes` or the following query on the quote table:
+1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
 
     ```cron
     SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
@@ -37,7 +37,7 @@ The **CRON** job `sales_clean_quotes` has been optimized to run faster by adding
     
 <u>Expected results</u>
 
-**CRON** job `sales_clean_quotes` has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in quote table.
+Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
 
 <u>Actual results</u>
 
