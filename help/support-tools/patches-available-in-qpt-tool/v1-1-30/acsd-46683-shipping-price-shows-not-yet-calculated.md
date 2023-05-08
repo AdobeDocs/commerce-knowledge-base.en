@@ -55,7 +55,7 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
         * Free Shipping = No
 1. Open the storefront, and add three products to the cart so the subtotal exceeds 75$.
 1. Proceed to checkout as a guest.
-1. On the shipping step, select *$0 - free shipping* and proceed to the payment step.
+1. On the shipping step, select **$0 - free shipping** and proceed to the payment step.
 1. Check *Order Summary* on the payment step. It shows "$0 - Free Shipping - Free".
 1. Apply coupon code *35off* that updates the subtotal and makes it less than $75.
 1. Check *Order Summary* on the payment step.
