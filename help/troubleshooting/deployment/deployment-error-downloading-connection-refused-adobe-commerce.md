@@ -1,6 +1,6 @@
 ---
-title: "Deployment error: "error 7 while downloading ... port 443: Connection refused" on Adobe Commerce"
-description: This article provides a solution for the error when deploying: "error 7 while downloading ... port 443: Connection refused".
+title: "Deployment error: *error 7 while downloading ... port 443: Connection refused* on Adobe Commerce"
+description: This article provides a solution for the error when deploying: *error 7 while downloading ... port 443: Connection refused*.
 ---
 # Deployment error: "error 7 while downloading ... port 443: Connection refused" on Adobe Commerce
 
@@ -18,7 +18,7 @@ W:    refused
 
 * Adobe Commerce on cloud infrastructure, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
-# Issue
+## Issue
 
  <u>Steps to reproduce</u>:
 
@@ -36,13 +36,13 @@ W:    refused
 
  This may be due to the lost cache connection to the repo.
 
- ## Solution
+## Solution
 
  Please ask a Super Admin on the project to run this command:
 
  ```bash
  mgc clear-build-cache -p <project ID>
  ```
-Recommended reading
+## Recommended reading
 
 * [Best practices for builds and deployment](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) in our developer documentation.
