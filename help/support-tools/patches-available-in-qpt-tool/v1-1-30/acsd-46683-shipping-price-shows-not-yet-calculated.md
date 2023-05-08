@@ -66,7 +66,7 @@ A message with a better explanation is displayed: *Selected shipping method is n
 
 <u>Actual results</u>:
 
-The shipping price now displays "Not yet calculated".
+The shipping price now displays *Not yet calculated*.
 
 ## Apply the patch
 
