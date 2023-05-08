@@ -37,7 +37,7 @@ The shipping price shows *Not yet calculated*.
     * Name = *75more* rule
     * Coupon = None
     * Priority = 1
-    * Conditions: Subtotal is or greater than *$75*
+    * Conditions: Subtotal is equal to or greater than *$75*
     * Actions:
         * Apply to Shipping Amount = Yes
         * Discard subsequent rules = No
@@ -57,7 +57,7 @@ The shipping price shows *Not yet calculated*.
 1. Proceed to checkout as a guest.
 1. On the shipping step, select *$0 - free shipping* and proceed to the payment step.
 1. Check *Order Summary* on the payment step. It shows "$0 - Free Shipping - Free".
-1. Apply coupon code *35off* that updates the subtotal and makes it less than $75.
+1. Apply the coupon code *35off*, it will update the subtotal and make it less than $75.
 1. Check *Order Summary* on the payment step.
 
 <u>Expected results</u>:
@@ -74,10 +74,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
