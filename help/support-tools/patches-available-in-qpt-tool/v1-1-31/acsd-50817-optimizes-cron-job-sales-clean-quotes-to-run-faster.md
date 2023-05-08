@@ -37,7 +37,7 @@ The **CRON** job `sales_clean_quotes` has been optimized to run faster by adding
     
 <u>Expected results</u>
 
-**CRON** job `sales_clean_quotes` has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in quote table.
+Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
 
 <u>Actual results</u>
 
