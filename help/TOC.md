@@ -532,7 +532,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48204: Catalog price rule created based on Yes or No attribute doesn't consider selected scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48204-catalog-price-rule-created-based-on-yes-no-attribute-does-not-consider-the-selected-scope.md)
         * [ACSD-49370: Product attribute has "FilterMatchTypeInput" type in GraphQL schema](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49370-product-attribute-filtermatchtypeinput-type.md)
         * [ACSD-47704: Bundled product shows in stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
-    * v1.1.29 {#v1-1-29} 
+    * v1.1.29 {#v1-1-29}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
         * [ACSD-49389: Ready for pickup email sent by API when not ready for pickup](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49389-ready-pickup-email-sent-api.md)
         * [ACSD-49706: Default value saved for visual swatch attribute when no value is selected](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49706-default-value-saved-for-visual-swatch-attribute-when-no-value-is-selected.md)
@@ -978,6 +978,7 @@ breadcrumb-title: Commerce KB
   * [Change current Adobe account email address to new address](/help/how-to/general/change-current-adobe-account-email-address-to-new-address.md)
   * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [How to change email address on magento.com account when the field is grayed out](/help/how-to/general/change-email-address-on-magento-account.md)
+  * [How to remove MOM](/help/how-to/general/how-to-remove-mom.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
