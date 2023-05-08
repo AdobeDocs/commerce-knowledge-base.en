@@ -7,7 +7,7 @@ description: 'This article provides a solution for the deployment error: *"error
 
 This article provides a fix for the issue when deployment fails with the following error message in the deployment log:
 
-```console
+```bash
 W: In CurlDownloader.php line 370:
 W:
 W:   curl error 7 while downloading https://repo.packagist.org/p2/magento/module
