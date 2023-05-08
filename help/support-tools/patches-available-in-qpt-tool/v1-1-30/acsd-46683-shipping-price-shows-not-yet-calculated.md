@@ -53,7 +53,7 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
         * Apply to Shipping Amount = No
         * Discard subsequent rules = Yes
         * Free Shipping = No
-1. Open the storefront, add 3 products to the cart so that the subtotal exceeds 75$.
+1. Open the storefront, and add three products to the cart so the subtotal exceeds 75$.
 1. Proceed to checkout as a guest.
 1. On the shipping step, select *$0 - free shipping* and proceed to the payment step.
 1. Check *Order Summary* on the payment step. It shows "$0 - Free Shipping - Free".
