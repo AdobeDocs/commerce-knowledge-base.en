@@ -2,7 +2,7 @@
 title: "ACSD-46683: Shipping price shows *Not yet calculated*"
 description: Apply the ACSD-46683 patch to fix the Adobe Commerce issue where the shipping price shows *Not yet calculated*.
 ---
-# ACSD-46683: Shipping price shows "Not yet calculated"
+# ACSD-46683: Shipping price shows *Not yet calculated*
 
 The ACSD-46683 patch fixes the issue where the shipping price shows *Not yet calculated*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-46683. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
@@ -26,7 +26,7 @@ The shipping price shows *Not yet calculated*.
 
 <u>Prerequisites</u>:
 
-[!DNL Adobe Commerce] **Inventory Management** **(MSI)** modules are installed.
+Adobe Commerce Inventory Management (MSI) modules are installed.
 
 <u>Steps to reproduce</u>:
 
@@ -42,7 +42,7 @@ The shipping price shows *Not yet calculated*.
         * Apply to Shipping Amount = Yes
         * Discard subsequent rules = No
         * Free Shipping = For shipments with matching items
-1. Create another Cart price rule:
+1. Create another cart price rule:
     * Name = *35off* rule
     * Priority = 0
     * Coupon = Specific Coupon
@@ -53,9 +53,9 @@ The shipping price shows *Not yet calculated*.
         * Apply to Shipping Amount = No
         * Discard subsequent rules = Yes
         * Free Shipping = No
-1. Open the storefront, add 3 products to the cart so that the subtotal exceeds 75$.
+1. Open the storefront, and add three products to the cart so the subtotal exceeds 75$.
 1. Proceed to checkout as a guest.
-1. On the shipping step, select *$0 - free shipping* and proceed to the payment step.
+1. On the shipping step, select **$0 - free shipping** and proceed to the payment step.
 1. Check *Order Summary* on the payment step. It shows "$0 - Free Shipping - Free".
 1. Apply the coupon code *35off*, it will update the subtotal and make it less than $75.
 1. Check *Order Summary* on the payment step.
@@ -66,7 +66,7 @@ A message with a better explanation is displayed: *Selected shipping method is n
 
 <u>Actual results</u>:
 
-The shipping price now displays "Not yet calculated".
+The shipping price now displays *Not yet calculated*.
 
 ## Apply the patch
 
