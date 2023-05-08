@@ -4,7 +4,7 @@ description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_qu
 ---
 # ACSD-50817: Optimizes CRON job `sales_clean_quotes` to run faster
 
-The ACSD-50817 patch fixes the issue where the **CRON** job `sales_clean_quotes` has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
 
 ## Affected products and versions
 
