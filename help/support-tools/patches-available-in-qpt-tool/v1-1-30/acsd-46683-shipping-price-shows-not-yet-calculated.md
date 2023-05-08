@@ -26,7 +26,7 @@ The shipping price shows *Not yet calculated*.
 
 <u>Prerequisites</u>:
 
-[!DNL Adobe Commerce] **Inventory Management** **(MSI)** modules are installed.
+Adobe Commerce Inventory Management (MSI) modules are installed.
 
 <u>Steps to reproduce</u>:
 
