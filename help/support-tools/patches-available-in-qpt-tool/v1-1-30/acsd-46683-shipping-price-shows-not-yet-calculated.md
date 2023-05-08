@@ -42,7 +42,7 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
         * Apply to Shipping Amount = Yes
         * Discard subsequent rules = No
         * Free Shipping = For shipments with matching items
-1. Create another Cart price rule:
+1. Create another cart price rule:
     * Name = *35off* rule
     * Priority = 0
     * Coupon = Specific Coupon
