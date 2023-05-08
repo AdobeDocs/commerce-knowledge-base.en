@@ -34,7 +34,7 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
 1. Configure the free shipping delivery method.
 1. Configure at least one more delivery method.
 1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]** and create a new rule:
-    * Name = *75more* rule
+    * Name = *75more* 
     * Coupon = None
     * Priority = 1
     * Conditions: Subtotal is equal to or greater than *$75*
@@ -43,7 +43,7 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
         * Discard subsequent rules = No
         * Free Shipping = For shipments with matching items
 1. Create another cart price rule:
-    * Name = *35off* rule
+    * Name = *35off* 
     * Priority = 0
     * Coupon = Specific Coupon
     * Coupon code = 35off
