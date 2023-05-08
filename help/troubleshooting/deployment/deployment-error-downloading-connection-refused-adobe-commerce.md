@@ -43,6 +43,7 @@ W:    refused
  ```bash
  mgc clear-build-cache -p <project ID>
  ```
+
 ## Recommended reading
 
 * [Best practices for builds and deployment](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) in our developer documentation.
