@@ -62,5 +62,3 @@ For info about other patches available in QPT, refer to [[!DNL Quality Patches T
 
 
 
-
-
