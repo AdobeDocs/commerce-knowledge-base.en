@@ -31,7 +31,7 @@ W:    refused
 
  <u>Actual behavior</u>:
 
- In the deployment logs you see the following error: ``error 7 while downloading ... port 443: Connection refused" on Adobe Commerce.
+ In the deployment logs you see the following error: *error 7 while downloading ... port 443: Connection refused* on Adobe Commerce.
 
 ## Cause
 
