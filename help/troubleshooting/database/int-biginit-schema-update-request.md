@@ -51,7 +51,7 @@ If the `max(value_id)` is lower than the `max int(11) [ 4294967296 ]`, and the `
 
 >[!NOTE] 
 >
->The site should be in maintenance mode while running optimize on specific tables. This completely rebuilds tables and will free space after deleting data from tables.
+>The site should be in maintenance mode while running optimize command on specific tables. This completely rebuilds tables and will free space after deleting data from tables.
 
 If the value shown is lower than `max int(11) [ 4294967296 ]` as shown in the below example terminal output, than a table `[ AUTO_INCREMENT ]` has changed to a number bigger or equal to the `max [ int(11) ]` value. 
 
