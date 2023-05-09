@@ -47,7 +47,7 @@ If the `max(value_id)` is lower than the `max int(11) [ 4294967296 ]`, and the `
 
 >[!WARNING]
 >
->Perform a database backup before altering the tables. Also, consider putting the site into [maintenance mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode). In addition, it is also recommended to run the MYSQL optimize command on the database tables (only to tables where changes were made) after making the changes.
+>Perform a database backup before altering the tables. Also, put the site into [maintenance mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode). In addition, it is also recommended to run the MYSQL optimize command on the database tables (only to tables where changes were made) after making the changes.
 
 If the value shown is lower than `max int(11) [ 4294967296 ]` as shown in the below example terminal output, than a table `[ AUTO_INCREMENT ]` has changed to a number bigger or equal to the `max [ int(11) ]` value. 
 
