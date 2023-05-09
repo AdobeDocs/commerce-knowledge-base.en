@@ -5,17 +5,17 @@ description: Apply the BB2B-2598 patch to add caching capability to the storeCon
 
 # BB2B-2598: Adds caching capability to `storeConfig`, `currency`, `country`, `countries`, and `availableStores` GraphQl queries
 
-The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `country`, `countries`, and `availableStores` GraphQl queries. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is BB2B-2598.
+The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `country`, `countries`, and `availableStores` GraphQl queries. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is BB2B-2598. 
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) xxx
+* Adobe Commerce (all deployment methods) =2.4.4 <2.4.7 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) xxx
+* Adobe Commerce (all deployment methods)  >=2.4.4 <2.4.7
 
 >[!NOTE]
 >
@@ -25,10 +25,16 @@ The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `count
 
 `availableStores`, `countries`, `country`, `currency`, `storeConfig`, and `customAttributeMetadata` GraphQL queries are not cacheable.
 
+<u>Prerequisites</u>:
+
+* Server is pointing to [!DNL Varnish] proxying to Adobe Commerce backend.
+* Config setting system/full_page_cache/caching_application is set to [!DNL Varnish], or go to the Admin > **Stores** > **System** > **Full Page Cache** > **Caching Application** > Varnish.
+
 <u>Steps to reproduce</u>:
 
-1.
-1.
+1. Send `GET` request to any of the GraphQL queries listed above, using any arbitrary fields.
+1. Resend the request without any changes; you will notice that it is muchfaster. Note that request is not sent to backend but it is completely handled by Varnish as a cache hit.
+1. If further proof is required, comment out the unset of X-Magento-Debug header present in our VCL, restart [Varnish] and run the above steps again.
 
 <u>Expected results</u>:
 
@@ -45,9 +51,6 @@ To apply individual patches, use the following links depending on your deploymen
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
 
-## Related reading
-
-To learn more about [!DNL Quality Patches Tool], refer to:
 
 * [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
