@@ -56,7 +56,7 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
 1. Open the storefront, and add three products to the cart so the subtotal exceeds 75$.
 1. Proceed to checkout as a guest.
 1. On the shipping step, select **$0 - free shipping** and proceed to the payment step.
-1. Check *Order Summary* on the payment step. It shows "$0 - Free Shipping - Free".
+1. Check the [IUICONTROL Order Summary] on the payment step. It shows *[!UICONTROL $0 - Free Shipping - Free]*.
 1. Apply the coupon code *35off*, it will update the subtotal and make it less than $75.
 1. Check *Order Summary* on the payment step.
 
