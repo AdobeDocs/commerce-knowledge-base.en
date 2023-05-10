@@ -53,20 +53,20 @@ Adobe Commerce Inventory Management (MSI) modules are installed.
         * Apply to Shipping Amount = No
         * Discard subsequent rules = Yes
         * Free Shipping = No
-1. Open the storefront, and add three products to the cart so the subtotal exceeds 75$.
+1. Open the storefront, and add three products to the cart so the subtotal exceeds $75.
 1. Proceed to checkout as a guest.
 1. On the shipping step, select **$0 - free shipping** and proceed to the payment step.
-1. Check the [IUICONTROL Order Summary] on the payment step. It shows *[!UICONTROL $0 - Free Shipping - Free]*.
+1. Check the [!UICONTROL Order Summary] on the payment step. It shows *[!UICONTROL $0 - Free Shipping - Free]*.
 1. Apply the coupon code *35off*, it will update the subtotal and make it less than $75.
 1. Check [!UICONTROL Order Summary] on the payment step.
 
 <u>Expected results</u>:
 
-A message with a better explanation is displayed: *Selected shipping method is not available. Please select another shipping method for this order.*
+The following message is displayed: *Selected shipping method is not available. Please select another shipping method for this order.*
 
 <u>Actual results</u>:
 
-The shipping price now displays *Not yet calculated*.
+The shipping price displays *Not yet calculated*.
 
 ## Apply the patch
 
@@ -83,4 +83,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-
