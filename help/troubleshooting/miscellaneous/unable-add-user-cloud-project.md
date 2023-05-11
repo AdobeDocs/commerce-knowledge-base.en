@@ -14,7 +14,7 @@ This article provides a solution for when you are unable to add a user to an Ado
 
 ## Cause
 
-Unknown at this time.
+This is expected behavior. The user should exist in the adobe SSO for them to be added as a user. 
 
 ## Solution
 
