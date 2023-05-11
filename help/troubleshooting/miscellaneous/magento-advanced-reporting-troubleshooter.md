@@ -32,7 +32,7 @@ If multiple base currencies have ever been used you cannot use Advanced Reportin
 
 +++
 
-## Step 3 - Check if Split Database in use
+## Step 3 - Check if split database in use
 
 +++**Are you using Split Database Solution?**
 
