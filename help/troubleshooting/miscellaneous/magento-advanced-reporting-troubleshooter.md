@@ -34,7 +34,7 @@ If multiple base currencies have ever been used you cannot use Advanced Reportin
 
 ## Step 3 - Check if split database in use
 
-+++**Are you using Split Database Solution?**
++++**Are you using split database solution?**
 
 Are you using [split database solution](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)?
 
