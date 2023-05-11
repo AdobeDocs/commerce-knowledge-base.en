@@ -978,7 +978,7 @@ breadcrumb-title: Commerce KB
   * [Change current Adobe account email address to new address](/help/how-to/general/change-current-adobe-account-email-address-to-new-address.md)
   * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [How to change email address on magento.com account when the field is grayed out](/help/how-to/general/change-email-address-on-magento-account.md)
-  * [How to remove MOM](/help/how-to/general/how-to-remove-mom.md)
+  * [How to remove Magento Order Management on Adobe Commerce](/help/how-to/general/how-to-remove-mom.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
