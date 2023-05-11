@@ -20,7 +20,7 @@ Unknown at this time.
 
 1. Ask the user to log in to their account at https://account.adobe.com.
 1. The user should then go to https://accounts.magento.cloud.
-1. Once they have done that, you should be able to add the user to the project.
+1. Once they have done that, you should be able to add the user to the project. For steps, refer to [Add users and manage access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-users-and-manage-access) in our Commerce on Cloud Infrastructure Guide. 
 
 ## Related reading:
 
