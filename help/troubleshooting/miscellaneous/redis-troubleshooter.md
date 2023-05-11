@@ -39,7 +39,7 @@ b. NO – Adobe Commerce supports Redis versions 3.2 and 5.0. If you are running
 
 +++
 
-## Step 4 - Verify latest version of ECE Tools {#step4}
+## Step 4 - Verify latest version of ECE-Tools {#step4}
 
 +++Do you have the latest version of [ECE Tools > v2002.1.1](https://github.com/magento/ece-tools/releases)?
 
