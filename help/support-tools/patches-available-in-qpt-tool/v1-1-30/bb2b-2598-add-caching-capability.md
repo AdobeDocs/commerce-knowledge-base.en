@@ -5,17 +5,17 @@ description: Apply the BB2B-2598 patch to add caching capability to the storeCon
 
 # BB2B-2598: Adds caching capability to `storeConfig`, `currency`, `country`, `countries`, and `availableStores` GraphQl queries
 
-The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `country`, `countries`, and `availableStores` GraphQl queries. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is BB2B-2598. 
+The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `country`, `countries`, and `availableStores` GraphQl queries. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is BB2B-2598.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) =2.4.4 <2.4.7 
+* Adobe Commerce (all deployment methods) = 2.4.4 <2.4.7 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods)  >=2.4.4 <2.4.7
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6
 
 >[!NOTE]
 >
@@ -33,8 +33,8 @@ The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `count
 <u>Steps to reproduce</u>:
 
 1. Send `GET` request to any of the GraphQL queries listed above, using any arbitrary fields.
-1. Resend the request without any changes; you will notice that it is muchfaster. Note that request is not sent to backend but it is completely handled by Varnish as a cache hit.
-1. If further proof is required, comment out the unset of X-Magento-Debug header present in our VCL, restart [Varnish] and run the above steps again.
+1. Resend the request without any changes; you will notice that it is muchfaster. Note that the request is not sent to backend but it is completely handled by [!DNL Varnish] as a cache hit.
+1. If further proof is required, comment out the unset of X-Magento-Debug header present in our [VCL](https://github.com/magento-commerce/magento2ce/blob/026e5b29a5edfd619bbdea62d636b3cab2ea03b4/app/code/Magento/PageCache/etc/varnish6.vcl#L227), restart [Varnish] and run the above steps again.
 
 <u>Expected results</u>:
 
