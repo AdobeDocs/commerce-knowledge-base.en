@@ -15,7 +15,7 @@ exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 
  >[!NOTE]
  >
- >It is possible for even a non-Account Owner to have the [!UICONTROL Shared Access] tab on their account. However, only the Account Owner (Primary Account Holder) with the according privileges can provide shared access to other users. For more information on shared access, visit [Adobe Commerce Help Center User Guide](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#who-can-provide-shared-access).
+ >It is possible even for a non-account owner to have the **[!UICONTROL Shared Access]** tab on their account. However, only the Account Owner (Primary Account Holder) with the according privileges can provide shared access to other users. For more information on shared access, refer to [SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#shared-access) in Adobe Commerce Help Center User Guide.
 
 ## I used shared access but cannot gain access to a particular resource
 
