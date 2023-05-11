@@ -126,7 +126,7 @@ b. NO – Proceed to [Step 10](#step-10).
 
 +++
 
-## Step 10 - Verify if Page Page Builder error
+## Step 10 - Verify if there is Page Builder error
 
 +++**Is there an error caused by Page Builder?**
 
