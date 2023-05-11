@@ -53,7 +53,7 @@ b. `/data/mysql` – Proceed to [Step 5](#step-5).
 
 +++
 
-## Step 4 - Troubleshoot full /tmp mount
+## Step 4 - Troubleshoot /tmp mount full
 
 +++**Troubleshoot /tmp mount full**
 
