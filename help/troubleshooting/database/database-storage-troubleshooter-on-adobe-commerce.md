@@ -7,7 +7,7 @@ exl-id: f7b09023-7129-4fd0-9bb5-02a2228bc148
 
 This article is a troubleshooter tool for customers on Adobe Commerce having issues with databases. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms and configuration, the troubleshooter will explain how to troubleshoot space and configuration issues with databases.
 
-## Step 1
+## Step 1 - Identify the directory with a space issue
 
 +++**Do you have a `/tmp` issue caused by a lack of space?**
 
@@ -27,7 +27,7 @@ b. NO – Check space. Run `df -h | grep mysql` and then `df -h | grep tmp` in t
 
 +++
 
-## Step 2
+## Step 2 - Check disk space
 
 +++**Check disk space usage?**
 
@@ -38,7 +38,7 @@ b. NO – Queries may be exhausting the available storage. This may crash the no
 
 +++
 
-## Step 3
+## Step 3 - Identify directory with high usage
 
 +++**Which directory has greater than 70% used?**
 
@@ -53,7 +53,7 @@ b. `/data/mysql` – Proceed to [Step 5](#step-5).
 
 +++
 
-## Step 4
+## Step 4 - Troubleshoot /tmp mount full
 
 +++**Troubleshoot /tmp mount full**
 
@@ -69,7 +69,7 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 
 +++
 
-## Step 5
+## Step 5 - Check default
 
 +++**Check default**
 
