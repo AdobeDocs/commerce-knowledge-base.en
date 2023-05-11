@@ -14,7 +14,7 @@ This article provides a solution for when you are unable to add a user to an Ado
 
 ## Cause
 
-This is expected behavior. The user should exist in the adobe SSO for them to be added as a user. 
+This is the expected behavior. The user's account should first be created at https://accounts.magento.cloud and linked to their Adobe SSO for them to be added as a user to the project.
 
 ## Solution
 
