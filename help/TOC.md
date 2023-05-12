@@ -553,6 +553,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-49527: GraphQL company roles don't display pagination correctly](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49527-graphql-company-roles-dont-display-pagination-correctly.md)
     * v1.1.30 {#v1-1-30}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.30](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/overview.md)
+        * [BB2B-2598: Adds caching capability to storeConfig, currency, country, countries, availableStores GraphQl queries](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/bb2b-2598-add-caching-capability.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
