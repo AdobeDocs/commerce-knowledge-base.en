@@ -30,7 +30,8 @@ The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `count
 * Server is pointing to [!DNL Varnish] proxying to Adobe Commerce backend.
 * Config setting `system/full_page_cache/caching_application` is set to *2* [!DNL Varnish], or go to Adobe Commerce Admin > **Stores** > **System** > **Full Page Cache** > **Caching Application** > and set it to [!DNL Varnish].
 
-<u>Steps to reproduce</u>:
+
+After the patch is applied, run the following steps to ensure caching capability is now available:
 
 1. Send `GET` request to any of the GraphQL queries listed above, using any arbitrary fields.
 1. Resend the request without any changes; you will notice that it is muchfaster. Note that the request is not sent to backend but it is completely handled by [!DNL Varnish] as a cache hit.
@@ -42,6 +43,10 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
 
 * [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
