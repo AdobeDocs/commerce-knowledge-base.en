@@ -47,6 +47,7 @@ The credit memo is created.
 The following error is thrown:
 
 *The page cannot be displayed due to the error*
+
 ```
 report.CRITICAL: DivisionByZeroError: Division by zero in vendor/magento/module-sales/Model/Order/Creditmemo/Total/Tax.php:139*
 ```
