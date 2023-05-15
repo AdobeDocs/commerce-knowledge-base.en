@@ -23,7 +23,7 @@ Make sure you have applied the same settings and have enabled the same functiona
 
 When applying the PayPal Express Checkout solution, transactions based on AVS/CSC responses must be declined in **PayPal Manager** (Service Settings > Set Up > Security Options) and in **Commerce Admin** ( **Stores** > Configuration > **Sales** > **Payment methods** ...).
 ![magento_paypal_settings_2.4.1.png](assets/magento_paypal_settings_2.4.1.png)
-For more info, see the documentation: [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm) and [Adobe Commerce](http://docs.magento.com/m2/ee/user_guide/payment/paypal-express-checkout.html) in our user guide.
+For more info, see the documentation: [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm) and [Adobe Commerce](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html) in our user guide.
 
 ## Allow reference transactions
 
