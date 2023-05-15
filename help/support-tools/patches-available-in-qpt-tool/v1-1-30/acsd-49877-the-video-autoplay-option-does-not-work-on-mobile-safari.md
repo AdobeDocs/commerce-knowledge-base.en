@@ -1,10 +1,10 @@
 ---
-title: "ACSD-49877: The autoplay option is fixed on mobile safari"
-description: Apply the ACSD-49877 patch to fix the Adobe Commerce issue where the autoplay option is fixed on mobile safari when the video is linked directly to a remote video file.
+title: "ACSD-49877: Video autoplay does not work on mobile [!DNL Safari]"
+description: Apply the ACSD-49877 patch to fix the Adobe Commerce issue where the video autoplay option does not work on mobile [!DNL Safari] when the video is linked directly to a remote video file.
 ---
-# ACSD-49877: The autoplay option is fixed on mobile safari
+# ACSD-49877: Video autoplay does not work on mobile [!DNL Safari]
 
-The ACSD-49877 fixes the issue where the autoplay option on mobile safari when the video is linked directly to a remote video file.. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49877. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49877 fixes the issue where the autoplay option on mobile [!DNL Safari] does not work when the video is linked directly to a remote video file.. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49877. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -22,28 +22,27 @@ The ACSD-49877 fixes the issue where the autoplay option on mobile safari when t
 
 ## Issue
 
-The autoplay option is fixed on mobile safari.
+Video autoplay does not work on mobile [!DNL Safari] when the video is linked directly to a remote video file and not a streaming service.
 
-Prerequisites
-PageBuilder modules are installed.
+[!DNL Page Builder] modules are installed.
 
 <u>Steps to reproduce</u>:
 
 1. Create a new **[!UICONTROL CMS page], edit the **[!UICONTROL Content Value]** with Page Builder. 
-1. Add a **[!UICONTROL Tab]** element to the content, and add a **[!UICONTROL Video Element]** inside the **[!UICONTROL Tab]**.
-1. Click on the **[!UICONTROL gear button]** to edit the **[!UICONTROL Video Element]**.
-1. Add a link to an mp4 video file to the **[!UICONTROL Video URL]** field.
-1. Mark **[!UICONTROL Autoplay]** field as Yes.
-1. Click on **[!UICONTROL Save]**.
-1. Open the recently created page on [!DNL Safari] using an [!DNL iPhone].
+1. Create a new CMS page, and edit the [!UICONTROL Content Value] with [!DNL Page Builder]. 
+1. Add a *Tab* element to the content, and add a *Video Element* inside the *Tab*.
+1. Add a link to an mp4 video file to the [!UICONTROL Video URL] field.
+1. Mark the **[!UICONTROL Autoplay]** field as *Yes*.
+1. Click **[!UICONTROL Save]**.
+1. Open the recently created page on [!DNL Safari] using an iPhone.
 
 <u>Expected results</u>
 
-The Autoplay option works on [!DNL Safari] using an iPhone.
+The autoplay option works on [!DNL Safari] using an iPhone.
 
 <u>Actual results</u>
 
-The Autoplay option doesn't work on [!DNL Safari] using an iPhone.
+The autoplay option does not work on [!DNL Safari] using an iPhone.
 
 ## Apply the patch
 
