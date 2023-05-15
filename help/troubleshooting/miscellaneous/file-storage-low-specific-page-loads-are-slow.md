@@ -29,4 +29,4 @@ Use [Fastly image optimization](https://experienceleague.adobe.com/docs/commerce
 
 ## Related reading
 
-To learn about managing your disk space (if you are on Adobe Commerce on cloud infrastructure) see [Manage disk space in Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html) in our developer documentation.
+To learn about managing your disk space (if you are on Adobe Commerce on cloud infrastructure) see [Manage disk space in Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html) in the Commerce on Cloud Infrastructure Guide.
