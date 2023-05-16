@@ -60,5 +60,5 @@ Change your PayPal profile to allow for multiple payments per invoice ID. You ne
     * [PayPal Express Checkout](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html)
     * [Other PayPal Solutions](/docs/commerce-admin/stores-sales/payments/paypal/paypal.html)
 * In our developer documentation:
-    * [Set up PayPal payment methods for Adobe Commerce on cloud infrastructure](docs/commerce-cloud-service/user-guide/configure-store/paypal.html)
+    * [Set up PayPal payment methods for Adobe Commerce on cloud infrastructure](/docs/commerce-cloud-service/user-guide/configure-store/paypal.html)
     * [Payments Integrations](https://developer.adobe.com/commerce/php/development/payments-integrations/)

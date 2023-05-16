@@ -97,4 +97,5 @@ For the changes to display, refresh the page cache using the **Cache Management*
 
 ### Cache
 
-* [Cache management](/docs/commerce-admin/systems/tools/cache-management.html) in our user guide
+* [Cache management](/docs/commerce-admin/systems/tools/cache-management.html) in our user Admin System Guide.
+* [Manage the cache](/docs/commerce-operations/configuration-guide/cli/manage-cache.html) in our developer documentation
