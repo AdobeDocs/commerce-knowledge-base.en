@@ -24,16 +24,16 @@ The ACSD-49737 patch fixes the issue where the coupon is incorrectly marked as u
 
 Coupon is incorrectly marked as used after a failed card payment.
 
-Configure **[!DNL Braintree sandbox payment]** method.
+Configure **[!UICONTROL Braintree sandbox payment]** method.
 
 <u>Steps to reproduce</u>:
 
-1. Create a **[!DNL Cart Price Rule]** with auto generated coupon codes. 
+1. Create a **[!UICONTROL Cart Price Rule]** with auto generated coupon codes. 
 1. Login as a customer.
 1. Add product(s) to cart.
-1. Apply an auto generated coupon code.
+1. Apply an **[!UICONTROL auto generated coupon code]**.
 1. Try to place the order with a failed payment.
-1. Execute **[!UICONTROL "bin/magento cron:run"] command, which will start the **[!DNL "sales.rule.update.coupon.usage]** consumer.
+1. Execute **[!DNL bin/magento cron:run] command, which will start the **[!UICONTROL "sales.rule.update.coupon.usage]** to the consumer.
 1. Check the coupon usage in the Cart Price Rule under **[!UICONTROL Manage Coupon Codes]** tab.
 
 <u>Expected results</u>:
