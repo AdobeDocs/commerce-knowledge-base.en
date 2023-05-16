@@ -563,6 +563,7 @@ breadcrumb-title: Commerce KB
     * v1.1.31 {#v1-1-31}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.31](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/overview.md)
         * [ACSD-50817: Optimizes cron job sales clean quotes to run faster](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50817-optimizes-cron-job-sales-clean-quotes-to-run-faster.md)
+        * [ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-51036-race-conditions-during-concurrent-rest-api-calls-cause-overwrite-of-shipping-status.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
