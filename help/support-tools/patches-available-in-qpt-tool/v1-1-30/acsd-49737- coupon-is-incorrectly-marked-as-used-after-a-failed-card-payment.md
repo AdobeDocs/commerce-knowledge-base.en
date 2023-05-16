@@ -2,9 +2,9 @@
 title: 'ACSD-49737: Coupon is incorrectly marked as used after a failed card payment'
 description: Apply the ACSD-49737 patch to fix the Adobe Commerce issue where the coupon is incorrectly marked as used after a failed card payment.
 ---
-# ACSD-49737: Coupon is incorrectly marked as used after a failed card payment.
+# ACSD-49737: Coupon is incorrectly marked as used after a failed card payment
 
-The ACSD-49737 patch fixes the issue where the coupon is incorrectly marked as used after a failed card payment.. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49737. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49737 patch fixes the issue where the coupon is incorrectly marked as used after a failed card payment. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49737. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -38,7 +38,7 @@ Configure **[!DNL Braintree sandbox payment]** method.
 
 <u>Expected results</u>:
 
-Coupon shouldn't be flagged as "used" if the payment failed.
+Coupon shouldn't be flagged as "used" if the payment is failed.
 
 <u>Actual results</u>:
 
