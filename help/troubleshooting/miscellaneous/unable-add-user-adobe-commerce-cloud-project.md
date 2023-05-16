@@ -4,6 +4,8 @@ description: This article provides a solution for when you are unable to add a u
 ---
 # Unable to add user to Adobe Commerce cloud project
 
+This article provides a solution for when you are trying to add a user to a cloud project but it fails with an error: *User XXX does not exist*.
+
 ## Affected products and versions
 
 * Adobe Commerce on cloud infrastructure, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
