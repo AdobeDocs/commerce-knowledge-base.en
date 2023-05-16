@@ -28,3 +28,4 @@ Note: If the user has had an account on account.magento.com or accounts.magento.
 ## Related reading:
 
 * [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in our Commerce on Cloud Infrastructure Guide.
+* [Unable to log in to Adobe Commerce support or cloud account](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.htmln)
