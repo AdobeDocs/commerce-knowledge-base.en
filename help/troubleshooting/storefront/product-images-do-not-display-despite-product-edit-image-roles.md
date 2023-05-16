@@ -89,13 +89,12 @@ For the changes to display, refresh the page cache using the **Cache Management*
 
 ### Stores and scopes
 
- [Stores and store scopes](http://docs.magento.com/m2/ee/user_guide/stores/stores-all-stores.html) in our user guide
+ [Stores and store scopes](/docs/commerce-admin/stores-sales/site-store/stores.html) in our user guide
 
 ### Images
 
- [Uploading Product Images](http://docs.magento.com/m2/ee/user_guide/catalog/product-image-upload.html) in our user guide
+ [Uploading Product Images](/docs/commerce-admin/catalog/products/digital-assets/product-image.html#upload-an-image) in our user guide
 
 ### Cache
 
-* [Cache management](http://docs.magento.com/m2/ee/user_guide/system/cache-management.html) in our user guide
-* [Manage the cache](http://devdocs.magento.com/guides/v2.2/config-guide/cli/config-cli-subcommands-cache.html) in our developer documentation
+* [Cache management](/docs/commerce-admin/systems/tools/cache-management.html) in our user guide
