@@ -1,11 +1,11 @@
 ---
-title: "ACSD-50814: Fixes the issue where admin user is not able to create credit memo"
+title: "ACSD-50814: Admin user is not able to create credit memo"
 description: Apply the ACSD-50814 patch to fix the Adobe Commerce issue where an admin user is not able to create a credit memo.
 ---
 
 # ACSD-50814: Admin user is not able to create credit memo
 
-The ACSD-50814 patch fixes the issue where an admin user is not able to create credit memo. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50814. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50814 patch fixes the issue where an admin user is not able to create a credit memo. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50814. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,15 +23,15 @@ The ACSD-50814 patch fixes the issue where an admin user is not able to create c
 
 ## Issue
 
-An admin user is not able to create credit memo.
+An admin user is not able to create a credit memo.
 
 <u>Steps to reproduce</u>:
 
-1. In the Adobe Commerce Admin, navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Shipping methods]** > **[!UICONTROL Free shipping]** and set **[!UICONTROL Enable free shipping]** = [!UICONTROL Yes]
+1. In the Adobe Commerce Admin, navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Shipping methods]** > **[!UICONTROL Free shipping]** and set **[!UICONTROL Enable free shipping]** to *[!UICONTROL Yes]*
 1. Again go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Tax]**, expand the calculation settings and set:
     * [!UICONTROL Shipping prices] = [!UICONTROL Including tax]
     * [!UICONTROL Enable cross border trade] = [!UICONTROL No]
-1. Expand the price display settings and set [!UICONTROL Display shipping prices] = [!UICONTROL Including tax].
+1. Expand the price display settings and set the [!UICONTROL Display shipping prices] = [!UICONTROL Including tax].
 1. Expand [!UICONTROL Orders], [!UICONTROL Invoices], [!UICONTROL Credit memo] display settings and set [!UICONTROL Display shipping amount] = [!UICONTROL Including tax].
 1. Clear caches.
 1. Place an order on the storefront.
