@@ -11,7 +11,7 @@ The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `count
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) = 2.4.4 <2.4.7 
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6 
 
 **Compatible with Adobe Commerce versions:**
 
