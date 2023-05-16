@@ -28,7 +28,7 @@ Race conditions during concurrent REST API calls result in an overwrite of shipp
 
 1. Create an order with 2 items.
 1. Invoice Item A.
-1. Send refund request for item A via **[!DNL REST API]** at the same exact time as you send a ship request for item B.
+1. Send refund request for item A via REST API at the same exact time as you send a ship request for item B.
 1. Go to the order in **[!UICONTROL Admin Panel]**.
 
 <u>Expected results</u>
