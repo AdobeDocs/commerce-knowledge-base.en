@@ -30,7 +30,6 @@ The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `count
 * Server is pointing to [!DNL Varnish] proxying to Adobe Commerce backend.
 * Config setting `system/full_page_cache/caching_application` is set to *2* [!DNL Varnish], or go to Adobe Commerce Admin > **Stores** > **System** > **Full Page Cache** > **Caching Application** > and set it to [!DNL Varnish].
 
-
 After the patch is applied, run the following steps to ensure caching capability is now available:
 
 1. Send `GET` request to any of the GraphQL queries listed above, using any arbitrary fields.
