@@ -811,7 +811,7 @@ breadcrumb-title: Commerce KB
     * [Modules missing from Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
     * [Former team members receive Adobe Commerce cloud notification emails](/help/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.md)
     * [New domain is redirecting to default domain](/help/troubleshooting/miscellaneous/new-domain-redirecting.md)
-    * [Unable to add user to Adobe Commerce cloud project](/help/troubleshooting/miscellaneous/unable-add-user-cloud-project.md)
+    * [Unable to add user to Adobe Commerce cloud project](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
