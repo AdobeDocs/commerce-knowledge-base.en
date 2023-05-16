@@ -4,7 +4,7 @@ description: Apply the ACSD-49877 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-49877: Video autoplay does not work on mobile [!DNL Safari]
 
-The ACSD-49877 fixes the issue where the autoplay option on mobile [!DNL Safari] does not work when the video is linked directly to a remote video file.. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49877. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49877 fixes the issue where the autoplay option on mobile [!DNL Safari] does not work when the video is linked directly to a remote video file. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49877. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,13 +24,14 @@ The ACSD-49877 fixes the issue where the autoplay option on mobile [!DNL Safari]
 
 Video autoplay does not work on mobile [!DNL Safari] when the video is linked directly to a remote video file and not a streaming service.
 
+<u>Prerequisites</u>:
 [!DNL Page Builder] modules are installed.
 
 <u>Steps to reproduce</u>:
 
-1. Create a new **[!UICONTROL CMS page], edit the **[!UICONTROL Content Value]** with Page Builder. 
-1. Create a new CMS page, and edit the [!UICONTROL Content Value] with [!DNL Page Builder]. 
+1. Create a new CMS page, and edit the **[!UICONTROL Content Value]** with [!DNL Page Builder]. 
 1. Add a *Tab* element to the content, and add a *Video Element* inside the *Tab*.
+1. Now click on the gear button to edit the *Video Element*.
 1. Add a link to an mp4 video file to the [!UICONTROL Video URL] field.
 1. Mark the **[!UICONTROL Autoplay]** field as *Yes*.
 1. Click **[!UICONTROL Save]**.
