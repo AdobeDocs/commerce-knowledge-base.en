@@ -1,10 +1,10 @@
 ---
 title: "ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status"
-description: Apply the ACSD-51036 patch when race conditions during concurrent REST API calls result in an overwrite of shipping status.
+description: Apply the ACSD-51036 patch when race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table.
 ---
-# ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status 
+# ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table
 
-The ACSD-51036 patch resolves race conditions during concurrent REST API calls result in an overwrite of shipping status. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-51036.
+The ACSD-51036 patch resolves race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-51036.
 
 ## Affected products and versions
 
@@ -22,7 +22,7 @@ The ACSD-51036 patch resolves race conditions during concurrent REST API calls r
 
 ## Issue
 
-Race conditions during concurrent REST API calls result in an overwrite of shipping status.
+Race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table.
 
 <u>Steps to reproduce</u>:
 
