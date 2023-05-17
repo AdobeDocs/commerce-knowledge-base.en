@@ -12,7 +12,7 @@ Adobe Commerce (all deployment methods) 2.4.x
 
 ## Issue
 
-You cannot save a prodiuct or a CMS page with the term *contact* in the URL key. When you try to save the URL key, you receive an error that indicates that the URL key is a duplicate URL.
+You cannot save a product or a CMS page using the term *contact* as the URL key. When you try to save the URL key, you receive an error that indicates that the URL key is a duplicate URL.
 
 <u>Steps to reproduce</u>:
 
@@ -20,7 +20,7 @@ Create a CMS page with URL key as *contact*.
 
 <u>Expected result</u>:
 
-The page is saved with *contact* in the URL key.
+The page is saved with *contact* as the URL key.
 
 <u>Actual result</u>:
 
@@ -41,7 +41,7 @@ You cannot save the page. You get the error: *The value specified in the URL Key
 
 ## Solution
 
-You cannot use the term *contact* in your URL key, however you can use the term *contact* combined with another letter or number (For example, *contact1* and *contact2*). Although the term does not have to be *contact+&lt;another number or letter&gt;*, the term could be any string as long as the length does not exceed 255 characters.
+You cannot use the term *contact* as your URL key, however you can use the term *contact* combined with another letter or number (For example, *contact1* and *contact2*). Although the term does not have to be *contact+&lt;another number or letter&gt;*, the term could be any string as long as the length does not exceed 255 characters.
 
 Perform the following steps:
 
