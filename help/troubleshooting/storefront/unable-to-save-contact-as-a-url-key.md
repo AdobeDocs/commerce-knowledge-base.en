@@ -2,7 +2,7 @@
 title: Cannot save *contact* as URL key
 description: This article provides a workaround for the issue when you are not able to save *contact* as a URL key (e.g., "/contact") for products or CMS pages. When you try to save the URL key, you receive an error that indicates that the URL key is a duplicate URL.
 ---
-# Cannot save *contact* as URL key
+# Cannot save *contact* as the URL key
 
 This article provides a workaround for the issue when you are not able to save *contact* as a URL key (e.g., "/contact") for products or CMS pages.
 
@@ -16,7 +16,7 @@ You cannot save a product or a CMS page using the term *contact* as the URL key.
 
 <u>Steps to reproduce</u>:
 
-Create a CMS page with URL key as *contact*.
+Create a CMS page with *contact* as the URL key.
 
 <u>Expected result</u>:
 
@@ -41,17 +41,17 @@ You cannot save the page. You get the error: *The value specified in the URL Key
 
 ## Solution
 
-You cannot use the term *contact* as your URL key, however you can use the term *contact* combined with another letter or number (For example, *contact1* and *contact2*). Although the term does not have to be *contact+&lt;another number or letter&gt;*, the term could be any string as long as the length does not exceed 255 characters.
+You cannot use the term *contact* as your URL key, however, you can use the term *contact* combined with another letter or number (For example, *contact1* and *contact2*). Although the term does not have to be *contact+&lt;another number or letter&gt;*, the term could be any string as long as the length does not exceed 255 characters.
 
 Perform the following steps:
 
 1. Log in to the Commerce Admin.
 1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
 1. Click **[!UICONTROL Add URL Rewrite]**.
-1. Select *[!UICONTROL Custom]* on the [!UICONTROL Create URL Rewrite] drop down.
+1. Select *[!UICONTROL Custom]* on the [!UICONTROL Create URL Rewrite] drop-down.
     1. In the [!UICONTROL Request Path] type "contact". Note the [!UICONTROL Request Path] is what a user enters in the browser and the [!UICONTROL Target Path] is where it should redirect to.
     1. Type in the [!UICONTROL Target Path] the new URL key (For example, "contact1").
-    1. Select *[!UICONTROL No]* in the [!UICONTROL Redirect] drop down.
+    1. Select *[!UICONTROL No]* in the [!UICONTROL Redirect] drop-down.
 
 ## Related reading
 
