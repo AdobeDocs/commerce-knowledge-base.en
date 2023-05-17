@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49737: Coupon is incorrectly marked as used after a failed card payment'
+title: "ACSD-49737: Coupon is incorrectly marked as used after a failed card payment"
 description: Apply the ACSD-49737 patch to fix the Adobe Commerce issue where the coupon is incorrectly marked as used after a failed card payment.
 ---
 # ACSD-49737: Coupon is incorrectly marked as used after a failed card payment
@@ -29,7 +29,7 @@ Configure **[!UICONTROL Braintree sandbox payment]** method.
 <u>Steps to reproduce</u>:
 
 1. Create a **[!UICONTROL Cart Price Rule]** with auto generated coupon codes. 
-1. Login as a customer.
+1. Log in as a customer.
 1. Add product(s) to cart.
 1. Apply an auto generated coupon code.
 1. Try to place the order with a failed payment.
@@ -38,12 +38,12 @@ Configure **[!UICONTROL Braintree sandbox payment]** method.
 
 <u>Expected results</u>:
 
-Coupon shouldn't be flagged as "used" if the payment is failed.
+Coupon shouldn't be flagged as used if the payment is failed.
 
 <u>Actual results</u>:
 
-1. Coupon code says used: Yes, Times Used: 1
-1. Coupon code cannot be applied again, since it's for a single time use.
+1. Coupon code says - Used: Yes, Times Used: 1
+1. Coupon code is for a single time use only.
 
 ## Apply the patch
 
