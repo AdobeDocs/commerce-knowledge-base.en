@@ -18,7 +18,7 @@ This article provides a fix for the Adobe Commerce on-premises and Adobe Commerc
 >
 >This article doesn't apply to the situation in which you get a 404 error when trying to [preview the staging update](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change). If you run into that issue, please open a [support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
-Accessing any storefront page or the Admin results in the 404 error (the "Whoops, our bad..." page) after performing operations with scheduled updates for store content assets using [Content Staging](http://docs.magento.com/m2/ee/user_guide/cms/content-staging.html) (updates for store content assets scheduled using the [Magento\_Staging module](http://devdocs.magento.com/guides/v2.2/mrg/ee/Staging.html)). For example, you may have deleted a Product with a scheduled update or removed the end date for the scheduled update.
+Accessing any storefront page or the Admin results in the 404 error (the "Whoops, our bad..." page) after performing operations with scheduled updates for store content assets using [Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (updates for store content assets scheduled using the [Magento\_Staging module](https://developer.adobe.com/commerce/php/module-reference/)). For example, you may have deleted a Product with a scheduled update or removed the end date for the scheduled update.
 
 A store content asset includes:
 

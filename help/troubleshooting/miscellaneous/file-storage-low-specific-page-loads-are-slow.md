@@ -25,8 +25,8 @@ Images are not optimized to balance performance with viewing quality.
 
 Before uploading images, optimize and compress them to balance performance with viewing quality. This helps increase space and reduce page load times. PNGs give smaller sizes for images with large areas of solid color. JPEGs give smaller sizes for everything else. Use the highest compression (without noticeable degradation). This is usually 60-80%.
 
-Use [Fastly image optimization](https://devdocs.magento.com/guides/v2.3/cloud/cdn/fastly-image-optimization.html) to produce more storage efficient images.
+Use [Fastly image optimization](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization.html) to produce more storage efficient images.
 
 ## Related reading
 
-To learn about managing your disk space (if you are on Adobe Commerce on cloud infrastructure) see [Manage disk space in Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=manage%20disk%20space) in our developer documentation.
+To learn about managing your disk space (if you are on Adobe Commerce on cloud infrastructure) see [Manage disk space in Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html) in the Commerce on Cloud Infrastructure Guide.
