@@ -33,7 +33,7 @@ Configure **[!UICONTROL Braintree sandbox payment]** method.
 1. Add product(s) to cart.
 1. Apply an auto generated coupon code.
 1. Try to place the order with a failed payment.
-1. Execute **[!DNL bin/magento cron:run] command, which will start the 'sales.rule.update.coupon.usage' to the consumer.
+1. Execute 'bin/magento cron:run' command, which will start the 'sales.rule.update.coupon.usage' to the consumer.
 1. Check the coupon usage in the Cart Price Rule under **[!UICONTROL Manage Coupon Codes]** tab.
 
 <u>Expected results</u>:
