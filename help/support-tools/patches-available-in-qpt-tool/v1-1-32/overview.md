@@ -12,7 +12,7 @@ QPT v1.1.32 includes the following patches:
 1. **ACSD-51305**: Fixes the issue where out-of-stock composite child products are not available in the GraphQL response.
 1. **ACSD-50621**: Fixes the issue where the Tier Prices for different websites in a shared catalog are not visible when trying to edit them in the multi-website environment.
 1. **ACSD-51041**: Fixes the issue where the price index takes a very long time to complete when there is a large product set.
-1. **ACSD-51379**: Fixes the issue where changes made to page text content via [!UICONTROL Page Builder] were not saved.
+1. **ACSD-51379**: Fixes the issue where changes made to page text content via [!UICONTROL Page Builder] are not saved.
 1. **ACSD-49480**: Fixes the issue where the [!UICONTROL Cart Price Rule] discards subsequent rules, making them not work as intended.
 1. **ACSD-51230**: Fixes the issue where the [!UICONTROL Gift Card] account is deleted when a partial refund of a simple product is processed from an order.
 1. **ACSD-51238**: Fixes the issue where the inventory source is removed when updating configurable products and editing the price.
