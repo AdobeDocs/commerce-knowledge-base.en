@@ -28,7 +28,7 @@ The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `count
 <u>Prerequisites</u>:
 
 * Server is pointing to [!DNL Varnish] proxying to Adobe Commerce backend.
-* Config setting `system/full_page_cache/caching_application` is set to *2* [!DNL Varnish], or go to Adobe Commerce Admin > **Stores** > **System** > **Full Page Cache** > **Caching Application** > and set it to [!DNL Varnish].
+* Config setting `system/full_page_cache/caching_application` is set to *2* ([!DNL Varnish]), or go to Adobe Commerce Admin > **[!UICONTROL Stores]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!UICONTROL Caching Application]** > and set it to [!DNL Varnish].
 
 After the patch is applied, run the following steps to ensure caching capability is now available:
 
