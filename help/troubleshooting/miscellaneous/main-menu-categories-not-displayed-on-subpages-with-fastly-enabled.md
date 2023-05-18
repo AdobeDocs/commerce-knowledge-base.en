@@ -1,11 +1,11 @@
 ---
 title: Main Menu (Categories) not displayed on subpages with Fastly enabled
-description: This article provides a fix for when the Main Menu (or the [Category Top Navigation menu](https://docs.magento.com/m2/ce/user_guide/catalog/navigation-top.html) in our user guide) is not displayed on storefront for subpages (for example, *blog/page*) when Fastly or Varnish is enabled.
+description: This article provides a fix for when the Main Menu (or the [Category Top Navigation menu](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in our user guide) is not displayed on storefront for subpages (for example, *blog/page*) when Fastly or Varnish is enabled.
 exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 ---
 # Main Menu (Categories) not displayed on subpages with Fastly enabled
 
-This article provides a fix for when the Main Menu (or the [Category Top Navigation menu](https://docs.magento.com/m2/ce/user_guide/catalog/navigation-top.html) in our user guide) is not displayed on storefront for subpages (for example, *blog/page*) when Fastly or Varnish is enabled.
+This article provides a fix for when the Main Menu (or the [Category Top Navigation menu](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in our user guide) is not displayed on storefront for subpages (for example, *blog/page*) when Fastly or Varnish is enabled.
 
  **Cause:** the non-permitted `/` character (slash) in the *URL Key* parameter of the page (Search Engine Optimization settings). The character is usually added when *URL Path* (with entire page location) is mistakenly specified instead of *URL Key*: for example, *blog/page\_name* instead of just *page\_name*.
 
@@ -19,7 +19,7 @@ This article provides a fix for when the Main Menu (or the [Category Top Navigat
 
 ## Issue
 
-The Main Menu (also referred to as the [Category Top Navigation menu](https://docs.magento.com/m2/ce/user_guide/catalog/navigation-top.html) in our user guide) is not displayed on storefront for subpages when Fastly or other Varnish-based services are enabled.
+The Main Menu (also referred to as the [Category Top Navigation menu](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) in our user guide) is not displayed on storefront for subpages when Fastly or other Varnish-based services are enabled.
 
 ## Cause
 
