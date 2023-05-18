@@ -24,7 +24,7 @@ The ACSD-50858 patch fixes a banner performance issue in the cart/checkout page:
 
 Banner performance is impacted in the cart/checkout page due to *excessive DB queries and increased page loading time*.
 
-However, by refactoring the way banners' contents are loaded, the number of DB queries was reduced by 99.99% and the page loading time by ~99%.
+This was fixed by refactoring the way banners' contents are loaded, which reduced the number of DB queries by 99.99% and the page loading time by ~99%.
 
 <u>Steps to reproduce</u>:
 
