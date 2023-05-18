@@ -61,9 +61,17 @@ To set up the missing MySQL table triggers, you need to re-set the indexer mode:
 
 Use the following command to perform this operation.
 
+>[!WARNING]
+>
+>Before switching indexer modes, we recommend putting your website in [maintenance](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode) mode and [disable cron jobs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs) to avoid database locks.
+
 ```bash
 php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 ```
+
+>[!INFO]
+>
+>The indexers-related database triggers are added when the indexer mode is set to schedule and removed when the indexer mode is set to realtime. If the triggers are missing from your database while the indexers are set to schedule, change the indexers to realtime and then change them back to schedule. This resets the triggers
 
 ## Related reading
 
