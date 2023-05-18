@@ -61,7 +61,7 @@ To apply individual patches, use the following links depending on your deploymen
 
 ## Additional steps
 
-banners.php content:
+<u>banners.php content</u>:
 
 ```php
 \Banner::class);
