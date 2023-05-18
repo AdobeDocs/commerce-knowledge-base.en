@@ -22,7 +22,7 @@ The ACSD-50116 patch fixes the issue where an admin user cannot create a URL rew
 
 ## Issue
 
-An admin user cannot create a URL rewrite for the subcategories of level three or lower.
+An admin user cannot create a URL rewrite for the sub-categories of level three or lower.
 
 <u>Steps to reproduce</u>:
 
