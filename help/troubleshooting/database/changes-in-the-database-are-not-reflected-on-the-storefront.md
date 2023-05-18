@@ -71,7 +71,7 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 >[!INFO]
 >
->The indexers-related database triggers are added when the indexer mode is set to schedule and removed when the indexer mode is set to realtime. If the triggers are missing from your database while the indexers are set to schedule, change the indexers to realtime and then change them back to schedule. This resets the triggers
+>The indexers-related database triggers are added when the indexer mode is set to schedule and removed when the indexer mode is set to realtime. If the triggers are missing from your database while the indexers are set to schedule, change the indexers to realtime and then change them back to schedule. This resets the triggers.
 
 ## Related reading
 
