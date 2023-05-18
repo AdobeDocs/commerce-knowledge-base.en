@@ -26,7 +26,7 @@ An admin user cannot create a URL rewrite for the sub-categories of level three 
 
 <u>Steps to reproduce</u>:
 
-1. Create a category tree which has more than three levels of subcategories.
+1. Create a category tree which has more than three levels of sub-categories.
 1. Try to create a *[!UICONTROL URL Rewrite]* for the level four category using both the *For Product* and *For Category* options.
 
 <u>Expected results</u>:
