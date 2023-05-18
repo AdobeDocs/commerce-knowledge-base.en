@@ -4,7 +4,7 @@ description: Apply the ACSD-50116 patch to fix the Adobe Commerce issue where an
 ---
 # ACSD-50116: An admin user cannot create a URL rewrite for the sub-categories of level three or lower
 
-The ACSD-50116 patch fixes the issue where an admin user cannot create a URL rewrite for the subcategories of level three or lower. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50116. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50116 patch fixes the issue where an admin user cannot create a URL rewrite for the sub-categories of level three or lower. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50116. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
