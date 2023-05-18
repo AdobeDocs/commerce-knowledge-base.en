@@ -31,11 +31,11 @@ An admin user cannot create a URL rewrite for the sub-categories of level three 
 
 <u>Expected results</u>:
 
-The category tree displays the categories up to level four or below.
+The category tree displays the sub-categories up to level four or below.
 
 <u>Actual results</u>:
 
-The category tree displays only up to level three categories.
+The category tree displays only up to level three sub-categories.
 
 ## Apply the patch
 
