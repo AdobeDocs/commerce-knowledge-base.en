@@ -564,7 +564,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-49129: Content attribute not returned in product media API responses](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49129-the-content-attribute-is-not-returned-in-product-media-api-responses.md)
     * v1.1.31 {#v1-1-31}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.31](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/overview.md)
-        * [ACSD-50817: Optimizes cron job sales clean quotes to run faster](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50817-optimizes-cron-job-sales-clean-quotes-to-run-faster.md)origin/mskb-2181-acsd-51306
+        * [ACSD-50817: Optimizes cron job sales clean quotes to run faster](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50817-optimizes-cron-job-sales-clean-quotes-to-run-faster.md)
         * [ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-51036-race-conditions-during-concurrent-rest-api-calls-cause-overwrite-of-shipping-status.md)
     * v1.1.32 {#v1-1-32}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.32](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/overview.md)main
