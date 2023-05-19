@@ -31,8 +31,7 @@ Google reCAPTCHA v2 does not reload after submitting a failed payment.
 1. Configure **[!UICONTROL Google reCAPTCHA v2]** (*I'm not a robot*).
 1. Enable the **[!UICONTROL reCAPTCHA]** for checkout.
 1. Try to place an order without clicking on **[!UICONTROL reCAPTCHA]**.
-1. Once you receive the error message for the missing reCAPTCHA (*reCAPTCHA validation failed, please try again*).
-1. Click on the **[!UICONTROL reCAPTCHA]** and then try placing an order.
+1. Once the user receives the error message for the missing reCAPTCHA (*reCAPTCHA validation failed, please try again*), click on the **[!UICONTROL reCAPTCHA]** and then try placing an order.
 
 <u>Expected results</u>
 
@@ -40,11 +39,11 @@ The order will not be placed with an incorrect reCAPTCHA.
 
 <u>Actual results</u>
 
-Throws an error *reCAPTCHA validation failed, please try again* and *No such cart with id = 4*
+An error is thrown - *reCAPTCHA validation failed, please try again* and *No such cart with id = 4*
 
 **Case #2**
 
-Google reCAPTCHA v3 Invisible is not working on checkout, and the order cannot be placed, `PlaceOrder` event was not triggered.
+Google reCAPTCHA v3 Invisible is not working on checkout, and the order cannot be placed, `PlaceOrder` event is not triggered.
 
 <u>Steps to reproduce</u>
 
