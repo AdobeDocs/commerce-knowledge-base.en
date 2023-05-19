@@ -22,7 +22,7 @@ It happens when the Variables are not updated after adding a new domain or the w
 ## Solution
 
 1. If the domain is redirecting within the same environment, make sure that you have configured the [Variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables).
-1. If the domain is redirecting to another environment, check whether you have configured the correct [!DNL Fastly] service by running the following command: `bin/magento fastly:config:get -s`.
+1. If the domain is redirecting to another environment, check whether you have configured the correct [!DNL Fastly] service by running the following command: `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
