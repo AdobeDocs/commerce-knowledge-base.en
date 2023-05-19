@@ -22,11 +22,26 @@ The ACSD-502345 patch fixes the issue where where the reCAPTCHA v2 and v3 valida
 
 ## Issue
 
+**Case #1**
+
 Google reCAPTCHA v2 does not reload after submitting a failed payment.
 
 <u>Steps to reproduce</u>
 
 1. Configure **[!UICONTROL Google reCAPTCHA v2]** (*I'm not a robot*).
 1. Enable the **[!UICONTROL reCAPTCHA]** for checkout.
-1. Try to place an order without clicking on reCAPTCHA.
-1. Checkout using **[!UICONTROL PayPal Express Checkout]** as the payment method.
+1. Try to place an order without clicking on **[!UICONTROL reCAPTCHA]**.
+1. Once you receive the error message for the missing reCAPTCHA (*reCAPTCHA validation failed, please try again*).
+1. Click on the **[!UICONTROL reCAPTCHA]** and then try placing an order.
+
+<u>Expected results</u>
+
+Order will not be placed with an incorrect reCAPTCHA.
+
+<u>Actual results</u>
+
+Thrown an error *reCAPTCHA validation failed, please try again* and *No such cart with id = 4*
+
+**Case #2**
+
+Google reCAPTCHA v3 Invisible is not working on checkout and the order cannot be placed, `PlaceOrder` event was not triggered.
