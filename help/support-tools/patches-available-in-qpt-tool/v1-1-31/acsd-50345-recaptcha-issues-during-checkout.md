@@ -54,8 +54,24 @@ Google reCAPTCHA v3 Invisible is not working on checkout, and the order cannot b
 
 <u>Expected results</u>
 
-The order will not be placed with an incorrect reCAPTCHA.
+The order should be placed with **[!UICONTROL reCAPTCHA]** turned on.
 
 <u>Actual results</u>
 
-Throws an error *reCAPTCHA validation failed, please try again* and *No such cart with id = 4*
+After clicking the **[!UICONTROL Place Order]** button, it gets disabled and nothing happens further.
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
+
+For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
