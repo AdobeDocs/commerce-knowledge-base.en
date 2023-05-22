@@ -45,7 +45,7 @@ You cannot use the term *contact* as your URL key, however, you can use the term
 
 Perform the following steps:
 
-1. Log in to the Commerce Admin.
+1. Log in to Commerce Admin.
 1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
 1. Click **[!UICONTROL Add URL Rewrite]**.
 1. Select *[!UICONTROL Custom]* on the [!UICONTROL Create URL Rewrite] drop-down.
