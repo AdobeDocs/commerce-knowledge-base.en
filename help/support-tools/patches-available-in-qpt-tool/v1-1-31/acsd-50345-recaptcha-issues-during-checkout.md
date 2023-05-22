@@ -57,7 +57,7 @@ The order should be placed with the **[!UICONTROL reCAPTCHA]** turned on.
 
 <u>Actual results</u>
 
-After clicking the **[!UICONTROL Place Order]** button, it gets disabled and nothing happens further.
+After clicking the **[!UICONTROL Place Order]** button, it gets disabled, and nothing happens further.
 
 ## Apply the patch
 
