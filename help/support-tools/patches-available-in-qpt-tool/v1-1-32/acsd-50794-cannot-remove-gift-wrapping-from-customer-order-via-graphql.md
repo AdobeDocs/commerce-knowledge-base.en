@@ -49,6 +49,7 @@ Users cannot remove a gift_wrapping from customer order via graphql.
     }
     }
     </code></pre>
+    
 1. Set gift wrap using `setGiftOptionsOnCart`.
 1. Check the cart: cart query.
 1. Unset Gift wrap using `setGiftOptionsOnCart` (set value to null).
