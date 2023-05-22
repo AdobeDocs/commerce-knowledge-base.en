@@ -565,6 +565,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-49877: Video autoplay does not work on mobile Safari](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49877-the-video-autoplay-option-does-not-work-on-mobile-safari.md)
     * v1.1.31 {#v1-1-31}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.31](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/overview.md)
+        * [ACSD-49392: Order status changes to closed after partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-49392-order-status-changes-to-closed-after-partial-refund.md)
         * [ACSD-50817: Optimizes cron job sales clean quotes to run faster](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50817-optimizes-cron-job-sales-clean-quotes-to-run-faster.md)
     * v1.1.32 {#v1-1-32}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.32](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/overview.md)
