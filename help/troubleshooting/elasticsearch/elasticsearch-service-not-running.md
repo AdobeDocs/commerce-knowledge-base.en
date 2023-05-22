@@ -50,7 +50,7 @@ Elasticsuite indices not being deleted.  See <a href="https://experienceleague.a
 <td rowspan="4">
 <ul>
 <li>Resources for insufficient disk space:<ul>
-<li><a href="http://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk">8 Tips to Solve Linux & Unix Systems Hard Disk Problems Like Disk Full Or Can't Write to the Disk</a></li>
+<li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">8 Tips to Solve Linux & Unix Systems Hard Disk Problems Like Disk Full Or Can't Write to the Disk</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfault: df says disk is full, but it is not</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com: Tracking down where disk space has gone on Linux?</a></li>
 <li>Log files are not archived regularly enough. See <a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive">Configure the Log Archive</a> in our developer documentation.</li>

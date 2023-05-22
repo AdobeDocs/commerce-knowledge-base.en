@@ -9,7 +9,11 @@ This article provides a solution for the issue where [!DNL Elasticsearch] is sti
 
 ## Affected versions
 
-Adobe Commerce on cloud (all versions)
+Adobe Commerce on cloud 2.4.3-p2 - 2.4.5-p2
+
+>[!NOTE]
+>
+>[!DNL OpenSearch] is available as a search engine starting from Adobe Commerce 2.4.6.
 
 ## Issue
 
