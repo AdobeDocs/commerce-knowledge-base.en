@@ -17,7 +17,7 @@ The cron stopped working.
 
 ## Cause
 
-The OpCache module was updated to a newer version which introduced a GraphQL plugin that rewrites the `env.php` in runtime and could override the cron setting. The OpCache configuration needs to be updated in order to avoid any issues with the `env.php file`, and that was solved in [version 2002.1.13](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) of the ECE Tools package.
+The OpCache module was updated to a newer version which introduced a GraphQL plugin that rewrites the `env.php` in runtime and could override the cron setting which may have caused the issue. The OpCache configuration needs to be updated in order to avoid any issues with the `env.php file`, and that was solved in [version 2002.1.13](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) of the ECE Tools package.
 
 ## Solution
 
@@ -26,6 +26,8 @@ Option 1: Run the following in the command-line tool:
 ```bash
 bin/magento cron:run
 ```
+
+A message might display that the cron is disabled.
 
 Option 2: Open the `app/etc/env.php` file - if you see the below, then the cron was disabled manually, was not re-enabled due to a failed deployment, or the issue was related to the OpCache settings.
 
