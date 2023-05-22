@@ -43,7 +43,7 @@ An error is thrown - *reCAPTCHA validation failed, please try again* and *No suc
 
 **Case #2**
 
-Google reCAPTCHA v3 Invisible is not working on checkout, and the order cannot be placed, `PlaceOrder` event is not triggered.
+Google reCAPTCHA v3 Invisible is not working on checkout, and the order cannot be placed. `PlaceOrder` event is not triggered.
 
 <u>Steps to reproduce</u>
 
