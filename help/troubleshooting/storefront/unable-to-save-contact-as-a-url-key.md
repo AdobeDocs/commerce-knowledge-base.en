@@ -49,7 +49,7 @@ Perform the following steps:
 1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
 1. Click **[!UICONTROL Add URL Rewrite]**.
 1. Select *[!UICONTROL Custom]* on the [!UICONTROL Create URL Rewrite] drop-down.
-    1. In the [!UICONTROL Request Path] type "contact". Note the [!UICONTROL Request Path] is what a user enters in the browser and the [!UICONTROL Target Path] is where it should redirect to.
+    1. In the [!UICONTROL Request Path], type "contact". Note that the [!UICONTROL Request Path] is what a user enters in the browser and the [!UICONTROL Target Path] is where it should redirect to.
     1. Type in the [!UICONTROL Target Path] the new URL key (For example, "contact1").
     1. Select *[!UICONTROL No]* in the [!UICONTROL Redirect] drop-down.
 
