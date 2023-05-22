@@ -26,7 +26,7 @@ Order status changes to closed after a partial refund for a bundled product.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to admin and create any bundled product or use the existing bundled product.
+1. Log in to Adobe Commerce and create any bundled product or use the existing bundled product.
 1. Place an order with this bundled product with a quantity greater than 1.
 1. Go to admin, and open the order created in step 2 from **[!UICONTROL Sales]** > **[!UICONTROL Order]** and create an invoice. Observe the order status. It will be in processing.
 1. Create a partial credit memo (do not refund for all products in the bundle).
