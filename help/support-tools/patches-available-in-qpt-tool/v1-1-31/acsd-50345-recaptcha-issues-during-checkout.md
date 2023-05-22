@@ -48,7 +48,7 @@ Google reCAPTCHA v3 Invisible is not working on checkout, and the order cannot b
 <u>Steps to reproduce</u>
 
 1. Configure the **[!UICONTROL reCAPTCHA v3 Invisible]** from the **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Security]**.
-1. Enable **[!UICONTROL reCAPTCHA v3 Invisible]** for checkout/placing order under the **[!UICONTROL Storefront]** tab.
+1. Enable **[!UICONTROL reCAPTCHA v3 Invisible]** for checkout/placing an order under the **[!UICONTROL Storefront]** tab.
 1. Try to place an order with the [!UICONTROL Check/Money order] payment method.
 
 <u>Expected results</u>
