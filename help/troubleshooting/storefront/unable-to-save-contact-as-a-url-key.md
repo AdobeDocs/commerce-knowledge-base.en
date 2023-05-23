@@ -41,7 +41,7 @@ You cannot save the page. You get the error: *The value specified in the URL Key
 
 ## Solution
 
-You cannot use the term *contact* as your URL key, however, you can use the term *contact* combined with another letter or number (for example, *contact1* and *contact2*). Although the term does not have to be *contact+<another number or letter>*, the term could be any string as long as the length does not exceed 255 characters.
+You cannot use the term *contact* as your URL key, however, you can use the term *contact* combined with another letter or number (for example, *contact1* and *contact2*). Although the term does not have to be *contact+\<another number or letter\>*, the term could be any string as long as the length does not exceed 255 characters.
 
 Perform the following steps:
 
