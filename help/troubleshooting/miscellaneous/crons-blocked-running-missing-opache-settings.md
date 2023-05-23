@@ -48,6 +48,6 @@ If this file is not present, please add https://github.com/magento/magento-cloud
 
 ## Related reading
 
-* [Cron readiness check issues](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html?lang=en)
+* [Cron readiness check issues](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
 * [Crons property](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
 * [Cron job is stuck in “running” status](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
