@@ -43,7 +43,7 @@ Option 2: Open the `app/etc/env.php` file - if you see the below, then the cron 
 `composer show magento/ece-tools`
 1. If you are already on the latest version of ECE Tools, check for the presence of the `op-exclude.txt` file. To do so, run this command:
 `ls op-exclude.txt`
-If this file is not present, please add https://github.com/magento/magento-cloud/blob/master/op-exclude.txt to your repo then commit the change and redeploy.
+If this file is not present, add https://github.com/magento/magento-cloud/blob/master/op-exclude.txt to your repo, then commit the change and redeploy.
 1. Without having to upgrade ECE Tools, you can also just add/modify https://github.com/magento/magento-cloud/blob/master/op-exclude.txt in your repo, then commit the change and redeploy.
 
 ## Related reading
