@@ -1,5 +1,5 @@
 ---
-title: Cron stops due to misconfigured or missing OpCache settings Adobe Commerce
+title: Cron stops due to misconfigured or missing OpCache settings 
 description: This article provides a solution for when crons stop working due to misconfigured or missing OpCache settings Adobe Commerce.
 ---
 
