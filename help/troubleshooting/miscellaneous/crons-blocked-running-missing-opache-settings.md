@@ -17,7 +17,7 @@ The cron stopped working.
 
 ## Cause
 
-The OpCache module was updated to a newer version which introduced a GraphQL plugin that rewrites the `env.php` in runtime and could override the cron setting which may have caused the issue. The OpCache configuration needs to be updated in order to avoid any issues with the `env.php file`, and that was solved in [version 2002.1.13](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) of the ECE Tools package.
+The OpCache module was updated to a newer version which introduced a GraphQL plugin that rewrites the `env.php` in runtime and could override the cron setting, which may have caused the issue. The OpCache configuration needs to be updated in order to avoid any issues with the `env.php file`, and that was solved in [version 2002.1.13](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) of the ECE Tools package.
 
 ## Solution
 
