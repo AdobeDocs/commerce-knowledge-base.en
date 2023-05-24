@@ -1,5 +1,5 @@
 ---
-title: Cannot save *contact* as URL key
+title: "Cannot save *contact* as URL key"
 description: This article provides a workaround for the issue when you are not able to save *contact* as a URL key (e.g., "/contact") for products or CMS pages. When you try to save the URL key, you receive an error that indicates that the URL key is a duplicate URL.
 ---
 # Cannot save *contact* as the URL key
