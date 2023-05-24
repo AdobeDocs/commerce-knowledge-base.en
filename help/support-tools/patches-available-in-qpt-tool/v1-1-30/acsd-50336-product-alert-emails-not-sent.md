@@ -41,7 +41,7 @@ An email notification about the product being *back in stock* is sent to the cus
 
 <u>Actual results</u>:
 
-The customer does not receive an email notification about the product being returned to stock. The following error appears in log:
+The customer does not receive an email notification about the product being *back in stock*. The following error appears in the log:
 
 ```
 report. CRITICAL: Magento\ProductAlert\Model\Mailing\ErrorEmailSender::execute(): Argument #2 ($storeId) must be of type int, string given, called in vendor/magento/module-product-alert/Model/Mailing/AlertProcessor.php on line 130 [] [] 
