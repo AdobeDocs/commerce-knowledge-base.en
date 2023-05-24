@@ -532,8 +532,9 @@ breadcrumb-title: Commerce KB
         * [ACSD-48204: Catalog price rule created based on Yes or No attribute doesn't consider selected scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-48204-catalog-price-rule-created-based-on-yes-no-attribute-does-not-consider-the-selected-scope.md)
         * [ACSD-49370: Product attribute has "FilterMatchTypeInput" type in GraphQL schema](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-49370-product-attribute-filtermatchtypeinput-type.md)
         * [ACSD-47704: Bundled product shows in stock products price only](/help/support-tools/patches-available-in-qpt-tool/v1-1-28/acsd-47704-bundled-product-shows-in-stock-products-price-only.md)
-    * v1.1.29 {#v1-1-29} 
+    * v1.1.29 {#v1-1-29}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.29](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/overview.md)
+        * [ACSD-49389: Ready for pickup email sent by API when not ready for pickup](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49389-ready-pickup-email-sent-api.md)
         * [ACSD-49706: Default value saved for visual swatch attribute when no value is selected](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49706-default-value-saved-for-visual-swatch-attribute-when-no-value-is-selected.md)
         * [ACSD-49960: Filtering by date doesn't work for the customer order grid](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49960-filtering-by-date-does-not-work-for-customer-order-grid.md)
         * [ACSD-49822: Updates on requisition list not reflected on print requisition list](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49822-updates-on-requisition-list-page-not-reflected-on-print.md)
@@ -554,6 +555,23 @@ breadcrumb-title: Commerce KB
     * v1.1.30 {#v1-1-30}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.30](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/overview.md)
         * [ACSD-50367: Customer address export does not work](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50367-customer-address-export-does-not-work.md)
+        * [BB2B-2598: Adds caching capability to storeConfig, currency, country, countries, availableStores GraphQl queries](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/bb2b-2598-add-caching-capability.md)
+        * [ACSD-49973: Improved performance fetching bundled products via [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49973-improved-performance-fetching-bundled-products-via-graphql.md)
+        * [ACSD-50116: An admin user cannot create a URL rewrite](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50116-admin-user-cannot-create-a-url-rewrite.md)
+        * [ACSD-50276: Customer registration form doesn't work on storefront if multi-select customer attribute is created](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50276-customer-registration-form-does-not-work-on-the-storefront.md)
+        * [ACSD-50527: Error upon saving a page with empty dynamic block](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50527-error-when-saving-page-with-empty-dynamic-block.md)
+        * [ACSD-49513: Remote storage synchronization fails](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49513-remote-storage-synchronization-fails.md)
+        * [ACSD-50336: Product alert emails not sent](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50336-product-alert-emails-not-sent.md)
+        * [ACSD-46683: Shipping price shows not yet calculated](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-46683-shipping-price-shows-not-yet-calculated.md)
+        * [ACSD-49129: Content attribute not returned in product media API responses](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49129-the-content-attribute-is-not-returned-in-product-media-api-responses.md)
+        * [ACSD-50814: Admin user is not able to create credit memo](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50814-an-admin-user-is-not-able-to-create-credit-memo.md)
+        * [ACSD-49877: Video autoplay does not work on mobile Safari](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49877-the-video-autoplay-option-does-not-work-on-mobile-safari.md)
+    * v1.1.31 {#v1-1-31}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.31](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/overview.md)
+        * [ACSD-49392: Order status changes to closed after partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-49392-order-status-changes-to-closed-after-partial-refund.md)
+        * [ACSD-50817: Optimizes cron job sales clean quotes to run faster](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50817-optimizes-cron-job-sales-clean-quotes-to-run-faster.md)
+    * v1.1.32 {#v1-1-32}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.32](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -825,6 +843,8 @@ breadcrumb-title: Commerce KB
     * [Modules missing from Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
     * [Former team members receive Adobe Commerce cloud notification emails](/help/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.md)
     * [New domain is redirecting to default domain](/help/troubleshooting/miscellaneous/new-domain-redirecting.md)
+    * [Unable to add user to Adobe Commerce cloud project](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
+    * [Cron stops due to misconfigured or missing OpCache settings](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
@@ -971,6 +991,7 @@ breadcrumb-title: Commerce KB
   * [Change current Adobe account email address to new address](/help/how-to/general/change-current-adobe-account-email-address-to-new-address.md)
   * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [How to change email address on magento.com account when the field is grayed out](/help/how-to/general/change-email-address-on-magento-account.md)
+  * [How to remove Magento Order Management](/help/how-to/general/how-to-remove-mom.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)

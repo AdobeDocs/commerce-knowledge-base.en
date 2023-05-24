@@ -7,7 +7,7 @@ exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 
 Stuck deployments and failed deployments on Adobe Commerce can be solved using the Deployment troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.
 
-## Step 1
+## Step 1 - Verify the service is running
 
 +++**Is Adobe Commerce on cloud infrastructure service up?**
 
@@ -18,133 +18,163 @@ b. NO – Maintenance or global outages. Check for estimated duration and update
 
 +++
 
-## Step 2
+## Step 2 - Check deployments in other environments
 
-+++**SSH successful to all nodes?**
++++**Are there deployments in other environments that are blocking the deployment in the existing environment?**
 
-a. YES – Proceed to [Step 3](#step-3).  
-b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+To get a list of ongoing activities run the following command using magento-cloud CLI (if you have only been added to one cloud project):
+
+```bash
+magento-cloud --state=in_progress
+```
+
+To get a list of ongoing activities run the following command using magento-cloud CLI (if you have been added to multiple projects):
+
+```bash
+magento-cloud -p <project-id or project-url> --state=in_progress
+```
+
+To find information about an existing deployment activity (refer to [Checking deployment log if Cloud UI has “log snipped” error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+for details) you can run this command to obtain a running log of that activity:
+
+```bash
+magento-cloud activity:log <activity-id> [OPTIONAL: <-p project-id or project-url>]
+```
+
+a. YES – Troubleshoot the other environment blocking deployment in the existing environment. Proceed to [Step 3](#step-3).
+
+b. NO – Troubleshoot the current environment. Proceed to [Step 3](#step-3).
 
 +++
 
-## Step 3
 
-+++**All services running?**
+## Step 3 - Verify SSH on all nodes
+
++++**SSH successful to all nodes?**
 
 a. YES – Proceed to [Step 4](#step-4).  
 b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
-## Step 4
+## Step 4 - Verify all services running
+
++++**All services running?**
+
+a. YES – Proceed to [Step 5](#step-5).  
+b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+
++++
+
+## Step 5 - Verify Bitbucket running
 
 +++**Using Bitbucket?**
 
 a. YES – Check [status.bitbucket.com](https://bitbucket.status.atlassian.com/).  
-b. NO – Check deployment log errors in the [Build and Deploy logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Proceed to [Step 5](#step-5).
+b. NO – Check deployment log errors in the [Build and Deploy logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Proceed to [Step 6](#step-6).
 
 +++
 
-## Step 5
+## Step 6 - Check error codes
 
 +++**Error code reported?**
 
-a. YES – Proceed to [Step 6](#step-6).  
-b. NO – Proceed to [Step 7](#step-7).
-
-+++
-
-## Step 6
-
-+++**403 Forbidden?**
-
-a. YES – Proceed to [Step 15.](#step-15)  
+a. YES – Proceed to [Step 7](#step-7).  
 b. NO – Proceed to [Step 8](#step-8).
 
 +++
 
-## Step 7
+## Step 7 - 403 Forbidden error
+
++++**403 Forbidden?**
+
+a. YES – Proceed to [Step 16](#step-16).
+b. NO – Proceed to [Step 9](#step-9).
+
++++
+
+## Step 8 - Verify cron jobs running
 
 +++**Are cron jobs currently running?**
 
 a. YES – Log in by ssh on the integration branch (e.g., primary). Kill and unlock cron jobs. This will kill cron jobs and reset the status. Run `php vendor/bin/ece-tools cron:kill` and then `php vendor/bin/ece-tools cron:unlock`. If you were in the process of merging one environment into another, check both environments for running crons.  
-b. NO – Proceed to [Step 16.](#step-16)
+b. NO – Proceed to [Step 17](#step-17).
 
 +++
 
-## Step 8
+## Step 9 - Application deployable to remote cluster error
 
 +++**Unable to upload application to the remote cluster error?**
 
-a. YES – Proceed to [Step 9](#step-9).  
-b. NO – Proceed to [Step 10.](#step-10)
+a. YES – Proceed to [Step 10](#step-10).  
+b. NO – Proceed to [Step 11](#step-11).
 
 +++
 
-## Step 9
+## Step 10 - Check sufficient storage
 
 +++**Available storage okay?**
 
-a. YES – Proceed with [Step 10](#step-10).  
+a. YES – Proceed with [Step 11](#step-11).  
 b. NO – Review [Manage disk space](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html).
 
 +++
 
-## Step 10
+## Step 11 - Verify disk space
 
 +++**_file could not be written Warning_?**
 
 a. YES – Please [increase the disk value in .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) and redeploy. If this does not work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
-b. NO – Proceed with [Step 11](#step-11).
+b. NO – Proceed with [Step 12](#step-12).
 
 +++
 
-## Step 11
+## Step 12 - Environment redeployment failed error
 
 +++**Environment redeployment failed error?**
 
-a. YES – Proceed with [Step 12](#step-12).  
-b. NO – Proceed with [Step 7](#step-7).
+a. YES – Proceed with [Step 13](#step-13).  
+b. NO – Proceed with [Step 8](#step-8).
 
 +++
 
-## Step 12
+## Step 13 - Check for Elasticsearch upgrade fail
 
 +++**Elasticsearch being upgraded or deployed?**
 
 a. YES – Elasticsearch failed upgrade steps. Refer to [Elasticsearch software compatibility](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). If the Elasticsearch upgrade still doesn't work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Note**: On Adobe Commerce on cloud infrastructure, please be aware that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within the desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailing your required service upgrade and stating the time when you want the upgrade process to start.  
-b. NO – Proceed to [Step 13](#step-13).
-
-+++
-
-## Step 13
-
-+++**File system out of inodes or space?**
-
-a. YES – See [Manage disk space](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space).  
 b. NO – Proceed to [Step 14](#step-14).
 
 +++
 
-## Step 14
+## Step 14 - Check space limits
 
-+++**Error about Elasticseach versions?**
++++**File system out of inodes or space?**
 
-a. YES – Proceed to [Step 15](#step-15).  
-b. NO – Proceed to [Step 20](#step-20).
+a. YES – See [Manage disk space](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space).  
+b. NO – Proceed to [Step 15](#step-15).
 
 +++
 
-## Step 15
+## Step 15 - Elasticsearch version error
+
++++**Error about Elasticseach versions?**
+
+a. YES – Proceed to [Step 16](#step-16).  
+b. NO – Proceed to [Step 21](#step-21).
+
++++
+
+## Step 16 - Verify Composer config
 
 +++**Composer config correct?**
 
-a. YES – Proceed to [Step 9](#step-9).  
+a. YES – Proceed to [Step 10](#step-10).  
 b. NO – Review [Composer Troubleshooter webpage](https://getcomposer.org/doc/articles/troubleshooting.md).
 
 +++
 
-## Step 16
+## Step 17 - Check for long running processes
 
 +++**Long running processes(es)?**
 
@@ -155,40 +185,40 @@ a. YES – Identify long running processes and then kill processes:
 
 Monitor deployments for reoccurrence.  
 
-b. NO – Proceed to [Step 17](#step-17).
-
-+++
-
-## Step 17
-
-+++**Post hook failure/hang?**
-
-a. YES – Database: [Free disk space](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), corruption, incomplete/corrupted tables.  
 b. NO – Proceed to [Step 18](#step-18).
 
 +++
 
-## Step 18
+## Step 18 - Check for post hook failure
 
-+++**Using third-party extensions?**
++++**Post hook failure/hang?**
 
-a. YES – Try [Disabling the third-party extensions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) and running the deployment (to see if they are the cause of the problem), especially if there are extension names in any errors.  
+a. YES – Database: [Free disk space](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), corruption, incomplete/corrupted tables.  
 b. NO – Proceed to [Step 19](#step-19).
 
 +++
 
-## Step 19
+## Step 19 - Check if third-party extensions block deployment
+
++++**Using third-party extensions?**
+
+a. YES – Try [Disabling the third-party extensions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) and running the deployment (to see if they are the cause of the problem), especially if there are extension names in any errors.  
+b. NO – Proceed to [Step 20](#step-20).
+
++++
+
+## Step 20 - Check for slow queries
 
 +++**Long running queries?**
 
-[Check slow query log and MySQL show processlist](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md). 
+[Check slow query log and MySQL show processlist](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md).
 
 a. YES – Kill any long running queries. Review [MySQL Kill Syntax.](https://dev.mysql.com/doc/refman/8.0/en/kill.html)  
 b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
-## Step 20
+## Step 21 - Downgrade Elasticsearch version
 
 +++**Downgrading Elasticsearch versions?**
 
