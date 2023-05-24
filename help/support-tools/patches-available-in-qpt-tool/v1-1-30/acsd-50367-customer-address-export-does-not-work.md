@@ -37,7 +37,7 @@ Create a customer with an address.
 
 <u>Expected results</u>:
 
-The customer addresses can be exported as a CSV file when a multi-select Customer address attribute is created.
+The customer addresses can be exported as a CSV file when a multi-select **`Customer Address`** attribute is created.
 
 <u>Actual results</u>:
 
