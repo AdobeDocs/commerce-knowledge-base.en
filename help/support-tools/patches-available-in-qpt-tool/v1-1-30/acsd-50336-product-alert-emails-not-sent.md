@@ -33,7 +33,7 @@ Set up product alerts for when a product is added back to stock.
 1. Log in as a customer on the storefront.
 1. Open a product that is not in stock.
 1. Subscribe to receive a notification when the product is *back in stock*.
-1. Update the product from Admin to be back in stock.
+1. Update the product from [!UICONTROL Admin] to be _back in stock_.
 
 <u>Expected results</u>:
 
