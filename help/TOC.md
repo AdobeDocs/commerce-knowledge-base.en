@@ -554,6 +554,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-49527: GraphQL company roles don't display pagination correctly](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49527-graphql-company-roles-dont-display-pagination-correctly.md)
     * v1.1.30 {#v1-1-30}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.30](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/overview.md)
+        * [ACSD-50367: Customer address export does not work](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50367-customer-address-export-does-not-work.md)
         * [BB2B-2598: Adds caching capability to storeConfig, currency, country, countries, availableStores GraphQl queries](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/bb2b-2598-add-caching-capability.md)
         * [ACSD-49973: Improved performance fetching bundled products via [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49973-improved-performance-fetching-bundled-products-via-graphql.md)
         * [ACSD-50116: An admin user cannot create a URL rewrite](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50116-admin-user-cannot-create-a-url-rewrite.md)
