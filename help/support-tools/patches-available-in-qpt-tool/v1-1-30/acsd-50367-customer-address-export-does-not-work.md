@@ -22,7 +22,7 @@ The ACSD-50367 patch fixes the issue where the customer address export does not 
 
 ## Issue
 
-Customer address export doesn't work when a multi-select customer address attribute without values is created.
+Customer address export doesn't work when a multi-select **`Customer Address`** attribute without values is created.
 
 <u>Prerequisites</u>:
 
