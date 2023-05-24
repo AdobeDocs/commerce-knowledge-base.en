@@ -5,7 +5,7 @@ description: 'This article provides a solution for the deployment error: *"error
 
 # Deployment error: *error 7 while downloading ... port 443: Connection refused* on Adobe Commerce
 
-This article provides a fix for the issue when deployment fails with the following error message:
+This article provides a fix for the issue when deployment fails with the following error message in the deploy log:
 
 ```bash
 W: In CurlDownloader.php line 370:
