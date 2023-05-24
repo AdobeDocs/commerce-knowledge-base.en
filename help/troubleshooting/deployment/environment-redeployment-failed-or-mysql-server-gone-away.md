@@ -49,7 +49,7 @@ mysql:
 
 See the [Set up MySQL service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html) article for reference.
 
-To make these changes for the Staging or Production environment of the Pro architecture, you must create a [Support ticket](http://support.magento.com/). But typically, you will not have to deal with this on Staging/Production of the Pro architecture as Adobe Commerce monitors these parameters for you and alerts you and/or takes actions according to the contract.
+To make these changes for the Staging or Production environment of the Pro architecture, you must create a [Support ticket](https://support.magento.com). But typically, you will not have to deal with this on Staging/Production of the Pro architecture as Adobe Commerce monitors these parameters for you and alerts you and/or takes actions according to the contract.
 
 ### Applying the changes
 

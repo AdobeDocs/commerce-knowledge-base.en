@@ -57,8 +57,8 @@ Change your PayPal profile to allow for multiple payments per invoice ID. You ne
 
 * [Block accidental payments](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments) on PayPal Developer Docs.
 * PayPal payments in our user guide:
-    * [PayPal Express Checkout](http://docs.magento.com/m2/ee/user_guide/payment/paypal-express-checkout.html)
-    * [Other PayPal Solutions](http://docs.magento.com/m2/ee/user_guide/payment/paypal.html)
+    * [PayPal Express Checkout](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html)
+    * [Other PayPal Solutions](/docs/commerce-admin/stores-sales/payments/paypal/paypal.html)
 * In our developer documentation:
-    * [Set up PayPal payment methods for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/paypal.html)
+    * [Set up PayPal payment methods for Adobe Commerce on cloud infrastructure](/docs/commerce-cloud-service/user-guide/configure-store/paypal.html)
     * [Payments Integrations](https://developer.adobe.com/commerce/php/development/payments-integrations/)

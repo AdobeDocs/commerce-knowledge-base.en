@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49513: Remote storage synchronization fails'
-description: Apply the ACSD-49513 patch to fix the Adobe Commerce issue where the remote storage synchronization fails because of 0-byte files.
-exl-id: 24d72436-bac7-4737-8215-f06aae1ad82c
+title: 'ACSD-50527: Error upon saving a page with empty dynamic block'
+description: Apply the ACSD-50527 patch to fix the Adobe Commerce issue where an error occurs when saving a page with an empty dynamic block.
+exl-id: a60a6dc1-3646-41e0-a039-a024397e4363
 ---
-# ACSD-49513: Remote storage synchronization fails because of 0-byte files
+# ACSD-50527: Error upon saving a page with empty dynamic block
 
-The ACSD-49513 patch fixes the issue where the remote storage synchronization fails because of 0-byte files. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49513. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50527 patch fixes the issue where an error occurs when saving a page with an empty dynamic block. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50527. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.4-p3
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,28 +23,25 @@ The ACSD-49513 patch fixes the issue where the remote storage synchronization fa
 
 ## Issue
 
-The remote storage synchronization fails because of 0-byte files.
+An error occurs when saving a page with an empty dynamic block.
 
 <u>Steps to reproduce</u>:
 
-1. Configure the AWS S3 as the remote storage.
-1. Execute `[bin/magento remote-storage:sync]` to make sure the synchronization works properly at the beginning.
-1. Create a 0-byte file inside the `[pub/media]`.
-1. Execute `[bin/magento remote-storage:sync]` again.
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Content]** > **[!UICONTROL Dynamic Block]** and create a new dynamic block with empty content.
+1. Go to **[!UICONTROL Content]** > **[!UICONTROL Page]** > **[!UICONTROL Create or Edit a new page]**.
+1. Add two row elements to the content. Then add the new dynamic block created above.
 
 <u>Expected results</u>:
 
-Since the AWS S3 accepts 0-byte files on the S3 direct push, there is no error.
+No error is displayed for a dynamic block with empty content in the [!DNL Page Builder].
 
 <u>Actual results</u>:
 
-The following error happens:
+The [!UICONTROL Dynamic Block] placeholder shows the error: 
 
-```PHP
-Uploading media files to remote storage.
-In File.php line 387:
-  The file or directory "pub/media/xxxx.file" cannot be copied to "*.amazonaws.com/media/xxxx.file"
-```
+>[!ERROR]
+>
+>An unknown error occurred. Please try again.
 
 ## Apply the patch
 
@@ -52,10 +49,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 

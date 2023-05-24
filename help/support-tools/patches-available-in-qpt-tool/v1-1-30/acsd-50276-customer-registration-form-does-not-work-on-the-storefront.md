@@ -1,21 +1,20 @@
 ---
-title: 'ACSD-49513: Remote storage synchronization fails'
-description: Apply the ACSD-49513 patch to fix the Adobe Commerce issue where the remote storage synchronization fails because of 0-byte files.
-exl-id: 24d72436-bac7-4737-8215-f06aae1ad82c
+title: "ACSD-50276: Customer registration form doesn't work on storefront if multi-select customer attribute is created"
+description: Apply the ACSD-50276 patch to fix the Adobe Commerce issue where the customer registration form doesn't work on the storefront if a multi-select customer attribute is created.
 ---
-# ACSD-49513: Remote storage synchronization fails because of 0-byte files
+# ACSD-50276: Customer registration form doesn't work on storefront if multi-select customer attribute is created
 
-The ACSD-49513 patch fixes the issue where the remote storage synchronization fails because of 0-byte files. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49513. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50276 patch fixes the issue where the customer registration form doesn't work on the storefront if a multi-select customer attribute is created. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50276. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.4-p3
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,28 +22,29 @@ The ACSD-49513 patch fixes the issue where the remote storage synchronization fa
 
 ## Issue
 
-The remote storage synchronization fails because of 0-byte files.
+The customer registration form doesn't work on the storefront if a multi-select customer attribute is created. 
 
 <u>Steps to reproduce</u>:
 
-1. Configure the AWS S3 as the remote storage.
-1. Execute `[bin/magento remote-storage:sync]` to make sure the synchronization works properly at the beginning.
-1. Create a 0-byte file inside the `[pub/media]`.
-1. Execute `[bin/magento remote-storage:sync]` again.
+1. Create a new multi-select customer attribute with the following settings:
+
+    * *[!UICONTROL Required = Yes]*
+    * *[!UICONTROL Show on storefront = Yes]*, select *[!UICONTROL Customer registration form]*.
+    
+1. Open the customer registration form on the storefront.
 
 <u>Expected results</u>:
 
-Since the AWS S3 accepts 0-byte files on the S3 direct push, there is no error.
+The customer registration form loads successfully.
 
 <u>Actual results</u>:
 
-The following error happens:
+* The customer registration form does not load.
+* The following error is logged:
 
-```PHP
-Uploading media files to remote storage.
-In File.php line 387:
-  The file or directory "pub/media/xxxx.file" cannot be copied to "*.amazonaws.com/media/xxxx.file"
-```
+    ```PHP
+    report. CRITICAL: Exception: Deprecated Functionality: explode(): Passing null to parameter #2 ($string) of type string is deprecated in vendor/magento/module-custom-attribute-management/Block/Form/Renderer/Multiselect.php
+    ```
 
 ## Apply the patch
 
@@ -52,10 +52,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 

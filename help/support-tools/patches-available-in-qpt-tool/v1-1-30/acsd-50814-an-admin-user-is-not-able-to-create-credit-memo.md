@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49513: Remote storage synchronization fails'
-description: Apply the ACSD-49513 patch to fix the Adobe Commerce issue where the remote storage synchronization fails because of 0-byte files.
-exl-id: 24d72436-bac7-4737-8215-f06aae1ad82c
+title: "ACSD-50814: Admin user not able to create credit memo"
+description: Apply the ACSD-50814 patch to fix the Adobe Commerce issue where an admin user is not able to create a credit memo.
 ---
-# ACSD-49513: Remote storage synchronization fails because of 0-byte files
 
-The ACSD-49513 patch fixes the issue where the remote storage synchronization fails because of 0-byte files. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49513. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+# ACSD-50814: Admin user is not able to create credit memo
+
+The ACSD-50814 patch fixes the issue where an admin user is not able to create a credit memo. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50814. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.4-p3
+* Adobe Commerce (all deployment methods) 2.4.6
 
 >[!NOTE]
 >
@@ -23,27 +23,33 @@ The ACSD-49513 patch fixes the issue where the remote storage synchronization fa
 
 ## Issue
 
-The remote storage synchronization fails because of 0-byte files.
+An admin user is not able to create a credit memo.
 
 <u>Steps to reproduce</u>:
 
-1. Configure the AWS S3 as the remote storage.
-1. Execute `[bin/magento remote-storage:sync]` to make sure the synchronization works properly at the beginning.
-1. Create a 0-byte file inside the `[pub/media]`.
-1. Execute `[bin/magento remote-storage:sync]` again.
+1. In the Adobe Commerce Admin, navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Shipping methods]** > **[!UICONTROL Free shipping]** and set **[!UICONTROL Enable free shipping]** to *[!UICONTROL Yes]*
+1. Again go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Tax]**, expand the calculation settings and set:
+    * [!UICONTROL Shipping prices] = [!UICONTROL Including tax]
+    * [!UICONTROL Enable cross border trade] = [!UICONTROL No]
+1. Expand the price display settings and set the [!UICONTROL Display shipping prices] = [!UICONTROL Including tax].
+1. Expand [!UICONTROL Orders], [!UICONTROL Invoices], [!UICONTROL Credit memo] display settings and set [!UICONTROL Display shipping amount] = [!UICONTROL Including tax].
+1. Clear caches.
+1. Place an order on the storefront.
+1. Create an invoice for the order in the admin.
+1. Create a credit memo.
 
 <u>Expected results</u>:
 
-Since the AWS S3 accepts 0-byte files on the S3 direct push, there is no error.
+The credit memo is created.
 
 <u>Actual results</u>:
 
-The following error happens:
+The following error is thrown:
 
-```PHP
-Uploading media files to remote storage.
-In File.php line 387:
-  The file or directory "pub/media/xxxx.file" cannot be copied to "*.amazonaws.com/media/xxxx.file"
+*The page cannot be displayed due to the error*
+
+```
+report.CRITICAL: DivisionByZeroError: Division by zero in vendor/magento/module-sales/Model/Order/Creditmemo/Total/Tax.php:139*
 ```
 
 ## Apply the patch
@@ -52,10 +58,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 

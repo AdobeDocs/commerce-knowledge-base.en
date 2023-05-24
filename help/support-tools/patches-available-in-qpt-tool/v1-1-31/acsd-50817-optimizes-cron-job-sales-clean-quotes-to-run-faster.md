@@ -1,21 +1,20 @@
 ---
-title: 'ACSD-49513: Remote storage synchronization fails'
-description: Apply the ACSD-49513 patch to fix the Adobe Commerce issue where the remote storage synchronization fails because of 0-byte files.
-exl-id: 24d72436-bac7-4737-8215-f06aae1ad82c
+title: "ACSD-50817: Optimizes cron job sales_clean_quotes to run faster"
+description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
 ---
-# ACSD-49513: Remote storage synchronization fails because of 0-byte files
+# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
 
-The ACSD-49513 patch fixes the issue where the remote storage synchronization fails because of 0-byte files. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49513. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.4-p3
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,28 +22,26 @@ The ACSD-49513 patch fixes the issue where the remote storage synchronization fa
 
 ## Issue
 
-The remote storage synchronization fails because of 0-byte files.
+The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
 
 <u>Steps to reproduce</u>:
 
-1. Configure the AWS S3 as the remote storage.
-1. Execute `[bin/magento remote-storage:sync]` to make sure the synchronization works properly at the beginning.
-1. Create a 0-byte file inside the `[pub/media]`.
-1. Execute `[bin/magento remote-storage:sync]` again.
+1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
+1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
 
-<u>Expected results</u>:
+    ```cron
+    SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
 
-Since the AWS S3 accepts 0-byte files on the S3 direct push, there is no error.
+    SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
+    ```
+    
+<u>Expected results</u>
 
-<u>Actual results</u>:
+Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
 
-The following error happens:
+<u>Actual results</u>
 
-```PHP
-Uploading media files to remote storage.
-In File.php line 387:
-  The file or directory "pub/media/xxxx.file" cannot be copied to "*.amazonaws.com/media/xxxx.file"
-```
+The query is too slow.
 
 ## Apply the patch
 
@@ -52,10 +49,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
@@ -65,3 +58,4 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
+
