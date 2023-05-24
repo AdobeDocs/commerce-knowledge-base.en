@@ -37,7 +37,7 @@ Set up product alerts for when a product is added back to stock.
 
 <u>Expected results</u>:
 
-An email notification about the product being returned to stock is sent to the customer.
+An email notification about the product being *back in stock* is sent to the customer.
 
 <u>Actual results</u>:
 
