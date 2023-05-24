@@ -32,9 +32,9 @@ Random products disappeared from large catalogs when asynchronous indexing is en
 1. Disable all products.
 1. Open the category and verify that there are no products there.
 1. Set all indexers to **[!UICONTROL Update on Schedule]** mode.
-1. Set the DEFAULT_BATCH_SIZE to 2 in - lib/internal/Magento/Framework/Mview/View.php#L31.
-1. Enable products in order (1st, 9th, 2nd, 5th, 10th, 3rd).
-1. Run **[!UICONTROL cron]** command.
+1. Set the `DEFAULT_BATCH_SIZE` to 2 in  `lib/internal/Magento/Framework/Mview/View.php#L31`.
+1. Enable products in the following order: 1st, 9th, 2nd, 5th, 10th, 3rd.
+1. Run cron command.
 1. Open the category again.
 
 <u>Expected results</u>:
