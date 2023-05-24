@@ -31,7 +31,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://magento
 
  <u>Actual behavior</u>:
 
- Deployment fails and you see the following error: *error 7 while downloading ... port 443: Connection refused*.
+ Deployment fails and you see the following error: *error 7 while downloading ... port 443: Connection refused* in the deploy log.
 
 ## Cause
 
