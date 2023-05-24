@@ -563,10 +563,10 @@ breadcrumb-title: Commerce KB
         * [ACSD-49513: Remote storage synchronization fails](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49513-remote-storage-synchronization-fails.md)
         * [ACSD-50336: Product alert emails not sent](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50336-product-alert-emails-not-sent.md)
         * [ACSD-46683: Shipping price shows not yet calculated](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-46683-shipping-price-shows-not-yet-calculated.md)
-        * [ACSD-49129: Content attribute not returned in product media API responses](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49129-the-content-attribute-is-not-returned-in-product-media-api-responses.md)origin/mskb-2160-acsd-49737
+        * [ACSD-49129: Content attribute not returned in product media API responses](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49129-the-content-attribute-is-not-returned-in-product-media-api-responses.md)
         * [ACSD-49737: Coupon is incorrectly marked as used after a failed card payment](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49737-coupon-is-incorrectly-marked-as-used-after-a-failed-card-payment.md)
         * [ACSD-50814: Admin user is not able to create credit memo](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50814-an-admin-user-is-not-able-to-create-credit-memo.md)
-        * [ACSD-49877: Video autoplay does not work on mobile Safari](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49877-the-video-autoplay-option-does-not-work-on-mobile-safari.md) main
+        * [ACSD-49877: Video autoplay does not work on mobile Safari](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49877-the-video-autoplay-option-does-not-work-on-mobile-safari.md)
     * v1.1.31 {#v1-1-31}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.31](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/overview.md)
         * [ACSD-49392: Order status changes to closed after partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-49392-order-status-changes-to-closed-after-partial-refund.md)
