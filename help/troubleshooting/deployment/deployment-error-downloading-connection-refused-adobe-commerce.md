@@ -23,7 +23,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://magento
 
  <u>Steps to reproduce</u>:
 
- Trigger a deploy by pushing the code to the Staging or Production environment.
+ Trigger a deployment by pushing the code to the Staging or Production environment.
 
  <u>Expected behavior</u>:
 
