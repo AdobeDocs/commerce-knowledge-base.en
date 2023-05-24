@@ -43,7 +43,7 @@ While updating asynchronous indexing all enabled products should be displayed.
 
 <u>Actual results</u>:
 
-While updating asynchronous indexing all enabled products are not shown.
+All enabled products are not shown.
 
 ## Apply the patch
 
