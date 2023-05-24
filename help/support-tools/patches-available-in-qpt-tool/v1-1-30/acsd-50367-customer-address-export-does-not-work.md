@@ -33,7 +33,7 @@ Create a customer with an address.
 1. Create a multi-select **`Customer Address`** attribute in **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Customer Addresses]**.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL System]** > **[!UICONTROL Export]**, and select **`Customer Address`** entity type.
 1. Export the customer addresses. You'll see that nothing is exported.
-1. Delete the multi-select *[!UICONTROL Customer Address]* attribute, and export the customer addresses again. This time the addresses' CSV file is generated.
+1. Delete the multi-select **`Customer Address`** attribute, and export the customer addresses again. This time the addresses' CSV file is generated.
 
 <u>Expected results</u>:
 
