@@ -41,7 +41,7 @@ The customer addresses can be exported as a CSV file when a multi-select **`Cust
 
 <u>Actual results</u>:
 
-The customer addresses cannot be exported as a CSV file when a multi-select Customer address attribute is created.
+The customer addresses can't be exported as a CSV file when a multi-select **`Customer Address`** attribute is created.
 
 ## Apply the patch
 
