@@ -39,7 +39,7 @@ Random products disappeared from large catalogs when asynchronous indexing is en
 
 <u>Expected results</u>:
 
-While updating asynchronous indexing all enabled products should be displayed.
+All enabled products are displayed.
 
 <u>Actual results</u>:
 
