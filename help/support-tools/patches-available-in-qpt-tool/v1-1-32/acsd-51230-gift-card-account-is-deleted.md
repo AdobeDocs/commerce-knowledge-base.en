@@ -26,5 +26,34 @@ The gift card account is deleted when the partial refund of a simple product is 
 
 <u>Steps to reproduce</u>:
 
-1. Create an order with Gift Card and a simple product (eg. add: SKU: GI000XX000XXX, SKU: PC046CP042076) – (any payment and shipping method works).
-1. Place an order with this bundled product with a quantity greater than 1.
+1. Create an order with a *Gift Card* and a *simple product* (e.g., *add: SKU: GI000XX000XXX, SKU: PC046CP042076*) – (any payment and shipping method works).
+1. Invoice the Order.
+1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**, an account is created for the gift card.
+1. Now go to **[!UICONTROL Order]**, and create a **[!UICONTROL Credit Memo]**.
+1. Change the quantity for the *Gift Card* to 0 and update it, this will create a partial refund for the *simple product*.
+1. Click on **[!UICONTROL Refund]**.
+1. Now refresh the **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**, the newly created account is deleted.
+
+<u>Expected results</u>
+
+The gift card account is available for use as the refund was not created for the gift card.
+
+<u>Actual results</u>
+
+The gift card account is deleted, while the gift card was not refunded.
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
+
+For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
