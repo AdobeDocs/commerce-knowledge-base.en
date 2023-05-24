@@ -4,7 +4,7 @@ description: Apply the ACSD-50367 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-50367: Customer address export does not work
 
-The ACSD-50367 patch fixes the issue where the customer address export does not work when a multi-select customer address attribute without values is created. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50367. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50367 patch fixes the issue where the customer address export does not work when a multi-select **`Customer Address`** attribute without values is created. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50367. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
