@@ -35,7 +35,7 @@ Out-of-stock composite child products are not available in the GraphQL response.
 
     * Set **[!UICONTROL Display Out of Stock Products]** to *Yes*.
 
-1. Open the *bundle1* product on Storefront, and make sure that both *simple1* and *simple2* child products are displayed inside it.
+1. Open the *bundle1* product on the storefront, and ensure that both *simple1* and *simple2* child products are displayed inside it.
 1. Run the following GraphQL query:
 
     ```GraphQL
