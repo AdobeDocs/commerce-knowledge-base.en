@@ -1,11 +1,11 @@
 ---
-title: "ACSD-50794: Cannot remove a gift_wrapping from customer order via GraphQL"
-description: Apply the ACSD-50794 patch to fix the Adobe Commerce issue where users cannot remove a gift_wrapping from customer order via GraphQL.
+title: "ACSD-50794: Cannot remove a gift wrapping from customer order via GraphQL"
+description: Apply the ACSD-50794 patch to fix the Adobe Commerce issue where users cannot remove a gift wrapping from customer order via GraphQL.
 ---
 
-# ACSD-50794: Cannot remove a gift_wrapping from customer order via GraphQL
+# ACSD-50794: Cannot remove a gift wrapping from customer order via GraphQL
 
-The ACSD-50794 patch fixes the issue where users cannot remove a gift_wrapping from customer order via GraphQL. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-50794. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50794 patch fixes the issue where users cannot remove a gift wrapping from customer order via GraphQL. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-50794. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,7 +23,7 @@ The ACSD-50794 patch fixes the issue where users cannot remove a gift_wrapping f
 
 ## Issue
 
-Users cannot remove a gift_wrapping from customer order via GraphQL.
+Users cannot remove a gift wrapping from customer order via GraphQL.
 
 <u>Steps to reproduce</u>:
 
@@ -38,7 +38,7 @@ Users cannot remove a gift_wrapping from customer order via GraphQL.
     * Set shipping address: `setShippingAddressesOnCart` mutation
     * Set shipping method: `setShippingMethodsOnCart` mutation (flatrate)
     * Set payment method: `setPaymentMethodOnCart` mutation (checkmo)
-1. Now check gift_wrapping Uid with this cart_query: 
+1. Now check the gift wrapping *Uid* with this cart query: 
 
     <pre><code class="language-GraphQL">
     {
@@ -52,8 +52,8 @@ Users cannot remove a gift_wrapping from customer order via GraphQL.
     
 1. Set gift wrap using `setGiftOptionsOnCart`.
 1. Check the cart: cart query.
-1. Unset Gift wrap using `setGiftOptionsOnCart` (set value to null).
-1. Check the cart: cart query.
+1. Unset gift wrap using `setGiftOptionsOnCart` (set value to null).
+1. Again check the cart: cart query.
 1. Place order: `placeOrder` mutation
 1. Run customer query: customer.
 
@@ -98,7 +98,7 @@ Once a user set a gift wrap and unsets it, customer query returns null.
 
 <u>Actual results</u>:
 
-Customer query still returns Gift wrapping as applied.
+Customer query still returns gift wrapping as applied.
 
 ## Apply the patch
 
