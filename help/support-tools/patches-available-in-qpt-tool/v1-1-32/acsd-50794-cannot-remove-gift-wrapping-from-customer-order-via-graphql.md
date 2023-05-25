@@ -57,40 +57,40 @@ Users cannot remove a gift_wrapping from customer order via GraphQL.
 1. Place order: `placeOrder` mutation
 1. Run customer query: customer.
 
-<pre><code class="language-graphql">
-query {
-  customer {
-    firstname
-    middlename
-    lastname
-    suffix
-    email
-    orders {
-        items {
-            order_date
-            gift_wrapping {
-                design
-                uid
+    <pre><code class="language-graphql">
+    query {
+      customer {
+        firstname
+        middlename
+        lastname
+        suffix
+        email
+        orders {
+            items {
+                order_date
+                gift_wrapping {
+                    design
+                    uid
+                }
             }
         }
-    }
-    addresses {
-      firstname
-      middlename
-      lastname
-      street
-      city
-      region {
-        region_code
-        region
+        addresses {
+          firstname
+          middlename
+          lastname
+          street
+          city
+          region {
+            region_code
+            region
+          }
+          postcode
+          country_code
+          telephone
+        }
       }
-      postcode
-      country_code
-      telephone
     }
-  }
-}
-</code></pre>
+    </code></pre>
 
 <u>Expected results</u>:
 
