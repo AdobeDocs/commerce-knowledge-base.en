@@ -34,8 +34,8 @@ Make sure the 'sales.rule.update.coupon.usage' consumer is set up and running.
 1. Add product(s) to cart.
 1. Apply an auto generated coupon code.
 1. Try to place the order with a failed payment.
-1. Execute 'bin/magento cron:run' command, which will start the 'sales.rule.update.coupon.usage' to the consumer.
-1. Check the coupon usage in the Cart Price Rule under **[!UICONTROL Manage Coupon Codes]** tab.
+1. Execute the 'bin/magento cron:run' command, which will start the 'sales.rule.update.coupon.usage' to the consumer.
+1. Check the coupon usage in the Cart Price Rule under the **[!UICONTROL Manage Coupon Codes]** tab.
 
 <u>Expected results</u>:
 
@@ -43,8 +43,8 @@ Coupon shouldn't be flagged as used if the payment is failed.
 
 <u>Actual results</u>:
 
-1. Coupon code says - Used: Yes, Times Used: 1
-1. Coupon code is for a single time use only.
+* Coupon code says - Used: Yes, Times Used: 1
+* Coupon code is valid for a single-time use only.
 
 ## Apply the patch
 
