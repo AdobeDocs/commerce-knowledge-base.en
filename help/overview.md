@@ -87,7 +87,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html">Unable to add user to Adobe Commerce cloud project:</a> This article provides a solution for when you are trying to add a user to a cloud project, but it fails with an error: *User XXX does not exist*.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html">Unable to add user to Adobe Commerce cloud project:</a> This article provides a solution for when you are trying to add a user to a cloud project, but it fails with an error: <em>User XXX does not exist</em>.
     </td>
     <td>New article</td>
     <td>May 25, 2023</td>
