@@ -564,6 +564,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-50336: Product alert emails not sent](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50336-product-alert-emails-not-sent.md)
         * [ACSD-46683: Shipping price shows not yet calculated](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-46683-shipping-price-shows-not-yet-calculated.md)
         * [ACSD-49129: Content attribute not returned in product media API responses](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49129-the-content-attribute-is-not-returned-in-product-media-api-responses.md)
+        * [ACSD-49737: Coupon is incorrectly marked as used after a failed card payment](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49737-coupon-is-incorrectly-marked-as-used-after-a-failed-card-payment.md)
         * [ACSD-50814: Admin user is not able to create credit memo](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50814-an-admin-user-is-not-able-to-create-credit-memo.md)
         * [ACSD-49877: Video autoplay does not work on mobile Safari](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49877-the-video-autoplay-option-does-not-work-on-mobile-safari.md)
         * [ACSD-51114: Random product disappearing from large catalogs while asynchronous indexing](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-51114-random-product-disappearing-from-large-catalogs-while-asynchronous-indexing.md)
