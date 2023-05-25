@@ -1,11 +1,11 @@
 ---
-title: "ACSD-50794: Cannot remove a gift_wrapping from customer order via graphql"
-description: Apply the ACSD-50794 patch to fix the Adobe Commerce issue where users cannot remove a gift_wrapping from customer order via graphql.
+title: "ACSD-50794: Cannot remove a gift_wrapping from customer order via GraphQL"
+description: Apply the ACSD-50794 patch to fix the Adobe Commerce issue where users cannot remove a gift_wrapping from customer order via GraphQL.
 ---
 
-# ACSD-50794: Cannot remove a gift_wrapping from customer order via graphql
+# ACSD-50794: Cannot remove a gift_wrapping from customer order via GraphQL
 
-The ACSD-50794 patch fixes the issue where users cannot remove a gift_wrapping from customer order via graphql. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-50794. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50794 patch fixes the issue where users cannot remove a gift_wrapping from customer order via GraphQL. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-50794. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,7 +23,7 @@ The ACSD-50794 patch fixes the issue where users cannot remove a gift_wrapping f
 
 ## Issue
 
-Users cannot remove a gift_wrapping from customer order via graphql.
+Users cannot remove a gift_wrapping from customer order via GraphQL.
 
 <u>Steps to reproduce</u>:
 
@@ -40,7 +40,7 @@ Users cannot remove a gift_wrapping from customer order via graphql.
     * Set payment method: `setPaymentMethodOnCart` mutation (checkmo)
 1. Now check gift_wrapping Uid with this cart_query: 
 
-    <pre><code class="language-graphql">
+    <pre><code class="language-GraphQL">
     {
       cart(cart_id: "{{CART_ID}}") {
         available_gift_wrappings{
