@@ -36,7 +36,7 @@ Race conditions during concurrent REST API calls result in an overwrite of shipp
 *[!UICONTROL Shipped 1]* status should be present for item B in the *[!UICONTROL Items]* ordered table.
 
 <u>Actual results</u>
-
+*[!UICONTROL Shipped 1]* here as well in actual results and *[!UICONTROL Items]* ordered table
 'Shipped 1' status is not present for item B in the 'Items' ordered table.
 
 ## Apply the patch
