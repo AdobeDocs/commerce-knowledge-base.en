@@ -1,6 +1,6 @@
 ---
 title: "ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status"
-description: Apply the ACSD-51036 patch when race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table.
+description: Apply the ACSD-51036 patch to fix the race conditions during concurrent REST API calls resulting in an overwrite of shipping status in the items ordered table.
 ---
 # ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table
 
@@ -22,13 +22,13 @@ The ACSD-51036 patch fixes the race conditions during concurrent REST API calls 
 
 ## Issue
 
-Race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table.
+The race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table.
 
 <u>Steps to reproduce</u>:
 
 1. Create an order with two items.
 1. Invoice Item A.
-1. Send refund request for item A via REST API at the same exact time as you send a ship request for item B.
+1. Send refund request for the item A via REST API simultaneously while you send a ship request for the item B.
 1. Go to the order in **[!UICONTROL Admin Panel]**.
 
 <u>Expected results</u>
@@ -36,8 +36,8 @@ Race conditions during concurrent REST API calls result in an overwrite of shipp
 *[!UICONTROL Shipped 1]* status should be present for item B in the *[!UICONTROL Items]* ordered table.
 
 <u>Actual results</u>
-*[!UICONTROL Shipped 1]* here as well in actual results and *[!UICONTROL Items]* ordered table
-'Shipped 1' status is not present for item B in the 'Items' ordered table.
+
+* *[!UICONTROL Shipped 1]* status is not present for item B in the *[!UICONTROL Items]* ordered table.
 
 ## Apply the patch
 
