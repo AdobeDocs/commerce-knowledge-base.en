@@ -24,6 +24,7 @@ The ACSD-49737 patch fixes the issue where the coupon is incorrectly marked as u
 
 Coupon is incorrectly marked as used after a failed card payment.
 
+<u>Prerequisites</u>:
 Configure **[!UICONTROL Braintree sandbox payment]** method.
 Make sure the 'sales.rule.update.coupon.usage' consumer is set up and running.
 
