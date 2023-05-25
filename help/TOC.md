@@ -568,6 +568,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-50817: Optimizes cron job sales clean quotes to run faster](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50817-optimizes-cron-job-sales-clean-quotes-to-run-faster.md)
     * v1.1.32 {#v1-1-32}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.32](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/overview.md)
+        * [ACSD-50621: Tier prices for different websites in shared catalog are not visible](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-50621-tier-prices-different-websites-shared-catalog-not-visible.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
