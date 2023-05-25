@@ -4,7 +4,7 @@ description: Apply the ACSD-51528 patch to fix different behaviors on snake_case
 ---
 # ACSD-51528: Different behaviors on snake_case formatting.
 
-The ACSD-51528 patch fixes different behaviors on snake_case formatting. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-51528. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51528 patch fixes different behaviors on snake_case formatting. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51528. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
