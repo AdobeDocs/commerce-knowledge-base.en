@@ -650,6 +650,7 @@ breadcrumb-title: Commerce KB
     * [Product images do not display despite Product Edit image roles](/help/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.md)
     * [Adobe Commerce 2.4.0: 404 error removing rewards points on multi-shipping checkout](/help/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.md)
     * [Customers get logged out or lose cart content on Adobe Commerce storefront](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
+    * [Cannot save contact as URL key](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
   * Installation and upgrade {#installation-and-upgrade}
     * [Cannot install using nginx](/help/troubleshooting/installation-and-upgrade/cannot-install-using-nginx.md)
     * [Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5](/help/troubleshooting/installation-and-upgrade/wishlist-error-during-upgrade-to-magento-versions-2.3.4-p1-or-2.3.5.md)
