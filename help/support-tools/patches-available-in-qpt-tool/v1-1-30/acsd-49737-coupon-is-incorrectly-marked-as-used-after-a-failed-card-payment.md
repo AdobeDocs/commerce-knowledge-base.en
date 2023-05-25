@@ -2,9 +2,9 @@
 title: "ACSD-49737: Coupon is incorrectly marked as used after a failed card payment"
 description: Apply the ACSD-49737 patch to fix the Adobe Commerce issue where the coupon is incorrectly marked as used after a failed card payment.
 ---
-# ACSD-49737: Coupon is incorrectly marked as used after a failed card payment
+# ACSD-49737: Coupon is incorrectly marked as *used* after a failed card payment
 
-The ACSD-49737 patch fixes the issue where the coupon is incorrectly marked as used after a failed card payment. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49737. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49737 patch fixes the issue where the coupon is incorrectly marked as *used* after a failed card payment. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49737. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -22,29 +22,29 @@ The ACSD-49737 patch fixes the issue where the coupon is incorrectly marked as u
 
 ## Issue
 
-Coupon is incorrectly marked as used after a failed card payment.
+The coupon is incorrectly marked as *used* after a failed card payment.
 
 <u>Prerequisites</u>:
-Configure **[!UICONTROL Braintree sandbox payment]** method.
-Make sure the 'sales.rule.update.coupon.usage' consumer is set up and running.
+
+1. Configure the **[!UICONTROL Braintree sandbox payment]** method.
+1. Make sure the [*sales.rule.update.coupon.usage*](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/consumers.html?lang=en) consumer is set up and running.
 
 <u>Steps to reproduce</u>:
 
 1. Create a **[!UICONTROL Cart Price Rule]** with auto generated coupon codes. 
 1. Log in as a customer.
-1. Add product(s) to cart.
+1. Add product(s) to the cart.
 1. Apply an auto generated coupon code.
-1. Try to place the order with a failed payment.
-1. Execute the 'bin/magento cron:run' command, which will start the 'sales.rule.update.coupon.usage' to the consumer.
-1. Check the coupon usage in the Cart Price Rule under the **[!UICONTROL Manage Coupon Codes]** tab.
+1. Try to place an order with a failed payment.
+1. Check the coupon usage in the **[!UICONTROL Cart Price Rule]** under the **[!UICONTROL Manage Coupon Codes]** tab.
 
 <u>Expected results</u>:
 
-Coupon shouldn't be flagged as used if the payment is failed.
+Coupon shouldn't be flagged as *used* if the payment is failed.
 
 <u>Actual results</u>:
 
-* Coupon code says - Used: Yes, Times Used: 1
+* Coupon code says - Used: *Yes*, Times Used: *1*
 * Coupon code is valid for a single-time use only.
 
 ## Apply the patch
