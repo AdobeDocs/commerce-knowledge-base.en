@@ -27,7 +27,7 @@ Tier prices for different websites in the shared catalog are not visible when ed
 <u>Steps to reproduce</u>:
 
 1. Set the **[!UICONTROL Catalog Price Scope]** to **[!UICONTROL Website]**.
-1. Create additional website/store/storeview.
+1. Create an additional website, store, and storeview.
 1. Create a simple product and assign it to all websites.
 1. Create a custom shared catalog.
 1. Go to **[!UICONTROL Set Pricing and Structure]** for the custom shared catalog you created.
