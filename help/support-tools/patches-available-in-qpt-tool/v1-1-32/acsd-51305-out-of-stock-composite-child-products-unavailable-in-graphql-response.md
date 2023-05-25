@@ -26,13 +26,13 @@ Out-of-stock composite child products are not available in the GraphQL response.
 
 <u>Steps to reproduce</u>:
 
-1. Login to Admin website.
-1. Create category (cat1, id=3)
-1. Create simple1 product, out of stock, not visible individually, assigned to cat1.
-1. Create simple2 product, in stock, not visible individually, assigned to cat1.
-1. Create bundle1 product with simple1 and simple2 child products as radio-button option1 products and assign it to cat1 category.
-1. Go to Admin-> System->Configuration->Catalog->Inventory and set display out of stock products = Yes.
-1. Open bundle1 product on Storefront and make sure that both simple1 and simple2 child products are displayed inside bundle1 product:
+1. Log in to the Admin website.
+1. Create a category (cat1, id=3).
+1. Create a *simple1* product (out of stock, not visible individually, assigned to *cat1*).
+1. Create a *simple2* product (in stock, not visible individually, assigned to *cat1*).
+1. Create a *bundle1* product with *simple1* and *simple2* child products as radio-button *option1* products and assign it to the *cat1* category.
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]**. Set *[!UICONTROL display out of stock products]* = *[!UICONTROL Yes]*.
+1. Open the *bundle1* product on Storefront, and make sure that both *simple1* and *simple2* child products are displayed inside the *bundle1* product.
 1. Run the following GraphQL query:
 
     ```GraphQL
@@ -71,11 +71,11 @@ Out-of-stock composite child products are not available in the GraphQL response.
 
 <u>Expected results</u>:
 
-"product" section inside "options" block is not empty.
+The **[!UICONTROL product]** section inside the **[!UICONTROL options]** block is not empty.
 
 <u>Actual results</u>:
 
-"product" section inside "options" block is empty.
+The **[!UICONTROL product]** section inside the **[!UICONTROL options]** block is empty.
 
 ## Apply the patch
 
