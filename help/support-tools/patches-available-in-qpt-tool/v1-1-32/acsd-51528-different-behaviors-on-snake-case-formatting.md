@@ -1,8 +1,8 @@
 ---
-title: "ACSD-51528: Different behaviors on snake_case formatting."
+title: "ACSD-51528: Different behaviors on snake_case formatting"
 description: Apply the ACSD-51528 patch to fix different behaviors on snake_case formatting.
 ---
-# ACSD-51528: Different behaviors on snake_case formatting.
+# ACSD-51528: Different behaviors on snake_case formatting
 
 The ACSD-51528 patch fixes different behaviors on snake_case formatting. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51528. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
@@ -32,11 +32,11 @@ The different behaviors on snake_case formatting.
 
 <u>Expected results</u>
 
-The **[!UICONTROL populateWithArray]** should transform object properties to snake_case correctly, making it compatible with the AbstractModel's Getters and Setters.
+The **[!UICONTROL populateWithArray]** should transform object properties to snake_case correctly, making it compatible with the **[!DNL AbstractModel's]** Getters and Setters.
 
 <u>Actual results</u>
 
-When using the **[!UICONTROL populateWithArray]** function, any object properties that contain a 2 or more capital letters in row in its name will cause the snake_case transformation to be incorrect in the final data array.
+When using the **[!UICONTROL populateWithArray]** function, any object properties that contain two or more capital letters in row in it's name will cause the snake_case transformation to be incorrect in the final data array.
 
 ## Apply the patch
 
