@@ -1,6 +1,7 @@
 ---
-title: "ACSD-50336: Product alert emails not sent"
+title: 'ACSD-50336: Product alert emails not sent'
 description: Apply the ACSD-50336 patch to fix the Adobe Commerce issue where the product alert emails are not sent when a product is back in stock or the price is changed.
+exl-id: 7a0b8612-5d52-44c7-83ba-e888bb933fe4
 ---
 # ACSD-50336: Product alert emails not sent
 
@@ -62,4 +63,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-

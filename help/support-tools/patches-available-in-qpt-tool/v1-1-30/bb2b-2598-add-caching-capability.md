@@ -1,8 +1,8 @@
 ---
-title: "BB2B-2598: Adds caching capability to storeConfig, currency, country, countries, availableStores GraphQl queries"
+title: 'BB2B-2598: Adds caching capability to storeConfig, currency, country, countries, availableStores GraphQl queries'
 description: Apply the BB2B-2598 patch to add caching capability to the storeConfig, currency, country, countries, and availableStores GraphQl queries.
+exl-id: 7d324f4c-60c1-4cc2-998f-4324ea8db765
 ---
-
 # BB2B-2598: Adds caching capability to `storeConfig`, `currency`, `country`, `countries`, and `availableStores` GraphQl queries
 
 The BB2B-2598 patch adds caching capability to `storeConfig`, `currency`, `country`, `countries`, and `availableStores` GraphQl queries. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is BB2B-2598. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7-beta1.
