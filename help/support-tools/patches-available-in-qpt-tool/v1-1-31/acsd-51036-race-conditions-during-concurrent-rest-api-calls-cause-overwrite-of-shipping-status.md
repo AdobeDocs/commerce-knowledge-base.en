@@ -37,7 +37,7 @@ The race conditions during concurrent REST API calls result in an overwrite of s
 
 <u>Actual results</u>
 
-* *[!UICONTROL Shipped 1]* status is not present for item B in the *[!UICONTROL Items]* ordered table.
+*[!UICONTROL Shipped 1]* status is not present for item B in the *[!UICONTROL Items]* ordered table.
 
 ## Apply the patch
 
