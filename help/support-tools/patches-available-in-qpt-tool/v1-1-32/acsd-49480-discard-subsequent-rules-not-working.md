@@ -4,7 +4,7 @@ description: Apply the ACSD-49480 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-49480: Cart Price Rule - Discard Subsequent Rules is not working as intended
 
-The ACSD-49480 patch fixes the issue where the the Cart Price Rule - Discard Subsequent Rules is not working as intended. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-49480. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-49480 patch fixes the issue where the the Cart Price Rule - Discard Subsequent Rules is not working as intended. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-49480. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -14,7 +14,7 @@ The ACSD-49480 patch fixes the issue where the the Cart Price Rule - Discard Sub
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5
 
 >[!NOTE]
 >
