@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-50116: An admin user cannot create a URL rewrite for the sub-categories of level three or lower'
-description: Apply the ACSD-50116 patch to fix the Adobe Commerce issue where an admin user cannot create a URL rewrite for the sub-categories of level three or lower.
-exl-id: a30b9ec9-0244-427d-8158-89e05e1f0853
+title: 'ACSD-50814: Admin user not able to create credit memo'
+description: Apply the ACSD-50814 patch to fix the Adobe Commerce issue where an admin user is not able to create a credit memo.
+exl-id: 82099007-dee8-493d-b4da-3338fb77b935
 ---
-# ACSD-50116: An admin user cannot create a URL rewrite for the sub-categories of level three or lower
+# ACSD-50814: Admin user is not able to create credit memo
 
-The ACSD-50116 patch fixes the issue where an admin user cannot create a URL rewrite for the sub-categories of level three or lower. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50116. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50814 patch fixes the issue where an admin user is not able to create a credit memo. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50814. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.6
 
 >[!NOTE]
 >
@@ -23,20 +23,34 @@ The ACSD-50116 patch fixes the issue where an admin user cannot create a URL rew
 
 ## Issue
 
-An admin user cannot create a URL rewrite for the sub-categories of level three or lower.
+An admin user is not able to create a credit memo.
 
 <u>Steps to reproduce</u>:
 
-1. Create a category tree which has more than three levels of sub-categories.
-1. Try to create a *[!UICONTROL URL Rewrite]* for the level four category using both the *[!UICONTROL For Product]* and *[!UICONTROL For Category]* options.
+1. In the Adobe Commerce Admin, navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Shipping methods]** > **[!UICONTROL Free shipping]** and set **[!UICONTROL Enable free shipping]** to *[!UICONTROL Yes]*
+1. Again go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Tax]**, expand the calculation settings and set:
+    * [!UICONTROL Shipping prices] = [!UICONTROL Including tax]
+    * [!UICONTROL Enable cross border trade] = [!UICONTROL No]
+1. Expand the price display settings and set the [!UICONTROL Display shipping prices] = [!UICONTROL Including tax].
+1. Expand [!UICONTROL Orders], [!UICONTROL Invoices], [!UICONTROL Credit memo] display settings and set [!UICONTROL Display shipping amount] = [!UICONTROL Including tax].
+1. Clear caches.
+1. Place an order on the storefront.
+1. Create an invoice for the order in the admin.
+1. Create a credit memo.
 
 <u>Expected results</u>:
 
-The category tree displays the sub-categories up to level four or below.
+The credit memo is created.
 
 <u>Actual results</u>:
 
-The category tree displays only up to level three sub-categories.
+The following error is thrown:
+
+*The page cannot be displayed due to the error*
+
+```
+report.CRITICAL: DivisionByZeroError: Division by zero in vendor/magento/module-sales/Model/Order/Creditmemo/Total/Tax.php:139*
+```
 
 ## Apply the patch
 
