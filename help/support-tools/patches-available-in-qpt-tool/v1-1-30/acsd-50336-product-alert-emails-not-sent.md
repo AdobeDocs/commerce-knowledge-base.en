@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-50817: Optimizes cron job sales_clean_quotes to run faster'
-description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
-exl-id: 9a6f44ac-ae9a-4e98-8b5e-cf1cbdb2e6fc
+title: 'ACSD-50336: Product alert emails not sent'
+description: Apply the ACSD-50336 patch to fix the Adobe Commerce issue where the product alert emails are not sent when a product is back in stock or the price is changed.
+exl-id: 7a0b8612-5d52-44c7-83ba-e888bb933fe4
 ---
-# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
+# ACSD-50336: Product alert emails not sent
 
-The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
+The ACSD-50336 patch fixes the issue where product alert emails are not sent when a product is back in stock or the price is changed. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50336. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.4-p1 - 2.4.4-p2
 
 >[!NOTE]
 >
@@ -23,26 +23,30 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 ## Issue
 
-The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+Product alert emails are not sent when a product is back in stock or the price is changed.
+
+<u>Prerequisites</u>:
+
+Set up product alerts for when a product is added back to stock.
 
 <u>Steps to reproduce</u>:
 
-1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
+1. Log in as a customer on the storefront.
+1. Open a product that is not in stock.
+1. Subscribe to receive a notification when the product is *back in stock*.
+1. Update the product from [!UICONTROL Admin] to be _back in stock_.
 
-    ```cron
-    SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
+<u>Expected results</u>:
 
-    SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
-    ```
-    
-<u>Expected results</u>
+An email notification about the product being *back in stock* is sent to the customer.
 
-Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+<u>Actual results</u>:
 
-<u>Actual results</u>
+The customer does not receive an email notification about the product being *back in stock*. The following error appears in the log:
 
-The query is too slow.
+```
+report. CRITICAL: Magento\ProductAlert\Model\Mailing\ErrorEmailSender::execute(): Argument #2 ($storeId) must be of type int, string given, called in vendor/magento/module-product-alert/Model/Mailing/AlertProcessor.php on line 130 [] [] 
+```
 
 ## Apply the patch
 

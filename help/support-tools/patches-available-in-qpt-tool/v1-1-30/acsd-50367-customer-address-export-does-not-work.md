@@ -1,11 +1,11 @@
 ---
-title: 'ACSD-50817: Optimizes cron job sales_clean_quotes to run faster'
-description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
-exl-id: 9a6f44ac-ae9a-4e98-8b5e-cf1cbdb2e6fc
+title: 'ACSD-50367: Customer address export does not work with multi-select attribute'
+description: Apply the ACSD-50367 patch to fix the Adobe Commerce issue where the customer address export does not work when a multi-select **`Customer Address`** attribute without values is created.
+exl-id: be6d7853-b9c1-41e4-abb6-ce93475a3c10
 ---
-# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
+# ACSD-50367: Customer address export does not work
 
-The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
+The ACSD-50367 patch fixes the issue where the customer address export does not work when a multi-select **`Customer Address`** attribute without values is created. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50367. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,26 +23,26 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 ## Issue
 
-The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+Customer address export doesn't work when a multi-select **`Customer Address`** attribute without values is created.
+
+<u>Prerequisites</u>:
+
+Create a customer with an address.
 
 <u>Steps to reproduce</u>:
 
-1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
+1. Create a multi-select **`Customer Address`** attribute in **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Customer Addresses]**.
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL System]** > **[!UICONTROL Export]**, and select **`Customer Address`** entity type.
+1. Export the customer addresses. You'll see that nothing is exported.
+1. Delete the multi-select **`Customer Address`** attribute, and export the customer addresses again. This time the addresses' CSV file is generated.
 
-    ```cron
-    SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
+<u>Expected results</u>:
 
-    SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
-    ```
-    
-<u>Expected results</u>
+The customer addresses can be exported as a CSV file when a multi-select **`Customer Address`** attribute is created.
 
-Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+<u>Actual results</u>:
 
-<u>Actual results</u>
-
-The query is too slow.
+The customer addresses can't be exported as a CSV file when a multi-select **`Customer Address`** attribute is created.
 
 ## Apply the patch
 
