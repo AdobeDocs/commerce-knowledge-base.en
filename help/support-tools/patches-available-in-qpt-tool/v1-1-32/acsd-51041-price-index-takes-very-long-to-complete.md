@@ -14,7 +14,7 @@ The ACSD-51041 patch fixes the issue where the price index takes a long time to 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.1 - 2.4.5-p2
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4, 2.4.1 - 2.4.5-p3
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ With a very large product set, the price index takes a very long time to complet
 
 <u>Expected results</u>:
 
-`deleteIndexData` processes unique IDs only to optimize performance.
+`deleteIndexData` processes only the unique IDs to optimize performance.
 
 <u>Actual results</u>:
 
