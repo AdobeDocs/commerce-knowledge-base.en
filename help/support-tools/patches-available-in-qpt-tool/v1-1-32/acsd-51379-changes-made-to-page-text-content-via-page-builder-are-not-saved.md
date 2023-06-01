@@ -14,7 +14,7 @@ The ACSD-51379 patch fixes the issue where the changes made to a page's text con
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p1
 
 >[!NOTE]
 >
