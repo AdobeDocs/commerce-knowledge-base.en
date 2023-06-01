@@ -14,7 +14,7 @@ The ACSD-51305 patch fixes the issue where out-of-stock composite child products
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
 
 >[!NOTE]
 >
