@@ -4,7 +4,7 @@ description: Apply the ACSD-50345 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-50345: reCAPTCHA issues during the checkout
 
-The ACSD-50345 patch fixes the issue where the reCAPTCHA v2 and v3 validations fail while placing orders and during the checkout. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.31 is installed. The patch ID is ACSD-50345. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6 and 2.4.7.
+The ACSD-50345 patch fixes the issue where the reCAPTCHA v2 and v3 validations fail while placing orders and during the checkout. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.31 is installed. The patch ID is ACSD-50345. Please note that the issue was partially fixed in Adobe Commerce 2.4.6 and will be completely fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
