@@ -30,7 +30,7 @@ Users cannot remove a gift wrapping from customer order via GraphQL.
 1. Create a customer from the frontend.
 1. Create a simple product.
 1. Enable [!UICONTROL Gift Messages] by going to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Gift Options]** and set [!UICONTROL Allow Gift Messages] = [!UICONTROL Yes].
-1. Create a [!UICONTROL Gift Wrapping] by going to **[!UICONTROL Stores]** > **[!UICONTROL Other Settings]** > **[!UICONTROL Gift Wrapping]**
+1. Create a [!UICONTROL Gift Wrapping] by going to **[!UICONTROL Stores]** > **[!UICONTROL Other Settings]** > **[!UICONTROL Gift Wrapping]**.
 1. Get customer token.
 1. Create an empty cart, customerCart.
     * Add products to the cart: `addProductsToCart` mutation
@@ -53,8 +53,8 @@ Users cannot remove a gift wrapping from customer order via GraphQL.
 1. Set gift wrap using `setGiftOptionsOnCart`.
 1. Check the cart: cart query.
 1. Unset gift wrap using `setGiftOptionsOnCart` (set value to null).
-1. Again check the cart: cart query.
-1. Place order: `placeOrder` mutation
+1. Again, check the cart: cart query.
+1. Place order: `placeOrder` mutation.
 1. Run customer query: customer.
 
     <pre><code class="language-graphql">
@@ -106,10 +106,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
