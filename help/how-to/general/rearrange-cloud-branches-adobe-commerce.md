@@ -22,6 +22,7 @@ The correct hierarchy organization for your branches is:
 
 To re-arrange cloud branches:
 
+1. You must have the [Super User](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) role
 1. Install the magento-cloud CLI (if you have not done so).
 1. Run the following command for the branches that need to be moved:
     `magento-cloud environment:info -e <branch to move> parent <target parent>`
