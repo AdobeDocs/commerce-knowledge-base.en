@@ -592,6 +592,7 @@ breadcrumb-title: Commerce KB
     * [2.4 Adobe Commerce upgrade workshop on January 26 2022](/help/announcements/adobe-commerce-announcements/2-4-upgrade-webinar.md)
     * [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md)
     * [Adobe support customer data access and privacy](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
+    * [UPS APIs deprecated](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
   * Help Center News {#news}
     * [MBI documentation got moved](/help/announcements/help-center-news/mbi-documentation-got-moved.md)
     * [Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
