@@ -1,21 +1,20 @@
 ---
-title: 'ACSD-50817: Optimizes cron job sales_clean_quotes to run faster'
-description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
-exl-id: 9a6f44ac-ae9a-4e98-8b5e-cf1cbdb2e6fc
+title: "ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status"
+description: Apply the ACSD-51036 patch to fix the Adobe Commerce issue where there are race conditions during concurrent REST API calls resulting in an overwrite of shipping status in the items ordered table.
 ---
-# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
+# ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table
 
-The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
+The ACSD-51036 patch fixes the issue where the race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-51036. Please note that the issue is fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,26 +22,22 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 ## Issue
 
-The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+The race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table.
 
 <u>Steps to reproduce</u>:
 
-1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
+1. Create an order with two items.
+1. Invoice Item A.
+1. Send refund request for the item A via REST API simultaneously while you send a ship request for the item B.
+1. Go to the order in **[!UICONTROL Admin Panel]**.
 
-    ```cron
-    SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
-
-    SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
-    ```
-    
 <u>Expected results</u>
 
-Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+*[!UICONTROL Shipped 1]* status should be present for item B in the *[!UICONTROL Items]* ordered table.
 
 <u>Actual results</u>
 
-The query is too slow.
+*[!UICONTROL Shipped 1]* status is not present for item B in the *[!UICONTROL Items]* ordered table.
 
 ## Apply the patch
 
@@ -59,3 +54,4 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
+

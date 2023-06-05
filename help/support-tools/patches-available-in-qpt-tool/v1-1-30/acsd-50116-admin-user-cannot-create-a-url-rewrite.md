@@ -1,11 +1,11 @@
 ---
-title: 'ACSD-50817: Optimizes cron job sales_clean_quotes to run faster'
-description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
-exl-id: 9a6f44ac-ae9a-4e98-8b5e-cf1cbdb2e6fc
+title: 'ACSD-50116: An admin user cannot create a URL rewrite for the sub-categories of level three or lower'
+description: Apply the ACSD-50116 patch to fix the Adobe Commerce issue where an admin user cannot create a URL rewrite for the sub-categories of level three or lower.
+exl-id: a30b9ec9-0244-427d-8158-89e05e1f0853
 ---
-# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
+# ACSD-50116: An admin user cannot create a URL rewrite for the sub-categories of level three or lower
 
-The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
+The ACSD-50116 patch fixes the issue where an admin user cannot create a URL rewrite for the sub-categories of level three or lower. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50116. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,26 +23,20 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 ## Issue
 
-The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+An admin user cannot create a URL rewrite for the sub-categories of level three or lower.
 
 <u>Steps to reproduce</u>:
 
-1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
+1. Create a category tree which has more than three levels of sub-categories.
+1. Try to create a *[!UICONTROL URL Rewrite]* for the level four category using both the *[!UICONTROL For Product]* and *[!UICONTROL For Category]* options.
 
-    ```cron
-    SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
+<u>Expected results</u>:
 
-    SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
-    ```
-    
-<u>Expected results</u>
+The category tree displays the sub-categories up to level four or below.
 
-Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+<u>Actual results</u>:
 
-<u>Actual results</u>
-
-The query is too slow.
+The category tree displays only up to level three sub-categories.
 
 ## Apply the patch
 
