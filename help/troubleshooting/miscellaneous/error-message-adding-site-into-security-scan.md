@@ -19,9 +19,9 @@ User is not able to add sites into the [Commerce Security Scan](https://account.
 ## Solution
 
 1. Make sure that the following IP addresses are not blocked on ports 80 and 443:
-   - 52.87.98.44
-   - 34.196.167.176
-   - 3.218.25.102
+   * 52.87.98.44
+   * 34.196.167.176
+   * 3.218.25.102
  
 1. The confirmation code is time-sensitive. If more than 30 minutes have passed after the **Add site** link was clicked, the code has probably expired.
 1. Don't forget to clean cache and make sure the validation code appears in the home page source body. The confirmation code should be injected according to the HTML markup specs: HTML comment can be injected in the page body (we suggest putting it in the footer section); the META tag should be in the head section only.
