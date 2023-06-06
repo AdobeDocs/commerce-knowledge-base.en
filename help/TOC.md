@@ -636,7 +636,6 @@ breadcrumb-title: Commerce KB
     * [EU customers cannot complete payments](/help/troubleshooting/payments/eu-customers-cannot-complete-payments.md)
     * [PayPal gateway rejected request - duplicate invoice issue](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md)
     * [Adobe Commerce 2.4.0 known issue: Klarna On-Site Messaging blank pages](/help/troubleshooting/payments/magento-2.4.0-known-issue-klarna-on-site-messaging-blank-pages.md)
-    * [Adobe Commerce 2.4.6 error placing order from Admin panel](/help/troubleshooting/adobe-commerce-2.4.6-know-issue-patch-error-when-palcing-an-order-from-the-admin-panel.md)
     * [Troubleshoot Payment Services installation](/help/troubleshooting/payments/payservices-install.md)
   * Storefront {#storefront}
     * [Adobe Commerce 2.4.0 known issue: orders display error](/help/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.md)
@@ -912,6 +911,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce prompts customers log in invalid link](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
     * [Shipping labels creation known issue in Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2.4.0.md)
     * [B2B: Companies cannot access profile pages on store front](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
+    * [Adobe Commerce 2.4.6 error placing order from Admin panel](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.6-know-issue-patch-error-when-palcing-an-order-from-the-admin-panel.md)
   * Elasticsearch {#elasticsearch}
     * [Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2.3.1-upgrade.md)
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
