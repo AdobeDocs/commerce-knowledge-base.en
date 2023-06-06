@@ -33,7 +33,7 @@ This was fixed by refactoring the way banners' contents are loaded, which reduce
 1. Move banners.php to the `magento_root/pub/` folder.
 1. Generate banners using the  `php pub/banners.php` command. It will generate 10,000 simple banners and 1,000 banners with sales rules.
 1. Log in to the customer created previously on the frontend.
-1. Add the product created previously in the cart.
+1. Add the product created previously to the cart.
 1. Go to the checkout page (checkout/cart).
 1. Monitor the `banner/ajax/load` request loading time:
 
