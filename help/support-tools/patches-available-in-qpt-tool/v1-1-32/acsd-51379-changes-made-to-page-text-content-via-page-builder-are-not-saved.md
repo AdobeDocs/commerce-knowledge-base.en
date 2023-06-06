@@ -43,7 +43,7 @@ The new text is saved successfully for original and duplicated text elements.
 
 <u>Actual results</u>:
 
-Text element is duplicated successfully, but new text is not saved.
+The text element is duplicated successfully, but the new text is not saved.
 
 ## Apply the patch
 
