@@ -39,7 +39,7 @@ The changes made to a page's text content via [!DNL Page Builder] are not saved.
 
 <u>Expected results</u>:
 
-New text is saved successfully for original and duplicated text elements.
+The new text is saved successfully for original and duplicated text elements.
 
 <u>Actual results</u>:
 
