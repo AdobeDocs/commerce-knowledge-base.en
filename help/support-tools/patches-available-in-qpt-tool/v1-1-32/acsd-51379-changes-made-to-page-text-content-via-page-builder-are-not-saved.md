@@ -32,7 +32,7 @@ The changes made to a page's text content via [!DNL Page Builder] are not saved.
 1. Save the page and return to the **[!UICONTROL Content]** tab.
 1. Edit the text by selecting it and changing it.
 
-    Note: The issue is only reproducible if the text is selected and changed without activating the editor.
+    **Note:** The issue is only reproducible if the text is selected and changed without activating the editor.
 
 1. Click the **[!UICONTROL Save and Close]** button on the test page.
 1. Open this page again and check the **[!UICONTROL Content]** tab.
