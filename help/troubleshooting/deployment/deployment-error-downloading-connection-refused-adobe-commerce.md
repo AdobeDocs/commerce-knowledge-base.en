@@ -35,7 +35,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://magento
 
 ## Cause
 
- This may be due to the cache connection being lost to the repo. 
+ This might be due to the cache connection being lost to the repo. 
 
 ## Solution
 
