@@ -636,6 +636,7 @@ breadcrumb-title: Commerce KB
     * [EU customers cannot complete payments](/help/troubleshooting/payments/eu-customers-cannot-complete-payments.md)
     * [PayPal gateway rejected request - duplicate invoice issue](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md)
     * [Adobe Commerce 2.4.0 known issue: Klarna On-Site Messaging blank pages](/help/troubleshooting/payments/magento-2.4.0-known-issue-klarna-on-site-messaging-blank-pages.md)
+    * [Adobe Commerce 2.4.6 error placing order from Admin panel](/help/troubleshooting/adobe-commerce-2.4.6-know-issue-patch-error-when-palcing-an-order-from-the-admin-panel.md)
     * [Troubleshoot Payment Services installation](/help/troubleshooting/payments/payservices-install.md)
   * Storefront {#storefront}
     * [Adobe Commerce 2.4.0 known issue: orders display error](/help/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.md)
