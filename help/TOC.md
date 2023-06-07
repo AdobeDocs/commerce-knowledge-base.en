@@ -580,6 +580,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51230: Gift card account is deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51230-gift-card-account-is-deleted.md)
         * [ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51379-changes-made-to-page-text-content-via-page-builder-are-not-saved.md)
         * [ACSD-51305: Out-of-stock composite child products unavailable in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51305-out-of-stock-composite-child-products-unavailable-in-graphql-response.md)
+        * [ACSD-51204: Product does not return back in stock after creating credit memo](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51204-product-does-not-return-back-in-stock-after-creating-credit-memo.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
