@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50794: Cannot remove a gift wrapping from customer order via GraphQL"
+title: "ACSD-50794: Cannot remove gift wrapping from customer order via GraphQL"
 description: Apply the ACSD-50794 patch to fix the Adobe Commerce issue where users cannot remove gift wrapping from the customer order via GraphQL.
 ---
 
