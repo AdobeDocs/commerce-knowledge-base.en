@@ -94,7 +94,7 @@ Users cannot remove a gift wrapping from customer order via GraphQL.
 
 <u>Expected results</u>:
 
-Once a user set a gift wrap and unsets it, customer query returns null.
+Once a user sets a gift wrap and unsets it, the customer query returns null.
 
 <u>Actual results</u>:
 
