@@ -23,7 +23,7 @@ The ACSD-50794 patch fixes the issue where users cannot remove gift wrapping fro
 
 ## Issue
 
-Users cannot remove a gift wrapping from customer order via GraphQL.
+Users cannot remove gift wrapping from the customer order via GraphQL.
 
 <u>Steps to reproduce</u>:
 
