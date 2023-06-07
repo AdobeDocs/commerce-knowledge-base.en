@@ -30,7 +30,7 @@ Users cannot remove a gift wrapping from customer order via GraphQL.
 1. Create a customer from the frontend.
 1. Create a simple product.
 1. Enable *[!UICONTROL Gift Messages]* by going to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Gift Options]** and set *[!UICONTROL Allow Gift Messages]* = *[!UICONTROL Yes]*.
-1. Create a [!UICONTROL Gift Wrapping] by going to **[!UICONTROL Stores]** > **[!UICONTROL Other Settings]** > **[!UICONTROL Gift Wrapping]**.
+1. Create *[!UICONTROL Gift Wrapping]* by going to **[!UICONTROL Stores]** > **[!UICONTROL Other Settings]** > **[!UICONTROL Gift Wrapping]**.
 1. Get customer token.
 1. Create an empty cart, customerCart.
     * Add products to the cart: `addProductsToCart` mutation
