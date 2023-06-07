@@ -15,15 +15,15 @@ This article provides the steps you could take to re-arrange cloud branches on A
 
 The correct hierarchy organization for your branches is:
 
-* Master [main] > Production > Staging > Integration
-* Master [main] > Production > Staging > Integration2
+* [!DNL Master [main] > Production > Staging > Integration]
+* [!DNL Master [main] > Production > Staging > Integration2]
 
 ## Solution for incorrect cloud branches organization
 
 To re-arrange cloud branches:
 
-1. You must have the [Super User](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) role
-1. Install the magento-cloud CLI (if you have not done so).
+1. You must have the [[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) role.
+1. Install the magento-cloud [!DNL CLI] (if you have not done so).
 1. Run the following command for the branches that need to be moved:
     `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
@@ -35,4 +35,4 @@ It may take some additional time to create and activate a new environment branch
 
 ## Related reading
 
-[Manage branches with the CLI](https://devdocs.magento.com/cloud/env/environments-start.html) in our developer documentation.
+[Manage branches with the [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) in our developer documentation.
