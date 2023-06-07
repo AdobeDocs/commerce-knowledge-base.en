@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49392: Order status changes to closed after partial refund'
-description: Apply the ACSD-49392 patch to fix the Adobe Commerce issue where the order status changes to closed after a partial refund for a bundled product.
-exl-id: 12cf904c-c4da-4fad-aa64-47ddc91462f5
+title: 'ACSD-50336: Product alert emails not sent'
+description: Apply the ACSD-50336 patch to fix the Adobe Commerce issue where the product alert emails are not sent when a product is back in stock or the price is changed.
+exl-id: 7a0b8612-5d52-44c7-83ba-e888bb933fe4
 ---
-# ACSD-49392: Order status changes to closed after partial refund
+# ACSD-50336: Product alert emails not sent
 
-The ACSD-49392 patch fixes the issue where the order status changes to closed after a partial refund for a bundled product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-49392. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50336 patch fixes the issue where product alert emails are not sent when a product is back in stock or the price is changed. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50336. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4 and 2.4.1 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.4-p1 - 2.4.4-p2
 
 >[!NOTE]
 >
@@ -23,23 +23,30 @@ The ACSD-49392 patch fixes the issue where the order status changes to closed af
 
 ## Issue
 
-Order status changes to closed after a partial refund for a bundled product.
+Product alert emails are not sent when a product is back in stock or the price is changed.
+
+<u>Prerequisites</u>:
+
+Set up product alerts for when a product is added back to stock.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Adobe Commerce and create any bundled product or use the existing bundled product.
-1. Place an order with this bundled product with a quantity greater than 1.
-1. Go to admin, and open the order created in step 2 from **[!UICONTROL Sales]** > **[!UICONTROL Order]** and create an invoice. Observe the order status. It will be in processing.
-1. Create a partial credit memo (do not refund for all products in the bundle).
-1. Check the order status.
+1. Log in as a customer on the storefront.
+1. Open a product that is not in stock.
+1. Subscribe to receive a notification when the product is *back in stock*.
+1. Update the product from [!UICONTROL Admin] to be _back in stock_.
 
-<u>Expected results</u>
+<u>Expected results</u>:
 
-After creating a partial credit memo for the bundled product, the order status is in processing.
+An email notification about the product being *back in stock* is sent to the customer.
 
-<u>Actual results</u>
+<u>Actual results</u>:
 
-After creating a partial credit memo for the bundled product, the order status is complete.
+The customer does not receive an email notification about the product being *back in stock*. The following error appears in the log:
+
+```
+report. CRITICAL: Magento\ProductAlert\Model\Mailing\ErrorEmailSender::execute(): Argument #2 ($storeId) must be of type int, string given, called in vendor/magento/module-product-alert/Model/Mailing/AlertProcessor.php on line 130 [] [] 
+```
 
 ## Apply the patch
 

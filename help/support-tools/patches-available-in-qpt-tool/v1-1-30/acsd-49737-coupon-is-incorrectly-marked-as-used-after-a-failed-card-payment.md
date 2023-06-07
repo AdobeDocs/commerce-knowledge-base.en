@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49392: Order status changes to closed after partial refund'
-description: Apply the ACSD-49392 patch to fix the Adobe Commerce issue where the order status changes to closed after a partial refund for a bundled product.
-exl-id: 12cf904c-c4da-4fad-aa64-47ddc91462f5
+title: 'ACSD-49737: Coupon is incorrectly marked as used after a failed card payment'
+description: Apply the ACSD-49737 patch to fix the Adobe Commerce issue where the coupon is incorrectly marked as used after a failed card payment.
+exl-id: d6ad7a47-ff6a-49e7-be7c-f54d0011ff58
 ---
-# ACSD-49392: Order status changes to closed after partial refund
+# ACSD-49737: Coupon is incorrectly marked as *used* after a failed card payment
 
-The ACSD-49392 patch fixes the issue where the order status changes to closed after a partial refund for a bundled product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-49392. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49737 patch fixes the issue where the coupon is incorrectly marked as *used* after a failed card payment. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49737. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4 and 2.4.1 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.1-p1 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,23 +23,30 @@ The ACSD-49392 patch fixes the issue where the order status changes to closed af
 
 ## Issue
 
-Order status changes to closed after a partial refund for a bundled product.
+The coupon is incorrectly marked as *used* after a failed card payment.
+
+<u>Prerequisites</u>:
+
+1. Configure the **[!UICONTROL Braintree sandbox payment]** method.
+1. Make sure the [*sales.rule.update.coupon.usage*](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/consumers.html?lang=en) consumer is set up and running.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Adobe Commerce and create any bundled product or use the existing bundled product.
-1. Place an order with this bundled product with a quantity greater than 1.
-1. Go to admin, and open the order created in step 2 from **[!UICONTROL Sales]** > **[!UICONTROL Order]** and create an invoice. Observe the order status. It will be in processing.
-1. Create a partial credit memo (do not refund for all products in the bundle).
-1. Check the order status.
+1. Create a **[!UICONTROL Cart Price Rule]** with auto generated coupon codes. 
+1. Log in as a customer.
+1. Add product(s) to the cart.
+1. Apply an auto generated coupon code.
+1. Try to place an order with a failed payment.
+1. Check the coupon usage in the **[!UICONTROL Cart Price Rule]** under the **[!UICONTROL Manage Coupon Codes]** tab.
 
-<u>Expected results</u>
+<u>Expected results</u>:
 
-After creating a partial credit memo for the bundled product, the order status is in processing.
+Coupon shouldn't be flagged as *used* if the payment is failed.
 
-<u>Actual results</u>
+<u>Actual results</u>:
 
-After creating a partial credit memo for the bundled product, the order status is complete.
+* Coupon code says - Used: *Yes*, Times Used: *1*
+* Coupon code is valid for a single-time use only.
 
 ## Apply the patch
 
@@ -47,6 +54,10 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Additional steps required after the patch installation
+
+(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 

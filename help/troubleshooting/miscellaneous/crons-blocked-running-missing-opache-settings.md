@@ -1,8 +1,8 @@
 ---
-title: Cron stops due to misconfigured or missing OpCache settings 
+title: Cron stops due to misconfigured or missing OpCache settings
 description: This article provides a solution for when crons stop working due to misconfigured or missing OpCache settings.
+exl-id: 3aaab759-462f-49ae-a427-af34075eca84
 ---
-
 # Cron stopped due to misconfigured or missing OpCache settings 
 
 This article provides a solution for when cron stops working due to missing or misconfigured OpCache settings.

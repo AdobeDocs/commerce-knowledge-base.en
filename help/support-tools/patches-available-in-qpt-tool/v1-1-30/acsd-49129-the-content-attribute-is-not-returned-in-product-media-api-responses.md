@@ -1,6 +1,7 @@
 ---
 title: 'ACSD-49129: "Content" attribute not returned in product media API responses'
 description: Apply the ACSD-49129 patch to fix the Adobe Commerce issue where the *content* attribute (*base64 image code*) is not returned in the `rest/V1/products/sku/media` product media API responses.
+exl-id: 98dddf98-a8c3-48ab-845e-9c0fdb8b4739
 ---
 # ACSD-49129: "Content" attribute not returned in product media API responses
 
@@ -53,5 +54,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-
-
