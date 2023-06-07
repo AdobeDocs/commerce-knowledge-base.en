@@ -11,7 +11,7 @@ This article provides the steps you could take to re-arrange cloud branches on A
 
 * Adobe Commerce on cloud infrastructure, 2.3.0-2.3.7-p2, 2.4.0-2.4.3-p1
 
-## Cloud branches organizaton
+## Cloud branches organization
 
 The correct hierarchy organization for your branches is:
 
