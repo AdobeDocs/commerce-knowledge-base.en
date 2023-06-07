@@ -1,6 +1,7 @@
 ---
 title: "ACSD-50276: Customer registration form doesn't work on storefront if multi-select customer attribute is created"
 description: Apply the ACSD-50276 patch to fix the Adobe Commerce issue where the customer registration form doesn't work on the storefront if a multi-select customer attribute is created.
+exl-id: 4b2df852-255c-42d3-ac2f-25efc1e0cf02
 ---
 # ACSD-50276: Customer registration form doesn't work on storefront if multi-select customer attribute is created
 
