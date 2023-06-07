@@ -32,7 +32,7 @@ The gift card account is deleted when the partial refund of a simple product is 
 1. Now go to **[!UICONTROL Order]**, and create a **[!UICONTROL Credit Memo]**.
 1. Change the quantity for the *Gift Card* to 0 and update it. This will create a partial refund for the *simple product*.
 1. Click on **[!UICONTROL Refund]**.
-1. Now refresh the **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**, the newly created account is deleted.
+1. Now refresh the **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**. The newly created account is deleted.
 
 <u>Expected results</u>
 
