@@ -32,7 +32,7 @@ The different behaviors on snake_case formatting.
 
 <u>Expected results</u>
 
-The **[!UICONTROL populateWithArray]** should transform object properties to snake_case correctly, making it compatible with the **[!DNL AbstractModel's]** Getters and Setters.
+The **[!UICONTROL populateWithArray]** function should transform the object properties to snake_case correctly, making it compatible with the **[!DNL AbstractModel's]** `Getters` and `Setters`.
 
 <u>Actual results</u>
 
