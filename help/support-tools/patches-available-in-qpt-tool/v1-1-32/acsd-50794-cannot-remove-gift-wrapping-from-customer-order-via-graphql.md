@@ -5,7 +5,7 @@ description: Apply the ACSD-50794 patch to fix the Adobe Commerce issue where us
 
 # ACSD-50794: Cannot remove a gift wrapping from customer order via GraphQL
 
-The ACSD-50794 patch fixes the issue where users cannot remove a gift wrapping from customer order via GraphQL. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-50794. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50794 patch fixes the issue where users cannot remove gift wrapping from the customer order via GraphQL. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-50794. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
