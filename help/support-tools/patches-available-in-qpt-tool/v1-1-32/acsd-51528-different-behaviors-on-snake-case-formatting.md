@@ -36,7 +36,7 @@ The **[!UICONTROL populateWithArray]** function should transform the object prop
 
 <u>Actual results</u>
 
-When using the **[!UICONTROL populateWithArray]** function, any object properties that contain two or more capital letters in row in it's name will cause the snake_case transformation to be incorrect in the final data array.
+When using the **[!UICONTROL populateWithArray]** function, any object properties that contain two or more capital letters in a row in its name will cause the snake_case transformation to be incorrect in the final data array.
 
 ## Apply the patch
 
