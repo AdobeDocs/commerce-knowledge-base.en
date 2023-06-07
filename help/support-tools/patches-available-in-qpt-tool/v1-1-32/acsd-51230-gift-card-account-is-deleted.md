@@ -27,7 +27,7 @@ The gift card account is deleted when the partial refund of a simple product is 
 <u>Steps to reproduce</u>:
 
 1. Create an order with a *Gift Card* and a *simple product* (e.g., *add: SKU: GI000XX000XXX, SKU: PC046CP042076*) – (any payment and shipping method works).
-1. Invoice the Order.
+1. Invoice the order.
 1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**, an account is created for the gift card.
 1. Now go to **[!UICONTROL Order]**, and create a **[!UICONTROL Credit Memo]**.
 1. Change the quantity for the *Gift Card* to 0 and update it, this will create a partial refund for the *simple product*.
