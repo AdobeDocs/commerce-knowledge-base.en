@@ -2,7 +2,7 @@
 title: "ACSD-51204: Product does not return back in stock after creating credit memo"
 description: Apply the ACSD-51204 patch to fix the Adobe Commerce issue where the product does not return back in stock after creating credit memo.
 ---
-# ACSD-51204: Product does not return back in stock after creating creditmemo
+# ACSD-51204: Product does not return back in stock after creating credit memo
 
 The ACSD-51204 patch fixes the issue where the product does not return back in stock after creating credit memo. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51204. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
