@@ -40,7 +40,7 @@ The gift card account is available for use as the refund was not created for the
 
 <u>Actual results</u>
 
-The gift card account is deleted, while the gift card was not refunded.
+The gift card account is deleted, and the gift card is not refunded.
 
 ## Apply the patch
 
