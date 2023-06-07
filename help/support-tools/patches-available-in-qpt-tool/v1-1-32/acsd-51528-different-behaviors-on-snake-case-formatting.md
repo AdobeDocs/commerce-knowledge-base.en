@@ -28,7 +28,7 @@ The different behaviors on snake_case formatting.
 
 1. Test the `\Magento\Framework\Api\DataObjectHelper::populateWithArray` function with a variety of different property names.
 1. The properties with names like *NewPName* should be transformed into *new_p_name*, instead they're being transformed to *new_pname*.
-1. Also, when using the *getNewPName* function in the object, null will be returned because the Abstract model will correctly transform the call to *new_p_name* making both functions incompatible with each other.
+1. Also, when using the *getNewPName* function in the object, *null* will be returned because the *Abstract model* will correctly transform the call to *new_p_name* making both functions incompatible with each other.
 
 <u>Expected results</u>
 
