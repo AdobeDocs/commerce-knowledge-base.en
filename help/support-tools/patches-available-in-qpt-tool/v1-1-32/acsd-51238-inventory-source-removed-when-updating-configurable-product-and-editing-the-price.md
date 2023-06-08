@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51238: Inventory source removed when updating configurable product and editing the price"
-description: Apply the ACSD-51238 patch to fix the inventory source removed when updating configurable product and editing the price.
+title: "ACSD-51238: Inventory source is removed when updating a configurable product and editing the price"
+description: Apply the ACSD-51238 patch to fix the Adobe Commerce issue where the inventory source is removed when updating a configurable product and editing the price.
 ---
-# ACSD-51238: Inventory source removed when updating configurable product and editing the price
+# ACSD-51238: Inventory source is removed when updating a configurable product and editing the price
 
-The ACSD-51238 patch fixes the issue where the inventory source is removed when updating configurable product and editing the price. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51238. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51238 patch fixes the issue where the inventory source is removed when updating a configurable product and editing the price. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51238. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -22,25 +22,25 @@ The ACSD-51238 patch fixes the issue where the inventory source is removed when 
 
 ## Issue
 
-The inventory source is removed when updating configurable product and editing the price.
+The inventory source is removed when updating a configurable product and editing the price.
 
 <u>Steps to reproduce</u>:
 
 1. Install **[!DNL Adobe Commerce]** with **[!DNL Inventory module]**
 1. Go to **[!UICONTROL Admin]** -> **[!UICONTROL Stores]** -> **[!UICONTROL Inventory]** and create *two sources* and *two stocks*.
-1. Create **[!UICONTROL configurable product]** and assign to **[!UICONTROL default sources]** or **[!UICONTROL newly created sources]**.
+1. Create a **[!UICONTROL configurable product]** and assign it to **[!UICONTROL default sources]** or **[!UICONTROL newly created sources]**.
 1. Click on **[!UICONTROL next button]** and *save* the product.
-1. Now edit same **[!UICONTROL configurable product]** and click on **[!UICONTROL Edit Configuration]** inside *configuration tab*.
-1. In `Step 3: Bulk Images, Price and Quantity` change the price and leave `Quantity` and `Images` to `Skip quantity at this time` and `Skip image uploading at this time` respectively.
+1. Now edit the same **[!UICONTROL Configurable Product]** and click on **[!UICONTROL Edit Configuration]** inside the **[!UICONTROL Configuration]** tab.
+1. In [!UICONTROL Step 3: Bulk Images, Price and Quantity], change the [!UICONTROL price] and leave [!UICONTROL Quantity] and [!UICONTROL Images] to [!UICONTROL Skip quantity at this time] and [!UICONTROL Skip image uploading at this time] respectively.
 1. Click on **[!UICONTROL next button]** and generate the product.
 
 <u>Expected results</u>
 
-Quantity per source inside the configuration tab shouldn't be empty.
+The quantity per source inside the **[!UICONTROL Configuration]** tab shouldn't be empty.
 
 <u>Actual results</u>
 
-Quantity per source inside the configuration tab is empty.
+The quantity per source inside the **[!UICONTROL Configuration]** tab is empty.
 
 ## Apply the patch
 
