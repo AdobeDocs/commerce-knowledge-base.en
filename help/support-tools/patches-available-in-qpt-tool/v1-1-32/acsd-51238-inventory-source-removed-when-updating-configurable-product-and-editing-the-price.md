@@ -22,7 +22,7 @@ The ACSD-51238 patch fixes the issue where the inventory source is removed when 
 
 ## Issue
 
-The inventory source is removed when updating configurable product and editing the price.
+The inventory source is removed when updating a configurable product and editing the price.
 
 <u>Steps to reproduce</u>:
 
