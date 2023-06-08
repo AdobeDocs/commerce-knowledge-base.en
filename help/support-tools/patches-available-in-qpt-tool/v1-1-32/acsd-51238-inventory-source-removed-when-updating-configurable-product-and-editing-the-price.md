@@ -4,7 +4,7 @@ description: Apply the ACSD-51238 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-51238: Inventory source is removed when updating a configurable product and editing the price
 
-The ACSD-51238 patch fixes the issue where the inventory source is removed when updating configurable product and editing the price. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51238. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51238 patch fixes the issue where the inventory source is removed when updating a configurable product and editing the price. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51238. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
