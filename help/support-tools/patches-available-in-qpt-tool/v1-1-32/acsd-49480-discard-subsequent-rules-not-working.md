@@ -22,7 +22,7 @@ The ACSD-49480 patch fixes the issue where the [!UICONTROL Cart Price Rule - Dis
 
 ## Issue
 
-Cart Price Rule - Discard Subsequent Rules is not norking as intended
+[!UICONTROL Cart Price Rule - Discard Subsequent Rules] is not working as intended.
 
 <u>Steps to reproduce</u>:
 
