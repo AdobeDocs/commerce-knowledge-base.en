@@ -40,7 +40,7 @@ The inventory source is removed when updating a configurable product and editing
 
 <u>Actual results</u>
 
-Quantity per source inside the configuration tab is empty.
+[!UICONTROL Quantity per source] inside the **[!UICONTROL Configuration]** tab is empty.
 
 ## Apply the patch
 
