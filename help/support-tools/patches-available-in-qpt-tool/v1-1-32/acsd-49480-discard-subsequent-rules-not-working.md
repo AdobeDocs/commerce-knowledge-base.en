@@ -26,7 +26,7 @@ The ACSD-49480 patch fixes the issue where the [!UICONTROL Cart Price Rule - Dis
 
 <u>Steps to reproduce</u>:
 
-1. Create a **[!UICONTROL Cart Price Rule]** with a coupon code (name it as *TEST*) that gives $10 discount to the *Product ID 1* in the **[!UICONTROL Actions]** tab with *Discard Subsequent Rules* set to *Yes* and *Priority* set to *1*.
+1. Create a **[!UICONTROL Cart Price Rule]** with a coupon code (name it as *TEST*) that gives a $10 discount to the *Product ID 1* in the **[!UICONTROL Actions]** tab with [!UICONTROL Discard Subsequent Rules] set to *[!UICONTROL Yes]* and [!UICONTROL Priority] set to *1*.
 1. Create another **[!UICONTROL Cart Price Rule]** without a coupon code that gives $5 discount to *Product ID 2* in the **[!UICONTROL Actions]** tab with *Priority* set to *2* (Here, we assume, this is a global sale for Product ID 2).
 1. Go to frontend site and add *Product ID 1* and *Product ID 2* into the cart.
 1. Apply the *TEST* coupon code.
