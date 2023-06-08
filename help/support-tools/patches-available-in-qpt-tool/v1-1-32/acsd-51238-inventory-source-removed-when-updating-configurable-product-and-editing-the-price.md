@@ -36,7 +36,7 @@ The inventory source is removed when updating a configurable product and editing
 
 <u>Expected results</u>
 
-Quantity per source inside the configuration tab shouldn't be empty.
+[!UICONTROL Quantity per source] inside the **[!UICONTROL Configuration]** tab shouldn't be empty.
 
 <u>Actual results</u>
 
