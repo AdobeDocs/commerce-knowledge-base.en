@@ -28,7 +28,7 @@ The inventory source is removed when updating a configurable product and editing
 
 1. Install **[!UICONTROL Adobe Commerce]** with *[!UICONTORL Inventory module]*
 1. Go to **[!UICONTROL Admin]** -> **[!UICONTROL Stores]** -> **[!UICONTROL Inventory]** and create *two sources* and *two stocks*.
-1. Create **[!UICONTROL configurable product]** and assign to **[!UICONTROL default sources]** or **[!UICONTROL newly created sources]**.
+1. Create a **[!UICONTROL configurable product]** and assign it to **[!UICONTROL default sources]** or **[!UICONTROL newly created sources]**.
 1. Click on **[!UICONTROL next button]** and *save* the product.
 1. Now edit same **[!UICONTROL configurable product]** and click on **[!UICONTROL Edit Configuration]** inside *configuration tab*.
 1. In `Step 3: Bulk Images, Price and Quantity` change the price and leave `Quantity` and `Images` to `Skip quantity at this time` and `Skip image uploading at this time` respectively.
