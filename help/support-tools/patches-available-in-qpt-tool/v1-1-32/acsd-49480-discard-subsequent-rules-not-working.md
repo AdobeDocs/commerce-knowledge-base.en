@@ -34,7 +34,7 @@ The ACSD-49480 patch fixes the issue where the [!UICONTROL Cart Price Rule - Dis
 <u>Expected results</u>
 
 * *Discount 1* is applied to *Product ID 1*.
-* *Discount 2* is applied to the *Product ID 2*.
+* *Discount 2* is applied to *Product ID 2*.
 
 <u>Actual results</u>
 
