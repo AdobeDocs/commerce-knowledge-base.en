@@ -31,7 +31,7 @@ The inventory source is removed when updating a configurable product and editing
 1. Create a **[!UICONTROL configurable product]** and assign it to **[!UICONTROL default sources]** or **[!UICONTROL newly created sources]**.
 1. Click on **[!UICONTROL next button]** and *save* the product.
 1. Now edit the same **[!UICONTROL Configurable Product]** and click on **[!UICONTROL Edit Configuration]** inside the **[!UICONTROL Configuration]** tab.
-1. In `Step 3: Bulk Images, Price and Quantity` change the price and leave `Quantity` and `Images` to `Skip quantity at this time` and `Skip image uploading at this time` respectively.
+1. In [!UICONTROL Step 3: Bulk Images, Price and Quantity], change the [!UICONTROL price] and leave [!UICONTROL Quantity] and [!UICONTROL Images] to [!UICONTROL Skip quantity at this time] and [!UICONTROL Skip image uploading at this time] respectively.
 1. Click on **[!UICONTROL next button]** and generate the product.
 
 <u>Expected results</u>
