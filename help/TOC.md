@@ -577,6 +577,9 @@ breadcrumb-title: Commerce KB
     * v1.1.32 {#v1-1-32}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.32](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/overview.md)
         * [ACSD-51528: Different behaviors on snake_case formatting](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51528-different-behaviors-on-snake-case-formatting.md)
+        * [ACSD-49480: Discard Subsequent Rules not working](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-49480-discard-subsequent-rules-not-working.md)
+        * [ACSD-50794: Cannot remove a gift_wrapping from customer order via graphql](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-50794-cannot-remove-gift-wrapping-from-customer-order-via-graphql.md)
+        * [ACSD-51041: Price index takes very long to complete](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51041-price-index-takes-very-long-to-complete.md)
         * [ACSD-51230: Gift card account is deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51230-gift-card-account-is-deleted.md)
         * [ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51379-changes-made-to-page-text-content-via-page-builder-are-not-saved.md)
         * [ACSD-51305: Out-of-stock composite child products unavailable in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51305-out-of-stock-composite-child-products-unavailable-in-graphql-response.md)
@@ -868,6 +871,7 @@ breadcrumb-title: Commerce KB
     * [Deployment fails with "Error building project: The build hook failed with status code 1"](/help/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.md)
     * [Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying](/help/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.md)
     * [Deployment stuck with "Unable to upload the application to the remote cluster" error](/help/troubleshooting/deployment/deployment-stuck-with-unable-to-upload-the-application-to-the-remote-cluster-error.md)
+    * [Deployment error: "error 7 while downloading ... port 443: Connection refused"](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
   * Known issues {#known-issues-patches-attached}
     * [Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.3-p2-2.4.5-security-hotfix-for-cve-2022-35698.md)
     * [Empty shopping cart issue when multiple click on checkout from mini cart](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
