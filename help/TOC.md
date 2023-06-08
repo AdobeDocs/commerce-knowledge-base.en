@@ -576,6 +576,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-51036-race-conditions-during-concurrent-rest-api-calls-cause-overwrite-of-shipping-status.md)
     * v1.1.32 {#v1-1-32}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.32](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/overview.md)
+        * [ACSD-49480: Discard Subsequent Rules not working](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-49480-discard-subsequent-rules-not-working.md)
         * [ACSD-50794: Cannot remove a gift_wrapping from customer order via graphql](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-50794-cannot-remove-gift-wrapping-from-customer-order-via-graphql.md)
         * [ACSD-51041: Price index takes very long to complete](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51041-price-index-takes-very-long-to-complete.md)
         * [ACSD-51230: Gift card account is deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51230-gift-card-account-is-deleted.md)
