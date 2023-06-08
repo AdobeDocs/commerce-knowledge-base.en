@@ -5,7 +5,7 @@ exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
 ---
 # Restore a DB snapshot from [!DNL Staging] or [!DNL Production]
 
-This article shows how to restore a DB [!DNL snapshot] from [!DNL Staging] or [!DNL Production] on Adobe Commerce on cloud infrastructure.
+This article shows how to restore a DB [!DNL snapshot] from [!DNL Staging] or [!DNL Production] on Adobe Commerce on Cloud Pro infrastructure.
 
 ## Affected products and versions
 
