@@ -26,7 +26,7 @@ The inventory source is removed when updating configurable product and editing t
 
 <u>Steps to reproduce</u>:
 
-1. Install **[!UICONTROL Adobe Commerce]** with **[!DNL Inventory module]**
+1. Install **[!DNL Adobe Commerce]** with **[!DNL Inventory module]**
 1. Go to **[!UICONTROL Admin]** -> **[!UICONTROL Stores]** -> **[!UICONTROL Inventory]** and create *two sources* and *two stocks*.
 1. Create **[!UICONTROL configurable product]** and assign to **[!UICONTROL default sources]** or **[!UICONTROL newly created sources]**.
 1. Click on **[!UICONTROL next button]** and *save* the product.
