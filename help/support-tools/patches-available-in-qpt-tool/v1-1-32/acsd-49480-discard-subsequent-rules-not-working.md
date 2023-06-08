@@ -1,6 +1,6 @@
 ---
 title: "ACSD-49480: Discard subsequent rules not working"
-description: Apply the ACSD-49480 patch to fix the Adobe Commerce issue where the Cart Price Rule - Discard Subsequent Rules is not working as intended.
+description: Apply the ACSD-49480 patch to fix the Adobe Commerce issue where the [!UICONTROL Cart Price Rule - Discard Subsequent Rules] is not working as intended.
 ---
 # ACSD-49480: Cart Price Rule - Discard Subsequent Rules is not working as intended
 
