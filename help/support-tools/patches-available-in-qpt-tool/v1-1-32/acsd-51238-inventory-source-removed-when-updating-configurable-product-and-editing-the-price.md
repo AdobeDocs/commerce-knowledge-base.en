@@ -36,11 +36,11 @@ The inventory source is removed when updating a configurable product and editing
 
 <u>Expected results</u>
 
-The quantity per source inside the **[!UICONTROL Configuration]** tab shouldn't be empty.
+The quantity per source inside the **[!UICONTROL Configuration tab]** shouldn't be empty.
 
 <u>Actual results</u>
 
-The quantity per source inside the **[!UICONTROL Configuration]** tab is empty.
+The quantity per source inside the **[!UICONTROL Configuration tab]** is empty.
 
 ## Apply the patch
 
