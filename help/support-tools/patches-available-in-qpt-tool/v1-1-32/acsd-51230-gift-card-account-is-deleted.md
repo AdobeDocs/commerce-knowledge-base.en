@@ -1,17 +1,16 @@
 ---
-title: 'ACSD-50817: Optimizes cron job sales_clean_quotes to run faster'
-description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
-exl-id: 9a6f44ac-ae9a-4e98-8b5e-cf1cbdb2e6fc
+title: "ACSD-51230: Gift card account is deleted"
+description: Apply the ACSD-51230 patch to fix the Adobe Commerce issue where the gift card account is deleted when the partial refund of a simple product is processed from an order.
 ---
-# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
+# ACSD-51230: Gift card account is deleted 
 
-The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
+The ACSD-51230 patch fixes the issue where the gift card account is deleted when the partial refund of a simple product is processed from an order. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51230. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.3
 
 **Compatible with Adobe Commerce versions:**
 
@@ -23,26 +22,25 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 ## Issue
 
-The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+The gift card account is deleted when the partial refund of a simple product is processed from an order.
 
 <u>Steps to reproduce</u>:
 
-1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
+1. Create an order with a *Gift Card* and a *simple product* (e.g., *add: SKU: GI000XX000XXX, SKU: PC046CP042076*) – (any payment and shipping method works).
+1. Invoice the order.
+1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**. An account is created for the gift card.
+1. Now go to **[!UICONTROL Order]**, and create a **[!UICONTROL Credit Memo]**.
+1. Change the quantity for the *Gift Card* to 0 and update it. This will create a partial refund for the *simple product*.
+1. Click on **[!UICONTROL Refund]**.
+1. Now refresh the **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**. The newly created account is deleted.
 
-    ```cron
-    SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
-
-    SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
-    ```
-    
 <u>Expected results</u>
 
-Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+The gift card account is available for use as the refund was not created for the gift card.
 
 <u>Actual results</u>
 
-The query is too slow.
+The gift card account is deleted, and the gift card is not refunded.
 
 ## Apply the patch
 

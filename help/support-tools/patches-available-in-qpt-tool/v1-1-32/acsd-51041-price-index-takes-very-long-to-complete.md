@@ -1,21 +1,20 @@
 ---
-title: 'ACSD-49392: Order status changes to closed after partial refund'
-description: Apply the ACSD-49392 patch to fix the Adobe Commerce issue where the order status changes to closed after a partial refund for a bundled product.
-exl-id: 12cf904c-c4da-4fad-aa64-47ddc91462f5
+title: "ACSD-51041: Price index takes very long to complete"
+description: Apply the ACSD-51041 patch to fix the Adobe Commerce issue where the price index takes a long time to complete with a very large product set.
 ---
-# ACSD-49392: Order status changes to closed after partial refund
+# ACSD-51041: Price index takes very long to complete
 
-The ACSD-49392 patch fixes the issue where the order status changes to closed after a partial refund for a bundled product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-49392. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51041 patch fixes the issue where the price index takes a long time to complete with a very large product set. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51041. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.3-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4 and 2.4.1 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4, 2.4.1 - 2.4.5-p3
 
 >[!NOTE]
 >
@@ -23,23 +22,22 @@ The ACSD-49392 patch fixes the issue where the order status changes to closed af
 
 ## Issue
 
-Order status changes to closed after a partial refund for a bundled product.
+With a very large product set, the price index takes a very long time to complete. 
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Adobe Commerce and create any bundled product or use the existing bundled product.
-1. Place an order with this bundled product with a quantity greater than 1.
-1. Go to admin, and open the order created in step 2 from **[!UICONTROL Sales]** > **[!UICONTROL Order]** and create an invoice. Observe the order status. It will be in processing.
-1. Create a partial credit memo (do not refund for all products in the bundle).
-1. Check the order status.
+1. Enable the *[!UICONTROL Inventory]* module.
+1. Have multiple stock sources (with a non-default source providing most of the stock).
+1. Generate ~200k products.
+1. Run an inventory index.
 
-<u>Expected results</u>
+<u>Expected results</u>:
 
-After creating a partial credit memo for the bundled product, the order status is in processing.
+`deleteIndexData` processes only the unique IDs to optimize performance.
 
-<u>Actual results</u>
+<u>Actual results</u>:
 
-After creating a partial credit memo for the bundled product, the order status is complete.
+`deleteIndexData` processes all IDs, which takes a long time to complete.
 
 ## Apply the patch
 
