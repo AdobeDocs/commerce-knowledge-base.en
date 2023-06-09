@@ -570,6 +570,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51114: Random product disappearing from large catalogs while asynchronous indexing](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-51114-random-product-disappearing-from-large-catalogs-while-asynchronous-indexing.md)
     * v1.1.31 {#v1-1-31}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.31](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/overview.md)
+        * [ACSD-50858: Improved performance for loading banners' content](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50858-improved-performance-for-loading-banners-content.md)
         * [ACSD-49392: Order status changes to closed after partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-49392-order-status-changes-to-closed-after-partial-refund.md)
         * [ACSD-50817: Optimizes cron job sales clean quotes to run faster](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50817-optimizes-cron-job-sales-clean-quotes-to-run-faster.md)
         * [ACSD-50345: reCAPTCHA issues during checkout](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50345-recaptcha-issues-during-checkout.md)
