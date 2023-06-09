@@ -911,7 +911,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce prompts customers log in invalid link](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
     * [Shipping labels creation known issue in Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2.4.0.md)
     * [B2B: Companies cannot access profile pages on store front](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
-    * [Adobe Commerce 2.4.6 error placing order from Admin panel](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.6-know-issue-patch-error-when-palcing-an-order-from-the-admin-panel.md)
+    * [Adobe Commerce 2.4.6 error placing order from Admin panel](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.6-known-issue-patch-error-when-palcing-an-order-from-the-admin-panel.md)
   * Elasticsearch {#elasticsearch}
     * [Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2.3.1-upgrade.md)
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
