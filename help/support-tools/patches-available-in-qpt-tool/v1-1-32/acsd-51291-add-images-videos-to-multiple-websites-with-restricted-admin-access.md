@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51291: Admin with restricted access to one website can add images/videos to multiple product websites"
-description: Apply the ACSD-51291 patch to fix the Adobe Commerce issue where the changes made to a page's text content via [!DNL Page Builder] are not saved.
+title: "ACSD-51291: Restricted admin with access to one website can perform actions in multiple websites"
+description: Apply the ACSD-51291 patch to fix the Adobe Commerce issue where restricted admin with access to one website can add images/videos to a product assigned to multiple websites.
 ---
-# ACSD-51291: Changes to page's text content via [!DNL Page Builder] aren't saved
+# ACSD-51291: Restricted admin with access to one website can perform actions in multiple websites
 
-The ACSD-51291 patch fixes the issue where the changes made to a page's text content via [!DNL Page Builder] are not saved. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51291. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51291 patch fixes the issue where restricted admin with access to one website can add images/videos to a product assigned to multiple websites. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51291. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
