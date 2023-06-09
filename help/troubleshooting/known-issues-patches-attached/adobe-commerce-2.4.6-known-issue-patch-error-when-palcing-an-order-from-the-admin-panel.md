@@ -16,10 +16,10 @@ Steps to reproduce:
 1. **Sales** > **Orders** and select a customer to create an order.
 2. Select the store to place the order from the store selector screen.
 
-Expected result:
+<u>Expected result</u>
 After selecting the store you are able to complete the order.
 
-Actual result:
+<u>Actual result:</u>
 After selecting the store, you are redirected back to the store selector page and you cannot create an order.
 
 ## Patch
