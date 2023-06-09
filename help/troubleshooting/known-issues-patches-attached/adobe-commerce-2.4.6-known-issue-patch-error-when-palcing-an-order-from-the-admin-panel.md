@@ -24,7 +24,7 @@ After selecting the store, you are redirected back to the store selector page an
 
 ## Patch
 
-The patch is attached to this article. To download it, scroll down to the end of the article and click the file name or click the following link:
+Click the following link to download the patch.
 
  [Download ACSD-52277_2.4.6.patch](/assets/ACSD-52277_2.4.6.patch)
 
