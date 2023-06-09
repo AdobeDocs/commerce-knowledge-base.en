@@ -11,15 +11,17 @@ This article provides a patch for the known Adobe Commerce on cloud infrastructu
 
 When placing an order from the Admin panel you are stuck on store selection.
 
-Steps to reproduce:
+<u>Steps to reproduce</u>
 
 1. **Sales** > **Orders** and select a customer to create an order.
 2. Select the store to place the order from the store selector screen.
 
 <u>Expected result</u>
+
 After selecting the store you are able to complete the order.
 
 <u>Actual result:</u>
+
 After selecting the store, you are redirected back to the store selector page and you cannot create an order.
 
 ## Patch
@@ -35,5 +37,5 @@ The patch was created for and compatible with Adobe Commerce on cloud infrastruc
 ## How to apply the patch
 
 * For instructions on applying patches for Adobe Commerce on cloud infrastructure, refer to [Apply patches](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in our Commerce on Cloud Infrastructure Guide. 
-* For instructions on applying patches for Adobe Commece on Premises, refer to [Apply patches](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) in our Commerce Upgrade Guide.
+* For instructions on applying patches for Adobe Commerce on-premises, refer to [Apply patches](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) in our Commerce Upgrade Guide.
 
