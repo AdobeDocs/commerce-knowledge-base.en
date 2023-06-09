@@ -1,20 +1,26 @@
 ---
 title: Adobe Commerce 2.4.6 error placing order from Admin panel
-description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.4.6 issue when placing an order from the Admin panel the merchant becomes stuck on store selection.
+description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.4.6 issue when you become stuck on store selection after you place an order from the Commerce Admin panel.
 ---
 
 # Adobe Commerce 2.4.6 error placing order from Admin panel
 
-This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.4.6 issue when placing an order from the Commerce Admin panel the merchants becomes stuck on store selection.
+This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.4.6 issue when you become stuck on store selection after you place an order from the Commerce Admin panel.
 
 ## Issue
 
-When placing an order from the Admin panel merchants become stuck on store selection.
+When placing an order from the Admin panel you are stuck on store selection.
 
-## Solution
+Steps to reproduce:
 
 1. **Sales** > **Orders** and select a customer to create an order.
-2. Select the store to place the order in from the store selector screen.
+2. Select the store to place the order from the store selector screen.
+
+Expected result:
+After selecting the store you are able to complete the order.
+
+Actual result:
+After selecting the store, you are redirected back to the store selector page and you cannot create an order.
 
 ## Patch
 
@@ -28,6 +34,6 @@ The patch was created for and compatible with Adobe Commerce on cloud infrastruc
 
 ## How to apply the patch
 
-For instructions on applying patches for Adobe Commerce on cloud infrastructure, refer to [Apply patches](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in our Commerce on Cloud Infrastructure Guide. 
-For instructions on applying patches for Adobe Commece on Premises, refer to [Apply patches](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) in our Commerce Upgrade Guide.
+* For instructions on applying patches for Adobe Commerce on cloud infrastructure, refer to [Apply patches](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in our Commerce on Cloud Infrastructure Guide. 
+* For instructions on applying patches for Adobe Commece on Premises, refer to [Apply patches](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) in our Commerce Upgrade Guide.
 
