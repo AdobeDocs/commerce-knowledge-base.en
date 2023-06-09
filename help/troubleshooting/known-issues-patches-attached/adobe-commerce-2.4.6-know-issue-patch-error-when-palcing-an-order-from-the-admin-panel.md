@@ -24,15 +24,8 @@ The patch is attached to this article. To download it, scroll down to the end of
 
 ### Compatible Adobe Commerce versions
 
-The patch was created for:
-
-* Adobe Commerce on cloud infrastructure xxxx
-
-The patch is also compatible (but might not solve the issue) with the following Adobe versions and editions:
-
-* Adobe Commerce on cloud infrastructure xxxx
-* Adobe Commerce on-premises xxx
+The patch was created for and compatible with Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.4.6 and 2.4.6-p1.
 
 ## How to apply the patch
 
-See [How to apply a composer patch provided by Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base for instructions.
+For instructions on applying patches for Adobe Commerce on cloud infrastructure, refer to [Apply patches]( https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html).
