@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51291: Restricted admin access to one website can add images/videos to the product assigned to multiple websites"
+title: "ACSD-51291: Admin with restricted access to one website can add images/videos to multiple product websites"
 description: Apply the ACSD-51291 patch to fix the Adobe Commerce issue where the changes made to a page's text content via [!DNL Page Builder] are not saved.
 ---
 # ACSD-51291: Changes to page's text content via [!DNL Page Builder] aren't saved
