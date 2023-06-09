@@ -957,7 +957,6 @@ breadcrumb-title: Commerce KB
   * [Check disk space using CLI on Adobe Commerce on cloud infrastructure environment](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
   * [Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
   * [Test Fastly on Production if a Live Site uses the same domain](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
-  * [Work with refunds and credit memos using Adobe Commerce API](/help/how-to/general/work-with-refunds-and-credit-memos-using-magento-api.md)
   * [Static content deployment options to reduce deployment downtime on Cloud](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
   * [Identify and measure outages for Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-identify-outages.md)
   * [Change account owner for New Relic on Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
