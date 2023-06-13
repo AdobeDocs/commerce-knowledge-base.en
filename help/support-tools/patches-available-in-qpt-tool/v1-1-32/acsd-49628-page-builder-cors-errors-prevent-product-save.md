@@ -40,7 +40,7 @@ The ACSD-49628 patch fixes the issue where [!DNL Page Builder] CORS errors preve
 
 <u>Expected results</u>:
 
-The second admin is able to save the product, but the [!UICONTROL Edit with Page Builder] button is not displayed to the admin without any *[!UICONTROL Content]* permissions.
+The second admin is able to save the product, but the **[!UICONTROL Edit with Page Builder]** button is not displayed to the admin without any *[!UICONTROL Content]* permissions.
 
 <u>Actual results</u>:
 
