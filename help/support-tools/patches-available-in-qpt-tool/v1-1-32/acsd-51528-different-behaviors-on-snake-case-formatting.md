@@ -1,11 +1,10 @@
 ---
-title: 'ACSD-50817: Optimizes cron job sales_clean_quotes to run faster'
-description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
-exl-id: 9a6f44ac-ae9a-4e98-8b5e-cf1cbdb2e6fc
+title: "ACSD-51528: Different behaviors on snake_case formatting"
+description: Apply the ACSD-51528 patch to fix the Adobe Commerce issue where there are different behaviors on snake_case formatting.
 ---
-# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
+# ACSD-51528: Different behaviors on snake_case formatting
 
-The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
+The ACSD-51528 patch fixes different behaviors on snake_case formatting. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51528. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -15,7 +14,7 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,26 +22,21 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 ## Issue
 
-The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+The different behaviors on snake_case formatting.
 
 <u>Steps to reproduce</u>:
 
-1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
+1. Test the `\Magento\Framework\Api\DataObjectHelper::populateWithArray` function with a variety of different property names.
+1. The properties with names like *NewPName* should be transformed into *new_p_name*, instead they're being transformed to *new_pname*.
+1. Also, when using the *getNewPName* function in the object, *null* will be returned because the *Abstract model* will correctly transform the call to *new_p_name* making both functions incompatible with each other.
 
-    ```cron
-    SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
-
-    SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
-    ```
-    
 <u>Expected results</u>
 
-Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+The **[!UICONTROL populateWithArray]** function should transform the object properties to snake_case correctly, making it compatible with the **[!DNL AbstractModel's]** `Getters` and `Setters`.
 
 <u>Actual results</u>
 
-The query is too slow.
+When using the **[!UICONTROL populateWithArray]** function, any object properties that contain two or more capital letters in a row in its name will cause the snake_case transformation to be incorrect in the final data array.
 
 ## Apply the patch
 

@@ -31,58 +31,90 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/acsd-49973-improved-performance-fetching-bundled-products-via-graphql.html">ACSD-49973: Improved performance fetching bundled products via GraphQL:</a> The ACSD-49973 patch improves performance fetching bundled products via GraphQL. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.30 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51305-out-of-stock-composite-child-products-unavailable-in-graphql-response.html">ACSD-51305: Out-of-stock composite child products unavailable in GraphQL response:</a> The ACSD-51305 patch fixes the issue where out-of-stock composite child products are not available in the GraphQL response. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
     </td>
     <td>New article</td>
-    <td> May 11, 2023</td>
+    <td>June 08, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/acsd-50527-error-when-saving-page-with-empty-dynamic-block.html">ACSD-50527: Error upon saving a page with empty dynamic block:</a> The ACSD-50527 patch fixes the issue where an error occurs when saving a page with an empty dynamic block. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.30 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-31/acsd-51036-race-conditions-during-concurrent-rest-api-calls-cause-overwrite-of-shipping-status.html">ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table:</a> The ACSD-51036 patch fixes the issue where the race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.31 is installed.
     </td>
     <td>New article</td>
-    <td>May 11, 2023</td>
+    <td>June 08, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/acsd-50276-customer-registration-form-does-not-work-on-the-storefront.html">ACSD-50276: Customer registration form doesn't work on storefront if multi-select customer attribute is created:</a> The ACSD-50276 patch fixes the issue where the customer registration form doesn't work on the storefront if a multi-select customer attribute is created. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.30 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/acsd-51114-random-product-disappearing-from-large-catalogs-while-asynchronous-indexing.html">ACSD-51114: Random products disappeared from large catalogs when asynchronous indexing is enabled:</a> The ACSD-51114 patch fixes the issue where random products disappeared from large catalogs when asynchronous indexing is enabled. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.30 is installed.
     </td>
     <td>New article</td>
-    <td>May 11, 2023</td>
+    <td>June 08, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/acsd-49129-the-content-attribute-is-not-returned-in-product-media-api-responses.html">ACSD-49129: "Content" attribute not returned in product media API responses:</a> The ACSD-49129 patch fixes the issue where the content attribute (base64 image code) is not returned in the <code>rest/V1/products/sku/media</code> product media API responses. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.30 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/acsd-49737-coupon-is-incorrectly-marked-as-used-after-a-failed-card-payment.html">ACSD-49737: Coupon is incorrectly marked as used after a failed card payment:</a> The ACSD-49737 patch fixes the issue where the coupon is incorrectly marked as used after a failed card payment. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.30 is installed.
     </td>
-    <td> New article </td>
-    <td> May 11, 2023</td>
+    <td>New article </td>
+    <td>June 08, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/acsd-49513-remote-storage-synchronization-fails.html">ACSD-49513: Remote storage synchronization fails because of 0-byte files:</a> The ACSD-49513 patch fixes the issue where the remote storage synchronization fails because of 0-byte files. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.30 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/acsd-50367-customer-address-export-does-not-work.html">ACSD-50367: Customer address export does not work:</a> The ACSD-50367 patch fixes the issue where the customer address export does not work when a multi-select customer address attribute without values is created. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.30 is installed.
     </td>
     <td>New article</td>
-    <td>May 11, 2023</td>
+    <td>June 08, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-29/acsd-49835-use-default-value-chekbox-not-saved.html">ACSD-49835: [!UICONTROL Use Default Value] checkbox is not saved:</a> The ACSD-49835 patch fixes the issue where the [!UICONTROL Use Default Value] checkbox is not saved correctly on a store level for a multi-select attribute. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.29 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/acsd-50336-product-alert-emails-not-sent.html">ACSD-50336: Product alert emails not sent:</a> The ACSD-50336 patch fixes the issue where product alert emails are not sent when a product is back in stock or the price is changed. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.30 is installed.
     </td>
     <td>New article</td>
-    <td>May 11, 2023</td>
+    <td>June 08, 2023</td>
   </tr>
   
-  <tr>
+   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-29/acsd-49389-ready-pickup-email-sent-api.html">ACSD-49389: Ready for pickup email sent by API when not ready for pickup:</a> The ACSD-49389 patch fixes the issue where a ready-for-pickup email is sent by the API when the order is not ready for pickup. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.29 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51379-changes-made-to-page-text-content-via-page-builder-are-not-saved.html">ACSD-51379: Changes to page's text content via Page Builder aren't saved:</a> The ACSD-51379 patch fixes the issue where the changes made to a page's text content via [!UICONTROL Page Builder] are not saved. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
     </td>
     <td>New article</td>
-    <td>May 11, 2023</td>
+    <td>June 08, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51230-gift-card-account-is-deleted.html">ACSD-51230: Gift card account is deleted:</a> The ACSD-51230 patch fixes the issue where the gift card account is deleted when the partial refund of a simple product is processed from an order. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
+    </td>
+    <td>New article</td>
+    <td>June 08, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-31/acsd-50345-recaptcha-issues-during-checkout.html">ACSD-50345: reCAPTCHA issues during the checkout:</a> The ACSD-50345 patch fixes the issue where the reCAPTCHA v2 and v3 validations fail while placing orders and during the checkout. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.31 is installed.
+    </td>
+    <td>New article</td>
+    <td>June 08, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.html">Cannot save contact as the URL key:</a> This article provides a workaround for the issue when you are not able to save contact as a URL key (e.g., <em>"/contact"</em>) for products or CMS pages.
+    </td>
+    <td>New article</td>
+    <td>June 08, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.html">Cron stopped due to misconfigured or missing OpCache settings:</a> This article provides a solution for when cron stops working due to missing or misconfigured OpCache settings.
+    </td>
+    <td>New article</td>
+    <td>June 08, 2023</td>
   </tr>
 </table>
 
