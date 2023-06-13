@@ -577,6 +577,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-51036-race-conditions-during-concurrent-rest-api-calls-cause-overwrite-of-shipping-status.md)
     * v1.1.32 {#v1-1-32}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.32](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/overview.md)
+        * [ACSD-50621: Tier prices for different websites in shared catalog are not visible](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-50621-tier-prices-different-websites-shared-catalog-not-visible.md)
         * [ACSD-51528: Different behaviors on snake_case formatting](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51528-different-behaviors-on-snake-case-formatting.md)
         * [ACSD-49480: Discard Subsequent Rules not working](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-49480-discard-subsequent-rules-not-working.md)
         * [ACSD-50794: Cannot remove a gift_wrapping from customer order via graphql](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-50794-cannot-remove-gift-wrapping-from-customer-order-via-graphql.md)
