@@ -1,21 +1,21 @@
 ---
-title: "ACSD-50276: Customer registration form doesn't work on storefront if multi-select customer attribute is created"
-description: Apply the ACSD-50276 patch to fix the Adobe Commerce issue where the customer registration form doesn't work on the storefront if a multi-select customer attribute is created.
-exl-id: 4b2df852-255c-42d3-ac2f-25efc1e0cf02
+title: 'ACSD-50814: Admin user not able to create credit memo'
+description: Apply the ACSD-50814 patch to fix the Adobe Commerce issue where an admin user is not able to create a credit memo.
+exl-id: 82099007-dee8-493d-b4da-3338fb77b935
 ---
-# ACSD-50276: Customer registration form doesn't work on storefront if multi-select customer attribute is created
+# ACSD-50814: Admin user is not able to create credit memo
 
-The ACSD-50276 patch fixes the issue where the customer registration form doesn't work on the storefront if a multi-select customer attribute is created. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50276. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
+The ACSD-50814 patch fixes the issue where an admin user is not able to create a credit memo. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50814. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.6
 
 >[!NOTE]
 >
@@ -23,29 +23,34 @@ The ACSD-50276 patch fixes the issue where the customer registration form doesn'
 
 ## Issue
 
-The customer registration form doesn't work on the storefront if a multi-select customer attribute is created. 
+An admin user is not able to create a credit memo.
 
 <u>Steps to reproduce</u>:
 
-1. Create a new multi-select customer attribute with the following settings:
-
-    * *[!UICONTROL Required = Yes]*
-    * *[!UICONTROL Show on storefront = Yes]*, select *[!UICONTROL Customer registration form]*.
-    
-1. Open the customer registration form on the storefront.
+1. In the Adobe Commerce Admin, navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Shipping methods]** > **[!UICONTROL Free shipping]** and set **[!UICONTROL Enable free shipping]** to *[!UICONTROL Yes]*
+1. Again go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Tax]**, expand the calculation settings and set:
+    * [!UICONTROL Shipping prices] = [!UICONTROL Including tax]
+    * [!UICONTROL Enable cross border trade] = [!UICONTROL No]
+1. Expand the price display settings and set the [!UICONTROL Display shipping prices] = [!UICONTROL Including tax].
+1. Expand [!UICONTROL Orders], [!UICONTROL Invoices], [!UICONTROL Credit memo] display settings and set [!UICONTROL Display shipping amount] = [!UICONTROL Including tax].
+1. Clear caches.
+1. Place an order on the storefront.
+1. Create an invoice for the order in the admin.
+1. Create a credit memo.
 
 <u>Expected results</u>:
 
-The customer registration form loads successfully.
+The credit memo is created.
 
 <u>Actual results</u>:
 
-* The customer registration form does not load.
-* The following error is logged:
+The following error is thrown:
 
-    ```PHP
-    report. CRITICAL: Exception: Deprecated Functionality: explode(): Passing null to parameter #2 ($string) of type string is deprecated in vendor/magento/module-custom-attribute-management/Block/Form/Renderer/Multiselect.php
-    ```
+*The page cannot be displayed due to the error*
+
+```
+report.CRITICAL: DivisionByZeroError: Division by zero in vendor/magento/module-sales/Model/Order/Creditmemo/Total/Tax.php:139*
+```
 
 ## Apply the patch
 

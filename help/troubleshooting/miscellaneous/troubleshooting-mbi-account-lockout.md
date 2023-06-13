@@ -1,19 +1,19 @@
 ---
-title: Troubleshooting MBI account lockout
-description: This article provides solutions for MBI account lockout. We'll first need to determine if this is a defect, a temporary glitch, or something else. Following the steps below will help get you back in your account as quickly as possible.
+title: Troubleshooting Adobe Commerce Intelligence account lockout
+description: This article provides solutions for Adobe Commerce Intelligence account lockout. We'll first need to determine if this is a defect, a temporary glitch, or something else. Following the steps below will help get you back in your account as quickly as possible.
 exl-id: 85968257-ba4b-4cfb-a4fa-497b4c5b5aea
 ---
-# Troubleshooting MBI account lockout
+# Troubleshooting Adobe Commerce Intelligence account lockout
 
 <!--
 BOB: Is this in TOC?
 -->
 
-This article provides solutions for MBI account lockout. We'll first need to determine if this is a defect, a temporary glitch, or something else. Following the steps below will help get you back in your account as quickly as possible.
+This article provides solutions for Commerce Intelligence account lockout. We'll first need to determine if this is a defect, a temporary glitch, or something else. Following the steps below will help get you back in your account as quickly as possible.
 
 ## Verify your email address is correct
 
-Double-check your email address to be certain the email address you are attempting to use to log in is associated with an existing MBI account. You may need to ask an account Admin to confirm that there aren't any typos in the email address.
+Double-check your email address to be certain the email address you are attempting to use to log in is associated with an existing Commerce Intelligence account. You may need to ask an account Admin to confirm that there aren't any typos in the email address.
 
 Once you've confirmed that the email address is correct, attempt to log in again using [this link](https://dashboard.rjmetrics.com/v2/session/create#/).
 
@@ -54,11 +54,11 @@ In the above example, we used the most common method (**right click** > **Inspec
 
 In some browsers, opening the developer tools might not automatically display the console - the site's code may display first. If this happens to you, click the Console option in the developer window and take screenshots of any errors displayed there.
 
-Submit a ticket to our Support team with the **error screenshots** and your **MBI account's email address**.
+Submit a ticket to our Support team with the **error screenshots** and your **Commerce Intelligence account's email address**.
 
 ## Don't see any errors or you're just lost?
 
-Don't worry! File a new support ticket (be sure to include your MBI account's email address) and we'll get you back in MBI as soon as possible.
+Don't worry! File a new support ticket (be sure to include your Commerce Intelligence account's email address) and we'll get you back into your account as soon as possible.
 
 ## Related topics in our support knowledge base:
 

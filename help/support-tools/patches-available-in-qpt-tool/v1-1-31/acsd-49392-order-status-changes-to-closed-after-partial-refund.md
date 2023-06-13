@@ -1,11 +1,11 @@
 ---
-title: 'ACSD-50817: Optimizes cron job sales_clean_quotes to run faster'
-description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
-exl-id: 9a6f44ac-ae9a-4e98-8b5e-cf1cbdb2e6fc
+title: 'ACSD-49392: Order status changes to closed after partial refund'
+description: Apply the ACSD-49392 patch to fix the Adobe Commerce issue where the order status changes to closed after a partial refund for a bundled product.
+exl-id: 12cf904c-c4da-4fad-aa64-47ddc91462f5
 ---
-# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
+# ACSD-49392: Order status changes to closed after partial refund
 
-The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
+The ACSD-49392 patch fixes the issue where the order status changes to closed after a partial refund for a bundled product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-49392. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -15,7 +15,7 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4 and 2.4.1 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,26 +23,23 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 ## Issue
 
-The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+Order status changes to closed after a partial refund for a bundled product.
 
 <u>Steps to reproduce</u>:
 
-1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
+1. Log in to Adobe Commerce and create any bundled product or use the existing bundled product.
+1. Place an order with this bundled product with a quantity greater than 1.
+1. Go to admin, and open the order created in step 2 from **[!UICONTROL Sales]** > **[!UICONTROL Order]** and create an invoice. Observe the order status. It will be in processing.
+1. Create a partial credit memo (do not refund for all products in the bundle).
+1. Check the order status.
 
-    ```cron
-    SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
-
-    SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
-    ```
-    
 <u>Expected results</u>
 
-Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+After creating a partial credit memo for the bundled product, the order status is in processing.
 
 <u>Actual results</u>
 
-The query is too slow.
+After creating a partial credit memo for the bundled product, the order status is complete.
 
 ## Apply the patch
 

@@ -1,21 +1,20 @@
 ---
-title: 'ACSD-50817: Optimizes cron job sales_clean_quotes to run faster'
-description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
-exl-id: 9a6f44ac-ae9a-4e98-8b5e-cf1cbdb2e6fc
+title: "ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved"
+description: Apply the ACSD-51379 patch to fix the Adobe Commerce issue where the changes made to a page's text content via [!DNL Page Builder] are not saved.
 ---
-# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
+# ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved
 
-The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
+The ACSD-51379 patch fixes the issue where the changes made to a page's text content via [!DNL Page Builder] are not saved. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51379. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -23,26 +22,28 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 ## Issue
 
-The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+The changes made to a page's text content via [!DNL Page Builder] are not saved.
 
 <u>Steps to reproduce</u>:
 
-1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
+1. Log in to Admin.
+1. Go to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]**.
+1. Create a test page with one row and one text element on the **[!UICONTROL Content]** tab.
+1. Save the page and return to the **[!UICONTROL Content]** tab.
+1. Edit the text by selecting it and changing it.
 
-    ```cron
-    SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
+    **Note:** The issue is only reproducible if the text is selected and changed without activating the editor.
 
-    SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
-    ```
-    
-<u>Expected results</u>
+1. Click the **[!UICONTROL Save and Close]** button on the test page.
+1. Open the test page again and check the **[!UICONTROL Content]** tab.
 
-Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+<u>Expected results</u>:
 
-<u>Actual results</u>
+The new text is saved successfully for original and duplicated text elements.
 
-The query is too slow.
+<u>Actual results</u>:
+
+The text element is duplicated successfully, but the new text is not saved.
 
 ## Apply the patch
 

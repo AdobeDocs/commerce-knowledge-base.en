@@ -75,3 +75,7 @@ For general information and recommendations about `robots.txt`, see:
 * [About /robots.txt](https://www.robotstxt.org/robotstxt.html) by robotstxt.org
 
 Work with your developer and/or SEO expert to determine what User Agents you want to allow, or those you want to disallow.
+
+## Related Reading
+
+[Product Specific Licensing Terms for Adobe Commerce on Cloud](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)

@@ -1,17 +1,16 @@
 ---
-title: 'ACSD-50817: Optimizes cron job sales_clean_quotes to run faster'
-description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
-exl-id: 9a6f44ac-ae9a-4e98-8b5e-cf1cbdb2e6fc
+title: "ACSD-50621: Tier prices for different websites in shared catalog are not visible"
+description: Apply the ACSD-50621 patch to fix the Adobe Commerce issue where the tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment.
 ---
-# ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
+# ACSD-50621: Tier prices for different websites in shared catalog are not visible
 
-The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-50817.
+The ACSD-50621 patch fixes the issue where the tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-50621. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.5
 
 **Compatible with Adobe Commerce versions:**
 
@@ -23,26 +22,29 @@ The ACSD-50817 patch optimizes the cron job `sales_clean_quotes` to run faster b
 
 ## Issue
 
-The cron job `sales_clean_quotes` is too slow. With this patch, it has been optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+Tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment.
 
 <u>Steps to reproduce</u>:
 
-1. Generate 50-80M of quotes with `updated_at` set as < 30 days period.
-1. Run the cron job `sales_clean_quotes` or the following query on the quote table:
+1. Set the **[!UICONTROL Catalog Price Scope]** to **[!UICONTROL Website]**.
+1. Create an additional website, store, and storeview.
+1. Create a simple product and assign it to all websites.
+1. Create a custom shared catalog.
+1. Go to **[!UICONTROL Set Pricing and Structure]** for the custom shared catalog you created.
+1. In Step 1: select products for catalog. Add the simple product you created.
+1. In step 2: set custom prices and click **[!UICONTROL Configure]**.
+1. Set different tier prices for different websites.
+1. Select **[!UICONTROL Done]** and click on **[!UICONTROL Generate Catalog]** and then click **[!UICONTROL Save]**.
+1. Run cron.
+1. Navigate to **[!UICONTROL Set Pricing and Structure]** > **[!UICONTROL Configure]** > **[!UICONTROL Next]** > **[!UICONTROL Configure]** and verify tier price.
 
-    ```cron
-    SELECT COUNT(*) FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0')
+<u>Expected results</u>:
 
-    SELECT * FROM `quote` AS `main_table` WHERE (`store_id` = '1') AND (`updated_at` <= '2023-02-25') AND (`is_persistent` = '0') LIMIT 50
-    ```
-    
-<u>Expected results</u>
+All previously configured tier prices for different websites are present.
 
-Cron job `sales_clean_quotes` is optimized to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+<u>Actual results</u>:
 
-<u>Actual results</u>
-
-The query is too slow.
+Tier prices that were previously configured are not present.
 
 ## Apply the patch
 

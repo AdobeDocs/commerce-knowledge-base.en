@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49129: "Content" attribute not returned in product media API responses'
-description: Apply the ACSD-49129 patch to fix the Adobe Commerce issue where the *content* attribute (*base64 image code*) is not returned in the `rest/V1/products/sku/media` product media API responses.
-exl-id: 98dddf98-a8c3-48ab-845e-9c0fdb8b4739
+title: 'ACSD-49737: Coupon is incorrectly marked as used after a failed card payment'
+description: Apply the ACSD-49737 patch to fix the Adobe Commerce issue where the coupon is incorrectly marked as used after a failed card payment.
+exl-id: d6ad7a47-ff6a-49e7-be7c-f54d0011ff58
 ---
-# ACSD-49129: "Content" attribute not returned in product media API responses
+# ACSD-49737: Coupon is incorrectly marked as *used* after a failed card payment
 
-The ACSD-49129 patch fixes the issue where the *content* attribute (*[!UICONTROL base64 image code]*) is not returned in the `rest/V1/products/sku/media` product media API responses. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.30 is installed. The patch ID is ACSD-49129. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49737 patch fixes the issue where the coupon is incorrectly marked as *used* after a failed card payment. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-49737. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p3
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.5-p2
+* Adobe Commerce (all deployment methods) 2.4.1-p1 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,21 +23,30 @@ The ACSD-49129 patch fixes the issue where the *content* attribute (*[!UICONTROL
 
 ## Issue
 
-The *content* attribute (*[!UICONTROL base64 image code]*) is not returned in the `rest/V1/products/sku/media` product media API responses.
+The coupon is incorrectly marked as *used* after a failed card payment.
+
+<u>Prerequisites</u>:
+
+1. Configure the **[!UICONTROL Braintree sandbox payment]** method.
+1. Make sure the [*sales.rule.update.coupon.usage*](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/consumers.html?lang=en) consumer is set up and running.
 
 <u>Steps to reproduce</u>:
 
-1. Create a product with an image.
-1. Send *GET REST API* request to `rest/V1/products/<sku>/media` and `rest/V1/products/<sku>/media/<entryId>`.
-1. Check the API responses.
+1. Create a **[!UICONTROL Cart Price Rule]** with auto generated coupon codes. 
+1. Log in as a customer.
+1. Add product(s) to the cart.
+1. Apply an auto generated coupon code.
+1. Try to place an order with a failed payment.
+1. Check the coupon usage in the **[!UICONTROL Cart Price Rule]** under the **[!UICONTROL Manage Coupon Codes]** tab.
 
-<u>Expected results</u>
+<u>Expected results</u>:
 
-The *content* attribute with the data is available via REST API.
+Coupon shouldn't be flagged as *used* if the payment is failed.
 
-<u>Actual results</u>
+<u>Actual results</u>:
 
-The *content* attribute is not present in the API responses.
+* Coupon code says - Used: *Yes*, Times Used: *1*
+* Coupon code is valid for a single-time use only.
 
 ## Apply the patch
 
@@ -45,6 +54,10 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Additional steps required after the patch installation
+
+(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
