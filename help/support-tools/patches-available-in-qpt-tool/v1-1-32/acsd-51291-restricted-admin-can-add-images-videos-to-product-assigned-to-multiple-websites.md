@@ -4,7 +4,7 @@ description: Apply the ACSD-51291 patch to fix the Adobe Commerce issue where re
 ---
 # ACSD-51291: Restricted admin can add images/videos to product assigned to multiple websites
 
-The ACSD-51291 patch fixes the issue where restricted admin with access to one website can add images/videos to a product assigned to multiple websites. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51291. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51291 patch fixes the issue where a restricted admin with access to one website can add images/videos to a product assigned to multiple websites. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51291. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -14,7 +14,7 @@ The ACSD-51291 patch fixes the issue where restricted admin with access to one w
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.4-p3, 2.4.5 - 2.4.5-p2
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p3, 2.4.5 - 2.4.5-p2
 
 >[!NOTE]
 >
@@ -22,19 +22,19 @@ The ACSD-51291 patch fixes the issue where restricted admin with access to one w
 
 ## Issue
 
-Restricted admin with access to one website can add images/videos to a product assigned to multiple websites.
+A restricted admin with access to one website can add images/videos to a product assigned to multiple websites.
 
 <u>Steps to reproduce</u>
 
-1. Log in as admin.
+1. Log in as an admin.
 1. Create a second website, store and store view.
-1. Create a second admin role only with resources for the second website, store and store view.
+1. Create a second admin role with resources only for the second website, store and store view.
 1. Create a second admin, and assign it to the new restricted admin role.
 1. Create a new product, and assign it to both the default and the new websites.
 1. Log out from the main admin profile.
 1. Log in as the new restricted admin.
 1. Edit the created product, which has been assigned to both websites.
-1. Open **[!UICONTROL Images and Videos]** tab.
+1. Open the **[!UICONTROL Images and Videos]** tab.
 
 <u>Expected results</u>:
 
