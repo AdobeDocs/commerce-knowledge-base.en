@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51204: Product does not return back in stock after creating credit memo"
-description: Apply the ACSD-51204 patch to fix the Adobe Commerce issue where the product does not return back in stock after creating credit memo.
+title: "ACSD-51204: Product does not return back in stock after creating the credit memo"
+description: Apply the ACSD-51204 patch to fix the Adobe Commerce issue where the product does not return back in stock after creating the credit memo.
 ---
-# ACSD-51204: Product does not return back in stock after creating credit memo
+# ACSD-51204: Product does not return back in stock after creating the credit memo
 
-The ACSD-51204 patch fixes the issue where the product does not return back in stock after creating credit memo. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51204. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-51204 patch fixes the issue where the product does not return back in stock after creating the credit memo. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51204. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -22,7 +22,7 @@ The ACSD-51204 patch fixes the issue where the product does not return back in s
 
 ## Issue
 
-The product does not return back in stock after creating credit memo.
+The product does not return back in stock after creating the credit memo.
 
 <u>Steps to reproduce</u>:
 
@@ -30,17 +30,17 @@ The product does not return back in stock after creating credit memo.
 1. Add a **[!UICONTROL new product]** with a quantity of [ten].
 1. Assign the product to **[!UICONTROL default stock]**.
 1. On the Storefront, add the product to the cart and place an order for a whole available quantity [ten].
-1. In the admin panel, generate an `invoice` and `shipment` for the order.
-1. Create a **[!UICONTROL Credit Memo]** with the `return to stock` checkbox selected for all items.
-1. Check the product **[!UICONTROL Salable Quantity]** in Admin.
+1. In the admin panel, generate an "invoice" and "shipment" for the order.
+1. Create a **[!UICONTROL Credit Memo]** with the "return to stock" checkbox selected for all items.
+1. Check the product **[!UICONTROL Salable Quantity]** in the Admin.
 
 <u>Expected results</u>:
 
-The salable quantity is return to 10.
+The salable quantity is return to ten.
 
 <u>Actual results</u>:
 
-The salable quantity is left as 0.
+The salable quantity is left as zero.
 
 ## Apply the patch
 
