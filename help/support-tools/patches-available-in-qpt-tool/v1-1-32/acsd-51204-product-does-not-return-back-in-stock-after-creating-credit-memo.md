@@ -30,7 +30,7 @@ The product does not return back in stock after creating the credit memo.
 1. Add a **[!UICONTROL new product]** with a [!UICONTROL quantity] of *10*.
 1. Assign the product to the **[!UICONTROL default stock]**.
 1. On the Storefront, add the product to the cart and place an order for a whole available quantity [ten].
-1. In the admin panel, generate an "invoice" and "shipment" for the order.
+1. In the admin panel, generate an *invoice* and *shipment* for the order.
 1. Create a **[!UICONTROL Credit Memo]** with the "return to stock" checkbox selected for all items.
 1. Check the product **[!UICONTROL Salable Quantity]** in the Admin.
 
