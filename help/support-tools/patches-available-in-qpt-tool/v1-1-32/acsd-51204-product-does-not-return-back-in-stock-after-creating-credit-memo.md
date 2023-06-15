@@ -36,11 +36,11 @@ The product does not return back in stock after creating the credit memo.
 
 <u>Expected results</u>:
 
-The salable quantity is return to ten.
+The salable quantity of the product has to return to ten.
 
 <u>Actual results</u>:
 
-The salable quantity is left as zero.
+The salable quantity of the product is left as zero.
 
 ## Apply the patch
 
