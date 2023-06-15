@@ -40,7 +40,7 @@ The salable quantity of the product has to return to ten.
 
 <u>Actual results</u>:
 
-The salable quantity of the product is left as zero.
+The salable quantity of the product is left as *0*.
 
 ## Apply the patch
 
