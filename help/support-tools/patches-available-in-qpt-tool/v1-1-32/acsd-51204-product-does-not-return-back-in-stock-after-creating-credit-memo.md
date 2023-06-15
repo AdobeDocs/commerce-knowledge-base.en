@@ -22,7 +22,7 @@ The ACSD-51204 patch fixes the issue where the product does not return back in s
 
 ## Issue
 
-The product does not return back in stock after creating the credit memo.
+The sold-out product does not return back in stock after creating the credit memo.
 
 <u>Steps to reproduce</u>:
 
