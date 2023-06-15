@@ -26,7 +26,7 @@ The product does not return back in stock after creating the credit memo.
 
 <u>Steps to reproduce</u>:
 
-1. Install **[!UICONTROL Adobe Commerce]** and enable the **[!UICONTROL inventory management module]** with default `source` and `stock` only.
+1. Install **[!UICONTROL Adobe Commerce]** and enable the **[!UICONTROL Inventory Management Module]** with default *source* and *stock* only.
 1. Add a **[!UICONTROL new product]** with a quantity of [ten].
 1. Assign the product to the **[!UICONTROL default stock]**.
 1. On the Storefront, add the product to the cart and place an order for a whole available quantity [ten].
