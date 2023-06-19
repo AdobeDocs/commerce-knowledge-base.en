@@ -23,7 +23,7 @@ The ACSD-50849 patch fixes the issue where adding a new product to the category 
 
 ## Issue
 
-Adding a new product to the category after clearing the cache results in mismatch of positions and selections of the existing products.
+Adding a new product to the category after clearing the cache results in a mismatch of positions and selections of the existing products.
 
 <u>Steps to reproduce</u>:
 
