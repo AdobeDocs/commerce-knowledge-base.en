@@ -1,6 +1,7 @@
 ---
-title: "ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status"
+title: 'ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status'
 description: Apply the ACSD-51036 patch to fix the Adobe Commerce issue where there are race conditions during concurrent REST API calls resulting in an overwrite of shipping status in the items ordered table.
+exl-id: b0ae0e68-b6e8-41a3-8ff5-d70a8b885a6b
 ---
 # ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table
 
@@ -54,4 +55,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-
