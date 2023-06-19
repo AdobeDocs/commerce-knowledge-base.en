@@ -35,7 +35,7 @@ Adding a new product to the category after clearing the cache results in a misma
 
 <u>Expected results</u>:
 
-The existing products assigned in the category is not removed automatically.
+The existing products assigned in the category are not removed automatically.
 
 <u>Actual results</u>:
 
