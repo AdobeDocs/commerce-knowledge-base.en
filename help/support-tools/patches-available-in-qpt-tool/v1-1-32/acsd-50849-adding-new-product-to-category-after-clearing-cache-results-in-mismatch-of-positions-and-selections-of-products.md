@@ -27,7 +27,7 @@ Adding a new product to the category after clearing the cache results in a misma
 
 <u>Steps to reproduce</u>:
 
-1. Create two product.
+1. Create two products.
 1. Assing one product to a category.
 1. Open the category from the admin.
 1. Clean the cache `bin/magento cache:flush`.
