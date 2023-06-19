@@ -7,7 +7,7 @@ exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 
 Advanced Reporting issues on Adobe Commerce can be solved using this troubleshooter tool. This includes Advanced Reporting not showing any data and 404 errors. Click on each question to reveal the answer in each step of the troubleshooter.
 
-## Step 1 - Confirm site meets Advanced Reporting Requirements
+## Step 1 - Confirm site meets Advanced Reporting Requirements {#step-1}
 
 +++**Does your website meet Advanced Reporting Requirements?**
 
@@ -18,7 +18,7 @@ b. NO – Complete the Advanced Reporting requirements for your site by followin
 
 +++
 
-## Step 2 - Check for multiple base currencies
+## Step 2 - Check for multiple base currencies {#step-2}
 
 +++**Are multiple base currencies currently being used?**
 
@@ -32,7 +32,7 @@ If multiple base currencies have ever been used you cannot use Advanced Reportin
 
 +++
 
-## Step 3 - Check if split database in use
+## Step 3 - Check if split database in use {#step-3}
 
 +++**Are you using split database solution?**
 
@@ -43,7 +43,7 @@ b. NO – Proceed to [Step 4](#step-4).
 
 +++
 
-## Step 4 - Confirm Advanced Reporting enabled
+## Step 4 - Confirm Advanced Reporting enabled {#step-4}
 
 +++**Is Advanced Reporting enabled?**
 
@@ -54,7 +54,7 @@ b. NO – [Enable Advanced Reporting](https://docs.magento.com/user-guide/report
 
 +++
 
-## Step 5 - Check for token
+## Step 5 - Check for token {#step-5}
 
 +++**Is there a token?**
 
@@ -65,7 +65,7 @@ b. NO – If token value is NULL or there is no record in the database, proceed 
 
 +++
 
-## Step 6 - Use the row
+## Step 6 - Use the row {#step-6}
 
 +++**Does the query return the row?**
 
@@ -80,7 +80,7 @@ b. NO – If the query does not return anything, take the following steps: 1. [D
 
 +++
 
-## Step 7 - Check for records in `cron_schedule` table
+## Step 7 - Check for records in `cron_schedule` table {#step-7}
 
 +++**Are there are records in the `cron_schedule` table?**
 
@@ -93,7 +93,7 @@ d. NO – If there are no records, proceed to [Step 8](#step-8).
 
 +++
 
-## Step 8 - Check for job in `support_report.log`
+## Step 8 - Check for job in `support_report.log` {#step-8}
 
 +++**Was the job logged in `support_report.log`?**
 
@@ -105,7 +105,7 @@ c. YES – If there are records but there is an error, proceed to [Step 10](#ste
 
 +++
 
-## Step 9 - Check for `data.tgz` file
+## Step 9 - Check for `data.tgz` file {#step-9}
 
 +++**Does the file `data.tgz` exist in the system and are there are records in access logs?**
 
@@ -126,7 +126,7 @@ b. NO – Proceed to [Step 10](#step-10).
 
 +++
 
-## Step 10 - Verify if there is Page Builder error
+## Step 10 - Verify if there is Page Builder error {#step-10}
 
 +++**Is there an error caused by Page Builder?**
 
