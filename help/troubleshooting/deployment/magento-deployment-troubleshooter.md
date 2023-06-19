@@ -225,4 +225,6 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 a. YES – Can't be done through configuration. [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
++++
+
 [Back to Step 1](#step-1)
