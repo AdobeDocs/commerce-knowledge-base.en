@@ -1,21 +1,20 @@
 ---
-title: 'ACSD-51238: Inventory source is removed when updating a configurable product and editing the price'
-description: Apply the ACSD-51238 patch to fix the Adobe Commerce issue where the inventory source is removed when updating a configurable product and editing the price.
-exl-id: 6d68e9f4-7fd5-4c2d-a249-f725deb00855
+title: "ACSD-51204: Product does not return back in stock after creating the credit memo"
+description: Apply the ACSD-51204 patch to fix the Adobe Commerce issue where the product does not return back in stock after creating the credit memo.
 ---
-# ACSD-51238: Inventory source is removed when updating a configurable product and editing the price
+# ACSD-51204: Product does not return back in stock after creating the credit memo
 
-The ACSD-51238 patch fixes the issue where the inventory source is removed when updating a configurable product and editing the price. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51238. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51204 patch fixes the issue where the product does not return back in stock after creating the credit memo. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51204. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6
+* Adobe Commerce (all deployment methods)  2.4.3 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -23,25 +22,25 @@ The ACSD-51238 patch fixes the issue where the inventory source is removed when 
 
 ## Issue
 
-The inventory source is removed when updating a configurable product and editing the price.
+The sold-out product does not return back in stock after creating the credit memo.
 
 <u>Steps to reproduce</u>:
 
-1. Install **[!DNL Adobe Commerce]** with **[!DNL Inventory module]**
-1. Go to the **[!UICONTROL Admin]** -> **[!UICONTROL Stores]** -> **[!UICONTROL Inventory]** and create *two sources* and *two stocks*.
-1. Create a **[!UICONTROL configurable product]** and assign it to **[!UICONTROL default sources]** or **[!UICONTROL newly created sources]**.
-1. Click on the **[!UICONTROL next button]** and *save* the product.
-1. Now edit the same **[!UICONTROL Configurable Product]** and click on **[!UICONTROL Edit Configuration]** inside the **[!UICONTROL Configuration tab]**.
-1. In `Step 3: Bulk Images,Price and Quantity`, change the `price` and leave `Quantity` and `Images` to `Skip quantity at this time` and `Skip image uploading at this time` respectively.
-1. Click on **[!UICONTROL next button]** and generate the product.
+1. Install **[!UICONTROL Adobe Commerce]** and enable the **[!UICONTROL Inventory Management Module]** with default *source* and *stock* only.
+1. Add a **[!UICONTROL new product]** with a quantity of *10*.
+1. Assign the product to the **[!UICONTROL default stock]**.
+1. On the Storefront, add the product to the cart and place an order for a whole available quantity 10.
+1. In the admin panel, generate an *invoice* and *shipment* for the order.
+1. Create a **[!UICONTROL Credit Memo]** with the *return to stock* checkbox selected for all items.
+1. Check the product's **[!UICONTROL Salable Quantity]** in the Admin.
 
-<u>Expected results</u>
+<u>Expected results</u>:
 
-The quantity per source inside the **[!UICONTROL Configuration tab]** shouldn't be empty.
+The salable quantity of the product has to return to *10*.
 
-<u>Actual results</u>
+<u>Actual results</u>:
 
-The quantity per source inside the **[!UICONTROL Configuration tab]** is empty.
+The salable quantity of the product is left as *0*.
 
 ## Apply the patch
 
