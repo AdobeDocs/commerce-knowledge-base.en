@@ -27,7 +27,7 @@ The sold-out product does not return back in stock after creating the credit mem
 <u>Steps to reproduce</u>:
 
 1. Install **[!UICONTROL Adobe Commerce]** and enable the **[!UICONTROL inventory management module]** with default `source` and `stock` only.
-1. Add a new product with a quantity of [ten].
+1. Add a new product with a quantity of ten.
 1. Install **[!UICONTROL Adobe Commerce]** and enable the **[!UICONTROL Inventory Management Module]** with default *source* and *stock* only.
 1. Add a **[!UICONTROL new product]** with a quantity of *10*.
 1. Assign the product to the **[!UICONTROL default stock]**.
