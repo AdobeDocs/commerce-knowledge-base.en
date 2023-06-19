@@ -29,16 +29,16 @@ The sold-out product does not return back in stock after creating the credit mem
 1. Install **[!UICONTROL Adobe Commerce]** and enable the **[!UICONTROL inventory management module]** with default `source` and `stock` only.
 1. Add a new product with a quantity of [ten].
 1. Install **[!UICONTROL Adobe Commerce]** and enable the **[!UICONTROL Inventory Management Module]** with default *source* and *stock* only.
-1. Add a **[!UICONTROL new product]** with a [!UICONTROL quantity] of *10*.
+1. Add a **[!UICONTROL new product]** with a quantity of *10*.
 1. Assign the product to the **[!UICONTROL default stock]**.
-1. On the Storefront, add the product to the cart and place an order for a whole available quantity [ten].
+1. On the Storefront, add the product to the cart and place an order for a whole available quantity 10.
 1. In the admin panel, generate an *invoice* and *shipment* for the order.
 1. Create a **[!UICONTROL Credit Memo]** with the *return to stock* checkbox selected for all items.
 1. Check the product's **[!UICONTROL Salable Quantity]** in the Admin.
 
 <u>Expected results</u>:
 
-The salable quantity of the product has to return to ten.
+The salable quantity of the product has to return to *10*.
 
 <u>Actual results</u>:
 
