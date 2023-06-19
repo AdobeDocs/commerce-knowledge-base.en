@@ -5,7 +5,7 @@ description: Apply the ACSD-50849 patch to fix the Adobe Commerce issue where ad
 
 # ACSD-50849: Adding new product to category after clearing cache results in mismatch of positions and selections
 
-The ACSD-50849 patch fixes the issue where adding a new product to the category after clearing the cache results in mismatch of positions and selections of the existing products. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) QPT 1.1.32 is installed. The patch ID is ACSD-50849. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50849 patch fixes the issue where adding a new product to the category after clearing the cache results in a mismatch of positions and selections of the existing products. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) QPT 1.1.32 is installed. The patch ID is ACSD-50849. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
