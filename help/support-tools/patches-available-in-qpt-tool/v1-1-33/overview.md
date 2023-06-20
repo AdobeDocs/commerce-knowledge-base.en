@@ -9,7 +9,7 @@ This sub-section provides a detailed description of the issues fixed by the patc
 QPT v1.1.33 includes the following patches:
 
 1. **ACSD-50478**: Fixes the database rollback command for a case when the DB dump contains triggers and a delimiter SQL command.
-1. **ACSD-50512**: Fixes the Error: The downloadable link isn't related to the product. Verify the link and try again. error that happens when updating the start date for a downloadable product staging update.
+1. **ACSD-50512**: Fixes the error: *The downloadable link isn't related to the product. Verify the link and try again.*  that happens when updating the start date for a downloadable product staging update.
 1. **ACSD-50949**: Fixes the issue where the price filter in Advanced search doesn't return proper results when used along the SKU filter.
 1. **ACSD-51645**: Fixes the error thrown when saving a new Cart Price Rule if the extension Magento_OfflineShipping is disabled.
 1. **ACSD-50895**: Fixes the issue where Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured.
