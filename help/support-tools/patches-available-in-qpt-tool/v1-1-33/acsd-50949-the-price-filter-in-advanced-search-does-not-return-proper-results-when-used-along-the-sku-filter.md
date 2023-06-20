@@ -79,7 +79,6 @@ The price filter in advanced search does not return proper results when used alo
   </tr>
   <tr>
 </table>
-
 2. Open the **[!UICONTROL advanced search]** on the Storefront and search by SKU: "MJ".
 1. Click the **[!UICONTROL Modify your search]** link.
 1. Add a **[!UICONTROL price range]** to the criteria from *1* to *21*, and click the Search button.
