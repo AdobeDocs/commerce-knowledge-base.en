@@ -22,7 +22,7 @@ The ACSD-51892 patch fixes the performance issue where config files load multipl
 
 ## Issue
 
-There is a performance issue when the config files load multiple times during deployment.
+There is a performance issue where the config files load multiple times during deployment.
 
 <u>Steps to reproduce</u>:
 
