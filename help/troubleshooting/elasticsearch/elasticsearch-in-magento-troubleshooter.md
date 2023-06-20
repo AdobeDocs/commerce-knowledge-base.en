@@ -11,7 +11,7 @@ Elasticsearch issues on Adobe Commerce can be solved using the Elasticsearch tro
 >
 >On Adobe Commerce on cloud infrastructure please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailing your required service upgrade and stating the time when you want the upgrade process to start.
 
-## Step 1 - Check for Elasticsearch issue
+## Step 1 - Check for Elasticsearch issue {#step-1}
 
 +++**Could your problem relate to Elasticsearch?**
 
@@ -22,7 +22,7 @@ b. NO – Search again on relevant search terms in the [Adobe Commerce Help Cent
 
 +++
 
-## Step 2 - Check for installation issue
+## Step 2 - Check for installation issue {#step-2}
 
 +++**Is it a new installation of Elasticsearch?**
 
@@ -31,7 +31,7 @@ b. NO – Check the health of your cluster. If you are on a Pro staging or produ
 
 +++
 
-## Step 3 - Check if Elasticsearch cluster available
+## Step 3 - Check if Elasticsearch cluster available {#step-3}
 
 +++**Did you get a Service response?**
 
@@ -40,7 +40,7 @@ b. NO – Proceed to [Step 9](#step-9).
 
 +++
 
-## Step 4 - Verify Elasticsearch cluster healthy
+## Step 4 - Verify Elasticsearch cluster healthy {#step-4}
 
 +++**Response green?**
 
@@ -49,7 +49,7 @@ b. NO – Yellow or red means there are problems with connections between nodes,
 
 +++
 
-## Step 5 - Verify search working
+## Step 5 - Verify search working {#step-5}
 
 +++**Search issue?**
 
@@ -60,7 +60,7 @@ b. NO – Run command: `php bin/magento config:show catalog/search/engine`. Proc
 
 +++
 
-## Step 6 - Check ElasticSuite
+## Step 6 - Check ElasticSuite {#step-6}
 
 +++**ElasticSuite in use?**
 
@@ -69,7 +69,7 @@ b. NO – proceed to [Step 7](#step-7).
 
 +++
 
-## Step 7 - Check ECE-tools up-to-date
+## Step 7 - Check ECE-tools up-to-date {#step-7}
 
 +++**Is ECE-tools the latest version?**
 
@@ -80,7 +80,7 @@ b. NO – Upgrade ECE-tools to the most current version. Run the command `php bi
 
 +++
 
-## Step 8 - Check for reindexing
+## Step 8 - Check for reindexing {#step-8}
 
 +++**Is catalog search status in _Processing_?**
 
@@ -89,7 +89,7 @@ b. NO – If the status of catalog search is _Reindex required_ run in CLI/Termi
 
 +++
 
-## Step 9 - Check yaml configuration
+## Step 9 - Check yaml configuration {#step-9}
 
 +++**`.yaml` file recently updated?**
 
@@ -98,7 +98,7 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 
 +++
 
-## Step 10 - Check for tracking indices
+## Step 10 - Check for tracking indices {#step-10}
 
 +++**Are there tracking indices listed?**
 
@@ -109,7 +109,7 @@ b. NO – If you are on Pro staging or production environments run `localhost:92
 
 +++
 
-## Step 11 - Look up specific error
+## Step 11 - Look up specific error {#step-11}
 
 +++**Specific error?**
 
@@ -120,7 +120,7 @@ b. NO – Proceed to [Step 12](#step-12).
 
 +++
 
-## Step 12 - Check available storage
+## Step 12 - Check available storage {#step-12}
 
 +++**Storage usage > 85%?**
 
