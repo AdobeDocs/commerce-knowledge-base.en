@@ -4,7 +4,7 @@ description: Apply the ACSD-50949 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-50949: The price filter in advanced search doesn't return proper results when used along the SKU filter
 
-The ACSD-50949 patch fixes the issue where the price filter in advanced search doesn't return proper results when used along the SKU filter. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-50949. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
+The ACSD-50949 patch fixes the issue where the price filter in advanced search doesn't return proper results when used along the SKU filter. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-50949. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
 ## Affected products and versions
 
