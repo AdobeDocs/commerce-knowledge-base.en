@@ -588,8 +588,10 @@ breadcrumb-title: Commerce KB
         * [ACSD-51305: Out-of-stock composite child products unavailable in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51305-out-of-stock-composite-child-products-unavailable-in-graphql-response.md)
         * [ACSD-50849: Adding new product to category after clearing cache results in mismatch of positions and selections](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-50849-adding-new-product-to-category-after-clearing-cache-results-in-mismatch-of-positions-and-selections-of-products.md)
         * [ACSD-51204: Product does not return back in stock after creating credit memo](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51204-product-does-not-return-back-in-stock-after-creating-credit-memo.md)
+        * [ACSD-51238: Inventory source removed when updating configurable product and editing the price](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51238-inventory-source-removed-when-updating-configurable-product-and-editing-the-price.md)
+    * v1.1.33 {#v1-1-33}
+        * [ACSD-51892: Performance issue where config files load multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
-    * [ACSD-51238: Inventory source removed when updating configurable product and editing the price](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51238-inventory-source-removed-when-updating-configurable-product-and-editing-the-price.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
