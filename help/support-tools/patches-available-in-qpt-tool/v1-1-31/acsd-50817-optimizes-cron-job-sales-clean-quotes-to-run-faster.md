@@ -1,6 +1,7 @@
 ---
-title: "ACSD-50817: Optimizes cron job sales_clean_quotes to run faster"
+title: 'ACSD-50817: Optimizes cron job sales_clean_quotes to run faster'
 description: Apply the ACSD-50817 patch to optimize the cron job `sales_clean_quotes` to run faster by adding a composite index on the `store_id` and `updated_at` columns in the quote table.
+exl-id: 9a6f44ac-ae9a-4e98-8b5e-cf1cbdb2e6fc
 ---
 # ACSD-50817: Optimizes cron job `sales_clean_quotes` to run faster
 
@@ -58,4 +59,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-

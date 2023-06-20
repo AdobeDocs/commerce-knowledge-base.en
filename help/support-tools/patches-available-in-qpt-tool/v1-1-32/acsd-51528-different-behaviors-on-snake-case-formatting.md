@@ -1,11 +1,11 @@
 ---
-title: 'ACSD-49392: Order status changes to closed after partial refund'
-description: Apply the ACSD-49392 patch to fix the Adobe Commerce issue where the order status changes to closed after a partial refund for a bundled product.
-exl-id: 12cf904c-c4da-4fad-aa64-47ddc91462f5
+title: 'ACSD-51528: Different behaviors on snake_case formatting'
+description: Apply the ACSD-51528 patch to fix the Adobe Commerce issue where there are different behaviors on snake_case formatting.
+exl-id: 108cee5d-0b38-4a56-bdd7-ac06637b3f86
 ---
-# ACSD-49392: Order status changes to closed after partial refund
+# ACSD-51528: Different behaviors on snake_case formatting
 
-The ACSD-49392 patch fixes the issue where the order status changes to closed after a partial refund for a bundled product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-49392. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51528 patch fixes different behaviors on snake_case formatting. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51528. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -15,7 +15,7 @@ The ACSD-49392 patch fixes the issue where the order status changes to closed af
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4 and 2.4.1 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,23 +23,21 @@ The ACSD-49392 patch fixes the issue where the order status changes to closed af
 
 ## Issue
 
-Order status changes to closed after a partial refund for a bundled product.
+The different behaviors on snake_case formatting.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Adobe Commerce and create any bundled product or use the existing bundled product.
-1. Place an order with this bundled product with a quantity greater than 1.
-1. Go to admin, and open the order created in step 2 from **[!UICONTROL Sales]** > **[!UICONTROL Order]** and create an invoice. Observe the order status. It will be in processing.
-1. Create a partial credit memo (do not refund for all products in the bundle).
-1. Check the order status.
+1. Test the `\Magento\Framework\Api\DataObjectHelper::populateWithArray` function with a variety of different property names.
+1. The properties with names like *NewPName* should be transformed into *new_p_name*, instead they're being transformed to *new_pname*.
+1. Also, when using the *getNewPName* function in the object, *null* will be returned because the *Abstract model* will correctly transform the call to *new_p_name* making both functions incompatible with each other.
 
 <u>Expected results</u>
 
-After creating a partial credit memo for the bundled product, the order status is in processing.
+The **[!UICONTROL populateWithArray]** function should transform the object properties to snake_case correctly, making it compatible with the **[!DNL AbstractModel's]** `Getters` and `Setters`.
 
 <u>Actual results</u>
 
-After creating a partial credit memo for the bundled product, the order status is complete.
+When using the **[!UICONTROL populateWithArray]** function, any object properties that contain two or more capital letters in a row in its name will cause the snake_case transformation to be incorrect in the final data array.
 
 ## Apply the patch
 

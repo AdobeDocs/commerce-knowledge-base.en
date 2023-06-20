@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49392: Order status changes to closed after partial refund'
-description: Apply the ACSD-49392 patch to fix the Adobe Commerce issue where the order status changes to closed after a partial refund for a bundled product.
-exl-id: 12cf904c-c4da-4fad-aa64-47ddc91462f5
+title: 'ACSD-50621: Tier prices for different websites in shared catalog are not visible'
+description: Apply the ACSD-50621 patch to fix the Adobe Commerce issue where the tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment.
+exl-id: 91fb69ce-4589-4b17-9a8e-36abfd1ffb59
 ---
-# ACSD-49392: Order status changes to closed after partial refund
+# ACSD-50621: Tier prices for different websites in shared catalog are not visible
 
-The ACSD-49392 patch fixes the issue where the order status changes to closed after a partial refund for a bundled product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-49392. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50621 patch fixes the issue where the tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-50621. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.5
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4 and 2.4.1 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,23 +23,29 @@ The ACSD-49392 patch fixes the issue where the order status changes to closed af
 
 ## Issue
 
-Order status changes to closed after a partial refund for a bundled product.
+Tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Adobe Commerce and create any bundled product or use the existing bundled product.
-1. Place an order with this bundled product with a quantity greater than 1.
-1. Go to admin, and open the order created in step 2 from **[!UICONTROL Sales]** > **[!UICONTROL Order]** and create an invoice. Observe the order status. It will be in processing.
-1. Create a partial credit memo (do not refund for all products in the bundle).
-1. Check the order status.
+1. Set the **[!UICONTROL Catalog Price Scope]** to **[!UICONTROL Website]**.
+1. Create an additional website, store, and storeview.
+1. Create a simple product and assign it to all websites.
+1. Create a custom shared catalog.
+1. Go to **[!UICONTROL Set Pricing and Structure]** for the custom shared catalog you created.
+1. In Step 1: select products for catalog. Add the simple product you created.
+1. In step 2: set custom prices and click **[!UICONTROL Configure]**.
+1. Set different tier prices for different websites.
+1. Select **[!UICONTROL Done]** and click on **[!UICONTROL Generate Catalog]** and then click **[!UICONTROL Save]**.
+1. Run cron.
+1. Navigate to **[!UICONTROL Set Pricing and Structure]** > **[!UICONTROL Configure]** > **[!UICONTROL Next]** > **[!UICONTROL Configure]** and verify tier price.
 
-<u>Expected results</u>
+<u>Expected results</u>:
 
-After creating a partial credit memo for the bundled product, the order status is in processing.
+All previously configured tier prices for different websites are present.
 
-<u>Actual results</u>
+<u>Actual results</u>:
 
-After creating a partial credit memo for the bundled product, the order status is complete.
+Tier prices that were previously configured are not present.
 
 ## Apply the patch
 

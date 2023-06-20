@@ -1,8 +1,8 @@
 ---
-title: "ACSD-50814: Admin user not able to create credit memo"
+title: 'ACSD-50814: Admin user not able to create credit memo'
 description: Apply the ACSD-50814 patch to fix the Adobe Commerce issue where an admin user is not able to create a credit memo.
+exl-id: 82099007-dee8-493d-b4da-3338fb77b935
 ---
-
 # ACSD-50814: Admin user is not able to create credit memo
 
 The ACSD-50814 patch fixes the issue where an admin user is not able to create a credit memo. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-50814. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.

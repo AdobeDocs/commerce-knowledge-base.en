@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49392: Order status changes to closed after partial refund'
-description: Apply the ACSD-49392 patch to fix the Adobe Commerce issue where the order status changes to closed after a partial refund for a bundled product.
-exl-id: 12cf904c-c4da-4fad-aa64-47ddc91462f5
+title: 'ACSD-49480: Discard subsequent rules not working'
+description: Apply the ACSD-49480 patch to fix the Adobe Commerce issue where the [!UICONTROL Cart Price Rule - Discard Subsequent Rules] is not working as intended.
+exl-id: 85389582-191f-4877-8e90-c091c3381c4f
 ---
-# ACSD-49392: Order status changes to closed after partial refund
+# ACSD-49480: [!UICONTROL Cart Price Rule - Discard Subsequent Rules] is not working as intended
 
-The ACSD-49392 patch fixes the issue where the order status changes to closed after a partial refund for a bundled product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-49392. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-49480 patch fixes the issue where the [!UICONTROL Cart Price Rule - Discard Subsequent Rules] is not working as intended. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-49480. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4 and 2.4.1 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5
 
 >[!NOTE]
 >
@@ -23,23 +23,24 @@ The ACSD-49392 patch fixes the issue where the order status changes to closed af
 
 ## Issue
 
-Order status changes to closed after a partial refund for a bundled product.
+[!UICONTROL Cart Price Rule - Discard Subsequent Rules] is not working as intended.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Adobe Commerce and create any bundled product or use the existing bundled product.
-1. Place an order with this bundled product with a quantity greater than 1.
-1. Go to admin, and open the order created in step 2 from **[!UICONTROL Sales]** > **[!UICONTROL Order]** and create an invoice. Observe the order status. It will be in processing.
-1. Create a partial credit memo (do not refund for all products in the bundle).
-1. Check the order status.
+1. Create a **[!UICONTROL Cart Price Rule]** with a coupon code (name it as *TEST*) that gives a $10 discount to the *Product ID 1* in the **[!UICONTROL Actions]** tab with [!UICONTROL Discard Subsequent Rules] set to *[!UICONTROL Yes]* and [!UICONTROL Priority] set to *1*.
+1. Create another **[!UICONTROL Cart Price Rule]** without a coupon code that gives a $5 discount to *Product ID 2* in the **[!UICONTROL Actions]** tab with [!UICONTROL Priority] set to *2*. Here, we assume, this is a global sale for *Product ID 2*.
+1. Go to the frontend site and add *Product ID 1* and *Product ID 2* into the cart.
+1. Apply the *TEST* coupon code.
 
 <u>Expected results</u>
 
-After creating a partial credit memo for the bundled product, the order status is in processing.
+* *Discount 1* is applied to *Product ID 1*.
+* *Discount 2* is applied to *Product ID 2*.
 
 <u>Actual results</u>
 
-After creating a partial credit memo for the bundled product, the order status is complete.
+* Only *Discount 1* is applied to *Product ID 1*.
+* *Discount 2* is not applied to *Product ID 2*.
 
 ## Apply the patch
 

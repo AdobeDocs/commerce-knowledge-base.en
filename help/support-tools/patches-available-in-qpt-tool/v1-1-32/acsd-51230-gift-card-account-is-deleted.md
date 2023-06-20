@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49392: Order status changes to closed after partial refund'
-description: Apply the ACSD-49392 patch to fix the Adobe Commerce issue where the order status changes to closed after a partial refund for a bundled product.
-exl-id: 12cf904c-c4da-4fad-aa64-47ddc91462f5
+title: 'ACSD-51230: Gift card account is deleted'
+description: Apply the ACSD-51230 patch to fix the Adobe Commerce issue where the gift card account is deleted when the partial refund of a simple product is processed from an order.
+exl-id: d57a73b0-66d3-45ef-b00a-2c1f9fbc7043
 ---
-# ACSD-49392: Order status changes to closed after partial refund
+# ACSD-51230: Gift card account is deleted 
 
-The ACSD-49392 patch fixes the issue where the order status changes to closed after a partial refund for a bundled product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-49392. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51230 patch fixes the issue where the gift card account is deleted when the partial refund of a simple product is processed from an order. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51230. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4 and 2.4.1 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,23 +23,25 @@ The ACSD-49392 patch fixes the issue where the order status changes to closed af
 
 ## Issue
 
-Order status changes to closed after a partial refund for a bundled product.
+The gift card account is deleted when the partial refund of a simple product is processed from an order.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Adobe Commerce and create any bundled product or use the existing bundled product.
-1. Place an order with this bundled product with a quantity greater than 1.
-1. Go to admin, and open the order created in step 2 from **[!UICONTROL Sales]** > **[!UICONTROL Order]** and create an invoice. Observe the order status. It will be in processing.
-1. Create a partial credit memo (do not refund for all products in the bundle).
-1. Check the order status.
+1. Create an order with a *Gift Card* and a *simple product* (e.g., *add: SKU: GI000XX000XXX, SKU: PC046CP042076*) – (any payment and shipping method works).
+1. Invoice the order.
+1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**. An account is created for the gift card.
+1. Now go to **[!UICONTROL Order]**, and create a **[!UICONTROL Credit Memo]**.
+1. Change the quantity for the *Gift Card* to 0 and update it. This will create a partial refund for the *simple product*.
+1. Click on **[!UICONTROL Refund]**.
+1. Now refresh the **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**. The newly created account is deleted.
 
 <u>Expected results</u>
 
-After creating a partial credit memo for the bundled product, the order status is in processing.
+The gift card account is available for use as the refund was not created for the gift card.
 
 <u>Actual results</u>
 
-After creating a partial credit memo for the bundled product, the order status is complete.
+The gift card account is deleted, and the gift card is not refunded.
 
 ## Apply the patch
 

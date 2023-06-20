@@ -1,21 +1,21 @@
 ---
-title: 'ACSD-49392: Order status changes to closed after partial refund'
-description: Apply the ACSD-49392 patch to fix the Adobe Commerce issue where the order status changes to closed after a partial refund for a bundled product.
-exl-id: 12cf904c-c4da-4fad-aa64-47ddc91462f5
+title: "ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved"
+description: Apply the ACSD-51379 patch to fix the Adobe Commerce issue where the changes made to a page's text content via [!DNL Page Builder] are not saved.
+exl-id: 1ac18719-b1e6-464f-9e82-053bef53d745
 ---
-# ACSD-49392: Order status changes to closed after partial refund
+# ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved
 
-The ACSD-49392 patch fixes the issue where the order status changes to closed after a partial refund for a bundled product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.31 is installed. The patch ID is ACSD-49392. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51379 patch fixes the issue where the changes made to a page's text content via [!DNL Page Builder] are not saved. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51379. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.3.7-p4 and 2.4.1 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -23,23 +23,28 @@ The ACSD-49392 patch fixes the issue where the order status changes to closed af
 
 ## Issue
 
-Order status changes to closed after a partial refund for a bundled product.
+The changes made to a page's text content via [!DNL Page Builder] are not saved.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Adobe Commerce and create any bundled product or use the existing bundled product.
-1. Place an order with this bundled product with a quantity greater than 1.
-1. Go to admin, and open the order created in step 2 from **[!UICONTROL Sales]** > **[!UICONTROL Order]** and create an invoice. Observe the order status. It will be in processing.
-1. Create a partial credit memo (do not refund for all products in the bundle).
-1. Check the order status.
+1. Log in to Admin.
+1. Go to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]**.
+1. Create a test page with one row and one text element on the **[!UICONTROL Content]** tab.
+1. Save the page and return to the **[!UICONTROL Content]** tab.
+1. Edit the text by selecting it and changing it.
 
-<u>Expected results</u>
+    **Note:** The issue is only reproducible if the text is selected and changed without activating the editor.
 
-After creating a partial credit memo for the bundled product, the order status is in processing.
+1. Click the **[!UICONTROL Save and Close]** button on the test page.
+1. Open the test page again and check the **[!UICONTROL Content]** tab.
 
-<u>Actual results</u>
+<u>Expected results</u>:
 
-After creating a partial credit memo for the bundled product, the order status is complete.
+The new text is saved successfully for original and duplicated text elements.
+
+<u>Actual results</u>:
+
+The text element is duplicated successfully, but the new text is not saved.
 
 ## Apply the patch
 
