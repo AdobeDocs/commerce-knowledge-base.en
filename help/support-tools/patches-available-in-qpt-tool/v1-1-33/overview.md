@@ -15,7 +15,7 @@ QPT v1.1.33 includes the following patches:
 1. **ACSD-50895**: Fixes the issue where [!DNL Google Analytics] 3 GTM tags are not fired if [!DNL Google Analytics] 4 GTM is not configured.
 1. **ACSD-51102**: Fixes the issue where a catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update.
 1. **ACSD-50368**: Fixes the issue where the customer's group_id is ignored when a customer is created via Async REST API or Async Bulk REST API.
-1. **ACSD-51497**: Fixes the issue where a customer can't sort a catalog page by Custom Attribute of the dropdown type.
+1. **ACSD-51497**: Fixes the issue where a customer can't sort a catalog page by [!UICONTROL Custom Attribute] of the dropdown type.
 1. **ACSD-51408**: Fixes the issue where the order item status is incorrectly set to Backordered.
 1. **ACSD-51735**: Fixes the issue where the order item status is incorrectly set to Ordered when the product stock is 0.
 1. **ACSD-51792**: Fixes the issue where a page does not have the impression event when Google Tag Manager 4 is enabled.
