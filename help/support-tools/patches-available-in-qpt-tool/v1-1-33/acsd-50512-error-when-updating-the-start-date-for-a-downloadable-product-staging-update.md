@@ -28,7 +28,7 @@ Error when updating the start date for a downloadable product staging update.
 
 1. Create a downloadable product, with downloadable *links* and *sample links*.
 1. Create a **[!UICONTROL schedule update]** for the same product and save the product.
-1. Edit the **[!DNL preconfigured schedule update]** (from step 2) and change the start date.
+1. Edit the **[!UICONTROL preconfigured schedule update]** *(from step 2)* and change the start date.
 1. Save the **[!UICONTROL schedule update]**.
 
 <u>Expected results</u>:
