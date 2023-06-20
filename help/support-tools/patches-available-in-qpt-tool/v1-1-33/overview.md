@@ -24,7 +24,7 @@ QPT v1.1.33 includes the following patches:
 1. **ACSD-51120**: Fixes the issue where GraphQL GET requests cache is not cleared for CMS pages that contain CMS blocks that are updated via a staging update.
 1. **ACSD-51240**: Fixes the issue where the uploaded file is missing if the registration is done via the company registration form.
 1. **ACSD-51907**: Fixes the issue where a restricted admin user cannot create a credit memo with an offline refund.
-1. **ACSD-52148**: Fixes the issue where the Google V3 reCAPTCHA Admin login fails occasionally.
+1. **ACSD-52148**: Fixes the issue where the [!UICONTROL Google V3 reCAPTCHA Admin] login fails occasionally.
 1. **ACSD-51431**: Fixes the issue where an indexer status is working even if there are no new entries in the changelog.
 1. **ACSD-51892**: Fixes the performance issue where config files load multiple times during deployment.
 
