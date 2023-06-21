@@ -18,7 +18,7 @@ When placing an order from the Admin panel, you are stuck on store selection.
 
 <u>Expected result</u>
 
-After selecting the store you are able to complete the order.
+After selecting the store, you are able to complete the order.
 
 <u>Actual result:</u>
 
