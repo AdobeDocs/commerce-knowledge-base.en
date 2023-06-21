@@ -22,7 +22,7 @@ After selecting the store, you are able to complete the order.
 
 <u>Actual result:</u>
 
-After selecting the store, you are redirected back to the store selector page and you cannot create an order.
+After selecting the store, you are redirected back to the store selector page, and you cannot create an order.
 
 ## Patch
 
