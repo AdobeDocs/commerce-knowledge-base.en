@@ -28,7 +28,7 @@ After selecting the store, you are redirected back to the store selector page, a
 
 Click the following link to download the patch.
 
- [Download ACSD-52277_2.4.6.patch](/assets/ACSD-52277_2.4.6.patch)
+ [Download ACSD-52277_2.4.6.patch](assets/ACSD-52277_2.4.6.patch)
 
 ### Compatible Adobe Commerce versions
 
