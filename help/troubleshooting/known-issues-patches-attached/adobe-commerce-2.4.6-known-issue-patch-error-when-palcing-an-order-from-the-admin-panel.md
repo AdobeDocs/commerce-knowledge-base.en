@@ -9,7 +9,7 @@ This article provides a patch for the known Adobe Commerce on cloud infrastructu
 
 ## Issue
 
-When placing an order from the Admin panel you are stuck on store selection.
+When placing an order from the Admin panel, you are stuck on store selection.
 
 <u>Steps to reproduce</u>
 
