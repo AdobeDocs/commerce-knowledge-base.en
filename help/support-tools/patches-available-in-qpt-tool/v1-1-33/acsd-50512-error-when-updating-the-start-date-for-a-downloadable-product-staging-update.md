@@ -1,10 +1,10 @@
 ---
 title: "ACSD-50512: Error when updating the start date for a downloadable product staging update"
-description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where the error "the downloadable link isn't related to the product, verify the link and try again" occurs when updating the start date for a downloadable product staging update.
+description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where the error "The downloadable link isn't related to the product.Verify the link and try again", occurs when updating the start date for a downloadable product staging update.
 ---
 # ACSD-50512: Error when updating the start date for a downloadable product staging update
 
-The ACSD-50512 patch fixes the issue where the error "the downloadable link isn't related to the product, verify the link and try again" occurs when updating the start date for a downloadable product staging update. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51502. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7
+The ACSD-50512 patch fixes the issue where the error "The downloadable link isn't related to the product. Verify the link and try again", occurs when updating the start date for a downloadable product staging update. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51502. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7
 
 ## Affected products and versions
 
@@ -14,7 +14,7 @@ The ACSD-50512 patch fixes the issue where the error "the downloadable link isn'
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -27,9 +27,9 @@ Error when updating the start date for a downloadable product staging update.
 <u>Steps to reproduce</u>:
 
 1. Create a downloadable product, with downloadable *links* and *sample links*.
-1. Create a **[!UICONTROL schedule update]** for the same product and save the product.
-1. Edit the **[!UICONTROL preconfigured schedule update]** *(from step 2)* and change the start date.
-1. Save the **[!UICONTROL schedule update]**.
+1. Create a **[!UICONTROL scheduled update]** for the same product and save the product.
+1. Edit the preconfigured **[!UICONTROL scheduled update]** *(from step 2)* and change the start date.
+1. Save the **[!UICONTROL scheduled update]**.
 
 <u>Expected results</u>:
 
@@ -37,7 +37,7 @@ The changes to the scheduled update are saved successfully.
 
 <u>Actual results</u>:
 
-Throws an error "Downloadable link isn't related to the product. Verify link and try again"
+Throws an error "The downloadable link isn't related to the product. Verify link and try again"
 
 ## Apply the patch
 
