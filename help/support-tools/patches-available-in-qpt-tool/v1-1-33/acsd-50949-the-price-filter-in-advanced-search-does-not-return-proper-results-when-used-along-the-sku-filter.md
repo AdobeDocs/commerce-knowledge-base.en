@@ -14,7 +14,7 @@ The ACSD-50949 patch fixes the issue where the price filter in advanced search d
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ The price filter in advanced search does not return proper results when used alo
   </tr>
   <tr>
 </table>
-2. Open the **[!UICONTROL advanced search]** on the Storefront and search by SKU: "MJ".
+2. Open the **[!UICONTROL Advanced Search]** on the Storefront and search by SKU: "MJ".
 1. Click the **[!UICONTROL Modify your search]** link.
 1. Add a **[!UICONTROL price range]** to the criteria from *1* to *21*, and click the Search button.
 
