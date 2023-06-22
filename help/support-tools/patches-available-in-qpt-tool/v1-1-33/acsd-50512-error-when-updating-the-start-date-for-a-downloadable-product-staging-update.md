@@ -37,7 +37,7 @@ The changes to the scheduled update are saved successfully.
 
 <u>Actual results</u>:
 
-Throws an error "The downloadable link isn't related to the product. Verify link and try again"
+You get the error: *The downloadable link isn't related to the product. Verify link and try again*.
 
 ## Apply the patch
 
