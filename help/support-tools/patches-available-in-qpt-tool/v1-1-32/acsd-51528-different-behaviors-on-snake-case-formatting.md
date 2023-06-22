@@ -1,21 +1,21 @@
 ---
-title: "ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved"
-description: Apply the ACSD-51379 patch to fix the Adobe Commerce issue where the changes made to a page's text content via [!DNL Page Builder] are not saved.
-exl-id: 1ac18719-b1e6-464f-9e82-053bef53d745
+title: 'ACSD-51528: Different behaviors on snake_case formatting'
+description: Apply the ACSD-51528 patch to fix the Adobe Commerce issue where there are different behaviors on snake_case formatting.
+exl-id: 108cee5d-0b38-4a56-bdd7-ac06637b3f86
 ---
-# ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved
+# ACSD-51528: Different behaviors on snake_case formatting
 
-The ACSD-51379 patch fixes the issue where the changes made to a page's text content via [!DNL Page Builder] are not saved. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51379. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
+The ACSD-51528 patch fixes different behaviors on snake_case formatting. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51528. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,28 +23,21 @@ The ACSD-51379 patch fixes the issue where the changes made to a page's text con
 
 ## Issue
 
-The changes made to a page's text content via [!DNL Page Builder] are not saved.
+The different behaviors on snake_case formatting.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Admin.
-1. Go to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]**.
-1. Create a test page with one row and one text element on the **[!UICONTROL Content]** tab.
-1. Save the page and return to the **[!UICONTROL Content]** tab.
-1. Edit the text by selecting it and changing it.
+1. Test the `\Magento\Framework\Api\DataObjectHelper::populateWithArray` function with a variety of different property names.
+1. The properties with names like *NewPName* should be transformed into *new_p_name*, instead they're being transformed to *new_pname*.
+1. Also, when using the *getNewPName* function in the object, *null* will be returned because the *Abstract model* will correctly transform the call to *new_p_name* making both functions incompatible with each other.
 
-    **Note:** The issue is only reproducible if the text is selected and changed without activating the editor.
+<u>Expected results</u>
 
-1. Click the **[!UICONTROL Save and Close]** button on the test page.
-1. Open the test page again and check the **[!UICONTROL Content]** tab.
+The **[!UICONTROL populateWithArray]** function should transform the object properties to snake_case correctly, making it compatible with the **[!DNL AbstractModel's]** `Getters` and `Setters`.
 
-<u>Expected results</u>:
+<u>Actual results</u>
 
-The new text is saved successfully for original and duplicated text elements.
-
-<u>Actual results</u>:
-
-The text element is duplicated successfully, but the new text is not saved.
+When using the **[!UICONTROL populateWithArray]** function, any object properties that contain two or more capital letters in a row in its name will cause the snake_case transformation to be incorrect in the final data array.
 
 ## Apply the patch
 

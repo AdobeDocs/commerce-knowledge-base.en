@@ -7,7 +7,7 @@ exl-id: 241abcfd-33b8-449b-b385-32950bd26320
 
 This article is a troubleshooter tool for Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure merchants having issues with Redis. Click on each question to reveal the answer in each step of the troubleshooter. Depending on your symptoms, the troubleshooter will explain how you can troubleshoot version and memory issues, and optimize performance.
 
-## Step 1 - Redis issue {#step}
+## Step 1 - Redis issue {#step-1}
 
 +++Redis issue?
 
@@ -17,7 +17,7 @@ b. NO – Return to [support.magento.com](https://support.magento.com/hc/en-us) 
 
 +++
 
-## Step 2 - Confirm Redis patches installed {#step2}
+## Step 2 - Confirm Redis patches installed {#step-2}
 
 +++Current Redis patches installed?
 
@@ -27,7 +27,7 @@ b. NO – Make sure you have the latest version of the package `magento-cloud-pa
 
 +++
 
-## Step 3 - Confirm Redis version is supported {#step3}
+## Step 3 - Confirm Redis version is supported {#step-3}
 
 +++On Redis versions 3.2 or 5.0?
 
@@ -39,7 +39,7 @@ b. NO – Adobe Commerce supports Redis versions 3.2 and 5.0. If you are running
 
 +++
 
-## Step 4 - Verify latest version of ECE-Tools {#step4}
+## Step 4 - Verify latest version of ECE-Tools {#step-4}
 
 +++Do you have the latest version of [ECE Tools > v2002.1.1](https://github.com/magento/ece-tools/releases)?
 
@@ -51,7 +51,7 @@ b. NO – [Upgrade ECE-Tools](https://devdocs.magento.com/cloud/project/ece-tool
 
 +++
 
-## Step 5 - Assess network traffic {#step5}
+## Step 5 - Assess network traffic {#step-5}
 
 +++Is there a lot of network traffic between the app and Redis?
 
@@ -61,7 +61,7 @@ b. NO – Configure L2 cache configuration by [Updating Redis Backend](https://d
 
 +++
 
-## Step 6 - Check site speed {#step6}
+## Step 6 - Check site speed {#step-6}
 
 +++Is the site still working slowly, after enabling L2 cache?
 
@@ -70,4 +70,4 @@ b. NO – Enabling L2 cache appears to have solved your Redis issues.
 
 +++
 
-[Back to step 1](#step1)
+[Back to Step 1](#step-1)

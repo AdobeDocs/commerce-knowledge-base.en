@@ -1,21 +1,21 @@
 ---
-title: "ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved"
-description: Apply the ACSD-51379 patch to fix the Adobe Commerce issue where the changes made to a page's text content via [!DNL Page Builder] are not saved.
-exl-id: 1ac18719-b1e6-464f-9e82-053bef53d745
+title: "ACSD-50849: Adding new product after clearing cache results in mismatch"
+description: Apply the ACSD-50849 patch to fix the Adobe Commerce issue where adding a new product to the category after clearing the cache results in a mismatch of positions and selections of the existing products.
 ---
-# ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved
 
-The ACSD-51379 patch fixes the issue where the changes made to a page's text content via [!DNL Page Builder] are not saved. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51379. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
+# ACSD-50849: Adding new product after clearing cache results in mismatch
+
+The ACSD-50849 patch fixes the issue where adding a new product to the category after clearing the cache results in a mismatch of positions and selections of the existing products. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) QPT 1.1.32 is installed. The patch ID is ACSD-50849. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p3
 
 >[!NOTE]
 >
@@ -23,28 +23,23 @@ The ACSD-51379 patch fixes the issue where the changes made to a page's text con
 
 ## Issue
 
-The changes made to a page's text content via [!DNL Page Builder] are not saved.
+Adding a new product to the category after clearing the cache results in a mismatch of positions and selections of the existing products.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Admin.
-1. Go to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]**.
-1. Create a test page with one row and one text element on the **[!UICONTROL Content]** tab.
-1. Save the page and return to the **[!UICONTROL Content]** tab.
-1. Edit the text by selecting it and changing it.
-
-    **Note:** The issue is only reproducible if the text is selected and changed without activating the editor.
-
-1. Click the **[!UICONTROL Save and Close]** button on the test page.
-1. Open the test page again and check the **[!UICONTROL Content]** tab.
+1. Create two products.
+1. Assign one product to a category.
+1. Open the category from the admin.
+1. Clean the cache `bin/magento cache:flush`.
+1. Add the second product to the category.
 
 <u>Expected results</u>:
 
-The new text is saved successfully for original and duplicated text elements.
+The existing products assigned in the category are not removed automatically.
 
 <u>Actual results</u>:
 
-The text element is duplicated successfully, but the new text is not saved.
+The first (existing) product is removed automatically.
 
 ## Apply the patch
 

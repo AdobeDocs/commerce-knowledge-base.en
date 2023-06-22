@@ -1,21 +1,21 @@
 ---
-title: "ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved"
-description: Apply the ACSD-51379 patch to fix the Adobe Commerce issue where the changes made to a page's text content via [!DNL Page Builder] are not saved.
-exl-id: 1ac18719-b1e6-464f-9e82-053bef53d745
+title: 'ACSD-49628: [!DNL Page Builder] CORS errors prevent product save'
+description: Apply the ACSD-49628 patch to fix the Adobe Commerce issue where the [!DNL Page Builder] CORS errors prevent product save.
+exl-id: 042f383a-8e3a-4493-99a4-d658ec7b0a7b
 ---
-# ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved
+# ACSD-49628: [!DNL Page Builder] CORS errors prevent product save
 
-The ACSD-51379 patch fixes the issue where the changes made to a page's text content via [!DNL Page Builder] are not saved. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51379. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
+The ACSD-49628 patch fixes the issue where [!DNL Page Builder] CORS errors prevent an admin from saving a product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-49628. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3
+* Adobe Commerce (all deployment methods) 2.4.3-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6
 
 >[!NOTE]
 >
@@ -23,28 +23,29 @@ The ACSD-51379 patch fixes the issue where the changes made to a page's text con
 
 ## Issue
 
-The changes made to a page's text content via [!DNL Page Builder] are not saved.
+[!DNL Page Builder] CORS errors prevent the saving of a product.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to Admin.
-1. Go to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]**.
-1. Create a test page with one row and one text element on the **[!UICONTROL Content]** tab.
-1. Save the page and return to the **[!UICONTROL Content]** tab.
-1. Edit the text by selecting it and changing it.
+1. Log in as an admin.
+1. Create a user role with the following permissions:
 
-    **Note:** The issue is only reproducible if the text is selected and changed without activating the editor.
+    * **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Products]**.
+    * **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Categories]**.
 
-1. Click the **[!UICONTROL Save and Close]** button on the test page.
-1. Open the test page again and check the **[!UICONTROL Content]** tab.
+1. Do not add any *[!UICONTROL Content]* permissions.
+1. Create another admin user and assign the roles created above to this user.
+1. Create a product and log out.
+1. Log in as the second admin.
+1. Try to edit and save the product.
 
 <u>Expected results</u>:
 
-The new text is saved successfully for original and duplicated text elements.
+The second admin is able to save the product, but the **[!UICONTROL Edit with Page Builder]** button is not displayed to the admin without any *[!UICONTROL Content]* permissions.
 
 <u>Actual results</u>:
 
-The text element is duplicated successfully, but the new text is not saved.
+The second admin is unable to save the product because of multiple [!DNL Page Builder] errors.
 
 ## Apply the patch
 

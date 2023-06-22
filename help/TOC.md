@@ -570,17 +570,29 @@ breadcrumb-title: Commerce KB
         * [ACSD-51114: Random product disappearing from large catalogs while asynchronous indexing](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-51114-random-product-disappearing-from-large-catalogs-while-asynchronous-indexing.md)
     * v1.1.31 {#v1-1-31}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.31](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/overview.md)
+        * [ACSD-50858: Improved performance for loading banners' content](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50858-improved-performance-for-loading-banners-content.md)
         * [ACSD-49392: Order status changes to closed after partial refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-49392-order-status-changes-to-closed-after-partial-refund.md)
         * [ACSD-50817: Optimizes cron job sales clean quotes to run faster](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50817-optimizes-cron-job-sales-clean-quotes-to-run-faster.md)
         * [ACSD-50345: reCAPTCHA issues during checkout](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-50345-recaptcha-issues-during-checkout.md)
         * [ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status](/help/support-tools/patches-available-in-qpt-tool/v1-1-31/acsd-51036-race-conditions-during-concurrent-rest-api-calls-cause-overwrite-of-shipping-status.md)
     * v1.1.32 {#v1-1-32}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.32](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/overview.md)
+        * [ACSD-49628: [!DNL Page Builder] CORS errors prevent product save](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-49628-page-builder-cors-errors-prevent-product-save.md)
+        * [ACSD-50621: Tier prices for different websites in shared catalog are not visible](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-50621-tier-prices-different-websites-shared-catalog-not-visible.md)
+        * [ACSD-51528: Different behaviors on snake_case formatting](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51528-different-behaviors-on-snake-case-formatting.md)
+        * [ACSD-49480: Discard Subsequent Rules not working](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-49480-discard-subsequent-rules-not-working.md)
+        * [ACSD-50794: Cannot remove a gift_wrapping from customer order via graphql](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-50794-cannot-remove-gift-wrapping-from-customer-order-via-graphql.md)
         * [ACSD-51041: Price index takes very long to complete](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51041-price-index-takes-very-long-to-complete.md)
         * [ACSD-51230: Gift card account is deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51230-gift-card-account-is-deleted.md)
         * [ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51379-changes-made-to-page-text-content-via-page-builder-are-not-saved.md)
         * [ACSD-51305: Out-of-stock composite child products unavailable in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51305-out-of-stock-composite-child-products-unavailable-in-graphql-response.md)
         * [ACSD-51291: Restricted admin can add images/videos to product assigned to multiple websites](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51291-restricted-admin-can-add-images-videos-to-product-assigned-to-multiple-websites.md)
+        * [ACSD-50849: Adding new product to category after clearing cache results in mismatch of positions and selections](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-50849-adding-new-product-to-category-after-clearing-cache-results-in-mismatch-of-positions-and-selections-of-products.md)
+        * [ACSD-51204: Product does not return back in stock after creating credit memo](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51204-product-does-not-return-back-in-stock-after-creating-credit-memo.md)
+        * [ACSD-51238: Inventory source removed when updating configurable product and editing the price](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51238-inventory-source-removed-when-updating-configurable-product-and-editing-the-price.md)
+    * v1.1.33 {#v1-1-33}
+        * [ACSD-51892: Performance issue where config files load multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.md)
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.33](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -599,6 +611,7 @@ breadcrumb-title: Commerce KB
     * [2.4 Adobe Commerce upgrade workshop on January 26 2022](/help/announcements/adobe-commerce-announcements/2-4-upgrade-webinar.md)
     * [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md)
     * [Adobe support customer data access and privacy](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
+    * [UPS APIs deprecated](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
   * Help Center News {#news}
     * [Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
     * [Adobe Commerce Support Knowledge Base starts accepting contributions](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
@@ -869,6 +882,7 @@ breadcrumb-title: Commerce KB
     * [Deployment fails with "Error building project: The build hook failed with status code 1"](/help/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.md)
     * [Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying](/help/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.md)
     * [Deployment stuck with "Unable to upload the application to the remote cluster" error](/help/troubleshooting/deployment/deployment-stuck-with-unable-to-upload-the-application-to-the-remote-cluster-error.md)
+    * [Deployment error: "error 7 while downloading ... port 443: Connection refused"](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
   * Known issues {#known-issues-patches-attached}
     * [Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.3-p2-2.4.5-security-hotfix-for-cve-2022-35698.md)
     * [Empty shopping cart issue when multiple click on checkout from mini cart](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
@@ -917,6 +931,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce prompts customers log in invalid link](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
     * [Shipping labels creation known issue in Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2.4.0.md)
     * [B2B: Companies cannot access profile pages on store front](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
+    * [Adobe Commerce 2.4.6 error placing order from Admin panel](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.6-error-placing-order-from-admin-panel.md)
   * Elasticsearch {#elasticsearch}
     * [Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2.3.1-upgrade.md)
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
@@ -951,7 +966,6 @@ breadcrumb-title: Commerce KB
   * [Check disk space using CLI on Adobe Commerce on cloud infrastructure environment](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
   * [Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
   * [Test Fastly on Production if a Live Site uses the same domain](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
-  * [Work with refunds and credit memos using Adobe Commerce API](/help/how-to/general/work-with-refunds-and-credit-memos-using-magento-api.md)
   * [Static content deployment options to reduce deployment downtime on Cloud](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
   * [Identify and measure outages for Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-identify-outages.md)
   * [Change account owner for New Relic on Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
