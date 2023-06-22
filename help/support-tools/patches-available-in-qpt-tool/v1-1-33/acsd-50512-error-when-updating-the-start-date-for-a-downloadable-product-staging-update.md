@@ -27,7 +27,7 @@ The error *The downloadable link isn't related to the product. Verify the link a
 <u>Steps to reproduce</u>:
 
 1. Create a downloadable product, with downloadable *links* and *sample links*.
-1. Create a **[!UICONTROL scheduled update]** for the same product and save the product.
+1. Create a scheduled update for the same product and save the product.
 1. Edit the preconfigured **[!UICONTROL scheduled update]** *(from step 2)* and change the start date.
 1. Save the **[!UICONTROL scheduled update]**.
 
