@@ -28,7 +28,7 @@ A restricted admin with access to one website can add images/videos to a product
 
 1. Log in as an admin.
 1. Create a second website, store, and store view.
-1. Create a second admin role with resources only for the second website, store and store view.
+1. Create a second admin role with resources only for the second website, store, and store view.
 1. Create a second admin, and assign it to the new restricted admin role.
 1. Create a new product, and assign it to both the default and the new websites.
 1. Log out from the main admin profile.
