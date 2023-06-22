@@ -22,7 +22,7 @@ The ACSD-50512 patch fixes the issue where the error *The downloadable link isn'
 
 ## Issue
 
-Error when updating the start date for a downloadable product staging update.
+The error *The downloadable link isn't related to the product. Verify the link and try again*, occurs when updating the start date for a downloadable product staging update.
 
 <u>Steps to reproduce</u>:
 
