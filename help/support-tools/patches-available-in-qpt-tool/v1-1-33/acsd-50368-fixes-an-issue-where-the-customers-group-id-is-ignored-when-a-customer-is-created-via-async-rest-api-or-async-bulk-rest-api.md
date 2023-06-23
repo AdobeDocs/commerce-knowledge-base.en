@@ -14,7 +14,7 @@ The ACSD-50368 patch fixes the issue where customers group_id is ignored when a 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.4
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.4-p4
 
 >[!NOTE]
 >
@@ -24,11 +24,14 @@ The ACSD-50368 patch fixes the issue where customers group_id is ignored when a 
 
 Customers group_id is ignored when a customer is created via Async REST API or Async Bulk REST API.
 
-Prerequisites
+<u>Prerequisites</u>:
 
 Configure RabbitMQ for processing queues
 
-`bin/magento setup:config:set --amqp-host=services --amqp-port=5672 --amqp-user=guest --amqp-password=guest bin/magento setup:upgrade --keep-generated`
+```
+bin/magento setup:config:set --amqp-host=services --amqp-port=5672 --amqp-user=guest --amqp-password=guest 
+bin/magento setup:upgrade --keep-generated
+```
 
 <u>Steps to reproduce</u>
 
