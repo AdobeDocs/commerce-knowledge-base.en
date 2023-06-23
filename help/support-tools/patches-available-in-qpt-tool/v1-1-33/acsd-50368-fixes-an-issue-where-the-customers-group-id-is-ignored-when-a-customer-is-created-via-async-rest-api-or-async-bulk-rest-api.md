@@ -34,7 +34,7 @@ Configure RabbitMQ for processing queues
 
 1. Use an Async Rest API request to create a customer:
 
-`
+```
 curl --location 'https://site.test/rest/default/async/V1/customers' \
 --header 'Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MiwiaWF0IjoxNjc5NDMzNzcxLCJleHAiOjE2Nzk0MzczNzF9.xau6KyILrkdCY_8K8aMlH4TmqcCXdH4Zcst_CLhdxYY' \
 --header 'Content-Type: application/json' \
@@ -47,10 +47,11 @@ curl --location 'https://site.test/rest/default/async/V1/customers' \
         "group_id": 2
     }
 }
-`
+```
 
 1. A similar response is returned:
-`
+
+```
 {
     "bulk_uuid": "b101ddcb-b7fd-4208-a2a6-2e84c9e61bcd",
     "request_items": [
@@ -62,14 +63,15 @@ curl --location 'https://site.test/rest/default/async/V1/customers' \
     ],
     "errors": false
 }
-`
+```
 
 1. Check the status of this asynchronous request:
-`
+
+```
 curl --location 'https://site.test/rest/default/V1/bulk/b101ddcb-b7fd-4208-a2a6-2e84c9e61bcd/detailed-status' \
 --header 'Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MiwiaWF0IjoxNjc5NDMzNzcxLCJleHAiOjE2Nzk0MzczNzF9.xau6KyILrkdCY_8K8aMlH4TmqcCXdH4Zcst_CLhdxYY' \
 --header 'Cookie: PHPSESSID=844fltmqq1g15qe4ju3l00tiai'
-`
+```
 
 <u>Expected results</u>:
 
@@ -78,7 +80,8 @@ The group_id is correctly set to 2 for the new customer.
 <u>Actual results</u>:
 
 The group_id is set to default 1 for the new customer.
-`
+
+```
 {
     "operations_list": [
         {
@@ -99,7 +102,7 @@ The group_id is set to default 1 for the new customer.
     "user_id": 1,
     "operation_count": 1
 }
-`
+```
 
 
 ## Apply the patch
