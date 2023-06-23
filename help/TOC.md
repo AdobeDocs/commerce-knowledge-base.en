@@ -556,6 +556,7 @@ breadcrumb-title: Commerce KB
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.30](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/overview.md)
         * [ACSD-50367: Customer address export does not work](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50367-customer-address-export-does-not-work.md)
         * [BB2B-2598: Adds caching capability to storeConfig, currency, country, countries, availableStores GraphQl queries](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/bb2b-2598-add-caching-capability.md)
+        * [B2B-2674: Adds caching capability to customAttributeMetadata GraphQL query](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/b2b-2674-add-caching-capability.md)
         * [ACSD-49973: Improved performance fetching bundled products via [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-49973-improved-performance-fetching-bundled-products-via-graphql.md)
         * [ACSD-50116: An admin user cannot create a URL rewrite](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50116-admin-user-cannot-create-a-url-rewrite.md)
         * [ACSD-50276: Customer registration form doesn't work on storefront if multi-select customer attribute is created](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/acsd-50276-customer-registration-form-does-not-work-on-the-storefront.md)
