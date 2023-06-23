@@ -4,7 +4,7 @@ description: Apply the ACSD-51102 patch to fix the Adobe Commerce issue where a 
 ---
 # ACSD-51102: Catalog rule that is applied to a large number of products is not correctly indexed
 
-The ACSD-51102 patch fixes the issue where a catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32 is installed. The patch ID is ACSD-51102. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51102 patch fixes the issue where a catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-51102. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -14,7 +14,7 @@ The ACSD-51102 patch fixes the issue where a catalog rule that is applied to a l
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Prerequisites:
 
 <u>Steps to reproduce</u>:
 
-1. Create a large catalog with thousands of products to achieve running time for catalog rules indexers of more than 120 seconds when catalog rules are being enabled.
+1. Create a large catalog with thousands of products to achieve the running time for the *catalog rule* indexers of more than 120 seconds when catalog rules are being enabled.
 2. Create two catalog rules with *Active* status set to *No*, e.g.*Test 1* and *Test 2*. Each rule should affect all products in the catalog and cause indexer to run for more than 120 seconds.
 3. Make sure the status of the indexer is *Ready*.
 4. Create scheduled updates to enable these two rules. *Test 2* schedule should start shortly after *Test 1*. For e.g., with a 1-minute difference.
