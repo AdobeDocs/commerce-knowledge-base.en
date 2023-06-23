@@ -593,6 +593,7 @@ breadcrumb-title: Commerce KB
     * v1.1.33 {#v1-1-33}
         * [ACSD-51892: Performance issue where config files load multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.md)
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.33](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/overview.md)
+        * [ACSD-50368: Customers group_id is ignored when a customer is created via Async REST API or Async Bulk REST API](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50368-fixes-an-issue-where-the-customers-group-id-is-ignored-when-a-customer-is-created-via-async-rest-api-or-async-bulk-rest-api.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
