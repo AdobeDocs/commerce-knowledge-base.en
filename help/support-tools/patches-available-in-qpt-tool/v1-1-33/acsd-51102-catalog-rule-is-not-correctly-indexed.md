@@ -30,18 +30,32 @@ Prerequisites:
 
 <u>Steps to reproduce</u>:
 
-1. Create an order with a *Gift Card* and a *simple product* (e.g., *add: SKU: GI000XX000XXX, SKU: PC046CP042076*) – (any payment and shipping method works).
-2. Invoice the order.
-3. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**. An account is created for the gift card.
-4. Now go to **[!UICONTROL Order]**, and create a **[!UICONTROL Credit Memo]**.
-5. Change the quantity for the *Gift Card* to 0 and update it. This will create a partial refund for the *simple product*.
-6. Click on **[!UICONTROL Refund]**.
-7. Now refresh the **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card accounts]**. The newly created account is deleted.
+1. Create a large catalog with thousands of products to achieve running time for catalog rules indexers of more than 120 seconds when catalog rules are being enabled.
+2. Create two catalog rules with *Active* status set to *No*, e.g.*Test 1* and *Test 2*. Each rule should affect all products in the catalog and cause indexer to run for more than 120 seconds.
+3. Make sure the status of the indexer is *Ready*.
+4. Create scheduled updates to enable these two rules. *Test 2* schedule should start shortly after *Test 1*. For e.g., with a 1-minute difference.
+5. Check the product prices on the Storefront.
 
 <u>Expected results</u>
 
-The gift card account is available for use as the refund was not created for the gift card.
+Discounts from both rules are applied.
 
 <u>Actual results</u>
 
-The gift card account is deleted, and the gift card is not refunded.
+Only the first rule discount is applied.
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>) in the [!DNL Quality Patches Tool] guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
+
+For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](<https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html>) in the [!DNL Quality Patches Tool] guide.
