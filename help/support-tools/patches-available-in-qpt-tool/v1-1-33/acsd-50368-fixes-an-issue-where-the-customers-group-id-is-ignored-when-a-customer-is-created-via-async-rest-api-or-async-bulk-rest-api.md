@@ -4,7 +4,7 @@ description: Apply the ACSD-50368 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-50368: Customers group_id is ignored when a customer is created via Async REST API or Async Bulk REST API
 
-The ACSD-50368 patch fixes the issue where Customers group_id is ignored when a customer is created via Async REST API or Async Bulk REST API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-50368. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
+The ACSD-50368 patch fixes the issue where customers group_id is ignored when a customer is created via Async REST API or Async Bulk REST API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-50368. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
 ## Affected products and versions
 
@@ -14,7 +14,7 @@ The ACSD-50368 patch fixes the issue where Customers group_id is ignored when a 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 -2.4.6
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.4
 
 >[!NOTE]
 >
@@ -103,7 +103,6 @@ The group_id is set to default 1 for the new customer.
     "operation_count": 1
 }
 ```
-
 
 ## Apply the patch
 
