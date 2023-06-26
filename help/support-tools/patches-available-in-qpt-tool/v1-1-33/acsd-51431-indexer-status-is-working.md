@@ -33,7 +33,7 @@ The indexer status is *working* even though there are no entries in the changelo
 
 <u>Expected results</u>:
 
-The changes are processed and the indexers are in **Ready** status. The **Schedule status** is **idle (0 in the backlog)**.
+The changes are processed and the indexers are in **Ready** status. And, the **Schedule status** is **idle (0 in the backlog)**.
 
 <u>Actual results</u>:
 
