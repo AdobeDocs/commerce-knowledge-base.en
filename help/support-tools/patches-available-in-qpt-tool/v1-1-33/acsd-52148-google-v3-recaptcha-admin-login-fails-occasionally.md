@@ -26,7 +26,7 @@ Google v3 reCAPTCHA admin login fails occasionally.
 
 <u>Steps to reproduce</u>:
 
-1. Turn on Google V3 reCAPTCHA for the admin login.
+1. Turn on Google v3 reCAPTCHA for the admin login.
 1. Log in to Admin passing the captcha.
 
 <u>Expected results</u>
