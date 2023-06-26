@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51431: Indexer status is "working" even though there are no entries in the changelog"
+title: "ACSD-51431: Indexer status is 'working' even though there are no entries in the changelog"
 description: Apply the ACSD-51431 patch to fix the Adobe Commerce issue where the indexer status is "working" even though there are no entries in the changelog.
 ---
 # ACSD-51431: Indexer status is *working* even though there are no entries in the changelog
