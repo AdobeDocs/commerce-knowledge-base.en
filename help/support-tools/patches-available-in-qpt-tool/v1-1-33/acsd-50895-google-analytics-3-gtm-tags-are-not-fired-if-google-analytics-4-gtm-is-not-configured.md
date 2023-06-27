@@ -22,7 +22,7 @@ The ACSD-50895 patch fixes the issue where [!DNL Google Analytics] 3 GTM tags ar
 
 ## Issue
 
-Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured.
+[!DNL Google Analytics] 3 GTM tags are not fired if [!DNL Google Analytics] 4 GTM is not configured.
 
 <u>Steps to reproduce</u>:
 
