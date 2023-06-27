@@ -26,10 +26,10 @@ The indexer status is *working* even though there are no entries in the changelo
 
 <u>Steps to reproduce</u>:
 
-1. Set **[!UICONTROL indexers]** to [!UICONTROL Update on Scedule].
+1. Set **[!UICONTROL indexers]** to [!UICONTROL Update on Schedule].
 1. Configure the cron job to run every minute.
 1. Save changes to different products simultaneously. 
-1. Run `bin/magento indexer: status` in a couple of minutes.
+1. Run `bin/magento indexer:status` in a couple of minutes.
 
 <u>Expected results</u>:
 
