@@ -33,32 +33,27 @@ Adobe Commerce B2B and Inventory Management (MSI) modules are installed.
 1. Create a new website, store, and store view.
 1. Create a new source.
 1. Create a new stock linked to the new website created in the step 1, and assign the source created in the step 2.
-1. Create a Company and assign to the new website created in the step 1.
-1. Create a customer and assign to the company created in the step 4.
-1. Create a product and assign to the new website, and set the default stock = 0, the new stock to greater than 0.
-1. Enable backorders.
-1. Enable "Check / Money Order" payment method for new website scope.
-1. Enable the Flat Rate shipping method for new website scope.
-1. Create a new order from Admin > Sales > Orders > Create New Order.
+1. Create a company and assign it to the new website created in the step 1.
+1. Create a new customer and assign to the company created in the step 4.
+1. Create a product and assign to the new website, and set the **[!UICONTROL default stock]** = *0*, and the **[!UICONTROL new stock]** to greater than *0*.
+1. Enable **[!UICONTROL backorders]**.
+1. Enable **[!UICONTROL Check / Money Order]** payment method for the new website scope.
+1. Enable the **[!UICONTROL Flat Rate shipping method]** for new website scope.
+1. Create a new order from **[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**.
 1. Select the new customer created in the step 5.
 1. Select the new store created in the step 1.
 1. Choose the product created in the step 6.
 1. Fill out the order information including the payment and shipping methods.
 1. Submit the order.
-1. Check the "Item Status".
+1. Check the *Item Status*.
 
 <u>Expected results</u>
 
-Admin is logged in successfully.
+The item is available to be shipped from the inventory. The item status is *ordered*.
 
 <u>Actual results</u>
 
-* *reCAPTCHA verification failed.* error is displayed occasionally.
-* An error is logged-
-  
-    ```
-    report.ERROR: Can not resolve reCAPTCHA parameter. {"exception":"[object] (Magento\Framework\Exception\InputException(code: 0): Can not resolve reCAPTCHA parameter. at vendor/magento/module-re-captcha-ui/Model/CaptchaResponseResolver.php:25)"} []
-    ```
+The item status is *backordered*.
 
 ## Apply the patch
 
