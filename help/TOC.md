@@ -594,6 +594,7 @@ breadcrumb-title: Commerce KB
     * v1.1.33 {#v1-1-33}
         * [ACSD-51892: Performance issue where config files load multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.md)
         * [ACSD-52148: Google v3 reCAPTCHA admin login fails occasionally](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-52148-google-v3-recaptcha-admin-login-fails-occasionally.md)
+        * [ACSD-51408: Order item status is set to backordered](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51408-order-item-status-is-set-to-backordered.md)
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.33](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
