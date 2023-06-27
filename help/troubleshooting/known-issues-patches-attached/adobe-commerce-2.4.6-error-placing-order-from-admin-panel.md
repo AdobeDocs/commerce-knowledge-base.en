@@ -13,7 +13,7 @@ When placing an order from the Admin panel, you are stuck on store selection.
 
 <u>Steps to reproduce</u>
 
-1. Go to **[!UICONTROL Sales]** > **[!UICCONTROL Orders]** and select a customer to create an order.
+1. Go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]** and select a customer to create an order.
 2. Select the store to place the order from the store selector screen.
 
 <u>Expected result</u>
