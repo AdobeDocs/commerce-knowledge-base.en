@@ -2,7 +2,7 @@
 title: 'ACSD-50895: [!DNL Google Analytics] 3 GTM tags are not fired if [!DNL Google Analytics] 4 GTM is not configured'
 description: Apply the ACSD-50895 patch to fix the Adobe Commerce issue where [!DNL Google Analytics] 3 GTM tags are not fired if [!DNL Google Analytics] 4 GTM is not configured.
 ---
-# ACSD-50895: Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured.
+# ACSD-50895: [!DNL Google Analytics] 3 GTM tags are not fired if [!DNL Google Analytics] 4 GTM is not configured
 
 The ACSD-50895 patch fixes the issue where Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-50895. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
