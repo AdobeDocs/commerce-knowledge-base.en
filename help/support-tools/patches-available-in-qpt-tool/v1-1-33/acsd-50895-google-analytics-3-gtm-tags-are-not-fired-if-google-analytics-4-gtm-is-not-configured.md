@@ -26,7 +26,7 @@ The ACSD-50895 patch fixes the issue where [!DNL Google Analytics] 3 GTM tags ar
 
 <u>Steps to reproduce</u>:
 
-1. Login as an **Admin User**.
+1. Log in as an admin user.
 1. Enable **[!DNL Google Analytics 3]** and **[!DNL Google Tag Manager]** in **Admin** > **Store** > **Configuration** > **Sales** > **Google API** > **Google Analytics**.
 1. Do not enable the **[!DNL Google Analytics 4]** and **[!DNL Google Tag Manager]**.
 1. Open the product page on the Storefront.
