@@ -37,44 +37,44 @@ bin/magento setup:upgrade --keep-generated
 
 1. Use an Async Rest API request to create a customer:
 
-```
-curl --location 'https://site.test/rest/default/async/V1/customers' \
---header 'Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MiwiaWF0IjoxNjc5NDMzNzcxLCJleHAiOjE2Nzk0MzczNzF9.xau6KyILrkdCY_8K8aMlH4TmqcCXdH4Zcst_CLhdxYY' \
---header 'Content-Type: application/json' \
---header 'Cookie: PHPSESSID=844fltmqq1g15qe4ju3l00tiai' \
---data-raw '{
-    "customer": {
-        "email": "foo@bar.test",
-        "firstname": "Test",
-        "lastname": "User",
-        "group_id": 2
+    ```
+    curl --location 'https://site.test/rest/default/async/V1/customers' \
+    --header 'Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MiwiaWF0IjoxNjc5NDMzNzcxLCJleHAiOjE2Nzk0MzczNzF9.xau6KyILrkdCY_8K8aMlH4TmqcCXdH4Zcst_CLhdxYY' \
+    --header 'Content-Type: application/json' \
+    --header 'Cookie: PHPSESSID=844fltmqq1g15qe4ju3l00tiai' \
+    --data-raw '{
+        "customer": {
+            "email": "foo@bar.test",
+            "firstname": "Test",
+            "lastname": "User",
+            "group_id": 2
+        }
     }
-}
-```
+    ```
 
 1. A similar response is returned:
 
-```
-{
-    "bulk_uuid": "b101ddcb-b7fd-4208-a2a6-2e84c9e61bcd",
-    "request_items": [
-        {
-            "id": 0,
-            "data_hash": "6e718a93b02a30a98cb994d1c4e8cf1eeedcb962f384e4a463c",
-            "status": "accepted"
-        }
-    ],
-    "errors": false
-}
-```
+    ```
+    {
+        "bulk_uuid": "b101ddcb-b7fd-4208-a2a6-2e84c9e61bcd",
+        "request_items": [
+            {
+                "id": 0,
+                "data_hash":   "6e718a93b02a30a98cb994d1c4e8cf1eeedcb962f384e4a463c"   ,
+                "status": "accepted"
+            }
+        ],
+        "errors": false
+    }
+    ```
 
 1. Check the status of this asynchronous request:
 
-```
-curl --location 'https://site.test/rest/default/V1/bulk/b101ddcb-b7fd-4208-a2a6-2e84c9e61bcd/detailed-status' \
---header 'Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MiwiaWF0IjoxNjc5NDMzNzcxLCJleHAiOjE2Nzk0MzczNzF9.xau6KyILrkdCY_8K8aMlH4TmqcCXdH4Zcst_CLhdxYY' \
---header 'Cookie: PHPSESSID=844fltmqq1g15qe4ju3l00tiai'
-```
+    ```
+    curl --location 'https://site.test/rest/default/V1/bulk/b101ddcb-b7fd-4208-a2a6-2e84c9e61bcd/detailed-status' \
+    --header 'Authorization: Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MiwiaWF0IjoxNjc5NDMzNzcxLCJleHAiOjE2Nzk0MzczNzF9.xau6KyILrkdCY_8K8aMlH4TmqcCXdH4Zcst_CLhdxYY' \
+    --header 'Cookie: PHPSESSID=844fltmqq1g15qe4ju3l00tiai
+    ```
 
 <u>Expected results</u>:
 
@@ -98,12 +98,12 @@ The group_id is set to default 1 for the new customer.
             "error_code": null
         }
     ],
-    "user_type": 2,
-    "bulk_id": "b101ddcb-b7fd-4208-a2a6-2e84c9e61bcd",
-    "description": "Topic async.magento.customer.api.accountmanagementinterface.createaccount.post",
-    "start_time": "2023-03-21 22:01:09",
-    "user_id": 1,
-    "operation_count": 1
+        "user_type": 2,
+        "bulk_id": "b101ddcb-b7fd-4208-a2a6-2e84c9e61bcd",
+        "description": "Topic async.magento.customer.api.accountmanagementinterface.createaccount.post",
+        "start_time": "2023-03-21 22:01:09",
+        "user_id": 1,
+        "operation_count": 1
 }
 ```
 
