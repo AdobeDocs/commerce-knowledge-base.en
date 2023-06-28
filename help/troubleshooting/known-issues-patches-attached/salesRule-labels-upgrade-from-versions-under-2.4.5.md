@@ -23,4 +23,4 @@ Use the following attached patch:
 
 1. Follow the steps in [Perform an upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) in the Commerce guide.
 1. Before phase **[!UICONTROL Update metadata]**, apply the patch that is attached.
-1. Proceed with the rest of the steps in upgrade guide.
+1. Proceed with the rest of the steps in the Upgrade guide.
