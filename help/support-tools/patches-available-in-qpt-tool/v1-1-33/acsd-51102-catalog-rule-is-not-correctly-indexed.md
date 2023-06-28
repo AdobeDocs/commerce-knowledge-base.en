@@ -2,7 +2,7 @@
 title: "ACSD-51102: Catalog rule applied to large number of products not correctly indexed"
 description: Apply the ACSD-51102 patch to fix the Adobe Commerce issue where a catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update.
 ---
-# ACSD-51102: Catalog rule that is applied to a large number of products is not correctly indexed
+# ACSD-51102: Catalog rule applied to large number of products not correctly indexed
 
 The ACSD-51102 patch fixes the issue where a catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-51102. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
