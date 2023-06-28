@@ -26,7 +26,7 @@ A catalog rule that is applied to a large number of products is not correctly in
 
 Prerequisites:
 
-* Cron job is setup and runs every minute.
+* Cron job is set up and runs every minute.
 
 <u>Steps to reproduce</u>:
 
