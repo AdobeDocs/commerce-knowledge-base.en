@@ -7,7 +7,7 @@ description: Apply a patch to deal with the **[!UICONTROL salesRules]** issues w
 
 The **[!UICONTROL salesRules]** label staging functionality was introduced in Adobe Commerce [2.4.5](/docs/commerce-operations/release/notes/adobe-commerce/2-4-5.html).
 The change may potentially lead to issues when you upgrade from Adobe Commerce < 2.4.5 to any version >= 2.4.5. After the upgrade, there is a possibility that **[!UICONTROL salesRules]** labels are mismatched.
-To address the problem a patch should be applied right after the upgrade to a newer Adobe Commerce version.
+To address the problem, a patch should be applied right after the upgrade to a newer Adobe Commerce version.
 
 ## Affected products and versions
 
