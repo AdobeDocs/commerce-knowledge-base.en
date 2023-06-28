@@ -33,7 +33,7 @@ Prerequisites:
 1. Create a large catalog with thousands of products to achieve the running time for the *catalog rule* indexers of more than 120 seconds when catalog rules are being enabled.
 2. Create two catalog rules with *Active* status set to *No*.  For example, *Test 1* and *Test 2*. Each rule should affect all products in the catalog and cause the indexer to run for more than 120 seconds.
 3. Make sure the status of the indexer is *Ready*.
-4. Create scheduled updates to enable these two rules. *Test 2* schedule should start shortly after *Test 1*. For e.g., with a 1-minute difference.
+4. Create scheduled updates to enable these two rules. *Test 2* schedule should start shortly after *Test 1*. For example, with a 1-minute difference.
 5. Check the product prices on the Storefront.
 
 <u>Expected results</u>
