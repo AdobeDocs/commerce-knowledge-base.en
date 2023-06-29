@@ -42,7 +42,7 @@ There are several things you might do to try and fix the catalog syncing issues.
 
 ### Wait for changes to be applied
 
-Once you configure and connect, it can take over 30 minutes for the index in ES (Elasticsearch) to be created and search results to be returned. Subsequent one-off product updates can be expected to be indexed within a few minutes.
+Once you configure and connect, it can take over 30 minutes for the index in ES (Elasticsearch) to be created and search results to be returned. Subsequent one-off product updates are expected to be indexed within a few minutes.
 
 ### Sync product data for a specific SKU
 
