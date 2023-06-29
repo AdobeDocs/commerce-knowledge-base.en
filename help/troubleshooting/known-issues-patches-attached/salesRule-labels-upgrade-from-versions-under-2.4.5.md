@@ -16,7 +16,7 @@ Adobe Commerce on cloud infrastructure < 2.4.5
 
 Use the following attached patch:
 
-[ACSD-50625_2.4.5-P1.patch.zip](assets/ACSD-50625_2.4.5-P1.patch.zip)
+[ACSD-50625_2.4.5-P1.patch.zip](assets/ACSD-50625_2.4.5-p1.patch.zip)
 
 ## How to apply the patch
 
