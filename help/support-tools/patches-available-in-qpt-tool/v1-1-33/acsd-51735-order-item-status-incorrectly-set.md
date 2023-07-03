@@ -1,8 +1,8 @@
 ---
-title: 'ACSD-51735: Order item status incorrectly set to Ordered when product stock is 0'
-description: Apply the ACSD-51735 patch to fix the Adobe Commerce issue where the order item status is incorrectly set to Ordered when the product stock is 0.
+title: "ACSD-51735: Order item status incorrectly set to *[!UICONTROL Ordered]* when product stock is 0"
+description: Apply the ACSD-51735 patch to fix the Adobe Commerce issue where the order item status is incorrectly set to *[!UICONTROL Ordered]* when the product stock is 0.
 ---
-# ACSD-51735: Order item status incorrectly set to Ordered when product stock is 0
+# ACSD-51735: Order item status incorrectly set to *[!UICONTROL Ordered]* when product stock is 0
 
 The ACSD-51735 patch fixes the issue where the order item status is incorrectly set to *[!UICONTROL Ordered] when the product stock is 0. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-50895. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
