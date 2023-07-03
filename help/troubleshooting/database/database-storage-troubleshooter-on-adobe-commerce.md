@@ -79,6 +79,6 @@ Your database configuration may no longer be at the original default. Find the d
 a. YES – You have solved the issue.   
 b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), requesting more space.
 
-[Back to Step 1](#step-1) 
-
 +++
+
+[Back to Step 1](#step-1) 
