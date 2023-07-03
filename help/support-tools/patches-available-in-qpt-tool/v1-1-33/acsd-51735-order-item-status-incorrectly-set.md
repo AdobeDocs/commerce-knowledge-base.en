@@ -4,7 +4,7 @@ description: Apply the ACSD-51735 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-51735: Order item status incorrectly set to Ordered when product stock is 0
 
-The ACSD-51735 patch fixes the issue where the order item status is incorrectly set to Ordered when the product stock is 0. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-50895. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
+The ACSD-51735 patch fixes the issue where the order item status is incorrectly set to *[!UICONTROL Ordered] when the product stock is 0. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-50895. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
 ## Affected products and versions
 
@@ -39,7 +39,7 @@ Order item status is incorrectly set to *[!UICONTROL Ordered]* when the product 
     * Set the default source Qty to 10 and the new source Qty to 0.
 
 1. Add the product to the cart on the storefront.
-1. Observe the backorder warning on checkout indicating that the product is coming from the new source.
+1. Observe the backorder warning on checkout, indicating that the product is coming from a new source.
 1. Place the order.
 1. Open the order in Admin, and check the backorder status.
 
@@ -49,9 +49,11 @@ The order shows that Qty 1 is backordered.
 
 <u>Actual results</u>:
 
-The order shows that Qty 1 is ordered, but not backordered.
+The order shows that Qty 1 is ordered, not backordered.
 
+>[!MORELIKETHIS]
 >
+>Order item status is incorrectly set to *[!UICONTROL Backordered]*
 
 ## Apply the patch
 
