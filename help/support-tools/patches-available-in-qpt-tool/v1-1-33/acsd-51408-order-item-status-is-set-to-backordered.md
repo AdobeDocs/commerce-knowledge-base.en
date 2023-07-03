@@ -55,6 +55,10 @@ The item is available to be shipped from the inventory. The item status is *orde
 
 The item status is *backordered*.
 
+>[!MORELIKETHIS]
+>
+>Order item status is incorrectly set to *[!UICONTROL Ordered]* when the product stock is 0.()
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
