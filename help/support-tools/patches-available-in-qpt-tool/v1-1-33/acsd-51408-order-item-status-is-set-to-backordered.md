@@ -57,7 +57,7 @@ The item status is *backordered*.
 
 >[!MORELIKETHIS]
 >
->Order item status is incorrectly set to *[!UICONTROL Ordered]* when the product stock is 0.()
+>Order item status is incorrectly set to *[!UICONTROL Ordered]* when the product stock is 0.
 
 ## Apply the patch
 
