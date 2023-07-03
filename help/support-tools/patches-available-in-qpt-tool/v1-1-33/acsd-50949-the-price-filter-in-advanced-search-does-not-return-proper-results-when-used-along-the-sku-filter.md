@@ -22,7 +22,7 @@ The ACSD-50949 patch fixes the issue where the price filter in advanced search d
 
 ## Issue
 
-The price filter in advanced search does not return proper results when used along the SKU filter.
+The price filter in advanced search does not return proper results when used along with the SKU filter.
 
 <u>Steps to reproduce</u>:
 
