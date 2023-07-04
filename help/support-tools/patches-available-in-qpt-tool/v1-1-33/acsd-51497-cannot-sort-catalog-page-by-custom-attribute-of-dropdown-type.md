@@ -27,7 +27,7 @@ A customer is unable to sort a catalog page by a custom attribute of the type *D
 <u>Steps to reproduce</u>
 
 1. Create about six simple products and assign them to a single category.
-1. Create a product attribute, in order to add it as a sorting option on the listing pages.
+1. Create a product attribute in order to add it as a sorting option on the listing pages.
 
     * Go to **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Add New Attribute]**.
     * In the **[!UICONTROL Properties]** tab, set the following:
@@ -44,9 +44,9 @@ A customer is unable to sort a catalog page by a custom attribute of the type *D
     * In the **[!UICONTROL Storefront Properties]** tab, set the following:
 
         * *[!UICONTROL Used for sorting in product listing]* = *Yes*
-        * Leave all the other options as default.
+        * Leave all the other options as *Default*.
 
-1. Assign the *test* attribute to the *default* attribute set in **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Attribute Set]**.
+1. Assign the *test* attribute to the *Default* attribute set in **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Attribute Set]**.
 1. Configure the products to have *test* attribute values.
 
     * SKU: s00001, test: fourth
@@ -62,11 +62,11 @@ A customer is unable to sort a catalog page by a custom attribute of the type *D
 
 <u>Expected results</u>:
 
-The products are sorted by the test attribute.
+The products are sorted by the *test* attribute.
 
 <u>Actual results</u>:
 
-The products are not sorted by the test attribute.
+The products are not sorted by the *test* attribute.
 
 ## Apply the patch
 
