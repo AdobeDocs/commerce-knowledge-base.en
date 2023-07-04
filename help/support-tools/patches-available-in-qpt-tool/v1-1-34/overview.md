@@ -18,3 +18,5 @@ QPT v1.1.34 includes the following patches:
 1. **ACSD-51857:** Fixes the issue where the slow performance of `aggregate_sales_report_bestsellers_data` cron report on large `sales_order and sales_order_item` database tables.
 1. **ACSD-48448:** Fixes the issue where there is a race condition issue happening during the order cancelations, which cause duplicated entry in the *inventory_reservation* table.
 1. **ACSD-52689:** Fixes the issue where images can't be uploaded to [!DNL Amazon S3] storage using REST API.
+
+Use the menu on the left to navigate to a specific patch page.
