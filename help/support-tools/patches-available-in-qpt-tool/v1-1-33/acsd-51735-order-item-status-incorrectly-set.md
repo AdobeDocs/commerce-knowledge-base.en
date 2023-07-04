@@ -26,7 +26,7 @@ Order item status is incorrectly set to *[!UICONTROL Ordered]* when the product 
 
 <u>Prerequisites</u>:
 
-* Adobe Commerce Inventory Management (MSI) modules must be installed.
+* Adobe Commerce Inventory Management (MSI) modules are installed.
 * Backorders are enabled in **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Product Stock Options]** > **[!UICONTROL Backorders]**.
 
 <u>Steps to reproduce</u>:
