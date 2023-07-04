@@ -26,7 +26,7 @@ The price filter in advanced search does not return proper results when used alo
 
 <u>Steps to reproduce</u>:
 
-1. Create several products, for example
+1. Create several products, for example:
 
 <table>
   <tr>
