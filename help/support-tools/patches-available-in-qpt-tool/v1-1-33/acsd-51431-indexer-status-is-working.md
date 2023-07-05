@@ -33,11 +33,11 @@ The indexer status is *[!UICONTROL Working]* even though there are no entries in
 
 <u>Expected results</u>:
 
-The changes are processed, and the indexers are in **[!UICONTROL Ready]** status. The **[!UICONTROL Schedule]** status is **[!UICONTROL idle (0 in the backlog)]**.
+The changes are processed, and the indexers are in *[!UICONTROL Ready]* status. The *[!UICONTROL Schedule]* status is *[!UICONTROL idle (0 in the backlog)]*.
 
 <u>Actual results</u>:
 
-The changes are processed, and the indexers are in **[!UICONTROL Ready]** status. However, the **[!UICONTROL Schedule]** status displays **[!UICONTROL working (0 in the backlog)]**.
+The changes are processed, and the indexers are in *[!UICONTROL Ready]* status. However, the *[!UICONTROL Schedule]* status displays *[!UICONTROL working (0 in the backlog)]*.
 
 ## Apply the patch
 
