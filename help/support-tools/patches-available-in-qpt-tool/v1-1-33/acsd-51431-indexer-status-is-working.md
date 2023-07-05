@@ -22,7 +22,7 @@ The ACSD-51431 patch fixes the performance issue where the indexer status is *[!
 
 ## Issue
 
-The indexer status is *working* even though there are no entries in the changelog.
+The indexer status is *[!UICONTROL Working]* even though there are no entries in the changelog.
 
 <u>Steps to reproduce</u>:
 
