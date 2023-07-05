@@ -593,12 +593,16 @@ breadcrumb-title: Commerce KB
         * [ACSD-51238: Inventory source removed when updating configurable product and editing the price](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51238-inventory-source-removed-when-updating-configurable-product-and-editing-the-price.md)
     * v1.1.33 {#v1-1-33}
         * [ACSD-51892: Performance issue where config files load multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.md)
+        * [ACSD-51431: Indexer status is working](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51431-indexer-status-is-working.md)
         * [ACSD-51102: Catalog rule is not correctly indexed](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51102-catalog-rule-is-not-correctly-indexed.md)
         * [ACSD-52148: Google v3 reCAPTCHA admin login fails occasionally](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-52148-google-v3-recaptcha-admin-login-fails-occasionally.md)
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.33](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/overview.md)
-
         * [ACSD-50368: Customers group_id is ignored when a customer is created via Async REST API or Async Bulk REST API](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50368-fixes-an-issue-where-the-customers-group-id-is-ignored-when-a-customer-is-created-via-async-rest-api-or-async-bulk-rest-api.md)
+        * [ACSD-50949: Price filter in advanced search not returning proper results when used with SKU filter](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50949-the-price-filter-in-advanced-search-does-not-return-proper-results-when-used-along-the-sku-filter.md)
+        * [ACSD-50512: Error when updating the start date for a downloadable product staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50512-error-when-updating-the-start-date-for-a-downloadable-product-staging-update.md)
         * [ACSD-50895: Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.md)
+    * v1.1.34{#v1-1-34}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.34](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -938,6 +942,7 @@ breadcrumb-title: Commerce KB
     * [Shipping labels creation known issue in Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2.4.0.md)
     * [B2B: Companies cannot access profile pages on store front](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
     * [Adobe Commerce 2.4.6 error placing order from Admin panel](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.6-error-placing-order-from-admin-panel.md)
+    * [[!UICONTROL salesRule] labels upgrade from versions < 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesRule-labels-upgrade-from-versions-under-2.4.5.md)
   * Elasticsearch {#elasticsearch}
     * [Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2.3.1-upgrade.md)
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
