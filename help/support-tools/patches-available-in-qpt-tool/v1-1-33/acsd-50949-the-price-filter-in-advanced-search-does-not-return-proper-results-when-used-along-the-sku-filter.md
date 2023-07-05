@@ -2,7 +2,7 @@
 title: 'ACSD-50949: The price filter in advanced search does not return proper results when used along with the SKU filter'
 description: Apply the ACSD-50949 patch to fix the Adobe Commerce issue where the price filter in advanced search does not return proper results when used along with the SKU filter.
 ---
-# ACSD-50949: Price filter in advanced search not returning proper results when used with SKU filter
+# ACSD-50949: Price filter in advanced search is not returning proper results when used with SKU filter
 
 The ACSD-50949 patch fixes the issue where the price filter in advanced search does not return proper results when used along with the SKU filter. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-50949. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
@@ -28,58 +28,17 @@ The price filter in advanced search does not return proper results when used alo
 
 1. Create several products, for example:
 
-<table>
-  <tr>
-    <th>SKU</th>
-    <th>Name</th>
-    <th>Price</th>
-    <th>Quantity</th>
-  </tr>
-  <tr>
-    <td>MJ1</td>
-    <td>Product 1</td>
-    <td>$10</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>MJ2</td>
-    <td>Product 2</td>
-    <td>$15</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>MJ3</td>
-    <td>Product 3</td>
-    <td>$21</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>MJ4</td>
-    <td>Product 4</td>
-    <td>$32</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>MJ5</td>
-    <td>Product 5</td>
-    <td>$33</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>MJ6</td>
-    <td>Product 6</td>
-    <td>$34</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>MJ7</td>
-    <td>Product 7</td>
-    <td>$44</td>
-    <td>10</td>
-  </tr>
-  <tr>
-</table>
-1. Open the **[!UICONTROL Advanced Search]** on the storefront and search by SKU: "MJ".
+    | SKU | Name      | Price | Quantity |
+    |-----|-----------|-------|----------|
+    | MJ1 | Product 1 | $10   | 10       |
+    | MJ2 | Product 2 | $15   | 10       |
+    | MJ3 | Product 3 | $21   | 10       |
+    | MJ4 | Product 4 | $32   | 10       |
+    | MJ5 | Product 5 | $33   | 10       |
+    | MJ6 | Product 6 | $34   | 10       |
+    | MJ7 | Product 7 | $44   | 10       |
+
+1. Open the **[!UICONTROL Advanced Search]** on the Storefront and search by SKU: "MJ".
 1. Click the **[!UICONTROL Modify your search]** link.
 1. Add a price range to the criteria from *1* to *21*, and click the **[!UICONTROL Search]** button.
 
