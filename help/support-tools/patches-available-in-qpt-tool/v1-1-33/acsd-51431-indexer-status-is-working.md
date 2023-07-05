@@ -4,7 +4,7 @@ description: Apply the ACSD-51431 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-51431: Indexer status is *[!UICONTROL Working]* even though there are no entries in the changelog
 
-The ACSD-51431 patch fixes the performance issue where the indexer status is *working* even though there are no entries in the changelog. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51431. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51431 patch fixes the performance issue where the indexer status is *[!UICONTROL Working]* even though there are no entries in the changelog. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51431. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
