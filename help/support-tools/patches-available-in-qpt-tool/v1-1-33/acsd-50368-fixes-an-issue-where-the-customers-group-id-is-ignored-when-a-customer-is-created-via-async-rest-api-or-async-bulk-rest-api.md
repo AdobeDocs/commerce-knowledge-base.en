@@ -26,7 +26,7 @@ Customers group_id is ignored when a customer is created via Async REST API or A
 
 <u>Prerequisites</u>:
 
-Configure RabbitMQ for processing queues
+Configure RabbitMQ for processing queues:
 
 ```
 bin/magento setup:config:set --amqp-host=services --amqp-port=5672 --amqp-user=guest --amqp-password=guest 
