@@ -3,7 +3,7 @@ title: 'Deployment error: *error 7 while downloading ... port 443: Connection re
 description: 'This article provides a solution for the deployment error: *"error 7 while downloading ... port 443: Connection refused"*.'
 exl-id: 55ba80d8-c8b4-4155-9cb7-e201d46fb996
 ---
-# Deployment error: *error 7 while downloading ... port 443: Connection refused* 
+# Deployment error: *error 7 while downloading ... port 443: Connection refused*
 
 This article provides a fix for the issue when deployment fails with the following error message:
 
@@ -21,6 +21,8 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 
 ## Issue
 
+Deployment fails with a **curl error 7** message. 
+
  <u>Steps to reproduce</u>:
 
  Trigger a deployment.
@@ -35,7 +37,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 
 ## Cause
 
- This might be due to the cache connection being lost to the repo. 
+ This might be due to the cache connection being lost to the repo.
 
 ## Solution
 
@@ -44,8 +46,8 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
  ```bash
  mgc clear-build-cache -p <project ID>
  ```
- 
-To check who on the project is a Super User, refer to [View a user's project role](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) in the Commerce on Cloud Infrastructure Guide. 
+
+To check who on the project is a Super User, refer to [View a user's project role](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) in the Commerce on Cloud Infrastructure Guide.
 
 ## Recommended reading
 
