@@ -37,7 +37,7 @@ The changes are processed, and the indexers are in **[!UICONTROL Ready]** status
 
 <u>Actual results</u>:
 
-The changes are processed and the indexers are in **Ready** status. However, the **Schedule status** displays **working (0 in the backlog)**.
+The changes are processed, and the indexers are in **[!UICONTROL Ready]** status. However, the **[!UICONTROL Schedule]** status displays **[!UICONTROL working (0 in the backlog)]**.
 
 ## Apply the patch
 
