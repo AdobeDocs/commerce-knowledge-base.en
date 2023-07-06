@@ -601,6 +601,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-50949: Price filter in advanced search not returning proper results when used with SKU filter](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50949-the-price-filter-in-advanced-search-does-not-return-proper-results-when-used-along-the-sku-filter.md)
         * [ACSD-50512: Error when updating the start date for a downloadable product staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50512-error-when-updating-the-start-date-for-a-downloadable-product-staging-update.md)
         * [ACSD-50895: Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.md)
+        * [ACSD-51120: GraphQL GET requests cache not cleared for CMS pages that contain CMS blocks](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
     * v1.1.34{#v1-1-34}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.34](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
