@@ -1,25 +1,22 @@
 ---
-title: ACSD-50478:Database rollback command for a case when the DB dump contains triggers and a delimiter SQL command
-description: Apply the ACSD-50478 patch to fix the Adobe Commerce issue where database rollback command for a case when the DB dump contains triggers and a delimiter SQL command 
+title: "ACSD-50478: JS issue for rollback action in backups grid and database rollback command"
+description: Apply the ACSD-50478 patch to fix the JS issue for the rollback action in the backups grid and the database rollback command for a case when the DB dump contains triggers and a *delimiter* SQL command.
 ---
 
-# ACSD-50478:Database rollback command for a case when the DB dump contains triggers and a delimiter SQL command
+# ACSD-50478: JS issue for rollback action in backups grid and database rollback command
 
-The ACSD-XXX patch solves/fixes the issue where .... This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) xxx is installed. The patch ID is ACSD-XXX. Please note that the issue was fixed/is scheduled to be fixed in Adobe Commerce xxx. (this is optional if the issue really was fixed).
+The ACSD-50478 patch fixes the JS issue for the rollback action in the backups grid and the database rollback command for a case when the DB dump contains triggers and a *delimiter* SQL command. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-50478. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce on-premises xxx
-* Adobe Commerce on cloud infrastructure xxx 
-    or
-* Adobe Commerce (all deployment methods) xxx
+
+* Adobe Commerce (all deployment methods) 2.4.3-p1
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce on-premises xxx
-* Adobe Commerce on cloud infrastructure xxx
-    or
-* Adobe Commerce (all deployment methods) xxx
+
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.4-p4
 
 >[!NOTE]
 >
@@ -27,21 +24,43 @@ The ACSD-XXX patch solves/fixes the issue where .... This patch is available whe
 
 ## Issue
 
-(Short issue description goes here.) 
-
-<u>Prerequisites</u>:
-(if any)...
+JS issue for the rollback action in the Backups grid and the database rollback command for a case when the DB dump contains triggers and a *delimiter* SQL command. 
 
 <u>Steps to reproduce</u>:
 
-1. ...
-1. ...
+1. Set indexers to [!UICONTROL Update on Schedule] mode so that triggers are created in the database.
+1. Enable the backup functionality from the command line:
+
+`bin/magento config:set system/backup/functionality_enabled 1`
+
+1. Go to **System** > **Tools** > **Backups** and generate a DB backup.
+1. Open the browser console; you will see the follwoing error: 
+
+```
+Uncaught SyntaxError: Unexpected token '&' (at (index):606:32)
+
+function eventListener8jtGaqtgG2 () {
+
+        return backup.rollback(&#039;db&#039;, &#039;1678391644&#039;);
+```
+
+1. Try to import the DB from the command line:
+
+`bin/magento setup:rollback --db-file="<filename>"`
+
+1. The follwoing error appears:
+
+```
+Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'delimiter' at line 1, query was: delimiter ;;
+```
 
 <u>Expected results</u>:
-...
+
+The Database restoration is successful from both admin and command line.
 
 <u>Actual results</u>:
-...
+
+The Database restoration is not successful.
 
 ## Apply the patch
 
@@ -49,10 +68,6 @@ To apply individual patches, use the following links depending on your deploymen
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
-
-## Additional steps required after the patch installation
-
-(This section is optional; there might be some steps required after applying the patch to fix the issue.) 
 
 ## Related reading
 
