@@ -4,7 +4,7 @@ description: Apply the ACSD-51294 patch to fix the Adobe Commerce issue where pr
 ---
 # ACSD-51294: Price, quantity, tax, shipping, revenue sent as string to [!DNL Google Analytics] and GTM
 
-The ACSD-51294 patch fixes the issue where Price, quantity, tax, shipping, and revenue are sent as a string to [!DNL Google Analytics] and GTM. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51294. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51294 patch fixes the issue where price, quantity, tax, shipping, and revenue are sent as a string to [!DNL Google Analytics] and GTM. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-51294. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -29,7 +29,7 @@ Price, quantity, tax, shipping, and revenue are sent as a string to [!DNL Google
 1. Configure [!DNL Google Tag Manager] by navigating to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Google API]** > **[!UICONTROL Google GTag]** > **[!UICONTROL Google Analytics4]**.
 2. Create a simple product.
 3. Complete the checkout with that product.
-4. Check the *dataLayer* JavaScript variable on the checkout success page.
+4. Check the `dataLayer` JavaScript variable on the checkout success page.
 
 <u>Expected results</u>
 
