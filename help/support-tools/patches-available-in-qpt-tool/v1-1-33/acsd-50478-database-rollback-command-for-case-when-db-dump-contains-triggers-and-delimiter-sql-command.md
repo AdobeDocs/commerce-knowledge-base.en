@@ -30,25 +30,29 @@ JS issue for the rollback action in the Backups grid and the database rollback c
 1. Set indexers to [!UICONTROL Update on Schedule] mode so that triggers are created in the database.
 1. Enable the backup functionality from the command line:
 
-        bin/magento config:set system/backup/functionality_enabled 1
+   `bin/magento config:set system/backup/functionality_enabled 1`
 
 1. Go to **System** > **Tools** > **Backups** and generate a DB backup.
 1. Open the browser console; you will see the following error: 
 
-        Uncaught SyntaxError: Unexpected token '&' (at (index):606:32)
+   ```
+   Uncaught SyntaxError: Unexpected token '&' (at (index):606:32)
 
-        function eventListener8jtGaqtgG2 () {
+   function eventListener8jtGaqtgG2 () {
 
-                return backup.rollback(&#039;db&#039;, &#039;1678391644&#039;);
+           return backup.rollback(&#039;db&#039;, &#039;1678391644&#039;);
+   ``` 
 
 1. Try to import the DB from the command line:
 
-        bin/magento setup:rollback --db-file="<filename>"
+   `bin/magento setup:rollback --db-file="<filename>"`
 
 1. The following error appears:
 
-        Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'delimiter' at line 1, query was: delimiter ;;
-
+   ```
+   Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'delimiter' at line 1, query was: delimiter ;;
+   ```
+   
 <u>Expected results</u>:
 
 The Database restoration is successful from both Admin and command line.
