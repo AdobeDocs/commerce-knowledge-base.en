@@ -38,7 +38,7 @@ The Impression event should begin with all of the products on the page.
 
 <u>Actual results</u>:
 
-The page does not have the impression event in the [!UICONTROL Tag Assistant] observer.
+The page does not have the impression event in the Tag Assistant observer.
 
 ## Apply the patch
 
