@@ -34,7 +34,7 @@ Page does not have the impression event when Google Tag Manager 4 is enabled.
 
 <u>Expected results</u>:
 
-The [!UICONTROL Impression] event should begin with all of the products on the page.
+The Impression event should begin with all of the products on the page.
 
 <u>Actual results</u>:
 
