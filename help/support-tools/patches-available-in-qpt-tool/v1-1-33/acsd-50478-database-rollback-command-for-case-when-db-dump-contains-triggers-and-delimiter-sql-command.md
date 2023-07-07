@@ -7,7 +7,6 @@ description: Apply the ACSD-50478 patch to fix the JS issue for the rollback act
 
 The ACSD-50478 patch fixes the JS issue for the rollback action in the backups grid and the database rollback command for a case when the DB dump contains triggers and a *delimiter* SQL command. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-50478. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
-
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
@@ -31,28 +30,24 @@ JS issue for the rollback action in the Backups grid and the database rollback c
 1. Set indexers to [!UICONTROL Update on Schedule] mode so that triggers are created in the database.
 1. Enable the backup functionality from the command line:
 
-        `bin/magento config:set system/backup/functionality_enabled 1`
+        bin/magento config:set system/backup/functionality_enabled 1
 
 1. Go to **System** > **Tools** > **Backups** and generate a DB backup.
 1. Open the browser console; you will see the following error: 
 
-        ```
         Uncaught SyntaxError: Unexpected token '&' (at (index):606:32)
 
         function eventListener8jtGaqtgG2 () {
 
                 return backup.rollback(&#039;db&#039;, &#039;1678391644&#039;);
-        ```
 
 1. Try to import the DB from the command line:
 
-        `bin/magento setup:rollback --db-file="<filename>"`
+        bin/magento setup:rollback --db-file="<filename>"
 
 1. The following error appears:
 
-        ```
         Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'delimiter' at line 1, query was: delimiter ;;
-        ```
 
 <u>Expected results</u>:
 
