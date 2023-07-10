@@ -1,20 +1,20 @@
 ---
 title: "ACSD-52160: Product validation result against the cart price rule"
-description: Apply the ACSD-51102 patch to fix the Adobe Commerce issue where a catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update.
+description: Apply the ACSD-52160 patch to fix the Adobe Commerce issue where the product validation result against the cart price rule is not properly evaluated based on the rule condition [!UICONTROL If an item is FOUND/NOT FOUND in the cart with All/Any of these conditions true].
 ---
-# ACSD-51102: Catalog rule applied to large number of products not correctly indexed
+# ACSD-52160: Product validation result against the cart price rule is not properly evaluated
 
-The ACSD-51102 patch fixes the issue where a catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-51102. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52160 patch fixes the issue where the product validation result against the cart price rule is not properly evaluated based on the rule condition [!UICONTROL If an item is FOUND/NOT FOUND in the cart with All/Any of these conditions true]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-52160. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p1
+* Adobe Commerce (all deployment methods) 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -22,27 +22,25 @@ The ACSD-51102 patch fixes the issue where a catalog rule that is applied to a l
 
 ## Issue
 
-A catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update.
-
-Prerequisites:
-
-* Cron job is set up and runs every minute.
+The product validation result against the cart price rule is not properly evaluated based on the rule condition [!UICONTROL If an item is FOUND/NOT FOUND in the cart with All/Any of these conditions true].
 
 <u>Steps to reproduce</u>:
 
-1. Create a large catalog with thousands of products to achieve the running time for the *catalog rule* indexers of more than 120 seconds when catalog rules are being enabled.
-2. Create two catalog rules with *Active* status set to *No*.  For example, *Test 1* and *Test 2*. Each rule should affect all products in the catalog and cause the indexer to run for more than 120 seconds.
-3. Make sure the status of the indexer is *Ready*.
-4. Create scheduled updates to enable these two rules. *Test 2* schedule should start shortly after *Test 1*. For example, with a 1-minute difference.
-5. Check the product prices on the Storefront.
+1. Create two products assigned to two different categories.
+1. Create a **[!UICONTROL Cart Price Rule]** with conditions like:
+  
+    * **SKU 1** in the *[!UICONTROL FOUND]* parameter
+    * **SKU 2** in the *[!UICONTROL NOT FOUND]* parameter
+1. Add both the products to the cart.
+1. Apply the coupon code.
 
 <u>Expected results</u>
 
-Discounts from both rules are applied.
+The coupon code shouldn't get applied as the cart contains products from the restricted category.
 
 <u>Actual results</u>
 
-Only the first rule discount is applied.
+The coupon code gets applied.
 
 ## Apply the patch
 
