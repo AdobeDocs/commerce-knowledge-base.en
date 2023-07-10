@@ -603,6 +603,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-50895: Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.md)
     * v1.1.34{#v1-1-34}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.34](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/overview.md)
+        * [ACSD-52160: Product validation result against the cart price rule](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-52160-product-validation-result-against-the-cart-price-rule.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
