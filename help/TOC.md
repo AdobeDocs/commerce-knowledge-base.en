@@ -587,18 +587,23 @@ breadcrumb-title: Commerce KB
         * [ACSD-51230: Gift card account is deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51230-gift-card-account-is-deleted.md)
         * [ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51379-changes-made-to-page-text-content-via-page-builder-are-not-saved.md)
         * [ACSD-51305: Out-of-stock composite child products unavailable in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51305-out-of-stock-composite-child-products-unavailable-in-graphql-response.md)
+        * [ACSD-51294: Price, quantity, tax, shipping, revenue sent as string to [!DNL Google Analytics] and GTM](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51294-price-quantity-tax-shipping-and-revenue-are-sent-as-string-to-google-analytics-and-gtm.md)
         * [ACSD-51291: Restricted admin can add images/videos to product assigned to multiple websites](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51291-restricted-admin-can-add-images-videos-to-product-assigned-to-multiple-websites.md)
         * [ACSD-50849: Adding new product to category after clearing cache results in mismatch of positions and selections](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-50849-adding-new-product-to-category-after-clearing-cache-results-in-mismatch-of-positions-and-selections-of-products.md)
         * [ACSD-51204: Product does not return back in stock after creating credit memo](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51204-product-does-not-return-back-in-stock-after-creating-credit-memo.md)
         * [ACSD-51238: Inventory source removed when updating configurable product and editing the price](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51238-inventory-source-removed-when-updating-configurable-product-and-editing-the-price.md)
     * v1.1.33 {#v1-1-33}
         * [ACSD-51892: Performance issue where config files load multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.md)
+        * [ACSD-51431: Indexer status is working](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51431-indexer-status-is-working.md)
         * [ACSD-51102: Catalog rule is not correctly indexed](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51102-catalog-rule-is-not-correctly-indexed.md)
         * [ACSD-52148: Google v3 reCAPTCHA admin login fails occasionally](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-52148-google-v3-recaptcha-admin-login-fails-occasionally.md)
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.33](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/overview.md)
+        * [ACSD-50949: Price filter in advanced search not returning proper results when used with SKU filter](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50949-the-price-filter-in-advanced-search-does-not-return-proper-results-when-used-along-the-sku-filter.md)
         * [ACSD-50512: Error when updating the start date for a downloadable product staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50512-error-when-updating-the-start-date-for-a-downloadable-product-staging-update.md)
         * [ACSD-50895: Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.md)
         * [ACSD-51700: Error when switching store views on downloadable product edit page](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51700-downloadable-product-error-when-switching-storeviews.md)
+    * v1.1.34{#v1-1-34}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.34](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
