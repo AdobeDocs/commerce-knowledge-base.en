@@ -157,7 +157,7 @@ If you are an Adobe Commerce license owner, please verify that you don't have an
 
 <span class="wysiwyg-underline">How To Check Your Payment Status</span>:
 
-1. Log in to [magento.com](http://support.magento.com/).
+1. Log in to [magento.com](https://support.magento.com/).
 1. Click on **Billing History** on the left.
 1. If you **do** have an invoice with **Pending Payment** status, **please contact your Adobe Account Team** to have the payment issue resolved.
 
