@@ -26,7 +26,7 @@ Numerous system messages slow download of Admin Pages
 
 <u>Steps to reproduce</u>:
 
-1. Make a large number of requests (~50k) to DELETE `/rest/async/v1/products/ {sku}`
+1. Make a large number of requests (~50k) to DELETE `/rest/async/v1/products/ {sku}`.
 1. Access any **Admin Page**.
 
 <u>Expected results</u>:
