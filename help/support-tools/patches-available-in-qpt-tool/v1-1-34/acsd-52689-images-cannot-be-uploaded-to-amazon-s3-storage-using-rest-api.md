@@ -22,7 +22,7 @@ The ACSD-52689 patch fixes the issue where the images can't be uploaded to Amazo
 
 ## Issue
 
-Images cannot be uploaded to Amazon S3 storage using REST API
+Images can't be uploaded to Amazon S3 storage using REST API
 
 <u>Steps to reproduce</u>:
 
