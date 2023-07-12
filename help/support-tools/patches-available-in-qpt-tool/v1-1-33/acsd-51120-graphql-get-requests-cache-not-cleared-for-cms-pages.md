@@ -47,9 +47,9 @@ GraphQL GET request cache is not cleared for CMS pages that contain CMS blocks t
     }
     ```
 
-1. Make sure the GraphQL respond the cached in [!DNL Varnish].
+1. Make sure the GraphQL response is cached in [!DNL Varnish].
 1. Create a scheduled update for the block.
-1. Wait for the schedule update to apply and run the cron job to apply the scheduled update.
+1. Wait for the scheduled update to apply and run the cron job to apply the scheduled update.
 1. Fetch the CMS page using the given GraphQL query using a GET request.
 
 <u>Expected results</u>:
