@@ -55,7 +55,7 @@ Images can't be uploaded to Amazon S3 storage using REST API
     ]
     ```
 
-1. Wait for the bulk operation to be processed
+1. Wait for the bulk operation to be processed.
 
 <u>Expected results</u>
 
