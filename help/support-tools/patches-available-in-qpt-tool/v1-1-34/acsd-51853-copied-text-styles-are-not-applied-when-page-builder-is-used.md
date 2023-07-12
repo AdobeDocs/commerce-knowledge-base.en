@@ -27,7 +27,7 @@ Copied text styles are not applied when page builder is used
 <u>Steps to reproduce</u>:
 
 1. Login to Admin.
-1. Go to > **content** > **pages** > **Open any page** > **Edit with Page Builder**
+1. Go to > **content** > **pages** > **Open any page** > **Edit with Page Builder**.
 1. Drag Row and *Text* from Elements.
 1. Copy **enriched content**, paste that text into a **[!UICONTROL Page Builder]**
 
