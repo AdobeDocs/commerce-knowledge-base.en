@@ -55,11 +55,11 @@ JS issue for the rollback action in the Backups grid and the database rollback c
    
 <u>Expected results</u>:
 
-The Database restoration is successful from both Admin and command line.
+The database restoration is successful from both the Admin and the command line.
 
 <u>Actual results</u>:
 
-You get the errors mentioned in step 4 and step 6.
+You observed the errors mentioned in step 4 and step 6.
 
 ## Apply the patch
 
