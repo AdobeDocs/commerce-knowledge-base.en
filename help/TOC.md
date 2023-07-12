@@ -605,6 +605,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-50949: Price filter in advanced search not returning proper results when used with SKU filter](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50949-the-price-filter-in-advanced-search-does-not-return-proper-results-when-used-along-the-sku-filter.md)
     * v1.1.34{#v1-1-34}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.34](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/overview.md)
+        * [ACSD-52689: Images can't upload to Amazon S3 storage via REST API](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-52689-images-cannot-be-uploaded-to-amazon-s3-storage-using-rest-api.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
