@@ -2,7 +2,7 @@
 title: "ACSD-52689: Images can't upload to Amazon S3 storage via REST API"
 description: Apply the ACSD-52689 patch to fix the Adobe Commerce issue where the images can't be uploaded to Amazon S3 storage via REST API.
 ---
-# ACSD-52689: Images cannot be uploaded to Amazon S3 storage using REST API
+# ACSD-52689: Images can't upload to Amazon S3 storage via REST API
 
 The ACSD-52689 patch fixes the issue where the images cannot be uploaded to Amazon S3 storage using REST API This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.34 is installed. The patch ID is ACSD-52689. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
