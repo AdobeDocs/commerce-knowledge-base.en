@@ -22,7 +22,7 @@ The ACSD-51630 patch fixes the performance issue where a large amount of system 
 
 ## Issue
 
-Large amount of system messages slows the downloading of Admin Pages
+Numerous system messages slow download of Admin Pages
 
 <u>Steps to reproduce</u>:
 
