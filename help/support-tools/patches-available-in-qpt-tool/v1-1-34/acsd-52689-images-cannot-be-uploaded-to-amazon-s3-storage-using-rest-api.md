@@ -26,7 +26,7 @@ Images can't be uploaded to Amazon S3 storage using REST API
 
 <u>Steps to reproduce</u>:
 
-1. Configure REMOTE_STORAGE for the Amazon S3 bucket
+1. Configure REMOTE_STORAGE for the Amazon S3 bucket.
 1. Add an image to the product using the Bulk API
 
     ```POST .../rest/all/async/bulk/V1/products/bySku/media```
