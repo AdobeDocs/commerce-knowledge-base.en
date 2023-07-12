@@ -10,9 +10,9 @@ The ACSD-52689 patch fixes the issue where the images cannot be uploaded to Amaz
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
-**Compatible with Adobe Commerce versions:**
+**Compatible with Adobe Commerce versions:** 
 
 * Adobe Commerce (all deployment methods) 2.4 - 2.4.6
 
