@@ -45,7 +45,7 @@ The admin user is able to add a new user.
 <u>Actual results</u>
 
 * The admin user gets an error message: *Something went wrong*.
-* Admin user cannot create a new customer.
+* The admin user cannot create a new customer.
 * Log contains error like:
 
     ```PHP
