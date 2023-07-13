@@ -46,7 +46,7 @@ The admin user is able to add a new user.
 
 * The admin user gets an error message: *Something went wrong*.
 * The admin user cannot create a new customer.
-* Log contains error like:
+* Log contains the following error:
 
     ```PHP
         report.CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123
