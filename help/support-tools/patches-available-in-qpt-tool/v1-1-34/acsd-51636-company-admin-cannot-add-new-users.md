@@ -40,7 +40,7 @@ Prerequisites:
 
 <u>Expected results</u>
 
-Admin user should be able to add new user.
+The admin user is able to add a new user.
 
 <u>Actual results</u>
 
