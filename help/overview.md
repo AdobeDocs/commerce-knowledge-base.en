@@ -39,7 +39,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51431-indexer-status-is-working.html">ACSD-51431: Indexer status is Working even though there are no entries in the changelog:</a> The ACSD-51431 patch fixes the performance issue where the indexer status is Working even though there are no entries in the changelog. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51431-indexer-status-is-working.html">ACSD-51431: Indexer status is *[!UICONTROL Working]* even though there are no entries in the changelog:</a> The ACSD-51431 patch fixes the performance issue where the indexer status is *[!UICONTROL Working]* even though there are no entries in the changelog. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
     <td>July 13, 2023</td>
