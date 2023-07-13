@@ -35,7 +35,7 @@ Prerequisites:
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 1. Edit **[!UICONTROL Company Admin]** type to *Customer*.
 1. Log in as a customer.
-1. Go to **[!UICONTROL My Account]** > **[!UICONTROL Company users]**.
+1. Go to **[!UICONTROL My Account]** > **[!UICONTROL Company Users]** > **[!UICONTROL Add User]** and add details for the user and make it active. 
 1. Add **[!UICONTROL User]** > **[!UICONTROL add details for the user]** and make it *[!UICONTROL Active]*.
 1. Save the *New User*.
 
