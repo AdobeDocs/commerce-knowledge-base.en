@@ -26,12 +26,12 @@ An error is returned when the `structure_id` is requested in a `CompanyTeam` Gra
 
 <u>Steps to reproduce</u>
 
-1. Enable Company feature in Store->Config->General->B2B Features -> Enable Company
-1. Create a company in admin along with company admin user.
-1. Create a new (non company admin) customer and assigned the company (created above) to customer.
-1. On frontend login with company admin user
-1. Create a company team and assign (non admin) customer to team using drag- drop.
-1. Run company GraphQl query which includes CompanyTeam with structure_id:
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**, and set *[!UICONTROL Enable Company]* to *yes*.
+1. Create a company in Admin along with a company admin user.
+1. Create a new (non-company admin) customer, and assign the company (created above) to this customer.
+1. On the frontend, log in as the company admin user.
+1. Create a company team, and assign the (non-admin) customer to the team using drag and drop.
+1. Run the following company GraphQl query, which includes `CompanyTeam` with `structure_id`:
 
     ```GraphQL
     query{
@@ -62,16 +62,16 @@ An error is returned when the `structure_id` is requested in a `CompanyTeam` Gra
     }
     ```
 
-1. Check GraphQL response.
+1. Check the GraphQL response.
 
 <u>Expected results</u>:
 
-No errors, all requested data should be present in GraphQL response.
+No errors are returned, and all requested data are present in the GraphQL response.
 
 <u>Actual results</u>:
 
-* Response contains "Internal server error"
-* var/log/exception.log contains:
+* Response contains an *Internal server error*.
+* `var/log/exception.log` contains:
 
     ```GraphQL
     report.ERROR: Cannot return null for non-nullable field "CompanyTeam.structure_id"
