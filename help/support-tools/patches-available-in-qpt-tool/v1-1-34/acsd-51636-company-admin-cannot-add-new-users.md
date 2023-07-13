@@ -27,7 +27,7 @@ The company admin can't add new users from the customer account section despite 
 Prerequisites:
 
 * B2B module is installed.
-* Company functionality enabled.
+* Company functionality is enabled.
 
 <u>Steps to reproduce</u>:
 
