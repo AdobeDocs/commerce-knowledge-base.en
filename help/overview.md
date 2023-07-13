@@ -31,7 +31,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.html">ACSD-51892: Performance issue where config files load multiple times:</a> The ACSD-51892 patch fixes the performance issue where config files load multiple times during deployment. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.html">ACSD-51892: Performance issue where config files load multiple times:</a> The ACSD-51892 patch fixes the performance issue where config files load multiple times during deployment. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
     <td>July 13, 2023</td>
@@ -39,7 +39,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51431-indexer-status-is-working.html">ACSD-51431: Indexer status is Working even though there are no entries in the changelog:</a> he ACSD-51431 patch fixes the performance issue where the indexer status is Working even though there are no entries in the changelog. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51431-indexer-status-is-working.html">ACSD-51431: Indexer status is Working even though there are no entries in the changelog:</a> The ACSD-51431 patch fixes the performance issue where the indexer status is Working even though there are no entries in the changelog. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
     <td>July 13, 2023</td>
@@ -47,7 +47,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-52148-google-v3-recaptcha-admin-login-fails-occasionally.html">ACSD-52148: Google v3 reCAPTCHA admin login fails occasionally:</a> The ACSD-52148 patch fixes the issue where the Google v3 reCAPTCHA admin login fails occasionally. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-52148-google-v3-recaptcha-admin-login-fails-occasionally.html">ACSD-52148: Google v3 reCAPTCHA admin login fails occasionally:</a> The ACSD-52148 patch fixes the issue where the Google v3 reCAPTCHA admin login fails occasionally. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
     <td>July 13, 2023</td>
@@ -55,7 +55,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51102-catalog-rule-is-not-correctly-indexed.html">ACSD-51102: Catalog rule applied to large number of products not correctly indexed:</a> The ACSD-51102 patch fixes the issue where a catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51102-catalog-rule-is-not-correctly-indexed.html">ACSD-51102: Catalog rule applied to large number of products not correctly indexed:</a> The ACSD-51102 patch fixes the issue where a catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article </td>
     <td>July 13, 2023</td>
@@ -63,7 +63,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.html">ACSD-50895: Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured:</a> The ACSD-50895 patch fixes the issue where Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.html">ACSD-50895: [!DNL Google Analytics] 3 GTM tags are not fired if [!DNL Google Analytics] 4 GTM is not configured:</a> The ACSD-50895 patch fixes the issue where Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
     <td>July 13, 2023</td>
@@ -71,7 +71,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-50949-the-price-filter-in-advanced-search-does-not-return-proper-results-when-used-along-the-sku-filter.html">ACSD-50949: Price filter in advanced search is not returning proper results when used with SKU filter:</a> The ACSD-50949 patch fixes the issue where the price filter in advanced search does not return proper results when used along with the SKU filter. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-50949-the-price-filter-in-advanced-search-does-not-return-proper-results-when-used-along-the-sku-filter.html">ACSD-50949: Price filter in advanced search is not returning proper results when used with SKU filter:</a> The ACSD-50949 patch fixes the issue where the price filter in advanced search does not return proper results when used along with the SKU filter. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
     <td>July 13, 2023</td>
@@ -79,74 +79,42 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
   
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51230-gift-card-account-is-deleted.html">ACSD-51230: Gift card account is deleted:</a> The ACSD-51230 patch fixes the issue where the gift card account is deleted when the partial refund of a simple product is processed from an order. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-50512-error-when-updating-the-start-date-for-a-downloadable-product-staging-update.html">ACSD-50512: Error when updating start date for downloadable product staging update:</a> The ACSD-50512 patch fixes the issue where the error <em>The downloadable link isn't related to the product. Verify the link and try again</em>, occurs when updating the start date for a downloadable product staging update. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
-    <td>June 21, 2023</td>
+    <td>July 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-49480-discard-subsequent-rules-not-working.html">ACSD-49480: [!UICONTROL Cart Price Rule - Discard Subsequent Rules] is not working as intended:</a> The ACSD-49480 patch fixes the issue where the [!UICONTROL Cart Price Rule - Discard Subsequent Rules] is not working as intended. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.6-error-placing-order-from-admin-panel.html">Adobe Commerce 2.4.6 error placing order from Admin panel:</a> This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.4.6 issue when you become stuck on store selection after you place an order from the Commerce Admin panel.
     </td>
     <td>New article</td>
-    <td>June 21, 2023</td>
+    <td>July 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51379-changes-made-to-page-text-content-via-page-builder-are-not-saved.html">ACSD-51379: Changes to page's text content via [!UICONTROL Page Builder] aren't saved:</a> The ACSD-51379 patch fixes the issue where the changes made to a page's text content via [!UICONTROL Page Builder] are not saved. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51291-restricted-admin-can-add-images-videos-to-product-assigned-to-multiple-websites.html">ACSD-51291: Restricted admin can add images/videos to product assigned to multiple websites:</a> The ACSD-51291 patch fixes the issue where a restricted admin with access to one website can add images/videos to a product assigned to multiple websites. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
     </td>
     <td>New article</td>
-    <td>June 21, 2023</td>
+    <td>June 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51041-price-index-takes-very-long-to-complete.html">ACSD-51041: Price index takes very long to complete:</a> The ACSD-51041 patch fixes the issue where the price index takes a long time to complete with a very large product set. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51294-price-quantity-tax-shipping-and-revenue-are-sent-as-string-to-google-analytics-and-gtm.html">ACSD-51294: Price, quantity, tax, shipping, revenue sent as string to [!DNL Google Analytics] and GTM:</a> The ACSD-51294 patch fixes the issue where price, quantity, tax, shipping, and revenue are sent as a string to [!DNL Google Analytics] and GTM. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
     </td>
     <td>New article</td>
-    <td>June 21, 2023</td>
+    <td>July 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-50621-tier-prices-different-websites-shared-catalog-not-visible.html">ACSD-50621: Tier prices for different websites in shared catalog are not visible:</a> The ACSD-50621 patch fixes the issue where the tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/b2b-2674-add-caching-capability.html">B2B-2674: Adds caching capability to the `customAttributeMetadata` GraphQL query:</a> The B2B-2674 patch adds caching capability to the `customAttributeMetadata` GraphQL queries. This patch is available when the Quality Patches Tool (QPT) 1.1.30 is installed.
     </td>
     <td>New article</td>
-    <td>June 21, 2023</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51305-out-of-stock-composite-child-products-unavailable-in-graphql-response.html">ACSD-51305: Out-of-stock composite child products unavailable in GraphQL response:</a> The ACSD-51305 patch fixes the issue where out-of-stock composite child products are not available in the GraphQL response. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
-    </td>
-    <td>New article</td>
-    <td>June 21, 2023</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-49628-page-builder-cors-errors-prevent-product-save.html">ACSD-49628: [!UICONTROL Page Builder] CORS errors prevent product save:</a> The ACSD-49628 patch fixes the issue where [!UICONTROL Page Builder] CORS errors prevent an admin from saving a product. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
-    </td>
-    <td>New article</td>
-    <td>June 21, 2023</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-31/acsd-50858-improved-performance-for-loading-banners-content.html">ACSD-50858: Improved performance for loading banners' content:</a> The ACSD-50858 patch fixes a banner performance issue in the cart/checkout page: excessive DB queries and increased page loading time. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.31 is installed.
-    </td>
-    <td>New article</td>
-    <td>June 21, 2023</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-31/acsd-50345-recaptcha-issues-during-checkout.html">ACSD-50345: reCAPTCHA issues during the checkout:</a> The ACSD-50345 patch fixes the issue where the reCAPTCHA v2 and v3 validations fail while placing orders and during the checkout. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.31 is installed.
-    </td>
-    <td>New article</td>
-    <td>June 21, 2023</td>
+    <td>July 13, 2023</td>
   </tr>
 </table>
 
