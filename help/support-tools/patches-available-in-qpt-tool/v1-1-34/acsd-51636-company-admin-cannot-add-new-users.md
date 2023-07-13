@@ -44,7 +44,7 @@ The admin user is able to add a new user.
 
 <u>Actual results</u>
 
-* Admin user gets an error message - *Something went wrong*.
+* The admin user gets an error message: *Something went wrong*.
 * Admin user cannot create a new customer.
 * Log contains error like:
 
