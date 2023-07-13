@@ -31,50 +31,50 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.html">Deployment error: <em>error 7 while downloading … port 443:</em> Connection refused:</a> This article provides a fix for the issue when deployment fails with an error.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.html">ACSD-51892: Performance issue where config files load multiple times:</a> The ACSD-51892 patch fixes the performance issue where config files load multiple times during deployment. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
-    <td>June 21, 2023</td>
+    <td>July 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/ups-apis-deprecated.html">UPS APIs deprecated:</a> [!DNL United Postal Service] (UPS) APIs are temporarily deprecated as the Adobe Commerce integration with UPS does not currently support the OAuth 2.0 security model.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51431-indexer-status-is-working.html">ACSD-51431: Indexer status is Working even though there are no entries in the changelog:</a> he ACSD-51431 patch fixes the performance issue where the indexer status is Working even though there are no entries in the changelog. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
-    <td>June 21, 2023</td>
+    <td>July 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51204-product-does-not-return-back-in-stock-after-creating-credit-memo.html">ACSD-51204: Product does not return back in stock after creating the credit memo:</a> The ACSD-51204 patch fixes the issue where the product does not return back in stock after creating the credit memo. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-52148-google-v3-recaptcha-admin-login-fails-occasionally.html">ACSD-52148: Google v3 reCAPTCHA admin login fails occasionally:</a> The ACSD-52148 patch fixes the issue where the Google v3 reCAPTCHA admin login fails occasionally. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
-    <td>June 21, 2023</td>
+    <td>July 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-50849-adding-new-product-to-category-after-clearing-cache-results-in-mismatch-of-positions-and-selections-of-products.html">ACSD-50849: Adding new product after clearing cache results in mismatch:</a> The ACSD-50849 patch fixes the issue where adding a new product to the category after clearing the cache results in a mismatch of positions and selections of the existing products. This patch is available when the [!DNL Quality Patches Tool] (QPT) QPT 1.1.32 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51102-catalog-rule-is-not-correctly-indexed.html">ACSD-51102: Catalog rule applied to large number of products not correctly indexed:</a> The ACSD-51102 patch fixes the issue where a catalog rule that is applied to a large number of products is not correctly indexed when the rule is enabled by a scheduled update. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
     </td>
     <td>New article </td>
-    <td>June 21, 2023</td>
+    <td>July 13, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-51528-different-behaviors-on-snake-case-formatting.html">ACSD-51528: Different behaviors on snake_case formatting:</a> The ACSD-51528 patch fixes different behaviors on snake_case formatting. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.html">ACSD-50895: Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured:</a> The ACSD-50895 patch fixes the issue where Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
-    <td>June 21, 2023</td>
+    <td>July 13, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-32/acsd-50794-cannot-remove-gift-wrapping-from-customer-order-via-graphql.html">ACSD-50794: Cannot remove gift wrapping from customer order via GraphQL:</a> The ACSD-50794 patch fixes the issue where users cannot remove gift wrapping from the customer order via GraphQL. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.32 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-50949-the-price-filter-in-advanced-search-does-not-return-proper-results-when-used-along-the-sku-filter.html">ACSD-50949: Price filter in advanced search is not returning proper results when used with SKU filter:</a> The ACSD-50949 patch fixes the issue where the price filter in advanced search does not return proper results when used along with the SKU filter. This patch is available when the Quality Patches Tool (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
-    <td>June 21, 2023</td>
+    <td>July 13, 2023</td>
   </tr>
   
    <tr>
