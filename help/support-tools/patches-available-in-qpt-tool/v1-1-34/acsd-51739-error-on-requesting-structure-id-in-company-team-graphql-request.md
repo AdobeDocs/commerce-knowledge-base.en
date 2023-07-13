@@ -73,7 +73,7 @@ No errors are returned, and all requested data are present in the GraphQL respon
 * Response contains an *Internal server error*.
 * `var/log/exception.log` contains:
 
-    ```GraphQL
+    ```
     report.ERROR: Cannot return null for non-nullable field "CompanyTeam.structure_id"
     ```
 
