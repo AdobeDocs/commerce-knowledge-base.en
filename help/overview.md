@@ -111,7 +111,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/b2b-2674-add-caching-capability.html">B2B-2674: Adds caching capability to the `customAttributeMetadata` GraphQL query:</a> The B2B-2674 patch adds caching capability to the `customAttributeMetadata` GraphQL queries. This patch is available when the Quality Patches Tool (QPT) 1.1.30 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-30/b2b-2674-add-caching-capability.html">B2B-2674: Adds caching capability to the <code>customAttributeMetadata</code> GraphQL query:</a> The B2B-2674 patch adds caching capability to the <code>customAttributeMetadata</code> GraphQL queries. This patch is available when the Quality Patches Tool (QPT) 1.1.30 is installed.
     </td>
     <td>New article</td>
     <td>July 13, 2023</td>
