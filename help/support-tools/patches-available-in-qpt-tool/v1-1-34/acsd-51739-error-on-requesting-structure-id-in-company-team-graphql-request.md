@@ -1,8 +1,8 @@
 ---
-title: "ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request"
-description: Apply the ACSD-51739 patch to fix the Adobe Commerce issue where an error is returned when the structure_id is requested in a CompanyTeam GraphQL request.
+title: "ACSD-51739: Error on requesting `structure_id` in `CompanyTeam` GraphQL request"
+description: Apply the ACSD-51739 patch to fix the Adobe Commerce issue where an error is returned when the `structure_id` is requested in a `CompanyTeam` GraphQL request.
 ---
-# ACSD-51739: Error on requesting *structure_id* in CompanyTeam GraphQL request
+# ACSD-51739: Error on requesting `structure_id` in `CompanyTeam` GraphQL request
 
 The ACSD-51739 patch fixes the issue where an error is returned when the `structure_id` is requested in a `CompanyTeam` GraphQL request. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is installed. The patch ID is ACSD-51739. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
