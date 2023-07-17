@@ -4,7 +4,7 @@ description: Apply the ACSD-51408 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-51408: Order item status is incorrectly set to *[!UICONTROL backordered]* 
 
-The ACSD-51408 patch fixes the issue where the order item status is incorrectly set to backordered. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51408. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51408 patch fixes the issue where the order item status is incorrectly set to [!UICONTROL backordered]. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51408. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
