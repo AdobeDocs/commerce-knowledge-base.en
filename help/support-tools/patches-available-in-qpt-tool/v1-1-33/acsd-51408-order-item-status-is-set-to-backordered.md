@@ -41,7 +41,7 @@ Adobe Commerce B2B and Inventory Management (MSI) modules are installed.
 1. Enable the **[!UICONTROL Flat Rate shipping method]** for new website scope.
 1. Create a new order from **[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**.
 1. Select the new customer created in step 5.
-1. Select the new store created in the step 1.
+1. Select the new store created in step 1.
 1. Choose the product created in the step 6.
 1. Fill out the order information including the payment and shipping methods.
 1. Submit the order.
