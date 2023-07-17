@@ -1,6 +1,6 @@
 ---
 title: "ACSD-51408: Order item status is incorrectly set to backordered"
-description: Apply the ACSD-51408 patch to fix the Adobe Commerce issue where the order item status is incorrectly set to backordered.
+description: Apply the ACSD-51408 patch to fix the Adobe Commerce issue where the order item status is incorrectly set to [!UICONTROL backordered].
 ---
 # ACSD-51408: Order item status is incorrectly set to *backordered* 
 
