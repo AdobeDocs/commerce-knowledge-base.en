@@ -599,7 +599,6 @@ breadcrumb-title: Commerce KB
         * [ACSD-51102: Catalog rule is not correctly indexed](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51102-catalog-rule-is-not-correctly-indexed.md)
         * [ACSD-52148: Google v3 reCAPTCHA admin login fails occasionally](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-52148-google-v3-recaptcha-admin-login-fails-occasionally.md)
         * [ACSD-51408: Order item status is set to backordered](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51408-order-item-status-is-set-to-backordered.md)
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.33](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/overview.md)
         * [ACSD-50512: Error when updating the start date for a downloadable product staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50512-error-when-updating-the-start-date-for-a-downloadable-product-staging-update.md)
         * [ACSD-50895: Google Analytics 3 GTM tags are not fired if Google Analytics 4 GTM is not configured](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.md)
         * [ACSD-51700: Error switching store views on downloadable product edit page](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51700-downloadable-product-error-when-switching-storeviews.md)
