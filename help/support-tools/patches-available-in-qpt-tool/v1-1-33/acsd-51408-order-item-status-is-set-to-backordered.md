@@ -57,7 +57,7 @@ The item status is *backordered*.
 
 >[!MORELIKETHIS]
 >
->Order item status is incorrectly set to *[!UICONTROL Ordered]* when the product stock is 0.(https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51735-order-item-status-incorrectly-set.html)
+>[Order item status is incorrectly set to *[!UICONTROL Ordered]* when the product stock is 0.](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51735-order-item-status-incorrectly-set.md)
 
 ## Apply the patch
 
