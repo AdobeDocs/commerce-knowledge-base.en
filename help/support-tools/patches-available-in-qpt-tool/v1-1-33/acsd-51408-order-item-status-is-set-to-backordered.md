@@ -22,7 +22,7 @@ The ACSD-51408 patch fixes the issue where the order item status is incorrectly 
 
 ## Issue
 
-The order item status is incorrectly set to *backordered*.
+The order item status is incorrectly set to *[!UICONTROL backordered]*.
 
 <u>Prerequisites</u>:
 
