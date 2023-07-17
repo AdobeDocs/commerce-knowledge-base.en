@@ -33,7 +33,7 @@ Adobe Commerce B2B and Inventory Management (MSI) modules are installed.
 1. Create a new website, store, and store view.
 1. Create a new source.
 1. Create a new stock linked to the new website created in step 1, and assign the source created in step 2.
-1. Create a company and assign it to the new website created in the step 1.
+1. Create a company and assign it to the new website created in step 1.
 1. Create a new customer and assign to the company created in the step 4.
 1. Create a product and assign to the new website, and set the **[!UICONTROL default stock]** = *0*, and the **[!UICONTROL new stock]** to greater than *0*.
 1. Enable **[!UICONTROL backorders]**.
