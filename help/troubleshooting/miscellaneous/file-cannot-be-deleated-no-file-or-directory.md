@@ -44,5 +44,5 @@ Adobe Commerce on-premises: Apply ACSD-50165 using [Quality Patches Tools > Usag
 
 ## Related reading
 
-* [[!DNL Quality Patches Tool] > Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) in the Commerce Tools guide.
+* [[!DNL Quality Patches Tool] > Release Notes](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) in the Commerce Tools guide.
 * [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the Commerce Tools guide.
