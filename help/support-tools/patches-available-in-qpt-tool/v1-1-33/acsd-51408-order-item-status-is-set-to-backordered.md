@@ -43,7 +43,7 @@ Adobe Commerce B2B and Inventory Management (MSI) modules are installed.
 1. Select the new customer created in step 5.
 1. Select the new store created in step 1.
 1. Choose the product created in step 6.
-1. Fill out the order information including the payment and shipping methods.
+1. Fill out the order information, including the payment and shipping methods.
 1. Submit the order.
 1. Check the *Item Status*.
 
