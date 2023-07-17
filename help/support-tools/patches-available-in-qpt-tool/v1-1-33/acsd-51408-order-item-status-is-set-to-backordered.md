@@ -53,7 +53,7 @@ The item is available to be shipped from the inventory. The item status is *[!UI
 
 <u>Actual results</u>
 
-The item status is *backordered*.
+The item status is *[!UICONTROL backordered]*.
 
 >[!MORELIKETHIS]
 >
