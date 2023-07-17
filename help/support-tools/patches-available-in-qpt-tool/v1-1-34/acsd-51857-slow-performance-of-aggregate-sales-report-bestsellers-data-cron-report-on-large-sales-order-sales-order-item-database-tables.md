@@ -22,8 +22,11 @@ The ACSD-51857 patch fixes the issue where slow cron job `aggregate_sales_report
 
 ## Issue
 
-Cron job `aggregate_sales_report_bestsellers_data` is slow and affects performance.
-The query that grabs data for the report has been re-written to a more efficient form. It now uses a subquery to determine data subsset. In order for the sub-query to function as fast as possible, a new index was added for the sales_order database table: SALES_ORDER_STORE_STATE_CREATED based on store_id, state and created_at columns.
+Cron job performance of `aggregate_sales_report_bestsellers_data` is slow on `sales_order` and `sales_order_item` database tables.
+
+The query that grabs data for the report has been re-written to a more efficient form. It now uses a sub-query to determine data subset. 
+
+In order for the sub-query to function as fast as possible, a new index was added for the `sales_order` database table: `SALES_ORDER_STORE_STATE_CREATED` based on `store_id`, `state`, and `created_at` columns.
 
 <u>Prerequistes</u>
 
