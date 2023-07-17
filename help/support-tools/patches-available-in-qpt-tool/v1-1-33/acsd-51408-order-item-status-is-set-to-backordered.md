@@ -49,7 +49,7 @@ Adobe Commerce B2B and Inventory Management (MSI) modules are installed.
 
 <u>Expected results</u>
 
-The item is available to be shipped from the inventory. The item status is *ordered*.
+The item is available to be shipped from the inventory. The item status is *[!UICONTROL ordered]*.
 
 <u>Actual results</u>
 
