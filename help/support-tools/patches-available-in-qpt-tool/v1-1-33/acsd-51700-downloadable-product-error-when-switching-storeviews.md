@@ -22,7 +22,7 @@ An error occurs when switching store views on a downloadable product edit page i
 
 <u>Steps to reproduce</u>:
 
-1. Create a downloadable product with a name, SKU, and price. Do not add any links, and save the product.
+1. Create a downloadable product with a name, [!DNL SKU], and price. Do not add any links, and save the product.
 1. Switch from all store views to the default store view.
 1. Create a link for the downloadable product and save it.
 1. Switch from the default store view to all store views.
