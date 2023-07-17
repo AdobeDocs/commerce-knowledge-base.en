@@ -37,7 +37,7 @@ Adobe Commerce B2B and Inventory Management (MSI) modules are installed.
 1. Create a new customer and assign it to the company created in step 4.
 1. Create a product, assign it to the new website, and set the **[!UICONTROL default stock]** = *0*, and the **[!UICONTROL new stock]** to greater than *0*.
 1. Enable **[!UICONTROL backorders]**.
-1. Enable **[!UICONTROL Check / Money Order]** payment method for the new website scope.
+1. Enable **[!UICONTROL Check/Money Order]** payment method for the new website scope.
 1. Enable the **[!UICONTROL Flat Rate shipping method]** for new website scope.
 1. Create a new order from **[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**.
 1. Select the new customer created in the step 5.
