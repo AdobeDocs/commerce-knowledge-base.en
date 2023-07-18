@@ -44,7 +44,7 @@ Restricted admin user can't create a credit memo with an offline refund.
 
 <u>Expected results</u>:
 
-Credit memo is created, *$1* is refunded to the store credit.
+The credit memo is created, and *$1* is refunded to the store credit.
 
 <u>Actual results</u>:
 
