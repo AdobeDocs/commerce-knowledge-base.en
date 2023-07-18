@@ -22,7 +22,7 @@ The ACSD-51240 patch fixes the issue where the uploaded file is missing while re
 
 ## Issue
 
-Uploaded file missing while registering via company registration form.
+Uploaded is file missing while registering via company registration form.
 
 <u>Steps to reproduce</u>:
 
