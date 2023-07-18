@@ -48,7 +48,7 @@ The credit memo is created, and *$1* is refunded to the store credit.
 
 <u>Actual results</u>:
 
-*More permissions are needed to view this item* error is displayed.
+The error message, *More permissions are needed to view this item* is displayed.
 
 ## Apply the patch
 
