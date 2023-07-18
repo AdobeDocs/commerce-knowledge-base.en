@@ -37,7 +37,7 @@ The uploaded file is displayed.
 
 <u>Actual results</u>:
 
-The uploaded file is not displayed on the company page or the admin customer page in Admin.
+The uploaded file is not displayed on the company page nor on the admin customer page in the [!UICONTROL Commerce Admin].
 
 ## Apply the patch
 
