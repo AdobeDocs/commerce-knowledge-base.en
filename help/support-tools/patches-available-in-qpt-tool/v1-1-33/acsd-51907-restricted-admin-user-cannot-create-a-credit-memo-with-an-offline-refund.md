@@ -26,7 +26,7 @@ Restricted admin user can't create a credit memo with an offline refund.
 
 <u>Steps to reproduce</u>:
 
-1. Create a **customer** on the Default Website.
+1. Create a **customer** on the default website.
 1. Create **new website** with related *store* and *store view*.
 1. Set default website to the new website, clear caches.
 1. Change customer Configuration: **Admin** > **Store** > **Configuration** > **Customers** > **Customer Configuration** > **Share Customer Accounts = Global**.
