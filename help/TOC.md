@@ -594,6 +594,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51238: Inventory source removed when updating configurable product and editing the price](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51238-inventory-source-removed-when-updating-configurable-product-and-editing-the-price.md)
     * v1.1.33 {#v1-1-33}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.33](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/overview.md)
+        * [ACSD-51240: Uploaded file missing while registering via company registration form](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51240-uploaded-file-missing-while-registering-via-company-registration-form.md)
         * [ACSD-51907: Restricted admin user can't create credit memo for offline refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51907-restricted-admin-user-cannot-create-a-credit-memo-with-an-offline-refund.md)
         * [ACSD-51892: Performance issue where config files load multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.md)
         * [ACSD-50478: JS issue for rollback action in backups grid and database rollback command](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50478-database-rollback-command-for-case-when-db-dump-contains-triggers-and-delimiter-sql-command.md)
