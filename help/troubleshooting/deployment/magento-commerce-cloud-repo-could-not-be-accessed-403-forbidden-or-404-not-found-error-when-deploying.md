@@ -58,7 +58,7 @@ Take the following steps to solve the issue with the authorization keys (see the
 
 If you were using the keys created under the shared account, you need to contact the Adobe Commerce license owner who provides you access and request they generate the keys for you.
 
-If your license was previously revoked due to payment issues, and you have resolved those issues and your license was renewed, you need to [generate the new authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html).
+If your license was previously revoked due to payment issues, and you have resolved those issues and your license was renewed, you need to [generate the new authentication keys](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 ### 2. Add the keys value in the env:COMPOSER\_AUTH variable and check if the same keys are specified in auth.json
 
