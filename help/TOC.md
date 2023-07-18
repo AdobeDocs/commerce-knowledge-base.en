@@ -594,6 +594,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51238: Inventory source removed when updating configurable product and editing the price](/help/support-tools/patches-available-in-qpt-tool/v1-1-32/acsd-51238-inventory-source-removed-when-updating-configurable-product-and-editing-the-price.md)
     * v1.1.33 {#v1-1-33}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.33](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/overview.md)
+        * [ACSD-51907: Restricted admin user can't create credit memo for offline refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51907-restricted-admin-user-cannot-create-a-credit-memo-with-an-offline-refund.md)
         * [ACSD-51892: Performance issue where config files load multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.md)
         * [ACSD-51431: Indexer status is working](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51431-indexer-status-is-working.md)
         * [ACSD-51102: Catalog rule is not correctly indexed](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51102-catalog-rule-is-not-correctly-indexed.md)
