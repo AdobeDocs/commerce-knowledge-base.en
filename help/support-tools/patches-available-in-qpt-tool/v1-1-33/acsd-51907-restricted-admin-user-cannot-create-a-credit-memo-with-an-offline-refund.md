@@ -4,7 +4,7 @@ description: Apply the ACSD-51907 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-51907: Restricted admin user can't create credit memo for offline refund
 
-The ACSD-5190 patch fixes the performance issue where the restricted admin user can't create a credit memo with an offline refund. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51907. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51907 patch fixes the performance issue where the restricted admin user can't create a credit memo with an offline refund. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51907. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
