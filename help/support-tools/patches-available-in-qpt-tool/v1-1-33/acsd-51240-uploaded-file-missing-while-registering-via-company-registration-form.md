@@ -27,7 +27,7 @@ Uploaded is file missing while registering via company registration form.
 <u>Steps to reproduce</u>:
 
 1. Set **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B >Company]** > **[!UICONTROL Enable]** = *Yes*.
-1. Create a new customer attribute of **File** type, set **Show in StoreFront = Yes** and select **all forms**.
+1. Create a new customer attribute of **[!UICONTROL File]** type, set **[!UICONTROL Show in StoreFront]** = *Yes*, and select **[!UICONTROL all forms]**.
 1. Create a new company on the Storefront and upload an image for the new attribute.
 Open the company and admin user on the Storefront.
 
