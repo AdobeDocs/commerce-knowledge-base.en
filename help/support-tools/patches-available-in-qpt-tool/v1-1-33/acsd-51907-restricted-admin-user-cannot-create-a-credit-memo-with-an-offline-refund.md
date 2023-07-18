@@ -38,7 +38,7 @@ Restricted admin user can't create a credit memo with an offline refund.
 1. Create an Invoice.
 1. Navigate to the Invoices Tab.
 1. Click on **Invoice**.
-1. Click on **Credit Memo**.
+1. Click on **[!UICONTROL Credit Memo]**.
 1. Check the **Refund to Store Credit** checkbox, set *1* into the text field near it.
 1. Click on the **Refund Offline** button.
 
