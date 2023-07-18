@@ -596,6 +596,7 @@ breadcrumb-title: Commerce KB
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.33](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/overview.md)
         * [ACSD-51907: Restricted admin user can't create credit memo for offline refund](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51907-restricted-admin-user-cannot-create-a-credit-memo-with-an-offline-refund.md)
         * [ACSD-51892: Performance issue where config files load multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51892-performance-issue-where-config-files-load-multiple-times.md)
+        * [ACSD-50478: JS issue for rollback action in backups grid and database rollback command](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50478-database-rollback-command-for-case-when-db-dump-contains-triggers-and-delimiter-sql-command.md)
         * [ACSD-51431: Indexer status is working](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51431-indexer-status-is-working.md)
         * [ACSD-51102: Catalog rule is not correctly indexed](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51102-catalog-rule-is-not-correctly-indexed.md)
         * [ACSD-52148: Google v3 reCAPTCHA admin login fails occasionally](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-52148-google-v3-recaptcha-admin-login-fails-occasionally.md)
