@@ -31,6 +31,7 @@ The product validation result against the cart price rule is not properly evalua
   
     * **SKU 1** in the *[!UICONTROL FOUND]* parameter
     * **SKU 2** in the *[!UICONTROL NOT FOUND]* parameter
+    
 1. Add both the products to the cart.
 1. Apply the coupon code.
 
