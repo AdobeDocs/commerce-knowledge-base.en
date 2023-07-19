@@ -28,7 +28,7 @@ Getting an error when saving a new Cart Price Rule if the extension `Magento_Off
 
 1. Disable the `Magento_OfflineShipping` module.
 1. Login to **Admin**.
-1. Go to **Marketing** > **Cart Price Rules**.
+1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**.
 1. Create a new **[!UICONTROL Cart Price Rule]**.
 1. Fill the required fields.
 1. Save the **[!UICONTROL Cart Price Rule]**.
