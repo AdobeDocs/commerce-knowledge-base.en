@@ -40,7 +40,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 **[SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](#shared-access)**
 
 * [Who can provide shared access](#who-can-provide-shared-access)
-* [Get to know Account Owner (Cloud)](#find-account-owner-cloud)
+* [Find out who is your Account Owner (Cloud)](#find-account-owner-cloud)
 * [Provide shared access](#provide-shared-access)
 * [Revoke (delete) shared access](#revoke-shared-access)
 
