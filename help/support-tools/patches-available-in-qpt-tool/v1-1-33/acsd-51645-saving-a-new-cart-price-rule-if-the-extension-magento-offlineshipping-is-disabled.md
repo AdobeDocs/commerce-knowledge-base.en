@@ -22,7 +22,7 @@ The ACSD-51645 patch fixes the issue where an error occurs when saving a new Car
 
 ## Issue
 
-Saving a new Cart Price Rule if the extension Magento_OfflineShipping is disabled.
+Getting an error when saving a new Cart Price Rule if the extension `Magento_OfflineShipping` is disabled.
 
 <u>Steps to reproduce</u>:
 
