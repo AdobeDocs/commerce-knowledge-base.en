@@ -37,7 +37,7 @@ The product validation result against the cart price rule is not properly evalua
 
 <u>Expected results</u>
 
-The coupon code shouldn't get applied as the cart contains products from the restricted category.
+The coupon code is not applied as the cart contains products from the restricted category.
 
 <u>Actual results</u>
 
