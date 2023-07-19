@@ -39,7 +39,7 @@ The Cart Price Rule is saved successfully.
 
 <u>Actual results</u>:
 
-An error log occurs as:
+The following error occurs:
 `report.ERROR: Warning: Undefined array key "simple_free_shipping" in app/code/Magento/SalesRule/Controller/Adminhtml/Promo/Quote/Save.php on line 67 [] []`
 
 ## Apply the patch
