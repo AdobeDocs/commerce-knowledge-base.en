@@ -40,7 +40,6 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 **[SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](#shared-access)**
 
 * [Who can provide shared access](#who-can-provide-shared-access)
-* [Find out who is your Account Owner (Cloud)](#find-account-owner-cloud)
 * [Provide shared access](#provide-shared-access)
 * [Revoke (delete) shared access](#revoke-shared-access)
 
@@ -504,23 +503,6 @@ Managing users and their access is the customer's responsibility, especially in 
 
 Users who have been provided with shared access cannot transfer or grant such access to other users.
 
-### Get to know Account Owner (Cloud) {#find-account-owner-cloud}
-
->[!NOTE]
->
->Please note that Project Owners are no longer being shown on the Project UI.
-
-To find out who is the Owner of your Adobe Commerce on cloud infrastructure Account, follow these steps:
-
-1. Access your Adobe Commerce on cloud infrastructure [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
-1. Click the gear icon (Configure Project) next to your Project Name (upper-left corner).
-1. Go to the **Users** tab.
-1. Find the user who is mentioned as the **Account owner**.
-
-   ![magento_cloud_account_owner](assets/magento_cloud_account_owner.png){width="800"}
-
-If, for any reason, the steps above are not applicable to you, and you are still not sure who your Account Owner is, contact your Adobe Account Team.
-
 ### Provide shared access {#provide-shared-access}
 
 See the [Sharing Your Account](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) section of Adobe Commerce User Guide for detailed steps on setting up a shared account.
@@ -554,7 +536,7 @@ After providing shared access for a new user, the related information is availab
 
 <u>Cause</u>
 
-If you have/had an Adobe Commerce Cloud project and had added a user to the project, they would have been automatically granted Shared Access on their Primary MAGE ID. This would be indicated in the **Share Name** column showing *Cloud Shared Access from MAG[XYZ]*.
+If you have/had an Adobe Commerce Cloud project and had added a user to the project, they would have been automatically granted Shared Access on your Primary MAGE ID. This would be indicated in the **Share Name** column, showing *Cloud Shared Access from MAG[XYZ]*.
 
 <u>Solution</u>
 
