@@ -4,7 +4,7 @@ description: Apply the ACSD-52160 patch to fix the Adobe Commerce issue where th
 ---
 # ACSD-52160: Product validation result against the cart price rule is not properly evaluated
 
-The ACSD-52160 patch fixes the issue where the product validation result against the cart price rule is not properly evaluated based on the rule condition [!UICONTROL If an item is FOUND/NOT FOUND in the cart with All/Any of these conditions true]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-52160. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52160 patch fixes the issue where the product validation result against the cart price rule is not properly evaluated based on the rule condition [!UICONTROL If an item is FOUND/NOT FOUND in the cart with All/Any of these conditions true]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is installed. The patch ID is ACSD-52160. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
