@@ -10,8 +10,8 @@ This article provides a fix for when you try to log in to your Commerce Admin pa
 
 ## Affected versions
 
-* Adobe Commerce on-premises 2.X.X
-* Adobe Commerce on cloud infrastructure 2.X.X
+* Adobe Commerce on-premises X.X.X
+* Adobe Commerce on cloud infrastructure X.X.X
 
 ## Issue 
 
@@ -26,11 +26,13 @@ The Admin Session Size has been exceeded.
 
 Check the var/log/support_report.log file for errors such as these:
 
-```[2023-07-13T04:26:09.792060+00:00] report.WARNING: Session size of 260572 exceeded allowed session max size of 256000. [] []
-[2023-07-13T04:26:17.056714+00:00] report.WARNING: Session size of 260570 exceeded allowed session max size of 256000. [] []```
+```
+[2023-07-13T04:26:09.792060+00:00] report.WARNING: Session size of 260572 exceeded allowed session max size of 256000. [] []
+[2023-07-13T04:26:17.056714+00:00] report.WARNING: Session size of 260570 exceeded allowed session max size of 256000. [] []
+```
 
 ## Related Reading
 
-[]() in our.
+[]() in our
 
 []() in our .
