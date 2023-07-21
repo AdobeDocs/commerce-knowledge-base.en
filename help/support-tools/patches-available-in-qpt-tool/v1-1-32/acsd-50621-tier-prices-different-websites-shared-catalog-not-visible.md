@@ -2,6 +2,7 @@
 title: 'ACSD-50621: Tier prices for different websites in shared catalog are not visible'
 description: Apply the ACSD-50621 patch to fix the Adobe Commerce issue where the tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment.
 exl-id: 91fb69ce-4589-4b17-9a8e-36abfd1ffb59
+feature: Catalogs
 ---
 # ACSD-50621: Tier prices for different websites in shared catalog are not visible
 

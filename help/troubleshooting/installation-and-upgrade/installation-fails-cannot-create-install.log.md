@@ -2,6 +2,7 @@
 title: Installation fails; cannot create install.log
 description: This article provides a fix for a failed installation due to the Setup Wizard not creating the `install.log` during the installation.
 exl-id: ff614018-8e49-4170-a806-8ebdc91ae8a9
+feature: Install, Logs
 ---
 # Installation fails; cannot create install.log
 

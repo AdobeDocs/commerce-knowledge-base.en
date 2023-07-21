@@ -2,6 +2,7 @@
 title: 'PWA Studio: Venia GraphQL queries to Adobe Commerce produce validation errors'
 description: This article provides recommendations on how to solve the issue where Venia storefront GraphQL queries to Adobe Commerce instance produce validation errors.
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
+feature: GraphQL
 ---
 # PWA Studio: Venia GraphQL queries to Adobe Commerce produce validation errors
 

@@ -2,6 +2,7 @@
 title: MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
 description: This topic discusses a solution when high load from MySQL causes a performance bottleneck issue in Adobe Commerce on cloud infrastructure.
 exl-id: c1f9d282-41d8-4850-8a24-336d55aa3140
+feature: Cloud
 ---
 # MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure
 

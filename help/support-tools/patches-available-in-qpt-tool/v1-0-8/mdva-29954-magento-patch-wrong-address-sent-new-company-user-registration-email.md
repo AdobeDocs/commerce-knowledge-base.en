@@ -2,6 +2,7 @@
 title: 'MDVA-29954: wrong address sent new company user registration email'
 description: The MDVA-29954 patch solves the issue where the "New Company Registration Request" and "You've been linked to a company" emails are sent from the wrong email address. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 9b3d1b93-3fe6-40a0-a68a-3e3d789c6d66
+feature: B2B, Communications, Companies
 ---
 # MDVA-29954: wrong address sent new company user registration email
 

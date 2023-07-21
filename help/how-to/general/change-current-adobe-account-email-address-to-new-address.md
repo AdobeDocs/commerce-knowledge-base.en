@@ -2,6 +2,7 @@
 title: Change current Adobe account email address
 description: Learn how to change the current email address registered in the Adobe account to a new address currently not registered in the Adobe account or the Magento account.
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
+feature: Communications
 ---
 # Change current Adobe account email address
 

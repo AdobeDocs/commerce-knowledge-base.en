@@ -2,6 +2,7 @@
 title: 'MDVA-35197: GraphQL add to cart error if added products out of stock'
 description: The MDVA-35197 patch fixes the issue where there's an error when adding to cart using GraphQL if previously added products become out of stock. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed.
 exl-id: 189312f7-a505-4ba4-b12d-662987e69374
+feature: GraphQL
 ---
 # MDVA-35197: GraphQL add to cart error if added products out of stock
 

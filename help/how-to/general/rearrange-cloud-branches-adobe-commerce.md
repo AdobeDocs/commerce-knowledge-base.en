@@ -2,6 +2,7 @@
 title: Rearrange cloud branches on Adobe Commerce
 description: This article provides the steps you could take to re-arrange cloud branches on Adobe Commerce, if they are not organized according to the correct hierarchy. If you do not have the branches organized in correct hierarchy, you will not be able to merge to the correct parent branch - it will go to the existing parent branch.
 exl-id: 4fc0de96-da66-4634-a38a-6a1536855f8f
+feature: Cloud
 ---
 # Rearrange cloud branches on Adobe Commerce
 

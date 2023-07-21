@@ -2,6 +2,7 @@
 title: 'MDVA-37779: Unable to add configurable product to cart via GraphQL'
 description: The MDVA-37779 Adobe Commerce patch solves the issue where it is impossible to add a configurable product to cart when the website ID is not equal to the store ID. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.24 is installed. The patch ID is MDVA-37779. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4. 
 exl-id: 5f344896-39c3-4e17-89b8-1b987bae2968
+feature: GraphQL, Configuration
 ---
 # MDVA-37779: Unable to add configurable product to cart via GraphQL
 

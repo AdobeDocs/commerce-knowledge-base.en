@@ -2,6 +2,7 @@
 title: New environments placed under production when pushed from Git
 description: This article provides a solution for the issue where new environments are placed under the production environment on Adobe Commerce on cloud infrastructure when pushed from the git version-control system.
 exl-id: 279cd6d8-fd45-45ba-8456-8b397a01976f
+feature: Cloud
 ---
 # New environments placed under production when pushed from Git
 

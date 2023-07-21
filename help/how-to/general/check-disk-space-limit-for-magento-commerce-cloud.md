@@ -2,6 +2,7 @@
 title: Check disk space limit for Adobe Commerce on cloud infrastructure
 description: 'To check how much space you have for each Adobe Commerce on cloud infrastructure environment:'
 exl-id: 0dd613e4-161f-403e-95a1-d228303693d3
+feature: Cloud
 ---
 # Check disk space limit for Adobe Commerce on cloud infrastructure
 

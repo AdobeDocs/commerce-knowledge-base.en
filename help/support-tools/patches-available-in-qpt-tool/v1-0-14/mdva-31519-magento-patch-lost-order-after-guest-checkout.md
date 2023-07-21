@@ -2,6 +2,7 @@
 title: 'MDVA-31519 patch: lost order after guest checkout'
 description: The MDVA-31519 patch solves the issue where paid orders are missing and lock wait timeouts in guest checkout.
 exl-id: 2b4f9992-d58d-434f-adf8-d8ad8f761755
+feature: Checkout
 ---
 # MDVA-31519 patch: lost order after guest checkout
 
