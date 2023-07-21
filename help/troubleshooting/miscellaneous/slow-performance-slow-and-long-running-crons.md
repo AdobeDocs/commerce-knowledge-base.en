@@ -2,7 +2,7 @@
 title: Slow performance, slow and long running crons
 description: This article describes how to solve site performance issues and slow running and stuck crons caused by flat tables and indexers having been enabled.
 exl-id: a78ca3c3-85b4-40a1-a693-4703dd3ef4b5
-feature: "Best Practices, Cache, Categories, Catalogs"
+feature: Best Practices, Cache, Categories, Catalogs
 ---
 # Slow performance, slow and long running crons
 

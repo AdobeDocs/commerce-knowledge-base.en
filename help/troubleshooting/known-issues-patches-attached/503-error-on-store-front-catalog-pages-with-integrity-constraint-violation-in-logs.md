@@ -2,7 +2,7 @@
 title: 503 error on store front catalog pages with "Integrity constraint violation" in logs
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.0 issue related to store front catalog pages being inaccessible.
 exl-id: ad363744-756a-48b9-ae11-58642e0ca6a4
-feature: "Catalogs, Logs"
+feature: Catalogs, Logs
 ---
 # 503 error on store front catalog pages with "Integrity constraint violation" in logs
 

@@ -2,7 +2,7 @@
 title: Redirect to parent environment when accessing new Integration environment
 description: This article provides troubleshooting instructions for the Adobe Commerce on cloud infrastructure issue where trying to access the newly created Integration environment takes you to the parent environment instead.
 exl-id: d1d40c8d-d43c-442e-95c9-76f3cdcafb0e
-feature: "Cache, Integration"
+feature: Cache, Integration
 ---
 # Redirect to parent environment when accessing new Integration environment
 

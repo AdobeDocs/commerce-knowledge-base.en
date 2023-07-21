@@ -2,7 +2,7 @@
 title: Error purging Fastly cache on Cloud (The purge request was not processed successfully)
 description: 'This article provides a fix for when you use a Fastly purge option, and you receive the error: *The purge request was not processed successfully*. Fastly is a CDN and caching service included with Adobe Commerce on cloud infrastructure plans and implementations. If you attempt to use a Fastly purge option, and it does not process, you may have incorrect Fastly credentials in your environment or may have encountered an issue.'
 exl-id: 568b1f4c-2ccb-4740-a6e4-d227a55fcfe6
-feature: "Cache, Cloud"
+feature: Cache, Cloud
 ---
 # Error purging Fastly cache on Cloud (The purge request was not processed successfully)
 

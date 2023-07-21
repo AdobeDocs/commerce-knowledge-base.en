@@ -2,7 +2,7 @@
 title: Display Adobe Commerce error report number instead of Fastly 503 error
 description: 'By default, Fastly hides all Adobe Commerce errors behind the **503 Service Unavailable** error. To display the Adobe Commerce error log report number (to be able to find it in logs and see the error details), open the website omitting Fastly using these steps:'
 exl-id: c0a4a9f8-a674-4cef-8088-e844594e6076
-feature: "Cache, Cloud"
+feature: Cache, Cloud
 ---
 # Display Adobe Commerce error report number instead of Fastly 503 error
 

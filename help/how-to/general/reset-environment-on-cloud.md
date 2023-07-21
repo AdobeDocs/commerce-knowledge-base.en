@@ -2,7 +2,7 @@
 title: Reset environment on Adobe Commerce on cloud infrastructure
 description: This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
-feature: "Best Practices, Build, Cloud, Console"
+feature: Best Practices, Build, Cloud, Console
 ---
 # Reset environment on Adobe Commerce on cloud infrastructure
 

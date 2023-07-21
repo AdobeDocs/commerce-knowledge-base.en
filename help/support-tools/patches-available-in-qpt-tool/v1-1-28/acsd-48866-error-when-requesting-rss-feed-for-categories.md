@@ -2,7 +2,7 @@
 title: 'ACSD-48866: Error when requesting RSS feed for categories'
 description: Apply the ACSD-48866 patch to fix the Adobe Commerce issue where an error occurs when requesting RSS feed for categories.
 exl-id: 0b509f32-3904-47c3-aacd-df8b6adbf443
-feature: "Admin Workspace, Categories"
+feature: Admin Workspace, Categories
 ---
 # ACSD-48866: Error when requesting RSS feed for categories
 

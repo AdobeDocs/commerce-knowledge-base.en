@@ -2,7 +2,7 @@
 title: 'ACSD-48784: Customer segment prices cached incorrectly between customer groups'
 description: Apply the ACSD-48784 patch to fix the Adobe Commerce issue where customer segment prices are cached incorrectly between customer groups.
 exl-id: 6be11fd0-5c93-4ac7-8664-7e2a289c9e38
-feature: "Admin Workspace, Cache, Customer Service"
+feature: Admin Workspace, Cache, Customer Service
 ---
 # ACSD-48784: Customer segment prices cached incorrectly between customer groups
 

@@ -2,7 +2,7 @@
 title: Depreciation of Core Adobe Commerce Payment Integrations
 description: Due to the Payment Service Directive PSD2 (see details on [Payment Services Directive](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive.html) in our user guide) and the continued evolution of many APIs, a number of Adobe Commerce core payment integrations risk becoming outdated and no longer security compliant in the future. To that end, many core payment integrations have been or will soon be deprecated, and we are recommending a transition to their corresponding Commerce Marketplace extensions. Please read the rest of the article below to review recent deprecations of payment integrations. Each of the **Status** links are found in our user guide. **The below integrations will all be removed from Adobe Commerce’s 2.4.0 release and have been deprecated from versions of 2.3.**
 exl-id: c2c4b3b6-409d-466f-a4f3-dfe13ac7f972
-feature: "Compliance, Integration"
+feature: Compliance, Integration
 ---
 # Depreciation of Core Adobe Commerce Payment Integrations
 

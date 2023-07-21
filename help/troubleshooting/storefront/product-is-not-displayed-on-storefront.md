@@ -2,7 +2,7 @@
 title: Product is not displayed on storefront
 description: This article provides solutions for when products are not displayed on storefront.
 exl-id: 454eca5b-4722-46e0-8e5d-3daf8e3e675a
-feature: "Cache, Categories, Console"
+feature: Cache, Categories, Console
 ---
 # Product is not displayed on storefront
 

@@ -2,7 +2,7 @@
 title: Deployment errors from enabling early-alpha Baler module
 description: The merchant experiences deployment errors when using the Baler module on a production environment, as the feature is currently in the early alpha development stage.
 exl-id: 6cdac0a5-eaeb-467d-8369-9017aed6219e
-feature: "Build, Deploy, Extensions"
+feature: Build, Deploy, Extensions
 ---
 # Deployment errors from enabling early-alpha Baler module
 

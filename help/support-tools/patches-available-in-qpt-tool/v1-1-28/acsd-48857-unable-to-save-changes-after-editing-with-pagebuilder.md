@@ -2,7 +2,7 @@
 title: 'ACSD-48857: Unable to save changes after editing with [!DNL Page Builder]'
 description: Apply the ACSD-48857 patch to fix the Adobe Commerce issue where the user is unable to save changes after editing with [!DNL Page Builder].
 exl-id: c95b354d-8954-4e9c-9e92-8a64f62f0a68
-feature: "Admin Workspace, CMS"
+feature: Admin Workspace, CMS
 ---
 # ACSD-48857: Unable to save changes after editing with [!DNL Page Builder]
 

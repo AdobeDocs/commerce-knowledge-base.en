@@ -2,7 +2,7 @@
 title: Error purging cache in Commerce Admin
 description: 'This article explains how to identify the cause of an error message that occurs when purging the cache in the Commerce Admin. When you attempt to purge cache through the Admin, you receive the following message:'
 exl-id: aa414e04-bc6d-46bd-b98f-0446b97bda14
-feature: "Admin Workspace, Cache"
+feature: Admin Workspace, Cache
 ---
 # Error purging cache in Commerce Admin
 

@@ -2,7 +2,7 @@
 title: 'ACSD-48634: [!DNL JS] errors when [!DNL Google Analytics Content Experiments] enabled'
 description: Apply the ACSD-48634 patch to fix [!DNL JS] errors on a [!DNL staging] update page when [!DNL Google Analytics Content Experiments] is enabled.
 exl-id: 4a9f201d-eaf0-4e43-a1a1-0a9ffb0a2ead
-feature: "Catalogs, Categories, Console"
+feature: Catalogs, Categories, Console
 ---
 # ACSD-48634: [!DNL JS] errors when [!DNL Google Analytics Content Experiments] enabled
 

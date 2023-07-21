@@ -2,7 +2,7 @@
 title: Adobe Commerce Help Center User Guide
 description: Learn how to submit a support ticket to the Adobe Commerce Help Center, provide shared access to accounts, and navigate the Adobe Commerce Knowledge Base.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
-feature: "Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools"
+feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
 ---
 # Adobe Commerce Help Center User Guide
 

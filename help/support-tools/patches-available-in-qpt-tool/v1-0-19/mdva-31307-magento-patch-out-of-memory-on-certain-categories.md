@@ -2,7 +2,7 @@
 title: 'MDVA-31307: Out of memory on certain categories'
 description: The MDVA-31307 patch fixes the issue where `Magento\_Csp/Model/BlockCache` consumes a lot of memory and generates enormous cached strings, which causes problems for certain pages with a lot of dynamically whitelisting scripts and styles. The provided patch optimizes this process. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-31307. Please note that the issue is fixed in Adobe Commerce 2.4.2.
 exl-id: 15d82f5b-bd43-4a0a-b756-d109dac6d2cd
-feature: "Cache, Categories"
+feature: Cache, Categories
 ---
 # MDVA-31307: Out of memory on certain categories
 

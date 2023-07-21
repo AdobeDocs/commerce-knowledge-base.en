@@ -2,7 +2,7 @@
 title: 'Deployment error: *error 7 while downloading ... port 443: Connection refused*'
 description: 'This article provides a solution for the deployment error: *"error 7 while downloading ... port 443: Connection refused"*.'
 exl-id: 55ba80d8-c8b4-4155-9cb7-e201d46fb996
-feature: "Cache, Deploy"
+feature: Cache, Deploy
 ---
 # Deployment error: *error 7 while downloading ... port 443: Connection refused*
 

@@ -2,7 +2,7 @@
 title: 'Managed alerts on Adobe Commerce: memory critical alert'
 description: This article provides troubleshooting steps when you receive a memory critical alert for Adobe Commerce in New Relic. Immediate action is required to remedy the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 exl-id: feed7998-c50b-4cbf-a92d-cbfc65745a1c
-feature: "Cache, Marketing Tools"
+feature: Cache, Marketing Tools
 ---
 # Managed alerts on Adobe Commerce: memory critical alert
 
