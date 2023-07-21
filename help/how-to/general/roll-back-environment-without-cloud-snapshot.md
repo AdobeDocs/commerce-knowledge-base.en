@@ -2,6 +2,7 @@
 title: Roll back environment without Cloud snapshot
 description: This article shows two solutions to roll back an environment without having a snapshot of your environment on Adobe Commerce on cloud infrastructure.
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
+feature: "Build, Cloud, Console"
 ---
 # Roll back environment without Cloud snapshot
 

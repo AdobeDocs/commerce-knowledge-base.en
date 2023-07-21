@@ -2,6 +2,7 @@
 title: FAQ for the 2023 Adobe Commerce Release Strategy and Lifecycle Policy
 description: To meet the mission-critical needs of Adobe Commerce customers, we are expanding our support window for Adobe Commerce 2.4.4 and later versions to **3 years from the version [!DNL GA] date**. Support includes **both security and quality patches**. See our new [release calendar](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) for timing details.
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
+feature: Compliance
 ---
 # FAQ for the 2023 Adobe Commerce Release Strategy and Lifecycle Policy
 

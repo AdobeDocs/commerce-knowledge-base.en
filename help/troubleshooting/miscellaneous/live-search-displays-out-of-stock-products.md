@@ -2,6 +2,7 @@
 title: '[!DNL Live Search] displays out-of-stock products regardless of stock status settings in admin'
 description: This article provides information on the known issue where the Product Listing Page (PLP) shows the *We can’t find products matching the selection* error while the search popover returns some items.
 exl-id: 2a351b83-407c-444a-a761-4932b5b88843
+feature: "Admin Workspace, Categories"
 ---
 # [!DNL Live Search] displays out-of-stock products regardless of stock status settings in admin
 

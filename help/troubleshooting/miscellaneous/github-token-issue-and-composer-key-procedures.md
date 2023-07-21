@@ -2,6 +2,7 @@
 title: Github token issue and Composer key procedures
 description: This article provides solutions for the issue of failed deployments related to Github token failures caused by outdated Composer keys.
 exl-id: 202cb936-f9ba-49ea-bf0a-6e6994d2337a
+feature: Identity Management
 ---
 # Github token issue and Composer key procedures
 

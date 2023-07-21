@@ -2,6 +2,7 @@
 title: 'MDVA-31343 patch: schedule update removes body class for category'
 description: MDVA-31343 patch fixes the issue where the assigned layout body CSS class for a category gets removed during scheduled update. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. The issue is scheduled to be fixed in Adobe Commerce 2.4.2.
 exl-id: 50dbff01-cb77-4cac-b90e-5c4b06f5e4e7
+feature: "Cache, Categories"
 ---
 # MDVA-31343 patch: schedule update removes body class for category
 

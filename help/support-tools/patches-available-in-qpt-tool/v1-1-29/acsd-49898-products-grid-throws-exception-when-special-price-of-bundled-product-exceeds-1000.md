@@ -2,6 +2,7 @@
 title: 'ACSD-49898: Products grid throws an exception'
 description: Apply the ACSD-49898 patch to fix the Adobe Commerce issue where the products grid throws an exception when a bundled product has a special price that exceeds 1000.
 exl-id: 16a0ec90-7577-46ef-aeb3-a7e9658cf64b
+feature: Admin Workspace
 ---
 # ACSD-49898: Products grid throws an exception
 

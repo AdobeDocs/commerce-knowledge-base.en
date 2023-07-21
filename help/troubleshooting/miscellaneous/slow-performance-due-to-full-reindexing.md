@@ -2,6 +2,7 @@
 title: Slow performance due to full reindexing
 description: This article provides a fix for poor performance due to full reindexing (where data in the indexing-related database tables is updating).
 exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
+feature: Best Practices
 ---
 # Slow performance due to full reindexing
 

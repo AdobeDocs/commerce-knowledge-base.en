@@ -2,6 +2,7 @@
 title: Adobe Commerce on cloud infrastructure v2.3.5 GraphQL caching invalidation not working
 description: This article provides a patch for the issue where GraphQL `GET` request returns outdated information if the customer changes product information.
 exl-id: 10ae52bd-e71a-42e3-9600-7a9713903815
+feature: "GraphQL, Cache, Categories, Cloud"
 ---
 # Adobe Commerce on cloud infrastructure v2.3.5 GraphQL caching invalidation not working
 

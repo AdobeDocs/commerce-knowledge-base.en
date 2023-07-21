@@ -2,6 +2,7 @@
 title: 'Adobe Commerce 2.4.0: Checkout error selecting local payments'
 description: 'This article talks about a solution for a known issue in Adobe Commerce during checkout where an error message appears when selecting a local payment method for some countries. This occurs for the countries: Belgium, Italy, Netherlands, Poland, and Spain.'
 exl-id: de2eafb0-d03c-4ff8-9615-0f2676d95848
+feature: "B2B, Categories, Checkout"
 ---
 # Adobe Commerce 2.4.0: Checkout error selecting local payments
 

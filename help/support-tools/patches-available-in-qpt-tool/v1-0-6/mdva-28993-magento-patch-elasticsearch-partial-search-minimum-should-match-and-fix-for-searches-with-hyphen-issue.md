@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-28993: Elasticsearch partial search, "minimum should match" and fix for "searches with hyphen" issue'
+title: "MDVA-28993: Elasticsearch partial search, "minimum should match" and fix for "searches with hyphen" issue'"
 description: The MDVA-28993 patch implements the "Minimum should match" functionality and partial search for Elasticsearch engine, and solves issues with hyphens in search queries. The patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.6 is installed.
 exl-id: 2af0f950-284b-42f2-9660-8aafce4b04d7
 ---

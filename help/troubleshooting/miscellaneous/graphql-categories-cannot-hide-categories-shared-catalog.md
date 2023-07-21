@@ -2,6 +2,7 @@
 title: GraphQL query to hide categories not work with B2B shared catalog
 description: This article provides a solution for when B2B shared catalog feature is not working with GraphQL categories query to hide categories.
 exl-id: bdafa8d9-b637-409e-86b5-d132bccfe0b8
+feature: "B2B, Catalogs, Categories, GraphQL, Customer Service"
 ---
 # GraphQL query to hide categories not work with B2B shared catalog
 

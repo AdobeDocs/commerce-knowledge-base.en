@@ -2,6 +2,7 @@
 title: 'MDVA-34474: API requisition list update results in error'
 description: The MDVA-34474 patch fixes the issue where adding a product to the requisition list using API results in error. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-34474. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 exl-id: dc39c4f7-417c-45ea-914c-32f7305527da
+feature: "REST, B2B"
 ---
 # MDVA-34474: API requisition list update results in error
 

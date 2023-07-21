@@ -2,6 +2,7 @@
 title: 'ACSD-48813: Search not showing relevant results based on search weight of attributes'
 description: Apply the ACSD-48813 patch to fix the Adobe Commerce issue where search is not showing relevant results based on the search weight of the attributes.
 exl-id: 90b51e18-8b36-4e0e-ac6f-8fe1571cec30
+feature: "Admin Workspace, Attributes"
 ---
 # ACSD-48813: Search not showing relevant results based on search weight of attributes
 

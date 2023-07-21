@@ -2,6 +2,7 @@
 title: "MDVA-32133 patch: page builder doesn't load media gallery"
 description: The MDVA-32133 patch solves the issue where the Media Gallery is not loaded. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is installed. Please note that this issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 exl-id: c0ce799d-b452-4044-9635-4218db3904ef
+feature: "CMS, Media"
 ---
 # MDVA-32133 patch: page builder doesn't load media gallery
 
