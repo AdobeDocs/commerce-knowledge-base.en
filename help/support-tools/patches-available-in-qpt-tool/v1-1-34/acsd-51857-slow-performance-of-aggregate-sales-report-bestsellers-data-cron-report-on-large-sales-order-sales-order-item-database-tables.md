@@ -1,8 +1,8 @@
 ---
-title: "ACSD-51857: Cron job of *aggregate_sales_report_bestsellers_data* is slow and affects performance"
+title: "ACSD-51857: Slow cron job of `aggregate_sales_report_bestsellers_data` affects performance"
 description: Apply the ACSD-51857 patch to fix the Adobe Commerce issue where slow cron job `aggregate_sales_report_bestsellers_data` affects large `sales_order` and `sales_order_item` database tables.
 ---
-# ACSD-51857: Cron job *aggregate_sales_report_bestsellers_data* is slow and affects performance
+# ACSD-51857: Slow cron job of `aggregate_sales_report_bestsellers_data` affects performance
 
 The ACSD-51857 patch fixes the issue where slow cron job `aggregate_sales_report_bestsellers_data` affects large `sales_order` and `sales_order_item` database tables. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is installed. The patch ID is ACSD-51857. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
@@ -24,7 +24,7 @@ The ACSD-51857 patch fixes the issue where slow cron job `aggregate_sales_report
 
 Cron job performance of `aggregate_sales_report_bestsellers_data` is slow on `sales_order` and `sales_order_item` database tables.
 
-The query that grabs data for the report has been re-written to a more efficient form. It now uses a sub-query to determine data subset. 
+To resolve this, the main data query that grabs data for the report has been re-written to a more efficient form. It now uses a sub-query to determine data subset. 
 
 In order for the sub-query to function as fast as possible, a new index was added for the `sales_order` database table: `SALES_ORDER_STORE_STATE_CREATED` based on `store_id`, `state`, and `created_at` columns.
 
