@@ -28,7 +28,7 @@ An error is returned when the `structure_id` is requested in a `CompanyTeam` Gra
 
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**, and set *[!UICONTROL Enable Company]* to *yes*.
 1. Create a company in Admin along with a company admin user.
-1. Create a new (non-company admin) customer, and assign the company (created above) to this customer.
+1. Create a new (non-admin) customer, and assign the company (created above) to this customer.
 1. On the frontend, log in as the company admin user.
 1. Create a company team, and assign the (non-admin) customer to the team using drag and drop.
 1. Run the following company GraphQl query, which includes `CompanyTeam` with `structure_id`:
