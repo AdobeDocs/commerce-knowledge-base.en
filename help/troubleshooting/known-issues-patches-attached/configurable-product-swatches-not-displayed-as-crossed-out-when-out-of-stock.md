@@ -2,6 +2,7 @@
 title: Configurable product swatches not displayed crossed out when out of stock
 description: This article provides a patch for the known Adobe Commerce 2.2.2 issue related to the configurable product swatches being out of stock not displayed as crossed out on the storefront.
 exl-id: 79c59a3f-a94b-4726-8af1-5fe754ea95a5
+feature: Configuration
 ---
 # Configurable product swatches not displayed crossed out when out of stock
 

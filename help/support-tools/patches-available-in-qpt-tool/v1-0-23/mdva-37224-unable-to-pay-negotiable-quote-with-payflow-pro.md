@@ -2,6 +2,7 @@
 title: 'MDVA-37224: Unable to pay "negotiable quote" with PayFlow Pro'
 description: The MDVA-37224 patch fixes the issue when customers are not able to pay for a **Negotiable Quote** with Paypal PayFlow Pro. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-37224. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 exl-id: df75b38d-64c8-46b5-85ff-7606ce1dfd34
+feature: B2B
 ---
 # MDVA-37224: Unable to pay "negotiable quote" with PayFlow Pro
 

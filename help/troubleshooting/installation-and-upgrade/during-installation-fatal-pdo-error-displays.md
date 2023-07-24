@@ -2,6 +2,7 @@
 title: During installation, fatal PDO error displays
 description: This article provides a fix for an exception fatal PDO error during installation.
 exl-id: d69908f0-71c9-48de-9369-6ada22f2b393
+feature: Install
 ---
 # During installation, fatal PDO error displays
 

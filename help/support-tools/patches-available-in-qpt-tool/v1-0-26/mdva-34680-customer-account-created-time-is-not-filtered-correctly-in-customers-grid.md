@@ -2,6 +2,7 @@
 title: "MDVA-34680: Customer Account not filtered correctly in customers' grid"
 description: The MDVA-34680 patch fixes the issue when the Customer Account created after 00:00 UTC is not filtered correctly in the customers' grid. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.26 is installed. The patch ID is MDVA-34680. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 exl-id: 2e506d7a-8cde-41eb-84b2-1a5ff8015428
+feature: Customer Service
 ---
 # MDVA-34680: Customer Account not filtered correctly in customers' grid
 

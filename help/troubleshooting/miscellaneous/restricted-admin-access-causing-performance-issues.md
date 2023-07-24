@@ -2,6 +2,7 @@
 title: Restricted admin access causing performance issues
 description: This article provides solutions for when performance is negatively impacted by using [Admin roles with role scope restricted by website](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) in our user guide.
 exl-id: da168d6b-9cda-41e2-aa3c-f3f0dccc803d
+feature: Admin Workspace, Cache
 ---
 # Restricted admin access causing performance issues
 

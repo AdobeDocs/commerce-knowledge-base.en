@@ -2,8 +2,13 @@
 title: 'ACSD-51114: Random products disappeared from large catalogs when asynchronous indexing is enabled'
 description: Apply the ACSD-51114 patch to fix the Adobe Commerce issue Random products disappeared from large catalogs when asynchronous indexing is enabled.
 exl-id: 3b5c10c1-7c61-4b19-9289-c0e3c5d0b79b
+feature: Catalogs, Categories
 ---
 # ACSD-51114: Random products disappeared from large catalogs when asynchronous indexing is enabled
+
+>[!NOTE]
+>
+>This patch is deprecated.
 
 The ACSD-51114 patch fixes the issue Random products disappeared from large catalogs when asynchronous indexing is enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is ACSD-51114. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 

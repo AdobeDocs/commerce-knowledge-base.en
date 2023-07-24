@@ -2,6 +2,7 @@
 title: 'Managed alerts on Adobe Commerce: MariaDB alerts'
 description: 'This article provides troubleshooting steps when you receive MariaDB alerts for Adobe Commerce in New Relic. The MariaDB alerts monitor high query load as well as excessive Data Manipulation Language (DML) queries. Both can lead to a degraded user experience or even downtime. You can receive four kinds of alerts:'
 exl-id: 707e20e0-faba-4bcd-884c-b54568787442
+feature: Cache
 ---
 # Managed alerts on Adobe Commerce: MariaDB alerts
 

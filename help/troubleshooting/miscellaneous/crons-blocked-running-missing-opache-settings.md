@@ -2,6 +2,7 @@
 title: Cron stops due to misconfigured or missing [!DNL OpCache] settings
 description: This article provides a solution for when crons stop working due to misconfigured or missing [!DNL OpCache] settings.
 exl-id: 3aaab759-462f-49ae-a427-af34075eca84
+feature: Cache
 ---
 # Cron stopped due to misconfigured or missing [!DNL OpCache] settings
 

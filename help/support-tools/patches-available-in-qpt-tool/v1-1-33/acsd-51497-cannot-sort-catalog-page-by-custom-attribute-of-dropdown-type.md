@@ -1,6 +1,7 @@
 ---
 title: "ACSD-51497: Cannot sort catalog page by custom attribute of type Dropdown"
 description: Apply the ACSD-51497 patch to fix the Adobe Commerce issue where a customer cannot sort a catalog page by custom attribute of the type Dropdown.
+feature: Attributes, Cache, Catalogs, Categories
 ---
 # ACSD-51497: Cannot sort catalog page by custom attribute of type *Dropdown*
 

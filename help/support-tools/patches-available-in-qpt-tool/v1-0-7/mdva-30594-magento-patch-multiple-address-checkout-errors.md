@@ -2,6 +2,7 @@
 title: 'MDVA-30594: multiple address checkout errors'
 description: The MDVA-30594 patch solves the issue where the customer does not see the order success page after placing an order with multiple addresses. Checking the orders on the Commerce Admin shows two orders with the same products instead of the correct products. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. The issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 7560cc39-ff0d-4313-979e-5cd588554c1d
+feature: Checkout
 ---
 # MDVA-30594: multiple address checkout errors
 

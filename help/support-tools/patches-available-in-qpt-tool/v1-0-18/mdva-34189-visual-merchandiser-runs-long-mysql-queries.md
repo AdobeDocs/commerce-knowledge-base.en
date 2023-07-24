@@ -2,6 +2,7 @@
 title: 'MDVA-34189: Visual merchandiser runs long MySQL queries'
 description: The MDVA-34189 patch solves the issue where Adobe Commerce executes large Visual Merchandiser queries when loading the Admin category page.
 exl-id: 94143d80-3240-4a18-890d-fb759ea9c30d
+feature: Categories
 ---
 # MDVA-34189: Visual merchandiser runs long MySQL queries
 

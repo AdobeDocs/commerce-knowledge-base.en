@@ -2,6 +2,7 @@
 title: Duplicate entries in the catalogrule table after editing the end date of a schedule update
 description: This article provides a patch for the known Adobe Commerce 2.2.3 issue where editing the end date or time of a catalog price rule schedule update results in adding duplicate entries to the `catalogrule` table and errors in the `catalogrule_rule` (Catalog rule product) indexer reindex.
 exl-id: e900b712-d0f5-4404-8441-64522035ce44
+feature: Cache, Catalogs, Marketing Tools
 ---
 # Duplicate entries in the catalogrule table after editing the end date of a schedule update
 

@@ -2,6 +2,7 @@
 title: 'MDVA-30837: minimum order amount for free shipping'
 description: The MDVA-30837 patch adds configuration options for the free shipping calculation so the user can configure the Minimum Order Amount to get Free Shipping based on the Subtotal (or Grand Total). This allows local customizations for tax and shipping methods. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 64716d08-4ce0-40d5-aeb7-242e2aa85bb0
+feature: Marketing Tools
 ---
 # MDVA-30837: minimum order amount for free shipping
 
