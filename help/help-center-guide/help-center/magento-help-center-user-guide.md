@@ -544,7 +544,7 @@ It's not possible to delete the list of Shared Access users with the Share Name 
 
 However, once you have revoked the permissions on those Shared Access users, they will no longer have that access.
 
-For more information, please refer to the [Manage User Access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#manage-users-from-the-project-web-interface) documentation on our Commerce on Cloud Infrastructure Guide.
+For more information, please refer to the [Manage User Access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-project-web-interface) documentation on our Commerce on Cloud Infrastructure Guide.
 
 ### Access shared account (switch accounts) {#switch-accounts}
 
