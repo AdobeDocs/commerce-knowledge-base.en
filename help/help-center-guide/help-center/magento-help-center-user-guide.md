@@ -528,7 +528,7 @@ After providing shared access for a new user, the related information is availab
 1. Click **Delete This User** at the bottom of the page.
 1. In the confirmation popup, click **Delete User** to revoke access or X in the top corner to cancel revoking.
 
-#### How to delete users who were granted shared access via a Cloud project? {#remove-cloud-shared-access-users}
+### How to delete users who were granted shared access via a Cloud project? {#remove-cloud-shared-access-users}
 
 <u>Affected products and versions</u>
 
