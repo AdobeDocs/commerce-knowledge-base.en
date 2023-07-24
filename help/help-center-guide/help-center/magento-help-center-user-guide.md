@@ -542,7 +542,7 @@ If you have/had an Adobe Commerce Cloud project and had added a user to the proj
 
 It's not possible to delete the list of Shared Access users with the Share Name of *Cloud Shared Access from MAG[XYZ]*. These are retained for informational/audit purposes.
 
-However, once you have revoked the permissions on those Shared Access users, they will no longer have said access.
+However, once you have revoked the permissions on those Shared Access users, they will no longer have that access.
 
 For more information, please refer to the [Manage User Access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#manage-users-from-the-project-web-interface) documentation on our Commerce on Cloud Infrastructure Guide.
 
