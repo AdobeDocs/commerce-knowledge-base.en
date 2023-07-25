@@ -615,6 +615,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-50949: Price filter in advanced search not returning proper results when used with SKU filter](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50949-the-price-filter-in-advanced-search-does-not-return-proper-results-when-used-along-the-sku-filter.md)
     * v1.1.34{#v1-1-34}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.34](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/overview.md)
+        * [ACSD-52277: Admin user redirected incorrectly on selecting store view when creating new order](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-52277-admin-user-redirected-incorrectly-on-selecting-store-view-when-creating-new-order.md)
         * [ACSD-52160: Product validation result against the cart price rule](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-52160-product-validation-result-against-the-cart-price-rule.md)
         * [ACSD-51636: Company admin cannot add new users](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51636-company-admin-cannot-add-new-users.md)
         * [ACSD-51853: Copied text styles aren't applied using page builder](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51853-copied-text-styles-are-not-applied-when-page-builder-is-used.md)
