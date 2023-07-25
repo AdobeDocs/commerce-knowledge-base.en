@@ -4,7 +4,7 @@ description: Apply the ACSD-52277 patch to fix the Adobe Commerce issue where an
 ---
 # ACSD-52277: Admin user redirected incorrectly on selecting store view when creating new order
 
-The ACSD-52277 patch fixes the issue where an Admin user is not redirected properly after selecting store view when creating a new order in Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is installed. The patch ID is ACSD-52277. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-52277 patch fixes the issue where an admin user is not redirected properly after selecting store view when creating a new order in Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is installed. The patch ID is ACSD-52277. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
