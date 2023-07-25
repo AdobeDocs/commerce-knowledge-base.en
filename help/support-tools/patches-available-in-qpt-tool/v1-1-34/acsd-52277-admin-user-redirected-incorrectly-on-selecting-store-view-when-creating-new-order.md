@@ -1,6 +1,6 @@
 ---
 title: "ACSD-52277: Admin user redirected incorrectly on selecting store view when creating new order"
-description: Apply the ACSD-52277 patch to fix the Adobe Commerce issue where an Admin user is not redirected properly after selecting store view when creating a new order in Admin.
+description: Apply the ACSD-52277 patch to fix the Adobe Commerce issue where an admin user is not redirected properly after selecting store view when creating a new order in Admin.
 ---
 # ACSD-52277: Admin user redirected incorrectly on selecting store view when creating new order
 
