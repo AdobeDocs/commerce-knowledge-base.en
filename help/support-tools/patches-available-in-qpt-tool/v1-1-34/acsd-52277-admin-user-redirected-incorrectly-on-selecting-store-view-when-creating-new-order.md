@@ -22,7 +22,7 @@ The ACSD-52277 patch fixes the issue where an admin user is not redirected prope
 
 ## Issue
 
-An Admin user is not redirected properly after selecting store view while creating a new order.
+An admin user is not redirected properly after selecting store view while creating a new order.
 
 <u>Steps to reproduce</u>
 
