@@ -25,6 +25,8 @@ The steps are:
     NOTE: The format of the snapshot on Azure projects will be different and contains other databases that cannot be imported. Before importing the snapshot, you will     have to take additional steps to extract the appropriate database before importing the dump. 
 
     For Production:
+    
+    ```sql
     cd /mnt/shared/<cluster ID/
     gunzip all-databases.sql.gz 
     head -n 17 all-databases.sql > <cluster ID>.sql 
@@ -35,8 +37,11 @@ The steps are:
     -u $DB_USER \
     --password=$MYSQL_PWD $DB_NAME \
     --init-command="SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT ;SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS ;SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION ;SET NAMES utf8 ;SET @OLD_TIME_ZONE=@@TIME_ZONE ;SET TIME_ZONE='+00:00' ;SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 ;SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 ;SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' ;SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0;"
+    ```
 
     For Staging:
+    
+    ```sql
     cd /mnt/shared/<cluster ID/ | cd /mnt/shared/<cluster ID_stg>
     gunzip all-databases.sql.gz 
     head -n 17 all-databases.sql > <cluster ID_stg>.sql
@@ -48,6 +53,7 @@ The steps are:
     -u $DB_USER \
     --password=$MYSQL_PWD $DB_NAME \
     --init-command="SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT ;SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS ;SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION ;SET NAMES utf8 ;SET @OLD_TIME_ZONE=@@TIME_ZONE ;SET TIME_ZONE='+00:00' ;SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 ;SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 ;SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' ;SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0;"
+    ```
 
 1. Copy the database [!DNL dump file] (For example: `<cluster ID>.sql.gz` for [!DNL Production] or `<cluster ID_stg>.sql.gz` for [!DNL Staging]) to your local computer.
 1. Make sure you have set up the [!DNL SSH tunnel] to connect to the database remotely: [[!DNL SSH] and [!DNL sFTP]: [!DNL SSH tunneling]](https://devdocs.magento.com/cloud/env/environments-ssh.html#env-start-tunn) in our developer documentation.
