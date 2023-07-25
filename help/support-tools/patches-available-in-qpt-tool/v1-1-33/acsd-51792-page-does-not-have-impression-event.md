@@ -22,7 +22,7 @@ The ACSD-51792 patch fixes the performance issue where a page does not have the 
 
 ## Issue
 
-Page does not have the impression event when Google Tag Manager 4 is enabled.
+Page does not have the impression event when [!DNL Google Tag Manager] 4 is enabled.
 
 <u>Steps to reproduce</u>:
 
