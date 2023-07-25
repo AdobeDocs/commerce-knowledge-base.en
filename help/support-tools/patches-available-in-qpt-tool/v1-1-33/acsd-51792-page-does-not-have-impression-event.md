@@ -34,7 +34,7 @@ Page does not have the impression event when [!DNL Google Tag Manager] 4 is enab
 
 <u>Expected results</u>:
 
-The Impression event should begin with all of the products on the page.
+The impression event should begin with all of the products on the page.
 
 <u>Actual results</u>:
 
