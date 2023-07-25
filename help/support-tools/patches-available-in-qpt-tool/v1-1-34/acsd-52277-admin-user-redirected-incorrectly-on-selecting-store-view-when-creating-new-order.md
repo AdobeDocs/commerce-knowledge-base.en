@@ -33,7 +33,7 @@ An admin user is not redirected properly after selecting store view while creati
 
 <u>Expected results</u>:
 
-The user should be redirected to the order page.
+The user is redirected to the order page.
 
 <u>Actual results</u>:
 
