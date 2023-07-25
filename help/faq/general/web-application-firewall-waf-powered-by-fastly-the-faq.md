@@ -2,6 +2,7 @@
 title: 'Web Application Firewall (WAF) powered by Fastly: the FAQ'
 description: Web Application Firewalls (WAFs) prevent malicious traffic from entering sites and networks by filtering traffic against a set of security rules. Traffic that triggers any of the rules is blocked before it can damage your sites or network.
 exl-id: d977ea68-7d8c-4863-b026-acdc25d8c430
+feature: Cache
 ---
 # Web Application Firewall (WAF) powered by Fastly: the FAQ
 

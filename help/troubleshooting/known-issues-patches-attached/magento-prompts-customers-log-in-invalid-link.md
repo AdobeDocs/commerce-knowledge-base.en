@@ -2,6 +2,7 @@
 title: Adobe Commerce prompts customers log in invalid link
 description: The article provides a link to the patch for a known Adobe Commerce 2.3.5 issue, where customers are prompted to log in, but the link to resend a confirmation email does not work.
 exl-id: 8adef44f-56a6-4f57-a9b5-fb8583d8ae8d
+feature: Logs
 ---
 # Adobe Commerce prompts customers log in invalid link
 

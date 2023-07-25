@@ -2,6 +2,7 @@
 title: PHP mcrypt extension not installed properly
 description: PHP mcrypt extension not installed properly
 exl-id: 1010349e-6631-4a05-8883-5cc903d67534
+feature: Extensions, Install
 ---
 # PHP mcrypt extension not installed properly
 

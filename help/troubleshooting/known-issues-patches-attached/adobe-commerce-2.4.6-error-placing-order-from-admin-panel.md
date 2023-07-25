@@ -1,6 +1,7 @@
 ---
 title: Adobe Commerce 2.4.6 error placing order from Admin panel
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.4.6 issue when you become stuck on store selection after you place an order from the Commerce Admin panel.
+feature: Admin Workspace
 ---
 
 # Adobe Commerce 2.4.6 error placing order from Admin panel
@@ -13,7 +14,7 @@ When placing an order from the Admin panel, you are stuck on store selection.
 
 <u>Steps to reproduce</u>
 
-1. Go to **Sales** > **Orders** and select a customer to create an order.
+1. Go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]** and select a customer to create an order.
 2. Select the store to place the order from the store selector screen.
 
 <u>Expected result</u>

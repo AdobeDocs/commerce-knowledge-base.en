@@ -2,6 +2,7 @@
 title: 'ACSD-46683: Shipping price shows *Not yet calculated*'
 description: Apply the ACSD-46683 patch to fix the Adobe Commerce issue where the shipping price shows *Not yet calculated*.
 exl-id: 34077748-a979-4afd-948f-6c5b132eba98
+feature: Marketing Tools
 ---
 # ACSD-46683: Shipping price shows *Not yet calculated*
 

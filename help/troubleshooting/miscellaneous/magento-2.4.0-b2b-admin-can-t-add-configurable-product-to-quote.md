@@ -2,6 +2,7 @@
 title: Adobe Commerce 2.4.0 B2B Admin can't add configurable product to quote
 description: This article talks about a known issue in Commerce Admin when managing a B2B Quote, it is not possible to add a configurable product by **SKU** to the quote. When clicking the **Add to Quote** button, the **Quote** edit page is stuck loading, and you cannot configure the product and save changes. This issue also occurs in Admin when adding a product by **SKU** to an order, or adding a product by **SKU** in **Advanced Checkout** (**Admin** &gt; **Customers** &gt; **All Customers** &gt; **Customer Edit** &gt; **Manage Shopping Cart**). This issue will be resolved in a patch for Adobe Commerce 2.4.1.
 exl-id: 73f7231b-b496-4250-b9e2-29427c772d56
+feature: Admin Workspace, B2B, Catalogs, Configuration
 ---
 # Adobe Commerce 2.4.0 B2B Admin can't add configurable product to quote
 

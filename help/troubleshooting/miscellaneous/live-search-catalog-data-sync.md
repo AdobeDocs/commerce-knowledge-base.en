@@ -2,6 +2,7 @@
 title: Live search catalog not synchronized
 description: This article provides solutions for the Adobe Commerce issue where your catalog data is not synchronized correctly when using the Live Search extension.
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
+feature: Catalogs
 ---
 # Live search catalog not synchronized
 
@@ -18,8 +19,8 @@ Your catalog data is not synchronized correctly, or a new product was added but 
 <u>Steps to reproduce</u>
 
 1. Configure and connect Live Search for your Adobe Commerce instance as described in [Install Live Search > Configure API keys](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) in our user documentation.
-1. After 8 hours, verify the exported catalog data as described in [Install Live Search > Verify export](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) in our user documentation.
-1. After 8 hours, test the connection as described in [Install Live Search > Test the connection](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) in our user documentation.
+1. After 30 minutes, verify the exported catalog data as described in [Install Live Search > Verify export](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) in our user documentation.
+1. After 30 minutes, test the connection as described in [Install Live Search > Test the connection](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) in our user documentation.
 
 Or
 
@@ -42,7 +43,7 @@ There are several things you might do to try and fix the catalog syncing issues.
 
 ### Wait for changes to be applied
 
-Once you configure and connect, it can take over 8 hours for the index in ES (Elasticsearch) to be created and search results to be returned (same timeframe is also true for delta updates as of now, but will be improved in the future).
+Once you configure and connect, it can take over 30 minutes for the index in ES (Elasticsearch) to be created and search results to be returned. Subsequent one-off product updates are expected to be indexed within a few minutes.
 
 ### Sync product data for a specific SKU
 

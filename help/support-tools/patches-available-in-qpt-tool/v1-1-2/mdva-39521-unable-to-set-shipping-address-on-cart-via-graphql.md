@@ -2,6 +2,7 @@
 title: 'MDVA-39521: Unable to set shipping address on carts via GraphQL'
 description: The MDVA-39521 patch solves the issue where the user is unable to set shipping address on carts with an empty phone number via GraphQL. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is installed. The patch ID is MDVA-39521. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.4.
 exl-id: b6bb4e83-ba65-4f15-82be-1252d9beb2fb
+feature: GraphQL
 ---
 # MDVA-39521: Unable to set shipping address on carts via GraphQL
 

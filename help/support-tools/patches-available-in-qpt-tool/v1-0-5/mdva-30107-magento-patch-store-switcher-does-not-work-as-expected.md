@@ -2,6 +2,7 @@
 title: 'MDVA-30107: Store switcher does not work as expected'
 description: The MDVA-30107 patch solves the issue where the store switcher doesn't work as expected if different base URLs are used for store views. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.5 is installed.
 exl-id: feaef9ed-615f-4a0a-a7c5-1833f993d27f
+feature: Categories
 ---
 # MDVA-30107: Store switcher does not work as expected
 

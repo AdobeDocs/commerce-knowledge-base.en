@@ -2,6 +2,7 @@
 title: Install latest patches to fix Adobe Commerce Redis issues
 description: This article provides information on the latest Redis-related patches available in [Adobe Commerce on cloud infrastructure Patches](https://devdocs.magento.com/cloud/project/project-patch.html) package.
 exl-id: 0335bc11-f679-4629-b4e7-6a0e68c3ae44
+feature: Cache, Install
 ---
 # Install latest patches to fix Adobe Commerce Redis issues
 

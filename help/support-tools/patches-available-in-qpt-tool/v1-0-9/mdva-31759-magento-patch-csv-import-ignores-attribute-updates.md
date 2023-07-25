@@ -2,6 +2,7 @@
 title: 'MDVA-31759 patch: CSV import ignores attribute updates'
 description: The MDVA-31759 patch fixes the issue where CSV import ignores additional attributes with *Dropdown* and *Text Area* types. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 5426866c-893f-4abe-bfbc-6e7b30dd8dab
+feature: Attributes, Data Import/Export
 ---
 # MDVA-31759 patch: CSV import ignores attribute updates
 

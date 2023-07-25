@@ -2,6 +2,7 @@
 title: Change Admin password on Adobe Commerce on cloud infrastructure
 description: '![login_panel_s.png](assets/login_panel_s.png)'
 exl-id: 1b6e867e-d314-4e7b-be95-d699e6749896
+feature: Admin Workspace, Cloud
 ---
 # Change Admin password on Adobe Commerce on cloud infrastructure
 

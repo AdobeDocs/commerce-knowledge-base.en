@@ -2,6 +2,7 @@
 title: Unable to save entity Adobe Commerce backend
 description: This article provides a solution for when you are unable to save an entity in the Adobe Commerce backend. For example, when you cannot edit and save a specific `cart_price` rule.
 exl-id: e45dc88a-2da0-4524-bd61-6634cfebb169
+feature: Admin Workspace, Marketing Tools
 ---
 # Unable to save entity Adobe Commerce backend
 
