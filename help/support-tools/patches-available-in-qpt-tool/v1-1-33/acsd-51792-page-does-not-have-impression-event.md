@@ -30,7 +30,7 @@ Page does not have the impression event when [!DNL Google Tag Manager] 4 is enab
 1. Configure the **[!DNL GoogleTag Manager]** integration.
 1. Go to [Google Tag Assistant](https://tagassistant.google.com/), and complete the steps needed to connect to your website.
 1. Open a category page that has a product listing on the storefront.
-1. Check for the Impressions event in the Tag Assistant observer.
+1. Check for the impressions event in the Tag Assistant observer.
 
 <u>Expected results</u>:
 
