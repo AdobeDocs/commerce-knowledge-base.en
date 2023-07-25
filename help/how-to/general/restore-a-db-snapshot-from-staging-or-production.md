@@ -20,7 +20,7 @@ Choose the most appropriate for your case:
 
 The steps are:
 
-1. Using [!DNL sFTP], navigate to the location where the database [!DNL snapshot] has been placed, usually on the first server/node of your [!DNL cluster] (For example: `/mnt/recovery-<recovery_id>`). NOTE: If your project is Azure-based, i.e., your project URL looks something like https://us-a1.magento.cloud/projects/<cluster_id>, then the snapshot will be placed in /mnt/shared/<cluster ID>/all-databases.sql.gz or /mnt/shared/<cluster ID_stg>/all-databases.sql.gz instead.
+1. Using [!DNL sFTP], navigate to the location where the database [!DNL snapshot] has been placed, usually on the first server/node of your [!DNL cluster] (For example: `/mnt/recovery-<recovery_id>`). NOTE: If your project is Azure-based, i.e., your project URL looks something like https://us-a1.magento.cloud/projects/<cluster_id>, then the snapshot will be placed in `/mnt/shared/<cluster ID>/all-databases.sql.gz` or `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz` instead.
 
     NOTE: The format of the snapshot on Azure projects will be different and contains other databases that cannot be imported. Before importing the snapshot, you will     have to take additional steps to extract the appropriate database before importing the dump. 
 
