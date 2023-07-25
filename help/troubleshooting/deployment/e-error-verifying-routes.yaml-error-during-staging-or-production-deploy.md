@@ -2,6 +2,7 @@
 title: 'E: Error verifying routes.yaml error during Staging or Production deploy'
 description: 'This article provides a solution for the Adobe Commerce on cloud infrastructure issue, where you get the *"E: Error while verifying routes.yaml"* error message when trying to deploy the project to the Staging or Production environment.'
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
+feature: Deploy
 ---
 # E: Error verifying routes.yaml error during Staging or Production deploy
 

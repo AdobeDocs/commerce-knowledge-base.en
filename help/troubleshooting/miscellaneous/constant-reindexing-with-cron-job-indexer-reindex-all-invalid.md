@@ -3,6 +3,7 @@ title: Indexes invalidated and `indexer_reindex_all_invalid` run constantly
 description: Indexes invalidated and `indexer_reindex_all_invalid` run constantly
 labels: troubleshooting,error,indexing,crons,site performance,adobe commerce,magento,cron,indexer_reindex_all_invalid,SQL,MySQL,reindex
 exl-id: c7148ef4-2155-4d4c-869b-1d08de4af598
+feature: B2B, Catalogs, Categories
 ---
 # Indexes invalidated and `indexer_reindex_all_invalid` run constantly
 

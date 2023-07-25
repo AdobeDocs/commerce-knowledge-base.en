@@ -2,6 +2,7 @@
 title: run `setup:static-content:deploy` deployed_version.txt issue
 description: This article provides a fix for `deployed_version.txt` is not writable error when running the `setup:static-content:deploy` command manually.
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
+feature: Deploy
 ---
 # run `setup:static-content:deploy` deployed_version.txt issue
 

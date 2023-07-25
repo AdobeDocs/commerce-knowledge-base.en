@@ -2,6 +2,7 @@
 title: 'Adobe Commerce 2.4.2 B2B: email template not updating email'
 description: This article describes a known Adobe Commerce 2.4.2 B2B issue where updating some information in an email template is not updated in emails. This issue impacts email contents such as customer info, currency rates, currency symbol, email template change, etc. There is not a solution available at this time, but there is a workaround at the bottom of this article.
 exl-id: 31b7086f-a941-4682-aa07-301ac31d543b
+feature: B2B, Communications
 ---
 # Adobe Commerce 2.4.2 B2B: email template not updating email
 

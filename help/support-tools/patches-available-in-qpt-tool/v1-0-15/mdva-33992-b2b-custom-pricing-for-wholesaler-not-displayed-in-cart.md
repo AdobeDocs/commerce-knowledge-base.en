@@ -2,6 +2,7 @@
 title: 'MDVA-33992: B2B custom pricing for wholesaler not displayed in cart'
 description: The MDVA-33992 patch fixes the issue where the custom pricing for a B2B customer is not reflected when a product is added to a cart. This patch is available when the Quality Patches Tool (QPT) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 exl-id: 6018fae6-762c-46c6-9497-ecf090115b7f
+feature: B2B, Catalogs
 ---
 # MDVA-33992: B2B custom pricing for wholesaler not displayed in cart
 

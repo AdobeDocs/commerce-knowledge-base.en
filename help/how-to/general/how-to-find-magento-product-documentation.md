@@ -2,6 +2,7 @@
 title: How to find Adobe Commerce product documentation
 description: The Adobe Commerce support knowledge base provides troubleshooting solutions for fixing and avoiding known Adobe Commerce products issues, supplied by the Adobe Commerce support team.
 exl-id: 03c5ec4a-ca1a-4c8e-b896-a13e08229531
+feature: B2B, Commerce Intelligence
 ---
 # How to find Adobe Commerce product documentation
 

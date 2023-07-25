@@ -2,6 +2,7 @@
 title: Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work
 description: This article provides a solution for an Adobe Commerce 2.4.0 known issue where the **Export Tax Rates** button does not work.
 exl-id: 29a34a1f-d23a-43cb-ac1f-8711ce25fa6c
+feature: Data Import/Export
 ---
 # Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work
 

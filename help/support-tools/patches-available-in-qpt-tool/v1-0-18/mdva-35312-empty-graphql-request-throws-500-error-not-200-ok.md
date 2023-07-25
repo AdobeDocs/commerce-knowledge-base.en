@@ -2,6 +2,7 @@
 title: 'MDVA-35312: empty GraphQL request throws 500 error not 200 OK'
 description: The MDVA-35312 patch fixes the issue where an empty GraphQL request throws error response code 500. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.18 is installed. The patch ID is MDVA-35312. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 exl-id: 345fdbd4-8a43-4aab-a318-72792c8a7a78
+feature: GraphQL
 ---
 # MDVA-35312: empty GraphQL request throws 500 error not 200 OK
 

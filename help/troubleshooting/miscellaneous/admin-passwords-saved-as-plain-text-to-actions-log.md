@@ -2,6 +2,7 @@
 title: Admin passwords saved as plain text to actions log
 description: This article provides a fix for when a Commerce Administrator creates a new user with the Administrator privileges and the password is saved as plain text in the `magento_logging_event_changes` database table.
 exl-id: 0e91198e-66b9-456a-9b75-5986369ed8e6
+feature: Admin Workspace, Logs
 ---
 # Admin passwords saved as plain text to actions log
 

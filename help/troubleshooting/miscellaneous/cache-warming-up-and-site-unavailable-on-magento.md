@@ -2,6 +2,7 @@
 title: Cache warming up and site unavailable on Adobe Commerce
 description: This article provides a solution for when the page cache is warming up and there is a stuck deployment or site down.
 exl-id: c91d5c1f-95e6-4240-be98-2acea49ae728
+feature: Cache
 ---
 # Cache warming up and site unavailable on Adobe Commerce
 
