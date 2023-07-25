@@ -4,7 +4,7 @@ description: Apply the ACSD-51792 patch to fix the Adobe Commerce performance is
 ---
 # ACSD-51792: Page does not have impression event
 
-The ACSD-51792 patch fixes the performance issue where a page does not have the impression event when Google Tag Manager 4 is enabled. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51792. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-51792 patch fixes the performance issue where a page does not have the impression event when [!DNL Google Tag Manager] 4 is enabled. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51792. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
