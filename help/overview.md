@@ -39,7 +39,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-34/acsd-51636-company-admin-cannot-add-new-users.html">ACSD-51636: Company admin can't add new users from the customer account section:</a> The ACSD-51636 patch fixes the issue where the company admin can't add new users from the customer account section despite having all necessary roles and permissions. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-34/acsd-51636-company-admin-cannot-add-new-users.html">ACSD-51636: Company admin can't add new users from the customer account section:</a> The ACSD-51636 patch fixes the issue where the company admin can't add new users from the customer account section despite having all necessary roles and permissions. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.34 is installed.
     </td>
     <td>New article</td>
     <td>July 26, 2023</td>
