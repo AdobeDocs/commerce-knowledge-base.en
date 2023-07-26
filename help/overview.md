@@ -144,7 +144,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-50478-database-rollback-command-for-case-when-db-dump-contains-triggers-and-delimiter-sql-command.html>ACSD-50478: JS issue for rollback action in backups grid and database rollback command:</a> The ACSD-50478 patch fixes the JS issue for the rollback action in the backups grid and the database rollback command for a case when the DB dump contains triggers and a delimiter SQL command. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-50478-database-rollback-command-for-case-when-db-dump-contains-triggers-and-delimiter-sql-command.html">ACSD-50478: JS issue for rollback action in backups grid and database rollback command:</a> The ACSD-50478 patch fixes the JS issue for the rollback action in the backups grid and the database rollback command for a case when the DB dump contains triggers and a delimiter SQL command. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
     <td>July 26, 2023</td>
