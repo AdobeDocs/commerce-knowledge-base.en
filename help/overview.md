@@ -55,7 +55,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-34/acsd-51853-copied-text-styles-are-not-applied-when-page-builder-is-used.html">ACSD-51853: Copied text styles aren't applied using page builder:</a> The ACSD-51853 patch fixes the issue where the copied text styles aren't applied when page builder is used. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.34 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-34/acsd-51853-copied-text-styles-are-not-applied-when-page-builder-is-used.html">ACSD-51853: Copied text styles aren't applied using [!DNL Page Builder]:</a> The ACSD-51853 patch fixes the issue where the copied text styles aren't applied when [!DNL Page Builder] is used. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.34 is installed.
     </td>
     <td>New article</td>
     <td>July 26, 2023</td>
