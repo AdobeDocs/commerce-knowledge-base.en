@@ -120,7 +120,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51408-order-item-status-is-set-to-backordered.html">ACSD-51408: Order item status is incorrectly set to backordered:</a> The ACSD-51408 patch fixes the issue where the order item status is incorrectly set to backordered. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51408-order-item-status-is-set-to-backordered.html">ACSD-51408: Order item status is incorrectly set to <em>[!UICONTROL back ordered]</em>:</a> The ACSD-51408 patch fixes the issue where the order item status is incorrectly set to <em>[!UICONTROL back ordered]</em>. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
     <td>July 26, 2023</td>
