@@ -63,7 +63,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-34/acsd-51630-large-amount-of-system-messages-slows-the-downloading-of-admin-pages.html">ACSD-51630: Numerous system messages slow download of Admin Pages:</a> The ACSD-51630 patch fixes the performance issue where a large amount of system messages slows the downloading of Admin Pages. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-34/acsd-51630-large-amount-of-system-messages-slows-the-downloading-of-admin-pages.html">ACSD-51630: Numerous system messages slow download of Admin Pages:</a> The ACSD-51630 patch fixes the performance issue where a large amount of system messages slows the downloading of Admin Pages. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.34 is installed.
     </td>
     <td>New article</td>
     <td>July 26, 2023</td>
