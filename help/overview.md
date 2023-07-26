@@ -111,7 +111,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51735-order-item-status-incorrectly-set.html?lang=ko">ACSD-51735: Order item status incorrectly set to Ordered when product stock is 0:</a> The ACSD-51735 patch fixes the issue where the order item status is incorrectly set to Ordered when the product stock is 0. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-33/acsd-51735-order-item-status-incorrectly-set.html">ACSD-51735: Order item status incorrectly set to <em>[!UICONTROL Ordered]</em> when product stock is 0:</a> The ACSD-51735 patch fixes the issue where the order item status is incorrectly set to <em>[!UICONTROL Ordered]</em> when the product stock is 0. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.33 is installed.
     </td>
     <td>New article</td>
     <td>July 26, 2023</td>
