@@ -7,7 +7,7 @@ role: Admin
 ---
 # MDVA-33482 patch: tax miscalculation in credit memo
 
-The MDVA-33482 patch solves the issue where tax is miscalculated in credit memos.
+The MDVA-33482 patch solves the issue where tax is miscalculated in credit memos when there is no Adjustment Fee or Adjustment Refund applied.
 
 This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 
@@ -26,9 +26,9 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 <u>Steps to reproduce</u>:
 
 1. Configure **Taxes**.
-1. Create an order using 2 products in the backend using any online payment method (Example: Paypal Payment Pro). Make sure that taxes are applied to all the products.
-1. Create 2 invoices for the order.
-1. Create a credit memo against one of the invoices.
+1. Create an order using two products in the backend using any online payment method (Example: [!DNL PayPal Payment Pro]). Make sure that taxes are applied to all the products.
+1. Create two invoices for the order.
+1. Create a credit memo against one of the invoices. Note that the solution is not applicable if you plan on applying an Adjustment Fee or Adjustment Refund.
 1. Check the credit memo totals.
 
 <u>Expected results</u>:
