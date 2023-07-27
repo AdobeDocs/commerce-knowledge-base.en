@@ -2,6 +2,8 @@
 title: 'MDVA-29148: ArrayBackend does not assign default value on save'
 description: The MDVA-29148 patch solves the issue where `\Magento\Eav\Model\Entity\Attribute\Backend\ArrayBackend` does not assign the default value on save. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 7b2f5c18-0e7a-485b-a07e-700e435697fd
+feature: Tools and External Services
+role: Admin
 ---
 # MDVA-29148: ArrayBackend does not assign default value on save
 

@@ -2,6 +2,8 @@
 title: Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure
 description: During the peak holiday sales season (approximately Mid-November through Mid-January), Adobe recommends that all Adobe Commerce merchants hosted on our cloud infrastructure prepare for increased traffic.
 exl-id: 9d6910bf-30bc-4117-bf7f-a0316f9506b5
+feature: Cloud, Paas
+role: Admin
 ---
 # Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure
 

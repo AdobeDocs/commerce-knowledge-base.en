@@ -2,12 +2,14 @@
 title: Adobe Commerce site down troubleshooter
 description: Click on each question to reveal the answer details in each step of the troubleshooter.
 exl-id: 10a2313e-cc82-4ffc-9247-624884f3e165
+feature: Support
+role: Developer
 ---
 # Adobe Commerce site down troubleshooter
 
 Click on each question to reveal the answer details in each step of the troubleshooter.
 
-## Step 1
+## Step 1 {#step-1}
 
 +++**Does <https://status.adobe.com> show any issues?**
 
@@ -16,7 +18,7 @@ b. NO – If you checked [Adobe Magento Status](https://status.adobe.com/product
 
 +++
 
-## Step 2
+## Step 2 {#step-2}
 
 +++**Does http://status.fastly.com show any issues?**
 
@@ -25,9 +27,9 @@ b. NO – If you checked [Fastly Status](https://status.fastly.com/) and it did 
 
 +++
 
-## Step 3
+## Step 3 {#step-3}
 
-+++**Check your website in a web browser. Do you get a 200 (OK) code?** 
++++**Check your website in a web browser. Do you get a 200 (OK) code?**
 
 To check error codes in **Firefox**: Click the **Open Menu** icon > **Web Developer** > **Toggle Tools** > **Network** tab > **All** filter > **Status** column. To check error codes in **Chrome**: Click the **Open Menu** icon > **More Tools** > **Developer Tools** > **Network** tab > **All** filter > **Status** column.
 
@@ -36,7 +38,7 @@ b. NO – Proceed to [Step 4](#step-4).
 
 +++
 
-## Step 4
+## Step 4 {#step-4}
 
 +++**Which website error code did you receive?**
 
@@ -50,7 +52,7 @@ d. Other Error Codes – Proceed to [Step 5](#step-5).
 
 +++
 
-## Step 5
+## Step 5 {#step-5}
 
 +++**Is your site slow, or having high server load, high CPU load, slow request processing, or outages in MySQL or Redis?**
 
@@ -59,7 +61,7 @@ b. NO – Check logs of `/var/log/exception.log` and `/var/log/deploy.log`, and 
 
 +++
 
-## Step 6
+## Step 6 {#step-6}
 
 +++**Do you have deployment errors or deployment failure?**
 
@@ -68,7 +70,7 @@ b. NO – Proceed to [Step 7](#step-7).
 
 +++
 
-## Step 7
+## Step 7 {#step-7}
 
 +++**Do you have Elasticsearch errors?**
 
@@ -77,7 +79,7 @@ b. NO – Proceed to [Step 8](#step-8).
 
 +++
 
-## Step 8
+## Step 8 {#step-8}
 
 +++**Was your MySQL database having slow queries or incorrect queries?**
 
@@ -86,7 +88,7 @@ b. NO – Proceed to [Step 9](#step-9).
 
 +++
 
-## Step 9
+## Step 9 {#step-9}
 
 +++**Is your static content not available?**
 
@@ -95,7 +97,7 @@ b. NO – Proceed to [Step 10](#step-10).
 
 +++
 
-## Step 10
+## Step 10 {#step-10}
 
 +++**Do you see PHP Fatal Errors in your logs?**
 
@@ -104,7 +106,7 @@ b. NO – Proceed to [Step 11](#step-11).
 
 +++
 
-## Step 11
+## Step 11 {#step-11}
 
 +++**Are you seeing Redis errors?**
 
@@ -113,7 +115,7 @@ b. NO – Proceed to [Step 12](#step-12).
 
 +++
 
-## Step 12
+## Step 12 {#step-12}
 
 +++**Are you seeing Indexer errors?**
 
@@ -122,7 +124,7 @@ b. NO – Open a [Support Ticket](/help/help-center-guide/help-center/magento-he
 
 +++
 
-## Step 13
+## Step 13 {#step-13}
 
 +++**Do you have issues with your custom module(s)?**
 
@@ -131,7 +133,7 @@ b. NO – Proceed to [Step 14](#step-14).
 
 +++
 
-## Step 14
+## Step 14 {#step-14}
 
 +++**Do you have post-hook failures?**
 
@@ -140,7 +142,7 @@ b. NO – Proceed to [Step 15](#step-15).
 
 +++
 
-## Step 15
+## Step 15 {#step-15}
 
 +++**Do you have issues with composer patches?**
 
@@ -149,7 +151,7 @@ b. NO – Proceed to [Step 16](#step-16).
 
 +++
 
-## Step 16
+## Step 16 {#step-16}
 
 +++**Do you have SQL database errors?**
 
@@ -158,7 +160,7 @@ b. NO – Proceed to [Step 17](#step-17).
 
 +++
 
-## Step 17
+## Step 17 {#step-17}
 
 +++**Do you have MySQL database dead locks or an unresponsive MySQL database?**
 

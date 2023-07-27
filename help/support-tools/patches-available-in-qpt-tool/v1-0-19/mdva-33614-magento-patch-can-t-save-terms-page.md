@@ -2,6 +2,8 @@
 title: "MDVA-33614 patch: can't save Terms page"
 description: 'The MDVA-33614 patch fixes the issue where it is impossible to save edits to the Terms page, because Page Builder throws the following error: *An error has occurred while initiating Page Builder. Please consult with your technical support contact*. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-33614. Please note that the issue was fixed in Adobe Commerce 2.4.2.'
 exl-id: d9b287bb-eab4-4c33-b725-ae0074962447
+feature: Tools and External Services
+role: Admin
 ---
 # MDVA-33614 patch: can't save Terms page
 

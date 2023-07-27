@@ -2,6 +2,8 @@
 title: '"500 error" after double-clicking Remove link in shopping cart'
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.0 issue related to customers getting error when trying to remove twice a shopping cart item (by double-clicking the *Remove* link or by clicking it in different tabs).
 exl-id: 927cf681-febf-42cc-8db5-469bcf8f2012
+feature: Orders, Shopping Cart
+role: Developer
 ---
 # "500 error" after double-clicking Remove link in shopping cart
 

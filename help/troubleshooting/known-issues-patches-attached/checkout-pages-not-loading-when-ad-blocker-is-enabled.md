@@ -2,6 +2,8 @@
 title: Checkout pages not loading when ad blocker is enabled
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.2 issue related to the failure to load checkout pages caused by uBlock or other ad blockers.
 exl-id: fe718f21-df23-4ab1-a6b0-03bad4d7095d
+feature: Checkout, Orders
+role: Developer
 ---
 # Checkout pages not loading when ad blocker is enabled
 

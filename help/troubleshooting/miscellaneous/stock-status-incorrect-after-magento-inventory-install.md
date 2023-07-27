@@ -2,6 +2,8 @@
 title: Stock status incorrect after Inventory Management install
 description: This article provides a fix for stock status being incorrect after Inventory Management installation/upgrade.
 exl-id: ae32fbe3-deab-4f31-b427-95f8b54a476f
+feature: Install, Inventory, Orders
+role: Developer
 ---
 # Stock status incorrect after Inventory Management install
 

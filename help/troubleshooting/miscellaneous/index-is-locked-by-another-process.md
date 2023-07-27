@@ -2,6 +2,8 @@
 title: Index is locked by another process
 description: This article talks about a common indexing issue in Adobe Commerce where the index is locked by another process and skipped.
 exl-id: 542c714c-fad5-4f0e-9757-d90044c36bfc
+feature: Catalogs, Categories
+role: Developer
 ---
 # Index is locked by another process
 

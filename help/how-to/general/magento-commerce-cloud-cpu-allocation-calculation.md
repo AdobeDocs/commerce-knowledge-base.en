@@ -3,6 +3,7 @@ title: 'Adobe Commerce on cloud infrastructure: CPU allocation calculation'
 promoted: true
 description: The attached article provides detailed guidelines on what metrics should be used when making decisions about CPU allocation, and how to calculate them.
 exl-id: 2fe93b96-f975-4ac6-81d2-e24002ce69db
+feature: Cloud
 ---
 # Adobe Commerce on cloud infrastructure: CPU allocation calculation
 

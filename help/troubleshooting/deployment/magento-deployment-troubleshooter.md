@@ -2,12 +2,14 @@
 title: Adobe Commerce deployment troubleshooter
 description: Stuck deployments and failed deployments on Adobe Commerce can be solved using the Deployment troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
+feature: Build, Deploy, Support
+role: Developer
 ---
 # Adobe Commerce deployment troubleshooter
 
 Stuck deployments and failed deployments on Adobe Commerce can be solved using the Deployment troubleshooter tool. Click on each question to reveal the answer in each step of the troubleshooter.
 
-## Step 1 - Verify the service is running
+## Step 1 - Verify the service is running {#step-1}
 
 +++**Is Adobe Commerce on cloud infrastructure service up?**
 
@@ -18,7 +20,7 @@ b. NO – Maintenance or global outages. Check for estimated duration and update
 
 +++
 
-## Step 2 - Check deployments in other environments
+## Step 2 - Check deployments in other environments {#step-2}
 
 +++**Are there deployments in other environments that are blocking the deployment in the existing environment?**
 
@@ -48,7 +50,7 @@ b. NO – Troubleshoot the current environment. Proceed to [Step 3](#step-3).
 +++
 
 
-## Step 3 - Verify SSH on all nodes
+## Step 3 - Verify SSH on all nodes {#step-3}
 
 +++**SSH successful to all nodes?**
 
@@ -57,7 +59,7 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 
 +++
 
-## Step 4 - Verify all services running
+## Step 4 - Verify all services running {#step-4}
 
 +++**All services running?**
 
@@ -66,7 +68,7 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 
 +++
 
-## Step 5 - Verify Bitbucket running
+## Step 5 - Verify Bitbucket running {#step-5}
 
 +++**Using Bitbucket?**
 
@@ -75,7 +77,7 @@ b. NO – Check deployment log errors in the [Build and Deploy logs](https://exp
 
 +++
 
-## Step 6 - Check error codes
+## Step 6 - Check error codes {#step-6}
 
 +++**Error code reported?**
 
@@ -84,7 +86,7 @@ b. NO – Proceed to [Step 8](#step-8).
 
 +++
 
-## Step 7 - 403 Forbidden error
+## Step 7 - 403 Forbidden error {#step-7}
 
 +++**403 Forbidden?**
 
@@ -93,7 +95,7 @@ b. NO – Proceed to [Step 9](#step-9).
 
 +++
 
-## Step 8 - Verify cron jobs running
+## Step 8 - Verify cron jobs running {#step-8}
 
 +++**Are cron jobs currently running?**
 
@@ -102,7 +104,7 @@ b. NO – Proceed to [Step 17](#step-17).
 
 +++
 
-## Step 9 - Application deployable to remote cluster error
+## Step 9 - Application deployable to remote cluster error {#step-9}
 
 +++**Unable to upload application to the remote cluster error?**
 
@@ -111,7 +113,7 @@ b. NO – Proceed to [Step 11](#step-11).
 
 +++
 
-## Step 10 - Check sufficient storage
+## Step 10 - Check sufficient storage {#step-10}
 
 +++**Available storage okay?**
 
@@ -120,7 +122,7 @@ b. NO – Review [Manage disk space](https://experienceleague.adobe.com/docs/com
 
 +++
 
-## Step 11 - Verify disk space
+## Step 11 - Verify disk space {#step-11}
 
 +++**_file could not be written Warning_?**
 
@@ -129,7 +131,7 @@ b. NO – Proceed with [Step 12](#step-12).
 
 +++
 
-## Step 12 - Environment redeployment failed error
+## Step 12 - Environment redeployment failed error {#step-12}
 
 +++**Environment redeployment failed error?**
 
@@ -138,7 +140,7 @@ b. NO – Proceed with [Step 8](#step-8).
 
 +++
 
-## Step 13 - Check for Elasticsearch upgrade fail
+## Step 13 - Check for Elasticsearch upgrade fail {#step-13}
 
 +++**Elasticsearch being upgraded or deployed?**
 
@@ -147,7 +149,7 @@ b. NO – Proceed to [Step 14](#step-14).
 
 +++
 
-## Step 14 - Check space limits
+## Step 14 - Check space limits {#step-14}
 
 +++**File system out of inodes or space?**
 
@@ -156,7 +158,7 @@ b. NO – Proceed to [Step 15](#step-15).
 
 +++
 
-## Step 15 - Elasticsearch version error
+## Step 15 - Elasticsearch version error {#step-15}
 
 +++**Error about Elasticseach versions?**
 
@@ -165,7 +167,7 @@ b. NO – Proceed to [Step 21](#step-21).
 
 +++
 
-## Step 16 - Verify Composer config
+## Step 16 - Verify Composer config {#step-16}
 
 +++**Composer config correct?**
 
@@ -174,7 +176,7 @@ b. NO – Review [Composer Troubleshooter webpage](https://getcomposer.org/doc/a
 
 +++
 
-## Step 17 - Check for long running processes
+## Step 17 - Check for long running processes {#step-17}
 
 +++**Long running processes(es)?**
 
@@ -189,7 +191,7 @@ b. NO – Proceed to [Step 18](#step-18).
 
 +++
 
-## Step 18 - Check for post hook failure
+## Step 18 - Check for post hook failure {#step-18}
 
 +++**Post hook failure/hang?**
 
@@ -198,7 +200,7 @@ b. NO – Proceed to [Step 19](#step-19).
 
 +++
 
-## Step 19 - Check if third-party extensions block deployment
+## Step 19 - Check if third-party extensions block deployment {#step-19}
 
 +++**Using third-party extensions?**
 
@@ -207,7 +209,7 @@ b. NO – Proceed to [Step 20](#step-20).
 
 +++
 
-## Step 20 - Check for slow queries
+## Step 20 - Check for slow queries {#step-20}
 
 +++**Long running queries?**
 
@@ -218,11 +220,13 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 
 +++
 
-## Step 21 - Downgrade Elasticsearch version
+## Step 21 - Downgrade Elasticsearch version {#step-21}
 
 +++**Downgrading Elasticsearch versions?**
 
 a. YES – Can't be done through configuration. [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+
++++
 
 [Back to Step 1](#step-1)

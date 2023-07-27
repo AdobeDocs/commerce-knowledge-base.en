@@ -2,6 +2,8 @@
 title: Known issues that affect xdebug installation
 description: This article provides a solution for when you experience an exception error when you use the optional PHP extension `xdebug`.
 exl-id: 5090ea99-e0c3-436a-809b-109701740927
+feature: Install
+role: Developer
 ---
 # Known issues that affect xdebug installation
 

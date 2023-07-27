@@ -1,6 +1,7 @@
 ---
 cloud: Experience Cloud
 solution: Commerce
+feature-set: Commerce
 product: magento
 type: Documentation
 mini-toc-levels: 2

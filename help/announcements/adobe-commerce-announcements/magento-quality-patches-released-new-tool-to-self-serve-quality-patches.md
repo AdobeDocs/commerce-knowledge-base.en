@@ -2,6 +2,8 @@
 title: 'Quality Patches Tool released: new tool to self-serve quality patches'
 description: Adobe has released the Quality Patches Tool for general availability - a tool that allows for applying, reverting, and viewing general information about quality patches available for your installed version of Adobe Commerce (both on-premises and on cloud infrastructure) or Magento Open Source.
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
+feature: Tools and External Services
+role: Admin
 ---
 # Quality Patches Tool released: new tool to self-serve quality patches
 

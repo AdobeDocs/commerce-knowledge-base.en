@@ -2,6 +2,8 @@
 title: 'MDVA-30945: a fatal error during add and update cart operations'
 description: The MDVA-30945 patch fixes the issue where you receive a fatal error *Call to a member function getValue() on null in module-configurable-product CartItemProcessor.php* when updating carts. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. The issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 0950e91b-900b-421d-91e7-abbfca4f30be
+feature: Orders, Shopping Cart
+role: Admin
 ---
 # MDVA-30945: a fatal error during add and update cart operations
 

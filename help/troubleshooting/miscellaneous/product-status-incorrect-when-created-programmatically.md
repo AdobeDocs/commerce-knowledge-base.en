@@ -2,6 +2,8 @@
 title: Product status incorrect when created programmatically
 description: This article provides a fix for when product status is Disabled and products are not displayed on the store front, or are assigned to the wrong store views, when created/updated programmatically.
 exl-id: ac02f961-f9e2-4620-839f-b8dbd0befb15
+feature: Products
+role: Developer
 ---
 # Product status incorrect when created programmatically
 

@@ -2,6 +2,8 @@
 title: 'PWA Studio: Browser displays “Cannot proxy to“ error'
 description: This topic discusses a solution when your web browser displays a "*Cannot proxy to*" and the console displays an
 exl-id: de689633-34b8-4a25-bbd0-a58742c4d03c
+feature: Console
+role: Developer
 ---
 # PWA Studio: Browser displays “Cannot proxy to“ error
 

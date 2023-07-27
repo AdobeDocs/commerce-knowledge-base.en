@@ -2,6 +2,8 @@
 title: 'MDVA-33382 patch: invalidated indexers'
 description: The MDVA-33382 patch solves the issue when indexers are invalidated after adding, removing, or reordering products in a category. The indexers that are invalidated are `catalog_category_product` , `catalogsearch_fulltext` (and their dependents).
 exl-id: b4ac10ee-0f9d-4d7a-be72-c4d90ebadb10
+feature: Catalogs, Categories, Price Indexer
+role: Admin
 ---
 # MDVA-33382 patch: invalidated indexers
 

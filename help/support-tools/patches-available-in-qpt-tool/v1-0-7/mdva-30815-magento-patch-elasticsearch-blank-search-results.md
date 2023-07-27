@@ -2,6 +2,8 @@
 title: 'MDVA-30815: Elasticsearch blank search results'
 description: The MDVA-30815 patch fixes the issue where Elasticsearch displays a blank page when the search results' limiter options are changed. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.3.5.
 exl-id: dbe41a43-e248-407e-8cf9-319ad5843935
+feature: Search, Services
+role: Admin
 ---
 # MDVA-30815: Elasticsearch blank search results
 

@@ -2,6 +2,8 @@
 title: 'Deployment fails with "Error building project: The build hook failed with status code 1"'
 description: 'This article talks about the causes and solutions for the Adobe Commerce on cloud infrastructure issue, where the build phase of the deployment process fails, and the error message is summarized with: *"Error building project: The build hook failed with status code 1"*.'
 exl-id: add1cdac-dbcb-4c55-8bc2-c1f27e24aadb
+feature: Build, Deploy
+role: Developer
 ---
 # Deployment fails with "Error building project: The build hook failed with status code 1"
 

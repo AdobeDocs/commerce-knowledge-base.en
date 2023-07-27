@@ -2,6 +2,8 @@
 title: Installation fails; cannot create install.log
 description: This article provides a fix for a failed installation due to the Setup Wizard not creating the `install.log` during the installation.
 exl-id: ff614018-8e49-4170-a806-8ebdc91ae8a9
+feature: Install, Logs, Upgrade
+role: Developer
 ---
 # Installation fails; cannot create install.log
 
@@ -13,7 +15,10 @@ Running Adobe Commerce processes at the same time might result in problems creat
 
 ## Cause
 
-Review your setting for `open_basedir` in `php.ini`. The Setup Wizard uses the [sys\_get\_temp\_dir ( void )](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP call to get the value of the temporary directory. If [open\_basedir](http://php.net/manual/en/ini.core.php#ini.open-basedir) is set to refuse connections to a directory specified by `sys_get_temp_dir`, the installation fails.
+Installation-fails-cannot-create-install.log
+Review your setting for `open_basedir` in `php.ini`. The Setup Wizard uses the [sys\_get\_temp\_dir ( void )](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP call to get the value of the temporary directory. If [open\_basedir](http://php.net/manual/en/ini.core.php#ini.open-basedir) is set to refuse connections to a directory specified by `sys_get_temp_dir`, the installation fails.]
+Review your setting for `open_basedir` in `php.ini`. The Setup Wizard uses the [sys\_get\_temp\_dir ( void )](https://php.net/manual/en/function.sys-get-temp-dir.php) PHP call to get the value of the temporary directory. If [open\_basedir](https://php.net/manual/en/ini.core.php#ini.open-basedir) is set to refuse connections to a directory specified by `sys_get_temp_dir`, the installation fails.
+
 
 ## Solution
 

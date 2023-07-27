@@ -2,6 +2,8 @@
 title: Adobe Commerce Recommendations for PHP Vulnerabilities
 description: On September 3, Multi-State Information Sharing and Analysis Center (MS-ISAC) has issued an alert related to multiple vulnerabilities that could allow for arbitrary code execution and a recommendation that all sites using PHP should update to the latest PHP version ASAP ([full alert is available here](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)).
 exl-id: 0bc7caab-0b89-463a-a7f2-a7c92df9f84e
+feature: Compliance, Recommendations
+role: Admin
 ---
 # Adobe Commerce Recommendations for PHP Vulnerabilities
 

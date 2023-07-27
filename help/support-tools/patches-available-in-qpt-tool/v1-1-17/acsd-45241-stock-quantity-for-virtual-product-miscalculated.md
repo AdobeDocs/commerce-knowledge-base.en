@@ -2,6 +2,8 @@
 title: "ACSD-45241: Virtual product's stock quantity miscalculated"
 description: The ACSD-45241 patch fixes the issue where the virtual product's stock quantity is miscalculated after creating a credit memo. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 is installed. The patch ID is ACSD-45241. Please note that the issue was fixed in Adobe Commerce 2.4.4.
 exl-id: 4be97da9-d399-419a-816e-cf65f15cc3be
+feature: Orders, Products
+role: Admin
 ---
 # ACSD-45241: Virtual product's stock quantity miscalculated
 

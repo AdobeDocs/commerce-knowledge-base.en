@@ -2,6 +2,8 @@
 title: 'MDVA-38468: Receive an error message when saving CMS page'
 description: 'The MDVA-38468 Adobe Commerce patch fixes the issue where users get the error message: *Item with the same ID "PAGE_ID" already exists,* when saving a CMS page. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.26 is installed. The patch ID is MDVA-38468. Please note that the issue was fixed in Adobe Commerce 2.3.6.'
 exl-id: 7fe80308-50b7-4786-a43c-cce607eb606c
+feature: CMS, Categories
+role: Admin
 ---
 # MDVA-38468: Receive an error message when saving CMS page
 

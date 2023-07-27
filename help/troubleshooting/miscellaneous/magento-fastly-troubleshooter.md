@@ -2,12 +2,14 @@
 title: Adobe Commerce Fastly troubleshooter
 description: This Fastly troubleshooter for Adobe Commerce users will guide you to the solutions, based on your response about the symptoms you see. Click on the questions to see the next options or answers.
 exl-id: c5c51b89-5a7d-49ba-a0ee-7abbaf78fdad
+feature: Support, Services
+role: Developer
 ---
 # Adobe Commerce Fastly troubleshooter
 
 This Fastly troubleshooter for Adobe Commerce users will guide you to the solutions, based on your response about the symptoms you see. Click on the questions to see the next options or answers.
 
-## Step 1 - Verify Fastly service
+## Step 1 - Verify Fastly service {#step-1}
 
 +++**Customer reports a problem involving Fastly. Is the Fastly service down?**
 
@@ -16,7 +18,7 @@ b. NO – Proceed to [Step 2](#step-2).
 
 +++
 
-## Step 2 - Check VCL configuration file
+## Step 2 - Check VCL configuration file {#step-2}
 
 +++**Do you have any errors when you run Backend Tester?**
 
@@ -27,7 +29,7 @@ b. NO – [Step 3](#step-3).
 
 +++
 
-## Step 3 - Check for image optimization error
+## Step 3 - Check for image optimization error {#step-3}
 
 +++**Image optimization error?**
 
@@ -36,7 +38,7 @@ b. NO – Check DNS by running in the CLI/terminal: `dig [your website.com] + sh
 
 +++
 
-## Step 4 - Verfy DNS
+## Step 4 - Verfy DNS {#step-4}
 
 +++**What happens when you run `dig`?**
 
@@ -52,7 +54,7 @@ b. NO – The issue is likely DNS related. The customer should [check DNS config
 
 +++
 
-## Step 5 - Confirm connection
+## Step 5 - Confirm connection {#step-5}
 
 +++**Do you get a "Connection Insecure" or "Not Secure" message returned when running `curl -svo /dev/null "https://website.com"` in the CLI/terminal?**
 
@@ -61,7 +63,7 @@ b. NO – Visit [http://fastly-debug.com](https://www.fastly-debug.com/) and sha
 
 +++
 
-## Step 6 - Confirm you have a valid TSL certificate
+## Step 6 - Confirm you have a valid TSL certificate {#step-6}
 
 +++**Is the certificate expired?**
 

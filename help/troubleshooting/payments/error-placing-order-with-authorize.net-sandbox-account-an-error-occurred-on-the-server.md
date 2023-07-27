@@ -2,6 +2,8 @@
 title: Error placing order with Authorize.net Sandbox account (An error occurred on the server)
 description: This article provides a fix for "*An error occurred on the server*" error message when placing an order using Authorize.Net Direct Post.
 exl-id: 764a550a-3373-483c-843d-d8c848dcee35
+feature: Compliance, Console, Customer Service, Orders, Payments
+role: Developer
 ---
 # Error placing order with Authorize.net Sandbox account (An error occurred on the server)
 

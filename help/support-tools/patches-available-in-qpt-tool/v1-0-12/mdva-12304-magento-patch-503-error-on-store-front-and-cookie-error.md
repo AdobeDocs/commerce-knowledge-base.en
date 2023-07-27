@@ -2,6 +2,8 @@
 title: 'MDVA-12304: 503 error on store front and cookie error'
 description: This MDVA-12304 Adobe Commerce patch solves 503 errors on store fronts, with *Unable to send the cookie. Maximum number of cookies would be exceeded.* error message in logs. This is a known Adobe Commerce 2.2.5 issue. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is installed.
 exl-id: b4b1a2f7-f328-488f-86b8-576b908792fb
+feature: Storefront
+role: Admin
 ---
 # MDVA-12304: 503 error on store front and cookie error
 

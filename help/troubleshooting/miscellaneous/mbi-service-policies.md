@@ -2,6 +2,8 @@
 title: Adobe Commerce Intelligence Service Policies
 description: At Commerce Intelligence, our goal is to provide stellar customer service, safeguard your data, and give you the know-how you need to make data-driven decisions.
 exl-id: 2e1ef4b3-a77c-4281-8337-fb90574a44f7
+feature: Commerce Intelligence, User Account
+role: Developer
 ---
 # Adobe Commerce Intelligence Service Policies
 

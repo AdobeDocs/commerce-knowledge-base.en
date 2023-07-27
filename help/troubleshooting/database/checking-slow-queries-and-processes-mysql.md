@@ -2,6 +2,8 @@
 title: Checking slow queries and processes MySQL
 description: This article talks about a couple of common MySQL issues (Slow queries, Processes taking too long) that can adversely affect a merchant's site and the solutions they indicate.
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
+feature: Services
+role: Developer
 ---
 # Checking slow queries and processes MySQL
 

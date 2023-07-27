@@ -2,6 +2,7 @@
 title: Two-Factor Authentication in Admin Panel on Adobe Commerce FAQ
 description: 1. **What’s Two-Factor Authentication on the Admin Panel? What’s changed?** Two-factor authentication (2FA) is an extra layer of security to verify your identity so only you can access your admin account, even if someone knows your password. Adobe added support for 2FA in the Commerce Admin Panel in 2.3.0 to protect the admin account from unauthorized access. In 2.4.0, 2FA is enabled by default on the Admin Panel and is required to be configured before logging into the Admin through either the UI or a web API. Adobe strongly recommends against disabling the 2FA module.
 exl-id: 77b57c11-fcde-4bc6-814e-45fa990cc491
+feature: Admin Workspace, Best Practices
 ---
 # Two-Factor Authentication in Admin Panel on Adobe Commerce FAQ
 

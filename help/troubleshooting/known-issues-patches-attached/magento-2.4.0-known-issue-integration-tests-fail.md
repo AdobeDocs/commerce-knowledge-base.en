@@ -2,6 +2,8 @@
 title: 'Adobe Commerce 2.4.0 known issue: integration tests fail'
 description: This article provides a patch for the Adobe Commerce 2.4.0 issue where integration tests are failing because the declaration of `Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp()` is not compatible with PHPUnit 9 which is used for 2.4.0.
 exl-id: 8e0ca2da-81d9-4561-a009-593240f46e41
+feature: Integration
+role: Developer
 ---
 # Adobe Commerce 2.4.0 known issue: integration tests fail
 

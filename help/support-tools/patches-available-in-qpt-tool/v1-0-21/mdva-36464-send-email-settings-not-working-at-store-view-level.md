@@ -2,6 +2,8 @@
 title: 'MDVA-36464: Send email settings not working at store-view level'
 description: The MDVA-36464 patch fixes the issue where send email settings are not working at the store-view level. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.21 is installed. The patch ID is MDVA-36464. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 exl-id: cdf7e208-90ee-4711-8407-026da42fe3c8
+feature: Communications
+role: Admin
 ---
 # MDVA-36464: Send email settings not working at store-view level
 

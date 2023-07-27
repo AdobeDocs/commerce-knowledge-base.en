@@ -2,6 +2,8 @@
 title: 'MDVA-28661: issue with company users management when changing admin email'
 description: The MDVA-28861 patch fixes the issue where the users get an error when changing the admin email. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.5 is installed. The Patch ID is MDVA-28861.
 exl-id: 2d6691e5-baaf-4cef-ae7e-2b6ccc7f2cd3
+feature: Admin Workspace, Communications, Companies
+role: Admin
 ---
 # MDVA-28661: issue with company users management when changing admin email
 

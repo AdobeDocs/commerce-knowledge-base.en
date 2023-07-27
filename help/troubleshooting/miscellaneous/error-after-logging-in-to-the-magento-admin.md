@@ -2,6 +2,8 @@
 title: Error after logging in to the Commerce Admin
 description: This article provides a solution for the issue where you receive an error message saying that the requested URL was not found on this server.
 exl-id: f52b383b-87f2-4216-9bf4-e765db31ca6b
+feature: Admin Workspace
+role: Developer
 ---
 # Error after logging in to the Commerce Admin
 

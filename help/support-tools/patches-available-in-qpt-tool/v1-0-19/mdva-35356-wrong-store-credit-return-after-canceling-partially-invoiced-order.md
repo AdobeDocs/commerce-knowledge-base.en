@@ -2,6 +2,8 @@
 title: 'MDVA-35356: Wrong store credit return after canceling partially invoiced order'
 description: The MDVA-35356 patch fixes the issue with incorrect store credit return after partially invoiced order cancellation. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-35356. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 exl-id: af37f318-0818-4393-b768-939f08b73847
+feature: Invoices, Orders, Returns
+role: Admin
 ---
 # MDVA-35356: Wrong store credit return after canceling partially invoiced order
 

@@ -2,6 +2,8 @@
 title: Bundle options order is not updated by import
 description: This article provides a solution for the issue when after importing products from a .csv file, the bundle product options appear in a different order than they are listed in the import file.
 exl-id: 7f7bf782-4b35-4067-aa94-417097079f1f
+feature: Data Import/Export
+role: Developer
 ---
 # Bundle options order is not updated by import
 

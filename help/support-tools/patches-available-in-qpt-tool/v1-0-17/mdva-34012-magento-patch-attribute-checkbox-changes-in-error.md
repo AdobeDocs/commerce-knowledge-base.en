@@ -2,6 +2,8 @@
 title: 'MDVA-34012 patch: attribute checkbox changes in error'
 description: The MDVA-34012 patch solves the issue where the checkbox for an attribute gets changed after a schedule update in error.
 exl-id: 1a8f1bea-9b6a-4984-b9f0-b2b9ceb6688f
+feature: Attributes
+role: Admin
 ---
 # MDVA-34012 patch: attribute checkbox changes in error
 
