@@ -1,16 +1,16 @@
 ---
-title: robots.txt gives 404 error Adobe Commerce on cloud infrastructure 2.3.x
-description: This article provides a fix for when the `robots.txt` file throws a 404 error in Adobe Commerce on cloud infrastructure 2.3.x.
+title: robots.txt gives 404 error Adobe Commerce on cloud infrastructure
+description: This article provides a fix for when the `robots.txt` file throws a 404 error in Adobe Commerce on cloud infrastructure.
 exl-id: 6f0b9f47-1901-4c43-88d8-fd992015d70f
 feature: Cloud, Marketing Tools
 ---
-# robots.txt gives 404 error Adobe Commerce on cloud infrastructure 2.3.x
+# robots.txt gives 404 error Adobe Commerce on cloud infrastructure
 
-This article provides a fix for when the `robots.txt` file throws a 404 error in Adobe Commerce on cloud infrastructure 2.3.x.
+This article provides a fix for when the `robots.txt` file throws a 404 error in Adobe Commerce on cloud infrastructure.
 
 ## Affected products and versions
 
-Adobe Commerce on cloud infrastructure versions 2.3.x
+Adobe Commerce on cloud infrastructure (all versions)
 
 ## Issue
 
@@ -26,7 +26,7 @@ The solution is to disable the Nginx rule which redirects `/robots.txt` requests
 
 If you do not have the self-service enabled (or not sure if it enabled), [submit a Magento Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting removal of the Nginx redirect rule from `/robots.txt` requests to `/media/robots.txt`.
 
-If you do have the self-service enabled, please upgrade ECE-Tools to at least 2002.0.12 and remove the Nginx redirect rule in your `.magento.app.yaml` file. You can refer to [Add site map and search engine robots](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in our developer documentation for more information.
+If you do have the self-service enabled, please upgrade ECE-Tools to at least 2002.0.12 and remove the Nginx redirect rule in your `.magento.app.yaml` file. You can refer to [Add site map and search engine robots](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) in our developer documentation for more information.
 
 ## Related Reading
 
