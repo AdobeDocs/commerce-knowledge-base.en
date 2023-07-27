@@ -2,7 +2,8 @@
 title: 'MDVA-33453: Page Builder preview breaks product price differs across sites'
 description: The MDVA-33453 patch solves the issue where the Page Builder preview is broken if matching products have a different price for each website. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.16 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 exl-id: 78a7f7d4-8691-4b5d-a900-1c9a6ec73486
-feature: CMS
+feature: "CMS, Orders, Page Builder, Products"
+role: Admin
 ---
 # MDVA-33453: Page Builder preview breaks product price differs across sites
 

@@ -2,7 +2,8 @@
 title: Deployment issues relating to account permissions and access keys
 description: This article provides a solution for issues with deploying Adobe Commerce on cloud infrastructure caused by access key ownership conflict.
 exl-id: e8d72ebe-453f-4d18-a25e-c76e685aa667
-feature: Deploy
+feature: "Deploy, Roles/Permissions"
+role: Developer
 ---
 # Deployment issues relating to account permissions and access keys
 

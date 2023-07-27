@@ -2,7 +2,8 @@
 title: 'Adobe Commerce 2.4.4: Unable to create partial invoices'
 description: This article provides a hotfix for the issue where users are not able to create partial invoices when using Apple Pay or Google Pay through Braintree as payment methods.
 exl-id: bf78cc07-9dc7-4eb8-bfdf-57ea5131effb
-feature: Invoices
+feature: "Invoices, Orders, Payments"
+role: Developer
 ---
 # Adobe Commerce 2.4.4: Unable to create partial invoices
 

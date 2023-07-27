@@ -2,7 +2,8 @@
 title: Enable cache to avoid performance degradation
 description: This article explains how to solve a slow site issue caused by certain Adobe Commerce cache types being disabled.
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
-feature: Cache
+feature: "Cache, Observability"
+role: Developer
 ---
 # Enable cache to avoid performance degradation
 

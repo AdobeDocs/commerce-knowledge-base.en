@@ -2,7 +2,8 @@
 title: 'MDVA-30977: missing products from categories, indexing related'
 description: The MDVA-30977 patch fixes the issues with products displayed on storefront category pages during reindex or mass actions with a big number of products. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.6 is installed. The issues are scheduled to be fixed in Adobe Commerce 2.4.2.
 exl-id: 66ec4f53-c01d-4f87-a175-84f44a26f5d3
-feature: Categories
+feature: "Categories, Products"
+role: Admin
 ---
 # MDVA-30977: missing products from categories, indexing related
 

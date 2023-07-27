@@ -3,6 +3,7 @@ title: 'ACSD-48313: [!UICONTROL configurable_variations] column not parsed if at
 description: Apply the ACSD-48313 patch to fix the Adobe Commerce issue where the [!UICONTROL configurable_variations] column is not parsed if the attribute value contains a comma.
 exl-id: 0ac3f8da-4da3-4308-bea4-98a5b6926b0d
 feature: Attributes, Configuration
+role: Admin
 ---
 # ACSD-48313: **[!UICONTROL configurable_variations]** column not parsed if attribute value contains comma
 

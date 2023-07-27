@@ -2,7 +2,8 @@
 title: 'MDVA-30845: checkout breaks connection to shipping provider fails'
 description: The MDVA-30845 patch fixes the issue where the *Sorry, no quotes are available for this order at this time* error is displayed when failing to connect to UPS XML/USPS/DHL during checkout, and no other shipping method is available. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.2.
 exl-id: 7be54213-1762-431b-bd3b-080c3d45f492
-feature: Checkout
+feature: "Checkout, Orders, Shipping/Delivery"
+role: Admin
 ---
 # MDVA-30845: checkout breaks connection to shipping provider fails
 

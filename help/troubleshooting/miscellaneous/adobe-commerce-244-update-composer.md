@@ -2,6 +2,8 @@
 title: Composer plugins issues when upgrading to Adobe Commerce 2.4.4
 description: This article provides a solution to avoid the issue with composer plugins when upgrading from Adobe Commerce 2.4.3 and earlier to Adobe Commerce 2.4.4 or higher (when future versions are released).
 exl-id: 7502ca9e-c307-4e8a-aa1d-4886e7be25da
+feature: Upgrade
+role: Developer
 ---
 # Composer plugins issues when upgrading to Adobe Commerce 2.4.4
 

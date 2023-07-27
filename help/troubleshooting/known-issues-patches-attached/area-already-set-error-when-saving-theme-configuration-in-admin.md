@@ -2,7 +2,8 @@
 title: '"Area already set" error when saving theme configuration in Admin'
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to getting the *"Area is already set"* error message when trying to set a theme for the Default Store View in the Commerce Admin.
 exl-id: c4e34a73-b774-4447-ba8e-aaf208ad54c5
-feature: Admin Workspace, Configuration
+feature: "Admin Workspace, Configuration, Themes"
+role: Developer
 ---
 # "Area already set" error when saving theme configuration in Admin
 

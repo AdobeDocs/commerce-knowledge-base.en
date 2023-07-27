@@ -2,6 +2,8 @@
 title: 'ACSD-46856: Improves performance when updating tier prices'
 description: Apply the ACSD-46856 patch to improve performance when updating tier prices via System &gt; Configuration &gt; Import &gt; Advanced Pricing.
 exl-id: c08560ef-94fa-4be4-9c59-d4b1b5e4186f
+feature: Orders
+role: Admin
 ---
 # ACSD-46856: Updating of tier prices via System > Configuration > Import > Advanced Pricing is slow
 

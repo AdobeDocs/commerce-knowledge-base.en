@@ -2,7 +2,8 @@
 title: 'MDVA-43601: Triggers are removed from "catalogrule_product_price" table after full reindex'
 description: The MDVA-43601 patch fixes the issue where triggers are removed from `catalogrule_product_price` table after a full reindex of `catalogrule_rule` or `catalogrule_product`. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 is installed. The patch ID is MDVA-43601. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 exl-id: fdef1e56-79ec-455a-8a29-b82f1c8ceea7
-feature: Catalogs
+feature: "Catalogs, Orders, Products"
+role: Admin
 ---
 # MDVA-43601: Triggers are removed from "catalogrule_product_price" table after full reindex
 

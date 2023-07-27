@@ -2,6 +2,8 @@
 title: Cannot delete the source or change its code
 description: This article provides a fix for when you can not completely remove a source and/or change its code.
 exl-id: dbdb4d62-9138-4a3d-a58f-8671f1dc5b42
+feature: Console
+role: Developer
 ---
 # Cannot delete the source or change its code
 

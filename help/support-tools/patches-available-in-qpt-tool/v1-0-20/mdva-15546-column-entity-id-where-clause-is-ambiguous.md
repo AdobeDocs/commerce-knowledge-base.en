@@ -3,6 +3,7 @@ title: "MDVA-15546: Column 'entity_id' where clause is ambiguous"
 description: "The MDVA-15546 patch solves performance issues that may be related to some Amazon extensions. This issue in indicated by the following error in exception logs: *where*   *Column 'entity\\_id' in where clause is ambiguous, query was: SELECT \\`main\\_table\\`.\\*, \\`extension\\_attribute\\_amazon\\_order\\_reference\\_id* \\`. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-15546."
 exl-id: d58c1728-eb7a-49e8-a329-3197f2339b9c
 feature: B2B, Commerce Intelligence
+role: Admin
 ---
 # MDVA-15546: Column 'entity_id' where clause is ambiguous
 

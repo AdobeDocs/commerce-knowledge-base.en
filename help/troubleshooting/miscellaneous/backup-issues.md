@@ -2,6 +2,8 @@
 title: Backup issues
 description: This article lists the possible solutions for the backup creation issues.
 exl-id: 1a6204ad-bd5a-46dc-8a8e-39655a174e09
+feature: "Storage, Data Import/Export"
+role: Developer
 ---
 # Backup issues
 

@@ -2,7 +2,8 @@
 title: Former team members receive Adobe Commerce cloud notification emails
 description: This article provides a solution to Adobe Commerce on cloud infrastructure notification emails being sent to former team members.
 exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
-feature: Cloud, Communications
+feature: "Cloud, Communications, Paas"
+role: Developer
 ---
 # Former team members receive Adobe Commerce cloud notification emails
 

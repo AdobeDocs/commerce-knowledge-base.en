@@ -3,6 +3,7 @@ title: Invalidated cache causes response time degradation
 description: This article provides a solution on how to avoid cache invalidation, which might cause the slow performance of an Adobe Commerce store.
 exl-id: 7cb6a39f-923b-4acc-965d-23cf7b52c25a
 feature: Cache, Catalogs, Categories
+role: Developer
 ---
 # Invalidated cache causes response time degradation
 

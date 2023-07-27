@@ -2,6 +2,8 @@
 title: Shipping labels creation known issue in Adobe Commerce 2.4.0
 description: This article provides a patch for a known Adobe Commerce 2.4.0 issue, where a shipping label cannot be created.
 exl-id: 722689d9-0c90-4a9d-8449-e93c6585b7c3
+feature: "Orders, Shipping/Delivery"
+role: Developer
 ---
 # Shipping labels creation known issue in Adobe Commerce 2.4.0
 

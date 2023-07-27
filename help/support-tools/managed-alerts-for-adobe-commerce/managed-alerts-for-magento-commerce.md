@@ -2,6 +2,8 @@
 title: Managed alerts for Adobe Commerce
 description: If you are an Adobe Commerce on cloud infrastructure Pro plan architecture customer, you can use managed alerts to understand the health of your site. If you are an Adobe Commerce on cloud infrastructure Starter plan architecture customer, you will only receive alerts for the Apdex and error rate conditions.
 exl-id: 4d08eaad-a3ce-4f6c-9c32-58e44e1d6534
+feature: "Observability, Support, Tools and External Services"
+role: Admin
 ---
 # Managed alerts for Adobe Commerce
 

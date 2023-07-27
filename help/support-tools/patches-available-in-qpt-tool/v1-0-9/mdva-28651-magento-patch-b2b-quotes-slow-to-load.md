@@ -2,7 +2,8 @@
 title: 'MDVA-28651: B2B -  quotes slow to load'
 description: The MDVA-28651 patch solves the issue where several performance problems occur with loading quotes. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.9 is installed. Please note that the issue was scheduled to be fixed in Adobe Commerce version 2.4.2.
 exl-id: 2d0bfbba-cdf3-4f9e-a900-ce42909fac8e
-feature: B2B
+feature: "B2B, Quotes"
+role: Admin
 ---
 # MDVA-28651: B2B -  quotes slow to load
 

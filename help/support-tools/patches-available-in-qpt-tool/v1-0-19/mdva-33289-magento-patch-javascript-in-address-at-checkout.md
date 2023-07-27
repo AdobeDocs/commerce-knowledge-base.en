@@ -2,7 +2,8 @@
 title: 'MDVA-33289 patch: Javascript in address at checkout'
 description: The MDVA-33289 patch fixes the problem where Javascript shows in address at payment. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-33289. Please note that the issue was scheduled to be fixed in Adobe Commerce 2.4.3.
 exl-id: 247e4f05-7e89-4d37-b3d4-c2cae7595267
-feature: Checkout, Marketing Tools
+feature: "Checkout, Marketing Tools, Orders, Shipping/Delivery"
+role: Admin
 ---
 # MDVA-33289 patch: Javascript in address at checkout
 

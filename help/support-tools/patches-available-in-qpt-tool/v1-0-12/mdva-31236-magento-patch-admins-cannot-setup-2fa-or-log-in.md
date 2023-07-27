@@ -3,6 +3,7 @@ title: 'MDVA-31236: admins cannot setup 2FA or log in'
 description: The MDVA-31236 patch fixes the issue where the Commerce admin users with custom resource access cannot set up [two-factor authentication (2FA)](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html) or log in. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is installed.
 exl-id: b75d7a19-3c17-4389-b359-7aeeb8797539
 feature: Admin Workspace
+role: Admin
 ---
 # MDVA-31236: admins cannot setup 2FA or log in
 

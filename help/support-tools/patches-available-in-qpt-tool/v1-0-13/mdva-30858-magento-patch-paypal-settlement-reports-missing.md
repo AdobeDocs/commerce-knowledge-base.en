@@ -2,6 +2,8 @@
 title: 'MDVA-30858: PayPal Settlement reports missing'
 description: "The MDVA-30858 patch fixes missing PayPal Settlement Reports when having multiple PayPal accounts. The reports should be available under Admin sidebar &gt; **Reports** &gt; Sales &gt; **PayPal Settlement**. Instead, the message: *We couldn't find any records.* displays. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.13 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2."
 exl-id: 268aa74c-5cb5-4653-a6c9-1d4c30167e6a
+feature: "Orders, Payments"
+role: Admin
 ---
 # MDVA-30858: PayPal Settlement reports missing
 

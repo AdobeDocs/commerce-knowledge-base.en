@@ -2,6 +2,8 @@
 title: Cannot access the latest Adobe Commerce pre-release
 description: This article provides solutions for issues when trying to utilize the latest pre-release code of Adobe Commerce.
 exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
+feature: Roles/Permissions
+role: Developer
 ---
 # Cannot access the latest Adobe Commerce pre-release
 

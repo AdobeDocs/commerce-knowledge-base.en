@@ -3,6 +3,7 @@ title: 'MDVA-35847: Company User form not working'
 description: The MDVA-35847 patch solves the issue of the Company User form not working and returning a 500 error on the front end. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-35847. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 exl-id: 1a3f4a61-0c21-460a-ae48-e792d03ed805
 feature: B2B, Companies
+role: Admin
 ---
 # MDVA-35847: Company User form not working
 

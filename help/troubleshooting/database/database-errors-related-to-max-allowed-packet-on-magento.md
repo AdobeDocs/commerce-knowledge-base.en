@@ -2,7 +2,8 @@
 title: Database errors related to max_allowed_packet on Adobe Commerce
 description: This article provides a solution for database connection errors in the `var/log/exception.log` that may occur when importing a large number of products or performing another task that forces the server to handle bigger packets than set in `max_allowed_packet` that is larger than the default, 16MB.
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
-feature: Best Practices
+feature: "Best Practices, Observability, Services"
+role: Developer
 ---
 # Database errors related to max_allowed_packet on Adobe Commerce
 

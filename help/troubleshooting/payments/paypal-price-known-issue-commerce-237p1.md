@@ -2,6 +2,8 @@
 title: 'Adobe Commerce 2.3.7-p1 known issue: outdated order total for PayPal'
 description: 'This article provides a patch for a known issue in Adobe Commerce 2.3.7-p1: when using PayPal Checkout more than once customers get the previously ordered product in cart, instead of the new one they are trying to order.'
 exl-id: ceb8f7ad-0cf7-4d42-aded-25d1dd947f5b
+feature: "Orders, Payments"
+role: Developer
 ---
 # Adobe Commerce 2.3.7-p1 known issue: outdated order total for PayPal
 

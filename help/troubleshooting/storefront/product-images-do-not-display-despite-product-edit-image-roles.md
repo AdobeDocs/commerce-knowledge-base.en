@@ -2,7 +2,8 @@
 title: Product images do not display despite Product Edit image roles
 description: This article provides a fix for when product images do not display on your storefront, despite image roles set on the Product Edit page.
 exl-id: 456baa5a-fa16-4bc1-9d6c-54106fae58ca
-feature: Cache
+feature: "Cache, Products, Roles/Permissions, Storefront"
+role: Admin
 ---
 # Product images do not display despite Product Edit image roles
 

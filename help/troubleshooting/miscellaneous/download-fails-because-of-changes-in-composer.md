@@ -2,6 +2,8 @@
 title: Download fails because of changes in Composer
 description: This article provides a fix for a failed Adobe Commerce download and exception error.
 exl-id: 5abdab97-4b0c-466b-a68f-a2637d2826e5
+feature: Configuration
+role: Developer
 ---
 # Download fails because of changes in Composer
 

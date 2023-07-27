@@ -2,7 +2,8 @@
 title: ECE-Tools and patch update errors Adobe Commerce cloud infrastructure 2.2.x., 2.3.x
 description: This article provides a solution for the issue where you see error messages including "*failed to open stream:*" or "*No such file or directory*" when trying to deploy updates to ECE-Tools, patches or other changes.
 exl-id: b1658001-0ffd-4f8a-a15f-d785efcee51f
-feature: Cloud
+feature: "Cloud, Paas"
+role: Developer
 ---
 # ECE-Tools and patch update errors Adobe Commerce cloud infrastructure 2.2.x., 2.3.x
 

@@ -2,7 +2,8 @@
 title: The Security Scan Tool report is blank
 description: This article provides a fix for the issue where the Security Scan Tool shows a blank page instead of the actual report. To resolve it, you might need to add the IPs used by the Tool to the firewall AllowList.
 exl-id: e5f7f8c6-2dd3-44e3-8d19-f1f38d06dd6c
-feature: Compliance
+feature: "Compliance, Security"
+role: Developer
 ---
 # The Security Scan Tool report is blank
 

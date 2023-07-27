@@ -2,7 +2,8 @@
 title: Scheduled Content Staging updates not displayed with stale Fastly cache
 description: This article provides a fix for when Adobe Commerce stores do not display scheduled updates when using Content Staging and Fastly. The issue is due to default enabled Fastly Soft Purge. This feature reduces application resource load and only regenerates a fresh cache on a second request. To resolve, you can enable Purge CMS page through the Commerce Admin to always regenerate and serve fresh content.
 exl-id: becbffaa-b6dd-4e9b-894e-17901c40223a
-feature: CMS, Cache
+feature: "CMS, Cache, Page Content, Staging"
+role: Developer
 ---
 # Scheduled Content Staging updates not displayed with stale Fastly cache
 

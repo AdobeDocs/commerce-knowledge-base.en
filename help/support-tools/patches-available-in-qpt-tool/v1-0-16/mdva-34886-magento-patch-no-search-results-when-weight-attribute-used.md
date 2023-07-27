@@ -2,7 +2,8 @@
 title: 'MDVA-34886: no search results when “weight” attribute used'
 description: The MDVA-34886 patch solves the issue where search does return results when the weight attribute is configured as searchable. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.16 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 exl-id: e6f33772-0167-4a54-9d62-0ab89edb5d1d
-feature: Attributes, Cache
+feature: "Attributes, Cache, Search"
+role: Admin
 ---
 # MDVA-34886: no search results when “weight” attribute used
 

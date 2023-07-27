@@ -2,6 +2,8 @@
 title: PayPal troubleshooting on Adobe Commerce
 description: This article provides solutions for issues with processing payments via PayPal, especially the PayFlow Pro solution. Some recommendations in this article may seem obvious. We ask you to attempt the troubleshooting options listed in this knowledge base and include all information in any tickets you enter. Adobe Commerce or PayPal Support Engineers will ask you to perform these steps when diagnosing your issues.
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
+feature: "Orders, Payments"
+role: Developer
 ---
 # PayPal troubleshooting on Adobe Commerce
 

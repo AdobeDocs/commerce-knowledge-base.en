@@ -2,7 +2,8 @@
 title: Adobe Commerce 2.4.0 installation fails with outdated stores cache
 description: "This article provides a solution for the issue where your Adobe Commerce 2.4.0 installation fails with the error message: *The default website isn't defined. Set the website and try again.* displayed in the console."
 exl-id: 0680199b-7e47-4a8c-91fe-9f6c32839a0e
-feature: B2B, Cache, Console, Install
+feature: "B2B, Cache, Console, Install, Upgrade"
+role: Developer
 ---
 # Adobe Commerce 2.4.0 installation fails with outdated stores cache
 

@@ -1,6 +1,8 @@
 ---
 title: "ACSD-51204: Product does not return back in stock after creating the credit memo"
 description: Apply the ACSD-51204 patch to fix the Adobe Commerce issue where the product does not return back in stock after creating the credit memo.
+feature: "Orders, Products, Returns"
+role: Admin
 ---
 # ACSD-51204: Product does not return back in stock after creating the credit memo
 

@@ -2,7 +2,8 @@
 title: Admin can't create order/reorder when Braintree payment enabled
 description: This article provides a patch for the Adobe Commerce 2.4.5 issue where an Admin user can't create orders nor reorders for customers when the Braintree payment method is enabled.
 exl-id: 8840aecb-21d9-4965-8c09-395e2d263aaa
-feature: Admin Workspace
+feature: "Admin Workspace, Native Luma Frontend Development, Orders, Payments"
+role: Developer
 ---
 # Admin can't create order/reorder when Braintree payment enabled
 

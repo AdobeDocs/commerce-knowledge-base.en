@@ -2,7 +2,8 @@
 title: "MDVA-22026: Can't import product images from external URL"
 description: The MDVA-22026 patch fixes the issue of being unable to import product images from an external URL.
 exl-id: 29043c6c-daf2-4925-85bf-49eeeee3742c
-feature: Data Import/Export
+feature: "Data Import/Export, Products"
+role: Admin
 ---
 # MDVA-22026: Can't import product images from external URL
 

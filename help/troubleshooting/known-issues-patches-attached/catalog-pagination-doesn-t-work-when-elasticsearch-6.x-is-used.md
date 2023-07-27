@@ -2,7 +2,8 @@
 title: Catalog pagination doesn't work with Elasticsearch 6.x
 description: This article provides a patch for the Adobe Commerce issue where catalog pagination doesn't work on Elasticsearch 6.x.
 exl-id: 60a423de-cf3a-4d73-a7cf-b6d9e95042ca
-feature: Catalogs, Categories
+feature: "Catalogs, Categories, Search, Services"
+role: Developer
 ---
 # Catalog pagination doesn't work with Elasticsearch 6.x
 

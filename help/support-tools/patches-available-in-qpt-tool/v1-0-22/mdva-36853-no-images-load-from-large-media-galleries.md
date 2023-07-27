@@ -2,7 +2,8 @@
 title: 'MDVA-36853: No images load from large media galleries'
 description: The MDVA-36853 patch fixes the issue when no images load since the page builder media gallery widget doesn't load when you have a large media directory.
 exl-id: 64e089d9-d443-4aa7-8e04-a3598b05958d
-feature: CMS, Cache
+feature: "CMS, Cache, Media"
+role: Admin
 ---
 # MDVA-36853: No images load from large media galleries
 

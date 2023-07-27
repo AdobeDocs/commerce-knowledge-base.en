@@ -2,7 +2,8 @@
 title: 'MDVA-40134: GraphQL not returning related products when shared catalog is enabled'
 description: The MDVA-40134 patch fixes the issue where GraphQL does not return related products when the shared catalog is enabled. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is installed. The patch ID is MDVA-40134. Please note that the issue was fixed in Adobe Commerce 2.4.3.
 exl-id: 7b14355a-1c14-4c80-9426-6c40505d638b
-feature: B2B, Catalogs, GraphQL
+feature: "B2B, Catalogs, GraphQL, Products"
+role: Admin
 ---
 # MDVA-40134: GraphQL not returning related products when shared catalog is enabled
 

@@ -2,7 +2,8 @@
 title: 'MDVA-41305: Error on GraphQL Query addProductsToWishlist for Configurable Products'
 description: The MDVA-41305 patch solves the issue where users get an error on GraphQL query `addProductsToWishlist` for configurable products. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 is installed. The patch ID is MDVA-41305. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 exl-id: 97d4ee1c-19af-46c0-96b2-c2765899ed83
-feature: GraphQL, Configuration
+feature: "GraphQL, Configuration, Products"
+role: Admin
 ---
 # MDVA-41305: Error on GraphQL Query addProductsToWishlist for Configurable Products
 

@@ -2,6 +2,8 @@
 title: Data Migration Tool troubleshooting
 description: This article provides solutions for errors that might occur when you run the Data Migration Tool.
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
+feature: Data Import/Export
+role: Developer
 ---
 # Data Migration Tool troubleshooting
 

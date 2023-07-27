@@ -2,7 +2,8 @@
 title: 'MDVA-31021: slow import and export if many product options'
 description: The MDVA-31021 patch solves the issue when Import/Export takes longer than expected with large numbers of product options. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed.
 exl-id: d294b30d-b734-4bd6-bf1a-c116b789a63c
-feature: Data Import/Export
+feature: "Data Import/Export, Products"
+role: Admin
 ---
 # MDVA-31021: slow import and export if many product options
 

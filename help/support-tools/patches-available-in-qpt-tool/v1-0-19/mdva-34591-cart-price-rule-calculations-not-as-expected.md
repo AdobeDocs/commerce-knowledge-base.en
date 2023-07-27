@@ -2,6 +2,8 @@
 title: 'MDVA-34591: Cart price rule calculations not as expected'
 description: The MDVA-34591 patch fixes the issue where the cart price rule with **Maximum Qty Discount is Applied To** does not work correctly if multiple cart price rules are applied. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-34591. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 exl-id: 1fa196bb-aab1-4364-a1b0-7c31d6d27d6d
+feature: "Orders, Price Rules, Shopping Cart"
+role: Admin
 ---
 # MDVA-34591: Cart price rule calculations not as expected
 

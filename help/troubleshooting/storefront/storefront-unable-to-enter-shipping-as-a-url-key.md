@@ -2,7 +2,8 @@
 title: Cannot save "shipping" as URL key
 description: This article provides a workaround for the issue when you are not able to save "shipping" as a URL key (e.g., "/shipping") for products or CMS pages. When you try to save the URL key, you receive an error that indicates that the URL key is a duplicate URL.
 exl-id: df19b597-f615-4b19-82c1-59cc179fa720
-feature: Marketing Tools
+feature: "Marketing Tools, Shipping/Delivery, Storefront"
+role: Admin
 ---
 # Cannot save "shipping" as URL key
 

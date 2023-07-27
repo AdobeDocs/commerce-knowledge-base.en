@@ -2,6 +2,8 @@
 title: File storage low, specific page loads are slow
 description: This article provides a solution for the issue of low disk space caused by large, rich images.
 exl-id: 640c8f0d-f714-4cc1-a401-9264cfaf8e37
+feature: "Storage, Observability"
+role: Developer
 ---
 # File storage low, specific page loads are slow
 

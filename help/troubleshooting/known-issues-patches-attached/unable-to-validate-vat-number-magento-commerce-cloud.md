@@ -2,7 +2,8 @@
 title: Unable to validate VAT number - Adobe Commerce on cloud infrastructure
 description: This article provides a patch for the issue where there is an error during VAT number verification.
 exl-id: 9868e888-bad8-4823-acab-4b3804933cb0
-feature: Cloud, Customer Service
+feature: "Cloud, Customer Service, Paas"
+role: Developer
 ---
 # Unable to validate VAT number - Adobe Commerce on cloud infrastructure
 

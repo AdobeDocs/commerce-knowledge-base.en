@@ -2,7 +2,8 @@
 title: Error 404 on all pages due to Content Staging issue
 description: This article provides a fix for the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure issue where you get a 404 error when accessing any storefront page or the Commerce Admin.
 exl-id: 62d8ba6e-8550-4e1e-8e8d-8f319c92778a
-feature: CMS, Catalogs, Categories
+feature: "CMS, Catalogs, Categories, Page Content, Staging"
+role: Developer
 ---
 # Error 404 on all pages due to Content Staging issue
 

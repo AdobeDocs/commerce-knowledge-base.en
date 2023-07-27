@@ -2,7 +2,8 @@
 title: PayPal gateway rejected request - duplicate invoice issue
 description: This article provides a fix for the PayPal gateway rejected request - duplicate invoice issue.
 exl-id: b6c4ede1-97a5-4db3-9b05-ab979cf809b3
-feature: Invoices
+feature: "Invoices, Orders, Payments"
+role: Developer
 ---
 # PayPal gateway rejected request - duplicate invoice issue
 

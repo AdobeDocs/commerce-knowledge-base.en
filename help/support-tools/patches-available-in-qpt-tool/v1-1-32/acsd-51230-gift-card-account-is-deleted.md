@@ -3,6 +3,7 @@ title: 'ACSD-51230: Gift card account is deleted'
 description: Apply the ACSD-51230 patch to fix the Adobe Commerce issue where the gift card account is deleted when the partial refund of a simple product is processed from an order.
 exl-id: d57a73b0-66d3-45ef-b00a-2c1f9fbc7043
 feature: Customer Service, Gift, Marketing Tools
+role: Admin
 ---
 # ACSD-51230: Gift card account is deleted 
 

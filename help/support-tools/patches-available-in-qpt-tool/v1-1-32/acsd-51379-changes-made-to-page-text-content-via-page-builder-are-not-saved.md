@@ -2,6 +2,8 @@
 title: "ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved"
 description: Apply the ACSD-51379 patch to fix the Adobe Commerce issue where the changes made to a page's text content via [!DNL Page Builder] are not saved.
 exl-id: 1ac18719-b1e6-464f-9e82-053bef53d745
+feature: "Page Builder, Page Content"
+role: Admin
 ---
 # ACSD-51379: Changes to page's text content via [!DNL Page Builder] aren't saved
 

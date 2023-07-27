@@ -2,6 +2,8 @@
 title: 'MDVA-32655: "quoteItemCleaner" consumer executes one message per execution'
 description: The MDVA-32655 patch fixes the incorrect "in progress" message status to the correct "complete" message for consumer `quoteItemCleaner` after deleting several products. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.18 is installed. The patch ID is 32655. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 exl-id: 07213430-f779-4a53-89fd-bc3905e13675
+feature: Quotes
+role: Admin
 ---
 # MDVA-32655: "quoteItemCleaner" consumer executes one message per execution
 

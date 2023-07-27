@@ -3,6 +3,7 @@ title: 'MDVA-34847: customer_grid_flat table slow queries'
 description: The MDVA-34847 patch solves the issue where slow queries occur on the `customer_grid_flat` table. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.16 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 exl-id: e91cb86d-83cd-4267-a132-64465a57da7f
 feature: Categories
+role: Admin
 ---
 # MDVA-34847: customer_grid_flat table slow queries
 

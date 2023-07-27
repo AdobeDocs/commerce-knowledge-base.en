@@ -2,7 +2,8 @@
 title: Advanced Reporting troubleshooter for Adobe Commerce
 description: Advanced Reporting issues on Adobe Commerce can be solved using this troubleshooter tool. This includes Advanced Reporting not showing any data and 404 errors. Click on each question to reveal the answer in each step of the troubleshooter.
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
-feature: Cache
+feature: "Cache, Support"
+role: Developer
 ---
 # Advanced Reporting troubleshooter for Adobe Commerce
 

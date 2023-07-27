@@ -2,7 +2,8 @@
 title: 'ACSD-47803: out-of-stock configurable product swatches displayed as available'
 description: Apply the ACSD-47803 patch to fix the Adobe Commerce issue where out-of-stock configurable product swatches displayed as available.
 exl-id: 28b3f378-a790-4af6-9627-5bd8571523fd
-feature: Configuration
+feature: "Configuration, Orders, Products"
+role: Admin
 ---
 # ACSD-47803: out-of-stock configurable product swatches displayed as available
 
