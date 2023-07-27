@@ -2,7 +2,8 @@
 title: During installation, Reflection Exception error
 description: This article provides a solution for the Reflection Exception error during installation.
 exl-id: aed5f297-1339-4171-9392-04b3f93277ee
-feature: Install
+feature: Install, Upgrade
+role: Developer
 ---
 # During installation, Reflection Exception error
 

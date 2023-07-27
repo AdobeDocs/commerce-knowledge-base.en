@@ -2,7 +2,8 @@
 title: 'MDVA-28763: issues with managing product images via REST API'
 description: The MDVA-28763 patch solves multiple issues related to managing the media gallery using REST API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.5 is installed. The issues are scheduled to be fixed in later Adobe Commerce versions.
 exl-id: 736fbfa8-b6a3-413c-a220-fd772d87ed04
-feature: REST
+feature: REST, Products
+role: Admin
 ---
 # MDVA-28763: issues with managing product images via REST API
 

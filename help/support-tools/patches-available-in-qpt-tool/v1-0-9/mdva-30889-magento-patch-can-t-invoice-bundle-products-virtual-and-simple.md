@@ -2,7 +2,8 @@
 title: "MDVA-30889: Can't invoice bundle products virtual and simple"
 description: The MDVA-30889 patch solves the issue where an error occurs after invoicing a bundle product with both virtual and simple options. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 7e6555c5-9088-4c85-920d-20c841ad6675
-feature: Invoices
+feature: Invoices, Products
+role: Admin
 ---
 # MDVA-30889: Can't invoice bundle products virtual and simple
 

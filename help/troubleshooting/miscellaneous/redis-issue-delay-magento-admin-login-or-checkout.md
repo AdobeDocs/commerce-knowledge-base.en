@@ -2,7 +2,8 @@
 title: Redis issue delay Commerce Admin login or checkout
 description: This article provides a fix for the issue when logging in to the Commerce Admin or opening the checkout page causes lag or timeout (over 30 seconds). The issue occurs when Redis is used for session storage.
 exl-id: a91a7a51-7cc4-4910-a9de-3a212788663f
-feature: Admin Workspace, Checkout
+feature: Admin Workspace, Checkout, Orders, Services
+role: Developer
 ---
 # Redis issue delay Commerce Admin login or checkout
 

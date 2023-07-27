@@ -2,6 +2,8 @@
 title: Adobe SSL/TLS certificate requirements and clean up
 description: 'For the most relevant information about SSL/TLS certificates provided for Adobe Commerce on cloud infrastructure, refer to the following articles:'
 exl-id: b76381e9-e9c9-4039-a275-ce56e5259130
+feature: Communications
+role: Admin
 ---
 # Adobe SSL/TLS certificate requirements and clean up
 

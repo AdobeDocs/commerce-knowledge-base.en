@@ -2,7 +2,8 @@
 title: After installing, images and stylesheets do not load; only text displays, no graphics
 description: This article describes the possible reasons and solutions for the issue where stylesheets and images do not load after installing Adobe Commerce.
 exl-id: f33cee89-b416-4d63-8cc5-9cc57618ce92
-feature: Install
+feature: Install, Storefront
+role: Admin
 ---
 # After installing, images and stylesheets do not load; only text displays, no graphics
 

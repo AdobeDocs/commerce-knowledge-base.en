@@ -2,7 +2,8 @@
 title: Empty shopping cart issue when multiple click on checkout from mini cart
 description: This article provides a patch for a known Adobe Commerce 2.2.3 issue related to a shopping cart being empty after customers click **Go to Checkout** multiple times in the mini shopping cart.
 exl-id: 06b82c91-8998-4e7b-9fc0-671c9b2a2d3f
-feature: Checkout
+feature: Checkout, Orders, Shopping Cart
+role: Developer
 ---
 # Empty shopping cart issue when multiple click on checkout from mini cart
 

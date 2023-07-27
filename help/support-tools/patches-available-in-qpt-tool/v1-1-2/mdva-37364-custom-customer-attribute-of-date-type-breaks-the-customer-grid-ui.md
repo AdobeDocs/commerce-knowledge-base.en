@@ -3,6 +3,7 @@ title: 'MDVA-37364: Custom customer attribute of date type breaks Grid UI'
 description: The MDVA-37364 patch solves the issue where the custom customer attribute of date type breaks the Customer Grid UI. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 is installed. The patch ID is MDVA-37364. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.
 exl-id: d25baabf-45eb-403c-9f88-9c2448cc7b49
 feature: Attributes, Cache
+role: Developer
 ---
 # MDVA-37364: Custom customer attribute of date type breaks Grid UI
 

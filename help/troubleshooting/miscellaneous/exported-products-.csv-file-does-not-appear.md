@@ -2,7 +2,8 @@
 title: Exported products .csv file does not appear
 description: This article provides a fix for the issue where you try to export products to a .csv file in the Commerce Admin, but the file does not appear.
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
-feature: Cache, Data Import/Export
+feature: Cache, Data Import/Export, Products, Variables
+role: Developer
 ---
 # Exported products .csv file does not appear
 

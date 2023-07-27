@@ -2,6 +2,8 @@
 title: Checking for DDoS attack from CLI
 description: This article talks about the issue of how to try to check for Distributed Denial of Service (DDoS) attacks from your server's Command Line Interface (CLI).
 exl-id: dfdef289-cf51-42d7-b3fb-d4d2d3760951
+feature: Observability
+role: Developer
 ---
 # Checking for DDoS attack from CLI
 

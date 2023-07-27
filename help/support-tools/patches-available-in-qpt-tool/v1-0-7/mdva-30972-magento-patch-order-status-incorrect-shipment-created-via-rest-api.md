@@ -2,7 +2,8 @@
 title: 'MDVA-30972: order status incorrect shipment created via REST API'
 description: The MDVA-30972 patch solves the issue where the order status is changed incorrectly during shipment creation via REST API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed.
 exl-id: 70b8db1f-16d0-48f4-b0a2-483a7176cb89
-feature: REST
+feature: REST, Orders, Shipping/Delivery
+role: Admin
 ---
 # MDVA-30972: order status incorrect shipment created via REST API
 

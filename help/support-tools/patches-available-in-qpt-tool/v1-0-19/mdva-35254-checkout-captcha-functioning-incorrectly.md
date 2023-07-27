@@ -2,7 +2,8 @@
 title: 'MDVA-35254: Checkout CAPTCHA functioning incorrectly'
 description: The MDVA-35254 patch fixes the issue with CAPTCHA fields not displaying after an unsuccessful number of attempts in checkout for third-party payment. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-35254. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 exl-id: 226c672b-3740-4a87-9ea1-66892acb9fe2
-feature: Checkout
+feature: Checkout, Orders
+role: Admin
 ---
 # MDVA-35254: Checkout CAPTCHA functioning incorrectly
 

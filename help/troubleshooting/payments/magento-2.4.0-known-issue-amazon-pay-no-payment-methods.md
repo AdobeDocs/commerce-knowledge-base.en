@@ -2,7 +2,8 @@
 title: 'Adobe Commerce 2.4.0 known issue: Amazon pay, no payment methods'
 description: This article provides a solution for an Adobe Commerce 2.4.0 known issue where payment methods are missing when customers use **Return to standard checkout**, after they enabled Amazon pay.
 exl-id: efd792c7-8970-4366-b9d1-4bf284ea96db
-feature: B2B
+feature: B2B, Orders, Payments
+role: Developer
 ---
 # Adobe Commerce 2.4.0 known issue: Amazon pay, no payment methods
 

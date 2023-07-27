@@ -2,6 +2,8 @@
 title: 'Adobe Commerce 2.4.0 issue: storefront raw message data display'
 description: This article provides a solution for the issue when all error messages on the storefront display with a "+" sign instead of a space. This solution helps error messages remain readable.
 exl-id: f44fe434-a320-4e7e-a876-9575921749f3
+feature: Storefront
+role: Admin
 ---
 # Adobe Commerce 2.4.0 issue: storefront raw message data display
 

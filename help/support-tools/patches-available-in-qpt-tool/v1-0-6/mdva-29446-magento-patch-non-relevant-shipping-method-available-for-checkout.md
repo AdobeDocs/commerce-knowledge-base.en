@@ -2,7 +2,8 @@
 title: 'MDVA-29446: Non-relevant shipping method available for checkout'
 description: The MDVA-29446 patch solves the issue where a shipping method that is not applicable shows up on the checkout shipping method options, and if selected, an error message "*Carrier with such method not found null, flat rate*." displays. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.6 is installed. The issue is scheduled to be fixed in later Adobe Commerce versions.
 exl-id: 74de5ec4-1f57-4d63-8fbc-614b23783ee3
-feature: Checkout
+feature: Checkout, Orders, Shipping/Delivery
+role: Admin
 ---
 # MDVA-29446: Non-relevant shipping method available for checkout
 

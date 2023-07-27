@@ -2,7 +2,8 @@
 title: Adobe Commerce status column missing exported products CSV file
 description: This article provides a solution for the issue when you cannot locate the status column in the CSV file containing exported products.
 exl-id: 3cbe1e6c-fc73-4331-add7-1ebcb28a4580
-feature: Data Import/Export
+feature: Data Import/Export, Products
+role: Developer
 ---
 # Adobe Commerce status column missing exported products CSV file 
 

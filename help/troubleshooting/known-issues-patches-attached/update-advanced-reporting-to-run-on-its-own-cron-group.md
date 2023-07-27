@@ -2,6 +2,8 @@
 title: Update Advanced Reporting to run on its own cron group
 description: This article provides a patch for the known issue for Adobe Commerce on cloud infrastructure 2.3.0 where Advanced Reporting is not showing any data. This is because Advanced Reporting job `analytics_collect_data` is not executed according to schedule. This article provides a patch that will create an Advanced Reporting cron group `analytics`.
 exl-id: 8aff9e2b-d9be-4136-975b-05963e23f55c
+feature: Configuration
+role: Developer
 ---
 # Update Advanced Reporting to run on its own cron group
 

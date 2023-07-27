@@ -2,7 +2,8 @@
 title: 'ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status'
 description: Apply the ACSD-51036 patch to fix the Adobe Commerce issue where there are race conditions during concurrent REST API calls resulting in an overwrite of shipping status in the items ordered table.
 exl-id: b0ae0e68-b6e8-41a3-8ff5-d70a8b885a6b
-feature: REST
+feature: REST, Orders, Shipping/Delivery
+role: Admin
 ---
 # ACSD-51036: Race conditions during concurrent REST API calls result in an overwrite of shipping status in the items ordered table
 

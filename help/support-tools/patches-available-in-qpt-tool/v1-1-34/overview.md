@@ -1,6 +1,8 @@
 ---
 title: "Overview: [!DNL Quality Patches Tool] (QPT) v1.1.34"
 description: This sub-section provides a detailed description of the issues fixed by the patches available in [!DNL Quality Patches Tool] (QPT) v1.1.34.
+feature: Tools and External Services
+role: Admin
 ---
 # Overview: [!DNL Quality Patches Tool] (QPT) v1.1.34
 

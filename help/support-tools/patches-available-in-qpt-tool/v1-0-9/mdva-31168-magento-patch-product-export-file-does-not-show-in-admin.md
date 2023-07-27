@@ -2,7 +2,8 @@
 title: 'MDVA-31168 patch: Product export file does not show in Admin'
 description: The MDVA-31168 patch solves the issue where the product export CSV file does not appear in the list of exportable CSV files. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.10 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
 exl-id: 780a926b-2aea-47c2-8f95-907cc779bfa4
-feature: Admin Workspace, Categories, Data Import/Export
+feature: Admin Workspace, Categories, Data Import/Export, Products
+role: Admin
 ---
 # MDVA-31168 patch: Product export file does not show in Admin
 

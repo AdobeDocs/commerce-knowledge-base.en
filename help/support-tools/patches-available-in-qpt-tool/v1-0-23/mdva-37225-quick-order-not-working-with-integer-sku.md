@@ -2,7 +2,8 @@
 title: 'MDVA-37225: Quick order not working with integer SKU'
 description: The MDVA-37225 quality patch for Adobe Commerce fixes the issue when the page doesn't load when creating a quick order when there is an integer value in imported SKUs. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 is installed. The patch ID is MDVA-37225. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 exl-id: ecd2b9d7-ca68-4372-b0c5-55e2a3301586
-feature: B2B
+feature: B2B, Orders
+role: Admin
 ---
 # MDVA-37225: Quick order not working with integer SKU
 

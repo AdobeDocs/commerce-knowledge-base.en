@@ -2,7 +2,8 @@
 title: Google Analytics gets disabled after deployment
 description: This topic discusses a solution to a typical issue you might experience with Google Analytics during deployment.
 exl-id: ecf6a277-2dfa-45cf-b86f-9a27f39017f4
-feature: Build, Deploy
+feature: Build, Deploy, Variables
+role: Developer
 ---
 # Google Analytics gets disabled after deployment
 

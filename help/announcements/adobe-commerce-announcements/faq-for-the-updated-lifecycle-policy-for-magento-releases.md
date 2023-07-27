@@ -2,7 +2,8 @@
 title: FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases
 description: 'Adobe Commerce provides quality fixes for a minor release for a minimum of 12 months from the general availability date of the next minor software release. The manner in which we provide quality fixes during this period is changing:'
 exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
-feature: Compliance
+feature: Compliance, Support
+role: Admin
 ---
 # FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases
 

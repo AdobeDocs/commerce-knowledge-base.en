@@ -2,7 +2,8 @@
 title: 'MDVA-31150: invoice without store credit info'
 description: The MDVA-31150 patch fixes the issue where an invoice is created without store credit information. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.8 is installed. Please note that the issue will be fixed in Adobe Commerce version 2.4.2.
 exl-id: 70c87b67-6449-4285-9679-cca81613aa72
-feature: Invoices
+feature: Invoices, Orders
+role: Admin
 ---
 # MDVA-31150: invoice without store credit info
 

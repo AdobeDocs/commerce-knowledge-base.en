@@ -2,6 +2,8 @@
 title: Adobe Commerce Fastly troubleshooter
 description: This Fastly troubleshooter for Adobe Commerce users will guide you to the solutions, based on your response about the symptoms you see. Click on the questions to see the next options or answers.
 exl-id: c5c51b89-5a7d-49ba-a0ee-7abbaf78fdad
+feature: Support, Services
+role: Developer
 ---
 # Adobe Commerce Fastly troubleshooter
 

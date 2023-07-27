@@ -2,7 +2,8 @@
 title: 'ACSD-47908: *A value less than or equal to 0 is expected* error during checkout'
 description: Apply the ACSD-47908 patch to fix the Adobe Commerce error *A value less than or equal to 0 is expected* when selecting the source and quantity on the shipping step during checkout.
 exl-id: fec90e4b-9cb8-4cd9-9e85-ccada840c896
-feature: Admin Workspace, Checkout
+feature: Admin Workspace, Checkout, Orders
+role: Admin
 ---
 # ACSD-47908: *A value less than or equal to 0 is expected* error during checkout
 

@@ -2,6 +2,8 @@
 title: '"Class cannot be saved in the code directory" error'
 description: This article describes how to fix the issue where the way you specified dependencies prevents classes from being auto-generated on the fly, and you get the *"Class cannot be saved in the generated/code directory"* error message.
 exl-id: e2c00d4d-31c3-4446-a317-a8ac92c707d5
+feature: Configuration
+role: Developer
 ---
 # "Class cannot be saved in the code directory" error
 

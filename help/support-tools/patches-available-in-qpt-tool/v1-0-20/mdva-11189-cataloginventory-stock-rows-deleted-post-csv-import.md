@@ -2,7 +2,8 @@
 title: 'MDVA-11189: cataloginventory_stock rows deleted post CSV import'
 description: The MDVA-11189 Adobe Commerce patch fixes the issue when after importing a .csv file to update product stock, rows from the `cataloginventory_stock` table are deleted. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20 is installed. The patch ID is MDVA-1189. Please note that the issue was fixed in Adobe Commerce 2.3.5.
 exl-id: 84e1979c-826c-4c01-b0c7-8054bb4b23f0
-feature: Catalogs, Data Import/Export, Inventory
+feature: Catalogs, Data Import/Export, Inventory, Orders
+role: Admin
 ---
 # MDVA-11189: cataloginventory_stock rows deleted post CSV import
 

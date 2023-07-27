@@ -2,7 +2,8 @@
 title: Unable to log in to Adobe Commerce support or cloud account
 description: This article provides a solution for when you struggle to log in to Adobe Commerce support or your cloud project.
 exl-id: 676b32d2-8197-4c60-a1b1-3c51b01dd3a3
-feature: Cloud
+feature: Cloud, Paas
+role: Developer
 ---
 # Unable to log in to Adobe Commerce support or cloud account
 

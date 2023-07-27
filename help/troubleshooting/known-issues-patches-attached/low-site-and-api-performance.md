@@ -2,7 +2,8 @@
 title: Low site and API performance
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.1 issue related to having a low site and API performance caused by a long time required to write `debug.log`.
 exl-id: b71816cd-f580-4c80-9694-585ed051a56d
-feature: REST
+feature: REST, Observability
+role: Developer
 ---
 # Low site and API performance
 

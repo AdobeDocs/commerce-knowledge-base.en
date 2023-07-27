@@ -2,6 +2,8 @@
 title: Composer plugin against Dependency Confusion attacks
 description: This article provides information on the composer plugin released for the Dependency Confusion attacks and recommendations on avoiding the error. Composer plugin was introduced alongside Adobe Commerce 2.4.3 release to protect Adobe Commerce merchants from Dependency Confusion attacks.
 exl-id: 42543043-cf60-4431-80e9-866771c5c87b
+feature: Observability
+role: Developer
 ---
 # Composer plugin against Dependency Confusion attacks
 

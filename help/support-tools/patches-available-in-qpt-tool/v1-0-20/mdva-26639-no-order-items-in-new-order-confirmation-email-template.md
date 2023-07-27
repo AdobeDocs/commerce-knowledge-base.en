@@ -2,7 +2,8 @@
 title: 'MDVA-26639: no order items in new order confirmation email template'
 description: The MDVA-26639 patch fixes the issue when a new order is created, the order items are missing in a confirmation email template.
 exl-id: 5d9716ab-6e57-47b0-8b38-ca98a98101e8
-feature: Communications, Marketing Tools
+feature: Communications, Marketing Tools, Native Luma Frontend Development, Orders
+role: Admin
 ---
 # MDVA-26639: no order items in new order confirmation email template
 

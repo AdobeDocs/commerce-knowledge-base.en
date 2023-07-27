@@ -2,7 +2,8 @@
 title: PayPal Payflow Pro active carding activity
 description: UPDATED 2 April 2019
 exl-id: 9fe73788-5b67-445a-9b0d-86489125d271
-feature: Cache
+feature: Cache, Orders, Payments
+role: Developer
 ---
 # PayPal Payflow Pro active carding activity
 

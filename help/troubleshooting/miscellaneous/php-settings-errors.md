@@ -2,6 +2,8 @@
 title: PHP settings errors
 description: This article provides solutions for PHP settings errors.
 exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
+feature: Configuration
+role: Developer
 ---
 # PHP settings errors
 

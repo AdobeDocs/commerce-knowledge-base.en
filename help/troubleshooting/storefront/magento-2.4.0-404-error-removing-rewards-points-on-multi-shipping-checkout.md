@@ -2,7 +2,8 @@
 title: 'Adobe Commerce 2.4.0: 404 error removing rewards points on multi-shipping checkout'
 description: This article provides a workaround for a known issue in Adobe Commerce 2.4.0 for a "*404 Not Found*" web page error when removing rewards points on a multi-shipping checkout page. Currently, on the multi-shipping checkout page, when trying to remove reward points which were used to pay for an order,  a "*404 Not Found* " page is displayed instead of successful reward points cancellation. This issue will be resolved in with a Adobe Commerce 2.4.1 patch release.
 exl-id: 59de4b3d-af28-4ae8-8f55-4ec958e6ee8b
-feature: B2B, Checkout
+feature: B2B, Checkout, Orders, Rewards, Shipping/Delivery, Storefront
+role: Admin
 ---
 # Adobe Commerce 2.4.0: 404 error removing rewards points on multi-shipping checkout
 

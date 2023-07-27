@@ -3,6 +3,7 @@ title: 'MDVA-31640 patch: unable to create consecutive scheduled update via REST
 description: The MDVA-31640 patch fixes the issue where a new scheduled update for the special price cannot be created for multiple stores using REST API, if the start date of the update coincides with the end date of the previously existing update. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.9 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 8d91db3d-7c94-4757-8087-4cf53cad81e7
 feature: REST
+role: Admin
 ---
 # MDVA-31640 patch: unable to create consecutive scheduled update via REST API
 
