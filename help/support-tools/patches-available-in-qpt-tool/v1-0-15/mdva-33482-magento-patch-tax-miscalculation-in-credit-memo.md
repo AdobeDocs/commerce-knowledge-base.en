@@ -24,7 +24,7 @@ This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.ma
 <u>Steps to reproduce</u>:
 
 1. Configure **Taxes**.
-1. Create an order using 2 products in the backend using any online payment method (Example: Paypal Payment Pro). Make sure that taxes are applied to all the products.
+1. Create an order using two products in the backend using any online payment method (Example: [!DNL PayPal Payment Pro]). Make sure that taxes are applied to all the products.
 1. Create 2 invoices for the order.
 1. Create a credit memo against one of the invoices. STOP if you intend to apply an Adjustment Fee or Adjustment Refund - the fix does not apply to this scenario.
 1. Check the credit memo totals.
