@@ -2,7 +2,7 @@
 title: 'MDVA-42855: New customer address is not saved to address book during checkout '
 description: The MDVA-42855 patch fixes the issue where the new customer address is not saved to the address book during checkout. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 is installed. The patch ID is MDVA-42855. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 exl-id: 37fc51f4-773e-4bef-9fb1-e6629562b94a
-feature: "Checkout, Orders, Shipping/Delivery"
+feature: Checkout, Orders, Shipping/Delivery
 role: Admin
 ---
 # MDVA-42855: New customer address is not saved to address book during checkout 

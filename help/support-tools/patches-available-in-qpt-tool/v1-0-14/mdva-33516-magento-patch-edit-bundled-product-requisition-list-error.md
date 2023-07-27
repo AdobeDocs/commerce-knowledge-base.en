@@ -2,7 +2,7 @@
 title: 'MDVA-33516 patch: edit bundled product Requisition List error'
 description: The MDVA-33516 patch fixes the issue where when editing the bundle product type from the Requisition List, you are redirected to a requisition list item error page. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.14 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 exl-id: 76a16982-f977-4674-b05e-23f4ac355d52
-feature: "B2B, Products"
+feature: B2B, Products
 role: Admin
 ---
 # MDVA-33516 patch: edit bundled product Requisition List error

@@ -2,7 +2,7 @@
 title: 'MDVA-30102: Redis cache getting full'
 description: The MDVA-30102 patch solves the issue of the Redis cache getting full and generating errors, causing problems with Product Listing Pages (PLP) and Product Detail Pages (PDP), such as missing products. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.6 is installed.
 exl-id: 34772296-8c93-471c-b5ad-6815adb78ca6
-feature: "Cache, Categories, Services"
+feature: Cache, Categories, Services
 role: Admin
 ---
 # MDVA-30102: Redis cache getting full

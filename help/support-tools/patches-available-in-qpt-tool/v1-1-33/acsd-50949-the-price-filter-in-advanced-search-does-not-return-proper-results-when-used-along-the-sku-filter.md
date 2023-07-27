@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-50949: The price filter in advanced search does not return proper results when used along with the SKU filter'
 description: Apply the ACSD-50949 patch to fix the Adobe Commerce issue where the price filter in advanced search does not return proper results when used along with the SKU filter.
-feature: "Orders, Search"
+feature: Orders, Search
 role: Admin
 ---
 # ACSD-50949: Price filter in advanced search is not returning proper results when used with SKU filter

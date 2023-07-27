@@ -2,7 +2,7 @@
 title: 'MDVA-35286: error switching Multiple Address to Onepage checkout'
 description: The MDVA-35286 patch fixes the issue where there is an error if a customer has bundle products in the cart and switches from Multiple Address checkout to Onepage checkout. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.18 is installed. The patch ID is MDVA-35286. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 40c98735-6054-4b25-9882-e274424b203f
-feature: "Checkout, Orders, Shipping/Delivery"
+feature: Checkout, Orders, Shipping/Delivery
 role: Admin
 ---
 # MDVA-35286: error switching Multiple Address to Onepage checkout

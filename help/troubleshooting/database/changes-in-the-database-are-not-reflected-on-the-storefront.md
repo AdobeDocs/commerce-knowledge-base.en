@@ -2,7 +2,7 @@
 title: Changes in the database are not reflected on the storefront
 description: This article provides solutions to avoid delays or interruptions in entity updates being applied. This includes how to avoid change log tables from getting oversized and how to set up MySQL table triggers.
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
-feature: "Catalogs, Categories, Services, Storefront"
+feature: Catalogs, Categories, Services, Storefront
 role: Developer
 ---
 # Changes in the database are not reflected on the storefront

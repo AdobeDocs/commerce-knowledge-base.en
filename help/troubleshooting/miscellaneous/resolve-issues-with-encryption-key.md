@@ -2,7 +2,7 @@
 title: Resolve issues with encryption key
 description: This article talks about how to fix the issues caused by the encryption key not being moved together with DB dump to the other environment.
 exl-id: 34410da0-1bd5-421e-9cd7-d3ee75ad8ed7
-feature: "Cache, Variables"
+feature: Cache, Variables
 role: Developer
 ---
 # Resolve issues with encryption key

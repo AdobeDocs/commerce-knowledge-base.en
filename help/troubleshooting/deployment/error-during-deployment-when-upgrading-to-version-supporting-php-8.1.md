@@ -2,7 +2,7 @@
 title: Error during deployment when upgrading to version supporting PHP 8.1
 description: This article provides a solution for the error that occurs during deployment when upgrading to a version that supports PHP 8.1.
 exl-id: bdc4a355-4f2b-49a7-9c5d-63c950f7ca30
-feature: "Deploy, Observability"
+feature: Deploy, Observability
 role: Developer
 ---
 # Error during deployment when upgrading to version supporting PHP 8.1

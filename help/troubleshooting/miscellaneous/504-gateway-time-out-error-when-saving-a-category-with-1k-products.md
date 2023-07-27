@@ -2,7 +2,7 @@
 title: 504 gateway time-out error when saving a category with 1k+ products
 description: This article suggests a solution for the timeout issue you might have, when performing operations with large categories (1k+ plus products).
 exl-id: 1f4b0385-215d-4d3d-8704-986c090824aa
-feature: "Cache, Categories, Marketing Tools, Products"
+feature: Cache, Categories, Marketing Tools, Products
 role: Developer
 ---
 # 504 gateway time-out error when saving a category with 1k+ products

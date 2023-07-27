@@ -1,7 +1,7 @@
 ---
 title: "ACSD-50849: Adding new product after clearing cache results in mismatch"
 description: Apply the ACSD-50849 patch to fix the Adobe Commerce issue where adding a new product to the category after clearing the cache results in a mismatch of positions and selections of the existing products.
-feature: "Cache, Categories, Products"
+feature: Cache, Categories, Products
 role: Admin
 ---
 

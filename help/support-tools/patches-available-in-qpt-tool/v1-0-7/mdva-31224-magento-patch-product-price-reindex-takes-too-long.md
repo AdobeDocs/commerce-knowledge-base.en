@@ -2,7 +2,7 @@
 title: 'MDVA-31224 patch: Product price reindex takes too long'
 description: The MDVA-31224 patch solves the issue when product price reindex takes too long to complete or never completes. This patch is available when the [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.7 is installed.
 exl-id: 17f83fbf-9a43-4a65-b560-5f729b037c17
-feature: "Orders, Products"
+feature: Orders, Products
 role: Admin
 ---
 # MDVA-31224 patch: Product price reindex takes too long

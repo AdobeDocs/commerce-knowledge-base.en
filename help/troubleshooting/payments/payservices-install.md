@@ -2,7 +2,7 @@
 title: Troubleshoot Payment Services installation
 description: This article explains errors you may experience while installing Payment Services, and provides solutions to fix those errors so that you can complete installation.
 exl-id: 0aef7482-8834-400e-85b9-d3d3eb0ab76e
-feature: "Install, Orders, Payments, Saas"
+feature: Install, Orders, Payments, Saas
 role: Developer
 ---
 # Troubleshoot Payment Services installation

@@ -2,7 +2,7 @@
 title: Delayed Payment Services report data
 description: This article explains why reporting data in Payment Services may be delayed.
 exl-id: 2f3249d1-be12-45bc-aa73-bef9766509ae
-feature: "Orders, Payments"
+feature: Orders, Payments
 role: Developer
 ---
 # Delayed Payment Services report data

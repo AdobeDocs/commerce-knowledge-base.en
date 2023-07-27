@@ -2,7 +2,7 @@
 title: Cannot access [!DNL New Relic] on Adobe Commerce cloud project
 description: This article provides a solution for when you cannot access [!DNL New Relic] despite being added to a cloud project on Adobe Commerce.
 exl-id: bafe2dd9-8a16-4249-b814-7e421e25e828
-feature: "Cloud, Observability, Paas"
+feature: Cloud, Observability, Paas
 role: Developer
 ---
 # Cannot access [!DNL New Relic] on Adobe Commerce Cloud project

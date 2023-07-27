@@ -2,7 +2,7 @@
 title: 'MDVA-29959 patch: admin with "Customers" permissions cannot manage company account'
 description: MDVA-29959 patch available in the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) tool version 1.0.5 fixes the issue where a restricted admin user with all permissions for "Customer" ACL cannot manage companies (add or delete a company). Please note, that the issue is fixed in B2B for Adobe Commerce 2.3.4.
 exl-id: ee246380-d37e-4c24-8435-97ae80088227
-feature: "Admin Workspace, B2B, Companies, Roles/Permissions"
+feature: Admin Workspace, B2B, Companies, Roles/Permissions
 role: Admin
 ---
 # MDVA-29959 patch: admin with "Customers" permissions cannot manage company account

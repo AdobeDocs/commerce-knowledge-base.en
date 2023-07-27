@@ -2,7 +2,7 @@
 title: Troubleshooting New Relic on Adobe Commerce on cloud infrastructure
 description: This article provides resources for troubleshooting New Relic on Adobe Commerce on cloud infrastructure.
 exl-id: ea763291-5c9b-4575-b2ee-820dbc367743
-feature: "Cloud, Observability, Paas"
+feature: Cloud, Observability, Paas
 role: Developer
 ---
 # Troubleshooting New Relic on Adobe Commerce on cloud infrastructure

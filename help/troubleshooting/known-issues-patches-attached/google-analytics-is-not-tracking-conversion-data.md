@@ -2,7 +2,7 @@
 title: Google Analytics is not tracking conversion data
 description: This article provides a patch for the known Adobe Commerce 2.2.4 issue related to Google Analytics not tracking the conversion data.
 exl-id: b9012fd1-4f90-41e9-9559-0343ee052ec6
-feature: "Configuration, Observability"
+feature: Configuration, Observability
 role: Developer
 ---
 # Google Analytics is not tracking conversion data

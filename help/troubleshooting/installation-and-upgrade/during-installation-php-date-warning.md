@@ -2,7 +2,7 @@
 title: During installation, PHP date warning
 description: This article provides a fix for a PHP date warning during installation.
 exl-id: f82c77a9-bbcd-4426-96a0-b3f4b704860b
-feature: "Install, Upgrade"
+feature: Install, Upgrade
 role: Developer
 ---
 # During installation, PHP date warning

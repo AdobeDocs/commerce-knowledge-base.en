@@ -2,7 +2,7 @@
 title: 'MDVA-28191: No payment method for one website in Admin Create New Order'
 description: The MDVA-28191 patch fixes the issue where a payment method is not loading in the Admin **Create New Order** for one website, although payment methods may be showing for other websites.  This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) tool version 1.0.5 is installed.
 exl-id: 42169743-4f09-4f0a-aadd-931cccc9b467
-feature: "Admin Workspace, Orders, Payments"
+feature: Admin Workspace, Orders, Payments
 role: Admin
 ---
 # MDVA-28191: No payment method for one website in Admin Create New Order

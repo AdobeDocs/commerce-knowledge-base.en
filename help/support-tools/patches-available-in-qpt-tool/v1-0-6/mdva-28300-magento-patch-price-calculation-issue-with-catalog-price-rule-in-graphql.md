@@ -2,7 +2,7 @@
 title: 'MDVA-28300: price calculation issue with catalog price rule in GraphQL'
 description: The MDVA-28300 patch fixes the issue where GraphQL request doesn't reflect the price changes from catalog price rules. This patch is available when the Quality Patches Tool (QPT) v.1.0.6 is installed. Please note that the issue was fixed in Adobe Commerce version 2.3.6.
 exl-id: 86079d29-db69-4758-a159-aeed8e0ea21f
-feature: "Catalogs, GraphQL, Customer Service, Marketing Tools, Orders, Price Rules"
+feature: Catalogs, GraphQL, Customer Service, Marketing Tools, Orders, Price Rules
 role: Admin
 ---
 # MDVA-28300: price calculation issue with catalog price rule in GraphQL

@@ -2,7 +2,7 @@
 title: 'MDVA-33632 patch: out of stock product reorder exception'
 description: The MDVA-33632 patch solves the issue where an exception is thrown when trying to reorder an out of stock product.
 exl-id: 4a970db4-a64c-49b5-8c5f-8b9c5cdd946f
-feature: "Orders, Products"
+feature: Orders, Products
 role: Admin
 ---
 # MDVA-33632 patch: out of stock product reorder exception

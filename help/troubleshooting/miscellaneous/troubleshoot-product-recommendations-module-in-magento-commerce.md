@@ -2,7 +2,7 @@
 title: Troubleshoot Product Recommendations module in Adobe Commerce
 description: This article talks about troubleshooting suggestions for the
 exl-id: 431ee31e-eb5b-400c-9c99-cc86613453d7
-feature: "Cache, Compliance, Extensions, Marketing Tools, Personalization, Products, Recommendations"
+feature: Cache, Compliance, Extensions, Marketing Tools, Personalization, Products, Recommendations
 role: Developer
 ---
 # Troubleshoot Product Recommendations module in Adobe Commerce

@@ -2,7 +2,7 @@
 title: Installation stops at about 70%
 description: This article provides a fix for when installation stops at about 70%.
 exl-id: 04aa3572-3c42-4565-9f7f-b4d90df96df2
-feature: "Install, Upgrade"
+feature: Install, Upgrade
 role: Developer
 ---
 # Installation stops at about 70%
