@@ -5,7 +5,7 @@ feature: Admin Workspace, B2B, Companies, Customer Service
 ---
 # ACSD-51636: Company admin can't add new users from the customer account section
 
-The ACSD-51636 patch fixes the issue where the company admin can't add new users from the customer account section despite having all necessary roles and permissions. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-51636. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51636 patch fixes the issue where the company admin can't add new users from the customer account section despite having all necessary roles and permissions. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is installed. The patch ID is ACSD-51636. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
