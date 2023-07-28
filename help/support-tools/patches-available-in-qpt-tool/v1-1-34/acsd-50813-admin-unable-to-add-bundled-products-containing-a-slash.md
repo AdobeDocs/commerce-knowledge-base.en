@@ -29,7 +29,7 @@ Admin cannot add bundled products containing a slash mark (`/`) in the SKU with 
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 1. Create a simple product.
 1. Create a new bundled product.
-1. Add a "/" in the middle of the SKU. Example: Bu/ndle.
+1. Add a slash mark (`/`) in the middle of the SKU (Example: *Bu/ndle*).
 1. Add a bundled option with **[!UICONTROL Input Type]** = **[!UICONTROL Dropdown]**.
 1. Assign at least one simple product to the option.
 1. Go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]**, and create a new order.
