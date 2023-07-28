@@ -25,11 +25,26 @@ The Admin Session Size has been exceeded.
 
 ## Solution 
 
-Check the var/log/support_report.log file for errors such as these:
 
-```
-[2023-07-13T04:26:09.792060+00:00] report.WARNING: Session size of 260572 exceeded allowed session max size of 256000. [] []
-[2023-07-13T04:26:17.056714+00:00] report.WARNING: Session size of 260570 exceeded allowed session max size of 256000. [] []
+Check the `var/log/support_report.log` file for errors such as these:
+
+*[2023-07-13T04:26:09.792060+00:00] report.WARNING: Session size of 260572 exceeded allowed session max size of 256000. [] []
+[2023-07-13T04:26:17.056714+00:00] report.WARNING: Session size of 260570 exceeded allowed session max size of 256000. [] []*
+
+If you see these errors, the solution would be:
+
+Adobe Commerce on-premises:
+1. In order to fix the issue, you need to increase the [ Max Session Size in Admin ] value from the backend configuration.
+1. Go to Stores > Configuration > Advanced > System > Security > Max Session Size in Admin
+1. Set the value to 500000 or higher (depending on the existing max size reported in the error - you also could set the value to 0 which will remove the       session size limit)
+
+Adobe Commerce on cloud infrastructure:
+(This setting is only accessible in the admin when the deployment/operation mode is Default or Development. However, only the Production deployment mode is allowed in the Cloud environment.)
+
+To increase this value, run this command in the terminal (SSH):
+
+```ssh
+bin/magento config:set system/security/max_session_size_admin 500000 or higher (depends on the existing max size reported in the error - you also could set the value to 0 which will remove the session size limit))
 ```
 
 ## Related Reading
