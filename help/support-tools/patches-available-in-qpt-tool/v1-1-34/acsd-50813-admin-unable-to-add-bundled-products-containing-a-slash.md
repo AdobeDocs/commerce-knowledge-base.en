@@ -22,7 +22,7 @@ The ACSD-50813 patch fixes the issue where the admin cannot add bundled products
 
 ## Issue
 
-Admin cannot add bundled products containing a slash in the SKU with the *[!UICONTROL Add Products by SKU]* functionality to the admin order.
+Admin cannot add bundled products containing a slash mark (`/`) in the SKU with the *[!UICONTROL Add Products by SKU]* functionality to the admin order.
 
 <u>Steps to reproduce</u>:
 
