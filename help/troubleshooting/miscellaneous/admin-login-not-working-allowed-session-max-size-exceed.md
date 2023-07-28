@@ -33,12 +33,12 @@ Check the `var/log/support_report.log` file for errors such as these:
 
 If you see these errors, the solution would be:
 
-Adobe Commerce on-premises:
-1. In order to fix the issue, you need to increase the [ Max Session Size in Admin ] value from the backend configuration.
-1. Go to Stores > Configuration > Advanced > System > Security > Max Session Size in Admin
-1. Set the value to 500000 or higher (depending on the existing max size reported in the error - you also could set the value to 0 which will remove the       session size limit)
+<u>Adobe Commerce on-premises</u>:
+1. In order to fix the issue, you need to increase the **[!UICONTROL Max Session Size in Admin]** value from the backend configuration.
+1. Go to **[!UICONTROL Stores] > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Security]** > **[!UICONTROL Max Session Size in Admin]**
+1. Set the value to *500000* or higher (depending on the existing max size reported in the error - you also could set the value to 0 which will remove  the       session size limit)
 
-Adobe Commerce on cloud infrastructure:
+<u>Adobe Commerce on cloud infrastructure</u>:
 (This setting is only accessible in the admin when the deployment/operation mode is Default or Development. However, only the Production deployment mode is allowed in the Cloud environment.)
 
 To increase this value, run this command in the terminal (SSH):
@@ -49,6 +49,8 @@ bin/magento config:set system/security/max_session_size_admin 500000 or higher (
 
 ## Related Reading
 
-[]() in our
+[Session size](https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-session-management.html?lang=en#admin-sessions)
+[Operation mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=en)
+[Secure connections](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)
 
 []() in our .
