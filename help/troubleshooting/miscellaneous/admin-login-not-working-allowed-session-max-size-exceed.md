@@ -10,8 +10,9 @@ This article provides a fix for when you try to log in to your Commerce Admin pa
 
 ## Affected versions
 
-* Adobe Commerce on-premises X.X.X
-* Adobe Commerce on cloud infrastructure X.X.X
+
+* Adobe Commerce on-premises, [all supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce on cloud infrastructure, [all supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Issue 
 
