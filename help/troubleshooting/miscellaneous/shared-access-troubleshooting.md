@@ -2,6 +2,8 @@
 title: Shared access troubleshooting
 description: '**Problem:** You want to provide shared access to your trusted colleague but you cannot locate the **Shared Access** tab on your Commerce Account page.'
 exl-id: 9e03c031-2359-42a6-9de4-943451a16456
+feature: Cache
+role: Developer
 ---
 # Shared access troubleshooting
 

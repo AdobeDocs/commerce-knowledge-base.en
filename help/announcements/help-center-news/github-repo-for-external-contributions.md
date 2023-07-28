@@ -2,6 +2,8 @@
 title: Adobe Commerce Support Knowledge Base starts accepting contributions
 description: Starting June 15th, the Adobe Commerce Support Knowledge Base team starts accepting direct edits and new article contributions from external Adobe Commerce community through the [magento/knowledge-base](https://github.com/magento/knowledge-base) GitHub repo!
 exl-id: b5198de0-d6b5-4107-8b74-a12606583596
+feature: Support
+role: Admin
 ---
 # Adobe Commerce Support Knowledge Base starts accepting contributions
 

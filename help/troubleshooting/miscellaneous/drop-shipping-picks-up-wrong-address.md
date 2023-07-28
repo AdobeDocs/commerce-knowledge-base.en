@@ -2,6 +2,8 @@
 title: Drop shipping picks up wrong address
 description: The shipping solution does not pick up the address of the product's source.
 exl-id: ce89713f-d506-4e4f-bf49-cdee3e6d29b5
+feature: Customer Service, Orders, Shipping/Delivery
+role: Developer
 ---
 # Drop shipping picks up wrong address
 

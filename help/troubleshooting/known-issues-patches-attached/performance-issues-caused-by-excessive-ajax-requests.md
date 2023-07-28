@@ -2,6 +2,8 @@
 title: Performance issues caused by excessive Ajax requests
 description: This article provides a patch for the known Adobe Commerce performance issue caused by excessive Ajax requests. The issue was fixed in Adobe Commerce 2.3.4.
 exl-id: d9a69406-3970-4556-aa6a-1309b24366d8
+feature: Configuration
+role: Developer
 ---
 # Performance issues caused by excessive Ajax requests
 

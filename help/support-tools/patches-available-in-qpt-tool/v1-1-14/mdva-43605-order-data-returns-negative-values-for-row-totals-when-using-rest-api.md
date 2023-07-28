@@ -2,6 +2,8 @@
 title: 'MDVA-43605: Order data returns negative values for row totals when using Rest API'
 description: The MDVA-43605 patch fixes the issue where the order data returns negative values for row totals when using Rest API. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 is installed. The patch ID is MDVA-43605. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 exl-id: 8a679e85-1681-42c3-b072-18797198bdc4
+feature: REST, Orders
+role: Admin
 ---
 # MDVA-43605: Order data returns negative values for row totals when using Rest API
 

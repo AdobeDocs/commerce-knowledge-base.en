@@ -2,6 +2,8 @@
 title: 'MDVA-33393 patch: provided countryId does not exist'
 description: 'The MDVA-33393 patch solves the issue where the error message: *Provided countryId does not exist.* displays in the exception log.'
 exl-id: f570f24d-27bc-4f4c-8869-62f5b11dab07
+feature: Variables
+role: Admin
 ---
 # MDVA-33393 patch: provided countryId does not exist
 

@@ -2,6 +2,8 @@
 title: Adobe Commerce Site-Wide Analysis Tool Report FAQ
 description: Learn about the Site-Wide Analysis Tool, a proactive self-service tool and central repository that includes detailed system insights and recommendations to ensure the security and operability of your Adobe Commerce installation.
 exl-id: 7c843d55-9e2c-4b18-8859-0ebad0ae28cf
+feature: Best Practices, Saas, Support, Tools and External Services
+role: Admin
 ---
 # Adobe Commerce Site-Wide Analysis Tool Report FAQ
 

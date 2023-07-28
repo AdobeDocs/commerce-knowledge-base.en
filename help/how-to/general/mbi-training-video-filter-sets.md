@@ -2,6 +2,7 @@
 title: 'Adobe Commerce Intelligence Training Video: Filter Sets'
 description: Do you want to analyze only certain pieces of your business data? Tired of manually cleaning things up? In Adobe Commerce Intelligence, you can use the filter sets feature to simplify this process.
 exl-id: 2756f1f0-1465-4a7b-b249-7a3b36674e43
+feature: Commerce Intelligence
 ---
 # Adobe Commerce Intelligence Training Video: Filter Sets
 

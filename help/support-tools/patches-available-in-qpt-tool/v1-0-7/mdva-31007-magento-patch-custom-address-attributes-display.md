@@ -2,6 +2,8 @@
 title: 'MDVA-31007: custom address attributes display'
 description: The MDVA-31007 patch solves the issue where custom address attributes are not correctly displayed in the order details page in the My Account area and in the backend (in the **Sales &gt; Orders** location). This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 43c82b66-395f-4e33-8312-9a1994862f5f
+feature: Attributes, Shipping/Delivery
+role: Developer
 ---
 # MDVA-31007: custom address attributes display
 

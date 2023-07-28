@@ -2,6 +2,8 @@
 title: "MDVA-34943: Quick order can't add 2+ products to cart"
 description: The MDVA-34943 patch solves the issue where a quick order can't add two or more products to the cart. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce version 2.4.2.
 exl-id: fcff6a78-fe00-4352-b0bc-149bd411d999
+feature: Orders, Products, Shopping Cart
+role: Admin
 ---
 # MDVA-34943: Quick order can't add 2+ products to cart
 

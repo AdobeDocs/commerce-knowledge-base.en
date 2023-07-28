@@ -2,6 +2,8 @@
 title: 2.4 Adobe Commerce upgrade workshop on January 26 2022
 description: On January 26, 2022, join the live online Adobe Commerce upgrade technical workshop.
 exl-id: ff34188b-79e2-4b1b-9edc-b7b23363a4b8
+feature: Upgrade
+role: Admin
 ---
 # 2.4 Adobe Commerce upgrade workshop on January 26 2022
 

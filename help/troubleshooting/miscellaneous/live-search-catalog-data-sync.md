@@ -2,6 +2,8 @@
 title: Live search catalog not synchronized
 description: This article provides solutions for the Adobe Commerce issue where your catalog data is not synchronized correctly when using the Live Search extension.
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
+feature: Catalogs, Search
+role: Developer
 ---
 # Live search catalog not synchronized
 

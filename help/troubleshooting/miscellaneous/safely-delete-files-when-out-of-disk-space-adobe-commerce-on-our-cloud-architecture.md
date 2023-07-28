@@ -2,6 +2,8 @@
 title: Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure
 description: This article provides a solution for when you run out of disk space and need to safely remove files. Before considering this action, review [Manage disk space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#no-space-left) in our developer documentation. If the steps in that article are not appropriate for you or do not solve the issue, review the steps in this article.
 exl-id: 6b0a5c1a-8db4-49d7-a785-b4e0bbaea0df
+feature: Cloud, Paas
+role: Developer
 ---
 # Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure
 

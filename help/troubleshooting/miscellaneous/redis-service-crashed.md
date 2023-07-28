@@ -2,6 +2,8 @@
 title: Redis service crashed
 description: The article recommends how to fix Redis.
 exl-id: 5eb8fb70-0f41-433a-8d3f-c368781a2d1d
+feature: Services
+role: Developer
 ---
 # Redis service crashed
 

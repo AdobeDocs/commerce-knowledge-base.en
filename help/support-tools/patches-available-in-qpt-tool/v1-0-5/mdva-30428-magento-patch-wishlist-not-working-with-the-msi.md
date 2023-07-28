@@ -2,6 +2,8 @@
 title: 'MDVA-30428: wishlist not working with Inventory Management'
 description: The MDVA-30428 patch solves the wishlist not working with Inventory Management (MSI). This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.5 is installed.
 exl-id: 79e8d5d6-b073-48cf-8ecc-5c44667c12ad
+feature: Inventory, Orders
+role: Admin
 ---
 # MDVA-30428: wishlist not working with Inventory Management
 

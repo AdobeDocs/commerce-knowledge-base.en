@@ -2,6 +2,8 @@
 title: Unable to add user to Adobe Commerce cloud project
 description: This article provides a solution for when you are unable to add a user to an Adobe Commerce cloud project.
 exl-id: 730afbbe-e1d2-4bc8-a1c2-761cbd5f2211
+feature: Cloud, Paas
+role: Developer
 ---
 # Unable to add user to Adobe Commerce cloud project
 

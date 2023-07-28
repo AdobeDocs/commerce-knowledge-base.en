@@ -2,6 +2,8 @@
 title: 503 error accessing Adobe Commerce in web browser
 description: This article provides a possible solution for the issue where you get a 503 error when trying to access Adobe Commerce storefront and/or Admin.
 exl-id: 4232aa21-40c2-41b0-9fb0-fc8cd4db8e39
+feature: Storefront
+role: Developer
 ---
 # 503 error accessing Adobe Commerce in web browser
 

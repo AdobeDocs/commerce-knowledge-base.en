@@ -2,6 +2,8 @@
 title: 'Deployment error: SQLSTATE[HY000]'
 description: This article provides a solution for the issue where deployment fails because of the SQLSTATE[HY000] error.
 exl-id: c6da6275-9327-4a5c-99ed-93a53952ba42
+feature: Deploy
+role: Developer
 ---
 # Deployment error: SQLSTATE[HY000]
 

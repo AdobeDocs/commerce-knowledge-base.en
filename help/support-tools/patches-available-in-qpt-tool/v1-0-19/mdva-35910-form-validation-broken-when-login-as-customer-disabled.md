@@ -2,6 +2,8 @@
 title: 'MDVA-35910: form validation broken when "Login as Customer" disabled'
 description: The MDVA-35910 patch solves the issue where the create customer account form validation is broken when the **Login as Customer** extension is disabled. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-35910. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 exl-id: fa63d725-33f0-4422-bcd5-d62dfee01b65
+feature: Cache
+role: Admin
 ---
 # MDVA-35910: form validation broken when "Login as Customer" disabled
 

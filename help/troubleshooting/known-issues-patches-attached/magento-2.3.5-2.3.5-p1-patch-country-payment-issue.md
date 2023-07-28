@@ -2,6 +2,8 @@
 title: 'Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue'
 description: This patch resolves an issue in Adobe Commerce where the storefront checkout workflow did not display any payment method that has been enabled for specific countries, except for Klarna and Amazon Pay.
 exl-id: e205e35e-9ffe-4826-b951-3a3caf1e0621
+feature: Orders, Payments
+role: Developer
 ---
 # Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue
 

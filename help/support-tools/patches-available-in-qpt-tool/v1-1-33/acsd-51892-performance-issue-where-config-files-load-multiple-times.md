@@ -1,6 +1,8 @@
 ---
 title: "ACSD-51892: Performance issue where config files load multiple times"
 description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where config files load multiple times during deployment.
+feature: Observability
+role: Admin
 ---
 # ACSD-51892: Performance issue where config files load multiple times
 

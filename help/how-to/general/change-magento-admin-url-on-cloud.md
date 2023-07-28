@@ -1,7 +1,8 @@
 ---
 title: Change Admin URL on Adobe Commerce on cloud infrastructure
-description: By default, the [Commerce Admin](http://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL is set to *&lt;domain\_name&gt;/admin*. This article shows how to change the URL.
+description: By default, the [Commerce Admin](https://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL is set to *&lt;domain\_name&gt;/admin*. This article shows how to change the URL.
 exl-id: 6236370c-e0a2-45a6-a38f-12e219c540af
+feature: Admin Workspace, Cloud
 ---
 # Change Admin URL on Adobe Commerce on cloud infrastructure
 

@@ -2,6 +2,8 @@
 title: 'Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates'
 description: '**NEXT UPDATE**: September 27th, 2022.'
 exl-id: 1f28086d-3567-4828-b5ee-b3d7953cff82
+feature: Support
+role: Admin
 ---
 # Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates
 

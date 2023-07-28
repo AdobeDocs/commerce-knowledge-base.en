@@ -2,6 +2,8 @@
 title: Checkout is stuck when Authorize.net payment method is used
 description: This article provides an explanation and fix for the Adobe Commerce 2.3.X issue where the checkout gets stuck if Authorize.net is used, with the *'Cannot read property 'length' of null'* error message in the browser console log.
 exl-id: 01dc1147-4010-4dc5-81f3-3b3015a8c47c
+feature: Cache, Checkout, Console, Orders, Payments
+role: Developer
 ---
 # Checkout is stuck when Authorize.net payment method is used
 

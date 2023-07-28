@@ -2,6 +2,8 @@
 title: 'MDVA-35092: Vimeo Error: "Video not found"'
 description: 'The MDVA-35092 patch fixes the issue where you see Error: *"Video not Found"*. This error message displays when you enter a Vimeo video using the native Add Video interface in the product admin of Adobe Commerce. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.17 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.3.'
 exl-id: bc0952d9-1ea4-417c-926c-96875984d82c
+feature: Tools and External Services
+role: Admin
 ---
 # MDVA-35092: Vimeo Error: "Video not found"
 

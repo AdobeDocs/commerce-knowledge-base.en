@@ -2,6 +2,8 @@
 title: Shipping address not saved post page refresh on checkout
 description: This article provides a patch for the known Adobe Commerce 2.2.3 issue where the customer's already populated shipping address form was blank again after refreshing the browser page on guest checkout. The issue was experienced when the persistent shopping cart was enabled.
 exl-id: b757e4af-7b1a-41bc-8460-9a6858c7aa5e
+feature: Checkout, Orders, Shipping/Delivery
+role: Developer
 ---
 # Shipping address not saved post page refresh on checkout
 
