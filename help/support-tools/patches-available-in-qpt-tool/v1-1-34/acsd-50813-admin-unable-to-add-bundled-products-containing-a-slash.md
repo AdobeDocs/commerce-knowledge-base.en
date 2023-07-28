@@ -4,7 +4,7 @@ description: Apply the ACSD-50813 patch to fix the Adobe Commerce performance is
 ---
 # ACSD-50813: Admin unable to add bundled products containing a slash
 
-The ACSD-50813 patch fixes the issue where the admin cannot add bundled products containing a slash in the SKU with the *[!UICONTROL Add Products by SKU]* functionality to the admin order. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.34 is installed. The patch ID is ACSD-50813. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50813 patch fixes the issue where the admin cannot add bundled products containing a slash mark (`/`) in the SKU with the *[!UICONTROL Add Products by SKU]* functionality to the admin order. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.34 is installed. The patch ID is ACSD-50813. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
