@@ -5,7 +5,7 @@ description: This article provides a fix for when you try to log in to your Admi
 
 # [!DNL Admin] login not working - allowed session max size exceeded
 
-This article provides a fix for when you try to log in to your Commerce Admin panel but the form just refreshes and you are unable to log in.
+This article provides a fix for when you try to log in to your Commerce Admin panel but the form just refreshes and you are unable to log in. This is because the Admin Session Size has been exceeded.
 
 
 ## Affected versions
@@ -16,12 +16,8 @@ This article provides a fix for when you try to log in to your Commerce Admin pa
 
 ## Issue 
 
-The Admin Session Size has been exceeded.
+The Commerce admin login is not working as the allowed session max size is exceeded.
 
-<u>Steps to reproduce:</u>
-
-1. 
-1.
 
 ## Solution 
 
