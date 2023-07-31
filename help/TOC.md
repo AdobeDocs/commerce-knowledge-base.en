@@ -642,6 +642,7 @@ breadcrumb-title: Commerce KB
     * [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md)
     * [Adobe support customer data access and privacy](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
     * [UPS APIs deprecated](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
+    * [2024 release schedule](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
   * Help Center News {#news}
     * [Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
     * [Adobe Commerce Support Knowledge Base starts accepting contributions](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
