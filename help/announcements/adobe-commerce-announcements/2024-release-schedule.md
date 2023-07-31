@@ -28,4 +28,4 @@ Incorporating these strategy changes, our 2024 release schedule includes **five*
 |August 13, 2024|Feature Release  <br> Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4|
 |October 8, 2024|Feature Release  <br> Beta version patch release for 2.4.8  <br>Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4|
 
-We hope you use this schedule in your annual planning cycles to better prepare and allocate resources around these release windows. For more upgrade planning resources, visit our [Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html).
+We hope you use this schedule in your annual planning cycles to better prepare and allocate resources around these release windows. For more upgrade planning resources, visit our [Upgrade Guide](/docs/commerce-operations/upgrade-guide/overview.html).
