@@ -23,7 +23,7 @@ Incorporating these strategy changes, our 2024 release schedule includes **five*
 |  Dates | Releases  |
 |---|---|
 |February 13, 2024| Feature Release <br> Security-only patch releases for 2.4.6, 2.4.5, 2.4.4|
-| April 9, 2024 | Feature Release 2.4.7 patch release  <br> Security-only patch releases for 2.4.6, 2.4.5, 2.4.4|
+| April 9, 2024 | Feature Release  <br> 2.4.7 patch release  <br> Security-only patch releases for 2.4.6, 2.4.5, 2.4.4|
 |June 11, 2024| Feature Release   <br>Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4|
 |August 13, 2024|Feature Release  <br> Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4|
 |October 8, 2024|Feature Release  <br> Beta version patch release for 2.4.8  <br>Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4|
