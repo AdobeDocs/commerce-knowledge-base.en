@@ -46,6 +46,6 @@ bin/magento config:set system/security/max_session_size_admin 500000
 
 ## Related Reading
 
-[Session size](/docs/commerce-admin/systems/security/security-session-management.html?lang=en#admin-sessions)
-[Operation mode](/docs/commerce-operations/configuration-guide/cli/set-mode.html)
-[Secure connections](/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)
+* [Session size](/docs/commerce-admin/systems/security/security-session-management.html?lang=en#admin-sessions)
+* [Operation mode](/docs/commerce-operations/configuration-guide/cli/set-mode.html)
+* [Secure connections](/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)
