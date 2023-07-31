@@ -15,7 +15,7 @@ In [2023 we updated our release strategy](https://business.adobe.com/blog/the-la
 
 ## What Changes
 
-*	Increasing to fivw security-only patch releases, for 2024, for all currently supported Adobe Commerce versions to keep your business secure and compliant.
+*	For 2024 we are increasing to five security-only patch releases, for all currently supported Adobe Commerce versions to keep your business secure and compliant.
 *	We will remove our two-week pre-release period in order to provide earlier access to the newest version of the platform through beta releases up to 6 months in advance.
 
 Incorporating these strategy changes, our 2024 release schedule includes **five** releases:
