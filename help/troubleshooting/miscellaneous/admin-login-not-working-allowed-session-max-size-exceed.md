@@ -1,5 +1,5 @@
 ---
-title: [!DNL Admin] login not working - allowed session max size exceeded
+title: '[!DNL Admin] login not working - allowed session max size exceeded'
 description: This article provides a fix for when you try to log in to your Admin panel and the form refreshes and you are unable to log in.
 ---
 
