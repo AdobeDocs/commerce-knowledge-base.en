@@ -20,20 +20,10 @@ In [2023 we updated our release strategy](https://business.adobe.com/blog/the-la
 
 Incorporating these strategy changes, our 2024 release schedule includes **five** releases:
 
-| February 13, 2024 | Feature Release
-Security-only patch releases for 2.4.6, 2.4.5, 2.4.4 |
-| April 9, 2024 | Feature Release
-2.4.7 patch release
-Security-only patch releases for 2.4.6, 2.4.5, 2.4.4 |
-|June 11, 2024| Feature Release
-Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4
-|
-|August 13, 2024| Feature Release
-Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4
-|
-|October 8, 2024|Feature Release
-Beta version patch release for 2.4.8
-Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4
-|
+| February 13, 2024 | Feature Release Security-only patch releases for 2.4.6, 2.4.5, 2.4.4|
+| April 9, 2024 | Feature Release 2.4.7 patch release Security-only patch releases for 2.4.6, 2.4.5, 2.4.4|
+|June 11, 2024| Feature Release Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4|
+|August 13, 2024| Feature Release Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4|
+|October 8, 2024|Feature Release Beta version patch release for 2.4.8 Security-only patch releases for 2.4.7, 2.4.6, 2.4.5, 2.4.4|
 
 We hope you use this schedule in your annual planning cycles to better prepare and allocate resources around these release windows. For more upgrade planning resources, visit our [Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html).
