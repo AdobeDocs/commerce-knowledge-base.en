@@ -41,7 +41,7 @@ To increase this value, run this command in the terminal (SSH):
 
 ```ssh
 bin/magento config:set system/security/max_session_size_admin 500000 
- # you can set to higher than 500000 depending on the existing max size reported in the error and you can also set the value to 0 to remove the session size limit
+// You can set to higher than 500000 depending on the existing max size reported in the error and you can also set the value to 0 to remove the session size limit
 ```
 
 ## Related Reading
