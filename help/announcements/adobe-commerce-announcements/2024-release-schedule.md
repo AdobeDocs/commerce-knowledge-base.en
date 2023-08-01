@@ -1,6 +1,7 @@
 ---
 title: Adobe Commerce 2024 release schedule
 description: Adobe Commerce has updated the release strategy and schedule for 2024.
+role: admin
 ---
 # Adobe Commerce 2024 release schedule
 
