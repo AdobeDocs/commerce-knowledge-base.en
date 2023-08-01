@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL salesrule] labels issues when upgrade from versions < 2.4.5'
+title: '[!UICONTROL salesRule] labels issues when upgrade from versions < 2.4.5'
 description: Apply a patch to deal with the **[!UICONTROL salesRule]** issues when upgrading from Adobe Commerce versions < 2.4.5.
 ---
 # **[!UICONTROL salesRule]** labels issues when upgrade from versions < 2.4.5
