@@ -16,9 +16,11 @@ This article provides a fix for when you try to log in to your [!DNL Admin] pane
 
 It is impossible to log in to the [!DNL Admin], because the form keeps reloading.
 
+## Cause
+
+The allowed session max size is exceeded.
 
 ## Solution 
-
 
 Check the `var/log/support_report.log` file for errors such as these:
 
