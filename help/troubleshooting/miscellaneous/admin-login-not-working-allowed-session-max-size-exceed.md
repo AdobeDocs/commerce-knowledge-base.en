@@ -12,7 +12,7 @@ This article provides a fix for when you try to log in to your [!DNL Admin] pane
 * Adobe Commerce on-premises, [all supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 * Adobe Commerce on cloud infrastructure, [all supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
-## Issue 
+## Issue
 
 It is impossible to log in to the [!DNL Admin], because the form keeps reloading.
 
@@ -20,7 +20,7 @@ It is impossible to log in to the [!DNL Admin], because the form keeps reloading
 
 The allowed session max size is exceeded.
 
-## Solution 
+## Solution
 
 Check the `var/log/support_report.log` file for errors such as these:
 
@@ -40,13 +40,13 @@ If you see these errors, the solution would be:
 To increase this value, run this command in the terminal (SSH):
 
 ```ssh
-bin/magento config:set system/security/max_session_size_admin 500000 
-<!-- You can set to higher than 500000 depending on the existing max size reported in the error and you can also set the value to 0 to remove the session size limit -->
+bin/magento config:set system/security/max_session_size_admin 500000
 ```
+
+You can set to higher than *500000* depending on the existing max size reported in the error and you can also set the value to *0* to remove the session size limit.
 
 ## Related Reading
 
 * [Session size](/docs/commerce-admin/systems/security/security-session-management.html?lang=en#admin-sessions) in Admin Systems Guide.
 * [Operation mode](/docs/commerce-operations/configuration-guide/cli/set-mode.html) in the Configuration Guide.
 * [Secure connections](/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in the Commerce on Cloud Infrastructure Guide.
-
