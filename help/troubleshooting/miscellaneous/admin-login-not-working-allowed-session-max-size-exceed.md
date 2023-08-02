@@ -14,7 +14,7 @@ This article provides a fix for when you try to log in to your [!DNL Admin] pane
 
 ## Issue 
 
-The [!DNL Admin] login is not working as the allowed session max size is exceeded.
+It is impossible to log in to the [!DNL Admin], because the form keeps reloading.
 
 
 ## Solution 
