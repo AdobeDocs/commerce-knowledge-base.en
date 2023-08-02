@@ -1,5 +1,5 @@
 ---
-title: "*The file can't be deleted. Warning! unlink: No such file or directory error* from the [!DNL Admin]"
+title: "The file can't be deleted. Warning! unlink: No such file or directory error from the [!DNL Admin]"
 description: This article provides a solution to the issue where you see an error *The file can't be deleted. Warning!unlink No such file or directory error* from the [!DNL Admin] when you do a [!DNL Javascript/CSS] flush.
 feature: Admin Workspace, Observability
 role: Developer
