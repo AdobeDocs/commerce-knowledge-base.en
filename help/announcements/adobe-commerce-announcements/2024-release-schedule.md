@@ -4,6 +4,7 @@ description: Adobe Commerce has updated the release strategy and schedule for 20
 feature: Release Notes
 role: admin
 ---
+
 # Adobe Commerce 2024 release schedule
 
 In [2023 we updated our release strategy](https://business.adobe.com/blog/the-latest/adobe-announces-expanded-support) to expand the support window, provide more security updates, and accelerate innovation adoption. Heading into 2024, we are continuing our efforts to provide better support for mission critical customer needs and have published our [release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) to provide our customers time to plan and budget resources for the coming year. To help summarize the changes, we look at the 2023 and 2024 strategy to determine what is staying the same and what is changing.
