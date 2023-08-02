@@ -35,7 +35,7 @@ If you see these errors, the solution would be:
 
 <u>Adobe Commerce on cloud infrastructure</u>:
 
-(This setting is only accessible in the [!DNL Admin] when the deployment/operation mode is [!DNL default] or [!DNL developer]. However, only the Production deployment mode is allowed in the Cloud environment.)
+(This setting is only accessible in the [!DNL Admin] when the deployment/operation mode is default or developer. However, only the Production deployment mode is allowed in the Cloud environment.)
 
 To increase this value, run this command in the terminal (SSH):
 
