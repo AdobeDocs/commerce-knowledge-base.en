@@ -23,4 +23,4 @@ In [2023 we updated our release strategy](https://business.adobe.com/blog/the-la
 
 Incorporating these strategy changes, our 2024 release calendar includes five releases which can be reviewed on our [Release Schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) on Experience League.
 
-We hope you use this schedule in your annual planning cycles to better prepare and allocate resources around these release windows. For more upgrade planning resources, visit our [Overview of the upgrade process](/docs/commerce-operations/upgrade-guide/overview.html) in our upgrade guide.
+We hope you use this schedule in your annual planning cycles to better prepare and allocate resources around these release windows. For more upgrade planning resources, visit our [Overview of the upgrade process](/docs/commerce-operations/upgrade-guide/overview.html) in our Upgrade Guide.
