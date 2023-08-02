@@ -10,15 +10,25 @@ This sub-section provides a detailed description of the issues fixed by the patc
 
 QPT v1.1.35 includes the following patches:
 
-1. **ACSD-52277**: Fixes the issue where an admin user is not redirected properly after selecting store view when creating a new order in the admin.
-1. **ACSD-50813**: Fixes the issue where an admin is not able to add bundled products containing a slash in the SKU with the [!UICONTROL Add Products by SKU] functionality to the admin order.
-1. **ACSD-51630**: Fixes the issue where a large amount of system messages slows the downloading of admin pages.
-1. **ACSD-51853**: Fixes the issue where copied text styles are not applied when using [!DNL Page Builder].
-1. **ACSD-52160**: Fixes the issue where a product validation result against the cart price rule was not properly evaluated, based on the rule condition *If an item is FOUND/NOT FOUND in the cart with All/Any of these conditions true*.
-1. **ACSD-51636**: Fixes the issue where an admin can't add new users from the customer account section despite having all the necessary roles and permissions.
-1. **ACSD-51739**: Fixes the issue where an error is returned when the `structure_id` is requested in a `CompanyTeam` GraphQL request.
-1. **ACSD-51857**: Fixes the issue where slow performance of `aggregate_sales_report_bestsellers_data` cron report affects large `sales_order` and `sales_order_item` database tables.
-1. **ACSD-48448**: Fixes the issue where there is a race condition issue happening during order cancelations, which cause duplicated entry in the *inventory_reservation* table.
-1. **ACSD-52689**: Fixes the issue where images can't be uploaded to [!DNL Amazon S3] storage using REST API.
+1. **ACSD-51899**: Fixes the issue where the default shipping address on the checkout shipping step is auto-populated with a previously selected in-store pickup address.
+1. **ACSD-52041**: Fixes the issue where the error message: *[ERROR] [!DNL Page Builder] was rendering for 5 seconds without releasing locks*. appears in [!DNL Chrome] browser when saving content edited with [!DNL Page Builder].
+1. **ACSD-52095**: Fixes the issue where the `manage_stock` value was incorrectly set to 0 in the CSV file after product export.
+1. **ACSD-51358**: Fixes the issue where removing a scheduled update without an end date leads to removing other scheduled updates for the same entity.
+1. **ACSD-48070**: Fixes the issue where editing a scheduled update triggers an exception.
+1. **ACSD-51890**: Fixes the issue where the [!UICONTROL Submit review] button can be clicked multiple times without [!DNL Google] reCAPTCHA v3 validation.
+1. **ACSD-51984**: Fixes the issue where unchecked *Use Default Value and non-default product field values* are not saved for the second website, store, and store view.
+1. **ACSD-52398**: Fixes the error *The requested qty is not available* that occurs when trying to update the quantity of a bundled product in the cart on the storefront.
+1. **ACSD-52786**: Fixes the issue where a catalog rule condition SKU is applies to all products starting with the given SKU.
+1. **ACSD-52921**: Fixes the issue where an internal error occurs if requesting cart details from GraphQL when there is an out-of-stock configurable product in the cart.
+1. **ACSD-51683**: Fixes the issue where a customizable option can't be added to the cart using GraphQL.
+1. **ACSD-52133**: Fixes the issue where a customer account cannot be saved after an upgrade.
+1. **ACSD-52202**: Fixes the issue where the salable qty of default stock wrongly changes to 0 when a non-default stock is changed to 0 qty on order fulfillment.
+1. **ACSD-51265**: Fixes the issue with `catalog_product_price` reindexing performance when there are too many bundled products in the system.
+1. **ACSD-52831**: Fixes the issue where customers cannot place negotiable quote orders when [!DNL Google reCAPTCHA v3 Invisible] is enabled.
+1. **ACSD-51845**: Fixes the issue where subsequent products with tier prices and different attribute sets cannot be updated via asynchronous bulk REST API.
+1. **ACSD-52815**: Fixes the issue where the input for the quantity field of a non-default source supports only up to 6 digits, unlike 8 for a default stock.
+1. **ACSD-51149**: Fixes the issue where [!UICONTROL Scheduled ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers and then cache flushes by cron.
+1. **ACSD-50815**: Fixes the issue where decimal quantity for a simple product cannot be used for a new bundled product option.
+1. **ACSD-52399**: Fixes the issue where the configurable product option with a salable Qty of 0 shows *In Stock* on the product page. 
 
 Use the menu on the left to navigate to a specific patch page.
