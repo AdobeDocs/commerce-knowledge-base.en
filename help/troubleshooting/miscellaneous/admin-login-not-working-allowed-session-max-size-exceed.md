@@ -7,9 +7,7 @@ description: Solve the issue when you try to log in to your [!DNL Admin] panel a
 
 This article provides a fix for when you try to log in to your [!DNL Admin] panel but the form just refreshes and you are unable to log in. This is because the [!DNL Admin] Session Size has been exceeded.
 
-
 ## Affected versions
-
 
 * Adobe Commerce on-premises, [all supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 * Adobe Commerce on cloud infrastructure, [all supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
