@@ -2,6 +2,8 @@
 title: Adobe Commerce 2.3.6, 2.4.1 CAPTCHA in checkout not working
 description: This article provides a patch for the issue where the CAPTCHA feature for checkout does not work as expected on the Place Order page when using third-party payment providers like Paypal Express, Payflow Pro, or CyberSource in Adobe Commerce.
 exl-id: 46ab7f4d-ee0a-4cc1-96cc-6eb408319e9c
+feature: Checkout, Orders
+role: Developer
 ---
 # Adobe Commerce 2.3.6, 2.4.1 CAPTCHA in checkout not working
 

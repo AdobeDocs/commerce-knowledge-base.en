@@ -2,6 +2,8 @@
 title: Top navigation panel does not load on storefront
 description: This article provides configuration solutions to the Varnish Edge Side Includes (ESI) issues, where certain pages' content, usually the top navigation panel, is not displayed on the storefront if Varnish is used for caching.
 exl-id: e7f9b773-1a2d-4c3b-9e1f-a1781fbc898c
+feature: Categories, Site Navigation, Storefront, Variables
+role: Admin
 ---
 # Top navigation panel does not load on storefront
 

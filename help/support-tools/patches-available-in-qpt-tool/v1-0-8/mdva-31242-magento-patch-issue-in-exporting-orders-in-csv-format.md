@@ -2,6 +2,8 @@
 title: 'MDVA-31242: issue in exporting orders in CSV format'
 description: The MDVA-31242 patch solves the issue where an error occurs when exporting orders in CSV file format. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.8 is installed. Please note that the issue was fixed in Adobe Commerce 2.4.2.
 exl-id: 1e343f23-5b10-492b-885f-8113ace4777f
+feature: B2B, Data Import/Export, Orders
+role: Admin
 ---
 # MDVA-31242: issue in exporting orders in CSV format
 

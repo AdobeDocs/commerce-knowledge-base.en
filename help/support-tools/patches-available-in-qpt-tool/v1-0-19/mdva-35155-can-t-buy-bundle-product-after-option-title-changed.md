@@ -2,6 +2,8 @@
 title: "MDVA-35155: Can't buy bundle product after option title changed"
 description: The MDVA-35155 patch solves the issue where a bundle product can't be bought after the option title is changed. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 is installed. The patch ID is MDVA-35155. Please note that the issue was fixed in Adobe Commerce version 2.4.3.
 exl-id: 79770c69-1bb0-48d8-acdf-c8c1272f9da8
+feature: Products
+role: Admin
 ---
 # MDVA-35155: Can't buy bundle product after option title changed
 

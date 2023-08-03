@@ -2,6 +2,7 @@
 title: Monitoring fact sheet for [!DNL Adobe Commerce on cloud pro infrastructure]
 description: This document provides information about Adobe Commerce infrastructure monitoring and notifications.
 exl-id: 01342d8d-2123-4455-b1a5-a08a5805b046
+feature: Cloud
 ---
 
 # Monitoring fact sheet for [!DNL Adobe Commerce on cloud pro infrastructure]

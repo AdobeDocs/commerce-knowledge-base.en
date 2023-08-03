@@ -2,6 +2,8 @@
 title: Custom server-side scripts not executed in pub media directory
 description: This article provides a fix for when custom server-side scripts are not executed if placed in the `./pub/media/` directory of your Adobe Commerce application on cloud infrastructure. This is an expected security limitation, since the `./pub/media/` directory is writable. To make scripts executable, place them in non-writable directories, such as `./app/code/` or `./pub/`.
 exl-id: fcad8a5d-47d6-4729-93a4-2410d7710d69
+feature: Media
+role: Developer
 ---
 # Custom server-side scripts not executed in pub media directory
 

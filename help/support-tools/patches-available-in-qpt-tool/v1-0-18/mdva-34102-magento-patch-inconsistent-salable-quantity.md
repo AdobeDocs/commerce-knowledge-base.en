@@ -2,6 +2,8 @@
 title: 'MDVA-34102: inconsistent salable quantity'
 description: The MDVA-34102 patch solves the issue where the quantity of default stock is zero for disabled products on the Product Grid and Edit Product pages in the Admin. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.18 is installed. The patch ID is MDVA-34102. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.3.
 exl-id: cb1d4689-c122-4afd-8597-b2627027aaf3
+feature: Variables
+role: Admin
 ---
 # MDVA-34102: inconsistent salable quantity
 

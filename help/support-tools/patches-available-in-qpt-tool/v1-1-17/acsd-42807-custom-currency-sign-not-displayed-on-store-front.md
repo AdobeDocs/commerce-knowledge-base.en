@@ -2,6 +2,8 @@
 title: 'ACSD-42807: Custom currency sign not displayed on storefront'
 description: The ACSD-42807 patch fixes the issue where the custom currency sign is not displayed on the storefront. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 is installed. The patch ID is ACSD-42807. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 exl-id: 21bd17b4-d9d8-4c40-8f89-d6f7b930b475
+feature: Storefront
+role: Developer
 ---
 # ACSD-42807: Custom currency sign not displayed on storefront
 

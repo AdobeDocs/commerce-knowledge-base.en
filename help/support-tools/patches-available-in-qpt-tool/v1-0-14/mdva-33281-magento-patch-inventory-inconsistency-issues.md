@@ -2,6 +2,8 @@
 title: 'MDVA-33281 patch: inventory inconsistency issues'
 description: The MDVA-33281 patch fixes three inventory inconsistency issues. Click on the linked issues under the Issue section to see steps to reproduce these errors. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.14 is installed.
 exl-id: adba9728-6e42-467e-943d-cf8af0bec353
+feature: Inventory, Orders
+role: Admin
 ---
 # MDVA-33281 patch: inventory inconsistency issues
 

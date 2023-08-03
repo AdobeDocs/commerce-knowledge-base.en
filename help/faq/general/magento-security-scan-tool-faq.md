@@ -2,6 +2,7 @@
 title: Adobe Commerce Security Scan Tool FAQ
 description: This article answers some Frequently Asked Questions (FAQ) about the Adobe Commerce Security Scan Tool.
 exl-id: 380ce617-e3d9-491b-b425-8489abd3c541
+feature: Compliance
 ---
 # Adobe Commerce Security Scan Tool FAQ
 

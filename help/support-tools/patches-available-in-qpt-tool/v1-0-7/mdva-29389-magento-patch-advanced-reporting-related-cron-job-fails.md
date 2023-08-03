@@ -2,6 +2,8 @@
 title: 'MDVA-29389: Advanced Reporting related cron job fails'
 description: 'The MDVA-29389 patch fixes the issue where with Advanced Reporting where the `analytics_collect_data` cronjob says: "*Port must be configured within host parameter (like localhost:3306)*". This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 is installed. The patch ID is MDVA-29389. The issue was fixed in Adobe Commerce 2.4.2.'
 exl-id: eee909d5-9d0d-46b6-846a-665f89db0eee
+feature: Cache
+role: Admin
 ---
 # MDVA-29389: Advanced Reporting related cron job fails
 

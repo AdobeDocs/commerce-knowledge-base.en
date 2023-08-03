@@ -2,6 +2,8 @@
 title: 'Managed alerts on Adobe Commerce: Redis memory critical alert'
 description: This article provides troubleshooting steps for when you receive a Redis memory critical alert for Adobe Commerce in New Relic. Immediate action is required to resolve the issue. The alert will look something like the following, depending on the alert notification channel you selected.
 exl-id: 28e1d879-d7ca-4439-8e81-52a1fbf3ecb0
+feature: Cache, Categories, Observability, Services, Support, Tools and External Services, Variables
+role: Admin
 ---
 # Managed alerts on Adobe Commerce: Redis memory critical alert
 

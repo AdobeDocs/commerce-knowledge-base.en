@@ -2,6 +2,7 @@
 title: 'Adobe Commerce Intelligence Essentials: update payment method or cancel subscription'
 description: This article explains how month-to-month Adobe Commerce Intelligence Essentials clients can cancel their subscriptions or update their payment method for their existing subscriptions.
 exl-id: 45e95451-6d17-44c7-81d3-87f5876b5758
+feature: Commerce Intelligence
 ---
 # Adobe Commerce Intelligence Essentials: update payment method or cancel subscription
 

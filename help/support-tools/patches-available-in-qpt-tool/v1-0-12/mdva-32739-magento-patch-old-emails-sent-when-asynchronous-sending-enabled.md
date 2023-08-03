@@ -2,6 +2,8 @@
 title: 'MDVA-32739 patch: old emails sent when asynchronous sending enabled'
 description: The MDVA-32739 patch fixes the issue where enabling [asynchronous email notifications](https://devdocs.magento.com/guides/v2.4/performance-best-practices/configuration.html#asynchronous-email-notifications) sends out old sales emails. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12 is installed. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.2.
 exl-id: 8cf4ef8a-f2f2-47fb-9f69-0eedcc10ba8b
+feature: Communications
+role: Admin
 ---
 # MDVA-32739 patch: old emails sent when asynchronous sending enabled
 

@@ -2,6 +2,8 @@
 title: Wrong date for Special Price
 description: This article provides a patch for the known Adobe Commerce 2.2.2 issue related to the product special price "from" date being incorrect if its value is changed by the admin whose interface locale is different.
 exl-id: fc109550-951e-4900-97e3-4ff3e7e5a395
+feature: Orders, Personalization, User Account
+role: Developer
 ---
 # Wrong date for Special Price
 

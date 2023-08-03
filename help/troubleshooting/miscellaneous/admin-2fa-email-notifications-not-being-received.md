@@ -2,6 +2,8 @@
 title: Admin 2FA email notifications not being received
 description: This article provides troubleshooting when you aren't receiving the email with the setup completion instructions after you have set up Two-Factor Authentication (2FA) in order to enhance Admin access security in Adobe Commerce on cloud infrastructure.
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
+feature: Admin Workspace, Communications
+role: Developer
 ---
 # Admin 2FA email notifications not being received
 

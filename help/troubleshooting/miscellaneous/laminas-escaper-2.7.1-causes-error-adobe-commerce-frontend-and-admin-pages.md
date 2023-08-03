@@ -2,6 +2,8 @@
 title: laminas/laminas-escaper 2.7.1 causes error Adobe Commerce frontend and Admin pages
 description: This article provides a solution for the issue where the release of laminas/laminas-escaper:2.7.1 breaks the functionality of Adobe Commerce in product management, categories, and product pages. This issue will be fixed in Adobe Commerce 2.4.3.
 exl-id: 89de6827-7b90-4f08-92fb-56ed31ae2672
+feature: Admin Workspace, Categories
+role: Developer
 ---
 # laminas/laminas-escaper 2.7.1 causes error Adobe Commerce frontend and Admin pages
 

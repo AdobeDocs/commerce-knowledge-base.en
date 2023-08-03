@@ -2,6 +2,8 @@
 title: Import CSV product information for same name product fails
 description: This article provides a patch for the known Adobe Commerce 2.2.3 issue related to getting errors when trying to import a `.csv` file with products information if there are products with the same name.
 exl-id: 420b0283-455a-4bd5-ba51-18f341ddacd5
+feature: Data Import/Export, Products
+role: Developer
 ---
 # Import CSV product information for same name product fails
 

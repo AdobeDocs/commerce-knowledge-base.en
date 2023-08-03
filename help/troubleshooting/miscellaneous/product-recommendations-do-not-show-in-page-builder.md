@@ -2,6 +2,8 @@
 title: Product Recommendations not shown in Page Builder
 description: This article provides a solution for the issue where the Product Recommendations option is not shown in Page Builder.
 exl-id: e96a446b-2e64-47a6-ac1b-e73183da9fb8
+feature: Page Builder, Configuration, Personalization, Products, Recommendations
+role: Developer
 ---
 # Product Recommendations not shown in Page Builder
 

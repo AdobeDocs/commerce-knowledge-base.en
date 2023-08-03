@@ -2,6 +2,8 @@
 title: Slow performance due to non-cacheable pages
 description: This article provides solutions for increased website load times or outages due to full page cache (for example Fastly) having been disabled for any block on any page(s) that need to be cached.
 exl-id: 7401d9bd-710c-4221-9c3d-d78042c1c1ad
+feature: Cache, Categories
+role: Developer
 ---
 # Slow performance due to non-cacheable pages
 

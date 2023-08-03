@@ -2,6 +2,8 @@
 title: Exact match search not working in Adobe Commerce 2.4.x
 description: This article provides a clarification for the issue where store front search results using the same search string differ in Adobe Commerce 2.4.x compared to Adobe Commerce 2.3.x.
 exl-id: 0867558e-1d74-4b83-abf3-651ca7fc32cb
+feature: Products, Search
+role: Developer
 ---
 # Exact match search not working in Adobe Commerce 2.4.x
 

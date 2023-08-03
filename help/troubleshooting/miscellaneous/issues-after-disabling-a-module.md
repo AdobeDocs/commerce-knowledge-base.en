@@ -2,6 +2,8 @@
 title: Issues after disabling a module
 description: This article provides a solution for module functionality issues after having disabled module output in the Commerce Admin.
 exl-id: 517f6993-f09e-4a94-8c57-175ecf9a98a8
+feature: Extensions
+role: Developer
 ---
 # Issues after disabling a module
 

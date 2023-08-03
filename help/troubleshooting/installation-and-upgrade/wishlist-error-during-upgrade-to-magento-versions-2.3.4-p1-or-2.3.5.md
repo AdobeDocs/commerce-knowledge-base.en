@@ -2,6 +2,8 @@
 title: Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5
 description: This article provides a fix for the known issue when upgrading to Adobe Commerce versions 2.3.4-p1 and 2.3.5 related to a wishlist error during the upgrade to these versions.
 exl-id: 97479615-bf3f-4544-a9c1-8f19ba74318e
+feature: Install, Upgrade
+role: Developer
 ---
 # Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5
 

@@ -2,6 +2,8 @@
 title: Order email sent from the server email address
 description: This articles provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.4 issue related to order emails being sent from the server email address.
 exl-id: f32e0c09-e19e-4269-bbba-0533d74a7f49
+feature: Communications
+role: Developer
 ---
 # Order email sent from the server email address
 

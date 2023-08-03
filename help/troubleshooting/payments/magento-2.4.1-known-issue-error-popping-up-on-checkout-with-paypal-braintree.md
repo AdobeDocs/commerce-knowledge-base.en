@@ -2,6 +2,8 @@
 title: 'Adobe Commerce 2.4.1 known issue: error popping up on Checkout with PayPal Braintree'
 description: This article describes a known Adobe Commerce 2.4.1 issue, where an error message pops-up and disappears on the Billing step of Checkout if PayPal Braintree payment is used and multiple addresses shipment selected.
 exl-id: db3830b2-4885-4d89-85cd-bdcbd4b396e6
+feature: Checkout, Orders, Payments
+role: Developer
 ---
 # Adobe Commerce 2.4.1 known issue: error popping up on Checkout with PayPal Braintree
 

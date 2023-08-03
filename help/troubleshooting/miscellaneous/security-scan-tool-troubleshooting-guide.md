@@ -2,6 +2,8 @@
 title: Adobe Commerce Security Scan tool troubleshooting guide
 description: Learn how to troubleshoot the various issues with the  Security Scan tool for Adobe Commerce and Magento Open Source.
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
+feature: Compliance, Security
+role: Developer
 ---
 # Adobe Commerce Security Scan tool troubleshooting guide
 

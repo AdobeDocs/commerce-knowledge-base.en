@@ -2,6 +2,8 @@
 title: MySQL server has gone away​ error on Adobe Commerce on cloud
 description: This article talks about the solution for the issue where you receive an " *SQL server has gone away* " error message in the `cron.log` file. A range of symptoms including image file importing issues or deployment failure may be experienced.
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
+feature: Cloud, Paas, Services, Variables
+role: Developer
 ---
 # MySQL server has gone away​ error on Adobe Commerce on cloud
 

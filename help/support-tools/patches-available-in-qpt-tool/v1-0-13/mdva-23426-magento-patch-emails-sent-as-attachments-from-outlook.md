@@ -2,6 +2,8 @@
 title: 'MDVA-23426 Magento patch: emails sent as attachments from Outlook'
 description: The MDVA-23426 Magento patch fixes the issue where emails are sent as attachments by Magento from MS Outlook. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.13 is installed. Please note that the issue was fixed in Magento 2.3.5.
 exl-id: 0b4c3e33-76c5-48b0-b1a8-a967cea11b98
+feature: Communications
+role: Admin
 ---
 # MDVA-23426 Magento patch: emails sent as attachments from Outlook
 
