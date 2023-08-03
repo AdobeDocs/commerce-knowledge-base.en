@@ -18,7 +18,7 @@ QPT v1.1.35 includes the following patches:
 1. **ACSD-51890**: Fixes the issue where the [!UICONTROL Submit review] button can be clicked multiple times without [!DNL Google] reCAPTCHA v3 validation.
 1. **ACSD-51984**: Fixes the issue where unchecked *Use Default Value and non-default product field values* are not saved for the second website, store, and store view.
 1. **ACSD-52398**: Fixes the error *The requested qty is not available* that occurs when trying to update the quantity of a bundled product in the cart on the storefront.
-1. **ACSD-52786**: Fixes the issue where a catalog rule condition SKU is applies to all products starting with the given SKU.
+1. **ACSD-52786**: Fixes the issue where a catalog rule condition SKU is applied to all products starting with the given SKU.
 1. **ACSD-52921**: Fixes the issue where an internal error occurs if requesting cart details from GraphQL when there is an out-of-stock configurable product in the cart.
 1. **ACSD-51683**: Fixes the issue where a customizable option can't be added to the cart using GraphQL.
 1. **ACSD-52133**: Fixes the issue where a customer account cannot be saved after an upgrade.
