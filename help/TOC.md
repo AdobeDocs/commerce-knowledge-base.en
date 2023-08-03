@@ -625,6 +625,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51739-error-on-requesting-structure-id-in-company-team-graphql-request.md)
     * v1.1.35{#v1-1-35}
         * [ACSD-52398: The requested quantity is not available](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52398-the-requested-qty-is-not-available.md)
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
