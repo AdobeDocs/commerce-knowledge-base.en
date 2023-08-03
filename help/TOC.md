@@ -622,7 +622,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51853: Copied text styles aren't applied using page builder](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51853-copied-text-styles-are-not-applied-when-page-builder-is-used.md)
         * [ACSD-51630: Numerous system messages slow download of Admin Pages](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51630-large-amount-of-system-messages-slows-the-downloading-of-admin-pages.md)
         * [ACSD-52689: Images can't upload to Amazon S3 storage via REST API](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-52689-images-cannot-be-uploaded-to-amazon-s3-storage-using-rest-api.md)
-        * [ACSD-51857: Slow cron job of aggregate_sales_report_bestsellers_data affects performance](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51857-slow-performance-of-aggregate-sales-report-bestsellers-data-cron-report-on-large-sales-order-sales-order-item-database-tables.md)
+        * [ACSD-51857: Slow cron job of aggregate_sales_report_bestsellers_data affects performance](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51857-slow-cron-job-of-aggregate-sales-report-bestsellers-data-affects-performance.md)
         * [ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51739-error-on-requesting-structure-id-in-company-team-graphql-request.md)
     * v1.1.35{#v1-1-35}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
