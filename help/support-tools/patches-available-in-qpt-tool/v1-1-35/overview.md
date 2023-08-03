@@ -28,7 +28,7 @@ QPT v1.1.35 includes the following patches:
 1. **ACSD-51845**: Fixes the issue where subsequent products with tier prices and different attribute sets cannot be updated via asynchronous bulk REST API.
 1. **ACSD-52815**: Fixes the issue where the input for the quantity field of a non-default source supports only up to 6 digits, unlike 8 for a default stock.
 1. **ACSD-51149**: Fixes the issue where [!UICONTROL Scheduled ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers and then cache flushes by cron.
-1. **ACSD-50815**: Fixes the issue where decimal quantity for a simple product cannot be used for a new bundled product option.
+1. **ACSD-50815**: Fixes the issue where the decimal quantity for a simple product cannot be used for a new bundled product option.
 1. **ACSD-52399**: Fixes the issue where the configurable product option with a salable Qty of 0 shows *In Stock* on the product page. 
 
 Use the menu on the left to navigate to a specific patch page.
