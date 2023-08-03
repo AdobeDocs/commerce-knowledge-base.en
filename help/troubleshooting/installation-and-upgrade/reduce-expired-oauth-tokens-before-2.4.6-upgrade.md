@@ -23,8 +23,10 @@ Reducing a large amount of `oauth_tokens` in your `oauth_token` table can preven
 
 ## Solution
 
-Before starting an upgrade, first reduce the size of the `oauth_token` table by deleting the expired `oauth_tokens` tokens using the [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] job.
+Before starting an upgrade, first ensure that the [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] job is running. It reduces the size of the `oauth_token` table by deleting the expired `oauth_tokens` tokens, and should already be enabled by default. 
 
+To manually trigger the [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] job, run:
+```bin/magento cron:run --group default```
 
 ## Related reading
 
