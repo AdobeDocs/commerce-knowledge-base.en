@@ -21,6 +21,6 @@ In [2023 we updated our release strategy](https://business.adobe.com/blog/the-la
 * For 2024 we are increasing to five security-only patch releases, for all currently supported Adobe Commerce versions to keep your business secure and compliant.
 * We will remove our two-week pre-release period in order to provide earlier access to the newest version of the platform through beta releases up to six months in advance.
 
-Incorporating these strategy changes, our 2024 release calendar includes five releases which can be reviewed on our [Release Schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) on Experience League.
+Incorporating these strategy changes, our 2024 release calendar includes five releases which can be reviewed on our [Release Schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) on Adobe Experience League.
 
 We hope you use this schedule in your annual planning cycles to better prepare and allocate resources around these release windows. For more upgrade planning resources, visit our [Overview of the upgrade process](/docs/commerce-operations/upgrade-guide/overview.html) in our Upgrade Guide.
