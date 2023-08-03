@@ -28,7 +28,7 @@ To resolve this, the main data query that grabs data for the report has been re-
 
 In order for the sub-query to function as fast as possible, a new index was added for the `sales_order` database table: `SALES_ORDER_STORE_STATE_CREATED` based on `store_id`, `state`, and `created_at` columns.
 
-<u>Prerequistes</u>
+<u>Prerequisites</u>
 
 Ensure a large number of orders daily.
 
