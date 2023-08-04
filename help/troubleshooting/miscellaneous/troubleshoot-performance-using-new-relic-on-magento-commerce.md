@@ -69,7 +69,7 @@ This article provides troubleshooting steps to solve Adobe Commerce on cloud inf
 </ol>
 </td>
 <td>
-<p>To learn more about performance metrics, particularly CPU percentage, I/O bytes, and memory usage for individual or groups of processes, refer to <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infrastructure-hosts-page/#processes-tab">New Relic Documentation > Infrastructure UI page > Infrastructure Host page > Processes tab</a>.</p>
+<p>To learn more about performance metrics, particularly CPU percentage, I/O bytes, and memory usage for individual or groups of processes, refer to <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes-tab">New Relic Documentation > Infrastructure UI page > Infrastructure Host page > Processes tab</a>.</p>
 <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/troubleshooting/cpu-usage-mismatch-or-usage-over-100#cause"></a>
 </td>
 </tr>
