@@ -29,7 +29,7 @@ The changes in scheduled update without an end date leads to removing other sche
 <u>Steps to reproduce</u>:
 
 1. Create a **[!UICONTROL scheduled update]** without the end date *[ update 1 ]*.
-1. Create new **[!UICONTROL scheduled update]** with same start date as first update, but next day, and end date *[ update 2 ]*.
+1. Create new **[!UICONTROL scheduled update]** with same start date as first update, but add the next day, and the end date *[ update 2 ]*.
 1. Edit **[!UICONTROL scheduled update]** created on step 1 *[ update 1 ]* and the save changes.
 
 <u>Expected results</u>
