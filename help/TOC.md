@@ -626,6 +626,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51739-error-on-requesting-structure-id-in-company-team-graphql-request.md)
     * v1.1.35{#v1-1-35}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
+        * [ACSD-552202: Default stock salable qty changes to 0 in error when non-default stock set to 0 qty in order](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52202-default-stock-salable-qty-changes-to-0-in-error-when-non-default-stock-set-to-0-qty-in-order.md)
+        * [ACSD-51845: Can't update subsequent products with tier prices & different attribute sets via asynch bulk API](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51845-cant-update-subsequent-products-with-tier-prices-and-different-attribute-sets-via-asynch-bulk-api.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
