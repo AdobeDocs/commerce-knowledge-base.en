@@ -26,9 +26,37 @@ Scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions
 
 <u>Steps to reproduce</u>:
 
-1. Enable Catalog Permissions.
+1. Enable *[!UICONTROL Catalog Permissions]*.
 1. Set all indexers to *[!UICONTROL Update by Schedule]*.
 1. Create a simple product.
 1. Export this product via **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Export]**.
-1. Download the exported CSV, and put it into the `<AC root folder>/var/import`.
-1. Create a scheduled product import with downloaded CSV.
+1. Download the exported CSV, and put it into `<AC root folder>/var/import`.
+1. Create a scheduled product import with the downloaded CSV.
+1. Run full reindex.
+1. Check the indexers' status. All indexers should be in *[!UICONTROL Ready]* status.
+1. Run the created scheduled import from the grid.
+1. Recheck indexers' status.
+
+<u>Expected results</u>:
+
+All the indexers are in the *[!UICONTROL Ready]* status.
+
+<u>Actual results</u>:
+
+Some of the indexers are in *[!UICONTROL Reindex Required]* status.
+
+## Apply the patch
+
+To apply individual patches, use the following links depending on your deployment method:
+
+* Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
+
+## Related reading
+
+To learn more about [!DNL Quality Patches Tool], refer to:
+
+* [[!DNL Quality Patches Tool] released: a new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) in our support knowledge base.
+* [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
+
+For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
