@@ -1,8 +1,8 @@
 ---
 title: "ACSD-51149: Scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers"
-description: Apply the ACSD-51149 patch to fix the Adobe Commerce performance issue where the scheduled ImportExport with enabled Catalog Permissions invalidates indexers.
+description: Apply the ACSD-51149 patch to fix the Adobe Commerce performance issue where the scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers.
 ---
-# ACSD-51149: Scheduled ImportExport with enabled Catalog Permissions invalidates indexers
+# ACSD-51149: Scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers
 
 The ACSD-51149 patch fixes the issue where the scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-51149. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
