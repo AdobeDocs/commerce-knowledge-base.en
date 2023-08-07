@@ -1,11 +1,11 @@
 ---
-title: "ACSD-50815: Decimal quantity for simple product cannot be used for new bundle product option"
-description: Apply the ACSD-50815 patch to fix the Adobe Commerce issue where decimal quantity for a simple product cannot be used for a new bundled product option.
+title: "ACSD-50815: Decimal quantity for simple product cannot be used for new bundled product option"
+description: Apply the ACSD-50815 patch to fix the Adobe Commerce issue where the decimal quantity for a simple product cannot be used for a new bundled product option.
 ---
 
-# ACSD-50815: Decimal quantity for simple product cannot be used for new bundle product option
+# ACSD-50815: Decimal quantity for simple product cannot be used for new bundled product option
 
-The ACSD-50815 patch fixes the issue where the decimal quantity for simple product cannot be used for a new bundle product option. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-50815. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50815 patch fixes the issue where the decimal quantity for a simple product cannot be used for a new bundled product option. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-50815. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,7 +23,7 @@ The ACSD-50815 patch fixes the issue where the decimal quantity for simple produ
 
 ## Issue
 
-The decimal quantity for simple product cannot be used for a new bundle product option.
+The decimal quantity for a simple product cannot be used for a new bundled product option.
 
 <u>Steps to reproduce</u>:
 
@@ -31,10 +31,10 @@ The decimal quantity for simple product cannot be used for a new bundle product 
 1. Create a new simple product.
     * In the **[!UICONTROL Advanced Inventory]** window, set [!UICONTROL Qty Uses Decimal] = [!UICONTROL Yes].
     * Save the simple product.
-1. Create a new bundle product.
+1. Create a new bundled product.
 1. Add any option.
-7. Add simple product into this option.
-8. Set the decimal quantity for a simple product in the bundle product option. For example, 1.5.
+1. Add a simple product into this option.
+1. Set the decimal quantity for the simple product in the bundled product option. For example, 1.5.
 
 <u>Expected results</u>:
 
