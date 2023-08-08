@@ -38,7 +38,7 @@ The (*update 2*) should remain in the **[!UICONTROL schedule update]** list when
 
 <u>Actual results</u>
 
-The *[ update 2 ]* was removed from the **[!UICONTROL schedule update]** list when *[ update 1 ]* is edited.
+The (*update 2*) was removed from the **[!UICONTROL schedule update]** list when (*update 1*) is edited.
 
 ## Apply the patch
 
