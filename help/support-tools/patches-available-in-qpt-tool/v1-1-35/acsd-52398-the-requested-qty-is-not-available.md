@@ -35,7 +35,7 @@ The requested qty is not available when trying to update the quantity of a bundl
 
 <u>Expected results</u>:
 
-No error
+There is no error.
 
 <u>Actual results</u>:
 
