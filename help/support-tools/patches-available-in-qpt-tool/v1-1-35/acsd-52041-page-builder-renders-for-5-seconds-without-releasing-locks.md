@@ -16,7 +16,7 @@ The ACSD-52041 patch fixes the issue where the copied text styles aren't applied
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p1
 
 >[!NOTE]
 >
