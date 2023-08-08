@@ -1,7 +1,7 @@
 ---
 title: "ACSD-52202: Default stock salable qty changes to 0 in error when non-default stock set to 0 qty in order"
 description: Apply the ACSD-52202 patch to fix the Adobe Commerce issue where a default stock salable quantity changes to 0 in error when non-default stock set to 0 quantity in an order.
-feature: Inventory, Orders
+feature: Inventory, Products
 role: Admin
 ---
 # ACSD-52202: Default stock salable quantity changes to 0 in error when non-default stock set to 0 quantity in an order
