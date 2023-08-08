@@ -39,7 +39,7 @@ There is no error.
 
 <u>Actual results</u>:
 
-Error - *The requested qty is not available*.
+The following error is thrown: *The requested qty is not available*.
 
 ## Apply the patch
 
