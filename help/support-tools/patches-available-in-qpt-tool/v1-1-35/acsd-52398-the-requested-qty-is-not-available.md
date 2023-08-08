@@ -24,7 +24,7 @@ The ACSD-52398 patch fixes the issue where the requested qty is not available wh
 
 ## Issue
 
-An error *The requested qty is not available* occurs when trying to update the quantity of a bundled product in the cart on the storefront.
+The requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
 
 <u>Steps to reproduce</u>:
 
