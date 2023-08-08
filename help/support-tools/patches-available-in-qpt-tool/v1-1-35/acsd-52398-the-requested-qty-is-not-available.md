@@ -4,7 +4,7 @@ description: Apply the ACSD-52398 patch to fix the Adobe Commerce issue where th
 feature: Storefront
 role: Admin
 ---
-# ACSD-52398: Error - *The requested qty is not available* on storefront
+# ACSD-52398: Requested qty not available when trying to update quantity of bundled product
 
 The ACSD-52398 patch fixes the issue where an error *The requested qty is not available* occurs when trying to update the quantity of a bundled product in the cart on the storefront. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52398. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
