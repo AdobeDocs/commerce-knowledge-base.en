@@ -34,7 +34,7 @@ The changes in scheduled update without an end date leads to removing other sche
 
 <u>Expected results</u>
 
-The *[ update 2 ]* should remain in the **[!UICONTROL schedule update]** list when *[ update 1 ] is edited.
+The (*update 2*) should remain in the **[!UICONTROL schedule update]** list when (*update 1*) is edited.
 
 <u>Actual results</u>
 
