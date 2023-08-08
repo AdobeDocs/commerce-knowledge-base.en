@@ -29,7 +29,7 @@ The requested qty is not available when trying to update the quantity of a bundl
 <u>Steps to reproduce</u>:
 
 1. Create two simple products with quantity *1* and *10*.
-1. Create a bundled product using those simple products.
+1. Create a bundled product using the simple products.
 1. Add the bundled product to the cart.
 1. Edit the product and try to update the quantity.
 
