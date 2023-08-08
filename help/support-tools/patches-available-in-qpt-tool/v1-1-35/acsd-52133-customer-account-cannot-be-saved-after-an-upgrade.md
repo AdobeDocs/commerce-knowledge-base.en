@@ -56,7 +56,9 @@ The customer is saved successfully without errors.
 * The customer record is not saved. 
 * The admin sees the following error message:
 
-    *Something went wrong while saving the customer.*
+    >[!ERROR]
+    >
+    >*Something went wrong while saving the customer.*
 
 ## Apply the patch
 
