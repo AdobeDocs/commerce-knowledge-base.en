@@ -24,7 +24,7 @@ The ACSD-51890 patch fixes the issue where the **[!UICONTROL Submit Review]** bu
 
 ## Issue
 
-The **[!UICONTROL Submit Review]** button can be clicked multiple times without the **[!UICONTROL Google reCAPTCHA v3]** validation.
+The **[!UICONTROL Submit Review]** button can be clicked multiple times without the **[!DNL Google reCAPTCHA v3]** validation.
 
 <u>Steps to reproduce</u>:
 
