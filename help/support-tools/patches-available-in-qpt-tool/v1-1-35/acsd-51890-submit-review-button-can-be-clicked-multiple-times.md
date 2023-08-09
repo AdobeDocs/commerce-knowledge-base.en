@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51890: Submit review button can be clicked multiple times"
+title: "ACSD-51890: [!UICONTROL Submit review] button can be clicked multiple times"
 description: Apply the ACSD-51890 patch to fix the Adobe Commerce issue where the submit review button can be clicked multiple times without Google reCAPTCHA v3 validation.
 feature: Products
 role: Admin
