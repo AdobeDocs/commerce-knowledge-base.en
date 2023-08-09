@@ -28,7 +28,7 @@ vendor/bin/ece-tools db-dump
 
 This is the recommended and safest option.
 
- See [Dump your database (ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html#dump-your-database) in our Commerce on Cloud Infrastructure Guide.
+ See [Dump your database (ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html) in our Commerce on Cloud Infrastructure Guide.
 
 ## Option 2: mysqldump
 
