@@ -1,8 +1,8 @@
 ---
 title: "ACSD-48448: Race condition issue during order cancellations causing duplicated entry in inventory_reservation table"
 description: Apply the ACSD-48448 patch to fix the Adobe Commerce performance issue where the Race condition issue is happening during the order cancellations, which causes duplicated entries in the inventory_reservation table.
-feature:
-role:
+feature: Orders, Checkout
+role: Admin
 ---
 # ACSD-48448: Race condition issue during order cancellations causing duplicated entry in inventory_reservation table
 
