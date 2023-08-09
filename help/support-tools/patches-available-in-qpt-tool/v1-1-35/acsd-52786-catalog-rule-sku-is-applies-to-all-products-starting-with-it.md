@@ -44,7 +44,7 @@ Catalog rule is applied only to a single product with SKU equal to 24.
 
 <u>Actual results</u>:
 
-Catalog rule condition "*[!UICONTROL SKU is]*" applies to all products starting with the given SKU.
+Catalog rule condition *[!UICONTROL SKU is]* applies to all products starting with the given SKU.
 
 ## Apply the patch
 
