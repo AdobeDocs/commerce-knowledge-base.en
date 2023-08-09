@@ -39,7 +39,7 @@ Duplicate reviews are not created.
 
 <u>Actual results</u>
 
-The duplicate reviews are created.
+Duplicate reviews are created.
 
 ## Apply the patch
 
