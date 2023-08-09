@@ -29,7 +29,7 @@ The **[!UICONTROL Submit Review]** button can be clicked multiple times without 
 <u>Steps to reproduce</u>:
 
 1. Enable **[!DNL Google reCAPTCHA v3]** for the product review.
-1. Open the product page and navigate to the **[!UICONTROL Review]** section and make sure the [!UICONTROL reCAPTCHA] is visible.
+1. Open the product page and navigate to the **[!UICONTROL Review]** section and make sure the [!DNL reCAPTCHA] is visible.
 1. Fill the **[!UICONTROL Review Form]** and click the **[!UICONTROL Submit Review]** button multiple times as quickly as possible.
 1. Open the **[!UICONTROL Review]** section from the admin.
 
