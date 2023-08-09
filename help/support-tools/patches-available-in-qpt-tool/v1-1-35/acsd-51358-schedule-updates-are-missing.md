@@ -6,7 +6,7 @@ role: Admin
 ---
 # ACSD-51358: Schedule updates are missing
 
-The ACSD-51358 patch fixes the issue where the changes in scheduled update without an end date leads to removing other scheduled updates on the same entity. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-51358. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51358 patch fixes the issue where the changes in scheduled update without an end date lead to removing other scheduled updates on the same entity. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-51358. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
