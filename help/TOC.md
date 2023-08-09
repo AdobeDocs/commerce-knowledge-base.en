@@ -627,6 +627,7 @@ breadcrumb-title: Commerce KB
     * v1.1.35{#v1-1-35}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
         * [ACSD-52133: Customer account cannot be saved after an upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52133-customer-account-cannot-be-saved-after-an-upgrade.md)
+        * [ACSD-51890: Submit review button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
