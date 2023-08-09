@@ -1,7 +1,7 @@
 ---
 title: "ACSD-52133: Customer account cannot be saved after an upgrade"
 description: Apply the ACSD-52133 patch to fix the Adobe Commerce issue where a customer account cannot be saved after an upgrade.
-feature: Customers, Upgrade, User Account 
+feature: Customers, Upgrade 
 role: Admin
 ---
 
@@ -54,11 +54,7 @@ The customer is saved successfully without errors.
 <u>Actual results</u>:
 
 * The customer record is not saved. 
-* The admin sees the following error message:
-
-    >[!ERROR]
-    >
-    >*Something went wrong while saving the customer.*
+* The admin sees the following error message: *Something went wrong while saving the customer.*
 
 ## Apply the patch
 
