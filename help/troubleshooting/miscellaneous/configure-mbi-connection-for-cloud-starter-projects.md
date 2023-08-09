@@ -57,6 +57,63 @@ Follow these steps:
 
 1. Create a dedicated MBI user.
 
+    * Create a new user on accounts.magento.com.
+    * Why a new user? Magento BI needs a user added to the project to continuously fetch new data to be transferred to the account's MBI data warehouse. This user will serve as that connection. Adding this user to the project will come in Step 4.
+    * The reason for having a dedicated MBI user is to prevent the added user from inadvertently being deactivated or deleted and stopping the MBI connection.
+
+1. Add the newly created user to the project's primary environment as a *Contributor*.
+
+    ![Add user as a Contributor](/help/troubleshooting/miscellaneous/assets/contributor_user_mbi.png)
+
+1. Get your MBI SSH keys.
+
+    * Go to the **[!UICONTROL Connect your database]** page of the MBI set up user interface and scroll down to **[!UICONTROL Encryption settings]**.
+    * For the field, **[!UICONTROL Encryption Type] choose **[!UICONTROL SSH Tunnel].
+    * From the dropdown, you can copy and paste the provided Magento BI Essentials Public Key.
+
+    ![Encryption settings](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
+
+1. Add your new Magento BI Essentials Public key to the MBI user created in Step 5.
+
+    * Go to https://accounts.magento.cloud/. Sign in with your account log in information for the new MBI user created. Then go to the **[!UICONTROL Account Settings]** tab.
+    * Scroll down the page and expand the drop down for SSH keys. Then click **[!UICONTROL Add a public key]**.
+
+    ![Add a public key](/help/troubleshooting/miscellaneous/assets/add_public_key_mbi.png)
+
+    * Add the Magento MBI Essentials SSH Public Key from above.
+
+    ![Add SSH Public Key](/help/troubleshooting/miscellaneous/assets/add_ssh_key_mbi.png)
+
+1. Provide Magento Business Intelligence Essentials MySQL credentials.
+
+    * Update your `.magento/services.yaml`
+
+    ```
+    mysql:
+     type: mysql:10.0
+     disk: 2048
+     configuration:
+         schemas:
+             - main
+         endpoints:
+             mysql:
+                 default_schema: main
+                 privileges:
+                     main: admin
+             mbi:
+                 default_schema: main
+                 privileges:
+                     main: ro
+    ```
+
+1. 
+
+
+
+
+
+
+
 
 
 
