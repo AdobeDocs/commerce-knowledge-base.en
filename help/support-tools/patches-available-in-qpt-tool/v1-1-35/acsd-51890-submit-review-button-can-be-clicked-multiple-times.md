@@ -35,7 +35,7 @@ The **[!UICONTROL Submit Review]** button can be clicked multiple times without 
 
 <u>Expected results</u>
 
-The duplicate reviews are not created.
+Duplicate reviews are not created.
 
 <u>Actual results</u>
 
