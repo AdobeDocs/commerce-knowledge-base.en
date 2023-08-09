@@ -24,7 +24,7 @@ The ACSD-51358 patch fixes the issue where the changes in scheduled update witho
 
 ## Issue
 
-The changes in scheduled update without an end date leads to removing other scheduled updates on the same entity.
+The changes in scheduled update without an end date lead to removing other scheduled updates on the same entity.
 
 <u>Steps to reproduce</u>:
 
