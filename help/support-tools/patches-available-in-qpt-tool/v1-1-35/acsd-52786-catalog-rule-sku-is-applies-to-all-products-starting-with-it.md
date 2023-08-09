@@ -7,7 +7,7 @@ role: Admin
 
 # ACSD-52786: Catalog rule "*[!UICONTROL SKU is]*" applies to all products starting with the SKU
 
-The ACSD-52786 patch fixes the issue where the catalog rule condition "*[!UICONTROL SKU is]*" applies to all the products starting with the given SKU. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52786. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-52786 patch fixes the issue where the catalog rule condition *[!UICONTROL SKU is]* applies to all the products starting with the given SKU. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52786. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
