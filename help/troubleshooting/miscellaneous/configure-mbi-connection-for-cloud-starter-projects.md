@@ -106,7 +106,90 @@ Follow these steps:
                      main: ro
     ```
 
-1. 
+    * Update your `.magento.app.yaml`.
+
+    ```
+    relationships:
+             database: "mysql:mysql"
+             mbi: "mysql:mbi"
+             redis: "redis:redis"
+    ```
+
+1. Get information for connecting your database to Magento Business Intelligence.
+
+    Run `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 --decode | json_pp` to get information on connecting your database.
+
+    You should receive information similar to the output below:
+
+    ```
+    "mbi" : [
+               {
+                  "scheme" : "mysql",
+                  "rel" : "mbi",
+                  "cluster" : "vfbfui4vmfez6-master-7rqtwti",
+                  "query" : {
+                     "is_master" : true
+                  },
+                  "ip" : "169.254.169.143",
+                  "path" : "main",
+                  "host" : "mbi.internal",
+                  "hostname" : "3m7xizydbomhnulyglx2ku4wpq.mysql.service._.magentosite.cloud",
+                  "username" : "mbi",
+                  "service" : "mysql",
+                  "port" : 3306,
+                  "password" : "[password]"
+               }
+            ],
+    ```
+
+1. Connect your Adobe Commerce Database.
+
+    ![Connect your Adobe Commerce Database](/help/troubleshooting/miscellaneous/assets/connect_magento_database_mbi.png)
+
+    *Inputs*:
+
+    * Integration Name: [Choose a name for your integration.]
+    * Host: `mbi.internal`
+    * Port: 3306
+    * Username: mbi
+    * Password: [input password provided in Step 8's output.]
+    * Database Name: main
+    * Table Prefixes: [leave blank if there are no table prefixes]
+
+1. Set your Timezone Settings.
+
+    ![Timezone settings](/help/troubleshooting/miscellaneous/assets/timezone_settings_mbi.png)
+
+    *Inputs*
+
+    * Database: Timezone: UTC
+    * Desired Timezone: [Choose the time zone you want your data to display in.]
+
+1. Get information for your encryption settings.
+
+    * The project UI provides an SSH access string. This string can be used for gathering the information needed for the Remote Address and Username in setting up your **[!UICONTROL Encryption settings]. Use the SSH Access string found by clicking the access site button on your Master branch of your Project UI and find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
+
+    ![Access site master](/help/troubleshooting/miscellaneous/assets/access_site_mbi.png)
+
+    ![User name and remote address](/help/troubleshooting/miscellaneous/assets/user_name_address_mbi.png)
+
+1. Input information for your Encryption Settings.
+
+    ![Encryption settings](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
+
+    *Inputs*
+
+    * Encryption Type: SSH Tunnel
+    * Remote Address: ssh.us-3.magento.cloud
+    * Username: vfbfui4vmfez6-master-7rqtwti--mymagento
+    * Port: 22
+
+1. Click Save Integration.
+1. You have now successfully connected to your Magento BI Essentials account.
+1. If you are a Magento BI Pro customer, contact your Customer Success Manager or Customer Technical Advisor to coordinate the next steps.
+
+
+
 
 
 
