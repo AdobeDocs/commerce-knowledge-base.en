@@ -2,7 +2,7 @@
 title: "ACSD-52041: Page Builder rendering doesn't release locks"
 description: Apply the ACSD-52041 patch to fix the Adobe Commerce issue where the Page Builder renders for 5 seconds without releasing locks.
 feature: Page Builder
-role: Admin
+role: Admin, Developer
 ---
 # ACSD-52041: Page Builder rendering doesn't release locks
 
