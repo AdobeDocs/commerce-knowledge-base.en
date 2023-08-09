@@ -28,7 +28,7 @@ The Page Builder renders for 5 seconds without releasing locks.
 
 <u>Steps to reproduce</u>:
 
-1. Edit **[!UICONTROL CMS Page]**, product or anything that has Page Builder.
+1. Edit a CMS page, product page or anything that has Page Builder.
 1. Save the changes. 
 1. Notice the page saving time.
 
