@@ -624,6 +624,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-52689: Images can't upload to Amazon S3 storage via REST API](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-52689-images-cannot-be-uploaded-to-amazon-s3-storage-using-rest-api.md)
         * [ACSD-51857: Slow cron job of aggregate_sales_report_bestsellers_data affects performance](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51857-slow-cron-job-of-aggregate-sales-report-bestsellers-data-affects-performance.md)
         * [ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51739-error-on-requesting-structure-id-in-company-team-graphql-request.md)
+        * [ACSD-48448: Race condition issue during order cancellations causing duplicated entry in inventory_reservation table](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-48448-race-condition-issue-happening-during-order%20cancellations.md)
     * v1.1.35{#v1-1-35}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
         * [ACSD-51890: Submit review button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md)
