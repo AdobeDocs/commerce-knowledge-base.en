@@ -25,7 +25,7 @@ The ACSD-52786 patch fixes the issue where the catalog rule condition *[!UICONTR
 
 ## Issue
 
-Catalog rule condition "*[!UICONTROL SKU is]*" applies to all products starting with the given SKU.
+Catalog rule condition *[!UICONTROL SKU is]* applies to all products starting with the given SKU.
 
 <u>Steps to reproduce</u>:
 
