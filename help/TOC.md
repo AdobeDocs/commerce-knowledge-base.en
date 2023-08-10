@@ -626,6 +626,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51739-error-on-requesting-structure-id-in-company-team-graphql-request.md)
     * v1.1.35{#v1-1-35}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
+        * [ACSD-48070: Exception while editing a scheduled update](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-48070-exception-while-editing-a-scheduled-update.md)
         * [ACSD-52786: Catalog rule [!UICONTROL SKU is] applies to all products starting with the SKU](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52786-catalog-rule-sku-is-applies-to-all-products-starting-with-it.md)
         * [ACSD-52041: Page Builder rendering doesn't release locks](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52041-page-builder-renders-for-5-seconds-without-releasing-locks.md)
         * [ACSD-51890: Submit review button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md)
