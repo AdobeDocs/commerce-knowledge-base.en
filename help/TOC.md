@@ -630,6 +630,9 @@ breadcrumb-title: Commerce KB
         * [ACSD-52786: Catalog rule [!UICONTROL SKU is] applies to all products starting with the SKU](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52786-catalog-rule-sku-is-applies-to-all-products-starting-with-it.md)
         * [ACSD-52041: Page Builder rendering doesn't release locks](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52041-page-builder-renders-for-5-seconds-without-releasing-locks.md)
         * [ACSD-51890: Submit review button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md)
+    * v.1.1.36{#v1-1-36}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.36](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/overview.md)
+
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
