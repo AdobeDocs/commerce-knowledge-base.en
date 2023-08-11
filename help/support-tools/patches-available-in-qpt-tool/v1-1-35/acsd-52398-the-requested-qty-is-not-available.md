@@ -2,7 +2,7 @@
 title: "ACSD-52398: Requested qty not available when trying to update quantity of bundled product"
 description: Apply the ACSD-52398 patch to fix the Adobe Commerce issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
 feature: Shopping Cart
-role: User
+role: Admin
 ---
 # ACSD-52398: Requested qty not available when trying to update quantity of bundled product
 
