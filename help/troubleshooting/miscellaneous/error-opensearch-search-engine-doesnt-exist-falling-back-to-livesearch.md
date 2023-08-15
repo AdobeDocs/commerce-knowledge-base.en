@@ -1,11 +1,11 @@
 ---
-title: "Error "[!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].""
+title: "Error [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch]."
 description: This article provides a solution to the issue where you see the error, `Error- [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].`, in Adobe Commerce on cloud infrastructure.
 feature: Deploy, Search
 role: Developer
 ---
 
-# Error "[!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch]."
+# Error [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].
 
 This article provides a solution to the issue where you see the error: *Error: [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].* in Adobe Commerce on cloud infrastructure.
 
