@@ -7,11 +7,12 @@ role: Developer
 
 # Error [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].
 
-This article provides a solution to the issue where you see the error: *Error: [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].* in Adobe Commerce on cloud infrastructure.
+This article provides a solution to the issue where you see the error: *Error: [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].* in Adobe Commerce on cloud infrastructure where [!DNL Live Search] is used.
 
 ## Affected products and versions
 
 * Adobe Commerce on cloud infrastructure, all versions
+* [!DNL Live Search] is installed and in use
 
 ## Issue
 
