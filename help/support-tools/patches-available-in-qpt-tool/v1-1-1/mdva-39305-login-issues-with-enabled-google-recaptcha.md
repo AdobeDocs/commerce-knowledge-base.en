@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-39305: Login issue with enabled Google reCAPTCHA'
-description: The MDVA-39305 patch fixes the issue where registered customers are not able to log in with enabled Google reCAPTCHA. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 is installed. The patch ID is MDVA-39305. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4.
+description: The MDVA-39305 patch fixes the issue where registered customers are not able to log in with enabled Google reCAPTCHA. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 is installed. The patch ID is MDVA-39305. Please note that the issue is scheduled to be fixed in Adobe Commerce version 2.4.4, 2.4.7.
 exl-id: 1e8e7dc7-f8f1-4432-90f4-dc73d85f353a
 feature: Console
 role: Admin
@@ -13,11 +13,11 @@ The MDVA-39305 patch fixes the issue where registered customers are not able to 
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce on cloud infrastructure 2.4.2-p1, 2.4.3-p3
+* Adobe Commerce on cloud infrastructure 2.4.2-p1, 2.4.3-p3, 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.2-p1, 2.4.3 - 2.4.3-p3
+* Adobe Commerce (all deployment methods) 2.4.1-p1 - 2.4.3-p3, 2.4.4-p1 - 2.4.4-p5, 2.4.5 - 2.4.6-p2
 
 >[!NOTE]
 >
