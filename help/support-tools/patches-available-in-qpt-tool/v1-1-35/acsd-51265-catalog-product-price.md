@@ -16,7 +16,7 @@ The ACSD-51265 patch fixes the issue where the `catalog_product_price` reindexin
 
 **Compatible with Adobe Commerce versions:** 
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-pt1
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p1
 
 >[!NOTE]
 >
