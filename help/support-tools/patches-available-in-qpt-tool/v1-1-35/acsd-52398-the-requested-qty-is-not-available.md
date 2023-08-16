@@ -16,7 +16,7 @@ The ACSD-52398 patch fixes the issue where the requested qty is not available wh
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 < 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ The requested qty is not available when trying to update the quantity of a bundl
 1. Create two simple products with quantity *1* and *10*.
 1. Create a bundled product using the simple products.
 1. Add the bundled product to the cart.
-1. Edit the product and try to update the quantity.
+1. Edit the product and try to update the quantity to *3* for the option where *10* items are available.
 
 <u>Expected results</u>:
 
-There is no error.
+There is no error. Qty should be updated successfully since we have *10* items in stock for this option. 
 
 <u>Actual results</u>:
 
