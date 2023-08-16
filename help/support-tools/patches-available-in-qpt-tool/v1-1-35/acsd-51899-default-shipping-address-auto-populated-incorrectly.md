@@ -1,7 +1,7 @@
 ---
 title: "ACSD-51899: Default shipping address auto-populated incorrectly"
 description: Apply the ACSD-51899 patch to fix the Adobe Commerce issue where the default shipping address is auto-populated with a wrong address.
-feature: Admin Workspace, Shipping/Delivery
+feature: Checkout
 role: Admin
 ---
 # ACSD-51899: Default shipping address is auto-populated with a wrong address
