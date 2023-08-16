@@ -37,7 +37,7 @@ Product price reindexing takes less than 15 min.
 
 <u>Actual results</u>
 
-Product price reindex would take more than 1 hour.
+Product price reindexing takes more than an hour.
 
 ## Apply the patch
 
