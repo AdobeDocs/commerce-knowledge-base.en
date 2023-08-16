@@ -1,7 +1,7 @@
 ---
 title: Configuring MBI Connection for existing cloud starter projects
 description: This article provides a solution for when you want to configure MBI Connection for existing cloud starter projects.
-feature: Observability
+feature: Commerce Intelligence
 role: Developer
 ---
 # Configuring MBI Connection for existing cloud starter projects
