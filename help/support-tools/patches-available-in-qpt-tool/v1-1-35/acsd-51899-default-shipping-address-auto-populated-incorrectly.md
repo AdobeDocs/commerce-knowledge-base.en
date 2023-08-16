@@ -4,7 +4,7 @@ description: Apply the ACSD-51899 patch to fix the Adobe Commerce issue where th
 feature: Checkout
 role: Admin
 ---
-# ACSD-51899: Default shipping address is auto-populated with a wrong address
+# ACSD-51899: Default shipping address auto-populated incorrectly
 
 The ACSD-51899 patch fixes the issue where the the default shipping address is auto-populated with a wrong address. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-51899. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
