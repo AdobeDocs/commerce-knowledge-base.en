@@ -28,7 +28,7 @@ The catalog product price reindexing performance is low when there are too many 
 
 <u>Steps to reproduce</u>:
 
-1. Generate catalog with at least **10 000** bundle products with dynamic price options
+1. Generate a catalog with at least *10,000* bundled products with dynamic price options.
 
 2. Run **product price reindex**
 
