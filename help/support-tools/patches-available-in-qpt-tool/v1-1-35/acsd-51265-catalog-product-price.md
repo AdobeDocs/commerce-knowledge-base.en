@@ -33,7 +33,7 @@ The catalog product price reindexing performance is low when there are too many 
 
 <u>Expected results</u>
 
-Product price reindex should take less then 15 min.
+Product price reindexing takes less than 15 min.
 
 <u>Actual results</u>
 
