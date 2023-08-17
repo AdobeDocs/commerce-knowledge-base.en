@@ -1,12 +1,12 @@
 ---
-title: "ACSD-51892: Performance issue where config files load multiple times"
-description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where config files load multiple times during deployment.
-feature: Observability
+title: "ACSD-51683: Customizable option can't be added to the cart using GraphQL"
+description: Apply the ACSD-51683 patch to fix the Adobe Commerce issue where the customizable option can't be added to the cart using GraphQL.
+feature: GraphQL
 role: Admin
 ---
-# ACSD-51892: Performance issue where config files load multiple times
+# ACSD-51683: Customizable option can't be added to the cart using GraphQL
 
-The ACSD-51892 patch fixes the performance issue that arises from loading the `app/etc/env.php` and `app/etc/config.php` files each time deployment configuration values are accessed within a single request. The excessive file reading puts strain on the system, leading to a deterioration in overall performance. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51892. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51683 patch fixes the issue where the customizable option can't be added to the cart using GraphQL. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-51683. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,21 +24,21 @@ The ACSD-51892 patch fixes the performance issue that arises from loading the `a
 
 ## Issue
 
-There is a performance issue where the config files load multiple times.
+The customizable option can't be added to the cart using GraphQL.
 
 <u>Steps to reproduce</u>:
 
-1. Perform deployment or upgrade to Adobe Commerce 2.4.6 or later.
-1. Check filesystem logs for access to `app/etc/env.php` and `app/etc/config.php` files while deployment is running.
+1. Create a simple product with a customizable **Text field** option.
+1. [Add to cart](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/) the created product with the required customizable option via GraphQL.
+1. Send the [cart](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/queries/cart/) GraphQL request to check the product and its details in the cart.
 
-<u>Expected results</u>:
+<u>Expected results</u>
 
-Deployment is successful within the regular timeframe.
+The `Customizable_options` section in the GraphQL response contains the data provided while adding the product to the cart.
 
-<u>Actual results</u>:
+<u>Actual results</u>
 
-* The servers are struggling to respond to any commands you enter. This results in *Error 503 first byte timeout* when accessing the website.
-* There are multiple entries in log files with access to `app/etc/env.php` and `app/etc/config.php` files.
+The `Customizable_options` section in the GraphQL response is empty.
 
 ## Apply the patch
 

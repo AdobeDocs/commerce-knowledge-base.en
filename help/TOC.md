@@ -622,8 +622,20 @@ breadcrumb-title: Commerce KB
         * [ACSD-51853: Copied text styles aren't applied using page builder](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51853-copied-text-styles-are-not-applied-when-page-builder-is-used.md)
         * [ACSD-51630: Numerous system messages slow download of Admin Pages](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51630-large-amount-of-system-messages-slows-the-downloading-of-admin-pages.md)
         * [ACSD-52689: Images can't upload to Amazon S3 storage via REST API](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-52689-images-cannot-be-uploaded-to-amazon-s3-storage-using-rest-api.md)
+        * [ACSD-51857: Slow cron job of aggregate_sales_report_bestsellers_data affects performance](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51857-slow-cron-job-of-aggregate-sales-report-bestsellers-data-affects-performance.md)
         * [ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51739-error-on-requesting-structure-id-in-company-team-graphql-request.md)
-    * v1.1.35 {#v1-1-35}
+    * v1.1.35{#v1-1-35}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
+        * [ACSD-51683: Customizable option can't be added to the cart using GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51683-customizable-option-cant-be-added-to-the-cart-using-graphql.md)
+        * [ACSD-52398: Requested qty not available when trying to update quantity of bundled product](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52398-the-requested-qty-is-not-available.md)
+        * [ACSD-52815: Input field for quantity field of non-default source supports only up to 6 digits](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52815-input-field-for-quantity-field-non-default-source-supports-only-six-digits.md)
+        * [ACSD-51899: Default shipping address auto-populated incorrectly](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51899-default-shipping-address-auto-populated-incorrectly.md)
+        * [ACSD-48070: Exception while editing a scheduled update](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-48070-exception-while-editing-a-scheduled-update.md)
+        * [ACSD-52786: Catalog rule [!UICONTROL SKU is] applies to all products starting with the SKU](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52786-catalog-rule-sku-is-applies-to-all-products-starting-with-it.md)
+        * [ACSD-52041: Page Builder rendering doesn't release locks](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52041-page-builder-renders-for-5-seconds-without-releasing-locks.md)
+        * [ACSD-51890: Submit review button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md)
+        * [ACSD-51984: Unchecked Used Default Value and non-default product field values are not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51984-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.md)
+        * [ACSD-52831: Cannot place negotiable quote orders when [!DNL Google reCAPTCHA v3 Invisible] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52831-cannot-place-negotiable-quote-orders.md)
         * [ACSD-51265: Optimize reindexing for bundled products](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51265-catalog-product-price.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
@@ -644,6 +656,7 @@ breadcrumb-title: Commerce KB
     * [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2.4.0.md)
     * [Adobe support customer data access and privacy](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
     * [UPS APIs deprecated](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
+    * [2024 release schedule](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
   * Help Center News {#news}
     * [Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
     * [Adobe Commerce Support Knowledge Base starts accepting contributions](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
@@ -704,6 +717,7 @@ breadcrumb-title: Commerce KB
     * [Customers get logged out or lose cart content on Adobe Commerce storefront](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
     * [Cannot save contact as URL key](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
   * Installation and upgrade {#installation-and-upgrade}
+    * [Reduce expired "oauth_tokens" before 2.4.6 upgrade](/help/troubleshooting/installation-and-upgrade/reduce-expired-oauth-tokens-before-2.4.6-upgrade.md)
     * [Cannot install using nginx](/help/troubleshooting/installation-and-upgrade/cannot-install-using-nginx.md)
     * [Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5](/help/troubleshooting/installation-and-upgrade/wishlist-error-during-upgrade-to-magento-versions-2.3.4-p1-or-2.3.5.md)
     * [Adobe Commerce 2.4.0 installation fails with outdated stores cache](/help/troubleshooting/installation-and-upgrade/magento-2.4.0-known-issue-2.4.0-installation-fails-with-outdated-stores-cache.md)
@@ -900,6 +914,7 @@ breadcrumb-title: Commerce KB
     * [Unable to add user to Adobe Commerce cloud project](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
     * [Cron stops due to misconfigured or missing [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
     * [The file can't be deleted. Warning! unlink: No such file or directory error* from the [!DNL Admin]](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)
+    * [[!DNL Admin] login not working - allowed session max size exceeded](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
@@ -916,6 +931,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying](/help/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.md)
     * [Deployment stuck with "Unable to upload the application to the remote cluster" error](/help/troubleshooting/deployment/deployment-stuck-with-unable-to-upload-the-application-to-the-remote-cluster-error.md)
     * [Deployment error: "error 7 while downloading ... port 443: Connection refused"](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
+    * [Deployment errors when committing incorrect files](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
   * Known issues {#known-issues-patches-attached}
     * [Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.3-p2-2.4.5-security-hotfix-for-cve-2022-35698.md)
     * [Empty shopping cart issue when multiple click on checkout from mini cart](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
@@ -966,6 +982,7 @@ breadcrumb-title: Commerce KB
     * [B2B: Companies cannot access profile pages on store front](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
     * [Adobe Commerce 2.4.6 error placing order from Admin panel](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.6-error-placing-order-from-admin-panel.md)
     * [[!UICONTROL salesRule] label issues when upgrade from versions < 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2.4.5.md)
+    * [[!DNL JQuery UI] security vulnerability [!DNL CVE-2022-31160] fix for 2.4.4, 2.4.5, and 2.4.6 releases](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2.4.4-2.4.5-2.4.6.md)
   * Elasticsearch {#elasticsearch}
     * [Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2.3.1-upgrade.md)
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
@@ -1070,7 +1087,7 @@ breadcrumb-title: Commerce KB
   * [Two-Factor Authentication in Admin Panel on Adobe Commerce FAQ](/help/faq/general/two-factor-authentication-in-admin-panel-on-magento-faq.md)
   * [Adobe Commerce support tools at a glance](/help/faq/general/support-tools-overview.md)
   * [Backup (snapshot) on Cloud: FAQ](/help/faq/general/backup-snapshot-on-cloud-faq.md)
-  * [FAQ for the 2023 Adobe Commerce Release Strategy and Lifecycle Policy](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
+  * [FAQ for the 2024 and 2023 Adobe Commerce Release Strategy and Lifecycle Policy](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
   * [Can I schedule Content Staging updates for prices in a shared catalog?](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
   * [Adobe Commerce Security Scan Tool FAQ](/help/faq/general/magento-security-scan-tool-faq.md)
   * [Adobe Commerce Software End of Support FAQ](/help/faq/general/adobe-commerce-eos-policy-faq.md)

@@ -1,22 +1,23 @@
 ---
-title: "ACSD-51892: Performance issue where config files load multiple times"
-description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where config files load multiple times during deployment.
-feature: Observability
+title: "ACSD-52786: Catalog rule *[!UICONTROL SKU is]* applies to all products starting with the SKU"
+description: Apply the ACSD-52786 patch to fix the Adobe Commerce issue where the catalog rule condition *[!UICONTROL SKU is]* applies to all the products starting with the given SKU.
+feature: Price Rules, Catalogs
 role: Admin
 ---
-# ACSD-51892: Performance issue where config files load multiple times
 
-The ACSD-51892 patch fixes the performance issue that arises from loading the `app/etc/env.php` and `app/etc/config.php` files each time deployment configuration values are accessed within a single request. The excessive file reading puts strain on the system, leading to a deterioration in overall performance. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51892. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+# ACSD-52786: Catalog rule "*[!UICONTROL SKU is]*" applies to all products starting with the SKU
+
+The ACSD-52786 patch fixes the issue where the catalog rule condition *[!UICONTROL SKU is]* applies to all the products starting with the given SKU. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52786. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p3
 
 >[!NOTE]
 >
@@ -24,21 +25,26 @@ The ACSD-51892 patch fixes the performance issue that arises from loading the `a
 
 ## Issue
 
-There is a performance issue where the config files load multiple times.
+Catalog rule condition *[!UICONTROL SKU is]* applies to all products starting with the given SKU.
 
 <u>Steps to reproduce</u>:
 
-1. Perform deployment or upgrade to Adobe Commerce 2.4.6 or later.
-1. Check filesystem logs for access to `app/etc/env.php` and `app/etc/config.php` files while deployment is running.
+1. Create two products, one with SKU "24" and another with SKU "24-MB01".
+1. Navigate to **[!UICONTROL Marketing]** > **[!UICONTROL Catalog Price Rule]** > **[!UICONTROL Add New Rule]**.
+1. Apply the following condition:
+    * *[!UICONTROL If **ALL** of these conditions are **TRUE**]* : *[!UICONTROL SKU is 24]*
+1. Set any discount amount in actions.
+1. Click **[!UICONTROL Save and Apply]**.
+1. Flush cache.
+1. Go to the storefront, and check the price of 24-MB01.
 
 <u>Expected results</u>:
 
-Deployment is successful within the regular timeframe.
+Catalog rule is applied only to a single product with SKU equal to 24.
 
 <u>Actual results</u>:
 
-* The servers are struggling to respond to any commands you enter. This results in *Error 503 first byte timeout* when accessing the website.
-* There are multiple entries in log files with access to `app/etc/env.php` and `app/etc/config.php` files.
+Catalog rule condition *[!UICONTROL SKU is]* applies to all products starting with the given SKU.
 
 ## Apply the patch
 

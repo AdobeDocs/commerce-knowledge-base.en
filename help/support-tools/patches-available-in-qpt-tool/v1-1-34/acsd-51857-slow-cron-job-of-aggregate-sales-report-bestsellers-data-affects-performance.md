@@ -1,22 +1,20 @@
 ---
-title: "ACSD-51892: Performance issue where config files load multiple times"
-description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where config files load multiple times during deployment.
-feature: Observability
-role: Admin
+title: "ACSD-51857: Slow cron job of `aggregate_sales_report_bestsellers_data` affects performance"
+description: Apply the ACSD-51857 patch to fix the Adobe Commerce issue where slow cron job `aggregate_sales_report_bestsellers_data` affects large `sales_order` and `sales_order_item` database tables.
 ---
-# ACSD-51892: Performance issue where config files load multiple times
+# ACSD-51857: Slow cron job of `aggregate_sales_report_bestsellers_data` affects performance
 
-The ACSD-51892 patch fixes the performance issue that arises from loading the `app/etc/env.php` and `app/etc/config.php` files each time deployment configuration values are accessed within a single request. The excessive file reading puts strain on the system, leading to a deterioration in overall performance. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51892. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51857 patch fixes the issue where slow cron job `aggregate_sales_report_bestsellers_data` affects large `sales_order` and `sales_order_item` database tables. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is installed. The patch ID is ACSD-51857. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.3-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -24,21 +22,28 @@ The ACSD-51892 patch fixes the performance issue that arises from loading the `a
 
 ## Issue
 
-There is a performance issue where the config files load multiple times.
+Cron job performance of `aggregate_sales_report_bestsellers_data` is slow on `sales_order` and `sales_order_item` database tables.
 
-<u>Steps to reproduce</u>:
+To resolve this, the main data query that grabs data for the report has been re-written to a more efficient form. It now uses a sub-query to determine data subset. 
 
-1. Perform deployment or upgrade to Adobe Commerce 2.4.6 or later.
-1. Check filesystem logs for access to `app/etc/env.php` and `app/etc/config.php` files while deployment is running.
+In order for the sub-query to function as fast as possible, a new index was added for the `sales_order` database table: `SALES_ORDER_STORE_STATE_CREATED` based on `store_id`, `state`, and `created_at` columns.
+
+<u>Prerequisites</u>
+
+Ensure a large number of orders daily.
+
+<u>Steps to reproduce</u>
+
+1. Execute the `aggregate_sales_report_bestsellers_data` cron job.
+1. Check the data to be displayed in the Admin dashboard, under the **[!UICONTROL Bestsellers]** tab.
 
 <u>Expected results</u>:
 
-Deployment is successful within the regular timeframe.
+*[!UICONTROL Quantity per source]* under the **[!UICONTROL Configuration]** tab shouldn't be empty.
 
 <u>Actual results</u>:
 
-* The servers are struggling to respond to any commands you enter. This results in *Error 503 first byte timeout* when accessing the website.
-* There are multiple entries in log files with access to `app/etc/env.php` and `app/etc/config.php` files.
+*[!UICONTROL Quantity per source]* under the **[!UICONTROL Configuration]** tab is empty.
 
 ## Apply the patch
 

@@ -1,22 +1,22 @@
 ---
-title: "ACSD-51892: Performance issue where config files load multiple times"
-description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where config files load multiple times during deployment.
-feature: Observability
+title: "ACSD-52398: Requested qty not available when trying to update quantity of bundled product"
+description: Apply the ACSD-52398 patch to fix the Adobe Commerce issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
+feature: Shopping Cart, Quotes, Products
 role: Admin
 ---
-# ACSD-51892: Performance issue where config files load multiple times
+# ACSD-52398: Requested qty not available when trying to update quantity of bundled product
 
-The ACSD-51892 patch fixes the performance issue that arises from loading the `app/etc/env.php` and `app/etc/config.php` files each time deployment configuration values are accessed within a single request. The excessive file reading puts strain on the system, leading to a deterioration in overall performance. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51892. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52398 patch fixes the issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52398. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.3-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -24,21 +24,22 @@ The ACSD-51892 patch fixes the performance issue that arises from loading the `a
 
 ## Issue
 
-There is a performance issue where the config files load multiple times.
+The requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
 
 <u>Steps to reproduce</u>:
 
-1. Perform deployment or upgrade to Adobe Commerce 2.4.6 or later.
-1. Check filesystem logs for access to `app/etc/env.php` and `app/etc/config.php` files while deployment is running.
+1. Create two simple products with quantity *1* and *10*.
+1. Create a bundled product using the simple products.
+1. Add the bundled product to the cart.
+1. Edit the product and try to update the quantity to *3* for the option where *10* items are available.
 
 <u>Expected results</u>:
 
-Deployment is successful within the regular timeframe.
+There is no error. Qty is updated successfully since there are *10* items in stock for this option. 
 
 <u>Actual results</u>:
 
-* The servers are struggling to respond to any commands you enter. This results in *Error 503 first byte timeout* when accessing the website.
-* There are multiple entries in log files with access to `app/etc/env.php` and `app/etc/config.php` files.
+The following error is thrown: *The requested qty is not available*.
 
 ## Apply the patch
 

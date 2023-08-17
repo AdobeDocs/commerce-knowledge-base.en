@@ -1,14 +1,14 @@
 ---
-title: FAQ for the 2023 Adobe Commerce Release Strategy and Lifecycle Policy
+title: FAQ for the 2024 and 2023 Adobe Commerce Release Strategy and Lifecycle Policy
 description: To meet the mission-critical needs of Adobe Commerce customers, we are expanding our support window for Adobe Commerce 2.4.4 and later versions to **3 years from the version [!DNL GA] date**. Support includes **both security and quality patches**. See our new [release calendar](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) for timing details.
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
 ---
-# FAQ for the 2023 Adobe Commerce Release Strategy and Lifecycle Policy
+# FAQ for the 2024 and 2023 Adobe Commerce Release Strategy and Lifecycle Policy
 
-## 2023 Release Strategy and Updated Lifecycle Policy
+## 2024 and 2023 Release Strategy and Updated Lifecycle Policy
 
-### How is the Adobe Commerce Software Lifecycle Policy changing in 2023?
+### How is the Adobe Commerce Software Lifecycle Policy changing in 2023 and 2024?
 
 To meet the mission-critical needs of Adobe Commerce customers, we are expanding our support window for Adobe Commerce 2.4.4 and later versions to **3 years from the version [!DNL GA] date**. Support includes **both security and quality patches**. 
 
@@ -34,15 +34,24 @@ To accelerate innovation and reduce the total cost of ownership, there will be o
 
 Delivering new capabilities as composable [!DNL SaaS] services provides customers with faster access to new tools that can help increase their sales. Functionality can be adopted at any time without having to upgrade the core Adobe Commerce application. And these services can be continually updated by Adobe to deliver the latest advances in functionality and performance. Having one core application patch release per year helps to reduce upgrade costs, makes it easier to plan for upgrades, and provides more time for customizing and optimizing the commerce experience. Additional lightweight security patches help customers stay more secure.
 
+### What is pre-release access?
+
+In 2023, customers can access Adobe Commerce patch releases approximately two weeks before general availability.
+
+Beginning in 2024, Adobe no longer provides "pre-release" access to patches. Instead, for 2.4.7 and later, customers can use [beta releases](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html) to access pre-general availability code for testing and development purposes. Pre-release access is still scheduled for the following 2023 releases:
+
+* August 8, 2023 pre-release access is July 25, 2023
+* October 10, 2023 pre-release access is September 26, 2023
+
 ### Where is the Adobe Commerce release schedule posted?
 
-Check out the [Adobe Commerce 2023 release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) on [!DNL Experience League] for more details.
+Check out the [Adobe Commerce release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) on [!DNL Experience League] for more details.
 
 ### What are the different types of releases included on the schedule?
 
 * **Core application patch releases**: core application upgrade that includes security, performance, and high-priority quality fixes.
 * **[!DNL Beta] version patch releases**: non-[!DNL General Availability] code updates to the core Adobe Commerce application that include security, compliance, performance, and high-priority quality fixes. It allows extra time to review code and affected components before patch release [!DNL GA].
-* **Feature releases**: releases of new features and feature updates that are delivered as composable services, separate from the patch releases. Examples include services like [!DNL Product Recommendations] and [!DNL Live Search], independent modules like [!DNL PWA Studio] and [!DNL Inventory Management] (MSI), and updates to our cloud services and infrastructure.
+* **Extensibility, infrastructure, and services releases**: releases of new features and feature updates that are delivered as composable services, separate from the patch releases. Examples include services like [!DNL Product Recommendations] and [!DNL Live Search], independent modules like [!DNL PWA Studio] and [!DNL Inventory Management] (MSI), and updates to our cloud services and infrastructure.
 * **Security patch releases**: security-only updates to the core application released to keep customers secure and compliant.
 
 ### Where do customers go to get quality patches?
