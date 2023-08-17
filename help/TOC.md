@@ -626,11 +626,18 @@ breadcrumb-title: Commerce KB
         * [ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51739-error-on-requesting-structure-id-in-company-team-graphql-request.md)
     * v1.1.35{#v1-1-35}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
+        * [ACSD-51683: Customizable option can't be added to the cart using GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51683-customizable-option-cant-be-added-to-the-cart-using-graphql.md)
+        * [ACSD-52398: Requested qty not available when trying to update quantity of bundled product](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52398-the-requested-qty-is-not-available.md)
+        * [ACSD-52815: Input field for quantity field of non-default source supports only up to 6 digits](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52815-input-field-for-quantity-field-non-default-source-supports-only-six-digits.md)
+        * [ACSD-51899: Default shipping address auto-populated incorrectly](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51899-default-shipping-address-auto-populated-incorrectly.md)
         * [ACSD-48070: Exception while editing a scheduled update](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-48070-exception-while-editing-a-scheduled-update.md)
         * [ACSD-52786: Catalog rule [!UICONTROL SKU is] applies to all products starting with the SKU](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52786-catalog-rule-sku-is-applies-to-all-products-starting-with-it.md)
         * [ACSD-52041: Page Builder rendering doesn't release locks](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52041-page-builder-renders-for-5-seconds-without-releasing-locks.md)
         * [ACSD-51890: Submit review button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md)
         * [ACSD-52921: Error requesting cart details from GraphQL for out-of-stock configurable product](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52921-internal-error-requesting-cart-details-from-graphql-for-out-of-stock-configurable-product.md)
+        * [ACSD-51984: Unchecked Used Default Value and non-default product field values are not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51984-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.md)
+        * [ACSD-52831: Cannot place negotiable quote orders when [!DNL Google reCAPTCHA v3 Invisible] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52831-cannot-place-negotiable-quote-orders.md)
+        * [ACSD-51265: Optimize reindexing for bundled products](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51265-catalog-product-price.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
