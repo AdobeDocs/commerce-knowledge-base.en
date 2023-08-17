@@ -4,7 +4,7 @@ description: Apply the ACSD-51984 patch to fix the Adobe Commerce issue where th
 feature: Products
 role: Admin
 ---
-# ACSD-51984: Unchecked **[!UICONTROL Use Default Value]** and non-default product field values are not saved 
+# ACSD-51984: Unchecked *[!UICONTROL Use Default Value]* and non-default product field values are not saved 
 
 The ACSD-51984 patch fixes the issue where the unchecked **[!UICONTROL Use Default Value]** and non-default product field values are not saved for the second website, store, and store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-51984. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
