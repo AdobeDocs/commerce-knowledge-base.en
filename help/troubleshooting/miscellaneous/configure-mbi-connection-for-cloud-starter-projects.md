@@ -1,16 +1,16 @@
 ---
-title: Configuring Adobe Commerce Intelligence Connection for existing cloud starter projects
-description: This article provides a solution for when you want to configure Adobe Commerce Intelligence Connection for existing cloud starter projects.
+title: Configuring Adobe Commerce Intelligence connection for existing cloud starter projects
+description: This article provides a solution for when you want to configure Adobe Commerce Intelligence connection for existing cloud starter projects.
 feature: Commerce Intelligence
 role: Developer
 ---
-# Configuring Adobe Commerce Intelligence Connection for existing cloud starter projects
+# Configuring Adobe Commerce Intelligence connection for existing cloud starter projects
 
 >[!NOTE]
 >
 >Adobe Commerce Intelligence was previously known as Magento Business Intelligence (MBI).
 
-This article provides a solution for when you want to configure Adobe Commerce Intelligence Connection for existing cloud starter projects.
+This article provides a solution for when you want to configure Adobe Commerce Intelligence connection for existing cloud starter projects.
 
 ## Affected products and versions
 
