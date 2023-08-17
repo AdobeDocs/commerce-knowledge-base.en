@@ -32,8 +32,8 @@ Follow these steps:
 
 1. Create your Adobe Commerce Intelligence Account:
 
-    * Log into the account.
-    * Go to **[!UICONTROL My Account]** > **[!UICONTROL My MBI Instances]**.
+    * Go to [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login).
+    * Navigate to **[!UICONTROL My Account]** > **[!UICONTROL My MBI Instances]**.
     * Click the **[!UICONTROL Create Instance]**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
     * Select your Cloud Starter subscription. If you only have a Cloud Starter subscription, this will automatically be selected.
     * Click **[!UICONTROL Continue]**.
