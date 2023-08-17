@@ -34,7 +34,7 @@ The customizable option can't be added to the cart using GraphQL.
 
 <u>Expected results</u>
 
-The `Customizable_options` section in GraphQL response contains the data provided while adding the product to the cart.
+The `Customizable_options` section in the GraphQL response contains the data provided while adding the product to the cart.
 
 <u>Actual results</u>
 
