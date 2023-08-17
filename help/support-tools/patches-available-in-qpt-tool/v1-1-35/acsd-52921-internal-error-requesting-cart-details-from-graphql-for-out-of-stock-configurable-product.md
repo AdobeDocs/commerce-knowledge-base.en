@@ -64,7 +64,7 @@ An internal error occurs on requesting cart details from GraphQL for an out-of-s
 
 1. This will return the quote details without any issues.
 1. Go to the backend and update the configurable product's *[!UICONTROL Stock Status]* to *[!UICONTROL Out of Stock]*.
-1. Execute the same GraphQL query, as done in step 04.
+1. Execute the same GraphQL query, as done in step 4.
 
 <u>Expected results</u>:
 
