@@ -625,8 +625,9 @@ breadcrumb-title: Commerce KB
         * [ACSD-51857: Slow cron job of aggregate_sales_report_bestsellers_data affects performance](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51857-slow-cron-job-of-aggregate-sales-report-bestsellers-data-affects-performance.md)
         * [ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51739-error-on-requesting-structure-id-in-company-team-graphql-request.md)
     * v1.1.35{#v1-1-35}
-        * [ACSD-52398: Requested qty not available when trying to update quantity of bundled product](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52398-the-requested-qty-is-not-available.md)
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
+        * [ACSD-52398: Requested qty not available when trying to update quantity of bundled product](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52398-the-requested-qty-is-not-available.md)
+        * [ACSD-52815: Input field for quantity field of non-default source supports only up to 6 digits](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52815-input-field-for-quantity-field-non-default-source-supports-only-six-digits.md)
         * [ACSD-51899: Default shipping address auto-populated incorrectly](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51899-default-shipping-address-auto-populated-incorrectly.md)
         * [ACSD-48070: Exception while editing a scheduled update](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-48070-exception-while-editing-a-scheduled-update.md)
         * [ACSD-52786: Catalog rule [!UICONTROL SKU is] applies to all products starting with the SKU](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52786-catalog-rule-sku-is-applies-to-all-products-starting-with-it.md)
