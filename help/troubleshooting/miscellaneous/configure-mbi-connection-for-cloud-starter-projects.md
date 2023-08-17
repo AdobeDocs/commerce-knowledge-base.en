@@ -61,7 +61,7 @@ Follow these steps:
 
 1. Create a dedicated Commerce Intelligence user.
 
-    * Create a new user on accounts.magento.com.
+    * Create a new user on [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login).
     * Why a new user? Adobe Commerce Intelligence needs a user added to the project to continuously fetch new data to be transferred to the account's Commerce Intelligence data warehouse. This user will serve as that connection. Adding this user to the project will come in Step 4.
     * The reason for having a dedicated Commerce Intelligence user is to prevent the added user from inadvertently being deactivated or deleted and stopping the Commerce Intelligence connection.
 
@@ -79,7 +79,7 @@ Follow these steps:
 
 1. Add your new Magento BI Essentials Public key to the Commerce Intelligence user created in Step 5.
 
-    * Go to https://accounts.magento.cloud/. Sign in with your account login information for the new Commerce Intelligence user created. Then go to the **[!UICONTROL Account Settings]** tab.
+    * Go to [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login). Sign in with your account login information for the new Commerce Intelligence user created. Then go to the **[!UICONTROL Account Settings]** tab.
     * Scroll down the page and expand the drop-down for SSH keys. Then click **[!UICONTROL Add a public key]**.
 
     ![Add a public key](/help/troubleshooting/miscellaneous/assets/add_public_key_mbi.png)
