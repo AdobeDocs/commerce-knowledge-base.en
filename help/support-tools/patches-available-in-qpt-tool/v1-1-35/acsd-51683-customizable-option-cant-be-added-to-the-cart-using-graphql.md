@@ -38,7 +38,7 @@ The `Customizable_options` section in the GraphQL response contains the data pro
 
 <u>Actual results</u>
 
-The `Customizable_options` section in GraphQL response is empty.
+The `Customizable_options` section in the GraphQL response is empty.
 
 ## Apply the patch
 
