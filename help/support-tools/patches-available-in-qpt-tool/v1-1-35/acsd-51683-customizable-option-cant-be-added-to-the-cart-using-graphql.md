@@ -29,7 +29,7 @@ The customizable option can't be added to the cart using GraphQL.
 <u>Steps to reproduce</u>:
 
 1. Create a simple product with a customizable **Text field** option.
-1. [Add to cart](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/) the created product with required cusotmizable option via GraphQL.
+1. [Add to cart](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/) the created product with the required customizable option via GraphQL.
 1. Send the [cart](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/queries/cart/) GraphQL request to check the product and its details in the cart.
 
 <u>Expected results</u>
