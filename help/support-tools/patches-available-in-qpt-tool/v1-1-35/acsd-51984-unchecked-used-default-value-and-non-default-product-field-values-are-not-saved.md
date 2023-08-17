@@ -37,11 +37,11 @@ Unchecked *[!UICONTROL Use Default Value]* and non-default product field values 
 
 <u>Expected results</u>
 
-Unchecked **[!UICONTROL Use Default Value]** and non-default product field values are saved for the second website, store, and store view.
+The values for the fields and for the checkboxes are saved.
 
 <u>Actual results</u>
 
-Unchecked **[!UICONTROL Use Default Value]** and non-default product field values are not saved for the second website, store, and store view.
+The values for the fields and for the checkboxes are not saved.
 
 ## Apply the patch
 
