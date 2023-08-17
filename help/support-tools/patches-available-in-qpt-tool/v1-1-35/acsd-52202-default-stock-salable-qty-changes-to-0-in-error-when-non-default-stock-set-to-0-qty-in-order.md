@@ -1,12 +1,12 @@
 ---
 title: "ACSD-52202: Default stock salable qty changes to 0 in error when non-default stock set to 0 qty in order"
-description: Apply the ACSD-52202 patch to fix the Adobe Commerce issue where a default stock salable quantity changes to 0 in error when non-default stock set to 0 quantity in an order.
+description: Apply the ACSD-52202 patch to fix the Adobe Commerce issue where a default stock salable quantity changes to 0 in error when non-default stock is set to 0 quantity in an order.
 feature: Inventory, Products
 role: Admin
 ---
 # ACSD-52202: Default stock salable quantity changes to 0 in error when non-default stock set to 0 quantity in an order
 
-The ACSD-52202 patch fixes the issue where a default stock salable quantity (qty) changes to 0 in error when non-default stock set to 0 quantity in an order. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52202. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52202 patch fixes the issue where a default stock salable quantity (qty) changes to 0 in error when non-default stock is set to 0 quantity in an order. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52202. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,11 +24,11 @@ The ACSD-52202 patch fixes the issue where a default stock salable quantity (qty
 
 ## Issue
 
-Default stock salable quantity changes to 0 in error when non-default stock set to 0 quantity in an order.
+Default stock salable quantity changes to 0 in error when non-default stock is set to 0 quantity in an order.
 
 <u>Steps to reproduce</u>:
 
-1. Login to the [!DNL Admin].
+1. Log in to the [!DNL Admin].
 1. Create **website2**.
 1. Create custom **source2**.
 1. Create custom **stock2**.
