@@ -34,7 +34,7 @@ An internal error occurs on requesting cart details from GraphQL for an out-of-s
 1. Get the `[ masked_id ]` from the `[ quote_id_mask ]` db table for the above created quote.
 1. Execute the following GraphQL query to get the above guest cart details. 
     
-    Add the `[ masked_id ]` received from step 03 in the query.
+    Add the `[ masked_id ]` received from step 3 in the query.
 
     ```
     {
