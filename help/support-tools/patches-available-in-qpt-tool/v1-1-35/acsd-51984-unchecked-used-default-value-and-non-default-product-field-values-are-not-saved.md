@@ -24,7 +24,7 @@ The ACSD-51984 patch fixes the issue where the unchecked **[!UICONTROL Use Defau
 
 ## Issue
 
-Unchecked **[!UICONTROL Use Default Value]** and non-default product field values are not saved for the second website, store, and store view.
+Unchecked *[!UICONTROL Use Default Value]* and non-default product field values are not saved for the second website, store, and store view.
 
 <u>Steps to reproduce</u>:
 
