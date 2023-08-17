@@ -1,12 +1,16 @@
 ---
-title: Configuring MBI Connection for existing cloud starter projects
-description: This article provides a solution for when you want to configure MBI Connection for existing cloud starter projects.
+title: Configuring Adobe Commerce Intelligence Connection for existing cloud starter projects
+description: This article provides a solution for when you want to configure Adobe Commerce Intelligence Connection for existing cloud starter projects.
 feature: Commerce Intelligence
 role: Developer
 ---
-# Configuring MBI Connection for existing cloud starter projects
+# Configuring Adobe Commerce Intelligence Connection for existing cloud starter projects
 
-This article provides a solution for when you want to configure MBI Connection for existing cloud starter projects.
+>[!NOTE]
+>
+>Adobe Commerce Intelligence was previously known as Magento Business Intelligence (MBI).
+
+This article provides a solution for when you want to configure Adobe Commerce Intelligence Connection for existing cloud starter projects.
 
 ## Affected products and versions
 
@@ -14,7 +18,7 @@ Adobe Commerce on cloud starter (all versions)
 
 ## Issue
 
-You want to configure MBI connection for existing cloud starter projects.
+You want to configure Commerce Intelligence connection for existing cloud starter projects.
 
 >[!NOTE]
 >
@@ -22,14 +26,14 @@ You want to configure MBI connection for existing cloud starter projects.
 
 ## Solution
 
-To activate Magento BI for Cloud Starter projects, create a Magento BI account, create an SSH key, and finally connect to your Adobe Commerce database. 
+To activate Commerce Intelligence for Cloud Starter projects, create a Commerce Intelligence account, create an SSH key, and finally connect to your Adobe Commerce database. 
 
 Follow these steps:
 
-1. Create your Magento BI Account:
+1. Create your Adobe Commerce Intelligence Account:
 
     * Log into the account.
-    * Go to **[!UICONTROL My Account]** > **[!UICONTROL My MBI Instances].
+    * Go to **[!UICONTROL My Account]** > **[!UICONTROL My MBI Instances]**.
     * Click the **[!UICONTROL Create Instance]**. If you do not see this button, contact your Customer Success Manager or Customer Technical Advisor.
     * Select your Cloud Starter subscription. If you only have a Cloud Starter subscription, this will automatically be selected.
     * Click **[!UICONTROL Continue]**.
@@ -55,28 +59,28 @@ Follow these steps:
 
     There is some information you will need to gather before you can connect your database for the third step in the onboarding flow. You will be filling in the Connect your database page in step 9.
 
-1. Create a dedicated MBI user.
+1. Create a dedicated Commerce Intelligence user.
 
     * Create a new user on accounts.magento.com.
-    * Why a new user? Magento BI needs a user added to the project to continuously fetch new data to be transferred to the account's MBI data warehouse. This user will serve as that connection. Adding this user to the project will come in Step 4.
-    * The reason for having a dedicated MBI user is to prevent the added user from inadvertently being deactivated or deleted and stopping the MBI connection.
+    * Why a new user? Adobe Commerce Intelligence needs a user added to the project to continuously fetch new data to be transferred to the account's Commerce Intelligence data warehouse. This user will serve as that connection. Adding this user to the project will come in Step 4.
+    * The reason for having a dedicated Commerce Intelligence user is to prevent the added user from inadvertently being deactivated or deleted and stopping the Commerce Intelligence connection.
 
 1. Add the newly created user to the project's primary environment as a *Contributor*.
 
     ![Add user as a Contributor](/help/troubleshooting/miscellaneous/assets/contributor_user_mbi.png)
 
-1. Get your MBI SSH keys.
+1. Get your Commerce Intelligence SSH keys.
 
-    * Go to the **[!UICONTROL Connect your database]** page of the MBI set up user interface and scroll down to **[!UICONTROL Encryption settings]**.
-    * For the field, **[!UICONTROL Encryption Type] choose **[!UICONTROL SSH Tunnel].
+    * Go to the **[!UICONTROL Connect your database]** page of the Commerce Intelligence set up user interface and scroll down to **[!UICONTROL Encryption settings]**.
+    * For the field, **[!UICONTROL Encryption Type]**, choose **[!UICONTROL SSH Tunnel]**.
     * From the dropdown, you can copy and paste the provided Magento BI Essentials Public Key.
 
     ![Encryption settings](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
 
-1. Add your new Magento BI Essentials Public key to the MBI user created in Step 5.
+1. Add your new Magento BI Essentials Public key to the Commerce Intelligence user created in Step 5.
 
-    * Go to https://accounts.magento.cloud/. Sign in with your account log in information for the new MBI user created. Then go to the **[!UICONTROL Account Settings]** tab.
-    * Scroll down the page and expand the drop down for SSH keys. Then click **[!UICONTROL Add a public key]**.
+    * Go to https://accounts.magento.cloud/. Sign in with your account login information for the new Commerce Intelligence user created. Then go to the **[!UICONTROL Account Settings]** tab.
+    * Scroll down the page and expand the drop-down for SSH keys. Then click **[!UICONTROL Add a public key]**.
 
     ![Add a public key](/help/troubleshooting/miscellaneous/assets/add_public_key_mbi.png)
 
@@ -84,7 +88,7 @@ Follow these steps:
 
     ![Add SSH Public Key](/help/troubleshooting/miscellaneous/assets/add_ssh_key_mbi.png)
 
-1. Provide Magento Business Intelligence Essentials MySQL credentials.
+1. Provide Business Intelligence Essentials MySQL credentials.
 
     * Update your `.magento/services.yaml`
 
@@ -115,7 +119,7 @@ Follow these steps:
              redis: "redis:redis"
     ```
 
-1. Get information for connecting your database to Magento Business Intelligence.
+1. Get information for connecting your database to Commerce Intelligence.
 
     Run `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 --decode | json_pp` to get information on connecting your database.
 
@@ -185,8 +189,8 @@ Follow these steps:
     * Port: 22
 
 1. Click Save Integration.
-1. You have now successfully connected to your Magento BI Essentials account.
-1. If you are a Magento BI Pro customer, contact your Customer Success Manager or Customer Technical Advisor to coordinate the next steps.
+1. You have now successfully connected to your Commerce Intelligence Essentials account.
+1. If you are an Adobe Commerce Intelligence Pro customer, contact your Customer Success Manager or Customer Technical Advisor to coordinate the next steps.
 
 
 
