@@ -2,11 +2,11 @@
 title: "ACSD-51358: Schedule updates are missing"
 description: Apply the ACSD-51358 patch to fix the Adobe Commerce issue where the changes in scheduled update without an end date leads to removing other scheduled updates on the same entity.
 feature: Schedule update
-role: Admin, Developer
+role: Admin
 ---
 # ACSD-51358: Schedule updates are missing
 
-The ACSD-51358 patch fixes the issue where the changes in scheduled update without an end date lead to removing other scheduled updates on the same entity. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-51358. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51358 patch fixes the issue where the changes in scheduled update without an end date leads to removing other scheduled updates on the same entity. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-51358. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -16,7 +16,7 @@ The ACSD-51358 patch fixes the issue where the changes in scheduled update witho
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -24,21 +24,21 @@ The ACSD-51358 patch fixes the issue where the changes in scheduled update witho
 
 ## Issue
 
-The changes in scheduled update without an end date lead to removing other scheduled updates on the same entity.
+The changes in scheduled update without an end date leads to removing other scheduled updates on the same entity.
 
 <u>Steps to reproduce</u>:
 
-1. Create a **[!UICONTROL scheduled update]** without the end date (*update 1*).
-1. Create new **[!UICONTROL scheduled update]** with same start date as first update, but add the next day, and the end date (*update 2*).
-1. Edit **[!UICONTROL scheduled update]** created on step 1 (*update 1*) and the save changes.
+1. Create a **[!UICONTROL scheduled update]** without the end date *[ update 1 ]*.
+1. Create new **[!UICONTROL scheduled update]** with same start date as first update, but add the next day, and the end date *[ update 2 ]*.
+1. Edit **[!UICONTROL scheduled update]** created on step 1 *[ update 1 ]* and the save changes.
 
 <u>Expected results</u>
 
-The (*update 2*) should remain in the **[!UICONTROL schedule update]** list when (*update 1*) is edited.
+The *[ update 2 ]* should remain in the **[!UICONTROL schedule update]** list when *[ update 1 ] is edited.
 
 <u>Actual results</u>
 
-The (*update 2*) was removed from the **[!UICONTROL schedule update]** list when (*update 1*) is edited.
+The *[ update 2 ]* was removed from the **[!UICONTROL schedule update]** list when *[ update 1 ]* is edited.
 
 ## Apply the patch
 
