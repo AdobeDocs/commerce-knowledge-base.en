@@ -636,6 +636,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51890: Submit review button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md)
         * [ACSD-51984: Unchecked Used Default Value and non-default product field values are not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51984-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.md)
         * [ACSD-52831: Cannot place negotiable quote orders when [!DNL Google reCAPTCHA v3 Invisible] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52831-cannot-place-negotiable-quote-orders.md)
+        * [ACSD-51265: Optimize reindexing for bundled products](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51265-catalog-product-price.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
