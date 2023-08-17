@@ -36,7 +36,7 @@ An internal error occurs on requesting cart details from GraphQL for an out-of-s
     
     Add the `[ masked_id ]` received from step 3 in the query.
 
-    ```
+    ```GraphQL 
     {
         cart(cart_id: "masked_id") {
             items {
