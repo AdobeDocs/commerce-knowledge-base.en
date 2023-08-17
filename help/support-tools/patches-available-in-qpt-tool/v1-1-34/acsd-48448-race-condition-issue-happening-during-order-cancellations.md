@@ -16,7 +16,7 @@ The ACSD-48448 patch fixes the issue where the Race condition issue is happening
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p2
 
 >[!NOTE]
 >
