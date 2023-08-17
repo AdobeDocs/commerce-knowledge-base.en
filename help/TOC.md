@@ -626,6 +626,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51739-error-on-requesting-structure-id-in-company-team-graphql-request.md)
     * v1.1.35{#v1-1-35}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
+        * [ACSD-51358: Schedule updates are missing](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51358-schedule-updates-are-missing.md)
         * [ACSD-51683: Customizable option can't be added to the cart using GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51683-customizable-option-cant-be-added-to-the-cart-using-graphql.md)
         * [ACSD-52398: Requested qty not available when trying to update quantity of bundled product](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52398-the-requested-qty-is-not-available.md)
         * [ACSD-52815: Input field for quantity field of non-default source supports only up to 6 digits](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52815-input-field-for-quantity-field-non-default-source-supports-only-six-digits.md)
