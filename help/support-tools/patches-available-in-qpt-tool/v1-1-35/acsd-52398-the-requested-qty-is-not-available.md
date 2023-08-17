@@ -35,7 +35,7 @@ The requested qty is not available when trying to update the quantity of a bundl
 
 <u>Expected results</u>:
 
-There is no error. Qty should be updated successfully since we have *10* items in stock for this option. 
+There is no error. Qty is updated successfully since there are *10* items in stock for this option. 
 
 <u>Actual results</u>:
 
