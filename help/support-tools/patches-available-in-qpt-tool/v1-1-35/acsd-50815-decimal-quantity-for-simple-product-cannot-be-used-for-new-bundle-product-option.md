@@ -35,7 +35,7 @@ The decimal quantity for a simple product cannot be used for a new bundled produ
     * Save the simple product.
 1. Create a new bundled product.
 1. Add any option.
-1. Add a simple product into this option.
+1. Add the simple product into this option.
 1. Set the decimal quantity for the simple product in the bundled product option. For example, 1.5.
 
 <u>Expected results</u>:
