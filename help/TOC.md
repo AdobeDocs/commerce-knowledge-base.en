@@ -626,6 +626,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-51739: Error on requesting structure_id in CompanyTeam GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-51739-error-on-requesting-structure-id-in-company-team-graphql-request.md)
     * v1.1.35{#v1-1-35}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
+        * [ACSD-52202: Default stock salable qty changes to 0 in error when non-default stock set to 0 qty in order](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52202-default-stock-salable-qty-changes-to-0-in-error-when-non-default-stock-set-to-0-qty-in-order.md)
+        * [ACSD-51845: Can't update subsequent products with tier prices & different attribute sets via asynch bulk API](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51845-cant-update-subsequent-products-with-tier-prices-and-different-attribute-sets-via-asynch-bulk-api.md)
         * [ACSD-52133: Customer account cannot be saved after an upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52133-customer-account-cannot-be-saved-after-an-upgrade.md)
         * [ACSD-51683: Customizable option can't be added to the cart using GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51683-customizable-option-cant-be-added-to-the-cart-using-graphql.md)
         * [ACSD-52398: Requested qty not available when trying to update quantity of bundled product](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52398-the-requested-qty-is-not-available.md)
