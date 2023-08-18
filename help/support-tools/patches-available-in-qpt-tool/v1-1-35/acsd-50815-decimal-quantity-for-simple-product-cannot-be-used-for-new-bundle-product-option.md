@@ -44,7 +44,7 @@ It is possible to set decimal quantity. No errors are displayed.
 
 <u>Actual results</u>:
 
-*Please enter a valid number in this field.* error is displayed.
+The error, *Please enter a valid number in this field* is displayed.
 
 ## Apply the patch
 
