@@ -6,7 +6,7 @@ role: Admin
 ---
 # ACSD-52095: Manage Stock value is wrong while exporting CSV
 
-The ACSD-52095 patch fixes the issue where the product manage stock value is wrong while exporting CSV. This patch is available while the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52095. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52095 patch fixes the issue where the product `manage_stock` value is wrong while exporting CSV. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52095. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
