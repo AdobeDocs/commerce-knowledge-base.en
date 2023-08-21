@@ -45,7 +45,7 @@ The **[!UICONTROL Manage Stock]** value is *1* when it is enabled for the produc
 
 <u>Actual results</u>
 
-The **Manage Stock** is *0* when it is enabled for the products
+The **[!UICONTROL Manage Stock]** value is *0* when it is enabled for the products.
 
 ## Apply the patch
 
