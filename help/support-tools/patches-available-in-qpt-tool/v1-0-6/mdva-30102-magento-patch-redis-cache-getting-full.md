@@ -34,7 +34,7 @@ Redis cache is getting full, and the allocated `maxmemory` appears to be insuffi
 
 <u>Steps to reproduce</u>:
 
-1. Browse through all the PDPs and PLPs. You can use [OWASP ZAP](https://owasp.org/www-project-zap/) to crawl the site.
+1. Browse through all the PDPs and PLPs. You can use [OWASP ZAP](https://www.zaproxy.org/) to crawl the site.
 1. Observe the Redis memory usage.
 1. Also, check current configuration and used memory. Run the following command in the CLI. It checks for used memory, maxmemory, evicted keys, and Redis up time in days:
 
