@@ -1,22 +1,23 @@
 ---
-title: "ACSD-52398: Requested qty not available when trying to update quantity of bundled product"
-description: Apply the ACSD-52398 patch to fix the Adobe Commerce issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
-feature: Shopping Cart, Quotes, Products
+title: "ACSD-50815: Decimal quantity for simple product cannot be used for new bundled product option"
+description: Apply the ACSD-50815 patch to fix the Adobe Commerce issue where the decimal quantity for a simple product cannot be used for a new bundled product option.
+feature: Products
 role: Admin
 ---
-# ACSD-52398: Requested qty not available when trying to update quantity of bundled product
 
-The ACSD-52398 patch fixes the issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52398. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+# ACSD-50815: Decimal quantity for simple product cannot be used for new bundled product option
+
+The ACSD-50815 patch fixes the issue where the decimal quantity for a simple product cannot be used for a new bundled product option. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-50815. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p3
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p3
 
 >[!NOTE]
 >
@@ -24,22 +25,26 @@ The ACSD-52398 patch fixes the issue where the requested qty is not available wh
 
 ## Issue
 
-The requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
+The decimal quantity for a simple product cannot be used for a new bundled product option.
 
 <u>Steps to reproduce</u>:
 
-1. Create two simple products with quantity *1* and *10*.
-1. Create a bundled product using the simple products.
-1. Add the bundled product to the cart.
-1. Edit the product and try to update the quantity to *3* for the option where *10* items are available.
+1. Log in as an admin.
+1. Create a new simple product.
+    * In the **[!UICONTROL Advanced Inventory]** window, set [!UICONTROL Qty Uses Decimal] = [!UICONTROL Yes].
+    * Save the simple product.
+1. Create a new bundled product.
+1. Add any option.
+1. Add the simple product into this option.
+1. Set a decimal quantity for the simple product in the bundled product option. For example, 1.5.
 
 <u>Expected results</u>:
 
-There is no error. Qty is updated successfully since there are *10* items in stock for this option. 
+It is possible to set decimal quantity. No errors are displayed.
 
 <u>Actual results</u>:
 
-The following error is thrown: *The requested qty is not available*.
+The error, *Please enter a valid number in this field* is displayed.
 
 ## Apply the patch
 
