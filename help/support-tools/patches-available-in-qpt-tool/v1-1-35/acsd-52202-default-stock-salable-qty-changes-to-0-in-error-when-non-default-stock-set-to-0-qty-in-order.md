@@ -1,22 +1,22 @@
 ---
-title: "ACSD-52398: Requested qty not available when trying to update quantity of bundled product"
-description: Apply the ACSD-52398 patch to fix the Adobe Commerce issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
-feature: Shopping Cart, Quotes, Products
+title: "ACSD-52202: Default stock salable qty changes to 0 in error when non-default stock set to 0 qty in order"
+description: Apply the ACSD-52202 patch to fix the Adobe Commerce issue where a default stock salable quantity changes to 0 in error when non-default stock is set to 0 quantity in an order.
+feature: Inventory, Products
 role: Admin
 ---
-# ACSD-52398: Requested qty not available when trying to update quantity of bundled product
+# ACSD-52202: Default stock salable quantity changes to 0 in error when non-default stock set to 0 quantity in an order
 
-The ACSD-52398 patch fixes the issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52398. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52202 patch fixes the issue where a default stock salable quantity (qty) changes to 0 in error when non-default stock is set to 0 quantity in an order. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52202. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p3
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -24,22 +24,27 @@ The ACSD-52398 patch fixes the issue where the requested qty is not available wh
 
 ## Issue
 
-The requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
+Default stock salable quantity changes to 0 in error when non-default stock is set to 0 quantity in an order.
 
 <u>Steps to reproduce</u>:
 
-1. Create two simple products with quantity *1* and *10*.
-1. Create a bundled product using the simple products.
-1. Add the bundled product to the cart.
-1. Edit the product and try to update the quantity to *3* for the option where *10* items are available.
+1. Log in to the [!DNL Admin].
+1. Create **website2**.
+1. Create custom **source2**.
+1. Create custom **stock2**.
+1. Assign the **source2** and **stock2** to **website1** and the default source and stock to the default website.
+1. Create a simple product and assign **qty** = *10* for default source and **qty** = *1* for the **source2** source.
+1. Place an order with **qty** = *1* for **website2**.
+1. Create an invoice and a shipment.
+1. Check the simple product **salable quantity**.
 
 <u>Expected results</u>:
 
-There is no error. Qty is updated successfully since there are *10* items in stock for this option. 
+The **salable quantity** = *10* for **source2**.
 
 <u>Actual results</u>:
 
-The following error is thrown: *The requested qty is not available*.
+The **salable quantity** = *0* for both sources.
 
 ## Apply the patch
 

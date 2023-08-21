@@ -1,22 +1,23 @@
 ---
-title: "ACSD-52398: Requested qty not available when trying to update quantity of bundled product"
-description: Apply the ACSD-52398 patch to fix the Adobe Commerce issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
-feature: Shopping Cart, Quotes, Products
+title: "ACSD-52133: Customer account cannot be saved after an upgrade"
+description: Apply the ACSD-52133 patch to fix the Adobe Commerce issue where a customer account cannot be saved after an upgrade.
+feature: Customers, Upgrade 
 role: Admin
 ---
-# ACSD-52398: Requested qty not available when trying to update quantity of bundled product
 
-The ACSD-52398 patch fixes the issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52398. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+# ACSD-52133: Customer account cannot be saved after an upgrade
+
+The ACSD-52133 patch fixes the issue where a customer account cannot be saved after an upgrade. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52133. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p3
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -24,22 +25,36 @@ The ACSD-52398 patch fixes the issue where the requested qty is not available wh
 
 ## Issue
 
-The requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
+Customer account cannot be saved after an upgrade.
 
 <u>Steps to reproduce</u>:
 
-1. Create two simple products with quantity *1* and *10*.
-1. Create a bundled product using the simple products.
-1. Add the bundled product to the cart.
-1. Edit the product and try to update the quantity to *3* for the option where *10* items are available.
+1. Install Adobe Commerce version 2.4.4.
+1. Create a customer.
+1. Upgrade Adobe Commerce to 2.4.6 from the earlier version of 2.4.4 where a customer was already created.
+1. Set the encryption key as below in `env.php`:
+
+    `d337b914e91ff703b1e94ba4156aadf0`
+
+1. Set the values below into database for any customer under the `customer_entity` table:
+
+    ```
+    -> rp_token as incr4869
+    -> rp_token_created_at as "2021-04-29 20:06:14"
+    ```
+
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Edit the customer for which the above values were updated. 
+1. Click on **[!UICONTROL Save Customer]** or **[!UICONTROL Save and Continue Edit]**
 
 <u>Expected results</u>:
 
-There is no error. Qty is updated successfully since there are *10* items in stock for this option. 
+The customer is saved successfully without errors.
 
 <u>Actual results</u>:
 
-The following error is thrown: *The requested qty is not available*.
+* The customer record is not saved. 
+* The admin sees the following error message: *Something went wrong while saving the customer.*
 
 ## Apply the patch
 

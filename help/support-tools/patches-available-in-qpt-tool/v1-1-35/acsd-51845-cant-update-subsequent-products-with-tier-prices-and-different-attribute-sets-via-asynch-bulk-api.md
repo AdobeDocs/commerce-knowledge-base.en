@@ -1,22 +1,22 @@
 ---
-title: "ACSD-52398: Requested qty not available when trying to update quantity of bundled product"
-description: Apply the ACSD-52398 patch to fix the Adobe Commerce issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
-feature: Shopping Cart, Quotes, Products
+title: "ACSD-51845: Can't update subsequent products with tier prices & different attribute sets via asynch bulk [!DNL API]"
+description: Apply the ACSD-51845 patch to fix the Adobe Commerce issue where you can't update subsequent products with tier prices and different attribute sets via asynchronous bulk [!DNL REST API].
+feature: REST, Products
 role: Admin
 ---
-# ACSD-52398: Requested qty not available when trying to update quantity of bundled product
+# ACSD-51845: Can't update subsequent products with tier prices & different attribute sets via asynch bulk [!DNL API]
 
-The ACSD-52398 patch fixes the issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52398. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51845 patch fixes the issue where you can't update subsequent products with tier prices and different attribute sets via asynchronous bulk [!DNL REST API]. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-51845. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p3
+* Adobe Commerce (all deployment methods) 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -24,22 +24,25 @@ The ACSD-52398 patch fixes the issue where the requested qty is not available wh
 
 ## Issue
 
-The requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
+Update fails for subsequent products with tier prices and different attribute sets via asynchronous bulk [!DNL REST API].
 
 <u>Steps to reproduce</u>:
 
-1. Create two simple products with quantity *1* and *10*.
-1. Create a bundled product using the simple products.
-1. Add the bundled product to the cart.
-1. Edit the product and try to update the quantity to *3* for the option where *10* items are available.
+1. Configure [!DNL RabbitMQ].
+1. Create two attribute sets.
+1. Create two **Simple Products**, assigning each product to a different attribute set.
+1. Add a **Customer Group Price** for each product.
+1. Update both products in the same bulk [!DNL API] update.
+1. Make sure that the `bin/magento queue:consumers:start async.operations.all` command is running.
+1. Check the bulk [!DNL API] status.
 
 <u>Expected results</u>:
 
-There is no error. Qty is updated successfully since there are *10* items in stock for this option. 
+The service execution is successful.
 
 <u>Actual results</u>:
 
-The following error is thrown: *The requested qty is not available*.
+The system returns the error message: *The product was unable to be saved. Please try again.*
 
 ## Apply the patch
 
