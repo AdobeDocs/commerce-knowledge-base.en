@@ -41,7 +41,7 @@ Select *[!UICONTROL Entity Type]* = *[!UICONTROL Products and export the product
 
 <u>Expected results</u>
 
-The **Manage Stock** should be *1* when it is enabled for the products
+The **[!UICONTROL Manage Stock]** value is *1* when it is enabled for the products.
 
 <u>Actual results</u>
 
