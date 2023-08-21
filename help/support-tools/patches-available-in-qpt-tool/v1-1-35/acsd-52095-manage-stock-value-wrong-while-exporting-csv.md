@@ -24,7 +24,7 @@ The ACSD-52095 patch fixes the issue where the product `manage_stock` value is w
 
 ## Issue
 
-The manage Stock value is wrong while exporting CSV
+The `manage_stock` value is incorrectly set to 0 in the CSV file after product export.
 
 <u>Steps to reproduce</u>:
 
