@@ -2,7 +2,7 @@
 title: Base price change affect on shared catalog price
 description: 'This article answers the question: if a product in a shared catalog has a custom price and the base price of the product changes (for example after a scheduled update), which price applies in the shared catalog?'
 exl-id: 916678c1-ada6-4f23-af16-b107cb83ff16
-feature: Catalogs
+feature: Catalog Management
 ---
 # Base price change affect on shared catalog price
 

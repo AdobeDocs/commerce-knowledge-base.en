@@ -2,7 +2,7 @@
 title: 'MDVA-36833: broken pagination on search results page'
 description: The MDVA-36833 patch fixes the issue where pagination breaks when the shared catalog is enabled and some products were excluded from shared catalog. This patch is available when the [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.22 is installed. The patch ID is MDVA-36833. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.3.
 exl-id: 7105c4ed-48d9-4d4c-bf12-5914bbad62da
-feature: Catalogs, Search
+feature: Catalog Management, Search
 role: Admin
 ---
 # MDVA-36833: broken pagination on search results page
