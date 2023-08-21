@@ -28,7 +28,7 @@ The `manage_stock` value is incorrectly set to 0 in the CSV file after product e
 
 <u>Steps to reproduce</u>:
 
-1. Set **Admin** > **Store** > **Configuration** > **Catalog** > **Inventory** > **Product Stock Options** > **Manage Stock** = *No*
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Product Stock Options]** and set **[!UICONTROL Manage Stock]** = *[!UICONTROL No]*.
 1. Create a new product and save it.
 1. Go to **System** > and **Export**
 1. Select **Entity Type = Products and export the products**
