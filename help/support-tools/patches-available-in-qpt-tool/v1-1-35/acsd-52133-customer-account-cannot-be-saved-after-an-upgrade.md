@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-47107: catalog price rule is applied to custom options'
-description: Apply the ACSD-47107 patch to fix the Adobe Commerce issue where catalog price rule is applied to custom options.
-exl-id: 5de2a87e-90c1-4a2a-a75c-7f9ca766868e
-feature: Catalog Management, Orders, Price Rules
-role: Developer
+title: "ACSD-52133: Customer account cannot be saved after an upgrade"
+description: Apply the ACSD-52133 patch to fix the Adobe Commerce issue where a customer account cannot be saved after an upgrade.
+feature: Customers, Upgrade 
+role: Admin
 ---
-# ACSD-47107: catalog price rule is applied to custom options
 
-The ACSD-47107 patch fixes the issue where the catalog price rule is applied to custom options. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47107. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+# ACSD-52133: Customer account cannot be saved after an upgrade
+
+The ACSD-52133 patch fixes the issue where a customer account cannot be saved after an upgrade. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52133. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.4-p2
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -25,23 +25,36 @@ The ACSD-47107 patch fixes the issue where the catalog price rule is applied to 
 
 ## Issue
 
-Catalog price rule is applied to custom options.
+Customer account cannot be saved after an upgrade.
 
 <u>Steps to reproduce</u>:
 
-1. Create a catalog price rule.
-1. Set it to *Apply as a percentage of original price* and add a 10% discount.
-1. Select any product.
-1. Create a few custom options.
-1. Check the price on the frontend.
+1. Install Adobe Commerce version 2.4.4.
+1. Create a customer.
+1. Upgrade Adobe Commerce to 2.4.6 from the earlier version of 2.4.4 where a customer was already created.
+1. Set the encryption key as below in `env.php`:
+
+    `d337b914e91ff703b1e94ba4156aadf0`
+
+1. Set the values below into database for any customer under the `customer_entity` table:
+
+    ```
+    -> rp_token as incr4869
+    -> rp_token_created_at as "2021-04-29 20:06:14"
+    ```
+
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Edit the customer for which the above values were updated. 
+1. Click on **[!UICONTROL Save Customer]** or **[!UICONTROL Save and Continue Edit]**
 
 <u>Expected results</u>:
 
-Catalog price rule is not applied to custom options; it is only applied to the product's original price.
+The customer is saved successfully without errors.
 
 <u>Actual results</u>:
 
-Catalog price rule is applied to custom options.
+* The customer record is not saved. 
+* The admin sees the following error message: *Something went wrong while saving the customer.*
 
 ## Apply the patch
 

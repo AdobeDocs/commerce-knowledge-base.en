@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-47107: catalog price rule is applied to custom options'
-description: Apply the ACSD-47107 patch to fix the Adobe Commerce issue where catalog price rule is applied to custom options.
-exl-id: 5de2a87e-90c1-4a2a-a75c-7f9ca766868e
-feature: Catalog Management, Orders, Price Rules
-role: Developer
+title: "ACSD-51265: Optimize reindexing for bundled products"
+description: Apply the ACSD-51265 patch to fix the Adobe Commerce issue where the `catalog_product_price` reindexing performance is low when there are too many bundled products in the system.
+feature: Products, Price Indexer
+role: Admin
 ---
-# ACSD-47107: catalog price rule is applied to custom options
+# ACSD-51265: Optimize reindexing for bundled products
 
-The ACSD-47107 patch fixes the issue where the catalog price rule is applied to custom options. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.23 is installed. The patch ID is ACSD-47107. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-51265 patch fixes the issue where the `catalog_product_price` reindexing performance is low when there are too many bundled products in the system. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-51265. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4
+* Adobe Commerce (all deployment methods) 2.4.5
 
-**Compatible with Adobe Commerce versions:**
+**Compatible with Adobe Commerce versions:** 
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.4-p2
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -25,23 +24,20 @@ The ACSD-47107 patch fixes the issue where the catalog price rule is applied to 
 
 ## Issue
 
-Catalog price rule is applied to custom options.
+The catalog product price reindexing performance is low when there are too many bundled products in the system.
 
 <u>Steps to reproduce</u>:
 
-1. Create a catalog price rule.
-1. Set it to *Apply as a percentage of original price* and add a 10% discount.
-1. Select any product.
-1. Create a few custom options.
-1. Check the price on the frontend.
+1. Generate a catalog with at least *10,000* bundled products with dynamic price options.
+1. Run product price reindex.
 
-<u>Expected results</u>:
+<u>Expected results</u>
 
-Catalog price rule is not applied to custom options; it is only applied to the product's original price.
+Product price reindexing takes less than 15 minutes.
 
-<u>Actual results</u>:
+<u>Actual results</u>
 
-Catalog price rule is applied to custom options.
+Product price reindexing takes more than an hour.
 
 ## Apply the patch
 

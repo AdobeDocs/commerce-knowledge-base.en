@@ -1,22 +1,22 @@
 ---
-title: "ACSD-48070: Exception while editing a scheduled update"
-description: Apply the ACSD-48070 patch to fix the Adobe Commerce issue where an exception is triggered while editing a scheduled update.
-feature: Catalog Management, Categories
+title: "ACSD-51683: Customizable option can't be added to the cart using GraphQL"
+description: Apply the ACSD-51683 patch to fix the Adobe Commerce issue where the customizable option can't be added to the cart using GraphQL.
+feature: GraphQL
 role: Admin
 ---
-# ACSD-48070: Exception while editing a scheduled update
+# ACSD-51683: Customizable option can't be added to the cart using GraphQL
 
-The ACSD-48070 patch fixes the issue where an exception is triggered while editing a scheduled update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-48070. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51683 patch fixes the issue where the customizable option can't be added to the cart using GraphQL. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-51683. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-p2
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -24,22 +24,21 @@ The ACSD-48070 patch fixes the issue where an exception is triggered while editi
 
 ## Issue
 
-An exception is triggered while editing a scheduled update.
+The customizable option can't be added to the cart using GraphQL.
 
 <u>Steps to reproduce</u>:
 
-1. Open any category.
-2. Create a new **[!UICONTROL Scheduled Update]** and save it.
-3. Click **[!UICONTROL View/Edit]** in the created **[!UICONTROL Scheduled Update]**.
-4. Save it again.
+1. Create a simple product with a customizable **Text field** option.
+1. [Add to cart](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/) the created product with the required customizable option via GraphQL.
+1. Send the [cart](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/queries/cart/) GraphQL request to check the product and its details in the cart.
 
 <u>Expected results</u>
 
-The **[!UICONTROL Scheduled Update]** is saved.
+The `Customizable_options` section in the GraphQL response contains the data provided while adding the product to the cart.
 
 <u>Actual results</u>
 
-An error occurs: *error: : Something went wrong while saving the Magento\Catalog\Api\Data\CategoryInterface.*
+The `Customizable_options` section in the GraphQL response is empty.
 
 ## Apply the patch
 

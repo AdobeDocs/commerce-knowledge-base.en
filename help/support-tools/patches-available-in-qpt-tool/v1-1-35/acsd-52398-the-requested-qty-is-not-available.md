@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-50621: Tier prices for different websites in shared catalog are not visible'
-description: Apply the ACSD-50621 patch to fix the Adobe Commerce issue where the tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment.
-exl-id: 91fb69ce-4589-4b17-9a8e-36abfd1ffb59
-feature: Catalog Management, Orders
+title: "ACSD-52398: Requested qty not available when trying to update quantity of bundled product"
+description: Apply the ACSD-52398 patch to fix the Adobe Commerce issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
+feature: Shopping Cart, Quotes, Products
 role: Admin
 ---
-# ACSD-50621: Tier prices for different websites in shared catalog are not visible
+# ACSD-52398: Requested qty not available when trying to update quantity of bundled product
 
-The ACSD-50621 patch fixes the issue where the tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-50621. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52398 patch fixes the issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52398. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.3-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -25,29 +24,22 @@ The ACSD-50621 patch fixes the issue where the tier prices for different website
 
 ## Issue
 
-Tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment.
+The requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront.
 
 <u>Steps to reproduce</u>:
 
-1. Set the **[!UICONTROL Catalog Price Scope]** to **[!UICONTROL Website]**.
-1. Create an additional website, store, and storeview.
-1. Create a simple product and assign it to all websites.
-1. Create a custom shared catalog.
-1. Go to **[!UICONTROL Set Pricing and Structure]** for the custom shared catalog you created.
-1. In Step 1: select products for catalog. Add the simple product you created.
-1. In step 2: set custom prices and click **[!UICONTROL Configure]**.
-1. Set different tier prices for different websites.
-1. Select **[!UICONTROL Done]** and click on **[!UICONTROL Generate Catalog]** and then click **[!UICONTROL Save]**.
-1. Run cron.
-1. Navigate to **[!UICONTROL Set Pricing and Structure]** > **[!UICONTROL Configure]** > **[!UICONTROL Next]** > **[!UICONTROL Configure]** and verify tier price.
+1. Create two simple products with quantity *1* and *10*.
+1. Create a bundled product using the simple products.
+1. Add the bundled product to the cart.
+1. Edit the product and try to update the quantity to *3* for the option where *10* items are available.
 
 <u>Expected results</u>:
 
-All previously configured tier prices for different websites are present.
+There is no error. Qty is updated successfully since there are *10* items in stock for this option. 
 
 <u>Actual results</u>:
 
-Tier prices that were previously configured are not present.
+The following error is thrown: *The requested qty is not available*.
 
 ## Apply the patch
 

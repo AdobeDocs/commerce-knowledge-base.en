@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-50621: Tier prices for different websites in shared catalog are not visible'
-description: Apply the ACSD-50621 patch to fix the Adobe Commerce issue where the tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment.
-exl-id: 91fb69ce-4589-4b17-9a8e-36abfd1ffb59
-feature: Catalog Management, Orders
+title: "ACSD-52202: Default stock salable qty changes to 0 in error when non-default stock set to 0 qty in order"
+description: Apply the ACSD-52202 patch to fix the Adobe Commerce issue where a default stock salable quantity changes to 0 in error when non-default stock is set to 0 quantity in an order.
+feature: Inventory, Products
 role: Admin
 ---
-# ACSD-50621: Tier prices for different websites in shared catalog are not visible
+# ACSD-52202: Default stock salable quantity changes to 0 in error when non-default stock set to 0 quantity in an order
 
-The ACSD-50621 patch fixes the issue where the tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.32 is installed. The patch ID is ACSD-50621. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52202 patch fixes the issue where a default stock salable quantity (qty) changes to 0 in error when non-default stock is set to 0 quantity in an order. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52202. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -25,29 +24,27 @@ The ACSD-50621 patch fixes the issue where the tier prices for different website
 
 ## Issue
 
-Tier prices for different websites in the shared catalog are not visible when editing them in a multi-website environment.
+Default stock salable quantity changes to 0 in error when non-default stock is set to 0 quantity in an order.
 
 <u>Steps to reproduce</u>:
 
-1. Set the **[!UICONTROL Catalog Price Scope]** to **[!UICONTROL Website]**.
-1. Create an additional website, store, and storeview.
-1. Create a simple product and assign it to all websites.
-1. Create a custom shared catalog.
-1. Go to **[!UICONTROL Set Pricing and Structure]** for the custom shared catalog you created.
-1. In Step 1: select products for catalog. Add the simple product you created.
-1. In step 2: set custom prices and click **[!UICONTROL Configure]**.
-1. Set different tier prices for different websites.
-1. Select **[!UICONTROL Done]** and click on **[!UICONTROL Generate Catalog]** and then click **[!UICONTROL Save]**.
-1. Run cron.
-1. Navigate to **[!UICONTROL Set Pricing and Structure]** > **[!UICONTROL Configure]** > **[!UICONTROL Next]** > **[!UICONTROL Configure]** and verify tier price.
+1. Log in to the [!DNL Admin].
+1. Create **website2**.
+1. Create custom **source2**.
+1. Create custom **stock2**.
+1. Assign the **source2** and **stock2** to **website1** and the default source and stock to the default website.
+1. Create a simple product and assign **qty** = *10* for default source and **qty** = *1* for the **source2** source.
+1. Place an order with **qty** = *1* for **website2**.
+1. Create an invoice and a shipment.
+1. Check the simple product **salable quantity**.
 
 <u>Expected results</u>:
 
-All previously configured tier prices for different websites are present.
+The **salable quantity** = *10* for **source2**.
 
 <u>Actual results</u>:
 
-Tier prices that were previously configured are not present.
+The **salable quantity** = *0* for both sources.
 
 ## Apply the patch
 

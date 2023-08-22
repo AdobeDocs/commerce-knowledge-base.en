@@ -1,22 +1,22 @@
 ---
-title: "ACSD-48070: Exception while editing a scheduled update"
-description: Apply the ACSD-48070 patch to fix the Adobe Commerce issue where an exception is triggered while editing a scheduled update.
-feature: Catalog Management, Categories
+title: "ACSD-51899: Default shipping address auto-populated incorrectly"
+description: Apply the ACSD-51899 patch to fix the Adobe Commerce issue where the default shipping address is auto-populated with a wrong address.
+feature: Checkout
 role: Admin
 ---
-# ACSD-48070: Exception while editing a scheduled update
+# ACSD-51899: Default shipping address auto-populated incorrectly
 
-The ACSD-48070 patch fixes the issue where an exception is triggered while editing a scheduled update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-48070. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51899 patch fixes the issue where the the default shipping address is auto-populated with a wrong address. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-51899. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-p2
+* Adobe Commerce (all deployment methods) 2.4.4-p3
 
-**Compatible with Adobe Commerce versions:**
+**Compatible with Adobe Commerce versions:** 
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p1
 
 >[!NOTE]
 >
@@ -24,22 +24,31 @@ The ACSD-48070 patch fixes the issue where an exception is triggered while editi
 
 ## Issue
 
-An exception is triggered while editing a scheduled update.
+The default shipping address is auto-populated with a wrong address
 
 <u>Steps to reproduce</u>:
 
-1. Open any category.
-2. Create a new **[!UICONTROL Scheduled Update]** and save it.
-3. Click **[!UICONTROL View/Edit]** in the created **[!UICONTROL Scheduled Update]**.
-4. Save it again.
+1. Enable **In Store Pickup** under shipping method.
+1. Create *stock* and *source*.
+1. Create product and assign the product to the source.
+1. Add a product to cart.
+1. Click on **Proceed to Checkout** from mini-cart.
+1. Enter test email address and select **Pick In Store**.
+1. Click the **Select Store** button, and select a store location to pick from.
+1. Click on the **next** button.
+1. Navigate to the **Home Page** by clicking on the store logo.
+1. Open te **Mini cart**.
+1. Click on the bottom hyperlink named **View and Edit Cart**.
+1. Click **Proceed to Checkout**.
+1. Click on the shipping button in shipping page.
 
 <u>Expected results</u>
 
-The **[!UICONTROL Scheduled Update]** is saved.
+The shipping address field remains empty except for *Country, Region, and Postal Code*.
 
 <u>Actual results</u>
 
-An error occurs: *error: : Something went wrong while saving the Magento\Catalog\Api\Data\CategoryInterface.*
+The default shipping address is auto-populated with *In-Store pickup* address after refreshing the page.
 
 ## Apply the patch
 
