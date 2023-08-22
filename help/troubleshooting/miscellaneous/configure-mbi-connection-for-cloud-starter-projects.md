@@ -4,7 +4,7 @@ description: This article provides a solution for when you want to configure Ado
 feature: Commerce Intelligence
 role: Developer
 ---
-# Configuring Adobe Commerce Intelligence connection for existing cloud starter projects
+# Configuring Adobe Commerce Intelligence connection for existing Cloud Starter projects
 
 >[!NOTE]
 >
