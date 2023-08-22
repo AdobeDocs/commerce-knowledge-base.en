@@ -16,7 +16,7 @@ The ACSD-51358 patch fixes the issue where the changes in scheduled update witho
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p1
 
 >[!NOTE]
 >
