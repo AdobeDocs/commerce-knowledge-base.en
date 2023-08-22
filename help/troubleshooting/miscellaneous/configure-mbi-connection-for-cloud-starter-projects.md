@@ -1,5 +1,5 @@
 ---
-title: Configuring Adobe Commerce Intelligence connection for existing cloud starter projects
+title: Configuring Adobe Commerce Intelligence connection for existing Cloud Starter projects
 description: This article provides a solution for when you want to configure Adobe Commerce Intelligence connection for existing cloud starter projects.
 feature: Commerce Intelligence
 role: Developer
