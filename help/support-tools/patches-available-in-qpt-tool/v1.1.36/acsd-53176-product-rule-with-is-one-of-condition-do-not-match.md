@@ -1,7 +1,7 @@
 ---
 title: "ACSD-53176: Product rule with `is one of` condition do not match"
 description: Apply the ACSD-53176 patch to fix the Adobe Commerce issue where the related product rule `is one of` condition does not work correctly for "products to match".
-feature:  Catalog 
+feature: Product
 role: Admin
 ---
 # ACSD-53176: Product rule with `is one of` condition do not match
