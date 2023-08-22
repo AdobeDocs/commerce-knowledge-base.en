@@ -627,6 +627,7 @@ breadcrumb-title: Commerce KB
     * v1.1.35{#v1-1-35}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
         * [ACSD-51358: Schedule updates are missing](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51358-schedule-updates-are-missing.md)
+        * [ACSD-51149: Scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51149-scheduled-importexport-enabled-catalog-permissions-invalidates-indexers.md)
         * [ACSD-50815: Decimal quantity for simple product cannot be used for new bundled product option](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-50815-decimal-quantity-for-simple-product-cannot-be-used-for-new-bundle-product-option.md)
         * [ACSD-52202: Default stock salable qty changes to 0 in error when non-default stock set to 0 qty in order](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52202-default-stock-salable-qty-changes-to-0-in-error-when-non-default-stock-set-to-0-qty-in-order.md)
         * [ACSD-51845: Can't update subsequent products with tier prices & different attribute sets via asynch bulk API](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51845-cant-update-subsequent-products-with-tier-prices-and-different-attribute-sets-via-asynch-bulk-api.md)
@@ -643,6 +644,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-51984: Unchecked Used Default Value and non-default product field values are not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51984-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.md)
         * [ACSD-52831: Cannot place negotiable quote orders when [!DNL Google reCAPTCHA v3 Invisible] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52831-cannot-place-negotiable-quote-orders.md)
         * [ACSD-51265: Optimize reindexing for bundled products](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51265-catalog-product-price.md)
+    * v.1.1.36{#v1-1-36}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.36](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
