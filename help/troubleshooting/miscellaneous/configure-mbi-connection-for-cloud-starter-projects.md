@@ -18,7 +18,7 @@ Adobe Commerce on cloud starter (all versions)
 
 ## Issue
 
-You want to configure Commerce Intelligence connection for existing cloud starter projects.
+You want to configure Commerce Intelligence connection for an existing Cloud Starter project.
 
 >[!NOTE]
 >
@@ -191,18 +191,3 @@ Follow these steps:
 1. Click Save Integration.
 1. You have now successfully connected to your Commerce Intelligence Essentials account.
 1. If you are an Adobe Commerce Intelligence Pro customer, contact your Customer Success Manager or Customer Technical Advisor to coordinate the next steps.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
