@@ -24,7 +24,7 @@ The ACSD-48448 patch fixes the issue where the *[!UICONTROL Race]* condition iss
 
 ## Issue
 
-Race condition issue is happening during the order cancellations, which causes duplicated entries in the inventory_reservation table.
+*[!UICONTROL Race]* condition issue is happening during order cancellations, which causes duplicated entries in the `inventory_reservation` table.
 
 <u>Steps to reproduce</u>:
 
