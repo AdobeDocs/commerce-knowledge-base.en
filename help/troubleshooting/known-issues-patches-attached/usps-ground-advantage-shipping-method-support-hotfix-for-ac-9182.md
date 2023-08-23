@@ -1,5 +1,5 @@
 ---
-title: [!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182
+title: "[!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182"
 promoted: true
 description: Apply a patch to deal with the [!DNL USPS] Ground Advantage shipping method issue AC-9182 for Adobe Commerce 2.4.4 - 2.4.6-p2.
 feature: Shipping/Delivery
