@@ -36,7 +36,7 @@ After the patch is applied, run the following steps to ensure caching capability
 
 1. Send `GET` request to any of the GraphQL queries listed above, using any arbitrary fields.
 1. Resend the request without any changes; you will notice that it is much faster. Note that the request is not sent to the backend but it is completely handled by [!DNL Varnish] as a cache hit.
-1. If further proof is required, comment out the unset of `X-Magento-Debug` header present in our [VCL](https://github.com/magento-commerce/magento2ce/blob/026e5b29a5edfd619bbdea62d636b3cab2ea03b4/app/code/Magento/PageCache/etc/varnish6.vcl#L227), then restart [!DNL Varnish] and run the above steps again. 
+1. If further proof is required, comment out the unset of `X-Magento-Debug` header present in our [VCL](https://github.com/magento/magento2/blob/026e5b29a5edfd619bbdea62d636b3cab2ea03b4/app/code/Magento/PageCache/etc/varnish6.vcl#L227), then restart [!DNL Varnish] and run the above steps again. 
 
 ## Apply the patch
 
