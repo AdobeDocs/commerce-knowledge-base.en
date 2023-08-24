@@ -647,6 +647,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51265: Optimize reindexing for bundled products](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51265-catalog-product-price.md)
     * v.1.1.36{#v1-1-36}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.36](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/overview.md)
+        * [ACSD-53239: Inventory indexer cleans all caches in the [!UICONTROL Update on Schedule] mode](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-53239-inventory-indexer-cleans-all-caches.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
