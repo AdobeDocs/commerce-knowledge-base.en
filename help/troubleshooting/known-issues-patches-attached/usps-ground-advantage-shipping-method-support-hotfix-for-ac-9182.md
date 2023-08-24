@@ -54,7 +54,7 @@ To resolve the issue in the 2.4.4, 2.4.5, and 2.4.6 versions, you must apply the
 
 The patch is attached to this article. To download it, click the following link:
 
-[AC-9351_USPS_Ground_Advantage_shipping_method_COMPOSER_patch.zip](assets/AC-9351_USPS_Ground_Advantage_shipping_method_COMPOSER_patch.zip)
+[AC-9182_USPS_Ground_Advantage_shipping_method_COMPOSER_patch.zip](assets/AC-9182_USPS_Ground_Advantage_shipping_method_COMPOSER_patch.zip)
 
 ## How to apply the patch
 
