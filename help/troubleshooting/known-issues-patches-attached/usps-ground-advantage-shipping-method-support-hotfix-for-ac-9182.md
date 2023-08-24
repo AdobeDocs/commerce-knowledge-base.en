@@ -11,15 +11,15 @@ This article provides a patch to resolve the issue AC-9182 for the new **[!DNL U
 
 On July 9, 2023, The United States Postal Service ([!DNL USPS]) released a new shipping method, [[!DNL USPS] Ground Advantage](https://www.usps.com/ship/ground-advantage.htm).
 
-This new shipping method is replacing their 3 main current shipping methods:
+This new shipping method is replacing their three main current shipping methods:
 
 * [!DNL USPS] Retail Ground
 * [!DNL USPS] First-Class Package Service
 * [!DNL USPS] Parcel Select Ground
 
-[[!DNL USPS] announced](https://faq.usps.com/s/article/USPS-Ground-Advantage#how_it_works) that starting from September 30, 2023, these 3 shipping methods will be discontinued and all customers must use the new **[!DNL USPS] Ground Advantage** method instead. 
+[[!DNL USPS] announced](https://faq.usps.com/s/article/USPS-Ground-Advantage#how_it_works) that starting from September 30, 2023, these three shipping methods will be discontinued and all customers must use the new **[!DNL USPS] Ground Advantage** method instead. 
 
-So after September 30, 2023, all the Adobe Commerce merchants who are using the USPS shipping method will not be able to to get shipping rates from [!DNL USPS] by using these 3 legacy shipping methods anymore.
+So after September 30, 2023, all the Adobe Commerce merchants who are using the USPS shipping method will not be able to to get shipping rates from [!DNL USPS] by using these three legacy shipping methods anymore.
 
 This issue will be fixed in scope of upcoming security-only patch releases in October, 2023, in versions 2.4.6-p3, 2.4.5-p5, and 2.4.4-p6.
  
