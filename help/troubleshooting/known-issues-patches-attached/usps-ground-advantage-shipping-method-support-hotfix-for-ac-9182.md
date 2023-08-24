@@ -19,9 +19,9 @@ This new shipping method is replacing their three main current shipping methods:
 
 [[!DNL USPS] announced](https://faq.usps.com/s/article/USPS-Ground-Advantage#how_it_works) that starting from September 30, 2023, these three shipping methods will be discontinued and all customers must use the new **[!DNL USPS] Ground Advantage** method instead. 
 
-So after September 30, 2023, all the Adobe Commerce merchants who are using the USPS shipping method will not be able to to get shipping rates from [!DNL USPS] by using these three legacy shipping methods anymore.
+So after September 30, 2023, all the Adobe Commerce merchants who are using the USPS shipping method will not be able to get shipping rates from [!DNL USPS] by using these three legacy shipping methods anymore.
 
-This issue will be fixed in scope of upcoming security-only patch releases in October, 2023, in versions 2.4.6-p3, 2.4.5-p5, and 2.4.4-p6.
+This issue will be fixed in the scope of upcoming security-only patch releases in October 2023, in versions 2.4.6-p3, 2.4.5-p5, and 2.4.4-p6.
  
 ## Affected products and versions
 
@@ -48,7 +48,7 @@ The [!DNL USPS] made an [!DNL API] update.
 
 ## Solution
 
-To resolve the issue in the 2.4.4, 2.4.5, and 2.4.6 versions, you must apply AC-9182 patch below.
+To resolve the issue in the 2.4.4, 2.4.5, and 2.4.6 versions, you must apply the AC-9182 patch below.
 
 ## Patch
 
