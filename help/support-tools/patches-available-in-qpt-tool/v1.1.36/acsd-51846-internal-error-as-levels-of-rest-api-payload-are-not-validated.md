@@ -1,7 +1,7 @@
 ---
 title: "ACSD-51846: Internal error as levels of REST API payload are not validated"
 description: Apply the ACSD-51846 patch to fix the Adobe Commerce issue where an "Internal Error" occurs as all levels of REST API payload are not validated.
-feature: REST API
+feature: REST
 role: Admin
 ---
 
