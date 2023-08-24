@@ -2,7 +2,7 @@
 title: "ACSD-52399: Product with salable qty 0 shows in stock"
 description: Apply the ACSD-52399 patch to fix the Adobe Commerce issue where the configurable product option with salable qty of 0 shows *In Stock* on product page.
 feature: Products, Configuration
-role: Admin
+role: Admin, Developer
 ---
 # ACSD-52399: Product with salable qty 0 shows in stock
 
