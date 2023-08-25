@@ -7,7 +7,7 @@ role: Admin, Developer
 
 # ACSD-47875: Can't add product to cart for store view scope with inventory management
 
-The ACSD-47875 patch fixes the issue a product cannot be added to a customer cart from Admin for a particular store view scope with inventory management. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.36 is installed. The patch ID is ACSD-47875. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-47875 patch fixes the issue where a product cannot be added to a customer cart from the Admin for a particular store view scope with inventory management. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.36 is installed. The patch ID is ACSD-47875. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
