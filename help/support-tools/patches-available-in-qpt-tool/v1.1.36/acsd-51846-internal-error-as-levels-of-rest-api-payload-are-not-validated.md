@@ -2,7 +2,7 @@
 title: "ACSD-51846: Internal error as levels of REST API payload are not validated"
 description: Apply the ACSD-51846 patch to fix the Adobe Commerce issue where an "Internal Error" occurs as all levels of REST API payload are not validated.
 feature: REST
-role: Admin
+role: Developer
 ---
 
 # ACSD-51846: Internal error as levels of REST API payload are not validated
@@ -17,7 +17,7 @@ The ACSD-51846 patch fixes the issue where an "Internal Error" occurs as all lev
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p2 - 2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.3-p2 - 2.4.5-p4
 
 >[!NOTE]
 >
@@ -60,10 +60,12 @@ An "Internal Error" occurs as all levels of REST API payload are not validated.
 <u>Expected results</u>:
 
 The endpoint should validate the parameter and return the `400 status code` with a specific error message. Example:
-`report.CRITICAL: LogicException: Property "Street." does not have accessor method`
 
-"getStreet." in class `"Magento\Quote\Api\Data\AddressInterface"`. in
+```report.CRITICAL: LogicException: Property "Street." does not have accessor method
+
+"getStreet." in class "Magento\Quote\Api\Data\AddressInterface". in
 `vendor/magento/framework/Reflection/NameFinder.php:103`
+```
 
 <u>Actual results</u>:
 
