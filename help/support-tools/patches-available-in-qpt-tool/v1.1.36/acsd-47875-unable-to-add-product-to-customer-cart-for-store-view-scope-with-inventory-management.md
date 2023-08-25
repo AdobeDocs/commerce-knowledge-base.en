@@ -29,7 +29,7 @@ Admin users are unable to add a product to a customer cart using the **[!UICONTR
 
 <u>Prerequisites</u>:
 
-[!DNL Adobe Commerce Inventory Management (MSI)] modules should be installed and enabled.
+[!DNL Adobe Commerce Inventory Management (MSI)] modules are installed and enabled.
 
 <u>Steps to reproduce</u>:
 
