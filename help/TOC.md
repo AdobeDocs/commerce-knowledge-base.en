@@ -648,6 +648,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-52399: Product with salable qty 0 shows in stock](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52399-product-with-salable-qty-0-shows-in-stock.md)
     * v.1.1.36{#v1-1-36}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.36](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/overview.md)
+        * [ASCD-52736: [!UICONTROL Cart Price Rule] doesn't work as expected](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-52736-cart-price-rule-doesnt-work-as-expected.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
