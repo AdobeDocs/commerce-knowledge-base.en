@@ -41,7 +41,7 @@ Admin users are unable to add a product to a customer cart using the **[!UICONTR
 
     * Assign the new source and set Qty *above 0* for the new source and *0* for the default source.
 
-1. Go to the **[!UICONTROL Customer Edit]** page in Admin. Click **[!UICONTROL Manage Shopping Cart]**.
+1. Go to the **[!UICONTROL Customer Edit]** page in the Admin. Click **[!UICONTROL Manage Shopping Cart]**.
 1. Change the store view scope to the new store view.
 1. Go to the **[!UICONTROL Products]** section and search for the product.
 1. Select the product and click **[!UICONTROL Add selections to my cart]**.
