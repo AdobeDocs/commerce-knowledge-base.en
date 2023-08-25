@@ -144,7 +144,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-52041-page-builder-renders-for-5-seconds-without-releasing-locks.html?lang=en">ACSD-52041: [!DNL Page Builder] rendering doesn't release locks:</a> The ACSD-52041 patch fixes the issue where the [!DNL Page Builder] renders for 5 seconds without releasing locks. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-52041-page-builder-renders-for-5-seconds-without-releasing-locks.html">ACSD-52041: [!DNL Page Builder] rendering doesn't release locks:</a> The ACSD-52041 patch fixes the issue where the [!DNL Page Builder] renders for 5 seconds without releasing locks. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
     </td>
     <td>New article </td>
     <td>August 25, 2023</td>
