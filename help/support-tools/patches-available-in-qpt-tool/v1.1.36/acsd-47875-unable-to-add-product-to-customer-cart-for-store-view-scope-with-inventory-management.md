@@ -25,7 +25,7 @@ The ACSD-47875 patch fixes the issue where a product cannot be added to a custom
 
 ## Issue
 
-Admin users are unable to add a product to a customer cart using **[!UICONTROL Manage shopping cart]** in Admin for a particular store view scope with MSI installed.
+Admin users are unable to add a product to a customer cart using the **[!UICONTROL Manage Shopping Cart]** feature in the Admin for a particular store view scope with MSI installed.
 
 <u>Prerequisites</u>:
 
