@@ -1,12 +1,12 @@
 ---
 title: "ACSD-52736: [!UICONTROL Cart Price Rule] doesn't work as expected"
-description: Apply the ACSD-52736 patch to fix the Adobe Commerce issue where a [!UICONTROL Cart Price Rule] that includes requirements for configurable product quantity does not work as expected.
+description: Apply the ACSD-52736 patch to fix the Adobe Commerce issue where a [!UICONTROL Cart Price Rule] that includes the requirements for configurable product quantity does not work as expected.
 feature: Shopping Cart, Products
 role: Admin, Developer
 ---
 # ACSD-52736: [!UICONTROL Cart Price Rule] doesn't work as expected
 
-The ACSD-52736 patch fixes the issue where a [!UICONTROL Cart Price Rule] that includes requirements for configurable product quantity does not work as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.36 is installed. The patch ID is ACSD-52736. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-52736 patch fixes the issue where a [!UICONTROL Cart Price Rule] that includes the requirements for configurable product quantity does not work as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.36 is installed. The patch ID is ACSD-52736. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-52736 patch fixes the issue where a [!UICONTROL Cart Price Rule] that i
 
 ## Issue
 
-A [!UICONTROL Cart Price Rule] that includes requirements for configurable product quantity doesn't work as expected.
+A [!UICONTROL Cart Price Rule] that includes the requirements for configurable product quantity doesn't work as expected.
 
 <u>Steps to reproduce</u>:
 
