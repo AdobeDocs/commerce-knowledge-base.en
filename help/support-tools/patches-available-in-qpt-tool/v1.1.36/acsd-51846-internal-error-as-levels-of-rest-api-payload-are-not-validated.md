@@ -61,10 +61,8 @@ An "Internal Error" occurs as all levels of REST API payload are not validated.
 
 The endpoint should validate the parameter and return the `400 status code` with a specific error message. Example:
 
-```report.CRITICAL: LogicException: Property "Street." does not have accessor method
-
-"getStreet." in class "Magento\Quote\Api\Data\AddressInterface". in
-`vendor/magento/framework/Reflection/NameFinder.php:103`
+```
+report.CRITICAL: LogicException: Property "Street." does not have accessor method "getStreet." in class "Magento\Quote\Api\Data\AddressInterface". in vendor/magento/framework/Reflection/NameFinder.php:103
 ```
 
 <u>Actual results</u>:
