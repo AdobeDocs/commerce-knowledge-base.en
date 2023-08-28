@@ -1,13 +1,13 @@
 ---
-title: "ACSD-50887: '[!UICONTROL Use in Search Results Layered Navigation]' set to yes without '[!UICONTROL Use in Search]' option"
-description: Apply the ACSD-50887 patch to fix the Adobe Commerce issue where the product attribute property '[!UICONTROL Use in Search Results Layered Navigation]' can be set to 'yes' without setting the '[!UICONTROL Use in Search]' option also to 'yes'.
-feature: Customers, Upgrade 
-role: Admin
+title: "ACSD-50887: *[!UICONTROL Use in Search Results Layered Navigation]* set to Yes without setting *[!UICONTROL Use in Search]* to Yes"
+description: Apply the ACSD-50887 patch to fix the Adobe Commerce issue where the product attribute property *[!UICONTROL Use in Search Results Layered Navigation]* can be set to *Yes* without the *[!UICONTROL Use in Search]* option also set to *Yes*.
+feature: Attributes, Products, Search, Storefront 
+role: Admin, Developer
 ---
 
-# ACSD-50887: *[!UICONTROL Use in Search Results Layered Navigation]* set to *yes* without *[!UICONTROL Use in Search]* option
+# ACSD-50887: *[!UICONTROL Use in Search Results Layered Navigation]* set to *Yes* without setting *[!UICONTROL Use in Search]* to *Yes*
 
-The ACSD-50887 patch fixes the issue where the product attribute property **[!UICONTROL Use in Search Results Layered Navigation]** can be set to *yes* without setting the **[!UICONTROL Use in Search]** option to *yes* as well. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.36 is installed. The patch ID is ACSD-50887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-50887 patch fixes the issue where the product attribute property **[!UICONTROL Use in Search Results Layered Navigation]** can be set to *Yes* without the **[!UICONTROL Use in Search]** option also set to *Yes*. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.36 is installed. The patch ID is ACSD-50887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -25,45 +25,47 @@ The ACSD-50887 patch fixes the issue where the product attribute property **[!UI
 
 ## Issue
 
-The product attribute property **[!UICONTROL Use in Search Results Layered Navigation]** could be set to *yes* without the **[!UICONTROL Use in Search]** option also set to *yes*. 
+The product attribute property **[!UICONTROL Use in Search Results Layered Navigation]** can be set to *Yes* without the **[!UICONTROL Use in Search]** option also set to *Yes*. 
 
-These setting were designed to be used together. With the patch applied, when the **[!UICONTROL Use in Search]** option is set to *no*, the **[!UICONTROL Use in Search Results Layered Navigation]** option is hidden to work as if it were also set to *no*.
+These settings were designed to be used together. With the patch applied, when the **[!UICONTROL Use in Search]** option is set to *No*, the **[!UICONTROL Use in Search Results Layered Navigation]** option is hidden to work as if it were also set to *No*.
 
 <u>Steps to reproduce</u>:
 
-1. In Admin > Stores > Attribute > Product create an attribute with the multiselect type and set:
+1. In the Admin, navigate to **[!UICONTROL Stores]** > **[!UICONTROL Attribute]** > **[!UICONTROL Product]** and create an attribute with the multiselect type and set the following:
 
-    * Use in Search = No
-    * Use in Layered Navigation = (Any option)
-    * Use in Search Results Layered Navigation = Yes
-    * Name = Test_attribute
-    * Options:
-        * Sticker
-        * Picker
+    * *[!UICONTROL Use in Search] = No*
+    * *[!UICONTROL Use in Layered Navigation] = (Any option)*
+    * *[!UICONTROL Use in Search Results Layered Navigation] = Yes*
+    * *[!UICONTROL Name] = Test_attribute*
+    * *[!UICONTROL Options]*:
+        * *Sticker*
+        * *Picker*
        
-1. Add the new attribute to the Default attribute set
-1. Create two products
+1. Add the new attribute to the default attribute set.
+1. Create two products:
 
     1. First product:
         * Name = Sticker
         * Set Price, QTY, Weight to 1
-        * Test_attribute = select option "Sticker"
+        * Test_attribute = select option *Sticker*
     1. Second product:
         * Name = Picker
         * Set Price, QTY, Weight to 1
         * Test_attribute = select both options
 
 1. Run `catalogsearch_fulltext` reindex:
+    
     `bin/magento ind:rei catalogsearch_fulltext`
-1. Search by word "sticker" on the Storefront.
+
+1. Search by the word *sticker* on the storefront.
 
 <u>Expected results</u>:
 
-Both the products are returned.
+Both products are returned.
 
 <u>Actual results</u>:
 
-Only product "Sticker" is returned.
+Only the product *Sticker* is returned.
 
 ## Apply the patch
 
