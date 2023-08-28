@@ -35,7 +35,7 @@ Admin users are unable to add a product to a customer cart using the **[!UICONTR
 
 1. Create a website, a store, and a store view.
 1. Create an additional source other than *Default*.
-1. Create a new stock, and assign it to the new website and the new stock.
+1. Create a new stock, and assign it to the new website and the new source.
 1. Create a new customer for the new website.
 1. Assign a product to the new website only; unassign from the default website. 
 
