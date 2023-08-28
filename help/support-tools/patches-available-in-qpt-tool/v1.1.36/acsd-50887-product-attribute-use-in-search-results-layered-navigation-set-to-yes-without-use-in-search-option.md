@@ -1,11 +1,11 @@
 ---
-title: "ACSD-50887: *[!UICONTROL Use in Search Results Layered Navigation]* set to Yes without setting *[!UICONTROL Use in Search]* to Yes"
+title: "ACSD-50887: *[!UICONTROL Use in Search Results Layered Navigation]* set to Yes without the *[!UICONTROL Use in Search]* option"
 description: Apply the ACSD-50887 patch to fix the Adobe Commerce issue where the product attribute property *[!UICONTROL Use in Search Results Layered Navigation]* can be set to *Yes* without the *[!UICONTROL Use in Search]* option also set to *Yes*.
 feature: Attributes, Products, Search, Storefront 
 role: Admin, Developer
 ---
 
-# ACSD-50887: *[!UICONTROL Use in Search Results Layered Navigation]* set to *Yes* without setting *[!UICONTROL Use in Search]* to *Yes*
+# ACSD-50887: *[!UICONTROL Use in Search Results Layered Navigation]* set to *Yes* without the *[!UICONTROL Use in Search]* option
 
 The ACSD-50887 patch fixes the issue where the product attribute property **[!UICONTROL Use in Search Results Layered Navigation]** can be set to *Yes* without the **[!UICONTROL Use in Search]** option also set to *Yes*. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.36 is installed. The patch ID is ACSD-50887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
