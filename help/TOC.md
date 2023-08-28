@@ -646,7 +646,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-51265: Optimize reindexing for bundled products](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51265-catalog-product-price.md)
     * v.1.1.36{#v1-1-36}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.36](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/overview.md)
-        * [ACSD-50887: [!UICONTROL Use in Search Results Layered Navigation] set to Yes without [!UICONTROL Use in Search]](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-50887-product-attribute-use-in-search-results-layered-navigation-set-to-yes-without-use-in-search-option.md)
+        * [ACSD-50887: [!UICONTROL Use in Search Results Layered Navigation] set to Yes without the [!UICONTROL Use in Search] option](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-50887-product-attribute-use-in-search-results-layered-navigation-set-to-yes-without-use-in-search-option.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
