@@ -65,7 +65,7 @@ Both products are returned.
 
 <u>Actual results</u>:
 
-Only the product *Sticker* is returned.
+Both products are returned.
 
 ## Apply the patch
 
