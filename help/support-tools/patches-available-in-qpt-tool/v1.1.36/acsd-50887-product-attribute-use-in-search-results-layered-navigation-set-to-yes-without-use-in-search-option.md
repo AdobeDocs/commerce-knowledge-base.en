@@ -61,7 +61,7 @@ These settings were designed to be used together. With the patch applied, when t
 
 <u>Expected results</u>:
 
-Both products are returned.
+Only the product *Sticker* is returned, because [!DNL Elasticsearch] won't index Test_attribute when *[!UICONTROL Use in Search]* has been set to *No*.
 
 <u>Actual results</u>:
 
