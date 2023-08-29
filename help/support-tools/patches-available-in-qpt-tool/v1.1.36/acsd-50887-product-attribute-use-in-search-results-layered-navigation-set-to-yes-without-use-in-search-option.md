@@ -55,7 +55,7 @@ These settings were designed to be used together. With the patch applied, when t
 
 1. Run `catalogsearch_fulltext` reindex:
     
-    `bin/magento ind:rei catalogsearch_fulltext`
+    `bin/magento indexer:reindex catalogsearch_fulltext`
 
 1. Search by the word *sticker* on the storefront.
 
