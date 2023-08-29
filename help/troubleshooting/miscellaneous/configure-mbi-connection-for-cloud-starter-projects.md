@@ -61,7 +61,7 @@ Follow these steps:
 
 1. Create a dedicated Commerce Intelligence user.
 
-    * Create a new user on [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login).
+    * Create a new user on [account.adobe.com](https://account.adobe.com/).
     * Why a new user? Adobe Commerce Intelligence needs a user added to the project to continuously fetch new data to be transferred to the account's Commerce Intelligence data warehouse. This user will serve as that connection. Adding this user to the project will come in Step 4.
     * The reason for having a dedicated Commerce Intelligence user is to prevent the added user from inadvertently being deactivated or deleted and stopping the Commerce Intelligence connection.
 
