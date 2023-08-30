@@ -29,7 +29,7 @@ An "Internal Error" occurs as all levels of [!DNL REST API] payload are not vali
 
 <u>Steps to reproduce</u>:
 
-1. Add product to the customer's cart
+1. Add a product to the customer's cart.
 1. Send the REST API request to `rest/V1/carts/mine/estimate-shipping-methods` using a wrong attribute "street." with a dot in the end.
 
 ```
