@@ -32,7 +32,7 @@ The related product rule `is one of` condition does not work correctly for **Pro
 1. Create a new related product rule.
 
      Set the rule to match two or more products:
-    * `SKU is one of "S1,S2"`
+    * `SKU is one of "S1,S2".`
 
     Set the rule to display two or more items:
     * `Product SKU is one of constant value "S2,S3"`
