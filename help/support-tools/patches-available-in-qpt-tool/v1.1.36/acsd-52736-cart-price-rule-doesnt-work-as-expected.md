@@ -34,7 +34,7 @@ A [!UICONTROL Cart Price Rule] that includes the requirements for configurable p
     [!UICONTROL Maximum Qty Discount is Applied to] = 1
     [!UICONTROL Discount Qty Step (Buy X)] = 1
     * Apply the rule only to the cart items matching the following conditions: Quantity in cart is 1
-2. Add a product with **[!UICONTROL Qty]** = *2* to the cart.
+2. Add a product with [!UICONTROL Qty] = 2, to the cart.
 3. Check cart prices.
 
 <u>Expected results</u>:
