@@ -25,7 +25,7 @@ The ACSD-50887 patch fixes the issue where the product attribute property *[!UIC
 
 ## Issue
 
-The product attribute property **[!UICONTROL Use in Search Results Layered Navigation]** can be set to *Yes* without the **[!UICONTROL Use in Search]** option also being set to *Yes*. 
+The product attribute property *[!UICONTROL Use in Search Results Layered Navigation]* can be set to *Yes* without the *[!UICONTROL Use in Search]* option also being set to *Yes*. 
 
 These settings were designed to be used together. With the patch applied, when the **[!UICONTROL Use in Search]** option is set to *No*, the **[!UICONTROL Use in Search Results Layered Navigation]** option is hidden to work as if it were also set to *No*.
 
