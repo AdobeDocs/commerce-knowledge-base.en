@@ -25,7 +25,7 @@ The ACSD-51846 patch fixes the issue where an "Internal Error" occurs as all lev
 
 ## Issue
 
-An "Internal Error" occurs as all levels of REST API payload are not validated.
+An "Internal Error" occurs as all levels of [!DNL REST API] payload are not validated.
 
 <u>Steps to reproduce</u>:
 
