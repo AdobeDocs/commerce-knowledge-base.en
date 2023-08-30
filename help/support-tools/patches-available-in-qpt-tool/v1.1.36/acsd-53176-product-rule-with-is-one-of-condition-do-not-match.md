@@ -24,7 +24,7 @@ The ACSD-53176 patch fixes the issue where the related product rule `is one of` 
 
 ## Issue
 
-The related product rule `is one of` condition does not work correctly for "Products to Match".
+The related product rule `is one of` condition does not work correctly for **Products to Match**.
 
 <u>Steps to reproduce</u>:
 
