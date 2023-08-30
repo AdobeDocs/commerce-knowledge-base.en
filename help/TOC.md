@@ -648,7 +648,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-52399: Product with salable qty 0 shows in stock](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52399-product-with-salable-qty-0-shows-in-stock.md)
     * v.1.1.36{#v1-1-36}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.36](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/overview.md)
-        * [ACSD-51846: Internal error as levels of rest api payload are not validated](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-51846-internal-error-as-levels-of-rest-api-payload-are-not-validated.md)
+        * [ACSD-51846: Internal error as [!DNL REST API] payload levels aren't validated](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-51846-internal-error-as-levels-of-rest-api-payload-are-not-validated.md)
         * [ACSD-47875: Can't add product to cart for store view scope with inventory management](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-47875-unable-to-add-product-to-customer-cart-for-store-view-scope-with-inventory-management.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
