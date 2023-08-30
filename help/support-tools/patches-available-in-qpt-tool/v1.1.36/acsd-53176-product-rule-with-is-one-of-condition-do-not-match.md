@@ -6,7 +6,7 @@ role: Admin
 ---
 # ACSD-53176: Product rule with `is one of` condition do not match
 
-The ACSD-53176 patch fixes the issue where the related product rule `is one of` condition does not work correctly for "Products to Match". This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.36 is installed. The patch ID is ACSD-53176. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-53176 patch fixes the issue where the related product rule `is one of` condition does not work correctly for **Products to Match**. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.36 is installed. The patch ID is ACSD-53176. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
