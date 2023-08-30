@@ -627,6 +627,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48448: Race condition issue during order cancellations causing duplicated entry in inventory_reservation table](/help/support-tools/patches-available-in-qpt-tool/v1-1-34/acsd-48448-race-condition-issue-happening-during-order-cancellations.md)
     * v1.1.35{#v1-1-35}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.35](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/overview.md)
+        * [ACSD-52095: Manage stock value is wrong while exporting csv](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52095-manage-stock-value-wrong-while-exporting-csv.md)
         * [ACSD-51358: Schedule updates are missing](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51358-schedule-updates-are-missing.md)
         * [ACSD-51149: Scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51149-scheduled-importexport-enabled-catalog-permissions-invalidates-indexers.md)
         * [ACSD-50815: Decimal quantity for simple product cannot be used for new bundled product option](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-50815-decimal-quantity-for-simple-product-cannot-be-used-for-new-bundle-product-option.md)
