@@ -7,7 +7,7 @@ role: Developer
 
 # ACSD-51846: Internal error as [!DNL REST API] payload levels aren't validated
 
-The ACSD-51846 patch fixes the issue where an "Internal Error" occurs as all levels of REST API payload are not validated. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.36 is installed. The patch ID is ACSD-51846. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-51846 patch fixes the issue where an "Internal Error" occurs as all levels of [!DNL REST API] payload are not validated. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.36 is installed. The patch ID is ACSD-51846. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
