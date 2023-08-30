@@ -28,7 +28,7 @@ A [!UICONTROL Cart Price Rule] that includes the requirements for configurable p
 
 <u>Steps to reproduce</u>:
 
-1. Create a **[!UICONTROL Cart Rule]**.
+1. Create a cart rule:
     * *[!UICONTROL Apply]* = *Percent of product price discount*
     * *[!UICONTROL Discount Amount]* = *60*
     * *[!UICONTROL Maximum Qty Discount is Applied to]* = *1*
