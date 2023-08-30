@@ -645,9 +645,11 @@ breadcrumb-title: Commerce KB
         * [ACSD-51984: Unchecked Used Default Value and non-default product field values are not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51984-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.md)
         * [ACSD-52831: Cannot place negotiable quote orders when [!DNL Google reCAPTCHA v3 Invisible] enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52831-cannot-place-negotiable-quote-orders.md)
         * [ACSD-51265: Optimize reindexing for bundled products](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51265-catalog-product-price.md)
+        * [ACSD-52399: Product with salable qty 0 shows in stock](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52399-product-with-salable-qty-0-shows-in-stock.md)
     * v.1.1.36{#v1-1-36}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.36](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/overview.md)
         * [ACSD-53239: Inventory indexer cleans all caches in the [!UICONTROL Update on Schedule] mode](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-53239-inventory-indexer-cleans-all-caches.md)
+        * [ACSD-47875: Can't add product to cart for store view scope with inventory management](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-47875-unable-to-add-product-to-customer-cart-for-store-view-scope-with-inventory-management.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -945,6 +947,7 @@ breadcrumb-title: Commerce KB
     * [Deployment error: "error 7 while downloading ... port 443: Connection refused"](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
     * [Deployment errors when committing incorrect files](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
   * Known issues {#known-issues-patches-attached}
+    * [[!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md) 
     * [Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.3-p2-2.4.5-security-hotfix-for-cve-2022-35698.md)
     * [Empty shopping cart issue when multiple click on checkout from mini cart](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
     * [Adobe Commerce 2.4.4: Unable to create partial invoices](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
