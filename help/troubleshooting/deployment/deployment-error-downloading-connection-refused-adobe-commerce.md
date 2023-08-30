@@ -46,7 +46,7 @@ Deployment fails with a **curl error 7** message.
  Ask a Super User on the project to run this command:
 
  ```bash
- mgc clear-build-cache -p <project ID>
+ magento-cloud project:clear-build-cache -p <project ID>
  ```
 
 To check who on the project is a Super User, refer to [View a user's project role](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) in the Commerce on Cloud Infrastructure Guide.
