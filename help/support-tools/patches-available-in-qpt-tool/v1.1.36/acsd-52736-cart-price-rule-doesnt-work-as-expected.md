@@ -30,7 +30,7 @@ A [!UICONTROL Cart Price Rule] that includes the requirements for configurable p
 
 1. Create a cart rule:
     [!UICONTROL Apply] = Percent of product price discount
-    * *[!UICONTROL Discount Amount]* = *60*
+    [!UICONTROL Discount Amount] = 60
     * *[!UICONTROL Maximum Qty Discount is Applied to]* = *1*
     * *[!UICONTROL Discount Qty Step (Buy X)]* = *1*
     * Apply the rule only to the cart items matching the following conditions: *Quantity in cart is 1
