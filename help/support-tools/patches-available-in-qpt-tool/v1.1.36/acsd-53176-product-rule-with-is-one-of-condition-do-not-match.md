@@ -35,7 +35,7 @@ The related product rule `is one of` condition does not work correctly for **Pro
     * `SKU is one of "S1,S2".`
 
     Set the rule to display two or more items:
-    * `Product SKU is one of constant value "S2,S3"`
+    * `Product SKU is one of constant value "S2,S3".`
 
 1. Open the S1 product on the Storefront.
 
