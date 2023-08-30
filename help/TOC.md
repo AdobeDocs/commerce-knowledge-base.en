@@ -648,6 +648,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-52399: Product with salable qty 0 shows in stock](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-52399-product-with-salable-qty-0-shows-in-stock.md)
     * v.1.1.36{#v1-1-36}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.36](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/overview.md)
+        * [ACSD-53176: Product rule with is one of condition do not match](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-53176-product-rule-with-is-one-of-condition-do-not-match.md)
         * [ACSD-47875: Can't add product to cart for store view scope with inventory management](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-47875-unable-to-add-product-to-customer-cart-for-store-view-scope-with-inventory-management.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
