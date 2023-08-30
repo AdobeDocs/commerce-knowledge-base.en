@@ -2,7 +2,7 @@
 title: "ACSD-52095: Manage stock value is wrong while exporting CSV"
 description: Apply the ACSD-52095 patch to fix the Adobe Commerce issue where the product manage stock value is wrong while exporting CSV.
 feature: Inventory, Products
-role: Admin
+role: Admin, Developer
 ---
 # ACSD-52095: Manage Stock value is wrong while exporting CSV
 
