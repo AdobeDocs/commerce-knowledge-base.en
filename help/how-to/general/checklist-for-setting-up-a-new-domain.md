@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 
 >[!NOTE]
 >
->You can add the new [!DNL domain] to [!DNL Fastly] yourself by updating the configuration in the [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** as in [[!DNL Customize cache configuration]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html) in our user guide.
+>You can add the new [!DNL domain] to [!DNL Fastly] yourself by updating the configuration in the [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** as in [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) in our user guide.
 
 * **[!DNL Starter]**: [!DNL Custom domains] are not supported.
 
@@ -36,7 +36,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 
 >[!NOTE]
 >
->You can add the new [!DNL domain] to [!DNL Fastly] yourself by updating the configuration in the [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** as in [[!DNL Customize cache configuration]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html) in our user guide.
+>You can add the new [!DNL domain] to [!DNL Fastly] yourself by updating the configuration in the [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) in our user guide.
 
 * **[!DNL Starter]**: Add the [!DNL domain] to your project in the **[!DNL Domains]** tab, then **submit a request** to provide the **[!DNL ACME Challenge Key]** for the [!DNL SSL certificate].
 

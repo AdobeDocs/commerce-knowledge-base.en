@@ -1,22 +1,22 @@
 ---
-title: "ACSD-51149: Scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers"
-description: Apply the ACSD-51149 patch to fix the Adobe Commerce performance issue where the scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers.
-feature: Cache, Data Import/Export
-role: Admin
+title: "ACSD-52399: Product with salable qty 0 shows in stock"
+description: Apply the ACSD-52399 patch to fix the Adobe Commerce issue where the configurable product option with salable qty of 0 shows *In Stock* on product page.
+feature: Products, Configuration
+role: Admin, Developer
 ---
-# ACSD-51149: Scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers
+# ACSD-52399: Product with salable qty 0 shows in stock
 
-The ACSD-51149 patch fixes the issue where the scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-51149. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52399 patch fixes the issue where the configurable product option with a salable qty of zero (0) shows *In Stock* on the product page. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52399. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5
+* Adobe Commerce (all deployment methods) 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.5-p3
 
 >[!NOTE]
 >
@@ -24,28 +24,21 @@ The ACSD-51149 patch fixes the issue where the scheduled [!UICONTROL ImportExpor
 
 ## Issue
 
-Scheduled [!UICONTROL ImportExport] with enabled [!UICONTROL Catalog Permissions] invalidates indexers.
+Configurable product option with a salable qty of zero (0) shows *In Stock* on the product page.
 
 <u>Steps to reproduce</u>:
 
-1. Enable *[!UICONTROL Catalog Permissions]*.
-1. Set all indexers to *[!UICONTROL Update by Schedule]*.
-1. Create a simple product.
-1. Export this product via **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Export]**.
-1. Download the exported CSV, and put it into `<AC root folder>/var/import`.
-1. Create a scheduled product import with the downloaded CSV.
-1. Run full reindex.
-1. Check the indexers' status. All indexers should be in *[!UICONTROL Ready]* status.
-1. Run the created scheduled import from the grid.
-1. Recheck indexers' status.
+1. Create a configurable product with zero (0) salable quantity product option.
+1. Go to the product page on the storefront and select the configurable product to check a variation/configuration.
+1. Select **[!UICONTROL Add to Cart]**.
 
 <u>Expected results</u>:
 
-All the indexers are in the *[!UICONTROL Ready]* status.
+*[!UICONTROL Add to Cart]* button is not available when selecting *Out of stock* product configuration.
 
 <u>Actual results</u>:
 
-Some of the indexers are in *[!UICONTROL Reindex Required]* status.
+Configurable variations are available on the storefront, and you can select and add them to the cart.
 
 ## Apply the patch
 
@@ -62,4 +55,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
- 
