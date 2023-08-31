@@ -14,11 +14,9 @@ This article offers clarification on what users should do about vulnerabilities 
 
 ## Issues
 
-Merchant performed PEN test and reviewed high-risk items.
-
+Merchant performed PEN test through an independent Security agency and a vulnerability is flagged.
 
 ## Solutions
-
 
 Vulnerabilities found by third-party security scans should be sent to the HackerOne website. Adobe Commerce does not have a direct point of contact at HackerOne, so users should directly reach out to HackerOne. 
 
