@@ -4,7 +4,7 @@ description: This article offers clarification on what users should do about vul
 feature: 
 role: Developer, Admin
 ---
-# Vulnerabilities found by third-party security scans need to go via HackerOne
+# Vulnerabilities found by third-party security scans should go to HackerOne
 
 This article offers clarification on what users should do about vulnerabilities found by third-party security scans.
 
@@ -18,8 +18,4 @@ Merchant performed PEN test through an independent Security agency and a vulnera
 
 ## Solutions
 
-Vulnerabilities found by third-party security scans should be sent to the HackerOne website. Adobe Commerce does not have a direct point of contact at HackerOne, so users should directly reach out to HackerOne. 
-
-Only MST( Magento security scan tool) report will be taken care by Adobe.
-
-
+Vulnerabilities found by third-party security scans should be sent to the HackerOne website. Adobe Commerce does not have a direct point of contact at HackerOne, so users should directly reach out to HackerOne. Adobe only handles MST(Magento security scan tool) report.
