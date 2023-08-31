@@ -21,7 +21,7 @@ An error occurs when you do a [!DNL JS/CSS] flush:
 
 Or: You see the above error in the [!DNL Admin], and/or a similar error in [!DNL New Relic] or in the deployment logs.
 
-Or: You are unable to access Advanced Reporting and the analytics_collect_data cron job is failing with this error:
+Or: You are unable to access Advanced Reporting, and the analytics_collect_data cron job is failing with this error:
 
 *The "/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0" file can't be deleted. Warning!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0): No such file or directory
 
