@@ -30,7 +30,7 @@ The preview page takes a long time to load due to a reindex of all stores.
 
 1. Go to the Commerce Admin.
 1. Create any scheduled update.
-1. Go to **[!UICONTROL Content]** > **[UICONTROL Dashboard]**.
+1. Go to **[!UICONTROL Content]** > **[!UICONTROL Dashboard]**.
 
 
 <u>Expected results</u>:
