@@ -10,7 +10,7 @@ This sub-section provides a detailed description of the issues fixed by the patc
 
 QPT v1.1.37 includes the following patches:
 
-1. **ACSD-52613**: Fixes the issue where caches and indexes are refreshed even when no updates are made to Inventory_source items by rest API.
+1. **ACSD-52613**: Fixes the issue where caches and indexes are refreshed even when no updates are made to `Inventory_source` items by rest API.
 1. **ACSD-51884**: Fixes the issue where the product image cache path becomes incorrect after running the resize command.
 1. **ACSD-53628**: Fixes the issue where the CSV sales order report shows incorrect special characters.
 1. **ACSD-49843**: Fixes the issue where the link on product download is not available after the ordered item is auto invoiced by online payment method with the *[!UICONTROL Payment Action]* = *[!UICONTROL Sale]* setting enabled.
