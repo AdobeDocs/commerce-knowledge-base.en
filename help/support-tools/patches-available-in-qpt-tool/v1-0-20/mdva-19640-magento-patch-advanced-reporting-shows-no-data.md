@@ -17,7 +17,7 @@ Adobe Commerce on cloud infrastructure 2.3.0
 
 **Compatible with Adobe Commerce versions:**
 
-Adobe Commerce (all deployment methods) 2.3.1 - 2.4.2
+Adobe Commerce (all deployment methods) 2.3.1 - 2.4.6-p2
 
 >[!NOTE]
 >
@@ -37,6 +37,11 @@ The Advanced Reporting report contains information, as expected.
 <u>Actual results</u>:
 
 The Advanced Reporting report shows no data.
+
+<u>Additional steps required after the patch installation</u>:
+
+The following SQL query has to be applied to update records in the cron_schedule table:
+`UPDATE core_config_data SET path = REPLACE(path, "crontab/default/jobs/analytics", "crontab/analytics/jobs/analytics") WHERE path LIKE "crontab/default/jobs/analytics%";`
 
 ## Apply the patch
 
