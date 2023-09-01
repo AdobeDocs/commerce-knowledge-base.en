@@ -650,6 +650,7 @@ breadcrumb-title: Commerce KB
     * v.1.1.36{#v1-1-36}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.36](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/overview.md)
         * [ASCD-52736: [!UICONTROL Cart Price Rule] doesn't work as expected](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-52736-cart-price-rule-doesnt-work-as-expected.md)
+        * [ACSD-53239: Inventory indexer cleans all caches in the [!UICONTROL Update on Schedule] mode](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-53239-inventory-indexer-cleans-all-caches.md)
         * [ACSD-50887: [!UICONTROL Use in Search Results Layered Navigation] set to Yes without the [!UICONTROL Use in Search] option](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-50887-product-attribute-use-in-search-results-layered-navigation-set-to-yes-without-use-in-search-option.md)
         * [ACSD-51846: Internal error as [!DNL REST API] payload levels aren't validated](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-51846-internal-error-as-levels-of-rest-api-payload-are-not-validated.md)
         * [ACSD-53176: Product rule with is one of condition do not match](/help/support-tools/patches-available-in-qpt-tool/v1.1.36/acsd-53176-product-rule-with-is-one-of-condition-do-not-match.md)
