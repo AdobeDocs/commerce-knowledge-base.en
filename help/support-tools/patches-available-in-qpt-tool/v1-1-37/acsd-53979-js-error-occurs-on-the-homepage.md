@@ -1,7 +1,7 @@
 ---
 title: "ACSD-53979: [!DNL JS] error occurs on the [!DNL Homepage]"
 description: Apply the ACSD-53979 patch to fix the Adobe Commerce issue where a [!DNL JavaScript] error occurs on the [!DNL Homepage], if the welcome message contains a single quote.
-feature: 
+feature: Page Content
 role: Admin, Developer
 ---
 # ACSD-53979: [!DNL JavaScript] error occurs on the [!DNL Homepage]
@@ -43,7 +43,7 @@ Frontend loads without any [!DNL JavaScript] errors.
 
 <u>Actual results</u>:
 
-The [!DNL Javascript] error occurs:
+A [!DNL JavaScript] error occurs:
 
     ```JS
         Uncaught SyntaxError: Unable to process binding "ifnot: function(){return customer().fullname }"
