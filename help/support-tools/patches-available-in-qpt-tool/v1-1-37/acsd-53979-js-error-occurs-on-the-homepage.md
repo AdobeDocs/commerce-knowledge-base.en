@@ -1,22 +1,22 @@
 ---
 title: "ACSD-53979: [!DNL JS] error occurs on the [!DNL Homepage]"
-description: Apply the ACSD-53979 patch to fix the Adobe Commerce issue where a [!DNL JS] error occurs on the [!DNL Homepage], if the *Welcome message* contains a single quote.
+description: Apply the ACSD-53979 patch to fix the Adobe Commerce issue where a [!DNL JavaScript] error occurs on the [!DNL Homepage], if the welcome message contains a single quote.
 feature: 
 role: Admin, Developer
 ---
-# ACSD-53979: [!DNL JS] error occurs on the [!DNL Homepage]
+# ACSD-53979: [!DNL JavaScript] error occurs on the [!DNL Homepage]
 
-The ACSD-52736 patch fixes the issue where a [!UICONTROL Cart Price Rule] that includes the requirements for configurable product quantity does not work as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.36 is installed. The patch ID is ACSD-52736. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-53979 patch fixes the issue where a [!DNL JavaScript] error occurs on the [!DNL Homepage], if the welcome message contains a single quote. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.37 is installed. The patch ID is ACSD-53979. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p1
+* Adobe Commerce (all deployment methods) 2.4.6-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.5-p4
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p2
 
 >[!NOTE]
 >
@@ -24,18 +24,18 @@ The ACSD-52736 patch fixes the issue where a [!UICONTROL Cart Price Rule] that i
 
 ## Issue
 
-A [!UICONTROL Cart Price Rule] that includes the requirements for configurable product quantity doesn't work as expected.
+A [!DNL JavaScript] error occurs on the [!DNL Homepage], if the welcome message contains a single quote.
 
 <u>Steps to reproduce</u>:
 
-1. Create a cart rule:
-    * [!UICONTROL Apply] = Percent of product price discount
-    * [!UICONTROL Discount Amount] = 60
-    * [!UICONTROL Maximum Qty Discount is Applied to] = 1
-    * [!UICONTROL Discount Qty Step (Buy X)] = 1
-    * Apply the rule only to the cart items matching the following conditions: Quantity in cart is 1
-2. Add a product with [!UICONTROL Qty] = 2, to the cart.
-3. Check cart prices.
+1. Set a default welcome message into the `en_US.csv` file in [!DNL French] language or put a quote character like below:
+`app/code/Magento/Theme/i18n/en_US.csv`
+
+    ```CSV
+        "Default welcome msg!","Message d'accueil par défaut"
+    ```
+
+1. Go to Frontend.
 
 <u>Expected results</u>:
 
