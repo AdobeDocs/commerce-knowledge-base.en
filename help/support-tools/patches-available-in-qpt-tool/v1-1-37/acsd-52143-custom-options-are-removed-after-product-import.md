@@ -40,15 +40,11 @@ The custom options are removed after the product import
 
 <u>Expected results</u>:
 
-The custom options should not be removed after import.
+The custom options shall not be removed after the product import.
 
 <u>Actual results</u>:
 
-The customs options removed after import.
-
-<u> Additional steps required after the patch installation</u>:
-
-After applying the patch, the cart rule conditions using the *Quantity* attribute must be removed and added again.
+The customs options are removed after the product import.
 
 ## Apply the patch
 
