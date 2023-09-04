@@ -39,16 +39,19 @@ A [!DNL JavaScript] error occurs on the [!DNL Homepage], if the welcome message 
 
 <u>Expected results</u>:
 
-The rule is not applied because the quantity of the products in the cart is *2*.
+Frontend loads without any [!DNL JavaScript] errors.
 
 <u>Actual results</u>:
 
-The discount is applied.
+The [!DNL Javascript] error occurs:
 
-<u> Additional steps required after the patch installation</u>:
-
-After applying the patch, the cart rule conditions using the *Quantity* attribute must be removed and added again.
-
+    ```JS
+        Uncaught SyntaxError: Unable to process binding "ifnot: function(){return customer().fullname }"
+        Message: Unable to parse bindings.
+        Bindings value: text: 'Message d'accueil par défaut'
+        Message: Unexpected identifier 'accueil'
+    ```
+    
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
