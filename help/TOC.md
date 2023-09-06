@@ -656,6 +656,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-53176: Product rule with is one of condition do not match](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-53176-product-rule-with-is-one-of-condition-do-not-match.md)
         * [ACSD-47875: Can't add product to cart for store view scope with inventory management](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-47875-unable-to-add-product-to-customer-cart-for-store-view-scope-with-inventory-management.md)
         * [ACSD-51666: Error "The session has expired, please login again." after you log in](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-51666-error-session-has-expired-please-login-again.md)
+        * [ACSD-52906: Resolving X-Magento-Vary cookie issue for logged-in customer caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-52906-resolving-x-magento-vary-cookie-issue-logged-in-customer-caching.md)
     * v1.1.37 {#v1-1-37}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.37](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
