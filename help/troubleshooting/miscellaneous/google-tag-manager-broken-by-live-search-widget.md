@@ -10,7 +10,7 @@ This article offers a solution to the [!DNL Live Search Product Listing Widget] 
 
 ## Affected products and versions
 
-* Adobe Commerce Services
+* Adobe Commerce 
 
 ## Issue
 
