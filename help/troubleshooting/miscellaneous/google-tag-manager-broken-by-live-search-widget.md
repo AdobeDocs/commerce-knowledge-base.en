@@ -20,7 +20,7 @@ The [!DNL Live Search Product Listing Widget] causes [!DNL Google Tag Manager] t
 
 To ensure that  [!DNL Google Tag Manager] will work with[!DNL Live Search] , the *Search Adapter* must be used. 
 
-To do so, install the [!DNL Live Search] extension. This will get you the *Search Adapter* by default.
+To do so, disable the widget in the Admin. [!DNL Live Search] then defaults to using the Search Adapter.
 
 >[!NOTE]
 >
