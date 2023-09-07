@@ -10,7 +10,7 @@ This article offers a solution to the [!DNL Live Search Product Listing Widget] 
 
 ## Affected products and versions
 
-* Adobe Commerce (all versions)
+* Adobe Commerce Services
 
 ## Issue
 
@@ -18,13 +18,9 @@ The [!DNL Live Search Product Listing Widget] causes [!DNL Google Tag Manager] t
 
 ## Solution
 
-To ensure that  [!DNL Google Tag Manager] will work with[!DNL Live Search] , the *Search Adapter* must be used. 
+To ensure that [!DNL Google Tag Manager] works with [!DNL Live Search], use the *Search Adapter*. 
 
-To do so, disable the widget in the Admin. [!DNL Live Search] then defaults to using the Search Adapter.
-
->[!NOTE]
->
->You would have to [enable the widget](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling.html) from Admin if you wish to use it, but then [!DNL Google Tag Manager] won't work properly. This is why using the default *Search Adapter* is recommended.
+To do so, disable the widget in the Admin. [!DNL Live Search] then defaults to using the *Search Adapter*.
 
 ## Related reading
 
