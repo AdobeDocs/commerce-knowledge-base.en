@@ -1,12 +1,12 @@
 ---
 title: Google Tag Manager is broken by the Live Search widget
-description: This article offers a solution to the [!DNL Live Search Product Listing  Widget] causing [!DNL Google Tag Manager] to stop functioning.
+description: This article offers a solution to the [!DNL Live Search Product Listing Widget] causing [!DNL Google Tag Manager] to stop functioning.
 feature: Install, Search, Best Practices
 role: Admin, Developer
 ---
 # [!DNL Google Tag Manager] is broken by the Live Search widget
 
-This article offers a solution to the [!DNL Live Search Product Listing  Widget] causing [!DNL Google Tag Manager] to stop functioning.
+This article offers a solution to the [!DNL Live Search Product Listing Widget] causing [!DNL Google Tag Manager] to stop functioning.
 
 ## Affected products and versions
 
@@ -14,7 +14,7 @@ This article offers a solution to the [!DNL Live Search Product Listing  Widget]
 
 ## Issue
 
-The [!DNL Live Search Product Listing  Widget] causes [!DNL Google Tag Manager] to stop functioning. The issue occurs particularly when using the widget with LUMA. 
+The [!DNL Live Search Product Listing Widget] causes [!DNL Google Tag Manager] to stop functioning. The issue occurs particularly when using the widget with LUMA. 
 
 ## Solution
 
@@ -24,7 +24,7 @@ To do so, install the [!DNL Live Search] extension. This will get you the *Sea
 
 >[!NOTE]
 >
->You would have to [enable the widget](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling.html) from Admin if you wish to use it, but then [!DNL Google Tag Manager] won't work properly. This is why using the default *Search Adapter* is the recommended workaround.
+>You would have to [enable the widget](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling.html) from Admin if you wish to use it, but then [!DNL Google Tag Manager] won't work properly. This is why using the default *Search Adapter* is recommended.
 
 ## Related reading
 
