@@ -14,7 +14,7 @@ This article offers a solution to the [!DNL Live Search Product Listing Widget] 
 
 ## Issue
 
-The [!DNL Live Search Product Listing Widget] causes [!DNL Google Tag Manager] to stop functioning. The issue occurs particularly when using the widget with LUMA. 
+The [!DNL Live Search Product Listing Widget] causes [!DNL Google Tag Manager] to stop functioning.
 
 ## Solution
 
