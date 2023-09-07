@@ -18,7 +18,7 @@ The [!DNL Live Search Product Listing Widget] causes [!DNL Google Tag Manager] t
 
 ## Solution
 
-For a better experience with [!DNL Google Tag Manager], consider using it with *Search Adapter* instead, which is the first iteration of [!DNL Live Search]. 
+To ensure that  [!DNL Google Tag Manager] will work with[!DNL Live Search] , the *Search Adapter* must be used. 
 
 To do so, install the [!DNL Live Search] extension. This will get you the *Search Adapter* by default.
 
