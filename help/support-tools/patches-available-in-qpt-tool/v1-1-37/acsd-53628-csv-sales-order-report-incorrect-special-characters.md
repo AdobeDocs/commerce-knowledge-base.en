@@ -35,7 +35,7 @@ The CSV sales order report shows incorrect special characters.
 
 <u>Expected results</u>:
 
-Special characters in an exported csv file are shown correctly in Excel.
+Special characters in an exported CSV file are shown correctly in Excel.
 
 <u>Actual results</u>:
 
