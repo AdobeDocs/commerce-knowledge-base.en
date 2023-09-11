@@ -16,7 +16,7 @@ The ACSD-47054 patch fixes the issue where a preview of the content staging is t
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods): >=2.4.2 <2.4.6
+* Adobe Commerce (all deployment methods): 2.4.2 - 2.4.5-p4
 
 >[!NOTE]
 >
