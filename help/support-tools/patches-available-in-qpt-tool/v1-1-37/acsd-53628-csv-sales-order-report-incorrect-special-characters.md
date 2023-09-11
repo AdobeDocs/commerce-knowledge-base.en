@@ -16,7 +16,7 @@ The ACSD-53628 patch fixes the issue where the CSV sales order report shows inco
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods): 2.3.7 - 2.4.6.p2
+* Adobe Commerce (all deployment methods): 2.3.7 - 2.4.6-p2
 
 >[!NOTE]
 >
