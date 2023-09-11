@@ -30,7 +30,7 @@ The CSV sales order report shows incorrect special characters.
 
 1. Change **[!UICONTROL Base Currency]** and **[!UICONTROL Default Display Currency]** to Euro in the Currency Setup.
 1. Place an order.
-1. On the Admin sidebar go to **[!UICONTROL Reports]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. On the Admin sidebar, go to **[!UICONTROL Reports]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 1. Select dates. Click **[!UICONTROL Show Report]**. Click **[!UICONTROL Export]** to export the CSV.
 
 <u>Expected results</u>:
