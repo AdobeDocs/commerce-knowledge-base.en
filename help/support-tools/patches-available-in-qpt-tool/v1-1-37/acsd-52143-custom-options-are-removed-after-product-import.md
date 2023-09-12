@@ -33,7 +33,7 @@ The custom options are removed after the product import.
 1. In each product, add a [!UICONTROL Customizable Option].
 1. Switch to the second store view and modify the product name on each product.
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Export]** and export the two products you created.
-1. Download the [!UICONTROL CSV file].
+1. Download the CSV file.
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Import]** and re-import the file.
 1. Check both products.
 
