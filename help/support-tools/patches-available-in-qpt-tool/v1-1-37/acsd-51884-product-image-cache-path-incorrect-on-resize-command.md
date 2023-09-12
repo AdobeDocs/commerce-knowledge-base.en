@@ -32,7 +32,7 @@ Product image cache path becomes incorrect on resize command.
 1. Create new website/store/storeview.
 1. Create a product and assign it to both websites and upload the product image.
 1. Create a new theme (see attached Adobe.zip).
-1. In *app/design/Adobe/theme/etc/view.xml change*
+1. In `app/design/Adobe/theme/etc/view.xml` change:
 
 ```
 <vars module="Magento_Catalog">
