@@ -35,7 +35,7 @@ A JavaScript error occurs on the homepage if the welcome message contains a sing
         "Default welcome msg!","Message d'accueil par défaut"
     ```
 
-1. Go to Frontend.
+1. Go to the frontend.
 
 <u>Expected results</u>:
 
