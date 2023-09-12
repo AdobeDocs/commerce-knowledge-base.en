@@ -33,7 +33,7 @@ The image is not updated on the frontend after replacing it with another image.
 1. Edit the product and upload an image with a known name (Example: *image.jpg*).
 1. Save the product.
 1. Edit the product again and delete the old version of the image, and upload the new version of the image with the same name. **Make sure the new version is visibly different to see the issue.**
-1. Save the product. Both admin and frontend displays the images as expected.
+1. Save the product. Both admin and frontend displays the images.
 1. Edit the product again and re-upload the same new image again (using the same name).
 1. Save the product and check the product page on the frontend.
 
