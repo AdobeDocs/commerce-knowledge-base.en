@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53979: [!DNL JS] error occurs on the [!DNL Homepage]"
+title: "ACSD-53979: JS error occurs on the homepage"
 description: Apply the ACSD-53979 patch to fix the Adobe Commerce issue where a [!DNL JavaScript] error occurs on the [!DNL Homepage], if the welcome message contains a single quote.
 feature: Page Content
 role: Admin, Developer
