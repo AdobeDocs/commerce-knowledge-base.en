@@ -39,7 +39,7 @@ The image is not updated on the frontend after replacing it with another image.
 
 <u>Expected results</u>:
 
-The image uploaded the second time should be the new image, along with the image name renamed.
+The image uploaded the second time should be the new image, along with the renamed image name.
 
 <u>Actual results</u>:
 
