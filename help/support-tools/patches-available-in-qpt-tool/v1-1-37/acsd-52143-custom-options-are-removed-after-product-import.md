@@ -37,7 +37,6 @@ The custom options are removed after the product import.
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Import]** and re-import the file.
 1. Check both products.
 
-
 <u>Expected results</u>:
 
 The custom options shall not be removed after the product import.
