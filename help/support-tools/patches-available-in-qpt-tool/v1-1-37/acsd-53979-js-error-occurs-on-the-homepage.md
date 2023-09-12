@@ -43,7 +43,7 @@ Frontend loads without any JavaScript errors.
 
 <u>Actual results</u>:
 
-A [!DNL JavaScript] error occurs:
+A JavaScript error occurs:
 
     ```JS
         Uncaught SyntaxError: Unable to process binding "ifnot: function(){return customer().fullname }"
