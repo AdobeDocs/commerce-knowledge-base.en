@@ -25,7 +25,7 @@ The ACSD-51884 patch fixes the issue where an internal error where the product i
 
 ## Issue
 
-Product image cache path incorrect on resize command
+Product image cache path becomes incorrect on resize command.
 
 <u>Steps to reproduce</u>:
 
