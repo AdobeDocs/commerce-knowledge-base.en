@@ -39,7 +39,7 @@ A JavaScript error occurs on the homepage if the welcome message contains a sing
 
 <u>Expected results</u>:
 
-Frontend loads without any [!DNL JavaScript] errors.
+Frontend loads without any JavaScript errors.
 
 <u>Actual results</u>:
 
