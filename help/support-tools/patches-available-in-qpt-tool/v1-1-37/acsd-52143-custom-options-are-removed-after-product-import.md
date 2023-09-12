@@ -28,7 +28,7 @@ The custom options are removed after the product import.
 
 <u>Steps to reproduce</u>:
 
-1. Go to **[!UICONTROL Store]** > **[!UICONTROL All Stores]**, and set up a multi-store instance (1 website with 2 store views).
+1. Go to **[!UICONTROL Store]** > **[!UICONTROL All Stores]**, and set up a multi-store instance (one website with two store views).
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and create 2 products with [!UICONTROL Customizable Options].
 1. In each product, add a [!UICONTROL Customizable Option].
 1. Switch to the second store view, and modify the product name on each product.
