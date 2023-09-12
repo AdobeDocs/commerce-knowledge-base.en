@@ -4,7 +4,7 @@ description: Apply the ACSD-53979 patch to fix the Adobe Commerce issue where a 
 feature: Page Content
 role: Admin, Developer
 ---
-# ACSD-53979: [!DNL JavaScript] error occurs on the [!DNL Homepage]
+# ACSD-53979: JavaScript error occurs on the homepage
 
 The ACSD-53979 patch fixes the issue where a [!DNL JavaScript] error occurs on the [!DNL Homepage], if the welcome message contains a single quote. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.37 is installed. The patch ID is ACSD-53979. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
