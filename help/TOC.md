@@ -655,9 +655,12 @@ breadcrumb-title: Commerce KB
         * [ACSD-51846: Internal error as [!DNL REST API] payload levels aren't validated](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-51846-internal-error-as-levels-of-rest-api-payload-are-not-validated.md)
         * [ACSD-53176: Product rule with is one of condition do not match](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-53176-product-rule-with-is-one-of-condition-do-not-match.md)
         * [ACSD-47875: Can't add product to cart for store view scope with inventory management](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-47875-unable-to-add-product-to-customer-cart-for-store-view-scope-with-inventory-management.md)
+        * [ACSD-51666: Error "The session has expired, please login again." after you log in](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-51666-error-session-has-expired-please-login-again.md)
+        * [ACSD-52906: Resolving X-Magento-Vary cookie issue for logged-in customer caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-52906-resolving-x-magento-vary-cookie-issue-logged-in-customer-caching.md)
     * v1.1.37 {#v1-1-37}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.37](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/overview.md)
         * [ACSD-52143: Custom options are removed after product import](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52143-custom-options-are-removed-after-product-import.md)
+        * [ACSD-53628: CSV sales order report shows incorrect special characters](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53628-csv-sales-order-report-incorrect-special-characters.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -937,6 +940,7 @@ breadcrumb-title: Commerce KB
     * [Cron stops due to misconfigured or missing [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
     * [The file can't be deleted. Warning! unlink: No such file or directory error* from the [!DNL Admin]](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)
     * [[!DNL Admin] login not working - allowed session max size exceeded](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
+    * [[!DNL Google Tag Manager] is broken by the Live Search widget](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
@@ -955,7 +959,7 @@ breadcrumb-title: Commerce KB
     * [Deployment error: "error 7 while downloading ... port 443: Connection refused"](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
     * [Deployment errors when committing incorrect files](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
   * Known issues {#known-issues-patches-attached}
-    * [[!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md) 
+    * [[!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
     * [Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.3-p2-2.4.5-security-hotfix-for-cve-2022-35698.md)
     * [Empty shopping cart issue when multiple click on checkout from mini cart](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
     * [Adobe Commerce 2.4.4: Unable to create partial invoices](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
