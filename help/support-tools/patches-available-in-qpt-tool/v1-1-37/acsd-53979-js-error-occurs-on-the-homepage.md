@@ -24,7 +24,7 @@ The ACSD-53979 patch fixes the issue where a JavaScript error occurs on the home
 
 ## Issue
 
-A [!DNL JavaScript] error occurs on the [!DNL Homepage], if the welcome message contains a single quote.
+A JavaScript error occurs on the homepage if the welcome message contains a single quote.
 
 <u>Steps to reproduce</u>:
 
