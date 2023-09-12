@@ -659,6 +659,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-52906: Resolving X-Magento-Vary cookie issue for logged-in customer caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-52906-resolving-x-magento-vary-cookie-issue-logged-in-customer-caching.md)
     * v1.1.37 {#v1-1-37}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.37](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/overview.md)
+        * [ACSD-53979: JS error occurs on the homepage](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53979-js-error-occurs-on-the-homepage.md)
         * [ACSD-52143: Custom options are removed after product import](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52143-custom-options-are-removed-after-product-import.md)
         * [ACSD-53628: CSV sales order report shows incorrect special characters](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53628-csv-sales-order-report-incorrect-special-characters.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
