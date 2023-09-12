@@ -24,7 +24,7 @@ The ACSD-52143 patch fixes the issue where the custom options are removed after 
 
 ## Issue
 
-The custom options are removed after the product import
+The custom options are removed after the product import.
 
 <u>Steps to reproduce</u>:
 
