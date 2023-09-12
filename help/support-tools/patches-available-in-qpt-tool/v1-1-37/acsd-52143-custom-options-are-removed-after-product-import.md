@@ -39,7 +39,7 @@ The custom options are removed after the product import.
 
 <u>Expected results</u>:
 
-The custom options shall not be removed after the product import.
+The custom options are not removed after the product import.
 
 <u>Actual results</u>:
 
