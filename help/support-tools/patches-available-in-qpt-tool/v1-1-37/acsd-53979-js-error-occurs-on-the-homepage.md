@@ -45,13 +45,13 @@ Frontend loads without any JavaScript errors.
 
 A JavaScript error occurs:
 
-    ```JS
-        Uncaught SyntaxError: Unable to process binding "ifnot: function(){return customer().fullname }"
-        Message: Unable to parse bindings.
-        Bindings value: text: 'Message d'accueil par défaut'
-        Message: Unexpected identifier 'accueil'
-    ```
-    
+```JS
+    Uncaught SyntaxError: Unable to process binding "ifnot: function(){return customer().fullname }"
+    Message: Unable to parse bindings.
+    Bindings value: text: 'Message d'accueil par défaut'
+    Message: Unexpected identifier 'accueil'
+```
+  
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
