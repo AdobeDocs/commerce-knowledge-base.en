@@ -49,7 +49,7 @@ to
 ```
 
 1. Apply the theme to the previously created storeview.
-1. Check the product page on the 2nd website. The product image is displayed correctly
+1. Check the product page on the 2nd website. The product image is displayed correctly.
 1. Use Flush cache:
 `bin/magento cache:flush`
 1. Check the product page on 2nd website.
