@@ -660,6 +660,8 @@ breadcrumb-title: Commerce KB
     * v1.1.37 {#v1-1-37}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.37](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/overview.md)
         * [ACSD-53148: Two requests in GraphQL for adding the same configurable product](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53148-two-requests-in-graphql-for-adding-the-same-configurable-product.md)
+        * [ACSD-51574: Image not updated on frontend when replaced with another image](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-51574-image-not-updated-on-frontend-when-replaced-with-another-image.md)
+        * [ACSD-51884: Product image cache path incorrect on resize command](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-51884-product-image-cache-path-incorrect-on-resize-command.md)
         * [ACSD-53979: JS error occurs on the homepage](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53979-js-error-occurs-on-the-homepage.md)
         * [ACSD-52143: Custom options are removed after product import](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52143-custom-options-are-removed-after-product-import.md)
         * [ACSD-53628: CSV sales order report shows incorrect special characters](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53628-csv-sales-order-report-incorrect-special-characters.md)
