@@ -20,11 +20,11 @@ b. NO – Complete the Advanced Reporting requirements for your site by followin
 
 +++
 
-## Step 2 - Check for multiple base currencies {#step-2}
+## Step 2 - Are there orders in multiple base currencies? {#step-2}
 
-+++**Are multiple base currencies currently being used?**
++++**Are multiple base currencies used?**
 
-Are multiple base currencies currently being used (in orders and configuration)? Run this SQL command:`   SELECT value FROM core_config_data WHERE path = 'currency/options/base';`
+Are multiple base currencies used (in orders and configuration)? Run this SQL command:`   SELECT value FROM core_config_data WHERE path = 'currency/options/base';`
 
 a. YES – You cannot use Advanced Reporting, as we only support one currency.  
 b. NO – Output shows only one currency. Example: `USD`. Have multiple base currencies ever been used (in orders)? Run this SQL command:  
