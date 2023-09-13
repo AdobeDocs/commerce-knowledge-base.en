@@ -42,7 +42,6 @@ The preview page loads within an acceptable amount of time.
 
 Preview of the content staging is taking a long time.
 
-
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
