@@ -657,8 +657,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-47875: Can't add product to cart for store view scope with inventory management](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-47875-unable-to-add-product-to-customer-cart-for-store-view-scope-with-inventory-management.md)
     * v1.1.37 {#v1-1-37}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.37](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/overview.md)
-    * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
         * [ACSD-47054: Preview content slow as all stores reindex](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-47054-preview-content-slow-all-stores-reindex.md)
+    * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
