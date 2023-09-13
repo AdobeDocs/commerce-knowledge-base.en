@@ -28,7 +28,7 @@ Two parallel requests in GraphQL for adding the same configurable product to the
 
 <u>Steps to reproduce</u>:
 
-1. Create a configurable product with a SKU *Test* and another as *Test-A*.
+1. Create a configurable product with SKU *Test* and a simple product with SKU *Test-A*.
 1. Create a new empty cart via GraphQL (change the location with your own [!DNL URL]):
 
     ```GraphQL
