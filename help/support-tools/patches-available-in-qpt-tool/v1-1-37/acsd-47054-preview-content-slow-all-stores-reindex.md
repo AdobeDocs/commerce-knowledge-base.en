@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-47054: Preview content slow as all stores reindex
 
-The ACSD-47054 patch fixes the issue where a preview of the content staging is taking a longer time to load when there are many stores. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.37 is installed. The patch ID is ACSD-47054. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-47054 patch fixes the issue where a preview of the content staging takes longer to load when there are many stores. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.37 is installed. The patch ID is ACSD-47054. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
