@@ -655,9 +655,16 @@ breadcrumb-title: Commerce KB
         * [ACSD-51846: Internal error as [!DNL REST API] payload levels aren't validated](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-51846-internal-error-as-levels-of-rest-api-payload-are-not-validated.md)
         * [ACSD-53176: Product rule with is one of condition do not match](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-53176-product-rule-with-is-one-of-condition-do-not-match.md)
         * [ACSD-47875: Can't add product to cart for store view scope with inventory management](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-47875-unable-to-add-product-to-customer-cart-for-store-view-scope-with-inventory-management.md)
+        * [ACSD-51666: Error "The session has expired, please login again." after you log in](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-51666-error-session-has-expired-please-login-again.md)
+        * [ACSD-52906: Resolving X-Magento-Vary cookie issue for logged-in customer caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-52906-resolving-x-magento-vary-cookie-issue-logged-in-customer-caching.md)
     * v1.1.37 {#v1-1-37}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.37](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/overview.md)
         * [ACSD-47054: Preview content slow as all stores reindex](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-47054-preview-content-slow-all-stores-reindex.md)
+        * [ACSD-51574: Image not updated on frontend when replaced with another image](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-51574-image-not-updated-on-frontend-when-replaced-with-another-image.md)
+        * [ACSD-51884: Product image cache path incorrect on resize command](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-51884-product-image-cache-path-incorrect-on-resize-command.md)
+        * [ACSD-53979: JS error occurs on the homepage](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53979-js-error-occurs-on-the-homepage.md)
+        * [ACSD-52143: Custom options are removed after product import](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52143-custom-options-are-removed-after-product-import.md)
+        * [ACSD-53628: CSV sales order report shows incorrect special characters](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53628-csv-sales-order-report-incorrect-special-characters.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -937,6 +944,7 @@ breadcrumb-title: Commerce KB
     * [Cron stops due to misconfigured or missing [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
     * [The file can't be deleted. Warning! unlink: No such file or directory error* from the [!DNL Admin]](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)
     * [[!DNL Admin] login not working - allowed session max size exceeded](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
+    * [[!DNL Google Tag Manager] is broken by the Live Search widget](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
