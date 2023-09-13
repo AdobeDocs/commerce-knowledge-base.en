@@ -34,7 +34,6 @@ The preview page takes a long time to load due to a reindex of all stores.
 1. Preview the scheduled update.
 1. Open any category.
 
-
 <u>Expected results</u>:
 
 The preview page loads within an acceptable amount of time.
