@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47054: preview content slow as all stores reindex"
+title: "ACSD-47054: Preview content slow as all stores reindex"
 description: Apply the ACSD-47054 patch to fix the Adobe Commerce issue where the preview page is slow to load due to the reindex of all stores.
 feature: Page Content
 role: Admin, Developer
