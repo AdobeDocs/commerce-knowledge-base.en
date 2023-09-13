@@ -664,6 +664,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-53979: JS error occurs on the homepage](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53979-js-error-occurs-on-the-homepage.md)
         * [ACSD-52143: Custom options are removed after product import](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52143-custom-options-are-removed-after-product-import.md)
         * [ACSD-53628: CSV sales order report shows incorrect special characters](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53628-csv-sales-order-report-incorrect-special-characters.md)
+        * [ACSD 49843: Product download link unavailable after being auto invoiced with [!UICONTROL Payment Action] = Sale](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-49843-link-to-product-download-unavailable-after-being-autoinvoiced-with-payment-action-sale.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
