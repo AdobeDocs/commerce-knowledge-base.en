@@ -13,7 +13,7 @@ According to the latest updates to the [!DNL UPS API] Security Model, [!DNL UPS]
 
 This change impacts our current [!DNL UPS] shipping method integration implementation in Adobe Commerce and requires us to fix our current implementation and to migrate from [!DNL SOAP API] to the [!DNL RESTful API] to be able to support [!DNL OAuth 2.0] authentication protocols.
 
-**Beginning in June 2024**, Adobe Commerce merchants will not be able to transact with our current [!DNL UPS] integration, so we are releasing this hotfix which allows Adobe Commerce 2.4.4+/2.4.5+/2.4.6+ merchants to migrate to the latest [!DNL UPS REST APIs].
+**Beginning in June 2024**, Adobe Commerce merchants will not be able to transact with our current [!DNL UPS] integration, so we are releasing this hotfix, which allows Adobe Commerce 2.4.4+/2.4.5+/2.4.6+ merchants to migrate to the latest [!DNL UPS REST APIs].
 
 This issue will be fixed in Adobe Commerce/Magento Open Source version 2.4.7, and the fix will also be included in the 2.4.7-beta2 release in October 2023.
  
