@@ -665,6 +665,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-53979: JS error occurs on the homepage](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53979-js-error-occurs-on-the-homepage.md)
         * [ACSD-52143: Custom options are removed after product import](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52143-custom-options-are-removed-after-product-import.md)
         * [ACSD-53628: CSV sales order report shows incorrect special characters](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53628-csv-sales-order-report-incorrect-special-characters.md)
+    * v1.1.38 {#v1-1-38}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.38](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
