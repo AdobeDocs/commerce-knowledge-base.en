@@ -29,7 +29,7 @@ The product download link is unavailable after the ordered item is auto invoiced
 
 <u>Steps to reproduce</u>:
 
-1. Log in to admin and navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Configure Braintree]**.
+1. Log in to the Adobe Commerce Admin and navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Configure Braintree]**.
 
     * In the [!UICONTROL Payment Action] drop-down, select **[!UICONTROL Intent Sale]**, and set *[!UICONTROL Enable Card Payments]* to *Yes*.
 
