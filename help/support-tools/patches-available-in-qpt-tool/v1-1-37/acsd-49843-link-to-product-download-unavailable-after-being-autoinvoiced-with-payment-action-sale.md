@@ -39,7 +39,7 @@ The product download link is unavailable after the ordered item is auto invoiced
     * Add any downloadable product and a simple product to the cart. 
     * Use [!DNL Braintree Pay] to place the order using the card option.
 
-1. Go to **[!UICONTROL My Orders]** and see that the invoice is automatically created for that order and that both the item statuses are *"Invoiced"*.
+1. Go to **[!UICONTROL My Orders]** and see that the invoice is automatically created for the order and that both the item statuses are *"Invoiced"*.
 1. Go to **[!UICONTROL My Downloadable Products]** and observe that the download link is not available yet.
 1. In the admin, go to that order and create a shipment for it.
 1. In the storefront, go to **[!UICONTROL My Downloadable Products]** and observe that the download link is now available.
