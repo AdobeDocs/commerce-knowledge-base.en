@@ -5,7 +5,7 @@ feature: Catalog Management, Configuration, Invoices, Orders, Storefront
 role: Admin, Developer
 ---
 
-# ACSD-49843: Product download link unavailable after being auto invoiced with [!UICONTROL Payment Action] = Sale
+# ACSD-49843: Product download link unavailable after being auto invoiced with [!UICONTROL Payment Action] = [!UICONTROL Intent Sale]
 
 The ACSD-49843 patch fixes the issue where the product download link is unavailable after the ordered item is auto invoiced by an online payment method when [!UICONTROL Payment Action] is set to [!UICONTROL Intent Sale]. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-49843. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
