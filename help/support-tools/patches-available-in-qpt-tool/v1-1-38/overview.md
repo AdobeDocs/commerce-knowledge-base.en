@@ -6,10 +6,6 @@ role: Admin, Developer
 ---
 # Overview: [!DNL Quality Patches Tool] (QPT) v1.1.38
 
->[!NOTE]
->
->Please note that these patches have not yet been released, and there can be changes in the published version.
-
 This sub-section provides a detailed description of the issues fixed by the patches available in [!DNL Quality Patches Tool] (QPT) v1.1.38.
 
 QPT v1.1.38 includes the following patches:
