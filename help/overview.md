@@ -33,129 +33,49 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2.4.4-2.4.5-2.4.6.html">JQuery UI security vulnerability CVE-2022-31160 fix for 2.4.4, 2.4.5, and 2.4.6 releases:</a> There is a security vulnerability CVE-2022-31160 reported for jQuery-UI library version 1.13.1 which is used as a dependency in Adobe Commerce 2.4.4, 2.4.5, and 2.4.6.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.html">USPS Ground Advantage shipping method support hotfix for AC-9182:</a> This article provides a patch to resolve the issue AC-9182 for the new USPS Ground Advantage shipping method in Adobe Commerce 2.4.4 - 2.4.6-p2.
     </td>
     <td>New article</td>
-    <td>August 25, 2023</td>
+    <td>September 15, 2023</td>
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.html">Error [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch]:</a> This article provides a solution to the issue where you see the error: <em>Error: opensearch search engine doesn't exist. Falling back to livesearch</em>. in Adobe Commerce on cloud infrastructure where [!DNL Live Search] is used.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html">UPS shipping method integration migration from SOAP to RESTful API:</a> This article provides a patch to resolve issues with the [!DNL United Parcel Service] (UPS) shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
     </td>
     <td>New article</td>
-    <td>August 25, 2023</td>
+    <td>September 15, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-50815-decimal-quantity-for-simple-product-cannot-be-used-for-new-bundle-product-option.html">ACSD-50815: Decimal quantity for simple product cannot be used for new bundled product option:</a> The ACSD-50815 patch fixes the issue where the decimal quantity for a simple product cannot be used for a new bundled product option. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
-    </td>
-    <td>New article</td>
-    <td>August 25, 2023</td>
-  </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-52815-input-field-for-quantity-field-non-default-source-supports-only-six-digits.html">ACSD-52815: Input field for quantity field of non-default source supports only up to 6 digits:</a> The ACSD-52815 patch fixes the issue where the input field for the quantity field of a non-default source supports only up to 6 digits, unlike 8 for a default stock. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.html">Deployment errors when committing incorrect files:</a> This article provides a fix for the issue when you are getting deployment errors that are caused by incorrect commits to the repository of files/folders that shouldn't have been added.
     </td>
     <td>New article </td>
-    <td>August 25, 2023</td>
+    <td>September 15, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-52202-default-stock-salable-qty-changes-to-0-in-error-when-non-default-stock-set-to-0-qty-in-order.html">ACSD-52202: Default stock salable quantity changes to 0 in error when non-default stock set to 0 quantity in an order:</a> The ACSD-52202 patch fixes the issue where a default stock salable quantity (qty) changes to 0 in error when non-default stock is set to 0 quantity in an order. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.html">Admin login not working - allowed session max size exceeded:</a> This article provides a fix for when you try to log in to your Admin panel, but the form just refreshes, and you are unable to log in. This is because the Admin Session Size has been exceeded.
     </td>
     <td>New article </td>
-    <td>August 25, 2023</td>
+    <td>September 15, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-52133-customer-account-cannot-be-saved-after-an-upgrade.html">ACSD-52133: Customer account cannot be saved after an upgrade:</a> The ACSD-52133 patch fixes the issue where a customer account cannot be saved after an upgrade. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-34/acsd-51857-slow-cron-job-of-aggregate-sales-report-bestsellers-data-affects-performance.html">ACSD-51857: Slow cron job of <code>aggregate_sales_report_bestsellers_data</code> affects performance:</a> The ACSD-51857 patch fixes the issue where slow cron job <code>aggregate_sales_report_bestsellers_data</code> affects large <code>sales_order and sales_order_item</code> database tables. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.34 is installed.
     </td>
     <td>New article </td>
-    <td>August 25, 2023</td>
+    <td>September 15, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-51683-customizable-option-cant-be-added-to-the-cart-using-graphql.html">ACSD-51683: Customizable option can't be added to the cart using GraphQL:</a> The ACSD-51683 patch fixes the issue where the customizable option can't be added to the cart using GraphQL. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-34/acsd-50813-admin-unable-to-add-bundled-products-containing-a-slash.html">ACSD-50813: Admin unable to add bundled products containing a slash:</a> The ACSD-50813 patch fixes the issue where the admin cannot add bundled products containing a slash mark (/) in the SKU with the Add Products by SKU functionality to the admin order. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.34 is installed.
     </td>
     <td>New article </td>
-    <td>August 25, 2023</td>
- </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-52921-internal-error-requesting-cart-details-from-graphql-for-out-of-stock-configurable-product.html">ACSD-52921: Error requesting cart details from GraphQL for out-of-stock configurable product:</a> The ACSD-52921 patch fixes the issue where an internal error occurs on requesting cart details from GraphQL for an out-of-stock configurable product. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
-    </td>
-    <td>New article </td>
-    <td>August 25, 2023</td>
- </tr>
-
-   <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-52786-catalog-rule-sku-is-applies-to-all-products-starting-with-it.html">ACSD-52786: Catalog rule "SKU is" applies to all products starting with the SKU:</a> The ACSD-52786 patch fixes the issue where the catalog rule condition SKU is applies to all the products starting with the given SKU. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
-    </td>
-    <td>New article </td>
-    <td>August 25, 2023</td>
- </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-52398-the-requested-qty-is-not-available.html">ACSD-52398: Requested qty not available when trying to update quantity of bundled product:</a> The ACSD-52398 patch fixes the issue where the requested qty is not available when trying to update the quantity of a bundled product in the cart on the storefront. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
-    </td>
-    <td>New article </td>
-    <td>August 25, 2023</td>
- </tr>
-
-   <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-51845-cant-update-subsequent-products-with-tier-prices-and-different-attribute-sets-via-asynch-bulk-api.html">ACSD-51845: Can't update subsequent products with tier prices & different attribute sets via asynch bulk API:</a> The ACSD-51845 patch fixes the issue where you can't update subsequent products with tier prices and different attribute sets via asynchronous bulk REST API. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
-    </td>
-    <td>New article </td>
-    <td>August 25, 2023</td>
- </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-51984-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.html">ACSD-51984: Unchecked <b>[!UICONTROL Use Default Value]</b> and non-default product field values are not saved:</a> The ACSD-51984 patch fixes the issue where the unchecked <b>[!UICONTROL Use Default Value]</b> and non-default product field values are not saved for the second website, store, and store view. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
-    </td>
-    <td>New article </td>
-    <td>August 25, 2023</td>
- </tr>
-
-   <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.html">ACSD-51890: <b>[!UICONTROL Submit Review]</b> button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation:</a> The ACSD-51890 patch fixes the issue where the <b>[!UICONTROL Submit Review]</b> button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
-    </td>
-    <td>New article </td>
-    <td>August 25, 2023</td>
- </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-48070-exception-while-editing-a-scheduled-update.html">ACSD-48070: Exception while editing a scheduled update:</a> The ACSD-48070 patch fixes the issue where an exception is triggered while editing a scheduled update. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
-    </td>
-    <td>New article </td>
-    <td>August 25, 2023</td>
- </tr>
-
-   <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-52041-page-builder-renders-for-5-seconds-without-releasing-locks.html">ACSD-52041: [!DNL Page Builder] rendering doesn't release locks:</a> The ACSD-52041 patch fixes the issue where the [!DNL Page Builder] renders for 5 seconds without releasing locks. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
-    </td>
-    <td>New article </td>
-    <td>August 25, 2023</td>
- </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-51899-default-shipping-address-auto-populated-incorrectly.html">ACSD-51899: Default shipping address auto-populated incorrectly:</a> The ACSD-51899 patch fixes the issue where the the default shipping address is auto-populated with a wrong address. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.35 is installed.
-    </td>
-    <td>New article </td>
-    <td>August 25, 2023</td>
+    <td>September 15, 2023</td>
  </tr>
 </table>
 
