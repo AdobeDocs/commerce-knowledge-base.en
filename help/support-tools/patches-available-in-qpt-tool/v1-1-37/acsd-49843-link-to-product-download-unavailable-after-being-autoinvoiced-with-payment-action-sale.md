@@ -33,7 +33,7 @@ The product download link is unavailable after the ordered item is auto invoiced
 
     * In the [!UICONTROL Payment Action] drop-down, select **[!UICONTROL Intent Sale]**, and set *[!UICONTROL Enable Card Payments]* to *Yes*.
 
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Downloadable Product Option]** > **[!UICONTROL Order Item status for Download]**, and see that it should be set to *"Invoiced"*.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Downloadable Product Option]** > **[!UICONTROL Order Item status for Download]**, and make sure that it is set to *"Invoiced"*.
 1. In the storefront, log in as a customer. 
 
     * Add any downloadable product and a simple product to the cart. 
