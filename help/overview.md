@@ -56,7 +56,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.html">Admin login not working - allowed session max size exceeded:</a> This article provides a fix for when you try to log in to your Admin panel but the form just refreshes and you are unable to log in. This is because the Admin Session Size has been exceeded.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.html">Admin login not working - allowed session max size exceeded:</a> This article provides a fix for when you try to log in to your Admin panel, but the form just refreshes, and you are unable to log in. This is because the Admin Session Size has been exceeded.
     </td>
     <td>New article </td>
     <td>September 15, 2023</td>
