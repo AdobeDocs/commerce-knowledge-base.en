@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup"
 
-The ACSD-52606 patch fixes the issue where an error message "Your order is not ready for pickup" is displayed when the user clicks "Notify Order is Ready for Pickup". This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-52606. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52606 patch fixes the issue where an error message *Your order is not ready for pickup* is displayed when the user clicks *Notify Order is Ready for Pickup*. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-52606. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,11 +24,11 @@ The ACSD-52606 patch fixes the issue where an error message "Your order is not r
 
 ## Issue
 
-An error message "Your order is not ready for pickup" is displayed on the screen when the user clicks "Notify Order is Ready for Pickup".
+An error message *Your order is not ready for pickup* is displayed on the screen when the user clicks *Notify Order is Ready for Pickup*.
 
-<u>Preconditions</u>:
+<u>Prerequisites</u>:
 
-Inventory modules installed.
+Inventory modules are installed.
 
 <u>Steps to reproduce</u>:
 
@@ -36,19 +36,19 @@ Inventory modules installed.
 1. Create a new source and stock.
 1. Assign the new source to the default website.
 1. Enable pick-up location for the newly created source.
-1. Go to **[!UICONTROL Stores]** -> **[!UICONTROL Configuration]** -> **[!UICONTROL Sales]** -> **[!UICONTROL Delivery Methods]** -> **[!UICONTROL In-Store Delivery]** -> **[!UICONTROL enable In-Store Delivery]**.
-1. Create a simple product "In Stock" with QTY=0 for all stocks and Manage Stock = No and assign it to both sources.
-1. . Create an order with that product from the frontend, choosing In-Store Pickup as the delivery method.
-1. In Admin, go to **[!UICONTROL Sales]** -> **[!UICONTROL Orders]** -> **[!UICONTROL Invoice that order]**.
-1. Click "Notify order is ready for pickup".
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Delivery Methods]** > **[!UICONTROL In-Store Delivery]** and enable **[!UICONTROL In-Store Delivery]**.
+1. Create an *In Stock* simple product with *QTY=0* for all stocks and *[!UICONTROL Manage Stock = No]* and assign it to both sources.
+1. Create an order from the frontend with the product created in the previous step, choosing *[!UICONTROL In-Store Pickup]* as the delivery method.
+1. In Admin, go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Invoice that order]**.
+1. Click **[!UICONTROL Notify order is ready for pickup]**.
 
 <u>Expected results</u>:
 
-Customer should be notified without errors.
+You are notified without errors.
 
 <u>Actual results</u>:
 
-User get error message "Your order is not ready for pickup".
+You get the following error message: *Your order is not ready for pickup*.
 
 ## Apply the patch
 
