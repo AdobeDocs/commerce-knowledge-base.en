@@ -41,7 +41,7 @@ The product download link is unavailable after the ordered item is auto invoiced
 
 1. Go to **[!UICONTROL My Orders]** and see that the invoice is automatically created for the order and that both the item statuses are *"Invoiced"*.
 1. Go to **[!UICONTROL My Downloadable Products]** and observe that the download link is not available yet.
-1. In the admin, go to that order and create a shipment for it.
+1. In the Admin, go to that order and create a shipment for it.
 1. In the storefront, go to **[!UICONTROL My Downloadable Products]** and observe that the download link is now available.
 
 <u>Expected results</u>:
