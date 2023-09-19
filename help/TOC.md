@@ -750,6 +750,7 @@ breadcrumb-title: Commerce KB
     * [Customers get logged out or lose cart content on Adobe Commerce storefront](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
     * [Cannot save contact as URL key](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
   * Installation and upgrade {#installation-and-upgrade}
+    * [B2B 1.4.0 installation fails on Adobe Commerce 2.4.6-p1 on-premises](/help/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.md)
     * [Reduce expired "oauth_tokens" before 2.4.6 upgrade](/help/troubleshooting/installation-and-upgrade/reduce-expired-oauth-tokens-before-2.4.6-upgrade.md)
     * [Cannot install using nginx](/help/troubleshooting/installation-and-upgrade/cannot-install-using-nginx.md)
     * [Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5](/help/troubleshooting/installation-and-upgrade/wishlist-error-during-upgrade-to-magento-versions-2.3.4-p1-or-2.3.5.md)
