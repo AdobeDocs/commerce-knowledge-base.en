@@ -15,7 +15,7 @@ The ACSD-48313 patch solves the issue where **[!UICONTROL configurable_variation
 * Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce (all deployment methods) 2.4.0 -2.4.4-p5
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.4-p5
 
 >[!NOTE]
 >
