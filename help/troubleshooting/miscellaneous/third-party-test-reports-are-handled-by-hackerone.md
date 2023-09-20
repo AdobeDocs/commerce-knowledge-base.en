@@ -6,7 +6,7 @@ role: Developer, Admin
 ---
 # Vulnerabilities found by third-party security scans should go to HackerOne
 
-This article provides solution on what you should do about vulnerabilities found by third-party security scans.
+This article provides a solution to address vulnerabilities found by third-party security scans.
 
 ## Affected products and versions
 
