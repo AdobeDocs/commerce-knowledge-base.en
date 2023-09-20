@@ -4,7 +4,7 @@ description: This article provides a solution to address vulnerabilities found b
 feature: Security
 role: Developer, Admin
 ---
-# Vulnerabilities found by third-party security scans should go to HackerOne
+# Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]
 
 This article provides a solution to address vulnerabilities found by third-party security scans.
 
