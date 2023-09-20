@@ -178,7 +178,7 @@ Follow these steps:
 
     ![User name and remote address](/help/troubleshooting/miscellaneous/assets/user_name_address_mbi.png)
 
-1. Input information for your Encryption Settings.
+1. Input information for your [!UICONTROL Encryption Settings].
 
     ![Encryption settings](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
 
