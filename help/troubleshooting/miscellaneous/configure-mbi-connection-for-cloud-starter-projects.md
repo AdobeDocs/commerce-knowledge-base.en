@@ -161,7 +161,7 @@ Follow these steps:
     * Database Name: main
     * Table Prefixes: [leave blank if there are no table prefixes]
 
-1. Set your Timezone Settings.
+1. Set your [!UICONTROL Timezone Settings].
 
     ![Timezone settings](/help/troubleshooting/miscellaneous/assets/timezone_settings_mbi.png)
 
