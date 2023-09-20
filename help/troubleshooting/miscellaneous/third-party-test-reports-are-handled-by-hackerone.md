@@ -1,12 +1,12 @@
 ---
 title:  Vulnerabilities found by third-party security scans should go to HackerOne
-description: This article offers clarification on what users should do about vulnerabilities found by third-party security scans.
+description: This article provides solution on what you should do about vulnerabilities found by third-party security scans.
 feature: Security
 role: Developer, Admin
 ---
 # Vulnerabilities found by third-party security scans should go to HackerOne
 
-This article offers clarification on what users should do about vulnerabilities found by third-party security scans.
+This article provides solution on what you should do about vulnerabilities found by third-party security scans.
 
 ## Affected products and versions
 
@@ -14,7 +14,7 @@ This article offers clarification on what users should do about vulnerabilities 
 
 ## Issues
 
-Merchant performed PEN test through an independent Security agency and a vulnerability is flagged.
+Merchant performed PEN test through an independent security agency and a vulnerability is flagged.
 
 ## Solutions
 
