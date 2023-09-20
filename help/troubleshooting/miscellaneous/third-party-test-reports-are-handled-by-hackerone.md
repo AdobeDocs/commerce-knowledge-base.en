@@ -18,4 +18,4 @@ Merchant performed PEN test through an independent security agency and a vulnera
 
 ## Solutions
 
-Vulnerabilities found by third-party security scans should be sent to the HackerOne website. Adobe Commerce does not have a direct point of contact at HackerOne, so users should directly reach out to HackerOne. Adobe only handles MST(Magento security scan tool) report.
+Vulnerabilities found by third-party security scans should be sent to the [!DNL HackerOne] website. Adobe Commerce does not have a direct point of contact at [!DNL HackerOne], so you should directly reach out to [!DNL HackerOne]. Adobe only handles the MST (Magento Security Scan tool) report.
