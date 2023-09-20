@@ -189,6 +189,6 @@ Follow these steps:
     * Username: vfbfui4vmfez6-master-7rqtwti--mymagento
     * Port: 22
 
-1. Click Save Integration.
+1. Click **[!UICONTROL Save Integration]**.
 1. You have now successfully connected to your Commerce Intelligence Essentials account.
 1. If you are an Adobe Commerce Intelligence Pro customer, contact your Customer Success Manager or Customer Technical Advisor to coordinate the next steps.
