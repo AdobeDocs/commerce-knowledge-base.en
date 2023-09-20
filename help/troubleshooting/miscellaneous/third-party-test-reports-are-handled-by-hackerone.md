@@ -1,5 +1,5 @@
 ---
-title:  Vulnerabilities found by third-party security scans should go to HackerOne
+title:  Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]
 description: This article provides solution on what you should do about vulnerabilities found by third-party security scans.
 feature: Security
 role: Developer, Admin
