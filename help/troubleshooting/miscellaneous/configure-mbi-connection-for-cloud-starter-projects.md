@@ -57,7 +57,7 @@ Follow these steps:
 
     ![Add store information](/help/troubleshooting/miscellaneous/assets/add_store_info_mbi.png)
 
-    There is some information you will need to gather before you can connect your database for the third step in the onboarding flow. You will be filling in the Connect your database page in step 9.
+    There is some information you will need to gather before you can connect your database for the third step in the onboarding flow. You will be filling in the connect your database page in step 9.
 
 1. Create a dedicated Commerce Intelligence user.
 
