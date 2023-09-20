@@ -91,7 +91,7 @@ Follow these steps:
 
 1. Provide Business Intelligence Essentials MySQL credentials.
 
-    * Update your `.magento/services.yaml`
+    * Update your `.magento/services.yaml`.
 
     ```
     mysql:
