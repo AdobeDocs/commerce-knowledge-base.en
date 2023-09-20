@@ -950,6 +950,7 @@ breadcrumb-title: Commerce KB
     * [Cron stops due to misconfigured or missing [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
     * [The file can't be deleted. Warning! unlink: No such file or directory error* from the [!DNL Admin]](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)
     * [[!DNL Admin] login not working - allowed session max size exceeded](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
+    * [Configuring Adobe Commerce Intelligence connection for existing cloud starter projects](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
     * [[!DNL Google Tag Manager] is broken by the Live Search widget](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
