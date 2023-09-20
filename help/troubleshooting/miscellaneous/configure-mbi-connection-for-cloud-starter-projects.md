@@ -78,7 +78,7 @@ Follow these steps:
 
     ![Encryption settings](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
 
-1. Add your new Magento BI Essentials Public key to the Commerce Intelligence user created in Step 5.
+1. Add your new Magento BI Essentials Public key to the Commerce Intelligence user created in step 5.
 
     * Go to [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login). Sign in with your account login information for the new Commerce Intelligence user created. Then go to the **[!UICONTROL Account Settings]** tab.
     * Scroll down the page and expand the drop-down for SSH keys. Then click **[!UICONTROL Add a public key]**.
