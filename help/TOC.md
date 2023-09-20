@@ -660,6 +660,7 @@ breadcrumb-title: Commerce KB
     * v1.1.37 {#v1-1-37}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.37](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/overview.md)
         * [ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup"](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52606-troubleshooting-order-pickup-notification-error.md)
+        * [ACSD-53750: "Broken pipe or closed connection" error during multi-threaded catalog_product_price reindex](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53750-broken-pipe-or-closed-connection-error.md)
         * [ACSD-53728: Product EAV indexer takes a long time to complete](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53728-product-eav-indexer-takes-a-long-time-to-complete.md)
         * [ACSD-53148: Two requests in GraphQL for adding the same configurable product](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53148-two-requests-in-graphql-for-adding-the-same-configurable-product.md)
         * [ACSD-47054: Preview content slow as all stores reindex](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-47054-preview-content-slow-all-stores-reindex.md)
