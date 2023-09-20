@@ -1,21 +1,23 @@
 ---
-title: 'ACSD-47910: missing orders, invoices, shipments, credit memos in respective entity grids'
-description: Apply the ACSD-47910 patch to fix the Adobe Commerce issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids.
-exl-id: 4eb897ec-16e4-420e-89a6-c8f7c8740303
-feature: Admin Workspace, Invoices, Orders, Returns, Shipping/Delivery
+title: "ACSD-51884: Product image cache path incorrect on resize command"
+description: Apply the ACSD-51884 patch to fix the Adobe Commerce issue where the product image cache path becomes incorrect after running the resize command.
+feature: Products
 role: Admin
 ---
-# ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids
 
-The ACSD-47910 patch fixes the issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-47910. The version where this issue will be fixed is not yet available.
+# ACSD-51884: Product image cache path incorrect on resize command
+
+The ACSD-51884 patch fixes the issue where an internal error where the product image cache path becomes incorrect after running the resize command. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-51884. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce (all deployment methods)  2.4.4 - 2.4.5-p4
+
+* Adobe Commerce (all deployment methods) 2.3.7- 2.4.7
 
 >[!NOTE]
 >
@@ -23,29 +25,42 @@ The ACSD-47910 patch fixes the issue where there are missing orders, invoices, s
 
 ## Issue
 
-Missing orders, invoices, shipments, and credit memos in respective entity grids.
+Product image cache path becomes incorrect on resize command.
 
 <u>Steps to reproduce</u>:
 
-1. Enable **[!UICONTROL Asynchronous indexing]** at **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Developer]** > **[!UICONTROL Grid Settings]**.
-1. Place two orders.
-1. Run the cron to sync those orders to the grid.
-1. Open one of the orders and make it ready to be invoiced. DO NOT SUBMIT THE INVOICE YET.
-1. Make a new order ready to be placed on the frontend. DO NOT CLICK ON THE PLACE ORDER BUTTON YET.
-1. Add a `sleep(30)` in the `foreach` at `NotSyncedDataProvider::L43`.
-1. Run `bin/magento cron:run`.
-1. Now place the new order.
-1. Invoice the previous order.
-1. Run the cron again expecting the new order to be synced.
-1. Go to the order grid in the Admin.
+1. Create new website/store/storeview.
+1. Create a product and assign it to both websites and upload the product image.
+1. Create a new theme (see attached Adobe.zip).
+1. In `app/design/Adobe/theme/etc/view.xml` change:
+
+```
+<vars module="Magento_Catalog">
+           <var name="product_image_white_borders">1</var>
+</vars>
+```
+
+to
+
+```
+<vars module="Magento_Catalog">
+           <var name="product_image_white_borders">0</var>
+</vars>
+```
+
+1. Apply the theme to the previously created storeview.
+1. Check the product page on the 2nd website. The product image is displayed correctly.
+1. Use Flush cache:
+`bin/magento cache:flush`
+1. Check the product page on the 2nd website.
 
 <u>Expected results</u>:
 
-The new order should appear on the order grid.
+The product image displays correctly.
 
 <u>Actual results</u>:
 
-The previous order update has been synced to the grid (**[!UICONTROL status: Processing]**). The new order never appears on the grid.
+The product image does not exist.
 
 ## Apply the patch
 

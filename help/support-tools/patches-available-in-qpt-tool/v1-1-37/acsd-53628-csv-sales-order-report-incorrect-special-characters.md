@@ -1,21 +1,22 @@
 ---
-title: 'ACSD-47910: missing orders, invoices, shipments, credit memos in respective entity grids'
-description: Apply the ACSD-47910 patch to fix the Adobe Commerce issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids.
-exl-id: 4eb897ec-16e4-420e-89a6-c8f7c8740303
-feature: Admin Workspace, Invoices, Orders, Returns, Shipping/Delivery
-role: Admin
+title: "ACSD-53628: CSV sales order report shows incorrect special characters"
+description: Apply the ACSD-53628 patch to fix the Adobe Commerce issue where the CSV sales order report shows incorrect special characters.
+feature: Orders, Data Import/Export
+role: Admin, Developer
 ---
-# ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids
+# ACSD-53628: CSV sales order report shows incorrect special characters
 
-The ACSD-47910 patch fixes the issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-47910. The version where this issue will be fixed is not yet available.
+The ACSD-53628 patch fixes the issue where the CSV sales order report shows incorrect special characters. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.37 is installed. The patch ID is ACSD-53628. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+
+* Adobe Commerce (all deployment methods): 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce (all deployment methods)  2.4.4 - 2.4.5-p4
+
+* Adobe Commerce (all deployment methods): 2.3.7 - 2.4.6-p2
 
 >[!NOTE]
 >
@@ -23,29 +24,23 @@ The ACSD-47910 patch fixes the issue where there are missing orders, invoices, s
 
 ## Issue
 
-Missing orders, invoices, shipments, and credit memos in respective entity grids.
+The CSV sales order report shows incorrect special characters.
 
 <u>Steps to reproduce</u>:
 
-1. Enable **[!UICONTROL Asynchronous indexing]** at **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Developer]** > **[!UICONTROL Grid Settings]**.
-1. Place two orders.
-1. Run the cron to sync those orders to the grid.
-1. Open one of the orders and make it ready to be invoiced. DO NOT SUBMIT THE INVOICE YET.
-1. Make a new order ready to be placed on the frontend. DO NOT CLICK ON THE PLACE ORDER BUTTON YET.
-1. Add a `sleep(30)` in the `foreach` at `NotSyncedDataProvider::L43`.
-1. Run `bin/magento cron:run`.
-1. Now place the new order.
-1. Invoice the previous order.
-1. Run the cron again expecting the new order to be synced.
-1. Go to the order grid in the Admin.
+1. Change **[!UICONTROL Base Currency]** and **[!UICONTROL Default Display Currency]** to Euro in the currency setup.
+1. Place an order.
+1. On the Admin sidebar, go to **[!UICONTROL Reports]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Select dates. Click **[!UICONTROL Show Report]**. Click **[!UICONTROL Export]** to export the CSV.
 
 <u>Expected results</u>:
 
-The new order should appear on the order grid.
+Special characters in an exported CSV file are shown correctly in Excel.
 
 <u>Actual results</u>:
 
-The previous order update has been synced to the grid (**[!UICONTROL status: Processing]**). The new order never appears on the grid.
+CSV sales order report shows special characters incorrectly.
+
 
 ## Apply the patch
 

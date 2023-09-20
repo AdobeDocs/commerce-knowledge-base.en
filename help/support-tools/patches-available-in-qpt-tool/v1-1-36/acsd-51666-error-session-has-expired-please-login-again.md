@@ -1,21 +1,22 @@
 ---
-title: 'ACSD-47910: missing orders, invoices, shipments, credit memos in respective entity grids'
-description: Apply the ACSD-47910 patch to fix the Adobe Commerce issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids.
-exl-id: 4eb897ec-16e4-420e-89a6-c8f7c8740303
-feature: Admin Workspace, Invoices, Orders, Returns, Shipping/Delivery
-role: Admin
+title: 'ACSD-51666: Error "The session has expired, please login again." after you log in'
+description: Apply the ACSD-51666 patch to fix the Adobe Commerce issue where the error *The session has expired, please login again.* occurs after you try to log in.
+feature: Customers
+role: Admin, Developer
 ---
-# ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids
+# ACSD-51666: Error *The session has expired, please login again.* after you log in
 
-The ACSD-47910 patch fixes the issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-47910. The version where this issue will be fixed is not yet available.
+The ACSD-51666 patch fixes the issue where the error *The session has expired, please login again.* occurs after you try to log in. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.36 is installed. The patch ID is ACSD-51666. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce (all deployment methods)  2.4.4 - 2.4.5-p4
+
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p2
 
 >[!NOTE]
 >
@@ -23,29 +24,26 @@ The ACSD-47910 patch fixes the issue where there are missing orders, invoices, s
 
 ## Issue
 
-Missing orders, invoices, shipments, and credit memos in respective entity grids.
+You get the error *The session has expired, please login again.* when trying to log in with the new password from one device after resetting the password on a different device. It only happens if there's an additional Ajax request on the page added by a custom module.
 
 <u>Steps to reproduce</u>:
 
-1. Enable **[!UICONTROL Asynchronous indexing]** at **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Developer]** > **[!UICONTROL Grid Settings]**.
-1. Place two orders.
-1. Run the cron to sync those orders to the grid.
-1. Open one of the orders and make it ready to be invoiced. DO NOT SUBMIT THE INVOICE YET.
-1. Make a new order ready to be placed on the frontend. DO NOT CLICK ON THE PLACE ORDER BUTTON YET.
-1. Add a `sleep(30)` in the `foreach` at `NotSyncedDataProvider::L43`.
-1. Run `bin/magento cron:run`.
-1. Now place the new order.
-1. Invoice the previous order.
-1. Run the cron again expecting the new order to be synced.
-1. Go to the order grid in the Admin.
+1. Install a custom module that adds an Ajax request on every page on the storefront.
+1. Create a new account.
+1. Log out and go back to the login page.
+1. Open the *Forgot Password* link in a different browser and send the *Reset Password* email.
+1. Open the reset password email in the first browser and set the new password.
+1. Try to log in in the second browser.
 
 <u>Expected results</u>:
 
-The new order should appear on the order grid.
+You are able to log in successfully on the first attempt.
 
 <u>Actual results</u>:
 
-The previous order update has been synced to the grid (**[!UICONTROL status: Processing]**). The new order never appears on the grid.
+* You see the *The session has expired, please login again.* error.
+* You are not logged in and redirected to the homepage.
+* Your second attempt to log in is successful.
 
 ## Apply the patch
 

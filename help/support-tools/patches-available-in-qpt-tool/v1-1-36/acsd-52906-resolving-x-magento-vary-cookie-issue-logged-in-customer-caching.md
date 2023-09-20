@@ -1,21 +1,22 @@
 ---
-title: 'ACSD-47910: missing orders, invoices, shipments, credit memos in respective entity grids'
-description: Apply the ACSD-47910 patch to fix the Adobe Commerce issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids.
-exl-id: 4eb897ec-16e4-420e-89a6-c8f7c8740303
-feature: Admin Workspace, Invoices, Orders, Returns, Shipping/Delivery
-role: Admin
+title: "ACSD-52906: Resolving X-Magento-Vary cookie issue for logged-in customer caching"
+description: Apply the ACSD-52906 patch to fix the Adobe Commerce issue where the X-Magento-Vary cookie is set incorrectly for logged-in customers.
+feature: Cache
+role: Admin, Developer
 ---
-# ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids
+# ACSD-52906: Resolving X-Magento-Vary cookie issue for logged-in customers
 
-The ACSD-47910 patch fixes the issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-47910. The version where this issue will be fixed is not yet available.
+The ACSD-52906 patch fixes the issue where the X-Magento-Vary cookie is set incorrectly for logged-in customers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.36 is installed. The patch ID is ACSD-52906. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+
+* Adobe Commerce (all deployment methods) 2.4.4-p3
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce (all deployment methods)  2.4.4 - 2.4.5-p4
+
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p2
 
 >[!NOTE]
 >
@@ -23,29 +24,32 @@ The ACSD-47910 patch fixes the issue where there are missing orders, invoices, s
 
 ## Issue
 
-Missing orders, invoices, shipments, and credit memos in respective entity grids.
+X-Magento-Vary cookie is set incorrectly for logged-in customers that belong to the same customer segment, causing improper caching for some pages.
+
+<u>Prerequisites</u>:
+
+Adobe Commerce Inventory Management (MSI) modules are installed and enabled.
 
 <u>Steps to reproduce</u>:
 
-1. Enable **[!UICONTROL Asynchronous indexing]** at **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Developer]** > **[!UICONTROL Grid Settings]**.
-1. Place two orders.
-1. Run the cron to sync those orders to the grid.
-1. Open one of the orders and make it ready to be invoiced. DO NOT SUBMIT THE INVOICE YET.
-1. Make a new order ready to be placed on the frontend. DO NOT CLICK ON THE PLACE ORDER BUTTON YET.
-1. Add a `sleep(30)` in the `foreach` at `NotSyncedDataProvider::L43`.
-1. Run `bin/magento cron:run`.
-1. Now place the new order.
-1. Invoice the previous order.
-1. Run the cron again expecting the new order to be synced.
-1. Go to the order grid in the Admin.
+1. Configure [!DNL Varnish] or [!DNL Fastly] cache.
+1. Create a new customer segment and assign it to the *Registered* customers.
+1. Create two customers, e.g., customer1 and customer2.
+1. Clear the cache.
+1. Sign in as customer1 and go to the home page.
+1. Open an incognito page on your browser.
+1. Go to any page other than the home page.
+1. Log in as customer2.
+1. Go to the home page.
+1. Check if the page is cached in the browser dev console.
 
 <u>Expected results</u>:
 
-The new order should appear on the order grid.
+The page is retrieved from the cache.
 
 <u>Actual results</u>:
 
-The previous order update has been synced to the grid (**[!UICONTROL status: Processing]**). The new order never appears on the grid.
+The page is not cached.
 
 ## Apply the patch
 

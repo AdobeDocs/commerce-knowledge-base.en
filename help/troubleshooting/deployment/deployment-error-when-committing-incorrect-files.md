@@ -14,7 +14,7 @@ Adobe Commerce on cloud infrastructure (all versions)
 
 ## Issue
 
-You are getting deployment errors when you commit to the repository of files/folders. For example, the following error is caused due to an attempt to connect to the DB when it's not currently available during the [Build Phase](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?#build-phase):
+You are getting deployment errors when you commit to the repository of files/folders. For example, the following error is caused due to an attempt to connect to the DB when it's not currently available during the [Build Phase](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase):
 
 ```SQL
 SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i  
@@ -35,7 +35,7 @@ SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i
 
 ## Cause
 
-Certain files/folders shouldn't be committed to the repository, as they cause a break in the [deployment workflow](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?lang=en).
+Certain files/folders shouldn't be committed to the repository, as they cause a break in the [deployment workflow](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html).
 
 ## Solution
 

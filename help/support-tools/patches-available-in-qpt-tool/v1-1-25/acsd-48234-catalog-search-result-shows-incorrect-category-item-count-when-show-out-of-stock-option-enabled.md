@@ -16,7 +16,7 @@ The ACSD-48234 patch solves the issue where the catalog search result shows an i
 * Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce (all deployment methods) >=2.4.5 <2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p4
 
 >[!NOTE]
 >
