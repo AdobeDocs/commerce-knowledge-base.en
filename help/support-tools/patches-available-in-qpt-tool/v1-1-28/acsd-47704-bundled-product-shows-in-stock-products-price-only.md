@@ -17,7 +17,7 @@ The ACSD-47704 patch fixes the issue where customer segment prices are cached in
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.7
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p2
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ The price of a bundled product with Dynamic Pricing enabled is incorrect due to 
       * Default quantity: 1
 1. Save product.
 1. Go to the storefront and find the product created in the previous steps. Note down its price - $66
-(66 = 32 + 34). 
+(66 = 32 + 34).
 Currently, the price of the bundle product is equal to the sum of the prices of its options.
 1. Go to the Commerce Admin panel. Go to **[!UICONTROL CATALOG]** > **[!UICONTROL Products]**.
 1. Find one of the simple products assigned as an option to the bundle product earlier:

@@ -15,7 +15,7 @@ The ACSD-47910 patch fixes the issue where there are missing orders, invoices, s
 * Adobe Commerce (all deployment methods) 2.4.4-p1
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce (all deployment methods)  >=2.4.4 <2.4.6
+* Adobe Commerce (all deployment methods)  2.4.4 - 2.4.5-p4
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Missing orders, invoices, shipments, and credit memos in respective entity grids
 1. Enable **[!UICONTROL Asynchronous indexing]** at **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Developer]** > **[!UICONTROL Grid Settings]**.
 1. Place two orders.
 1. Run the cron to sync those orders to the grid.
-1. Open one of the orders and make it ready to be invoiced. DO NOT SUBMIT THE INVOICE YET. 
+1. Open one of the orders and make it ready to be invoiced. DO NOT SUBMIT THE INVOICE YET.
 1. Make a new order ready to be placed on the frontend. DO NOT CLICK ON THE PLACE ORDER BUTTON YET.
 1. Add a `sleep(30)` in the `foreach` at `NotSyncedDataProvider::L43`.
 1. Run `bin/magento cron:run`.
