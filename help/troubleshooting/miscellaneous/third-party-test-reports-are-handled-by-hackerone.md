@@ -14,7 +14,7 @@ This article provides a solution to address vulnerabilities found by third-party
 
 ## Issues
 
-Merchant performed PEN test through an independent security agency and a vulnerability is flagged.
+Merchant performed a PEN test through an independent security agency, and a vulnerability was flagged.
 
 ## Solutions
 
