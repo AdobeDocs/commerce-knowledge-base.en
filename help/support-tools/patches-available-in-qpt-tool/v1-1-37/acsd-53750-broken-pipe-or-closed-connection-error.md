@@ -25,7 +25,7 @@ The ACSD-53750 patch fixes the issue where a *Broken pipe or closed connection* 
 
 ## Issue
 
-*Broken pipe or closed connection* error occurs during multi-threaded `catalog_product_price` reindex
+*Broken pipe or closed connection* error occurs during multi-threaded `catalog_product_price` reindex.
 
 <u>Steps to reproduce</u>:
 
