@@ -36,14 +36,14 @@ Inventory modules installed
 1. Turn developer mode to have debug.log
 1. Prepare import file with 100 products - import.csv:
 
-  ```
+   ```
    sku    name    product_type    attribute_set_code    price
    test_sku_1    test_sku_1    simple    Default    10
    test_sku_2    test_sku_2    simple    Default    10
    ...
-   test_sku_100    test_sku_100    simple    Default    10`
+   test_sku_100    test_sku_100    simple    Default    10
    ```
-
+   
 1. Import products from `import.csv`
 1. Create new stock and source called **test_stock** and **test_source**.
 1. Assign new stock to the website, and source to stock.
