@@ -1,21 +1,23 @@
 ---
-title: 'ACSD-47910: missing orders, invoices, shipments, credit memos in respective entity grids'
-description: Apply the ACSD-47910 patch to fix the Adobe Commerce issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids.
-exl-id: 4eb897ec-16e4-420e-89a6-c8f7c8740303
-feature: Admin Workspace, Invoices, Orders, Returns, Shipping/Delivery
-role: Admin
+title: 'ACSD-53750: "Broken pipe or closed connection" error during multi-threaded catalog_product_price reindex'
+description: Apply the ACSD-53750 patch to fix the Adobe Commerce issue where a *Broken pipe or closed connection* error occurs during multi-threaded catalog_product_price reindex.
+feature: Products 
+role: Admin, Developer
 ---
-# ACSD-47910: missing orders, invoices, shipments, and credit memos in respective entity grids
 
-The ACSD-47910 patch fixes the issue where there are missing orders, invoices, shipments, and credit memos in respective entity grids. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 is installed. The patch ID is ACSD-47910. The version where this issue will be fixed is not yet available.
+# ACSD-53750: *Broken pipe or closed connection* error during multi-threaded `catalog_product_price` reindex
+
+The ACSD-53750 patch fixes the issue where a *Broken pipe or closed connection* error occurs during multi-threaded `catalog_product_price` reindex. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-53750. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+
+* Adobe Commerce (all deployment methods) 2.4.6-p1
 
 **Compatible with Adobe Commerce versions:**
-* Adobe Commerce (all deployment methods)  2.4.4 - 2.4.5-p4
+
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p2
 
 >[!NOTE]
 >
@@ -23,29 +25,38 @@ The ACSD-47910 patch fixes the issue where there are missing orders, invoices, s
 
 ## Issue
 
-Missing orders, invoices, shipments, and credit memos in respective entity grids.
+*Broken pipe or closed connection* error occurs during multi-threaded `catalog_product_price` reindex.
 
 <u>Steps to reproduce</u>:
 
-1. Enable **[!UICONTROL Asynchronous indexing]** at **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL Developer]** > **[!UICONTROL Grid Settings]**.
-1. Place two orders.
-1. Run the cron to sync those orders to the grid.
-1. Open one of the orders and make it ready to be invoiced. DO NOT SUBMIT THE INVOICE YET.
-1. Make a new order ready to be placed on the frontend. DO NOT CLICK ON THE PLACE ORDER BUTTON YET.
-1. Add a `sleep(30)` in the `foreach` at `NotSyncedDataProvider::L43`.
-1. Run `bin/magento cron:run`.
-1. Now place the new order.
-1. Invoice the previous order.
-1. Run the cron again expecting the new order to be synced.
-1. Go to the order grid in the Admin.
+1. Configure RabbitMq.
+1. Generate sample data using the attached `small.xml` file.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Inventory Indexer Setting]** and set **[!UICONTROL Stock/Source reindex strategy]** = **[!UICONTROL Asynchronous]**.
+1. Set the dimension mode for indexes which support that. E.g., `catalog_product_price_website_and_customer_group` or `customer_group`.
+
+    ```
+    bin/magento indexer:set-dimensions-mode catalog_product_price customer_group
+    ```
+
+1. Run reset of indexers for `catalog_product_price`.
+
+    ```
+    bin/magento indexer:reset catalog_product_price
+    ```
+
+1. Run the indexer for the reset indexer using multiple threads.
+
+    ```
+    MAGE_INDEXER_THREADS_COUNT=10 bin/magento indexer:reindex catalog_product_price
+    ```
 
 <u>Expected results</u>:
 
-The new order should appear on the order grid.
+No errors occur.
 
 <u>Actual results</u>:
 
-The previous order update has been synced to the grid (**[!UICONTROL status: Processing]**). The new order never appears on the grid.
+The following error is caused by an AMQP connection: *Broken pipe or closed connection*.
 
 ## Apply the patch
 
