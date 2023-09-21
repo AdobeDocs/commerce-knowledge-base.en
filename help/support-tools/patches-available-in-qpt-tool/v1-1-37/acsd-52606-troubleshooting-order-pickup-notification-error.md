@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup"'
-description: Apply the ACSD-52606 patch to fix the Adobe Commerce issue where an error message is displayed when the user clicks on "Notify Order is Ready for Pickup".
+description: Apply the ACSD-52606 patch to fix the Adobe Commerce issue where an error message is displayed when the user clicks on **[!UICONTROL Notify Order is Ready for Pickup]**.
 feature: Orders, User Account
 role: Admin, Developer
 ---
