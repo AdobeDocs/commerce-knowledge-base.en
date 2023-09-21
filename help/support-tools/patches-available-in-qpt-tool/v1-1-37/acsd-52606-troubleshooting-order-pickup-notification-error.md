@@ -24,7 +24,7 @@ The ACSD-52606 patch fixes the issue where an error message *Your order is not r
 
 ## Issue
 
-An error message *Your order is not ready for pickup* is displayed on the screen when the user clicks *Notify Order is Ready for Pickup*.
+An error message *Your order is not ready for pickup* is displayed on the screen when the user clicks **[!UICONTROL Notify Order is Ready for Pickup]**.
 
 <u>Prerequisites</u>:
 
