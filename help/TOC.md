@@ -672,6 +672,7 @@ breadcrumb-title: Commerce KB
         * [ACSD 49843: Product download link unavailable after being auto invoiced with [!UICONTROL Payment Action] = Sale](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-49843-link-to-product-download-unavailable-after-being-autoinvoiced-with-payment-action-sale.md)
     * v1.1.38 {#v1-1-38}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.38](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/overview.md)
+        * [ACSD-53098: Products in shared catalog do not reflect on frontend](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53098-products-assigned-to-shared-catalog-not-reflecting-on-frontend-after-partial-index.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
