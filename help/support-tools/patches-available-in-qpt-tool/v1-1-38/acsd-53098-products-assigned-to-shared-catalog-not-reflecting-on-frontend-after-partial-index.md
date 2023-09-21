@@ -1,11 +1,11 @@
 ---
-title: "ACSD-53098: Products on shared catalog do not reflect on frontend"
+title: "ACSD-53098: Products in shared catalog do not reflect on frontend"
 description: Apply the ACSD-53098 patch to fix the Adobe Commerce issue where products assigned to a shared catalog do not reflect on the frontend upon executing partial index.
 feature: Products, Attributes  
 role: Admin, Developer
 ---
 
-# ACSD-53098: Products on shared catalog do not reflect on frontend
+# ACSD-53098: Products in shared catalog do not reflect on frontend
 
 The ACSD-53098 patch fixes the issue where products assigned to a shared catalog do not reflect on the frontend upon executing partial index. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.38 is installed. The patch ID is ACSD-53098. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
@@ -30,13 +30,13 @@ Products assigned to a shared catalog via API do not show up on the frontend whe
 <u>Steps to reproduce</u>:
 
 1. Set up Rabbitmq as the queue service.
-1. Switch indexers to Update in Schedule mode.
-1. Create a shared catalog and assign it a company.
-1. Create a simple product and assign it to category then execute partial reindex:
+1. Switch indexers to **[!UICONTROL Update in Schedule]** mode.
+1. Create a shared catalog and assign it to a company.
+1. Create a simple product and assign it to a category. Execute the partial reindex:
 
     `bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1`
 
-1. Use below API request to assign the created product to the shared catalog.
+1. Use the following API request to assign the created product to the shared catalog.
 
     ```
     pub/rest/all/V1/sharedCatalog/<id>/assignProducts
@@ -48,12 +48,11 @@ Products assigned to a shared catalog via API do not show up on the frontend whe
     }
     ```
 
-1. Execute below cron to clear up the queues and execute the partial reindex:
+1. Execute the following cron to clear up the queues, and execute the partial reindex:
 
-    ```
-    bin/magento cron:run --group=consumers 
-    bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1
-    ```
+    `bin/magento cron:run --group=consumers` 
+    
+    `bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1`
 
 1. Log in to the frontend as the company user.
 1. Check the frontend category page.
