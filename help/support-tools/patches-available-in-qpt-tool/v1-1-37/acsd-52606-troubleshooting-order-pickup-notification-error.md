@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup"
 
-The ACSD-52606 patch fixes the issue where an error message *Your order is not ready for pickup* is displayed when the user clicks *Notify Order is Ready for Pickup*. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-52606. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52606 patch fixes the issue where an error message *Your order is not ready for pickup* is displayed when the user clicks **[!UICONTROL Notify Order is Ready for Pickup]**. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-52606. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
