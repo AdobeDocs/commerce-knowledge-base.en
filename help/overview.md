@@ -101,7 +101,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
  </tr>
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html">UPS shipping method integration migration from SOAP to RESTful API:</a> This article provides a patch to resolve issues with the [!UICONTROL United Parcel Service] (UPS) shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html">[!DNL UPS] shipping method integration migration from SOAP to RESTful API:</a> This article provides a patch to resolve issues with the [!DNL United Parcel Service] (UPS) shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
     </td>
     <td>New article </td>
     <td>September 23, 2023</td>
