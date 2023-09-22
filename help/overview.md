@@ -80,7 +80,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-49843-link-to-product-download-unavailable-after-being-autoinvoiced-with-payment-action-sale.html">ACSD-49843: Product download link unavailable after being auto invoiced with Payment Action = Intent Sale:</a> The ACSD-49843 patch fixes the issue where the product download link is unavailable after the ordered item is auto invoiced by an online payment method when Payment Action is set to Intent Sale. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-49843-link-to-product-download-unavailable-after-being-autoinvoiced-with-payment-action-sale.html">ACSD-49843: Product download link unavailable after being auto invoiced with [!UICONTROL Payment Action] = [!UICONTROL Intent Sale]:</a> The ACSD-49843 patch fixes the issue where the product download link is unavailable after the ordered item is auto invoiced by an online payment method when [!UICONTROL Payment Action] is set to [!UICONTROL Intent Sale]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article </td>
     <td>September 23, 2023</td>
