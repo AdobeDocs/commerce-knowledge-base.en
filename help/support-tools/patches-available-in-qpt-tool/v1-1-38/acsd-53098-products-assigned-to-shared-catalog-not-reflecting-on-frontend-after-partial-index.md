@@ -25,11 +25,11 @@ The ACSD-53098 patch fixes the issue where products assigned to a shared catalog
 
 ## Issue
 
-Products assigned to a shared catalog via API do not show up on the frontend when the partial indexer executes the cron job and the consumer cron.
+Products assigned to a shared catalog via API do not show up on the frontend after the partial indexer executes the cron job, followed by the consumer cron.
 
 <u>Steps to reproduce</u>:
 
-1. Set up Rabbitmq as the queue service.
+1. Set up [!DNL RabbitMQ] as the queue service.
 1. Switch indexers to **[!UICONTROL Update in Schedule]** mode.
 1. Create a shared catalog and assign it to a company.
 1. Create a simple product and assign it to a category. Execute the partial reindex:
@@ -54,7 +54,7 @@ Products assigned to a shared catalog via API do not show up on the frontend whe
     
     `bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1`
 
-1. Log in to the frontend as the company user.
+1. Log in to the frontend as the company's user.
 1. Check the frontend category page.
 
 <u>Expected results</u>:
