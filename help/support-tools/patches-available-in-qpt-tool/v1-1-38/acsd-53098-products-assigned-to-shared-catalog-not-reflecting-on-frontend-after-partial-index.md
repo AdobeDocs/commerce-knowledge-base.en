@@ -30,7 +30,7 @@ Products assigned to a shared catalog via API do not show up on the frontend aft
 <u>Steps to reproduce</u>:
 
 1. Set up [!DNL RabbitMQ] as the queue service.
-1. Switch indexers to **[!UICONTROL Update in Schedule]** mode.
+1. Switch indexers to **[!UICONTROL Update on Schedule]** mode.
 1. Create a shared catalog and assign it to a company.
 1. Create a simple product and assign it to a category. Execute the partial reindex:
 
