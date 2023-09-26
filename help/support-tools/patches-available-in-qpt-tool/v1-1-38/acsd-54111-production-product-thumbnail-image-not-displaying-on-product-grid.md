@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54111: Production product thumbnail image not displaying on product grid"
+title: "ACSD-54111: Product thumbnail image not displaying"
 description: Apply the ACSD-54111 patch to fix the Adobe Commerce issue where all images are replaced by the default product placeholder image.
 feature: Products
 role: Admin, Developer
