@@ -1,12 +1,12 @@
 ---
 title: "ACSD-52929: Redundant request to re-index default source items"
-description: Apply the ACSD-52929 patch to fix the Adobe Commerce issue where the redundant requests to reindex the default source items appear when the inventory indexer is configured in async mode.
+description: Apply the ACSD-52929 patch to fix the Adobe Commerce issue where there is a redundant request to reindex the default source items when the inventory indexer is configured in async mode.
 feature: Configuration, Inventory
 role: Admin, Developer
 ---
 # ACSD-52929: Redundant request to re-index default source items
 
-The ACSD-52929 patch fixes the issue where there are redundant requests to update the inventory items when using the async mode. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.38 is installed. The patch ID is ACSD-52929. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52929 patch fixes the issue where there is a redundant request to reindex default source items when the inventory indexer is configured in async mode. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.38 is installed. The patch ID is ACSD-52929. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,25 +24,25 @@ The ACSD-52929 patch fixes the issue where there are redundant requests to updat
 
 ## Issue
 
-Receiving redundant requests to update the inventory items when using the async mode.
+There is a redundant request to reindex default source items when the inventory indexer is configured in async mode.
 
 <u>Steps to reproduce</u>:
 
-1. Configure [!DNL Rabbit MQ]. 
-1. Enable Asynchronous reindex strategy. Go to **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Inventory Indexer Setting]** > **[!UICONTROL Stock/Source reindex strategy = Asynchronous]**.
+1. Configure [!DNL RabbitMQ]. 
+1. Enable asynchronous reindex strategy by going to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Inventory Indexer Setting]** and set **[!UICONTROL Stock/Source reindex strategy] = [!UICONTROL Asynchronous]**.
 1. Create a custom inventory source.
-1. Log into RabbitMQ dashboard and go to the queues tab.
-1. Check 'inventory.indexer.sourceItem' queue and ensure it has 0 messages.
-1. Open a simple product from the backend and add **[!UICONTROL stock only]** to the custom source and save the product.
-1. Load the 'inventory.indexer.sourceItem' queue in RabbitMQ dashboard and then check the messages.
+1. Log into [!DNL RabbitMQ] dashboard and go to the queues tab.
+1. Check `inventory.indexer.sourceItem` queue and ensure it has zero messages.
+1. Open a simple product from the backend and add *[!UICONTROL stock only]* to the custom source and save the product.
+1. Load the `inventory.indexer.sourceItem` queue in [!DNL RabbitMQ] dashboard and then check the messages.
 
 <u>Expected results</u>:
 
-You should be able to see only one message in the queue for the custom source.
+There is only one message in the queue for the custom source.
 
 <u>Actual results</u>:
 
-2 messages are shown in the queue: one for default source and the other for custom source.
+Two messages are shown in the queue: one for the default source and the other for the custom source.
 
 ## Apply the patch
 
