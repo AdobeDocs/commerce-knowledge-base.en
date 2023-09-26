@@ -35,7 +35,7 @@ The product thumbnail image is not showing.
 1. Go to the storefront as a guest/customer.
 1. Add a product to the cart.
 1. Run `bin/magento catalog:image:resize` from the console.
-1. Open mini-cart.
+1. Open the mini-cart on the frontend or product grid on the backend to see if the image thumbnails are visible.
 
 <u>Expected results</u>:
 
