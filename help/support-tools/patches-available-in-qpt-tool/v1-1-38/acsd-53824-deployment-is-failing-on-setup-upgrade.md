@@ -1,8 +1,8 @@
 ---
 title: "ACSD-53824: Deployment is failing on setup upgrade"
 description: Apply the ACSD-53824 patch to fix the Adobe Commerce issue where the deployment is failing on setup upgrade
-feature: Upgrade 
-role: Admin
+feature: Attributes, Upgrade
+role:  Admin, Developer
 ---
 # ACSD-53824: Deployment is failing on setup upgrade
 
@@ -16,7 +16,7 @@ The ACSD-53824 patch fixes the issue where the deployment is failing on setup up
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6p2
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p2
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ The deployment is failing on setup upgrade.
 
 <u>Expected results</u>:
 
-Setup: Upgrade completes without errors.
+"setup:upgrade" completes without errors.
 
 <u>Actual results</u>:
 
-Setup: Upgrade fails with Mysql errors.
+"setup:upgrade" fails with Mysql errors.
 
 `Allowed memory size of 6442450944 bytes exhausted in ../module-catalog/Setup/Patch/Data/UpdateMultiselectAttributesBackendTypes.php`
   
