@@ -4,7 +4,7 @@ description: Apply the ACSD-54111 patch to fix the Adobe Commerce issue where al
 feature: Products
 role: Admin, Developer
 ---
-# ACSD-54111: Production product thumbnail image not displaying on product grid
+# ACSD-54111: Product thumbnail image not displaying
 
 The ACSD-54111 patch fixes the issue where all images are replaced by the default product placeholder image. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.38 is installed. The patch ID is ACSD-54111. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
