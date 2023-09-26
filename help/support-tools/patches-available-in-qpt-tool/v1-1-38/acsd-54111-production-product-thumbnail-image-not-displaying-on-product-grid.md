@@ -24,7 +24,7 @@ The ACSD-54111 patch fixes the issue where all images are replaced by the defaul
 
 ## Issue
 
-The production product thumbnail image is not showing on the admin backend's product grid.
+The product thumbnail image is not showing.
 
 <u>Steps to reproduce</u>:
 
