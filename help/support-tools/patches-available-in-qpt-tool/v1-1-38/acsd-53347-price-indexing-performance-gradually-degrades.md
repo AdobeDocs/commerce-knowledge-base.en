@@ -1,8 +1,8 @@
 ---
 title: "ACSD-53347: Price indexing performance gradually degrades overtime"
 description: Apply the ACSD-53347 patch to fix the Adobe Commerce issue where when we reindex prices for a large product catalog, the performance of the queries executed during the indexing process gradually degrades.
-feature: Price Indexer, Taxes
-role: Admin, Developer
+feature: Price Indexer
+role: Admin
 ---
 # ACSD-53347: Price indexing performance gradually degrades overtime
 
@@ -32,7 +32,7 @@ When we reindex prices for a large product catalog, the performance of the queri
 1. Create at least 200 or more customer groups to increase visibility of the issue.
 1. Create ten or more websites and assign all products to each of them.
 1. The imported products are almost identical, differing only by SKU and name.
-1. Enable **[!UICONTROL DB Login]**.
+1. Enable **[!UICONTROL DB Logging]**.
 1. Execute the `bin/magento index:reindex catalog_product_price` command.
 1. Check for *DELETE FROM `catalog_product_index_price_opt_agr_temp`* in `db.log`.
 
