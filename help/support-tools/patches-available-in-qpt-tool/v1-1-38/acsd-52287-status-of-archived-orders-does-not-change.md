@@ -56,7 +56,7 @@ The order is displayed as *Closed*.
     
 <u>Actual results</u>:
 
-Order is displayed as *Complete*.
+The order is displayed as *Complete*.
 
 ## Apply the patch
 
