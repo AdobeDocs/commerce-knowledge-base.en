@@ -25,7 +25,7 @@ The ACSD-53347 patch fixes the issue where performance gradually degrades when r
 
 ## Issue
 
-When we reindex prices for a large product catalog, the performance of the queries executed during the indexing process gradually degrades.
+When reindexing prices for a large product catalog, the performance of the queries executed during the indexing process gradually degrades.
 
 <u>Steps to reproduce</u>:
 
