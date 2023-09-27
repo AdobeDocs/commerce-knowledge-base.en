@@ -47,7 +47,7 @@ The status of archived orders does not change from *completed* to *closed* on gr
 1. Archive the order.
 1. Go to the *[!UICONTROL Archived order grid]*.
 1. Open the archived order and refund the order offline by creating a [!UICONTROL Credit Memo] to make the [!UICONTROL Order status]: *Closed*.
-1. Run the cron for a few times.
+1. Run the [!DNL cron] for a few times.
 1. Check the *[!UICONTROL Archived order grid]* for the new order status.
 
 <u>Expected results</u>:
