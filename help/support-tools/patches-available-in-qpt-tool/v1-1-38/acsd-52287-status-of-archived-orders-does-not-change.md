@@ -52,7 +52,7 @@ The status of archived orders does not change from *completed* to *closed* on gr
 
 <u>Expected results</u>:
 
-Order displayed as *Closed*.
+The order is displayed as *Closed*.
     
 <u>Actual results</u>:
 
