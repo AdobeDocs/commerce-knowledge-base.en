@@ -43,7 +43,7 @@ The status of archived orders does not change from *completed* to *closed* on gr
 1. Place an order in the frontend.
 1. Run the [!DNL cron]  for order to appear in the *[!UICONTROL Admin Order Grid]*.
 1. Invoice and Ship the order to update the order status to *Complete*.
-1. Run the cron to update the *[!UICONTROL Sales Order Grid]* with the latest order status.
+1. Run the [!DNL cron]  to update the *[!UICONTROL Sales Order Grid]* with the latest order status.
 1. Archive the order.
 1. Go to the *[!UICONTROL Archived order grid]*.
 1. Open the archived order and refund the order offline by creating a [!UICONTROL Credit Memo] to make the [!UICONTROL Order status]: *Closed*.
