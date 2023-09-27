@@ -7,7 +7,7 @@ role: Admin
 ---
 # ACSD-53347: Price indexing performance gradually degrades overtime
 
-The ACSD-53347 patch fixes the issue where when we reindex prices for a large product catalog, the performance of the queries executed during the indexing process gradually degrades. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.38 is installed. The patch ID is ACSD-53347. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53347 patch fixes the issue where performance gradually degrades when reindexing prices for a large product catalog. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.38 is installed. The patch ID is ACSD-53347. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
