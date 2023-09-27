@@ -32,7 +32,7 @@ When reindexing prices for a large product catalog, the performance of the queri
 1. Create a large simple catalog and assign custom options to these products (custom options use a temporary table during indexing).
 1. Create at least 200 or more customer groups to increase visibility of the issue.
 1. Create ten or more websites and assign all products to each of them.
-1. The imported products are almost identical, differing only by SKU and name.
+1. Note that the imported products are almost identical, differing only by SKU and name.
 1. Enable **[!UICONTROL DB Logging]**.
 1. Execute the `bin/magento index:reindex catalog_product_price` command.
 1. Check for *DELETE FROM `catalog_product_index_price_opt_agr_temp`* in `db.log`.
