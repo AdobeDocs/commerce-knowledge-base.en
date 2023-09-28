@@ -31,7 +31,7 @@ There is a redundancy of requests to reindex default source items when the inven
 1. Configure [!DNL RabbitMQ]. 
 1. Enable asynchronous reindex strategy by going to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Inventory Indexer Setting]** and set **[!UICONTROL Stock/Source reindex strategy] = [!UICONTROL Asynchronous]**.
 1. Create a custom inventory source.
-1. Log into [!DNL RabbitMQ] dashboard and go to the queues tab.
+1. Log into the [!DNL RabbitMQ] dashboard and go to the queues tab.
 1. Check `inventory.indexer.sourceItem` queue and ensure it has zero messages.
 1. Open a simple product from the backend and add *[!UICONTROL stock only]* to the custom source and save the product.
 1. Load the `inventory.indexer.sourceItem` queue in the [!DNL RabbitMQ] dashboard and then check the messages.
