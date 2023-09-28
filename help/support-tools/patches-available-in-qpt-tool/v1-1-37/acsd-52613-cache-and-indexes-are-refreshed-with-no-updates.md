@@ -7,7 +7,7 @@ role: Admin
 
 # ACSD-52613: Cache and indexes are refreshed even with no updates
 
-The ACSD-52613 patch fixes the issue where the Adobe Commerce issue where the cache and indexes are refreshed when no updates are made to Inventory_source items by rest API. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-52613. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-52613 patch fixes the issue where the Adobe Commerce issue where the cache and indexes are refreshed when no updates are made to `Inventory_source` items by [!DNL REST API]. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-52613. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
