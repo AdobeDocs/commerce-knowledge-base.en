@@ -3,7 +3,7 @@ title: "ACSD-47669: Internal server error when importing products with customiza
 description: Apply the ACSD-47669 patch to fix the Adobe Commerce issue where there is an internal server error during importing products with customizable options.
 feature: Products
 role: Admin, Developer
-
+---
 # ACSD-47669: Internal server error when importing products with customizable options
 
 The ACSD-47669 patch fixes the issue where there is an internal server error during product imports with customizable options. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.38 is installed. The patch ID is ACSD-47669. Please note that the issue is already fixed in Adobe Commerce 2.4.6.
@@ -28,7 +28,7 @@ There is an internal server error when importing products with customizable opti
 
 <u>Steps to reproduce</u>:
 
-1. Create an additional store view, ensuring you have at least 2 store views, e.g., en, UK.
+1. Create an additional store view. Make sure you have 2 store views, e.g., en, UK.
 1. Create two simple products, e.g., prod1 and prod2.
 1. Prepare a csv file that adds custom options for both products in each store view and for the **All Store View** scope. Import this csv file.
 1. Prepare another csv file that includes two records. The first record should be to update the custom options of 'prod1' specifically for the UK store view scope and the second record should be to update the custom options of 'prod2' for the **All Store View** scope. Import this second csv file.
