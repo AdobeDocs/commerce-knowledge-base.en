@@ -34,7 +34,7 @@ The deployment is failing on setup upgrade.
 1. Generate the fixtures from medium performance profile:
 `php bin/magento setup:performance:generate-fixtures -s setup/performance-toolkit/profiles/ee/medium.xml`
 1. Generate more than **12000** multi-select attributes.
-1. Complete with, Run setup: Upgrade command.
+1. Then use the `Run setup: Upgrade` command.
 
 <u>Expected results</u>:
 
