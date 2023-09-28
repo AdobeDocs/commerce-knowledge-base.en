@@ -38,7 +38,7 @@ The deployment is failing on setup upgrade.
 
 <u>Expected results</u>:
 
-"setup:upgrade" completes without errors.
+The `setup:upgrade` completes without errors.
 
 <u>Actual results</u>:
 
