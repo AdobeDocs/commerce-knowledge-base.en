@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-52929: Redundant request to re-index default source items
 
-The ACSD-52929 patch fixes the issue where there is a redundant request to reindex default source items when the inventory indexer is configured in async mode. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.38 is installed. The patch ID is ACSD-52929. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52929 patch fixes the issue where there is a redundancy of requests to reindex default source items when the inventory indexer is configured in async mode. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.38 is installed. The patch ID is ACSD-52929. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
