@@ -30,7 +30,7 @@ The deployment is failing on setup upgrade.
 
 1. Install the infrastructure with **[!DNL MariaDB]** on Galera Cluster.
 1. Set the `wsrep_max_ws_size` up to *2GB*.
-1. Install a new magento instance.
+1. Install a new Adobe Commerce instance.
 1. Generate the fixtures from medium performance profile.
 `php bin/magento setup:performance:generate-fixtures -s setup/performance-toolkit/profiles/ee/medium.xml`
 1. Generate more than *12000* multi-select attributes.
