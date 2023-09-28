@@ -27,7 +27,7 @@ The ACSD-52613 patch fixes the issue where the Adobe Commerce issue where the ca
 
 Cache and indexes are refreshed when no updates are made to `Inventory_source` items by [!DNL REST API].
 
-Preconditions:
+<u>Prerequisites</u>:
 
 Inventory modules installed 
 
