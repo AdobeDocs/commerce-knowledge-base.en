@@ -665,7 +665,7 @@ Inventory modules installed
    ```
 
 1. Remove all the logs from `var/log`
-1. Run the rest API request again.
+1. Run the [!DNL REST API] request again.
 1. Check the `var/log/debug.log`.
 
 <u>Expected results</u>:
