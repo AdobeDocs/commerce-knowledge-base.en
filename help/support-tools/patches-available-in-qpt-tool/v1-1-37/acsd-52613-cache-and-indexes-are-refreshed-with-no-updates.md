@@ -674,7 +674,7 @@ Cache should not be cleaned and indexes should not be executed after the second 
 
 <u>Actual results</u>:
 
-The `var/log/debug.log` contains entry related to the cache clear.
+The `var/log/debug.log` contains the entry related to the cache clear.
 
 ## Apply the patch
 
