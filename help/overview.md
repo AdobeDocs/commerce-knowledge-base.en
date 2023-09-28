@@ -33,50 +33,93 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.html">USPS Ground Advantage shipping method support hotfix for AC-9182:</a> This article provides a patch to resolve the issue AC-9182 for the new USPS Ground Advantage shipping method in Adobe Commerce 2.4.4 - 2.4.6-p2.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-52143-custom-options-are-removed-after-product-import.html">ACSD-52143: Custom options are removed after product import:</a> The ACSD-52143 patch fixes the issue where the custom options are removed after the product import. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article</td>
-    <td>September 15, 2023</td>
+    <td>September 23, 2023</td>
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html">UPS shipping method integration migration from SOAP to RESTful API:</a> This article provides a patch to resolve issues with the [!DNL United Parcel Service] (UPS) shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53979-js-error-occurs-on-the-homepage.html">ACSD-53979: JavaScript error occurs on the homepage:</a> The ACSD-53979 patch fixes the issue where a JavaScript error occurs on the homepage if the welcome message contains a single quote. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article</td>
-    <td>September 15, 2023</td>
+    <td>September 23, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.html">Deployment errors when committing incorrect files:</a> This article provides a fix for the issue when you are getting deployment errors that are caused by incorrect commits to the repository of files/folders that shouldn't have been added.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53728-product-eav-indexer-takes-a-long-time-to-complete.html">ACSD-53728: Product EAV indexer takes a long time to complete:</a> The ACSD-53728 patch fixes the issue where the product EAV indexer is taking a long time to complete. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article </td>
-    <td>September 15, 2023</td>
+    <td>September 23, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.html">Admin login not working - allowed session max size exceeded:</a> This article provides a fix for when you try to log in to your Admin panel, but the form just refreshes, and you are unable to log in. This is because the Admin Session Size has been exceeded.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-51574-image-not-updated-on-frontend-when-replaced-with-another-image.html">ACSD-51574: Image not updated on frontend when replaced with another image:</a> The ACSD-51574 patch fixes the issue where where the image is not updated on the frontend after replacing it with another image. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article </td>
-    <td>September 15, 2023</td>
+    <td>September 23, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-34/acsd-51857-slow-cron-job-of-aggregate-sales-report-bestsellers-data-affects-performance.html">ACSD-51857: Slow cron job of <code>aggregate_sales_report_bestsellers_data</code> affects performance:</a> The ACSD-51857 patch fixes the issue where slow cron job <code>aggregate_sales_report_bestsellers_data</code> affects large <code>sales_order and sales_order_item</code> database tables. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.34 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-47054-preview-content-slow-all-stores-reindex.html">ACSD-47054: Preview content slow as all stores reindex:</a> The ACSD-47054 patch fixes the issue where a preview of the content staging takes longer to load when there are many stores. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article </td>
-    <td>September 15, 2023</td>
+    <td>September 23, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-34/acsd-50813-admin-unable-to-add-bundled-products-containing-a-slash.html">ACSD-50813: Admin unable to add bundled products containing a slash:</a> The ACSD-50813 patch fixes the issue where the admin cannot add bundled products containing a slash mark (/) in the SKU with the Add Products by SKU functionality to the admin order. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.34 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53148-two-requests-in-graphql-for-adding-the-same-configurable-product.html">ACSD-53148: Two parallel requests in GraphQL for adding the same configurable product:</a> The ACSD-53148 patch fixes the issue where two parallel requests in GraphQL for adding the same configurable product to the cart resulted in two separate items on the cart with the same product SKU. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article </td>
-    <td>September 15, 2023</td>
+    <td>September 23, 2023</td>
  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-49843-link-to-product-download-unavailable-after-being-autoinvoiced-with-payment-action-sale.html">ACSD-49843: Product download link unavailable after being auto invoiced with [!UICONTROL Payment Action] = [!UICONTROL Intent Sale]:</a> The ACSD-49843 patch fixes the issue where the product download link is unavailable after the ordered item is auto invoiced by an online payment method when [!UICONTROL Payment Action] is set to [!UICONTROL Intent Sale]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    </td>
+    <td>New article </td>
+    <td>September 23, 2023</td>
+ </tr>
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53628-csv-sales-order-report-incorrect-special-characters.html">ACSD-53628: CSV sales order report shows incorrect special characters:</a> The ACSD-53628 patch fixes the issue where the CSV sales order report shows incorrect special characters. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    </td>
+    <td>New article </td>
+    <td>September 23, 2023</td>
+ </tr>
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-51884-product-image-cache-path-incorrect-on-resize-command.html">ACSD-51884: Product image cache path incorrect on resize command:</a> The ACSD-51884 patch fixes the issue where an internal error where the product image cache path becomes incorrect after running the resize command. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    </td>
+    <td>New article </td>
+    <td>September 23, 2023</td>
+ </tr>
+   <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html">[!DNL UPS] shipping method integration migration from SOAP to RESTful API:</a> This article provides a patch to resolve issues with the [!DNL United Parcel Service] (UPS) shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
+    </td>
+    <td>New article </td>
+    <td>September 23, 2023</td>
+ </tr>
+ <tr>
+    <td>
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-51984-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.html">ACSD-51984: Unchecked [!UICONTROL Use Default Value] and non-default product field values are not saved:</a> The ACSD-51984 patch fixes the issue where the unchecked [!UICONTROL Use Default Value] and non-default product field values are not saved for the second website, store, and store view. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.35 is installed.
+    </td>
+    <td>New article </td>
+    <td>September 23, 2023</td>
+  </tr>
+   <tr>
+    <td>
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.html">Admin login not working - allowed session max size exceeded:</a> This article provides a fix for when you try to log in to your Admin panel but the form just refreshes and you are unable to log in. This is because the [!UICONTROL Admin Session Size] has been exceeded.
+    </td>
+    <td>New article </td>
+    <td>September 23, 2023</td>
+  </tr>
 </table>
 
 ## Popular Articles

@@ -659,6 +659,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-52906: Resolving X-Magento-Vary cookie issue for logged-in customer caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-52906-resolving-x-magento-vary-cookie-issue-logged-in-customer-caching.md)
     * v1.1.37 {#v1-1-37}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.37](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/overview.md)
+        * [ACSD-52613: Cache and indexes are refreshed with no updates](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52613-cache-and-indexes-are-refreshed-with-no-updates.md)
+        * [ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup"](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52606-troubleshooting-order-pickup-notification-error.md)
         * [ACSD-53750: "Broken pipe or closed connection" error during multi-threaded catalog_product_price reindex](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53750-broken-pipe-or-closed-connection-error.md)
         * [ACSD-53728: Product EAV indexer takes a long time to complete](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53728-product-eav-indexer-takes-a-long-time-to-complete.md)
         * [ACSD-53148: Two requests in GraphQL for adding the same configurable product](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53148-two-requests-in-graphql-for-adding-the-same-configurable-product.md)
@@ -672,6 +674,8 @@ breadcrumb-title: Commerce KB
     * v1.1.38 {#v1-1-38}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.38](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/overview.md)
         * [ACSD-53824: Deployment is failing on setup upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53824-deployment-is-failing-on-setup-upgrade.md)
+        * [ACSD-53098: Products in shared catalog do not reflect on frontend](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53098-products-assigned-to-shared-catalog-not-reflecting-on-frontend-after-partial-index.md)
+        * [ACSD-53347: Price indexing performance gradually degrades](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53347-price-indexing-performance-gradually-degrades.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -708,7 +712,7 @@ breadcrumb-title: Commerce KB
     * [Database storage troubleshooter on Adobe Commerce](/help/troubleshooting/database/database-storage-troubleshooter-on-adobe-commerce.md)
     * [MySQL tables are too large](/help/troubleshooting/database/mysql-tables-are-too-large.md)
     * [Database errors related to max_allowed_packet on Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
-    *  [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
+    * [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
   * Payments {#payments}
     * [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](/help/troubleshooting/payments/magento-2.4.0-known-issue-missing-refund-label-in-klarna.md)
     * [Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2.4.0-braintree-not-in-multiple-addresses-checkout.md)
@@ -951,7 +955,9 @@ breadcrumb-title: Commerce KB
     * [Cron stops due to misconfigured or missing [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
     * [The file can't be deleted. Warning! unlink: No such file or directory error* from the [!DNL Admin]](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)
     * [[!DNL Admin] login not working - allowed session max size exceeded](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
+    * [Configuring Adobe Commerce Intelligence connection for existing cloud starter projects](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
     * [[!DNL Google Tag Manager] is broken by the Live Search widget](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
+    * [Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
