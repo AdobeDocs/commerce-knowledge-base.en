@@ -673,6 +673,7 @@ breadcrumb-title: Commerce KB
     * v1.1.38 {#v1-1-38}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.38](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/overview.md)
         * [ACSD-52929: Redundant request to re-index default source items](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-52929-redundant-request-to-re-index-default-source-items.md)
+        * [ACSD-53347: Price indexing performance gradually degrades](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53347-price-indexing-performance-gradually-degrades.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
