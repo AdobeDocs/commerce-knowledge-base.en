@@ -47,7 +47,7 @@ Inventory modules installed
 1. Import products from `import.csv`
 1. Create new stock and source called **test_stock** and **test_source**.
 1. Assign new stock to the website, and source to stock.
-1. Create new integration with access to all, activate it and copy-paste Access Token.
+1. Create a new integration with access to all, activate it and copy-paste the Access Token.
 1. Go to **Stores** > **Configuration** > **Services** > **Oauth** > **Consumer Settings** and enable **Allow OAuth Access Tokens to be used as standalone Bearer tokens**.
 1. Flush the cache.
 1. Set indexers as **Updated by schedule**
