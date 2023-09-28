@@ -33,7 +33,7 @@ Inventory modules installed
 
 <u>Steps to reproduce</u>:
 
-1. Turn developer mode to have debug.log
+1. Turn developer mode to have `debug.log`.
 1. Prepare import file with 100 products - import.csv:
 
    ```
