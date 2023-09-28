@@ -42,7 +42,7 @@ The deployment is failing on setup upgrade.
 
 <u>Actual results</u>:
 
-"setup:upgrade" fails with Mysql errors.
+The `setup:upgrade` fails with [!DNL MySQL] errors:
 
 `Allowed memory size of 6442450944 bytes exhausted in ../module-catalog/Setup/Patch/Data/UpdateMultiselectAttributesBackendTypes.php`
   
