@@ -673,6 +673,7 @@ breadcrumb-title: Commerce KB
     * v1.1.38 {#v1-1-38}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.38](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/overview.md)
         * [ACSD-52287: Status of archived orders does not change](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-52287-status-of-archived-orders-does-not-change.md)
+        * [ACSD-53347: Price indexing performance gradually degrades](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53347-price-indexing-performance-gradually-degrades.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
