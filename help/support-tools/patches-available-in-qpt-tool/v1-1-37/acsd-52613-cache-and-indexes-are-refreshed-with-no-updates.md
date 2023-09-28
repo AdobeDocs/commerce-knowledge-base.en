@@ -670,7 +670,7 @@ Inventory modules installed
 
 <u>Expected results</u>:
 
-Cache should not be cleaned and indexes should not be executed after the second run since nothing was changed.
+Cache should not be cleaned and the indexes should not be executed after the second run since nothing was changed.
 
 <u>Actual results</u>:
 
