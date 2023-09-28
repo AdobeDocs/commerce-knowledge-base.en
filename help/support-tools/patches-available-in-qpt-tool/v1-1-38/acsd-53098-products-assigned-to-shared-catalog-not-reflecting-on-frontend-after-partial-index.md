@@ -1,6 +1,6 @@
 ---
 title: "ACSD-53098: Products in shared catalog do not reflect on frontend"
-description: Apply the ACSD-53098 patch to fix the Adobe Commerce issue where products assigned to a shared catalog do not reflect on the frontend upon executing partial index.
+description: Apply the ACSD-53098 patch to fix the Adobe Commerce issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index.
 feature: B2B, Catalog Management, Categories, Products  
 role: Admin, Developer
 ---
