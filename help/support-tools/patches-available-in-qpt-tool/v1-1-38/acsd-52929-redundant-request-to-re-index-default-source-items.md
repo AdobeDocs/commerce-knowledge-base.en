@@ -24,7 +24,7 @@ The ACSD-52929 patch fixes the issue where there is a redundancy of requests to 
 
 ## Issue
 
-There is a redundant request to reindex default source items when the inventory indexer is configured in async mode.
+There is a redundancy of requests to reindex default source items when the inventory indexer is configured in async mode.
 
 <u>Steps to reproduce</u>:
 
