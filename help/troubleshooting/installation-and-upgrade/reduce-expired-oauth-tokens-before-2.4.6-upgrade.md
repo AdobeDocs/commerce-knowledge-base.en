@@ -1,10 +1,10 @@
 ---
-title: "Reduce expired `oauth_tokens` before 2.4.6 upgrade"
+title: Reduce expired `oauth_tokens` before 2.4.6 upgrade
 description: This article provides a solution to the issue where you see a large number of `oauth_tokens` in your `oauth_token` table, which can cause a long delay in upgrading to version 2.4.6. It's recommended to reduce the `oauth_token` table using CleanExpiredTokens.php.
 feature: Variables, Upgrade
 role: Developer
+exl-id: 92d1d15a-04da-4ba4-b6b8-5c491af9c4c1
 ---
-
 # Reduce expired `oauth_tokens` before 2.4.6 upgrade
 
 This article provides a solution to the issue where you see a large number of `oauth_tokens` in your `oauth_token` table, which can cause a long delay in upgrading to version 2.4.6. It's recommended to reduce the `oauth_token` table using the [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] job to delete the expired tokens.

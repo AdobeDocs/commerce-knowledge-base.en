@@ -1,10 +1,10 @@
 ---
-title: "ACSD-52921: Error requesting cart details from GraphQL for out-of-stock configurable product"
+title: 'ACSD-52921: Error requesting cart details from GraphQL for out-of-stock configurable product'
 description: Apply the ACSD-52921 patch to fix the Adobe Commerce issue where an internal error occurs on requesting cart details from GraphQL for an out-of-stock configurable product.
 feature: GraphQL, Configuration, Products, Shopping Cart
 role: Admin
+exl-id: 687460c4-f0d5-45d2-82b1-dda2947fe1e7
 ---
-
 # ACSD-52921: Error requesting cart details from GraphQL for out-of-stock configurable product
 
 The ACSD-52921 patch fixes the issue where an internal error occurs on requesting cart details from GraphQL for an out-of-stock configurable product. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52921. Please note that the issue was fixed in Adobe Commerce 2.4.7.

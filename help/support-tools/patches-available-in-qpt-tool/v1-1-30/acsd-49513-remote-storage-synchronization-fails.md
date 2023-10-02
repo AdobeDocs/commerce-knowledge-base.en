@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-49513: Remote storage synchronization fails'
 description: Apply the ACSD-49513 patch to fix the Adobe Commerce issue where the remote storage synchronization fails because of 0-byte files.
-exl-id: 24d72436-bac7-4737-8215-f06aae1ad82c
+exl-id: fce5f60f-d21f-40cd-8d8a-a1a26e0fbe75
 feature: Iaas, Storage
 role: Admin
 ---

@@ -3,6 +3,7 @@ title: Google Tag Manager is broken by the [!DNL Live Search] widget
 description: This article offers a solution to the [!DNL Live Search Product Listing Widget] causing [!DNL Google Tag Manager] to stop functioning.
 feature: Install, Search, Best Practices
 role: Admin, Developer
+exl-id: 485f8ccb-cba2-4785-a8e1-a1e98c88b21e
 ---
 # [!DNL Google Tag Manager] is broken by the [!DNL Live Search] widget
 

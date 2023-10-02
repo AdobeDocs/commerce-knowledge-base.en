@@ -1,10 +1,10 @@
 ---
-title: "ACSD-50815: Decimal quantity for simple product cannot be used for new bundled product option"
+title: 'ACSD-50815: Decimal quantity for simple product cannot be used for new bundled product option'
 description: Apply the ACSD-50815 patch to fix the Adobe Commerce issue where the decimal quantity for a simple product cannot be used for a new bundled product option.
 feature: Products
 role: Admin
+exl-id: f4aa417c-b0eb-4a68-bf1e-fd86770cc72d
 ---
-
 # ACSD-50815: Decimal quantity for simple product cannot be used for new bundled product option
 
 The ACSD-50815 patch fixes the issue where the decimal quantity for a simple product cannot be used for a new bundled product option. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35 is installed. The patch ID is ACSD-50815. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.

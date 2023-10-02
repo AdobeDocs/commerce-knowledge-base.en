@@ -1,7 +1,7 @@
 ---
 title: How to remove Magento Order Management (MOM)
 description: This article explains how to remove the Magento Order Management (MOM) system.
-exl-id: 60697fb9-4d79-40ae-81c2-ea1f62d8c203
+exl-id: 9b2adb30-a880-45a2-859e-be0da42bfd07
 ---
 # How to remove Magento Order Management (MOM)
 

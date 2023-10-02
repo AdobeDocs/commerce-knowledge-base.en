@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-49737: Coupon is incorrectly marked as used after a failed card payment'
 description: Apply the ACSD-49737 patch to fix the Adobe Commerce issue where the coupon is incorrectly marked as used after a failed card payment.
-exl-id: d6ad7a47-ff6a-49e7-be7c-f54d0011ff58
+exl-id: 77b5ec9c-3c4c-4da3-ba7e-8be3ccea04d0
 feature: Orders, Payments
 role: Admin
 ---

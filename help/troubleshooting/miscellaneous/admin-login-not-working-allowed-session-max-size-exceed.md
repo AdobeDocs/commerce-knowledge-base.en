@@ -1,8 +1,8 @@
 ---
 title: '[!DNL Admin] login not working - allowed session max size exceeded'
 description: Solve the issue when you try to log in to your [!DNL Admin] panel and the form refreshes and you are unable to log in.
+exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
 ---
-
 # [!DNL Admin] login not working - allowed session max size exceeded
 
 This article provides a fix for when you try to log in to your [!DNL Admin] panel but the form just refreshes and you are unable to log in. This is because the [!DNL Admin] Session Size has been exceeded.

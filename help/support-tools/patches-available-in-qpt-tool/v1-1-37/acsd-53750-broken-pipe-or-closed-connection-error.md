@@ -1,10 +1,10 @@
 ---
 title: 'ACSD-53750: "Broken pipe or closed connection" error during multi-threaded catalog_product_price reindex'
 description: Apply the ACSD-53750 patch to fix the Adobe Commerce issue where a *Broken pipe or closed connection* error occurs during multi-threaded catalog_product_price reindex.
-feature: Products 
+feature: Products
 role: Admin, Developer
+exl-id: afb30384-74e7-4857-9aff-8e99f5abc309
 ---
-
 # ACSD-53750: *Broken pipe or closed connection* error during multi-threaded `catalog_product_price` reindex
 
 The ACSD-53750 patch fixes the issue where a *Broken pipe or closed connection* error occurs during multi-threaded `catalog_product_price` reindex. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-53750. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
