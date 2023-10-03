@@ -1,9 +1,10 @@
 ---
-title: "[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]"
+title: '[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]'
 promoted: true
 description: Apply a patch to deal with the [!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API] for Adobe Commerce 2.4.4 - 2.4.6-pX.
 feature: Shipping/Delivery
 role: Developer
+exl-id: 8ab5d4a8-0155-4b2c-ab67-d0bd2f949a07
 ---
 # [!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]
 
@@ -76,4 +77,3 @@ Considering that it is not possible to easily check if the issue was patched, yo
     ```bash
     ║ Id            │ Title                                                        │ Category        │ Origin                 │ Status      │ Details                                          ║ ║ N/A           │ ../m2-hotfixes/AC-9363_USPS_Ground_Advantage_shipping_method_COMPOSER_patch.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                
     ```
-

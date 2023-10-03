@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-49748: Email invitations cannot be sent'
 description: Apply the ACSD-49748 patch to fix the Adobe Commerce issue where the users are not able to send email invitations.
-exl-id: 21c42791-ec25-440b-b124-aa8e27b253c6
+exl-id: 65de8ea9-e65c-463b-8cba-d35767d4343d
 feature: Admin Workspace, Communications, Marketing Tools
 role: Admin
 ---

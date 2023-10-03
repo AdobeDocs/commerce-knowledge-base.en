@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-48771: WYSIWYG editor renders content differently'
 description: Apply the ACSD-48771 patch to fix the Adobe Commerce issue where WYSIWYG editor renders content differently.
-exl-id: 6ebd6281-0498-42c8-adf8-104ecc82ce56
+exl-id: 6a856fa3-6099-4237-8d1c-e3735b8ca012
 feature: Cache, Page Content
 role: Admin
 ---

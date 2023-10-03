@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-53979: JS error occurs on the homepage'
-description: Apply the ACSD-53979 patch to fix the Adobe Commerce issue where a JavaScript error occurs on the homepage if the welcome message contains a single quote.
-feature: Page Content
+title: 'ACSD-52929: Redundant request to re-index default source items'
+description: Apply the ACSD-52929 patch to fix the Adobe Commerce issue where there is a redundant request to reindex the default source items when the inventory indexer is configured in async mode.
+feature: Configuration, Inventory
 role: Admin, Developer
-exl-id: 4e5afc5c-322f-4681-b2aa-01d93be74d4a
+exl-id: 978fe0d0-3917-4ba2-94bb-01c607a825cc
 ---
-# ACSD-53979: JavaScript error occurs on the homepage
+# ACSD-52929: Redundant request to re-index default source items
 
-The ACSD-53979 patch fixes the issue where a JavaScript error occurs on the homepage if the welcome message contains a single quote. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.37 is installed. The patch ID is ACSD-53979. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52929 patch fixes the issue where there is a redundancy of requests to reindex default source items when the inventory indexer is configured in async mode. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.38 is installed. The patch ID is ACSD-52929. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.3.7 - 2.4.6-p2
 
 >[!NOTE]
 >
@@ -25,34 +25,26 @@ The ACSD-53979 patch fixes the issue where a JavaScript error occurs on the home
 
 ## Issue
 
-A JavaScript error occurs on the homepage if the welcome message contains a single quote.
+There is a redundancy of requests to reindex default source items when the inventory indexer is configured in async mode.
 
 <u>Steps to reproduce</u>:
 
-1. Set a default welcome message into the `en_US.csv` file in [!DNL French] language or put a quote character like below:
-`app/code/Magento/Theme/i18n/en_US.csv`
-
-    ```CSV
-        "Default welcome msg!","Message d'accueil par défaut"
-    ```
-
-1. Go to the frontend.
+1. Configure [!DNL RabbitMQ]. 
+1. Enable asynchronous reindex strategy by going to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Inventory Indexer Setting]** and set **[!UICONTROL Stock/Source reindex strategy] = [!UICONTROL Asynchronous]**.
+1. Create a custom inventory source.
+1. Log into the [!DNL RabbitMQ] dashboard and go to the queues tab.
+1. Check `inventory.indexer.sourceItem` queue and ensure it has zero messages.
+1. Open a simple product from the backend and add *[!UICONTROL stock only]* to the custom source and save the product.
+1. Load the `inventory.indexer.sourceItem` queue in the [!DNL RabbitMQ] dashboard and then check the messages.
 
 <u>Expected results</u>:
 
-Frontend loads without any JavaScript errors.
+There is only one message in the queue for the custom source.
 
 <u>Actual results</u>:
 
-A JavaScript error occurs:
+Two messages are shown in the queue: one for the default source and the other for the custom source.
 
-```JS
-    Uncaught SyntaxError: Unable to process binding "ifnot: function(){return customer().fullname }"
-    Message: Unable to parse bindings.
-    Bindings value: text: 'Message d'accueil par défaut'
-    Message: Unexpected identifier 'accueil'
-```
-  
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

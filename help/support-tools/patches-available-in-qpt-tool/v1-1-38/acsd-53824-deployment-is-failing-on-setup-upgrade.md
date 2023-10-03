@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-53979: JS error occurs on the homepage'
-description: Apply the ACSD-53979 patch to fix the Adobe Commerce issue where a JavaScript error occurs on the homepage if the welcome message contains a single quote.
-feature: Page Content
+title: 'ACSD-53824: Deployment is failing on setup upgrade'
+description: Apply the ACSD-53824 patch to fix the Adobe Commerce issue where the deployment is failing on setup upgrade
+feature: Attributes, Upgrade
 role: Admin, Developer
-exl-id: 4e5afc5c-322f-4681-b2aa-01d93be74d4a
+exl-id: a071745f-967f-42c8-9e20-52b248e4fefa
 ---
-# ACSD-53979: JavaScript error occurs on the homepage
+# ACSD-53824: Deployment is failing on setup upgrade
 
-The ACSD-53979 patch fixes the issue where a JavaScript error occurs on the homepage if the welcome message contains a single quote. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.37 is installed. The patch ID is ACSD-53979. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53824 patch fixes the issue where the deployment is failing on setup upgrade. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.38 is installed. The patch ID is ACSD-53824. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.5 - p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p2
 
 >[!NOTE]
 >
@@ -25,33 +25,27 @@ The ACSD-53979 patch fixes the issue where a JavaScript error occurs on the home
 
 ## Issue
 
-A JavaScript error occurs on the homepage if the welcome message contains a single quote.
+The deployment is failing on setup upgrade.
 
 <u>Steps to reproduce</u>:
 
-1. Set a default welcome message into the `en_US.csv` file in [!DNL French] language or put a quote character like below:
-`app/code/Magento/Theme/i18n/en_US.csv`
-
-    ```CSV
-        "Default welcome msg!","Message d'accueil par défaut"
-    ```
-
-1. Go to the frontend.
+1. Install the infrastructure with **[!DNL MariaDB]** on Galera Cluster.
+1. Set the `wsrep_max_ws_size` up to *2GB*.
+1. Install a new Adobe Commerce instance.
+1. Generate the fixtures from medium performance profile:
+`php bin/magento setup:performance:generate-fixtures -s setup/performance-toolkit/profiles/ee/medium.xml`
+1. Generate more than **12000** multi-select attributes.
+1. Then use the `Run setup: Upgrade` command.
 
 <u>Expected results</u>:
 
-Frontend loads without any JavaScript errors.
+The `setup:upgrade` completes without errors.
 
 <u>Actual results</u>:
 
-A JavaScript error occurs:
+The `setup:upgrade` fails with [!DNL MySQL] errors:
 
-```JS
-    Uncaught SyntaxError: Unable to process binding "ifnot: function(){return customer().fullname }"
-    Message: Unable to parse bindings.
-    Bindings value: text: 'Message d'accueil par défaut'
-    Message: Unexpected identifier 'accueil'
-```
+`Allowed memory size of 6442450944 bytes exhausted in ../module-catalog/Setup/Patch/Data/UpdateMultiselectAttributesBackendTypes.php`
   
 ## Apply the patch
 

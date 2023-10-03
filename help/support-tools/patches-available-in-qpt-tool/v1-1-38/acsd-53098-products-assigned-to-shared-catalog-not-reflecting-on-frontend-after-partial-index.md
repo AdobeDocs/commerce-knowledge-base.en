@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-53979: JS error occurs on the homepage'
-description: Apply the ACSD-53979 patch to fix the Adobe Commerce issue where a JavaScript error occurs on the homepage if the welcome message contains a single quote.
-feature: Page Content
+title: 'ACSD-53098: Products in shared catalog do not reflect on frontend'
+description: Apply the ACSD-53098 patch to fix the Adobe Commerce issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index.
+feature: B2B, Catalog Management, Categories, Products
 role: Admin, Developer
-exl-id: 4e5afc5c-322f-4681-b2aa-01d93be74d4a
+exl-id: 19c66a3a-04b2-48ee-aff3-ad2b592ff876
 ---
-# ACSD-53979: JavaScript error occurs on the homepage
+# ACSD-53098: Products in shared catalog do not reflect on frontend
 
-The ACSD-53979 patch fixes the issue where a JavaScript error occurs on the homepage if the welcome message contains a single quote. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.37 is installed. The patch ID is ACSD-53979. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53098 patch fixes the issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.38 is installed. The patch ID is ACSD-53098. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.3-p3
 
 >[!NOTE]
 >
@@ -25,34 +25,46 @@ The ACSD-53979 patch fixes the issue where a JavaScript error occurs on the home
 
 ## Issue
 
-A JavaScript error occurs on the homepage if the welcome message contains a single quote.
+Products assigned to a shared catalog via API do not show up on the frontend after the partial indexer executes the cron job, followed by the consumer cron.
 
 <u>Steps to reproduce</u>:
 
-1. Set a default welcome message into the `en_US.csv` file in [!DNL French] language or put a quote character like below:
-`app/code/Magento/Theme/i18n/en_US.csv`
+1. Set up [!DNL RabbitMQ] as the queue service.
+1. Switch indexers to **[!UICONTROL Update on Schedule]** mode.
+1. Create a shared catalog and assign it to a company.
+1. Create a simple product and assign it to a category. Execute the partial reindex:
 
-    ```CSV
-        "Default welcome msg!","Message d'accueil par défaut"
+    `bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1`
+
+1. Use the following API request to assign the created product to the shared catalog.
+
+    ```
+    pub/rest/all/V1/sharedCatalog/<id>/assignProducts
+    {
+        "products":[{
+            "sku": "24-MB06"
+            }
+        ]
+    }
     ```
 
-1. Go to the frontend.
+1. Execute the following cron to clear up the queues, and execute the partial reindex:
+
+    `bin/magento cron:run --group=consumers` 
+    
+    `bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1`
+
+1. Log in to the frontend as the company's user.
+1. Check the frontend category page.
 
 <u>Expected results</u>:
 
-Frontend loads without any JavaScript errors.
+The newly assigned products appear on the frontend.
 
 <u>Actual results</u>:
 
-A JavaScript error occurs:
+The newly assigned products do not appear on the frontend.
 
-```JS
-    Uncaught SyntaxError: Unable to process binding "ifnot: function(){return customer().fullname }"
-    Message: Unable to parse bindings.
-    Bindings value: text: 'Message d'accueil par défaut'
-    Message: Unexpected identifier 'accueil'
-```
-  
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
