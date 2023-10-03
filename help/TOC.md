@@ -673,6 +673,7 @@ breadcrumb-title: Commerce KB
         * [ACSD 49843: Product download link unavailable after being auto invoiced with [!UICONTROL Payment Action] = Sale](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-49843-link-to-product-download-unavailable-after-being-autoinvoiced-with-payment-action-sale.md)
     * v1.1.38 {#v1-1-38}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.38](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/overview.md)
+        * [ACSD-52287: Status of archived orders does not change](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-52287-status-of-archived-orders-does-not-change.md)
         * [ACSD-52929: Redundant request to re-index default source items](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-52929-redundant-request-to-re-index-default-source-items.md)
         * [ACSD-53824: Deployment is failing on setup upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53824-deployment-is-failing-on-setup-upgrade.md)
         * [ACSD-53098: Products in shared catalog do not reflect on frontend](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53098-products-assigned-to-shared-catalog-not-reflecting-on-frontend-after-partial-index.md)
