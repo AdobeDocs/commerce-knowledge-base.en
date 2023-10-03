@@ -5,7 +5,7 @@ feature: Attributes, Catalog Management, Page Builder, Page Content, Storefront,
 role: Admin, Developer
 ---
 
-# ACSD-54018: Performance issue with Catalog Widget Product List
+# ACSD-54018: Performance issue with catalog widget product List
 
 The ACSD-54018 patch fixes the issue where the page loads slowly when adding a catalog widget product list with condition and attribute type boolean. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.38 is installed. The patch ID is ACSD-54018. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
@@ -30,23 +30,23 @@ The page loads slowly when adding a catalog widget product list with condition a
 <u>Steps to reproduce</u>:
 
 1. Generate 100k products
-1. Create bool attribute with scope Store View.
+1. Create a bool attribute with scope set to [!UICONTROL Store View].
 1. Assign attribute to all attribute sets.
-1. Assign the attribute value *Yes* to all products.
+    * Assign the attribute value *Yes* to all products.
 1. Now go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**, and select all 100k products.
     * Choose **[!UICONTROL Actions]** > **[!UICONTROL Update Attribute]**.
     * Set bool attribute to *Yes* and save it.
-    * If you logged out on this step, see Notes.
+    * If you logged out on this step, check the *Notes*.
 1. Go to CLI and run `php bin/magento queue:con:start product_action_attribute.update`.
     * Make sure the attributes for all products are updated.
-1. Go to **[!UICONTROL Content]** > **[!UICONTROL Pages]** and create a new page.
+1. Now go to **[!UICONTROL Content]** > **[!UICONTROL Pages]** and create a new page.
 1. Open **[!UICONTROL Page Builder]** > **[!UICONTROL Add row]** > **[!UICONTROL Add Content]** > **[!UICONTROL Products]**.
-1. Choose *[!UICONTROL Select Products By]* = *[!UICONTROL Condition]*
+1. Choose *[!UICONTROL Select Products By]* = *[!UICONTROL Condition]*.
 1. Set the condition *[!UICONTROL Created attribute]* to *[!UICONTROL Yes]* and save it.
 1. Go to the frontend and open the created page.
 1. Disable full page cache and block html cache.
 1. Check the page loading speed.
-1. Reload the page few times and calculate average loading time.
+1. Reload the page few times and calculate the average loading time.
 
 <u>Expected results</u>:
 
