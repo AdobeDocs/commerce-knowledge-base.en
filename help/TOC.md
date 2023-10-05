@@ -679,6 +679,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-53098: Products in shared catalog do not reflect on frontend](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53098-products-assigned-to-shared-catalog-not-reflecting-on-frontend-after-partial-index.md)
         * [ACSD-53347: Price indexing performance gradually degrades](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53347-price-indexing-performance-gradually-degrades.md)
         * [ACSD-47669: Internal server error when importing products with customizable options](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-47669-customizable-product-import-error.md)
+    * v1.1.39 {#v1-1-39}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.39](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
