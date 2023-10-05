@@ -33,92 +33,92 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-52143-custom-options-are-removed-after-product-import.html">ACSD-52143: Custom options are removed after product import:</a> The ACSD-52143 patch fixes the issue where the custom options are removed after the product import. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.html">Configuring Adobe Commerce Intelligence connection for existing Cloud Starter projects:</a> This article provides a solution for when you want to configure Adobe Commerce Intelligence connection for an existing Cloud Starter project.
     </td>
     <td>New article</td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53979-js-error-occurs-on-the-homepage.html">ACSD-53979: JavaScript error occurs on the homepage:</a> The ACSD-53979 patch fixes the issue where a JavaScript error occurs on the homepage if the welcome message contains a single quote. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html">B2B 1.4.0 installation fails on Adobe Commerce 2.4.6-p1 on-premises:</a> This article provides a workaround for the Adobe Commerce 2.4.6-p1 on-premises issue where B2B version 1.4.0 installation fails.
     </td>
     <td>New article</td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53728-product-eav-indexer-takes-a-long-time-to-complete.html">ACSD-53728: Product EAV indexer takes a long time to complete:</a> The ACSD-53728 patch fixes the issue where the product EAV indexer is taking a long time to complete. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.html">Vulnerabilities found by third-party security scans should go to HackerOne:</a> This article provides a solution to address vulnerabilities found by third-party security scans.
     </td>
     <td>New article </td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-51574-image-not-updated-on-frontend-when-replaced-with-another-image.html">ACSD-51574: Image not updated on frontend when replaced with another image:</a> The ACSD-51574 patch fixes the issue where where the image is not updated on the frontend after replacing it with another image. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-52613-cache-and-indexes-are-refreshed-with-no-updates.html">ACSD-52613: Cache and indexes are refreshed even with no updates:</a> The ACSD-52613 patch fixes the issue where the Adobe Commerce issue where the cache and indexes are refreshed when no updates are made to Inventory_source items by REST API. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article </td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-47054-preview-content-slow-all-stores-reindex.html">ACSD-47054: Preview content slow as all stores reindex:</a> The ACSD-47054 patch fixes the issue where a preview of the content staging takes longer to load when there are many stores. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-52606-troubleshooting-order-pickup-notification-error.html">ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup":</a> The ACSD-52606 patch fixes the issue where an error message <em>Your order is not ready for pickup</em> is displayed when the user clicks Notify Order is Ready for Pickup. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article </td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53148-two-requests-in-graphql-for-adding-the-same-configurable-product.html">ACSD-53148: Two parallel requests in GraphQL for adding the same configurable product:</a> The ACSD-53148 patch fixes the issue where two parallel requests in GraphQL for adding the same configurable product to the cart resulted in two separate items on the cart with the same product SKU. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-51574-image-not-updated-on-frontend-when-replaced-with-another-image.html">ACSD-51574: Image not updated on frontend when replaced with another image:</a> The ACSD-51574 patch fixes the issue where where the image is not updated on the frontend after replacing it with another image. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article </td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-49843-link-to-product-download-unavailable-after-being-autoinvoiced-with-payment-action-sale.html">ACSD-49843: Product download link unavailable after being auto invoiced with [!UICONTROL Payment Action] = [!UICONTROL Intent Sale]:</a> The ACSD-49843 patch fixes the issue where the product download link is unavailable after the ordered item is auto invoiced by an online payment method when [!UICONTROL Payment Action] is set to [!UICONTROL Intent Sale]. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53750-broken-pipe-or-closed-connection-error.html">ACSD-53750: Broken pipe or closed connection error during multi-threaded <code>catalog_product_price</code> reindex:</a> The ACSD-53750 patch fixes the issue where a Broken pipe or closed connection error occurs during multi-threaded <code>catalog_product_price</code> reindex. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article </td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
  </tr>
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53628-csv-sales-order-report-incorrect-special-characters.html">ACSD-53628: CSV sales order report shows incorrect special characters:</a> The ACSD-53628 patch fixes the issue where the CSV sales order report shows incorrect special characters. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.html">Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure:</a> Learn how to safely delete files to increase disk space.
     </td>
     <td>New article </td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
  </tr>
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-51884-product-image-cache-path-incorrect-on-resize-command.html">ACSD-51884: Product image cache path incorrect on resize command:</a> The ACSD-51884 patch fixes the issue where an internal error where the product image cache path becomes incorrect after running the resize command. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53098-products-assigned-to-shared-catalog-not-reflecting-on-frontend-after-partial-index.html">ACSD-53098: Products in shared catalog do not reflect on frontend:</a> The ACSD-53098 patch fixes the issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.38 is installed.
     </td>
     <td>New article </td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
  </tr>
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html">[!DNL UPS] shipping method integration migration from SOAP to RESTful API:</a> This article provides a patch to resolve issues with the [!DNL United Parcel Service] (UPS) shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53347-price-indexing-performance-gradually-degrades.html">ACSD-53347: Price indexing performance gradually degrades overtime:</a> The ACSD-53347 patch fixes the issue where performance gradually degrades when reindexing prices for a large product catalog. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.38 is installed.
     </td>
     <td>New article </td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
  </tr>
  <tr>
     <td>
-     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-35/acsd-51984-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.html">ACSD-51984: Unchecked [!UICONTROL Use Default Value] and non-default product field values are not saved:</a> The ACSD-51984 patch fixes the issue where the unchecked [!UICONTROL Use Default Value] and non-default product field values are not saved for the second website, store, and store view. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.35 is installed.
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-52929-redundant-request-to-re-index-default-source-items.html">ACSD-52929: Redundant request to re-index default source items:</a> The ACSD-52929 patch fixes the issue where there is a redundancy of requests to reindex default source items when the inventory indexer is configured in async mode. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.38 is installed.
     </td>
     <td>New article </td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
   </tr>
    <tr>
     <td>
-     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.html">Admin login not working - allowed session max size exceeded:</a> This article provides a fix for when you try to log in to your Admin panel but the form just refreshes and you are unable to log in. This is because the [!UICONTROL Admin Session Size] has been exceeded.
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53824-deployment-is-failing-on-setup-upgrade.html">ACSD-53824: Deployment is failing on setup upgrade:</a> The ACSD-53824 patch fixes the issue where the deployment is failing on setup upgrade. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.38 is installed.
     </td>
     <td>New article </td>
-    <td>September 23, 2023</td>
+    <td>October 05, 2023</td>
   </tr>
 </table>
 
