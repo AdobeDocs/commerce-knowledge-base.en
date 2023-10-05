@@ -108,7 +108,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
  </tr>
  <tr>
     <td>
-     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-52929-redundant-request-to-re-index-default-source-items.html">ACSD-52929: Redundant request to re-index default source items:</a> The ACSD-52929 patch fixes the issue where there is a redundancy of requests to reindex default source items when the inventory indexer is configured in async mode. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.38 is installed.
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-52929-redundant-request-to-re-index-default-source-items.html">ACSD-52929: Redundant request to re-index default source items:</a> The ACSD-52929 patch fixes the issue where there is a redundancy of requests to reindex default source items when the inventory indexer is configured in async mode. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
     </td>
     <td>New article </td>
     <td>October 05, 2023</td>
