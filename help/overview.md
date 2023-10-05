@@ -94,7 +94,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
  </tr>
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53098-products-assigned-to-shared-catalog-not-reflecting-on-frontend-after-partial-index.html">ACSD-53098: Products in shared catalog do not reflect on frontend:</a> The ACSD-53098 patch fixes the issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.38 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53098-products-assigned-to-shared-catalog-not-reflecting-on-frontend-after-partial-index.html">ACSD-53098: Products in shared catalog do not reflect on frontend:</a> The ACSD-53098 patch fixes the issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
     </td>
     <td>New article </td>
     <td>October 05, 2023</td>
