@@ -64,7 +64,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-52606-troubleshooting-order-pickup-notification-error.html">ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup":</a> The ACSD-52606 patch fixes the issue where an error message <em>Your order is not ready for pickup</em> is displayed when the user clicks Notify Order is Ready for Pickup. This patch is available when the [!UICONTROL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-52606-troubleshooting-order-pickup-notification-error.html">ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup":</a> The ACSD-52606 patch fixes the issue where an error message <em>Your order is not ready for pickup</em> is displayed when the user clicks <strong>[!UICONTROL Notify Order is Ready for Pickup]</strong>. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
     </td>
     <td>New article </td>
     <td>October 05, 2023</td>
