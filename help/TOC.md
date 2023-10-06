@@ -856,7 +856,6 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce 2.4.2-p1: invoice note with an incorrect value](/help/troubleshooting/miscellaneous/adobe-commerce-2.4.2-p1-invoice-note-with-incorrect-value.md)
     * [Cannot access the latest Adobe Commerce pre-release](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [Admin passwords saved as plain text to actions log](/help/troubleshooting/miscellaneous/admin-passwords-saved-as-plain-text-to-actions-log.md)
-    * [Error running the setup:di:compile command manually](/help/troubleshooting/miscellaneous/error-running-the-setup-di-compile-command-manually.md)
     * [Index is locked by another process](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
     * [Diagnosing a data discrepancy](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
     * [Admin 2FA email notifications not being received](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
