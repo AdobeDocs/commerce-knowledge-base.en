@@ -1,5 +1,5 @@
 ---
-title: Getting thousands of search results after upgrading from 2.4.2 to 2.4.5-p3
+title: Getting thousands of results when looking for a particular product
 description: This article provides a solution to the issue where you get thousands of search results when you are looking for a particular product.
 feature: Quotes, Search, Returns
 role: Developer, Admin
