@@ -659,6 +659,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-52906: Resolving X-Magento-Vary cookie issue for logged-in customer caching](/help/support-tools/patches-available-in-qpt-tool/v1-1-36/acsd-52906-resolving-x-magento-vary-cookie-issue-logged-in-customer-caching.md)
     * v1.1.37 {#v1-1-37}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.37](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/overview.md)
+        * [ACSD-52613: Cache and indexes are refreshed with no updates](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52613-cache-and-indexes-are-refreshed-with-no-updates.md)
         * [ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup"](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-52606-troubleshooting-order-pickup-notification-error.md)
         * [ACSD-53750: "Broken pipe or closed connection" error during multi-threaded catalog_product_price reindex](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53750-broken-pipe-or-closed-connection-error.md)
         * [ACSD-53728: Product EAV indexer takes a long time to complete](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-53728-product-eav-indexer-takes-a-long-time-to-complete.md)
@@ -673,6 +674,12 @@ breadcrumb-title: Commerce KB
     * v1.1.38 {#v1-1-38}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.38](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/overview.md)
         * [ACSD-54111: Product thumbnail image not displaying](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-54111-production-product-thumbnail-image-not-displaying-on-product-grid.md)
+        * [ACSD-52287: Status of archived orders does not change](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-52287-status-of-archived-orders-does-not-change.md)
+        * [ACSD-52929: Redundant request to re-index default source items](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-52929-redundant-request-to-re-index-default-source-items.md)
+        * [ACSD-53824: Deployment is failing on setup upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53824-deployment-is-failing-on-setup-upgrade.md)
+        * [ACSD-53098: Products in shared catalog do not reflect on frontend](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53098-products-assigned-to-shared-catalog-not-reflecting-on-frontend-after-partial-index.md)
+        * [ACSD-53347: Price indexing performance gradually degrades](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-53347-price-indexing-performance-gradually-degrades.md)
+        * [ACSD-47669: Internal server error when importing products with customizable options](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-47669-customizable-product-import-error.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -753,6 +760,7 @@ breadcrumb-title: Commerce KB
     * [Customers get logged out or lose cart content on Adobe Commerce storefront](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
     * [Cannot save contact as URL key](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
   * Installation and upgrade {#installation-and-upgrade}
+    * [[!DNL B2B] 1.4.0 installation fails on Adobe Commerce 2.4.6-p1 on-premises](/help/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.md)
     * [Reduce expired "oauth_tokens" before 2.4.6 upgrade](/help/troubleshooting/installation-and-upgrade/reduce-expired-oauth-tokens-before-2.4.6-upgrade.md)
     * [Cannot install using nginx](/help/troubleshooting/installation-and-upgrade/cannot-install-using-nginx.md)
     * [Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5](/help/troubleshooting/installation-and-upgrade/wishlist-error-during-upgrade-to-magento-versions-2.3.4-p1-or-2.3.5.md)
@@ -849,7 +857,6 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce 2.4.2-p1: invoice note with an incorrect value](/help/troubleshooting/miscellaneous/adobe-commerce-2.4.2-p1-invoice-note-with-incorrect-value.md)
     * [Cannot access the latest Adobe Commerce pre-release](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [Admin passwords saved as plain text to actions log](/help/troubleshooting/miscellaneous/admin-passwords-saved-as-plain-text-to-actions-log.md)
-    * [Error running the setup:di:compile command manually](/help/troubleshooting/miscellaneous/error-running-the-setup-di-compile-command-manually.md)
     * [Index is locked by another process](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
     * [Diagnosing a data discrepancy](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
     * [Admin 2FA email notifications not being received](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)

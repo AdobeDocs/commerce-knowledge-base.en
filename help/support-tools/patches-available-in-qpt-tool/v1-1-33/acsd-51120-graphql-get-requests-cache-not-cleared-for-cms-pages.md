@@ -1,8 +1,8 @@
 ---
-title: "ACSD-51120: GraphQL GET request cache not cleared for CMS pages that contain CMS blocks"
-description: Apply the ACSD-51120 patch to fix the Adobe Commerce issue where GraphQL GET request cache is not cleared for CMS pages that contain CMS blocks. 
+title: 'ACSD-51120: GraphQL GET request cache not cleared for CMS pages that contain CMS blocks'
+description: Apply the ACSD-51120 patch to fix the Adobe Commerce issue where GraphQL GET request cache is not cleared for CMS pages that contain CMS blocks.
+exl-id: 22abba89-b697-45d7-972e-bf3233e5e9ec
 ---
-
 # ACSD-51120: GraphQL GET request cache not cleared for CMS pages that contain CMS blocks
 
 The ACSD-51120 patch fixes the issue where GraphQL GET request cache is not cleared for CMS pages that contain CMS blocks that are updated via a staging update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33 is installed. The patch ID is ACSD-51120. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 

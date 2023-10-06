@@ -1,8 +1,9 @@
 ---
-title:  Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]
+title: Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]
 description: This article provides a solution to address vulnerabilities found by third-party security scans.
 feature: Security
 role: Developer, Admin
+exl-id: db2e15f0-11e3-48ed-84b4-94567a50fe5f
 ---
 # Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]
 

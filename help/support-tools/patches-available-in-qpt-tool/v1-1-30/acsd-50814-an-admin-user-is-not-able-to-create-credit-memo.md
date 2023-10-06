@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-50814: Admin user not able to create credit memo'
 description: Apply the ACSD-50814 patch to fix the Adobe Commerce issue where an admin user is not able to create a credit memo.
-exl-id: 82099007-dee8-493d-b4da-3338fb77b935
+exl-id: bda374cf-6fb7-479f-8130-213ce3cc553e
 feature: Admin Workspace, Orders, Returns
 role: Admin
 ---

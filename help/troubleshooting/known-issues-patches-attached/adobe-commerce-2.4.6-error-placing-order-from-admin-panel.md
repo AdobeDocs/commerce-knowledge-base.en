@@ -3,8 +3,8 @@ title: Adobe Commerce 2.4.6 error placing order from Admin panel
 description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.4.6 issue when you become stuck on store selection after you place an order from the Commerce Admin panel.
 feature: Admin Workspace
 role: Developer
+exl-id: b30be5a5-3681-41db-9040-3624faed7c46
 ---
-
 # Adobe Commerce 2.4.6 error placing order from Admin panel
 
 This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.4.6 issue when you become stuck on store selection after you place an order from the Commerce Admin panel.
