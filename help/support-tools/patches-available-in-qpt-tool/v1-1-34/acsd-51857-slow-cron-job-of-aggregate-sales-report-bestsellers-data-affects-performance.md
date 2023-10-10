@@ -15,7 +15,7 @@ The ACSD-51857 patch fixes the issue where slow cron job `aggregate_sales_report
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p2
 
 >[!NOTE]
 >
