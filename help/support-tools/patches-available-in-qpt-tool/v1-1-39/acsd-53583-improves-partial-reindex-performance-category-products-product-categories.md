@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53583: Improves partial reindex performance for Category Products and Product Categories indexers"
+title: "ACSD-53583: Improves partial reindex performance for [!UICONTROL Category Products] and [!UICONTROL Product Categories] indexers"
 description: Apply the ACSD-53585 patch to improve the partial reindex performance for Category Products and Product Categories indexers.
 feature: Products
 role: Admin, Developer
