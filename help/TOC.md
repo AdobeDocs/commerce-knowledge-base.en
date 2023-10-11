@@ -682,6 +682,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47669: Internal server error when importing products with customizable options](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-47669-customizable-product-import-error.md)
     * v1.1.39 {#v1-1-39}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.39](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/overview.md)
+        * [ACSD-54026: Incorrect error message for updateCompanyRole GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54026-incorrect-error-message-for-updatecompanyrole-graphql-request.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
