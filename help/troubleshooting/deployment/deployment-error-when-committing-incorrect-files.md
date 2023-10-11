@@ -1,8 +1,9 @@
 ---
-title: "Deployment errors when committing incorrect files"
-description: "This article provides a solution for for the issue when you are getting deployment errors that are caused by incorrect commits to the repository of files/folders that shouldn't have been added."
+title: Deployment errors when committing incorrect files
+description: This article provides a solution for for the issue when you are getting deployment errors that are caused by incorrect commits to the repository of files/folders that shouldn't have been added.
 feature: Deploy
 role: Developer
+exl-id: c795f9d5-7171-4846-b99f-c018f1d2bf12
 ---
 # Deployment errors when committing incorrect files
 

@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51574: Image not updated on frontend when replaced with another image"
-description: Apply the ACSD-51574 patch to fix the Adobe Commerce issue where the image is not updated on the frontend after replacing it with another image. 
+title: 'ACSD-51574: Image not updated on frontend when replaced with another image'
+description: Apply the ACSD-51574 patch to fix the Adobe Commerce issue where the image is not updated on the frontend after replacing it with another image.
 feature: Configuration
 role: Admin
+exl-id: a6f26126-71c3-43c2-bba4-60a914d7ec11
 ---
-
 # ACSD-51574: Image not updated on frontend when replaced with another image 
 
 The ACSD-51574 patch fixes the issue where  where the image is not updated on the frontend after replacing it with another image. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-51574. Please note that the issue was fixed in Adobe Commerce 2.4.7.

@@ -3,8 +3,8 @@ title: "The file can't be deleted. Warning! unlink: No such file or directory er
 description: This article provides a solution to the issue where you see an error *The file can't be deleted. Warning!unlink No such file or directory error* from the [!DNL Admin] when you do a [!DNL Javascript/CSS] flush.
 feature: Admin Workspace, Observability
 role: Developer
+exl-id: db265e3c-a809-4404-839a-273001e81d22
 ---
-
 # *The file can't be deleted. Warning!unlink: No such file or directory error* from the [!DNL Admin]
 
 This article provides a solution to the issue where you see an error *The file can't be deleted. Warning!unlink: No such file or directory error* from the [!DNL Commerce Admin] when you do a [!DNL JavaScript/CSS] flush.

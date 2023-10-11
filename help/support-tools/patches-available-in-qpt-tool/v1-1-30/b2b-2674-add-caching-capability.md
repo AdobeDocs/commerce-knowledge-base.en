@@ -1,10 +1,10 @@
 ---
-title: "B2B-2674: Adds caching capability to the customAttributeMetadata GraphQL query"
+title: 'B2B-2674: Adds caching capability to the customAttributeMetadata GraphQL query'
 description: Apply the B2B-2674 patch to add caching capability to the customAttributeMetadata GraphQL query.
 feature: Attributes, B2B, Cache, GraphQL
 role: Admin
+exl-id: a4efb268-f811-41f2-a788-a8cfc3016f61
 ---
-
 # B2B-2674: Adds caching capability to the `customAttributeMetadata` GraphQL query
 
 The B2B-2674 patch adds caching capability to the `customAttributeMetadata` GraphQL queries. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 is installed. The patch ID is B2B-2674. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7-beta1.

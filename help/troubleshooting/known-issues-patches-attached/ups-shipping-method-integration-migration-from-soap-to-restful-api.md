@@ -1,11 +1,16 @@
 ---
-title: "[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]"
+title: '[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]'
 promoted: true
 description: Apply a patch to deal with the [!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API] for Adobe Commerce 2.4.4 - 2.4.6-pX.
 feature: Shipping/Delivery
 role: Developer
+exl-id: 8ab5d4a8-0155-4b2c-ab67-d0bd2f949a07
 ---
 # [!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]
+
+>[!NOTE]
+>
+>If you uploaded any of the three patches from this article prior to **October 10, 2023**, you should reapply one of these patches now published in this article for your 2.4.4+/2.4.5+/2.4.6+ version of Adobe Commerce/Magento Open Source once again, because otherwise you will not be able to select and configure specific [!DNL UPS] shipping methods in the **[!DNL Admin configuration]**, and you will have to have all of them enabled. These new patches are compatible with the previously released patches.
 
 This article provides a patch to resolve issues with the [!DNL United Parcel Service (UPS)] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API] for Adobe Commerce 2.4.4 - 2.4.6-pX.
 
@@ -44,15 +49,15 @@ Use the following attached patches, depending on your Adobe Commerce/Magento Ope
 
 ### For versions 2.4.4, 2.4.4-pX:
 
-* [AC-9363_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip](assets/AC-9363_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip)
+* [AC-9363_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip](assets/AC-9646_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip)
 
 ### For versions 2.4.5, 2.4.5-pX:
 
-* [AC-9358_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip](assets/AC-9358_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip)
+* [AC-9358_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip](assets/AC-9647_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip)
 
 ### For versions 2.4.6, 2.4.6-pX:
 
-* [AC-9345_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip](assets/AC-9345_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip)
+* [AC-9345_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip](assets/AC-9648_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip)
 
 ## How to apply the patch
 
@@ -76,4 +81,3 @@ Considering that it is not possible to easily check if the issue was patched, yo
     ```bash
     ║ Id            │ Title                                                        │ Category        │ Origin                 │ Status      │ Details                                          ║ ║ N/A           │ ../m2-hotfixes/AC-9363_USPS_Ground_Advantage_shipping_method_COMPOSER_patch.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                
     ```
-

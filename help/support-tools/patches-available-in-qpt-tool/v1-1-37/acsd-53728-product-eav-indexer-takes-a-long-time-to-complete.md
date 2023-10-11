@@ -1,10 +1,10 @@
 ---
-title: "ACSD-53728: Product EAV indexer takes a long time to complete"
+title: 'ACSD-53728: Product EAV indexer takes a long time to complete'
 description: Apply the ACSD-53728 patch to fix the Adobe Commerce issue where the product EAV indexer is taking a long time to complete.
-feature: Products, Attributes  
+feature: Products, Attributes
 role: Admin, Developer
+exl-id: 3e0601fb-7e2c-4f1b-8bd9-d2f09092db0e
 ---
-
 # ACSD-53728: Product EAV indexer takes a long time to complete
 
 The ACSD-53728 patch fixes the issue where the product EAV indexer is taking a long time to complete. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.37 is installed. The patch ID is ACSD-53728. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
