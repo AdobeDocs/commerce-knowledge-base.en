@@ -35,7 +35,7 @@ The page loads slowly when adding a catalog widget product list with condition a
     * Assign the attribute value *Yes* to all products.
 1. Now go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**, and select all 100k products.
     * Choose **[!UICONTROL Actions]** > **[!UICONTROL Update Attribute]**.
-    * Set bool attribute to *Yes* and save it.
+    * Set the bool attribute to *Yes* and save it.
     * If you logged out on this step, check the *Notes*.
 1. Go to CLI and run `php bin/magento queue:con:start product_action_attribute.update`.
     * Make sure the attributes for all products are updated.
