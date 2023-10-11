@@ -46,7 +46,7 @@ The page loads slowly when adding a catalog widget product list with condition a
 1. Go to the frontend and open the created page.
 1. Disable full page cache and block html cache.
 1. Check the page loading speed.
-1. Reload the page few times and calculate the average loading time.
+1. Reload the page a few times and calculate the average loading time.
 
 <u>Expected results</u>:
 
