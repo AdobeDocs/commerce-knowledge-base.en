@@ -30,7 +30,7 @@ The page loads slowly when adding a catalog widget product list with condition a
 <u>Steps to reproduce</u>:
 
 1. Generate 100k products.
-1. Create a bool attribute with scope set to [!UICONTROL Store View].
+1. Create a bool attribute with the scope set to [!UICONTROL Store View].
 1. Assign attribute to all attribute sets.
     * Assign the attribute value *Yes* to all products.
 1. Now go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**, and select all 100k products.
