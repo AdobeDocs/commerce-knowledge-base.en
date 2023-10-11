@@ -2,7 +2,7 @@
 title: 'ACSD-52219: Resolving admin grids filter issue in bookmark view switching'
 description: Apply the ACSD-52219 patch to fix the Adobe Commerce issue where the admin grids saved filters don't work as expected when frequently switching between bookmark views.
 feature: Admin Workspace
-role: Admin, Developer
+role: Admin
 ---
 # ACSD-52219: Resolving admin grids filter issue in bookmark view switching
 
@@ -16,7 +16,7 @@ The ACSD-52219 patch fixes the issue where the admin grids saved filters don't w
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -28,10 +28,10 @@ When frequently switching between bookmark views, the saved filters in admin gri
 
 <u>Steps to reproduce</u>:
 
-1. Access the [!DNL sales order] grid in the admin section.
+1. Access the [!DNL Sales Order] grid in the Admin tab.
 1. Create two to three filters.
 1. Verify the filter settings by switching views to ensure they are saved accurately.
-1. Go to [!UICONTROL Filter1] or [!UICONTROL Filter2].
+1. Go to Filter1 or Filter2.
 1. Refresh the page to update the displayed data.
 1. Switch to a different view and notice that the filters remain unchanged.
 1. Notice that the default view is now displaying filtered results, even though no specific filter was set for it.
