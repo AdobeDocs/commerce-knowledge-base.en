@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-52219: Resolving admin grids filter issue in bookmark view switching'
-description: Apply the ACSD-52219 patch to fix the Adobe Commerce issue where the admin grids saved filters don't work as expected when frequently switching between bookmark views.
+description: Apply the ACSD-52219 patch to fix the Adobe Commerce issue where the admin grids' saved filters don't work as expected when frequently switching between bookmark views.
 feature: Admin Workspace
 role: Admin
 ---
 # ACSD-52219: Resolving admin grids filter issue in bookmark view switching
 
-The ACSD-52219 patch fixes the issue where the admin grids saved filters don't work as expected when frequently switching between bookmark views. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-52219. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52219 patch fixes the issue where the admin grids' saved filters don't work as expected when frequently switching between bookmark views. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-52219. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
