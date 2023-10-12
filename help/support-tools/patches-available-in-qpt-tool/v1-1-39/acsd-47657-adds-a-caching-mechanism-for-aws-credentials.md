@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-47657: Adds a caching mechanism for AWS credentials'
-description: Apply the ACSD-47657 patch to fix the Adobe Commerce issue where it adds a caching mechanism for AWS credentials. A credentials provider now uses the Magento cache to cache credentials retrieved from AWS for EC2 configuration.
+description: Apply the ACSD-47657 patch to fix the Adobe Commerce issue which happens during a high load of requests to AWS S3 by adding a caching mechanism for AWS credentials.
 feature: Cache
 role: Admin, Developer
 ---
 # ACSD-47657: Adds a caching mechanism for AWS credentials
 
-The ACSD-47657 patch fixes the issue where it adds a caching mechanism for AWS credentials. A credentials provider now uses the Magento cache to cache credentials retrieved from AWS for EC2 configuration. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-47657. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-47657 patch fixes the issue which happens during a high load of requests to AWS S3 by adding a caching mechanism for AWS credentials. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-47657. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,13 +24,13 @@ The ACSD-47657 patch fixes the issue where it adds a caching mechanism for AWS c
 
 ## Issue
 
-Adding a caching mechanism for AWS credentials. A credentials provider now uses the Magento cache to cache credentials retrieved from AWS for EC2 configuration.
+Adding a caching mechanism for AWS credentials retrieved from AWS for EC2 configuration.
 
 <u>Steps to reproduce</u>:
 
 1. Enable [!UICONTROL AWS S3] bucket storage for the [!DNL Adobe Commerce]:
    
-```
+```Java
    bin/magento setup:config:set --remote-storage-driver="aws-s3" --remote-storage-bucket="magentopubmedia-prod" --remote-storage-region="aws-west" --no-interaction
     bin/magento config:set system/media_storage_configuration/media_database 0 
     bin/magento cache:flush
@@ -38,7 +38,7 @@ Adding a caching mechanism for AWS credentials. A credentials provider now uses 
 
 1. Run **[!UICONTROL Synchronization]**:
    
-```
+```Java
     bin/magento remote-storage:sync
 ```
 
@@ -50,11 +50,11 @@ The synchronization completes successfully.
 
 In approximately one hour, the following error occurs:
 
-```CURL
+```Java
     report.CRITICAL: 
     Aws\Exception\CredentialsException: Error retrieving credentials from 
     the instance profile metadata service. (cURL error 28: Connection timed 
-    out after 1001 milliseconds (see 
+    out after 1001 milliseconds) (see 
     https://curl.haxx.se/libcurl/c/libcurl-errors.html) 
 ```
 
