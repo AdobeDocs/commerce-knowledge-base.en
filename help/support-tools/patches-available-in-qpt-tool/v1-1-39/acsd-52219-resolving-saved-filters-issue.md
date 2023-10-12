@@ -28,7 +28,7 @@ When frequently switching between bookmark views, the saved filters in admin gri
 
 <u>Steps to reproduce</u>:
 
-1. Access the [!DNL Sales Order] grid in the Admin tab.
+1. Access the [!DNL Sales Order] grid in the Admin.
 1. Create two to three filters.
 1. Verify the filter settings by switching views to ensure they are saved accurately.
 1. Go to Filter1 or Filter2.
