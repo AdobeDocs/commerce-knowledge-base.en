@@ -51,11 +51,9 @@ The synchronization completes successfully.
 In approximately one hour, the following error occurs:
 
 ```Bash
-    report.CRITICAL: 
-    Aws\Exception\CredentialsException: Error retrieving credentials from 
-    the instance profile metadata service. (cURL error 28: Connection timed 
-    out after 1001 milliseconds) (see 
-    https://curl.haxx.se/libcurl/c/libcurl-errors.html) 
+    report.CRITICAL: Aws\Exception\CredentialsException: Error retrieving credentials from the instance profile metadata service. 
+    (cURL error 28: Connection timed out after 1001 milliseconds) 
+    (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) 
 ```
 
 ## Apply the patch
