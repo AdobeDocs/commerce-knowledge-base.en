@@ -30,7 +30,7 @@ Adding a caching mechanism for AWS credentials retrieved from AWS for EC2 config
 
 1. Enable [!DNL AWS S3] bucket storage for the Adobe Commerce:
    
-```Bash
+```
    bin/magento setup:config:set --remote-storage-driver="aws-s3" --remote-storage-bucket="magentopubmedia-prod" --remote-storage-region="aws-west" --no-interaction
     bin/magento config:set system/media_storage_configuration/media_database 0 
     bin/magento cache:flush
@@ -38,7 +38,7 @@ Adding a caching mechanism for AWS credentials retrieved from AWS for EC2 config
 
 1. Run Synchronization:
    
-```Bash
+```
     bin/magento remote-storage:sync
 ```
 
@@ -50,7 +50,7 @@ The synchronization completes successfully.
 
 In approximately one hour, the following error occurs:
 
-```Bash
+```
     report.CRITICAL: Aws\Exception\CredentialsException: Error retrieving credentials from the instance profile metadata service. (cURL error 28: Connection timed out after 1001 milliseconds) (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) 
 ```
 
