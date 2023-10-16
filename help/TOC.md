@@ -684,6 +684,7 @@ breadcrumb-title: Commerce KB
     * v1.1.39 {#v1-1-39}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.39](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/overview.md)
         * [ACSD-52219: Resolving admin grids filter issue in bookmark view switching](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-52219-resolving-saved-filters-issue.md)
+        * [ACSD-53704: Reward points balance history miscalculated after expiration](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53704-reward-points-balance-history-miscalculated-after-expiration.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
