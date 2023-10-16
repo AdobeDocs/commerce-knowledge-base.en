@@ -36,7 +36,7 @@ Adding a caching mechanism for AWS credentials retrieved from AWS for EC2 config
     bin/magento cache:flush
 ```
 
-1. Run **[!UICONTROL Synchronization]**:
+1. Run Synchronization:
    
 ```Bash
     bin/magento remote-storage:sync
