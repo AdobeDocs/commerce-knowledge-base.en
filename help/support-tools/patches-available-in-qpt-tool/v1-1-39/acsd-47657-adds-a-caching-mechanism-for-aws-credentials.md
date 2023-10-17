@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-47657: Adds a caching mechanism for AWS credentials
 
-The ACSD-47657 patch fixes the issue which happens during a high load of requests to AWS S3 by adding a caching mechanism for AWS credentials. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-47657. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-47657 patch fixes the issue that happens during a high load of requests to AWS S3 by adding a caching mechanism for AWS credentials. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-47657. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
