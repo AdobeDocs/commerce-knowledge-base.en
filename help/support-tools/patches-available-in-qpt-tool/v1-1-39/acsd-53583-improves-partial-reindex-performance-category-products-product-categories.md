@@ -16,7 +16,7 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
 
 >[!NOTE]
 >
