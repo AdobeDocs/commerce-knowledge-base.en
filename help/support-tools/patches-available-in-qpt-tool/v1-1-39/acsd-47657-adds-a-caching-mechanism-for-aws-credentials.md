@@ -28,7 +28,7 @@ Adding a caching mechanism for AWS credentials retrieved from AWS for EC2 config
 
 <u>Steps to reproduce</u>:
 
-1. Enable [!DNL AWS S3] bucket storage for the Adobe Commerce:
+1. Enable AWS S3] bucket storage for the Adobe Commerce:
    
     ```
     bin/magento setup:config:set --remote-storage-driver="aws-s3" --remote-storage-bucket="magentopubmedia-prod" --remote-storage-region="aws-west" --no-interaction
