@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-47657: Adds a caching mechanism for AWS credentials'
-description: Apply the ACSD-47657 patch to fix the Adobe Commerce issue which happens during a high load of requests to AWS S3 by adding a caching mechanism for AWS credentials.
+description: Apply the ACSD-47657 patch to fix the Adobe Commerce issue that happens during a high load of requests to AWS S3 by adding a caching mechanism for AWS credentials.
 feature: Cache
 role: Admin, Developer
 ---
