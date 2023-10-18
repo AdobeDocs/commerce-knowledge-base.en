@@ -43,7 +43,7 @@ Install and enable [!DNL Page Builder] modules.
 
 <u>Expected results</u>:
 
-The banner created for logged-in customers are not displayed for guest users.
+The banner created for logged-in customers is not displayed for guest users.
 
 <u>Actual results</u>:
 
