@@ -1121,6 +1121,7 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [How to change email address on magento.com account when the field is grayed out](/help/how-to/general/change-email-address-on-magento-account.md)
   * [How to remove Magento Order Management](/help/how-to/general/how-to-remove-mom.md)
+  * [Tech tips for Commerce holiday readiness](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
