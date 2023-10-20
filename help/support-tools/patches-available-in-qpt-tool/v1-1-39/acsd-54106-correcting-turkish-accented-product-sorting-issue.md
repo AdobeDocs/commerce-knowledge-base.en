@@ -31,15 +31,15 @@ The sorting of products within categories by name is incorrect for turkish accen
 1. Log in to the [!UICONTROL admin panel].
 1. Create simple products named as follows and assign them to any category
 
-    * Name A
-    * Name Ç
-    * Name D
-    * Name Ğ
-    * Name M
-    * Name Ö
-    * Name Ü
-    * Name Y
-    * Name Z
+* Name A
+* Name Ç
+* Name D
+* Name Ğ
+* Name M
+* Name Ö
+* Name Ü
+* Name Y
+* Name Z
 
 1. Navigate to the storefront and access the category containing the products.
 1. Modify the sorting order to "By Name".
@@ -48,29 +48,29 @@ The sorting of products within categories by name is incorrect for turkish accen
 
 Products are correctly sorted in the following order:
 
-   * Name A
-   * Name Ç
-   * Name D
-   * Name Ğ
-   * Name M
-   * Name Ö
-   * Name Ü
-   * Name Y
-   * Name Z
+* Name A
+* Name Ç
+* Name D
+* Name Ğ
+* Name M
+* Name Ö
+* Name Ü
+* Name Y
+* Name Z
 
 <u>Actual results</u>:
 
 Products are incorrectly sorted in the following order:
 
-   * Name A
-   * Name D
-   * Name M
-   * Name Y
-   * Name Z
-   * Name Ç
-   * Name Ö
-   * Name Ü
-   * Name Ğ
+* Name A
+* Name D
+* Name M
+* Name Y
+* Name Z
+* Name Ç
+* Name Ö
+* Name Ü
+* Name Ğ
 
 ## Apply the patch
 
