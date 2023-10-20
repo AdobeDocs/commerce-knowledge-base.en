@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-53204: "The product can't be saved" error on concurrent requests to add images to gallery'
-description: Apply the ACSD-53204 patch to fix the Adobe Commerce issue where "The product can't be saved" error is thrown when making concurrent requests to add images to the product gallery using the rest/V1/products/<sku>/media endpoint.
+title: 'ACSD-53204: *The product cannot be saved* error on concurrent requests to add images to gallery'
+description: Apply the ACSD-53204 patch to fix the Adobe Commerce issue where *The product can't be saved* error is thrown when making concurrent requests to add images to the product gallery using the rest/V1/products/<sku>/media endpoint.
 feature: Admin Workspace, Products, REST 
 role: Admin, Developer
 ---
