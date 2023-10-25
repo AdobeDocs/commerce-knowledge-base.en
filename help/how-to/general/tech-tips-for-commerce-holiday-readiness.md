@@ -16,4 +16,4 @@ The attached pdf offers tips on how to prepare your infrastructure for high traf
 
 ## Download the pdf
 
-Click [Tech tips for Commerce holiday readiness.pdf](assets/tech-tips-for-commerce-holiday-readiness.pdf) to download the article.
+Click [Tech tips for Commerce holiday readiness.pdf](assets/tech-tips-for-commerce-holiday-readiness.pdf) to download the pdf.
