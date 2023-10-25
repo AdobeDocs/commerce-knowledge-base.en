@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-54106: Rectifying turkish accented character sorting in product category'
-description: Apply the ACSD-54106 patch to fix the Adobe Commerce issue where category product sorting by name for turkish accented characters in incorrect.
+title: 'ACSD-54106: Rectifying Turkish accented character sorting in product category'
+description: Apply the ACSD-54106 patch to fix the Adobe Commerce issue where category product sorting by name for Turkish accented characters in incorrect.
 feature: Categories, Products, Search
 role: Admin
 ---
-# ACSD-54106: Rectifying turkish accented character sorting in product category
+# ACSD-54106: Rectifying Turkish accented character sorting in product category
 
-The ACSD-54106 patch fixes the issue where category product sorting by name for turkish accented characters in incorrect. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-54106. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54106 patch fixes the issue where category product sorting by name for Turkish accented characters in incorrect. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-54106. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,12 +24,12 @@ The ACSD-54106 patch fixes the issue where category product sorting by name for 
 
 ## Issue
 
-The sorting of products within categories by name is incorrect for turkish accented characters.
+The sorting of products within categories by name is incorrect for Turkish accented characters.
 
 <u>Steps to reproduce</u>:
 
 1. Log in to the [!UICONTROL admin panel].
-1. Create simple products named as follows and assign them to any category
+1. Create simple products named as follows and assign them to any category:
 
 * Name A
 * Name Ç
