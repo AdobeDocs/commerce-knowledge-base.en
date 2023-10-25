@@ -16,7 +16,7 @@ The ACSD-53204 patch fixes the issue where "*The product can't be saved*" error 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
