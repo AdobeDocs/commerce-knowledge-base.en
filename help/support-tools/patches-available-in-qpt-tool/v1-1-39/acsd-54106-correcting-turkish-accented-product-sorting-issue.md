@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-54106: Rectifying turkish accented character sorting in product category'
 description: Apply the ACSD-54106 patch to fix the Adobe Commerce issue where category product sorting by name for turkish accented characters in incorrect.
-feature: Categories, Products
+feature: Categories, Products, Search
 role: Admin
 ---
 # ACSD-54106: Rectifying turkish accented character sorting in product category
@@ -16,7 +16,7 @@ The ACSD-54106 patch fixes the issue where category product sorting by name for 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.1 - 2.4.4-p3
+* Adobe Commerce (all deployment methods) 2.4.1 - 2.4.4-p5
 
 >[!NOTE]
 >
