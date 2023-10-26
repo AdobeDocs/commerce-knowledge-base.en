@@ -42,7 +42,7 @@ The sorting of products within categories by name is incorrect for Turkish accen
 * Name Z
 
 1. Navigate to the storefront and access the category containing the products.
-1. Modify the sorting order to "By Name".
+1. Modify the sorting order to *[!UICONTROL By Name]*.
 
 <u>Expected results</u>:
 
