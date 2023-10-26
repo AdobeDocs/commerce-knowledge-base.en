@@ -683,7 +683,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-47669: Internal server error when importing products with customizable options](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-47669-customizable-product-import-error.md)
     * v1.1.39 {#v1-1-39}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.39](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/overview.md)
-        * [ACSD-54026: Incorrect error message for `updateCompanyRole` GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54026-incorrect-error-message-for-updatecompanyrole-graphql-request.md)
+        * [ACSD-54026: Incorrect error message for updateCompanyRole GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54026-incorrect-error-message-for-updatecompanyrole-graphql-request.md)
         * [ACSD-47657: Adds a caching mechanism for AWS credentials](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-47657-adds-a-caching-mechanism-for-aws-credentials.md)
         * [ACSD-52219: Resolving admin grids filter issue in bookmark view switching](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-52219-resolving-saved-filters-issue.md)
         * [ACSD-53998: Dynamic block based on customer segment works incorrectly after logging out](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53998-dynamic-block-based-on-customer-segment-doesnt-work-correctly-on-logging-out.md)
