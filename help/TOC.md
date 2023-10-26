@@ -673,6 +673,7 @@ breadcrumb-title: Commerce KB
         * [ACSD 49843: Product download link unavailable after being auto invoiced with [!UICONTROL Payment Action] = Sale](/help/support-tools/patches-available-in-qpt-tool/v1-1-37/acsd-49843-link-to-product-download-unavailable-after-being-autoinvoiced-with-payment-action-sale.md)
     * v1.1.38 {#v1-1-38}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.38](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/overview.md)
+        * [ACSD-54018: Performance issue with catalog widget product List](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-54018-performance-issue-with-catalog-widget-product-list.md)
         * [ACSD-54111: Product thumbnail image not displaying](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-54111-production-product-thumbnail-image-not-displaying-on-product-grid.md)
         * [ACSD-52287: Status of archived orders does not change](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-52287-status-of-archived-orders-does-not-change.md)
         * [ACSD-52929: Redundant request to re-index default source items](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-52929-redundant-request-to-re-index-default-source-items.md)
@@ -683,6 +684,9 @@ breadcrumb-title: Commerce KB
     * v1.1.39 {#v1-1-39}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.39](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/overview.md)
         * [ACSD-54026: Incorrect error message for `updateCompanyRole` GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54026-incorrect-error-message-for-updatecompanyrole-graphql-request.md)
+        * [ACSD-47657: Adds a caching mechanism for AWS credentials](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-47657-adds-a-caching-mechanism-for-aws-credentials.md)
+        * [ACSD-52219: Resolving admin grids filter issue in bookmark view switching](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-52219-resolving-saved-filters-issue.md)
+        * [ACSD-53998: Dynamic block based on customer segment works incorrectly after logging out](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53998-dynamic-block-based-on-customer-segment-doesnt-work-correctly-on-logging-out.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -965,6 +969,7 @@ breadcrumb-title: Commerce KB
     * [Configuring Adobe Commerce Intelligence connection for existing cloud starter projects](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
     * [[!DNL Google Tag Manager] is broken by the Live Search widget](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
     * [Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
+    * [Getting thousands of search results after upgrading from 2.4.2 to 2.4.5-p3](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2.4.5-p3.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
@@ -1118,6 +1123,7 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [How to change email address on magento.com account when the field is grayed out](/help/how-to/general/change-email-address-on-magento-account.md)
   * [How to remove Magento Order Management](/help/how-to/general/how-to-remove-mom.md)
+  * [Tech tips for Commerce holiday readiness](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
