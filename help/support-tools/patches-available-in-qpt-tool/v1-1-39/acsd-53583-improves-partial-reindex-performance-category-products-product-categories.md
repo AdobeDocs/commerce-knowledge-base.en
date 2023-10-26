@@ -4,7 +4,7 @@ description: Apply the ACSD-53585 patch to improve the partial reindex performan
 feature: Products, Categories
 role: Admin, Developer
 ---
-# ACSD-53583: Improves partial reindex performance for Category Products and Product Categories indexers
+# ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers
 
 The ACSD-53583 patch improves the partial reindex performance of *Category Products* and *Product Categories* indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53583. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
