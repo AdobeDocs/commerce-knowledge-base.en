@@ -688,6 +688,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-52219: Resolving admin grids filter issue in bookmark view switching](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-52219-resolving-saved-filters-issue.md)
         * [ACSD-54106: Rectifying Turkish accented character sorting in product category](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54106-correcting-turkish-accented-product-sorting-issue.md)
         * [ACSD-53998: Dynamic block based on customer segment works incorrectly after logging out](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53998-dynamic-block-based-on-customer-segment-doesnt-work-correctly-on-logging-out.md)
+        * [ACSD-54776: Unchecked used default value and non-default product field values are not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54776-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.md)
     * v1.1.40 {#v1-1-40}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.40](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
