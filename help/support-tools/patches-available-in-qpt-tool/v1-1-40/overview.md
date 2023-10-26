@@ -23,6 +23,5 @@ QPT v1.1.40 includes the following patches:
 1. **ACSD-54007**: Fixes the error *"Undefined array key "_scope""* on importing customer data.
 1. **ACSD-55031**: Fixes the *Type "mixed" cannot be nullable* error during compilation.
 1. **ACSD-54961**: Fixes the issue where a restricted admin user cannot mass update the *Product Review* status.
-1. **ACSD-55256**: Fixes the issue where only the first image is successfully displayed in the image slider.
 
 Use the menu on the left to navigate to a specific patch page.
