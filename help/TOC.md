@@ -683,9 +683,15 @@ breadcrumb-title: Commerce KB
         * [ACSD-47669: Internal server error when importing products with customizable options](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-47669-customizable-product-import-error.md)
     * v1.1.39 {#v1-1-39}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.39](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/overview.md)
+        * [ACSD-54026: Incorrect error message for updateCompanyRole GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54026-incorrect-error-message-for-updatecompanyrole-graphql-request.md)
         * [ACSD-47657: Adds a caching mechanism for AWS credentials](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-47657-adds-a-caching-mechanism-for-aws-credentials.md)
         * [ACSD-52219: Resolving admin grids filter issue in bookmark view switching](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-52219-resolving-saved-filters-issue.md)
         * [ACSD-53204: The product can't be saved error on concurrent requests to add images to gallery](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53204-product-cant-be-saved-error-when-making-concurrent-requests-to-add-images-to-product-gallery.md)
+        * [ACSD-53704: Reward points balance history miscalculated after expiration](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53704-reward-points-balance-history-miscalculated-after-expiration.md)
+        * [ACSD-54106: Rectifying Turkish accented character sorting in product category](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54106-correcting-turkish-accented-product-sorting-issue.md)
+        * [ACSD-53998: Dynamic block based on customer segment works incorrectly after logging out](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53998-dynamic-block-based-on-customer-segment-doesnt-work-correctly-on-logging-out.md)
+    * v1.1.40 {#v1-1-40}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.40](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -1122,6 +1128,7 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [How to change email address on magento.com account when the field is grayed out](/help/how-to/general/change-email-address-on-magento-account.md)
   * [How to remove Magento Order Management](/help/how-to/general/how-to-remove-mom.md)
+  * [Tech tips for Commerce holiday readiness](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
