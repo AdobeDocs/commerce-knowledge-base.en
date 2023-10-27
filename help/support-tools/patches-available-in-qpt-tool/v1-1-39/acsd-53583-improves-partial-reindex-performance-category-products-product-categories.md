@@ -28,7 +28,7 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 1. Turn all indexers to *Update by Schedule*.
 1. Generate data with the [!DNL Performance Toolkit] (medium profile).
-1. Ensure all categories and products are in the index backlog, and that all indices are idle.
+1. Make changes to all products and categories so that they are in the index backlog and all indices are idle.
 1. Perform partial reindex for *Category Products* and *Product Categories* indexers.
 
 <u>Expected results</u>:
