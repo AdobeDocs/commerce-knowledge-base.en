@@ -4,8 +4,8 @@ promoted: true
 description: The attached pdf provides tips on how to prepare your infrastructure for high traffic, prevent downtime, and optimize performance in the holiday period.
 feature: Cloud, Configuration, Paas, Logs, Iaas, Build, Best Practices
 role: Admin, Developer
+exl-id: b61955ba-bc52-42de-8a55-07c19bf42596
 ---
-
 # Tech tips for Commerce holiday readiness
 
 The attached pdf offers tips on how to prepare your infrastructure for high traffic, prevent downtime, and optimize performance in the holiday period.

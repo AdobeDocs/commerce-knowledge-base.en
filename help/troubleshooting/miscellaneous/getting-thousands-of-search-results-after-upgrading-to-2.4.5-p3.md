@@ -3,8 +3,8 @@ title: Getting thousands of results when looking for a particular product
 description: This article provides a solution to the issue where you get thousands of search results when you are looking for a particular product.
 feature: Quotes, Search, Returns
 role: Developer, Admin
+exl-id: 0eccf212-96be-4ea5-9e6e-95f27d7d9f92
 ---
-
 # Getting thousands of results when looking for a particular product
 
 This article provides a solution to the issue where you are getting thousands of search results when you are looking for a particular product.
