@@ -39,7 +39,7 @@ Partial reindex is called once per product and takes almost the same time as ful
 
 <u>Actual results</u>:
 
-Full reindex is called many times per product and takes less time than partial reindex.
+Partial reindex is called many times per product and takes more time than full reindex.
 
 ## Apply the patch
 
