@@ -1,7 +1,7 @@
 ---
 title: "ACSD-52657: Minicart not updated on the second storeview that uses subdomain"
 description: Apply the ACSD-52657 patch to fix the Adobe Commerce issue where the minicart is not updated on the second storeview that uses a subdomain.
-feature: Shopping cart
+feature: Shopping Cart
 role: Admin, Developer
 ---
 # ACSD-52657: Minicart not updated on the second storeview that uses subdomain
