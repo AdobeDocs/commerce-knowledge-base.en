@@ -1,21 +1,23 @@
 ---
-title: 'ACSD-51857: Slow cron job of `aggregate_sales_report_bestsellers_data` affects performance'
-description: Apply the ACSD-51857 patch to fix the Adobe Commerce issue where slow cron job `aggregate_sales_report_bestsellers_data` affects large `sales_order` and `sales_order_item` database tables.
-exl-id: 444ab283-c98b-46b3-a492-706f0ce34a27
+title: 'ACSD-47657: Adds a caching mechanism for AWS credentials'
+description: Apply the ACSD-47657 patch to fix the Adobe Commerce issue that happens during a high load of requests to AWS S3 by adding a caching mechanism for AWS credentials.
+feature: Cache
+role: Admin, Developer
+exl-id: d5822082-c656-45bf-b192-9cc8007b82a2
 ---
-# ACSD-51857: Slow cron job of `aggregate_sales_report_bestsellers_data` affects performance
+# ACSD-47657: Adds a caching mechanism for AWS credentials
 
-The ACSD-51857 patch fixes the issue where slow cron job `aggregate_sales_report_bestsellers_data` affects large `sales_order` and `sales_order_item` database tables. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is installed. The patch ID is ACSD-51857. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-47657 patch fixes the issue that happens during a high load of requests to AWS S3 by adding a caching mechanism for AWS credentials. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-47657. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p2
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -23,28 +25,36 @@ The ACSD-51857 patch fixes the issue where slow cron job `aggregate_sales_report
 
 ## Issue
 
-Cron job performance of `aggregate_sales_report_bestsellers_data` is slow on `sales_order` and `sales_order_item` database tables.
+Adding a caching mechanism for AWS credentials retrieved from AWS for EC2 configuration.
 
-To resolve this, the main data query that grabs data for the report has been re-written to a more efficient form. It now uses a sub-query to determine data subset. 
+<u>Steps to reproduce</u>:
 
-In order for the sub-query to function as fast as possible, a new index was added for the `sales_order` database table: `SALES_ORDER_STORE_STATE_CREATED` based on `store_id`, `state`, and `created_at` columns.
+1. Enable AWS S3 bucket storage for the Adobe Commerce:
+   
+    ```
+    bin/magento setup:config:set --remote-storage-driver="aws-s3" --remote-storage-bucket="magentopubmedia-prod" --remote-storage-region="aws-west" --no-interaction
+    bin/magento config:set 
+    system/media_storage_configuration/media_database 0 
+    bin/magento cache:flush
+    ```
 
-<u>Prerequisites</u>
-
-Ensure a large number of orders daily.
-
-<u>Steps to reproduce</u>
-
-1. Execute the `aggregate_sales_report_bestsellers_data` cron job.
-1. Check the data to be displayed in the Admin dashboard, under the **[!UICONTROL Bestsellers]** tab.
+1. Run Synchronization:
+   
+    ```
+    bin/magento remote-storage:sync
+    ```
 
 <u>Expected results</u>:
 
-*[!UICONTROL Quantity per source]* under the **[!UICONTROL Configuration]** tab shouldn't be empty.
-
+The synchronization completes successfully.
+    
 <u>Actual results</u>:
 
-*[!UICONTROL Quantity per source]* under the **[!UICONTROL Configuration]** tab is empty.
+In approximately one hour, the following error occurs:
+
+```
+    report.CRITICAL: Aws\Exception\CredentialsException: Error retrieving credentials from the instance profile metadata service. (cURL error 28: Connection timed out after 1001 milliseconds) (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) 
+```
 
 ## Apply the patch
 

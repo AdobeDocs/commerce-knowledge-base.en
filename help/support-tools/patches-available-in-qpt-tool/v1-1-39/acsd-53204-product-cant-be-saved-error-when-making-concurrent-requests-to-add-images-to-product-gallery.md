@@ -1,21 +1,23 @@
 ---
-title: 'ACSD-51857: Slow cron job of `aggregate_sales_report_bestsellers_data` affects performance'
-description: Apply the ACSD-51857 patch to fix the Adobe Commerce issue where slow cron job `aggregate_sales_report_bestsellers_data` affects large `sales_order` and `sales_order_item` database tables.
-exl-id: 444ab283-c98b-46b3-a492-706f0ce34a27
+title: 'ACSD-53204: *The product cannot be saved* error on concurrent requests to add images to gallery'
+description: Apply the ACSD-53204 patch to fix the Adobe Commerce issue where *The product can't be saved* error is thrown when making concurrent requests to add images to the product gallery using the rest/V1/products/&lt;sku&gt;/media endpoint.
+feature: Catalog Management, Media, Products, REST
+role: Admin, Developer
+exl-id: dcea2621-66cf-49d1-bba6-b61c70716e84
 ---
-# ACSD-51857: Slow cron job of `aggregate_sales_report_bestsellers_data` affects performance
+# ACSD-53204: "*The product can't be saved*" error on concurrent requests to add images to gallery
 
-The ACSD-51857 patch fixes the issue where slow cron job `aggregate_sales_report_bestsellers_data` affects large `sales_order` and `sales_order_item` database tables. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34 is installed. The patch ID is ACSD-51857. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-53204 patch fixes the issue where "*The product can't be saved*" error is thrown when making concurrent requests to add images to the product gallery using the `rest/V1/products/<sku>/media` endpoint. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53204. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3-p2
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -23,28 +25,21 @@ The ACSD-51857 patch fixes the issue where slow cron job `aggregate_sales_report
 
 ## Issue
 
-Cron job performance of `aggregate_sales_report_bestsellers_data` is slow on `sales_order` and `sales_order_item` database tables.
+"*The product can't be saved*" error is thrown when making concurrent requests to add images to the product gallery using the `rest/V1/products/<sku>/media` endpoint.
 
-To resolve this, the main data query that grabs data for the report has been re-written to a more efficient form. It now uses a sub-query to determine data subset. 
+<u>Steps to reproduce</u>:
 
-In order for the sub-query to function as fast as possible, a new index was added for the `sales_order` database table: `SALES_ORDER_STORE_STATE_CREATED` based on `store_id`, `state`, and `created_at` columns.
-
-<u>Prerequisites</u>
-
-Ensure a large number of orders daily.
-
-<u>Steps to reproduce</u>
-
-1. Execute the `aggregate_sales_report_bestsellers_data` cron job.
-1. Check the data to be displayed in the Admin dashboard, under the **[!UICONTROL Bestsellers]** tab.
+1. Log in to the Admin Panel.
+1. Create a product with SKU p1.
+1. Make multiple concurrent requests to the `rest/V1/products/<sku>/media` endpoint to upload multiple images simultaneously.
 
 <u>Expected results</u>:
 
-*[!UICONTROL Quantity per source]* under the **[!UICONTROL Configuration]** tab shouldn't be empty.
+The images are saved without errors.
 
 <u>Actual results</u>:
 
-*[!UICONTROL Quantity per source]* under the **[!UICONTROL Configuration]** tab is empty.
+"*The product can't be saved*" error is returned from time to time.
 
 ## Apply the patch
 
