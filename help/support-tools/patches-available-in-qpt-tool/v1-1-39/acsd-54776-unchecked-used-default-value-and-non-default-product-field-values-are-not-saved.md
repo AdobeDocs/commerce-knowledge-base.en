@@ -45,7 +45,7 @@ The values for the fields and the checkboxes are saved.
 
 <u>Actual results</u>
 
-The values for the fields and for the checkboxes are not saved.
+The values for the fields and the checkboxes are not saved.
 
 ## Apply the patch
 
