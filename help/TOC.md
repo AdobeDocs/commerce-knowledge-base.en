@@ -692,6 +692,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-53998: Dynamic block based on customer segment works incorrectly after logging out](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53998-dynamic-block-based-on-customer-segment-doesnt-work-correctly-on-logging-out.md)
     * v1.1.40 {#v1-1-40}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.40](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/overview.md)
+        * [ACSD-52657: Minicart not updated on the second storeview that uses subdomain](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
