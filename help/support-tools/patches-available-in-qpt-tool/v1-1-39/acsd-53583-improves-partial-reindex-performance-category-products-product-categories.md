@@ -23,6 +23,7 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 >The patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [[!DNL Quality Patches Tool]: Search for patches page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
+
 Partial reindex takes more time than full reindex.
 
 <u>Steps to reproduce</u>:
@@ -34,7 +35,11 @@ Partial reindex takes more time than full reindex.
 
 <u>Expected results</u>:
 
-Partial reindex takes less time after applying the patch.
+Full reindex is called once per product and takes almost the same time as partial reindex because all products and categories were changed.
+
+<u>Actual results</u>:
+
+Full reindex is called many times per product and takes less time than partial reindex.
 
 ## Apply the patch
 
