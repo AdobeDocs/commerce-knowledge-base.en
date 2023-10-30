@@ -33,7 +33,7 @@ Unchecked *[!UICONTROL Use Default Value]* and non-default product field values 
 <u>Steps to reproduce</u>:
 
 1. Go to the backend and navigate to **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** and create a new website, store, and store view.
-1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**, create a simple product and save it, and assign the product to both websites, from the **[!UICONTROL Product in Websites]**. 
+1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**, create a simple product and save it, and assign the product to both websites from the **[!UICONTROL Product in Websites]**. 
 1. Change the scope to the newly created store view from step 2.
 1. Go to **[!UICONTROL Search Engine Optimization]** and uncheck the **[!UICONTROL Use Default Value]** checkboxes for [!UICONTROL Meta Title], [!UICONTROL Meta Keywords], and [!UICONTROL Meta Description].
 1. Clean the text from the fields: *[!UICONTROL Meta Title]*, *[!UICONTROL Meta Keywords]* and *[!UICONTROL Meta Description]*, and click **[!UICONTROL Save]**.
