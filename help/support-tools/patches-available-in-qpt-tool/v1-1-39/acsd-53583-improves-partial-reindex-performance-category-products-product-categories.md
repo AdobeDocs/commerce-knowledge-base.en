@@ -35,7 +35,7 @@ Partial reindex takes more time than full reindex.
 
 <u>Expected results</u>:
 
-Full reindex is called once per product and takes almost the same time as partial reindex because all products and categories were changed.
+Partial reindex is called once per product and takes almost the same time as full reindex because all products and categories were changed.
 
 <u>Actual results</u>:
 
