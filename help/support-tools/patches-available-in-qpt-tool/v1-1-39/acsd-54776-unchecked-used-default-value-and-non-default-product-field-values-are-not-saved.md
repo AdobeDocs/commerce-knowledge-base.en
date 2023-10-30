@@ -41,7 +41,7 @@ Unchecked *[!UICONTROL Use Default Value]* and non-default product field values 
 
 <u>Expected results</u>
 
-The values for the fields and for the checkboxes are saved.
+The values for the fields and the checkboxes are saved.
 
 <u>Actual results</u>
 
