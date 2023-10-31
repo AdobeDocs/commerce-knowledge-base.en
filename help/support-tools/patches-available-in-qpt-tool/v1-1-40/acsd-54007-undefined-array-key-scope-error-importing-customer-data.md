@@ -29,11 +29,11 @@ The reward points balance history is miscalculated after the expiration date of 
 
 <u>Steps to reproduce</u>:
 
-1. Go to the Commerce Admin > **[!UICONTROL System]** > Data Transfer >  **[!UICONTROL Import]**, set Entity Type to **[!UICONTROL Stock Sources]** and import the stock source csv file (which contains source code, SKU, quantity, and status). Choose Customers and Addresses (single file) and try to import the csv file which contains address details of the customer.
+1. Go to the Commerce Admin > **[!UICONTROL System]** > Data Transfer >  **[!UICONTROL Import]**, set Entity Type to **[!UICONTROL Stock Sources]** and import the stock source csv file (which contains source code, SKU, quantity, and status). Choose Customers and Addresses (single file) and try to import the csv file which contains the address details of the customer.
 
 <u>Expected results</u>:
 
-
+No errors.
 
 <u>Actual results</u>:
 
