@@ -34,7 +34,7 @@ When importing customer data you see an *Undefined* *array* *key* *_scope* error
 
 <u>Expected results</u>:
 
-No errors.
+You get no errors.
 
 <u>Actual results</u>:
 
