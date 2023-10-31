@@ -37,7 +37,7 @@ No errors.
 
 <u>Actual results</u>:
 
-**Warning: Undefined array key “_scope" in /var/www/html/vendor/magento/module-customer-import-export/Model/ResourceModel/Import/CustomerComposite/Data.php on line 84**
+*Warning: Undefined array key “_scope" in /var/www/html/vendor/magento/module-customer-import-export/Model/ResourceModel/Import/CustomerComposite/Data.php on line 84*
 
 ## Apply the patch
 
