@@ -29,7 +29,7 @@ When importing customer data, you see an *Undefined array key _scope* error.
 
 <u>Steps to reproduce</u>:
 
-1. Go to the Commerce Admin > **[!UICONTROL System]** > Data Transfer >  **[!UICONTROL Import]**, set **[!UICONTROL Entity Type]** to **[!UICONTROL Stock Sources]** and import the stock source csv file (which contains source code, SKU, quantity, and status). 
+1. Go to the Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** >  **[!UICONTROL Import]**, set **[!UICONTROL Entity Type]** to **[!UICONTROL Stock Sources]** and import the stock source csv file (which contains source code, SKU, quantity, and status). 
 1. Choose Customers and Addresses (single file) and try to import the csv file, which contains the address details of the customer.
 
 <u>Expected results</u>:
