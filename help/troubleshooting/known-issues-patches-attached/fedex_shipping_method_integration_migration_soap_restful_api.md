@@ -9,7 +9,7 @@ role: Developer
 
 This article provides a patch to resolve issues with the [!DNL FedEx] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API] for Adobe Commerce 2.4.4 - 2.4.6-pX.
 
-[!DNL FedEx Web Services] tracking, Address Validation, and Validate Postal Codes WSDLS will be retired on May 15, 2024. The [!DNL SOAP] based [!DNL FedEx Web Services] is in development containment and has been replaced with [!DNL FedEx] [!DNL RESTFUL APIs]. To learn more, refer to [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
+[!DNL FedEx Web Services] tracking, Address Validation, and Validate Postal Codes Web Services Definition Languages (WSDLS) will be retired on May 15, 2024. The [!DNL SOAP] based [!DNL FedEx Web Services] is in development containment and has been replaced with [!DNL FedEx] [!DNL RESTFUL APIs]. To learn more, refer to [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
 
 This change impacts our current [!DNL FedEx] shipping method integration implementation in Adobe Commerce and requires we fix our current implementation and migrate from deprecated [!DNL SOAP APIs] to the latest [!DNL FedEx] [!DNL RESTFUL APIs].
 
@@ -29,7 +29,7 @@ Adobe Commerce on cloud infrastructure and on-premises, and Magento Open Source:
 
 ## Cause
 
-The [!DNL FedEx] deprecated their SOAP based APIs and replaced them with the RESTful ones instead. Refer to [[!DNL FedEx] Web Services](https://www.fedex.com/en-us/developer/web-services.html).
+The [!DNL FedEx] deprecated their [!DNL SOAP] based APIs and replaced them with the [!DNL RESTful] ones instead. Refer to [[!DNL FedEx] Web Services](https://www.fedex.com/en-us/developer/web-services.html).
 
 ## Solution
 
