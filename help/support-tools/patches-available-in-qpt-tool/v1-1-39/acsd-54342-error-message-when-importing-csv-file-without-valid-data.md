@@ -12,11 +12,11 @@ The ACSD-54026 patch fixes the issue where an incorrect error message occurs whe
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - p2
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.7
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
 
 >[!NOTE]
 >
