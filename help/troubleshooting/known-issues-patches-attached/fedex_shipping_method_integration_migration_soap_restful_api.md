@@ -29,7 +29,7 @@ Adobe Commerce on cloud infrastructure and on-premises, and Magento Open Source:
 
 ## Cause
 
-The [!DNL FedEx] deprecated their SOAP based APIs and replaced them with the RESTful ones instead. Refer to [!DNL FedEx Web Services](https://www.fedex.com/en-us/developer/web-services.html).
+The [!DNL FedEx] deprecated their SOAP based APIs and replaced them with the RESTful ones instead. Refer to [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
 
 ## Solution
 
