@@ -33,92 +33,105 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.html">Configuring Adobe Commerce Intelligence connection for existing Cloud Starter projects:</a> This article provides a solution for when you want to configure Adobe Commerce Intelligence connection for an existing Cloud Starter project.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2.4.5-p3.html">Getting thousands of results when looking for a particular product:</a> This article provides a solution to the issue where you are getting thousands of search results when you are looking for a particular product.
     </td>
     <td>New article</td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html">B2B 1.4.0 installation fails on Adobe Commerce 2.4.6-p1 on-premises:</a> This article provides a workaround for the Adobe Commerce 2.4.6-p1 on-premises issue where B2B version 1.4.0 installation fails.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-47657-adds-a-caching-mechanism-for-aws-credentials.html">ACSD-47657: Adds a caching mechanism for AWS credentials:</a> The ACSD-47657 patch fixes the issue that happens during a high load of requests to AWS S3 by adding a caching mechanism for AWS credentials. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article</td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.html">Vulnerabilities found by third-party security scans should go to HackerOne:</a> This article provides a solution to address vulnerabilities found by third-party security scans.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-52219-resolving-saved-filters-issue.html">ACSD-52219: Resolving admin grids filter issue in bookmark view switching:</a> The ACSD-52219 patch fixes the issue where the admin grids' saved filters don't work as expected when frequently switching between bookmark views. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-52613-cache-and-indexes-are-refreshed-with-no-updates.html">ACSD-52613: Cache and indexes are refreshed even with no updates:</a> The ACSD-52613 patch fixes the issue where the Adobe Commerce issue where the cache and indexes are refreshed when no updates are made to Inventory_source items by REST API. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-54111-production-product-thumbnail-image-not-displaying-on-product-grid.html">ACSD-54111: Product thumbnail image not displaying:</a> The ACSD-54111 patch fixes the issue where all images are replaced by the default product placeholder image. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-52606-troubleshooting-order-pickup-notification-error.html">ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup":</a> The ACSD-52606 patch fixes the issue where an error message <em>Your order is not ready for pickup</em> is displayed when the user clicks <strong>[!UICONTROL Notify Order is Ready for Pickup]</strong>. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-54018-performance-issue-with-catalog-widget-product-list.html">ACSD-54018: Performance issue with catalog widget product list:</a> The ACSD-54018 patch fixes the issue where the page loads slowly when adding a catalog widget product list with condition and attribute type boolean. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-51574-image-not-updated-on-frontend-when-replaced-with-another-image.html">ACSD-51574: Image not updated on frontend when replaced with another image:</a> The ACSD-51574 patch fixes the issue where where the image is not updated on the frontend after replacing it with another image. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/tech-tips-for-commerce-holiday-readiness.html">Tech tips for Commerce holiday readiness:</a> The attached pdf offers tips on how to prepare your infrastructure for high traffic, prevent downtime, and optimize performance in the holiday period.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53750-broken-pipe-or-closed-connection-error.html">ACSD-53750: Broken pipe or closed connection error during multi-threaded <code>catalog_product_price</code> reindex:</a> The ACSD-53750 patch fixes the issue where a Broken pipe or closed connection error occurs during multi-threaded <code>catalog_product_price</code> reindex. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-53204-product-cant-be-saved-error-when-making-concurrent-requests-to-add-images-to-product-gallery.html">ACSD-53204: <em>"The product can't be saved"</em> error on concurrent requests to add images to gallery:</a> The ACSD-53204 patch fixes the issue where <em>"The product can't be saved"</em> error is thrown when making concurrent requests to add images to the product gallery using the <code>rest/V1/products/<sku>/media</code> endpoint. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
  </tr>
+
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.html">Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure:</a> Learn how to safely delete files to increase disk space.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-53583-improves-partial-reindex-performance-category-products-product-categories.html">ACSD-53583: Improve partial reindex performance for <em>Category Products</em> and <em>Product Categories</em> indexers:</a> The ACSD-53583 patch improves the partial reindex performance of <em>Category Products</em> and <em>Product Categories</em> indexers. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
  </tr>
+
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53098-products-assigned-to-shared-catalog-not-reflecting-on-frontend-after-partial-index.html">ACSD-53098: Products in shared catalog do not reflect on frontend:</a> The ACSD-53098 patch fixes the issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-54026-incorrect-error-message-for-updatecompanyrole-graphql-request.html">ACSD-54026: Incorrect error message for <code>updateCompanyRole</code> GraphQL request:</a> The ACSD-54026 patch fixes the issue where there is an incorrect error message for an <code>updateCompanyRole</code> GraphQL request for a non-authorized user. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
  </tr>
+
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53347-price-indexing-performance-gradually-degrades.html">ACSD-53347: Price indexing performance gradually degrades over time:</a> The ACSD-53347 patch fixes the issue where performance gradually degrades when reindexing prices for a large product catalog. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-47657-adds-a-caching-mechanism-for-aws-credentials.html">ACSD-47657: Adds a caching mechanism for AWS credentials:</a> The ACSD-47657 patch fixes the issue that happens during a high load of requests to AWS S3 by adding a caching mechanism for AWS credentials. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
  </tr>
+
  <tr>
     <td>
-     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-52929-redundant-request-to-re-index-default-source-items.html">ACSD-52929: Redundant request to re-index default source items:</a> The ACSD-52929 patch fixes the issue where there is a redundancy of requests to reindex default source items when the inventory indexer is configured in async mode. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-53704-reward-points-balance-history-miscalculated-after-expiration.html">ACSD-53704: Reward points balance history miscalculated after expiration:</a> The ACSD-53704 patch fixes the issue where the reward points balance history is miscalculated after the reward points' expiration date. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
   </tr>
+
    <tr>
     <td>
-     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53824-deployment-is-failing-on-setup-upgrade.html">ACSD-53824: Deployment is failing on setup upgrade:</a> The ACSD-53824 patch fixes the issue where the deployment is failing on setup upgrade. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-54106-correcting-turkish-accented-product-sorting-issue.html">ACSD-54106: Rectifying Turkish accented character sorting in product category:</a> The ACSD-54106 patch fixes the issue where category product sorting by name for Turkish accented characters is incorrect. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 03, 2023</td>
+  </tr>
+
+  <tr>
+    <td>
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-53998-dynamic-block-based-on-customer-segment-doesnt-work-correctly-on-logging-out.html">ACSD-53998: Dynamic block based on customer segment works incorrectly after logging out:</a> The ACSD-53998 patch fixes the issue where a dynamic block based on a customer segment doesn't work correctly after logging out from a customer account. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
+    </td>
+    <td>New article </td>
+    <td>November 03, 2023</td>
   </tr>
 </table>
 
