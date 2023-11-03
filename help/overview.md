@@ -112,7 +112,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-53704-reward-points-balance-history-miscalculated-after-expiration.html">ACSD-53704: Reward points balance history miscalculated after expiration:</a> The ACSD-53704 patch fixes the issue where the reward points balance history is miscalculated after the reward points' expiration date. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-53704-reward-points-balance-history-miscalculated-after-expiration.html">ACSD-53704: Reward points' balance history miscalculated after expiration:</a> The ACSD-53704 patch fixes the issue where the reward points' balance history is miscalculated after the reward points' expiration date. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
     <td>November 03, 2023</td>
