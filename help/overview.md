@@ -72,7 +72,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/tech-tips-for-commerce-holiday-readiness.html">Tech tips for Commerce holiday readiness:</a> The attached pdf offers tips on how to prepare your infrastructure for high traffic, prevent downtime, and optimize performance in the holiday period.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/tech-tips-for-commerce-holiday-readiness.html">Tech tips for Commerce holiday readiness:</a> The attached pdf offers tips on how to prepare your infrastructure for high traffic, prevent downtime, and optimize performance during the holiday period.
     </td>
     <td>New article </td>
     <td>November 03, 2023</td>
