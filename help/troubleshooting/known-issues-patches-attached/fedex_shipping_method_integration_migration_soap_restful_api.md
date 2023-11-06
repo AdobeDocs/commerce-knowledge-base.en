@@ -13,7 +13,7 @@ This article provides a patch to resolve issues with the [!DNL FedEx] shipping m
 
 This change impacts our current [!DNL FedEx] shipping method integration implementation in Adobe Commerce and requires we fix our current implementation and migrate from deprecated SOAP APIs to the latest [!DNL FedEx] RESTFUL APIs.
 
-Beginning on May 15, 2024, Adobe Commerce customers will not be able to use our current [!DNL FedEx] shipping method integration, so Adobe is releasing this hotfix which allows Adobe Commerce 2.4.4+ customers to use the latest [!DNL FedEx] RESTFUL APIs instead of the deprecated SOAP ones.
+Beginning on May 15, 2024, Adobe Commerce customers will not be able to use our current [!DNL FedEx] shipping method integration, so Adobe is releasing this hotfix that allows Adobe Commerce 2.4.4+ customers to use the latest [!DNL FedEx] RESTFUL APIs instead of the deprecated SOAP ones.
 
 
 ## Affected products and versions
