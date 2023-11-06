@@ -28,8 +28,8 @@ If they do not require [!DNL cloud project] access, submit a [Support Request at
 If they have not been added to the project, you will need to add them as a [!DNL Super User] and grant [!DNL Shared Access]:
 
 * [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in our user guide.
-* [Unable to add user to Adobe Commerce [!DNL cloud project]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html) in our Commerce Knowledge Base.
-* [Adobe Commerce Help Center User Guide: [!DNL Shared Access]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access) in our Commerce Knowledge Base.
+* [Unable to add user to Adobe Commerce cloud project](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html) in our Commerce Knowledge Base.
+* [Adobe Commerce Help Center User Guide: Shared Access](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access) in our Commerce Knowledge Base.
 
 If they have been added to the [!DNL cloud project], but don't have the [!DNL Super User role], update their [!DNL role] accordingly in [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
 
