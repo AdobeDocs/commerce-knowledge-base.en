@@ -17,7 +17,6 @@ This article provides an explanation of how to include a team member to automati
 * The team member has not been added to the [!DNL cloud project].
 * The team member does not have a Support account.
 
-
 ## Solution
 
 1. Go to the **[!DNL Cloud Project URL]** (Example: "https://us-3.magento.cloud/projects/xxxxxx/edit").
