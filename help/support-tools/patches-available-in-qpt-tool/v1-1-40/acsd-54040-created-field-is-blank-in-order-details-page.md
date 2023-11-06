@@ -29,7 +29,7 @@ When B2B modules are enabled, you see the *Created field is blank on the order d
 
 <u>Steps to reproduce</u>:
 
-1. Install Magento with B2B Module
+1. Install Magento with B2B Module.
 1. Create a new customer and place an order.
 1. Go to the order detail on frontend and check 'Created' field.
 
