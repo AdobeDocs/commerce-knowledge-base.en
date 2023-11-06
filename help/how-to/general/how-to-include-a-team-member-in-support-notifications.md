@@ -19,7 +19,7 @@ This article provides an explanation of how to include a team member to automati
 
 ## Solution
 
-1. Go to the **[!DNL Cloud Project URL]** (Example: "https://us-3.magento.cloud/projects/xxxxxx/edit").
+1. Go to the **[!DNL Cloud Project URL]** (Example: `https://us-3.magento.cloud/projects/xxxxxx/edit`).
 1. Verify whether the team member has been added to the project.
 
 If they do not require [!DNL cloud project] access, submit a [Support Request at the Adobe Commerce Support Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to automatically CC: them on all tickets, and also provide their **[!DNL MAGE ID]** (if available).
