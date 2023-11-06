@@ -24,7 +24,7 @@ The ACSD-54319 patch fixes the issue where the product price shows zero in *Prod
 
 ## Issue
 
-The product price shows zero in *Product in Cart* report
+The product price shows zero in *Product in Cart* report.
 
 <u>Steps to reproduce</u>:
 
