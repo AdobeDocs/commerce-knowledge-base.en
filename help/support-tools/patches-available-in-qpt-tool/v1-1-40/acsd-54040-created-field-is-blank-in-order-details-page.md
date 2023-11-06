@@ -1,13 +1,13 @@
 ---
-title: "ACSD-54040: Created field is blank in order details page when B2B modules are enabled."
-description: Apply the ACSD-54040 patch to fix the Adobe Commerce issue where the created field is blank in order details page when B2B modules are enabled.
+title: "ACSD-54040: *[!UICONTROL Created] field is blank in order details page when B2B modules are enabled."
+description: Apply the ACSD-54040 patch to fix the Adobe Commerce issue where the *[!UICONTROL Created] field is blank in order details page when B2B modules are enabled.
 feature: B2B
 role: Admin, Developer
 ---
 
 # ACSD-54040: Created field is blank in order details page when B2B modules are enabled.
 
-The ACSD-54040 patch fixes the issue where there is the *Created field is blank on the order details page* when B2B modules are enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54040. Please note that the issue is fixed in Adobe Commerce 2.4.7.
+The ACSD-54040 patch fixes the issue where there is the *[!UICONTROL Created] field is blank on the order details page* when B2B modules are enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54040. Please note that the issue is fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -25,21 +25,21 @@ The ACSD-54040 patch fixes the issue where there is the *Created field is blank 
 
 ## Issue
 
-When B2B modules are enabled, you see the *Created field is blank on the order details page.*
+When B2B modules are enabled, you see the *[!UICONTROL Created] field is blank on the order details page.*
 
 <u>Steps to reproduce</u>:
 
 1. Install Magento with B2B Module.
 1. Create a new customer and place an order.
-1. Go to the order detail on frontend and check 'Created' field.
+1. Go to the order detail on frontend and check *[!UICONTROL Created]* field.
 
 <u>Expected results</u>:
 
-Created' field contains the order created date
+*[!UICONTROL Created] field contains the order created date
 
 <u>Actual results</u>:
 
-'Created' field is blank
+*[!UICONTROL Created] field is blank
 
 ## Apply the patch
 
