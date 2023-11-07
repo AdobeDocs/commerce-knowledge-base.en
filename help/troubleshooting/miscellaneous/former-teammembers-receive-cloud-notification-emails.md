@@ -23,3 +23,4 @@ There are two ways to stop the notifications by removing the user(s) from your p
 ## Related reading
 
 [View a user's project role](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user’s-project-role) in the Commerce on cloud infrastructure guide.
+[How to include a team member in Support notifications](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html)
