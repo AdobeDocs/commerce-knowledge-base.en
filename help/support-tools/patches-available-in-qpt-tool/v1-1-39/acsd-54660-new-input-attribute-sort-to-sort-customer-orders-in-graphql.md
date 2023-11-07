@@ -24,7 +24,7 @@ The ACSD-54660 patch fixes the issue where a new input attribute `sort` added to
 
 ## Issue
 
-New input attribute 'sort' added to sort customer orders in GraphQL by 'sort_field' and 'sort_direction'.
+New input attribute `sort` added to sort customer orders in [!DNL GraphQL] by `sort_field` and `sort_direction`.
 
 <u>Steps to reproduce</u>:
 
