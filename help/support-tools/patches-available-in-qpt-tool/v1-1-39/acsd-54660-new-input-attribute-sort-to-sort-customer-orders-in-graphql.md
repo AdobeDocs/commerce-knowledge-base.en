@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-51892: Performance issue where config files load multiple times'
-description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where config files load multiple times during deployment.
-feature: Observability
-role: Admin
-exl-id: 397343df-360f-43c4-bcef-be5f0da5aeef
+title: 'ACSD-54660: New input attribute sort to sort customer orders in [!DNL GraphQL]'
+description: Apply the ACSD-54660 patch to fix the Adobe Commerce issue where a new input attribute `sort` added to sort customer orders in [!DNL GraphQL] by `sort_field` and `sort_direction`.
+feature: GraphQL, Orders
+role: Admin, Developer
 ---
-# ACSD-51892: Performance issue where config files load multiple times
+# ACSD-54660:  New input attribute sort added to sort customer orders in [!DNL GraphQL]
 
-The ACSD-51892 patch fixes the performance issue that arises from loading the `app/etc/env.php` and `app/etc/config.php` files each time deployment configuration values are accessed within a single request. The excessive file reading puts strain on the system, leading to a deterioration in overall performance. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51892. Please note that the issue was fixed in Adobe Commerce 2.4.6-p2.
+The ACSD-54660 patch fixes the issue where a new input attribute `sort` added to sort customer orders in [!DNL GraphQL] by `sort_field` and `sort_direction`. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-54660. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p5
 
 >[!NOTE]
 >
@@ -25,21 +24,33 @@ The ACSD-51892 patch fixes the performance issue that arises from loading the `a
 
 ## Issue
 
-There is a performance issue where the config files load multiple times.
+New input attribute `sort` added to sort customer orders in [!DNL GraphQL] by `sort_field` and `sort_direction`.
 
 <u>Steps to reproduce</u>:
 
-1. Perform deployment or upgrade to Adobe Commerce 2.4.6 or later.
-1. Check filesystem logs for access to `app/etc/env.php` and `app/etc/config.php` files while deployment is running.
+Query customer orders using [!DNL GraphQL]:
+
+```
+  {
+    customerOrders {
+      items {
+        order_number
+        id
+        created_at
+        grand_total
+        status
+      }
+    }
+  }
+```
 
 <u>Expected results</u>:
 
-Deployment is successful within the regular timeframe.
+This patch adds `sort` and `sort_direction` arguments to `customer.orders`.
 
 <u>Actual results</u>:
 
-* The servers are struggling to respond to any commands you enter. This results in *Error 503 first byte timeout* when accessing the website.
-* There are multiple entries in log files with access to `app/etc/env.php` and `app/etc/config.php` files.
+It's not possible to sort the orders using [!DNL GraphQL].
 
 ## Apply the patch
 
@@ -56,3 +67,4 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
+
