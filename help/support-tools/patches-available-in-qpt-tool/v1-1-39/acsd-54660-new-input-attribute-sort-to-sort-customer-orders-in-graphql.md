@@ -50,7 +50,7 @@ This patch adds `sort` and `sort_direction` arguments to `customer.orders`.
 
 <u>Actual results</u>:
 
-It's not possible to sort the orders using GraphQL.
+It's not possible to sort the orders using [!DNL GraphQL].
 
 ## Apply the patch
 
