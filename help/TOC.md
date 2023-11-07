@@ -1061,6 +1061,7 @@ breadcrumb-title: Commerce KB
     * [Elasticsearch service not running](/help/troubleshooting/elasticsearch/elasticsearch-service-not-running.md)
     * [MySQL and ElasticSearch show different results](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
     * [Elasticsearch is shown as the search engine despite OpenSearch installation](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
+    * [Issues with Slave Reads and Replication Synchronization with MariaDB 10.6](/help/troubleshooting/issues-slave-reads-replication-synchronization-mariadb-10-6.md)
 * Help Center Guide {#help-center-guide}
   * [Adobe Commerce Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
