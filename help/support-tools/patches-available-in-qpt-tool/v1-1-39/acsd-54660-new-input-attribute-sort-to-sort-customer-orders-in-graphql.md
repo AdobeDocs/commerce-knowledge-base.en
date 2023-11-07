@@ -28,7 +28,7 @@ New input attribute `sort` added to sort customer orders in [!DNL GraphQL] by `s
 
 <u>Steps to reproduce</u>:
 
-Query customer orders using GraphQL:
+Query customer orders using [!DNL GraphQL]:
 
 ```
   {
