@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-54319: Product price shows zero in *Product in Cart* report'
-description: Apply the ACSD-54319 patch to fix the Adobe Commerce issue where the product price shows zero in **[!UICONTROL Products in Carts]** report
+title: 'ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report'
+description: Apply the ACSD-54319 patch to fix the Adobe Commerce issue where the product price shows zero in *[!UICONTROL Products in Carts]* report
 feature: Reporting, Products
 role: Admin, Developer
 ---
-# ACSD-54319: Product price shows zero in **[!UICONTROL Products in Carts]** report
+# ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report
 
-The ACSD-54319 patch fixes the issue where the product price shows zero in **[!UICONTROL Products in Carts]** report. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54319. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UICONTROL Products in Carts]* report. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54319. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-54319 patch fixes the issue where the product price shows zero in **[!U
 
 ## Issue
 
-The product price shows zero in **[!UICONTROL Products in Carts]** report.
+The product price shows zero in *[!UICONTROL Products in Carts]* report.
 
 <u>Steps to reproduce</u>:
 
@@ -34,15 +34,15 @@ The product price shows zero in **[!UICONTROL Products in Carts]** report.
 1. Assign this product to the second website only.
 1. Add Product into the cart from second website.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Reports]** > **[!UICONTROL Marketing]** > **[!UICONTROL Products In Carts]** grid.
-1. Check the **[!UICONTROL Price]** column in **[!UICONTROL Products In Carts]** grid.
+1. Check the *[!UICONTROL Price]* column in *[!UICONTROL Products In Carts]* grid.
 
 <u>Expected results</u>:
 
-Product price is not zero in **[!UICONTROL Products in Carts]** report grid.
+Product price is not zero in *[!UICONTROL Products in Carts]* report grid.
 
 <u>Actual results</u>:
 
-Product price is zero in **[!UICONTROL Products in Carts]** report grid.
+Product price is zero in *[!UICONTROL Products in Carts]* report grid.
  
 ## Apply the patch
 
