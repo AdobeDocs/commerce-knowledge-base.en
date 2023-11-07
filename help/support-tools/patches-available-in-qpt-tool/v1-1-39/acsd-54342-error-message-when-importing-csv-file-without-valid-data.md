@@ -28,7 +28,7 @@ An incorrect error message occurs when importing a CSV file without valid data.
 
 <u>Steps to reproduce</u>:
 
-1. Create an import file with only invalid data (Example: SKUs that don't exist, invalid customer address fields, or malformed customer email addresses).
+1. Create an import file with only invalid data (Examples: [!DNL SKUs] that don't exist, invalid customer address fields, or malformed customer email addresses).
 1. Import the file, selecting to skip the validation errors.
 
 <u>Expected results</u>:
