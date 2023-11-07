@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54342: Error message when importing csv file without valid data'
+title: 'ACSD-54342: Error message when importing CSV file without valid data'
 description: Apply the ACSD-54342 patch to fix the Adobe Commerce issue where an incorrect error message occurs when importing a CSV file without valid data.
 feature: Roles/Permissions
 role: Admin, Developer
