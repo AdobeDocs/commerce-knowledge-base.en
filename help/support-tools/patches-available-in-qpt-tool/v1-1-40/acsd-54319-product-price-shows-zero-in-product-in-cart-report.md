@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-54319: Product price shows zero in *Product in Cart* report'
-description: Apply the ACSD-54319 patch to fix the Adobe Commerce issue where the product price shows zero in *Product in Cart* report
+description: Apply the ACSD-54319 patch to fix the Adobe Commerce issue where the product price shows zero in **[!UICONTROL Products in Carts]** report
 feature: Reporting, Products
 role: Admin, Developer
 ---
-# ACSD-54319: Product price shows zero in *Product in Cart* report
+# ACSD-54319: Product price shows zero in **[!UICONTROL Products in Carts]** report
 
-The ACSD-54319 patch fixes the issue where the product price shows zero in *Product in Cart* report. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54319. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54319 patch fixes the issue where the product price shows zero in **[!UICONTROL Products in Carts]** report. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54319. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-54319 patch fixes the issue where the product price shows zero in *Prod
 
 ## Issue
 
-The product price shows zero in *Product in Cart* report.
+The product price shows zero in **[!UICONTROL Products in Carts]** report.
 
 <u>Steps to reproduce</u>:
 
@@ -43,7 +43,7 @@ Product price is not zero in **[!UICONTROL Products in Carts]** report grid.
 <u>Actual results</u>:
 
 Product price is zero in **[!UICONTROL Products in Carts]** report grid.
-  
+ 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
