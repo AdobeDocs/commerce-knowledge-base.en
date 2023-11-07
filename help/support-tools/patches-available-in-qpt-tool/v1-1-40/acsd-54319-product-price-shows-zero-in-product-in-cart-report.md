@@ -43,7 +43,7 @@ Product price is not zero in *Products in Cart* report grid.
 <u>Actual results</u>:
 
 Product price is zero in *Products in Cart* report grid.
-  
+ 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
