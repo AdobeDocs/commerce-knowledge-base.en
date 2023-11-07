@@ -32,7 +32,7 @@ Try to upload an import file larger than configured in php.ini
 
 <u>Expected results</u>:
 
-The file size should be validated without errors.
+The file size is validated without errors.
 
 <u>Actual results</u>:
 
