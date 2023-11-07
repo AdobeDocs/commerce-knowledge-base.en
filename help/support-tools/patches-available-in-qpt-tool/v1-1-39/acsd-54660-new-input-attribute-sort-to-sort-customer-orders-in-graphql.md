@@ -46,7 +46,7 @@ Query customer orders using [!DNL GraphQL]:
 
 <u>Expected results</u>:
 
-This patch adds 'sort' and 'sort_direction' arguments to 'customer.orders'.
+This patch adds `sort` and `sort_direction` arguments to `customer.orders`.
 
 <u>Actual results</u>:
 
