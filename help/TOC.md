@@ -434,7 +434,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-45781: Store front search field not displayed on mobile](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-45781-store-front-search-field-not-displayed-on-mobile.md)
         * [ACSD-46213: Category tree request limited to 20 categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46213-category-tree-limited-20-categories.md)
         * [ACSD-46404: Admin user cannot log in after upgrading to 2.4.4](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46404-admin-user-cannot-log-in-after-upgrading-to-2.4.4.md)
-        * [ACSD-46912: Issue with async/bulk/V1/configurable-products/bySku/options endpoint](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46912-async-bulk-v1-configurable-products-bysku-options-endpoint-issue.md)
+        * [ACSD-46192: Issue with async/bulk/V1/configurable-products/bySku/options endpoint](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-ACSD-46192-async-bulk-v1-configurable-products-bysku-options-endpoint-issue.md)
     * v1.1.20 {#v1-1-20}
         * [Overview: Quality Patches Tool (QPT) v1.1.20](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/overview.md)
         * [ACSD-44851: Category with subcategories not able to open or expand](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.md)
