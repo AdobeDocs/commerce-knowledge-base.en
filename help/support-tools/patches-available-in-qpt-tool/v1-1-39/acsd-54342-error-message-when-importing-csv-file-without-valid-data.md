@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-54342: Error message when importing CSV file without valid data
 
-The ACSD-54026 patch fixes the issue where an incorrect error message occurs when importing a CSV file without valid data. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-54026. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54342 patch fixes the issue where an incorrect error message occurs when importing a CSV file without valid data. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-54342. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
