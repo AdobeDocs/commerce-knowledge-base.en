@@ -34,7 +34,7 @@ The product price shows zero in *Product in Cart* report.
 1. Assign this product to the second website only.
 1. Add Product into the cart from second website.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Reports]** > **[!UICONTROL Marketing]** > **[!UICONTROL Products In Carts]** grid.
-1. Check the *[!UICONTROL Price]* column in *Products In Carts* grid.
+1. Check the **[!UICONTROL Price]** column in **[Products In Carts]** grid.
 
 <u>Expected results</u>:
 
