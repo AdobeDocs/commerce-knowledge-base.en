@@ -38,11 +38,11 @@ The product price shows zero in *Product in Cart* report.
 
 <u>Expected results</u>:
 
-Product price is not zero in *Products in Cart* report grid.
+Product price is not zero in **[!UICONTROL Products in Carts]** report grid.
 
 <u>Actual results</u>:
 
-Product price is zero in *Products in Cart* report grid.
+Product price is zero in **[!UICONTROL Products in Carts]** report grid.
   
 ## Apply the patch
 
