@@ -37,5 +37,5 @@ DATABASE_CONFIGURATION:
 
 ## Related reading
 
-* [Configure environment variables for deployment](docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
-* [Best practices for database configuration](docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [Configure environment variables for deployment](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
+* [Best practices for database configuration](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
