@@ -735,6 +735,7 @@ breadcrumb-title: Commerce KB
     * [MySQL tables are too large](/help/troubleshooting/database/mysql-tables-are-too-large.md)
     * [Database errors related to max_allowed_packet on Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
     * [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
+    * [Issues with Slave Reads and Replication Synchronization with MariaDB 10.6](/help/troubleshooting/database/issues-slave-reads-replication-synchronization-mariadb-10-6.md)
   * Payments {#payments}
     * [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](/help/troubleshooting/payments/magento-2.4.0-known-issue-missing-refund-label-in-klarna.md)
     * [Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2.4.0-braintree-not-in-multiple-addresses-checkout.md)
@@ -1061,7 +1062,6 @@ breadcrumb-title: Commerce KB
     * [Elasticsearch service not running](/help/troubleshooting/elasticsearch/elasticsearch-service-not-running.md)
     * [MySQL and ElasticSearch show different results](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
     * [Elasticsearch is shown as the search engine despite OpenSearch installation](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
-    * [Issues with Slave Reads and Replication Synchronization with MariaDB 10.6](/help/troubleshooting/issues-slave-reads-replication-synchronization-mariadb-10-6.md)
 * Help Center Guide {#help-center-guide}
   * [Adobe Commerce Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
