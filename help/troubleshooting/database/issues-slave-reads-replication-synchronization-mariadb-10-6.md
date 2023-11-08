@@ -38,6 +38,6 @@ DATABASE_CONFIGURATION:
 
 ## Related reading
 
-* []()
+* [Configure environment variables for deployment](docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
 * []()
 * []()
