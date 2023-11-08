@@ -1,11 +1,11 @@
 ---
 title: Fastly origin cloaking enablement FAQ
-description: This FAQ discusses common questions about Fastly origin cloaking enablement in Adobe Commerce.
+description: This FAQ discusses common questions about Fastly origin cloaking enablement in Adobe Commerce (that has been fully implemented as of 2021.)
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
 ---
 # Fastly origin cloaking enablement FAQ
 
-This FAQ discusses common questions about Fastly origin cloaking enablement in Adobe Commerce.
+This FAQ discusses common questions about Fastly origin cloaking enablement in Adobe Commerce (that has been fully implemented as of 2021.)
 
 ## What is Fastly origin cloaking?
 
@@ -15,9 +15,13 @@ Origin cloaking is a security feature that allows Adobe Commerce on cloud infras
 
 Origin cloaking is designed to prevent traffic from bypassing the Fastly Web Application Firewall (WAF) and routing it through the strictly defined flow of **Fastly** > **Load Balancer** > **Instances**. With this implementation, all the traffic is guaranteed to go through the Fastly WAF as well as the internal WAF built into the load balancer.
 
-## Why is this origin cloaking enablement happening now?
+## Why is this origin cloaking enablement happening?
 
-This feature was newly created to benefit Adobe Commerce on cloud infrastructure.
+This feature was originally created to benefit Adobe Commerce on cloud infrastructure.
+
+## Do I need to request origin cloaking enablement for my project?
+
+No. This feature should have already been implemented on all cloud projects, and any projects that have been provisioned since 2021 would have had this enabled by default. However, you may request that origin cloaking be disabled for your project by submitting a support request.
 
 ## Does origin cloaking change the outgoing IP address?
 
@@ -44,6 +48,6 @@ mywebsite.com/rest/default/V1/inventory/source-items
 
 No, this change will **NOT** impact deployment and downtime.
 
-## If the project has multiple stagings, will origin cloaking be applied to all stagings?
+## If the project has multiple staging environments, will origin cloaking be applied to all staging environments?
 
-Yes, if the project has multiple stagings, the change will be applied to all stagings.
+Yes, if the project has multiple staging environments, the change will be applied to all staging environments.
