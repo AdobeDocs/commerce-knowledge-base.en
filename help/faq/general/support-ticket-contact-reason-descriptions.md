@@ -65,12 +65,16 @@ These are the options that appear if **Adobe Commerce Application** is selected 
     <td>Questions or Issues related to Performance with your Adobe Commerce Storefront and believe it to be application-related</td>
   </tr>
   <tr>
-    <td>Product Recommendations</td>
-    <td>Questions or Issues related to Product Recommendations</td>
+    <td>Catalog Service (SaaS)</td>
+    <td>Questions or Issues related to the Catalog Service.  Please provide the Environment ID indicated in the Adobe Commerce admin under System > Commerce Services Connector.</td>
   </tr>
   <tr>
-    <td>Live Search</td>
-    <td>Questions or Issues related to Live Search</td>
+    <td>Product Recommendations (SaaS)</td>
+    <td>Questions or Issues related to Product Recommendations. Please provide the Environment ID indicated in the Adobe Commerce admin under System > Commerce Services Connector.</td>
+  </tr>
+  <tr>
+    <td>Live Search (SaaS)</td>
+    <td>Questions or Issues related to Live Search. Please provide the Environment ID indicated in the Adobe Commerce admin under System > Commerce Services Connector.</td>
   </tr>
   <tr>
     <td>PWA Studio</td>
@@ -104,21 +108,33 @@ These are the options that appear if **Adobe Commerce Cloud Infrastructure** is 
     <td>Questions or Issues related to Performance with your Adobe Commerce Storefront and believe it to be infrastructure-related</td>
   </tr>
   <tr>
-    <td>Surge Capacity Request</td>
-    <td>Add surge capacity resources to your Adobe Commerce Cloud Environment</td>
+    <td>Add New Domains (Fastly and Nginx)</td>
+    <td>Add new domains to the Fastly service and Nginx</td>
   </tr>
   <tr>
-    <td>Enable 2FA</td>
-    <td>Enable Two-Factor Authentication for your Adobe Commerce Cloud Environment</td>
+    <td>Disk/storage capacity request/td>
+    <td>Increase disk storage in Staging and/or Production environment(s) for your Adobe Commerce Cloud Pro projects</td>
   </tr>
   <tr>
     <td>Disable 2FA</td>
     <td>Disable Two-Factor Authentication for your Adobe Commerce Cloud Environment</td>
   </tr>
   <tr>
-    <td>Infrastructure Change Request</td>
-    <td>Infrastructure change request for your Adobe Commerce Cloud Environment (modify service versions, ftp user creation, etc)</td>
+    <td>Enable 2FA</td>
+    <td>Enable Two-Factor Authentication for your Adobe Commerce Cloud Environment</td>
   </tr>
+  <tr>
+    <td>Holiday Surge Capacity Request</td>
+    <td>Add surge capacity resources to your Adobe Commerce Cloud Environment in advance of peak sales periods</td>
+  </tr>
+  <tr>
+    <td>Infrastructure Services Upgrade</td>
+    <td>Infrastructure change request for your Adobe Commerce Cloud Staging/and or Production environment(s), i.e., modify service versions, ftp user creation, etc.</td>
+  </tr>
+  <tr>
+    <td>Temporary Cloud Project Upsize (vCPU)</td>
+    <td>Add surge capacity resources to your Adobe Commerce Cloud Environment for an upcoming promotion. A minimum of 48 hours' notice is required.</td>
+  </tr>  
   <tr>
     <td>Infrastructure (Other)</td>
     <td>Questions or Issues related to a part of the Adobe Commerce Infrastructure Stack which hasn't been previously specified in the options list</td>
