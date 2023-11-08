@@ -32,7 +32,7 @@ The product price shows zero in *[!UICONTROL Products in Carts]* report.
 1. Create a second website from **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 1. Create a product from **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 1. Assign this product to the second website only.
-1. Add Product into the cart from second website.
+1. Add a product to the cart from the second website.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Reports]** > **[!UICONTROL Marketing]** > **[!UICONTROL Products In Carts]** grid.
 1. Check the *[!UICONTROL Price]* column in *[!UICONTROL Products In Carts]* grid.
 
