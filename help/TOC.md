@@ -698,7 +698,7 @@ breadcrumb-title: Commerce KB
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.40](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/overview.md)
         * [ACSD-54007: Undefined array key _scope error on importing customer data](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.md)
         * [ACSD-54319: Product price shows zero in the [!UICONTROL Products in Carts] report](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54319-product-price-shows-zero-in-product-in-cart-report.md)
-        *[ACSD-54989: Order placement restrictions in company admin settings](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54989-order-placement-restrictions-in-company-admin-settings.md)
+        * [ACSD-54989: Order placement restrictions in company admin settings](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54989-order-placement-restrictions-in-company-admin-settings.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
