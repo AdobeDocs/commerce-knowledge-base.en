@@ -33,8 +33,7 @@ DATABASE_CONFIGURATION:
         slave_connection:
             default:
                 synchronous_replication: false
- ```
-
+```
 
 ## Related reading
 
