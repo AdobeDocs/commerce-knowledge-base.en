@@ -37,7 +37,6 @@ The file size is validated without errors.
 <u>Actual results</u>:
 
 Validator crashes.
-
 `var/log/exception.log` contains:
 
 `[2023-10-06T21:36:30.470618+00:00] report.CRITICAL: Error: Class "Zend_Validate_File_Upload" not found in ../module-import-export/Model/Source/Upload.php:81`
