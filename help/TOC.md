@@ -695,6 +695,8 @@ breadcrumb-title: Commerce KB
     * v1.1.40 {#v1-1-40}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.40](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/overview.md)
         * [ACSD-54007: Undefined array key _scope error on importing customer data](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.md)
+        * [ACSD-54961: Restricted admin user can't mass update [!DNL Product Review status]](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.md)
+        * [ACSD-55031: 'Type "mixed" cannot be nullable' error during compilation](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.md)        
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
