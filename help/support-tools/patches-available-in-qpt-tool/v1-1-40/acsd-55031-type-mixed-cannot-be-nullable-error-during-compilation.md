@@ -24,11 +24,12 @@ The ACSD-55031 patch fixes the issue where the `Type "mixed" cannot be nullable`
 
 ## Issue
 
-The `Type "mixed" cannot be nullable` error occurs during compilation while installing an extension.
+The `Type "mixed" cannot be nullable` error occurs during compilation.
 
 <u>Steps to reproduce</u>:
 
-1. Install an extension.
+1. Install a custom extension.
+1. Run the command `bin/magento setup:di:compile`.
 1. Check the `var/log/system.log` file.
 
 <u>Expected results</u>:
