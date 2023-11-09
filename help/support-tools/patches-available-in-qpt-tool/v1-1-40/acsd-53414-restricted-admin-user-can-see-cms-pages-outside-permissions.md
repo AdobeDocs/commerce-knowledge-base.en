@@ -34,7 +34,7 @@ Restricted admin users can see CMS pages beyond their permissions scope.
 1. Assign the following CSM pages to sub_storeview and default storeview.
 
     * [!UICONTROL 404 Not Found] > Sub storeview
-    * 503 Service Unavailable > Default storeview
+    * [!UICONTROL 503 Service Unavailable] > Default storeview
 
 1. Sign in to the Admin using the admin user created in Step 3.
 1. Check the CMS page grid.
