@@ -36,7 +36,7 @@ Restricted admin users can see CMS pages beyond their permissions scope.
     * 404 Not Found > Sub storeview
     * 503 Service Unavailable > Default storeview
 
-1. Sign in to the admin using the admin user created in Step 3.
+1. Sign in to the Admin using the admin user created in Step 3.
 1. Check the CMS page grid.
 
 <u>Expected results</u>:
