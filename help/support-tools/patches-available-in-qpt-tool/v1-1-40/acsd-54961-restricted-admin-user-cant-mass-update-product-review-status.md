@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-54961: Restricted admin user can't mass update Product Review status'
+title: "ACSD-54961: Restricted admin user can't mass update [!DNL Product Review status]"
 description: Apply the ACSD-53704 patch to fix the Adobe Commerce issue where a restricted admin user can't mass update Product Review status.
 feature: Products
 role: Admin, Developer
 ---
-# ACSD-54961: Restricted admin user can't mass update Product Review status
+# ACSD-54961: Restricted admin user can't mass update [!DNL Product Review status]
 
-The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update Product Review status. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54961. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update [!DNL Product Review status]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54961. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-54961 patch fixes the issue where a restricted admin user can't mass up
 
 ## Issue
 
-A restricted admin user can't mass update Product Review status.
+A restricted admin user can't mass update [!DNL Product Review status].
 
 <u>Steps to reproduce</u>:
 
