@@ -39,7 +39,7 @@ The shopping cart and minicart are updated on the subdomain.
 
 <u>Actual results</u>:
 
-Minicart is not updated when the secondary store is refreshed, but the cart page shows the added product, and you are able to place an order in that session (PHPSESSID cookie is shared).
+Minicart is not updated when the secondary store is refreshed, but the cart page shows the added product, and you are able to place an order in that session (`PHPSESSID` cookie is shared).
 
 ## Apply the patch
 
