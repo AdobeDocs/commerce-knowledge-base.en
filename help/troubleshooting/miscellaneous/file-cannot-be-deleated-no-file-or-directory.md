@@ -44,7 +44,7 @@ Method 2:
 
 If you are on Adobe Commerce on Cloud infrastructure and have [!DNL magento/magento-cloud-patches] 1.0.22 installed which include the patch, you do not need to separately install ACSD-50165.
 
-Adobe Commerce on Cloud infrastructure: Upgrade Cloud Patches for Commerce to 1.0.22 which contains this fix: [Cloud Patches for Commerce](/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches.html).
+Adobe Commerce on Cloud infrastructure: Upgrade Cloud Patches for Commerce to 1.0.22 (**or newer**) which contains this fix: [Cloud Patches for Commerce](/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches.html).
 
 Adobe Commerce on-premises: Apply ACSD-50165 using [Quality Patches Tools > Usage](/docs/commerce-operations/tools/quality-patches-tool/usage.html). The ACSD-50165 patch comes with [!DNL QPT] [v1.1.30.](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html#v1-1-30)
 
