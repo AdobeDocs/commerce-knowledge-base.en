@@ -45,7 +45,7 @@ Restricted admin users can see CMS pages beyond their permissions scope.
 
 <u>Actual results</u>:
 
-*503 Service Unavailable* is visible to the web admin.
+*[!UICONTROL 503 Service Unavailable]* is visible to the web admin.
 
 ## Apply the patch
 
