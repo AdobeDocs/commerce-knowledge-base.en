@@ -33,7 +33,7 @@ Restricted admin users can see CMS pages beyond their permissions scope.
 1. Create a new admin user and assign it to the sub_expert role.
 1. Assign the following CSM pages to sub_storeview and default storeview.
 
-    * 404 Not Found > Sub storeview
+    * [!UICONTROL 404 Not Found] > Sub storeview
     * 503 Service Unavailable > Default storeview
 
 1. Sign in to the Admin using the admin user created in Step 3.
