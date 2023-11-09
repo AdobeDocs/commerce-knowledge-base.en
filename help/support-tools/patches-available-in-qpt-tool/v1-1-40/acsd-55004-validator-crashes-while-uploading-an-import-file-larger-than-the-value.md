@@ -28,7 +28,7 @@ The validator crashes while uploading an import file larger than the value confi
 
 <u>Steps to reproduce</u>:
 
-Try to upload an import a file larger than configured in `php.ini`.
+Try to upload an import file larger than configured in `php.ini`.
 
 <u>Expected results</u>:
 
