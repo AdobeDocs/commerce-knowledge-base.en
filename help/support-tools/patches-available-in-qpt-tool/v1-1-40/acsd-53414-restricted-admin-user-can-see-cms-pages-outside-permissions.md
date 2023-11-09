@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-51892: Performance issue where config files load multiple times'
-description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where config files load multiple times during deployment.
-feature: Observability
-role: Admin
-exl-id: 397343df-360f-43c4-bcef-be5f0da5aeef
+title: "ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope"
+description: Apply the ACSD-53414 patch to fix the Adobe Commerce issue where a restricted admin user can see CMS pages outside of their permissions scope.
+feature: CMS
+role: Admin, Developer
 ---
-# ACSD-51892: Performance issue where config files load multiple times
+# ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope
 
-The ACSD-51892 patch fixes the performance issue that arises from loading the `app/etc/env.php` and `app/etc/config.php` files each time deployment configuration values are accessed within a single request. The excessive file reading puts strain on the system, leading to a deterioration in overall performance. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51892. Please note that the issue was fixed in Adobe Commerce 2.4.6-p2.
+The ACSD-53414 patch fixes the issue where a restricted admin user can see CMS pages outside their permissions scope. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-53414. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.6-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,21 +24,28 @@ The ACSD-51892 patch fixes the performance issue that arises from loading the `a
 
 ## Issue
 
-There is a performance issue where the config files load multiple times.
+Restricted admin users can see CMS pages beyond their permissions scope.
 
 <u>Steps to reproduce</u>:
 
-1. Perform deployment or upgrade to Adobe Commerce 2.4.6 or later.
-1. Check filesystem logs for access to `app/etc/env.php` and `app/etc/config.php` files while deployment is running.
+1. Create a new website (sub_website), store (sub_store), and storeview (sub_storeview).
+1. Create a sub_expert role, allowing the scope of sub_website and sub_store. Assign the following permissions only: [!UICONTROL Dashboard] and [!UICONTROL Pages].
+1. Create a new admin user and assign it to the sub_expert role.
+1. Assign the following CSM pages to sub_storeview and default storeview.
+
+    * [!UICONTROL 404 Not Found] > Sub storeview
+    * [!UICONTROL 503 Service Unavailable] > Default storeview
+
+1. Sign in to the Admin using the admin user created in Step 3.
+1. Check the CMS page grid.
 
 <u>Expected results</u>:
 
-Deployment is successful within the regular timeframe.
+*[!UICONTROL 503 Service Unavailable]* page is not visible to the web admin.
 
 <u>Actual results</u>:
 
-* The servers are struggling to respond to any commands you enter. This results in *Error 503 first byte timeout* when accessing the website.
-* There are multiple entries in log files with access to `app/etc/env.php` and `app/etc/config.php` files.
+*[!UICONTROL 503 Service Unavailable]* is visible to the web admin.
 
 ## Apply the patch
 
