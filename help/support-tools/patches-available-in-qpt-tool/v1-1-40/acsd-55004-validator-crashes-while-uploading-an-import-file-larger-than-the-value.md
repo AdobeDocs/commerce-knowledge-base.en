@@ -37,6 +37,7 @@ The file size is validated without errors.
 <u>Actual results</u>:
 
 Validator crashes.
+
 `var/log/exception.log` contains:
 
 ```
