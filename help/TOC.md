@@ -434,7 +434,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-45781: Store front search field not displayed on mobile](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-45781-store-front-search-field-not-displayed-on-mobile.md)
         * [ACSD-46213: Category tree request limited to 20 categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46213-category-tree-limited-20-categories.md)
         * [ACSD-46404: Admin user cannot log in after upgrading to 2.4.4](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46404-admin-user-cannot-log-in-after-upgrading-to-2.4.4.md)
-        * [ACSD-46912: Issue with async/bulk/V1/configurable-products/bySku/options endpoint](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46912-async-bulk-v1-configurable-products-bysku-options-endpoint-issue.md)
+        * [ACSD-46192: Issue with async/bulk/V1/configurable-products/bySku/options endpoint](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46192-async-bulk-v1-configurable-products-bysku-options-endpoint-issue.md)
     * v1.1.20 {#v1-1-20}
         * [Overview: Quality Patches Tool (QPT) v1.1.20](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/overview.md)
         * [ACSD-44851: Category with subcategories not able to open or expand](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.md)
@@ -683,6 +683,9 @@ breadcrumb-title: Commerce KB
         * [ACSD-47669: Internal server error when importing products with customizable options](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-47669-customizable-product-import-error.md)
     * v1.1.39 {#v1-1-39}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.39](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/overview.md)
+        * [ACSD-54342: Error message when importing CSV file without valid data](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54342-error-message-when-importing-csv-file-without-valid-data.md)
+        * [ACSD-54660: New input attribute sort to sort customer orders in [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54660-new-input-attribute-sort-to-sort-customer-orders-in-graphql.md)
+        * [ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53583-improves-partial-reindex-performance-category-products-product-categories.md)
         * [ACSD-54026: Incorrect error message for updateCompanyRole GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54026-incorrect-error-message-for-updatecompanyrole-graphql-request.md)
         * [ACSD-47657: Adds a caching mechanism for AWS credentials](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-47657-adds-a-caching-mechanism-for-aws-credentials.md)
         * [ACSD-52219: Resolving admin grids filter issue in bookmark view switching](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-52219-resolving-saved-filters-issue.md)
@@ -690,9 +693,12 @@ breadcrumb-title: Commerce KB
         * [ACSD-53704: Reward points balance history miscalculated after expiration](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53704-reward-points-balance-history-miscalculated-after-expiration.md)
         * [ACSD-54106: Rectifying Turkish accented character sorting in product category](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54106-correcting-turkish-accented-product-sorting-issue.md)
         * [ACSD-53998: Dynamic block based on customer segment works incorrectly after logging out](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53998-dynamic-block-based-on-customer-segment-doesnt-work-correctly-on-logging-out.md)
+        * [ACSD-54776: Unchecked used default value and non-default product field values are not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54776-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.md)
     * v1.1.40 {#v1-1-40}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.40](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/overview.md)
         * [ACSD-52657: Minicart not updated on the second storeview that uses subdomain](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.md)
+        * [ACSD-54007: Undefined array key _scope error on importing customer data](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.md)
+        * [ACSD-54319: Product price shows zero in the [!UICONTROL Products in Carts] report](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54319-product-price-shows-zero-in-product-in-cart-report.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -1061,6 +1067,7 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
+  * [How to include a team member in Support notifications](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
   * [Adobe Commerce Intelligence Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)

@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-51892: Performance issue where config files load multiple times'
-description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where config files load multiple times during deployment.
-feature: Observability
-role: Admin
-exl-id: 397343df-360f-43c4-bcef-be5f0da5aeef
+title: "ACSD-53583: Improve partial reindex performance for [!UICONTROL Category Products] and [!UICONTROL Product Categories] indexers"
+description: Apply the ACSD-53585 patch to improve the partial reindex performance for Category Products and Product Categories indexers.
+feature: Products, Categories
+role: Admin, Developer
 ---
-# ACSD-51892: Performance issue where config files load multiple times
+# ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers
 
-The ACSD-51892 patch fixes the performance issue that arises from loading the `app/etc/env.php` and `app/etc/config.php` files each time deployment configuration values are accessed within a single request. The excessive file reading puts strain on the system, leading to a deterioration in overall performance. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51892. Please note that the issue was fixed in Adobe Commerce 2.4.6-p2.
+The ACSD-53583 patch improves the partial reindex performance of *Category Products* and *Product Categories* indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53583. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,21 +24,22 @@ The ACSD-51892 patch fixes the performance issue that arises from loading the `a
 
 ## Issue
 
-There is a performance issue where the config files load multiple times.
+Partial reindex takes more time than full reindex.
 
 <u>Steps to reproduce</u>:
 
-1. Perform deployment or upgrade to Adobe Commerce 2.4.6 or later.
-1. Check filesystem logs for access to `app/etc/env.php` and `app/etc/config.php` files while deployment is running.
+1. Turn all indexers to *Update by Schedule*.
+1. Generate data with the [!DNL Performance Toolkit] (medium profile).
+1. Make changes to all products and categories so that they are in the index backlog and all indices are idle.
+1. Perform partial reindex for *Category Products* and *Product Categories* indexers.
 
 <u>Expected results</u>:
 
-Deployment is successful within the regular timeframe.
+Partial reindex is called once per product and takes almost the same time as full reindex, because all products and categories were changed.
 
 <u>Actual results</u>:
 
-* The servers are struggling to respond to any commands you enter. This results in *Error 503 first byte timeout* when accessing the website.
-* There are multiple entries in log files with access to `app/etc/env.php` and `app/etc/config.php` files.
+Partial reindex is called many times per product and takes more time than full reindex.
 
 ## Apply the patch
 
