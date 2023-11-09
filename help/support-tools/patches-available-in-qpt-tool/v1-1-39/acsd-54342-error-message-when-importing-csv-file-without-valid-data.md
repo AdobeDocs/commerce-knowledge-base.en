@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-51892: Performance issue where config files load multiple times'
-description: Apply the ACSD-51892 patch to fix the Adobe Commerce performance issue where config files load multiple times during deployment.
-feature: Observability
-role: Admin
-exl-id: 397343df-360f-43c4-bcef-be5f0da5aeef
+title: 'ACSD-54342: Error message when importing CSV file without valid data'
+description: Apply the ACSD-54342 patch to fix the Adobe Commerce issue where an incorrect error message occurs when importing a CSV file without valid data.
+feature: Roles/Permissions
+role: Admin, Developer
 ---
-# ACSD-51892: Performance issue where config files load multiple times
+# ACSD-54342: Error message when importing CSV file without valid data
 
-The ACSD-51892 patch fixes the performance issue that arises from loading the `app/etc/env.php` and `app/etc/config.php` files each time deployment configuration values are accessed within a single request. The excessive file reading puts strain on the system, leading to a deterioration in overall performance. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.33 is installed. The patch ID is ACSD-51892. Please note that the issue was fixed in Adobe Commerce 2.4.6-p2.
+The ACSD-54342 patch fixes the issue where an incorrect error message occurs when importing a CSV file without valid data. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-54342. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,21 +24,20 @@ The ACSD-51892 patch fixes the performance issue that arises from loading the `a
 
 ## Issue
 
-There is a performance issue where the config files load multiple times.
+An incorrect error message occurs when importing a CSV file without valid data. 
 
 <u>Steps to reproduce</u>:
 
-1. Perform deployment or upgrade to Adobe Commerce 2.4.6 or later.
-1. Check filesystem logs for access to `app/etc/env.php` and `app/etc/config.php` files while deployment is running.
+1. Create an import file with only invalid data (Examples: [!DNL SKUs] that don't exist, invalid customer address fields, or malformed customer email addresses).
+1. Import the file, selecting to skip the validation errors.
 
 <u>Expected results</u>:
 
-Deployment is successful within the regular timeframe.
+The validation fails with `There are no valid rows to import` message.
 
 <u>Actual results</u>:
 
-* The servers are struggling to respond to any commands you enter. This results in *Error 503 first byte timeout* when accessing the website.
-* There are multiple entries in log files with access to `app/etc/env.php` and `app/etc/config.php` files.
+The validation passes, but the import fails with `Error in data structure: values are mixed` message.
 
 ## Apply the patch
 
