@@ -30,7 +30,6 @@ The `Type "mixed" cannot be nullable` error occurs during compilation.
 
 1. Install a custom extension.
 1. Run the command `bin/magento setup:di:compile`.
-1. Check the `var/log/system.log` file.
 
 <u>Expected results</u>:
 
