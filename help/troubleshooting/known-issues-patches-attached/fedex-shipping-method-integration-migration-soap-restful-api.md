@@ -43,17 +43,17 @@ Use the following attached patches, depending on your Adobe Commerce/Magento Ope
 
 ### For versions 2.4.4, 2.4.4-pX:
 
-* [XXX_COMPOSER.patch.zip](assets/xxxx_COMPOSER.patch.zip)
+* [FedexPatch-Composer-245p5-244p6develop.patch.zip](assets/FedexPatch-Composer-245p5-244p6develop.patch.zip)
 
 ### For versions 2.4.5, 2.4.5-pX:
 
-* [XXX_COMPOSER.patch.zip](assets/xxxx_COMPOSER.patch.zip)
+* [FedexPatch-Composer-245p5-244p6develop.patch.zip](assets/FedexPatch-Composer-245p5-244p6develop.patch.zip)
 
 
 ### For versions 2.4.6, 2.4.6-pX:
 
 
-* [XXX_COMPOSER.patch.zip](assets/xxxx_COMPOSER.patch.zip)
+* [FedexPatch-Composer-246p3develop.patch.zip](assets/FedexPatch-Composer-246p3develop.patch.zip)
 
 
 ## How to apply the patch
