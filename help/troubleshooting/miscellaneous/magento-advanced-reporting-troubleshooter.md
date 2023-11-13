@@ -133,7 +133,7 @@ b. NO – Proceed to [Step 10](#step-10).
 +++**Is there an error message thrown by the cron job?**
 
 Example: In the core_config_data table you see the error ``The “/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0” file can’t be deleted. Warning!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): No such file or directory``
-a. YES – Use the ACSD-50165 patch in [The file can’t be deleted. Warning!unlink: No such file or directory error from the Admin](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.html), wait 24 hours for the job to run again and try again.  
+a. YES – Use the ACSD-50165 patch in [The file can’t be deleted. Warning!unlink: No such file or directory error from the Admin](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md), wait 24 hours for the job to run again and try again.  
 b. NO – Proceed to [Step 11](#step-11).
 
 +++
