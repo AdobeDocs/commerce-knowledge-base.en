@@ -2,11 +2,11 @@
 title: Issues with Slave Reads and Replication Synchronization with MariaDB 10.6
 description: This article talks about troubleshooting issues with Slave Reads and Replication Synchronization with MariaDB 10.6.
 feature: Configuration
-role: Developer
+role: Developer, Admin
 ---
 # Issues with Slave Reads and Replication
 
-This article provides a solution for unexpected behavior when using Read Replicas on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6+. 
+This article provides solutions for unexpected behavior when using Read Replicas on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6+. 
 
 ## Affected products and versions
 
@@ -19,11 +19,11 @@ Non critical reads are showing incorrect information.
 
 ## Cause
 
-The `slave_parallel_mode` config on the database was changed by default to *optimistics*, the incorrect value (should be *conservative*, and the `synchronous_replication` value in ece-tools is defaulting to *true* (should be *false*).
+The `slave_parallel_mode` config on the database was changed by default to *optimistics* when the value should be *conservative*, and the `synchronous_replication` value in ece-tools is defaulting to *true* when the value should be *false*.
 
 ## Solution
 
-The `slave_parallel_mode` parameter should be set to *conservative*. To check run the following command:
+1. Check that the `slave_parallel_mode` parameter is set to *conservative*. To do so run the following command:
 
 ```
 MariaDB [main]> show variables like 'slave_parallel_mode';
@@ -35,9 +35,9 @@ MariaDB [main]> show variables like 'slave_parallel_mode';
 1 row in set (0.001 sec)
 ```
 
-[Raise a support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if this is not the case.
+[Raise a support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if the value is not showing as *conservative*.
 
-Update .magento.env.yaml to:
+2. Update `.magento.env.yaml` database configurations to:
 
 ```yaml
 DATABASE_CONFIGURATION:
@@ -46,6 +46,9 @@ DATABASE_CONFIGURATION:
             default:
                 synchronous_replication: false
 ```
+
+For steps, refer to [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) in Deploy variables > in the Commerce on Cloud Infrastructure Guide. 
+
 
 ## Related reading
 
