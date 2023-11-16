@@ -47,7 +47,7 @@ DATABASE_CONFIGURATION:
                 synchronous_replication: false
 ```
 
-For steps, refer to [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) in Deploy variables > in the Commerce on Cloud Infrastructure Guide. 
+For steps on updating the database configuration, refer to [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) in Deploy variables > in the Commerce on Cloud Infrastructure Guide. 
 
 
 ## Related reading
