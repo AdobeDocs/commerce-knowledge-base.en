@@ -23,7 +23,7 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
 
 ## Solution
 
-The `slave_parallel_mode` parameter should be set to *conservative*.
+The `slave_parallel_mode` parameter should be set to *conservative*. To check run the following command:
 
 ```
 MariaDB [main]> show variables like 'slave_parallel_mode';
