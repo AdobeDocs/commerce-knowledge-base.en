@@ -6,7 +6,7 @@ role: Developer
 ---
 # Issues with Slave Reads and Replication
 
-This article provides a solution for unexpected behavior when using Read Replicas on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6+. Non critical reads are showing incorrect information. 
+This article provides a solution for unexpected behavior when using Read Replicas on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6+. 
 
 ## Affected products and versions
 
@@ -15,15 +15,27 @@ This article provides a solution for unexpected behavior when using Read Replica
 
 ## Issue
 
-You are experiencing replication delays on Adobe Commerce 2.4.6 and MariaDB 10.6.
+Non critical reads are showing incorrect information. 
 
 ## Cause
 
-The `slave_parallel_mode` config on the database was changed by default to *optimistics*, the incorrect value, and the `synchronous_replication` value in ece-tools is defaulting to *true*. The new default for `slave_parallel_mode` is *optimistics*. It should be set to `conservative`.
+The `slave_parallel_mode` config on the database was changed by default to *optimistics*, the incorrect value (should be *conservative*, and the `synchronous_replication` value in ece-tools is defaulting to *true* (should be *false*).
 
 ## Solution
 
-The `slave_parallel_mode` parameter should be set to *conservative*. [Raise a support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if this is not the case.
+The `slave_parallel_mode` parameter should be set to *conservative*.
+
+```
+MariaDB [main]> show variables like 'slave_parallel_mode';
++---------------------+--------------+
+| Variable_name       | Value        |
++---------------------+--------------+
+| slave_parallel_mode | conservative |
++---------------------+--------------+
+1 row in set (0.001 sec)
+```
+
+[Raise a support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if this is not the case.
 
 Update .magento.env.yaml to:
 
