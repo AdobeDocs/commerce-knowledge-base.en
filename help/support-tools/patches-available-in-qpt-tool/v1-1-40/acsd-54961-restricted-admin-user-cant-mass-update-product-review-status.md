@@ -1,12 +1,12 @@
 ---
-title: "ACSD-54961: Restricted admin user can't mass update [!DNL Product Review status]"
-description: Apply the ACSD-53704 patch to fix the Adobe Commerce issue where a restricted admin user can't mass update Product Review status.
+title: "ACSD-54961: Restricted admin user can't mass update [!UICONTROL Product Review status]"
+description: Apply the ACSD-54961 patch to fix the Adobe Commerce issue where a restricted admin user can't mass update Product Review status.
 feature: Products
 role: Admin, Developer
 ---
-# ACSD-54961: Restricted admin user can't mass update [!DNL Product Review status]
+# ACSD-54961: Restricted admin user can't mass update [!UICONTROL Product Review status]
 
-The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update [!DNL Product Review status]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54961. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update [!UICONTROL Product Review status]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54961. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,22 +24,22 @@ The ACSD-54961 patch fixes the issue where a restricted admin user can't mass up
 
 ## Issue
 
-A restricted admin user can't mass update [!DNL Product Review status].
+A restricted admin user can't mass update [!UICONTROL Product Review status].
 
 <u>Steps to reproduce</u>:
 
 1. Create an additional website, store, and store view.
 1. Add a product to the 2nd store, and then add a review.
 1. Create a restricted admin user with access to only the 2nd store.
-1. Login as the restricted admin user, then go to **[!UICONTROL  Marketings]** > **[!UICONTROL Reviews]** > **[!UICONTROL Mass Update]**, and set the **Status** to *Approved* or *Pending*.
+1. Log in as the restricted admin user, then go to **[!UICONTROL  Marketings]** > **[!UICONTROL Reviews]** > **[!UICONTROL Mass Update]**, and set the **Status** to *Approved* or *Pending*.
 
 <u>Expected results</u>:
 
-The restricted admin can update reviews using the Mass Update action.
+The restricted admin user can update reviews using the **[!UICONTROL Mass Update]** action.
 
 <u>Actual results</u>:
 
-An error occurs while updating reviews using Mass Update action.<br>
+An error occurs while updating reviews using **[!UICONTROL Mass Update]** action.<br>
 The `var/log/exception.log` contains a similar error:
 
 ```
