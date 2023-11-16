@@ -5,7 +5,7 @@ feature: Configuration
 role: Developer, Admin
 ---
 
-#  Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6
+# Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6
 
 This article provides solutions for unexpected behavior when using Read Replicas on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6+. 
 
