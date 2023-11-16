@@ -54,4 +54,4 @@ For steps on updating the database configuration, refer to [DATABASE_CONFIGURATI
 ## Related reading
 
 * [Configure environment variables for deployment](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) in the Commerce on Cloud Infrastructure Guide.
-* [Best practices for database configuration](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [Best practices for database configuration](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in the Implementation Playbook.
