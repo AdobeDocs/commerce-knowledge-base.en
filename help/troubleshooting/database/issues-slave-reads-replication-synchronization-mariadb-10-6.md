@@ -16,7 +16,7 @@ This article provides solutions for unexpected behavior when using Read Replicas
 
 ## Issue
 
-Non critical reads are showing incorrect information. 
+Non-critical reads are showing incorrect information. 
 
 ## Cause
 
