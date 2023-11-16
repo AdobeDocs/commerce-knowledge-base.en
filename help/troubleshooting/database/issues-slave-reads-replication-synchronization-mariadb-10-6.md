@@ -6,7 +6,7 @@ role: Developer
 ---
 # Issues with Slave Reads and Replication
 
-This article provides a solution for unexpected behavior when using Read Replicas on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6+. This includes replication delays, indexer having the incorrect status, and `synchronous_replication` is defaulting to *true* in ece-tools.
+This article provides a solution for unexpected behavior when using Read Replicas on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6+. Non critical reads are showing incorrect information. 
 
 ## Affected products and versions
 
@@ -19,7 +19,7 @@ You are experiencing replication delays on Adobe Commerce 2.4.6 and MariaDB 10.6
 
 ## Cause
 
- Adobe Commerce replication configuration does not match the database cluster synchronous replication configuration. 
+The `slave_parallel_mode` config on the database was changed by default to *optimistics*, the incorrect value, and the `synchronous_replication` value in ece-tools is defaulting to *true*. The new default for `slave_parallel_mode` is *optimistics*. It should be set to `conservative`.
 
 ## Solution
 
