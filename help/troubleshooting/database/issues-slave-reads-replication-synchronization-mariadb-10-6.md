@@ -38,7 +38,7 @@ MariaDB [main]> show variables like 'slave_parallel_mode';
 
 [Raise a support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if the value is not showing as *conservative*.
 
-2. Update `.magento.env.yaml` database configurations to:
+1. Update `.magento.env.yaml` database configurations to:
 
 ```yaml
 DATABASE_CONFIGURATION:
