@@ -1,10 +1,11 @@
 ---
-title: Issues with Slave Reads and Replication Synchronization with MariaDB 10.6
-description: This article talks about troubleshooting issues with Slave Reads and Replication Synchronization with MariaDB 10.6.
+title: Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6
+description: This article explains how to troubleshoot Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6.
 feature: Configuration
 role: Developer, Admin
 ---
-# Issues with Slave Reads and Replication
+
+#  Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6
 
 This article provides solutions for unexpected behavior when using Read Replicas on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6+. 
 
@@ -19,7 +20,7 @@ Non critical reads are showing incorrect information.
 
 ## Cause
 
-The `slave_parallel_mode` config on the database was changed by default to *optimistics* when the value should be *conservative*, and the `synchronous_replication` value in ece-tools is defaulting to *true* when the value should be *false*.
+The `slave_parallel_mode` config on the database was changed by default to *optimistics* when the value should be *conservative*, and the `synchronous_replication` value in Ece-Tools is defaulting to *true* when the value should be *false*.
 
 ## Solution
 
