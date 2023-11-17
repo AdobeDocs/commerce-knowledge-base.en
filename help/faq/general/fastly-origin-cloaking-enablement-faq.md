@@ -3,17 +3,17 @@ title: [!DNL Fastly] origin cloaking enablement FAQ
 description: This FAQ discusses common questions about [!DNL Fastly] origin cloaking enablement in Adobe Commerce (that has been fully implemented as of 2021).
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
 ---
-# Fastly origin cloaking enablement FAQ
+# [!DNL Fastly] origin cloaking enablement FAQ
 
 This FAQ discusses common questions about [!DNL Fastly] origin cloaking enablement in Adobe Commerce (that has been fully implemented as of 2021).
 
-## What is Fastly origin cloaking?
+## What is [!DNL Fastly] origin cloaking?
 
-Origin cloaking is a security feature that allows Adobe Commerce on cloud infrastructure to block any non-Fastly traffic (to prevent DDoS attacks, going to the cloud infrastructure (origin).
+Origin cloaking is a security feature that allows Adobe Commerce on cloud infrastructure to block any [!DNL non-Fastly] traffic (to prevent DDoS attacks, going to the cloud infrastructure (origin).
 
 ## What are origin cloaking’s benefits?
 
-Origin cloaking is designed to prevent traffic from bypassing the Fastly Web Application Firewall (WAF) and routing it through the strictly defined flow of **Fastly** > **Load Balancer** > **Instances**. With this implementation, all the traffic is guaranteed to go through the Fastly WAF as well as the internal WAF built into the load balancer.
+Origin cloaking is designed to prevent traffic from bypassing the [!DNL Fastly Web Application Firewall] (WAF) and routing it through the strictly defined flow of **Fastly** > **Load Balancer** > **Instances**. With this implementation, all the traffic is guaranteed to go through the Fastly WAF as well as the internal WAF built into the load balancer.
 
 ## Why is this origin cloaking enablement happening?
 
@@ -29,7 +29,7 @@ No, it does not.
 
 ## Does origin cloaking impact REST API?
 
-Fastly does not cache API calls, so the client should be fine with the change. Origin cloaking only blocks requests that go straight to the origin, such as:
+[!DNL Fastly] does not cache API calls, so the client should be fine with the change. Origin cloaking only blocks requests that go straight to the origin, such as:
 
 ```php
 mywebsite.com.c.abcdefghijkl.ent.magento.cloud
