@@ -1,5 +1,5 @@
 ---
-title: [!DNL Fastly] origin cloaking enablement FAQ
+title: "[!DNL Fastly] origin cloaking enablement FAQ"
 description: This FAQ discusses common questions about [!DNL Fastly] origin cloaking enablement in Adobe Commerce (that has been fully implemented as of 2021).
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
 ---
