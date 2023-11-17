@@ -13,7 +13,7 @@ Origin cloaking is a security feature that allows Adobe Commerce on cloud infras
 
 ## What are origin cloaking’s benefits?
 
-Origin cloaking is designed to prevent traffic from bypassing the [!DNL Fastly Web Application Firewall] (WAF) and routing it through the strictly defined flow of **Fastly** > **Load Balancer** > **Instances**. With this implementation, all the traffic is guaranteed to go through the Fastly WAF as well as the internal WAF built into the load balancer.
+Origin cloaking is designed to prevent traffic from bypassing the [!DNL Fastly Web Application Firewall] (WAF) and routing it through the strictly defined flow of **[!DNL Fastly]** > **Load Balancer** > **Instances**. With this implementation, all the traffic is guaranteed to go through the [!DNL Fastly] WAF as well as the internal WAF built into the load balancer.
 
 ## Why is this origin cloaking enablement happening?
 
