@@ -21,7 +21,7 @@ This feature was originally created to benefit Adobe Commerce on cloud infrastru
 
 ## Do I need to request origin cloaking enablement for my project?
 
-No. This feature should have already been implemented on all cloud projects, and any projects that have been provisioned since 2021 would have had this enabled by default. However, you may request that origin cloaking be disabled for your project by [submitting a support request](magento-help-center-user-guide.md#submit-ticket).
+No. This feature should have already been implemented on all cloud projects, and any projects that have been provisioned since 2021 would have had this enabled by default. However, you may request that origin cloaking be disabled for your project by [submitting a support request](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 ## Does origin cloaking change the outgoing IP address?
 
