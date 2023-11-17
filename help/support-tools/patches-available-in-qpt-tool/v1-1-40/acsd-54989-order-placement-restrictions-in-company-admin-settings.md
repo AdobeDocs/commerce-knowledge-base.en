@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-54989: Order placement restrictions in company admin settings'
-description: Apply the ACSD-54989 patch to fix the Adobe Commerce issue where admin orders are restricted with [!UICONTROL Enable Purchase Orders] set to 'yes' and [!UICONTROL Purchase Order] set to 'no'.
+title: 'ACSD-54989: Order placement issues in company admin settings'
+description: Apply the ACSD-54989 patch to fix the Adobe Commerce issue where orders are restricted with [!UICONTROL Enable Purchase Orders] set to 'yes' and [!UICONTROL Purchase Order] set to 'no'.
 feature: Orders, Companies, Purchase Orders
 role: Admin
 ---
-# ACSD-54989: Order placement restrictions in company admin settings
+# ACSD-54989: Order placement issues in company admin settings
 
-The ACSD-54989 patch fixes the issue where admin orders are restricted with [!UICONTROL Enable Purchase Orders] set to 'Yes' and [!UICONTROL Purchase Order] set to 'No'. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-54989. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54989 patch fixes the issue where orders cannot be placed if **[!UICONTROL Enable Purchase Orders]** set to *Yes* and **[!UICONTROL Purchase Order]** set to *No*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54989. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-54989 patch fixes the issue where admin orders are restricted with [!UI
 
 ## Issue
 
-Admin orders are restricted with [!UICONTROL Enable Purchase Orders] set to 'yes' and [!UICONTROL Purchase Order] set to 'no'.
+Orders are restricted with **[!UICONTROL Enable Purchase Orders]** set to *yes* and **[!UICONTROL Purchase Order]** set to *no*.
 
 <u>Prerequisites</u>:
 
@@ -32,13 +32,13 @@ Install [!DNL B2B] modules.
 
 <u>Steps to reproduce</u>:
 
-1. Enable company and set 'Order Approval Configuration' to *[!UICONTROL purchase order = No]*.
+1. Enable company and set **Order Approval Configuration** to **[!UICONTROL purchase order** = *No*].
 1. Create a simple product with a price of 100.
 1. Create a new company through the Admin.
-1. Configure the company's settings by enabling *purchase orders* options 'Yes'.
-1. Log in as the company admin on the Stronefront platform.
+1. Configure the company's settings by enabling **Purchase orders** options *Yes*.
+1. Log in as the company admin on the storefront.
 1. Add the created simple product to the cart.
-1. Proceed to the checkout page and click the [!UICONTROL Place Order] button to complete the purchase.
+1. Proceed to the checkout page and click the **[!UICONTROL Place Order]** button to complete the purchase.
 
 <u>Expected results</u>:
 
