@@ -39,13 +39,13 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
 
 1. Update `.magento.env.yaml` database configurations to:
 
-```yaml
+            ```yaml
 DATABASE_CONFIGURATION:
     _merge: true
         slave_connection:
             default:
                 synchronous_replication: false
-```
+            ```
 
 For steps on updating the database configuration, refer to [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) in Deploy variables > in the Commerce on Cloud Infrastructure Guide. 
 
