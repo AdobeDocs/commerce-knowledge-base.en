@@ -34,7 +34,7 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
      | slave_parallel_mode | conservative |
      +---------------------+--------------+
      1 row in set (0.001 sec)
-      ```
+    ```
 
 1. Update `.magento.env.yaml` database configurations to:
 
@@ -44,7 +44,7 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
             slave_connection:
                 default:
                     synchronous_replication: false
-     ```
+    ```
 
 
 
