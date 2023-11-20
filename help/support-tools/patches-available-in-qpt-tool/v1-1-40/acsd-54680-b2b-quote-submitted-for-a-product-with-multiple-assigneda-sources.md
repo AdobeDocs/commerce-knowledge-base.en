@@ -4,7 +4,7 @@ description: Apply the ACSD-54680 patch to fix the Adobe Commerce issue where th
 feature: B2B
 role: Admin, Developer
 ---
-# ACSD-54680: B2B Quote for a product with Multiple Assigned Sources cant be processed.
+# ACSD-54680: B2B Quote for a product with Multiple Assigned Sources can't be processed.
 
 The ACSD-54680 patch fixes the issue where the B2B Quote for a product with Multiple Assigned Sources cant be processed. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. The patch ID is ACSD-54680. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
