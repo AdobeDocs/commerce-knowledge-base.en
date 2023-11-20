@@ -24,7 +24,7 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
 
 ## Solution
 
-1. Check that the `slave_parallel_mode` parameter is set to *conservative* (you will need to [raise a support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if the value is  not showing as *conservative*). To check run the following command:
+1. Check that the `slave_parallel_mode` parameter is set to *conservative* (you will need to [raise a support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if the value is  not showing as *conservative*). To check, run the following command:
 
     ```
      MariaDB [main]> show variables like 'slave_parallel_mode';
