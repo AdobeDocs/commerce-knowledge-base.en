@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-54680: B2B Quote for a product with Multiple Assigned Sources cant be processed'
-description: Apply the ACSD-54680 patch to fix the Adobe Commerce issue where the B2B Quote for a product with Multiple Assigned Sources cant be processed.
+description: Apply the ACSD-54680 patch to fix the Adobe Commerce issue where the B2B Quote for a product with Multiple Assigned Sources can't be processed.
 feature: B2B
-role: Admin
+role: Admin, Developer
 ---
-# ACSD-54680: B2B Quote for a product with Multiple Assigned Sources cant be processed.
+# ACSD-54680: B2B Quote for a product with Multiple Assigned Sources can't be processed.
 
-The ACSD-54680 patch fixes the issue where the B2B Quote for a product with Multiple Assigned Sources cant be processed. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. The patch ID is ACSD-54680. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-54680 patch fixes the issue where the B2B Quote for a product with Multiple Assigned Sources can't be processed. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. The patch ID is ACSD-54680. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -24,19 +24,19 @@ The ACSD-54680 patch fixes the issue where the B2B Quote for a product with Mult
 
 ## Issue
 
-B2B Quote for a product with Multiple Assigned Sources cant be processed.
+B2B Quote for a product with Multiple Assigned Sources can't be processed.
 
 <u>Steps to reproduce</u>:
 
-1. Create two new sources: **Source 1** and **Source 2**. (admin > Store > Sources)
-1. Create new Stock: **Stock A**, assign it to the main website, and assign **Source 1** and **Source 2** to it. (admin > Store > Stocks)
-1. Create a Simple product, assign **Source 1** and **Source 2**, and set Qty = *2* for each source. (the salable qty of the product should be *4* as a result)
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Sources]** and create two new sources: **Source 1** and **Source 2**. 
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Stocks]** and create a new Stock: **Stock A**, assign it to the main website, and assign **Source 1** and **Source 2** to it.
+1. Create a Simple product, assign **Source 1** and **Source 2**, and set Qty = *2* for each source. (the salable qty of the product should be *4* as a result).
 1. Create a Company Account.
-1. Go to the **[!UICONTROL storefront]** and login into the company account.
+1. Go to the **[!UICONTROL Storefront]** and log in to the company account.
 1. Add the simple product to the shopping cart with qty = *4*.
-1. Open the shopping cart and click Request a quote button.
-1. Add a comment and quote name and click **[!UICONTROL send a request]** button.
-1. Go to **[!UICONTROL admin]** > Sales > Quotes.
+1. Open the *[!UICONTROL Shopping cart]* and click **[!UICONTROL Request a quote]** button.
+1. Add a comment and quote name and click **[!UICONTROL Send a Request]** button.
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
 1. Open recently submitted quote.
 
 <u>Expected results</u>:
