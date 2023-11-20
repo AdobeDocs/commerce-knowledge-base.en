@@ -25,9 +25,6 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
 ## Solution
 
 1. Check that the `slave_parallel_mode` parameter is set to *conservative*. To do so run the following command:
-
-  
-
 1. Update `.magento.env.yaml` database configurations to:
 
 ```yaml
