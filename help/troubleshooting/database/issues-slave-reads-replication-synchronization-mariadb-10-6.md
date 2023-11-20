@@ -44,7 +44,7 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
             slave_connection:
                 default:
                     synchronous_replication: false
-       ```
+     ```
 
 
 
