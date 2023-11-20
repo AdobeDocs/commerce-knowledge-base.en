@@ -32,7 +32,7 @@ B2B Quote for a product with Multiple Assigned Sources can't be processed.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Stocks]** and create a new Stock: **Stock A**, assign it to the main website, and assign **Source 1** and **Source 2** to it.
 1. Create a Simple product, assign **Source 1** and **Source 2**, and set Qty = *2* for each source. (the salable qty of the product should be *4* as a result).
 1. Create a Company Account.
-1. Go to the **[!UICONTROL storefront]** and login into the company account.
+1. Go to the **[!UICONTROL Storefront]** and log in to the company account.
 1. Add the simple product to the shopping cart with qty = *4*.
 1. Open the shopping cart and click Request a quote button.
 1. Add a comment and quote name and click **[!UICONTROL send a request]** button.
