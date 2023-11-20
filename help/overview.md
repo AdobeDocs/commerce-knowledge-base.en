@@ -72,7 +72,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-54660-new-input-attribute-sort-to-sort-customer-orders-in-graphql.html">ACSD-54660: New input attribute <em>sort</em> added to sort customer orders in GraphQL:</a> The ACSD-54660 patch fixes the issue where a new input attribute sort added to sort customer orders in GraphQL by <code>sort_field</code> and <code>sort_direction</code>. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-54660-new-input-attribute-sort-to-sort-customer-orders-in-graphql.html">ACSD-54660: New input attribute <em>sort</em> added to sort customer orders in GraphQL:</a> The ACSD-54660 patch fixes the issue where a new input attribute sort is added to sort customer orders in GraphQL by <code>sort_field</code> and <code>sort_direction</code>. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
     <td>November 20, 2023</td>
