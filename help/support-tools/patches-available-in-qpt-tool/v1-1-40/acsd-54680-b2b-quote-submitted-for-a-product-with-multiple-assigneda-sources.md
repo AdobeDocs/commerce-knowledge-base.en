@@ -35,7 +35,7 @@ B2B Quote for a product with Multiple Assigned Sources can't be processed.
 1. Go to the **[!UICONTROL Storefront]** and log in to the company account.
 1. Add the simple product to the shopping cart with qty = *4*.
 1. Open the *[!UICONTROL Shopping cart]* and click **[!UICONTROL Request a quote]** button.
-1. Add a comment and quote name and click **[!UICONTROL send a request]** button.
+1. Add a comment and quote name and click **[!UICONTROL Send a Request]** button.
 1. Go to **[!UICONTROL admin]** > Sales > Quotes.
 1. Open recently submitted quote.
 
