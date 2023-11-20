@@ -26,17 +26,7 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
 
 1. Check that the `slave_parallel_mode` parameter is set to *conservative*. To do so run the following command:
 
-  ```
- MariaDB [main]> show variables like 'slave_parallel_mode';
- +---------------------+--------------+
- | Variable_name       | Value        |
- +---------------------+--------------+
- | slave_parallel_mode | conservative |
- +---------------------+--------------+
- 1 row in set (0.001 sec)
-  ```
-
- [Raise a support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if the value is  not showing as *conservative*.
+  
 
 1. Update `.magento.env.yaml` database configurations to:
 
@@ -47,7 +37,17 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
             default:
                 synchronous_replication: false
 ```
+```
+ MariaDB [main]> show variables like 'slave_parallel_mode';
+ +---------------------+--------------+
+ | Variable_name       | Value        |
+ +---------------------+--------------+
+ | slave_parallel_mode | conservative |
+ +---------------------+--------------+
+ 1 row in set (0.001 sec)
+  ```
 
+ [Raise a support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if the value is  not showing as *conservative*.
 For steps on updating the database configuration, refer to [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) in Deploy variables > in the Commerce on Cloud Infrastructure Guide. 
 
 
