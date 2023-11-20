@@ -31,7 +31,7 @@ An exception happens on the shopping cart when a product is removed from the sha
 1. AC develop and B2B develop.
 1. Enable shared catalog.
 1. Create a product and assign it to the default shared catalog.
-1. Add product to the cart from the storefront.
+1. Add a product to the cart from the storefront.
 1. Remove the product from the shared catalog.
 1. Navigate to the checkout page using the mini-cart drop-down.
 
