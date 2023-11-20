@@ -41,7 +41,7 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
 1. Update `.magento.env.yaml` database configurations to:
 
 ```yaml
-DATABASE_CONFIGURATION:
+ DATABASE_CONFIGURATION:
     _merge: true
         slave_connection:
             default:
