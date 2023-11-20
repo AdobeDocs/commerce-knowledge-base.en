@@ -2,7 +2,7 @@
 title: Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6
 description: This article explains how to troubleshoot Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6.
 feature: Configuration
-role: Developer, Admin
+role: Developer,Admin
 ---
 
 # Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6
