@@ -48,7 +48,7 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
 
 
 
-For steps on updating the database configuration, refer to [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) in Deploy variables > in the Commerce on Cloud Infrastructure Guide. 
+For steps on updating the database configuration, refer to [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) in the Deploy variables topic in the Commerce on Cloud Infrastructure Guide. 
 
 
 ## Related reading
