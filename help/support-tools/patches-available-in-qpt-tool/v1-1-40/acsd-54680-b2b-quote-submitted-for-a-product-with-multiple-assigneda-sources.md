@@ -24,7 +24,7 @@ The ACSD-54680 patch fixes the issue where the B2B Quote for a product with Mult
 
 ## Issue
 
-B2B Quote for a product with Multiple Assigned Sources cant be processed.
+B2B Quote for a product with Multiple Assigned Sources can't be processed.
 
 <u>Steps to reproduce</u>:
 
