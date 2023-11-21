@@ -32,7 +32,7 @@ Install [!DNL B2B] modules.
 
 <u>Steps to reproduce</u>:
 
-1. Enable company and set **Order Approval Configuration** to **[!UICONTROL purchase order** = *No*].
+1. Enable company and set **[!UICONTROL Order Approval Configuration]** to **[!UICONTROL Purchase Order**] = *No*.
 1. Create a simple product with a price of 100.
 1. Create a new company through the Admin.
 1. Configure the company's settings by enabling **Purchase orders** options *Yes*.
