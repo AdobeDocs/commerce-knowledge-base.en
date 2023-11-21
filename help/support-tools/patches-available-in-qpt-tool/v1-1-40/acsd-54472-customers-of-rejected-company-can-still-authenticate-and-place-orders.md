@@ -46,7 +46,7 @@ The customers of a rejected company can still authenticate, and customers of a b
 <u>Actual results</u>:
 
 * Order and negotiable quote is placed by the user of the *Blocked* company.
-* Authorization token is obtained for the user of *Rejected* company.
+* Authorization token is obtained for the user of the *Rejected* company.
 * Authorization token is obtained for the *Inactive* customer.
  
 ## Apply the patch
