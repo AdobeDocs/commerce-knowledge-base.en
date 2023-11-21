@@ -46,7 +46,7 @@ You are able to place an order successfully.
 
 <u>Actual results</u>:
 
-"My Account" page opens up and order is not placed.
+The **[UICONTROL My Account]** page opens up and the order is not placed.
 
 ## Apply the patch
 
