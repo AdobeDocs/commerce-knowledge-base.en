@@ -697,6 +697,7 @@ breadcrumb-title: Commerce KB
     * v1.1.40 {#v1-1-40}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.40](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/overview.md)
         * [ACSD-54472: Customers of a rejected company can still authenticate and place orders](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54472-customers-of-rejected-company-can-still-authenticate-and-place-orders.md)
+        * [ACSD-54680: B2B Quote for a product with Multiple Assigned Sources cant be processed](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54680-b2b-quote-submitted-for-a-product-with-multiple-assigneda-sources.md)
         * [ACSD-55004: Validator crashes while uploading an import file larger than the value](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55004-validator-crashes-while-uploading-an-import-file-larger-than-the-value.md)
         * [ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.md)
         * [ACSD-52657: Minicart not updated on the second storeview that uses subdomain](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.md)
@@ -743,6 +744,7 @@ breadcrumb-title: Commerce KB
     * [MySQL tables are too large](/help/troubleshooting/database/mysql-tables-are-too-large.md)
     * [Database errors related to max_allowed_packet on Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
     * [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
+    * [Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6](/help/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.md)
   * Payments {#payments}
     * [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](/help/troubleshooting/payments/magento-2.4.0-known-issue-missing-refund-label-in-klarna.md)
     * [Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2.4.0-braintree-not-in-multiple-addresses-checkout.md)
