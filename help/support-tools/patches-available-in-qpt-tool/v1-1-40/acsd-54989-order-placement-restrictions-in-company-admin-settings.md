@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-54989: Order placement issues in company admin settings'
-description: Apply the ACSD-54989 patch to fix the Adobe Commerce issue where orders are restricted with [!UICONTROL Enable Purchase Orders] set to 'yes' and [!UICONTROL Purchase Order] set to 'no'.
+description: Apply the ACSD-54989 patch to fix the Adobe Commerce B2B issue where Company Admin users cannot place orders if [!UICONTROL Enable Purchase Orders] set to 'yes' and [!UICONTROL Purchase Order] set to 'no'.
 feature: Orders, Companies, Purchase Orders
 role: Admin
 ---
