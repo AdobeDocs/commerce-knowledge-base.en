@@ -39,7 +39,7 @@ The customers of a rejected company can still authenticate, and customers of a b
 
 <u>Expected results</u>:
 
-* Order and negotiable quote is not placed by the user of blocked company.
+* Order and negotiable quote is not placed by the user of the *Blocked* company.
 * Authorization token is not obtained for the user of *Rejected* company.
 * Authorization token is not obtained for the *Inactive* customer.
 
