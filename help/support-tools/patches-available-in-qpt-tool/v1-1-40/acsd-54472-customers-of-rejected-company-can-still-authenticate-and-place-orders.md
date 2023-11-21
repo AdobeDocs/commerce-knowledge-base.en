@@ -35,7 +35,7 @@ The customers of a rejected company can still authenticate, and customers of a b
 1. Change the company status to *Rejected*.
 1. Send a [!DNL GraphQL] request to obtain the company's user authorization token.
 1. Set customer status to *Inactive*.
-1. Send [!DNL GraphQL] request to obtain company's user authorization token.
+1. Send a [!DNL GraphQL] request to obtain the company's user authorization token.
 
 <u>Expected results</u>:
 
