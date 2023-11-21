@@ -31,7 +31,7 @@ The customers of a rejected company can still authenticate, and customers of a b
 1. Create a company.
 1. Add products to the cart via [!DNL GraphQL].
 1. Change the company status to *Blocked*.
-1. Send [!DNL GraphQL] request to place the order and to create a negotiable quote.
+1. Send a [!DNL GraphQL] request to place the order and to create a negotiable quote.
 1. Change the company status to *Rejected*.
 1. Send [!DNL GraphQL] request to obtain company's user authorization token.
 1. Set customer status to *Inactive*.
