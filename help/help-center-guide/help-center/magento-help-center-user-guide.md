@@ -537,11 +537,13 @@ After providing shared access for a new user, the related information is availab
 
 <u>Cause</u>
 
-If you have/had an Adobe Commerce Cloud project and had added a user to the project, they would have been automatically granted Shared Access on your Primary MAGE ID. This would be indicated in the **Share Name** column, showing *Cloud Shared Access from MAG[XYZ]*.
+If you have/had an Adobe Commerce Cloud project and had added a user to the project, they would have been automatically granted Shared Access on the Project Owner's MAGE ID. This would normally be indicated in the **Share Name** column, showing *Cloud Shared Access from MAG[XYZ]*. 
+
+If the DELETE link is missing, that means that Shared Access was automatically granted through Commerce Cloud.
 
 <u>Solution</u>
 
-It's not possible to delete the list of Shared Access users with the Share Name of *Cloud Shared Access from MAG[XYZ]*. These are retained for informational/audit purposes.
+It's not possible to delete the list of Shared Access users with the Share Name of *Cloud Shared Access from MAG[XYZ]* if the Shared Access wasn't added/given at this page. These are retained for informational/audit purposes.
 
 However, once you have revoked the permissions on those Shared Access users, they will no longer have that access.
 
