@@ -24,7 +24,7 @@ The ACSD-54989 patch fixes the issue where orders cannot be placed if **[!UICONT
 
 ## Issue
 
-Company admins cannot place orders when **Enable Purchase Orders** is set to *Yes* and **Purchase Order** is set to *No*.
+Company admins cannot place orders when **[!UICONTROL Enable Purchase Orders]** is set to *Yes* and **Purchase Order** set to *No*.
 
 <u>Prerequisites</u>:
 
@@ -32,10 +32,10 @@ Install [!DNL B2B] modules.
 
 <u>Steps to reproduce</u>:
 
-1. Enable company and leave **[!UICONTROL Order Approval Configuration]** to **[!UICONTROL Purchase Order**] = *No*.
+1. Enable company and leave [!UICONTROL **Order Approval Configuration]** to **[!UICONTROL purchase order**] = *No*.
 1. Create a simple product with a price of 100.
 1. Create a new company through the Admin.
-1. Set [UICONTROL **Enable Purchase Orders**] to *Yes*.
+1. Set [!UICONTROL **Enable Purchase Orders**] to *Yes*.
 1. Log in as the company admin on the storefront.
 1. Add the created simple product to the cart.
 1. Proceed to the checkout page and click the **[!UICONTROL Place Order]** button to complete the purchase.
@@ -46,7 +46,7 @@ You are able to place an order successfully.
 
 <u>Actual results</u>:
 
-The **[UICONTROL My Account]** page opens up and the order is not placed.
+The **[!UICONTROL My Account]** page opens up and the order is not placed.
 
 ## Apply the patch
 
