@@ -24,7 +24,7 @@ The ACSD-54989 patch fixes the issue where orders cannot be placed if **[!UICONT
 
 ## Issue
 
-Company admins cannot place orders when **Enable Purchase Orders** is set to 'Yes' and **Purchase Order** is set to 'No'.
+Company admins cannot place orders when **Enable Purchase Orders** is set to *Yes* and **Purchase Order** is set to *No*.
 
 <u>Prerequisites</u>:
 
