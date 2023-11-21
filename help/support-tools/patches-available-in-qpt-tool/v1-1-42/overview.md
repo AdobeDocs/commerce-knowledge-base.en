@@ -20,7 +20,7 @@ QPT v1.1.42 includes the following patches:
 1. **ACSD-55238**: Fixes the issue with saving the empty product meta description.
 1. **ACSD-54966**: Fixes the issue where a coupon code with a limited use per customer can't be reused if the previous order failed.
 1. **ACSD-54060**: Fixes the issue where a restricted admin can't save a product if it's a child of another product assigned to a different scope.
-1. **ACSD-48910**: Fixes the issue where a bundled product assigned to multiple sources goes out-of-stock after an order is invoiced and shipped, even if it still has a non-zero quantity.
+1. **ACSD-48910**: Fixes the issue where a bundled product assigned to multiple sources goes out-of-stock after an order is invoiced and shipped, even if it has a non-zero quantity.
 1. **ACSD-55381**: Fixes an internal server error when querying `configurable_product_option_uid` and `configurable_product_option_value_uid` fields from a B2B *[!UICONTROL Requisition list]* via GraphQL.
 1. **ACSD-55628**: Fixes uploading a file on the company registration form and replacing a file for a customer attribute on the storefront.
 
