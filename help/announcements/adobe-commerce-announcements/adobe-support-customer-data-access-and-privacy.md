@@ -16,6 +16,7 @@ Adobe technical support may require access to your Adobe Commerce-related data i
 To authorize access:
 
 1. [Log in](https://account.magento.com/customer/account/login) as a support entitled primary user.
+1. On the **My Account** page > **Account Settings** - make sure that you have completed your [account profile](https://account.magento.com/customer/account/edit) and click on Save.
 1. On the **My Account** page > **Account Settings** > **Privacy Settings.** You will see a consent form to grant Adobe technical support personnel access to your data.
 1. After reviewing the information about privacy settings choose whether to check the checkbox next to **I authorize the access of my data for the following duration:**.
 1. In the duration drop-down, select the period of time you want Adobe technical support personnel to have access to your customer data. You can select 7 days, 30 days, one year or indefinitely.
