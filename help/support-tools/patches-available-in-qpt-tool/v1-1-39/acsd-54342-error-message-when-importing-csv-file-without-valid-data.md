@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report'
-description: Apply the ACSD-54319 patch to fix the Adobe Commerce issue where the product price shows zero in *[!UICONTROL Products in Carts]* report
-feature: Reporting, Products
+title: 'ACSD-54342: Error message when importing CSV file without valid data'
+description: Apply the ACSD-54342 patch to fix the Adobe Commerce issue where an incorrect error message occurs when importing a CSV file without valid data.
+feature: Roles/Permissions
 role: Admin, Developer
-exl-id: f53b3ed3-d5d5-461c-bba2-4f9f3f038580
+exl-id: 7f443ad8-c4b7-4294-b38f-9861e221bef2
 ---
-# ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report
+# ACSD-54342: Error message when importing CSV file without valid data
 
-The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UICONTROL Products in Carts]* report. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54319. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54342 patch fixes the issue where an incorrect error message occurs when importing a CSV file without valid data. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-54342. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,26 +25,21 @@ The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UI
 
 ## Issue
 
-The product price shows zero in *[!UICONTROL Products in Carts]* report.
+An incorrect error message occurs when importing a CSV file without valid data. 
 
 <u>Steps to reproduce</u>:
 
-1. Set **[!UICONTROL Catalog Price Scope]** to **[!UICONTROL Website]** from **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]** > **[!UICONTROL Catalog Price Scope]**.
-1. Create a second website from **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
-1. Create a product from **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
-1. Assign this product to the second website only.
-1. Add a product to the cart from the second website.
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Reports]** > **[!UICONTROL Marketing]** > **[!UICONTROL Products In Carts]** grid.
-1. Check the *[!UICONTROL Price]* column in *[!UICONTROL Products In Carts]* grid.
+1. Create an import file with only invalid data (Examples: [!DNL SKUs] that don't exist, invalid customer address fields, or malformed customer email addresses).
+1. Import the file, selecting to skip the validation errors.
 
 <u>Expected results</u>:
 
-Product price is not zero in *[!UICONTROL Products in Carts]* report grid.
+The validation fails with `There are no valid rows to import` message.
 
 <u>Actual results</u>:
 
-Product price is zero in *[!UICONTROL Products in Carts]* report grid.
- 
+The validation passes, but the import fails with `Error in data structure: values are mixed` message.
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

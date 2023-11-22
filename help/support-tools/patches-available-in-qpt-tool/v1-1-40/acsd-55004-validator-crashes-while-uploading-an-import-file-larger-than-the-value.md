@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report'
-description: Apply the ACSD-54319 patch to fix the Adobe Commerce issue where the product price shows zero in *[!UICONTROL Products in Carts]* report
-feature: Reporting, Products
+title: 'ACSD-55004: Validator crashes while uploading an import file larger than the value'
+description: Apply the ACSD-55004 patch to fix the Adobe Commerce issue where a validator crashes while uploading an import file larger than the value configured in `php.ini`.
+feature: Data Import/Export
 role: Admin, Developer
-exl-id: f53b3ed3-d5d5-461c-bba2-4f9f3f038580
+exl-id: 03b7667e-9b5b-4319-9135-dbc7fda7861d
 ---
-# ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report
+# ACSD-55004: Validator crashes while uploading an import file larger than the value 
 
-The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UICONTROL Products in Carts]* report. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54319. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55004 patch fixes the issue where a validator crashes while uploading an import file larger than the value configured in `php.ini`. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. The patch ID is ACSD-55004. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,26 +25,26 @@ The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UI
 
 ## Issue
 
-The product price shows zero in *[!UICONTROL Products in Carts]* report.
+The validator crashes while uploading an import file larger than the value configured in `php.ini`.
 
 <u>Steps to reproduce</u>:
 
-1. Set **[!UICONTROL Catalog Price Scope]** to **[!UICONTROL Website]** from **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]** > **[!UICONTROL Catalog Price Scope]**.
-1. Create a second website from **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
-1. Create a product from **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
-1. Assign this product to the second website only.
-1. Add a product to the cart from the second website.
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Reports]** > **[!UICONTROL Marketing]** > **[!UICONTROL Products In Carts]** grid.
-1. Check the *[!UICONTROL Price]* column in *[!UICONTROL Products In Carts]* grid.
+Try to upload an import file larger than configured in `php.ini`.
 
 <u>Expected results</u>:
 
-Product price is not zero in *[!UICONTROL Products in Carts]* report grid.
+The file size is validated without errors.
 
 <u>Actual results</u>:
 
-Product price is zero in *[!UICONTROL Products in Carts]* report grid.
- 
+Validator crashes.
+
+`var/log/exception.log` contains:
+
+```
+[2023-10-06T21:36:30.470618+00:00] report.CRITICAL: Error: Class "Zend_Validate_File_Upload" not found in ../module-import-export/Model/Source/Upload.php:81
+```
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

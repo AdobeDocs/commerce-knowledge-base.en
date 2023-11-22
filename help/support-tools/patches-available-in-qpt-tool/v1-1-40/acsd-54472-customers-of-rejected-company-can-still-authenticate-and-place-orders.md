@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report'
-description: Apply the ACSD-54319 patch to fix the Adobe Commerce issue where the product price shows zero in *[!UICONTROL Products in Carts]* report
-feature: Reporting, Products
+title: 'ACSD-54472: Customers of a rejected company can still authenticate'
+description: Apply the ACSD-54472 patch to fix the Adobe Commerce issue where the customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders.
+feature: B2B
 role: Admin, Developer
-exl-id: f53b3ed3-d5d5-461c-bba2-4f9f3f038580
+exl-id: 76fc4553-02b1-4563-91a9-0cda99fa4c7d
 ---
-# ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report
+# ACSD-54472: Customers of a rejected company can still authenticate
 
-The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UICONTROL Products in Carts]* report. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54319. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54472 patch fixes the issue where the customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54472. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,25 +25,30 @@ The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UI
 
 ## Issue
 
-The product price shows zero in *[!UICONTROL Products in Carts]* report.
+The customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders.
 
 <u>Steps to reproduce</u>:
 
-1. Set **[!UICONTROL Catalog Price Scope]** to **[!UICONTROL Website]** from **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]** > **[!UICONTROL Catalog Price Scope]**.
-1. Create a second website from **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
-1. Create a product from **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
-1. Assign this product to the second website only.
-1. Add a product to the cart from the second website.
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Reports]** > **[!UICONTROL Marketing]** > **[!UICONTROL Products In Carts]** grid.
-1. Check the *[!UICONTROL Price]* column in *[!UICONTROL Products In Carts]* grid.
+1. Create a company.
+1. Add products to the cart via [!DNL GraphQL].
+1. Change the company status to *Blocked*.
+1. Send a [!DNL GraphQL] request to place the order and to create a negotiable quote.
+1. Change the company status to *Rejected*.
+1. Send a [!DNL GraphQL] request to obtain the company's user authorization token.
+1. Set customer status to *Inactive*.
+1. Send a [!DNL GraphQL] request to obtain the company's user authorization token.
 
 <u>Expected results</u>:
 
-Product price is not zero in *[!UICONTROL Products in Carts]* report grid.
+* Order and negotiable quote is not placed by the user of the *Blocked* company.
+* Authorization token is not obtained for the user of the *Rejected* company.
+* Authorization token is not obtained for the *Inactive* customer.
 
 <u>Actual results</u>:
 
-Product price is zero in *[!UICONTROL Products in Carts]* report grid.
+* Order and negotiable quote is placed by the user of the *Blocked* company.
+* Authorization token is obtained for the user of the *Rejected* company.
+* Authorization token is obtained for the *Inactive* customer.
  
 ## Apply the patch
 

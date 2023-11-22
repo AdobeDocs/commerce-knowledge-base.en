@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report'
-description: Apply the ACSD-54319 patch to fix the Adobe Commerce issue where the product price shows zero in *[!UICONTROL Products in Carts]* report
-feature: Reporting, Products
+title: 'ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope'
+description: Apply the ACSD-53414 patch to fix the Adobe Commerce issue where a restricted admin user can see CMS pages outside of their permissions scope.
+feature: CMS
 role: Admin, Developer
-exl-id: f53b3ed3-d5d5-461c-bba2-4f9f3f038580
+exl-id: f8540d52-a3bb-49bb-8868-7b1db03e571b
 ---
-# ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report
+# ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope
 
-The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UICONTROL Products in Carts]* report. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54319. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53414 patch fixes the issue where a restricted admin user can see CMS pages outside their permissions scope. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-53414. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,26 +25,29 @@ The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UI
 
 ## Issue
 
-The product price shows zero in *[!UICONTROL Products in Carts]* report.
+Restricted admin users can see CMS pages beyond their permissions scope.
 
 <u>Steps to reproduce</u>:
 
-1. Set **[!UICONTROL Catalog Price Scope]** to **[!UICONTROL Website]** from **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]** > **[!UICONTROL Catalog Price Scope]**.
-1. Create a second website from **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
-1. Create a product from **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
-1. Assign this product to the second website only.
-1. Add a product to the cart from the second website.
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Reports]** > **[!UICONTROL Marketing]** > **[!UICONTROL Products In Carts]** grid.
-1. Check the *[!UICONTROL Price]* column in *[!UICONTROL Products In Carts]* grid.
+1. Create a new website (sub_website), store (sub_store), and storeview (sub_storeview).
+1. Create a sub_expert role, allowing the scope of sub_website and sub_store. Assign the following permissions only: [!UICONTROL Dashboard] and [!UICONTROL Pages].
+1. Create a new admin user and assign it to the sub_expert role.
+1. Assign the following CSM pages to sub_storeview and default storeview.
+
+    * [!UICONTROL 404 Not Found] > Sub storeview
+    * [!UICONTROL 503 Service Unavailable] > Default storeview
+
+1. Sign in to the Admin using the admin user created in Step 3.
+1. Check the CMS page grid.
 
 <u>Expected results</u>:
 
-Product price is not zero in *[!UICONTROL Products in Carts]* report grid.
+*[!UICONTROL 503 Service Unavailable]* page is not visible to the web admin.
 
 <u>Actual results</u>:
 
-Product price is zero in *[!UICONTROL Products in Carts]* report grid.
- 
+*[!UICONTROL 503 Service Unavailable]* is visible to the web admin.
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

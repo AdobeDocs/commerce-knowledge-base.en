@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report'
-description: Apply the ACSD-54319 patch to fix the Adobe Commerce issue where the product price shows zero in *[!UICONTROL Products in Carts]* report
-feature: Reporting, Products
+title: "ACSD-54961: Restricted admin user can't mass update [!UICONTROL Product Review status]"
+description: Apply the ACSD-54961 patch to fix the Adobe Commerce issue where a restricted admin user can't mass update Product Review status.
+feature: Products
 role: Admin, Developer
-exl-id: f53b3ed3-d5d5-461c-bba2-4f9f3f038580
+exl-id: 26c5bacd-21de-4533-a7b6-4acbacd38fec
 ---
-# ACSD-54319: Product price shows zero in *[!UICONTROL Products in Carts]* report
+# ACSD-54961: Restricted admin user can't mass update [!UICONTROL Product Review status]
 
-The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UICONTROL Products in Carts]* report. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54319. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update [!UICONTROL Product Review status]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54961. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.5-p4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,26 +25,28 @@ The ACSD-54319 patch fixes the issue where the product price shows zero in *[!UI
 
 ## Issue
 
-The product price shows zero in *[!UICONTROL Products in Carts]* report.
+A restricted admin user can't mass update [!UICONTROL Product Review status].
 
 <u>Steps to reproduce</u>:
 
-1. Set **[!UICONTROL Catalog Price Scope]** to **[!UICONTROL Website]** from **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]** > **[!UICONTROL Catalog Price Scope]**.
-1. Create a second website from **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
-1. Create a product from **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
-1. Assign this product to the second website only.
-1. Add a product to the cart from the second website.
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Reports]** > **[!UICONTROL Marketing]** > **[!UICONTROL Products In Carts]** grid.
-1. Check the *[!UICONTROL Price]* column in *[!UICONTROL Products In Carts]* grid.
+1. Create an additional website, store, and store view.
+1. Add a product to the 2nd store, and then add a review.
+1. Create a restricted admin user with access to only the 2nd store.
+1. Log in as the restricted admin user, then go to **[!UICONTROL  Marketings]** > **[!UICONTROL Reviews]** > **[!UICONTROL Mass Update]**, and set the **Status** to *Approved* or *Pending*.
 
 <u>Expected results</u>:
 
-Product price is not zero in *[!UICONTROL Products in Carts]* report grid.
+The restricted admin user can update reviews using the **[!UICONTROL Mass Update]** action.
 
 <u>Actual results</u>:
 
-Product price is zero in *[!UICONTROL Products in Carts]* report grid.
- 
+An error occurs while updating reviews using **[!UICONTROL Mass Update]** action.<br>
+The `var/log/exception.log` contains a similar error:
+
+```
+report.CRITICAL: TypeError: array_intersect(): Argument #1 ($array) must be of type array, null given in app/code/Magento/AdminGws/Model/Models.php:439
+```
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

@@ -74,3 +74,7 @@ To check which patch to use:
 ## How to apply the patch
 
 Unzip the file and follow instructions in [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+
+## Related Reading
+
+[The file can’t be deleted. Warning!unlink: No such file or directory error from the Admin](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)
