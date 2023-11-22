@@ -52,7 +52,7 @@ The GraphQL product filter query is not showing partial match results.
 
 <u>Expected results</u>:
 
-It allows similar match results as in storefront advance search by adding the `match_type` ([!UICONTROL PARTIAL], [!UICONTROL FULL]) attribute to control the required results. [!UICONTROL FULL] matches complete words, and PARTIAL matches partial words like life contained in lifelong.
+It allows similar match results as in storefront advance search by adding the `match_type` ([!UICONTROL PARTIAL], [!UICONTROL FULL]) attribute to control the required results. [!UICONTROL FULL] matches complete words, and [!UICONTROL PARTIAL] matches partial words like life contained in lifelong.
 
 <u>Actual results</u>:
 
