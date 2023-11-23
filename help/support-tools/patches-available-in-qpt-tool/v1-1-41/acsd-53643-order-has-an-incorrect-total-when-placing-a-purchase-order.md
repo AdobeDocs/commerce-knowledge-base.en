@@ -33,7 +33,7 @@ The order total is incorrect when placing a purchase order with disabled or out-
 1. Clear configuration cache.
 1. Create a new company, activate it, and enable *[!UICONTROL Purchase order]* for the company.
 1. Create a new user for the company.
-1. Create an *Approval rule* to approve all orders more than *1 USD* by  the company administrator.
+1. Create an *Approval rule* to approve all orders of more than *1 USD* by the company administrator.
 1. Create an additional source.
 1. Log in as the new company user.
 1. Add two products to the cart and place a purchase order.
