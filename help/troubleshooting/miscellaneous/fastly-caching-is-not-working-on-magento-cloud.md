@@ -184,12 +184,12 @@ If you get the same result, use the curl commands and verify the response header
 
 If the issue persists, another extension is likely resetting these headers. Repeat the following procedure in Staging to disable extensions to find which one is causing the issue. After you locate the extension(s) that is causing the issue, you will need to disable the extension(s) in Production.
 
-1. To disable extensions, follow the steps given in [Manage Extensions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) section of Commerce on Cloud Infrastructure guide.
-1. Go to **[!UICONRTOL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**.
+1. To disable the extensions, follow the steps given in [Manage Extensions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) section of Commerce on Cloud Infrastructure guide.
+1. After disabling the extensions, go to **[!UICONRTOL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**.
 1. Click **[!UICONTROL Flush Magento Cache]**.
 1. Now enable one extension at a time, saving the configuration and flushing the cache.
 1. Try the curl commands and verify the response headers.
-1. Repeat steps 4 and  to enable and test the curl commands. When the Fastly headers no longer display, you have found the extension causing issues with Fastly.
+1. Repeat steps 4 and 5 to enable and test the curl commands. When the Fastly headers no longer display, you have found the extension causing issues with Fastly.
 
 When you isolate the extension that is resetting Fastly headers, contact the extension developer for additional assistance. We cannot provide fixes or updates for third-party extension developers to work with Fastly caching.
 
