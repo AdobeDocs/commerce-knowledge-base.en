@@ -185,7 +185,7 @@ If you get the same result, use the curl commands and verify the response header
 If the issue persists, another extension is likely resetting these headers. Repeat the following procedure in Staging to disable extensions to find which one is causing the issue. After you locate the extension(s) that is causing the issue, you will need to disable the extension(s) in Production.
 
 1. To disable the extensions, follow the steps given in [Manage Extensions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) section of Commerce on Cloud Infrastructure guide.
-1. After disabling the extensions, go to **[!UICONRTOL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**.
+1. After disabling the extensions, go to **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**.
 1. Click **[!UICONTROL Flush Magento Cache]**.
 1. Now enable one extension at a time, saving the configuration and flushing the cache.
 1. Try the curl commands and verify the response headers.
