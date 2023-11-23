@@ -3,6 +3,7 @@ title: 'ACSD-54660: New input attribute sort to sort customer orders in [!DNL Gr
 description: Apply the ACSD-54660 patch to fix the Adobe Commerce issue where a new input attribute `sort` added to sort customer orders in [!DNL GraphQL] by `sort_field` and `sort_direction`.
 feature: GraphQL, Orders
 role: Admin, Developer
+exl-id: 29869139-e5e2-4b00-a090-e2c6673ff9ca
 ---
 # ACSD-54660:  New input attribute sort added to sort customer orders in [!DNL GraphQL]
 
@@ -67,4 +68,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-
