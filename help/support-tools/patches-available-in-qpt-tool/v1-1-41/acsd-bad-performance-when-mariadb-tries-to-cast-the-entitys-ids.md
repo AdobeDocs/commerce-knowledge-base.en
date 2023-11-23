@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-55414: Bad performance when MariaDB tries to cast the entitys_ids'
 description: Apply the ACSD-55414 patch to fix the Adobe Commerce issue when the MariaDB tries to convert entitys_ids from string to integer, poor performance occurs.
-feature: Data Sources, SQL 
+feature: Attributes
 role: Admin, Developer
 ---
 # ACSD-55414: Bad performance when MariaDB tries to cast the entitys_ids
@@ -16,7 +16,7 @@ The ACSD-55414 patch fixes the issue where bad performance occurs issue when the
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5-p4
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5-p5
 
 >[!NOTE]
 >
@@ -28,10 +28,10 @@ The bad performance occurs when the MariaDB tries to cast the entitys_ids from s
 
 <u>Steps to reproduce</u>:
 
-1. Change value for simple products to *50000* for example (`setup/performance-toolkit/profiles/ce/small.xml`)
-1. Run in console: 
-for example,
-`bin/magento setup:perf:generate-fixtures /var/www/html/magento24/setup/performance-toolkit/profiles/ce/small.xml`
+1. Update 
+`setup/performance-toolkit/profiles/ce/small.xml` by setting *50000* simple products.
+1. Generate this profile by executing command: 
+`bin/magento setup:perf:generate-fixtures /var/www/html/magento24/setup/performance-toolkit/profiles/ce/small.xml` for example.
 1. Run reindex: 
 `bin/magento indexer:reindex catalog_product_attribute`
 
