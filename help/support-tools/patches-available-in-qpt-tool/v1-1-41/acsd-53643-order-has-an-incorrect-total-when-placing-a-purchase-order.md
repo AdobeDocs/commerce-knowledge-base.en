@@ -51,7 +51,7 @@ The order total is incorrect when placing a purchase order with disabled or out-
 
 <u>Actual results</u>:
 
-The placed order contains only the first active product, but the order total is calculated for both the products.
+The placed order contains only the first active product, but the order total is calculated for both products.
  
 ## Apply the patch
 
