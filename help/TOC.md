@@ -708,6 +708,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-54319: Product price shows zero in the [!UICONTROL Products in Carts] report](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54319-product-price-shows-zero-in-product-in-cart-report.md)
     * v1.1.41 {#v1-1-41}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.41](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/overview.md)
+        * [ACSD-53118: Cart rules with coupon not working properly](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53118-cart-rules-with-coupon-not-working-properly.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
