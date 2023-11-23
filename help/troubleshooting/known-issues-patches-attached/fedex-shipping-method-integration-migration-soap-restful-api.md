@@ -1,9 +1,10 @@
 ---
-title: "[!DNL FedEx] shipping method integration migration from SOAP to RESTful API"
+title: '[!DNL FedEx] shipping method integration migration from SOAP to RESTful API'
 promoted: true
 description: Apply a patch to deal with the [!DNL FedEx] shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
 feature: Shipping/Delivery
 role: Developer
+exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
 ---
 # [!DNL FedEx] shipping method integration migration from SOAP to RESTful API
 

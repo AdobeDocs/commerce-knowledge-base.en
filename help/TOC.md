@@ -702,12 +702,16 @@ breadcrumb-title: Commerce KB
         * [ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.md)
         * [ACSD-52657: Minicart not updated on the second storeview that uses subdomain](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.md)
         * [ACSD-54007: Undefined array key _scope error on importing customer data](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.md)
+        * [ACSD-52801: GraphQL product filter query not showing partial match results](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52801-graphql-product-filter-query-not-showing-partial-match-results.md)
         * [ACSD-54961: Restricted admin user can't mass update [!DNL Product Review status]](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.md)
         * [ACSD-55031: 'Type "mixed" cannot be nullable' error during compilation](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.md)        
         * [ACSD-54319: Product price shows zero in the [!UICONTROL Products in Carts] report](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54319-product-price-shows-zero-in-product-in-cart-report.md)
     * v1.1.41 {#v1-1-41}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.41](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/overview.md)
         * [ACSD-55414: Bad performance when MariaDB tries to cast the entitys_ids](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-bad-performance-when-mariadb-tries-to-cast-the-entitys-ids.md)
+        * [ACSD-53643: Order has an incorrect total when placing a purchase order](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.md)
+    * v1.1.42 {#v1-1-42}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
