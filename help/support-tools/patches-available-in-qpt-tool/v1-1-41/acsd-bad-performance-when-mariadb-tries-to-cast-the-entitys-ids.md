@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-55414: Bad performance when MariaDB tries to cast the `entitys_ids`
 
-The ACSD-55414 patch fixes the issue where bad performance occurs issue when the MariaDB tries to convert entitys_ids from string to integer, poor performance occurs. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed. The patch ID is ACSD-55414. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-55414 patch fixes the issue where the performance of reindexing is hampered when the MariaDB tries to convert `entitys_ids` from string to integer. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed. The patch ID is ACSD-55414. Please note that the issue is fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
