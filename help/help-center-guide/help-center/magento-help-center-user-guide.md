@@ -537,7 +537,7 @@ After providing shared access for a new user, the related information is availab
 
 <u>Cause</u>
 
-If you have/had an Adobe Commerce Cloud project and had added a user to the project, they would have been automatically granted Shared Access on the Project Owner's MAGE ID. This would normally be indicated in the **Share Name** column, showing *Cloud Shared Access from MAG[XYZ]*. 
+If you have/had an Adobe Commerce Cloud project and had added a user to the project, they would have been automatically granted Shared Access on the Project Owner's MAGE ID. This would normally be indicated in the **[!UICONTROL Share Name]** column, showing *Cloud Shared Access from MAG[XYZ]*. 
 
 If the DELETE link is missing, that means that Shared Access was automatically granted through Commerce Cloud.
 
