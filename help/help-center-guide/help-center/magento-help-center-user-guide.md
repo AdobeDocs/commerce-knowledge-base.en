@@ -320,7 +320,7 @@ Select the type of Adobe Commerce product you are working with:
 * Magento Order Management
 * Adobe Commerce Reporting: Not including [Advanced Reporting](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html)
 * Adobe Commerce [Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/overview.html)
-* Adobe Commerce Services - [Channel Manager](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html?lang=en) only
+* Adobe Commerce Services: [Channel Manager](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) only
 
 #### Implementation Type
 
