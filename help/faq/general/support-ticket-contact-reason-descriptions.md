@@ -112,7 +112,7 @@ These are the options that appear if **Adobe Commerce Cloud Infrastructure** is 
     <td>Add new domains to the Fastly service and Nginx</td>
   </tr>
   <tr>
-    <td>Disk/storage capacity request/td>
+    <td>Disk/storage capacity request</td>
     <td>Increase disk storage in Staging and/or Production environment(s) for your Adobe Commerce Cloud Pro projects</td>
   </tr>
   <tr>
