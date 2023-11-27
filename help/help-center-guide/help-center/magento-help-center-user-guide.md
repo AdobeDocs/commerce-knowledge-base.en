@@ -543,7 +543,7 @@ If the DELETE link is missing, that means that Shared Access was automatically g
 
 <u>Solution</u>
 
-It's not possible to delete the list of Shared Access users with the Share Name of *Cloud Shared Access from MAG[XYZ]* if the Shared Access wasn't added/given at this page. These are retained for informational/audit purposes.
+It's not possible to delete the list of Shared Access users with the Share Name of *Cloud Shared Access from MAG[XYZ]* if the Shared Access wasn't added/given on this page. These are retained for informational/audit purposes.
 
 However, once you have revoked the permissions on those Shared Access users, they will no longer have that access.
 
