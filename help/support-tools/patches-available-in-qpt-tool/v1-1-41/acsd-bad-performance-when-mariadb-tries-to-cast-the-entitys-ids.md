@@ -24,7 +24,7 @@ The ACSD-55414 patch fixes the issue where the performance of reindexing is hamp
 
 ## Issue
 
-The bad performance occurs when the MariaDB tries to cast the entitys_ids from string to integer.
+The performance of reindexing is hampered when the MariaDB tries to cast the `entitys_ids` from string to integer.
 
 <u>Steps to reproduce</u>:
 
