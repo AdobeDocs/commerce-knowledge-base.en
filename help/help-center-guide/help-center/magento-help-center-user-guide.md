@@ -324,7 +324,7 @@ Select the type of Adobe Commerce product you are working with:
 
 #### Implementation Type
 
-This field will only appear after you've selected **Product** = *Adobe Commerce*
+This field will only appear after you've selected **[!UICONTROL Product]** = *Adobe Commerce*
 
 Please specify your deployment method:
 
