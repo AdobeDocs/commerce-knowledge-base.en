@@ -316,7 +316,7 @@ To delete emails from CC: click **x** in a framed email.
 
 Select the type of Adobe Commerce product you are working with:
 
-* Adobe Commerce - the **Implementation Type** field will then appear after you've selected this option (see below for details)
+* Adobe Commerce: The **[!UICONTROL Implementation Type]** field will appear after you've selected this option (see below for details)
 * Magento Order Management
 * Adobe Commerce Reporting - not including [Advanced Reporting](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html?lang=en)
 * Adobe Commerce [Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/overview.html?lang=en)
