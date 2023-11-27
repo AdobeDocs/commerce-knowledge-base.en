@@ -33,7 +33,7 @@ The performance of reindexing is hampered when the MariaDB tries to cast the `en
 1. Generate this profile by executing command: 
 `bin/magento setup:perf:generate-fixtures /var/www/html/magento24/setup/performance-toolkit/profiles/ce/small.xml` for example.
 1. Run reindex: 
-`bin/magento indexer:reindex catalog_product_attribute`
+`bin/magento indexer:reindex catalog_product_attribute`.
 
 <u>Expected results</u>:
 
