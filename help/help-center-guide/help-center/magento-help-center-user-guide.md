@@ -329,7 +329,7 @@ This field will only appear after you've selected **[!UICONTROL Product]** = *Ad
 Please specify your deployment method:
 
 * *Cloud*: Choose this only if you are on Adobe Commerce on Cloud Infrastructure
-* *On-Premise* - **all self-hosted instances as well as [AWS] cloud-based hosting** (excludes Adobe Commerce on Cloud)
+* On-premises: *All self-hosted instances as well as [AWS] cloud-based hosting* (excludes Adobe Commerce on Cloud)
 
 #### Cloud Project URL
 
