@@ -348,7 +348,7 @@ Contact reasons vary by product. Choose which contact reason best fits the sympt
 #### Adobe Commerce Environment ID
 
 This field will only appear after you've selected **[!UICONTROL Contact Reason]** = *Adobe Commerce Cloud Application*, followed by **Adobe Commerce Application Contact Reason** = *[!DNL Live Search]*.
-Go to System > Services > Commerce Services Connector > SaaS Identifier, and provide the Data Space ID
+Go to **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** > **[!UICONTROL SaaS Identifier]**, and provide the *[!UICONTROL Data Space ID]*.
 
 #### (Data) Integration type (Adobe Commerce Reporting only)
 
