@@ -29,7 +29,7 @@ The performance of reindexing is hampered when the MariaDB tries to cast the `en
 <u>Steps to reproduce</u>:
 
 1. Update (continue next code line immediately)
-`setup/performance-toolkit/profiles/ce/small.xml` by setting *50000* simple products.
+`setup/performance-toolkit/profiles/ce/small.xml` by setting up *50000* simple products.
 1. Generate this profile by executing command: 
 `bin/magento setup:perf:generate-fixtures /var/www/html/magento24/setup/performance-toolkit/profiles/ce/small.xml` for example.
 1. Run reindex: 
