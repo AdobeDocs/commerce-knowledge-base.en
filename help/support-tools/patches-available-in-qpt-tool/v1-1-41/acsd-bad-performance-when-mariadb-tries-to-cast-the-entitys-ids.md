@@ -37,7 +37,7 @@ The performance of reindexing is hampered when the MariaDB tries to cast the `en
 
 <u>Expected results</u>:
 
-The reindex should take reasonable time to complete.
+The reindex takes reasonable time to complete.
 
 <u>Actual results</u>:
 
