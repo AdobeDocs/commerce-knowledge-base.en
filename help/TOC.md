@@ -711,6 +711,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-53643: Order has an incorrect total when placing a purchase order](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
+        * [ACSD-54060: Restricted admin can't save product if it's child of another product](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54060-restricted-admin-cant-save-a-product.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)

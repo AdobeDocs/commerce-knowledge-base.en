@@ -1,7 +1,7 @@
 ---
 title: "ACSD-54060: Restricted admin can't save product if it's child of another product"
 description: Apply the ACSD-54060 patch to fix the Adobe Commerce issue where a restricted admin is unable to save a product if it's a child of another product assigned to a different scope.
-feature: B2B
+feature: Admin Workspace, Roles/Permissions
 role: Admin, Developer
 ---
 # ACSD-54060: Restricted admin can't save product if it's child of another product
