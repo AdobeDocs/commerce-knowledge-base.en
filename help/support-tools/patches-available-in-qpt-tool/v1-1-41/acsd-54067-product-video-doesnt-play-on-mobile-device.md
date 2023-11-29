@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-54067: Product video does not play on mobile device'
 description: Apply the ACSD-54067 patch to fix the Adobe Commerce issue where a product video doesn't play on a mobile device.
-feature: Catalog Management, Products
+feature: Media, Products
 role: Admin, Developer
 ---
 # ACSD-54067: Product video doesn't play on a mobile device
@@ -28,7 +28,7 @@ A product video doesn't play on a mobile device.
 
 <u>Steps to reproduce</u>:
 
-1. Install *Magento Community Edition* and *Magento Enterprise Edition*.
+1. Install Adobe Commerce.
 1. Run command:
 `bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
 1. Go to **[!UICONTROL Admin product list]** page and filter by *[!UICONTROL SKU product_dynamic_120]*.
