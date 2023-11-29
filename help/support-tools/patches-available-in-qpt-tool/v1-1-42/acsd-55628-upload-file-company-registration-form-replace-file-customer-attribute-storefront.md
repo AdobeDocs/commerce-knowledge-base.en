@@ -28,7 +28,7 @@ The ACSD-55628 patch fixes the issue with uploading a file on the company regist
 
 ## Issue
 
-Issue in replacing a file for a customer attribute on the storefront.
+Unable to replace a file for a customer attribute on the storefront.
 
 <u>Steps to reproduce</u>:
 
