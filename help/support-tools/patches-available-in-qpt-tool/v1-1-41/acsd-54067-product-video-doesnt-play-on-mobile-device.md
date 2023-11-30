@@ -32,7 +32,7 @@ A product video doesn't play on a mobile device.
 1. Run the command:
 `bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
 1. Go to **[!UICONTROL Admin product list]** page and filter by *[!UICONTROL SKU product_dynamic_120]*.
-1. Open the **[!UICONTROL product page]** and go to **[!UICONTROL Images and Videos]** > Add **[!UICONTROL Video]** > Fill out **[!UICONTROL URL: `https://vimeo.com/347119375`]** > **[!UICONTROL Save]**.
+1. Open the product page and go to **[!UICONTROL Images and Videos]** > add a video > fill out the URL: https://vimeo.com/347119375 and save.
 1. Go to **[!UICONTROL Frontend]** and open the **[!UICONTROL product page]** for *[!UICONTROL product_dynamic_120]*.
 1. Set browser to **mobile device** with width *320px* and **[!UICONTROL Refresh]**.
 1. In the gallery slider, select the video and click to play it.
