@@ -29,7 +29,7 @@ A product video doesn't play on a mobile device.
 <u>Steps to reproduce</u>:
 
 1. Install Adobe Commerce.
-1. Run command:
+1. Run the command:
 `bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
 1. Go to **[!UICONTROL Admin product list]** page and filter by *[!UICONTROL SKU product_dynamic_120]*.
 1. Open the **[!UICONTROL product page]** and go to **[!UICONTROL Images and Videos]** > Add **[!UICONTROL Video]** > Fill out **[!UICONTROL URL: `https://vimeo.com/347119375`]** > **[!UICONTROL Save]**.
