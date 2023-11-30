@@ -709,7 +709,8 @@ breadcrumb-title: Commerce KB
     * v1.1.41 {#v1-1-41}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.41](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/overview.md)
         * [ACSD-53643: Order has an incorrect total when placing a purchase order](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.md)
-        * [ACSD-51819:Placing multiple orders with same quote ID](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-51819-placing-multiple-orders-with-same-quote-id.md)
+        * [ACSD-51819: Placing multiple orders with same quote ID](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-51819-placing-multiple-orders-with-same-quote-id.md)
+        * [ACSD-54067: Product video doesn't play on mobile device](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54067-product-video-doesnt-play-on-mobile-device.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
