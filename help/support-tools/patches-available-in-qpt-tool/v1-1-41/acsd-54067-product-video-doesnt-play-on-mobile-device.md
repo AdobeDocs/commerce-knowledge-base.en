@@ -34,7 +34,7 @@ A product video doesn't play on a mobile device.
 1. Go to **[!UICONTROL Admin product list]** page and filter by *[!UICONTROL SKU product_dynamic_120]*.
 1. Open the product page and go to **[!UICONTROL Images and Videos]** > add a video > fill out the URL: https://vimeo.com/347119375 and save.
 1. Go to the storefront and open the product page for *[!UICONTROL product_dynamic_120]*.
-1. Set browser to **mobile device** with width *320px* and **[!UICONTROL Refresh]**.
+1. Set the browser to *mobile device* with a width of *320px* and refresh.
 1. In the gallery slider, select the video and click to play it.
 
 <u>Expected results</u>:
