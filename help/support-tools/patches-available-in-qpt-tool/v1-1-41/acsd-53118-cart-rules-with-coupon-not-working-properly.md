@@ -24,7 +24,7 @@ The ACSD-53118 patch fixes the issue where the cart price rule is applied using 
 
 ## Issue
 
-Cart price rule is applied using coupon code while the product in the cart has an empty matching attribute. 
+Cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute. 
 
 <u>Steps to reproduce</u>:
 
