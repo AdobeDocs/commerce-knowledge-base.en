@@ -1,16 +1,16 @@
 ---
-title: 'ACSD-55112: [!UICONTROL Sumbit review] button can be clicked multiple times'
-description: Apply the ACSD-55112 patch to fix the Adobe Commerce issue where the [!UICONTROL Submit review] button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation.
+title: 'ACSD-55112: [!UICONTROL Sumbit Review] button can be clicked multiple times'
+description: Apply the ACSD-55112 patch to fix the Adobe Commerce issue where the [!UICONTROL Submit Review] button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation.
 feature: Products
 role: Admin, Developer
 ---
-# ACSD-55112: [!UICONTROL Submit review] button can be clicked multiple times
+# ACSD-55112: The [!UICONTROL Submit Review] button can be clicked multiple times
 
 >[!NOTE]
 >
 >This patch replaces the [ACSD-51890](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md) patch.
 
-The ACSD-55112 patch fixes the issue where submit review button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-55112. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55112 patch fixes the issue where the [!UICONTROL Submit Review] button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-55112. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
