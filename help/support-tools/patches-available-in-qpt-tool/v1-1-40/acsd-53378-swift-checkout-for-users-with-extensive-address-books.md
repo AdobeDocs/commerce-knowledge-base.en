@@ -24,7 +24,7 @@ The ACSD-53378 patch fixes the issue where there are performance issues caused b
 
 ## Issue
 
-Magento's performance becomes very slow if a customer has a large number of addresses.
+Adobe Commerce's performance becomes very slow if a customer has a large number of addresses.
 
 <u>Steps to reproduce</u>:
 
