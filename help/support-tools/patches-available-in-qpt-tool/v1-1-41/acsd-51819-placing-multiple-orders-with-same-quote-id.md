@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-51819: Placing multiple orders with a single quote ID'
-description: Apply the ACSD-51819 patch to fix the Adobe Commerce issue where multiple orders can be placed through the same quote id.
+description: Apply the ACSD-51819 patch to fix the Adobe Commerce issue where multiple orders can be placed through the same quote ID.
 feature: Orders, Quotes
 role: Admin
 ---
-# ACSD-51819: Placing multiple orders with a single quote id
+# ACSD-51819: Placing multiple orders with a single quote ID
 
-The ACSD-51819 patch fixes the issue where multiple orders can be placed through the same quote id. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-51819. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-51819 patch fixes the issue where multiple orders can be placed through the same quote ID. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-51819. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,16 +24,16 @@ The ACSD-51819 patch fixes the issue where multiple orders can be placed through
 
 ## Issue
 
-Multiple orders can be placed with the same quote id.
+Multiple orders can be placed with the same quote ID.
 
 <u>Steps to reproduce</u>:
 
-1. Login as a user.
+1. Log in as a user.
 1. Add items to the cart and proceed to checkout.
-1. Choose any payment method but do not click on the *Place Order* button.
+1. Choose any payment method but do not click on the **[!UICONTROL Place Order]** button.
 1. Log in to the same account in another browser.
-1. Proceed to checkout with the same items without clicking on the *place order* button.
-1. Click on the *place order* button in both the systems at the same time.
+1. Proceed to checkout with the same items without clicking on the **[!UICONTROL Place Order]** button.
+1. Click on the **[!UICONTROL Place Order]** button in both the systems at the same time.
 1. Validate the orders placed in both browsers.
 
 <u>Expected results</u>:
