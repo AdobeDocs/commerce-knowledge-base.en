@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-54626: Cannot create new purchase order rule with NUMBER_OF_SKUS via GraphQL'
 description: Apply the ACSD-54626 patch to fix the Adobe Commerce issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index.
-feature: 
+feature: Attributes, GraphQL, Purchase Orders
 role: Admin, Developer
 ---
 # ACSD-54626: Can't create new purchase order rule with NUMBER_OF_SKUS via GraphQL
