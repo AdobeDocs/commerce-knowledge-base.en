@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-54324: GraphQL requisition_lists request doesn't consider pagination settings'
-description: Apply the ACSD-54324 patch to fix the Adobe Commerce issue where the GraphQL requisition_lists request does not consider pagination settings and returns all results.
+description: Apply the ACSD-54324 patch to fix the Adobe Commerce issue where the GraphQL `requisition_lists` request does not consider pagination settings and returns all results.
 feature: 
 role: Admin, Developer
 ---
@@ -28,9 +28,14 @@ The GraphQL `requisition_lists` request does not consider pagination settings an
 
 <u>Steps to reproduce</u>:
 
-1. Login to admin and Go to Admin > Store > Configuration > General > B2B Features > Enable Requisition List, set this field to Yes
-1. Login to the frontend and go to My Requisition list from top menu or my account, create multiple requisitions ex : 7
-1. After generating customer token, run the below GraphQL requisition_lists query for customer, ensure the page size is less than the total number of requisition list created by you. Ex : 4
+1. Log in to admin, and navigate to **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**.
+
+    * Set *[!UICONTROL Enable Requisition List]* to *Yes*.
+
+1. Log in to the frontend, and go to **[!UICONTROL My Requisition Lists]** from the top menu or from **[!UICONTROL My Account]**, and create multiple requisitions (example: 7).
+1. After generating a customer token, run the below GraphQL `requisition_lists` query for the customer.
+
+    * Ensure that the page size is less than the total number of requisition lists created by you (example: 4)
 
     ```
     {
@@ -47,12 +52,16 @@ The GraphQL `requisition_lists` request does not consider pagination settings an
 
 <u>Expected results</u>:
 
-* The number listed in page size should be returned in total_count not the total number of records. 
-* Also, the number of items should be same as the page size
+* The number listed as *page size* is returned in `total_count`, not the total number of records. 
+* The number of items is same as the *page size*.
+
+Therefore, in the example above, the value of the `total_count` field should show 4.
 
 <u>Actual results</u>:
 
-Total number of records is returned for total_count, even if page size is mentioned.
+The total number of records is returned under `total_count`, even if *page size* is mentioned.
+
+In the example above, the value of the `total_count` field shows 7, and the number of items also shows 7.
 
 ## Apply the patch
 
