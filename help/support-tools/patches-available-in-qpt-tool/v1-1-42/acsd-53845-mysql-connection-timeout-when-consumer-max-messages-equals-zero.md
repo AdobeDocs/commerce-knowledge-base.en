@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-53845: MySQL connection timeout issue when consumer max_messages = 0'
-description: Apply the ACSD-53845 patch to fix the Adobe Commerce issue where MySQL connection times out when consumer max_messages = 0.
-feature: 
+description: Apply the ACSD-53845 patch to fix the Adobe Commerce issue where MySQL connection times out when consumer `max_messages = 0`.
+feature: REST
 role: Admin, Developer
 ---
-# ACSD-53845: MySQL connection timeout issue when consumer max_messages = 0
+# ACSD-53845: MySQL connection timeout issue when consumer `max_messages = 0`
 
-The ACSD-53845 patch fixes the issue where MySQL connection times out when consumer max_messages = 0. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed. The patch ID is ACSD-53845. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53845 patch fixes the issue where MySQL connection times out when consumer `max_messages = 0`. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed. The patch ID is ACSD-53845. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,9 +24,9 @@ The ACSD-53845 patch fixes the issue where MySQL connection times out when consu
 
 ## Issue
 
-MySQL connection times out issue when consumer max_messages = 0.
+MySQL connection times out when consumer `max_messages = 0`.
 
-The connection to DB will be restored when starting a transaction in case of connection timeout.
+However, connection to the database will be restored when starting a transaction.
 
 <u>Steps to reproduce</u>:
 
@@ -45,7 +45,7 @@ The products are updated.
     report.CRITICAL: Message has been rejected: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away [] []
     ```
 
-1. 'status' for this operation remains '4' in the `magento_operation` table.
+1. *'status'* for this operation remains *4* in the `magento_operation` table.
 
 ## Apply the patch
 
