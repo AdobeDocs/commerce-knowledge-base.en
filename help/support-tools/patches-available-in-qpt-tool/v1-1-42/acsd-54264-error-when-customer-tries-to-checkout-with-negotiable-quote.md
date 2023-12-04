@@ -12,7 +12,7 @@ The ACSD-54264 patch fixes the issue where an error message - "You cannot update
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.X
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
