@@ -50,18 +50,18 @@ The GraphQL `requisition_lists` request does not consider pagination settings an
     }
     ```
 
+1. Observe that the value of the `total_count` field shows 7, when it should show 4. 
+
+    The number of items also shows 7 when it should be the same as the *page size*. 
+
 <u>Expected results</u>:
 
-* The number listed as *page size* is returned in `total_count`, not the total number of records. 
+* The number listed as *page size* is returned under `total_count`, and not the total number of records. 
 * The number of items is same as the *page size*.
-
-Therefore, in the example above, the value of the `total_count` field should show 4.
 
 <u>Actual results</u>:
 
 The total number of records is returned under `total_count`, even if *page size* is mentioned.
-
-In the example above, the value of the `total_count` field shows 7, and the number of items also shows 7.
 
 ## Apply the patch
 
