@@ -28,7 +28,7 @@ The ACSD-55112 patch fixes the issue where the [!UICONTROL Submit Review] button
 
 ## Issue
 
-The [!UICONTROL Submit Review] button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation. Getting the following error:
+Getting the following error:
 
 ```JS
 _jquery.validate.js:799 Uncaught TypeError: Cannot read properties of undefined (reading 'call'). Exception occurred when checking element login-email, check the 'validate' method.
