@@ -1,22 +1,22 @@
 ---
 title: 'ACSD-54626: Cannot create new purchase order rule with NUMBER_OF_SKUS via GraphQL'
-description: Apply the ACSD-54626 patch to fix the Adobe Commerce issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index.
-feature: Attributes, GraphQL, Purchase Orders
+description: Apply the ACSD-54626 patch to fix the Adobe Commerce issue where a customer can't create a new purchase order rule (`createPurchaseOrderApprovalRule`) with the `NUMBER_OF_SKUS` attribute via GraphQL.
+feature: Attributes, B2B, GraphQL, Purchase Orders
 role: Admin, Developer
 ---
 # ACSD-54626: Can't create new purchase order rule with NUMBER_OF_SKUS via GraphQL
 
-The ACSD-54626 patch fixes the issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.38 is installed. The patch ID is ACSD-54626. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54626 patch fixes the issue where a customer can't create a new purchase order rule (`createPurchaseOrderApprovalRule`) with the `NUMBER_OF_SKUS` attribute via GraphQL. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed. The patch ID is ACSD-54626. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.3
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.3-p3
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -24,45 +24,73 @@ The ACSD-54626 patch fixes the issue where products assigned to a shared catalog
 
 ## Issue
 
-Products assigned to a shared catalog via API do not show up on the frontend after the partial indexer executes the cron job, followed by the consumer cron.
+Customer cannot create a new purchase order rule (`createPurchaseOrderApprovalRule`) with the `NUMBER_OF_SKUS` attribute via GraphQL.
+
+<u>Prerequisites</u>:
+
+Install and enable Adobe Commerce B2B modules.
 
 <u>Steps to reproduce</u>:
 
-1. Set up [!DNL RabbitMQ] as the queue service.
-1. Switch indexers to **[!UICONTROL Update on Schedule]** mode.
-1. Create a shared catalog and assign it to a company.
-1. Create a simple product and assign it to a category. Execute the partial reindex:
-
-    `bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1`
-
-1. Use the following API request to assign the created product to the shared catalog.
+1. Enable B2B company and purchase rules.
+1. Create a company with enabled purchase rules.
+1. Run the following GraphQL query:
 
     ```
-    pub/rest/all/V1/sharedCatalog/<id>/assignProducts
-    {
-        "products":[{
-            "sku": "24-MB06"
+    mutation CreatePurchaseRule {
+        createPurchaseOrderApprovalRule(
+            input: {
+                name: "Test Rule"
+                description: "description"
+                applies_to: "MQ=="
+                status: ENABLED
+                approvers: "MQ=="
+                condition: {
+                    attribute: NUMBER_OF_SKUS
+                    operator: MORE_THAN
+                    quantity: 10
+                }
             }
-        ]
+        ) {
+            uid
+            name
+            __typename
+        }
     }
     ```
 
-1. Execute the following cron to clear up the queues, and execute the partial reindex:
-
-    `bin/magento cron:run --group=consumers` 
-    
-    `bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1`
-
-1. Log in to the frontend as the company's user.
-1. Check the frontend category page.
-
 <u>Expected results</u>:
 
-The newly assigned products appear on the frontend.
+A purchase rule is created.
 
 <u>Actual results</u>:
 
-The newly assigned products do not appear on the frontend.
+The following error is thrown:
+
+```
+{
+    "errors": [
+        {
+            "message": "Required data is missing from a rule condition.",
+            "locations": [
+                {
+                    "line": 2,
+                    "column": 3
+                }
+            ],
+            "path": [
+                "createPurchaseOrderApprovalRule"
+            ],
+            "extensions": {
+                "category": "graphql-input"
+            }
+        }
+    ],
+    "data": {
+        "createPurchaseOrderApprovalRule": null
+    }
+}
+```
 
 ## Apply the patch
 
