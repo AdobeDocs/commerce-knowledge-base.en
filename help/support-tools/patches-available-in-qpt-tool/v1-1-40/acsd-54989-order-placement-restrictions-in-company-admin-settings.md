@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-54989: Company admin cannot order when Enable Purchase Orders set to Yes and Purchase Order set to No'
-description: Apply the ACSD-54989 patch to fix the Adobe Commerce B2B issue where Company Admin users cannot place orders if [!UICONTROL Enable Purchase Orders] set to 'Yes' and [!UICONTROL Purchase Order] set to 'No'.
+title: 'ACSD-54989: Company admin cannot order when [!UICONTROL Enable Purchase Orders] set to Yes and [!UICONTROL Purchase Order] set to No'
+description: Apply the ACSD-54989 patch to fix the Adobe Commerce B2B issue where Company Admin users cannot place orders if [!UICONTROL Enable Purchase Orders] set to Yes and [!UICONTROL Purchase Order] set to No.
 feature: Orders, Companies, Purchase Orders
 role: Admin
 ---
-# ACSD-54989: Company admin cannot order when Enable Purchase Orders set to Yes and Purchase Order set to No
+# ACSD-54989: Company admin cannot order when *[!UICONTROL Enable Purchase Orders]* set to *Yes* and *[!UICONTROL Purchase Order]* set to *No*
 
 The ACSD-54989 patch fixes the issue where orders cannot be placed if **[!UICONTROL Enable Purchase Orders]** set to *Yes* and **[!UICONTROL Purchase Order]** set to *No*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54989. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
