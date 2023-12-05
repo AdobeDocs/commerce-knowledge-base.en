@@ -37,7 +37,7 @@ If the configuration option "Enable search address" under "Sales > Checkout > Ch
 
 <u>Expected results</u>:
 
-Customer address count should have no impact on response time.
+Customer address count has no impact on the response time.
 
 <u>Actual results</u>:
 
