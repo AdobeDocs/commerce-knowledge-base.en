@@ -33,14 +33,14 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.html">ACSD-53643: Order has an incorrect total when placing a purchase order:</a> The ACSD-53643 patch fixes the issue where the order has an incorrect total when placing a purchase order with disabled or out-of-stock products. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.41] is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.html">ACSD-53643: Order has an incorrect total when placing a purchase order:</a> The ACSD-53643 patch fixes the issue where the order has an incorrect total when placing a purchase order with disabled or out-of-stock products. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed.
     </td>
     <td>New article</td>
     <td>December 05, 2023</td>
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54472-customers-of-rejected-company-can-still-authenticate-and-place-orders.html">ACSD-54472: Customers of a rejected company can still authenticate:</a> The ACSD-54472 patch fixes the issue where the customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.40] is installed. 
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54472-customers-of-rejected-company-can-still-authenticate-and-place-orders.html">ACSD-54472: Customers of a rejected company can still authenticate:</a> The ACSD-54472 patch fixes the issue where the customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. 
     </td>
     <td>New article</td>
     <td>December 05, 2023</td>
@@ -48,7 +48,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54680-b2b-quote-submitted-for-a-product-with-multiple-assigneda-sources.html">ACSD-54680: B2B Quote for a product with Multiple Assigned Sources can't be processed:</a> The ACSD-54680 patch fixes the issue where the B2B Quote for a product with Multiple Assigned Sources can't be processed. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.40] is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54680-b2b-quote-submitted-for-a-product-with-multiple-assigneda-sources.html">ACSD-54680: B2B Quote for a product with Multiple Assigned Sources can't be processed:</a> The ACSD-54680 patch fixes the issue where the B2B Quote for a product with Multiple Assigned Sources can't be processed. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. 
     </td>
     <td>New article </td>
     <td>December 05, 2023</td>
@@ -56,7 +56,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.html">ACSD-54961: Restricted admin user can't mass update [!UICONTROL Product Review status]:</a> The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update [!UICONTROL Product Review status]. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.40] is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.html">ACSD-54961: Restricted admin user can't mass update [!UICONTROL Product Review status]:</a> The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update [!UICONTROL Product Review status]. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. 
     </td>
     <td>New article </td>
     <td>December 05, 2023</td>
@@ -64,7 +64,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.html">ACSD-55031: <code>Type "mixed" cannot be nullable</code> error during compilation:</a> The ACSD-55031 patch fixes the issue where the <code>Type "mixed" cannot be nullable</code> error appears during compilation after installing a custom extension. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.40] is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.html">ACSD-55031: <code>Type "mixed" cannot be nullable</code> error during compilation:</a> The ACSD-55031 patch fixes the issue where the <code>Type "mixed" cannot be nullable</code> error appears during compilation after installing a custom extension. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed.
     </td>
     <td>New article </td>
     <td>December 05, 2023</td>
@@ -72,7 +72,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-52801-graphql-product-filter-query-not-showing-partial-match-results.html">ACSD-52801: GraphQL product filter query not showing partial match results:</a> The ACSD-52801 patch fixes the issue where the GraphQL product filter query doesn't show partial match results. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.40] is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-52801-graphql-product-filter-query-not-showing-partial-match-results.html">ACSD-52801: GraphQL product filter query not showing partial match results:</a> The ACSD-52801 patch fixes the issue where the GraphQL product filter query doesn't show partial match results. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. 
     </td>
     <td>New article </td>
     <td>December 05, 2023</td>
