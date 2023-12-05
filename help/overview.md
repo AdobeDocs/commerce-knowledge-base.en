@@ -33,98 +33,58 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.html">ACSD-54961: Restricted admin user can't mass update Product Review status:</a> The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update Product Review status. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.html">ACSD-53643: Order has an incorrect total when placing a purchase order:</a> The ACSD-53643 patch fixes the issue where the order has an incorrect total when placing a purchase order with disabled or out-of-stock products. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.41] is installed.
     </td>
     <td>New article</td>
-    <td>November 20, 2023</td>
+    <td>December 05, 2023</td>
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.html">ACSD-55031: <code>Type "mixed" cannot be nullable</code> error during compilation:</a> The ACSD-55031 patch fixes the issue where the <code>Type "mixed" cannot be nullable</code> error during compilation after installing a custom extension. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54472-customers-of-rejected-company-can-still-authenticate-and-place-orders.html">ACSD-54472: Customers of a rejected company can still authenticate:</a> The ACSD-54472 patch fixes the issue where the customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.40] is installed. 
     </td>
     <td>New article</td>
-    <td>November 20, 2023</td>
+    <td>December 05, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54319-product-price-shows-zero-in-product-in-cart-report.html">ACSD-54319: Product price shows zero in <em>Products in Carts</em> report:</a> The ACSD-54319 patch fixes the issue where the product price shows zero in the <em>Products in Carts</em> report. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54680-b2b-quote-submitted-for-a-product-with-multiple-assigneda-sources.html">ACSD-54680: B2B Quote for a product with Multiple Assigned Sources can't be processed:</a> The ACSD-54680 patch fixes the issue where the B2B Quote for a product with Multiple Assigned Sources can't be processed. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.40] is installed. 
     </td>
     <td>New article </td>
-    <td>November 20, 2023</td>
+    <td>December 05, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-55004-validator-crashes-while-uploading-an-import-file-larger-than-the-value.html">ACSD-55004: Validator crashes while uploading import file larger than value:</a> The ACSD-55004 patch fixes the issue where a validator crashes while uploading an import file larger than the value configured in <code>php.ini</code>. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.html">ACSD-54961: Restricted admin user can't mass update [!UICONTROL Product Review status]:</a> The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update [!UICONTROL Product Review status]. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.40] is installed. 
     </td>
     <td>New article </td>
-    <td>November 20, 2023</td>
+    <td>December 05, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-54342-error-message-when-importing-csv-file-without-valid-data.html">ACSD-54342: Error message when importing CSV file without valid data:</a> The ACSD-54342 patch fixes the issue where an incorrect error message occurs when importing a CSV file without valid data. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.html">ACSD-55031: <code>Type "mixed" cannot be nullable</code> error during compilation:</a> The ACSD-55031 patch fixes the issue where the <code>Type "mixed" cannot be nullable</code> error appears during compilation after installing a custom extension. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.40] is installed.
     </td>
     <td>New article </td>
-    <td>November 20, 2023</td>
+    <td>December 05, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-54660-new-input-attribute-sort-to-sort-customer-orders-in-graphql.html">ACSD-54660: New input attribute <em>sort</em> added to sort customer orders in GraphQL:</a> The ACSD-54660 patch fixes the issue where a new input attribute <em>sort</em> is added to sort customer orders in GraphQL by <code>sort_field</code> and <code>sort_direction</code>. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-52801-graphql-product-filter-query-not-showing-partial-match-results.html">ACSD-52801: GraphQL product filter query not showing partial match results:</a> The ACSD-52801 patch fixes the issue where the GraphQL product filter query doesn't show partial match results. This patch is available when the [!DNL Quality Patches Tool (QPT) 1.1.40] is installed. 
     </td>
     <td>New article </td>
-    <td>November 20, 2023</td>
+    <td>December 05, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.html">ACSD-54007: <em>Undefined array key _scope</em> error on importing customer data:</a> The ACSD-54007 patch fixes the issue where there is an <em>Undefined array key _scope</em> error on importing customer data. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.html">Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6:</a> This article provides solutions to address unexpected behavior when using Read Replicas on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6+.
     </td>
     <td>New article </td>
-    <td>November 20, 2023</td>
+    <td>December 05, 2023</td>
  </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.html">ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope:</a> The ACSD-53414 patch fixes the issue where a restricted admin user can see CMS pages outside their permissions scope. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
-    </td>
-    <td>New article </td>
-    <td>November 20, 2023</td>
- </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.html">ACSD-52657: Minicart not updated on the second storeview that uses subdomain:</a> The ACSD-52657 patch fixes the issue where the minicart is not updated on the second storeview that uses a subdomain. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
-    </td>
-    <td>New article </td>
-    <td>November 20, 2023</td>
- </tr>
-
-   <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-54776-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.html">ACSD-54776: Unchecked **[!UICONTROL Use Default Value]** and non-default product field values are not saved:</a> The ACSD-54776 patch fixes the issue where the unchecked **[!UICONTROL Use Default Value]** and non-default product field values are not saved for the second website, store, and store view. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
-    </td>
-    <td>New article </td>
-    <td>November 20, 2023</td>
- </tr>
-
- <tr>
-    <td>
-     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.html">FedEx shipping method integration migration from SOAP to RESTful API:</a> This article provides a patch to resolve issues with the FedEx shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
-    </td>
-    <td>New article </td>
-    <td>November 20, 2023</td>
-  </tr>
-
-   <tr>
-    <td>
-     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html">How to include a team member in Support notifications:</a> This article provides an explanation of how to include a team member to automatically receive Support updates via email notifications.
-    </td>
-    <td>New article </td>
-    <td>November 20, 2023</td>
-  </tr>
 </table>
 
 ## Popular Articles
