@@ -26,6 +26,8 @@ The ACSD-53378 patch fixes the issue where there are performance issues caused b
 
 Adobe Commerce's performance becomes very slow if a customer has a large number of addresses.
 
+If the configuration option "Enable search address" under "Sales > Checkout > Checkout Options" is activated, the complete customer address book will no longer undergo full processing. The number of customer addresses processed isdetermined by the setting "Customer Addresses Limit" under  "Sales > Checkout > Checkout Options.
+
 <u>Steps to reproduce</u>:
 
 1. Create a simple product from Admin.
