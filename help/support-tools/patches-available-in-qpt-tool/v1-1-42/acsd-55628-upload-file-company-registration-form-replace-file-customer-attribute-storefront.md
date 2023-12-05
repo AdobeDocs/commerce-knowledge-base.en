@@ -20,7 +20,7 @@ The ACSD-55628 patch fixes the issue with uploading a file on the company regist
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2-p2 - 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.2-p2 < 2.4.5 and 2.4.5-p1 < 2.4.6
 
 >[!NOTE]
 >
