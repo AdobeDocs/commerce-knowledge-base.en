@@ -1,8 +1,8 @@
 ---
 title: 'ACSD-54989: Company admin cannot order when [!UICONTROL Enable Purchase Orders] set to Yes and [!UICONTROL Purchase Order] set to No'
-description: Apply the ACSD-54989 patch to fix the Adobe Commerce B2B issue where Company Admin users cannot place orders if [!UICONTROL Enable Purchase Orders] set to Yes and [!UICONTROL Purchase Order] set to No.
+description: Apply the ACSD-54989 patch to fix the Adobe Commerce issue where company admin cannot place orders if [!UICONTROL Enable Purchase Orders] is set to Yes and [!UICONTROL Purchase Order] is set to No.
 feature: Orders, Companies, Purchase Orders
-role: Admin
+role: Admin, Developer
 ---
 # ACSD-54989: Company admin cannot order when *[!UICONTROL Enable Purchase Orders]* set to *Yes* and *[!UICONTROL Purchase Order]* set to *No*
 
@@ -32,13 +32,13 @@ Install [!DNL B2B] modules.
 
 <u>Steps to reproduce</u>:
 
-1. Enable company and leave [!UICONTROL **Order Approval Configuration]** to **[!UICONTROL purchase order**] = *No*.
+1. Enable company and leave [!UICONTROL **Order Approval Configuration]** > **[!UICONTROL Purchase Order**] = *No*.
 1. Create a simple product with a price of 100.
 1. Create a new company through the Admin.
 1. Set [!UICONTROL **Enable Purchase Orders**] to *Yes*.
 1. Log in as the company admin on the storefront.
 1. Add the created simple product to the cart.
-1. Proceed to the checkout page and click the **[!UICONTROL Place Order]** button to complete the purchase.
+1. Proceed to the checkout page and click **[!UICONTROL Place Order]** to complete the purchase.
 
 <u>Expected results</u>:
 
