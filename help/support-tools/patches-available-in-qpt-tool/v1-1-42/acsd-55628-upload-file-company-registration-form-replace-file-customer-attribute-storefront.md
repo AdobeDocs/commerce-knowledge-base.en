@@ -1,7 +1,7 @@
 ---
 title: "ACSD-55628: Uploading file on company registration form; replacing file for customer attribute on storefront"
 description: Apply the ACSD-55628 patch to fix the Adobe Commerce issue with uploading a file on the company registration form and replacing a file for a customer attribute on the storefront.
-feature: Storefront, Attributes
+feature: Storefront, Attributes, B2B, Customers
 role: Admin, Developer
 ---
 # ACSD-55628: Uploading file on company registration form; replacing file for customer attribute on storefront
