@@ -8,7 +8,7 @@ role: Admin, Developer
 
 >[!NOTE]
 >
->This patch replaces the [ACSD-51890](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md) patch.
+>This patch replaces the [ACSD-51890](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md).
 
 The ACSD-55112 patch fixes the issue where the [!UICONTROL Submit Review] button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-55112. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
