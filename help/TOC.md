@@ -706,13 +706,16 @@ breadcrumb-title: Commerce KB
         * [ACSD-54961: Restricted admin user can't mass update [!DNL Product Review status]](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.md)
         * [ACSD-55031: 'Type "mixed" cannot be nullable' error during compilation](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.md)        
         * [ACSD-54319: Product price shows zero in the [!UICONTROL Products in Carts] report](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54319-product-price-shows-zero-in-product-in-cart-report.md)
+        * [ACSD-53378: Enhanced checkout experience for customers with extensive address books](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53378-swift-checkout-for-users-with-extensive-address-books.md)
     * v1.1.41 {#v1-1-41}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.41](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/overview.md)
+        * [ACSD-53118: Cart rules with coupon not working properly](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53118-cart-rules-with-coupon-not-working-properly.md)
         * [ACSD-53643: Order has an incorrect total when placing a purchase order](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.md)
         * [ACSD-54067: Product video doesn't play on mobile device](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54067-product-video-doesnt-play-on-mobile-device.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
         * [ACSD-55112: [!UICONTROL Submit Review] button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55112-submit-review-button-can-be-clicked-multiple-times.md)
+        * [ACSD-54626: Cannot create new purchase order rule with NUMBER_OF_SKUS via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54626-cant-create-new-purchase-order-rule-with-number-of-skus-attribute-via-graphql.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
