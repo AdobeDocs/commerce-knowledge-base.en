@@ -1,12 +1,12 @@
 ---
-title: "ACSD-53658: Fixes the issue where recently viewed product data is not updated properly in the store view."
-description: Apply the ACSD 53658 patch to fix the Adobe Commerce issue where the recently viewed product data is not updated properly in the store view.
-feature: B2B
+title: "ACSD-53658: Fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view."
+description: Apply the ACSD 53658 patch to fix the Adobe Commerce issue where the **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
+feature: 
 role: Admin, Developer
 ---
-# ASCD-53658: Fixed the issue where recently viewed product data is not updated properly in the store view.
+# ASCD-53658: Fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
 
-The ASCD-53658 patch fixes the issue where recently viewed product data is not updated properly in the store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ASCD-53658. Please note that the issue is fixed in Adobe Commerce 2.4.7.
+The ASCD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ASCD-53658. Please note that the issue is fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ASCD-53658 patch fixes the issue where recently viewed product data is not u
 
 ## Issue
 
-*The recently viewed product data is not updated properly in the store view*
+*The **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view*
 
 <u>Steps to reproduce</u>:
 
@@ -32,7 +32,7 @@ The ASCD-53658 patch fixes the issue where recently viewed product data is not u
 1. Create a second store view for the default website.
 1. Create a simple product.
 1. Set a different product name for the new store view.
-1. Create a "Recently Viewed Products" widget.
+1. Create a **[!UICONTROL Recently Viewed Product]** widget.
 1. Configure this widget to display on the Home page.
 1. Open the product page on the Storefront from the default store view.
 1. Open the Home page.
