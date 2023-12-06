@@ -24,7 +24,7 @@ The ACSD-54264 patch fixes the issue where an error message *You cannot update t
 
 ## Issue
 
-An error message - "You cannot update the requested attribute. Row ID: store_id", appears when a customer tries to check out with a negotiable quote from another store view.
+An error message *You cannot update the requested attribute. Row ID: store_id* appears when a customer tries to check out with a negotiable quote from another store view.
 
 <u>Prerequisites</u>:
 
