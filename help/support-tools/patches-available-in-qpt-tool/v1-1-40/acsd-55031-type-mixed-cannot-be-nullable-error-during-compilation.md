@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-53583: Improve partial reindex performance for [!UICONTROL Category Products] and [!UICONTROL Product Categories] indexers'
-description: Apply the ACSD-53585 patch to improve the partial reindex performance for Category Products and Product Categories indexers.
-feature: Products, Categories
+title: 'ACSD-55031: `Type "mixed" cannot be nullable` error during compilation'
+description: Apply the ACSD-55031 patch to fix the Adobe Commerce issue where the  the *Type "mixed" cannot be nullable* error during compilation after installing a custom extension.
+feature: Extensions
 role: Admin, Developer
-exl-id: 1c8f7df3-379f-42d6-8b41-286d34f725d2
+exl-id: 5259c744-eb8a-44a9-b6c5-7c50abe5d092
 ---
-# ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers
+# ACSD-55031: `Type "mixed" cannot be nullable` error during compilation
 
-The ACSD-53583 patch improves the partial reindex performance of *Category Products* and *Product Categories* indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53583. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55031 patch fixes the issue where the `Type "mixed" cannot be nullable` error during compilation after installing a custom extension. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-55031. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.5-p4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p5
 
 >[!NOTE]
 >
@@ -25,22 +25,24 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 ## Issue
 
-Partial reindex takes more time than full reindex.
+The `Type "mixed" cannot be nullable` error occurs during compilation.
 
 <u>Steps to reproduce</u>:
 
-1. Turn all indexers to *Update by Schedule*.
-1. Generate data with the [!DNL Performance Toolkit] (medium profile).
-1. Make changes to all products and categories so that they are in the index backlog and all indices are idle.
-1. Perform partial reindex for *Category Products* and *Product Categories* indexers.
+1. Install a custom extension.
+1. Run the command `bin/magento setup:di:compile`.
 
 <u>Expected results</u>:
 
-Partial reindex is called once per product and takes almost the same time as full reindex, because all products and categories were changed.
+No errors occur during compilation.
 
 <u>Actual results</u>:
 
-Partial reindex is called many times per product and takes more time than full reindex.
+The `var/log/system.log` file contains the error:
+
+```
+report.ERROR: Type "mixed" cannot be nullable
+```
 
 ## Apply the patch
 

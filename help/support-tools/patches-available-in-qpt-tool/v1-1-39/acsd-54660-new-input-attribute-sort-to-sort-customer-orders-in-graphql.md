@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-53583: Improve partial reindex performance for [!UICONTROL Category Products] and [!UICONTROL Product Categories] indexers'
-description: Apply the ACSD-53585 patch to improve the partial reindex performance for Category Products and Product Categories indexers.
-feature: Products, Categories
+title: 'ACSD-54660: New input attribute sort to sort customer orders in [!DNL GraphQL]'
+description: Apply the ACSD-54660 patch to fix the Adobe Commerce issue where a new input attribute `sort` added to sort customer orders in [!DNL GraphQL] by `sort_field` and `sort_direction`.
+feature: GraphQL, Orders
 role: Admin, Developer
-exl-id: 1c8f7df3-379f-42d6-8b41-286d34f725d2
+exl-id: 29869139-e5e2-4b00-a090-e2c6673ff9ca
 ---
-# ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers
+# ACSD-54660:  New input attribute sort added to sort customer orders in [!DNL GraphQL]
 
-The ACSD-53583 patch improves the partial reindex performance of *Category Products* and *Product Categories* indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53583. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54660 patch fixes the issue where a new input attribute `sort` added to sort customer orders in [!DNL GraphQL] by `sort_field` and `sort_direction`. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.39 is installed. The patch ID is ACSD-54660. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p5
 
 >[!NOTE]
 >
@@ -25,22 +25,33 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 ## Issue
 
-Partial reindex takes more time than full reindex.
+New input attribute `sort` added to sort customer orders in [!DNL GraphQL] by `sort_field` and `sort_direction`.
 
 <u>Steps to reproduce</u>:
 
-1. Turn all indexers to *Update by Schedule*.
-1. Generate data with the [!DNL Performance Toolkit] (medium profile).
-1. Make changes to all products and categories so that they are in the index backlog and all indices are idle.
-1. Perform partial reindex for *Category Products* and *Product Categories* indexers.
+Query customer orders using [!DNL GraphQL]:
+
+```
+  {
+    customerOrders {
+      items {
+        order_number
+        id
+        created_at
+        grand_total
+        status
+      }
+    }
+  }
+```
 
 <u>Expected results</u>:
 
-Partial reindex is called once per product and takes almost the same time as full reindex, because all products and categories were changed.
+This patch adds `sort` and `sort_direction` arguments to `customer.orders`.
 
 <u>Actual results</u>:
 
-Partial reindex is called many times per product and takes more time than full reindex.
+It's not possible to sort the orders using [!DNL GraphQL].
 
 ## Apply the patch
 

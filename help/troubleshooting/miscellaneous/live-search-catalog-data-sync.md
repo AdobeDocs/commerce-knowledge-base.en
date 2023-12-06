@@ -87,7 +87,7 @@ If your product attribute data isn't synced correctly for a specific attribute c
 1. Use the following SQL query and verify that you have the data you expect in the `feed_data` column. Also, make a note of the `modified_at` timestamp.
 
     ```sql
-    select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and sto1re_view_code = '<your_ store_view_code>';
+    select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
     ```
 
 1. If you do not see the correct data, use the following command to reindex and then rerun the SQL query in step 1 to verify the data.

@@ -1,13 +1,12 @@
 ---
-title: 'ACSD-53583: Improve partial reindex performance for [!UICONTROL Category Products] and [!UICONTROL Product Categories] indexers'
-description: Apply the ACSD-53585 patch to improve the partial reindex performance for Category Products and Product Categories indexers.
-feature: Products, Categories
-role: Admin, Developer
-exl-id: 1c8f7df3-379f-42d6-8b41-286d34f725d2
+title: 'ACSD-53378: Enhanced checkout experience for customers with extensive address books'
+description: Apply the ACSD-53378 patch to fix the Adobe Commerce issue where there are performance issues caused by large customer address volumes.
+feature: Customers, Checkout
+role: Admin
 ---
-# ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers
+# ACSD-53378: Enhanced checkout experience for customers with extensive address books
 
-The ACSD-53583 patch improves the partial reindex performance of *Category Products* and *Product Categories* indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53583. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53378 patch fixes the issue where there are performance issues caused by large customer address volumes. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-53378. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -17,7 +16,7 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,22 +24,24 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 ## Issue
 
-Partial reindex takes more time than full reindex.
+Adobe Commerce's performance becomes very slow if a customer has a large number of addresses.
+
+If the configuration option *[!UICONTROL Enable search address]* under **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]** is activated, the complete customer address book will no longer undergo full processing. The number of customer addresses processed is determined by the setting *[!UICONTROL Customer Addresses Limit]* under  **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]**.
 
 <u>Steps to reproduce</u>:
 
-1. Turn all indexers to *Update by Schedule*.
-1. Generate data with the [!DNL Performance Toolkit] (medium profile).
-1. Make changes to all products and categories so that they are in the index backlog and all indices are idle.
-1. Perform partial reindex for *Category Products* and *Product Categories* indexers.
+1. Create a simple product from Admin.
+1. Create a customer with an extensive address book containing 1000 addresses.
+1. Navigate to the frontend, and add the product to the cart.
+1. Open the shopping cart page.
 
 <u>Expected results</u>:
 
-Partial reindex is called once per product and takes almost the same time as full reindex, because all products and categories were changed.
+Customer address count has no impact on the response time.
 
 <u>Actual results</u>:
 
-Partial reindex is called many times per product and takes more time than full reindex.
+The shopping cart page takes a lot of time to load.
 
 ## Apply the patch
 

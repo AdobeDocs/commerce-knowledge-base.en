@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-53583: Improve partial reindex performance for [!UICONTROL Category Products] and [!UICONTROL Product Categories] indexers'
-description: Apply the ACSD-53585 patch to improve the partial reindex performance for Category Products and Product Categories indexers.
-feature: Products, Categories
+title: 'ACSD-54342: Error message when importing CSV file without valid data'
+description: Apply the ACSD-54342 patch to fix the Adobe Commerce issue where an incorrect error message occurs when importing a CSV file without valid data.
+feature: Roles/Permissions
 role: Admin, Developer
-exl-id: 1c8f7df3-379f-42d6-8b41-286d34f725d2
+exl-id: 7f443ad8-c4b7-4294-b38f-9861e221bef2
 ---
-# ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers
+# ACSD-54342: Error message when importing CSV file without valid data
 
-The ACSD-53583 patch improves the partial reindex performance of *Category Products* and *Product Categories* indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53583. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54342 patch fixes the issue where an incorrect error message occurs when importing a CSV file without valid data. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-54342. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,22 +25,20 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 ## Issue
 
-Partial reindex takes more time than full reindex.
+An incorrect error message occurs when importing a CSV file without valid data. 
 
 <u>Steps to reproduce</u>:
 
-1. Turn all indexers to *Update by Schedule*.
-1. Generate data with the [!DNL Performance Toolkit] (medium profile).
-1. Make changes to all products and categories so that they are in the index backlog and all indices are idle.
-1. Perform partial reindex for *Category Products* and *Product Categories* indexers.
+1. Create an import file with only invalid data (Examples: [!DNL SKUs] that don't exist, invalid customer address fields, or malformed customer email addresses).
+1. Import the file, selecting to skip the validation errors.
 
 <u>Expected results</u>:
 
-Partial reindex is called once per product and takes almost the same time as full reindex, because all products and categories were changed.
+The validation fails with `There are no valid rows to import` message.
 
 <u>Actual results</u>:
 
-Partial reindex is called many times per product and takes more time than full reindex.
+The validation passes, but the import fails with `Error in data structure: values are mixed` message.
 
 ## Apply the patch
 

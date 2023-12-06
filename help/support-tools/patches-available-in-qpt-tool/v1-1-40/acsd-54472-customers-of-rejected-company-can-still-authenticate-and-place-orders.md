@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-53583: Improve partial reindex performance for [!UICONTROL Category Products] and [!UICONTROL Product Categories] indexers'
-description: Apply the ACSD-53585 patch to improve the partial reindex performance for Category Products and Product Categories indexers.
-feature: Products, Categories
+title: 'ACSD-54472: Customers of a rejected company can still authenticate'
+description: Apply the ACSD-54472 patch to fix the Adobe Commerce issue where the customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders.
+feature: B2B
 role: Admin, Developer
-exl-id: 1c8f7df3-379f-42d6-8b41-286d34f725d2
+exl-id: 76fc4553-02b1-4563-91a9-0cda99fa4c7d
 ---
-# ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers
+# ACSD-54472: Customers of a rejected company can still authenticate
 
-The ACSD-53583 patch improves the partial reindex performance of *Category Products* and *Product Categories* indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53583. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54472 patch fixes the issue where the customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54472. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,23 +25,31 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 ## Issue
 
-Partial reindex takes more time than full reindex.
+The customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders.
 
 <u>Steps to reproduce</u>:
 
-1. Turn all indexers to *Update by Schedule*.
-1. Generate data with the [!DNL Performance Toolkit] (medium profile).
-1. Make changes to all products and categories so that they are in the index backlog and all indices are idle.
-1. Perform partial reindex for *Category Products* and *Product Categories* indexers.
+1. Create a company.
+1. Add products to the cart via [!DNL GraphQL].
+1. Change the company status to *Blocked*.
+1. Send a [!DNL GraphQL] request to place the order and to create a negotiable quote.
+1. Change the company status to *Rejected*.
+1. Send a [!DNL GraphQL] request to obtain the company's user authorization token.
+1. Set customer status to *Inactive*.
+1. Send a [!DNL GraphQL] request to obtain the company's user authorization token.
 
 <u>Expected results</u>:
 
-Partial reindex is called once per product and takes almost the same time as full reindex, because all products and categories were changed.
+* Order and negotiable quote is not placed by the user of the *Blocked* company.
+* Authorization token is not obtained for the user of the *Rejected* company.
+* Authorization token is not obtained for the *Inactive* customer.
 
 <u>Actual results</u>:
 
-Partial reindex is called many times per product and takes more time than full reindex.
-
+* Order and negotiable quote is placed by the user of the *Blocked* company.
+* Authorization token is obtained for the user of the *Rejected* company.
+* Authorization token is obtained for the *Inactive* customer.
+ 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

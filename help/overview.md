@@ -33,92 +33,97 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.html">Configuring Adobe Commerce Intelligence connection for existing Cloud Starter projects:</a> This article provides a solution for when you want to configure Adobe Commerce Intelligence connection for an existing Cloud Starter project.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.html">ACSD-54961: Restricted admin user can't mass update Product Review status:</a> The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update Product Review status. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
     </td>
     <td>New article</td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html">B2B 1.4.0 installation fails on Adobe Commerce 2.4.6-p1 on-premises:</a> This article provides a workaround for the Adobe Commerce 2.4.6-p1 on-premises issue where B2B version 1.4.0 installation fails.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.html">ACSD-55031: <code>Type "mixed" cannot be nullable</code> error during compilation:</a> The ACSD-55031 patch fixes the issue where the <code>Type "mixed" cannot be nullable</code> error during compilation after installing a custom extension. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
     </td>
     <td>New article</td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.html">Vulnerabilities found by third-party security scans should go to HackerOne:</a> This article provides a solution to address vulnerabilities found by third-party security scans.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54319-product-price-shows-zero-in-product-in-cart-report.html">ACSD-54319: Product price shows zero in <em>Products in Carts</em> report:</a> The ACSD-54319 patch fixes the issue where the product price shows zero in the <em>Products in Carts</em> report. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-52613-cache-and-indexes-are-refreshed-with-no-updates.html">ACSD-52613: Cache and indexes are refreshed even with no updates:</a> The ACSD-52613 patch fixes the issue where the Adobe Commerce issue where the cache and indexes are refreshed when no updates are made to Inventory_source items by REST API. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-55004-validator-crashes-while-uploading-an-import-file-larger-than-the-value.html">ACSD-55004: Validator crashes while uploading import file larger than value:</a> The ACSD-55004 patch fixes the issue where a validator crashes while uploading an import file larger than the value configured in <code>php.ini</code>. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-52606-troubleshooting-order-pickup-notification-error.html">ACSD-52606: Error message displayed when the user clicks "Notify Order is Ready for Pickup":</a> The ACSD-52606 patch fixes the issue where an error message <em>Your order is not ready for pickup</em> is displayed when the user clicks <strong>[!UICONTROL Notify Order is Ready for Pickup]</strong>. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-54342-error-message-when-importing-csv-file-without-valid-data.html">ACSD-54342: Error message when importing CSV file without valid data:</a> The ACSD-54342 patch fixes the issue where an incorrect error message occurs when importing a CSV file without valid data. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-51574-image-not-updated-on-frontend-when-replaced-with-another-image.html">ACSD-51574: Image not updated on frontend when replaced with another image:</a> The ACSD-51574 patch fixes the issue where where the image is not updated on the frontend after replacing it with another image. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-54660-new-input-attribute-sort-to-sort-customer-orders-in-graphql.html">ACSD-54660: New input attribute <em>sort</em> added to sort customer orders in GraphQL:</a> The ACSD-54660 patch fixes the issue where a new input attribute <em>sort</em> is added to sort customer orders in GraphQL by <code>sort_field</code> and <code>sort_direction</code>. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-37/acsd-53750-broken-pipe-or-closed-connection-error.html">ACSD-53750: Broken pipe or closed connection error during multi-threaded <code>catalog_product_price</code> reindex:</a> The ACSD-53750 patch fixes the issue where a Broken pipe or closed connection error occurs during multi-threaded <code>catalog_product_price</code> reindex. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.37 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.html">ACSD-54007: <em>Undefined array key _scope</em> error on importing customer data:</a> The ACSD-54007 patch fixes the issue where there is an <em>Undefined array key _scope</em> error on importing customer data. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
  </tr>
+
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.html">Safely delete files when disk run out of space in Adobe Commerce on cloud infrastructure:</a> Learn how to safely delete files to increase disk space.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.html">ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope:</a> The ACSD-53414 patch fixes the issue where a restricted admin user can see CMS pages outside their permissions scope. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
  </tr>
+
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53098-products-assigned-to-shared-catalog-not-reflecting-on-frontend-after-partial-index.html">ACSD-53098: Products in shared catalog do not reflect on frontend:</a> The ACSD-53098 patch fixes the issue where products assigned to a shared catalog do not reflect on the frontend upon executing a partial index. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.html">ACSD-52657: Minicart not updated on the second storeview that uses subdomain:</a> The ACSD-52657 patch fixes the issue where the minicart is not updated on the second storeview that uses a subdomain. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.40 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
  </tr>
+
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53347-price-indexing-performance-gradually-degrades.html">ACSD-53347: Price indexing performance gradually degrades over time:</a> The ACSD-53347 patch fixes the issue where performance gradually degrades when reindexing prices for a large product catalog. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-39/acsd-54776-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.html">ACSD-54776: Unchecked **[!UICONTROL Use Default Value]** and non-default product field values are not saved:</a> The ACSD-54776 patch fixes the issue where the unchecked **[!UICONTROL Use Default Value]** and non-default product field values are not saved for the second website, store, and store view. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.39 is installed.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
  </tr>
+
  <tr>
     <td>
-     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-52929-redundant-request-to-re-index-default-source-items.html">ACSD-52929: Redundant request to re-index default source items:</a> The ACSD-52929 patch fixes the issue where there is a redundancy of requests to reindex default source items when the inventory indexer is configured in async mode. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.html">FedEx shipping method integration migration from SOAP to RESTful API:</a> This article provides a patch to resolve issues with the FedEx shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
   </tr>
+
    <tr>
     <td>
-     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-38/acsd-53824-deployment-is-failing-on-setup-upgrade.html">ACSD-53824: Deployment is failing on setup upgrade:</a> The ACSD-53824 patch fixes the issue where the deployment is failing on setup upgrade. This patch is available when the [!DNL Quality Patches Tool] (QPT) 1.1.38 is installed.
+     <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html">How to include a team member in Support notifications:</a> This article provides an explanation of how to include a team member to automatically receive Support updates via email notifications.
     </td>
     <td>New article </td>
-    <td>October 05, 2023</td>
+    <td>November 20, 2023</td>
   </tr>
 </table>
 

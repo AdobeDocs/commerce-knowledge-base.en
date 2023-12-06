@@ -1,19 +1,19 @@
 ---
-title: 'ACSD-53583: Improve partial reindex performance for [!UICONTROL Category Products] and [!UICONTROL Product Categories] indexers'
-description: Apply the ACSD-53585 patch to improve the partial reindex performance for Category Products and Product Categories indexers.
-feature: Products, Categories
+title: 'ACSD-52801: GraphQL product filter query not showing partial match results'
+description: Apply the ACSD-52801 patch to fix the Adobe Commerce issue where the GraphQL product filter query not showing partial match results.
+feature: Products
 role: Admin, Developer
-exl-id: 1c8f7df3-379f-42d6-8b41-286d34f725d2
+exl-id: a03a4d09-ebec-4ad0-a875-48e000a29b44
 ---
-# ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers
+# ACSD-52801: GraphQL product filter query not showing partial match results
 
-The ACSD-53583 patch improves the partial reindex performance of *Category Products* and *Product Categories* indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53583. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52801 patch fixes the issue where the GraphQL product filter query doesn't show partial match results. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-52801. Please note that the issue is fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.4-p2, 2.4.5-p4
 
 **Compatible with Adobe Commerce versions:**
 
@@ -25,22 +25,39 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 ## Issue
 
-Partial reindex takes more time than full reindex.
+The GraphQL product filter query is not showing partial match results.
 
 <u>Steps to reproduce</u>:
 
-1. Turn all indexers to *Update by Schedule*.
-1. Generate data with the [!DNL Performance Toolkit] (medium profile).
-1. Make changes to all products and categories so that they are in the index backlog and all indices are idle.
-1. Perform partial reindex for *Category Products* and *Product Categories* indexers.
+1. Install a clean instance with sample data.
+1. Run the following GraphQL query.
+
+```GraphQL
+{
+  products(
+    filter: { name: { match: "Life" } }
+    sort: { position: ASC }
+    pageSize: 100
+    currentPage: 1
+  ) {
+    total_count
+    items {
+      url_key
+      sku
+      name
+      meta_title
+    }
+  }
+}
+```
 
 <u>Expected results</u>:
 
-Partial reindex is called once per product and takes almost the same time as full reindex, because all products and categories were changed.
+It allows similar match results as in storefront advance search by adding the `match_type` ([!UICONTROL PARTIAL], [!UICONTROL FULL]) attribute to control the required results. [!UICONTROL FULL] matches complete words, and [!UICONTROL PARTIAL] matches partial words like life contained in lifelong.
 
 <u>Actual results</u>:
 
-Partial reindex is called many times per product and takes more time than full reindex.
+The product filter query does not return results of partial matches for search keywords.
 
 ## Apply the patch
 

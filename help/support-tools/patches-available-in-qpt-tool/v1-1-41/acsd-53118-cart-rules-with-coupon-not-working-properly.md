@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-53583: Improve partial reindex performance for [!UICONTROL Category Products] and [!UICONTROL Product Categories] indexers'
-description: Apply the ACSD-53585 patch to improve the partial reindex performance for Category Products and Product Categories indexers.
-feature: Products, Categories
+title: "ACSD-53118: Cart rules with coupon not working properly"
+description: Apply the ACSD-53118 patch to fix the Adobe Commerce issue where the cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute.
+feature: Shopping Cart, Price Rules
 role: Admin, Developer
-exl-id: 1c8f7df3-379f-42d6-8b41-286d34f725d2
 ---
-# ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers
+# ACSD-53118: Cart rules with coupon not working properly
 
-The ACSD-53583 patch improves the partial reindex performance of *Category Products* and *Product Categories* indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53583. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53118 patch fixes the issue where the cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-53118. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,22 +24,26 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 ## Issue
 
-Partial reindex takes more time than full reindex.
+Cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute. 
 
 <u>Steps to reproduce</u>:
 
-1. Turn all indexers to *Update by Schedule*.
-1. Generate data with the [!DNL Performance Toolkit] (medium profile).
-1. Make changes to all products and categories so that they are in the index backlog and all indices are idle.
-1. Perform partial reindex for *Category Products* and *Product Categories* indexers.
+1. Create a price attribute and add it to the attribute set. Make the attribute usable in promo rule conditions.
+1. Create a product and leave the new attribute empty.
+1. Create a cart price rule with a specific coupon and the following condition:
+
+    * If an item is FOUND in the cart with ALL of these conditions true: Attribute1 is 0.
+
+1. Add the product created in Step 2 to the cart.
+1. Use the coupon code for the cart rule created in Step 3.
 
 <u>Expected results</u>:
 
-Partial reindex is called once per product and takes almost the same time as full reindex, because all products and categories were changed.
+Discount is not applied to the shopping cart.
 
 <u>Actual results</u>:
 
-Partial reindex is called many times per product and takes more time than full reindex.
+Discount is applied to the shopping cart.
 
 ## Apply the patch
 

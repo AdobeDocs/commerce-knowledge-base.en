@@ -434,7 +434,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-45781: Store front search field not displayed on mobile](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-45781-store-front-search-field-not-displayed-on-mobile.md)
         * [ACSD-46213: Category tree request limited to 20 categories](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46213-category-tree-limited-20-categories.md)
         * [ACSD-46404: Admin user cannot log in after upgrading to 2.4.4](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46404-admin-user-cannot-log-in-after-upgrading-to-2.4.4.md)
-        * [ACSD-46912: Issue with async/bulk/V1/configurable-products/bySku/options endpoint](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46912-async-bulk-v1-configurable-products-bysku-options-endpoint-issue.md)
+        * [ACSD-46192: Issue with async/bulk/V1/configurable-products/bySku/options endpoint](/help/support-tools/patches-available-in-qpt-tool/v1-1-19/acsd-46192-async-bulk-v1-configurable-products-bysku-options-endpoint-issue.md)
     * v1.1.20 {#v1-1-20}
         * [Overview: Quality Patches Tool (QPT) v1.1.20](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/overview.md)
         * [ACSD-44851: Category with subcategories not able to open or expand](/help/support-tools/patches-available-in-qpt-tool/v1-1-20/acsd-44851-category-with-subcategories-not-able-to-open-or-expand.md)
@@ -683,6 +683,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-47669: Internal server error when importing products with customizable options](/help/support-tools/patches-available-in-qpt-tool/v1-1-38/acsd-47669-customizable-product-import-error.md)
     * v1.1.39 {#v1-1-39}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.39](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/overview.md)
+        * [ACSD-54342: Error message when importing CSV file without valid data](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54342-error-message-when-importing-csv-file-without-valid-data.md)
+        * [ACSD-54660: New input attribute sort to sort customer orders in [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54660-new-input-attribute-sort-to-sort-customer-orders-in-graphql.md)
         * [ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-53583-improves-partial-reindex-performance-category-products-product-categories.md)
         * [ACSD-54026: Incorrect error message for updateCompanyRole GraphQL request](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54026-incorrect-error-message-for-updatecompanyrole-graphql-request.md)
         * [ACSD-47657: Adds a caching mechanism for AWS credentials](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-47657-adds-a-caching-mechanism-for-aws-credentials.md)
@@ -694,8 +696,25 @@ breadcrumb-title: Commerce KB
         * [ACSD-54776: Unchecked used default value and non-default product field values are not saved](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54776-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.md)
     * v1.1.40 {#v1-1-40}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.40](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/overview.md)
+        * [ACSD-54472: Customers of a rejected company can still authenticate and place orders](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54472-customers-of-rejected-company-can-still-authenticate-and-place-orders.md)
+        * [ACSD-54680: B2B Quote for a product with Multiple Assigned Sources cant be processed](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54680-b2b-quote-submitted-for-a-product-with-multiple-assigneda-sources.md)
+        * [ACSD-55004: Validator crashes while uploading an import file larger than the value](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55004-validator-crashes-while-uploading-an-import-file-larger-than-the-value.md)
+        * [ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.md)
+        * [ACSD-52657: Minicart not updated on the second storeview that uses subdomain](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.md)
         * [ACSD-54007: Undefined array key _scope error on importing customer data](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.md)
         * [ASCD-54040: Created field is blank in order details page when B2B modules are enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54040-created-field-is-blank-in-order-details-page.md)
+        * [ACSD-52801: GraphQL product filter query not showing partial match results](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52801-graphql-product-filter-query-not-showing-partial-match-results.md)
+        * [ACSD-54961: Restricted admin user can't mass update [!DNL Product Review status]](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.md)
+        * [ACSD-55031: 'Type "mixed" cannot be nullable' error during compilation](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.md)        
+        * [ACSD-54319: Product price shows zero in the [!UICONTROL Products in Carts] report](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54319-product-price-shows-zero-in-product-in-cart-report.md)
+        * [ACSD-53378: Enhanced checkout experience for customers with extensive address books](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53378-swift-checkout-for-users-with-extensive-address-books.md)
+    * v1.1.41 {#v1-1-41}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.41](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/overview.md)
+        * [ACSD-53118: Cart rules with coupon not working properly](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53118-cart-rules-with-coupon-not-working-properly.md)
+        * [ACSD-53643: Order has an incorrect total when placing a purchase order](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.md)
+        * [ACSD-54067: Product video doesn't play on mobile device](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54067-product-video-doesnt-play-on-mobile-device.md)
+    * v1.1.42 {#v1-1-42}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -733,6 +752,7 @@ breadcrumb-title: Commerce KB
     * [MySQL tables are too large](/help/troubleshooting/database/mysql-tables-are-too-large.md)
     * [Database errors related to max_allowed_packet on Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
     * [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
+    * [Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6](/help/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.md)
   * Payments {#payments}
     * [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](/help/troubleshooting/payments/magento-2.4.0-known-issue-missing-refund-label-in-klarna.md)
     * [Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2.4.0-braintree-not-in-multiple-addresses-checkout.md)
@@ -1049,6 +1069,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce 2.4.6 error placing order from Admin panel](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2.4.6-error-placing-order-from-admin-panel.md)
     * [[!UICONTROL salesRule] label issues when upgrade from versions < 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2.4.5.md)
     * [[!DNL JQuery UI] security vulnerability [!DNL CVE-2022-31160] fix for 2.4.4, 2.4.5, and 2.4.6 releases](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2.4.4-2.4.5-2.4.6.md)
+    * [[!DNL FedEx] shipping method integration migration from SOAP to RESTful API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
   * Elasticsearch {#elasticsearch}
     * [Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2.3.1-upgrade.md)
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
@@ -1064,6 +1085,7 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
+  * [How to include a team member in Support notifications](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
   * [Adobe Commerce Intelligence Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)

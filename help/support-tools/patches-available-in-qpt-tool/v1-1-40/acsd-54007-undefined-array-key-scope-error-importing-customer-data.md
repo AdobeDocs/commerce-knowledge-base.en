@@ -1,13 +1,13 @@
 ---
-title: "ACSD-54007: Undefined array key _scope error on importing customer data"
+title: 'ACSD-54007: Undefined array key _scope error on importing customer data'
 description: Apply the ACSD-54007 patch to fix the Adobe Commerce issue where an Undefined array key _scope error displays when importing customer data.
 feature: Data Import/Export
 role: Admin, Developer
+exl-id: b14a14fd-5021-460f-8ca9-c9845859df97
 ---
- 
 # ACSD-54007: Undefined array key _scope error on importing customer data
 
-The ACSD-54007 patch fixes the issue where there is an *Undefined array key _scope* error on importing customer data. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54007. Please note that the issue is fixed in Adobe Commerce 2.4.7.
+The ACSD-54007 patch fixes the issue where there is an *Undefined array key _scope* error on importing customer data. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54007. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
 ## Affected products and versions
 
@@ -29,7 +29,7 @@ When importing customer data, you see an *Undefined array key _scope* error.
 
 <u>Steps to reproduce</u>:
 
-1. Go to the Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** >  **[!UICONTROL Import]**, set **[!UICONTROL Entity Type]** to **[!UICONTROL Stock Sources]** and import the stock source csv file (which contains source code, SKU, quantity, and status). 
+1. Go to the Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** >  **[!UICONTROL Import]**, set **[!UICONTROL Entity Type]** to **[!UICONTROL Stock Sources]** and import the stock source csv file (which contains source code, SKU, quantity, and status).
 1. Choose Customers and Addresses (single file) and try to import the csv file, which contains the address details of the customer.
 
 <u>Expected results</u>:

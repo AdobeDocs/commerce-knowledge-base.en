@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-53583: Improve partial reindex performance for [!UICONTROL Category Products] and [!UICONTROL Product Categories] indexers'
-description: Apply the ACSD-53585 patch to improve the partial reindex performance for Category Products and Product Categories indexers.
-feature: Products, Categories
+title: 'ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope'
+description: Apply the ACSD-53414 patch to fix the Adobe Commerce issue where a restricted admin user can see CMS pages outside of their permissions scope.
+feature: CMS
 role: Admin, Developer
-exl-id: 1c8f7df3-379f-42d6-8b41-286d34f725d2
+exl-id: f8540d52-a3bb-49bb-8868-7b1db03e571b
 ---
-# ACSD-53583: Improve partial reindex performance for Category Products and Product Categories indexers
+# ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope
 
-The ACSD-53583 patch improves the partial reindex performance of *Category Products* and *Product Categories* indexers. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.39 is installed. The patch ID is ACSD-53583. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53414 patch fixes the issue where a restricted admin user can see CMS pages outside their permissions scope. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-53414. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,22 +25,28 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 
 ## Issue
 
-Partial reindex takes more time than full reindex.
+Restricted admin users can see CMS pages beyond their permissions scope.
 
 <u>Steps to reproduce</u>:
 
-1. Turn all indexers to *Update by Schedule*.
-1. Generate data with the [!DNL Performance Toolkit] (medium profile).
-1. Make changes to all products and categories so that they are in the index backlog and all indices are idle.
-1. Perform partial reindex for *Category Products* and *Product Categories* indexers.
+1. Create a new website (sub_website), store (sub_store), and storeview (sub_storeview).
+1. Create a sub_expert role, allowing the scope of sub_website and sub_store. Assign the following permissions only: [!UICONTROL Dashboard] and [!UICONTROL Pages].
+1. Create a new admin user and assign it to the sub_expert role.
+1. Assign the following CSM pages to sub_storeview and default storeview.
+
+    * [!UICONTROL 404 Not Found] > Sub storeview
+    * [!UICONTROL 503 Service Unavailable] > Default storeview
+
+1. Sign in to the Admin using the admin user created in Step 3.
+1. Check the CMS page grid.
 
 <u>Expected results</u>:
 
-Partial reindex is called once per product and takes almost the same time as full reindex, because all products and categories were changed.
+*[!UICONTROL 503 Service Unavailable]* page is not visible to the web admin.
 
 <u>Actual results</u>:
 
-Partial reindex is called many times per product and takes more time than full reindex.
+*[!UICONTROL 503 Service Unavailable]* is visible to the web admin.
 
 ## Apply the patch
 

@@ -312,9 +312,28 @@ To delete emails from CC: click **x** in a framed email.
 
 ![hc_cc_emails_remove.png](assets/hc_cc_emails_remove.png)
 
+#### Product
+
+Select the type of Adobe Commerce product you are working with:
+
+* Adobe Commerce: The **[!UICONTROL Implementation Type]** field will appear after you've selected this option (see below for details)
+* Magento Order Management
+* Adobe Commerce Reporting: Not including [Advanced Reporting](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html)
+* Adobe Commerce [Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/overview.html)
+* Adobe Commerce Services: [Channel Manager](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) only
+
+#### Implementation Type
+
+This field will only appear after you've selected **[!UICONTROL Product]** = *Adobe Commerce*
+
+Please specify your deployment method:
+
+* Cloud: Choose this only if you are on Adobe Commerce on Cloud Infrastructure
+* On-premises: *All self-hosted instances as well as [AWS] cloud-based hosting* (excludes Adobe Commerce on Cloud)
+
 #### Cloud Project URL
 
-Please provide the URL for the Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`. If you have access to the [Onboarding UI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html), please make sure that you provide the Cloud Project Web URL specified at `https://cloud.magento.com/project/<xyz>/develop/infrastructure` (where `<xyz>` is the unique onboarding project ID), not the URL to the Onboarding UI itself.
+Please provide the URL for the Adobe Commerce Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`. If you have access to the [Onboarding UI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html), please make sure that you provide the Cloud Project Web URL specified at `https://cloud.magento.com/project/<xyz>/develop/infrastructure` (where `<xyz>` is the unique onboarding project ID), not the URL to the Onboarding UI itself.
 
 Another method to obtain the Project URL is as follows:
 
@@ -325,6 +344,11 @@ Another method to obtain the Project URL is as follows:
 #### Contact reason
 
 Contact reasons vary by product. Choose which contact reason best fits the symptoms you are experiencing. Refer to the [Support ticket Contact Reason descriptions](/help/faq/general/support-ticket-contact-reason-descriptions.md) article to learn more about what contact reason you should choose.
+
+#### Adobe Commerce Environment ID
+
+This field will only appear after you've selected **[!UICONTROL Contact Reason]** = *Adobe Commerce Cloud Application*, followed by **Adobe Commerce Application Contact Reason** = *[!DNL Live Search]*.
+Go to **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** > **[!UICONTROL SaaS Identifier]**, and provide the *[!UICONTROL Data Space ID]*.
 
 #### (Data) Integration type (Adobe Commerce Reporting only)
 
@@ -345,17 +369,6 @@ Select the **environment type** on which you face the problem:
 * Production
 
 Read more about Adobe Commerce on cloud infrastructure environments in the [Pro architecture](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html) article in our user guide.
-
-#### Implementation Type
-
-Please specify your deployment method:
-
-* *Cloud* - choose this only if you are on Adobe Commerce on Cloud Infrastructure
-* *On-Premise* - **all self-hosted instances as well as [AWS] cloud-based hosting** (excludes Adobe Commerce on Cloud)
-
-#### Adobe Commerce Environment ID
-
-This field will only appear after you've selected **Contact Reason** = *Adobe Commerce Cloud Application*, followed by **Adobe Commerce Application Contact Reason** = *Live Search*.
 
 #### Number of orders affected (MOM only)
 
@@ -385,16 +398,7 @@ This field appears when your account is associated with more than one organizati
 
 In addition, this would allow us to quickly cross reference similar/duplicated/related tickets submitted for this organization in the past and identify clues that might help with investigating and resolving the current ticket.
 
-If you do have Shared Access to multiple organizations but this field is not available, refer to https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#merchant-not-displayed
-
-#### Product
-
-Select the type of Adobe Commerce product you are working with:
-
-* Adobe Commerce (Cloud)
-* Adobe Commerce (On Premises)
-* Magento Order Management
-* Adobe Commerce Payment Services
+If you do have Shared Access to multiple organizations but this field is not available, refer to [Ticket submission form: merchant is not displayed in Organization drop-down](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#merchant-not-displayed)
 
 #### Partner name (Merchant name)
 
@@ -537,11 +541,13 @@ After providing shared access for a new user, the related information is availab
 
 <u>Cause</u>
 
-If you have/had an Adobe Commerce Cloud project and had added a user to the project, they would have been automatically granted Shared Access on your Primary MAGE ID. This would be indicated in the **Share Name** column, showing *Cloud Shared Access from MAG[XYZ]*.
+If you have/had an Adobe Commerce Cloud project and had added a user to the project, they would have been automatically granted Shared Access on the Project Owner's MAGE ID. This would normally be indicated in the **[!UICONTROL Share Name]** column, showing *Cloud Shared Access from MAG[XYZ]*. 
+
+If the DELETE link is missing, that means that Shared Access was automatically granted through Commerce Cloud.
 
 <u>Solution</u>
 
-It's not possible to delete the list of Shared Access users with the Share Name of *Cloud Shared Access from MAG[XYZ]*. These are retained for informational/audit purposes.
+It's not possible to delete the list of Shared Access users with the Share Name of *Cloud Shared Access from MAG[XYZ]* if the Shared Access wasn't added/given on this page. These are retained for informational/audit purposes.
 
 However, once you have revoked the permissions on those Shared Access users, they will no longer have that access.
 
