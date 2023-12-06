@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-54264: Error appears when customer tries to checkout with negotiable quote
 
-The ACSD-54264 patch fixes the issue where an error message - "You cannot update the requested attribute. Row ID: store_id", appears when a customer tries to check out with a negotiable quote from another store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-54264. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54264 patch fixes the issue where an error message *You cannot update the requested attribute. Row ID: store_id* appears when a customer tries to check out with a negotiable quote from another store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-54264. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
