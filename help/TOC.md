@@ -709,6 +709,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-53378: Enhanced checkout experience for customers with extensive address books](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53378-swift-checkout-for-users-with-extensive-address-books.md)
     * v1.1.41 {#v1-1-41}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.41](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/overview.md)
+        * [ACSD-55414: Bad performance when MariaDB tries to cast the entitys_ids](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-55414-bad-performance-when-mariadb-tries-to-cast-the-entitys-ids.md)
         * [ACSD-53118: Cart rules with coupon not working properly](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53118-cart-rules-with-coupon-not-working-properly.md)
         * [ACSD-53643: Order has an incorrect total when placing a purchase order](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.md)
         * [ACSD-54067: Product video doesn't play on mobile device](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54067-product-video-doesnt-play-on-mobile-device.md)
