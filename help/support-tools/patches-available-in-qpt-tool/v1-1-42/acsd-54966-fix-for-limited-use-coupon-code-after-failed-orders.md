@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-54966: Fix for reusing coupon codes after failed orders'
-description: Apply the ACSD-54966 patch to fix the Adobe Commerce issue preventing the reuse of coupon codes limited per customer following a previous failed order.
+description: Apply the ACSD-54966 patch to fix the Adobe Commerce issue preventing the reuse of coupon codes limited per promotions and shopping cart following a previous failed order.
 feature: Customers, Orders
 role: Admin, Developer
 ---
 # ACSD-54966: Fix for reusing coupon codes after failed orders
 
-The ACSD-54966 patch fixes the issue preventing the reuse of coupon codes limited per customer following a previous failed order.. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-54966. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54966 patch fixes the issue preventing the reuse of coupon codes limited per customer following a previous failed order. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-54966. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
