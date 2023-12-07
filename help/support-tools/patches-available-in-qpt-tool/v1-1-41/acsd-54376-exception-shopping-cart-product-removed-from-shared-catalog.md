@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-54376: Exception in shopping cart when product removed from [!UICONTROL shared catalog]
 
-The ACSD-54376 patch fixes the issue where an exception happens on the shopping cart when a product is removed from the shared catalog after being added to the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-54376. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54376 patch fixes the issue where an exception happens in the shopping cart when a product is removed from the [!UICONTROL shared catalog] after being added to the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-54376. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
