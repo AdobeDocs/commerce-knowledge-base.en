@@ -1,13 +1,12 @@
 ---
-title: 'ACSD-53118: Cart rules with coupon not working properly'
-description: Apply the ACSD-53118 patch to fix the Adobe Commerce issue where the cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute.
-feature: Shopping Cart, Price Rules
+title: 'ACSD-54324: GraphQL requisition_lists request does not consider pagination settings'
+description: Apply the ACSD-54324 patch to fix the Adobe Commerce issue where the GraphQL `requisition_lists` request does not consider pagination settings and returns all results.
+feature: B2B, Customers, GraphQL
 role: Admin, Developer
-exl-id: a660ddb3-03fc-4460-b2a8-8e851f57e7a9
 ---
-# ACSD-53118: Cart rules with coupon not working properly
+# ACSD-54324: GraphQL `requisition_lists` request doesn't consider pagination settings
 
-The ACSD-53118 patch fixes the issue where the cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-53118. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54324 patch fixes the issue where the GraphQL `requisition_lists` request does not consider pagination settings and returns all results. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed. The patch ID is ACSD-54324. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -17,7 +16,7 @@ The ACSD-53118 patch fixes the issue where the cart price rule is applied using 
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,26 +24,44 @@ The ACSD-53118 patch fixes the issue where the cart price rule is applied using 
 
 ## Issue
 
-Cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute. 
+The GraphQL `requisition_lists` request does not consider pagination settings and returns all results.
 
 <u>Steps to reproduce</u>:
 
-1. Create a price attribute and add it to the attribute set. Make the attribute usable in promo rule conditions.
-1. Create a product and leave the new attribute empty.
-1. Create a cart price rule with a specific coupon and the following condition:
+1. Log in to admin, and navigate to **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**.
 
-    * If an item is FOUND in the cart with ALL of these conditions true: Attribute1 is 0.
+    * Set *[!UICONTROL Enable Requisition List]* to *Yes*.
 
-1. Add the product created in Step 2 to the cart.
-1. Use the coupon code for the cart rule created in Step 3.
+1. Log in to the frontend, and go to **[!UICONTROL My Requisition Lists]** from the top menu or from **[!UICONTROL My Account]**, and create multiple requisitions (example: 7).
+1. After generating a customer token, run the below GraphQL `requisition_lists` query for the customer.
+
+    * Ensure that the page size is less than the total number of requisition lists created by you (example: 4)
+
+    ```
+    {
+    customer {
+    requisition_lists(pageSize: 4, currentPage: 1) {
+    items
+
+    { uid name description updated_at items_count }
+    total_count
+    }
+    }
+    }
+    ```
+
+1. Observe that the value of the `total_count` field shows 7, when it should show 4. 
+
+    The number of items also shows 7 when it should be the same as the *page size*. 
 
 <u>Expected results</u>:
 
-Discount is not applied to the shopping cart.
+* The number listed as *page size* is returned under `total_count` and not the total number of records. 
+* The number of items is the same as the *page size*.
 
 <u>Actual results</u>:
 
-Discount is applied to the shopping cart.
+The total number of records is returned under `total_count`, even if *page size* is mentioned.
 
 ## Apply the patch
 

@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-53378: Enhanced checkout experience for customers with extensive address books'
-description: Apply the ACSD-53378 patch to fix the Adobe Commerce issue where there are performance issues caused by large customer address volumes.
-feature: Customers, Checkout
-role: Admin
-exl-id: 561462fd-844b-40e0-9ccd-25f7aa9be161
+title: 'ACSD-54376: Exception in shopping cart when product removed from [!UICONTROL shared catalog]'
+description: Apply the ACSD-54376 patch to fix the Adobe Commerce issue where an exception happens in the shopping cart when a product is removed from the [!UICONTROL shared catalog] after being added to the cart.
+feature: Shopping Cart, B2B
+role: Admin, Developer
+exl-id: a1e5c084-532f-49e8-ab87-6674b44218e8
 ---
-# ACSD-53378: Enhanced checkout experience for customers with extensive address books
+# ACSD-54376: Exception in shopping cart when product removed from [!UICONTROL shared catalog]
 
-The ACSD-53378 patch fixes the issue where there are performance issues caused by large customer address volumes. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-53378. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54376 patch fixes the issue where an exception happens in the shopping cart when a product is removed from the [!UICONTROL shared catalog] after being added to the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-54376. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.5
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,24 +25,24 @@ The ACSD-53378 patch fixes the issue where there are performance issues caused b
 
 ## Issue
 
-Adobe Commerce's performance becomes very slow if a customer has a large number of addresses.
-
-If the configuration option *[!UICONTROL Enable search address]* under **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]** is activated, the complete customer address book will no longer undergo full processing. The number of customer addresses processed is determined by the setting *[!UICONTROL Customer Addresses Limit]* under  **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]**.
+An exception happens in the shopping cart when a product is removed from the [!UICONTROL shared catalog] after being added to the cart.
 
 <u>Steps to reproduce</u>:
 
-1. Create a simple product from Admin.
-1. Create a customer with an extensive address book containing 1000 addresses.
-1. Navigate to the frontend, and add the product to the cart.
-1. Open the shopping cart page.
+1. Install Adobe Commerce with B2B.
+1. Enable [!UICONTROL shared catalog].
+1. Create a product and assign it to the default [!UICONTROL shared catalog].
+1. Add a product to the cart from the storefront.
+1. Remove the product from the [!UICONTROL shared catalog].
+1. Navigate to the checkout page using the mini-cart drop-down.
 
 <u>Expected results</u>:
 
-Customer address count has no impact on the response time.
+Exceptions are handled and not displayed to you.
 
 <u>Actual results</u>:
 
-The shopping cart page takes a lot of time to load.
+An unhandled exception is displayed on the checkout page.
 
 ## Apply the patch
 
