@@ -48,7 +48,7 @@ Scheduled update for website A does not impact website B's price.
 
 <u>Actual results</u>:
 
-After the scheduled update, the price of the bundled product option on website B is changed to $0.
+After the scheduled update, the price of the bundled product option on website B is changed to **$0**.
 
 ## Apply the patch
 
