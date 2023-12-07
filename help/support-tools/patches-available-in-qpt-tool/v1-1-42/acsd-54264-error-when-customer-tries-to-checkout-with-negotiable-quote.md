@@ -39,7 +39,7 @@ Adobe Commerce B2B modules are installed and enabled.
 1. Submit the quote for review.
 1. As an admin user, go to **[!UICONTROL Sales]** > **[!UICONTROL Quotes]** and submit the approved quote.
 1. As the company customer, change the store view to a different store view.
-1. Try to checkout.
+1. Try to check out.
 
 <u>Expected results</u>:
 
