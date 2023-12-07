@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-54067: Product video does not play on mobile device'
-description: Apply the ACSD-54067 patch to fix the Adobe Commerce issue where a product video doesn't play on a mobile device.
-feature: Media, Products
+title: 'ACSD-54989: Company admin cannot order when [!UICONTROL Enable Purchase Orders] set to Yes and [!UICONTROL Purchase Order] set to No'
+description: Apply the ACSD-54989 patch to fix the Adobe Commerce issue where company admin cannot place orders if [!UICONTROL Enable Purchase Orders] is set to Yes and [!UICONTROL Purchase Order] is set to No.
+feature: Orders, Companies, Purchase Orders
 role: Admin, Developer
-exl-id: 369650ef-bcce-47c5-bbfe-39f3c2b1d73f
+exl-id: c2850409-d310-4681-80ec-af8ba347854c
 ---
-# ACSD-54067: Product video doesn't play on a mobile device
+# ACSD-54989: Company admin cannot order when *[!UICONTROL Enable Purchase Orders]* set to *Yes* and *[!UICONTROL Purchase Order]* set to *No*
 
-The ACSD-54067 patch fixes the issue where a product video doesn't play on a mobile device. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-54067. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54989 patch fixes the issue where orders cannot be placed if **[!UICONTROL Enable Purchase Orders]** set to *Yes* and **[!UICONTROL Purchase Order]** set to *No*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54989. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.4-p5 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,27 +25,30 @@ The ACSD-54067 patch fixes the issue where a product video doesn't play on a mob
 
 ## Issue
 
-A product video doesn't play on a mobile device.
+Company admins cannot place orders when **[!UICONTROL Enable Purchase Orders]** is set to *Yes* and **Purchase Order** set to *No*.
+
+<u>Prerequisites</u>:
+
+Install [!DNL B2B] modules.
 
 <u>Steps to reproduce</u>:
 
-1. Install Adobe Commerce.
-1. Run the command:
-`bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
-1. Go to **[!UICONTROL Admin product list]** page and filter by *[!UICONTROL SKU product_dynamic_120]*.
-1. Open the product page and go to **[!UICONTROL Images and Videos]** > add a video > fill out the URL: https://vimeo.com/347119375 and save.
-1. Go to the storefront and open the product page for *[!UICONTROL product_dynamic_120]*.
-1. Set the browser to *mobile device* with a width of *320px* and refresh.
-1. In the gallery slider, select the video and click to play it.
+1. Enable company and leave [!UICONTROL **Order Approval Configuration]** > **[!UICONTROL Purchase Order**] = *No*.
+1. Create a simple product with a price of 100.
+1. Create a new company through the Admin.
+1. Set [!UICONTROL **Enable Purchase Orders**] to *Yes*.
+1. Log in as the company admin on the storefront.
+1. Add the created simple product to the cart.
+1. Proceed to the checkout page and click **[!UICONTROL Place Order]** to complete the purchase.
 
 <u>Expected results</u>:
 
-The product video plays.
+You are able to place an order successfully.
 
 <u>Actual results</u>:
 
-The product video doesn't play.
- 
+The **[!UICONTROL My Account]** page opens up and the order is not placed.
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-54067: Product video does not play on mobile device'
-description: Apply the ACSD-54067 patch to fix the Adobe Commerce issue where a product video doesn't play on a mobile device.
-feature: Media, Products
+title: 'ACSD-54376: Exception in shopping cart when product removed from [!UICONTROL shared catalog]'
+description: Apply the ACSD-54376 patch to fix the Adobe Commerce issue where an exception happens in the shopping cart when a product is removed from the [!UICONTROL shared catalog] after being added to the cart.
+feature: Shopping Cart, B2B
 role: Admin, Developer
-exl-id: 369650ef-bcce-47c5-bbfe-39f3c2b1d73f
+exl-id: a1e5c084-532f-49e8-ab87-6674b44218e8
 ---
-# ACSD-54067: Product video doesn't play on a mobile device
+# ACSD-54376: Exception in shopping cart when product removed from [!UICONTROL shared catalog]
 
-The ACSD-54067 patch fixes the issue where a product video doesn't play on a mobile device. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-54067. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54376 patch fixes the issue where an exception happens in the shopping cart when a product is removed from the [!UICONTROL shared catalog] after being added to the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-54376. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.5
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,27 +25,25 @@ The ACSD-54067 patch fixes the issue where a product video doesn't play on a mob
 
 ## Issue
 
-A product video doesn't play on a mobile device.
+An exception happens in the shopping cart when a product is removed from the [!UICONTROL shared catalog] after being added to the cart.
 
 <u>Steps to reproduce</u>:
 
-1. Install Adobe Commerce.
-1. Run the command:
-`bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
-1. Go to **[!UICONTROL Admin product list]** page and filter by *[!UICONTROL SKU product_dynamic_120]*.
-1. Open the product page and go to **[!UICONTROL Images and Videos]** > add a video > fill out the URL: https://vimeo.com/347119375 and save.
-1. Go to the storefront and open the product page for *[!UICONTROL product_dynamic_120]*.
-1. Set the browser to *mobile device* with a width of *320px* and refresh.
-1. In the gallery slider, select the video and click to play it.
+1. Install Adobe Commerce with B2B.
+1. Enable [!UICONTROL shared catalog].
+1. Create a product and assign it to the default [!UICONTROL shared catalog].
+1. Add a product to the cart from the storefront.
+1. Remove the product from the [!UICONTROL shared catalog].
+1. Navigate to the checkout page using the mini-cart drop-down.
 
 <u>Expected results</u>:
 
-The product video plays.
+Exceptions are handled and not displayed to you.
 
 <u>Actual results</u>:
 
-The product video doesn't play.
- 
+An unhandled exception is displayed on the checkout page.
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-54067: Product video does not play on mobile device'
-description: Apply the ACSD-54067 patch to fix the Adobe Commerce issue where a product video doesn't play on a mobile device.
-feature: Media, Products
+title: 'ACSD-55414: Bad performance when MariaDB tries to cast the entitys_ids'
+description: Apply the ACSD-55414 patch to fix the Adobe Commerce issue when the MariaDB tries to convert `entitys_ids` from string to integer, it hampers the performance of reindexing.
+feature: Attributes
 role: Admin, Developer
-exl-id: 369650ef-bcce-47c5-bbfe-39f3c2b1d73f
+exl-id: 008a4fda-5d80-47e2-8fb4-c1e39d15a6ba
 ---
-# ACSD-54067: Product video doesn't play on a mobile device
+# ACSD-55414: Bad performance when MariaDB tries to cast the `entitys_ids`
 
-The ACSD-54067 patch fixes the issue where a product video doesn't play on a mobile device. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-54067. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55414 patch fixes the issue where the performance of reindexing is hampered when the MariaDB tries to convert `entitys_ids` from string to integer. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed. The patch ID is ACSD-55414. Please note that the issue is fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p1
+* Adobe Commerce (all deployment methods)  2.4.5-p4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5-p5
 
 >[!NOTE]
 >
@@ -25,27 +25,22 @@ The ACSD-54067 patch fixes the issue where a product video doesn't play on a mob
 
 ## Issue
 
-A product video doesn't play on a mobile device.
+The performance of reindexing is hampered when the MariaDB tries to cast the `entitys_ids` from string to integer.
 
 <u>Steps to reproduce</u>:
 
-1. Install Adobe Commerce.
-1. Run the command:
-`bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
-1. Go to **[!UICONTROL Admin product list]** page and filter by *[!UICONTROL SKU product_dynamic_120]*.
-1. Open the product page and go to **[!UICONTROL Images and Videos]** > add a video > fill out the URL: https://vimeo.com/347119375 and save.
-1. Go to the storefront and open the product page for *[!UICONTROL product_dynamic_120]*.
-1. Set the browser to *mobile device* with a width of *320px* and refresh.
-1. In the gallery slider, select the video and click to play it.
+1. Update `setup/performance-toolkit/profiles/ce/small.xml` by setting up *50000* simple products.
+1. Generate this profile by executing command: `bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
+1. Run reindex: `bin/magento indexer:reindex catalog_product_attribute`.
 
 <u>Expected results</u>:
 
-The product video plays.
+The reindex takes reasonable time to complete.
 
 <u>Actual results</u>:
 
-The product video doesn't play.
- 
+The reindex takes too much time to complete. 
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

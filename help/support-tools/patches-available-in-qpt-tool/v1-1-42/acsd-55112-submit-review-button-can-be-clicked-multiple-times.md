@@ -1,19 +1,23 @@
 ---
-title: 'ACSD-54067: Product video does not play on mobile device'
-description: Apply the ACSD-54067 patch to fix the Adobe Commerce issue where a product video doesn't play on a mobile device.
-feature: Media, Products
+title: 'ACSD-55112: [!UICONTROL Sumbit Review] button can be clicked multiple times'
+description: Apply the ACSD-55112 patch to fix the Adobe Commerce issue where the [!UICONTROL Submit Review] button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation.
+feature: Products
 role: Admin, Developer
-exl-id: 369650ef-bcce-47c5-bbfe-39f3c2b1d73f
+exl-id: db202472-1d96-4ac0-8ecd-eab84c9f4cbf
 ---
-# ACSD-54067: Product video doesn't play on a mobile device
+# ACSD-55112: The [!UICONTROL Submit Review] button can be clicked multiple times
 
-The ACSD-54067 patch fixes the issue where a product video doesn't play on a mobile device. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-54067. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+>[!NOTE]
+>
+>This patch replaces the [ACSD-51890](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md).
+
+The ACSD-55112 patch fixes the issue where the [!UICONTROL Submit Review] button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-55112. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
@@ -25,27 +29,12 @@ The ACSD-54067 patch fixes the issue where a product video doesn't play on a mob
 
 ## Issue
 
-A product video doesn't play on a mobile device.
+Getting the following error:
 
-<u>Steps to reproduce</u>:
+```JS
+_jquery.validate.js:799 Uncaught TypeError: Cannot read properties of undefined (reading 'call'). Exception occurred when checking element login-email, check the 'validate' method.
+```
 
-1. Install Adobe Commerce.
-1. Run the command:
-`bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
-1. Go to **[!UICONTROL Admin product list]** page and filter by *[!UICONTROL SKU product_dynamic_120]*.
-1. Open the product page and go to **[!UICONTROL Images and Videos]** > add a video > fill out the URL: https://vimeo.com/347119375 and save.
-1. Go to the storefront and open the product page for *[!UICONTROL product_dynamic_120]*.
-1. Set the browser to *mobile device* with a width of *320px* and refresh.
-1. In the gallery slider, select the video and click to play it.
-
-<u>Expected results</u>:
-
-The product video plays.
-
-<u>Actual results</u>:
-
-The product video doesn't play.
- 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

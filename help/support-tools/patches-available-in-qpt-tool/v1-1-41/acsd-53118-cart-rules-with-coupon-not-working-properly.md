@@ -1,19 +1,19 @@
 ---
-title: 'ACSD-54067: Product video does not play on mobile device'
-description: Apply the ACSD-54067 patch to fix the Adobe Commerce issue where a product video doesn't play on a mobile device.
-feature: Media, Products
+title: 'ACSD-53118: Cart rules with coupon not working properly'
+description: Apply the ACSD-53118 patch to fix the Adobe Commerce issue where the cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute.
+feature: Shopping Cart, Price Rules
 role: Admin, Developer
-exl-id: 369650ef-bcce-47c5-bbfe-39f3c2b1d73f
+exl-id: a660ddb3-03fc-4460-b2a8-8e851f57e7a9
 ---
-# ACSD-54067: Product video doesn't play on a mobile device
+# ACSD-53118: Cart rules with coupon not working properly
 
-The ACSD-54067 patch fixes the issue where a product video doesn't play on a mobile device. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-54067. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53118 patch fixes the issue where the cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-53118. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
@@ -25,27 +25,27 @@ The ACSD-54067 patch fixes the issue where a product video doesn't play on a mob
 
 ## Issue
 
-A product video doesn't play on a mobile device.
+Cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute. 
 
 <u>Steps to reproduce</u>:
 
-1. Install Adobe Commerce.
-1. Run the command:
-`bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
-1. Go to **[!UICONTROL Admin product list]** page and filter by *[!UICONTROL SKU product_dynamic_120]*.
-1. Open the product page and go to **[!UICONTROL Images and Videos]** > add a video > fill out the URL: https://vimeo.com/347119375 and save.
-1. Go to the storefront and open the product page for *[!UICONTROL product_dynamic_120]*.
-1. Set the browser to *mobile device* with a width of *320px* and refresh.
-1. In the gallery slider, select the video and click to play it.
+1. Create a price attribute and add it to the attribute set. Make the attribute usable in promo rule conditions.
+1. Create a product and leave the new attribute empty.
+1. Create a cart price rule with a specific coupon and the following condition:
+
+    * If an item is FOUND in the cart with ALL of these conditions true: Attribute1 is 0.
+
+1. Add the product created in Step 2 to the cart.
+1. Use the coupon code for the cart rule created in Step 3.
 
 <u>Expected results</u>:
 
-The product video plays.
+Discount is not applied to the shopping cart.
 
 <u>Actual results</u>:
 
-The product video doesn't play.
- 
+Discount is applied to the shopping cart.
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
