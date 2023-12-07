@@ -32,7 +32,7 @@ An exception happens in the shopping cart when a product is removed from the [!U
 1. Enable [!UICONTROL shared catalog].
 1. Create a product and assign it to the default [!UICONTROL shared catalog].
 1. Add a product to the cart from the storefront.
-1. Remove the product from the shared catalog.
+1. Remove the product from the [!UICONTROL shared catalog].
 1. Navigate to the checkout page using the mini-cart drop-down.
 
 <u>Expected results</u>:
