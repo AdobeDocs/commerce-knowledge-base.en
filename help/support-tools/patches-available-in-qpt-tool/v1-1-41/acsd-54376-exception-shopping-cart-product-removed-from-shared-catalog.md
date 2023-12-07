@@ -24,7 +24,7 @@ The ACSD-54376 patch fixes the issue where an exception happens in the shopping 
 
 ## Issue
 
-An exception happens on the shopping cart when a product is removed from the shared catalog after being added to the cart.
+An exception happens in the shopping cart when a product is removed from the [!UICONTROL shared catalog] after being added to the cart.
 
 <u>Steps to reproduce</u>:
 
