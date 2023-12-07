@@ -1,6 +1,6 @@
 ---
-title: "ACSD-54040: *[!UICONTROL Created] field is blank in order details page when B2B modules are enabled."
-description: Apply the ACSD-54040 patch to fix the Adobe Commerce issue where the *[!UICONTROL Created] field is blank in order details page when B2B modules are enabled.
+title: "ACSD-54040: [!UICONTROL Created] field is blank in order details page when B2B modules are enabled."
+description: Apply the ACSD-54040 patch to fix the Adobe Commerce issue where the [!UICONTROL Created] field is blank in order details page when B2B modules are enabled.
 feature: B2B
 role: Admin, Developer
 ---
@@ -34,11 +34,11 @@ When B2B modules are enabled, you see the *[!UICONTROL Created] field is blank o
 
 <u>Expected results</u>:
 
-*[!UICONTROL Created] field contains the order created date
+[!UICONTROL Created] field contains the order created date
 
 <u>Actual results</u>:
 
-*[!UICONTROL Created] field is blank
+[!UICONTROL Created] field is blank
 
 ## Apply the patch
 
