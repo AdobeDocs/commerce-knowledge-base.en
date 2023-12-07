@@ -719,6 +719,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-54324: GraphQL requisition_lists request doesn't consider pagination settings](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54324-graphql-requisition-lists-request-doesnt-consider-pagination-settings.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
+        * [ACSD-55112: [!UICONTROL Submit Review] button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55112-submit-review-button-can-be-clicked-multiple-times.md)
         * [ASCD-54264: Error when customer tries to check out with negotiable quote](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54264-error-when-customer-tries-to-checkout-with-negotiable-quote.md)
         * [ACSD-54626: Cannot create new purchase order rule with NUMBER_OF_SKUS via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54626-cant-create-new-purchase-order-rule-with-number-of-skus-attribute-via-graphql.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
