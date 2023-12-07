@@ -7,7 +7,7 @@ hidefromtoc: yes
 feature: Cloud, Paas
 role: Developer
 ---
-# Cannot access the correct cloud project
+# Cannot access the correct cloud account/project or the project is missing from your account
 
 This article provides a fix for the following issues after a change has been made to the account ownership or the associated email addresses:
 
