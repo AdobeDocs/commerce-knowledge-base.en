@@ -37,7 +37,7 @@ The price of bundled product options changes to $0 when scheduled updates for di
 1. Add one simple product as a drop-down option for the bundle. Set the following prices:
 
     * Simple product's all store views price inside bundled option = 120
-    * Simple product's website A price inside bundled option = 130
+    * Simple product's website A price inside bundled option = *130*
     * Simple product's website B price inside bundled option = 140
 
 1. Schedule an update to disable the bundled product on website A.
