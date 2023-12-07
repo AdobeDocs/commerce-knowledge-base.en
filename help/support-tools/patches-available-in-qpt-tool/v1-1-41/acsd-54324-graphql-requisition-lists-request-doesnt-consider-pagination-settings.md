@@ -57,7 +57,7 @@ The GraphQL `requisition_lists` request does not consider pagination settings an
 <u>Expected results</u>:
 
 * The number listed as *page size* is returned under `total_count` and not the total number of records. 
-* The number of items is same as the *page size*.
+* The number of items is the same as the *page size*.
 
 <u>Actual results</u>:
 
