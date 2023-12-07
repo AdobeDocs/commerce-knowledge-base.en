@@ -28,7 +28,7 @@ When B2B modules are enabled, you see the *[!UICONTROL Created] field is blank o
 
 <u>Steps to reproduce</u>:
 
-1. Install Magento with B2B Module.
+1. Install Adobe Commerce with B2B Module.
 1. Create a new customer and place an order.
 1. Go to the order detail on frontend and check *[!UICONTROL Created]* field.
 
