@@ -714,6 +714,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-55414: Bad performance when MariaDB tries to cast the entitys_ids](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-55414-bad-performance-when-mariadb-tries-to-cast-the-entitys-ids.md)
         * [ACSD-53118: Cart rules with coupon not working properly](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53118-cart-rules-with-coupon-not-working-properly.md)
         * [ACSD-53643: Order has an incorrect total when placing a purchase order](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.md)
+        * [ACSD-53722: Bundled product options price changes to $0](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53722-bundled-product-options-price-changes-to-0.md)
         * [ACSD-54067: Product video doesn't play on mobile device](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54067-product-video-doesnt-play-on-mobile-device.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
