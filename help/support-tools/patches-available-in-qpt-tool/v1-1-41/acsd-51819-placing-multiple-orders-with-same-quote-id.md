@@ -38,7 +38,7 @@ Multiple orders can be placed with the same quote ID.
 
 <u>Expected results</u>:
 
-Only the first order placed from one browser will be successfully processed.
+Only the first order placed from one browser is successfully processed.
 
 <u>Actual results</u>:
 
