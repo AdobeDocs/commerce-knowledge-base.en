@@ -1181,6 +1181,3 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Security Scan Tool FAQ](/help/faq/general/magento-security-scan-tool-faq.md)
   * [Adobe Commerce Software End of Support FAQ](/help/faq/general/adobe-commerce-eos-policy-faq.md)
   * [Do I need Fastly for a Headless Adobe Commerce site?](/help/faq/general/do-i-need-fastly-for-a-headless-magento-site.md)
-
-
-[def]: /help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54040-created-field-is-blank-in-order-details-page.md
