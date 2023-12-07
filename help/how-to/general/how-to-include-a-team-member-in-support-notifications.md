@@ -3,6 +3,7 @@ title: How to include a team member in Support notifications
 description: This article provides an explanation of how to include a team member in Support notifications.
 feature: Cloud, Support, Admin Workspace
 role: Admin, Developer
+exl-id: 63ea3f60-a509-447c-ac3d-bb2133141c80
 ---
 # How to include a team member in Support notifications
 
@@ -35,4 +36,3 @@ If they have been added to the [!DNL cloud project], but don't have the [!DNL Su
 ## Related reading
 
 [Former team members receive Adobe Commerce cloud notification emails](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
-

@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-55031: `Type "mixed" cannot be nullable` error during compilation'
-description: Apply the ACSD-55031 patch to fix the Adobe Commerce issue where the  the *Type "mixed" cannot be nullable* error during compilation after installing a custom extension.
-feature: Extensions
+title: 'ACSD-54989: Company admin cannot order when [!UICONTROL Enable Purchase Orders] set to Yes and [!UICONTROL Purchase Order] set to No'
+description: Apply the ACSD-54989 patch to fix the Adobe Commerce issue where company admin cannot place orders if [!UICONTROL Enable Purchase Orders] is set to Yes and [!UICONTROL Purchase Order] is set to No.
+feature: Orders, Companies, Purchase Orders
 role: Admin, Developer
-exl-id: 5259c744-eb8a-44a9-b6c5-7c50abe5d092
+exl-id: c2850409-d310-4681-80ec-af8ba347854c
 ---
-# ACSD-55031: `Type "mixed" cannot be nullable` error during compilation
+# ACSD-54989: Company admin cannot order when *[!UICONTROL Enable Purchase Orders]* set to *Yes* and *[!UICONTROL Purchase Order]* set to *No*
 
-The ACSD-55031 patch fixes the issue where the `Type "mixed" cannot be nullable` error during compilation after installing a custom extension. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-55031. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-54989 patch fixes the issue where orders cannot be placed if **[!UICONTROL Enable Purchase Orders]** set to *Yes* and **[!UICONTROL Purchase Order]** set to *No*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54989. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p4
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.4-p5 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,24 +25,29 @@ The ACSD-55031 patch fixes the issue where the `Type "mixed" cannot be nullable`
 
 ## Issue
 
-The `Type "mixed" cannot be nullable` error occurs during compilation.
+Company admins cannot place orders when **[!UICONTROL Enable Purchase Orders]** is set to *Yes* and **Purchase Order** set to *No*.
+
+<u>Prerequisites</u>:
+
+Install [!DNL B2B] modules.
 
 <u>Steps to reproduce</u>:
 
-1. Install a custom extension.
-1. Run the command `bin/magento setup:di:compile`.
+1. Enable company and leave [!UICONTROL **Order Approval Configuration]** > **[!UICONTROL Purchase Order**] = *No*.
+1. Create a simple product with a price of 100.
+1. Create a new company through the Admin.
+1. Set [!UICONTROL **Enable Purchase Orders**] to *Yes*.
+1. Log in as the company admin on the storefront.
+1. Add the created simple product to the cart.
+1. Proceed to the checkout page and click **[!UICONTROL Place Order]** to complete the purchase.
 
 <u>Expected results</u>:
 
-No errors occur during compilation.
+You are able to place an order successfully.
 
 <u>Actual results</u>:
 
-The `var/log/system.log` file contains the error:
-
-```
-report.ERROR: Type "mixed" cannot be nullable
-```
+The **[!UICONTROL My Account]** page opens up and the order is not placed.
 
 ## Apply the patch
 

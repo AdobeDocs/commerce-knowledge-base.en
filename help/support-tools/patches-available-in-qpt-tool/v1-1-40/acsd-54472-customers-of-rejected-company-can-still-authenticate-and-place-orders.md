@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-55031: `Type "mixed" cannot be nullable` error during compilation'
-description: Apply the ACSD-55031 patch to fix the Adobe Commerce issue where the  the *Type "mixed" cannot be nullable* error during compilation after installing a custom extension.
-feature: Extensions
+title: 'ACSD-54472: Customers of a rejected company can still authenticate'
+description: Apply the ACSD-54472 patch to fix the Adobe Commerce issue where the customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders.
+feature: B2B
 role: Admin, Developer
-exl-id: 5259c744-eb8a-44a9-b6c5-7c50abe5d092
+exl-id: 76fc4553-02b1-4563-91a9-0cda99fa4c7d
 ---
-# ACSD-55031: `Type "mixed" cannot be nullable` error during compilation
+# ACSD-54472: Customers of a rejected company can still authenticate
 
-The ACSD-55031 patch fixes the issue where the `Type "mixed" cannot be nullable` error during compilation after installing a custom extension. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-55031. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-54472 patch fixes the issue where the customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54472. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p4
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,25 +25,31 @@ The ACSD-55031 patch fixes the issue where the `Type "mixed" cannot be nullable`
 
 ## Issue
 
-The `Type "mixed" cannot be nullable` error occurs during compilation.
+The customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders.
 
 <u>Steps to reproduce</u>:
 
-1. Install a custom extension.
-1. Run the command `bin/magento setup:di:compile`.
+1. Create a company.
+1. Add products to the cart via [!DNL GraphQL].
+1. Change the company status to *Blocked*.
+1. Send a [!DNL GraphQL] request to place the order and to create a negotiable quote.
+1. Change the company status to *Rejected*.
+1. Send a [!DNL GraphQL] request to obtain the company's user authorization token.
+1. Set customer status to *Inactive*.
+1. Send a [!DNL GraphQL] request to obtain the company's user authorization token.
 
 <u>Expected results</u>:
 
-No errors occur during compilation.
+* Order and negotiable quote is not placed by the user of the *Blocked* company.
+* Authorization token is not obtained for the user of the *Rejected* company.
+* Authorization token is not obtained for the *Inactive* customer.
 
 <u>Actual results</u>:
 
-The `var/log/system.log` file contains the error:
-
-```
-report.ERROR: Type "mixed" cannot be nullable
-```
-
+* Order and negotiable quote is placed by the user of the *Blocked* company.
+* Authorization token is obtained for the user of the *Rejected* company.
+* Authorization token is obtained for the *Inactive* customer.
+ 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

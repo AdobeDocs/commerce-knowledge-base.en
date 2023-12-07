@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-55031: `Type "mixed" cannot be nullable` error during compilation'
-description: Apply the ACSD-55031 patch to fix the Adobe Commerce issue where the  the *Type "mixed" cannot be nullable* error during compilation after installing a custom extension.
-feature: Extensions
+title: 'ACSD-55414: Bad performance when MariaDB tries to cast the entitys_ids'
+description: Apply the ACSD-55414 patch to fix the Adobe Commerce issue when the MariaDB tries to convert `entitys_ids` from string to integer, it hampers the performance of reindexing.
+feature: Attributes
 role: Admin, Developer
-exl-id: 5259c744-eb8a-44a9-b6c5-7c50abe5d092
+exl-id: 008a4fda-5d80-47e2-8fb4-c1e39d15a6ba
 ---
-# ACSD-55031: `Type "mixed" cannot be nullable` error during compilation
+# ACSD-55414: Bad performance when MariaDB tries to cast the `entitys_ids`
 
-The ACSD-55031 patch fixes the issue where the `Type "mixed" cannot be nullable` error during compilation after installing a custom extension. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-55031. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-55414 patch fixes the issue where the performance of reindexing is hampered when the MariaDB tries to convert `entitys_ids` from string to integer. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed. The patch ID is ACSD-55414. Please note that the issue is fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p4
+* Adobe Commerce (all deployment methods)  2.4.5-p4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.5-p5
 
 >[!NOTE]
 >
@@ -25,24 +25,21 @@ The ACSD-55031 patch fixes the issue where the `Type "mixed" cannot be nullable`
 
 ## Issue
 
-The `Type "mixed" cannot be nullable` error occurs during compilation.
+The performance of reindexing is hampered when the MariaDB tries to cast the `entitys_ids` from string to integer.
 
 <u>Steps to reproduce</u>:
 
-1. Install a custom extension.
-1. Run the command `bin/magento setup:di:compile`.
+1. Update `setup/performance-toolkit/profiles/ce/small.xml` by setting up *50000* simple products.
+1. Generate this profile by executing command: `bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
+1. Run reindex: `bin/magento indexer:reindex catalog_product_attribute`.
 
 <u>Expected results</u>:
 
-No errors occur during compilation.
+The reindex takes reasonable time to complete.
 
 <u>Actual results</u>:
 
-The `var/log/system.log` file contains the error:
-
-```
-report.ERROR: Type "mixed" cannot be nullable
-```
+The reindex takes too much time to complete. 
 
 ## Apply the patch
 
