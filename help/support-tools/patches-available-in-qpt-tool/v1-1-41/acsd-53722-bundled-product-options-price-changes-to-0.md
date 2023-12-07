@@ -32,7 +32,7 @@ The price of bundled product options changes to $0 when scheduled updates for di
 1. Set configuration under **[!UICONTROL Catalog]** > **[!UICONTROL Price]** > **[!UICONTROL Catalog Price Scope]** = **[!UICONTROL Website]**.
 1. Create a bundled product with a fixed price on websites A and B:
 
-    * Bundled product price = Fixed = 0
+    * Bundled product price = Fixed = *0*
 
 1. Add one simple product as a drop-down option for the bundle. Set the following prices:
 
