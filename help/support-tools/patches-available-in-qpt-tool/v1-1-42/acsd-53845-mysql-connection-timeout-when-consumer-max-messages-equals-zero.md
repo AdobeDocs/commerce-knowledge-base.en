@@ -45,7 +45,7 @@ The products are updated.
     report.CRITICAL: Message has been rejected: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away [] []
     ```
 
-1. *'status'* for this operation remains *4* in the `magento_operation` table.
+1. *status* for this operation remains *4* in the `magento_operation` table.
 
 ## Apply the patch
 
