@@ -716,6 +716,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-53643: Order has an incorrect total when placing a purchase order](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.md)
         * [ACSD-53722: Bundled product options price changes to $0](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53722-bundled-product-options-price-changes-to-0.md)
         * [ACSD-54067: Product video doesn't play on mobile device](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54067-product-video-doesnt-play-on-mobile-device.md)
+        * [ACSD-51819: Placing multiple orders with a single quote ID](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-51819-placing-multiple-orders-with-same-quote-id.md)
         * [ACSD-54324: GraphQL requisition_lists request doesn't consider pagination settings](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54324-graphql-requisition-lists-request-doesnt-consider-pagination-settings.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
