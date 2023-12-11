@@ -5,7 +5,7 @@ description: "This article provides a solution to the issue where you see an err
 
 # Deployment errors where patches are not found
 
-This article provides a solution to the issue when upgrading your instance the deployment fails and you see an error in the deployment logs: *Next patches weren't found: <MDVA-XXXXX>, <ACSD-XXXXX>. Please, check with "status" command availability of these patches for the current Magento version*
+This article provides a solution to the issue when upgrading your instance the deployment fails and you see an error in the deployment logs: *Next patches weren't found: MDVA-XXXXX, ACSD-XXXXX. Please, check with "status" command availability of these patches for the current Magento version*
 
 ## Affected products and versions
 
