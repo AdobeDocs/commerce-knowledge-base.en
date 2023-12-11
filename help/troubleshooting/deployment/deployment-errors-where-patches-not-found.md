@@ -18,7 +18,7 @@ You are experiencing an error when trying to update your Magento version. During
 
 ## Cause
 
-Previously applied patches for your older version(s) are not applicable/no longer available for your new version.
+Previously applied patches for your older version(s) are not applicable or no longer available for your new version.
 
 ## Solution
 
