@@ -29,6 +29,7 @@ Previously applied patches for your older version(s) are not applicable or no lo
        - MDVA-XXXXX
        - ACSD-XXXXX
       ```
+      
 1. Look up the patch IDs in the [Quality Patches Release Notes](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) to check whether each one can be applied to the new version of Adobe Commerce you are upgrading to. 
 1. If the patch does not apply to the new version of Adobe Commerce you want to upgrade to, remove the Patch ID from the `.magento.env.yaml` file.
 1. Once you have reviewed all the patch IDs indicated by the error, push the changes and redeploy. 
