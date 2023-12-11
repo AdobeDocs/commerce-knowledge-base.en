@@ -24,11 +24,11 @@ Previously applied patches for your older version(s) are not applicable/no longe
 
 Check your `.magento.env.yaml` file under the QUALITY_PATCHES section, e.g.,
 
-    ```yaml
+```yaml
 QUALITY_PATCHES:
-      - MDVA-12304
-      - ACSD-55100
-         ```
+      - MDVA-XXXXX
+      - ACSD-XXXXX
+ ```
 
 ## Related reading
 
