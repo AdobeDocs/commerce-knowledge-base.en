@@ -10,18 +10,18 @@ This sub-section provides a detailed description of the issues fixed by the patc
 
 QPT v1.1.43 includes the following patches:
 
-1. **ACSD-53658**: Fixes the issue where *[!UICONTROL Recently Viewed]* product data is not updated properly in the store view.
-1. **ACSD-54626**: Fixes the issue where you can't create a new purchase order rule (`createPurchaseOrderApprovalRule`) with the `NUMBER_OF_SKUS` attribute via GraphQL.
-1. **ACSD-53845**: Fixes the MySQL connection timeout issue when `consumer max_messages` = 0.
-1. **ACSD-54890**: Fixes the issue where `aggregate_sales_report_bestsellers_data` causes MySQL errors due to `/tmp` disk being out of space.
-1. **ACSD-55112**: Fixes the issue where the *[!UICONTROL Submit review]* button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation.
-1. **ACSD-54264**: Fixes the issue where the error message *You cannot update the requested attribute. Row ID: store_id* appears when a customer tries to check out with a negotiable quote from another store view.
-1. **ACSD-54418**: Fixes the issue where a fixed amount of discount is incorrectly applied to each child product of the dynamically priced bundle.
-1. **ACSD-55238**: Fixes the issue with saving the empty product meta description.
-1. **ACSD-54966**: Fixes the issue where a coupon code with a limited use per customer can't be reused if the previous order failed.
-1. **ACSD-54060**: Fixes the issue where a restricted admin can't save a product if it's a child of another product assigned to a different scope.
-1. **ACSD-48910**: Fixes the issue where a bundled product assigned to multiple sources goes out-of-stock after an order is invoiced and shipped, even if it has a non-zero quantity.
-1. **ACSD-55381**: Fixes an internal server error when querying `configurable_product_option_uid` and `configurable_product_option_value_uid` fields from a B2B *[!UICONTROL Requisition list]* via GraphQL.
-1. **ACSD-55628**: Fixes uploading a file on the company registration form and replacing a file for a customer attribute on the storefront.
+1. **ACSD-54972**: Fixes the issue where the canonical category URL doesn't update after changing the category URL.
+1. **ACSD-53636**: Fixes the issue where the regular price is not displayed on product listing pages for configurable products that have child products with special prices.
+1. **ACSD-54885**: Fixes the issue with the multiple address checkout when the admin user is using the *Login as Customer* functionality.
+1. **ACSD-55610**: Fixes the issue where a partially canceled order has an incorrect discount amount.
+1. **ACSD-55334**: Fixes translations for labels through Translation dictionaries in GraphQL response.
+1. **ACSD-54739**: Fixes the issue where the product stock status condition is not applied for related product rules.
+1. **ACSD-53925**: Fixes the issue where the admin is unable to save CMS block with product carousel when `catalog_product_price` dimensions-mode is set to *website*.
+1. **ACSD-52714**: Fixes the issue where the date filter is not working in the admin grid when the date format is set as *Y-m-d*.
+1. **ACSD-53790**: Fixes the issue where Multiple RMAs for a single product can be created via REST API.
+1. **ACSD-56090**: Fixes the issue where the GraphQL request is responding with all stores' data rather than the specifically requested store data.
+1. **ACSD-54983**: Fixes the issue where getting the company user UID with GraphQL request is not possible when the user status is set to *[!UICONTROL Inactive]*.
+1. **ACSD-53309**: Fixes the issue where tax is not fully applied in the *[!UICONTROL Regular Price]* label when the customizable option is selected.
+1. **ACSD-55305**: Fixes the issue where the *[!UICONTROL Edit Company User]* popup on the **[!UICONTROL myAccount]** > **[!UICONTROL Company Structure]** page freezes with a loader on the screen.
 
 Use the menu on the left to navigate to a specific patch page.
