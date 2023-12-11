@@ -35,7 +35,7 @@ Unable to replace a file for a customer attribute on the storefront.
 1. Create a new customer attribute with the following values:
 
     * *[!UICONTROL Input Type]*: *[!UICONTROL File (Attachment)]*
-    * *[!UICONTROL Show on Storefront]: Yes
+    * *[!UICONTROL Show on Storefront]*: *Yes*
     * *[!UICONTROL Forms to Use In]: all available options
 
 1. Log in as a customer on the storefront and open **[!UICONTROL My Account]** > **[!UICONTROL Account Information]**.
