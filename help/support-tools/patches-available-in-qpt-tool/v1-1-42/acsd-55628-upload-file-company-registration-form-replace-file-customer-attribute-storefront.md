@@ -36,7 +36,7 @@ Unable to replace a file for a customer attribute on the storefront.
 
     * *[!UICONTROL Input Type]*: *[!UICONTROL File (Attachment)]*
     * *[!UICONTROL Show on Storefront]*: *Yes*
-    * *[!UICONTROL Forms to Use In]: all available options
+    * *[!UICONTROL Forms to Use In]*: *all available options*
 
 1. Log in as a customer on the storefront and open **[!UICONTROL My Account]** > **[!UICONTROL Account Information]**.
 1. Upload a new image and save.
