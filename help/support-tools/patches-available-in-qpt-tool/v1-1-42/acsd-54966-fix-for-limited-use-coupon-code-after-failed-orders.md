@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-54966: Fix for reusing coupon codes after failed orders'
-description: Apply the ACSD-54966 patch to fix the Adobe Commerce issue preventing the reuse of coupon codes limited per promotions and shopping cart following a previous failed order.
+description: Apply the ACSD-54966 patch to fix the Adobe Commerce issue preventing the reuse of coupon codes limited per promotions and shopping cart following a previously failed order.
 feature: Promotions/Events, Shopping Cart, Orders
 role: Admin, Developer
 ---
 # ACSD-54966: Fix for reusing coupon codes after failed orders
 
-The ACSD-54966 patch fixes the issue preventing the reuse of coupon codes limited per customer following a previous failed order. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-54966. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54966 patch fixes the issue preventing the reuse of coupon codes limited per customer following a previously failed order. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-54966. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,15 +24,14 @@ The ACSD-54966 patch fixes the issue preventing the reuse of coupon codes limite
 
 ## Issue
 
-Addresses the issue where a coupon code, limited for single use per customer, could not be reused following a failed previous order. 
+A coupon code, limited for single use per customer, cannot be reused following a failed previous order. 
 
 <u>Steps to reproduce</u>:
 
-1. Set up a cart price rule with uses per customer = 1.
+1. Set up a cart price rule with *[!UICONTROL Uses per Customer]* = *1*.
 1. Proceed to make a purchase using the assigned coupon code.
 1. Cancel the order from the admin panel or execute the order with a payment failure.
-1. Run the command: *`bin/magento queue:consumers:start sales.rule.update.coupon.usage`*
-    
+1. Run the command: `bin/magento queue:consumers:start sales.rule.update.coupon.usage`  
 1. Try to place a subsequent order using the same coupon code for the same customer.
 
 <u>Expected results</u>:
