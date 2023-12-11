@@ -14,7 +14,7 @@ This article provides a solution to the issue when upgrading your instance the d
 
 ## Issue
 
-You are experiencing an error when trying to update your Magento version. During the deployment you encounter the following error: * Next patches weren't found: <MDVA-XXXXX>, <ACSD-XXXXX>. Please, check with "status" command availability of these patches for the current Magento version.*
+You are experiencing an error when trying to update your Magento version. During the deployment you encounter the following error: * Next patches weren't found: MDVA-XXXXX, ACSD-XXXXX. Please, check with "status" command availability of these patches for the current Magento version.*
 
 ## Cause
 
