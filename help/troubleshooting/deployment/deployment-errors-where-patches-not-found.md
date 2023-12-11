@@ -28,7 +28,7 @@ Check your `.magento.env.yaml` file under the QUALITY_PATCHES section, e.g.,
 QUALITY_PATCHES:
       - MDVA-XXXXX
       - ACSD-XXXXX
- ```
+```
 
 ## Related reading
 
