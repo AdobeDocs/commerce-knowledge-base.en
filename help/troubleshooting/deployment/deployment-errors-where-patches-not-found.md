@@ -14,7 +14,7 @@ This article provides a solution to the issue when upgrading your instance the d
 
 ## Issue
 
-You are experiencing an error when upgrading Adobe Commerce; *Next patches weren't found*.
+You are experiencing an error when upgrading Adobe Commerce: *Next patches weren't found*.
 
 ## Cause
 
