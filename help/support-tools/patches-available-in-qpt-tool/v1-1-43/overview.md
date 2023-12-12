@@ -20,7 +20,7 @@ QPT v1.1.43 includes the following patches:
 1. **ACSD-52714**: Fixes the issue where the date filter is not working in the admin grid when the date format is set as *Y-m-d*.
 1. **ACSD-53790**: Fixes the issue where Multiple RMAs for a single product can be created via REST API.
 1. **ACSD-56090**: Fixes the issue where the GraphQL request is responding with all stores' data rather than the specifically requested store data.
-1. **ACSD-54983**: Fixes the issue where getting the company user UID with GraphQL request is not possible when the user status is set to *[!UICONTROL Inactive]*.
+1. **ACSD-54983**: Fixes the issue where getting the company user ID with GraphQL request is not possible when the user status is set to *[!UICONTROL Inactive]*.
 1. **ACSD-53309**: Fixes the issue where tax is not fully applied in the *[!UICONTROL Regular Price]* label when the customizable option is selected.
 1. **ACSD-55305**: Fixes the issue where the *[!UICONTROL Edit Company User]* popup on the **[!UICONTROL myAccount]** > **[!UICONTROL Company Structure]** page freezes with a loader on the screen.
 
