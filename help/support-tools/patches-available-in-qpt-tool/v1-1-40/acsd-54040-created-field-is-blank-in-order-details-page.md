@@ -34,7 +34,7 @@ When B2B modules are enabled, the *[!UICONTROL Created]* field remains blank on 
 
 <u>Expected results</u>:
 
-The [!UICONTROL Created] field displays the date when the order was created.
+The *[!UICONTROL Created]* field displays the date when the order was created.
 
 <u>Actual results</u>:
 
