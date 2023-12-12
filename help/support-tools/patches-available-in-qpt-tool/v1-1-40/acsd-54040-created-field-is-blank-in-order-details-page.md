@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-54040: *[!UICONTROL Created]* field is blank in order details when B2B modules are enabled.
 
-The ACSD-54040 patch fixes the issue where the *[!UICONTROL Created] field remains blank on the order details page* when B2B modules are enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54040. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54040 patch fixes the issue where the *[!UICONTROL Created]* field remains blank on the order details page when B2B modules are enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54040. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-54040 patch fixes the issue where the *[!UICONTROL Created] field remai
 
 ## Issue
 
-When B2B modules are enabled, the *[!UICONTROL Created] field remains blank on the order details page.*
+When B2B modules are enabled, the *[!UICONTROL Created]* field remains blank on the order details page.
 
 <u>Steps to reproduce</u>:
 
