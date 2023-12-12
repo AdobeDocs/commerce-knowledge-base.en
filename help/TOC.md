@@ -720,10 +720,12 @@ breadcrumb-title: Commerce KB
         * [ACSD-54324: GraphQL requisition_lists request doesn't consider pagination settings](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54324-graphql-requisition-lists-request-doesnt-consider-pagination-settings.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
+        * [ACSD-55628: Upload file company registration form; replace file for customer attribute storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55628-upload-file-company-registration-form-replace-file-customer-attribute-storefront.md)
         * [ACSD-53845: MySQL connection timeout issue when consumer max_messages = 0](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-53845-mysql-connection-timeout-when-consumer-max-messages-equals-zero.md)
         * [ACSD-55112: [!UICONTROL Submit Review] button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55112-submit-review-button-can-be-clicked-multiple-times.md)
         * [ASCD-54264: Error when customer tries to check out with negotiable quote](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54264-error-when-customer-tries-to-checkout-with-negotiable-quote.md)
         * [ACSD-54626: Cannot create new purchase order rule with NUMBER_OF_SKUS via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54626-cant-create-new-purchase-order-rule-with-number-of-skus-attribute-via-graphql.md)
+        * [ACSD-54966: Fix for reusing coupon codes after failed orders](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54966-fix-for-limited-use-coupon-code-after-failed-orders.md)
     * v1.1.43 {#v1-1-43}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.43](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
