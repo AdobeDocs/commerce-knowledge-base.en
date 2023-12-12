@@ -38,7 +38,7 @@ The [!UICONTROL Created] field displays the date when the order was created.
 
 <u>Actual results</u>:
 
-The [!UICONTROL Created] field is blank
+The *[!UICONTROL Created]* field is blank
 
 ## Apply the patch
 
