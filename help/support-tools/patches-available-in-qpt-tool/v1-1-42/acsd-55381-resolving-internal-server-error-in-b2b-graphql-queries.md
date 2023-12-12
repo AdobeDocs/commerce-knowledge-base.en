@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-55381: Resolving errors when requesting configurable product option ids in B2B requisition list'
-description: Apply the ACSD-55381 patch to fix the Adobe Commerce issue where an internal server error occurs during GraphQL queries for configurable_product_option_uid and configurable_product_option_value_uid fields in B2B requisition lists.
-feature: GraphQL, B2B, Products 
+title: 'ACSD-55381: Resolving error when requesting configurable product option uids from B2B requisition list'
+description: Apply the ACSD-55381 patch to fix the Adobe Commerce issue where an internal server error occurs during GraphQL queries for `configurable_product_option_uid` and `configurable_product_option_value_uid` fields from a B2B requisition list.
+feature: GraphQL, B2B, Products
 role: Admin, Developer
 ---
-# ACSD-55381: Resolving errors when requesting configurable product option ids in B2B requisition list
+# ACSD-55381: Resolving error when requesting configurable product option uids from B2B requisition list
 
-The ACSD-55381 patch fixes the issue where an internal server error occurs during GraphQL queries for configurable_product_option_uid and configurable_product_option_value_uid fields in B2B requisition lists. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-55381. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55381 patch fixes the issue where an internal server error occurs during GraphQL queries for `configurable_product_option_uid` and `configurable_product_option_value_uid` fields from a B2B requisition list. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-55381. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-55381 patch fixes the issue where an internal server error occurs durin
 
 ## Issue
 
-Addresses the issue where an internal server error occurs while querying configurable_product_option_uid and configurable_product_option_value_uid fields from a B2B requisition list via GraphQL.
+An internal server error occurs while querying `configurable_product_option_uid` and `configurable_product_option_value_uid` fields from a B2B requisition list via GraphQL.
 
 <u>Prerequisites</u>:
 
@@ -35,7 +35,7 @@ Addresses the issue where an internal server error occurs while querying configu
 
 1. Log in as a customer on the storefront.
 1. Add a configurable product to a requisition list.
-1. Try to retrieve values for `configurable_product_option_uid` and `configurable_product_option_value_uid` fields using the *getRequisitionList* function in a GraphQL call.
+1. Try to retrieve values for `configurable_product_option_uid` and `configurable_product_option_value_uid` fields using the `getRequisitionList` function in a GraphQL call.
 
 ```
 query getRequisitionList {
