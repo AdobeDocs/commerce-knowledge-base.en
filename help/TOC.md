@@ -702,6 +702,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-53414: Restricted admin users can see CMS pages outside their permissions scope](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.md)
         * [ACSD-52657: Minicart not updated on the second storeview that uses subdomain](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.md)
         * [ACSD-54007: Undefined array key _scope error on importing customer data](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.md)
+        * [ASCD-54040: [!UICONTROL Created] field is blank in order details when B2B modules are enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54040-created-field-is-blank-in-order-details-page.md)
         * [ACSD-52801: GraphQL product filter query not showing partial match results](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52801-graphql-product-filter-query-not-showing-partial-match-results.md)
         * [ACSD-54961: Restricted admin user can't mass update [!DNL Product Review status]](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.md)
         * [ACSD-55031: 'Type "mixed" cannot be nullable' error during compilation](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.md)        
@@ -716,13 +717,19 @@ breadcrumb-title: Commerce KB
         * [ACSD-53643: Order has an incorrect total when placing a purchase order](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.md)
         * [ACSD-53722: Bundled product options price changes to $0](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-53722-bundled-product-options-price-changes-to-0.md)
         * [ACSD-54067: Product video doesn't play on mobile device](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54067-product-video-doesnt-play-on-mobile-device.md)
+        * [ACSD-51819: Placing multiple orders with a single quote ID](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-51819-placing-multiple-orders-with-same-quote-id.md)
         * [ACSD-54324: GraphQL requisition_lists request doesn't consider pagination settings](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54324-graphql-requisition-lists-request-doesnt-consider-pagination-settings.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
+        * [ACSD-55628: Upload file company registration form; replace file for customer attribute storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55628-upload-file-company-registration-form-replace-file-customer-attribute-storefront.md)
+        * [ACSD-53845: MySQL connection timeout issue when consumer max_messages = 0](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-53845-mysql-connection-timeout-when-consumer-max-messages-equals-zero.md)
         * [ACSD-55112: [!UICONTROL Submit Review] button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55112-submit-review-button-can-be-clicked-multiple-times.md)
         * [ASCD-54264: Error when customer tries to check out with negotiable quote](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54264-error-when-customer-tries-to-checkout-with-negotiable-quote.md)
         * [ACSD-54626: Cannot create new purchase order rule with NUMBER_OF_SKUS via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54626-cant-create-new-purchase-order-rule-with-number-of-skus-attribute-via-graphql.md)
         * [ACSD-55381: Resolving error when requesting configurable product option uids from B2B requisition list](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55381-resolving-internal-server-error-in-b2b-graphql-queries.md)
+        * [ACSD-54966: Fix for reusing coupon codes after failed orders](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54966-fix-for-limited-use-coupon-code-after-failed-orders.md)
+    * v1.1.43 {#v1-1-43}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.43](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
