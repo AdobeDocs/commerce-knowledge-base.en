@@ -722,6 +722,7 @@ breadcrumb-title: Commerce KB
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
         * [ACSD-54418: Fixed discount amount incorrectly added to child product of dynamically priced bundle](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54418-fixed-discount-amount-incorrectly-added-to-child-product-of-dynamically-priced-bundle.md)
+        * [ACSD-53568: [!UICONTROL Recently Viewed Product] data not updated properly in store view](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-53658-fixes-the-issue-where-recently-viewed-product-data-is-not-updated-in-the-store-view.md)
         * [ACSD-55628: Upload file company registration form; replace file for customer attribute storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55628-upload-file-company-registration-form-replace-file-customer-attribute-storefront.md)
         * [ACSD-53845: MySQL connection timeout issue when consumer max_messages = 0](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-53845-mysql-connection-timeout-when-consumer-max-messages-equals-zero.md)
         * [ACSD-55112: [!UICONTROL Submit Review] button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55112-submit-review-button-can-be-clicked-multiple-times.md)
