@@ -45,7 +45,7 @@ A partially canceled order has an incorrect discount amount.
 1. Add the three products to the cart.
 1. Apply the coupon.
 1. Place the order.
-1. Invoice one item on the order and ship the item.
+1. Invoice one item of the order and ship it.
 1. Cancel the other two items.
 1. Check the `base_discount_canceled` column.
 
