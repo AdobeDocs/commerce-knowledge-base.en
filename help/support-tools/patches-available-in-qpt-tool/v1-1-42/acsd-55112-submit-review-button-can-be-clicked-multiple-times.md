@@ -1,23 +1,27 @@
 ---
-title: 'ACSD-53378: Enhanced checkout experience for customers with extensive address books'
-description: Apply the ACSD-53378 patch to fix the Adobe Commerce issue where there are performance issues caused by large customer address volumes.
-feature: Customers, Checkout
-role: Admin
-exl-id: 561462fd-844b-40e0-9ccd-25f7aa9be161
+title: 'ACSD-55112: [!UICONTROL Sumbit Review] button can be clicked multiple times'
+description: Apply the ACSD-55112 patch to fix the Adobe Commerce issue where the [!UICONTROL Submit Review] button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation.
+feature: Products
+role: Admin, Developer
+exl-id: db202472-1d96-4ac0-8ecd-eab84c9f4cbf
 ---
-# ACSD-53378: Enhanced checkout experience for customers with extensive address books
+# ACSD-55112: The [!UICONTROL Submit Review] button can be clicked multiple times
 
-The ACSD-53378 patch fixes the issue where there are performance issues caused by large customer address volumes. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-53378. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+>[!NOTE]
+>
+>This patch replaces the [ACSD-51890](/help/support-tools/patches-available-in-qpt-tool/v1-1-35/acsd-51890-submit-review-button-can-be-clicked-multiple-times.md).
+
+The ACSD-55112 patch fixes the issue where the [!UICONTROL Submit Review] button can be clicked multiple times without [!DNL Google reCAPTCHA v3] validation. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-55112. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,24 +29,11 @@ The ACSD-53378 patch fixes the issue where there are performance issues caused b
 
 ## Issue
 
-Adobe Commerce's performance becomes very slow if a customer has a large number of addresses.
+Getting the following error:
 
-If the configuration option *[!UICONTROL Enable search address]* under **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]** is activated, the complete customer address book will no longer undergo full processing. The number of customer addresses processed is determined by the setting *[!UICONTROL Customer Addresses Limit]* under  **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]**.
-
-<u>Steps to reproduce</u>:
-
-1. Create a simple product from Admin.
-1. Create a customer with an extensive address book containing 1000 addresses.
-1. Navigate to the frontend, and add the product to the cart.
-1. Open the shopping cart page.
-
-<u>Expected results</u>:
-
-Customer address count has no impact on the response time.
-
-<u>Actual results</u>:
-
-The shopping cart page takes a lot of time to load.
+```JS
+_jquery.validate.js:799 Uncaught TypeError: Cannot read properties of undefined (reading 'call'). Exception occurred when checking element login-email, check the 'validate' method.
+```
 
 ## Apply the patch
 

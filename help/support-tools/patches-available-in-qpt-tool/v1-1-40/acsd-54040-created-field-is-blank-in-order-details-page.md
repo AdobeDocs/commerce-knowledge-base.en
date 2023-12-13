@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-53118: Cart rules with coupon not working properly'
-description: Apply the ACSD-53118 patch to fix the Adobe Commerce issue where the cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute.
-feature: Shopping Cart, Price Rules
+title: "ACSD-54040: The [!UICONTROL Created] field is blank in order details when B2B modules are enabled"
+description: Apply the ACSD-54040 patch to fix the Adobe Commerce issue where the [!UICONTROL Created] field is blank on the order details page when B2B modules are enabled.
+feature: B2B
 role: Admin, Developer
-exl-id: a660ddb3-03fc-4460-b2a8-8e851f57e7a9
 ---
-# ACSD-53118: Cart rules with coupon not working properly
+# ACSD-54040: *[!UICONTROL Created]* field is blank in order details when B2B modules are enabled.
 
-The ACSD-53118 patch fixes the issue where the cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 is installed. The patch ID is ACSD-53118. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54040 patch fixes the issue where the *[!UICONTROL Created]* field remains blank on the order details page when B2B modules are enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54040. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5-p4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.4-p5, 2.4.4-p6, 2.4.5-p4, 2.4.5-p5
 
 >[!NOTE]
 >
@@ -25,26 +24,21 @@ The ACSD-53118 patch fixes the issue where the cart price rule is applied using 
 
 ## Issue
 
-Cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute. 
+When B2B modules are enabled, the *[!UICONTROL Created]* field remains blank on the order details page.
 
 <u>Steps to reproduce</u>:
 
-1. Create a price attribute and add it to the attribute set. Make the attribute usable in promo rule conditions.
-1. Create a product and leave the new attribute empty.
-1. Create a cart price rule with a specific coupon and the following condition:
-
-    * If an item is FOUND in the cart with ALL of these conditions true: Attribute1 is 0.
-
-1. Add the product created in Step 2 to the cart.
-1. Use the coupon code for the cart rule created in Step 3.
+1. Install Adobe Commerce with the B2B module.
+1. Create a new customer and place an order.
+1. Go to the order details on the frontend and check the *[!UICONTROL Created]* field.
 
 <u>Expected results</u>:
 
-Discount is not applied to the shopping cart.
+The *[!UICONTROL Created]* field displays the date when the order was created.
 
 <u>Actual results</u>:
 
-Discount is applied to the shopping cart.
+The *[!UICONTROL Created]* field is blank
 
 ## Apply the patch
 

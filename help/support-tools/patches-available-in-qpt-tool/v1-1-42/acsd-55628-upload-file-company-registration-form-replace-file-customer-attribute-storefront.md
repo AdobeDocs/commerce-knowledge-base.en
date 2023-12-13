@@ -1,23 +1,26 @@
 ---
-title: 'ACSD-53378: Enhanced checkout experience for customers with extensive address books'
-description: Apply the ACSD-53378 patch to fix the Adobe Commerce issue where there are performance issues caused by large customer address volumes.
-feature: Customers, Checkout
-role: Admin
-exl-id: 561462fd-844b-40e0-9ccd-25f7aa9be161
+title: "ACSD-55628: Uploading file on company registration form; replacing file for customer attribute on storefront"
+description: Apply the ACSD-55628 patch to fix the Adobe Commerce issue with uploading a file on the company registration form and replacing a file for a customer attribute on the storefront.
+feature: Storefront, Attributes, B2B, Customers
+role: Admin, Developer
 ---
-# ACSD-53378: Enhanced checkout experience for customers with extensive address books
+# ACSD-55628: Uploading file on company registration form; replacing file for customer attribute on storefront
 
-The ACSD-53378 patch fixes the issue where there are performance issues caused by large customer address volumes. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-53378. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+>[!NOTE]
+>
+>This patch replaces [ACSD-51240](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51240-uploaded-file-missing-while-registering-via-company-registration-form.md).
+
+The ACSD-55628 patch fixes the issue with uploading a file on the company registration form and replacing a file for a customer attribute on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-55628. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.5-p4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.4-p2 < 2.4.5 and 2.4.5-p1 < 2.4.6
 
 >[!NOTE]
 >
@@ -25,24 +28,27 @@ The ACSD-53378 patch fixes the issue where there are performance issues caused b
 
 ## Issue
 
-Adobe Commerce's performance becomes very slow if a customer has a large number of addresses.
-
-If the configuration option *[!UICONTROL Enable search address]* under **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]** is activated, the complete customer address book will no longer undergo full processing. The number of customer addresses processed is determined by the setting *[!UICONTROL Customer Addresses Limit]* under  **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]**.
+Unable to replace a file for a customer attribute on the storefront.
 
 <u>Steps to reproduce</u>:
 
-1. Create a simple product from Admin.
-1. Create a customer with an extensive address book containing 1000 addresses.
-1. Navigate to the frontend, and add the product to the cart.
-1. Open the shopping cart page.
+1. Create a new customer attribute with the following values:
+
+    * *[!UICONTROL Input Type]*: *[!UICONTROL File (Attachment)]*
+    * *[!UICONTROL Show on Storefront]*: *Yes*
+    * *[!UICONTROL Forms to Use In]*: *all available options*
+
+1. Log in as a customer on the storefront and open **[!UICONTROL My Account]** > **[!UICONTROL Account Information]**.
+1. Upload a new image and save.
+1. Refresh the page. Delete the old image and upload a new one. Save the changes.
 
 <u>Expected results</u>:
 
-Customer address count has no impact on the response time.
+The new image is saved.
 
 <u>Actual results</u>:
 
-The shopping cart page takes a lot of time to load.
+The old image is still displayed.
 
 ## Apply the patch
 

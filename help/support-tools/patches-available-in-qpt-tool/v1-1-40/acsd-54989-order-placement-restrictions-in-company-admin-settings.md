@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-53378: Enhanced checkout experience for customers with extensive address books'
-description: Apply the ACSD-53378 patch to fix the Adobe Commerce issue where there are performance issues caused by large customer address volumes.
-feature: Customers, Checkout
-role: Admin
-exl-id: 561462fd-844b-40e0-9ccd-25f7aa9be161
+title: 'ACSD-54989: Company admin cannot order when [!UICONTROL Enable Purchase Orders] set to Yes and [!UICONTROL Purchase Order] set to No'
+description: Apply the ACSD-54989 patch to fix the Adobe Commerce issue where company admin cannot place orders if [!UICONTROL Enable Purchase Orders] is set to Yes and [!UICONTROL Purchase Order] is set to No.
+feature: Orders, Companies, Purchase Orders
+role: Admin, Developer
+exl-id: c2850409-d310-4681-80ec-af8ba347854c
 ---
-# ACSD-53378: Enhanced checkout experience for customers with extensive address books
+# ACSD-54989: Company admin cannot order when *[!UICONTROL Enable Purchase Orders]* set to *Yes* and *[!UICONTROL Purchase Order]* set to *No*
 
-The ACSD-53378 patch fixes the issue where there are performance issues caused by large customer address volumes. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-53378. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54989 patch fixes the issue where orders cannot be placed if **[!UICONTROL Enable Purchase Orders]** set to *Yes* and **[!UICONTROL Purchase Order]** set to *No*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 is installed. The patch ID is ACSD-54989. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.4-p5 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,24 +25,29 @@ The ACSD-53378 patch fixes the issue where there are performance issues caused b
 
 ## Issue
 
-Adobe Commerce's performance becomes very slow if a customer has a large number of addresses.
+Company admins cannot place orders when **[!UICONTROL Enable Purchase Orders]** is set to *Yes* and **Purchase Order** set to *No*.
 
-If the configuration option *[!UICONTROL Enable search address]* under **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]** is activated, the complete customer address book will no longer undergo full processing. The number of customer addresses processed is determined by the setting *[!UICONTROL Customer Addresses Limit]* under  **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]**.
+<u>Prerequisites</u>:
+
+Install [!DNL B2B] modules.
 
 <u>Steps to reproduce</u>:
 
-1. Create a simple product from Admin.
-1. Create a customer with an extensive address book containing 1000 addresses.
-1. Navigate to the frontend, and add the product to the cart.
-1. Open the shopping cart page.
+1. Enable company and leave [!UICONTROL **Order Approval Configuration]** > **[!UICONTROL Purchase Order**] = *No*.
+1. Create a simple product with a price of 100.
+1. Create a new company through the Admin.
+1. Set [!UICONTROL **Enable Purchase Orders**] to *Yes*.
+1. Log in as the company admin on the storefront.
+1. Add the created simple product to the cart.
+1. Proceed to the checkout page and click **[!UICONTROL Place Order]** to complete the purchase.
 
 <u>Expected results</u>:
 
-Customer address count has no impact on the response time.
+You are able to place an order successfully.
 
 <u>Actual results</u>:
 
-The shopping cart page takes a lot of time to load.
+The **[!UICONTROL My Account]** page opens up and the order is not placed.
 
 ## Apply the patch
 
