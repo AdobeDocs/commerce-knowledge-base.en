@@ -726,6 +726,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-55112: [!UICONTROL Submit Review] button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55112-submit-review-button-can-be-clicked-multiple-times.md)
         * [ASCD-54264: Error when customer tries to check out with negotiable quote](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54264-error-when-customer-tries-to-checkout-with-negotiable-quote.md)
         * [ACSD-54626: Cannot create new purchase order rule with NUMBER_OF_SKUS via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54626-cant-create-new-purchase-order-rule-with-number-of-skus-attribute-via-graphql.md)
+        * [ACSD-55381: Resolving error when requesting configurable product option uids from B2B requisition list](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55381-resolving-internal-server-error-in-b2b-graphql-queries.md)
         * [ACSD-54966: Fix for reusing coupon codes after failed orders](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54966-fix-for-limited-use-coupon-code-after-failed-orders.md)
     * v1.1.43 {#v1-1-43}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.43](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/overview.md)
