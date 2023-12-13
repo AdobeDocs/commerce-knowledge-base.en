@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-55610: Partially canceled order has incorrect discount amount'
 description: Apply the ACSD-55610 patch to fix the Adobe Commerce issue where a partially canceled order has an incorrect discount amount.
-feature: 
+feature: Invoices, Orders, Price Rules, Shopping Cart
 role: Admin, Developer
 ---
 # ACSD-55610: Partially canceled order has incorrect discount amount
@@ -30,16 +30,16 @@ A partially canceled order has an incorrect discount amount.
 
 1. Create a shopping cart price rule.
 
-    * Rule Name: Winter Sale
-    * Active = Yes
-    * Websites = main website
+    * *[!UICONTROL Rule Name]*: *Winter Sale*
+    * *[!UICONTROL Active]* = *Yes*
+    * *[!UICONTROL Websites]* = *Main Website*
     * Choose all customer groups.
     * Select a specific coupon.
-    * Coupon Code: WINTER10
-    * Conditions: If ALL of these conditions are TRUE: Subtotal(exlc. Tax) equals or is greater then 75
-    * Apply "Percent of Product Price discount".
-    * Discount Amount: 10
-    * Discard subsequent rules: Yes
+    * *[!UICONTROL Coupon Code]*: *WINTER10*
+    * *[!UICONTROL Conditions]*: *[!UICONTROL If ALL of these conditions are TRUE]*: *Subtotal(Excl. Tax) equals or is greater than 75*
+    * Apply *[!UICONTROL Percent of product price discount]*.
+    * *[!UICONTROL Discount Amount]*: *10*
+    * *[!UICONTROL Discard subsequent rules]*: *Yes*
 
 1. Create three products with prices set to 100.
 1. Add the three products to the cart.
