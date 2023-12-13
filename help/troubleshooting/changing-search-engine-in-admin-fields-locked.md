@@ -31,7 +31,7 @@ The search engine configuration is locked in the `app/etc/env.php` file or the s
       <VARIABLE X>
       ```
 
-1. Replace the existing value with one of the known ones, i.e., opensearch, livesearch, elasticsuite, amasty_elastic, amasty_elastic_opensearch.
+1. Is this variable present? No - the engine configuration is locked to Opensearch by default. To change the configuration, you must add the variable to the `.magento.env.yaml` file with the appropriate value for the search engine. Yes - if you wish to modify the engine, replace the existing value of engine in `.magento.env.yaml`. Possible/known values: opensearch, livesearch, elasticsuite, amasty_elastic, amasty_elastic_opensearch.
 1. Redeploy the instance.
 1. The search engine field in the Commerce Admin will remain locked, but it should get updated with the value you have specified.
 
