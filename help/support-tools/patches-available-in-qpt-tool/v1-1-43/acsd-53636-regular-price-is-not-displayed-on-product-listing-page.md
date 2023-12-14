@@ -39,7 +39,7 @@ On the *[!UICONTROL Product Listing]* page, the configurable product shows the r
 
 <u>Actual results</u>:
 
-On the *[!UICONTROL Product Listing] page, the configurable product does not show the regular price for its child product.
+On the *[!UICONTROL Product Listing]* page, the configurable product does not show the regular price for its child product.
  
 ## Apply the patch
 
