@@ -29,7 +29,7 @@ The regular price is not displayed on product listing pages for configurable pro
 <u>Steps to reproduce</u>:
 
 1. Log in to the admin and go to **[!UICONTROL Admin]** > **[!UICONTROL Catalog]**, and create or open any configurable product.
-2. Open the child product and add a special price to all or one of the child product and save the product.
+2. Open the child product and add a special price to all or one of the child products and save the product.
 3. Go to frontend and open the **[!UICONTROL Product Detail]** page of the configurable product, on the swatches of the child product with special price, you will see the *[!UICONTROL Regular price]* striked out (expected).
 4. Go to frontend and open the **[!UICONTROL Product Listing]** page for the configurable product with special price, see that the configurable product swatch changes doesn't display the regular price unlike the *[!UICONTROL Product Detail Page]* and other simple products.
 
