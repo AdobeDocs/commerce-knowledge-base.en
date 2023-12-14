@@ -35,7 +35,7 @@ The regular price is not displayed on product listing pages for configurable pro
 
 <u>Expected results</u>:
 
-On the Product Listing Page, configurable product shows regular price for its child product.
+On the *[!UICONTROL Product Listing]* page, the configurable product shows the regular price for its child product.
 
 <u>Actual results</u>:
 
