@@ -14,7 +14,7 @@ This article provides a solution to the issue where you try to remove the search
 
 ## Issue
 
-You try to change the search engine in the Commerce Admin but the fields are locked.
+You try to change the search engine in the Commerce Admin, but the fields are locked.
 
 ## Cause
 
