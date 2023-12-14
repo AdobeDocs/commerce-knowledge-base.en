@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-53636: Regular price is not displayed on product listing page'
-description: Apply the ACSD-53636 patch to fix the Adobe Commerce issue where the regular price is not displayed on product listing pages for configurable products that have child products with special prices.
+title: 'ACSD-53636: Regular price is not displayed on *[!UICONTROL Product Listing]* page'
+description: Apply the ACSD-53636 patch to fix the Adobe Commerce issue where the regular price is not displayed on *[!UICONTROL Product Listing]* pages for configurable products that have child products with special prices.
 feature: Catalog Management, Products
 role: Admin, Developer
 ---
-# ACSD-53636: Regular price is not displayed on product listing page
+# ACSD-53636: Regular price is not displayed on *[!UICONTROL Product Listing]* page
 
-The ACSD-53636 patch fixes the issue where the regular price is not displayed on product listing pages for configurable products that have child products with special prices. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-53636. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53636 patch fixes the issue where the regular price is not displayed on *[!UICONTROL Product Listing]* pages for configurable products that have child products with special prices. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-53636. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-53636 patch fixes the issue where the regular price is not displayed on
 
 ## Issue
 
-The regular price is not displayed on product listing pages for configurable products that have child products with special prices.
+The regular price is not displayed on *[!UICONTROL Product Listing]* pages for configurable products that have child products with special prices.
 
 <u>Steps to reproduce</u>:
 
