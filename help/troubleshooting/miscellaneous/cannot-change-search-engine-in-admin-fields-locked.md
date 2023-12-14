@@ -18,7 +18,7 @@ You try to change the search engine in the Commerce Admin, but the fields are lo
 
 ## Cause
 
-The search engine configuration is locked in the `app/etc/env.php` file or the search engine is explicitly defined in the `.magento.env.yaml` file.
+The search engine configuration is locked in the `app/etc/env.php` file, or the search engine is explicitly defined in the `.magento.env.yaml` file.
 
 ## Solution
 
