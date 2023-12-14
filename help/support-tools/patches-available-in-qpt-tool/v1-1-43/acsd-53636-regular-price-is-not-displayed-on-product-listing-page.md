@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53636: Regular price is not displayed on *[!UICONTROL Product Listing]* page'
+title: 'ACSD-53636: Regular price is not displayed on [!UICONTROL Product Listing] page'
 description: Apply the ACSD-53636 patch to fix the Adobe Commerce issue where the regular price is not displayed on *[!UICONTROL Product Listing]* pages for configurable products that have child products with special prices.
 feature: Catalog Management, Products
 role: Admin, Developer
