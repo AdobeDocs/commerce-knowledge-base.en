@@ -5,7 +5,7 @@ description: This article provides a solution to the issue where you try to chan
 
 # Cannot change search engine in `app/etc/env.php`
 
-This article provides a solution to the issue where you try to remove the search engine configuration from the `app/etc/env.php` file but after redeployment the configuration reverted to the previous setting, or was changed to OpenSearch by default.
+This article provides a solution to the issue where you try to remove the search engine configuration from the `app/etc/env.php` file, but after redeployment, the configuration reverts to the previous setting or is changed to [!DNL OpenSearch] by default.
 
 ## Affected products and versions
 
