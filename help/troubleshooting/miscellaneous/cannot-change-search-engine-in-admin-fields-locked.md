@@ -2,7 +2,6 @@
 title: "Cannot change search engine in `app/etc/env.php`"
 description: This article provides a solution to the issue where you try to change the search engine in the Commerce Admin but the fields are locked.
 ---
-
 # Cannot change search engine in `app/etc/env.php`
 
 This article provides a solution to the issue where you try to remove the search engine configuration from the `app/etc/env.php` file, but after redeployment, the configuration reverts to the previous setting or is changed to [!DNL OpenSearch] by default.
