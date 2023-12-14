@@ -732,7 +732,6 @@ breadcrumb-title: Commerce KB
         * [ACSD-54966: Fix for reusing coupon codes after failed orders](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54966-fix-for-limited-use-coupon-code-after-failed-orders.md)
     * v1.1.43 {#v1-1-43}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.43](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/overview.md)
-        * [ACSD-52714: Date filter does not work in admin grid when set as y-m-d](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-52714-date-filter-does-not-work-in-admin-grid-when-set-as-y-m-d.md)
         * [ACSD-53636: Regular price is not displayed on [!UICONTROL Product Listing] page](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53636-regular-price-is-not-displayed-on-product-listing-page.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
