@@ -30,7 +30,7 @@ The canonical category URL doesn't update after changing the category URL.
 
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog]** > **[!UICONTROL Search Engine Optimization]**.
     * Set *[!UICONTROL Use Canonical Link Meta Tag for Categories]*: *YES*
-2. Create a category (For e.g., *Name* : *Category 01*, *URL Key* : *category-01*).
+2. Create a category (e.g., *Name*: *Category 01*, *URL Key*: *category-01*).
 3. Update the *[!UICONTROL URL Key]* to something different from the original value while keeping the **Create Permanent Redirect for old URL** checkbox ticked.
 4. Clean the cache.
 5. Go to the *[!UICONTROL Category Page]* on the frontend.
