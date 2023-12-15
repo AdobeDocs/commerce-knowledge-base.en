@@ -4,7 +4,7 @@ description: Apply the ACSD-54972 patch to fix the Adobe Commerce issue where th
 feature: Catalog Management, Products, Categories
 role: Admin, Developer
 ---
-# ACSD-54972: Canonical category URL doesn't update after changing the category URL
+# ACSD-54972: Canonical category URL doesn't update after changing category URL
 
 The ACSD-54972 patch fixes the issue where the canonical category URL doesn't update after changing the category URL. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54972. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
