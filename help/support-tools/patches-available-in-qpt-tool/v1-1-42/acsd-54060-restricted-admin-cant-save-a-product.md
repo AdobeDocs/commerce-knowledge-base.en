@@ -30,7 +30,7 @@ A restricted admin is unable to save a product if it's a child of another produc
 
 1. Create an additional website.
 1. Create a simple product and assign it to both websites.
-1. Create a configurable product with the simple product as the only variation and assign the configurable product to the default website only. 
+1. Create a configurable product with the simple product as the only variation, and assign the configurable product to the default website only. 
 1. Create a restricted admin user with access only to the second website.
 1. Log in as the restricted admin user.
 1. Try to change the simple product name in the second website scope.
