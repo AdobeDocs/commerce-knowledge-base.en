@@ -721,15 +721,20 @@ breadcrumb-title: Commerce KB
         * [ACSD-54324: GraphQL requisition_lists request doesn't consider pagination settings](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54324-graphql-requisition-lists-request-doesnt-consider-pagination-settings.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
+        * [ACSD-55238: Saving the empty product meta description](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55238-saving-empty-product-meta-description.md)
+        * [ACSD-53568: [!UICONTROL Recently Viewed Product] data not updated properly in store view](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-53658-fixes-the-issue-where-recently-viewed-product-data-is-not-updated-in-the-store-view.md)
         * [ACSD-55628: Upload file company registration form; replace file for customer attribute storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55628-upload-file-company-registration-form-replace-file-customer-attribute-storefront.md)
         * [ACSD-53845: MySQL connection timeout issue when consumer max_messages = 0](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-53845-mysql-connection-timeout-when-consumer-max-messages-equals-zero.md)
         * [ACSD-55112: [!UICONTROL Submit Review] button can be clicked multiple times](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55112-submit-review-button-can-be-clicked-multiple-times.md)
         * [ASCD-54264: Error when customer tries to check out with negotiable quote](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54264-error-when-customer-tries-to-checkout-with-negotiable-quote.md)
         * [ACSD-54626: Cannot create new purchase order rule with NUMBER_OF_SKUS via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54626-cant-create-new-purchase-order-rule-with-number-of-skus-attribute-via-graphql.md)
+        * [ACSD-55381: Resolving error when requesting configurable product option uids from B2B requisition list](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55381-resolving-internal-server-error-in-b2b-graphql-queries.md)
         * [ACSD-54966: Fix for reusing coupon codes after failed orders](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54966-fix-for-limited-use-coupon-code-after-failed-orders.md)
     * v1.1.43 {#v1-1-43}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.43](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/overview.md)
         * [ACSD-55305: Popup freeze during company user editing in [!UICONTROL myAccount]](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55305-freeze-issue-in-company-user-edit-popup.md)
+        * [ACSD-54972: Canonical category URL doesn't update](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54972-canonical-category-url-doesnt-update.md)
+        * [ACSD-53636: Regular price is not displayed on [!UICONTROL Product Listing] page](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53636-regular-price-is-not-displayed-on-product-listing-page.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -1031,6 +1036,7 @@ breadcrumb-title: Commerce KB
     * [Deployment stuck with "Unable to upload the application to the remote cluster" error](/help/troubleshooting/deployment/deployment-stuck-with-unable-to-upload-the-application-to-the-remote-cluster-error.md)
     * [Deployment error: "error 7 while downloading ... port 443: Connection refused"](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
     * [Deployment errors when committing incorrect files](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
+    * [Deployment errors where patches not found](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
   * Known issues {#known-issues-patches-attached}
     * [[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
     * [[!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
