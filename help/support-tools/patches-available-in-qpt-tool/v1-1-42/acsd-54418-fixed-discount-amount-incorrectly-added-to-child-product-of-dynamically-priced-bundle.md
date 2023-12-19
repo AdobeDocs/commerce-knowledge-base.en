@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-54418: Fixed discount amount incorrectly added to child product of dynamically priced bundle.
 
-The ACSD-54418 patch fixes the issue where the fixed discount amount is incorrectly applied to each child product of the dynamically priced bundle. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed. The patch ID is ACSD-55414. Please note that the issue is fixed in Adobe Commerce 2.4.7.
+The ACSD-54418 patch fixes the issue where the fixed discount amount is incorrectly applied to each child product of the dynamically priced bundle. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed. The patch ID is ACSD-54418. Please note that the issue is fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
