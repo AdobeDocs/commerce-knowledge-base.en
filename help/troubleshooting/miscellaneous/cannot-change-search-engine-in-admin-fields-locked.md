@@ -1,6 +1,6 @@
 ---
 title: "Cannot change search engine in `app/etc/env.php`"
-description: This article provides a solution to the issue where you try to change the search engine in the Commerce Admin but the fields are locked.
+description: This article provides a solution to the issue where you try to change the search engine in the Commerce Admin, but the fields are locked.
 ---
 # Cannot change search engine in `app/etc/env.php`
 
