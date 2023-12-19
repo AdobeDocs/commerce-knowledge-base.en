@@ -10,7 +10,6 @@ This article provides a solution to the issue where you try to remove the search
 
 * Adobe Commerce on cloud infrastructure, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
-
 ## Issue
 
 You try to change the search engine in the Commerce Admin, but the fields are locked.
