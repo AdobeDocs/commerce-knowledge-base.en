@@ -8,7 +8,7 @@ This article provides a solution to the issue where you try to remove the search
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce on cloud infrastructure, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Issue
 
