@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-55305: Popup freeze during company user editing in [!UICONTROL My Account]'
-description: Apply the ACSD-55305 patch to fix the Adobe Commerce issue where [!UICONTROL Edit Company User] popup on the [!UICONTROL My Account] > company structure page freezes with a loader on the screen.
+description: Apply the ACSD-55305 patch to fix the Adobe Commerce issue where [!UICONTROL Edit Company User] popup on the [!UICONTROL My Account] > [!UICONTROL Company Structure] page freezes with a loader on the screen.
 feature: Companies, B2B
 role: Admin, Developer
 ---
 # ACSD-55305: Popup freeze during company user editing in [!UICONTROL My Account]
 
-The ACSD-55305 patch fixes the issue where  [!UICONTROL Edit Company User] popup on the [!UICONTROL My Account]> company structure page freezes with a loader on the screen. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-55305. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55305 patch fixes the issue where  [!UICONTROL Edit Company User] popup on the [!UICONTROL My Account]> [!UICONTROL Company Structure] page freezes with a loader on the screen. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-55305. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,21 +24,21 @@ The ACSD-55305 patch fixes the issue where  [!UICONTROL Edit Company User] popup
 
 ## Issue
 
-An error occurs when attempting to use the *[!UICONTROL Edit Company User]* popup on the [!UICONTROL My Account] > company structure page, as it freezes with a loader displayed on the screen.
+An error occurs when attempting to use the *[!UICONTROL Edit Company User]* popup on the *[!UICONTROL My Account]* > *[!UICONTROL Company Structure]* page, as it freezes with a loader displayed on the screen.
 
 <u>Steps to reproduce</u>:
 
 1. Create a B2B company.
 1. Create a multi-select attribute for customers.  
 1. Assign a value to the newly created attribute for the company admin.
-1. Log in as **[!UICONTROL Company Admin]**.
-1. Go to the [!UICONTROL account dashboard] and navigate to the company structure.
+1. Log in as Company Admin.
+1. Go to the [!UICONTROL account dashboard] and navigate to the **[!UICONTROL Company Structure]**.
 1. Select the user.
 1. Click on **[!UICONTROL Edit Selected]**.
 
 <u>Expected results</u>:
 
-The form popup is expected to appear accurately, providing the option to edit company information.
+The form popup appears accurately, providing the option to edit company information.
 
 <u>Actual results</u>:
 
