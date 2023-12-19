@@ -29,7 +29,7 @@ The search engine configuration is locked in the `app/etc/env.php` file, or the 
       <VARIABLE X>
       ```
 
-1. Is the  `SEARCH_CONFIGURATION` variable present? If not present, the search engine configuration is locked to [!DNL OpenSearch] by default. To change the configuration, you must add the variable to the `.magento.env.yaml` file with the appropriate value for the search engine. If the `SEARCH_CONFIGURATION` variable is present and you wish to modify the engine, replace the existing value for the engine in `.magento.env.yaml`. Possible/known values: opensearch, livesearch, elasticsuite, amasty_elastic, and amasty_elastic_opensearch.
+1. Is the  `SEARCH_CONFIGURATION` variable present? If not present, the search engine configuration is locked to [!DNL OpenSearch] by default. To change the configuration, you must add the variable to the `.magento.env.yaml` file with the appropriate value for the search engine. If the `SEARCH_CONFIGURATION` variable is present and you wish to modify the engine, replace the existing value for the engine in `.magento.env.yaml`. Possible/known values: [!DNL opensearch], [!DNL livesearch], [!DNL elasticsuite], [!DNL amasty_elastic], and [!DNL amasty_elastic_opensearch].
 1. Redeploy the instance.
 1. The search engine field in the Admin will remain locked, but it should get updated with the value you have specified.
 
