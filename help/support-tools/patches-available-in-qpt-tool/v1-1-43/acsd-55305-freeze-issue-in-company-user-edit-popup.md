@@ -29,12 +29,12 @@ An error occurs when attempting to use the *[!UICONTROL Edit Company User]* popu
 <u>Steps to reproduce</u>:
 
 1. Create a B2B company.
-1. Create a multi select attribute for customers. 
+1. Create a multi-select attribute for customers.  
 1. Assign a value to the newly created attribute for the company admin.
 1. Log in as **[!UICONTROL Company Admin]**.
-1. Go to the [!UICONTROL account dashboard] and navigate to company structure.
+1. Go to the [!UICONTROL account dashboard] and navigate to the company structure.
 1. Select the user.
-1. Click on 'Edit Selected'.
+1. Click on **[!UICONTROL Edit Selected]**.
 
 <u>Expected results</u>:
 
