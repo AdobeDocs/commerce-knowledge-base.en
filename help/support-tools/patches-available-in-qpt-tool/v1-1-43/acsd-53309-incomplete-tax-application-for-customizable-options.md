@@ -59,12 +59,12 @@ Tax is not fully reflected in the '[!UICONTROL Regular Price]' label when a cust
 
 1. Set **[!UICONTROL Shipping Settings]** > **[!UICONTROL Origin]** > **[!UICONTROL Country]** = *United Kingdom*.
 
-1. Create the following Tax Rate and Tax Rules:
+1. Create the following *[!UICONTROL Tax Rate]* and *[!UICONTROL Tax Rules]*:
 
     * [!UICONTROL Country] = United States
     * [!UICONTROL Zip Code] = *
     * [!UICONTROL State] = *
-    * [!UICONTROL Rate = 20%]
+    * [!UICONTROL Rate] = 20%
 1. Create a simple product and set the following:
     * [!UICONTROL Price = 110]
     * [!UICONTROL Special Price = 100]
