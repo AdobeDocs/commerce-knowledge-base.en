@@ -46,7 +46,7 @@ Labels are not translated through translation dictionaries in the GraphQL respon
 
 <u>Expected results</u>:
 
-The label *Category* is not translated.
+The label *[!UICONTROL Category]* is translated.
 
 <u>Actual results</u>:
 
