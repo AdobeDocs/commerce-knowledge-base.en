@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53309: Incomplete tax application for customizable options and '[!UICONTROL Regular Price]' label'
+title: 'ACSD-53309: Incomplete tax application for customizable options and [!UICONTROL Regular Price] label'
 description: Apply the ACSD-53309 patch to fix the Adobe Commerce issue where tax is not fully applied in the '[!UICONTROL Regular Price]' label when a customizable option is selected.
 feature: Taxes, Shipping/Delivery
 role: Admin, Developer
