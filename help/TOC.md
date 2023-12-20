@@ -721,6 +721,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-54324: GraphQL requisition_lists request doesn't consider pagination settings](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54324-graphql-requisition-lists-request-doesnt-consider-pagination-settings.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
+        * [ACSD-54060: Restricted admin can't save product if it's child of another product](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54060-restricted-admin-cant-save-a-product.md)
         * [ACSD-54418: Fixed discount amount incorrectly added to child product of dynamically priced bundle](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54418-fixed-discount-amount-incorrectly-added-to-child-product-of-dynamically-priced-bundle.md)
         * [ACSD-55238: Saving the empty product meta description](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55238-saving-empty-product-meta-description.md)
         * [ACSD-53568: [!UICONTROL Recently Viewed Product] data not updated properly in store view](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-53658-fixes-the-issue-where-recently-viewed-product-data-is-not-updated-in-the-store-view.md)
