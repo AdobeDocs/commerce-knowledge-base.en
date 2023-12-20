@@ -50,7 +50,7 @@ The label *[!UICONTROL Category]* is translated.
 
 <u>Actual results</u>:
 
-Category is not translated.
+The label *[!UICONTROL Category]* is not translated.
 
 ## Apply the patch
 
