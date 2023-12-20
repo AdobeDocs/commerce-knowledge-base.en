@@ -1,18 +1,18 @@
 ---
-title: 'ACSD-53309: Incomplete tax application for customizable options and regular price label'
-description: Apply the ACSD-53309 patch to fix the Adobe Commerce issue where tax is not fully applied in the 'Regular Price' label when a customizable option is selected.
+title: 'ACSD-53309: Incomplete tax application for customizable options and '[!UICONTROL Regular Price]' label'
+description: Apply the ACSD-53309 patch to fix the Adobe Commerce issue where tax is not fully applied in the '[!UICONTROL Regular Price]' label when a customizable option is selected.
 feature: Taxes, Shipping/Delivery
 role: Admin, Developer
 ---
-# ACSD-53309: Incomplete tax application for customizable options and regular price label
+# ACSD-53309: Incomplete tax application for customizable options and '[!UICONTROL Regular Price]' label
 
-The ACSD-53309 patch fixes the issue where tax is not fully applied in the 'Regular Price' label when a customizable option is selected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-53722. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53309 patch fixes the issue where tax is not fully applied in the '[!UICONTROL Regular Price]' label when a customizable option is selected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-53309. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5p2
+* Adobe Commerce (all deployment methods) 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
@@ -24,64 +24,63 @@ The ACSD-53309 patch fixes the issue where tax is not fully applied in the 'Regu
 
 ## Issue
 
-The tax is not fully reflected in the 'Regular Price' label when a customizable option is chosen.
+Tax is not fully reflected in the '[!UICONTROL Regular Price]' label when a customizable option is chosen.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to [!UICONTROL Admin Panel].
-1. Configure tax settings **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Tax]**
+1. Log in to the Admin panel.
+1. Navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Tax]** to configure tax settings.
 
-    [!UICONTROL Tax Classes]:
+    * [!UICONTROL Tax Classes]:
 
-    * [!UICONTROL Tax Class for Shipping] = [!UICONTROL Taxable Goods]
-    * [!UICONTROL Tax Class for Gift Options] = [!UICONTROL Taxable Goods]
+        * [!UICONTROL Tax Class for Shipping] = [!UICONTROL Taxable Goods]
+        * [!UICONTROL Tax Class for Gift Options] = [!UICONTROL Taxable Goods]
 
-    [!UICONTROL Calculation Settings]:
+    * [!UICONTROL Calculation Settings]:
 
-    * [!UICONTROL Catalog Prices] = [!UICONTROL Including Tax]
-    * [!UICONTROL Shipping Prices] = [!UICONTROL Including Tax]
-    * [!UICONTROL Apply Discount On Prices] = [!UICONTROL Including Tax]
+        * [!UICONTROL Catalog Prices] = [!UICONTROL Including Tax]
+        * [!UICONTROL Shipping Prices] = [!UICONTROL Including Tax]
+        * [!UICONTROL Apply Discount On Prices] = [!UICONTROL Including Tax]
 
-    [!UICONTROL Default Tax Destination Calculation]:
+    * [!UICONTROL Default Tax Destination Calculation]:
 
-    * [!UICONTROL Default Post Code] = *
+        * [!UICONTROL Default Post Code] = *
     
-    [!UICONTROL Price Display Settings]:
+    * [!UICONTROL Price Display Settings]:
 
-    * [!UICONTROL Display Product Prices In Catalog] = [!UICONTROL Including Tax]
-
-    * [!UICONTROL Display Shipping Prices] = [!UICONTROL Including Tax]
+        * [!UICONTROL Display Product Prices In Catalog] = [!UICONTROL Including Tax]
+        * [!UICONTROL Display Shipping Prices] = [!UICONTROL Including Tax]
     
-    [!UICONTROL Shopping Cart Display Settings]:
+    * [!UICONTROL Shopping Cart Display Settings]:
 
-    * [!UICONTROL Display Prices] = [!UICONTROL Including Tax]
-    * [!UICONTROL Display Subtotal] = [!UICONTROL Including Tax]
-    * [!UICONTROL Display Shipping Amount] = [!UICONTROL Including Tax]
+        * [!UICONTROL Display Prices] = [!UICONTROL Including Tax]
+        * [!UICONTROL Display Subtotal] = [!UICONTROL Including Tax]
+        * [!UICONTROL Display Shipping Amount] = [!UICONTROL Including Tax]
 
-1. Set **[!UICONTROL Shipping Settings]** > **[!UICONTROL Origin]** > **[!UICONTROL Country]** = **[!UICONTROL United Kingdom]**.
+1. Set **[!UICONTROL Shipping Settings]** > **[!UICONTROL Origin]** > **[!UICONTROL Country]** = *United Kingdom*.
 
-1. Create following Tax Rate and Tax Rule:
+1. Create the following Tax Rate and Tax Rules:
 
-    * [!UICONTROL Country] = [!UICONTROL United States]
-    * [!UICONTROL Zip Code = *]
-    * [!UICONTROL State = *]
+    * [!UICONTROL Country] = United States
+    * [!UICONTROL Zip Code] = *
+    * [!UICONTROL State] = *
     * [!UICONTROL Rate = 20%]
-1. Create a simple product using:
+1. Create a simple product and set the following:
     * [!UICONTROL Price = 110]
     * [!UICONTROL Special Price = 100]
-    * [!UICONTROL Drop-down type custom option with price set to 15%]
-1. Go to the product page for the simple item you made on the storefront.
-1. Choose the custom option named 15%.
+    * In the drop-down, set type to custom option with price set to 15%
+1. Go to the product page for the simple item made on the storefront.
+1. Choose the custom option created, *15%*.
 
 <u>Expected results</u>:
 
-* 20% tax applied on the selected custom option.
-* Regular Price = 151.80.
+* 20% tax is applied on the selected custom option.
+* '[!UICONTROL Regular Price]' = 151.80.
     
 <u>Actual results</u>:
 
 * 20% tax is not applied on the selected custom option.
-* Regular Price = 148.50.
+* '[!UICONTROL Regular Price]' = 148.50.
 
 ## Apply the patch
 
