@@ -46,7 +46,7 @@ Labels are not translated through translation dictionaries in the GraphQL respon
 
 <u>Expected results</u>:
 
-Category is translated.
+The label *Category* is not translated.
 
 <u>Actual results</u>:
 
