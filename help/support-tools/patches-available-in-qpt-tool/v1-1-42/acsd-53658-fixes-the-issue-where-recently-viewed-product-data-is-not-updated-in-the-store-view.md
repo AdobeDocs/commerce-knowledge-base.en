@@ -4,7 +4,7 @@ description: Apply the ACSD-53658 patch to fix the Adobe Commerce issue where **
 feature: CMS, Personalization
 role: Admin, Developer
 ---
-# ASCD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in the store view
+# ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in the store view
 
 The ASCD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ASCD-53658. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
