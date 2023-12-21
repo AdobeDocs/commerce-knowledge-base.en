@@ -1,7 +1,7 @@
 ---
 title: "ACSD-54739: *[!UICONTROL Product Stock]* status not applied for related *[!UICONTROL Product Rules]*"
 description: Apply the ACSD-54739 patch to fix the Adobe Commerce issue where *[!UICONTROL Product Stock]* status is not applied for related *[!UICONTROL Product Rules]*.
-feature: Product
+feature: Products
 role: Admin, Developer
 ---
 # ACSD-54739: *[!UICONTROL Product stock]* status not applied for related *[!UICONTROL Product Rules]*.
