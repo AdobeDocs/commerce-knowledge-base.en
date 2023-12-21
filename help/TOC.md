@@ -732,6 +732,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-54626: Cannot create new purchase order rule with NUMBER_OF_SKUS via GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54626-cant-create-new-purchase-order-rule-with-number-of-skus-attribute-via-graphql.md)
         * [ACSD-55381: Resolving error when requesting configurable product option uids from B2B requisition list](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55381-resolving-internal-server-error-in-b2b-graphql-queries.md)
         * [ACSD-54966: Fix for reusing coupon codes after failed orders](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54966-fix-for-limited-use-coupon-code-after-failed-orders.md)
+        * [ACSD-48910: Bundled product assigned multiple sources go out of stock after invoice and shipping](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-48910-bundle-product-assigned-to-multiple-sources-out-of-stock.md)
     * v1.1.43 {#v1-1-43}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.43](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/overview.md)
         * [ACSD-55305: Popup freeze during company user editing in [!UICONTROL My Account]](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55305-freeze-issue-in-company-user-edit-popup.md)
