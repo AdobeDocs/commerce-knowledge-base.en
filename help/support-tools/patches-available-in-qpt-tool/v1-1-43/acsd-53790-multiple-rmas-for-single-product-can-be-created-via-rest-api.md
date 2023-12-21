@@ -1,7 +1,7 @@
 ---
 title: "ACSD-53790: *[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*"
 description: Apply the ACSD-53790 patch to fix the Adobe Commerce issue where *[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*.
-feature: REST
+feature: REST, Products
 role: Admin, Developer
 ---
 # ACSD-53790: *[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*.
