@@ -1,12 +1,12 @@
 ---
-title: "ACSD-54739: *[!UICONTROL Product Stock]* status not applied for related *[!UICONTROL Product Rules]*"
-description: Apply the ACSD-54739 patch to fix the Adobe Commerce issue where *[!UICONTROL Product Stock]* status is not applied for related *[!UICONTROL Product Rules]*.
+title: "ACSD-54739: *[!UICONTROL Product Stock]* status not applied for *[!UICONTROL Related Product Rules]*"
+description: Apply the ACSD-54739 patch to fix the Adobe Commerce issue where *[!UICONTROL Product Stock]* status is not applied for *[!UICONTROL Related Product Rules]*.
 feature: Products
 role: Admin, Developer
 ---
-# ACSD-54739: *[!UICONTROL Product stock]* status not applied for related *[!UICONTROL Product Rules]*.
+# ACSD-54739: *[!UICONTROL Product stock]* status not applied for *[!UICONTROL Related Product Rules]*.
 
-The ACSD-54739 patch fixes the issue where the *[!UICONTROL Product stock]* status is no applied fpr *[!UICONTROL Product Rules]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54739 patch fixes the issue where the *[!UICONTROL Product stock]* status is not applied for *[!UICONTROL FRelated Product Rules]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-54739 patch fixes the issue where the *[!UICONTROL Product stock]* stat
 
 ## Issue
 
-*[!UICONTROL Product stock]* status is not applied for related *[!UICONTROL Product Rules]*.
+*[!UICONTROL Product stock]* status is not applied for  *[!UICONTROL Related Product Rules]*.
 
 <u>Steps to reproduce</u>:
 
@@ -35,11 +35,11 @@ The ACSD-54739 patch fixes the issue where the *[!UICONTROL Product stock]* stat
 
 <u>Expected results</u>:
 
-The in-stock/out-of-stock product matches by related *[!UICONTROL Product Rules]*
+The in-stock/out-of-stock product matches by *[!UICONTROL Related Product Rules]*
 
 <u>Actual results</u>:
 
-The in-stock/out-of-stock product does not hit the related *[!UICONTROL Product Rules]*
+The in-stock/out-of-stock product does not hit the *[!UICONTROL Related Product Rules]*
 
 ## Apply the patch
 
