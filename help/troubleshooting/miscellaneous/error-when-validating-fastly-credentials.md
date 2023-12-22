@@ -35,6 +35,8 @@ User gets an error when validating the Fastly credentials.
     >
     >Never share any passwords or valid/active API tokens directly in the ticket as we will have to revoke the current token and generate a new one for security reasons.
 
+1. If the command doesn't return the error, make sure that you are running the newest version of the [!DNL Fastly] extension. If you are on an older version prior to 1.2.203, you must first click on [!UICONTROL Save Config] before you can test the credentials.
+
 ## Related readings in our developer documentation:
 
 * [Cloud for Adobe Commerce > Fastly > Fastly service account and credentials](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials)
