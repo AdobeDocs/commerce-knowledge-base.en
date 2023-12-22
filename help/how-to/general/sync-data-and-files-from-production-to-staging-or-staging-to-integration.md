@@ -6,7 +6,7 @@ feature: Integration, Build
 ---
 # Sync data and files Production to Staging or Staging to Integration
 
-This article explains how to synchronize your Production environment down to Staging on Adobe Commerce on cloud infrastructure; this is not possible via the user interface or the magento-cloud cli.
+This article explains how to synchronize your Production environment down to Staging on Adobe Commerce on cloud infrastructure; this is not possible via the user interface or the Magento-cloud CLI.
 
 ## Affected products and versions
 
