@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-53790: *[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*.
 
-The ACSD-53790 patch fixes the issue where *[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53790 patch fixes the issue where *[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-53790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -16,7 +16,7 @@ The ACSD-53790 patch fixes the issue where *[!UICONTROL Multiple RMA's]* for sin
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p3
 
 >[!NOTE]
 >
