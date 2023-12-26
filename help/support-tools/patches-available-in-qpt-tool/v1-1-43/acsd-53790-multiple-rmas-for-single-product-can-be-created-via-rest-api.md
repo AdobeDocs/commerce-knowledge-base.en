@@ -24,7 +24,7 @@ The ACSD-53790 patch fixes the issue where multiple RMA's for a single product c
 
 ## Issue
 
-multiple RMA's for single product can be created via *Rest API*.
+Multiple RMA's for single product can be created via *Rest API*.
 
 <u>Steps to reproduce</u>:
 
