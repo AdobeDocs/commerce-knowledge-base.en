@@ -33,7 +33,7 @@ An error occurs during multiple address checkout when the admin is using the *[!
 1. Create a new customer account with an address.
 1. Go to the customer account in the backend:
 
-    * Go to the **[!UICONTROL Account Information]** tab and set *[!UICONTROL Allow remote shopping assistance]* = *Yes*.
+    * Go to the **[!UICONTROL Account Information]** tab, and set *[!UICONTROL Allow remote shopping assistance]* = *Yes*.
     * Click **[!UICONTROL Login as Customer]**.
 
 1. Add product to cart and proceed to *[!UICONTROL Checkout with multiple addresses]*.
