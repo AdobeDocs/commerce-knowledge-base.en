@@ -36,7 +36,7 @@ An error occurs during multiple address checkout when the admin is using the *[!
     * Go to the **[!UICONTROL Account Information]** tab, and set *[!UICONTROL Allow remote shopping assistance]* = *Yes*.
     * Click **[!UICONTROL Login as Customer]**.
 
-1. Add product to cart and proceed to *[!UICONTROL Checkout with multiple addresses]*.
+1. Add the product to the cart and proceed to *[!UICONTROL Checkout with multiple addresses]*.
 1. Update the product quantity.
 1. Try to go back to the shopping cart.
 
