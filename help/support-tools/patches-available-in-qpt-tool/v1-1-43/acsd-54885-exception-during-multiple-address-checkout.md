@@ -4,7 +4,7 @@ description: Apply the ACSD-54885 patch to fix the Adobe Commerce issue where an
 feature: Checkout
 role: Admin, Developer
 ---
-# ACSD-54885: Exception during multiple address checkout when admin logins as customer
+# ACSD-54885: Exception during multiple address checkout when admin logs in as customer
 
 The ACSD-54885 patch fixes the issue where an error occurs during multiple address checkout when the admin is using the *[!UICONTROL Login as Customer]* functionality. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54885. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
