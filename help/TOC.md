@@ -733,7 +733,7 @@ breadcrumb-title: Commerce KB
     * v1.1.43 {#v1-1-43}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.43](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/overview.md)
         * [ACSD-53636: Regular price is not displayed on [!UICONTROL Product Listing] page](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53636-regular-price-is-not-displayed-on-product-listing-page.md)
-        * [ACSD-54885: Exception during multiple address checkout when admin logins as customer](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54885-exception-during-multiple-address-checkout.md)
+        * [ACSD-54885: Exception during multiple address checkout when admin logs in as customer](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54885-exception-during-multiple-address-checkout.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
