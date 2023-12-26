@@ -4,9 +4,9 @@ description: Apply the ACSD-54739 patch to fix the Adobe Commerce issue where *[
 feature: Products
 role: Admin, Developer
 ---
-# ACSD-54739: *[!UICONTROL Product stock]* status not applied for *[!UICONTROL Related Product Rules]*.
+# ACSD-54739: *[!UICONTROL Product stock]* status not applied for *[!UICONTROL Related Product Rules]*
 
-The ACSD-54739 patch fixes the issue where the *[!UICONTROL Product stock]* status is not applied for *[!UICONTROL FRelated Product Rules]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54739 patch fixes the issue where the *[!UICONTROL Product stock]* status is not applied for *[!UICONTROL Related Product Rules]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -28,18 +28,18 @@ The ACSD-54739 patch fixes the issue where the *[!UICONTROL Product stock]* stat
 
 <u>Steps to reproduce</u>:
 
-1. Set the "Display Out of Stock Products" configuration to "Yes."
-1. Go to Backend > Stores > Attributes > Product > Search quantity attribute > Set "Yes" for the promo rule condition
-1. Create the related product rule. Go to [!UICONTROL Product rule information] > [!UICONTROL Products to match] > Add condition with attribute quantity (select in stock/out of stock).
+1. Set the **[!UICONTROL Display Out of Stock Products]** configuration to "Yes."
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** > **[!UICONTROL Search quantity attribute]** and set *Yes* for the promo rule condition.
+1. Create the related product rule. Go to **[!UICONTROL Product rule information]** > **[!UICONTROL Products to match]** > Add condition with attribute quantity (select in stock/out of stock).
 1. Check the products at the front end.
 
 <u>Expected results</u>:
 
-The in-stock/out-of-stock product matches by *[!UICONTROL Related Product Rules]*
+The in-stock/out-of-stock product matches by *[!UICONTROL Related Product Rules]*.
 
 <u>Actual results</u>:
 
-The in-stock/out-of-stock product does not hit the *[!UICONTROL Related Product Rules]*
+The in-stock/out-of-stock product does not match by the *[!UICONTROL Related Product Rules]*
 
 ## Apply the patch
 
