@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54885: Exception during multiple address checkout when admin logins as customer"
+title: "ACSD-54885: Exception during multiple address checkout when admin logs in as customer"
 description: Apply the ACSD-54885 patch to fix the Adobe Commerce issue where an error occurs during multiple address checkout when the admin is using the "Login as Customer" functionality.
 feature: Checkout
 role: Admin, Developer
