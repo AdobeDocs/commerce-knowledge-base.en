@@ -1,12 +1,12 @@
 ---
-title: "ACSD-53790: *[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*"
-description: Apply the ACSD-53790 patch to fix the Adobe Commerce issue where *[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*.
+title: "ACSD-53790: Multiple RMA's for a single product can be created via Rest API"
+description: Apply the ACSD-53790 patch to fix the Adobe Commerce issue where multiple RMA's for a single product can be created via Rest API.
 feature: REST, Products
 role: Admin, Developer
 ---
-# ACSD-53790: *[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*.
+# ACSD-53790: multiple RMA's for a single product can be created via Rest API
 
-The ACSD-53790 patch fixes the issue where *[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-53790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-53790 patch fixes the issue where multiple RMA's for a single product can be created via *Rest API*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-53790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-53790 patch fixes the issue where *[!UICONTROL Multiple RMA's]* for sin
 
 ## Issue
 
-*[!UICONTROL Multiple RMA's]* for single product can be created via *[!UICONTROL Rest API]*.
+multiple RMA's for single product can be created via *Rest API*.
 
 <u>Steps to reproduce</u>:
 
@@ -35,7 +35,7 @@ The ACSD-53790 patch fixes the issue where *[!UICONTROL Multiple RMA's]* for sin
 
 <u>Expected results</u>:
 
-Validation error is being displayed instead of creation of a duplicate RMA.
+A validation error is being displayed instead of creation of a duplicate RMA.
 
 <u>Actual results</u>:
 
