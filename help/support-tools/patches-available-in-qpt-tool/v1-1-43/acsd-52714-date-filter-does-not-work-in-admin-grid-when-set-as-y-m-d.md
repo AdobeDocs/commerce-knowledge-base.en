@@ -59,7 +59,7 @@ The date filter of the grid works properly, irrespective of the locale set.
 
 <u>Actual results</u>:
 
-Error message *We couldn't find any records*.
+The following message appears: *We couldn't find any records*.
 
 ## Apply the patch
 
