@@ -32,7 +32,7 @@ Execute the `aggregate_sales_report_bestsellers_data` cron job when the `sales_b
 
 <u>Expected results</u>:
 
-No errors will be shown.
+No errors occur.
 
 <u>Actual results</u>:
 
