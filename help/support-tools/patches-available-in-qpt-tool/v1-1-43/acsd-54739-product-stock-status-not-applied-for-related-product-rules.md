@@ -24,7 +24,7 @@ The ACSD-54739 patch fixes the issue where the *[!UICONTROL Product stock]* stat
 
 ## Issue
 
-*[!UICONTROL Product stock]* status is not applied for  *[!UICONTROL Related Product Rules]*.
+*[!UICONTROL Product stock]* status is not applied for *[!UICONTROL Related Product Rules]*.
 
 <u>Steps to reproduce</u>:
 
