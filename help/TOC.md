@@ -738,7 +738,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-54972: Canonical category URL doesn't update](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54972-canonical-category-url-doesnt-update.md)
         * [ACSD-53636: Regular price is not displayed on [!UICONTROL Product Listing] page](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53636-regular-price-is-not-displayed-on-product-listing-page.md)
         * [ACSD-53309: Incomplete tax application for customizable options and '[!UICONTROL Regular Price]' label](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53309-incomplete-tax-application-for-customizable-options.md)
-        * [ACSD-53790: Multiple RMA's for a single product can be created via Rest API](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53790-multiple-rmas-for-single-product-can-be-created-via-rest-api.md)
+        * [ACSD-53790: Multiple RMAs for a single product can be created via Rest API](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53790-multiple-rmas-for-single-product-can-be-created-via-rest-api.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
