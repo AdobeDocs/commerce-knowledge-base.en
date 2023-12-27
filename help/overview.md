@@ -33,57 +33,129 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-53643-order-has-an-incorrect-total-when-placing-a-purchase-order.html">ACSD-53643: Order has an incorrect total when placing a purchase order:</a> The ACSD-53643 patch fixes the issue where the order has an incorrect total when placing a purchase order with disabled or out-of-stock products. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-42/acsd-55628-upload-file-company-registration-form-replace-file-customer-attribute-storefront.html">ACSD-55628: Uploading file on company registration form; replacing file for customer attribute on storefront:</a> The ACSD-55628 patch fixes the issue with uploading a file on the company registration form and replacing a file for a customer attribute on the storefront. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed.
     </td>
     <td>New article</td>
-    <td>December 05, 2023</td>
+    <td>December 12, 2023</td>
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54472-customers-of-rejected-company-can-still-authenticate-and-place-orders.html">ACSD-54472: Customers of a rejected company can still authenticate:</a> The ACSD-54472 patch fixes the issue where the customers of a rejected company can still authenticate, and customers of a blocked and rejected company can still place orders. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. 
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54989-order-placement-restrictions-in-company-admin-settings.html">ACSD-54989: Company admin cannot order with <em>[!UICONTROL Enable Purchase Orders]</em> set to <em>Yes</em> and <em>[!UICONTROL Purchase Order]</em> set to <em>No</em>:</a> The ACSD-54989 patch fixes the issue where orders cannot be placed if <em>[!UICONTROL Enable Purchase Orders]</em> is set to <em>Yes</em> and <em>[!UICONTROL Purchase Order]</em> is set to <em>No</em>. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. 
     </td>
     <td>New article</td>
-    <td>December 05, 2023</td>
+    <td>December 12, 2023</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54680-b2b-quote-submitted-for-a-product-with-multiple-assigneda-sources.html">ACSD-54680: B2B Quote for a product with Multiple Assigned Sources can't be processed:</a> The ACSD-54680 patch fixes the issue where the B2B Quote for a product with Multiple Assigned Sources can't be processed. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-54376-exception-shopping-cart-product-removed-from-shared-catalog.html">ACSD-54376: Exception in shopping cart when product removed from shared catalog:</a> The ACSD-54376 patch fixes the issue where an exception happens in the shopping cart when a product is removed from the shared catalog after being added to the cart. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed.
     </td>
     <td>New article </td>
-    <td>December 05, 2023</td>
+    <td>December 12, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54961-restricted-admin-user-cant-mass-update-product-review-status.html">ACSD-54961: Restricted admin user can't mass update [!UICONTROL Product Review status]:</a> The ACSD-54961 patch fixes the issue where a restricted admin user can't mass update [!UICONTROL Product Review status]. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-55414-bad-performance-when-mariadb-tries-to-cast-the-entitys-ids.html">ACSD-55414: Bad performance when MariaDB tries to cast the <code>entitys_ids</code>:</a> The ACSD-55414 patch fixes the issue where the performance of reindexing is hampered when the MariaDB tries to convert <code>entitys_ids</code> from string to integer. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed. 
     </td>
     <td>New article </td>
-    <td>December 05, 2023</td>
+    <td>December 12, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-55031-type-mixed-cannot-be-nullable-error-during-compilation.html">ACSD-55031: <code>Type "mixed" cannot be nullable</code> error during compilation:</a> The ACSD-55031 patch fixes the issue where the <code>Type "mixed" cannot be nullable</code> error appears during compilation after installing a custom extension. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-53118-cart-rules-with-coupon-not-working-properly.html">ACSD-53118: Cart rules with coupon not working properly:</a> The ACSD-53118 patch fixes the issue where the cart price rule is applied using a coupon code while the product in the cart has an empty matching attribute. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed.
     </td>
     <td>New article </td>
-    <td>December 05, 2023</td>
+    <td>December 12, 2023</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-52801-graphql-product-filter-query-not-showing-partial-match-results.html">ACSD-52801: GraphQL product filter query not showing partial match results:</a> The ACSD-52801 patch fixes the issue where the GraphQL product filter query doesn't show partial match results. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-53722-bundled-product-options-price-changes-to-0.html">ACSD-53722: Bundled product options price changes to $0:</a> The ACSD-53722 patch fixes the issue where the price of the bundled product options changes to $0 when scheduled updates for different scopes become active. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed. 
     </td>
     <td>New article </td>
-    <td>December 05, 2023</td>
+    <td>December 12, 2023</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.html">Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6:</a> This article provides solutions to address unexpected behavior when using Read Replicas on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6+.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-54067-product-video-doesnt-play-on-mobile-device.html">ACSD-54067: Product video doesn't play on a mobile device:</a> The ACSD-54067 patch fixes the issue where a product video doesn't play on a mobile device. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed.
     </td>
     <td>New article </td>
-    <td>December 05, 2023</td>
+    <td>December 12, 2023</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-53378-swift-checkout-for-users-with-extensive-address-books.html">ACSD-53378: Enhanced checkout experience for customers with extensive address books:</a> The ACSD-53378 patch fixes the issue where there are performance issues caused by large customer address volumes. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed.
+    </td>
+    <td>New article </td>
+    <td>December 12, 2023</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-40/acsd-54040-created-field-is-blank-in-order-details-page.html">ACSD-54040: <em>[!UICONTROL Created]</em> field is blank in order details when B2B modules are enabled:</a> The ACSD-54040 patch fixes the issue where the <em>[!UICONTROL Created]</em> field remains blank on the order details page when B2B modules are enabled. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.40 is installed.
+    </td>
+    <td>New article </td>
+    <td>December 12, 2023</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-51819-placing-multiple-orders-with-same-quote-id.html">ACSD-51819: Placing multiple orders with a single quote ID:</a> The ACSD-51819 patch fixes the issue where multiple orders can be placed through the same quote ID. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed.
+    </td>
+    <td>New article </td>
+    <td>December 12, 2023</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-42/acsd-54264-error-when-customer-tries-to-checkout-with-negotiable-quote.html">ACSD-54264: Error appears when customer tries to check out with negotiable quote:</a> The ACSD-54264 patch fixes the issue where an error message <em>You cannot update the requested attribute. Row ID: store_id</em> appears when a customer tries to check out with a negotiable quote from another store view. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed.
+    </td>
+    <td>New article </td>
+    <td>December 12, 2023</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-42/acsd-55112-submit-review-button-can-be-clicked-multiple-times.html">ACSD-55112: The <strong>[!UICONTROL Submit Review]</strong> button can be clicked multiple times:</a> The ACSD-55112 patch fixes the issue where the <strong>[!UICONTROL Submit Review]</strong> button can be clicked multiple times without Google reCAPTCHA v3 validation. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed.
+    </td>
+    <td>New article </td>
+    <td>December 12, 2023</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-41/acsd-54324-graphql-requisition-lists-request-doesnt-consider-pagination-settings.html">ACSD-54324: GraphQL <code>requisition_lists</code> request doesn't consider pagination settings:</a> The ACSD-54324 patch fixes the issue where the GraphQL <code>requisition_lists</code> request does not consider pagination settings and returns all results. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.41 is installed.
+    </td>
+    <td>New article </td>
+    <td>December 12, 2023</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-42/acsd-54966-fix-for-limited-use-coupon-code-after-failed-orders.html">ACSD-54966: Fix for reusing coupon codes after failed orders:</a> The ACSD-54966 patch fixes the issue preventing the reuse of coupon codes limited per customer following a previously failed order. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed.
+    </td>
+    <td>New article </td>
+    <td>December 12, 2023</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-42/acsd-53845-mysql-connection-timeout-when-consumer-max-messages-equals-zero.html">ACSD-53845: MySQL connection timeout issue when consumer <code>max_messages = 0</code>:</a> The ACSD-53845 patch fixes the issue where MySQL connection times out when consumer <code>max_messages = 0</code>. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed.
+    </td>
+    <td>New article </td>
+    <td>December 12, 2023</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-42/acsd-54626-cant-create-new-purchase-order-rule-with-number-of-skus-attribute-via-graphql.html">ACSD-54626: Can't create new purchase order rule with <code>NUMBER_OF_SKUS</code> via GraphQL:</a> The ACSD-54626 patch fixes the issue where a customer can't create a new purchase order rule (<code>createPurchaseOrderApprovalRule</code>) with the <code>NUMBER_OF_SKUS</code> attribute via GraphQL. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed.
+    </td>
+    <td>New article </td>
+    <td>December 12, 2023</td>
  </tr>
 </table>
 
