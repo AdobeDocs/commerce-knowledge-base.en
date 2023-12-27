@@ -55,7 +55,7 @@ The date filter does not work in the admin grid when the date format is set as y
 
 <u>Expected results</u>:
 
-The date filter of the grid should work properly irrespective of the locale set.
+The date filter of the grid works properly, irrespective of the locale set.
 
 <u>Actual results</u>:
 
