@@ -51,7 +51,7 @@ The date filter does not work in the admin grid when the date format is set as y
 * from : current date minus 1 day
 * to: current date
 
-1. Click on apply filters.
+1. Click on **[!UICONTROL Apply Filters]**.
 
 <u>Expected results</u>:
 
