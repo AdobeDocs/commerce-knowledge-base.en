@@ -721,6 +721,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-54324: GraphQL requisition_lists request doesn't consider pagination settings](/help/support-tools/patches-available-in-qpt-tool/v1-1-41/acsd-54324-graphql-requisition-lists-request-doesnt-consider-pagination-settings.md)
     * v1.1.42 {#v1-1-42}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.42](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/overview.md)
+        * [ACSD-54060: Restricted admin can't save product if it's child of another product](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54060-restricted-admin-cant-save-a-product.md)
         * [ACSD-54418: Fixed discount amount incorrectly added to child product of dynamically priced bundle](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-54418-fixed-discount-amount-incorrectly-added-to-child-product-of-dynamically-priced-bundle.md)
         * [ACSD-55238: Saving the empty product meta description](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-55238-saving-empty-product-meta-description.md)
         * [ACSD-53568: [!UICONTROL Recently Viewed Product] data not updated properly in store view](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-53658-fixes-the-issue-where-recently-viewed-product-data-is-not-updated-in-the-store-view.md)
@@ -734,9 +735,14 @@ breadcrumb-title: Commerce KB
     * v1.1.43 {#v1-1-43}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.43](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/overview.md)
         * [ACSD-52714: Date filter does not work in admin grid when set as y-m-d](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-52714-date-filter-does-not-work-in-admin-grid-when-set-as-y-m-d.md)
+        * [ACSD-55334: Labels not translated through translation dictionaries in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55334-labels-not-translated-through-translation-dictionaries.md)
         * [ACSD-55305: Popup freeze during company user editing in [!UICONTROL My Account]](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55305-freeze-issue-in-company-user-edit-popup.md)
         * [ACSD-54972: Canonical category URL doesn't update](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54972-canonical-category-url-doesnt-update.md)
         * [ACSD-53636: Regular price is not displayed on [!UICONTROL Product Listing] page](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53636-regular-price-is-not-displayed-on-product-listing-page.md)
+        * [ACSD-54885: Exception during multiple address checkout when admin logs in as customer](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54885-exception-during-multiple-address-checkout.md)
+        * [ACSD-53309: Incomplete tax application for customizable options and '[!UICONTROL Regular Price]' label](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53309-incomplete-tax-application-for-customizable-options.md)
+        * [ACSD-53790: Multiple RMAs for a single product can be created via Rest API](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53790-multiple-rmas-for-single-product-can-be-created-via-rest-api.md)
+        * [ACSD-54739: [!UICONTROL Product Stock] status not applied for [!UICONTROL Related Product Rules]](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54739-product-stock-status-not-applied-for-related-product-rules.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
