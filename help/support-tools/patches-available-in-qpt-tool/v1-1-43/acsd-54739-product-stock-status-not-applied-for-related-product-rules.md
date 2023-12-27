@@ -30,7 +30,7 @@ The ACSD-54739 patch fixes the issue where the *[!UICONTROL Product stock]* stat
 
 1. Set the **[!UICONTROL Display Out of Stock Products]** configuration to *Yes*.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** > **[!UICONTROL Search quantity attribute]** and set *Yes* for the promo rule condition.
-1. Create the related product rule. Go to **[!UICONTROL Product rule information]** > **[!UICONTROL Products to match]** > Add condition with attribute quantity (select in stock/out of stock).
+1. Create the related product rule. Go to **[!UICONTROL Product rule information]** > **[!UICONTROL Products to match]** > Add a condition with attribute quantity (select in stock/out of stock).
 1. Check the products at the front end.
 
 <u>Expected results</u>:
@@ -39,7 +39,7 @@ The in-stock/out-of-stock product matches by *[!UICONTROL Related Product Rules]
 
 <u>Actual results</u>:
 
-The in-stock/out-of-stock product does not match by the *[!UICONTROL Related Product Rules]*
+The in-stock/out-of-stock product does not match by the *[!UICONTROL Related Product Rules]*.
 
 ## Apply the patch
 
