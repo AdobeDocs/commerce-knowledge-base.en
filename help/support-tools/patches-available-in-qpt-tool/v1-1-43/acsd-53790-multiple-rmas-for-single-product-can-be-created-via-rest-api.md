@@ -4,7 +4,7 @@ description: Apply the ACSD-53790 patch to fix the Adobe Commerce issue where mu
 feature: REST, Products
 role: Admin, Developer
 ---
-# ACSD-53790: multiple RMAs for a single product can be created via Rest API
+# ACSD-53790: Multiple RMAs for a single product can be created via Rest API
 
 The ACSD-53790 patch fixes the issue where multiple RMAs for a single product can be created via *Rest API*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-53790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
