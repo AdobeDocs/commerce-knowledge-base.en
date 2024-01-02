@@ -24,7 +24,7 @@ The ACSD-54890 patch fixes the issue where the `aggregate_sales_report_bestselle
 
 ## Issue
 
-The Adobe Commerce issue where the `aggregate_sales_report_bestsellers_data` causes **[!DNL MySQL]** errors due to `/tmpdisk` being out of space.
+The `aggregate_sales_report_bestsellers_data` causes **[!DNL MySQL]** errors due to `/tmpdisk` being out of space.
 
 <u>Steps to reproduce</u>:
 
