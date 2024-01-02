@@ -49,7 +49,7 @@ The date filter does not work in the admin grid when the date format is set as y
 1. Filter the results from the customer grid by *Customer* with:
 
     * from: current date minus 1 day
-* to: current date
+    * to: current date
 
 1. Click on **[!UICONTROL Apply Filters]**.
 
