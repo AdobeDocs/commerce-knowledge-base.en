@@ -1,7 +1,7 @@
 ---
 title: "ACSD-48910: Bundled product assigned multiple sources go out of stock after invoice and shipping"
 description: Apply the ACSD-48910 patch to fix the Adobe Commerce issue where the bundled product assigned to multiple sources goes out-of-stock after an order is invoiced and shipped, even if it still has a non-zero quantity.
-feature: Products
+feature: Products, Inventory
 role: Admin, Developer
 ---
 # ACSD-48910: Bundled product assigned multiple sources go out of stock after invoice and shipping
