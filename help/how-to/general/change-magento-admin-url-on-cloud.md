@@ -31,7 +31,7 @@ If Staging and Production are accessible from the Cloud Console, add the Environ
 
 ### Add variables using Cloud CLI
 
-You can add the ADMIN\_URL variable via Cloud CLI using the following command (for main):
+You can add the ADMIN\_URL variable using the following Cloud CLI command (for main):
 
 `magento-cloud variable:update ADMIN_URL --value newAdmin_A8v10 -e master --inheritable false`
 
