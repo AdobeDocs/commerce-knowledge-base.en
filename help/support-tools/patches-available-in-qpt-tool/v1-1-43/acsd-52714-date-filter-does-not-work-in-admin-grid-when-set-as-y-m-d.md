@@ -4,9 +4,9 @@ description: Apply the ACSD-52714 patch to fix the Adobe Commerce issue where th
 feature: Attributes
 role: Admin, Developer
 ---
-# ACSD-52714: Date filter does not work in admin grid when set as y-m-d
+# ACSD-52714: Date filter does not work in admin grid when set as y-m-d"
 
-The ACSD-52714 patch fixes the issue where the date filter doesn't work in the admin grid when the date format is set as y-m-d. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-52714. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52714 patch fixes the issue where the date filter doesn't work in the admin grid when the date format is set as y-m-d". This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-52714. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -32,34 +32,29 @@ The date filter does not work in the admin grid when the date format is set as y
 1. Edit 
   `/app/code/Magento/Customer/view/adminhtml/ui_component/customer_listing.xml` 
  file and add
-
    `<dateFormat>Y-MM-dd</dateFormat>`
-
    to
-
    `<column name="created_at" class="Magento\Ui\Component\Listing\Columns\Date" component="Magento_Ui/js/grid/columns/date" sortOrder="100">`
-
    under the tag
-
     `<dataType>date</dataType>`
 
-1. Flush the cache
-`bin/magento c:f`
-1. Log in to Admin and create a new customer from **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
-1. Filter the results from the customer grid by *Customer* with:
+1. Flush the cache `bin/magento c:f`
+1. Log in to Admin and create a new customer from **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**
 
-* from : current date minus 1 day
-* to: current date
+1. Filter the results from the customer grid by Customer Since with:
 
-1. Click on **[!UICONTROL Apply Filters]**.
+    * from : current date minus 1 day
+    * to: current date
+
+1. Click on apply filters.
 
 <u>Expected results</u>:
 
-The date filter of the grid works properly, irrespective of the locale set.
+The date filter of the grid should work properly irrespective of the locale set.
 
 <u>Actual results</u>:
 
-The following message appears: *We couldn't find any records*.
+Error message *We couldn't find any records*.
 
 ## Apply the patch
 
@@ -76,11 +71,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-
-
-
-
-
-
-
-
