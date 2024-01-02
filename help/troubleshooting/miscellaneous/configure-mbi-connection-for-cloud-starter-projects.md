@@ -173,7 +173,7 @@ Follow these steps:
 
 1. Get information for your encryption settings.
 
-    * The project UI provides an SSH access string. This string can be used for gathering the information needed for the Remote Address and Username in setting up your **[!UICONTROL Encryption settings]. Use the SSH Access string found by selecting **[!UICONTROL My Profile]** in the User dropdown on your Master branch of your Cloud Console and then, selecting **[!UICONTROL SSH KEYS]**. You can find your [!UICONTROL User Name] and [!UICONTROL Remote Address] on the **[!UICONTROL My Profile] tab.
+    * The project UI provides an SSH access string. This string can be used for gathering the information needed for the Remote Address and Username in setting up your **[!UICONTROL Encryption settings]. Use the SSH Access string found by selecting **[!UICONTROL My Profile]** in the User dropdown on your Master branch of your Cloud Console and then, selecting **[!UICONTROL SSH KEYS]**. You can find your [!UICONTROL User Name] and [!UICONTROL Remote Address] on the **[!UICONTROL My Profile]** tab.
 
     ![Access site master](/help/troubleshooting/miscellaneous/assets/access_site_mbi.png)
 
