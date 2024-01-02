@@ -28,7 +28,7 @@ The `aggregate_sales_report_bestsellers_data` causes **[!DNL MySQL]** errors due
 
 <u>Steps to reproduce</u>:
 
-Execute the `aggregate_sales_report_bestsellers_data` cron job when the `sales_bestsellers_aggregated_daily` table has an enormous amount of records, like "tens of millions" of records.
+Execute the `aggregate_sales_report_bestsellers_data` cron job when the `sales_bestsellers_aggregated_daily` table has an enormous amount of records, like tens of millions of records.
 
 <u>Expected results</u>:
 
