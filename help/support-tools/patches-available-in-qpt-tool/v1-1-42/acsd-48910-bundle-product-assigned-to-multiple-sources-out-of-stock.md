@@ -33,7 +33,7 @@ The bundled product assigned to multiple sources goes out of stock after invoici
 1. Create two simple products (qty = 10) and assign them to both stocks and websites.
 1. Create a bundled product and add these simple products to it. Assign the bundled product to both websites.
 1. Go to the storefront and add the bundled product to the cart.
-1. Checkout and place the order.
+1. Check out and place the order.
 1. From the Admin, invoice and ship the order.
 
 <u>Expected results</u>:
