@@ -1,12 +1,12 @@
 ---
-title: "ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in store view"
-description: Apply the ACSD-53658 patch to fix the Adobe Commerce issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
-feature: CMS, Personalization
+title: "ACSD-48910: Bundled product assigned multiple sources go out of stock after invoice and shipping"
+description: Apply the ACSD-48910 patch to fix the Adobe Commerce issue where the bundled product assigned to multiple sources goes out-of-stock after an order is invoiced and shipped, even if it still has a non-zero quantity.
+feature: Products, Inventory
 role: Admin, Developer
 ---
-# ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in the store view
+# ACSD-48910: Bundled product assigned multiple sources go out of stock after invoice and shipping
 
-The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-53658. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-48910 patch fixes the issue where the bundled product assigned to multiple sources goes out of stock after an order is invoiced and shipped, even if it still has a non-zero quantity. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-48910. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -16,7 +16,7 @@ The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p5
 
 >[!NOTE]
 >
@@ -24,27 +24,25 @@ The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product
 
 ## Issue
 
-The **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
+The bundled product assigned to multiple sources goes out of stock after invoicing and shipping, even if it's still available.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to the Admin panel.
-1. Create a second store view for the default website.
-1. Create a simple product.
-1. Set a different product name for the new store view.
-1. Create a **[!UICONTROL Recently Viewed Product]** widget.
-1. Configure this widget to display on the Home page.
-1. Open the product page on the Storefront from the default store view.
-1. Open the Home page.
-1. By using the store switcher, switch to the second store view.
+1. Create two websites.
+1. Create two stores/store views (one per website).
+1. Create two simple products (qty = 10) and assign them to both stocks and websites.
+1. Create a bundled product and add these simple products to it. Assign the bundled product to both websites.
+1. Go to the storefront and add the bundled product to the cart.
+1. Check out and place the order.
+1. From the Admin, invoice and ship the order.
 
 <u>Expected results</u>:
 
-The product name is updated in the widget.
+The bundled product stays in stock since we bought only 1 of the 10 items.
 
 <u>Actual results</u>:
 
-The product name is not updated in the widget.
+The bundled product changes its status to out-of-stock.
 
 ## Apply the patch
 
