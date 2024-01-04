@@ -334,7 +334,7 @@ Please specify your deployment method:
 
 #### Cloud Project URL
 
-Please provide the URL for the Cloud Console project, for example, `https://console.adobecommerce.com/owner/<project-ID>/<branch-name>`.
+Please provide the URL for the Cloud Console project, for example, `https://console.adobecommerce.com/<owner-user-name>/<project-ID>/<branch-name>`.
 
 Another method to obtain the Project URL is as follows:
 
