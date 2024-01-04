@@ -39,20 +39,20 @@ The date filter does not work in the admin grid when the date format is set as y
     `<dataType>date</dataType>`
 
 1. Flush the cache `bin/magento c:f`
-1. Log in to Admin and create a new customer from **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**
+1. Log in to Admin and create a new customer from **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
     * from: current date minus 1 day
     * to: current date
 
-1. Click on apply filters.
+1. Click on **[!UICONTROL Apply Filters]**.
 
 <u>Expected results</u>:
 
-The date filter of the grid should work properly irrespective of the locale set.
+The date filter of the grid works properly, irrespective of the locale set.
 
 <u>Actual results</u>:
 
-Error message *We couldn't find any records*.
+The following message appears: *We couldn't find any records*
 
 ## Apply the patch
 
