@@ -338,7 +338,7 @@ Please provide the URL for the Cloud Console project, for example, `https://cons
 
 Another method to obtain the Project URL is as follows:
 
-1. Log in to [the Cloud Console](https://console.adobecommerce.com).
+1. Log in to the [Cloud Console](https://console.adobecommerce.com).
 1. Click on the appropriate project.
 1. Copy the URL.
 
