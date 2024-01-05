@@ -4,7 +4,7 @@ description: Apply the ACSD-52714 patch to fix the Adobe Commerce issue where th
 feature: Attributes
 role: Admin, Developer
 ---
-# ACSD-52714: Date filter does not work in admin grid when set as y-m-d"
+# ACSD-52714: Date filter does not work in admin grid when set as y-m-d
 
 The ACSD-52714 patch fixes the issue where the date filter doesn't work in the admin grid when the date format is set as y-m-d". This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-52714. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
