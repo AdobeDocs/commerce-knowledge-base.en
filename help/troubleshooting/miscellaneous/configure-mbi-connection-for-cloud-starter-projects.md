@@ -177,8 +177,6 @@ Follow these steps:
 
     ![Access site master](/help/troubleshooting/miscellaneous/assets/access_site_mbi.png)
 
-    ![User name and remote address](/help/troubleshooting/miscellaneous/assets/user_name_address_mbi.png)
-
 1. Input information for your [!UICONTROL Encryption Settings].
 
     ![Encryption settings](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
