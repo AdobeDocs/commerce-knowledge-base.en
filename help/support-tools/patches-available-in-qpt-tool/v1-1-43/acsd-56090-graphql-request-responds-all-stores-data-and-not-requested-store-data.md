@@ -29,7 +29,7 @@ GraphQL response contains all stores data instead of the store specific data.
 <u>Steps to reproduce</u>:
 
 1. Login to **[!UICONTROL Admin panel]** > **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and create two root categories.
-1. Each Root category should have one sub-category
+1. Each Root category should have one sub-category.
 1. Navigate to **[!UICONTROL Stores]** > **[!UICONTROL All stores]** > Two stores exists with different root categories for each of it. (Each Stores should have at least one store view)
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** > create a product with
 
