@@ -34,7 +34,7 @@ GraphQL response contains all stores data instead of the store specific data.
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** > create a product with
 
 * All the root and sub categories assigned
-* All websites assigned
+* All websites assigned.
 
 1. Execute the GraphqQL query (add header — store = 'storename ):
 
