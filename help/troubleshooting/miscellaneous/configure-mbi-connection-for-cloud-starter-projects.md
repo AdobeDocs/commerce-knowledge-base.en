@@ -173,7 +173,7 @@ Follow these steps:
 
 1. Get information for your encryption settings.
 
-    * The project UI provides an SSH access string. This string can be used for gathering the information needed for the Remote Address and Username in setting up your **[!UICONTROL Encryption settings]**. Use the SSH Access string found by selecting **[!UICONTROL SSH]**. You can find your [!UICONTROL User Name] and [!UICONTROL Remote Address] on the **[!UICONTROL My Profile]** tab.
+    * The project UI provides an SSH access string. This string can be used for gathering the information needed for the Remote Address and Username in setting up your **[!UICONTROL Encryption settings]**. Select **[!UICONTROL SSH]** to see your [!UICONTROL User Name] and [!UICONTROL Remote Address].
 
     ![Access site master](/help/troubleshooting/miscellaneous/assets/access_site_mbi.png)
 
