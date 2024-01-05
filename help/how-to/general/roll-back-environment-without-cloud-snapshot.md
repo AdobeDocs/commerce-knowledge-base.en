@@ -91,7 +91,7 @@ This means we have reverted our Adobe Commerce installation (including DB) to it
 
 With git reset, we revert the code to the desired state in the past.
 
-1. Clone the environment to your local development environment. You may copy the command in the Cloud Console:    ![copy_git_clone.png](assets/copy_git_clone.png)
+1. Clone the environment to your local development environment. You may copy the command in your Project Web Interface:    ![copy_git_clone.png](assets/copy_git_clone.png)
 1. Access the commits history. Use `--reverse` to display history in reverse order for more convenience:
 
     ```git
@@ -171,6 +171,6 @@ In our developer documentation:
 * [Restore a snapshot on Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html#restore-a-snapshot)
 * [Create a snapshot](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html#create-a-snapshot)
 * [Snapshots and backup management](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/snapshots.html)
-* [Manage branches with the Cloud Console - View logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=en#view-logs)
+* [Manage branches with the Project Web Interface - View logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=en#view-logs)
 * [Component deployment failure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html)
 * [Manage your project](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html#configure-the-project)
