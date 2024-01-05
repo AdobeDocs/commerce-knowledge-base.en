@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-56090: GraphQL response is not store specific
 
-The ACSD-56090 patch fixes the issue where the GraphQL request responds all stores data and not  requested store data. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-56090. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The ACSD-56090 patch fixes the issue where the GraphQL respond contains all stores data instead of the store specific data. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-56090. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
