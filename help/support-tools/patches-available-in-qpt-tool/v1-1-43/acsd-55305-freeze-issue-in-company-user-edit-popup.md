@@ -1,18 +1,18 @@
 ---
-title: "ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in store view"
-description: Apply the ACSD-53658 patch to fix the Adobe Commerce issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
-feature: CMS, Personalization
+title: 'ACSD-55305: Popup freeze during company user editing in [!UICONTROL My Account]'
+description: Apply the ACSD-55305 patch to fix the Adobe Commerce issue where [!UICONTROL Edit Company User] popup on the [!UICONTROL My Account] > [!UICONTROL Company Structure] page freezes with a loader on the screen.
+feature: Companies, B2B
 role: Admin, Developer
 ---
-# ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in the store view
+# ACSD-55305: Popup freeze during company user editing in [!UICONTROL My Account]
 
-The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-53658. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55305 patch fixes the issue where  [!UICONTROL Edit Company User] popup on the [!UICONTROL My Account]> [!UICONTROL Company Structure] page freezes with a loader on the screen. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-55305. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
@@ -24,27 +24,25 @@ The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product
 
 ## Issue
 
-The **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
+An error occurs when attempting to use the *[!UICONTROL Edit Company User]* popup on the *[!UICONTROL My Account]* > *[!UICONTROL Company Structure]* page, as it freezes with a loader displayed on the screen.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to the Admin panel.
-1. Create a second store view for the default website.
-1. Create a simple product.
-1. Set a different product name for the new store view.
-1. Create a **[!UICONTROL Recently Viewed Product]** widget.
-1. Configure this widget to display on the Home page.
-1. Open the product page on the Storefront from the default store view.
-1. Open the Home page.
-1. By using the store switcher, switch to the second store view.
+1. Create a B2B company.
+1. Create a multi-select attribute for customers.  
+1. Assign a value to the newly created attribute for the company admin.
+1. Log in as Company Admin.
+1. Go to the [!UICONTROL account dashboard] and navigate to the **[!UICONTROL Company Structure]**.
+1. Select the user.
+1. Click on **[!UICONTROL Edit Selected]**.
 
 <u>Expected results</u>:
 
-The product name is updated in the widget.
+The form popup appears accurately, providing the option to edit company information.
 
 <u>Actual results</u>:
 
-The product name is not updated in the widget.
+The form popup appears without any possibility to edit.
 
 ## Apply the patch
 
