@@ -24,7 +24,7 @@ The ACSD-56090 patch fixes the issue where the GraphQL respond contains all stor
 
 ## Issue
 
-GraphQL request responds all stores data and not requested store data
+GraphQL response contains all stores data instead of the store specific data.
 
 <u>Steps to reproduce</u>:
 
