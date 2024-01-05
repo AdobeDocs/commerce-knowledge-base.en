@@ -65,7 +65,7 @@ The store specific data is returned
 
 <u>Actual results</u>:
 
-The store specific data is not returned.
+ Data returned is not store specific.
  
 ## Apply the patch
 
