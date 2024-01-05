@@ -47,7 +47,7 @@ Solution options:
 
 To check how much space you have for each Adobe Commerce on cloud infrastructure environment:
 
-1. Log in to **[[!UICONTROL console.magento.com]](https://console.magento.cloud)**.
+1. Log in to the [Cloud Console](https://console.adobecommerce.com).
 1. On the **[!UICONTROL ALL projects]** dashboard, select the relevant project. In the left corner you see disk space availability.
 
     ![project_space.png](assets/project_space.png)
