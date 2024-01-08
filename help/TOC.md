@@ -736,6 +736,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-48910: Bundled product assigned multiple sources go out of stock after invoice and shipping](/help/support-tools/patches-available-in-qpt-tool/v1-1-42/acsd-48910-bundle-product-assigned-to-multiple-sources-out-of-stock.md)
     * v1.1.43 {#v1-1-43}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.43](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/overview.md)
+        * [ACSD-55610: Partially canceled order has incorrect discount amount](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55610-partially-canceled-order-has-incorrect-discount-amount.md)
         * [ACSD-55334: Labels not translated through translation dictionaries in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55334-labels-not-translated-through-translation-dictionaries.md)
         * [ACSD-55305: Popup freeze during company user editing in [!UICONTROL My Account]](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55305-freeze-issue-in-company-user-edit-popup.md)
         * [ACSD-54972: Canonical category URL doesn't update](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54972-canonical-category-url-doesnt-update.md)
