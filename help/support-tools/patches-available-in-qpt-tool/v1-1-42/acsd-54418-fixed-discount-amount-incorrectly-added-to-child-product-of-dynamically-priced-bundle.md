@@ -1,22 +1,22 @@
 ---
-title: "ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in store view"
-description: Apply the ACSD-53658 patch to fix the Adobe Commerce issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
-feature: CMS, Personalization
+title: 'ACSD-54418: Fixed discount amount incorrectly added to child product of dynamically priced bundle'
+description: Apply the ACSD-54418 patch to fix the Adobe Commerce issue where the fixed discount amount is incorrectly applied to each child product of the dynamically priced bundle.
+feature: Shopping Cart  
 role: Admin, Developer
 ---
-# ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in the store view
+# ACSD-54418: Fixed discount amount incorrectly added to child product of dynamically priced bundle.
 
-The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-53658. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54418 patch fixes the issue where the fixed discount amount is incorrectly applied to each child product of the dynamically priced bundle. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.42 is installed. The patch ID is ACSD-54418. Please note that the issue is fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods)  2.4.6-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -24,27 +24,23 @@ The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product
 
 ## Issue
 
-The **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
+The fixed discount amount is incorrectly applied to each child product of the dynamically priced bundle.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to the Admin panel.
-1. Create a second store view for the default website.
-1. Create a simple product.
-1. Set a different product name for the new store view.
-1. Create a **[!UICONTROL Recently Viewed Product]** widget.
-1. Configure this widget to display on the Home page.
-1. Open the product page on the Storefront from the default store view.
-1. Open the Home page.
-1. By using the store switcher, switch to the second store view.
+1. Create a **[!UICONTROL bundle product]** with dynamic pricing and *2* bundle options.
+1. Create a **[!UICONTROL cart price rule]** with a specific coupon code that only applies to the bundled product **[!UICONTROL SKU]** and has a fixed discount.
+1. Add the bundled product to the cart.
+1. Apply the **[!UICONTROL coupon code]**.
+1. Check the discount applied to the shopping cart.
 
 <u>Expected results</u>:
 
-The product name is updated in the widget.
+The discount is applied only once to the whole bundled product.
 
 <u>Actual results</u>:
 
-The product name is not updated in the widget.
+The discount is applied to each bundle child product.
 
 ## Apply the patch
 

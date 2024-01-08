@@ -1,22 +1,22 @@
 ---
-title: "ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in store view"
-description: Apply the ACSD-53658 patch to fix the Adobe Commerce issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
-feature: CMS, Personalization
+title: 'ACSD-54890: `aggregate_sales_report_bestsellers_data` causes [!DNL MySQL] errors'
+description: Apply the ACSD-54890 patch to fix the Adobe Commerce issue where the `aggregate_sales_report_bestsellers_data` causes [!DNL MySQL] errors due to `/tmpdisk` being out of space.
+feature: Attributes 
 role: Admin, Developer
 ---
-# ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in the store view
+# ACSD-54890: `aggregate_sales_report_bestsellers_data` causes MySQL errors
 
-The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-53658. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54890 patch fixes the issue where the `aggregate_sales_report_bestsellers_data` causes [!DNL MySQL] errors due to `/tmpdisk` being out of space. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-54890. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.4-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.0 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -24,27 +24,20 @@ The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product
 
 ## Issue
 
-The **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
+The `aggregate_sales_report_bestsellers_data` causes **[!DNL MySQL]** errors due to `/tmpdisk` being out of space.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to the Admin panel.
-1. Create a second store view for the default website.
-1. Create a simple product.
-1. Set a different product name for the new store view.
-1. Create a **[!UICONTROL Recently Viewed Product]** widget.
-1. Configure this widget to display on the Home page.
-1. Open the product page on the Storefront from the default store view.
-1. Open the Home page.
-1. By using the store switcher, switch to the second store view.
+Execute the `aggregate_sales_report_bestsellers_data` cron job when the `sales_bestsellers_aggregated_daily` table has an enormous amount of records, like tens of millions of records.
 
 <u>Expected results</u>:
 
-The product name is updated in the widget.
+No errors occur.
 
 <u>Actual results</u>:
 
-The product name is not updated in the widget.
+The following error occurs:
+`report.ERROR: Cron Job aggregate_sales_report_bestsellers_data has an error: SQLSTATE[HY000]: General error: 3 Error writing file '/tmp/#sql/fd=72' (Errcode: 28 "No space left on device")`
 
 ## Apply the patch
 
