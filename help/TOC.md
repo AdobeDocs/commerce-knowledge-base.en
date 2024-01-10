@@ -737,6 +737,7 @@ breadcrumb-title: Commerce KB
     * v1.1.43 {#v1-1-43}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.43](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/overview.md)
         * [ACSD-52714: Date filter does not work in admin grid when set as y-m-d](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-52714-date-filter-does-not-work-in-admin-grid-when-set-as-y-m-d.md)
+        * [ACSD-56090: GraphQL response is not store specific](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-56090-graphql-request-responds-all-stores-data-and-not-requested-store-data.md)
         * [ACSD-55610: Partially canceled order has incorrect discount amount](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55610-partially-canceled-order-has-incorrect-discount-amount.md)
         * [ACSD-55334: Labels not translated through translation dictionaries in GraphQL response](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55334-labels-not-translated-through-translation-dictionaries.md)
         * [ACSD-55305: Popup freeze during company user editing in [!UICONTROL My Account]](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55305-freeze-issue-in-company-user-edit-popup.md)
