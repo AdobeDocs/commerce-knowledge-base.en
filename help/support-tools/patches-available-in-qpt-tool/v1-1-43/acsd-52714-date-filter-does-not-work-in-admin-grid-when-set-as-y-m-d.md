@@ -38,7 +38,7 @@ The date filter does not work in the admin grid when the date format is set as y
    under the tag
     `<dataType>date</dataType>`
 
-1. Flush the cache `bin/magento c:f`
+1. Flush the cache `bin/magento c:f`.
 1. Log in to Admin and create a new customer from **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
     * from: current date minus 1 day
