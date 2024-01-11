@@ -19,7 +19,7 @@ When notifications are triggered, the Adobe Commerce support team will triage th
 
 ## Adobe Commerce: default monitoring
 
-The below events are monitored and the Adobe Commerce team take necessary steps to resolve and communicate issues identified.
+The below events are monitored and the Adobe Commerce team takes necessary steps to resolve and communicate issues identified.
 
 ## Site availability monitoring
 
