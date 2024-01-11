@@ -1,22 +1,22 @@
 ---
-title: "ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in store view"
-description: Apply the ACSD-53658 patch to fix the Adobe Commerce issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
-feature: CMS, Personalization
+title: "ACSD-55334: Labels not translated through translation dictionaries in GraphQL response"
+description: Apply the ACSD-55334 patch to fix the Adobe Commerce issue where labels are not translated through translation dictionaries in the GraphQL response.
+feature: Categories, GraphQL
 role: Admin, Developer
 ---
-# ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in the store view
+# ACSD-55334: Labels not translated through translation dictionaries in GraphQL response
 
-The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-53658. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ASCD-55334 patch fixes the issue where labels are not translated through translation dictionaries in the GraphQL response. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ASCD-55334. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -24,27 +24,33 @@ The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product
 
 ## Issue
 
-The **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
+Labels are not translated through translation dictionaries in the GraphQL response.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to the Admin panel.
-1. Create a second store view for the default website.
-1. Create a simple product.
-1. Set a different product name for the new store view.
-1. Create a **[!UICONTROL Recently Viewed Product]** widget.
-1. Configure this widget to display on the Home page.
-1. Open the product page on the Storefront from the default store view.
-1. Open the Home page.
-1. By using the store switcher, switch to the second store view.
+1. Install a language pack.
+1. Send a GraphQL request like:
+
+    ```GrapQL
+    query {
+        products(filter: {}, pageSize: 25, sort: {}) {
+            aggregations {
+                label
+            }
+            total_count
+        }
+    }
+    ```
+
+1. Check the response.
 
 <u>Expected results</u>:
 
-The product name is updated in the widget.
+The label *[!UICONTROL Category]* is translated.
 
 <u>Actual results</u>:
 
-The product name is not updated in the widget.
+The label *[!UICONTROL Category]* is not translated.
 
 ## Apply the patch
 

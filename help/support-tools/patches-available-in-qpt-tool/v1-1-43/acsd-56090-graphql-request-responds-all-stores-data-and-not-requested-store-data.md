@@ -1,22 +1,22 @@
 ---
-title: "ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in store view"
-description: Apply the ACSD-53658 patch to fix the Adobe Commerce issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
-feature: CMS, Personalization
+title: 'ACSD-56090: GraphQL response is not store specific'
+description: Apply the ACSD-56090 patch to fix the Adobe Commerce issue where the GraphQL response contains all stores data instead of the store specific data.
+feature: GraphQL
 role: Admin, Developer
 ---
-# ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in the store view
+# ACSD-56090: GraphQL response is not store specific
 
-The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-53658. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56090 patch fixes the issue where the GraphQL respond contains all stores data instead of the store specific data. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-56090. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods)  2.4.4-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -24,28 +24,49 @@ The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product
 
 ## Issue
 
-The **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
+GraphQL response contains all stores data instead of the store specific data.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to the Admin panel.
-1. Create a second store view for the default website.
-1. Create a simple product.
-1. Set a different product name for the new store view.
-1. Create a **[!UICONTROL Recently Viewed Product]** widget.
-1. Configure this widget to display on the Home page.
-1. Open the product page on the Storefront from the default store view.
-1. Open the Home page.
-1. By using the store switcher, switch to the second store view.
+1. Login to **[!UICONTROL Admin panel]** > **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and create two root categories.
+1. Each Root category should have one sub-category.
+1. Navigate to **[!UICONTROL Stores]** > **[!UICONTROL All stores]** > Two stores exists with different root categories for each of it. (Each Stores should have at least one store view)
+1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** > create a product with
+
+* All the root and sub categories assigned
+* All websites assigned.
+
+1. Execute the GraphqQL query (add header — store = 'storename ):
+
+```
+   query {
+     products(filter: { url_key: { eq: "abc" } }) {
+       items {
+         categories {
+           name
+           id
+           url_path
+           breadcrumbs {
+             category_id
+             category_name
+             category_level
+           }
+         }
+       }
+     }
+   }
+```
+
+1. Check the response after executing the GraphqQL query.
 
 <u>Expected results</u>:
 
-The product name is updated in the widget.
+The store specific data is returned
 
 <u>Actual results</u>:
 
-The product name is not updated in the widget.
-
+ Data returned is not store specific.
+ 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

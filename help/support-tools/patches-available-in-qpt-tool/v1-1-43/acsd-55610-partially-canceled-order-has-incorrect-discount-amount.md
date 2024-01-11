@@ -1,18 +1,18 @@
 ---
-title: "ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in store view"
-description: Apply the ACSD-53658 patch to fix the Adobe Commerce issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
-feature: CMS, Personalization
+title: 'ACSD-55610: Partially canceled order has incorrect discount amount'
+description: Apply the ACSD-55610 patch to fix the Adobe Commerce issue where a partially canceled order has an incorrect discount amount.
+feature: Invoices, Orders, Price Rules, Shopping Cart
 role: Admin, Developer
 ---
-# ACSD-53658: **[!UICONTROL Recently Viewed Product]** data not updated properly in the store view
+# ACSD-55610: Partially canceled order has incorrect discount amount
 
-The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.42 is installed. The patch ID is ACSD-53658. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55610 patch fixes the issue where a partially canceled order has an incorrect discount amount. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.43 is installed. The patch ID is ACSD-55610. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p3
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
@@ -24,27 +24,38 @@ The ACSD-53658 patch fixes the issue where **[!UICONTROL Recently Viewed Product
 
 ## Issue
 
-The **[!UICONTROL Recently Viewed Product]** data is not updated properly in the store view.
+A partially canceled order has an incorrect discount amount.
 
 <u>Steps to reproduce</u>:
 
-1. Log in to the Admin panel.
-1. Create a second store view for the default website.
-1. Create a simple product.
-1. Set a different product name for the new store view.
-1. Create a **[!UICONTROL Recently Viewed Product]** widget.
-1. Configure this widget to display on the Home page.
-1. Open the product page on the Storefront from the default store view.
-1. Open the Home page.
-1. By using the store switcher, switch to the second store view.
+1. Create a shopping cart price rule.
+
+    * *[!UICONTROL Rule Name]*: *Winter Sale*
+    * *[!UICONTROL Active]* = *Yes*
+    * *[!UICONTROL Websites]* = *Main Website*
+    * Choose all customer groups.
+    * Select a specific coupon.
+    * *[!UICONTROL Coupon Code]*: *WINTER10*
+    * *[!UICONTROL Conditions]*: *[!UICONTROL If ALL of these conditions are TRUE]*: *Subtotal(Excl. Tax) equals or is greater than 75*
+    * Apply *[!UICONTROL Percent of product price discount]*.
+    * *[!UICONTROL Discount Amount]*: *10*
+    * *[!UICONTROL Discard subsequent rules]*: *Yes*
+
+1. Create three products with prices set to 100.
+1. Add the three products to the cart.
+1. Apply the coupon.
+1. Place the order.
+1. Invoice one item of the order and ship it.
+1. Cancel the other two items.
+1. Check the `base_discount_canceled` column.
 
 <u>Expected results</u>:
 
-The product name is updated in the widget.
+The discount amount in `base_discount_cancelled` reflects correctly.
 
 <u>Actual results</u>:
 
-The product name is not updated in the widget.
+The `base_discount_cancelled` is not correct.
 
 ## Apply the patch
 
