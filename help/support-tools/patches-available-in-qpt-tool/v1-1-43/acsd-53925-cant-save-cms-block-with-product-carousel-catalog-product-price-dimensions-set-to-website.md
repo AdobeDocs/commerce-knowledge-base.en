@@ -41,7 +41,7 @@ Admin is unable to save a CMS block with *[!UICONTROL Product Carousel]* when di
     * Add a *[!UICONTROL Row]* element
     * Add a *[!UICONTROL Products]* element
     * Select *[!UICONTROL Product Carousel]*
-    * Enter prodcut SKU - *bundle1-dyn*
+    * Enter product SKU - *bundle1-dyn*
 1. Save the CMS block.
 
 <u>Expected results</u>:
