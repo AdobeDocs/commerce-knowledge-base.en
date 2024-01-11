@@ -19,7 +19,7 @@ When notifications are triggered, the Adobe Commerce support team will triage th
 
 ## Adobe Commerce: default monitoring
 
-The below events are monitored and the Adobe Commerce team (including non-Adobe Managed Services [!DNL (AMS)/Premier support)] take necessary steps to resolve and communicate issues identified.
+The below events are monitored and the Adobe Commerce team takes necessary steps to resolve and communicate issues identified.
 
 ## Site availability monitoring
 
@@ -43,4 +43,3 @@ The below events are monitored and the Adobe Commerce team (including non-Adobe 
 | **Notification recipient** | Merchant/Partner and Adobe. |
 | **Action by Adobe** | Automatically raise support ticket and additional disk space is automatically added to the relevant mount ([!DNL MySQL] or media) to prevent a site outage. |
 | **Action by merchant** | To receive ongoing warning level disk space alerts, please refer to: <ul><li>[[!DNL Managed alerts for Adobe Commerce]: disk warning alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-warning-alert.html)</li><li>[[!DNL Managed alerts for Adobe Commerce]: disk critical alert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-critical-alert.html) </li></ul> |
-
