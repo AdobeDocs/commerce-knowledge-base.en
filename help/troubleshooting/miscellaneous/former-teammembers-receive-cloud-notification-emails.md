@@ -11,7 +11,7 @@ This article provides a solution for where team members that are no longer assoc
 
 ## Issue
 
-A notice of a detected outage or important issue regarding the cloud project/environment has been sent to your team. This includes members that may no longer be associated with your project. You want these users to stop receiving notifications.
+A notice of a detected outage or important issue regarding the cloud project/environment has been sent to your team. This includes members that may no longer be associated with your project such as external/agency developers or system integrators. You want these users to stop receiving notifications.
 
 ## Solution
 
