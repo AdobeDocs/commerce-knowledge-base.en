@@ -43,7 +43,7 @@ It is possible to get the company user UID when the status is set to inactive.
 
 <u>Actual results</u>:
 
-The inactive customers not in the list. Unable to get the company user UID when the status was set to inactive.
+The inactive customers are not in the list. Unable to get the company user UID when the status is set to inactive.
  
 ## Apply the patch
 
