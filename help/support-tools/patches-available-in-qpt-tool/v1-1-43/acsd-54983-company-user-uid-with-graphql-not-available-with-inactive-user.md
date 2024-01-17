@@ -32,7 +32,7 @@ Unable to get the company user UID with GraphQL request when the user status is 
 1. Create a new customer.
 1. Assign the new customer to a company.
 1. Get a **[!UICONTROL company admin token]**.
-1. Using **[!UICONTROL company admin Token]** get a company structure.
+1. Using the **[!UICONTROL company admin token]**, fetch the company structure. See [Return the company structure](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) in our developer documentation.
 (<https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure>)
 1. Response contains only ACTIVE customers with their IDs.
 1. Update the company user to INACTIVE.
