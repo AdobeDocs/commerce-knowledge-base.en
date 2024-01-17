@@ -28,7 +28,7 @@ Unable to get the company user UID with GraphQL request when the user status is 
 
 <u>Steps to reproduce</u>:
 
-1. Create a company with admin user **[!UICONTROL company@test.com]**.
+1. Create a company with an admin user. E.g., company@test.com.
 1. Create a new customer.
 1. Assign the new customer to a company.
 1. Get a **[!UICONTROL company admin token]**.
