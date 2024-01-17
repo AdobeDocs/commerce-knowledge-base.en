@@ -39,7 +39,7 @@ Unable to get the company user UID with GraphQL request when the user status is 
 
 <u>Expected results</u>:
 
-It should be possible to get the company user UID when the status was set to inactive.
+It is possible to get the company user UID when the status is set to inactive.
 
 <u>Actual results</u>:
 
