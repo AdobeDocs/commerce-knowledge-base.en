@@ -749,6 +749,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-53790: Multiple RMAs for a single product can be created via Rest API](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53790-multiple-rmas-for-single-product-can-be-created-via-rest-api.md)
         * [ACSD-54739: [!UICONTROL Product Stock] status not applied for [!UICONTROL Related Product Rules]](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54739-product-stock-status-not-applied-for-related-product-rules.md)
         * [ACSD-54983: Company user UID with GraphQL not available with inactive user](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
+    * v1.1.44 {#v1-1-44}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
