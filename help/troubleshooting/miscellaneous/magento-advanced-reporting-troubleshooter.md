@@ -71,7 +71,7 @@ b. NO – If token value is NULL or there is no record in the database, proceed 
 
 +++**Does the query return the row?**
 
-Check counter value in flag table by running this query: ``SELECT * FROM `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter'\G;`` Does the query return the row?
+Check counter value in flag table by running this query: ``SELECT * FROM `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter'\G`` Does the query return the row?
 
 a. YES – Take the following steps: 1. Run the query below:  
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``  
