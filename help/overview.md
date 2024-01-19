@@ -168,7 +168,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-errors-where-patches-not-found.html">Deployment errors where patches not found:</a> This article provides a solution to the issue when upgrading your instance the deployment fails and you see an error in the deployment logs: <em>Next patches weren't found: MDVA-XXXXX, ACSD-XXXXX. Please, check with "status" command availability of these patches for the current Magento version</em>.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-errors-where-patches-not-found.html">Deployment errors where patches not found:</a> This article provides a solution to the issue where when upgrading your instance, the deployment fails and you see an error in the deployment logs: <em>Next patches weren't found: MDVA-XXXXX, ACSD-XXXXX. Please, check with "status" command availability of these patches for the current Magento version</em>.
     </td>
     <td>New article </td>
     <td>January 15, 2024</td>
