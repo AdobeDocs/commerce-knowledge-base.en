@@ -9,7 +9,8 @@ role: Developer, Admin
 This article provides some workarounds to the [!DNL SendGrid limitation] on Adobe Commerce Cloud.
 
 ## Affected products and versions
- <!---
+
+<!---
  1. Does this impact all support versions of Adobe Commerce on cloud infrastructure?
  2. Is SendGrid installed by default?-->
 
