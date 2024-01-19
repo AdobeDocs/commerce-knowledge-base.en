@@ -176,7 +176,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.html">Cannot change search engine in <code>app/etc/env.php</code>:</a> This article provides a solution to the issue where you try to remove the search engine configuration from the <code>app/etc/env.php</code> file, but after redeployment, the configuration reverts to the previous setting or is changed to OpenSearch by default.
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.html">Cannot change search engine in <code>app/etc/env.php</code>:</a> This article provides a solution to the issue where you try to remove the search engine configuration from the <code>app/etc/env.php</code> file, but after redeployment, the configuration reverts to the previous setting or is changed to [!DNL OpenSearch] by default.
     </td>
     <td>New article </td>
     <td>January 15, 2024</td>
