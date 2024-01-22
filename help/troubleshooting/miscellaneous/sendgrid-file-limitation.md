@@ -6,7 +6,7 @@ role: Developer, Admin
 ---
 # [!DNL SendGrid limitation] on Adobe Commerce Cloud
 
-This article provides some workarounds to the [!DNL SendGrid limitation] on Adobe Commerce Cloud.
+This article provides some workarounds to the [!DNL SendGrid limitation] on Adobe Commerce on Cloud infrastructure.
 
 ## Affected products and versions
 
