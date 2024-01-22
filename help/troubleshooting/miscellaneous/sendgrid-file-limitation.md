@@ -49,9 +49,6 @@ This is a limitation of [!DNL SendGrid]. [!DNL SendGrid] has a system limitation
 * Consider the use of a remote SMTP server on your Adobe Commerce instance. For steps, refer to [Configure email communications](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html) in our Admin Systems Guide.
 * Reconfigure your server so that within your module files can be saved, and then attach the link to the files in the emails.
 
-<!---is this recomended by company policy - using third party customerization that may not be tested?-->
-* Search for 3rd-party customization in our Marketplace Store https://commercemarketplace.adobe.com, that enables emails to be sent via remote services.
-
 ## Related reading
 
 * [[!DNL SendGrid] email service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html) in our Commerce on Cloud Infrastructure Guide.
