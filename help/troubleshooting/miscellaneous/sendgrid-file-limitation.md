@@ -17,23 +17,32 @@ This article provides some workarounds to the [!DNL SendGrid limitation] on Adob
 
 You attempt to send large attachments in emails and see these log errors:
 
-<!--what are the numbers starting with "i-" are they i-nodes and should they be removed? Should any other information in these error messages be considered sensitive and removed? -->
-
 In `/var/log/mail.log`
 
 ```shell
-Month Date Time i-<id> postfix/sendmail[21408]: fatal: no-reply@leviat.com(8080): message file too big
-Month Date Time i-<id> postfix/sendmail[26434]: fatal: no-reply@leviat.com(8080): message file too big
+Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[21408]: fatal: no-reply@leviat.com(8080): message file too big
+Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[26434]: fatal: no-reply@leviat.com(8080): message file too big
 ```
 
 In `in /var/log/exception.log`
 
-<!---
-1) Is the number after /app/ a project ID?  
-2) Is it is ok to shorten the error message -->
+Production: 
 
 ```shell
-  [Year Date Time] report.ERROR: Laminas\Mail\Transport\Exception\RuntimeException: Unable to send mail: Unknown error in /app/<id>_stg2/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:313
+/app/xxxxxxxxxxxx/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:313
+```
+
+Staging:
+
+```shell
+/app/xxxxxxxxxxxx_stg/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:313
+```
+
+Staging2:
+
+```
+shell
+/app/xxxxxxxxxxxx_stg2/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:313
 ```
 
 ## Cause
