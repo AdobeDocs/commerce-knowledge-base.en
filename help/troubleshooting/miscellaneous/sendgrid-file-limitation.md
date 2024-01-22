@@ -10,11 +10,8 @@ This article provides some workarounds to the [!DNL SendGrid limitation] on Adob
 
 ## Affected products and versions
 
-<!---
- 1. Does this impact all support versions of Adobe Commerce on cloud infrastructure?
- 2. Is SendGrid installed by default?-->
+*  Adobe Commerce on cloud infrastructure, [all supported versions](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
-* Adobe Commerce on cloud infrastructure, all supported versions
 
 ## Issue
 
