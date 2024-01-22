@@ -6,7 +6,7 @@ feature: Cache
 ---
 # Checklist for setting up a new [!DNL domain]
 
-This is a checklist of how to set up a new [!DNL domain] in Adobe Commerce on cloud infrastructure. It applies regardless of whether you are trying to simply add a new domain, or replace the current domain with a new one.
+This is a checklist of how to set up a new [!DNL domain] in Adobe Commerce on cloud infrastructure. It applies regardless of whether you are trying to simply add a new domain or replace the current domain with a new one.
 
 ## Affected products and versions
 
