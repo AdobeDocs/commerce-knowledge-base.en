@@ -1,7 +1,7 @@
 ---
 title: "[!DNL SendGrid] file limitation on Adobe Commerce Cloud"
 description: This article provides a workaround to the  [!DNL SendGrid] limitation in Adobe Commerce on cloud infrastructure.
-feature: Deploy
+feature: Deploy, Marketing Tools
 role: Developer, Admin
 ---
 # [!DNL SendGrid limitation] on Adobe Commerce Cloud
