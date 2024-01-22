@@ -28,26 +28,19 @@ In `in /var/log/exception.log`
 
 Production: 
 
-```shell
-/app/xxxxxxxxxxxx/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:313
-```
+`/app/<project-id>/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:313`
 
 Staging:
 
-```shell
-/app/xxxxxxxxxxxx_stg/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:313
-```
+`/app/<project-id_stg>/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:313`
 
 Staging2:
 
-```
-shell
-/app/xxxxxxxxxxxx_stg2/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:313
-```
+`/app/<project-id_stg2>/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:313`
 
 ## Cause
 
-This is a limitation of [!DNL SendGrid]. [!DNL SendGrid] has a system limitation of 30Mb size for email. It is recommended that you do not use attachments that exceeds 10Mb. See [Sending Attachments](https://docs.sendgrid.com/ui/sending-email/attachments-with-digioh) in Sendgrid documentation.
+[!DNL SendGrid] has a system limitation of 30Mb size for email. It is recommended that you do not use attachments that exceeds 10Mb. See [Sending Attachments](https://docs.sendgrid.com/ui/sending-email/attachments-with-digioh) in SendGrid documentation.
 
 ## Workaround
 
