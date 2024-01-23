@@ -46,7 +46,7 @@ Staging2:
 
 * Do not use attachments higher that 6Mb or 10Mb.
 * Consider the use of a remote SMTP server on your Adobe Commerce instance. For steps, refer to [Configure email communications](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html) in our Admin Systems Guide.
-* Reconfigure your server so that within your module files can be saved, and then attach the link to the files in the emails.
+* Reconfigure your server so that files can be saved within your module, and then attach the link to the files in the emails.
 
 ## Related reading
 
