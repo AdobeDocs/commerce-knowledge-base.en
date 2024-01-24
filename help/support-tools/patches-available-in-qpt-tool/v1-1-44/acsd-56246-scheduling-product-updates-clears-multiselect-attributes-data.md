@@ -1,13 +1,13 @@
 ---
 title: 'ACSD-56246:: Scheduling Product updates clears multiselect attributes data'
-description: Apply the ACSD-56246 patch to fix the Adobe Commerce issue where scheduling product updates clears multiselect attributes data.
+description: Apply the ACSD-56246 patch to fix the Adobe Commerce issue where scheduling product updates clears multiselect attributes data with ArrayBackend.
 description: Apply the ACSD-56246 patch to fix the Adobe Commerce issue where .
 feature: Product 
 role: Admin, Developer
 ---
 # ACSD-56246: Scheduling Product updates clears multiselect attributes data
 
-The ACSD-56246: patch fixes the issue where scheduling product updates clears multiselect attributes data. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56246:. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56246: patch fixes the issue where scheduling product updates clears multiselect attributes data with ArrayBackend. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56246:. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -25,7 +25,7 @@ The ACSD-56246: patch fixes the issue where scheduling product updates clears mu
 
 ## Issue
 
-Scheduling Product updates clears multiselect attributes data.
+Scheduling Product updates clears multiselect attributes data with ArrayBackend.
 
 <u>Steps to reproduce</u>:
 
