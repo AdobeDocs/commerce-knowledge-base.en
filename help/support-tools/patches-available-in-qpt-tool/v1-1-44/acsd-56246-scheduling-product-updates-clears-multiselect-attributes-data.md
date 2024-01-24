@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-56246:: Scheduling Product updates clears multiselect attributes data'
+title: 'ACSD-56246:: Scheduling product updates clears multiselect attributes data'
 description: Apply the ACSD-56246 patch to fix the Adobe Commerce issue where scheduling product updates clears multiselect attributes data with ArrayBackend.
 feature: Product 
 role: Admin, Developer
 ---
-# ACSD-56246: Scheduling Product updates clears multiselect attributes data
+# ACSD-56246: Scheduling product updates clears multiselect attributes data
 
-The ACSD-56246: patch fixes the issue where scheduling product updates clears multiselect attributes data with ArrayBackend. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56246:. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56246: patch fixes the issue where scheduling product updates clears multiselect attributes data with ArrayBackend. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56246. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-56246: patch fixes the issue where scheduling product updates clears mu
 
 ## Issue
 
-Scheduling Product updates clears multiselect attributes data with ArrayBackend.
+Scheduling product updates clears multiselect attributes data with ArrayBackend.
 
 <u>Steps to reproduce</u>:
 
@@ -48,8 +48,8 @@ Scheduling Product updates clears multiselect attributes data with ArrayBackend.
 `bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`
 1. Run
 `bin/magento setup:upgrade`
-1. Go to admin > Pick any simple product > Select all items in Program attribute > Save the product
-1. Schedule an update for this product in the next minute and run the below command to get Content Staging working:
+1. Go to **[!UICONTROL admin]** > Pick any simple product > Select all items in program attribute > and click on **[!UICONTROL Save the product]**.
+1. Schedule an update for this product in the next minute and run the command below to get the Content Staging working:
 `for i in {1..100}; do bin/magento cron:run; done`
 
 <u>Expected results</u>:
