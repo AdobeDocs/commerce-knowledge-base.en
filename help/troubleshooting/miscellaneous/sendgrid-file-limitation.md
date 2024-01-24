@@ -20,7 +20,7 @@ You attempt to send large attachments in emails and see these log errors:
 In `/var/log/mail.log`
 
 ```shell
-Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[21408]: fatal: no-reply@lxxxxxxxx.com(8080): message file too big
+Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[21408]: fatal: no-reply@xxxxxxxx.com(8080): message file too big
 Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[26434]: fatal: no-reply@xxxxxxxxx.com(8080): message file too big
 ```
 
