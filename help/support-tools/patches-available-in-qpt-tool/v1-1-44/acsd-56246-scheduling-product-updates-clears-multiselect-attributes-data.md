@@ -1,7 +1,6 @@
 ---
 title: 'ACSD-56246:: Scheduling Product updates clears multiselect attributes data'
 description: Apply the ACSD-56246 patch to fix the Adobe Commerce issue where scheduling product updates clears multiselect attributes data with ArrayBackend.
-description: Apply the ACSD-56246 patch to fix the Adobe Commerce issue where .
 feature: Product 
 role: Admin, Developer
 ---
