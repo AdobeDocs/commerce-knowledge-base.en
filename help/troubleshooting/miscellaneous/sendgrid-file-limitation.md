@@ -24,7 +24,7 @@ Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[21408]: fatal: no-reply@lev
 Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[26434]: fatal: no-reply@leviat.com(8080): message file too big
 ```
 
-In `in /var/log/exception.log`
+In `/var/log/exception.log`
 
 Production: 
 
