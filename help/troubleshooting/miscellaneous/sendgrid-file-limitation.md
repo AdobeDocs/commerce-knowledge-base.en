@@ -4,7 +4,7 @@ description: This article provides a workaround to the  [!DNL SendGrid] limitati
 feature: Deploy, Marketing Tools
 role: Developer, Admin
 ---
-# [!DNL SendGrid limitation] on Adobe Commerce Cloud
+# [!DNL SendGrid limitation] for Adobe Commerce Cloud
 
 This article provides some workarounds to the [!DNL SendGrid limitation] on Adobe Commerce on Cloud infrastructure.
 
