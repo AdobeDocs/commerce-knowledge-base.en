@@ -18,6 +18,7 @@ The ACSD-53583 patch improves the partial reindex performance of *Category Produ
 **Compatible with Adobe Commerce versions:**
 
 * Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
+* Not compatible with Live Search module. In order to apply this patch to Live Search installation, please request additionally ACSD-55719 patch.
 
 >[!NOTE]
 >
