@@ -41,10 +41,10 @@ The [!DNL Fastly/Varnish] cache is not cleared for content staging update
        meta_description
        description
        path
-      cms_block {
-      content
-      identifier
-      title
+        cms_block {
+        content
+        identifier
+        title
       __typename
       }
       __typename
