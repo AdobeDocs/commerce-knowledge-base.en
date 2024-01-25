@@ -32,6 +32,7 @@ The [!DNL Fastly/Varnish] cache is not cleared for content staging update
 2. Create a static block with a schedule update.
 3. Create a category embedding the static block. 
 4. Fetch the content of the category using the below GraphQL query:
+
 ```GraphQL
    query GetCategories($id: String!) {
   categoryList(filters: { category_uid: { eq: $id } }) {
