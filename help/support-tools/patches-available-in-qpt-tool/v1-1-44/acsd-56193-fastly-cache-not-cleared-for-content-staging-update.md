@@ -33,25 +33,25 @@ The [!DNL Fastly/Varnish] cache is not cleared for content staging update
 3. Create a category embedding the static block. 
 4. Fetch the content of the category using the below GraphQL query:
 
-```GraphQL
-   query GetCategories($id: String!) {
-  categoryList(filters: { category_uid: { eq: $id } }) {
-    meta_title
-    meta_keywords
-    meta_description
-    description
-    path
-    cms_block {
+    ```GraphQL
+       query GetCategories($id: String!) {
+       categoryList(filters: { category_uid: { eq: $id } }) {
+       meta_title
+       meta_keywords
+       meta_description
+       description
+       path
+      cms_block {
       content
       identifier
       title
       __typename
-    }
+      }
     __typename
-  }
-}
-{"id":"Mwo="}
-```
+      }
+      }
+      {"id":"Mwo="}
+    ```
 
 5. Run this query multiple times and make sure the response is cached in the [!DNL Varnish].
 6. Run the cron to apply the scheduled change.
