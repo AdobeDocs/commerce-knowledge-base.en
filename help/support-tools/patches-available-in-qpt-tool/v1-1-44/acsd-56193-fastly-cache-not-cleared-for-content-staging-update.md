@@ -35,20 +35,21 @@ The [!DNL Fastly/Varnish] cache is not cleared for content staging update
 
     ```GraphQL
        query GetCategories($id: String!) {
-       categoryList(filters: { category_uid: { eq: $id } }) {
-       meta_title
-       meta_keywords
-       meta_description
-       description
-       path
-        cms_block {
-        content
-        identifier
-        title
-      __typename
-      }
-      __typename
-      }
+          categoryList(filters: { category_uid: { eq: $id } }) 
+        {
+            meta_title
+            meta_keywords
+            meta_description
+            description
+            path
+            cms_block {
+              content
+              identifier
+              title
+              __typename
+            }
+            __typename
+        }
       }
       {"id":"Mwo="}
     ```
