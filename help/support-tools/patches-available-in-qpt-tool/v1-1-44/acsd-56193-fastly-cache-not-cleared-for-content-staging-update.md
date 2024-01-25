@@ -29,9 +29,9 @@ The [!DNL Fastly/Varnish] cache is not cleared for content staging update
 <u>Steps to reproduce</u>:
 
 1. Install and configure [!DNL Varnish] cache.
-2. Create a static block with a schedule update.
-3. Create a category embedding the static block. 
-4. Fetch the content of the category using the below GraphQL query:
+1. Create a static block with a schedule update.
+1. Create a category embedding the static block. 
+1. Fetch the content of the category using the below GraphQL query:
 
     ```GraphQL
        query GetCategories($id: String!) {
@@ -47,17 +47,17 @@ The [!DNL Fastly/Varnish] cache is not cleared for content staging update
       title
       __typename
       }
-    __typename
+      __typename
       }
       }
       {"id":"Mwo="}
     ```
 
-5. Run this query multiple times and make sure the response is cached in the [!DNL Varnish].
-6. Run the cron to apply the scheduled change.
-7. Run the above GraphQL query again.
-8. Create a new schedule for the same static block.
-9. Repeat the steps numbered 5-9.
+1. Run this query multiple times and make sure the response is cached in the [!DNL Varnish].
+1. Run the cron to apply the scheduled change.
+1. Run the above GraphQL query again.
+1. Create a new schedule for the same static block.
+1. Repeat the steps numbered 5-9.
 
 <u>Expected results</u>:
 
