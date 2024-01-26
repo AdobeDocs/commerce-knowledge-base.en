@@ -24,6 +24,35 @@ Read: [Restore a snapshot on Adobe Commerce on cloud infrastructure](https://dev
 
 Read: [Create a snapshot](https://devdocs.magento.com/cloud/project/project-webint-snap.html#create-snapshot) in our developer documentation.
 
+With a planned deployment, or upgrade, the easiest and recommended [!UICONTROL Rollback] would be for the merchant, as part of your preparations to do the following:
+
+>[!NOTE]
+>
+>Always test these steps in your **[!UICONTROL Staging Environment]** first!
+
+<u>5 days prior to the upgrade/deployment activities</u>:
+
+1. Check the size of the current Database.
+1. Check that you have enough disk space on `/data/exports` to hold a [!UICONTROL Database Dump], because if you do not have enough disk space, then either remove unwanted data, or create a support case and request for the disk to be expanded.
+
+    <u>On the day of the changes</u>:
+
+1. Place the website into [!UICONTROL Maintenance Mode].<br>
+Read more about [Enable or disable [!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) in our user guide, and [[!UICONTROL Maintenance Mode] options for upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html) in our upgrade guide.
+1. Take a local [[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html).
+
+    <u>If a [!UICONTROL Rollback] is required</u>:
+
+1. If Applications such as [!DNL MariaDB] was upgraded as part of this planned activity, have that application reinstalled to a previous version first.
+1. [!UICONTROL Rollback] the Database using the local [!UICONTROL Database Dump], and import this back into [!DNL MariaDB].
+1. [!UICONTROL Rollback] the code via [!DNL Git] to a previous working version.
+
+Using [!UICONTROL Snapshots] is not the recommended way for upgrade/planned activity [!UICONTROL rollbacks/restores], as it takes much longer to retrieve the data compared to a local [!UICONTROL Database Dump], as taken above in Step 4.
+
+[!UICONTROL Snapshots] are not held on the node/server, they are instead held on a separate storage block, and since such data has to be transmitted from that storage over the [!DNL AWS] network to a new disk, that disk is then mounted onto the node ready for retrieval/import onto the original disk connected to the node/server.
+
+When you compare this to a local [!UICONTROL Database Dump], the data is already retrievable on the node/server, so a lot of time is saved as only a [!UICONTROL Database Import] is required.
+
 ## Scenario 2: No snapshot, build stable (SSH connection available)
 
 This section shows how to reset an environment when you have not created a snapshot but can access the environment via SSH.
