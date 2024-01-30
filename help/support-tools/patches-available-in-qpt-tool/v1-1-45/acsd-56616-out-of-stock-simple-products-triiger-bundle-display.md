@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-56616: Frontend display of bundled products during simple stock shortage'.
+title: 'ACSD-56616: Frontend display of bundled products during simple stock shortage'
 description: Apply the ACSD-56616 patch to fix the Adobe Commerce issue where bundled products unexpectedly appear on the frontend when all associated simple products are out of stock.
 feature: Products
 role: Admin, Developer
