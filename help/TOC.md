@@ -752,6 +752,8 @@ breadcrumb-title: Commerce KB
     * v1.1.44 {#v1-1-44}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
         * [ACSD-55352: Creating [!UICONTROL Credit Memo] with reward points](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55352-creating-credit-memos-with-reward-points.md)
+    * v1.1.45 {#v1-1-45}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -1037,6 +1039,7 @@ breadcrumb-title: Commerce KB
     * [Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
     * [Getting thousands of search results after upgrading from 2.4.2 to 2.4.5-p3](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2.4.5-p3.md)
     * [Cannot change search engine in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
+    * [[!DNL SendGrid] file limitation for Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
