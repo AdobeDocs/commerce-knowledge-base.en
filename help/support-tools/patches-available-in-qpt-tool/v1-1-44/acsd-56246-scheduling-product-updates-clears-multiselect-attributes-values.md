@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-56246:: Scheduling product updates clears multiselect attributes data'
-description: Apply the ACSD-56246 patch to fix the Adobe Commerce issue where scheduling product updates clears multiselect attributes data with ArrayBackend.
-feature: Product 
+title: 'ACSD-56246:: Scheduling product updates clears multiselect attributes values'
+description: Apply the ACSD-56246 patch to fix the Adobe Commerce issue where scheduling product updates clears multiselect attributes values.
+feature: Product, Attributes, Staging 
 role: Admin, Developer
 ---
-# ACSD-56246: Scheduling product updates clears multiselect attributes data
+# ACSD-56246: Scheduling product updates clears multiselect attributes values
 
-The ACSD-56246: patch fixes the issue where scheduling product updates clears multiselect attributes data with ArrayBackend. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56246. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56246: patch fixes the issue where scheduling product updates clears multiselect attributes values. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56246. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-56246: patch fixes the issue where scheduling product updates clears mu
 
 ## Issue
 
-Scheduling product updates clears multiselect attributes data with ArrayBackend.
+The scheduled product updates clears multiselect attributes values.
 
 <u>Steps to reproduce</u>:
 
@@ -54,11 +54,11 @@ Scheduling product updates clears multiselect attributes data with ArrayBackend.
 
 <u>Expected results</u>:
 
-The product's program attribute should not change.
+The product's **[!UICONTROL program]** attribute should not change.
 
 <u>Actual results</u>:
 
-The product's program attribute is cleared.
+The product's **[!UICONTROL program]** attribute is cleared.
  
 ## Apply the patch
 
