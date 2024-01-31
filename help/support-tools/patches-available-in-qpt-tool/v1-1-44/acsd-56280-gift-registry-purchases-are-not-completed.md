@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-56280: Gift registry purchases are not completed'
 description: Apply the ACSD-56280 patch to fix the Adobe Commerce issue where the gift registry purchases are not completed
-feature: Purchase Orders
+feature: Checkout 
 role: Admin
 ---
 # ACSD-56280: Gift registry purchases are not completed
