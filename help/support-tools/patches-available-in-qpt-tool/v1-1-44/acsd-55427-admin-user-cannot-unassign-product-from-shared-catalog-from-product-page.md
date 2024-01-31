@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-55427: An admin cannot unassign product from *[!UICONTROL Product in Shared Catalogs] on the product's page
 
-The ACSD-55427 patch fixes the issue where you cannot unassign a product from **[!UICONTROL Product in Shared Catalogs]** on the product's page in the Catalog in the Commerce Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-55427. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55427 patch fixes the issue where you cannot unassign a product from **[!UICONTROL Product in Shared Catalogs]** on the product's page in the catalog in the Commerce Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-55427. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
