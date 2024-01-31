@@ -33,7 +33,7 @@ With a planned deployment, or upgrade, the easiest and recommended [!UICONTROL R
 <u>5 days prior to the upgrade/deployment activities</u>:
 
 1. Check the size of the current Database.
-1. Check that you have enough disk space on `/data/exports` to hold a [!UICONTROL Database Dump], because if you do not have enough disk space, then either remove unwanted data, or create a support case and request for the disk to be expanded.
+1. Check that you have enough disk space on `/data/exports` to hold a [!UICONTROL Database Dump]. If you do not have enough disk space, then either remove unwanted data, or create a support case and request for the disk to be expanded.
 
     <u>On the day of the changes</u>:
 
