@@ -25,7 +25,7 @@ The ACSD-55427 patch fixes the issue where you cannot unassign a product from **
 
 ## Issue
 
-You cannot unassign a product from **[!UICONTROL Product in Shared Catalogs]** on the product's page in the Catalog in the Commerce Admin.
+You cannot unassign a product from **[!UICONTROL Product in Shared Catalogs]** on the product's page in the catalog in the Commerce Admin.
 
 <u>Steps to reproduce</u>:
 
