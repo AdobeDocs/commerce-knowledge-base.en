@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-55231: Product search and cart addition error in quick order functionality'
 description: Apply the ACSD-55231 patch to fix the Adobe Commerce issue where users encounter errors in product search and cart functionality, receiving an error message stating 'the SKU was not found in the catalog'.
-feature: Products, Catalog Service
+feature: Products, Checkout, B2B
 role: Admin, Developer
 ---
 # ACSD-55231: Product search and cart addition error in quick order functionality
