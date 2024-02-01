@@ -28,7 +28,7 @@ After creating a partial credit memo with customer reward points, the order stat
 
 <u>Steps to reproduce</u>:
 
-1. Open the Commerce Admin.
+1. Log in to the Adobe Commerce Admin.
 2. Go to **[!UICONTROL Stores]** > **[!UICONTROL Other Setting]** > **[!UICONTROL Reward Exchange Rates]** > **[!UICONTROL Add New Rate]**.
 3. Add two rates:
     * *[!UICONTROL First]*:
