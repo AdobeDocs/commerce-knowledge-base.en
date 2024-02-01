@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-55231: Product search and cart addition error in quick order functionality'
-description: Apply the ACSD-55231 patch to fix the Adobe Commerce issue where users encounter errors in product search and cart functionality, receiving an error message stating 'the SKU was not found in the catalog'.
+description: Apply the ACSD-55231 patch to fix the Adobe Commerce issue where you get *'The SKU was not found in the catalog'* error when trying to add a product to the cart using quick order functionality.
 feature: Products, Checkout, B2B
 role: Admin, Developer
 ---
 # ACSD-55231: Product search and cart addition error in quick order functionality
 
-The ACSD-55231 patch fixes the issue where users encounter errors in product search and cart functionality, receiving an error message stating 'the SKU was not found in the catalog'. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-55231. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55231 patch fixes the issue where you get *'The SKU was not found in the catalog'* error when trying to add a product to the cart using quick order functionality. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-55231. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,11 +24,11 @@ The ACSD-55231 patch fixes the issue where users encounter errors in product sea
 
 ## Issue
 
-Quick order functionality displays *'the SKU was not found in the catalog'* error during product search and cart addition.
+Getting *'the SKU was not found in the catalog'* error when searching for products to add to the cart using quick order functionality. 
 
 <u>Steps to reproduce</u>:
 
-1. Install **[!UICONTROL Adobe Commerce CE + EE + B2B]**.
+1. Install Adobe Commerce CE + EE + B2B modules.
 1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL B2B Features]** and set:
     * **[!UICONTROL Enable company]**: *Yes*
     * **[!UICONTROL Enable Shared Catalog]**: *Yes*
