@@ -752,6 +752,10 @@ breadcrumb-title: Commerce KB
     * v1.1.44 {#v1-1-44}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
         * [ACSD-55427: Admin user cannot unassign product from shared catalog from product page](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55427-admin-user-cannot-unassign-product-from-shared-catalog-from-product-page.md)
+        * [ACSD-56280: Gift registry purchases are not completed](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56280-gift-registry-purchases-are-not-completed.md)
+        * [ACSD-56193: [!DNL Fastly/Varnish] cache not cleared for content staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56193-fastly-cache-not-cleared-for-content-staging-update.md)
+    * v1.1.45 {#v1-1-45}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -833,6 +837,7 @@ breadcrumb-title: Commerce KB
     * [Customers get logged out or lose cart content on Adobe Commerce storefront](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
     * [Cannot save contact as URL key](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
   * Installation and upgrade {#installation-and-upgrade}
+    * [[!UICONTROL Recommendations] [!DNL JS] errors after upgrade to Adobe Commerce version 2.4.5](/help/troubleshooting/installation-and-upgrade/recommendations-js-errors-after-upgrade-to-adobe-commerce-version-2.4.5.md)
     * [[!DNL B2B] 1.4.0 installation fails on Adobe Commerce 2.4.6-p1 on-premises](/help/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.md)
     * [Reduce expired "oauth_tokens" before 2.4.6 upgrade](/help/troubleshooting/installation-and-upgrade/reduce-expired-oauth-tokens-before-2.4.6-upgrade.md)
     * [Cannot install using nginx](/help/troubleshooting/installation-and-upgrade/cannot-install-using-nginx.md)
