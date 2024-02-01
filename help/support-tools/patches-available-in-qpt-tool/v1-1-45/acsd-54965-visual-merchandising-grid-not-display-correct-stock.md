@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-54965: [!UICONTROL Visual Merchandising] grid does not display the correct stock'
-description: Apply the ACSD-54965 patch to fix the Adobe Commerce issue where the Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock.
+description: Apply the ACSD-54965 patch to fix the Adobe Commerce issue where the [!UICONTROL Visual Merchandising] grid does not display the correct stock when a product is assigned to custom stock.
 feature: Merchandising, Categories
 role: Admin, Developer
 ---
-# ACSD-54965: Visual Merchandising grid does not display the correct stock
+# ACSD-54965: [!UICONTROL Visual Merchandising] grid does not display the correct stock
 
-The ACSD-54965 patch fixes the issue where the Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-54965. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54965 patch fixes the issue where the [!UICONTROL Visual Merchandising] grid does not display the correct stock when a product is assigned to custom stock. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-54965. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-54965 patch fixes the issue where the Visual Merchandising grid does no
 
 ## Issue
 
-The Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock. 
+The [!UICONTROL Visual Merchandising] grid does not display the correct stock when a product is assigned to custom stock. 
 
 <u>Steps to reproduce</u>:
 
@@ -38,11 +38,11 @@ The Visual Merchandising grid does not display the correct stock when a product 
 
 <u>Expected results</u>:
 
-The date filter of the grid works properly, irrespective of the locale set.
+In the "All store views Scopes" the product with custom stock does not show any quantity, only when the "Default Store View" scope is selected the custom stock shows the quantity of the product.
 
 <u>Actual results</u>:
 
-The following message appears: *We couldn't find any records*.
+The grid does not show only the default stock information since the customer can choose to not rely on the default stock with MSI functionality. It will show all stock information if the scope is "All Store Views".
 
 ## Apply the patch
 
