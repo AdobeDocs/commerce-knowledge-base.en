@@ -22,7 +22,7 @@ The issue is caused by the storefront webpage is still referring to some deleted
 
 1. Upgrade to Adobe Commerce 2.4.5.
 1. Access the storefront webpage.
-1. Right-click your mouse, select Inspect to open the web inspector on your web browser.
+1. Right-click your mouse, and select **Inspect** to open the web inspector on your web browser.
 1. Click the Console tab.
 1. Review the [!DNL JS] errors.
 
