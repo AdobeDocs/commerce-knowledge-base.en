@@ -28,7 +28,7 @@ The gift registry purchases are not completed.
 
 <u>Steps to reproduce</u>:
 
-1. Login as a customer and add a **[!UICONTROL product]** to gift registry.
+1. Login as a customer, and add a **[!UICONTROL product]** to gift registry.
 1. Share the gift registry link.
 1. Open the gift registry link in another browser/incognito window.
 1. Add quantity and add the items to the cart.
