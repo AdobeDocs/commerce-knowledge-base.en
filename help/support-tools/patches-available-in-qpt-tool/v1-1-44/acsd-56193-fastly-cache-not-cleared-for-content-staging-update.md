@@ -29,7 +29,7 @@ The [!DNL Fastly/Varnish] cache is not cleared for content staging update
 <u>Steps to reproduce</u>:
 
 1. Install and configure [!DNL Varnish] cache.
-1. Create a static block with a schedule update.
+1. Create a static block with a scheduled update.
 1. Create a category embedding the static block. 
 1. Fetch the content of the category using the below GraphQL query:
 
