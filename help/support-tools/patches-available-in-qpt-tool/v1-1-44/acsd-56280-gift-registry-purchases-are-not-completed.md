@@ -31,7 +31,7 @@ The gift registry purchases are not completed.
 1. Login as a customer, and add a **[!UICONTROL product]** to gift registry.
 1. Share the gift registry link.
 1. Open the gift registry link in another browser/incognito window.
-1. Add quantity and add the items to the cart.
+1. Add the quantity, and add the items to the cart.
 1. Go to the **[!UICONTROL Checkout Page]**, select **[!UICONTROL shipping method]**(As shipping address is already selected, provided by the registrant).
 1. Select the payment Method.
 1. Click on Place Order Button.
