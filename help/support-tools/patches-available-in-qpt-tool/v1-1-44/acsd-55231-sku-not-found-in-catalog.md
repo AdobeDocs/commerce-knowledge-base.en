@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-55231: Product search and cart addition error in quick order functionality
 
-The ACSD-55231 patch fixes the issue where users encounter errors in product search and cart functionality, receiving an error message stating 'the SKU was not found in the catalog'. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-55231. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55231 patch fixes the issue where you get *'The SKU was not found in the catalog'* error when trying to add a product to the cart using quick order functionality. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-55231. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
