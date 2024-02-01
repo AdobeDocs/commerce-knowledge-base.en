@@ -32,20 +32,20 @@ After creating a partial credit memo with customer reward points, the order stat
 2. Go to **[!UICONTROL Stores]** > **[!UICONTROL Other Setting]** > **[!UICONTROL Reward Exchange Rates]** > **[!UICONTROL Add New Rate]**.
 3. Add two rates:
     * *[!UICONTROL First]*:
-        *[!UICONTROL Direction]* = *Points to Currency* 
-        *[!UICONTROL Rate]* = *100*
-        *[!UICONTROL Upper Boundary]* = *100*
+        * *[!UICONTROL Direction]* = *Points to Currency* 
+        * *[!UICONTROL Rate]* = *100*
+        * *[!UICONTROL Upper Boundary]* = *100*
     * *[!UICONTROL Second]*:
-        *[!UICONTROL Direction]* = *Currency to Points*
-        *[!UICONTROL Rate]* = *100*
-        *[!UICONTROL Upper Boundary]* = *100* 
+        * *[!UICONTROL Direction]* = *Currency to Points*
+        * *[!UICONTROL Rate]* = *100*
+        * *[!UICONTROL Upper Boundary]* = *100* 
 4. Create a simple product with the price of *$100* and with *Qty* : *100*.
 5. Create a customer from the storefront.
 6. Go to the backend again : **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Edit]** > **[!UICONTROL Reward Points]** > **[!UICONTROL Update Points]** > Add *100* and save the customer.
-7. Go to frontend and login as the customer previously created.
+7. Go to the storefront and log in as the customer created previously.
 8. Add the product to cart with *Qty* : *10*.
 9. Go to **[!UICONTROL Checkout]** and use the available *100* reward point when prompted and place the order.
-10. Go to **[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders] > **[!UICONTROL Invoice]** and ship that order.
+10. Go to **[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Invoice]** and ship that order.
 11. Go to **[!UICONTROL Credit Memo]** and update the *Qty to Refund* to *8*.
 12. Tick the *[!UICONTROL Refund Reward Points]* checkbox and  click **[!UICONTROL Refund offline]**.
 13. Try to refund the other two remaining products from the order, using the *[!UICONTROL Credit Memo]*.
