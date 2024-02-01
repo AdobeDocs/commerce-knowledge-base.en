@@ -28,7 +28,7 @@ The scheduled product updates clears multiselect attributes values.
 
 <u>Steps to reproduce</u>:
 
-1. Install **[!UICONTROL Adobe Commerce]**
+1. Install Adobe Commerce.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** and create the following attribute:
 
 <ul>
