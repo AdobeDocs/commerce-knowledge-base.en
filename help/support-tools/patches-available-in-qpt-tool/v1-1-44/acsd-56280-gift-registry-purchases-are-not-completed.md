@@ -42,7 +42,7 @@ The order should be placed.
 
 <u>Actual results</u>:
 
-The order is not placed and the error is displayed is `Call to a member function getUpdatedQty() on null`.
+The order is not placed, and the error displayed is, `Call to a member function getUpdatedQty() on null`.
  
 ## Apply the patch
 
