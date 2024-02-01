@@ -1,5 +1,5 @@
 ---
-title: [!UICONTROL Recommendations] [!DNL JS] errors after upgrade to Adobe Commerce version 2.4.5
+title: "[!UICONTROL Recommendations] [!DNL JS] errors after upgrade to Adobe Commerce version 2.4.5"
 description: 'This article provides a fix for when after the upgrade to Adobe Commerce (all deployment methods), there are [!DNL JS] errors in the console related to the product [!UICONTROL Recommendations] modules.'
 feature: Install, Upgrade
 role: Developer
