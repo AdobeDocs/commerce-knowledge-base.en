@@ -24,7 +24,7 @@ The ACSD-56280 patch fixes the issue where the gift registry purchases are not c
 
 ## Issue
 
-The gift registry purchases are not completed
+The gift registry purchases are not completed.
 
 <u>Steps to reproduce</u>:
 
