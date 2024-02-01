@@ -17,7 +17,6 @@ The ACSD-55427 patch fixes the issue where you cannot unassign a product from **
 **Compatible with Adobe Commerce versions:**
 
 * Adobe Commerce (all deployment methods)
-2.4.5 - 2.4.6-p3
 
 >[!NOTE]
 >
