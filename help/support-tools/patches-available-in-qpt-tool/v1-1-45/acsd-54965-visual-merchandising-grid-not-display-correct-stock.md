@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-52714: Date filter does not work in admin grid when set as y-m-d'
-description: Apply the ACSD-52714 patch to fix the Adobe Commerce issue where the date filter does not work in the admin grid when the date format is set as y-m-d.
+title: 'ACSD-54965: Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock'
+description: Apply the ACSD-54965 patch to fix the Adobe Commerce issue where the Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock.
 feature: Attributes
 role: Admin, Developer
 ---
-# ACSD-52714: Date filter does not work in admin grid when set as y-m-d
+# ACSD-54965: Visual Merchandising grid does not display the correct stock
 
-The ACSD-52714 patch fixes the issue where the date filter doesn't work in the admin grid when the date format is set as y-m-d. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-52714. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54965 patch fixes the issue where the Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54965. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-52714 patch fixes the issue where the date filter doesn't work in the a
 
 ## Issue
 
-The date filter does not work in the admin grid when the date format is set as y-m-d. 
+Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock. 
 
 <u>Steps to reproduce</u>:
 
