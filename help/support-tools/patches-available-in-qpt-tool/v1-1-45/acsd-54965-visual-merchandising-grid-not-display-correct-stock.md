@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-54965: Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock'
+title: 'ACSD-54965: [!UICONTROL Visual Merchandising] grid does not display the correct stock'
 description: Apply the ACSD-54965 patch to fix the Adobe Commerce issue where the Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock.
-feature: Attributes
+feature: Merchandising, Categories
 role: Admin, Developer
 ---
 # ACSD-54965: Visual Merchandising grid does not display the correct stock
 
-The ACSD-54965 patch fixes the issue where the Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54965. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.5.
+The ACSD-54965 patch fixes the issue where the Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-54965. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -16,7 +16,7 @@ The ACSD-54965 patch fixes the issue where the Visual Merchandising grid does no
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p5
 
 >[!NOTE]
 >
@@ -24,27 +24,17 @@ The ACSD-54965 patch fixes the issue where the Visual Merchandising grid does no
 
 ## Issue
 
-Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock. 
+The Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock. 
 
 <u>Steps to reproduce</u>:
 
-1. Install clean Adobe Commerce.
-1. Edit 
-  `/app/code/Magento/Customer/view/adminhtml/ui_component/customer_listing.xml` 
- file and add
-   `<dateFormat>Y-MM-dd</dateFormat>`
-   to
-   `<column name="created_at" class="Magento\Ui\Component\Listing\Columns\Date" component="Magento_Ui/js/grid/columns/date" sortOrder="100">`
-   under the tag
-    `<dataType>date</dataType>`
-
-1. Flush the cache `bin/magento c:f`.
-1. Log in to Admin and create a new customer from **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
-
-    * from: current date minus 1 day
-    * to: current date
-
-1. Click on **[!UICONTROL Apply Filters]**.
+1. Create a new Source.
+1. Create a new Stock.
+1. Create two products:
+   * One product with the custom stock only
+   * One product with the default stock only
+1. Add these products to a category.
+1. Go to the visual merchandising grid (Products in Category).
 
 <u>Expected results</u>:
 
