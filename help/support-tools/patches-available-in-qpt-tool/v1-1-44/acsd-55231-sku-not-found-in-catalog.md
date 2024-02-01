@@ -30,14 +30,14 @@ Quick order functionality displays *'the SKU was not found in the catalog'* erro
 
 1. Install **[!UICONTROL Adobe Commerce CE + EE + B2B]**.
 1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL B2B Features]** and set:
-    * **[!UICONTROL Enable company]** : *Yes*
-    * **[!UICONTROL Enable Shared Catalog]** : *Yes*
-    * **[!UICONTROL Enable Quick Order]** : *Yes*
-1. Save Configuration.
+    * **[!UICONTROL Enable company]**: *Yes*
+    * **[!UICONTROL Enable Shared Catalog]**: *Yes*
+    * **[!UICONTROL Enable Quick Order]**: *Yes*
+1. Save the above configuration.
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]** and create a new shared catalog.
 1. Navigate to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** and create a new customer:
-    * In the group field, choose the recently created shared catalog and set *Allow remote shopping assistance* to *Yes*
-1. Generate a simple product with SKU *p12*, associate it with the category *c1* and then opt for newly created shared catalog in the [!UICONTROL Product In Shared Catalog] section.
+    * In the group field, choose the recently created shared catalog and set *[!UICONTROL Allow remote shopping assistance]* to *Yes*.
+1. Generate a simple product with SKU *p12*, associate it with the category *c1*, and then opt for the newly created shared catalog in the [!UICONTROL Product in Shared Catalog] section.
 1. Run:
 
     ```
@@ -46,17 +46,18 @@ Quick order functionality displays *'the SKU was not found in the catalog'* erro
     bin/magento cron:run (multiple times)
     ```
 
-1. Refresh admin page.
-1. Navigate to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Edit the newly created customer]** > **[!UICONTROL Login as customer]** > **[!UICONTROL Quick order]** > **[!UICONTROL search the *p12* SKU]** > click on the **[!UICONTROL product suggestion]** > **[!UICONTROL Add to cart]** > **[!UICONTROL Proceed to checkout]** > **[!UICONTROL Place order]**.
-1. Return to **[!UICONTROL Quick Order]** , search for SKU *p12* again and click on the **[!UICONTROL product suggestion]**.
+1. Refresh the admin page.
+1. Navigate to [!UICONTROL Customers] > [!UICONTROL All Customers] and edit the newly created customer
+1. Log in as the customer you edited in previous step. Go to [!UICONTROL Quick order] and search the p12 SKU. Click on [!UICONTROL Product Suggestion] > [!UICONTROL Add to cart] > [!UICONTROL Proceed to checkout] and [!UICONTROL Place order].
+1. Return to **[!UICONTROL Quick Order]**, search for SKU *p12* again, and click on **[!UICONTROL Product Suggestion]**.
 
 <u>Expected results</u>:
 
-The product is searched successfully and the customer is able to add the product to the cart using quick order functionality.
+You are able to add the product to the cart using quick order functionality.
 
 <u>Actual results</u>:
 
-The product is not added to the cart using the quick order functionality, with *'The SKU was not found in the catalog'* error message being displayed, when searching for the product SKU.
+You are not able to add the product to the cart using the quick order functionality and get *'The SKU was not found in the catalog'* error when searching for the product SKU.
 
 ## Apply the patch
 
