@@ -40,7 +40,6 @@ Prerequisites: Adobe Commerce installed with both B2B and **[!UICONTROL Shared C
 
  The product should be removed from under **[!UICONTROL Product in Shared Catalogs]** section.
 
-
 <u>Actual results</u>:
 
 The product is still displayed in the **[!UICONTROL Product in Shared Catalogs]** section.
