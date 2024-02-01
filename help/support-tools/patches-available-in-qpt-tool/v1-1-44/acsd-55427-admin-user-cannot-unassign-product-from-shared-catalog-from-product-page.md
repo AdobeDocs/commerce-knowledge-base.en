@@ -30,7 +30,7 @@ You cannot unassign a product from **[!UICONTROL Product in Shared Catalogs]** o
 
 Prerequisites: Adobe Commerce installed with both B2B and **[!UICONTROL Shared Catalogs]** enabled.
 1. Create a product.
-1. Navigate to the shared catalog dashboard and open the default shared catalog.
+1. Navigate to the shared catalog dashboard, and open the default shared catalog.
 1. Assigning the product to the default catalog, and set a price lower than the product price.
 1. Save the shared catalog.
 1. Run the [!UICONTROL CRON] to update the consumers/indexers.
