@@ -24,7 +24,7 @@ The ACSD-55231 patch fixes the issue where you get *'The SKU was not found in th
 
 ## Issue
 
-Quick order functionality displays *'the SKU was not found in the catalog'* error during product search and cart addition.
+Getting *'the SKU was not found in the catalog'* error when searching for products to add to the cart using quick order functionality. 
 
 <u>Steps to reproduce</u>:
 
