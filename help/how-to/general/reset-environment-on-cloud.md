@@ -24,24 +24,24 @@ Read: [Restore a snapshot on Adobe Commerce on cloud infrastructure](https://dev
 
 Read: [Create a snapshot](https://devdocs.magento.com/cloud/project/project-webint-snap.html#create-snapshot) in our developer documentation.
 
-With a planned deployment, or upgrade, the easiest and recommended [!UICONTROL Rollback] would be for the merchant, as part of your preparations to do the following:
+With a planned deployment or upgrade, the easiest and recommended [!UICONTROL Rollback] would be for the merchant, as part of your preparations to do the following:
 
 >[!NOTE]
 >
 >Always test these steps in your **[!UICONTROL Staging Environment]** first!
 
-<u>5 days prior to the upgrade/deployment activities</u>:
+<u>Five days prior to the upgrade/deployment activities</u>:
 
 1. Check the size of the current Database.
 1. Check that you have enough disk space on `/data/exports` to hold a [!UICONTROL Database Dump]. If you do not have enough disk space, then either remove unwanted data, or create a support case and request for the disk to be expanded.
 
-    <u>On the day of the changes</u>:
+<u>On the day of the changes</u>:
 
 1. Place the website into [!UICONTROL Maintenance Mode].<br>
 Read more about [Enable or disable [!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) in our user guide, and [[!UICONTROL Maintenance Mode] options for upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html) in our upgrade guide.
 1. Take a local [[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html).
 
-    <u>If a [!UICONTROL Rollback] is required</u>:
+<u>If a [!UICONTROL Rollback] is required</u>:
 
 1. If Applications such as [!DNL MariaDB] was upgraded as part of this planned activity, have that application reinstalled to a previous version first.
 1. [!UICONTROL Rollback] the Database using the local [!UICONTROL Database Dump], and import this back into [!DNL MariaDB].
