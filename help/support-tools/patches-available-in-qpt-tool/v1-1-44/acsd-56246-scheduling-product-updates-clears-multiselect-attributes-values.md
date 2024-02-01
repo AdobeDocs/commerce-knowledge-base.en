@@ -49,7 +49,7 @@ The scheduled product updates clears multiselect attributes values.
 1. Run
 `bin/magento setup:upgrade`
 1. Go to the **[!UICONTROL Admin]** > Pick any simple product > Select all items in program attribute > Click on **[!UICONTROL Save the product]**.
-1. Schedule an update for this product in the next minute and run the command below to get the Content Staging working:
+1. Schedule an update for this product in the next minute, and run the command below to get the Content Staging working:
 `for i in {1..100}; do bin/magento cron:run; done`
 
 <u>Expected results</u>:
