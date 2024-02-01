@@ -33,7 +33,7 @@ Prerequisites: Adobe Commerce installed with B2B and **[!UICONTROL Shared Catalo
 1. Navigate to the shared catalog dashboard and open the default shared catalog.
 1. Assigning the product to the default catalog and set a price lower than the product price.
 1. Save the shared catalog.
-1. Run the CRON to update the consumers / indexers.
+1. Run the [!UICONTROL CRON] to update the consumers/indexers.
 1. Open the product and remove the product from under **[!UICONTROL Product in Shared Catalogs]** section.
 
 <u>Expected results</u>:
