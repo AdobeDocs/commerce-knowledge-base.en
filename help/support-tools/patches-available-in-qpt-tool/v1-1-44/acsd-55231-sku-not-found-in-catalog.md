@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-55231: Product search and cart addition error in quick order functionality'
+title: 'ACSD-55231: SKU not found error while using quick order functionality'
 description: Apply the ACSD-55231 patch to fix the Adobe Commerce issue where you get *'The SKU was not found in the catalog'* error when trying to add a product to the cart using quick order functionality.
 feature: Products, Checkout, B2B
 role: Admin, Developer
 ---
-# ACSD-55231: Product search and cart addition error in quick order functionality
+# ACSD-55231: SKU not found error while using quick order functionality
 
 The ACSD-55231 patch fixes the issue where you get *'The SKU was not found in the catalog'* error when trying to add a product to the cart using quick order functionality. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-55231. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
@@ -47,8 +47,11 @@ Getting *'the SKU was not found in the catalog'* error when searching for produc
     ```
 
 1. Refresh the admin page.
-1. Navigate to [!UICONTROL Customers] > [!UICONTROL All Customers] and edit the newly created customer
-1. Log in as the customer you edited in previous step. Go to [!UICONTROL Quick order] and search the p12 SKU. Click on [!UICONTROL Product Suggestion] > [!UICONTROL Add to cart] > [!UICONTROL Proceed to checkout] and [!UICONTROL Place order].
+1. Navigate to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** and edit the customer created previously.
+1. Click **[!UICONTROL Login as customer]**.
+1. Go to **[!UICONTROL Quick order]**.
+1. Search the *p12* SKU and click on the **[!UICONTROL Product Suggestion]**.
+1. Add this product to cart and place the order.
 1. Return to **[!UICONTROL Quick Order]**, search for SKU *p12* again, and click on **[!UICONTROL Product Suggestion]**.
 
 <u>Expected results</u>:
