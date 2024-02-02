@@ -28,7 +28,7 @@ Getting *'the SKU was not found in the catalog'* error when searching for produc
 
 <u>Steps to reproduce</u>:
 
-1. Install Adobe Commerce CE + EE + B2B modules.
+1. Install Adobe Commerce with B2B modules.
 1. Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL B2B Features]** and set:
     * **[!UICONTROL Enable company]**: *Yes*
     * **[!UICONTROL Enable Shared Catalog]**: *Yes*
