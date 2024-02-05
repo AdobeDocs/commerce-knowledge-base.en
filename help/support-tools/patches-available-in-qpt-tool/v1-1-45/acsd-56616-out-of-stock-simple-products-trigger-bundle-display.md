@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-56616: Frontend display of bundled products during simple stock shortage'
-description: Apply the ACSD-56616 patch to fix the Adobe Commerce issue where bundled products unexpectedly appear on the frontend when all associated simple products are out of stock.
+title: 'ACSD-56616: Storefront display of bundled products during simple stock shortage'
+description: Apply the ACSD-56616 patch to fix the Adobe Commerce issue where bundled products unexpectedly appear on the storefront when all associated simple products are out of stock.
 feature: Products
 role: Admin, Developer
 ---
-# ACSD-56616: Frontend display of bundled products during simple stock shortage.
+# ACSD-56616: Storefront display of bundled products during simple stock shortage.
 
-The ACSD-56616 patch fixes the issue where bundled products unexpectedly appear on the frontend when all associated simple products are out of stock. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56616. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56616 patch fixes the issue where bundled products unexpectedly appear on the storefront when all associated simple products are out of stock. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56616. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-56616 patch fixes the issue where bundled products unexpectedly appear 
 
 ## Issue
 
-Incorrect frontend display of bundled products during simple stock shortage.
+Incorrect storefront display of bundled products during simple stock shortage.
 
 <u>Steps to reproduce</u>:
 
@@ -32,22 +32,22 @@ Incorrect frontend display of bundled products during simple stock shortage.
 1. Create a new source.
 1. Create a new stock and assign it to the newly created website.
 1. Configure indexers to update on schedule.
-1. Generate two simple products, S1 (qty = 1)and S2 (qty = 1), and assign them to the new stock and new website.
-1. Create *bundled1* product and associate it with new website, placing it in category CAT.
+1. Generate two simple products, S1 (qty = 1) and S2 (qty = 1), and assign them to the new stock and new website.
+1. Create *bundled1* product and associate it with new website, placing it in category *CAT*.
 1. Define two required dropdown options and link simple product *S1* to option1 and *S2* to option2.
-1. Save the product.
-1. Navigate to [!UICONTROL System] > [!UICONTROL Configuration] > [!UICONTROL General] > [!UICONTROL Web] and enable *Add store code to URL* = *Yes*.
-1. Open frontend and purchase the bundled product.
+1. Save the products.
+1. Navigate to **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]** and enable *Add store code to URL* = *Yes*.
+1. Open the storefront and purchase the bundled product.
 1. Run cron twice.
-1. Return to the CAT category.
+1. Return to the *CAT* category.
 
 <u>Expected results</u>:
 
-The bundle1 product is out of stock.
+The *bundle1* product is out of stock.
 
 <u>Actual results</u>:
 
-The bundle1 product is still visible and it's price = $0.
+The *bundle1* product is visible with price = *$0*.
 
 ## Apply the patch
 

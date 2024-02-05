@@ -752,7 +752,7 @@ breadcrumb-title: Commerce KB
     * v1.1.44 {#v1-1-44}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
     * v1.1.45 {#v1-1-45}
-        * [ACSD-56616: Frontend display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-triiger-bundle-display.md)
+        * [ACSD-56616: Storefront display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-trigger-bundle-display.md)
     * v1.1.45 {#v1-1-45}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
