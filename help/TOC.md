@@ -754,6 +754,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-55427: Admin user cannot unassign product from shared catalog from product page](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55427-admin-user-cannot-unassign-product-from-shared-catalog-from-product-page.md)
         * [ACSD-56280: Gift registry purchases are not completed](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56280-gift-registry-purchases-are-not-completed.md)
         * [ACSD-56193: [!DNL Fastly/Varnish] cache not cleared for content staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56193-fastly-cache-not-cleared-for-content-staging-update.md)
+        * [ACSD-56023: Widget content is not updating on the cms page](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56023-widget-content-not-updating-on-the-cms-page.md)
     * v1.1.45 {#v1-1-45}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
