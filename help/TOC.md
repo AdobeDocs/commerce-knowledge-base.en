@@ -751,7 +751,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-54983: Company user UID with GraphQL not available with inactive user](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
     * v1.1.44 {#v1-1-44}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
-    * v1.1.45 {#v1-1-44}
+    * v1.1.45 {#v1-1-45}
         * [ACSD-56616: Frontend display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-triiger-bundle-display.md)
     * v1.1.45 {#v1-1-45}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)

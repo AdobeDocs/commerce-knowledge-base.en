@@ -12,7 +12,7 @@ The ACSD-56616 patch fixes the issue where bundled products unexpectedly appear 
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-p1
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
@@ -43,7 +43,7 @@ Incorrect frontend display of bundled products during simple stock shortage.
 
 <u>Expected results</u>:
 
-The bundle1 product is out of stock and is not visible on the frontend.
+The bundle1 product is out of stock.
 
 <u>Actual results</u>:
 
