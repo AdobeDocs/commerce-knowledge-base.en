@@ -46,7 +46,7 @@ After creating a partial credit memo with customer reward points, the order stat
 8. Add the product to cart with *Qty* : *10*.
 9. Go to **[!UICONTROL Checkout]** and use the available *100* reward points when prompted and place the order.
 10. Go to **[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Invoice]** and ship that order.
-11. Go to **[!UICONTROL Credit Memo]** and update the *Qty to Refund* to *8*.
+11. Go to [!UICONTROL Credit Memo] and update the *Qty to Refund* to *8*.
 12. Tick the **[!UICONTROL Refund Reward Points]** checkbox and  click **[!UICONTROL Refund offline]**.
 13. Try to refund the other two remaining products from the order, using the *[!UICONTROL Credit Memo]*.
 
