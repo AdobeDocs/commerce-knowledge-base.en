@@ -758,6 +758,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-56193: [!DNL Fastly/Varnish] cache not cleared for content staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56193-fastly-cache-not-cleared-for-content-staging-update.md)
     * v1.1.45 {#v1-1-45}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
+        * [ACSD-56886: Configurable product becomes out of stock child products are disabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56886-configurable-product-becomes-out-of-stock-when-child-products-are-disabled.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
