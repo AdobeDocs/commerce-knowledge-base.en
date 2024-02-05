@@ -752,6 +752,7 @@ breadcrumb-title: Commerce KB
     * v1.1.44 {#v1-1-44}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
         * [ACSD-55231: SKU not found error while using quick order functionality](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55231-sku-not-found-in-catalog.md)
+        * [ACSD-55352: Creating [!UICONTROL Credit Memo] with reward points](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55352-creating-credit-memos-with-reward-points.md)
         * [ACSD-55427: Admin user cannot unassign product from shared catalog from product page](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55427-admin-user-cannot-unassign-product-from-shared-catalog-from-product-page.md)
         * [ACSD-56280: Gift registry purchases are not completed](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56280-gift-registry-purchases-are-not-completed.md)
         * [ACSD-56193: [!DNL Fastly/Varnish] cache not cleared for content staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56193-fastly-cache-not-cleared-for-content-staging-update.md)
