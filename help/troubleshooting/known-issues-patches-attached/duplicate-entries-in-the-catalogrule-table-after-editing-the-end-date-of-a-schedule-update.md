@@ -79,14 +79,14 @@ Take these steps to locate the duplicated entries and delete them:
 1. Next, you need to take a closer look on the duplicates and to understand which should be removed. Use a query similar to the following to see the duplicates. Replace the table name, entity id name and value according to the results received on the previous step.
 
     ```sql
-    SELECT * FROM catalog_product_entity WHERE entity_id = 483 ORDER BY created_in;
+    SELECT row_id, entity_id, created_in, updated_in FROM catalog_product_entity WHERE entity_id = 483 ORDER BY created_in;
     ```
 
-    You will receive a list of records with multiple columns. You would need to look at the following four: `row_id`, `entity_id`, `created_in`, `updated_in`. Example:
+    You will receive a list of records with multiple columns. Example:
 
     ![table_results2.png](assets/table_results2.png)
 
-    The `created_in` and `updated_in` values should follow this pattern: the `created_in` value of the current row is equal to the `updated_in` value in the previous row. Also, the **first row** should contain created\_in = 1 and the **last row** should contain updated\_in = 2147483647. (If there's only 1 row, you must see created\_in=1 **and** updated\_in=2147483647). The row(s) for which this pattern is broken, should be deleted. In our example it would be the row with `row_id` =2052.
+    The `created_in` and `updated_in` values should follow this pattern: the `created_in` value of the current row is equal to the `updated_in` value in the previous row. Also, the **first row** should contain created\_in = 1 and the **last row** should contain updated\_in = 2147483647. (If there's only 1 row, you must see created\_in=1 **and** updated\_in=2147483647). The row(s) for which this pattern is broken, should be deleted. In our example, it would be the row with `row_id` =2052 as the 2nd and 3rd rows both share the same value for created_in: 1540837826, which shouldn't occur.
 
 1. Delete the duplicate using a query similar to the following. Replace the table name, entity id name and value according to the results received on the previous steps:
 
