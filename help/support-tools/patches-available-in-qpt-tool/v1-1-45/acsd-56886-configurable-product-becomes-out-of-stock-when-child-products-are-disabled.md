@@ -47,8 +47,8 @@ The configurable product becomes out of stock when child products are disabled
 * Product Name = "TEST CONFIGURABLE *1 edited";
 * Disable "red" child product in "Configurable" section.
 
-1. Wait for he Start Date.
-1. Open configurable product details on Storefront.
+1. Wait for the Start Date.
+1. Open configurable product details on the Storefront.
 
 <u>Expected results</u>:
 
