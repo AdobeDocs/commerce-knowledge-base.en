@@ -30,14 +30,16 @@ The admin with website-level permissions cannot add or edit the [!UICONTROL Dyna
 
 1. Create a secondary website with store and storeview.
 1. Go to **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]** and create a user role restricted to the secondary website scope with all resources available.
+1. Create an admin user with the role created above.
+1. Log in with the restricted admin user and create a [!UICONTROL Dynamic Block]. 
 
 <u>Expected results</u>:
 
-The updated content is returned after the scheduled updates run.
+The admin user with restrictions to website can create a [!UICONTROL Dynamic Block].
 
 <u>Actual results</u>:
 
-The outdated content is returned after the scheduled updates run.
+Error: *More permissions are needed to view this item*.
 
 ## Apply the patch
 
