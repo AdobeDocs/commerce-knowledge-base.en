@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54965: [!UICONTROL Visual Merchandising] grid does not display the correct stock'
+title: ACSD-54965: [!UICONTROL Visual Merchandising] grid does not display the correct stock
 description: Apply the ACSD-54965 patch to fix the Adobe Commerce issue where the [!UICONTROL Visual Merchandising] grid does not display the correct stock when a product is assigned to custom stock.
 feature: Merchandising, Categories
 role: Admin, Developer
@@ -34,15 +34,15 @@ The [!UICONTROL Visual Merchandising] grid does not display the correct stock wh
    * One product with the custom stock only
    * One product with the default stock only
 1. Add these products to a category.
-1. Go to the visual merchandising grid (Products in Category).
+1. Go to the [!UICONTROL visual Merchandising] grid (Products in Category).
 
-<u>Expected results</u>:
+<u>Actual Results</u>:
 
-In the "All store views Scopes" the product with custom stock does not show any quantity, only when the "Default Store View" scope is selected the custom stock shows the quantity of the product.
+In the *All store views Scopes* the product with custom stock does not show any quantity, only when the *Default Store View* scope is selected the custom stock shows the quantity of the product.
 
-<u>Actual results</u>:
+<u>Expected Results</u>:
 
-The grid does not show only the default stock information since the customer can choose to not rely on the default stock with MSI functionality. It will show all stock information if the scope is "All Store Views".
+The grid does not show only the default stock information since the customer can choose to not rely on the default stock with MSI functionality. It will show all stock information if the scope is *All Store Views*.
 
 ## Apply the patch
 
