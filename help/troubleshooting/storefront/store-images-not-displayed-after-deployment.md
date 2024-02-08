@@ -25,7 +25,7 @@ This may occur due to loading the images from the cache.
 
 If this happens, you can use the Magento command to regenerate the image cache and properly display the images.
 
-To perform this, you need the SSH information and the store URL available through the [Cloud Console](https://devdocs.magento.com/cloud/project/projects.html).
+To perform this, you need the SSH information and the store URL available through the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
 1. SSH to your project that was a source for the [database dump](/help/how-to/general/create-database-dump-on-cloud.md), as described in [SSH to environment](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) in our developer documentation.
 1. Regenerate the image cache by running:
