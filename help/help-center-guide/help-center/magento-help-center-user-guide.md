@@ -409,7 +409,7 @@ For Partners: **Merchant Name** is the name of your Customer.
 
 #### Project URL (Commerce Cloud only)
 
-Link to [the Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
+Link to the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
 #### Steps to reproduce (Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure only)
 
