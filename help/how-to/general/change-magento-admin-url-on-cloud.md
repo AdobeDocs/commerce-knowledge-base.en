@@ -16,7 +16,7 @@ Read the steps: [Using a Custom Admin URL > Change from the Admin](https://exper
 
 ### Integration environment
 
-From [the Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html), add a new variable with:
+From the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html), add a new variable with:
 
  **Name:** ADMIN\_URL **Value:** new Admin URL
 
