@@ -440,7 +440,7 @@ Include a short overview of your problem (for example, *Error 404 on all pages* 
 
 Please select the Adobe Commerce version you are requesting help with. All supported versions of Adobe Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
 
-To find the version of your Adobe Commerce (cloud infrastructure), scroll down [the Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) page and check the lower-middle of the window.
+To find the version of your Adobe Commerce (cloud infrastructure), scroll down the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) page and check the lower-middle of the window.
 
 ![Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search](assets/magento-env-id.png)
 
