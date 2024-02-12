@@ -35,7 +35,7 @@ The admin with website-level permissions cannot add or edit the [!UICONTROL Dyna
 
 <u>Expected results</u>:
 
-The admin user with restrictions to website can create a [!UICONTROL Dynamic Block].
+The admin user with restrictions to the website can create a [!UICONTROL Dynamic Block].
 
 <u>Actual results</u>:
 
