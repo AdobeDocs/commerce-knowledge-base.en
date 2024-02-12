@@ -24,7 +24,7 @@ The ACSD-56246 patch fixes the issue where scheduling product updates clears mul
 
 ## Issue
 
-The scheduled product updates clears multiselect attributes values.
+The scheduled product updates clear multiselect attribute values.
 
 <u>Steps to reproduce</u>:
 
