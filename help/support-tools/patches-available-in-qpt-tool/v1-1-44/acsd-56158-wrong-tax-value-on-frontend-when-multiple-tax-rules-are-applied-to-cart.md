@@ -1,8 +1,8 @@
 ---
 title: 'ACSD-56158: Wrong tax value on frontend upon applying multiple tax rules to cart'
 description: Apply the ACSD-56158 patch to fix the Adobe Commerce issue where the tax value rendering on the frontend is incorrect when multiple tax rules are applied to the cart.
-feature:
-role: 
+feature: GraphQL, Taxes
+role: Admin, Developer
 ---
 
 # ACSD-56158: Wrong tax value on frontend upon applying multiple tax rules to cart
@@ -30,7 +30,7 @@ The tax value rendering on the frontend is incorrect when multiple tax rules are
 <u>Steps to reproduce</u>:
 
 1. Create a customer with a US address.
-1. Navigate to admin panel.
+1. Navigate to the admin panel.
 1. Create a product with a price of $100.
 1. Create two tax rates for the US address: one for 10% and the other for 5%.
 1. Configure two tax rules for USA from **[!UICONTROL Stores]** > **[!UICONTROL Taxes]** > **[!UICONTROL Tax Rule]**.
@@ -38,7 +38,7 @@ The tax value rendering on the frontend is incorrect when multiple tax rules are
 1. From the frontend, log in as the customer with the US address, and add the product to the cart.
 1. Generate a customer token via GraphQL.
 1. Generate a cart ID via GraphQL.
-1. Check that the tax applied is correct by getting the customers cart via GraphQL:
+1. Check that the tax applied is correct by getting the customer's cart via GraphQL:
 
     ```GraphQL
     {
