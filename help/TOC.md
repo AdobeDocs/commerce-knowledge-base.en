@@ -749,6 +749,17 @@ breadcrumb-title: Commerce KB
         * [ACSD-53790: Multiple RMAs for a single product can be created via Rest API](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53790-multiple-rmas-for-single-product-can-be-created-via-rest-api.md)
         * [ACSD-54739: [!UICONTROL Product Stock] status not applied for [!UICONTROL Related Product Rules]](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54739-product-stock-status-not-applied-for-related-product-rules.md)
         * [ACSD-54983: Company user UID with GraphQL not available with inactive user](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
+    * v1.1.44 {#v1-1-44}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
+        * [ACSD-55231: SKU not found error while using quick order functionality](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55231-sku-not-found-in-catalog.md)
+        * [ACSD-55352: Creating [!UICONTROL Credit Memo] with reward points](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55352-creating-credit-memos-with-reward-points.md)
+        * [ACSD-55427: Admin user cannot unassign product from shared catalog from product page](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55427-admin-user-cannot-unassign-product-from-shared-catalog-from-product-page.md)
+        * [ACSD-56280: Gift registry purchases are not completed](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56280-gift-registry-purchases-are-not-completed.md)
+        * [ACSD-56193: [!DNL Fastly/Varnish] cache not cleared for content staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56193-fastly-cache-not-cleared-for-content-staging-update.md)
+        * [ACSD-56246: Scheduling product updates clears multiselect attributes values](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56246-scheduling-product-updates-clears-multiselect-attributes-values.md)
+    * v1.1.45 {#v1-1-45}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
+        * [ACSD-56616: Storefront display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-trigger-bundle-display.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -830,6 +841,7 @@ breadcrumb-title: Commerce KB
     * [Customers get logged out or lose cart content on Adobe Commerce storefront](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
     * [Cannot save contact as URL key](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
   * Installation and upgrade {#installation-and-upgrade}
+    * [[!UICONTROL Recommendations] [!DNL JS] errors after upgrade to Adobe Commerce version 2.4.5](/help/troubleshooting/installation-and-upgrade/recommendations-js-errors-after-upgrade-to-adobe-commerce-version-2.4.5.md)
     * [[!DNL B2B] 1.4.0 installation fails on Adobe Commerce 2.4.6-p1 on-premises](/help/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.md)
     * [Reduce expired "oauth_tokens" before 2.4.6 upgrade](/help/troubleshooting/installation-and-upgrade/reduce-expired-oauth-tokens-before-2.4.6-upgrade.md)
     * [Cannot install using nginx](/help/troubleshooting/installation-and-upgrade/cannot-install-using-nginx.md)
@@ -1034,6 +1046,7 @@ breadcrumb-title: Commerce KB
     * [Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
     * [Getting thousands of search results after upgrading from 2.4.2 to 2.4.5-p3](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2.4.5-p3.md)
     * [Cannot change search engine in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
+    * [[!DNL SendGrid] file limitation for Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
