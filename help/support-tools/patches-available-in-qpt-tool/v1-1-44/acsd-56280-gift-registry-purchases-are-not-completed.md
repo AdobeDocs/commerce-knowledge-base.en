@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-54983: Company user UID with GraphQL not available with inactive user'
-description: Apply the ACSD-54983 patch to fix the Adobe Commerce issue where it's not possible to get the company user UID with GraphQL request when the user status is set to inactive.
-feature: GraphQL
-role: Admin, Developer
-exl-id: 57e7b9ca-3421-4b50-86b4-abdf1b3d79d1
+title: 'ACSD-56280: Gift registry purchases are not completed'
+description: Apply the ACSD-56280 patch to fix the Adobe Commerce issue where the gift registry purchases are not completed
+feature: Checkout 
+role: Admin
 ---
-# ACSD-54983: Company user UID with GraphQL not available with inactive user
+# ACSD-56280: Gift registry purchases are not completed
 
-The ACSD-54983 patch fixes the issue where it's not possible to get the company user UID with GraphQL request when the user status is set to inactive. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54983. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56280 patch fixes the issue where the gift registry purchases are not completed. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56280. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods)  2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,26 +24,25 @@ The ACSD-54983 patch fixes the issue where it's not possible to get the company 
 
 ## Issue
 
-Unable to get the company user UID with GraphQL request when the user status is set to inactive.
+The gift registry purchases are not completed.
 
 <u>Steps to reproduce</u>:
 
-1. Create a company with an admin user. E.g., company@test.com.
-1. Create a new customer.
-1. Assign the new customer to a company.
-1. Get a **[!UICONTROL company admin token]**.
-1. Using the **[!UICONTROL company admin token]**, fetch the company structure. See [Return the company structure](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) in our developer documentation.
-1. The response contains only *ACTIVE* customers with their IDs.
-1. Update the company user to *INACTIVE*.
-1. Fetch the company structure again.
+1. Login as a customer, and add a **[!UICONTROL product]** to gift registry.
+1. Share the gift registry link.
+1. Open the gift registry link in another browser/incognito window.
+1. Add the quantity, and add the items to the cart.
+1. Go to the **[!UICONTROL Checkout Page]**, select **[!UICONTROL shipping method]**(As shipping address is already selected, provided by the registrant).
+1. Select the payment Method.
+1. Click on Place Order Button.
 
 <u>Expected results</u>:
 
-It is possible to get the company user UID when the status is set to inactive.
+The order should be placed.
 
 <u>Actual results</u>:
 
-The inactive customers are not in the list. Unable to get the company user UID when the status is set to inactive.
+The order is not placed, and the error displayed is, `Call to a member function getUpdatedQty() on null`.
  
 ## Apply the patch
 

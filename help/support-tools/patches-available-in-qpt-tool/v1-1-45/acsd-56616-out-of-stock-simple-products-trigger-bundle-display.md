@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-54983: Company user UID with GraphQL not available with inactive user'
-description: Apply the ACSD-54983 patch to fix the Adobe Commerce issue where it's not possible to get the company user UID with GraphQL request when the user status is set to inactive.
-feature: GraphQL
+title: 'ACSD-56616: Storefront display of bundled products during simple stock shortage'
+description: Apply the ACSD-56616 patch to fix the Adobe Commerce issue where bundled products unexpectedly appear on the storefront when all associated simple products are out of stock.
+feature: Products
 role: Admin, Developer
-exl-id: 57e7b9ca-3421-4b50-86b4-abdf1b3d79d1
 ---
-# ACSD-54983: Company user UID with GraphQL not available with inactive user
+# ACSD-56616: Storefront display of bundled products during simple stock shortage.
 
-The ACSD-54983 patch fixes the issue where it's not possible to get the company user UID with GraphQL request when the user status is set to inactive. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54983. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56616 patch fixes the issue where bundled products unexpectedly appear on the storefront when all associated simple products are out of stock. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56616. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods)  2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.5-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p5
 
 >[!NOTE]
 >
@@ -25,27 +24,31 @@ The ACSD-54983 patch fixes the issue where it's not possible to get the company 
 
 ## Issue
 
-Unable to get the company user UID with GraphQL request when the user status is set to inactive.
+Incorrect storefront display of bundled products during simple stock shortage.
 
 <u>Steps to reproduce</u>:
 
-1. Create a company with an admin user. E.g., company@test.com.
-1. Create a new customer.
-1. Assign the new customer to a company.
-1. Get a **[!UICONTROL company admin token]**.
-1. Using the **[!UICONTROL company admin token]**, fetch the company structure. See [Return the company structure](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) in our developer documentation.
-1. The response contains only *ACTIVE* customers with their IDs.
-1. Update the company user to *INACTIVE*.
-1. Fetch the company structure again.
+1. Create a new website/store/storefront.
+1. Create a new source.
+1. Create a new stock and assign it to the newly created website.
+1. Configure indexers to update on schedule.
+1. Generate two simple products, S1 (qty = 1) and S2 (qty = 1), and assign them to the new stock and new website.
+1. Create *bundled1* product and associate it with new website, placing it in category *CAT*.
+1. Define two required dropdown options and link simple product *S1* to option1 and *S2* to option2.
+1. Save the products.
+1. Navigate to **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]** and enable *Add store code to URL* = *Yes*.
+1. Open the storefront and purchase the bundled product.
+1. Run cron twice.
+1. Return to the *CAT* category.
 
 <u>Expected results</u>:
 
-It is possible to get the company user UID when the status is set to inactive.
+The *bundle1* product is out of stock.
 
 <u>Actual results</u>:
 
-The inactive customers are not in the list. Unable to get the company user UID when the status is set to inactive.
- 
+The *bundle1* product is visible with price = *$0*.
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:

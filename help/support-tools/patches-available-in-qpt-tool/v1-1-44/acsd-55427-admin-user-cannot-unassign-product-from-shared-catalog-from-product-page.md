@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-54983: Company user UID with GraphQL not available with inactive user'
-description: Apply the ACSD-54983 patch to fix the Adobe Commerce issue where it's not possible to get the company user UID with GraphQL request when the user status is set to inactive.
-feature: GraphQL
+title: "ACSD-55427: An admin cannot unassign product from **[!UICONTROL Product in Shared Catalogs]** on the product's page"
+description: Apply the ACSD-55427 patch to fix the Adobe Commerce issue where a product cannot be unassigned from **[!UICONTROL Product in Shared Catalogs]**.
+feature: Products, B2B
 role: Admin, Developer
-exl-id: 57e7b9ca-3421-4b50-86b4-abdf1b3d79d1
 ---
-# ACSD-54983: Company user UID with GraphQL not available with inactive user
+# ACSD-55427: An admin cannot unassign product from **[!UICONTROL Product in Shared Catalogs]** on the product's page
 
-The ACSD-54983 patch fixes the issue where it's not possible to get the company user UID with GraphQL request when the user status is set to inactive. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 is installed. The patch ID is ACSD-54983. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-55427 patch fixes the issue where you cannot unassign a product from **[!UICONTROL Product in Shared Catalogs]** on the product's page in the catalog in the Commerce Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-55427. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods)  2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.5
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,27 +24,26 @@ The ACSD-54983 patch fixes the issue where it's not possible to get the company 
 
 ## Issue
 
-Unable to get the company user UID with GraphQL request when the user status is set to inactive.
+You cannot unassign a product from **[!UICONTROL Product in Shared Catalogs]** on the product's page in the catalog in the Commerce Admin.
 
 <u>Steps to reproduce</u>:
 
-1. Create a company with an admin user. E.g., company@test.com.
-1. Create a new customer.
-1. Assign the new customer to a company.
-1. Get a **[!UICONTROL company admin token]**.
-1. Using the **[!UICONTROL company admin token]**, fetch the company structure. See [Return the company structure](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) in our developer documentation.
-1. The response contains only *ACTIVE* customers with their IDs.
-1. Update the company user to *INACTIVE*.
-1. Fetch the company structure again.
+Prerequisites: Adobe Commerce installed with both B2B and **[!UICONTROL Shared Catalogs]** enabled.
+1. Create a product.
+1. Navigate to the shared catalog dashboard, and open the default shared catalog.
+1. Assigning the product to the default catalog, and set a price lower than the product price.
+1. Save the shared catalog.
+1. Run the [!UICONTROL CRON] to update the consumers/indexers.
+1. Open the product, and remove the product from under **[!UICONTROL Product in Shared Catalogs]** section.
 
 <u>Expected results</u>:
 
-It is possible to get the company user UID when the status is set to inactive.
+ The product should be removed from under **[!UICONTROL Product in Shared Catalogs]** section.
 
 <u>Actual results</u>:
 
-The inactive customers are not in the list. Unable to get the company user UID when the status is set to inactive.
- 
+The product is still displayed in the **[!UICONTROL Product in Shared Catalogs]** section.
+
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
