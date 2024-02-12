@@ -17,12 +17,12 @@ When trying to log in to your Adobe Commerce on cloud infrastructure UI for the 
 
 If you get a 403 error when accessing the URL for the first time, make sure you have a role in the master branch.
 
-1. Сontact the license owner or a super user on the project and make sure they provided access to you as an **environment-level user**, also described in [Cloud projects > Manage users from the Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in our developer documentation.
+1. Сontact the license owner or a super user on the project and make sure they provided access to you as an **environment-level user**, also described in [Cloud projects > Manage users from the Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-cloud-console) in our developer documentation.
 
     If you only have an applicable role in a specific branch, then you would need to go to the URL for that branch, e.g.,
     `https://console.adobecommerce.com/<owner-name>/<project-id>/<branch-name>`
 
     The next time you access the main URL, it will default to the last environment you've visited.
 
-1. If you still cannot log in, сontact the license owner or a super user on the project and make sure they provided access for you as a **project-level user**, as described in step 5 in [Cloud projects > Manage users from the the Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) in our developer documentation.
+1. If you still cannot log in, сontact the license owner or a super user on the project and make sure they provided access for you as a **project-level user**, as described in [Cloud projects > Add a user to the project](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-a-user-to-the-project) in our developer documentation.
 1. If the error persists, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
