@@ -39,7 +39,7 @@ The admin user with restrictions to the website can create a [!UICONTROL Dynamic
 
 <u>Actual results</u>:
 
-Error: *More permissions are needed to view this item*.
+You get the following error: *More permissions are needed to view this item*.
 
 ## Apply the patch
 
