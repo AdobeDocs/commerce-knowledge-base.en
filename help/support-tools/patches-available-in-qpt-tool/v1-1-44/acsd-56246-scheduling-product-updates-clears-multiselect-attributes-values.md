@@ -31,26 +31,24 @@ The scheduled product updates clears multiselect attributes values.
 1. Install Adobe Commerce.
 1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** and create the following attribute:
 
-<ul>
-  <li>Default Label : Program</li>
-  <li>Catalog Input Type for Store Owner : Multiple Select</li>
-  <li>Manage Options (Values of Your Attribute): Choise, Sunscape, Safetyshield</li>
-  <li>Attribute Code: customer_program</li>
-  <li>  Scope: Global</li>
-    <li>Add to Column Options: No</li>
-  <li>Use in Filter Options: No</li>
-  <li>Storefront Properties</li>
-  <li>Position: 333</li>
-  <li>Allow HTML Tags on Storefront: No</li>
-</ul>  
-
+    * Default Label: Program
+    * Catalog Input Type for Store Owner: Multiple Select
+    * Manage Options (Values of Your Attribute): Choice, Sunscape, Safetyshield
+    * Attribute Code: customer_program
+    * Scope: Global
+    * Add to Column Options: No
+    * Use in Filter Options: No
+    * Storefront Properties
+    * Position: *333*
+    * Allow HTML Tags on Storefront: No
+  
 1. Run
-`bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`
+`bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`. 
 1. Run
-`bin/magento setup:upgrade`
+`bin/magento setup:upgrade`.
 1. Go to the **[!UICONTROL Admin]** > Pick any simple product > Select all items in program attribute > Click on **[!UICONTROL Save the product]**.
 1. Schedule an update for this product in the next minute, and run the command below to get the Content Staging working:
-`for i in {1..100}; do bin/magento cron:run; done`
+`for i in {1..100}; do bin/magento cron:run; done`.
 
 <u>Expected results</u>:
 
