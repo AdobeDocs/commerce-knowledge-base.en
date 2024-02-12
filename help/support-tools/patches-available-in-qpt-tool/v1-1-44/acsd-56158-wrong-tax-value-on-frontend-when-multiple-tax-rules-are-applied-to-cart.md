@@ -1,13 +1,13 @@
 ---
 title: 'ACSD-56158: Wrong tax value on frontend upon applying multiple tax rules to cart'
-description: Apply the ACSD-56158 patch to fix the Adobe Commerce issue where the tax value rendering on the frontend is incorrect when multiple tax rules are applied on the cart.
+description: Apply the ACSD-56158 patch to fix the Adobe Commerce issue where the tax value rendering on the frontend is incorrect when multiple tax rules are applied to the cart.
 feature:
 role: 
 ---
 
 # ACSD-56158: Wrong tax value on frontend upon applying multiple tax rules to cart
 
-The ACSD-56158 patch fixes the issue where the tax value rendering on the frontend is incorrect when multiple tax rules are applied on the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56158. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56158 patch fixes the issue where the tax value rendering on the frontend is incorrect when multiple tax rules are applied to the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56158. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -25,20 +25,20 @@ The ACSD-56158 patch fixes the issue where the tax value rendering on the fronte
 
 ## Issue
 
-The tax value rendering on the frontend is incorrect when multiple tax rules are applied on the cart.
+The tax value rendering on the frontend is incorrect when multiple tax rules are applied to the cart.
 
 <u>Steps to reproduce</u>:
 
-1. Create a customer with US address
-1. Navigate to admin panel
-1. Create a product with price $100
-1. Create two tax rates for US address: one for 10% and second for 5%
-1. Configure 2 tax rules for USA from Stores > Taxes > tax rule
+1. Create a customer with a US address.
+1. Navigate to admin panel.
+1. Create a product with a price of $100.
+1. Create two tax rates for the US address: one for 10% and the other for 5%.
+1. Configure two tax rules for USA from **[!UICONTROL Stores]** > **[!UICONTROL Taxes]** > **[!UICONTROL Tax Rule]**.
 1. Assign one tax rate to one rule.
-1. From the frontend login as a customer with US address and add product to cart
-1. Generate customer token via graphql
-1. Generate cart id via graphql
-1. Check tax applied correctly by getting customers cart via graphql:
+1. From the frontend, log in as the customer with the US address, and add the product to the cart.
+1. Generate a customer token via GraphQL.
+1. Generate a cart ID via GraphQL.
+1. Check that the tax applied is correct by getting the customers cart via GraphQL:
 
     ```GraphQL
     {
