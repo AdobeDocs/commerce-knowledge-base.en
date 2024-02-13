@@ -6,7 +6,7 @@ feature: B2B, Commerce Intelligence
 ---
 # How to find Adobe Commerce product documentation
 
-## Magento Support Documentation
+## Adobe Commerce Support Documentation
 
 The Adobe Commerce support knowledge base provides troubleshooting solutions for fixing and avoiding known Adobe Commerce products issues, supplied by the Adobe Commerce support team.
 
@@ -15,7 +15,7 @@ There are also separate troubleshooting resources for:
 * Adobe Commerce learning: [https://learning.adobe.com/products-resources/contact-us.html](https://learning.adobe.com/products-resources/contact-us.html)
 * Solution Partners: [https://solutionpartners.adobe.com/](https://solutionpartners.adobe.com/)
 * Tech Partners: [https://partners.adobe.com/exchangeprogram/experiencecloud.html](https://solutionpartners.adobe.com/)
-* Commerce Marketplace: [https://marketplacesupport.magento.com/hc/en-us](https://marketplacesupport.magento.com/hc/en-us)
+* Commerce Marketplace: [https://commercemarketplace.adobe.com](https://commercemarketplace.adobe.com)
 
 If you are looking for technical or end-user documentation, please use one of the following links:
 
@@ -32,13 +32,13 @@ If you are looking for technical or end-user documentation, please use one of th
 Adobe Commerce on cloud infrastructure</td>
 <td>
 <p>Developer (technical) documentation:</p>
-<p><a href="https://devdocs.magento.com">https://devdocs.magento.com/</a></p>
+<p><a href="https://developer.adobe.com/commerce/docs/">https://developer.adobe.com/commerce/docs/</a></p>
 </td>
 </tr>
 <tr>
 <td>
 <p>Merchant (end-user) documentation:</p>
-<p><a href="https://docs.magento.com/m2/ee/user_guide/">https://docs.magento.com/m2/ee/user_guide/</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-admin_en/user-guides/">https://experienceleague.adobe.com/docs/commerce-admin_en/user-guides/</a></p>
 </td>
 </tr>
 <tr>
@@ -48,45 +48,45 @@ Adobe Commerce on cloud infrastructure</td>
 </td>
 <td>
 <p>Merchant (end-user) documentation:</p>
-<p><a href="https://docs.magento.com/m2/ce/user_guide/">https://docs.magento.com/m2/ce/user_guide/</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-admin_en/user-guides/">https://experienceleague.adobe.com/docs/commerce-admin_en/user-guides/</a></p>
 </td>
 </tr>
 <tr>
 <td>
-<p>B2B for Adobe Commerce</p>
+<p>[!DNL B2B] for Adobe Commerce</p>
 <p> </p>
 </td>
 <td>
 <p>Merchant (end-user) documentation:</p>
-<p><a href="https://docs.magento.com/m2/b2b/user_guide/getting-started.html">https://docs.magento.com/m2/b2b/user_guide/getting-started.html</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-admin_en/user-guides/">https://experienceleague.adobe.com/docs/commerce-admin_en/user-guides/</a></p>
 </td>
 </tr>
 <tr>
-<td>Magento Order Management System (OMS) for Adobe Commerce</td>
+<td>[!DNL Order Management System (OMS)] for Adobe Commerce</td>
 <td>
 <p>Merchant (end-user) and developer (technical) documentation:</p>
-<p><a href="https://omsdocs.magento.com/en/">https://omsdocs.magento.com/en/</a></p>
+<p><a href="https://omsdocs.magento.com/">https://omsdocs.magento.com/</a></p>
 </td>
 </tr>
 <tr>
-<td>Progressive Web App (PWA Studio)</td>
+<td>[!DNL Progressive Web App] (PWA Studio)</td>
 <td>
 <p>Developer (technical) documentation:</p>
-<p><a href="https://magento.github.io/pwa-studio/">https://magento.github.io/pwa-studio/</a></p>
+<p><a href="https://developer.adobe.com/commerce/pwa-studio/">https://developer.adobe.com/commerce/pwa-studio/</a></p>
 </td>
 </tr>
 <tr>
-<td>Magento Business Intelligence (MBI)</td>
+<td>Adobe Commerce Business Intelligence</td>
 <td>
 <p>Merchant (end-user) documentation:</p>
-<p><a href="https://docs.magento.com/mbi/">https://docs.magento.com/mbi/</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html">https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html</a></p>
 </td>
 </tr>
 <tr>
 <td>Commerce Marketplace</td>
 <td>
 <p>Merchant (end-user) and developer (technical) documentation:</p>
-<p><a href="https://docs.magento.com/marketplace/user_guide/getting-started.html">https://docs.magento.com/marketplace/user_guide/getting-started.html</a></p>
+<p><a href="https://developer.adobe.com/commerce/marketplace/guides/sellers/">https://developer.adobe.com/commerce/marketplace/guides/sellers/</a></p>
 </td>
 </tr>
 </tbody>
@@ -95,6 +95,6 @@ Adobe Commerce on cloud infrastructure</td>
 
 ## Blogs and communications
 
-* Magento security center (security updates and patches): [https://magento.com/security/news](https://magento.com/security/news)
-* Magento Community Developer Blog (how to's, best practices and technical news from the community): [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
-* Magento Blog (high level e-commerce):[https://magento.com/blog](https://magento.com/blog)
+* Adobe Trust Center (security updates and patches): [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
+* Adobe Commerce Community Developer Blog (how-to's, best practices and technical news from the community): [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
+* Adobe Commerce Blog (high level e-commerce):[https://business.adobe.com/blog/](https://business.adobe.com/blog/)
