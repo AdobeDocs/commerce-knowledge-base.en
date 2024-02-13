@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-56886: Configurable product becomes out of stock when child products disabled'
-description: Apply the ACSD-56886 patch to fix the Adobe Commerce issue where the configurable product becomes out of stock child when products are disabled 
+description: Apply the ACSD-56886 patch to fix the Adobe Commerce issue where the configurable product becomes out of stock child when products are disabled.
 feature: Products
 role: Admin, Developer
 ---
