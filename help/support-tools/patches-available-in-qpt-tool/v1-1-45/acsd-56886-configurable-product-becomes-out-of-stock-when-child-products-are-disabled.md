@@ -35,7 +35,7 @@ The configurable product becomes out of stock when child products are disabled.
     * Name = *TEST CONFIGURABLE 1*
     * Attribute = *color*
     * Values = *red* and *black*
-    * Price of the "red" child product = *$100*;
+    * Price of the **red**  child product = *$100*;
     * Price of the "black" child product = *$200*.
 
 1. Create following scheduled update for configurable product:
