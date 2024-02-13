@@ -52,7 +52,7 @@ The configurable product becomes out of stock when child products are disabled.
 
 <u>Expected results</u>:
 
-The configurable product is displayed as **In Stock** with "As low as 200" label.
+The configurable product is displayed as **In Stock** with the **As low as 200** label.
 
 <u>Actual results</u>:
 
