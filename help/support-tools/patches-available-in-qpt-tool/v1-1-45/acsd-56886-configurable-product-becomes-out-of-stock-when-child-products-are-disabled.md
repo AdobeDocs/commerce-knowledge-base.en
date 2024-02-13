@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-56886: Configurable product becomes out of stock when child products are disabled 
 
-The ACSD-56886 patch fixes the issue where the configurable product becomes out of stock when child products are disabled  This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56886. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56886 patch fixes the issue where the configurable product becomes out of stock when child products are disabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56886. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
