@@ -759,6 +759,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-56246: Scheduling product updates clears multiselect attributes values](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56246-scheduling-product-updates-clears-multiselect-attributes-values.md)
     * v1.1.45 {#v1-1-45}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
+        * [ACSD-56886: Configurable product becomes out of stock when child products disabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56886-configurable-product-becomes-out-of-stock-when-child-products-are-disabled.md)
         * [ACSD-56515: Admin with permissions cannot edit [!UICONTROL Dynamic Block]](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56515-admin-with-permissions-cannot-edit-dynamic-block.md)
         * [ACSD-56616: Storefront display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-trigger-bundle-display.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
