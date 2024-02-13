@@ -27,7 +27,7 @@ You want to configure Commerce Intelligence connection for an existing Cloud Sta
 
 ## Solution
 
-To activate Commerce Intelligence for Cloud Starter projects, create a Commerce Intelligence account, create an SSH key, and finally connect to your Adobe Commerce database. 
+To activate Commerce Intelligence for Cloud Starter projects, create a Commerce Intelligence account, create an SSH key, and finally connect to your Adobe Commerce database.
 
 Follow these steps:
 
@@ -47,7 +47,7 @@ Follow these steps:
     ![Verify email address](/help/troubleshooting/miscellaneous/assets/verify_email_address_mbi.png)
 
     * Create a password.
-    
+
     ![Create a password](/help/troubleshooting/miscellaneous/assets/create_password_mbi.png)
 
     * After creating your account, you will have the option to add users to your new account. Technical admins can now be added to carry out the following steps.
@@ -173,11 +173,9 @@ Follow these steps:
 
 1. Get information for your encryption settings.
 
-    * The project UI provides an SSH access string. This string can be used for gathering the information needed for the Remote Address and Username in setting up your **[!UICONTROL Encryption settings]. Use the SSH Access string found by clicking the access site button on your Master branch of your Project UI and find your [!UICONTROL User Name] and [!UICONTROL Remote Address] as shown below.
+    * The project UI provides an SSH access string. This string can be used for gathering the information needed for the Remote Address and Username in setting up your **[!UICONTROL Encryption settings]**. Select **[!UICONTROL SSH]** to see your User Name and Remote Address. The text string before the *@* is your Username and the text string after *@* is your Remote Address. 
 
     ![Access site master](/help/troubleshooting/miscellaneous/assets/access_site_mbi.png)
-
-    ![User name and remote address](/help/troubleshooting/miscellaneous/assets/user_name_address_mbi.png)
 
 1. Input information for your [!UICONTROL Encryption Settings].
 

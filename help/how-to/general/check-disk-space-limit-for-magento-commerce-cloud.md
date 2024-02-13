@@ -8,11 +8,10 @@ feature: Cloud
 
 To check how much space you have for each Adobe Commerce on cloud infrastructure environment:
 
-1. As the Adobe Commerce on cloud infrastructure Account Owner, log in to your project.
-1. In the upper right corner, click **`<your name>`** > **Account Settings**.
-1. On the project tab, see the amount specified, for example:
+1. Log in to the [Cloud Console](https://console.adobecommerce.com).
+1. On the **[!UICONTROL All projects]** dashboard, select the relevant project. In the lower corner, see disk space availability.
 
-   ![project space](assets/project_space.png)
+   ![project_space.png](/help/how-to/general/assets/project_space.png) 
 
 ## Related reading
 
