@@ -24,7 +24,7 @@ The ACSD-56886 patch fixes the issue where the configurable product becomes out 
 
 ## Issue
 
-The configurable product becomes out of stock when child products are disabled 
+The configurable product becomes out of stock when child products are disabled.
 
 <u>Steps to reproduce</u>:
 
