@@ -30,22 +30,20 @@ The configurable product becomes out of stock when child products are disabled.
 
 1. Log in as Admin.
 1. Set all indexers in the **[!UICONTROL Update By Schedule]** mode.
-
 1. Create the following configurable product:
 
-* Name = *TEST CONFIGURABLE 1*
-
-* Attribute = *color*
-* Values = *red* and *black*
-* Price of the "red" child product = *$100*;
-* Price of the "black" child product = *$200*.
+    * Name = *TEST CONFIGURABLE 1*
+    * Attribute = *color*
+    * Values = *red* and *black*
+    * Price of the "red" child product = *$100*;
+    * Price of the "black" child product = *$200*.
 
 1. Create following scheduled update for configurable product:
 
-* Start Date = *3* minutes from now.
-* End Date = *5* minutes after Start Date.
-* Product Name = *TEST CONFIGURABLE 1 edited*.
-* Disable the **red** child product in **Configurable** section.
+    * Start Date = *3* minutes from now.
+    * End Date = *5* minutes after Start Date.
+    * Product Name = *TEST CONFIGURABLE 1 edited*.
+    * Disable the **red** child product in **Configurable** section.
 
 1. Wait for the Start Date.
 1. Open the configurable product details on the Storefront.
