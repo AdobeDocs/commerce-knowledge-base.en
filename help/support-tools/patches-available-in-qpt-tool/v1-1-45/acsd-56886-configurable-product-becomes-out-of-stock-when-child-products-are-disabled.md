@@ -44,7 +44,7 @@ The configurable product becomes out of stock when child products are disabled.
 
 * Start Date = *3* minutes from now;
 * End Date = *5* minutes after Start Date.
-* Product Name = "TEST CONFIGURABLE *1 edited";
+* Product Name = *TEST CONFIGURABLE 1 edited*.
 * Disable "red" child product in "Configurable" section.
 
 1. Wait for the Start Date.
