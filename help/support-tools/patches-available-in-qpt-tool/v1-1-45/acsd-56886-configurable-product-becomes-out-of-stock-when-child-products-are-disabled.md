@@ -38,7 +38,7 @@ The configurable product becomes out of stock when child products are disabled.
     * Price of the "red" child product = *$100*;
     * Price of the "black" child product = *$200*.
 
-1. Create following scheduled update for configurable product:
+1. Create the following scheduled update for the configurable product:
 
     * Start Date = *3* minutes from now.
     * End Date = *5* minutes after Start Date.
