@@ -48,7 +48,7 @@ The configurable product becomes out of stock when child products are disabled.
 * Disable the **red** child product in **Configurable** section.
 
 1. Wait for the Start Date.
-1. Open configurable product details on the Storefront.
+1. Open the configurable product details on the Storefront.
 
 <u>Expected results</u>:
 
