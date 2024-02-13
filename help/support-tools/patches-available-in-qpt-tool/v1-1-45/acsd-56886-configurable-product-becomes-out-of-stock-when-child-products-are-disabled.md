@@ -42,7 +42,7 @@ The configurable product becomes out of stock when child products are disabled.
 
 1. Create following scheduled update for configurable product:
 
-* Start Date = *3* minutes from now;
+* Start Date = *3* minutes from now.
 * End Date = *5* minutes after Start Date.
 * Product Name = *TEST CONFIGURABLE 1 edited*.
 * Disable the **red** child product in **Configurable** section.
