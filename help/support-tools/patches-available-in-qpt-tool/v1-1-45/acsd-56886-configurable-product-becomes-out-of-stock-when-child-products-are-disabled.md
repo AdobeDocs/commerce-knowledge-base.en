@@ -33,7 +33,7 @@ The configurable product becomes out of stock when child products are disabled.
 
 1. Create the following configurable product:
 
-* Name = "TEST CONFIGURABLE 1";
+* Name = *TEST CONFIGURABLE 1*
 
 * Attribute = color;
 * Values = "red" and "black";
