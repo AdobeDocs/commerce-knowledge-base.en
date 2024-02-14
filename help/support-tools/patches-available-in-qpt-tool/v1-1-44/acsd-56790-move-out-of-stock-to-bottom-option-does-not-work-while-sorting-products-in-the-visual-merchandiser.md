@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-56790: Move out of stock to bottom option doesn't work while sorting products in the Visual Merchandiser'
-description: Apply the ACSD-56790 patch to fix the Adobe Commerce issue where the move out of stock to bottom option doesn't work while sorting products in the Visual Merchandiser. 
+title: 'ACSD-56790: Move out of stock to bottom option does not work while sorting products in the Visual Merchandiser'
+description: Apply the ACSD-56790 patch to fix the Adobe Commerce issue where the move out of stock to bottom option does not work while sorting products in the Visual Merchandiser. 
 feature: Products, Categories
 role: Admin, Developer
 ---
-# ACSD-56790: Move out of stock to bottom option doesn't work while sorting products in the Visual Merchandiser
+# ACSD-56790: Move out of stock to bottom option does not work while sorting products in the Visual Merchandiser
 
-The ACSD-56790 patch fixes the issue where the move out of stock to bottom option doesn't work while sorting products in the Visual Merchandiser. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56790 patch fixes the issue where the move out of stock to bottom option does not work while sorting products in the Visual Merchandiser. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-56790 patch fixes the issue where the move out of stock to bottom optio
 
 ## Issue
 
-The move out of stock to bottom option doesn't work while sorting products in the Visual Merchandiser
+The move out of stock to bottom option does not work while sorting products in the Visual Merchandiser
 
 <u>Steps to reproduce</u>:
 
