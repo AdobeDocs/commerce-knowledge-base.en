@@ -37,7 +37,7 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 
 To set the key value for the destination project:
 
-1. Open your Project Web UI and locate your project.
+1. Open the [Cloud Console](https://console.adobecommerce.com) and locate your project.
 1. Set the value of the [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) (in our developer documentation) variable, as described in [Configure your project](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) in our developer documentation. This will trigger the deployment process and `CRYPT_KEY` will be overridden in the `app/etc/env.php` file on every deployment.
 
 Optionally, you can manually override the encryption key in the `app/etc/env.php` file:

@@ -15,7 +15,7 @@ Adobe Commerce on cloud infrastructure 2.2.x., 2.3.x
 
 ## Issue
 
-Errors when trying to deploy updates to ECE-Tools, patches or other changes include: PHP errors in the project web UI and in the `var/log/cloud.log`
+Errors when trying to deploy updates to ECE-Tools, patches or other changes include: PHP errors in the Cloud Console and in the `var/log/cloud.log`
 
 ```
 W: PHP Warning: require(<path to file>): failed to open stream: No such file or directory in <path to file> on line 70
