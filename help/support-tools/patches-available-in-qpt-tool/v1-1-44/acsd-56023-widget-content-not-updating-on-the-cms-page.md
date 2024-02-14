@@ -36,7 +36,7 @@ The Widget content is not updating on the CMS page.
     ```
 
 1. Open the created page on the frontend. Ensure that it is cached.
-1. Select "Set Product as New" to "Yes" for any of the products.
+1. From the Backend open Catalog->Products.
 1. Open the created CMS page on the frontend again.
 
 <u>Expected results</u>:
