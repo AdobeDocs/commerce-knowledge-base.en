@@ -1,10 +1,10 @@
 ---
 title: "ACSD-56023: Widget content is not updating on the CMS page"
-description: Apply the ACSD-56023 patch to fix the Adobe Commerce issue where the widget content is not updating on the CMS page.
+description: Apply the ACSD-56023 patch to fix the Adobe Commerce issue where the widget content is not updating on the CMS page
 feature: CMS
 role: Admin, Developer
 ---
-# ACSD-56023: The Widget content is not updating on the CMS page.
+# ACSD-56023: Widget content is not updating on the CMS page
 
 The ACSD-56023 patch fixes the issue where the Widget content is not updating on the CMS page. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56023. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
@@ -24,7 +24,7 @@ The ACSD-56023 patch fixes the issue where the Widget content is not updating on
 
 ## Issue
 
-The Widget content is not updating on the CMS page. 
+Widget content is not updating on the CMS page 
 
 <u>Steps to reproduce</u>:
 
@@ -35,17 +35,17 @@ The Widget content is not updating on the CMS page.
        {{widget type="Magento\Catalog\Block\Product\Widget\NewWidget" display_type="new_products" show_pager="1" products_per_page="5" products_count="10" template="product/widget/new/content/new_grid.phtml" page_var_name="pnetpm"}} 
     ```
 
-1. Open the created page on the frontend. Ensure that it is cached.
-1. From the Backend open Catalog->Products.
-1. Open the created CMS page on the frontend again.
+1. Open the created page on the frontend. Make sure to cache it.
+1. From the Admin, open **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Go to the created **CMS page** on the frontend again.
 
 <u>Expected results</u>:
 
-The Page contains "New Products widget" with the products.
+The Page contains **New Products widget** with the products.
 
 <u>Actual results</u>:
 
-The page does not contain "New Products widget", and the new products do not appear.
+The page does not contain **New Products widget**, and the new products do not appear.
 
 ## Apply the patch
 
