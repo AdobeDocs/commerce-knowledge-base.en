@@ -273,7 +273,7 @@ To follow/unfollow tickets for an organization:
 
 ### Adobe Commerce P1 hotline {#P1-hotline}
 
-**Login is required** to access the [Adobe Commerce P1 hotline](https://support.magento.com/hc/en-us/articles/360042536151) article which provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
+**Login is required** to access the [Adobe Commerce P1 hotline](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html) article which provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
 
 ### Adobe Commerce Shared Responsibility Security Model {#shared-responsibility-operational-model}
 
