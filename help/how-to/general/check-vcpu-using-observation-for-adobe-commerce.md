@@ -10,7 +10,7 @@ This article explains how to check your vCPU tier allocation using the New Relic
 
 ## Affected products and versions:
 
-Adobe Commerce on cloud infrastructure, 2.4.3-2.4.6
+Adobe Commerce on cloud infrastructure 2.4.3 - 2.4.6
 
 ## Check vCPU tier allocation with Observation for Adobe Commerce:
 
