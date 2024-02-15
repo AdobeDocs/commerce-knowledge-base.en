@@ -58,7 +58,7 @@ Adobe Commerce on cloud infrastructure</td>
 </td>
 <td>
 <p>Merchant (end-user) documentation:</p>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-admin_en/user-guides/">https://experienceleague.adobe.com/docs/commerce-admin_en/user-guides/</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-admin_en/user-guides/">https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html</a></p>
 </td>
 </tr>
 <tr>
