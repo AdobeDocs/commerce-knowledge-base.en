@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-56790: Move out of stock to bottom option does not work while sorting products in the Visual Merchandiser'
+title: 'ACSD-56790: **[!UICONTROL move out of stock to bottom]** option does not work while sorting products in the  **[!DNL Visual Merchandiser]**'
 description: Apply the ACSD-56790 patch to fix the Adobe Commerce issue where the move out of stock to bottom option does not work while sorting products in the Visual Merchandiser. 
 feature: Products, Categories
 role: Admin, Developer
 ---
-# ACSD-56790: Move out of stock to bottom option does not work while sorting products in the Visual Merchandiser
+# ACSD-56790: **[!UICONTROL move out of stock to bottom]** option does not work while sorting products in the **[!DNL Visual Merchandiser]**
 
-The ACSD-56790 patch fixes the issue where the move out of stock to bottom option does not work while sorting products in the Visual Merchandiser. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56790 patch fixes the issue where the move out of stock to bottom option does not work while sorting products in the **[!DNL Visual Merchandiser]**. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-56790 patch fixes the issue where the move out of stock to bottom optio
 
 ## Issue
 
-The move out of stock to bottom option does not work while sorting products in the Visual Merchandiser
+The **[!UICONTROL move out of stock to bottom]** option does not work while sorting products in the **[!DNL Visual Merchandiser]**
 
 <u>Steps to reproduce</u>:
 
@@ -33,17 +33,19 @@ The move out of stock to bottom option does not work while sorting products in t
 1. Create a new website: **Non-main**.
 1. Create a **Non-main Store** on this new website.
 1. Create two stores:
-1. First in the **Main website Store**.
-1. Second in the **Non-main Store**.
+
+    * First in the **Main website Store**.
+    * Second in the **Non-main Store**.
+
 1. Create two sources:
    * Letters.
    * Numbers.
 
-   Create two stocks:
+1. Create two stocks:
    * First Main - sales channels: Main Website - assigned sources: Letters.
    * Second Non-main - sales channels: Non-main - assigned sources: Numbers.
 
-   Create three simple products on both websites, all in the Default category, all assigned to both sources:
+1. Create three simple products on both websites, all in the Default category, all assigned to both sources:
 
     * ProductA - Qty *10* in Letters, Qty *0* in Numbers.
     * Product1 - Qty *0* in Letters, Qty *10* in Numbers.
@@ -52,7 +54,7 @@ The move out of stock to bottom option does not work while sorting products in t
 1. Go to the **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and select the **[!UICONTROL Default category]**.
 1. Change the scope to **First**.
 1. Expand the Products in the Category section.
-1. Pick the sort order as: Move out of stock to bottom.
+1. Pick the sort order as: **[!UICONTROL move out of stock to bottom]**
 
 <u>Expected results</u>:
 
