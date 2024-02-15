@@ -51,7 +51,7 @@ The move out of stock to bottom option does not work while sorting products in t
 
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and select  **[!UICONTROL Default category]**.
 1. Change the scope to **First**.
-1. Expand the Products in the Category section.
+1. Expand the Products in the **[!UICONTROL Category]** section.
 1. Pick the sort order as: Move out of stock to bottom.
 
 <u>Expected results</u>:
