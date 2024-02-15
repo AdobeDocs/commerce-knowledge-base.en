@@ -553,7 +553,7 @@ However, once you have revoked the permissions on those Shared Access users, the
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under *[!UICONTROL Shared Access]*, choose **[!UICONTROL Manage Permissions]**.
-1. Find the user to revoke shared access from and click **Edit** in the user's row (**Actions** column).
+1. Find the user to revoke shared access from and click **[!UICONTROL Edit]** in the user's row (*[!UICONRTOL Actions]* column).
 1. Uncheck all resources under Grant Account Permissions
 
 ![image](https://git.corp.adobe.com/storage/user/38345/files/2d42fa60-559f-4697-a3cf-287c7e765405)
