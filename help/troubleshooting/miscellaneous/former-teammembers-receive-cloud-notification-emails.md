@@ -20,7 +20,7 @@ There are two ways to stop the notifications by removing the user(s) from your p
 * Method 1: Using the cloud [!DNL Project URL]. Refer to [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in the Commerce on cloud infrastructure guide for steps.  
 * Method 2: Using the magento-cloud [!DNL CLI]. Refer to [Manage users with the [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli) in the Commerce on cloud infrastructure guide for steps.
 
-If this has already been done and yet the email notifications continue to include those users, submit a Support ticket to request that they be removed from the "Always CC" setting on the account.
+If this has already been done and yet the email notifications continue to include those users, submit a support ticket to request that they be removed from the "Always CC" setting on the account.
 
 ## Related reading
 
