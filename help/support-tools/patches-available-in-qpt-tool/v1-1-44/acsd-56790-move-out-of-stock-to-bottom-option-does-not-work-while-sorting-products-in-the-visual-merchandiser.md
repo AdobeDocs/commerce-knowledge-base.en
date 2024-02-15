@@ -51,7 +51,7 @@ The **[!UICONTROL move out of stock to bottom]** option does not work while sort
     * Product1 - Qty *0* in Letters, Qty *10* in Numbers.
     * ProductA1 - Qty *10* in Letters, Qty *10* in Numbers.
 
-1. Go to the **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and select the **[!UICONTROL Default category]**.
+1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** and select  **[!UICONTROL Default category]**.
 1. Change the scope to **First**.
 1. Expand the Products in the Category section.
 1. Pick the sort order as: **[!UICONTROL move out of stock to bottom]**
