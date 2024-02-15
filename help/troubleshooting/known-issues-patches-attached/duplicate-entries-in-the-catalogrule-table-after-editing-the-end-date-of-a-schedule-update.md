@@ -86,7 +86,7 @@ Take these steps to locate the duplicated entries and delete them:
 
     ![table_results2.png](assets/table_results2.png)
 
-    The `created_in` and `updated_in` values should follow this pattern: the `created_in` value of the current row is equal to the `updated_in` value in the previous row. Also, the **first row** should contain created\_in = 1 and the **last row** should contain updated\_in = 2147483647. (If there's only 1 row, you must see created\_in=1 **and** updated\_in=2147483647). The row(s) for which this pattern is broken, should be deleted. In our example, it would be the row with `row_id` =2052 as the 2nd and 3rd rows both share the same value for created_in: 1540837826, which shouldn't occur.
+    The `created_in` and `updated_in` values should follow this pattern: the `created_in` value of the current row is equal to the `updated_in` value in the previous row. Also, the **first row** should contain created\_in = 1 and the **last row** should contain updated\_in = 2147483647. (If there's only 1 row, you must see created\_in=1 **and** updated\_in=2147483647). The row(s) for which this pattern is broken, should be deleted. In our example, it would be the row with `row_id` =2052 as the second and third rows both share the same value for created_in: 1540837826, which shouldn't occur.
 
 1. Delete the duplicate using a query similar to the following. Replace the table name, entity id name and value according to the results received on the previous steps:
 
