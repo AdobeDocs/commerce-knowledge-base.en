@@ -552,7 +552,7 @@ It's not possible to delete the list of Shared Access users with the Share Name 
 However, once you have revoked the permissions on those Shared Access users, they will no longer have that access.
 
 1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
-1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
+1. In the panel on the left, under *[!UICONTROL Shared Access]*, choose **[!UICONTROL Manage Permissions]**.
 1. Find the user to revoke shared access from and click **Edit** in the user's row (**Actions** column).
 1. Uncheck all resources under Grant Account Permissions
 
