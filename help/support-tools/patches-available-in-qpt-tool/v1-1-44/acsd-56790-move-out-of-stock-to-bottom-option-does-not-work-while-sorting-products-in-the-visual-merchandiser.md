@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-56790: **[!UICONTROL move out of stock to bottom]** option does not work while sorting products in the  **[!DNL Visual Merchandiser]**'
+title: 'ACSD-56790: **[!UICONTROL move out of stock to bottom]** option does not work while sorting products in the  [!DNL Visual Merchandiser]'
 description: Apply the ACSD-56790 patch to fix the Adobe Commerce issue where the move out of stock to bottom option does not work while sorting products in the Visual Merchandiser. 
 feature: Products, Categories
 role: Admin, Developer
 ---
-# ACSD-56790: **[!UICONTROL move out of stock to bottom]** option does not work while sorting products in the **[!DNL Visual Merchandiser]**
+# ACSD-56790: **[!UICONTROL move out of stock to bottom]** option does not work while sorting products in the [!DNL Visual Merchandiser]
 
-The ACSD-56790 patch fixes the issue where the move out of stock to bottom option does not work while sorting products in the **[!DNL Visual Merchandiser]**. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56790 patch fixes the issue where the move out of stock to bottom option does not work while sorting products in the [!DNL Visual Merchandiser]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,12 +24,12 @@ The ACSD-56790 patch fixes the issue where the move out of stock to bottom optio
 
 ## Issue
 
-The **[!UICONTROL move out of stock to bottom]** option does not work while sorting products in the **[!DNL Visual Merchandiser]**
+The **[!UICONTROL move out of stock to bottom]** option does not work while sorting products in the [!DNL Visual Merchandiser]
 
 <u>Steps to reproduce</u>:
 
 1. Install Adobe Commerce. 
-1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** and create the following attribute:
+1. Go to **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** and create the following attributes.
 1. Create a new website: **Non-main**.
 1. Create a **Non-main Store** on this new website.
 1. Create two stores:
