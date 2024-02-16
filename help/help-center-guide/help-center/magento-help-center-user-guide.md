@@ -485,7 +485,7 @@ To add a comment to the conversation, follow these steps:
 1. To add a person to your comment, specify the email in the **CC** field of the comment field.
    >[!NOTE]
    >
-   >The user in CC: must have an existing account at https://account.magento.com - if not, they must first create one at https://account.adobe.com and login to https://account.magento.com with that account.
+   >The user in CC: must have an existing account at https://account.magento.com. If not, they must first create one at https://account.adobe.com and log in to https://account.magento.com with that account.
     ![hc_conversation-write.png](assets/hc_conversation-write.png)
 
 1. Once you are finished with your comment, click **Submit**.
