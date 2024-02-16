@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-52824: Inconsistent payment method display for company customers'
 description: Apply the ACSD-52824 patch to fix the Adobe Commerce issue where payment method buttons ([!UICONTROL PayPal Express], [!UICONTROL Google Pay] and [!UICONTROL Apple Pay]) incorrectly appear for company customers despite being disabled in the company settings.
-feature: Payments, Customers
+feature: Payments, B2B, Shopping Cart
 role: Admin, Developer
 ---
 # ACSD-52824: Inconsistent payment method display for company customers
