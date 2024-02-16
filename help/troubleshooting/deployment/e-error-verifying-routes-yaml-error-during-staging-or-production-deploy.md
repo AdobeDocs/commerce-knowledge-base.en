@@ -38,7 +38,7 @@ With your current routes.yaml configuration,
   these domains would NOT be served!
 
 In order to continue, please see here for instructions to troubleshoot:
- /help/troubleshooting/deployment/e-error-verifying-routes.yaml-error-during-staging-or-production-deploy.md</pre>
+ /help/troubleshooting/deployment/e-error-verifying-routes-yaml-error-during-staging-or-production-deploy.md</pre>
 
 ## Cause
 

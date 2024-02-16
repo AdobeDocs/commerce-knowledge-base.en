@@ -97,7 +97,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
 ## Popular Articles
 
-* [Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2.4.4.md)
+* [Switching to OpenSearch for Adobe Commerce on Cloud 2.4.4](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
 * [Apache log4j2 vulnerability in Adobe Commerce](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
 * [Security updates available for Adobe Commerce APSB22-12](/help/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.md)
 * [Identify and measure outages for Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-identify-outages.md)

@@ -31,7 +31,7 @@ Enable **Vertex Address Cleansing**. For steps, refer to [Configuring Storefront
 
 <u>First scenario:</u>
 
-Follow the [above six steps](/help/troubleshooting/miscellaneous/magento-2.4.1-vertex-address-validation-message-post-address-update.md#first_sixth) and then:
+Follow the [above six steps](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) and then:
 
 1. Enter a new valid billing address.
 1. Click on the **Update** button. It will show the message/suggestion like the following: *The address is not valid.* This will follow with an address suggestion like: *Postcode : XXXXX- XXXX Street : XXX City street XXX*
@@ -50,7 +50,7 @@ The validation message/suggestion *"We did not find a valid address Postcode : X
 
 <u>Second scenario:</u>
 
-Follow the [above six steps](/help/troubleshooting/miscellaneous/magento-2.4.1-vertex-address-validation-message-post-address-update.md#first_sixth) and then:
+Follow the [above six steps](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) and then:
 
 1. Fill the address form with a valid address.
 1. Click on the **Update** button. It will show the message/suggestion like the following: *The address is not valid.* This will follow with an address suggestion like: *Postcode : XXXXX-XXXX Street : XXX City street XXX*.
@@ -67,4 +67,4 @@ The validation message/suggestion *"We did not find a valid address Postcode : X
 
 ## Related reading in our support knowledge base:
 
-[Adobe Commerce 2.3.6, 2.4.0-p1 and 2.4.1 known issue: cannot log in to dotdigital when account enabled](/help/troubleshooting/miscellaneous/magento-2.3.6-2.4.0-p1-2.4.1-known-issue-dotdigital-login.md)
+[Adobe Commerce 2.3.6, 2.4.0-p1 and 2.4.1 known issue: cannot log in to dotdigital when account enabled](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
