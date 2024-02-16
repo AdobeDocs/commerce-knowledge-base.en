@@ -304,7 +304,7 @@ To add several emails to CC:
 
 >[!NOTE]
 >
->The user in CC: must have an existing account at https://account.magento.com - if not, they must first create one at https://account.adobe.com and login to https://account.magento.com with that account.
+>The user in CC: must have an existing account at https://account.magento.com. If not, they must first create one at https://account.adobe.com and log in to https://account.magento.com with that account.
 
 1. Enter the email.
 1. Press *Space* on your keyboard to save the entered email. The email appears in a gray frame.    
