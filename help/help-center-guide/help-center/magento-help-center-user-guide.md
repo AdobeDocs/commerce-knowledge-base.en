@@ -486,6 +486,7 @@ To add a comment to the conversation, follow these steps:
    >[!NOTE]
    >
    >The user in CC: must have an existing account at https://account.magento.com. If not, they must first create one at https://account.adobe.com and log in to https://account.magento.com with that account.
+    
     ![hc_conversation-write.png](assets/hc_conversation-write.png)
 
 1. Once you are finished with your comment, click **Submit**.
