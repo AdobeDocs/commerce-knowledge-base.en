@@ -303,6 +303,10 @@ You may add emails of the persons who do not have a Magento Account or a Zendesk
 
 To add several emails to CC:
 
+>[!NOTE]
+>
+>The user in CC: must have an existing account at https://account.magento.com. If not, they must first create one at https://account.adobe.com and log in to https://account.magento.com with that account.
+
 1. Enter the email.
 1. Press *Space* on your keyboard to save the entered email. The email appears in a gray frame.    
     ![hc_cc_emails.png](assets/hc_cc_emails.png)    
@@ -480,7 +484,10 @@ To add a comment to the conversation, follow these steps:
     ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)
 
 1. To add a person to your comment, specify the email in the **CC** field of the comment field.
-
+   >[!NOTE]
+   >
+   >The user in CC: must have an existing account at https://account.magento.com. If not, they must first create one at https://account.adobe.com and log in to https://account.magento.com with that account.
+    
     ![hc_conversation-write.png](assets/hc_conversation-write.png)
 
 1. Once you are finished with your comment, click **Submit**.
