@@ -12,7 +12,7 @@ QPT v1.1.46 includes the following patches:
 
 1. **ACSD-46767**: Fixes the issue where the category page caches invalidate when the stock quantity changes, even if the product is still in stock.
 1. **ACSD-54656**: Fixes the issue where the invisible [!DNL reCAPTCHA] fails during checkout, preventing an order from being placed.
-1. **ACSD-55100**: Fixes the issue where GraphQL does not return more than 10k products in the search results.
+1. **ACSD-55100**: Fixes the issue where GraphQL does not return more than *10000* products in the search results.
 1. **ACSD-56621**: Fixes the issue where the updated first name and last name are not reflected in the greetings header section for the company admin user.
 1. **ACSD-56842**: Fixes the issue where the deferred proxies and the deferred proxy factories are missing after running `setup:di:compile`.
 1. **ACSD-57003**: Fixes the issue where the order status is changed to *[!UICONTROL Complete]* instead of being changed to *[!UICONTROL Processing]* when an order is partially refunded and partially shipped.
