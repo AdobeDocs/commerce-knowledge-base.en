@@ -303,6 +303,10 @@ You may add emails of the persons who do not have a Magento Account or a Zendesk
 
 To add several emails to CC:
 
+>[!NOTE]
+>
+>The user in CC: must have an existing account at https://account.magento.com. If not, they must first create one at https://account.adobe.com and log in to https://account.magento.com with that account.
+
 1. Enter the email.
 1. Press *Space* on your keyboard to save the entered email. The email appears in a gray frame.    
     ![hc_cc_emails.png](assets/hc_cc_emails.png)    
@@ -480,7 +484,10 @@ To add a comment to the conversation, follow these steps:
     ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)
 
 1. To add a person to your comment, specify the email in the **CC** field of the comment field.
-
+   >[!NOTE]
+   >
+   >The user in CC: must have an existing account at https://account.magento.com. If not, they must first create one at https://account.adobe.com and log in to https://account.magento.com with that account.
+    
     ![hc_conversation-write.png](assets/hc_conversation-write.png)
 
 1. Once you are finished with your comment, click **Submit**.
@@ -551,6 +558,13 @@ If the DELETE link is missing, that means that Shared Access was automatically g
 It's not possible to delete the list of Shared Access users with the Share Name of *Cloud Shared Access from MAG[XYZ]* if the Shared Access wasn't added/given on this page. These are retained for informational/audit purposes.
 
 However, once you have revoked the permissions on those Shared Access users, they will no longer have that access.
+
+1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
+1. In the panel on the left, under *[!UICONTROL Shared Access]*, choose **[!UICONTROL Manage Permissions]**.
+1. Find the user to revoke shared access from and click **[!UICONTROL Edit]** in the user's row (*[!UICONTROL Actions]* column).
+1. Uncheck all resources under *[!UICONTROL Grant Account Permissions]*.
+
+![image](https://git.corp.adobe.com/storage/user/38345/files/2d42fa60-559f-4697-a3cf-287c7e765405)
 
 For more information, please refer to the [Manage User Access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-project-web-interface) documentation on our Commerce on Cloud Infrastructure Guide.
 
