@@ -16,6 +16,19 @@ This article provides a solution to the issue where in the database there are mu
 
 In the database there are multiple rows for the same entity ID.
 
+For example, after receiving a list of records with duplicate entity IDs when you run this query:
+
+```
+SELECT * FROM $entityTable WHERE $column = <$entityID> ORDER BY created_in;
+```
+
+Where `$entityID = ID` of category/product/cart price rule/catalog price rule/cms page.
+
+|     Entity       |      $entityTable                 |      $column     |
+|------------------|-----------------------------------|------------------|
+| Category/Product | catalog_category_entity/catalog_product_entity | entity_id |
+| Cart Price Rule/Catalog Price Rule | salesrule/catalogrule | rule_id  |
+| CMS Page   | cms_page   | page_id  |
 
 ## Cause
 
