@@ -756,7 +756,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-55427: Admin user cannot unassign product from shared catalog from product page](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55427-admin-user-cannot-unassign-product-from-shared-catalog-from-product-page.md)
         * [ACSD-56280: Gift registry purchases are not completed](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56280-gift-registry-purchases-are-not-completed.md)
         * [ACSD-56193: [!DNL Fastly/Varnish] cache not cleared for content staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56193-fastly-cache-not-cleared-for-content-staging-update.md)
-        * [ACSD-56158: Wrong tax value on frontend upon applying multiple tax rules to cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56158-wrong-tax-value-on-frontend-when-multiple-tax-rules-are-applied-to-cart.md)
+        * [ACSD-56158: Wrong tax value in GraphQL response on applying multiple tax rules to cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56158-wrong-tax-value-on-frontend-when-multiple-tax-rules-are-applied-to-cart.md)
     * v1.1.45 {#v1-1-45}
         * [ACSD-56616: Storefront display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-trigger-bundle-display.md)
     * v1.1.45 {#v1-1-45}
