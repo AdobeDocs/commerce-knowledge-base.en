@@ -756,6 +756,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-55427: Admin user cannot unassign product from shared catalog from product page](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55427-admin-user-cannot-unassign-product-from-shared-catalog-from-product-page.md)
         * [ACSD-56280: Gift registry purchases are not completed](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56280-gift-registry-purchases-are-not-completed.md)
         * [ACSD-56193: [!DNL Fastly/Varnish] cache not cleared for content staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56193-fastly-cache-not-cleared-for-content-staging-update.md)
+        * [ACSD-56158: Wrong tax value in GraphQL response when multiple tax rules applied to cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56158-wrong-tax-value-on-frontend-when-multiple-tax-rules-are-applied-to-cart.md)
+    * v1.1.45 {#v1-1-45}
         * [ACSD-56023: Widget content is not updating on the CMS page](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56023-widget-content-not-updating-on-the-cms-page.md)
         * [ACSD-56246: Scheduling product updates clears multiselect attributes values](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56246-scheduling-product-updates-clears-multiselect-attributes-values.md)
         * [ACSD-56790: Move out of stock to bottom option does not work while sorting products in the Visual Merchandiser](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56790-move-out-of-stock-to-bottom-option-does-not-work-while-sorting-products-in-the-visual-merchandiser.md)
