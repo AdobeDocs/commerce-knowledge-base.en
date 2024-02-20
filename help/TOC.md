@@ -1010,7 +1010,7 @@ breadcrumb-title: Commerce KB
     * [The var/export folder permission issue Adobe Commerce on cloud](/help/troubleshooting/miscellaneous/issue-in-the0email-folder-adobe-commerce.md)
     * [Scheduled Content Staging updates not displayed with stale Fastly cache](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
     * [Troubleshoot cron](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
-    * [Exported products .csv file does not appear](/help/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.md)
+    * [Exported products .csv file does not appear](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
     * ["Class cannot be saved in the code directory" error](/help/troubleshooting/miscellaneous/class-cannot-be-saved-in-the-code-directory-error.md)
     * [Checking deployment log if Cloud UI has "log snipped" error](/help/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.md)
     * [Download fails because of changes in Composer](/help/troubleshooting/miscellaneous/download-fails-because-of-changes-in-composer.md)
