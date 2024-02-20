@@ -37,7 +37,7 @@ Widget content is not updating on the CMS page.
 
 1. Open the created page on the storefront. Make sure to cache it.
 1. From the Admin, open **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
-1. Pick any product for edit and switch "Set Product as New" to "Yes".
+1. Pick any product for edit and switch **[!UICONTROL Set Product as New]** to *Yes*.
 1. Go to the created *CMS page* on the storefront again.
 
 <u>Expected results</u>:
