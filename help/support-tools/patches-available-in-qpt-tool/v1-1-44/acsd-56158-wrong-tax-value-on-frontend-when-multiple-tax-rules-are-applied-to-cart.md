@@ -7,7 +7,7 @@ role: Admin, Developer
 
 # ACSD-56158: Wrong tax value in GraphQL response on applying multiple tax rules to cart
 
-The ACSD-56158 patch fixes the issue where the tax value rendering on the frontend is incorrect when multiple tax rules are applied to the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56158. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56158 patch fixes the issue where the tax value rendering in the GraphQL response is incorrect when multiple tax rules are applied to the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56158. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -25,7 +25,7 @@ The ACSD-56158 patch fixes the issue where the tax value rendering on the fronte
 
 ## Issue
 
-The tax value rendering on the frontend is incorrect when multiple tax rules are applied to the cart.
+The tax value rendering in the GraphQL response is incorrect when multiple tax rules are applied to the cart.
 
 <u>Steps to reproduce</u>:
 
@@ -149,7 +149,7 @@ The tax value rendering on the frontend is incorrect when multiple tax rules are
 
 <u>Expected results</u>:
 
-Each tax rate shows it's own tax amount:
+Each tax rate shows its own tax amount:
 
 ```
 "applied_taxes": [
