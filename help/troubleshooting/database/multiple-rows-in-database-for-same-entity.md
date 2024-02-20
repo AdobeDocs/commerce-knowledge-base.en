@@ -1,12 +1,12 @@
 ---
 title: There are multiple rows in database for the same entity
-description: This article provides a solution to the issue where in the database there are multiple rows for the same entity ID.
+description: This article provides a solution to the issue where there are multiple rows for the same entity ID in the database.
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
 ---
 # Multiple rows in the database for the same entity
 
-This article provides a solution to the issue where in the database there are multiple rows for the same entity ID.
+This article provides a solution to the issue where there are multiple rows for the same entity ID in the database.
 
 ## Affected products and versions:
 
@@ -14,7 +14,7 @@ This article provides a solution to the issue where in the database there are mu
 
 ## Issue
 
-In the database there are multiple rows for the same entity ID.
+There are multiple rows for the same entity ID in the database.
 
 For example, after receiving a list of records with duplicate entity IDs when you run this query:
 
