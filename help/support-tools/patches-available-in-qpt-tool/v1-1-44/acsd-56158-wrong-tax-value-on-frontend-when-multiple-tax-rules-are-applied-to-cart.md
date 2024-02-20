@@ -30,7 +30,7 @@ The tax value rendering in the GraphQL response is incorrect when multiple tax r
 <u>Steps to reproduce</u>:
 
 1. Create a customer with a US address.
-1. Navigate to the admin panel.
+1. Navigate to the Admin Panel.
 1. Create a product with a price of $100.
 1. Create two tax rates for the US address: one for 10% and the other for 5%.
 1. Configure two tax rules for USA from **[!UICONTROL Stores]** > **[!UICONTROL Taxes]** > **[!UICONTROL Tax Rule]**.
