@@ -172,7 +172,7 @@ Each tax rate shows its own tax amount:
 
 <u>Actual results</u>:
 
-Total tax amount returns for each rule:
+Total tax amount returned for each rule:
 
 ```
 "applied_taxes": [
