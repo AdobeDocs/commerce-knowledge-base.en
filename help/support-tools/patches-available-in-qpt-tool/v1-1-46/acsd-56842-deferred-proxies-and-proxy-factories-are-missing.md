@@ -32,30 +32,30 @@ The deferred proxies and proxy factories are missing after running `setup:di:com
 1. In the *[!UICONTROL etc]* folder of the module create a `di.xml` with this content
    
     ```xml
-    <?xml version="1.0"?>
-    <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-   <type name="Magento\Catalog\Model\ProductLink\CollectionProvider">
-       <arguments>
-           <argument name="providers" xsi:type="array">
-               <item name="crosssell" xsi:type="object">
+     <?xml version="1.0"?>
+      <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+         <type name="Magento\Catalog\Model\ProductLink\CollectionProvider">
+            <arguments>
+               <argument name="providers" xsi:type="array">
+                  <item name="crosssell" xsi:type="object">
                        Magento\Catalog\Model\ProductLink\CollectionProvider\Crosssell\Proxy
-               </item>
-               <item name="upsell" xsi:type="object">Magento\Catalog\Model\ProductLink\CollectionProvider\Upsell\Proxy</item>
-               <item name="related" xsi:type="object">Magento\Catalog\Model\ProductLink\CollectionProvider\Related\Proxy</item>
-           </argument>
-       </arguments>
-    </type>
-    <type name="Magento\Catalog\Model\Product">
-       <arguments>
-           <argument name="catalogProductStatus" xsi:type="object">
-           Magento\Catalog\Model\Product\Attribute\Source\Status\Proxy
-           </argument>
-           <argument name="productLink" xsi:type="object">
-           Magento\Catalog\Model\Product\Link\Proxy
-           </argument>
-       </arguments>
-    </type>
-    </config>
+                  </item>
+                    <item name="upsell" xsi:type="object">Magento\Catalog\Model\ProductLink\CollectionProvider\Upsell\Proxy</item>
+                      <item name="related" xsi:type="object">Magento\Catalog\Model\ProductLink\CollectionProvider\Related\Proxy</item>
+               </argument>
+            </arguments>
+          </type>
+             <type name="Magento\Catalog\Model\Product">
+                <arguments>
+                   <argument name="catalogProductStatus" xsi:type="object">
+                    Magento\Catalog\Model\Product\Attribute\Source\Status\Proxy
+                   </argument>
+                    <argument name="productLink" xsi:type="object">
+                      Magento\Catalog\Model\Product\Link\Proxy
+                    </argument>
+                </arguments>
+              </type>
+      </config>
     ```
 
 1. Set the [!UICONTROL Production] mode: `bin/magento deploy:mode:set production`.
