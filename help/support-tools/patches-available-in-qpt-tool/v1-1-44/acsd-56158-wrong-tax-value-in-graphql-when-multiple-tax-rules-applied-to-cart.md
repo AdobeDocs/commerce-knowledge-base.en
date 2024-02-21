@@ -1,11 +1,11 @@
 ---
-title: 'ACSD-56158: Wrong tax value in GraphQL response when multiple tax rules to applied cart'
+title: 'ACSD-56158: Wrong tax value in GraphQL response when multiple tax rules applied to cart'
 description: Apply the ACSD-56158 patch to fix the Adobe Commerce issue where the tax value rendering in the GraphQL response is incorrect when multiple tax rules are applied to the cart.
 feature: GraphQL, Taxes
 role: Admin, Developer
 ---
 
-# ACSD-56158: Wrong tax value in GraphQL response on applying multiple tax rules to cart
+# ACSD-56158: Wrong tax value in GraphQL response when multiple tax rules applied to cart
 
 The ACSD-56158 patch fixes the issue where the tax value rendering in the GraphQL response is incorrect when multiple tax rules are applied to the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56158. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
