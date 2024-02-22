@@ -24,7 +24,7 @@ The ACSD-52824 patch fixes the issue where payment method buttons ([!UICONTROL P
 
 ## Issue
 
-Payment method buttons incorrectly displayed for company customers despite being disabled in settings.
+Disabled payment methods are displayed for company customers.
 
 <u>Steps to reproduce</u>:
 
