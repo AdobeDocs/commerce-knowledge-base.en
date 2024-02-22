@@ -46,7 +46,7 @@ SELECT row_id, entity_id, created_in, updated_in FROM catalog_product_entity WHE
 
 ![multiple_rows_in_database.png](assets/multiple_rows_in_database.png)
 
-* The `created_in` and `updated_in` values should follow this pattern: the `created_in` value of the current row is equal to the `updated_in` value in the previous row. Also, the first row should contain `created_in = 1` and the last row should contain `updated_in = 2147483647`. (If there's only 1 row, you must see `created_in=1` and `updated_in=2147483647`).
+* The `created_in` and `updated_in` values should follow this pattern: The `created_in` value of the current row is equal to the `updated_in` value in the previous row. Also, the first row should contain `created_in = 1` and the last row should contain `updated_in = 2147483647`. (If there's only one row, you must see `created_in=1` and `updated_in=2147483647`).
 
 ### Why does the second DB entry (and all the next ones) appear in DB for the one and the same entity?
 
