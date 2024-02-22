@@ -26,7 +26,7 @@ b. NO – Complete the Advanced Reporting requirements for your site by followin
 
 Are multiple base currencies used (in orders and configuration)? Run this SQL command to obtain the current configuration: `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` .
 
-a. YES – You cannot use Advanced Reporting, as we only support one currency.  
+a. YES – If there are multiple rows returned by the query, you cannot use Advanced Reporting, as we only support one currency.  
 b. NO – Output shows only one currency. Example: `USD`. Have multiple base currencies ever been used (in orders)? Run this SQL command to obtain historical orders data:  
 `SELECT DISTINCT base_currency_code FROM sales_order;`. 
 **NOTE: This command requires a full table scan, so for tables with high numbers of records, this could have a performance impact whilst the query is executing** to obtain historical orders data.
