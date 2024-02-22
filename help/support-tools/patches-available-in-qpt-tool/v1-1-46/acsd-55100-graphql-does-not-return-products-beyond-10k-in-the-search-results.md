@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-55100: GraphQL does not return products beyond *10k* in the search results'
 description: Apply the ACSD-55100 patch to fix the Adobe Commerce issue where the GraphQL does not return products beyond *10k* in the search results.
-feature: GraphQL, Products
+feature: GraphQL, Products, Search 
 role: Admin, Developer 
 ---
 # ACSD-55100: GraphQL does not return products beyond *10k* in the search results
@@ -28,7 +28,7 @@ GraphQL does not return products beyond *10k* in the search results.
 
 <u>Prerequisites</u>:
 
-In case of **[!DNL OpenSearch]**, please make to use the latest available version. 
+In case of **[!DNL OpenSearch]**, ensure to use the latest available version. 
 
 To resolve the reported issue, the Point in Time functionality is introduced, which is available after **[!DNL OpenSearch]** 2.5.0 and requires version 2.2 of the [opensearch-project/opensearch-php] package. 
 
@@ -47,7 +47,7 @@ As a result, the system encounters the following error and returns null results 
 
 <u>Steps to reproduce</u>:
 
-1. Generate the catalog with *20k* products.
+1. Generate the catalog with *15k* products.
 1. Send the GraphQL:
 
 ```
@@ -99,12 +99,12 @@ As a result, the system encounters the following error and returns null results 
 <u>Expected results</u>:
 
 Total_count = *15k*
-It should be possible to get all products.
+It should be possible to show all the products.
 
 <u>Actual results</u>:
 
 Total_count = *10k*
-No possibility to get products behind this *10k* batch.
+No possibility to get products behind the *10k* batch.
 
 ## Apply the patch
 
