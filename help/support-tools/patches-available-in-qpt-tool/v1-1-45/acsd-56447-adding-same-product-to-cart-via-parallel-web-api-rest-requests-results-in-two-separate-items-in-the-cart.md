@@ -1,12 +1,12 @@
 ---
-title: "ACSD-56447: Adding same product to cart via parallel web API rest results requests results in two seperate items in the cart"
-description: Apply the ACSD-56447 patch to fix the Adobe Commerce issue where adding same product to cart via parallel web API rest requests result in two seperate items in the cart.
-feature: CMS
+title: "ACSD-56447: Adding same product to cart via parallel web REST API requests results in two separate items in the cart."
+description: Apply the ACSD-56447 patch to fix the Adobe Commerce issue where adding the same product to the cart via parallel web REST API requests results in two separate items in the cart.
+feature: REST
 role: Admin, Developer
 ---
-# ACSD-56447: Adding same product to cart via parallel web API rest results requests results in two seperate items in the cart.
+# ACSD-56447: Adding the same product to the cart via parallel web REST API results requests results in two separate items in the cart
 
-The ACSD-56447 patch fixes the issue where adding same product to cart via parallel web API rest results requests results in two seperate items in the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56447. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56447 patch fixes the issue where adding same product to cart via parallel web REST API results requests results in two separate items in the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56447. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,15 +24,15 @@ The ACSD-56447 patch fixes the issue where adding same product to cart via paral
 
 ## Issue
 
-Adding same product to cart via parallel web API rest results requests results in two seperate items in the cart. 
+Adding same product to cart via parallel web API REST results requests results in two separate items in the cart.
 
 <u>Steps to reproduce</u>:
 
-1. Generate customer token for making rest API calls request using Postman
-1. Create an shopping cart for this customer
-1. Use the token from the step #1 to create an empty cart for the customer.
-1. Use CURL to make two "addProductsToCart" requests running in parallel
-1. Follow the instructions from https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/
+1. Generate a customer token for making the *REST API* calls request using Postman.
+1. Create a shopping cart for the customer.
+1. Use the token from the step 1 to create an empty cart for the customer.
+1. Use **CURL** to make two *"AddProductsToCart"* requests running in parallel
+1. Follow the instructions: https://developer.adobe.com/commerce/webapi/REST/tutorials/orders/
 
 <u>Expected results</u>:
 
