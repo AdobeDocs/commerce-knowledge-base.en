@@ -34,7 +34,7 @@ Two methods to check for when the last deployment was performed:
 
 If the deployment has been completed successfully, the [!DNL SSL certificate] will be automatically renewed.
 
-If the deployment fails and you need assistance with resolving it, Submit a support ticket.
+If the deployment fails and you need assistance resolving it, [submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 ### Method 1: Use [!DNL magento-cloud] CLI {#meth2}
 
