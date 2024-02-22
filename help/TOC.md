@@ -772,7 +772,7 @@ breadcrumb-title: Commerce KB
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
     * [Integration Environment enhancement request - Pro and Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
-    * [Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure](/help/announcements/adobe-commerce-announcements/2021-holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
+    * [Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
     * [Upgrade Compatibility Tool 1.1.0 for Adobe Commerce](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
     * [Adobe SSL/TLS certificate requirements and clean up](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md)
     * [FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
