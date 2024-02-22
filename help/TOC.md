@@ -758,6 +758,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-56193: [!DNL Fastly/Varnish] cache not cleared for content staging update](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56193-fastly-cache-not-cleared-for-content-staging-update.md)
     * v1.1.45 {#v1-1-45}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
+        [ACSD-56447: acsd-56447-Adding same product to the cart via parallel web REST API requests results in two separate items in the cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56447-adding-same-product-to-cart-via-parallel-web-api-rest-requests-results-in-two-separate-items-in-the-cart.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
