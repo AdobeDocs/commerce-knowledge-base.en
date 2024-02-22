@@ -34,7 +34,7 @@ Where `$entityID = ID` of category/product/cart price rule/catalog price rule/CM
 
 This is the expected behavior. The multiple rows are created by the Content Staging functionality:
 
-* If you specify a Start Date without an End Date: there will be at least 2 rows with the same entity/rule/page ID - one row will indicate the original state of the entity (the row in which `created_in=1`), one row indicating the **End of the Scheduled Update**.
+* If you specify a start date without an end date, there will be at least two rows with the same entity/rule/page ID. One row will indicate the original state of the entity (the row in which `created_in=1`), and one row will indicate the *End of the Scheduled Update*.
 
 * If you specify a Start Date with an End Date: there will be at least 3 rows with the same entity/rule/page ID - one row will indicate the original state of the entity (the row in which `created_in=1`), one row for the **Start of the Scheduled Update**, one row for the **End of the Scheduled Update**.
 
