@@ -56,7 +56,7 @@ A problem would only occur if the records have the same values for the `created_
 
 ## Solution 
 
-This is the expected behavior - it can only lead to issues if there are discrepancies between the rows.
+This is the expected behavior and will only lead to issues if there are discrepancies between the rows.
 
 ## Related reading
 
