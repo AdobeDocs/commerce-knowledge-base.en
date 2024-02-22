@@ -28,7 +28,7 @@ The [!UICONTROL Visual Merchandising] grid does not display the correct stock wh
 
 <u>Steps to reproduce</u>:
 
-1. Create a new Source.
+1. Create a new source.
 1. Create a new Stock.
 1. Create two products:
    * One product with the custom stock only
