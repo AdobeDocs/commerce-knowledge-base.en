@@ -42,7 +42,7 @@ In the *[!UICONTROL All Store Views]* scopes, the product with custom stock does
 
 <u>Expected Results</u>:
 
-The grid does not show only the default stock information since the customer can choose to not rely on the default stock with MSI functionality. It will show all stock information if the scope is *All Store Views*.
+The grid shows all stock information if the scope is *[!UICONTROL All Store Views]*.
 
 ## Apply the patch
 
