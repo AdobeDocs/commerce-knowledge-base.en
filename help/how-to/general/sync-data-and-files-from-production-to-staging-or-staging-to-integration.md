@@ -28,4 +28,4 @@ To sync files from one environment to another, use the `rsync` command. For more
 
 >[!NOTE]
 >
->If you want to sync the code from Integration to Staging, you must do it from the Integration branch. For steps, see [Sync from the environment’s parent](/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=en#sync-an-environment) in our developer documentation.
+>If you want to sync the code from Integration to Staging, you must do it from the Integration branch. For steps, see [Sync from the environment’s parent](/docs/commerce-cloud-service/user-guide/project/console-branches.html#sync-an-environment) in our developer documentation.
