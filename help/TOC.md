@@ -763,7 +763,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-56886: Configurable product becomes out of stock when child products disabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56886-configurable-product-becomes-out-of-stock-when-child-products-are-disabled.md)
         * [ACSD-56515: Admin with permissions cannot edit [!UICONTROL Dynamic Block]](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56515-admin-with-permissions-cannot-edit-dynamic-block.md)
         * [ACSD-56616: Storefront display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-trigger-bundle-display.md)
-        * [ACSD-52824: Inconsistent payment method display for company customers](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-52824-payment-method-display-dicrepancy.md)
+        * [ACSD-52824: Disabled payment methods displayed for company customers](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-52824-payment-method-display-dicrepancy.md)
     * v1.1.46 {#v1-1-46}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.46](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
