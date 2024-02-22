@@ -38,7 +38,7 @@ The [!UICONTROL Visual Merchandising] grid does not display the correct stock wh
 
 <u>Actual Results</u>:
 
-In the *All store views Scopes* the product with custom stock does not show any quantity, only when the *Default Store View* scope is selected the custom stock shows the quantity of the product.
+In the *[!UICONTROL All Store Views]* scopes, the product with custom stock does not show any quantity. It is only when the *[!UICONTROL Default Store View]* scope is selected the custom stock shows the quantity of the product.
 
 <u>Expected Results</u>:
 
