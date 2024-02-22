@@ -32,7 +32,7 @@ Disabled payment methods are displayed for company customers.
 1. Configure [!DNL Braintree] and enable [!DNL Apple Pay] and [!DNL Google Pay] through [!DNL Braintree].
 1. Navigate to **[!UICONTROL Customers]** > **[!UICONTROL Companies]** and create a new company.
 1. Click on **[!UICONTROL Advanced Settings]**, locate the **[!UICONTROL Applicable Payment Methods]** and choose **[!UICONTROL Selected Payment Methods]**.
-1. Under **[!UICONTROL Selected Payment Methods]**, choose payment methods that are enabled and are not associated with *[!DNL PayPal Express Checkout]*, *[!DNL Apple Pay]*, or *[!DNL Google Pay]. For example, select **[!UICONTROL Check/Money Order]**.
+1. Under **[!UICONTROL Selected Payment Methods]**, choose payment methods that are enabled and are not associated with *[!DNL PayPal Express Checkout]*, *[!DNL Apple Pay]*, or *[!DNL Google Pay]*. For example, select **[!UICONTROL Check/Money Order]**.
 1. After selecting the appropriate payment methods, create a new customer and associate them with the previously created company.
 1. Log in with the customer account associated with the company and proceed to add items to the cart.
 1. Pay attention to the mini cart, shopping cart, and the payment step during the checkout process.
