@@ -22,7 +22,7 @@ For example, after receiving a list of records with duplicate entity IDs when yo
 SELECT * FROM $entityTable WHERE $column = <$entityID> ORDER BY created_in;
 ```
 
-Where `$entityID = ID` of category/product/cart price rule/catalog price rule/cms page.
+Where `$entityID = ID` of category/product/cart price rule/catalog price rule/CMS page.
 
 |     Entity       |      $entityTable                 |      $column     |
 |------------------|-----------------------------------|------------------|
