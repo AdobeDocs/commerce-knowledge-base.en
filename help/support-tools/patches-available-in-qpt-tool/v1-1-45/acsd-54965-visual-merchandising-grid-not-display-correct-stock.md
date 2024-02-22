@@ -34,7 +34,7 @@ The [!UICONTROL Visual Merchandising] grid does not display the correct stock wh
    * One product with the custom stock only
    * One product with the default stock only
 1. Add these products to a category.
-1. Go to the [!UICONTROL visual Merchandising] grid (Products in Category).
+1. Go to the [!UICONTROL visual Merchandising] grid (*[!UICONTROL Products in Category]*).
 
 <u>Actual Results</u>:
 
