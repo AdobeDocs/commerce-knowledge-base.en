@@ -32,7 +32,7 @@ Where `$entityID = ID` of category/product/cart price rule/catalog price rule/CM
 
 ## Cause
 
-This is the expected behavior - the multiple rows are created by the Content Staging functionality:
+This is the expected behavior. The multiple rows are created by the Content Staging functionality:
 
 * If you specify a Start Date without an End Date: there will be at least 2 rows with the same entity/rule/page ID - one row will indicate the original state of the entity (the row in which `created_in=1`), one row indicating the **End of the Scheduled Update**.
 
