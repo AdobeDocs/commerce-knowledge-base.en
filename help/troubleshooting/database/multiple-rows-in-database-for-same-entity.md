@@ -48,7 +48,7 @@ SELECT row_id, entity_id, created_in, updated_in FROM catalog_product_entity WHE
 
 * The `created_in` and `updated_in` values should follow this pattern: The `created_in` value of the current row is equal to the `updated_in` value in the previous row. Also, the first row should contain `created_in = 1` and the last row should contain `updated_in = 2147483647`. (If there's only one row, you must see `created_in=1` and `updated_in=2147483647`).
 
-### Why does the second DB entry (and all the next ones) appear in DB for the one and the same entity?
+### Why does the second DB entry (and all the next ones) appear in DB for the same entity?
 
 * The second DB record (and, possibly, the next ones) for the affected entity means there have been Content Staging updates scheduled using the `Magento_Staging` module, which makes an additional record for an entity in the respective tables.
 
