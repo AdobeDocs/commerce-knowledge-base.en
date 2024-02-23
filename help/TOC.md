@@ -794,6 +794,7 @@ breadcrumb-title: Commerce KB
 * Troubleshooting {#troubleshooting}
   * [Troubleshooting overview](/help/troubleshooting/overview.md)
   * Database {#database}
+    * [Multiple rows in database for same entity](/help/troubleshooting/database/multiple-rows-in-database-for-same-entity.md)
     * [Checking slow queries and processes MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
     * [Database upload loses connection to MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
     * [Changes in the database are not reflected on the storefront](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
