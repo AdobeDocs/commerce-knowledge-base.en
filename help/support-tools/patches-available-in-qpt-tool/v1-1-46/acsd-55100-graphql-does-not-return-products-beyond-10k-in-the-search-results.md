@@ -106,7 +106,7 @@ You should be able to show all of the products.
 <u>Actual results</u>:
 
 Total_count = *10k*
-No possibility to get products behind the *10k* batch.
+You can't get any more products to show after the *10k* batch.
 
 ## Apply the patch
 
