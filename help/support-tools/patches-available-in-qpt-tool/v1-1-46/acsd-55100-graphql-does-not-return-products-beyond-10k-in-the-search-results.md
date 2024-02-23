@@ -50,7 +50,7 @@ To resolve the issue, include the following line in your main `composer.json` fi
 <u>Steps to reproduce</u>:
 
 1. Generate the catalog with *15k* products.
-1. Send the GraphQL:
+1. Send the [!DNL GraphQL]:
 
 ```
     query {
