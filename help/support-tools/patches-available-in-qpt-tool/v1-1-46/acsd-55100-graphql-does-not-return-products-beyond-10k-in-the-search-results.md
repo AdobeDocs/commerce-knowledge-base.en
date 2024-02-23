@@ -4,7 +4,7 @@ description: Apply the ACSD-55100 patch to fix the Adobe Commerce issue where th
 feature: GraphQL, Products, Search 
 role: Admin, Developer 
 ---
-# ACSD-55100: GraphQL does not return products beyond *10k* in the search results
+# ACSD-55100: [!DNL GraphQL] doesn't return products beyond 10k in search results
 
 The ACSD-55100 patch fixes the issue where the GraphQL does not return products beyond *10k* in the search results. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.46 is installed. The patch ID is ACSD-55100. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7. 
 
