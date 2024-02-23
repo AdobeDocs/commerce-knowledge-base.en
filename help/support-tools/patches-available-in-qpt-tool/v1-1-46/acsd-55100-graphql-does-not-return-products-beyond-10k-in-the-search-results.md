@@ -32,7 +32,7 @@ In case of **[!DNL OpenSearch]**, ensure that you are using the latest available
 
 To resolve the reported issue, the Point in Time functionality is introduced, which is available after **[!DNL OpenSearch]** 2.5.0 and requires version 2.2 of the `opensearch-project/opensearch-php` package. 
 
-However, there is a conflict with the [magento/magento-cloud-metapackage], which specifies a dependency on the [opensearch-project/opensearch-php] package that should be < 2.0.1.  
+However, there is a conflict with the `magento/magento-cloud-metapackage`, which specifies a dependency on the `opensearch-project/opensearch-php` package that should be less than version 2.0.1.  
 
 
 This dependency prevents updating the [opensearch-project/opensearch-php] package to the latest version 2.2. 
