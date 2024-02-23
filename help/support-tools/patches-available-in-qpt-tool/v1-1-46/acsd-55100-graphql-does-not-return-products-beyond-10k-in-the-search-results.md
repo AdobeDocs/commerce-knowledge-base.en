@@ -41,7 +41,9 @@ As a result, the system encounters the following error and returns null results 
 
 `Namespace [createPointInTime] not found in /vendor/opensearch-project/opensearch-php/src/OpenSearch/Client.php:135`
 
- As the existing dependency makes it challenging to directly add a version to the composer.json file and update the [opensearch-project/opensearch-php] package to version 2.2, to resolve the issue, kindly include the following line in your main `composer.json` file under require block. Afterward, redeploy to update the problematic package to the latest version.
+The existing dependency makes it challenging to directly add a version to the `composer.json` file and update the `opensearch-project/opensearch-php` package to version 2.2.
+
+To resolve the issue, include the following line in your main `composer.json` file under the require block. Afterward, redeploy to update the problematic package to the latest version.
 
 `"opensearch-project/opensearch-php": "2.2.0 as 2.0.0",`
 
