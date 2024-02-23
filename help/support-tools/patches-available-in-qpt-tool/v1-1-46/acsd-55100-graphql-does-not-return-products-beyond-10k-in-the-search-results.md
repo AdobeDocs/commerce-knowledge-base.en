@@ -28,7 +28,7 @@ The ACSD-55100 patch fixes the issue where [!DNL GraphQL] does not return produc
 
 <u>Prerequisites</u>:
 
-In case of **[!DNL OpenSearch]**, ensure to use the latest available version. 
+In case of **[!DNL OpenSearch]**, ensure that you are using the latest available version. 
 
 To resolve the reported issue, the Point in Time functionality is introduced, which is available after **[!DNL OpenSearch]** 2.5.0 and requires version 2.2 of the `opensearch-project/opensearch-php` package. 
 
