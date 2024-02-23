@@ -767,6 +767,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-56616: Storefront display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-trigger-bundle-display.md)
     * v1.1.46 {#v1-1-46}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.46](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/overview.md)
+        * [ACSD-46767: [!UICONTROL Category] page caches invalidate when the stock quantity changes](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-46767-category-page-caches-invalidate-when-the-stock-quantity-changes.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
