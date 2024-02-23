@@ -23,22 +23,22 @@ The ACSD-46767 patch fixes the issue where the [!UICONTROL Category] page caches
 
 ## Issue
 
-Invisible [!DNL reCAPTCHA] fails during checkout, which prevents order placement. 
+[!UICONTROL Category] page caches invalidate when the stock quantity changes. 
 
 <u>Steps to reproduce</u>:
 
-1. Enable any type of [!DNL reCAPTCHA] for gift card on checkout page.
-1. Add product to cart and go to checkout.
-1. Expand the gift card form and fill in a valid gift card coupon
-1. Click on see balance and apply button.
+1. Create few products and add them to the same category.
+1. Open category page on the frontend to ensure the page is cached.
+1. Place the order with one of the products from the category (product quantity is changed, but product is still in stock).
+1. Open category page on the frontend again.
 
 <u>Actual Results</u>:
 
-Error message shows up: *[!DNL reCAPTCHA] validation failed, please try again*.
+Page is not loaded from the cache, it is re-generated.
 
 <u>Expected Results</u>:
 
-Gift card should be applied successfully.
+Page should be loaded from cache.
 
 ## Apply the patch
 
