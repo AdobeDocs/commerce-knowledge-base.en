@@ -101,7 +101,7 @@ To resolve the issue, include the following line in your main `composer.json` fi
 <u>Expected results</u>:
 
 Total_count = *15k*
-It should be possible to show all the products.
+You should be able to show all of the products.
 
 <u>Actual results</u>:
 
