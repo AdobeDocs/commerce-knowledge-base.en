@@ -24,7 +24,7 @@ The ACSD-55100 patch fixes the issue where [!DNL GraphQL] does not return produc
 
 ## Issue
 
-GraphQL does not return products beyond *10k* in the search results.
+[!DNL GraphQL] does not return products beyond *10k* in the search results.
 
 <u>Prerequisites</u>:
 
