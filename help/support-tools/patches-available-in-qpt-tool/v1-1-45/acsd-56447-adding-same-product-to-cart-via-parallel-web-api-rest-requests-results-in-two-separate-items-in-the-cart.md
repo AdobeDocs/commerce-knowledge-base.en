@@ -1,7 +1,7 @@
 ---
-title: "ACSD-56447: Adding same product to cart via parallel web REST API requests results in two separate items in the cart."
-description: Apply the ACSD-56447 patch to fix the Adobe Commerce issue where adding the same product to the cart via parallel web REST API requests results in two separate items in the cart.
-feature: REST
+title: "ACSD-56447: Adding the same product to cart via parallel web REST API results requests results in two separate items in the cart."
+description: Apply the ACSD-56447 patch to fix the Adobe Commerce issue where adding the same product to the cart via parallel web REST API results requests results in two separate items in the cart
+feature: Shopping cart, REST
 role: Admin, Developer
 ---
 # ACSD-56447: Adding the same product to the cart via parallel web REST API results requests results in two separate items in the cart
@@ -28,7 +28,7 @@ Adding same product to cart via parallel web API REST results requests results i
 
 <u>Steps to reproduce</u>:
 
-1. Generate a customer token for making the *REST API* calls request using Postman.
+1. Generate a customer token for making the REST API calls request using Postman.
 1. Create a shopping cart for the customer.
 1. Use the token from the step 1 to create an empty cart for the customer.
 1. Use **CURL** to make two *"AddProductsToCart"* requests running in parallel
