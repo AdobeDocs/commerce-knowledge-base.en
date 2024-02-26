@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-56447: Adding the same product to the cart via parallel web REST API requests results in two separate items in the cart
 
-The ACSD-56447 patch fixes the issue where adding same product to cart via parallel web REST API results requests results in two separate items in the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56447. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56447 patch fixes the issue where adding the same product to the cart via parallel web REST API requests results in two separate items in the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56447. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
