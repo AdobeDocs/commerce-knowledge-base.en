@@ -49,4 +49,4 @@ For steps refer to [Commerce Identity Manager](https://experienceleague.adobe.co
 
 ## Related reading
 
-- [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento.com-and-accounts.magento.cloud-account-logins.md)
+- [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
