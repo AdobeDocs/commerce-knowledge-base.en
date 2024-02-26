@@ -859,7 +859,7 @@ breadcrumb-title: Commerce KB
     * [Composer install command overides .gitignore file, Adobe Commerce](/help/troubleshooting/installation-and-upgrade/custom-gitignore-file-overridden.md)
     * [During installation, PHP date warning](/help/troubleshooting/installation-and-upgrade/during-installation-php-date-warning.md)
     * [During installation, Reflection Exception error](/help/troubleshooting/installation-and-upgrade/during-installation-reflection-exception-error.md)
-    * ['Area code is not set' error when running setup:updgrade](/help/troubleshooting/installation-and-upgrade/area-code-is-not-set-error-when-running-setup-updgrade.md)
+    * ['Area code is not set' error when running setup:upgrade](/help/troubleshooting/installation-and-upgrade/area-code-is-not-set-error-when-running-setup-upgrade.md)
     * [Installation fails; cannot create install.log](/help/troubleshooting/installation-and-upgrade/installation-fails-cannot-create-install-log.md)
     * [Exceptions during installation](/help/troubleshooting/installation-and-upgrade/exceptions-during-installation.md)
     * [Errors installing optional sample data](/help/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data.md)
