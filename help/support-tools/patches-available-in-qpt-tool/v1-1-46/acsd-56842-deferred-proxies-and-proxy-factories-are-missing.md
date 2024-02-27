@@ -29,7 +29,7 @@ The deferred proxies and proxy factories are missing after running `setup:di:com
 <u>Steps to reproduce</u>:
 
 1. Created a custom module named *Magento_CustomModule*.
-1. In the *[!UICONTROL etc]* folder of the module create a `di.xml` with this content
+1. In the *[!UICONTROL etc]* folder of the module, create a `di.xml` with this content:
    
     ```xml
      <?xml version="1.0"?>
