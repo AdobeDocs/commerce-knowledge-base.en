@@ -70,7 +70,7 @@ The deferred proxies and proxy factories are missing after running `setup:di:com
 
 <u>Actual results</u>:
 
-In the generated folder, the Proxy file is generated for proxy arguments that are given without the line break only and not for the arguments that are given with a line break.
+In the generated folder, the proxy file is generated for proxy arguments that are given without a line break, and not for the arguments that are given with a line break.
 
 ## Apply the patch
 
