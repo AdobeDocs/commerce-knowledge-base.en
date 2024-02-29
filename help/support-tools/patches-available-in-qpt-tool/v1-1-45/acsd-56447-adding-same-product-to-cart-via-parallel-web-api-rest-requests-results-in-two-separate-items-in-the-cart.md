@@ -31,7 +31,7 @@ Adding the same product to the cart via parallel web REST API requests results i
 1. Generate a customer token for making the REST API calls request using [!DNL Postman].
 1. Create a shopping cart for the customer.
 1. Use the token generated above to create an empty cart for the customer.
-1. Use CURL to make two *'AddProductsToCart'* requests running in parallel. Follow the instructions: https://developer.adobe.com/commerce/webapi/REST/tutorials/orders/
+1. Use CURL to make two `AddProductsToCart` requests running in parallel. Follow the instructions in the [Order processing tutorial]( https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/) in the developer documentation.
 
 <u>Expected results</u>:
 
