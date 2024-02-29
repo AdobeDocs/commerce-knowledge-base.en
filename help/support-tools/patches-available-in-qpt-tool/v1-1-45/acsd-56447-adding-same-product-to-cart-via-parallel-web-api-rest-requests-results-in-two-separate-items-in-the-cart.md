@@ -39,7 +39,7 @@ Items with multiple quantities are shown in one line.
 
 <u>Actual results</u>:
 
-Same SKU in multiple line items. 
+The same SKUs are shown in multiple line items. 
 
 ## Apply the patch
 
