@@ -43,7 +43,7 @@ This article covers the essentials of backing up your environments with snapshot
 
 ## Restore an environment snapshot
 
-To restore an existing snapshot (on the supported environment: Integration, Staging, Production on Starter plan; or Integration on Pro plan) follow the steps in [Snapshots and backup management: Restore a snapshot](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot) in our developer documentation.
+To restore an existing snapshot (on the supported environment: Integration, Staging, Production on Starter plan or Integration on Pro plan), follow the steps in [Snapshots and backup management: Restore a snapshot](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot) in our developer documentation.
 
 ## Database (DB) backup
 
