@@ -762,7 +762,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-56790: Move out of stock to bottom option does not work while sorting products in the Visual Merchandiser](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56790-move-out-of-stock-to-bottom-option-does-not-work-while-sorting-products-in-the-visual-merchandiser.md)
     * v1.1.45 {#v1-1-45}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
-        [ACSD-56447: Adding same product to the cart via parallel web REST API requests results in two separate items in the cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56447-adding-same-product-to-cart-via-parallel-web-api-rest-requests-results-in-two-separate-items-in-the-cart.md)
+        [ACSD-56447: Adding same product to cart via parallel web API REST requests results in two separate items in cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56447-adding-same-product-to-cart-via-parallel-web-api-rest-requests-results-in-two-separate-items-in-the-cart.md)
         * [ACSD-56886: Configurable product becomes out of stock when child products disabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56886-configurable-product-becomes-out-of-stock-when-child-products-are-disabled.md)
         * [ACSD-56515: Admin with permissions cannot edit [!UICONTROL Dynamic Block]](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56515-admin-with-permissions-cannot-edit-dynamic-block.md)
         * [ACSD-56616: Storefront display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-trigger-bundle-display.md)
