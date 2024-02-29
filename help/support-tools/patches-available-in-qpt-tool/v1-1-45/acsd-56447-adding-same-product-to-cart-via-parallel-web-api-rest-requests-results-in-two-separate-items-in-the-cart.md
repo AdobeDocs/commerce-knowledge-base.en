@@ -24,7 +24,7 @@ The ACSD-56447 patch fixes the issue where adding the same product to the cart v
 
 ## Issue
 
-Adding same product to cart via parallel web API REST results requests, results in two separate items in the cart.
+Adding the same product to the cart via parallel web REST API requests results in two separate items in the cart.
 
 <u>Steps to reproduce</u>:
 
