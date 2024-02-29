@@ -35,7 +35,7 @@ Adding the same product to the cart via parallel web REST API requests results i
 
 <u>Expected results</u>:
 
-Item with multiple quantities shown in one line.
+Items with multiple quantities are shown in one line.
 
 <u>Actual results</u>:
 
