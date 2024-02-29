@@ -31,8 +31,8 @@ The [!UICONTROL Visual Merchandising] grid does not display the correct stock wh
 1. Create a new source.
 1. Create a new stock.
 1. Create two products:
-   * One product with the custom stock only
-   * One product with the default stock only
+   * One product with the custom stock only.
+   * One product with the default stock only.
 1. Add these products to a category.
 1. Go to the [!UICONTROL visual Merchandising] grid (*[!UICONTROL Products in Category]*).
 
