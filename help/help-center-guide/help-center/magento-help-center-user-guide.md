@@ -23,7 +23,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
     * [Help Center start page](#submit-ticket-help-center-start-page)
     * [Magento Account page](#submit-ticket-magento-account-page)
-    * [Magento Cloud Account page](#submit-ticket-magento-cloud-account-page)
+    * [Cloud Console](#submit-ticket-magento-cloud-account-page)
     * [Information in your support ticket](#info-in-support-ticket)
     * ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](#no-submit-link)
     * [*"Please verify your email address"* error on Magento Account page](#verify-email-address)
@@ -55,7 +55,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 ## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
 
-The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also 
+The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also where you can review troubleshooting articles.
 
 ## SUPPORT TICKETS {#support-tickets}
 
@@ -107,16 +107,17 @@ To submit a new support ticket using your Magento Account page, follow these ste
 1. Fill in the fields.
 1. Click **Submit**.
 
-#### Magento Cloud Account page {#submit-ticket-magento-cloud-account-page}
+#### Cloud Console {#submit-ticket-magento-cloud-account-page}
 
-To submit a new support ticket using your Magento Cloud Account page, follow these steps:
+To submit a new support ticket using the Cloud Console, follow these steps:
 
-1. Log in to your [Magento Cloud Account](https://account.magento.com/cloud/customer/login/).
-1. Click the **Support** link at the top of the page.
-1. The Help Center start page loads for you.
-1. Click **Submit a ticket** in the upper-right corner.
+1. Log in to the [Cloud Console](https://console.adobecommerce.com).
+1. Select **[!UICONTROL Support]** in the user menu.
+1. The **[!UICONTROL My Tickets]** page loads.
+1. Click **[!UICONTROL Submit a ticket]** in the upper-right corner.
 1. Fill in the fields.
 1. Click **Submit**.
+1. Click **[!UICONTROL Submit]**.
 
 #### Information in your support ticket {#info-in-support-ticket}
 
@@ -195,7 +196,7 @@ The solution is to validate your email address:
 
 >[!NOTE]
 >
->This only applies to the email validation link from https://account.magento.com (Magento Account page). If you are not receiving an email validation link from https://accounts.magento.cloud/user (Cloud Account page), please [submit a support ticket using the standard process](#submit-ticket).
+>This only applies to the email validation link from https://account.magento.com (Magento Account page).
 
 ### Ticket submission form: merchant is not displayed in Organization drop-down {#merchant-not-displayed}
 
@@ -302,6 +303,10 @@ You may add emails of the persons who do not have a Magento Account or a Zendesk
 
 To add several emails to CC:
 
+>[!NOTE]
+>
+>The user in CC: must have an existing account at https://account.magento.com. If not, they must first create one at https://account.adobe.com and log in to https://account.magento.com with that account.
+
 1. Enter the email.
 1. Press *Space* on your keyboard to save the entered email. The email appears in a gray frame.    
     ![hc_cc_emails.png](assets/hc_cc_emails.png)    
@@ -333,11 +338,11 @@ Please specify your deployment method:
 
 #### Cloud Project URL
 
-Please provide the URL for the Adobe Commerce Cloud Project Web UI, for example, `https://<region>.magento.cloud/projects/<project-key>`. If you have access to the [Onboarding UI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html), please make sure that you provide the Cloud Project Web URL specified at `https://cloud.magento.com/project/<xyz>/develop/infrastructure` (where `<xyz>` is the unique onboarding project ID), not the URL to the Onboarding UI itself.
+Please provide the URL for the Cloud Console project, for example, `https://console.adobecommerce.com/<owner-user-name>/<project-ID>`.
 
 Another method to obtain the Project URL is as follows:
 
-1. Log in to https://accounts.magento.cloud/user.
+1. Log in to the [Cloud Console](https://console.adobecommerce.com).
 1. Click on the appropriate project.
 1. Copy the URL.
 
@@ -384,7 +389,7 @@ This field appears when your account is associated with more than one organizati
 
 >[!WARNING]
 >
->You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization. 
+>You must ensure that you have selected the correct organization. A third party who is not related to the organization would be able to view potentially sensitive and proprietary information, if you select the wrong organization.
 
 >[!NOTE]
 >
@@ -408,7 +413,7 @@ For Partners: **Merchant Name** is the name of your Customer.
 
 #### Project URL (Commerce Cloud only)
 
-Link to your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
+Link to the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
 #### Steps to reproduce (Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure only)
 
@@ -439,7 +444,7 @@ Include a short overview of your problem (for example, *Error 404 on all pages* 
 
 Please select the Adobe Commerce version you are requesting help with. All supported versions of Adobe Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
 
-To find the version of your Adobe Commerce (cloud infrastructure), scroll down your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) page and check the lower-left corner.
+To find the version of your Adobe Commerce (cloud infrastructure), scroll down the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) page and check the lower-middle of the window.
 
 ![Contact reason set to Adobe Commerce Cloud Application and Adobe Commerce Application Contact Reason set to Live Search](assets/magento-env-id.png)
 
@@ -479,7 +484,10 @@ To add a comment to the conversation, follow these steps:
     ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)
 
 1. To add a person to your comment, specify the email in the **CC** field of the comment field.
-
+   >[!NOTE]
+   >
+   >The user in CC: must have an existing account at https://account.magento.com. If not, they must first create one at https://account.adobe.com and log in to https://account.magento.com with that account.
+    
     ![hc_conversation-write.png](assets/hc_conversation-write.png)
 
 1. Once you are finished with your comment, click **Submit**.
@@ -541,7 +549,7 @@ After providing shared access for a new user, the related information is availab
 
 <u>Cause</u>
 
-If you have/had an Adobe Commerce Cloud project and had added a user to the project, they would have been automatically granted Shared Access on the Project Owner's MAGE ID. This would normally be indicated in the **[!UICONTROL Share Name]** column, showing *Cloud Shared Access from MAG[XYZ]*. 
+If you have/had an Adobe Commerce Cloud project and had added a user to the project, they would have been automatically granted Shared Access on the Project Owner's MAGE ID. This would normally be indicated in the **[!UICONTROL Share Name]** column, showing *Cloud Shared Access from MAG[XYZ]*.
 
 If the DELETE link is missing, that means that Shared Access was automatically granted through Commerce Cloud.
 
@@ -550,6 +558,13 @@ If the DELETE link is missing, that means that Shared Access was automatically g
 It's not possible to delete the list of Shared Access users with the Share Name of *Cloud Shared Access from MAG[XYZ]* if the Shared Access wasn't added/given on this page. These are retained for informational/audit purposes.
 
 However, once you have revoked the permissions on those Shared Access users, they will no longer have that access.
+
+1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
+1. In the panel on the left, under *[!UICONTROL Shared Access]*, choose **[!UICONTROL Manage Permissions]**.
+1. Find the user to revoke shared access from and click **[!UICONTROL Edit]** in the user's row (*[!UICONTROL Actions]* column).
+1. Uncheck all resources under *[!UICONTROL Grant Account Permissions]*.
+
+![image](https://git.corp.adobe.com/storage/user/38345/files/2d42fa60-559f-4697-a3cf-287c7e765405)
 
 For more information, please refer to the [Manage User Access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-project-web-interface) documentation on our Commerce on Cloud Infrastructure Guide.
 

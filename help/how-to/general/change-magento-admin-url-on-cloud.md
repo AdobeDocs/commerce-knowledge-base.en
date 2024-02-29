@@ -16,26 +16,25 @@ Read the steps: [Using a Custom Admin URL > Change from the Admin](https://exper
 
 ### Integration environment
 
-From your [Project Web Interface](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html), add a new variable with:
+From the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html), add a new variable with:
 
  **Name:** ADMIN\_URL **Value:** new Admin URL
 
 * For detailed steps, see [add environment variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html#configure-environment) in our developer documentation.
 * Also refer to [environment variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in our developer documentation.
 
-### When Staging and Production are not available in Project Web Interface
+### When Staging and Production are not available in the Cloud Console
 
  [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to add the ADMIN\_URL variable for your Staging or Production environment.
 
-If Staging and Production are accessible from your Project Web Interface, add the Environment Variable as described in the *Integration environment* section above.
+If Staging and Production are accessible from the Cloud Console, add the Environment Variable as described in the *Integration environment* section above.
 
 ### Add variables using Cloud CLI
 
-See [Add environment variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) in our developer documentation for detailed steps.
+You can add the ADMIN\_URL variable using the following Cloud CLI command (for main):
 
-We don't recommend adding **global** variables via Cloud CLI (the `magento-cloud project:variable:set <name> <value>` command) since such global variables:
+`magento-cloud variable:update ADMIN_URL --value newAdmin_A8v10 -e master --inheritable false`
 
-* get inherited by your Staging/Production environments (if these are included in your Project Web Interface)
-* trigger the undesired redeploy process on all branches/environments of your project
+For more detailed instructions, refer to [Change the Admin URL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#change-the-admin-url) in the Admin variables topic in the Commerce on Cloud Infrastructure Guide.
 
-We recommend adding environment variables for every branch/environment using the `magento-cloud variable:set` command.
+Be aware that using the Cloud CLI to change the ADMIN\_URL variable triggers a redeployment of the environment. Variables are inheritable by default; to prevent inheritance, use the Cloud CLI command options to indicate that you do not want the variable value inherited by child environments. Refer to the [Visibility](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/variable-levels.html#visibility) topic in Variable levels in the Commerce on Cloud Infrastructure Guide. 
