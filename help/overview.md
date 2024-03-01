@@ -33,7 +33,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56790-move-out-of-stock-to-bottom-option-does-not-work-while-sorting-products-in-the-visual-merchandiser.html">ACSD-56790: The <b>move out of stock to bottom</b> option does't work when sorting products in [!DNL Visual Merchandiser]:</a> The ACSD-56790 patch fixes the issue where the move out of stock to bottom option does not work while sorting products in the Visual Merchandiser. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56790-move-out-of-stock-to-bottom-option-does-not-work-while-sorting-products-in-the-visual-merchandiser.html">ACSD-56790: The <b>move out of stock to bottom</b> option doesn't work when sorting products in [!DNL Visual Merchandiser]:</a> The ACSD-56790 patch fixes the issue where the move out of stock to bottom option does not work while sorting products in the Visual Merchandiser. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed.
     </td>
     <td>New article</td>
     <td>February 28, 2024</td>
