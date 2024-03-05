@@ -1,8 +1,8 @@
 ---
 title: 'ACSD-54656: Invisible [!DNL reCAPTCHA] fails during checkout, which prevents order placement'
 description: Apply the ACSD-54656 patch to fix the Adobe Commerce issue where the invisible [!DNL reCAPTCHA] fails during checkout, which prevents order placement.
-feature: Categories
-role: Checkout, Gift
+feature: Checkout, Gift
+role: Admin, Developer
 ---
 # ACSD-54656: Invisible [!DNL reCAPTCHA] fails during checkout, which prevents order placement.
 
