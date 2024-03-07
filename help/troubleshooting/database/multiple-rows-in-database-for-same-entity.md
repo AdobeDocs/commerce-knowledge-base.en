@@ -3,6 +3,7 @@ title: There are multiple rows in database for the same entity
 description: This article provides a solution to the issue where there are multiple rows for the same entity ID in the database.
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
+exl-id: 09d5c321-9c45-4041-b6f6-831efca0977e
 ---
 # Multiple rows in the database for the same entity
 
@@ -61,4 +62,4 @@ This is the expected behavior and will only lead to issues if there are discrepa
 ## Related reading
 
 * [Changes to categories are not being saved](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html) in our support knowledge base.
-* [Duplicate entries in the catalogrule table after editing the end date of a schedule update](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html) in our support knowledge base. 
+* [Duplicate entries in the catalogrule table after editing the end date of a schedule update](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html) in our support knowledge base.
