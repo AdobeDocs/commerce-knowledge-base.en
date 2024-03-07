@@ -1,19 +1,19 @@
 ---
-title: 'ACSD-56515: Admin with website-level permissions cannot edit [!UICONTROL Dynamic Block]'
-description: Apply the ACSD-56515 patch to fix the Adobe Commerce issue where the admin with website-level permissions cannot add or edit the [!UICONTROL Dynamic Block].
-feature: Roles/Permissions, Admin Workspace
+title: 'ACSD-56447: Adding same product to cart via parallel web REST API results in two separate items in cart'
+description: Apply the ACSD-56447 patch to fix the Adobe Commerce issue where adding the same product to the cart via parallel web REST API requests results in two separate items in the cart.
+feature: Shopping Cart, REST
 role: Admin, Developer
-exl-id: 5aa6b11e-b467-4076-ad36-162966cbf6df
+exl-id: c63874be-a8a6-4143-adaa-ba3e9e107dd4
 ---
-# ACSD-56515: Admin with website-level permissions cannot edit [!UICONTROL Dynamic Block]
+# ACSD-56447: Adding same product to cart via parallel web REST API results in two separate items in cart
 
-The ACSD-56515 patch fixes the issue where the admin with website-level permissions cannot add or edit the [!UICONTROL Dynamic Block]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56515. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56447 patch fixes the issue where adding the same product to the cart via parallel web REST API requests results in two separate items in the cart. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56447. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p4
+* Adobe Commerce (all deployment methods) 2.4.5
 
 **Compatible with Adobe Commerce versions:**
 
@@ -25,22 +25,22 @@ The ACSD-56515 patch fixes the issue where the admin with website-level permissi
 
 ## Issue
 
-The admin with website-level permissions cannot add or edit the [!UICONTROL Dynamic Block].
+Adding the same product to the cart via parallel web REST API requests results in two separate items in the cart.
 
 <u>Steps to reproduce</u>:
 
-1. Create a secondary website with store and storeview.
-1. Go to **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]** and create a user role restricted to the secondary website scope with all resources available.
-1. Create an admin user with the role created above.
-1. Log in with the restricted admin user and create a [!UICONTROL Dynamic Block]. 
+1. Generate a customer token for making the REST API calls request using [!DNL Postman].
+1. Create a shopping cart for the customer.
+1. Use the token generated above to create an empty cart for the customer.
+1. Use CURL to make two `AddProductsToCart` requests running in parallel. Follow the instructions in the [Order processing tutorial](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/) in the developer documentation.
 
 <u>Expected results</u>:
 
-The admin user with restrictions to the website can create a [!UICONTROL Dynamic Block].
+Items with multiple quantities are shown in one line.
 
 <u>Actual results</u>:
 
-You get the following error: *More permissions are needed to view this item*.
+The same SKUs are shown in multiple line items. 
 
 ## Apply the patch
 
