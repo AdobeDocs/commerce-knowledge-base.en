@@ -469,7 +469,7 @@ breadcrumb-title: Commerce KB
     * [Cannot access the latest Adobe Commerce pre-release](/help/troubleshooting/general/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure](/help/troubleshooting/general/mysql-high-load-bottleneck-in-magento-commerce-cloud.md)
     * [Admin passwords saved as plain text to actions log](/help/troubleshooting/general/admin-passwords-saved-as-plain-text-to-actions-log.md)
-    * [Error running the setup:di:compile command manually](/help/troubleshooting/general/error-running-the-setup-di-compile-command-manually.md)
+    * [Error running the `setup:di:compile` command manually](/help/troubleshooting/general/error-running-the-setup-di-compile-command-manually.md)
     * [Index is locked by another process](/help/troubleshooting/general/index-is-locked-by-another-process.md)
     * [Diagnosing a data discrepancy](/help/troubleshooting/general/diagnosing-a-data-discrepancy.md)
     * [Deployment error: SQLSTATE[HY000]](/help/troubleshooting/general/deployment-error-sql-hy000.md)
