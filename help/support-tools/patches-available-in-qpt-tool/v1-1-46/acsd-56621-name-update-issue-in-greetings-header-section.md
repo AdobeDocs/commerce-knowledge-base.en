@@ -24,7 +24,7 @@ The ACSD-56621 patch fixes the issue where the updated first name and last name 
 
 ## Issue
 
-The updated names are not displayed in greetings header for company admin user.
+The updated names are not displayed in greetings header for company admin users.
 
 <u>Steps to reproduce</u>:
 
@@ -33,15 +33,15 @@ The updated names are not displayed in greetings header for company admin user.
 1. Under the **[!UICONTROL General]** section, select **[!UICONTROL B2B]** to enable B2B company functionality.
 1. Go to **[!UICONTROL Storefront]** and register a new company.
 1. Log in as the company admin user.
-1. Go to **[!UICONTROL My Account]** > **[!UICONTROL Company Users] and modify the first and last name fields as required.
+1. Go to **[!UICONTROL My Account]** > **[!UICONTROL Company Users]** and modify the first and last name fields as required.
 
 <u>Expected results</u>:
 
-The first and the last name of the user (in the greetings header section) is changed immediately.
+The first and last name of the user in the greetings header section is changed immediately.
 
 <u>Actual results</u>:
 
-The first and the last name of the user is only changed when the user logs out and logs in again.
+The first and last name of the user is only changed when the user logs out and logs in again.
 
 ## Apply the patch
 
