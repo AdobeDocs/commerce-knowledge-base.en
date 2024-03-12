@@ -3,7 +3,7 @@ cloud: Experience Cloud
 solution: Commerce
 feature-set: Commerce
 product: magento
-type: Documentation
+type: Troubleshooting
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/commerce-knowledge-base.en
 index: yes

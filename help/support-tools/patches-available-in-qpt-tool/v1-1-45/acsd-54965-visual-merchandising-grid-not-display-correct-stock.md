@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-56515: Admin with website-level permissions cannot edit [!UICONTROL Dynamic Block]'
-description: Apply the ACSD-56515 patch to fix the Adobe Commerce issue where the admin with website-level permissions cannot add or edit the [!UICONTROL Dynamic Block].
-feature: Roles/Permissions, Admin Workspace
+title: 'ACSD-54965: [!UICONTROL Visual Merchandising] grid does not display the correct stock'
+description: Apply the ACSD-54965 patch to fix the Adobe Commerce issue where the [!UICONTROL Visual Merchandising] grid does not display the correct stock when a product is assigned to custom stock.
+feature: Merchandising, Categories
 role: Admin, Developer
-exl-id: 5aa6b11e-b467-4076-ad36-162966cbf6df
+exl-id: 13d98f55-ca2c-4064-b66f-ab2cdeb37382
 ---
-# ACSD-56515: Admin with website-level permissions cannot edit [!UICONTROL Dynamic Block]
+# ACSD-54965: [!UICONTROL Visual Merchandising] grid does not display the correct stock
 
-The ACSD-56515 patch fixes the issue where the admin with website-level permissions cannot add or edit the [!UICONTROL Dynamic Block]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56515. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-54965 patch fixes the issue where the [!UICONTROL Visual Merchandising] grid does not display the correct stock when a product is assigned to custom stock. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-54965. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p4
+* Adobe Commerce (all deployment methods) 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.5-p5
 
 >[!NOTE]
 >
@@ -25,22 +25,25 @@ The ACSD-56515 patch fixes the issue where the admin with website-level permissi
 
 ## Issue
 
-The admin with website-level permissions cannot add or edit the [!UICONTROL Dynamic Block].
+The [!UICONTROL Visual Merchandising] grid does not display the correct stock when a product is assigned to custom stock. 
 
 <u>Steps to reproduce</u>:
 
-1. Create a secondary website with store and storeview.
-1. Go to **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]** and create a user role restricted to the secondary website scope with all resources available.
-1. Create an admin user with the role created above.
-1. Log in with the restricted admin user and create a [!UICONTROL Dynamic Block]. 
+1. Create a new source.
+1. Create a new stock.
+1. Create two products:
+   * One product with the custom stock only.
+   * One product with the default stock only.
+1. Add these products to a category.
+1. Go to the [!UICONTROL visual Merchandising] grid (*[!UICONTROL Products in Category]*).
 
-<u>Expected results</u>:
+<u>Actual Results</u>:
 
-The admin user with restrictions to the website can create a [!UICONTROL Dynamic Block].
+In the *[!UICONTROL All Store Views]* scopes, the product with custom stock does not show any quantity. It is only when the *[!UICONTROL Default Store View]* scope is selected the custom stock shows the quantity of the product.
 
-<u>Actual results</u>:
+<u>Expected Results</u>:
 
-You get the following error: *More permissions are needed to view this item*.
+The grid shows all stock information if the scope is *[!UICONTROL All Store Views]*.
 
 ## Apply the patch
 

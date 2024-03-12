@@ -762,6 +762,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-56790: Move out of stock to bottom option does not work while sorting products in the Visual Merchandiser](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-56790-move-out-of-stock-to-bottom-option-does-not-work-while-sorting-products-in-the-visual-merchandiser.md)
     * v1.1.45 {#v1-1-45}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
+        * [ACSD-54965: [!UICONTROL Visual Merchandising] grid does not display the correct stock](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-54965-visual-merchandising-grid-not-display-correct-stock.md)
+        [ACSD-56447: Adding same product to cart via parallel web REST API requests results in two separate items in cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56447-adding-same-product-to-cart-via-parallel-web-api-rest-requests-results-in-two-separate-items-in-the-cart.md)
         * [ACSD-56886: Configurable product becomes out of stock when child products disabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56886-configurable-product-becomes-out-of-stock-when-child-products-are-disabled.md)
         * [ACSD-56515: Admin with permissions cannot edit [!UICONTROL Dynamic Block]](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56515-admin-with-permissions-cannot-edit-dynamic-block.md)
         * [ACSD-56616: Storefront display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-trigger-bundle-display.md)
@@ -769,12 +771,14 @@ breadcrumb-title: Commerce KB
     * v1.1.46 {#v1-1-46}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.46](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/overview.md)
         * [ACSD-56621: Updated names not displayed in greetings header for company admin user](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-56621-name-update-issue-in-greetings-header-section.md)
+        * [ACSD-55100: [!DNL GraphQL] doesn't return products beyond 10k in search results](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-55100-graphql-does-not-return-products-beyond-10k-in-the-search-results.md)
+        * [ACSD-56842: Deferred proxies and proxy factories are missing](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-56842-deferred-proxies-and-proxy-factories-are-missing.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
     * [Integration Environment enhancement request - Pro and Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
-    * [Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure](/help/announcements/adobe-commerce-announcements/2021-holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
+    * [Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
     * [Upgrade Compatibility Tool 1.1.0 for Adobe Commerce](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
     * [Adobe SSL/TLS certificate requirements and clean up](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md)
     * [FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
@@ -795,6 +799,7 @@ breadcrumb-title: Commerce KB
 * Troubleshooting {#troubleshooting}
   * [Troubleshooting overview](/help/troubleshooting/overview.md)
   * Database {#database}
+    * [Multiple rows in database for same entity](/help/troubleshooting/database/multiple-rows-in-database-for-same-entity.md)
     * [Checking slow queries and processes MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
     * [Database upload loses connection to MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
     * [Changes in the database are not reflected on the storefront](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
@@ -859,7 +864,7 @@ breadcrumb-title: Commerce KB
     * [Composer install command overides .gitignore file, Adobe Commerce](/help/troubleshooting/installation-and-upgrade/custom-gitignore-file-overridden.md)
     * [During installation, PHP date warning](/help/troubleshooting/installation-and-upgrade/during-installation-php-date-warning.md)
     * [During installation, Reflection Exception error](/help/troubleshooting/installation-and-upgrade/during-installation-reflection-exception-error.md)
-    * ['Area code is not set' error when running setup:updgrade](/help/troubleshooting/installation-and-upgrade/area-code-is-not-set-error-when-running-setup-updgrade.md)
+    * [Area code is not set error when running setup:upgrade](/help/troubleshooting/installation-and-upgrade/area-code-is-not-set-error-when-running-setup-upgrade.md)
     * [Installation fails; cannot create install.log](/help/troubleshooting/installation-and-upgrade/installation-fails-cannot-create-install-log.md)
     * [Exceptions during installation](/help/troubleshooting/installation-and-upgrade/exceptions-during-installation.md)
     * [Errors installing optional sample data](/help/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data.md)

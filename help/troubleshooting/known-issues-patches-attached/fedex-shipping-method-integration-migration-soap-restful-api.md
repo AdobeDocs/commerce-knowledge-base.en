@@ -1,14 +1,14 @@
 ---
 title: '[!DNL FedEx] shipping method integration migration from SOAP to RESTful API'
 promoted: true
-description: Apply a patch to deal with the [!DNL FedEx] shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
+description: Apply a patch to deal with the [!DNL FedEx] shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
 feature: Shipping/Delivery
 role: Developer
 exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
 ---
 # [!DNL FedEx] shipping method integration migration from SOAP to RESTful API
 
-This article provides a patch to resolve issues with the [!DNL FedEx] shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4 - 2.4.6-pX.
+This article provides a patch to resolve issues with the [!DNL FedEx] shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
 
 [!DNL FedEx Web Services] tracking, Address Validation, and Validate Postal Codes Web Services Definition Languages (WSDLS) will be retired on May 15, 2024. The SOAP based [!DNL FedEx Web Services] is in development containment and has been replaced with [!DNL FedEx] RESTFUL APIs. To learn more, refer to [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
 
@@ -21,8 +21,7 @@ Beginning on May 15, 2024, Adobe Commerce customers will not be able to use our 
 
 Adobe Commerce on cloud infrastructure and on-premises, and Magento Open Source:
 
-* 2.4.4
-* 2.4.4-pX
+* 2.4.4-p4
 * 2.4.5
 * 2.4.5-pX
 * 2.4.6
@@ -42,7 +41,7 @@ To resolve the issue in the 2.4.4+, 2.4.5+, and 2.4.6+ versions, you must apply 
 
 Use the following attached patches, depending on your Adobe Commerce/Magento Open Source version:
 
-### For versions 2.4.4, 2.4.4-pX:
+### For versions 2.4.4-p4:
 
 * [FedexPatch-Composer-245p5-244p6develop.patch.zip](assets/FedexPatch-Composer-245p5-244p6develop.patch.zip)
 

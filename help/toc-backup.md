@@ -309,7 +309,7 @@ breadcrumb-title: Commerce KB
   * [Announcements Overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
     * [Integration Environment enhancement request - Pro and Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
-    * [2021 Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure](/help/announcements/adobe-commerce-announcements/2021-holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
+    * [Holiday Surge Capacity Requests for Adobe Commerce on our cloud infrastructure](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
     * [Upgrade Compatibility Tool 1.1.0 for Adobe Commerce](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
     * [Adobe SSL/TLS certificate requirements and clean up](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md)
     * [FAQ for the Updated Lifecycle Policy for Adobe Commerce Releases](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
@@ -469,7 +469,7 @@ breadcrumb-title: Commerce KB
     * [Cannot access the latest Adobe Commerce pre-release](/help/troubleshooting/general/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure](/help/troubleshooting/general/mysql-high-load-bottleneck-in-magento-commerce-cloud.md)
     * [Admin passwords saved as plain text to actions log](/help/troubleshooting/general/admin-passwords-saved-as-plain-text-to-actions-log.md)
-    * [Error running the setup:di:compile command manually](/help/troubleshooting/general/error-running-the-setup-di-compile-command-manually.md)
+    * [Error running the `setup:di:compile` command manually](/help/troubleshooting/general/error-running-the-setup-di-compile-command-manually.md)
     * [Index is locked by another process](/help/troubleshooting/general/index-is-locked-by-another-process.md)
     * [Diagnosing a data discrepancy](/help/troubleshooting/general/diagnosing-a-data-discrepancy.md)
     * [Deployment error: SQLSTATE[HY000]](/help/troubleshooting/general/deployment-error-sql-hy000.md)
