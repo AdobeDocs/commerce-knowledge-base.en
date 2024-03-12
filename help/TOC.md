@@ -770,6 +770,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-52824: Disabled payment methods displayed for company customers](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-52824-payment-method-display-dicrepancy.md)
     * v1.1.46 {#v1-1-46}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.46](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/overview.md)
+        * [ACSD-56621: Updated names not displayed in greetings header for company admin user](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-56621-name-update-issue-in-greetings-header-section.md)
         * [ACSD-55100: [!DNL GraphQL] doesn't return products beyond 10k in search results](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-55100-graphql-does-not-return-products-beyond-10k-in-the-search-results.md)
         * [ACSD-56842: Deferred proxies and proxy factories are missing](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-56842-deferred-proxies-and-proxy-factories-are-missing.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
