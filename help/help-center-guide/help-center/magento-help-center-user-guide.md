@@ -275,9 +275,9 @@ To follow/unfollow tickets for an organization:
 
 **Login is required** to access the [Adobe Commerce P1 hotline](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html) article which provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
 
-### Adobe Commerce Shared Responsibility Security Model {#shared-responsibility-operational-model}
+### Adobe Commerce Shared Responsibility Operational Model {#shared-responsibility-operational-model}
 
-**Login is required** to access the [Adobe Commerce Shared Responsibility Security Model](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/shared-responsibility.html) article which is intended to clarify operational responsibilities around the Adobe Commerce on our pro infrastructure offering only.
+**Login is required** to access the [Adobe Commerce Shared Responsibility Operational Model](https://support.magento.com/hc/en-us/articles/4407700678669) article which is intended to clarify operational responsibilities around the Adobe Commerce on our pro infrastructure offering only.
 
 ### Support ticket fields explained {#ticket-fields-explained}
 
