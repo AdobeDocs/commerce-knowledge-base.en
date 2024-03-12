@@ -28,7 +28,7 @@ The updated names are not displayed in greetings header for company admin users.
 
 <u>Steps to reproduce</u>:
 
-1. Navigate to **[!UICONTROL Admin]** panel.
+1. Navigate to the **[!UICONTROL Admin]** panel.
 1. Go to **[!UICONTROL Stores]** and select **[!UICONTROL Configuration]**.
 1. Under the **[!UICONTROL General]** section, select **[!UICONTROL B2B]** to enable B2B company functionality.
 1. Go to **[!UICONTROL Storefront]** and register a new company.
