@@ -7,6 +7,10 @@ role: Admin
 ---
 # Adobe Commerce Site-Wide Analysis Tool Report FAQ
 
+>[!IMPORTANT] 
+>
+>Effective April 23, 2024, the [!DNL Site-Wide Analysis Tool] (SWAT) will be decommisioned for all Adobe Commerce On-Premise customers.
+
 This article provides a description of the Site-Wide Analysis Tool Report, generated automatically for Adobe Commerce on cloud infrastructure customers on a monthly or quarterly basis.
 
 >[!NOTE]
@@ -26,7 +30,7 @@ The Site-Wide Analysis Tool Report is a list of findings (issues) with self-serv
 The site information, provided in the Site-Wide Analysis Tool report, includes:
 
 * Finding
-  * Overview, including a ‘Priority’ for order of implementation fix
+  * Overview, including a 'Priority' for order of implementation fix
   * Finding Description
   * Pre-condition(s), if any
   * Site Impact(s)
