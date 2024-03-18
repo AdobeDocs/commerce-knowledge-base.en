@@ -23,7 +23,7 @@ module since you need both modules operating in order to use the Product Recomme
 
 ## Affected products and versions
 
-* Adobe Commerce 2.4.4-2.4.7
+* Adobe Commerce 2.4.4 - 2.4.7
 
 ## Troubleshoot product-recommendations module
 
