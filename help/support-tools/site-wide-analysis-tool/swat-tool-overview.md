@@ -9,7 +9,7 @@ role: Admin
 
 >[!IMPORTANT] 
 >
->Effective April 23, 2024, the [!DNL Site-Wide Analysis Tool] will be decommissioned for all Adobe Commerce on-premises customers.
+>Effective April 23, 2024, the [!DNL Site-Wide Analysis Tool] will be decommissioned for all Adobe Commerce On-Premise customers.
 
 [!DNL Site-Wide Analysis Tool] is a proactive self-service tool and central repository that includes detailed system insights and recommendations to ensure the security and operability of your Adobe Commerce installation. All tool-related customer site information is collected on predetermined schedules every three hours to once a day. This means that SWAT is constantly analyzing customer site data for Findings.
 
