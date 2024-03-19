@@ -154,7 +154,7 @@ The following table summarizes support channels and availability for WAF Support
 </tr>
 <tr>
 <td>Emergency escalation*</td>
-<td>Refer to <a href="https://support.magento.com/hc/en-us/articles/360042536151">Adobe Commerce P1 notification hotline</a> article for US and international numbers. (You must be logged in to view the article.)</td>
+<td>Refer to <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Adobe Commerce P1 notification hotline</a> article for US and international numbers.</td>
 </tr>
 </tbody>
 </table>
