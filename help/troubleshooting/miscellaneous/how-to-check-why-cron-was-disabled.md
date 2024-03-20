@@ -52,6 +52,8 @@ See [[!DNL Cron] stopped due to misconfigured or missing [!DNL OpCache] settings
 
 1. Check your previous support tickets in which your site was down or not responding.
 1. Then check whether the Infrastructure team indicated that they had disabled it.
+1. Verify that you have addressed the issues/concerns brought up by the Infrastructure team.
+1. Submit a [Support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) if you need further assistance to request to re-enable the [!DNL cron] and explain how you have addressed the  issues that the Infrastructure team indicated.
 
 ### Solution for deployment failed {#solution-deployment-failed}
 
