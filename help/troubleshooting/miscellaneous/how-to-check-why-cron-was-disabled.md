@@ -8,7 +8,7 @@ role: Developer
 
 This article offers troubleshooting solutions for issues with [!DNL cron] in Adobe Commerce on cloud infrastructure products.
 
-Affected products and versions
+## Affected products and versions
 
 * Adobe Commerce on cloud infrastructure, all versions
 
