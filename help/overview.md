@@ -22,6 +22,12 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 | [How-To](/help/how-to/overview.md) | Get clear step-by-step instructions from the Adobe Commerce Support team. |
 | [FAQ](/help/faq/overview.md) | Find frequently asked questions about Adobe Commerce policies, strategies, and specifics about Adobe Commerce features. | 
 
+>[!NOTE]
+>
+>To file a new ticket, sign in to [Adobe Commerce Help Center](https://support.magento.com/) and follow the steps detailed under [Submit a Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket). 
+>
+>If you don't see the option to submit a ticket, refer to the *[Submit a ticket link not displayed](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)* section in our [Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md).
+
 ## What's New
 
 <table style="width:100%">
