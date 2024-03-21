@@ -9,7 +9,7 @@ role: Developer
 
 This article offers troubleshooting solutions for issues with cron in Adobe Commerce on-premises products.
 
-Affected products and versions
+## Affected products and versions
 
 * Adobe Commerce on-premises 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
