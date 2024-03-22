@@ -24,7 +24,7 @@ This article covers the essentials of backing up your environments with snapshot
 * Retention time for automatic snapshots **is different** and follows [the schedule](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#backup-and-disaster-recovery).
 
 >[!NOTE]
->The Cloud Console will always show `No backup` in the Staging and Production environments; you can only take backups from the integration environment via the `Backup` menu shown on the top right:
+>The Cloud Console always shows [!UICONTROL No backup] in the Staging and Production environments; you can only take backups from the integration environment via the **[!UICONTROL Backup]** menu shown on the top right:
 >![image](https://git.corp.adobe.com/storage/user/38345/files/4ea7d72b-1652-4fc4-bbc3-21309a36126d)
 
 
