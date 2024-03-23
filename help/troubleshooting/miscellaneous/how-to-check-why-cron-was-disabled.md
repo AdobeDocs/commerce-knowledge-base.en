@@ -3,6 +3,7 @@ title: How to check why [!DNL cron] was disabled
 description: This article offers troubleshooting solutions for issues with cron in Adobe Commerce on cloud infrastructure products.
 feature: Configuration
 role: Developer
+exl-id: d4d4a28d-3afa-4379-afc1-bc6250717784
 ---
 # How to check why [!DNL cron] was disabled
 
