@@ -10,21 +10,14 @@ This article shows different scenarios of rolling back an environment on Adobe C
 
 Choose the most appropriate for your case:
 
-* If you have a valid snapshot - [Scenario 1: Restore a snapshot (easiest and recommended)](#scen1).
-* If you have a stable build, but no valid snapshot - [Scenario 2: No snapshot, build stable (SSH connection available)](#scen2).
-* If the build is broken and you have no valid snapshot - [Scenario 3: No snapshot; build broken (no SSH connection)](#scen3).
+* If you have planned activity (planned deployment or upgrade) - [Scenario 1: Planned activity)](#scen1).
+* If you have a valid snapshot - [Scenario 2: Restore a snapshot ](#scen2).
+* If you have a stable build, but no valid snapshot - [Scenario 3: No snapshot, build stable (SSH connection available)](#scen3).
+* If the build is broken and you have no valid snapshot - [Scenario 4: No snapshot; build broken (no SSH connection)](#scen4).
 
-## Scenario 1: Restore a snapshot (easiest and recommended)
+## Scenario 1: Planned activity
 
-Read: [Restore a snapshot on Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot) in our developer documentation.
-
->[!NOTE]
->
->Creating a snapshot must be our very first step after accessing the Adobe Commerce on cloud infrastructure account and before applying major changes. It is a best practice and highly recommended.
-
-Read: [Create a snapshot](https://devdocs.magento.com/cloud/project/project-webint-snap.html#create-snapshot) in our developer documentation.
-
-With a planned deployment or upgrade, the easiest and recommended [!UICONTROL Rollback] would be for the merchant, as part of your preparations to do the following:
+With a planned deployment or upgrade, the easiest and recommended [!UICONTROL Rollback] would be for the merchant, as part of your preparations, to do the following:
 
 >[!NOTE]
 >
@@ -47,13 +40,23 @@ Read more about [Enable or disable [!UICONTROL Maintenance Mode]](https://experi
 1. [!UICONTROL Rollback] the Database using the local [!UICONTROL Database Dump], and import this back into [!DNL MariaDB].
 1. [!UICONTROL Rollback] the code via [!DNL Git] to a previous working version.
 
-Using [!UICONTROL Snapshots] is not the recommended way for upgrade/planned activity [!UICONTROL rollbacks/restores], as it takes much longer to retrieve the data compared to a local [!UICONTROL Database Dump], as taken above in Step 4.
+Using [!UICONTROL Snapshots] is not the recommended way for upgrade/planned activity [!UICONTROL rollbacks/restores], as it takes much longer to retrieve the data compared to a local [!UICONTROL Database Dump], as taken above in Step 2 of the **If a [!UICONTROL Rollback] is required** section.
 
-[!UICONTROL Snapshots] are not held on the node/server, they are instead held on a separate storage block, and since such data has to be transmitted from that storage over the [!DNL AWS] network to a new disk, that disk is then mounted onto the node ready for retrieval/import onto the original disk connected to the node/server.
+[!UICONTROL Snapshots] are not held on the node/server, they are held on a separate storage block, and since that data has to be transmitted from the block storage over the network to a new disk, it takes time in the process. That new disk is then mounted onto the node ready for retrieval/import onto the original disk connected to the node/server.
 
-When you compare this to a local [!UICONTROL Database Dump], the data is already retrievable on the node/server, so a lot of time is saved as only a [!UICONTROL Database Import] is required.
+When you compare this to importing a local [!UICONTROL Database Dump], the data is already retrievable on the node/server, so a lot of time is saved as only a [!UICONTROL Database Import] is required.
 
-## Scenario 2: No snapshot, build stable (SSH connection available)
+## Scenario 2: Restore a snapshot
+
+Read: [Restore a snapshot on Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot) in our developer documentation.
+
+>[!NOTE]
+>
+>Creating a snapshot must be our very first step after accessing the Adobe Commerce on cloud infrastructure account and before applying major changes. It is a best practice and highly recommended.
+
+Read: [Create a snapshot](https://devdocs.magento.com/cloud/project/project-webint-snap.html#create-snapshot) in our developer documentation.
+
+## Scenario 3: No snapshot, build stable (SSH connection available)
 
 This section shows how to reset an environment when you have not created a snapshot but can access the environment via SSH.
 
@@ -61,12 +64,12 @@ The steps are:
 
 1. Disable Configuration Management.
 1. Uninstall the Adobe Commerce software.
-1. Reset the git branch.
+1. Reset the [!DNL git] branch.
 
 After performing these steps:
 
 * your Adobe Commerce installation returns to its Vanilla state (database restored; deployment configuration removed; directories under \`var\` cleared)
-* your git branch is reset to the desired state in the past
+* your [!DNL git] branch is reset to the desired state in the past
 
 Read the detailed steps below.
 
@@ -107,31 +110,31 @@ The following message displays to confirm a successful uninstallation:
 
 This means we have reverted our Adobe Commerce installation (including DB) to its authentic (Vanilla) state.
 
-### Step 2: Reset the git branch
+### Step 2: Reset the [!DNL git] branch
 
-With git reset, we revert the code to the desired state in the past.
+With [!DNL git] reset, we revert the code to the desired state in the past.
 
 1. Clone the environment to your local development environment. You may copy the command in the Cloud Console:    ![copy_git_clone.png](assets/copy_git_clone.png)
 1. Access the commits history. Use `--reverse` to display history in reverse order for more convenience: `git log --reverse`
 1. Select the commit hash on which you've been good. To reset code to its authentic state (Vanilla), find the very first commit that created your branch (environment).
     ![Selecting a commit hash in git console](assets/select_commit_hash.png)
-1. Apply hard git reset: `git reset --h <commit_hash>`
+1. Apply hard [!DNL git] reset: `git reset --h <commit_hash>`
 1. Push changes to server: `git push --force <origin> <branch>`
 
-After performing these steps, our git branch gets reset and the entire git changelog is clear. The last git push triggers the redeploy to apply all changes and re-install Adobe Commerce.
+After performing these steps, our [!DNL git] branch gets reset and the entire [!DNL git] changelog is clear. The last [!DNL git] push triggers the redeploy to apply all changes and re-install Adobe Commerce.
 
-## Scenario 3: No snapshot; build broken (no SSH connection)
+## Scenario 4: No snapshot; build broken (no [!DNL SSH] connection)
 
-This section shows how to reset an environment when it is in a critical state: the deployment procedure cannot succeed in building a working application, thus making the SSH connection unavailable.
+This section shows how to reset an environment when it is in a critical state: the deployment procedure cannot succeed in building a working application, thus making the [!DNL SSH] connection unavailable.
 
-In this scenario, you must first restore the working state of your Adobe Commerce application using git reset, then uninstall the Adobe Commerce software (to drop and restore the database, remove the deployment configuration, etc.). The scenario involves the same steps as in Scenario 2, but the order of steps is different and there is an additional step &ndash; force redeploy. The steps are:
+In this scenario, you must first restore the working state of your Adobe Commerce application using [!DNL git] reset, then uninstall the Adobe Commerce software (to drop and restore the database, remove the deployment configuration, etc.). The scenario involves the same steps as in Scenario 3, but the order of steps is different and there is an additional step &ndash; force redeploy. The steps are:
 
-1. [Reset the git branch.](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
+1. [Reset the [!DNL git] branch.](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
 1. [Disable Configuration Management.](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
 1. [Uninstall the Adobe Commerce software.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 1. Force redeploy.
 
-After performing these steps, you will have the same results as in Scenario 2.
+After performing these steps, you will have the same results as in Scenario 3.
 
 ### Step 4: Force redeploy
 
@@ -151,4 +154,4 @@ If executing the `setup:uninstall` command fails with an error and cannot be com
 1. Create an empty \`main\` DB: `create database main;`
 1. Delete the following configuration files: `config.php` , `config.php` , `.bak,` , `env.php`, `env.php.bak`
 
-After resetting the DB, [make a git push to the environment to trigger redeploy](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands).
+After resetting the DB, [make a [!DNL git] push to the environment to trigger redeploy](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands).
