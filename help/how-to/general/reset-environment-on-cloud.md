@@ -68,8 +68,8 @@ The steps are:
 
 After performing these steps:
 
-* your Adobe Commerce installation returns to its Vanilla state (database restored; deployment configuration removed; directories under \`var\` cleared)
-* your [!DNL git] branch is reset to the desired state in the past
+* Your Adobe Commerce installation returns to its Vanilla state (database restored; deployment configuration removed; directories under `var` cleared).
+* Your [!DNL git] branch is reset to the desired state in the past.
 
 Read the detailed steps below.
 
@@ -91,8 +91,8 @@ Read more about Configuration Management:
 
 ### Step 1: Uninstall the Adobe Commerce software with setup:uninstall command
 
->
-Uninstalling the Adobe Commerce software drops and restores the database, removes the deployment configuration, and clears directories under \`var\`.
+
+Uninstalling the Adobe Commerce software drops and restores the database, removes the deployment configuration, and clears directories under `var`.
 
 Read: [Uninstall the Adobe Commerce software](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html) in our developer documentation.
 
