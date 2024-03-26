@@ -11,7 +11,7 @@ This article shows different scenarios of rolling back an environment on Adobe C
 Choose the most appropriate for your case:
 
 * If you have planned activity (planned deployment or upgrade) - [Scenario 1: Planned activity)](#scen1).
-* If you have a valid snapshot - [Scenario 2: Restore a snapshot ](#scen2).
+* If you have a valid snapshot - [Scenario 2: Restore a snapshot](#scen2).
 * If you have a stable build, but no valid snapshot - [Scenario 3: No snapshot, build stable (SSH connection available)](#scen3).
 * If the build is broken and you have no valid snapshot - [Scenario 4: No snapshot; build broken (no SSH connection)](#scen4).
 
