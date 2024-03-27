@@ -1,3 +1,5 @@
+# KB Labels Guide
+
 This document provides guidelines for adding labels to articles in the Adobe Commerce Support Knowledge Base.
 Labels (also called tags) improve searching experience in the [Adobe Commerce Support Knowledge Base](https://support.magento.com/hc/en-us).
 Labels are added in the "labels" field in metadata section of an article file, separated by commas, no space between a comma and the next label.
@@ -80,6 +82,7 @@ See the sections below for detailed recommendations on how to define labels for 
 * Don't add labels with .x. Example: "2.3.x"
 
 ## Labels for content type (based on category)
+
 <table>
   <tbody>
     <tr>
@@ -134,7 +137,7 @@ Examples: 
 * "database"
 * "cron"
 * "deployment"
-* "mass update".
+* "mass update"
 
 ## Labels for the issue being fixed/described
 
@@ -146,4 +149,4 @@ Examples:
 
 * "site down"
 * "500 error"
-* "stuck cron".
+* "stuck cron"
