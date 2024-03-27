@@ -29,6 +29,7 @@ title: Patch: Unable to validate VAT number - Adobe Commerce on cloud infrastruc
 labels: patch: 2041.1,article,labels,tags
 ---
 ```
+
 To avoid this error, wrap the title or labels (or both if both have colons) in **single quotation marks**.
 
 **Example:**
