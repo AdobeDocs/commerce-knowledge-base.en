@@ -1,23 +1,23 @@
 ---
 title: 'ACSD-56415: Performance of the partial price indexing is slowed down due to a DELETE query.'
-description: Apply the ACSD-56023 patch to fix the Adobe Commerce issue where the widget content is not updating on the CMS page
-feature: CMS
+description: Apply the ACSD-56415 patch to fix the Adobe Commerce issue where the performance of the partial price indexing gets slowed down due to a DELETE query when the database has a lot of partial price data to index.
+feature: Catalog Service
 role: Admin, Developer
 exl-id: 2ff33b1c-ae92-4c59-83d2-e252bf543bab
 ---
-# ACSD-56023: Widget content is not updating on the CMS page
+# ACSD-56023: Perfomance of the partial price indexing is slowed down due to a DELETE query when the database has a lot of partial price data to index
 
-The ACSD-56023 patch fixes the issue where the widget content is not updating on the CMS page. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44 is installed. The patch ID is ACSD-56023. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56023 patch fixes the issue where the perfomance of the partial price indexing is slowed down due to a DELETE query when the database has a lot of partial price data index. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56023. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.6-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p3
 
 >[!NOTE]
 >
@@ -25,29 +25,33 @@ The ACSD-56023 patch fixes the issue where the widget content is not updating on
 
 ## Issue
 
-Widget content is not updating on the CMS page. 
+Perfomance of partial price indexing is slowed down due to a DELETE query when the database has a lot of partial price data index. 
 
 <u>Steps to reproduce</u>:
 
-1. Create a few products.
-1. Create the new CMS page and add new products widget to the content:
+1. Create 300000 products and 10 websites using the large performance profile.
+1. Login to the Admin Panel.
+1. Create 10 customer groups.
+1. Execute below query to add products to _cl table:
 
-    ```
-       {{widget type="Magento\Catalog\Block\Product\Widget\NewWidget" display_type="new_products" show_pager="1" products_per_page="5" products_count="10" template="product/widget/new/content/new_grid.phtml" page_var_name="pnetpm"}} 
-    ```
+    `
+       insert into catalog_product_price_cl (entity_id) select entity_id from catalog_product_entity
+    `
 
-1. Open the created page on the storefront. Make sure to cache it.
-1. From the Admin, open **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
-1. Pick any product for edit and switch **[!UICONTROL Set Product as New]** to *Yes*.
-1. Go to the created *CMS page* on the storefront again.
+1. Execute below command to trigger the partial price indexing process:
+
+    `
+       {bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1}
+    `
+
 
 <u>Expected results</u>:
 
-The page contains *New Products widget* with the products.
+The DELETE `main_table` query FROM `catalog_product_index_price` SQL is performed in scope of few seconds.
 
 <u>Actual results</u>:
 
-The page does not contain *New Products widget*, and the new products do not appear.
+DELETE `main_table` FROM `catalog_product_index_price` SQL is performed very slow.
 
 ## Apply the patch
 
