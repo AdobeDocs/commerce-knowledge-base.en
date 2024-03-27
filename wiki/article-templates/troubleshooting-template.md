@@ -3,6 +3,8 @@ title: ...
 labels: troubleshooting,...
 ---
 
+# Troubleshooting Article Template
+
 Title should briefly describe the issue, maximum 70 characters is preferred.<br/>
 (Example: "Out of memory error during install or upgrade".)
 
@@ -30,7 +32,7 @@ Remove any specific project IDs or customer information from errors and logs! Al
 
 If the issue occurs in a very specific situation, provide detailed steps to reproduce, expected result and actual result in the following format:
 
-<ins>Steps to reproduce</ins>:
+<u>Steps to reproduce</u>:
 
 Prerequisites: ... (if any).
 
@@ -38,11 +40,11 @@ Prerequisites: ... (if any).
 1. Second step.
 1. ....
 
-<ins>Expected result</ins>:
+<u>Expected result</u>:
 
 Adobe Commerce does this.
 
-<ins>Actual result</ins>:
+<u>Actual result</u>:
 
 Adobe Commerce does that.
 
