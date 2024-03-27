@@ -1,3 +1,5 @@
+# KB Formatting Guide
+
 ## Author in Markdown
 
 Generally, we use [Adobe Experience League Markdown Syntax Style Guide](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), but there are some differences and exceptions. Also, certain HTML tags are required in certain cases.
@@ -97,7 +99,7 @@ Example:
 ```markdown
 * Unordered list item.
 * Unordered list item.
-...
+---
 * Last unordered list item.
 ```
 To add content between list items, add 4 spaces in the beginning of the line:
@@ -130,6 +132,7 @@ To insert an image, place the image to *assets* sub-folder in the same section f
 ```
 
 If you want to customize the size of your image, you will need to do that using the following HTML tag:
+
 ```html
 <img src = "assets/image.png" alt = "your alt text" width="custom width, ex: 250px">
 ```
@@ -170,12 +173,14 @@ Use [HTML formatting for tables](https://www.w3schools.com/html/html_tables.asp)
 ## Warnings and info blocks
 
 Success note block:
+
 ```
 >![success]
 >
 >This is a success note
 ```
 Warning block:
+
 ```
 >![warning]
 >
@@ -183,6 +188,7 @@ Warning block:
 ```
 
 Info note block:
+
 ```
 >![info]
 >
