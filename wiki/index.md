@@ -1,3 +1,5 @@
+# Adobe Commerce Support Knowledge Base Repository Documentation
+
 Welcome to the home of the Adobe Commerce Support Knowledge Base repo documentation.
 Here you can find docs helping you to make best fitting contributions and templates, serving the same purpose.
 If you need to learn about general contribution flow, go to [Contributor's Guide](../.github/CONTRIBUTING.md).
