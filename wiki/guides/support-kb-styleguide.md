@@ -1,3 +1,5 @@
+# Support KB Style Guide
+
 Please follow these style and formatting recommendations, when contributing to the Adobe Commerce Help Center.
 
 ## Titles
