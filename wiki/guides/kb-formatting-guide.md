@@ -102,6 +102,7 @@ Example:
 ---
 * Last unordered list item.
 ```
+
 To add content between list items, add 4 spaces in the beginning of the line:
 
 ```markdown
@@ -179,6 +180,7 @@ Success note block:
 >
 >This is a success note
 ```
+
 Warning block:
 
 ```
