@@ -10,7 +10,7 @@ This article covers the essentials of backing up your environments with snapshot
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure 2.2.x, 2.3.x
+* Adobe Commerce on cloud infrastructure 2.4.x
 * Architecture plans:  Starter, Pro Legacy, Pro
 
 ## Environment snapshot, Pro plan
@@ -22,6 +22,14 @@ This article covers the essentials of backing up your environments with snapshot
 * The backups are created using the **encrypted Amazon Web Services Elastic Block Store (AWS EBS) snapshots**.
 * Environment snapshots include your full system (file system and the database).
 * Retention time for automatic snapshots **is different** and follows [the schedule](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#backup-and-disaster-recovery).
+
+>[!NOTE]
+>The Cloud Console always shows [!UICONTROL No backup] in Staging and Production environments. You can only take backups from the integration environment. Select **[!UICONTROL Backup]** on the ellipsis drop down menu.
+>![image](https://git.corp.adobe.com/storage/user/38345/files/4ea7d72b-1652-4fc4-bbc3-21309a36126d)
+
+
+
+
 
 ### Integration (Development) environment
 
