@@ -9,7 +9,7 @@ role: Developer
 
 ## Issue
 
-There are several active environments and you are trying to interact with an environment by running a Magento-cloud CLI command `(example: ssh, db:size, db:sql, etc.)`
+There are several active environments and you are trying to interact with an environment by running a Magento-cloud CLI command `(For example: ssh, db:size, db:sql, etc.)`
 
 However, the prompt to choose the desired environment doesn't list this environment, e.g., the integration environment:
 
@@ -26,7 +26,7 @@ Default: master
 
 <u>Steps to reproduce:</u>
 
-You will have to manually specify the environment with the e|-environment flag
+You have to manually specify the environment with the e|-environment flag.
 
 1. Find the list of active environments and take note of the environments name:
 
