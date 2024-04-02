@@ -31,18 +31,18 @@ You have to manually specify the environment with the e|-environment flag.
 1. Find the list of active environments and take note of the environment name:
 
 ```
-    $ Magento-cloud environment:list |grep "Active\|ID"
+  $ Magento-cloud environment:list |grep "Active\|ID"
     Your environments are:
-    | ID                                                            | Title                                                                | Status   | Type        |
-    | master                                                        | Master                                                               | Active   | development |
-    |   production                                                  | Production                                                           | Active   | production  |
-    |     staging                                                   | Staging                                                              | Active   | staging     |
-    |       integration                                             | Integration                                                          | Active   | development |
-    |       integration2                                            | Integration2                                                         | Active   | development |
+  | ID                                                            | Title                                                                | Status   | Type        |
+  | master                                                        | Master                                                               | Active   | development |
+  |   production                                                  | Production                                                           | Active   | production  |
+  |     staging                                                   | Staging                                                              | Active   | staging     |
+  |       integration                                             | Integration                                                          | Active   | development |
+  |       integration2                                            | Integration2                                                         | Active   | development |
 ```
 
 1. Specify the environment's ID with your command:
-Magento-cloud ssh -e integration
+`Magento-cloud ssh -e integration`
 
 ## Cause
 
