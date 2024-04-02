@@ -5,7 +5,7 @@ feature: Catalog Service
 role: Admin, Developer
 exl-id: 2ff33b1c-ae92-4c59-83d2-e252bf543bab
 ---
-# ACSD-56415: The performance of the [!UICONTROL partial price indexing] is slowed down due to a `DELETE` query when the database has a lot of partial price data to index.
+# ACSD-56415: Performance of [!UICONTROL Partial Price Indexing] is slowed due to `DELETE` query
 
 The ACSD-56415 patch fixes the issue where the performance of the [!UICONTROL partial price indexing] is slowed down due to a [!UICONTROL DELETE] query when the database has a lot of partial price data index. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56023. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
