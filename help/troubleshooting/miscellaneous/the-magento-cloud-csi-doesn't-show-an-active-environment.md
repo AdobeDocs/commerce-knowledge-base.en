@@ -1,6 +1,6 @@
 ---
 title: The Magento-cloud CLI doesn't show an active environment
-description: This article describes a known Adobe Commerce issue where the Magento-cloud CLI doesn't show an active environment. 
+description: This article describes a known Adobe Commerce issue where the Magento-cloud CLI (command-line tool) doesn't show an active environment. 
 feature:  Configuration
 role: Developer
 ---
@@ -9,9 +9,9 @@ role: Developer
 
 ## Issue
 
-There are several active environments and you are trying to interact with an environment by running a Magento-cloud CLI command `(For example: ssh, db:size, db:sql, etc.)`
+There are several active environments and you are trying to interact with an environment by running a Magento-cloud CLI (command-line tool) command `(For example: ssh, db:size, db:sql, etc.)`
 
-However, the prompt to choose the desired environment doesn't list this environment, e.g., the integration environment:
+However, the prompt to choose the desired environment doesn't list this environment, for example, the integration environment:
 
 Enter a number to choose an environment:
 Default: master
