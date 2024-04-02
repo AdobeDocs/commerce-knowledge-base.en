@@ -1,13 +1,13 @@
 ---
-title: 'ACSD-56415: Performance of the [!UICONTROL partial price indexing] is slowed down due to a [!UICONTROL DELETE] query.'
-description: Apply the ACSD-56415 patch to fix the Adobe Commerce issue where the performance of the [!UICONTROL partial price indexing] gets slowed down due to a [!UICONTROL DELETE] query when the database has a lot of partial price data to index.
+title: 'ACSD-56415: The performance of the [!UICONTROL partial price indexing] is slowed down due to a `DELETE` query when the database has a lot of partial price data to index.'
+description: Apply the ACSD-56415 patch to fix the Adobe Commerce issue where the performance of the [!UICONTROL partial price indexing] is slowed down due to a `DELETE` query when the database has a lot of partial price data to index.
 feature: Catalog Service
 role: Admin, Developer
 exl-id: 2ff33b1c-ae92-4c59-83d2-e252bf543bab
 ---
-# ACSD-56415: Perfomance of the [!UICONTROL partial price indexing] is slowed down due to a [!UICONTROL DELETE] query when the database has a lot of partial price data to index
+# ACSD-56415: The performance of the [!UICONTROL partial price indexing] is slowed down due to a `DELETE` query when the database has a lot of partial price data to index.
 
-The ACSD-56415 patch fixes the issue where the perfomance of the [!UICONTROL partial price indexing] is slowed down due to a [!UICONTROL DELETE] query when the database has a lot of partial price data index. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56023. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56415 patch fixes the issue where the performance of the [!UICONTROL partial price indexing] is slowed down due to a [!UICONTROL DELETE] query when the database has a lot of partial price data index. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56023. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -25,13 +25,13 @@ The ACSD-56415 patch fixes the issue where the perfomance of the [!UICONTROL par
 
 ## Issue
 
-Perfomance of [!UICONTROL partial price indexing] is slowed down due to a [!UICONTROL DELETE] query when the database has a lot of partial price data index. 
+The performance of [!UICONTROL partial price indexing] is slowed down due to a `[!UICONTROL DELETE]` query when the database has a lot of partial price data index. 
 
 <u>Steps to reproduce</u>:
 
-1. Create 300000 products and 10 websites using the large performance profile.
+1. Create "300000 products" and "10 websites" using the large performance profile.
 1. Login to the Admin Panel.
-1. Create 10 customer groups.
+1. Create "10 customer groups".
 1. Execute below query to add products to _cl table:
 
     ``
@@ -47,11 +47,11 @@ Perfomance of [!UICONTROL partial price indexing] is slowed down due to a [!UICO
 
 <u>Expected results</u>:
 
-The DELETE `main_table` query FROM `catalog_product_index_price` SQL is performed in scope of few seconds.
+DELETE `main_table` FROM `catalog_product_index_price` SQL is performed in scope of few seconds.
 
 <u>Actual results</u>:
 
-DELETE `main_table` FROM `catalog_product_index_price` SQL is performed very slow.
+DELETE `main_table` FROM `catalog_product_index_price` SQL is performed very slowly.
 
 ## Apply the patch
 
