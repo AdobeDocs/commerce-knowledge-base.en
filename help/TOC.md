@@ -1064,7 +1064,7 @@ breadcrumb-title: Commerce KB
     * [Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
     * [Getting thousands of search results after upgrading from 2.4.2 to 2.4.5-p3](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
     * [Cannot change search engine in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
-    * [The Magento-cloud CLI doesn't show an active environment](/help/troubleshooting/miscellaneous/the-magento-cloud-csi-doesn't-show-an-active-environment.md)
+    * [The Magento-cloud CLI doesn't show an active environment](/help/troubleshooting/miscellaneous/the-magento-cloud-csi-doesnt-show-an-active-environment.md)
     * [[!DNL SendGrid] file limitation for Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
