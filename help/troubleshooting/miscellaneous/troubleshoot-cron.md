@@ -9,7 +9,7 @@ role: Developer
 
 This article offers troubleshooting solutions for issues with cron in Adobe Commerce on-premises products.
 
-Affected products and versions
+## Affected products and versions
 
 * Adobe Commerce on-premises 2.2.x, 2.3.x
 * Magento Open Source 2.2.x, 2.3.x
@@ -44,7 +44,7 @@ To verify whether or not your crontab is set up do the following steps:
 
 1. Log in to your Magento server as, or switch to, the [Magento file system owner](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html).
 1. See if the following file exists:    `bash    ls -al <magento_root>/var/.setup_cronjob_status`. If the file exists, cron has run successfully in the past. If the file *does not* exist, either you haven't yet installed Magento or cron isn't running. In either case, continue with the next step.
-1. Get more detail about cron. As a user with `root` privileges, enter the following command:    `bash    crontab -u <Magento file system owner name> -l`.    For example, on CentOS `bash    crontab -u magento_user -l`.  If no crontab has been set up for the user, the following message displays:    `terminal    no crontab for magento_user`. Your crontab tells you the following:
+1. Get more detail about cron. As a user with `root` privileges, enter the following command:    `bash    crontab -u <Magento file system owner name> -l`. For example, on CentOS `bash    crontab -u magento_user -l`.  If no crontab has been set up for the user, the following message displays:    `terminal    no crontab for magento_user`. Your crontab tells you the following:
 
     * What PHP binary you're using (in some cases, you have more than one)
     * What Magento cron scripts you're running (in particular, the paths to those scripts)

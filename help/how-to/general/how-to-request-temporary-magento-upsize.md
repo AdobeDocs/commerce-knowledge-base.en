@@ -10,7 +10,7 @@ If your organization is planning an online event in which you expect high traffi
 
 >[!NOTE]
 >
->48 business hours notice is required for non-emergency upsize requests.
+>48 business hours notice is required for non-emergency upsize requests. Upsizes for promotional campaigns are not considered emergencies unless the site is completely non-functional or receiving much higher traffic than anticipated and performance has been severely degraded.
 
 ## Affected products and versions
 

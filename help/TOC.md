@@ -763,6 +763,7 @@ breadcrumb-title: Commerce KB
     * v1.1.45 {#v1-1-45}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.45](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/overview.md)
         * [ACSD-56447: Adding same product to cart via parallel web REST API requests results in two separate items in cart](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56447-adding-same-product-to-cart-via-parallel-web-api-rest-requests-results-in-two-separate-items-in-the-cart.md)
+        * [ACSD-54965: [!UICONTROL Visual Merchandising] grid does not display the correct stock](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-54965-visual-merchandising-grid-not-display-correct-stock.md)
         * [ACSD-56886: Configurable product becomes out of stock when child products disabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56886-configurable-product-becomes-out-of-stock-when-child-products-are-disabled.md)
         * [ACSD-56515: Admin with permissions cannot edit [!UICONTROL Dynamic Block]](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56515-admin-with-permissions-cannot-edit-dynamic-block.md)
         * [ACSD-56616: Storefront display of bundled products during simple stock shortage](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56616-out-of-stock-simple-products-trigger-bundle-display.md)
@@ -770,8 +771,14 @@ breadcrumb-title: Commerce KB
         * [ASCD-56415: Performance of [!UICONTROL Partial Price Indexing] is slowed due to DELETE query](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56415-performance-of-partial-price-indexing-is-slowed-down-due-to-a-delete-query.md)
     * v1.1.46 {#v1-1-46}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.46](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/overview.md)
+        * [ACSD-56621: Updated names not displayed in greetings header for company admin user](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-56621-name-update-issue-in-greetings-header-section.md)
         * [ACSD-55100: [!DNL GraphQL] doesn't return products beyond 10k in search results](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-55100-graphql-does-not-return-products-beyond-10k-in-the-search-results.md)
         * [ACSD-56842: Deferred proxies and proxy factories are missing](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-56842-deferred-proxies-and-proxy-factories-are-missing.md)
+        * [ACSD-57003: Order status changes to Complete instead of changing to Processing](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-57003-order-status-changed-to-complete-instead-of-processing.md)
+    * v1.1.47 {#v1-1-47}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.47](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/overview.md)
+    * v1.1.48 {#v1-1-48}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)    
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -882,6 +889,7 @@ breadcrumb-title: Commerce KB
     * [Applying a patch takes your site down](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [Error 404 on all pages due to Content Staging issue](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
   * Miscellaneous {#miscellaneous}
+    * [How to check why [!DNL cron] was disabled](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
     * [Error [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
     * [Indexes invalidated and "indexer_reindex_all_invalid" run constantly](/help/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.md)
     * [Missing or altered configuration file](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -1147,6 +1155,7 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
+  * [Adobe Commerce P1 Notification hotline](/help/how-to/general/adobe-commerce-p1-notification-hotline.md)
   * [How to include a team member in Support notifications](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
