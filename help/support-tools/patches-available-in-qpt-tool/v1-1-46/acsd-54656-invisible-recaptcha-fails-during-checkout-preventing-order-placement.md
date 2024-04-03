@@ -39,7 +39,7 @@ Error message shows up: *[!DNL reCAPTCHA] validation failed, please try again*.
 
 <u>Expected Results</u>:
 
-Gift card should be applied successfully.
+Gift card is applied successfully.
 
 ## Apply the patch
 
