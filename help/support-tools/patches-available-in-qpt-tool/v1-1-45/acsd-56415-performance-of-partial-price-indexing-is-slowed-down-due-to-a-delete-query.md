@@ -31,7 +31,7 @@ The performance of [!UICONTROL Partial Price Indexing] is slowed down due to a `
 1. Create *300000 products* and *10 websites* using the large performance profile.
 1. Log in to the Admin Panel.
 1. Create *10 customer groups*.
-1. Execute below query to add products to _cl table:
+1. Execute the below query to add products to the `_cl` table:
 
     ``
        insert into catalog_product_price_cl (entity_id) select entity_id from catalog_product_entity
