@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce Support Knowledge Base
-description: Everything you need to troubleshoot and maintain your Commerce store.
+description: Everything you need to know to troubleshoot and maintain your Commerce store.
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
@@ -22,6 +22,12 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 | [How-To](/help/how-to/overview.md) | Get clear step-by-step instructions from the Adobe Commerce Support team. |
 | [FAQ](/help/faq/overview.md) | Find frequently asked questions about Adobe Commerce policies, strategies, and specifics about Adobe Commerce features. | 
 
+>[!NOTE]
+>
+>To file a new ticket, sign in to [Adobe Commerce Help Center](https://support.magento.com/) and follow the steps detailed under [Submit a Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket). 
+>
+>If you don't see the option to submit a ticket, refer to the *[Submit a ticket link not displayed](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)* section in our [Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md).
+
 ## What's New
 
 <table style="width:100%">
@@ -33,65 +39,49 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/recommendations-js-errors-after-upgrade-to-adobe-commerce-version-2.4.5.html">Recommendations JS errors after upgrade to Adobe Commerce version 2.4.5:</a> This article provides a fix for when after the upgrade to Adobe Commerce (all deployment methods), there are JS errors in the console related to the product Recommendations modules/units.
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56790-move-out-of-stock-to-bottom-option-does-not-work-while-sorting-products-in-the-visual-merchandiser.html">ACSD-56790: The <b>move out of stock to bottom</b> option doesn't work when sorting products in [!DNL Visual Merchandiser]:</a> The ACSD-56790 patch fixes the issue where the move out of stock to bottom option does not work while sorting products in the Visual Merchandiser. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed.
     </td>
     <td>New article</td>
-    <td>February 15, 2024</td>
+    <td>February 28, 2024</td>
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-56616-out-of-stock-simple-products-trigger-bundle-display.html">ACSD-56616: Storefront display of bundled products during simple stock shortage:</a> The ACSD-56616 patch fixes the issue where bundled products unexpectedly appear on the storefront when all associated simple products are out of stock. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45 is installed.  
+    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56158-wrong-tax-value-in-graphql-when-multiple-tax-rules-applied-to-cart.html">ACSD-56158: Wrong tax value in GraphQL response when multiple tax rules applied to cart:</a> The ACSD-56158 patch fixes the issue where the tax value rendering in the GraphQL response is incorrect when multiple tax rules are applied to the cart. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed.  
     </td>
     <td>New article</td>
-    <td>February 15, 2024</td>
+    <td>February 28, 2024</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-55427-admin-user-cannot-unassign-product-from-shared-catalog-from-product-page.html">ACSD-55427: Admin cannot unassign product from **[!UICONTROL Product in Shared Catalogs]** on the product's page:</a> The ACSD-55427 patch fixes the issue where you cannot unassign a product from **[!UICONTROL Product in Shared Catalogs]** on the product's page in the catalog in the Commerce Admin. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-56515-admin-with-permissions-cannot-edit-dynamic-block.html">ACSD-56515: Admin with website-level permissions cannot edit [!UICONTROL Dynamic Block]:</a> The ACSD-56515 patch fixes the issue where the admin with website-level permissions cannot add or edit the [!UICONTROL Dynamic Block]. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45 is installed. 
     </td>
     <td>New article </td>
-    <td>February 15, 2024</td>
+    <td>February 28, 2024</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-55231-sku-not-found-in-catalog.html">ACSD-55231: SKU not found error while using quick order functionality:</a> The ACSD-55231 patch fixes the issue where you get <em>'The SKU was not found in the catalog'</em> error when trying to add a product to the cart using quick order functionality. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-56886-configurable-product-becomes-out-of-stock-when-child-products-are-disabled.html">ACSD-56886: Configurable product becomes out of stock when child products are disabled:</a> The ACSD-56886 patch fixes the issue where the configurable product becomes out of stock when child products are disabled. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45 is installed. 
     </td>
     <td>New article </td>
-    <td>February 15, 2024</td>
+    <td>February 28, 2024</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56280-gift-registry-purchases-are-not-completed.html">ACSD-56280: Gift registry purchases are not completed:</a> The ACSD-56280 patch fixes the issue where the gift registry purchases are not completed. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed. 
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56246-scheduling-product-updates-clears-multiselect-attributes-values.html">ACSD-56246: Scheduling product updates clears multiselect attributes values:</a> The ACSD-56246 patch fixes the issue where scheduling product updates clears multiselect attributes values. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed. 
     </td>
     <td>New article </td>
-    <td>February 15, 2024</td>
+    <td>February 28, 2024</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56193-fastly-cache-not-cleared-for-content-staging-update.html">ACSD-56193: [!DNL Fastly] cache is not cleared for content staging update:</a> The ACSD-56193 patch fixes the issue where the [!DNL Fastly] cache is not cleared for content staging update. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed.  
+    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56023-widget-content-not-updating-on-the-cms-page.html">ACSD-56023: Widget content is not updating on the CMS page:</a> The ACSD-56023 patch fixes the issue where the widget content is not updating on the CMS page. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed.  
     </td>
     <td>New article </td>
-    <td>February 15, 2024</td>
- </tr>
-
-  <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-55352-creating-credit-memos-with-reward-points.html">ACSD-55352: Creating credit memos with reward points:</a> The ACSD-55352 patch fixes the issue where after creating a partial credit memo with customer reward points, the order status changes to <em>closedM</em> and credit memo options disappear from the admin order page. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed. 
-    </td>
-    <td>New article </td>
-    <td>February 15, 2024</td>
- </tr>
-
- <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sendgrid-file-limitation.html">SendGrid limitation for Adobe Commerce Cloud:</a> This article provides some workarounds to the SendGrid limitation for Adobe Commerce on Cloud infrastructure.
-    </td>
-    <td>New article </td>
-    <td>February 15, 2024</td>
+    <td>February 28, 2024</td>
  </tr>
 </table>
 

@@ -1,19 +1,17 @@
 ---
-title: "'Area code is not set' error when running setup:updgrade"
-description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting the *"Area code is not set"* error when running the
+title: "'Area code is not set' error when running setup:upgrade"
+description: This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to the *Area code is not set* error when running the setup:upgrade command. 
 exl-id: ace92331-6022-49fa-a776-d06d841b3b32
 feature: Install, Upgrade
 role: Developer
 ---
-# 'Area code is not set' error when running setup:updgrade
+# 'Area code is not set' error when running `setup:upgrade`
 
-This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting the *"Area code is not set"* error when running the
+This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.3 issue related to getting the *"Area code is not set"* error when running the following command:
 
 ```bash
 setup:upgrade
 ```
-
-command.
 
 >[!NOTE]
 >
