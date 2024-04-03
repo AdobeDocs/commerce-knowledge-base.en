@@ -50,7 +50,7 @@ DELETE `main_table` FROM `catalog_product_index_price` SQL is performed in scope
 
 <u>Actual results</u>:
 
-DELETE `main_table` FROM `catalog_product_index_price` SQL is performed very slowly.
+The SQL query DELETE `main_table` FROM `catalog_product_index_price` is executed very slowly.
 
 ## Apply the patch
 
