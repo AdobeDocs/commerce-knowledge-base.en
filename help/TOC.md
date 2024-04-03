@@ -774,8 +774,10 @@ breadcrumb-title: Commerce KB
         * [ACSD-55100: [!DNL GraphQL] doesn't return products beyond 10k in search results](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-55100-graphql-does-not-return-products-beyond-10k-in-the-search-results.md)
         * [ACSD-56842: Deferred proxies and proxy factories are missing](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-56842-deferred-proxies-and-proxy-factories-are-missing.md)
         * [ACSD-57003: Order status changes to Complete instead of changing to Processing](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-57003-order-status-changed-to-complete-instead-of-processing.md)
+    * v1.1.47 {#v1-1-47}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.47](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/overview.md)
     * v1.1.48 {#v1-1-48}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)    
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
