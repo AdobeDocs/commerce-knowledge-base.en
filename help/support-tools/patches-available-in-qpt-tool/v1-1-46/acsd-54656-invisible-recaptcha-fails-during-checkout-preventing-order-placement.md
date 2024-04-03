@@ -32,14 +32,14 @@ Invisible [!DNL reCAPTCHA] fails during checkout, which prevents order placement
 1. Add product to cart and go to the **[!UICONTROL Checkout]** page.
 1. Expand the gift card form and fill in a valid gift card coupon.
 1. Click on **[!UICONTROL See balance and apply]** button.
+   
+<u>Expected Results</u>:
+
+Gift card is applied successfully.
 
 <u>Actual Results</u>:
 
 Error message shows up: *[!DNL reCAPTCHA] validation failed, please try again*.
-
-<u>Expected Results</u>:
-
-Gift card is applied successfully.
 
 ## Apply the patch
 
