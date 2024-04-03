@@ -46,7 +46,7 @@ The performance of [!UICONTROL partial price indexing] is slowed down due to a `
 
 <u>Expected results</u>:
 
-DELETE `main_table` FROM `catalog_product_index_price` SQL is performed in scope of few seconds.
+The SQL query DELETE `main_table` FROM `catalog_product_index_price` is executed quickly.
 
 <u>Actual results</u>:
 
