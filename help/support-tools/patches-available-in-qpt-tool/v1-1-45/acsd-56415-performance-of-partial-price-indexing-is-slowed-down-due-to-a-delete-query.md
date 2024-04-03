@@ -24,7 +24,7 @@ The ACSD-56415 patch fixes the issue where the performance of the [!UICONTROL Pa
 
 ## Issue
 
-The performance of [!UICONTROL partial price indexing] is slowed down due to a `[!UICONTROL DELETE]` query when the database has a lot of partial price data index. 
+The performance of [!UICONTROL Partial Price Indexing] is slowed down due to a `DELETE` query when the database has a lot of partial price data index. 
 
 <u>Steps to reproduce</u>:
 
