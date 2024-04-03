@@ -43,7 +43,6 @@ The performance of [!UICONTROL Partial Price Indexing] is slowed down due to a `
        bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1
     ``
 
-
 <u>Expected results</u>:
 
 The SQL query DELETE `main_table` FROM `catalog_product_index_price` is executed quickly.
