@@ -25,7 +25,7 @@ This article covers the essentials of backing up your environments with snapshot
 
 >[!NOTE]
 >The Cloud Console always shows [!UICONTROL No backup] in Staging and Production environments. You can only take backups from the integration environment. Select **[!UICONTROL Backup]** on the ellipsis drop down menu.
->![image](https://git.corp.adobe.com/storage/user/38345/files/4ea7d72b-1652-4fc4-bbc3-21309a36126d)
+>![cloud_console_backup.png](assets/cloud_console_backup.png)
 
 
 
