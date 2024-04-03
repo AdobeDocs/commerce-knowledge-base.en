@@ -37,7 +37,7 @@ The performance of [!UICONTROL Partial Price Indexing] is slowed down due to a `
        insert into catalog_product_price_cl (entity_id) select entity_id from catalog_product_entity
     ``
 
-1. Execute below command to trigger the partial price indexing process:
+1. Execute the below command to trigger the partial price indexing process:
 
     ``
        bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1
