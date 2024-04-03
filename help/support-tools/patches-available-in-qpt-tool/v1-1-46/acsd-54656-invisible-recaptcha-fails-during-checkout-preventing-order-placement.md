@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-54656: Invisible [!DNL reCAPTCHA] fails during checkout, which prevents order placement.
 
-The ACSD-54656 patch fixes the issue where the invisible [!DNL reCAPTCHA] fails during checkout, which prevents order placement. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.46 is installed. The patch ID is ACSD-54656. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-54656 patch fixes the issue where the invisible [!DNL reCAPTCHA] fails during checkout, which prevents order placement. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.46 is installed. The patch ID is ACSD-54656. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
