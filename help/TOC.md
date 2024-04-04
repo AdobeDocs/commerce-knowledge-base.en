@@ -820,6 +820,8 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
     * [Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6](/help/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.md)
   * Payments {#payments}
+    * [Troubleshoot create order page in [!UICONTROL CSP] restricted mode](/help/troubleshooting/payments/admin-create-order-page-in-csp-restricted-mode.md)
+    * [Troubleshoot storefont checkout page in [!UICONTROL CSP] restricted mode](/help/troubleshooting/payments/storefront-checkout-page-in-csp-restricted-mode.md)
     * [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](/help/troubleshooting/payments/magento-2-4-0-known-issue-missing-refund-label-in-klarna.md)
     * [Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
     * [2.3.4 PayPal issue hotfix](/help/troubleshooting/payments/2-3-4-paypal-issue-hotfix.md)
