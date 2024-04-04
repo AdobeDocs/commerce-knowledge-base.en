@@ -38,7 +38,7 @@ The page doesn't load from the cache. It is re-generated.
 
 <u>Expected Results</u>:
 
-Page should be loaded from cache.
+The page loads from the cache.
 
 ## Apply the patch
 
