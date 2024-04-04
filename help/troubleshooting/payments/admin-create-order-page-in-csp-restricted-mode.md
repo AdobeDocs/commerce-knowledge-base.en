@@ -3,8 +3,8 @@ title: Troubleshoot create order page in [!UICONTROL CSP] restricted mode
 description: This article explains errors creating an order on the Admin side when CSP restricted mode is Enabled, and provides solutions to fix those errors.
 feature: Checkout,Security,Orders,Payments
 role: Developer
+exl-id: c1a0886a-df1f-418a-9e4d-562b28a0d8b3
 ---
-
 # Troubleshoot create order page in [!UICONTROL CSP] restricted mode
 
 This article provides explanations and fixes for the Adobe Commerce 2.4.7 issues while creating an order on the Admin side with **[!UICONTROL CSP restricted mode]** is *Enabled*, with the "*Refused to execute inline script because it violates the following Content Security Policy directive: "script-src ...*" error message in the browser console log.
@@ -233,4 +233,3 @@ Users might see browser errors due to certain scripts being blocked because of *
     ```
   
 1. [Add a [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) to your module's `csp_whitelist.xml` file.
- 

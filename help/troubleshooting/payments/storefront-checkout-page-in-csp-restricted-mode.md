@@ -3,8 +3,8 @@ title: Troubleshoot storefront checkout page in [!UICONTROL CSP] restricted mode
 description: This article explains errors you may experience while viewing checkout page in CSP restricted mode, and provides solutions to fix those errors.
 feature: Checkout,Security,Orders,Payments
 role: Developer
+exl-id: fb92b75d-c88b-4810-a309-d6ab38485e86
 ---
-
 # Troubleshoot storefront checkout page in [!UICONTROL CSP] restricted mode
 
 This article provides explanations and fixes for the Adobe Commerce 2.4.7 issues while viewing the checkout page in **[!UICONTROL CSP restricted mode]**, with the "*Refused to execute inline script because it violates the following Content Security Policy directive: "script-src ...*" error message in the browser console log.
@@ -227,4 +227,3 @@ Users might see browser errors due to certain scripts being blocked because of *
     ```
    
 1. [Add a [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) to your module's `csp_whitelist.xml` file.
- 
