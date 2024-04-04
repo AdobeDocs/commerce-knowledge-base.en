@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot storefont checkout page in [!UICONTROL CSP] restricted mode
+title: Troubleshoot storefront checkout page in [!UICONTROL CSP] restricted mode
 description: This article explains errors you may experience while viewing checkout page in CSP restricted mode, and provides solutions to fix those errors.
 feature: Checkout,Security,Orders,Payments
 role: Developer
