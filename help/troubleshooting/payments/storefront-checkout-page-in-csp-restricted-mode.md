@@ -227,3 +227,4 @@ Users might see browser errors due to certain scripts being blocked because of *
     ```
    
 1. [Add a [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) to your module's `csp_whitelist.xml` file.
+ 
