@@ -34,7 +34,7 @@ The ACSD-46767 patch fixes the issue where the [!UICONTROL Category] page caches
 
 <u>Actual Results</u>:
 
-Page is not loaded from the cache, it is re-generated.
+The page doesn't load from the cache. It is re-generated.
 
 <u>Expected Results</u>:
 
