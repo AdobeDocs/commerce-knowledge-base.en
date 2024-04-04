@@ -27,7 +27,7 @@ The ACSD-46767 patch fixes the issue where the [!UICONTROL Category] page caches
 
 <u>Steps to reproduce</u>:
 
-1. Create few products and add them to the same category.
+1. Create a few products and add them to the same category.
 1. Open category page on the frontend to ensure the page is cached.
 1. Place the order with one of the products from the category *(product quantity is changed, but product is still in stock)*.
 1. Open the [!UICONTROL Category] page on the frontend again.
