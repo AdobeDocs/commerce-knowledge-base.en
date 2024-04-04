@@ -20,7 +20,7 @@ Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, and Magento 
 
 ## Issue - Storefront Checkout page is broken or isn't able to load
 
-The **storefont checkout** page is broken or isn't able to load, with the "*Refused to execute inline script because it violates the following Content Security Policy directive: "script-src ...*" error message in the browser console log.
+The **storefront checkout** page is broken or isn't able to load, with the "*Refused to execute inline script because it violates the following Content Security Policy directive: "script-src ...*" error message in the browser console log.
 
 <u>Steps to reproduce</u>:
 
@@ -50,7 +50,7 @@ Users might see browser errors due to certain scripts being blocked because of *
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) the blocked scripts using the `SecureHtmlRenderer` class.
 1. Use the `CSPNonceProvider` class to allow scripts to be executed.
-    Adobe Commerce and Magento Open Source 2.4.7 and later include a **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] provider to facilitate the generation of unique [!DNL nonce] strings for each request.  These [!DNL nonce] strings are then attached to the [!UICONTROL CSP] header.
+    Adobe Commerce and Magento Open Source 2.4.7 and later include a **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] provider to facilitate the generation of unique [!DNL nonce] strings for each request. These [!DNL nonce] strings are then attached to the [!UICONTROL CSP] header.
     
     Use the `generateNonce` function in `Magento\Csp\Helper\CspNonceProvider` to obtain a [!DNL nonce] string.
     
@@ -120,7 +120,7 @@ Users might see browser errors due to certain scripts being blocked because of *
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) the blocked scripts using the `SecureHtmlRenderer` class.
 1. Use the `CSPNonceProvider` class to allow scripts to be executed.
-    Adobe Commerce and Magento Open Source 2.4.7 and later include a **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] provider to facilitate the generation of unique [!DNL nonce] strings for each request.  These [!DNL nonce] strings are then attached to the [!UICONTROL CSP] header.
+    Adobe Commerce and Magento Open Source 2.4.7 and later include a **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] provider to facilitate the generation of unique [!DNL nonce] strings for each request. These [!DNL nonce] strings are then attached to the [!UICONTROL CSP] header.
     
     Use the `generateNonce` function in `Magento\Csp\Helper\CspNonceProvider` to obtain a [!DNL nonce] string.
     
@@ -191,7 +191,7 @@ Users might see browser errors due to certain scripts being blocked because of *
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) the blocked scripts using the `SecureHtmlRenderer` class.
 1. Use the `CSPNonceProvider` class to allow scripts to be executed.
-    Adobe Commerce and Magento Open Source 2.4.7 and later include a **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] provider to facilitate the generation of unique [!DNL nonce] strings for each request.  These [!DNL nonce] strings are then attached to the [!UICONTROL CSP] header.
+    Adobe Commerce and Magento Open Source 2.4.7 and later include a **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] provider to facilitate the generation of unique [!DNL nonce] strings for each request. These [!DNL nonce] strings are then attached to the [!UICONTROL CSP] header.
     
     Use the `generateNonce` function in `Magento\Csp\Helper\CspNonceProvider` to obtain a [!DNL nonce] string.
     
