@@ -1150,6 +1150,7 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
+  * [How to obtain and apply security patches](/help/how-to/general/how-to-obtain-apply-security-patches.md)
   * [Adobe Commerce P1 Notification hotline](/help/how-to/general/adobe-commerce-p1-notification-hotline.md)
   * [How to include a team member in Support notifications](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
