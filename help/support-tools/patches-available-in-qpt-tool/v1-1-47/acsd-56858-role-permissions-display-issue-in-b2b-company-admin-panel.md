@@ -32,7 +32,7 @@ The role permissions for a restricted company admin in the B2B environment are i
 1. Log in as the company admin at the storefront and create various roles for different users.
 1. Assign these roles as needed, such as limiting access for some tasks while allowing full access for others.
 1. Assign these roles with full access to other user other than the company admin.
-1. Switch to a non-company admin account, like a company manager.
+1. Log in to a non-company admin user, for e.g. a company_manager.
 1. Navigate to [!UICONTROL Roles and permission] > Edit the role.
 1. Notice that the permissions displayed do not match the permissions set in the company's database for that role ID.
 
