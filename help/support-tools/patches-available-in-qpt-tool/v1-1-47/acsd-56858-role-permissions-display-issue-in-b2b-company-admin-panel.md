@@ -29,7 +29,7 @@ The role permissions for a restricted company admin in the B2B environment are i
 <u>Steps to reproduce</u>:
 
 1. Begin by setting up a company, adding a company admin and company users.
-1. Log in as the company admin at the front end and create various roles for different users.
+1. Log in as the company admin at the storefront and create various roles for different users.
 1. Assign these roles as needed, such as limiting access for some tasks while allowing full access for others.
 1. Assign these roles with full access to other user other than the company admin.
 1. Switch to a non-company admin account, like a company manager.
