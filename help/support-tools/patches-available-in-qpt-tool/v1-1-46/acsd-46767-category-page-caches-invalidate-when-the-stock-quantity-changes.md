@@ -1,10 +1,10 @@
 ---
-title: "ACSD-46767: [!UICONTROL Category] page caches invalidate when the stock quantity changes"
+title: 'ACSD-46767: [!UICONTROL Category] page caches invalidate when the stock quantity changes'
 description: Apply the ACSD-46767 patch to fix the Adobe Commerce issue where the [!UICONTROL Category] page caches invalidate when the stock quantity changes, even if the product is still in stock.
 feature: Cache, Products, Inventory
 role: Admin, Developer
+exl-id: 39811c03-8518-4975-a128-31537b4706c0
 ---
-
 # ACSD-46767: [!UICONTROL Category] page caches invalidate when the stock quantity changes
 
 The ACSD-46767 patch fixes the issue where the [!UICONTROL Category] page caches invalidate when the stock quantity changes, even if the product is still in stock. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.46 is installed. The patch ID is ACSD-46767. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
