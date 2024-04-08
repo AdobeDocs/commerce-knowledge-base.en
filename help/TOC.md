@@ -1152,7 +1152,7 @@ breadcrumb-title: Commerce KB
   * [How-to overview](/help/how-to/overview.md)
   * [Adobe Commerce P1 Notification hotline](/help/how-to/general/adobe-commerce-p1-notification-hotline.md)
   * [How to include a team member in Support notifications](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
-  * [How to obtain and apply security patches](/help/how-to/general/how-to-obtain-apply-security-patches.md)
+  * [How to obtain and apply security patches](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
   * [Adobe Commerce Intelligence Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
