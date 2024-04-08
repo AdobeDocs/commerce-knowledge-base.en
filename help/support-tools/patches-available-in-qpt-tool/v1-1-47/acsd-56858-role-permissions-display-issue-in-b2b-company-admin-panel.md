@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-56858: Role permissions discrepancy in B2B company admin panel
 
-The ACSD-56858 patch fixes the issue where role permissions are incorrectly displayed for restricted company admins in the B2B environment. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.47 is installed. The patch ID is ACSD-56858. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56858 patch fixes the issue where role permissions are incorrectly displayed for a restricted company admin in the B2B environment. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.47 is installed. The patch ID is ACSD-56858. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
