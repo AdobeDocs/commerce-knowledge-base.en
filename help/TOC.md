@@ -1040,7 +1040,6 @@ breadcrumb-title: Commerce KB
     * [High throughput AJAX requests cause poor performance](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)
     * [PWA Studio: Browser displays "Cannot proxy to" error](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
     * [run setup:static-content:deploy deployed_version.txt issue](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed-version-txt-issue.md)
-    * [Coupon for single use is used multiple times, Adobe Commerce](/help/troubleshooting/miscellaneous/coupon-code-used-more-than-once-adobe-commerce.md)
     * [Redirect back to the Commerce Admin login form with "Your account is temporarily disabled" error](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
     * [Google Analytics gets disabled after deployment](/help/troubleshooting/miscellaneous/google-analytics-gets-disabled-after-deployment.md)
     * [Troubleshooting Adobe Commerce Intelligence account lockout](/help/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.md)
