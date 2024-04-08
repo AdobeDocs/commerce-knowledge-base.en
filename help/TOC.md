@@ -771,6 +771,7 @@ breadcrumb-title: Commerce KB
         * [ASCD-56415: Performance of [!UICONTROL Partial Price Indexing] is slowed due to DELETE query](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56415-performance-of-partial-price-indexing-is-slowed-down-due-to-a-delete-query.md)
     * v1.1.46 {#v1-1-46}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.46](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/overview.md)
+        * [ACSD-46767: [!UICONTROL Category] page caches invalidate when the stock quantity changes](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-46767-category-page-caches-invalidate-when-the-stock-quantity-changes.md)
         * [ACSD-54656: Invisible [!DNL reCAPTCHA] fails during checkout, which prevents order placement](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-54656-invisible-recaptcha-fails-during-checkout-preventing-order-placement.md)
         * [ACSD-56621: Updated names not displayed in greetings header for company admin user](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-56621-name-update-issue-in-greetings-header-section.md)
         * [ACSD-55100: [!DNL GraphQL] doesn't return products beyond 10k in search results](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-55100-graphql-does-not-return-products-beyond-10k-in-the-search-results.md)
