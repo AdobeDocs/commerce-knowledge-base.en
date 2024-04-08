@@ -42,7 +42,7 @@ The roles and permission appear correctly for the non-admin company users.
 
 <u>Actual results</u>:
 
-The roles do not appear correctly for the non-admin company user as per the DB records in the permission table.
+The roles do not appear correctly for the non-admin company user as per the database records in the permission table.
 
 ## Apply the patch
 
