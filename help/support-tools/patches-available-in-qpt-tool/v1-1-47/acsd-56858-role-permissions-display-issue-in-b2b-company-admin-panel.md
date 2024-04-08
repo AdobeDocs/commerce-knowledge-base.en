@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-56858: Role permissions discrepancy in B2B company admin panel'
+title: 'ACSD-56858: Role permissions discrepancy in B2B company admin'
 description: Apply the ACSD-56858 patch to fix the Adobe Commerce issue where role permissions are incorrectly displayed for a restricted company admin in the B2B environment.
 feature: Companies, B2B
 role: Admin, Developer
 ---
-# ACSD-56858: Role permissions discrepancy in B2B company admin panel
+# ACSD-56858: Role permissions discrepancy in B2B company admin
 
 The ACSD-56858 patch fixes the issue where role permissions are incorrectly displayed for a restricted company admin in the B2B environment. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.47 is installed. The patch ID is ACSD-56858. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
@@ -33,16 +33,16 @@ The role permissions for a restricted company admin in the B2B environment are i
 1. Assign these roles as needed, such as limiting access for some tasks while allowing full access for others.
 1. Assign these roles with full access to other user other than the company admin.
 1. Log in to a non-company admin user, for e.g. a company_manager.
-1. Navigate to **[!UICONTROL Roles and permission]** > Edit the role.
+1. Navigate to **[!UICONTROL Roles and permission]** and edit the role.
 1. Notice that the permissions displayed do not match the permissions set in the company's database for that role ID.
 
 <u>Expected results</u>:
 
-The roles and permission appear correctly for the non-admin company users.
+The roles and permission appear correctly for the non-company admin user.
 
 <u>Actual results</u>:
 
-The roles do not appear correctly for the non-admin company user as per the database records in the permission table.
+The roles do not appear correctly for the non-company admin user as per the database records in the permission table.
 
 ## Apply the patch
 
