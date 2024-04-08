@@ -24,7 +24,7 @@ The ACSD-56858 patch fixes the issue where role permissions are incorrectly disp
 
 ## Issue
 
-Role permissions for restricted company admins in B2B environments are inaccurately displayed.
+The role permissions for a restricted company admin in the B2B environment are inaccurately displayed.
 
 <u>Steps to reproduce</u>:
 
