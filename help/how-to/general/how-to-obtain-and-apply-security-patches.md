@@ -1,10 +1,10 @@
 ---
-title: How to obtain and apply security patches
-description: This article discusses how to obtain and apply a security patch that has been released when you lack instructions on how to do so.
+title: How to obtain and apply [!UICONTROL security patch]
+description: This article discusses how to obtain and apply a [!UICONTROL security patch] that has been released when you lack instructions on how to do so.
 ---
-# How to obtain and apply security patches
+# How to obtain and apply [!UICONTROL security patch]
 
-Explore what to do when a new security patch has been released but you have not been provided instructions on how to obtain the patch and apply it.
+Explore what to do when a new [!UICONTROL security patch] has been released but you have not been provided instructions on how to obtain the patch and apply it.
 
 ## Affected products and versions 
 
@@ -24,7 +24,7 @@ If a physical patch file/hotfix was not mentioned in the Release Notes:
 
 * **Cloud:**
 
-1. Some Security Patches might be included/released in the latest version of Cloud Tools Suite (ECE Tools) under Cloud Patches for Commerce - check the [Release Notes](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite), and if a security fix is mentioned in the release, upgrade the package to that version.
+1. Some [!UICONTROL Security Patches] might be included/released in the latest version of Cloud Tools Suite (ECE Tools) under Cloud Patches for Commerce - check the [Release Notes](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite), and if a security fix is mentioned in the release, upgrade the package to that version.
    
 1. If the Release Notes do not mention a security fix, continue reading.
 
@@ -35,4 +35,4 @@ If a physical patch file/hotfix is not available, you must [upgrade your Commerc
 ## Related reading
 
 * See [Release notes for Commerce Cloud Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) in the *Adobe Commerce on Cloud Infrastructure Guide*.
-* See [upgrade your Commerce version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in the *Commerce on Cloud Infrastructure Guide*.
+* See [upgrade your Commerce version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in the *Adobe Commerce on Cloud Infrastructure Guide*.
