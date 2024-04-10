@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-56858: Role permissions discrepancy in B2B company admin'
 description: Apply the ACSD-56858 patch to fix the Adobe Commerce issue where role permissions are incorrectly displayed for a restricted company admin in the B2B environment.
-feature: Companies, B2B
+feature: Companies, B2B, Roles/Permissions
 role: Admin, Developer
 ---
 # ACSD-56858: Role permissions discrepancy in B2B company admin
