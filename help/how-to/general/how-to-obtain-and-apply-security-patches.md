@@ -4,7 +4,7 @@ description: This article provides instructions on how to obtain and apply a [!U
 ---
 # How to obtain and apply a [!UICONTROL security patch]
 
-Explore what to do when a new [!UICONTROL security patch] has been released but you have not been provided instructions on how to obtain the patch and apply it.
+This article provides instructions on how to obtain and apply a [!UICONTROL security patch] that has been released, but instructions are unavailable.
 
 ## Affected products and versions 
 
