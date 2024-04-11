@@ -35,7 +35,7 @@ If a physical patch file/hotfix is not mentioned in the Release Notes:
 
 * **Cloud or On-Premise:**
 
-If a physical patch file/hotfix is not available, you must [upgrade your Commerce version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X to the latest patch version 2.4.X-pY. 
+If a physical patch file/hotfix is not available, [upgrade the Adobe Commerce version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X to the latest patch version 2.4.X-pY. 
 
 ## Related reading
 
