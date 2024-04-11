@@ -21,7 +21,7 @@ Most [!UICONTROL Security Patches] are released without any physical file or hot
 
 If a physical patch file/hotfix is mentioned in the Release Notes:
 
-* You can download the file from the download section of [https://account.magento.com](https://account.magento.com/customer/account/login). (Shared access users must first be given download privileges by the account owner/license holder) 
+* Download the file from the download section of [https://account.magento.com](https://account.magento.com/customer/account/login). (Shared access users must first be given download privileges by the account owner/license holder) 
 
 If a physical patch file/hotfix was not mentioned in the Release Notes:
 
