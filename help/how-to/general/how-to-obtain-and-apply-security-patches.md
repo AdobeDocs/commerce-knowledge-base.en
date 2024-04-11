@@ -31,7 +31,6 @@ If a physical patch file/hotfix is not mentioned in the Release Notes:
 * **Cloud:**
 
 1. Some [!UICONTROL Security Patches] might be included/released in the latest version of Cloud Tools Suite (ECE Tools) under Cloud Patches for Commerce - check the [Release Notes](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite), and if a security fix is mentioned in the release, upgrade the package to that version.
-   
 1. If the Release Notes do not mention a security fix, continue reading.
 
 * **Cloud or On-Premise:**
