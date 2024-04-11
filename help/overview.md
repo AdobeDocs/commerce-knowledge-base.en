@@ -39,49 +39,73 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
  <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56790-move-out-of-stock-to-bottom-option-does-not-work-while-sorting-products-in-the-visual-merchandiser.html">ACSD-56790: The <b>move out of stock to bottom</b> option doesn't work when sorting products in [!DNL Visual Merchandiser]:</a> The ACSD-56790 patch fixes the issue where the move out of stock to bottom option does not work while sorting products in the Visual Merchandiser. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed.
+    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-55100-graphql-does-not-return-products-beyond-10k-in-the-search-results">ACSD-55100: GraphQL doesn't return products beyond 10k in search results:</a> The ACSD-55100 patch fixes the issue where GraphQL does not return products beyond 10k in the search results. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46 is installed.
     </td>
     <td>New article</td>
-    <td>February 28, 2024</td>
+    <td>April 11, 2024</td>
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56158-wrong-tax-value-in-graphql-when-multiple-tax-rules-applied-to-cart.html">ACSD-56158: Wrong tax value in GraphQL response when multiple tax rules applied to cart:</a> The ACSD-56158 patch fixes the issue where the tax value rendering in the GraphQL response is incorrect when multiple tax rules are applied to the cart. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed.  
+    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-56842-deferred-proxies-and-proxy-factories-are-missing">ACSD-56842: Deferred proxies and proxy factories are missing after running <code>setup:di:compile</code>:</a> The ACSD-56842 patch fixes the issue where the deferred proxies and proxy factories are missing after running <code>setup:di:compile</code>. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46 is installed.  
     </td>
     <td>New article</td>
-    <td>February 28, 2024</td>
+    <td>April 11, 2024</td>
   </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-56515-admin-with-permissions-cannot-edit-dynamic-block.html">ACSD-56515: Admin with website-level permissions cannot edit [!UICONTROL Dynamic Block]:</a> The ACSD-56515 patch fixes the issue where the admin with website-level permissions cannot add or edit the [!UICONTROL Dynamic Block]. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45 is installed. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-52824-payment-method-display-dicrepancy">ACSD-52824: Disabled payment methods displayed for company customers:</a> The ACSD-52824 patch fixes the issue where PayPal Express, Google Pay, and Apple Pay payment methods appear for company customers despite being disabled in the company settings. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45 is installed. 
     </td>
     <td>New article </td>
-    <td>February 28, 2024</td>
- </tr>
-
-   <tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-56886-configurable-product-becomes-out-of-stock-when-child-products-are-disabled.html">ACSD-56886: Configurable product becomes out of stock when child products are disabled:</a> The ACSD-56886 patch fixes the issue where the configurable product becomes out of stock when child products are disabled. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45 is installed. 
-    </td>
-    <td>New article </td>
-    <td>February 28, 2024</td>
+    <td>April 11, 2024</td>
  </tr>
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56246-scheduling-product-updates-clears-multiselect-attributes-values.html">ACSD-56246: Scheduling product updates clears multiselect attributes values:</a> The ACSD-56246 patch fixes the issue where scheduling product updates clears multiselect attributes values. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-57003-order-status-changed-to-complete-instead-of-processing">ACSD-57003: Order status changes to <em>Complete</em> instead of changing to <em>Processing</em>:</a> The ACSD-57003 patch fixes the issue where the order status changes to <em>Complete</em> instead of changing to <em>Processing</em>. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46 is installed. 
     </td>
     <td>New article </td>
-    <td>February 28, 2024</td>
+    <td>April 11, 2024</td>
  </tr>
 
    <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-44/acsd-56023-widget-content-not-updating-on-the-cms-page.html">ACSD-56023: Widget content is not updating on the CMS page:</a> The ACSD-56023 patch fixes the issue where the widget content is not updating on the CMS page. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.44 is installed.  
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-56621-name-update-issue-in-greetings-header-section">ACSD-56621: Updated names not displayed in greetings header for company admin user:</a> The ACSD-56621 patch fixes the issue where the updated first name and last name of the company admin user are not reflected in the greetings header section. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46 is installed.  
     </td>
     <td>New article </td>
-    <td>February 28, 2024</td>
+    <td>April 11, 2024</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-54965-visual-merchandising-grid-not-display-correct-stock">ACSD-54965: Visual Merchandising grid does not display the correct stock:</a> The ACSD-54965 patch fixes the issue where the Visual Merchandising grid does not display the correct stock when a product is assigned to custom stock. This patch is available when the <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45 is installed.  
+    </td>
+    <td>New article </td>
+    <td>April 11, 2024</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline">Adobe Commerce P1 notification hotline:</a> This article provides the P1 notification hotline numbers for Adobe Commerce that can be used when seeking to report a P1 incident and explains what information to provide.  
+    </td>
+    <td>New article </td>
+    <td>April 11, 2024</td>
+ </tr>
+
+ <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled">How to check why cron was disabled:</a> This article offers troubleshooting solutions for issues with cron in Adobe Commerce on cloud infrastructure products.  
+    </td>
+    <td>New article </td>
+    <td>April 11, 2024</td>
+ </tr>
+
+   <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/multiple-rows-in-database-for-same-entity">Multiple rows in the database for the same entity:</a> This article provides a solution to the issue where there are multiple rows for the same entity ID in the database. 
+    </td>
+    <td>New article </td>
+    <td>April 11, 2024</td>
  </tr>
 </table>
 
