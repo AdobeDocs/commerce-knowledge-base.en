@@ -8,7 +8,7 @@ This article provides instructions on how to obtain and apply a [!UICONTROL secu
 
 ## Affected products and versions 
 
-All versions- OnPremise and Cloud
+Adobe Commerce On-Premise and Cloud - All versions
 
 ## Cause
 
