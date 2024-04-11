@@ -23,7 +23,10 @@ If a physical patch file/hotfix is mentioned in the Release Notes:
 
 * Download the file from the download section of [https://account.magento.com](https://account.magento.com/customer/account/login). (Shared access users must first be given download privileges by the account owner/license holder) 
 
-If a physical patch file/hotfix was not mentioned in the Release Notes:
+
+### Case II:
+
+If a physical patch file/hotfix is not mentioned in the Release Notes:
 
 * **Cloud:**
 
