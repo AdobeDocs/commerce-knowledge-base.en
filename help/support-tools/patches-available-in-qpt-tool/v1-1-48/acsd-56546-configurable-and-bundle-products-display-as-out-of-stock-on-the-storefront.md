@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-56546: *Configurable and Bundle products* display as Out of Stock on the storefront'
-description: Apply the ACSD-56415 patch to fix the Adobe Commerce issue where the configurable and *bundle products* display as Out of Stock on the storefront when display out of product configuration is disabled.
+description: Apply the ACSD-56546 patch to fix the Adobe Commerce issue where the *Configurable and Bundle products* display as Out of Stock on the storefront when display **Out of Product Configuration** is disabled.
 feature: Storefront, Products
 role: Admin, Developer
 ---
-# ACSD-56546: Configurable and *Bundle products* display as Out of Stock on the storefront
+# ACSD-56546: *Configurable and Bundle products* display as Out of Stock on the storefront
 
-The ACSD-56546 patch fixes the issue where the Configurable and *Bundle products* display as Out of Stock on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56023. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56546 patch fixes the issue where the *Configurable and Bundle products* display as Out of Stock on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56023. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-56546 patch fixes the issue where the Configurable and *Bundle products
 
 ## Issue
 
-Configurable and *bundle products* display as Out of Stock on the storefront when display out of product configuration is disabled. 
+*Configurable and Bundle products* display as Out of Stock on the storefront when **Display Out of Product Configuration** is disabled. 
 
 <u>Steps to reproduce</u>:
 
