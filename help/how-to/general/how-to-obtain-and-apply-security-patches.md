@@ -12,7 +12,7 @@ Adobe Commerce On-Premise and Cloud - All versions
 
 ## Cause
 
-Most security patch releases do not come with a physical file/hotfix to be applied.
+Most [!UICONTROL Security Patches] are released without any physical file or hotfix to apply.
 
 ## Solution
 
