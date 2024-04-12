@@ -27,7 +27,7 @@ Default: master
 
 It is necessary to specify the environment manually with the `-e|--environment` flag.
 
-1. Find the list of active environments and take note of the environment name:
+1. Find the list of active environments and take note of the environment's name:
 
 ```
   $ Magento-cloud environment:list |grep "Active\|ID"
