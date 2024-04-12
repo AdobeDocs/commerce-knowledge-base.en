@@ -10,7 +10,7 @@ For Adobe Commerce versions below 2.4.7, you can configure multiple coupon codes
 
 To use more than one coupon code in the cart simultaneously, you may consider using a corresponding extension in [Commerce Marketplace](https://marketplace.magento.com/).
 
-However, from Adobe Commerce version 2.4.7, you are allowed to configure and use **more than one coupon code in the cart simultaneously**. To enable it, refer to [Multicoupon Settings](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/sales#multicoupon-settings).
+However, from Adobe Commerce version 2.4.7, you are allowed to configure and use **more than one coupon code in the cart simultaneously**. To enable it, refer to [Multicoupon Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales#multicoupon-settings).
 
 ## More information
 
