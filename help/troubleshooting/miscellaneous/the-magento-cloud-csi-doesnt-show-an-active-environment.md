@@ -23,7 +23,7 @@ Default: master
  >
 ```
 
-<u>Steps to reproduce:</u>
+## Solution
 
 You have to manually specify the environment with the e|-environment flag.
 
