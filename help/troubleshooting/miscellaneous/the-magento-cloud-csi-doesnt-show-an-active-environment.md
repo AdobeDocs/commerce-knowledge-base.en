@@ -1,7 +1,7 @@
 ---
 title: The Magento-cloud CLI doesn't show an active environment
 description: This article describes a known Adobe Commerce issue where the Magento-cloud CLI (command-line tool) doesn't show an active environment. 
-feature:  Configuration
+feature:  Cloud, Integration, Configuration
 role: Developer
 ---
 
