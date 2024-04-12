@@ -23,7 +23,7 @@ To modify these fields, follow these steps:
 1. Select the *create new password* checkbox.
 1. Make the necessary changes and click *save*.
 
-**NOTE**: Your password will not be changed.
+**NOTE**: *Your password will not be changed.*
 
 ## What cannot be modified?
 
