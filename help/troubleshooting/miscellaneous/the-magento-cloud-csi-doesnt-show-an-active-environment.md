@@ -5,7 +5,7 @@ feature:  Cloud, Integration, Configuration
 role: Developer
 ---
 
-# The Magento-cloud CLI doesn't show an active environment
+# The `magento-cloud` CLI doesn't show an active environment
 
 ## Issue
 
