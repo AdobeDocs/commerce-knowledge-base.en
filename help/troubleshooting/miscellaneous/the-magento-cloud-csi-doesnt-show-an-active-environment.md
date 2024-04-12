@@ -25,7 +25,7 @@ Default: master
 
 ## Solution
 
-You have to manually specify the environment with the e|-environment flag.
+It is necessary to specify the environment manually with the `-e|--environment` flag.
 
 1. Find the list of active environments and take note of the environment name:
 
