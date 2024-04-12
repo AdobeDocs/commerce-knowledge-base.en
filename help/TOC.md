@@ -1224,6 +1224,7 @@ breadcrumb-title: Commerce KB
   * [Third-party testing tips for Adobe Commerce on cloud infrastructure](/help/how-to/general/share-access-third-party.md)
   * [Access the Adobe Commerce Customer Support Guide](/help/how-to/general/access-the-magento-commerce-customer-support-guide.md)
   * [How to subscribe to Adobe Commerce status updates](/help/how-to/general/how-to-subscribe-to-adobe-magento-status-updates.md)
+  * [How to update the cloud account profile](/help/how-to/general/how-to-update-the-cloud-account-profile.md)
   * [Change current Adobe account email address to new address](/help/how-to/general/change-current-adobe-account-email-address-to-new-address.md)
   * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [How to change email address on magento.com account when the field is grayed out](/help/how-to/general/change-email-address-on-magento-account.md)
