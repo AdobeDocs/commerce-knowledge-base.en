@@ -45,7 +45,7 @@ It is necessary to specify the environment manually with the `-e|--environment` 
 
 ## Cause
 
-The environment might not be available due to a deployment that is in progress, stuck, or one that had failed.
+The environment may be unavailable due to an ongoing, stalled, or failed deployment.
 
 ## Related reading
 
