@@ -41,7 +41,7 @@ It is necessary to specify the environment manually with the `-e|--environment` 
 ```
 
 1. Specify the environment's ID with your command:
-`Magento-cloud ssh -e integration`
+`magento-cloud ssh -e integration`
 
 ## Cause
 
