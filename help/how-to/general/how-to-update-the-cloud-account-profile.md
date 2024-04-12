@@ -18,7 +18,7 @@ When modifying a profile on the cloud account, the following fields can be modif
 
 To modify these fields, follow these steps:
 
-1. Access your account at [https://accounts.magento.cloud](https://accounts.magento.cloud).
+1. Access your account at [Adobe account login](https://accounts.magento.cloud).
 1. Click on the **[!UICONTROL Account Settings]** tab.
 1. Select the *create new password* checkbox.
 1. Make the necessary changes and click *save*.
@@ -28,7 +28,7 @@ To modify these fields, follow these steps:
 ## What cannot be modified?
 
 1. **[!UICONTROL Password]**:
-To change your password, visit [https://account.adobe.com/](https://account.adobe.com/), as this profile is linked to your account/email address there.
+To change your password, visit [Adobe password reset](https://account.adobe.com/), as this profile is linked to your account/email address there.
 
 1. **[!UICONTROL Email Address]**:
 Modifying this field depends on your individual circumstances.
