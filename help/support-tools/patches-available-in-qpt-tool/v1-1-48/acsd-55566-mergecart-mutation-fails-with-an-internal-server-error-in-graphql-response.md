@@ -46,7 +46,7 @@ The customer cart contains products from both carts.
 
 <u>Actual results</u>:
 
-Internal Error
+You get an internal error.
 
 ## Apply the patch
 
