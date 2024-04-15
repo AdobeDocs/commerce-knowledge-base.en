@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-56546: *Configurable and Bundle products* display as Out of Stock on the storefront'
-description: Apply the ACSD-56546 patch to fix the Adobe Commerce issue where the *Configurable and Bundle products* display as Out of Stock on the storefront when display **Out of Product Configuration** is disabled.
+title: 'ACSD-56546: Configurable and bundle products display as out of stock on the storefront'
+description: Apply the ACSD-56546 patch to fix the Adobe Commerce issue where the configurable and bundle products display as out of stock on the storefront when the display out of stock product configuration option is disabled.
 feature: Storefront, Products
 role: Admin, Developer
 ---
-# ACSD-56546: *Configurable and Bundle products* display as Out of Stock on the storefront
+# ACSD-56546: Configurable and bundle products display as out of stock on the storefront
 
-The ACSD-56546 patch fixes the issue where the *Configurable and Bundle products* display as Out of Stock on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56023. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56546 patch fixes the issue where the configurable and bundle products display as out of stock on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56546. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,26 +24,27 @@ The ACSD-56546 patch fixes the issue where the *Configurable and Bundle products
 
 ## Issue
 
-*Configurable and Bundle products* display as Out of Stock on the storefront when **Display Out of Product Configuration** is disabled. 
+Configurable and bundle products display as out of stock on the storefront when **Display Out of Stock Products**
+option is disabled. 
 
 <u>Steps to reproduce</u>:
 
-1. Ensure that ***Display Out of Stock Products*** is set to No.
-2. Create a *website/store/storeview*.
-3. Create a source and stock and then assign it to *2nd website*.
-4. Create a **configurable product** with *2 child products*(assign both *child products* to both sources) and assign it to both websites (*child products* should be assigned to both websites).
-5. Update 1st child product to have qty=0 in both sources.
-6. Update 2nd child and make it disabled on the 2nd website.
+1. Set the **Display Out of Stock Products** option to *No*.
+2. Create a website/store/storeview.
+3. Create a source and a stock and then assign it to the 2nd website.
+4. Create a *configurable product* with the 2nd child products(assign both the child products to both the sources) and  also assign it to both the websites (assign both the child products to both the websites).
+5. Update the 1st child product to have *qty=0* in both sources.
+6. Update the 2nd child product and disable it on the 2nd website.
 7. Do a full reindex.
 8. Check the category which contains configurable on the 2nd website.
 
 <u>Expected results</u>:
 
-The **Out of stock configurable products** should not be visible on the storefront.
+The **out of stock configurable products** should not be visible on the storefront.
 
 <u>Actual results</u>:
 
-The **Out of stock configurable products** are visible on the storefront even though the display out of product option is disabled.
+The **out of stock configurable products** are visible on the storefront even after disabling the **Display Out of Stock Products** option is disabled.
 
 ## Apply the patch
 
