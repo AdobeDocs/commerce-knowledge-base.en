@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-55566: `mergeCart` mutation fails with internal server error in [!DNL GraphQL] response
 
-The ACSD-55566 patch fixes the issue where the `mergeCart` mutation fails with an internal server error in [!DNL GraphQL] response. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45 is installed. The patch ID is ACSD-56023. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-55566 patch fixes the issue where the `mergeCart` mutation fails with an internal server error in [!DNL GraphQL] response. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-55566. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
 
 ## Affected products and versions
 
