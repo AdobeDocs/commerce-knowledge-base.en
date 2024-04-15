@@ -27,14 +27,14 @@ The ACSD-55241 patch fixes the issue where the **Used** and **Times Used** attri
 
 <u>Steps to reproduce</u>:
 
-1. Create **[!UICONTROL Cart Price Rules]** from **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]** and add any condition which matches while placing an order (Example subtotal greater than *5$*)
+1. Create **[!UICONTROL Cart Price Rules]** from **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]** and add any condition which matches while placing an order (Example: subtotal greater than *5$*)
 
 * Apply any discount.
 * Select **[!UICONTROL Auto Coupon]**.
 * It will generate a few Coupon Codes from **Manage Coupon Codes**.
 * Reindex and clean the cache.
 
-1. Create a **[!UICONTROL customer account]** and log into frontend.
+1. Create a **[!UICONTROL customer account]** and log into the frontend.
 1. Add one product with more than *2* quantities in the cart and apply one coupon.
 1. Click on **[!UICONTROL Check Out with Multiple Addresses]**.
 1. Select a separate address for each quantity, place the order, and complete the checkout process.
@@ -44,11 +44,11 @@ The ACSD-55241 patch fixes the issue where the **Used** and **Times Used** attri
 
 <u>Expected results</u>:
 
-The correct count should be displayed in the **Time used** and **Used** columns with **Yes** value in the manage coupon in the **[!UICONTROL cart price rule]** in the admin.
+The correct count should be displayed in the **Time used** and **Used** columns with **Yes** value for **[!UICONTROL manage coupon]** in the **[!UICONTROL cart price rule]** in the admin.
 
 <u>Actual results</u>:
 
-The used coupon code count does not update in the **Time Used** column in the coupons grid and the **Used** column shows the **No** value if place an order with multiple shipping.
+The used coupon code count doesn't update in the **Time Used** column in the coupons grid, and the **Used** column shows the *No* value if you place an order with multiple shipping addresses.
 
 ## Apply the patch
 
