@@ -779,7 +779,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-57003: Order status changes to Complete instead of changing to Processing](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-57003-order-status-changed-to-complete-instead-of-processing.md)
     * v1.1.47 {#v1-1-47}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.47](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/overview.md)
-        * [ACSD-56760: Admin user is restricted to a specific website and can't sort or add new products](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/admin-user-is-restricted-to-a-specific-website-and-cannot-sort-or-add-new-products.md)
+        * [ACSD-56760: Admin user is restricted to a specific website and is unable to sort or add new products](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56760-admin-user-is-restricted-to-a-specific-website-and-is-unable-to-sort-or-add-new-products.md)
         * [ACSD-56858: Role permissions discrepancy in B2B company admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel.md)
     * v1.1.48 {#v1-1-48}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)    
