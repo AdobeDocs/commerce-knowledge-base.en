@@ -771,6 +771,7 @@ breadcrumb-title: Commerce KB
         * [ASCD-56415: Performance of [!UICONTROL Partial Price Indexing] is slowed due to DELETE query](/help/support-tools/patches-available-in-qpt-tool/v1-1-45/acsd-56415-performance-of-partial-price-indexing-is-slowed-down-due-to-a-delete-query.md)
     * v1.1.46 {#v1-1-46}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.46](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/overview.md)
+        * [ACSD-46767: [!UICONTROL Category] page caches invalidate when the stock quantity changes](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-46767-category-page-caches-invalidate-when-the-stock-quantity-changes.md)
         * [ACSD-54656: Invisible [!DNL reCAPTCHA] fails during checkout, which prevents order placement](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-54656-invisible-recaptcha-fails-during-checkout-preventing-order-placement.md)
         * [ACSD-56621: Updated names not displayed in greetings header for company admin user](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-56621-name-update-issue-in-greetings-header-section.md)
         * [ACSD-55100: [!DNL GraphQL] doesn't return products beyond 10k in search results](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-55100-graphql-does-not-return-products-beyond-10k-in-the-search-results.md)
@@ -779,6 +780,7 @@ breadcrumb-title: Commerce KB
     * v1.1.47 {#v1-1-47}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.47](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/overview.md)
         * [ACSD-56760: Admin user is restricted to a specific website and can't sort or add new products](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/admin-user-is-restricted-to-a-specific-website-and-cannot-sort-or-add-new-products.md)
+        * [ACSD-56858: Role permissions discrepancy in B2B company admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel.md)
     * v1.1.48 {#v1-1-48}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)    
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
@@ -802,7 +804,6 @@ breadcrumb-title: Commerce KB
     * [UPS APIs deprecated](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
     * [2024 release schedule](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
   * Help Center News {#news}
-    * [Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
     * [Adobe Commerce Support Knowledge Base starts accepting contributions](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * Troubleshooting {#troubleshooting}
   * [Troubleshooting overview](/help/troubleshooting/overview.md)
@@ -821,6 +822,8 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
     * [Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6](/help/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.md)
   * Payments {#payments}
+    * [Troubleshoot create order page in [!UICONTROL CSP] restricted mode](/help/troubleshooting/payments/admin-create-order-page-in-csp-restricted-mode.md)
+    * [Troubleshoot storefont checkout page in [!UICONTROL CSP] restricted mode](/help/troubleshooting/payments/storefront-checkout-page-in-csp-restricted-mode.md)
     * [Adobe Commerce 2.4.0 known issue: missing "Refund" label in Klarna](/help/troubleshooting/payments/magento-2-4-0-known-issue-missing-refund-label-in-klarna.md)
     * [Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
     * [2.3.4 PayPal issue hotfix](/help/troubleshooting/payments/2-3-4-paypal-issue-hotfix.md)
@@ -1038,7 +1041,6 @@ breadcrumb-title: Commerce KB
     * [High throughput AJAX requests cause poor performance](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)
     * [PWA Studio: Browser displays "Cannot proxy to" error](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
     * [run setup:static-content:deploy deployed_version.txt issue](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed-version-txt-issue.md)
-    * [Coupon for single use is used multiple times, Adobe Commerce](/help/troubleshooting/miscellaneous/coupon-code-used-more-than-once-adobe-commerce.md)
     * [Redirect back to the Commerce Admin login form with "Your account is temporarily disabled" error](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
     * [Google Analytics gets disabled after deployment](/help/troubleshooting/miscellaneous/google-analytics-gets-disabled-after-deployment.md)
     * [Troubleshooting Adobe Commerce Intelligence account lockout](/help/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.md)
@@ -1223,6 +1225,7 @@ breadcrumb-title: Commerce KB
   * [Third-party testing tips for Adobe Commerce on cloud infrastructure](/help/how-to/general/share-access-third-party.md)
   * [Access the Adobe Commerce Customer Support Guide](/help/how-to/general/access-the-magento-commerce-customer-support-guide.md)
   * [How to subscribe to Adobe Commerce status updates](/help/how-to/general/how-to-subscribe-to-adobe-magento-status-updates.md)
+  * [How to update the cloud account profile](/help/how-to/general/how-to-update-the-cloud-account-profile.md)
   * [Change current Adobe account email address to new address](/help/how-to/general/change-current-adobe-account-email-address-to-new-address.md)
   * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [How to change email address on magento.com account when the field is grayed out](/help/how-to/general/change-email-address-on-magento-account.md)
