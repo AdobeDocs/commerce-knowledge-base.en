@@ -41,5 +41,6 @@ You have to manually specify the environment with the e|-environment flag.
 |     | Integration 2  | Development | Active |   
 ```
 
-1. Specify the environment's ID with your command:
-`Magento-cloud ssh -e integration`
+2. Specify the environment's ID with your command:
+
+   `Magento-cloud ssh -e integration`
