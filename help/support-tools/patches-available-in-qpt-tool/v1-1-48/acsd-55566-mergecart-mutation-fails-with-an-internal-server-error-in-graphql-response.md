@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-55566: [!UICONTROL mergeCart] mutation fails with an `Internal Server Error` in [!DNL GraphQL] response'
+title: 'ACSD-55566: [!UICONTROL mergeCart] mutation fails with internal server error in [!DNL GraphQL] response'
 description: Apply the ACSD-55566 patch to fix the Adobe Commerce issue where the [!UICONTROL mergeCart] mutation fails with an `Internal Server Error` in [!DNL GraphQL] response when merging the source and the destination carts that have the same bundle items.
 feature: GraphQL
 role: Admin, Developer
