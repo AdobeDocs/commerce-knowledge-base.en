@@ -1089,6 +1089,7 @@ breadcrumb-title: Commerce KB
     * [Deployment error: "error 7 while downloading ... port 443: Connection refused"](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
     * [Deployment errors when committing incorrect files](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
     * [Deployment errors where patches not found](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
+    * [Deployment failed with error: There are no commands defined in the "cache" namespace](/help/troubleshooting/deployment/deployment-failed-with-error-no-commands-defined-in-cache-namespace.md)
   * Known issues {#known-issues-patches-attached}
     * [[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
     * [[!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
