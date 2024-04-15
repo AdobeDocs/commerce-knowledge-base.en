@@ -37,7 +37,7 @@ The ACSD-55566 patch fixes the issue where the `mergeCart` mutation fails with a
 1. Save the *cartID*.
 1. Create a customer and generate a customer token.
 1. Create a customer cart.
-1. Add the same *bundle product* with the same configuration to cart
+1. Add the same bundle product with the same configuration to the cart.
 1. Try to merge the *Guest cart* to the *Customer cart*.
 
 <u>Expected results</u>:
