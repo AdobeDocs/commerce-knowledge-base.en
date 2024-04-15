@@ -85,3 +85,5 @@ To solve this issue, identify the invalid rows left from from those configuratio
   ```sql 
   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
   ```  
+
+To confirm that the solution worked, run the `bin/magento` command again. If it is successful redeploy.
