@@ -4,7 +4,7 @@ description: This article provides a solution for the issue when deployment fail
 feature: Deploy
 role: Developer
 ---
-#  Deployment failed with error *There are no commands defined in the 'cache' namespace* error
+# Deployment failed with error *There are no commands defined in the 'cache' namespace* error
 
 >[!WARNING]
 >
@@ -46,7 +46,7 @@ You do not deploy successfully. In the logs you see as deployment error with a m
 
 ### Cause
 
-The 	**core_config_data** table contains configurations for a store ID or website ID that no longer exists in the database.
+The **core_config_data** table contains configurations for a store ID or website ID that no longer exists in the database.
 
 ### Solution
 
