@@ -29,7 +29,7 @@ The environment might not be available due to a deployment that is in progress, 
 
 You have to manually specify the environment with the e|-environment flag.
 
-1. Find the list of active environments and take note of the environment name:
+1. Find the list of active environments and take note of the environments name:
 
 ```
   | ID  | Title          | Type        | Status |  
