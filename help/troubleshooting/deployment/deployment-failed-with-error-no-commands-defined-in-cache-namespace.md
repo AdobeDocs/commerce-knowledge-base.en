@@ -1,10 +1,10 @@
 ---
-title: "Deployment failed with error: **There are no commands defined in the "cache" namespace**"
+title: "Deployment failed with **There are no commands defined in the "cache" namespace** error"
 description: This article provides a solution for the issue when deployment fails with the following error **There are no commands defined in the "cache" namespace**
 feature: Deploy
 role: Developer
 ---
-#  Deployment failed with error: *There are no commands defined in the "cache" namespace*
+#  Deployment failed with error *There are no commands defined in the "cache" namespace* error
 
 >[!WARNING]
 >
@@ -52,7 +52,7 @@ The 	**core_config_data** table contains configurations for a store ID or websit
 
 This occurs when you have imported a database backup from another instance/environment, in which the configurations for those scopes remained in the database though the associated store(s)/website(s) had been deleted.
 
-To solve this issue, identify the invalid rows left from from those configurations:
+To solve this issue, identify the invalid rows left from those configurations.
 
 1. SSH to the server and run this command:
 
