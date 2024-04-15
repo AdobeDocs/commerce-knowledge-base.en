@@ -49,7 +49,7 @@ The Admin user that is restricted to a specific website cannot sort or add new p
 <u>Actual results</u>:
 
 * *Case 1*: The restricted admin isn't able to sort products inside the available category.
-* *Case 2*: Restricted admin can sort products inside the available category, affecting the restricted stores.
+* *Case 2*: The restricted admin can sort products inside the available category, affecting the restricted stores.
 
 ## Apply the patch
 
