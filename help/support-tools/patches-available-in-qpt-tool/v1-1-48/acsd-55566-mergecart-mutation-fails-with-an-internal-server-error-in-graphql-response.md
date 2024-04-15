@@ -24,7 +24,7 @@ The ACSD-55566 patch fixes the issue where the `mergeCart` mutation fails with a
 
 ## Issue
 
-[!UICONTROL mergeCart] mutation fails with an `Internal Server Error` in [!DNL GraphQL] response when merging the source and the destination carts that have the same bundle items.
+`mergeCart` mutation fails with an internal server error in [!DNL GraphQL] response when merging the source and the destination carts that have the same bundle items.
 
 <u>Steps to reproduce</u>:
 
