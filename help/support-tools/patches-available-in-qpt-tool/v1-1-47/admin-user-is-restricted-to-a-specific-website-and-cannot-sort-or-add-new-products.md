@@ -39,7 +39,7 @@ The Admin user that is restricted to a specific website cannot sort or add new p
 *Case 2*:
 
 * *2* stores.
-* Only *1* root category is assigned to  both websites.
+* Only *1* root category is assigned to both websites.
 
 <u>Expected results</u>:
 
