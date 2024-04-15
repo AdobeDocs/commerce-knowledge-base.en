@@ -28,7 +28,7 @@ The ACSD-55566 patch fixes the issue where the `mergeCart` mutation fails with a
 
 <u>Steps to reproduce</u>:
 
-1. Create a *custom source* and a *custom stock*.
+1. Create a custom source and a custom stock.
 1. Assign the created stock to the main website.
 1. Create a simple product and assign to it the created source (qty=2).
 1. Create a *bundle product* with one option and one *child product* (previously created product).
