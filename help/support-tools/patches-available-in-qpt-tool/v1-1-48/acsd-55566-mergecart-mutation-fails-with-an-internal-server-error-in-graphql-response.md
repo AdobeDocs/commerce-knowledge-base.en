@@ -42,7 +42,7 @@ The ACSD-55566 patch fixes the issue where the `mergeCart` mutation fails with a
 
 <u>Expected results</u>:
 
-The *Customer cart* should contain products from both carts.
+The customer cart contains products from both carts.
 
 <u>Actual results</u>:
 
