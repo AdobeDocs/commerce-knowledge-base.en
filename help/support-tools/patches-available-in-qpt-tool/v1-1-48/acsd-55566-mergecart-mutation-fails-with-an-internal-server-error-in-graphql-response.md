@@ -31,7 +31,7 @@ The ACSD-55566 patch fixes the issue where the `mergeCart` mutation fails with a
 1. Create a custom source and a custom stock.
 1. Assign the created stock to the main website.
 1. Create a simple product and assign to it the created source (qty=2).
-1. Create a *bundle product* with one option and one *child product* (previously created product).
+1. Create a bundle product with one option and one child product (product created in step 3).
 1. Create a *guest cart* via [!DNL GraphQL].
 1. Add a *Bundle product* with both options selected.
 1. Save the **cartID**.
