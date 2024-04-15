@@ -1,5 +1,5 @@
 ---
-title: Deployment failed with error: **There are no commands defined in the "cache" namespace**
+title: "Deployment failed with error: **There are no commands defined in the "cache" namespace**"
 description: This article provides a solution for the issue when deployment fails with the following error **There are no commands defined in the "cache" namespace**
 feature: Deploy
 role: Developer
