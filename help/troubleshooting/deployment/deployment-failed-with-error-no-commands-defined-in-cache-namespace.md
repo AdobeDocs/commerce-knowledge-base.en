@@ -65,13 +65,19 @@ To solve this issue, identify the invalid rows left from those configurations.
     The store that was requested wasn't found. Verify the store and try again.
     ```
 
-1. Run this Mysql query and verify that the store cannot be found: 
+1. Run this MySql query to verify that the store cannot be found, which is indicated by the error message described in step 2. 
 
      ```sql
      select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
      ```
+     
+1. Run the following MySql statement to delete the invalid rows: 
 
-     You should get an error like the below indicating that the website with id X that was requested was not found.
+    ```sql
+    delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+    ```
+
+    If you get an error like the below which indicates that the website with id X that was requested was not found you have configurations remaining in the database from website(s) as-well as store(s) that have been deleted. 
 
     ```
     In WebsiteRepository.php line 110:
@@ -79,10 +85,14 @@ To solve this issue, identify the invalid rows left from those configurations.
     The website with id X that was requested wasn't found. Verify the website and try again.
     ```
 
-1. Run the following Mysql statement to delete the invalid rows: 
-
+Run this MySql query and verify that the website cannot be found: 
     ```sql
-    delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
     ```
+
+Run this MySql statement to delete the invalid rows from the website configuration:
+  ```sql
+  delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
+  ```
 
 To confirm that the solution worked, run the `bin/magento` command again. Yould should no longer see the errors and can successfully deploy. 
