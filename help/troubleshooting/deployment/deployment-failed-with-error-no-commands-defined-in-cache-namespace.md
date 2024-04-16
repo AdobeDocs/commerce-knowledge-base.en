@@ -85,14 +85,16 @@ To solve this issue, identify the invalid rows left from those configurations.
     The website with id X that was requested wasn't found. Verify the website and try again.
     ```
 
-Run this MySql query and verify that the website cannot be found: 
+1. Run this MySql query and verify that the website cannot be found: 
+
     ```sql
     select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
     ```
 
-Run this MySql statement to delete the invalid rows from the website configuration:
-  ```sql
-  delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
-  ```
+1. Run this MySql statement to delete the invalid rows from the website configuration:
+
+     ```sql
+     delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
+     ```
 
 To confirm that the solution worked, run the `bin/magento` command again. Yould should no longer see the errors and can successfully deploy. 
