@@ -1,11 +1,11 @@
 ---
-title: 'ACSD-56760: Admin user is restricted to a specific website and can't sort or add new products'
-description: Apply the ACSD-56760 patch to fix the Adobe Commerce issue where the the Admin user that is restricted to a specific website can't sort or add new products inside a category in case the web store has its own root category. 
+title: 'ACSD-56760: Admin user is restricted to a specific website and is unable to sort or add new products'
+description: Apply the ACSD-56760 patch to fix the Adobe Commerce issue where the the Admin user that is restricted to a specific website and is unable to sort or add new products inside a category in case the web store has it's own root category. 
 role: Admin 
 ---
-# ACSD-56760: Admin user is restricted to a specific website and can't sort or add new products
+# ACSD-56760: Admin user is restricted to a specific website and is unable to sort or add new products
 
-The ACSD-56760 patch fixes the issue where the Admin user that is restricted to a specific website can't sort or add new products inside a category in case the web store has its own root category.  This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.47 is installed. The patch ID is ACSD-56760. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-56760 patch fixes the issue where the the Admin user that is restricted to a specific website and is unable to sort or add new products inside a category in case the web store has it's own root category. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.47 is installed. The patch ID is ACSD-56760. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -23,7 +23,7 @@ The ACSD-56760 patch fixes the issue where the Admin user that is restricted to 
 
 ## Issue
 
-The Admin user that is restricted to a specific website cannot sort or add new products inside a category in case the web store has it's own root category. 
+The Admin user that is restricted to a specific website and is unable to sort or add new products inside a category in case the web store has it's own root category. 
 
 <u>Steps to reproduce</u>:
 
