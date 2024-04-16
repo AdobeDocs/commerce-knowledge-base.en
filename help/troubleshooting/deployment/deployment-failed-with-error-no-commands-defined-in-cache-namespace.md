@@ -67,22 +67,22 @@ To solve this issue, identify the invalid rows left from those configurations.
 
 1. Run this Mysql query and verify that the store cannot be found: 
 
-        ```sql  
-        select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
-        ```
+                ```sql  
+                select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
+                ```
 
         You should get an error like the below indicating that the website with id X that was requested was not found.
 
-        ```
-        In WebsiteRepository.php line 110:  
+                ```
+                In WebsiteRepository.php line 110:  
 
-        The website with id X that was requested wasn't found. Verify the website and try again.
-        ```
+                The website with id X that was requested wasn't found. Verify the website and try again.
+                ```
 
 1. Run the following Mysql statement to delete the invalid rows: 
 
-        ```sql 
-        delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
-        ```  
+                ```sql 
+                delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+                ```  
 
 To confirm that the solution worked, run the `bin/magento` command again. Yould should no longer see the errors and can successfully deploy. 
