@@ -1,10 +1,10 @@
 ---
 title: The `Magento-cloud` CLI doesn't show an active environment
 description: This article describes a known Adobe Commerce issue where the `Magento-cloud` [!DNL CLI] (command-line tool) does not show an active environment. 
-feature: Cloud,Integration,Configuration 
+feature: Cloud, Integration, Configuration 
 role: Developer
 ---
-# The Magento-cloud CLI doesn't show an active environment
+# The `Magento-cloud` [!DNL CLI] doesn't show an active environment
 
 ## Issue
 
@@ -23,13 +23,13 @@ Default: master
 
 ## Cause
 
-The environment might not be available due to a deployment that is in progress, stuck, or one that had failed.
+The environment may not be available due to a deployment that is in progress, stuck, or has failed.
 
 ## Solution
 
 You have to manually specify the environment with the `e|-environment` flag.
 
-1.Find the list of active environments and take note of the environments name:
+1. Find the list of active environments and take note of the environment names:
 
 ```
 $ magento-cloud environment: list |grep "Active\|ID"
@@ -44,7 +44,6 @@ Your environments are:
 |     | Integration 2  | Development | Active |   
 ```
 
-
 2.Specify the environment's ID with your command:
 
-   `Magento-cloud ssh -e integration`
+   `magento-cloud ssh -e integration`
