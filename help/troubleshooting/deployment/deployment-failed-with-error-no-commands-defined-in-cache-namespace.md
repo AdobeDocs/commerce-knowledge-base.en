@@ -50,7 +50,8 @@ The **core_config_data** table contains configurations for a store ID or website
 
 ### Solution
 
-This occurs when you have imported a database backup from another instance/environment, in which the configurations for those scopes remained in the database though the associated store(s)/website(s) had been deleted.
+This occurs when you have imported a database backup from another instance/environment, in which the configurations for those scopes remained in the database though the associated store(s)/website(s) had been deleted. Note: If you have only had one website, then the second test for the websites does not apply and you only need to test for stores. 
+
 
 To solve this issue, identify the invalid rows left from those configurations.
 
@@ -86,4 +87,4 @@ To solve this issue, identify the invalid rows left from those configurations.
   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
   ```  
 
-To confirm that the solution worked, run the `bin/magento` command again. If it is successful redeploy.
+To confirm that the solution worked, run the `bin/magento` command again. Yould should no longer see the errors and can successfully deploy. 
