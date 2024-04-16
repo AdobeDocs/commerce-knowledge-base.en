@@ -1,14 +1,14 @@
 ---
 title: "Deployment failed with **There are no commands defined in the 'cache' namespace** error"
-description: This article provides a solution for the issue when deployment fails with the following error **There are no commands defined in the cache namespace**
+description: This article provides a solution for the issue when deployment fails with the following error **There are no commands defined in the cache namespace**.
 feature: Deploy
 role: Developer
 ---
-# Deployment failed with error *There are no commands defined in the 'cache' namespace* error
+# Deployment failed with *There are no commands defined in the 'cache' namespace* error
 
 >[!WARNING]
 >
->Make sure to backup the database first if you are doing this in a live Production site. 
+>Backup the database first, if you are doing this in a live Production site, before performing these steps. 
 
 This article provides a solution for the issue when your deployment fails and one of the errors in the log looks like this:
 
