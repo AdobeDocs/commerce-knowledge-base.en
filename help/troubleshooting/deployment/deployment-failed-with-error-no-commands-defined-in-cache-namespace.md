@@ -32,25 +32,23 @@ Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, and Magento 
 
 Attempt to deploy. 
 
-
-
 <u>Expected results</u>:
 
 You deploy successfully.
 
 <u>Actual results</u>:
 
-You do not deploy successfully. In the logs you see as deployment error with a message similar to the following *There are no commands in the cache namespace*.
+You do not deploy successfully. In the logs you see a deployment error with a message similar to the following *There are no commands in the cache namespace*.
 
 
 
 ### Cause
-
-The **core_config_data** table contains configurations for a store ID or website ID that no longer exists in the database.
+ 
+The **core_config_data** table contains configurations for a store ID or website ID that no longer exists in the database. This occurs when you have imported a database backup from another instance/environment, and the configurations for those scopes remained in the database though the associated store(s)/website(s) were deleted.
 
 ### Solution
 
-This occurs when you have imported a database backup from another instance/environment, in which the configurations for those scopes remained in the database though the associated store(s)/website(s) had been deleted. Note: If you have only had one website, then the second test for the websites does not apply and you only need to test for stores. 
+If you have only had one website, then the second test for the websites does not apply, and you only need to test for stores. 
 
 
 To solve this issue, identify the invalid rows left from those configurations.
@@ -69,22 +67,22 @@ To solve this issue, identify the invalid rows left from those configurations.
 
 1. Run this Mysql query and verify that the store cannot be found: 
 
-  ```sql  
-  select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
-  ```
+        ```sql  
+        select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
+        ```
 
-  You should get an error like the below indicating that the website with id X that was requested was not found.
+        You should get an error like the below indicating that the website with id X that was requested was not found.
 
-    ```
-    In WebsiteRepository.php line 110:  
+        ```
+        In WebsiteRepository.php line 110:  
 
-    The website with id X that was requested wasn't found. Verify the website and try again.
-    ```
+        The website with id X that was requested wasn't found. Verify the website and try again.
+        ```
 
 1. Run the following Mysql statement to delete the invalid rows: 
 
-  ```sql 
-  delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
-  ```  
+        ```sql 
+        delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+        ```  
 
 To confirm that the solution worked, run the `bin/magento` command again. Yould should no longer see the errors and can successfully deploy. 
