@@ -98,3 +98,8 @@ To solve this issue, identify the invalid rows left from those configurations.
      ```
 
 To confirm that the solution worked, run the `bin/magento` command again. You should no longer see the errors and can successfully deploy. 
+
+## Related reading
+
+[Adobe Commerce Deployment Troubleshooter in Adobe Commerce troubleshooting guide](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)
+[Checking Deployment Log if Cloud UI has log snipped error in Adobe Commerce troubleshooting guide](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
