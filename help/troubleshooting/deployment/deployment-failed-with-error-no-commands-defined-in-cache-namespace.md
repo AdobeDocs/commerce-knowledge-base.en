@@ -94,9 +94,9 @@ To solve this issue, identify the invalid rows left from those configurations.
 
 1. Run this MySql statement to delete the invalid rows from the website configuration:
 
-     ```sql
-     delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
-      ```
+    ```sql
+    delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
+    ```
 
 To confirm that the solution worked, run the `bin/magento` command again. You should no longer see the errors and can successfully deploy. 
 
