@@ -66,9 +66,9 @@ Incorrect product sorting by multiple sort fields in [!DNL GraphQL].
           }
                 }
             }
+       }
       }
      }
-   }
     ```
 
 1. Check the response after creating *sort* attributes.
