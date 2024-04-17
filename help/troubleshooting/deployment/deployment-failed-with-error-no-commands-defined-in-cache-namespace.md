@@ -97,4 +97,4 @@ To solve this issue, identify the invalid rows left from those configurations.
      delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
      ```
 
-To confirm that the solution worked, run the `bin/magento` command again. Yould should no longer see the errors and can successfully deploy. 
+To confirm that the solution worked, run the `bin/magento` command again. You should no longer see the errors and can successfully deploy. 
