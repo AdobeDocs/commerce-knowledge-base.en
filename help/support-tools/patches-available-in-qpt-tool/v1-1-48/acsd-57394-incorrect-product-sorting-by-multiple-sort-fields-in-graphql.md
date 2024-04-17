@@ -48,8 +48,10 @@ Incorrect product sorting by multiple sort fields in [!DNL GraphQL].
     items{
       name
       sku
-            price_range {
-                minimum_price {
+            
+        price_range {
+            minimum_price {
+          
           regular_price {
             value
             currency
