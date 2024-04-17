@@ -79,15 +79,15 @@ To solve this issue, identify the invalid rows left from those configurations.
 
    If you get an error like the below which indicates that the website with id X that was requested was not found you have configurations remaining        in the database from website(s) as-well as store(s) that have been deleted. 
 
-        ```
-        In WebsiteRepository.php line 110:
+    ```
+     In WebsiteRepository.php line 110:
 
-         The website with id X that was requested wasn't found. Verify the website and try again.
-        ```
+     The website with id X that was requested wasn't found. Verify the website and try again.
+     ```
 
     Run this MySql query and verify that the website cannot be found: 
 
-               ```sql
+          ```sql
                    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
                 ```
 
