@@ -24,7 +24,7 @@ This article provides a solution for the issue when your deployment fails and on
 
 Adobe Commerce on cloud infrastructure, Adobe Commerce on-premises, and Magento Open Source:
 
-* 2.4.x on Adobe Commerce Cloud
+Adobe Commerce on cloud infrastructure 2.4.x
 
 ## Issue  
 
