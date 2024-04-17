@@ -21,8 +21,16 @@ Most [!UICONTROL Security Patches] are released without any physical file or hot
 
 If a physical patch file/hotfix is mentioned in the Release Notes:
 
-* Download the file from the download section of [https://account.magento.com](https://account.magento.com/customer/account/login). (Shared access users must first be given download privileges by the account owner/license holder) 
+* Download the file from the download section of [https://account.magento.com](https://account.magento.com/downloads/view/). (Shared access users must first be given download privileges by the account owner/license holder) 
 
+**Caveats:**
+
+If you are on an older version of Adobe Commerce and have purchased Extended Support, your version must be one of the following to be able to apply the Security Patches:
+
+* 2.4.2-p2
+* 2.4.3-p3
+
+If you don't have Extended Support, you may request Support to share the patches with you, but they will not be able to resolve any issues/errors you may encounter when applying them.
 
 ### Case II:
 
