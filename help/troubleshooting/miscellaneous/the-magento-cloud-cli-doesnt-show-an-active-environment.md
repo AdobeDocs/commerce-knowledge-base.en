@@ -27,7 +27,7 @@ The environment may not be available due to a deployment that is in progress, st
 
 ## Solution
 
-You have to manually specify the environment with the `e|-environment` flag.
+You will have to manually specify the environment with the `e|-environment` flag.
 
 1. Find the list of active environments and take note of the environment names:
 
@@ -35,13 +35,13 @@ You have to manually specify the environment with the `e|-environment` flag.
 $ magento-cloud environment: list |grep "Active\|ID"
 Your environments are:
 
-| ID  | Title          | Type        | Status |  
-|-----|----------------|-------------|--------|
-|     | Master         | Development | Active |  
-|     | Production     | Production  | Active |   
-|     | Staging        | Staging     | Active |   
-|     | Integration    | Development | Active |   
-|     | Integration 2  | Development | Active |   
+| ID             | Type          | Status   |
+|----------------|---------------|----------|
+| Master         | Development   | Active   |
+| Production     | Production    | Active   |
+| Staging        | Staging       | Active   |
+| Integration    | Development   | Active   |
+| Integration 2  | Development   | Active   | 
 ```
 
 2.Specify the environment's ID with your command:
