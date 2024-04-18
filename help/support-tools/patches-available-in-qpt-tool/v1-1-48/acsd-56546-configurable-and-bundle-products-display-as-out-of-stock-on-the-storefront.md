@@ -44,7 +44,7 @@ The out-of-stock configurable products should not be visible on the storefront.
 
 <u>Actual results</u>:
 
-The **out of stock configurable products** are visible on the storefront even after disabling the **Display Out of Stock Products** option is disabled.
+The out-of-stock configurable products are visible on the storefront even when the *[!UICONTROL Display Out of Stock Products]* option is disabled.
 
 ## Apply the patch
 
