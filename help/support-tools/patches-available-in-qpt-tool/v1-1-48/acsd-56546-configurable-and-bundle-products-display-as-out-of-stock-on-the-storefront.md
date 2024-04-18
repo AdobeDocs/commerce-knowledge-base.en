@@ -36,7 +36,7 @@ option is disabled.
 5. Update the first child product to have *qty=0* in both sources.
 6. Update the second child product and disable it on the second website.
 7. Do a full reindex.
-8. Check the category which contains configurable on the 2nd website.
+8. Check the category that contains the configurable product on the second website.
 
 <u>Expected results</u>:
 
