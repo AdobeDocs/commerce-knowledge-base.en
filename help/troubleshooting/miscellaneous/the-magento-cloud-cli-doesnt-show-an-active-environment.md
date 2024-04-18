@@ -8,7 +8,7 @@ role: Developer
 
 ## Issue
 
-There are several active environments and you are trying to interact with an environment by running a `Magento-cloud CLI` (command-line tool) command. `(For example: ssh, db:size, db:sql, etc.)`
+There are several active environments, and you are trying to interact with an environment by running a `Magento-cloud` [!DNL CLI] (command-line tool) command. (For example: `ssh`, `db:size`, `db:sql`, etc.)
 However, the prompt to choose the desired environment doesn't list this environment. (For example: the integration environment)
 
 ```
