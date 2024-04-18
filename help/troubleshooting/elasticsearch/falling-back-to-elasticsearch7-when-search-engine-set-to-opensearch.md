@@ -34,7 +34,7 @@ You set your **search engine** to **[!DNL OpenSearch]**, but see this type of er
 Even though your version does support [!DNL OpenSearch], the application will only recognize/accept [!DNL Elasticsearch7] as the search engine.
 
 Starting in Adobe Commerce version 2.4.6, the application was updated to allow [!DNL OpenSearch] to be selected as the search engine.
-If you go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** in a non-cloud environment, you will be able to see this option.
+If you go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** in a non-cloud environment, you will be able to change this option as shown in the **Solution** below.
 (Note: in a cloud environment, this field can't be changed because the search engine is locked in the `app/etc/env.php` file.)
 
 ## Solution
