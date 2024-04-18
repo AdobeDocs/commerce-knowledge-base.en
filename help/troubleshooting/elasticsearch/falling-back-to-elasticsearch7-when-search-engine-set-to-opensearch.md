@@ -1,6 +1,6 @@
 ---
 title: 'Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]'
-description: This article provides a solution for the issue when a *Falling back to [!DNL Elasticsearch7]* error occurs whenn the search engine is set to [!DNL OpenSearch] in Adobe Commerce.
+description: This article provides a solution for the issue when a *Falling back to [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] in Adobe Commerce.
 feature: Search
 role: Developer
 ---
@@ -27,7 +27,7 @@ You set your **search engine** to **[!DNL OpenSearch]**, but see this type of er
 1. Verify that [!DNL OpenSearch] is installed by running this command: `curl 127.0.0.1:9200`<br>
    If it indicates *1.2.4*, then [!DNL OpenSearch] is already installed.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**.
-1. Check the search engine. It will show [!DNL OpenSearch].
+1. Check the search engine. It will show [!DNL Elasticsearch7].
 
 ## Cause
 
