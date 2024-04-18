@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-57565: The order dashboard displays incorrect order information'
-description: Apply the ACSD-57565 patch to fix the Adobe Commerce issue where the order dashboard displays incorrect order information
+description: Apply the ACSD-57565 patch to fix the Adobe Commerce issue where the order dashboard displays incorrect order information until the time period is updated. 
 feature: Roles/Permissions
 role: Admin, Developer
 ---
