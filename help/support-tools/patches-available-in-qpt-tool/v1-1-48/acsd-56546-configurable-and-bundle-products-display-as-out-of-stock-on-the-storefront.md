@@ -24,7 +24,7 @@ The ACSD-56546 patch fixes the issue where the configurable and bundle products 
 
 ## Issue
 
-Configurable and bundle products display as out of stock on the storefront when **Display Out of Stock Products**
+Configurable and bundle products display as out of stock on the storefront when *[!UICONTROL Display Out of Stock Products]*
 option is disabled. 
 
 <u>Steps to reproduce</u>:
