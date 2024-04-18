@@ -783,7 +783,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-55241: Used and Times Used attributes display incorrect values for generated coupons](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-55241-used-and-times-used-attributes-display-incorrect-values-for-generated-coupons.md)
         * [ACSD-56858: Role permissions discrepancy in B2B company admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel.md)
     * v1.1.48 {#v1-1-48}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)    
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)  
+        * [ACSD-57854: Product **[!DNL GraphQL]** requests are returned as **disabled categories** in the category aggregations](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-product-graphql-requests-are-returned-as-disabled-categories-in-the-category-aggregations.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
