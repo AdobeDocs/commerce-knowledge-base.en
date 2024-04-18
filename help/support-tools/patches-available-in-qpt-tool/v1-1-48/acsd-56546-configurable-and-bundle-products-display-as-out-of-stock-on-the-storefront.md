@@ -29,7 +29,7 @@ option is disabled.
 
 <u>Steps to reproduce</u>:
 
-1. Set the **Display Out of Stock Products** option to *No*.
+1. Set the **[!UICONTROL Display Out of Stock Products]** option to *No*.
 2. Create a website/store/storeview.
 3. Create a source and a stock and then assign it to the 2nd website.
 4. Create a *configurable product* with the 2nd child products(assign both the child products to both the sources) and  also assign it to both the websites (assign both the child products to both the websites).
