@@ -44,4 +44,3 @@ Update the `SEARCH_CONFIGURATION` variable in the `.magento.env.yaml` file, and 
 ## Related reading
 
 [Set up OpenSearch service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) in the Commerce on Cloud Infrastructure guide.
- 
