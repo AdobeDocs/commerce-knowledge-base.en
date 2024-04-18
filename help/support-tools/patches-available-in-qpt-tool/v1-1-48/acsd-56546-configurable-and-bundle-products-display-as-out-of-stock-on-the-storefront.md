@@ -33,7 +33,7 @@ option is disabled.
 2. Create a website, store, and storeview.
 3. Create a source and a stock and then assign it to the second website.
   4. Create a *configurable product* with two child products. Assign both the child products to both sources and both websites.
-5. Update the 1st child product to have *qty=0* in both sources.
+5. Update the first child product to have *qty=0* in both sources.
 6. Update the 2nd child product and disable it on the 2nd website.
 7. Do a full reindex.
 8. Check the category which contains configurable on the 2nd website.
