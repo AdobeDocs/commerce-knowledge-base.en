@@ -40,7 +40,7 @@ option is disabled.
 
 <u>Expected results</u>:
 
-The **out of stock configurable products** should not be visible on the storefront.
+The out-of-stock configurable products should not be visible on the storefront.
 
 <u>Actual results</u>:
 
