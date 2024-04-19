@@ -35,15 +35,14 @@ You will have to manually specify the environment with the `e|-environment` flag
 $ magento-cloud environment: list |grep "Active\|ID"
 Your environments are:
 
-| ID             | Type          | Status   |
-|----------------|---------------|----------|
-| Master         | Development   | Active   |
-| Production     | Production    | Active   |
-| Staging        | Staging       | Active   |
-| Integration    | Development   | Active   |
-| Integration 2  | Development   | Active   | 
+| ID                     | Title            | Status       | Type           |
+| Master                 | Master           | Active       | Development    |
+|   Production           | Production       | Active       | Production     |
+|     Staging            | Staging          | Active       | Staging        |
+|       Integration      | Integration      | Active       | Development    |
+|          Integration 2 | Integration 2    | Active       | Development    |
 ```
 
-2.Specify the environment's ID with your command:
+2. Specify the environment's ID with your command:
 
    `magento-cloud ssh -e integration`
