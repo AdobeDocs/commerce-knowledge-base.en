@@ -43,6 +43,6 @@ Your environments are:
 |          Integration 2 | Integration 2    | Active       | Development    |
 ```
 
-2. Specify the environment's ID with your command:
+ 2.Specify the environment's ID with your command:
 
    `magento-cloud ssh -e integration`
