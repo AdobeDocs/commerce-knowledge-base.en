@@ -6,7 +6,7 @@ role: Developer
 ---
 # Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]
 
-This article provides a solution for the issue when a *Falling back to [!DNL Elasticsearch7]* error occurs whenn the search engine is set to [!DNL OpenSearch] in Adobe Commerce.
+This article provides a solution for the issue when a *Falling back to [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] in Adobe Commerce.
 
 ## Affected versions
 
@@ -35,7 +35,7 @@ Even though your version does support [!DNL OpenSearch], the application will on
 
 Starting in Adobe Commerce version 2.4.6, the application was updated to allow [!DNL OpenSearch] to be selected as the search engine.
 If you go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** in a non-cloud environment, you will be able to change this option as shown in the **Solution** below.
-(Note: in a cloud environment, this field can't be changed because the search engine is locked in the `app/etc/env.php` file.)
+(Note: In a cloud environment, this field can't be changed because the search engine is locked in the `app/etc/env.php` file.)
 
 ## Solution
 
