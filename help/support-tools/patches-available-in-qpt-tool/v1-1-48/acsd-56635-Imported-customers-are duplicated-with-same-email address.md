@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-56635: Imported customers are duplictaed with the same email address when account sharing is set to [!DNL Global]'
+title: 'ACSD-56635: Imported customers are duplicated with the same email address when account sharing is set to [!DNL Global]'
 description: Apply the ACSD-56635 patch to fix the Adobe Commerce issue where the imported customer is duplicated with the same email address when the import is used with account sharing set to [!DNL Global].
 feature:  Products, Inventory
 role: Admin, Developer
 ---
-# ACSD-56635: [!UICONTROL Category] page caches invalidate when the stock quantity changes
+# ACSD-56635: Imported customers are duplicated with the same email address when account sharing is set to [!DNL Global]
 
 The ACSD-56635 patch fixes the issue where the imported customer is duplicated with the same email address when the import is used with account sharing set to [!DNL Global]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56635. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
@@ -24,22 +24,35 @@ The ACSD-56635 patch fixes the issue where the imported customer is duplicated w
 
 ## Issue
 
-Imported customers are duplictaed with the same email address when account sharing is set to [!DNL Global]. 
+Imported customers are duplicated with the same email address when account sharing is set to [!DNL Global]. 
 
 <u>Steps to reproduce</u>:
 
-1. Create a few products and add them to the same category.
-1. Open the *[!UICONTROL Category]* page on the storefront to ensure the page is cached.
-1. Place the order with one of the products from the category *(product quantity is changed, but product is still in stock)*.
-1. Open the [!UICONTROL Category] page on the storefront again.
+1. Under Adobe Commerce (2.4-develop b2b) admin access Stores > Settings > Configuration > Customers> Customer Configuration > Account Sharing Options **.
+1. Set the [!UICONTROL Share Customer Accounts] setting to [!DNL Global].
+1. Create multiple Websites and Stores:
+ws1 -> s11, s12 -> sw111, sw122
+ws2 -> s21, s22 -> sw211, sw212
+1. Create a new customer under 'main website' from admin with email address used as 'adb@yormail.com'.
+1. Under admin, navigate to System > Import.
+1. Select [!UICONTROL Customer Entity Type] as *Customers Main File*.
+1. Use the same email address as 'adb@yopmail.com' with a different website say 'ws1' see the sample CSV used customer.csv.
+1. Complete the import we can see the new user is created under the *ws1* website with the same email address.
+   
+customer.csv content:
+                                      
+```
+email,_website,_store,confirmation,created_at,created_in,disable_auto_group_change,dob,firstname,gender,group_id,lastname,middlename,password_hash,prefix,rp_token,rp_token_created_at,store_id,suffix,taxvat,updated_at,website_id,password
+adb@yopmail.com,ws1,sv111,,09/01/24 12:49,Default Store View,0,,newjon,,1,newDoe,,d708be3fe0fe0120840e8b13c8faae97424252c6374227ff59c05814f1aecd79:mgLqkqgTwLPLlCljzvF8hp67fNOOvOZb:1,,07e71459c137f4da15292134ff459cba,30/10/15 12:49,1,,,09/01/24 12:49,1,
+```
 
 <u>Actual Results</u>:
 
-The page doesn't load from the cache. It is re-generated.
+Duplicate customers are created with same email address while using the customer import. 
 
 <u>Expected Results</u>:
 
-The page loads from the cache.
+The imported customer with the same email address is updated instead of being duplicated.
 
 ## Apply the patch
 
