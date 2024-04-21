@@ -1146,6 +1146,7 @@ breadcrumb-title: Commerce KB
     * [[!DNL JQuery UI] security vulnerability [!DNL CVE-2022-31160] fix for 2.4.4, 2.4.5, and 2.4.6 releases](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
     * [[!DNL FedEx] shipping method integration migration from SOAP to RESTful API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
   * Elasticsearch {#elasticsearch}
+    * [Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
     * [Elasticsearch in Adobe Commerce troubleshooter](/help/troubleshooting/elasticsearch/elasticsearch-in-magento-troubleshooter.md)
