@@ -19,7 +19,6 @@ This article provides a solution for the issue when your deployment fails and on
       W:     There are no commands defined in the "cache" namespace.
 ```
 
-
 ## Affected products and versions
 
 Adobe Commerce on cloud infrastructure 2.4.x
@@ -38,8 +37,6 @@ You deploy successfully.
 
 You do not deploy successfully. In the logs you see a deployment error with a message similar to the following *There are no commands in the cache namespace*.
 
-
-
 ### Cause
  
 The **core_config_data** table contains configurations for a store ID or website ID that no longer exists in the database. This occurs when you have imported a database backup from another instance/environment, and the configurations for those scopes remained in the database though the associated store(s)/website(s) were deleted.
@@ -47,7 +44,6 @@ The **core_config_data** table contains configurations for a store ID or website
 ### Solution
 
 If you have only had one website, then the second test for the websites does not apply, and you only need to test for stores. 
-
 
 To solve this issue, identify the invalid rows left from those configurations.
 
