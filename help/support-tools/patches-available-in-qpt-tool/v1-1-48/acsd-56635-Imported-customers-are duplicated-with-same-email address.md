@@ -28,16 +28,16 @@ Imported customers are duplicated with the same email address when account shari
 
 <u>Steps to reproduce</u>:
 
-1. Under Adobe Commerce (2.4-develop b2b) admin access Stores > Settings > Configuration > Customers> Customer Configuration > Account Sharing Options **.
+1. Under the Adobe Commerce (2.4-develop b2b) admin, access Stores > Settings > Configuration > Customers> Customer Configuration > Account Sharing Options **.
 1. Set the [!UICONTROL Share Customer Accounts] setting to [!DNL Global].
 1. Create multiple Websites and Stores:
 ws1 -> s11, s12 -> sw111, sw122
 ws2 -> s21, s22 -> sw211, sw212
-1. Create a new customer under 'main website' from admin with email address used as 'adb@yormail.com'.
+1. Create a new customer under *main website* from admin with email address used as *adb@yormail.com*.
 1. Under admin, navigate to System > Import.
 1. Select [!UICONTROL Customer Entity Type] as *Customers Main File*.
-1. Use the same email address as 'adb@yopmail.com' with a different website say 'ws1' see the sample CSV used customer.csv.
-1. Complete the import we can see the new user is created under the *ws1* website with the same email address.
+1. Use the same email address as *adb@yopmail.com* with a different website say *ws1* see the sample CSV mentioned below as customer.csv.
+1. Complete the import too see the new user created under the *ws1* website with the same email address.
    
 customer.csv content:
                                       
