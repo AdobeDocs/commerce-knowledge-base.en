@@ -779,11 +779,13 @@ breadcrumb-title: Commerce KB
         * [ACSD-57003: Order status changes to Complete instead of changing to Processing](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-57003-order-status-changed-to-complete-instead-of-processing.md)
     * v1.1.47 {#v1-1-47}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.47](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/overview.md)
+        * [ACSD-56760: Admin user is restricted to a specific website and is unable to sort or add new products](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56760-admin-user-is-restricted-to-a-specific-website-and-is-unable-to-sort-or-add-new-products.md)
         * [ACSD-55241: Used and Times Used attributes display incorrect values for generated coupons](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-55241-used-and-times-used-attributes-display-incorrect-values-for-generated-coupons.md)
         * [ACSD-56858: Role permissions discrepancy in B2B company admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel.md)
     * v1.1.48 {#v1-1-48}
-        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md) 
-        * [ACSD-57394: Incorrect product sorting by multiple sort fields in [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57394-incorrect-product-sorting-by-multiple-sort-fields-in-graphql.md)   
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)
+        * [ACSD-57394: Incorrect product sorting by multiple sort fields in [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57394-incorrect-product-sorting-by-multiple-sort-fields-in-graphql.md)
+        * [ACSD-55566: [!UICONTROL mergeCart] mutation fails with internal server error in [!DNL GraphQL] response](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-55566-mergecart-mutation-fails-with-an-internal-server-error-in-graphql-response.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -1146,6 +1148,7 @@ breadcrumb-title: Commerce KB
     * [[!DNL JQuery UI] security vulnerability [!DNL CVE-2022-31160] fix for 2.4.4, 2.4.5, and 2.4.6 releases](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
     * [[!DNL FedEx] shipping method integration migration from SOAP to RESTful API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
   * Elasticsearch {#elasticsearch}
+    * [Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
     * [Elasticsearch in Adobe Commerce troubleshooter](/help/troubleshooting/elasticsearch/elasticsearch-in-magento-troubleshooter.md)
