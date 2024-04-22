@@ -1,8 +1,9 @@
 ---
 title: The `Magento-cloud` [!DNL CLI] doesn't show an active environment
-description: This article describes a known Adobe Commerce issue where the `Magento-cloud` [!DNL CLI] (command-line tool) does not show an active environment. 
-feature: Cloud, Integration, Configuration 
+description: This article describes a known Adobe Commerce issue where the `Magento-cloud` [!DNL CLI] (command-line tool) does not show an active environment.
+feature: Cloud, Integration, Configuration
 role: Developer
+exl-id: 3c1b5de2-8888-4531-9dc1-cd478e3c96fc
 ---
 # The `Magento-cloud` [!DNL CLI] doesn't show an active environment
 
