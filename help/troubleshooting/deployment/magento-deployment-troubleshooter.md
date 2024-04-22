@@ -97,9 +97,9 @@ b. NO – Proceed to [Step 9](#step-9).
 
 ## Step 8 - Verify cron jobs running {#step-8}
 
-+++**Are cron jobs currently running?**
++++**Are cron jobs currently running?** Log in by ssh on the branch and run `ps aufxx |grep cron`.
 
-a. YES – Log in by ssh on the integration branch (e.g., primary). Kill and unlock cron jobs. This will kill cron jobs and reset the status. Run `php vendor/bin/ece-tools cron:kill` and then `php vendor/bin/ece-tools cron:unlock`. If you were in the process of merging one environment into another, check both environments for running crons.  
+a. YES – Log in by ssh on the affected branch (e.g., primary). Kill and unlock cron jobs. This will kill cron jobs and reset the status. Run `php vendor/bin/ece-tools cron:kill` and then `php vendor/bin/ece-tools cron:unlock`. If you were in the process of merging one environment into another, check both environments for running crons.  
 b. NO – Proceed to [Step 17](#step-17).
 
 +++
