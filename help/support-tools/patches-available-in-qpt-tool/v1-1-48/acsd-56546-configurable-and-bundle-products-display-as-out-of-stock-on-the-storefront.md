@@ -29,13 +29,13 @@ Configurable and bundle products display as out of stock on the storefront when 
 <u>Steps to reproduce</u>:
 
 1. Set the **[!UICONTROL Display Out of Stock Products]** option to *No*.
-2. Create a website, store, and storeview.
-3. Create a source and a stock and then assign it to the second website.
+1. Create a website, store, and storeview.
+1. Create a source and a stock and then assign it to the second website.
 1. Create a *configurable product* with two child products. Assign both the child products to both sources and both websites.
-5. Update the first child product to have *qty=0* in both sources.
-6. Update the second child product and disable it on the second website.
-7. Do a full reindex.
-8. Check the category that contains the configurable product on the second website.
+1. Update the first child product to have *qty=0* in both sources.
+1. Update the second child product and disable it on the second website.
+1. Do a full reindex.
+1. Check the category that contains the configurable product on the second website.
 
 <u>Expected results</u>:
 
