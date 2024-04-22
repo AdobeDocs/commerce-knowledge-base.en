@@ -39,7 +39,7 @@ Configurable and bundle products display as out of stock on the storefront when 
 
 <u>Expected results</u>:
 
-The out-of-stock configurable products should not be visible on the storefront.
+The out-of-stock configurable products are not visible on the storefront.
 
 <u>Actual results</u>:
 
