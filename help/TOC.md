@@ -784,7 +784,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-56858: Role permissions discrepancy in B2B company admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel.md)
     * v1.1.48 {#v1-1-48}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)  
-        * [ACSD-57854: Product [!DNL GraphQL] requests are returned as disabled categories in the category aggregations](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-product-graphql-requests-are-returned-as-disabled-categories-in-the-category-aggregations.md)
+        * [ACSD-57854: GraphQL response contains disabled categories that should not be listed in the category aggregations](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-2587-graphql-response-contains-disabled-categories-that-should-not-be-listed-in-the-category-aggregations.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
