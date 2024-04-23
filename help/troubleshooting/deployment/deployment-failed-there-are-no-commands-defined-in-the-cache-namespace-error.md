@@ -71,7 +71,9 @@ To solve this issue, identify the invalid rows left from those configurations.
     delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
     ```
 
-1. Run `bin/magento` again. 
+1. Run this command again:
+
+    `bin/magento`
 
     If you get an error like the below which indicates that the website with id X that was requested was not found you have configurations remaining        in the database from website(s) as-well as store(s) that have been deleted. 
 
