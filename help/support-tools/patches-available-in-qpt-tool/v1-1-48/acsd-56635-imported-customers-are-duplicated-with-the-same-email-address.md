@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-56635: Imported customers are duplicated when account sharing is set to [!DNL Global]'
 description: Apply the ACSD-56635 patch to fix the Adobe Commerce issue where the imported customer is duplicated with the same email address when the import is used with account sharing set to [!DNL Global].
-feature:  Products, Inventory
+feature:  Customers, Attributes
 role: Admin, Developer
 ---
 # ACSD-56635: Imported customers are duplicated with the same email address when account sharing is set to [!DNL Global]
