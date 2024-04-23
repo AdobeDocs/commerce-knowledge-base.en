@@ -49,4 +49,4 @@ If a physical patch file/hotfix is not mentioned in the Release Notes:
 ## Related reading
 
 * See [Release notes for Commerce Cloud Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) in the *Adobe Commerce on Cloud Infrastructure Guide*.
-* See [upgrade the Adobe Commerce version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in the *Adobe Commerce on Cloud Infrastructure Guide*.
+* See [Upgrade the Adobe Commerce version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in the *Adobe Commerce on Cloud Infrastructure Guide*.
