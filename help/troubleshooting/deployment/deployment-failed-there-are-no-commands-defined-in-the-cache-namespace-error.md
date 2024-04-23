@@ -3,6 +3,7 @@ title: "'Deployment failed: There are no commands defined in the 'cache' namespa
 description: This article provides a solution for the issue when deployment fails with the following error **There are no commands defined in the cache namespace**.
 feature: Deploy
 role: Developer
+exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
 ---
 # Deployment failed: There are no commands defined in the 'cache' namespace error
 
