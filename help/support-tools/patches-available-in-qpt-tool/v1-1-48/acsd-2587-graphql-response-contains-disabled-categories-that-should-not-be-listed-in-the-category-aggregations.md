@@ -1,12 +1,12 @@
 ---
 title: 'ACSD-57854: **[!DNL GraphQL]** response contains disabled categories that should not be listed in the category aggregations'
-description: Apply the ACSD-57854 patch to fix the Adobe Commerce issue where the **[!DNL GraphQL]** response contains disabled categories that should not be listed in the category aggregations.
+description: Apply the ACSD-57854 patch to fix the Adobe Commerce issue where the **[!DNL GraphQL]** response contains disabled categories that shouldn't be listed in the category aggregations.
 feature: GraphQL
 role: Admin, Developer
 ---
 # ACSD-57854: **[!DNL GraphQL]** response contains disabled categories that should not be listed in the category aggregations
 
-The ACSD-57854 patch fixes the issue where the **[!DNL GraphQL]** response contains disabled categories that should not be listed in the category aggregations. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.48 is installed. The patch ID is ACSD-57854. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-57854 patch fixes the issue where the **[!DNL GraphQL]** response contains disabled categories that shouldn't be listed in the category aggregations. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.48 is installed. The patch ID is ACSD-57854. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-57854 patch fixes the issue where the **[!DNL GraphQL]** response conta
 
 ## Issue
 
-**[!DNL GraphQL]** response contains disabled categories that should not be listed in the category aggregations.
+**[!DNL GraphQL]** response contains disabled categories that shouldn't be listed in the category aggregations.
 
 <u>Steps to reproduce</u>:
 
