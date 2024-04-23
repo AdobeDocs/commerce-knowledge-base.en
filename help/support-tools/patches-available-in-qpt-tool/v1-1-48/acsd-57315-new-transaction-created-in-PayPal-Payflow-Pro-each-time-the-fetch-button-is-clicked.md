@@ -1,7 +1,7 @@
 ---
-title: 'ACSD-57315: New transaction created in [!DNL PayPal Payflow Pro] each time the fetch button is clicked'
+title: 'ACSD-57315: New transaction is created in [!DNL PayPal Payflow Pro] each time the fetch button is clicked'
 description: Apply the ACSD-57315 patch to fix the Adobe Commerce issue where a new transaction is created in [!DNL PayPal Payflow Pro] each time the fetch button is clicked on the view transaction screen in the [!UICONTROL Admin].
-feature: Companies, B2B, Roles/Permissions
+feature: Payments
 role: Admin, Developer
 ---
 # ACSD-57315: New transaction created in [!DNL PayPal Payflow Pro] each time the fetch button is clicked
