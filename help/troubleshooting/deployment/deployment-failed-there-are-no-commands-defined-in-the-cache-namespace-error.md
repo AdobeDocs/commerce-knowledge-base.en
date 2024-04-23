@@ -39,7 +39,7 @@ You do not deploy successfully. In the logs you see a deployment error with a me
 
 ### Cause
  
-The **core_config_data** table contains configurations for a store ID or website ID that no longer exists in the database. This occurs when you have imported a database backup from another instance/environment, and the configurations for those scopes remain in the database though the associated store(s)/website(s) were deleted.
+The **core_config_data** table contains configurations for a store ID or website ID that no longer exists in the database. This occurs when you have imported a database backup from another instance/environment, and the configurations for those scopes remain in the database though the associated store(s)/website(s) have been deleted.
 
 ### Solution
 
