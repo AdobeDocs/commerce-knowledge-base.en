@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-55566: [!UICONTROL mergeCart] mutation fails with internal server error in [!DNL GraphQL] response'
-description: Apply the ACSD-55566 patch to fix the Adobe Commerce issue where the `mergeCart` mutation fails with an internal server error in [!DNL GraphQL] response when merging the source and the destination carts that have the same bundle items.
-feature: GraphQL, Shopping Cart
+title: 'ACSD-56546: Configurable and bundle products display as out of stock on the storefront'
+description: Apply the ACSD-56546 patch to fix the Adobe Commerce issue where the configurable and bundle products display as out of stock on the storefront when the *[!UICONTROL Display Out of Stock Products]* configuration option is disabled.
+feature: Storefront, Products
 role: Admin, Developer
-exl-id: 84a9b861-351e-4fcc-bb91-3e31c7ae24e6
 ---
-# ACSD-55566: `mergeCart` mutation fails with internal server error in [!DNL GraphQL] response
+# ACSD-56546: Configurable and bundle products display as out of stock on the storefront
 
-The ACSD-55566 patch fixes the issue where the `mergeCart` mutation fails with an internal server error in [!DNL GraphQL] response. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-55566. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-56546 patch fixes the issue where the configurable and bundle products display as out of stock on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56546. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p2
+* Adobe Commerce (all deployment methods) 2.4.6-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p4
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p4
 
 >[!NOTE]
 >
@@ -25,29 +24,26 @@ The ACSD-55566 patch fixes the issue where the `mergeCart` mutation fails with a
 
 ## Issue
 
-`mergeCart` mutation fails with an internal server error in [!DNL GraphQL] response when merging the source and the destination carts that have the same bundle items.
+Configurable and bundle products display as out of stock on the storefront when *[!UICONTROL Display Out of Stock Products]* option is disabled. 
 
 <u>Steps to reproduce</u>:
 
-1. Create a custom source and a custom stock.
-1. Assign the created stock to the main website.
-1. Create a simple product and assign to it the created source (qty=2).
-1. Create a bundle product with one option and one child product (product created in step 3).
-1. Create a guest cart via [!DNL GraphQL].
-1. Add a bundle product with both options selected.
-1. Save the *cartID*.
-1. Create a customer and generate a customer token.
-1. Create a customer cart.
-1. Add the same bundle product with the same configuration to the cart.
-1. Try to merge the guest cart with the customer cart.
+1. Set the **[!UICONTROL Display Out of Stock Products]** option to *No*.
+1. Create a website, store, and storeview.
+1. Create a source and a stock and then assign it to the second website.
+1. Create a *configurable product* with two child products. Assign both the child products to both sources and both websites.
+1. Update the first child product to have *qty=0* in both sources.
+1. Update the second child product and disable it on the second website.
+1. Do a full reindex.
+1. Check the category that contains the configurable product on the second website.
 
 <u>Expected results</u>:
 
-The customer cart contains products from both carts.
+The out-of-stock configurable products are not visible on the storefront.
 
 <u>Actual results</u>:
 
-You get an internal error.
+The out-of-stock configurable products are visible on the storefront even when the *[!UICONTROL Display Out of Stock Products]* option is disabled.
 
 ## Apply the patch
 

@@ -1,8 +1,9 @@
 ---
-title: 'Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]'
+title: Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]
 description: This article provides a solution for the issue when a *Falling back to [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] in Adobe Commerce.
 feature: Search
 role: Developer
+exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
 ---
 # Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]
 
