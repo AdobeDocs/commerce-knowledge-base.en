@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-57394: Incorrect product sorting by multiple sort attributes in [!DNL GraphQL]
 
-The ACSD-57394 patch fixes the issue where the incorrect product sorting by multiple sort attributes in [!DNL GraphQL]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56842. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-57394 patch fixes the issue where the incorrect product sorting by multiple sort attributes in [!DNL GraphQL]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-57394. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
 
 ## Affected products and versions
 
