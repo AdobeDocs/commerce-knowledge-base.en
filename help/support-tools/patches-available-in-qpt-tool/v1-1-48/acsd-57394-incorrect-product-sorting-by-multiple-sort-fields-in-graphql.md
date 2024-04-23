@@ -79,7 +79,7 @@ The products should be returned in the correct order. Sorting the products by mu
 
 <u>Actual results</u>:
 
-The products are returned in incorrect order in the response. Sorting the products by multiple attributes doesn't work.
+The products are not returned in the correct order. Sorting the products by multiple attributes doesn't work.
 
 ## Apply the patch
 
