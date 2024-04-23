@@ -24,7 +24,7 @@ The ACSD-57394 patch fixes the issue where the products are incorrectly sorted w
 
 ## Issue
 
-Products are incorrectly sorted when using multiple sort attributes in [!DNL GraphQL]
+Products are incorrectly sorted when using multiple sort attributes in [!DNL GraphQL].
 
 <u>Steps to reproduce</u>:
 
