@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-57394: Incorrect product sorting by multiple sort fields in [!DNL GraphQL]'
-description: Apply the ACSD-57394 patch to fix the Adobe Commerce issue where the incorrect product sorting by multiple sort field in [!DNL GraphQL].
+title: 'ACSD-57394: Incorrect product sorting by multiple sort attributes in [!DNL GraphQL]'
+description: Apply the ACSD-57394 patch to fix the Adobe Commerce issue where the incorrect product sorting by multiple sort attributes in [!DNL GraphQL].
 feature: GraphQL, Products
 role: Admin, Developer
 ---
-# ACSD-57394: Incorrect product sorting by multiple sort fields in [!DNL GraphQL]
+# ACSD-57394: Incorrect product sorting by multiple sort attributes in [!DNL GraphQL]
 
-The ACSD-57394 patch fixes the issue where the incorrect product sorting by multiple sort field in [!DNL GraphQL]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56842. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-57394 patch fixes the issue where the incorrect product sorting by multiple sort attributes in [!DNL GraphQL]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56842. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-57394 patch fixes the issue where the incorrect product sorting by mult
 
 ## Issue
 
-Incorrect product sorting by multiple sort fields in [!DNL GraphQL].
+Incorrect product sorting by multiple sort attributes in [!DNL GraphQL].
 
 <u>Steps to reproduce</u>:
 
@@ -75,11 +75,11 @@ Incorrect product sorting by multiple sort fields in [!DNL GraphQL].
 
 <u>Expected results</u>:
 
-The products should be returned in correct order in the response. Sorting the products by multiple parameters works.
+The products should be returned in correct order in the response. Sorting the products by multiple attributes works.
 
 <u>Actual results</u>:
 
-The products are returned in incorrect order in the response. Sorting the products by multiple parameters doesn't work.
+The products are returned in incorrect order in the response. Sorting the products by multiple attributes doesn't work.
 
 ## Apply the patch
 
