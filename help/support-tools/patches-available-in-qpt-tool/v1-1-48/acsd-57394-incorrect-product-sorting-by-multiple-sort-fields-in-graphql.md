@@ -29,7 +29,7 @@ Incorrect product sorting by multiple sort attributes in [!DNL GraphQL].
 <u>Steps to reproduce</u>:
 
 1. Create a few products with different prices and names.
-1. Create a category and assign the created product to it.
+1. Create a category and assign the created products to it.
 1. Send [!DNL GraphQL] products query for created category with few *sort* attributes. For example:
    
     ```
