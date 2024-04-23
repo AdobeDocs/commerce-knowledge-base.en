@@ -75,7 +75,7 @@ Incorrect product sorting by multiple sort attributes in [!DNL GraphQL].
 
 <u>Expected results</u>:
 
-The products should be returned in correct order in the response. Sorting the products by multiple attributes works.
+The products should be returned in the correct order. Sorting the products by multiple attributes should work.
 
 <u>Actual results</u>:
 
