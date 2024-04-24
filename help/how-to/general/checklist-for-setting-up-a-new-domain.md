@@ -27,8 +27,13 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 >[!NOTE]
 >
 >You can add the new [!DNL domain] to [!DNL Fastly] yourself by updating the configuration in the [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** as in [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) in our user guide.
+>
+>If you are unable to add the domain, it could be due to one of these reasons:
+>
+>1. You are migrating the domain to the Cloud environment, which has been configured in your own Fastly service - submit a request and request delegation of the domain
+>1. You are migrating the domain from Starter to Pro - submit a request for further assistance.
 
-* **[!DNL Starter]**: [!DNL Custom domains] are not supported.
+* **[!DNL Starter]**: [!DNL Custom domains] are not supported on the Staging environment.
 
 ### Step 3 - [!DNL Production environment]: are you on [!DNL Pro] or [!DNL Starter]?
 
@@ -37,6 +42,12 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 >[!NOTE]
 >
 >You can add the new [!DNL domain] to [!DNL Fastly] yourself by updating the configuration in the [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) in our user guide.
+>
+>
+>If you are unable to add the domain, it could be due to one of these reasons:
+>
+>1. You are migrating the domain from On-Premises to the Cloud environment, which has been configured in your own Fastly service - submit a request and request delegation of the domain
+>1. You are migrating the domain from Starter to Pro - submit a request for further assistance.
 
 * **[!DNL Starter]**: Add the [!DNL domain] to your project in the **[!DNL Domains]** tab, then **submit a request** to provide the **[!DNL ACME Challenge Key]** for the [!DNL SSL certificate].
 
