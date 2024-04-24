@@ -33,7 +33,7 @@ A new transaction is created in [!DNL PayPal Payflow Pro] each time the fetch bu
 1. Place an order using *Credit Card*.
 1. Open the transaction from [!UICONTROL Admin].
 1. Click on the **[!UICONTROL Fetch]** button.
-1. Check [!DNL PayPal] account for transaction related to placed order.
+1. Check [!DNL PayPal] account for transactions related to the placed order.
 
 <u>Expected results</u>:
 
