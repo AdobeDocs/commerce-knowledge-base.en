@@ -41,7 +41,7 @@ A new payment transaction is not created.
 
 <u>Actual results</u>:
 
-New payment transaction is created for the same order which already has been paid.
+A new payment transaction is created for an order that has already been paid.
 
 ## Apply the patch
 
