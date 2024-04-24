@@ -29,7 +29,7 @@ The *Yes/No* custom attribute with `price_*attrbute_code` doesn't work with inde
 <u>Steps to reproduce</u>:
 
 1. Create a custom product attribute with the following options:
-    * *[!UICONTROL Catalog Input Type]* : *Yes/No*
+    * *[!UICONTROL Catalog Input Type]*: *Yes/No*
     * *[!UICONTROL Scope]* : *StoreView*
     * *[!UICONTROL Use in Search]* : *Yes*
 1. Assign the attribute to the default attribute set.
