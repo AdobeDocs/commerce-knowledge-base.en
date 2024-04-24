@@ -784,7 +784,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-56858: Role permissions discrepancy in B2B company admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel.md)
     * v1.1.48 {#v1-1-48}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)
-        * [ACSD-57315: New transaction is created in [!DNL PayPal Payflow Pro] each time the fetch button is clicked](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57315-new-transaction-created-in-PayPal-Payflow-Pro-each-time-the-fetch-button-is-clicked.md)   
+        * [ACSD-57315: New transaction is created in [!DNL PayPal Payflow Pro] each time the fetch button is clicked](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57315-new-transaction-created-in-paypal-payflow-pro-each-time-the-fetch-button-is-clicked.md)   
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
