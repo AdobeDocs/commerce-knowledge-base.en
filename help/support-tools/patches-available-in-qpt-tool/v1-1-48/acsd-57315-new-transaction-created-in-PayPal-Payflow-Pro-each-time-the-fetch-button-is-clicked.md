@@ -37,7 +37,7 @@ A new transaction is created in [!DNL PayPal Payflow Pro] each time the fetch bu
 
 <u>Expected results</u>:
 
-New payment transaction should not be created.
+A new payment transaction is not created.
 
 <u>Actual results</u>:
 
