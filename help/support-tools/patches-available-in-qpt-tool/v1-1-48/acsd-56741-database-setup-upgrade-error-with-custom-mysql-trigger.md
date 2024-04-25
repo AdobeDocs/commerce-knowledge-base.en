@@ -31,11 +31,11 @@ An unexpected error message *trying to access array offset on value of type null
 php bin/magento indexer:set-mode schedule
 
 ```
-    MariaDB [root_magento2]> DELIMITER // 
-    MariaDB [root_magento2]> CREATE TRIGGER trg_catalog_category_entity_before_delete_umis BEFORE DELETE ON catalog_category_entity FOR EACH ROW 
-    -> BEGIN
-    -> UPDATE ewave_navigation_menu_item_info as nit INNER JOIN ewave_navigation_menu_category_type as ncmi ON nit.`id` = ncmi.`menu_item_id` AND ncmi.`category_id` = OLD.`entity_id` SET nit.`status` = 0;
-    -> END //
+    DELIMITER //
+CREATE TRIGGER trg_catalog_category_entity_before_delete_umis BEFORE DELETE ON catalog_category_entity FOR EACH ROW
+-> BEGIN
+-> UPDATE ewave_navigation_menu_item_info as nit INNER JOIN ewave_navigation_menu_category_type as ncmi ON nit.id = ncmi.menu_item_id AND ncmi.category_id = OLD.entity_id SET nit.status = 0;
+-> END //
 ```
 
 php bin/magento c:f
