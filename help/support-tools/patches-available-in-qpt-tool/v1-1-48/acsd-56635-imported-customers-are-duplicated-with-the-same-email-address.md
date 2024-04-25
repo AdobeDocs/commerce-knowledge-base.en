@@ -32,7 +32,7 @@ Imported customers are duplicated with the same email address when account shari
 1. Set the *[!UICONTROL Share Customer Accounts]* setting to *[!DNL Global]*.
 1. Create multiple websites and stores:
 ws1 -> s11, s12 -> sw111, sw122
-ws2 -> s21, s22 -> sw211, sw212
+    * ws2 > s21, s22 > sw211, sw212
 1. Create a new customer under *main website* from admin with email address used as <adb@yormail.com>.
 1. Under admin, navigate to System > Import.
 1. Select [!UICONTROL Customer Entity Type] as *Customers Main File*.
