@@ -4,7 +4,7 @@ description: Apply the ACSD-56635 patch to fix the Adobe Commerce issue where th
 feature:  Customers, Attributes
 role: Admin, Developer
 ---
-# ACSD-56635: Imported customers are duplicated with the same email address when account sharing is set to [!DNL Global]
+# ACSD-56635: Imported customers are duplicated with same email address when account sharing set to [!DNL Global]
 
 The ACSD-56635 patch fixes the issue where the imported customer is duplicated with the same email address when the import is used with account sharing set to [!DNL Global]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56635. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
