@@ -24,7 +24,7 @@ The ACSD-57565 patch fixes the issue where the order dashboard displays incorrec
 
 ## Issue
 
- The order dashboard displays incorrect order information
+ The order dashboard displays incorrect order information.
 
  <u>Steps to reproduce</u>:
 
