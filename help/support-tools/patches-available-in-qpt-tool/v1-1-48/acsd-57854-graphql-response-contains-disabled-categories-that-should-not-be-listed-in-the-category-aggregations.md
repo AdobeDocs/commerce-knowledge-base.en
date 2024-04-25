@@ -31,7 +31,7 @@ The ACSD-57854 patch fixes the issue where the **[!DNL GraphQL]** response conta
 1. Create *2* categories.
 1. Create a product (Test Adobe Product) and assign the product to both the categories.
 1. Disable one of the categories which were created.
-1. Use products **[!DNL Graphql]** to search the product.
+1. Search the product under the **[!DNL GraphQL]** response..
 1. Check the list of the product categories in the **[!DNL GraphQL]** response.
 
 <u>Expected results</u>:
