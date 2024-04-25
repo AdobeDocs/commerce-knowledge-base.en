@@ -41,7 +41,7 @@ The dashboard chart should show the correct statistics all the time.
 
 <u>Actual results</u>:
 
-The dashboard chart shows incorrect statistics at the first load. The chart's accurate statistics is updated after the time period.
+The dashboard chart shows incorrect statistics at the first load. The chart's accurate statistics are updated after the time period.
 
 ## Apply the patch
 
