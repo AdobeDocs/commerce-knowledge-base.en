@@ -28,7 +28,7 @@ Imported customers are duplicated with the same email address when account shari
 
 <u>Steps to reproduce</u>:
 
-1. Under the Adobe Commerce (2.4-develop b2b) admin, access Stores > Settings > Configuration > Customers> Customer Configuration > Account Sharing Options **.
+1. Under the Adobe Commerce (2.4-develop b2b) **[!UICONTROL Admin]**, access **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Customer Configuration]** > **[!UICONTROL Account Sharing Options]**.
 1. Set the [!UICONTROL Share Customer Accounts] setting to [!DNL Global].
 1. Create multiple Websites and Stores:
 ws1 -> s11, s12 -> sw111, sw122
