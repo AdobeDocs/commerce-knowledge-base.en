@@ -28,7 +28,7 @@ The ACSD-57565 patch fixes the issue where the order dashboard displays incorrec
 
  <u>Steps to reproduce</u>:
 
-1. Enable **[!UICONTROL dashboard charts]**
+1. Enable **[!UICONTROL dashboard charts]**.
 1. Create an order and invoice it.
 1. Wait for at least 24 hours after the time of the order creation.
 1. Check the **[!UICONTROL dashboard chart]** data.
