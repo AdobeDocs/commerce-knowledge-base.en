@@ -33,7 +33,7 @@ The ACSD-57565 patch fixes the issue where the order dashboard displays incorrec
 1. Wait for at least 24 hours after the time of the order creation.
 1. Check the **[!UICONTROL dashboard chart]** data.
 1. Make a note of the complete order count.
-1. Change the time to the **Current month** and back to **today**
+1. Change the time to the *current month*, and then change it back to *today*.
 
 <u>Expected results</u>:
 
