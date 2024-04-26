@@ -28,7 +28,7 @@ An error message *Trying to access array offset on value of type null* appears d
 
 <u>Steps to reproduce</u>:
 
-php bin/magento indexer:set-mode schedule
+1. Run `php bin/magento indexer:set-mode schedule`
 
 ```
     DELIMITER //
