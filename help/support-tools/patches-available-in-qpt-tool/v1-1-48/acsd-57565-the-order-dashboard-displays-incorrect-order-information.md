@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-57565: The order dashboard displays incorrect order information
 
-The ACSD-57565 patch fixes the issue where the order dashboard displays incorrect order information. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.48 is installed. The patch ID is ACSD-57565. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-57565 patch fixes the issue where the order dashboard displays incorrect order information until the time period is updated. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.48 is installed. The patch ID is ACSD-57565. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
