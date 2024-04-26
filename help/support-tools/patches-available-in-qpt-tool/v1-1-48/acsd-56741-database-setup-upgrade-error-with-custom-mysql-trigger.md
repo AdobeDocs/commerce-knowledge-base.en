@@ -43,7 +43,7 @@ php bin/magento setup:upgrade
 
 <u>Expected results</u>:
 
-The setup upgrade successfully finishes without any error.
+The setup upgrade finishes without any error.
 
 <u>Actual results</u>:
 
