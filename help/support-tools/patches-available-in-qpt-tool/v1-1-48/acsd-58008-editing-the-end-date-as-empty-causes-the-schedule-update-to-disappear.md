@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-58008: Editing the end date as **empty** causes the schedule update to disappear'
+title: 'ACSD-58008: Editing the end date as *empty* causes the schedule update to disappear'
 description: Apply the ACSD-58008 patch to fix the Adobe Commerce issue where editing the end date as empty causes schedule update to disappear. 
-feature: User Account
+feature: Staging, Page Content
 role: Admin, Developer 
 ---
-# ACSD-58008: Editing the end date as **empty** causes the schedule update to disappear
+# ACSD-58008: Editing the end date as *empty* causes the schedule update to disappear
 
-The ACSD-58008 patch fixes the issue where editing the end date as **empty** causes the schedule update to disappear. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-58008. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-58008 patch fixes the issue where editing the end date as *empty* causes the schedule update to disappear. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-58008. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -24,15 +24,15 @@ The ACSD-58008 patch fixes the issue where editing the end date as **empty** cau
 
 ## Issue
 
-Editing the end date as **empty** causes the schedule update to disappear
+Editing the end date as *empty* causes the schedule update to disappear
 
 <u>Steps to reproduce</u>:
 
 1. Login as **[!UICONTROL Admin]**. Click on **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** and create a page.
 1. Select the created page and click on **[!UICONTROL Schedule New Update]**. *(Navigate it on the top right hand corner of the page)*.
-1. Create *4* updates. *(For example, as an increment of *2* minutes)*.
+1. Create four updates. *(For example, as an increment of *2* minutes)*.
 1. Update the *update 2* and change the time to a time that is ahead of the last *update 4*.
-1. Save the update. 
+1. Save the updates made. 
 
 <u>Expected results</u>:
 
