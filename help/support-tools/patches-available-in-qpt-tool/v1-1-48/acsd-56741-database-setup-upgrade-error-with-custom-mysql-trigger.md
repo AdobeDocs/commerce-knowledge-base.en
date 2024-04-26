@@ -24,7 +24,7 @@ The ACSD-56741 patch fixes the issue where an error message *Trying to access ar
 
 ## Issue
 
-An unexpected error message *trying to access array offset on value of type null* displays during setup:upgrade when the database contains a custom MySQL trigger which is not related to the indexation mechanism and MView.
+An error message *Trying to access array offset on value of type null* appears during `setup:upgrade` due to a custom MySQL trigger in the database unrelated to indexation and [!DNL MView].
 
 <u>Steps to reproduce</u>:
 
