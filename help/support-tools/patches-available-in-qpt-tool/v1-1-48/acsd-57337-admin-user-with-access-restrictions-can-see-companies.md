@@ -37,11 +37,11 @@ An admin user with access restrictions to specific websites could view companies
 
 <u>Expected results</u>:
 
-The companies that have been assigned to the additional website are visible in the companies grid.
+The companies that have been assigned to the additional website are visible in the *Companies* grid.
 
 <u>Actual results</u>:
 
-All companies are visible in the grid.
+All companies are visible in the *Companies* grid.
 
 ## Apply the patch
 
