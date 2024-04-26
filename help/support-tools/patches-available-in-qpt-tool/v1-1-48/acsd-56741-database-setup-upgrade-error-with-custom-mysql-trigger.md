@@ -47,7 +47,7 @@ The setup upgrade successfully finishes without any error.
 
 <u>Actual results</u>:
 
-The setup upgrade exits with the error message: 
+The setup upgrade exits with an error message: 
 **Warning**: *Trying to access array offset on value of type null*.
 
 ## Apply the patch
