@@ -39,7 +39,7 @@ CREATE TRIGGER trg_catalog_category_entity_before_delete_umis BEFORE DELETE ON c
 ```
 
 1. Run `php bin/magento c:f`
-php bin/magento setup:upgrade
+1. Run `php bin/magento setup:upgrade`
 
 <u>Expected results</u>:
 
