@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-56741: Troubleshooting database setup errors with custom MySQL triggers
 
-The ACSD-56741 patch fixes the issue where an error message *trying to access array offset on value of type null* is displayed during setup:upgrade. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56741. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0
+The ACSD-56741 patch fixes the issue where an error message *Trying to access array offset on value of type null* appears during `setup:upgrade` due to a custom MySQL trigger in the database unrelated to indexation and [!DNL MView]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56741. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0
 
 ## Affected products and versions
 
