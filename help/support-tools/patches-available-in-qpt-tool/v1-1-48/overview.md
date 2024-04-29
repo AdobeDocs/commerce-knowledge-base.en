@@ -23,3 +23,4 @@ QPT v1.1.48 includes the following patches:
 1. **ACSD-58008**: Fixes the issue where updating a scheduled update removes the previous version of the staged item if no end date is specified.
 
 Use the menu on the left to navigate to a specific patch page.
+
