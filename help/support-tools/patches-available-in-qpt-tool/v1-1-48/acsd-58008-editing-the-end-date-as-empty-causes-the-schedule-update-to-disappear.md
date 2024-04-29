@@ -28,7 +28,8 @@ Editing the end date as *empty* causes the schedule update to disappear
 
 <u>Steps to reproduce</u>:
 
-1. Login as **[!UICONTROL Admin]**. Click on **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** and create a page.
+1. Log in as [!UICONTROL Admin]. 
+1. Go to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** and create a page.
 1. Select the created page and click on **[!UICONTROL Schedule New Update]**. *(Navigate it on the top right hand corner of the page)*.
 1. Create four updates. *(For example, as an increment of *2* minutes)*.
 1. Update the *update 2* and change the time to a time that is ahead of the last *update 4*.
