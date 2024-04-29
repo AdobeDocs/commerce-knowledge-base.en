@@ -40,7 +40,7 @@ You do not deploy successfully. You see the following error *The "https://repo.m
 The specified composer access keys found in one of these locations may not have access to the code:
 
 * in the [!UICONTROL env:COMPOSER_AUTH] variable on the Project-level
-* in the [!UICONTROL auth.json file], which takes precedence over the env:COMPOSER_AUTH variable
+* in the [!UICONTROL auth.json file], which takes precedence over the [!UICONTROL env:COMPOSER_AUTH variable].
 
 ### Solution
 
