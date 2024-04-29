@@ -54,7 +54,7 @@ The imported customer with the same email address is updated instead of being du
 
 <u>Actual Results</u>:
 
-Duplicate customers are created with same email address while using the customer import. 
+Duplicate customers are created with the same email address when using the customer import. 
 
 ## Apply the patch
 
