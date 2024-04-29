@@ -47,13 +47,13 @@ email,_website,_store,confirmation,created_at,created_in,disable_auto_group_chan
 adb@yopmail.com,ws1,sv111,,09/01/24 12:49,Default Store View,0,,newjon,,1,newDoe,,d708be3fe0fe0120840e8b13c8faae97424252c6374227ff59c05814f1aecd79:mgLqkqgTwLPLlCljzvF8hp67fNOOvOZb:1,,07e71459c137f4da15292134ff459cba,30/10/15 12:49,1,,,09/01/24 12:49,1,
 ```
 
-<u>Actual Results</u>:
-
-Duplicate customers are created with same email address while using the customer import. 
-
 <u>Expected Results</u>:
 
 The imported customer with the same email address is updated instead of being duplicated.
+
+<u>Actual Results</u>:
+
+Duplicate customers are created with same email address while using the customer import. 
 
 ## Apply the patch
 
