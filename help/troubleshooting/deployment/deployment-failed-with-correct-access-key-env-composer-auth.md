@@ -33,7 +33,7 @@ You deploy successfully.
 
 <u>Actual results</u>:
 
-You do not deploy successfully. You see the following error **The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)**.
+You do not deploy successfully. You see the following error *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)*.
 
 ### Cause
 
