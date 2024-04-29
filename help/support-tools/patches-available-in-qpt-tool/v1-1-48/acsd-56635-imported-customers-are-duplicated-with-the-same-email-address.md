@@ -39,7 +39,7 @@ Imported customers are duplicated with the same email address when account shari
 1. Under **[!UICONTROL Admin]**, navigate to **[!UICONTROL System]** > **[!UICONTROL Import]**.
 1. Select **[!UICONTROL Customer Entity Type]** as *[!UICONTROL Customers Main File]*.
 1. Use the same email address as <adb@yormail.com> on a different website, for example, ws1. Refer to the sample CSV file customer.csv given below.
-1. Complete the import too see the new user created under the *ws1* website with the same email address.
+1. Complete the import to see the new user created under the *ws1* website with the same email address.
    
 customer.csv content:
                                       
