@@ -6,9 +6,6 @@ role: Developer
 ---
 # Deployment failed with correct access keys in env:COMPOSER_AUTH or auth.json
 
->[!WARNING]
->
->Backup the database first, if you are doing this in a live Production site, before performing these steps.
 
 This article provides a solution for the issue when your deployment fails with the following error:
 
