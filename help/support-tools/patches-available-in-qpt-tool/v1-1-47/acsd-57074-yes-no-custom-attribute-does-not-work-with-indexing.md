@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-57074: *Yes/No* custom attribute with `price_*` prefix in `attribute_code` attribute doesn't work with indexing
 
-The ACSD-57074 patch fixes the issue where the *Yes/No* custom attribute with `price_*` prefix in the `attrbute_code` attribute doesn't work with indexing. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.47 is installed. The patch ID is ACSD-57074. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-57074 patch fixes the issue where the *Yes/No* custom attribute with `price_*` prefix in the `attribute_code` attribute doesn't work with indexing. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.47 is installed. The patch ID is ACSD-57074. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
