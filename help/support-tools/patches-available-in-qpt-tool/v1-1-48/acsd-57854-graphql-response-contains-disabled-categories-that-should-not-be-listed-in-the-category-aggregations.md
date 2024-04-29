@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-56546: Configurable and bundle products display as out of stock on the storefront'
-description: Apply the ACSD-56546 patch to fix the Adobe Commerce issue where the configurable and bundle products display as out of stock on the storefront when the *[!UICONTROL Display Out of Stock Products]* configuration option is disabled.
-feature: Storefront, Products
+title: 'ACSD-57854: *GraphQL* response contains disabled categories that should not be listed in the category aggregations'
+description: Apply the ACSD-57854 patch to fix the Adobe Commerce issue where the *GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations.
+feature: GraphQL
 role: Admin, Developer
-exl-id: 488e2c69-442f-45e1-aa8f-71d9c0a93950
 ---
-# ACSD-56546: Configurable and bundle products display as out of stock on the storefront
+# ACSD-57854: *GraphQL* response contains disabled categories that should not be listed in the category aggregations
 
-The ACSD-56546 patch fixes the issue where the configurable and bundle products display as out of stock on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56546. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-57854 patch fixes the issue where the *GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.48 is installed. The patch ID is ACSD-57854. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.6
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p4
+* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p4
 
 >[!NOTE]
 >
@@ -25,26 +24,23 @@ The ACSD-56546 patch fixes the issue where the configurable and bundle products 
 
 ## Issue
 
-Configurable and bundle products display as out of stock on the storefront when *[!UICONTROL Display Out of Stock Products]* option is disabled. 
+*GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations.
 
 <u>Steps to reproduce</u>:
 
-1. Set the **[!UICONTROL Display Out of Stock Products]** option to *No*.
-1. Create a website, store, and storeview.
-1. Create a source and a stock and then assign it to the second website.
-1. Create a *configurable product* with two child products. Assign both the child products to both sources and both websites.
-1. Update the first child product to have *qty=0* in both sources.
-1. Update the second child product and disable it on the second website.
-1. Do a full reindex.
-1. Check the category that contains the configurable product on the second website.
+1. Create two categories.
+1. Create a product (Test Adobe Product) and assign the product to both the categories.
+1. Disable one of the category which was created.
+1. Use products *GraphQL* to search the product.
+1. Check the list of the product categories in the *GraphQL* response.
 
 <u>Expected results</u>:
 
-The out-of-stock configurable products are not visible on the storefront.
+The disabled categories are not listed in the *GraphQL* response.
 
 <u>Actual results</u>:
 
-The out-of-stock configurable products are visible on the storefront even when the *[!UICONTROL Display Out of Stock Products]* option is disabled.
+The disabled categories are listed in the category aggregation *GraphQL* response.
 
 ## Apply the patch
 

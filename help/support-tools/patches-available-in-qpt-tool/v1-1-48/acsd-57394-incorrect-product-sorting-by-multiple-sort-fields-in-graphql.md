@@ -1,13 +1,13 @@
 ---
-title: 'ACSD-56546: Configurable and bundle products display as out of stock on the storefront'
-description: Apply the ACSD-56546 patch to fix the Adobe Commerce issue where the configurable and bundle products display as out of stock on the storefront when the *[!UICONTROL Display Out of Stock Products]* configuration option is disabled.
-feature: Storefront, Products
+title: 'ACSD-57394: Incorrect product sorting by multiple sort attributes in [!DNL GraphQL]'
+description: Apply the ACSD-57394 patch to fix the Adobe Commerce issue where products are incorrectly sorted when using multiple sort attributes in [!DNL GraphQL].
+feature: GraphQL, Products
 role: Admin, Developer
-exl-id: 488e2c69-442f-45e1-aa8f-71d9c0a93950
+exl-id: f2e24daa-43a0-46b2-80b2-4e0ee116b776
 ---
-# ACSD-56546: Configurable and bundle products display as out of stock on the storefront
+# ACSD-57394: Incorrect product sorting by multiple sort attributes in [!DNL GraphQL]
 
-The ACSD-56546 patch fixes the issue where the configurable and bundle products display as out of stock on the storefront. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-56546. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-57394 patch fixes the issue where products are incorrectly sorted when using multiple sort attributes in [!DNL GraphQL]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-57394. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
 
 ## Affected products and versions
 
@@ -25,26 +25,62 @@ The ACSD-56546 patch fixes the issue where the configurable and bundle products 
 
 ## Issue
 
-Configurable and bundle products display as out of stock on the storefront when *[!UICONTROL Display Out of Stock Products]* option is disabled. 
+Products are incorrectly sorted when using multiple sort attributes in [!DNL GraphQL].
 
 <u>Steps to reproduce</u>:
 
-1. Set the **[!UICONTROL Display Out of Stock Products]** option to *No*.
-1. Create a website, store, and storeview.
-1. Create a source and a stock and then assign it to the second website.
-1. Create a *configurable product* with two child products. Assign both the child products to both sources and both websites.
-1. Update the first child product to have *qty=0* in both sources.
-1. Update the second child product and disable it on the second website.
-1. Do a full reindex.
-1. Check the category that contains the configurable product on the second website.
+1. Create a few products with different prices and names.
+1. Create a category and assign the created products to it.
+1. Send a [!DNL GraphQL] products query for the created category with a few *sort* attributes. For example:
+   
+    ```
+    {
+    products(
+      currentPage: 1
+      pageSize: 10
+      filter: {
+        category_id: {
+          eq :"3"
+        }
+      }
+      sort: {  price: DESC, name: ASC, position: ASC
+      }
+    ){
+    items{
+      name
+      sku
+            
+        price_range {
+            minimum_price {
+          
+          regular_price {
+            value
+            currency
+          }
+          final_price {
+            value
+            currency
+          }
+          discount {
+            amount_off
+            percent_off
+          }
+                }
+            }
+       }
+      }
+     }
+    ```
+
+1. Check the response after creating *sort* attributes.
 
 <u>Expected results</u>:
 
-The out-of-stock configurable products are not visible on the storefront.
+The products should be returned in the correct order. Sorting the products by multiple attributes should work.
 
 <u>Actual results</u>:
 
-The out-of-stock configurable products are visible on the storefront even when the *[!UICONTROL Display Out of Stock Products]* option is disabled.
+The products are not returned in the correct order. Sorting the products by multiple attributes doesn't work.
 
 ## Apply the patch
 
@@ -61,3 +97,4 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
+

@@ -10,7 +10,7 @@ This article provides a solution for the issue where [!DNL Elasticsearch] is sti
 
 ## Affected versions
 
-Adobe Commerce on cloud 2.4.3-p2 - 2.4.5-p2
+Adobe Commerce on cloud 2.4.3-p2 - 2.4.5-p6
 
 >[!NOTE]
 >
