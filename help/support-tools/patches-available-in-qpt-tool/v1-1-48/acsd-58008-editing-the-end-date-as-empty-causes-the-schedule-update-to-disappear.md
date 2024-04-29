@@ -37,7 +37,7 @@ Editing the end date as *empty* causes the schedule update to disappear
 
 <u>Expected results</u>:
 
-The schedule update should have the *update 3*. 
+The schedule update shows the *update 3*. 
 
 <u>Actual results</u>:
 
