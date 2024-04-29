@@ -1098,7 +1098,7 @@ breadcrumb-title: Commerce KB
     * [Deployment errors when committing incorrect files](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
     * [Deployment errors where patches not found](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
     * [Deployment failed: There are no commands defined in the 'cache' namespace error](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
-    * [Deployment failed with correct access keys in env:COMPOSER_AUTH or auth.json](deployment-failed-with-correct-access-key-env-composer-auth.md)
+    * [Deployment failed with correct access keys in env:COMPOSER_AUTH or auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
   * Known issues {#known-issues-patches-attached}
     * [[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
     * [[!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
