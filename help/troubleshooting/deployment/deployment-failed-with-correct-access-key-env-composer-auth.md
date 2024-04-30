@@ -32,6 +32,9 @@ You deploy successfully.
 
 You do not deploy successfully. You see an error like *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* in the deployment log. 
 
+> [!NOTE]  
+> Note: This is an example. You could get an error indicating a different file (depending on which Adobe Commerce version you deploy.)
+
 ### Cause
 
 The specified composer access keys found in one of these locations may not have access to the code:
