@@ -36,12 +36,12 @@ You do not deploy successfully. You see the following error *The "https://repo.m
 
 The specified composer access keys found in one of these locations may not have access to the code:
 
-* in the [!UICONTROL env:COMPOSER_AUTH] variable on the Project-level
-* in the [!UICONTROL auth.json file], which takes precedence over the [!UICONTROL env:COMPOSER_AUTH variable].
+* in the `env:COMPOSER_AUTH` variable on the Project-level
+* in the `auth.json file`, which takes precedence over the `env:COMPOSER_AUTH` variable.
 
 ### Solution
 
-Update the [!UICONTROL env:COMPOSER_AUTH] variable on the Project-level and ensure that it is configured with keys that do have access to the code.
+Update the `env:COMPOSER_AUTH` variable on the Project-level and ensure that it is configured with keys that do have access to the code.
 
 For steps, refer to [Variable levels](/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) in Commerce on Cloud Infrastructure Guide. 
 
