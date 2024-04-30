@@ -33,7 +33,7 @@ An admin user with access restrictions to specific websites could view companies
 1. Create an admin user role, and set the role scope to the created website.
 1. Create an admin, and assign it to the created role.
 1. Log in with a new admin.
-1. Open **[!UICONTROL Customers]** > **[!UICONTROL Companies]** and observe the list of the companies.
+1. Open **[!UICONTROL Customers]** > **[!UICONTROL Companies]** and observe the list of companies.
 
 <u>Expected results</u>:
 
