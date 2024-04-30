@@ -39,7 +39,7 @@ The *Yes/No* custom attribute with `price_*` prefix in the `attribute_code` attr
 
 <u>Expected results</u>:
 
- The product is displayed in the assigned category.
+The product is displayed in the assigned category.
 
 <u>Actual results</u>:
 
