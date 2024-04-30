@@ -1,10 +1,10 @@
 ---
-title: "Deployment failed with correct access keys in env:COMPOSER_AUTH or auth.json"
+title: "Deployment fails with correct access keys in env:COMPOSER_AUTH or auth.json"
 description: This article provides a solution for the issue when deployment fails with the following error "The https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip file could not be downloaded (HTTP/1.1 404 Not Found)".
 feature: Deploy
 role: Admin
 ---
-# Deployment failed with correct access keys in env:COMPOSER_AUTH or auth.json
+# Deployment fails with correct access keys in env:COMPOSER_AUTH or auth.json
 
 
 This article provides a solution for the issue when your deployment fails with the following error in the deployment log:
