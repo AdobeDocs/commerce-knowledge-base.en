@@ -30,10 +30,11 @@ You deploy successfully.
 
 <u>Actual results</u>:
 
+> [!NOTE]  
+> This is an example error. You could get an error indicating a different file (depending on which Adobe Commerce version you deploy.)
+
 You do not deploy successfully. You see an error like *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* in the deployment log. 
 
-> [!NOTE]  
-> Note: This is an example. You could get an error indicating a different file (depending on which Adobe Commerce version you deploy.)
 
 ### Cause
 
@@ -44,7 +45,7 @@ The specified composer access keys found in one of these locations may not have 
 
 ### Solution
 
-Update the `env:COMPOSER_AUTH` variable on the Project-level and ensure that it is configured with keys that do have access to the code.
+Update the `env:COMPOSER_AUTH` variable on the Project-level and ensure that it is configured with keys that have access to the code.
 
 For steps, refer to [Variable levels](/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) in Commerce on Cloud Infrastructure Guide. 
 
