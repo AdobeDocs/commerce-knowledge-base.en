@@ -150,8 +150,8 @@ If executing the `setup:uninstall` command fails with an error and cannot be com
 
 1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Connect to the MySQL DB: `mysql -h database.internal` (For Pro environments see: [Set up MySQL service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)).
-1. Drop the \`main\` DB : `drop database main;`
-1. Create an empty \`main\` DB: `create database main;`
+1. Drop the `main` DB : `drop database main;`
+1. Create an empty `main` DB: `create database main;`
 1. Delete the following configuration files: `config.php` , `config.php` , `.bak,` , `env.php`, `env.php.bak`
 
 After resetting the DB, [make a [!DNL git] push to the environment to trigger redeploy](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html) and install Adobe Commerce to a newly created DB. Or [run the redeploy command](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands).
