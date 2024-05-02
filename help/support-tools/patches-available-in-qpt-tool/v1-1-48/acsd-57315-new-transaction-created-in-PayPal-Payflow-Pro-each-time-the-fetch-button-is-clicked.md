@@ -29,7 +29,7 @@ A new transaction is created in [!DNL PayPal Payflow Pro] each time the fetch bu
 <u>Steps to reproduce</u>:
 
 1. Configure [!DNL PayPal Payflow Pro].
-1. Set the transaction method to *Sale*.
+1. Set the transaction method to *[!UICONTROL Sale]*.
 1. Place an order using *Credit Card*.
 1. Open the transaction from [!UICONTROL Admin].
 1. Click on the **[!UICONTROL Fetch]** button.
