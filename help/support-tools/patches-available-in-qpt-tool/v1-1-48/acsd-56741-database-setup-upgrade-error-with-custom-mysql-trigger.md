@@ -33,9 +33,9 @@ An error message *Trying to access array offset on value of type null* appears d
     ```
     DELIMITER //
     CREATE TRIGGER trg_catalog_category_entity_before_delete_umis BEFORE DELETE ON catalog_category_entity FOR EACH ROW
-    -> BEGIN
-    -> UPDATE ewave_navigation_menu_item_info as nit INNER JOIN ewave_navigation_menu_category_type as ncmi ON nit.id = ncmi.menu_item_id AND ncmi.category_id = OLD.entity_id SET nit.status = 0;
-    -> END //
+        -> BEGIN
+        -> UPDATE ewave_navigation_menu_item_info as nit INNER JOIN ewave_navigation_menu_category_type as ncmi ON nit.id = ncmi.menu_item_id AND ncmi.category_id = OLD.entity_id SET nit.status = 0;
+        -> END //
     ```
 
 1. Run `php bin/magento c:f`.
