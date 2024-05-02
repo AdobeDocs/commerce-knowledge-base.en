@@ -1,19 +1,18 @@
 ---
-title: 'ACSD-57854: *GraphQL* response contains disabled categories that should not be listed in the category aggregations'
-description: Apply the ACSD-57854 patch to fix the Adobe Commerce issue where the *GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations.
-feature: GraphQL
-role: Admin, Developer
-exl-id: b6130a0f-57bc-4719-99f2-beb630c463c7
+title: 'ACSD-58008: Editing the end date as *empty* causes the schedule update to disappear'
+description: Apply the ACSD-58008 patch to fix the Adobe Commerce issue where editing the end date as *empty* causes schedule update to disappear. 
+feature: Staging, Page Content
+role: Admin, Developer 
 ---
-# ACSD-57854: *GraphQL* response contains disabled categories that should not be listed in the category aggregations
+# ACSD-58008: Editing the end date as *empty* causes the schedule update to disappear
 
-The ACSD-57854 patch fixes the issue where the *GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.48 is installed. The patch ID is ACSD-57854. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-58008 patch fixes the issue where editing the end date as *empty* causes the schedule update to disappear. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-58008. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5-p5
 
 **Compatible with Adobe Commerce versions:**
 
@@ -25,23 +24,24 @@ The ACSD-57854 patch fixes the issue where the *GraphQL* response contains disab
 
 ## Issue
 
-*GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations.
+Editing the end date as *empty* causes the schedule update to disappear
 
 <u>Steps to reproduce</u>:
 
-1. Create two categories.
-1. Create a product (Test Adobe Product) and assign the product to both the categories.
-1. Disable one of the category which was created.
-1. Use products *GraphQL* to search the product.
-1. Check the list of the product categories in the *GraphQL* response.
+1. Log in as [!UICONTROL Admin]. 
+1. Go to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** and create a page.
+1. Select the created page and click on **[!UICONTROL Schedule New Update]**. *(Navigate it on the top right hand corner of the page)*.
+1. Create four updates. *(For example, as an increment of *2* minutes)*.
+1. Update the *update 2* and change the time to a time that is ahead of the last *update 4*.
+1. Save the updates made. 
 
 <u>Expected results</u>:
 
-The disabled categories are not listed in the *GraphQL* response.
+The schedule update shows the *update 3*. 
 
 <u>Actual results</u>:
 
-The disabled categories are listed in the category aggregation *GraphQL* response.
+The schedule update doesn't show the *update 3*. 
 
 ## Apply the patch
 
