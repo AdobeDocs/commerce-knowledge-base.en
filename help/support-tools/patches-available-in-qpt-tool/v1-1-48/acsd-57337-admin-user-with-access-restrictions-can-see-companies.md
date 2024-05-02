@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-57854: *GraphQL* response contains disabled categories that should not be listed in the category aggregations'
-description: Apply the ACSD-57854 patch to fix the Adobe Commerce issue where the *GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations.
-feature: GraphQL
+title: 'ACSD-57337: Admin user with access restrictions could view all companies in the *Companies* grid'
+description: Apply the ACSD-57337 patch to fix the Adobe Commerce issue where an admin user with access restrictions to specific websites could view companies from all websites in the *Companies* grid.
+feature: Companies, B2B, Configuration
 role: Admin, Developer
-exl-id: b6130a0f-57bc-4719-99f2-beb630c463c7
+exl-id: e49289a1-fe86-42b7-8d93-71f35b5e318d
 ---
-# ACSD-57854: *GraphQL* response contains disabled categories that should not be listed in the category aggregations
+# ACSD-57337: Admin user with access restrictions could view all companies in the *Companies* grid
 
-The ACSD-57854 patch fixes the issue where the *GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.48 is installed. The patch ID is ACSD-57854. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-57337 patch fixes the issue where an admin user with access restrictions to specific websites could view companies from all websites in the *Companies* grid. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48 is installed. The patch ID is ACSD-57337. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p4
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p6
 
 >[!NOTE]
 >
@@ -25,23 +25,24 @@ The ACSD-57854 patch fixes the issue where the *GraphQL* response contains disab
 
 ## Issue
 
-*GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations.
+An admin user with access restrictions to specific websites could view companies from all websites in the *Companies* grid.
 
 <u>Steps to reproduce</u>:
 
-1. Create two categories.
-1. Create a product (Test Adobe Product) and assign the product to both the categories.
-1. Disable one of the category which was created.
-1. Use products *GraphQL* to search the product.
-1. Check the list of the product categories in the *GraphQL* response.
+1. Create an additional website, store and storeview.
+1. Create a few companies assigned to different websites.
+1. Create an admin user role, and set the role scope to the created website.
+1. Create an admin, and assign it to the created role.
+1. Log in with a new admin.
+1. Open **[!UICONTROL Customers]** > **[!UICONTROL Companies]** and observe the list of companies.
 
 <u>Expected results</u>:
 
-The disabled categories are not listed in the *GraphQL* response.
+The companies that have been assigned to the additional website are visible in the *Companies* grid.
 
 <u>Actual results</u>:
 
-The disabled categories are listed in the category aggregation *GraphQL* response.
+All companies are visible in the *Companies* grid.
 
 ## Apply the patch
 

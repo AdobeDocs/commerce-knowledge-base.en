@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-57854: *GraphQL* response contains disabled categories that should not be listed in the category aggregations'
-description: Apply the ACSD-57854 patch to fix the Adobe Commerce issue where the *GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations.
-feature: GraphQL
+title: "ACSD-57074: *Yes/No* custom attribute with `price_*` prefix in `attribute_code` attribute doesn't work with indexing"
+description: Apply the ACSD-57074 patch to fix the Adobe Commerce issue where the *Yes/No* custom attribute with `price_*` prefix in the `attribute_code` attribute doesn't work with indexing.
+feature: Products, Categories, Catalog Management
 role: Admin, Developer
-exl-id: b6130a0f-57bc-4719-99f2-beb630c463c7
+exl-id: c620722f-a66d-4cae-9614-becec589a78c
 ---
-# ACSD-57854: *GraphQL* response contains disabled categories that should not be listed in the category aggregations
+# ACSD-57074: *Yes/No* custom attribute with `price_*` prefix in `attribute_code` attribute doesn't work with indexing
 
-The ACSD-57854 patch fixes the issue where the *GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.48 is installed. The patch ID is ACSD-57854. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-57074 patch fixes the issue where the *Yes/No* custom attribute with `price_*` prefix in the `attribute_code` attribute doesn't work with indexing. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.47 is installed. The patch ID is ACSD-57074. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.6-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.5 - 2.4.6-p4
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p4
 
 >[!NOTE]
 >
@@ -25,23 +25,26 @@ The ACSD-57854 patch fixes the issue where the *GraphQL* response contains disab
 
 ## Issue
 
-*GraphQL* response contains disabled categories that shouldn't be listed in the category aggregations.
+The *Yes/No* custom attribute with `price_*` prefix in the `attribute_code` attribute doesn't work with indexing.
 
 <u>Steps to reproduce</u>:
 
-1. Create two categories.
-1. Create a product (Test Adobe Product) and assign the product to both the categories.
-1. Disable one of the category which was created.
-1. Use products *GraphQL* to search the product.
-1. Check the list of the product categories in the *GraphQL* response.
+1. Create a custom product attribute with the following options:
+    * *[!UICONTROL Catalog Input Type]*: *Yes/No*
+    * *[!UICONTROL Scope]*: *StoreView*
+    * *[!UICONTROL Use in Search]*: *Yes*
+1. Assign the attribute to the default attribute set.
+1. Create a product with the attribute we created.
+1. Assign the product we just created to a category.
+1. Run full reindex.
 
 <u>Expected results</u>:
 
-The disabled categories are not listed in the *GraphQL* response.
+The product is displayed in the assigned category.
 
 <u>Actual results</u>:
 
-The disabled categories are listed in the category aggregation *GraphQL* response.
+The product does not appear on the front category page.
 
 ## Apply the patch
 

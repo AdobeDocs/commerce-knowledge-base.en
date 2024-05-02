@@ -779,12 +779,14 @@ breadcrumb-title: Commerce KB
         * [ACSD-57003: Order status changes to Complete instead of changing to Processing](/help/support-tools/patches-available-in-qpt-tool/v1-1-46/acsd-57003-order-status-changed-to-complete-instead-of-processing.md)
     * v1.1.47 {#v1-1-47}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.47](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/overview.md)
+        * [ACSD-57074: Yes/No custom attribute doesn't work with indexing](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-57074-yes-no-custom-attribute-does-not-work-with-indexing.md)
         * [ACSD-56760: Admin user is restricted to a specific website and is unable to sort or add new products](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56760-admin-user-is-restricted-to-a-specific-website-and-is-unable-to-sort-or-add-new-products.md)
         * [ACSD-55241: Used and Times Used attributes display incorrect values for generated coupons](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-55241-used-and-times-used-attributes-display-incorrect-values-for-generated-coupons.md)
         * [ACSD-56858: Role permissions discrepancy in B2B company admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel.md)
     * v1.1.48 {#v1-1-48}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)
         * [ACSD-56635: Imported customers are duplicated when account sharing is set to [!DNL Global]](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-56635-imported-customers-are-duplicated-with-the-same-email-address.md)
+        * [ACSD-57337: Admin user with access restrictions could see companies](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57337-admin-user-with-access-restrictions-can-see-companies.md)
         * [ACSD-57394: Incorrect product sorting by multiple sort fields in [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57394-incorrect-product-sorting-by-multiple-sort-fields-in-graphql.md)
         * [ACSD-56546: Configurable and bundle products display as out of stock on the storefront](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-56546-configurable-and-bundle-products-display-as-out-of-stock-on-the-storefront.md)
         * [ACSD-55566: [!UICONTROL mergeCart] mutation fails with internal server error in [!DNL GraphQL] response](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-55566-mergecart-mutation-fails-with-an-internal-server-error-in-graphql-response.md)   

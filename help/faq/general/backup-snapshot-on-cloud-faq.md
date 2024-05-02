@@ -51,7 +51,7 @@ This article covers the backing up your environments with snapshots on Adobe Com
 
 ## Restore an environment snapshot
 
-To restore an existing snapshot (on the supported environment: Integration, Staging, Production on Starter plan or Integration on Pro plan), follow the steps in [Snapshots and backup management: Restore a snapshot](/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) in our developer documentation.
+To restore an existing snapshot (on the supported environment: Integration, Staging, Production on Starter plan or Integration on Pro plan), follow the steps in [Backup management: Restore a manual backup](/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) in our Commerce on Cloud Infrastructure Guide.
 
 ## Database (DB) backup
 
