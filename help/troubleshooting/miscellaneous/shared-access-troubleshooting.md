@@ -34,6 +34,19 @@ role: Developer
 
  If you continue to face issues, contact your Adobe Account Team or send an email to grp-Magento-HelpCenterLoginIssues@adobe.com. Please specify your name and the email associated with your account.
 
+## I used shared access and clicked on Support, but when I opened a new ticket, the Organization dropdown is not displayed
+
+ **Problem:** I switched to the Shared Access account but cannot access the **[!UICONTROL Support tab]** (for example).
+
+ **Possible cause:** You have only been granted shared access to 1 merchant in your account
+
+ **Solution:** 
+
+ 1. Switch back to **[!UICONTROL My Account]**. 
+ 1. If it lists only one **[!UICONTROL Shared Name]**, that will be the **default Organization** that your tickets will be opened under
+
+ If you continue to face issues, contact your Adobe Account Team or send an email to grp-Magento-HelpCenterLoginIssues@adobe.com. Please specify your name and the email associated with your account.
+
 ## I used shared access but still see my tickets instead of the shared ones
 
  **Problem:** I'm accessing Help Center using shared access but still see only the tickets belonging to my own account (organization). The Commerce Account page shows I'm using the account of the organization that has provided shared access for me, but the organization tickets are still not showing.
