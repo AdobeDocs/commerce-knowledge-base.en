@@ -6,7 +6,6 @@ role: Admin
 ---
 # Deployment fails with correct access keys in env:COMPOSER_AUTH or auth.json
 
-
 This article provides a solution for the issue when your deployment fails with an error such as the one below, in the [deployment log](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
 
 ```
