@@ -40,7 +40,7 @@ You do not deploy successfully. You see an error like *The "https://repo.magento
 
 The specified composer access keys found in one of these locations may not have access to the code:
 
-* in the `env:COMPOSER_AUTH` variable on the Project-level
+* in the `env:COMPOSER_AUTH` variable on the project level
 * in the `auth.json file`, which takes precedence over the `env:COMPOSER_AUTH` variable.
 
 ### Solution
