@@ -30,7 +30,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 >
 >If you are unable to add the domain, it could be due to one of these reasons:
 >
->1. You are migrating the domain to the Cloud environment, which has been configured in your own Fastly service - submit a request and request delegation of the domain
+>1. You are migrating the domain to the Cloud environment, which has been configured in your own [!DNL Fastly] service. In this case, submit a request and request delegation of the domain.
 >1. You are migrating the domain from Starter to Pro - submit a request for further assistance.
 
 * **[!DNL Starter]**: [!DNL Custom domains] are not supported on the Staging environment.
