@@ -13,7 +13,7 @@ Adobe Commerce on cloud infrastructure (all versions)
 
 ## Cause
 
-Due to the inherent nature of GraphQL requests, there can be a lot of repeated characters that can trigger false positive blocking of the requests by the Fastly WAF.
+Due to the inherent nature of GraphQL requests, there can be a lot of repeated characters that can trigger false positive blocking of the requests by the [!DNL Fastly] WAF.
 
 ## Solution
 
