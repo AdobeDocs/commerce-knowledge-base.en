@@ -5,7 +5,7 @@ feature: GraphQL
 ---
 # How to bypass WAF for GraphQL requests
 
-This article explains how to bypass WAF for GraphQL requests when the Fastly WAF is blocking your GraphQL requests.
+This article explains how to bypass WAF for GraphQL requests when the [!DNL Fastly] WAF is blocking your GraphQL requests.
 
 ## Affected products and versions 
 
