@@ -87,6 +87,10 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
 >
 >If you cannot find the `.magento.env.yaml` file for your environment, and you think it was deleted, you need to create a new `.magento.env.yaml`. It might be empty initially, you can add info there as required. Reference the following articles: [Configure environment variables for deployment](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) and [Environment variables](/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) in our developer documentation.
 
+>[!TIP]
+>
+>[YAML files](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) are case sensitive and do not allow tabs. Be careful to use consistent indentation throughout the .magento.env.yaml file or your configuration may not work as expected. The examples in the documentation and in the sample file use two-space indentation. Use the ece-tools validate command to check your configuration.
+
 >[!NOTE]
 >
 >On Adobe Commerce on cloud infrastructure Pro projects, the [auto-crons feature](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) must be enabled on your Adobe Commerce on cloud infrastructure before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml`. If this feature is not enabled, [create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), to have the job added for you.
