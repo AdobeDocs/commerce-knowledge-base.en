@@ -17,7 +17,7 @@ Due to the inherent nature of GraphQL requests, there can be a lot of repeated c
 
 ## Solution
 
-Bypass the WAF for these requests by adding a custom snippet through the Fastly Magento module:
+1. Bypass the WAF for these requests by adding a custom snippet through the [!DNL Fastly] Magento module:
 
     type: recv
     priority: 15
