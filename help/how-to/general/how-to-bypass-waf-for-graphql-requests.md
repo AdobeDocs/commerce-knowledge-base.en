@@ -2,6 +2,7 @@
 title: How to bypass WAF for GraphQL requests
 description: This article explains how to bypass WAF for GraphQL requests.
 feature: GraphQL
+exl-id: 3a0f2c22-f976-4596-b6a9-4634be1ea4c3
 ---
 # How to bypass WAF for GraphQL requests
 
@@ -35,4 +36,3 @@ Due to the inherent nature of GraphQL requests, there can be a lot of repeated c
 
 * [Web Application Firewall (WAF)](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service) in Commerce on Cloud Infrastructure guide.
 * [Getting started with custom VCL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) in Commerce on Cloud Infrastructure guide.
-
