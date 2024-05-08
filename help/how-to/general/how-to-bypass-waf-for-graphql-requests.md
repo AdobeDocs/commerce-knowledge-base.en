@@ -29,7 +29,7 @@ Bypass the WAF for these requests by adding a custom snippet through the Fastly 
     }
     ```
 
-    Then click on **[!UICONTROL Upload VCL to Fastly}**.
+    Then click on **[!UICONTROL Upload VCL to Fastly]**.
 
 ## Related reading
 
