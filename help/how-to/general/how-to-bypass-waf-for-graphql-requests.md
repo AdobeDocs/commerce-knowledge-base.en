@@ -29,7 +29,7 @@ Due to the inherent nature of GraphQL requests, there can be a lot of repeated c
     }
     ```
 
-    Then click on **[!UICONTROL Upload VCL to Fastly]**.
+1. Click on **[!UICONTROL Upload VCL to Fastly]**.
 
 ## Related reading
 
