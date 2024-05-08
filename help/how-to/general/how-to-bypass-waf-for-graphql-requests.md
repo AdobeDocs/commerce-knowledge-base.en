@@ -9,7 +9,7 @@ This article explains how to bypass WAF for GraphQL requests when the Fastly WAF
 
 ## Affected products and versions 
 
-Adobe Commerce on cloud (all versions)
+Adobe Commerce on cloud infrastructure (all versions)
 
 ## Cause
 
