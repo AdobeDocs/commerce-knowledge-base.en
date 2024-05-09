@@ -1,6 +1,6 @@
 ---
 title: Checking deployment log if Cloud UI has "log snipped" error
-description: This article provides a solution for the issue where the Adobe Commerce on cloud infrastructure UI shows the *log snipped because it was too long* error message when trying to view deployment log on the Cloud Project UI.
+description: This article provides a solution for the issue where the Adobe Commerce on cloud infrastructure UI shows the *log snipped because it was too long* error message when trying to view the deployment log on the cloud project UI.
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
