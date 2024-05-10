@@ -45,7 +45,7 @@ role: Developer
  1. Switch back to **[!UICONTROL My Account]**. 
  1. If it lists only one **[!UICONTROL Shared Name]**, that will be the *default Organization* that your tickets will be opened under.
 
- If you continue to face issues, contact your Adobe Account Team or send an email to grp-Magento-HelpCenterLoginIssues@adobe.com. Please specify your name and the email associated with your account.
+ If you continue to face issues, contact your Adobe account team or send an email to grp-Magento-HelpCenterLoginIssues@adobe.com. Specify your name and the email associated with your account.
 
 ## I used shared access but still see my tickets instead of the shared ones
 
