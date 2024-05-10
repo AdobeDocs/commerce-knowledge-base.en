@@ -34,7 +34,7 @@ role: Developer
 
  If you continue to face issues, contact your Adobe Account Team or send an email to grp-Magento-HelpCenterLoginIssues@adobe.com. Please specify your name and the email associated with your account.
 
-## I used shared access and clicked on Support, but when I opened a new ticket, the Organization dropdown is not displayed
+## I used shared access and clicked on [!UICONTROL Support], but when I opened a new ticket, the [!UICONTROL Organization] dropdown is not displayed
 
  **Problem:** I switched to the Shared Access account but cannot access the **[!UICONTROL Support tab]** (for example).
 
