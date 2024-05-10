@@ -43,7 +43,7 @@ role: Developer
  **Solution:** 
 
  1. Switch back to **[!UICONTROL My Account]**. 
- 1. If it lists only one **[!UICONTROL Shared Name]**, that will be the **default Organization** that your tickets will be opened under
+ 1. If it lists only one **[!UICONTROL Shared Name]**, that will be the *default Organization* that your tickets will be opened under.
 
  If you continue to face issues, contact your Adobe Account Team or send an email to grp-Magento-HelpCenterLoginIssues@adobe.com. Please specify your name and the email associated with your account.
 
