@@ -38,7 +38,7 @@ role: Developer
 
  **Problem:** I switched to the shared access account but cannot access the **[!UICONTROL Support tab]** (for example).
 
- **Possible cause:** You have only been granted shared access to 1 merchant in your account
+ **Possible cause:** You have only been granted shared access to one merchant in your account.
 
  **Solution:** 
 
