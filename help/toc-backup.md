@@ -959,7 +959,6 @@ breadcrumb-title: Commerce KB
   * [Github token issue and Composer key procedures](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
   * [Adobe Commerce 2.4.1 issue: unable to change Amazon account in Chrome](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
   * [ECE-Tools and patch update errors Adobe Commerce cloud infrastructure 2.2.x., 2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
-  * [Troubleshoot Quick Checkout issues](/help/troubleshooting/miscellaneous/quick-checkout-issues.md)
   * [PWA Studio: Webpack hangs before beginning compilation](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
   * [Install latest patches to fix Adobe Commerce Redis issues](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
   * [Resolve an illegal offset error](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
