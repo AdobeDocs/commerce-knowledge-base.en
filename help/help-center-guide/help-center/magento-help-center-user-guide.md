@@ -227,7 +227,7 @@ After having been granted shared access from the merchant, you need to take the 
 1. Click on the **Support** tab in the left panel. Doing this will ensure that the Adobe Commerce Help Center is configured properly via the SSO call from Magento.com to Adobe Commerce Help Center.
 
 If you have already done this, check if you have been granted **shared access from more than one merchant** by clicking on the [Shared with me tab on your account](https://account.magento.com/grantor/manage/shared/):
-* If only 1 [!UICONTROL Share Name] is listed , i.e., you have only been granted by one merchant, **you will not see an Organization drop-down**.
+* If only one [!UICONTROL Share Name] is listed, i.e., you have only been granted by one merchant, *you will not see an [!UICONTROL Organization] drop-down*.
 * If there are multiple [!UICONTROL Share Name]s, the merchant's Support entitlements may have expired because their license was previously revoked due to payment issues.
 
 
