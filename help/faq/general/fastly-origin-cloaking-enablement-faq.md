@@ -21,7 +21,7 @@ This feature was originally created to benefit Adobe Commerce on cloud infrastru
 
 ## Do I need to request origin cloaking enablement for my project?
 
-No. This feature should have already been implemented on all cloud projects, and any projects that have been provisioned since 2021 would have had this enabled by default. However, you may request that origin cloaking be disabled for your project by [submitting a support request](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+No. This feature should have already been implemented on all cloud projects, and any projects that have been provisioned since 2021 would have had this enabled by default. 
 
 ## Does origin cloaking change the outgoing IP address?
 
@@ -31,8 +31,22 @@ No, it does not.
 
 [!DNL Fastly] does not cache API calls, so the client should be fine with the change. Origin cloaking only blocks requests that go straight to the origin, such as:
 
+* Production
+
 ```php
 mywebsite.com.c.abcdefghijkl.ent.magento.cloud
+```
+
+* Staging 
+
+```php
+mcstaging2.mywebsite.com.c.abcdefghijkl.dev.ent.magento.cloud
+```
+
+* StagingX
+
+```php
+mcstagingX.mywebsite.com.c.abcdefghijkl.X.dev.ent.magento.cloud
 ```
 
 In this example, the client will still be able to hit the API if they change the URL to ``mywebsite.com``:
