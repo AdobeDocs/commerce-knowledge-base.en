@@ -36,7 +36,7 @@ role: Developer
 
 ## I used shared access and clicked on [!UICONTROL Support], but when I opened a new ticket, the [!UICONTROL Organization] dropdown is not displayed
 
- **Problem:** I switched to the Shared Access account but cannot access the **[!UICONTROL Support tab]** (for example).
+ **Problem:** I switched to the shared access account but cannot access the **[!UICONTROL Support tab]** (for example).
 
  **Possible cause:** You have only been granted shared access to 1 merchant in your account
 
