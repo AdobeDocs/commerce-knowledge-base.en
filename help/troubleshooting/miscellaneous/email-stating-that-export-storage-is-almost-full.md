@@ -1,7 +1,7 @@
 ---
 title: 'Email stating that the exports storage is almost full'
 description: This article provides a solution for the issue where you receive an email stating that the exports storage is almost full.
-feature: Cloud, Storage
+feature: Cloud, Storage, Media
 role: Developer
 ---
 # Email stating that exports storage is almost full
