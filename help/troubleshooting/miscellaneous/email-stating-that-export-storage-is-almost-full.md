@@ -38,5 +38,4 @@ If the media disk usage is a large proportion of the total disk, you might consi
 
 ## Related Reading
 
-[Check dedicated clusters](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) in 
-
+[Check dedicated clusters](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) in our support  knowledge base.
