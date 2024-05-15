@@ -34,5 +34,9 @@ The typical locations where the files storage is likely to be filled up is the *
 
 `du -shc /path/to/folder`
 
-If the media disk usage is a large proportion of the total disk, you might consider enabling [Fastly Deep Image Optimization](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization), then delete the files in the pub/media/catalog/product/cache folder on the server manually
+If the media disk usage is a large proportion of the total disk, you might consider enabling [Fastly Deep Image Optimization](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization), then delete the files in the *pub/media/catalog/product/cache* folder on the server manually.
+
+## Related Reading
+
+[Check dedicated clusters](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) in 
 
