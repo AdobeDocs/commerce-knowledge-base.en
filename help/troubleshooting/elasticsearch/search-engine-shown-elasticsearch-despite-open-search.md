@@ -29,6 +29,8 @@ Adobe Commerce on cloud 2.4.3-p2 - 2.4.5-p6
 
 Adobe Commerce is hard-coded to specify [!DNL Elasticsearch7] as the search engine.
 
+This is not be confused with the installed version of the service. The application only recognizes `elasticsearch7` as the search engine but not `opensearch`, even though it uses the underlying OpenSearch service as the engine in the backend.
+
 ## Solution
 
 To verify if [!DNL OpenSearch] has been installed, run the following command:
@@ -36,6 +38,29 @@ To verify if [!DNL OpenSearch] has been installed, run the following command:
 **Method 1**:
 
 * Run the following command on server: `curl 127.0.0.1:9200`. It should return [!DNL OpenSearch] with its version.
+
+Example:
+
+```
+$ curl 127.0.0.1:9200
+{
+  "name" : $clusterName,
+  "cluster_name" : "opensearch_stg",
+  "cluster_uuid" : $clusterUuid,
+  "version" : {
+    "distribution" : "opensearch",
+    "number" : "1.2.4",
+    "build_type" : "deb",
+    "build_hash" : "44ccdbaed5fe5a8b02d99a611857a671b6dd909d",
+    "build_date" : "2022-11-08T09:23:45.993372Z",
+    "build_snapshot" : false,
+    "lucene_version" : "8.10.1",
+    "minimum_wire_compatibility_version" : "6.8.0",
+    "minimum_index_compatibility_version" : "6.0.0-beta1"
+  },
+  "tagline" : "The OpenSearch Project: https://opensearch.org/"
+}
+```
 
 **Method 2**:
 
