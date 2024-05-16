@@ -67,7 +67,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](/help/help-center
 
 ## View the history of your upsizes
 
-You can view the history of requested resizes in your [Project Portal (Onboarding UI)](/docs/commerce-cloud-service/start/onboarding.html#cloud-project-portal-(onboarding-ui)), under **Project** > **Services** > **CPU Usage Tracking**.
+You can view the history of requested resizes by requesting the information from your **CSM (Customer Success Manager)**.
 The following information is available for each resize request:
 
 * **Size Start Date**: date of upsize request.
@@ -81,8 +81,8 @@ The following information is available for each resize request:
 
 * For insights, methods, and examples of how to measure and improve site performance, refer to the following in-depth articles in our support knowledge base:
     * [CPU allocation calculation for Adobe Commerce on cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
-    * [Check if upsize for host’s instances is needed for Adobe Commerce on cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
-    * [Check host’s CPU configuration for Adobe Commerce on cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
+    * [Check if upsize for host's instances is needed for Adobe Commerce on cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
+    * [Check host's CPU configuration for Adobe Commerce on cloud](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
 * For information on how to identify outages, refer to [Identify and measure outages for Adobe Commerce on cloud](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) in our support knowledge base.
 * For information on improving site performance to avoid the need for utilizing an increase in capacity, refer to these articles in our developer documentation:
     * [Image Sizing](/docs/commerce-admin/catalog/products/digital-assets/product-image-config.html#product-image-resizing)
