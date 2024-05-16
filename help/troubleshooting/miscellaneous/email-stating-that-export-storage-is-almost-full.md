@@ -10,7 +10,7 @@ This article provides a solution for the issue where you receive an email statin
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure (all versions)
+Adobe Commerce on cloud infrastructure (all versions)
 
 ## Issue
 
