@@ -908,7 +908,7 @@ breadcrumb-title: Commerce KB
   * Miscellaneous {#miscellaneous}
     * [How to check why [!DNL cron] was disabled](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
     * [Error [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
-    * [Email stating that export storage is full](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
+    * [Email stating that export storage is almost full](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
     * [Indexes invalidated and "indexer_reindex_all_invalid" run constantly](/help/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.md)
     * [Missing or altered configuration file](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
     * [cURL error 60: SSL certificate expired](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
