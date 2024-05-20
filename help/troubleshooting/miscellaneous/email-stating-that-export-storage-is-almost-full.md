@@ -14,7 +14,7 @@ Adobe Commerce on cloud infrastructure (all versions)
 
 ## Issue
 
-You received an email with the following content but are unable to locate the *exports* folder:
+You receive an email with the following content but are unable to locate the *exports* folder:
 
 *Our monitoring has detected that the 'exports' storage on your cluster XXX is around '85%' full.*
 *If needed, please review the usage, do a clean up, or request for an upsize.*
