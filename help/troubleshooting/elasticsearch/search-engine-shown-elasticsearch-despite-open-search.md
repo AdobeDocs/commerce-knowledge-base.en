@@ -29,7 +29,7 @@ Adobe Commerce on cloud 2.4.3-p2 - 2.4.5-p6
 
 Adobe Commerce is hard-coded to specify [!DNL Elasticsearch7] as the search engine.
 
-This is not be confused with the installed version of the service. The application only recognizes `elasticsearch7` as the search engine but not `opensearch`, even though it uses the underlying OpenSearch service as the engine in the backend.
+This is not to be confused with the installed version of the service. The application only recognizes [!DNL Elasticsearch7] as the search engine but not [!DNL OpenSearch], even though it uses the underlying OpenSearch service as the engine in the backend.
 
 ## Solution
 
