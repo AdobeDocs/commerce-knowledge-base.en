@@ -19,9 +19,9 @@ MariaDB 10.4 reaches end of support on [June 18, 2024](https://endoflife.date/ma
 
 ## Solution
 
-Adopt new security-only patches (2.4.4-p9 or 2.4.5-p8) that are being released on June 11, 2024 to ensure compatibility with MariaDB 10.5. Then, follow the steps below to upgrade from MariaDB 10.4 to 10.5.
+Adopt the new security-only patches (2.4.4-p9 or 2.4.5-p8) that are being released on June 11, 2024 to ensure compatibility with MariaDB 10.5. Then, follow the steps below to upgrade from MariaDB 10.4 to 10.5.
 
-### Upgrade steps
+### Upgrade steps for cloud deployments
 
 1. Create a [DB backup using ECE-Tools DB backup commands](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots). This backup must be done before steps 2 and 3 in case something goes wrong while updating tables/rows.
 1. [Check and convert all compact tables to dynamic tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/mariadb-upgrade). This step is required to avoid potential data loss during the database upgrade.
@@ -36,5 +36,6 @@ Adopt new security-only patches (2.4.4-p9 or 2.4.5-p8) that are being released o
 
 ## Related Reading
 
+* [DB upgrade best practices guide](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites) for on-premises deployments
 * [Upgrade MariaDB 10.0 to 10.2 for Adobe Commerce on cloud](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud) in our support knowledge base
 * [Adobe Commerce lifecycle policy](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy) in our developer documentation
