@@ -38,4 +38,4 @@ Adopt the new security-only patches (2.4.4-p9 or 2.4.5-p8) that are releasing on
 
 * [DB upgrade best practices guide](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites) for on-premises deployments.
 * [Upgrade MariaDB 10.0 to 10.2 for Adobe Commerce on cloud](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud) in our support knowledge base.
-* [Adobe Commerce lifecycle policy](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy) in our developer documentation
+* [Adobe Commerce lifecycle policy](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy) in our developer documentation.
