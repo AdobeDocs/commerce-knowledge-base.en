@@ -7,7 +7,7 @@ feature: Best Practices, Cloud
 
 MariaDB is an enterprise open-source database used with Adobe Commerce. 
 
-MariaDB 10.4 reaches end of support on [June 18, 2024](https://endoflife.date/mariadb). You are no longer PCI compliant when you are on an unsupported version of MariaDB. This article explains how to upgrade from MariaDB 10.4 to 10.5 to continue using Adobe Commerce on cloud infrastructure.
+MariaDB 10.4 reaches the end of support on [June 18, 2024](https://endoflife.date/mariadb). You are no longer PCI compliant when you are on an unsupported version of MariaDB. This article explains how to upgrade from MariaDB 10.4 to 10.5 to continue using Adobe Commerce on cloud infrastructure.
 
 >[!NOTE]
 >
