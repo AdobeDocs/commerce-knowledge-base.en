@@ -1249,6 +1249,7 @@ breadcrumb-title: Commerce KB
   * [How to remove Magento Order Management](/help/how-to/general/how-to-remove-mom.md)
   * [Tech tips for Commerce holiday readiness](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
   * [How to bypass WAF for GraphQL requests](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
+  * [Upgrade MariaDB 10.4 to 10.5 for Adobe Commerce on cloud](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
   * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
