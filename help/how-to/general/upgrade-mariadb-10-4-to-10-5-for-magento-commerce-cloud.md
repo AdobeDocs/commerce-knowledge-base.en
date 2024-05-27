@@ -19,7 +19,7 @@ MariaDB 10.4 reaches the end of support on [June 18, 2024](https://endoflife.dat
 
 ## Solution
 
-Adopt the new security-only patches (2.4.4-p9 or 2.4.5-p8) that are releasing on June 11, 2024 to ensure compatibility with MariaDB 10.5. Then, follow the steps below to upgrade from MariaDB 10.4 to 10.5.
+Adopt the new security-only patches (2.4.4-p9 or 2.4.5-p8) that are releasing on June 11, 2024, to ensure compatibility with MariaDB 10.5. Then, follow the steps below to upgrade from MariaDB 10.4 to 10.5.
 
 ### Upgrade steps for cloud deployments
 
