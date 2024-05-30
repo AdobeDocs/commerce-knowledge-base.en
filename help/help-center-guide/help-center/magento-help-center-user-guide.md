@@ -91,7 +91,15 @@ To submit a new support ticket using the starting page of Adobe Commerce Help Ce
 1. Fill in the fields.
 1. Click **Submit**.
 
-You **must log in** to the Help Center using your Magento Account in order to submit a support ticket. Until you are logged in, [the **Submit a ticket** button will not be displayed](#no-submit-link).
+You **must have** an account on both https://account.adobe.com and https://account.magento.com and then log in to the Help Center using your Magento Account in order to submit a support ticket. Until you are logged in, [the **Submit a ticket** button will not be displayed](#no-submit-link).
+
+>[!NOTE] 
+>If you already have an account at https://account.magento.com but aren't able to login, you may not have registered for an account at https://account.adobe.com - which has been required as of August 2022.
+>
+> To resolve this:
+>1. Create an account at https://account.adobe.com using the same email address on your MAG ID
+>1. Go to https://account.magento.com to link your Adobe ID with the MAG ID
+
 
 #### Magento Account page {#submit-ticket-magento-account-page}
 
@@ -176,7 +184,7 @@ If you are having issues logging in to your account or believe Shared Access was
 
 >[!NOTE]
 >
->Do not send an email if you are able to Submit a ticket, but are instead having an issue with accessing your cloud project. Please submit the ticket for this issue through the regular channels.
+>If you are having an issue with accessing your cloud project, please submit the ticket for this issue through the regular channels. Do not send an email if you are able to Submit a ticket.
 
 ### "Please verify your email address" error on the Magento Account page {#verify-email-address}
 
@@ -184,15 +192,10 @@ You won't be able to submit a support ticket if you receive the *Please verify y
 
 ![Verify_Email_Address_Error](assets/Verify_Email_Address_Error.png){width="800"}
 
-The solution is to validate your email address:
+The solution is to validate your email address :
 
-1. Click on the **Validate Email** button below the Email field on the [Edit Account Information](https://account.magento.com/customer/account/edit/) page similar to the one below.   
-
-   ![Validate_Email_Solution](assets/Validate_Email_Solution.png){width="800"}
-
-1. Clicking the **Validate Email** button will send an email to the email address registered for this Magento Account with a link to validate the email address.
-1. Click on the email validation link to validate your email and resolve this issue.
-1. If you do not receive an email with an email validation link, please email [Help Center login issues](mailto:grp-magento-helpcenterloginissues@adobe.com) and indicate that you cannot validate your email address.
+1. Login to https://account.adobe.com - request a password if needed
+2. Verify your Adobe Account
 
 >[!NOTE]
 >
