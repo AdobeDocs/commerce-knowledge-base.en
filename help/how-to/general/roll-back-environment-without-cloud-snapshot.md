@@ -38,13 +38,13 @@ Read the detailed steps below:
 
 We need to disable Configuration Management so that it does not automatically apply the previous configuration settings during deployment.
 
-To disable Configuration Management, make sure that your `/app/etc/` directory does not contain the `config.php` (for Adobe Commerce 2.2.x) or `config.local.php` (for Adobe Commerce 2.1.x) files.
+To disable Configuration Management, make sure that your `/app/etc/` directory does not contain the `config.php` (for Adobe Commerce 2.4.x) or `config.local.php` (for Adobe Commerce 2.1.x) files.
 
 To remove the configuration file, follow these steps:
 
 1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Remove the configuration file:
-    * For Adobe Commerce 2.2:
+    * For Adobe Commerce 2.4:
 
     ```php
      rm app/etc/config.php
