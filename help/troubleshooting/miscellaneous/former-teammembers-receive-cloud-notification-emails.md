@@ -8,8 +8,8 @@ role: Developer
 # Former team members receive Adobe Commerce cloud notification emails
 
 This article provides a solution for removing users from the recipients list of notification emails who are:
-* former team members that are no longer associated with your project
-* current team members who should not be receiving the notifications
+* Former team members that are no longer associated with your project.
+* Current team members who should not be receiving the notifications.
 
 ## Issue
 
