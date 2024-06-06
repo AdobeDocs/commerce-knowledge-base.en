@@ -9,8 +9,7 @@ role: Developer
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure:
-  2.4.2-2.4.7
+* Adobe Commerce on cloud infrastructure 2.4.2 - 2.4.7
 * This is specific to dedicated Pro clusters. Starter and Integration environments are single node, and do not have the `/data/exports` directory.
 
 ## Signs of low disk space
