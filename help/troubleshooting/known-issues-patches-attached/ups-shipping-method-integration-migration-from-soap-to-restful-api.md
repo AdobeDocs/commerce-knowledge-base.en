@@ -10,6 +10,10 @@ exl-id: 8ab5d4a8-0155-4b2c-ab67-d0bd2f949a07
 
 >[!NOTE]
 >
+>If you uploaded any of the three patches from this article prior to **June 6, 2024**: If you are facing this issue because of the [!DNL Metric System/SI] measurements (kilograms and centimeters) not being used, you should re-apply one of these new, updated patches now published in this article for your 2.4.4+/2.4.5+/2.4.6+ version of Adobe Commerce/Magento Open Source once again, because otherwise you will not be able to select the [!DNL Metric System/SI] measurements of **kilograms** and **centimeters** in the [!DNL UPS] shipping methods in the **[!DNL Admin configuration]**. These new patches are compatible with the previously released patches. This issue will be fixed permanently in scope of upcoming Adobe Commerce version 2.4.7-p1 release planned for **June 11, 2024**.
+
+>[!NOTE]
+>
 >If you uploaded any of the three patches from this article prior to **October 10, 2023**, you should reapply one of these patches now published in this article for your 2.4.4+/2.4.5+/2.4.6+ version of Adobe Commerce/Magento Open Source once again, because otherwise you will not be able to select and configure specific [!DNL UPS] shipping methods in the **[!DNL Admin configuration]**, and you will have to have all of them enabled. These new patches are compatible with the previously released patches.
 
 This article provides a patch to resolve issues with the [!DNL United Parcel Service (UPS)] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API] for Adobe Commerce 2.4.4 - 2.4.6-pX.
@@ -33,9 +37,12 @@ Adobe Commerce on cloud infrastructure and on-premises, and Magento Open Source:
 * 2.4.6
 * 2.4.6-pX
 
-## Cause
+## Causes
 
 The [!DNL UPS] released a [security update for their [!DNL API]](https://developer.ups.com/oauth-developer-guide?loc=en_US&sp_rid=NTA5MzQ1OTE2NjEyS0&sp_mid=72989914).
+
+If you have European Union (other origins may experience the same problem) as Origin of the Shipment this will cause an error in the [!DNL UPS REST] request:
+"*A shipment cannot have a KGS/IN or LBS/CM or OZS/CM as its unit of measurements.*"
 
 ## Solution
 
@@ -49,15 +56,15 @@ Use the following attached patches, depending on your Adobe Commerce/Magento Ope
 
 ### For versions 2.4.4, 2.4.4-pX:
 
-* [AC-9363_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip](assets/AC-9646_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip)
+* [AC-11984_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip](assets/AC-11984_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip)
 
 ### For versions 2.4.5, 2.4.5-pX:
 
-* [AC-9358_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip](assets/AC-9647_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip)
+* [AC-11983_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip](assets/AC-11983_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip)
 
 ### For versions 2.4.6, 2.4.6-pX:
 
-* [AC-9345_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip](assets/AC-9648_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip)
+* [AC-11916_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip](assets/AC-11916_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip)
 
 ## How to apply the patch
 
