@@ -3,9 +3,9 @@ title: test
 description: test
 feature: Support
 role: Admin
-hidefromtoc: yes
 hide: yes
+hidefromtoc: yes
 ---
 # Test
 
-Test article.
+Test article a b c 
