@@ -815,6 +815,7 @@ breadcrumb-title: Commerce KB
     * [Adobe support customer data access and privacy](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
     * [UPS APIs deprecated](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
     * [2024 release schedule](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
+    * [Adobe Commerce support intake process migration to Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-help-center-migration.md)
   * Help Center News {#news}
     * [Adobe Commerce Support Knowledge Base starts accepting contributions](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * Troubleshooting {#troubleshooting}
