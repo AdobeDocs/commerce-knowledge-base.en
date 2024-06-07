@@ -3,7 +3,7 @@ title: test
 description: test
 feature: Support
 role: Admin
-add hidefromtoc: yes
+hidefromtoc: yes
 hide: yes
 ---
 # Test
