@@ -118,16 +118,22 @@ The steps are:
 
 1. Enter the following command to import the [!DNL snapshot]:
 
-   (For [!DNL Production])
+   (For importing the database backup from [!DNL Production])
 
     ```sql
     zcat <cluster ID>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
     ```
 
-   (For [!DNL Staging])
+   (For importing the database backup from [!DNL Staging])
 
     ```sql
     zcat <cluster ID_stg>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
+    ```
+    
+   (For importing a database backup from any other environment)
+
+    ```sql
+    zcat <database-backup-name>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
     ```
 
 ## Related reading
