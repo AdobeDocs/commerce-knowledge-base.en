@@ -9,7 +9,8 @@ role: Admin
 
 If you are an Adobe Commerce on cloud infrastructure Pro plan architecture customer and currently use the standard-sized Integration Environments, or you are an Adobe Commerce on cloud infrastructure Starter plan architecture customer and currently use the standard sized Staging Environment and would like more power, you can request an upgrade to Enhanced Integration Environments, which provide roughly four times the performance. This article separates instructions for Pro customers from Starter customers.
 
->[!NOTE] Upgrading to Enhanced Integration may not address all performance issues as it would depend on the total resource requirements of your installation, given any third-party integrations or customizations, etc.
+>[!NOTE] 
+> Upgrading to Enhanced Integration may not address all performance issues as it would depend on the total resource requirements of your installation, given any third-party integrations or customizations, etc.
 >
 > You will also need to make sure that you are following the best practices for best performance in the integration environment, and even that may not the be-all and end-all solution: 
 > * [Pro Architecture](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
