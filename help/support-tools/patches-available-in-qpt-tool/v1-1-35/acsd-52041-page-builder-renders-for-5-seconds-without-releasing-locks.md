@@ -7,7 +7,7 @@ exl-id: f2a1fd36-2098-46a7-aa42-3a5a0014adc9
 ---
 # ACSD-52041: Page Builder rendering doesn't release locks
 
-The ACSD-52041 patch fixes the issue where the Page Builder renders for 5 seconds without releasing locks. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.35 is installed. The patch ID is ACSD-52041. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-52041 patch fixes the issue where the Page Builder renders for 5 seconds without releasing locks. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.48 is installed. The patch ID is ACSD-52041-V2. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -17,7 +17,7 @@ The ACSD-52041 patch fixes the issue where the Page Builder renders for 5 second
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p1
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p8, 2.4.5 - 2.4.5-p7, 2.4.6 - 2.4.6-p6
 
 >[!NOTE]
 >
