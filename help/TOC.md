@@ -1086,7 +1086,7 @@ breadcrumb-title: Commerce KB
     * [Cannot change search engine in app/etc/env.php](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
     * [The Magento-cloud CLI doesn't show an active environment](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
     * [[!DNL SendGrid] file limitation for Adobe Commerce Cloud](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
-    * [Poor performance in integration environments](/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md) 
+    * [Poor performance in integration environments](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md) 
   * Deployment {#deployment}
     * [Deployment fails: Elasticsearch and Adobe Commerce versions incompatible](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
     * [Deployment failed: unable to apply MDVA-43395 patch](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
