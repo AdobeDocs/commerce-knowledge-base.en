@@ -52,3 +52,7 @@ All customers, irrespective of the [!DNL Site-Wide Analysis Tool] Health Index, 
 ## How are Reports delivered?
 
 [!DNL Site-Wide Analysis Tool] reports are delivered automatically via the Adobe Commerce support ticket system monthly or quarterly. [!DNL Site-Wide Analysis Tool] reports can also be generated manually from the [!DNL Site-Wide Analysis Tool] Dashboard and saved to your desktop. These [!DNL Site-Wide Analysis Tool] reports can then be emailed as attachments.
+
+>[!NOTE]
+>
+>After applying a recommendation, generating a report manually does not update the recommendations - it may take a few days for it to be removed from the [!DNL Site-Wide Analysis Tool Dashboard].
