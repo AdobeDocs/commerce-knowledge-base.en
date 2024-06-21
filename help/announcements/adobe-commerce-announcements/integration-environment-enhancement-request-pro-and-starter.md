@@ -9,6 +9,12 @@ role: Admin
 
 If you are an Adobe Commerce on cloud infrastructure Pro plan architecture customer and currently use the standard-sized Integration Environments, or you are an Adobe Commerce on cloud infrastructure Starter plan architecture customer and currently use the standard sized Staging Environment and would like more power, you can request an upgrade to Enhanced Integration Environments, which provide roughly four times the performance. This article separates instructions for Pro customers from Starter customers.
 
+>[!NOTE]
+>
+> Upgrading to Enhanced Integration may not address all performance issues as it would depend on the total resource requirements of your installation, including third-party integrations or customizations.
+>
+> You also need to make sure that you are following the best practices for best performance in the integration environment, and even that may not be an end-all solution. Refer to the following documentation for guidance: [Pro architecture](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment) and [Starter architecture](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment) in the Commerce on Cloud Infrastructure Guide.
+
 ## Pro
 
 1. If you are on Pro, to upgrade, you must reduce the number of Integration branches to two (**the main Integration branch is included in the total**). **Note: Do not count the primary branch in this total. The primary branch is not considered an integration branch.** Follow the steps in [Manage branches with the Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) in our developer documentation.
