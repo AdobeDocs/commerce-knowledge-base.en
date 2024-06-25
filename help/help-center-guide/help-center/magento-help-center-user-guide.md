@@ -195,8 +195,6 @@ You can add watchers to support cases submitted by members of your organization.
     ![update-watchers](assets/update_watchers.png)
 
 
-
-
 ## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
 
 The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also where you can review troubleshooting articles.
