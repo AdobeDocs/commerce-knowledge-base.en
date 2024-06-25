@@ -28,6 +28,8 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
     * [Adobe Experience League start page](#experience-league-start-page)
     * [Adobe Commerce Account page](#submit-case-adobe-commerce-account-page)
 
+* [Track your support cases](#track-support-cases)
+
 **[WHAT IS THE ADOBE COMMERCE HELP CENTER?](#what-is)**
 
 **[SUPPORT TICKETS](#support-tickets)**
@@ -134,6 +136,59 @@ You must have an account on both https://account.adobe.com and https://account
 >1. Go to https://account.magento.com to link your Adobe ID with the MAG ID.
 
 #### Adobe Commerce Account page {#submit-case-adobe-commerce-account-page}
+
+To submit a new support ticket using your Adobe Commerce Account page, follow these steps:
+
+1. Log in to your Adobe Commerce Account. See [detailed instructions](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) in our user guide.
+1. Click the **Support** tab.    
+
+   ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
+
+1. The Adobe Experience League support page loads for you.
+1. Select **[!UICONTROL Open Ticket]** on the left hand menu.
+1. Fill in the fields.
+1. Click **Submit**.
+
+### Track your support cases {#track-support-case}
+
+Your support cases are those that you:
+
+* have submitted personally.
+* have been added to as a watcher through a CC (carbon copy).
+
+#### View your cases
+
+You can view your cases by clicking on **[!UICONTROL My Cases]** on the left-hand menu.
+
+![view-support-cases](assets/view_support_cases.png)
+
+#### Search for cases
+
+To find cases, type your search query in the *[!UICONTROL Search]* field and press *enter* on your keyboard.
+
+![search-cases](assets/search_cases.png)
+
+#### Escalate your cases
+
+If you feel that a case requires further attention and our initial response time has passed, you may escalate the case. To do that,
+
+1. Click on **[!UICONTROL Escalate to management]** at the bottom right of the *[!UICONTROL Case Detail]* panel on the right side of the screen.
+
+    ![escalate-to-management](assets/escalate_to_management.png)
+
+1. After clicking, a pop-up form will appear. Fill out the form and then click **[!UICONTROL Escalate]**.
+
+    ![confirm-escalation](assets/confirm_escalation.png)
+
+    *Reasons for escalation may include*: Agent Communication Skills, Agent Technical Knowledge, Awaiting Callback/Update, Change in Issue Urgency, Resolution did not meet expectations, or Time to Resolution.
+
+
+
+
+
+
+
+
 
 
 
