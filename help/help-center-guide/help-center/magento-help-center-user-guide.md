@@ -6,13 +6,24 @@ feature: Support, Roles/Permissions, Tools and External Services, Admin Workspac
 ---
 # Adobe Commerce Help Center User Guide
 
-In this guide, learn how to submit a support ticket to the [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) and provide shared access to the Magento accounts.
+In this guide, learn how to submit a support ticket to the [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) and provide shared access to the Adobe Commerce accounts.
+
+>[!NOTE]
+>
+>Unless you have been notified, continue to use the Zendesk case flow. If you have received notification that you are in the cohort with access, follow the Experience League case form flow described here.
 
 >[!NOTE]
 >
 >The Knowledge Base part of the Adobe Commerce Help Center has migrated to the Adobe Experience League portal. When you create a support ticket, related Knowledge Base articles will be suggested to you, along with other relevant Adobe Commerce documentation from the Adobe Experience League.
 
 **Major Update:** October 14, 2022
+
+**[WHAT IS EXPERIENCE LEAGUE SUPPORT?](#what-is-experience-support)**
+
+**[SUPPORT CASES](#support-cases)**
+
+* [Sign into Experience League Support](#signin-experience-support)
+* [Submit a support case](#submit-case)
 
 **[WHAT IS THE ADOBE COMMERCE HELP CENTER?](#what-is)**
 
@@ -52,6 +63,43 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 **[BILLING FAQ FOR ADOBE COMMERCE](#billing-faq)**
 
 **[MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES](#magento-u)**
+
+## WHAT IS EXPERIENCE LEAGUE SUPPORT? {#what-is-experience-support}
+
+Experience League Support is a support portal for Adobe where qualifying Adobe Commerce customers can submit and manage support tickets. It is also where you can review troubleshooting articles.
+
+## SUPPORT CASES {#support-cases}
+
+Adobe Experience League Support Case Management allows working with support through cases to address specific issues encountered while using Adobe products, including Adobe Commerce, for all Adobe Commerce products under contract.
+
+## SIGN INTO EXPERIENCE LEAGUE SUPPORT {#signin-experience-support}
+
+Signing in allows you to submit, update, and respond to questions from agents on support tickets.
+
+To Sign into the Adobe Experience League Support, follow these steps:
+
+1. Navigate to [experienceleague.adobe.com](https://experienceleague.adobe.com/).
+1. Sign in using your Adobe login credentials.
+
+![sign-into-experience-league](assets/experience_league_sign_in.png)
+
+### Submit a support case {#support-case}
+
+Once successfully signed in, you can submit a support case by clicking on **Support** in the header. It will open the Support's homepage. Follow these steps on the homepage to submit a support case.
+
+![open-support-page](assets/click_support.png)
+
+>![NOTE]
+>
+>1. If you belong to multiple organizations, you will need to select the appropriate organization from the dropdown.
+>1. To submit a case, you must be entitled to support. To submit a case, you must be entitled to support. If you are not, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization.
+
+Steps to submit a support case.
+
+
+
+
+
 
 ## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
 
