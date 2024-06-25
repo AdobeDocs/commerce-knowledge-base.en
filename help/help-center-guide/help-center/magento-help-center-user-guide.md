@@ -182,14 +182,17 @@ If you feel that a case requires further attention and our initial response time
 
     *Reasons for escalation may include*: Agent Communication Skills, Agent Technical Knowledge, Awaiting Callback/Update, Change in Issue Urgency, Resolution did not meet expectations, or Time to Resolution.
 
+#### Add a watcher on support cases
 
+You can add watchers to support cases submitted by members of your organization. Watchers will receive email notifications when new cases are submitted or when existing cases are updated.
 
+1. To add a watcher to an existing case, open the case and click on the pencil icon next to "watchers" in the Case Details panel on the right side of the screen.
 
+    ![add-watchers](assets/add_watchers.png)
 
+1. After clicking on the pencil, you can add or remove watchers from the list.
 
-
-
-
+    ![update-watchers](assets/update_watchers.png)
 
 
 
@@ -426,7 +429,8 @@ To follow/unfollow tickets for an organization:
 
 ### Adobe Commerce Shared Responsibility Operational Model {#shared-responsibility-operational-model}
 
-**Login is required** to access the [Adobe Commerce Shared Responsibility Operational Model](https://support.magento.com/hc/en-us/articles/4407700678669) article which is intended to clarify operational responsibilities around the Adobe Commerce on our pro infrastructure offering only.
+See the article on [Adobe Commerce Shared Responsibility Operational Model](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary), 
+which aims to clarify operational responsibilities for our Pro infrastructure offering only.
 
 ### Support ticket fields explained {#ticket-fields-explained}
 
