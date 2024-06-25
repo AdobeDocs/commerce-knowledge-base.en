@@ -25,6 +25,9 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 * [Sign into Experience League Support](#signin-experience-support)
 * [Submit a support case](#submit-case)
 
+    * [Adobe Experience League start page](#experience-league-start-page)
+    * [Adobe Commerce Account page](#submit-case-adobe-commerce-account-page)
+
 **[WHAT IS THE ADOBE COMMERCE HELP CENTER?](#what-is)**
 
 **[SUPPORT TICKETS](#support-tickets)**
@@ -76,7 +79,7 @@ Adobe Experience League Support Case Management allows working with support thro
 
 Signing in allows you to submit, update, and respond to questions from agents on support tickets.
 
-To Sign into the Adobe Experience League Support, follow these steps:
+To sign into the Adobe Experience League Support, follow these steps:
 
 1. Navigate to [experienceleague.adobe.com](https://experienceleague.adobe.com/).
 1. Sign in using your Adobe login credentials.
@@ -85,7 +88,16 @@ To Sign into the Adobe Experience League Support, follow these steps:
 
 ### Submit a support case {#support-case}
 
-Once successfully signed in, you can submit a support case by clicking on **Support** in the header. It will open the Support's homepage. Follow these steps on the homepage to submit a support case.
+Once successfully logged in, you may submit a support case using the Adobe Experience League homepage, your Adobe Commerce Account page, and your Adobe Commerce Cloud Account page.
+
+* If you are the Account Owner, follow the steps below.
+* If you are a Shared Access user, you must switch accounts first [Access shared account (switch accounts)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts), and then you may proceed to the steps below.
+
+#### Adobe Experience League start page {#experience-league-start-page}
+
+To submit a new support case using the start page of Adobe Experience League, follow these steps:
+
+1. Click on **Support** in the header. It will open the Support's homepage.
 
 ![open-support-page](assets/click_support.png)
 
@@ -94,8 +106,34 @@ Once successfully signed in, you can submit a support case by clicking on **Supp
 >1. If you belong to multiple organizations, you will need to select the appropriate organization from the dropdown.
 >1. To submit a case, you must be entitled to support. To submit a case, you must be entitled to support. If you are not, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization.
 
+
 Steps to submit a support case.
 
+1. To begin the support intake process, click **[!UICONTROL Open Ticket]** on the left hand menu, or click **[!UICONTROL Get Started]** in *[!UICONTROL Open a support ticket]* card.
+
+    ![open-support-case](assets/open_support_case.png)
+
+1. Select a product from the dropdown menu and provide a case title and description.
+
+    ![select_product](assets/support_case_product.png)
+
+1. Adobe Experience League will suggest articles and best practices that can help you solve your case. If you still need direct support, you will need to provide some additional information before submitting your case.
+
+    ![direct_support_required](assets/direct_support.png)
+
+1. Once you've filled all the required information, you can click the **[!UICONTROL Submit case]** button.
+
+You must have an account on both https://account.adobe.com and https://account.magento.com and then sign in to the Experience League using your Adobe Commerce account in order to submit a support case. You won't be able to submit a support case until you are signed in.
+
+>[!NOTE] 
+>
+>If you already have an account at https://account.magento.com but aren't able to sign in, you may not have registered for an account at https://account.adobe.com, which is required as of August 2022.
+>
+>To resolve this:
+>1. Create an account at https://account.adobe.com using the same email address on your MAG ID.
+>1. Go to https://account.magento.com to link your Adobe ID with the MAG ID.
+
+#### Adobe Commerce Account page {#submit-case-adobe-commerce-account-page}
 
 
 
