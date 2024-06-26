@@ -224,7 +224,7 @@ To close your case, click **[!UICONTROL Close case]** at the bottom right of the
 
 ### Reopen a closed case {#reopen-case}
 
-A closed case can be reopened for up to 14 days after closure. After a case has been closed for 14 days, it can no longer be reopened and a new case must be created to continue support for an unresolved issue.
+A closed case can be reopened for up to 14 days after closure. After a case has been closed for 14 days, it can no longer be reopened, and a new case must be created to continue support for an unresolved issue.
 
 >[!NOTE]
 >
