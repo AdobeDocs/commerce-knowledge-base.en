@@ -10,7 +10,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 >[!NOTE]
 >
->Adobe Commerce support is moving from Zendesk to Experience League. If you've been notified that you have access, use the Experience League case form flow described [here](#what-is-experience-support). If you haven't been notified, continue to use the Zendesk case flow.
+>Adobe Commerce support is moving from Zendesk to Experience League. If you've been notified that you have access, use the Experience League case form flow described [here](#what-is-experience-support). If you haven't been notified, continue to use the [Zendesk case flow](#what-is-adobe-commerce-help-center).
 
 >[!NOTE]
 >
