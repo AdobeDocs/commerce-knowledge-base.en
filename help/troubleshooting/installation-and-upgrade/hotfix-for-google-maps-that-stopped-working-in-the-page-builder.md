@@ -1,12 +1,12 @@
 ---
-title: Adobe commerce customers should apply a hotfix from Adobe
-description: 'This article provides a fix for Adobe Commerce customers who are not compatible with any recent Google Maps versions from 3.54+.'
+title: Adobe commerce users should apply a hotfix from Adobe
+description: 'This article provides a fix for Adobe Commerce users who are not compatible with any recent Google Maps versions from 3.54+.'
 feature: Install, Upgrade
 role: Developer
 ---
-# Adobe commerce customers should apply a hotfix from Adobe
+# Adobe commerce users should apply a hotfix from Adobe
 
-It is currently noticed that Adobe Commerce customers have no access to Google Maps in any version of Adobe Commerce anymore. This article provides a fix for Adobe Commerce customers who are not compatible with any recent Google Maps versions from 3.54+.
+It is currently noticed that Adobe Commerce users have no access to Google Maps in any version of Adobe Commerce anymore. This article provides a fix for Adobe Commerce users who are not compatible with any recent Google Maps versions from 3.54+.
 
 ## Affected versions and products
 
@@ -37,7 +37,7 @@ When dropping Map content block from **[!DNL PageBuilder]** menu to page, an err
 
 ## Solution
 
-* All the customers on any 2.4.4, 2.4.5 or 2.4.6 patch version should apply these corresponding patches to your version 
+* All the users on any 2.4.4, 2.4.5 or 2.4.6 patch version should apply these corresponding patches to your version 
 
 ## Patch 
 
