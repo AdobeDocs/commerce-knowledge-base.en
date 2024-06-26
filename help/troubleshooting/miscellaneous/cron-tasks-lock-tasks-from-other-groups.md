@@ -65,4 +65,4 @@ To check if the self-managed cron is enabled, run the `crontab -l` command and o
 
 ## Related reading
 
-* [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html) in our developer documentation
+* [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) in our developer documentation
