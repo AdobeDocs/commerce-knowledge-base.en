@@ -10,7 +10,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 >[!NOTE]
 >
->Unless you have been notified, continue to use the Zendesk case flow. If you have received notification that you are in the cohort with access, follow the Experience League case form flow described here.
+>Adobe Commerce support is moving from Zendesk to Experience League. If you've been notified that you have access, use the Experience League case form flow described [here](#what-is-experience-support). If you haven't been notified, continue to use the Zendesk case flow.
 
 >[!NOTE]
 >
@@ -22,13 +22,16 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 **[SUPPORT CASES](#support-cases)**
 
-* [Sign into Experience League Support](#signin-experience-support)
+* [Sign in to Experience League Support](#sign-in-experience-support)
 * [Submit a support case](#submit-case)
 
     * [Adobe Experience League start page](#experience-league-start-page)
     * [Adobe Commerce Account page](#submit-case-adobe-commerce-account-page)
 
 * [Track your support cases](#track-support-cases)
+* [Comments in your case](#comments-in-your-case)
+* [Close your case](#close-case)
+* [Reopen a closed case](#reopen-case)
 
 **[WHAT IS THE ADOBE COMMERCE HELP CENTER?](#what-is)**
 
@@ -69,6 +72,10 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 **[MAGENTO U IS NOW PART OF ADOBE DIGITAL LEARNING SERVICES](#magento-u)**
 
+>[!NOTE]
+>
+>Unless you have been notified, continue to use [Zendesk case flow](#what-is). If you have been notified that you are in the cohort with access, follow the Experience League case form flow described [below](#what-is-experience-league-support).
+
 ## WHAT IS EXPERIENCE LEAGUE SUPPORT? {#what-is-experience-support}
 
 Experience League Support is a support portal for Adobe where qualifying Adobe Commerce customers can submit and manage support tickets. It is also where you can review troubleshooting articles.
@@ -77,7 +84,7 @@ Experience League Support is a support portal for Adobe where qualifying Adobe C
 
 Adobe Experience League Support Case Management allows working with support through cases to address specific issues encountered while using Adobe products, including Adobe Commerce, for all Adobe Commerce products under contract.
 
-## SIGN INTO EXPERIENCE LEAGUE SUPPORT {#signin-experience-support}
+## SIGN IN TO EXPERIENCE LEAGUE SUPPORT {#sign-in-experience-support}
 
 Signing in allows you to submit, update, and respond to questions from agents on support tickets.
 
@@ -93,23 +100,20 @@ To sign into the Adobe Experience League Support, follow these steps:
 Once successfully logged in, you may submit a support case using the Adobe Experience League homepage, your Adobe Commerce Account page, and your Adobe Commerce Cloud Account page.
 
 * If you are the Account Owner, follow the steps below.
-* If you are a Shared Access user, you must switch accounts first [Access shared account (switch accounts)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts), and then you may proceed to the steps below.
+* If you are a Shared Access user, you must first switch accounts. See [Access shared account (switch accounts)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts), and then you may proceed to the steps below.
 
 #### Adobe Experience League start page {#experience-league-start-page}
 
 To submit a new support case using the start page of Adobe Experience League, follow these steps:
-
-1. Click on **Support** in the header. It will open the Support's homepage.
-
-![open-support-page](assets/click_support.png)
 
 >![NOTE]
 >
 >1. If you belong to multiple organizations, you will need to select the appropriate organization from the dropdown.
 >1. To submit a case, you must be entitled to support. To submit a case, you must be entitled to support. If you are not, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization.
 
+1. Click on **Support** in the header. It will open the Support's homepage.
 
-Steps to submit a support case.
+    ![open-support-page](assets/click_support.png)
 
 1. To begin the support intake process, click **[!UICONTROL Open Ticket]** on the left hand menu, or click **[!UICONTROL Get Started]** in *[!UICONTROL Open a support ticket]* card.
 
@@ -123,7 +127,7 @@ Steps to submit a support case.
 
     ![direct_support_required](assets/direct_support.png)
 
-1. Once you've filled all the required information, you can click the **[!UICONTROL Submit case]** button.
+1. Once you've filled in all the required information, click on **[!UICONTROL Submit case]**.
 
 You must have an account on both https://account.adobe.com and https://account.magento.com and then sign in to the Experience League using your Adobe Commerce account in order to submit a support case. You won't be able to submit a support case until you are signed in.
 
@@ -139,13 +143,13 @@ You must have an account on both https://account.adobe.com and https://account
 
 To submit a new support ticket using your Adobe Commerce Account page, follow these steps:
 
-1. Log in to your Adobe Commerce Account. See [detailed instructions](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) in our user guide.
+1. Sign in to your Adobe Commerce Account. See [detailed instructions](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) in our user guide.
 1. Click the **Support** tab.    
 
    ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
 
 1. The Adobe Experience League support page loads for you.
-1. Select **[!UICONTROL Open Ticket]** on the left hand menu.
+1. Select **[!UICONTROL Open Ticket]** from the left-hand menu.
 1. Fill in the fields.
 1. Click **Submit**.
 
@@ -158,7 +162,7 @@ Your support cases are those that you:
 
 #### View your cases
 
-You can view your cases by clicking on **[!UICONTROL My Cases]** on the left-hand menu.
+You can view your cases by clicking **[!UICONTROL My Cases]** on the left-hand menu.
 
 ![view-support-cases](assets/view_support_cases.png)
 
@@ -193,6 +197,27 @@ You can add watchers to support cases submitted by members of your organization.
 1. After clicking on the pencil, you can add or remove watchers from the list.
 
     ![update-watchers](assets/update_watchers.png)
+
+### Comments in your case {#comments-in-your-case}
+
+Comments in your case contain all comments written by you or the Adobe Commerce support team. Comments are displayed from latest (on top) to earliest (bottom).
+To add a comment, follow these steps:
+
+1. Scroll to the bottom of your ticket.
+1. Write your comment in the **[!UICONTROL Comments]** field and click **[!UICONTROL Add comments]**.
+
+![add-comments](assets/add_comments.png)
+
+### Close your case {#close-case}
+
+To close your case, click **[!UICONTROL Close case]** at the bottom right of the *[!UICONTROL Case Detail]* panel.
+
+![close-case](assets/close_case.png)
+
+### Reopen a closed case {#reopen-case}
+
+A closed case can be reopened for up to 14 days after closure. After a case has been closed for 14 days, it can no longer be reoopened and a new case must be created to continue support for an unresolved issue.
+
 
 
 ## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
