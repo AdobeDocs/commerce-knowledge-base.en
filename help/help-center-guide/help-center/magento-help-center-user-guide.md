@@ -26,8 +26,8 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 * [Submit a support case](#submit-case)
 
     * [Adobe Experience League start page](#experience-league-start-page)
-    * [Adobe Commerce Account page](#submit-case-adobe-commerce-account-page)
-    * [*Please verify your email address* error on Adobe Commerce Account page](#verify-email-address-error)
+    * [Adobe Commerce account page](#submit-case-adobe-commerce-account-page)
+    * [*Please verify your email address* error on Adobe Commerce account page](#verify-email-address-error)
 
 * [Track your support cases](#track-support-cases)
 * [Comments in your case](#comments-in-your-case)
@@ -98,9 +98,9 @@ To sign into the Adobe Experience League Support, follow these steps:
 
 ### Submit a support case {#support-case}
 
-Once successfully logged in, you may submit a support case using the Adobe Experience League homepage, your Adobe Commerce Account page, and your Adobe Commerce Cloud Account page.
+Once successfully signed in, you may submit a support case using the Adobe Experience League homepage, your Adobe Commerce account page, and your Adobe Commerce Cloud account page.
 
-* If you are the Account Owner, follow the steps below.
+* If you are the account owner, follow the steps below.
 * If you are a Shared Access user, you must first switch accounts. See [Access shared account (switch accounts)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts), and then you may proceed to the steps below.
 
 #### Adobe Experience League start page {#experience-league-start-page}
@@ -140,11 +140,11 @@ You must have an account on both https://account.adobe.com and https://account
 >1. Create an account at https://account.adobe.com using the same email address on your MAG ID.
 >1. Go to https://account.magento.com to link your Adobe ID with the MAG ID.
 
-#### Adobe Commerce Account page {#submit-case-adobe-commerce-account-page}
+#### Adobe Commerce account page {#submit-case-adobe-commerce-account-page}
 
-To submit a new support ticket using your Adobe Commerce Account page, follow these steps:
+To submit a new support ticket using your Adobe Commerce account page, follow these steps:
 
-1. Sign in to your Adobe Commerce Account. See [detailed instructions](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) in our user guide.
+1. Sign in to your Adobe Commerce account. See [detailed instructions](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) in our user guide.
 1. Click the **Support** tab.    
 
    ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
@@ -156,7 +156,7 @@ To submit a new support ticket using your Adobe Commerce Account page, follow th
 
 #### *Please verify your email address* error on Adobe Commerce Account page {#verify-email-address-error}
 
-You won't be able to submit a support ticket if you receive the Please verify your email address error similar to the one below on the [Adobe Commerce Account](https://account.magento.com/) page.
+You won't be able to submit a support ticket if you receive the Please verify your email address error similar to the one below on the [Adobe Commerce account](https://account.magento.com/) page.
 
 ![Verify_Email_Address_Error](assets/Verify_Email_Address_Error.png)
 
@@ -690,29 +690,29 @@ To open a follow-up ticket, click the "*create a follow-up*" link at the bottom 
 
 ## SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT {#shared-access}
 
-You may grant limited access to your account for other Magento Account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
+You may grant limited access to your account for other Adobe Commerce account holders. In particular, using the **shared access** functionality, you may provide privileges for trusted employees and service providers to use your Help Center account so that they could work with your support tickets.
 
-You can provide and manage shared access using your Magento Account page at [https://account.magento.com](https://account.magento.com/).
+You can provide and manage shared access using your Adobe Commerce account page at [https://account.magento.com](https://account.magento.com/).
 
 ### Who can provide shared access {#who-can-provide-shared-access}
 
-Only the Account Owner (Primary Account Holder) with the according privileges can provide shared access for other users.
+Only the account owner (primary account holder) with the according privileges can provide shared access for other users.
 
-Managing users and their access is the customer's responsibility, especially in the shared access perspective. Thus, the Adobe Commerce support team cannot provide shared access to a Magento Account on behalf of a Customer. Customers are encouraged to add users with shared access themselves, using the [Magento Account page](https://account.magento.com/).
+Managing users and their access is the customer's responsibility, especially in the shared access perspective. Thus, the Adobe Commerce support team cannot provide shared access to an Adobe Commerce account on behalf of a Customer. Customers are encouraged to add users with shared access themselves, using the [Adobe Commerce account page](https://account.magento.com/).
 
 Users who have been provided with shared access cannot transfer or grant such access to other users.
 
 ### Provide shared access {#provide-shared-access}
 
-See the [Sharing Your Account](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) section of Adobe Commerce User Guide for detailed steps on setting up a shared account.
+See the [Share a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) section of Adobe Commerce Getting Started Guide for detailed steps on setting up a shared account.
 
-After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Magento Account page.
+After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Adobe Commerce account page.
 
 ![magento-account-shared-manage-permissions](assets/magento-account-shared-manage-permissions.png){width="800"}
 
 ### Revoke (delete) shared access {#revoke-shared-access}
 
-1. Log in to your Magento Account at [https://account.magento.com](https://account.magento.com/).
+1. Log in to your Adobe Commerce account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
 1. Find the user to revoke shared access from and click ![remove icon](assets/remove_icon.png){width="25"} in the user's row (**Actions** column).
 1. Click **Delete User** to revoke access or X in the top corner to cancel revoking.
@@ -721,7 +721,7 @@ After providing shared access for a new user, the related information is availab
 
    You may also revoke shared access using the **Edit** menu:
 
-1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
+1. Log in to your Adobe Commerce account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under Shared Access, choose **Manage Permissions.**
 1. Find the user to revoke shared access from and click **Edit** in the user's row (**Actions** column).
 1. Click **Delete This User** at the bottom of the page.
@@ -745,7 +745,7 @@ It's not possible to delete the list of Shared Access users with the Share Name 
 
 However, once you have revoked the permissions on those Shared Access users, they will no longer have that access.
 
-1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/).
+1. Log in to your Adobe Commerce account at [https://account.magento.com](https://account.magento.com/).
 1. In the panel on the left, under *[!UICONTROL Shared Access]*, choose **[!UICONTROL Manage Permissions]**.
 1. Find the user to revoke shared access from and click **[!UICONTROL Edit]** in the user's row (*[!UICONTROL Actions]* column).
 1. Uncheck all resources under *[!UICONTROL Grant Account Permissions]*.
@@ -758,7 +758,7 @@ For more information, please refer to the [Manage User Access](https://experienc
 
 To use the shared access provided for you, follow these steps:
 
-1. Log in to your Magento Account at [https://account.magento.com](https://account.magento.com/).
+1. Log in to your Adobe Commerce account at [https://account.magento.com](https://account.magento.com/).
 1. Click the **Switch Accounts** menu and select an account.
 
    ![magento-account-shared-switch](assets/magento-account-shared-switch.png){width="800"}
