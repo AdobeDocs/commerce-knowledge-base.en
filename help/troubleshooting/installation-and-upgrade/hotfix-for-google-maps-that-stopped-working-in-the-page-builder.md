@@ -37,5 +37,14 @@ When dropping Map content block from **[!DNL PageBuilder]** menu to page, an err
 
 ## Solution
 
-In order to fix this issue, all the Adobe commerce customers should apply a hotfix from Adobe.
+* All the customers on any 2.4.4, 2.4.5 or 2.4.6 patch version should apply the (https://jira.corp.adobe.com/secure/attachment/12269207/12269207_ACSD-59967_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch) composer patch.
 
+* All the customers on any **2.4.7 patch version** should apply the TBD composer patch.
+
+**Please note** 
+The issue will be permanently fixed in the scope of August security-only patch releases: 
+*2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10*
+
+## Related Reading
+
+[How to apply a composer patch provided by Adobe ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
