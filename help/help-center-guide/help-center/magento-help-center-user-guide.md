@@ -27,6 +27,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
     * [Adobe Experience League start page](#experience-league-start-page)
     * [Adobe Commerce Account page](#submit-case-adobe-commerce-account-page)
+    * [*Please verify your email address* error on Adobe Commerce Account page](#verify-email-address-error)
 
 * [Track your support cases](#track-support-cases)
 * [Comments in your case](#comments-in-your-case)
@@ -153,6 +154,13 @@ To submit a new support ticket using your Adobe Commerce Account page, follow th
 1. Fill in the fields.
 1. Click **Submit**.
 
+#### *Please verify your email address* error on Adobe Commerce Account page {#verify-email-address-error}
+
+You won't be able to submit a support ticket if you receive the Please verify your email address error similar to the one below on the [Adobe Commerce Account](https://account.magento.com/) page.
+
+![Verify_Email_Address_Error](assets/Verify_Email_Address_Error.png)
+
+
 ### Track your support cases {#track-support-case}
 
 Your support cases are those that you:
@@ -216,9 +224,11 @@ To close your case, click **[!UICONTROL Close case]** at the bottom right of the
 
 ### Reopen a closed case {#reopen-case}
 
-A closed case can be reopened for up to 14 days after closure. After a case has been closed for 14 days, it can no longer be reoopened and a new case must be created to continue support for an unresolved issue.
+A closed case can be reopened for up to 14 days after closure. After a case has been closed for 14 days, it can no longer be reopened and a new case must be created to continue support for an unresolved issue.
 
-
+>[!NOTE]
+>
+>Continue using the Zendesk form flow [below](#what-is-adobe-commerce-help-center) for ticket submission and management unless you have been notified that you are in the cohort with access to the Experience League case form flow described [here](#what-is-experience-league-support). 
 
 ## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
 
