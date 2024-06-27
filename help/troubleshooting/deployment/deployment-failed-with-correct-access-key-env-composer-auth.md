@@ -18,11 +18,11 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 
 Adobe Commerce on cloud infrastructure 2.4.x
 
-## Issue  
+## Issue
 
 <u>Steps to reproduce</u>:
 
-Attempt to deploy. 
+Attempt to deploy.
 
 <u>Expected results</u>:
 
@@ -34,7 +34,7 @@ You deploy successfully.
 >
 >This is an example error. You could get an error indicating a different file (depending on which Adobe Commerce version you deploy).
 
-You do not deploy successfully. You see an error like *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* in the [deployment log](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log). 
+You do not deploy successfully. You see an error like *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* in the [deployment log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log). 
 
 
 ### Cause
@@ -48,7 +48,7 @@ The specified composer access keys found in one of these locations may not have 
 
 Update the `env:COMPOSER_AUTH` variable on the project level and ensure that it is configured with keys that have access to the code.
 
-For steps, refer to [Variable levels](/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) in Commerce on Cloud Infrastructure Guide. 
+For steps, refer to [Variable levels](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) in Commerce on Cloud Infrastructure Guide. 
 
 ## Related reading
 

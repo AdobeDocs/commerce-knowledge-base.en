@@ -47,6 +47,6 @@ You can set to higher than *500000* depending on the existing max size reported 
 
 ## Related Reading
 
-* [Session size](/docs/commerce-admin/systems/security/security-session-management.html?lang=en#admin-sessions) in Admin Systems Guide.
-* [Operation mode](/docs/commerce-operations/configuration-guide/cli/set-mode.html) in the Configuration Guide.
-* [Secure connections](/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in the Commerce on Cloud Infrastructure Guide.
+* [Session size](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) in Admin Systems Guide.
+* [Operation mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) in the Configuration Guide.
+* [Secure connections](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) in the Commerce on Cloud Infrastructure Guide.
