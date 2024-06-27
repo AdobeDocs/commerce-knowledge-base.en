@@ -1,21 +1,21 @@
 ---
-title: Adobe commerce users should apply a hotfix from Adobe
+title: Revised patches for Google Maps access loss on all Adobe Commerce versions
 description: 'This article provides a fix for Adobe Commerce users who are not compatible with any recent Google Maps versions from 3.54+.'
 feature: Install, Upgrade
 role: Developer
 ---
-# Adobe commerce users should apply a hotfix from Adobe
+# Revised patches for Google Maps access loss on all Adobe Commerce versions
 
 It is currently noticed that Adobe Commerce users have no access to Google Maps in any version of Adobe Commerce anymore. This article provides a fix for Adobe Commerce users who are not compatible with any recent Google Maps versions from 3.54+.
 
 ## Affected versions and products
 
 * Versions of Adobe Commerce and/or other used technologies.
-* Adobe Commerce 2.4.4 - 2.4.7 cloud and On-premises versions.
+* Adobe Commerce *2.4.4* - *2.4.7* on Cloud and On-premises versions.
 
 ## Issue
 
-On June 14, 2024 Google Maps version 3.53 reached the end of life and was switched off by Google [https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions]
+On *June 14, 2024* Google Maps version *3.53* reached the end of life and was switched off by Google[https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions]
 
 Adobe Commerce was not compatible with any recent Google Maps versions from 3.54+.
 
