@@ -6,7 +6,7 @@ role: Developer
 ---
 # Revised patches for Google Maps access loss on all Adobe Commerce versions
 
-It is currently noticed that Adobe Commerce users have no access to Google Maps in any version of Adobe Commerce anymore. This article provides a fix for Adobe Commerce users who are not compatible with any recent Google Maps versions from 3.54+.
+This article provides a fix for Adobe Commerce users who are not compatible with any recent Google Maps versions from 3.54+. This fix is to solve the issue where Adobe Commerce users have no Google Maps in any version of Adobe Commerce anymore. 
 
 ## Affected versions and products
 
@@ -19,7 +19,7 @@ On *June 14, 2024* Google Maps version *3.53* reached the end of life and was sw
 
 Adobe Commerce was not compatible with any recent Google Maps versions from 3.54+.
 
-The incompatibility was caused by legacy `prototype.js script`, which loaded through `lib/web/legacy-build.min.js` overrides native Array.from function, which leads to a direct conflict with Google Maps API. [https://developers.google.com/maps/documentation/javascript/best-practices]
+The incompatibility was caused by legacy `prototype.js script`, which loaded through `lib/web/legacy-build.min.js` overrides native Array.from function, which leads to a direct conflict with Google Maps API. [!DNL Google Maps: JS Best Practices][https://developers.google.com/maps/documentation/javascript/best-practices]
 
 <u>Steps to reproduce</u> :
 
