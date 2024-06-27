@@ -1107,7 +1107,7 @@ breadcrumb-title: Commerce KB
     * [Deployment failed: There are no commands defined in the 'cache' namespace error](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
     * [Deployment fails with correct access keys in env:COMPOSER_AUTH or auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
   * Known issues {#known-issues-patches-attached}
-    * [Adobe Commerce 2.4.4-p8, 2.4.5-p7, 2.4.6-p5, 2.4.7 security hotfix for [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-4-p8-2-4-5-p7-2-4-6-p5-2-4-7-security-hotfix-for-cve-2024-34102.md)
+    * [Adobe Commerce 2.4.4-p8, 2.4.5-p7, 2.4.6-p5, 2.4.7 security [!DNL hotfix] for [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-4-p8-2-4-5-p7-2-4-6-p5-2-4-7-security-hotfix-for-cve-2024-34102.md)
     * [[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
     * [[!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
     * [Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
