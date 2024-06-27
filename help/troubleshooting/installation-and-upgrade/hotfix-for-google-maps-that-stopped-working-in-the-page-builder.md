@@ -11,11 +11,11 @@ It is currently noticed that Adobe Commerce users have no access to Google Maps 
 ## Affected versions and products
 
 * Versions of Adobe Commerce and/or other used technologies.
-* Adobe Commerce *2.4.4* - *2.4.7* cloud and On-premises versions.
+* Adobe Commerce 2.4.4 - 2.4.7 cloud and On-premises versions.
 
 ## Issue
 
-On *June 14, 2024* Google Maps version *3.53* reached the end of life and was switched off by Google [https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions]
+On June 14, 2024 Google Maps version 3.53 reached the end of life and was switched off by Google [https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions]
 
 Adobe Commerce was not compatible with any recent Google Maps versions from 3.54+.
 
@@ -33,15 +33,15 @@ Google Maps should work as expected.
 
 <u> Actual result:</u>
 
-When dropping Map content block from **[!DNL PageBuilder]** menu to page, an error message is displayed. 
+When dropping Map Content block from **[!DNL PageBuilder]** menu to page, an error message is displayed. 
 
 ## Solution
 
-* All the users on any 2.4.4, 2.4.5 or 2.4.6 patch version should apply these corresponding patches to your version 
+* All the users on any 2.4.4, 2.4.5 or 2.4.6 patch version should apply these corresponding patches to their version.
 
 ## Patch 
 
-Use the following attached patches, depending on your Adobe Commerce version:
+Use the following attached patches, depending on the Adobe Commerce version:
 
 **For versions 2.4.4:**
 [ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
@@ -57,8 +57,9 @@ Use the following attached patches, depending on your Adobe Commerce version:
 
 
 **Please note** 
+
 The issue will be permanently fixed in the scope of August security-only patch releases: 
-*2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10*
+2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10
 
 ## Related Reading
 
