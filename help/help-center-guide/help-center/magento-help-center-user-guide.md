@@ -75,7 +75,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 >[!NOTE]
 >
->Unless you have been notified, continue to use [Adobe Commerce Help Center case flow](#what-is). If you have been notified that you are in the cohort with access, follow the Experience League case form flow described [below](#what-is-experience-league-support).
+>Unless you have been notified, continue to use the [Adobe Commerce Help Center case flow](#what-is). If you have been notified that you are in the cohort with access, follow the Experience League case form flow described [below](#what-is-experience-league-support).
 
 ## WHAT IS EXPERIENCE LEAGUE SUPPORT? {#what-is-experience-support}
 
@@ -708,7 +708,7 @@ See the [Share a Commerce account](https://experienceleague.adobe.com/en/docs/co
 
 After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Adobe Commerce account page.
 
-![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png){width="800"}
+![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
 
 ### Revoke (delete) shared access {#revoke-shared-access}
 
