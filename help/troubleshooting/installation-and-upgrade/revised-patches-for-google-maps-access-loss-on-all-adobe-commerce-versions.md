@@ -1,12 +1,12 @@
 ---
 title: Revised patches for Google Maps access loss on all Adobe Commerce versions
-description: 'This article provides a fix for Adobe Commerce merchants who are not compatible with any recent [!DNL  Google Maps] versions from 3.54+.'
+description: 'This article provides a fix for Adobe Commerce merchants who are not compatible with any recent [!DNL Google Maps] versions from 3.54+.'
 feature: Install, Upgrade
 role: Developer
 ---
-# Revised patches for [!DNL  Google Maps] access loss on all Adobe Commerce versions
+# Revised patches for [!DNL Google Maps] access loss on all Adobe Commerce versions
 
-This article provides a fix for Adobe Commerce merchants who are not compatible with any recent [!DNL  Google Maps] versions from 3.54+. This fix is to solve the issue where Adobe Commerce merchants have no [!DNL  Google Maps] in any version of Adobe Commerce anymore. 
+This article provides a fix for Adobe Commerce merchants who are not compatible with any recent [!DNL Google Maps] versions from 3.54+. This fix is to solve the issue where Adobe Commerce merchants have no [!DNL Google Maps] in any version of Adobe Commerce anymore. 
 
 ## Affected versions and products
 
@@ -15,9 +15,9 @@ This article provides a fix for Adobe Commerce merchants who are not compatible 
 
 ## Issue
 
-On *June 14, 2024* [!DNL  Google Maps] version *3.53* reached the end of life and was switched off by [!DNL Google].
+On *June 14, 2024* [!DNL Google Maps] version *3.53* reached the end of life and was switched off by [!DNL Google].
 
- For more information refer to [[!DNL  Google Maps] Platform: Maps JavaScript API] (https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
+ For more information refer to [[!DNL Google Maps] Platform: Maps JavaScript API] (https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
 
 Adobe Commerce was not compatible with any recent [!DNL  Google Maps] versions from 3.54+.
 
@@ -33,7 +33,7 @@ Refer to [[!DNL Google Maps: JS Best Practices]] (https://developers.google.com/
 
 <u>Expected result:</u>
 
-[!DNL  Google Maps] should work as expected.
+[!DNL Google Maps] should work as expected.
 
 <u> Actual result:</u>
 
