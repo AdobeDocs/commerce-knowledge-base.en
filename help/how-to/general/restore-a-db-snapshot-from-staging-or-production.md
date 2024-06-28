@@ -129,8 +129,8 @@ The steps are:
     ```sql
     zcat <cluster ID_stg>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
     ```
-    
-    (For importing a database backup from any other environment)
+
+   (For importing a database backup from any other environment)
 
     ```sql
     zcat <database-backup-name>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
