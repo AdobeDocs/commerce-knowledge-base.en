@@ -6,7 +6,7 @@ role: Developer
 ---
 # Revised patches for Google Maps access loss on all Adobe Commerce versions
 
-This article provides a fix for Adobe Commerce users who are not compatible with any recent Google Maps versions from 3.54+. This fix is to solve the issue where Adobe Commerce users have no Google Maps in any version of Adobe Commerce anymore. 
+This article provides a fix for Adobe Commerce merchants who are not compatible with any recent Google Maps versions from 3.54+. This fix is to solve the issue where Adobe Commerce merchants have no Google Maps in any version of Adobe Commerce anymore. 
 
 ## Affected versions and products
 
