@@ -230,7 +230,7 @@ A closed case can be reopened for up to 14 days after closure. After a case has 
 >
 >Continue using the Zendesk form flow [below](#what-is-adobe-commerce-help-center) for ticket submission and management unless you have been notified that you are in the cohort with access to the Experience League case form flow described [here](#what-is-experience-league-support). 
 
-## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is}
+## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is-adobe-commerce-help-center}
 
 The [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) is a support portal for Adobe Commerce, where qualifying customers can submit and manage support tickets. It is also where you can review troubleshooting articles.
 
