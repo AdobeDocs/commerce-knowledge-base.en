@@ -6,7 +6,7 @@ role: Developer
 ---
 # Revised patches for [!DNL Google Maps] access loss on all Adobe Commerce versions
 
-This article provides a fix for Adobe Commerce merchants who are not compatible with any recent [!DNL Google Maps] versions from 3.54+. This fix is to solve the issue where Adobe Commerce merchants have no [!DNL Google Maps] in any version of Adobe Commerce anymore. 
+This article provides a fix for Adobe Commerce merchants who are not compatible with any recent [!DNL Google Maps] versions from 3.54+. This fix is to solve the issue where Adobe Commerce merchants have no access to [!DNL Google Maps] in any version of Adobe Commerce anymore. 
 
 ## Affected versions and products
 
@@ -27,7 +27,7 @@ Refer to [[!DNL Google Maps: JS Best Practices]] (https://developers.google.com/
 
 <u>Steps to reproduce</u> :
 
-1. Go to **[!UICONTROL Content]** > ****[!UICONTROL Pages]** > and click on a ****[!UICONTROL New Page]**.
+1. Go to **[!UICONTROL Content]** > **[!UICONTROL Pages]** > and click on a **[!UICONTROL New Page]**.
 1. Expand the Content Block and click on the edit **[!DNL PageBuilder]** button.
 1. Drag the Map Content Block from the **[!DNL PageBuilder]** menu to page.
 
