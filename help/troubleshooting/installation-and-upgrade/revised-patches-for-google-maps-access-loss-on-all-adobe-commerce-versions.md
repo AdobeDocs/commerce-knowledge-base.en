@@ -27,7 +27,7 @@ The incompatibility was caused by legacy `prototype.js script`, which loaded thr
 
 <u>Steps to reproduce</u> :
 
-1. Go to **[!UICONTROL Content]** > **[!UICONTROL Pages]** > and click on a **[!UICONTROL New Page]**.
+1. Click on **[!UICONTROL Content]** > **[!UICONTROL Pages]** > and select a **[!UICONTROL New Page]**.
 1. Expand the Content Block and click on the edit **[!DNL PageBuilder]** button.
 1. Drag the Map Content Block from the **[!DNL PageBuilder]** menu to page.
 
