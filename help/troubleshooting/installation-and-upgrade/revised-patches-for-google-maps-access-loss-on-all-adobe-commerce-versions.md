@@ -15,7 +15,7 @@ This article provides a fix for Adobe Commerce merchants who are not compatible 
 
 ## Issue
 
-On *June 14, 2024* Google Maps version *3.53* reached the end of life and was switched off by Google[https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions].
+On *June 14, 2024* Google Maps version *3.53* reached the end of life and was switched off by [!DNL Google]. See [[!DNL Google Maps Platform]: Documentation for the API versions][https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions] for more information.
 
 Adobe Commerce was not compatible with any recent Google Maps versions from 3.54+.
 
