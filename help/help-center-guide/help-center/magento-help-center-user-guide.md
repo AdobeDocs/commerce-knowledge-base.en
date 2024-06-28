@@ -34,7 +34,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 * [Close your case](#close-case)
 * [Reopen a closed case](#reopen-case)
 
-**[WHAT IS THE ADOBE COMMERCE HELP CENTER?](#what-is)**
+**[WHAT IS THE ADOBE COMMERCE HELP CENTER?](#what-is-adobe-commerce-help-center)**
 
 **[SUPPORT TICKETS](#support-tickets)**
 
@@ -89,7 +89,7 @@ Adobe Experience League Support Case Management allows working with support thro
 
 Signing in allows you to submit, update, and respond to questions from agents on support tickets.
 
-To sign into the Adobe Experience League Support, follow these steps:
+To sign in to the Adobe Experience League Support, follow these steps:
 
 1. Navigate to [experienceleague.adobe.com](https://experienceleague.adobe.com/).
 1. Sign in using your Adobe login credentials.
