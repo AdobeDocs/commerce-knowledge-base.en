@@ -16,7 +16,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 >
 >The Knowledge Base part of the Adobe Commerce Help Center has migrated to the Adobe Experience League portal. When you create a support ticket, related Knowledge Base articles will be suggested to you, along with other relevant Adobe Commerce documentation from Adobe Experience League.
 
-**Major Update:** July 10, 2024
+**Major Update:** July 8, 2024
 
 **[WHAT IS EXPERIENCE LEAGUE SUPPORT?](#what-is-experience-support)**
 
