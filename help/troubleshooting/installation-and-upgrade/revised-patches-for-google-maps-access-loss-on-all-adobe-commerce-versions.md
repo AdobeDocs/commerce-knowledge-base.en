@@ -1,12 +1,12 @@
 ---
 title: Revised patches for Google Maps access loss on all Adobe Commerce versions
-description: 'This article provides a fix for Adobe Commerce users who are not compatible with any recent **[!DNL  Google Maps]** versions from 3.54+.'
+description: 'This article provides a fix for Adobe Commerce merchants who are not compatible with any recent **[!DNL  Google Maps]** versions from 3.54+.'
 feature: Install, Upgrade
 role: Developer
 ---
 # Revised patches for **[!DNL  Google Maps]** access loss on all Adobe Commerce versions
 
-This article provides a fix for Adobe Commerce users who are not compatible with any recent **[!DNL  Google Maps]** versions from 3.54+. This fix is to solve the issue where Adobe Commerce users have no **[!DNL  Google Maps]** in any version of Adobe Commerce anymore. 
+This article provides a fix for Adobe Commerce merchants who are not compatible with any recent **[!DNL  Google Maps]** versions from 3.54+. This fix is to solve the issue where Adobe Commerce merchants have no **[!DNL  Google Maps]** in any version of Adobe Commerce anymore. 
 
 ## Affected versions and products
 
