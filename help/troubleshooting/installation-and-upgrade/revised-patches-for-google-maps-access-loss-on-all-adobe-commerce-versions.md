@@ -11,11 +11,11 @@ This article provides a fix for Adobe Commerce users who are not compatible with
 ## Affected versions and products
 
 * Versions of Adobe Commerce and/or other used technologies.
-* Adobe Commerce *2.4.4* - *2.4.7* on Cloud and On-premises versions.
+* Adobe Commerce *2.4.4* - *2.4.7* on Cloud and On-Premises versions.
 
 ## Issue
 
-On *June 14, 2024* Google Maps version *3.53* reached the end of life and was switched off by Google[https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions]
+On *June 14, 2024* Google Maps version *3.53* reached the end of life and was switched off by Google[https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions].
 
 Adobe Commerce was not compatible with any recent Google Maps versions from 3.54+.
 
@@ -24,8 +24,8 @@ The incompatibility was caused by legacy `prototype.js script`, which loaded thr
 <u>Steps to reproduce</u> :
 
 1. Go to **Content** > **Pages** > and click on a **New Page**.
-1. Expand the content block and click on the edit **[!DNL PageBuilder]** button.
-1. Drag the Map content block from the **[!DNL PageBuilder]** menu to page.
+1. Expand the Content Block and click on the edit **[!DNL PageBuilder]** button.
+1. Drag the Map Content Block from the **[!DNL PageBuilder]** menu to page.
 
 <u>Expected result:</u>
 
@@ -37,7 +37,7 @@ When dropping the Map Content Block from **[!DNL PageBuilder]** menu to the page
 
 ## Solution
 
-* All the users on any 2.4.4, 2.4.5, 2.4.6 or 2.2.7 patch version should apply these corresponding patches to their version.
+* All the merchants on any 2.4.4, 2.4.5, 2.4.6 or 2.2.7 patch version should apply these corresponding patches to their version.
 
 ## Patch 
 
@@ -58,7 +58,7 @@ Use the following attached patches, depending on the Adobe Commerce version:
 
 **Please note** 
 
-The issue will be permanently fixed in the scope of August security-only patch releases: 
+This issue will be permanently fixed in the scope of August security-only patch releases: 
 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10
 
 ## Related Reading
