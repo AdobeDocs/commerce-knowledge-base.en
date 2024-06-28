@@ -1,12 +1,12 @@
 ---
 title: Revised patches for Google Maps access loss on all Adobe Commerce versions
-description: 'This article provides a fix for Adobe Commerce users who are not compatible with any recent [!DNL  Google Maps] versions from 3.54+.'
+description: 'This article provides a fix for Adobe Commerce users who are not compatible with any recent **[!DNL  Google Maps]** versions from 3.54+.'
 feature: Install, Upgrade
 role: Developer
 ---
-# Revised patches for [!DNL  Google Maps] access loss on all Adobe Commerce versions
+# Revised patches for **[!DNL  Google Maps]** access loss on all Adobe Commerce versions
 
-This article provides a fix for Adobe Commerce users who are not compatible with any recent [!DNL  Google Maps] versions from 3.54+. This fix is to solve the issue where Adobe Commerce users have no [!DNL  Google Maps] in any version of Adobe Commerce anymore. 
+This article provides a fix for Adobe Commerce users who are not compatible with any recent **[!DNL  Google Maps]** versions from 3.54+. This fix is to solve the issue where Adobe Commerce users have no **[!DNL  Google Maps]** in any version of Adobe Commerce anymore. 
 
 ## Affected versions and products
 
@@ -15,11 +15,13 @@ This article provides a fix for Adobe Commerce users who are not compatible with
 
 ## Issue
 
-On *June 14, 2024* [!DNL  Google Maps] version *3.53* reached the end of life and was switched off by [!DNL Google] For more information refer to [[!DNL Google Maps Platform]: Maps JavaScript AP](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
+On *June 14, 2024* **[!DNL  Google Maps]** version *3.53* reached the end of life and was switched off by [!DNL Google].
 
-Adobe Commerce was not compatible with any recent [!DNL Google Maps] versions from 3.54+.
+ For more information refer to **[!DNL  Google Maps]** Platform: Maps JavaScript API. (https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
 
-The incompatibility was caused by legacy `prototype.js script`, which loaded through `lib/web/legacy-build.min.js` overrides native Array.from function, which leads to a direct conflict with [!DNL  Google Maps] API. 
+Adobe Commerce was not compatible with any recent **[!DNL  Google Maps]** versions from 3.54+.
+
+The incompatibility was caused by legacy `prototype.js script`, which loaded through `lib/web/legacy-build.min.js` overrides native Array.from function, which leads to a direct conflict with **[!DNL  Google Maps]** API. 
 
 Refer to [!DNL Google Maps: JS Best Practices] (https://developers.google.com/maps/documentation/javascript/best-practices)
 
