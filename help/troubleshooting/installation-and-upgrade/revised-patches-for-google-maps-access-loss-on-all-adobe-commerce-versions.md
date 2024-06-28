@@ -29,7 +29,7 @@ The incompatibility was caused by legacy `prototype.js script`, which loaded thr
 
 <u>Expected result:</u>
 
-Google Maps should work as expected.
+[!DNL Google Maps] should work as expected.
 
 <u> Actual result:</u>
 
