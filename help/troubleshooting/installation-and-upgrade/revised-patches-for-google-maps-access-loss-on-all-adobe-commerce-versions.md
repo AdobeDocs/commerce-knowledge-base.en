@@ -33,11 +33,11 @@ Google Maps should work as expected.
 
 <u> Actual result:</u>
 
-When dropping Map Content block from **[!DNL PageBuilder]** menu to page, an error message is displayed. 
+When dropping Map Content block from **[!DNL PageBuilder]** menu to page, *"Sorry! Something went wrong"* an error message is displayed.
 
 ## Solution
 
-* All the users on any 2.4.4, 2.4.5 or 2.4.6 patch version should apply these corresponding patches to their version.
+* All the users on any 2.4.4, 2.4.5, 2.4.6 or 2.2.7 patch version should apply these corresponding patches to their version.
 
 ## Patch 
 
