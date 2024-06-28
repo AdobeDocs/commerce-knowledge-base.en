@@ -32,7 +32,6 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 * [Track your support cases](#track-support-cases)
 * [Comments in your case](#comments-in-your-case)
 * [Close your case](#close-case)
-* [Reopen a closed case](#reopen-case)
 
 **[WHAT IS THE ADOBE COMMERCE HELP CENTER?](#what-is-adobe-commerce-help-center)**
 
@@ -221,10 +220,6 @@ To add a comment, follow these steps:
 To close your case, click **[!UICONTROL Close case]** at the bottom right of the *[!UICONTROL Case Detail]* panel.
 
 ![close-case](assets/close_case.png)
-
-### Reopen a closed case {#reopen-case}
-
-A closed case can be reopened for up to 14 days after closure. After a case has been closed for 14 days, it can no longer be reopened, and a new case must be created to continue support for an unresolved issue.
 
 >[!NOTE]
 >
@@ -670,6 +665,7 @@ To add a comment to the conversation, follow these steps:
     ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)
 
 1. To add a person to your comment, specify the email in the **CC** field of the comment field.
+
    >[!NOTE]
    >
    >The user in CC: must have an existing account at https://account.magento.com. If not, they must first create one at https://account.adobe.com and log in to https://account.magento.com with that account.
