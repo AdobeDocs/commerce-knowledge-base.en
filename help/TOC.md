@@ -906,6 +906,7 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce site down troubleshooter](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md)
     * [Applying a patch takes your site down](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [Error 404 on all pages due to Content Staging issue](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
+    * [Revised patches for Google Maps access loss on all Adobe Commerce versions](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Miscellaneous {#miscellaneous}
     * [How to check why [!DNL cron] was disabled](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
     * [Error [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
