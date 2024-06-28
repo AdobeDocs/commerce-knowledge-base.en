@@ -75,7 +75,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 >[!NOTE]
 >
->Unless you have been notified, continue to use the [Adobe Commerce Help Center case flow](#what-is). If you have been notified that you are in the cohort with access, follow the Experience League case form flow described [below](#what-is-experience-league-support).
+>Unless you have been notified, continue to use the [Adobe Commerce Help Center case flow](#what-is-adobe-commerce-help-center). If you have been notified that you are in the cohort with access, follow the Experience League case form flow described [below](#what-is-experience-league-support).
 
 ## WHAT IS EXPERIENCE LEAGUE SUPPORT? {#what-is-experience-support}
 
@@ -228,7 +228,7 @@ A closed case can be reopened for up to 14 days after closure. After a case has 
 
 >[!NOTE]
 >
->Continue using the Zendesk form flow [below](#what-is-adobe-commerce-help-center) for ticket submission and management unless you have been notified that you are in the cohort with access to the Experience League case form flow described [here](#what-is-experience-league-support). 
+>Continue using the Adobe Commerce Help Center form flow [below](#what-is-adobe-commerce-help-center) for ticket submission and management unless you have been notified that you are in the cohort with access to the Experience League case form flow described [here](#what-is-experience-league-support). 
 
 ## WHAT IS ADOBE COMMERCE HELP CENTER? {#what-is-adobe-commerce-help-center}
 
