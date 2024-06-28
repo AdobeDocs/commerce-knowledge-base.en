@@ -10,7 +10,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 >[!NOTE]
 >
->Adobe Commerce support is moving from Zendesk to Experience League. If you've been notified that you have access, use the Experience League case form flow described [here](#what-is-experience-support). If you haven't been notified, continue to use the [Zendesk case flow](#what-is-adobe-commerce-help-center).
+>Adobe Commerce support is moving from Adobe Commerce Help Center to Experience League. If you've been notified that you have access, use the Experience League case form flow described [here](#what-is-experience-support). If you haven't been notified, continue to use the [Adobe Commerce Help Center case flow](#what-is-adobe-commerce-help-center).
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ In this guide, learn how to submit a support ticket to the [Adobe Commerce Help 
 
 >[!NOTE]
 >
->Unless you have been notified, continue to use [Zendesk case flow](#what-is). If you have been notified that you are in the cohort with access, follow the Experience League case form flow described [below](#what-is-experience-league-support).
+>Unless you have been notified, continue to use [Adobe Commerce Help Center case flow](#what-is). If you have been notified that you are in the cohort with access, follow the Experience League case form flow described [below](#what-is-experience-league-support).
 
 ## WHAT IS EXPERIENCE LEAGUE SUPPORT? {#what-is-experience-support}
 
@@ -110,7 +110,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 >![NOTE]
 >
 >1. If you belong to multiple organizations, you will need to select the appropriate organization from the dropdown.
->1. To submit a case, you must be entitled to support. To submit a case, you must be entitled to support. If you are not, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization.
+>1. To submit a case, you must be entitled to support. If you are not, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization.
 
 1. Click on **Support** in the header. It will open the Support's homepage.
 
@@ -130,7 +130,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 
 1. Once you've filled in all the required information, click on **[!UICONTROL Submit case]**.
 
-You must have an account on both https://account.adobe.com and https://account.magento.com and then sign in to the Experience League using your Adobe Commerce account in order to submit a support case. You won't be able to submit a support case until you are signed in.
+You must have an account on both https://account.adobe.com and https://account.magento.com to sign in to the Experience League to submit a support case. You won't be able to submit a support case until you are signed in.
 
 >[!NOTE] 
 >
@@ -618,15 +618,15 @@ Write in simple language, with short sentences.
 
 #### Subject
 
-Include a short overview of your problem (for example, *Error 404 on all pages* ).
+Include a short overview of your problem (for example, *Error 404 on all pages*).
 
-**Suggested articles:** When you input the search term, a list of Adobe Commerece documentation articles that might be related to your problem display. Click an article in the list to open it.
+**Suggested articles:** When you input the search term, a list of Adobe Commerce documentation articles that might be related to your problem display. Click an article in the list to open it.
 
 ![hc_subject-suggested-articles.png](assets/hc_subject-suggested-articles.png)
 
 *Recommendation:* Please carefully consider the proposed articles, they might contain the solution you are expecting to receive from the Adobe Commerce support team.
 
-#### Version (Adobe Commerce on-premise, Adobe Commerce on cloud infrastructure and Shipping only)
+#### Version (Adobe Commerce on-premises, Adobe Commerce on cloud infrastructure and Shipping only)
 
 Please select the Adobe Commerce version you are requesting help with. All supported versions of Adobe Commerce are listed at the top. Unsupported versions are listed at the bottom with parentheses. If you are in the process of migration, please select the latest version to ensure you are supported.
 
@@ -708,7 +708,7 @@ See the [Share a Commerce account](https://experienceleague.adobe.com/en/docs/co
 
 After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Adobe Commerce account page.
 
-![magento-account-shared-manage-permissions](assets/magento-account-shared-manage-permissions.png){width="800"}
+![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png){width="800"}
 
 ### Revoke (delete) shared access {#revoke-shared-access}
 
@@ -761,7 +761,7 @@ To use the shared access provided for you, follow these steps:
 1. Log in to your Adobe Commerce account at [https://account.magento.com](https://account.magento.com/).
 1. Click the **Switch Accounts** menu and select an account.
 
-   ![magento-account-shared-switch](assets/magento-account-shared-switch.png){width="800"}
+   ![magento-account-shared-switch](assets/magento_account_shared_switch.png){width="800"}
 
 To know which account you are currently using (your own native account or shared access), see the **Switch Accounts** menu: it displays the active account.
 
@@ -777,4 +777,3 @@ Merchants typically pay for our services by a credit card (CC) transaction, and 
 
 Magento U has merged with [Adobe Digital Learning Services (ADLS)](https://learning.adobe.com/).
 
-Magento U Zendesk will be phased out.
