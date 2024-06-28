@@ -1,6 +1,6 @@
 ---
 title: Revised patches for Google Maps access loss on all Adobe Commerce versions
-description: 'This article provides a fix for Adobe Commerce users who are not compatible with any recent Google Maps versions from 3.54+.'
+description: 'This article provides a fix for Adobe Commerce merchants who are not compatible with any recent Google Maps versions from 3.54+.'
 feature: Install, Upgrade
 role: Developer
 ---
