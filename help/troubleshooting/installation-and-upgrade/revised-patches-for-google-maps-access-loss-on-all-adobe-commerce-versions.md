@@ -41,7 +41,7 @@ When dropping the Map Content Block from **[!DNL PageBuilder]** menu to the page
 
 ## Solution
 
-* All the merchants on any 2.4.4, 2.4.5, 2.4.6 or 2.2.7 patch version should apply these corresponding patches to their version.
+* All the merchants on any 2.4.4, 2.4.5, 2.4.6 or 2.4.7 patch version should apply these corresponding patches to their version.
 
 ## Patch 
 
