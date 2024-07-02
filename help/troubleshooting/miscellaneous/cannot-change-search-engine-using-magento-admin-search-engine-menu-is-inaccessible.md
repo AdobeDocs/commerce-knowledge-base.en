@@ -9,7 +9,12 @@ role: Developer
 
 >[!WARNING]
 >
-> [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. Refer to [Install and configure Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html).
+> [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). You must have Elasticsearch host setup and configured prior to installing version 2.4.0. 
+> 
+> Refer to:
+> [Install and configure Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+> [Install and configure Opensearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
+> [Install and configure Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
 
 This article provides a solution for changing the Adobe Commerce Search Engine using the Commerce Admin if the **Search Engine** field is not displayed or the **Use system value** checkbox is greyed out and not accessible.
 
@@ -17,16 +22,16 @@ In this article:
 
 * [Affected versions](#affected-versions)
 * [Change Search Engine using Commerce Admin (steps)](#change-search-engine-using-magento-admin-steps)
-* [Issues with Adobe Commerce on-premises)](#magento-commerce-on-premise)
+* [Issues with Adobe Commerce on-premises](#magento-commerce-on-premise)
 * [Adobe Commerce on cloud infrastructure](#magento-commerce-cloud)
 
 ## Affected versions
 
-* Adobe Commerce on-premises: 2.X.X
+* Adobe Commerce on-premises: 2.4.X
 * Adobe Commerce on cloud infrastructure:
-    * Version: 2.X.X
+    * Version: 2.4.X
     * Starter and Pro plan architecture
-* MySQL, Elasticsearch: all supported versions
+* MySQL, Elasticsearch, Opensearch, Live Search: all supported versions
 
 ## Change Search Engine using the Admin (steps)
 
@@ -111,17 +116,39 @@ Before switching search engine from MySQL to Elasticsearch on your Staging and P
 
 To change the search engine used on your Staging and Production environments, change the `SEARCH_CONFIGURATION` environment variable in your `.magento.env.yaml` file on your local environment, then push changes to the Integration and Staging/Production environments for the changes to take effect.
 
-If you switch from MySQL to Elasticsearch, the SEARCH\_CONFIGURATION variable in the resulting `.magento.env.yaml` file might look as follows:
+If you are switching to Elasticsearch 7, the SEARCH\_CONFIGURATION variable in the resulting `.magento.env.yaml` file might look as follows:
 
 ```yaml
 stage:
   deploy:
    SEARCH_CONFIGURATION:
-     engine: elasticsearch
+     engine: elasticsearch7
      elasticsearch_server_hostname: hostname
-     elasticsearch_server_port: '123456'
+     elasticsearch_server_port: '12345'
      elasticsearch_index_prefix: magento
      elasticsearch_server_timeout: '15'
+```
+
+If you are switching to [Opensearch (in 2.4.6 and later,)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search) the SEARCH\_CONFIGURATION variable in the resulting `.magento.env.yaml` file might look as follows:
+
+```yaml
+stage:
+  deploy:
+   SEARCH_CONFIGURATION:
+     engine: opensearch
+     elasticsearch_server_hostname: hostname
+     elasticsearch_server_port: '12345'
+     elasticsearch_index_prefix: magento
+     elasticsearch_server_timeout: '15'
+```
+
+If you are [switching to Live Search](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch), the SEARCH\_CONFIGURATION variable in the resulting `.magento.env.yaml` file might look as follows:
+
+```yaml
+stage:
+  deploy:
+   SEARCH_CONFIGURATION:
+     engine: livesearch
 ```
 
 ### Related documentation
@@ -136,3 +163,4 @@ stage:
 * [Build and deploy](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) (documentation about the `.magento.env.yaml` configuration file)
 * [Deploy variables](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) ([SEARCH\_CONFIGURATION section](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration))
 * [Services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) (documentation about the `.magento/services.yaml` configuration file)
+* [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
