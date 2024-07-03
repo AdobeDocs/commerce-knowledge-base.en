@@ -35,6 +35,10 @@ Adopt the new security-only patches (2.4.4-p9 or 2.4.5-p8) that are releasing on
     1. The Adobe Commerce support team then begins the MariaDB upgrade process. If all the above steps have been taken, and the database is average size, the process takes about an hour. Larger DBs take longer. Once the upgrade is complete, you are informed via your ticket.
 1. Disable maintenance mode. Refer to [Enable or disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) in our developer documentation.
 
+>[!NOTE]
+>
+>It is recommended that you create a DB backup before and after every upgrade step to eliminate any possibility of data loss. This will allow you to rollback to a previous step if issues arise at any point during the version upgrade.
+
 ## Related Reading
 
 * [DB upgrade best practices guide](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites) for on-premises deployments.
