@@ -35,13 +35,14 @@ In this article:
 
 ## Change Search Engine using the Admin (steps)
 
-1. Log in to the Admin as an Administrator.
-1. On the left-side Admin sidebar, click **Stores**. Then, under **Settings**, choose **Configuration**.
-1. In the panel on the left under **Catalog,** choose **Catalog**.
-1. Expand the **Catalog Search** section.    ![catalog_menu.png](assets/catalog_menu.png)
-1. Go to the **Search Engine** field and remove selection from the **Use system value** checkbox.
-1. Click the **Search Engine** menu and select one of the available options.    ![search_engine_menu.png](assets/search_engine_menu.png)
-1. Click **Save Config** in the top-right corner of the page.
+1. Log in to the **[!UICONTROL Admin]** as an Administrator.
+1. On the left-side of the **[!UICONTROL Admin]** sidebar, click on **[!UICONTROL Stores]**. 
+1. Under **[!UICONTROL Settings]**, choose **[!UICONTROL Configuration]**.
+1. Navigate to the panel on the left under **[!UICONTROL Catalog],** and choose **[!UICONTROL Catalog]**.
+1. Expand the **[!UICONTROL Catalog Search]** section.    ![catalog_menu.png](assets/catalog_menu.png)
+1. Go to the **[!UICONTROL Search Engine]** field and remove selection from the **[!UICONTROL Use system value]** checkbox.
+1. Click the **[!UICONTROL Search Engine]** menu and select one of the available options as shown below.    ![search_engine_menu.png](assets/search_engine_menu.png)
+1. Click on **[!UICONTROL Save Config]** in the top-right hand corner of the page.
 
 ## Issues with Adobe Commerce on-premises
 
@@ -59,10 +60,11 @@ The search engine is a global configuration set on the application level, not on
 
 ### Solution: Set Store View to Default Config
 
-1. Log in to the Admin as an Administrator.
-1. On the left-side Admin sidebar, click **Stores**. Then, under **Settings**, choose **Configuration**.
-1. In the upper-left corner, click the **Store View** selector and choose *Default Config*.
-1. Click **OK** in the confirmation dialog to approve store view change.
+1. Log in to the **[!UICONTROL Admin]** as an Administrator.
+1. On the left-side of the **[!UICONTROL Admin]** sidebar, click on **[!UICONTROL Stores]**. 
+1. Navigate to **[!UICONTROL Settings]** and choose **[!UICONTROL Configuration]**.
+1. In the upper-left hand corner, click the **[!UICONTROL Store View]** selector and choose **[!UICONTROL *Default Config*]**.
+1. Click on **[!UICONTROL OK]** in the confirmation dialog box to approve the store view changes.
 
 ![change_store_view.png](assets/change_store_view.png)
 
