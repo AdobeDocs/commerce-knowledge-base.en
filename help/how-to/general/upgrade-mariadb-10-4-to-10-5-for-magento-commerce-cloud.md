@@ -37,7 +37,7 @@ Adopt the new security-only patches (2.4.4-p9 or 2.4.5-p8) that are releasing on
 
 >[!NOTE]
 >
->It is recommended that you create a DB backup before and after every upgrade step to eliminate any possibility of data loss. This allows you to rollback to a previous step in case you encounter issues during the version upgrade.
+>It is recommended that you create a DB backup before and after every upgrade step to eliminate any possibility of data loss. This will allow you to rollback to a previous step if issues arise at any point during the version upgrade.
 
 ## Related Reading
 
