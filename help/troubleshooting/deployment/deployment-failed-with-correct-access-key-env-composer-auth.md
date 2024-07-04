@@ -52,4 +52,4 @@ For steps, refer to [Variable levels](https://experienceleague.adobe.com/en/docs
 ## Related reading
 
 * [Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)
-* [Deployment error: error 7 while downloading … port 443: Connection refused](/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
+* [Deployment error: error 7 while downloading … port 443: Connection refused](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
