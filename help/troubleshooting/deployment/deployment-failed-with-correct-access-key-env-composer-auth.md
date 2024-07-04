@@ -34,8 +34,7 @@ You deploy successfully.
 >
 >This is an example error. You could get an error indicating a different file (depending on which Adobe Commerce version you deploy).
 
-You do not deploy successfully. You see an error like *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* in the [deployment log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log). 
-
+You do not deploy successfully. You see an error like *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* in the [deployment log](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Cause
 
@@ -53,4 +52,4 @@ For steps, refer to [Variable levels](https://experienceleague.adobe.com/en/docs
 ## Related reading
 
 * [Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)
-* [Deployment error: error 7 while downloading … port 443: Connection refused](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce)
+* [Deployment error: error 7 while downloading … port 443: Connection refused](/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
