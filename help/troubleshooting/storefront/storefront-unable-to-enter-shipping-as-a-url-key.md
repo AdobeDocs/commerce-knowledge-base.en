@@ -56,7 +56,7 @@ Although the term does not have to be _shipping_+&lt;another number or letter&gt
 1. Click **[!UICONTROL Add URL Rewrite]**.
 1. Select **[!UICONTROL Custom]** in the **[!UICONTROL Create URL Rewrite]** drop-down.
     1. Type the [!UICONTROL Request Path] as **_shipping_**. 
-    1. In the **[!UICONTROL Target Path]**, type the new URL key. (_For example, "shipping1"_).
+    1. In the **[!UICONTROL Target Path]**, type the new URL key (_For example, "shipping1"_).
     1. Select **[!UICONTROL No]** in the **[!UICONTROL Redirect]** drop-down.
 
 
