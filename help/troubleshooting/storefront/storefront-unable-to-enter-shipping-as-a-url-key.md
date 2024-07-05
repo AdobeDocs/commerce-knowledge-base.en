@@ -27,7 +27,7 @@ The page saves with _shipping_ as the URL key.
 
 <u>Actual result</u>:
 
-You are not able to save as this error  occurs:
+You are not able to save as this error occurs:
 *The value specified in the URL Key field would generate a URL that already exists.*
 
 ## Cause
@@ -51,13 +51,13 @@ Although the term does not have to be _shipping_+&lt;another number or letter&gt
 
 ## Perform the following steps:
 
-1. Log in to the **[!UICONTROL Commerce Admin]**.
-1. Go to **Marketing** > **SEO & Search** > **URL Rewrites**.
+1. Log in to the Adobe Commerce Admin.
+1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
 1. Click **[!UICONTROL Add URL Rewrite]**.
-1. Select **[!UICONTROL Custom]** on the  **[!UICONTROL Create URL Rewrite]** drop down.
-    1. Type the Request Path as  **[!UICONTROL shipping]**. 
-    1. In the **[!UICONTROL Target Path]**, type the new URL key. (_For example, "shipping1"_).
-    1. Select  **[!UICONTROL No]** in the Redirect drop down.
+1. Select **[!UICONTROL Custom]** in the **[!UICONTROL Create URL Rewrite]** drop-down.
+    1. Type the [!UICONTROL Request Path] as **_shipping_**. 
+    1. In the **[!UICONTROL Target Path]**, type the new URL key (_For example, "shipping1"_).
+    1. Select **[!UICONTROL No]** in the **[!UICONTROL Redirect]** drop-down.
 
 
        (**Note**: The Request Path is what a user enters in the browser and the Target Path is where it should redirect to.)
