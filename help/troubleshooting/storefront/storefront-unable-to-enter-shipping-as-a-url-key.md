@@ -27,7 +27,7 @@ The page saves with _shipping_ as the URL key.
 
 <u>Actual result</u>:
 
-You are not able to save as this error  occurs:
+You are not able to save as this error occurs:
 *The value specified in the URL Key field would generate a URL that already exists.*
 
 ## Cause
