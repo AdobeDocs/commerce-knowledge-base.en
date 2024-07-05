@@ -60,7 +60,7 @@ Although the term does not have to be _shipping_+&lt;another number or letter&gt
     1. Select  **[!UICONTROL No]** in the Redirect drop down.
 
 
-       (**Note**: _The Request Path is what a user enters in the browser and the Target Path is where it should redirect to._)
+       (**Note**: The Request Path is what a user enters in the browser and the Target Path is where it should redirect to.)
 
 In addition, avoid using these keywords that are labelled as *reserved* keywords which cause the same exception to appear. Using any of these keywords listed below as a URL key value will cause the same error to appear.
 
@@ -117,5 +117,5 @@ In addition, avoid using these keywords that are labelled as *reserved* keywords
 
 ## Related reading
 
-* [URL Rewrites](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in our user guide.
-* [SEO Best Practices](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in our user guide.
+* [URL Rewrites](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in our Merchandising and Promotions User Guide.
+* [SEO Best Practices](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in our Merchandising and Promotions User Guide..
