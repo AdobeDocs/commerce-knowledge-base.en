@@ -52,7 +52,7 @@ Although the term does not have to be _shipping_+&lt;another number or letter&gt
 ## Perform the following steps:
 
 1. Log in to the Adobe Commerce Admin.
-1. Go to **Marketing** > **SEO & Search** > **URL Rewrites**.
+1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
 1. Click **[!UICONTROL Add URL Rewrite]**.
 1. Select **[!UICONTROL Custom]** on the  **[!UICONTROL Create URL Rewrite]** drop down.
     1. Type the Request Path as  **[!UICONTROL shipping]**. 
