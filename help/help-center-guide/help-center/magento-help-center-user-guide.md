@@ -270,6 +270,7 @@ You *must have* an account on both https://account.adobe.com and https://account
 >If you already have an account at https://account.magento.com but aren't able to log in, you may not have registered for an account at https://account.adobe.com, which is required as of August 2022.
 >
 >To resolve this:
+>
 >1. Create an account at https://account.adobe.com using the same email address on your MAG ID.
 >1. Go to https://account.magento.com to link your Adobe ID with the MAG ID.
 
