@@ -106,7 +106,7 @@ Once successfully signed in, you may submit a support case using the Adobe Exper
 
 To submit a new support case using the start page of Adobe Experience League, follow these steps:
 
->![NOTE]
+>[!NOTE]
 >
 >1. If you belong to multiple organizations, you will need to select the appropriate organization from the dropdown.
 >1. To submit a case, you must be entitled to support. If you are not, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization.
@@ -270,6 +270,7 @@ You *must have* an account on both https://account.adobe.com and https://account
 >If you already have an account at https://account.magento.com but aren't able to log in, you may not have registered for an account at https://account.adobe.com, which is required as of August 2022.
 >
 >To resolve this:
+>
 >1. Create an account at https://account.adobe.com using the same email address on your MAG ID.
 >1. Go to https://account.magento.com to link your Adobe ID with the MAG ID.
 
