@@ -106,7 +106,7 @@ Once successfully signed in, you may submit a support case using the Adobe Exper
 
 To submit a new support case using the start page of Adobe Experience League, follow these steps:
 
->![NOTE]
+>[!NOTE]
 >
 >1. If you belong to multiple organizations, you will need to select the appropriate organization from the dropdown.
 >1. To submit a case, you must be entitled to support. If you are not, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization.
