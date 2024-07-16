@@ -52,6 +52,7 @@ opensearch (type: opensearch:2, size: L, disk: 1024)
 rabbitmq (type: rabbitmq:3.12, size: L, disk: 1024)
 ```
 
+If you are not on the Enhanced integration configuration, you may [request the enhancement/upgrade](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/integration-environment-enhancement-request-pro-and-starter)
 If you're already on the enhanced integration configuration or you're still encountering performance issues after the upgrade, make sure to follow the best practices for optimal performance in the integration environment: 
 
 * [Pro Architecture](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
