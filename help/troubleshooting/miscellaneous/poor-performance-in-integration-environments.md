@@ -10,7 +10,7 @@ This article provides a solution for the issue where the Pro integration environ
 
 ## Affected products and versions:
 
-* Adobe Commerce on cloud (all versions)
+* Adobe Commerce on cloud infrastructure (all versions)
 
 ## Issue
 
