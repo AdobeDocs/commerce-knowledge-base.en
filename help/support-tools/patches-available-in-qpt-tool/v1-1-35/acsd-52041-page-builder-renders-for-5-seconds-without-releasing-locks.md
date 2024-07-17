@@ -27,7 +27,7 @@ The ACSD-52041 patch fixes the issue where the Page Builder renders for five sec
 
 ## Issue
 
-The Page Builder renders for five seconds without releasing locks.
+The **[!DNL Page Builder]** renders for *5* seconds without releasing the locks.
 
 <u>Steps to reproduce</u>:
 
@@ -37,7 +37,7 @@ The Page Builder renders for five seconds without releasing locks.
 
 <u>Expected results</u>
 
-The content is saved. No errors found in browser log.
+The content is saved. No errors ar found in th browser log.
 
 <u>Actual results</u>
 
