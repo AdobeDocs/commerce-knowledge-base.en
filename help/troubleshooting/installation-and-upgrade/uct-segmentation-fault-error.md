@@ -43,7 +43,7 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
 
 1. The only output is `Upgrade compatibility tool`:
 
-   ```terminal
+   ```bash
    bin/uct upgrade:check /var/www/project/magento/ -c 2.4.1
    Upgrade compatibility tool
    ```

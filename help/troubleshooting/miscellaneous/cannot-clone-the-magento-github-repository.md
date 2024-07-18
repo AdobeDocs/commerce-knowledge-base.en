@@ -13,7 +13,7 @@ This article provides a fix for when you can't clone the Magento GitHub reposito
 
 Error is similar to the following:
 
-```terminal
+```bash
 Cloning into 'magento2'...
 Permission denied (publickey).
 fatal: The remote end hung up unexpectedly

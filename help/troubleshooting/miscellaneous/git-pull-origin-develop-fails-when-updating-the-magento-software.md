@@ -19,7 +19,7 @@ $ git pull origin develop
 
 The following error might display:
 
-```terminal
+```bash
 error: Your local changes to the following files would be overwritten by merge:
 <list of files>
 ```

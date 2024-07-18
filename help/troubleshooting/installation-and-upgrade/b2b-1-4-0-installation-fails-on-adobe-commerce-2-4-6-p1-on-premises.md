@@ -24,13 +24,13 @@ This article provides a workaround for the Adobe Commerce 2.4.6-p1 on-premises i
 
 1. Install Adobe Commerce 2.4.6-p1.
 
-    ```terminal
+    ```bash
     m2install.sh -s composer --ee -v 2.4.6-p1
     ```
 
 1. Try to install [!DNL B2B] version 1.4.0.
 
-    ```terminal
+    ```bash
     composer require magento/extension-b2b:1.4.0
     ```
 
@@ -42,7 +42,7 @@ This article provides a workaround for the Adobe Commerce 2.4.6-p1 on-premises i
 
 Installation fails with the below error:
 
-```terminal
+```bash
 Your requirements could not be resolved to an installable set of packages.
 
   Problem 1
@@ -59,13 +59,13 @@ Successfully install or upgrade to [!DNL B2B] version 1.4.0 on Adobe Commerce 2.
 
 1. From the Adobe Commerce installation directory, update `composer.json` with the required dependencies:
 
-   ```terminal
+   ```bash
    composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
    ```
 
    **Command output:**
 
-   ```terminal
+   ```bash
    Running composer update magento/module-re-captcha-company magento/security-package-b2b
    Loading composer repositories with package information
    Updating dependencies
@@ -88,13 +88,13 @@ Successfully install or upgrade to [!DNL B2B] version 1.4.0 on Adobe Commerce 2.
 
 1. Update `composer.json` to add [!DNL B2B] version 1.4.0.
 
-   ```terminal
+   ```bash
    composer require magento/extension-b2b=1.4.0
    ```
 
    **Command output:**
 
-   ```terminal
+   ```bash
    ./composer.json has been updated
    Running composer update magento/extension-b2b
    Loading composer repositories with package information
