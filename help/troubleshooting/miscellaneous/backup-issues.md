@@ -18,7 +18,7 @@ This article lists the possible solutions for the backup creation issues.
 
 If the Adobe Commerce backup functionality does not start or displays the following message, you need to enable the feature prior to backing up.
 
-```terminal
+```bash
 Backup functionality is disabled.
 Backup functionality is currently disabled. Please use other means for backups.
 ```

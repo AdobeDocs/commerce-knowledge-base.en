@@ -23,7 +23,7 @@ The message *We found conflicting component dependencies* displays if Composer c
 
 Following is a sample failure message:
 
-```terminal
+```bash
 We found conflicting component dependencies.
  You are trying to update package(s) magento/module-sample-data to 1.0.0-beta
  We've detected conflicts with the following packages:
@@ -40,7 +40,7 @@ Refer to [Conflicting component dependencies for a solution](/help/troubleshooti
 
 If the Adobe Commerce file system owner doesn't have the permissions to write to directories on the Adobe Commerce file system, a message similar to the following displays:
 
-```terminal
+```bash
 file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
