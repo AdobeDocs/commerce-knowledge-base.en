@@ -1025,7 +1025,6 @@ breadcrumb-title: Commerce KB
     * [Cloud site is slow](/help/troubleshooting/miscellaneous/cloud-site-is-slow.md)
     * [Error purging Fastly cache on Cloud (The purge request was not processed successfully)](/help/troubleshooting/miscellaneous/error-purging-fastly-cache-on-cloud-the-purge-request-was-not-processed-successfully.md)
     * [Custom SSL certificate expiration information](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
-    * [Redis troubleshooter on Adobe Commerce](/help/troubleshooting/miscellaneous/redis-troubleshooter.md)
     * [PWA Studio: Validation errors when running developer mode](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
     * [Turn off hourly Amazon emails when using Adobe Commerce](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
     * [Invalidated cache causes response time degradation](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)
