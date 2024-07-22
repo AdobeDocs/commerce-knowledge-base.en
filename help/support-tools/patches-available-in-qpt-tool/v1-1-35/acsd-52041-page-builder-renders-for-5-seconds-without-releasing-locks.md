@@ -17,25 +17,28 @@ The ACSD-52041 patch fixes the issue where the Page Builder renders for five sec
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p8, 2.4.5 - 2.4.5-p7, 2.4.6 - 2.4.6-p6
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p5, 2.4.5 - 2.4.5-p4, and 2.4.6 - 2.4.6-p2.
+
+
 
 >[!NOTE]
 >
->The patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [[!DNL Quality Patches Tool]: Search for patches page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
+>The patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [[!DNL Quality Patches Tool]: Search for patches page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch. 
+ 
 
 ## Issue
 
-The Page Builder renders for five seconds without releasing locks.
+The **[!DNL Page Builder]** renders for *5* seconds without releasing the locks.
 
 <u>Steps to reproduce</u>:
 
-1. Edit a CMS page, product page or anything that has Page Builder.
+1. Edit a CMS page, product page or anything that has **[!DNL Page Builder]**.
 1. Save the changes. 
 1. Notice the page saving time.
 
 <u>Expected results</u>
 
-The content is saved. No errors found in browser log.
+The content is saved. No errors ar found in th browser log.
 
 <u>Actual results</u>
 
@@ -44,7 +47,7 @@ Error in console: ``Page Builder was rendering for 5 seconds without releasing l
 
 ## Apply the patch
 
-To apply individual patches, use the following links depending on your deployment method:
+To apply individual patches for versions **2.4.4 - 2.4.4-p5, 2.4.5 - 2.4.5-p4, and 2.4.6 - 2.4.6-p2**, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
