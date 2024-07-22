@@ -17,7 +17,8 @@ The ACSD-52041 patch fixes the issue where the Page Builder renders for five sec
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6- p1,  2.4.6-p2
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p5, 2.4.5 - 2.4.5-p4, and 2.4.6 - 2.4.6-p2.
+
 
 
 >[!NOTE]
@@ -46,8 +47,7 @@ Error in console: ``Page Builder was rendering for 5 seconds without releasing l
 
 ## Apply the patch
 
-To apply individual patches for versions **2.4.4 - 2.4.4-p8, 2.4.5 - 2.4.5-p7, 2.4.6**
-, use the following links depending on your deployment method:
+To apply individual patches for versions **2.4.4 - 2.4.4-p5, 2.4.5 - 2.4.5-p4, and 2.4.6 - 2.4.6-p2**, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>) in the [!DNL Quality Patches Tool] guide.
 * Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
