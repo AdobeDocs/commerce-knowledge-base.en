@@ -3,6 +3,7 @@ title: Poor performance in integration environments
 description: This article provides a solution for the issue where the Pro integration environments and Starter staging environments are performing poorly.
 feature: Integration, Staging
 role: Developer
+exl-id: 46110dbc-2f54-4654-95e2-39e8ae1e6979
 ---
 # Poor performance in integration environments
 
@@ -59,4 +60,3 @@ If you're already on the Enhanced Integration configuration or you're still enco
 * [Starter Architecture](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 If you have fulfilled the above recommendations, [submit a support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) for additional assistance.
- 
