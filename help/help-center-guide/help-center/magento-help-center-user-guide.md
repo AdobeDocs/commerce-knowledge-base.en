@@ -6,7 +6,7 @@ feature: Support, Roles/Permissions, Tools and External Services, Admin Workspac
 ---
 # Adobe Commerce Experience League Support User Guide
 
-In this guide, learn how to submit a support ticket to the [Experience League Support](https://experienceleague.adobe.com/) and provide shared access to the Adobe Commerce accounts.
+In this guide, learn how to submit a support ticket to the [Experience League Support](https://experienceleague.adobe.com/home#support) and provide shared access to the Adobe Commerce accounts.
 
 >[!NOTE]
 >
@@ -33,8 +33,8 @@ In this guide, learn how to submit a support ticket to the [Experience League Su
 * [Comments in your case](#comments-in-your-case)
 * [Close your case](#close-case)
 * [Submit ticket using Cloud Console](#cloud-console)
-* [Adobe Commerce P1 hotline (Login Required)](#P1-hotline)
-* [Adobe Commerce Shared Responsibility Operational Model (Login Required)](#shared-responsibility-operational-model)
+* [Adobe Commerce P1 hotline](#P1-hotline)
+* [Adobe Commerce Shared Responsibility Operational Model](#shared-responsibility-operational-model)
 
 **[SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](#shared-access)**
 
@@ -209,7 +209,7 @@ To submit a new support ticket using the Cloud Console, follow these steps:
 
 ### Adobe Commerce P1 hotline {#P1-hotline}
 
-**Login is required** to access the [Adobe Commerce P1 hotline](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html) article which provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
+**The [Adobe Commerce P1 hotline](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html) article provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
 
 ### Adobe Commerce Shared Responsibility Operational Model {#shared-responsibility-operational-model}
 
