@@ -18,7 +18,7 @@ This article explains why a test credit card fails in a Sandbox environment with
 
 When using a test Visa credit card `4111 1111 1111 1111` from PayPal, sometimes it fails due to PayPal fraud policies with the following error::
 
-```terminal
+```bash
 Error happened when processing the request. Please try again later.
 ```
 
