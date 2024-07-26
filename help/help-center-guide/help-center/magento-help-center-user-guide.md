@@ -81,7 +81,7 @@ Once successfully signed in, you may submit a support case using the Adobe Exper
 
 To submit a new support case using the start page of Adobe Experience League, follow these steps:
 
->[!NOTE]
+>[!INFO]
 >
 >1. If you belong to multiple organizations, you will need to select the appropriate organization from the dropdown.
 >1. To submit a case, you must be entitled to support. If you are not, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization.
@@ -104,7 +104,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 
 1. Once you've filled in all the required information, click on **[!UICONTROL Submit case]**.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >If you are unable to see your organization in the organization dropdown menu when you sign in to experienceleague.adobe.com, you may need to synchronize your profile with accounts.magento.com prior to requesting support or managing an existing support case.   
 >
