@@ -32,30 +32,8 @@ In this guide, learn how to submit a support ticket to the [Experience League Su
 * [Track your support cases](#track-support-cases)
 * [Comments in your case](#comments-in-your-case)
 * [Close your case](#close-case)
-
-**[WHAT IS THE ADOBE COMMERCE HELP CENTER?](#what-is-adobe-commerce-help-center)**
-
-**[SUPPORT TICKETS](#support-tickets)**
-
-* [Log In To Help Center](#login)
-* [Submit a support ticket](#submit-ticket)
-
-    * [Help Center start page](#submit-ticket-help-center-start-page)
-    * [Magento Account page](#submit-ticket-magento-account-page)
-    * [Cloud Console](#submit-ticket-magento-cloud-account-page)
-    * [Information in your support ticket](#info-in-support-ticket)
-    * ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](#no-submit-link)
-    * [*"Please verify your email address"* error on Magento Account page](#verify-email-address)
-    * [Ticket submission form: merchant is not displayed in Organization drop-down](#merchant-not-displayed)
-
-* [Track your tickets](#track-tickets)
 * [Adobe Commerce P1 hotline (Login Required)](#P1-hotline)
 * [Adobe Commerce Shared Responsibility Operational Model (Login Required)](#shared-responsibility-operational-model)
-* [Support ticket fields explained](#ticket-fields-explained)
-* [Ticket status: How your requests are processed](#ticket-status)
-* [Conversation in your ticket](#conversation-in-ticket)
-* [Resolve your ticket](#resolve-ticket)
-* [Open a follow-up ticket](#follow-up)
 
 **[SHARED ACCESS: GRANT PRIVILEGES FOR OTHER USERS TO ACCESS YOUR ACCOUNT](#shared-access)**
 
