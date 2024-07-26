@@ -85,7 +85,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 >1. If you belong to multiple organizations, you will need to select the appropriate organization from the dropdown.
 >1. To submit a case, you must be entitled to support. If you are not, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization.
 
-1. Click on **Support** in the header. It will open the Support's homepage.
+1. Click on **Support** in the header. It will open the Support homepage.
 
     ![open-support-page](assets/click_support.png)
 
