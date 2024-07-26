@@ -1174,7 +1174,7 @@ breadcrumb-title: Commerce KB
     * [MySQL and ElasticSearch show different results](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
     * [Elasticsearch is shown as the search engine despite OpenSearch installation](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
 * Help Center Guide {#help-center-guide}
-  * [Adobe Commerce Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
+  * [Adobe Commerce Experience League User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
