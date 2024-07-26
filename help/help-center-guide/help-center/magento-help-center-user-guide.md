@@ -1,10 +1,10 @@
 ---
-title: Adobe Commerce Experience League Support User Guide
+title: Experience League Support User Guide for Adobe Commerce
 description: Learn how to submit a support ticket to the Experience League Support, provide shared access to accounts, and navigate the Adobe Commerce Knowledge Base.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
 ---
-# Adobe Commerce Experience League Support User Guide
+# Experience League Support User Guide for Adobe Commerce 
 
 In this guide, learn how to submit a support ticket to the [Experience League Support](https://experienceleague.adobe.com/home#support) and provide shared access to the Adobe Commerce accounts.
 
@@ -103,6 +103,16 @@ To submit a new support case using the start page of Adobe Experience League, fo
     ![direct_support_required](assets/direct_support.png)
 
 1. Once you've filled in all the required information, click on **[!UICONTROL Submit case]**.
+
+>[!NOTE]
+>
+>If you are unable to see your organization in the organization dropdown menu when you sign in to experienceleague.adobe.com, you may need to synchronize your profile with accounts.magento.com prior to requesting support or managing an existing support case.   
+>
+>1. Navigate to accounts.magento.com and sign in with the same profile (corporate, school, or personal) you will be using to manage support cases in Adobe Experience League. 
+>1. Once you have successfully signed in to your accounts.magento.com profile, navigate back to experienceleague.adobe.com and sign in. 
+>1. Select your organization from the organization dropdown menu. 
+>1. If your organization still does not appear, contact your Commerce administrator to obtain support delegate rights. For additional information, see the [Commerce Account Share](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) help article. 
+
 
 You must have an account on both https://account.adobe.com and https://account.magento.com to sign in to the Experience League to submit a support case. You won't be able to submit a support case until you are signed in.
 
