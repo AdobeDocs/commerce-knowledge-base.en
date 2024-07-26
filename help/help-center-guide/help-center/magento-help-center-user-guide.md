@@ -32,6 +32,7 @@ In this guide, learn how to submit a support ticket to the [Experience League Su
 * [Track your support cases](#track-support-cases)
 * [Comments in your case](#comments-in-your-case)
 * [Close your case](#close-case)
+* [Submit ticket using Cloud Console](#cloud-console)
 * [Adobe Commerce P1 hotline (Login Required)](#P1-hotline)
 * [Adobe Commerce Shared Responsibility Operational Model (Login Required)](#shared-responsibility-operational-model)
 
@@ -48,10 +49,6 @@ In this guide, learn how to submit a support ticket to the [Experience League Su
 
 **[BILLING FAQ FOR ADOBE COMMERCE](#billing-faq)**
 
-
->[!NOTE]
->
->Unless you have been notified, continue to use the [Adobe Commerce Help Center case flow](#what-is-adobe-commerce-help-center). If you have been notified that you are in the cohort with access, follow the Experience League case form flow described [below](#what-is-experience-league-support).
 
 ## WHAT IS EXPERIENCE LEAGUE SUPPORT? {#what-is-experience-support}
 
@@ -198,8 +195,7 @@ To close your case, click **[!UICONTROL Close case]** at the bottom right of the
 
 ![close-case](assets/close_case.png)
 
-
-#### Cloud Console {#submit-ticket-magento-cloud-account-page}
+### Cloud Console {#cloud-console}
 
 To submit a new support ticket using the Cloud Console, follow these steps:
 
