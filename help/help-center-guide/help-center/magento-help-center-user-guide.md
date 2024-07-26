@@ -32,6 +32,7 @@ In this guide, learn how to submit a support ticket to the [Experience League Su
 * [Track your support cases](#track-support-cases)
 * [Comments in your case](#comments-in-your-case)
 * [Close your case](#close-case)
+* [Reopen your case](#reopen-case)
 * [Submit ticket using Cloud Console](#cloud-console)
 * [Adobe Commerce P1 hotline](#P1-hotline)
 * [Adobe Commerce Shared Responsibility Operational Model](#shared-responsibility-operational-model)
@@ -194,6 +195,10 @@ To add a comment, follow these steps:
 To close your case, click **[!UICONTROL Close case]** at the bottom right of the *[!UICONTROL Case Detail]* panel.
 
 ![close-case](assets/close_case.png)
+
+### Reopen your case {#reopen-case}
+
+To reopen your case, reply to the email from Dynamics related to that case and request the agent to reopen it. If you do this within 14 days of the case being closed, the agent can reopen the case for you. However, if it's after 14 days, the agent will have to create a new case.
 
 ### Submit ticket using Cloud Console {#cloud-console}
 
