@@ -195,7 +195,7 @@ To close your case, click **[!UICONTROL Close case]** at the bottom right of the
 
 ![close-case](assets/close_case.png)
 
-### Cloud Console {#cloud-console}
+### Submit ticket using Cloud Console {#cloud-console}
 
 To submit a new support ticket using the Cloud Console, follow these steps:
 
