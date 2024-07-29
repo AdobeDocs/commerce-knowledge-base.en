@@ -1048,6 +1048,7 @@ breadcrumb-title: Commerce KB
     * [ERROR: Warming up failed on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/error-warming-up-failed-on-magento-commerce-cloud.md)
     * [Cannot clone the Magento GitHub repository](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
     * [Live search catalog not synchronized](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
+    * [Customer profiles not appearing in Experience Platform](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
     * [PWA Studio: browser cannot resolve the .local.pwadev site](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
     * [Product Recommendations not shown in Page Builder](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
     * [Adobe Commerce Fastly troubleshooter](/help/troubleshooting/miscellaneous/magento-fastly-troubleshooter.md)
@@ -1174,7 +1175,7 @@ breadcrumb-title: Commerce KB
     * [MySQL and ElasticSearch show different results](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
     * [Elasticsearch is shown as the search engine despite OpenSearch installation](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
 * Help Center Guide {#help-center-guide}
-  * [Experience League Support User Guide for Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
+  * [Adobe Commerce Help Center User Guide](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
