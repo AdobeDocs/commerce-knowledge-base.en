@@ -224,7 +224,7 @@ To submit a new support ticket using the Cloud Console, follow these steps:
 
 ### Adobe Commerce P1 hotline {#P1-hotline}
 
-**The [Adobe Commerce P1 hotline](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html) article provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
+The [Adobe Commerce P1 hotline](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html) article provides the P1 hotline numbers for Adobe Commerce when seeking help during a P1 incident and explains what information to provide.
 
 ### Adobe Commerce Shared Responsibility Operational Model {#shared-responsibility-operational-model}
 
