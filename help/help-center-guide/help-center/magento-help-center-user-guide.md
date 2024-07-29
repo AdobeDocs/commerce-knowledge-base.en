@@ -1,6 +1,6 @@
 ---
 title: Experience League Support User Guide for Adobe Commerce
-description: Learn how to submit a support ticket to the Experience League Support, provide shared access to accounts, and navigate the Adobe Commerce Knowledge Base.
+description: Learn how to submit a support ticket to Experience League Support, provide shared access to accounts, and navigate the Adobe Commerce Knowledge Base.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
 ---
