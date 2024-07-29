@@ -6,7 +6,7 @@ feature: Support, Roles/Permissions, Tools and External Services, Admin Workspac
 ---
 # Experience League Support User Guide for Adobe Commerce 
 
-In this guide, learn how to submit a support ticket to the [Experience League Support](https://experienceleague.adobe.com/home#support) and provide shared access to the Adobe Commerce accounts.
+In this guide, learn how to submit a support ticket to [Experience League Support](https://experienceleague.adobe.com/home#support) and provide shared access to the Adobe Commerce accounts.
 
 >[!NOTE]
 >
