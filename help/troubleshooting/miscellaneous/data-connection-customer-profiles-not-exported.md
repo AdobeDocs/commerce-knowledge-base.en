@@ -1,6 +1,6 @@
 ---
 title: Customer profiles not appearing in Experience Platform
-description: This article provides troubleshooting steps if your customer profile data is not appearing in the Experience Platform when using the Data Connection extension.
+description: This article provides troubleshooting steps if your customer profile data is not appearing in the Experience Platform when using the [!DNL Data Connection] extension.
 feature: Personalization, Integration, Configuration
 role: Admin, Developer
 ---
@@ -10,17 +10,17 @@ This article provides troubleshooting steps if your customer profile data is not
 
 ## Affected products and versions
 
-* Adobe Commerce 2.4.x with Data Connection extension installed
+* Adobe Commerce 2.4.x with [!DNL Data Connection] extension installed
 
 ## Issue
 
-You have installed and configured the [Data Connection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extension and have enabled customer profile data to be sent to the Experience Platform, but that profile data is not appearing in the Experience Platform.
+You have installed and configured the [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extension and have enabled customer profile data to be sent to the Experience Platform, but that profile data is not appearing in the Experience Platform.
 
 ## Solution
 
 If customer profile information is not appearing in the Experience Platform, check the following:
 
-### Confirm that the latest version of Data Connection is installed
+### Confirm that the latest version of [!DNL Data Connection] is installed
 
 Ensure you have installed the latest version of the `experience-platform-connector` extension.
 
@@ -50,7 +50,7 @@ Confirm the `customers-connector` module is configured based on your installatio
         bin/magento config:set adobe_io_events/eventing/enabled 1
     ```
 
-#### Adobe Commerce on-premise installation
+#### Adobe Commerce on-premises installation
 
 Execute the following commands in order to enable code generation and Adobe Commerce Events:
 
@@ -66,8 +66,8 @@ Execute the following commands in order to enable code generation and Adobe Comm
 
 In the Commerce Admin, make sure that the following fields are set:
 
-In **System** -> *Services* -> **Data Connection**, verify that the Back office events and Customer profiles checkboxes are enabled. Ensure
-that the **Profile Dataset ID** field is correct and is a different dataset than what you are currently using for behavioral and back office event data.
+* In **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Data Connection]**, verify that the [!UICONTROL Back office events] and [!UICONTROL Customer profiles] checkboxes are enabled.
+* Ensure that the *[!UICONTROL Profile Dataset ID]* field is correct and is a different dataset than what you are currently using for behavioral and back-office event data.
 
 ### Check if events are routing to staging or production
 
@@ -79,8 +79,7 @@ that the **Profile Dataset ID** field is correct and is a different dataset than
     adobe_io_events/integration/adobe_io_environment
     ```
 
-1. If the environment is set to "stage", change it to "production" with the following
-command:
+1. If the environment is set to *[!UICONTROL Stage]*, change it to *[!UICONTROL Production]* with the following command:
 
     ```bash
     Copy code
@@ -110,13 +109,13 @@ select * from event_data_saas;
     "error_code": "403003" } } }
     ```
 
-1. Go to the Commerce Services Connector page in the Admin and ensure that the sandbox/production keys specified are correctly configured. Also confirm that the Commerce account sandbox/production settings match those shown in the Commerce Services Connector. Learn [more](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey).
+1. Go to the *[!UICONTROL Commerce Services Connector]* page in the Admin and ensure that the [!UICONTROL sandbox/production] keys specified are correctly configured. Also, confirm that the Commerce account [!UICONTROL sandbox/production] settings match those shown in the [!UICONTROL Commerce Services Connector]. Learn [more](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey).
 
 ### Check if the Service ID is in the allowlist and confirm with Adobe Commerce support
 
-1. Verify that the Commerce Services Connector `serviceId` appears in allowlist in Adobe Commerce.
-1. Contact [Adobe Commerce support](https://support.magento.com/hc/en-us) to confirm the allowlist status.
+1. Verify that the [!UICONTROL Commerce Services Connector] `serviceId` appears in allowlist in Adobe Commerce.
+1. Contact [Adobe Commerce support](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) to confirm the allowlist status.
 
 ## Related reading
 
-See the [Data Connection](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extension in the user guide.
+See the [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extension in the Commerce Services user guide.
