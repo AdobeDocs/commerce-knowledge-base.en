@@ -8,10 +8,10 @@ role: Developer
 
 If you notice that the data displayed in the [!DNL Live Search] dashboard is incorrect, or if the [ranking of the search results](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies) are not what you expect, see the following for possible reasons:
 
-* The `topLevelSku` field in `productView` events is missing. This causes empty conversions and other unexpected metrics.
-
-* Environment type is incorrect. For example, if the environment is set to "testing" instead of "production".
-
-* Search results are missing from the [search-product-click](https://github.com/adobe/commerce-events/blob/main/examples/events/search-product-click.md) event.
+* The `topLevelSku` field of product context in `productView` events is missing. This causes empty conversions and other unexpected metrics.
 
 * The `add-to-cart` event does not have the `productContext` field set and populated.
+
+* Environment type is incorrect. For example, if the environment is set to "Testing" instead of "Production". See [Storefront context](https://github.com/adobe/commerce-events/blob/main/examples/events/example-contexts/mock-storefront-context.md) for more information.
+
+* The search results context is missing from the [search-product-click](https://github.com/adobe/commerce-events/blob/main/examples/events/search-product-click.md) event.
