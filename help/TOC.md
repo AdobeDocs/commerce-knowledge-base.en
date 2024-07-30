@@ -1049,6 +1049,7 @@ breadcrumb-title: Commerce KB
     * [Cannot clone the Magento GitHub repository](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
     * [Live search catalog not synchronized](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
     * [Live Search dashboard and search result ranking is incorrect](/help/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect.md)
+    * [Customer profiles not appearing in Experience Platform](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
     * [PWA Studio: browser cannot resolve the .local.pwadev site](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
     * [Product Recommendations not shown in Page Builder](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
     * [Adobe Commerce Fastly troubleshooter](/help/troubleshooting/miscellaneous/magento-fastly-troubleshooter.md)
