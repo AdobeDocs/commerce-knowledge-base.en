@@ -31,32 +31,42 @@ Images available on the backend are not displayed on the frontend after configur
 
 1. Install a clean Adobe Commerce.
 1. Add a custom attribute by going to **Stores** > **Attributes** > **Product** > **Add New Attribute** with the settings below:
+
     * Properties:
         * Attribute Properties:
-            * Default Label: Set Size
-            * Catalog Input Type for Store Owner: Text Swatch
-            * Values Required: No
-            * Update Product Preview Image: Yes
+
+          * Default Label: Set Size
+          * Catalog Input Type for Store Owner: Text Swatch
+          * Values Required: No
+          * Update Product Preview Image: Yes
+        
         * Manage Swatch (values of your attribute):
 
-            | Is Default | Admin Swatch | Admin Description | Default Store View Swatch | Default Store View Description |
-            |---|---|---|---|---|
-            | no | 4 | 4 | 4 | 4 |
-            | no | 24 | 24 | 24 | 24 |
-            | no | 30 | 30 | 30 | 30 |
-            | no | 60 | 60 | 60 | 60 |
-            | no | 68 | 68 | 68 | 68 |
+           | Is Default | Admin Swatch | Admin Description | Default Store View Swatch | Default Store View Description |
+           |---|---|---|---|---|
+           | no | 4 | 4 | 4 | 4 |
+           | no | 24 | 24 | 24 | 24 |
+           | no | 30 | 30 | 30 | 30 |
+           | no | 60 | 60 | 60 | 60 |
+           | no | 68 | 68 | 68 | 68 |
+
         * Advanced Attribute Properties:
+
             * Attribute Code: set_size
             * Scope: Global
             * Unique Value: No
             * Input Validation for Store Owner: None
             * Add to Column Options: No
             * Use in Filter Options: No
+
     * Manage Labels:
+
         * Manage Titles (Size, Color, etc.)
+
             * Default Store View: Set Size
+
     * Storefront Properties:
+
         * Use in Search: Yes
         * Search Weight: 1
         * Visible in Advanced Search: No
@@ -67,12 +77,17 @@ Images available on the backend are not displayed on the frontend after configur
         * Visible on Catalog Pages on Storefront: Yes
         * Used in Product Listing: Yes
         * Used for Sorting in Product Listing: No
+
 1. Add this attribute to the Default Attribute Set inside the Product Details Group (**Stores** > **Attributes** > **Attribute Set**).
 1. Download images set into var folder inside Adobe Commerce root directory.
 1. Go to **System** > **Data Transfer** > and import the file using the below options:
+
     * Import Settings:
+
         * Entity Type: Products
+
     * Import Behavior:
+
         * Import Behavior: Add/Update
         * Validation Strategy: Stop on Error
         * Allowed Errors Count: 1
@@ -80,9 +95,12 @@ Images available on the backend are not displayed on the frontend after configur
         * Multiple value separator: `,`
         * Attribute value constant: EMPTYVALUE
         * Fields enclosure: unchecked
+
     * File to Import:
+
         * Select File to Import
         * Images File Directory: leave it empty
+
 1. Go to storefront to `/product-set.html` page and switch between different Set Sizes. For Set Size 24, there will be no gallery.
 
 <u>Expected results</u>:
