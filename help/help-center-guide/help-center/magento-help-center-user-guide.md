@@ -154,9 +154,16 @@ Your support cases are those that you:
 
 #### View your cases
 
-You can view your cases by clicking **[!UICONTROL My Cases]** on the left-hand menu.
+You can view the cases you have **submitted personally** by clicking **[!UICONTROL My Cases]** on the left-hand menu.
 
 ![view-support-cases](assets/view_support_cases.png)
+
+#### View your watched cases
+
+You can view the cases you have been **added to as a watcher** by clicking **[!UICONTROL My organization's cases]** on the left-hand menu.
+
+<!-- TODO: Add image here -->
+
 
 #### Search for cases
 
