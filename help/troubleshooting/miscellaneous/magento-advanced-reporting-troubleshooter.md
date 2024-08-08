@@ -49,7 +49,7 @@ b. NO – Proceed to [Step 4](#step-4).
 
 +++**Is Advanced Reporting enabled?**
 
-Check **Admin** > **Stores** > **Settings** > **Configuration** > **General** > **Advanced**. For detailed steps, review [Advanced Reporting: Enable Advanced Reporting](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting).
+Check **Admin** > **Stores** > **Settings** > **Configuration** > **General** > **Advanced Reporting**. For detailed steps, review [Advanced Reporting: Enable Advanced Reporting](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting).
 
 a. YES – Proceed to [Step 5](#step-5).  
 b. NO – [Enable Advanced Reporting](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) and save, and wait 24 hours for Adobe Commerce and Advanced Reporting to synchronize. Check if your data now loads. If it does you have solved the issue. If it does not proceed to [Step 5](#step-5).
