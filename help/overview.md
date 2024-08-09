@@ -11,7 +11,7 @@ role: Admin
 
 The information in this Knowledge Base is designed as complementary to [Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs), and [Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html), and other Adobe Commerce publications. It covers troubleshooting and best practices, hosts announcements, answers FAQs, and highlights specific scenarios that have not been mentioned (for any reason) in the official documentation.
 
-## What's in the Knowledge Base?
+## What is in this Knowledge Base?
 
 | CATEGORY | DESCRIPTION | 
 | --- | --- |
