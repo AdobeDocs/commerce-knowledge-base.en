@@ -111,13 +111,13 @@ c. YES – If there are records but there is an error, proceed to [Step 10](#ste
 
 +++**Does the file `data.tgz` exist in the system and are there are records in access logs?**
 
-To check that the file `data.tgz` exists, run command:
+To check that the file `data.tgz` exists, run this command - it should return a directory(ies) with a hash name(s):
 
 ```
-ls -ltr pub/media/analytics/<there should be a directory with hash name>/
+ls -ltr pub/media/analytics/
 ```
 
-To check that there are records in access.logs, run command:
+To check that there are records in access.logs, run this command:
 
 ```
 zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
