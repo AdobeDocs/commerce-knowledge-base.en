@@ -29,8 +29,6 @@ Adobe Commerce on Cloud, Adobe Commerce on-premises, and Magento Open Source:
 * 2.4.5-p8 and earlier
 * 2.4.4-p9 and earlier
 
-Adobe Commerce Webhooks Plugin
-
 ## Solution for Adobe Commerce on Cloud, Adobe Commerce on-premise Software, and Magento Open Source 
 
 To help resolve the vulnerability for the affected products and versions, you must apply the [!DNL CVE-2024-39397] isolated patch.
