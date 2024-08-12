@@ -57,11 +57,13 @@ Considering that it isn't possible to easily check if the issue was patched, you
     ```bash
     ║ Id            │ Title                                                        │ Category        │ Origin                 │ Status      │ Details                                          ║ ║ N/A           │ ../m2-hotfixes/VULN-27015-2.4.7_COMPOSER_patch.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                
     ```
+
 <!-- For Step 2:
      ```bash
     vendor/bin/magento-patches -n status |grep "27015\|Status"
      ```
 -->
+
 ## Security updates
 
 Security updates available for Adobe Commerce:
