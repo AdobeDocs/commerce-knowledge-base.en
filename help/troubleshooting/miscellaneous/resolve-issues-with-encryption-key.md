@@ -11,7 +11,7 @@ This article talks about how to fix the issues caused by the encryption key not 
 
 ## Affected products and versions
 
-* Adobe Commerce on cloud infrastructure 2.2.x, 2.3.x
+* Adobe Commerce on cloud infrastructure 2.4.x
 
 ## Issue
 
