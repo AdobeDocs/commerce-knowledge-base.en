@@ -111,7 +111,7 @@ c. YES – If there are records but there is an error, proceed to [Step 10](#ste
 
 +++**Does the file `data.tgz` exist in the system and are there are records in access logs?**
 
-To check that the file `data.tgz` exists, run this command - it should return a directory(ies) with a hash name(s):
+To check that the file `data.tgz` exists, run this command - it should return directory(ies) with hash name(s):
 
 ```
 ls -ltr pub/media/analytics/
