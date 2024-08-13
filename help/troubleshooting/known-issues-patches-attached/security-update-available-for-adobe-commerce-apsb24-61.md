@@ -7,12 +7,12 @@ role: Developer
 ---
 # Security update available for Adobe Commerce - [!DNL APSB24-61]
 
-On August 13, 2024, Adobe released a security update for Adobe Commerce, Magento Open Source, and Adobe Commerce Webhooks Plugin.
+On August 13, 2024, Adobe released a regularly scheduled security update for Adobe Commerce, Magento Open Source, and Adobe Commerce Webhooks Plugin.
 This update resolves [[!DNL critical, important], and [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html) vulnerabilities. Successful exploitation could lead to arbitrary code execution, arbitrary file system read, security feature bypass, and privilege escalation. The bulletin is [Adobe Security Bulletin ([!DNL APSB24-61])](https://helpx.adobe.com/security/products/magento/apsb24-61.html).  
 
 >[!NOTE]
 >
->**[!DNL CVE-2024-39397] is applicable only when using the [!DNL Apache] web server.** To help ensure that the remediation for this vulnerability can be applied as promptly as possible, Adobe has also released an Isolated patch that resolves [!DNL CVE-2024-39397]. 
+>**[!DNL CVE-2024-39397], listed in the security bulletin above, is applicable only when using the [!DNL Apache] web server.** To help ensure that the remediation for this vulnerability can be applied as promptly as possible, Adobe has also released an Isolated patch that resolves [!DNL CVE-2024-39397]. 
 
 **Please apply the latest security updates as soon as possible. If you fail to do so, you will be vulnerable to these security issues, and Adobe will have limited means to help remediate.**
 
