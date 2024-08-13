@@ -1112,7 +1112,6 @@ breadcrumb-title: Commerce KB
   * Known issues {#known-issues-patches-attached}
     * [Security update available for Adobe Commerce - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
     * [Troubleshooting Encryption Key Rotation: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
-    * [Hidden download test](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102-hidden-test.md)
     * [Security update available for Adobe Commerce - [!DNL APSB24-40] Revised to include isolated patch for [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
     * [[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
     * [[!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
