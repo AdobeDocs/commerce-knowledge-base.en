@@ -46,7 +46,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
   </tr>
 
   <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect">Live Search dashboard and search result ranking is incorrect:</a> This article explains why the data displayed in the Live Search dashboard may be incorrect, or why the ranking of the search results may not be not what you expect.  
+    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect">Live Search dashboard and search result ranking is incorrect:</a> This article explains why the data displayed in the Live Search dashboard may be incorrect, or why the ranking of the search results may not be what you expect.  
     </td>
     <td>New article</td>
     <td>August 14, 2024</td>
