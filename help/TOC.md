@@ -908,6 +908,7 @@ breadcrumb-title: Commerce KB
     * [Error 404 on all pages due to Content Staging issue](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
     * [Revised patches for Google Maps access loss on all Adobe Commerce versions](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Miscellaneous {#miscellaneous}
+    * [Fix data not updated in [!DNL Commerce Data Exporter] feeds and [!DNL cron] logs errors with changelog table don't exist](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
     * [How to check why [!DNL cron] was disabled](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
     * [Error [!DNL opensearch] search engine doesn't exist. Falling back to [!DNL livesearch].](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
     * [Email stating that export storage is almost full](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
