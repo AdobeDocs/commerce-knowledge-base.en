@@ -91,8 +91,8 @@ To submit a new support case using the start page of Adobe Experience League, fo
     ![open-support-page](assets/click_support.png)
 
 1. To begin the support intake process, ensure that you have selected the appropriate organization from the dropdown list (if available), as you may have multiple organizations with similar names, each with their own entitlements.
-   ![image](https://git.corp.adobe.com/storage/user/38345/files/230d6ecd-bce2-4170-b377-3989fa8be615)
 
+   ![image](https://git.corp.adobe.com/storage/user/38345/files/230d6ecd-bce2-4170-b377-3989fa8be615)
 
 1. Click **[!UICONTROL Open Ticket]** on the left-hand menu or click **[!UICONTROL Get Started]** in *[!UICONTROL Open a support ticket]* card.
 
