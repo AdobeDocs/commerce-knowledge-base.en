@@ -28,7 +28,7 @@ In this case, the *table does not exist* error occurs because the `catalog_data_
 
 ## Solution
 
-In the customized extension, edit the [!DNL Mview] configuration file (```./etc/mview.xml```) to change the `catalog_data_exporter_products` table name to *`cde_products_feed`*..
+In the customized extension, edit the [!DNL Mview] configuration file (```./etc/mview.xml```) to change the `catalog_data_exporter_products` table name to *`cde_products_feed`*.
 
 The following example from shows the code that specifies the tables tracked by the [!DNL Mview] subscription:
 
