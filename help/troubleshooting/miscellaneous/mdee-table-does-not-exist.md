@@ -10,7 +10,7 @@ This article provides a solution for fixing data synchronization issues caused b
 
 ## Affected products and versions
 
-* [!DNL Commerce Data Export] extension (`saas-export`), versions earlier than 103.3.0
+* Only customers of the [!DNL MDEE] (`commerce-data-exporter` and/or `saas-exporter`) extension who have customizations done before version 103.3.0 on top of the extension and use the feed index name directly
 
 ## Issue
 
@@ -28,9 +28,9 @@ In this case, the *table does not exist* error occurs because the `catalog_data_
 
 ## Solution
 
-In the customized extension, edit the [!DNL Mview] configuration file (```./etc/mview.xml```) to change the `catalog_data_exporter_products` table name to *`cde_products_feed`*.
+In the customized extension, edit the [!DNL Mview] configuration file (```./etc/mview.xml```) to change the `catalog_data_exporter_products` table name to *`cde_products_feed`*.  
 
-The following example from shows the code that specifies the tables tracked by the [!DNL Mview] subscription:
+The following example shows the code that specifies the tables tracked by the [!DNL Mview] subscription:
 
 ```
 <view id="cde_products_feed" class="Magento\CatalogDataExporter\Model\Indexer\ProductFeedIndexer" group="indexer">
@@ -39,3 +39,4 @@ The following example from shows the code that specifies the tables tracked by t
      </subscriptions>
 </view>
 ```
+ 
