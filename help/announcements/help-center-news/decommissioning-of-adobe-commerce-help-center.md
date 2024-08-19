@@ -17,7 +17,7 @@ On July 29, 2024, Adobe Commerce Help Center was placed in a read-only status, a
 
 **On September 3, 2024, Adobe Commerce Help Center will no longer be accessible**, and you will no longer be able to view historic support cases created in that system.
 **<u>Please save any support cases or information you wish to retain by saving them to PDF in your browser prior to September 3, 2024.</u>**
-If you would like to review historical support cases created in Adobe Commerce Help center after September 3, 2024, you will need to open a support case in Adobe Experience League and request that information from the support team.
+If you would like to review historical support cases created in Adobe Commerce Help Center after September 3, 2024, you will need to open a support case in Adobe Experience League and request that information from the support team.
 
 >[!NOTE]
 >
