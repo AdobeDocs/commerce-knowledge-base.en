@@ -160,7 +160,7 @@ You can view the cases you have submitted personally by clicking **[!UICONTROL M
 
 #### View your watched cases
 
-You can view the cases you have been **added to as a watcher** by clicking **[!UICONTROL My organization's cases]** on the left-hand menu.
+You can view the cases you have been *added to as a watcher* by clicking **[!UICONTROL My organization's cases]** on the left-hand menu.
 
 <!-- TODO: Add image here -->
 
