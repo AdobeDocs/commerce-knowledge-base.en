@@ -1,10 +1,9 @@
 ---
 title: 'ACSD-58739: Partial reindexing throws an error'
 description: Apply the ACSD-55241 patch to fix the Adobe Commerce issue where partial reindexing throws an error. 
-feature: Partial Reindexing, Inventory, Products
+feature: Inventory, Products
 role: Admin, Developer
 ---
-
 # ACSD-58739: Partial reindexing throws an error
 
 The ACSD-58739 patch fixes the issue where the partial reindexing throws an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
