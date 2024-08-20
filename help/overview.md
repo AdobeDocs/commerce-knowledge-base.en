@@ -54,7 +54,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102">Troubleshooting Encryption Key Rotation: CVE-2024-34102:</a> This article is intended to help merchants troubleshoot encryption key rotation after they have already followed the steps outlined in this <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102?lang=en">article</a> on CVE-2024-34102. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102">Troubleshooting Encryption Key Rotation: CVE-2024-34102:</a> This article is intended to help merchants troubleshoot encryption key rotation after they have already followed the steps outlined in this <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102">article</a> on CVE-2024-34102. 
     </td>
     <td>New article </td>
     <td>August 14, 2024</td>
