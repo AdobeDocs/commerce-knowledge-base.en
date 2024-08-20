@@ -69,7 +69,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
 1. If you see the correct data in `catalog_data_exporter_products`, use the following SQL query to check the timestamp of the last export. It should be after the `modified_at` timestamp:
 
     ```sql
-    select * from flag where flag_code = 'products-feed-version';
+    select * from scopes_website_data_exporter;
     ```
 
 1. If the timestamp is older, you can either wait for the next cron run or trigger it yourself using the following command:
@@ -105,7 +105,7 @@ If you see the correct data in `catalog_data_exporter_product_attributes`:
 1. Use the following SQL query to check the timestamp of the last export. It should be after the `modified_at` timestamp.
 
     ```sql
-    select * from flag where flag_code = 'product-attributes-feed-version';
+    select * from scopes_website_data_exporter;
     ```
 
 1. If the timestamp is older, you can either wait for the next cron run or trigger it yourself using the following command:
@@ -127,4 +127,5 @@ bin/magento saas:resync --feed productattributes
 
 ## Related reading
 
-See [Onboard Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in our user documentation.
+* See [Onboard Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in our user documentation.
+* See [Review logs and troubleshoot Adobe Commerce SaaS data export and synchronization](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in Adobe Commerce SaaS Data Export Guide.
