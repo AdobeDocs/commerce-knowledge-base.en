@@ -18,7 +18,7 @@ QPT v1.1.49 includes the following patches:
 1. **ACSD-57941**: Fixes the issue where product options are incorrectly assigned to the admin store instead of their respective stores.
 1. **ACSD-58375**: Fixes the issue where the wrong *[!DNL YouTube API Key]* configuration causes an error when adding a [!DNL YouTube] video at the store view level.
 1. **ACSD-58739**: Fixes the issue where partial reindexing throws an error.
-1. **ACSD-58446**: Fixes the issue where when deleting a team with child users or teams irrespective of their status (inactive), the system provides an uninformative error message not consistent with the UI.
+1. **ACSD-58446**: Fixes the issue where when deleting a team with child users or teams irrespective of their status (inactive), the system provides an uninformative error message inconsistent with the UI.
 1. **ACSD-58054**: Fixes the issue where it is possible to generate customer tokens for inactive customers via API.
 1. **ACSD-58163**: Fixes the issue where a *[!UICONTROL Cart Price Rule]* doesn't apply a discount for a guest customer from the matching *[!UICONTROL Customer Segment]* cart without a coupon code.
 
