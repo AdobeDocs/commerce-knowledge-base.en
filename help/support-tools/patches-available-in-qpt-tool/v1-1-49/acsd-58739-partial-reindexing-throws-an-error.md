@@ -16,7 +16,7 @@ The ACSD-58739 patch fixes the issue where the partial reindexing throws an erro
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) and Magento Open Source 2.4.7 - 2.4.8
+* Adobe Commerce (all deployment methods) 2.4.7 - 2.4.8
 
 >[!NOTE]
 >
