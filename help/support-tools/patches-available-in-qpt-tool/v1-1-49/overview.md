@@ -10,7 +10,7 @@ This sub-section provides a detailed description of the issues fixed by the patc
 
 QPT v1.1.49 includes the following patches:
 
-1.  **ACSD-56979**: Fixes the issue where product images are removed after deleting a staging update.
+1. **ACSD-56979**: Fixes the issue where product images are removed after deleting a staging update.
 1. **ACSD-57086**: Fixes the issue where the orders placed from non-default websites with terms and conditions enabled are not processed correctly.
 1. **ACSD-57588**: Fixes the issue where shipping an order to multiple addresses triggers an error during region ID processing.
 1. **ACSD-57643**: Fixes the issue where products with custom options are incorrectly added to the shopping cart via GraphQL.
