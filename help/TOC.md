@@ -795,6 +795,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-58008: Editing the end date as empty causes the schedule update to disappear](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-58008-editing-the-end-date-as-empty-causes-the-schedule-update-to-disappear.md)
         * [ACSD-57854: GraphQL response contains disabled categories that should not be listed in category aggregations](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57854-graphql-response-contains-disabled-categories-that-should-not-be-listed-in-the-category-aggregations.md)
         * [ACSD-57565: The order dashboard displays incorrect order information](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57565-the-order-dashboard-displays-incorrect-order-information.md)
+    * v1.1.49 {#v1-1-49}
+        * [ACSD-58739: Partial reindexing throws an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
