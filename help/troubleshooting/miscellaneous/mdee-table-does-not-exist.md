@@ -10,7 +10,7 @@ This article provides a solution for fixing data synchronization issues caused b
 
 ## Affected products and versions
 
-Adobe Commerce instances where custom code has been applied to data export functionality (`commerce-data-exporter` or `saas-exporter`). The error occurs if the installed [[!DNL SaaS] Data Export version is 103.3](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes#release-6) or later, and the code directly references the `catalog_data_exporter_products` index.
+Adobe Commerce instances where custom code has been applied to data export functionality (`commerce-data-exporter` or `saas-exporter`). The error occurs if the installed [[!DNL SaaS] Data Export version is 103.3.0](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes#release-6) or later, and the code directly references the `catalog_data_exporter_products` index.
 
 ## Issue
 
