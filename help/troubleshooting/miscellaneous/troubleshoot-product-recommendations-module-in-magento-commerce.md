@@ -76,3 +76,4 @@ saas-export
 * [Introduction to Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) in the **Product Recommendations Guide**
 * [Create Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) in the **Product Recommendations Guide**
 * [Review logs and troubleshoot](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in the **[!DNL SaaS] Data Export Guide**
+* [[!DNL SaaS] Data Export Extension Release Notes](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) in the Adobe Commerce Data Export Guide for [!DNL SaaS] Services.
