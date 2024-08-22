@@ -795,6 +795,8 @@ breadcrumb-title: Commerce KB
         * [ACSD-58008: Editing the end date as empty causes the schedule update to disappear](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-58008-editing-the-end-date-as-empty-causes-the-schedule-update-to-disappear.md)
         * [ACSD-57854: GraphQL response contains disabled categories that should not be listed in category aggregations](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57854-graphql-response-contains-disabled-categories-that-should-not-be-listed-in-the-category-aggregations.md)
         * [ACSD-57565: The order dashboard displays incorrect order information](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57565-the-order-dashboard-displays-incorrect-order-information.md)
+    * v1.1.49 {#v1-1-49}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.49](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
@@ -817,6 +819,7 @@ breadcrumb-title: Commerce KB
     * [2024 release schedule](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
     * [Adobe Commerce support intake process migration to Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
   * Help Center News {#news}
+    * [Decommissioning of Adobe Commerce Help Center](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
     * [Adobe Commerce Support Knowledge Base starts accepting contributions](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * Troubleshooting {#troubleshooting}
   * [Troubleshooting overview](/help/troubleshooting/overview.md)
