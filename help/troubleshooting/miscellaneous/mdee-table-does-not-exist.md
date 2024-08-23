@@ -42,4 +42,4 @@ The following example shows the code that specifies the tables tracked by the [!
  
 ## Related reading
 
-[[!DNL SaaS] Data Export Extension Release Notes](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) in the Adobe Commerce Data Export Guide for [!DNL SaaS] Services.
+[[!DNL SaaS] Data Export Extension Release Notes](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) in the Adobe Commerce Data Export Guide for [!DNL SaaS] Services
