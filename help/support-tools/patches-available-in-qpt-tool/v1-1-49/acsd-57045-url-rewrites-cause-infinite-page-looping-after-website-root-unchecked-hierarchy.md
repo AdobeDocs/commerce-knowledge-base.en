@@ -1,13 +1,13 @@
 ---
-title: 'ACSD-57045: URL rewrites cause infinite page looping after Website Root unchecked from Hierarchy'
-description: Apply the ACSD-57045 patch to fix the Adobe Commerce issue where URL rewrites cause infinite page looping after Website Root is unchecked from Hierarchy
+title: 'ACSD-57045: URL rewrites cause infinite page looping after [!UICONTROL Website Root] unchecked from [!UICONTROL Hierarchy]'
+description: Apply the ACSD-57045 patch to fix the Adobe Commerce issue where URL rewrites cause infinite page looping after [!UICONTROL Website Root] is unchecked from [!UICONTROL Hierarchy]
 feature: CMS
 role: Admin, Developer
 ---
 
-# ACSD-57045: URL rewrites cause infinite page looping after Website Root unchecked from Hierarchy
+# ACSD-57045: URL rewrites cause infinite page looping after [!UICONTROL Website Root] unchecked from [!UICONTROL Hierarchy]
 
-The ACSD-57045 patch fixes the issue where URL rewrites cause infinite page looping after Website Root is unchecked from Hierarchy. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57045. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-57045 patch fixes the issue where URL rewrites cause infinite page looping after **[!UICONTROL Website Root]** is unchecked from **[!UICONTROL Hierarchy]**. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57045. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
 
 ## Affected products and versions
 
@@ -25,44 +25,43 @@ The ACSD-57045 patch fixes the issue where URL rewrites cause infinite page loop
 
 ## Issue
 
-URL rewrites cause infinite page looping after Website Root is unchecked from Hierarchy.
+URL rewrites cause infinite page looping  after **[!UICONTROL Website Root]** is deslected from **[!UICONTROL Hierarchy]**.
 
 <u>Steps to reproduce</u>:
 
-1. Create a CMS page named Test-Parent.
-1. Create a page named Test-Child and in the **[!UICONTROL Hierarchy]** section select both **Website Root > Parent** and save.
-1. Go to **[!UICONTROL Marketing] > [!UICONTROL Url Rewrites]**
+1. Create a CMS page named *Test-Parent*.
+1. Create a page named *Test-Child* and in the **[!UICONTROL Hierarchy]** section select **[!UICONTROL Website Root]** > **[!UICONTROL Parent]** and save.
+1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Url Rewrites]**.
 1. Notice that there are two new rewrites:
-   1. Request path to Test-Parent that points to **cms/page/view/page_id/ID_NUMBER_FOR_PAGE**
-   1. Request path to Test-Child that points to **cms/page/view/page_id/ID_NUMBER_FOR_PAGE**
-1. Visit the storefront and add **"test-child"** to the url. You should see the child page.
-1. Do the same thing, but add **"test-parent/test-child/"** to the url and you will see the same page.
-1. Go to **[!UICONTROL Marketing] > [!UICONTROL Url Rewrite]** and select **[!UICONTROL Add url Rewrite]**. Choose the following settings:
-   1. Type: **Custom**
-   1. Request path: **test-parent/test-child**
-   1. Target path: **test-child**
-   1. Redirect Type: **Permanent (301)**
-1. Visit the **"test-parent/test-child"** path and you should be redirected to **"test-child"**.
-1. Edit the Child page (**[!UICONTROL Content] > [!UICONTROL Pages] > Pick Child and select [!UICONTROL Edit] option**)
-1. Under the hierarchy section, keep **"Test-Parent"** selected but unselect **"Website Root"** and save
-1. Go to **[!UICONTROL Marketing] > [!UICONTROL Url Rewrites]** and notice that the original "test-child" to "cms/page/view/page_id" redirect is missing and it's being substituted by on that point the "test-child" to "test-parent/test-child".
-1. Visit the storefront again and try to visit the "test-child" page
+   * Request path to *Test-Parent* that points to *cms/page/view/page_id/ID_NUMBER_FOR_PAGE*
+   * Request path to *Test-Child* that points to *cms/page/view/page_id/ID_NUMBER_FOR_PAGE*
+1. Visit the storefront and add *test-child* to the url. You should see the child page.
+1. Do the same thing, but add *test-parent/test-child/* to the url and see the same page.
+1. Go to **[!UICONTROL Marketing] > [!UICONTROL Url Rewrits]** and select **[!UICONTROL Add url Rewrite]**. Choose the following settings:
+   * Type: *Custom*
+   * Request path: *test-parent/test-child*
+   * Target path: *test-child*
+   * Redirect Type: *Permanent (301)*
+1. Visit the *test-parent/test-child* path and you should be redirected to *test-child*.
+1. Edit the Child page (**[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** > Pick Child and select **[!UICONTROL Edit]**).
+1. Under the hierarchy section, keep *Test-Parent* selected but unselect **[!UICONTROL Website Root]** and save.
+1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Url Rewrites]** and notice that the original *test-child* to *cms/page/view/page_id* redirect is missing and it is being substituted by on that point the *test-child* to *test-parent/test-child*.
+1. Visit the storefront and try to visit the *test-child* page.
 
 <u>Expected results</u>:
 
-**"test-child" page is opened**
+The *test-child* page is opened.
 
 <u>Actual results</u>:
 
-– "test-child" page is not opened.
-– Browser is trying to open "test-parent/test-child" page in infinite loop
+The *test-child* page is not opened. The browser tries to open the *test-parent/test-child* page in an infinite loop.
 
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
 
 * Adobe Commerce or Magento Open Source on-premises: [[!DNL Quality Patches Tool] > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in the [!DNL Quality Patches Tool] guide.
-* Adobe Commerce on cloud infrastructure: Upgrades and Patches > Apply Patches in the Commerce on Cloud Infrastructure guide.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) in the Commerce on Cloud Infrastructure guide.
 
 ## Related reading
 
