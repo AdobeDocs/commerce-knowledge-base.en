@@ -57,4 +57,4 @@ However, if you don't have access to emails sent to the [current owner email], f
 ## Related reading
 
 [Reset forgotten password](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in the Creative Cloud User Guide.
-[Update your account profile](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html)  in the Creative Cloud User Guide.
+[Update your account profile](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html) in the Creative Cloud User Guide.
