@@ -37,7 +37,7 @@ URL rewrites cause infinite page looping after Website Root is unchecked from Hi
    1. Request path to Test-Child that points to **cms/page/view/page_id/ID_NUMBER_FOR_PAGE**
 1. Visit the storefront and add **"test-child"** to the url. You should see the child page.
 1. Do the same thing, but add **"test-parent/test-child/"** to the url and you will see the same page.
-1. Go to **[!UICONTROL Marketing] > [!UICONTROL Url Rewrite]** and click **[!UICONTROL Add url Rewrite]**. Choose the following settings:
+1. Go to **[!UICONTROL Marketing] > [!UICONTROL Url Rewrite]** and select **[!UICONTROL Add url Rewrite]**. Choose the following settings:
    1. Type: **Custom**
    1. Request path: **test-parent/test-child**
    1. Target path: **test-child**
