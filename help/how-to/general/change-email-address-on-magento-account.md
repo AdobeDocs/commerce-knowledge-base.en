@@ -27,7 +27,7 @@ Changing the email address for a user who has their own account at <https://acco
 
 <u>Solution</u>
 
-1. [Submit a support request]() at https://experienceleague.adobe.com/home#support stating the following:
+1. [Submit a support request](https://experienceleague.adobe.com/home#support) at https://experienceleague.adobe.com/home#support stating the following:
 
     * Existing email address to be updated
     * New email address
