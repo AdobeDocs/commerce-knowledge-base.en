@@ -59,7 +59,7 @@ saas-export
 1. Confirm the [[!UICONTROL indexers]](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) (in our developer documentation) are running and the    ```php    Product Feed    ```    [!UICONTROL indexer] is set to    ```php    Update by Schedule    ```    .
 1. Confirm the modules are *enabled*. The    ```php    saas-export    ```    metapackage installs the following modules, all of which must be *enabled*:    ```php    "magento/module-catalog-data-exporter"      "magento/module-catalog-inventory-data-exporter"      "magento/module-catalog-url-rewrite-data-exporter"      "magento/module-configurable-product-data-exporter"      "magento/module-data-exporter"      "magento/module-saas-catalog"    ```
 1. Check the [logs](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/enable-logging) (in our developer documentation). Make sure there are no errors associated with the above modules.
-1. Refresh the [!UICONTROL Configuration cache]. Go to **System** > **Tools** > **Cache Management** , and clear the [!UICONTROL Configuration cache].
+1. Refresh the [!UICONTROL Configuration cache]. Go to **System** > **Tools** > **Cache Management**, and clear the [!UICONTROL Configuration cache].
 1. Confirm there is data in the `cde_products_products_feed` database table.
 
    >[!NOTE]
