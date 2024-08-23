@@ -35,7 +35,7 @@ Product images are removed after deleting a staging update.
    1. Choose a start date a few minutes in the future.
    1. Do not choose an end date.
 1. In the  **[!UICONTROL Scheduled Changes]** box, select the **[!UICONTROL View/Edit]** link.
-1. Click on the **[!UICONTROL Remove from Update]** button > **[!UICONTROL Delete the Update]** and click **[!UICONTROL Done]**.
+1. Go to **[!UICONTROL Remove from Update]** > **[!UICONTROL Delete the Update]** and select **[!UICONTROL Done]**.
 1. Refresh the page.
 
 <u>Expected results</u>:
