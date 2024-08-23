@@ -6,7 +6,10 @@ feature: Communications
 ---
 # How to change email address on magento.com account when the field is grayed out?
 
-This article explains how to change the email address on your [Magento.com](https://account.magento.com) account when the field is grayed out.
+This article explains how to change the email address on your [Magento.com](https://account.magento.com) account when the field is grayed out under circumstances such as:
+- You or the original user has left the company
+- Your company has migrated to a new email domain
+- Switching to a Distribution List or catch-all email address
 
 ## Affected products and versions
 
@@ -24,7 +27,7 @@ Changing the email address for a user who has their own account at <https://acco
 
 <u>Solution</u>
 
-1. Send an email to Grp-magento-HelpCenterLoginIssues@adobe.com stating the following:
+1. [Submit a support request]() at https://experienceleague.adobe.com/home#support stating the following:
 
     * Existing email address to be updated
     * New email address
@@ -34,7 +37,7 @@ Changing the email address for a user who has their own account at <https://acco
 
 ### Case II:
 
-Changing the email address for a user who currently does not have their own account at <https://account.adobe.com>
+Changing the email address for a user who currently does not have their own account at <https://account.adobe.com> 
 
 <u>Solution</u>
 
@@ -53,3 +56,4 @@ However, if you don't have access to emails sent to the [current owner email], f
 ## Related reading
 
 [Reset forgotten password](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in the Creative Cloud User Guide.
+[Update your account profile](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html)  in the Creative Cloud User Guide.
