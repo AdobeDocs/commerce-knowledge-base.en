@@ -31,7 +31,7 @@ Product images are removed after deleting a staging update.
 
 1. On the Commerce Admin sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and create a product.
 1. Under **[!UICONTROL Images and Videos]**, upload an image and save the product.
-1. In the **[!UICONTROL Scheduled Changes]** box, click **[!UICONTROL Schedule New Update]**. 
+1. In the **[!UICONTROL Scheduled Changes]** box, select **[!UICONTROL Schedule New Update]**. 
    1. Choose a start date a few minutes in the future.
    1. Do not choose an end date.
 1. In the  **[!UICONTROL Scheduled Changes]** box click on the **[!UICONTROL View/Edit]** link.
