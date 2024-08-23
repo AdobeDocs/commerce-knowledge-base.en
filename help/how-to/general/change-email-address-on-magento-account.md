@@ -7,9 +7,10 @@ feature: Communications
 # How to change email address on magento.com account when the field is grayed out?
 
 This article explains how to change the email address on your [Magento.com](https://account.magento.com) account when the field is grayed out under circumstances such as:
-- You or the original user has left the company
-- Your company has migrated to a new email domain
-- Switching to a Distribution List or catch-all email address
+
+* You or the original user has left the company.
+* Your company has migrated to a new email domain.
+* You are switching to a Distribution List or catch-all email address.
 
 ## Affected products and versions
 
