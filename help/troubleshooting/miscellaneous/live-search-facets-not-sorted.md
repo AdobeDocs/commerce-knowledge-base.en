@@ -6,11 +6,15 @@ role: Developer
 ---
 # [!DNL Live Search] facets are not alphabetically sorted
 
-All [!DNL Commerce] storefront facets are sorted alphabetically with single-select options, regardless of the input type that is assigned to the corresponding attribute.
+## Affected products and versions
 
-However, in certain edge cases, facets might not sort alphabetically as set up in the [Live Search Faceting workspace](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace). As a work-around, you can sort product attributes in the Admin attributes section.
+Adobe Commerce versions 2.4.x and newer
 
-1. On the *Admin* sidebar, go to **Stores** > *Attributes* > **Product**.
+All Adobe Commerce storefront facets are sorted alphabetically with single-select options, regardless of the input type that is assigned to the corresponding attribute.
+
+However, in certain edge cases, facets might not sort alphabetically as set up in the [[!DNL Live Search] Faceting workspace](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace). As a work-around, you can sort product attributes in the [!UICONTROL Admin] attributes section.
+
+1. On the **[!UICONTROL Admin]** sidebar, go to **Stores** > *Attributes* > **Product**.
 1. Select an attribute from the table.
 
    ![Attribute List](assets/attribute-list.png)
