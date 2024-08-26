@@ -28,7 +28,7 @@ Error triggered during region ID processing when shipping to multiple addresses.
 
 <u>Steps to reproduce</u>:
 
-1. Configure the Braintree payment method.
+1. Configure the [!DNL Braintree] payment method.
 1. Log in as a customer on the storefront.
 1. Add a product to the cart and proceed to view and edit the cart.
 1. Add multiple addresses *(For example, UK, US, CA)* during the checkout process and review the order.
