@@ -20,7 +20,7 @@ QPT v1.1.50 includes the following patches:
 1. **ACSD-58442**: Fixes the issue where devices with a width of *768px* are treated as mobile, causing the menu and header to load in a mobile view instead of desktop.
 1. **ACSD-58790**: Fixes *pinch-to-zoom* functionality on the product detail page images in mobile view on [!DNL Chrome].
 1. **ACSD-59036**: Fixes an exception that happens when loading product prices with both lower and upper bounds equal to *$0*.
-1. **ACSD-59229**: Fixes the issue where customer group-related information is saved in the wrong segment due to the old value of the X-Magento-Vary in request.
+1. **ACSD-59229**: Fixes the issue where customer group-related information is saved in the wrong segment due to the old value of the [!UICONTROL X-Magento-Vary] in request.
 1. **ACSD-59378**: Fixes the issue where store-level URL rewrites are incorrectly updated during import.
 1. **ACSD-59514**: Fixes the issue where forms in the Admin area with [!DNL Page Builder] throw the *[!DNL Page Builder] was rendering for 5 seconds without releasing locks.* error in the browser console after submitting the form and changes can't be saved.
 1. **ACSD-60303**: Fixes the issue where an order from Admin cannot be placed if HTML minification is enabled.
