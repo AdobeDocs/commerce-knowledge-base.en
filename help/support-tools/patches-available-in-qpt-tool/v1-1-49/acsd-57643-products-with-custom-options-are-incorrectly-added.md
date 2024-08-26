@@ -129,11 +129,11 @@ Products with custom options are incorrectly added to the shopping cart via Grap
 
 <u>Expected results</u>:
 
-A product can be added to the shopping cart with different custom options for the same SKU.
+A product can be added to the shopping cart using different custom options for the same SKU simultaneously.
 
 <u>Actual results</u>:
 
-Cannot add a product to the shopping cart with different custom options for the same SKU at once.
+Unable to add a product to the shopping cart using different custom options for the same SKU simultaneously.
 
 ## Apply the patch
 
