@@ -797,7 +797,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-57565: The order dashboard displays incorrect order information](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57565-the-order-dashboard-displays-incorrect-order-information.md)
     * v1.1.49 {#v1-1-49}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.49](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/overview.md)
-        * [ACSD-57588:Error in region ID processing when shipping to multiple addresses](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
+        * [ACSD-57588: Error in region ID processing when shipping to multiple addresses](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
