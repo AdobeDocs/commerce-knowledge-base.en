@@ -798,6 +798,8 @@ breadcrumb-title: Commerce KB
     * v1.1.49 {#v1-1-49}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.49](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/overview.md)
         * [ACSD-56979: Product images removed after staging update deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
+    * v1.1.50 {#v1-1-50}
+        * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
