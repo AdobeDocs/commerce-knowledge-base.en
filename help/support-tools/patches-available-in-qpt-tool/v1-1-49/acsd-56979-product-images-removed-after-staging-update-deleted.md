@@ -17,7 +17,7 @@ The ACSD-56979 patch fixes the issue where product images are removed after dele
 
 **Compatible with Adobe Commerce and Magento Open Source versions:**
 
-* Adobe Commerce (all deployment methods) >=2.4.3 < 2.4.6-p7 
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7 
 
 >[!NOTE]
 >
