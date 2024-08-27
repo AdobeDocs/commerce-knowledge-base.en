@@ -39,10 +39,10 @@ Adobe Commerce B2B modules are installed.
 1. Check the email and set a password for the new company account.
 1. Create a new team for the company.
 1. Login as the  **[!UICONTROL company user]** on the frontend and add a  **[!UICONTROL new user]** for the created team.
-1. Login to the  **[!UICONTROL Admin]** and disable the company user - set as  **[!UICONTROL Customer Active]** = **No**
-1. Make sure to delete the earlier team which was created via **[!DNL GraphQL]**.
+1. Log in to the **[!UICONTROL Admin]**, disable the company user, and set *[!UICONTROL Customer Active]* = *No*
+1. Make sure to delete the created team via GraphQL.
 
-   ```
+   ```GraphQL
    mutation {
      deleteCompanyTeam(
        id: "MQ=="
@@ -58,7 +58,7 @@ An informative error message consistent with the UI is returned.
 
 <u>Actual results</u>:
 
-The generic internal server error message is returned.
+A generic internal server error message is returned.
 
 ## Apply the patch
 
