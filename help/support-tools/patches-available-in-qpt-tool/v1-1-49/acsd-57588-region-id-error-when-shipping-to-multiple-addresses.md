@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-57588: Error in region ID processing when shipping to multiple addresses
 
-The ACSD-57588 patch fixes the issue where shipping an order to multiple addresses triggers an error during region ID processing. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57588. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-57588 patch fixes the issue where shipping an order to multiple addresses triggers an error during region ID processing. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57588. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
