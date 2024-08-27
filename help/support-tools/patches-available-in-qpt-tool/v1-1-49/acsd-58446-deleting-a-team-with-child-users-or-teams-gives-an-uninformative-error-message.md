@@ -53,7 +53,7 @@ Deleting a team with child users or teams gives an uninformative error message.
 
 <u>Expected results</u>:
 
-The informative error message is consistent with the UI.
+An informative error message consistent with the UI is returned.
 
 <u>Actual results</u>:
 
