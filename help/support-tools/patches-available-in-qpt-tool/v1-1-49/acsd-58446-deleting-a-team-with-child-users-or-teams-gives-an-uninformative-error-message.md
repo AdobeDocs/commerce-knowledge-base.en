@@ -38,7 +38,7 @@ Adobe Commerce B2B modules are installed.
 1. Log in to the **[!UICONTROL Admin]** and make the company account active.
 1. Check the email and set a password for the new company account.
 1. Create a new team for the company.
-1. Login as the  **[!UICONTROL company user]** on the frontend and add a  **[!UICONTROL new user]** for the created team.
+1. Log in as the company user on the storefront and add a new user for the created team.
 1. Log in to the **[!UICONTROL Admin]**, disable the company user, and set *[!UICONTROL Customer Active]* = *No*
 1. Make sure to delete the created team via GraphQL.
 
