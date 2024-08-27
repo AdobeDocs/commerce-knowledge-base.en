@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-58446: Deleting a team with child users or teams gives an uninformative error message'
 description: Apply the ACSD-58446 patch to fix the Adobe Commerce issue where when deleting a team with child users or teams gives an uninformative error message.
-feature: Products
+feature: Products, GraphQL, Companies
 role: Admin, Developer
 ---
 # ACSD-58446: Deleting a team with child users or teams gives an uninformative error message
@@ -16,27 +16,28 @@ The ACSD-58446 patch fixes the issue where when deleting a team with child users
 
 **Compatible with Adobe Commerce and Magento Open Source versions:**
 
-* Adobe Commerce (all deployment methods) >=2.4.6 <2.4.7
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p7
 
 >[!NOTE]
 >
 >The patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [[!DNL Quality Patches Tool]: Search for patches page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
 
-## Preconditions:
 
-Installed B2B modules. 
 
 ## Issue
 
 Deleting a team with child users or teams gives an uninformative error message.
 
+<u>Prerequisites</u>:
+
+Adobe Commerce B2B modules are installed. 
 <u>Steps to reproduce</u>:
 
-1. Enable the **[!UICONTROL Company]** functionality.
-1. Create a **[!UICONTROL new company account]**.
-1. Login to the  **[!UICONTROL Admin]** and make the company account active.
-1. Check the email and the set password for a  **[!UICONTROL new company account]**.
-1. Create a  **[!UICONTROL new team]** for the company.
+1. Enable the *[!UICONTROL Company]* functionality.
+1. Create a new company account.
+1. Log in to the **[!UICONTROL Admin]** and make the company account active.
+1. Check the email and set a password for the new company account.
+1. Create a new team for the company.
 1. Login as the  **[!UICONTROL company user]** on the frontend and add a  **[!UICONTROL new user]** for the created team.
 1. Login to the  **[!UICONTROL Admin]** and disable the company user - set as  **[!UICONTROL Customer Active]** = **No**
 1. Make sure to delete the earlier team which was created via **[!DNL GraphQL]**.
