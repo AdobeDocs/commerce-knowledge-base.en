@@ -797,6 +797,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-57565: The order dashboard displays incorrect order information](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57565-the-order-dashboard-displays-incorrect-order-information.md)
     * v1.1.49 {#v1-1-49}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.49](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/overview.md)
+        * [ACSD-57643: Products with custom options are incorrectly added](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
         * [ACSD-57588: Error in region ID processing when shipping to multiple addresses](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
         * [ACSD-56979: Product images removed after staging update deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
     * v1.1.50 {#v1-1-50}
