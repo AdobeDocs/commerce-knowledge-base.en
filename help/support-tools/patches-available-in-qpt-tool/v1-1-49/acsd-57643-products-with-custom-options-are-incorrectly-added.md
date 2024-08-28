@@ -92,7 +92,7 @@ Products with custom options are incorrectly added to the shopping cart via Grap
     }
     ```
 
-1. You will see the product added only once:
+1. You will see that the product is added only once:
 
     ```json
     {
