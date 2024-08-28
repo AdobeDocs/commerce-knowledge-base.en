@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-46938: Resolving performance issues with DB triggers during `setup:upgrade`
 
-The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-46938. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.6.
+The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-46938. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes t
 
 ## Issue
 
-Performance degradation during DB trigger recreation in `setup:upgrade`
+Performance degradation during DB trigger recreation in `setup:upgrade`.
 
 <u>Steps to reproduce</u>:
 
@@ -33,7 +33,7 @@ Performance degradation during DB trigger recreation in `setup:upgrade`
 1. Set all indexers to [!UICONTROL Update By Schedule] mode.
 1. Open any product.
 1. Update it. For example, assign a new category to it.
-1. Click the [!UICONTROL Save] button.
+1. Click [!UICONTROL Save].
 1. Run `bin/magento setup:upgrade` and `bin/magento cron:run` commands in parallel.
 
 <u>Expected results</u>:
