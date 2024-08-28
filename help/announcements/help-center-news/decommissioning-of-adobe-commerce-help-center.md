@@ -3,6 +3,7 @@ title: Decommissioning of Adobe Commerce Help Center
 description: Everything you need to know about the Decommissioning of the Adobe Commerce Help Center site.
 feature: Support
 role: Admin
+exl-id: 1dd74f62-9a05-4bd6-aefb-3c9083122d9e
 ---
 # Decommissioning of Adobe Commerce Help Center
 

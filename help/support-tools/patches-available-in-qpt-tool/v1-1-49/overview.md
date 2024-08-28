@@ -3,6 +3,7 @@ title: 'Overview: [!DNL Quality Patches Tool] (QPT) v1.1.49'
 description: This sub-section provides a detailed description of the issues fixed by the patches available in [!DNL Quality Patches Tool] (QPT) v1.1.49.
 feature: Tools and External Services
 role: Admin, Developer
+exl-id: 212f68b7-d43c-468d-a935-931b2bccb5b5
 ---
 # Overview: [!DNL Quality Patches Tool] (QPT) v1.1.49
 
@@ -23,4 +24,3 @@ QPT v1.1.49 includes the following patches:
 1. **ACSD-58163**: Fixes the issue where a *[!UICONTROL Cart Price Rule]* doesn't apply a discount for a guest customer from the matching *[!UICONTROL Customer Segment]* cart without a coupon code.
 
 Use the menu on the left to navigate to a specific patch page.
-
