@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-45049: Customer attribute "[!UICONTROL Is required]" setting doesn't work as per website scope in Admin'
+title: 'ACSD-45049: Customer attribute [!UICONTROL Is required] setting doesn't work as per website scope in Admin'
 description: Apply the ACSD-45049 patch to fix the Adobe Commerce issue where customer "[!UICONTROL Is required]" attribute is not properly overridden as per website scope in Admin.
 feature: Customer Attributes
 role: Admin, Developer
