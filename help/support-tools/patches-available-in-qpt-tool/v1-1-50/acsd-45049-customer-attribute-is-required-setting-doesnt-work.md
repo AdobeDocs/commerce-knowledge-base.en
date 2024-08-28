@@ -4,7 +4,6 @@ description: Apply the ACSD-45049 patch to fix the Adobe Commerce issue where cu
 feature: Customer Attributes
 role: Admin, Developer
 ---
-
 # ACSD-45049: Customer *[!UICONTROL Is required]* attribute setting doesn't work as per website scope in Admin
 
 The ACSD-45049 patch fixes the issue where the customer "Is required" attribute setting doesn't work properly as per website scope in Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 1.1.50 is installed. The patch ID is ACSD-45049. Please note that the issue was fixed in Adobe Commerce 2.4.6.
