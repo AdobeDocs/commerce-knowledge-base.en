@@ -798,6 +798,7 @@ breadcrumb-title: Commerce KB
     * v1.1.49 {#v1-1-49}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.49](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/overview.md)
         * [ACSD-57643: Products with custom options are incorrectly added](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
+        * [ACSD-57588: Error in region ID processing when shipping to multiple addresses](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
         * [ACSD-56979: Product images removed after staging update deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
     * v1.1.50 {#v1-1-50}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
@@ -1057,6 +1058,7 @@ breadcrumb-title: Commerce KB
     * [Cannot clone the Magento GitHub repository](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
     * [Live search catalog not synchronized](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
     * [[!DNL Live Search] dashboard and search result ranking is incorrect](/help/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect.md)
+    * [[!DNL Live Search] facets are not alphabetically sorted](/help/troubleshooting/miscellaneous/live-search-facets-not-sorted.md)
     * [Customer profiles not appearing in Experience Platform](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
     * [PWA Studio: browser cannot resolve the .local.pwadev site](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
     * [Product Recommendations not shown in Page Builder](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)

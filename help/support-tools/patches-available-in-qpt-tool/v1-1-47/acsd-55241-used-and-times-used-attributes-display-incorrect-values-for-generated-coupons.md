@@ -31,10 +31,10 @@ The ACSD-55241 patch fixes the issue where the **Used** and **Times Used** attri
 
 1. Create **[!UICONTROL Cart Price Rules]** from **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]** and add any condition which matches while placing an order (Example: subtotal greater than *5$*)
 
-* Apply any discount.
-* Select **[!UICONTROL Auto Coupon]**.
-* It will generate a few Coupon Codes from **Manage Coupon Codes**.
-* Reindex and clean the cache.
+    * Apply any discount.
+    * Select **[!UICONTROL Auto Coupon]**.
+    * It will generate a few Coupon Codes from **Manage Coupon Codes**.
+    * Reindex and clean the cache.
 
 1. Create a **[!UICONTROL customer account]** and log into the frontend.
 1. Add one product with more than *2* quantities in the cart and apply one coupon.
