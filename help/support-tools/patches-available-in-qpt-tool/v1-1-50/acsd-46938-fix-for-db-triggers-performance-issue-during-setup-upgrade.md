@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-46938: Resolving performance issues with DB triggers during `setup:upgrade`'
+title: 'ACSD-46938: Performance issues with DB triggers during `setup:upgrade`'
 description: Apply the ACSD-46938 patch to fix the Adobe Commerce issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns.
 feature: Upgrade
 role: Admin, Developer
 ---
-# ACSD-46938: Resolving performance issues with DB triggers during `setup:upgrade`
+# ACSD-46938: Performance issues with DB triggers during `setup:upgrade`
 
 The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-46938. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
