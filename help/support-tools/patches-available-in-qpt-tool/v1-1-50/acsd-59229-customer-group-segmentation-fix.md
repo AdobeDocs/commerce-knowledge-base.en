@@ -16,7 +16,7 @@ The ACSD-59229 patch fixes the issue where customer group-related information is
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p9
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p7
 
 >[!NOTE]
 >
