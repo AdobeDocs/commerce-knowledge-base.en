@@ -63,7 +63,7 @@ While using a multi-store setup with Async order processing, orders placed on an
 
 1. Go to the frontend and add a product to the cart. Proceed to checkout and place an order (you should see a checkbox in the payment method step to accept the terms and conditions).
 1. Go back to Admin after placing the order, and change the default website back to the original main website and save.
-1. Clear the cache
+1. Clear the cache:
 
     ```bash
     bin/magento cache:clear
