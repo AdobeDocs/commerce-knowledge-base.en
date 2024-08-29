@@ -15,7 +15,7 @@ The ACSD-59378 patch fixes the issue where the store-level [!DNL URL] rewrites a
 
 Adobe Commerce (all deployment methods) 2.4.5-p5
 
-**Compatible with Adobe Commerce and Magento Open Source versions:**
+**Compatible with Adobe Commerce versions:**
 
 Adobe Commerce (all deployment methods) 2.4.5x (all versions of 2.4.5)
 
@@ -25,7 +25,7 @@ Adobe Commerce (all deployment methods) 2.4.5x (all versions of 2.4.5)
 
 ## Issue
 
-Fixes the issue where store-level [!DNL URL] rewrites are incorrectly updated during import.
+Store-level [!DNL URL] rewrites are incorrectly updated during import.
 
 <u>Steps to reproduce</u>:
 
@@ -37,9 +37,11 @@ Fixes the issue where store-level [!DNL URL] rewrites are incorrectly updated du
     * `url_key` is set to the default key *`key_default`*.
 
 <u>Expected Results</u>:
+
 [!DNL URL] rewrites are only regenerated for store views where there's no overridden `url_key` (where the default `url_key` applies).
 
 <u>Actual Results</u>:
+
 `key_store` [!DNL URL] rewrites are deleted, but the [!DNL URL] rewrite on the **Default Store View** level for the product is still set to *`key_store`*.
 
 ## Apply the patch
