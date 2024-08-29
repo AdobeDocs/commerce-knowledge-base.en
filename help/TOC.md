@@ -802,6 +802,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-56979: Product images removed after staging update deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
     * v1.1.50 {#v1-1-50}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
+        * [ACS-59036: Exception happens when loading product prices](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59036-exception-happens-when-loading-product-prices.md)
         * [ACSD-46938: Performance issues with DB triggers during setup:upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
