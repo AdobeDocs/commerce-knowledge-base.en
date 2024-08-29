@@ -3,6 +3,7 @@ title: Customer profiles not appearing in Experience Platform
 description: This article provides troubleshooting steps if your customer profile data is not appearing in the Experience Platform when using the [!DNL Data Connection] extension.
 feature: Personalization, Integration, Configuration
 role: Admin, Developer
+exl-id: 4f12b032-0bee-47da-927a-8d4c2d8b8276
 ---
 # Customer profiles not appearing in Experience Platform
 

@@ -24,7 +24,7 @@ This is the expected behavior. The user's account should first be created at htt
 ## Solution
 
 1. Ask the user to log in to their account at https://accounts.magento.cloud (they must have already registered for an account at adobe.com under that email address. Creating/having an account at https://account.adobe.com does not automatically mean that the user would have an account at https://accounts.magento.cloud)
-Note: If the user has had an account on account.magento.com or accounts.magento.cloud prior to Aug 2022, they might not have an account with/on adobe.com unless they had created it in Aug 2022 or later. If the user does have an Adobe account and is unable to log in, please send an email to [Grp-Magento-HelpCenterLoginIssues@adobe.com](mailto:Grp-Magento-HelpCenterLoginIssues@adobe.com) with the details. 
+Note: If the user has had an account on account.magento.com or accounts.magento.cloud prior to Aug 2022, they might not have an account with/on adobe.com unless they had created it in Aug 2022 or later. If the user does have an Adobe account and is unable to log in, please [submit a Support request](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) at https://experienceleague.adobe.com/home#support and provide the details (Issue Reason = User Management). 
 1. The user should then go to https://accounts.magento.cloud.
 1. Once they have done that, you should be able to add the user to the project. For steps, refer to [Add users and manage access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-users-and-manage-access) in our Commerce on Cloud Infrastructure Guide. 
 
