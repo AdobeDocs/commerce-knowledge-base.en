@@ -33,7 +33,7 @@ The issue is occurring because the algorithm does not account for NULL values wh
 
 1. Create *13* simple products.
 1. Assign all *13* products to a category.
-1. Set the price of one product to *$1322.94*
+1. Set the price of one product to *$1322.94*.
 1. Set the price of all other products to *$0*.
 1. Configure [!DNL OpenSearch] as a search engine.
 1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Storefront]** and set the **[!UICONTROL PLP]** count to *16*.
