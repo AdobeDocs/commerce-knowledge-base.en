@@ -128,7 +128,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 >
 >Why the Organization/Product matters
 >
->**Example A**: You have Shared Access to only one company and that company has entitlements for two Adobe products: Product1 and Product2.
+>**Example A**: You have shared access to only one company and that company has entitlements for two Adobe products: Product1 and Product2.
 >1. Since each Organization represents one product, you will see two organizations in the dropdown, e.g., OrgA-Product1 and OrgB-Product2.
 >1. If you selected Product = Product1 but your issue is related to Product2, the case will be routed to Product2 support and there will be delays when transferring the case to Product1 support.
 >1. If you submitted the case for OrgA-Product1 and would like to review [!UICONTROL My Cases] for that Organization in the future, you will not see it if you select OrgA-Product2 as the Organization (you would just have to select the other Organization, compared with Example B).
