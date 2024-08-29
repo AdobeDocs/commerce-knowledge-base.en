@@ -1,12 +1,26 @@
 ---
 title: 'ACSD-59229: Customer group data misallocation fixed due to outdated X-magento-vary header'
-description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where customer group-related information is saved in the wrong segment due to the old value of the X-Magento-Vary in the request.
-feature: Customers
+description: Apply the ACSD-59229 patch to fix the Adobe Commerce issue where customer group-related information is saved in the wrong segment due to the old value of the X-Magento-Vary in the request.
+feature: Customers, Personalization, Marketing Tools
 role: Admin, Developer
 ---
 # ACSD-59229: Customer group data misallocation fixed due to outdated X-magento-vary header
 
 The ACSD-59229 patch fixes the issue where customer group-related information is saved in the wrong segment due to the old value of the X-Magento-Vary in the request. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-59229. Please note that the issue is fixed in 2.4.7.
+
+## Affected products and versions
+
+**The patch is created for Adobe Commerce version:**
+
+* Adobe Commerce (all deployment methods) 2.4.4-p8
+
+**Compatible with Adobe Commerce versions:**
+
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p9
+
+>[!NOTE]
+>
+>The patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [[!DNL Quality Patches Tool]: Search for patches page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
 
 ## Issue
 
@@ -19,10 +33,10 @@ Ensure that [!UICONTROL Adobe Commerce B2B] with Sample Data is installed and Va
 <u>Steps to reproduce</u>:
 
 1. Set up advanced pricing for the [!DNL SKU 24-MB01]:
-    1. [!UICONTROL Regular price] = 9999$
+    1. [!UICONTROL Regular price] = **9999$**
     1. [!UICONTROL Catalog and Tier Price]
-        1. Set 200$ for Wholesale
-        1. Set 30$ for Retailer
+        **Set 200$** for Wholesale
+        **Set 30$** for Retailer
 
 1. Create two customer accounts.
 1. Assign both customers to the wholesale group.
