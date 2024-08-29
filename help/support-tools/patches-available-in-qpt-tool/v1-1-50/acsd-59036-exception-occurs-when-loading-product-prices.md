@@ -27,9 +27,7 @@ Adobe Commerce (all deployment methods) 2.4.7 - 2.4.7-p2
 
 An exception occurs when loading product prices with both lower and upper bounds set to *$0*.
 
-## Description
-
-The issue is occurring because the algorithm does not account for NULL values when loading the query with price ranges. To fix this, we can check if both the lower and upper ranges are NULL, and if they are, assign a value of 0 for both limits. This should prevent any errors from being thrown.
+The issue is occurring because the algorithm does not account for NULL values when loading the query with price ranges. To fix this, we can check if both the lower and upper ranges are NULL, and if they are, assign a value of *0* for both limits. This should prevent any errors from being thrown.
 
 <u>Steps to reproduce</u>:
 
