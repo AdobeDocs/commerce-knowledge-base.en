@@ -49,13 +49,13 @@ Partial reindexing throws an error.
 
 1. Check the `var/log/support_report.log` file.
 
-<u>Actual Results</u>:
-
-*Base table or view not found* error occurs when partial reindexing is executed. 
-
 <u>Expected Results</u>
 
 No error.
+
+<u>Actual Results</u>:
+
+*Base table or view not found* error occurs when partial reindexing is executed. 
 
 ## Apply the patch
 
