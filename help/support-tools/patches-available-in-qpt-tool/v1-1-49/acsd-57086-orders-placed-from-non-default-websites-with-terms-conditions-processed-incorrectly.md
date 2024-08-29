@@ -13,7 +13,7 @@ The ACSD-57086 patch fixes the issue where orders placed from non-default websit
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.7
+* Adobe Commerce (all deployment methods) XXX
 
 **Compatible with Adobe Commerce and Magento Open Source versions:**
 
