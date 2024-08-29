@@ -47,7 +47,7 @@ Partial reindexing throws an error.
    bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1 
    ```
 
-1. Check the *var/log/support_report.log file*.
+1. Check the `var/log/support_report.log` file.
 
 <u>Actual Results</u>:
 
