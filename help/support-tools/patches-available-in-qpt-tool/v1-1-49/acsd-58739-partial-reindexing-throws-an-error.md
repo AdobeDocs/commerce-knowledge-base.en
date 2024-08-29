@@ -41,7 +41,7 @@ Partial reindexing throws an error.
    insert into catalogsearch_fulltext_cl (entity_id) select entity_id from catalog_product_entity;
    ```
 
-1. Execute next command to trigger the partial reindex.
+1. Execute the following command to trigger the partial reindex:
 
    ```
    bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1 
