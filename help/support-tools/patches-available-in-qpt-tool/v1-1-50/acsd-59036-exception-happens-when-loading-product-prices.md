@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-59036: An exception happens when loading product prices with both lower and upper bound equal to $0' 
 description: Apply the ACSD-59036 patch to fix the Adobe Commerce issue where an exception happens when loading product prices with both lower and upper bounds equal to *$0*. 
-feature: Search 
+feature: Categories, Products, Storefront
 role: Admin, Developer
 ---
 
