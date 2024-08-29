@@ -38,8 +38,8 @@ The issue is occurring because the algorithm does not account for NULL values wh
 1. Set the price of one product to *$1322.94*
 1. Set the price of all other products to *$0*.
 1. Configure [!DNL OpenSearch] as a search engine.
-1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Storefront]** and set the *[!UICONTROL PLP]* count to *16*.
-1. Set *Price Navigation Step Calculation* to *Automatic (equalize product counts)*.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Storefront]** and set the **[!UICONTROL PLP]** count to *16*.
+1. Set **[!UICONTROL Price Navigation Step Calculation]** to *Automatic (equalize product counts)*.
 1. Run full reindex.
 1. Open the *[!UICONTROL Category]* page.
    
