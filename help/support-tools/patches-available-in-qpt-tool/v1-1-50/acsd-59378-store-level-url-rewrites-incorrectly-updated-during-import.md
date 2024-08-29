@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during import'
 description: Apply the ACSD-59378 patch to fix the Adobe Commerce issue where store-level [!DNL URL] rewrites are incorrectly updated during import.
-feature: Data Import/Export, Variables
+feature: Data Import/Export
 role: Admin, Developer
 ---
 
