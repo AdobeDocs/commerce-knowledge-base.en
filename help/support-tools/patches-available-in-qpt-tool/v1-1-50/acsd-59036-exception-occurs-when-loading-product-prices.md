@@ -15,7 +15,7 @@ The ACSD-59036 patch fixes the issue where an exception occurs when loading prod
 
 Adobe Commerce (all deployment methods) 2.4.7
 
-**Compatible with Adobe Commerce and Magento Open Source versions:**
+**Compatible with Adobe Commerce versions:**
 
 Adobe Commerce (all deployment methods) 2.4.7 - 2.4.7-p2
 
