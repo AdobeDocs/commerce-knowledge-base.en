@@ -801,7 +801,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-57588: Error in region ID processing when shipping to multiple addresses](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
         * [ACSD-56979: Product images removed after staging update deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
         * [ACSD-58054: API token generation for inactive customers](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
-        * [ACSD-57045: URL rewrites cause infinite page looping after **[!UICONTROL Website Root]** unchecked from Hierarchy](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57045-url-rewrites-cause-infinite-page-looping-after-website-root-unchecked-hierarchy.md)
+        * [ACSD-57045: URL rewrites cause infinite page looping after [!UICONTROL Website Root] unchecked from Hierarchy](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57045-url-rewrites-cause-infinite-page-looping-after-website-root-unchecked-hierarchy.md)
     * v1.1.50 {#v1-1-50}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
         * [ACSD-46938: Performance issues with DB triggers during setup:upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
