@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-58446: Deleting a team with child users or teams gives an uninformative error message'
-description: Apply the ACSD-58446 patch to fix the Adobe Commerce issue where when deleting a team with child users or teams gives an uninformative error message.
-feature: Products, GraphQL, Companies
+title: 'ACSD-58446: Deleting a team with child users or teams via GraphQL gives an uninformative error message '
+description: Apply the ACSD-58446 patch to fix the Adobe Commerce issue where deleting a team with child users or teams via GraphQL returns an uninformative error message inconsistent with the UI.
+feature:  Product, GraphQL, Company
 role: Admin, Developer
 ---
-# ACSD-58446: Deleting a team with child users or teams gives an uninformative error message
+# ACSD-58446: Deleting a team with child users or teams via GraphQL gives an uninformative error message 
 
-The ACSD-58446 patch fixes the issue where when deleting a team with child users or teams gives an uninformative error message. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58446. Please note that the issue is scheduled to be fixed in Adobe Commerce B2B 1.5.1
+The ACSD-58446 patch fixes the issue Adobe Commerce where deleting a team with child users or teams via GraphQL returns an uninformative error message inconsistent with the UI. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58446. Please note that the issue is scheduled to be fixed in Adobe Commerce B2B 1.5.1
 
 ## Affected products and versions
 
@@ -22,15 +22,14 @@ The ACSD-58446 patch fixes the issue where when deleting a team with child users
 >
 >The patch might become applicable to other versions with new [!DNL Quality Patches Tool] releases. To check if the patch is compatible with your Adobe Commerce version, update the `magento/quality-patches` package to the latest version and check the compatibility on the [[!DNL Quality Patches Tool]: Search for patches page](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use the patch ID as a search keyword to locate the patch.
 
-
-
 ## Issue
 
-Deleting a team with child users or teams gives an uninformative error message.
+Deleting a team with child users or teams via GraphQL returns an uninformative error message inconsistent with the UI.
 
-<u>Prerequisites</u>:
+## Preconditions:
 
-Adobe Commerce B2B modules are installed. 
+Installed B2B modules. 
+
 <u>Steps to reproduce</u>:
 
 1. Enable the *[!UICONTROL Company]* functionality.
@@ -38,11 +37,11 @@ Adobe Commerce B2B modules are installed.
 1. Log in to the **[!UICONTROL Admin]** and make the company account active.
 1. Check the email and set a password for the new company account.
 1. Create a new team for the company.
-1. Log in as the company user on the storefront and add a new user for the created team.
+1. Login as the  **[!UICONTROL company user]** on the frontend and add a  **[!UICONTROL new user]** for the created team.
 1. Log in to the **[!UICONTROL Admin]**, disable the company user, and set *[!UICONTROL Customer Active]* = *No*
-1. Make sure to delete the created team via GraphQL.
+1. Make sure to delete the created team via GraphQL..
 
-   ```GraphQL
+   ```
    mutation {
      deleteCompanyTeam(
        id: "MQ=="
