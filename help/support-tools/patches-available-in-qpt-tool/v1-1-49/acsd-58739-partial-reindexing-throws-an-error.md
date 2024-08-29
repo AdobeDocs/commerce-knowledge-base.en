@@ -35,7 +35,7 @@ Partial reindexing throws an error.
    bin/magento index:reindex
    ```
 
-1. Add generated product id's into *catalogsearch_fulltext_cl* DB table.
+1. Add generated product IDs into `catalogsearch_fulltext_cl` DB table.
    
    ```
    insert into catalogsearch_fulltext_cl (entity_id) select entity_id from catalog_product_entity;
