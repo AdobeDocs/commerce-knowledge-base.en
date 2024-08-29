@@ -26,6 +26,10 @@ The ACSD-58054 patch fixes the issue where it is possible to generate customer t
 
 Inactive customer token generation via API.
 
+<u>Prerequisites</u>:
+
+The B2B modules are installed.
+
 <u>Steps to reproduce</u>:
 
 1. Create a customer account.
@@ -35,11 +39,11 @@ Inactive customer token generation via API.
 
 <u>Expected results</u>:
 
-The tokens are not generated.
+A token is not generated.
 
 <u>Actual results</u>:
 
-The tokens are generated.
+A token is generated.
 
 ## Apply the patch
 
