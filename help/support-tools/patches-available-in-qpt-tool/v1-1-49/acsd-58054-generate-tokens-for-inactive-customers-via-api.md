@@ -1,19 +1,18 @@
 ---
-title: 'ACSD-46938: Performance issues with DB triggers during `setup:upgrade`'
-description: Apply the ACSD-46938 patch to fix the Adobe Commerce issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns.
-feature: Upgrade
+title: 'ACSD-58054: API token generation for inactive customers'
+description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
+feature: Customers, API Mesh
 role: Admin, Developer
-exl-id: 967727ed-f490-4233-a2b0-fcb2fa3f964b
 ---
-# ACSD-46938: Performance issues with DB triggers during `setup:upgrade`
+# ACSD-58054: API token generation for inactive customers
 
-The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-46938. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4
+* Adobe Commerce (all deployment methods) 2.4.5-p5
 
 **Compatible with Adobe Commerce versions:**
 
@@ -25,25 +24,26 @@ The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes t
 
 ## Issue
 
-Performance degradation during DB trigger recreation in `setup:upgrade`.
+Inactive customer token generation via API.
+
+<u>Prerequisites</u>:
+
+The B2B modules are installed.
 
 <u>Steps to reproduce</u>:
 
-1. Create a large catalog with many products and categories.
-1. Log in to the [!UICONTROL Admin].
-1. Set all indexers to [!UICONTROL Update By Schedule] mode.
-1. Open any product.
-1. Update it. For example, assign a new category to it.
-1. Click [!UICONTROL Save].
-1. Run `bin/magento setup:upgrade` and `bin/magento cron:run` commands in parallel.
+1. Create a customer account.
+1. Create a customer token using API.
+1. Navigate to the backend and disable the customer account.
+1. Try to generate a customer token again.
 
 <u>Expected results</u>:
 
-The execution time of the `bin/magento setup:upgrade` command significantly increases when the `bin/magento cron:run` command is executed simultaneously.
+A token is not generated.
 
 <u>Actual results</u>:
 
-The execution time of the command does not increase.
+A token is generated.
 
 ## Apply the patch
 
