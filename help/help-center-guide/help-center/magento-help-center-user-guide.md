@@ -91,7 +91,6 @@ To submit a new support case using the start page of Adobe Experience League, fo
 >Ensure that you have selected the correct organization before submitting the case, and that the organization you selected has the appropriate entitlements for the product for which you are requesting support. For example, if your issue is related to Adobe Commerce, but you had selected Experience Platform as the product and the case was successfully submitted, this may lead to misrouting of your case and delays in response times. 
 >
 >In addition, if the wrong organization has been selected, your team will not be able to view the case under [!UICONTROL My Cases] for the appropriate/correct organization. The support team does not have the ability to change the organization associated with the case in the future.
->
 
 1. Click on **Support** in the header. It will open the Support homepage.
 
