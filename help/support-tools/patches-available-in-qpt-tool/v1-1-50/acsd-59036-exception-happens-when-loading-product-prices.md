@@ -27,28 +27,31 @@ Adobe Commerce (all deployment methods) 2.4.7 - 2.4.7-p2
 
 An exception happens when loading product prices with both lower and upper bounds equal to *$0*.
 
+## Description
+
+The issue is occurring because the algorithm does not account for NULL values when loading the query with price ranges. To fix this, we can check if both the lower and upper ranges are NULL, and if they are, assign a value of 0 for both limits. This should prevent any errors from being thrown.
+
 <u>Steps to reproduce</u>:
 
-1. Create 13 simple products
-1. Assign all 13 products to a category
-1. Set the price of one product to $1322.94
-1. Set the price of all other products to zero ($0)
-1. Configure OpenSearch as a search engine
-1. In Stores > Configuration > Catalog > Storefront, Set the PLP count to 16
-1. Set "Price Navigation Step Calculation" to "Automatic (equalize product counts)"
-1. Run full reindex
-1. Open the category page
+1. Create *13* simple products.
+1. Assign all *13* products to a category.
+1. Set the price of one product to *$1322.94*
+1. Set the price of all other products to *$0*.
+1. Configure [!DNL OpenSearch] as a search engine.
+1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Storefront]** and set the *[!UICONTROL PLP]* count to *16*.
+1. Set *Price Navigation Step Calculation* to *Automatic (equalize product counts)*.
+1. Run full reindex.
+1. Open the *[!UICONTROL Category]* page.
    
 <u>Expected results</u>:
 
-The category page displays all products.
+The *[!UICONTROL Category]* page displays all the products.
 
 <u>Actual results</u>:
 
-An error happens
+An error occurs:
 
     ```JSON
-
     report.CRITICAL: OpenSearch\Common\Exceptions\BadRequest400Exception: {"error":{"root_cause":[{"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [must]"}],"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [filter]","caused_by":{"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [must]","caused_by":{"type":"illegal_argument_exception","reason":"field name is null or empty"}}},"status":400} in /vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php:664
     ```
 
@@ -67,4 +70,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-
