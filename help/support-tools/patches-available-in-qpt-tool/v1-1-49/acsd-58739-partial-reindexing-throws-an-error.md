@@ -29,7 +29,6 @@ Partial reindexing throws an error.
 <u>Steps to reproduce</u>:
 
 1. Add slave connection settings to the `app/etc/ev.php`.
-   
 1. Generate upto 10000 products and execute-
 
    ```
