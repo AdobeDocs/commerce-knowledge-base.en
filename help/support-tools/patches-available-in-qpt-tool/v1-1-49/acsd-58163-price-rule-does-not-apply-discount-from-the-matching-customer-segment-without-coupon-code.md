@@ -17,7 +17,7 @@ The ACSD-58163 patch fixes the issue where [!UICONTROL Price Rule] does not appl
 
 **Compatible with Adobe Commerce and Magento Open Source versions:**
 
-* Adobe Commerce (all deployment methods) >=2.4.3 <2.4.7
+* Adobe Commerce (all deployment methods) 2.4.3-2.4.7
 
 >[!NOTE]
 >
