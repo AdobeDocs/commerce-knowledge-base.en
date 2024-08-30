@@ -29,7 +29,7 @@ Product options are incorrectly assigned to the admin store instead of their res
 
 <u>Steps to reproduce</u>:
 
-1. Create a *simple product*.
+1. Create a simple product.
 1. Import the same product with a few custom options.
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and open the created product. Click **[!UICONTROL Customizable options]** and make sure the imported options are visible.
 1. Import the same file a few more times.
