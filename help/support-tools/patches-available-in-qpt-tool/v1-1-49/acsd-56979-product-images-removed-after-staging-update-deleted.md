@@ -3,8 +3,8 @@ title: 'ACSD-56979: Product images removed after staging update deleted'
 description: Apply the ACSD-56979 patch to fix the Adobe Commerce issue where product images are removed after deleting a staging update
 feature: Products
 role: Admin, Developer
+exl-id: efb8aada-d775-4428-b7fe-7ab5d41ae2b6
 ---
-
 # ACSD-56979: Product images removed after staging update deleted
 
 The ACSD-56979 patch fixes the issue where product images are removed after deleting a staging update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-56979. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.

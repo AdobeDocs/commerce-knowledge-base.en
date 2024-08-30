@@ -3,6 +3,7 @@ title: '[!DNL Live Search] facets are not alphabetically sorted'
 description: This article provides troubleshooting information if the [!DNL Live Search] facets are not alphabetically sorted.
 feature: Admin Workspace, Categories, Search
 role: Developer
+exl-id: 59f86727-c2a6-4418-8753-40f7937e059c
 ---
 # [!DNL Live Search] facets are not alphabetically sorted
 

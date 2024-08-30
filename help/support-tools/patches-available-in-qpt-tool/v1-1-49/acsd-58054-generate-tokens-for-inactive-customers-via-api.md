@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-57588: Error in region ID processing when shipping to multiple addresses'
-description: Apply the ACSD-57588 patch to fix the Adobe Commerce issue where shipping an order to multiple addresses triggers an error during region ID processing.
-feature: Orders, Shipping/Delivery
+title: 'ACSD-58054: API token generation for inactive customers'
+description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
+feature: Customers, API Mesh
 role: Admin, Developer
-exl-id: 01a33db3-fdbe-4acd-a617-45fb3aee6f3d
 ---
-# ACSD-57588: Error in region ID processing when shipping to multiple addresses
+# ACSD-58054: API token generation for inactive customers
 
-The ACSD-57588 patch fixes the issue where shipping an order to multiple addresses triggers an error during region ID processing. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57588. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.5-p5
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p4
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
 
 >[!NOTE]
 >
@@ -25,23 +24,26 @@ The ACSD-57588 patch fixes the issue where shipping an order to multiple address
 
 ## Issue
 
-Error triggered during region ID processing when shipping to multiple addresses.
+Inactive customer token generation via API.
+
+<u>Prerequisites</u>:
+
+The B2B modules are installed.
 
 <u>Steps to reproduce</u>:
 
-1. Configure the [!DNL Braintree] payment method.
-1. Log in as a customer on the storefront.
-1. Add a product to the cart and proceed to view and edit the cart.
-1. Add multiple addresses *(For example, UK, US, CA)* during the checkout process and review the order.
-1. On the checkout page, select the credit card payment option, enter the necessary credentials, and place the order.
+1. Create a customer account.
+1. Create a customer token using API.
+1. Navigate to the backend and disable the customer account.
+1. Try to generate a customer token again.
 
 <u>Expected results</u>:
 
-Order can be placed successfully.
+A token is not generated.
 
 <u>Actual results</u>:
 
-The order is not placed.
+A token is generated.
 
 ## Apply the patch
 

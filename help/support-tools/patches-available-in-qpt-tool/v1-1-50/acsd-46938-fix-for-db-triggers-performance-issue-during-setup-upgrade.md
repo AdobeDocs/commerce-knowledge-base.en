@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-57588: Error in region ID processing when shipping to multiple addresses'
-description: Apply the ACSD-57588 patch to fix the Adobe Commerce issue where shipping an order to multiple addresses triggers an error during region ID processing.
-feature: Orders, Shipping/Delivery
+title: 'ACSD-46938: Performance issues with DB triggers during `setup:upgrade`'
+description: Apply the ACSD-46938 patch to fix the Adobe Commerce issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns.
+feature: Upgrade
 role: Admin, Developer
-exl-id: 01a33db3-fdbe-4acd-a617-45fb3aee6f3d
+exl-id: 967727ed-f490-4233-a2b0-fcb2fa3f964b
 ---
-# ACSD-57588: Error in region ID processing when shipping to multiple addresses
+# ACSD-46938: Performance issues with DB triggers during `setup:upgrade`
 
-The ACSD-57588 patch fixes the issue where shipping an order to multiple addresses triggers an error during region ID processing. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57588. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-46938. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p4
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
 
 >[!NOTE]
 >
@@ -25,23 +25,25 @@ The ACSD-57588 patch fixes the issue where shipping an order to multiple address
 
 ## Issue
 
-Error triggered during region ID processing when shipping to multiple addresses.
+Performance degradation during DB trigger recreation in `setup:upgrade`.
 
 <u>Steps to reproduce</u>:
 
-1. Configure the [!DNL Braintree] payment method.
-1. Log in as a customer on the storefront.
-1. Add a product to the cart and proceed to view and edit the cart.
-1. Add multiple addresses *(For example, UK, US, CA)* during the checkout process and review the order.
-1. On the checkout page, select the credit card payment option, enter the necessary credentials, and place the order.
+1. Create a large catalog with many products and categories.
+1. Log in to the [!UICONTROL Admin].
+1. Set all indexers to [!UICONTROL Update By Schedule] mode.
+1. Open any product.
+1. Update it. For example, assign a new category to it.
+1. Click [!UICONTROL Save].
+1. Run `bin/magento setup:upgrade` and `bin/magento cron:run` commands in parallel.
 
 <u>Expected results</u>:
 
-Order can be placed successfully.
+The execution time of the `bin/magento setup:upgrade` command significantly increases when the `bin/magento cron:run` command is executed simultaneously.
 
 <u>Actual results</u>:
 
-The order is not placed.
+The execution time of the command does not increase.
 
 ## Apply the patch
 
