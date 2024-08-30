@@ -41,7 +41,7 @@ The attribute is not required for the non-default website.
 <u>Actual results</u>:
 
 * The attribute is required for the non-default website when creating a customer in Admin.
-* The attribute is not required for the non-default website when registering a customer on Storefront.
+* The attribute is not required for the non-default website when registering a customer on storefront.
 
 ## Apply the patch
 
