@@ -1,12 +1,12 @@
 ---
-title: 'ACSD-59229: Customer group data misallocation fixed due to outdated X-magento-vary header'
-description: Apply the ACSD-59229 patch to fix the Adobe Commerce issue where customer group-related information is saved in the wrong segment due to the old value of the X-Magento-Vary in the request.
+title: 'ACSD-59229: Customer group data misallocation due to an outdated X-Magento-Vary value'
+description: Apply the ACSD-59229 patch to fix the Adobe Commerce issue where customer group-related information is saved in the wrong segment because of an outdated X-Magento-Vary value in the request.
 feature: Customers, Personalization, Marketing Tools
 role: Admin, Developer
 ---
-# ACSD-59229: Customer group data misallocation fixed due to outdated X-magento-vary header
+# ACSD-59229: Customer group data misallocation due to an outdated X-Magento-Vary value
 
-The ACSD-59229 patch fixes the issue where customer group-related information is saved in the wrong segment due to the old value of the X-Magento-Vary in the request. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-59229. Please note that the issue is fixed in 2.4.7.
+The ACSD-59229 patch fixes the issue where customer group-related information is saved in the wrong segment because of an outdated X-Magento-Vary value in the request. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-59229. Please note that the issue is fixed in 2.4.7.
 
 ## Affected products and versions
 
@@ -24,22 +24,22 @@ The ACSD-59229 patch fixes the issue where customer group-related information is
 
 ## Issue
 
-Customer group-related information is incorrectly saved in the wrong segment due to outdated X-Magento-Vary header values in requests.
+Customer group-related information is saved in the wrong segment because of an outdated X-Magento-Vary value in the request.
 
 <u>Prerequisites</u>:
 
-Ensure that [!UICONTROL Adobe Commerce B2B] with Sample Data is installed and Varnish is configured.
+Ensure that Adobe Commerce B2B with sample data is installed and [!DNL Varnish] is configured.
 
 <u>Steps to reproduce</u>:
 
 1. Set up advanced pricing for the [!DNL SKU 24-MB01]:
-    1. [!UICONTROL Regular price] = **9999$**
-    1. [!UICONTROL Catalog and Tier Price]
-        **Set 200$** for Wholesale
-        **Set 30$** for Retailer
+    1. [!UICONTROL Regular price] = *9999$*
+    1. [!UICONTROL Catalog and Tier Price]:
+        * *Wholesale* = *$200* 
+         * *Retailer* = *$30* 
 
 1. Create two customer accounts.
-1. Assign both customers to the wholesale group.
+1. Assign both customers to the **Wholesale** group.
 1. Open two different browser sessions and log in with each customer.
 1. Navigate to the **[!UICONTROL 24-MB01]** product page for each customer and verify that the price displayed is *$200*.
 1. Change the customer group for one of the customers to **Retail**.
@@ -48,13 +48,13 @@ Ensure that [!UICONTROL Adobe Commerce B2B] with Sample Data is installed and Va
 
 <u>Expected results</u>:
 
-1. The retail customer can see the correct price of $30 for the product.
-1. The wholesale customer can see the correct price of $200 for the product.
+1. The retail customer can see the correct price of *$30* for the product.
+1. The wholesale customer can see the correct price of *$200* for the product.
 
 <u>Actual results</u>:
 
-1. The retail customer can see the correct price of $30 for the product.
-1. The wholesale customer sees an incorrect price of $30 (retail price) for the product.
+1. The retail customer can see the correct price of *$30* for the product.
+1. The wholesale customer sees an incorrect price of *$30* (retail price) for the product.
 
 ## Apply the patch
 
