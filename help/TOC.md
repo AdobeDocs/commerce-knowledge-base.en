@@ -803,7 +803,7 @@ breadcrumb-title: Commerce KB
     * v1.1.50 {#v1-1-50}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
         * [ACSD-46938: Performance issues with DB triggers during setup:upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
-        * [ACSD-59229: Customer group data misallocation fixed due to outdated X-magento-vary header](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
+        * [ACSD-59229: Customer group data misallocation due to an outdated X-Magento-Vary value](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
