@@ -40,7 +40,7 @@ Custom options are updated.
 
 <u>Actual results</u>:
 
-*Product custom options* were duplicated.
+Product custom options are duplicated.
 
 ## Apply the patch
 
