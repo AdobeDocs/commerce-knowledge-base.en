@@ -48,7 +48,7 @@ The customer data is updated.
 
 <u>Actual results</u>:
 
-You get the following error.
+You get the following error:
 
     ```json
     {
