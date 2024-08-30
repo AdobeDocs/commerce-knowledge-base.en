@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-56979: Product images removed after staging update deleted'
-description: Apply the ACSD-56979 patch to fix the Adobe Commerce issue where product images are removed after deleting a staging update
-feature: Products
+title: 'ACSD-58054: API token generation for inactive customers'
+description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
+feature: Customers, API Mesh
 role: Admin, Developer
-exl-id: efb8aada-d775-4428-b7fe-7ab5d41ae2b6
 ---
-# ACSD-56979: Product images removed after staging update deleted
+# ACSD-58054: API token generation for inactive customers
 
-The ACSD-56979 patch fixes the issue where product images are removed after deleting a staging update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-56979. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.5-p5
 
-**Compatible with Adobe Commerce and Magento Open Source versions:**
+**Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7 
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
 
 >[!NOTE]
 >
@@ -25,26 +24,26 @@ The ACSD-56979 patch fixes the issue where product images are removed after dele
 
 ## Issue
 
-Product images are removed after deleting a staging update.
+Inactive customer token generation via API.
+
+<u>Prerequisites</u>:
+
+The B2B modules are installed.
 
 <u>Steps to reproduce</u>:
 
-1. On the Commerce Admin sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and create a product.
-1. Under **[!UICONTROL Images and Videos]**, upload an image and save the product.
-1. In the **[!UICONTROL Scheduled Changes]** box, select **[!UICONTROL Schedule New Update]**. 
-   1. Choose a start date a few minutes in the future.
-   1. Do not choose an end date.
-1. In the  **[!UICONTROL Scheduled Changes]** box, select the **[!UICONTROL View/Edit]** link.
-1. Go to **[!UICONTROL Remove from Update]** > **[!UICONTROL Delete the Update]** and select **[!UICONTROL Done]**.
-1. Refresh the page.
+1. Create a customer account.
+1. Create a customer token using API.
+1. Navigate to the backend and disable the customer account.
+1. Try to generate a customer token again.
 
 <u>Expected results</u>:
 
-Since the update is removed before the scheduled start date, the product should remain the same.
+A token is not generated.
 
 <u>Actual results</u>:
 
-The image content is lost and shows zero bytes.
+A token is generated.
 
 ## Apply the patch
 
