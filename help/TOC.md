@@ -797,10 +797,17 @@ breadcrumb-title: Commerce KB
         * [ACSD-57565: The order dashboard displays incorrect order information](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57565-the-order-dashboard-displays-incorrect-order-information.md)
     * v1.1.49 {#v1-1-49}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.49](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/overview.md)
+        * [ACSD-57643: Products with custom options are incorrectly added](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
+        * [ACSD-57588: Error in region ID processing when shipping to multiple addresses](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
         * [ACSD-56979: Product images removed after staging update deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
+        * [ACSD-58054: API token generation for inactive customers](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
     * v1.1.50 {#v1-1-50}
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
         * [ACSD-45049: Customer [!UICONTROL Is required] attribute setting doesn't work as per website scope in Admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-45049-customer-attribute-is-required-setting-doesnt-work.md)
+        * [ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during import](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)        
+        * [ACSD-46938: Performance issues with DB triggers during setup:upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
+        * [ACSD-59229: Customer group data misallocation due to an outdated X-Magento-Vary value](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
+        * [ACSD-60441: Updating customers via V1/customers [!DNL REST] API endpoint throws an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)

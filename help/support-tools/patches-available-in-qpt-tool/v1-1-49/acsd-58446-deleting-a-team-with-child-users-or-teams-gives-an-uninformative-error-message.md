@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-56979: Product images removed after staging update deleted'
-description: Apply the ACSD-56979 patch to fix the Adobe Commerce issue where product images are removed after deleting a staging update
-feature: Products
+title: 'ACSD-58446: Deleting a team with child users or teams via GraphQL gives an uninformative error message '
+description: Apply the ACSD-58446 patch to fix the Adobe Commerce issue where deleting a team with child users or teams via GraphQL returns an uninformative error message inconsistent with the UI.
+feature:  Product, GraphQL, Company
 role: Admin, Developer
-exl-id: efb8aada-d775-4428-b7fe-7ab5d41ae2b6
 ---
-# ACSD-56979: Product images removed after staging update deleted
+# ACSD-58446: Deleting a team with child users or teams via GraphQL gives an uninformative error message 
 
-The ACSD-56979 patch fixes the issue where product images are removed after deleting a staging update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-56979. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-58446 patch fixes the issue Adobe Commerce where deleting a team with child users or teams via GraphQL returns an uninformative error message inconsistent with the UI. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58446. Please note that the issue is scheduled to be fixed in Adobe Commerce B2B 1.5.1
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.6-p4
 
 **Compatible with Adobe Commerce and Magento Open Source versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7 
+* Adobe Commerce (all deployment methods) 2.4.6 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,26 +24,40 @@ The ACSD-56979 patch fixes the issue where product images are removed after dele
 
 ## Issue
 
-Product images are removed after deleting a staging update.
+Deleting a team with child users or teams via GraphQL returns an uninformative error message inconsistent with the UI.
+
+## Preconditions:
+
+Installed B2B modules. 
 
 <u>Steps to reproduce</u>:
 
-1. On the Commerce Admin sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and create a product.
-1. Under **[!UICONTROL Images and Videos]**, upload an image and save the product.
-1. In the **[!UICONTROL Scheduled Changes]** box, select **[!UICONTROL Schedule New Update]**. 
-   1. Choose a start date a few minutes in the future.
-   1. Do not choose an end date.
-1. In the  **[!UICONTROL Scheduled Changes]** box, select the **[!UICONTROL View/Edit]** link.
-1. Go to **[!UICONTROL Remove from Update]** > **[!UICONTROL Delete the Update]** and select **[!UICONTROL Done]**.
-1. Refresh the page.
+1. Enable the *[!UICONTROL Company]* functionality.
+1. Create a new company account.
+1. Log in to the **[!UICONTROL Admin]** and make the company account active.
+1. Check the email and set a password for the new company account.
+1. Create a new team for the company.
+1. Login as the  **[!UICONTROL company user]** on the frontend and add a  **[!UICONTROL new user]** for the created team.
+1. Log in to the **[!UICONTROL Admin]**, disable the company user, and set *[!UICONTROL Customer Active]* = *No*
+1. Make sure to delete the created team via GraphQL..
+
+   ```
+   mutation {
+     deleteCompanyTeam(
+       id: "MQ=="
+     ) {
+       success
+     }
+   }
+   ```
 
 <u>Expected results</u>:
 
-Since the update is removed before the scheduled start date, the product should remain the same.
+An informative error message consistent with the UI is returned.
 
 <u>Actual results</u>:
 
-The image content is lost and shows zero bytes.
+A generic internal server error message is returned.
 
 ## Apply the patch
 

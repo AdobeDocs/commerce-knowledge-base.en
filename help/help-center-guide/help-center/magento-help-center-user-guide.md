@@ -83,14 +83,20 @@ To submit a new support case using the start page of Adobe Experience League, fo
 
 >[!INFO]
 >
->1. If you belong to multiple organizations, you will need to select the appropriate organization from the dropdown.
->1. To submit a case, you must be entitled to support. If you are not, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization.
+>1. To submit a case, you must be entitled to support for the appropriate product (e.g., Adobe Commerce, Adobe Commerce Intelligence, Experience Platform, etc.). If you aren't entitled to support, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization. 
+>1. If you belong to multiple organizations or there are multiple organizations with similar-looking names (each one will represent any of the other Adobe products the organization has subscriptions to), you will need to first select the appropriate organization from the dropdown. 
+
+>[!NOTE]
+>
+>Ensure that you have selected the correct organization before submitting the case, and that the organization you selected has the appropriate entitlements for the product for which you are requesting support. For example, if your issue is related to Adobe Commerce, but you had selected Experience Platform as the product and the case was successfully submitted, this may lead to misrouting of your case and delays in response times. 
+>
+>In addition, if the wrong organization has been selected, your team will not be able to view the case under [!UICONTROL My Cases] for the appropriate/correct organization. The support team does not have the ability to change the organization associated with the case in the future.
 
 1. Click on **Support** in the header. It will open the Support homepage.
 
     ![open-support-page](assets/click_support.png)
 
-1. To begin the support intake process, ensure that you have selected the appropriate organization from the dropdown list (if available), as you may have multiple organizations with similar names, each with their own entitlements.
+1. To begin the support intake process, ensure that you have selected the appropriate organization from the Organization dropdown list (if visible).
 
    ![select_appropriate_org](assets/select_appropriate_org.png)
 
@@ -98,7 +104,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 
     ![open-support-case](assets/open_support_case.png)
 
-1. Select a product from the dropdown menu and provide a case title and description.
+1. Select a product from the dropdown menu and provide a case title and description. NOTE: If the dropdown does not display any products or Commerce is not an available option, try switching the Organization in the left column and check again.
 
     ![select_product](assets/support_case_product.png)
 
@@ -117,6 +123,18 @@ To submit a new support case using the start page of Adobe Experience League, fo
 >1. Select your organization from the organization dropdown menu. 
 >1. If your organization still does not appear, contact your Commerce administrator to obtain support delegate rights. For additional information, see the [Commerce Account Share](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) help article. 
 
+>[!NOTE]
+>
+>Why the Organization/Product matters
+>
+>**Example A**: You have shared access to only one company and that company has entitlements for two Adobe products: Product1 and Product2.
+>1. Since each Organization represents one product, you will see two organizations in the dropdown, e.g., OrgA-Product1 and OrgB-Product2.
+>1. If you selected Product = Product1 but your issue is related to Product2, the case will be routed to Product2 support and there will be delays when transferring the case to Product1 support.
+>1. If you submitted the case for OrgA-Product1 and would like to review [!UICONTROL My Cases] for that Organization in the future, you will not see it if you select OrgA-Product2 as the Organization (you would just have to select the other Organization, compared with Example B).
+>
+>**Example B**: You have Shared Access to two companies, and each company only has entitlements for Adobe Commerce.
+>1. If you submitted the case for OrgA but the issue is actually impacting OrgB, members of OrgB will not be able to see this case under [!UICONTROL My Cases] in the future. 
+>1. In addition, members of OrgA will be able to see cases under [!UICONTROL My Cases] that are actually meant for OrgB, which can lead to privacy issues.
 
 You must have an account on both https://account.adobe.com and https://account.magento.com to sign in to the Experience League to submit a support case. You won't be able to submit a support case until you are signed in.
 

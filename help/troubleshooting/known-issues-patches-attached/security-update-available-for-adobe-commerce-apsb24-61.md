@@ -4,6 +4,7 @@ promoted: true
 description: Apply an Isolated patch to remediate [!DNL CVE-2024-39397] for Adobe Commerce 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10, and earlier versions instances only running [!DNL Apache].
 feature: Compliance, Security
 role: Developer
+exl-id: 340b7066-e6d9-4d91-adb0-5b8860c2a5a0
 ---
 # Security update available for Adobe Commerce - [!DNL APSB24-61]
 

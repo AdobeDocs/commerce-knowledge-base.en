@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-56979: Product images removed after staging update deleted'
-description: Apply the ACSD-56979 patch to fix the Adobe Commerce issue where product images are removed after deleting a staging update
-feature: Products
+title: 'ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during import'
+description: Apply the ACSD-59378 patch to fix the Adobe Commerce issue where store-level [!DNL URL] rewrites are incorrectly updated during import.
+feature: Data Import/Export
 role: Admin, Developer
-exl-id: efb8aada-d775-4428-b7fe-7ab5d41ae2b6
 ---
-# ACSD-56979: Product images removed after staging update deleted
 
-The ACSD-56979 patch fixes the issue where product images are removed after deleting a staging update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-56979. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+# ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during import
+
+The ACSD-59378 patch fixes the issue where the store-level [!DNL URL] rewrites are incorrectly updated during import. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-59378. Please note that this issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+Adobe Commerce (all deployment methods) 2.4.5-p5
 
-**Compatible with Adobe Commerce and Magento Open Source versions:**
+**Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7 
+Adobe Commerce (all deployment methods) 2.4.5x (all versions of 2.4.5)
 
 >[!NOTE]
 >
@@ -25,26 +25,24 @@ The ACSD-56979 patch fixes the issue where product images are removed after dele
 
 ## Issue
 
-Product images are removed after deleting a staging update.
+Store-level [!DNL URL] rewrites are incorrectly updated during import.
 
 <u>Steps to reproduce</u>:
 
-1. On the Commerce Admin sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and create a product.
-1. Under **[!UICONTROL Images and Videos]**, upload an image and save the product.
-1. In the **[!UICONTROL Scheduled Changes]** box, select **[!UICONTROL Schedule New Update]**. 
-   1. Choose a start date a few minutes in the future.
-   1. Do not choose an end date.
-1. In the  **[!UICONTROL Scheduled Changes]** box, select the **[!UICONTROL View/Edit]** link.
-1. Go to **[!UICONTROL Remove from Update]** > **[!UICONTROL Delete the Update]** and select **[!UICONTROL Done]**.
-1. Refresh the page.
+1. Create a product with `url_key = key_default` on the **All Store Views** scope.
+1. Set `url_key = key_store` in the **Default Store View** scope.
+1. Export the product.
+1. Import a [!DNL CSV] file for this product with the following data in it:
+    * `store_view_code` column is set to *empty* so that it applies for the **All Store Views** scope.
+    * `url_key` is set to the default key *`key_default`*.
 
-<u>Expected results</u>:
+<u>Expected Results</u>:
 
-Since the update is removed before the scheduled start date, the product should remain the same.
+[!DNL URL] rewrites are only regenerated for store views where there's no overridden `url_key` (where the default `url_key` applies).
 
-<u>Actual results</u>:
+<u>Actual Results</u>:
 
-The image content is lost and shows zero bytes.
+`key_store` [!DNL URL] rewrites are deleted, but the [!DNL URL] rewrite on the **Default Store View** level for the product is still set to *`key_store`*.
 
 ## Apply the patch
 

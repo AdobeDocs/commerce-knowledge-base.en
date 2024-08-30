@@ -3,6 +3,7 @@ title: '[!DNL Live Search] dashboard and search result ranking is incorrect'
 description: This article provides troubleshooting information if the data in the [!DNL Live Search] dashboard is incorrect, or if the ranking of the search results are not what you expect.
 feature: Admin Workspace, Categories, Search
 role: Developer
+exl-id: d4aea1f1-c2c4-45e5-87c8-73069f7c9ffd
 ---
 # [!DNL Live Search] dashboard and search result ranking is incorrect
 
