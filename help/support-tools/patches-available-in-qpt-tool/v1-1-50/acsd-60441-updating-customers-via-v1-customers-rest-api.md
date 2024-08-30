@@ -30,7 +30,7 @@ Updating customers via `V1/customers` [!DNL REST] API endpoint when using the in
 <u>Steps to reproduce</u>:
 
 1. Create an integration from the Admin.
-1. Send a POST request to `rest/default/V1/customers/<customer_id>` using the integration token.
+1. Send a [!DNL POST] request to `rest/default/V1/customers/<customer_id>` using the integration token.
 
     ```json
     {
