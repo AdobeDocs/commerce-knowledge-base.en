@@ -15,7 +15,7 @@ The ACSD-57086 patch fixes the issue where orders placed from non-default websit
 
 * Adobe Commerce (all deployment methods) 2.4.5-p5
 
-**Compatible with Adobe Commerce and Magento Open Source versions:**
+**Compatible with Adobe Commerce versions:**
 
 * Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7
 
@@ -25,7 +25,7 @@ The ACSD-57086 patch fixes the issue where orders placed from non-default websit
 
 ## Issue
 
-While using a multi-store setup with Async order processing, orders placed on any websites/stores other than the main website, are rejected due to issues with scope handling on the queue consumer code.
+While using a multi-store setup with Async order processing, orders placed on any websites/stores other than the main website are rejected due to issues with scope handling on the queue consumer code.
 
 <u>Steps to reproduce</u>:
 
@@ -38,9 +38,9 @@ While using a multi-store setup with Async order processing, orders placed on an
 
 1. Create a secondary website, a store, and a store view.
 1. Create a product that is shared between both websites.
-1. Enable terms and conditions:
+1. Enable terms and conditions.
     * Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout]** > **[!UICONTROL Options]** > **[!UICONTROL Enable Terms And Conditions]** > **[!UICONTROL Yes]**
-1. Configure terms and conditions for both the websites:
+1. Configure terms and conditions for both the websites.
     * Go to **[!UICONTROL Stores]** > **[!UICONTROL Terms And Conditions]** > **[!UICONTROL Add new Condition]**
     * Use the following settings:
 
