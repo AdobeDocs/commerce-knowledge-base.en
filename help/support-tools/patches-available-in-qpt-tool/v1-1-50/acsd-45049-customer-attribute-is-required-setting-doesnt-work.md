@@ -1,12 +1,12 @@
 ---
-title: "ACSD-45049: Customer attribute 'Is required' setting doesn't work as per website scope in Admin"
-description: Apply the ACSD-45049 patch to fix the Adobe Commerce issue where customer "[!UICONTROL Is required]" attribute is not properly overridden as per website scope in Admin.
+title: "ACSD-45049: Customer 'Is required' attribute setting doesn't work as per website scope in Admin"
+description: Apply the ACSD-45049 patch to fix the Adobe Commerce issue where customer "[!UICONTROL Is required]" attribute is not properly overridden as per the website scope in Admin.
 feature: Attributes
 role: Admin, Developer
 ---
 # ACSD-45049: Customer *[!UICONTROL Is required]* attribute setting doesn't work as per website scope in Admin
 
-The ACSD-45049 patch fixes the issue where the customer "Is required" attribute setting doesn't work properly as per website scope in Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 1.1.50 is installed. The patch ID is ACSD-45049. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-45049 patch fixes the issue where the customer *[!UICONTROL Is required]* attribute setting doesn't work properly as per the website scope in Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 1.1.50 is installed. The patch ID is ACSD-45049. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
@@ -24,14 +24,14 @@ The ACSD-45049 patch fixes the issue where the customer "Is required" attribute 
 
 ## Issue
 
-Customer *[!UICONTROL Is required]* attribute setting doesn't work properly as per website scope in Admin.
+Customer *[!UICONTROL Is required]* attribute setting doesn't work properly as per the website scope in Admin.
 
 <u>Steps to reproduce</u>:
 
 1. Create two websites.
 1. Open **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Customer attribute]**.
 1. Create a new attribute, set **[!UICONTROL Is value required]** = *No*.
-1. Switch to the default website, change **[!UICONTROL Is value required]** = *Yes*. The other website has the default value.
+1. Switch to the default website, and change **[!UICONTROL Is value required]** = *Yes*. The other website has the default value.
 1. Create a new customer from Admin for the non-default website.
 
 <u>Expected results</u>:
