@@ -25,7 +25,7 @@ The ACSD-57941 patch fixes the issue where the product options are incorrectly a
 
 ## Issue
 
-**Product options** are incorrectly assigned to the admin store instead of their *respective stores*.
+Product options are incorrectly assigned to the admin store instead of their respective stores.
 
 <u>Steps to reproduce</u>:
 
