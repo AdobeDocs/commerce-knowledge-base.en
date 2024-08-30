@@ -1,13 +1,13 @@
 ---
 title: 'ACSD-57846: GraphQL products search with filter for zero prices not returning results'
-description: Apply the ACSD-57846 patch to fix the Adobe Commerce issue where filtering products for price from zero leads to a malformed request to OpenSearch and does not return any results.
+description: Apply the ACSD-57846 patch to fix the Adobe Commerce issue where filtering products for price from zero leads to a malformed request to [!DNL OpenSearch] and does not return any results.
 feature: GraphQL, Products
 role: Admin, Developer
 ---
 
 # ACSD-57846: GraphQL products search with filter for zero prices not returning results
 
-The ACSD-57846 patch fixes the issue where filtering products for price from zero leads to a malformed request to OpenSearch and does not return any results. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57846. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+The ACSD-57846 patch fixes the issue where filtering products for price from zero leads to a malformed request to [!DNL OpenSearch] and does not return any results. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57846. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
@@ -15,7 +15,7 @@ The ACSD-57846 patch fixes the issue where filtering products for price from zer
 
 * Adobe Commerce (all deployment methods) 2.4.6-p4
 
-**Compatible with Adobe Commerce and Magento Open Source versions:**
+**Compatible with Adobe Commerce versions:**
 
 * Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p7
 
@@ -25,7 +25,7 @@ The ACSD-57846 patch fixes the issue where filtering products for price from zer
 
 ## Issue
 
-Filtering products for price from zero in a GraphQL products search leads to a malformed request to OpenSearch and does not return any results.
+Filtering products for price from zero in a GraphQL products search leads to a malformed request to [!DNL OpenSearch] and does not return any results.
 
 <u>Steps to reproduce</u>:
 
@@ -33,7 +33,7 @@ Filtering products for price from zero in a GraphQL products search leads to a m
     * simple1 - price $0
     * simple2 - price $10
 1. Make sure that both the products are visible on the frontend. 
-1. Send a request with `price:{from:"1"}`
+1. Send a request with `price:{from:"1"}`.
 
     ```graphql
     query {
@@ -60,7 +60,7 @@ Filtering products for price from zero in a GraphQL products search leads to a m
     ```
 
 1. This returns the product, *simple2*.
-1. Now send a request with `price:{from:"0"}`
+1. Now send a request with `price:{from:"0"}`.
 
     ```graphql
     query {
