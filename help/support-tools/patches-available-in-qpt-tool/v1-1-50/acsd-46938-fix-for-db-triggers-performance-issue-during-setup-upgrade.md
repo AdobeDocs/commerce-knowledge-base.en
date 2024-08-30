@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-56979: Product images removed after staging update deleted'
-description: Apply the ACSD-56979 patch to fix the Adobe Commerce issue where product images are removed after deleting a staging update
-feature: Products
+title: 'ACSD-46938: Performance issues with DB triggers during `setup:upgrade`'
+description: Apply the ACSD-46938 patch to fix the Adobe Commerce issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns.
+feature: Upgrade
 role: Admin, Developer
-exl-id: efb8aada-d775-4428-b7fe-7ab5d41ae2b6
+exl-id: 967727ed-f490-4233-a2b0-fcb2fa3f964b
 ---
-# ACSD-56979: Product images removed after staging update deleted
+# ACSD-46938: Performance issues with DB triggers during `setup:upgrade`
 
-The ACSD-56979 patch fixes the issue where product images are removed after deleting a staging update. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-56979. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
+The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-46938. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6
+* Adobe Commerce (all deployment methods) 2.4.4
 
-**Compatible with Adobe Commerce and Magento Open Source versions:**
+**Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7 
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
 
 >[!NOTE]
 >
@@ -25,26 +25,25 @@ The ACSD-56979 patch fixes the issue where product images are removed after dele
 
 ## Issue
 
-Product images are removed after deleting a staging update.
+Performance degradation during DB trigger recreation in `setup:upgrade`.
 
 <u>Steps to reproduce</u>:
 
-1. On the Commerce Admin sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and create a product.
-1. Under **[!UICONTROL Images and Videos]**, upload an image and save the product.
-1. In the **[!UICONTROL Scheduled Changes]** box, select **[!UICONTROL Schedule New Update]**. 
-   1. Choose a start date a few minutes in the future.
-   1. Do not choose an end date.
-1. In the  **[!UICONTROL Scheduled Changes]** box, select the **[!UICONTROL View/Edit]** link.
-1. Go to **[!UICONTROL Remove from Update]** > **[!UICONTROL Delete the Update]** and select **[!UICONTROL Done]**.
-1. Refresh the page.
+1. Create a large catalog with many products and categories.
+1. Log in to the [!UICONTROL Admin].
+1. Set all indexers to [!UICONTROL Update By Schedule] mode.
+1. Open any product.
+1. Update it. For example, assign a new category to it.
+1. Click [!UICONTROL Save].
+1. Run `bin/magento setup:upgrade` and `bin/magento cron:run` commands in parallel.
 
 <u>Expected results</u>:
 
-Since the update is removed before the scheduled start date, the product should remain the same.
+The execution time of the `bin/magento setup:upgrade` command significantly increases when the `bin/magento cron:run` command is executed simultaneously.
 
 <u>Actual results</u>:
 
-The image content is lost and shows zero bytes.
+The execution time of the command does not increase.
 
 ## Apply the patch
 
