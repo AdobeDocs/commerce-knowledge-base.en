@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-46938: Performance issues with DB triggers during `setup:upgrade`'
-description: Apply the ACSD-46938 patch to fix the Adobe Commerce issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns.
-feature: Upgrade
+title: 'ACSD-60441: Updating customers via V1/customers [!DNL REST] API endpoint throws an error'
+description: Apply the ACSD-60441 patch to fix the Adobe Commerce issue where updating customers via V1/customers [!DNL REST] API when using integration access token generated from backend throws an error.
+feature: REST, Customers
 role: Admin, Developer
-exl-id: 967727ed-f490-4233-a2b0-fcb2fa3f964b
 ---
-# ACSD-46938: Performance issues with DB triggers during `setup:upgrade`
 
-The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-46938. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+# ACSD-60441: Updating customers via `V1/customers` [!DNL REST] API endpoint throws an error
+
+The ACSD-60441 patch fixes the issue where updating customers via `V1/customers` [!DNL REST] API when using the integration access token generated from the backend causes an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-60441. Please note that this issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4
+* Adobe Commerce (all deployment methods) 2.4.5-p8
 
-**Compatible with Adobe Commerce versions:**
+**Compatible with Adobe Commerce versions**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.4-p9, 2.4.5-p8, 2.4.6-p6, 2.4.7-p1
 
 >[!NOTE]
 >
@@ -25,25 +25,37 @@ The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes t
 
 ## Issue
 
-Performance degradation during DB trigger recreation in `setup:upgrade`.
+Updating customers via `V1/customers` [!DNL REST] API endpoint when using the integration access token generated from the backend throws an error.
 
 <u>Steps to reproduce</u>:
 
-1. Create a large catalog with many products and categories.
-1. Log in to the [!UICONTROL Admin].
-1. Set all indexers to [!UICONTROL Update By Schedule] mode.
-1. Open any product.
-1. Update it. For example, assign a new category to it.
-1. Click [!UICONTROL Save].
-1. Run `bin/magento setup:upgrade` and `bin/magento cron:run` commands in parallel.
+1. Create an integration from the Admin.
+1. Send a [!DNL POST] request to `rest/default/V1/customers/<customer_id>` using the integration token.
+
+    ```json
+    {
+      "customer": {
+        "email": "roni_cost@example.com",
+        "firstname": "Veronica",
+        "lastname": "Costello"
+      }
+    }
+    ```
 
 <u>Expected results</u>:
 
-The execution time of the `bin/magento setup:upgrade` command significantly increases when the `bin/magento cron:run` command is executed simultaneously.
+The customer data is updated.
 
 <u>Actual results</u>:
 
-The execution time of the command does not increase.
+You get the following error:
+
+    ```json
+    {
+        "message": "A customer with the same email address already exists in an associated website.",
+        "trace": ...
+    }
+    ```
 
 ## Apply the patch
 
