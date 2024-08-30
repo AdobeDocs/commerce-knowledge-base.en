@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-57941: Product options are incorrectly assigned to the admin store'
-description: Apply the ACSD-57941 patch to fix the Adobe Commerce issue where Product options are incorrectly assigned to the admin store instead of their respective stores.
+description: Apply the ACSD-57941 patch to fix the Adobe Commerce issue where product options are incorrectly assigned to the admin store instead of their respective stores.
 feature: Products
 role: Admin, Developer
 ---
