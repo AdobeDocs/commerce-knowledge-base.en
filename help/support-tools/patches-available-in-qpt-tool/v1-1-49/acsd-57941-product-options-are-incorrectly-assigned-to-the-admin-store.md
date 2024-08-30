@@ -36,7 +36,7 @@ Product options are incorrectly assigned to the admin store instead of their res
 
 <u>Expected results</u>:
 
-*Custom options* should have been updated.
+Custom options are updated.
 
 <u>Actual results</u>:
 
