@@ -3,6 +3,7 @@ title: Fix data not updated in [!DNL Commerce Data Exporter] feeds and [!DNL cro
 description: This article provides a solution for fixing data synchronization issues caused by using of wrong view id in [!DNL Commerce Data Exporter mview] subscription.
 feature: Data Import/Export, Saas, Logs
 role: Developer
+exl-id: 50f2223b-bfcf-4c3c-b0f1-dbcc4365edc2
 ---
 # Fix data not updated in [!DNL Commerce Data Exporter] feeds and [!DNL cron] logs errors with changelog table don't exist
 
