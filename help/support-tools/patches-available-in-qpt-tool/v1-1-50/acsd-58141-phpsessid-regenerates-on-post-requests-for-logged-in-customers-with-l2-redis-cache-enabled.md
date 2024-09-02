@@ -39,17 +39,17 @@ Environment must be configured with Redis having at least 3 nodes.
 1. Send a few POST requests
 1. Login to the [!UICONTROL Admin] panel and change the middle name of the customer. 
 1. When the middle name is saved, change it and save it again a few times.
-1. On the Storefront, send a POST request. PHPSESSID should now have changed.
-1. On the Storefront, send another POST request and check PHPSESSID.
+1. On the storefront, send a POST request. PHPSESSID should now have changed.
+1. On the storefront, send another POST request and check PHPSESSID.
 1. Repeat the previous step a few times.<u>Expected results</u>:
 
 <u>Expected results</u>
 
-
+PHPSESSID should be regenerated only once after changing customer data.
 
 <u>Actual results</u>:
 
-Cart Price Rule discount is not applied.
+PHPSESSID is regenerated every time POST requests are sent.
 
 ## Apply the patch
 
