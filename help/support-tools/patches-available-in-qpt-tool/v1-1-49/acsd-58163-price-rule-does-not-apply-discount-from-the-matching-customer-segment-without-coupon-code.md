@@ -36,6 +36,7 @@ The ACSD-58163 patch fixes the issue where [!UICONTROL Price Rule] does not appl
 1. Create *Cart Price Rule*: 
    * Without coupon code.
    * With condition to be matched with visitor customer segment.
+  
 1. Create a simple product.
 1. Open [!DNL Storefront] as guest.
 1. Add one simple product to cart.
