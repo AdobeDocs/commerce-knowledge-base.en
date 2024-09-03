@@ -5,7 +5,7 @@ feature: Storefront
 role: Admin, Developer
 ---
 
-# ACSD-58442: fixes the issue where devices with a width of 768px are treated as mobile, causing the menu and header to load in a mobile view instead of desktop
+# ACSD-58442: Fixes the issue where devices with 768px width treated as mobile, causing menu and header to load in mobile view not desktop
 
 The ACSD-58442 patch fixes the issue where devices with a width of 768px are treated as mobile, causing the menu and header to load in a mobile view instead of desktop. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58442. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
