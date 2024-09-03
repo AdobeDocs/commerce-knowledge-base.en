@@ -17,7 +17,7 @@ The ACSD-57941 patch fixes the issue where the product options are incorrectly a
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.7
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7
 
 >[!NOTE]
 >
