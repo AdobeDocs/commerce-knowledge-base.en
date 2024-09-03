@@ -85,8 +85,6 @@ Order status is *rejected* with the following comment:
 
 *The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.* 
 
-(Log in as Admin and check **[!UICONTROL Sales]** > **[!UICONTROL Orders]**)
-
 ## Apply the patch
 
 To apply individual patches, use the following links depending on your deployment method:
