@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-58375: Wrong YouTube API Key configuration causes an error when adding a YouTube video at the store view level'
 description: Apply the ACSD-58375 patch to fix the Adobe Commerce issue where wrong YouTube API Key configuration causes an error when adding a YouTube video at the store view level.
-feature:
+feature: Catalog Management, Catalog Service, API Mesh, Configuring
 role: Admin, Developer
 ---
 # ACSD-58735: Wrong YouTube API Key configuration causes an error when adding a YouTube video at the store view level
