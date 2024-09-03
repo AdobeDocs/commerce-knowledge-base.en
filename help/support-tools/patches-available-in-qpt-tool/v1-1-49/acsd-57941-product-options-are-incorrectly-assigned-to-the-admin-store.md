@@ -7,7 +7,7 @@ role: Admin, Developer
 
 # ACSD-57941: Product options are incorrectly assigned to the admin store
 
-The ACSD-57941 patch fixes the issue where the product options are incorrectly assigned to the admin store instead of their respective stores. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57941. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
+The ACSD-57941 patch fixes the issue where the product options are incorrectly assigned to the admin store instead of their respective stores. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57941. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
