@@ -53,20 +53,20 @@ If your product data is not synced correctly for a specific SKU, do the followin
 1. Use the following SQL query and verify that you have the data you expect in the `feed_data` column. Also, make a note of the `modified_at` timestamp.
 
     ```sql
-    select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+    select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
     ```
 
 1. If you do not see the correct data, try to reindex using the following command and rerun the SQL query in step 1 to verify the data:
 
     ```bash
-    bin/magento indexer:reindex catalog_data_exporter_products
+    bin/magento indexer:reindex cde_products_feed
     ```
 
 1. If you still do not see the correct data, [create a Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Check timestamp of last product export
 
-1. If you see the correct data in `catalog_data_exporter_products`, use the following SQL query to check the timestamp of the last export. It should be after the `modified_at` timestamp:
+1. If you see the correct data in `cde_products_feed`, use the following SQL query to check the timestamp of the last export. It should be after the `modified_at` timestamp:
 
     ```sql
     select * from scopes_website_data_exporter;
@@ -87,20 +87,20 @@ If your product attribute data isn't synced correctly for a specific attribute c
 1. Use the following SQL query and verify that you have the data you expect in the `feed_data` column. Also, make a note of the `modified_at` timestamp.
 
     ```sql
-    select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
+    select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
     ```
 
 1. If you do not see the correct data, use the following command to reindex and then rerun the SQL query in step 1 to verify the data.
 
     ```bash
-    bin/magento indexer:reindex catalog_data_exporter_product_attributes
+    bin/magento indexer:reindex cde_product_attributes_feed
     ```
 
 1. If you still do not see the correct data, [create a Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Check timestamp of last product attribute export
 
-If you see the correct data in `catalog_data_exporter_product_attributes`:
+If you see the correct data in `cde_product_attributes_feed`:
 
 1. Use the following SQL query to check the timestamp of the last export. It should be after the `modified_at` timestamp.
 
