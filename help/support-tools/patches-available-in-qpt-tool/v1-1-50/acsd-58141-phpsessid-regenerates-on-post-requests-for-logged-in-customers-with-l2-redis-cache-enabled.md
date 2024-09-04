@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-58141: PHPSESSID regenerates on POST requests for logged-in customers with L2 Redis cache enabled'
 description: Apply the ACSD-58141 patch to fix the Adobe Commerce issue where PHPSESSID regenerates on POST requests on the Storefront area for logged-in customer with L2 Redis cache enabled.
-feature: Products
+feature: Customers, Cache
 role: Admin, Developer
 ---
 
@@ -17,7 +17,7 @@ The ACSD-58141 patch fixes the issue where PHPSESSID regenerates on POST request
 
 **Compatible with Adobe Commerce and Magento Open Source versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-2.4.7
+* Adobe Commerce (all deployment methods) 2.4.4-2.4.6-p7
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Environment must be configured with Redis having at least 3 nodes.
 1. When the middle name is saved, change it and save it again a few times.
 1. On the storefront, send a POST request. PHPSESSID should now have changed.
 1. On the storefront, send another POST request and check PHPSESSID.
-1. Repeat the previous step a few times.<u>Expected results</u>:
+1. Repeat the previous step a few times.
 
 <u>Expected results</u>
 
