@@ -1,7 +1,7 @@
 ---
 title: 'ACSD-60303: Admin order placement issue resolved with HTML minification enabled'
 description: Apply the ACSD-60303 patch to fix the Adobe Commerce issue where an order from Admin cannot be placed if HTML minification is enabled.
-feature: Admin Workspace
+feature: Orders
 role: Admin, Developer
 ---
 # ACSD-60303: Admin order placement issue resolved with HTML minification enabled
