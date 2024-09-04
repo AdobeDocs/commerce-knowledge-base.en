@@ -805,6 +805,7 @@ breadcrumb-title: Commerce KB
         * [Overview: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
         * [ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during import](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)        
         * [ACSD-46938: Performance issues with DB triggers during setup:upgrade](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
+        * [ACSD-54887: Customer shopping cart gets cleared after customer session has expired](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-54887-customer-shopping-cart-gets-cleared-after-session-expiry.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)

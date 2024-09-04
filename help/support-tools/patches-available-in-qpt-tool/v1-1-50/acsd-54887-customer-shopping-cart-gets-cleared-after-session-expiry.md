@@ -31,12 +31,12 @@ Customer shopping cart gets cleared after the customer session has expired with 
 
 1. Enable [!UICONTROL Persistent Shopping Cart]. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Persistent Shopping Cart]** = *Yes*.
 
-    Log in with Persistence enabled (Note: It is not available on the popup authorization, but only on the direct [!UICONTROL Sign In] page).
+    Log in with Persistence enabled (Note: It is not available on the popup authorization, but only on the direct [!UICONTROL Sign in] page).
 
 1. Add a product to the cart.
 1. Proceed to checkout and select a payment method.
 1. Expire the session (delete `PHPSESSID`).
-1. Refresh the page. Observe that the quote is immediately converted to a guest quote because a payment method is already selected, and the Persistent Cart cookie is removed.
+1. Refresh the page. Observe that the quote is immediately converted to a guest quote because a payment method is already selected, and the [!UICONTROL Persistent Cart] cookie is removed.
 1. Expire the session (delete `PHPSESSID`).
 1. Refresh the page. See that the cart is empty.
 1. Sign in again.
@@ -65,5 +65,4 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-
 
