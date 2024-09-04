@@ -5,7 +5,7 @@ feature: Customers, Cache
 role: Admin, Developer
 ---
 
-# ACSD-58141: PHPSESSID regenerates on POST requests for logged-in customers if L2 Redis cache is enabled
+# ACSD-58141: PHPSESSID regenerates on POST requestsfor logged-in customers if L2 Redis cache is enabled
 
 The ACSD-58141 patch fixes the issue where PHPSESSID regenerates on POST requests for logged-in customers if L2 Redis cache enabled and the customer is updated from [!UICONTROL Admin]. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58141. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.7.
 
