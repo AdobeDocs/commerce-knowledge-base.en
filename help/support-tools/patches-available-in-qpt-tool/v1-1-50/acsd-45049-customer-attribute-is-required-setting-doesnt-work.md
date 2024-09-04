@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-46938: Performance issues with DB triggers during `setup:upgrade`'
-description: Apply the ACSD-46938 patch to fix the Adobe Commerce issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns.
-feature: Upgrade
+title: "ACSD-45049: Customer 'Is required' attribute setting doesn't work as per website scope in Admin"
+description: Apply the ACSD-45049 patch to fix the Adobe Commerce issue where customer "[!UICONTROL Is required]" attribute is not properly overridden as per the website scope in Admin.
+feature: Attributes, Customers
 role: Admin, Developer
-exl-id: 967727ed-f490-4233-a2b0-fcb2fa3f964b
 ---
-# ACSD-46938: Performance issues with DB triggers during `setup:upgrade`
+# ACSD-45049: Customer *[!UICONTROL Is required]* attribute setting doesn't work as per website scope in Admin
 
-The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-46938. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-45049 patch fixes the issue where the customer *[!UICONTROL Is required]* attribute setting doesn't work properly as per the website scope in Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 1.1.50 is installed. The patch ID is ACSD-45049. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4
+* Adobe Commerce (all deployment methods) 2.4.3-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p7 and 2.4.5 - 2.4.5-p9
 
 >[!NOTE]
 >
@@ -25,25 +24,24 @@ The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes t
 
 ## Issue
 
-Performance degradation during DB trigger recreation in `setup:upgrade`.
+Customer *[!UICONTROL Is required]* attribute setting doesn't work properly as per the website scope in Admin.
 
 <u>Steps to reproduce</u>:
 
-1. Create a large catalog with many products and categories.
-1. Log in to the [!UICONTROL Admin].
-1. Set all indexers to [!UICONTROL Update By Schedule] mode.
-1. Open any product.
-1. Update it. For example, assign a new category to it.
-1. Click [!UICONTROL Save].
-1. Run `bin/magento setup:upgrade` and `bin/magento cron:run` commands in parallel.
+1. Create two websites.
+1. Open **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Customer attribute]**.
+1. Create a new attribute, set **[!UICONTROL Is value required]** = *No*.
+1. Switch to the default website, and change **[!UICONTROL Is value required]** = *Yes*. The other website has the default value.
+1. Create a new customer from Admin for the non-default website.
 
 <u>Expected results</u>:
 
-The execution time of the `bin/magento setup:upgrade` command significantly increases when the `bin/magento cron:run` command is executed simultaneously.
+The attribute is not required for the non-default website.
 
 <u>Actual results</u>:
 
-The execution time of the command does not increase.
+* The attribute is required for the non-default website when creating a customer in Admin.
+* The attribute is not required for the non-default website when registering a customer on storefront.
 
 ## Apply the patch
 

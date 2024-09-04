@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-46938: Performance issues with DB triggers during `setup:upgrade`'
-description: Apply the ACSD-46938 patch to fix the Adobe Commerce issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns.
-feature: Upgrade
+title: 'ACSD-58739: Partial reindexing throws an error'
+description: Apply the ACSD-55241 patch to fix the Adobe Commerce issue where partial reindexing throws an error. 
+feature: Inventory, Products
 role: Admin, Developer
-exl-id: 967727ed-f490-4233-a2b0-fcb2fa3f964b
 ---
-# ACSD-46938: Performance issues with DB triggers during `setup:upgrade`
+# ACSD-58739: Partial reindexing throws an error
 
-The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-46938. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+The ACSD-58739 patch fixes the issue where the partial reindexing throws an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4
+* Adobe Commerce (all deployment methods) 2.4.7
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.7 - 2.4.8
 
 >[!NOTE]
 >
@@ -25,25 +24,38 @@ The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes t
 
 ## Issue
 
-Performance degradation during DB trigger recreation in `setup:upgrade`.
+Partial reindexing throws an error.
 
 <u>Steps to reproduce</u>:
 
-1. Create a large catalog with many products and categories.
-1. Log in to the [!UICONTROL Admin].
-1. Set all indexers to [!UICONTROL Update By Schedule] mode.
-1. Open any product.
-1. Update it. For example, assign a new category to it.
-1. Click [!UICONTROL Save].
-1. Run `bin/magento setup:upgrade` and `bin/magento cron:run` commands in parallel.
+1. Add slave connection settings to the `app/etc/ev.php`.
+1. Generate up to 10000 products and execute the following command:
 
-<u>Expected results</u>:
+   ```
+   bin/magento index:reindex
+   ```
 
-The execution time of the `bin/magento setup:upgrade` command significantly increases when the `bin/magento cron:run` command is executed simultaneously.
+1. Add generated product IDs into `catalogsearch_fulltext_cl` DB table.
+   
+   ```
+   insert into catalogsearch_fulltext_cl (entity_id) select entity_id from catalog_product_entity;
+   ```
 
-<u>Actual results</u>:
+1. Execute the following command to trigger the partial reindex:
 
-The execution time of the command does not increase.
+   ```
+   bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1 
+   ```
+
+1. Check the `var/log/support_report.log` file.
+
+<u>Expected Results</u>
+
+No error.
+
+<u>Actual Results</u>:
+
+*Base table or view not found* error occurs when partial reindexing is executed. 
 
 ## Apply the patch
 

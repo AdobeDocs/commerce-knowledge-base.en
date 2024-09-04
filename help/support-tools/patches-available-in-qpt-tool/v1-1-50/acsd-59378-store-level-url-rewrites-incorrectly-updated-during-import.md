@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-46938: Performance issues with DB triggers during `setup:upgrade`'
-description: Apply the ACSD-46938 patch to fix the Adobe Commerce issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns.
-feature: Upgrade
+title: 'ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during import'
+description: Apply the ACSD-59378 patch to fix the Adobe Commerce issue where store-level [!DNL URL] rewrites are incorrectly updated during import.
+feature: Data Import/Export
 role: Admin, Developer
-exl-id: 967727ed-f490-4233-a2b0-fcb2fa3f964b
 ---
-# ACSD-46938: Performance issues with DB triggers during `setup:upgrade`
 
-The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes the indexer mode from schedule to save, causing significant performance slowdowns. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-46938. Please note that the issue was fixed in Adobe Commerce 2.4.6.
+# ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during import
+
+The ACSD-59378 patch fixes the issue where the store-level [!DNL URL] rewrites are incorrectly updated during import. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-59378. Please note that this issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.4
+Adobe Commerce (all deployment methods) 2.4.5-p5
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+Adobe Commerce (all deployment methods) 2.4.5x (all versions of 2.4.5)
 
 >[!NOTE]
 >
@@ -25,25 +25,24 @@ The ACSD-46938 patch fixes the issue where the `setup:upgrade` command changes t
 
 ## Issue
 
-Performance degradation during DB trigger recreation in `setup:upgrade`.
+Store-level [!DNL URL] rewrites are incorrectly updated during import.
 
 <u>Steps to reproduce</u>:
 
-1. Create a large catalog with many products and categories.
-1. Log in to the [!UICONTROL Admin].
-1. Set all indexers to [!UICONTROL Update By Schedule] mode.
-1. Open any product.
-1. Update it. For example, assign a new category to it.
-1. Click [!UICONTROL Save].
-1. Run `bin/magento setup:upgrade` and `bin/magento cron:run` commands in parallel.
+1. Create a product with `url_key = key_default` on the **All Store Views** scope.
+1. Set `url_key = key_store` in the **Default Store View** scope.
+1. Export the product.
+1. Import a [!DNL CSV] file for this product with the following data in it:
+    * `store_view_code` column is set to *empty* so that it applies for the **All Store Views** scope.
+    * `url_key` is set to the default key *`key_default`*.
 
-<u>Expected results</u>:
+<u>Expected Results</u>:
 
-The execution time of the `bin/magento setup:upgrade` command significantly increases when the `bin/magento cron:run` command is executed simultaneously.
+[!DNL URL] rewrites are only regenerated for store views where there's no overridden `url_key` (where the default `url_key` applies).
 
-<u>Actual results</u>:
+<u>Actual Results</u>:
 
-The execution time of the command does not increase.
+`key_store` [!DNL URL] rewrites are deleted, but the [!DNL URL] rewrite on the **Default Store View** level for the product is still set to *`key_store`*.
 
 ## Apply the patch
 
