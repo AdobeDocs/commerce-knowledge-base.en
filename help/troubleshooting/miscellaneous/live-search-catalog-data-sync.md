@@ -17,6 +17,10 @@ This article provides solutions for the Adobe Commerce issue where your catalog 
 
 Your catalog data is not synchronized correctly, or a new product was added but is not appearing in search results.
 
+>[!NOTE]
+>
+>The table names `catalog_data_exporter_products` and `catalog_data_exporter_product_attributes` are now called `cde_products_feed` and `cde_product_attributes_feed` as of [!DNL Live Search] version 4.2.1.
+
 <u>Steps to reproduce</u>
 
 1. Configure and connect Live Search for your Adobe Commerce instance as described in [Install Live Search > Configure API keys](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) in our user documentation.
