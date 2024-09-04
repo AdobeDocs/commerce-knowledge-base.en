@@ -25,12 +25,12 @@ The ACSD-57086 patch fixes the issue where orders placed from non-default websit
 
 ## Issue
 
-While using a multi-store setup with Async order processing, orders placed on any websites/stores other than the main website are rejected due to issues with scope handling on the queue consumer code.
+While using a multi-store setup with AsyncOrder processing, orders placed on any websites/stores other than the main website are rejected due to issues with scope handling in the queue consumer code.
 
 <u>Steps to reproduce</u>:
 
 1. Install [!DNL RabbitMQ] and execute `bin/magento setup:upgrade` to create the queues for [!DNL RabbitMQ].
-1. Configure Async order processing with:
+1. Configure AsyncOrder processing with:
 
     ```bash
     bin/magento setup:config:set --checkout-async 1
@@ -38,22 +38,23 @@ While using a multi-store setup with Async order processing, orders placed on an
 
 1. Create a secondary website, a store, and a store view.
 1. Create a product that is shared between both websites.
-1. Enable terms and conditions.
-    * Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout]** > **[!UICONTROL Options]** > **[!UICONTROL Enable Terms And Conditions]** > **[!UICONTROL Yes]**
-1. Configure terms and conditions for both the websites.
-    * Go to **[!UICONTROL Stores]** > **[!UICONTROL Terms And Conditions]** > **[!UICONTROL Add new Condition]**
-    * Use the following settings:
+1. Enable terms and conditions:
 
-    ```json
-    {
-        "Condition Name": "anything",
-        "Status": "Enabled",
-        "Applied": "Manually",
-        "Store View": "Default Store View"
-    }
-    ```
+    1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Checkout]** > **[!UICONTROL Checkout Options]**.
+    1. Set *[!UICONTROL Enable Terms And Conditions]* to *Yes*.
 
-    * Create another condition for the second website/store view.
+1. Configure terms and conditions for both the websites:
+
+    1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Terms And Conditions]** > **[!UICONTROL Add New Condition]**.
+    1. Use the following settings:
+
+        * Condition Name: Anything
+        * Status: Enabled
+        * Applied: Manually
+        * Store View: Default Store View
+
+    1. Create another condition for the second website/store view.
+
 1. Change the default website by going to **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**. Click the second website, check *[!UICONTROL Set as Default]* and save.
 1. Clear the cache with:
 
@@ -61,7 +62,7 @@ While using a multi-store setup with Async order processing, orders placed on an
     bin/magento cache:clear
     ```
 
-1. Go to the frontend and add a product to the cart. Proceed to checkout and place an order (you should see a checkbox in the payment method step to accept the terms and conditions).
+1. Go to the Storefront and add a product to the cart. Proceed to checkout and place an order (you should see a checkbox in the payment method step to accept the terms and conditions).
 1. Go back to Admin after placing the order, and change the default website back to the original main website and save.
 1. Clear the cache:
 
