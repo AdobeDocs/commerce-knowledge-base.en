@@ -44,10 +44,10 @@ While using a multi-store setup with AsyncOrder processing, orders placed on any
 1. Configure terms and conditions for both the websites:
     1. Go to **[!UICONTROL Stores]** > **[!UICONTROL Terms And Conditions]** > **[!UICONTROL Add New Condition]**.
     1. Use the following settings:
-        * Condition Name: Anything
-        * Status: Enabled
-        * Applied: Manually
-        * Store View: Default Store View
+        * *[!UICONTROL Condition Name]*: *Anything*
+        * *[!UICONTROL Status]*: *[!UICONTROL Enabled]*
+        * *[!UICONTROL Applied]*: *[!UICONTROL Manually]*
+        * *[!UICONTROL Store View]*: *[!UICONTROL Default Store View]*
     1. Create another condition for the second website/store view.
 1. Change the default website by going to **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**. Click the second website, check *[!UICONTROL Set as Default]* and save.
 1. Clear the cache with:
