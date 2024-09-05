@@ -33,7 +33,7 @@ Wrong YouTube API Key configuration causes an error when adding a YouTube video 
 1. Add **YouTube API Key**.
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**
 1. Select any **[!UICONTROL Product]** > **Images and Video** > Add **Video**.
-1. Copy any YouTube Video Link and paste it into the Video link field. Move out from the field.
+1. Copy a YouTube video link and paste it into the video link field. Move out from the field.
 
 <u>Expected results</u>:
 
