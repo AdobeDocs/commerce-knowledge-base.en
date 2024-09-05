@@ -45,7 +45,7 @@ Environment must be configured with Redis having at least 3 nodes.
 
 <u>Expected results</u>
 
-PHPSESSID should be regenerated only once after changing customer data.
+`PHPSESSID` is regenerated only once after changing customer data.
 
 <u>Actual results</u>:
 
