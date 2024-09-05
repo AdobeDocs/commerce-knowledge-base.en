@@ -49,7 +49,7 @@ Environment must be configured with Redis having at least 3 nodes.
 
 <u>Actual results</u>:
 
-PHPSESSID is regenerated every time POST requests are sent.
+`PHPSESSID` is regenerated every time the [!DNL POST] requests are sent.
 
 ## Apply the patch
 
