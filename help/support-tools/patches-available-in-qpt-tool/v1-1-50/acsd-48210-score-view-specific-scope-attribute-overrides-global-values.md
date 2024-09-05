@@ -1,11 +1,11 @@
 ---
 title: 'ACSD-48210: Store view specific scope attribute overrides global values'
-description: Apply the ACSD-48210 patch to fix the Adobe Commerce issue where importing product prices with multiple rows sharing the same `SKU` and `store_view_code` caused incorrect updates to the prices in the All Store View and Default store scope. Now, modifying the website scope attribute in a specific store view no longer overrides the attribute's value in the global scope.
+description: Apply the ACSD-48210 patch to fix the Adobe Commerce issue of updating a *[!UICONTROL Website Scope]* attribute in a specific store view overrides the attribute values in the global scope.
 
 feature: Products, Attributes
 role: Admin, Developer
 ---
-# ACSD-48210: Store-specific scope attributes override global values
+# ACSD-48210: Store view specific scope attributes override global values
 
 The ACSD-48210 patch fixes the issue where when updating a *[!UICONTROL Website Scope]* attribute within a specific store view overrides the attribute values in the global scope. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-48210. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
@@ -27,11 +27,12 @@ The ACSD-48210 patch fixes the issue where when updating a *[!UICONTROL Website 
 
 When updating a *[!UICONTROL Website Scope]* attribute within a specific store view overrides the attribute values in the global scope.
 
+Importing product prices with multiple rows sharing the same `SKU` and `store_view_code` caused incorrect updates to the prices in the *[!UICONTROL All Store View]* and *[!UICONTROL Default Store]* scopes. Modifying the website scope attribute in a specific store view no longer overrides the attribute's value in the global scope.
 <u>Steps to reproduce</u>:
 
-1. Configure the *[!DNL Catalog Price Scope]* to the **[!UICONTROL Website]**.
-1. Create a simple product named as *[SP01]* and set the price to *[$84.50]*.
-1. Import the product using the following CSV provided below.
+1. Configure the *[!UICONTROL Catalog Price Scope]* to *[!UICONTROL Website]*.
+1. Create a simple product named as *SP01* and set the price to *$84.50*.
+1. Import the product using the following CSV provided below:
     
     ```
     sku,store_view_code,price
