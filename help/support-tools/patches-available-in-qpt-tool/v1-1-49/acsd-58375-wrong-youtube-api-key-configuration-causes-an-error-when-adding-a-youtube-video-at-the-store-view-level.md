@@ -24,7 +24,7 @@ The ACSD-58735 patch fixes the issue where shipping an order to multiple address
 
 ## Issue
 
-Wrong YouTube API Key configuration causes an error when adding a YouTube video at the store view level.
+Wrong YouTube API key configuration causes an error when adding a YouTube video at the store view level.
 
 <u>Steps to reproduce</u>:
 
