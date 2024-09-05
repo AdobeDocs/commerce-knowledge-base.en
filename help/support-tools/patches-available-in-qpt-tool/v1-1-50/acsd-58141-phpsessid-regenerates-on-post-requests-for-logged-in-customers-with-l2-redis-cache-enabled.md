@@ -40,7 +40,7 @@ Environment must be configured with Redis having at least 3 nodes.
 1. Log in to the **[!UICONTROL Admin]** panel and change the middle name of the customer. 
 1. When the middle name is saved, change it and save it again a few times.
 1. On the storefront, send a [!DNL POST] request. `PHPSESSID` should have been updated.
-1. On the Storefront, send another [!DNL POST] request and check `PHPSESSID`.
+1. On the storefront, send another [!DNL POST] request and check `PHPSESSID`.
 1. Repeat the previous step a few times.
 
 <u>Expected results</u>
