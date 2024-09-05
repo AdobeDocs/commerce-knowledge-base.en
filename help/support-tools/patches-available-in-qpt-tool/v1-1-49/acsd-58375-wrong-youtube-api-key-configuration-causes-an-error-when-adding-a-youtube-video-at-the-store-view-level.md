@@ -16,7 +16,7 @@ The ACSD-58735 patch fixes the issue where shipping an order to multiple address
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.2-2.4.6-p7
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p7
 
 >[!NOTE]
 >
