@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-58141: PHPSESSID regenerates on POST requests for logged-in customers with L2 Redis cache enabled'
-description: Apply the ACSD-58141 patch to fix the Adobe Commerce issue where PHPSESSID regenerates on POST requests on the Storefront area for logged-in customer with L2 Redis cache enabled.
+description: Apply the ACSD-58141 patch to fix the Adobe Commerce issue where PHPSESSID regenerates on POST requests on the Storefront area for a logged-in customer with L2 Redis cache enabled, and the customer is updated from Admin.
 feature: Customers, Cache
 role: Admin, Developer
 ---
