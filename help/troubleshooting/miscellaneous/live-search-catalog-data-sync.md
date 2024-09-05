@@ -19,7 +19,7 @@ Your catalog data is not synchronized correctly, or a new product was added but 
 
 >[!NOTE]
 >
->The table names `catalog_data_exporter_products` and `catalog_data_exporter_product_attributes` are now called `cde_products_feed` and `cde_product_attributes_feed` as of [!DNL Live Search] version 4.2.1.  For merchants on versions prior to 4.2.1, look for the data in the old table names, `catalog_data_exporter_products` and `catalog_data_exporter_product_attributes`.
+>The table names catalog_data_exporter_products and catalog_data_exporter_product_attributes are now called cde_products_feed and cde_product_attributes_feed as of [!DNL Live Search] version 4.2.1. For merchants on versions prior to 4.2.1, look for the data in the old table names, catalog_data_exporter_products and catalog_data_exporter_product_attributes.
 
 <u>Steps to reproduce</u>
 
