@@ -25,7 +25,7 @@ The ACSD-58141 patch fixes the issue where `PHPSESSID` regenerates on [!DNL POST
 
 ## Issue
 
-PHPSESSID regenerates on POST requests for logged-in customers with L2 Redis cache enabled.
+`PHPSESSID` regenerates on [!DNL POST] requests for a logged-in customer with the L2 Redis cache enabled.
 
 <u>Prerequisites</u>
 
