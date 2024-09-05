@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # ACSD-58735: Wrong YouTube API Key configuration causes an error when adding a YouTube video at the store view level
 
-The ACSD-58735 patch fixes the issue where shipping an order to multiple addresses triggers an error during region ID processing. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58735. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
+The ACSD-58735 patch fixes the issue where where wrong YouTube API key configuration causes an error when adding a YouTube video at the store view level. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58735. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
