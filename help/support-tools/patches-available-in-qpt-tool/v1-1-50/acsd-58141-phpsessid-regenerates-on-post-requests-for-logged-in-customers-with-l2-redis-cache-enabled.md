@@ -34,7 +34,7 @@ Environment must be configured with Redis having at least 3 nodes.
 <u>Steps to reproduce</u>:
 
 1. Create a simple product.
-1. Create a customer and log in to the storefront.
+1. Create a customer and log in to the Storefront.
 1. Check the value of PHPSESSID.
 1. Send a few POST requests
 1. Login to the [!UICONTROL Admin] panel and change the middle name of the customer. 
