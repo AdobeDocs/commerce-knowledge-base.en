@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-59280: Fix for `ReflectionUnionType::getName()` error in 2.4.4-pX installations'
+title: 'ACSD-59280: `ReflectionUnionType::getName()` error in 2.4.4-pX installations'
 description: Apply the ACSD-59280 patch to fix the Adobe Commerce issue where the `call to undefined method ReflectionUnionType::getName()` error occurs during the installation of 2.4.4-pX versions.
 feature: Install, Upgrade
 role: Admin, Developer
 ---
-# ACSD-59280: Fix for `ReflectionUnionType::getName()` error in 2.4.4-pX installations
+# ACSD-59280: `ReflectionUnionType::getName()` error in 2.4.4-pX installations
 
 The ACSD-59280 patch fixes the issue where the `call to undefined method ReflectionUnionType::getName()` error occurs during the installation of 2.4.4-pX versions. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-59280. Please note that the issue was fixed in Adobe Commerce 2.4.5.
 
