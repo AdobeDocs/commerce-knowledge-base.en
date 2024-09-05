@@ -37,7 +37,7 @@ Wrong YouTube API Key configuration causes an error when adding a YouTube video 
 
 <u>Expected results</u>:
 
-**YouTube API Key** should have a global scope and should be hidden on website level.
+The YouTube API key has a global scope and is hidden at the website level.
 
 <u>Actual results</u>:
 
