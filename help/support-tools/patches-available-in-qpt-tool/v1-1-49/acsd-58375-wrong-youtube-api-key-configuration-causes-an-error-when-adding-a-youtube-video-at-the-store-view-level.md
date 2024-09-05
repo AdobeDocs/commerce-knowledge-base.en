@@ -29,7 +29,7 @@ Wrong YouTube API Key configuration causes an error when adding a YouTube video 
 <u>Steps to reproduce</u>:
 
 1. Go to *Admin* > **Stores** -> **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Product Video]**.
-1. Change the **Scope** to **Main website level**.
+1. Change the *Scope* to *[!UICONTROL Main Website]* level.
 1. Add **YouTube API Key**.
 1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**
 1. Select any **[!UICONTROL Product]** > **Images and Video** > Add **Video**.
