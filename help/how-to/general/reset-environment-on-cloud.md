@@ -30,8 +30,9 @@ With a planned deployment or upgrade, the easiest and recommended [!UICONTROL Ro
 
 <u>On the day of the changes</u>:
 
-1. Place the website into [!UICONTROL Maintenance Mode].<br>
+1. Place the website into [!UICONTROL Maintenance Mode].
 Read more about [Enable or disable [!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) in our user guide, and [[!UICONTROL Maintenance Mode] options for upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html) in our upgrade guide.
+1. Disable cron jobs. Read more about disabling cron jobs in our [crons properties guide](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>).
 1. Take a local [[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html).
 
 <u>If a [!UICONTROL Rollback] is required</u>:
@@ -117,7 +118,7 @@ With [!DNL git] reset, we revert the code to the desired state in the past.
 1. Clone the environment to your local development environment. You may copy the command in the Cloud Console:    ![copy_git_clone.png](assets/copy_git_clone.png)
 1. Access the commits history. Use `--reverse` to display history in reverse order for more convenience: `git log --reverse`
 1. Select the commit hash on which you've been good. To reset code to its authentic state (Vanilla), find the very first commit that created your branch (environment).
-    ![Selecting a commit hash in git console](assets/select_commit_hash.png)
+![alt text](image.png)
 1. Apply hard [!DNL git] reset: `git reset --h <commit_hash>`
 1. Push changes to server: `git push --force <origin> <branch>`
 
