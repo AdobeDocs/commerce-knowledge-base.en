@@ -41,7 +41,7 @@ Wrong YouTube API Key configuration causes an error when adding a YouTube video 
 
 <u>Actual results</u>:
 
-Error: "Video is not  shown due to the following reason: API key not valid. Please pass a valid API key."
+The following error is thrown: *Video is not  shown due to the following reason: API key not valid. Please pass a valid API key*.
 
 ## Apply the patch
 
