@@ -15,7 +15,7 @@ This article provides solutions for the Adobe Commerce issue where your catalog 
 
 ## Issue
 
-Your catalog data is not synchronized correctly, or a new product was added but is not appearing in search results.
+Your catalog data is not synchronized correctly, or a new product was added but does not appear in search results.
 
 >[!NOTE]
 >
