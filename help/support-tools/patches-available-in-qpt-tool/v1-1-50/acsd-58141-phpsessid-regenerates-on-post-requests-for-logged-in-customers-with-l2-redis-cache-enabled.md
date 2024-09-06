@@ -17,7 +17,7 @@ The ACSD-58141 patch fixes the issue where `PHPSESSID` regenerates on [!DNL POST
 
 **Compatible with Adobe Commerce and Magento Open Source versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-2.4.6-p7
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p7
 
 >[!NOTE]
 >
