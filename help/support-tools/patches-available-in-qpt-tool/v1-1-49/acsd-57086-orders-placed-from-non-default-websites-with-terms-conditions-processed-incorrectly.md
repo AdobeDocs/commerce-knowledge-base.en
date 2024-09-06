@@ -3,8 +3,8 @@ title: 'ACSD-57086: Orders from non-default websites with terms and conditions e
 description: Apply the ACSD-57086 patch to fix the Adobe Commerce issue where orders placed from non-default websites with terms and conditions enabled are not processed correctly.
 feature: Orders
 role: Admin, Developer
+exl-id: 400e3673-9c61-4acd-8e37-e9a2e0bf9379
 ---
-
 # ACSD-57086: Orders from non-default websites with terms and conditions enabled are processed incorrectly
 
 The ACSD-57086 patch fixes the issue where orders placed from non-default websites with terms and conditions enabled are not processed correctly. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57086. Please note that this issue was fixed in Adobe Commerce 2.4.7.
