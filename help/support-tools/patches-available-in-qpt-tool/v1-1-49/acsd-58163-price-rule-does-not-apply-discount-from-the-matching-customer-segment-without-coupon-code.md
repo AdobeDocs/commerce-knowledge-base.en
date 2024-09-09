@@ -33,7 +33,7 @@ The ACSD-58163 patch fixes the issue where the [!UICONTROL Cart Price Rule] does
    * For visitors.
    * With the condition to have one product in the shopping cart.
 
-1. Create *Cart Price Rule*: 
+1. Create a *[!UICONTROL Cart Price Rule]*: 
    * Without coupon code.
    * With condition to be matched with visitor customer segment.
   
