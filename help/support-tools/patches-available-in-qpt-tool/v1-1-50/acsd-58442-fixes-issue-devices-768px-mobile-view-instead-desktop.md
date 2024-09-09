@@ -17,7 +17,7 @@ The ACSD-58442 patch fixes the issue where devices with a width of 768px are tre
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) >= 2.4.4 - 2.4.6-p7
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p7
 
 >[!NOTE]
 >
