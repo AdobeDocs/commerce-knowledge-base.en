@@ -38,7 +38,7 @@ The ACSD-58163 patch fixes the issue where the [!UICONTROL Cart Price Rule] does
    * With the condition to match with the visitor customer segment.
   
 1. Create a simple product.
-1. Open [!DNL Storefront] as guest.
+1. Open storefront as a guest.
 1. Add one simple product to cart.
 1. Go to shopping cart.
 
