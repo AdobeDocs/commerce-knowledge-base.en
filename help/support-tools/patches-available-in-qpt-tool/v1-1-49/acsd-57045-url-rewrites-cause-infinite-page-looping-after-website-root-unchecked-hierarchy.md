@@ -15,7 +15,7 @@ The ACSD-57045 patch fixes the issue where URL rewrites cause infinite page loop
 
 * Adobe Commerce (all deployment methods) 2.4.6-p2
 
-**Compatible with Adobe Commerce and Magento Open Source versions:**
+**Compatible with Adobe Commerce versions:**
 
 * Adobe Commerce (all deployment methods) >=2.4.5 < 2.4.6-p7
 
