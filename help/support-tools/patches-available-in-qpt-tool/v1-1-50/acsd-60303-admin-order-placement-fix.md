@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-58054: API token generation for inactive customers'
-description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
-feature: Customers, API Mesh
+title: 'ACSD-60303: Admin order placement issue resolved with HTML minification enabled'
+description: Apply the ACSD-60303 patch to fix the Adobe Commerce issue where an order from Admin cannot be placed if HTML minification is enabled.
+feature: Orders
 role: Admin, Developer
-exl-id: 8c95ff8e-94b1-453a-9bb8-388612b6408f
 ---
-# ACSD-58054: API token generation for inactive customers
+# ACSD-60303: Admin order placement issue resolved with HTML minification enabled
 
-The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
+The ACSD-60303 patch fixes the issue where an order from Admin cannot be placed if HTML minification is enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-60303. Please note that the issue is scheduled to be fixed in 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.5-p8
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.4-p9 - 2.4.4-p10, 2.4.5-p8 - 2.4.5-p9, 2.4.6-p6 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,26 +24,23 @@ The ACSD-58054 patch fixes the issue where it is possible to generate customer t
 
 ## Issue
 
-Inactive customer token generation via API.
-
-<u>Prerequisites</u>:
-
-The B2B modules are installed.
+Orders cannot be placed from the Admin panel when HTML minification is enabled.
 
 <u>Steps to reproduce</u>:
 
-1. Create a customer account.
-1. Create a customer token using API.
-1. Navigate to the backend and disable the customer account.
-1. Try to generate a customer token again.
+1. Enable HTML minification.
+1. Set the **[!UICONTROL Application Mode]** to *[!UICONTROL Production]*.
+1. Create an order from the Admin panel.
 
 <u>Expected results</u>:
 
-A token is not generated.
+The order is placed successfully.
 
 <u>Actual results</u>:
 
-A token is generated.
+The order is not created, and the following error is logged: 
+
+`report.CRITICAL: ParseError: syntax error, unexpected token "<<" in var/view_preprocessed/pub/static/vendor/magento/module-gift-wrapping/view/adminhtml/templates/order/create/info.phtml:1`
 
 ## Apply the patch
 

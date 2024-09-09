@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58054: API token generation for inactive customers'
-description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
-feature: Customers, API Mesh
+title: 'ACSD-58739: Partial reindexing throws an error'
+description: Apply the ACSD-55241 patch to fix the Adobe Commerce issue where partial reindexing throws an error.
+feature: Inventory, Products
 role: Admin, Developer
-exl-id: 8c95ff8e-94b1-453a-9bb8-388612b6408f
+exl-id: 19f177f4-054b-4593-970b-7cbf04710bef
 ---
-# ACSD-58054: API token generation for inactive customers
+# ACSD-58739: Partial reindexing throws an error
 
-The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
+The ACSD-58739 patch fixes the issue where the partial reindexing throws an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.7
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.7 - 2.4.8
 
 >[!NOTE]
 >
@@ -25,26 +25,38 @@ The ACSD-58054 patch fixes the issue where it is possible to generate customer t
 
 ## Issue
 
-Inactive customer token generation via API.
-
-<u>Prerequisites</u>:
-
-The B2B modules are installed.
+Partial reindexing throws an error.
 
 <u>Steps to reproduce</u>:
 
-1. Create a customer account.
-1. Create a customer token using API.
-1. Navigate to the backend and disable the customer account.
-1. Try to generate a customer token again.
+1. Add slave connection settings to the `app/etc/ev.php`.
+1. Generate up to 10000 products and execute the following command:
 
-<u>Expected results</u>:
+   ```
+   bin/magento index:reindex
+   ```
 
-A token is not generated.
+1. Add generated product IDs into `catalogsearch_fulltext_cl` DB table.
+   
+   ```
+   insert into catalogsearch_fulltext_cl (entity_id) select entity_id from catalog_product_entity;
+   ```
 
-<u>Actual results</u>:
+1. Execute the following command to trigger the partial reindex:
 
-A token is generated.
+   ```
+   bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1 
+   ```
+
+1. Check the `var/log/support_report.log` file.
+
+<u>Expected Results</u>
+
+No error.
+
+<u>Actual Results</u>:
+
+*Base table or view not found* error occurs when partial reindexing is executed. 
 
 ## Apply the patch
 
