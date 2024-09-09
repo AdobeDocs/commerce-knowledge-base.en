@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-59036: An exception occurs when loading product prices with both lower and upper bounds set to $0' 
-description: Apply the ACSD-59036 patch to fix the Adobe Commerce issue where an exception occurs when loading product prices with both lower and upper bounds set to *$0*. 
+title: 'ACSD-59036: An exception occurs when loading product prices with both lower and upper bounds set to $0'
+description: Apply the ACSD-59036 patch to fix the Adobe Commerce issue where an exception occurs when loading product prices with both lower and upper bounds set to *$0*.
 feature: Categories, Products, Storefront, Search
 role: Admin, Developer
+exl-id: 40f13aee-5cba-4367-94e2-d8c0e86e96c9
 ---
-
 # ACSD-59036: An exception occurs when loading product prices with both lower and upper bounds set to *$0*
 
 The ACSD-59036 patch fixes the issue where an exception occurs when loading product prices with both lower and upper bounds set to *$0*. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-59036. Please note that this issue is scheduled to be fixed in Adobe Commerce 2.4.8.

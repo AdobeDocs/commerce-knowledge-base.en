@@ -800,6 +800,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-57643: Products with custom options are incorrectly added](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
         * [ACSD-57588: Error in region ID processing when shipping to multiple addresses](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
         * [ACSD-56979: Product images removed after staging update deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
+        * [ACSD-57086: Orders from non-default websites with terms and conditions enabled are processed incorrectly](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57086-orders-placed-from-non-default-websites-with-terms-conditions-processed-incorrectly.md)
         * [ACSD-57941: Product options are incorrectly assigned to the admin store](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57941-product-options-are-incorrectly-assigned-to-the-admin-store.md)
         * [ACSD-58739: Partial reindexing throws an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
         * [ACSD-57846: GraphQL products search with filter for zero prices not returning results](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57846-graphql-products-search-with-filter-for-zero-prices-not-returning-results.md)
@@ -813,6 +814,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-59229: Customer group data misallocation due to an outdated X-Magento-Vary value](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
         * [ACSD-60441: Updating customers via V1/customers [!DNL REST] API endpoint throws an error](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
         * [ACSD-59280: ReflectionUnionType::getName() error in 2.4.4-pX installations](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
+        * [ACSD-60303: Admin order placement issue resolved with HTML minification enabled](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60303-admin-order-placement-fix.md)
     * [Check patch for Adobe Commerce issue with Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
