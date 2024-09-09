@@ -3,8 +3,8 @@ title: 'ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during i
 description: Apply the ACSD-59378 patch to fix the Adobe Commerce issue where store-level [!DNL URL] rewrites are incorrectly updated during import.
 feature: Data Import/Export
 role: Admin, Developer
+exl-id: 4ba567e3-323d-4068-90cc-50aacd45d397
 ---
-
 # ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during import
 
 The ACSD-59378 patch fixes the issue where the store-level [!DNL URL] rewrites are incorrectly updated during import. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-59378. Please note that this issue was fixed in Adobe Commerce 2.4.7.
