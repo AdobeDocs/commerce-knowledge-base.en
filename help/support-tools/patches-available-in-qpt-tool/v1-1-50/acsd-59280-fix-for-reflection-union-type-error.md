@@ -28,7 +28,7 @@ The ACSD-59280 patch fixes the issue where the `call to undefined method Reflect
 
 <u>Steps to reproduce</u>:
 
-Perform a fresh installation using *[!UICONTROL Composer]*.
+Perform a fresh installation using [!UICONTROL Composer].
 
 <u>Expected results</u>:
 
