@@ -44,7 +44,7 @@ URL rewrites cause infinite page looping  after **[!UICONTROL Website Root]** is
    * Redirect Type: *Permanent (301)*
 1. Visit the *test-parent/test-child* path and you should be redirected to *test-child*.
 1. Edit the Child page (**[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** > Pick Child and select **[!UICONTROL Edit]**).
-1. Under the [!UICONTROL Hierarchy] section, keep *Test-Parent* selected but unselect **[!UICONTROL Website Root]** and save.
+1. Under the **[!UICONTROL Hierarchy]** section, keep *Test-Parent* selected but unselect **[!UICONTROL Website Root]** and save.
 1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL URL Rewrites]** and notice that the original *test-child* to *cms/page/view/page_id* redirect is missing, and at that point it is substituted by a path that points the *test-child* to *test-parent/test-child*.
 1. Visit the storefront and try to visit the *Test-Child* page.
 
