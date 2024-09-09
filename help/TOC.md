@@ -800,7 +800,7 @@ breadcrumb-title: Commerce KB
         * [ACSD-57643: Products with custom options are incorrectly added](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
         * [ACSD-57588: Error in region ID processing when shipping to multiple addresses](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
         * [ACSD-56979: Product images removed after staging update deleted](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
-        * [ACSD-58163: [!UICONTROL Cart Price Rule] doesn't apply discount from matching [!UICONTROL Customer Segment] cart without coupon code](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58163-price-rule-does-not-apply-discount-from-the-matching-customer-segment-without-coupon-code.md)
+        * [ACSD-58163: [!UICONTROL Cart Price Rule] doesn't apply discount from matching [!UICONTROL Customer Segment] cart without coupon code](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58163-cart-price-rule-doesn't-apply-discount-from-matching-customer-segment-cart-without-coupon-code.md)
         * [ACSD-57846: GraphQL products search with filter for zero prices not returning results](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57846-graphql-products-search-with-filter-for-zero-prices-not-returning-results.md)
         * [ACSD-58054: API token generation for inactive customers](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
     * v1.1.50 {#v1-1-50}
