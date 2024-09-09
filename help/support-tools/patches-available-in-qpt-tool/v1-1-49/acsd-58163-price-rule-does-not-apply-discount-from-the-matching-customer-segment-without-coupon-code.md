@@ -40,7 +40,7 @@ The ACSD-58163 patch fixes the issue where the [!UICONTROL Cart Price Rule] does
 1. Create a simple product.
 1. Open storefront as a guest.
 1. Add one simple product to cart.
-1. Go to shopping cart.
+1. Go to the shopping cart.
 
 <u>Expected results</u>:
 
