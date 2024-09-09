@@ -1,11 +1,11 @@
 ---
-title: 'ACSD-58163: "[!UICONTROL Cart Price Rule] doesn't apply discount from matching [!UICONTROL Customer Segment] cart without coupon code"'
+title: 'ACSD-58163: [!UICONTROL Cart Price Rule] does not apply discount from matching [!UICONTROL Customer Segment] cart without coupon code'
 description: Apply the ACSD-58163 patch to fix the Adobe Commerce issue where the [!UICONTROL Cart Price Rule] doesn't apply a discount for a guest from the matching [!UICONTROL Customer Segment] cart without a coupon code.
 feature: Products
 role: Admin, Developer
 ---
 
-# ACSD-58163: [!UICONTROL Cart Price Rule] doesn't apply discount from matching [!UICONTROL Customer Segment] cart without coupon code
+# ACSD-58163: [!UICONTROL Cart Price Rule] does not apply discount from matching [!UICONTROL Customer Segment] cart without coupon code
 
 The ACSD-58163 patch fixes the issue where the [!UICONTROL Cart Price Rule] does not apply a discount from the matching [!UICONTROL Customer Segment] cart without a coupon code. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58163. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
 
