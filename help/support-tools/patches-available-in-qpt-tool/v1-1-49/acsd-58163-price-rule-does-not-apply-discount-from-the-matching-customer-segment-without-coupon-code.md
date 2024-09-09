@@ -25,7 +25,7 @@ The ACSD-58163 patch fixes the issue where the [!UICONTROL Cart Price Rule] does
 
 ## Issue
 
-[!UICONTROL Price Rule] doesn't apply a discount for a guest from the matching [!UICONTROL Customer Segment] cart without a coupon code.
+[!UICONTROL Cart Price Rule] doesn't apply a discount for a guest from the matching [!UICONTROL Customer Segment] cart without a coupon code.
 
 <u>Steps to reproduce</u>:
 
