@@ -7,7 +7,7 @@ role: Admin, Developer
 
 # ACSD-58790: Fixes pinch-to-zoom functionality on the product detail page images in mobile view on Chrome
 
-The ACSD-58790 patch fixes the issue where the image in mobile view on Chrome did not zoom in on the image as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
+The ACSD-58790 patch solves the issue where the image in mobile view on Chrome did not zoom in on the image as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
