@@ -34,7 +34,7 @@ Adobe Commerce Page Builder modules are installed and enabled.
 <u>Steps to reproduce</u>:
 
 1. Open the admin panel and click on the [!UICONTROL Content] button.
-1. Select the block and edit the block with ID 1.
+1. Select the block and edit the block.
 1. Change the content and click [!UICONTROL Save].
 1. Open the console and see the error message.
 
