@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-57045: URL rewrites cause infinite page looping after [!UICONTROL Website Root] unchecked from [!UICONTROL Hierarchy]'
-description: Apply the ACSD-57045 patch to fix the Adobe Commerce issue where URL rewrites cause infinite page looping after [!UICONTROL Website Root] is unchecked from [!UICONTROL Hierarchy]
+description: Apply the ACSD-57045 patch to fix the Adobe Commerce issue where URL rewrites cause infinite page looping after [!UICONTROL Website Root] is unchecked from [!UICONTROL Hierarchy].
 feature: CMS
 role: Admin, Developer
 ---
