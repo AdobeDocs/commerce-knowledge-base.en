@@ -29,7 +29,7 @@ Orders cannot be placed from the Admin panel when HTML minification is enabled.
 <u>Steps to reproduce</u>:
 
 1. Enable HTML minification.
-1. Set the **[!UICONTROL Application Mode]** to *[!UICONTROL Production]*.
+1. Set the **[!UICONTROL Application Mode]** to **[!UICONTROL Production]**.
 1. Create an order from the Admin panel.
 
 <u>Expected results</u>:
