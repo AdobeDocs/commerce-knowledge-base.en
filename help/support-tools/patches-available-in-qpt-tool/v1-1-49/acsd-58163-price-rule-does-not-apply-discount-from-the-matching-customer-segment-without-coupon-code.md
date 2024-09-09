@@ -44,7 +44,7 @@ The ACSD-58163 patch fixes the issue where the [!UICONTROL Cart Price Rule] does
 
 <u>Expected results</u>:
 
-*Cart Price Rule* discount is applied.
+*[!UICONTROL Cart Price Rule]* discount is applied.
 
 <u>Actual results</u>:
 
