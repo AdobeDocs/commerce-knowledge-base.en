@@ -35,7 +35,7 @@ URL rewrites cause infinite page looping  after **[!UICONTROL Website Root]** is
 1. Notice that there are two new rewrites:
    * Request path to *Test-Parent* that points to *cms/page/view/page_id/ID_NUMBER_FOR_PAGE*
    * Request path to *Test-Child* that points to *cms/page/view/page_id/ID_NUMBER_FOR_PAGE*
-1. Visit the storefront and add *test-child* to the url. You should see the child page.
+1. Visit the storefront and add *test-child* to the URL. You should see the child page.
 1. Do the same thing, but add *test-parent/test-child/* to the url and see the same page.
 1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Url Rewrits]** and select **[!UICONTROL Add url Rewrite]**. Choose the following settings:
    * Type: *Custom*
