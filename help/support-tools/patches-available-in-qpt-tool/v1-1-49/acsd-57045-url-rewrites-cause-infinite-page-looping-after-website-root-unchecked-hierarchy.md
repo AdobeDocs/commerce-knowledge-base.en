@@ -54,7 +54,7 @@ The *test-child* page is opened.
 
 <u>Actual results</u>:
 
-The *test-child* page is not opened. The browser tries to open the *test-parent/test-child* page in an infinite loop.
+The *Test-Child* page is not opened. The browser tries to open the *test-parent/test-child* page in an infinite loop.
 
 ## Apply the patch
 
