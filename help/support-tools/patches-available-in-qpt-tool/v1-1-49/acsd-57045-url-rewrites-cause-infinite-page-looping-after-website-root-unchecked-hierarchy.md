@@ -50,7 +50,7 @@ URL rewrites cause infinite page looping  after **[!UICONTROL Website Root]** is
 
 <u>Expected results</u>:
 
-The *test-child* page is opened.
+The *Test-Child* page is opened.
 
 <u>Actual results</u>:
 
