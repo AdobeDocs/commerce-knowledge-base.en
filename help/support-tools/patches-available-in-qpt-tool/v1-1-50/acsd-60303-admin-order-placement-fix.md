@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-58739: Partial reindexing throws an error'
-description: Apply the ACSD-55241 patch to fix the Adobe Commerce issue where partial reindexing throws an error.
-feature: Inventory, Products
+title: 'ACSD-60303: Admin order placement issue resolved with HTML minification enabled'
+description: Apply the ACSD-60303 patch to fix the Adobe Commerce issue where an order from Admin cannot be placed if HTML minification is enabled.
+feature: Orders
 role: Admin, Developer
-exl-id: 19f177f4-054b-4593-970b-7cbf04710bef
 ---
-# ACSD-58739: Partial reindexing throws an error
+# ACSD-60303: Admin order placement issue resolved with HTML minification enabled
 
-The ACSD-58739 patch fixes the issue where the partial reindexing throws an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
+The ACSD-60303 patch fixes the issue where an order from Admin cannot be placed if HTML minification is enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-60303. Please note that the issue is scheduled to be fixed in 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.7
+* Adobe Commerce (all deployment methods) 2.4.5-p8
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.7 - 2.4.8
+* Adobe Commerce (all deployment methods) 2.4.4-p9 - 2.4.4-p10, 2.4.5-p8 - 2.4.5-p9, 2.4.6-p6 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,38 +24,23 @@ The ACSD-58739 patch fixes the issue where the partial reindexing throws an erro
 
 ## Issue
 
-Partial reindexing throws an error.
+Orders cannot be placed from the Admin panel when HTML minification is enabled.
 
 <u>Steps to reproduce</u>:
 
-1. Add slave connection settings to the `app/etc/ev.php`.
-1. Generate up to 10000 products and execute the following command:
+1. Enable HTML minification.
+1. Set the **[!UICONTROL Application Mode]** to *[!UICONTROL Production]*.
+1. Create an order from the Admin panel.
 
-   ```
-   bin/magento index:reindex
-   ```
+<u>Expected results</u>:
 
-1. Add generated product IDs into `catalogsearch_fulltext_cl` DB table.
-   
-   ```
-   insert into catalogsearch_fulltext_cl (entity_id) select entity_id from catalog_product_entity;
-   ```
+The order is placed successfully.
 
-1. Execute the following command to trigger the partial reindex:
+<u>Actual results</u>:
 
-   ```
-   bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1 
-   ```
+The order is not created, and the following error is logged: 
 
-1. Check the `var/log/support_report.log` file.
-
-<u>Expected Results</u>
-
-No error.
-
-<u>Actual Results</u>:
-
-*Base table or view not found* error occurs when partial reindexing is executed. 
+`report.CRITICAL: ParseError: syntax error, unexpected token "<<" in var/view_preprocessed/pub/static/vendor/magento/module-gift-wrapping/view/adminhtml/templates/order/create/info.phtml:1`
 
 ## Apply the patch
 
