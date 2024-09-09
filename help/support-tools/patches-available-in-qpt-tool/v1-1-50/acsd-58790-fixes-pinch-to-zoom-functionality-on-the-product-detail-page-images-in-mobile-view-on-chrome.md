@@ -17,7 +17,7 @@ The ACSD-58790 patch solves the issue where the image in mobile view on Chrome d
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) >= 2.4.4 - 2.4.6-p7
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p7
 
 >[!NOTE]
 >
