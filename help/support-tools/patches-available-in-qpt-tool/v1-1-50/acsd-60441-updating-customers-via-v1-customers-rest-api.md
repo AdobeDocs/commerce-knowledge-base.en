@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58054: API token generation for inactive customers'
-description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
-feature: Customers, API Mesh
+title: 'ACSD-60441: Updating customers via V1/customers [!DNL REST] API endpoint throws an error'
+description: Apply the ACSD-60441 patch to fix the Adobe Commerce issue where updating customers via V1/customers [!DNL REST] API when using integration access token generated from backend throws an error.
+feature: REST, Customers
 role: Admin, Developer
-exl-id: 8c95ff8e-94b1-453a-9bb8-388612b6408f
+exl-id: fdc18060-5c6d-4f95-84d3-9ad120fe3a7d
 ---
-# ACSD-58054: API token generation for inactive customers
+# ACSD-60441: Updating customers via `V1/customers` [!DNL REST] API endpoint throws an error
 
-The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
+The ACSD-60441 patch fixes the issue where updating customers via `V1/customers` [!DNL REST] API when using the integration access token generated from the backend causes an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-60441. Please note that this issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.5-p8
 
-**Compatible with Adobe Commerce versions:**
+**Compatible with Adobe Commerce versions**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.4-p9, 2.4.5-p8, 2.4.6-p6, 2.4.7-p1
 
 >[!NOTE]
 >
@@ -25,26 +25,37 @@ The ACSD-58054 patch fixes the issue where it is possible to generate customer t
 
 ## Issue
 
-Inactive customer token generation via API.
-
-<u>Prerequisites</u>:
-
-The B2B modules are installed.
+Updating customers via `V1/customers` [!DNL REST] API endpoint when using the integration access token generated from the backend throws an error.
 
 <u>Steps to reproduce</u>:
 
-1. Create a customer account.
-1. Create a customer token using API.
-1. Navigate to the backend and disable the customer account.
-1. Try to generate a customer token again.
+1. Create an integration from the Admin.
+1. Send a [!DNL POST] request to `rest/default/V1/customers/<customer_id>` using the integration token.
+
+    ```json
+    {
+      "customer": {
+        "email": "roni_cost@example.com",
+        "firstname": "Veronica",
+        "lastname": "Costello"
+      }
+    }
+    ```
 
 <u>Expected results</u>:
 
-A token is not generated.
+The customer data is updated.
 
 <u>Actual results</u>:
 
-A token is generated.
+You get the following error:
+
+    ```json
+    {
+        "message": "A customer with the same email address already exists in an associated website.",
+        "trace": ...
+    }
+    ```
 
 ## Apply the patch
 

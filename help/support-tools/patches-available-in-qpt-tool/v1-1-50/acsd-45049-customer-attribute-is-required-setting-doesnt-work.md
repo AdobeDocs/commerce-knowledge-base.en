@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58054: API token generation for inactive customers'
-description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
-feature: Customers, API Mesh
+title: "ACSD-45049: Customer 'Is required' attribute setting doesn't work as per website scope in Admin"
+description: Apply the ACSD-45049 patch to fix the Adobe Commerce issue where customer "[!UICONTROL Is required]" attribute is not properly overridden as per the website scope in Admin.
+feature: Attributes, Customers
 role: Admin, Developer
-exl-id: 8c95ff8e-94b1-453a-9bb8-388612b6408f
+exl-id: e6ed7076-9d39-4b01-9e20-50ce296032c0
 ---
-# ACSD-58054: API token generation for inactive customers
+# ACSD-45049: Customer *[!UICONTROL Is required]* attribute setting doesn't work as per website scope in Admin
 
-The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
+The ACSD-45049 patch fixes the issue where the customer *[!UICONTROL Is required]* attribute setting doesn't work properly as per the website scope in Admin. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 1.1.50 is installed. The patch ID is ACSD-45049. Please note that the issue was fixed in Adobe Commerce 2.4.6.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.3-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p7 and 2.4.5 - 2.4.5-p9
 
 >[!NOTE]
 >
@@ -25,26 +25,24 @@ The ACSD-58054 patch fixes the issue where it is possible to generate customer t
 
 ## Issue
 
-Inactive customer token generation via API.
-
-<u>Prerequisites</u>:
-
-The B2B modules are installed.
+Customer *[!UICONTROL Is required]* attribute setting doesn't work properly as per the website scope in Admin.
 
 <u>Steps to reproduce</u>:
 
-1. Create a customer account.
-1. Create a customer token using API.
-1. Navigate to the backend and disable the customer account.
-1. Try to generate a customer token again.
+1. Create two websites.
+1. Open **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Customer attribute]**.
+1. Create a new attribute, set **[!UICONTROL Is value required]** = *No*.
+1. Switch to the default website, and change **[!UICONTROL Is value required]** = *Yes*. The other website has the default value.
+1. Create a new customer from Admin for the non-default website.
 
 <u>Expected results</u>:
 
-A token is not generated.
+The attribute is not required for the non-default website.
 
 <u>Actual results</u>:
 
-A token is generated.
+* The attribute is required for the non-default website when creating a customer in Admin.
+* The attribute is not required for the non-default website when registering a customer on storefront.
 
 ## Apply the patch
 

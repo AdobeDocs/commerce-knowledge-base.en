@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58054: API token generation for inactive customers'
-description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
-feature: Customers, API Mesh
+title: 'ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during import'
+description: Apply the ACSD-59378 patch to fix the Adobe Commerce issue where store-level [!DNL URL] rewrites are incorrectly updated during import.
+feature: Data Import/Export
 role: Admin, Developer
-exl-id: 8c95ff8e-94b1-453a-9bb8-388612b6408f
+exl-id: 4ba567e3-323d-4068-90cc-50aacd45d397
 ---
-# ACSD-58054: API token generation for inactive customers
+# ACSD-59378: Store-level [!DNL URL] rewrites incorrectly updated during import
 
-The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
+The ACSD-59378 patch fixes the issue where the store-level [!DNL URL] rewrites are incorrectly updated during import. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-59378. Please note that this issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p5
+Adobe Commerce (all deployment methods) 2.4.5-p5
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+Adobe Commerce (all deployment methods) 2.4.5x (all versions of 2.4.5)
 
 >[!NOTE]
 >
@@ -25,26 +25,24 @@ The ACSD-58054 patch fixes the issue where it is possible to generate customer t
 
 ## Issue
 
-Inactive customer token generation via API.
-
-<u>Prerequisites</u>:
-
-The B2B modules are installed.
+Store-level [!DNL URL] rewrites are incorrectly updated during import.
 
 <u>Steps to reproduce</u>:
 
-1. Create a customer account.
-1. Create a customer token using API.
-1. Navigate to the backend and disable the customer account.
-1. Try to generate a customer token again.
+1. Create a product with `url_key = key_default` on the **All Store Views** scope.
+1. Set `url_key = key_store` in the **Default Store View** scope.
+1. Export the product.
+1. Import a [!DNL CSV] file for this product with the following data in it:
+    * `store_view_code` column is set to *empty* so that it applies for the **All Store Views** scope.
+    * `url_key` is set to the default key *`key_default`*.
 
-<u>Expected results</u>:
+<u>Expected Results</u>:
 
-A token is not generated.
+[!DNL URL] rewrites are only regenerated for store views where there's no overridden `url_key` (where the default `url_key` applies).
 
-<u>Actual results</u>:
+<u>Actual Results</u>:
 
-A token is generated.
+`key_store` [!DNL URL] rewrites are deleted, but the [!DNL URL] rewrite on the **Default Store View** level for the product is still set to *`key_store`*.
 
 ## Apply the patch
 
