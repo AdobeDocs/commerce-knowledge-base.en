@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-58163: [!UICONTROL Price Rule] does not apply discount from the matching [!UICONTROL Customer Segment] cart without coupon code'
+title: 'ACSD-58163: [!UICONTROL Cart Price Rule] doesn't apply discount from matching [!UICONTROL Customer Segment] cart without coupon code'
 description: Apply the ACSD-58163 patch to fix the Adobe Commerce issue where [!UICONTROL Price Rule] doesn't apply a discount for a guest from the matching [!UICONTROL Customer Segment] cart without a coupon code.
 feature: Products
 role: Admin, Developer
