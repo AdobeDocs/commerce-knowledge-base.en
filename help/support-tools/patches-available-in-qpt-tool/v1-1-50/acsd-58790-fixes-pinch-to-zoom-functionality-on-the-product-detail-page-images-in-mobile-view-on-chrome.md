@@ -42,7 +42,7 @@ The image gets zoomed in when double-clicked.
 
 <u>Actual results</u>:
 
-The image does not zoom in when double-clicked. This issue is specific to Chrome in mobile view, as the zoom functionality works as expected in Firefox.
+The image does not zoom in when double-clicked. This issue is specific to [!DNL Chrome] in mobile view, as the zoom functionality works as expected in [!DNL Firefox].
 
 ## Apply the patch
 
