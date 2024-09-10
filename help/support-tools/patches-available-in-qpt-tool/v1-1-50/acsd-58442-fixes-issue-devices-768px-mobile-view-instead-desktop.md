@@ -38,7 +38,7 @@ Menu and Header loads as a desktop view.
 
 <u>Actual results</u>:
 
-Loads as a mobile view.
+Menu and Header loads as a mobile view.
 
 ## Apply the patch
 
