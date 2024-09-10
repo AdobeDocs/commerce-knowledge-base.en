@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-58790: Fixes pinch-to-zoom functionality on the product detail page images in mobile view on [!DNL Chrome]'
-description: ACSD-58790 fixes the Adobe Commerce issue where the image in mobile view on Chrome did not zoom in on the image as expected.
+description: ACSD-58790 fixes the Adobe Commerce issue where the image in mobile view on [!DNL Chrome] did not zoom in on the image as expected.
 feature: Storefront
 role: Admin, Developer
 ---
