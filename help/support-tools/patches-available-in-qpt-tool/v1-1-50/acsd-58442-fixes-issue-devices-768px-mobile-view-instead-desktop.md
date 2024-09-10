@@ -25,7 +25,7 @@ The ACSD-58442 patch fixes the Adobe Commerce issue where devices with a width o
 
 ## Issue
 
-Fixes the issue where devices with a width of 768px are treated as mobile, causing the menu and header to load in a mobile view instead of desktop.
+The system now treats devices with a width of 768px as desktop, ensuring that the menu and header load correctly. Previously, devices with a width of 768px were treated as mobile, causing the menu and header to load in a mobile view.
 
 <u>Steps to reproduce</u>:
 
