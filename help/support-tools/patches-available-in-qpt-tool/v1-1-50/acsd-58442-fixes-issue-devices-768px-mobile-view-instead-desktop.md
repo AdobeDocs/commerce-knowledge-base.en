@@ -29,7 +29,7 @@ Fixes the issue where devices with a width of 768px are treated as mobile, causi
 
 <u>Steps to reproduce</u>:
 
-1. Load the homepage on an iPad Mini or use a browser's inspect tool to resize the browser to a width of 768px.
+1. Load the homepage on an iPad Mini or use a browser's inspect tool to resize the browser to a width of *768px*.
 1. Open the main menu.
 
 <u>Expected results</u>:
