@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58054: API token generation for inactive customers'
-description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
-feature: Customers, API Mesh
+title: 'ACSD-58442: Fixes the issue where devices with 768px width treated as mobile, causing menu and header to load in mobile view not desktop'
+description: Apply the ACSD-58442 patch to fix the Adobe Commerce issue where devices with a width of 768px are treated as mobile, causing the menu and header to load in a mobile view instead of desktop.
+feature: Storefront
 role: Admin, Developer
-exl-id: 8c95ff8e-94b1-453a-9bb8-388612b6408f
 ---
-# ACSD-58054: API token generation for inactive customers
 
-The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
+# ACSD-58442: Fixes the issue where devices with 768px width treated as mobile, causing menu and header to load in mobile view not desktop
+
+The ACSD-58442 patch fixes the Adobe Commerce issue where devices with a width of 768px are treated as mobile, causing the menu and header to load in a mobile view instead of a desktop. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58442. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.6-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,26 +25,20 @@ The ACSD-58054 patch fixes the issue where it is possible to generate customer t
 
 ## Issue
 
-Inactive customer token generation via API.
-
-<u>Prerequisites</u>:
-
-The B2B modules are installed.
+The system now treats devices with a width of 768px as desktop, ensuring that the menu and header load correctly. Previously, devices with a width of 768px were treated as mobile, causing the menu and header to load in a mobile view.
 
 <u>Steps to reproduce</u>:
 
-1. Create a customer account.
-1. Create a customer token using API.
-1. Navigate to the backend and disable the customer account.
-1. Try to generate a customer token again.
+1. Load the homepage on an iPad Mini or use a browser's inspect tool to resize the browser to a width of *768px*.
+1. Open the main menu.
 
 <u>Expected results</u>:
 
-A token is not generated.
+Menu and header loads as a desktop view.
 
 <u>Actual results</u>:
 
-A token is generated.
+Menu and header loads as a mobile view.
 
 ## Apply the patch
 
@@ -61,3 +55,5 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
+
+

@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-58054: API token generation for inactive customers'
-description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
-feature: Customers, API Mesh
+title: 'ACSD-58375: Incorrectly configured YouTube API key causes error when adding video at store view level'
+description: Apply the ACSD-58375 patch to fix the Adobe Commerce issue where wrong YouTube API key configuration causes an error when adding a YouTube video at the store view level.
+feature: Catalog Management, Configuration
 role: Admin, Developer
-exl-id: 8c95ff8e-94b1-453a-9bb8-388612b6408f
 ---
-# ACSD-58054: API token generation for inactive customers
+# ACSD-58735: Incorrectly configured YouTube API key causes error when adding video at store view level
 
-The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
+The ACSD-58735 patch fixes the issue where where wrong YouTube API key configuration causes an error when adding a YouTube video at the store view level. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58735. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,26 +24,24 @@ The ACSD-58054 patch fixes the issue where it is possible to generate customer t
 
 ## Issue
 
-Inactive customer token generation via API.
-
-<u>Prerequisites</u>:
-
-The B2B modules are installed.
+Wrong YouTube API key configuration causes an error when adding a YouTube video at the store view level.
 
 <u>Steps to reproduce</u>:
 
-1. Create a customer account.
-1. Create a customer token using API.
-1. Navigate to the backend and disable the customer account.
-1. Try to generate a customer token again.
+1. Go to Admin > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Product Video]**.
+1. Change the *Scope* to *[!UICONTROL Main Website]* level.
+1. Add the YouTube API key.
+1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Select any product and scroll to *[!UICONTROL Images and Video]*. Click **[!UICONTROL Add Video]**.
+1. Copy a YouTube video link and paste it into the video link field. Move out from the field.
 
 <u>Expected results</u>:
 
-A token is not generated.
+The YouTube API key has a global scope and is hidden at the website level.
 
 <u>Actual results</u>:
 
-A token is generated.
+The following error is thrown: *Video is not  shown due to the following reason: API key not valid. Please pass a valid API key*.
 
 ## Apply the patch
 
