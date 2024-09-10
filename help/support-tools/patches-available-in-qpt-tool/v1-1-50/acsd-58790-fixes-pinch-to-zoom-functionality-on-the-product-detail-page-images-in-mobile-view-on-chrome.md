@@ -38,7 +38,7 @@ Fixes pinch-to-zoom functionality on the product detail page images in mobile vi
 
 <u>Expected results</u>:
 
-The image should get zoomed in when double-clicked on.
+The image gets zoomed in when double-clicked.
 
 <u>Actual results</u>:
 
