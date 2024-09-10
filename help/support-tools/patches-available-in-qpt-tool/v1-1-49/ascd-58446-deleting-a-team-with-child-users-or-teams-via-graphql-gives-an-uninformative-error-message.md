@@ -26,9 +26,9 @@ The ACSD-58446 patch fixes the issue Adobe Commerce where deleting a team with c
 
 Deleting a team with child users or teams via GraphQL returns an uninformative error message inconsistent with the UI.
 
-## Preconditions:
+## Prerequisites:
 
-Installed B2B modules. 
+Adobe Commerce B2B modules installed. 
 
 <u>Steps to reproduce</u>:
 
@@ -37,9 +37,9 @@ Installed B2B modules.
 1. Log in to the **[!UICONTROL Admin]** and make the company account active.
 1. Check the email and set a password for the new company account.
 1. Create a new team for the company.
-1. Login as the  **[!UICONTROL company user]** on the frontend and add a  **[!UICONTROL new user]** for the created team.
+1. Log in as the company user on the Storefront and add a new user for the created team.
 1. Log in to the **[!UICONTROL Admin]**, disable the company user, and set *[!UICONTROL Customer Active]* = *No*
-1. Make sure to delete the created team via GraphQL..
+1. Make sure to delete the created team via GraphQL.
 
    ```
    mutation {
@@ -57,7 +57,7 @@ An informative error message consistent with the UI is returned.
 
 <u>Actual results</u>:
 
-A generic internal server error message is returned.
+A generic internal server error message inconsistent with the UI is returned.
 
 ## Apply the patch
 
