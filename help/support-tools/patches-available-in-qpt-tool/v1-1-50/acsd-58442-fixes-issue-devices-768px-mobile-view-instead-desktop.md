@@ -34,7 +34,7 @@ Fixes the issue where devices with a width of 768px are treated as mobile, causi
 
 <u>Expected results</u>:
 
-Loads as a desktop view.
+Menu and Header loads as a desktop view.
 
 <u>Actual results</u>:
 
