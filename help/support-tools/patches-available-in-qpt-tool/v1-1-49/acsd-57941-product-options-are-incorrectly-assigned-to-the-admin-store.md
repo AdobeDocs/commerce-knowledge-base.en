@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58054: API token generation for inactive customers'
-description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
-feature: Customers, API Mesh
+title: 'ACSD-57941: Product options are incorrectly assigned to the admin store'
+description: Apply the ACSD-57941 patch to fix the Adobe Commerce issue where product options are incorrectly assigned to the admin store instead of their respective stores.
+feature: Products
 role: Admin, Developer
-exl-id: 8c95ff8e-94b1-453a-9bb8-388612b6408f
+exl-id: 7aa6f5c0-b718-4c3a-be0f-d86ae15e31a2
 ---
-# ACSD-58054: API token generation for inactive customers
+# ACSD-57941: Product options are incorrectly assigned to the admin store
 
-The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
+The ACSD-57941 patch fixes the issue where the product options are incorrectly assigned to the admin store instead of their respective stores. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57941. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.6-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,26 +25,22 @@ The ACSD-58054 patch fixes the issue where it is possible to generate customer t
 
 ## Issue
 
-Inactive customer token generation via API.
-
-<u>Prerequisites</u>:
-
-The B2B modules are installed.
+Product options are incorrectly assigned to the admin store instead of their respective stores.
 
 <u>Steps to reproduce</u>:
 
-1. Create a customer account.
-1. Create a customer token using API.
-1. Navigate to the backend and disable the customer account.
-1. Try to generate a customer token again.
+1. Create a simple product.
+1. Import the same product with a few custom options.
+1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and open the created product. Click **[!UICONTROL Customizable options]** and make sure the imported options are visible.
+1. Import the same file a few more times.
 
 <u>Expected results</u>:
 
-A token is not generated.
+Custom options are updated.
 
 <u>Actual results</u>:
 
-A token is generated.
+Product custom options are duplicated.
 
 ## Apply the patch
 
