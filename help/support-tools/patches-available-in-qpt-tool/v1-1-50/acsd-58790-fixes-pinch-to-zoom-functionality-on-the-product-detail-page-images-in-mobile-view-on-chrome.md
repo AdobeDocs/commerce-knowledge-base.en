@@ -34,7 +34,7 @@ Fixes pinch-to-zoom functionality on the product detail page images in mobile vi
 1. Click on the image and verify that the image zooms on double click.
 1. Switch to the mobile view by using the [!DNL Chrome] developer tools.
 1. Click on the image.
-1. Double-tap.
+1. Double tap.
 
 <u>Expected results</u>:
 
