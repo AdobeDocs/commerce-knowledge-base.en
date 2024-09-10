@@ -1,13 +1,13 @@
 ---
-title: 'ACSD-58790: Fixes pinch-to-zoom functionality on the product detail page images in mobile view on Chrome'
+title: 'ACSD-58790: Fixes pinch-to-zoom functionality on the product detail page images in mobile view on [!DNL Chrome]'
 description: ACSD-58790 fixes the Adobe Commerce issue where the image in mobile view on Chrome did not zoom in on the image as expected.
 feature: Storefront
 role: Admin, Developer
 ---
 
-# ACSD-58790: Fixes pinch-to-zoom functionality on the product detail page images in mobile view on Chrome
+# ACSD-58790: Fixes pinch-to-zoom functionality on the product detail page images in mobile view on [!DNL Chrome]
 
-The ACSD-58790 patch fixes the Adobe Commerce issue where the image in mobile view on Chrome did not zoom in on the image as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
+The ACSD-58790 patch fixes the Adobe Commerce issue where the image in mobile view on [!DNL Chrome] did not zoom in on the image as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
@@ -25,14 +25,14 @@ The ACSD-58790 patch fixes the Adobe Commerce issue where the image in mobile vi
 
 ## Issue
 
-Fixes pinch-to-zoom functionality on the product detail page images in mobile view on Chrome.
+Fixes pinch-to-zoom functionality on the product detail page images in mobile view on [!DNL Chrome].
 
 <u>Steps to reproduce</u>:
 
 1. Create a product with an image.
-1. Open the product from a Chrome browser.
+1. Open the product from a [!DNL Chrome] browser.
 1. Click on the image and verify that the image zooms on double click.
-1. Switch to the mobile view by using the Chrome developer tools.
+1. Switch to the mobile view by using the [!DNL Chrome] developer tools.
 1. Click on the image.
 1. Double-tap.
 
