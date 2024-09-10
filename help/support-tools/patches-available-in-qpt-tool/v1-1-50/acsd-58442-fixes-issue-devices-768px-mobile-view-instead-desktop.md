@@ -34,11 +34,11 @@ The system now treats devices with a width of 768px as desktop, ensuring that th
 
 <u>Expected results</u>:
 
-Menu and Header loads as a desktop view.
+Menu and header loads as a desktop view.
 
 <u>Actual results</u>:
 
-Menu and Header loads as a mobile view.
+Menu and header loads as a mobile view.
 
 ## Apply the patch
 
