@@ -25,7 +25,7 @@ The ACSD-57045 patch fixes the issue where URL rewrites cause infinite page loop
 
 ## Issue
 
-URL rewrites cause infinite page looping  after **[!UICONTROL Website Root]** is deslected from **[!UICONTROL Hierarchy]**.
+URL rewrites cause infinite page looping  after **[!UICONTROL Website Root]** is deselected from **[!UICONTROL Hierarchy]**.
 
 <u>Steps to reproduce</u>:
 
