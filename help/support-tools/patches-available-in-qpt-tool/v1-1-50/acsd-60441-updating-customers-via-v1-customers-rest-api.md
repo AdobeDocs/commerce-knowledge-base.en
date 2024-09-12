@@ -3,8 +3,8 @@ title: 'ACSD-60441: Updating customers via V1/customers [!DNL REST] API endpoint
 description: Apply the ACSD-60441 patch to fix the Adobe Commerce issue where updating customers via V1/customers [!DNL REST] API when using integration access token generated from backend throws an error.
 feature: REST, Customers
 role: Admin, Developer
+exl-id: fdc18060-5c6d-4f95-84d3-9ad120fe3a7d
 ---
-
 # ACSD-60441: Updating customers via `V1/customers` [!DNL REST] API endpoint throws an error
 
 The ACSD-60441 patch fixes the issue where updating customers via `V1/customers` [!DNL REST] API when using the integration access token generated from the backend causes an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-60441. Please note that this issue is scheduled to be fixed in Adobe Commerce 2.4.8.
