@@ -1,13 +1,13 @@
 ---
-title: 'ACSD-58352: Return attribute labels for the default store are returned via GrapghQL API'
-description: Apply the ACSD-58352 patch to fix the Adobe Commerce issue where return attribute labels for the default store are returned via GrapghQL API when a non-default store view is specified in the rquest header.
-feature: Products
+title: 'ACSD-58352: Return attribute labels for the default store are returned via [!DNL GrapghQL] API'
+description: Apply the ACSD-58352 patch to fix the Adobe Commerce issue where return attribute labels for the default store are returned via [!DNL GrapghQL] API when a non-default store view is specified in the rquest header.
+feature: GraphQL, Returns
 role: Admin, Developer
 ---
 
-# ACSD-58352: Return attribute labels for the default store are returned via GrapghQL API
+# ACSD-58352: Return attribute labels for the default store are returned via [!DNL GrapghQL] API
 
-The ACSD-58352 patch fixes the issue where return attribute labels for the default store are returned via GrapghQL API when a non-default store view is specified in the rquest header. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58352. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
+The ACSD-58352 patch fixes the issue where return attribute labels for the default store are returned via [!DNL GrapghQL] API when a non-default store view is specified in the rquest header. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58352. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
@@ -17,7 +17,7 @@ The ACSD-58352 patch fixes the issue where return attribute labels for the defau
 
 **Compatible with Adobe Commerce and Magento Open Source versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4-2.4.7
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p6
 
 >[!NOTE]
 >
@@ -25,16 +25,16 @@ The ACSD-58352 patch fixes the issue where return attribute labels for the defau
 
 ## Issue
 
-Return attribute labels for the default store are returned via GrapghQL API
+Return attribute labels for the default store are returned via [!DNL GrapghQL] API
 
 <u>Steps to reproduce</u>:
 
-1. Enable RMA.
-1. Create an additional store and a store view under the default website.
-1. Edit the *Reason for Return* return attribute and add labels for all storeviews.
-1. Create an order.
-1. Create a return for that order. Make sure the return is in Pending status. 
-1. Send a Customer GraphQL query with the specified non- default store view in the header:    
+1. Enable the **[!UICONTROL Return Merchandising Authorization]**.
+1. Create an **[!UICONTROL Additional Store]** and a **[!UICONTROL Store View]** under the default website.
+1. Edit the **[!UICONTROL Reason for Return]** return attribute and add labels for all storeviews.
+1. Create an **[!UICONTROL Order]**.
+1. Create a **[!UICONTROL Return]** for that order. Make sure the **[!UICONTROL Return]** is in **[!UICONTROL Pending]** status. 
+1. Send a Customer [!DNL GraphQL] query with the specified non- default store view in the header:    
 
     ```
     query {
@@ -57,11 +57,11 @@ Return attribute labels for the default store are returned via GrapghQL API
 
 <u>Expected results</u>
 
-Return labels in the GraphQL response should be for the store view set in the request header.
+Return labels in the [!DNL GraphQL] response should be for the store view set in the request header.
 
 <u>Actual results</u>:
 
-Return labels in GraphQL response are for the default store view.
+Return labels in [!DNL GraphQL] response are for the default store view.
 
 ## Apply the patch
 
