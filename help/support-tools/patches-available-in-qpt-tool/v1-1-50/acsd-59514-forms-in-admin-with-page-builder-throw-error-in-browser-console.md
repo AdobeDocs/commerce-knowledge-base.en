@@ -29,7 +29,7 @@ Forms in Admin with [!DNL Page Builder] throw the error *[!DNL Page Builder] was
 
 <u>Prerequisites</u>:
 
-Adobe Commerce Page Builder modules are installed and enabled.
+Adobe Commerce [!DNL Page Builder] modules are installed and enabled.
 
 <u>Steps to reproduce</u>:
 
