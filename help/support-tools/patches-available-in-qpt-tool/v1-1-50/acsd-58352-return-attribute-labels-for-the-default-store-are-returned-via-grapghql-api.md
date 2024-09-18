@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-58352: Return attribute labels for the default store are returned via [!DNL GrapghQL] API'
-description: Apply the ACSD-58352 patch to fix the Adobe Commerce issue where return attribute labels for the default store are returned via [!DNL GrapghQL] API when a non-default store view is specified in the rquest header.
+description: Apply the ACSD-58352 patch to fix the Adobe Commerce issue where return attribute labels for the default store are returned via [!DNL GrapghQL] API when a non-default store view is specified in the request header.
 feature: GraphQL, Returns
 role: Admin, Developer
 ---
