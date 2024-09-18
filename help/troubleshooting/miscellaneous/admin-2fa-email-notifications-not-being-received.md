@@ -31,6 +31,12 @@ If you have not configured the Sender email properly, or your domain has not bee
     ```
 
     * If it doesn't return any results, it means that the Sender address has not been configured.
+Since you you don't have access to the admin, you will have to insert the configuration into the database. Plug in the appropriate email address and run the MySQL statement:
+    
+    ```
+    insert into core_config_data (scope,scope_id,path,value) values ('default',0,'trans_email/ident_general/email', your-email@here.com)
+    ```
+
     * If it returns a result, proceed to **Step 2**.
 
 1. If the email appeared in your Spam folder, click on the link in the email. If the link has since expired, try logging in again to repeat the process.
