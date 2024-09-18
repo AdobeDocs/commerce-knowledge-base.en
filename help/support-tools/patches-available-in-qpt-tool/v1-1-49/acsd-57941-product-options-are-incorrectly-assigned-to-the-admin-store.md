@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58739: Partial reindexing throws an error'
-description: Apply the ACSD-55241 patch to fix the Adobe Commerce issue where partial reindexing throws an error.
-feature: Inventory, Products
+title: 'ACSD-57941: Product options are incorrectly assigned to the admin store'
+description: Apply the ACSD-57941 patch to fix the Adobe Commerce issue where product options are incorrectly assigned to the admin store instead of their respective stores.
+feature: Products
 role: Admin, Developer
-exl-id: 19f177f4-054b-4593-970b-7cbf04710bef
+exl-id: 7aa6f5c0-b718-4c3a-be0f-d86ae15e31a2
 ---
-# ACSD-58739: Partial reindexing throws an error
+# ACSD-57941: Product options are incorrectly assigned to the admin store
 
-The ACSD-58739 patch fixes the issue where the partial reindexing throws an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
+The ACSD-57941 patch fixes the issue where the product options are incorrectly assigned to the admin store instead of their respective stores. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57941. Please note that the issue was fixed in Adobe Commerce 2.4.7.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.7
+* Adobe Commerce (all deployment methods) 2.4.6-p3
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.7 - 2.4.8
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,38 +25,22 @@ The ACSD-58739 patch fixes the issue where the partial reindexing throws an erro
 
 ## Issue
 
-Partial reindexing throws an error.
+Product options are incorrectly assigned to the admin store instead of their respective stores.
 
 <u>Steps to reproduce</u>:
 
-1. Add slave connection settings to the `app/etc/ev.php`.
-1. Generate up to 10000 products and execute the following command:
+1. Create a simple product.
+1. Import the same product with a few custom options.
+1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and open the created product. Click **[!UICONTROL Customizable options]** and make sure the imported options are visible.
+1. Import the same file a few more times.
 
-   ```
-   bin/magento index:reindex
-   ```
+<u>Expected results</u>:
 
-1. Add generated product IDs into `catalogsearch_fulltext_cl` DB table.
-   
-   ```
-   insert into catalogsearch_fulltext_cl (entity_id) select entity_id from catalog_product_entity;
-   ```
+Custom options are updated.
 
-1. Execute the following command to trigger the partial reindex:
+<u>Actual results</u>:
 
-   ```
-   bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1 
-   ```
-
-1. Check the `var/log/support_report.log` file.
-
-<u>Expected Results</u>
-
-No error.
-
-<u>Actual Results</u>:
-
-*Base table or view not found* error occurs when partial reindexing is executed. 
+Product custom options are duplicated.
 
 ## Apply the patch
 

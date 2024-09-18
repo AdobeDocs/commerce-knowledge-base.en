@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58739: Partial reindexing throws an error'
-description: Apply the ACSD-55241 patch to fix the Adobe Commerce issue where partial reindexing throws an error.
-feature: Inventory, Products
+title: 'ACSD-58163: [!UICONTROL Cart Price Rule] does not apply discount from matching [!UICONTROL Customer Segment] cart without coupon code'
+description: Apply the ACSD-58163 patch to fix the Adobe Commerce issue where the [!UICONTROL Cart Price Rule] doesn't apply a discount for a guest from the matching [!UICONTROL Customer Segment] cart without a coupon code.
+feature: Products
 role: Admin, Developer
-exl-id: 19f177f4-054b-4593-970b-7cbf04710bef
 ---
-# ACSD-58739: Partial reindexing throws an error
 
-The ACSD-58739 patch fixes the issue where the partial reindexing throws an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
+# ACSD-58163: [!UICONTROL Cart Price Rule] does not apply discount from matching [!UICONTROL Customer Segment] cart without coupon code
+
+The ACSD-58163 patch fixes the issue where the [!UICONTROL Cart Price Rule] does not apply a discount from the matching [!UICONTROL Customer Segment] cart without a coupon code. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58163. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.5.0.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.7
+* Adobe Commerce (all deployment methods) 2.4.6-p4
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.7 - 2.4.8
+* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,38 +25,30 @@ The ACSD-58739 patch fixes the issue where the partial reindexing throws an erro
 
 ## Issue
 
-Partial reindexing throws an error.
+[!UICONTROL Cart Price Rule] doesn't apply a discount for a guest from the matching [!UICONTROL Customer Segment] cart without a coupon code.
 
 <u>Steps to reproduce</u>:
 
-1. Add slave connection settings to the `app/etc/ev.php`.
-1. Generate up to 10000 products and execute the following command:
+1. Create customer segment:
+   * For visitors.
+   * With the condition to have one product in the shopping cart.
 
-   ```
-   bin/magento index:reindex
-   ```
+1. Create a *[!UICONTROL Cart Price Rule]*: 
+   * Without coupon code.
+   * With the condition to match with the visitor customer segment.
+  
+1. Create a simple product.
+1. Open storefront as a guest.
+1. Add one simple product to the cart.
+1. Go to the shopping cart.
 
-1. Add generated product IDs into `catalogsearch_fulltext_cl` DB table.
-   
-   ```
-   insert into catalogsearch_fulltext_cl (entity_id) select entity_id from catalog_product_entity;
-   ```
+<u>Expected results</u>:
 
-1. Execute the following command to trigger the partial reindex:
+*[!UICONTROL Cart Price Rule]* discount is applied.
 
-   ```
-   bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1 
-   ```
+<u>Actual results</u>:
 
-1. Check the `var/log/support_report.log` file.
-
-<u>Expected Results</u>
-
-No error.
-
-<u>Actual Results</u>:
-
-*Base table or view not found* error occurs when partial reindexing is executed. 
+*[!UICONTROL Cart Price Rule]* discount is not applied.
 
 ## Apply the patch
 

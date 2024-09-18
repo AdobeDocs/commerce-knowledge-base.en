@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58054: API token generation for inactive customers'
-description: Apply the ACSD-58054 patch to fix the Adobe Commerce issue where it is possible to generate customer tokens for inactive customers via API.
-feature: Customers, API Mesh
+title: 'ACSD-54887: Customer shopping cart gets cleared after customer session has expired'
+description: Apply the ACSD-54887 patch to fix the Adobe Commerce issue where the customer shopping cart gets cleared after the customer session has expired with [!UICONTROL Persistent Shopping Cart] enabled.
+feature: Shopping Cart
 role: Admin, Developer
-exl-id: 8c95ff8e-94b1-453a-9bb8-388612b6408f
 ---
-# ACSD-58054: API token generation for inactive customers
 
-The ACSD-58054 patch fixes the issue where it is possible to generate customer tokens for inactive customers via API. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58054. Please note that the issue is scheduled to be fixed in B2B 1.5.1.
+# ACSD-54887: Customer shopping cart gets cleared after customer session has expired
+
+The ACSD-54887 patch fixes the issue where the customer's shopping cart gets cleared after the customer session has expired with [!UICONTROL Persistent Shopping Cart] enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-54887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.5-p5
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.5-p9
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p8, 2.4.5-p3 - 2.4.5-p7, and 2.4.6-p1 - 2.4.6-p5
 
 >[!NOTE]
 >
@@ -25,26 +25,29 @@ The ACSD-58054 patch fixes the issue where it is possible to generate customer t
 
 ## Issue
 
-Inactive customer token generation via API.
-
-<u>Prerequisites</u>:
-
-The B2B modules are installed.
+Customer shopping cart gets cleared after the customer session has expired with [!UICONTROL Persistent Shopping Cart] enabled.
 
 <u>Steps to reproduce</u>:
 
-1. Create a customer account.
-1. Create a customer token using API.
-1. Navigate to the backend and disable the customer account.
-1. Try to generate a customer token again.
+1. Enable [!UICONTROL Persistent Shopping Cart]. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Persistent Shopping Cart]** = *Yes*.
+
+    Log in with Persistence enabled (Note: It is not available on the popup authorization, but only on the direct [!UICONTROL Sign in] page).
+
+1. Add a product to the cart.
+1. Proceed to checkout and select a payment method.
+1. Expire the session (delete `PHPSESSID`).
+1. Refresh the page. Observe that the quote is immediately converted to a guest quote because a payment method is already selected, and the [!UICONTROL Persistent Cart] cookie is removed.
+1. Expire the session (delete `PHPSESSID`).
+1. Refresh the page. See that the cart is empty.
+1. Sign in again.
 
 <u>Expected results</u>:
 
-A token is not generated.
+The cart has the product when you sign in again.
 
 <u>Actual results</u>:
 
-A token is generated.
+The cart is empty when signing in again.
 
 ## Apply the patch
 
@@ -61,3 +64,4 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
+

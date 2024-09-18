@@ -1,23 +1,22 @@
 ---
-title: 'ACSD-58739: Partial reindexing throws an error'
-description: Apply the ACSD-55241 patch to fix the Adobe Commerce issue where partial reindexing throws an error.
-feature: Inventory, Products
+title: 'ACSD-58375: Incorrectly configured YouTube API key causes error when adding video at store view level'
+description: Apply the ACSD-58375 patch to fix the Adobe Commerce issue where wrong YouTube API key configuration causes an error when adding a YouTube video at the store view level.
+feature: Catalog Management, Configuration
 role: Admin, Developer
-exl-id: 19f177f4-054b-4593-970b-7cbf04710bef
 ---
-# ACSD-58739: Partial reindexing throws an error
+# ACSD-58735: Incorrectly configured YouTube API key causes error when adding video at store view level
 
-The ACSD-58739 patch fixes the issue where the partial reindexing throws an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
+The ACSD-58735 patch fixes the issue where where wrong YouTube API key configuration causes an error when adding a YouTube video at the store view level. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58735. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.7
+* Adobe Commerce (all deployment methods) 2.4.5-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.7 - 2.4.8
+* Adobe Commerce (all deployment methods) 2.4.2 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,38 +24,24 @@ The ACSD-58739 patch fixes the issue where the partial reindexing throws an erro
 
 ## Issue
 
-Partial reindexing throws an error.
+Wrong YouTube API key configuration causes an error when adding a YouTube video at the store view level.
 
 <u>Steps to reproduce</u>:
 
-1. Add slave connection settings to the `app/etc/ev.php`.
-1. Generate up to 10000 products and execute the following command:
+1. Go to Admin > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Product Video]**.
+1. Change the *Scope* to *[!UICONTROL Main Website]* level.
+1. Add the YouTube API key.
+1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Select any product and scroll to *[!UICONTROL Images and Video]*. Click **[!UICONTROL Add Video]**.
+1. Copy a YouTube video link and paste it into the video link field. Move out from the field.
 
-   ```
-   bin/magento index:reindex
-   ```
+<u>Expected results</u>:
 
-1. Add generated product IDs into `catalogsearch_fulltext_cl` DB table.
-   
-   ```
-   insert into catalogsearch_fulltext_cl (entity_id) select entity_id from catalog_product_entity;
-   ```
+The YouTube API key has a global scope and is hidden at the website level.
 
-1. Execute the following command to trigger the partial reindex:
+<u>Actual results</u>:
 
-   ```
-   bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1 
-   ```
-
-1. Check the `var/log/support_report.log` file.
-
-<u>Expected Results</u>
-
-No error.
-
-<u>Actual Results</u>:
-
-*Base table or view not found* error occurs when partial reindexing is executed. 
+The following error is thrown: *Video is not  shown due to the following reason: API key not valid. Please pass a valid API key*.
 
 ## Apply the patch
 
