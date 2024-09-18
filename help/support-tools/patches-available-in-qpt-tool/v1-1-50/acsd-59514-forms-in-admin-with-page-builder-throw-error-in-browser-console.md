@@ -45,7 +45,7 @@ The block is saved successfully.
 <u>Actual results</u>:
 
 The loader doesn't stop spinning, and the block is not saved. The following error is displayed in the browser console:
-*Page Builder was rendering for 5 seconds without releasing locks.*
+*[!DNL Page Builder] was rendering for 5 seconds without releasing locks.*
 
 ## Apply the patch
 
