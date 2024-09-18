@@ -34,7 +34,7 @@ Return attribute labels for the default store are returned via [!DNL GrapghQL] A
 1. Edit the **[!UICONTROL Reason for Return]** return attribute and add labels for all storeviews.
 1. Create an **[!UICONTROL Order]**.
 1. Create a **[!UICONTROL Return]** for that order. Make sure the **[!UICONTROL Return]** is in **[!UICONTROL Pending]** status. 
-1. Send a Customer [!DNL GraphQL] query with the specified non- default [!UICONTROLStore View] in the header:    
+1. Send a Customer [!DNL GraphQL] query with the specified non-default [!UICONTROLStore View] in the header:    
 
     ```
     query {
