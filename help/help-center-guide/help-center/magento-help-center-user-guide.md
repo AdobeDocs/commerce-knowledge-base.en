@@ -14,7 +14,7 @@ In this guide, learn how to submit a support ticket to [Experience League Suppor
 
 >[!NOTE]
 >
->At this time, to view to your previously-submitted cases on Adobe Commerce Help Center, you will have to go to https://support.magento.com/hc/en-us/requests as these cases have not been migrated to this new system. The Help Center is now read-only; to continue receiving support for the original issue, you will have to submit a follow-up ticket to Experience League Support](https://experienceleague.adobe.com/home#support). 
+>At this time, to view to your previously-submitted cases on Adobe Commerce Help Center, you will have to go to https://support.magento.com/hc/en-us/requests as these cases have not been migrated to this new system. The Help Center is now read-only; to continue receiving support for the original issue, you will have to submit a follow-up ticket to [Experience League Support](https://experienceleague.adobe.com/home#support). 
 
 >[!NOTE]
 >
