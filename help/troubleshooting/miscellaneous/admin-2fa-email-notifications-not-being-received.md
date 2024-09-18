@@ -30,7 +30,8 @@ If you have not configured the Sender email properly, or your domain has not bee
     select * from core_config_data where path like '%trans_email%';
     ```
 
-    * Since you you don't have access to the admin, you will have to insert the configuration into the database. Plug in the appropriate email address and run the MySQL statement:
+    * If it doesn't return any results, it means that the Sender address has not been configured.
+Since you you don't have access to the admin, you will have to insert the configuration into the database. Plug in the appropriate email address and run the MySQL statement:
     
     ```
     insert into core_config_data (scope,scope_id,path,value) values ('default',0,'trans_email/ident_general/email', your-email@here,com );
