@@ -30,7 +30,7 @@ Return attribute labels for the default store are returned via [!DNL GraphQL] AP
 <u>Steps to reproduce</u>:
 
 1. Enable the **[!UICONTROL Return Merchandising Authorization]**.
-1. Create an **[!UICONTROL Additional Store]** and a **[!UICONTROL Store View]** under the default website.
+1. Create an *[!UICONTROL Additional Store]* and a *[!UICONTROL Store View]* under the default website.
 1. Edit the **[!UICONTROL Reason for Return]** return attribute and add labels for all store views.
 1. Create an **[!UICONTROL Order]**.
 1. Create a **[!UICONTROL Return]** for that order. Make sure the **[!UICONTROL Return]** is in **[!UICONTROL Pending]** status. 
