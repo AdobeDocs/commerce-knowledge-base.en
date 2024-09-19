@@ -25,7 +25,7 @@ The ACSD-58352 patch fixes the issue where return attribute labels for the defau
 
 ## Issue
 
-Return attribute labels for the default store are returned via [!DNL GrapghQL] API
+Return attribute labels for the default store are returned via [!DNL GraphQL] API.
 
 <u>Steps to reproduce</u>:
 
