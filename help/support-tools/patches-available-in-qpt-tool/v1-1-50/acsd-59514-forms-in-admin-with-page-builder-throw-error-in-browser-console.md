@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58739: Partial reindexing throws an error'
-description: Apply the ACSD-55241 patch to fix the Adobe Commerce issue where partial reindexing throws an error.
-feature: Inventory, Products
+title: 'ACSD-59514: Forms in Admin with [!DNL Page Builder] throw error in browser console'
+description: Apply the ACSD-59514 patch to fix the Adobe Commerce issue where forms in Admin with [!DNL Page Builder] throw the error "[!DNL Page Builder] was rendering for 5 seconds without releasing locks." in the browser console after submitting the form, and changes can't be saved.
+feature: Page Builder
 role: Admin, Developer
-exl-id: 19f177f4-054b-4593-970b-7cbf04710bef
 ---
-# ACSD-58739: Partial reindexing throws an error
 
-The ACSD-58739 patch fixes the issue where the partial reindexing throws an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
+# ACSD-59514: Forms in Admin with [!DNL Page Builder] throw error in browser console
+
+The ACSD-59514 patch fixes the issue where the forms in Admin with [!DNL Page Builder] throw the error *[!DNL Page Builder] was rendering for 5 seconds without releasing locks.* in the browser console after submitting the form, and changes can't be saved. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-59514. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.7
+* Adobe Commerce (all deployment methods) 2.4.4-p8
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.7 - 2.4.8
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,38 +25,27 @@ The ACSD-58739 patch fixes the issue where the partial reindexing throws an erro
 
 ## Issue
 
-Partial reindexing throws an error.
+Forms in Admin with [!DNL Page Builder] throw the error *[!DNL Page Builder] was rendering for 5 seconds without releasing locks.* in the browser console after submitting the form, and changes can't be saved.
+
+<u>Prerequisites</u>:
+
+Adobe Commerce [!DNL Page Builder] modules are installed and enabled.
 
 <u>Steps to reproduce</u>:
 
-1. Add slave connection settings to the `app/etc/ev.php`.
-1. Generate up to 10000 products and execute the following command:
+1. Open the admin panel and click on the [!UICONTROL Content] button.
+1. Select the block and edit the block.
+1. Change the content and click [!UICONTROL Save].
+1. Open the console and see the error message.
 
-   ```
-   bin/magento index:reindex
-   ```
+<u>Expected results</u>:
 
-1. Add generated product IDs into `catalogsearch_fulltext_cl` DB table.
-   
-   ```
-   insert into catalogsearch_fulltext_cl (entity_id) select entity_id from catalog_product_entity;
-   ```
+The block is saved successfully.
 
-1. Execute the following command to trigger the partial reindex:
+<u>Actual results</u>:
 
-   ```
-   bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1 
-   ```
-
-1. Check the `var/log/support_report.log` file.
-
-<u>Expected Results</u>
-
-No error.
-
-<u>Actual Results</u>:
-
-*Base table or view not found* error occurs when partial reindexing is executed. 
+The loader doesn't stop spinning, and the block is not saved. The following error is displayed in the browser console:
+*[!DNL Page Builder] was rendering for 5 seconds without releasing locks.*
 
 ## Apply the patch
 

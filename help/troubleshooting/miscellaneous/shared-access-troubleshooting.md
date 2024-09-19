@@ -32,7 +32,7 @@ role: Developer
  1. Click on the **[!UICONTROL Shared Access]** account that you are having issues with and examine which resources you have been granted access to.
  1. If the specific resource is missing, reach out to the Account Owner (Primary Account Holder).
 
- If you continue to face issues, contact your Adobe Account Team or send an email to grp-Magento-HelpCenterLoginIssues@adobe.com. Please specify your name and the email associated with your account.
+ If you continue to face issues, contact your Adobe Account Team. Please specify your name and the email associated with your account.
 
 ## I used shared access and clicked on [!UICONTROL Support], but when I opened a new ticket, the [!UICONTROL Organization] dropdown is not displayed
 
@@ -45,7 +45,7 @@ role: Developer
  1. Switch back to **[!UICONTROL My Account]**. 
  1. If it lists only one **[!UICONTROL Shared Name]**, that will be the *default Organization* that your tickets will be opened under.
 
- If you continue to face issues, contact your Adobe account team or send an email to grp-Magento-HelpCenterLoginIssues@adobe.com. Specify your name and the email associated with your account.
+ If you continue to face issues, contact your Adobe Account Team. Specify your name and the email associated with your account.
 
 ## I used shared access but still see my tickets instead of the shared ones
 

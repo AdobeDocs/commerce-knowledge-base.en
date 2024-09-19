@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-57941: Product options are incorrectly assigned to the admin store'
-description: Apply the ACSD-57941 patch to fix the Adobe Commerce issue where product options are incorrectly assigned to the admin store instead of their respective stores.
-feature: Products
+title: 'ACSD-54887: Customer shopping cart gets cleared after customer session has expired'
+description: Apply the ACSD-54887 patch to fix the Adobe Commerce issue where the customer shopping cart gets cleared after the customer session has expired with [!UICONTROL Persistent Shopping Cart] enabled.
+feature: Shopping Cart
 role: Admin, Developer
-exl-id: 7aa6f5c0-b718-4c3a-be0f-d86ae15e31a2
 ---
-# ACSD-57941: Product options are incorrectly assigned to the admin store
 
-The ACSD-57941 patch fixes the issue where the product options are incorrectly assigned to the admin store instead of their respective stores. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-57941. Please note that the issue was fixed in Adobe Commerce 2.4.7.
+# ACSD-54887: Customer shopping cart gets cleared after customer session has expired
+
+The ACSD-54887 patch fixes the issue where the customer's shopping cart gets cleared after the customer session has expired with [!UICONTROL Persistent Shopping Cart] enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-54887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.6-p3
+* Adobe Commerce (all deployment methods) 2.4.6-p2
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.3 - 2.4.6-p7
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.4-p8, 2.4.5-p3 - 2.4.5-p7, and 2.4.6-p1 - 2.4.6-p5
 
 >[!NOTE]
 >
@@ -25,22 +25,29 @@ The ACSD-57941 patch fixes the issue where the product options are incorrectly a
 
 ## Issue
 
-Product options are incorrectly assigned to the admin store instead of their respective stores.
+Customer shopping cart gets cleared after the customer session has expired with [!UICONTROL Persistent Shopping Cart] enabled.
 
 <u>Steps to reproduce</u>:
 
-1. Create a simple product.
-1. Import the same product with a few custom options.
-1. Go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]** and open the created product. Click **[!UICONTROL Customizable options]** and make sure the imported options are visible.
-1. Import the same file a few more times.
+1. Enable [!UICONTROL Persistent Shopping Cart]. Go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Persistent Shopping Cart]** = *Yes*.
+
+    Log in with Persistence enabled (Note: It is not available on the popup authorization, but only on the direct [!UICONTROL Sign in] page).
+
+1. Add a product to the cart.
+1. Proceed to checkout and select a payment method.
+1. Expire the session (delete `PHPSESSID`).
+1. Refresh the page. Observe that the quote is immediately converted to a guest quote because a payment method is already selected, and the [!UICONTROL Persistent Cart] cookie is removed.
+1. Expire the session (delete `PHPSESSID`).
+1. Refresh the page. See that the cart is empty.
+1. Sign in again.
 
 <u>Expected results</u>:
 
-Custom options are updated.
+The cart has the product when you sign in again.
 
 <u>Actual results</u>:
 
-Product custom options are duplicated.
+The cart is empty when signing in again.
 
 ## Apply the patch
 
@@ -57,3 +64,4 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
+

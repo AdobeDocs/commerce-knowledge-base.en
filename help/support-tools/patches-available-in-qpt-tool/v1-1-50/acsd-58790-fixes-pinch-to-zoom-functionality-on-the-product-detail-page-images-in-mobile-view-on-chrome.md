@@ -1,23 +1,23 @@
 ---
-title: 'ACSD-58739: Partial reindexing throws an error'
-description: Apply the ACSD-55241 patch to fix the Adobe Commerce issue where partial reindexing throws an error.
-feature: Inventory, Products
+title: 'ACSD-58790: Fixes pinch-to-zoom functionality on the product detail page images in mobile view on [!DNL Chrome]'
+description: ACSD-58790 fixes the Adobe Commerce issue where the image in mobile view on [!DNL Chrome] did not zoom in on the image as expected.
+feature: Storefront
 role: Admin, Developer
-exl-id: 19f177f4-054b-4593-970b-7cbf04710bef
 ---
-# ACSD-58739: Partial reindexing throws an error
 
-The ACSD-58739 patch fixes the issue where the partial reindexing throws an error. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.49 is installed. The patch ID is ACSD-58739. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
+# ACSD-58790: Fixes pinch-to-zoom functionality on the product detail page images in mobile view on [!DNL Chrome]
+
+The ACSD-58790 patch fixes the Adobe Commerce issue where the image in mobile view on [!DNL Chrome] did not zoom in on the image as expected. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58790. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
 
 ## Affected products and versions
 
 **The patch is created for Adobe Commerce version:**
 
-* Adobe Commerce (all deployment methods) 2.4.7
+* Adobe Commerce (all deployment methods) 2.4.6-p1
 
 **Compatible with Adobe Commerce versions:**
 
-* Adobe Commerce (all deployment methods) 2.4.7 - 2.4.8
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p7
 
 >[!NOTE]
 >
@@ -25,38 +25,24 @@ The ACSD-58739 patch fixes the issue where the partial reindexing throws an erro
 
 ## Issue
 
-Partial reindexing throws an error.
+Fixes pinch-to-zoom functionality on the product detail page images in mobile view on [!DNL Chrome].
 
 <u>Steps to reproduce</u>:
 
-1. Add slave connection settings to the `app/etc/ev.php`.
-1. Generate up to 10000 products and execute the following command:
+1. Create a product with an image.
+1. Open the product from a [!DNL Chrome] browser.
+1. Click on the image and verify that the image zooms on double click.
+1. Switch to the mobile view by using the [!DNL Chrome] developer tools.
+1. Click on the image.
+1. Double tap.
 
-   ```
-   bin/magento index:reindex
-   ```
+<u>Expected results</u>:
 
-1. Add generated product IDs into `catalogsearch_fulltext_cl` DB table.
-   
-   ```
-   insert into catalogsearch_fulltext_cl (entity_id) select entity_id from catalog_product_entity;
-   ```
+The image gets zoomed in when double-clicked.
 
-1. Execute the following command to trigger the partial reindex:
+<u>Actual results</u>:
 
-   ```
-   bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1 
-   ```
-
-1. Check the `var/log/support_report.log` file.
-
-<u>Expected Results</u>
-
-No error.
-
-<u>Actual Results</u>:
-
-*Base table or view not found* error occurs when partial reindexing is executed. 
+The image does not zoom in when double-clicked. This issue is specific to [!DNL Chrome] in mobile view, as the zoom functionality works as expected in [!DNL Firefox].
 
 ## Apply the patch
 
