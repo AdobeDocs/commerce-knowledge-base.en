@@ -15,7 +15,7 @@ The ACSD-58352 patch fixes the issue where return attribute labels for the defau
 
 * Adobe Commerce (all deployment methods) 2.4.4
 
-**Compatible with Adobe Commerce and Magento Open Source versions:**
+**Compatible with Adobe Commerce versions:**
 
 * Adobe Commerce (all deployment methods) 2.4.4 - 2.4.6-p7
 
