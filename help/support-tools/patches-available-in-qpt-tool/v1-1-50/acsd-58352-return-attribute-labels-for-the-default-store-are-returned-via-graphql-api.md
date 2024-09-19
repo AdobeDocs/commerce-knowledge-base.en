@@ -57,7 +57,7 @@ Return attribute labels for the default store are returned via [!DNL GraphQL] AP
 
 <u>Expected results</u>
 
-Return labels in the [!DNL GraphQL] response should be for the [!UICONTROL Store View], set in the request header.
+Return labels in the [!DNL GraphQL] response are for the [!UICONTROL Store View] set in the request header.
 
 <u>Actual results</u>:
 
