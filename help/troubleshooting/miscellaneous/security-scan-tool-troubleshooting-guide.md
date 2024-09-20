@@ -13,7 +13,7 @@ Learn how to troubleshoot the various issues with the  Security Scan tool for Ad
 
 The Security Scan tool requires that you prove ownership of your site before the domain can be added to the Security Scan Tool. This can be performed by adding a confirmation code to your site using an HTML comment or the `<meta>` tag. The HTML comment should be placed inside the `<body>` tag, e.g., in the footer section. The `<meta>` tag should be placed inside the page's `<head>` section.
 
-A common issue faced by merchants occurs when the Security Scan Tool is unable to confirm the merchant’s site ownership.
+A common issue faced by merchants occurs when the Security Scan Tool is unable to confirm the merchant's site ownership.
 
 If you are getting an error and cannot submit your site for the scan, refer to the [Error message when adding sites into Security Scan](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md) troubleshooting article in our support knowledge base.
 
@@ -70,7 +70,7 @@ You receive a notification regarding the "BotNet Suspect" failure.
 
 1. Check for the newly created SSH accounts, filesystem changes, etc.
 1. Perform a security review.
-1. Check the Adobe Commerce version and upgrade, especially if it’s still running Magento 1, which is not supported anymore.
+1. Check the Adobe Commerce version and upgrade, especially if it's still running Magento 1, which is not supported anymore.
 1. If the issue still persists, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and provide the store URL.
 
 ## Issue: Compromise Injection failure
@@ -94,8 +94,12 @@ No. The Security Scan makes all requests one-by-one like a single user. Because 
 
 ### How long does Adobe Commerce keep Security Scan reports?
 
-You can generate the previous 10 reports from your end. If older reports are required, contact Adobe Commerce support. Up to a year of prior Security Scan reports can be obtained.
+You can generate the previous 10 reports from your end. If older reports are required, contact Adobe Commerce support.
 
 ### What information is needed when submitting a support ticket?
 
 Please make sure to provide the domain name.
+
+### What happens if I remove my store from scan tool scanning?
+
+If you delete the store submission - all related data including scan reports will be deleted. This operation is irreversible. Submission of the store domain after it's deletion creates a NEW submission.
