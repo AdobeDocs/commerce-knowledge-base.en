@@ -12,13 +12,19 @@ On July 29, 2024, Adobe Commerce Help Center was placed in a read-only status, a
 
 >[!NOTE]
 >
->Adobe Commerce support has migrated from Adobe Commerce Help Center to Adobe Experience League.<br>**Use the Experience League case form flow described [here](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#what-is-experience-support) to submit support cases.**
+>**Use the Experience League case form flow described [here](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#what-is-experience-support) to submit support cases.**
+
+## Viewing Historical Cases in Adobe Commerce Help Center
+
+Adobe has extended the visibility period for historical cases in the Adobe Commerce Help Center to May 1, 2025.
+
+**Effective May 1, 2025, the Adobe Commerce Help Center will no longer be accessible, and users will be unable to view historical support cases created within the system.** 
 
 ## When will the Adobe Commerce Help Center site be decommissioned?
 
-**On September 3, 2024, Adobe Commerce Help Center will no longer be accessible**, and you will no longer be able to view historic support cases created in that system.
-**<u>Please save any support cases or information you wish to retain by saving them to PDF in your browser prior to September 3, 2024.</u>**
-If you would like to review historical support cases created in Adobe Commerce Help Center after September 3, 2024, you will need to open a support case in Adobe Experience League and request that information from the support team.
+**<u>Please save any support cases or information you wish to retain by saving them to PDF in your browser prior to May 1, 2025.</u>**
+
+If you would like to review historical support cases created in Adobe Commerce Help Center after May 1, 2025, you will need to open a support case in Adobe Experience League and request that information from the support team.
 
 >[!NOTE]
 >
