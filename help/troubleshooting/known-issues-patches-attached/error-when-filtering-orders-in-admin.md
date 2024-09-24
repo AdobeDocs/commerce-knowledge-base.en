@@ -14,7 +14,7 @@ This article provides a patch for the Adobe Commerce issue where an error occurs
 
 ## Issue 
 
-When trying to filter orders in the Admin by date, returns an error.
+Filtering orders in the Admin by date returns an error.
 
 The exception.log shows:
 
