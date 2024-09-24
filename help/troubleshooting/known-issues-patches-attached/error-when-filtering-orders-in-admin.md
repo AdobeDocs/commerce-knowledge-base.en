@@ -10,7 +10,7 @@ This article provides a patch for the Adobe Commerce issue where an error occurs
 
 ## Affected versions
 
-* Adobe Commerce (all deployment options) 2.4.4 - 2.4.7
+* Adobe Commerce (all deployment methods) 2.4.4 - 2.4.7
 
 ## Issue 
 
