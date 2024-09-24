@@ -1160,7 +1160,7 @@ breadcrumb-title: Commerce KB
     * [Low site and API performance](/help/troubleshooting/known-issues-patches-attached/low-site-and-api-performance.md)
     * [Replace depreciated Google Image Charts with Image-Charts](/help/troubleshooting/known-issues-patches-attached/replace-depreciated-google-image-charts-with-image-charts.md)
     * [Advanced search not showing the most relevant results](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
-    * [Error when filtering orders in admin](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
+    * [Error when filtering orders in Admin](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
     * [Users not able to add product to cart if nothing selected in Allow Countries](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
     * [Orders not displayed in the Orders grid in the Admin](/help/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.md)
     * [Unable to validate VAT number - Adobe Commerce on cloud infrastructure](/help/troubleshooting/known-issues-patches-attached/unable-to-validate-vat-number-magento-commerce-cloud.md)
