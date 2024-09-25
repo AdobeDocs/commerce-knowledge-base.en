@@ -43,5 +43,3 @@ The patch is compatible with all affected versions and editions.
 ## How to apply the patch
 
 For instructions, see [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in the support knowledge base.
-
-## Attached Files
