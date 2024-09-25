@@ -18,7 +18,9 @@ Filtering orders in the Admin by date returns an error.
 
 The exception.log shows:
 
-`report.CRITICAL: PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous in /path/to/magento/vendor/magento/framework/DB/Statement/Pdo/Mysql.php:90`
+    ```SQL
+    report.CRITICAL: PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous in /path/to/magento/vendor/magento/framework/DB/Statement/Pdo/Mysql.php:90
+    ```
 
 <u>Steps to reproduce:</u>
 
