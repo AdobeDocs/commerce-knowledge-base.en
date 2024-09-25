@@ -36,7 +36,7 @@ There is an issue with the [!DNL PayPal Braintree] modules.
 
 To solve the issue, apply the patch attached to this article. To download it, scroll down to the end of the article and click the file name, or click the following link:
 
- [BUNDLE-3357-unable-to-filter-order-in-admin-by-date](assets/BUNDLE-3357-unable-to-filter-order-in-admin-by-date.zip)
+ [BUNDLE-3357-unable-to-filter-order-in-admin-by-date.zip](assets/BUNDLE-3357-unable-to-filter-order-in-admin-by-date.zip)
 
 The patch is compatible with all affected versions and editions.
 
