@@ -1144,6 +1144,7 @@ breadcrumb-title: Commerce KB
     * [Deployment failed: There are no commands defined in the 'cache' namespace error](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
     * [Deployment fails with correct access keys in env:COMPOSER_AUTH or auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
   * Known issues {#known-issues-patches-attached}
+    * [Security update available for Adobe Commerce - [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
     * [Guidance on securing your store and rotating encryption keys: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
     * [Security update available for Adobe Commerce - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
     * [Troubleshooting Encryption Key Rotation: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
