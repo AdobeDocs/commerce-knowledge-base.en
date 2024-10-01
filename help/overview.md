@@ -37,19 +37,20 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
     <th style="width:15%">Date</th>
   </tr>
 
- <tr>
+  <tr>
     <td>
     <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported">Customer profiles not appearing in Experience Platform:</a> This article provides troubleshooting steps if your customer profile data is not appearing in Experience Platform when using the Data Connection extension.
     </td>
     <td>New article</td>
-    <td>August 14, 2024</td>
+    <td>August 27, 2024</td>
   </tr>
 
-  <td>
+  <tr>  
+    <td>
     <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect">Live Search dashboard and search result ranking is incorrect:</a> This article explains why the data displayed in the Live Search dashboard may be incorrect, or why the ranking of the search results may not be what you expect.  
     </td>
     <td>New article</td>
-    <td>August 14, 2024</td>
+    <td>August 27, 2024</td>
   </tr>
 
   <tr>
@@ -57,8 +58,48 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
     <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102">Troubleshooting Encryption Key Rotation: CVE-2024-34102:</a> This article is intended to help merchants troubleshoot encryption key rotation after they have already followed the steps outlined in this <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102">article</a> on CVE-2024-34102. 
     </td>
     <td>New article </td>
-    <td>August 14, 2024</td>
- </tr>
+    <td>August 27, 2024</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center">Decommissioning of Adobe Commerce Help Center:</a> In our journey to be better connected to the Adobe family of solutions, Adobe Commerce has migrated our support intake process from Adobe Commerce Help Center to Adobe Experience League. 
+    </td>
+    <td>New article </td>
+    <td>August 27, 2024</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61">Security update available for Adobe Commerce - APSB24-61:</a> This update resolves critical, important, and moderate vulnerabilities Successful exploitation could lead to arbitrary code execution, arbitrary file system read, security feature bypass, and privilege escalation. The bulletin is Adobe Security Bulletin (APSB24-61). 
+    </td>
+    <td>New article </td>
+    <td>August 27, 2024</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-facets-not-sorted">Live Search facets are not alphabetically sorted:</a> This article explains the issue where all Adobe Commerce storefront facets are sorted alphabetically with single-select options, regardless of the input type that is assigned to the corresponding attribute. 
+    </td>
+    <td>New article </td>
+    <td>August 27, 2024</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102">Guidance on securing your store and rotating encryption keys: CVE-2024-34102:</a> This article offers guidance on securing your store and rotating encryption keys. 
+    </td>
+    <td>New article </td>
+    <td>August 27, 2024</td>
+  </tr>
+
+  <tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mdee-table-does-not-exist">Fix data not updated in Commerce Data Exporter feeds and cron logs errors with changelog table don't exist:</a> This article provides a solution for fixing data synchronization issues caused by using the wrong view id in the Data Exporter Mview subscription. The Mview subscription is used to track changes for database tables. 
+    </td>
+    <td>New article </td>
+    <td>August 27, 2024</td>
+  </tr>
 </table>
 
 ## Popular Articles
