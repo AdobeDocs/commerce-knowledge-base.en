@@ -34,7 +34,7 @@ You deploy successfully.
 >
 >This is an example error. You could get an error indicating a different file (depending on which Adobe Commerce version you deploy).
 
-You do not deploy successfully. You see an error like *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* in the [deployment log](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+You do not deploy successfully. You see an error like *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* in the [deployment log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Cause
 
