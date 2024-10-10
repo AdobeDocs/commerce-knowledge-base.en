@@ -7,7 +7,7 @@ exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
 ---
 # Deployment fails with correct access keys in env:COMPOSER_AUTH or auth.json
 
-This article provides a solution for the issue when your deployment fails with an error such as the one below, in the [deployment log](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
+This article provides a solution for the issue when your deployment fails with an error such as the one below, in the [deployment log](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -34,7 +34,7 @@ You deploy successfully.
 >
 >This is an example error. You could get an error indicating a different file (depending on which Adobe Commerce version you deploy).
 
-You do not deploy successfully. You see an error like *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* in the [deployment log](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+You do not deploy successfully. You see an error like *The "https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip" file could not be downloaded (HTTP/1.1 404 Not Found)* in the [deployment log](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Cause
 
