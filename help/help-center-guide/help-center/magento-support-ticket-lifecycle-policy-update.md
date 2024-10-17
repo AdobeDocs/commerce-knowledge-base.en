@@ -5,56 +5,39 @@ exl-id: c3fbcb4a-107f-48b3-afed-b9a0c5d0425c
 ---
 # Adobe Commerce Support ticket lifecycle policy update
 
- This article provides information about Adobe Commerce Support ticket lifecycle policy update.
+ This documentation outlines improvements to the Adobe DX Support case lifecycle with the intention of increasing communication and providing resolutions for customers as quickly as possible to help ensure customer success. This can also be found in [Adobe Success Plans Overview: Support Case Lifecycle](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
+ Below are the timelines and notifications for various scenarios encountered during the support process:
 
- The following table illustrates the updated scenarios. You can find details for each scenario in the section below.
+## Case Follow Up Reminders
 
- <table>
- <tbody>
- <tr>
- <td class="wysiwyg-text-align-center"> </td>
- <td class="wysiwyg-text-align-center"><strong>Ticket status</strong></td>
- <td class="wysiwyg-text-align-center"><strong>Days to "Solved"</strong></td>
- <td class="wysiwyg-text-align-center"><strong>Days to "Closed"</strong></td>
- <td class="wysiwyg-text-align-center"><strong>Notification timing</strong></td>
- </tr>
- <tr>
- <td class="wysiwyg-text-align-left"><strong>Engineer provides solution</strong></td>
- <td class="wysiwyg-text-align-center">"Awaiting your reply"</td>
- <td class="wysiwyg-text-align-center">3</td>
- <td class="wysiwyg-text-align-center">6</td>
- <td class="wysiwyg-text-align-center">Days 3 and 6</td>
- </tr>
- <tr>
- <td class="wysiwyg-text-align-left"><strong>Awaiting information from customer</strong></td>
- <td class="wysiwyg-text-align-center">"Awaiting your reply"</td>
- <td class="wysiwyg-text-align-center">N/A</td>
- <td class="wysiwyg-text-align-center">6</td>
- <td class="wysiwyg-text-align-center">Days 1, 3 and 6</td>
- </tr>
- <tr>
- <td class="wysiwyg-text-align-left"><strong>Customer sets to "Solved" or requests engineer to set to "Solved"</strong></td>
- <td class="wysiwyg-text-align-center">"Solved"</td>
- <td class="wysiwyg-text-align-center">Immediate</td>
- <td class="wysiwyg-text-align-center">1</td>
- <td class="wysiwyg-text-align-center">Day 1</td>
- </tr>
- </tbody>
- </table>
+| Notification | Case Status | Notification Timing | Days to Case Closure Status |
+|--- |--- |--- |--- |
+| **1st** | Pending Response Or Resolution Provided | 24 hours / 1 day | 5 days |
+| **2nd** | Pending Reponse Or Resolution Provided | 72 hours / 3 days | 3 days |
+| **3rd** | Pending Response Or Resolution Provided | 120 hours / 5 days | 1 day |
+| **4th** | Pending Response Or Resolution Provided changed to "Auto Closed" | 144 hours / 6 days | closed |
 
 ## Scenarios in detail
 
-### When an engineer provides a solution
-
-1. Once a solution is provided to a customer, engineer sets the ticket status to "Awaiting your reply".
-1. If there is no response from the customer for 3 days after the status is changed to "Awaiting your reply" - the ticket is moved to "Solved" and the customer is notified.
-1. If there is no response from the customer for 6 days after the status is changed to "Awaiting your reply" - the ticket is closed and the customer is notified.
-
 ### When additional information is required from a customer
 
-1. If an update from the customer is required, engineer sets the ticket to "Awaiting your reply".
-1. Notifications are sent to the customer on day 1 and 3 requesting customer follow up.
-1. If there is no response from the customer for 6 days after the status is changed to "Awaiting your reply" - the ticket is closed and the customer is notified.
+In this scenario, when additional information is needed from a customer, the following steps are taken:
+
+* The engineer sends an update requesting information and the case status is set to "Pending Response".
+* On the 1st, 3rd, & 5th day following the status being set to "Pending response", follow up notifications are sent to the customer requesting the additional information.
+* If there is no response from the customer for 6 days after the status was set to "Pending Response", the case is set to closed, and a closure notification is sent.
+
+Customers can reopen a closed case within 14 days to continue communication. Beyond 14 days, a new support case can be opened to continue communication related to a previously closed case.
+
+### When an engineer provides a solution
+
+In this scenario, when an engineer offers a solution, the following steps are taken:
+
+* The engineer sends an update with a proposed solution and the case status is set to "Resolution Provided".
+* On the 1st, 3rd, & 5th day following the status being set to "Resolution Provided", follow up notifications are sent to the customer requesting confirmation of the solution provided.
+* If there is no response from the customer for 6 days after the status was set to "Resolution Provided", the case is set to closed, and a closure notification is sent.
+
+Customers can reopen a closed case within 14 days to continue communication. Beyond 14 days, a new support case can be opened to continue communication related to a previously closed case.
 
 ### Ticket set to "Solved" by a customer
 
@@ -69,3 +52,4 @@ When a customer directs Adobe Commerce Support to close the ticket, it is closed
 * [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)
 * ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](/help/help-center-guide/help-center/magento-help-center-user-guide.md#no-submit-link)
 * [Ticket submission form: merchant is not displayed in Organization drop-down](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed)
+* [Adobe Success Plans Overview: Support Case Lifecycle](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
