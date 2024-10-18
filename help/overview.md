@@ -9,7 +9,7 @@ role: Admin
 
 >[!NOTE]
 >
->The Adobe Commerce Support Knowledge Base Guide will soon be discontinued, with its content being moved to other locations within Adobe Experience League. In the meantime, we will continue to maintain and update the content in this guide.
+>The Adobe Commerce Support Knowledge Base Guide will soon be restructured, with its content being moved to other locations within Adobe Experience League. In the meantime, we will continue to maintain and update the content in this guide.
 
 ![Knowledge Base homepage](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
