@@ -13,7 +13,7 @@ exl-id: c3fbcb4a-107f-48b3-afed-b9a0c5d0425c
 | Notification | Case Status | Notification Timing | Days to Case Closure Status |
 |--- |--- |--- |--- |
 | **1st** | Pending Response Or Resolution Provided | 24 hours / 1 day | 5 days |
-| **2nd** | Pending Reponse Or Resolution Provided | 72 hours / 3 days | 3 days |
+| **2nd** | Pending Response Or Resolution Provided | 72 hours / 3 days | 3 days |
 | **3rd** | Pending Response Or Resolution Provided | 120 hours / 5 days | 1 day |
 | **4th** | Pending Response Or Resolution Provided changed to "Auto Closed" | 144 hours / 6 days | closed |
 
