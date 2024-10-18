@@ -39,17 +39,9 @@ In this scenario, when an engineer offers a solution, the following steps are ta
 
 Customers can reopen a closed case within 14 days to continue communication. Beyond 14 days, a new support case can be opened to continue communication related to a previously closed case.
 
-### Ticket set to "Solved" by a customer
-
-When a ticket is set to "Solved" by a customer, it is closed in one day and the customer is notified.
-
-### Customer directs support to close the ticket
-
-When a customer directs Adobe Commerce Support to close the ticket, it is closed in one day and the customer is notified.
-
 ## Related reading
 
-* [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)
-* ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](/help/help-center-guide/help-center/magento-help-center-user-guide.md#no-submit-link)
-* [Ticket submission form: merchant is not displayed in Organization drop-down](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed)
+* [Submit a support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
+* ["Submit a ticket" link not displayed on Adobe Commerce Help Center start page](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
+* [Ticket submission form: merchant is not displayed in Organization drop-down](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
 * [Adobe Success Plans Overview: Support Case Lifecycle](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
