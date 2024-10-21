@@ -641,7 +641,6 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce support intake process migration to Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
   * Help Center News {#news}
     * [Decommissioning of Adobe Commerce Help Center](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
-    * [Adobe Commerce Support Knowledge Base starts accepting contributions](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * Troubleshooting {#troubleshooting}
   * [Troubleshooting overview](/help/troubleshooting/overview.md)
   * Database {#database}
