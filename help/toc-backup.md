@@ -324,6 +324,7 @@ breadcrumb-title: Commerce KB
   * Help Center News {#news}
     * [MBI documentation got moved](/help/announcements/help-center-news/mbi-documentation-got-moved.md)
     * [Bi-weekly Adobe Commerce Support KB Newsletter: new articles and updates](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
+     * [Adobe Commerce Support Knowledge Base starts accepting contributions](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * Best Practices {#best-practices}
   * [Overview](/help/best-practices/overview.md)
   * Configuration {#configuration}
