@@ -24,10 +24,18 @@ This update resolves [[!DNL critical, important], and [!DNL moderate]](https://h
 
 Adobe Commerce on Cloud, Adobe Commerce on-premises, and Magento Open Source:
 
-* 2.4.7-p3 and earlier
-* 2.4.6-p8 and earlier
-* 2.4.5-p10 and earlier
-* 2.4.4-p11 and earlier
+* 2.4.7-p2 and earlier
+* 2.4.6-p7 and earlier
+* 2.4.5-p9 and earlier
+* 2.4.4-p10 and earlier
+
+B2B:
+
+* 1.4.2-p2 and earlier
+* 1.3.5-p7 and earlier
+* 1.3.4-p9 and earlier
+* 1.3.3-p10 and earlier
+
 
 ## Solution for Adobe Commerce on Cloud, Adobe Commerce on-premises Software, and Magento Open Source 
 
@@ -37,7 +45,7 @@ To help resolve the vulnerability for the affected products and versions, you mu
 
 Use the following attached Isolated patch:
 
-[vuln-25610-composer-patch.zip](assets/vuln-25610-composer-patch.zip)
+[vuln-26510-composer-patch.zip](assets/vuln-26510-composer-patch.zip)
 
 ## How to apply the Isolated patch
 
