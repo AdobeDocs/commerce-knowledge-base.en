@@ -943,7 +943,6 @@ breadcrumb-title: Commerce KB
     * [[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
     * [[!DNL USPS] Ground Advantage shipping method support hotfix for AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
     * [Adobe Commerce 2.4.3-p2 - 2.4.5 security hotfix for CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
-    * [Empty shopping cart issue when multiple click on checkout from mini cart](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
     * [Adobe Commerce 2.4.4: Unable to create partial invoices](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
     * [New orders are sent to archive](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
     * [Advanced Reporting cron job errors Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)
