@@ -184,6 +184,10 @@ You can view the cases you have submitted personally by clicking **[!UICONTROL M
 
 ![view-support-cases](assets/view_support_cases.png)
 
+#### View your historical cases from Adobe Commerce Help Center
+
+Learn more about how you can **view your historical cases** from the Adobe Commerce Help Center in [Decommissioning of Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center) in our Adobe Commerce Knowledge Base.
+
 #### View your watched cases
 
 You can view the cases you have been *added to as a watcher* by clicking **[!UICONTROL My organization's cases]** on the left-hand menu.
