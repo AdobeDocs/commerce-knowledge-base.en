@@ -960,7 +960,6 @@ breadcrumb-title: Commerce KB
     * [More products were deleted than initiated during mass deletion in Admin](/help/troubleshooting/known-issues-patches-attached/not-selected-rows-are-deleted-during-mass-action-deletion.md)
     * [Adobe Commerce on cloud infrastructure v2.3.5 GraphQL caching invalidation not working](/help/troubleshooting/known-issues-patches-attached/magento-commerce-cloud-v2-3-5-graphql-caching-invalidation-not-working.md)
     * [Admin can't create order/reorder when Braintree payment enabled](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
-    * [Advanced Reporting 404 error on Magento Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-magento-commerce.md)
     * [Adobe Commerce 2.4.0 B2B: wrong purchase order logic when discount expired](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-b2b-wrong-purchase-order-logic-when-discount-expired.md)
     * [Duplicate entries in the catalogrule table after editing the end date of a schedule update](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
     * [Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
