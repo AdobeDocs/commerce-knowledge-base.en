@@ -22,7 +22,7 @@ This update resolves [[!DNL critical, important], and [!DNL moderate]](https://h
  
 ## Affected products and versions
 
-Adobe Commerce on Cloud, Adobe Commerce on-premises, and Magento Open Source:
+Adobe Commerce on Cloud and Adobe Commerce on-premises:
 
 * 2.4.7-p2 and earlier
 * 2.4.6-p7 and earlier
@@ -37,7 +37,7 @@ B2B:
 * 1.3.3-p10 and earlier
 
 
-## Solution for Adobe Commerce on Cloud, Adobe Commerce on-premises Software, and Magento Open Source 
+## Solution for Adobe Commerce on Cloud and Adobe Commerce on-premises Software
 
 To help resolve the vulnerability for the affected products and versions, you must apply the [!DNL CVE-2024-45115] Isolated patch.
 
