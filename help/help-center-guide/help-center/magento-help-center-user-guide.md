@@ -97,7 +97,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 
     ![open-support-page](assets/click_support.png)
 
-1. To begin the support intake process, ensure that you have selected the appropriate organization from the Organization dropdown list (if visible). To submit a case for Adobe Commerce, select the organization's name that ends in *[!UICONTROL Commerce]*.
+1. To begin the support intake process, ensure that you have selected the appropriate organization from the Organization dropdown list (if visible). To submit a case for Adobe Commerce, select the organization's name that ends in *[!DNL Commerce]*.
 
    ![select_appropriate_org](assets/select_appropriate_org.png)
 
