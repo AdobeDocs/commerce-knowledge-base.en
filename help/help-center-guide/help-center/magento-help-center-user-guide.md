@@ -78,9 +78,6 @@ To sign in to the Adobe Experience League Support, follow these steps:
 
 Once successfully signed in as the account owner or Shared Access user, you may submit a support case using the Adobe Experience League homepage, your Adobe Commerce account page, and your Adobe Commerce Cloud account page.
 
-* If you are the account owner or a returning Shared Access user, follow the steps below.
-* If you are a Shared Access user and the account owner has just [provided you with shared access](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#provide-shared-access), you must first switch accounts before proceeding to the steps below. See [Access shared account (switch accounts)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts) for more details.
-
 #### Adobe Experience League start page {#experience-league-start-page}
 
 To submit a new support case using the start page of Adobe Experience League, follow these steps:
@@ -100,7 +97,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 
     ![open-support-page](assets/click_support.png)
 
-1. To begin the support intake process, ensure that you have selected the appropriate organization from the Organization dropdown list (if visible).
+1. To begin the support intake process, ensure that you have selected the appropriate organization from the Organization dropdown list (if visible). To submit a case for Adobe Commerce, select the organization's name that ends in *[!DNL Commerce]*.
 
    ![select_appropriate_org](assets/select_appropriate_org.png)
 
