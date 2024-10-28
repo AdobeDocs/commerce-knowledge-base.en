@@ -41,9 +41,6 @@ You can view the fix in GitHub (please consider, that the fix did not go through
 <p title="Country payment method issue in Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.5 and 2.3.5-p1"><a href="/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md">Country payment method issue in Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises 2.3.5 and 2.3.5-p1</a></p>
 </li>
 <li>
-<p title="Adobe Commerce prompts customers to log in but provides invalid link"><a href="/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md">Adobe Commerce prompts customers to log in but provides invalid link</a></p>
-</li>
-<li>
 <p title="Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1</a></p>
 </li>
 </ul>
