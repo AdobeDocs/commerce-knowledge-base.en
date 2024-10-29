@@ -1,11 +1,11 @@
 ---
-title: "'Deployment failed: There are no commands defined in the 'cache' namespace error'"
+title: "'Deployment failed on cache flush: There are no commands defined in the 'cache' namespace error'"
 description: This article provides a solution for the issue when deployment fails with the following error **There are no commands defined in the cache namespace**.
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
 ---
-# Deployment failed: There are no commands defined in the 'cache' namespace error
+# Deployment failed on cache flush: "There are no commands defined in the 'cache' namespace error"
 
 >[!WARNING]
 >
@@ -101,4 +101,4 @@ To confirm that the solution worked, run the `bin/magento` command again. You sh
 ## Related reading
 
 * [Adobe Commerce deployment troubleshooter](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)
-* [Checking deployment log if Cloud UI has “log snipped” error](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+* [Checking deployment log if Cloud UI has "log snipped" error](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
