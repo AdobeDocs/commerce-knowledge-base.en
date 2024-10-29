@@ -1,11 +1,11 @@
 ---
-title: "'Deployment failed on cache flush: There are no commands defined in the 'cache' namespace error'"
+title: Deployment failed on cache flush: "There are no commands defined in the 'cache' namespace" error
 description: This article provides a solution for the issue when deployment fails with the following error **There are no commands defined in the cache namespace**.
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
 ---
-# Deployment failed on cache flush: There are no commands defined in the 'cache' namespace error
+# Deployment failed on cache flush: "There are no commands defined in the 'cache' namespace" error
 
 >[!WARNING]
 >
@@ -24,11 +24,11 @@ This article provides a solution for the issue when your deployment fails and on
 
 Adobe Commerce on cloud infrastructure 2.4.x
 
-## Issue  
+## Issue
 
 <u>Steps to reproduce</u>:
 
-Attempt to deploy. 
+Attempt to deploy.
 
 <u>Expected results</u>:
 
@@ -60,16 +60,16 @@ To solve this issue, identify the invalid rows left from those configurations.
     The store that was requested wasn't found. Verify the store and try again.
     ```
 
-1. Run this MySql query to verify that the store cannot be found, which is indicated by the error message in step 2. 
+1. Run this MySql query to verify that the store cannot be found, which is indicated by the error message in step 2.
 
     ```sql
     select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
     ```
 
-1. Run the following MySql statement to delete the invalid rows: 
+1. Run the following MySql statement to delete the invalid rows:
 
     ```sql
-    delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+    delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
     ```
 
 1. Run this command again:
