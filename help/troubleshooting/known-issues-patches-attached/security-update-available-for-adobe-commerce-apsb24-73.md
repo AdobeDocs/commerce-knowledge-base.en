@@ -7,7 +7,7 @@ role: Developer
 ---
 # Security update available for Adobe Commerce - [!DNL APSB24-73]
 
-On October 08, 2024, Adobe released a regularly scheduled security update for Adobe Commerce, and [!DNL Adobe Commerce Webhooks Plugin].
+On October 08, 2024, Adobe released a regularly scheduled security update for Adobe Commerce and [!DNL Adobe Commerce Webhooks Plugin].
 This update resolves [[!DNL critical, important], and [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html) vulnerabilities. Successful exploitation could lead to arbitrary code execution, arbitrary file system read, security feature bypass, and privilege escalation. The bulletin is [Adobe Security Bulletin ([!DNL APSB24-73])](https://helpx.adobe.com/security/products/magento/apsb24-73.html).  
 
 >[!NOTE]
