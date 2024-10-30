@@ -633,7 +633,6 @@ breadcrumb-title: Commerce KB
     * [Apache log4j2 vulnerability in Adobe Commerce](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
     * [Blackfire access removal for Adobe Commerce on cloud infrastructure](/help/announcements/adobe-commerce-announcements/blackfire-access-removal-for-magento-commerce-cloud.md)
     * [Quality Patches Tool released: new tool to self-serve quality patches](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
-    * [2.4 Adobe Commerce upgrade workshop on January 26 2022](/help/announcements/adobe-commerce-announcements/2-4-upgrade-webinar.md)
     * [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
     * [Adobe support customer data access and privacy](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
     * [UPS APIs deprecated](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
