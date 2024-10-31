@@ -1,13 +1,13 @@
 ---
-title: Redirect back to the Commerce Admin login form with "Your current session has been expired" error
-description: 'This article gives the possible solutions for the Commerce Admin login issue, where you are redirected back to the login form with the following error message: *"Your current session has been expired"*. Solutions include checking for server time setting issues and changing session storage settings.'
+title: 'Redirect back to the [!UICONTROL Commerce Admin] login form with "Your current session has been expired" error'
+description: 'This article gives the possible solutions for the [!UICONTROL Commerce Admin] login issue, where you are redirected back to the login form with the following error message: *"Your current session has been expired"*. Solutions include checking for server time setting issues and changing session storage settings.'
 exl-id: 29df2ed2-ff4a-4f1a-bdb7-1160416cda00
 feature: Admin Workspace
 role: Developer
 ---
-# Redirect back to the Commerce Admin login form with "Your current session has been expired" error
+# Redirect back to the [!UICONTROL Commerce Admin] login form with "Your current session has been expired" error
 
-This article gives the possible solutions for the Commerce Admin login issue, where you are redirected back to the login form with the following error message: *"Your current session has been expired"*. Solutions include checking for server time setting issues and changing session storage settings.
+This article gives the possible solutions for the [!UICONTROL Commerce Admin] login issue, where you are redirected back to the login form with the following error message: *"Your current session has been expired"*. Solutions include checking for server time setting issues and changing session storage settings.
 
 ## Affected editions and versions:
 
@@ -17,12 +17,12 @@ All Adobe Commerce versions and editions
 
 <u>Steps to reproduce</u>:
 
-1. Go to the Commerce Admin page.
-1. Enter your credentials and click Sign in.
+1. Go to the **[!UICONTROL Commerce Admin]** page.
+1. Enter your credentials and click **Sign in**.
 
 <u>Expected result</u>:
 
-You get logged in to the Commerce Admin.
+You get logged in to the [!UICONTROL Commerce Admin].
 
 <u>Actual result</u>:
 
@@ -64,6 +64,8 @@ Run the `bin/magento app:config:import` command to import configuration data.
 ## Related reading
 
 * [Import data from configuration files](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html) in our developer documentation
-* [Configure Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html) in our developer documentation
-* [Redirect back to the Commerce Admin login form with "Your account is temporarily disabled" error](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) in our support knowledge base
-* [Redirect back to the login form with no error, when trying to login to the Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md) in our support knowledge base
+* [Configure [!DNL Redis]](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis) in our developer documentation
+* [Redirect back to the [!UICONTROL Commerce Admin] login form with "Your account is temporarily disabled" error]([/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error)) in our support knowledge base
+* [Redirect back to the login form with no error, when trying to login to the [!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin) in our support knowledge base
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook
+

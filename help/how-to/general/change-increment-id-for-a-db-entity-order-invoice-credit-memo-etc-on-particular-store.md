@@ -80,5 +80,6 @@ Before executing the `ALTER TABLE` query on the Production environment of Adobe 
 
 ## Related documentation
 
-* [Create database dump on Cloud](/help/how-to/general/create-database-dump-on-cloud.md) in our support knowledge base.
-* [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in our developer documentation.
+* [Create database dump on Cloud](/help/how-to/general/create-database-dump-on-cloud.md) in our support knowledge base
+* [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) in our developer documentation
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

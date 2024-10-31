@@ -54,13 +54,13 @@ Once you configure and connect, it can take over 30 minutes for the index in ES 
 
 If your product data is not synced correctly for a specific SKU, do the following:
 
-1. Use the following SQL query and verify that you have the data you expect in the `feed_data` column. Also, make a note of the `modified_at` timestamp.
+1. Use the following [!DNL SQL] query and verify that you have the data you expect in the `feed_data` column. Also, make a note of the `modified_at` timestamp.
 
     ```sql
     select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
     ```
 
-1. If you do not see the correct data, try to reindex using the following command and rerun the SQL query in step 1 to verify the data:
+1. If you do not see the correct data, try to reindex using the following command and rerun the [!DNL SQL] query in step 1 to verify the data:
 
     ```bash
     bin/magento indexer:reindex cde_products_feed
@@ -70,7 +70,7 @@ If your product data is not synced correctly for a specific SKU, do the followin
 
 ### Check timestamp of last product export
 
-1. If you see the correct data in `cde_products_feed`, use the following SQL query to check the timestamp of the last export. It should be after the `modified_at` timestamp:
+1. If you see the correct data in `cde_products_feed`, use the following [!DNL SQL] query to check the timestamp of the last export. It should be after the `modified_at` timestamp:
 
     ```sql
     select * from scopes_website_data_exporter;
@@ -88,13 +88,13 @@ If your product data is not synced correctly for a specific SKU, do the followin
 
 If your product attribute data isn't synced correctly for a specific attribute code, do the following:
 
-1. Use the following SQL query and verify that you have the data you expect in the `feed_data` column. Also, make a note of the `modified_at` timestamp.
+1. Use the following [!DNL SQL] query and verify that you have the data you expect in the `feed_data` column. Also, make a note of the `modified_at` timestamp.
 
     ```sql
     select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
     ```
 
-1. If you do not see the correct data, use the following command to reindex and then rerun the SQL query in step 1 to verify the data.
+1. If you do not see the correct data, use the following command to reindex and then rerun the [!DNL SQL] query in step 1 to verify the data.
 
     ```bash
     bin/magento indexer:reindex cde_product_attributes_feed
@@ -106,7 +106,7 @@ If your product attribute data isn't synced correctly for a specific attribute c
 
 If you see the correct data in `cde_product_attributes_feed`:
 
-1. Use the following SQL query to check the timestamp of the last export. It should be after the `modified_at` timestamp.
+1. Use the following [!DNL SQL] query to check the timestamp of the last export. It should be after the `modified_at` timestamp.
 
     ```sql
     select * from scopes_website_data_exporter;
@@ -131,5 +131,6 @@ bin/magento saas:resync --feed productattributes
 
 ## Related reading
 
-* See [Onboard Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in our user documentation.
-* See [Review logs and troubleshoot Adobe Commerce SaaS data export and synchronization](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in Adobe Commerce SaaS Data Export Guide.
+* [Onboard Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) in our user documentation
+* [Review logs and troubleshoot Adobe Commerce SaaS data export and synchronization](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in Adobe Commerce SaaS Data Export Guide
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

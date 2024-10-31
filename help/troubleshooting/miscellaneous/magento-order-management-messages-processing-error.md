@@ -55,10 +55,11 @@ This occurs when the Connector attempts to process `magento.inventory.source_man
 
 ## Solution
 
-To resolve the problem run the following SQL statement in the CLI which deletes all records in the `mcom_api_messages` table:
+To resolve the problem run the following [!DNL SQL] statement in the CLI which deletes all records in the `mcom_api_messages` table:
 
  `delete from mcom_api_messages;`
 
 ## Related Reading
 
-See the OMS Docs [OMS Connector Setup Tutorial](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+* OMS Docs [OMS Connector Setup Tutorial](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

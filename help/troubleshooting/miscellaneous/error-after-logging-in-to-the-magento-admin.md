@@ -24,3 +24,7 @@ The base URL is not correct. The base URL must:
 * Match the case of the `web/unsecure/base_url` record in the `core_config_data` database table
 
 Re-run the installation using a valid value.
+
+## Related reading
+
+[Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

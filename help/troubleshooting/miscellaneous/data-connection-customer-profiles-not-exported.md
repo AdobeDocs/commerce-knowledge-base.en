@@ -90,7 +90,7 @@ In the Commerce Admin, make sure that the following fields are set:
 
 ### Query Event Data SaaS table
 
-Connect and execute the following SQL query to verify customer profile records appear in the
+Connect and execute the following [!DNL SQL] query to verify customer profile records appear in the
 `event_data_saas` table and that there are no errors:
 
 ```sql
@@ -119,4 +119,5 @@ select * from event_data_saas;
 
 ## Related reading
 
-See the [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extension in the Commerce Services user guide.
+* [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) extension in the Commerce Services user guide
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

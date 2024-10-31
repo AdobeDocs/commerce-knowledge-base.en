@@ -1,13 +1,13 @@
 ---
-title: MySQL disk space is low on Adobe Commerce on cloud infrastructure
-description: This article provides solutions for when you are experiencing very low space or no space for MySQL on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section.
+title: '[!DNL MySQL] disk space is low on Adobe Commerce on cloud infrastructure'
+description: This article provides solutions for when you are experiencing very low space or no space for [!DNL MySQL] on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section.
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services
 role: Developer
 ---
-# MySQL disk space is low on Adobe Commerce on cloud infrastructure
+# [!DNL MySQL] disk space is low on Adobe Commerce on cloud infrastructure
 
-This article provides solutions for when you are experiencing very low space or no space for MySQL on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section.
+This article provides solutions for when you are experiencing very low space or no space for [!DNL MySQL] on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section.
 
 ## Affected products and versions
 
@@ -31,18 +31,18 @@ Environment sync errors:
 
 PHP errors:
 
-* *php: PDO::\_\_construct(): MySQL server has gone away.*
+* *php: PDO::\_\_construct(): [!DNL MySQL] server has gone away.*
 * *php errors: PDO::\_\_construct(): Error while reading greeting packet. PID=NNNN.*
-* *ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0 "Internal error/check (Not system error)".*
+* *ERROR 2013 (HY000): Lost connection to [!DNL MySQL] server at 'reading initial communication packet', system error: 0 "Internal error/check (Not system error)".*
 
 Database errors:
 
 * *Error\_code: 1114*
 * *InnoDB: Error (Out of disk space) writing word node to FTS auxiliary index table.*
-* *SQLSTATE\[HY000\]: General error: 2006 MySQL server has gone away*
+* *SQLSTATE\[HY000\]: General error: 2006 [!DNL MySQL] server has gone away*
 * *\[ERROR\] Slave SQL: Error 'The table `<table\_name>` is full' on query.*
 * *Unit mysql.service entered failed state.*
-* *error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111 "Connection refused")'*
+* *error: 'Can't connect to local [!DNL MySQL] server through socket '/var/run/mysqld/mysqld.sock' (111 "Connection refused")'*
 * *1205 Lock wait timeout exceeded; try restarting transaction, query was: INSERT INTO \`cron\_schedule\` (\`job\_code\`, \`status\`, \`created\_at\`, \`scheduled\_at\`) VALUES (?, ?, `YYYY-02-07 HH:MM:SS`, `YYYY-MM-DD HH:MM:SS`)*
 
 Deployment errors:
@@ -52,17 +52,17 @@ Deployment errors:
 * *Upgrading schema.. SQLSTATE\[HY000\]: General error: 1114 The table `<table\_name>` is full*
 * *SQLSTATE\[HY000\]: General error: 3 Error writing file ./`<environment name>`/\#*
 * *W: `<filename>` (Errcode: 28 "No space left on device")*  *Indexing errors (along with orphaned temporary .ibd files in /tmp):*
-* *Catalog Rule indexer throws an exception. The temporary tables don't get cleaned up in the aftermath and then fill the disk on the current MySQL master node*
+* *Catalog Rule indexer throws an exception. The temporary tables don't get cleaned up in the aftermath and then fill the disk on the current [!DNL MySQL] master node*
 
 <u>Steps to reproduce</u>:
 
- One of the ways you can check if the `/data/mysql` (or wherever MySQL data storage is configured) is full is by running the following command in the CLI:
+ One of the ways you can check if the `/data/mysql` (or wherever [!DNL MySQL] data storage is configured) is full is by running the following command in the CLI:
 
 ```bash
 df -h
 ```
 
-Less than 10% of free memory on MySQL disk is a primary indicator of an outage.
+Less than 10% of free memory on [!DNL MySQL] disk is a primary indicator of an outage.
 
 ## Cause
 
@@ -70,7 +70,7 @@ The `/data/mysql` mount might become full due to a range of issues, such as not 
 
 ## Solution
 
-There is an immediate step that you might take to bring MySQL back on track (or prevent it from getting stuck): free up some space by flushing big tables.
+There is an immediate step that you might take to bring [!DNL MySQL] back on track (or prevent it from getting stuck): free up some space by flushing big tables.
 
 But a long-term solution would be allocating more space and following [Database best practices](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html), including enabling the [Order/Invoice/Shipment archive](https://docs.magento.com/user-guide/sales/order-archive.html) functionality.
 
@@ -122,7 +122,7 @@ Check for large `ibtmp1` file on `/data/mysql` of each node: this file is the ta
 
 Check if there are large tables and consider if any of them can be flushed. Do this on the primary (source) node.
 
-For example, tables with reports can usually be flushed. For details on how to find large tables, see the [Find Large MySQL tables](/help/how-to/general/find-large-mysql-tables.md) article.
+For example, tables with reports can usually be flushed. For details on how to find large tables, see the [Find Large [!DNL MySQL] tables](/help/how-to/general/find-large-mysql-tables.md) article.
 
 If there are no huge report tables, consider flushing `_index` tables, just to return the Adobe Commerce application back on track. `index_price` tables would be the best candidates. For example, `catalog_category_product_index_storeX` tables, where X can have values from "1" to the maximum store count. Please mind that you would need to reindex to restore data in these tables, and in the case of big catalogs, this reindex might take a lot of time.
 
@@ -130,15 +130,19 @@ Once you flush them, wait for wsrep sync completion. You can now create backups 
 
 ### Check binary logging settings
 
-Check your MySQL server binary logging settings: `log_bin` and `log_bin_index`. If the settings are enabled, the log files might become huge. [Create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to purge large binary log files. Also, request to check that binary logging is being configured correctly so that logs are purged periodically and don't take too much space.
+Check your [!DNL MySQL] server binary logging settings: `log_bin` and `log_bin_index`. If the settings are enabled, the log files might become huge. [Create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to purge large binary log files. Also, request to check that binary logging is being configured correctly so that logs are purged periodically and don't take too much space.
 
-If you don't have access to MySQL server settings, request support to check it.
+If you don't have access to [!DNL MySQL] server settings, request support to check it.
 
 ### Allocate/buy more space
 
-Allocate more disk space for MySQL if you have some unused. See the [Check disk space limit](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md) article to learn how to check if you have free disk space.
+Allocate more disk space for [!DNL MySQL] if you have some unused. See the [Check disk space limit](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md) article to learn how to check if you have free disk space.
 
-* For the Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused. For details, see the [Allocate more space for MySQL](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md).
+* For the Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused. For details, see the [Allocate more space for [!DNL MySQL]](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md).
 * For Pro plan Staging and Production environments, [contact support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to allocate more disk space if you have some unused.
 
 If you have reached your space limit and still experience low space issues, consider buying more disk space, contact your Adobe Account Team for details.
+
+## Related reading
+
+[Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

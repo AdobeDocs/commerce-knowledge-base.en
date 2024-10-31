@@ -77,3 +77,5 @@ saas-export
 * [Create Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) in the Product Recommendations Guide
 * [Review logs and troubleshoot](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) in the [!DNL SaaS] Data Export Guide
 * [[!DNL SaaS] Data Export Extension Release Notes](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) in the Adobe Commerce Data Export Guide for [!DNL SaaS] Services
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook
+

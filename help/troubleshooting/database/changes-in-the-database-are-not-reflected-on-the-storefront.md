@@ -1,13 +1,13 @@
 ---
 title: Changes in the database are not reflected on the storefront
-description: This article provides solutions to avoid delays or interruptions in entity updates being applied. This includes how to avoid change log tables from getting oversized and how to set up MySQL table triggers.
+description: This article provides solutions to avoid delays or interruptions in entity updates being applied. This includes how to avoid change log tables from getting oversized and how to set up [!DNL MySQL] table triggers.
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
 ---
 # Changes in the database are not reflected on the storefront
 
-This article provides solutions to avoid delays or interruptions in entity updates being applied. This includes how to avoid change log tables from getting oversized and how to set up MySQL table triggers.
+This article provides solutions to avoid delays or interruptions in entity updates being applied. This includes how to avoid change log tables from getting oversized and how to set up [!DNL MySQL] table triggers.
 
 Affected products and versions:
 
@@ -26,9 +26,9 @@ If your indexers are [configured to update by schedule](https://devdocs.magento.
 
 The change log tables grow that big if the `indexer_update_all_views` cron job is not completed successfully multiple times.
 
-Change log tables are the database tables where the changes to entities are tracked. A record is stored in a change log table as long as the change is not applied, which is performed by the `indexer_update_all_views` cron job. There are multiple change log tables in a Adobe Commerce database, they are named according to the following pattern: INDEXER\_TABLE\_NAME + ‘\_cl’,  for example `catalog_category_product_cl`, `catalog_product_category_cl`. You can find more details on how changes are tracked in database in the [Indexing overview > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) article in our developer documentation.
+Change log tables are the database tables where the changes to entities are tracked. A record is stored in a change log table as long as the change is not applied, which is performed by the `indexer_update_all_views` cron job. There are multiple change log tables in a Adobe Commerce database, they are named according to the following pattern: INDEXER\_TABLE\_NAME + '\_cl',  for example `catalog_category_product_cl`, `catalog_product_category_cl`. You can find more details on how changes are tracked in database in the [Indexing overview > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) article in our developer documentation.
 
-### MySQL database triggers not set up
+### [!DNL MySQL] database triggers not set up
 
 You would suspect database triggers not being set up, if after adding or changing an entity (product, category, target rule, and so on) - no records are added to the corresponding change log table.
 
@@ -54,9 +54,9 @@ Or you can check its status in the logs by searching for the `indexer_update_all
 * `<install_directory>/var/log/cron.log` - for versions 2.3.1+ and 2.2.8+
 * `<install_directory>/var/log/system.log` - for earlier versions
 
-### Re-set MySQL table triggers
+### Re-set [!DNL MySQL] table triggers
 
-To set up the missing MySQL table triggers, you need to re-set the indexer mode:
+To set up the missing [!DNL MySQL] table triggers, you need to re-set the indexer mode:
 
 1. Switch to 'On Save'.
 1. Switch back to 'On Schedule'.
@@ -77,5 +77,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## Related reading
 
-<ul><li title="MySQL tables are too large"><a href="/help/troubleshooting/database/mysql-tables-are-too-large.md">MySQL tables are too large</a> in our support knowledge base.</li>
-<li title="MySQL tables are too large"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">Indexer overview > Mview</a> in our developer documentation.</li></ul>
+* [[!DNL MySQL] tables are too large](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large) in our support knowledge base
+* [Indexing: [!DNL Mview]](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) in our developer documentation
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

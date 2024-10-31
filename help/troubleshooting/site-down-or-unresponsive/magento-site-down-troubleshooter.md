@@ -13,8 +13,8 @@ Click on each question to reveal the answer details in each step of the troubles
 
 +++**Does <https://status.adobe.com> show any issues?**
 
-a. YES – If you checked [Adobe Magento Status](https://status.adobe.com/products/3350) and it showed an issue, open a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) for further investigation.  
-b. NO – If you checked [Adobe Magento Status](https://status.adobe.com/products/3350) and it did not show an issue, proceed to [Step 2](#step-2).
+a. YES – If you checked [Adobe Commerce Status](https://status.adobe.com/cloud/experience_cloud), and it showed an issue, open a [Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) for further investigation.  
+b. NO – If you checked [Adobe Commerce Status](https://status.adobe.com/cloud/experience_cloud), and it did not show an issue, proceed to [Step 2](#step-2).
 
 +++
 
@@ -22,8 +22,8 @@ b. NO – If you checked [Adobe Magento Status](https://status.adobe.com/product
 
 +++**Does http://status.fastly.com show any issues?**
 
-a. YES – If you checked [Fastly Status](https://status.fastly.com/) and it showed an issue, open a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) for further investigation.  
-b. NO – If you checked [Fastly Status](https://status.fastly.com/) and it did not show an issue, proceed to [Step 3](#step-3).
+a. YES – If you checked [[!DNL Fastly] Status](https://status.fastly.com/) and it showed an issue, open a [Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) for further investigation.  
+b. NO – If you checked [[!DNL Fastly] Status](https://status.fastly.com/) and it did not show an issue, proceed to [Step 3](#step-3).
 
 +++
 
@@ -33,7 +33,7 @@ b. NO – If you checked [Fastly Status](https://status.fastly.com/) and it did 
 
 To check error codes in **Firefox**: Click the **Open Menu** icon > **Web Developer** > **Toggle Tools** > **Network** tab > **All** filter > **Status** column. To check error codes in **Chrome**: Click the **Open Menu** icon > **More Tools** > **Developer Tools** > **Network** tab > **All** filter > **Status** column.
 
-a. YES – Open a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) for further investigation.  
+a. YES – Open a [Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) for further investigation.  
 b. NO – Proceed to [Step 4](#step-4).
 
 +++
@@ -42,11 +42,11 @@ b. NO – Proceed to [Step 4](#step-4).
 
 +++**Which website error code did you receive?**
 
-a. Error Code 500 – Check log of `/var/log/platform/`. If this data does not present the issue to you, you can open a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and include the troubleshooting information you have so far for further investigation.
+a. Error Code 500 – Check log of `/var/log/platform/`. If this data does not present the issue to you, you can open a [Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) and include the troubleshooting information you have so far for further investigation.
 
-b. Error Code 503 – Check log of `var/reports`. If this data does not present the issue to you, you can open a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and include the troubleshooting information you have so far for further investigation.
+b. Error Code 503 – Check log of `var/reports`. If this data does not present the issue to you, you can open a [Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) and include the troubleshooting information you have so far for further investigation.
 
-c. Error Code 404 - Run the following query: `SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';` If the query returns a table, where `update_exists` value is "0", refer to the [Error 404 on all pages, storefront and Admin, due to Content Staging issue](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md) article. In all other cases proceed to [Step 5](#step-5).
+c. Error Code 404 - Run the following query: `SELECT f.flag_data->>'$.current_version' as flag_version, (su.id IS NOT NULL) as update_exists FROM flag f LEFT JOIN staging_update su ON su.id = f.flag_data->>'$.current_version' WHERE flag_code = 'staging';` If the query returns a table, where `update_exists` value is "0", refer to the [Error 404 on all pages, storefront and Admin, due to Content Staging issue](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue) article. In all other cases proceed to [Step 5](#step-5).
 
 d. Other Error Codes – Proceed to [Step 5](#step-5).
 
@@ -54,9 +54,9 @@ d. Other Error Codes – Proceed to [Step 5](#step-5).
 
 ## Step 5 {#step-5}
 
-+++**Is your site slow, or having high server load, high CPU load, slow request processing, or outages in MySQL or Redis?**
++++**Is your site slow, or having high server load, high CPU load, slow request processing, or outages in [!DNL MySQL] or Redis?**
 
-a. YES – Proceed with steps for [Checking for DDOS attacks from CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md).  
+a. YES – Proceed with steps for [Checking for DDOS attacks from CLI](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli).  
 b. NO – Check logs of `/var/log/exception.log` and `/var/log/deploy.log`, and if this data does not present the issue to you, proceed to [Step 6](#step-6).
 
 +++
@@ -74,16 +74,16 @@ b. NO – Proceed to [Step 7](#step-7).
 
 +++**Do you have Elasticsearch errors?**
 
-a. YES – Proceed with steps for [checking Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html).  
+a. YES – Proceed with steps for [checking Elasticsearch](https://developer.adobe.com/commerce/php/module-reference/module-elasticsearch/).  
 b. NO – Proceed to [Step 8](#step-8).
 
 +++
 
 ## Step 8 {#step-8}
 
-+++**Was your MySQL database having slow queries or incorrect queries?**
++++**Was your [!DNL MySQL] database having slow queries or incorrect queries?**
 
-a. YES – Proceed with [Checking slow queries and Processes taking too long in MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md) and checking your query structure in this [MySQL query tutorial](https://dev.mysql.com/doc/refman/5.5/en/entering-queries.html).  
+a. YES – Proceed with [Checking slow queries and Processes taking too long in [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/checking-slow-queries-and-processes-mysql) and checking your query structure in this [[!DNL MySQL] query tutorial](https://dev.mysql.com/doc/refman/5.5/en/entering-queries.html).  
 b. NO – Proceed to [Step 9](#step-9).
 
 +++
@@ -92,7 +92,7 @@ b. NO – Proceed to [Step 9](#step-9).
 
 +++**Is your static content not available?**
 
-a. YES – Proceed with consulting the [Checking static content](https://support.magento.com/hc/en-us/articles/360031624091) article.  
+a. YES – Proceed with consulting the [Checking static content](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/static-content-deployment) article.  
 b. NO – Proceed to [Step 10](#step-10).
 
 +++
@@ -101,7 +101,7 @@ b. NO – Proceed to [Step 10](#step-10).
 
 +++**Do you see PHP Fatal Errors in your logs?**
 
-a. YES – Proceed with consulting [Common PHP Fatal Errors and solutions](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md).  
+a. YES – Proceed with consulting [Common PHP Fatal Errors and solutions](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions).  
 b. NO – Proceed to [Step 11](#step-11).
 
 +++
@@ -110,7 +110,7 @@ b. NO – Proceed to [Step 11](#step-11).
 
 +++**Are you seeing Redis errors?**
 
-a. YES – Proceed with steps to [verify Redis is running](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify) and for [Redis troubleshooting](https://redis.io/topics/problems).  
+a. YES – Proceed with steps to [verify [!DNL Redis] is running](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/redis#troubleshooting-redis) and for [[!DNL Redis] troubleshooting](https://redis.io/topics/problems).  
 b. NO – Proceed to [Step 12](#step-12).
 
 +++
@@ -119,8 +119,8 @@ b. NO – Proceed to [Step 12](#step-12).
 
 +++**Are you seeing Indexer errors?**
 
-a. YES – If your Index is locked by another process, consult [Index is locked by another process](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md). If you have other Indexer errors, please open a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) for further investigation.  
-b. NO – Open a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) for further investigation.
+a. YES – If your Index is locked by another process, consult [Index is locked by another process](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/index-is-locked-by-another-process). If you have other Indexer errors, please open a [Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) for further investigation.  
+b. NO – Open a [Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) for further investigation.
 
 +++
 
@@ -128,7 +128,7 @@ b. NO – Open a [Support Ticket](/help/help-center-guide/help-center/magento-he
 
 +++**Do you have issues with your custom module(s)?**
 
-a. YES – Proceed to consult [General custom module troubleshooting help](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md).  
+a. YES – Proceed to consult [General custom module troubleshooting help](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help).  
 b. NO – Proceed to [Step 14](#step-14).
 
 +++
@@ -137,7 +137,7 @@ b. NO – Proceed to [Step 14](#step-14).
 
 +++**Do you have post-hook failures?**
 
-a. YES – Proceed with checking your MySQL error in this [MySQL server error message reference](https://dev.mysql.com/doc/mysql-errors/5.7/en/server-error-reference.html).  
+a. YES – Proceed with checking your [!DNL MySQL] error in this [[!DNL MySQL] server error message reference](https://dev.mysql.com/doc/mysql-errors/5.7/en/server-error-reference.html).  
 b. NO – Proceed to [Step 15](#step-15).
 
 +++
@@ -146,7 +146,7 @@ b. NO – Proceed to [Step 15](#step-15).
 
 +++**Do you have issues with composer patches?**
 
-a. YES – Proceed to consulting [Applying a patch takes your site down](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md).  
+a. YES – Proceed to consulting [Applying a patch takes your site down](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down).  
 b. NO – Proceed to [Step 16](#step-16).
 
 +++
@@ -155,20 +155,24 @@ b. NO – Proceed to [Step 16](#step-16).
 
 +++**Do you have SQL database errors?**
 
-a. YES – Proceed with checking your MySQL error in this [MySQL server error message reference](https://dev.mysql.com/doc/mysql-errors/5.7/en/server-error-reference.html).  
+a. YES – Proceed with checking your [!DNL MySQL] error in this [[!DNL MySQL] server error message reference](https://dev.mysql.com/doc/mysql-errors/5.7/en/server-error-reference.html).  
 b. NO – Proceed to [Step 17](#step-17).
 
 +++
 
 ## Step 17 {#step-17}
 
-+++**Do you have MySQL database dead locks or an unresponsive MySQL database?**
++++**Do you have [!DNL MySQL] database dead locks or an unresponsive [!DNL MySQL] database?**
 
-a. YES – Proceed with checking for MySQL dead locks in this [Deadlocks in MySQL](/help/troubleshooting/database/deadlocks-in-mysql.md) article.  
-b. NO – Open a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) for further investigation.
+a. YES – Proceed with checking for [!DNL MySQL] deadlocks in this [Deadlocks in [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/deadlocks-in-mysql) article.  
+b. NO – Open a [Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases) for further investigation.
 
 +++
 
 [Back to Step 1](#step-1)
 
-Click [HERE](/help/troubleshooting/site-down-or-unresponsive/site-down-troubleshooting-diagram.md) to see the Site Down Troubleshooting Flowchart.
+Click [HERE](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/site-down-troubleshooting-diagram) to see the Site Down Troubleshooting Flowchart.
+
+## Related reading
+
+[Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

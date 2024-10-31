@@ -30,5 +30,6 @@ To manually trigger the [`CleanExpiredTokens.php`](https://github.com/magento/ma
 
 ## Related reading
 
-* [Services > [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) in the Commerce Configuration Reference guide. 
-* [Authentication Guide](https://developer.adobe.com/developer-console/docs/guides/authentication/) in the Adobe Developer guide.
+* [Services > [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) in the Commerce Configuration Reference guide
+* [Authentication Guide](https://developer.adobe.com/developer-console/docs/guides/authentication/) in the Adobe Developer guide
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

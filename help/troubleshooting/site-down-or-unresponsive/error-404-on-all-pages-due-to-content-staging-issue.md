@@ -1,13 +1,13 @@
 ---
 title: Error 404 on all pages due to Content Staging issue
-description: This article provides a fix for the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure issue where you get a 404 error when accessing any storefront page or the Commerce Admin.
+description: This article provides a fix for the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure issue where you get a 404 error when accessing any storefront page or the [!UICONTROL Commerce Admin].
 exl-id: 62d8ba6e-8550-4e1e-8e8d-8f319c92778a
 feature: CMS, Catalog Management, Categories, Page Content, Staging
 role: Developer
 ---
 # Error 404 on all pages due to Content Staging issue
 
-This article provides a fix for the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure issue where you get a 404 error when accessing any storefront page or the Commerce Admin.
+This article provides a fix for the Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure issue where you get a 404 error when accessing any storefront page or the [!UICONTROL Commerce Admin].
 
 ## Affected products and versions
 
@@ -18,7 +18,7 @@ This article provides a fix for the Adobe Commerce on-premises and Adobe Commerc
 
 >[!NOTE]
 >
->This article doesn't apply to the situation in which you get a 404 error when trying to [preview the staging update](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change). If you run into that issue, please open a [support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+>This article doesn't apply to the situation in which you get a 404 error when trying to [preview the staging update](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change). If you run into that issue, please open a [support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
 
 Accessing any storefront page or the Admin results in the 404 error (the "Whoops, our bad..." page) after performing operations with scheduled updates for store content assets using [Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (updates for store content assets scheduled using the [Magento\_Staging module](https://developer.adobe.com/commerce/php/module-reference/)). For example, you may have deleted a Product with a scheduled update or removed the end date for the scheduled update.
 
@@ -70,7 +70,7 @@ If the query returns a table where `update_exists` value is "1" or an empty resu
 
 ![updates_exist_1.png](assets/updates_exist_1.png)
 
-In this case, you might refer to the [Site Down Troubleshooter](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) for troubleshooting ideas.
+In this case, you might refer to the [Site Down Troubleshooter](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter) for troubleshooting ideas.
 
 ## Solution
 
@@ -80,6 +80,10 @@ In this case, you might refer to the [Site Down Troubleshooter](/help/troublesho
    DELETE FROM flag WHERE flag_code = 'staging';
    ```
 
-1. Wait for the cron job to run (runs in up to five minutes if set up properly) or run it manually if you do not have cron set up.
+1. Wait for the [!DNL cron] job to run (runs in up to five minutes if set up properly) or run it manually if you do not have [!DNL cron] set up.
 
-The problem should be solved straight after fixing the invalid link. If the problem persists, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+The problem should be solved straight after fixing the invalid link. If the problem persists, [submit a support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
+
+## Related reading
+
+[Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

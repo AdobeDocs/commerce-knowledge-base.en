@@ -156,3 +156,7 @@ One reason for the error could be that you are trying to migrate from a *copy* o
 ### Possible solution
 
 We recommended testing the migration process from a copy of your Adobe Commerce 1 database to fix your migration issues. After fixing the issues on the copy, start the migration process over again from your live Adobe Commerce 1 database. This will help ensure a smooth migration process.
+
+## Related reading
+
+[Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

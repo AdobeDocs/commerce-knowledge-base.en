@@ -32,3 +32,7 @@ Depending on the complexity of your analysis, generating the corresponding MBI r
 1. Similarly, if columns used in the analysis can be modified after a row is added, confirm with support that these columns are being [checked for modifications](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html), as well as the frequency of the recheck.
 
  **Still stumped?** Don't worry - we're here to help. Send us a request using [these instructions](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md).
+
+## Related reading
+
+[Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook
