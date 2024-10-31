@@ -35,5 +35,5 @@ You are redirected back to the login form, with the following error message disp
 
 ## Related reading
 
-* [Redirect back to the login form with no error, when trying to login to the [!UICONTROL Commerce Admin]]([/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin))
+* [Redirect back to the login form with no error, when trying to login to the [!UICONTROL Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin)
 * [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook
