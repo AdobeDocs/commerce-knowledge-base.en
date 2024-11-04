@@ -62,7 +62,7 @@ Considering that it isn't possible to easily check if the issue was patched, you
 
 <u>You can do this by taking the following steps, using the sample file `VULN-27015-2.4.7_COMPOSER.patch` **as an example</u>**:
 
-1. [Install the Quality Patches Tool](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [Install the [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
 1. Run the command:<br>
  ![ac-13283-tell-if-patch-applied-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. You should see output similar to this, where VULN-27015 returns the *Applied* status:
