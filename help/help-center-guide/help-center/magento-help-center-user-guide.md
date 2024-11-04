@@ -78,9 +78,6 @@ To sign in to the Adobe Experience League Support, follow these steps:
 
 Once successfully signed in as the account owner or Shared Access user, you may submit a support case using the Adobe Experience League homepage, your Adobe Commerce account page, and your Adobe Commerce Cloud account page.
 
-* If you are the account owner or a returning Shared Access user, follow the steps below.
-* If you are a Shared Access user and the account owner has just [provided you with shared access](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#provide-shared-access), you must first switch accounts before proceeding to the steps below. See [Access shared account (switch accounts)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts) for more details.
-
 #### Adobe Experience League start page {#experience-league-start-page}
 
 To submit a new support case using the start page of Adobe Experience League, follow these steps:
@@ -89,6 +86,9 @@ To submit a new support case using the start page of Adobe Experience League, fo
 >
 >1. To submit a case, you must be entitled to support for the appropriate product (e.g., Adobe Commerce, Adobe Commerce Intelligence, Experience Platform, etc.). If you aren't entitled to support, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization. 
 >1. If you belong to multiple organizations or there are multiple organizations with similar-looking names (each one will represent any of the other Adobe products the organization has subscriptions to), you will need to first select the appropriate organization from the dropdown that ends in "(Commerce)".
+>1. To submit a case, you must be entitled to support for the appropriate product (e.g., Adobe Commerce, Adobe Commerce Reporting, Adobe Commerce Payment Services, Experience Platform, etc.). If you aren't entitled to support, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization. To submit a case for Commerce-related issues, you must first select the appropriate organization name that ends in *[!DNL (Commerce)]*.
+>1. If you belong to multiple organizations or there are multiple organizations with similar-looking names (each one will represent any of the other Adobe products the organization has subscriptions to), you will need to first select the appropriate organization from the dropdown. 
+>1. If you don't see Adobe Commerce in the [!UICONTROL Select a product] dropdown, you must first obtain [Shared Access](#shared-access) from the Commerce Account Owner. Once you have been given Shared Access, you will have to [sync your account](#switch-accounts) to finalize the process before you can submit a case.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 
     ![open-support-page](assets/click_support.png)
 
-1. To begin the support intake process, ensure that you have selected the appropriate organization from the Organization dropdown list (if visible).
+1. To begin the support intake process, ensure that you have selected the appropriate organization from the Organization dropdown list (if visible). To submit a case for Adobe Commerce, select the organization's name that ends in *[!DNL Commerce]*.
 
    ![select_appropriate_org](assets/select_appropriate_org.png)
 
@@ -183,6 +183,10 @@ Your support cases are those that you:
 You can view the cases you have submitted personally by clicking **[!UICONTROL My Cases]** on the left-hand menu.
 
 ![view-support-cases](assets/view_support_cases.png)
+
+#### View your historical cases from Adobe Commerce Help Center
+
+Learn more about how you can **view your historical cases** from the Adobe Commerce Help Center in [Decommissioning of Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center) in our Adobe Commerce Knowledge Base.
 
 #### View your watched cases
 
