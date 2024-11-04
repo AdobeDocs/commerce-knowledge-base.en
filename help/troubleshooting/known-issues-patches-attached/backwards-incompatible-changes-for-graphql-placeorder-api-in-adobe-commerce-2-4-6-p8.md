@@ -1,13 +1,13 @@
 ---
 title: 'Backwards incompatible changes for [!DNL GraphQL] `placeOrder` [!DNL API] in Adobe Commerce 2.4.6-p8'
 promoted: true
-description: This article provides a patch for the known Adobe Commerce version 2.4.6-p8 Cloud and On-premises issue when the `placeOrder` [!DNL GraphQL API] doesn't return an expected error response from previous version 2.4.6 patch versions, which may lead to a broken checkout experience for merchants using PWA storefront or any other [!DNL GraphQL API]-based storefront for their stores.
+description: This article provides a patch for the known Adobe Commerce version 2.4.6-p8 Cloud and On-premises issue where the `placeOrder` [!DNL GraphQL API] doesn't return an expected error response, as seen in previous 2.4.6 patch versions. This may lead to a broken checkout experience for merchants using PWA storefront or any other [!DNL GraphQL API]-based storefront for their stores.
 feature: Checkout, REST, GraphQL
 role: Developer
 ---
 # Backwards incompatible changes for [!DNL GraphQL] `placeOrder` [!DNL API] in Adobe Commerce 2.4.6-p8
 
-This article provides a patch for the known Adobe Commerce version 2.4.6-p8 Cloud and On-premises issue when the `placeOrder` [!DNL GraphQL API] doesn't return an expected error response from previous version 2.4.6 patch versions, which may lead to a broken checkout experience for merchants using [!DNL PWA] storefront or any other [!DNL GraphQL API]-based storefront for their stores.
+This article provides a patch for the known Adobe Commerce version 2.4.6-p8 Cloud and On-premises issue where the `placeOrder` [!DNL GraphQL API] doesn't return an expected error response, as seen in previous 2.4.6 patch versions. This may lead to a broken checkout experience for merchants using [!DNL PWA] storefront or any other [!DNL GraphQL API]-based storefront for their stores.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ This article provides a patch for the known Adobe Commerce version 2.4.6-p8 Clou
 
 ## Issue
 
-After the upgrade on Adobe Commerce 2.4.6-p8 security-only patch, the [`placeOrder` [!DNL GraphQL API]](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/place-order/) doesn't return an expected error response as seen in any previous 2.4.6 patch versions. This may lead to a broken checkout experience for merchants using [!DNL PWA] storefront or any other [!DNL GraphQL API]-based storefront for their stores.
+After the upgrade on Adobe Commerce 2.4.6-p8 security-only patch, the [`placeOrder` [!DNL GraphQL API]](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/place-order/) doesn't return an expected error response, as seen in any previous 2.4.6 patch versions. This may lead to a broken checkout experience for merchants using [!DNL PWA] storefront or any other [!DNL GraphQL API]-based storefront for their stores.
 
 <u>Step to reproduce</u>:
 
