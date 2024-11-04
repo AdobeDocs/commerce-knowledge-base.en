@@ -84,6 +84,8 @@ To submit a new support case using the start page of Adobe Experience League, fo
 
 >[!INFO]
 >
+>1. To submit a case, you must be entitled to support for the appropriate product (e.g., Adobe Commerce, Adobe Commerce Intelligence, Experience Platform, etc.). If you aren't entitled to support, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization. 
+>1. If you belong to multiple organizations or there are multiple organizations with similar-looking names (each one will represent any of the other Adobe products the organization has subscriptions to), you will need to first select the appropriate organization from the dropdown that ends in "(Commerce)".
 >1. To submit a case, you must be entitled to support for the appropriate product (e.g., Adobe Commerce, Adobe Commerce Reporting, Adobe Commerce Payment Services, Experience Platform, etc.). If you aren't entitled to support, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization. To submit a case for Commerce-related issues, you must first select the appropriate organization name that ends in *[!DNL (Commerce)]*.
 >1. If you belong to multiple organizations or there are multiple organizations with similar-looking names (each one will represent any of the other Adobe products the organization has subscriptions to), you will need to first select the appropriate organization from the dropdown. 
 >1. If you don't see Adobe Commerce in the [!UICONTROL Select a product] dropdown, you must first obtain [Shared Access](#shared-access) from the Commerce Account Owner. Once you have been given Shared Access, you will have to [sync your account](#switch-accounts) to finalize the process before you can submit a case.
@@ -92,7 +94,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 >
 >Ensure that you have selected the correct organization before submitting the case, and that the organization you selected has the appropriate entitlements for the product for which you are requesting support. For example, if your issue is related to Adobe Commerce, but you had selected Experience Platform as the product and the case was successfully submitted, this may lead to misrouting of your case and delays in response times. 
 >
->In addition, if the wrong organization has been selected, your team will not be able to view the case under [!UICONTROL My Cases] for the appropriate/correct organization. The support team does not have the ability to change the organization associated with the case in the future.
+>In addition, if the wrong organization was selected at the time the case was submitted, your team will not be able to view the case under [!UICONTROL My Cases] for the appropriate/correct organization. The Adobe Commerce Support team does not have the ability to change the organization associated with the case; to address this, you must close the existing case and submit a new case with the appropriate details provided/selected.
 
 1. Click on **Support** in the header. It will open the Support homepage.
 
