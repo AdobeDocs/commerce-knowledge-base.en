@@ -1,13 +1,13 @@
 ---
-title: Locked fields in Commerce Admin
+title: Locked (grayed out) fields in Commerce Admin
 description: This article provides a solution for when you cannot modify fields in the Commerce Admin.
 exl-id: 5fe0967a-4241-440b-bb0d-429fa5644bbc
 feature: Admin Workspace
 role: Developer
 ---
-# Locked fields in Commerce Admin
+# Locked (grayed out) fields in Commerce Admin
 
-This article provides a solution for when you cannot modify fields in the Commerce Admin.
+This article provides a solution for when you cannot modify locked (grayed out) fields in the Commerce Admin.
 
 ## Affected products and versions
 

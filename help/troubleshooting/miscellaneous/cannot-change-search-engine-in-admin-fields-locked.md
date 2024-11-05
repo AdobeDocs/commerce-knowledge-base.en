@@ -36,4 +36,4 @@ The search engine configuration is locked in the `app/etc/env.php` file, or the 
 
 ## Related reading
 
-* [Locked fields in Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) in Commerce on Cloud Infrastructure Guide.
+* [Locked (grayed out) fields in Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) in Commerce on Cloud Infrastructure Guide.
