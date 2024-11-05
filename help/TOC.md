@@ -835,7 +835,7 @@ breadcrumb-title: Commerce KB
     * [robots.txt gives 404 error Adobe Commerce on cloud infrastructure 2.3.x](/help/troubleshooting/miscellaneous/robots-txt-gives-404-error-magento-commerce-cloud-2-3-x.md)
     * [Restricted admin access causing performance issues](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
     * [Cron tasks lock tasks from other groups](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
-    * [Locked fields in Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
+    * [Locked (grayed out) fields in Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
     * [Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)](/help/troubleshooting/miscellaneous/cannot-change-search-engine-using-magento-admin-search-engine-menu-is-inaccessible.md)
     * [Installation xdebug maximum function nesting level error](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
     * [Unable to save entity Adobe Commerce backend](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)
