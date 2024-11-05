@@ -43,4 +43,4 @@ There is no solution for this issue at the moment. Our [!DNL Live Search] team w
 
 ## Related reading
 
-[Install [!DNL Live Search]](https://docs.magento.com/user-guide/live-search/install.html) in our user guide.
+[Install [!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install) in our user guide.

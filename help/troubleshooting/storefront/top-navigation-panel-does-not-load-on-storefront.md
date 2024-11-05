@@ -45,7 +45,7 @@ The possible reasons for the issue are the following:
 
 To resolve the issues, you need to perform an additional Varnish configuration and restart Varnish.
 
-1. As a user with `root` privileges, open your Vanish configuration file in a text editor. See the [Modify the Varnish system configuration](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) in our developer documentation for info on where this file might be located for different operating systems.
+1. As a user with `root` privileges, open your Vanish configuration file in a text editor. See the [Modify the Varnish system configuration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server) in our developer documentation for info on where this file might be located for different operating systems.
 1. In the `DAEMON_OPTS variable`, add `-p feature=+esi_ignore_https`, `-p  feature=+esi_ignore_other_elements`, `-p  feature=+esi_disable_xml_check`. This would look like:
 
     ```bash
@@ -58,5 +58,5 @@ To resolve the issues, you need to perform an additional Varnish configuration a
 
 ## Related reading
 
-* [Configure Varnish and your web server](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) in our developer documentation.
+* [Configure Varnish and your web server](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server) in our developer documentation.
 * [Varnish documentation](https://varnish-cache.org/docs/5.1/reference/index.html)

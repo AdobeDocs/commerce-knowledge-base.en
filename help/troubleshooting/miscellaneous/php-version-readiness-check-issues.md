@@ -26,7 +26,7 @@ The check fails because you are using an unsupported PHP version.
 
 ### Solution
 
-To solve this issue, use one of the supported versions listed in our developer documentation [2.3.x System Requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html) and [2.2.x System Requirements](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html).
+To solve this issue, use one of the supported versions listed in our developer documentation [2.3.x System Requirements](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements) and [2.2.x System Requirements](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements).
 
 ## PHP readiness check does not display
 
@@ -37,7 +37,7 @@ The PHP readiness check doesn't display the PHP version as the following figure 
 
 ### Solution
 
-This is a symptom of incorrect cron job setup. For more information, see [Set up cron jobs](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron) in our developer documentation.
+This is a symptom of incorrect cron job setup. For more information, see [Set up cron jobs](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration) in our developer documentation.
 
 ## Incorrect PHP version
 
@@ -56,8 +56,7 @@ To resolve the issue, try the following:
 * Restart your web server or php-fm.
 * Check the `$PATH` environment variable for multiple paths to PHP.
 * Use the `which php` command to locate the first PHP executable in your path; if it's not correct, remove it or create a symlink to the correct PHP version.
-* Use a [ `phpinfo.php` ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) page to collect more information.
+* Use a [ `phpinfo.php` ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software) page to collect more information.
 * Make sure you're running a supported PHP version according to our system requirements, in our developer documentation:
-    * [Adobe Commerce 2.3.x System Requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html)
-    * [Adobe Commerce 2.2.x System Requirements](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html)
-* Set the same PHP settings for both the PHP command line and the PHP web server plug-in as discussed in [PHP configuration options](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-centos-ubuntu.html) in our developer documentation.
+    * [Adobe Commerce System Requirements](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
+* Set the same PHP settings for both the PHP command line and the PHP web server plug-in as discussed in [PHP configuration options](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements#php-settings) in our developer documentation.

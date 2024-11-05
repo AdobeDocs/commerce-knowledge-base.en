@@ -43,7 +43,7 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 For Adobe Commerce on-premises merchants: Apply the [hotfix,](https://magento.com/tech-resources/download#download2353) which is available from the Downloads section on [magento.com](https://magento.com) portal in My account.
 
-For Adobe Commerce on cloud infrastructure merchants: Adobe has included the fix in the Cloud Patches for Commerce v1.0.2. Please refer to [Cloud Patches for Commerce release notes](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche) in our developer documentation to find instructions on applying the latest package.
+For Adobe Commerce on cloud infrastructure merchants: Adobe has included the fix in the Cloud Patches for Commerce v1.0.2. Please refer to [Cloud Patches for Commerce release notes](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche) in our developer documentation to find instructions on applying the latest package.
 
 ## How to Apply the Patch
 
@@ -51,4 +51,4 @@ For instructions, see [How to apply a composer patch provided by Adobe](/help/ho
 
 ## Related Reading
 
-* [Release information > Adobe Commerce 2.3.4 Release Notes > Apply the PayPal Express Checkout issue with region patch for Adobe Commerce 2.3.4 to address a critical PayPal Express Checkout issue](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) in our developer documentation.
+* [Release information > Adobe Commerce 2.3.4 Release Notes > Apply the PayPal Express Checkout issue with region patch for Adobe Commerce 2.3.4 to address a critical PayPal Express Checkout issue](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) in our developer documentation.

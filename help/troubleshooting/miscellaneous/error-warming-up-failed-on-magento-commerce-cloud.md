@@ -41,5 +41,5 @@ Ensure that you do not have access control enabled: go to the specific branch/en
 
 ## Related reading
 
-* [Adobe Commerce User Guide > Full-Page Cache](https://docs.magento.com/user-guide/system/cache-full-page.html) in our user guide.
+* [Adobe Commerce User Guide > Full-Page Cache](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) in our user guide.
 * [Cache warming up and site unavailable on Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) in our support knowledge base.

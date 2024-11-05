@@ -40,6 +40,6 @@ If you are in a situation where your custom SSL was replaced by our internal SSL
 ## Related reading
 
 * [SSL (TLS) certificates for Magento Commerce Cloud: FAQ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) in our support knowledge base.
-* [Command-line tools reference: magento-cloud certiificate:add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd) in our developer documentation.
-* [Launch checklist](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)in our developer documentation.
-* [Access Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool) in our user guide.
+* [Command-line tools reference: magento-cloud certiificate:add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd) in our developer documentation.
+* [Launch checklist](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)in our developer documentation.
+* [Access Site-Wide Analysis Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool) in our user guide.

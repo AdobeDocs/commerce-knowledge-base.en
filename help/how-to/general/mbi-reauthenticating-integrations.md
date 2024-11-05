@@ -10,7 +10,7 @@ This article provides solutions for re-authorizing an integration to grant Magen
 
 ## Database and SaaS integrations
 
-For lists of Database and SaaS integrations, refer to [Connecting External Data Using an Integration](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html) in our developer documentation. (When opening the page, use the table of contents on the left for navigation).
+For lists of Database and SaaS integrations, refer to [Connecting External Data Using an Integration](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations) in our developer documentation. (When opening the page, use the table of contents on the left for navigation).
 
 ## Having connection issues?
 

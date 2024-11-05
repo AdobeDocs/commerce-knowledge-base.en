@@ -59,4 +59,4 @@ See [How to apply a composer patch provided by Adobe Commerce](/help/how-to/gene
 
 ## Useful links
 
- [Apply custom patches to Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html) in our developer documentation.
+ [Apply custom patches to Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in our developer documentation.

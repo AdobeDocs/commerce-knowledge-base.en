@@ -39,12 +39,12 @@ Your version of MariaDB is not compatible with the version of Adobe Commerce you
 You must upgrade the MariaDB service to a compatible version before upgrading the application.
 
 
-For the integration branch on Adobe Commerce on cloud infrastructure Pro plan architecture (and all branches in Starter architecture) please follow [Configure Service](https://devdocs.magento.com/cloud/project/services.html) in our developer  documentation.
+For the integration branch on Adobe Commerce on cloud infrastructure Pro plan architecture (and all branches in Starter architecture) please follow [Configure Service](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/services-yaml) in our developer  documentation.
 
 For the Staging and Production on Adobe Commerce on cloud infrastructure Pro plan architecture, please [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request that the services be upgraded before you deploy the Adobe Commerce version upgrade.
 
 
 ## Related reading
 
-* [Best practices for builds and deployment](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) in our developer documentation.
+* [Best practices for builds and deployment](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices) in our developer documentation.
 * [Adobe Commerce 2.3.5 upgrade: compact to dynamic tables](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) in our support knowlegde base.

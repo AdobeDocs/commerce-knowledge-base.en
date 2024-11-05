@@ -23,7 +23,7 @@ In this step, we define the secure URLs for the store. If that's already done, g
 1. Set the **Use Secure URLs on Storefront** and the **Use Secure URLs on Admin** settings to **Yes**.    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. Click **Save config** in the upper-right corner to apply changes.
 
- **Related documentation in our user guide:**   [Store URLs](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html).
+ **Related documentation in our user guide:**   [Store URLs](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls).
 
 ### Step 2: Enable Force TLS {#step-2-enable-force-tls}
 

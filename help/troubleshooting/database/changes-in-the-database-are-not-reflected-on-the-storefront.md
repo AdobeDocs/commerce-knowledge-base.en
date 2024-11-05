@@ -20,13 +20,13 @@ Changes you make in the database are not reflected on the storefront, or there i
 
 ## Cause
 
-If your indexers are [configured to update by schedule](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers), the issue might be caused by one or more tables with change logs being too large or MySQL triggers being not set up.
+If your indexers are [configured to update by schedule](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers), the issue might be caused by one or more tables with change logs being too large or MySQL triggers being not set up.
 
 ### Oversized change log tables
 
 The change log tables grow that big if the `indexer_update_all_views` cron job is not completed successfully multiple times.
 
-Change log tables are the database tables where the changes to entities are tracked. A record is stored in a change log table as long as the change is not applied, which is performed by the `indexer_update_all_views` cron job. There are multiple change log tables in a Adobe Commerce database, they are named according to the following pattern: INDEXER\_TABLE\_NAME + '\_cl',  for example `catalog_category_product_cl`, `catalog_product_category_cl`. You can find more details on how changes are tracked in database in the [Indexing overview > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) article in our developer documentation.
+Change log tables are the database tables where the changes to entities are tracked. A record is stored in a change log table as long as the change is not applied, which is performed by the `indexer_update_all_views` cron job. There are multiple change log tables in a Adobe Commerce database, they are named according to the following pattern: INDEXER\_TABLE\_NAME + '\_cl',  for example `catalog_category_product_cl`, `catalog_product_category_cl`. You can find more details on how changes are tracked in database in the [Indexing overview > Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) article in our developer documentation.
 
 ### [!DNL MySQL] database triggers not set up
 

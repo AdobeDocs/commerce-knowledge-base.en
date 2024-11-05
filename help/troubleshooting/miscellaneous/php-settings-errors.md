@@ -42,7 +42,7 @@ Configurations with a high number of storeviews, products, attributes, or option
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-There is no 'proper' value for `max-input-vars`; it depends on the size and complexity of your configuration. Modify the value in the `php.ini` file as needed. See [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+There is no 'proper' value for `max-input-vars`; it depends on the size and complexity of your configuration. Modify the value in the `php.ini` file as needed. See [Required PHP settings](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).
 
 ## xdebug maximum function nesting level error
 
@@ -70,4 +70,4 @@ Multiple templates have syntax for support abstract level on templates (use diff
 
 More information about [asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags).
 
-Edit `php.ini` and set `asp_tags = off`. For more information, see [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+Edit `php.ini` and set `asp_tags = off`. For more information, see [Required PHP settings](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).

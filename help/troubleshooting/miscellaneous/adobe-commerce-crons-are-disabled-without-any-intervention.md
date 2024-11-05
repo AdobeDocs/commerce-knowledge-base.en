@@ -33,7 +33,7 @@ An issue with the [!DNL OPcache] settings.
 
 ## Solution
 
-Upgrade [!DNL ECE Tools] to the latest version [2002.1.13](https://devdocs.magento.com/cloud/release-notes/ece-release-notes.html#v2002113).
+Upgrade [!DNL ECE Tools] to the latest version [2002.1.13](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113).
 
 ## Related reading
 

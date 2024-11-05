@@ -24,7 +24,7 @@ One reason for performance degradation might be certain Adobe Commerce cache typ
 
 ## Solution
 
-1. First, check the status of your Adobe Commerce cache, to see if this is the issue. For this, [SSH to your environment](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) and run the following command:
+1. First, check the status of your Adobe Commerce cache, to see if this is the issue. For this, [SSH to your environment](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) and run the following command:
 
     ```bash
     php bin/magento cache:status
@@ -41,8 +41,8 @@ If there are concerns and/or questions whether a certain Adobe Commerce cache ty
 
 Adobe Commerce cache documentation in our developer documentation:
 
-* [Adobe Commerce cache overview](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
-* [Manage the cache](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
+* [Adobe Commerce cache overview](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
+* [Manage the cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 Other possible reasons for performance issues and solutions for them:
 

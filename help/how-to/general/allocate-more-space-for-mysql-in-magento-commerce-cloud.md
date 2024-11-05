@@ -17,7 +17,7 @@ mysql:
     disk: 2048
 ```
 
-See the [Set up MySQL service](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html) article for reference.
+See the [Set up MySQL service](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql) article for reference.
 
 Once you change the `.magento/services.yaml` file, you need to commit and push your changes, for them to be applied. The push will trigger the deployment process.
 

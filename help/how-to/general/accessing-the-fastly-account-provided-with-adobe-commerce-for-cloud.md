@@ -10,11 +10,11 @@ This article explains how to log into your Fastly account provided with Adobe Co
 
 ## How to view your Fastly credentials
 
-Please refer to the [Get Fastly Credentials](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds) section in our developer documentation.
+Please refer to the [Get Fastly Credentials](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds) section in our developer documentation.
 
 ## How to test the Fastly Credentials
 
-Please refer to the [Test the Fastly Credentials](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) section in our developer documentation.
+Please refer to the [Test the Fastly Credentials](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) section in our developer documentation.
 
 ## Related reading
 

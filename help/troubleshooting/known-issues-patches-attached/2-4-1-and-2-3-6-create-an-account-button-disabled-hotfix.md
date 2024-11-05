@@ -51,4 +51,4 @@ See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-t
 ## Related reading
 
 * [GitHub Adobe Commerce  > Submitting invalid create account form leaves the submit button disabled](https://github.com/magento/magento2/issues/30513)
-* [Adobe Commerce User Guide > Getting Started > Creating an Account](https://docs.magento.com/user-guide/magento/magento-account-create.html)
+* [Adobe Commerce User Guide > Getting Started > Creating an Account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create)

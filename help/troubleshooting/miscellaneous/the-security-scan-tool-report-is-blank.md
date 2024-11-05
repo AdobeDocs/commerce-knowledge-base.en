@@ -17,7 +17,7 @@ This article provides a fix for the issue where the Security Scan Tool shows a b
 
 <u>Steps to reproduce</u>:
 
-1. Configure the Security Scan Tool to check your website, as described in [Security Scan](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) in our user guide.
+1. Configure the Security Scan Tool to check your website, as described in [Security Scan](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) in our user guide.
 1. In the Actions column, select **Run Scan**.
 
 <u>Expected results</u>:
@@ -41,5 +41,5 @@ Try to open your website.
 
 ## Related reading
 
-* [Go live and launch](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) in our developer documentation.
-* [Security Scan](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) in our user guide.
+* [Go live and launch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview) in our developer documentation.
+* [Security Scan](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) in our user guide.

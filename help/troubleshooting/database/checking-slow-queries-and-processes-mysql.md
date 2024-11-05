@@ -74,5 +74,5 @@ This will help to identify if the MySQL server is alive and that there are no st
 
 * [MySQL Show Processlist Syntax](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) in dev.mysql.com.
 * [MySQL Kill Syntax](https://dev.mysql.com/doc/refman/8.0/en/kill.html) in dev.mysql.com.
-* [Security, Performance, and Data Handling](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) in our developer documentation.
-* [MySQL Help](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) in our developer documentation.
+* [Security, Performance, and Data Handling](https://developer.adobe.com/commerce/php/best-practices/extensions/security/) in our developer documentation.
+* [MySQL Help](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql) in our developer documentation.

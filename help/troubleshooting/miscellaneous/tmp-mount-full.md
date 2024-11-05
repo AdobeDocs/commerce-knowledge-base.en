@@ -114,7 +114,7 @@ Check `/tmp` for `.sql` or `.sql.gz` files and clean them up. Those might have b
 
 To avoid getting issues with `/tmp` being full, follow these recommendations:
 
-* Do not use MySQL for search. Elasticsearch for search usually eliminates the need for most of the heavy temp table creations. See [Configure Adobe Commerce to use Elasticsearch](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html) in our developer documentation.
+* Do not use MySQL for search. Elasticsearch for search usually eliminates the need for most of the heavy temp table creations. See [Configure Adobe Commerce to use Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine) in our developer documentation.
 * Avoid running the `SELECT` query on columns without indexes as this use up a large amount of temporary disk space. You can also add the indexes.
 * Create a cron to clean-up up `/tmp` by running the following command in the CLI:
 

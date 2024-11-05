@@ -13,13 +13,13 @@ This known issue is mentioned in our developer documentation:
 
 <u>For Adobe Commerce 2.3.6</u>:
 
-* [Adobe Commerce 2.3.6 Release Notes: Known Issues](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html#known-issues)
-* [Magento Open Source 2.3.6 Release Notes: Known Issues](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
+* [Adobe Commerce 2.3.6 Release Notes: Known Issues](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/commerce-2-3-6.html)
+* [Magento Open Source 2.3.6 Release Notes: Known Issues](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
 
  <u>For Adobe Commerce 2.4.1</u>:
 
-* [Adobe Commerce 2.4.1 Release Notes: Known Issues](https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-1.html#known-issues)
-* [Magento Open Source 2.4.1 Release Notes: Known Issues](https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html#known-issues)
+* [Adobe Commerce 2.4.1 Release Notes: Known Issues](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-1#known-issues)
+* [Magento Open Source 2.4.1 Release Notes: Known Issues](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/magento-open-source/2-4-1#known-issues)
 
 ## Affected products and versions
 
@@ -77,4 +77,4 @@ See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-t
 
  <u>Git patch</u>
 
-See developer documentation [Applying patches: Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) for git patch instructions for Adobe Commerce/Magento Open Source.
+See developer documentation [Applying patches: Custom patches](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) for git patch instructions for Adobe Commerce/Magento Open Source.

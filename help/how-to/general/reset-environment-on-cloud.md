@@ -49,13 +49,13 @@ When you compare this to importing a local [!UICONTROL Database Dump], the data 
 
 ## Scenario 2: Restore a snapshot
 
-Read: [Restore a snapshot on Adobe Commerce on cloud infrastructure](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot) in our developer documentation.
+Read: [Restore a snapshot on Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot) in our developer documentation.
 
 >[!NOTE]
 >
 >Creating a snapshot must be our very first step after accessing the Adobe Commerce on cloud infrastructure account and before applying major changes. It is a best practice and highly recommended.
 
-Read: [Create a snapshot](https://devdocs.magento.com/cloud/project/project-webint-snap.html#create-snapshot) in our developer documentation.
+Read: [Create a snapshot](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot) in our developer documentation.
 
 ## Scenario 3: No snapshot, build stable (SSH connection available)
 

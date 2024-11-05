@@ -23,7 +23,7 @@ Adobe Commerce 2.4.5, scheduled for release in August 2022, will contain the upg
 ## Patch
 
 The patch ID is AC-3022 available in the Quality Patches Tool version 1.1.16.
-Refer to the [Quality Patches Tool (QPT) > Usage](https://devdocs.magento.com/quality-patches/usage.html) article in our developer documentation for information on how to use QPT and install patches.
+Refer to the [Quality Patches Tool (QPT) > Usage](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) article in our developer documentation for information on how to use QPT and install patches.
 
 The patch is applicable for the following Adobe Commerce versions:
 
@@ -32,5 +32,5 @@ The patch is applicable for the following Adobe Commerce versions:
 
 ## Related reading
 
-* [Shipping Carriers > DHL](https://docs.magento.com/user-guide/shipping/dhl.html) in our user guide
-* [Delivery Methods](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) in our user guide
+* [Shipping Carriers > DHL](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) in our user guide
+* [Delivery Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/delivery-methods) in our user guide

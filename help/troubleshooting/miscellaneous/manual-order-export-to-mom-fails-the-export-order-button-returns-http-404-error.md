@@ -42,4 +42,4 @@ $bin/magento oms:orders:sync
 
 ## Related reading
 
- [Magento Order Management technical documentation](https://omsdocs.magento.com/en/)
+ [Magento Order Management technical documentation](https://commerce-docs.github.io/oms-documentation-archive/)

@@ -65,7 +65,7 @@ Adobe Commerce on cloud infrastructure</td>
 <td>[!DNL Order Management System (OMS)] for Adobe Commerce</td>
 <td>
 <p>Merchant (end-user) and developer (technical) documentation:</p>
-<p><a href="https://omsdocs.magento.com/">https://omsdocs.magento.com/</a></p>
+<p><a href="https://commerce-docs.github.io/oms-documentation-archive/">https://commerce-docs.github.io/oms-documentation-archive/</a></p>
 </td>
 </tr>
 <tr>

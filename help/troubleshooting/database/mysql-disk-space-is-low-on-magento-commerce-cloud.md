@@ -72,7 +72,7 @@ The `/data/mysql` mount might become full due to a range of issues, such as not 
 
 There is an immediate step that you might take to bring [!DNL MySQL] back on track (or prevent it from getting stuck): free up some space by flushing big tables.
 
-But a long-term solution would be allocating more space and following [Database best practices](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html), including enabling the [Order/Invoice/Shipment archive](https://docs.magento.com/user-guide/sales/order-archive.html) functionality.
+But a long-term solution would be allocating more space and following [Database best practices](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html), including enabling the [Order/Invoice/Shipment archive](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive) functionality.
 
 Following are details on both quick and long-term solutions.
 
@@ -118,7 +118,7 @@ Check for large `ibtmp1` file on `/data/mysql` of each node: this file is the ta
 
 >[!WARNING]
 >
->We strongly recommend creating a database backup before performing any manipulations and avoiding them during high site load periods. See [Dump your database](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump) in our developer documentation.
+>We strongly recommend creating a database backup before performing any manipulations and avoiding them during high site load periods. See [Dump your database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) in our developer documentation.
 
 Check if there are large tables and consider if any of them can be flushed. Do this on the primary (source) node.
 
@@ -126,7 +126,7 @@ For example, tables with reports can usually be flushed. For details on how to f
 
 If there are no huge report tables, consider flushing `_index` tables, just to return the Adobe Commerce application back on track. `index_price` tables would be the best candidates. For example, `catalog_category_product_index_storeX` tables, where X can have values from "1" to the maximum store count. Please mind that you would need to reindex to restore data in these tables, and in the case of big catalogs, this reindex might take a lot of time.
 
-Once you flush them, wait for wsrep sync completion. You can now create backups and take more significant steps to add more space, like allocating/buying more space and enabling [Order/Invoice/Shipment archive](https://docs.magento.com/user-guide/sales/order-archive.html) functionality.
+Once you flush them, wait for wsrep sync completion. You can now create backups and take more significant steps to add more space, like allocating/buying more space and enabling [Order/Invoice/Shipment archive](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive) functionality.
 
 ### Check binary logging settings
 

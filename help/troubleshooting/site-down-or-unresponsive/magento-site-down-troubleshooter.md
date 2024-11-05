@@ -74,7 +74,7 @@ b. NO – Proceed to [Step 7](#step-7).
 
 +++**Do you have Elasticsearch errors?**
 
-a. YES – Proceed with steps for [checking Elasticsearch](https://developer.adobe.com/commerce/php/module-reference/module-elasticsearch/).  
+a. YES – Proceed with steps for [checking Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine).
 b. NO – Proceed to [Step 8](#step-8).
 
 +++
@@ -110,7 +110,7 @@ b. NO – Proceed to [Step 11](#step-11).
 
 +++**Are you seeing Redis errors?**
 
-a. YES – Proceed with steps to [verify [!DNL Redis] is running](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/redis#troubleshooting-redis) and for [[!DNL Redis] troubleshooting](https://redis.io/topics/problems).  
+a. YES – Proceed with steps to [verify [!DNL Redis] is running](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection) and for [[!DNL Redis] troubleshooting](https://redis.io/topics/problems).  
 b. NO – Proceed to [Step 12](#step-12).
 
 +++

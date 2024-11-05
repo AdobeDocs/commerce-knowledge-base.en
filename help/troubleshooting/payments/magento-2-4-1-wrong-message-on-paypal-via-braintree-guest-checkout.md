@@ -21,7 +21,7 @@ An unspecific error is shown when guest checkout is disabled from the backend, a
 <u>Prerequisites</u>:
 
 1. In the Commerce Admin, under **Stores** > **Configuration** > **Sales** > **Checkout**, set **Allow Guest Checkout** = *No*.
-1. Enable PayPal through Braintree as described in the [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) in our user guide.
+1. Enable PayPal through Braintree as described in the [Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?) in our user guide.
 
 <u>Steps to reproduce</u>:
 
@@ -54,5 +54,5 @@ The workaround for this issue is that the customer can log in at a store (Logged
 ## Related reading
 
 * [Best practice for number of products in cart in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) in our support knowledge base.
-* [Order processing tutorial: Step 1. Add items to the cart](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) in our developer documentation
-* [GraphQL checkout tutorial: Step 1. Add products to the cart](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) in our developer documentation
+* [Order processing tutorial: Step 1. Add items to the cart](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/) in our developer documentation
+* [GraphQL checkout tutorial: Step 1. Add products to the cart](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html) in our developer documentation

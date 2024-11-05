@@ -61,7 +61,7 @@ If there is a temporary workaround, specify it as a separate section below this 
 
 ## Related reading
 
-* [Article topic](https://docs.magento.com/user-guide/) in our user guide.
-* [Article topic](https://devdocs.magento.com) in our developer documentation. You can also say to differentiate between instructions in devdocs for cloud vs on-premises users: “[Article topic](https://devdocs.magento.com) in our developer documentation for Adobe Commerce on cloud infrastructure." vs "[Article topic](https://devdocs.magento.com) in our developer documentation for Adobe Commerce on-premises."
+* [Article topic](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) in our user guide.
+* [Article topic](https://developer.adobe.com/commerce/docs/) in our developer documentation. You can also say to differentiate between instructions in devdocs for cloud vs on-premises users: “[Article topic](https://developer.adobe.com/commerce/docs/) in our developer documentation for Adobe Commerce on cloud infrastructure." vs "[Article topic](https://developer.adobe.com/commerce/docs/) in our developer documentation for Adobe Commerce on-premises."
 * [Article topic](https://support.magento.com/hc/en-us) in our support knowledge base.
 * Any related resources (blogs, forums, StackOverflow, etc.)

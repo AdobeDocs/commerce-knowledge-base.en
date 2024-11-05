@@ -39,7 +39,7 @@ Solution options:
 * Clean the `var` directory.
 * Set up a cron job to track the size of the `var` directory and clean it.
 * Allocate more disk space, if you have some unused. (See the section below for information on how to check what is your space limit.)
-    * For Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused, as described in [Manage disk space: Allocating disk space](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html#application-disk-space).
+    * For Starter plan, all environments, and Pro plan Integration environments, you can allocate the disk space if you have some unused, as described in [Manage disk space: Allocating disk space](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
     * For Pro plan Staging and Production environments, contact support to allocate more disk space if you have some unused.
 * If you have reached your space limit and still experience low space issues, consider buying more disk space, contact your Adobe Account Team for details.
 

@@ -71,12 +71,12 @@ In our support knowledge base:
 
 In our user guide:
 
-* [Index Management](https://docs.magento.com/user-guide/system/index-management.html?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=reindexing)
+* [Index Management](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=reindexing)
 
 In our developer documentation:
 
-* [Indexing Overview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
-* [Indexers Best Practices](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
-* [Configure And Run Cron](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
-* [Manage The Indexers](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
-* [Indexer Optimization](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)
+* [Indexing Overview](https://developer.adobe.com/commerce/php/development/components/indexing/)
+* [Indexers Best Practices](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration)
+* [Configure And Run Cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* [Manage The Indexers](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [Indexer Optimization](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)

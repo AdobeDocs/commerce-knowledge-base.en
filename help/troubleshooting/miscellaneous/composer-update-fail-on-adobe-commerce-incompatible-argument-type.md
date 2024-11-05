@@ -51,7 +51,7 @@ All 2.3.5+ Adobe Commerce on-premises merchants should run the following CLI com
 
 **How to fix on Adobe Commerce on cloud infrastructure:**
 
-Run the above commands or upgrade to the latest ECE tools version (ece-tools: 2002.1.7), which will be available on Thursday, July 29. For steps, refer to [Cloud for Adobe Commerce > Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) in our developer documentation.
+Run the above commands or upgrade to the latest ECE tools version (ece-tools: 2002.1.7), which will be available on Thursday, July 29. For steps, refer to [Cloud for Adobe Commerce > Update ece-tools version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) in our developer documentation.
 
 The complete fix will be released in Adobe Commerce (all deployment methods) 2.4.4.
 

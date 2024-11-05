@@ -36,8 +36,8 @@ Indexing by search engines is turned off.
 
 ## Solution
 
-Enable indexing by search engines. See [Configure indexing by search engine](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine) in our developer documentation.
+Enable indexing by search engines. See [Configure indexing by search engine](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine) in our developer documentation.
 
 ## Related reading
 
-* [Add site map and search engine robots](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) in our developer documentation.
+* [Add site map and search engine robots](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) in our developer documentation.

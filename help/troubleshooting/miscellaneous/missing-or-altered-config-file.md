@@ -30,7 +30,7 @@ The BAK files are a product of the deployment process. If you manually change a 
 
 To restore the configuration files:
 
-1. Log in to your remote repository using [SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
+1. Log in to your remote repository using [SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh).
 1. List the available backup files.
 
    ```

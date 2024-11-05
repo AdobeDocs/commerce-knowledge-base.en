@@ -30,7 +30,7 @@ The patch ID is AC-3023 and it is available in the [!DNL Quality Patches Tool] v
 Refer the following links on how to use [!DNL Quality Patches Tool] and install patches depending on your deployment methods: 
 
 * Adobe Commerce on-premises and Magento Open Source: [Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
-* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
+* Adobe Commerce on cloud infrastructure: [Upgrades and Patches > Apply Patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in our developer documentation.
 
 **The patch is applicable for the following Adobe Commerce versions (all deployment methods):**
 

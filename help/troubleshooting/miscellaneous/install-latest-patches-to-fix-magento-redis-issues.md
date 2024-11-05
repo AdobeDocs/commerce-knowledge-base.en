@@ -1,13 +1,13 @@
 ---
 title: Install latest patches to fix Adobe Commerce Redis issues
-description: This article provides information on the latest Redis-related patches available in [Adobe Commerce on cloud infrastructure Patches](https://devdocs.magento.com/cloud/project/project-patch.html) package.
+description: This article provides information on the latest Redis-related patches available in [Adobe Commerce on cloud infrastructure Patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) package.
 exl-id: 0335bc11-f679-4629-b4e7-6a0e68c3ae44
 feature: Cache, Install, Services
 role: Developer
 ---
 # Install latest patches to fix Adobe Commerce Redis issues
 
-This article provides information on the latest Redis-related patches available in [Adobe Commerce on cloud infrastructure Patches](https://devdocs.magento.com/cloud/project/project-patch.html) package.
+This article provides information on the latest Redis-related patches available in [Adobe Commerce on cloud infrastructure Patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) package.
 
 ## Affected products and versions
 
@@ -19,7 +19,7 @@ Extra CPU and memory consumption by Redis might decrease the Adobe Commerce perf
 
 ## Solution
 
-Apply the latest patches provided by Adobe Commerce on cloud infrastructure Patches package. For detailed instructions, refer to [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
+Apply the latest patches provided by Adobe Commerce on cloud infrastructure Patches package. For detailed instructions, refer to [Apply patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in our developer documentation.
 
 The latest Redis patches delivered by Adobe Commerce on cloud infrastructure Patches package, contribute to the following:
 

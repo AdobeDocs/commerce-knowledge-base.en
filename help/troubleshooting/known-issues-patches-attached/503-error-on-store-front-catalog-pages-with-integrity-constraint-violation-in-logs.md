@@ -9,7 +9,7 @@ role: Developer
 
 >[!NOTE]
 >
->This article provides a patch as a workaround, but the issue was permanently fixed in Adobe Commerce on cloud infrastructure v2.3.3 release, and it is recommended that you upgrade to v2.3.3. Follow the steps in [Upgrade Adobe Commerce version](https://devdocs.magento.com/cloud/project/project-upgrade.html) in our developer documentation.
+>This article provides a patch as a workaround, but the issue was permanently fixed in Adobe Commerce on cloud infrastructure v2.3.3 release, and it is recommended that you upgrade to v2.3.3. Follow the steps in [Upgrade Adobe Commerce version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in our developer documentation.
 
 This article provides a patch for the known Adobe Commerce on cloud infrastructure 2.2.0 issue related to store front catalog pages being inaccessible, with the error message similar to the following in log: *Integrity constraint violation: 1062 Duplicate entry '%entry%' for key 'PRIMARY', query was: INSERT INTO \`search\_tmp\_%number%*.
 
@@ -72,6 +72,6 @@ For instructions, see [How to apply a composer patch provided by Adobe](/help/ho
 
 * [Log files location for Adobe Commerce on cloud infrastructure Starter plan architecture](/help/how-to/general/log-locations-directories-for-starter-plan.md) in our support knowledge base.
 * [Log files location for Adobe Commerce on cloud infrastructure Pro plan architecture](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) in our support knowledge base.
-* [Log files location for Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) in our developer documentation.
+* [Log files location for Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) in our developer documentation.
 
 ## Attached Files

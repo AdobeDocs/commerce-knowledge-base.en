@@ -22,8 +22,8 @@ This article explains how customers with sufficient license/subscription authori
 
  **Adobe Commerce on cloud infrastructure Starter plan architecture customers who want to use New Relic:**
 
- Starter architecture customers are not provided with the New Relic Infrastructure service as part of their subscription. However, they can use New Relic Application Performance Monitoring (APM) if they add a license by following the steps [Connect to New Relic](https://devdocs.magento.com/cloud/project/new-relic.html#connect-to-new-relic) in our developer documentation.
+ Starter architecture customers are not provided with the New Relic Infrastructure service as part of their subscription. However, they can use New Relic Application Performance Monitoring (APM) if they add a license by following the steps [Connect to New Relic](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in our developer documentation.
 
 ## Related Reading
 
-To learn about New Relic services, see [Investigate Performance](https://devdocs.magento.com/cloud/project/new-relic.html#investigate-performance) in our developer documentation. You can also review [Troubleshoot performance using New Relic on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) in our support knowledge base.
+To learn about New Relic services, see [Investigate Performance](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in our developer documentation. You can also review [Troubleshoot performance using New Relic on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) in our support knowledge base.

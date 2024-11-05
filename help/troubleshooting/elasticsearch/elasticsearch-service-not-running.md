@@ -13,7 +13,7 @@ This article provides solutions for errors you can experience when the Elasticse
 
     * v2.2.3+ supports ES 5.x
     * v2.2.8+ and v2.3.1+ support ES 6.x
-    * ES v2.x and v5.x are not recommended because of [End of Life](https://www.elastic.co/support/eol). However, if you have Adobe Commerce v2.3.1 and want to use ES 2.x or ES 5.x, you must [Change the Elasticsearch php Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
+    * ES v2.x and v5.x are not recommended because of [End of Life](https://www.elastic.co/support/eol). However, if you have Adobe Commerce v2.3.1 and want to use ES 2.x or ES 5.x, you must [Change the Elasticsearch php Client](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 
 * Magento Open Source v2.3.0+ supports ES 5.x and 6.x (but 6.x is recommended).
 
@@ -53,8 +53,8 @@ Elasticsuite indices not being deleted.  See <a href="https://experienceleague.a
 <li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">8 Tips to Solve Linux & Unix Systems Hard Disk Problems Like Disk Full Or Can't Write to the Disk</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfault: df says disk is full, but it is not</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com: Tracking down where disk space has gone on Linux?</a></li>
-<li>Log files are not archived regularly enough. See <a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive">Configure the Log Archive</a> in our developer documentation.</li>
-<li>Files system directories are not optimized. See <a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html">File Optimization</a> in our developer documentation.</li>
+<li>Log files are not archived regularly enough. See <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-archive">Configure the Log Archive</a> in our developer documentation.</li>
+<li>Files system directories are not optimized. See <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization">File Optimization</a> in our developer documentation.</li>
 <li>If the solutions in the above documentation do not solve the issue consider contacting your Adobe Account Team to request additional storage.</li>
 </ul>
 </li>

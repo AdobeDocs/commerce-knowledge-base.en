@@ -27,7 +27,7 @@ Adobe Commerce installed with Nginx.
 <u>Steps to reproduce</u>:
 
 1. Configure Adobe Commerce to use AWS `s3` as media storage.
-1. Configure Nginx using the `nginx.conf.sample` configuration file provided in the Adobe Commerce installation directory and an Nginx virtual host. See [Configure Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) in our developer documentation.
+1. Configure Nginx using the `nginx.conf.sample` configuration file provided in the Adobe Commerce installation directory and an Nginx virtual host. See [Configure Nginx](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx) in our developer documentation.
 1. Create a simple product with one product image.
 1. Nginx has an uncommented configuration for image resizing in `nginx.conf.sample` similar to this:
 

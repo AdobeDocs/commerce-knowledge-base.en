@@ -27,7 +27,7 @@ These are the most common causes of issues:
 
 ### Early access code location
 
-During beta access periods, release packages are only available via Composer on [repo.magento.com](https://repo.magento.com/). Release packages are not available on GitHub and Adobe Commerce portals during this period, and we will publish them to these locations on the GA date. For more details on how to use Composer, please click [here](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html).
+During beta access periods, release packages are only available via Composer on [repo.magento.com](https://repo.magento.com/). Release packages are not available on GitHub and Adobe Commerce portals during this period, and we will publish them to these locations on the GA date. For more details on how to use Composer, please click [here](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer).
 
 ### MageID you need to use
 

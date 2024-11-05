@@ -27,4 +27,4 @@ Contact the New Relic account owner and request that they add you to their accou
 
 ## Related reading
 
-[Manage [!DNL New Relic] account](https://devdocs.magento.com/cloud/project/new-relic.html#manage-new-relic-account) in our developer documentation.
+[Manage [!DNL New Relic] account](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in our developer documentation.

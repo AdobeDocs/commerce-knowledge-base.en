@@ -17,7 +17,7 @@ This article talks about solutions for issues caused by incorrect Elasticsearch 
 * Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure:
     * v2.2.3+ supports ES 5.x
     * v2.2.8+ and v2.3.1+ support ES 6.x
-    * ES v2.x and v5.x are not recommended because of [End of Life](https://www.elastic.co/support/eol). However, if you have Adobe Commerce v2.3.1 and want to use ES 2.x or ES 5.x, you must [Change the Elasticsearch php Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
+    * ES v2.x and v5.x are not recommended because of [End of Life](https://www.elastic.co/support/eol). However, if you have Adobe Commerce v2.3.1 and want to use ES 2.x or ES 5.x, you must [Change the Elasticsearch php Client](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 * Magento Open Source v2.3.0+ supports ES 5.x and 6.x (but 6.x is recommended).
 
 ## Issue
@@ -50,8 +50,8 @@ Elasticsearch is not installed properly. This could be due to:
 
 To correctly set up Elasticsearch:
 
-* Merchants on Adobe Commerce on cloud infrastructure can follow the steps in our developer documentation: [Set up Elasticsearch service](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html).
-* Merchants on Adobe Commerce on-premises and Magento Open Source can follow the steps in our developer documentation: [Install and configure Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+* Merchants on Adobe Commerce on cloud infrastructure can follow the steps in our developer documentation: [Set up Elasticsearch service](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+* Merchants on Adobe Commerce on-premises and Magento Open Source can follow the steps in our developer documentation: [Install and configure Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 
 After you have set up Elasticsearch, check that it's configured correctly:
 

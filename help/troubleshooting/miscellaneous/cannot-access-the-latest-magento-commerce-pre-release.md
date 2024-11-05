@@ -34,7 +34,7 @@ These are the most common causes of issues:
 
 During the pre-release, release packages are available in two locations:
 
-1. Via Composer on [magento.com](https://repo.magento.com/) using the primary MageID for the account. For more details on how to use Composer, please refer to [Install Adobe Commerce using Composer](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) in our developer documentation.
+1. Via Composer on [magento.com](https://repo.magento.com/) using the primary MageID for the account. For more details on how to use Composer, please refer to [Install Adobe Commerce using Composer](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) in our developer documentation.
 1. **My Account** > **Downloads** on [account.magento.com](https://account.magento.com/customer/account/login).
 
 >[!NOTE]

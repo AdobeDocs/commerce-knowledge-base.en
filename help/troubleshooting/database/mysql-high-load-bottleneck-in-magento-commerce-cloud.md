@@ -18,7 +18,7 @@ This topic discusses a solution when high load from MySQL causes a performance b
 * ECE Tools version 2002.0.16 and higher
 * New Relic APM service (**Your Adobe Commerce on cloud infrastructure account includes the software for the New Relic APM service** along with a license key.)
 
-For more information about the New Relic APM service and its setup with your Adobe Commerce on cloud infrastructure account, go to [New Relic Services](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) and [Introduction to New Relic APM](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
+For more information about the New Relic APM service and its setup with your Adobe Commerce on cloud infrastructure account, go to [New Relic Services](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) and [Introduction to New Relic APM](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
 
 ## Issue
 
@@ -55,7 +55,7 @@ Adobe Commerce can read multiple databases or Redis asynchronously. Updating the
 
     ![KB-372_image004.png](assets/KB-372_image004.png)
 
-    You can find more details in [Deploy Variables in DevDocs](https://devdocs.magento.com/cloud/env/variables-deploy.html#mysql_use_slave_connection).
+    You can find more details in [Deploy Variables in DevDocs](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection).
 
 1. Commit your changes and push your changes.
 1. Pushing changes will initiate a new deployment process. Once deployment is successfully completed, you should have your Adobe Commerce on cloud infrastructure instance now configured to use slave connections.
@@ -64,7 +64,7 @@ Adobe Commerce can read multiple databases or Redis asynchronously. Updating the
 
 Below are the common questions you may ask when you consider using the Slave Connections functionality for your Adobe Commerce on cloud infrastructure store.
 
-* Is there any known issues or limitation to use Slave Connections? **We do not have any known issues from using Slave Connections. Just make sure you are using the most recently updated ece-tools package. Instructions are here on [how to update your ece-tools package](https://devdocs.magento.com/cloud/project/ece-tools-update.html).**
+* Is there any known issues or limitation to use Slave Connections? **We do not have any known issues from using Slave Connections. Just make sure you are using the most recently updated ece-tools package. Instructions are here on [how to update your ece-tools package](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package).**
 * Is there any extra latency by using Slave Connections? *Yes, cross-AZ (cross-Availability Zones) latency is higher and reduces performance of a Adobe Commerce on cloud infrastructure instance in the case if the instance is not overloaded and can carry the whole load. But clearly, if the instance is overloaded &ndash;  master-slave will help with performance by spreading the load on the MySQL Database or Redis across different nodes.*
 
     **On not-overloaded clusters** &ndash;  **Slave Connections will slow down performance by 10-15%**, which is one of the reasons it is not default.
@@ -76,9 +76,9 @@ Below are the common questions you may ask when you consider using the Slave Con
 
 In our developer documentation:
 
-* [Deploy variables](https://devdocs.magento.com/cloud/env/variables-deploy.html).
-* [Set up optional database replication](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html).
-* [ece-tools package](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html).
+* [Deploy variables](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy).
+* [Set up optional database replication](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication).
+* [ece-tools package](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview).
 
 >[!NOTE]
 >

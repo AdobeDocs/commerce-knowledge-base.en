@@ -63,8 +63,8 @@ See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-t
 
  <u>Git patch </u>
 
-* See [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in developer documentation for git patch instructions for Adobe Commerce on cloud infrastructure.
-* See [Applying patches: Custom patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) in developer documentation for git patch instructions for Adobe Commerce.
+* See [Apply patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in developer documentation for git patch instructions for Adobe Commerce on cloud infrastructure.
+* See [Applying patches: Custom patches](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) in developer documentation for git patch instructions for Adobe Commerce.
 
 ## Related reading
 

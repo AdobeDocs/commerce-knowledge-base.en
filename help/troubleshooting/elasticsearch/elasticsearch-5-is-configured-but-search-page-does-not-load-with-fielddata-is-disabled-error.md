@@ -50,7 +50,7 @@ The result will contain a list of attributes used for Layered Navigation, whose 
 To fix the issue, you need to set `is_filterable` (that is, used in Layered Navigation) and `filterable_in_search` (that is, used in search results Layered Navigation) to "0" (not used). To do this, take the following steps:
 
 1. Create a database backup.
-1. Use a database tool such as [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), or access the DB manually from the command line to run the following SQL query:
+1. Use a database tool such as [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin), or access the DB manually from the command line to run the following SQL query:
 
     ```sql
     UPDATE catalog_eav_attribute AS cea

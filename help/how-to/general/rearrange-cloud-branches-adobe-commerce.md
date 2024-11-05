@@ -28,7 +28,7 @@ To re-arrange cloud branches:
 1. Run the following command for the branches that need to be moved:
     `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
-Note: You can specify the parent branch when creating a new branch. For steps, refer to [Getting Starter creating branches](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) in our developer documentation.
+Note: You can specify the parent branch when creating a new branch. For steps, refer to [Getting Starter creating branches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in our developer documentation.
 
 You can create a new environment branch using the `branch <environment-name> <parent-environment-ID>` magento-cloud environment command.
 
@@ -36,4 +36,4 @@ It may take some additional time to create and activate a new environment branch
 
 ## Related reading
 
-[Manage branches with the [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) in our developer documentation.
+[Manage branches with the [!DNL CLI]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in our developer documentation.

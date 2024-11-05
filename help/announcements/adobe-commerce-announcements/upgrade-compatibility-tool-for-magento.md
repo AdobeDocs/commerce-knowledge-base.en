@@ -30,7 +30,7 @@ Adobe Commerce customers.
 
 ## Install the Upgrade Compatibility Tool 1.1.0
 
-For installation steps, refer to Adobe Commerce: [Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) in our developer documentation. For prerequisites for using the tool, refer to Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) in our developer documentation.
+For installation steps, refer to Adobe Commerce: [Upgrade Compatibility Tool > Install](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run) in our developer documentation. For prerequisites for using the tool, refer to Adobe Commerce: [Upgrade Compatibility Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/prerequisites) in our developer documentation.
 
 ## What is the number next to each issue?
 
@@ -41,7 +41,7 @@ The Upgrade Compatibility Tool error messages are categorized by level (critical
 * Error code: The Adobe Commerce assigned identifier for the error message.
 * Error description: A description that summarizes the cause of the error.
 * Error suggested action: If applicable, provides guidance to troubleshoot and resolve the error.
-* Codes are listed and described on the [Error message reference page](https://devdocs.magento.com/upgrade-compatibility-tool/errors.html).
+* Codes are listed and described on the [Error message reference page](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/reporting/error-messages).
 
 ## Where can I share feedback about the tool?
 
@@ -50,4 +50,4 @@ You can contact the UCT team on our [#upgrade-compatibility-tool](https://magent
 ## Related Reading
 
 * Adobe Commerce Blog: [Introducing the Upgrade Compatibility Tool (Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) in our developer documentation.
+* Adobe Commerce: [Upgrade Compatibility Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview) in our developer documentation.

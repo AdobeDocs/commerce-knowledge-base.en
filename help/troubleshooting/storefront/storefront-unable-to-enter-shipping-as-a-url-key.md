@@ -117,5 +117,5 @@ In addition, avoid using these keywords that are labelled as *reserved* keywords
 
 ## Related reading
 
-* [URL Rewrites](https://docs.magento.com/user-guide/marketing/url-rewrite.html) in our Merchandising and Promotions User Guide.
-* [SEO Best Practices](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) in our Merchandising and Promotions User Guide..
+* [URL Rewrites](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) in our Merchandising and Promotions User Guide.
+* [SEO Best Practices](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) in our Merchandising and Promotions User Guide..

@@ -26,7 +26,7 @@ Set all of the following as appropriate.
 
 ### All web servers and Varnish {#all-web-servers-and-varnish}
 
-1. Locate your `php.ini` using a [ `phpinfo.php` ](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) file.
+1. Locate your `php.ini` using a [ `phpinfo.php` ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software) file.
 1. As a user with `root` privileges, open `php.ini` in a text editor.
 1. Locate the `max_execution_time` setting.
 1. Change its value to `18000` .

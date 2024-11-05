@@ -21,7 +21,7 @@ For example:
 
 `max_execution_time = 120`
 
-Consult the [Customize php.ini settings](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) article.
+Consult the [Customize php.ini settings](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) article.
 
 ## Example
 
@@ -29,7 +29,7 @@ Consult the [Customize php.ini settings](https://devdocs.magento.com/cloud/proje
 
 ## Solution
 
-Customize your `php.ini` settings. Consult this [Customize php.ini settings](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) article.
+Customize your `php.ini` settings. Consult this [Customize php.ini settings](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) article.
 
 ## Example
 
@@ -59,9 +59,9 @@ Check the `<root>/tmp` directory because it is probably full. If it is full, pro
 
 In our developer documentation:
 
-* [PHP settings errors](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html)
-* [Required PHP settings](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)
-* [Redis verification](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify)
-* [Configure Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)
-* [PHP memory limit error](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html#trouble-php-memory)
-* [Solutions to common problems - Memory limit](https://devdocs.magento.com/guides/v2.3/test/unit/unit_test_execution_cli.html#solutions-to-common-problems)
+* [PHP settings errors](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [Required PHP settings](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Redis verification](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [Configure Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [PHP memory limit error](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [Solutions to common problems - Memory limit](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)

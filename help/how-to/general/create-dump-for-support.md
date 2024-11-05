@@ -21,7 +21,7 @@ Create a "scrubbed" dump from the Admin:
 
 You can then provide to Support the direct download link to the dump files (your store address and the file name as displayed).
 
-If you have issues creating dumps from the Admin, consider using CLI commands as described in [Run the support utilities](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html) in our developer documentation.
+If you have issues creating dumps from the Admin, consider using CLI commands as described in [Run the support utilities](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/run-support-utilities) in our developer documentation.
 
 ## Related reading
 

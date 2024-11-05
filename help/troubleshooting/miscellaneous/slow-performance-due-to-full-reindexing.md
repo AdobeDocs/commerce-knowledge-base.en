@@ -47,9 +47,9 @@ Actions that can produce full reindexing were performed from admin including:
 
 ### Solution
 
-Run reindexing only when necessary. For steps, review [Configure Indexers](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) in our developer documentation. A general recommendation and best practice is to allow the partial reindexation mechanism to take care of data reindexation with no manual action required from a merchant. All reindexation should be done using native Adobe Commerce functionality (Mview). Mview performs partial reindexation, which is the most efficient way to reindex data. To learn about Mview, refer to [Indexing overview: Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) in our developer documentation.
+Run reindexing only when necessary. For steps, review [Configure Indexers](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) in our developer documentation. A general recommendation and best practice is to allow the partial reindexation mechanism to take care of data reindexation with no manual action required from a merchant. All reindexation should be done using native Adobe Commerce functionality (Mview). Mview performs partial reindexation, which is the most efficient way to reindex data. To learn about Mview, refer to [Indexing overview: Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) in our developer documentation.
 
 ## Related Reading
 
-* [Indexing Overview: How to reindex](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) in our developer documentation.
+* [Indexing Overview: How to reindex](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex) in our developer documentation.
 * [Invalidated cache causes response time degradation](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) in our support knowledge base.

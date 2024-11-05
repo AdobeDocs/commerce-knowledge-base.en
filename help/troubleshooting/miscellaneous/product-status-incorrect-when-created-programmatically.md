@@ -24,7 +24,7 @@ The issue might appear because of ACL restrictions set for the Adobe Commerce in
 
 ## Solution for incorrect product status
 
-Set a dynamic DI preference for the `Magento\Framework\Authorization\PolicyInterface`, as described in the [ObjectManager>Programmatic product updates](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) topic in our developer documentation.
+Set a dynamic DI preference for the `Magento\Framework\Authorization\PolicyInterface`, as described in the [ObjectManager>Programmatic product updates](https://developer.adobe.com/commerce/php/development/components/object-manager/) topic in our developer documentation.
 
 ## Related reading
 
