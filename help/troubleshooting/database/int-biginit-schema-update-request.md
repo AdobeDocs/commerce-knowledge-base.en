@@ -26,7 +26,7 @@ role: Developer
 * Adobe Commerce (all deployment methods) all [supported versions](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 This article provides solutions for when you are unable to save a product update, like a price change, or deleting, and duplicating a product. 
-You may see the error message *The stock item was unable to be saved. Please try again.* You might fail to deploy after a product update. You may also see the following MySQL error message when you run `php bin/magento setup:upgrade` (on Adobe Commerce on cloud infrastruture this error shows in the deployment logs):
+You may see the error message *The stock item was unable to be saved. Please try again.* You might fail to deploy after a product update. You may also see the following [!DNL MySQL] error message when you run `php bin/magento setup:upgrade` (on Adobe Commerce on cloud infrastruture this error shows in the deployment logs):
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)
@@ -49,7 +49,7 @@ If the `max(value_id)` is lower than the `max int(11) [ 4294967296 ]`, and the `
 
 >[!WARNING]
 >
->Perform a database backup before altering the tables. Also, put the site into [maintenance mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode). In addition, it is also recommended to run the MYSQL optimize command on the database tables (only to tables where changes were made) after making the changes.
+>Perform a database backup before altering the tables. Also, put the site into [maintenance mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode). In addition, it's also recommended to run the [!DNL MySQL] optimize command on the database tables (only to tables where changes were made) after making the changes.
 
 >[!NOTE] 
 >
@@ -104,7 +104,8 @@ To do so:
 
 ## Related reading
 
-* [General MySQL guidelines](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) in the Commerce Installation Guide.
-* [Database upload loses connection to MySQL](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html) in our support knowledge base. 
-* [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html) in our support knowledge base.
-* [Most common database issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) in our support knowledge base.
+* [General [!DNL MySQL] guidelines](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) in the Commerce Installation Guide
+* [Database upload loses connection to [!DNL MySQL]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html) in our support knowledge base
+* [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html) in our support knowledge base
+* [Most common database issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) in our support knowledge base
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

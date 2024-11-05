@@ -1,13 +1,13 @@
 ---
-title: Cron tasks lock tasks from other groups
-description: This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs.
+title: '[!DNL Cron] tasks lock tasks from other groups'
+description: This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run [!DNL cron] jobs blocking other [!DNL cron] jobs.
 exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 feature: Configuration
 role: Developer
 ---
-# Cron tasks lock tasks from other groups
+# [!DNL Cron] tasks lock tasks from other groups
 
-This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run cron jobs blocking other cron jobs.
+This article provides a solution for the Adobe Commerce on cloud infrastructure issue related to certain long-run [!DNL cron] jobs blocking other [!DNL cron] jobs.
 
 ## Affected products and versions
 
@@ -16,22 +16,22 @@ This article provides a solution for the Adobe Commerce on cloud infrastructure 
 
 ## Issue
 
-On Adobe Commerce for cloud, when you have complex cron tasks (long-run tasks), they might lock other tasks for execution. For example, the indexers' task reindexes invalidated indexers. It can take a few hours to finish, and it will lock other default cron jobs like sending emails, generating sitemaps, customer notifications, and other custom tasks.
+On Adobe Commerce for cloud, when you have complex [!DNL cron] tasks (long-run tasks), they might lock other tasks for execution. For example, the indexers' task reindexes invalidated indexers. It can take a few hours to finish, and it will lock other default [!DNL cron] jobs like sending emails, generating sitemaps, customer notifications, and other custom tasks.
 
 <u>Symptoms</u>:
 
-The processes executed by cron jobs are not performed. For example, product updates are not applied for hours, or customers report not receiving emails.
+The processes executed by [!DNL cron] jobs are not performed. For example, product updates are not applied for hours, or customers report not receiving emails.
 
 When you open the `cron_schedule` database table, you see the jobs with `missed` status.
 
 ## Cause
 
-Previously, in our cloud environment, the Jenkins server was used to run cron jobs. Jenkins will only run one instance of a job at a time; consequently, there will only be one `bin/magento cron:run` process running at a time.
+Previously, in our cloud environment, the Jenkins server was used to run [!DNL cron] jobs. Jenkins will only run one instance of a job at a time; consequently, there will only be one `bin/magento cron:run` process running at a time.
 
 ## Solution
 
-1. Contact [Adobe Commerce support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to have self-managed crons enabled.
-1. Edit the `.magento.app.yaml` file in the root directory of the code for Adobe Commerce in the Git branch. Add the following:
+1. Contact [Adobe Commerce support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to have self-managed [!DNL crons] enabled.
+1. Edit the `.magento.app.yaml` file in the root directory of the code for Adobe Commerce in the [!DNL Git] branch. Add the following:
 
    ```yaml
      crons:
@@ -44,25 +44,26 @@ Previously, in our cloud environment, the Jenkins server was used to run cron jo
 
 >[!NOTE]
 >
->There's no need to transfer old cron configurations where multiple `cron:run` are present to the new cron schedule; the regular `cron:run` task, added as described above, is enough. Though, it is required to transfer your custom jobs if you had any.
+>There's no need to transfer old [!DNL cron] configurations where multiple `cron:run` are present to the new [!DNL cron] schedule; the regular `cron:run` task, added as described above, is enough. Though, it is required to transfer your custom jobs if you had any.
 
-### Check if you have self-managed cron enabled (only for Cloud Pro Staging and Production)
+### Check if you have self-managed [!DNL cron] enabled (only for Cloud Pro Staging and Production)
 
-To check if the self-managed cron is enabled, run the `crontab -l` command and observe the result:
+To check if the self-managed [!DNL cron] is enabled, run the `crontab -l` command and observe the result:
 
-* Self-managed cron is enabled, if you are able to see the tasks, like the following:
+* Self-managed [!DNL cron] is enabled, if you are able to see the tasks, like the following:
 
     ```bash
     username@hostname:~$ crontab -l    # Crontab is managed by the system, attempts to edit it directly will fail.
     SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun
     ```
 
-* The self-managed cron is not enabled if you are not able to see the tasks and get the *"you are not allowed to use this program"* error message.
+* The self-managed [!DNL cron] is not enabled if you are not able to see the tasks and get the *"you are not allowed to use this program"* error message.
 
 >[!NOTE]
 >
->The command mentioned above to check if self-managed cron is enabled does not apply on a Starter plan and in the development/integration environment.
+>The command mentioned above to check if self-managed [!DNL cron] is enabled does not apply on a Starter plan and in the development/integration environment.
 
 ## Related reading
 
-* [Set up cron jobs](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) in our developer documentation.
+* [Set up [!DNL cron] jobs](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) in our developer documentation
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

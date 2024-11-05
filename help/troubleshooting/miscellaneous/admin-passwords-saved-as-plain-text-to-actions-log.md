@@ -38,6 +38,6 @@ After installing the Security Update, the password gets encrypted and does not s
 
 ## More information {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
-[Adobe Commerce 2.0.16 and 2.1.9 Security Update page](https://magento.com/security/patches/magento-2016-and-219-security-update) in our security center.
-
-[Upgrade the Adobe Commerce application and components](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) in our developer documentation.
+* [Adobe Commerce 2.0.16 and 2.1.9 Security Update page](https://magento.com/security/patches/magento-2016-and-219-security-update) in our security center
+* [Upgrade the Adobe Commerce application and components](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) in our developer documentation
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

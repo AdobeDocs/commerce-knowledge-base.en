@@ -90,7 +90,7 @@ Follow these steps:
 
     ![Add SSH Public Key](/help/troubleshooting/miscellaneous/assets/add_ssh_key_mbi.png)
 
-1. Provide Business Intelligence Essentials MySQL credentials.
+1. Provide Business Intelligence Essentials [!DNL MySQL] credentials.
 
     * Update your `.magento/services.yaml`.
 
@@ -191,3 +191,7 @@ Follow these steps:
 1. Click **[!UICONTROL Save Integration]**.
 1. You have now successfully connected to your Commerce Intelligence Essentials account.
 1. If you are an Adobe Commerce Intelligence Pro customer, contact your Customer Success Manager or Customer Technical Advisor to coordinate the next steps.
+
+## Related reading
+
+[Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

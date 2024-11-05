@@ -1,13 +1,13 @@
 ---
 title: Using Data Exports to pinpoint discrepancies
-description: This article provides solutions for troubleshooting discrepancies in your Magento BI data. Data Exports are a useful tool for comparing your Magento BI data to your source data in order to pinpoint data discrepancies in your reports, especially if the [data discrepancy diagnostic checklist](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md) didn't help you pinpoint the problem. This article will walk you through a real-life example of how data discrepancies can be pinpointed using Data Exports.
+description: This article provides solutions for troubleshooting discrepancies in your Magento BI data. Data Exports are a useful tool for comparing your Magento BI data to your source data in order to pinpoint data discrepancies in your reports, especially if the [data discrepancy diagnostic checklist](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) didn't help you pinpoint the problem. This article will walk you through a real-life example of how data discrepancies can be pinpointed using Data Exports.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
 ---
 # Using Data Exports to pinpoint discrepancies
 
-This article provides solutions for troubleshooting discrepancies in your Magento BI data. Data Exports are a useful tool for comparing your Magento BI data to your source data in order to pinpoint data discrepancies in your reports, especially if the [data discrepancy diagnostic checklist](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md) didn't help you pinpoint the problem. This article will walk you through a real-life example of how data discrepancies can be pinpointed using Data Exports.
+This article provides solutions for troubleshooting discrepancies in your Magento BI data. Data Exports are a useful tool for comparing your Magento BI data to your source data in order to pinpoint data discrepancies in your reports, especially if the [data discrepancy diagnostic checklist](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) didn't help you pinpoint the problem. This article will walk you through a real-life example of how data discrepancies can be pinpointed using Data Exports.
 
 Take this analysis, for example:
 
@@ -21,9 +21,9 @@ To get started, click the gear in top right corner of the chart and then the Raw
 
 ![](assets/Export_Discrepancies_5.gif)
 
-In the Raw Data Export menu, you can select the table to export from along with the columns to include in the export. Filters can also be applied to the result set.
+In the **Raw Data Export** menu, you can select the table to export from along with the columns to include in the export. Filters can also be applied to the result set.
 
-In our example, the **Revenue** metric used on this report uses the **order\_total** field defined on the **orders** table, using the **date** as its timestamp. In our export, we want to include all **order\_id** values for November 2014 and their **order\_total** . The **Revenue** metric doesn't use any filters, but we'll add a filter to the export to limit the result set to just November 2014.
+In our example, the **Revenue** metric used on this report uses the **order\_total** field defined on the **`orders`** table, using the **date** as its timestamp. In our export, we want to include all **order\_id** values for November 2014 and their **order\_total** . The **Revenue** metric doesn't use any filters, but we'll add a filter to the export to limit the result set to just November 2014.
 
 Here's what the Raw Data Export menu looks like for this example:
 
@@ -45,7 +45,7 @@ Now that all the data is in one place, we can look for the source of the discrep
 
 If both systems have the same row count and the **Revenue** metric isn't matching the source data, then the **order\_total** must be off somewhere. It's possible that the **order\_total** field has been updated in your source database and Magento BI isn't picking up these changes.
 
-To confirm this, take a look at whether or not the **order\_total** column is being rechecked. Head to the Data Warehouse Manager and click the orders table. You'll see the [recheck frequency](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) listed in the 'Changes?' column. The **order\_total** field should be set to recheck as often as it is expected to change; if it's not, go ahead and set it to your desired recheck frequency.
+To confirm this, take a look at whether or not the **order\_total** column is being rechecked. Head to the Data Warehouse Manager and click the **`orders`** table. You'll see the [recheck frequency](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) listed in the 'Changes?' column. The **order\_total** field should be set to recheck as often as it is expected to change; if it's not, go ahead and set it to your desired recheck frequency.
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -55,7 +55,7 @@ If the recheck frequency is already set correctly, then something else is wrong.
 
 If the source database has more rows than Magento BI and the gap is greater than the number of orders that you can expect to come in during the length of an update cycle, there may be a connection issue. This means that Magento BI isn't able to pull in new data from the source database, which can happen for several reasons.
 
-Navigate to the Connections page and take a look at the status of the data source containing the order table:
+Navigate to the Connections page and take a look at the status of the data source containing the `order` table:
 
 1. **If the status is Re-auth** , the connection isn't using the correct credentials. Click into the connection, enter the correct credentials, and retry.
 1. **If the status is Failed** , the connection may not be setup properly on the server side. Failed connections usually arise from an incorrect host name or the target server not accepting connections on the specified port.Click into the connection and double-check the spelling of the hostname and that the correct port is entered. On the server side, make sure that the port can accept connections and that your firewall has the Magento BI IP address (54.88.76.97/32) as allowed. **If the connection continues to fail** , refer to the [Contacting Support section](#support) at the end of this article for next steps.
@@ -81,7 +81,9 @@ If you aren't able to pinpoint the source of the problem, you'll need to loop in
 * **If your source database has MORE rows than Magento BI** and the connection shows as Successful or continues to fail, we'll need to know the name of the connection and the error message you're seeing, if there is one.
 * **If your source database has FEWER rows than Magento BI,** rows aren't deleted from the table, and recheck frequencies are set correctly, perform a VLOOKUP in your spreadsheet **to find which order\_id values are in Magento BI** but not in your source database. Include these values when you submit your ticket.
 
-## Related
+## Related reading
 
-* [Data discrepancy diagnostic checklist](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
-* [Submitting a data discrepancy ticket](https://support.magento.com/hc/en-us/articles/360016506472-Submitting-a-data-discrepancy-ticket)
+* [Data discrepancy diagnostic checklist](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [Adobe Commerce Intelligence Service Policies](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook
+

@@ -16,3 +16,7 @@ ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
 ```
 
 This would display the complete list of tables and their size. You can go through the list and identify which tables require attention because of the big size.
+
+## Related reading
+
+[Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

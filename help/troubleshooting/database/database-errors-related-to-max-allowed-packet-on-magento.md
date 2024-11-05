@@ -15,7 +15,7 @@ This article provides a solution for database connection errors in the `var/log/
 
 ## Issue
 
-When a MySQL client or the [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) server receives a packet bigger than [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes, it issues an [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) error (which can be seen in the `exception.log`) and closes the connection. With some clients, you may also get a *Lost connection to MySQL server during query* error if the communication packet is too large.
+When a [!DNL MySQL] client or the [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) server receives a packet bigger than [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes, it issues an [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) error (which can be seen in the `exception.log`) and closes the connection. With some clients, you may also get a *Lost connection to [!DNL MySQL] server during query* error if the communication packet is too large.
 
 <u>Steps to reproduce</u>
 
@@ -23,7 +23,7 @@ A variety of tasks can produce this issue. This can include trying to import a l
 
 ## Cause
 
-The default value of 16MB for the MySQL `max_allowed_packets` setting is not large enough for your needs.
+The default value of 16MB for the [!DNL MySQL] `max_allowed_packets` setting is not large enough for your needs.
 
 ## Solution
 
@@ -39,7 +39,8 @@ The default value of 16MB for the MySQL `max_allowed_packets` setting is not lar
 
 ## Related reading
 
-* [Installation Guide > MySQL](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=max%20allowed%2016%20MB) in our developer documentation.
-* [Database upload loses connection to MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md) in our support knowledge base.
+* [On-premises installation overview](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) in our developer documentation.
+* [Database upload loses connection to [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql) in our support knowledge base.
 * [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in our support knowledge base.
 * [Best practices to resolve database performance issues](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) in our support knowledge base.
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

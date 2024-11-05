@@ -41,7 +41,7 @@ You do not deploy successfully. In the logs you see a deployment error with a me
 
 ### Cause
 
-The **core_config_data** table contains configurations for a store ID or website ID that no longer exists in the database. This occurs when you have imported a database backup from another instance/environment, and the configurations for those scopes remain in the database though the associated store(s)/website(s) have been deleted.
+The **`core_config_data`** table contains configurations for a store ID or website ID that no longer exists in the database. This occurs when you have imported a database backup from another instance/environment, and the configurations for those scopes remain in the database though the associated store(s)/website(s) have been deleted.
 
 ### Solution
 
@@ -61,13 +61,13 @@ To solve this issue, identify the invalid rows left from those configurations.
     The store that was requested wasn't found. Verify the store and try again.
     ```
 
-1. Run this MySql query to verify that the store cannot be found, which is indicated by the error message in step 2.
+1. Run this [!DNL MySQL] query to verify that the store cannot be found, which is indicated by the error message in step 2.
 
     ```sql
     select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
     ```
 
-1. Run the following MySql statement to delete the invalid rows:
+1. Run the following [!DNL MySQL] statement to delete the invalid rows:
 
     ```sql
     delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
@@ -85,13 +85,13 @@ To solve this issue, identify the invalid rows left from those configurations.
     The website with id X that was requested wasn't found. Verify the website and try again.
     ```
 
-    Run this MySql query and verify that the website cannot be found:
+    Run this [!DNL MySQL] query and verify that the website cannot be found:
 
     ```sql
     select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
     ```
 
-1. Run this MySql statement to delete the invalid rows from the website configuration:
+1. Run this [!DNL MySQL] statement to delete the invalid rows from the website configuration:
 
     ```sql
     delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
@@ -101,5 +101,6 @@ To confirm that the solution worked, run the `bin/magento` command again. You sh
 
 ## Related reading
 
-* [Adobe Commerce deployment troubleshooter](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)
-* [Checking deployment log if Cloud UI has "log snipped" error](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+* [Adobe Commerce deployment troubleshooter](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
+* [Checking deployment log if Cloud UI has "log snipped" error](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+* [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook
