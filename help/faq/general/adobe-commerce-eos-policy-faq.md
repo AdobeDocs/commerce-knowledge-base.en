@@ -12,7 +12,7 @@ The following FAQ is intended to help merchants, developers, and partners unders
 
 ### Where can I find the software support dates for all versions of Adobe Commerce?
 
-You can find the Adobe Commerce software lifecycle policy and dates of software support in the [Adobe Commerce Software Lifecycle Policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). We also publish end of support (EOS) dates on our [developer documentation page](https://devdocs.magento.com/release/released-versions.html).
+You can find the Adobe Commerce software lifecycle policy and dates of software support in the [Adobe Commerce Software Lifecycle Policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). We also publish end of support (EOS) dates on our [developer documentation page](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions).
 
 ### What does it mean when Adobe ends support for a version of Adobe Commerce software?
 
@@ -64,7 +64,7 @@ Your commerce platform is an important business system for your company and stay
 
 Moving to the latest version of Adobe Commerce software can take time and resources to execute well. It is best practice for you to plan as far in advance of the end of support date as possible to help ensure you have the appropriate time and resources to achieve your strategic goals on schedule and within budget. To help you with your next upgrade, Adobe has published the [2.4 Upgrade Guide](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf) that includes the best practices and technical steps to follow, as well as the tools and resources to use when performing your upgrade.
 
-Another important consideration is to reserve developer and partner resources as early as possible. Partner time and resources frequently get booked up well ahead of the end of support date, resulting in significantly fewer resources to assist with migration projects. It is recommended that you have a three-year rolling plan that you discuss annually at a minimum and ensure the next year is planned and budgeted for. Use [Adobe’s release calendar](https://devdocs.magento.com/release/) to keep track of release dates.
+Another important consideration is to reserve developer and partner resources as early as possible. Partner time and resources frequently get booked up well ahead of the end of support date, resulting in significantly fewer resources to assist with migration projects. It is recommended that you have a three-year rolling plan that you discuss annually at a minimum and ensure the next year is planned and budgeted for. Use [Adobe’s release calendar](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) to keep track of release dates.
 
 ### Can I use a third-party service provider for software support when Adobe Commerce Support ceases?
 

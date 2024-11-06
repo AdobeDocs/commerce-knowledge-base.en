@@ -64,7 +64,7 @@ If your license was previously revoked due to payment issues, and you have resol
 
 ### 2. Add the keys value in the env:COMPOSER\_AUTH variable and check if the same keys are specified in auth.json
 
-See the instructions and related information in [Prepare your existing system](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) and [Add authentication keys](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys) in our developer documentation.
+See the instructions and related information in [Prepare your existing system](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) and [Add authentication keys](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) in our developer documentation.
 
 ### 3.  Update or delete auth.json
 

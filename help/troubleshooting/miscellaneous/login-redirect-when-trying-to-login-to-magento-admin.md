@@ -46,7 +46,7 @@ Try to use a different browser and increase the admin session lifetime if it is 
 To increase the admin session lifetime, take the following steps:
 
 1. Create a database backup.
-1. Use a database tool such as [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), or access the DB manually from the command line to run the following SQL query:
+1. Use a database tool such as [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin), or access the DB manually from the command line to run the following SQL query:
 
     ```sql
     UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -63,7 +63,7 @@ To increase the admin session lifetime, take the following steps:
 To check the cookies settings values and clear them, take the following steps:
 
 1. Create a database backup.
-1. Use a database tool such as [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), or access the DB manually from the command line to run the following SQL query:
+1. Use a database tool such as [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin), or access the DB manually from the command line to run the following SQL query:
 
     ```sql
     SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");

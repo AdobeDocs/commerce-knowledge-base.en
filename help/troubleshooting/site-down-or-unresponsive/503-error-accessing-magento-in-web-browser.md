@@ -17,7 +17,7 @@ Adobe Commerce 2.3.x
 
  <u>Steps to reproduce</u>
 
-(Prerequisites: make sure the store is not in [maintenance mode](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)).
+(Prerequisites: make sure the store is not in [maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)).
 
 Navigate to your Commerce Admin or storefront in a web browser.
 

@@ -113,8 +113,8 @@ bin/magento cache:clean
 
 Having installed the package, configure Google reCAPTCHA (recommended) or CAPTCHA as described in the following docs:
 
-* [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) in our user guide.
-* [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html) in our user guide.
+* [Google reCAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha) in our user guide.
+* [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) in our user guide.
 
 The new checkout form option is:
 

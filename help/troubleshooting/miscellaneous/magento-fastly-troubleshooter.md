@@ -42,7 +42,7 @@ b. NO – Check DNS by running in the CLI/terminal: `dig [your website.com] + sh
 
 +++**What happens when you run `dig`?**
 
-When you ran `dig` did it return a record pointing to prod.magentocloud.map.fastly.net or one of the following IP addresses (see [Update DNS configuration with production setting](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns) in our developer documentation):
+When you ran `dig` did it return a record pointing to prod.magentocloud.map.fastly.net or one of the following IP addresses (see [Update DNS configuration with production setting](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) in our developer documentation):
 
 * 151.101.1.124
 * 151.101.65.124
@@ -50,7 +50,7 @@ When you ran `dig` did it return a record pointing to prod.magentocloud.map.fast
 * 151.101.193.124
 
 a. YES – The issue is not DNS related. Proceed to [Step 5](#step-5).  
-b. NO – The issue is likely DNS related. The customer should [check DNS configuration](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns "https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns") or contact their DNS provider for more information.
+b. NO – The issue is likely DNS related. The customer should [check DNS configuration](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) or contact their DNS provider for more information.
 
 +++
 
@@ -68,7 +68,7 @@ b. NO – Visit [http://fastly-debug.com](https://www.fastly-debug.com/) and sha
 +++**Is the certificate expired?**
 
 a. YES – You need to renew your TLS certificate with the Certificate Authority (CA).  
-b. NO – You may not have a certificate at all. If you have Adobe Commerce we recommend that you purchase a TLS certificate. If you are on Adobe Commerce on cloud infrastructure you can have a Domain-Validated Let's Encrypt SSL/TLS certificate to serve secure HTTPS traffic from Fastly. See [provision SSL/TLS certificates](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) in our developer documentation.
+b. NO – You may not have a certificate at all. If you have Adobe Commerce we recommend that you purchase a TLS certificate. If you are on Adobe Commerce on cloud infrastructure you can have a Domain-Validated Let's Encrypt SSL/TLS certificate to serve secure HTTPS traffic from Fastly. See [provision SSL/TLS certificates](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates) in our developer documentation.
 
 +++
 

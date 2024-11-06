@@ -38,7 +38,7 @@ The rule is set to inactive.
 
 ## Cause
 
-This issue is related to new functionality introduced recently that has impacted the Max Session Size. See [Session management](https://docs.magento.com/user-guide/stores/security-session-management.html) in our developer documentation.
+This issue is related to new functionality introduced recently that has impacted the Max Session Size. See [Session management](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management) in our developer documentation.
 
 ## Solution
 
@@ -46,4 +46,4 @@ Increase the “Max Session Size” value in (**Stores** > **Configuration** > *
 
 ## Related reading
 
-* [Marketing Menu](https://docs.magento.com/user-guide/marketing/marketing-menu.html) in our user guide.
+* [Marketing Menu](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/marketing-menu) in our user guide.

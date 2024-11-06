@@ -11,7 +11,7 @@ role: Developer
 >
 >On any Adobe Commerce version, because some extensions only work with flat tables there is a risk if you disable flat tables. If you know that you have some extensions that use Flat Catalog indexers, you may need to take that into consideration when setting those values to " *No* ".
 
-This article describes how to solve site performance issues and slow running and stuck crons caused by [flat tables and indexers](https://docs.magento.com/m2/ce/user_guide/catalog/catalog-flat.html) having been enabled.
+This article describes how to solve site performance issues and slow running and stuck crons caused by [flat tables and indexers](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/catalog-flat) having been enabled.
 
 AFFECTED PRODUCTS AND VERSIONS
 

@@ -22,7 +22,7 @@ The error message, "*There are currently no available payment methods. Please up
 
 * Adobe Commerce 2.4.0 is installed.
 * Create one product and one category.
-* Configure [Braintree Payment Method](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html).
+* Configure [Braintree Payment Method](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree.html).
 
 <u>Steps to reproduce</u>:
 

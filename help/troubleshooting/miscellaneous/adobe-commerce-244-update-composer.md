@@ -58,7 +58,7 @@ After July 2022 Composer changes the default value of the [`allow-plugins` optio
 
 Add the following to your `composer.json` file, depending on how you installed Adobe Commerce:
 
-* If the project has been created [using the `composer create-project` command](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage):
+* If the project has been created [using the `composer create-project` command](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage):
 
     ```json
     "config": {

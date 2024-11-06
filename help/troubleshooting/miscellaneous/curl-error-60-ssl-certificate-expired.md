@@ -49,7 +49,7 @@ Go to, for example: `https://demo.magento.cloud/#/projects/<project>/environment
 In our developer documentation:
 
 * [Cloud Manager API: SSLCertificates](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#tag/SSLCertificates)
-* [Set up Fastly: Provision SSL/TLS certificates](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates)
+* [Set up Fastly: Provision SSL/TLS certificates](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
 
 In our support knowledge base:
 

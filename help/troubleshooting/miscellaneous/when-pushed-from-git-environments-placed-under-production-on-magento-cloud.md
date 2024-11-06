@@ -41,7 +41,7 @@ This is not a bug. For setting a parent branch for another branch, the merchant 
 
 ## Solution
 
-A parent branch can only be set after the merchant has pushed a newly created branch and activated it. Refer to [Adobe Commerce on cloud infrastructure > Bitbucket integration](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch) in our developer documentation.
+A parent branch can only be set after the merchant has pushed a newly created branch and activated it. Refer to [Adobe Commerce on cloud infrastructure > Bitbucket integration](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch) in our developer documentation.
 
 To update a parent for the existing branch on the server, please use the `magento-cloud environment:info` command in the magento-cloud CLI.
 
@@ -53,4 +53,4 @@ This will set the parent branch to "Staging" for the currently checked out branc
 
 ## Related reading
 
-* [Adobe Commerce on cloud infrastructure > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) in our developer documentation.
+* [Adobe Commerce on cloud infrastructure > magento-cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in our developer documentation.

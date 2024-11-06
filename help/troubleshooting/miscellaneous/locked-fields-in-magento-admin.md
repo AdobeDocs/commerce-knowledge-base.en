@@ -46,6 +46,6 @@ Make sure that the configuration has not been saved to `app/etc/env.php` or `app
 
 ## Related Reading
 
-* [Export the Configuration](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings) in our developer documentation.
-* [Set Configuration values](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set) in our developer documentation.
+* [Export the Configuration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration) in our developer documentation.
+* [Set Configuration values](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values) in our developer documentation.
 * [Adobe Commerce on cloud infrastructure: reduce deployment downtime with Configuration Management](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in our support knowledge base.

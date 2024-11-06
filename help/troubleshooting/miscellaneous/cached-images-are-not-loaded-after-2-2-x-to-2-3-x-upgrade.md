@@ -39,6 +39,6 @@ The issue is caused by the incorrect Nginx configuration set in `.magento.app.ya
     * Integration: correct the file yourself and push the changes.
     * Staging and Production: correct the file yourself, push the changes, and create an [Adobe Commerce support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to have it applied.
 
-1. Enable Fastly image optimization in the Commerce Admin (Fastly must be configured prior), as described in <https://devdocs.magento.com/guides/v2.3/cloud/cdn/fastly-image-optimization.html>.
+1. Enable Fastly image optimization in the Commerce Admin (Fastly must be configured prior), as described in <https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>.
 
 If the configuration is correct, but you are still experiencing the issue, continue the investigation or contact [Adobe Commerce Support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

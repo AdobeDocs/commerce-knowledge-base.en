@@ -18,7 +18,7 @@ In this article we assume that you already have the malicious IPs and/or their c
 
 If your website is overloaded by DDoS, you might not be able to log in to your Commerce Admin (and perform all the steps described further in this article).
 
-To get access to the Admin, put your website into maintenance mode as described in [Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html#instgde-cli-maint) and whitelist your IP address. Disable the maintenance mode after this is done.
+To get access to the Admin, put your website into maintenance mode as described in [Enable or disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) and whitelist your IP address. Disable the maintenance mode after this is done.
 
 ## Block traffic by IP
 
@@ -68,7 +68,7 @@ There are two important considerations when using `robots.txt`:
 * Robots can ignore your `robots.txt`. Especially malware robots, that scan the web for security vulnerabilities, and email address harvesters used by spammers will pay no attention.
 * The `robots.txt` file is a publicly available file. Anyone can see what sections of your server you don't want robots to use.
 
-The basic information and default Adobe Commerce `robots.txt` configuration can be found in the [Search Engine Robots](https://docs.magento.com/m2/ee/user_guide/marketing/search-engine-robots.html) article in our developer documentation.
+The basic information and default Adobe Commerce `robots.txt` configuration can be found in the [Search Engine Robots](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) article in our developer documentation.
 
 For general information and recommendations about `robots.txt`, see:
 

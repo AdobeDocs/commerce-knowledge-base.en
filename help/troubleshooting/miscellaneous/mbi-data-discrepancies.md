@@ -12,7 +12,7 @@ Do the numbers on a certain report look inaccurate? Do you see unexpected NULL v
 * [Data discrepancy diagnostic checklist](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [Using exports to pinpoint data discrepancies](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-We also recommend that you ensure the correct [replication methods](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) and [rechecks](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) have been set for the tables and columns involved in the discrepancy. Note that you need Admin permissions to access replication method and recheck information.
+We also recommend that you ensure the correct [replication methods](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) and [rechecks](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) have been set for the tables and columns involved in the discrepancy. Note that you need Admin permissions to access replication method and recheck information.
 
 ## I still need help!
 

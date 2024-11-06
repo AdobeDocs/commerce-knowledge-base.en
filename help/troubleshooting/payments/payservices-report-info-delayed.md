@@ -23,7 +23,7 @@ After you invoice (capture) an order or issue a credit memo for an order, for in
 
 Prerequisites: An order is placed using Payment Services functionality.
 
-1. An order is [invoiced](https://docs.magento.com/user-guide/sales/invoice-create.html) (or [canceled](https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order) or [refunded via credit memo](https://docs.magento.com/user-guide/sales/credit-memos.html)) in the [Admin](https://docs.magento.com/user-guide/stores/admin.html).
+1. An order is [invoiced](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) (or [canceled](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) or [refunded via credit memo](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)) in the [Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin).
 1. Navigate to the Order payment status report to see information about that order.
 1. The status is shown as `AUTHORIZED`, which is the order status prior to the invoicing or other order action.
 
@@ -31,7 +31,7 @@ Prerequisites: An order is placed using Payment Services functionality.
 
 >[!NOTE]
 >
->This is only one common use case. There may be other use cases when an [order action](https://docs.magento.com/user-guide/sales/order-actions.html) occurs and the data is not immediately available in the applicable report.
+>This is only one common use case. There may be other use cases when an [order action](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders#actions) occurs and the data is not immediately available in the applicable report.
 
 <u>Expected result</u>:
 Report data is populated immediately after there is an action on an order.

@@ -23,24 +23,24 @@ Check the logs to see if there are entries with custom module's name in the erro
     * [Adobe Commerce on cloud infrastructure Starter plan architecture logs](/help/how-to/general/log-locations-directories-for-starter-plan.md) in our support knowledge base.
     * [Adobe Commerce on cloud infrastructure Pro plan architecture logs](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) in our support knowledge base.
 1. Depending on the errors you find, if you want to enable, disable, or uninstall a custom module, these articles detail those actions:
-    * [Enable or disable modules](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-enable.html) in our developer documentation.
-    * [Uninstall modules](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall-mods.html) in our developer documentation.
+    * [Enable or disable modules](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) in our developer documentation.
+    * [Uninstall modules](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) in our developer documentation.
 
 ### Adobe Commerce on cloud infrastructure, all versions
 
-1. Logs locations: [Adobe Commerce on cloud infrastructure logs](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) in our developer documentation.
+1. Logs locations: [Adobe Commerce on cloud infrastructure logs](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) in our developer documentation.
 1. Depending on the errors you find, if you want to enable, disable, or uninstall a custom module, these articles in our developer documentation detail those actions:
-    * [Install, manage, and upgrade extensions](https://devdocs.magento.com/guides/v2.3/cloud/howtos/install-components.html).
-    * [Component deployment failure](https://devdocs.magento.com/guides/v2.3/cloud/trouble/trouble_comp-deploy-fail.html).
+    * [Install, manage, and upgrade extensions](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions).
+    * [Component deployment failure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
 
 ## Related reading
 
 In our developer documentation:
 
-* [Module overview](https://devdocs.magento.com/guides/v2.3/architecture/archi_perspectives/components/modules/mod_intro.html)
-* [Errors installing optional sample data](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_sample-data.html)
-* [Exception handling](https://devdocs.magento.com/guides/v2.3/graphql/develop/exceptions.html)
-* [Exceptions during installation](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_exceptions.html)
-* [Run the Module Manager](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-checklist.html)
-* [Module configuration files](https://devdocs.magento.com/guides/v2.3/config-guide/config/config-files.html)
-* [Out of memory errors](https://devdocs.magento.com/guides/v2.3/comp-mgr/trouble/cman/out-of-memory.html)
+* [Module overview](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
+* [Errors installing optional sample data](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
+* [Exception handling](https://developer.adobe.com/commerce/webapi/graphql/develop/exceptions/)
+* [Exceptions during installation](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
+* [Run the Module Manager](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
+* [Module configuration files](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
+* [Out of memory errors](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade)

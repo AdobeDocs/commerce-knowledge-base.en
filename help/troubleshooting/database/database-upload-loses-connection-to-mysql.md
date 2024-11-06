@@ -36,7 +36,7 @@ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-You will need to allocate more space for the database in your `services.yaml` and deploy if you have some space unused. For steps, see [Service Disk Space](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
+You will need to allocate more space for the database in your `services.yaml` and deploy if you have some space unused. For steps, see [Service Disk Space](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space).
 
 Note: On the Pro architecture plan, you can check the allocated space on your partition by running the following command: `df -h`
 
@@ -52,4 +52,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## Related reading
 
-[Manage Disk Space](https://devdocs.magento.com/cloud/project/manage-disk-space.html) in our developer documentation
+[Manage Disk Space](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) in our developer documentation

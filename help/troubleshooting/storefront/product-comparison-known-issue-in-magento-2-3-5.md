@@ -1,13 +1,13 @@
 ---
 title: Product comparison known issue in Adobe Commerce 2.3.5
-description: This article provides recommendations on how to avoid a known [product comparison](https://docs.magento.com/user-guide/marketing/product-compare.html) issue in Adobe Commerce on-premises 2.3.5 and Adobe Commerce on cloud infrastructure 2.3.5.
+description: This article provides recommendations on how to avoid a known [product comparison](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare) issue in Adobe Commerce on-premises 2.3.5 and Adobe Commerce on cloud infrastructure 2.3.5.
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
 ---
 # Product comparison known issue in Adobe Commerce 2.3.5
 
-This article provides recommendations on how to avoid a known [product comparison](https://docs.magento.com/user-guide/marketing/product-compare.html) issue in Adobe Commerce on-premises 2.3.5 and Adobe Commerce on cloud infrastructure 2.3.5.
+This article provides recommendations on how to avoid a known [product comparison](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare) issue in Adobe Commerce on-premises 2.3.5 and Adobe Commerce on cloud infrastructure 2.3.5.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ Specify non-empty values for comparable product attributes or use the default st
 
 >[!NOTE]
 >
->Product attributes are set to be used for comparison using the **Comparable on Storefront** configuration setting. For more information, refer to the [Creating Product Attributes](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties) in our user guide.
+>Product attributes are set to be used for comparison using the **Comparable on Storefront** configuration setting. For more information, refer to the [Creating Product Attributes](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create#step-4-describe-the-storefront-properties) in our user guide.
 
 A fix will be available in Adobe Commerce 2.3.6, which is scheduled for release in Q4 2020.
 
@@ -44,4 +44,4 @@ You can view the fix in GitHub (please consider, that the fix did not go through
 <p title="Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1</a></p>
 </li>
 </ul>
-</li><li><a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5 Known Issues</a> in our developer documentation</li></ul>
+</li><li><a href="https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5 Known Issues</a> in our developer documentation</li></ul>

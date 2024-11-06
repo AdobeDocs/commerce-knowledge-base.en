@@ -30,7 +30,7 @@ This article instructs how to apply a composer patch for Adobe Commerce on-premi
     git push origin
     ```
 
-For additional information about applying patches to Cloud projects, see [Apply patches](https://devdocs.magento.com/cloud/project/project-patch.html) in our developer documentation.
+For additional information about applying patches to Cloud projects, see [Apply patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) in our developer documentation.
 
 ### How to apply a composer patch for Adobe Commerce on-premises and Magento Open Source {#commerce}
 

@@ -30,25 +30,25 @@ These pages are:
 
 Cacheable and uncacheable are terms used to indicate whether or not a page should be cached. By default, all pages are cacheable. However, if any block in a layout is designated as uncacheable, the entire page is uncacheable.
 
-The screen shot below shows a block with a setting `cacheable="false”`  ** ** which creates an uncacheable page.
+The screen shot below shows a block with a setting `cacheable="false"`  ** ** which creates an uncacheable page.
 
 ![non_cacheable_kb.png](assets/non_cacheable_kb.png)
 
 Examples of uncacheable pages include compare products, cart, and checkout pages.
 
-The following list of pages are not cached (Fastly, Block, and Layout caches are avoided.). This occurs because of the “cacheable” configuration in layout.
+The following list of pages are not cached (Fastly, Block, and Layout caches are avoided.). This occurs because of the "cacheable" configuration in layout.
 
 ### Solution
 
-Check if the files specified above have the setting `cacheable="false”` . If they have, check if this setting is needed or required.
+Check if the files specified above have the setting `cacheable="false"` . If they have, check if this setting is needed or required.
 
-* If needed, consider moving non-cacheable blocks to [private content mechanism](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=private%20co) instead.
-* If not needed, remove the attribute `cacheable="false”` and flush the layout cache.
+* If needed, consider moving non-cacheable blocks to [private content mechanism](https://developer.adobe.com/commerce/php/development/cache/page/private-content/) instead.
+* If not needed, remove the attribute `cacheable="false"` and flush the layout cache.
 
 >[!NOTE]
 >
->For Adobe Commerce on cloud infrastructure 2.4.1 and later, you can use the [Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) to automatically check if your Full Page Cache is not configured correctly.
+>For Adobe Commerce on cloud infrastructure 2.4.1 and later, you can use the [Site-Wide Analysis Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access) to automatically check if your Full Page Cache is not configured correctly.
 
 ### Related Reading
 
-[Adobe Commerce cache overview](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=cacheable%2) in our developer documentation.
+[Adobe Commerce cache overview](https://developer.adobe.com/commerce/frontend-core/guide/caching/) in our developer documentation.

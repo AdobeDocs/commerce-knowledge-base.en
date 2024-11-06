@@ -26,7 +26,7 @@ To resolve the issue, change the value of `open_basedir` and restart the webserv
 
 If you're not sure how to change this value, use the following steps:
 
-1. If you haven't already done so, create [phpinfo.php](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo).
+1. If you haven't already done so, create [phpinfo.php](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software).
 1. Enter the following URL in your browser's address or location field: `https://<your web server IP or hostname>/<path to docroot>/phpinfo.php`
 1. Look for the location of `php.ini`.     `php.ini` is typically specified as **Loaded Configuration File** in the displayed results.
 1. As a user with root privileges, open `php.ini` in a text editor.

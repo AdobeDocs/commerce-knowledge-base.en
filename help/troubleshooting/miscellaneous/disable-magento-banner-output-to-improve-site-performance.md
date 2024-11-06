@@ -32,7 +32,7 @@ For Adobe Commerce on cloud infrastructure 2.2.x:
 
 If you do not see the **Banners** option under **Content** > *Elements*, then this is not the case, and the recommendations from this article cannot be applied.
 
-For Adobe Commerce on cloud infrastructure 2.3.x (the functionality was [renamed in v 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
+For Adobe Commerce on cloud infrastructure 2.3.x (the functionality was [renamed in v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
 
 1. Log in to the Commerce Admin.
 1. Navigate to **Content** > *Elements >*  **Dynamic Blocks**.
@@ -50,5 +50,5 @@ When the `Magento_Banner` module is enabled, Adobe Commerce sends Ajax requests 
 >
 >We strongly recommend testing changes on [Staging/Integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) first, before applying it to Production. We also recommend having a recent backup before any manipulations.
 
-1. Disable the `Magento_Banner` module output, as described in [Disable module output](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) in our developer documentation. The module name you need to use is `Magento_Banner`.
-1. Deploy your code. For Adobe Commerce on cloud infrastructure, deploy as described in the [Deploy your store](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) article in our developer documentation.
+1. Disable the `Magento_Banner` module output, as described in [Disable module output](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output) in our developer documentation. The module name you need to use is `Magento_Banner`.
+1. Deploy your code. For Adobe Commerce on cloud infrastructure, deploy as described in the [Deploy your store](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) article in our developer documentation.

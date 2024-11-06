@@ -20,7 +20,7 @@ User gets an error when validating the Fastly credentials.
 
 ## Solution
 
-1. Make sure you have the correct Fastly service ID and API token and try to validate again. For detailed instruction, refer to [Test the Fastly credentials](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) in our developer documentation.
+1. Make sure you have the correct Fastly service ID and API token and try to validate again. For detailed instruction, refer to [Test the Fastly credentials](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) in our developer documentation.
 1. If the verification of the credentials fails, run the following curl command to confirm the status of the service:
 
     ```curl
@@ -39,6 +39,6 @@ User gets an error when validating the Fastly credentials.
 
 ## Related readings in our developer documentation:
 
-* [Cloud for Adobe Commerce > Fastly > Fastly service account and credentials](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials)
+* [Cloud for Adobe Commerce > Fastly > Fastly service account and credentials](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
 
-* [Cloud for Adobe Commerce > Set up Fastly > Test the Fastly credentials](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials)
+* [Cloud for Adobe Commerce > Set up Fastly > Test the Fastly credentials](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)

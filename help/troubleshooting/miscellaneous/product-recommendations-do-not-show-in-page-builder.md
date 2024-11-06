@@ -31,5 +31,5 @@ By enabling Product Recommendations in Page Builder, you will be able to [add a 
 ## Related reading
 
 * [Add Content - Product Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) in our user guide.
-* [Install and Configure Product Recommendations](https://devdocs.magento.com/recommendations/install-configure.html) in our developer documentation.
-* [Adobe Commerce User Guide](https://docs.magento.com/user-guide/)
+* [Install and Configure Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) in our developer documentation.
+* [Adobe Commerce User Guide](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

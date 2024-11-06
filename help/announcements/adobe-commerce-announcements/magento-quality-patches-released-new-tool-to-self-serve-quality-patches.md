@@ -23,5 +23,5 @@ Having installed the tool, you can check for available patches, apply or revert 
 
 Please refer to our developer documentation for details:
 
-* [Patches available in Quality Patches Tool](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
-* [Quality Patches Tool release notes](https://devdocs.magento.com/quality-patches/release-notes.html)
+* [Patches available in Quality Patches Tool](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+* [Quality Patches Tool release notes](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)

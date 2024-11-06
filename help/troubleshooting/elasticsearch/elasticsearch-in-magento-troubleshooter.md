@@ -94,7 +94,7 @@ b. NO – If the status of catalog search is _Reindex required_ run in CLI/Termi
 
 +++**`.yaml` file recently updated?**
 
-a. YES – Check `.yaml` Elasticsearch configuration by referring to DevDocs [Set up Elasticsearch: To enable Elasticsearch](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=elastic%20search%20yaml).  
+a. YES – Check `.yaml` Elasticsearch configuration by referring to DevDocs [Set up Elasticsearch: To enable Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).  
 b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
@@ -125,7 +125,7 @@ b. NO – Proceed to [Step 12](#step-12).
 
 +++**Storage usage > 85%?**
 
-a. YES – You need to increase available storage. Refer to DevDocs[Set up Elasticsearch: To enable Elasticsearch](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=elastic%20search%20yaml). Then run: `localhost:9200/_cat/allocation?v` (if you are on Pro staging or production environments). If you are on one of the integration environments (that includes all the Starter branches) run: `elasticsearch.internal:9200/_cat/allocation?v`. Proceed to [Step 11](#step-11).  
+a. YES – You need to increase available storage. Refer to DevDocs[Set up Elasticsearch: To enable Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch). Then run: `localhost:9200/_cat/allocation?v` (if you are on Pro staging or production environments). If you are on one of the integration environments (that includes all the Starter branches) run: `elasticsearch.internal:9200/_cat/allocation?v`. Proceed to [Step 11](#step-11).  
 b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++

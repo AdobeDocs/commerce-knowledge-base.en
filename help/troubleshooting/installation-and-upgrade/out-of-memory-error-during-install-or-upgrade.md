@@ -34,7 +34,7 @@ can also display on the command line.
 
 ## Solution {#solution}
 
-We recommend you [allocate 2GB of memory to PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) in our developer documentation to make sure your installation or upgrade succeeds.
+We recommend you [allocate 2GB of memory to PHP](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings) in our developer documentation to make sure your installation or upgrade succeeds.
 
 If you've already done that, create a swap file on your machine. A Linux machine uses *swap space* if it needs more memory resources and the RAM is full. The swap space is used for inactive pages in memory.
 

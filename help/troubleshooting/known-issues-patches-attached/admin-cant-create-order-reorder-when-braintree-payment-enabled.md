@@ -52,7 +52,7 @@ The patch is attached to this article. To download it, click the following link:
 
 >[!NOTE]
 >
->Additionally for Adobe Commerce on cloud infrastructure merchants: Adobe has included the fix in the Cloud Patches for Commerce version 1.0.18. Please refer to [Cloud Patches for Commerce release notes](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html) in our developer documentation to find instructions on applying the latest package.
+>Additionally for Adobe Commerce on cloud infrastructure merchants: Adobe has included the fix in the Cloud Patches for Commerce version 1.0.18. Please refer to [Cloud Patches for Commerce release notes](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches) in our developer documentation to find instructions on applying the latest package.
 
 ### Compatible Adobe Commerce versions:
 

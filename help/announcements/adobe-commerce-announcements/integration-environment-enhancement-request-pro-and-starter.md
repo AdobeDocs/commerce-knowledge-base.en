@@ -21,7 +21,7 @@ If you are an Adobe Commerce on cloud infrastructure Pro plan architecture custo
 1. The merchant needs to [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting an Upgrade to Enhanced Integration Environments, using the contact reason "*Request a cloud configuration change*".
 1. Adobe Customer Engineering team confirms the number of Integration Environments and begins the change.
 1. The merchant will be notified in the ticket when the upgrade is complete.
-1. The merchant redeploys the Integration Environments. Follow the steps in [Merge a branch](https://devdocs.magento.com/cloud/env/environments-start.html#merge) in our developer documentation. *Note*: The deployment happens automatically when you run: <pre>git push origin <branch-name></pre>
+1. The merchant redeploys the Integration Environments. Follow the steps in [Merge a branch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) in our developer documentation. *Note*: The deployment happens automatically when you run: <pre>git push origin <branch-name></pre>
 
 Increased performance indicates a successful upgrade to Enhanced Integration Environments.
 
@@ -37,7 +37,7 @@ Increased performance indicates a successful upgrade to Enhanced Integration Env
 1. The merchant needs to [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting an Upgrade to Enhanced Integration Environments, using the contact reason *"Request a cloud configuration change"* &ndash;  **your Staging environment is a named Integration Environment**.
 1. Adobe Customer Engineering team confirms the number of Integration Environments and begins the change.
 1. The merchant will be notified in the ticket when the upgrade is complete.
-1. The merchant redeploys the Integration Environments. Follow the steps in [Merge a branch](https://devdocs.magento.com/cloud/env/environments-start.html#merge) in our developer documentation. *Note*: The deployment happens automatically when you run: <pre>git push origin <branch-name></pre>
+1. The merchant redeploys the Integration Environments. Follow the steps in [Merge a branch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) in our developer documentation. *Note*: The deployment happens automatically when you run: <pre>git push origin <branch-name></pre>
 
 Increased performance indicates a successful upgrade to Enhanced Integration Environments.
 

@@ -40,5 +40,5 @@ We also recommend manually reindexing the `customer_grid` indexer after configur
 
 Links to related topics in our developer documentation:
 
-* [Indexing overview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
-* [Manage the indexers](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
+* [Indexing overview](https://developer.adobe.com/commerce/php/development/components/indexing/)
+* [Manage the indexers](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)

@@ -61,5 +61,5 @@ To resolve the problem run the following [!DNL SQL] statement in the CLI which d
 
 ## Related Reading
 
-* OMS Docs [OMS Connector Setup Tutorial](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)
+* OMS Docs [OMS Connector Setup Tutorial](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/)
 * [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

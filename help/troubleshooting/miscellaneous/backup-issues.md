@@ -29,7 +29,7 @@ Enter the following CLI command:
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-For additional information on backups, see [Back up and roll back the file system, media, and database.](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html)
+For additional information on backups, see [Back up and roll back the file system, media, and database.](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup)
 
 ## Insufficient disk space {#insufficient-disk-space-trouble-backup-space-}
 
@@ -49,6 +49,6 @@ Unfortunately, we can not recommend anything specific because of the variety of 
 
 ## Backup fails {#backup-fails-trouble-backup-all-}
 
-If the backup fails or if all backup tests fail, it's possible the [Adobe Commerce file system owner](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) doesn't have sufficient privileges and ownership of the Adobe Commerce file system. For example, another user might own the files or the files might be read-only.
+If the backup fails or if all backup tests fail, it's possible the [Adobe Commerce file system owner](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) doesn't have sufficient privileges and ownership of the Adobe Commerce file system. For example, another user might own the files or the files might be read-only.
 
-Pay particular attention to file system permissions and ownership of the `<magento_root>/var` directory and subdirectories. For more information, see [Set file system permissions and ownership](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html).
+Pay particular attention to file system permissions and ownership of the `<magento_root>/var` directory and subdirectories. For more information, see [Set file system permissions and ownership](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions).

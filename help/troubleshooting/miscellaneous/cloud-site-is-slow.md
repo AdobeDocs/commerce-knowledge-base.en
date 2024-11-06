@@ -59,7 +59,7 @@ If the index page has a low hit rate, you can fix it by reducing the amount of h
 
 To check the overall cache hit rate:
 
-1. [Get Fastly credentials](http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds) for your Adobe Commerce on cloud infrastructure environment.
+1. [Get Fastly credentials](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) for your Adobe Commerce on cloud infrastructure environment.
 1. Run the following Linux/macOS cURL command to check the hit rate for your site over the last 30 minutes, replacingand with the values for your Fastly credentials:
     
    `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
@@ -76,8 +76,8 @@ A hit rate below 0.85 or 85% might indicate a site configuration problem, or you
 
 1. Using the hourly and daily hit rate stats, identify when the hit rate started to decrease. If the hit rate suddenly dropped around the same time that you deployed a change to your site, consider rolling back the change until the site load comes down.
 1. Check the configuration in the Commerce Admin, under **Stores** > **Configuration** > Advanced > **System** > **Full Page Cache**. Make sure that **TTL for public content** value is not set too low.
-1. Make sure you've [uploaded the VCL snippets](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
-1. If you use custom VCL snippets, debug them for correct usage of the "pass" or "pipe" actions: they should be used carefully and at the very least used with a condition of some sort. For more tips, see [Custom Fastly VCL snippets](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html) in our developer documentation.
+1. Make sure you've [uploaded the VCL snippets](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).
+1. If you use custom VCL snippets, debug them for correct usage of the "pass" or "pipe" actions: they should be used carefully and at the very least used with a condition of some sort. For more tips, see [Custom Fastly VCL snippets](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) in our developer documentation.
 
 ### Step 3: Identify the websites causing the high server load
 

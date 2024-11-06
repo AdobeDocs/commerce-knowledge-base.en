@@ -77,7 +77,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Cause
 
-A class from Adobe Commerce 1 codebase could not be found in Adobe Commerce 2 codebase during the [EAV migration step](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav) in our developer documentation. In most cases, the missing class belongs to an [extension](https://glossary.magento.com/extension).
+A class from Adobe Commerce 1 codebase could not be found in Adobe Commerce 2 codebase during the [EAV migration step](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) in our developer documentation. In most cases, the missing class belongs to an [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension).
 
 ### Possible solutions
 
@@ -119,7 +119,7 @@ The `Target path` in a URL rewrite must be specified by a unique pair of `Reques
 
 Enable the `auto_resolve_urlrewrite_duplicates` option in your `config.xml` file.
 
-This configuration adds a hash-string to the conflicting records of [URL](https://glossary.magento.com/url) rewrites, and shows the resolution result in your command line interface.
+This configuration adds a hash-string to the conflicting records of URL rewrites, and shows the resolution result in your command line interface.
 
 ## Mismatch of entities {#mismatch-of-entities}
 
@@ -149,7 +149,7 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### Cause
 
-This error occurs during [incremental migration](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html) (in our developer documentation) of changes to data. It means deltalog tables (with prefix `m2_cl_*`) were not found in the Adobe Commerce 1 database. The tool installs these tables during [data migration](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html) (in our developer documentation) as well as database triggers which track changes and fill deltalog tables.
+This error occurs during [incremental migration](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/delta) (in our developer documentation) of changes to data. It means deltalog tables (with prefix `m2_cl_*`) were not found in the Adobe Commerce 1 database. The tool installs these tables during [data migration](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/data) (in our developer documentation) as well as database triggers which track changes and fill deltalog tables.
 
 One reason for the error could be that you are trying to migrate from a *copy* of your live Adobe Commerce 1 store, not from the live store itself. When you make a copy from a live Adobe Commerce 1 store that has never been migrated, the copy does not contain the triggers and additional deltalog tables needed to complete a delta migration, so the migration fails. The Data Migration Tool does NOT make comparisons between the DB of AC1 and AC2 to migrate the differences. Instead, the tool uses the triggers and deltalog tables installed during the first migration in order to perform subsequent delta migrations. In such a case, your copy of the live Adobe Commerce 1 DB will not contain the triggers and deltalog tables that the Data Migration Tool uses to perform a migration.
 

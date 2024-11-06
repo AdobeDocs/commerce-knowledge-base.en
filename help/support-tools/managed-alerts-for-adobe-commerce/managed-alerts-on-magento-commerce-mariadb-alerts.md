@@ -23,7 +23,7 @@ You will receive a managed alert in New Relic if you have signed up to [Managed 
  **Do!**
 
 * Abort any deployment scheduled until this alert is cleared.
-* Put your site into maintenance mode immediately if your site is or becomes completely unresponsive. For steps refer to [Installation Guide > Enable or disable maintenance mode](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten) in our developer documentation. Make sure to add your IP to the exempt IP address list to ensure that you are still able to access your site for troubleshooting. For steps, refer to [Maintain the list of exempt IP addresses](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=mainten#instgde-cli-maint-exempt).
+* Put your site into maintenance mode immediately if your site is or becomes completely unresponsive. For steps refer to [Installation Guide > Enable or disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) in our developer documentation. Make sure to add your IP to the exempt IP address list to ensure that you are still able to access your site for troubleshooting. For steps, refer to [Maintain the list of exempt IP addresses](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#instgde-cli-maint-exempt).
 * End any scripts such as imports that may be the cause of the alert if site performance is impacted.
 
  **Don't!**
@@ -50,7 +50,7 @@ If you receive a DML Queries Critical alert start at step one. If you receive a 
 1. Seek out either code optimizations, or operational optimizations:
 1. Code optimizations: Look to optimize queries with bulk inserts / updates, minimizing index usage, or throttling code.
 1. Operational optimizations: Offload resource intensive data modifications to lower traffic times.
-1. Additional optimizations: Ensure that you are on the latest version of ECE-Tools. For steps, refer to [Cloud for Adobe Commerce > Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) in our developer documentation.
+1. Additional optimizations: Ensure that you are on the latest version of ECE-Tools. For steps, refer to [Cloud for Adobe Commerce > Update ece-tools version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) in our developer documentation.
 
 ## Related Reading
 

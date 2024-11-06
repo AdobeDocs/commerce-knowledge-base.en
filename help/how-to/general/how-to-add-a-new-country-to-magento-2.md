@@ -16,10 +16,10 @@ You must be familiar with Adobe Commerce module development in order to create a
 
 Please refer to the following topics in our developer documentation before attempting to create a new module:
 
-* [PHP Developer Guide](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
-* [Module overview](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
-* [Create a New Module](https://devdocs.magento.com/videos/fundamentals/create-a-new-module/)
-* [Module configuration files](https://devdocs.magento.com/guides/v2.4/config-guide/config/config-files.html)
+* [PHP Developer Guide](https://developer.adobe.com/commerce/php/development/)
+* [Module overview](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
+* [Create a New Module](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/create-module)
+* [Module configuration files](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
 
 ## Required Information
 
@@ -29,7 +29,7 @@ A new country must have a unique Name, Country ID, ISO2, and ISO3 codes througho
 
 In this example, we are going to create a new module called \`ExtraCountries\` with the following directory structure:
 
-(To find out more about the module structure, see [Module overview](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html) in our developer documentation).
+(To find out more about the module structure, see [Module overview](https://developer.adobe.com/commerce/php/architecture/modules/overview/) in our developer documentation).
 
 <pre><ExtraCountries>
  |
@@ -91,7 +91,7 @@ A new module configuration is defined in this XML file. The following configurat
 </config>
 ```
 
-For more information on the module configuration files, see [PHP Developer Guide > Define Configurations files](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html) in our developer documentation.
+For more information on the module configuration files, see [PHP Developer Guide > Define Configurations files](https://developer.adobe.com/commerce/php/development/build/required-configuration-files/) in our developer documentation.
 
 Note that these changes are optional and will only affect the default belonging of the new country to the "Allow Countries", "Zip/Postal Code is Optional for", and "European Union Countries" lists. If this file is skipped from the module structure, a new country will still be added, but it will have to be manually configured at the **Admin** > **Stores** > *Settings* > **Configuration** > **General** > **Country Options** settings page.
 
@@ -117,7 +117,7 @@ In our example, we must register a `_TranslatedListsPlugin_` which will translat
 
 In the module registration file we must specify the dependency for the "Adobe Commerce Directory" module making sure that the "Extra Countries" module will be registered and executed after the Directory module.
 
-See [Managing module dependencies](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies) in our developer documentation for more information on module dependencies.
+See [Managing module dependencies](https://developer.adobe.com/commerce/php/architecture/modules/dependencies/#managing-module-dependencies) in our developer documentation for more information on module dependencies.
 
  `module.xml` example
 
@@ -179,7 +179,7 @@ class TranslatedListsPlugin
 
 This data patch will be executed during the Adobe Commerce install/upgrade process and will add a new country record to the database.
 
-See [Develop data and schema patches](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html) in our developer documentation for more information on data patches.
+See [Develop data and schema patches](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/) in our developer documentation for more information on data patches.
 
 In the example below, you can see that the `$data` array of the method `apply()` contains Country ID, ISO2, and ISO3 codes for the new country, and this data is being inserted into the database.
 
@@ -260,7 +260,7 @@ class AddDataForAbstractCountry implements DataPatchInterface, PatchVersionInter
 
 ### ExtraCountries/registration.php
 
-This is an example of the registration.php file. To find out more about module registration, see [PHP Developer Guide > Register your component](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html) in our developer documentation.
+This is an example of the registration.php file. To find out more about module registration, see [PHP Developer Guide > Register your component](https://developer.adobe.com/commerce/php/development/build/component-registration/) in our developer documentation.
 
 ```php
 <?php
@@ -273,7 +273,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 This is an example of the composer.json file.
 
-To find out more about composer.json, see [PHP Developer Guide > The composer.json file](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html) in our developer documentation.
+To find out more about composer.json, see [PHP Developer Guide > The composer.json file](https://developer.adobe.com/commerce/php/development/build/composer-integration/) in our developer documentation.
 
 ```json
 {
@@ -304,7 +304,7 @@ To find out more about composer.json, see [PHP Developer Guide > The composer.js
 
 ## Module installation
 
-To find out how to install the module, see [Module locations](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations) in our developer documentation.
+To find out how to install the module, see [Module locations](https://developer.adobe.com/commerce/php/architecture/modules/overview/#module-locations) in our developer documentation.
 
 Once the module directory is placed in a correct location, execute `bin/magento setup:upgrade` to apply the data patches and register the translation plugin.
 

@@ -39,4 +39,4 @@ Manually run the cron job or consumer to propagate the new information.
 
 ## Related reading
 
-* [Manage message queues](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in our developer documentation.
+* [Manage message queues](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) in our developer documentation.

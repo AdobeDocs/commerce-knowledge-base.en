@@ -29,8 +29,8 @@ Again it is important to note that using software specifically designed to ident
 ## Solution steps
 
 1. Check your Adobe Commerce logs to see if something else besides a DDoS attack is occurring. For more information, refer to the following articles in our developer documentation:
-    * [Adobe Commerce and Magento Open Source logs locations](https://devdocs.magento.com/guides/v2.3/config-guide/cli/logging.html)
-    * [Adobe Commerce on cloud infrastructure logs locations](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
+    * [Adobe Commerce and Magento Open Source logs locations](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/enable-logging)
+    * [Adobe Commerce on cloud infrastructure logs locations](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)
 1. Start using your CLI to check your all your current Internet connections using the `netstat` command: `netstat -na`. This displays all active established connections to the server. Here you might be able to notice too many connections coming from the same IP address.
 1. To further narrow your established connections results to only those connecting on port 80 (the http port for your website), so that you can sort and recognize too many connections from one IP address or group of IP addresses, use this command: `netstat -an | grep :80 | sort`. You may repeat the same command for https on port 443: `netstat -an | grep :443 | sort`. Another option is to extend the original command to both ports 80 and 443: `netstat -an | egrep ":80|:443" | sort`.
 1. To see if many active `SYNC_REC` are occurring on the server, use the command:     `netstat -n -p|grep SYN_REC | wc -l`     This is usually less than 5, but it could be much higher for a DDoS attack, though for some servers a higher number could be a normal condition.
@@ -47,6 +47,6 @@ If you find that you are under DDoS attack, the steps you can take depend on you
 
 ## Related readings in our developer documentation:
 
-* [DDoS protection](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#ddos-protection)
-* [Using CLI commands](https://devdocs.magento.com/guides/v2.3/config-guide/deployment/pipeline/example/cli.html)
-* [Cloud CLI for Commerce](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html)
+* [DDoS protection](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#ddos-protection)
+* [Using CLI commands](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli)
+* [Cloud CLI for Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)

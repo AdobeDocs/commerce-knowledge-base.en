@@ -25,7 +25,7 @@ This article provides a solution for the issue where the Magento Order Managemen
 
 1. Install Adobe Commerce on your local environment.
 1. Set up ngrok to create a tunnel to expose your local server.
-1. Try [connecting to OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+1. Try [connecting to OMS](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/).
 
  <u>Expected result</u>
 

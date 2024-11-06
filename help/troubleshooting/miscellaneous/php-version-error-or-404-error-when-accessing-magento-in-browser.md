@@ -23,7 +23,7 @@ The following message displays when you try to access Adobe Commerce storefront 
 
 Try the following:
 
-* Upgrade PHP to version 7.3. For more information see [Adobe Commerce 2.3 technology stack requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html#php) in our developer documentation.
+* Upgrade PHP to version 7.3. For more information see [Adobe Commerce 2.3 technology stack requirements](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements) in our developer documentation.
 * Restart Apache, since it might not be using the same PHP version as is on the file system. To restart Apache, use the following commands:
     * Ubuntu: `service apache2 restart`
     * CentOS: `service httpd restart`
@@ -36,5 +36,5 @@ A 404 (Not Found) error displays when you try to access Adobe Commerce storefron
 
 Try the following:
 
-* Make sure [Apache server rewrites](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html) are enabled. If Apache server rewrites are set incorrectly, static files aren't served from the correct location.
+* Make sure [Apache server rewrites](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache) are enabled. If Apache server rewrites are set incorrectly, static files aren't served from the correct location.
 * There might be an issue with the base URL you entered during the installation. You specify the base URL as the value of `--base-url=` when installing Adobe Commerce from the command line or as the value of the **Your Store Address** field on the Web Configuration page of the web installer. The base URL *must* start with the scheme (such as `http://` ) and end with a trailing slash (/). Run the installer again with a valid value and try accessing Adobe Commerce afterward.

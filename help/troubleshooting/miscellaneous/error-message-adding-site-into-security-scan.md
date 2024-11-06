@@ -47,4 +47,4 @@ If you still cannot add sites, complete the following steps:
 
 ## Related reading
 
-* [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html) in our user guide.
+* [Security Scan](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) in our user guide.

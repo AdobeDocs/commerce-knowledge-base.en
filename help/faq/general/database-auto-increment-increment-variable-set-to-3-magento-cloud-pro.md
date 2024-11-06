@@ -25,5 +25,5 @@ For example, if the elected main is node 1 where `auto_increment_offset = 1`, th
 
 See in our developer documentation:
 
-* [Cloud for Adobe Commerce > Pro architecture > Backup and disaster recovery](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
-* [Cloud for Adobe Commerce > Install prerequisites: database](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)
+* [Cloud for Adobe Commerce > Pro architecture > Backup and disaster recovery](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [Cloud for Adobe Commerce > Install prerequisites: database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)

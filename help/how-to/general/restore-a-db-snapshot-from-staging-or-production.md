@@ -56,7 +56,7 @@ The steps are:
     ```
 
 1. Copy the database [!DNL dump file] (For example: `<cluster ID>.sql.gz` for [!DNL Production] or `<cluster ID_stg>.sql.gz` for [!DNL Staging]) to your local computer.
-1. Make sure you have set up the [!DNL SSH tunnel] to connect to the database remotely: [[!DNL SSH] and [!DNL sFTP]: [!DNL SSH tunneling]](https://devdocs.magento.com/cloud/env/environments-ssh.html#env-start-tunn) in our developer documentation.
+1. Make sure you have set up the [!DNL SSH tunnel] to connect to the database remotely: [[!DNL SSH] and [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) in our developer documentation.
 1. Connect to the database.
 
     ```sql
@@ -146,5 +146,5 @@ The steps are:
 
 In our developer documentation:
 
-* [Import code: Import the database](https://devdocs.magento.com/cloud/setup/first-time-setup-import-import.html#cloud-import-db)
-* [[!DNL Snapshots] and [!DNL backup] management: [!DNL Dump] your database](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump)
+* [Import code: Import the database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] and [!DNL backup] management: [!DNL Dump] your database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)

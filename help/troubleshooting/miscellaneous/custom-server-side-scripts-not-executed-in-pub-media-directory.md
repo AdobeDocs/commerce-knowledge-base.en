@@ -29,4 +29,4 @@ Store the server-side scripts in non-writable directories, such as `./app/code/`
 
 ## Related documentation
 
-* [Cloud for Adobe Commerce > Project structure > Writable directories](https://devdocs.magento.com/guides/v2.3/cloud/project/project-start.html#write-dir) in our developer documentation.
+* [Cloud for Adobe Commerce > Project structure > Writable directories](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories) in our developer documentation.

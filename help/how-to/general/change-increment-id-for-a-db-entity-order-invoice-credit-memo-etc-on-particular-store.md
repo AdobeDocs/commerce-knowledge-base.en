@@ -12,7 +12,7 @@ This article discusses how to change the increment ID for an Adobe Commerce data
 
 * Adobe Commerce on-premises: 2.x.x
 * Adobe Commerce on cloud infrastructure: 2.x.x
-* MySQL: any [supported version](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
+* MySQL: any [supported version](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
 
 ## When would you need to change increment ID (cases)
 
@@ -28,7 +28,7 @@ You might need to change the increment ID for new DB entities in these cases:
 ## Prerequisite steps
 
 1. Find stores and entities for which the new increment ID should be changed.
-1. [Connect](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) to your MySQL DB. For Adobe Commerce on cloud infrastructure, at first, you need to [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [Connect](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) to your MySQL DB. For Adobe Commerce on cloud infrastructure, at first, you need to [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Check the current auto\_increment value for the entity sequence table using the following query:
 
 ```sql
@@ -47,7 +47,7 @@ If the value of the `auto_increment` column is *1234*, the next order placed at 
 
 ### Related documentation
 
-* [Set up a remote MySQL database connection](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) in our developer documentation.
+* [Set up a remote MySQL database connection](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) in our developer documentation.
 
 ## Update entity to change increment ID
 

@@ -36,9 +36,9 @@ This will show a compatibility report. If you have incompatibilities, you need t
 Reference the following documentation for instructions on how to upgrade:
 
 * For PWA Studio upgrades, search for the "Upgrading from a previous version" section of the [PWA release notes](https://github.com/magento/pwa-studio/releases/) for the version that you need to upgrade to.
-* [Upgrade Adobe Commerce on cloud infrastructure version](https://devdocs.magento.com/cloud/project/project-upgrade.html) in our developer documentation
-* [Upgrade Adobe Commerce on-premises (installed using "composer create-project" or archive)](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html) in our developer documentation
-* [Upgrade Adobe Commerce on-premises (installed by cloning Adobe Commerce repo)](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/dev_update-magento.html) in our developer documentation
+* [Upgrade Adobe Commerce on cloud infrastructure version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) in our developer documentation
+* [Upgrade Adobe Commerce on-premises (installed using "composer create-project" or archive)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) in our developer documentation
+* [Upgrade Adobe Commerce on-premises (installed by cloning Adobe Commerce repo)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/developer/git-installs) in our developer documentation
 
 ## Related reading
 
