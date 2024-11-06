@@ -49,7 +49,6 @@ Problem: Without a valid and working SSL certificate, you cannot test external p
 
 Recommendation **:** Request your shared SSL certificate for Staging or Live domain names.
 
-Read about SSL certificates in this [Quick FAQ](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md) article in our support knowledge base.
 
 ## 3. Configure and test 301 redirects
 
