@@ -3,8 +3,8 @@ title: 'ACSD-54887: Customer shopping cart gets cleared after customer session h
 description: Apply the ACSD-54887 patch to fix the Adobe Commerce issue where the customer shopping cart gets cleared after the customer session has expired with [!UICONTROL Persistent Shopping Cart] enabled.
 feature: Shopping Cart
 role: Admin, Developer
+exl-id: 81e0a20e-0c68-420e-b14e-3f331249c8d9
 ---
-
 # ACSD-54887: Customer shopping cart gets cleared after customer session has expired
 
 The ACSD-54887 patch fixes the issue where the customer's shopping cart gets cleared after the customer session has expired with [!UICONTROL Persistent Shopping Cart] enabled. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-54887. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.
@@ -64,4 +64,3 @@ To learn more about [!DNL Quality Patches Tool], refer to:
 * [Check if patch is available for your Adobe Commerce issue using [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) in our support knowledge base.
 
 For info about other patches available in QPT, refer to [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in the [!DNL Quality Patches Tool] guide.
-

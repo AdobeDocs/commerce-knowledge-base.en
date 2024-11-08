@@ -3,8 +3,8 @@ title: 'ACSD-58352: Return attribute labels for the default store are returned v
 description: Apply the ACSD-58352 patch to fix the Adobe Commerce issue where return attribute labels for the default store are returned via [!DNL GraphQL] API when a non-default store view is specified in the request header.
 feature: GraphQL, Returns
 role: Admin, Developer
+exl-id: 372a50bb-28e1-4259-97d1-011956b73d59
 ---
-
 # ACSD-58352: Return attribute labels for the default store are returned via [!DNL GraphQL] API
 
 The ACSD-58352 patch fixes the issue where return attribute labels for the default store are returned via [!DNL GraphQL] API when a non-default store view is specified in the request header. This patch is available when the [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.50 is installed. The patch ID is ACSD-58352. Please note that the issue is scheduled to be fixed in Adobe Commerce 2.4.8.

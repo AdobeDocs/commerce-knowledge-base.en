@@ -3,6 +3,7 @@ title: 'ACSD-58446: Deleting a team with child users or teams via GraphQL gives 
 description: Apply the ACSD-58446 patch to fix the Adobe Commerce issue where deleting a team with child users or teams via GraphQL returns an uninformative error message inconsistent with the UI.
 feature: GraphQL
 role: Admin, Developer
+exl-id: df9eca9d-4d7a-4d4c-b6aa-59ac538b1aa0
 ---
 # ACSD-58446: Deleting a team with child users or teams via GraphQL gives an uninformative error message 
 

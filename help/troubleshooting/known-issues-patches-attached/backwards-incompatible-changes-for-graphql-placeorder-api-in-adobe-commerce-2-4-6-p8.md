@@ -1,9 +1,10 @@
 ---
-title: 'Backwards incompatible changes for [!DNL GraphQL] `placeOrder` [!DNL API] in Adobe Commerce 2.4.6-p8'
+title: Backwards incompatible changes for [!DNL GraphQL] `placeOrder` [!DNL API] in Adobe Commerce 2.4.6-p8
 promoted: true
 description: This article provides a patch for the known Adobe Commerce version 2.4.6-p8 Cloud and On-premises issue where the `placeOrder` [!DNL GraphQL API] doesn't return an expected error response, as seen in previous 2.4.6 patch versions. This may lead to a broken checkout experience for merchants using PWA storefront or any other [!DNL GraphQL API]-based storefront for their stores.
 feature: Checkout, REST, GraphQL
 role: Developer
+exl-id: eacfb785-89e1-4bb7-8b6d-f7073746c9fa
 ---
 # Backwards incompatible changes for [!DNL GraphQL] `placeOrder` [!DNL API] in Adobe Commerce 2.4.6-p8
 
@@ -76,4 +77,3 @@ Considering that it isn't possible to easily check if the issue was patched, you
     vendor/bin/magento-patches -n status |grep "27015\|Status"
      ```
 -->
-

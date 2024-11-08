@@ -3,6 +3,7 @@ title: Error when filtering orders in the Admin
 description: This article provides a patch for the Adobe Commerce issue, where an error occurs when attempting to filter orders in the Admin by date, displaying the message "Integrity constraint violation 1052 Column 'created_at' where clause is ambiguous".
 feature: Orders
 role: Developer
+exl-id: 64aa104e-3b01-4a26-a88a-6aef06d9239e
 ---
 # Error when filtering orders in the Admin
 

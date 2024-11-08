@@ -1,8 +1,9 @@
 ---
-title: 'ACSD-48210: Store view specific scope attribute overrides global values' 
+title: 'ACSD-48210: Store view specific scope attribute overrides global values'
 description: Apply the ACSD-48210 patch to fix the Adobe Commerce issue of updating a *[!UICONTROL Website Scope]* attribute in a specific store view overrides the attribute values in the global scope.
-feature: Products, Attributes 
+feature: Products, Attributes
 role: Admin, Developer
+exl-id: e279df44-0916-4f2e-99f2-76e123895125
 ---
 # ACSD-48210: Store view specific scope attributes override global values
 
