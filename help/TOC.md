@@ -960,7 +960,6 @@ breadcrumb-title: Commerce KB
     * [Packages downgraded after upgrading from 2.4.4 to 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
     * [Adobe Commerce 2.3.6, 2.4.1 CAPTCHA in checkout not working](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
     * [Order email sent from the server email address](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-    * [Advanced Reporting 404 error on split database solution](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)
     * [Performance issues caused by excessive Ajax requests](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)
     * [Removing staging update deletes related entity](/help/troubleshooting/known-issues-patches-attached/removing-staging-update-deletes-related-entity.md)
     * [Google Analytics is not tracking conversion data](/help/troubleshooting/known-issues-patches-attached/google-analytics-is-not-tracking-conversion-data.md)
