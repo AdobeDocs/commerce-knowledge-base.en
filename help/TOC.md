@@ -955,7 +955,6 @@ breadcrumb-title: Commerce KB
     * [Admin can't create order/reorder when Braintree payment enabled](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
     * [Duplicate entries in the catalogrule table after editing the end date of a schedule update](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
     * [Adobe Commerce 2.3.5, 2.3.5-p1 patch: country payment issue](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-    * [Adobe Commerce 2.4.0 patch: returns shipping label creation issue](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
     * ["500 error" after double-clicking Remove link in shopping cart](/help/troubleshooting/known-issues-patches-attached/500-error-after-double-clicking-remove-link-in-shopping-cart.md)
     * [Packages downgraded after upgrading from 2.4.4 to 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
     * [Adobe Commerce 2.3.6, 2.4.1 CAPTCHA in checkout not working](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
