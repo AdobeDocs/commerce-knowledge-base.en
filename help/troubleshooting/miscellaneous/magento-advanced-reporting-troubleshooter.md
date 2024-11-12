@@ -40,7 +40,7 @@ If multiple base currencies have ever been used you cannot use Advanced Reportin
 
 Are you using [split database solution](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)?
 
-a. YES – Use the patch **MDVA-26831** in [Advanced Reporting 404 error on split database solution](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md) and clear cache. Wait for 24 hours for the job to run again and try again.  
+a. YES – Use the patch **MDVA-26831** in Advanced Reporting 404 error on split database solution and clear cache. Wait for 24 hours for the job to run again and try again.  
 b. NO – Proceed to [Step 4](#step-4).
 
 +++
