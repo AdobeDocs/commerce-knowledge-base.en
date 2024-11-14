@@ -40,7 +40,7 @@ role: Developer
 
 ## I used shared access and clicked on [!UICONTROL Support], but when I opened a new ticket for the organization, there was no product available in the form
 
- **Problem:** I cannot select the appropriate Cloud Project when opening a ticket on [Experience League](https://experienceleague.adobe.com/home?lang=en#support).
+ **Problem:** I cannot select the appropriate Cloud Project when opening a ticket on [Experience League](https://experienceleague.adobe.com/home#support).
 
  **Possible cause:** You may not have been added to the project, or the project is associated with a different license (some organizations may have subsidiaries/related companies with very similar names).
 
