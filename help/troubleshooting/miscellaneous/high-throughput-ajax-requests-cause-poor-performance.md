@@ -30,7 +30,7 @@ High throughput AJAX requests include those related to customers' private conten
 
 There are three solutions:
 
-* [Upgrade to version 2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version). If this is not currently possible, [install the patch fixing the issue](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md).
+* [Upgrade to version 2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version).
 * Ensure lighter requests (cache requests or move to customers' private content).
 * Reduce the number of requests.
 
