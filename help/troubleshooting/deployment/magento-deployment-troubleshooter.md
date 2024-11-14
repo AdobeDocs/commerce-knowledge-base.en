@@ -24,7 +24,7 @@ b. NO – Maintenance or global outages. Check for estimated duration and update
 
 +++**Are there deployments in other environments that are blocking the deployment in the existing environment?**
 
-To get a list of ongoing activities run the following command using magento-cloud CLI (if you have only been added to one cloud project):
+To get a list of ongoing activities run the following command using magento-cloud CLI (if you have only been added to one cloud project). If you run into issues, check if you are on the latest `magento-cloud CLI`. Refer to [Update the CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview#update-the-cli) in the Cloud CLI on Commerce on Cloud Infrastructure Guide.
 
 ```bash
 magento-cloud --state=in_progress
