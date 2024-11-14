@@ -42,12 +42,11 @@ role: Developer
 
  **Problem:** I cannot select the appropriate Cloud Project when opening a ticket on [Experience League](https://experienceleague.adobe.com/home#support).
 
- **Possible cause:** You may not have been added to the project, or the project is associated with a different license (some organizations may have subsidiaries/related companies with very similar names).
-
+ **Possible cause:** You have not selected the correct organization with [!DNL Commerce] entitlements.
+ 
  **Solution:** 
 
- 1. Make sure that you have been added to the project. See [Manage user access](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access). 
- 1. Ensure that you have been given shared access by the account owner to the license associated with the project.
+ 1. Make sure to select the organization with the *[!DNL Commerce]* suffix. This is the organization that has the [!DNL Commerce] entitlements.
 
  If you continue to face issues, contact your Adobe account team. Specify the name and email associated with your account.
 
