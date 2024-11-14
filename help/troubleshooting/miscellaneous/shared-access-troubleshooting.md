@@ -84,7 +84,3 @@ role: Developer
  **Possible cause:** Your browser is using the cached content from the Help Center.
 
  **Solution:** Clear your browser cache and access the Help Center again (make sure you have switched to shared access on your Commerce Account page).
-
-## Related reading
-
-[Ticket submission form](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed) in our support knowledge base.
