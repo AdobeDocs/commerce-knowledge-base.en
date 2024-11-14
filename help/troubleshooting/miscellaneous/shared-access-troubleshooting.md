@@ -11,11 +11,11 @@ role: Developer
 
  **Problem:** You want to provide shared access to your trusted colleague, but you cannot locate the **[!UICONTROL Shared Access]** tab on your Commerce Account page.
 
- **Possible cause:** Permissions, necessary to grant shared access, have not been associated with your Commerce Account.
+ **Possible cause:** Permissions necessary to grant shared access have not been associated with your Commerce Account.
 
  **Solution:** 
 
- * If you are the account owner (primary account holder), contact your Adobe account Team. If your team member has access to Support, have them [create a support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed). Please specify the name and email associated with your account.
+ * If you are the account owner (primary account holder), contact your Adobe account Team. If your team member has access to Support, have them [create a support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed). Specify the name and email associated with your account.
 * If you are not the account owner, you must contact them to provide shared access and the necessary privileges.
 * If the account owner is no longer with the company and you wish to transfer the account to another user, refer to [Transfer a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer).
 
@@ -25,17 +25,18 @@ role: Developer
 
 ## I used shared access but cannot gain access to a particular resource
 
- **Problem:** I switched to the Shared Access account but cannot access the **[!UICONTROL Support tab]** (for example).
+ **Problem:** I switched to the [UICONTROL Shared Access] account but cannot access the **[!UICONTROL Support tab]** (for example).
 
- **Possible cause:** The Support entitlements have expired or you have not been granted Shared Access to Support.
+ **Possible cause:** The support entitlements have expired, or you have not been granted shared access to support.
 
  **Solution:** 
 
  1. Switch back to **[!UICONTROL My Account]**.
  1. Click on the **[!UICONTROL Shared with me]** tab.
- 1. Click on the **[!UICONTROL Shared Access] account that you are having issues with and examine which resources you have been granted access to.
+ 1. Click on the **[!UICONTROL Shared Access]** account that you are having issues with and examine which resources you have been granted access to.
  1. If the specific resource is missing, reach out to the account owner (primary account holder).
- 1. If you continue to face issues, contact your Adobe account team. Specify the name and email associated with your account.
+ 
+ If you continue to face issues, contact your Adobe account team. Specify the name and email associated with your account.
 
 ## I used shared access and clicked on [!UICONTROL Support], but when I opened a new ticket for the organization, there was no product available in the form
 
@@ -50,9 +51,9 @@ role: Developer
 
  If you continue to face issues, contact your Adobe account team. Specify the name and email associated with your account.
 
-## I used shared access and clicked on Support, but when I opened a new ticket for the organization that has the Commerce entitlements, the cloud project is not listed in the form
+## I used shared access and clicked on [!UICONTROL Support], but when I opened a new ticket for the organization that has the Commerce entitlements, the cloud project was not listed in the form
 
- **Problem**: I cannot select the appropriate Cloud Project when opening a ticket on [Experience League](https://experienceleague.adobe.com/home?lang=en#support).
+ **Problem**: I cannot select the appropriate Cloud Project when opening a ticket on [Experience League](https://experienceleague.adobe.com/home#support).
 
  **Possible cause**: You may not have been added to the project, or the project is associated with a different license (some organizations may have subsidiaries/related companies with very similar names).
 
@@ -63,19 +64,18 @@ role: Developer
 
  If you continue to face issues, contact your Adobe account team. Specify the name and email associated with your account.
 
-## I used shared access and clicked on [!UICONTROL Support], but when I opened a new ticket, the [!UICONTROL Organization] dropdown is not displayed or doesn't list that organization
+## I used shared access and clicked on [!UICONTROL Support], but when I opened a new ticket, the [!UICONTROL Organization] dropdown was not displayed or didn't list that organization
 
- **Problem**: I switched to the Shared Access account, but when I try to submit a ticket on [Experience League](https://experienceleague.adobe.com/home?lang=en#support), no organization is available, or the organization name isn't listed in the dropdown.
+ **Problem**: I switched to the [!UICONTROL Shared Access] account, but when I try to submit a ticket on [Experience League](https://experienceleague.adobe.com/home#support), no organization is available, or the organization name isn't listed in the dropdown.
 
  **Possible cause**: You have only been granted shared access to one merchant in your account.
 
  **Solution**: 
 
- 1. Switch back to My Account.
+ 1. Switch back to **[!UICONTROL My Account]**.
  1. If it lists only one shared name, that will be the default organization under which your tickets will be opened.
  
  If you continue to face issues, contact your Adobe Account Team. Specify the name and email associated with your account.
-
 
 ## I used shared access but still see my tickets instead of the shared ones
 
