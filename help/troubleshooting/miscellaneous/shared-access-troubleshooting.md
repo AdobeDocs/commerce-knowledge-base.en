@@ -16,8 +16,8 @@ role: Developer
  **Solution:** 
 
  * If you are the account owner (primary account holder), contact your Adobe account Team. If your team member has access to Support, have them [create a support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed). Specify the name and email associated with your account.
-* If you are not the account owner, you must contact them to provide shared access and the necessary privileges.
-* If the account owner is no longer with the company and you wish to transfer the account to another user, refer to [Transfer a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer).
+ * If you are not the account owner, you must contact them to provide shared access and the necessary privileges.
+ * If the account owner is no longer with the company and you wish to transfer the account to another user, refer to [Transfer a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer).
 
  >[!NOTE]
  >
@@ -25,7 +25,7 @@ role: Developer
 
 ## I used shared access but cannot gain access to a particular resource
 
- **Problem:** I switched to the [UICONTROL Shared Access] account but cannot access the **[!UICONTROL Support tab]** (for example).
+ **Problem:** I switched to the [!UICONTROL Shared Access] account but cannot access the **[!UICONTROL Support tab]** (for example).
 
  **Possible cause:** The support entitlements have expired, or you have not been granted shared access to support.
 
