@@ -133,7 +133,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60816-newrelic-browser-monitoring-scripts-injected-by-apm-agent-are-not-compliant-with-csp">ACSD-60816: New Relic browser monitoring scripts injected by APM agent are not compliant with CSP:</a> The ACSD-60816 patch fixes the issue where the New Relic browser monitoring scripts injected by the APM agent are not compliant with the Content Security Policy (CSP). This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.51 is installed.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60816-newrelic-browser-monitoring-scripts-injected-by-apm-agent-are-not-compliant-with-csp">ACSD-60816: New Relic browser monitoring scripts injected by APM agent are not compliant with CSP:</a> The ACSD-60816 patch fixes the issue where the [!DNL New Relic] browser monitoring scripts injected by the APM agent are not compliant with the Content Security Policy (CSP). This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.51 is installed.
     </td>
     <td>New article </td>
     <td>November 14, 2024</td>
