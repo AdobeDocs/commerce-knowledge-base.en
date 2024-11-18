@@ -157,7 +157,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-59967-javascript-error-prevents-google-maps-from-rendering-correctly">ACSD-59967: JavaScript error prevents Google Maps from rendering correctly:</a> The ACSD-59967 patch fixes the issue where the JavaScript error prevents Google Maps from rendering correctly. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.51 is installed.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-59967-javascript-error-prevents-google-maps-from-rendering-correctly">ACSD-59967: JavaScript error prevents Google Maps from rendering correctly:</a> The ACSD-59967 patch fixes the issue where the JavaScript error prevents [!DNL Google Maps] from rendering correctly. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.51 is installed.
     </td>
     <td>New article </td>
     <td>November 14, 2024</td>
