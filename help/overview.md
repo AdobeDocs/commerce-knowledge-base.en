@@ -101,7 +101,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60673-cart-price-rule-fix-for-multiple-payment-methods-at-checkout">ACSD-60673: Cart Price Rule issue fixed for multiple payment methods at checkout:</a> The ACSD-60673 patch fixes the issue where the discounts from a Cart Price Rule that use a payment method condition are not always listed in the totals. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.52 is installed.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60673-cart-price-rule-fix-for-multiple-payment-methods-at-checkout">ACSD-60673: Cart Price Rule issue fixed for multiple payment methods at checkout:</a> The ACSD-60673 patch fixes the issue where the discounts from a [!UICONTROL Cart Price Rule] that use a payment method condition are not always listed in the totals. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.52 is installed.
     </td>
     <td>New article </td>
     <td>November 14, 2024</td>
