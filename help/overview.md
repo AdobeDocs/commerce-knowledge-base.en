@@ -69,7 +69,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-61528-retrieving-roles-using-graphql-returns-no-results">The ACSD-61258 patch fixes the issue where retrieving roles from the company's administrator using GraphQL always returns a null result. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.53 is installed.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-61528-retrieving-roles-using-graphql-returns-no-results">ACSD-61528: Retrieving roles using GraphQL returns no results:</a>The ACSD-61528 patch fixes the issue where retrieving roles from the company's administrator using GraphQL always returns a null result. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.53 is installed.
     </td>
     <td>New article </td>
     <td>November 14, 2024</td>
