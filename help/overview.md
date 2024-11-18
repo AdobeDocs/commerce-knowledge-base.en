@@ -117,7 +117,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60788-fixes-issue-where-custom-scripts-for-google-tag-manager-are-not-executed-due-to-content-security-policy-errors">ACSD-60788: Custom scripts for Google Tag Manager are not executed due to Content Security Policy errors:</a> The ACSD-60788 patch fixes the issue where custom scripts for Google Tag Manager are not executed due to Content Security Policy errors. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.52 is installed.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60788-fixes-issue-where-custom-scripts-for-google-tag-manager-are-not-executed-due-to-content-security-policy-errors">ACSD-60788: Custom scripts for Google Tag Manager are not executed due to Content Security Policy errors:</a> The ACSD-60788 patch fixes the issue where custom scripts for [!DNL Google Tag Manager] are not executed due to Content Security Policy errors. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.52 is installed.
     </td>
     <td>New article </td>
     <td>November 14, 2024</td>
