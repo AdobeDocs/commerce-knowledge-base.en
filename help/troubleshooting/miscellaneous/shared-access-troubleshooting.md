@@ -15,7 +15,7 @@ role: Developer
 
  **Solution:** 
 
- * If you are the account owner (primary account holder), contact your Adobe account Team. If your team member has access to Support, have them [create a support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed). Specify the name and email associated with your account.
+ * If you are the account owner (primary account holder), contact your Adobe account team. If your team member has access to Support, have them [create a support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed). Specify the name and email associated with your account.
  * If you are not the account owner, you must contact them to provide shared access and the necessary privileges.
  * If the account owner is no longer with the company and you wish to transfer the account to another user, refer to [Transfer a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer).
 
@@ -50,7 +50,7 @@ role: Developer
 
  If you continue to face issues, contact your Adobe account team. Specify the name and email associated with your account.
 
-## I used shared access and clicked on [!UICONTROL Support], but when I opened a new ticket for the organization that has the Commerce entitlements, the cloud project was not listed in the form
+## I used shared access and clicked on [!UICONTROL Support], but when I opened a new ticket for the organization that has the [!DNL Commerce] entitlements, the cloud project was not listed in the form
 
  **Problem**: I cannot select the appropriate Cloud Project when opening a ticket on [Experience League](https://experienceleague.adobe.com/home#support).
 
@@ -74,11 +74,11 @@ role: Developer
  1. Switch back to **[!UICONTROL My Account]**.
  1. If it lists only one shared name, that will be the default organization under which your tickets will be opened.
  
- If you continue to face issues, contact your Adobe Account Team. Specify the name and email associated with your account.
+ If you continue to face issues, contact your Adobe account team. Specify the name and email associated with your account.
 
 ## I used shared access but still see my tickets instead of the shared ones
 
- **Problem:** I'm accessing [https://support.magento.com/hc/us-en/requests|Help Center] using shared access but still see only the tickets belonging to my own account (organization). The Commerce Account page shows I'm using the organization's account, which has provided shared access for me, but the organization tickets are still not showing.
+ **Problem:** I'm accessing [Help Center](https://support.magento.com/hc/us-en/requests) using shared access but still see only the tickets belonging to my own account (organization). The [!DNL Commerce] Account page shows I'm using the organization's account, which has provided shared access for me, but the organization tickets are still not showing.
 
  **Possible cause:** Your browser is using the cached content from the Help Center.
 
