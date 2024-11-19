@@ -88,7 +88,7 @@ Once successfully signed in as the account owner or Shared Access user, you may 
 >* Your issue is that you can't log in to the Marketplace account or that you have a question about deploying an extension.
 >* Your issue isn't solely about requesting a refund for your Marketplace purchase(s).
 >
->For issues relating to publishing your extension, having trouble purchasing, or requesting a refund on the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), you must contact the [!DNL Commerce Marketplace] team directly by visiting https://commercemarketplace.adobe.com/. Navigate to the bottom of the page and click **[!UICONTROL Contact Us]**, which will open a form to submit a Marketplace Support ticket.
+>For issues relating to publishing your extension, having trouble purchasing, or requesting a refund on the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), you must contact the [!DNL Commerce Marketplace] team directly by visiting https://commercemarketplace.adobe.com/. Navigate to the bottom of the page and click **[!UICONTROL Contact Us]**, which will open a form to submit a Marketplace support ticket.
 
 #### Adobe Experience League start page {#experience-league-start-page}
 
