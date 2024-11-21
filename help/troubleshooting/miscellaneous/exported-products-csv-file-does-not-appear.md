@@ -1,13 +1,13 @@
 ---
 title: Exported products .csv file does not appear
-description: This article provides a fix for the issue where you try to export products to a .csv file in the Commerce Admin, but the file does not appear.
+description: This article provides a fix for the issue where you try to export the desired entity type to a .csv file in the Commerce Admin, but the file does not appear.
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
 ---
 # Exported products .csv file does not appear
 
-This article provides a fix for the issue where you try to export products to a .csv file in the Commerce Admin, but the file does not appear.
+This article provides a solution for the issue where exporting the desired entity type to a .csv file in the Commerce Admin results in the file not appearing.
 
 ## Affected products and versions
 
@@ -24,7 +24,7 @@ Prerequisites: The **Add Secret Key to URLs** option is set to *Yes*. The option
     ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)
 
 1. Select
-    * **Entity Type**: *Products*
+    * **Entity Type**: The entity you wish to export
     * **Export File Format**: *CSV*
     * **Field Enclosure**: leave unchecked.
 1. Click **Continue**.
@@ -32,11 +32,11 @@ Prerequisites: The **Add Secret Key to URLs** option is set to *Yes*. The option
 
  <u>Expected result</u>
 
-The .csv file with the exported products is displayed in the grid in a couple of minutes.
+The .csv file containing the exported desired entity type is displayed in the grid within a couple of minutes.
 
  <u>Actual result</u>
 
-The .csv file with the exported products is not displayed in the grid in 10 minutes or more.
+The .csv file containing the exported desired entity type is not displayed in the grid in 10 minutes or more.
 
 ## Cause
 
