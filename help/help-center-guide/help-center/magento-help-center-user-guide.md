@@ -180,7 +180,7 @@ Your support cases are those that you:
 
 #### View your cases
 
-You can view the cases you have submitted personally by clicking **[!UICONTROL My Cases]** on the left-hand menu.
+You can view the cases you have submitted personally by clicking **[!UICONTROL My Cases]** on the left-hand menu. Make sure that you have selected the correct Organization ending in "(Commerce)".
 
 ![view-support-cases](assets/view_support_cases.png)
 
