@@ -55,4 +55,4 @@ The workaround for this issue is that the customer can log in at a store (Logged
 
 * [Best practice for number of products in cart in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) in our support knowledge base.
 * [Order processing tutorial: Step 1. Add items to the cart](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/) in our developer documentation
-* [GraphQL checkout tutorial: Step 1. Add products to the cart](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html) in our developer documentation
+* [GraphQL checkout tutorial: Step 1. Add products to the cart](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/) in our developer documentation
