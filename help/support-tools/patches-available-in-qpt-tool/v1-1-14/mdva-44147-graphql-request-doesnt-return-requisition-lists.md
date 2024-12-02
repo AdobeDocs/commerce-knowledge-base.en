@@ -46,7 +46,7 @@ GraphQL request doesn't return Requisition Lists.
       </code>
       </pre>
 
-1. Use the following query to retrieve all the Requisition Lists from the customer. Use the **Authorization** header with the value `Bearer <customer_token>`. Refer to the [Customer Query](https://developer.adobe.com/commerce/webapi/graphql/queries/customer.html) article in our developer documentation for more information.
+1. Use the following query to retrieve all the Requisition Lists from the customer. Use the **Authorization** header with the value `Bearer <customer_token>`. Refer to the [Customer Query](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/customer/) article in our developer documentation for more information.
 
     Request:
 
