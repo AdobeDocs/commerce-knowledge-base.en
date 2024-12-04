@@ -11,8 +11,6 @@ breadcrumb-title: Commerce KB
   * Site-wide Analysis tool {#site-wide-analysis-tool}
     * [Site-Wide Analysis Tool by Adobe: overview](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
     * [Adobe Commerce Site-Wide Analysis Tool Report FAQ](/help/support-tools/site-wide-analysis-tool/swat-faq.md)
-  * Observation for Adobe Commerce {#observation}
-    * [Observation for Adobe Commerce overview](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
   * Managed alerts on Adobe Commerce {#managed-alerts}
     * [Managed alerts on Adobe Commerce: Redis memory critical alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
     * [Managed alerts for Adobe Commerce: Disk warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
