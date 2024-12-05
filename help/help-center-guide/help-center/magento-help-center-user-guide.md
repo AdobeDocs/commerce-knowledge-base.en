@@ -84,7 +84,7 @@ Once successfully signed in as the account owner or Shared Access user, you may 
 >
 >You may submit your support case if the following statements are true: 
 >
->* The organization in question is named in the left column and ends in [!DNL Commerce]. Your issue is related to that organization or an account associated with it.
+>* The organization in question is named in the left column and ends in [(!DNL Commerce)]. Your issue is related to that organization or an account associated with it.
 >* Your issue is that you can't log in to the Marketplace account or that you have a question about deploying an extension.
 >* Your issue isn't solely about requesting a refund for your Marketplace purchase(s).
 >
