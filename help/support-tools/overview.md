@@ -15,7 +15,7 @@ Adobe Commerce offers a variety of support tools that help and empower you to im
 
 * Observation for Adobe Commerce
 
-  * [Observation for Adobe Commerce overview](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
+  * [Observation for Adobe Commerce overview](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/observation-for-adobe-commerce/intro)
 
 * Managed alerts on Adobe Commerce
   * [Managed alerts on Adobe Commerce: Redis memory critical alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
