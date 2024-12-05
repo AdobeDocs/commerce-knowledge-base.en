@@ -28,6 +28,3 @@ To access and log in to the New Relic Observation for Adobe Commerce nerdlet:
     * The second graph shows **vCPU tier view over timeline (need to select a timeline GREATER than 24 hours but not greater than 2 weeks)**.
     * The third graph shows the **vCPU tier view over timeline BY NODE, should look at timeline LESS than 24 hours**.
 
-## Related reading
-
-* [Observation for Adobe Commerce overview](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md) in our support knowledge base.
