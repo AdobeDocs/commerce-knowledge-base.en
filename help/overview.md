@@ -109,7 +109,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-61553-cart-price-rule-discounts-are-incorrectly-calculated-when-multiple-discounts-with-different-priorities-are-applied">ACSD-61553: Cart Price Rule is incorrectly calculated when multiple discounts with different priorities are applied:</a> The ACSD-61553 patch fixes the issue where the Cart Price Rule is incorrectly calculated when multiple discounts with different priorities are applied. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.53 is installed.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-61553-cart-price-rule-discounts-are-incorrectly-calculated-when-multiple-discounts-with-different-priorities-are-applied">ACSD-61553: [!UICONTROL Cart Price Rule] is incorrectly calculated when multiple discounts with different priorities are applied:</a> The ACSD-61553 patch fixes the issue where the [!UICONTROL Cart Price Rule] is incorrectly calculated when multiple discounts with different priorities are applied. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.53 is installed.
     </td>
     <td>New article </td>
     <td>December 5, 2024</td>
