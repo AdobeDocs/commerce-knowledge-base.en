@@ -77,7 +77,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Cause
 
-A class from Adobe Commerce 1 codebase could not be found in Adobe Commerce 2 codebase during the [EAV migration step](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) in our developer documentation. In most cases, the missing class belongs to an [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension).
+A class from Adobe Commerce 1 codebase could not be found in Adobe Commerce 2 codebase during the [EAV migration step](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) in our developer documentation. In most cases, the missing class belongs to an [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#extension).
 
 ### Possible solutions
 
