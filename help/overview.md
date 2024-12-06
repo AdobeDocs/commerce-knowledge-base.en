@@ -45,7 +45,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25321">Security Scan Tool returns "APSByy-xx security updates available" even if the patch is already applied:</a> The Security Scan Tool reports APSByy-xx security updates available for Adobe Commerce and Magento Open Source even though you have already applied the patch. You may disregard this notification.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25321">[!DNL Security Scan Tool] returns "APSByy-xx security updates available" even if the patch is already applied:</a> The [!DNL Security Scan Tool] reports APSByy-xx security updates available for Adobe Commerce and Magento Open Source even though you have already applied the patch. You may disregard this notification.
     </td>
     <td>New article </td>
     <td>December 5, 2024</td>
