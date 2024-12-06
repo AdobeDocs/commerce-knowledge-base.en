@@ -69,7 +69,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-61199-cms-page-hierarchy-tab-doesnt-display-proper-tree-structure">ACSD-61199: CMS page's Hierarchy tab doesn't display proper tree structure:</a> The ACSD-61199 patch fixes the issue where the CMS page's Hierarchy tab doesn't display a proper tree structure when editing a CMS page with an existing Hierarchy. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.54 is installed.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-61199-cms-page-hierarchy-tab-doesnt-display-proper-tree-structure">ACSD-61199: CMS page's [!UICONTROL Hierarchy] tab doesn't display proper tree structure:</a> The ACSD-61199 patch fixes the issue where the CMS page's [!UICONTROL Hierarchy] tab doesn't display a proper tree structure when editing a CMS page with an existing Hierarchy. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.54 is installed.
     </td>
     <td>New article </td>
     <td>December 5, 2024</td>
