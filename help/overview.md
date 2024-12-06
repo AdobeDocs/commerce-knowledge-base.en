@@ -85,7 +85,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-61522-email-in-name-fields-sends-invalid-order-confirmations">ACSD-61522: Email addresses in First and Last Name fields send invalid order confirmations:</a> The ACSD-61522 patch fixes the issue where it is possible to enter email addresses into a guest customer's First Name and Last Name fields, leading to invalid order confirmation emails being sent. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.54 is installed.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-61522-email-in-name-fields-sends-invalid-order-confirmations">ACSD-61522: Email addresses in [!UICONTROL First] and [!UICONTROL Last Name] fields send invalid order confirmations:</a> The ACSD-61522 patch fixes the issue where it is possible to enter email addresses into a guest customer's [!UICONTROL First Name] and [!UICONTROL Last Name] fields, leading to invalid order confirmation emails being sent. This patch is available when the [!DNL Quality Patches Tool (QPT)] 1.1.54 is installed.
     </td>
     <td>New article </td>
     <td>December 5, 2024</td>
