@@ -37,7 +37,7 @@ The information in this Knowledge Base is designed as complementary to [Adobe Co
 
   <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25301">Resolve New Relic agent issues with PHP 8.2 to 8.3 upgrade in Adobe Commerce:</a> When you upgrade PHP from version 8.2 to 8.3, you might notice that the New Relic agent stops working in your Adobe Commerce environment. This issue has been observed in staging and production environments. In this article, you'll find steps to troubleshoot and resolve this issue.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25301">Resolve [!DNL New Relic] agent issues with PHP 8.2 to 8.3 upgrade in Adobe Commerce:</a> When you upgrade PHP from version 8.2 to 8.3, you might notice that the [!DNL New Relic] agent stops working in your Adobe Commerce environment. This issue has been observed in staging and production environments. In this article, you'll find steps to troubleshoot and resolve this issue.
     </td>
     <td>New article </td>
     <td>December 5, 2024</td>
