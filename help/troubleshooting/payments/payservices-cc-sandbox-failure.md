@@ -11,7 +11,6 @@ This article explains why a test credit card fails in a Sandbox environment with
 
 ## Affected products and versions
 
-
 * Adobe Commerce 2.4.0 - 2.4.4 , all deployment options, with [Payment Services](https://marketplace.magento.com/magento-payment-services.html)
 
 ## Issue
