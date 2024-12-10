@@ -78,6 +78,18 @@ To sign in to the Adobe Experience League Support, follow these steps:
 
 Once successfully signed in as the account owner or Shared Access user, you may submit a support case using the Adobe Experience League homepage, your Adobe Commerce account page, and your Adobe Commerce Cloud account page.
 
+>[!NOTE]
+>
+>Support requests for the Adobe Commerce Marketplace team cannot be submitted through Experience League, as their support system operates on a separate platform that is not integrated with Experience League.
+>
+>You may submit your support case if the following statements are true: 
+>
+>* The organization in question is named in the left column and ends in ([!DNL Commerce]). Your issue is related to that organization or an account associated with it.
+>* Your issue is that you can't log in to the Marketplace account or that you have a question about deploying an extension.
+>* Your issue isn't solely about requesting a refund for your Marketplace purchase(s).
+>
+>For issues relating to publishing your extension, having trouble purchasing, or requesting a refund on the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), you must contact the [!DNL Commerce Marketplace] team directly by visiting https://commercemarketplace.adobe.com/. Navigate to the bottom of the page and click **[!UICONTROL Contact Us]**, which will open a form to submit a Marketplace support ticket.
+
 #### Adobe Experience League start page {#experience-league-start-page}
 
 To submit a new support case using the start page of Adobe Experience League, follow these steps:
