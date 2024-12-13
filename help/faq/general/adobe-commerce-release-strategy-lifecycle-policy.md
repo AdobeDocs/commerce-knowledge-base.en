@@ -204,7 +204,7 @@ Adobe does not provide support for third-party technologies that have reached en
 <td style="width: 96px;">[!DNL MariaDB] 10.6, EOS - July, 2026<sup>2</sup></td>
 <td style="width: 108px;">[!DNL Composer] 2.8, EOS – expected in 2026<sup>3</sup></td>
 <td style="width: 126px;">[!DNL OpenSearch] 1.3, EOS expected in 2025 – [!DNL OpenSearch] 2, EOS expected in 2026<sup>4</sup></td>
-<td style="width: 86.2px;">[!DNL Redis] 7.4, EOS – expected in 2026</td>
+<td style="width: 86.2px;">[!DNL Redis] 7.2, EOS – expected in 2026</td>
 <td style="width: 96px;">[!DNL RabbitMQ] 3.9, EOL</td>
 </tr>
 <tr>
@@ -213,7 +213,7 @@ Adobe does not provide support for third-party technologies that have reached en
 <td style="width: 96px;">[!DNL MariaDB] 10.6, EOS - July, 2026<sup>2</sup></td>
 <td style="width: 108px;">[!DNL Composer] 2.8, EOS – expected in 2026<sup>3</sup></td>
 <td style="width: 126px;">[!DNL OpenSearch] 1.3, EOS expected in 2025 – [!DNL OpenSearch] 2, EOS expected in 2026<sup>4</sup></td>
-<td style="width: 86.2px;">[!DNL Redis] 7.4, EOS – expected in 2026</td>
+<td style="width: 86.2px;">[!DNL Redis] 7.2, EOS – expected in 2026</td>
 <td style="width: 96px;">[!DNL RabbitMQ] 3.13 EOS - December 30, 2027</td>
 </tr>
 </tbody>
