@@ -1,0 +1,35 @@
+# Troubleshooting "OpenSearch Search Engine Doesn't Exist" Error
+
+## Introduction
+Know how to address the "OpenSearch Search Engine Doesn't Exist" error encountered in Adobe Commerce Cloud versions 2.4.4-2.4.5. Follow this guide to update the search engine configuration and ensure smooth search engine functionality.
+
+## Description
+Diagnose and resolve the `opensearch search engine doesn't exist` error while using Adobe Commerce Cloud with OpenSearch configurations.
+
+## Environment
+- Affected Products: Adobe Commerce Cloud  
+- Versions: 2.4.4-2.4.5  
+
+## Issue Description
+When the search engine is configured as OpenSearch, the application throws the following error in the log file: [opensearch-search-engine-error]([2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] [])
+
+## Steps to Reproduce
+1. Open the `.magento.env.yaml` file located in your project directory.
+2. Locate the `SEARCH_CONFIGURATION` variable.
+3. Update the variable to specify `elasticsearch7` as the search engine.
+4. Save the file and redeploy your environment.
+5. Verify that the search engine is functioning correctly without errors.
+
+## Resolution
+To resolve this issue, update the `SEARCH_CONFIGURATION` variable in the `.magento.env.yaml` file to explicitly set the engine as `elasticsearch7`.
+
+### Related Documentation
+- [Cannot Change Search Engine in Magento Admin](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cannot-change-search-engine-using-magento-admin-search-engine-menu-is-inaccessible#adobe-commerce-on-cloud-infrastructure)
+- [Locked Fields in Magento Admin](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/locked-fields-in-magento-admin)
+- [Search Engine Shown as Elasticsearch Despite OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search)
+
+## Cause
+In Adobe Commerce versions 2.4.4 and 2.4.5, the application is designed to use `elasticsearch7` as the default search engine, as OpenSearch is not fully supported as a selectable option in these versions.
+
+Starting from version 2.4.6, Adobe Commerce, in non-Cloud environments, allows configuring the search engine via the Admin Panel. However, in Cloud environments, the search engine is locked and controlled through configuration files.
+
