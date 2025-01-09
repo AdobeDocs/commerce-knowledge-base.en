@@ -32,7 +32,7 @@ Note that the log shown in the UI should not be treated as the source of truth, 
 1. Run the following command:
 
     ```bash
-    magento-cloud activity -p <project id> -e <environment>
+    magento-cloud act -p <project id> -e <environment>
     ```
 
 1. It will return an output similar to the following:
