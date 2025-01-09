@@ -1015,7 +1015,6 @@ breadcrumb-title: Commerce KB
   * [How to request temporary Adobe Commerce on cloud infrastructure upsize](/help/how-to/general/how-to-request-temporary-magento-upsize.md)
   * [View environment vCPU tier in your cluster on Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
   * [Adobe Commerce on cloud infrastructure: Check host's CPU configuration](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
-  * [Change account owner (access credentials via API tokens) for Fastly on Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md)
   * [Adobe Commerce on cloud: change authentication keys and redeploy](/help/how-to/general/redeploy-with-another-key.md)
   * [How to create a "scrubbed" dump when requested by support agent](/help/how-to/general/create-dump-for-support.md)
   * [MBI: Creating and editing advanced calculated columns](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)

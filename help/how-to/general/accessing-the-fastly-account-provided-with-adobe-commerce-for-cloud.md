@@ -16,6 +16,3 @@ Please refer to the [Get Fastly Credentials](https://experienceleague.adobe.com/
 
 Please refer to the [Test the Fastly Credentials](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) section in our developer documentation.
 
-## Related reading
-
-[Change account owner (access credentials via API tokens) for Fastly on Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) in our support knowledge base.
