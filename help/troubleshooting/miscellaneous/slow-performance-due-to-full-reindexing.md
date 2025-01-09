@@ -53,3 +53,4 @@ Run reindexing only when necessary. For steps, review [Configure Indexers](https
 
 * [Indexing Overview: How to reindex](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex) in our developer documentation.
 * [Invalidated cache causes response time degradation](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) in our support knowledge base.
+
