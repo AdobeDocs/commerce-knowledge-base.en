@@ -31,7 +31,7 @@ GraphQL request doesn't return Requisition Lists.
 
 1. Go to **Store** > **Settings** > **Configuration** > **General** > **B2B Features** and enable Requisition List.
 1. Log in as a customer and add a product to the [Requisition List](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/requisition-lists).
-1. Create a [Customer Token](https://developer.adobe.com/commerce/webapi/graphql/mutations/generate-customer-token.html).
+1. Create a [Customer Token](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/generate-token/).
 
     <pre>
     <code class="language-graphql">
