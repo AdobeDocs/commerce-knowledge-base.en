@@ -304,6 +304,8 @@ Users who have been provided with shared access cannot transfer or grant such ac
 
 See the [Share a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) section of Adobe Commerce Getting Started Guide for detailed steps on setting up a shared account.
 
+>[!NOTE] The user must have an existing account before they can be granted Shared Access - refer to [Create a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) for more details.
+
 After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Adobe Commerce account page.
 
 ![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
