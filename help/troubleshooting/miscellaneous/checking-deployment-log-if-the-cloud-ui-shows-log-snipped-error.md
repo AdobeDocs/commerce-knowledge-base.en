@@ -29,13 +29,17 @@ Note that the log shown in the UI should not be treated as the source of truth, 
 ## Solution
 
 1. Make sure that you have [Magento Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) installed in your local environment.
-1. Run the following command:
+1. You can run either of the following commands:
 
     ```bash
-    magento-cloud activity -p <project id> -e <environment>
+    magento-cloud act -p <project id> -e <environment>
+    ```
+    
+    ```bash
+    magento-cloud activity:list -p <project id> -e <environment>
     ```
 
-1. It will return an output similar to the following:
+1. They will return an output similar to the following:
 
     ```bash
     Activities on the project <project name> (project id), environment <environment>:
