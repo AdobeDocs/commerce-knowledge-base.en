@@ -8,9 +8,16 @@ exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
 ---
 # [!DNL FedEx] shipping method integration migration from SOAP to RESTful API
 
-This article provides a patch to resolve issues with the [!DNL FedEx] shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
+>[!WARNING]
+>
+>The previously provided patch does not fully resolve the issue. Use the [ACSD-61622](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response#apply-the-patch) patch from the [!DNL Quality Patches Tool] (QPT) 1.1.57 release instead.
+>
+>Please note that before installing the new patch, you need to uninstall the previous patch provided in this article. For instructions on uninstalling patches, refer to [Revert a Custom Patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) in our user guide.
 
-[!DNL FedEx Web Services] tracking, Address Validation, and Validate Postal Codes Web Services Definition Languages (WSDLS) will be retired on May 15, 2024. The SOAP based [!DNL FedEx Web Services] is in development containment and has been replaced with [!DNL FedEx] RESTFUL APIs. To learn more, refer to [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
+
+This article provides a patch to resolve issues with the [!DNL FedEx] shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4-p4 - 2.4.6-pX. 
+
+[!DNL FedEx Web Services] tracking, Address Validation, and Validate Postal Codes Web Services Definition Languages (WSDLS) was retired on May 15, 2024. The SOAP based [!DNL FedEx Web Services] is in development containment and has been replaced with [!DNL FedEx] RESTFUL APIs. To learn more, refer to [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
 
 This change impacts our current [!DNL FedEx] shipping method integration implementation in Adobe Commerce and requires we fix our current implementation and migrate from deprecated SOAP APIs to the latest [!DNL FedEx] RESTFUL APIs.
 
