@@ -10,7 +10,7 @@ exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
 
 >[!WARNING]
 >
->The previously provided patch does not fully resolve the issue. Use the [ACSD-61622](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response#apply-the-patch) patch from the [!DNL Quality Patches Tool] (QPT) 1.1.57 release instead.
+>Use the [ACSD-61622](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response#apply-the-patch) patch from the [!DNL Quality Patches Tool] (QPT) 1.1.57 release instead of the previously provided patch.
 >
 >Please note that before installing the new patch, you need to uninstall the previous patch provided in this article. For instructions on uninstalling patches, refer to [Revert a Custom Patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) in our user guide.
 
