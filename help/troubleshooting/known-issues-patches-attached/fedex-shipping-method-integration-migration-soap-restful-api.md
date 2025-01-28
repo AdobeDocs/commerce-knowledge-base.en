@@ -10,9 +10,13 @@ exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
 
 >[!WARNING]
 >
->Use the [ACSD-61622](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response#apply-the-patch) patch from the [!DNL Quality Patches Tool] (QPT) 1.1.57 release instead of the previously provided patch.
+>Use the ACSD-61622 patch from [!DNL Quality Patches Tool] (QPT) 1.1.57 release instead of the previously provided patch. The new patch is compatible with Adobe Commerce versions (all deployment methods) 2.4.6-p1 - 2.4.6-p8. It might become applicable to other versions with new [!DNL Quality Patches Tool] releases. 
 >
->Please note that before installing the new patch, you need to uninstall the previous patch provided in this article. For instructions on uninstalling patches, refer to [Revert a Custom Patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) in our user guide.
+>For more information, refer to the [ACSD-61622 patch article](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response#apply-the-patch) in our Adobe Commerce Tools guide.
+
+>[!WARNING]
+>
+>Before installing the new patch, you need to uninstall the previous patch provided in this article. For instructions on uninstalling patches, refer to [Revert a Custom Patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) in our user guide.
 
 
 This article provides a patch to resolve issues with the [!DNL FedEx] shipping method integration migration from SOAP to RESTful API for Adobe Commerce 2.4.4-p4 - 2.4.6-pX. 
