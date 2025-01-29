@@ -12,7 +12,7 @@ exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
 >
 >Use the ACSD-61622 patch from [!DNL Quality Patches Tool] (QPT) 1.1.57 release instead of the previously provided patch. The new patch is compatible with Adobe Commerce versions (all deployment methods) 2.4.6-p1 - 2.4.6-p8. It might become applicable to other versions with new [!DNL Quality Patches Tool] releases. 
 >
->For more information, refer to the [ACSD-61622 patch article](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response#apply-the-patch) in our Adobe Commerce Tools guide.
+>For more information, refer to the [ACSD-61622 patch article](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response) in our Adobe Commerce Tools guide.
 
 >[!WARNING]
 >
