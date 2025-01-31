@@ -14,7 +14,7 @@ This article provides solutions for the Adobe Commerce issue where your catalog 
 * Adobe Commerce 2.4.x with Live Search extension installed
 * Adobe Commerce 2.4.4 with Live Search extension installed
 
-<---- not clear to me if issue in MSKB-2992 is specific to 2.4.4 or can be on any 2.4.x version --->
+<!---- not clear to me if issue in MSKB-2992 is specific to 2.4.4 or can be on any 2.4.x version ---->
 
 ## Issue
 
