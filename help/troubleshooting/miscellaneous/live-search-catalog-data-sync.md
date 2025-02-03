@@ -134,15 +134,15 @@ bin/magento saas:resync --feed productattributes
 Run the following commands to resync the feeds:
 
 ```
-bin/magento saas:resync --feed productattributes
-bin/magento saas:resync --feed products
-bin/magento saas:resync --feed scopesCustomerGroup
-bin/magento saas:resync --feed scopesWebsite
-bin/magento saas:resync --feed prices
-bin/magento saas:resync --feed productOverrides
-bin/magento saas:resync --feed variants
-bin/magento saas:resync --feed categories
-bin/magento saas:resync --feed categoryPermissions
+bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed products --cleanup-feed
+bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
+bin/magento saas:resync --feed scopesWebsite --cleanup-feed
+bin/magento saas:resync --feed prices --cleanup-feed
+bin/magento saas:resync --feed productOverrides --cleanup-feed
+bin/magento saas:resync --feed variants --cleanup-feed
+bin/magento saas:resync --feed categories --cleanup-feed
+bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
 [Submit a support request](https://experienceleague.adobe.com/home?support-tab=home#support) to request reindex of the Live Search index. In the issue description, include your Data Space/Environment ID found in the admin panel under **[!UICONTROL System]** >  **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**.
