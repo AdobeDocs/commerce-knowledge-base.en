@@ -17,7 +17,7 @@ This article provides solutions for the Adobe Commerce issue where your catalog 
 
 Your catalog data is not synchronized correctly, or a new product was added but does not appear in search results. You may also get the following error in the `var/log/exception.log`:
 
-**Magento_LiveSearch: An error occurred in search backend. {"result":{"errors":[{"message":"Exception while fetching data (/productSearch) : No index was found for this request"}]}}**
+`Magento_LiveSearch: An error occurred in search backend. {"result":{"errors":[{"message":"Exception while fetching data (/productSearch) : No index was found for this request"}]}}`
 
 >[!NOTE]
 >
