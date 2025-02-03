@@ -15,7 +15,9 @@ This article provides solutions for the Adobe Commerce issue where your catalog 
 
 ## Issue
 
-Your catalog data is not synchronized correctly, or a new product was added but does not appear in search results.
+Your catalog data is not synchronized correctly, or a new product was added but does not appear in search results. You may also get the following error in the `var/log/exception.log`:
+
+`Magento_LiveSearch: An error occurred in search backend. {"result":{"errors":[{"message":"Exception while fetching data (/productSearch) : No index was found for this request"}]}}`
 
 >[!NOTE]
 >
@@ -128,6 +130,22 @@ If you see the correct data in `cde_product_attributes_feed`:
 bin/magento saas:resync --feed products
 bin/magento saas:resync --feed productattributes
 ```
+
+Run the following commands to resync the feeds:
+
+```
+bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed products --cleanup-feed
+bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
+bin/magento saas:resync --feed scopesWebsite --cleanup-feed
+bin/magento saas:resync --feed prices --cleanup-feed
+bin/magento saas:resync --feed productOverrides --cleanup-feed
+bin/magento saas:resync --feed variants --cleanup-feed
+bin/magento saas:resync --feed categories --cleanup-feed
+bin/magento saas:resync --feed categoryPermissions --cleanup-feed
+```
+
+[Submit a support request](https://experienceleague.adobe.com/home?support-tab=home#support) to request reindex of the Live Search index. In the issue description, include your Data Space/Environment ID found in the admin panel under **[!UICONTROL System]** >  **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**.
 
 ## Related reading
 
