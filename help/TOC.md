@@ -886,7 +886,6 @@ breadcrumb-title: Commerce KB
     * [Magento Order Management System (OMS) for Adobe Commerce times out](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
     * [Drop shipping picks up wrong address](/help/troubleshooting/miscellaneous/drop-shipping-picks-up-wrong-address.md)
     * [Error purging cache in Commerce Admin](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
-    * [Emails not sent when SendGrid credits exceeded on Adobe Commerce](/help/troubleshooting/miscellaneous/emails-not-being-sent-sendgrid-credits-exceeded.md)
     * [Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
     * [Adobe Commerce cloud: reindex is terminated with Killed message](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
     * [Upgrade to version 10.0 DHL schema to continue offering DHL shipping](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md)
