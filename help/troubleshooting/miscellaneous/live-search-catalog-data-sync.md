@@ -59,7 +59,13 @@ If your product data is not synced correctly for a specific SKU, do the followin
 1. Use the following [!DNL SQL] query and verify that you have the data you expect in the `feed_data` column. Also, make a note of the `modified_at` timestamp.
 
     ```sql
-    select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+    SELECT * FROM cde_products_feed WHERE json_extract(feed_data, '$.sku') = '<your_sku>' AND json_extract(feed_data, '$.storeViewCode') = '<your_ store_view_code>';
+    ```
+
+    For example:
+
+    ```sql
+    SELECT * FROM cde_products_feed WHERE json_extract(feed_data, '$.sku') = '24-MB04' AND json_extract(feed_data, '$.storeViewCode') = 'default';
     ```
 
 1. If you do not see the correct data, try to reindex using the following command and rerun the [!DNL SQL] query in step 1 to verify the data:
