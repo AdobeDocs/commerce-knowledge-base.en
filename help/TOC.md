@@ -817,7 +817,6 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce 2.4.0 known issue: Create New Order buttons missing](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
     * [laminas/laminas-escaper 2.7.1 causes error Adobe Commerce frontend and Admin pages](/help/troubleshooting/miscellaneous/laminas-escaper-2-7-1-causes-error-adobe-commerce-frontend-and-admin-pages.md)
     * [403 errors when accessing Site-Wide Analysis Tool on Adobe Commerce](/help/troubleshooting/miscellaneous/403-errors-when-accessing-site-wide-analysis-tool-on-magento.md)
-    * [Advanced Reporting troubleshooter for Adobe Commerce](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
     * [Common PHP Fatal Errors and solutions](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
     * [Composer update fail on Adobe Commerce: Incompatible argument type](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
     * [Cannot delete the source or change its code](/help/troubleshooting/miscellaneous/cannot-delete-the-source-or-change-its-code.md)
