@@ -952,7 +952,6 @@ breadcrumb-title: Commerce KB
     * [Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [Elasticsearch issues after Adobe Commerce cloud infrastructure 2.3.1+ upgrade](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-    * [Elasticsearch in Adobe Commerce troubleshooter](/help/troubleshooting/elasticsearch/elasticsearch-in-magento-troubleshooter.md)
     * [Ensure Elasticsearch is installed properly](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md)
     * [Elasticsearch 5 is configured, but search page does not load with "Fielddata is disabled..." error](/help/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled-error.md)
     * [Elasticsearch Index Status is 'yellow' or 'red'](/help/troubleshooting/elasticsearch/elasticsearch-index-status-is-yellow-or-red.md)
