@@ -1,13 +1,13 @@
 ---
 title: Security update available for Adobe Commerce - [!DNL APSB25-08]
 promoted: true
-description: Apply an Isolated patch to remediate [!DNL critical, important, and moderate vulnerabilities] for Adobe Commerce 2.4.8-beta2, 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, and earlier versions, and Adobe Commerce B2B 1.5.0 and earlier.
+description: Apply an Isolated patch to remediate [!DNL critical, important, and moderate vulnerabilities] for both Adobe Commerce and Magento Open Source 2.4.8-beta2, 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, and earlier versions.
 feature: Compliance, Security
 role: Developer
 ---
 # Security update available for Adobe Commerce - [!DNL APSB25-08]
 
-On February 11, 2025, Adobe released a regularly scheduled security update for Adobe Commerce. This update resolves [[!DNL critical, important], and [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html) vulnerabilities. Successful exploitation of these vulnerabilities could lead to arbitrary code execution, security feature bypass, and privilege escalation. More information can be found in the [Adobe Security Bulletin ([!DNL APSB25-08]) here](https://helpx.adobe.com/security/products/magento/apsb25-08.html).  
+On February 11, 2025, Adobe released a regularly scheduled security update for Adobe Commerce and Magento Open Source. This update resolves [[!DNL critical, important], and [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html) vulnerabilities. Successful exploitation of these vulnerabilities could lead to arbitrary code execution, security feature bypass, and privilege escalation. More information can be found in the [Adobe Security Bulletin ([!DNL APSB25-08]) here](https://helpx.adobe.com/security/products/magento/apsb25-08.html).  
 
 >[!NOTE]
 >
@@ -21,15 +21,13 @@ On February 11, 2025, Adobe released a regularly scheduled security update for�
  
 ## Affected products and versions
 
-Adobe Commerce on Cloud infrastructure and Adobe Commerce on-premises:
+Adobe Commerce on Cloud infrastructure, Adobe Commerce on-premises, and Magento Open Source:
 
 * 2.4.8-beta2 and earlier
 * 2.4.7-p4 and earlier
 * 2.4.6-p9 and earlier
 * 2.4.5-p11 and earlier
 * 2.4.4-p12 and earlier
-
-Adobe Commerce B2B 1.5.0 and earlier
 
 ## Solution for Adobe Commerce on Cloud and Adobe Commerce on-premises Software
 
