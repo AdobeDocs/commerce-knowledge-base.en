@@ -71,4 +71,4 @@ Considering that it isn't possible to easily check if the issue was patched, you
 Security updates available for Adobe Commerce:
 
 * [Adobe Security Bulletin ([!DNL APSB25-08])](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [The latest Security updates available for Adobe Commerce)](https://helpx.adobe.com/security/products/magento.html)
+* [The latest Security updates available for Adobe Commerce](https://helpx.adobe.com/security/products/magento.html)
