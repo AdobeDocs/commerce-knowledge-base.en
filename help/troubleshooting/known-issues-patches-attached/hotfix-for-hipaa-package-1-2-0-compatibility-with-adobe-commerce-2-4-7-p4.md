@@ -1,18 +1,23 @@
 ---
 title: Adobe Commerce 2.4.7-p4 [!DNL HIPAA] 1.2.0 compatibility package Hotfix
 description: 'This article provides a hotfix to add compatibility for a new [!DNL HIPAA] package 1.2.0 with Adobe Commerce on Cloud infrastructure 2.4.7-p4'
-feature: Install, Upgrade
+feature: Install, Upgrade, Security, Compliance
 role: Developer
 ---
 # Adobe Commerce 2.4.7-p4 [!DNL HIPAA] 1.2.0 compatibility package Hotfix
 
-This article provides a hotfix to add compatibility for a new [!DNL HIPAA] package 1.2.0 with Adobe Commerce on Cloud infrastructure 2.4.7-p4.
+This article provides a hotfix to add compatibility for a new **[!DNL HIPAA] package 1.2.0** with Adobe Commerce on Cloud infrastructure 2.4.7-p4.
 
 The issue will be fixed in the scope of the version 2.4.7-p5 release.
 
 ## Affected versions and products
 
 Adobe Commerce on Cloud infrastructure 2.4.7-p4 and earlier
+
+## Prerequisites
+
+* Adobe has provisioned your Adobe Commerce account to access the **[!DNL HIPAA Ready]** extension. See [[!DNL HIPAA] readiness on Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) for more details in our **Adobe Commerce: Getting Started Guide**.
+* Access to [repo.magento.com](https://repo.magento.com) to install the extension. For key generation and obtaining the necessary rights, see [Get your authentication keys](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) in our **Adobe Commerce: Installation Guide**.
 
 ## Issue
 
