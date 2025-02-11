@@ -1,13 +1,13 @@
 ---
 title: Security update available for Adobe Commerce - [!DNL APSB25-08]
 promoted: true
-description: Apply an Isolated patch to remediate [!DNL critical, important, and moderate vulnerabilities] for both Adobe Commerce and Magento Open Source 2.4.7-beta1, 2.4.7-p3, 2.4.6-p8, 2.4.5-p10, 2.4.4-p11, and earlier versions.
+description: Apply an Isolated patch to remediate [!DNL critical, important, and moderate vulnerabilities] for Adobe Commerce 2.4.8-beta2, 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, and earlier versions.
 feature: Compliance, Security
 role: Developer
 ---
 # Security update available for Adobe Commerce - [!DNL APSB25-08]
 
-On February 11, 2025, Adobe released a regularly scheduled security update for Adobe Commerce and Magento Open Source. This update resolves [[!DNL critical, important], and [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html) vulnerabilities. Successful exploitation of these vulnerabilities could lead to arbitrary code execution, security feature bypass, and privilege escalation. More information can be found in the [Adobe Security Bulletin ([!DNL APSB25-08]) here](https://helpx.adobe.com/security/products/magento/apsb25-08.html).  
+On February 11, 2025, Adobe released a regularly scheduled security update for Adobe Commerce and Magento Open Source. This update resolves [[!DNL critical, important], and [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html) vulnerabilities. Successful exploitation of these vulnerabilities could lead to arbitrary code execution, security feature bypass, and privilege escalation. More information can be found in the [Adobe Security Bulletin ([!DNL APSB25-08]) here](https://helpx.adobe.com/security/products/magento/apsb25-08.html).  
 
 >[!NOTE]
 >
@@ -23,21 +23,40 @@ On February 11, 2025, Adobe released a regularly scheduled security update for�
 
 Adobe Commerce on Cloud infrastructure, Adobe Commerce on-premises, and Magento Open Source:
 
-* 2.4.7-beta1 and earlier
-* 2.4.7-p3 and earlier
-* 2.4.6-p8 and earlier
-* 2.4.5-p10 and earlier
-* 2.4.4-p11 and earlier
+* 2.4.8-beta2 and earlier
+* 2.4.7-p4 and earlier
+* 2.4.6-p9 and earlier
+* 2.4.5-p11 and earlier
+* 2.4.4-p12 and earlier
 
-## Solution for Adobe Commerce on Cloud and Adobe Commerce on-premises software
+## Solution for Adobe Commerce on Cloud and Adobe Commerce on-premises Software
 
-To help resolve the vulnerability for the affected products and versions, you must apply the [!DNL CVE-2025-24434] Isolated patch.
+To help resolve the vulnerability for the affected products and versions, you must apply the [!DNL CVE-2025-24434] Isolated patch, depending on your Adobe Commerce/Magento Open Source version.
 
 ## Isolated Patch Details
 
-Use the following attached Isolated patch:
+Use the following attached Isolated patches, depending on your Adobe Commerce/Magento Open Source version:
 
-[vuln-28982-composer-patch.zip](assets/vuln-28982-composer-patch.zip)
+### For version 2.4.8-beta1:
+
+* [vuln-28982-2-4-8x-v2-composer-patch.zip](assets/vuln-28982-2-4-8x-v2-composer-patch.zip)
+
+### For versions 2.4.7, 2.4.7-p1, 2.4.7-p2, 2.4.7-p3:
+
+* [vuln-28982-2-4-7x-v2-composer-patch.zip](assets/vuln-28982-2-4-7x-v2-composer-patch.zip)
+
+### For versions 2.4.6, 2.4.6-p1, 2.4.6-p2, 2.4.6-p3, 2.4.6-p4, 2.4.6-p5, 2.4.6-p6, 2.4.6-p7, 2.4.6-p8:
+
+* [vuln-28982-2-4-6x-v2-composer-patch.zip](assets/vuln-28982-2-4-6x-v2-composer-patch.zip)
+
+### For versions 2.4.5, 2.4.5-p1, 2.4.5-p2, 2.4.5-p3, 2.4.5-p4, 2.4.5-p5, 2.4.5-p6, 2.4.5-p7, 2.4.5-p8, 2.4.5-p9, 2.4.5-p10:
+
+* [vuln-28982-2-4-5x-v2-composer-patch.zip](assets/vuln-28982-2-4-5x-v2-composer-patch.zip)
+
+### For versions 2.4.4, 2.4.4-p1,, 2.4.4-p2, 2.4.4-p3, 2.4.4-p4, 2.4.4-p5, 2.4.4-p6, 2.4.4-p7, 2.4.4-p8, 2.4.4-p9, 2.4.4-p10, 2.4.4-p11:
+
+* [vuln-28982-2-4-4x-v2-composer-patch.zip](assets/vuln-28982-2-4-4x-v2-composer-patch.zip)
+
 
 ## How to apply the Isolated patch
 
@@ -71,4 +90,4 @@ Considering that it isn't possible to easily check if the issue was patched, you
 Security updates available for Adobe Commerce:
 
 * [Adobe Security Bulletin ([!DNL APSB25-08])](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [The latest Security updates available for Adobe Commerce](https://helpx.adobe.com/security/products/magento.html)
+* [The latest Security updates available for Adobe Commerce)](https://helpx.adobe.com/security/products/magento.html)
