@@ -1,7 +1,7 @@
 ---
 title: Security update available for Adobe Commerce - [!DNL APSB25-08]
 promoted: true
-description: Apply an Isolated patch to remediate [!DNL critical, important, and moderate vulnerabilities] for Adobe Commerce 2.4.8-beta2, 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, and earlier versions.
+description: Apply an Isolated patch to remediate [!DNL critical, important, and moderate vulnerabilities] both Adobe Commerce and Magento Open Source  2.4.8-beta2, 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, and earlier versions.
 feature: Compliance, Security
 role: Developer
 ---
