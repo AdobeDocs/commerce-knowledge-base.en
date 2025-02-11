@@ -1,7 +1,7 @@
 ---
 title: Security update available for Adobe Commerce - [!DNL APSB25-08]
 promoted: true
-description: Apply an Isolated patch to remediate [!DNL critical, important, and moderate vulnerabilities] for Adobe Commerce 2.4.8-beta2, 2.4.7-p4, 2.4.6-p9, 2.4.5-p11, 2.4.4-p12, and earlier versions.
+description: Apply an Isolated patch to remediate [!DNL critical, important, and moderate vulnerabilities] for Adobe Commerce 2.4.8-beta1, 2.4.7-p3, 2.4.6-p8, 2.4.5-p10, 2.4.4-p11, and earlier versions.
 feature: Compliance, Security
 role: Developer
 ---
@@ -23,13 +23,13 @@ On February 11, 2025, Adobe released a regularly scheduled security update for�
 
 Adobe Commerce on Cloud infrastructure, Adobe Commerce on-premises, and Magento Open Source:
 
-* 2.4.8-beta2 and earlier
-* 2.4.7-p4 and earlier
-* 2.4.6-p9 and earlier
-* 2.4.5-p11 and earlier
-* 2.4.4-p12 and earlier
+* 2.4.8-beta1 and earlier
+* 2.4.7-p3 and earlier
+* 2.4.6-p8 and earlier
+* 2.4.5-p10 and earlier
+* 2.4.4-p11 and earlier
 
-## Solution for Adobe Commerce on Cloud and Adobe Commerce on-premises Software
+## Solution for Adobe Commerce on Cloud and Adobe Commerce on-premises software
 
 To help resolve the vulnerability for the affected products and versions, you must apply the [!DNL CVE-2025-24434] Isolated patch, depending on your Adobe Commerce/Magento Open Source version.
 
