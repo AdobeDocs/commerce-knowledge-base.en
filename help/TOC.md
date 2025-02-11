@@ -767,7 +767,6 @@ breadcrumb-title: Commerce KB
     * [Login redirect when trying to login to Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [Resolve issues with encryption key](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
     * ["Updater application is not available" error](/help/troubleshooting/miscellaneous/updater-application-is-not-available-error.md)
-    * [Cannot access the correct cloud project](/help/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.md)
     * [PWA Studio: Venia GraphQL queries to Adobe Commerce produce validation errors](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
     * [Stock status incorrect after Inventory Management install](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
     * [Adobe Commerce 2.3.5 known issue: virtual product multi-ship orders](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
