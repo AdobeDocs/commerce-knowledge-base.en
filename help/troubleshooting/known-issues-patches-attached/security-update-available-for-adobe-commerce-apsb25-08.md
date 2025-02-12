@@ -30,7 +30,7 @@ Adobe Commerce on Cloud infrastructure, Adobe Commerce on-premises, and Magento 
 * 2.4.5-p10 and earlier
 * 2.4.4-p11 and earlier
 
-## Solution for Adobe Commerce on Cloud and Adobe Commerce on-premises software
+## ## Solution for Adobe Commerce on Cloud, Adobe Commerce on-premises, and Magento Open Source software
 
 To help resolve the vulnerability for the affected products and versions, you must apply the [!DNL CVE-2025-24434] Isolated patch, depending on your Adobe Commerce/Magento Open Source version.
 
