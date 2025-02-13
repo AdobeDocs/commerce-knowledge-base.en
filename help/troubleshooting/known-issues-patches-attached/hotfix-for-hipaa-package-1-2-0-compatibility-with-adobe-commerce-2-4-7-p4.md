@@ -1,8 +1,9 @@
 ---
 title: Adobe Commerce 2.4.7-p4 [!DNL HIPAA] 1.2.0 compatibility package Hotfix
-description: 'This article provides a hotfix to add compatibility for the new [!DNL HIPAA] package 1.2.0 with Adobe Commerce on Cloud infrastructure 2.4.7-p4'
+description: This article provides a hotfix to add compatibility for the new [!DNL HIPAA] package 1.2.0 with Adobe Commerce on Cloud infrastructure 2.4.7-p4
 feature: Install, Upgrade, Security, Compliance
 role: Developer
+exl-id: 59fc1216-cd5f-49e0-8942-2bc09f99a9fb
 ---
 # Adobe Commerce 2.4.7-p4 [!DNL HIPAA] 1.2.0 compatibility package Hotfix
 
