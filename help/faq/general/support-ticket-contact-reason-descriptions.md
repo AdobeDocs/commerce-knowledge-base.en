@@ -1,11 +1,11 @@
 ---
 title: Support ticket Issue Reason descriptions
-description: This article lists the support ticket **Issue Reason** field options and more detailed descriptions of each one.
+description: This article lists the support ticket **Issue Reason** field options and provides detailed descriptions of each one.
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
 ---
 # Support ticket Issue Reason descriptions
 
-This article lists the support ticket **Issue Reason** field options and more detailed descriptions of each one.
+This article lists the support ticket **Issue Reason** field options and provides detailed descriptions of each one.
 
 ## Issue Reasons
 
@@ -19,7 +19,7 @@ This article lists the support ticket **Issue Reason** field options and more de
 <tbody>
   <tr>
     <td>Security</td>
-    <td>You have uncovered a security issue to your Adobe Commerce storefront.</td>
+    You have uncovered a security issue with your Adobe Commerce storefront.</td>
   </tr>
   <tr>
     <td>Account/User/Identity Management</td>
@@ -27,7 +27,7 @@ This article lists the support ticket **Issue Reason** field options and more de
   </tr>
   <tr>
     <td>Adobe Commerce Application</td>
-    <td>You need help with your Adobe Commerce Application, including B2B, Catalog Service, [!DNL Live Search], Product Recommendations, Adobe Commerce Reporting, Adobe Payment Services, Adobe I/O Events for Adobe Commerce, etc.</td>
+    <td>You need help with your Adobe Commerce application, including B2B, Catalog Service, [!DNL Live Search], Product Recommendations, Adobe Commerce Reporting, Adobe Payment Services, Adobe I/O Events for Adobe Commerce, etc.</td>
   </tr>
   <tr>
     <td>Integrating with other Adobe Solutions</td>
@@ -35,7 +35,7 @@ This article lists the support ticket **Issue Reason** field options and more de
   </tr>
   <tr>
     <td>Installation</td>
-    <td>You need help with Installing or Upgrading Adobe Commerce.</td>
+    <td>You need help with installing or upgrading Adobe Commerce.</td>
   </tr>
   <tr>
     <td>Infrastructure Change Request</td>
@@ -43,7 +43,7 @@ This article lists the support ticket **Issue Reason** field options and more de
   </tr>
   <tr>
     <td>Infrastructure Incident</td>
-    <td>You need help with your Adobe Commerce on cloud infrastructure, such as stuck deployments, [!DNL New Relic] access, SSH/sFTP access, service upgrades ([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ], but not to include PHP), SSL certificates, etc. **(Does not apply to [!DNL Live Search])**</td>
+    <td>You need help with your Adobe Commerce on cloud infrastructure, such as stuck deployments, [!DNL New Relic] access, SSH/sFTP access, service upgrades ([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ], but not including PHP), SSL certificates, etc. **(Does not apply to [!DNL Live Search])**</td>
   </tr>  
 </tbody>
 </table>
