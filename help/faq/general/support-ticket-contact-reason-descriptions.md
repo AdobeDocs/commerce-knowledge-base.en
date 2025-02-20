@@ -23,7 +23,7 @@ This article lists the support ticket **Issue Reason** field options and provide
   </tr>
   <tr>
     <td>Account/User/Identity Management</td>
-    <td>You need help with updating the Account Ownership, troubleshooting Shared Access permissions. Does not apply to issues regarding management/obtaining [!DNL New Relic] account access or SSH/sFTP access requests.</td>
+    <td>You need help with updating the account ownership or troubleshooting shared access permissions. This doesn't apply to issues regarding the management nor obtaining of [!DNL New Relic] account access, nor SSH/sFTP access requests.</td>
   </tr>
   <tr>
     <td>Adobe Commerce Application</td>
