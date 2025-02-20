@@ -27,7 +27,7 @@ In this scenario, when additional information is needed from a customer, the fol
 * On the 1st, 3rd, & 5th day following the status being set to "Pending response", follow up notifications are sent to the customer requesting the additional information.
 * If there is no response from the customer for 6 days after the status was set to "Pending Response", the case is set to closed, and a closure notification is sent.
 
-Customers can reopen a closed case within 14 days to continue communication. Beyond 14 days, a new support case can be opened to continue communication related to a previously closed case.
+Customers can reopen a closed case on Experience League within 14 days to continue communication. Beyond 14 days, a new support case can be opened to continue communication related to a previously closed case. Note that replying to an email regarding a closed ticket will not reopen it.
 
 ### When an engineer provides a solution
 
