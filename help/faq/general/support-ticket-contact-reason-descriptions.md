@@ -23,11 +23,11 @@ This article lists the support ticket **Issue Reason** field options and more de
   </tr>
   <tr>
     <td>Account/User/Identity Management</td>
-    <td>You need help with updating the Account Ownership, troubleshooting Shared Access permissions. Does not apply to issues regarding management/obtaining New Relic account access or SSH/sFTP access requests.</td>
+    <td>You need help with updating the Account Ownership, troubleshooting Shared Access permissions. Does not apply to issues regarding management/obtaining [!DNL New Relic] account access or SSH/sFTP access requests.</td>
   </tr>
   <tr>
     <td>Adobe Commerce Application</td>
-    <td>You need help with your Adobe Commerce Application, including B2B, Catalog Service, Live Search, Product Recommendations, Adobe Commerce Reporting, Adobe Payment Services, Adobe I/O Events for Adobe Commerce, etc.</td>
+    <td>You need help with your Adobe Commerce Application, including B2B, Catalog Service, [!DNL Live Search], Product Recommendations, Adobe Commerce Reporting, Adobe Payment Services, Adobe I/O Events for Adobe Commerce, etc.</td>
   </tr>
   <tr>
     <td>Integrating with other Adobe Solutions</td>
@@ -43,7 +43,7 @@ This article lists the support ticket **Issue Reason** field options and more de
   </tr>
   <tr>
     <td>Infrastructure Incident</td>
-    <td>You need help with your Adobe Commerce on cloud infrastructure, such as stuck deployments, New Relic access, SSH/sFTP access, service upgrades (OpenSearch, MariaDB/MySQL, Redis, RabbitMQ, but not to include PHP), SSL certificates, etc. **(Does not apply to Live Search)**</td>
+    <td>You need help with your Adobe Commerce on cloud infrastructure, such as stuck deployments, [!DNL New Relic] access, SSH/sFTP access, service upgrades ([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ], but not to include PHP), SSL certificates, etc. **(Does not apply to [!DNL Live Search])**</td>
   </tr>  
 </tbody>
 </table>
