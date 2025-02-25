@@ -122,11 +122,11 @@ To submit a new support case using the start page of Adobe Experience League, fo
 
 1. Select a product from the drop-down menu and provide a case title and description. NOTE: If the drop-down doesn't display any products or [!DNL Commerce] isn't an available option, try switching the [!UICONTROL Organization] in the left column, and check again.
 
-    ![select_product](assets/support_case_product.png)
+   ![select_product](assets/support_case_product.png)
 
->[!NOTE]
->
->If you're submitting a ticket with "**[!DNL Commerce] on cloud infrastructure**" selected as the product, and the organization has multiple projects listed, you'll be prompted to select the appropriate [!UICONTROL Project ID]. If you're unable to locate the desired [!UICONTROL Project ID], make sure to add a note on the ticket that you're seeking assistance with a different "project X".<br>If you intend to submit a "**[!DNL Commerce] on Managed Services**" ticket, and are on **[!DNL Commerce] on cloud infrastructure**, but don't see **[!DNL Commerce] on cloud infrastructure** as an available product:<br>1. Enter a subject for your issue in **[!UICONTROL Case title]**.<br>2. Enter a description of your issue in **[!UICONTROL Case description]**.<br>3. After entering both these items, you will be presented with the **[!UICONTROL Cloud Project URL]** field below.
+   >[!NOTE]
+   >
+   >If you're submitting a ticket with "**[!DNL Commerce] on cloud infrastructure**" selected as the product, and the organization has multiple projects listed, you'll be prompted to select the appropriate [!UICONTROL Project ID]. If you're unable to locate the desired [!UICONTROL Project ID], make sure to add a note on the ticket that you're seeking assistance with a different "project X".<br>If you intend to submit a "**[!DNL Commerce] on Managed Services**" ticket, and are on **[!DNL Commerce] on cloud infrastructure**, but don't see **[!DNL Commerce] on cloud infrastructure** as an available product:<br>1. Enter a subject for your issue in **[!UICONTROL Case title]**.<br>2. Enter a description of your issue in **[!UICONTROL Case description]**.<br>3. After entering both these items, you will be presented with the **[!UICONTROL Cloud Project URL]** field below.
 
 
 1. Adobe Experience League will suggest articles and best practices that can help you solve your case. If you still need direct support, you will need to provide some additional information before submitting your case.
@@ -137,33 +137,36 @@ To submit a new support case using the start page of Adobe Experience League, fo
 
 >[!IMPORTANT]
 >
->If you are unable to see your organization in the organization dropdown menu when you sign in to experienceleague.adobe.com, you may need to synchronize your profile with accounts.magento.com prior to requesting support or managing an existing support case.   
+>If you are unable to see your organization in the organization dropdown menu when you sign in to experienceleague.adobe.com, you may need to synchronize your profile with accounts.magento.com prior to requesting support or managing an existing support case.
 >
->1. Navigate to accounts.magento.com and sign in with the same profile (corporate, school, or personal) you will be using to manage support cases in Adobe Experience League. 
->1. Once you have successfully signed in to your accounts.magento.com profile, navigate back to experienceleague.adobe.com and sign in. 
->1. Select your organization from the organization dropdown menu. 
->1. If your organization still does not appear, contact your Commerce administrator to obtain support delegate rights. For additional information, see the [Commerce Account Share](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) help article. 
+>1. Navigate to accounts.magento.com and sign in with the same profile (corporate, school, or personal) you will be using to manage support cases in Adobe Experience League.
+>1. Once you have successfully signed in to your accounts.magento.com profile, navigate back to experienceleague.adobe.com and sign in.
+>1. Select your organization from the organization dropdown menu.
+>1. If your organization still does not appear, contact your Commerce administrator to obtain support delegate rights. For additional information, see the [Commerce Account Share](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) help article.
 
 >[!NOTE]
 >
 >Why the Organization/Product matters
 >
 >**Example A**: You have shared access to only one company and that company has entitlements for two Adobe products: Product1 and Product2.
+>
 >1. Since each Organization represents one product, you will see two organizations in the dropdown, e.g., OrgA-Product1 and OrgB-Product2.
 >1. If you selected Product = Product1 but your issue is related to Product2, the case will be routed to Product2 support and there will be delays when transferring the case to Product1 support.
 >1. If you submitted the case for OrgA-Product1 and would like to review [!UICONTROL My Cases] for that Organization in the future, you will not see it if you select OrgA-Product2 as the Organization (you would just have to select the other Organization, compared with Example B).
 >
 >**Example B**: You have Shared Access to two companies, and each company only has entitlements for Adobe Commerce.
+>
 >1. If you submitted the case for OrgA but the issue is actually impacting OrgB, members of OrgB will not be able to see this case under [!UICONTROL My Cases] in the future. 
 >1. In addition, members of OrgA will be able to see cases under [!UICONTROL My Cases] that are actually meant for OrgB, which can lead to privacy issues.
 
-You must have an account on both https://account.adobe.com and https://account.magento.com to sign in to the Experience League to submit a support case. You won't be able to submit a support case until you are signed in.
+You must have an account on both https://account.adobe.com and https://account.magento.com to sign in to the Experience League to submit a support case. You won't be able to submit a support case until you are signed in.
 
 >[!NOTE] 
 >
 >If you already have an account at https://account.magento.com but aren't able to sign in, you may not have registered for an account at https://account.adobe.com, which is required as of August 2022.
 >
 >To resolve this:
+>
 >1. Create an account at https://account.adobe.com using the same email address on your MAG ID.
 >1. Go to https://account.magento.com to link your Adobe ID with the MAG ID.
 
@@ -214,7 +217,7 @@ You can view the cases you have been *added to as a watcher* by clicking **[!UIC
 
 #### Search for cases
 
-To find cases, type your search query in the *[!UICONTROL Search]* field and press *enter* on your keyboard.
+To find cases, type your search query in the *[!UICONTROL Search]* field and press *enter* on your keyboard.
 
 ![search-cases](assets/search_cases.png)
 
