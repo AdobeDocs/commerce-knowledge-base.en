@@ -119,9 +119,14 @@ ls -ltr pub/media/analytics/
 
 To check that there are records in access.logs, run this command:
 
-```
-zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
-```
+* On Commerce Cloud:
+    
+    ```
+    {{zgrep -i analytics /var/log/platform/*/access.log* | grep MagentoBI}}
+    ```
+    
+* For On-Premise, substitute the file path accordingly:
+    `zgrep -i analytics <your web server's log path>/access.log* | grep MagentoBI`
 
 a. YES – If the file `data.tgz` is present and there are records in the access logs, but you still have a 404 error, you need to [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 b. NO – Proceed to [Step 10](#step-10).
