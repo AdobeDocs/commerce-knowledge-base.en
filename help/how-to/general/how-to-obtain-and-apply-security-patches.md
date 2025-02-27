@@ -26,11 +26,11 @@ If a physical patch file/hotfix is mentioned in the Release Notes:
 
 **Caveats:**
 
-If you are on an older version of Adobe Commerce (2.4.4) you will automatically have been given Extended Support. Your version must be one of the following Unsupported versions to be able to apply the latest available Security Patches:
+If you are on an older version of Adobe Commerce (2.4.4), you will have automatically received Extended Support. Your version must be one of the following unsupported versions to be able to apply the latest available Security Patches:
 
 2.4.4 - 2.4.4-p11
 
-Unsupported Versions (2.3.x, 2.4.0-2.4.3) are ineligible for support and you must first upgrade to a Supported version to take advantage of the latest security fixes.
+Unsupported versions (2.3.x, 2.4.0 - 2.4.3) are ineligible for support and you must first upgrade to a supported version to take advantage of the latest security fixes.
 
 If you don't have Extended Support, you may request Support to share the patches with you, but they will not be able to resolve any issues/errors you may encounter when applying them.
 
