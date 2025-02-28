@@ -27,9 +27,9 @@ Adobe Commerce on cloud 2.4.4 - 2.4.5-p11
 
 ## Cause
 
-[!DNL Elasticsearch7] is hard-coded in Adobe Commerce to be the search engine used in these versions. Even though there isn't an [!DNL Opensearch] module included in the code, Adobe Commerce is able to make use of the underlying [!DNL Opensearch] service.
+[!DNL Elasticsearch7] is hard-coded in Adobe Commerce to be the search engine used in these versions.
 
-This is not to be confused with the installed version of the service. The application only recognizes [!DNL Elasticsearch7] as the search engine but not [!DNL OpenSearch], even though it uses the underlying [!DNL OpenSearch] service as the engine in the backend.
+This is not to be confused with the installed version of the service. Even though there isn't an [!DNL Opensearch] module included in the code, Adobe Commerce is able to make use of the underlying [!DNL Opensearch] service.
 
 ## Solution
 
