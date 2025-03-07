@@ -24,7 +24,7 @@ b. NO – Maintenance or global outages. Check for estimated duration and update
 
 +++**Are there deployments in other environments that are blocking the deployment in the existing environment?**
 
-To get a list of ongoing activities run the following command using magento-cloud CLI (if you have only been added to one cloud project). **Note**: Check you are on the latest version of magento-cloud CLI. For steps, refer to [Update the CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in the Commerce on Cloud Infrastructure guide. 
+To get a list of ongoing activities run the following command using magento-cloud CLI (if you have only been added to one cloud project). **Note**: Check you are on the latest version of magento-cloud CLI. For steps, refer to [Update the CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) in the Commerce on Cloud Infrastructure guide. 
 
 ```bash
 magento-cloud --state=in_progress
@@ -36,7 +36,7 @@ To get a list of ongoing activities run the following command using magento-clou
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-To find information about an existing deployment activity (refer to [Checking deployment log if Cloud UI has “log snipped” error](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+To find information about an existing deployment activity (refer to [Checking deployment log if Cloud UI has "log snipped" error](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 for details) you can run this command to obtain a running log of that activity:
 
 ```bash
@@ -73,7 +73,7 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 +++**Using Bitbucket?**
 
 a. YES – Check [status.bitbucket.com](https://bitbucket.status.atlassian.com/).  
-b. NO – Check deployment log errors in the [Build and Deploy logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Proceed to [Step 6](#step-6).
+b. NO – Check deployment log errors in the [Build and Deploy logs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations). Proceed to [Step 6](#step-6).
 
 +++
 
@@ -118,7 +118,7 @@ b. NO – Proceed to [Step 11](#step-11).
 +++**Available storage okay?**
 
 a. YES – Proceed with [Step 11](#step-11).  
-b. NO – Review [Manage disk space](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html).
+b. NO – Review [Manage disk space](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
 
 +++
 
@@ -204,7 +204,7 @@ b. NO – Proceed to [Step 19](#step-19).
 
 +++**Using third-party extensions?**
 
-a. YES – Try [Disabling the third-party extensions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) and running the deployment (to see if they are the cause of the problem), especially if there are extension names in any errors.  
+a. YES – Try [Disabling the third-party extensions](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions) and running the deployment (to see if they are the cause of the problem), especially if there are extension names in any errors.  
 b. NO – Proceed to [Step 20](#step-20).
 
 +++
