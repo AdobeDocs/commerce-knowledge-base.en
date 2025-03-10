@@ -54,7 +54,7 @@ This article provides troubleshooting steps to solve Adobe Commerce on cloud inf
 </ol>
 </td>
 <td>
-<p>To learn more about New Relic Apdex score, refer to <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic Documentation > APM Apdex > Measure user satisfaction</a>. You may also refer to <a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Managed alerts for Adobe Commerce: Apdex warning alert</a> in our support knowledge base.</p>
+<p>To learn more about New Relic Apdex score, refer to <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic Documentation > APM Apdex > Measure user satisfaction</a>. You may also refer to <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Managed alerts for Adobe Commerce: Apdex warning alert</a> in our support knowledge base.</p>
 </td>
 </tr>
 <tr>
