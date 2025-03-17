@@ -74,7 +74,17 @@ For details on how to increase disk space if you are on the Adobe Commerce on cl
 
    Use the [Upgrade to ece-tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) article for reference.
    
-1. Ensure that ECE-tools package is present in the `composer.lock` file by running the following command:    <pre><code class="language-bash">grep '<code class="language-yaml">"name": "magento/ece-tools"</code>' composer.lock</code></pre>    If they are specified, the response would look like the following example:    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
+1. Ensure that ECE-tools package is present in the `composer.lock` file by running the following command:
+
+   ```bash
+   grep '"name": "magento/ece-tools"' composer.lock
+   ```
+   
+   If they are specified, the response would look like the following example:
+   
+   ```bash
+   "name": "magento/ece-tools", "version": "2002.0.20",
+   ```
 
 See the [Upgrade to ece-tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) article for reference.
 
