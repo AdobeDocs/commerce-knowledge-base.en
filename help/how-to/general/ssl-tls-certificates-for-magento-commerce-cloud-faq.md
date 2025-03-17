@@ -49,7 +49,7 @@ Once you have the SSL certificate, submit an [Adobe Commerce Support ticket](/he
 >[!WARNING]
 >
 >It is important that you do not upload the certificate files directly to the ticket. Otherwise, the certificates will be considered compromised, and Adobe will need to request a new certificate.
->The files should be uploaded via SFTP to the server to a folder of your choice, e.g., var/ssl, /tmp/ssl, etc. - do not use any other methods like committing the files to your repository (which should only be done for immutable files that do not contain sensitive data.)
+>The files should be uploaded via SFTP to the server to a folder of your choice, e.g., `var/ssl`, `/tmp/ssl`, etc. - do not use any other methods like committing the files to your repository (which should only be done for immutable files that do not contain sensitive data.)
 
 ## The name of your certificate
 
