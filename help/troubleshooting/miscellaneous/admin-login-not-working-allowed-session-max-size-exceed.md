@@ -1,11 +1,12 @@
 ---
-title: '[!DNL Admin] login not working - allowed session max size exceeded'
-description: Solve the issue when you try to log in to your [!DNL Admin] panel and the form refreshes and you are unable to log in.
+title: '[!UICONTROL Admin] login not working - allowed session max size exceeded'
+description: Solve the issue when you try to log in to your [!UICONTROL Admin] panel and the form refreshes and you're unable to log in.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
 ---
-# [!DNL Admin] login not working - allowed session max size exceeded
+# [!UICONTROL Admin] login not working - allowed session max size exceeded
 
-This article provides a fix for when you try to log in to your [!DNL Admin] panel but the form just refreshes and you are unable to log in. This is because the [!DNL Admin] Session Size has been exceeded.
+This article provides a fix for when you try to log in to your [!UICONTROL Admin] panel, but the form just refreshes and you're unable to log in, or you're performing some actions in the [!UICONTROL Admin] panel and get logged out automatically.
+This is caused by the [!UICONTROL Admin] [!UICONTROL Session Size] has been exceeded.
 
 ## Affected versions
 
@@ -14,7 +15,10 @@ This article provides a fix for when you try to log in to your [!DNL Admin] pane
 
 ## Issue
 
-It is impossible to log in to the [!DNL Admin], because the form keeps reloading.
+You experience one of the following symptoms on the [!UICONTROL Admin]:
+
+1. It's impossible to log in to the [!UICONTROL Admin], because the form keeps reloading.
+1. You're getting logged out automatically when attempting to perform an action.
 
 ## Cause
 
@@ -35,7 +39,7 @@ If you see these errors, the solution would be:
 
 <u>Adobe Commerce on cloud infrastructure</u>:
 
-(This setting is only accessible in the [!DNL Admin] when the deployment/operation mode is default or developer. However, only the Production deployment mode is allowed in the Cloud environment.)
+(This setting is only accessible in the [!UICONTROL Admin] when the deployment/operation mode is *default* or *developer*. However, only the Production deployment mode is allowed in the cloud environment.)
 
 To increase this value, run this command in the terminal (SSH):
 
@@ -47,6 +51,6 @@ You can set to higher than *500000* depending on the existing max size reported 
 
 ## Related Reading
 
-* [Session size](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) in Admin Systems Guide.
-* [Operation mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) in the Configuration Guide.
-* [Secure connections](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) in the Commerce on Cloud Infrastructure Guide.
+* [Session size](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) in Admin Systems Guide
+* [Operation mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) in the Configuration Guide
+* [Secure connections](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) in the Commerce on Cloud Infrastructure Guide
