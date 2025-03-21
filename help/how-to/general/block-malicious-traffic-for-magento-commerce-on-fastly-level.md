@@ -77,6 +77,7 @@ For general information and recommendations about `robots.txt`, see:
 
 Work with your developer and/or SEO expert to determine what User Agents you want to allow, or those you want to disallow.
 
-## Related Reading
+## Related reading
 
-[Product Specific Licensing Terms for Adobe Commerce on Cloud](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* [Product Specific Licensing Terms for Adobe Commerce on Cloud](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* [Custom VCL for blocking requests](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) in the Commerce on Cloud Guide

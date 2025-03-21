@@ -45,4 +45,5 @@ Origin cloaking is a security feature that allows Adobe Commerce to block any no
 
 ## Related reading
 
-[Fastly origin cloaking enablement FAQ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) in our support knowledge base.
+* [Fastly origin cloaking enablement FAQ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) in our support knowledge base
+* [Checklist for setting up a new domain](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain) in our support knowledge base
