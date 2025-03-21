@@ -8,6 +8,7 @@ role: Developer
 # Former team members receive Adobe Commerce cloud notification emails
 
 This article provides a solution for removing users from the recipients' list of notification emails who are:
+
 * Former team members who are no longer associated with your project.
 * Current team members who should not be receiving the notifications.
 
@@ -16,6 +17,8 @@ This article provides a solution for removing users from the recipients' list of
 A notice of a detected outage or important issue regarding the cloud project/environment has been sent to your team. This includes members that may no longer be associated with your project such as external/agency developers or system integrators. You want these users to stop receiving notifications.
 
 ## Solution
+
+> **Note**: If you are an external/agency developer or system integrator and are no longer associated with the project, you must reach out to the Project Owner or Project Admin on that project for assistance.
 
 There are two ways to stop the notifications by removing the user(s) from your project:
 
@@ -26,5 +29,5 @@ If this has already been done and yet the email notifications continue to includ
 
 ## Related reading
 
-* [View a user's project role](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user’s-project-role) in the Commerce on cloud infrastructure guide.
+* [View a user's project role](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user's-project-role) in the Commerce on cloud infrastructure guide.
 * [How to include a team member in Support notifications](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) in the Commerce KB.
