@@ -18,7 +18,9 @@ A notice of a detected outage or important issue regarding the cloud project/env
 
 ## Solution
 
-> **Note**: If you are an external/agency developer or system integrator and are no longer associated with the project, you must reach out to the Project Owner or Project Admin on that project for assistance.
+>[!NOTE]
+>
+>If you are an external/agency developer or system integrator and are no longer associated with the project, you must reach out to the Project Owner or the Project Admin on that project for assistance.
 
 There are two ways to stop the notifications by removing the user(s) from your project:
 
