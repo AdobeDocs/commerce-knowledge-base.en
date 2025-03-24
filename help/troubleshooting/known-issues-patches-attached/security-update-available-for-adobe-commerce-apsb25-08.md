@@ -32,6 +32,10 @@ Adobe Commerce on Cloud infrastructure, Adobe Commerce on-premises, and Magento 
 
 ## Solution for Adobe Commerce on Cloud, Adobe Commerce on-premises, and Magento Open Source software
 
+>[!NOTE]
+>
+>This issue is resolved by the [latest cloud-patches update](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest). Attempting to apply the isolated patch when the fix is already in place from the cloud-patches update can cause installation failures. 
+
 To help resolve the vulnerability for the affected products and versions, you must apply the [!DNL CVE-2025-24434] Isolated patch, depending on your Adobe Commerce/Magento Open Source version.
 
 ## Isolated Patch Details
@@ -91,4 +95,4 @@ Considering that it isn't possible to easily check if the issue was patched, you
 Security updates available for Adobe Commerce:
 
 * [Adobe Security Bulletin ([!DNL APSB25-08])](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [The latest Security updates available for Adobe Commerce)](https://helpx.adobe.com/security/products/magento.html)
+* [The latest Security updates available for Adobe Commerce](https://helpx.adobe.com/security/products/magento.html)
