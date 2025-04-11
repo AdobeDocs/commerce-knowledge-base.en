@@ -11,19 +11,6 @@ breadcrumb-title: Commerce KB
   * Site-wide Analysis tool {#site-wide-analysis-tool}
     * [Site-Wide Analysis Tool by Adobe: overview](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
     * [Adobe Commerce Site-Wide Analysis Tool Report FAQ](/help/support-tools/site-wide-analysis-tool/swat-faq.md)
-  * Managed alerts on Adobe Commerce {#managed-alerts}
-    * [Managed alerts on Adobe Commerce: Redis memory critical alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
-    * [Managed alerts for Adobe Commerce: Disk warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
-    * [Managed alerts for Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)
-    * [Managed alerts for Adobe Commerce: Disk critical alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert.md)
-    * [Managed alerts on Adobe Commerce: Redis memory warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert.md)
-    * [Managed alerts for Adobe Commerce: Memory warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert.md)
-    * [Managed alerts on Adobe Commerce: CPU critical alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert.md)
-    * [Managed alerts on Adobe Commerce: Memory critical alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert.md)
-    * [Managed alerts for Adobe Commerce: Apdex critical alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert.md)
-    * [Managed alerts on Adobe Commerce: MariaDB alerts](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts.md)
-    * [Managed alerts for Adobe Commerce: Apdex warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
-    * [Managed alerts for Adobe Commerce: CPU warning alert](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
   * Patches available in QPT tool {#patches}
     * [Patches available in QPT tool overview](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
     * v1.1.0 {#v1-1-0}
