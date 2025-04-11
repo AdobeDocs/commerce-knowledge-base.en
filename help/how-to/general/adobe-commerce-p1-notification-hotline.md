@@ -34,7 +34,7 @@ Note: If you reach voicemail for any reason, please leave your information: Full
   * Italy: (+39) 0269 682 818 (At first menu, press 6 for Adobe Commerce P1 hotline)
   * Sweden: (+46) 0200 810 330 (At first menu, press 6 for Adobe Commerce P1 hotline)
 * APAC
-  * Australia: (+61) 1 800 358 683 (At first menu, press 6 for Adobe Commerce P1 hotline)
+  * Australia: (+61) 1 800 358 683 (At first menu, press 3 for Adobe Commerce P1 hotline)
   * Singapore: (+65) 1 800 818 5220 (At first menu, press 6 for Adobe Commerce P1 hotline)
   * Philippines (toll): (+63) 1 800 1441 0660 (At first menu, press 6 for Adobe Commerce P1 hotline)
   * New Zealand (toll): (+64) 050 861 4264 (At first menu, press 6 for Adobe Commerce P1 hotline)
