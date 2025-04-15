@@ -52,4 +52,17 @@ To solve the issue, take the following steps:
     ```
 
 1. Apply the attached [ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip) patch. Refer to [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base for instructions. 
-1. Run `bin/magento setup:upgrade`.   
+1. Run `bin/magento setup:upgrade`.
+
+### Apply a patch using Cloud Patches
+
+For Adobe Commerce on Cloud infrastructures, follow the steps below:
+
+1. Update the version of the `cloud-patches` module to 1.1.5:
+
+    ```
+    composer require magento/magento-cloud-patches:1.1.5 --no-update
+    composer updatemagento/magento-cloud-patches
+    ```
+
+1. Commit and push the changes to initiate re-deploy. Refer to [Apply patches](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) in our Adobe Commerce on Cloud guide for instructions.
