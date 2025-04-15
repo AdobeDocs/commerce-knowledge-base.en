@@ -10,8 +10,8 @@ This article provides a hotfix for the SQL syntax error that occurs due to the n
 
 ## Affected products and versions
 
-* Adobe Commerce (all deployment methods) 2.4.6-px + B2B 1.5.2 using MariaDB 10.6
-* Adobe Commerce (all deployment methods) 2.4.7-px + B2B 1.5.2 using MariaDB 10.6
+* Adobe Commerce (all deployment methods) 2.4.6-px + B2B 1.5.2 using [!DNL MariaDB] 10.6
+* Adobe Commerce (all deployment methods) 2.4.7-px + B2B 1.5.2 using [!DNL MariaDB] 10.6
 
 ## Issue
 
@@ -25,7 +25,7 @@ Upgrading to B2B version 1.5.2 fails with an SQL syntax error due to the missing
 
 <u>Steps to reproduce</u>:
 
-1. Assign a company to a parent company to establish company hierarchy. Refer to [Manage the Company Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) in the Adobe Commerce B2B guide for steps.
+1. Assign a company to a parent company to establish company hierarchy. Refer to [Manage the Company Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) in the Adobe Commerce B2B guide for more information.
 1. Upgrade B2B to the 1.5.2 version.
 
 <u>Expected results</u>:
