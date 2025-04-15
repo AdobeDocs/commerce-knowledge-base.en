@@ -42,7 +42,7 @@ Unable to apply data patch Magento\Company\Setup\Patch\Data\SetCompanyForStructu
 
 ## Solution
 
-Apply the fix for the issue through the following patch:
+Apply the following patch after updating the B2B version before running `bin/magento setup:upgrade`.
 
 [ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip)
 
@@ -58,6 +58,3 @@ Apply the fix for the issue through the following patch:
 1. Unzip the file and refer to [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base for instructions.
 1. Run `bin/magento setup:upgrade` after the patch is applied.
 
->[!NOTE]
->
->For Adobe Commerce on-premises installations, apply the patch after upgrading B2B to version 1.5.2, but before running `bin/magento setup:upgrade`.
