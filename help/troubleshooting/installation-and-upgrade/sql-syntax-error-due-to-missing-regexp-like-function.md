@@ -63,7 +63,7 @@ For Adobe Commerce on Cloud infrastructures, follow the steps below:
 
     ```
     composer require magento/magento-cloud-patches:1.1.5 --no-update
-    composer updatemagento/magento-cloud-patches
+    composer update magento/magento-cloud-patches
     ```
 
 1. Commit and push the changes to initiate re-deploy. Refer to [Apply patches](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) in our Adobe Commerce on Cloud guide for instructions.
