@@ -3,6 +3,7 @@ title: Upgrade to B2B 1.5.2 fails with SQL syntax error due to missing REGEXP_LI
 description: This article provides a hotfix for the issue where an SQL syntax error occurs due to the missing REGEXP_LIKE function when attempting to update the company_structure table.
 feature: B2B, Upgrade
 role: Admin, Developer
+exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
 ---
 # Upgrade to B2B 1.5.2 fails with SQL syntax error due to missing REGEXP_LIKE function
 
