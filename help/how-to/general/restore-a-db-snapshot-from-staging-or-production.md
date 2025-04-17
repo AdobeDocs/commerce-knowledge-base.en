@@ -116,6 +116,13 @@ The steps are:
     drop database <cluster ID_stg>;
     ```
 
+1. After dropping the daravase, recreate the database. 
+
+    ```mysql -u [username] -p
+    mysql -u [username] -p [database_name] < magento_backup.sql
+    create database [database_name];
+    ```
+
 1. Enter the following command to import the [!DNL snapshot]:
 
    (For importing the database backup from [!DNL Production])
