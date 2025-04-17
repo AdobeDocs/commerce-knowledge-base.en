@@ -118,8 +118,7 @@ The steps are:
 
 1. After dropping the database, recreate the database:
 
-    ```mysql -u [username] -p
-    mysql -u [username] -p [database_name] < magento_backup.sql
+    ```mysql
     create database [database_name];
     ```
 
