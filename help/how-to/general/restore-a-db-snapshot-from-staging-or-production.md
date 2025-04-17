@@ -116,6 +116,12 @@ The steps are:
     drop database <cluster ID_stg>;
     ```
 
+1. After dropping the database, recreate the database:
+
+    ```mysql
+    create database [database_name];
+    ```
+
 1. Enter the following command to import the [!DNL snapshot]:
 
    (For importing the database backup from [!DNL Production])
