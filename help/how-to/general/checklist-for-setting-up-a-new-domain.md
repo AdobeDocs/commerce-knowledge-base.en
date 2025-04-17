@@ -6,7 +6,7 @@ feature: Cache
 ---
 # Checklist for setting up a new [!DNL domain]
 
-This is a checklist of how to set up a new [!DNL domain] in Adobe Commerce on cloud infrastructure. It applies regardless of whether you are trying to simply add a new domain or replace the current domain with a new one.
+This checklist explains how to set up a new [!DNL domain] in Adobe Commerce on cloud infrastructure. It applies whether you're adding a new domain or replacing the current one. It also applies after getting a new Staging environment (see Step 4).
 
 ## Affected products and versions
 
@@ -59,3 +59,4 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 ## Related reading
 
 * [Set up multiple websites or stores: Add New [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) in our user guide.
+* [Site not accessible due to origin cloaking](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking)
