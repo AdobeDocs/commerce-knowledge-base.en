@@ -116,7 +116,7 @@ The steps are:
     drop database <cluster ID_stg>;
     ```
 
-1. After dropping the daravase, recreate the database. 
+1. After dropping the database, recreate the database:
 
     ```mysql -u [username] -p
     mysql -u [username] -p [database_name] < magento_backup.sql
