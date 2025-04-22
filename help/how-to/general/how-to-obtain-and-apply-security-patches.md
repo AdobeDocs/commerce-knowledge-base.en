@@ -17,7 +17,7 @@ Adobe Commerce On-Premise and Cloud - All versions
 
 ## Cause
 
-Most [!UICONTROL Security Patches] are released without any isolated patch or hotfix to apply and will require upgrading to the [!UICONTROL Security Patche] release. 
+Most [!UICONTROL Security Patches] are released without any isolated patch or hotfix to apply and will require upgrading to the [!UICONTROL Security Patch] release. 
 
 ## Solution
 
