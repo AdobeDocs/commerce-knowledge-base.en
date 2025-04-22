@@ -316,6 +316,10 @@ See the [Share a Commerce account](https://experienceleague.adobe.com/en/docs/co
 
 After providing shared access for a new user, the related information is available in **Shared Access** > **Manage Permissions** of your Adobe Commerce account page.
 
+>[!NOTE] 
+>
+>Shared Access does not automatically grant access to the Commerce Cloud Console. You need to [add the user separately to the Cloud Project](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access#add-a-user-to-the-project).
+
 ![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
 
 ### Revoke (delete) shared access {#revoke-shared-access}
