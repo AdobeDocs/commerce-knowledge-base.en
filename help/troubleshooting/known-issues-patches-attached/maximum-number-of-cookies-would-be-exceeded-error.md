@@ -35,7 +35,7 @@ The issue occurs because the maximum number of allowed cookies is set to 50.
 
         `vendor/bin/magento/quality-patches revert MDVA-12304`
 
-1. Place [ACSD-64710](assets/acsd-64710_2.4.5-p11.patch.zip) in the `m2-hotfixes` folder and redeploy.
+1. Place [ACSD-64710](assets/acsd-64710_2.4.5-p11.patch.zip) in the `m2-hotfixes` folder and re-deploy.
 
 ### Related reading
 
