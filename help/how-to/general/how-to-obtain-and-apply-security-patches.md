@@ -5,24 +5,26 @@ exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
 ---
 # How to obtain and apply a [!UICONTROL security patch]
 
+>[!NOTE]
+>If you have an On-Premise installation and aren't using version control systems like [!DNL CVS] or [!DNL GitHub] to manage your code, your web host might be able to assist with applying the patch. Feel free to reach out to them for support
+
 This article provides instructions on how to obtain and apply a [!UICONTROL security patch] that has been released, but instructions are unavailable.
 
 ## Affected products and versions 
 
 Adobe Commerce On-Premise and Cloud - All versions
 
+
 ## Cause
 
-Most [!UICONTROL Security Patches] are released without any physical file or hotfix to apply.
+Most [!UICONTROL Security Patches] are released without any isolated patch or hotfix to apply and will require upgrading to the [!UICONTROL Security Patch] release. 
 
 ## Solution
 
 
 ### Case I:
 
-If a physical patch file/hotfix is mentioned in the Release Notes:
-
-* Download the file from the download section of [https://account.magento.com](https://account.magento.com/downloads/view/). (Shared access users must first be given download privileges by the account owner/license holder) 
+* If an isolated patch file/hotfix is mentioned in the [Release Notes](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) download the file from the download section of [https://account.magento.com](https://account.magento.com/downloads/view/). Shared access users must first be given download privileges by the account owner/license holder.
 
 **Caveats:**
 
@@ -36,7 +38,9 @@ If you don't have Extended Support, you may request Support to share the patches
 
 ### Case II:
 
-If a physical patch file/hotfix is not mentioned in the Release Notes:
+Isolated patches are only provided in exceptional cases, and it is not the preferred form of implementing security fixes.
+
+If an isolated patch file/hotfix is not mentioned in the Release Notes:
 
 * **Cloud:**
 
@@ -45,8 +49,8 @@ If a physical patch file/hotfix is not mentioned in the Release Notes:
 
 * **Cloud or On-Premise:**
 
-* If a physical patch file/hotfix is not available, [upgrade the Adobe Commerce version on Cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X to the latest patch version 2.4.X-pY. 
-* If a physical patch file/hotfix is not available, [upgrade the Adobe Commerce version On-Premise](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X to the latest patch version 2.4.X-pY.
+* If an isolated patch file/hotfix is not available, [upgrade the Adobe Commerce version on Cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X to the latest patch version 2.4.X-pY. 
+* If an isolated patch file/hotfix is not available, [upgrade the Adobe Commerce version On-Premise](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X to the latest patch version 2.4.X-pY.
 
 ## Related reading
 
