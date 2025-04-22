@@ -6,7 +6,7 @@ exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
 # How to obtain and apply a [!UICONTROL security patch]
 
 >[!NOTE]
->If you have an On-Premise installation and aren't using version control systems like [!DNL CVS] or [!DNL GitHub] to manage your code, your web host might be able to assist with applying the patch. Feel free to reach out to them for support!
+>If you have an On-Premise installation and aren't using version control systems like [!DNL CVS] or [!DNL GitHub] to manage your code, your web host might be able to assist with applying the patch. Feel free to reach out to them for support
 
 This article provides instructions on how to obtain and apply a [!UICONTROL security patch] that has been released, but instructions are unavailable.
 
@@ -24,8 +24,7 @@ Most [!UICONTROL Security Patches] are released without any isolated patch or ho
 
 ### Case I:
 
-* If an isolated patch file/hotfix is mentioned in the [Release Notes](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite):
-download the file from the download section of [https://account.magento.com](https://account.magento.com/downloads/view/). (Shared access users must first be given download privileges by the account owner/license holder)
+* If an isolated patch file/hotfix is mentioned in the [Release Notes](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) download the file from the download section of [https://account.magento.com](https://account.magento.com/downloads/view/). Shared access users must first be given download privileges by the account owner/license holder.
 
 **Caveats:**
 
