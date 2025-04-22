@@ -154,3 +154,4 @@ In our developer documentation:
 
 * [Import code: Import the database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
 * [[!DNL Snapshots] and [!DNL backup] management: [!DNL Dump] your database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [Backup (snapshot) on Cloud: FAQ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
