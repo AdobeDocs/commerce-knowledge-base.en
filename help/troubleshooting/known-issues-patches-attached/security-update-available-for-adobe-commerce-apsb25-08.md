@@ -44,7 +44,7 @@ Use the following attached Isolated patches, depending on your Adobe Commerce/Ma
 
 ### For version 2.4.8-beta1:
 
-* [vuln-28982-2-4-8x-v2-composer-patch.zip](assets/vuln-28982-2-4-8x-v2-composer-patch.zip)
+* [vuln-28982-2-4-8x-v3-composer-patch.zip](assets/vuln-28982-2-4-8x-v3-composer-patch.zip)
 
 ### For versions 2.4.7, 2.4.7-p1, 2.4.7-p2, 2.4.7-p3:
 
