@@ -37,13 +37,9 @@ The issue occurs because the maximum number of allowed cookies is set to 50.
 
 1. Apply the attached patches according to your Adobe Commerce version:
 
-    * For versions 2.4.4-p12, 2.4.5-p11, 2.4.6-p9 and 2.4.7-p4:
+    * For versions 2.4.4-p12, 2.4.5-p11, 2.4.6-p9 and 2.4.7-p4, apply the [ACSD-64710 patch](assets/acsd-64710_2.4.5-p11.patch.zip).
     
-        [ACSD-64710 patch](assets/acsd-64710_2.4.5-p11.patch.zip)
-    
-    * For versions 2.4.4-p13, 2.4.5-p12, 2.4.6-p10, 2.4.7-p5 and 2.4.8:
-
-        [ACSD-65562 patch](assets/acsd-65562_2.4.5-p12.patch.zip)
+    * For versions 2.4.4-p13, 2.4.5-p12, 2.4.6-p10, 2.4.7-p5 and 2.4.8, apply the [ACSD-65562 patch](assets/acsd-65562_2.4.5-p12.patch.zip).
 
 ### Related reading
 
