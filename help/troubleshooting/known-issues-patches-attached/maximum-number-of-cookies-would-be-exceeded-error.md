@@ -1,8 +1,9 @@
 ---
-title: 'Maximum number of cookies would be exceeded error in Adobe Commerce'
+title: Maximum number of cookies would be exceeded error in Adobe Commerce
 description: Learn how to resolve the Adobe Commerce issue where an error occurs stating maximum number of cookies would be exceeded.
 feature: Deploy, Support, Upgrade, Tools and External Services
 role: Admin, Developer
+exl-id: 5c42ea7a-f023-4d34-8417-bb470efc3b84
 ---
 # *Maximum number of cookies would be exceeded* error in Adobe Commerce
 
@@ -45,4 +46,4 @@ The issue occurs because the maximum number of allowed cookies is set to *50*.
 
 * [Apply patches](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply) in the Adobe Commerce Upgrade guide
 * [Best practices for distributing Adobe Commerce patches at scale](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) in the Adobe Commerce Implementation Playbook
-* [Release notes for Commerce Cloud Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) in the Commerce on Cloud Guide. 
+* [Release notes for Commerce Cloud Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) in the Commerce on Cloud Guide.
