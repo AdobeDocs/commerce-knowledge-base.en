@@ -26,7 +26,7 @@ Issues related to cookies in Adobe Commerce is causing the following error to ap
 
 The issue occurs because the maximum number of allowed cookies is set to 50.
 
-### Solution
+## Solution
 
 1. Remove MDVA-12304 if you have applied the patch using the [!DNL Quality Patches Tool (QPT)].
 
@@ -35,7 +35,16 @@ The issue occurs because the maximum number of allowed cookies is set to 50.
 
         `vendor/bin/magento/quality-patches revert MDVA-12304`
 
-1. Place [ACSD-64710](assets/acsd-64710_2.4.5-p11.patch.zip) in the `m2-hotfixes` folder and re-deploy.
+1. Apply the attached patches according to your Adobe Commerce version:
+
+    * For versions 2.4.4-p12, 2.4.5-p11, 2.4.6-p9 and 2.4.7-p4:
+    
+        Place the [ACSD-64710 patch](assets/acsd-64710_2.4.5-p11.patch.zip) in the `m2-hotfixes` folder and re-deploy.
+    
+    * For versions 2.4.4-p13, 2.4.5-p12, 2.4.6-p10, 2.4.7-p5 and 2.4.8:
+
+        
+
 
 ### Related reading
 
