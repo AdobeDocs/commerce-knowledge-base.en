@@ -6,7 +6,7 @@ role: Admin, Developer
 ---
 # *Maximum number of cookies would be exceeded* error in Adobe Commerce
 
-This article provides a patch to resolve the error stating *Maximum number of cookies would be exceeded* in Adobe Commerce.
+This article provides patches to resolve the error stating *Maximum number of cookies would be exceeded* in Adobe Commerce.
 
 ## Affected products and versions
 
@@ -28,7 +28,7 @@ The issue occurs because the maximum number of allowed cookies is set to 50.
 
 ## Solution
 
-1. Remove MDVA-12304 if you have applied the patch using the [!DNL Quality Patches Tool (QPT)].
+1. Remove the MDVA-12304 patch if you applied it using the [!DNL Quality Patches Tool (QPT)].
 
     * For Adobe Commerce on cloud infrastructures, remove the patch from `.magento.env.yaml`.
     * For Adobe Commerce on-premises installations, run the following command to revert the patch:
@@ -43,8 +43,7 @@ The issue occurs because the maximum number of allowed cookies is set to 50.
     
     * For versions 2.4.4-p13, 2.4.5-p12, 2.4.6-p10, 2.4.7-p5 and 2.4.8:
 
-        
-
+        Place the [ACSD-65562 patch](assets/acsd-65562_2.4.5-p12.patch.zip) in the `m2-hotfixes` folder and re-deploy.
 
 ### Related reading
 
