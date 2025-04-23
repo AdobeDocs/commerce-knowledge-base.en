@@ -24,7 +24,7 @@ Issues related to cookies in Adobe Commerce is causing the following error to ap
 
 ### Cause
 
-The issue occurs because the maximum number of allowed cookies is set to 50.
+The issue occurs because the maximum number of allowed cookies is set to *50*.
 
 ## Solution
 
@@ -45,4 +45,4 @@ The issue occurs because the maximum number of allowed cookies is set to 50.
 
 * [Apply patches](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply) in the Adobe Commerce Upgrade guide
 * [Best practices for distributing Adobe Commerce patches at scale](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) in the Adobe Commerce Implementation Playbook
-* [Release notes for Commerce Cloud Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) in our developer documentation
+* [Release notes for Commerce Cloud Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) in the Commerce on Cloud Guide. 
