@@ -39,11 +39,11 @@ The issue occurs because the maximum number of allowed cookies is set to 50.
 
     * For versions 2.4.4-p12, 2.4.5-p11, 2.4.6-p9 and 2.4.7-p4:
     
-        Place the [ACSD-64710 patch](assets/acsd-64710_2.4.5-p11.patch.zip) in the `m2-hotfixes` folder and re-deploy.
+        [ACSD-64710 patch](assets/acsd-64710_2.4.5-p11.patch.zip)
     
     * For versions 2.4.4-p13, 2.4.5-p12, 2.4.6-p10, 2.4.7-p5 and 2.4.8:
 
-        Place the [ACSD-65562 patch](assets/acsd-65562_2.4.5-p12.patch.zip) in the `m2-hotfixes` folder and re-deploy.
+        [ACSD-65562 patch](assets/acsd-65562_2.4.5-p12.patch.zip)
 
 ### Related reading
 
