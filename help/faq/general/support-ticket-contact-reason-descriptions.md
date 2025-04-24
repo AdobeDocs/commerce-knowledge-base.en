@@ -43,7 +43,7 @@ This article lists the support ticket **Issue Reason** field options and provide
   </tr>
   <tr>
     <td>Infrastructure Incident</td>
-    <td>You need help with your Adobe Commerce on cloud infrastructure, such as stuck deployments, [!DNL New Relic] access, SSH/sFTP access, service upgrades ([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ], but not including PHP), SSL certificates, etc. **(Does not apply to [!DNL Live Search])**</td>
+    <td>You need help with your Adobe Commerce on cloud infrastructure, such as stuck deployments, [!DNL New Relic] access, SSH/sFTP access, service upgrades ([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ], but not including PHP), SSL certificates, etc.<strong>(Does not apply to [!DNL Live Search])</strong></td>
   </tr>  
 </tbody>
 </table>
