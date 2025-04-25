@@ -179,7 +179,7 @@ To submit a new support ticket using your Adobe Commerce account page, follow th
 
 1. The Adobe Experience League support page loads for you.
 1. Select **[!UICONTROL Open Ticket]** from the left-hand menu.
-1. Fill in the fields.
+1. Fill in the [fields](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions).
 1. Click **Submit**.
 
 #### *Please verify your email address* error on Adobe Commerce Account page {#verify-email-address-error}
