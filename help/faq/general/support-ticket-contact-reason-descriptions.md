@@ -47,3 +47,7 @@ This article lists the support ticket **Issue Reason** field options and provide
   </tr>  
 </tbody>
 </table>
+
+## Related reading
+
+* [Submit a support case](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) in the Experience League Support User Guide for Adobe Commerce.

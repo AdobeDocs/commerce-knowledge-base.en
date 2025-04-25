@@ -179,7 +179,7 @@ To submit a new support ticket using your Adobe Commerce account page, follow th
 
 1. The Adobe Experience League support page loads for you.
 1. Select **[!UICONTROL Open Ticket]** from the left-hand menu.
-1. Fill in the fields.
+1. Fill in the [fields](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions).
 1. Click **Submit**.
 
 #### *Please verify your email address* error on Adobe Commerce Account page {#verify-email-address-error}
@@ -273,8 +273,7 @@ To submit a new support ticket using the Cloud Console, follow these steps:
 1. Select **[!UICONTROL Support]** in the user menu.
 1. The **[!UICONTROL My Tickets]** page loads.
 1. Click **[!UICONTROL Submit a ticket]** in the upper-right corner.
-1. Fill in the fields.
-1. Click **Submit**.
+1. Fill in the [fields](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions).
 1. Click **[!UICONTROL Submit]**.
 
 ### Adobe Commerce P1 hotline {#P1-hotline}
