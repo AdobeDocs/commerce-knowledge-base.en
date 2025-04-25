@@ -273,7 +273,7 @@ To submit a new support ticket using the Cloud Console, follow these steps:
 1. Select **[!UICONTROL Support]** in the user menu.
 1. The **[!UICONTROL My Tickets]** page loads.
 1. Click **[!UICONTROL Submit a ticket]** in the upper-right corner.
-1. Fill in the fields.
+1. Fill in the [fields](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions).
 1. Click **Submit**.
 1. Click **[!UICONTROL Submit]**.
 
