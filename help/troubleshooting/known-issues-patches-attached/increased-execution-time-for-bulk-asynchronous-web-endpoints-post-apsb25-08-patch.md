@@ -18,6 +18,8 @@ This article provides a hotfix for all bulk asynchronous web endpoints such as `
 
 * Adobe Commerce (all deployment methods) 2.4.7, 2.4.7-p1, 2.4.7-p2, 2.4.7-p3, 2.4.7-p4
 
+* Adobe Commerce (all deployment methods) 2.4.8
+
 ## Issue
 
 After applying the APSB25-08 security patch, `POST rest/all/async/bulk/V1/products` requests with 1000+ entries are taking significantly longer time to execute.
