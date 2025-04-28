@@ -22,7 +22,7 @@ Upgrading the `Magento_Company` module after updating to B2B 1.5.2 takes an exce
 
 * ACSD-65540_B2B_1.5.2.patch should be installed.
 * Adobe Commerce 2.4.6 - 2.4.8
-* B2B version 1.5.0, 1.5.1, B2B 1.5.2 with the ACSD-65540 patch
+* B2B version 1.5.0, 1.5.1, or B2B 1.5.2 with the ACSD-65540 patch applied
 
 <u>Steps to reproduce</u>:
 
