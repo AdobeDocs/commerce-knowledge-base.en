@@ -130,14 +130,7 @@ If you see the correct data in `cde_product_attributes_feed`:
 
 ### Sync after API configuration change
 
-(Known issue) If you have changed your API configuration, which results in a change in your Data Space ID and find that your catalog changes are no longer syncing, run the following commands:
-
-```bash
-bin/magento saas:resync --feed products
-bin/magento saas:resync --feed productattributes
-```
-
-Run the following commands to resync the feeds:
+(Known issue) If you have changed your API configuration, which results in a change in your Data Space ID and find that your catalog changes are no longer syncing, run the following commands to resync the feeds:
 
 ```
 bin/magento saas:resync --feed productattributes --cleanup-feed
@@ -152,6 +145,9 @@ bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
 [Submit a support request](https://experienceleague.adobe.com/home?support-tab=home#support) to request reindex of the Live Search index. In the issue description, include your Data Space/Environment ID found in the admin panel under **[!UICONTROL System]** >  **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**.
+
+>[!IMPORTANT]
+>Only use the `--cleanup-feed` option if you have updated the API configuration, or if you run the `saas:resync` command with the [--dry-run](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) option. Using the `--cleanup-feed` option in other cases leads to lost data and data sync issues.
 
 ## Related reading
 
