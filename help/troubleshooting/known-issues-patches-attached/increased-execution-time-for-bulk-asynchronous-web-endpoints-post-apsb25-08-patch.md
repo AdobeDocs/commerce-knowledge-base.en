@@ -1,12 +1,12 @@
 ---
-title: increased-execution-time-for-product-requests-post-apsb25-08-patch
+title: increased-execution-time-for-bulk-asynchronous-web-endpoints-post-apsb25-08-patch
 description: This article provides a hotfix for the issue where POST rest/all/async/bulk/V1/products requests for 1000+ entries experience significantly increased execution time after applying the APSB25-08 security patch.
-feature: Security, Cache
+feature: Security, Cache, REST, Products, Customers
 role: Admin, Developer
 ---
-# Increased execution time for product requests post APSB25-08 security patch
+# Increased execution time for all bulk asynchronous web endpoints post APSB25-08 security patch
 
-This article provides a hotfix for product requests `POST rest/all/async/bulk/V1/products` with 1000+ entries that are experiencing significantly longer execution times after applying the APSB25-08 security patch.
+This article provides a hotfix for all bulk asynchronous web endpoints such as `POST rest/all/async/bulk/V1/products` with 1000+ entries that are experiencing significantly longer execution times after applying the APSB25-08 security patch.
 
 ## Affected products and versions
 
