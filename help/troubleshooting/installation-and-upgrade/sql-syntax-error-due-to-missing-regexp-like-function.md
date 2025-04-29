@@ -9,7 +9,7 @@ exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
 
 >[!INFO]
 >
->If you experience a performance issue when upgrading the `Magento_Company` module after updating to B2B 1.5.2, apply the attached [ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch.zip](assets/ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch.zip) patch.
+>If you experience a performance issue when upgrading the `Magento_Company` module after updating to B2B 1.5.2, apply the attached [ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch](assets/ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch.zip).
 >
 >For more information, refer to [Performance issue in Magento_Company module upgrade after B2B 1.5.2 update](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md) in our Adobe Commerce knowledge base.
 
