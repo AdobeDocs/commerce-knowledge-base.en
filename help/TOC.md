@@ -702,6 +702,7 @@ breadcrumb-title: Commerce KB
     * [Troubleshoot upgrade compatibility tool errors](/help/troubleshooting/installation-and-upgrade/uct-segmentation-fault-error.md)
     * [Out of memory error during install or upgrade](/help/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade.md)
     * [Upgrade to B2B 1.5.2 fails with SQL syntax error due to missing REGEXP_LIKE function](/help/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function.md)
+    * [Performance issue in Magento_Company module upgrade after B2B 1.5.2 update](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)
   * Site down or unresponsive {#site-down-or-unresponsive}
     * [Site not accessible due to origin cloaking](/help/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking.md)
     * [503 error accessing Adobe Commerce in web browser](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
