@@ -11,7 +11,7 @@ exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
 >
 >If you experience a performance issue when upgrading the `Magento_Company` module after updating to B2B 1.5.2, apply the attached [ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch](assets/ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch.zip).
 >
->For more information, refer to [Performance issue in Magento_Company module upgrade after B2B 1.5.2 update](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md) in our Adobe Commerce knowledge base.
+>For more information, refer to [Performance issue in Magento_Company module upgrade after B2B 1.5.2 update](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md) in the Adobe Commerce knowledge base.
 
 This article provides a hotfix for the SQL syntax error that occurs due to the missing `REGEXP_LIKE` function when attempting to update the `company_structure` table.
 
