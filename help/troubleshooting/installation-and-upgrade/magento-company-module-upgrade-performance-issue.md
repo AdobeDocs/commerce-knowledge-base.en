@@ -3,6 +3,7 @@ title: Performance issue in Magento_Company module upgrade after B2B 1.5.2 updat
 description: This article provides a hotfix for the performance issue in the Magento_Company module upgrade after the B2B 1.5.2 update, addressing the excessively long processing time for large datasets in the company_structure table.
 feature: B2B, Upgrade
 role: Admin, Developer
+exl-id: b091d761-2e8a-4535-b461-ee9a46b5c2bc
 ---
 # Performance issue in Magento_Company module upgrade after B2B 1.5.2 update
 
