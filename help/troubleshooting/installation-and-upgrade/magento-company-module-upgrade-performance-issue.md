@@ -50,7 +50,7 @@ To solve the issue, take the following steps:
 
 1. Apply the [ACSD-65540_B2B_1.5.2.patch](/help/troubleshooting/installation-and-upgrade/assets/ACSD-65540_B2B_1.5.2.zip).
 
-1. Apply the attached [ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch](/help/troubleshooting/installation-and-upgrade/assets/ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch.zip) in our support knowledge base for instructions. 
+1. Apply the attached [ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch](/help/troubleshooting/installation-and-upgrade/assets/ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch.zip). 
 1. Run `bin/magento setup:upgrade` after applying the patch.
 
 ### How to apply the patch
@@ -61,22 +61,19 @@ Unzip the file and see [How to apply a composer patch provided by Adobe](https:/
 
 For Adobe Commerce on Cloud merchants, follow the steps below:
 
-1. Update the version of the cloud-patches module to 1.1.5 to install the ACSD-65540 patch distributed as MCLOUD-13605.
+1. Update the version of the cloud-patches module to 1.1.5 to install the ACSD-65540_B2B_1.5.2.patch distributed as MCLOUD-13605.
 
->[!NOTE]
->
->To check if the patch is already installed run:
->   ```
->   ./vendor/bin/magento-patches -n status | grep MCLOUD-13605
->   ```
-
+    >[!NOTE]
+    >
+    >To check if the patch is already installed run: 
+    > `./vendor/bin/magento-patches -n status | grep MCLOUD-13605`
 
     ```
     composer require magento/magento-cloud-patches:1.1.5 --no-update
     composer update magento/magento-cloud-patches
     ```
 
-1. Add the ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch to the m2-hotfixes directory.
+1. Add the ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch to the `m2-hotfixes` directory.
 1. Commit and push the changes to initiate redeployment and `bin/magento setup:upgrade`. Refer to [Apply patches](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) in our Adobe Commerce on Cloud guide for instructions.
 
 ## Related reading
