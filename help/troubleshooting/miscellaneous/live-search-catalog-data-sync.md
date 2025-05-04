@@ -147,7 +147,7 @@ bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 [Submit a support request](https://experienceleague.adobe.com/home?support-tab=home#support) to request reindex of the Live Search index. In the issue description, include your Data Space/Environment ID found in the admin panel under **[!UICONTROL System]** >  **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**.
 
 >[!IMPORTANT]
->Only use the `--cleanup-feed` option if you have updated the API configuration, or if you run the `saas:resync` command with the [--dry-run](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) option. Using the `--cleanup-feed` option in other cases leads to lost data and data sync issues.
+>Only use the `--cleanup-feed` option if you have configured a new environment, or if the Adobe team has completed a data space cleanup operation. You can also use this option when you run the `saas:resync` command with the [--dry-run](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) option. Using the `--cleanup-feed` option in other cases can cause data loss and data sync issues.
 
 ## Related reading
 
