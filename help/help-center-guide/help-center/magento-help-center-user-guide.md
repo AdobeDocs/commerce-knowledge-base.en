@@ -98,7 +98,7 @@ To submit a new support case using the start page of Adobe Experience League, fo
 >
 >1. To submit a case, you must be entitled to support for the appropriate product (e.g., Adobe Commerce, Adobe Commerce Intelligence, Adobe Commerce Payment Services, Experience Platform, etc.). If you aren't entitled to support, a bar will appear at the top of the page informing you that you are not a support-entitled user in the organization. 
 >1. If you belong to multiple organizations or there are multiple organizations with similar-looking names (each one will represent any of the other Adobe products the organization has subscriptions to), you will need to first select the appropriate organization from the dropdown in the left column that ends in *[!DNL (Commerce)]*.
->1. If you don't see Adobe Commerce in the [!UICONTROL Select a product] dropdown when submitting a Commerce-related case, you must first obtain [Shared Access](#shared-access) from the Commerce Account Owner.
+>1. If the [!UICONTROL Select a product] dropdown is empty when submitting a case, you’re likely using an Adobe Commerce Partner or Sandbox account. Only users with [Shared Access](#shared-access) from a merchant with support entitlements can submit tickets. For merchant issues, request Shared Access. For Partner or Sandbox issues, contact spphelp@adobe.com.
 
 >[!NOTE]
 >
