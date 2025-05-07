@@ -1,13 +1,13 @@
 ---
-title: Customer groups, segments, and promotional rule information exposed via GraphQL
-description: This article provides a hotfix to prevent the exposure of customer groups, segments, and promotional rule information via GraphQL in Adobe Commerce.
+title: Customer group names, segments, and promotional rule information exposed via [!DNL GraphQL]
+description: This article provides a hotfix to prevent the exposure of customer group names, segments, and promotional rule information via [!DNL GraphQL] in Adobe Commerce.
 feature: GraphQL
 role: Admin, Developer
 ---
 
-# Customer groups, segments, and promotional rule information exposed via GraphQL
+# Customer group names, segments, and promotional rule information exposed via [!DNL GraphQL]
 
-This article provides a hotfix to prevent the exposure of customer group names, customer segments, and promotional rule information via GraphQL. The issue is scheduled to be fixed in Adobe Commerce 2.4.8-p1.
+This article provides a hotfix to prevent the exposure of customer group names, customer segments, and promotional rule information via [!DNL GraphQL]. The issue is scheduled to be fixed in Adobe Commerce 2.4.8-p1.
 
 ## Affected products and versions
 
@@ -16,7 +16,7 @@ This article provides a hotfix to prevent the exposure of customer group names, 
 
 ## Issue
 
-For **[!UICONTROL Storefront Personalization Drop-ins]**, new GraphQL mutations introduced to display basic information such as customer group names, segments, and cart or catalog rules, can expose sensitive data added in the names.
+For **[!UICONTROL Storefront Personalization Drop-ins]**, new [!DNL GraphQL] mutations introduced to display basic information such as customer group names, segments, and cart or catalog rules, can expose sensitive data added in the names.
 
 <u>Steps to reproduce</u>:
 
@@ -26,7 +26,7 @@ Case I: **[!UICONTROL Catalog Rule]**
     1. Define the rule conditions (for example, product attribute or category).
     1. Save and apply the rule.
     1. Ensure a product meets the rule conditions.
-    1. Run the following GraphQL query to fetch all the rules:
+    1. Run the following [!DNL GraphQL] query to fetch all the rules:
 
         ```
         query {
@@ -57,7 +57,7 @@ Case II: **[!UICONTROL Cart Rule]**
     1. Set conditions such as minimum cart value and customer group.
     1. Save and apply the rule.
     1. Add products to cart to trigger the rule.
-    1. Use GraphQL to verify all the cart rules:
+    1. Use [!DNL GraphQL] to verify all the cart rules:
 
         ```
         query {
@@ -84,7 +84,7 @@ Case III: **[!UICONTROL Customer Group]**
 
     1. Navigate to *Admin* > **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
     1. Verify that the expected groups exist.
-    1. Use GraphQL to fetch all groups:
+    1. Use [!DNL GraphQL] to fetch all groups:
 
         ```
         query {
@@ -110,7 +110,7 @@ Case IV: **[!UICONTROL Customer Segment]** (for Adobe Commerce only)
     1. Define customer-based conditions (for example, order, cart contents).
     1. Assign applicable scope: *[!UICONTROL Visitor]*, *[!UICONTROL Registered]*, or both.
     1. Ensure that the conditions match a test customer.
-    1. Use GraphQL to check all segments:
+    1. Use [!DNL GraphQL] to check all segments:
 
         ```
         query {
@@ -133,11 +133,11 @@ Case IV: **[!UICONTROL Customer Segment]** (for Adobe Commerce only)
 
 <u>Expected result</u>:
 
-Names of customer groups, segments, and promotional rule information aren't exposed through GraphQL.
+Names of customer groups, segments, and promotional rule information aren't exposed through [!DNL GraphQL].
 
 <u>Actual result</u>:
 
-Names of customer groups, segments, and promotional rule information are exposed through GraphQL.
+Names of customer groups, segments, and promotional rule information are exposed through [!DNL GraphQL].
 
 ## Solution
 
