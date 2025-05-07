@@ -145,9 +145,9 @@ Apply the attached patches depending on your Adobe Commerce version:
 
 * For Adobe Commerce version 2.4.8:
 
-    * LYNX-839_CE_2.4.8.patch
-    * LYNX-839_EE_2.4.8.patch
+    * [LYNX-839_CE_2.4.8.patch](assets/LYNX-839_CE_2.4.8.patch.zip)
+    * [LYNX-839_EE_2.4.8.patch](assets/LYNX-839_EE_2.4.8.patch.zip)
 
 * For Magento Open Source version 2.4.8:
 
-    * LYNX-839_CE_2.4.8.patch
+    * [LYNX-839_CE_2.4.8.patch](assets/LYNX-839_CE_2.4.8.patch.zip)
