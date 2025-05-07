@@ -82,8 +82,8 @@ Case II: **[!UICONTROL Cart Rule]**
 
 Case III: **[!UICONTROL Customer Group]**
 
-    1. Navigate to Admin → Customers → Customer Groups.
-    1. Verify that expected groups exist.
+    1. Navigate to *Admin* > **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
+    1. Verify that the expected groups exist.
     1. Use GraphQL to fetch all groups:
 
         ```
@@ -94,7 +94,7 @@ Case III: **[!UICONTROL Customer Group]**
         }
         ```
 
-    1. Verify customer/guest's group:
+    1. Verify the customer/guest's group:
 
         ```
         query {
@@ -106,10 +106,10 @@ Case III: **[!UICONTROL Customer Group]**
 
 Case IV: **[!UICONTROL Customer Segment]** (for Adobe Commerce only)
 
-    1. Go to Admin → Customers → Customer Segments → Add Segment.
-    1. Define customer-based conditions (e.g., order, cart contents).
-    1. Assign applicable scope: Visitor, Registered, or Both.
-    1. Ensure conditions match for a test customer.
+    1. Go to *Admin* > **[!UICONTROL Customers]** > **[!UICONTROL Customer Segments]** → **[!UICONTROL Add Segment]**.
+    1. Define customer-based conditions (for example, order, cart contents).
+    1. Assign applicable scope: *[!UICONTROL Visitor]*, *[!UICONTROL Registered]*, or both.
+    1. Ensure that the conditions match a test customer.
     1. Use GraphQL to check all segments:
 
         ```
@@ -121,7 +121,7 @@ Case IV: **[!UICONTROL Customer Segment]** (for Adobe Commerce only)
         }
         ```
 
-    1. Validate segments applied to a cart:
+    1. Validate the segments applied to a cart:
 
         ```
         query {
@@ -148,6 +148,6 @@ Apply the attached patches depending on your Adobe Commerce version:
     * [LYNX-839_CE_2.4.8.patch](assets/LYNX-839_CE_2.4.8.patch.zip)
     * [LYNX-839_EE_2.4.8.patch](assets/LYNX-839_EE_2.4.8.patch.zip)
 
-* For Magento Open Source version 2.4.8:
+* For [!DNL Magento] Open Source version 2.4.8:
 
     * [LYNX-839_CE_2.4.8.patch](assets/LYNX-839_CE_2.4.8.patch.zip)
