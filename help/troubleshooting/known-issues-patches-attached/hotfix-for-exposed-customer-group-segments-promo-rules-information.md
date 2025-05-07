@@ -1,6 +1,6 @@
 ---
 title: Customer group names, segments, and promotional rule information exposed via [!DNL GraphQL]
-description: This article provides a hotfix to prevent the exposure of customer group names, segments, and promotional rule information via [!DNL GraphQL] in Adobe Commerce.
+description: This article provides a hotfix to prevent the exposure of customer group names, customer segments, and promotional rule information via [!DNL GraphQL].
 feature: GraphQL
 role: Admin, Developer
 ---
@@ -16,7 +16,7 @@ This article provides a hotfix to prevent the exposure of customer group names, 
 
 ## Issue
 
-For **[!UICONTROL Storefront Personalization Drop-ins]**, new [!DNL GraphQL] mutations introduced to display basic information such as customer group names, segments, and cart or catalog rules, can expose sensitive data added in the names.
+For **[!UICONTROL Storefront Personalization Drop-ins]**, new [!DNL GraphQL] mutations were introduced to display basic information like customer group names, segments, and cart or catalog rules. However, this can expose sensitive data such as offer details or coupon codes, if included in the names.
 
 ### Steps to reproduce
 
