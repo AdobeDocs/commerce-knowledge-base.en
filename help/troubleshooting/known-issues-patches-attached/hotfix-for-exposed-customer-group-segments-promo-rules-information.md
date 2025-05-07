@@ -18,118 +18,117 @@ This article provides a hotfix to prevent the exposure of customer group names, 
 
 For **[!UICONTROL Storefront Personalization Drop-ins]**, new [!DNL GraphQL] mutations introduced to display basic information such as customer group names, segments, and cart or catalog rules, can expose sensitive data added in the names.
 
-<u>Steps to reproduce</u>:
+### Steps to reproduce
 
-Case I: **[!UICONTROL Catalog Rule]**
+#### Case I: **[!UICONTROL Catalog Rule]**
 
-    1. Navigate to *Admin* > **[!UICONTROL Marketing]** > **[!UICONTROL Catalog Price Rule]** > **[!UICONTROL Add New Rule]**.
-    1. Define the rule conditions (for example, product attribute or category).
-    1. Save and apply the rule.
-    1. Ensure a product meets the rule conditions.
-    1. Run the following [!DNL GraphQL] query to fetch all the rules:
+1. Navigate to *Admin* > **[!UICONTROL Marketing]** > **[!UICONTROL Catalog Price Rule]** > **[!UICONTROL Add New Rule]**.
+1. Define the rule conditions (for example, product attribute or category).
+1. Save and apply the rule.
+1. Ensure a product meets the rule conditions.
+1. Run the following [!DNL GraphQL] query to fetch all the rules:
 
-        ```
-        query {
-            allCatalogRules {
-                name
-            }
-        }
-        ```
-    
-    1. Query a product to verify if the rule applies:
-
-        ```
-        query {
-            products(filter: { sku: { eq: "product-sku" } }) {
-                items {
-                    name
-                    rules {
-                        name
-                    }
-                }
-            }
-        }
-        ```
-
-Case II: **[!UICONTROL Cart Rule]**
-
-    1. Navigate to *Admin* > **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rule]** > **[!UICONTROL Add New Rule]**.
-    1. Set conditions such as minimum cart value and customer group.
-    1. Save and apply the rule.
-    1. Add products to cart to trigger the rule.
-    1. Use [!DNL GraphQL] to verify all the cart rules:
-
-        ```
-        query {
-            allCartRules {
-                name
-            }
+    ```
+    query {
+        allCatalogRules {
+            name
         }
-        ```
+    }
+    ```
+    
+1. Query a product to verify if the rule applies:
 
-    1. Check if rules are applied to the active cart:
-
-        ```
-        query {
-            cart(cart_id: "your-cart-id") {
+    ```
+    query {
+        products(filter: { sku: { eq: "product-sku" } }) {
+            items {
+                name
                 rules {
                     name
                 }
             }
         }
+    }
+    ```
 
-        ```
+#### Case II: **[!UICONTROL Cart Rule]**
 
-Case III: **[!UICONTROL Customer Group]**
+1. Navigate to *Admin* > **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rule]** > **[!UICONTROL Add New Rule]**.
+1. Set conditions such as minimum cart value and customer group.
+1. Save and apply the rule.
+1. Add products to cart to trigger the rule.
+1. Use [!DNL GraphQL] to verify all the cart rules:
 
-    1. Navigate to *Admin* > **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
-    1. Verify that the expected groups exist.
-    1. Use [!DNL GraphQL] to fetch all groups:
+    ```
+    query {
+        allCartRules {
+            name
+        }
+    }
+    ```
 
-        ```
-        query {
-            allCustomerGroups {
+1. Check if rules are applied to the active cart:
+
+    ```
+    query {
+        cart(cart_id: "your-cart-id") {
+            rules {
                 name
             }
         }
-        ```
+    }
+    ```
 
-    1. Verify the customer/guest's group:
+#### Case III: **[!UICONTROL Customer Group]**
 
-        ```
-        query {
-            customerGroup {
-                name
-            }
+1. Navigate to *Admin* > **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
+1. Verify that the expected groups exist.
+1. Use [!DNL GraphQL] to fetch all groups:
+
+    ```
+    query {
+        allCustomerGroups {
+            name
         }
-        ```
+    }
+    ```
 
-Case IV: **[!UICONTROL Customer Segment]** (for Adobe Commerce only)
+1. Verify the customer/guest's group:
 
-    1. Go to *Admin* > **[!UICONTROL Customers]** > **[!UICONTROL Customer Segments]** → **[!UICONTROL Add Segment]**.
-    1. Define customer-based conditions (for example, order, cart contents).
-    1. Assign applicable scope: *[!UICONTROL Visitor]*, *[!UICONTROL Registered]*, or both.
-    1. Ensure that the conditions match a test customer.
-    1. Use [!DNL GraphQL] to check all segments:
-
-        ```
-        query {
-            allCustomerSegments {
-                name
-                apply_to
-            }
+    ```
+    query {
+        customerGroup {
+            name
         }
-        ```
+    }
+    ```
 
-    1. Validate the segments applied to a cart:
+#### Case IV: **[!UICONTROL Customer Segment]** (for Adobe Commerce only)
 
-        ```
-        query {
-            customerSegments(cartId: "your-cart-id") {
-                name
-            }
+1. Go to *Admin* > **[!UICONTROL Customers]** > **[!UICONTROL Customer Segments]** → **[!UICONTROL Add Segment]**.
+1. Define customer-based conditions (for example, order, cart contents).
+1. Assign applicable scope: *[!UICONTROL Visitor]*, *[!UICONTROL Registered]*, or both.
+1. Ensure that the conditions match a test customer.
+1. Use [!DNL GraphQL] to check all segments:
+
+    ```
+    query {
+        allCustomerSegments {
+            name
+            apply_to
         }
-        ```
+    }
+    ```
+
+1. Validate the segments applied to a cart:
+
+    ```
+    query {
+        customerSegments(cartId: "your-cart-id") {
+            name
+        }
+    }
+    ```
 
 <u>Expected result</u>:
 
