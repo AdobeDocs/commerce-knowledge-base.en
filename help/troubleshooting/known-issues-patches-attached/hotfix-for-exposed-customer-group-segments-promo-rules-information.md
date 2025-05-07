@@ -133,26 +133,21 @@ Case IV: **[!UICONTROL Customer Segment]** (for Adobe Commerce only)
 
 <u>Expected result</u>:
 
-Adobe Commerce does this.
+Names of customer groups, segments, and promotional rule information aren't exposed through GraphQL.
 
 <u>Actual result</u>:
 
-Adobe Commerce does that.
-
-## Cause
-
-The reason why the issue occurs. Don't describe the fix — it should be in the next section. Skip this option if the reason is not clear or not important in this case.
+Names of customer groups, segments, and promotional rule information are exposed through GraphQL.
 
 ## Solution
 
-How to fix the issue. Use a numbered list for steps.
-Finish the section with the results: error not displayed, deploy works, value changed and how to see the change, etc.
+Apply the attached patches depending on your Adobe Commerce version:
 
-If there is a temporary workaround, specify it as a separate section below this one.
+* For Adobe Commerce version 2.4.8:
 
-## Related reading
+    * LYNX-839_CE_2.4.8.patch
+    * LYNX-839_EE_2.4.8.patch
 
-* [Article topic](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) in our user guide.
-* [Article topic](https://developer.adobe.com/commerce/docs/) in our developer documentation. You can also say to differentiate between instructions in devdocs for cloud vs on-premises users: "[Article topic](https://developer.adobe.com/commerce/docs/) in our developer documentation for Adobe Commerce on cloud infrastructure." vs "[Article topic](https://developer.adobe.com/commerce/docs/) in our developer documentation for Adobe Commerce on-premises."
-* [Article topic](https://support.magento.com/hc/en-us) in our support knowledge base.
-* Any related resources (blogs, forums, StackOverflow, etc.)
+* For Magento Open Source version 2.4.8:
+
+    * LYNX-839_CE_2.4.8.patch
