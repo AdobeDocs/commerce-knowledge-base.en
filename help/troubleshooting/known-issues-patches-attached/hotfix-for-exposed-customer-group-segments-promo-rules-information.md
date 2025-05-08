@@ -3,8 +3,8 @@ title: Customer group names, segments, and promotional rule information exposed 
 description: This article provides a hotfix to prevent the exposure of customer group names, customer segments, and promotional rule information via [!DNL GraphQL].
 feature: GraphQL
 role: Admin, Developer
+exl-id: 96cd2608-25db-4dac-a5f8-6437a54e3134
 ---
-
 # Customer group names, segments, and promotional rule information exposed via [!DNL GraphQL]
 
 This article provides a hotfix to prevent the exposure of customer group names, customer segments, and promotional rule information via [!DNL GraphQL]. The issue is scheduled to be fixed in Adobe Commerce 2.4.8-p1.
