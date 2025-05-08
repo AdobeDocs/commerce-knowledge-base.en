@@ -11,8 +11,13 @@ This article provides a hotfix to prevent the exposure of customer group names, 
 
 ## Affected products and versions
 
-* The patch is created for Adobe Commerce version 2.4.8
-* Compatible with Adobe Commerce versions 2.4.8
+**The patch is created for Adobe Commerce version:**
+
+* Adobe Commerce (all deployment methods) 2.4.8
+
+**Compatible with Adobe Commerce versions:**
+
+* Adobe Commerce (all deployment methods) 2.4.8
 
 ## Issue
 
