@@ -16,13 +16,13 @@ This article provides a hotfix to prevent the exposure of customer group names, 
 
 ## Issue
 
-For **[!UICONTROL Storefront Personalization Drop-ins]**, new [!DNL GraphQL] mutations were introduced to display basic information like customer group names, segments, and cart or catalog rules. However, this can expose sensitive data such as offer details or coupon codes, if included in the names.
+For [!UICONTROL Storefront Personalization Drop-ins], new [!DNL GraphQL] mutations were introduced to display basic information like customer group names, segments, cart, and catalog rules. However, this can expose sensitive data such as offer details or coupon codes, if included in the names.
 
 ### Steps to reproduce
 
-#### Case I: **[!UICONTROL Catalog Rule]**
+#### Case I: [!UICONTROL Catalog Rule]
 
-1. Navigate to *Admin* > **[!UICONTROL Marketing]** > **[!UICONTROL Catalog Price Rule]** > **[!UICONTROL Add New Rule]**.
+1. On the *Admin* sidebar, go to **[!UICONTROL Marketing]** > **[!UICONTROL Catalog Price Rule]** > **[!UICONTROL Add New Rule]**.
 1. Define the rule conditions (for example, product attribute or category).
 1. Save and apply the rule.
 1. Ensure a product meets the rule conditions.
@@ -51,9 +51,9 @@ For **[!UICONTROL Storefront Personalization Drop-ins]**, new [!DNL GraphQL] mut
     }
     ```
 
-#### Case II: **[!UICONTROL Cart Rule]**
+#### Case II: [!UICONTROL Cart Rule]
 
-1. Navigate to *Admin* > **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rule]** > **[!UICONTROL Add New Rule]**.
+1. On the *Admin* sidebar, go to **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rule]** > **[!UICONTROL Add New Rule]**.
 1. Set conditions such as minimum cart value and customer group.
 1. Save and apply the rule.
 1. Add products to cart to trigger the rule.
@@ -79,9 +79,9 @@ For **[!UICONTROL Storefront Personalization Drop-ins]**, new [!DNL GraphQL] mut
     }
     ```
 
-#### Case III: **[!UICONTROL Customer Group]**
+#### Case III: [!UICONTROL Customer Group]
 
-1. Navigate to *Admin* > **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
+1. On the *Admin* sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 1. Verify that the expected groups exist.
 1. Use [!DNL GraphQL] to fetch all groups:
 
@@ -103,9 +103,9 @@ For **[!UICONTROL Storefront Personalization Drop-ins]**, new [!DNL GraphQL] mut
     }
     ```
 
-#### Case IV: **[!UICONTROL Customer Segment]** (for Adobe Commerce only)
+#### Case IV: [!UICONTROL Customer Segment] (for Adobe Commerce only)
 
-1. Go to *Admin* > **[!UICONTROL Customers]** > **[!UICONTROL Customer Segments]** → **[!UICONTROL Add Segment]**.
+1. On the *Admin* sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Customer Segments]** → **[!UICONTROL Add Segment]**.
 1. Define customer-based conditions (for example, order, cart contents).
 1. Assign applicable scope: *[!UICONTROL Visitor]*, *[!UICONTROL Registered]*, or both.
 1. Ensure that the conditions match a test customer.
