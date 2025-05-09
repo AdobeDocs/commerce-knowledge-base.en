@@ -13,7 +13,7 @@ role: Developer
 
  **Possible cause:** Permissions necessary to grant shared access have not been associated with your Commerce Account.
 
- **Solution:** 
+**Solution:** 
 
  * If you are the account owner (primary account holder), contact your Adobe account team. If your team member has access to Support, have them [create a support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed). Specify the name and email associated with your account.
  * If you are not the account owner, you must contact them to provide shared access and the necessary privileges.
@@ -84,7 +84,7 @@ role: Developer
 
  **Solution:** Clear your browser cache and access the Help Center again (make sure you have switched to shared access on your Commerce Account page).
 
- ## Related reading
+## Related reading
 
 * [Unable to log in to Adobe Commerce support or cloud account](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project)
 * [MageID account owner is unable to login and submit a support ticket](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)
