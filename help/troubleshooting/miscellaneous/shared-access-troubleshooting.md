@@ -46,7 +46,7 @@ role: Developer
  
  **Solution:** 
 
- 1. Make sure to select the organization with the ([!DNL Commerce]) suffix This is the organization that has the [!DNL Commerce] entitlements.
+ 1. Make sure to select the organization with the ([!DNL Commerce]) suffix. This is the organization that has the [!DNL Commerce] entitlements.
 
  If you continue to face issues, contact your Adobe account team. Specify the name and email associated with your account.
 
