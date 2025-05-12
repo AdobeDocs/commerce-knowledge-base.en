@@ -31,7 +31,7 @@ If they have not been added to the project, you will need to add them as a [!DNL
 
 If they have been added to the [!DNL cloud project], but don't have the [!DNL Super User role], update their [!DNL role] accordingly in [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
 
-If you wish to enable a team member to be a watcher on all cases opened for your organization, [submit a Support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support).
+If you wish to enable a team member to be a watcher on all cases opened for your organization, submit a [Support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support).
 
 ## Related reading
 
