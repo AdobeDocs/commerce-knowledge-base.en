@@ -16,7 +16,7 @@ Below are the critical usage notes.
 
 ### Enable outgoing emails
 
-Before using the **Forgot your password** form, [enable outgoing emails](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) using the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
+Before using the **Forgot your password** form, [enable outgoing emails](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) using the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) (integration environments and sandbox projects only).
 
 ### Check your Junk Email folder
 
