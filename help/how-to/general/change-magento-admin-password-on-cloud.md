@@ -16,7 +16,9 @@ Below are the critical usage notes.
 
 ### Enable outgoing emails
 
-Before using the **Forgot your password** form, ensure that you [enable outgoing emails](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) using the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html). This applies only to integration environments and sandbox projects. If outgoing emails are truly disabled on Pro Production or Staging - meaning that the email wasn't picked up by SendGrid - you can verify this by checking [Enable emails in the Cloud Console](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/outgoing-emails#enable-emails-in-the-cli). If the issue persists, you can submit an [Adobe Commerce Support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
+Before using the **Forgot your password** form, ensure that you [enable outgoing emails](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) using the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html). This applies only to integration environments and sandbox projects. 
+
+If outgoing emails are truly disabled on Pro Production or Staging - meaning that the email wasn't picked up by SendGrid - you can verify this by checking [Enable emails in the Cloud Console](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/outgoing-emails#enable-emails-in-the-cli). If the issue persists, you can submit an [Adobe Commerce Support ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
 
 ### Check your Junk Email folder
 
