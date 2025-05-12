@@ -16,7 +16,7 @@ This article provides an explanation of how to include a team member to automati
 ## Cause
 
 * The team member has not been added to the [!DNL cloud project] with the necessary privileges.
-* The team member does not have a Support account.
+* The team member doesn't have a Support account.
 
 ## Solution
 
@@ -30,6 +30,8 @@ If they have not been added to the project, you will need to add them as a [!DNL
 * [Adobe Commerce Help Center User Guide: Shared Access](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access) in our Commerce Knowledge Base.
 
 If they have been added to the [!DNL cloud project], but don't have the [!DNL Super User role], update their [!DNL role] accordingly in [Manage user access](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
+
+If you wish to enable a team member to be a watcher on all cases opened for your organization, [submit a Support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support).
 
 ## Related reading
 
