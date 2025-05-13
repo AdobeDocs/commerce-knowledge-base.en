@@ -168,6 +168,19 @@ Check in the output to see if there is memory has been allocated but is unused. 
 Example below using the table listed above with the most unused space:
 
 1. Place your site into maintenance mode, and stop cronjobs so that there are no interactions taking place on the Database. For steps, refer to [Enable or disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) and [Disable cron jobs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
+1. Reclaim that space by recreating the table using the following command:
+
+    ```sql
+    ALTER TABLE vertex_taxrequest Engine = "INNODB";
+
+ 1. Run the following query to check for unallocated space:
+
+    ```sql
+    SELECT table_name, round((data_length+index_length)/1048576,2) as size_MB, round((data_free)/1048576,2) as Allocated_but_unused FROM information_schema.tables WHERE 1 AND data_free > 1048576*10 ORDER BY data_free DESC;
+
+  Do the above for each table that shows a high value within the column **[!UICONTROL Allocated_but_unused]**.
+ 1. Now [Disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1) and [Disable cron jobs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
+
 
 ### Allocate/buy more space
 
