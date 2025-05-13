@@ -1,0 +1,37 @@
+
+---
+**Learn how to solve Opensearch search engine doesn't exist.** 
+
+---
+
+# Error in log file: Opensearch engine does not exist
+
+If you have set your Search Engine to Opensearch and getting the error "Opensearch search engine doesn't exist in the log file support_report.log" update the SEARCH_CONFIGURATION variable in the .magento.env.yaml file and ensure that the engine is set to elasticsearch7. You must have Adobe Commerce Cloud version 2.4.4 or 2.4.5 installed.
+ 
+## Description
+This article provides a solution for the issue Opensearch search engine doesn't exist in the log file support_report.log.
+
+### Environment
+
+Adobe Commerce on cloud infrastructure (all [supported versions]
+
+### Issue description
+
+Version supports Opensearch, but the application only recognizes and accepts elasticsearch7 as the search engine.
+
+### Steps to reproduce
+
+ 1. In version 2.4.6 of Adobe Commerce Cloud go to Stores > Configuration > Catalog > Catalog Search in a {*}non-Cloud environment{*}.
+ 2. Update the application to allow Opensearch to be selected as the search engine.
+ **Note:** On a Cloud environment, this field cannot be changed because the search engine is locked in the app/etc/env.php file.
+
+## Resolution
+
+ 1. Update the SEARCH_CONFIGURATION variable in the .magento.env.yaml file.
+ 2. Set the engine to elasticsearch7.
+
+### Cause 
+On a cloud environment the Catalog search field is locked in app/etc/env.php file and cannot be set to Opensearch as the search engine.
+
+
+
