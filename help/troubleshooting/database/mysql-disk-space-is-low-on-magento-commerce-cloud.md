@@ -138,24 +138,38 @@ If you don't have access to [!DNL MySQL] server settings, request support to che
 
 1. SSH into Node One and log in to MySQL:
 
-```sh
-mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
-```
+    ```sh
+    mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
+    ```
 
 For more detailed steps, refer to [Remote DB Connection & Execute Queries](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries)
 
 1. Check for unused space:
 
-```sql
-SELECT table_name, 
+    ```sql
+    SELECT table_name, 
        round((data_length+index_length)/1048576,2) AS size_MB, 
        round((data_free)/1048576,2) AS Allocated_but_unused 
-FROM information_schema.tables 
-WHERE data_free > 1048576*10 
-ORDER BY data_free DESC;
-```
+    FROM information_schema.tables 
+    WHERE data_free > 1048576*10 
+    ORDER BY data_free DESC;
+   ```
+
+Example output:
+
+Example:
++-----------------------------------------------------------+----------+----------------------+
+| table_name                                                | size_MB  | Allocated_but_unused |
++-----------------------------------------------------------+----------+----------------------+
+| vertex_taxrequest                                         | 28145.20 |             14943.00 |
 
 Check in the output to see if there is memory has been allocated but is unused. This occurs when data has been deleted from within a table however the memory is still allocated to that table.
+
+Example below using the table listed above with the most unused space:
+
+1. Place your site into maintenance mode, and stop cronjobs so that there are no interactions taking place on the Database. For steps, refer to [Enable or disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) and [Disable cron jobs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
+
+### Allocate/buy more space
 
 Allocate more disk space for [!DNL MySQL] if you have some unused. See the [Check disk space limit](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md) article to learn how to check if you have free disk space.
 
