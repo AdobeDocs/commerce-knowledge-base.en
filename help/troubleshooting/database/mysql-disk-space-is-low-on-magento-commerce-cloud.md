@@ -157,11 +157,9 @@ If you don't have access to [!DNL MySQL] server settings, request support to che
 
     Example output:
 
-    Example:
-    +-----------------------------------------------------------+----------+----------------------+
-    | table_name                                                | size_MB  | Allocated_but_unused |
-    +-----------------------------------------------------------+----------+----------------------+
-    | vertex_taxrequest                                         | 28145.20 |             14943.00 |
+    | Table Name           | Size (MB) | Allocated but Unused (MB) |
+    |----------------------|----------|--------------------------|
+    | vertex_taxrequest   | 28145.20  | 14943.00                 |
 
     Check in the output to see if there is memory has been allocated but is unused. This occurs when data has been deleted from within a table however the memory is still allocated to that table.
 
@@ -172,13 +170,13 @@ If you don't have access to [!DNL MySQL] server settings, request support to che
     ```sql
     ALTER TABLE vertex_taxrequest Engine = "INNODB";
 
- 1. Run the following query to check for unallocated space:
+ 1. Run the following query to check for unallocated space for each table that shows a high value within the column **[!UICONTROL Allocated_but_unused]**.
 
     ```sql
     SELECT table_name, round((data_length+index_length)/1048576,2) as size_MB, round((data_free)/1048576,2) as Allocated_but_unused FROM information_schema.tables WHERE 1 AND data_free > 1048576*10 ORDER BY data_free DESC;
 
-  Do the above for each table that shows a high value within the column **[!UICONTROL Allocated_but_unused]**.
- 1. Now [Disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1) and [Disable cron jobs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
+ 
+1. Now [Disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1) and [Disable cron jobs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
 
 
 ### Allocate/buy more space
