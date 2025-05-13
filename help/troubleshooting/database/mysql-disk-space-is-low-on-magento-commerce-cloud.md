@@ -134,7 +134,28 @@ Check your [!DNL MySQL] server binary logging settings: `log_bin` and `log_bin_i
 
 If you don't have access to [!DNL MySQL] server settings, request support to check it.
 
-### Allocate/buy more space
+### Reclaim unused allocated disk space
+
+1. SSH into Node One and log in to MySQL:
+
+```sh
+mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
+```
+
+For more detailed steps, refer to [Remote DB Connection & Execute Queries](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries)
+
+1. Check for unused space:
+
+```sql
+SELECT table_name, 
+       round((data_length+index_length)/1048576,2) AS size_MB, 
+       round((data_free)/1048576,2) AS Allocated_but_unused 
+FROM information_schema.tables 
+WHERE data_free > 1048576*10 
+ORDER BY data_free DESC;
+```
+
+Check in the output to see if there is memory has been allocated but is unused. This occurs when data has been deleted from within a table however the memory is still allocated to that table.
 
 Allocate more disk space for [!DNL MySQL] if you have some unused. See the [Check disk space limit](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md) article to learn how to check if you have free disk space.
 
