@@ -13,6 +13,20 @@ Adobe Commerce offers a variety of support tools that help and empower you to im
 
   * [Site-Wide Analysis Tool by Adobe: overview](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
 
+* [!DNL Quality Patches Tool] (QPT)
+
+  * [Patches available in QPT tool overview](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/patches-available-in-qpt-tool-overview)
+
+    The [[!DNL Quality Patches Tool]](https://github.com/magento/quality-patches) (QPT) is a tool allowing you to apply individual quality patches developed by Adobe and the Magento Open Source community.
+
+    It allows you to:
+
+    * Apply quality patches included to the package
+    * Revert previously applied patches
+    * View the general information about quality patches available for the installed version of Adobe Commerce.
+
+    The tool is aimed to enable you to self-serve with patches for issues you might experience with Adobe Commerce, or easily apply patches suggested by Adobe Commerce support.
+
 * Observation for Adobe Commerce
 
   * [Observation for Adobe Commerce overview](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/observation-for-adobe-commerce/intro)
