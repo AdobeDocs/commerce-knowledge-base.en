@@ -17,7 +17,7 @@ Adobe Commerce on cloud infrastructure
 
 >[!NOTE]
 >
->[!DNL OpenSearch] is available as a search engine starting from Adobe Commerce 2.4.6, , 2.4.5-p12, 2.4.4-p13.
+>[!DNL OpenSearch] is available as a search engine starting from Adobe Commerce 2.4.6, 2.4.5-p12, 2.4.4-p13.
 
 ## Issue
 
