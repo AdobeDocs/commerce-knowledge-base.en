@@ -11,11 +11,13 @@ This article provides a solution for the issue when a *Falling back to [!DNL Ela
 
 ## Affected versions
 
-Adobe Commerce on cloud infrastructure 2.4.4 - 2.4.5
+Adobe Commerce on cloud infrastructure
+2.4.4 - 2.4.4-p12
+2.4.5 - 2.4.5-p11
 
 >[!NOTE]
 >
->[!DNL OpenSearch] is available as a search engine starting from Adobe Commerce 2.4.6.
+>[!DNL OpenSearch] is available as a search engine starting from Adobe Commerce 2.4.6, , 2.4.5-p12, 2.4.4-p13.
 
 ## Issue
 
