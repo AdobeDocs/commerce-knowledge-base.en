@@ -21,7 +21,7 @@ Adobe Commerce offers a variety of support tools that help and empower you to im
 
     It allows you to:
 
-    * Apply quality patches included to the package
+    * Apply quality patches included in the package
     * Revert previously applied patches
     * View the general information about quality patches available for the installed version of Adobe Commerce.
 
