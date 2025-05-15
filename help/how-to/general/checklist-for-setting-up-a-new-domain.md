@@ -56,7 +56,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 * **YES**: [Update the [!DNL DNS] configuration with [!UICONTROL production] settings](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings).
 * **NO**: [Update the [!DNL DNS] configuration with [!UICONTROL development] settings](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
 
-### Step 5 - Is the [!DNL domain] Configuration Verified?
+### Step 5 - Is the [!DNL domain] configuration verified?
 
 If you have added new stores, store group, and websites in **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL All Stores]** for the new domain(s), check whether the following sections can be seen in your `app/etc/config.php` file, for example:
 
