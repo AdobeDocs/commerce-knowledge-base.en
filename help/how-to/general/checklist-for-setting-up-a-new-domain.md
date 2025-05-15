@@ -144,10 +144,11 @@ If you have added new stores, store group, and websites in **[!UICONTROL Stores]
         ],
     ],
 ]
+```
 
-This is means that you have set up SCD on Build by running the `config:dump` command in the ece-tools package in the past.
+This means that you have set up SCD on Build by running the `config:dump` command in the ece-tools package in the past.
 
-Make sure to run the command again to sync the config.php with the changes to your database, then commit the config.php file and redeploy. This is to facilitate static content deployment for the new store/website(s) to the appropriate file paths.
+Make sure to run the command again to sync the `config.php` file with the changes to your database, then commit the `config.php` file and redeploy. This is to facilitate static content deployment for the new store/website(s) to the appropriate file paths.
 
 ## Related reading
 
