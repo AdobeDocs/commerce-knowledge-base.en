@@ -7,6 +7,7 @@ type: Troubleshooting
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/commerce-knowledge-base.en
 index: yes
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 ---
 
 # Metadata for internal use
