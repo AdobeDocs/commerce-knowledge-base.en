@@ -9,6 +9,10 @@ role: Developer
 
 Click on each question to reveal the answer details in each step of the troubleshooter.
 
+>[!NOTE]
+>
+>Before creating a [Support Ticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-cases), check the [[!DNL Quality Patches Tool]: Search for patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) page to see if your issue is already listed.
+
 ## Step 1 {#step-1}
 
 +++**Does <https://status.adobe.com> show any issues?**
