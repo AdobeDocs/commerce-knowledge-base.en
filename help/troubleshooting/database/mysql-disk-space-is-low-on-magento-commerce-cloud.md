@@ -152,7 +152,8 @@ If you don't have access to [!DNL MySQL] server settings, request support to che
        round((data_free)/1048576,2) AS Allocated_but_unused 
     FROM information_schema.tables 
     WHERE data_free > 1048576*10 
-    ORDER BY data_free DESC;```
+    ORDER BY data_free DESC;
+    ```
 
     Example output:
 
