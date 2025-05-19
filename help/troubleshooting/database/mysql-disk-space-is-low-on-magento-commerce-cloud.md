@@ -167,7 +167,7 @@ If you don't have access to [!DNL MySQL] server settings, request support to che
 1. Reclaim that space by recreating the table using the following command (example using the table listed above with the most unused space):
 
     ```sql
-    ALTER TABLE vertex_taxrequest Engine = "INNODB";
+    ALTER TABLE vertex_taxrequest Engine = "INNODB";```
 
  1. Run the following query to check for unallocated space for each table that shows a high value within the column **[!UICONTROL Allocated_but_unused]**.
 
