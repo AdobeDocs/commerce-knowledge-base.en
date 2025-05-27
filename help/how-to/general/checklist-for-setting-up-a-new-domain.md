@@ -58,7 +58,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 
 ### Step 5 - Is the [!DNL domain] configuration verified?
 
-If you have added new stores, store group, and websites in **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL All Stores]** for the new domain(s), check whether the following sections can be seen in your `app/etc/config.php` file, for example:
+If you have added new stores, store groups, and websites in **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL All Stores]** for the new domain(s), check whether the following sections appear in your `app/etc/config.php` file, for example:
 
 ```php
 'scopes' => [
