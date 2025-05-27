@@ -56,6 +56,100 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 * **YES**: [Update the [!DNL DNS] configuration with [!UICONTROL production] settings](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings).
 * **NO**: [Update the [!DNL DNS] configuration with [!UICONTROL development] settings](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
 
+### Step 5 - Is the [!DNL domain] configuration verified?
+
+If you have added new stores, store groups, and websites in **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL All Stores]** for the new domain(s), check whether the following sections appear in your `app/etc/config.php` file, for example:
+
+```php
+'scopes' => [
+    'websites' => [
+        'admin' => [
+            'website_id' => '0',
+            'code' => 'admin',
+            'name' => 'Admin',
+            'sort_order' => '0',
+            'default_group_id' => '0',
+            'is_default' => '0',
+        ],
+        'base' => [
+            'website_id' => '1',
+            'code' => 'base',
+            'name' => 'Main Website',
+            'sort_order' => '0',
+            'default_group_id' => '1',
+            'is_default' => '1',
+        ],
+        'site2' => [
+            'website_id' => '2',
+            'code' => 'site2',
+            'name' => 'Second Website',
+            'sort_order' => '0',
+            'default_group_id' => '2',
+            'is_default' => '0',
+        ],
+    ],
+    'groups' => [
+        0 => [
+            'group_id' => '0',
+            'website_id' => '0',
+            'name' => 'Default',
+            'root_category_id' => '0',
+            'default_store_id' => '0',
+            'code' => 'default',
+        ],
+        1 => [
+            'group_id' => '1',
+            'website_id' => '1',
+            'name' => 'Main Website Store',
+            'root_category_id' => '2',
+            'default_store_id' => '1',
+            'code' => 'main_website_store',
+        ],
+        2 => [
+            'group_id' => '2',
+            'website_id' => '2',
+            'name' => 'Second Website Store',
+            'root_category_id' => '2',
+            'default_store_id' => '2',
+            'code' => 'site2store',
+        ],
+    ],
+    'stores' => [
+        'admin' => [
+            'store_id' => '0',
+            'code' => 'admin',
+            'website_id' => '0',
+            'group_id' => '0',
+            'name' => 'Admin',
+            'sort_order' => '0',
+            'is_active' => '1',
+        ],
+        'default' => [
+            'store_id' => '1',
+            'code' => 'default',
+            'website_id' => '1',
+            'group_id' => '1',
+            'name' => 'Default Store View',
+            'sort_order' => '0',
+            'is_active' => '1',
+        ],
+        'site2sv' => [
+            'store_id' => '2',
+            'code' => 'site2sv',
+            'website_id' => '2',
+            'group_id' => '2',
+            'name' => 'Second Website Store view',
+            'sort_order' => '0',
+            'is_active' => '1',
+        ],
+    ],
+]
+```
+
+This means that you have set up [SCD on Build](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build) by running the `config:dump` command in the `ece-tools` package in the past.
+
+If you find that the new store/website you've created isn't showing in the `app/etc/config.php` file, make sure to run the command again to sync the `config.php` file with the changes to your database, then commit the `config.php` file and redeploy. This is to facilitate static content deployment for the new store/website(s) to the appropriate file paths.
+
 ## Related reading
 
 * [Set up multiple websites or stores: Add New [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) in our user guide.
