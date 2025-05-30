@@ -26,5 +26,5 @@ Partners with a Partner Sandbox Cloud project cannot submit tickets for sandbox-
 
 * Solution Partners should submit sandbox-related support requests by emailing [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com). These requests will be routed to the Partner Technical Support team.
 * Tech Partners should contact [Marketplace Support](mailto:commercemarketplacesupport@adobe.com).
-If you're submitting a ticket on behalf of a merchant who has not been granted Shared Access, please request access from the account owner. For steps, refer to [Shared Access: Grant Privileges for other users to access your account](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access). 
+If you're submitting a ticket on behalf of a merchant who has not been granted Shared Access, please request access from the account owner. For steps on how to request access, refer to [Shared Access: Grant Privileges for other users to access your account](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access). 
 
