@@ -19,11 +19,9 @@ This article covers the backing up your environments with snapshots on Adobe Com
 
 * Manual snapshots are not available for Staging and Production environments on Pro plan.
 * Automatic snapshots are created **regardless of the live state** of your site (snapshots are also created for sites that have not been launched yet). Automatic backups are not publicly accessible because they are stored in a separate system.
-You can [submit an Adobe Commerce Support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to request a special backup or to restore from a specific backup providing the date, time, and timezone in the ticket. 
+You can [submit an Adobe Commerce Support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to request a special backup or to restore from a specific backup providing the date, time, and timezone in the ticket. To determine the timestamp when the snapshot was originally taken, run the following command from the location where the infrastructure team has placed the snapshot:
 
-To determine the timestamp when the snapshot was originally taken, run the following command from the location where the infrastructure team has placed the snapshot:
-
-`cat /mnt/recovery/vol-<volume_id>/snap.time`
+  `cat /mnt/recovery/vol-<volume_id>/snap.time`
 
 Example output:
 
