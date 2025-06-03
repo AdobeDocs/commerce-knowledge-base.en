@@ -7,6 +7,9 @@ feature: Best Practices, Build, Cloud, Console
 # Reset environment on Adobe Commerce on cloud infrastructure
 
 This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure.
+>[!NOTE]
+>
+>This guide applies to all Cloud Starter environments and only Integration environments on Cloud Pro.
 
 Choose the most appropriate for your case:
 
@@ -21,7 +24,7 @@ With a planned deployment or upgrade, the easiest and recommended [!UICONTROL Ro
 
 >[!NOTE]
 >
->Always test these steps in your **[!UICONTROL Staging Environment]** first!
+>Always test these steps in your lower environment first!
 
 <u>Five days prior to the upgrade/deployment activities</u>:
 
