@@ -23,12 +23,12 @@ You can [submit an Adobe Commerce Support ticket](/docs/commerce-knowledge-base/
 
   `cat /mnt/recovery/vol-<volume_id>/snap.time`
 
-Example output:
+  Example output:
 
-<strong>2024-11-13 08:42:17.123000+00:00</strong>
+  <strong>2024-11-13 08:42:17.123000+00:00</strong>
 
-Support does not generate any manual snapshots on demand.
-Also, note that support does not perform the rollback or restoration of the database for you - they retrieve the snapshot, but you must restore the database yourself.
+
+* Support does not generate any manual snapshots on demand. Also, note that support does not perform the rollback or restoration of the database for you - they retrieve the snapshot, but you must restore the database yourself.
 * The backups are created using the **encrypted Amazon Web Services Elastic Block Store (AWS EBS) snapshots**.
 * Environment snapshots include your full system (file system and the database).
 * Retention time for automatic snapshots **is different** and follows [the schedule](/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#backup-and-disaster-recovery).
