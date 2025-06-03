@@ -28,7 +28,7 @@ Choose the most appropriate for your case:
 
 >[!NOTE]
 >
-> The format of the snapshot on **Azure projects** will be different and may include other databases that **cannot be imported**.  
+> The format of the snapshot on **Azure projects** will be different and contains other databases that **cannot be imported**.  
 > Before importing the snapshot, you must take additional steps to **extract the appropriate database** before proceeding with the dump import.
 
 The steps are:
