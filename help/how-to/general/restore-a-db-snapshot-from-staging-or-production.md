@@ -47,8 +47,7 @@ The steps are:
    cd /mnt/shared/<cluster ID>/
    gunzip all-databases.sql.gz 
    head -n 17 all-databases.sql > <cluster ID>.sql 
-   sed -n '/^-- Current Database: `<cluster ID>`/,/^-- Current Database: `/p' all-databases.sql >> <cluster ID>.sql 
-   gzip <cluster ID>.sql
+   sed -n '/^-- Current Database: `<cluster ID>`/,/^-- Current Database: `/p' all-databases.sql >> <cluster ID>.sql gzip <cluster ID>.sql
    zcat <cluster ID>.sql.gz | \
    sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | \
    mysql -h 127.0.0.1 \
