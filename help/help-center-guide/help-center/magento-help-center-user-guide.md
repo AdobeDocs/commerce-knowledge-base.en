@@ -263,7 +263,7 @@ To close your case, click **[!UICONTROL Close case]** at the bottom right of the
 
 ### Reopen your case {#reopen-case}
 
->[!Note]
+>[!NOTE]
 >
 >You cannot reopen a case by responding to an email notification from a closed ticket. To reopen the case, make sure that you have been given [Shared Access](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26164) by the account owner.
 
