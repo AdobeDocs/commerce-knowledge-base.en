@@ -25,7 +25,7 @@ You can [submit an Adobe Commerce Support ticket](/docs/commerce-knowledge-base/
 
   Example output:
 
-  <strong>2024-11-13 08:42:17.123000+00:00</strong>
+  <strong>2025-01-13 08:42:17.123000+00:00</strong>
 
 
 * Support does not generate any manual snapshots on demand. Also, note that support does not perform the rollback or restoration of the database for you - they retrieve the snapshot, but you must restore the database yourself.
