@@ -36,8 +36,8 @@ The steps are:
 1. Using [!DNL SFTP], navigate to the location where the database [!DNL snapshot] has been placed, usually on the first server/node of your [!DNL cluster] (For example: `/mnt/recovery-<recovery_id>`).  
    > **Azure-based projects:**  
    > If your project is Azure-based (i.e., your project URL looks like `https://us-a1.magento.cloud/projects/<cluster_id>`), the snapshot will be placed in:  
-   > - `/mnt/shared/<cluster ID>/all-databases.sql.gz`  
-   > - `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz`
+   > * `/mnt/shared/<cluster ID>/all-databases.sql.gz`  
+   > * `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz`
 
    ### Azure-specific extraction steps
 
