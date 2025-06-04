@@ -72,7 +72,7 @@ For Adobe Commerce versions:
 
 ### II. CVE-2025-47109: Reflected XSS in marketplace.magento.com + one-click ATO issue impacting IMS instances
 
-A reflected XSS vulnerability exists in [marketplace.magento.com](/https://marketplace.magento.com) which when chained to Adobe IMS endpoints (services.adobe.com) enables a one-click account takeover (ATO).
+A reflected XSS vulnerability exists in [marketplace.magento.com](https://marketplace.magento.com) which when chained to Adobe IMS endpoints (services.adobe.com) enables a one-click account takeover (ATO).
 
 <u>Affected products and versions</u>:
 
