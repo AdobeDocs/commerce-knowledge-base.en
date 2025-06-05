@@ -45,7 +45,7 @@ The steps are:
     cd /mnt/shared/<cluster ID/ | cd /mnt/shared/<cluster ID_stg>
     gunzip all-databases.sql.gz 
     head -n 17 all-databases.sql > <cluster ID_stg>.sql
-    sed -n '/^-- Current Database: `wyf2o4zlrljjs`/,/^-- Current Database: `/p' all-databases.sql >> <cluster ID_stg>.sql 
+    sed -n '/^-- Current Database: <cluster ID_stg>/,/^-- Current Database: `/p' all-databases.sql >> <cluster ID_stg>.sql 
     gzip <cluster ID_stg>.sql  
     zcat <cluster ID_stg>.sql.gz | \
     sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | \
