@@ -27,7 +27,7 @@ In this guide, learn how to submit a support ticket to [Experience League Suppor
 **[SUPPORT CASES](#support-cases)**
 
 * [Sign in to Experience League Support](#sign-in-experience-support)
-* [Submit a support case](#submit-case)
+* [Submit a support case](#support-case)
 
     * [Adobe Experience League start page](#experience-league-start-page)
     * [Adobe Commerce account page](#submit-case-adobe-commerce-account-page)
