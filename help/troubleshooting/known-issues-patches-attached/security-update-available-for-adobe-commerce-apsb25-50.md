@@ -13,7 +13,7 @@ More information can be found in the [Adobe Security Bulletin ([!DNL APSB25-50])
 
 >[!NOTE]
 >
->**To help ensure that the remediation for [!DNL CVE-2025-47109] and [!DNL CVE-2025-47110], listed in the security bulletin above, can be applied as promptly as possible, Adobe has also released an isolated patch that resolves both these vulnerabilities [!DNL CVE-2025-47109] and [!DNL CVE-2025-47110]. This allows merchants to apply the fix in isolation with fewer risks of delay due to potential integration issues.** 
+>**To help ensure that the remediation for [!DNL CVE-2025-47110] listed in the security bulletin above, can be applied as promptly as possible, Adobe has also released an isolated patch that resolves both these vulnerabilities [!DNL CVE-2025-47110]. This allows merchants to apply the fix in isolation with fewer risks of delay due to potential integration issues.** 
 
 **Please apply the latest security updates as soon as possible. If you fail to do so, you will be vulnerable to these security issues, and Adobe will have limited means to help remediate the issue further.**
 
@@ -44,8 +44,6 @@ Adobe Commerce (all deployment menthods):
 
 ### I. CVE-2025-47110: Stored XSS via Server-Side Template Injection in Adobe Commerce 2.4.7-p4
 
-A Stored XSS vulnerability allows attackers with limited privileges (For example: marketing users) to inject malicious [!DNL JavaScript] into every admin page. This is achieved by exploiting server-side template injection in the email template preview feature, bypassing the fix for CVE-2023-29297.
-
 <u>Affected products and versions</u>:
 
 Adobe Commerce (all deployment menthods):
@@ -70,9 +68,7 @@ For Adobe Commerce versions:
 
 * **[VULN-31609_2.4.X.patch](assets/VULN-31609_2.4.X_patch.zip)**
 
-### II. CVE-2025-47109: Reflected XSS in marketplace.magento.com + one-click ATO issue impacting IMS instances
-
-A reflected XSS vulnerability exists in [marketplace.magento.com](https://marketplace.magento.com) which when chained to Adobe IMS endpoints (services.adobe.com) enables a one-click account takeover (ATO).
+### II. VULN-31547: Reflected XSS in marketplace.magento.com + one-click ATO issue impacting IMS instances
 
 <u>Affected products and versions</u>:
 
