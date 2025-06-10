@@ -1,7 +1,7 @@
 ---
 title: Security update available for Adobe Commerce - [!DNL APSB25-50]
 promoted: true
-description: Apply an Isolated patch to remediate [!DNL critical and important vulnerabilities] for Adobe Commerce 2.4.9-alpha1, 2.4.8-p1, 2.4.7-p6, 2.4.6-p11, 2.4.5-p13, 2.4.4-p14, and earlier versions.
+description: Apply an Isolated patch to remediate [!DNL critical and important vulnerabilities] for Adobe Commerce 2.4.8, 2.4.7-p5, 2.4.6-p10, 2.4.5-p12, 2.4.4-p13, and earlier versions.
 feature: Compliance, Security
 role: Developer
 ---
@@ -33,7 +33,6 @@ As a reminder, you can find [the latest Security updates available for Adobe Com
 
 Adobe Commerce (all deployment menthods):
 
-* 2.4.9-alpha1 
 * 2.4.8
 * 2.4.7-p5 and earlier
 * 2.4.6-p10 and earlier
@@ -74,15 +73,13 @@ For Adobe Commerce versions:
 
 Adobe Commerce (all deployment menthods): 
 
-* 2.4.9-alpha1 
-* 2.4.8-p1 and earlier
+* 2.4.8
 
 <u>Solution</u>:
 
 For Adobe Commerce versions:
 
-* 2.4.9-alpha1
-* 2.4.8, 2.4.8-p1
+* 2.4.8
 
 **Apply the following isolated patch or upgrade to the latest security patch.**
 
