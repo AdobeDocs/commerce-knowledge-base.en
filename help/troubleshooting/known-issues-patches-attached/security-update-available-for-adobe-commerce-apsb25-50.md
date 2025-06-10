@@ -91,7 +91,7 @@ Unzip the file and see [How to apply a composer patch provided by Adobe](https:/
 
 ## For Adobe Commerce on Cloud merchants only - How to tell whether the Isolated patches have been applied
 
-Considering that it isn't possible to easily check if the issue was patched, you might want to check whether the [!DNL CVE-2025-24434] Isolated patch has been successfully applied. 
+Considering that it isn't possible to easily check if the issue was patched, you might want to check whether the [!DNL CVE-2025-47110] isolated patch has been successfully applied. 
 
 >[!NOTE]
 >
