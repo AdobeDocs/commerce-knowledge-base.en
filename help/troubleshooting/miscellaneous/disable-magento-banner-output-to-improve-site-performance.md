@@ -32,7 +32,7 @@ For Adobe Commerce on cloud infrastructure 2.2.x:
 
 If you do not see the **[!UICONTROL Banners]** option under **[!UICONTROL Content]** > **[!UICONTROL Elements]**, it means that you have already applied the recommendations from this article.
 
-For Adobe Commerce on cloud infrastructure 2.3.x (the functionality was [renamed in v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
+For Adobe Commerce on cloud infrastructure 2.3.x and newer (the functionality was [renamed in v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
 
 1. Log in to the Commerce Admin.
 1. Navigate to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Dynamic Blocks]**.
