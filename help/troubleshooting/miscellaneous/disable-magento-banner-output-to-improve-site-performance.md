@@ -27,18 +27,18 @@ To check if this is the case:
 For Adobe Commerce on cloud infrastructure 2.2.x:
 
 1. Log in to the Commerce Admin.
-1. Navigate to **Content** > *Elements* > **Banners**.
+1. Navigate to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Banners]**.
 1. If the grid displayed on this page is empty, you do not have any banners.
 
-If you do not see the **Banners** option under **Content** > *Elements*, then this is not the case, and the recommendations from this article cannot be applied.
+If you do not see the **[!UICONTROL Banners]** option under **[!UICONTROL Content]** > **[!UICONTROL Elements]**, it means that you have already applied the recommendations from this article.
 
-For Adobe Commerce on cloud infrastructure 2.3.x (the functionality was [renamed in v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
+For Adobe Commerce on cloud infrastructure 2.3.x and newer (the functionality was [renamed in v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
 
 1. Log in to the Commerce Admin.
-1. Navigate to **Content** > *Elements >*  **Dynamic Blocks**.
+1. Navigate to **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Dynamic Blocks]**.
 1. If the grid displayed on this page is empty, you do not have any dynamic blocks (banners).
 
-If you do not see the **Dynamic Blocks** option under **Content** > *Elements*, then this is not the case, and the recommendations from this article cannot be applied.
+If you do not see the **[!UICONTROL Dynamic Blocks]** option under **[!UICONTROL Content]** > **[!UICONTROL Elements]**, it means that you have already applied the recommendation from this article. To see the banners option again, reverse the process. 
 
 ## Cause
 
@@ -52,3 +52,6 @@ When the `Magento_Banner` module is enabled, Adobe Commerce sends Ajax requests 
 
 1. Disable the `Magento_Banner` module output, as described in [Disable module output](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output) in our developer documentation. The module name you need to use is `Magento_Banner`.
 1. Deploy your code. For Adobe Commerce on cloud infrastructure, deploy as described in the [Deploy your store](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) article in our developer documentation.
+1. After disabling the module output, the menu no longer appears in the admin. 
+1. You will no longer see Banner or Dynamic option under **[!UICONTROL Content]** > **[!UICONTROL Elements]**. To show the options again, [enable the module output](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output?lang=en#disable-module-output-in-a-simple-deployment).
+
