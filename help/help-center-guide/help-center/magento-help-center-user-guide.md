@@ -263,7 +263,9 @@ To close your case, click **[!UICONTROL Close case]** at the bottom right of the
 
 ### Reopen your case {#reopen-case}
 
-To reopen your case, reply to the email from our Support System related to that case and request the agent to reopen it. If you do this within 14 days of the case being closed, the agent can reopen the case for you. However, if it's after 14 days, the agent will have to create a new case.
+>[!NOTE]
+>
+>You cannot reopen a case by responding to an email notification from a closed ticket. To reopen the case, make sure that you have been given [Shared Access](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26164) by the account owner.
 
 ### Submit ticket using Cloud Console {#cloud-console}
 
