@@ -56,7 +56,7 @@ Check out the [Adobe Commerce release schedule](https://experienceleague.adobe.c
 
 ### Where do customers go to get quality patches?
 
-Quality patches are a way to distribute fixes for individual quality issues. Customers can contact Adobe Support or use the [[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) to find quality patches.
+Quality patches are a way to distribute fixes for individual quality issues. Customers can contact Adobe Support or use the [[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) to find quality patches.
 
 ### What resources are available to help with planning, budgeting, and upgrades in general?
 
