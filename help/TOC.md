@@ -175,7 +175,6 @@ breadcrumb-title: Commerce KB
     * [Cannot access Adobe Commerce on cloud infrastructure UI](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
     * [Vertex Address Cleansing: different addresses not allowed](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md)
     * [Changes to categories are not being saved](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
-    * [Live Search displays out-of-stock products regardless of stock status settings in admin](/help/troubleshooting/miscellaneous/live-search-displays-out-of-stock-products.md)
     * [Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
     * [Magento Order Management System (OMS) for Adobe Commerce processing error](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
     * [Slow performance due to non-cacheable pages](/help/troubleshooting/miscellaneous/slow-performance-due-to-non-cacheable-pages.md)
