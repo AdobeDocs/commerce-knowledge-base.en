@@ -26,7 +26,7 @@ As defined in [Adobe Commerce Support Services Terms and Conditions](https://www
 Note: If you reach voicemail for any reason, please leave your information: Full Name, Company, Phone #, and Ticket #. The lines are monitored and an Engineer will return your call as soon as possible.
 
 * US
-  * Toll Free: (+1) 800 497 0335 (At first menu, press 6 for Adobe Commerce P1 hotline)
+  * Toll Free: (+1) 800 497 0335 (At first menu, press 3 for Adobe Commerce P1 hotline)
 * EMEA
   * UK: (+44) 800 169 0454 (At first menu, press 6 for Adobe Commerce P1 hotline)
   * Denmark: (+45) 80206017 (At first menu, press 6 for Adobe Commerce P1 hotline)
