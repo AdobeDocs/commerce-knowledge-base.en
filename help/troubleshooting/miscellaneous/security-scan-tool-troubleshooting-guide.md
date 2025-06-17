@@ -98,7 +98,7 @@ You can generate the previous 10 reports from your end. If older reports are req
 
 ### What information is needed when submitting a support ticket?
 
-Please make sure to provide the domain name. If you don't have [access to the Security Scan results](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357) try to provide the MAGE ID of the user who originally set up the scan.
+Please provide the domain name exactly as it is submitted for the [security scan](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID, and Cloud Project_ID.
 
 ### What happens if I remove my store from scan tool scanning?
 
