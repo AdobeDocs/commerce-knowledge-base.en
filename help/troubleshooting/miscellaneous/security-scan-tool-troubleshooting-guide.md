@@ -98,8 +98,8 @@ You can generate the previous 10 reports from your end. If older reports are req
 
 ### What information is needed when submitting a support ticket?
 
-Please make sure to provide the domain name.
+Please make sure to provide the domain name. If you don't have [access to the Security Scan results](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357) try to provide the MAGE ID of the user who originally set up the scan.
 
 ### What happens if I remove my store from scan tool scanning?
 
-If you delete the store submission - all related data including scan reports will be deleted. This operation is irreversible. Submission of the store domain after it's deletion creates a NEW submission.
+If you delete the store submission - all related data including scan reports will be deleted. This operation is irreversible. Submission of the store domain after its deletion creates a NEW submission.
