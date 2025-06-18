@@ -98,7 +98,7 @@ You can generate the previous 10 reports from your end. If older reports are req
 
 ### What information is needed when submitting a support ticket?
 
-Please provide the domain name exactly as it is submitted for the [security scan](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID, and Cloud Project_ID.
+Please provide the domain name exactly as it is submitted for the [security scan](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID, and Cloud Project_ID. Note that the Cloud Project_ID is not required for Adobe Commerce on-premises.
 
 ### What happens if I remove my store from scan tool scanning?
 
