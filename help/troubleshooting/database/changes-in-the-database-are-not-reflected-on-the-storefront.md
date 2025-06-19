@@ -77,6 +77,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## Related reading
 
-* [[!DNL MySQL] tables are too large](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large) in our support knowledge base
+* [[!DNL MySQL] tables are too large](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945) in our support knowledge base
 * [Indexing: [!DNL Mview]](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) in our developer documentation
 * [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook
