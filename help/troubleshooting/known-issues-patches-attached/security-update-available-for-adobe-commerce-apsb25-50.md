@@ -4,6 +4,7 @@ promoted: true
 description: Apply an Isolated patch to remediate [!DNL critical and important vulnerabilities] for Adobe Commerce 2.4.8, 2.4.7-p5, 2.4.6-p10, 2.4.5-p12, 2.4.4-p13, and earlier versions.
 feature: Compliance, Security
 role: Developer
+exl-id: 2df4c10c-c52a-4255-9046-4cb8ebb9637d
 ---
 # Security update available for Adobe Commerce - [!DNL APSB25-50]
 
