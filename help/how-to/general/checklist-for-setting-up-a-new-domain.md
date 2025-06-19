@@ -153,4 +153,4 @@ If you find that the new store/website you've created isn't showing in the `app/
 ## Related reading
 
 * [Set up multiple websites or stores: Add New [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) in our user guide.
-* [Site not accessible due to origin cloaking](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking)
+* [Site not accessible due to origin cloaking](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26856)

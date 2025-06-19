@@ -44,7 +44,7 @@ If there are third-party AJAX requests that are triggered on each page, attempt 
 * If you need to reload or invalidate content in `sections.xml` follow the steps in [Private content: Invalidate private content](https://developer.adobe.com/commerce/php/development/cache/page/private-content/#invalidate-private-content) in our developer documentation. Please make sure that you are not using the `customerData.reload()` method directly in your customizations.
 * Check other POST AJAX requests on the same page. Open Google Chrome developer tool in Google Chrome browser. Click on the **Network** tab and then the **XHR** tab, and there will be the list of all AJAX requests from the particular page. Then click on each request, and in the field Request Method should be the GET requests. Note: Google Chrome is used as an example, and it is possible to do this in other browsers as well.
 * Check Google Tag Manager (GTM) functionality which is a specific AJAX request. The user can remove this AJAX and refactor their customization with private functionality to reduce the total number of requests to the server.
-* Check if the Adobe Commerce Banner is enabled but not used. You might need to [Disable Adobe Commerce Banner output to improve site performance](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md).
+* Check if the Adobe Commerce Banner is enabled but not used. You might need to [Disable Adobe Commerce Banner output to improve site performance](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909).
 
 ### Related Reading
 
