@@ -195,8 +195,6 @@ breadcrumb-title: Commerce KB
     * [Troubleshooting 503 error caused by necessity to change default Varnish settings](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
     * [Restricted admin access causing performance issues](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
     * [Cron tasks lock tasks from other groups](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
-    * [Locked (grayed out) fields in Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
-    * [Cannot change Search Engine using Commerce Admin (Search Engine menu is inaccessible)](/help/troubleshooting/miscellaneous/cannot-change-search-engine-using-magento-admin-search-engine-menu-is-inaccessible.md)
     * [Installation xdebug maximum function nesting level error](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
     * [Unable to save entity Adobe Commerce backend](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)
     * [PHP version error or 404 error when accessing Adobe Commerce in browser](/help/troubleshooting/miscellaneous/php-version-error-or-404-error-when-accessing-magento-in-browser.md)
