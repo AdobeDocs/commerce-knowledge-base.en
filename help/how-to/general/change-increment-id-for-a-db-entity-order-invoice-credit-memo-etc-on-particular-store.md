@@ -23,7 +23,7 @@ You might need to change the increment ID for new DB entities in these cases:
 
 >[!NOTE]
 >
->You may also fix the payment gateway issue for PayPal by allowing multiple payments per invoice ID in PayPal's Payment Receiving Preferences. See [PayPal gateway rejected request - duplicate invoice issue](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) in our support knowledge base.
+>You may also fix the payment gateway issue for PayPal by allowing multiple payments per invoice ID in PayPal's Payment Receiving Preferences. See [PayPal gateway rejected request - duplicate invoice issue](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838) in our support knowledge base.
 
 ## Prerequisite steps
 
