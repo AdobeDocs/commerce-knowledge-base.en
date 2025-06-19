@@ -76,7 +76,6 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce 2.4.0 known issue: orders display error](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
     * [Adobe Commerce on-premises 2.4.2: product image missing](/help/troubleshooting/storefront/adobe-commerce-2-4-2-on-prem-product-image-missing.md)
     * [After installing, images and stylesheets do not load; only text displays, no graphics](/help/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.md)
-    * [Cannot save "shipping" as URL key](/help/troubleshooting/storefront/storefront-unable-to-enter-shipping-as-a-url-key.md)
     * [Product is not displayed on storefront](/help/troubleshooting/storefront/product-is-not-displayed-on-storefront.md)
     * [Adobe Commerce 2.4.0 issue: storefront raw message data display](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
     * [Store credit issue during checkout in Adobe Commerce 2.3.5](/help/troubleshooting/storefront/store-credit-issue-during-checkout-in-magento-2-3-5.md)
