@@ -8,6 +8,12 @@ feature: Invoices
 
 This article discusses how to change the increment ID for an Adobe Commerce database (DB) entity (order, invoice, credit memo, etc.) on a particular Adobe Commerce store using the `ALTER TABLE` SQL statement.
 
+>[!NOTE] This article only describes how to change the starting numeric value of the increment ID for orders, invoices, credit memos, etc.
+>
+>It does not cover how to modify the increment ID format or add custom prefixes/suffixes (for example, changing 10000001 to ORDER-10000001, MYSTORE-10000001, 2A10000001, etc.)
+>
+>To customize the format, you will need a custom extension or development work.
+
 ## Affected versions
 
 * Adobe Commerce on-premises: 2.x.x
