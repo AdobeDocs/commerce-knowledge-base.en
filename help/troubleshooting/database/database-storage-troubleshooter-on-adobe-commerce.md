@@ -24,7 +24,7 @@ If you have any of the symptoms described above, check the state of your inodes 
 
 Is IUse% > 90%?
 
-a. YES – This is caused by having too many files. Review the steps to remove files safely in [Safely delete files when out of disk space, Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md). Proceed to [Step 2](#step-2) after you have completed these steps. If you want to request more space, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
+a. YES – This is caused by having too many files. Review the steps to remove files safely in [Safely delete files when out of disk space, Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889). Proceed to [Step 2](#step-2) after you have completed these steps. If you want to request more space, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
 b. NO – Check space. Run `df -h | grep mysql` and then `df -h | grep tmp` in the CLI/Terminal to check disk space usage in the `/tmp` and `/data/mysql` directories. Proceed to [Step 3](#step-3).
 
 +++

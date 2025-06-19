@@ -35,7 +35,7 @@ If your PayPal payment method involves API with Billing Agreements and Reference
 
 See the following articles:
 
-* [PayPal gateway rejected request - duplicate invoice issue](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) in our support knowledge base.
+* [PayPal gateway rejected request - duplicate invoice issue](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838) in our support knowledge base.
 * [Change increment ID for new store entity](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md) in our support knowledge base.
 
 ## Contact Support to collect advanced payment logs
