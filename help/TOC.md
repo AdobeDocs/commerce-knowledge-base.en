@@ -247,7 +247,6 @@ breadcrumb-title: Commerce KB
     * [New environments placed under production when pushed from Git](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
     * [Error after logging in to the Commerce Admin](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
     * [Magento Order Management System (OMS) for Adobe Commerce times out](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
-    * [Drop shipping picks up wrong address](/help/troubleshooting/miscellaneous/drop-shipping-picks-up-wrong-address.md)
     * [Error purging cache in Commerce Admin](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
     * [Adobe Commerce 2.4.1: empty page when dotdigital Page Builder form saved](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
     * [Adobe Commerce cloud: reindex is terminated with Killed message](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
