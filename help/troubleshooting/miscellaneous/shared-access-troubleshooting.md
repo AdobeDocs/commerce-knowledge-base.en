@@ -88,3 +88,4 @@ If you continue to face issues, contact your Adobe account team. Specify the nam
 
 * [Unable to log in to Adobe Commerce support or cloud account](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project)
 * [MageID account owner is unable to login and submit a support ticket](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [Share a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)
