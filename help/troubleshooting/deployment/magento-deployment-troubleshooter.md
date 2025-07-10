@@ -117,6 +117,9 @@ b. NO – Proceed to [Step 11](#step-11).
 
 +++**Available storage okay?**
 
+* [Check for Integration/Starter environment](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-integration-environment)
+* [Check for Pro Staging/Production environment](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-dedicated-clusters)
+
 a. YES – Proceed with [Step 11](#step-11).  
 b. NO – Review [Manage disk space](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
 
@@ -126,8 +129,22 @@ b. NO – Review [Manage disk space](https://experienceleague.adobe.com/en/docs/
 
 +++**_file could not be written Warning_?**
 
-a. YES – Please [increase the disk value in .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) and redeploy. If this does not work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).  
-b. NO – Proceed with [Step 12](#step-12).
+a. YES 
+
+* For Integration/Starter environments:
+
+    * Please [increase the disk value in .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) and redeploy. If this does not work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+    * Alternatively, review the `var/log` folder and delete any log files over 1MB. Run this command to check the file sizes:
+
+        ```bash
+        ls -la var/log
+        ```  
+
+* For Pro Staging/Production environments:
+
+    1. Submit a support ticket to add storage.
+
+b. NO - Proceed with [Step 12](#step-12).
 
 +++
 
