@@ -133,8 +133,8 @@ a. YES
 
 * For Integration/Starter environments:
 
-    1. Please [increase the disk value in .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) and redeploy. If this does not work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
-    1. Alternatively, review the `var/log` folder and delete any log files over 1MB. Run this command to check the file sizes:
+    * Please [increase the disk value in .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) and redeploy. If this does not work, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+    * Alternatively, review the `var/log` folder and delete any log files over 1MB. Run this command to check the file sizes:
 
         ```bash
         ls -la var/log
