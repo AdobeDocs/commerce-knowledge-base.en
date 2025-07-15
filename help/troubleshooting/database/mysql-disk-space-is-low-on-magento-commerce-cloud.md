@@ -136,26 +136,20 @@ If you don't have access to [!DNL MySQL] server settings, request support to che
 
 ### Reclaim unused allocated disk space
 
-1. SSH into Node One and log in to MySQL:
+1. SSH into node one and log in to MySQL:
 
     ```sh
     mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
     ```
 
-    For more detailed steps, refer to [Remote DB Connection & Execute Queries](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries)
+    For detailed steps, refer to [Connect and run queries against the Adobe Commerce database](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries).
 
 1. Check for unused space:
  
- 
     ```sql
-    SELECT table_name, 
-           round((data_length+index_length)/1048576,2) AS size_MB, 
-           round((data_free)/1048576,2) AS Allocated_but_unused 
-    FROM information_schema.tables 
-    WHERE data_free > 1048576*10 
-    ORDER BY data_free DESC;
-    ```
-
+    SELECT table_name, round((data_length+index_length)/1048576,2) AS size_MB, round((data_free)/1048576,2) AS Allocated_but_unused FROM information_schema.tables WHERE data_free > 1048576*10 ORDER BY data_free DESC;
+    ```
+  
 
     Example output:
 
@@ -163,10 +157,11 @@ If you don't have access to [!DNL MySQL] server settings, request support to che
     |----------------------|----------|--------------------------|
     | vertex_taxrequest   | 28145.20  | 14943.00                 |
 
-    Check in the output to see if there is memory has been allocated but is unused. This occurs when data has been deleted from within a table however the memory is still allocated to that table.
+    
+    Check in the output to see if there is memory that has been allocated but is unused. This occurs when data has been deleted from within a table however the memory is still allocated to that table.
 
 
-1. Place your site into maintenance mode, and stop cronjobs so that there are no interactions taking place on the Database. For steps, refer to [Enable or disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) and [Disable cron jobs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
+1. Place your site into maintenance mode, and stop cron jobs so that there are no interactions taking place on the database. For steps, refer to [Enable or disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) and [Disable cron jobs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
 1. Reclaim that space by recreating the table using the following command (example using the table listed above with the most unused space):
 
     ```sql
