@@ -153,7 +153,7 @@ If you don't have access to [!DNL MySQL] server settings, request support to che
 
     Example output:
 
-    | Table Name           | Size (MB) | Allocated but Unused (MB) |
+    | table_name           | size_MB | Allocated_but_unused |
     |----------------------|----------|--------------------------|
     | vertex_taxrequest   | 28145.20  | 14943.00                 |
 
