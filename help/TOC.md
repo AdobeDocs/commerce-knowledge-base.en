@@ -280,10 +280,6 @@ breadcrumb-title: Commerce KB
     * [Deployment failed on cache flush: "There are no commands defined in the 'cache' namespace" error](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
   * Known issues {#known-issues-patches-attached}
     * [Guidance on securing your store and rotating encryption keys: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
-    * [Security update available for Adobe Commerce - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
-    * [Troubleshooting Encryption Key Rotation: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
-    * [Security update available for Adobe Commerce - [!DNL APSB24-40] Revised to include isolated patch for [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
-    * [[!DNL UPS] shipping method integration migration from [!DNL SOAP] to [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
     * [Error when filtering orders in Admin](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
     * [Users not able to add product to cart if nothing selected in Allow Countries](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
     * [Adobe Commerce Admin URL location disclosed](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
