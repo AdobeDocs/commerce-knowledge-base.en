@@ -7,7 +7,7 @@ role: Developer
 ---
 # [!DNL MySQL] disk space is low on Adobe Commerce on cloud infrastructure
 
-This article provides solutions for when you are experiencing very low space or no space for [!DNL MySQL] on Adobe Commerce on cloud infrastructure. Symptoms could include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section.
+This article provides solutions for when you are experiencing very low space or no space for [!DNL MySQL] on Adobe Commerce on cloud infrastructure. Symptoms include site outages, customers unable to add products to the cart, being unable to connect to the database, access the database remotely, not being able to SSH into node. Symptoms also include Galera, environment sync, PHP, database, and deployment errors as listed below. Click [Solution](https://support.magento.com/hc/en-us/articles/360058472572#solution) to jump directly to the solution section.
 
 ## Affected products and versions
 
@@ -133,6 +133,51 @@ Once you flush them, wait for wsrep sync completion. You can now create backups 
 Check your [!DNL MySQL] server binary logging settings: `log_bin` and `log_bin_index`. If the settings are enabled, the log files might become huge. [Create a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to purge large binary log files. Also, request to check that binary logging is being configured correctly so that logs are purged periodically and don't take too much space.
 
 If you don't have access to [!DNL MySQL] server settings, request support to check it.
+
+### Reclaim unused allocated disk space
+
+1. SSH into node one and log in to MySQL:
+
+    ```sh
+    mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
+    ```
+
+    For detailed steps, refer to [Connect and run queries against the Adobe Commerce database](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries).
+
+1. Check for unused space:
+ 
+    ```sql
+    SELECT table_name, round((data_length+index_length)/1048576,2) AS size_MB, round((data_free)/1048576,2) AS Allocated_but_unused FROM information_schema.tables WHERE data_free > 1048576*10 ORDER BY data_free DESC;
+    ```
+  
+
+    Example output:
+
+    | table_name           | size_MB | Allocated_but_unused |
+    |----------------------|----------|--------------------------|
+    | vertex_taxrequest   | 28145.20  | 14943.00                 |
+
+    
+    Check in the output to see if there is memory that has been allocated but is unused. This occurs when data has been deleted from within a table however the memory is still allocated to that table.
+
+
+1. Place your site into maintenance mode, and stop cron jobs so that there are no interactions taking place on the database. For steps, refer to [Enable or disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) and [Disable cron jobs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
+1. Reclaim that space by recreating the table using the following command (example using the table listed above with the most unused space):
+
+    ```sql
+    ALTER TABLE vertex_taxrequest Engine = "INNODB";
+    ```
+
+ 1. Run the following query to check for unallocated space for each table that shows a high value within the column **[!UICONTROL Allocated_but_unused]**.
+
+     ```sql
+     SELECT table_name, round((data_length+index_length)/1048576,2) as size_MB, round((data_free)/1048576,2) as Allocated_but_unused FROM information_schema.tables WHERE 1 AND data_free > 1048576*10 ORDER BY 
+     data_free DESC;
+     ```
+
+ 
+1. Now [Disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1) and [Enable cron jobs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
+
 
 ### Allocate/buy more space
 

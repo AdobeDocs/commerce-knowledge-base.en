@@ -23,6 +23,10 @@ The error will look similar to this:
 cURL error 60: SSL certificate problem: certificate has expired
 ```
 
+>[!NOTE]
+>
+>These certificates are not signed by well-known external Certificate Authorities (CAs) like [!DNL Let's Encrypt] or [!DNL DigiCert]. They are managed by the Adobe platform for the purposes of testing and development, and may not be trusted by default in browsers or curl unless you explicitly trust the root issuing the certificate.
+
 ## Solution
 
 Check when the last time the branch was deployed. If over the 30-day threshold, then re-deploy the branch.
@@ -38,7 +42,7 @@ If the deployment fails and you need assistance resolving it, [submit a support 
 
 ### Method 1: Use [!DNL magento-cloud] CLI {#meth2}
 
-Run this command: `magento-cloud activity:list`
+Run this command: `magento-cloud activity:list --type=environment.push`
 
 ### Method 2: Open the [!DNL Project URL] {#meth3}
 

@@ -44,7 +44,7 @@ Ultimately, all Merchants should still prioritize planning to adopt the latest A
 
 ## How will I get quality fixes on supported minor versions that are not the latest line?
 
-Fixes will be made available via the [Quality Patches Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patche).
+Fixes will be made available via the [Quality Patches Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches).
 
 ## How will I get quality fixes on the latest line?
 
