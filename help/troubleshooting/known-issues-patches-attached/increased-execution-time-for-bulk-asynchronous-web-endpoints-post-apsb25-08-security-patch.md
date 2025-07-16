@@ -54,4 +54,4 @@ Unzip the file and see [How to apply a composer patch provided by Adobe](https:/
 
 ## Related reading
 
-* [Security update available for Adobe Commerce - APSB25-08](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
+* [Security update available for Adobe Commerce - APSB25-08](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
