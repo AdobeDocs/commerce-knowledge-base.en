@@ -14,7 +14,7 @@ This article provides patches to resolve the error stating *Maximum number of co
 Adobe Commerce (all deployment methods) 2.4.4 - 2.4.7, with one of the following patches applied:
 
 * MDVA-12304 patch applied using the [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
-* [APSB25-08 isolated security patch](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
+* [Security update available for Adobe Commerce - APSB25-08](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
 * [Cloud Patches for [!DNL Commerce] 1.1.4](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)
 
 ## Issue
