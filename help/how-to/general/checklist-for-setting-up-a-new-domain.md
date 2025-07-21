@@ -56,7 +56,11 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 * **YES**: [Update the [!DNL DNS] configuration with [!UICONTROL production] settings](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings).
 * **NO**: [Update the [!DNL DNS] configuration with [!UICONTROL development] settings](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
 
-### Step 5 - Is the [!DNL domain] configuration verified?
+### Step 5 - Are domain redirects configured in `magento-vars.php`?
+
+After the domain has been configured, you need to [modify the variables](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables) in the `magento-vars.php` file to direct the domain to the appropriate website/store URL.
+
+### Step 6 - Is the [!DNL domain] configuration verified?
 
 If you have added new stores, store groups, and websites in **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL All Stores]** for the new domain(s), check whether the following sections appear in your `app/etc/config.php` file, for example:
 
