@@ -155,7 +155,7 @@ If you don't have access to [!DNL MySQL] server settings, request support to che
 
     | table_name           | size_MB | Allocated_but_unused |
     |----------------------|----------|--------------------------|
-    | vertex_taxrequest   | 28145.20  | 14943.00                 |
+    | sales_order_grid  | 28145.20  | 14943.00                 |
 
     
     Check in the output to see if there is memory that has been allocated but is unused. This occurs when data has been deleted from within a table however the memory is still allocated to that table.
@@ -165,7 +165,7 @@ If you don't have access to [!DNL MySQL] server settings, request support to che
 1. Reclaim that space by recreating the table using the following command (example using the table listed above with the most unused space):
 
     ```sql
-    ALTER TABLE vertex_taxrequest Engine = "INNODB";
+    ALTER TABLE sales_order_grid Engine = "INNODB";
     ```
 
  1. Run the following query to check for unallocated space for each table that shows a high value within the column **[!UICONTROL Allocated_but_unused]**.
