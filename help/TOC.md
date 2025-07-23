@@ -280,11 +280,6 @@ breadcrumb-title: Commerce KB
     * [Deployment failed on cache flush: "There are no commands defined in the 'cache' namespace" error](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
   * Known issues {#known-issues-patches-attached}
     * [Guidance on securing your store and rotating encryption keys: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
-    * [Packages downgraded after upgrading from 2.4.4 to 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
-    * [Order email sent from the server email address](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-    * [Adobe Commerce 2.4.6 error placing order from Admin panel](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
-    * [[!UICONTROL salesRule] label issues when upgrade from versions < 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
-    * [[!DNL JQuery UI] security vulnerability [!DNL CVE-2022-31160] fix for 2.4.4, 2.4.5, and 2.4.6 releases](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
     * [[!DNL FedEx] shipping method integration migration from SOAP to RESTful API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
     * [Maximum number of cookies would be exceeded error in Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
     * [Increased execution time for all bulk asynchronous web endpoints post APSB25-08 security patch](/help/troubleshooting/known-issues-patches-attached/increased-execution-time-for-bulk-asynchronous-web-endpoints-post-apsb25-08-security-patch.md)
