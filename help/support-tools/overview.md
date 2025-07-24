@@ -11,7 +11,7 @@ Adobe Commerce offers a variety of support tools that help and empower you to im
 
 * Site-wide Analysis tool
 
-  * [Site-Wide Analysis Tool by Adobe: overview](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
+  * [Site-Wide Analysis Tool by Adobe: overview](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro)
 
 * [!DNL Quality Patches Tool] (QPT)
 

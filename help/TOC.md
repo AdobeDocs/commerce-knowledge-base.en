@@ -8,9 +8,6 @@ breadcrumb-title: Commerce KB
 * [Adobe Commerce Support Knowledge Base](/help/overview.md)
 * Support Tools {#support-tools}
   * [Support Tools overview](/help/support-tools/overview.md)
-  * Site-wide Analysis tool {#site-wide-analysis-tool}
-    * [Site-Wide Analysis Tool by Adobe: overview](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
-    * [Adobe Commerce Site-Wide Analysis Tool Report FAQ](/help/support-tools/site-wide-analysis-tool/swat-faq.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
   * Adobe Commerce Announcements {#commerce-announcements}
