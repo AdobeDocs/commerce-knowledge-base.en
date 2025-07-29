@@ -1,3 +1,7 @@
+---
+description: Learn how to fix Adobe Commerce reverting to Elasticsearch7 when OpenSearch isn’t recognized as a search engine.
+---
+
 # Falling back to Elasticsearch7 when OpenSearch is set as the search engine in Adobe Commerce
 
 This article explains how to resolve the issue where Adobe Commerce reverts to **Elasticsearch7** when **OpenSearch** is set as the **search engine**.
