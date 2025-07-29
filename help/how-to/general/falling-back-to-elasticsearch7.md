@@ -20,7 +20,7 @@ You have set your **search engine** to **OpenSearch**, but the system shows foll
 ### Steps to reproduce:
 
 1. Verify OpenSearch is installed.  
-2. Go to **Stores > Configuration > Catalog > Catalog Search** and set the search engine to **OpenSearch**.
+2. Go to **Stores > Configuration > Catalog > Catalog Search**, and set the search engine to **OpenSearch**.
 3. Check the search engine. It will show Elasticsearch7.
 4. Open the `var/log/support_report.log` file and find the error message:
 **OpenSearch search engine doesn't exist. Falling back to Elasticsearch7.**
