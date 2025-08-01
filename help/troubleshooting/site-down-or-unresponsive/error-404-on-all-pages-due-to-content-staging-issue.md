@@ -70,7 +70,7 @@ If the query returns a table where `update_exists` value is "1" or an empty resu
 
 ![updates_exist_1.png](assets/updates_exist_1.png)
 
-In this case, you might refer to the [Site Down Troubleshooter](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter) for troubleshooting ideas.
+In this case, you might refer to the [Site Down Troubleshooter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27152) for troubleshooting ideas.
 
 ## Solution
 
