@@ -44,7 +44,7 @@ Also, note that support does not perform the rollback or restoration of the data
 
 ### Integration (Development) environment
 
-* Your [Integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) is **not being backed up automatically**, but you may create snapshots **manually**.
+* Your [Integration environment](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) is **not being backed up automatically**, but you may create snapshots **manually**.
 * You can create manual snapshots for Integration environments on non-live stores.
 * You may have **multiple snapshots** that have been triggered manually.
 * A manually triggered snapshot is stored for **7 days**.
