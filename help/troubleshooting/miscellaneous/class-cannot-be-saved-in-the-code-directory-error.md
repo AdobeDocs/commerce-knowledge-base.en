@@ -20,7 +20,7 @@ This article describes how to fix the issue where the way you specified dependen
 1. In your local environment, write a custom class with a dependency on the auto-generated class.
 1. Run the scenario, where your custom class is triggered, and see it working correctly.
 1. Commit and push your changes to the integration environment. This would trigger the deployment process. Deployment is successful.
-1. In the [integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), run the scenario where your custom class is triggered.
+1. In the [integration environment](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242), run the scenario where your custom class is triggered.
 
  <u>Expected result</u>
 

@@ -25,7 +25,7 @@ Depending on the size of your catalog/data or the requirements of your third-par
 
 To address performance issues, ensure that you are following the best practices for best performance in the integration environment. You might also need to request an upgrade of the environments to enhance integration. 
 
-First, determine if your environment is on the [Enhanced Integration configuration](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/integration-environment-enhancement-request-pro-and-starter).
+First, determine if your environment is on the [Enhanced Integration configuration](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
 * [Pro Architecture](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
 * [Starter Architecture](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
@@ -53,7 +53,7 @@ opensearch (type: opensearch:2, size: L, disk: 1024)
 rabbitmq (type: rabbitmq:3.12, size: L, disk: 1024)
 ```
 
-If you are not on the Enhanced Integration configuration, you may [request the enhancement/upgrade](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/integration-environment-enhancement-request-pro-and-starter).
+If you are not on the Enhanced Integration configuration, you may [request the enhancement/upgrade](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
 If you're already on the Enhanced Integration configuration or you're still encountering performance issues after the upgrade, make sure to follow the best practices for optimal performance in the integration environment: 
 
 * [Pro Architecture](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)

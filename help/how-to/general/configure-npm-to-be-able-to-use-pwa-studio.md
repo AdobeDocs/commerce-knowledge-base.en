@@ -41,7 +41,7 @@ To set the needed NPM version, specify it in the `.magento.app.yaml` configurati
    > ```
 
  1. Save changes in the file.
- 1. Git push the edited file to your [integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
+ 1. Git push the edited file to your [integration environment](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
 The changes come into effect after you Git push the updated YAML file to the environment.
 
