@@ -273,8 +273,7 @@ To close your case, click **[!UICONTROL Close case]** at the bottom right of the
 
 >[!NOTE]
 >
->**You can only reopen a case within 14 days of its closure.** If you are beyond 14 days of the case closure, but still would like to request help on an issue, you would need to open a new case.<br>
-For more information about closing and reopening cases, see the [Add and remove watchers, close and reopen tickets video](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
+>**You can only reopen a case within 14 days of its closure.** If you are beyond 14 days of the case closure, but still would like to request help on an issue, you would need to open a new case.<br>For more information about closing and reopening cases, see the [Add and remove watchers, close and reopen tickets video](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
 
 >[!NOTE]
 >
