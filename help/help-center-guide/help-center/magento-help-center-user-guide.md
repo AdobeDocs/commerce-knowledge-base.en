@@ -245,6 +245,10 @@ You can add watchers to support cases submitted by members of your organization.
 
     ![update-watchers](assets/update_watchers.png)
 
+>[!NOTE]
+>
+>For more information about how to add and remove watchers for your case, see the [Add and remove watchers, close and reopen tickets video](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
+
 ### Comments in your case {#comments-in-your-case}
 
 Comments in your case contain all comments written by you or the Adobe Commerce support team. Comments are displayed from latest (on top) to earliest (bottom).
@@ -261,11 +265,19 @@ To close your case, click **[!UICONTROL Close case]** at the bottom right of the
 
 ![close-case](assets/close_case.png)
 
+>[!NOTE]
+>
+>For more information about how to close your case, see the [Add and remove watchers, close and reopen tickets video](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
+
 ### Reopen your case {#reopen-case}
 
 >[!NOTE]
 >
->You cannot reopen a case by responding to an email notification from a closed ticket. To reopen the case, make sure that you have been given [Shared Access](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26164) by the account owner.
+>**You can only reopen a case within 14 days of its closure.** If you are beyond 14 days of the case closure, but still would like to request help on an issue, you would need to open a new case.<br>For more information about closing and reopening cases, see the [Add and remove watchers, close and reopen tickets video](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket).
+
+>[!NOTE]
+>
+>You can't reopen a case by responding to an email notification from a closed ticket. To reopen the case, make sure that you have been given [Shared Access](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26164) by the account owner.
 
 ### Submit ticket using Cloud Console {#cloud-console}
 
