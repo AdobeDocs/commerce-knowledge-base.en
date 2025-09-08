@@ -35,6 +35,13 @@ The *REDIS\_PORT* and *REDIS\_HOST* variables can be retrieved from `app/etc/env
 
 If the output from running the above query shows that the percentage of free memory is less than 40%, [submit a ticket to Adobe Commerce support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting an increase of the `maxmemory` setting in Redis Server. If the evicted keys value is not "0" or the Redis up time in days equals 0 (indicating Redis has crashed today), you should also [submit a ticket to Adobe Commerce support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting an investigation and a fix for this issue.
 
+>[!NOTE]
+>
+>Make a note of the Redis host address and port number by running below CLI command.
+>   ```bash
+>   echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
+>   ```
+
 ## Related Reading
 
 To learn more about Redis memory refer to [Redis Memory Optimization](https://redis.io/topics/memory-optimization).
