@@ -8,6 +8,10 @@ feature: Cache, Marketing Tools
 
 This article provides the steps you could take to block malicious traffic, when you suspect that your Adobe Commerce on cloud infrastructure store is experiencing a DDoS attack.
 
+This article explains how to block unwanted, suspicious, or even legitimate traffic based on geographic location, IP address, or user agent. Adobe Commerce on cloud infrastructure, along with Fastly CDN, manages traffic to your store in response to malicious threats like DDoS attacks, along with traffic based on geographic filtering.
+
+You can block requests from specific countries or regions to meet business policies, regulatory requirements, or other operational needs, even when no malicious activity is detected.
+
 ## Affected products and versions:
 
 * Adobe Commerce on cloud infrastructure 2.3.x
