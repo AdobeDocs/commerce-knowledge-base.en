@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 
 >[!NOTE]
 >
->You can add the new [!DNL domain] to [!DNL Fastly] yourself by updating the configuration in the [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** as in [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) in our user guide.
+>For PRO architecture, adding a new domain requires submitting a support request to Adobe Commerce. While some customers may be able to manually configure Fastly via the Admin Console, this only applies in limited cases—such as when the domain isn’t tied to another Fastly service or project. However, Nginx configuration is always required, and this step must be handled by Adobe. Because of this, the recommended and most reliable approach is to submit a support ticket and let Adobe manage the entire domain setup process.
 >
 >If you are unable to add the domain, it could be due to one of these reasons:
 >
