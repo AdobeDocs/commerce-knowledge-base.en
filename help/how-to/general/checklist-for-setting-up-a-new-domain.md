@@ -27,11 +27,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 >[!NOTE]
 >
 >For PRO architecture, adding a new domain requires submitting a support request to Adobe Commerce. While some customers may be able to manually configure Fastly via the Admin Console, this only applies in limited cases—such as when the domain isn’t tied to another Fastly service or project. However, Nginx configuration is always required, and this step must be handled by Adobe. Because of this, the recommended and most reliable approach is to submit a support ticket and let Adobe manage the entire domain setup process.
->
->If you are unable to add the domain, it could be due to one of these reasons:
->
->1. You are migrating the domain to the cloud environment, which has been configured in your own [!DNL Fastly] service. In this case, submit a request and request delegation of the domain.
->1. You are migrating the domain from Starter to Pro. In this case, submit a request for further assistance.
+
 
 * **[!DNL Starter]**: [!DNL Custom domains] are not supported on the Staging environment.
 
