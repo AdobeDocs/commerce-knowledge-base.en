@@ -38,9 +38,7 @@ A fix will be available in Adobe Commerce 2.3.6, which is scheduled for release 
 
 In our support knowledge base:
 
-* [Product comparison known issue in Adobe Commerce 2.3.5](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
 * [Bulk action product count known issue in Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
-* [Patch for Amazon Pay checkout issue in Adobe Commerce 2.3.5-p1](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
 
 In our developer documentation:
 
