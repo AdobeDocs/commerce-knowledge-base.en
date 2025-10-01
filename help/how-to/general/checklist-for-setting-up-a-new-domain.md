@@ -14,6 +14,13 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 
 ## How to set up a new domain
 
+>[!NOTE]
+>
+>Before proceeding with domain setup, ensure that: 
+>
+>All Base URLs are configured to use HTTPS under **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**, scoped to the correct website or store view.
+> Force TLS is enabled to redirect all HTTP traffic to HTTPS across your Adobe Commerce site on cloud infrastructure.
+
 ### Step 1 - Is this for the [!DNL Integration, Staging], or [!DNL Production environment]?
 
 * **[!DNL Integration]**: [!DNL Custom domains] are not supported. You must use this method instead: [Set up multiple websites or stores: Configure local installation](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) in our user guide.
