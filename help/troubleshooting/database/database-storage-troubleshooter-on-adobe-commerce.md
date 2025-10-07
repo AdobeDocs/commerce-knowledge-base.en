@@ -75,7 +75,7 @@ b. NO – [Submit a support ticket](/help/help-center-guide/help-center/magento-
 
 +++**Check default**
 
-Your database configuration may no longer be at the original default. Find the database tmpdir config by running in the [!DNL MySQL] CLI: `SELECT @@DATADIR;`. If `/data/mysql/` is outputted, the database tmpdir is now writing to `/data/mysql/`. Try to increase space in this directory by following the steps in [[!DNL MySQL] disk space is low on Adobe Commerce on our cloud infrastructure](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md). Then run `df -h | grep mysql` and then `df -h | grep tmp` in the CLI/Terminal to check disk space usage in `/data/mysql` and `/tmp`.  
+Your database configuration may no longer be at the original default. Find the database tmpdir config by running in the [!DNL MySQL] CLI: `SELECT @@DATADIR;`. If `/data/mysql/` is outputted, the database tmpdir is now writing to `/data/mysql/`. Try to increase space in this directory by following the steps in [[!DNL MySQL] disk space is low on Adobe Commerce on our cloud infrastructure](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806). Then run `df -h | grep mysql` and then `df -h | grep tmp` in the CLI/Terminal to check disk space usage in `/data/mysql` and `/tmp`.  
   < 70% used?
 
 a. YES – You have solved the issue.   
