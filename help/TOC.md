@@ -27,10 +27,8 @@ breadcrumb-title: Commerce KB
   * Database {#database}
     * [Checking slow queries and processes MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
     * [Database upload loses connection to MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
-    * [Changes in the database are not reflected on the storefront](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
     * [MySQL high-load bottleneck in Adobe Commerce on cloud infrastructure](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md)
     * [MySQL server has gone away​ error on Adobe Commerce on cloud](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
-    * [MySQL disk space is low on Adobe Commerce on cloud infrastructure](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)
     * [Database storage troubleshooter on Adobe Commerce](/help/troubleshooting/database/database-storage-troubleshooter-on-adobe-commerce.md)
     * [Database errors related to max_allowed_packet on Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
     * [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
