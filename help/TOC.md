@@ -55,7 +55,6 @@ breadcrumb-title: Commerce KB
     * [Payment methods not displayed on checkout with multiple addresses](/help/troubleshooting/payments/payment-methods-not-displayed-on-checkout-with-multiple-addresses.md)
     * [Adobe Commerce 2.4.0 known issue: Klarna On-Site Messaging blank pages](/help/troubleshooting/payments/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
   * Storefront {#storefront}
-    * [Adobe Commerce on-premises 2.4.2: product image missing](/help/troubleshooting/storefront/adobe-commerce-2-4-2-on-prem-product-image-missing.md)
     * [Product is not displayed on storefront](/help/troubleshooting/storefront/product-is-not-displayed-on-storefront.md)
     * [Store images not displayed after deployment](/help/troubleshooting/storefront/store-images-not-displayed-after-deployment.md)
     * [Customers get logged out or lose cart content on Adobe Commerce storefront](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
