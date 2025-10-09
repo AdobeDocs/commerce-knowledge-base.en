@@ -48,7 +48,23 @@ Since you you don't have access to the admin, you will have to insert the config
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-Check your Spam folder for the email. If the email appeared there, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) to request the domain to be white-labeled in SendGrid.
+Check your Spam folder for the email. 
+
+If the email appeared in your Spam folder, your domain's email authentication might not be fully configured for outbound delivery via SendGrid.
+
+If you are using the SendGrid service managed by Adobe:
+
+[Submit a support ticket](https://experienceleague.adobe.com/home?support-tab=home#support) requesting that your sending domain be authenticated (sometimes called *white-labeled*) with SendGrid.
+This process involves adding DNS records (DKIM and SPF) to authorize SendGrid to send emails on behalf of your domain, which increases the likelihood that your emails will be delivered to the inbox instead of the spam folder.
+
+If you are using your own SendGrid account:
+
+You are responsible for managing your domain authentication settings directly within your SendGrid account dashboard. Refer to [How to Set Up Domain Authentication](https://www.twilio.com/docs/sendgrid/ui/account-and-settings/how-to-set-up-domain-authentication) in SendGrid documentation for details.
+
+>[!NOTE]
+>
+>Some customers mmight choose to use a separately provisioned SendGrid service for full control over email deliverability and compliance (e.g., HIPAA requirements). Ensure you are following the correct troubleshooting steps based on the type of SendGrid service (Adobe-managed vs. self-managed) you are using.
+
 
 ## Related reading
 
