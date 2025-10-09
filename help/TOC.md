@@ -80,8 +80,6 @@ breadcrumb-title: Commerce KB
     * [Upgrade to B2B 1.5.2 fails with SQL syntax error due to missing REGEXP_LIKE function](/help/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function.md)
     * [Performance issue in Magento_Company module upgrade after B2B 1.5.2 update](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)
   * Site down or unresponsive {#site-down-or-unresponsive}
-    * [503 error accessing Adobe Commerce in web browser](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
-    * [Site fails to load due to maintenance mode left enabled](/help/troubleshooting/site-down-or-unresponsive/site-fails-to-load-due-to-maintenance-mode-left-enabled.md)
     * [Applying a patch takes your site down](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [Revised patches for Google Maps access loss on all Adobe Commerce versions](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Miscellaneous {#miscellaneous}
