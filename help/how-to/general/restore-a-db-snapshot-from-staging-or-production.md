@@ -20,6 +20,10 @@ This article shows how to restore a DB [!DNL snapshot] from [!DNL Staging] or [!
 
 Choose the most appropriate for your case:
 
+>[!NOTE]
+>
+> If you are importing a snapshot into an integration environment, be mindful of the database size. Large databases can cause performance degradation after import. It is recommended that you first import the snapshot into a staging or local environment to review and reduce its size before transferring it to integration. Additionally, consider disabling cron jobs in the integration branch if performance issues arise post-import. For more information, see [Integration environment](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment) in the Commerce on Cloud Infrastructure guide.
+
 * [Method 1: Transfer the database [!DNL dump] to your local machine and import it](#meth2).
 * [Method 2: Import the database [!DNL dump] directly from the server](#meth3).
 
