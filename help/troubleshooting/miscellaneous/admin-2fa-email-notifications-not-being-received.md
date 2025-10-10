@@ -55,7 +55,7 @@ If the email appeared in your Spam folder, your domain's email authentication mi
 If you are using the SendGrid service managed by Adobe:
 
 [Submit a support ticket](https://experienceleague.adobe.com/home?support-tab=home#support) requesting that your sending domain be authenticated (sometimes called *white-labeled*) with SendGrid.
-This process involves adding DNS records (DKIM and SPF) to authorize SendGrid to send emails on behalf of your domain, which increases the likelihood that your emails will be delivered to the inbox instead of the spam folder.
+This process involves adding DNS records (DKIM and SPF) to authorize SendGrid to send emails on behalf of your domain, which increases the likelihood that your emails will be delivered to the inbox instead of the Spam folder.
 
 If you are using your own SendGrid account:
 
