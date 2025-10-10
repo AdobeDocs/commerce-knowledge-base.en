@@ -63,7 +63,7 @@ You are responsible for managing your domain authentication settings directly wi
 
 >[!NOTE]
 >
->Some customers mmight choose to use a separately provisioned SendGrid service for full control over email deliverability and compliance (e.g., HIPAA requirements). Ensure you are following the correct troubleshooting steps based on the type of SendGrid service (Adobe-managed vs. self-managed) you are using.
+>Some customers might choose to use a separately provisioned SendGrid service for full control over email deliverability and compliance (e.g., HIPAA requirements). Ensure you are following the correct troubleshooting steps based on the type of SendGrid service (Adobe-managed vs. self-managed) you are using.
 
 
 ## Related reading
