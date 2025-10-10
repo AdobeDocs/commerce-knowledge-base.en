@@ -45,7 +45,7 @@ Follow this link to learn how to [configure performance-based alerts](/docs/comm
 
 ## Steps to request temporary upsize
 
-To request temporary additional cloud capacity, submit a [/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket]Support Ticket at the Adobe Commerce Support Center with the following information:
+To request temporary additional cloud capacity, submit a [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) at the Adobe Commerce Support Center with the following information:
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ To request temporary additional cloud capacity, submit a [/help/help-center-guid
 
 1. Complete the following fields:
     * **[!UICONTROL Case Title]**
-    * **[!UICONTROLCase Description]** *(ensure these clearly describe the issue and context.)*
+    * **[!UICONTROL Case Description]** *(ensure these clearly describe the issue and context.)*
 
 1. Select *Infrastructure Change Request* from the **[!UICONTROL Issue Reason]** dropdown menu.
 
