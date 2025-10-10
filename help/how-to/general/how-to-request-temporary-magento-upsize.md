@@ -53,7 +53,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](/help/help-center
 >
 >The *Holiday Surge Request* choice is only an option between October and December months.
 
-1. Select the **Adobe Commerce** product you need support for:
+1. Select the Adobe Commerce product you need support for:
     * Commerce Cloud
     * Commerce on Managed Service
 
@@ -70,7 +70,7 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](/help/help-center
 1. Choose *Cloud Project Resize (vCPU)* from the **Which Infra Change you would like to do today** dropdown menu.
 
 1. **Select the Architecture:**
-    * *Default Architecture:* Then choose *Next Available Size* from the **Select the Size** dropdown menu.
+    * *Default Architecture:* Select *Next Available Size* from the **Select the Size** dropdown menu.
     * *Scaled Architecture:* When selected, the screen changes to show two additional fields:
         * *Size for Web Node*
         * *Size for Service Node* *(Enter the desired sizes for each node.)*
