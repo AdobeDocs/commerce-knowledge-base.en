@@ -45,55 +45,53 @@ Follow this link to learn how to [configure performance-based alerts](/docs/comm
 
 ## Steps to request temporary upsize
 
-Follow the steps below to submit a [Support Ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) to request temporary additional cloud capacity:
-
-Submit a [Support Ticket at the Adobe Commerce Support Center](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), after inputting the following information:
+To request temporary additional cloud capacity, submit a [/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket]Support Ticket at the Adobe Commerce Support Center with the following information:
 
 >[!NOTE]
 >
 >The *Holiday Surge Request* choice is only an option between October and December months.
 
-1. Select the Adobe Commerce product you need support for:
-    * Commerce Cloud
-    * Commerce on Managed Service
+1. Select the [!DNL Adobe Commerce] product you need support for:
+    * [!DNL Commerce Cloud]
+    * [!DNL Commerce on Managed Service]
 
 1. Complete the following fields:
-    * **Case Title**
-    * **Case Description** *(Ensure these clearly describe the issue and context.)*
+    * **[!UICONTROL Case Title]**
+    * **[!UICONTROLCase Description]** *(ensure these clearly describe the issue and context.)*
 
-1. Select *Infrastructure Change Request* from the **Issue Reason** dropdown menu.
+1. Select *Infrastructure Change Request* from the **[!UICONTROL Issue Reason]** dropdown menu.
 
-1. Choose the **Environment** from the dropdown menu.
+1. Choose the **[!UICONTROL Environment]** from the dropdown menu.
 
-1. Select the appropriate **Product Version** from the dropdown menu.
+1. Select the appropriate **[!UICONTROL Product Version]** from the dropdown menu.
 
-1. Choose *Cloud Project Resize (vCPU)* from the **Which Infra Change you would like to do today** dropdown menu.
+1. Choose *Cloud Project Resize (vCPU)* from the **[!UICONTROL Which Infra Change you would like to do today]** dropdown menu.
 
-1. **Select the Architecture:**
+1. **Select the [!UICONTROL Architecture]**:
     * *Default Architecture:* Select *Next Available Size* from the **Select the Size** dropdown menu.
     * *Scaled Architecture:* When selected, the screen changes to show two additional fields:
         * *Size for Web Node*
-        * *Size for Service Node* *(Enter the desired sizes for each node.)*
+        * *Size for Service Node* *(enter the desired sizes for each node.)*
 
-1. Enter the **From Date** in UTC format (date and time).
+1. Enter the **[!UICONTROL From Date]** in UTC format (date and time).
 
-1. Enter the **To Date** in UTC format (date and time).
+1. Enter the **[!UICONTROL To Date]** in UTC format (date and time).
 
-1. Provide **Project URL** *(Found under https://accounts.magento.cloud/, typically in the format `https://[REGION].magento.cloud/projects/PROJECT_ID`)*
+1. Provide **[!UICONTROL Project URL]** *(found under https://accounts.magento.cloud/, typically in the format `https://[REGION].magento.cloud/projects/PROJECT_ID`)*
 
-1. Enter the **Project ID**.
+1. Enter the **[!UICONTROL Project ID]**.
 
-1. Provide **Affected URL** *(Must begin with `http://` or `https://`.)*
+1. Provide **[!UICONTROL Affected URL]** *(must begin with `http://` or `https://`.)*
 
-1. Select **Priority**.
+1. Select **[!UICONTROL Priority]**.
 
-1. Select **Business Impact**.
+1. Select **[!UICONTROL Business Impact]**.
 
-1. Confirm **Time Zone** *(e.g., `(UTC-5:00) Indiana (East)`)*
+1. Confirm **[!UICONTROL Time Zone]** *(e.g., `(UTC-5:00) Indiana (East)`)*
 
-1. Enter **Phone Number** *(e.g., `+12015550123`)*
+1. Enter **[!UICONTROL Phone Number]** *(e.g., `+12015550123`)*
 
-1. Click **Submit** to finalize your support case.
+1. Click **[!UICONTROL Submit]** to finalize your support case.
 
 >[!NOTE]
 >
