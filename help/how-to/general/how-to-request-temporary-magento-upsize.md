@@ -53,13 +53,47 @@ Submit a [Support Ticket at the Adobe Commerce Support Center](/help/help-center
 >
 >The *Holiday Surge Request* choice is only an option between October and December months.
 
-1. Please select the Adobe Commerce Product for which you are seeking Support.
-1. Complete the first four (Product, Organization, Implementation type, Subject) fields.
-1. Select *Adobe Commerce cloud Infrastructure* in the **Contact Reason** drop-down.
-1. Select *Holiday Surge Capacity Request* in the **Adobe Commerce Infrastructure Contact Reason** drop-down options. Click **OK** on the pop-up message requesting 48 business hours' notice for temporary additional cloud capacity requests.
-1. Select dates for the mandatory fields **Resize Start Date** and **Resize End Date**. The preferred **Resize Start Time** is also a mandatory field.
-1. Complete the next four fields.
-1. In the **Description** field, if you have additional information on size, provide it here. If no specific larger size is requested, we will be upsizing you up to the next larger environment size capacity. Surge requests will default to the next larger size from your current size. If you require additional capacity, please indicate that in the **Description** field. Increased capacity will be deducted from your contracted Surge Days or vCPU days. The typical capacity increase window is five days, but if you need more or fewer days, please indicate this in your [Support Ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Select the **Adobe Commerce** product you need support for:
+    * Commerce Cloud
+    * Commerce on Managed Service
+
+1. Complete the following fields:
+    * **Case Title**
+    * **Case Description** *(Ensure these clearly describe the issue and context.)*
+
+1. Select *Infrastructure Change Request* from the **Issue Reason** dropdown menu.
+
+1. Choose the **Environment** from the dropdown menu.
+
+1. Select the appropriate **Product Version** from the dropdown menu.
+
+1. Choose *Cloud Project Resize (vCPU)* from the **Which Infra Change you would like to do today** dropdown menu.
+
+1. **Select the Architecture:**
+    * *Default Architecture:* Then choose *Next Available Size* from the **Select the Size** dropdown menu.
+    * *Scaled Architecture:* When selected, the screen changes to show two additional fields:
+        * *Size for Web Node*
+        * *Size for Service Node* *(Enter the desired sizes for each node.)*
+
+1. Enter the **From Date** in UTC format (date and time).
+
+1. Enter the **To Date** in UTC format (date and time).
+
+1. Provide **Project URL** *(Found under https://accounts.magento.cloud/, typically in the format `https://[REGION].magento.cloud/projects/PROJECT_ID`)*
+
+1. Enter the **Project ID**.
+
+1. Provide **Affected URL** *(Must begin with `http://` or `https://`.)*
+
+1. Select **Priority**.
+
+1. Select **Business Impact**.
+
+1. Confirm **Time Zone** *(e.g., `(UTC-5:00) Indiana (East)`)*
+
+1. Enter **Phone Number** *(e.g., `+12015550123`)*
+
+1. Click **Submit** to finalize your support case.
 
 >[!NOTE]
 >
