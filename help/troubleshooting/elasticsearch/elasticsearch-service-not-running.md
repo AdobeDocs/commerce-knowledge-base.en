@@ -1,0 +1,85 @@
+---
+title: Elasticsearch service not running
+description: This article provides solutions for errors you can experience when the Elasticsearch (ES) service is not running (usually as a result of crashing). Symptoms can include errors when running health checks using curl, reindexing using the command line, Exception and PHP errors, and errors on product pages. The table lists errors and links to resources to attempt to solve them. One symptom can have a range of different causes.
+exl-id: 2c2230de-cb30-4a03-8c3e-d9f44783dbae
+---
+# Elasticsearch service not running
+
+This article provides solutions for errors you can experience when the Elasticsearch (ES) service is not running (usually as a result of crashing). Symptoms can include errors when running health checks using curl, reindexing using the command line, Exception and PHP errors, and errors on product pages. The table lists errors and links to resources to attempt to solve them. One symptom can have a range of different causes.
+
+## Elasticsearch version compatibility with Adobe Commerce
+
+* Adobe Commerce on-premises and Adobe Commerce on cloud infrastructure:
+
+    * v2.2.3+ supports ES 5.x
+    * v2.2.8+ and v2.3.1+ support ES 6.x
+    * ES v2.x and v5.x are not recommended because of [End of Life](https://www.elastic.co/support/eol). However, if you have Adobe Commerce v2.3.1 and want to use ES 2.x or ES 5.x, you must [Change the Elasticsearch php Client](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
+
+* Magento Open Source v2.3.0+ supports ES 5.x and 6.x (but 6.x is recommended).
+
+<table>
+<tr>
+<th>Symptoms when ES service is not running</th>
+<th>Details</th>
+<th>Resources</th>
+</tr>
+<tr>
+<td rowspan="3">Exception errors</td>
+</tr>
+<tr>
+<td>
+<code>{"0":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"Fielddata is disabled on text fields by default. Set fielddata=true on [%attribute_code%]] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.\"}]</code>
+</td>
+<td>
+<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled...-error.html">Elasticsearch 5 is configured, but search page does not load with "Fielddata is disabled..." error</a> in our support knowledge base.
+</td>
+</tr>
+<tr>
+<td>
+<code>Elasticsearch\Common\Exceptions\NoNodesAvailableException: Noticed exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51</code>
+</td>
+<td>
+Elasticsuite indices not being deleted.  See <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html">ElasticSuite tracking indices causes problems with Elasticsearch</a> in our support knowledge base.
+ </td>
+</tr>
+<tr>
+<td>PHP error</td>
+<td>
+<i>No alive nodes found in your cluster","1":"#0 /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php</i>
+</td>
+<td rowspan="4">
+<ul>
+<li>Resources for insufficient disk space:<ul>
+<li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">8 Tips to Solve Linux & Unix Systems Hard Disk Problems Like Disk Full Or Can't Write to the Disk</a></li>
+<li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfault: df says disk is full, but it is not</a></li>
+<li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com: Tracking down where disk space has gone on Linux?</a></li>
+<li>Log files are not archived regularly enough. See <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-archive">Configure the Log Archive</a> in our developer documentation.</li>
+<li>Files system directories are not optimized. See <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization">File Optimization</a> in our developer documentation.</li>
+<li>If the solutions in the above documentation do not solve the issue consider contacting your Adobe Account Team to request additional storage.</li>
+</ul>
+</li>
+<li>If your disk has not run out of storage but you are still getting the error messages in the left column, <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">submit a support ticket</a>.</li>
+</ul>
+<ul>
+<li>See <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html">ElasticSuite tracking indices causes problems with Elasticsearch</a> in our support knowledge base.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><code>Curl</code> error</td>
+<td>Running the <code>curl</code> command to check Elasticsearch health:<code>curl -m1 localhost:9200/_cluster/health?pretty</code>(or<code>curl -m1 elasticsearch.internal:9200/_cluster/health?pretty</code>for Starter accounts) produces this error: <i>Error: curl: (7) Failed to connect to localhost port 9200: Connection refused</i> </td>
+</tr>
+<tr>
+<td>Command-line error</td>
+<td>Running <code>$ bin/magento indexer:reindex catalogsearch_fulltext</code> produces this error <i>Catalog Search indexer process unknown error:
+        No alive nodes found in your cluster</i>
+</td>
+</tr>
+<tr>
+<td>Error on product pages
+</td>
+<td><i>There has been an error processing your request.
+      Exception printing is disabled by default for security reasons</code></i>
+</tr>
+</table>
