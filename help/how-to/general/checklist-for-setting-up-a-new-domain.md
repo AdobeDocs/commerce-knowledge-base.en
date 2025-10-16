@@ -14,6 +14,13 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 
 ## How to set up a new domain
 
+>[!NOTE]
+>
+>Before proceeding with domain setup, ensure that: 
+>
+>All Base URLs are configured to use HTTPS under **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**, scoped to the correct website or store view.
+> [Force TLS](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996) is enabled to redirect all HTTP traffic to HTTPS across your Adobe Commerce site on cloud infrastructure.
+
 ### Step 1 - Is this for the [!DNL Integration, Staging], or [!DNL Production environment]?
 
 * **[!DNL Integration]**: [!DNL Custom domains] are not supported. You must use this method instead: [Set up multiple websites or stores: Configure local installation](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) in our user guide.
@@ -26,7 +33,7 @@ Adobe Commerce on cloud infrastructure, [all supported versions](https://www.ado
 
 >[!NOTE]
 >
->For PRO architecture, adding a new domain requires submitting a support request to Adobe Commerce. While some customers may be able to manually configure Fastly via the Admin Console, this only applies in limited cases—such as when the domain isn’t tied to another Fastly service or project. However, Nginx configuration is always required, and this step must be handled by Adobe. Because of this, the recommended and most reliable approach is to submit a support ticket and let Adobe manage the entire domain setup process.
+>For PRO architecture, adding a new domain requires submitting a support request to Adobe Commerce. While some customers may be able to manually configure Fastly via the Admin Console, this only applies in limited cases—such as when the domain isn’t tied to another Fastly service or project. However, Nginx configuration is always required, and this step must be handled by Adobe. Because of this, the recommended and most reliable approach is to submit a [support ticket](https://experienceleague.adobe.com/home?support-tab=home#support) and let Adobe manage the entire domain setup process.
 
 
 * **[!DNL Starter]**: [!DNL Custom domains] are not supported on the Staging environment.
