@@ -14,7 +14,7 @@ As defined in [Adobe Commerce Support Services Terms and Conditions](https://www
 
 ## P1 notification hotline phone policies
 
-* The P1 notification hotline is available to report P1-level issues. (see the P1 incident definition in the previous section).
+* The P1 notification hotline is available to report P1-level issues (see the P1 incident definition in the previous section).
 * [Submit a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) prior to calling the Adobe Commerce P1 notification hotline.
 * Investigation, troubleshooting, and communication will take place exclusively within the support ticket.
 * Add all the additional information you may have pertaining to the issue to the ticket directly, prior to calling.
@@ -28,18 +28,18 @@ Note: If you reach voicemail for any reason, please leave your information: Full
 * US
   * Toll Free: (+1) 800 497 0335 (At first menu, press 3 for Adobe Commerce P1 hotline)
 * EMEA
-  * UK: (+44) 800 169 0454 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * Denmark: (+45) 80206017 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * Netherlands: (+31) 020 203 5138 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * Italy: (+39) 0269 682 818 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * Sweden: (+46) 0200 810 330 (At first menu, press 6 for Adobe Commerce P1 hotline)
+  * UK: (+44) 800 169 0454 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * Denmark: (+45) 80206017 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * Netherlands: (+31) 020 203 5138 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * Italy: (+39) 0269 682 818 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * Sweden: (+46) 0200 810 330 (At first menu, press 3 for Adobe Commerce P1 hotline)
 * APAC
   * Australia: (+61) 1 800 358 683 (At first menu, press 3 for Adobe Commerce P1 hotline)
-  * Singapore: (+65) 1 800 818 5220 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * Philippines (toll): (+63) 1 800 1441 0660 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * New Zealand (toll): (+64) 050 861 4264 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * Taiwan: (+886)0 800 666 381 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * Malaysia (toll): (+60) 1800 220 120 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * India: (+91) 0008 004 402 107 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * Hong Kong: (+852) 30 713 107 (At first menu, press 6 for Adobe Commerce P1 hotline)
-  * Japan: (+81) 120 071 300 (At first menu, press 6 for Adobe Commerce P1 hotline)
+  * Singapore: (+65) 1 800 818 5220 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * Philippines (toll): (+63) 1 800 1441 0660 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * New Zealand (toll): (+64) 050 861 4264 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * Taiwan: (+886)0 800 666 381 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * Malaysia (toll): (+60) 1800 220 120 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * India: (+91) 0008 004 402 107 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * Hong Kong: (+852) 30 713 107 (At first menu, press 3 for Adobe Commerce P1 hotline)
+  * Japan: (+81) 120 071 300 (At first menu, press 3 for Adobe Commerce P1 hotline)
