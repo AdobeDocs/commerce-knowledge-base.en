@@ -9,7 +9,7 @@ role: Admin
 
 During the peak holiday sales season (approximately Mid-November through Mid-January), Adobe recommends that all Adobe Commerce merchants hosted on our cloud infrastructure prepare for increased traffic.
 
-For a comprehensive, cross-solution checklist and best practices for preparing your systems and teams for peak season, see the [Adobe DX Unified Holiday Readiness Guide](https://experienceleague.corp.adobe.com/docs/support-resources/data-sheets/unified-holiday-readiness.html).
+For a comprehensive, cross-solution checklist and best practices for preparing your systems and teams for peak season, see the [Adobe DX Unified Holiday Readiness Guide](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness).
 
  **Planning and Estimating Traffic**
 
