@@ -122,7 +122,7 @@ To check that there are records in access.logs, run this command:
 * On Commerce Cloud:
     
     ```
-    {{zgrep -i analytics /var/log/platform/*/access.log* | grep MagentoBI}}
+    zgrep -i analytics /var/log/platform/*/access.log* | grep MagentoBI
     ```
     
 * For On-Premise, substitute the file path accordingly:
