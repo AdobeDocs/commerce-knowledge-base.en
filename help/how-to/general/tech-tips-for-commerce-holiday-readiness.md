@@ -10,7 +10,7 @@ exl-id: b61955ba-bc52-42de-8a55-07c19bf42596
 
 The attached pdf offers tips on how to prepare your infrastructure for high traffic, prevent downtime, and optimize performance in the holiday period.
 
-For additional cross-solution guidance on preparing your organization, infrastructure, and teams for peak season, see the [Adobe DX Solutions Unified Holiday Readiness Guide](https://experienceleague.corp.adobe.com/docs/support-resources/data-sheets/unified-holiday-readiness.html).
+For additional cross-solution guidance on preparing your organization, infrastructure, and teams for peak season, see the [Adobe DX Solutions Unified Holiday Readiness Guide](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness).
 
 ## Affected products and versions
 
