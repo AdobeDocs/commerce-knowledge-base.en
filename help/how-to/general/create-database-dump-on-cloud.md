@@ -30,7 +30,15 @@ This is the recommended and safest option.
 
  See [Dump your database (ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html) in our Commerce on Cloud Infrastructure Guide.
 
-## Option 2: mysqldump
+## Option 2: `mariadb-dump` (or `mysqldump` for older versions)
+
+>[!IMPORTANT]
+>
+> For newer MariaDB versions (11.x and later), MariaDB has deprecated the `mysqldump` symlink and recommends using `mariadb-dump` instead.
+>
+> If you are on an older MariaDB version where `mariadb-dump` is not available, you can continue to use `mysqldump`.
+>
+>For more information, refer to [mariadb-dump client utility](https://mariadb.com/docs/server/clients-and-utilities/backup-restore-and-import-clients/mariadb-dump).
 
 >[!WARNING]
 >
