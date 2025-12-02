@@ -30,13 +30,23 @@ This is the recommended and safest option.
 
  See [Dump your database (ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html) in our Commerce on Cloud Infrastructure Guide.
 
-## Option 2: mysqldump
+## Option 2: mariadb-dump (or mysqldump for older versions)
+
++++<b>For newer MariaDB versions (11.x and later)</b>
+
+Starting from MariaDB 11.0.1, the `mysqldump` symlink is deprecated. You are recommended to use `mariadb-dump` instead.
+
+For more information, refer to [mariadb-dump client utility](https://mariadb.com/docs/server/clients-and-utilities/backup-restore-and-import-clients/mariadb-dump).
+
++++
+
++++<b>For older MariaDB versions</b> 
+
+If you are on an older MariaDB version where `mariadb-dump` is not available, you may dump your DB using the native MySQL `mysqldump` command.
 
 >[!WARNING]
 >
 >Do not run this command against the database cluster. The cluster will not differentiate whether it is run against the database primary or against a secondary. If the cluster runs this command against the primary, the database will be unable to execute writes until the dump is completed and could impact performance and site stability.
-
-You may dump your DB using the native MySQL `mysqldump` command.
 
 The entire command might look as follows:
 
@@ -45,6 +55,8 @@ mysqldump -h <host> -u <username> -p <password> --single-transaction <db_name> |
 ```
 
 The database backup created by running the `mysqldump` command and saved in `\tmp`, should be moved from this location. It should not take up storage space in `\tmp` (which might result in problems).
+
++++
 
 To obtain your DB credentials (host, username, and password), you might call the `MAGENTO_CLOUD_RELATIONSHIPS` environment variable:
 
