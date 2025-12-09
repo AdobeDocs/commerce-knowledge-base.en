@@ -36,10 +36,6 @@ A fix will be available in Adobe Commerce 2.3.6, which is scheduled for release 
 
 ## Related reading
 
-In our support knowledge base:
-
-* [Bulk action product count known issue in Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
-
 In our developer documentation:
 
 * [Adobe Commerce 2.3.5 Release Notes](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
