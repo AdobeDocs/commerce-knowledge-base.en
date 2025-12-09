@@ -46,7 +46,6 @@ breadcrumb-title: Commerce KB
     * [Cybersource payment from Admin and front on different domains not processed](/help/troubleshooting/payments/cybersource-payment-from-admin-and-front-on-different-domains-not-processed.md)
     * [Adobe Commerce 2.4.0 known issue: Amazon pay, no payment methods](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
     * [Adobe Commerce 2.4.0: Checkout error selecting local payments](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
-    * [PayPal Payflow Pro active carding activity](/help/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.md)
     * [PayPal troubleshooting on Adobe Commerce](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
     * [Adobe Commerce 2.4.0, 2.4.1: Enable Braintree Venmo partial invoice](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
     * [Adobe Commerce 2.4.2 B2B: discount remains pay method change](/help/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change.md)
