@@ -155,7 +155,6 @@ breadcrumb-title: Commerce KB
     * [Advanced Reporting troubleshooter for Adobe Commerce](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
     * [Common PHP Fatal Errors and solutions](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
     * [Composer update fail on Adobe Commerce: Incompatible argument type](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
-    * [Cannot delete the source or change its code](/help/troubleshooting/miscellaneous/cannot-delete-the-source-or-change-its-code.md)
     * [Adobe Commerce 2.4.2 B2B: email template not updating email](/help/troubleshooting/miscellaneous/magento-2-4-2-b2b-email-template-not-updating-email.md)
     * [Manual order export to MOM fails. The Export Order button returns HTTP 404 error](/help/troubleshooting/miscellaneous/manual-order-export-to-mom-fails-the-export-order-button-returns-http-404-error.md)
     * [PWA Studio: browser not trust generated SSL certificate](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
