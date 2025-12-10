@@ -170,7 +170,6 @@ breadcrumb-title: Commerce KB
     * [Custom server-side scripts not executed in pub media directory](/help/troubleshooting/miscellaneous/custom-server-side-scripts-not-executed-in-pub-media-directory.md)
     * [PHP version readiness check issues](/help/troubleshooting/miscellaneous/php-version-readiness-check-issues.md)
     * [Cloud site is slow](/help/troubleshooting/miscellaneous/cloud-site-is-slow.md)
-    * [Error purging Fastly cache on Cloud (The purge request was not processed successfully)](/help/troubleshooting/miscellaneous/error-purging-fastly-cache-on-cloud-the-purge-request-was-not-processed-successfully.md)
     * [Custom SSL certificate expiration information](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
     * [PWA Studio: Validation errors when running developer mode](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
     * [Turn off hourly Amazon emails when using Adobe Commerce](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)

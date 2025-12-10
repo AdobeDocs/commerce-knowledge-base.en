@@ -41,7 +41,6 @@ Refer to this article for detailed steps: [Set up Fastly](https://experienceleag
 ### Related Fastly articles in our support knowledge base
 
 * [Fastly caching is not working on Cloud](/help/troubleshooting/miscellaneous/fastly-caching-is-not-working-on-magento-cloud.md)
-* [Error purging Fastly cache on Cloud (The purge request was not processed successfully)](/help/troubleshooting/miscellaneous/error-purging-fastly-cache-on-cloud-the-purge-request-was-not-processed-successfully.md)
 
 ## 2. Valid SSL (TLS) certificate
 
