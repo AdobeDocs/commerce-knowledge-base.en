@@ -50,8 +50,3 @@ This article talks about a known issue in Commerce Admin when managing a B2B Quo
 
 Currently, there is no workaround for this issue with B2B Quote editing, but for Order and Shopping Cart management, it is possible to select products from the **Products List** instead of adding them by **SKU**. A patch to resolve the issue will be available for Adobe Commerce 2.4.1, which is scheduled for release in Q4 2020.
 
-## Related reading
-
-* [Adobe Commerce 2.4.0 known issue: refresh on Customer's Activities does not work](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0 Known Issue: Export Tax Rates does not work](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
-

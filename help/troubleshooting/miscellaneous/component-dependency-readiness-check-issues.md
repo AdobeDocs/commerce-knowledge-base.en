@@ -34,8 +34,6 @@ We found conflicting component dependencies.
 >
 >The message you see will likely be different.
 
-Refer to [Conflicting component dependencies for a solution](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md) in our support knowledge base.
-
 ## File system permissions issues {#trouble-depend-permission}
 
 If the Adobe Commerce file system owner doesn't have the permissions to write to directories on the Adobe Commerce file system, a message similar to the following displays:
