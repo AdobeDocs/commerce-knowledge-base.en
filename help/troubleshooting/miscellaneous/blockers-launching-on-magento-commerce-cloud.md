@@ -38,10 +38,6 @@ You can also [create and add own custom VCL snippets](https://experienceleague.a
 
 Refer to this article for detailed steps: [Set up Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings) in our user guide.
 
-### Related Fastly articles in our support knowledge base
-
-* [Fastly caching is not working on Cloud](/help/troubleshooting/miscellaneous/fastly-caching-is-not-working-on-magento-cloud.md)
-
 ## 2. Valid SSL (TLS) certificate
 
 Problem: Without a valid and working SSL certificate, you cannot test external payment methods on the Checkout page &ndash; on the Staging environment.
