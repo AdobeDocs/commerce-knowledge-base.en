@@ -228,7 +228,6 @@ breadcrumb-title: Commerce KB
     * [Deployment fails Fastly module incompatible Adobe Commerce version](/help/troubleshooting/deployment/deployment-fails-fastly-module-incompatible-magento-version.md)
     * [Deployment error: SQLSTATE[HY000]](/help/troubleshooting/deployment/deployment-error-sql-hy000.md)
     * [Deployment issues relating to account permissions and access keys](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
-    * [Adobe Commerce deployment troubleshooter](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)
     * [Error during deployment when upgrading to version supporting PHP 8.1](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
     * [Deployment error: "error 7 while downloading ... port 443: Connection refused"](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
     * [Deployment errors when committing incorrect files](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
