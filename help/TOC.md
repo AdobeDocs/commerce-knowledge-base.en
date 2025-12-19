@@ -86,7 +86,6 @@ breadcrumb-title: Commerce KB
     * [Missing or altered configuration file](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
     * [cURL error 60: SSL certificate expired](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
     * [Troubleshoot Product Recommendations module in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
-    * [Troubleshoot /tmp mount full for Adobe Commerce](/help/troubleshooting/miscellaneous/tmp-mount-full.md)
     * [Unknown module Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
     * [Cron readiness check issues](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
     * [Redis service crashed](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
