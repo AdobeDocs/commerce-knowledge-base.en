@@ -124,7 +124,6 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce 2.4.0 known issue - Export Tax Rates does not work](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
     * [Magento Order Management System (OMS) for Adobe Commerce processing error](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
     * [Cached images are not loaded after 2.2.X to 2.3.X upgrade](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
-    * [504 gateway time-out error when saving a category with 1k+ products](/help/troubleshooting/miscellaneous/504-gateway-time-out-error-when-saving-a-category-with-1k-products.md)
     * [Error message when adding sites into Security Scan](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
     * [Shared access troubleshooting](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
     * [Slow performance, slow and long running crons](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
