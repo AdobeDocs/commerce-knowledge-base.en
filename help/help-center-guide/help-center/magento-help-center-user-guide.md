@@ -396,8 +396,5 @@ To know which account you are currently using (your own native account or shared
 
 Please refer to the [Shared access troubleshooting article](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md) in our support knowledge base.
 
-## BILLING FAQ FOR ADOBE COMMERCE {#billing-faq}
-
-Merchants typically pay for our services by a credit card (CC) transaction, and this [Billing FAQ for Adobe Commerce](/help/faq/general/billing-faq-for-adobe-commerce.md) is a resource to assist you when you pay your bill.
 
 
