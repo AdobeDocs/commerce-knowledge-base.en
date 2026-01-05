@@ -196,7 +196,9 @@ Your support cases are those that you:
 * have submitted personally.
 * have been added to as a watcher through a CC (carbon copy).
 
->[!NOTE] If you have support cases that were submitted other Adobe products besides Commerce, those tickets cannot be tracked from the same screen - you must first switch to the organization associated with the product entitlement. 
+>[!NOTE]
+>
+>If you have support cases that were submitted other Adobe products besides Commerce, those tickets cannot be tracked from the same screen - you must first switch to the organization associated with the product entitlement. 
 >For example, you previously selected the organization ending in "(Commerce)" to track your Commerce case, while you also have AEP support cases - those cases will not be shown here.
 
 #### View your cases
