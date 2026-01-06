@@ -189,16 +189,21 @@ You won't be able to submit a support ticket if you receive the Please verify yo
 ![Verify_Email_Address_Error](assets/Verify_Email_Address_Error.png)
 
 
-### Track your support cases {#track-support-case}
+### Track your Commerce support cases {#track-support-case}
 
 Your support cases are those that you:
 
 * have submitted personally.
 * have been added to as a watcher through a CC (carbon copy).
 
+>[!NOTE]
+>
+>If you have support cases that were submitted other Adobe products besides Commerce, those tickets cannot be tracked from the same screen - you must first switch to the organization associated with the product entitlement. 
+>For example, you previously selected the organization ending in "(Commerce)" to track your Commerce case, while you also have AEP support cases - those cases will not be shown here.
+
 #### View your cases
 
-You can view the cases you have submitted personally by clicking **[!UICONTROL My Cases]** on the left-hand menu. Make sure that you have selected the correct Organization ending in "(Commerce)".
+You can view the Commerce cases you have submitted personally by clicking **[!UICONTROL My Cases]** on the left-hand menu. Make sure that you have selected the correct Organization ending in "(Commerce)".
 
 ![view-support-cases](assets/view_support_cases.png)
 
@@ -208,7 +213,7 @@ Learn more about how you can **view your historical cases** from the Adobe Comme
 
 #### View your watched cases
 
-You can view the cases you have been *added to as a watcher* by clicking **[!UICONTROL My organization's cases]** on the left-hand menu.
+You can view the Commerce cases you have been *added to as a watcher* by clicking **[!UICONTROL My organization's cases]** on the left-hand menu.
 
 <!-- TODO: Add image here -->
 
