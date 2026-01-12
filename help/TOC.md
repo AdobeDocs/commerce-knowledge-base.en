@@ -243,7 +243,6 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
-  * [Adobe Commerce P1 Notification hotline](/help/how-to/general/adobe-commerce-p1-notification-hotline.md)
   * [How to include a team member in Support notifications](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
   * [How to obtain and apply security patches](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
@@ -290,7 +289,6 @@ breadcrumb-title: Commerce KB
   * [Block malicious traffic for Adobe Commerce on Fastly level](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
   * [Create a patch for Adobe Commerce Composer installation from a GitHub commit](/help/how-to/general/create-a-patch-for-a-magento-2-composer-installation-from-a-github-commit.md)
   * [Change Admin password on Adobe Commerce on cloud infrastructure](/help/how-to/general/change-magento-admin-password-on-cloud.md)
-  * [How to request temporary Adobe Commerce on cloud infrastructure upsize](/help/how-to/general/how-to-request-temporary-magento-upsize.md)
   * [View environment vCPU tier in your cluster on Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
   * [Adobe Commerce on cloud infrastructure: Check host's CPU configuration](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
   * [Adobe Commerce on cloud: change authentication keys and redeploy](/help/how-to/general/redeploy-with-another-key.md)
