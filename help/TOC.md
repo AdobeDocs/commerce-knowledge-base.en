@@ -151,7 +151,6 @@ breadcrumb-title: Commerce KB
     * [Common PHP Fatal Errors and solutions](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
     * [Composer update fail on Adobe Commerce: Incompatible argument type](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
     * [Adobe Commerce 2.4.2 B2B: email template not updating email](/help/troubleshooting/miscellaneous/magento-2-4-2-b2b-email-template-not-updating-email.md)
-    * [Manual order export to MOM fails. The Export Order button returns HTTP 404 error](/help/troubleshooting/miscellaneous/manual-order-export-to-mom-fails-the-export-order-button-returns-http-404-error.md)
     * [PWA Studio: browser not trust generated SSL certificate](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
     * [Troubleshooting 503 error caused by necessity to change default Varnish settings](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
     * [Cron tasks lock tasks from other groups](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
