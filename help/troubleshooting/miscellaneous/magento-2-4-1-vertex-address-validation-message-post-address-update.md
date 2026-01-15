@@ -16,9 +16,6 @@ This article describes a known Adobe Commerce 2.4.1 issue where Vertex address v
 
 ## Issue
 
-Prerequisites:
-
-Enable **Vertex Address Cleansing**. For steps, refer to [Configuring Storefront Address Cleansing](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html) in our user guide.
 
 <u>Steps to reproduce:</u>
 
