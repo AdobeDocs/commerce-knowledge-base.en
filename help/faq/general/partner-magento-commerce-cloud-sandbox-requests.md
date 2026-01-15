@@ -14,7 +14,7 @@ See [Reset environment on Cloud](/help/how-to/general/reset-environment-on-cloud
 
 ## What do I do with a stuck deployment? {#what-do-i-do-with-a-stuck-deployment}
 
-See [Deployment troubleshooter](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md) in our support knowledge base.
+See [Deployment troubleshooter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640) in our support knowledge base.
 
 ## Where/How do I get help when needed? {#wherehow-do-i-get-help-when-needed}
 
