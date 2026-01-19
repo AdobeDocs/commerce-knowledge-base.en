@@ -40,7 +40,6 @@ The default value of 16MB for the [!DNL MySQL] `max_allowed_packets` setting is 
 ## Related reading
 
 * [On-premises installation overview](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) in our developer documentation.
-* [Database upload loses connection to [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql) in our support knowledge base.
 * [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in our support knowledge base.
 * [Best practices to resolve database performance issues](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) in our support knowledge base.
 * [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook

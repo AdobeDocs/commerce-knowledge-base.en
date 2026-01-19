@@ -23,7 +23,6 @@ breadcrumb-title: Commerce KB
   * [Troubleshooting overview](/help/troubleshooting/overview.md)
   * Database {#database}
     * [Checking slow queries and processes MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
-    * [Database upload loses connection to MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
     * [MySQL server has gone away​ error on Adobe Commerce on cloud](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
     * [Database errors related to max_allowed_packet on Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
     * [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
