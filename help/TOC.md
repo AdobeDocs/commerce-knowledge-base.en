@@ -217,7 +217,6 @@ breadcrumb-title: Commerce KB
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * Help Center Guide {#help-center-guide}
   * [Experience League Support User Guide for Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
-  * [Adobe Commerce Support ticket lifecycle policy update](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
   * [How to include a team member in Support notifications](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
