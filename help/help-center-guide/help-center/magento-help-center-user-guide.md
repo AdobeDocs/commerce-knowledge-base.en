@@ -388,8 +388,9 @@ For more information, please refer to the [Manage User Access](https://experienc
 
 ### Access your Shared Account (switch accounts) {#switch-accounts}
 
->[!NOTE] This step is not required to submit tickets for Adobe Commerce.
+>[!NOTE]
 >
+>This step is not required to submit tickets for Adobe Commerce.
 >For a demonstration on submitting an Adobe Commerce ticket, [please see this video](https://experienceleague.adobe.com/en/playlists/support-requests).
 
 To use the shared access provided for you, follow these steps:
