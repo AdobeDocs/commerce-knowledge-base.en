@@ -157,6 +157,25 @@ To submit a new support case using the start page of Adobe Experience League, fo
 >1. If you submitted the case for OrgA but the issue is actually impacting OrgB, members of OrgB will not be able to see this case under [!UICONTROL My Cases] in the future. 
 >1. In addition, members of OrgA will be able to see cases under [!UICONTROL My Cases] that are actually meant for OrgB, which can lead to privacy issues.
 
+>[!NOTE]
+>
+> To ensure you receive the fastest, most accurate support, select the correct details when creating support requests. Accurate selection helps route your case directly to the correct team and reduces response times.
+>
+>If your organization has entitlements for Adobe Commerce Intelligence / Commerce Reporting (MBI) but you need assistance with Advanced Reporting, don't select **Commerce Reporting** as the product. The Commerce Reporting team doesn't provide support for Advanced Reporting issues.
+>
+>If you are unable to select a different product (for example, the **Select a product** dropdown is empty or not displayed), it is usually due to one of the following reasons:
+>
+>* Your Commerce entitlements have expired or are inactive (for example, due to an outstanding billing or licensing issue).
+>* For instances hosted on Adobe Commerce on cloud infrastructure (PaaS), you haven't been added to the Cloud project.
+>
+>For Adobe Commerce on cloud projects, contact your Account Owner and request to be added to the appropriate Cloud project. For more information, see User access for Adobe Commerce on cloud infrastructure.
+>
+>After you have been granted Shared Access and added to the Cloud project:
+>
+>1. Go to the [Adobe Support](https://experienceleague.adobe.com/home?lang=en#support) page.
+>1. In the organization dropdown on the left, select the organization whose name ends with **Commerce**.
+>1. Submit the ticket for the appropriate product, and don't select **Commerce Reporting** for issues related specifically to Advanced Reporting.
+
 You must have an account on both https://account.adobe.com and https://account.magento.com to sign in to the Experience League to submit a support case. You won't be able to submit a support case until you are signed in.
 
 >[!NOTE] 
