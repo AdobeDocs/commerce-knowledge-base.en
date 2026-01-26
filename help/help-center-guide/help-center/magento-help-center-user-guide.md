@@ -168,12 +168,12 @@ To submit a new support case using the start page of Adobe Experience League, fo
 >* Your Commerce entitlements have expired or are inactive (for example, due to an outstanding billing or licensing issue).
 >* For instances hosted on Adobe Commerce on cloud infrastructure (PaaS), you haven't been added to the Cloud project.
 >
->For Adobe Commerce on cloud projects, contact your Account Owner and request to be added to the appropriate Cloud project. For more information, see User access for Adobe Commerce on cloud infrastructure.
+>For Adobe Commerce on cloud projects, contact your Account Owner and request to be added to the appropriate Cloud project. For more information, see [Manage user access](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access) for Adobe Commerce on cloud infrastructure.
 >
 >After you have been granted Shared Access and added to the Cloud project:
 >
 >1. Go to the [Adobe Support](https://experienceleague.adobe.com/home?lang=en#support) page.
->1. In the organization dropdown on the left, select the organization whose name ends with **Commerce**.
+>1. In the organization dropdown on the left, select the organization whose name ends with **(Commerce)**.
 >1. Submit the ticket for the appropriate product, and don't select **Commerce Reporting** for issues related specifically to Advanced Reporting.
 
 You must have an account on both https://account.adobe.com and https://account.magento.com to sign in to the Experience League to submit a support case. You won't be able to submit a support case until you are signed in.
