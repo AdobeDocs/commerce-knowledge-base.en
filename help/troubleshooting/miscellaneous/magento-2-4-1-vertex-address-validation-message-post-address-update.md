@@ -61,7 +61,3 @@ The old validation message/suggestion message is removed.
 <u>Actual result:</u>
 
 The validation message/suggestion *"We did not find a valid address Postcode : XXXXX-XXXX Street  XXX City street XXX"* message is **NOT** removed. The same issue occurs if you enter an invalid address in the form.
-
-## Related reading in our support knowledge base:
-
-[Adobe Commerce 2.3.6, 2.4.0-p1 and 2.4.1 known issue: cannot log in to dotdigital when account enabled](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
