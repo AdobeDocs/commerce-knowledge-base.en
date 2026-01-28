@@ -133,7 +133,6 @@ breadcrumb-title: Commerce KB
     * [Blockers launching on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
     * [PHP settings errors](/help/troubleshooting/miscellaneous/php-settings-errors.md)
     * [PHP mcrypt extension not installed properly](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
-    * [Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 known issue: dotdigital login](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
     * [Cron job is stuck in "running" status](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
     * [Offload non-regex redirects to Fastly instead of Nginx (routes)](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
     * [Advanced Reporting troubleshooter for Adobe Commerce](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
