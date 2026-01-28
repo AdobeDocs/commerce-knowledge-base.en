@@ -1,23 +1,23 @@
 ---
-title: I've configured API keys for Sensei but only seeing one SaaS data space
-description: This article provides a solution for the issues where you only see one SaaS data space after you have configured the API keys for Sensei.
+title: I've configured API keys for Adobe AI but only seeing one SaaS data space
+description: This article provides a solution for the issues where you only see one SaaS data space after you have configured the API keys for Adobe AI.
 exl-id: e13041da-b122-4684-8287-42132931f47a
 feature: REST, Saas, Observability
 role: Developer
 ---
-# I've configured API keys for Sensei but only seeing one SaaS data space
+# I've configured API keys for Adobe AI but only seeing one SaaS data space
 
-This article provides a solution for the issues where you only see one SaaS data space after you have configured the API keys for Sensei.
+This article provides a solution for the issues where you only see one SaaS data space after you have configured the API keys for Adobe AI.
 
 ## Affected products and versions
 
 * Adobe Commerce (all deployment methods): all versions
 * Magento Open Source: all versions
-* Extension or technology (Fastly, New Relic, etc.), Adobe Sensei (Product Recommendations/Live Search)
+* Extension or technology (Fastly, New Relic, etc.), Adobe AI (Product Recommendations/Live Search)
 
 ## Issue
 
-I have configured the API keys for Sensei, but I am only seeing one SaaS data space.
+I have configured the API keys for Adobe AI, but I am only seeing one SaaS data space.
 
 ## Cause
 
