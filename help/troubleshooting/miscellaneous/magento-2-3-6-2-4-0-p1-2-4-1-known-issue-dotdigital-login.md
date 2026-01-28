@@ -38,7 +38,3 @@ Unable to log in to dotdigital.
 ## Solution
 
 Workaround: use an alternative browser to Safari for this particular situation.
-
-## Related Reading
-
- [Adobe Commerce 2.4.1 Known Issue - Vertex address not validating with different shipping/billing addresses](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) in our support knowledge base.
