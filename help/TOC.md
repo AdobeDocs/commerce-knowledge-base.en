@@ -111,7 +111,6 @@ breadcrumb-title: Commerce KB
     * [Stock status incorrect after Inventory Management install](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
     * [Adobe Commerce 2.3.5 known issue: virtual product multi-ship orders](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
     * [Using Data Exports to pinpoint discrepancies](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
-    * [Error enabling Image Optimization in Adobe Commerce](/help/troubleshooting/miscellaneous/error-enabling-image-optimization-in-magento-commerce.md)
     * [Data Migration Tool troubleshooting](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
     * [Component dependency readiness check issues](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
     * [Cannot access Adobe Commerce on cloud infrastructure UI](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
