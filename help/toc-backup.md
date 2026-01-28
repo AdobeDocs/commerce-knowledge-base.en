@@ -849,7 +849,7 @@ breadcrumb-title: Commerce KB
   * [File permissions readiness check issues](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
   * [Fastly caching is not working on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/fastly-caching-is-not-working-on-magento-cloud.md)
   * [Diagnosing Google eCommerce revenue discrepancies](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
-  * [I've configured API keys for Sensei but only seeing one SaaS data space](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
+  * [I've configured API keys for Adobe AI but only seeing one SaaS data space](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
   * [Main Menu (Categories) not displayed on subpages with Fastly enabled](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
   * [File storage low, specific page loads are slow](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
   * [Slow performance due to full reindexing](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
