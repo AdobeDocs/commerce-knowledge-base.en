@@ -309,5 +309,4 @@ breadcrumb-title: Commerce KB
   * [Backup (snapshot) on Cloud: FAQ](/help/faq/general/backup-snapshot-on-cloud-faq.md)
   * [FAQ for the 2024 and 2023 Adobe Commerce Release Strategy and Lifecycle Policy](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
   * [Can I schedule Content Staging updates for prices in a shared catalog?](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
-  * [Adobe Commerce Software End of Support FAQ](/help/faq/general/adobe-commerce-eos-policy-faq.md)
   * [Do I need Fastly for a Headless Adobe Commerce site?](/help/faq/general/do-i-need-fastly-for-a-headless-magento-site.md)
