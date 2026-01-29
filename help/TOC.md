@@ -295,7 +295,6 @@ breadcrumb-title: Commerce KB
   * [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
   * [Fastly origin cloaking enablement FAQ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
   * [Database auto_increment increment variable set to "3" Adobe Commerce on our cloud pro architecture](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
-  * [Monitoring fact sheet for Adobe Commerce on cloud pro infrastructure](/help/faq/general/monitoring-whitepaper.md)
   * [Access New Relic services](/help/faq/general/access-new-relic-services.md)
   * [Web Content Accessibility for Adobe Commerce](/help/faq/general/accessibility.md)
   * [How many coupons can a customer use in Adobe Commerce?](/help/faq/general/how-many-coupons-can-a-customer-use-in-magento-2.md)
