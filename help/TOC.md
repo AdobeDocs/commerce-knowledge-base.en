@@ -303,7 +303,6 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce GDPR resources](/help/faq/general/magento-gdpr-resources.md)
   * [Base price change affect on shared catalog price](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)
   * [Two-Factor Authentication in Admin Panel on Adobe Commerce FAQ](/help/faq/general/two-factor-authentication-in-admin-panel-on-magento-faq.md)
-  * [Adobe Commerce support tools at a glance](/help/faq/general/support-tools-overview.md)
   * [Backup (snapshot) on Cloud: FAQ](/help/faq/general/backup-snapshot-on-cloud-faq.md)
   * [FAQ for the 2024 and 2023 Adobe Commerce Release Strategy and Lifecycle Policy](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
   * [Can I schedule Content Staging updates for prices in a shared catalog?](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
