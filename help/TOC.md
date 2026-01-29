@@ -152,7 +152,6 @@ breadcrumb-title: Commerce KB
     * [PWA Studio: Webpack hangs before beginning compilation](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
     * [Resolve an illegal offset error](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
     * [Product status incorrect when created programmatically](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
-    * [The var/export folder permission issue Adobe Commerce on cloud](/help/troubleshooting/miscellaneous/issue-in-the0email-folder-adobe-commerce.md)
     * [Scheduled Content Staging updates not displayed with stale Fastly cache](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
     * [Troubleshoot cron](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
     * [Exported products .csv file does not appear](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
