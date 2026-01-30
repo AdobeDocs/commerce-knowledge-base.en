@@ -134,7 +134,6 @@ breadcrumb-title: Commerce KB
     * [PHP mcrypt extension not installed properly](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
     * [Cron job is stuck in "running" status](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
     * [Offload non-regex redirects to Fastly instead of Nginx (routes)](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
-    * [Advanced Reporting troubleshooter for Adobe Commerce](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
     * [Common PHP Fatal Errors and solutions](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
     * [Adobe Commerce 2.4.2 B2B: email template not updating email](/help/troubleshooting/miscellaneous/magento-2-4-2-b2b-email-template-not-updating-email.md)
     * [PWA Studio: browser not trust generated SSL certificate](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
