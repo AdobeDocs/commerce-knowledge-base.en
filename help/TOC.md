@@ -295,7 +295,6 @@ breadcrumb-title: Commerce KB
   * [Access New Relic services](/help/faq/general/access-new-relic-services.md)
   * [Web Content Accessibility for Adobe Commerce](/help/faq/general/accessibility.md)
   * [How many coupons can a customer use in Adobe Commerce?](/help/faq/general/how-many-coupons-can-a-customer-use-in-magento-2.md)
-  * [Support ticket Contact Reason descriptions](/help/faq/general/support-ticket-contact-reason-descriptions.md)
   * [Partner Adobe Commerce on cloud infrastructure sandbox requests](/help/faq/general/partner-magento-commerce-cloud-sandbox-requests.md)
   * [Adobe Commerce GDPR resources](/help/faq/general/magento-gdpr-resources.md)
   * [Base price change affect on shared catalog price](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)
