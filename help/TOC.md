@@ -219,7 +219,6 @@ breadcrumb-title: Commerce KB
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
   * [Adobe Commerce Intelligence Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
   * [Adobe commerce Intelligence Training Video: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
-  * [Set cache TTL for images and other static content](/help/how-to/general/set-cache-ttl-for-images-and-other-static-content.md)
   * [Provide discount for first purchase only (no coupons)](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
   * [Roll back environment without Cloud snapshot](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
   * [Log locations (directories) for Starter plan](/help/how-to/general/log-locations-directories-for-starter-plan.md)
