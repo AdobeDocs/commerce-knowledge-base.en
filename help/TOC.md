@@ -84,7 +84,6 @@ breadcrumb-title: Commerce KB
     * [Troubleshoot Product Recommendations module in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [Unknown module Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
     * [Cron readiness check issues](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
-    * [Redis service crashed](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
     * [SQL queries: EXPLAIN cost errors](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
     * [Adobe Commerce 2.4.0 B2B Admin can't add configurable product to quote](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
     * [Troubleshooting New Relic on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
