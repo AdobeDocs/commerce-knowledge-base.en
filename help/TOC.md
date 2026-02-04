@@ -183,7 +183,6 @@ breadcrumb-title: Commerce KB
     * [Unable to add user to Adobe Commerce cloud project](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
     * [Cron stops due to misconfigured or missing [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
     * [[!DNL Admin] login not working - allowed session max size exceeded](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
-    * [Configuring Adobe Commerce Intelligence connection for existing cloud starter projects](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
     * [[!DNL Google Tag Manager] is broken by the Live Search widget](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
     * [Vulnerabilities found by third-party security scans should go to [!DNL HackerOne]](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
     * [Getting thousands of search results after upgrading from 2.4.2 to 2.4.5-p3](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
