@@ -150,7 +150,6 @@ breadcrumb-title: Commerce KB
     * [Resolve an illegal offset error](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
     * [Product status incorrect when created programmatically](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
     * [Scheduled Content Staging updates not displayed with stale Fastly cache](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
-    * [Troubleshoot cron](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
     * [Exported products .csv file does not appear](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
     * [Checking deployment log if Cloud UI has "log snipped" error](/help/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.md)
     * [Download fails because of changes in Composer](/help/troubleshooting/miscellaneous/download-fails-because-of-changes-in-composer.md)
