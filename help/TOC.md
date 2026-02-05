@@ -125,7 +125,6 @@ breadcrumb-title: Commerce KB
     * [Diagnosing a data discrepancy](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
     * [Admin 2FA email notifications not being received](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
     * [Redirect back to the Commerce Admin login form with "Your current session has been expired" error](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
-    * [Redis unserialize error setup:static-content:deploy](/help/troubleshooting/miscellaneous/redis-unserialize-error-setup-static-content-deploy.md)
     * [Site in maintenance mode but available to customers](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [git pull origin develop fails when updating the Adobe Commerce software](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [Blockers launching on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
