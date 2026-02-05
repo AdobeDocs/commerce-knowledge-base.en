@@ -102,7 +102,6 @@ breadcrumb-title: Commerce KB
     * [Troubleshoot performance using New Relic on Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
     * [Checking for DDoS attack from CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
     * [Blank page or redirect loop error when accessing storefront or Commerce Admin](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
-    * [Extension Manager shows no extensions in Adobe Commerce 2.3.x](/help/troubleshooting/miscellaneous/extension-manager-shows-no-extensions-in-magento-commerce-2-3-x.md)
     * [Login redirect when trying to login to Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [Resolve issues with encryption key](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
     * [PWA Studio: Venia GraphQL queries to Adobe Commerce produce validation errors](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
