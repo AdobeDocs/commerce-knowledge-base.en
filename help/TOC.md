@@ -104,7 +104,6 @@ breadcrumb-title: Commerce KB
     * [Blank page or redirect loop error when accessing storefront or Commerce Admin](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
     * [Login redirect when trying to login to Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [Resolve issues with encryption key](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
-    * [PWA Studio: Venia GraphQL queries to Adobe Commerce produce validation errors](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
     * [Using Data Exports to pinpoint discrepancies](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [Data Migration Tool troubleshooting](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
     * [Component dependency readiness check issues](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
