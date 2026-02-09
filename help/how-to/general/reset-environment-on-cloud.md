@@ -88,10 +88,7 @@ To remove the configuration file, follow these steps:
 1. [SSH to your environment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Remove the configuration file: `rm app/etc/config.php`
 
-Read more about Configuration Management:
-
-* [Reduce deployment downtime on Adobe Commerce on cloud infrastructure](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) in our support knowledge base.
-* [Configuration management for store settings](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) in our developer documentation.
+Read more about  [Configuration management for store settings](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) in our developer documentation.
 
 ### Step 1: Uninstall the Adobe Commerce software with setup:uninstall command
 
