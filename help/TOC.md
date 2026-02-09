@@ -214,8 +214,6 @@ breadcrumb-title: Commerce KB
   * [Adobe commerce Intelligence Training Video: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
   * [Provide discount for first purchase only (no coupons)](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
   * [Roll back environment without Cloud snapshot](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
-  * [Log locations (directories) for Starter plan](/help/how-to/general/log-locations-directories-for-starter-plan.md)
-  * [Reduce deployment downtime on Adobe Commerce on cloud infrastructure](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)
   * [How to add a new country to Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
   * [Customize design configuration in the Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
   * [Increase disk space for Integration environment on cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
