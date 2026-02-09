@@ -19,9 +19,7 @@ Check the logs to see if there are entries with custom module's name in the erro
 
 ### Adobe Commerce (all deployment methods), Magento Open Source, all 2.X versions
 
-1. Logs locations:
-    * [Adobe Commerce on cloud infrastructure Starter plan architecture logs](/help/how-to/general/log-locations-directories-for-starter-plan.md) in our support knowledge base.
-    * [Adobe Commerce on cloud infrastructure Pro plan architecture logs](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) in our support knowledge base.
+1. Logs location is placed at [Adobe Commerce on cloud infrastructure Pro plan architecture logs](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) in our support knowledge base.
 1. Depending on the errors you find, if you want to enable, disable, or uninstall a custom module, these articles detail those actions:
     * [Enable or disable modules](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) in our developer documentation.
     * [Uninstall modules](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) in our developer documentation.

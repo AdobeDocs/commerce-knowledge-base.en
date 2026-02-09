@@ -53,5 +53,5 @@ Each of the following points might solve the issue.
 
 ## Related reading in our support knowledge base
 
-* [Log locations (directories) for Pro architecture](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
-* [Log locations (directories) for Starter architecture](/help/how-to/general/log-locations-directories-for-starter-plan.md)
+[Log locations (directories) for Pro architecture](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
+
