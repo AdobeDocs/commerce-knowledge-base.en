@@ -210,7 +210,6 @@ breadcrumb-title: Commerce KB
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
   * [Adobe Commerce Intelligence Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
-  * [Provide discount for first purchase only (no coupons)](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
   * [Roll back environment without Cloud snapshot](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
   * [How to add a new country to Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
   * [Customize design configuration in the Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
