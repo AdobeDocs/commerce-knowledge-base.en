@@ -211,7 +211,6 @@ breadcrumb-title: Commerce KB
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
   * [Adobe Commerce Intelligence Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
   * [Roll back environment without Cloud snapshot](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
-  * [How to add a new country to Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
   * [Customize design configuration in the Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
   * [Increase disk space for Integration environment on cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
   * [Adobe Commerce on cloud infrastructure: CPU allocation calculation](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
