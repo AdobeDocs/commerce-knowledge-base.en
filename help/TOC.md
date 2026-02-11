@@ -225,7 +225,6 @@ breadcrumb-title: Commerce KB
   * [Identify and measure outages for Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-identify-outages.md)
   * [Change account owner for New Relic on Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
   * [Change Admin URL on Adobe Commerce on cloud infrastructure](/help/how-to/general/change-magento-admin-url-on-cloud.md)
-  * [Enable Elasticsearch on Cloud](/help/how-to/general/enable-elasticsearch-on-cloud.md)
   * [Configure NPM to be able to use PWA Studio](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
   * [Rearrange cloud branches on Adobe Commerce](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
   * [How to find Adobe Commerce product documentation](/help/how-to/general/how-to-find-magento-product-documentation.md)
