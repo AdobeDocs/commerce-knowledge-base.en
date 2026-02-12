@@ -25,7 +25,7 @@ This entry tells any browser on the developer's computer to look at the local st
 
 ## Solution
 
-You can [manually edit your hostfile](https://support.rackspace.com/how-to/modify-your-hosts-file/) to add the entry back, but you should examine your other installed software to see what has overwritten the previous change.
+You can [manually edit your hostfile](https://docs.rackspace.com/docs/modify-your-hosts-file) to add the entry back, but you should examine your other installed software to see what has overwritten the previous change.
 
 ## Related reading in our support knowledge base
 
