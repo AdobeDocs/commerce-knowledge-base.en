@@ -205,7 +205,6 @@ breadcrumb-title: Commerce KB
   * [Experience League Support User Guide for Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
-  * [How to include a team member in Support notifications](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
   * [How to obtain and apply security patches](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
