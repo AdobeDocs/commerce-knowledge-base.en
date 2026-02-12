@@ -212,7 +212,6 @@ breadcrumb-title: Commerce KB
   * [Roll back environment without Cloud snapshot](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
   * [Adobe Commerce on cloud infrastructure: CPU allocation calculation](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
   * [Find large MySQL tables](/help/how-to/general/find-large-mysql-tables.md)
-  * [Check disk space using CLI on Adobe Commerce on cloud infrastructure environment](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
   * [Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
   * [Test Fastly on Production if a Live Site uses the same domain](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
   * [Static content deployment options to reduce deployment downtime on Cloud](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
