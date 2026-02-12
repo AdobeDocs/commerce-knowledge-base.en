@@ -215,7 +215,6 @@ breadcrumb-title: Commerce KB
   * [Customize design configuration in the Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
   * [Increase disk space for Integration environment on cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
   * [Adobe Commerce on cloud infrastructure: CPU allocation calculation](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
-  * [Update Shared Catalog prices using REST API](/help/how-to/general/update-shared-catalog-prices-using-rest-api.md)
   * [Find large MySQL tables](/help/how-to/general/find-large-mysql-tables.md)
   * [Check disk space using CLI on Adobe Commerce on cloud infrastructure environment](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
   * [Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
