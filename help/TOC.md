@@ -212,7 +212,6 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Intelligence Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
   * [Roll back environment without Cloud snapshot](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
   * [How to add a new country to Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
-  * [Customize design configuration in the Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
   * [Adobe Commerce on cloud infrastructure: CPU allocation calculation](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
   * [Find large MySQL tables](/help/how-to/general/find-large-mysql-tables.md)
   * [Check disk space using CLI on Adobe Commerce on cloud infrastructure environment](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
