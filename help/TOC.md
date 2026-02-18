@@ -201,8 +201,6 @@ breadcrumb-title: Commerce KB
   * Elasticsearch {#elasticsearch}
     * [Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-* Help Center Guide {#help-center-guide}
-  * [Experience League Support User Guide for Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)

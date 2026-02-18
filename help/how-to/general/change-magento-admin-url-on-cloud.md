@@ -25,7 +25,7 @@ From the [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-
 
 ### When Staging and Production are not available in the Cloud Console
 
- [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to add the ADMIN\_URL variable for your Staging or Production environment.
+ [Submit a support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) requesting to add the ADMIN\_URL variable for your Staging or Production environment.
 
 If Staging and Production are accessible from the Cloud Console, add the Environment Variable as described in the *Integration environment* section above.
 

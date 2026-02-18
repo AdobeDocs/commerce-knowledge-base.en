@@ -32,7 +32,7 @@ The steps outlined in this article also apply if you need to rotate (cycle) your
 
 1. If the above command returns an error similar to: `{"msg":"Token $TOKEN expired at 2021-09-28T02:03:37Z"}`, submit a support ticket to request a new API token. After receiving your new token, update the configuration in your environment.
 
-    To learn how to submit a support ticket, refer to [Adobe Commerce Help Center User Guide > SUPPORT TICKETS](/help/help-center-guide/help-center/magento-help-center-user-guide.md#support-tickets) in our support knowledge base.
+    To learn how to submit a support ticket, refer to [Adobe Commerce Help Center User Guide > SUPPORT TICKETS](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-tickets) in our support knowledge base.
 
     >[!NOTE]
     >

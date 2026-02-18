@@ -19,7 +19,7 @@ This article covers the backing up your environments with snapshots on Adobe Com
 
 * Manual snapshots are not available for Staging and Production environments on Pro plan.
 * Automatic snapshots are created **regardless of the live state** of your site (snapshots are also created for sites that have not been launched yet). Automatic backups are not publicly accessible because they are stored in a separate system.
-You can [submit an Adobe Commerce Support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) to request a special backup or to restore from a specific backup providing the date, time, and timezone in the ticket. Once the Infrastructure team has provided the snapshot, to determine the timestamp when it was originally taken, run the following command from the location where the snapshot has been placed:
+You can [submit an Adobe Commerce Support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) to request a special backup or to restore from a specific backup providing the date, time, and timezone in the ticket. Once the Infrastructure team has provided the snapshot, to determine the timestamp when it was originally taken, run the following command from the location where the snapshot has been placed:
 
   `cat /mnt/recovery/vol-<volume_id>/snap.time`
 
@@ -30,7 +30,7 @@ You can [submit an Adobe Commerce Support ticket](/docs/commerce-knowledge-base/
 
 * Support does not generate any manual snapshots on demand. Also, note that support does not perform the rollback or restoration of the database for you - they retrieve the snapshot, but you must restore the database yourself.
 * Automatic snapshots are created **regardless of the live state** of your site (snapshots are also created for sites that have not been launched yet). Automatic backups are stored in a separate system and are not accessible to the public.
-You can [submit an Adobe Commerce Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md) to request a special backup or to restore from a specific backup providing the date, time, and timezone in the ticket. Support does not generate any manual snapshots on demand.
+You can [submit an Adobe Commerce Support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) to request a special backup or to restore from a specific backup providing the date, time, and timezone in the ticket. Support does not generate any manual snapshots on demand.
 Also, note that support does not perform the rollback or restoration of the database for you - they retrieve the snapshot, but you must restore the database yourself.
 * The backups are created using the **encrypted Amazon Web Services Elastic Block Store (AWS EBS) snapshots**.
 * Environment snapshots include your full system (file system and the database).
@@ -76,4 +76,4 @@ A snapshot is a complete backup of an environment that includes all persistent d
 
 [Snapshots and backup management](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/snapshots) in our developer documentation.
 
-Only submit a [support request](/help/help-center-guide/help-center/magento-help-center-user-guide.md) for a DB snapshot from Pro Production and Staging if you need the DB from a specific point in time. If you need a current backup of your DB only (on any environment), see the knowledge base article: [Generate database dumps on Cloud](/help/how-to/general/create-database-dump-on-cloud.md).
+Only submit a [support request](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) for a DB snapshot from Pro Production and Staging if you need the DB from a specific point in time. If you need a current backup of your DB only (on any environment), see the knowledge base article: [Generate database dumps on Cloud](/help/how-to/general/create-database-dump-on-cloud.md).
