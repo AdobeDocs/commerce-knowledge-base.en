@@ -205,7 +205,6 @@ breadcrumb-title: Commerce KB
   * [Experience League Support User Guide for Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * How-to {#how-to}
   * [How-to overview](/help/how-to/overview.md)
-  * [How to obtain and apply security patches](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
   * [Adobe Commerce Intelligence Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
@@ -214,7 +213,6 @@ breadcrumb-title: Commerce KB
   * [Find large MySQL tables](/help/how-to/general/find-large-mysql-tables.md)
   * [Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
   * [Test Fastly on Production if a Live Site uses the same domain](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
-  * [Static content deployment options to reduce deployment downtime on Cloud](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
   * [Identify and measure outages for Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-identify-outages.md)
   * [Change account owner for New Relic on Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
   * [Change Admin URL on Adobe Commerce on cloud infrastructure](/help/how-to/general/change-magento-admin-url-on-cloud.md)
