@@ -30,7 +30,7 @@ Previously, in our cloud environment, the Jenkins server was used to run [!DNL c
 
 ## Solution
 
-1. Contact [Adobe Commerce support](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to have self-managed [!DNL crons] enabled.
+1. Contact [Adobe Commerce support](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) to have self-managed [!DNL crons] enabled.
 1. Edit the `.magento.app.yaml` file in the root directory of the code for Adobe Commerce in the [!DNL Git] branch. Add the following:
 
    ```yaml

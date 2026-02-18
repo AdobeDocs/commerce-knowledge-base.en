@@ -41,7 +41,7 @@ You must upgrade the MariaDB service to a compatible version before upgrading th
 
 For the integration branch on Adobe Commerce on cloud infrastructure Pro plan architecture (and all branches in Starter architecture) please follow [Configure Service](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/services-yaml) in our developer  documentation.
 
-For the Staging and Production on Adobe Commerce on cloud infrastructure Pro plan architecture, please [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to request that the services be upgraded before you deploy the Adobe Commerce version upgrade.
+For the Staging and Production on Adobe Commerce on cloud infrastructure Pro plan architecture, please [submit a support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) to request that the services be upgraded before you deploy the Adobe Commerce version upgrade.
 
 
 ## Related reading

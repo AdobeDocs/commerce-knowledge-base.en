@@ -23,7 +23,7 @@ For the Starter plan architecture and PaaS Integration environments, there will 
 To add the domain to the service in [!DNL Fastly]:
 
 1. Point your domain in DNS to prod.magentocloud.map.fastly.net and wait up to 6 hours.
-1. [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) requesting to add this domain in the Nginx configuration (if you haven't done it earlier).
+1. [Submit a support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) requesting to add this domain in the Nginx configuration (if you haven't done it earlier).
 
 ## How to request a certificate?
 
@@ -41,10 +41,10 @@ You can provide your own SSL/TLS certificate instead of using the [Let's Encrypt
 
 However, this process requires additional work to set up and maintain. You will first need to generate a Certificate Signing Request (CSR) for the website's domain name (or common name) and provide it to your SSL vendor to provide an SSL certificate. 
 
-Once you have the SSL certificate, submit an [Adobe Commerce Support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) or work with your CTA to add custom-hosted certificates to your cloud environments. 
+Once you have the SSL certificate, submit an [Adobe Commerce Support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) or work with your CTA to add custom-hosted certificates to your cloud environments. 
 
 * If the domains are no longer in use, they will be automatically purged from our system, and no further action is required. 
-* If you already own a certificate, upload it using an SFTP (SSH File Transfer Protocol) client to a web-inaccessible file location on your server and [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) letting them know the file path.
+* If you already own a certificate, upload it using an SFTP (SSH File Transfer Protocol) client to a web-inaccessible file location on your server and [submit a support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) letting them know the file path.
 
 >[!WARNING]
 >

@@ -11,7 +11,7 @@ On September 3, Multi-State Information Sharing and Analysis Center (MS-ISAC) ha
 
 >[!WARNING]
 >
->On Adobe Commerce on cloud infrastructure please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detailing your required service upgrade and stating the time when you want the upgrade process to start.
+>On Adobe Commerce on cloud infrastructure please note that service upgrades cannot be pushed to the production environment without 48 business hours' notice to our infrastructure team. This is required as we need to ensure that we have an infrastructure support engineer available to update your configuration within a desired timeframe with minimal downtime to your production environment. So 48 hours prior to when your changes need to be on production [submit a support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) detailing your required service upgrade and stating the time when you want the upgrade process to start.
 
 Read on for impacts and steps for Adobe Commerce sites:
 

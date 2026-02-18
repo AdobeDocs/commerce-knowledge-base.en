@@ -44,4 +44,4 @@ In addition to the data security functions listed above, there are a few product
 
 ## How do I submit a ticket?
 
-You can [submit a ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) to our Support team by clicking the **Submit a ticket** link at the top of the page. We recommend checking out [Information in your support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket) before you reach out to us to make sure all the necessary information is in your initial submission.
+You can [submit a ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) to our Support team by clicking the **Submit a ticket** link at the top of the page. We recommend checking out [Information in your support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) before you reach out to us to make sure all the necessary information is in your initial submission.
