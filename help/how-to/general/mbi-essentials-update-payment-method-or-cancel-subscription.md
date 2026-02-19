@@ -17,9 +17,9 @@ This article explains how eligible Adobe Commerce Intelligence Essentials custom
   * Customers who access Commerce Intelligence as part of an Adobe Commerce contract (for example, Adobe Commerce Pro or Adobe Commerce on cloud infrastructure).
   * Customers with contract-based billing or invoiced subscriptions
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> If you access Commerce Intelligence through an Adobe Commerce contract, billing updates and cancellations are not managed through self-service in account.magento.com.
+>If you access Commerce Intelligence through an Adobe Commerce contract, billing updates and cancellations are not managed through self-service in account.magento.com.
 
 ## Affected products and versions
 
