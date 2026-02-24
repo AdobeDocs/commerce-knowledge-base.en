@@ -215,7 +215,6 @@ breadcrumb-title: Commerce KB
   * [Change account owner for New Relic on Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
   * [Change Admin URL on Adobe Commerce on cloud infrastructure](/help/how-to/general/change-magento-admin-url-on-cloud.md)
   * [Rearrange cloud branches on Adobe Commerce](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
-  * [How to find Adobe Commerce product documentation](/help/how-to/general/how-to-find-magento-product-documentation.md)
   * [Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastructure (Force TLS)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
   * [Allocate more space for MySQL in Adobe Commerce on cloud](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
   * [Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
