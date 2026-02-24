@@ -264,7 +264,6 @@ breadcrumb-title: Commerce KB
   * [Depreciation of Core Adobe Commerce Payment Integrations](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
   * [Can I install third-party applications on my cloud instance?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
   * [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
-  * [Fastly origin cloaking enablement FAQ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
   * [Database auto_increment increment variable set to "3" Adobe Commerce on our cloud pro architecture](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
   * [Access New Relic services](/help/faq/general/access-new-relic-services.md)
   * [Web Content Accessibility for Adobe Commerce](/help/faq/general/accessibility.md)
