@@ -211,7 +211,6 @@ breadcrumb-title: Commerce KB
   * [Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
   * [Test Fastly on Production if a Live Site uses the same domain](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
   * [Identify and measure outages for Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-identify-outages.md)
-  * [Change account owner for New Relic on Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
   * [Change Admin URL on Adobe Commerce on cloud infrastructure](/help/how-to/general/change-magento-admin-url-on-cloud.md)
   * [Rearrange cloud branches on Adobe Commerce](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
   * [Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastructure (Force TLS)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
