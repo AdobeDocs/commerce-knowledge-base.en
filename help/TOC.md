@@ -218,7 +218,6 @@ breadcrumb-title: Commerce KB
   * [Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
   * [Set up Fastly for Starter plan on Cloud](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
   * [Adobe Commerce Intelligence Training Video: Cohort Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
-  * [Upgrade MariaDB 10.0 to 10.2 for Adobe Commerce on cloud](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
   * [Reset environment on Adobe Commerce on cloud infrastructure](/help/how-to/general/reset-environment-on-cloud.md)
   * [MBI: Re-authenticating integrations](/help/how-to/general/mbi-reauthenticating-integrations.md)
   * [Configure Fastly DNS settings on Staging and Production environments](/help/how-to/general/configure-fastly-dns-settings-on-staging-and-production-environments.md)
