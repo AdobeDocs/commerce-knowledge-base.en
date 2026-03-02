@@ -221,7 +221,6 @@ breadcrumb-title: Commerce KB
   * [Upgrade MariaDB 10.0 to 10.2 for Adobe Commerce on cloud](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
   * [Reset environment on Adobe Commerce on cloud infrastructure](/help/how-to/general/reset-environment-on-cloud.md)
   * [MBI: Re-authenticating integrations](/help/how-to/general/mbi-reauthenticating-integrations.md)
-  * [Configure Fastly DNS settings on Staging and Production environments](/help/how-to/general/configure-fastly-dns-settings-on-staging-and-production-environments.md)
   * [Log locations (directories) for Pro plan: Integration, Staging, Production](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
   * [Adobe Commerce on cloud: check if upsize for host's instances is needed](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
   * [Bootstrap Adobe Commerce 2 in a sandbox script](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
