@@ -25,5 +25,4 @@ If the report is still in inaccurate, don't worry - our support team is happy to
 
 ## Related reading
 
-* [Calculated columns](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
 * [Structural database changes](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)
