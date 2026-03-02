@@ -174,7 +174,6 @@ breadcrumb-title: Commerce KB
     * [Modules missing from Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
     * [Former team members receive Adobe Commerce cloud notification emails](/help/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.md)
     * [New domain is redirecting to default domain](/help/troubleshooting/miscellaneous/new-domain-redirecting.md)
-    * [Unable to add user to Adobe Commerce cloud project](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
     * [Cron stops due to misconfigured or missing [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
     * [[!DNL Admin] login not working - allowed session max size exceeded](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
     * [[!DNL Google Tag Manager] is broken by the Live Search widget](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
