@@ -214,7 +214,6 @@ breadcrumb-title: Commerce KB
   * [Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastructure (Force TLS)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
   * [Allocate more space for MySQL in Adobe Commerce on cloud](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
   * [Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
-  * [Set up Fastly for Starter plan on Cloud](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
   * [Reset environment on Adobe Commerce on cloud infrastructure](/help/how-to/general/reset-environment-on-cloud.md)
   * [MBI: Re-authenticating integrations](/help/how-to/general/mbi-reauthenticating-integrations.md)
   * [Log locations (directories) for Pro plan: Integration, Staging, Production](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
