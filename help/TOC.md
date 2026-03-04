@@ -215,7 +215,6 @@ breadcrumb-title: Commerce KB
   * [Allocate more space for MySQL in Adobe Commerce on cloud](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
   * [Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
   * [Set up Fastly for Starter plan on Cloud](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
-  * [Adobe Commerce Intelligence Training Video: Cohort Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
   * [Reset environment on Adobe Commerce on cloud infrastructure](/help/how-to/general/reset-environment-on-cloud.md)
   * [MBI: Re-authenticating integrations](/help/how-to/general/mbi-reauthenticating-integrations.md)
   * [Log locations (directories) for Pro plan: Integration, Staging, Production](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
