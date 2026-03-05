@@ -230,7 +230,6 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce on cloud: change authentication keys and redeploy](/help/how-to/general/redeploy-with-another-key.md)
   * [How to create a "scrubbed" dump when requested by support agent](/help/how-to/general/create-dump-for-support.md)
   * [MBI: Creating and editing advanced calculated columns](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-  * [Check disk space limit for Adobe Commerce on cloud infrastructure](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)
   * [SSL (TLS) certificates for Adobe Commerce on cloud infrastructure](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
   * [Cannot access the latest Beta version](/help/how-to/general/cannot-access-the-latest-beta-version.md)
   * [Switch the Application mode](/help/how-to/general/switch-the-magento-mode.md)
