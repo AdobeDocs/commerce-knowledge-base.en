@@ -30,7 +30,7 @@ This article explains how eligible Adobe Commerce Intelligence Essentials custom
 For Commerce Intelligence Essentials clients to cancel their subscriptions or update their payment methods they must be the primary account holder for the Magento account. The steps are:
 
 1. Navigate to [account.magento.com](https://account.magento.com) and log in.
-2. Click Magento > My Products and Services > Magento Business Intelligence, and click Show Details next to the license you want to update.
+2. Click **[!UICONTROL Magento]** > **[!UICONTROL My Products and Services]** > Magento Business Intelligence, and click Show Details next to the license you want to update.
 3. Select Update Payment Method or Cancel License.
 
 ## Related reading
