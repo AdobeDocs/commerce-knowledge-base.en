@@ -16,7 +16,7 @@ We also recommend that you ensure the correct [replication methods](https://expe
 
 ## I still need help!
 
-If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) with the following information:
+If the report is still in inaccurate, don't worry - our support team is happy to help! [Reach out to us](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) with the following information:
 
 * What's the name of the report where you see the discrepancy?
 * Which values on the report are incorrect?
@@ -25,5 +25,4 @@ If the report is still in inaccurate, don't worry - our support team is happy to
 
 ## Related reading
 
-* [Calculated columns](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
 * [Structural database changes](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)

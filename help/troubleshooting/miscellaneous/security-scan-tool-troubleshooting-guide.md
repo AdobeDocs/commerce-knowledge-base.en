@@ -53,7 +53,7 @@ The following statuses could appear from checks:
 1. **Unknown**: The Security Scan tool has no data about your domain yet; wait for the next sync-up cycle.
 1. **Fail**: If the status shows fail, you'll need to fix the issue (enable 2FA, change admin URL, etc.) and wait for the next sync-up cycle.
 
-If 24 hours have passed since the changes were made to the instance and they are not reflected in the Security Scan report, you can [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Provide the store URL when submitting the ticket.
+If 24 hours have passed since the changes were made to the instance and they are not reflected in the Security Scan report, you can [submit a support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide). Provide the store URL when submitting the ticket.
 
 ## BotNet Suspect failure
 
@@ -71,7 +71,7 @@ You receive a notification regarding the "BotNet Suspect" failure.
 1. Check for the newly created SSH accounts, filesystem changes, etc.
 1. Perform a security review.
 1. Check the Adobe Commerce version and upgrade, especially if it's still running Magento 1, which is not supported anymore.
-1. If the issue still persists, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and provide the store URL.
+1. If the issue still persists, [submit a support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) and provide the store URL.
 
 ## Issue: Compromise Injection failure
 
@@ -84,7 +84,7 @@ You receive an error regarding a "Compromise Injection" failure.
 1. Perform system configuration changes review, especially custom `HTML head` and `Miscellaneous HTML` in `footer` section values.
 1. Perform code and database review for unfamiliar changes and signs of injected malware.
 
-If none of the above helps, [submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) and provide the store URL and error message from the report.
+If none of the above helps, [submit a support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) and provide the store URL and error message from the report.
 
 ## Frequently Asked Questions
 

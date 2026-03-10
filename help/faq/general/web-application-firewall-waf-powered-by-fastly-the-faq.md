@@ -126,7 +126,7 @@ See the [Cloud SLA](https://www.adobe.com/content/dam/cc/en/legal/terms/enterpri
 
 ## If the WAF is blocking legitimate traffic or causing other issues, how can I get help?
 
- [Submit a support ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) at the [Adobe Commerce Help Center](https://support.magento.com). Please include indicate that the ticket is related to the WAF service and include the blocked request identifier (ID).
+ [Submit a support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) at the [Adobe Commerce Help Center](https://support.magento.com). Please include indicate that the ticket is related to the WAF service and include the blocked request identifier (ID).
 
 The Adobe Commerce support ticketing system tracks communication between our support engineers and a customer's personnel. This system provides a time-stamped transcript of communications, and sends emails to customer and Adobe Commerce's staff as tickets are updated.
 
