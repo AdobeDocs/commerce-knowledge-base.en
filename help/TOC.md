@@ -204,7 +204,6 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce Intelligence Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
   * [Roll back environment without Cloud snapshot](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
   * [Adobe Commerce on cloud infrastructure: CPU allocation calculation](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
-  * [Find large MySQL tables](/help/how-to/general/find-large-mysql-tables.md)
   * [Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
   * [Test Fastly on Production if a Live Site uses the same domain](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
   * [Identify and measure outages for Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-identify-outages.md)
