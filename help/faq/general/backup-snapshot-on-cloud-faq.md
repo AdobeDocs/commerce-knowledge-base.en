@@ -27,7 +27,7 @@ You can [submit an Adobe Commerce Support ticket](https://experienceleague.adobe
 
   <strong>2025-01-13 08:42:17.123000+00:00</strong>
 
-
+* The mount will be available for 7 days and the retention period cannot be extended. If you need to preserve a snapshot beyond this time, you must copy it to a different folder or external server within that timeframe
 * Support does not generate any manual snapshots on demand. Also, note that support does not perform the rollback or restoration of the database for you - they retrieve the snapshot, but you must restore the database yourself.
 * Automatic snapshots are created **regardless of the live state** of your site (snapshots are also created for sites that have not been launched yet). Automatic backups are stored in a separate system and are not accessible to the public.
 You can [submit an Adobe Commerce Support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) to request a special backup or to restore from a specific backup providing the date, time, and timezone in the ticket. Support does not generate any manual snapshots on demand.
@@ -47,7 +47,7 @@ Also, note that support does not perform the rollback or restoration of the data
 * Your [Integration environment](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) is **not being backed up automatically**, but you may create snapshots **manually**.
 * You can create manual snapshots for Integration environments on non-live stores.
 * You may have **multiple snapshots** that have been triggered manually.
-* A manually triggered snapshot is stored for **7 days**.
+* A manually triggered snapshot is stored for 7 days. If you need to preserve a snapshot beyond the retention period, copy it to a different folder or an external server within that timeframe. To restore the snapshot at a later date, follow the same process described in [Import the database dump directly from the server](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/restore-a-db-snapshot-from-staging-or-production#meth3).
 
  **Related articles in our developer documentation:**
 
@@ -58,7 +58,7 @@ Also, note that support does not perform the rollback or restoration of the data
 
 * All types of environments (Integration, Staging, Production) **are not being backed up automatically**, but you may create snapshots manually.
 * You may create manual snapshots **regardless of the live state** of your site (snapshots also created for sites that have not been launched yet).
-* A manually triggered snapshot is stored for **7 days**.
+* A manually triggered snapshot is stored for 7 days. If you need to preserve a snapshot beyond the retention period, copy it to a different folder or an external server within that timeframe. To restore the snapshot at a later date, follow the same process described in [Import the database dump directly from the server](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/restore-a-db-snapshot-from-staging-or-production#meth3).
 
 ## Restore an environment snapshot
 
