@@ -87,7 +87,7 @@ You can install higher versions of OpenSSL with [Homebrew](https://brew.sh/) on 
 ## Related reading
 
 * [Javascript Webpack: Concepts](https://webpack.js.org/concepts/)
-* [Venia storefront setup](https://developer.adobe.com/commerce/pwa-studio/tutorials/setup-storefront/)
+* [Venia storefront setup](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
 * [PWA Buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
 * [buildpack Command Line Interface](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
 * [Tools and libraries: buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
