@@ -58,7 +58,7 @@ Also, note that support does not perform the rollback or restoration of the data
 
 * All types of environments (Integration, Staging, Production) **are not being backed up automatically**, but you may create snapshots manually.
 * You may create manual snapshots **regardless of the live state** of your site (snapshots also created for sites that have not been launched yet).
-* A manually triggered snapshot is stored for 7 days. If you need to preserve a snapshot beyond the retention period, copy it to a different folder or an external server within that timeframe. To restore the snapshot at a later date, follow the same process described in [Import the database dump directly from the server](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/restore-a-db-snapshot-from-staging-or-production#meth3).
+* A manually triggered snapshot is stored for **7 days**. If you need to preserve a snapshot beyond the retention period, copy it to a different folder or an external server within that timeframe. To restore the snapshot at a later date, follow the same process described in [Import the database dump directly from the server](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/restore-a-db-snapshot-from-staging-or-production#meth3).
 
 ## Restore an environment snapshot
 
