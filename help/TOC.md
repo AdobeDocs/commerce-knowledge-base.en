@@ -124,7 +124,6 @@ breadcrumb-title: Commerce KB
     * [git pull origin develop fails when updating the Adobe Commerce software](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [Blockers launching on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
     * [PHP settings errors](/help/troubleshooting/miscellaneous/php-settings-errors.md)
-    * [PHP mcrypt extension not installed properly](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
     * [Cron job is stuck in "running" status](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
     * [Offload non-regex redirects to Fastly instead of Nginx (routes)](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
     * [Common PHP Fatal Errors and solutions](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)

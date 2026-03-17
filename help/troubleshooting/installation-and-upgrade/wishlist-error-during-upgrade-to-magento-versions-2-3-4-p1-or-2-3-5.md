@@ -54,5 +54,5 @@ In our developer documentation:
 * [Adobe Commerce on cloud infrastructure guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/overview)
 * [Adobe Commerce on cloud infrastructure - Upgrade Adobe Commerce version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
 * [Adobe Commerce on-premises And Magento Open Source - Upgrade the Adobe Commerce application and modules](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)
-* [Wishlist item configure page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts/#wishlist-item-configure-page)
+* [Wishlist item configure page](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts#wishlist-item-configure-page)
 * [Modules providing advanced reporting](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)

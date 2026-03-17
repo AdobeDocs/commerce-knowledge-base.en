@@ -64,4 +64,4 @@ In our developer documentation:
 * [Redis verification](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
 * [Configure Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
 * [PHP memory limit error](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [Solutions to common problems - Memory limit](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)
+* [Solutions to common problems - Memory limit](https://developer.adobe.com/commerce/testing/guide/unit/command-line#solutions-to-common-problems)
