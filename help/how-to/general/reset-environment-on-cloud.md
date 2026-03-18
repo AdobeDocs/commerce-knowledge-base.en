@@ -7,6 +7,7 @@ feature: Best Practices, Build, Cloud, Console
 # Reset environment on Adobe Commerce on cloud infrastructure
 
 This article shows different scenarios of rolling back an environment on Adobe Commerce on cloud infrastructure.
+
 >[!NOTE]
 >
 >This guide applies to all Cloud Starter environments and only Integration environments on Cloud Pro.
@@ -35,7 +36,7 @@ With a planned deployment or upgrade, the easiest and recommended [!UICONTROL Ro
 
 1. Place the website into [!UICONTROL Maintenance Mode].
 Read more about [Enable or disable [!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) in our user guide, and [[!UICONTROL Maintenance Mode] options for upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html) in our upgrade guide.
-1. Disable cron jobs. Read more about disabling cron jobs in our [crons properties guide](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>).
+1. Disable cron jobs. Read more about disabling cron jobs in our [crons properties guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
 1. Take a local [[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html).
 
 <u>If a [!UICONTROL Rollback] is required</u>:
