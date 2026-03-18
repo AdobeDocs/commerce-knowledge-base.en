@@ -1,13 +1,13 @@
 ---
 title: 'PWA Studio: Webpack hangs before beginning compilation'
-description: This article talks about a suggested solution to when a javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) hangs for a long time before beginning compilation in Progressive Web App Studio (PWA Studio).
+description: This article talks about a suggested solution to when a javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack) hangs for a long time before beginning compilation in Progressive Web App Studio (PWA Studio).
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
 ---
 # PWA Studio: Webpack hangs before beginning compilation
 
-This article talks about a suggested solution to when a javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) hangs for a long time before beginning compilation in Progressive Web App Studio (PWA Studio).
+This article talks about a suggested solution to when a javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack) hangs for a long time before beginning compilation in Progressive Web App Studio (PWA Studio).
 
 ## Affected products and versions
 
@@ -87,7 +87,7 @@ You can install higher versions of OpenSSL with [Homebrew](https://brew.sh/) on 
 ## Related reading
 
 * [Javascript Webpack: Concepts](https://webpack.js.org/concepts/)
-* [Venia storefront setup](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [PWA Buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [buildpack Command Line Interface](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [Tools and libraries: buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [Venia storefront setup](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
+* [PWA Buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
+* [buildpack Command Line Interface](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
+* [Tools and libraries: buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)

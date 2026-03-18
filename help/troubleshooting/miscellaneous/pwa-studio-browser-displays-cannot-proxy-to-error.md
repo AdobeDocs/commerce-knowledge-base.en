@@ -49,5 +49,5 @@ NodeJS cannot resolve the hostname of your Adobe Commerce store.
 
 ## Related reading
 
-* [PWA Studio for Adobe Commerce Documentation](https://magento.github.io/pwa-studio/)
-* [Tools and libraries](https://magento.github.io/pwa-studio/technologies/tools-libraries/)
+* [PWA Studio for Adobe Commerce Documentation](https://developer.adobe.com/commerce/pwa-studio/)
+* [Tools and libraries](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/)
