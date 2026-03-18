@@ -35,4 +35,4 @@ For Commerce Intelligence Essentials clients to cancel their subscriptions or up
 
 ## Related reading
 
-* [Commerce Intelligence User Guide](/docs/commerce-business-intelligence/mbi/guide-overview.html)
+* [Commerce Intelligence User Guide](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)

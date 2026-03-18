@@ -24,7 +24,7 @@ The `slave_parallel_mode` config on the database was changed by default to *opti
 
 ## Solution
 
-1. Check that the `slave_parallel_mode` parameter is set to *conservative* (you will need to [raise a support ticket](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if the value is  not showing as *conservative*). To check, run the following command:
+1. Check that the `slave_parallel_mode` parameter is set to *conservative* (you will need to [raise a support ticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) if the value is  not showing as *conservative*). To check, run the following command:
 
     ```
      MariaDB [main]> show variables like 'slave_parallel_mode';
@@ -53,5 +53,5 @@ For steps on updating the database configuration, refer to [DATABASE_CONFIGURATI
 
 ## Related reading
 
-* [Configure environment variables for deployment](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) in the Commerce on Cloud Infrastructure Guide.
-* [Best practices for database configuration](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in the Implementation Playbook.
+* [Configure environment variables for deployment](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) in the Commerce on Cloud Infrastructure Guide.
+* [Best practices for database configuration](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) in the Implementation Playbook.

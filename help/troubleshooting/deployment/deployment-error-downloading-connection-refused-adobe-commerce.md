@@ -49,10 +49,10 @@ Deployment fails with a **curl error 7** message.
  magento-cloud project:clear-build-cache -p <project ID>
  ```
 
-To check who on the project is a Super User, refer to [View a user's project role](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) in the Commerce on Cloud Infrastructure Guide.
+To check who on the project is a Super User, refer to [View a user's project role](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) in the Commerce on Cloud Infrastructure Guide.
 
 ## Recommended reading
 
 * [Adobe Commerce deployment troubleshooter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640).
-* [Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
-* [Deployment fails with “Error building project: The build hook failed with status code 1”](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
+* [Adobe Commerce on cloud repo could not be accessed: 403 Forbidden or 404 Not Found error when deploying](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
+* [Deployment fails with “Error building project: The build hook failed with status code 1”](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).

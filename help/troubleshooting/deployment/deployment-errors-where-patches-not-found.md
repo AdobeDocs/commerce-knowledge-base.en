@@ -30,10 +30,10 @@ Previously applied patches for your older version(s) are not applicable or no lo
        - ACSD-XXXXX
       ```
       
-1. Look up the patch IDs in the [Quality Patches Release Notes](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) to check whether each one can be applied to the new version of Adobe Commerce you are upgrading to. 
+1. Look up the patch IDs in the [Quality Patches Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) to check whether each one can be applied to the new version of Adobe Commerce you are upgrading to. 
 1. If the patch does not apply to the new version of Adobe Commerce you want to upgrade to, remove the patch ID from the `.magento.env.yaml` file.
 1. Once you have reviewed all the patch IDs indicated by the error, push the changes and redeploy. 
 
 ## Related reading
 
-* [Apply patches](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment) in Commerce on Cloud Infrastructure Guide.
+* [Apply patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment) in Commerce on Cloud Infrastructure Guide.

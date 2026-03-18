@@ -14,13 +14,13 @@ The [official homepage](https://business.adobe.com/privacy/general-data-protecti
 
 ## Official Adobe Commerce statements
 
-* [General Data Protection Regulation GDPR](/docs/commerce-operations/security-and-compliance/privacy/gdpr.html)
-* [GDPR Compliance](/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html)
+* [General Data Protection Regulation GDPR](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html)
+* [GDPR Compliance](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html)
 
 ## GDPR compliance in our developer documentation: Adobe Commerce 2.X and 1.X
 
-* [Customer personal information reference (version 2.x)](/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-* [Customer personal information reference (version 1.x)](/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+* [Customer personal information reference (version 2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+* [Customer personal information reference (version 1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
 These Adobe Commerce developer documentation topics provide data flow diagrams and database information that helps Merchants and System Integrators to resolve use cases similar to the following:
 

@@ -33,7 +33,7 @@ The following steps will detail how to place redirects on [!DNL Fastly] instead 
 
 1. Create an Edge Dictionary.
 
-   First, you can use [[!DNL VCL] snippets in Adobe Commerce](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) to define an edge dictionary. This will contain the redirects.
+   First, you can use [[!DNL VCL] snippets in Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) to define an edge dictionary. This will contain the redirects.
 
    Some caveats to this:
 
@@ -94,7 +94,7 @@ If you don't want to run an Adobe Commerce staging environment, but you would li
 ## Related reading
 
 * [[!DNL Fastly VCL] reference](https://docs.fastly.com/vcl/)
-* [Configure routes](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) in our developer documentation
-* [Set up [!DNL Fastly]](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in our developer documentation
+* [Configure routes](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) in our developer documentation
+* [Set up [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) in our developer documentation
 * [[!DNL VCL] regular expression cheat sheet](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) in our developer documentation
 * [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook
