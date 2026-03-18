@@ -42,5 +42,5 @@ Adopt the new security-only patches (2.4.4-p9 or 2.4.5-p8) that are releasing on
 ## Related Reading
 
 * [DB upgrade best practices guide](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites) for on-premises deployments.
-* [Upgrade prerequisites for MariaDB: Prepare your database for the upgrade](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/mariadb-upgrade#prepare-your-database-for-the-upgrade) in our support knowledge base.
+* [Upgrade prerequisites for MariaDB: Prepare your database for the upgrade](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/mariadb-upgrade#prepare-your-database-for-the-upgrade) in the Implementation Playbook.
 * [Adobe Commerce lifecycle policy](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy) in our developer documentation.
