@@ -15,6 +15,6 @@ In this video, you'll learn:
 * How to apply a filter set to a metric
 * How to apply a filter set to a calculated data dimension
 
-To watch the video, go to [Commerce Intelligence - Filter Sets](/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) in Adobe Experience League.
+To watch the video, go to [Commerce Intelligence - Filter Sets](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) in Adobe Experience League.
 
- **Want to follow along?** Check out our [Creating filter sets for metrics tutorial](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) for written instructions.
+ **Want to follow along?** Check out our [Creating filter sets for metrics tutorial](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) for written instructions.

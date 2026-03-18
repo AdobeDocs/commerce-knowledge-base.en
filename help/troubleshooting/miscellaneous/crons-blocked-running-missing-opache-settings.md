@@ -19,7 +19,7 @@ The cron stopped working.
 
 ## Cause
 
-The [!DNL OpCache] module was updated to a newer version which introduced a [!DNL GraphQL] plugin that rewrites the `env.php` in runtime and could override the cron setting, which may have caused the issue. The [!DNL OpCache] configuration needs to be updated in order to avoid any issues with the `env.php file`, and that was solved in [version 2002.1.13](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) of the [!DNL ECE Tools] package.
+The [!DNL OpCache] module was updated to a newer version which introduced a [!DNL GraphQL] plugin that rewrites the `env.php` in runtime and could override the cron setting, which may have caused the issue. The [!DNL OpCache] configuration needs to be updated in order to avoid any issues with the `env.php file`, and that was solved in [version 2002.1.13](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) of the [!DNL ECE Tools] package.
 
 ## Solution
 
@@ -50,6 +50,6 @@ If this file is not present, add https://github.com/magento/magento-cloud/blob/m
 
 ## Related reading
 
-* [Cron readiness check issues](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
-* [Crons property](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
-* [Cron job is stuck in “running” status](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+* [Cron readiness check issues](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
+* [Crons property](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
+* [Cron job is stuck in “running” status](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
