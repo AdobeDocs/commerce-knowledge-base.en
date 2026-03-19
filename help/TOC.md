@@ -200,7 +200,6 @@ breadcrumb-title: Commerce KB
   * [How-to overview](/help/how-to/overview.md)
   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
-  * [Adobe Commerce Intelligence Essentials: update payment method or cancel subscription](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
   * [Roll back environment without Cloud snapshot](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
   * [Adobe Commerce on cloud infrastructure: CPU allocation calculation](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
   * [Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
