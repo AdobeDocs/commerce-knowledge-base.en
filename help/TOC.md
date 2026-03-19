@@ -216,7 +216,6 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce on cloud: check if upsize for host's instances is needed](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
   * [Bootstrap Adobe Commerce 2 in a sandbox script](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
   * [Adobe Commerce Intelligence Training Video: Filter Sets](/help/how-to/general/mbi-training-video-filter-sets.md)
-  * [How to profile database queries in Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-profile-database-queries-on-cloud.md)
   * [Block malicious traffic for Adobe Commerce on Fastly level](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
   * [Create a patch for Adobe Commerce Composer installation from a GitHub commit](/help/how-to/general/create-a-patch-for-a-magento-2-composer-installation-from-a-github-commit.md)
   * [Change Admin password on Adobe Commerce on cloud infrastructure](/help/how-to/general/change-magento-admin-password-on-cloud.md)
