@@ -227,7 +227,6 @@ breadcrumb-title: Commerce KB
   * [How to log into Fastly account provided with Adobe Commerce on cloud infrastructure](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
   * [Display Adobe Commerce error report number instead of Fastly 503 error](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
   * [Reset a theme to defaults](/help/how-to/general/reset-a-theme-to-defaults.md)
-  * [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)
   * [Check logs to troubleshoot 500 and 503 errors on Adobe Commerce](/help/how-to/general/check-logs-to-troubleshoot-500-and-503-errors-on-magento.md)
   * [Create database dump on Adobe Commerce on cloud infrastructure](/help/how-to/general/create-database-dump-on-cloud.md)
   * [Third-party testing tips for Adobe Commerce on cloud infrastructure](/help/how-to/general/share-access-third-party.md)
