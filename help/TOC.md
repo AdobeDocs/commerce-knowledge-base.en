@@ -34,7 +34,6 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
     * [2.3.4 PayPal issue hotfix](/help/troubleshooting/payments/2-3-4-paypal-issue-hotfix.md)
     * [Adobe Commerce 2.4.1: wrong message on PayPal-Braintree guest checkout](/help/troubleshooting/payments/magento-2-4-1-wrong-message-on-paypal-via-braintree-guest-checkout.md)
-    * [Error placing order with Authorize.net Sandbox account (An error occurred on the server)](/help/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server.md)
     * [Checkout is stuck when Authorize.net payment method is used](/help/troubleshooting/payments/checkout-is-stuck-when-authorize-net-payment-method-is-used.md)
     * [Adobe Commerce 2.4.1 known issue: error popping up on Checkout with PayPal Braintree](/help/troubleshooting/payments/magento-2-4-1-known-issue-error-popping-up-on-checkout-with-paypal-braintree.md)
     * [Adobe Commerce 2.4.0 Braintree Virtual Terminal page corrupted](/help/troubleshooting/payments/magento-2-4-0-known-issue-braintree-virtual-terminal-page-is-corrupted.md)
