@@ -223,7 +223,6 @@ breadcrumb-title: Commerce KB
   * [How to create a "scrubbed" dump when requested by support agent](/help/how-to/general/create-dump-for-support.md)
   * [SSL (TLS) certificates for Adobe Commerce on cloud infrastructure](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
   * [Cannot access the latest Beta version](/help/how-to/general/cannot-access-the-latest-beta-version.md)
-  * [How to log into Fastly account provided with Adobe Commerce on cloud infrastructure](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
   * [Display Adobe Commerce error report number instead of Fastly 503 error](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
   * [Reset a theme to defaults](/help/how-to/general/reset-a-theme-to-defaults.md)
   * [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)
