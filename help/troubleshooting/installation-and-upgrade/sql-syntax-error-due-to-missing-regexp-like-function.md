@@ -58,7 +58,7 @@ To solve the issue, take the following steps:
     composer update magento/module-b2b
     ```
 
-1. Apply the attached [ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip) patch. Refer to [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base for instructions. 
+1. Apply the attached [ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip) patch. Refer to [How to apply a composer patch provided by Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) in our support knowledge base for instructions. 
 1. Run `bin/magento setup:upgrade`.
 
 ### Apply a patch using Cloud Patches

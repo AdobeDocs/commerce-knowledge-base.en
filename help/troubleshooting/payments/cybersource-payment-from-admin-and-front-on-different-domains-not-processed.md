@@ -63,6 +63,6 @@ The patches are also compatible with the following versions:
 
 ## How to apply a patch
 
-For instructions, see [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) in our support knowledge base.
+For instructions, see [How to apply a composer patch provided by Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) in our support knowledge base.
 
 ## Attached Files

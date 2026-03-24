@@ -59,7 +59,7 @@ To download it, scroll down to the end of the article and click the file name, o
 
  <u>Composer patch </u>
 
-See [How to apply a composer patch provided by Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) for composer patch instructions.
+See [How to apply a composer patch provided by Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) for composer patch instructions.
 
  <u>Git patch </u>
 
