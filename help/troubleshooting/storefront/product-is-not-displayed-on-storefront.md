@@ -51,7 +51,5 @@ Each of the following points might solve the issue.
 * Perform the full reindex, by running `bin/magento indexer:reindex` from the console, and flush all cache in the Admin, under **System** > **Tools** > **Cache Management**, or from the console by running `bin/magento cache:clean`.
 * If the above does not help, you can start further investigation by checking logs in the `var/log` directory.
 
-## Related reading in our support knowledge base
 
-[Log locations (directories) for Pro architecture](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
 
