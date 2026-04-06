@@ -16,7 +16,6 @@ breadcrumb-title: Commerce KB
     * [MySQL catalog search engine will be removed in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
     * [Adobe Commerce support intake process migration to Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
   * Help Center News {#news}
-    * [Decommissioning of Adobe Commerce Help Center](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
 * Troubleshooting {#troubleshooting}
   * [Troubleshooting overview](/help/troubleshooting/overview.md)
   * Database {#database}
