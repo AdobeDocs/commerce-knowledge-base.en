@@ -48,5 +48,5 @@ After you change the email address for your MAGE ID, you must also complete the 
 
 ### Ask Support to finalize internal account updates
 
-1. Submit a Support ticket asking us to complete any required internal updates (for example, updating the linkage between your old and new Adobe IDs and your MAGE ID).
+1. Submit a [Support ticket](https://experienceleague.adobe.com/en/support#home) asking us to complete any required internal updates (for example, updating the linkage between your old and new Adobe IDs and your MAGE ID).
 1. If you already opened a ticket because the Commerce Marketplace email did not update (step 1), you can use the same ticket to request these additional internal updates.
