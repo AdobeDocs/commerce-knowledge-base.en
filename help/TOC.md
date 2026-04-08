@@ -232,7 +232,6 @@ breadcrumb-title: Commerce KB
   * [Upgrade MariaDB 10.4 to 10.5 for Adobe Commerce on cloud](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
-  * [Web Application Firewall (WAF) powered by Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
   * [Depreciation of Core Adobe Commerce Payment Integrations](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
   * [Can I install third-party applications on my cloud instance?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
   * [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
