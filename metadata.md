@@ -2,6 +2,8 @@
 cloud: Experience Cloud
 solution: Commerce
 feature-set: Commerce
+landing-page-name: commerce
+landing-page-breadcrumb-title: Commerce
 product: magento
 type: Troubleshooting
 mini-toc-levels: 2
