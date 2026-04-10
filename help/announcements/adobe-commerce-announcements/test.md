@@ -4,7 +4,6 @@ description: test
 feature: Support
 role: Admin
 hide: yes
-hidefromtoc: yes
 ---
 # Test
 
