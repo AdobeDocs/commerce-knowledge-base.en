@@ -3,7 +3,7 @@ title: test
 description: test
 feature: Support
 role: Admin
-hide: yes
+hide: true
 ---
 # Test
 
