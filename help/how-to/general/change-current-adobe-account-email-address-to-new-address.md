@@ -43,7 +43,7 @@ After you change the email address for your MAGE ID, you must also complete the 
 
 ### Verify Commerce Marketplace email
 
-1. Log in to your Commerce Marketplace account and confirm that your account email has been updated to the new address.
+1. Log in to your [Commerce Marketplace account](https://commercemarketplace.adobe.com/) and confirm that your account email has been updated to the new address.
 1. If the email has not been updated, submit a [Support ticket](https://experienceleague.adobe.com/en/support#home) requesting that the Commerce Marketplace account email be corrected.
 
 ### Ask Support to finalize internal account updates
