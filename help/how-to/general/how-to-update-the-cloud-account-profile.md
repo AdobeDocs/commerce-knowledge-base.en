@@ -17,6 +17,16 @@ When modifying a profile on the cloud account, the following fields can be modif
 1. [!UICONTROL Last name]
 1. [!UICONTROL Username]
 
+    >[!NOTE]
+    >
+    >Updating the Cloud Console username changes the project URL from
+    `https://console.adobecommerce.com/<old-username>/<project-id>` to
+    `https://console.adobecommerce.com/<new-username>/<project-id>`.
+    >
+    >After the update, links that use the old URL no longer work. Team members must update saved bookmarks, internal documentation, and any automation to use the new URL.
+    >
+    >This change applies only to the new Cloud Console URL. The legacy project URL (`https://<region>.magento.cloud/projects/<project-id>`) does not use the username and continues to work without change.
+
 To modify these fields, follow these steps:
 
 1. Access your account at [Adobe account login](https://accounts.magento.cloud).
@@ -24,7 +34,9 @@ To modify these fields, follow these steps:
 1. Select the *create new password* checkbox.
 1. Make the necessary changes and click *save*.
 
-**NOTE**: *Your password will not be changed.*
+>[!NOTE]
+>
+>Your password will not be changed.
 
 ## What cannot be modified?
 
