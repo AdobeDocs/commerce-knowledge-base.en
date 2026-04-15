@@ -19,9 +19,7 @@ When modifying a profile on the cloud account, the following fields can be modif
 
     >[!NOTE]
     >
-    >Updating the Cloud Console username changes the project URL from
-    `https://console.adobecommerce.com/<old-username>/<project-id>` to
-    `https://console.adobecommerce.com/<new-username>/<project-id>`.
+    >Updating the Cloud Console username changes the project URL from `https://console.adobecommerce.com <old-username>/<project-id>` to `https://console.adobecommerce.com/<new-username>/<project-id>`.
     >
     >After the update, links that use the old URL no longer work. Team members must update saved bookmarks, internal documentation, and any automation to use the new URL.
     >
