@@ -27,7 +27,7 @@ The alert refers to the exports storage filesystem, which is the disk volume whe
 
 To confirm what the alert refers to, check the exports storage usage:
 
-1. Run `Shelldf -h | grep`, and the following example output:
+* Run `Shelldf -h | grep`, and the following example output appears:
 
     ```
     /dev/nvme1n1 50G 38G 12G 77% /data/exports
