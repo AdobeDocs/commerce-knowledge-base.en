@@ -63,7 +63,7 @@ Follow these steps to review, clean up, and validate exports storage usage.
 
     ```
 
-    Look for large directories such as `pub/media` or custom export folders.
+    The typical locations where the file storage is likely to be filled up are `pub/media/catalog/product/cache` or `var/log` folders.
 
 1. Clean up files based on the environment:
 
