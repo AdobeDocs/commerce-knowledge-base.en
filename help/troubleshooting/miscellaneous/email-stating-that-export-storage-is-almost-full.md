@@ -23,19 +23,55 @@ You receive an email with the following content but are unable to locate the *ex
 
 ## Cause
 
-The email is referring to the **exports** storage, which is the amount of disk allocated to the files/media, and not a specific folder named *exports*.
+The alert refers to the exports storage filesystem, which is the disk volume where media and other file data are stored. This filesystem is typically mounted at `/data/exports`. The alert does not indicate the presence of a single directory literally named exports.
+
+To confirm what the alert refers to, check the exports storage usage:
+
+* Run `df -h | grep exports`, and the following example output appears:
+
+    ```
+    /dev/nvme1n1 50G 38G 12G 77% /data/exports
+    tmpfs         7.7G 4.0K 7.7G  1% /data/exports/shared
+    ```
+
+* In this example, `/data/exports` is the main exports filesystem:
+
+    * 50 GB total
+    * 38 GB used
+    * 12 GB available (77% utilization)
+
+* `/data/exports/shared` is a `tmpfs` (in-memory) mount used for shared data and does not contribute significantly to disk pressure.
+
+This confirms that the alert is triggered by the overall disk utilization of `/data/exports`, not by a single folder named exports.
+
+If `/data/exports` shows high utilization, large directories under this filesystem—such as pub/media or other custom file locations—are typically responsible for the increased usage.
 
 ## Solution
 
-You should review the files usage in the environment. Run this command to obtain the existing usage:
+Follow these steps to review, clean up, and validate exports storage usage.
 
-`df -h |grep data`
+1. Run the command `df -h | grep exports` to check the current usage of the exports storage filesystem. Review the **Use%** column for `/data/exports`:
 
-The typical locations where the files storage is likely to be filled up are the *pub/media/catalog/product/cache* or *var/log* folders. To determine the disk space used by the files, run this command with the appropriate path */path/to/folder*:
+    * If usage is 70–85%, start planning cleanup.
+    * If usage is greater than 90%, take action immediately to avoid write failures or service impact.
 
-`du -shc` */path/to/folder*
+1. Identify directories consuming significant disk space under `/data/exports` by running:
 
-If the media disk usage constitutes a large proportion of the total disk space, you may want to consider enabling [Fastly Deep Image Optimization](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization), and then delete the files in the *pub/media/catalog/product/cache* folder on the server manually.
+    ```bash
+
+    du -sh /data/exports/* 2>/dev/null
+
+    ```
+
+    The typical locations where the file storage is likely to be filled up are `pub/media/catalog/product/cache` or `var/log` folders.
+
+1. Clean up files based on the environment:
+
+    * Remove old or unused export files, logs, or temporary data first.
+    * In non-production environments, you can usually remove test media or old artifacts more aggressively.
+    * In production environments, coordinate with your team before deleting any media or business-critical files.
+
+1. After the cleanup, run the following command `df -h | grep exports` to confirm that the **Use%** value for `/data/exports` has dropped to a safe operating level.
 
 ## Related Reading
 
