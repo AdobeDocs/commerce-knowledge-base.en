@@ -229,7 +229,6 @@ breadcrumb-title: Commerce KB
   * [Upgrade MariaDB 10.4 to 10.5 for Adobe Commerce on cloud](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * FAQ {#faq}
   * [FAQ overview](/help/faq/overview.md)
-  * [Depreciation of Core Adobe Commerce Payment Integrations](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
   * [Can I install third-party applications on my cloud instance?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
   * [Link Magento.com and accounts.magento.cloud account logins](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
   * [Database auto_increment increment variable set to "3" Adobe Commerce on our cloud pro architecture](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
