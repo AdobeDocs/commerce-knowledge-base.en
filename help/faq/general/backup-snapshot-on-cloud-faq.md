@@ -15,6 +15,14 @@ This article covers the backing up your environments with snapshots on Adobe Com
 
 ## Environment snapshot, Pro plan
 
+### Preparing for an Upgrade
+
+If you need to back up your database in preparation for an upgrade, you are responsible for creating and validating your own backup before proceeding. Disaster recovery snapshots are intended only for database restoration if the upgrade is unsuccessful, not as a substitute for upgrade preparation backups.
+
+If an error prevents you from creating your own backup, [contact Support](https://experienceleague.adobe.com/home?support-tab=home#support) and include the backup error details in your ticket.
+
+Note: A disaster recovery snapshot is a previously captured system recovery point, not a manually created backup for a planned upgrade, and cannot be generated on demand. If a snapshot is requested, the most recent available recovery point is provided, so any changes made after that point may not be recoverable.
+
 ### Staging and Production environments
 
 * Manual snapshots are not available for Staging and Production environments on Pro plan.
