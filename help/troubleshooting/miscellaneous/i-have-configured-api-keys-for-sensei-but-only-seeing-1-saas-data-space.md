@@ -7,7 +7,7 @@ role: Developer
 ---
 # Unable to see multiple SaaS data spaces after configuring Adobe AI API keys
 
-This article provides a solution for the issues where you only see one SaaS data space after you have configured the API keys for Adobe AI.
+After configuring API keys for a Commerce service such as Adobe AI services (Product Recommendations or Live Search) or Payment Services for Adobe Commerce, you expect to see multiple SaaS data spaces in the Commerce Services Connector. Depending on product entitlement and deployment type, the connector displays only one SaaS data space, which is expected behavior.
 
 ## Affected products and versions
 
@@ -17,16 +17,29 @@ This article provides a solution for the issues where you only see one SaaS data
 
 ## Issue
 
-I have configured the API keys for Adobe AI, but I am only seeing one SaaS data space.
+After configuring the Adobe AI API keys, the system shows only one SaaS data space.
 
 ## Cause
 
-The number of SaaS data spaces that appears depends on your Commerce license:
-
-* Adobe Commerce - One production data space; two testing data spaces
-* Magento Open Source - One production data space; no testing data spaces
+The number of available SaaS data spaces depends on the product entitlement tied to the Commerce account and the type of service being used.
 
 ## Solution
 
-* Make sure that the API keys were created on the Account Owner's account. Even if you have been given shared access to their account and created the keys on your own account, this will not grant you more than one data space.
-* If the keys were generated on the Account Owner's account, make sure that the license is active, i.e., there are no pending invoices.
+In general, the number of available SaaS data spaces depends on the Commerce license:
+
+* Adobe Commerce: one production data space and two testing data spaces
+* Magento Open Source: one production data space and no testing data spaces
+
+For Payment Services, the default behavior is:
+
+* Payment Services on Adobe Commerce (*Cloud or on-premises*) has three data spaces by default:
+ * one production data space
+ * two testing data spaces
+* Payment Services on Magento Open Source has one data space by default
+
+Customers who own multiple Cloud projects or on-premises (*live/production*) installations can also request additional production and testing data spaces for each project or instance by submitting a Support request.
+
+Magento Open Source customers using Adobe Payment Services can also request an additional data space. Contact the Payments team for prior approval before submitting a Support request to add a testing data space.
+
+>[!NOTE]
+> Do not use the same SaaS data space across multiple environments at the same time. If a production or testing data space is reused across environments, data can become mixed and may require cleanup.
