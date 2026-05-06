@@ -1,5 +1,5 @@
 ---
-title: I've configured API keys for Adobe AI but only seeing one SaaS data space
+title: Unable to see multiple SaaS data spaces after configuring Adobe AI API keys
 description: This article provides a solution for the issues where you only see one SaaS data space after you have configured the API keys for Adobe AI.
 exl-id: e13041da-b122-4684-8287-42132931f47a
 feature: REST, Saas, Observability
