@@ -42,4 +42,12 @@ Customers who own multiple Cloud projects or on-premises (*live/production*) ins
 Magento Open Source customers using Adobe Payment Services can also request an additional data space. Contact the Payments team for prior approval before submitting a Support request to add a testing data space.
 
 >[!NOTE]
-> Do not use the same SaaS data space across multiple environments at the same time. If a production or testing data space is reused across environments, data can become mixed and may require cleanup.
+> * Do not use the same SaaS data space across multiple environments at the same time. If a production or testing data space is reused across environments, data can become mixed and may require cleanup.
+> * Payment Services on Adobe Commerce (*Cloud/On‑Prem*) have three data spaces by default.
+> * Payment Services on Magento Open Source have one data space by default.
+> To request additional data spaces:
+> * Magento Open Source customers using Adobe Payment Services can request an additional data space. Contact the Payments team for prior approval before submitting a Support request to obtain a testing data space.
+> * Customers who own multiple Cloud projects or on‑premises (*live/production*) installations can also request additional production and testing data spaces for each project or instance by submitting a Support request.
+
+## Realeted reading
+[SaaS data space provisioning](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
