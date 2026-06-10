@@ -57,7 +57,13 @@ saas-export
 
 1. Confirm the [[!DNL cron]](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) (in our developer documentation) jobs are running.
 1. Confirm the [[!UICONTROL indexers]](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) (in our developer documentation) are running and the `Product Feed` [!UICONTROL indexer] is set to `Update by Schedule`.
-1. Confirm the modules are *enabled*. The `saas-export` metapackage installs the following modules, all of which must be *enabled*: `"magento/module-catalog-data-exporter"      "magento/module-catalog-inventory-data-exporter"      "magento/module-catalog-url-rewrite-data-exporter"      "magento/module-configurable-product-data-exporter"      "magento/module-data-exporter"      "magento/module-saas-catalog"`
+1. Confirm the modules are *enabled*. The `saas-export` metapackage installs the following modules, all of which must be *enabled*:
+   * `magento/module-catalog-data-exporter`
+   * `magento/module-catalog-inventory-data-exporter`
+   * `magento/module-catalog-url-rewrite-data-exporter`
+   * `magento/module-configurable-product-data-exporter`
+   * `magento/module-data-exporter`
+   * `magento/module-saas-catalog`
 1. Check the [logs](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/enable-logging) (in our developer documentation). Make sure there are no errors associated with the above modules.
 1. Refresh the [!UICONTROL Configuration cache]. Go to **System** > **Tools** > **Cache Management**, and clear the [!UICONTROL Configuration cache].
 1. Confirm there is data in the `cde_products_products_feed` database table.
