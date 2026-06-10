@@ -48,12 +48,14 @@ This issue is not limited to deployments that apply patches through `.magento.en
 ```bash
 vendor/bin/magento-patches apply <PATCH_ID>
 ```
+
 For example:
 
 ```
 Next patches weren't found: ACSD-12345
 Check the availability of these patches for the  current Magento version using the "status" command.
 ```
+
 In this case, the patch is not available for the Adobe Commerce version installed in the environment where the command is being run.
 
 1. Check your `.magento.env.yaml` file under the QUALITY_PATCHES section, e.g.,
