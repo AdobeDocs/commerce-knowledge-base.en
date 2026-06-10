@@ -32,19 +32,19 @@ Symptoms of [!DNL cron] jobs that must be reset include:
 To resolve this issue, you must reset the [!DNL cron] job(s) using the `cron:unlock` command. This command changes the status of the [!DNL cron] job in the database, ending the job forcefully to allow other scheduled jobs to continue.
 
 1. Open a terminal and use your [SSH keys](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) to connect to the affected environment.
-1. Get the MySQL database credentials:    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
-1. Connect to the database using `mysql` :    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
-1. Select the `main` database:    ```shell    use main    ```
-1. Find all running [!DNL cron] jobs:    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```
+1. Get the MySQL database credentials: `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp`
+1. Connect to the database using `mysql`: `mysql -hdatabase.internal -uuser -ppassword main`
+1. Select the `main` database: `use main`
+1. Find all running [!DNL cron] jobs: `SELECT * FROM cron_schedule WHERE status = 'running';`
 1. Copy the `job_code` of any job running longer than usual.
-1. Use the schedule IDs from the previous step to unlock specific [!DNL cron] jobs:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```
+1. Use the schedule IDs from the previous step to unlock specific [!DNL cron] jobs: `./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]`
 
 ### Solution for stopping a single [!DNL cron] {#solution-stop-a-single-cron}
 
 1. Open a terminal and use your [SSH keys](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) to connect to the affected environment.
 1. Check long running tasks by using the following command:
 
-    ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```
+    `date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'`
 
 1. In the output, like in the sample output below, you'll see current date and list of processes. The `START` column shows starting time or date of the process:
 
@@ -69,6 +69,6 @@ To resolve this issue, you must reset the [!DNL cron] job(s) using the `cron:unl
 1. If you see a long running [!DNL cron] jobs which may the block deployment process, you can terminate the process using the `kill` command. You can identify the **Process ID** (found the `PID` column), and then put that `PID` in the command to kill the process.
 The **kill process** command is:
 
-    ```kill -9 <PID>```
+    `kill -9 <PID>`
 
 1. Then you can re-deploy, if you were trying to re-deploy.
