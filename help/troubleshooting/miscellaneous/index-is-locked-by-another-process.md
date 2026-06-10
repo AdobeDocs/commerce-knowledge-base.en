@@ -30,10 +30,13 @@ This error could occur if the previous index was not completed successfully. A f
 
 1. For example, say that the `cataloginventory_stock` index type is locked.
 1. When you try to reindex all data by running the CLI command:
+   
    ```bash
    php bin/magento indexer:reindex
    ```
+   
    You will get the following output result:
+   
    ```
    customer_grid index has been rebuilt successfully in 00:00:09
    catalog_category_product index has been rebuilt successfully in 00:00:07
@@ -45,8 +48,8 @@ This error could occur if the previous index was not completed successfully. A f
    catalogrule_product has been rebuilt successfully in 00:00:00
    catalogsearch_fulltext index has been rebuilt successfully in 00:00:01
    ```
+   
 1. As you can see above, the `cataloginventory_stock` index process has been skipped.
-
 
 ## Solution
 
@@ -76,7 +79,6 @@ bin/magento indexer:reset catalog_product_price;
 bin/magento indexer:reset catalogrule_product;
 bin/magento indexer:reset catalogsearch_fulltext;
 ```
-
 
 ## Related reading
 
