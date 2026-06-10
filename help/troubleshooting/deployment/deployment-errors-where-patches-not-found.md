@@ -24,13 +24,13 @@ This issue can also occur when the installed Quality Patches Tool package (`mage
 For example:
  
 Case 1:
-- A patch may have originally been available for 2.4.7-p9 in QPT 1.1.71
-- A newer QPT release (for example, 1.1.72) may later add support for 2.4.7-p10
-- If the customer upgrades Commerce to 2.4.7-p10 but keeps an older QPT version installed, QPT may not recognize that a compatible patch variant exists for 2.4.7-p10
+* A patch may have originally been available for 2.4.7-p9 in QPT 1.1.71
+* A newer QPT release (for example, 1.1.72) may later add support for 2.4.7-p10
+* If the customer upgrades Commerce to 2.4.7-p10 but keeps an older QPT version installed, QPT may not recognize that a compatible patch variant exists for 2.4.7-p10
  
 Case 2:
-- A patch may have been added in QPT 1.1.72
-- If the customer keeps an older QPT version installed, QPT will not recognize that the patch exists
+* A patch may have been added in QPT 1.1.72
+* If the customer keeps an older QPT version installed, QPT will not recognize that the patch exists
  
 In these cases, applying the patch can fail with a message such as:
 
@@ -60,8 +60,8 @@ In this case, the patch is not available for the Adobe Commerce version installe
 
       ```yaml
       QUALITY_PATCHES:
-       - MDVA-XXXXX
-       - ACSD-XXXXX
+       * MDVA-XXXXX
+       * ACSD-XXXXX
       ```
       
 1. Look up the patch IDs in the [Quality Patches Release Notes](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) to check whether each one can be applied to the new version of Adobe Commerce you are upgrading to. 
