@@ -179,7 +179,7 @@ breadcrumb-title: Commerce KB
     * [Error during deployment when upgrading to version supporting PHP 8.1](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
     * [Deployment error: "error 7 while downloading ... port 443: Connection refused"](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
     * [Deployment errors when committing incorrect files](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
-    * [Deployment errors where patches not found](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
+    * [Patch not found errors during deployment or manual application](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
     * [Deployment failed on cache flush: "There are no commands defined in the 'cache' namespace" error](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
   * Known issues {#known-issues-patches-attached}
     * [Guidance on securing your store and rotating encryption keys: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)

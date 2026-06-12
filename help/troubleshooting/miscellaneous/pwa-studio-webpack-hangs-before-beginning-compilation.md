@@ -47,8 +47,8 @@ command.
 
 <u>Expected result</u>:
 
-* If using the    ```yaml    build    ```    command, it generates the build artifacts for Venia normally.
-* If using the    ```yaml    watch    ```    command, it starts the Venia storefront normally.
+* If using the `build` command, it generates the build artifacts for Venia normally.
+* If using the `watch` command, it starts the Venia storefront normally.
 
 <u>Actual result</u>:
 

@@ -28,7 +28,7 @@ To resolve this issue, increase the default value of the `http_resp_hdr_len` par
     * Ubuntu: `/etc/default/varnish`
 1. Search for the `http_resp_hdr_len` parameter.
 1. If the parameter doesn't exist, add it after `thread_pool_max` .
-1. Set `http_resp_hdr_len` to a value equal to the product count of your largest category multiplied by 21. (Each product tag is about 21 characters in length.)    For example, setting the value to 65536 bytes should work if your largest category has 3,000 products.    For example:    ```conf    -p http_resp_hdr_len=65536 \    ```
+1. Set `http_resp_hdr_len` to a value equal to the product count of your largest category multiplied by 21. (Each product tag is about 21 characters in length.) For example, setting the value to 65536 bytes should work if your largest category has 3,000 products. For example: `-p http_resp_hdr_len=65536 \`
 1. Set the `http_resp_size` to a value that accommodates the increased response header length.    For example, using the sum of the increased header length and default response size is a good starting point (e.g., 65536 + 32768 = 98304): `-p http_resp_size=98304`. A snippet follows:
 
     ```
