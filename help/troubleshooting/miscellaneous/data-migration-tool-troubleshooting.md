@@ -160,3 +160,4 @@ We recommended testing the migration process from a copy of your Adobe Commerce 
 ## Related reading
 
 [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook
+

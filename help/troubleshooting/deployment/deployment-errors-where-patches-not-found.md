@@ -73,3 +73,4 @@ In this case, the patch is not available for the Adobe Commerce version installe
 ## Related reading
 
 * [Apply patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment) in Commerce on Cloud Infrastructure Guide.
+
