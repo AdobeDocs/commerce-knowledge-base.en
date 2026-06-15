@@ -91,3 +91,4 @@ You can install higher versions of OpenSSL with [Homebrew](https://brew.sh/) on 
 * [PWA Buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
 * [buildpack Command Line Interface](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
 * [Tools and libraries: buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
+
