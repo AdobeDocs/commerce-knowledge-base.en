@@ -35,6 +35,7 @@ The `default_socket_timeout` value is set too low. This is caused by the setting
 
 ## Solution
 
+1. Check the current timeout period for `default_socket_timeout` by running in the CLI: `php -i |grep default_socket_timeout`.
 1. Check the current timeout period for `default_socket_timeout` by running in the CLI: `php -i |grep default_socket_timeout`
 1. Depending on the timeout setting increase, the `default_socket_timeout` variable to the expected longest possible run time in the `/etc/platform/<project_name>/php.ini` file. It is suggested that you set between 10-15 mins.
 1. Commit it to GIT and redeploy.
@@ -43,4 +44,3 @@ The `default_socket_timeout` value is set too low. This is caused by the setting
 
 * [Database best practices for Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
 * [Most common database issues in Adobe Commerce on cloud infrastructure](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
-
