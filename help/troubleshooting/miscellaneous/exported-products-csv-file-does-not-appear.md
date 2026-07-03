@@ -56,7 +56,7 @@ See details for both options in the following paragraphs.
 1. In the Admin, navigate to **Stores** > **Configuration** > **Advanced** > **Admin** > **Security**.
 1. Set the **Add Secret Key to URLs** option to *No.*
 1. Click **Save Config**.
-1. Clean cache under **System** > **Tools** > **Cache Management** or by running    ```bash    bin/magento cache:clean``` or in the Admin.
+1. Clean cache under **System** > **Tools** > **Cache Management** or by running `bin/magento cache:clean` or in the Admin.
 
 ### Run the export command manually and optionally add it as cron job
 
@@ -94,3 +94,4 @@ To add the process as a cron job optionally, you must add the `CRON_CONSUMERS` v
 >[!NOTE]
 >
 >On Adobe Commerce on cloud infrastructure Pro projects, the [auto-crons feature](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) must be enabled on your Adobe Commerce on cloud infrastructure before you can add custom cron jobs to Staging and Production environments using `.magento.app.yaml`. If this feature is not enabled, [create a support ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket), to have the job added for you.
+

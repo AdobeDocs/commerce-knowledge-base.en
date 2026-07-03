@@ -23,7 +23,7 @@ Adobe Commerce on cloud infrastructure
 
 You set your **search engine** to **[!DNL OpenSearch]**, but see this type of error in the `var/log/support_report.log` file:
 
-```[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []```
+`[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []`
 
 <u>Steps to reproduce</u>:
 

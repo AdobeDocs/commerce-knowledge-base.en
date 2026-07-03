@@ -47,8 +47,8 @@ command.
 
 <u>Expected result</u>:
 
-* If using the    ```yaml    build    ```    command, it generates the build artifacts for Venia normally.
-* If using the    ```yaml    watch    ```    command, it starts the Venia storefront normally.
+* If using the `build` command, it generates the build artifacts for Venia normally.
+* If using the `watch` command, it starts the Venia storefront normally.
 
 <u>Actual result</u>:
 
@@ -91,3 +91,4 @@ You can install higher versions of OpenSSL with [Homebrew](https://brew.sh/) on 
 * [PWA Buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
 * [buildpack Command Line Interface](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
 * [Tools and libraries: buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
+

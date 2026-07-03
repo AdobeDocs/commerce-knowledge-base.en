@@ -13,8 +13,8 @@ This article provides solutions for errors that might occur when you run the Dat
 
 ### Error messages
 
-* ```bash    Source documents are not mapped: <EXTENSION_TABLE>    ```
-* ```bash    Source fields are not mapped. Document: <EXTENSION_TABLE>. Fields: <EXTENSION_FIELD>    ```
+* `Source documents are not mapped: <EXTENSION_TABLE>`
+* `Source fields are not mapped. Document: <EXTENSION_TABLE>. Fields: <EXTENSION_FIELD>`
 
 In rare cases, the message might mention
 
