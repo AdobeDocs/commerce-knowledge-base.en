@@ -66,7 +66,6 @@ breadcrumb-title: Commerce KB
     * [Applying a patch takes your site down](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [Revised patches for Google Maps access loss on all Adobe Commerce versions](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Miscellaneous {#miscellaneous}
-    * [Fix data not updated in [!DNL Commerce Data Exporter] feeds and [!DNL cron] logs errors with changelog table don't exist](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
     * [Email stating that export storage is almost full](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
     * [Missing or altered configuration file](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
     * [cURL error 60: SSL certificate expired](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
