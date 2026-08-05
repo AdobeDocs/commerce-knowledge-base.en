@@ -69,7 +69,6 @@ breadcrumb-title: Commerce KB
     * [Email stating that export storage is almost full](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
     * [cURL error 60: SSL certificate expired](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
     * [Troubleshoot Product Recommendations module in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
-    * [Unknown module Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
     * [SQL queries: EXPLAIN cost errors](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
     * [Adobe Commerce Security Scan tool troubleshooting guide](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [File permissions readiness check issues](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
