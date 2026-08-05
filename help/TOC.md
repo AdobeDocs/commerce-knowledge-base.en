@@ -73,7 +73,6 @@ breadcrumb-title: Commerce KB
     * [Unknown module Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
     * [Cron readiness check issues](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
     * [SQL queries: EXPLAIN cost errors](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
-    * [Troubleshooting New Relic on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
     * [Adobe Commerce Security Scan tool troubleshooting guide](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [File permissions readiness check issues](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
     * [Diagnosing Google eCommerce revenue discrepancies](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
