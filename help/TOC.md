@@ -72,7 +72,6 @@ breadcrumb-title: Commerce KB
     * [Unknown module Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
     * [SQL queries: EXPLAIN cost errors](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
     * [Adobe Commerce Security Scan tool troubleshooting guide](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
-    * [File permissions readiness check issues](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
     * [Diagnosing Google eCommerce revenue discrepancies](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [I've configured API keys for Adobe AI but only seeing one SaaS data space](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [Main Menu (Categories) not displayed on subpages with Fastly enabled](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
