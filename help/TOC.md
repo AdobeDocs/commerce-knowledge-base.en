@@ -76,7 +76,6 @@ breadcrumb-title: Commerce KB
     * [File storage low, specific page loads are slow](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [Slow performance due to full reindexing](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
     * [General custom module troubleshooting help](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
-    * [Low disk space](/help/troubleshooting/miscellaneous/low-disk-space.md)
     * [Cache warming up and site unavailable on Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [Resolving UTF-8 errors for CSV file uploads](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [Troubleshoot performance using New Relic on Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
