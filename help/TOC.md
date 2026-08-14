@@ -76,7 +76,6 @@ breadcrumb-title: Commerce KB
     * [Slow performance due to full reindexing](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
     * [General custom module troubleshooting help](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [Cache warming up and site unavailable on Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
-    * [Resolving UTF-8 errors for CSV file uploads](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [Troubleshoot performance using New Relic on Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
     * [Checking for DDoS attack from CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
     * [Blank page or redirect loop error when accessing storefront or Commerce Admin](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
