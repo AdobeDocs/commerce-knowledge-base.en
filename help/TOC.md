@@ -72,7 +72,6 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce Security Scan tool troubleshooting guide](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [Diagnosing Google eCommerce revenue discrepancies](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [I've configured API keys for Adobe AI but only seeing one SaaS data space](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
-    * [File storage low, specific page loads are slow](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [General custom module troubleshooting help](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [Cache warming up and site unavailable on Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [Resolving UTF-8 errors for CSV file uploads](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
