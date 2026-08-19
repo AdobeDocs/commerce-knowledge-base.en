@@ -77,7 +77,6 @@ breadcrumb-title: Commerce KB
     * [Checking for DDoS attack from CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
     * [Login redirect when trying to login to Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [Using Data Exports to pinpoint discrepancies](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
-    * [Data Migration Tool troubleshooting](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
     * [Component dependency readiness check issues](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
     * [Cannot access Adobe Commerce on cloud infrastructure UI](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
     * [Changes to categories are not being saved](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
