@@ -12,7 +12,7 @@ This article explains how customers with sufficient license/subscription authori
 
  **Customers using Adobe Commerce on cloud infrastructure Pro plan architecture who wish to use New Relic Infrastructure:**
 
- Customers using Pro architecture will get the New Relic Infrastructure service with subscription auto installed. These customers should have received an email containing an activation link from New Relic when their Adobe Commerce project was created. After following the email’s instructions to register their New Relic account, users should be able to log in on the [New Relic login](https://login.newrelic.com/login) page with the username and password they created at the time.
+ Customers using Pro architecture will get the New Relic Infrastructure service with subscription auto installed. These customers should have received an email containing an activation link from New Relic when their Adobe Commerce project was created. After following the email's instructions to register their New Relic account, users should be able to log in on the [New Relic login](https://login.newrelic.com/login) page with the username and password they created at the time.
 
  **Note** : Customers using Pro architecture will have New Relic Application Performance Monitoring (APM), in addition to the New Relic Infrastructure service.
 
@@ -26,4 +26,4 @@ This article explains how customers with sufficient license/subscription authori
 
 ## Related Reading
 
-To learn about New Relic services, see [Investigate Performance](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in our developer documentation. You can also review [Troubleshoot performance using New Relic on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) in our support knowledge base.
+To learn about New Relic services, see [Investigate Performance](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) in our developer documentation. 
