@@ -76,7 +76,6 @@ breadcrumb-title: Commerce KB
     * [Resolving UTF-8 errors for CSV file uploads](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [Checking for DDoS attack from CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
     * [Login redirect when trying to login to Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
-    * [Resolve issues with encryption key](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
     * [Using Data Exports to pinpoint discrepancies](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [Data Migration Tool troubleshooting](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
     * [Component dependency readiness check issues](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
