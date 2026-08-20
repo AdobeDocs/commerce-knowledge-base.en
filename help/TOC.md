@@ -90,7 +90,6 @@ breadcrumb-title: Commerce KB
     * [Adobe Commerce 2.4.2-p1: invoice note with an incorrect value](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [Cannot access the latest Adobe Commerce pre-release](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [Index is locked by another process](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
-    * [Diagnosing a data discrepancy](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
     * [Admin 2FA email notifications not being received](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
     * [Redirect back to the Commerce Admin login form with "Your current session has been expired" error](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
     * [Site in maintenance mode but available to customers](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
