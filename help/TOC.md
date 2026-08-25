@@ -73,7 +73,6 @@ breadcrumb-title: Commerce KB
     * [File storage low, specific page loads are slow](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [General custom module troubleshooting help](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [Cache warming up and site unavailable on Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
-    * [Checking for DDoS attack from CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
     * [Login redirect when trying to login to Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [Using Data Exports to pinpoint discrepancies](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [Component dependency readiness check issues](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
