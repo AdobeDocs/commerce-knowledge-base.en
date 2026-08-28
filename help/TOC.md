@@ -82,7 +82,6 @@ breadcrumb-title: Commerce KB
     * [Error message when adding sites into Security Scan](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
     * [Shared access troubleshooting](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
     * [Slow performance, slow and long running crons](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
-    * [Error when validating the Fastly credentials](/help/troubleshooting/miscellaneous/error-when-validating-fastly-credentials.md)
     * [The Security Scan Tool report is blank](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
     * [Adobe Commerce 2.4.2-p1: invoice note with an incorrect value](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [Cannot access the latest Adobe Commerce pre-release](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
