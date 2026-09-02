@@ -1,13 +1,13 @@
 ---
 title: Using Data Exports to pinpoint discrepancies
-description: This article provides solutions for troubleshooting discrepancies in your Magento BI data. Data Exports are a useful tool for comparing your Magento BI data to your source data in order to pinpoint data discrepancies in your reports, especially if the [data discrepancy diagnostic checklist](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) didn't help you pinpoint the problem. This article will walk you through a real-life example of how data discrepancies can be pinpointed using Data Exports.
+description: This article provides solutions for troubleshooting discrepancies in your Magento BI data. Data Exports are a useful tool for comparing your Magento BI data to your source data in order to pinpoint data discrepancies in your reports, especially if the [data discrepancy diagnostic checklist](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479) didn't help you pinpoint the problem. This article will walk you through a real-life example of how data discrepancies can be pinpointed using Data Exports.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
 ---
 # Using Data Exports to pinpoint discrepancies
 
-This article provides solutions for troubleshooting discrepancies in your Magento BI data. Data Exports are a useful tool for comparing your Magento BI data to your source data in order to pinpoint data discrepancies in your reports, especially if the [data discrepancy diagnostic checklist](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) didn't help you pinpoint the problem. This article will walk you through a real-life example of how data discrepancies can be pinpointed using Data Exports.
+This article provides solutions for troubleshooting discrepancies in your Magento BI data. Data Exports are a useful tool for comparing your Magento BI data to your source data in order to pinpoint data discrepancies in your reports, especially if the [data discrepancy diagnostic checklist](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479) didn't help you pinpoint the problem. This article will walk you through a real-life example of how data discrepancies can be pinpointed using Data Exports.
 
 Take this analysis, for example:
 
@@ -83,7 +83,7 @@ If you aren't able to pinpoint the source of the problem, you'll need to loop in
 
 ## Related reading
 
-* [Data discrepancy diagnostic checklist](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [Data discrepancy diagnostic checklist](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [Adobe Commerce Intelligence Service Policies](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
 * [Best practices for modifying database tables](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) in the Commerce Implementation Playbook
 

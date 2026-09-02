@@ -9,7 +9,7 @@ role: Developer
 
 Do the numbers on a certain report look inaccurate? Do you see unexpected NULL values? If you see something that doesn't seem quite right, we recommend using these resources to help you troubleshoot:
 
-* [Data discrepancy diagnostic checklist](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
+* [Data discrepancy diagnostic checklist](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [Using exports to pinpoint data discrepancies](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
 We also recommend that you ensure the correct [replication methods](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) and [rechecks](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) have been set for the tables and columns involved in the discrepancy. Note that you need Admin permissions to access replication method and recheck information.
