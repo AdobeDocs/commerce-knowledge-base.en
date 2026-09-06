@@ -71,20 +71,20 @@ For guidance on how to rotate/change the encryption key after applying the patch
 
 **Option 1 - Full credential rotation (recommended for all affected merchants)**
 
-* Apply the hotfix.
-* Enable maintenance mode.
-* Disable cron execution (Commerce on Cloud command: vendor/bin/ece-tools cron:disable).
-* [Rotate your encryption keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en).
-* Rotate all Admin panel user passwords.
-* Deactivate and regenerate all REST/SOAP/GraphQL integration tokens (System > Extensions > Integrations).
-* Rotate OAuth client secrets for any connected third-party applications.
-* Rotate payment gateway API credentials at the provider level (Stripe, Braintree, Adyen, PayPal, etc.).
-* Rotate database credentials.
-* Rotate SSH/deploy keys and any cron or system-privileged service account credentials.
-* Rotate API keys for shipping, tax, and other integrated third-party extensions.
-* Flush the cache.
-* Enable cron execution (Commerce on Cloud command: vendor/bin/ece-tools cron:enable).
-* Disable maintenance mode.
+1. Apply the hotfix.
+1. Enable maintenance mode.
+1. Disable cron execution (Commerce on Cloud command: vendor/bin/ece-tools cron:disable).
+1. [Rotate your encryption keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en).
+1. Rotate all Admin panel user passwords.
+1. Deactivate and regenerate all REST/SOAP/GraphQL integration tokens (**System** > **Extensions** > **Integrations**).
+1. Rotate OAuth client secrets for any connected third-party applications.
+1. Rotate payment gateway API credentials at the provider level (Stripe, Braintree, Adyen, PayPal, etc.).
+1. Rotate database credentials.
+1. Rotate SSH/deploy keys and any cron or system-privileged service account credentials.
+1. Rotate API keys for shipping, tax, and other integrated third-party extensions.
+1. Flush the cache.
+1. Enable cron execution (Commerce on Cloud command: vendor/bin/ece-tools cron:enable).
+1. Disable maintenance mode.
 
 >[!NOTE]
 >
@@ -92,13 +92,13 @@ For guidance on how to rotate/change the encryption key after applying the patch
 
 **Option 2 - For merchants who have already rotated their encryption keys but have not rotated other credentials**
 
-* Rotate all Admin panel user passwords.
-* Deactivate and regenerate all REST/SOAP/GraphQL integration tokens.
-* Rotate OAuth client secrets for any connected third-party applications.
-* Rotate payment gateway API credentials at the provider level.
-* Rotate database credentials.
-* Rotate SSH/deploy keys and cron/service account credentials.
-* Rotate API keys for shipping, tax, and other integrated extensions.
+1. Rotate all Admin panel user passwords.
+1. Deactivate and regenerate all REST/SOAP/GraphQL integration tokens.
+1. Rotate OAuth client secrets for any connected third-party applications.
+1. Rotate payment gateway API credentials at the provider level.
+1. Rotate database credentials.
+1. Rotate SSH/deploy keys and cron/service account credentials.
+1. Rotate API keys for shipping, tax, and other integrated extensions.
 
 ### Security updates
 
