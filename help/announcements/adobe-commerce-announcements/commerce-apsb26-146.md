@@ -42,7 +42,7 @@ Apply the following hotfix to the affected product version:
 
 ### How to apply the hotfix
 
-Unzip the file and see [How to apply a composer patch provided by Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) in our support knowledge base for instructions.
+Unzip the file and follow the instructions from [How to apply a composer patch provided by Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento).
 
 ### For Adobe Commerce on Cloud merchants only - How to tell whether patches have been applied
 
