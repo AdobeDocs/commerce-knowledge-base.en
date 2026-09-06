@@ -63,7 +63,7 @@ You can do this by taking the following steps, using the file `VULN-39341_Hotfix
 
 ### Rotate/change the encryption key after applying the patch
 
-For guidance on how to rotate/change the encryption key after applying the patch, please refer to [Admin systems guide: Encryption key](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en) in the Commerce Admin Systems Guide documentation.
+For guidance on how to rotate/change the encryption key after applying the patch, please refer to [Admin systems guide: Encryption key](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key) in the Commerce Admin Systems Guide documentation.
 
 >[!NOTE]
 >
