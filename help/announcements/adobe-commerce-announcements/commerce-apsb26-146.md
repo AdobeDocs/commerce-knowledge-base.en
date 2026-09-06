@@ -1,0 +1,112 @@
+---
+title: Security update available for Adobe Commerce - APSB26-146
+description: Adobe has released Security Bulletin APSB26-146 addressing CVE-2026-75650, a zero-day vulnerability in Adobe Commerce. Learn how to apply the hotfix and rotate credentials.
+---
+
+# Security update available for Adobe Commerce - APSB26-146
+
+>[!IMPORTANT]
+>
+>This is an urgent update related to CVE-2026-75650. Adobe is aware that CVE-2026-75650 has been exploited in the wild targeting Adobe Commerce merchants.
+
+On September 5, 2026, Adobe became aware, through independent security researcher, of a zero-day vulnerability in Adobe Commerce that could allow an unauthenticated attacker to execute arbitrary code on an affected installation (CVE-2026-75650).
+
+Adobe has released Security Bulletin APSB26-146, which addresses this vulnerability. The bulletin is available here:
+
+<https://helpx.adobe.com/security/products/magento/apsb26-146.html>
+
+In this article you will find how to implement the hotfix for this issue for the current and earlier versions of Adobe Commerce and Magento Open Source.
+
+## Description
+
+Affected products and versions:
+
+* 2.4.9-2026-aug and earlier
+* 2.4.8-2026-aug and earlier
+* 2.4.7-2026-aug and earlier
+* 2.4.6-2026-aug and earlier
+* 2.4.5-2026-aug and earlier
+* 2.4.4-2026-aug and earlier
+
+## Resolution
+
+### Solution for Adobe Commerce on Cloud, Adobe Commerce on-premise Software, and Magento Open Source
+
+To help resolve the vulnerability for the affected products and versions, you must apply the VULN-39341 patch (dependent on your version) and rotate your encryption keys.
+
+### Hotfix Details
+
+Apply the following hotfix to the affected product version:
+
+* Download the Hotfix VULN-39341_Hotfix_COMPOSER_patch.zip
+
+### How to apply the hotfix
+
+Unzip the file and see [How to apply a composer patch provided by Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) in our support knowledge base for instructions.
+
+### For Adobe Commerce on Cloud merchants only - How to tell whether patches have been applied
+
+Considering that it isn't possible to easily determine if the issue was patched, it's recommended that you check whether the CVE-2026-75650 hotfix has been successfully applied.
+
+You can do this by taking the following steps, using the file `VULN-39341_Hotfix_COMPOSER.patch` as an example:
+
+* [Install the Quality Patches Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage).
+* Run the command:
+
+  `vendor/bin/magento-patches -n status | grep "39341\|Status"`
+
+* You should see output similar to this, where this example VULN-39341 returns the Applied status:
+
+  | ID | Title | Category | Origin | Status | Detail |
+  |---|---|---|---|---|---|
+  | N/A | …/m2-hotfixes/VULN-39341_Hotfix_COMPOSER.patch | Other | Local | Applied | Patch type: Custom |
+
+### Rotate/change the encryption key after applying the patch
+
+For guidance on how to rotate/change the encryption key after applying the patch, please refer to [Admin systems guide: Encryption key](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en) in the Commerce Admin Systems Guide documentation.
+
+>[!NOTE]
+>
+>To fully remediate this issue, rotate not only your encryption key but all credentials that may have been encrypted or exposed using it, including server, API, and integration credentials.
+
+**Option 1 - Full credential rotation (recommended for all affected merchants)**
+
+* Apply the hotfix.
+* Enable maintenance mode.
+* Disable cron execution (Commerce on Cloud command: vendor/bin/ece-tools cron:disable).
+* [Rotate your encryption keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en).
+* Rotate all Admin panel user passwords.
+* Deactivate and regenerate all REST/SOAP/GraphQL integration tokens (System > Extensions > Integrations).
+* Rotate OAuth client secrets for any connected third-party applications.
+* Rotate payment gateway API credentials at the provider level (Stripe, Braintree, Adyen, PayPal, etc.).
+* Rotate database credentials.
+* Rotate SSH/deploy keys and any cron or system-privileged service account credentials.
+* Rotate API keys for shipping, tax, and other integrated third-party extensions.
+* Flush the cache.
+* Enable cron execution (Commerce on Cloud command: vendor/bin/ece-tools cron:enable).
+* Disable maintenance mode.
+
+>[!NOTE]
+>
+>Because the encryption key is used to encrypt integration tokens, payment gateway credentials, and system-privileged automation tokens, rotating the encryption key alone does not invalidate credentials that may already have been exposed. All associated credentials should be rotated at their source (e.g., at the payment gateway or third-party service), not only within Commerce.
+
+**Option 2 - For merchants who have already rotated their encryption keys but have not rotated other credentials**
+
+* Rotate all Admin panel user passwords.
+* Deactivate and regenerate all REST/SOAP/GraphQL integration tokens.
+* Rotate OAuth client secrets for any connected third-party applications.
+* Rotate payment gateway API credentials at the provider level.
+* Rotate database credentials.
+* Rotate SSH/deploy keys and cron/service account credentials.
+* Rotate API keys for shipping, tax, and other integrated extensions.
+
+### Security updates
+
+Security updates available for Adobe Commerce:
+
+* Adobe Security Bulletin (APSB26-146)
+* [The latest Security updates available for Adobe Commerce](https://helpx.adobe.com/security/products/magento.html)
+
+### Related reading
+
+[Enable or disable maintenance mode](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en) in the Adobe Commerce Installation Guide
