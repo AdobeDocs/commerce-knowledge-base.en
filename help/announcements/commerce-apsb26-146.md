@@ -98,7 +98,7 @@ Steps to rotate credentials:
 1. Rotate SSH/deploy keys and any cron or system-privileged service account credentials.
 1. Rotate API keys for shipping, tax, and other integrated third-party extensions.
 1. Flush the cache.
-1. Enable cron execution (Commerce on Cloud command: vendor/bin/ece-tools cron:enable).
+1. Enable cron execution (Commerce on Cloud command: `vendor/bin/ece-tools cron:enable`).
 1. Disable maintenance mode.
 
 
