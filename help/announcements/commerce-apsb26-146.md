@@ -36,12 +36,29 @@ This article explains how to apply the hotfix for current and earlier versions o
 
 Affected products and versions:
 
-* 2.4.9-2026-aug and earlier
-* 2.4.8-2026-aug and earlier
-* 2.4.7-2026-aug and earlier
-* 2.4.6-2026-aug and earlier
-* 2.4.5-2026-aug and earlier
-* 2.4.4-2026-aug and earlier
+Adobe Commerce versions:
+
+* 2.4.9-2026-aug
+* 2.4.8-2026-aug
+* 2.4.7-2026-aug
+* 2.4.6-2026-aug
+* 2.4.5-2026-aug
+* 2.4.4-2026-aug
+
+Adobe Commerce B2B versions:
+
+* 1.5.3-2026-aug
+* 1.5.2-2026-aug
+* 1.4.2-2026-aug
+* 1.3.4-2026-aug
+* 1.3.3-2026-aug
+
+Magento Open Source versions:
+
+* 2.4.9-2026-aug 
+* 2.4.8-2026-aug
+* 2.4.7-2026-aug
+* 2.4.6-2026-aug
 
 ## Resolution
 
@@ -85,7 +102,7 @@ Apply the following hotfix to the affected product version:
 
 Unzip the file and see [How to apply a composer patch provided by Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) in our support knowledge base for instructions.
 
-### For Adobe Commerce on Cloud merchants only - how to tell whether patches have been applied
+### Confirm the hotfix is applied (Adobe Commerce on Cloud merchants only)
 
 Considering that it isn't possible to easily determine if the issue was patched, it's recommended that you check whether the CVE-2026-75650 hotfix has been successfully applied.
 
