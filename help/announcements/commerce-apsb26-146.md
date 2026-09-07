@@ -109,10 +109,7 @@ Considering that it isn't possible to easily determine if the issue was patched,
 You can do this by taking the following steps, using the file `VULN-39341_Hotfix_COMPOSER.patch` as an example:
 
 1. [Install the Quality Patches Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage).
-1. Run the command:
-
-  `vendor/bin/magento-patches -n status | grep "39341\|Status"`
-
+1. Run the command: `vendor/bin/magento-patches -n status | grep "39341\|Status"`.
 1. You should see output similar to this, where this example VULN-39341 returns the Applied status:
 
   | ID | Title | Category | Origin | Status | Detail |
