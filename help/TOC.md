@@ -8,7 +8,7 @@ breadcrumb-title: Commerce KB
 * [Adobe Commerce Support Knowledge Base](/help/overview.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
-  * [Security update available for Adobe Commerce - APSB26-146](/help/announcements/commerce-apsb-146.md)
+  * [Security update available for Adobe Commerce - APSB26-146](/help/announcements/commerce-apsb26-146.md)
   * Adobe Commerce Announcements {#commerce-announcements}
     * {hide-from-toc} [Adobe Commerce support intake process migration to Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
 * Troubleshooting {#troubleshooting}
