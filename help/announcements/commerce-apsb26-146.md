@@ -45,7 +45,7 @@ Affected products and versions:
 
 ## Resolution
 
-### Solution for Adobe Commerce on Cloud, Adobe Commerce on-premise, and Magento Open Source
+### Solution for Adobe Commerce on Cloud, Adobe Commerce on-premises, and Magento Open Source
 
 To help resolve the vulnerability for the affected products and versions, you must apply the VULN-39341 patch (dependent on your version) and rotate your encryption keys.
 
