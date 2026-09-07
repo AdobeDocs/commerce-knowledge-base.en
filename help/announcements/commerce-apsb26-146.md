@@ -28,7 +28,7 @@ On September 07, Adobe released a critical security update affecting Adobe Comme
 
 Adobe has released Security Bulletin APSB26-146, which addresses this vulnerability. The bulletin is available here:
 
-<https://helpx.adobe.com/security/products/magento/apsb26-146.html>
+[Security update available for Adobe Commerce | APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
 
 This article explains how to apply the hotfix for current and earlier versions of Adobe Commerce and Magento Open Source.
 
