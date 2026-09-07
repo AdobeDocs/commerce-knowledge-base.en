@@ -148,7 +148,7 @@ To rotate credentials, follow these steps:
 
 Security updates available for Adobe Commerce:
 
-* Adobe Security Bulletin (APSB26-146)
+* [Adobe Security Bulletin (APSB26-146)](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
 * [The latest Security updates available for Adobe Commerce](https://helpx.adobe.com/security/products/magento.html)
 
 ### Related reading
