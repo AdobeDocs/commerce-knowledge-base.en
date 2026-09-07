@@ -30,7 +30,7 @@ Affected products and versions:
 
 ## Resolution
 
-### Solution for Adobe Commerce on Cloud, Adobe Commerce on-premise Software, and Magento Open Source
+### Solution for Adobe Commerce on Cloud, Adobe Commerce on-premise, and Magento Open Source
 
 To help resolve the vulnerability for the affected products and versions, you must apply the VULN-39341 patch (dependent on your version) and rotate your encryption keys.
 
@@ -44,7 +44,7 @@ Apply the following hotfix to the affected product version:
 
 Unzip the file and see [How to apply a composer patch provided by Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) in our support knowledge base for instructions.
 
-### For Adobe Commerce on Cloud merchants only - How to tell whether patches have been applied
+### For Adobe Commerce on Cloud merchants only - how to tell whether patches have been applied
 
 Considering that it isn't possible to easily determine if the issue was patched, it's recommended that you check whether the CVE-2026-75650 hotfix has been successfully applied.
 
@@ -61,15 +61,11 @@ You can do this by taking the following steps, using the file `VULN-39341_Hotfix
   |---|---|---|---|---|---|
   | N/A | …/m2-hotfixes/VULN-39341_Hotfix_COMPOSER.patch | Other | Local | Applied | Patch type: Custom |
 
-### Rotate/change the encryption key after applying the patch
+### Rotate the credentials after applying the patch
 
-For guidance on how to rotate/change the encryption key after applying the patch, please refer to [Admin systems guide: Encryption key](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key) in the Commerce Admin Systems Guide documentation.
+To fully remediate this issue, rotate not only your encryption key but all credentials that may have been encrypted or exposed using it, including server, API, and integration credentials.
 
->[!NOTE]
->
->To fully remediate this issue, rotate not only your encryption key but all credentials that may have been encrypted or exposed using it, including server, API, and integration credentials.
-
-**Option 1 - Full credential rotation (recommended for all affected merchants)**
+Steps to rotate credentials:
 
 1. Apply the hotfix.
 1. Enable maintenance mode.
@@ -90,15 +86,6 @@ For guidance on how to rotate/change the encryption key after applying the patch
 >
 >Because the encryption key is used to encrypt integration tokens, payment gateway credentials, and system-privileged automation tokens, rotating the encryption key alone does not invalidate credentials that may already have been exposed. All associated credentials should be rotated at their source (e.g., at the payment gateway or third-party service), not only within Commerce.
 
-**Option 2 - For merchants who have already rotated their encryption keys but have not rotated other credentials**
-
-1. Rotate all Admin panel user passwords.
-1. Deactivate and regenerate all REST/SOAP/GraphQL integration tokens.
-1. Rotate OAuth client secrets for any connected third-party applications.
-1. Rotate payment gateway API credentials at the provider level.
-1. Rotate database credentials.
-1. Rotate SSH/deploy keys and cron/service account credentials.
-1. Rotate API keys for shipping, tax, and other integrated extensions.
 
 ### Security updates
 
