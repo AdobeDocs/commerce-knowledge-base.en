@@ -49,7 +49,33 @@ Affected products and versions:
 
 To help resolve the vulnerability for the affected products and versions, you must apply the VULN-39341 patch (depending on your version) and rotate your encryption keys.
 
-### Hotfix details
+Compatibility note: Please note this hotfix has been tested only for the versions listed below. It may work on other supported versions, but this has not been officially verified.
+
+Adobe Commerce versions:
+
+* 2.4.9-2026-aug
+* 2.4.8-2026-aug
+* 2.4.7-2026-aug
+* 2.4.6-2026-aug
+* 2.4.5-2026-aug
+* 2.4.4-2026-aug
+
+Adobe Commerce B2B versions:
+
+* 1.5.3-2026-aug
+* 1.5.2-2026-aug
+* 1.4.2-2026-aug
+* 1.3.4-2026-aug
+* 1.3.3-2026-aug
+
+Magento Open Source versions:
+
+* 2.4.9-2026-aug 
+* 2.4.8-2026-aug
+* 2.4.7-2026-aug
+* 2.4.6-2026-aug
+
+### Hotfix link
 
 Apply the following hotfix to the affected product version:
 
