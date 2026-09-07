@@ -65,6 +65,10 @@ You can do this by taking the following steps, using the file `VULN-39341_Hotfix
 
 To fully remediate this issue, rotate not only your encryption key but all credentials that may have been encrypted or exposed using it, including server, API, and integration credentials.
 
+>[!NOTE]
+>
+>Because the encryption key is used to encrypt integration tokens, payment gateway credentials, and system-privileged automation tokens, rotating the encryption key alone does not invalidate credentials that may already have been exposed. All associated credentials should be rotated at their source (e.g., at the payment gateway or third-party service), not only within Commerce.
+
 Steps to rotate credentials:
 
 1. Apply the hotfix.
@@ -81,10 +85,6 @@ Steps to rotate credentials:
 1. Flush the cache.
 1. Enable cron execution (Commerce on Cloud command: vendor/bin/ece-tools cron:enable).
 1. Disable maintenance mode.
-
->[!NOTE]
->
->Because the encryption key is used to encrypt integration tokens, payment gateway credentials, and system-privileged automation tokens, rotating the encryption key alone does not invalidate credentials that may already have been exposed. All associated credentials should be rotated at their source (e.g., at the payment gateway or third-party service), not only within Commerce.
 
 
 ### Security updates
