@@ -65,12 +65,12 @@ Considering that it isn't possible to easily determine if the issue was patched,
 
 You can do this by taking the following steps, using the file `VULN-39341_Hotfix_COMPOSER.patch` as an example:
 
-* [Install the Quality Patches Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage).
-* Run the command:
+1. [Install the Quality Patches Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage).
+1. Run the command:
 
   `vendor/bin/magento-patches -n status | grep "39341\|Status"`
 
-* You should see output similar to this, where this example VULN-39341 returns the Applied status:
+1. You should see output similar to this, where this example VULN-39341 returns the Applied status:
 
   | ID | Title | Category | Origin | Status | Detail |
   |---|---|---|---|---|---|
@@ -100,7 +100,6 @@ To rotate credentials, follow these steps:
 1. Flush the cache.
 1. Enable cron execution (Commerce on Cloud command: `vendor/bin/ece-tools cron:enable`).
 1. Disable maintenance mode.
-
 
 ### Security updates
 
