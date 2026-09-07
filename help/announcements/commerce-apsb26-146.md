@@ -24,7 +24,7 @@ topic_v2:
 >
 >This is an urgent update related to CVE-2026-75650. Adobe is aware that CVE-2026-75650 has been exploited in the wild targeting Adobe Commerce merchants.
 
-On September 07, Adobe released a critical security update affecting Adobe Commerce & Magento Open Source. Adobe became aware of a zero-day vulnerability in Adobe Commerce and has released a security update (APSB26-146) to resolve it. The vulnerability could allow an unauthenticated attacker to execute arbitrary code on an affected installation (CVE-2026-75650).
+On September 07, Adobe released a critical security update affecting Adobe Commerce and Magento Open Source. Adobe became aware of a zero-day vulnerability in Adobe Commerce and has released a security update (APSB26-146) to resolve it. The vulnerability could allow an unauthenticated attacker to execute arbitrary code on an affected installation (CVE-2026-75650).
 
 Adobe has released Security Bulletin APSB26-146, which addresses this vulnerability. The bulletin is available here:
 
