@@ -9,7 +9,7 @@ description: Adobe has released Security Bulletin APSB26-146 addressing CVE-2026
 >
 >This is an urgent update related to CVE-2026-75650. Adobe is aware that CVE-2026-75650 has been exploited in the wild targeting Adobe Commerce merchants.
 
-On September 5, 2026, Adobe became aware, through independent security researcher, of a zero-day vulnerability in Adobe Commerce that could allow an unauthenticated attacker to execute arbitrary code on an affected installation (CVE-2026-75650).
+On September 5, 2026, Adobe became aware, through an independent security researcher, of a zero-day vulnerability in Adobe Commerce that could allow an unauthenticated attacker to execute arbitrary code on an affected installation (CVE-2026-75650).
 
 Adobe has released Security Bulletin APSB26-146, which addresses this vulnerability. The bulletin is available here:
 
