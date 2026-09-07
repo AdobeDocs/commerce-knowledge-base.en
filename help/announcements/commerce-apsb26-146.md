@@ -91,7 +91,7 @@ Steps to rotate credentials:
 1. Disable cron execution (Commerce on Cloud command: `vendor/bin/ece-tools cron:disable`).
 1. [Rotate your encryption keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en).
 1. Rotate all Admin panel user passwords.
-1. Deactivate and regenerate all REST/SOAP/GraphQL integration tokens (**System** > **Extensions** > **Integrations**).
+1. Deactivate and regenerate all REST/SOAP/GraphQL integration tokens (**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**).
 1. Rotate OAuth client secrets for any connected third-party applications.
 1. Rotate payment gateway API credentials at the provider level (Stripe, Braintree, Adyen, PayPal, etc.).
 1. Rotate database credentials.
