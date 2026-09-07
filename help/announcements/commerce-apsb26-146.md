@@ -84,7 +84,7 @@ To fully remediate this issue, rotate not only your encryption key but all crede
 >
 >Because the encryption key is used to encrypt integration tokens, payment gateway credentials, and system-privileged automation tokens, rotating the encryption key alone does not invalidate credentials that may already have been exposed. All associated credentials should be rotated at their source (e.g., at the payment gateway or third-party service), not only within Commerce.
 
-Steps to rotate credentials:
+To rotate credentials, follow these steps:
 
 1. Apply the hotfix.
 1. Enable maintenance mode.
