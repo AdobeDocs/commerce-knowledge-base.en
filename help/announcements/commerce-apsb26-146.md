@@ -38,7 +38,7 @@ To help resolve the vulnerability for the affected products and versions, you mu
 
 Apply the following hotfix to the affected product version:
 
-* Download the Hotfix VULN-39341_Hotfix_COMPOSER_patch.zip
+* [Download the Hotfix VULN-39341-composer-patches.zip](https://repo.magento.com/patch/VULN-39341-composer-patches.zip)
 
 ### How to apply the hotfix
 
