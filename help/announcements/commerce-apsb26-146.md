@@ -34,7 +34,7 @@ Affected products and versions:
 
 To help resolve the vulnerability for the affected products and versions, you must apply the VULN-39341 patch (dependent on your version) and rotate your encryption keys.
 
-### Hotfix Details
+### Hotfix details
 
 Apply the following hotfix to the affected product version:
 
