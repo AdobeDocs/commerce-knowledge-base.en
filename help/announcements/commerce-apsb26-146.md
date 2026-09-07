@@ -1,6 +1,21 @@
 ---
 title: Security update available for Adobe Commerce - APSB26-146
 description: Adobe has released Security Bulletin APSB26-146 addressing CVE-2026-75650, a zero-day vulnerability in Adobe Commerce. Learn how to apply the hotfix and rotate credentials.
+autotag-review: '2026-09-07T17:27:44.037Z'
+TQID: 'https://experienceleague.adobe.com/ADVRRn85--ZgWtPdi4qA49fsDPVW976N4MYWp26taho'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 
 # Security update available for Adobe Commerce - APSB26-146
