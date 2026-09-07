@@ -30,7 +30,7 @@ Adobe has released Security Bulletin APSB26-146, which addresses this vulnerabil
 
 <https://helpx.adobe.com/security/products/magento/apsb26-146.html>
 
-In this article you will find how to implement the hotfix for this issue for the current and earlier versions of Adobe Commerce and Magento Open Source.
+This article explains how to apply the hotfix for current and earlier versions of Adobe Commerce and Magento Open Source.
 
 ## Description
 
