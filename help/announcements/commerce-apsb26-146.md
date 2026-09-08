@@ -140,6 +140,7 @@ To rotate credentials, follow these steps:
 1. Flush the cache.
 1. Enable cron execution (Commerce on Cloud command: `vendor/bin/ece-tools cron:enable`).
 1. Disable maintenance mode.
+1. Commerce on Cloud only: Redeploy to apply new database credentials.
 
 ### Security updates
 
