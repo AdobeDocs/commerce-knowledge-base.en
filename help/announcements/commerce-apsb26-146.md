@@ -66,7 +66,7 @@ Magento Open Source versions:
 
 >[!NOTE]
 >
->The hotfix for CVE-2026-75650 is now compatible with all the all Adobe Commerce and Magento Open Source versions between 2.4.4 - 2.4.7. Please refer the table below and download the patch applicable for your version.
+>The hotfix for CVE-2026-75650 is now compatible with all the Adobe Commerce and Magento Open Source versions between 2.4.4 - 2.4.7. Please refer the table below and download the patch applicable for your version.
 
 To help resolve the vulnerability for the affected products and versions, you must apply the **below patch** (depending on your version) and rotate your encryption keys.
 
