@@ -64,39 +64,24 @@ Magento Open Source versions:
 
 ### Solution for Adobe Commerce on Cloud, Adobe Commerce on-premises, and Magento Open Source
 
-To help resolve the vulnerability for the affected products and versions, you must apply the VULN-39341 patch (depending on your version) and rotate your encryption keys.
+>[!NOTE]
+>
+>The hotfix for CVE-2026-75650 is now compatible with all the Adobe Commerce and Magento Open Source versions between 2.4.4 - 2.4.7. Please refer the table below and download the patch applicable for your version.
 
-Compatibility note: Please note this hotfix has been tested only for the versions listed below. It may work on other supported versions, but this has not been officially verified.
+To help resolve the vulnerability for the affected products and versions, you must apply the **below patch** (depending on your version) and rotate your encryption keys.
 
-Adobe Commerce versions:
+|Version Number|Patch|
+|---|---|
+|2.4.9-2026-aug, 2.4.8-2026-aug, 2.4.7-2026-aug, 2.4.6-2026-aug, 2.4.5-2026-aug, 2.4.4-2026-aug, 2.4.9-2026-jul, 2.4.8-2026-jul, 2.4.7-2026-jul, 2.4.6-2026-jul, 2.4.5-2026-jul, 2.4.4-2026-jul, 2.4.8-p5, 2.4.8-p4, 2.4.8-p3, 2.4.7 -p10, 2.4.7 -p9, 2.4.6-p15, 2.4.6-p14, 2.4.5-p17, 2.4.5-p16, 2.4.4-p18, 2.4.4-p17|[Hotfix VULN-39341-composer-patches.zip](https://repo.magento.com/patch/VULN-39341-composer-patches.zip)|
+|2.4.8-p3, 2.4.8-p2|[VULN-39341_248-p3.patch.zip](https://repo.magento.com/patch/VULN-39341-248-p3-patch.zip)|
+|2.4.8-p1, 2.4.8 |[VULN-39341_248-p1.patch.zip](https://repo.magento.com/patch/VULN-39341-248-p1-patch.zip)|
+|2.4.7-p8, 2.4.7-p7|[VULN-39341_247-p8.patch.zip](https://repo.magento.com/patch/VULN-39341-247-p8-patch.zip)|
+|2.4.7 - 2.4.7-p6|[VULN-39341_247-p5.patch.zip](https://repo.magento.com/patch/VULN-39341-247-p5-patch.zip)|
+|2.4.6-p13, 2.4.6-p12, 2.4.5-p15, 2.4.5-p14, 2.4.4-p16, 2.4.4-p15|[VULN-39341_246-p13.patch.zip](https://repo.magento.com/patch/VULN-39341-246-p13-patch.zip)|
+|2.4.6 - 2.4.6-p11, 2.4.5 - 2.4.5-p13, 2.4.4 - 2.4.4-p14|[VULN-39341_246-p11.patch.zip](https://repo.magento.com/patch/VULN-39341-246-p11-patch.zip)|
 
-* 2.4.9-2026-aug
-* 2.4.8-2026-aug
-* 2.4.7-2026-aug
-* 2.4.6-2026-aug
-* 2.4.5-2026-aug
-* 2.4.4-2026-aug
 
-Adobe Commerce B2B versions:
-
-* 1.5.3-2026-aug
-* 1.5.2-2026-aug
-* 1.4.2-2026-aug
-* 1.3.4-2026-aug
-* 1.3.3-2026-aug
-
-Magento Open Source versions:
-
-* 2.4.9-2026-aug 
-* 2.4.8-2026-aug
-* 2.4.7-2026-aug
-* 2.4.6-2026-aug
-
-### Hotfix link
-
-Apply the following hotfix to the affected product version:
-
-* [Download the Hotfix VULN-39341-composer-patches.zip](https://repo.magento.com/patch/VULN-39341-composer-patches.zip)
+{style="table-layout:auto"}
 
 ### How to apply the hotfix
 
