@@ -8,6 +8,7 @@ breadcrumb-title: Commerce KB
 * [Adobe Commerce Support Knowledge Base](/help/overview.md)
 * Announcements {#announcements}
   * [Announcements overview](/help/announcements/overview.md)
+  * [Security update available for Adobe Commerce - APSB26-146](/help/announcements/commerce-apsb26-146.md)
   * Adobe Commerce Announcements {#commerce-announcements}
     * {hide-from-toc} [Adobe Commerce support intake process migration to Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
 * Troubleshooting {#troubleshooting}
@@ -67,12 +68,10 @@ breadcrumb-title: Commerce KB
     * [Revised patches for Google Maps access loss on all Adobe Commerce versions](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Miscellaneous {#miscellaneous}
     * [Email stating that export storage is almost full](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-    * [Adobe Commerce Security Scan tool troubleshooting guide](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [Diagnosing Google eCommerce revenue discrepancies](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [I've configured API keys for Adobe AI but only seeing one SaaS data space](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [General custom module troubleshooting help](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [Cache warming up and site unavailable on Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
-    * [Login redirect when trying to login to Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [Using Data Exports to pinpoint discrepancies](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [Component dependency readiness check issues](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
     * [Cannot access Adobe Commerce on cloud infrastructure UI](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
@@ -82,11 +81,11 @@ breadcrumb-title: Commerce KB
     * [Error message when adding sites into Security Scan](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
     * [Shared access troubleshooting](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
     * [Slow performance, slow and long running crons](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
+    * [Error when validating the Fastly credentials](/help/troubleshooting/miscellaneous/error-when-validating-fastly-credentials.md)
     * [The Security Scan Tool report is blank](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
     * [Adobe Commerce 2.4.2-p1: invoice note with an incorrect value](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [Cannot access the latest Adobe Commerce pre-release](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [Index is locked by another process](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
-    * [Admin 2FA email notifications not being received](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
     * [Site in maintenance mode but available to customers](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [git pull origin develop fails when updating the Adobe Commerce software](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [Blockers launching on Adobe Commerce on cloud infrastructure](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
