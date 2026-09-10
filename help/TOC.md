@@ -80,7 +80,6 @@ breadcrumb-title: Commerce KB
     * [Cached images are not loaded after 2.2.X to 2.3.X upgrade](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
     * [Error message when adding sites into Security Scan](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
     * [Shared access troubleshooting](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
-    * [Error when validating the Fastly credentials](/help/troubleshooting/miscellaneous/error-when-validating-fastly-credentials.md)
     * [The Security Scan Tool report is blank](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
     * [Adobe Commerce 2.4.2-p1: invoice note with an incorrect value](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [Cannot access the latest Adobe Commerce pre-release](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
