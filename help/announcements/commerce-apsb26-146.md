@@ -119,7 +119,7 @@ To rotate credentials, follow these steps:
 1. Deactivate and regenerate all REST/SOAP/GraphQL integration tokens (**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**).
 1. Rotate OAuth client secrets for any connected third-party applications.
 1. Rotate payment gateway API credentials at the provider level (Stripe, Braintree, Adyen, PayPal, etc.).
-1. Rotate database credentials.
+1. Rotate database and Fastly credentials (via support ticket).
 1. Rotate SSH/deploy keys and any cron or system-privileged service account credentials.
 1. Rotate API keys for shipping, tax, and other integrated third-party extensions.
 1. Flush the cache.
