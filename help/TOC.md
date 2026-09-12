@@ -68,7 +68,6 @@ breadcrumb-title: Commerce KB
     * [Revised patches for Google Maps access loss on all Adobe Commerce versions](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Miscellaneous {#miscellaneous}
     * [Email stating that export storage is almost full](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-    * [Diagnosing Google eCommerce revenue discrepancies](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [I've configured API keys for Adobe AI but only seeing one SaaS data space](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [General custom module troubleshooting help](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [Cache warming up and site unavailable on Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
