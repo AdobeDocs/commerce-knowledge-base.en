@@ -41,8 +41,8 @@ For the Adobe Commerce on cloud infrastructure store, the most effective way to 
 
 To establish blocking based on user agent, you need to add a custom VCL snippet to your Fastly configuration. To do this, take the following steps:
 
-1. In the Commerce Admin, navigate to **Stores** > **Configuration** > **Advanced** > **System** > **Full Page Cache**.
-1. Then **Fastly Configuration** > **Custom VCL Snippets**.
+1. In the Commerce **[!UICONTROL Admin]**, navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]**.
+1. Then **[!UICONTROL Fastly Configuration]** > **[!UICONTROL Custom VCL Snippets]**.
 1. Create the new custom snippet as described in the [Custom VCL snippets](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) guide for the Fastly\_Cdn module. You can use the following code sample as an example. This sample disallows traffic for the `AhrefsBot` user agent.
 
 ```php
@@ -54,6 +54,64 @@ name: block_bad_useragents
       error 405 "Not allowed";
   }
 ```
+
+## Block Traffic by JA3/JA4/OH signatures (Grab the JA3, JA4 and OHFP values from the Newrelic)
+
+1. Create a dictionary: Navigate to **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL System]** > **[!UICONTROL Full page cache]** > **[!UICONTROL Fastly configuration]** > **[!UICONTROL Edge Dictionary]** and create this sample block:
+
+    ```
+    #table ja3_blocklist:
+    table ja3_blocklist {
+        "********************************": "********************************",
+    }
+    
+    #table ja4_blocklist:
+    table filter_bad_ja4 {
+        "************************************": "************************************",
+    }
+    ```
+
+1. Then add a VCL to block any JA3, JA4 listed in the above-defined table:
+
+    ```
+    name: block_traffic_ja3_ja4
+    type: recv 
+    priority: 5 
+    
+    VCL:
+    if (req.restarts == 0 && fastly.ff.visits_this_service == 0) {
+      if(table.contains(ja3_blocklist, tls.client.ja3_md5)){
+        error 403;
+      }
+      if(table.contains(ja4_blocklist, tls.client.ja4)){
+        error 403;
+      }
+    }
+    ```
+
+1. Block sample based on OHFP:
+
+    ```
+    #table ohfp_h2fp_blocklist
+    table ohfp_h2fp_blocklist {
+        "xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx":"xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx",
+    }
+    ```
+
+
+1. Then add a VCL to block any OHFP isted in the above-defined table:
+
+    ```
+    # Snippet block_ohfp_h2fp
+    name: block_ohfp_h2fp
+    type: recv 
+    Priority: 5
+    
+    if (table.contains(ohfp_h2fp_blocklist, fastly_info.oh_fingerprint)) {
+      error 403 "Forbidden";
+    }
+    ```
+
 
 ## Rate Limiting (experimental Fastly functionality)
 
