@@ -48,4 +48,4 @@ Other possible reasons for performance issues and solutions for them:
 
 * [Disable Adobe Commerce Banner output to improve site performance](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909)
 * [MySQL tables are too large](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945)
-* [Slow performance, slow and long running crons](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
+* [Slow performance, slow and long running crons](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-42802)
