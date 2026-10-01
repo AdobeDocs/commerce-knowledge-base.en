@@ -192,7 +192,6 @@ breadcrumb-title: Commerce KB
   * [Adobe Commerce post-deploy is skipped because deploy was failed error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [How to change email address on magento.com account when the field is grayed out](/help/how-to/general/change-email-address-on-magento-account.md)
   * [How to remove Magento Order Management](/help/how-to/general/how-to-remove-mom.md)
-  * [Tech tips for Commerce holiday readiness](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
   * [How to bypass WAF for GraphQL requests](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
   * [Upgrade MariaDB 10.4 to 10.5 for Adobe Commerce on cloud](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * FAQ {#faq}
