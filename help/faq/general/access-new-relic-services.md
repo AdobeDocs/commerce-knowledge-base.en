@@ -2,6 +2,9 @@
 title: Access New Relic services
 description: 'This article explains how customers with sufficient license/subscription authorization can access select New Relic services:'
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 ---
 # Access New Relic services
 

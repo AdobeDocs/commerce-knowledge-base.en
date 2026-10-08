@@ -2,6 +2,9 @@
 title: How to create a "scrubbed" dump when requested by support agent
 description: This article provides information on how to create a "scrubbed" dump (backup) of your database and code from the Adobe Commerce Admin when requested to provide one by an Adobe Commerce support agent. This dump excludes your media files to speed up the process and to result in a much smaller file. All sensitive data is hashed when making the database backup.
 exl-id: ad088bd2-3f92-416e-89f0-d037d53cd6a9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 ---
 # How to create a "scrubbed" dump when requested by support agent
 

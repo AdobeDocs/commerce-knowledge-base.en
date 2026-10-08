@@ -2,6 +2,9 @@
 title: Cannot change search engine in `app/etc/env.php`
 description: This article provides a solution to the issue where you try to change the search engine in the Commerce Admin, but the fields are locked.
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 ---
 # Cannot change search engine in `app/etc/env.php`
 

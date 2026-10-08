@@ -4,6 +4,15 @@ description: This article provides a solution to an untrusted, generated SSL cer
 exl-id: b7bfe1e6-5832-4472-9e51-f04b8583428a
 feature: Configuration
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # PWA Studio: browser not trust generated SSL certificate
 

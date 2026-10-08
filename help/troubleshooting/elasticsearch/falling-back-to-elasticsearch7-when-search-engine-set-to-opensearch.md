@@ -4,6 +4,18 @@ description: This article provides a solution for the issue when a *Falling back
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]
 

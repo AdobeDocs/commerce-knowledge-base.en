@@ -3,6 +3,12 @@ title: Allocate more space for MySQL in Adobe Commerce on cloud
 description: This article provide instructions on how to allocate more space for MySQL in Adode Commerce on cloud infrastructure.
 exl-id: 98501aa0-5ec7-4ea1-8856-13d171ad0be9
 feature: Cloud
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
 ---
 # Allocate more space for MySQL in Adobe Commerce on cloud
 

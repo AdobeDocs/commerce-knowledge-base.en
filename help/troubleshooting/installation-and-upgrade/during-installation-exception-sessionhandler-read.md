@@ -1,6 +1,9 @@
 ---
 title: During installation, exception SessionHandler::read()
-description: "This article provides a fix for an exception **SessionHandler::read()** error during Adobe Commerce installation."
+description: This article provides a fix for an exception **SessionHandler::read()** error during Adobe Commerce installation.
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 ---
 
 # During installation, exception SessionHandler::read()

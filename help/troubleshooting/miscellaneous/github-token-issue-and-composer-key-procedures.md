@@ -4,6 +4,18 @@ description: This article provides solutions for the issue of failed deployments
 exl-id: 202cb936-f9ba-49ea-bf0a-6e6994d2337a
 feature: Identity Management
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: 23bc8570-95c6-5ef5-a563-2e4a4e6b4853
+    internal-label: Identity Management
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Github token issue and Composer key procedures
 

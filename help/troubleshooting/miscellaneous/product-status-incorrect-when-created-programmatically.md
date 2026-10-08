@@ -4,6 +4,15 @@ description: This article provides a fix for when product status is Disabled and
 exl-id: ac02f961-f9e2-4620-839f-b8dbd0befb15
 feature: Products
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Product status incorrect when created programmatically
 

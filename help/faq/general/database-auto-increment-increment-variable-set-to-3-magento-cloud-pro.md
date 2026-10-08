@@ -3,6 +3,12 @@ title: Database auto_increment increment variable set to "3" Adobe Commerce on o
 description: This is the expected behavior for Adobe Commerce on cloud infrastructure Pro plan architecture solutions due to the 3-node architecture and cannot be modified.
 exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
 ---
 # Database auto_increment increment variable set to "3" Adobe Commerce on our cloud pro architecture
 

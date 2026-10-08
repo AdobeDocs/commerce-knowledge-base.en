@@ -4,6 +4,15 @@ description: This article provides solutions for issues when trying to utilize t
 exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
 feature: Roles/Permissions
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Cannot access the latest Adobe Commerce pre-release
 

@@ -4,6 +4,18 @@ description: Adobe has released the Quality Patches Tool for general availabilit
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
 feature: Tools and External Services
 role: Admin
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: 618ab558-d6ad-5352-99d6-d5702c6fdf80
+    internal-label: Tools and External Services
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Quality Patches Tool released: new tool to self-serve quality patches
 

@@ -4,6 +4,19 @@ description: This article provides a workaround for the issue when you are not a
 exl-id: eb340813-aba5-43a4-af5d-8fb64c93e021
 feature: CMS, Marketing Tools, Storefront
 role: Admin
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Cannot save *contact* as the URL key
 

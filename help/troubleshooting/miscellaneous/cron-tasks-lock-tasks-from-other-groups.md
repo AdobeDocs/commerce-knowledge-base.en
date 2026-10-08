@@ -4,6 +4,15 @@ description: This article provides a solution for the Adobe Commerce on cloud in
 exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 feature: Configuration
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # [!DNL Cron] tasks lock tasks from other groups
 

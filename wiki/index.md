@@ -1,3 +1,9 @@
+---
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+---
+
 # Adobe Commerce Support Knowledge Base Repository Documentation
 
 Welcome to the home of the Adobe Commerce Support Knowledge Base repo documentation.

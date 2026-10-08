@@ -1,9 +1,18 @@
 ---
-title: "[!DNL Cron] job is stuck in **running** status"
+title: '[!DNL Cron] job is stuck in **running** status'
 description: This article provides solutions for when Adobe Commerce [!DNL cron] jobs do not finish executing and persist in a "running" status, which prevents other [!DNL cron] jobs from running. This can happen for a number of reasons, such as network issues, application crashes, re-deployment issues.
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # [!DNL Cron] job is stuck in "running" status
 

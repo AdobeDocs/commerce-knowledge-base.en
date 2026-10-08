@@ -3,6 +3,15 @@ title: Checklist for setting up a new [!DNL domain]
 description: This is a checklist of how to set up a new [!DNL domain] in Adobe Commerce on cloud infrastructure.
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
 ---
 # Checklist for setting up a new [!DNL domain]
 

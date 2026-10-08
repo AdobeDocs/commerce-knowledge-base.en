@@ -3,6 +3,12 @@ title: How many coupons can a customer use in Adobe Commerce?
 description: This document provides the quantity of coupons that a customer can use in Adobe Commerce.
 exl-id: 7ec409fc-0660-425f-bfaa-aa55b712e162
 feature: Marketing Tools
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
 ---
 # How many coupons can a customer use in Adobe Commerce?
 

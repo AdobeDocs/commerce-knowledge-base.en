@@ -4,6 +4,19 @@ description: This article provides a solution to Adobe Commerce on cloud infrast
 exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
 feature: Cloud, Communications, Paas
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Former team members receive Adobe Commerce cloud notification emails
 

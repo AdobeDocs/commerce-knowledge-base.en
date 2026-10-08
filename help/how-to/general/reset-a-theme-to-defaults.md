@@ -3,6 +3,15 @@ title: Reset a theme to defaults
 description: Depending on issues you may be encountering when customizing your themes and developing your store, you may not have access through the Commerce Admin. You can clear and reset to your theme default without accessing the Admin. After you clear the theme, the default Luma theme will be applied.
 exl-id: 86304dd5-f448-4dcc-ad07-04ecc6c85b6d
 feature: Cache
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
 ---
 # Reset a theme to defaults
 

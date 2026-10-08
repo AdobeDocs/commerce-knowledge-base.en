@@ -4,6 +4,15 @@ description: This article provides a fix for when you can't update Adobe Commerc
 exl-id: b133253e-c160-4f15-a9b0-8591e93a1e9b
 feature: Upgrade
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # git pull origin develop fails when updating the Adobe Commerce software
 

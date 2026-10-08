@@ -3,6 +3,12 @@ title: Adobe Commerce *post-deploy is skipped because deploy was failed* error
 description: 'This article explains how to investigate a deployment error: *Post-deploy is skipped because deploy was failed*'
 exl-id: cd0a3015-b7b9-442e-8ac1-89447ef12cd7
 feature: Deploy
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
 ---
 # Adobe Commerce *post-deploy is skipped because deploy was failed* error
 

@@ -4,6 +4,15 @@ description: This article provides a solution for when in Adobe Commerce 2.1 or 
 exl-id: 62d16d3c-7f4b-45e9-ae4b-fe2b58cc3620
 feature: Configuration
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Resolve an illegal offset error
 

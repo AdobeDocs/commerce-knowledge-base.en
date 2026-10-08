@@ -3,6 +3,17 @@ title: Can I schedule Content Staging updates for prices in a shared catalog?
 description: Adobe Commerce does not offer the functionality of scheduling a price update ([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) for one or more products in a shared catalog.
 exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 feature: Catalog Management, Customer Service
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 ---
 # Can I schedule Content Staging updates for prices in a shared catalog?
 
