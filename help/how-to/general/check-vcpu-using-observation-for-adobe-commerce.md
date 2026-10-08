@@ -3,6 +3,9 @@ title: View environment vCPU tier in your cluster on Adobe Commerce
 promoted: true
 description: This article explains how to check your vCPU tier allocation using the New Relic Infra tab on Observation for Adobe Commerce. Observation for Adobe Commerce is a New Relic nerdlet which shows the state of your Adobe Commerce site, current and past time views.
 exl-id: a0332e7e-d38d-47d3-b3da-293902f45edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 ---
 # View environment vCPU tier in your cluster on Adobe Commerce
 

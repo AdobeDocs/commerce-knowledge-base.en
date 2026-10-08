@@ -1,3 +1,9 @@
+---
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+---
+
 # Metadata validation guide
 
 To ensure correct formatting of metadata in MD files, we have put in place a metadata validation test. This document provides guidelines to help contributors avoid some of the most common metadata validation errors.

@@ -3,6 +3,12 @@ title: Create database dump on Adobe Commerce on cloud infrastructure
 description: This article discusses the possible (and recommended) ways to create a database (DB) dump on Adobe Commerce on cloud infrastructure.
 exl-id: 4a2e54ac-8d65-4e51-8337-08f9748dc6c0
 feature: Cloud
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
 ---
 # Create database dump on Adobe Commerce on cloud infrastructure
 

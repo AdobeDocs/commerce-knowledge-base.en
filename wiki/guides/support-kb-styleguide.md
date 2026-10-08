@@ -1,3 +1,9 @@
+---
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+---
+
 # Support KB Style Guide
 
 Please follow these style and formatting recommendations, when contributing to the Adobe Commerce Help Center.

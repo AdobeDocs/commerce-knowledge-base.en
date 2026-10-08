@@ -2,6 +2,9 @@
 title: Cannot access the latest Beta version
 description: This article provides solutions for issues when trying to utilize the latest Beta versions of code for Adobe Commerce. Beta code is only available for official Adobe partners that have followed the process described in [Adobe Commerce Beta Program](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
 exl-id: a53c854e-38a8-4c8c-8586-9d99c576c835
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 ---
 # Cannot access the latest Beta version
 

@@ -4,6 +4,15 @@ description: This article provides a fix for when you can't clone the Magento Gi
 exl-id: 65de77b5-496d-42a3-ab2e-1fff9df97160
 feature: Data Import/Export
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Cannot clone the Magento GitHub repository
 

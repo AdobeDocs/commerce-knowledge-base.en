@@ -4,6 +4,19 @@ description: This article provides a workaround to the  [!DNL SendGrid] limitati
 feature: Deploy, Marketing Tools
 role: Developer, Admin
 exl-id: 48629f48-8100-4128-9211-53d947aecd49
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # [!DNL SendGrid] limitation for Adobe Commerce Cloud
 

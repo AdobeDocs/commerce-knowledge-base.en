@@ -4,6 +4,17 @@ description: This article provides a solution for the issue where the Pro integr
 feature: Integration, Staging
 role: Developer
 exl-id: 46110dbc-2f54-4654-95e2-39e8ae1e6979
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Poor performance in integration environments
 

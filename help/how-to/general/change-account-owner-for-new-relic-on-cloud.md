@@ -3,6 +3,12 @@ title: Change account owner for New Relic on Cloud
 description: For your Adobe Commerce on cloud infrastructure project, you may change the New Relic account owner on the New Relic UI page. For detailed steps, see [Tutorial on managing accounts and user access](https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-user-management/account-user-mgmt-tutorial/) in New Relic documentation.
 exl-id: fbb778d5-7e5d-4cd9-849a-4071ca9e4bea
 feature: Cloud
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
 ---
 # Change account owner for New Relic on Cloud
 

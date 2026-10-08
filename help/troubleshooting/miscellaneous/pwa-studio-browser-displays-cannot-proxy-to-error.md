@@ -4,6 +4,18 @@ description: This topic discusses a solution when your web browser displays a "*
 exl-id: de689633-34b8-4a25-bbd0-a58742c4d03c
 feature: Console
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # PWA Studio: Browser displays “Cannot proxy to“ error
 

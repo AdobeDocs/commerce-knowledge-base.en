@@ -4,6 +4,21 @@ description: This article provides a solution and workaround for the issue, wher
 exl-id: 9175570c-b06c-4a65-b8ca-7a12ff266afb
 feature: Orders, Page Content, Shopping Cart, Storefront
 role: Admin
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Customers get logged out or lose cart content on Adobe Commerce storefront
 

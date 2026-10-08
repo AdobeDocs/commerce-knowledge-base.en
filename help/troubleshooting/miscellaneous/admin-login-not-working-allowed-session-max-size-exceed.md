@@ -2,6 +2,9 @@
 title: '[!UICONTROL Admin] login not working - allowed session max size exceeded'
 description: Solve the issue when you try to log in to your [!UICONTROL Admin] panel and the form refreshes and you're unable to log in.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 ---
 # [!UICONTROL Admin] login not working - allowed session max size exceeded
 

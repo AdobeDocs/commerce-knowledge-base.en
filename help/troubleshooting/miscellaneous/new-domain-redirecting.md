@@ -4,6 +4,15 @@ description: This article provides a fix for the issue where the new domain redi
 exl-id: 88e9eb3f-9b82-4ca3-aa80-e49f360b3eb9
 feature: Configuration
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # New domain is redirecting to default domain
 

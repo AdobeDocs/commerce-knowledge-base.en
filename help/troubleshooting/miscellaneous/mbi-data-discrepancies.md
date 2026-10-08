@@ -1,9 +1,18 @@
 ---
 title: 'MBI: Data discrepancies'
-description: "Do the numbers on a certain report look inaccurate? Do you see unexpected NULL values? If you see something that doesn't seem quite right, we recommend using these resources to help you troubleshoot:"
+description: 'Do the numbers on a certain report look inaccurate? Do you see unexpected NULL values? If you see something that doesn''t seem quite right, we recommend using these resources to help you troubleshoot:'
 exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 feature: Commerce Intelligence
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # MBI: Data discrepancies
 

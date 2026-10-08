@@ -3,6 +3,12 @@ title: Adobe Commerce GDPR resources
 description: This article lists the official documentation resources that discuss how Adobe Commerce complies with the GDPR (European Union's General Data Protection Regulation).
 exl-id: d578ff9b-e39c-4c5b-8aaf-f41cab5c1fbb
 feature: Compliance
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
 ---
 # Adobe Commerce GDPR resources
 

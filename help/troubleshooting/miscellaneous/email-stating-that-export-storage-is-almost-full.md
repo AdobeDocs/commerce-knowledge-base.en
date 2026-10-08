@@ -4,6 +4,19 @@ description: This article provides a solution for the issue where you receive an
 feature: Cloud, Storage, Media
 role: Developer
 exl-id: 7dae295c-919c-46c5-bf63-7d3467c2e07f
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: aa037b12-c774-5642-a947-459024feb1a2
+    internal-label: Storage
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Email stating that exports storage is almost full
 

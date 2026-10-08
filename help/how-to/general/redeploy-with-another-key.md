@@ -3,6 +3,14 @@ title: 'Adobe Commerce on cloud: change authentication keys and redeploy'
 description: This article provides instructions on how to redeploy Adobe Commerce on cloud infrastructure with different authentication keys. For example, you might have used the keys for another account or you might have used Magento Open Source keys instead of Adobe Commerce keys.
 exl-id: 47407c81-5c52-406f-812f-6c6b3ca5cafa
 feature: Cloud, Deploy
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
 ---
 # Adobe Commerce on cloud: change authentication keys and redeploy
 

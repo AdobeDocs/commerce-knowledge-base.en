@@ -1,3 +1,9 @@
+---
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+---
+
 # KB Labels Guide
 
 This document provides guidelines for adding labels to articles in the Adobe Commerce Support Knowledge Base.

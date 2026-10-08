@@ -2,6 +2,9 @@
 title: ElasticSuite tracking indices causes problems with Elasticsearch
 description: This article talks about the issue of Elasticsearch memory problems caused by tracking indices produced by the ElasticSuite plugin.
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 ---
 # ElasticSuite tracking indices causes problems with Elasticsearch
 

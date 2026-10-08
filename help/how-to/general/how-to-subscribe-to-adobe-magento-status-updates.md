@@ -2,6 +2,9 @@
 title: How to subscribe to Adobe Commerce status updates
 description: This article explains how you can subscribe to Adobe Commerce status on [Adobe status](https://status.adobe.com) for status alerts, updates, and information concerning any major outages or maintenance.
 exl-id: 17b39925-4726-45da-b55d-c04c9b782df1
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 ---
 # How to subscribe to Adobe Commerce status updates
 

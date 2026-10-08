@@ -1,9 +1,18 @@
 ---
-title: 'Offload non-[!DNL regex] redirects to [!DNL Fastly] instead of [!DNL Nginx] (routes)'
+title: Offload non-[!DNL regex] redirects to [!DNL Fastly] instead of [!DNL Nginx] (routes)
 description: This topic suggests a solution to a typical redirects performance issue you might have when you offload non-[!DNL regex] redirects to [!DNL Fastly] instead of [!DNL Nginx] in Adobe Commerce on cloud infrastructure.
 exl-id: 8b22d25d-0865-4d21-b275-d344ba8748f2
 feature: Routes
 role: Developer
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 1783ae9f-7157-5aeb-a915-91e260301e46
+    internal-label: Routes
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Offload non-[!DNL regex] redirects to [!DNL Fastly] instead of [!DNL Nginx] (routes)
 

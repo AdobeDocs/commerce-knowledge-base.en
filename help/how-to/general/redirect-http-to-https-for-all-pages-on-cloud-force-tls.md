@@ -3,6 +3,17 @@ title: Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastru
 description: Activate the Fastly's **Force TLS** functionality in the Commerce Admin to enable the global HTTP to HTTPS redirect for all pages of your Adobe Commerce on cloud infrastructure store.
 exl-id: 71667f52-a99a-47a6-99d8-10532364870f
 feature: Cache, Cloud
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
 ---
 # Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastructure (Force TLS)
 
