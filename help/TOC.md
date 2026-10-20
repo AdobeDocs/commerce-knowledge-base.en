@@ -68,7 +68,6 @@ breadcrumb-title: Commerce KB
     * [Revised patches for Google Maps access loss on all Adobe Commerce versions](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Miscellaneous {#miscellaneous}
     * [I've configured API keys for Adobe AI but only seeing one SaaS data space](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
-    * [General custom module troubleshooting help](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [Using Data Exports to pinpoint discrepancies](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [Component dependency readiness check issues](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
     * [Cannot access Adobe Commerce on cloud infrastructure UI](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
